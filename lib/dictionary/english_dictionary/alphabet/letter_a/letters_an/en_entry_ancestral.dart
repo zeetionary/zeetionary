@@ -138,9 +138,8 @@ class EnglishEntryancestral extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,8 @@ class EnglishEntryancestral extends StatelessWidget {
                             kurdishText:
                                 "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو.",
                             onPressedBritish: () => speakancestral4609("en-GB"),
-                            onPressedAmerican: () => speakancestral4609(
-                                // REPLACE: ancestral /ænˈsestrəl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakancestral4609("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -46,7 +46,8 @@ class EnglishEntryamble extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,       child: Scaffold(
+      length: 3,
+      child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
           padding:
@@ -62,7 +63,8 @@ class EnglishEntryamble extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amble"),                           ],
+                            EntryTitle(word: "amble"),
+                          ],
                         ),
                         Row(
                           children: [
@@ -74,9 +76,7 @@ class EnglishEntryamble extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæmbl/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈæmbl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakamble("en-US"),
                             ),
@@ -97,9 +97,8 @@ class EnglishEntryamble extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryamble extends StatelessWidget {
                             englishText: "Mark ambled over to the girls.",
                             kurdishText: "مارک بەھێواشی چوو بۆ لای کچەکان.",
                             onPressedBritish: () => speakamble88544("en-GB"),
-                            onPressedAmerican: () => speakamble88544(
-                                // REPLACE: amble /ˈæmbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakamble88544("en-US"),
                           ),
                           // const DividerSentences()
                           // const DividerDefinition()

@@ -138,9 +138,8 @@ class EnglishEntryanorexic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                             kurdishText:
                                 "خواردن نەخواردن وا لە کەسێکی بێ‌ئیشتیا دەکات ھەست بکات کۆنترۆڵی کێشی کردووە.",
                             onPressedBritish: () => speakanorexic908("en-GB"),
-                            onPressedAmerican: () => speakanorexic908(
-                                // REPLACE: anorexic /ˌænəˈreksɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakanorexic908("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -169,9 +166,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                             englishText: "She looks anorexic to me.",
                             kurdishText: "بێ‌ئیشتیا دیارە لام.",
                             onPressedBritish: () => speakanorexic909("en-GB"),
-                            onPressedAmerican: () => speakanorexic909(
-                                // REPLACE: anorexic /ˌænəˈreksɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakanorexic909("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -63,7 +63,7 @@ class EnglishEntryalmond extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "almond"), // Find /ˈɑːmənd/
+                            EntryTitle(word: "almond"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryalmond extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryalmond extends StatelessWidget {
                             kurdishText:
                                 "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە.",
                             onPressedBritish: () => speakalmond4211("en-GB"),
-                            onPressedAmerican: () => speakalmond4211(
-                                // REPLACE: almond /ˈɑːmənd/
-                                "en-US"),
+                            onPressedAmerican: () => speakalmond4211("en-US"),
                           ),
                         ],
                       ),

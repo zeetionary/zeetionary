@@ -64,7 +64,7 @@ class EnglishEntryageism extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ageism"), // Find /ˈeɪdʒɪzəm/
+                            EntryTitle(word: "ageism"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryageism extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +117,14 @@ class EnglishEntryageism extends StatelessWidget {
                             kurdishText:
                                 "لە تەمەنی ٥٦ ساڵی کەس کاری پێنەدەدا، و ھەستی دەکرد قوربانیەکی تەمەنگەرییە.",
                             onPressedBritish: () => speakagei148885("en-GB"),
-                            onPressedAmerican: () => speakagei148885(
-                                // REPLACE: ageism /ˈeɪdʒɪzəm/
-                                "en-US"),
+                            onPressedAmerican: () => speakagei148885("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

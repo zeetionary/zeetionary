@@ -148,9 +148,8 @@ class EnglishEntryassignment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,8 @@ class EnglishEntryassignment extends StatelessWidget {
                             kurdishText:
                                 "قوتابیان دەبێت ھەموو ئەرکی ماڵەوە تەواو بکەن.",
                             onPressedBritish: () => speakassignment724("en-GB"),
-                            onPressedAmerican: () => speakassignment724(
-                                // REPLACE: assignment /əˈsaɪnmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassignment724("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -179,9 +177,8 @@ class EnglishEntryassignment extends StatelessWidget {
                             kurdishText:
                                 "لەسەر ئەرکە لە یۆنان بۆ یەکێک لە ڕۆژنامەکانی یەکشەممان.",
                             onPressedBritish: () => speakassignment726("en-GB"),
-                            onPressedAmerican: () => speakassignment726(
-                                // REPLACE: assignment /əˈsaɪnmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassignment726("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +190,8 @@ class EnglishEntryassignment extends StatelessWidget {
                             kurdishText:
                                 "ڕاسپاردنی بۆ ماوەی دوو ساڵ بۆ ئۆفیسی مەکسیک لە ئەیلوولەوە دەستپێ‌دەکات.",
                             onPressedBritish: () => speakassignment732("en-GB"),
-                            onPressedAmerican: () => speakassignment732(
-                                // REPLACE: assignment /əˈsaɪnmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassignment732("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

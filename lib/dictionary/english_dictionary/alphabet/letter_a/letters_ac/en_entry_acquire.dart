@@ -64,7 +64,7 @@ class EnglishEntryacquire extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acquire"), // Find /əˈkwaɪə(r)/
+                            EntryTitle(word: "acquire"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryacquire extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -142,7 +141,7 @@ class EnglishEntryacquire extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -138,9 +138,8 @@ class EnglishEntryannually extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,7 @@ class EnglishEntryannually extends StatelessWidget {
                             englishText: "The exhibition is held annually.",
                             kurdishText: "پێشانگاکە ساڵی جارێک ئەنجام‌دەدرێت.",
                             onPressedBritish: () => speakannually840("en-GB"),
-                            onPressedAmerican: () => speakannually840(
-                                // REPLACE: annually /ˈænjuəli/
-                                "en-US"),
+                            onPressedAmerican: () => speakannually840("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

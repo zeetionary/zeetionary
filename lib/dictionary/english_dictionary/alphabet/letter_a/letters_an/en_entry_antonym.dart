@@ -142,9 +142,8 @@ class EnglishEntryantonym extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryantonym extends StatelessWidget {
                             kurdishText:
                                 "فەرھەنگی دژواتاکان ئامرازێکی یارمەتیدەرە بۆ تێگەشتن لە دژواتاکان لە زمانێکدا.",
                             onPressedBritish: () => speakantonym144("en-GB"),
-                            onPressedAmerican: () => speakantonym144(
-                                // REPLACE: antonym /ˈæntənɪm/
-                                "en-US"),
+                            onPressedAmerican: () => speakantonym144("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

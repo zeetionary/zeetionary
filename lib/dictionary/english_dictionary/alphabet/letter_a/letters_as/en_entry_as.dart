@@ -159,9 +159,7 @@ class EnglishEntryas extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "as"), // Find /əz/, strong form  /æz/
-                            // divvviiider
+                            EntryTitle(word: "as"),
                           ],
                         ),
                         Row(
@@ -197,9 +195,8 @@ class EnglishEntryas extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -216,9 +213,7 @@ class EnglishEntryas extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکان ھەموویان وەک ئەفسەری پۆلیس جلیان پۆشیبوو.",
                             onPressedBritish: () => speakas1035("en-GB"),
-                            onPressedAmerican: () => speakas1035(
-                                // REPLACE: as /əz/, strong form  /æz/
-                                "en-US"),
+                            onPressedAmerican: () => speakas1035("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -226,9 +221,7 @@ class EnglishEntryas extends StatelessWidget {
                             englishText: "The bomb was disguised as a package.",
                             kurdishText: "بۆمبەکە لە شێوەی پاکێجێکدا بوو.",
                             onPressedBritish: () => speakas1038("en-GB"),
-                            onPressedAmerican: () => speakas1038(
-                                // REPLACE: as /əz/, strong form  /æz/
-                                "en-US"),
+                            onPressedAmerican: () => speakas1038("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -238,9 +231,7 @@ class EnglishEntryas extends StatelessWidget {
                             englishText: "Treat me as a friend.",
                             kurdishText: "وەک ھاوڕێیەک بمبینە.",
                             onPressedBritish: () => speakas1041("en-GB"),
-                            onPressedAmerican: () => speakas1041(
-                                // REPLACE: as /əz/, strong form  /æz/
-                                "en-US"),
+                            onPressedAmerican: () => speakas1041("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -248,9 +239,7 @@ class EnglishEntryas extends StatelessWidget {
                             englishText: "The news came as a shock.",
                             kurdishText: "ھەواڵەکە وەک شۆکێک وابوو.",
                             onPressedBritish: () => speakas1042("en-GB"),
-                            onPressedAmerican: () => speakas1042(
-                                // REPLACE: as /əz/, strong form  /æz/
-                                "en-US"),
+                            onPressedAmerican: () => speakas1042("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -260,9 +249,7 @@ class EnglishEntryas extends StatelessWidget {
                             englishText: "You're as tall as your father.",
                             kurdishText: "ھێندەی باوکت درێژی.",
                             onPressedBritish: () => speakas1044("en-GB"),
-                            onPressedAmerican: () => speakas1044(
-                                // REPLACE: as /əz/, strong form  /æz/
-                                "en-US"),
+                            onPressedAmerican: () => speakas1044("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -272,9 +259,7 @@ class EnglishEntryas extends StatelessWidget {
                             englishText: "As always, he said little.",
                             kurdishText: "وەک ھەمیشە، کەمێک قسەی کرد.",
                             onPressedBritish: () => speakas1046("en-GB"),
-                            onPressedAmerican: () => speakas1046(
-                                // REPLACE: as /əz/, strong form  /æz/
-                                "en-US"),
+                            onPressedAmerican: () => speakas1046("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -285,9 +270,7 @@ class EnglishEntryas extends StatelessWidget {
                                 "As many as 2 million people could be affected.",
                             kurdishText: "تا ٢ ملیۆن کەس دەکرێت کاریگەر بن.",
                             onPressedBritish: () => speakas1047("en-GB"),
-                            onPressedAmerican: () => speakas1047(
-                                // REPLACE: as /əz/, strong form  /æz/
-                                "en-US"),
+                            onPressedAmerican: () => speakas1047("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -298,9 +281,7 @@ class EnglishEntryas extends StatelessWidget {
                                 "He sat watching her as she got ready.",
                             kurdishText: "دانیشتوو سەیری کرد کە خۆی دەگۆڕی.",
                             onPressedBritish: () => speakas1049("en-GB"),
-                            onPressedAmerican: () => speakas1049(
-                                // REPLACE: as /əz/, strong form  /æz/
-                                "en-US"),
+                            onPressedAmerican: () => speakas1049("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -147,9 +147,8 @@ class EnglishEntryarrival extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryarrival extends StatelessWidget {
                             kurdishText:
                                 "داوای لێبووردن ئەکەین بۆ درەنگ گەشتنی شەمەندەفەرەکە.",
                             onPressedBritish: () => speakarrival504("en-GB"),
-                            onPressedAmerican: () => speakarrival504(
-                                // REPLACE: arrival /əˈraɪvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrival504("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryarrival extends StatelessWidget {
                             kurdishText:
                                 "کاتی پێشبینیکراوی گەشتنمان ٧:١٥ خولەکە.",
                             onPressedBritish: () => speakarrival506("en-GB"),
-                            onPressedAmerican: () => speakarrival506(
-                                // REPLACE: arrival /əˈraɪvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrival506("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +184,7 @@ class EnglishEntryarrival extends StatelessWidget {
                             englishText: "I made my way through arrivals.",
                             kurdishText: "بە بەشی گەشتندا تێپەڕیم.",
                             onPressedBritish: () => speakarrival508("en-GB"),
-                            onPressedAmerican: () => speakarrival508(
-                                // REPLACE: arrival /əˈraɪvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrival508("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -203,9 +196,7 @@ class EnglishEntryarrival extends StatelessWidget {
                             kurdishText:
                                 "پێشبینی ئەندامێکی تازە بۆ خێزانەکە دەکەین.",
                             onPressedBritish: () => speakarrival509("en-GB"),
-                            onPressedAmerican: () => speakarrival509(
-                                // REPLACE: arrival /əˈraɪvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrival509("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -215,9 +206,7 @@ class EnglishEntryarrival extends StatelessWidget {
                             kurdishText:
                                 "ئەو کەسانەی سەرەتا گەشتنە کۆنسێرتەکە باشترین جێگاکانیان بەرکەوت.",
                             onPressedBritish: () => speakarrival512("en-GB"),
-                            onPressedAmerican: () => speakarrival512(
-                                // REPLACE: arrival /əˈraɪvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrival512("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -229,9 +218,7 @@ class EnglishEntryarrival extends StatelessWidget {
                             kurdishText:
                                 "دەرکەوتنی سەتەلایت شێوازی پەخشکردنی تەلەفیزیۆنی گۆڕی.",
                             onPressedBritish: () => speakarrival515("en-GB"),
-                            onPressedAmerican: () => speakarrival515(
-                                // REPLACE: arrival /əˈraɪvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrival515("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

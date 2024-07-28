@@ -147,9 +147,8 @@ class EnglishEntryassist extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryassist extends StatelessWidget {
                             kurdishText:
                                 "بۆ کەسانێک دەگەڕێین کە ئامادەبن یارمەتیدەربن لە کاری گرووپەکە.",
                             onPressedBritish: () => speakassist848("en-GB"),
-                            onPressedAmerican: () => speakassist848(
-                                // REPLACE: assist /əˈsɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakassist848("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryassist extends StatelessWidget {
                             kurdishText:
                                 "ئەرکەکەی ئەوەیە ڕاوێژ بدات بە ھاوکارەکانی و یارمەتییان بدات.",
                             onPressedBritish: () => speakassist849("en-GB"),
-                            onPressedAmerican: () => speakassist849(
-                                // REPLACE: assist /əˈsɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakassist849("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,9 +186,7 @@ class EnglishEntryassist extends StatelessWidget {
                             kurdishText:
                                 "تەقینەوەی گڕکانی وەک ئەمە ئەگەری ھەیە یارمەتیدەر بووبن لە گەشەی ژیان لەسەر زەوی.",
                             onPressedBritish: () => speakassist852("en-GB"),
-                            onPressedAmerican: () => speakassist852(
-                                // REPLACE: assist /əˈsɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakassist852("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

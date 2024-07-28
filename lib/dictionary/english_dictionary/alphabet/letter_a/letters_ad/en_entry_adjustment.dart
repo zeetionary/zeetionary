@@ -64,8 +64,7 @@ class EnglishEntryadjustment extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adjustment"), // Find /əˈdʒʌstmənt/
+                            EntryTitle(word: "adjustment"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryadjustment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +116,7 @@ class EnglishEntryadjustment extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە.",
                             onPressedBritish: () => speakadjus56911("en-GB"),
-                            onPressedAmerican: () => speakadjus56911(
-                                // REPLACE: adjustment /əˈdʒʌstmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadjus56911("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -131,16 +127,14 @@ class EnglishEntryadjustment extends StatelessWidget {
                             kurdishText:
                                 "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت.",
                             onPressedBritish: () => speakadjust5568("en-GB"),
-                            onPressedAmerican: () => speakadjust5568(
-                                // REPLACE: adjustment /əˈdʒʌstmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadjust5568("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -163,9 +163,8 @@ class EnglishEntryammonia extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -182,9 +181,7 @@ class EnglishEntryammonia extends StatelessWidget {
                                 "It is dangerous to inhale ammonia fumes.",
                             kurdishText: "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە.",
                             onPressedBritish: () => speakammonia74555("en-GB"),
-                            onPressedAmerican: () => speakammonia74555(
-                                // REPLACE: ammonia /əˈməʊniə/
-                                "en-US"),
+                            onPressedAmerican: () => speakammonia74555("en-US"),
                           ),
                         ],
                       ),

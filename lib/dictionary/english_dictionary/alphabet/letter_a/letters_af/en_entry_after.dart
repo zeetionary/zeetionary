@@ -179,7 +179,7 @@ class EnglishEntryafter extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "after"), // Find /ˈɑːftə(r)/
+                            EntryTitle(word: "after"),
                           ],
                         ),
                         Row(
@@ -213,9 +213,8 @@ class EnglishEntryafter extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -229,9 +228,7 @@ class EnglishEntryafter extends StatelessWidget {
                             englishText: "We'll leave after lunch.",
                             kurdishText: "لە دوای نانی نیوەڕۆ دەچین.",
                             onPressedBritish: () => speakafter157("en-GB"),
-                            onPressedAmerican: () => speakafter157(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter157("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -240,9 +237,7 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "لە دوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو.",
                             onPressedBritish: () => speakafter2499("en-GB"),
-                            onPressedAmerican: () => speakafter2499(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter2499("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -253,18 +248,14 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "ناوت لە دوای ھی منەوەیە لە لیستەکەدا.",
                             onPressedBritish: () => speakafter4888("en-GB"),
-                            onPressedAmerican: () => speakafter4888(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter4888("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "He's the tallest, after Richard.",
                             kurdishText: "لە دوای ڕیچارد ئەو بەرزترینە.",
                             onPressedBritish: () => speakafter4666("en-GB"),
-                            onPressedAmerican: () => speakafter4666(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter4666("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -273,9 +264,7 @@ class EnglishEntryafter extends StatelessWidget {
                             englishText: "Shut the door after you.",
                             kurdishText: "دەرگاکە بگرە لە دوای خۆت.",
                             onPressedBritish: () => speakafter7928("en-GB"),
-                            onPressedAmerican: () => speakafter7928(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter7928("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -286,9 +275,7 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە.",
                             onPressedBritish: () => speakafter4855("en-GB"),
-                            onPressedAmerican: () => speakafter4855(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter4855("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -299,9 +286,7 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "ھەرگیز لێی خۆشنابم لە دوای ئەوەی وتی.",
                             onPressedBritish: () => speakafter5622("en-GB"),
-                            onPressedAmerican: () => speakafter5622(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter5622("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -312,9 +297,7 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە.",
                             onPressedBritish: () => speakafter96771("en-GB"),
-                            onPressedAmerican: () => speakafter96771(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter96771("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -325,9 +308,7 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت.",
                             onPressedBritish: () => speakafter152888("en-GB"),
-                            onPressedAmerican: () => speakafter152888(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter152888("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -336,9 +317,7 @@ class EnglishEntryafter extends StatelessWidget {
                             englishText: "The police are after him.",
                             kurdishText: "پۆلیس بەدوایەتی.",
                             onPressedBritish: () => speakafter1255("en-GB"),
-                            onPressedAmerican: () => speakafter1255(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter1255("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -348,9 +327,7 @@ class EnglishEntryafter extends StatelessWidget {
                                 "She asked after you (= how you were).",
                             kurdishText: "ھەواڵی پرسیت.",
                             onPressedBritish: () => speakafter945111("en-GB"),
-                            onPressedAmerican: () => speakafter945111(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter945111("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -361,9 +338,7 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا.",
                             onPressedBritish: () => speakafter459322("en-GB"),
-                            onPressedAmerican: () => speakafter459322(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter459322("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -374,9 +349,7 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "پەیوەندیت پێوە دەکەم لە دوای ئەوەی قسەیان لەگەڵ دەکەم.",
                             onPressedBritish: () => speakaft2566("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaft2566(// REPLACE: after /ˈɑːftər/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaft2566("en-US"),
                           ),
                           const DividerDefinition(),
                           SentencesRow(
@@ -385,9 +358,7 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە.",
                             onPressedBritish: () => speakafte499352("en-GB"),
-                            onPressedAmerican: () => speakafte499352(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafte499352("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -398,9 +369,7 @@ class EnglishEntryafter extends StatelessWidget {
                             kurdishText:
                                 "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە.",
                             onPressedBritish: () => speakafte98332("en-GB"),
-                            onPressedAmerican: () => speakafte98332(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafte98332("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -410,16 +379,14 @@ class EnglishEntryafter extends StatelessWidget {
                                 "In after years we never heard from him.",
                             kurdishText: "ساڵانی دواتر ھیچمان لێ نەبیست.",
                             onPressedBritish: () => speakafter5355("en-GB"),
-                            onPressedAmerican: () => speakafter5355(
-                                // REPLACE: after /ˈɑːftər/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter5355("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -145,9 +145,8 @@ class EnglishEntryarouse extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryarouse extends StatelessWidget {
                                 "Her strange behaviour aroused our suspicions.",
                             kurdishText: "ڕەفتارە نامۆکەی گومانی درووست‌کرد.",
                             onPressedBritish: () => speakarouse1147("en-GB"),
-                            onPressedAmerican: () => speakarouse1147(
-                                // REPLACE: arouse /əˈraʊz/
-                                "en-US"),
+                            onPressedAmerican: () => speakarouse1147("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +173,7 @@ class EnglishEntryarouse extends StatelessWidget {
                             kurdishText:
                                 "ئەو کچانەی بۆن لە خۆیان دەدەن دەیورووژێنن.",
                             onPressedBritish: () => speakarouse1154("en-GB"),
-                            onPressedAmerican: () => speakarouse1154(
-                                // REPLACE: arouse /əˈraʊz/
-                                "en-US"),
+                            onPressedAmerican: () => speakarouse1154("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +184,7 @@ class EnglishEntryarouse extends StatelessWidget {
                                 "The whole community was aroused by the crime.",
                             kurdishText: "تەواوی گەڕەکەکە بە تاوانەکە ڕاپەڕین.",
                             onPressedBritish: () => speakarouse1155("en-GB"),
-                            onPressedAmerican: () => speakarouse1155(
-                                // REPLACE: arouse /əˈraʊz/
-                                "en-US"),
+                            onPressedAmerican: () => speakarouse1155("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -203,9 +196,7 @@ class EnglishEntryarouse extends StatelessWidget {
                             kurdishText:
                                 "بە دەنگێکی بەرز لە خەوێکی قووڵ ھەستا.",
                             onPressedBritish: () => speakarouse1157("en-GB"),
-                            onPressedAmerican: () => speakarouse1157(
-                                // REPLACE: arouse /əˈraʊz/
-                                "en-US"),
+                            onPressedAmerican: () => speakarouse1157("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

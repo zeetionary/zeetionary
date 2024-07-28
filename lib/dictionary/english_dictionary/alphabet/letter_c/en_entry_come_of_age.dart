@@ -29,7 +29,6 @@ class EnglishEntrycomeofage extends StatelessWidget {
   }
 
   // Future<void> speakComeofage(String languageCode) async {
-  //   // DOPSUM: CHANGE speakComeofage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
@@ -47,7 +46,7 @@ class EnglishEntrycomeofage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: YoutubeEmbeddedone
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -64,8 +63,7 @@ class EnglishEntrycomeofage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "come of age"), // Find /kʌm əv eɪdʒ/
+                            EntryTitle(word: "come of age"),
                           ],
                         ),
                         Row(
@@ -99,9 +97,8 @@ class EnglishEntrycomeofage extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,16 +111,14 @@ class EnglishEntrycomeofage extends StatelessWidget {
                             kurdishText:
                                 "پارەکە دەدرێت بە منداڵەکان کە دەگەن بە تەمەنی یاسایی.",
                             onPressedBritish: () => speakCome142251("en-GB"),
-                            onPressedAmerican: () => speakCome142251(
-                                // REPLACE: come of age /kʌm əv eɪdʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakCome142251("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

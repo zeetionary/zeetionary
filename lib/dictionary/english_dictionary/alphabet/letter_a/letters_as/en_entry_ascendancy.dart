@@ -148,9 +148,8 @@ class EnglishEntryascendancy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -168,9 +167,8 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لە دوای گێمی یەکەم.",
                             onPressedBritish: () =>
                                 speakascendancy1157("en-GB"),
-                            onPressedAmerican: () => speakascendancy1157(
-                                // REPLACE: ascendancy /əˈsendənsi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakascendancy1157("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -181,9 +179,8 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 "پارتی ئۆپۆزیسیۆن دەسەڵاتی زیادی‌دەکرد.",
                             onPressedBritish: () =>
                                 speakascendancy1158("en-GB"),
-                            onPressedAmerican: () => speakascendancy1158(
-                                // REPLACE: ascendancy /əˈsendənsi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakascendancy1158("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -194,9 +191,8 @@ class EnglishEntryascendancy extends StatelessWidget {
                                 "بەڕێوبەرە تازەکە بەزوویی دەسەڵاتی بەسەر کۆمپانیایەکەدا سەپاند.",
                             onPressedBritish: () =>
                                 speakascendancy1201("en-GB"),
-                            onPressedAmerican: () => speakascendancy1201(
-                                // REPLACE: ascendancy /əˈsendənsi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakascendancy1201("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

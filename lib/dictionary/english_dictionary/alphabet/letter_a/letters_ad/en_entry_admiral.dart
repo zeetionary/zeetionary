@@ -63,7 +63,7 @@ class EnglishEntryadmiral extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "admiral"), // Find /ˈædmərəl/
+                            EntryTitle(word: "admiral"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadmiral extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -112,16 +111,14 @@ class EnglishEntryadmiral extends StatelessWidget {
                             kurdishText:
                                 "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد.",
                             onPressedBritish: () => speakadmi2568("en-GB"),
-                            onPressedAmerican: () => speakadmi2568(
-                                // REPLACE: admiral /ˈædmərəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmi2568("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

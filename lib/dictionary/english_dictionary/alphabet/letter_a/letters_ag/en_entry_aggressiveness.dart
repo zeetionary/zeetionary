@@ -65,8 +65,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "aggressiveness"), // Find /əˈɡresɪvnəs/
+                            EntryTitle(word: "aggressiveness"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryaggressiveness extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +116,8 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                             kurdishText:
                                 "خووگرتنمان بە نەوت تەنھا دوژمنایەتی و توندوتیژی و شەڕی لێ دەکەوێتەوە. لە ھەرکوێ نەوت دەربھێندرێت، خەڵکی بۆ پارە دەکوژرێن.",
                             onPressedBritish: () => speakaggressiv3749("en-GB"),
-                            onPressedAmerican: () => speakaggressiv3749(
-                                // REPLACE: aggressiveness /əˈɡresɪvnəs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaggressiv3749("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -132,16 +129,15 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                                 "بەھرە و سەرسەختیی بۆ سەرکەوتن وا دەکات ببێت بە ئەستێرەیەکی تێنس لە داھاتوودا.",
                             onPressedBritish: () =>
                                 speakaggressive4699("en-GB"),
-                            onPressedAmerican: () => speakaggressive4699(
-                                // REPLACE: aggressiveness /əˈɡresɪvnəs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaggressive4699("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

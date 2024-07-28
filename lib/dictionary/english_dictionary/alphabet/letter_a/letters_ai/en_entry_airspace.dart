@@ -65,7 +65,7 @@ class EnglishEntryairspace extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airspace"), // Find /ˈeəspeɪs/
+                            EntryTitle(word: "airspace"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryairspace extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryairspace extends StatelessWidget {
                             kurdishText:
                                 "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت.",
                             onPressedBritish: () => speakairspace4355("en-GB"),
-                            onPressedAmerican: () => speakairspace4355(
-                                // REPLACE: airspace /ˈerspeɪs/
-                                "en-US"),
+                            onPressedAmerican: () => speakairspace4355("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -128,9 +125,7 @@ class EnglishEntryairspace extends StatelessWidget {
                                 "The jet entered Chinese airspace without permission.",
                             kurdishText: "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت.",
                             onPressedBritish: () => speakairspace5366("en-GB"),
-                            onPressedAmerican: () => speakairspace5366(
-                                // REPLACE: airspace /ˈerspeɪs/
-                                "en-US"),
+                            onPressedAmerican: () => speakairspace5366("en-US"),
                           ),
                         ],
                       ),

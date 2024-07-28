@@ -64,9 +64,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "air conditioner"), // Find /ˈeə kəndɪʃənə(r)/
+                            EntryTitle(word: "air conditioner"),
                           ],
                         ),
                         Row(
@@ -101,9 +99,8 @@ class EnglishEntryairconditioner extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +114,8 @@ class EnglishEntryairconditioner extends StatelessWidget {
                                 "پلەی گەرمیی ژوورەکە کۆنترۆڵ کرابوو بە بەکارھێنانی ھەواگۆڕکێیەک/فێنککەرەوەیەک.",
                             onPressedBritish: () =>
                                 speakairconditio3411("en-GB"),
-                            onPressedAmerican: () => speakairconditio3411(
-                                // REPLACE: air conditioner /ˈer kəndɪʃənər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairconditio3411("en-US"),
                           ),
                         ],
                       ),

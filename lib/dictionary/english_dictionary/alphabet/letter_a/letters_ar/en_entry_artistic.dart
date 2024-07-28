@@ -147,9 +147,8 @@ class EnglishEntryartistic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryartistic extends StatelessWidget {
                             kurdishText:
                                 "توانا ھونەرییەکانی نیگارکێشانی سەردەمی بوژانەوە بەڕاستی ناوازە بوون.",
                             onPressedBritish: () => speakartistic902("en-GB"),
-                            onPressedAmerican: () => speakartistic902(
-                                // REPLACE: artistic /ɑːrˈtɪstɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakartistic902("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +177,7 @@ class EnglishEntryartistic extends StatelessWidget {
                             kurdishText:
                                 "ھاوڕێکانی ھەموویان دەسڕەنگینن، نیگارکێش و میوزیکژەن و نووسەرن.",
                             onPressedBritish: () => speakartistic904("en-GB"),
-                            onPressedAmerican: () => speakartistic904(
-                                // REPLACE: artistic /ɑːrˈtɪstɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakartistic904("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +189,7 @@ class EnglishEntryartistic extends StatelessWidget {
                             kurdishText:
                                 "دیکۆری ناو خانووەکە زۆر ھونەرکارانە بوو.",
                             onPressedBritish: () => speakartistic906("en-GB"),
-                            onPressedAmerican: () => speakartistic906(
-                                // REPLACE: artistic /ɑːrˈtɪstɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakartistic906("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

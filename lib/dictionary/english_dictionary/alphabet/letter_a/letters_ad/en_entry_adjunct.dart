@@ -64,7 +64,7 @@ class EnglishEntryadjunct extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adjunct"), // Find /ˈædʒʌŋkt/
+                            EntryTitle(word: "adjunct"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadjunct extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,16 +119,14 @@ class EnglishEntryadjunct extends StatelessWidget {
                             kurdishText:
                                 "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم.",
                             onPressedBritish: () => speakadj58692("en-GB"),
-                            onPressedAmerican: () => speakadj58692(
-                                // REPLACE: adjunct /ˈædʒʌŋkt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadj58692("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

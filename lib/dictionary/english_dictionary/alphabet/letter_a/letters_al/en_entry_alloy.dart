@@ -63,7 +63,7 @@ class EnglishEntryalloy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alloy"), // Find /ˈælɔɪ/
+                            EntryTitle(word: "alloy"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryalloy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryalloy extends StatelessWidget {
                                 "Brass is an alloy of copper and zinc.",
                             kurdishText: "مسی سپی داڕشتەی مس و زینکە.",
                             onPressedBritish: () => speakalloy4277("en-GB"),
-                            onPressedAmerican: () =>
-                                speakalloy4277(// REPLACE: alloy /ˈælɔɪ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakalloy4277("en-US"),
                           ),
                         ],
                       ),

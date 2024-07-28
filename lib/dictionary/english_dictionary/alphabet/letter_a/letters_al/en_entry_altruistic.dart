@@ -64,8 +64,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "altruistic"), // Find /ˌæltruˈɪstɪk/
+                            EntryTitle(word: "altruistic"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryaltruistic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,8 @@ class EnglishEntryaltruistic extends StatelessWidget {
                                 "گومانم ھەیە مەبەستی لە بەخشینی پارەکە تەنھا لەخۆبردووی بێت، پێدەچێت بۆ ناوبانگ بگەڕێت.",
                             onPressedBritish: () =>
                                 speakaltruistic4583("en-GB"),
-                            onPressedAmerican: () => speakaltruistic4583(
-                                // REPLACE: altruistic /ˌæltruˈɪstɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaltruistic4583("en-US"),
                           ),
                         ],
                       ),

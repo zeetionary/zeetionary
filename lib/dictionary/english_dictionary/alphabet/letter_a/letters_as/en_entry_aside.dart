@@ -147,9 +147,8 @@ class EnglishEntryaside extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryaside extends StatelessWidget {
                             englishText: "She pulled the curtain aside.",
                             kurdishText: "پەردەکەی لادا.",
                             onPressedBritish: () => speakaside625("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaside625(// REPLACE: aside /əˈsaɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaside625("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -175,9 +172,7 @@ class EnglishEntryaside extends StatelessWidget {
                             kurdishText:
                                 "بچۆ ئەولاوە و بھێڵە ئەم خەڵکە تێپەڕن.",
                             onPressedBritish: () => speakaside626("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaside626(// REPLACE: aside /əˈsaɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaside626("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +183,7 @@ class EnglishEntryaside extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە.",
                             onPressedBritish: () => speakaside628("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaside628(// REPLACE: aside /əˈsaɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaside628("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,9 +195,7 @@ class EnglishEntryaside extends StatelessWidget {
                             kurdishText:
                                 "ئەکتەرەکە لە ناوەڕاستی دیمەنەکە وەستا بۆ گەیاندنی 'لاپاڵێک' بە ئامادەبووان.",
                             onPressedBritish: () => speakaside633("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaside633(// REPLACE: aside /əˈsaɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaside633("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -216,9 +207,7 @@ class EnglishEntryaside extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک توانجی وەشاند لە بێ‌توانایی ژنان.",
                             onPressedBritish: () => speakaside642("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaside642(// REPLACE: aside /əˈsaɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaside642("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -228,9 +217,7 @@ class EnglishEntryaside extends StatelessWidget {
                             englishText: "I mention it only as an aside.",
                             kurdishText: "تەنھا وەک قەوسێک باسی دەکەم.",
                             onPressedBritish: () => speakaside644("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaside644(// REPLACE: aside /əˈsaɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaside644("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

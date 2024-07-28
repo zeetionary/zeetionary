@@ -141,9 +141,8 @@ class EnglishEntryanything extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryanything extends StatelessWidget {
                             englishText: "Would you like anything else?",
                             kurdishText: "حەزت لە ھیچی ترە؟",
                             onPressedBritish: () => speakanything1010("en-GB"),
-                            onPressedAmerican: () => speakanything1010(
-                                // REPLACE: anything /ˈeniθɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanything1010("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -170,9 +167,7 @@ class EnglishEntryanything extends StatelessWidget {
                             kurdishText:
                                 "ھەرگیز ھیچ لەسەر تەلەفیزیۆن نییە شایەنی سەیرکردن بێ.",
                             onPressedBritish: () => speakanything1012("en-GB"),
-                            onPressedAmerican: () => speakanything1010(
-                                // REPLACE: anything /ˈeniθɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanything1010("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +177,7 @@ class EnglishEntryanything extends StatelessWidget {
                             englishText: "I'm so hungry, I'll eat anything.",
                             kurdishText: "زۆرم برسییە، ھەرچی ھەبێت ئەیخۆم.",
                             onPressedBritish: () => speakanything1013("en-GB"),
-                            onPressedAmerican: () => speakanything1013(
-                                // REPLACE: anything /ˈeniθɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanything1013("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +188,7 @@ class EnglishEntryanything extends StatelessWidget {
                                 "Is there anything (= any truth) in these rumours?",
                             kurdishText: "ھیچ شتێکی گرنگ لەم دەنگۆیانە ھەیە.",
                             onPressedBritish: () => speakanything1015("en-GB"),
-                            onPressedAmerican: () => speakanything1015(
-                                // REPLACE: anything /ˈeniθɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanything1015("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

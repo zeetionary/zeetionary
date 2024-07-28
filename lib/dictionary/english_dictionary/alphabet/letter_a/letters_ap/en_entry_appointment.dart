@@ -147,9 +147,8 @@ class EnglishEntryappointment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,8 @@ class EnglishEntryappointment extends StatelessWidget {
                                 "وادەیەکم لای دکتۆری ددان ھەیە لە کاتژمێر ٣.",
                             onPressedBritish: () =>
                                 speakappointment836("en-GB"),
-                            onPressedAmerican: () => speakappointment836(
-                                // REPLACE: appointment /əˈpɔɪntmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappointment836("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -180,9 +178,8 @@ class EnglishEntryappointment extends StatelessWidget {
                                 "وادەی دانا بۆ کوڕەکەی بۆ بینینی دکتۆر.",
                             onPressedBritish: () =>
                                 speakappointment839("en-GB"),
-                            onPressedAmerican: () => speakappointment839(
-                                // REPLACE: appointment /əˈpɔɪntmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappointment839("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +192,8 @@ class EnglishEntryappointment extends StatelessWidget {
                                 "دەستنیشانکردنی بەرپرسانی ئاسایشیان ڕاگەیاند.",
                             onPressedBritish: () =>
                                 speakappointment844("en-GB"),
-                            onPressedAmerican: () => speakappointment844(
-                                // REPLACE: appointment /əˈpɔɪntmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappointment844("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -209,9 +205,8 @@ class EnglishEntryappointment extends StatelessWidget {
                             kurdishText: "پیرۆزبایی پۆستە تازەکەت لێ‌دەکەم.",
                             onPressedBritish: () =>
                                 speakappointment847("en-GB"),
-                            onPressedAmerican: () => speakappointment847(
-                                // REPLACE: appointment /əˈpɔɪntmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappointment847("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -224,9 +219,8 @@ class EnglishEntryappointment extends StatelessWidget {
                                 "وەزیرەکانی حکومەت و بەرپرسانی سیاسی دیکە زوو زوو دەگۆڕدرێن.",
                             onPressedBritish: () =>
                                 speakappointment848("en-GB"),
-                            onPressedAmerican: () => speakappointment848(
-                                // REPLACE: appointment /əˈpɔɪntmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappointment848("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

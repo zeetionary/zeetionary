@@ -140,9 +140,8 @@ class EnglishEntryanimal extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                 "The animal began to sicken and soon died.",
                             kurdishText: "ئاژەڵەکە لاوازبوو و بەزووی مرد.",
                             onPressedBritish: () => speakanimal858("en-GB"),
-                            onPressedAmerican: () => speakanimal858(
-                                // REPLACE: animal /ˈænɪml/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimal858("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -168,9 +165,7 @@ class EnglishEntryanimal extends StatelessWidget {
                             englishText: "A horse is a large animal.",
                             kurdishText: "ئەسپ ئاژەڵێکی گەورەیە.",
                             onPressedBritish: () => speakanimal0052("en-GB"),
-                            onPressedAmerican: () => speakanimal0052(
-                                // REPLACE: animal /ˈænɪml/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimal0052("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +177,7 @@ class EnglishEntryanimal extends StatelessWidget {
                             kurdishText:
                                 "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە.",
                             onPressedBritish: () => speakanimal440("en-GB"),
-                            onPressedAmerican: () => speakanimal440(
-                                // REPLACE: animal /ˈænɪml/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimal440("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +189,7 @@ class EnglishEntryanimal extends StatelessWidget {
                             kurdishText:
                                 "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێدابێت.",
                             onPressedBritish: () => speakanimal4608("en-GB"),
-                            onPressedAmerican: () => speakanimal4608(
-                                // REPLACE: animal /ˈænɪml/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimal4608("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -210,9 +201,7 @@ class EnglishEntryanimal extends StatelessWidget {
                             kurdishText:
                                 "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە.",
                             onPressedBritish: () => speakanimal4390("en-GB"),
-                            onPressedAmerican: () => speakanimal4390(
-                                // REPLACE: animal /ˈænɪml/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimal4390("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -224,9 +213,7 @@ class EnglishEntryanimal extends StatelessWidget {
                             kurdishText:
                                 "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی.",
                             onPressedBritish: () => speakanimal4077("en-GB"),
-                            onPressedAmerican: () => speakanimal4077(
-                                // REPLACE: animal /ˈænɪml/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimal4077("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -235,9 +222,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                 "As an actor, he has a sort of animal magnetism.",
                             kurdishText: "وەک ئەکتەرێک، کەسێکی دڵبەرە.",
                             onPressedBritish: () => speakanimal914("en-GB"),
-                            onPressedAmerican: () => speakanimal914(
-                                // REPLACE: animal /ˈænɪml/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimal914("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

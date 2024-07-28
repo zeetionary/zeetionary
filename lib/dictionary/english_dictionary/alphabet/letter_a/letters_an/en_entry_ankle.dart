@@ -137,9 +137,8 @@ class EnglishEntryankle extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryankle extends StatelessWidget {
                             kurdishText:
                                 "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لە کاتی ڕاھێنان.",
                             onPressedBritish: () => speakankle1112("en-GB"),
-                            onPressedAmerican: () =>
-                                speakankle1112(// REPLACE: ankle /ˈæŋkl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakankle1112("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -167,9 +164,7 @@ class EnglishEntryankle extends StatelessWidget {
                             englishText: "My ankles have swollen.",
                             kurdishText: "قولەپێ‌یەکانم ئاوساون.",
                             onPressedBritish: () => speakankle1114("en-GB"),
-                            onPressedAmerican: () => speakankle1114(
-                                // REPLACE: ankle /ˈæŋkl/
-                                "en-US"),
+                            onPressedAmerican: () => speakankle1114("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

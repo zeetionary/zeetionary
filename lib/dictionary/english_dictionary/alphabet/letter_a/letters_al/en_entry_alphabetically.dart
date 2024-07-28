@@ -64,8 +64,7 @@ class EnglishEntryalphabetically extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alphabetically"), // Find /ˌælfəˈbetɪkli/
+                            EntryTitle(word: "alphabetically"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryalphabetically extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +113,8 @@ class EnglishEntryalphabetically extends StatelessWidget {
                                 "ناوی براوەکانی پێشبڕکێیەکە بەپێی ئەلفوبێ ڕیزکراون.",
                             onPressedBritish: () =>
                                 speakalphabetically548("en-GB"),
-                            onPressedAmerican: () => speakalphabetically548(
-                                // REPLACE: alphabetically /ˌælfəˈbetɪkli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalphabetically548("en-US"),
                           ),
                         ],
                       ),

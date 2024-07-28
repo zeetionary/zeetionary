@@ -65,8 +65,7 @@ class EnglishEntryalienation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alienation"), // Find /ˌeɪliəˈneɪʃn/
+                            EntryTitle(word: "alienation"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryalienation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +116,8 @@ class EnglishEntryalienation extends StatelessWidget {
                             kurdishText: "سیاسەتە تازەکە زۆر دەنگدەری وەلاخست.",
                             onPressedBritish: () =>
                                 speakalienation73555("en-GB"),
-                            onPressedAmerican: () => speakalienation73555(
-                                // REPLACE: alienation /ˌeɪliəˈneɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalienation73555("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -132,9 +129,8 @@ class EnglishEntryalienation extends StatelessWidget {
                                 "زۆر کەسی گەنج بەدەست ھەستی نامۆیی دەناڵێنن.",
                             onPressedBritish: () =>
                                 speakalienation422121("en-GB"),
-                            onPressedAmerican: () => speakalienation422121(
-                                // REPLACE: alienation /ˌeɪliəˈneɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalienation422121("en-US"),
                           ),
                         ],
                       ),

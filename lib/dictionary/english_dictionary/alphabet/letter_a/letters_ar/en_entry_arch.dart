@@ -146,9 +146,8 @@ class EnglishEntryarch extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,8 +165,7 @@ class EnglishEntryarch extends StatelessWidget {
                                 "ئەو پردەی بەسەر ڕووبارەکەدا درووستیان‌کرد سێ قەوسی ھەیە.",
                             onPressedBritish: () => speakarch135("en-GB"),
                             onPressedAmerican: () =>
-                                speakarch135(// REPLACE: arch /ɑːrtʃ/
-                                    "en-US"),
+                                speakarch135("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,8 +178,7 @@ class EnglishEntryarch extends StatelessWidget {
                                 "بە کەوانەکەدا بچۆ ژوورەوە و بە ڕێگاکەدا بەردەوام‌ بە.",
                             onPressedBritish: () => speakarch140("en-GB"),
                             onPressedAmerican: () =>
-                                speakarch140(// REPLACE: arch /ɑːrtʃ/
-                                    "en-US"),
+                                speakarch140("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,8 +189,7 @@ class EnglishEntryarch extends StatelessWidget {
                             kurdishText: "کەوانەی پێی زۆر بەرزە.",
                             onPressedBritish: () => speakarch143("en-GB"),
                             onPressedAmerican: () =>
-                                speakarch143(// REPLACE: arch /ɑːrtʃ/
-                                    "en-US"),
+                                speakarch143("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -206,8 +202,7 @@ class EnglishEntryarch extends StatelessWidget {
                                 "لقی دارەکان قەوسێکیان درووستکردبوو بەسەر کورسییەکەدا.",
                             onPressedBritish: () => speakarch148("en-GB"),
                             onPressedAmerican: () =>
-                                speakarch148(// REPLACE: arch /ɑːrtʃ/
-                                    "en-US"),
+                                speakarch148("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -218,8 +213,7 @@ class EnglishEntryarch extends StatelessWidget {
                             kurdishText: "پشیلەکە پشتی چەماندەوە و فساندی.",
                             onPressedBritish: () => speakarch148("en-GB"),
                             onPressedAmerican: () =>
-                                speakarch148(// REPLACE: arch /ɑːrtʃ/
-                                    "en-US"),
+                                speakarch148("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -231,8 +225,7 @@ class EnglishEntryarch extends StatelessWidget {
                                 "دارە بەرزەکان کەوانەیەکیان بەسەر ڕێگاکەدا درووستکرد.",
                             onPressedBritish: () => speakarch152("en-GB"),
                             onPressedAmerican: () =>
-                                speakarch152(// REPLACE: arch /ɑːrtʃ/
-                                    "en-US"),
+                                speakarch152("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -245,8 +238,7 @@ class EnglishEntryarch extends StatelessWidget {
                                 "قسەکردن بە دەنگێکی لەخۆڕازییانە ھەمیشە بۆ ئەوە نییە کەسی دیکە تووڕە بکەیت؛ ئەکرێت خۆشی بە گفتوگۆ بدات.",
                             onPressedBritish: () => speakarch159("en-GB"),
                             onPressedAmerican: () =>
-                                speakarch159(// REPLACE: arch /ɑːrtʃ/
-                                    "en-US"),
+                                speakarch159("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

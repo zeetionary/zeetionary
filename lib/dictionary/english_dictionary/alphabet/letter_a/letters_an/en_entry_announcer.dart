@@ -140,9 +140,8 @@ class EnglishEntryannouncer extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryannouncer extends StatelessWidget {
                             kurdishText:
                                 "بێژەرەکە ژمارەیەک پڕۆگرامی ڕاگەیاند کە دواتر پێشکەش‌دەکرێن.",
                             onPressedBritish: () => speakannouncer436("en-GB"),
-                            onPressedAmerican: () => speakannouncer436(
-                                // REPLACE: announcer /əˈnaʊnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakannouncer436("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -172,9 +169,7 @@ class EnglishEntryannouncer extends StatelessWidget {
                             kurdishText:
                                 "بانگەوازکەری وێستگەکە پێی ڕاگەیاندین شەمەندەفەرەکە درەنگ دەگات.",
                             onPressedBritish: () => speakannouncer440("en-GB"),
-                            onPressedAmerican: () => speakannouncer440(
-                                // REPLACE: announcer /əˈnaʊnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakannouncer440("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,7 @@ class EnglishEntryannouncer extends StatelessWidget {
                                 "He was the announcer for the NBA game.",
                             kurdishText: "بێژەری یارییەکەی ئێن-بی-ئەی بوو.",
                             onPressedBritish: () => speakannouncer443("en-GB"),
-                            onPressedAmerican: () => speakannouncer443(
-                                // REPLACE: announcer /əˈnaʊnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakannouncer443("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

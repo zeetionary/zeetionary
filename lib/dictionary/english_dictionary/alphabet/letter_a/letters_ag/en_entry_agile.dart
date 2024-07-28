@@ -64,7 +64,7 @@ class EnglishEntryagile extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agile"), // Find /ˈædʒaɪl/
+                            EntryTitle(word: "agile"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagile extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryagile extends StatelessWidget {
                             englishText: "Monkeys are very agile climbers.",
                             kurdishText: "مەیموون پیاھەڵگژی گورجە.",
                             onPressedBritish: () => speakagile15621("en-GB"),
-                            onPressedAmerican: () => speakagile15621(
-                                // REPLACE: agile /ˈædʒl/
-                                "en-US"),
+                            onPressedAmerican: () => speakagile15621("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -130,8 +127,7 @@ class EnglishEntryagile extends StatelessWidget {
                                 "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە.",
                             onPressedBritish: () => speakagi1778("en-GB"),
                             onPressedAmerican: () =>
-                                speakagi1778(// REPLACE: agile /ˈædʒl/
-                                    "en-US"),
+                                speakagi1778("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -143,15 +139,14 @@ class EnglishEntryagile extends StatelessWidget {
                                 "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد.",
                             onPressedBritish: () => speakagil56663("en-GB"),
                             onPressedAmerican: () =>
-                                speakagil56663(// REPLACE: agile /ˈædʒl/
-                                    "en-US"),
+                                speakagil56663("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

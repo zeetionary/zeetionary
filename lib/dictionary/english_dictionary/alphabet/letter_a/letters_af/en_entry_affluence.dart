@@ -64,7 +64,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affluence"), // Find /ˈæfluəns/
+                            EntryTitle(word: "affluence"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaffluence extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                             kurdishText:
                                 "ساڵانی ١٩٥٠ یەکان سەردەمی زۆر و زەبەندی بوو لە ئەمریکا.",
                             onPressedBritish: () => speakafflue752("en-GB"),
-                            onPressedAmerican: () => speakafflue752(
-                                // REPLACE: affluence /ˈæfluəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakafflue752("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -128,16 +125,14 @@ class EnglishEntryaffluence extends StatelessWidget {
                             kurdishText:
                                 "دەوڵەمەندی وڵاتەکە وایکردووە بوونی دوو و سێ ئۆتۆمبێل لە خێزانێکدا شتێکی ئاسایی بێت.",
                             onPressedBritish: () => speakafflue7566("en-GB"),
-                            onPressedAmerican: () => speakafflue7566(
-                                // REPLACE: affluence /ˈæfluəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakafflue7566("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -137,9 +137,8 @@ class EnglishEntryamplifier extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,8 @@ class EnglishEntryamplifier extends StatelessWidget {
                                 "بڵیندگۆکانت پەیوەست‌کردووە بە دەنگپێدەرەکەوە؟",
                             onPressedBritish: () =>
                                 speakamplifier40990("en-GB"),
-                            onPressedAmerican: () => speakamplifier40990(
-                                // REPLACE: amplifier /ˈæmplɪfaɪər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamplifier40990("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

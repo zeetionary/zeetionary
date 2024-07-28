@@ -138,9 +138,8 @@ class EnglishEntryanaesthetize extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -154,9 +153,8 @@ class EnglishEntryanaesthetize extends StatelessWidget {
                                 "پزیشکەکەم پێی‌وتم پێویست ناکات لە پڕۆسەکەدا بەنج‌بکرێم.",
                             onPressedBritish: () =>
                                 speakanaesthetize8590("en-GB"),
-                            onPressedAmerican: () => speakanaesthetize8590(
-                                // REPLACE: anaesthetize /əˈnesθətaɪz/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanaesthetize8590("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

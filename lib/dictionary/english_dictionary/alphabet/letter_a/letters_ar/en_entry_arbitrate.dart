@@ -144,9 +144,8 @@ class EnglishEntryarbitrate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryarbitrate extends StatelessWidget {
                             kurdishText:
                                 "ئەو دەسەڵاتدارەیە کە بەرپرسە بۆ ناوبژی‌کردنی کەیسی ناکۆکییە بازرگانییەکان.",
                             onPressedBritish: () => speakarbitrate1150("en-GB"),
-                            onPressedAmerican: () => speakarbitrate1150(
-                                // REPLACE: arbitrate /ˈɑːrbɪtreɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarbitrate1150("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

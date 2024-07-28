@@ -64,7 +64,7 @@ class EnglishEntryagm extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "AGM"), // Find /ˌeɪ dʒiː ˈem/
+                            EntryTitle(word: "AGM"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagm extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,16 +112,14 @@ class EnglishEntryagm extends StatelessWidget {
                             kurdishText:
                                 "بەڕێز تۆمسن بۆ دەستەی بەڕێوبەرایەتی کۆمپانیا ھەڵبژێردرا دوو ھەفتە پێش ئێستا لە کۆبوونەوەی ساڵانە.",
                             onPressedBritish: () => speakagm74888("en-GB"),
-                            onPressedAmerican: () => speakagm74888(
-                                // REPLACE: AGM /ˌeɪ dʒiː ˈem/
-                                "en-US"),
+                            onPressedAmerican: () => speakagm74888("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -160,9 +160,8 @@ class EnglishEntryangle extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -179,9 +178,7 @@ class EnglishEntryangle extends StatelessWidget {
                             kurdishText:
                                 "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین.",
                             onPressedBritish: () => speakangle11480("en-GB"),
-                            onPressedAmerican: () => speakangle11480(
-                                // REPLACE: angle /ˈæŋɡl/
-                                "en-US"),
+                            onPressedAmerican: () => speakangle11480("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +190,7 @@ class EnglishEntryangle extends StatelessWidget {
                             kurdishText:
                                 "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە.",
                             onPressedBritish: () => speakangle46055("en-GB"),
-                            onPressedAmerican: () => speakangle46055(
-                                // REPLACE: angle /ˈæŋɡl/
-                                "en-US"),
+                            onPressedAmerican: () => speakangle46055("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -207,9 +202,7 @@ class EnglishEntryangle extends StatelessWidget {
                             kurdishText:
                                 "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ.",
                             onPressedBritish: () => speakangle45906("en-GB"),
-                            onPressedAmerican: () => speakangle45906(
-                                // REPLACE: angle /ˈæŋɡl/
-                                "en-US"),
+                            onPressedAmerican: () => speakangle45906("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -219,9 +212,7 @@ class EnglishEntryangle extends StatelessWidget {
                             kurdishText:
                                 "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا.",
                             onPressedBritish: () => speakangle440("en-GB"),
-                            onPressedAmerican: () =>
-                                speakangle440(// REPLACE: angle /ˈæŋɡl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakangle440("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -233,9 +224,7 @@ class EnglishEntryangle extends StatelessWidget {
                             kurdishText:
                                 "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت.",
                             onPressedBritish: () => speakangle450("en-GB"),
-                            onPressedAmerican: () =>
-                                speakangle450(// REPLACE: angle /ˈæŋɡl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakangle450("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -247,9 +236,7 @@ class EnglishEntryangle extends StatelessWidget {
                             kurdishText:
                                 "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت.",
                             onPressedBritish: () => speakangle905("en-GB"),
-                            onPressedAmerican: () =>
-                                speakangle905(// REPLACE: angle /ˈæŋɡl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakangle905("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -261,9 +248,7 @@ class EnglishEntryangle extends StatelessWidget {
                             kurdishText:
                                 "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات.",
                             onPressedBritish: () => speakangle225870("en-GB"),
-                            onPressedAmerican: () => speakangle225870(
-                                // REPLACE: angle /ˈæŋɡl/
-                                "en-US"),
+                            onPressedAmerican: () => speakangle225870("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -274,9 +259,7 @@ class EnglishEntryangle extends StatelessWidget {
                                 "The programme is angled towards younger viewers.",
                             kurdishText: "پڕۆگرامەکە بۆ بیسەرانی گەنجە.",
                             onPressedBritish: () => speakangle5401("en-GB"),
-                            onPressedAmerican: () =>
-                                speakangle5401(// REPLACE: angle /ˈæŋɡl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakangle5401("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -288,9 +271,7 @@ class EnglishEntryangle extends StatelessWidget {
                             kurdishText:
                                 "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە.",
                             onPressedBritish: () => speakangle5580("en-GB"),
-                            onPressedAmerican: () =>
-                                speakangle5580(// REPLACE: angle /ˈæŋɡl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakangle5580("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

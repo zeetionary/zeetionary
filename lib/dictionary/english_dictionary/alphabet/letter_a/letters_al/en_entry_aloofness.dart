@@ -64,7 +64,7 @@ class EnglishEntryaloofness extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aloofness"), // Find /əˈluːfnəs/
+                            EntryTitle(word: "aloofness"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaloofness extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryaloofness extends StatelessWidget {
                             kurdishText:
                                 "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە.",
                             onPressedBritish: () => speakaloofness452("en-GB"),
-                            onPressedAmerican: () => speakaloofness452(
-                                // REPLACE: aloofness /əˈluːfnəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakaloofness452("en-US"),
                           ),
                         ],
                       ),

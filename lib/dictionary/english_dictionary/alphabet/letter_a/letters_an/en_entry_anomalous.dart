@@ -139,9 +139,8 @@ class EnglishEntryanomalous extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,8 @@ class EnglishEntryanomalous extends StatelessWidget {
                             kurdishText:
                                 "نەیان‌دەتوانی ڕوونکردنەوەیەک بدۆزنەوە بۆ ئەنجامە سەیرەکانی تاقیکردنەوەکە.",
                             onPressedBritish: () => speakanomalous1013("en-GB"),
-                            onPressedAmerican: () => speakanomalous1013(
-                                // REPLACE: anomalous /əˈnɑːmələs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanomalous1013("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -63,8 +63,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alarm clock"), // Find /əˈlɑːm klɒk/
+                            EntryTitle(word: "alarm clock"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryalarmclock extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +115,8 @@ class EnglishEntryalarmclock extends StatelessWidget {
                             kurdishText:
                                 "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد.",
                             onPressedBritish: () => speakalarmclock349("en-GB"),
-                            onPressedAmerican: () => speakalarmclock349(
-                                // REPLACE: alarm clock /əˈlɑːrm klɑːk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalarmclock349("en-US"),
                           ),
                         ],
                       ),

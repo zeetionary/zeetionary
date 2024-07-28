@@ -145,9 +145,8 @@ class EnglishEntryasphalt extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryasphalt extends StatelessWidget {
                             englishText: "The road was paved with asphalt.",
                             kurdishText: "شەقامەکە قیرتاوکرا.",
                             onPressedBritish: () => speakasphalt528("en-GB"),
-                            onPressedAmerican: () => speakasphalt528(
-                                // REPLACE: asphalt /ˈæsfɔːlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakasphalt528("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryasphalt extends StatelessWidget {
                             englishText: "The workers asphalted the road.",
                             kurdishText: "کرێکاران ڕێگاکەیان قیرتاوکرد.",
                             onPressedBritish: () => speakasphalt530("en-GB"),
-                            onPressedAmerican: () => speakasphalt530(
-                                // REPLACE: asphalt /ˈæsfɔːlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakasphalt530("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

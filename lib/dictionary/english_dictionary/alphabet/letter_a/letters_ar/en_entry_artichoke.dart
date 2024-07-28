@@ -151,9 +151,8 @@ class EnglishEntryartichoke extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -171,9 +170,7 @@ class EnglishEntryartichoke extends StatelessWidget {
                             kurdishText:
                                 "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە.",
                             onPressedBritish: () => speakartichoke510("en-GB"),
-                            onPressedAmerican: () => speakartichoke510(
-                                // REPLACE: artichoke /ˈɑːrtɪtʃəʊk/
-                                "en-US"),
+                            onPressedAmerican: () => speakartichoke510("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

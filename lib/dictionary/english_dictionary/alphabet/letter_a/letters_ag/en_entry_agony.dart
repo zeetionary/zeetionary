@@ -63,7 +63,7 @@ class EnglishEntryagony extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agony"), // Find /ˈæɡəni/
+                            EntryTitle(word: "agony"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryagony extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,8 +114,7 @@ class EnglishEntryagony extends StatelessWidget {
                             kurdishText: "سەربازەکە بە ئازارەوە مرد.",
                             onPressedBritish: () => speakago1488("en-GB"),
                             onPressedAmerican: () =>
-                                speakago1488(// REPLACE: agony /ˈæɡəni/
-                                    "en-US"),
+                                speakago1488("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -125,15 +123,14 @@ class EnglishEntryagony extends StatelessWidget {
                             kurdishText: "جاک لە ئازاردا کەوت بە زەوییەکەدا.",
                             onPressedBritish: () => speakago1566("en-GB"),
                             onPressedAmerican: () =>
-                                speakago1566(// REPLACE: agony /ˈæɡəni/
-                                    "en-US"),
+                                speakago1566("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

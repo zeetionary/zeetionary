@@ -90,7 +90,7 @@ class EnglishEntryalien extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alien"), // Find /ˈeɪliən/
+                            EntryTitle(word: "alien"),
                           ],
                         ),
                         Row(
@@ -124,9 +124,8 @@ class EnglishEntryalien extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -144,9 +143,7 @@ class EnglishEntryalien extends StatelessWidget {
                             kurdishText:
                                 "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دوژمن زیندانی کرا.",
                             onPressedBritish: () => speakalien46588("en-GB"),
-                            onPressedAmerican: () => speakalien46588(
-                                // REPLACE: alien /ˈeɪliən/
-                                "en-US"),
+                            onPressedAmerican: () => speakalien46588("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -157,9 +154,7 @@ class EnglishEntryalien extends StatelessWidget {
                             kurdishText:
                                 "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن.",
                             onPressedBritish: () => speakalien369222("en-GB"),
-                            onPressedAmerican: () => speakalien369222(
-                                // REPLACE: alien /ˈeɪliən/
-                                "en-US"),
+                            onPressedAmerican: () => speakalien369222("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -170,9 +165,7 @@ class EnglishEntryalien extends StatelessWidget {
                             kurdishText:
                                 "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی.",
                             onPressedBritish: () => speakalien49255("en-GB"),
-                            onPressedAmerican: () => speakalien49255(
-                                // REPLACE: alien /ˈeɪliən/
-                                "en-US"),
+                            onPressedAmerican: () => speakalien49255("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -183,9 +176,7 @@ class EnglishEntryalien extends StatelessWidget {
                             kurdishText:
                                 "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە.",
                             onPressedBritish: () => speakalien3411("en-GB"),
-                            onPressedAmerican: () => speakalien3411(
-                                // REPLACE: alien /ˈeɪliən/
-                                "en-US"),
+                            onPressedAmerican: () => speakalien3411("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -194,9 +185,7 @@ class EnglishEntryalien extends StatelessWidget {
                             englishText: "The idea is alien to our religion.",
                             kurdishText: "بیرۆکەکە نامۆیە بە ئاینەکەمان.",
                             onPressedBritish: () => speakalien34177("en-GB"),
-                            onPressedAmerican: () => speakalien34177(
-                                // REPLACE: alien /ˈeɪliən/
-                                "en-US"),
+                            onPressedAmerican: () => speakalien34177("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -207,9 +196,7 @@ class EnglishEntryalien extends StatelessWidget {
                             kurdishText:
                                 "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا.",
                             onPressedBritish: () => speakalien35288("en-GB"),
-                            onPressedAmerican: () => speakalien35288(
-                                // REPLACE: alien /ˈeɪliən/
-                                "en-US"),
+                            onPressedAmerican: () => speakalien35288("en-US"),
                           ),
                         ],
                       ),

@@ -145,9 +145,8 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                             kurdishText: "1 و 2 ژمارەی عەرەبین.",
                             onPressedBritish: () =>
                                 speakarabicnumeral1032("en-GB"),
-                            onPressedAmerican: () => speakarabicnumeral1032(
-                                // REPLACE: Arabic numeral /ˌærəbɪk ˈnuːmərəl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarabicnumeral1032("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

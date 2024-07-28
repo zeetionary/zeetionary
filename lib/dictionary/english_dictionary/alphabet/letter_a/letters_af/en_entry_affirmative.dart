@@ -63,8 +63,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "affirmative"), // Find /əˈfɜːmətɪv/
+                            EntryTitle(word: "affirmative"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryaffirmative extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +113,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                 "He gave an affirmative response to the question.",
                             kurdishText: "وەڵامێکی ئەرێنی دا بە پرسیارەکە.",
                             onPressedBritish: () => speakaffirm556("en-GB"),
-                            onPressedAmerican: () => speakaffirm556(
-                                // REPLACE: affirmative /əˈfɜːrmətɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffirm556("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -127,16 +123,14 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                 "She answered in the affirmative (= said ‘yes’).",
                             kurdishText: "بە بەڵێ وەڵامی داوە.",
                             onPressedBritish: () => speakaffirmat899("en-GB"),
-                            onPressedAmerican: () => speakaffirmat899(
-                                // REPLACE: affirmative /əˈfɜːrmətɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffirmat899("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

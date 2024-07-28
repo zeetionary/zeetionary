@@ -63,9 +63,7 @@ class EnglishEntryamateurish extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amateurish"), // Find /ˈæmətərɪʃ/, /ˈæmətʃərɪʃ/
+                            EntryTitle(word: "amateurish"),
                           ],
                         ),
                         Row(
@@ -101,9 +99,8 @@ class EnglishEntryamateurish extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +116,8 @@ class EnglishEntryamateurish extends StatelessWidget {
                             englishText: "Their website looks amateurish.",
                             kurdishText: "وێبسایتەکەیان تازەکارانە دیاربوو.",
                             onPressedBritish: () => speakamateurish321("en-GB"),
-                            onPressedAmerican: () => speakamateurish321(
-                                // REPLACE: amateurish /ˈæmətərɪʃ/, /ˈæmətʃərɪʃ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamateurish321("en-US"),
                           ),
                         ],
                       ),

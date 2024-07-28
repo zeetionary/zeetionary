@@ -63,8 +63,7 @@ class EnglishEntryalternately extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alternately"), // Find /ɔːlˈtɜːnətli/
+                            EntryTitle(word: "alternately"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryalternately extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +114,8 @@ class EnglishEntryalternately extends StatelessWidget {
                                 "جار نا جار ھەستی بە گەرما و سەرما دەکرد.",
                             onPressedBritish: () =>
                                 speakalternately45866("en-GB"),
-                            onPressedAmerican: () => speakalternately45866(
-                                // REPLACE: alternately /ˈɔːltərnətli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternately45866("en-US"),
                           ),
                         ],
                       ),

@@ -64,7 +64,7 @@ class EnglishEntryamass extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amass"), // Find /əˈmæs/
+                            EntryTitle(word: "amass"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryamass extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryamass extends StatelessWidget {
                             kurdishText:
                                 "بەشی پێویست بەڵگەیان کۆکردەوە تاوانباری بکەن.",
                             onPressedBritish: () => speakamass5555("en-GB"),
-                            onPressedAmerican: () =>
-                                speakamass5555(// REPLACE: amass /əˈmæs/
-                                    "en-US"),
+                            onPressedAmerican: () => speakamass5555("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -124,9 +121,7 @@ class EnglishEntryamass extends StatelessWidget {
                             kurdishText:
                                 "ئەڵمانیا ڕێژەیەکی زۆر سەربازی لەسەر سنووری فەرەنسا کۆکردووەتەوە.",
                             onPressedBritish: () => speakamass4447("en-GB"),
-                            onPressedAmerican: () =>
-                                speakamass4447(// REPLACE: amass /əˈmæs/
-                                    "en-US"),
+                            onPressedAmerican: () => speakamass4447("en-US"),
                           ),
                         ],
                       ),

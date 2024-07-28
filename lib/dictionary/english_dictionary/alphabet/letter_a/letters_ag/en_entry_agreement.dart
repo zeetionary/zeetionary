@@ -90,7 +90,7 @@ class EnglishEntryagreement extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agreement"), // Find /əˈɡriːmənt/
+                            EntryTitle(word: "agreement"),
                           ],
                         ),
                         Row(
@@ -124,9 +124,8 @@ class EnglishEntryagreement extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -142,9 +141,7 @@ class EnglishEntryagreement extends StatelessWidget {
                             kurdishText:
                                 "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن.",
                             onPressedBritish: () => speakagre45669("en-GB"),
-                            onPressedAmerican: () => speakagre45669(
-                                // REPLACE: agreement /əˈɡriːmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakagre45669("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -153,9 +150,7 @@ class EnglishEntryagreement extends StatelessWidget {
                             kurdishText:
                                 "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان.",
                             onPressedBritish: () => speakagre35666("en-GB"),
-                            onPressedAmerican: () => speakagre35666(
-                                // REPLACE: agreement /əˈɡriːmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakagre35666("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -164,9 +159,7 @@ class EnglishEntryagreement extends StatelessWidget {
                             englishText: "Is everybody in agreement now?",
                             kurdishText: "ھەمووان ئێستا ھاوڕان؟",
                             onPressedBritish: () => speakagreem3544("en-GB"),
-                            onPressedAmerican: () => speakagreem3544(
-                                // REPLACE: agreement /əˈɡriːmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakagreem3544("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -177,16 +170,14 @@ class EnglishEntryagreement extends StatelessWidget {
                             kurdishText:
                                 "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت.",
                             onPressedBritish: () => speakagreeme25699("en-GB"),
-                            onPressedAmerican: () => speakagreeme25699(
-                                // REPLACE: agreement /əˈɡriːmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakagreeme25699("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

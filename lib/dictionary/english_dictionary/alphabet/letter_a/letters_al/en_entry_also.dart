@@ -74,7 +74,7 @@ class EnglishEntryalso extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "also"), // Find /ˈɔːlsəʊ/
+                            EntryTitle(word: "also"),
                           ],
                         ),
                         Row(
@@ -108,9 +108,8 @@ class EnglishEntryalso extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -126,9 +125,7 @@ class EnglishEntryalso extends StatelessWidget {
                             kurdishText:
                                 "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت.",
                             onPressedBritish: () => speakalso74823("en-GB"),
-                            onPressedAmerican: () => speakalso74823(
-                                // REPLACE: also /ˈɔːlsəʊ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalso74823("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -137,9 +134,7 @@ class EnglishEntryalso extends StatelessWidget {
                             kurdishText:
                                 "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو.",
                             onPressedBritish: () => speakalso459("en-GB"),
-                            onPressedAmerican: () =>
-                                speakalso459(// REPLACE: also /ˈɔːlsəʊ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakalso459("en-US"),
                           ),
                         ],
                       ),

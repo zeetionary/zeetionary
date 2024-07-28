@@ -143,9 +143,8 @@ class EnglishEntryantiquity extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryantiquity extends StatelessWidget {
                             kurdishText:
                                 "پەیکەرەکە لە سەردەمانی کۆندا ھێنرا بۆ ڕۆما.",
                             onPressedBritish: () => speakantiquity1151("en-GB"),
-                            onPressedAmerican: () => speakantiquity1151(
-                                // REPLACE: antiquity /ænˈtɪkwəti/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiquity1151("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +174,8 @@ class EnglishEntryantiquity extends StatelessWidget {
                             kurdishText:
                                 "شوێنەوارناسان ٤٠ جەستەیان دۆزییەوە لە ناوچەکە کە لە تەمەنی جیاوازدا بوون.",
                             onPressedBritish: () => speakantiquity1156("en-GB"),
-                            onPressedAmerican: () => speakantiquity1156(
-                                // REPLACE: antiquity /ænˈtɪkwəti/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiquity1156("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +187,8 @@ class EnglishEntryantiquity extends StatelessWidget {
                             kurdishText:
                                 "بەپێی یاسای یۆنان ھەموو ئەو پارچە شوێنەوارانەی لە یۆنان دەدۆزرێنەوە دەگەڕێنەوە بۆ حکومەت.",
                             onPressedBritish: () => speakantiquity1159("en-GB"),
-                            onPressedAmerican: () => speakantiquity1159(
-                                // REPLACE: antiquity /ænˈtɪkwəti/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiquity1159("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

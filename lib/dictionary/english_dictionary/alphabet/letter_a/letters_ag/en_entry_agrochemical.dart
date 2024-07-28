@@ -64,8 +64,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "agrochemical"), // Find /ˌæɡrəʊˈkemɪkl/
+                            EntryTitle(word: "agrochemical"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryagrochemical extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +117,8 @@ class EnglishEntryagrochemical extends StatelessWidget {
                             kurdishText:
                                 "زۆر مادەی کیمیایی درووست دەکەن، لەوانە مێرووکوژ، کەڕووکوژ، گیاکوژ.",
                             onPressedBritish: () => speakagrochem63888("en-GB"),
-                            onPressedAmerican: () => speakagrochem63888(
-                                // REPLACE: agrochemical /ˌæɡrəʊˈkemɪkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakagrochem63888("en-US"),
                           ),
                         ],
                       ),

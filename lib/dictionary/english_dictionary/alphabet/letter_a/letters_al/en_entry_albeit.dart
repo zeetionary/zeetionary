@@ -64,7 +64,7 @@ class EnglishEntryalbeit extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "albeit"), // Find /ˌɔːlˈbiːɪt/
+                            EntryTitle(word: "albeit"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalbeit extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryalbeit extends StatelessWidget {
                             kurdishText:
                                 "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە.",
                             onPressedBritish: () => speakalbeit3555("en-GB"),
-                            onPressedAmerican: () => speakalbeit3555(
-                                // REPLACE: albeit /ˌɔːlˈbiːɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalbeit3555("en-US"),
                           ),
                         ],
                       ),

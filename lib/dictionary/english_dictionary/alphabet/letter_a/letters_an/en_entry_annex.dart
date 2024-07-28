@@ -104,8 +104,7 @@ class EnglishEntryannex extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "annex"), // Find /ˈæneks/, /əˈneks/
+                            EntryTitle(word: "annex"),
                             // divvviiider
                           ],
                         ),
@@ -142,9 +141,8 @@ class EnglishEntryannex extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +158,7 @@ class EnglishEntryannex extends StatelessWidget {
                             kurdishText:
                                 "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨.",
                             onPressedBritish: () => speakannex1135("en-GB"),
-                            onPressedAmerican: () => speakannex1135(
-                                // REPLACE: annex /ˈæneks/, /əˈneks/
-                                "en-US"),
+                            onPressedAmerican: () => speakannex1135("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -174,9 +170,7 @@ class EnglishEntryannex extends StatelessWidget {
                             kurdishText:
                                 "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە.",
                             onPressedBritish: () => speakannex1140("en-GB"),
-                            onPressedAmerican: () => speakannex1140(
-                                // REPLACE: annex /ˈæneks/, /əˈneks/
-                                "en-US"),
+                            onPressedAmerican: () => speakannex1140("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

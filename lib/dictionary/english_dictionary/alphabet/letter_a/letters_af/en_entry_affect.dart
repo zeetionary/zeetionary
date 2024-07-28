@@ -82,7 +82,7 @@ class EnglishEntryaffect extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affect"), // Find /əˈfekt/
+                            EntryTitle(word: "affect"),
                           ],
                         ),
                         Row(
@@ -116,9 +116,8 @@ class EnglishEntryaffect extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -131,9 +130,7 @@ class EnglishEntryaffect extends StatelessWidget {
                             kurdishText:
                                 "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن.",
                             onPressedBritish: () => speakaffe5699("en-GB"),
-                            onPressedAmerican: () => speakaffe5699(
-                                // REPLACE: affect /əˈfekt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffe5699("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -143,8 +140,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                 "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات.",
                             onPressedBritish: () => speakaffe741("en-GB"),
                             onPressedAmerican: () =>
-                                speakaffe741(// REPLACE: affect /əˈfekt/
-                                    "en-US"),
+                                speakaffe741("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -155,9 +151,7 @@ class EnglishEntryaffect extends StatelessWidget {
                             kurdishText:
                                 "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان.",
                             onPressedBritish: () => speakaffe25699("en-GB"),
-                            onPressedAmerican: () => speakaffe25699(
-                                // REPLACE: affect /əˈfekt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffe25699("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -168,15 +162,14 @@ class EnglishEntryaffect extends StatelessWidget {
                             kurdishText: "زۆر ناڕەحەت بوون بە ھەواڵی مردنی.",
                             onPressedBritish: () => speakaff2566("en-GB"),
                             onPressedAmerican: () =>
-                                speakaff2566(// REPLACE: affect /əˈfekt/
-                                    "en-US"),
+                                speakaff2566("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

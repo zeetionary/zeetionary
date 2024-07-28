@@ -145,9 +145,8 @@ class EnglishEntryarraignment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا.",
                             onPressedBritish: () =>
                                 speakarraignment1250("en-GB"),
-                            onPressedAmerican: () => speakarraignment1250(
-                                // REPLACE: arraignment /əˈreɪnmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarraignment1250("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

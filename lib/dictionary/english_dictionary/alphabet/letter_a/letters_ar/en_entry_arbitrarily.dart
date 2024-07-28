@@ -111,9 +111,7 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arbitrarily"), // Find /ˌɑːbɪˈtrerəli/, /ˈɑːbɪtrəli/
+                            EntryTitle(word: "arbitrarily"),
                             // divvviiider
                           ],
                         ),
@@ -149,9 +147,8 @@ class EnglishEntryarbitrarily extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -169,9 +166,8 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                                 "سەرکردەی گرووپەکان بە ھەڕەمەکییانە ھەڵبژێردران.",
                             onPressedBritish: () =>
                                 speakarbitrarily1132("en-GB"),
-                            onPressedAmerican: () => speakarbitrarily1132(
-                                // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarbitrarily1132("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +180,8 @@ class EnglishEntryarbitrarily extends StatelessWidget {
                                 "سنوورە سیاسییەکان لە ئەفریقا زۆرجار بە زۆرەملێیانە لەلایەن دەسەڵاتە داگیرکەرەکانی کۆنەوە دەکێشران.",
                             onPressedBritish: () =>
                                 speakarbitrarily1135("en-GB"),
-                            onPressedAmerican: () => speakarbitrarily1135(
-                                // REPLACE: arbitrarily /ˌɑːrbɪˈtrerəli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarbitrarily1135("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

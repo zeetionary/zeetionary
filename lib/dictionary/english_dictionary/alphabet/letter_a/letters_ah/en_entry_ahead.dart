@@ -95,7 +95,7 @@ class EnglishEntryahead extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ahead"), // Find /əˈhed/
+                            EntryTitle(word: "ahead"),
                           ],
                         ),
                         Row(
@@ -129,9 +129,8 @@ class EnglishEntryahead extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -145,9 +144,7 @@ class EnglishEntryahead extends StatelessWidget {
                             englishText: "I'll run ahead and warn them.",
                             kurdishText: "پێشوەختە دەچم و ئاگاداریان دەکەم.",
                             onPressedBritish: () => speakahead24999("en-GB"),
-                            onPressedAmerican: () => speakahead24999(
-                                // REPLACE: ahead /əˈhed/
-                                "en-US"),
+                            onPressedAmerican: () => speakahead24999("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -156,9 +153,7 @@ class EnglishEntryahead extends StatelessWidget {
                             kurdishText:
                                 "ئەمە لە مانگەکانی داھاتوودا کێشە درووست دەکات.",
                             onPressedBritish: () => speakahead12555("en-GB"),
-                            onPressedAmerican: () => speakahead12555(
-                                // REPLACE: ahead /əˈhed/
-                                "en-US"),
+                            onPressedAmerican: () => speakahead12555("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -168,9 +163,7 @@ class EnglishEntryahead extends StatelessWidget {
                             kurdishText:
                                 "ئاھەنگەکە چەندین ھەفتە پێشتر پلانی بۆ دانرا.",
                             onPressedBritish: () => speakahead43582("en-GB"),
-                            onPressedAmerican: () => speakahead43582(
-                                // REPLACE: ahead /əˈhed/
-                                "en-US"),
+                            onPressedAmerican: () => speakahead43582("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -179,9 +172,7 @@ class EnglishEntryahead extends StatelessWidget {
                             englishText: "Our team was ahead by six points.",
                             kurdishText: "تیمەکان بە شەش خاڵ لەپێش بوو.",
                             onPressedBritish: () => speakahead24331("en-GB"),
-                            onPressedAmerican: () => speakahead24331(
-                                // REPLACE: ahead /əˈhed/
-                                "en-US"),
+                            onPressedAmerican: () => speakahead24331("en-US"),
                           ),
                         ],
                       ),

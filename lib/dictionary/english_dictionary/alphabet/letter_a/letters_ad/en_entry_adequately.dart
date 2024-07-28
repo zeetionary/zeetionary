@@ -64,7 +64,7 @@ class EnglishEntryadequately extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adequately"), // Find /ˈædɪkwətli/
+                            EntryTitle(word: "adequately"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadequately extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,16 +112,14 @@ class EnglishEntryadequately extends StatelessWidget {
                             kurdishText:
                                 "ئەگەرچی ھەندێک نەخۆش لەوانەیە بتواندرێت بەپێی پێویست لە ماڵەوە چاودێری بکرێن، ئەوانی تر باشتر خزمەت دەکرێن لە نەخۆشخانە.",
                             onPressedBritish: () => speakadeq2547("en-GB"),
-                            onPressedAmerican: () => speakadeq2547(
-                                // REPLACE: adequately /ˈædɪkwətli/
-                                "en-US"),
+                            onPressedAmerican: () => speakadeq2547("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

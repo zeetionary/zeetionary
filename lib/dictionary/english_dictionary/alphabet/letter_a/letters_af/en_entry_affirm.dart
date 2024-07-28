@@ -65,7 +65,7 @@ class EnglishEntryaffirm extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affirm"), // Find /əˈfɜːm/
+                            EntryTitle(word: "affirm"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryaffirm extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryaffirm extends StatelessWidget {
                             kurdishText:
                                 "ھەردوو لایەن بەڕوونی پابەندی خۆیان بە ئاگربەستەوە ڕاگەیاند.",
                             onPressedBritish: () => speakaff25699("en-GB"),
-                            onPressedAmerican: () => speakaff25699(
-                                // REPLACE: affirm /əˈfɜːrm/
-                                "en-US"),
+                            onPressedAmerican: () => speakaff25699("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -127,16 +124,14 @@ class EnglishEntryaffirm extends StatelessWidget {
                             kurdishText:
                                 "پشتیوانی ئەو باوەڕە دەکەین کە سەرکردەکان دەبێت لەلایەن خەڵکەوە ھەڵبژێردرێن و بەرپرسیار بن بەرامبەر خەڵکی.",
                             onPressedBritish: () => speakaffirm411("en-GB"),
-                            onPressedAmerican: () => speakaffirm411(
-                                // REPLACE: affirm /əˈfɜːrm/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffirm411("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

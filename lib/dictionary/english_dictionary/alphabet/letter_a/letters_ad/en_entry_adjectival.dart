@@ -63,8 +63,7 @@ class EnglishEntryadjectival extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adjectival"), // Find /ˌædʒekˈtaɪvl/
+                            EntryTitle(word: "adjectival"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryadjectival extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,16 +113,14 @@ class EnglishEntryadjectival extends StatelessWidget {
                             englishText: "an adjectival phrase",
                             kurdishText: "گرێی ھاوەڵناوی.",
                             onPressedBritish: () => speakadjec2547("en-GB"),
-                            onPressedAmerican: () => speakadjec2547(
-                                // REPLACE: adjectival /ˌædʒekˈtaɪvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakadjec2547("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

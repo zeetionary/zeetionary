@@ -80,7 +80,7 @@ class EnglishEntryalike extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alike"), // Find /əˈlaɪk/
+                            EntryTitle(word: "alike"),
                           ],
                         ),
                         Row(
@@ -114,9 +114,8 @@ class EnglishEntryalike extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -132,9 +131,7 @@ class EnglishEntryalike extends StatelessWidget {
                             kurdishText:
                                 "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن.",
                             onPressedBritish: () => speakalike76522("en-GB"),
-                            onPressedAmerican: () => speakalike76522(
-                                // REPLACE: alike /əˈlaɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakalike76522("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -145,9 +142,7 @@ class EnglishEntryalike extends StatelessWidget {
                             kurdishText:
                                 "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی.",
                             onPressedBritish: () => speakalike46789("en-GB"),
-                            onPressedAmerican: () => speakalike46789(
-                                // REPLACE: alike /əˈlaɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakalike46789("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -156,9 +151,7 @@ class EnglishEntryalike extends StatelessWidget {
                             englishText: "Airports are all alike to me.",
                             kurdishText: "فڕۆکەخانەکان ھەموو وەکیەکن بۆم.",
                             onPressedBritish: () => speakalike3632("en-GB"),
-                            onPressedAmerican: () => speakalike3632(
-                                // REPLACE: alike /əˈlaɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakalike3632("en-US"),
                           ),
                         ],
                       ),

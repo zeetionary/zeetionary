@@ -64,8 +64,7 @@ class EnglishEntryallegorical extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "allegorical"), // Find /ˌæləˈɡɒrɪkl/
+                            EntryTitle(word: "allegorical"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryallegorical extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,8 @@ class EnglishEntryallegorical extends StatelessWidget {
                                 "ھەموو ڕووسیەک ڕۆمانی ھێمایی 'گەورە و مارگرێتا' دەزانێت.",
                             onPressedBritish: () =>
                                 speakallegorical24177("en-GB"),
-                            onPressedAmerican: () => speakallegorical24177(
-                                // REPLACE: allegorical /ˌæləˈɡɔːrɪkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallegorical24177("en-US"),
                           ),
                         ],
                       ),

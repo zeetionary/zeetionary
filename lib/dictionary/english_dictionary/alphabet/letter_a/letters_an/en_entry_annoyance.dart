@@ -141,9 +141,8 @@ class EnglishEntryannoyance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                             kurdishText:
                                 "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی.",
                             onPressedBritish: () => speakannoyance759("en-GB"),
-                            onPressedAmerican: () => speakannoyance759(
-                                // REPLACE: annoyance /əˈnɔɪəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakannoyance759("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                             kurdishText:
                                 "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم.",
                             onPressedBritish: () => speakannoyance801("en-GB"),
-                            onPressedAmerican: () => speakannoyance801(
-                                // REPLACE: annoyance /əˈnɔɪəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakannoyance801("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                             kurdishText:
                                 "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت.",
                             onPressedBritish: () => speakannoyance805("en-GB"),
-                            onPressedAmerican: () => speakannoyance805(
-                                // REPLACE: annoyance /əˈnɔɪəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakannoyance805("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

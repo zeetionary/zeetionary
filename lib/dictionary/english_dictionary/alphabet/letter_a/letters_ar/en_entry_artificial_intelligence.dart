@@ -150,9 +150,8 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                                 "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد.",
                             onPressedBritish: () =>
                                 speakartificialintelligence927("en-GB"),
-                            onPressedAmerican: () => speakartificialintelligence927(
-                                // REPLACE: artificial intelligence /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartificialintelligence927("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

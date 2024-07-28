@@ -65,8 +65,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adhere to"), // Find /ədˈhɪə(r) tə/
+                            EntryTitle(word: "adhere to"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryadhereto extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +113,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                             kurdishText:
                                 "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی چەور و کەم خوێ.",
                             onPressedBritish: () => speakadher251463("en-GB"),
-                            onPressedAmerican: () => speakadher251463(
-                                // REPLACE: adhere to /ədˈhɪə(r) tə/
-                                "en-US"),
+                            onPressedAmerican: () => speakadher251463("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -126,16 +122,14 @@ class EnglishEntryadhereto extends StatelessWidget {
                             kurdishText:
                                 "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە.",
                             onPressedBritish: () => speakadh358947("en-GB"),
-                            onPressedAmerican: () => speakadh358947(
-                                // REPLACE: adhere to /ədˈhɪə(r) tə/
-                                "en-US"),
+                            onPressedAmerican: () => speakadh358947("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

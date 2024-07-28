@@ -143,9 +143,8 @@ class EnglishEntryanxious extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryanxious extends StatelessWidget {
                             kurdishText:
                                 "پاسەکە درەنگ کەوتبوو و سوو دەستی‌کرد بە شڵەژان.",
                             onPressedBritish: () => speakanxious733("en-GB"),
-                            onPressedAmerican: () => speakanxious733(
-                                // REPLACE: anxious /ˈæŋkʃəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxious733("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +171,7 @@ class EnglishEntryanxious extends StatelessWidget {
                             kurdishText:
                                 "زۆر ھەستم بە نیگەرانی و بێزاری دەکرد سەبارەت بە داھاتوو.",
                             onPressedBritish: () => speakanxious735("en-GB"),
-                            onPressedAmerican: () => speakanxious735(
-                                // REPLACE: anxious /ˈæŋkʃəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxious735("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +183,7 @@ class EnglishEntryanxious extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک ساتی ئۆقرەبڕ ھەبوو لە یاری بەیسبۆڵەکە.",
                             onPressedBritish: () => speakanxious738("en-GB"),
-                            onPressedAmerican: () => speakanxious738(
-                                // REPLACE: anxious /ˈæŋkʃəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxious738("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,9 +195,7 @@ class EnglishEntryanxious extends StatelessWidget {
                             kurdishText:
                                 "تامەزرۆ بوو قوتابجانە تەواو بکات و کارێک بکات.",
                             onPressedBritish: () => speakanxious743("en-GB"),
-                            onPressedAmerican: () => speakanxious743(
-                                // REPLACE: anxious /ˈæŋkʃəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxious743("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

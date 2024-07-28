@@ -138,9 +138,8 @@ class EnglishEntryanorak extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryanorak extends StatelessWidget {
                             kurdishText:
                                 "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ.",
                             onPressedBritish: () => speakanorak836("en-GB"),
-                            onPressedAmerican: () => speakanorak836(
-                                // REPLACE: anorak /ˈænəræk/
-                                "en-US"),
+                            onPressedAmerican: () => speakanorak836("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

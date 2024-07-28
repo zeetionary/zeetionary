@@ -290,7 +290,7 @@ class EnglishEntryallow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allow"), // Find /əˈlaʊ/
+                            EntryTitle(word: "allow"),
                           ],
                         ),
                         Row(
@@ -324,9 +324,8 @@ class EnglishEntryallow extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -340,8 +339,7 @@ class EnglishEntryallow extends StatelessWidget {
                                 "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە.",
                             onPressedBritish: () => speakallow3255("en-GB"),
                             onPressedAmerican: () =>
-                                speakallow3255(// REPLACE: allow /əˈlaʊ/
-                                    "en-US"),
+                                speakallow3255("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -351,8 +349,7 @@ class EnglishEntryallow extends StatelessWidget {
                                 "یاساکە ڕێگە بە کۆمپانیاکان دەدات کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن.",
                             onPressedBritish: () => speakallow535("en-GB"),
                             onPressedAmerican: () =>
-                                speakallow535(// REPLACE: allow /əˈlaʊ/
-                                    "en-US"),
+                                speakallow535("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -364,8 +361,7 @@ class EnglishEntryallow extends StatelessWidget {
                                 "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە.",
                             onPressedBritish: () => speakallow369("en-GB"),
                             onPressedAmerican: () =>
-                                speakallow369(// REPLACE: allow /əˈlaʊ/
-                                    "en-US"),
+                                speakallow369("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -376,8 +372,7 @@ class EnglishEntryallow extends StatelessWidget {
                             kurdishText: "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە.",
                             onPressedBritish: () => speakallow4721("en-GB"),
                             onPressedAmerican: () =>
-                                speakallow4721(// REPLACE: allow /əˈlaʊ/
-                                    "en-US"),
+                                speakallow4721("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -388,9 +383,7 @@ class EnglishEntryallow extends StatelessWidget {
                             kurdishText:
                                 "سیستەمەکە ھەلی ئەوە دەگونجێنێت کە خەڵکی لەناو ژمارەیەکی زۆر جیاوازی پەرتووکدا بگەڕێن.",
                             onPressedBritish: () => speakallow36541("en-GB"),
-                            onPressedAmerican: () => speakallow36541(
-                                // REPLACE: allow /əˈlaʊ/
-                                "en-US"),
+                            onPressedAmerican: () => speakallow36541("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -402,8 +395,7 @@ class EnglishEntryallow extends StatelessWidget {
                                 "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم.",
                             onPressedBritish: () => speakallow2341("en-GB"),
                             onPressedAmerican: () =>
-                                speakallow2341(// REPLACE: allow /əˈlaʊ/
-                                    "en-US"),
+                                speakallow2341("en-US"),
                           ),
                         ],
                       ),

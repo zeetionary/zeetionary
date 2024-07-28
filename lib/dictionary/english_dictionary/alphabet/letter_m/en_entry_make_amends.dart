@@ -162,9 +162,8 @@ class EnglishEntrymakeamends extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -193,9 +192,8 @@ class EnglishEntrymakeamends extends StatelessWidget {
                                         speakMakeamends3466("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakMakeamends3466(
-                                        // REPLACE: make amends /meɪk əˈmendz/
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakMakeamends3466("en-US"),
                                   ),
                                 ],
                               ),

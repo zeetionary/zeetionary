@@ -63,7 +63,7 @@ class EnglishEntryambitious extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ambitious"), // Find /æmˈbɪʃəs/
+                            EntryTitle(word: "ambitious"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryambitious extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryambitious extends StatelessWidget {
                             kurdishText:
                                 "ھێندە تەماح‌کار نیم ھەوڵ بۆ باشترین بدەم.",
                             onPressedBritish: () => speakambitious344("en-GB"),
-                            onPressedAmerican: () => speakambitious344(
-                                // REPLACE: ambitious /æmˈbɪʃəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakambitious344("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -127,9 +124,8 @@ class EnglishEntryambitious extends StatelessWidget {
                             kurdishText:
                                 "خوێنکاران ھەموویان ئامانجیانە باش بن.",
                             onPressedBritish: () => speakambitious7666("en-GB"),
-                            onPressedAmerican: () => speakambitious7666(
-                                // REPLACE: ambitious /æmˈbɪʃəs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakambitious7666("en-US"),
                           ),
                         ],
                       ),

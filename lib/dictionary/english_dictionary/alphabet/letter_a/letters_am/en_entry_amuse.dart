@@ -140,9 +140,8 @@ class EnglishEntryamuse extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,7 @@ class EnglishEntryamuse extends StatelessWidget {
                             kurdishText:
                                 "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین.",
                             onPressedBritish: () => speakamuse448096("en-GB"),
-                            onPressedAmerican: () => speakamuse448096(
-                                // REPLACE: amuse /əˈmjuːz/
-                                "en-US"),
+                            onPressedAmerican: () => speakamuse448096("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

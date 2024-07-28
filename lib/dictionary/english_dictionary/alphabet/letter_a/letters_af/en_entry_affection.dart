@@ -63,7 +63,7 @@ class EnglishEntryaffection extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affection"), // Find /əˈfekʃn/
+                            EntryTitle(word: "affection"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaffection extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,7 @@ class EnglishEntryaffection extends StatelessWidget {
                             kurdishText:
                                 "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە.",
                             onPressedBritish: () => speakaffe6811("en-GB"),
-                            onPressedAmerican: () => speakaffe6811(
-                                // REPLACE: affection /əˈfekʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffe6811("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -125,16 +122,14 @@ class EnglishEntryaffection extends StatelessWidget {
                                 "I have a great affection for New York.",
                             kurdishText: "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە.",
                             onPressedBritish: () => speakaffec3599("en-GB"),
-                            onPressedAmerican: () => speakaffec3599(
-                                // REPLACE: affection /əˈfekʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffec3599("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

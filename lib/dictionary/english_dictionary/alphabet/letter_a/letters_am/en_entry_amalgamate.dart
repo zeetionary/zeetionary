@@ -65,8 +65,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "amalgamate"), // Find /əˈmælɡəmeɪt/
+                            EntryTitle(word: "amalgamate"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryamalgamate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +114,8 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە.",
                             onPressedBritish: () =>
                                 speakamalgamate4444("en-GB"),
-                            onPressedAmerican: () => speakamalgamate4444(
-                                // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamalgamate4444("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -127,9 +124,8 @@ class EnglishEntryamalgamate extends StatelessWidget {
                             kurdishText: "بڕیاریاندا دوو قوتابخانەکە یەکبخەن.",
                             onPressedBritish: () =>
                                 speakamalgamate68552("en-GB"),
-                            onPressedAmerican: () => speakamalgamate68552(
-                                // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamalgamate68552("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -141,9 +137,8 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو.",
                             onPressedBritish: () =>
                                 speakamalgamate4588("en-GB"),
-                            onPressedAmerican: () => speakamalgamate4588(
-                                // REPLACE: amalgamate /əˈmælɡəmeɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamalgamate4588("en-US"),
                           ),
                         ],
                       ),

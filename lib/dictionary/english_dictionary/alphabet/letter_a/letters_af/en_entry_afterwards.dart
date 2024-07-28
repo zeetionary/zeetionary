@@ -63,7 +63,7 @@ class EnglishEntryafterwards extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "afterwards"), // Find /ˈɑːftəwədz/
+                            EntryTitle(word: "afterwards"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryafterwards extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,16 +113,14 @@ class EnglishEntryafterwards extends StatelessWidget {
                                 "Afterwards she was sorry for what she'd said.",
                             kurdishText: "دواتر زۆر پەشیمان بۆ ئەوەی گوتی.",
                             onPressedBritish: () => speakafter259("en-GB"),
-                            onPressedAmerican: () => speakafter259(
-                                // REPLACE: afterwards /ˈɑːftərwədz/
-                                "en-US"),
+                            onPressedAmerican: () => speakafter259("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

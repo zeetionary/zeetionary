@@ -145,9 +145,8 @@ class EnglishEntryassortment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryassortment extends StatelessWidget {
                                 "He was dressed in an odd assortment of clothes.",
                             kurdishText: "دەستە جلێکی سەیری لەبەرکردبوو.",
                             onPressedBritish: () => speakassortment832("en-GB"),
-                            onPressedAmerican: () => speakassortment832(
-                                // REPLACE: assortment /əˈsɔːrtmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassortment832("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

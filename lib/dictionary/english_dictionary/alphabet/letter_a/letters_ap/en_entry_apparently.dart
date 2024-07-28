@@ -144,9 +144,8 @@ class EnglishEntryapparently extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryapparently extends StatelessWidget {
                                 "Apparently they are getting divorced soon.",
                             kurdishText: "وادیارە بەم‌نزیکانە جیادەبنەوە.",
                             onPressedBritish: () => speakapparently907("en-GB"),
-                            onPressedAmerican: () => speakapparently907(
-                                // REPLACE: apparently /əˈpærəntli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapparently907("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +172,8 @@ class EnglishEntryapparently extends StatelessWidget {
                             kurdishText:
                                 "وامزانی خانەنشین‌بووە، بەڵام وادیارە وانییە.",
                             onPressedBritish: () => speakapparently909("en-GB"),
-                            onPressedAmerican: () => speakapparently909(
-                                // REPLACE: apparently /əˈpærəntli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapparently909("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

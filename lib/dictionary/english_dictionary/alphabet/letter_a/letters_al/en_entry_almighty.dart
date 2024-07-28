@@ -73,7 +73,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "almighty"), // Find /ɔːlˈmaɪti/
+                            EntryTitle(word: "almighty"),
                           ],
                         ),
                         Row(
@@ -107,9 +107,8 @@ class EnglishEntryalmighty extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -123,9 +122,8 @@ class EnglishEntryalmighty extends StatelessWidget {
                             englishText: "Almighty God, have mercy on us.",
                             kurdishText: "خودای بەدەسەڵات، ڕەحممان پێ بکە.",
                             onPressedBritish: () => speakalmighty23599("en-GB"),
-                            onPressedAmerican: () => speakalmighty23599(
-                                // REPLACE: almighty /ɔːlˈmaɪti/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalmighty23599("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -136,9 +134,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                             kurdishText:
                                 "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست.",
                             onPressedBritish: () => speakalmighty4263("en-GB"),
-                            onPressedAmerican: () => speakalmighty4263(
-                                // REPLACE: almighty /ɔːlˈmaɪti/
-                                "en-US"),
+                            onPressedAmerican: () => speakalmighty4263("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -148,9 +144,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                 "God Almighty! What the hell do you think you are doing?",
                             kurdishText: "بۆ خاتری خودا، پێت وایە چی دەکەیت؟",
                             onPressedBritish: () => speakalmight4693("en-GB"),
-                            onPressedAmerican: () => speakalmight4693(
-                                // REPLACE: almighty /ɔːlˈmaɪti/
-                                "en-US"),
+                            onPressedAmerican: () => speakalmight4693("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -161,9 +155,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                             kurdishText:
                                 "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون.",
                             onPressedBritish: () => speakalmight45665("en-GB"),
-                            onPressedAmerican: () => speakalmight45665(
-                                // REPLACE: almighty /ɔːlˈmaɪti/
-                                "en-US"),
+                            onPressedAmerican: () => speakalmight45665("en-US"),
                           ),
                         ],
                       ),

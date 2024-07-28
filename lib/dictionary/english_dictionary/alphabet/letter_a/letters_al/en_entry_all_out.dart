@@ -63,7 +63,7 @@ class EnglishEntryallout extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "all-out"), // Find /ˌɔːl ˈaʊt/
+                            EntryTitle(word: "all-out"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryallout extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,7 @@ class EnglishEntryallout extends StatelessWidget {
                             englishText: "We're going all out to win.",
                             kurdishText: "بە دڵ و بە گیان دەچین بۆبردنەوە.",
                             onPressedBritish: () => speakallout32568("en-GB"),
-                            onPressedAmerican: () => speakallout32568(
-                                // REPLACE: all-out /ˌɔːl ˈaʊt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallout32568("en-US"),
                           ),
                         ],
                       ),

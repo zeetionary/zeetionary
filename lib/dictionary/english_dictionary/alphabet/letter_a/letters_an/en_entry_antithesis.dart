@@ -143,9 +143,8 @@ class EnglishEntryantithesis extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 "تەواوکردنی خوێندن لە تەمەنی ١٦ ساڵی لەلایەن خوێندکارانەوە ڕێک پێچەوانەی ئەوەیە کە کۆمەڵگە پێویستییەتی.",
                             onPressedBritish: () =>
                                 speakantithesis1248("en-GB"),
-                            onPressedAmerican: () => speakantithesis1248(
-                                // REPLACE: antithesis /ænˈtɪθəsɪs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantithesis1248("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +175,8 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 "جیاوازییەک ھەیە لەنێوان خواستەکانی حکومەت و ئەوانەی خەڵکی.",
                             onPressedBritish: () =>
                                 speakantithesis1251("en-GB"),
-                            onPressedAmerican: () => speakantithesis1251(
-                                // REPLACE: antithesis /ænˈtɪθəsɪs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantithesis1251("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

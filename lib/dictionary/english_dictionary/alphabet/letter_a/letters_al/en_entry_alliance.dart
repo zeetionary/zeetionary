@@ -82,7 +82,7 @@ class EnglishEntryalliance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alliance"), // Find /əˈlaɪəns/
+                            EntryTitle(word: "alliance"),
                           ],
                         ),
                         Row(
@@ -116,9 +116,8 @@ class EnglishEntryalliance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -136,9 +135,8 @@ class EnglishEntryalliance extends StatelessWidget {
                             kurdishText:
                                 "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت.",
                             onPressedBritish: () => speakalliance45966("en-GB"),
-                            onPressedAmerican: () => speakalliance45966(
-                                // REPLACE: alliance /əˈlaɪəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalliance45966("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -148,9 +146,8 @@ class EnglishEntryalliance extends StatelessWidget {
                                 "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات.",
                             onPressedBritish: () =>
                                 speakalliance647239("en-GB"),
-                            onPressedAmerican: () => speakalliance647239(
-                                // REPLACE: alliance /əˈlaɪəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalliance647239("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -161,9 +158,7 @@ class EnglishEntryalliance extends StatelessWidget {
                             kurdishText:
                                 "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن.",
                             onPressedBritish: () => speakalliance4692("en-GB"),
-                            onPressedAmerican: () => speakalliance4692(
-                                // REPLACE: alliance /əˈlaɪəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakalliance4692("en-US"),
                           ),
                         ],
                       ),

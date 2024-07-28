@@ -84,9 +84,7 @@ class EnglishEntryadministration extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "administration"), // Find /ədˌmɪnɪˈstreɪʃn/
+                            EntryTitle(word: "administration"),
                           ],
                         ),
                         Row(
@@ -122,9 +120,8 @@ class EnglishEntryadministration extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -140,9 +137,7 @@ class EnglishEntryadministration extends StatelessWidget {
                             kurdishText:
                                 "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن.",
                             onPressedBritish: () => speakadminis2547("en-GB"),
-                            onPressedAmerican: () => speakadminis2547(
-                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadminis2547("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -153,9 +148,7 @@ class EnglishEntryadministration extends StatelessWidget {
                             kurdishText:
                                 "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما.",
                             onPressedBritish: () => speakadminist3547("en-GB"),
-                            onPressedAmerican: () => speakadminist3547(
-                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadminist3547("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -166,9 +159,8 @@ class EnglishEntryadministration extends StatelessWidget {
                             kurdishText:
                                 "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان.",
                             onPressedBritish: () => speakadministr2222("en-GB"),
-                            onPressedAmerican: () => speakadministr2222(
-                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakadministr2222("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -179,9 +171,7 @@ class EnglishEntryadministration extends StatelessWidget {
                             kurdishText:
                                 "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن.",
                             onPressedBritish: () => speakadmi25682("en-GB"),
-                            onPressedAmerican: () => speakadmi25682(
-                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmi25682("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -192,16 +182,14 @@ class EnglishEntryadministration extends StatelessWidget {
                             kurdishText:
                                 "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان.",
                             onPressedBritish: () => speakadm25589("en-GB"),
-                            onPressedAmerican: () => speakadm25589(
-                                // REPLACE: administration /ədˌmɪnɪˈstreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadm25589("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

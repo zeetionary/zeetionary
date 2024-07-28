@@ -143,9 +143,8 @@ class EnglishEntryappendix extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 "He had to have his appendix out (= removed).",
                             kurdishText: "پێویست بوو پەلەڕیخۆڵەی دەربێنێت.",
                             onPressedBritish: () => speakappendix216("en-GB"),
-                            onPressedAmerican: () => speakappendix216(
-                                // REPLACE: appendix /əˈpendɪks/
-                                "en-US"),
+                            onPressedAmerican: () => speakappendix216("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -174,9 +171,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 "Full details are given in Appendix 3.",
                             kurdishText: "وردەکاریی تەواو لە پاشکۆی ٣ دراوە.",
                             onPressedBritish: () => speakappendix218("en-GB"),
-                            onPressedAmerican: () => speakappendix218(
-                                // REPLACE: appendix /əˈpendɪks/
-                                "en-US"),
+                            onPressedAmerican: () => speakappendix218("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

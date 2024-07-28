@@ -146,9 +146,8 @@ class EnglishEntryarty extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryarty extends StatelessWidget {
                             kurdishText:
                                 "بۆچی وا خۆت پیشان دەدەیت کە حەزت لەو فیلمە بێزارکەرانەیە کە خۆیان وەک ھونەر پیشان دەدەن؟",
                             onPressedBritish: () => speakarty1008("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarty1008(// REPLACE: arty /ˈɑːrti/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarty1008("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

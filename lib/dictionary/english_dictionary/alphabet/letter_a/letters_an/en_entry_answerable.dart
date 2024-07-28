@@ -142,9 +142,8 @@ class EnglishEntryanswerable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی.",
                             onPressedBritish: () =>
                                 speakanswerable1100("en-GB"),
-                            onPressedAmerican: () => speakanswerable1100(
-                                // REPLACE: answerable /ˈænsərəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanswerable1100("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -175,9 +173,8 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت.",
                             onPressedBritish: () =>
                                 speakanswerable1102("en-GB"),
-                            onPressedAmerican: () => speakanswerable1102(
-                                // REPLACE: answerable /ˈænsərəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanswerable1102("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +187,8 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان.",
                             onPressedBritish: () =>
                                 speakanswerable1104("en-GB"),
-                            onPressedAmerican: () => speakanswerable1104(
-                                // REPLACE: answerable /ˈænsərəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanswerable1104("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -203,9 +199,8 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن.",
                             onPressedBritish: () =>
                                 speakanswerable1106("en-GB"),
-                            onPressedAmerican: () => speakanswerable1106(
-                                // REPLACE: answerable /ˈænsərəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanswerable1106("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

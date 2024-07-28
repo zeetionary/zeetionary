@@ -63,7 +63,7 @@ class EnglishEntryaltar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "altar"), // Find /ˈɔːltə(r)/
+                            EntryTitle(word: "altar"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaltar extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryaltar extends StatelessWidget {
                             kurdishText:
                                 "پێش‌نوێژگەیەکی بۆ خودا دانا و قوربانی ئەنجامدا.",
                             onPressedBritish: () => speakaltar45966("en-GB"),
-                            onPressedAmerican: () => speakaltar45966(
-                                // REPLACE: altar /ˈɔːltər/
-                                "en-US"),
+                            onPressedAmerican: () => speakaltar45966("en-US"),
                           ),
                         ],
                       ),

@@ -64,7 +64,7 @@ class EnglishEntryadversary extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adversary"), // Find /ˈædvəsəri/
+                            EntryTitle(word: "adversary"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadversary extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,14 @@ class EnglishEntryadversary extends StatelessWidget {
                             kurdishText:
                                 "وەک ڕکابەری یەکەمی دەیبینی لە کۆمپانیەکەدا.",
                             onPressedBritish: () => speakadver66982("en-GB"),
-                            onPressedAmerican: () => speakadver66982(
-                                // REPLACE: adversary /ˈædvərsəri/
-                                "en-US"),
+                            onPressedAmerican: () => speakadver66982("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

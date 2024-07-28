@@ -147,9 +147,8 @@ class EnglishEntryartificial extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryartificial extends StatelessWidget {
                             kurdishText:
                                 "ھەموو ئەو خواردنانەی لە چێشتخانەکە پێشکەش‌دەکرێن ھیچ ڕەنگ و تامی دەستکردیان تێدا نییە.",
                             onPressedBritish: () => speakartificial907("en-GB"),
-                            onPressedAmerican: () => speakartificial907(
-                                // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartificial907("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +178,8 @@ class EnglishEntryartificial extends StatelessWidget {
                             kurdishText:
                                 "چاوپێکەوتن بۆ کار بارودۆخێکی ناواقیعییە.",
                             onPressedBritish: () => speakartificial910("en-GB"),
-                            onPressedAmerican: () => speakartificial910(
-                                // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartificial910("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +191,8 @@ class EnglishEntryartificial extends StatelessWidget {
                             kurdishText:
                                 "پێکەنینی ساختەی کچەکە ھێندە باوەڕپێکەر بوو کە دەکرا قەناعەت بە ھەموو کەسێک بکات.",
                             onPressedBritish: () => speakartificial917("en-GB"),
-                            onPressedAmerican: () => speakartificial917(
-                                // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartificial917("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

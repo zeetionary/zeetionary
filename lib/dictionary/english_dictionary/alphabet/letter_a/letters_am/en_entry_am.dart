@@ -56,8 +56,7 @@ class EnglishEntryam extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "AM"), // Find /əm/, /æm/, /ˌeɪ ˈem/
+                            EntryTitle(word: "AM"),
                           ],
                         ),
                         Row(
@@ -91,9 +90,8 @@ class EnglishEntryam extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -106,9 +104,7 @@ class EnglishEntryam extends StatelessWidget {
                             kurdishText:
                                 "بیسەری ڕادیۆی گۆڵدی، پەخشی ٢٤ کاتژمێری لەسەر شەپۆلی ٩٠٩ ئەی ئێم.",
                             onPressedBritish: () => speakam795888("en-GB"),
-                            onPressedAmerican: () => speakam795888(
-                                // REPLACE: am /əm/, /æm/, /ˌeɪ ˈem/
-                                "en-US"),
+                            onPressedAmerican: () => speakam795888("en-US"),
                           ),
                         ],
                       ),

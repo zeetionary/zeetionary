@@ -138,9 +138,8 @@ class EnglishEntryannals extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryannals extends StatelessWidget {
                             kurdishText:
                                 "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە.",
                             onPressedBritish: () => speakannals1123("en-GB"),
-                            onPressedAmerican: () => speakannals1123(
-                                // REPLACE: annals /ˈænlz/
-                                "en-US"),
+                            onPressedAmerican: () => speakannals1123("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -170,9 +167,7 @@ class EnglishEntryannals extends StatelessWidget {
                             kurdishText:
                                 "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە.",
                             onPressedBritish: () => speakannals1125("en-GB"),
-                            onPressedAmerican: () => speakannals1125(
-                                // REPLACE: annals /ˈænlz/
-                                "en-US"),
+                            onPressedAmerican: () => speakannals1125("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

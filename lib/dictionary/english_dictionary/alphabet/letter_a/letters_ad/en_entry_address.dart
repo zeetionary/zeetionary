@@ -123,7 +123,7 @@ class EnglishEntryaddress extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "address"), // Find /əˈdres/
+                            EntryTitle(word: "address"),
                           ],
                         ),
                         Row(
@@ -157,9 +157,8 @@ class EnglishEntryaddress extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -177,8 +176,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                 "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم.",
                             onPressedBritish: () => speakadd774("en-GB"),
                             onPressedAmerican: () =>
-                                speakadd774(// REPLACE: address /əˈdres/
-                                    "en-US"),
+                                speakadd774("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -187,9 +185,7 @@ class EnglishEntryaddress extends StatelessWidget {
                             kurdishText:
                                 "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە.",
                             onPressedBritish: () => speakaddress452("en-GB"),
-                            onPressedAmerican: () => speakaddress452(
-                                // REPLACE: address /əˈdres/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddress452("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -198,9 +194,7 @@ class EnglishEntryaddress extends StatelessWidget {
                             englishText: "What's your email address?",
                             kurdishText: "ناونیشانی ئیمەیڵەکەت چییە؟",
                             onPressedBritish: () => speakaddr2458("en-GB"),
-                            onPressedAmerican: () => speakaddr2458(
-                                // REPLACE: address /əˈdres/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddr2458("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -211,9 +205,7 @@ class EnglishEntryaddress extends StatelessWidget {
                             kurdishText:
                                 "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە.",
                             onPressedBritish: () => speakaddr624("en-GB"),
-                            onPressedAmerican: () => speakaddr624(
-                                // REPLACE: address /əˈdres/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddr624("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -225,8 +217,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                 "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە.",
                             onPressedBritish: () => speakadd99("en-GB"),
                             onPressedAmerican: () =>
-                                speakadd99(// REPLACE: address /əˈdres/
-                                    "en-US"),
+                                speakadd99("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -238,8 +229,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                 "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا.",
                             onPressedBritish: () => speakaddr11("en-GB"),
                             onPressedAmerican: () =>
-                                speakaddr11(// REPLACE: address /əˈdres/
-                                    "en-US"),
+                                speakaddr11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -250,9 +240,7 @@ class EnglishEntryaddress extends StatelessWidget {
                             kurdishText:
                                 "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات.",
                             onPressedBritish: () => speakaddre444("en-GB"),
-                            onPressedAmerican: () => speakaddre444(
-                                // REPLACE: address /əˈdres/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddre444("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -263,16 +251,14 @@ class EnglishEntryaddress extends StatelessWidget {
                             kurdishText:
                                 "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت.",
                             onPressedBritish: () => speakaddr766("en-GB"),
-                            onPressedAmerican: () => speakaddr766(
-                                // REPLACE: address /əˈdres/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddr766("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

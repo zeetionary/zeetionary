@@ -63,7 +63,7 @@ class EnglishEntryagility extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agility"), // Find /əˈdʒɪləti/
+                            EntryTitle(word: "agility"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryagility extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryagility extends StatelessWidget {
                                 "He has the agility of a mountain goat.",
                             kurdishText: "گورجوگۆڵی بزنێکی شاخاوی ھەیە.",
                             onPressedBritish: () => speakagility1562("en-GB"),
-                            onPressedAmerican: () => speakagility1562(
-                                // REPLACE: agility /əˈdʒɪləti/
-                                "en-US"),
+                            onPressedAmerican: () => speakagility1562("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -128,16 +125,14 @@ class EnglishEntryagility extends StatelessWidget {
                                 "We underestimate the agility of a child's mind.",
                             kurdishText: "بیروھۆشی منداڵ بە کەم سەیر دەکەین.",
                             onPressedBritish: () => speakagilit48966("en-GB"),
-                            onPressedAmerican: () => speakagilit48966(
-                                // REPLACE: agility /əˈdʒɪləti/
-                                "en-US"),
+                            onPressedAmerican: () => speakagilit48966("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

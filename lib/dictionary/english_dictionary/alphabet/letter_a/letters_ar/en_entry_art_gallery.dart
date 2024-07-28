@@ -145,9 +145,8 @@ class EnglishEntryartgallery extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryartgallery extends StatelessWidget {
                                 "زوو زوو کارەکانی لە پێشانگای ھونەری نمایش‌دەکات.",
                             onPressedBritish: () =>
                                 speakartgallery1257("en-GB"),
-                            onPressedAmerican: () => speakartgallery1257(
-                                // REPLACE: art gallery /ˈɑːrt ɡæləri/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartgallery1257("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -149,9 +149,8 @@ class EnglishEntryaspirate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                             kurdishText:
                                 "وشەی ‘hour’ بەبێ ئەسپیرەیتی سەرەتا دەخوێندرێتەوە.",
                             onPressedBritish: () => speakaspirate643("en-GB"),
-                            onPressedAmerican: () => speakaspirate643(
-                                // REPLACE: aspirate /ˈæspərət/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspirate643("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +176,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                             kurdishText:
                                 "مامۆستاکە داوای لە خوێندکارەکانی کرد پیتی 'ت' بە ھەناسەی زیاترەوە بخوێننەوە.",
                             onPressedBritish: () => speakaspirate648("en-GB"),
-                            onPressedAmerican: () => speakaspirate648(
-                                // REPLACE: aspirate /ˈæspərət/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspirate648("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +188,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                             kurdishText:
                                 "قوربانییە نقومبووەکە ئاوی مژییە ناو سنگەکانی.",
                             onPressedBritish: () => speakaspirate651("en-GB"),
-                            onPressedAmerican: () => speakaspirate651(
-                                // REPLACE: aspirate /ˈæspərət/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspirate651("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -207,9 +200,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                             kurdishText:
                                 "پزیشکەکە شلەکەی لە لەشی نەخۆشەکە دەرکرد.",
                             onPressedBritish: () => speakaspirate653("en-GB"),
-                            onPressedAmerican: () => speakaspirate653(
-                                // REPLACE: aspirate /ˈæspərət/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspirate653("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

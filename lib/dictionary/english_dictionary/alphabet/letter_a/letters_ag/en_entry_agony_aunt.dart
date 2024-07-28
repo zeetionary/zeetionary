@@ -63,8 +63,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "agony aunt"), // Find /ˈæɡəni ɑːnt/
+                            EntryTitle(word: "agony aunt"),
                           ],
                         ),
                         Row(
@@ -111,7 +110,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

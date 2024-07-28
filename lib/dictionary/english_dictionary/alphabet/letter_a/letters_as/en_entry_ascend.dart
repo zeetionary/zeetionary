@@ -148,9 +148,8 @@ class EnglishEntryascend extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryascend extends StatelessWidget {
                             kurdishText:
                                 "کەشەکە ساردتر بوو کە زیاتر سەرکەوتین.",
                             onPressedBritish: () => speakascend1126("en-GB"),
-                            onPressedAmerican: () => speakascend1126(
-                                // REPLACE: ascend /əˈsend/
-                                "en-US"),
+                            onPressedAmerican: () => speakascend1126("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -178,9 +175,7 @@ class EnglishEntryascend extends StatelessWidget {
                             kurdishText:
                                 "دڵی بەخێرایی لێی‌دەدا کە بە پەیژەکەدا دەچووە سەرەوە.",
                             onPressedBritish: () => speakascend1129("en-GB"),
-                            onPressedAmerican: () => speakascend1129(
-                                // REPLACE: ascend /əˈsend/
-                                "en-US"),
+                            onPressedAmerican: () => speakascend1129("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -190,9 +185,7 @@ class EnglishEntryascend extends StatelessWidget {
                             kurdishText:
                                 "بەھێواشی بە ڕێگا لێژەکەی سەرەوەی شاخەکەدا چوونەسەرەوە.",
                             onPressedBritish: () => speakascend1132("en-GB"),
-                            onPressedAmerican: () => speakascend1132(
-                                // REPLACE: ascend /əˈsend/
-                                "en-US"),
+                            onPressedAmerican: () => speakascend1132("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -202,9 +195,7 @@ class EnglishEntryascend extends StatelessWidget {
                             kurdishText:
                                 "شازادە گەنجەکە چووەسەر تەختی شاھانە لە دوای مەرگی باوکی.",
                             onPressedBritish: () => speakascend1136("en-GB"),
-                            onPressedAmerican: () => speakascend1136(
-                                // REPLACE: ascend /əˈsend/
-                                "en-US"),
+                            onPressedAmerican: () => speakascend1136("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

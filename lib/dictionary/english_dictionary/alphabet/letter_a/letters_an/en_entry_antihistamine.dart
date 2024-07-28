@@ -142,9 +142,8 @@ class EnglishEntryantihistamine extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                 "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو.",
                             onPressedBritish: () =>
                                 speakantihistamine1105("en-GB"),
-                            onPressedAmerican: () => speakantihistamine1105(
-                                // REPLACE: antihistamine /ˌæntiˈhɪstəmiːn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantihistamine1105("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

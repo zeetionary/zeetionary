@@ -63,7 +63,7 @@ class EnglishEntryaltitude extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "altitude"), // Find /ˈæltɪtjuːd/
+                            EntryTitle(word: "altitude"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaltitude extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryaltitude extends StatelessWidget {
                                 "We are flying at an altitude of 6 000 metres.",
                             kurdishText: "لە بەرزی ٦٠٠٠ مەتردا دەفڕین.",
                             onPressedBritish: () => speakaltitude222("en-GB"),
-                            onPressedAmerican: () => speakaltitude222(
-                                // REPLACE: altitude /ˈæltɪtuːd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaltitude222("en-US"),
                           ),
                         ],
                       ),

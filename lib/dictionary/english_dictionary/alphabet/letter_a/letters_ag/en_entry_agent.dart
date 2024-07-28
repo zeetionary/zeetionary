@@ -88,7 +88,7 @@ class EnglishEntryagent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agent"), // Find /ˈeɪdʒənt/
+                            EntryTitle(word: "agent"),
                           ],
                         ),
                         Row(
@@ -122,9 +122,8 @@ class EnglishEntryagent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -142,9 +141,7 @@ class EnglishEntryagent extends StatelessWidget {
                             kurdishText:
                                 "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات.",
                             onPressedBritish: () => speakagen25966("en-GB"),
-                            onPressedAmerican: () => speakagen25966(
-                                // REPLACE: agent /ˈeɪdʒənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakagen25966("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -153,9 +150,7 @@ class EnglishEntryagent extends StatelessWidget {
                             englishText: "She got the work through an agent.",
                             kurdishText: "لە ڕێگەی بریکارێکەوە کارەکەی وەرگرت.",
                             onPressedBritish: () => speakag15224("en-GB"),
-                            onPressedAmerican: () => speakag15224(
-                                // REPLACE: agent /ˈeɪdʒənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakag15224("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -166,9 +161,7 @@ class EnglishEntryagent extends StatelessWidget {
                             kurdishText:
                                 "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن.",
                             onPressedBritish: () => speakage256999("en-GB"),
-                            onPressedAmerican: () => speakage256999(
-                                // REPLACE: agent /ˈeɪdʒənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakage256999("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -179,16 +172,14 @@ class EnglishEntryagent extends StatelessWidget {
                             kurdishText:
                                 "ڕێکخراوەکە وەسیلەیەکی باش بووە بۆ گۆڕانکاری کۆمەڵایەتی.",
                             onPressedBritish: () => speakagent56922("en-GB"),
-                            onPressedAmerican: () => speakagent56922(
-                                // REPLACE: agent /ˈeɪdʒənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakagent56922("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

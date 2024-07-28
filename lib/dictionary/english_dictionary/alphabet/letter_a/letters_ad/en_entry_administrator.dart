@@ -65,9 +65,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "administrator"), // Find /ədˈmɪnɪstreɪtə(r)/
+                            EntryTitle(word: "administrator"),
                           ],
                         ),
                         Row(
@@ -103,9 +101,8 @@ class EnglishEntryadministrator extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -123,9 +120,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                             kurdishText:
                                 "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن.",
                             onPressedBritish: () => speakadmini5288("en-GB"),
-                            onPressedAmerican: () => speakadmini5288(
-                                // REPLACE: administrator /ədˈmɪnɪstreɪtər/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmini5288("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -136,16 +131,14 @@ class EnglishEntryadministrator extends StatelessWidget {
                             kurdishText:
                                 "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە.",
                             onPressedBritish: () => speakadmi25688("en-GB"),
-                            onPressedAmerican: () => speakadmi25688(
-                                // REPLACE: administrator /ədˈmɪnɪstreɪtər/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmi25688("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

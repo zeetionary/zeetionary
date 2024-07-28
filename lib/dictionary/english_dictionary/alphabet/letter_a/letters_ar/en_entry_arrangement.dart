@@ -147,9 +147,8 @@ class EnglishEntryarrangement extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,8 @@ class EnglishEntryarrangement extends StatelessWidget {
                                 "ڕێکخستنی کاتی گەشتەکە و شوێنی مانەوە ئەنجام‌دراوە.",
                             onPressedBritish: () =>
                                 speakarrangement122("en-GB"),
-                            onPressedAmerican: () => speakarrangement122(
-                                // REPLACE: arrangement /əˈreɪndʒmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarrangement122("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -180,9 +178,8 @@ class EnglishEntryarrangement extends StatelessWidget {
                                 "ئامادەکارییەکان بۆ مەراسیمی ناشتنەکە تەواوبوونە.",
                             onPressedBritish: () =>
                                 speakarrangement124("en-GB"),
-                            onPressedAmerican: () => speakarrangement124(
-                                // REPLACE: arrangement /əˈreɪndʒmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarrangement124("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +192,8 @@ class EnglishEntryarrangement extends StatelessWidget {
                                 "دڵخۆشە بە شێوازە نائاساییەکەی ژیانکردنی.",
                             onPressedBritish: () =>
                                 speakarrangement126("en-GB"),
-                            onPressedAmerican: () => speakarrangement126(
-                                // REPLACE: arrangement /əˈreɪndʒmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarrangement126("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -210,9 +206,8 @@ class EnglishEntryarrangement extends StatelessWidget {
                                 "دەتوانین بگەینە ڕێککەوتنێک لەسەر نرخەکە.",
                             onPressedBritish: () =>
                                 speakarrangement128("en-GB"),
-                            onPressedAmerican: () => speakarrangement128(
-                                // REPLACE: arrangement /əˈreɪndʒmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarrangement128("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -225,9 +220,8 @@ class EnglishEntryarrangement extends StatelessWidget {
                                 "کێ ئەم ڕازاندنەوە جوانەی بۆ ئەم گوڵانە کرد؟",
                             onPressedBritish: () =>
                                 speakarrangement131("en-GB"),
-                            onPressedAmerican: () => speakarrangement131(
-                                // REPLACE: arrangement /əˈreɪndʒmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarrangement131("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -240,9 +234,8 @@ class EnglishEntryarrangement extends StatelessWidget {
                                 "ئەم سازاندنە تازەی پارچە میوزیکەکە بۆ ساکسۆفۆن و پیانۆیە.",
                             onPressedBritish: () =>
                                 speakarrangement134("en-GB"),
-                            onPressedAmerican: () => speakarrangement134(
-                                // REPLACE: arrangement /əˈreɪndʒmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarrangement134("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

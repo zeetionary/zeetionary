@@ -65,7 +65,7 @@ class EnglishEntryagnostic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agnostic"), // Find /æɡˈnɒstɪk/
+                            EntryTitle(word: "agnostic"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryagnostic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,7 @@ class EnglishEntryagnostic extends StatelessWidget {
                             kurdishText:
                                 "ئەگەرچی وەک کاسۆلیکێک گەورە کرا، بەڵام زۆرینەی تەمەنی پێگەشتوویی وەک ئەگنۆستیکێک بەسەربرد.",
                             onPressedBritish: () => speakagnos15666("en-GB"),
-                            onPressedAmerican: () => speakagnos15666(
-                                // REPLACE: agnostic /æɡˈnɑːstɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakagnos15666("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -132,16 +129,14 @@ class EnglishEntryagnostic extends StatelessWidget {
                             kurdishText:
                                 "ئەوەی کە ئایینی، بێدین، یان ئەگنۆستیک بوو نازانرێت.",
                             onPressedBritish: () => speakag45822("en-GB"),
-                            onPressedAmerican: () => speakag45822(
-                                // REPLACE: agnostic /æɡˈnɑːstɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakag45822("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

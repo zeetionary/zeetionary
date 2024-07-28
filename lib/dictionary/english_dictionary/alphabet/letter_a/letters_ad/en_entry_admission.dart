@@ -81,7 +81,7 @@ class EnglishEntryadmission extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "admission"), // Find /ədˈmɪʃn/
+                            EntryTitle(word: "admission"),
                           ],
                         ),
                         Row(
@@ -115,9 +115,8 @@ class EnglishEntryadmission extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -133,9 +132,7 @@ class EnglishEntryadmission extends StatelessWidget {
                             kurdishText:
                                 "بردنە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە.",
                             onPressedBritish: () => speakadmiss836541("en-GB"),
-                            onPressedAmerican: () => speakadmiss836541(
-                                // REPLACE: admission /ədˈmɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmiss836541("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -143,9 +140,7 @@ class EnglishEntryadmission extends StatelessWidget {
                             kurdishText:
                                 "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟",
                             onPressedBritish: () => speakadmiss735891("en-GB"),
-                            onPressedAmerican: () => speakadmiss735891(
-                                // REPLACE: admission /ədˈmɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmiss735891("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -156,9 +151,7 @@ class EnglishEntryadmission extends StatelessWidget {
                             kurdishText:
                                 "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە.",
                             onPressedBritish: () => speakadm587914("en-GB"),
-                            onPressedAmerican: () => speakadm587914(
-                                // REPLACE: admission /ədˈmɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadm587914("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -168,16 +161,14 @@ class EnglishEntryadmission extends StatelessWidget {
                                 "There is an admission fee of 10 dollars.",
                             kurdishText: "کرێی چوونەژوورەوە ١٠ دۆلارە.",
                             onPressedBritish: () => speakadmis912587("en-GB"),
-                            onPressedAmerican: () => speakadmis912587(
-                                // REPLACE: admission /ədˈmɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmis912587("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

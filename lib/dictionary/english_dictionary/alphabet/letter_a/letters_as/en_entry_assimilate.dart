@@ -148,9 +148,8 @@ class EnglishEntryassimilate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,8 @@ class EnglishEntryassimilate extends StatelessWidget {
                             kurdishText:
                                 "لیژنەکە پێویستی بە کاتە بۆ تێگەشتن لەم ڕاپۆرتە.",
                             onPressedBritish: () => speakassimilate808("en-GB"),
-                            onPressedAmerican: () => speakassimilate808(
-                                // REPLACE: assimilate /əˈsɪməleɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassimilate808("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -181,9 +179,8 @@ class EnglishEntryassimilate extends StatelessWidget {
                             kurdishText:
                                 "نابێیت چاوەڕێی ئەوە لە پەنابەران بکەیت بەزویی بتوێنەوە ناو کەلتوورێکی نامۆ بەخۆیان.",
                             onPressedBritish: () => speakassimilate812("en-GB"),
-                            onPressedAmerican: () => speakassimilate812(
-                                // REPLACE: assimilate /əˈsɪməleɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassimilate812("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +192,8 @@ class EnglishEntryassimilate extends StatelessWidget {
                             kurdishText:
                                 "ئەم گۆڕانکارییانە کەم‌کەم لەگەڵ ژیانی ڕۆژانە گونجێندران.",
                             onPressedBritish: () => speakassimilate814("en-GB"),
-                            onPressedAmerican: () => speakassimilate814(
-                                // REPLACE: assimilate /əˈsɪməleɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassimilate814("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

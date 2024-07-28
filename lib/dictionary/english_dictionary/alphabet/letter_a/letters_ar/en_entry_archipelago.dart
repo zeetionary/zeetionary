@@ -144,9 +144,8 @@ class EnglishEntryarchipelago extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryarchipelago extends StatelessWidget {
                                 "کۆدورگەی ھاوایی ناسراوە بۆ دیمەنە گڕکانییە بێ‌ھاوتاکانی.",
                             onPressedBritish: () =>
                                 speakarchipelago400("en-GB"),
-                            onPressedAmerican: () => speakarchipelago400(
-                                // REPLACE: archipelago /ˌɑːrkɪˈpeləɡəʊ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarchipelago400("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

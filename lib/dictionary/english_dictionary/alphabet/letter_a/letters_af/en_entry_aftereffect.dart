@@ -64,8 +64,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "aftereffect"), // Find /ˈɑːftər ɪfekt/
+                            EntryTitle(word: "aftereffect"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryaftereffect extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +116,14 @@ class EnglishEntryaftereffect extends StatelessWidget {
                             kurdishText:
                                 "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە.",
                             onPressedBritish: () => speakaftere3599("en-GB"),
-                            onPressedAmerican: () => speakaftere3599(
-                                // REPLACE: aftereffect /ˈɑːftər ɪfekt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaftere3599("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

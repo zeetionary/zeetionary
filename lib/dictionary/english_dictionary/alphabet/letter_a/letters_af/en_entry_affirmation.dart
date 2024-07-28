@@ -66,8 +66,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "affirmation"), // Find /ˌæfəˈmeɪʃn/
+                            EntryTitle(word: "affirmation"),
                           ],
                         ),
                         Row(
@@ -101,9 +100,8 @@ class EnglishEntryaffirmation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                             kurdishText:
                                 "پێشوازی دەکەین لە پشت‌ڕاست‌کردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت.",
                             onPressedBritish: () => speakaffirmat144("en-GB"),
-                            onPressedAmerican: () => speakaffirmat144(
-                                // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffirmat144("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -131,9 +127,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە.",
                             onPressedBritish: () => speakaffir25("en-GB"),
-                            onPressedAmerican: () => speakaffir25(
-                                // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffir25("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -144,16 +138,14 @@ class EnglishEntryaffirmation extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد.",
                             onPressedBritish: () => speakaff677("en-GB"),
-                            onPressedAmerican: () => speakaff677(
-                                // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaff677("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

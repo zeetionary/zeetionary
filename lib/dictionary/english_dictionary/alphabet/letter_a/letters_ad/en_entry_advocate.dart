@@ -64,7 +64,7 @@ class EnglishEntryadvocate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "advocate"), // Find /ˈædvəkət/
+                            EntryTitle(word: "advocate"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadvocate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryadvocate extends StatelessWidget {
                             kurdishText:
                                 "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو.",
                             onPressedBritish: () => speakadvo3569("en-GB"),
-                            onPressedAmerican: () => speakadvo3569(
-                                // REPLACE: advocate /ˈædvəkət/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvo3569("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,16 +126,14 @@ class EnglishEntryadvocate extends StatelessWidget {
                             kurdishText:
                                 "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات.",
                             onPressedBritish: () => speakadvo2564("en-GB"),
-                            onPressedAmerican: () => speakadvo2564(
-                                // REPLACE: advocate /ˈædvəkət/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvo2564("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

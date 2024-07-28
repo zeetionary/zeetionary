@@ -144,9 +144,8 @@ class EnglishEntryapologetic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryapologetic extends StatelessWidget {
                             kurdishText:
                                 "زۆر بەداخن بۆ ئەو کێشەیەی ھەڵیان‌گیرساند.",
                             onPressedBritish: () => speakapologetic255("en-GB"),
-                            onPressedAmerican: () => speakapologetic255(
-                                // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapologetic255("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +172,8 @@ class EnglishEntryapologetic extends StatelessWidget {
                                 "He was profusely apologetic about the mistake.",
                             kurdishText: "زۆر بەداخ بوو بۆ ھەڵەکە.",
                             onPressedBritish: () => speakapologetic256("en-GB"),
-                            onPressedAmerican: () => speakapologetic256(
-                                // REPLACE: apologetic /əˌpɑːləˈdʒetɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapologetic256("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

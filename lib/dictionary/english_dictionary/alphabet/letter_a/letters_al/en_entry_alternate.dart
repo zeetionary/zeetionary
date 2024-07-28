@@ -99,7 +99,7 @@ class EnglishEntryalternate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alternate"), // Find /ɔːlˈtɜːnət/
+                            EntryTitle(word: "alternate"),
                           ],
                         ),
                         Row(
@@ -133,9 +133,8 @@ class EnglishEntryalternate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -153,9 +152,8 @@ class EnglishEntryalternate extends StatelessWidget {
                             kurdishText:
                                 "وەک خۆگەرمکردنەوەیەک ٣٠ جار سترێچ بکە، ھەرجارە و بە دەستێک.",
                             onPressedBritish: () => speakalternate4599("en-GB"),
-                            onPressedAmerican: () => speakalternate4599(
-                                // REPLACE: alternate /ɔːlˈtɜːnət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternate4599("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -166,9 +164,7 @@ class EnglishEntryalternate extends StatelessWidget {
                             kurdishText:
                                 "من و ئەو ژوورەکەمان ڕۆژ نا ڕۆژێک پاکدەکەینەوە.",
                             onPressedBritish: () => speakalternate492("en-GB"),
-                            onPressedAmerican: () => speakalternate492(
-                                // REPLACE: alternate /ɔːlˈtɜːnət/
-                                "en-US"),
+                            onPressedAmerican: () => speakalternate492("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -179,9 +175,8 @@ class EnglishEntryalternate extends StatelessWidget {
                             kurdishText:
                                 "بەردەوام لە نێوان دڵخۆشی و نائومێدی قووڵ بوو.",
                             onPressedBritish: () => speakalternate4588("en-GB"),
-                            onPressedAmerican: () => speakalternate4588(
-                                // REPLACE: alternate /ɔːlˈtɜːnət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternate4588("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -192,9 +187,7 @@ class EnglishEntryalternate extends StatelessWidget {
                             kurdishText:
                                 "تیمەکانی فریاگوزاری بەردەوام لەنێوان کاری ئاسایی ڕۆژانەیان و حاڵەتی نەخوازراون.",
                             onPressedBritish: () => speakalternate385("en-GB"),
-                            onPressedAmerican: () => speakalternate385(
-                                // REPLACE: alternate /ɔːlˈtɜːnət/
-                                "en-US"),
+                            onPressedAmerican: () => speakalternate385("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -205,9 +198,8 @@ class EnglishEntryalternate extends StatelessWidget {
                             kurdishText:
                                 "دەیڤد زۆر نەخۆش بوو کە بتوانێت بەژداربێت، بۆیە جانێت وەک جێگرەوەی کاری کرد.",
                             onPressedBritish: () => speakalternate5266("en-GB"),
-                            onPressedAmerican: () => speakalternate5266(
-                                // REPLACE: alternate /ɔːlˈtɜːnət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternate5266("en-US"),
                           ),
                         ],
                       ),

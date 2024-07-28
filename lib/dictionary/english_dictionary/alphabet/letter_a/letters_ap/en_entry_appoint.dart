@@ -144,9 +144,8 @@ class EnglishEntryappoint extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryappoint extends StatelessWidget {
                             kurdishText:
                                 "بەڕێوبەرێکی تازەیان دیاریکردووە لە قوتابخانەکەی کوڕەکەم.",
                             onPressedBritish: () => speakappoint820("en-GB"),
-                            onPressedAmerican: () => speakappoint820(
-                                // REPLACE: appoint /əˈpɔɪnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakappoint820("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryappoint extends StatelessWidget {
                             kurdishText:
                                 "دیاریکردنی ڕێکەوتێک بۆ کۆبوونەوەکە ھێشتا قسەی لەسەر دەکرێت.",
                             onPressedBritish: () => speakappoint822("en-GB"),
-                            onPressedAmerican: () => speakappoint822(
-                                // REPLACE: appoint /əˈpɔɪnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakappoint822("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

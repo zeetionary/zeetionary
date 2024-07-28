@@ -113,7 +113,7 @@ class EnglishEntryalive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alive"), // Find /əˈlaɪv/
+                            EntryTitle(word: "alive"),
                           ],
                         ),
                         Row(
@@ -147,9 +147,8 @@ class EnglishEntryalive extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryalive extends StatelessWidget {
                             kurdishText:
                                 "پێویست بوو خواردن بدزێت بۆ ئەوەی بە زیندوویی بمێنێتەوە.",
                             onPressedBritish: () => speakalive65666("en-GB"),
-                            onPressedAmerican: () => speakalive65666(
-                                // REPLACE: alive /əˈlaɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakalive65666("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -175,9 +172,7 @@ class EnglishEntryalive extends StatelessWidget {
                                 "We don't know whether he's alive or dead.",
                             kurdishText: "نازانین زیندووە یان مردووە.",
                             onPressedBritish: () => speakalive69142("en-GB"),
-                            onPressedAmerican: () => speakalive69142(
-                                // REPLACE: alive /əˈlaɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakalive69142("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -186,9 +181,7 @@ class EnglishEntryalive extends StatelessWidget {
                             englishText: "Ed was alive with happiness.",
                             kurdishText: "ئێد پڕ بوو لە خۆشی.",
                             onPressedBritish: () => speakalive3599("en-GB"),
-                            onPressedAmerican: () => speakalive3599(
-                                // REPLACE: alive /əˈlaɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakalive3599("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -199,9 +192,7 @@ class EnglishEntryalive extends StatelessWidget {
                             kurdishText:
                                 "نەریتە کۆنەکان ھێشتا زیندوون لەم ھەرێمە.",
                             onPressedBritish: () => speakalive75236("en-GB"),
-                            onPressedAmerican: () => speakalive75236(
-                                // REPLACE: alive /əˈlaɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakalive75236("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -210,9 +201,7 @@ class EnglishEntryalive extends StatelessWidget {
                             englishText: "The pool was alive with goldfish.",
                             kurdishText: "حەوزەکە پڕ لە زەردەماسی بوو.",
                             onPressedBritish: () => speakalive378514("en-GB"),
-                            onPressedAmerican: () => speakalive378514(
-                                // REPLACE: alive /əˈlaɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakalive378514("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -223,9 +212,7 @@ class EnglishEntryalive extends StatelessWidget {
                             kurdishText:
                                 "باش ئاگاداری ئەو ڕاستییەن کە تیمی بەرامبەر ئەم وەرزە ھیچ یارییەکی نەدۆڕاندووە.",
                             onPressedBritish: () => speakalive35961("en-GB"),
-                            onPressedAmerican: () => speakalive35961(
-                                // REPLACE: alive /əˈlaɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakalive35961("en-US"),
                           ),
                         ],
                       ),

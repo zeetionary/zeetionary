@@ -157,9 +157,8 @@ class EnglishEntryanyplace extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -174,9 +173,7 @@ class EnglishEntryanyplace extends StatelessWidget {
                             englishText: "I can't see it anyplace.",
                             kurdishText: "لە ھیچ شوێنێک نایبینم.",
                             onPressedBritish: () => speakanyplace949("en-GB"),
-                            onPressedAmerican: () => speakanyplace949(
-                                // REPLACE: anyplace /ˈeniwer/
-                                "en-US"),
+                            onPressedAmerican: () => speakanyplace949("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +183,7 @@ class EnglishEntryanyplace extends StatelessWidget {
                             englishText: "Put the box down anyplace.",
                             kurdishText: "سنووقەکە لە ھەر کوێ دادەنێی دایبنە.",
                             onPressedBritish: () => speakanyplace951("en-GB"),
-                            onPressedAmerican: () => speakanyplace951(
-                                // REPLACE: anyplace /ˈeniwer/
-                                "en-US"),
+                            onPressedAmerican: () => speakanyplace951("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

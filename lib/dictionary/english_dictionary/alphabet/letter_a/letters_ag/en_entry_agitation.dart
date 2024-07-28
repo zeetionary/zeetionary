@@ -64,7 +64,7 @@ class EnglishEntryagitation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agitation"), // Find /ˌædʒɪˈteɪʃn/
+                            EntryTitle(word: "agitation"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagitation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,7 @@ class EnglishEntryagitation extends StatelessWidget {
                                 "She was trying not to show her agitation.",
                             kurdishText: "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات.",
                             onPressedBritish: () => speakagita2477("en-GB"),
-                            onPressedAmerican: () => speakagita2477(
-                                // REPLACE: agitation /ˌædʒɪˈteɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakagita2477("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -127,9 +124,7 @@ class EnglishEntryagitation extends StatelessWidget {
                                 "There has been mass agitation against the president.",
                             kurdishText: "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە.",
                             onPressedBritish: () => speakagi3514("en-GB"),
-                            onPressedAmerican: () => speakagi3514(
-                                // REPLACE: agitation /ˌædʒɪˈteɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakagi3514("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -139,7 +134,7 @@ class EnglishEntryagitation extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -140,9 +140,8 @@ class EnglishEntryanthology extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryanthology extends StatelessWidget {
                             kurdishText:
                                 "ئەم گوڵب‌ژێرەی مایکڵ جاکسۆن ھەندێک لە تۆماری دەگمەنی باشترین گۆرانییەکانی تێدایە.",
                             onPressedBritish: () => speakanthology819("en-GB"),
-                            onPressedAmerican: () => speakanthology819(
-                                // REPLACE: anthology /ænˈθɑːlədʒi/
-                                "en-US"),
+                            onPressedAmerican: () => speakanthology819("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

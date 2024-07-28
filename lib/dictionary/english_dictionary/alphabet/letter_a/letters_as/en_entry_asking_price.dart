@@ -145,9 +145,8 @@ class EnglishEntryaskingprice extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryaskingprice extends StatelessWidget {
                                 "نرخی داواکراو بۆ خانووەکە ٢٥٠,٠٠٠ پاوەند بوو.",
                             onPressedBritish: () =>
                                 speakaskingprice756("en-GB"),
-                            onPressedAmerican: () => speakaskingprice756(
-                                // REPLACE: asking price /ˈæskɪŋ praɪs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaskingprice756("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

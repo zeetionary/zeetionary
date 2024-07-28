@@ -64,8 +64,7 @@ class EnglishEntryadult extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adult"), // Find /ˈædʌlt/, /əˈdʌlt/
+                            EntryTitle(word: "adult"),
                           ],
                         ),
                         Row(
@@ -101,9 +100,8 @@ class EnglishEntryadult extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,7 @@ class EnglishEntryadult extends StatelessWidget {
                             kurdishText:
                                 "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت.",
                             onPressedBritish: () => speakadult12568("en-GB"),
-                            onPressedAmerican: () => speakadult12568(
-                                // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadult12568("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -133,16 +129,14 @@ class EnglishEntryadult extends StatelessWidget {
                             kurdishText:
                                 "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ.",
                             onPressedBritish: () => speakadul458237("en-GB"),
-                            onPressedAmerican: () => speakadul458237(
-                                // REPLACE: adult /ˈædʌlt/, /əˈdʌlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadul458237("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

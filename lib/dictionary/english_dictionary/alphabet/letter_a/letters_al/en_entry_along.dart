@@ -112,7 +112,7 @@ class EnglishEntryalong extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "along"), // Find /əˈlɒŋ/
+                            EntryTitle(word: "along"),
                           ],
                         ),
                         Row(
@@ -146,9 +146,8 @@ class EnglishEntryalong extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryalong extends StatelessWidget {
                             englishText: "They walked slowly along the road.",
                             kurdishText: "بەھێواشی بەدرێژایی ڕێگاکە ڕێیان کرد.",
                             onPressedBritish: () => speakalong457("en-GB"),
-                            onPressedAmerican: () =>
-                                speakalong457(// REPLACE: along /əˈlɔːŋ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakalong457("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -176,9 +173,7 @@ class EnglishEntryalong extends StatelessWidget {
                             kurdishText:
                                 "خانوو بەدرێژایی ھەردوو لای ڕووبارەکە بنیاتنراون.",
                             onPressedBritish: () => speakalong4451("en-GB"),
-                            onPressedAmerican: () => speakalong4451(
-                                // REPLACE: along /əˈlɔːŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalong4451("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -189,9 +184,7 @@ class EnglishEntryalong extends StatelessWidget {
                             kurdishText:
                                 "لە شوێنێک بەدرێژایی ئەم شەقامە گەراجێک ھەیە.",
                             onPressedBritish: () => speakalong451("en-GB"),
-                            onPressedAmerican: () =>
-                                speakalong451(// REPLACE: along /əˈlɔːŋ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakalong451("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -202,9 +195,7 @@ class EnglishEntryalong extends StatelessWidget {
                             kurdishText:
                                 "بۆ پێشەوە دەچووین بەخێرایی نزاکەی ٥٠ میل لە کاتژمێرێکدا.",
                             onPressedBritish: () => speakalong45169("en-GB"),
-                            onPressedAmerican: () => speakalong45169(
-                                // REPLACE: along /əˈlɔːŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalong45169("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -214,9 +205,7 @@ class EnglishEntryalong extends StatelessWidget {
                                 "I'll be along (= I'll join you) in a few minutes.",
                             kurdishText: "لە چەند خولەکێکدا دەگەمە لاتان.",
                             onPressedBritish: () => speakalong4516("en-GB"),
-                            onPressedAmerican: () => speakalong4516(
-                                // REPLACE: along /əˈlɔːŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalong4516("en-US"),
                           ),
                         ],
                       ),

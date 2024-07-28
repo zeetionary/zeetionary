@@ -145,9 +145,8 @@ class EnglishEntryarrive extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryarrive extends StatelessWidget {
                             englishText: "I'll wait until they arrive.",
                             kurdishText: "چاوەڕێ دەبم تا دەگەن.",
                             onPressedBritish: () => speakarrive524("en-GB"),
-                            onPressedAmerican: () => speakarrive524(
-                                // REPLACE: arrive /əˈraɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrive524("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryarrive extends StatelessWidget {
                             englishText: "She'll arrive in New York at noon.",
                             kurdishText: "نیوەڕۆ دەگاتە نیویۆرک.",
                             onPressedBritish: () => speakarrive525("en-GB"),
-                            onPressedAmerican: () => speakarrive525(
-                                // REPLACE: arrive /əˈraɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrive525("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +179,7 @@ class EnglishEntryarrive extends StatelessWidget {
                                 "A letter arrived for you this morning.",
                             kurdishText: "ئەم بەیانییە نامەیەکت پێ‌گەیشت.",
                             onPressedBritish: () => speakarrive527("en-GB"),
-                            onPressedAmerican: () => speakarrive527(
-                                // REPLACE: arrive /əˈraɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrive527("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +189,7 @@ class EnglishEntryarrive extends StatelessWidget {
                             englishText: "The wedding day finally arrived.",
                             kurdishText: "ڕۆژی ھاوسەرگیرییەکە لەکۆتاییدا گەشت.",
                             onPressedBritish: () => speakarrive528("en-GB"),
-                            onPressedAmerican: () => speakarrive528(
-                                // REPLACE: arrive /əˈraɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrive528("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

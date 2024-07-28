@@ -140,9 +140,8 @@ class EnglishEntryantenna extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryantenna extends StatelessWidget {
                             kurdishText:
                                 "وەزیرەکە پەسن‌کرا بۆ بیرتیژیی لە سیاسەتدا.",
                             onPressedBritish: () => speakantenna519("en-GB"),
-                            onPressedAmerican: () => speakantenna519(
-                                // REPLACE: antenna /ænˈtenə/
-                                "en-US"),
+                            onPressedAmerican: () => speakantenna519("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryantenna extends StatelessWidget {
                             kurdishText:
                                 "سەحنەی سەتەلایتێکیان لە سەربانەکە دانا.",
                             onPressedBritish: () => speakantenna523("en-GB"),
-                            onPressedAmerican: () => speakantenna523(
-                                // REPLACE: antenna /ænˈtenə/
-                                "en-US"),
+                            onPressedAmerican: () => speakantenna523("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

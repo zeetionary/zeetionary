@@ -145,9 +145,8 @@ class EnglishEntryarthritic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryarthritic extends StatelessWidget {
                             kurdishText:
                                 "دەستەکانی ئاوساوبوون و تووشی ھەوکردن بووبوون.",
                             onPressedBritish: () => speakarthritic457("en-GB"),
-                            onPressedAmerican: () => speakarthritic457(
-                                // REPLACE: arthritic /ɑːrˈθrɪtɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarthritic457("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

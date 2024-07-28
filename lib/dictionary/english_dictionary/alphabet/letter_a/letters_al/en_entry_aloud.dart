@@ -64,7 +64,7 @@ class EnglishEntryaloud extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aloud"), // Find /əˈlaʊd/
+                            EntryTitle(word: "aloud"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaloud extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,7 @@ class EnglishEntryaloud extends StatelessWidget {
                             englishText: "He read the letter aloud to us.",
                             kurdishText: "نامەکەی بە دەنگی بەرز بۆ خوێندینەوە.",
                             onPressedBritish: () => speakaloud469("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaloud469(// REPLACE: aloud /əˈlaʊd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaloud469("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -126,9 +123,7 @@ class EnglishEntryaloud extends StatelessWidget {
                             kurdishText:
                                 "خەڵکی دەستیان کردووە بە گۆتەگۆت کە ئاخۆ چاکسازییە ئابوورییەکان پەلیان زۆر ھاویشتووە.",
                             onPressedBritish: () => speakaloud462("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaloud462(// REPLACE: aloud /əˈlaʊd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaloud462("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -137,9 +132,7 @@ class EnglishEntryaloud extends StatelessWidget {
                             englishText: "She cried aloud in protest.",
                             kurdishText: "بە دەنگی بەرز ناڕەزایی دەربڕی.",
                             onPressedBritish: () => speakaloud596("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaloud596(// REPLACE: aloud /əˈlaʊd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaloud596("en-US"),
                           ),
                         ],
                       ),

@@ -163,9 +163,8 @@ class EnglishEntryamiable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -179,9 +178,8 @@ class EnglishEntryamiable extends StatelessWidget {
                             englishText: "Her parents seemed very amiable.",
                             kurdishText: "دایک و باوکی ڕووخۆش بوون.",
                             onPressedBritish: () => speakamiable455666("en-GB"),
-                            onPressedAmerican: () => speakamiable455666(
-                                // REPLACE: amiable /ˈeɪmiəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamiable455666("en-US"),
                           ),
                         ],
                       ),

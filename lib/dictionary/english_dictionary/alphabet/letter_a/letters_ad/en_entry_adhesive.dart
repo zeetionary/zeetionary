@@ -63,9 +63,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adhesive"), // Find /ədˈhiːsɪv/, /ədˈhiːzɪv/
+                            EntryTitle(word: "adhesive"),
                           ],
                         ),
                         Row(
@@ -101,9 +99,8 @@ class EnglishEntryadhesive extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +116,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                             kurdishText:
                                 "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت.",
                             onPressedBritish: () => speakadhesive471("en-GB"),
-                            onPressedAmerican: () => speakadhesive471(
-                                // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakadhesive471("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -132,16 +127,14 @@ class EnglishEntryadhesive extends StatelessWidget {
                             kurdishText:
                                 "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە.",
                             onPressedBritish: () => speakadhesive6355("en-GB"),
-                            onPressedAmerican: () => speakadhesive6355(
-                                // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakadhesive6355("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

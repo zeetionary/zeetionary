@@ -146,9 +146,8 @@ class EnglishEntryargument extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryargument extends StatelessWidget {
                             kurdishText:
                                 "لە دوای ھەندێک مشتومڕی گەرم بڕیارێک لە کۆتاییدا دار.",
                             onPressedBritish: () => speakargument1032("en-GB"),
-                            onPressedAmerican: () => speakargument1032(
-                                // REPLACE: argument /ˈɑːrɡjumənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakargument1032("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -176,9 +173,7 @@ class EnglishEntryargument extends StatelessWidget {
                                 "She got into an argument with the teacher.",
                             kurdishText: "کەوتە مشتومڕێک لەگەڵ مامۆستاکە.",
                             onPressedBritish: () => speakargument1033("en-GB"),
-                            onPressedAmerican: () => speakargument1033(
-                                // REPLACE: argument /ˈɑːrɡjumənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakargument1033("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +185,7 @@ class EnglishEntryargument extends StatelessWidget {
                             kurdishText:
                                 "بەڵگەھێنانەوەی بەھێز بۆ لەگەڵ‌بوون یان دژایەتی ھوومەرگی (کوشتنی مرۆڤ، بەتایبەتی نەخۆشێک، لەسەر داوای خۆی بە ڕێگای پزیشکی).",
                             onPressedBritish: () => speakargument1039("en-GB"),
-                            onPressedAmerican: () => speakargument1039(
-                                // REPLACE: argument /ˈɑːrɡjumənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakargument1039("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +197,7 @@ class EnglishEntryargument extends StatelessWidget {
                             kurdishText:
                                 "بە مەبەستی گفتوگۆکردنی بابەتەکە با وادابنێین کە تاوەکو مانگی ئادار دەستپێ‌ناکەین.",
                             onPressedBritish: () => speakargument1042("en-GB"),
-                            onPressedAmerican: () => speakargument1042(
-                                // REPLACE: argument /ˈɑːrɡjumənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakargument1042("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

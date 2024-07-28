@@ -139,9 +139,8 @@ class EnglishEntryancestry extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryancestry extends StatelessWidget {
                             kurdishText:
                                 "دەیتوانی ڕەچەڵەکی بەدرێژایی ١٠٠٠ ساڵ بگێڕێتەوە.",
                             onPressedBritish: () => speakancestry1520("en-GB"),
-                            onPressedAmerican: () => speakancestry1520(
-                                // REPLACE: ancestry /ˈænsestri/
-                                "en-US"),
+                            onPressedAmerican: () => speakancestry1520("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -169,9 +166,7 @@ class EnglishEntryancestry extends StatelessWidget {
                             kurdishText:
                                 "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە.",
                             onPressedBritish: () => speakancestry4955("en-GB"),
-                            onPressedAmerican: () => speakancestry4955(
-                                // REPLACE: ancestry /ˈænsestri/
-                                "en-US"),
+                            onPressedAmerican: () => speakancestry4955("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

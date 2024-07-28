@@ -63,8 +63,7 @@ class EnglishEntryagricultural extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "agricultural"), // Find /ˌæɡrɪˈkʌltʃərəl/
+                            EntryTitle(word: "agricultural"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryagricultural extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +115,7 @@ class EnglishEntryagricultural extends StatelessWidget {
                             englishText: "She's studying agricultural science.",
                             kurdishText: "زانستی کشتوکاڵ دەخوێنێت.",
                             onPressedBritish: () => speakagricul35699("en-GB"),
-                            onPressedAmerican: () => speakagricul35699(
-                                // REPLACE: agricultural /ˌæɡrɪˈkʌltʃərəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakagricul35699("en-US"),
                           ),
                         ],
                       ),

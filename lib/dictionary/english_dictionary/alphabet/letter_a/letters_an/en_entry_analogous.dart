@@ -138,9 +138,8 @@ class EnglishEntryanalogous extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,8 @@ class EnglishEntryanalogous extends StatelessWidget {
                                 "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە.",
                             onPressedBritish: () =>
                                 speakanalogous852401("en-GB"),
-                            onPressedAmerican: () => speakanalogous852401(
-                                // REPLACE: analogous /əˈnæləɡəs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanalogous852401("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -168,9 +166,8 @@ class EnglishEntryanalogous extends StatelessWidget {
                                 "The two situations are roughly analogous.",
                             kurdishText: "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون.",
                             onPressedBritish: () => speakanalogous8401("en-GB"),
-                            onPressedAmerican: () => speakanalogous8401(
-                                // REPLACE: analogous /əˈnæləɡəs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanalogous8401("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -146,9 +146,8 @@ class EnglishEntryarrange extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryarrange extends StatelessWidget {
                             englishText: "The party was arranged quickly.",
                             kurdishText: "ئاھەنگەکە بەخێرایی ڕێکخرا.",
                             onPressedBritish: () => speakarrange105("en-GB"),
-                            onPressedAmerican: () => speakarrange105(
-                                // REPLACE: arrange /əˈreɪndʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrange105("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +171,7 @@ class EnglishEntryarrange extends StatelessWidget {
                             kurdishText:
                                 "وەرگرتنی قەرزێکی ڕێکخست لەگەڵ بانکەکە.",
                             onPressedBritish: () => speakarrange106("en-GB"),
-                            onPressedAmerican: () => speakarrange106(
-                                // REPLACE: arrange /əˈreɪndʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrange106("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +183,7 @@ class EnglishEntryarrange extends StatelessWidget {
                             kurdishText:
                                 "کتێبەکان بەپێی ئەلفوبێی ناوی نووسەرەکانیان ڕیزبەندی کرابوون.",
                             onPressedBritish: () => speakarrange108("en-GB"),
-                            onPressedAmerican: () => speakarrange108(
-                                // REPLACE: arrange /əˈreɪndʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrange108("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,9 +195,7 @@ class EnglishEntryarrange extends StatelessWidget {
                             kurdishText:
                                 "پێنجەم سیمفۆنی بیتھۆڤن بۆ پیانۆ سازێندراوە.",
                             onPressedBritish: () => speakarrange111("en-GB"),
-                            onPressedAmerican: () => speakarrange111(
-                                // REPLACE: arrange /əˈreɪndʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrange111("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

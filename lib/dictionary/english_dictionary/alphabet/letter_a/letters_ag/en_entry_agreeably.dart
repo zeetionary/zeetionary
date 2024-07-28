@@ -64,7 +64,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agreeably"), // Find /əˈɡriːəbli/
+                            EntryTitle(word: "agreeably"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagreeably extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                             kurdishText:
                                 "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە.",
                             onPressedBritish: () => speakagr35222("en-GB"),
-                            onPressedAmerican: () => speakagr35222(
-                                // REPLACE: agreeably /əˈɡriːəbli/
-                                "en-US"),
+                            onPressedAmerican: () => speakagr35222("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -127,16 +124,14 @@ class EnglishEntryagreeably extends StatelessWidget {
                             kurdishText:
                                 "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە.",
                             onPressedBritish: () => speakagreea35744("en-GB"),
-                            onPressedAmerican: () => speakagreea35744(
-                                // REPLACE: agreeably /əˈɡriːəbli/
-                                "en-US"),
+                            onPressedAmerican: () => speakagreea35744("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

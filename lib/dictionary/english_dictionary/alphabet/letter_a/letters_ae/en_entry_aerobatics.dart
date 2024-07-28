@@ -64,8 +64,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "aerobatics"), // Find /ˌeərəˈbætɪks/
+                            EntryTitle(word: "aerobatics"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryaerobatics extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,16 +117,14 @@ class EnglishEntryaerobatics extends StatelessWidget {
                             kurdishText:
                                 "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان.",
                             onPressedBritish: () => speakaeroba35699("en-GB"),
-                            onPressedAmerican: () => speakaeroba35699(
-                                // REPLACE: aerobatics /ˌerəˈbætɪks/
-                                "en-US"),
+                            onPressedAmerican: () => speakaeroba35699("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -148,9 +148,8 @@ class EnglishEntryarrest extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,7 @@ class EnglishEntryarrest extends StatelessWidget {
                             kurdishText:
                                 "کەسێک دەستگیرکراوە بەتۆمەتی تێوەگلان لە دزییەکە.",
                             onPressedBritish: () => speakarrest420("en-GB"),
-                            onPressedAmerican: () => speakarrest420(
-                                // REPLACE: arrest /əˈrest/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrest420("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -178,9 +175,7 @@ class EnglishEntryarrest extends StatelessWidget {
                                 "He was arrested on corruption charges.",
                             kurdishText: "بەتۆمەتی گەندەڵی دەستگیرکرا.",
                             onPressedBritish: () => speakarrest421("en-GB"),
-                            onPressedAmerican: () => speakarrest421(
-                                // REPLACE: arrest /əˈrest/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrest421("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +187,7 @@ class EnglishEntryarrest extends StatelessWidget {
                             kurdishText:
                                 "شکستیان ھێنا لە ڕێگری‌کردن لە داڕووخانی کۆمپانیاکە.",
                             onPressedBritish: () => speakarrest425("en-GB"),
-                            onPressedAmerican: () => speakarrest425(
-                                // REPLACE: arrest /əˈrest/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrest425("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -204,9 +197,7 @@ class EnglishEntryarrest extends StatelessWidget {
                             kurdishText:
                                 "پەرەسەندنی نەخۆشییەکە دەوەستێنرێت بە دەرمان.",
                             onPressedBritish: () => speakarrest426("en-GB"),
-                            onPressedAmerican: () => speakarrest426(
-                                // REPLACE: arrest /əˈrest/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrest426("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -218,9 +209,7 @@ class EnglishEntryarrest extends StatelessWidget {
                             kurdishText:
                                 "دەنگە دەنگێکی نائاسایی سەرنجی ڕاکێشا.",
                             onPressedBritish: () => speakarrest428("en-GB"),
-                            onPressedAmerican: () => speakarrest428(
-                                // REPLACE: arrest /əˈrest/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrest428("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -232,9 +221,7 @@ class EnglishEntryarrest extends StatelessWidget {
                             kurdishText:
                                 "دڵی لە لێدان کەوت لە ڕێگا بۆ نەخۆشخانە.",
                             onPressedBritish: () => speakarrest430("en-GB"),
-                            onPressedAmerican: () => speakarrest430(
-                                // REPLACE: arrest /əˈrest/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrest430("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -244,9 +231,7 @@ class EnglishEntryarrest extends StatelessWidget {
                             englishText: "The police made several arrests.",
                             kurdishText: "پۆلیس ژمارەیەک کەسی دەستگیرکرد.",
                             onPressedBritish: () => speakarrest432("en-GB"),
-                            onPressedAmerican: () => speakarrest432(
-                                // REPLACE: arrest /əˈrest/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrest432("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -257,9 +242,7 @@ class EnglishEntryarrest extends StatelessWidget {
                                 "He died after suffering a cardiac arrest (= when his heart suddenly stopped).",
                             kurdishText: "گیانی لەدەستدا لە دوای وەستانی دڵی.",
                             onPressedBritish: () => speakarrest435("en-GB"),
-                            onPressedAmerican: () => speakarrest435(
-                                // REPLACE: arrest /əˈrest/
-                                "en-US"),
+                            onPressedAmerican: () => speakarrest435("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

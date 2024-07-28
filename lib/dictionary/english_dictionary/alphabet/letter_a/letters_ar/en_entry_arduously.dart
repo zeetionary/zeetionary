@@ -143,9 +143,8 @@ class EnglishEntryarduously extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryarduously extends StatelessWidget {
                             englishText: "They searched arduously for clues.",
                             kurdishText: "بە تاقەت‌پڕوقێنانە گەڕان بۆ سەرەداو.",
                             onPressedBritish: () => speakarduously715("en-GB"),
-                            onPressedAmerican: () => speakarduously715(
-                                // REPLACE: arduously /ˈɑːrdʒuəsli/
-                                "en-US"),
+                            onPressedAmerican: () => speakarduously715("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

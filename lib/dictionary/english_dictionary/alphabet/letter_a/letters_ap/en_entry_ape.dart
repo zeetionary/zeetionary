@@ -144,9 +144,8 @@ class EnglishEntryape extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryape extends StatelessWidget {
                                 "Chimpanzees and gorillas are both apes.",
                             kurdishText: "شیمپانزی و گۆرێلا ھەردووکیان ئەیپن.",
                             onPressedBritish: () => speakape129("en-GB"),
-                            onPressedAmerican: () =>
-                                speakape129(// REPLACE: ape /eɪp/
-                                    "en-US"),
+                            onPressedAmerican: () => speakape129("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -172,9 +169,7 @@ class EnglishEntryape extends StatelessWidget {
                             kurdishText:
                                 "بۆ چەندین ساڵ پیشەسازیی فیلمی بەریتانی تەنھا کۆپی خراپی ھۆڵیھوود بوو.",
                             onPressedBritish: () => speakape132("en-GB"),
-                            onPressedAmerican: () =>
-                                speakape132(// REPLACE: ape /eɪp/
-                                    "en-US"),
+                            onPressedAmerican: () => speakape132("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +181,7 @@ class EnglishEntryape extends StatelessWidget {
                             kurdishText:
                                 "جاران لاسایی ئەکسێنتی باشووریی مامۆستاکەمان دەکردەوە.",
                             onPressedBritish: () => speakape134("en-GB"),
-                            onPressedAmerican: () =>
-                                speakape134(// REPLACE: ape /eɪp/
-                                    "en-US"),
+                            onPressedAmerican: () => speakape134("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

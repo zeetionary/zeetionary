@@ -63,7 +63,7 @@ class EnglishEntryaglow extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aglow"), // Find /əˈɡləʊ/
+                            EntryTitle(word: "aglow"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaglow extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,14 @@ class EnglishEntryaglow extends StatelessWidget {
                                 "His face was all aglow with excitement.",
                             kurdishText: "ڕووخساری لە خۆشیدا دەدرەوشایەوە.",
                             onPressedBritish: () => speakag4599("en-GB"),
-                            onPressedAmerican: () =>
-                                speakag4599(// REPLACE: aglow /əˈɡləʊ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakag4599("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

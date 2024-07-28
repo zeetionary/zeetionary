@@ -143,9 +143,8 @@ class EnglishEntryarchery extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryarchery extends StatelessWidget {
                             kurdishText:
                                 "ھیچیان تیراوێژیان نەکردبوو پێش ساڵی پار.",
                             onPressedBritish: () => speakarchery350("en-GB"),
-                            onPressedAmerican: () => speakarchery350(
-                                // REPLACE: archery /ˈɑːrtʃəri/
-                                "en-US"),
+                            onPressedAmerican: () => speakarchery350("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

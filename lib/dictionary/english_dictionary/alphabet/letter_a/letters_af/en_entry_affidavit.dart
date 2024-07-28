@@ -64,7 +64,7 @@ class EnglishEntryaffidavit extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affidavit"), // Find /ˌæfəˈdeɪvɪt/
+                            EntryTitle(word: "affidavit"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaffidavit extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +117,14 @@ class EnglishEntryaffidavit extends StatelessWidget {
                             kurdishText:
                                 "دانیپێدانا کە ئەو یەکێکە لەو کەسانەی دزی لە کۆمپانیاکە کردووە بەپێی ئەو سوێندنامەی بە دادگا پیشان درا.",
                             onPressedBritish: () => speakaffi359("en-GB"),
-                            onPressedAmerican: () => speakaffi359(
-                                // REPLACE: affidavit /ˌæfəˈdeɪvɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffi359("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -178,9 +178,7 @@ class EnglishEntryallright extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "all right (or alright)"), // Find /ɔːl ˈraɪt/
+                            EntryTitle(word: "all right (or alright)"),
                           ],
                         ),
                         Row(
@@ -214,9 +212,8 @@ class EnglishEntryallright extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -233,9 +230,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 "We've got to get up early, all right?",
                             kurdishText: "دەبێت زوو لە خەو ھەستین، تێگەشتی؟",
                             onPressedBritish: () => speakallright124("en-GB"),
-                            onPressedAmerican: () => speakallright124(
-                                // REPLACE: all right /ɔːl ˈraɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallright124("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -244,9 +239,7 @@ class EnglishEntryallright extends StatelessWidget {
                             englishText: "‘Can you do it?’ ‘Oh, all right.’",
                             kurdishText: "دەتوانی بیکەیت؟ ئاھ، بەڵێ.",
                             onPressedBritish: () => speakallright123("en-GB"),
-                            onPressedAmerican: () => speakallright123(
-                                // REPLACE: all right /ɔːl ˈraɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallright123("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -257,9 +250,7 @@ class EnglishEntryallright extends StatelessWidget {
                             kurdishText:
                                 "'زۆر داوای لێبووردن دەکەم'، 'کێشە نییە، نیگەران مەبە.",
                             onPressedBritish: () => speakallright235("en-GB"),
-                            onPressedAmerican: () => speakallright235(
-                                // REPLACE: all right /ɔːl ˈraɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallright235("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -269,9 +260,8 @@ class EnglishEntryallright extends StatelessWidget {
                             kurdishText:
                                 "زۆرباشە خوێندکاران، بیخەنە سەر پەڕەی ٢٠",
                             onPressedBritish: () => speakallright23469("en-GB"),
-                            onPressedAmerican: () => speakallright23469(
-                                // REPLACE: all right /ɔːl ˈraɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallright23469("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -281,9 +271,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 "Are you getting along all right in your new job?",
                             kurdishText: "لە کارە تازەکەت بێ کێشە ھەڵدەکەیت؟",
                             onPressedBritish: () => speakallright5241("en-GB"),
-                            onPressedAmerican: () => speakallright5241(
-                                // REPLACE: all right /ɔːl ˈraɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallright5241("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -292,9 +280,7 @@ class EnglishEntryallright extends StatelessWidget {
                             englishText: "I hope the children are all right.",
                             kurdishText: "ھیوادارم منداڵەکان سەلامەت بن.",
                             onPressedBritish: () => speakallright3695("en-GB"),
-                            onPressedAmerican: () => speakallright3695(
-                                // REPLACE: all right /ɔːl ˈraɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallright3695("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -305,9 +291,7 @@ class EnglishEntryallright extends StatelessWidget {
                             kurdishText:
                                 "کارەکەت خراپ نییە بەڵام دڵنیام ئەتتوانی باشتر بیت.",
                             onPressedBritish: () => speakallright4577("en-GB"),
-                            onPressedAmerican: () => speakallright4577(
-                                // REPLACE: all right /ɔːl ˈraɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallright4577("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -318,9 +302,7 @@ class EnglishEntryallright extends StatelessWidget {
                             kurdishText:
                                 "دڵنیایت کە ئاسایی دەبێت زوو کار جێبھێڵم.",
                             onPressedBritish: () => speakallright1056("en-GB"),
-                            onPressedAmerican: () => speakallright1056(
-                                // REPLACE: all right /ɔːl ˈraɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallright1056("en-US"),
                           ),
                         ],
                       ),

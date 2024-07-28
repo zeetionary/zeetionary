@@ -144,9 +144,8 @@ class EnglishEntryapostrophe extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryapostrophe extends StatelessWidget {
                             kurdishText:
                                 "'It's' بە کرتێنێکێکەوە دەکرێ واتای it is یان it has بێ.",
                             onPressedBritish: () => speakapostrophe708("en-GB"),
-                            onPressedAmerican: () => speakapostrophe708(
-                                // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapostrophe708("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +173,8 @@ class EnglishEntryapostrophe extends StatelessWidget {
                             englishText: "Helen's house is very large.",
                             kurdishText: "ماڵ ھێلین زۆر گەورەیە.",
                             onPressedBritish: () => speakapostrophe710("en-GB"),
-                            onPressedAmerican: () => speakapostrophe710(
-                                // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapostrophe710("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +184,8 @@ class EnglishEntryapostrophe extends StatelessWidget {
                             englishText: "How many 3’s are there in 9?",
                             kurdishText: "چەند دانە ٣ لە ٩دا ھەیە؟",
                             onPressedBritish: () => speakapostrophe714("en-GB"),
-                            onPressedAmerican: () => speakapostrophe714(
-                                // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapostrophe714("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -197,9 +193,8 @@ class EnglishEntryapostrophe extends StatelessWidget {
                             englishText: "There are two m’s in ‘comma’.",
                             kurdishText: "دوو m لە وشەی comma دا ھەیە.",
                             onPressedBritish: () => speakapostrophe715("en-GB"),
-                            onPressedAmerican: () => speakapostrophe715(
-                                // REPLACE: apostrophe /əˈpɑːstrəfi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapostrophe715("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

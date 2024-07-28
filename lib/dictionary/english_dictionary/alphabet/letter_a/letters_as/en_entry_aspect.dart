@@ -148,9 +148,8 @@ class EnglishEntryaspect extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -168,9 +167,7 @@ class EnglishEntryaspect extends StatelessWidget {
                             kurdishText:
                                 "کتێبەکە ئامانجیەتی ھەموو لایەنەکانی ژیانی شار باس‌بکات.",
                             onPressedBritish: () => speakaspect455("en-GB"),
-                            onPressedAmerican: () => speakaspect455(
-                                // REPLACE: aspect /ˈæspekt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspect455("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -180,9 +177,7 @@ class EnglishEntryaspect extends StatelessWidget {
                             kurdishText:
                                 "وای ھەست‌کرد لە ھەموو لایەنێکەوە لە کێشەکەی ڕوانیوە.",
                             onPressedBritish: () => speakaspect456("en-GB"),
-                            onPressedAmerican: () => speakaspect456(
-                                // REPLACE: aspect /ˈæspekt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspect456("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +189,7 @@ class EnglishEntryaspect extends StatelessWidget {
                             kurdishText:
                                 "چاویلکە و ڕیشەکەی ڕواڵەتی پسپۆڕێکیان پێ‌بەخشی‌بوو.",
                             onPressedBritish: () => speakaspect458("en-GB"),
-                            onPressedAmerican: () => speakaspect458(
-                                // REPLACE: aspect /ˈæspekt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspect458("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -206,9 +199,7 @@ class EnglishEntryaspect extends StatelessWidget {
                             englishText: "Our room had a western aspect.",
                             kurdishText: "ژوورەکەمان ڕووی لە ڕۆژئاوا بوو.",
                             onPressedBritish: () => speakaspect500("en-GB"),
-                            onPressedAmerican: () => speakaspect500(
-                                // REPLACE: aspect /ˈæspekt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspect500("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -220,9 +211,7 @@ class EnglishEntryaspect extends StatelessWidget {
                             kurdishText:
                                 "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە ھێشتا بەرداوامە.",
                             onPressedBritish: () => speakaspect508("en-GB"),
-                            onPressedAmerican: () => speakaspect508(
-                                // REPLACE: aspect /ˈæspekt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspect508("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

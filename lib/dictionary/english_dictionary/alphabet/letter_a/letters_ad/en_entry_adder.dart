@@ -63,7 +63,7 @@ class EnglishEntryadder extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adder"), // Find /ˈædər/
+                            EntryTitle(word: "adder"),
                           ],
                         ),
                         Row(
@@ -115,7 +115,7 @@ class EnglishEntryadder extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

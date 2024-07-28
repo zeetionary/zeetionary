@@ -148,9 +148,8 @@ class EnglishEntryashamed extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryashamed extends StatelessWidget {
                             kurdishText:
                                 "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاھەنگەکە.",
                             onPressedBritish: () => speakashamed516("en-GB"),
-                            onPressedAmerican: () => speakashamed516(
-                                // REPLACE: ashamed /əˈʃeɪmd/
-                                "en-US"),
+                            onPressedAmerican: () => speakashamed516("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -178,9 +175,7 @@ class EnglishEntryashamed extends StatelessWidget {
                             kurdishText:
                                 "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە ھەین.",
                             onPressedBritish: () => speakashamed518("en-GB"),
-                            onPressedAmerican: () => speakashamed518(
-                                // REPLACE: ashamed /əˈʃeɪmd/
-                                "en-US"),
+                            onPressedAmerican: () => speakashamed518("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -189,9 +184,7 @@ class EnglishEntryashamed extends StatelessWidget {
                                 "You ought to be thoroughly ashamed of yourselves.",
                             kurdishText: "دەبێت تەواو شەرم لە خۆتان بکەنەوە.",
                             onPressedBritish: () => speakashamed519("en-GB"),
-                            onPressedAmerican: () => speakashamed519(
-                                // REPLACE: ashamed /əˈʃeɪmd/
-                                "en-US"),
+                            onPressedAmerican: () => speakashamed519("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,9 +195,7 @@ class EnglishEntryashamed extends StatelessWidget {
                                 "I'm ashamed to say that I lied to her.",
                             kurdishText: "شەرم دەکەم بڵێم درۆم لەگەڵ کرد.",
                             onPressedBritish: () => speakashamed527("en-GB"),
-                            onPressedAmerican: () => speakashamed527(
-                                // REPLACE: ashamed /əˈʃeɪmd/
-                                "en-US"),
+                            onPressedAmerican: () => speakashamed527("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -214,9 +205,7 @@ class EnglishEntryashamed extends StatelessWidget {
                             kurdishText:
                                 "لەکۆتاییدا گریام و شەرمەزر نیم بە وتنی.",
                             onPressedBritish: () => speakashamed528("en-GB"),
-                            onPressedAmerican: () => speakashamed528(
-                                // REPLACE: ashamed /əˈʃeɪmd/
-                                "en-US"),
+                            onPressedAmerican: () => speakashamed528("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

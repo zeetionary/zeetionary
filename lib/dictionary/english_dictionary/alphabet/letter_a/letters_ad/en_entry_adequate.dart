@@ -64,7 +64,7 @@ class EnglishEntryadequate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adequate"), // Find /ˈædɪkwət/
+                            EntryTitle(word: "adequate"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadequate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryadequate extends StatelessWidget {
                             kurdishText:
                                 "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد.",
                             onPressedBritish: () => speakadequa44855("en-GB"),
-                            onPressedAmerican: () => speakadequa44855(
-                                // REPLACE: adequate /ˈædɪkwət/
-                                "en-US"),
+                            onPressedAmerican: () => speakadequa44855("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -127,16 +124,14 @@ class EnglishEntryadequate extends StatelessWidget {
                                 "He didn't give an adequate answer to the question.",
                             kurdishText: "وەڵامێکی تەواوی پرسیارەکەی نەداوە.",
                             onPressedBritish: () => speakadequ99965("en-GB"),
-                            onPressedAmerican: () => speakadequ99965(
-                                // REPLACE: adequate /ˈædɪkwət/
-                                "en-US"),
+                            onPressedAmerican: () => speakadequ99965("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

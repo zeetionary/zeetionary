@@ -63,7 +63,7 @@ class EnglishEntryallegory extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allegory"), // Find /ˈæləɡəri/
+                            EntryTitle(word: "allegory"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryallegory extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,7 @@ class EnglishEntryallegory extends StatelessWidget {
                             englishText: "The play can be read as allegory.",
                             kurdishText: "شانۆکە دەکرێت وەک ھێرۆک ببینرێت.",
                             onPressedBritish: () => speakallegory3566("en-GB"),
-                            onPressedAmerican: () => speakallegory3566(
-                                // REPLACE: allegory /ˈæləɡɔːri/
-                                "en-US"),
+                            onPressedAmerican: () => speakallegory3566("en-US"),
                           ),
                         ],
                       ),

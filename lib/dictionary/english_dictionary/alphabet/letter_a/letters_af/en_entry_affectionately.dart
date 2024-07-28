@@ -64,8 +64,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "affectionately"), // Find /əˈfekʃənətli/
+                            EntryTitle(word: "affectionately"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryaffectionately extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -127,16 +125,14 @@ class EnglishEntryaffectionately extends StatelessWidget {
                             kurdishText:
                                 "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو.",
                             onPressedBritish: () => speakaffecti248("en-GB"),
-                            onPressedAmerican: () => speakaffecti248(
-                                // REPLACE: affectionately /əˈfekʃənətli/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffecti248("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

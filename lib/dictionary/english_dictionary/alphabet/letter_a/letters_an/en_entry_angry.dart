@@ -139,9 +139,8 @@ class EnglishEntryangry extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,7 @@ class EnglishEntryangry extends StatelessWidget {
                             englishText: "Her behaviour really made me angry.",
                             kurdishText: "ڕەفتارەکانی بەڕاستی تووڕەیان کردم.",
                             onPressedBritish: () => speakangry4102("en-GB"),
-                            onPressedAmerican: () => speakangry4102(
-                                // REPLACE: angry /ˈæŋɡri/
-                                "en-US"),
+                            onPressedAmerican: () => speakangry4102("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -168,9 +165,7 @@ class EnglishEntryangry extends StatelessWidget {
                             kurdishText:
                                 "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە.",
                             onPressedBritish: () => speakangry0158("en-GB"),
-                            onPressedAmerican: () => speakangry0158(
-                                // REPLACE: angry /ˈæŋɡri/
-                                "en-US"),
+                            onPressedAmerican: () => speakangry0158("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +175,7 @@ class EnglishEntryangry extends StatelessWidget {
                             englishText: "On her leg was an angry sore.",
                             kurdishText: "ئاوساوییەکی بەئازار لەسەر لاقی بوو.",
                             onPressedBritish: () => speakangry4952("en-GB"),
-                            onPressedAmerican: () => speakangry4952(
-                                // REPLACE: angry /ˈæŋɡri/
-                                "en-US"),
+                            onPressedAmerican: () => speakangry4952("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +187,7 @@ class EnglishEntryangry extends StatelessWidget {
                             kurdishText:
                                 "دەریا بەزریانەکە بە شەپۆلە ترسناکەکانییەوە کێشای بە کەناراوە بەردەڵانییەکە.",
                             onPressedBritish: () => speakangry4506("en-GB"),
-                            onPressedAmerican: () => speakangry4506(
-                                // REPLACE: angry /ˈæŋɡri/
-                                "en-US"),
+                            onPressedAmerican: () => speakangry4506("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

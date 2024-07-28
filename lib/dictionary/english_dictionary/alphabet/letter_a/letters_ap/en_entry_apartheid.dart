@@ -108,9 +108,7 @@ class EnglishEntryapartheid extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "apartheid"), // Find /əˈpɑːtaɪt/, /əˈpɑːteɪt/
+                            EntryTitle(word: "apartheid"),
                             // divvviiider
                           ],
                         ),
@@ -147,9 +145,8 @@ class EnglishEntryapartheid extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +159,8 @@ class EnglishEntryapartheid extends StatelessWidget {
                             kurdishText:
                                 "لە ساڵانی ١٩٨٠ و ١٩٩٠ ەکان ئەفریقای باشوور بە بە گۆڕانی بەرچاو تێدەپەڕی لە سیستەمی ئەپارتەیدەوە بۆ سیستەمی زۆرینە ڕەشپێست.",
                             onPressedBritish: () => speakapartheid1139("en-GB"),
-                            onPressedAmerican: () => speakapartheid1139(
-                                // REPLACE: apartheid /əˈpɑːrtaɪt/, /əˈpɑːrteɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapartheid1139("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -74,8 +74,7 @@ class EnglishEntryalternative extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alternative"), // Find /ɔːlˈtɜːnətɪv/
+                            EntryTitle(word: "alternative"),
                           ],
                         ),
                         Row(
@@ -109,9 +108,8 @@ class EnglishEntryalternative extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -130,9 +128,8 @@ class EnglishEntryalternative extends StatelessWidget {
                                 "ئۆتۆمبێلەکە زۆر گرانە بۆیە ھەوڵ دەدەین جێگرەوەیەکی ھەرزانتر بدۆزینەوە.",
                             onPressedBritish: () =>
                                 speakalternative4599("en-GB"),
-                            onPressedAmerican: () => speakalternative4599(
-                                // REPLACE: alternative /haʊ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternative4599("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -141,9 +138,8 @@ class EnglishEntryalternative extends StatelessWidget {
                             kurdishText:
                                 "ھیچ ھەڵبژاردەیەکمان نەبوو جگە لە دەرکردنی گیبسن لە کارەکەی.",
                             onPressedBritish: () => speakalternative14("en-GB"),
-                            onPressedAmerican: () => speakalternative14(
-                                // REPLACE: alternative /haʊ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternative14("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -155,9 +151,8 @@ class EnglishEntryalternative extends StatelessWidget {
                                 "ڕێگاکە گیرابوو، بۆیە ناچاربووین یەکێکی دیکە بدۆزینەوە.",
                             onPressedBritish: () =>
                                 speakalternative845("en-GB"),
-                            onPressedAmerican: () => speakalternative845(
-                                // REPLACE: alternative /haʊ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternative845("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -169,9 +164,8 @@ class EnglishEntryalternative extends StatelessWidget {
                                 "لە لۆس ئەنجلس زۆر کۆمپانیا کارمەندانیان ھاندەدەن کە ڕێگای دیکەی گواستنەوە بەکاربێنن لە جیاتی ئۆتۆمبێل.",
                             onPressedBritish: () =>
                                 speakalternative659("en-GB"),
-                            onPressedAmerican: () => speakalternative659(
-                                // REPLACE: alternative /haʊ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternative659("en-US"),
                           ),
                         ],
                       ),

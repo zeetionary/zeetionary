@@ -144,9 +144,8 @@ class EnglishEntryappend extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryappend extends StatelessWidget {
                                 "Footnotes have been appended to the document.",
                             kurdishText: "پەراوێز بۆ دۆکیومێنتەکە دانراوە.",
                             onPressedBritish: () => speakappend109("en-GB"),
-                            onPressedAmerican: () => speakappend109(
-                                // REPLACE: append /əˈpend/
-                                "en-US"),
+                            onPressedAmerican: () => speakappend109("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -175,9 +172,7 @@ class EnglishEntryappend extends StatelessWidget {
                             kurdishText:
                                 "بەڕێوبەرەکە مافی ھەیە لێدوان بۆ کۆتایی ڕاپۆرتەکە زیاد بکات.",
                             onPressedBritish: () => speakappend111("en-GB"),
-                            onPressedAmerican: () => speakappend111(
-                                // REPLACE: append /əˈpend/
-                                "en-US"),
+                            onPressedAmerican: () => speakappend111("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

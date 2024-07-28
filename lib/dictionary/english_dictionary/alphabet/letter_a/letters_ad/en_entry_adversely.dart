@@ -63,9 +63,7 @@ class EnglishEntryadversely extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adversely"), // Find /ˈædvɜːsli/, /ədˈvɜːsli/
+                            EntryTitle(word: "adversely"),
                           ],
                         ),
                         Row(
@@ -101,9 +99,8 @@ class EnglishEntryadversely extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +113,14 @@ class EnglishEntryadversely extends StatelessWidget {
                             kurdishText:
                                 "تەندرووستیی بەشێوەیەکی خراپ کاریگەربوو بە ئاووھەوایەکە.",
                             onPressedBritish: () => speakadve592("en-GB"),
-                            onPressedAmerican: () => speakadve592(
-                                // REPLACE: adversely /ˈædvɜːsli/, /ədˈvɜːsli/
-                                "en-US"),
+                            onPressedAmerican: () => speakadve592("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

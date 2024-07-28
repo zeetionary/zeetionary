@@ -148,9 +148,8 @@ class EnglishEntryartist extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,7 @@ class EnglishEntryartist extends StatelessWidget {
                             kurdishText:
                                 "لە ساڵی ١٩٤٢ بەرپرسانی شارەکە جۆن پیپەریان ڕاسپارد کە نیگارێکی کڵێسا بۆمب‌لێدراوەکەیان بکێشێ.",
                             onPressedBritish: () => speakartist839("en-GB"),
-                            onPressedAmerican: () => speakartist839(
-                                // REPLACE: artist /ˈɑːrtɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakartist839("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -179,9 +176,7 @@ class EnglishEntryartist extends StatelessWidget {
                             kurdishText:
                                 "ھونەرمەندەکە ئەم وێنەیەی کێشا بە بەکارھێنانی فڵچەی بچووک.",
                             onPressedBritish: () => speakartist841("en-GB"),
-                            onPressedAmerican: () => speakartist841(
-                                // REPLACE: artist /ˈɑːrtɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakartist841("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +188,7 @@ class EnglishEntryartist extends StatelessWidget {
                             kurdishText:
                                 "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە.",
                             onPressedBritish: () => speakartist846("en-GB"),
-                            onPressedAmerican: () => speakartist846(
-                                // REPLACE: artist /ˈɑːrtɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakartist846("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

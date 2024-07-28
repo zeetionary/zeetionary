@@ -116,7 +116,7 @@ class EnglishEntryalert extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alert"), // Find /əˈlɜːt/
+                            EntryTitle(word: "alert"),
                           ],
                         ),
                         Row(
@@ -150,9 +150,8 @@ class EnglishEntryalert extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -170,9 +169,7 @@ class EnglishEntryalert extends StatelessWidget {
                             kurdishText:
                                 "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە.",
                             onPressedBritish: () => speakalert3524("en-GB"),
-                            onPressedAmerican: () => speakalert3524(
-                                // REPLACE: alert /əˈlɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalert3524("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -181,9 +178,7 @@ class EnglishEntryalert extends StatelessWidget {
                             kurdishText:
                                 "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە.",
                             onPressedBritish: () => speakalert352("en-GB"),
-                            onPressedAmerican: () => speakalert352(
-                                // REPLACE: alert /əˈlɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalert352("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -194,9 +189,7 @@ class EnglishEntryalert extends StatelessWidget {
                             kurdishText:
                                 "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ.",
                             onPressedBritish: () => speakalert29637("en-GB"),
-                            onPressedAmerican: () => speakalert29637(
-                                // REPLACE: alert /əˈlɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalert29637("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -207,9 +200,7 @@ class EnglishEntryalert extends StatelessWidget {
                             kurdishText:
                                 "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو.",
                             onPressedBritish: () => speakalert6277("en-GB"),
-                            onPressedAmerican: () => speakalert6277(
-                                // REPLACE: alert /əˈlɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalert6277("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -220,9 +211,7 @@ class EnglishEntryalert extends StatelessWidget {
                             kurdishText:
                                 "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم.",
                             onPressedBritish: () => speakalert96526("en-GB"),
-                            onPressedAmerican: () => speakalert96526(
-                                // REPLACE: alert /əˈlɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalert96526("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -232,9 +221,7 @@ class EnglishEntryalert extends StatelessWidget {
                                 "Two alert scientists spotted the mistake.",
                             kurdishText: "دوو زانای وریا تێبینی ھەڵەکەیان کرد.",
                             onPressedBritish: () => speakalert34655("en-GB"),
-                            onPressedAmerican: () => speakalert34655(
-                                // REPLACE: alert /əˈlɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalert34655("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -244,9 +231,7 @@ class EnglishEntryalert extends StatelessWidget {
                                 "We must be alert to the possibility of danger.",
                             kurdishText: "پێویستە چاوکراوە بین بۆ مەترسی.",
                             onPressedBritish: () => speakalert3566("en-GB"),
-                            onPressedAmerican: () => speakalert3566(
-                                // REPLACE: alert /əˈlɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalert3566("en-US"),
                           ),
                         ],
                       ),

@@ -82,7 +82,7 @@ class EnglishEntryadmit extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "admit"), // Find /ədˈmɪt/
+                            EntryTitle(word: "admit"),
                           ],
                         ),
                         Row(
@@ -116,9 +116,8 @@ class EnglishEntryadmit extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -132,8 +131,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                 "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ.",
                             onPressedBritish: () => speakadmi4527("en-GB"),
                             onPressedAmerican: () =>
-                                speakadmi4527(// REPLACE: admit /ədˈmɪt/
-                                    "en-US"),
+                                speakadmi4527("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -142,9 +140,7 @@ class EnglishEntryadmit extends StatelessWidget {
                             kurdishText:
                                 "بەشێوەیەکی گشتی دان بەوەدا نرا کە حکومەت بەزووی ھەنگاوی نا.",
                             onPressedBritish: () => speakadmit4568("en-GB"),
-                            onPressedAmerican: () => speakadmit4568(
-                                // REPLACE: admit /ədˈmɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmit4568("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -153,9 +149,7 @@ class EnglishEntryadmit extends StatelessWidget {
                             englishText: "He refused to admit his guilt.",
                             kurdishText: "ڕەتیکردەوە دان بە ھەڵەکەیدا بنێت.",
                             onPressedBritish: () => speakadmit34587("en-GB"),
-                            onPressedAmerican: () => speakadmit34587(
-                                // REPLACE: admit /ədˈmɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmit34587("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -166,9 +160,7 @@ class EnglishEntryadmit extends StatelessWidget {
                             kurdishText:
                                 "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لە دوای ئەوەی نمایش دەستیپێکردووە.",
                             onPressedBritish: () => speakadmit45682("en-GB"),
-                            onPressedAmerican: () => speakadmit45682(
-                                // REPLACE: admit /ədˈmɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmit45682("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -179,16 +171,14 @@ class EnglishEntryadmit extends StatelessWidget {
                             kurdishText:
                                 "دوو قوربانی پێکدادانەکە بردرانە نەخۆشخانە ناوخۆییەکە.",
                             onPressedBritish: () => speakadmit458796("en-GB"),
-                            onPressedAmerican: () => speakadmit458796(
-                                // REPLACE: admit /ədˈmɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmit458796("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

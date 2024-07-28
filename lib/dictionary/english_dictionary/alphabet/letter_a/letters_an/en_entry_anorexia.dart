@@ -139,9 +139,8 @@ class EnglishEntryanorexia extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryanorexia extends StatelessWidget {
                             kurdishText:
                                 "ڕاپۆرت لەسەر بێ‌ئیشتیایی و نەخۆشییەکانی دیکەی پەیوەندیدار بە خواردن لە زیادبووندان.",
                             onPressedBritish: () => speakanorexia848("en-GB"),
-                            onPressedAmerican: () => speakanorexia848(
-                                // REPLACE: anorexia /ˌænəˈreksiə/
-                                "en-US"),
+                            onPressedAmerican: () => speakanorexia848("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -146,9 +146,8 @@ class EnglishEntryartistically extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryartistically extends StatelessWidget {
                                 "فیلمەکە لەلایەنی بازرگانی و ھونەرییەوە سەرکەوتووبوو.",
                             onPressedBritish: () =>
                                 speakartistically930("en-GB"),
-                            onPressedAmerican: () => speakartistically930(
-                                // REPLACE: artistically /ɑːrˈtɪstɪkli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartistically930("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

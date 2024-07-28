@@ -63,7 +63,7 @@ class EnglishEntryacquittal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acquittal"), // Find /əˈkwɪtl/
+                            EntryTitle(word: "acquittal"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryacquittal extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -123,7 +122,7 @@ class EnglishEntryacquittal extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

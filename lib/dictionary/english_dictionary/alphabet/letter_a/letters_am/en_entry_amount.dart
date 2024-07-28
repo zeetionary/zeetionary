@@ -141,9 +141,8 @@ class EnglishEntryamount extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryamount extends StatelessWidget {
                             kurdishText:
                                 "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات.",
                             onPressedBritish: () => speakamount4447("en-GB"),
-                            onPressedAmerican: () => speakamount4447(
-                                // REPLACE: amount /əˈmaʊnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakamount4447("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -170,9 +167,7 @@ class EnglishEntryamount extends StatelessWidget {
                             kurdishText:
                                 "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە.",
                             onPressedBritish: () => speakamount49652("en-GB"),
-                            onPressedAmerican: () => speakamount49652(
-                                // REPLACE: amount /əˈmaʊnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakamount49652("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -181,9 +176,7 @@ class EnglishEntryamount extends StatelessWidget {
                             englishText: "Everyone has paid the same amount.",
                             kurdishText: "ھەمووان ھەمان بڕیان داوە.",
                             onPressedBritish: () => speakamount3522("en-GB"),
-                            onPressedAmerican: () => speakamount3522(
-                                // REPLACE: amount /əˈmaʊnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakamount3522("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -194,9 +187,7 @@ class EnglishEntryamount extends StatelessWidget {
                             kurdishText:
                                 "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا.",
                             onPressedBritish: () => speakamount5523("en-GB"),
-                            onPressedAmerican: () => speakamount5523(
-                                // REPLACE: amount /əˈmaʊnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakamount5523("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -207,9 +198,7 @@ class EnglishEntryamount extends StatelessWidget {
                             kurdishText:
                                 "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید.",
                             onPressedBritish: () => speakamount5622("en-GB"),
-                            onPressedAmerican: () => speakamount5622(
-                                // REPLACE: amount /əˈmaʊnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakamount5622("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -218,9 +207,7 @@ class EnglishEntryamount extends StatelessWidget {
                             englishText: "You'll never amount to anything.",
                             kurdishText: "ھەرگیز نابیت بە ھیچ.",
                             onPressedBritish: () => speakamount514("en-GB"),
-                            onPressedAmerican: () => speakamount514(
-                                // REPLACE: amount /əˈmaʊnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakamount514("en-US"),
                           ),
                         ],
                       ),

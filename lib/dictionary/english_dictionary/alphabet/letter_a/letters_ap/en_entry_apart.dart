@@ -142,9 +142,8 @@ class EnglishEntryapart extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryapart extends StatelessWidget {
                             kurdishText:
                                 "دوو خانووەکە ٥٠٠ مەتر لە یەکدی دووربوون.",
                             onPressedBritish: () => speakapart1105("en-GB"),
-                            onPressedAmerican: () => speakapart1105(
-                                // REPLACE: apart /əˈpɑːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapart1105("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryapart extends StatelessWidget {
                             kurdishText:
                                 "ڕۆژی لەدایکبوونیان تەنھا سێ ڕۆژی جیاوازە.",
                             onPressedBritish: () => speakapart1106("en-GB"),
-                            onPressedAmerican: () => speakapart1106(
-                                // REPLACE: apart /əˈpɑːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapart1106("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,7 @@ class EnglishEntryapart extends StatelessWidget {
                             englishText: "We're living apart now.",
                             kurdishText: "ئێستا بە جیا دەژین.",
                             onPressedBritish: () => speakapart1108("en-GB"),
-                            onPressedAmerican: () => speakapart1108(
-                                // REPLACE: apart /əˈpɑːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapart1108("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -199,9 +192,7 @@ class EnglishEntryapart extends StatelessWidget {
                             kurdishText:
                                 "لەماوەی چەند خولەکێکدا کەشتییەکە دەستی بە پارچە پارچە بوون کرد.",
                             onPressedBritish: () => speakapart1110("en-GB"),
-                            onPressedAmerican: () => speakapart1110(
-                                // REPLACE: apart /əˈpɑːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapart1110("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -213,9 +204,7 @@ class EnglishEntryapart extends StatelessWidget {
                             kurdishText:
                                 "جگە لە ڤیکتۆریا، کەسی تریان گونجاو نین بۆ کارەکە.",
                             onPressedBritish: () => speakapart1112("en-GB"),
-                            onPressedAmerican: () => speakapart1112(
-                                // REPLACE: apart /əˈpɑːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapart1112("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

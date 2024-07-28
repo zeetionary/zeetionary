@@ -63,7 +63,7 @@ class EnglishEntryairless extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airless"), // Find /ˈeələs/
+                            EntryTitle(word: "airless"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryairless extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -110,9 +109,7 @@ class EnglishEntryairless extends StatelessWidget {
                             englishText: "The night was hot and airless.",
                             kurdishText: "شەوەکە گەرم و بێ با بوو.",
                             onPressedBritish: () => speakairless4562("en-GB"),
-                            onPressedAmerican: () => speakairless4562(
-                                // REPLACE: airless /ˈerləs/
-                                "en-US"),
+                            onPressedAmerican: () => speakairless4562("en-US"),
                           ),
                         ],
                       ),

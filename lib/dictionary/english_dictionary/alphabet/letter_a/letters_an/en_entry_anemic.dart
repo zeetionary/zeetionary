@@ -137,9 +137,8 @@ class EnglishEntryanemic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -154,9 +153,7 @@ class EnglishEntryanemic extends StatelessWidget {
                             englishText: "She looks anemic.",
                             kurdishText: "کەم‌خوێن دیارە.",
                             onPressedBritish: () => speakanemic55580("en-GB"),
-                            onPressedAmerican: () => speakanemic55580(
-                                // REPLACE: anemic /əˈniːmɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakanemic55580("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -168,9 +165,7 @@ class EnglishEntryanemic extends StatelessWidget {
                             kurdishText:
                                 "ھەردوو ئەکتەرەکە تاڕادەیەک نمایشی لاوازیان پێشکەش‌کرد.",
                             onPressedBritish: () => speakanemic4966("en-GB"),
-                            onPressedAmerican: () => speakanemic4966(
-                                // REPLACE: anemic /əˈniːmɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakanemic4966("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

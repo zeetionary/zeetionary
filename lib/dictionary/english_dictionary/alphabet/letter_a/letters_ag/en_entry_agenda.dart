@@ -64,7 +64,7 @@ class EnglishEntryagenda extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agenda"), // Find /əˈdʒendə/
+                            EntryTitle(word: "agenda"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagenda extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryagenda extends StatelessWidget {
                             kurdishText:
                                 "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن.",
                             onPressedBritish: () => speakagend562221("en-GB"),
-                            onPressedAmerican: () => speakagend562221(
-                                // REPLACE: agenda /əˈdʒendə/
-                                "en-US"),
+                            onPressedAmerican: () => speakagend562221("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -131,16 +128,14 @@ class EnglishEntryagenda extends StatelessWidget {
                             kurdishText:
                                 "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە.",
                             onPressedBritish: () => speakagenda15622("en-GB"),
-                            onPressedAmerican: () => speakagenda15622(
-                                // REPLACE: agenda /əˈdʒendə/
-                                "en-US"),
+                            onPressedAmerican: () => speakagenda15622("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

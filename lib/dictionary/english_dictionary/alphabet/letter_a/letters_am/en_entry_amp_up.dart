@@ -141,9 +141,8 @@ class EnglishEntryampup extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,7 @@ class EnglishEntryampup extends StatelessWidget {
                             kurdishText:
                                 "زۆرباش دەیزانی کەی دەنگی میوزیکەکە زیادبکات.",
                             onPressedBritish: () => speakampup4414("en-GB"),
-                            onPressedAmerican: () => speakampup4414(
-                                // REPLACE: amp up /æmp ʌp/
-                                "en-US"),
+                            onPressedAmerican: () => speakampup4414("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -169,9 +166,7 @@ class EnglishEntryampup extends StatelessWidget {
                             kurdishText:
                                 "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان.",
                             onPressedBritish: () => speakampup5560("en-GB"),
-                            onPressedAmerican: () => speakampup5560(
-                                // REPLACE: amp up /æmp ʌp/
-                                "en-US"),
+                            onPressedAmerican: () => speakampup5560("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -182,9 +177,7 @@ class EnglishEntryampup extends StatelessWidget {
                             kurdishText:
                                 "لە دوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج",
                             onPressedBritish: () => speakampup44855("en-GB"),
-                            onPressedAmerican: () => speakampup44855(
-                                // REPLACE: amp up /æmp ʌp/
-                                "en-US"),
+                            onPressedAmerican: () => speakampup44855("en-US"),
                           ),
                         ],
                       ),

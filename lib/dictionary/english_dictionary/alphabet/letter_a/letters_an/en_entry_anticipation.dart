@@ -141,9 +141,8 @@ class EnglishEntryanticipation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryanticipation extends StatelessWidget {
                                 "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون.",
                             onPressedBritish: () =>
                                 speakanticipation1053("en-GB"),
-                            onPressedAmerican: () => speakanticipation1053(
-                                // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticipation1053("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +172,8 @@ class EnglishEntryanticipation extends StatelessWidget {
                                 "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت.",
                             onPressedBritish: () =>
                                 speakanticipation1056("en-GB"),
-                            onPressedAmerican: () => speakanticipation1056(
-                                // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticipation1056("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +185,8 @@ class EnglishEntryanticipation extends StatelessWidget {
                             kurdishText: "ژووری دادگا پڕ بوو لە تامەزرۆیی.",
                             onPressedBritish: () =>
                                 speakanticipation1059("en-GB"),
-                            onPressedAmerican: () => speakanticipation1059(
-                                // REPLACE: anticipation /ænˌtɪsɪˈpeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticipation1059("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

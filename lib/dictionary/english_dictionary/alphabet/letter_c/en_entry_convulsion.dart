@@ -99,9 +99,8 @@ class EnglishEntryconvulsion extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -112,14 +111,15 @@ class EnglishEntryconvulsion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لەرزینی لەناکاوی جەستە کە کۆنترۆڵ ناکرێت"),
-                                  AlsoEnglishckblink(
-                                  textBeforeLink: "هەروەها: ",
-                                  linkText: "fit",
-                                  textAfterLink: ".",
-                                  onTap: () {
-                                  Routemaster.of(context).push("/english-convulsion/fit");
-                                  },
-                                  ),
+                          AlsoEnglishckblink(
+                            textBeforeLink: "هەروەها: ",
+                            linkText: "fit",
+                            textAfterLink: ".",
+                            onTap: () {
+                              Routemaster.of(context)
+                                  .push("/english-convulsion/fit");
+                            },
+                          ),
                           SentencesRow(
                             englishText: "The child went into convulsions.",
                             kurdishText:

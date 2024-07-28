@@ -64,7 +64,7 @@ class EnglishEntryadherent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adherent"), // Find /ədˈhɪərənt/
+                            EntryTitle(word: "adherent"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadherent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,16 +116,14 @@ class EnglishEntryadherent extends StatelessWidget {
                             kurdishText:
                                 "پێویستە ڕقوکینە پیشان نەدەین دژ بە شوێنکەوتووانی باوەڕەکانی دیکە.",
                             onPressedBritish: () => speakadh24861("en-GB"),
-                            onPressedAmerican: () => speakadh24861(
-                                // REPLACE: adherent /ədˈhɪrənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadh24861("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -65,7 +65,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affiliate"), // Find /əˈfɪlieɪt/
+                            EntryTitle(word: "affiliate"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryaffiliate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                             kurdishText:
                                 "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە.",
                             onPressedBritish: () => speakaffil3588("en-GB"),
-                            onPressedAmerican: () => speakaffil3588(
-                                // REPLACE: affiliate /əˈfɪlieɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffil3588("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -130,9 +127,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                             kurdishText:
                                 "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە.",
                             onPressedBritish: () => speakaffi2699("en-GB"),
-                            onPressedAmerican: () => speakaffi2699(
-                                // REPLACE: affiliate /əˈfɪlieɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffi2699("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -142,16 +137,14 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                 "Our college is an affiliate of the university.",
                             kurdishText: "کۆلێژەکەمان بەشێکە لە زانکۆکە.",
                             onPressedBritish: () => speakaffi25699("en-GB"),
-                            onPressedAmerican: () => speakaffi25699(
-                                // REPLACE: affiliate /əˈfɪlieɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffi25699("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

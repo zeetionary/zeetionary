@@ -146,9 +146,8 @@ class EnglishEntryasparagus extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryasparagus extends StatelessWidget {
                             kurdishText:
                                 "ئەسپارگس ڤیتامین A و C و K تێدایە لەگەڵ ڕیشاڵ و پۆتاسیۆم.",
                             onPressedBritish: () => speakasparagus444("en-GB"),
-                            onPressedAmerican: () => speakasparagus444(
-                                // REPLACE: asparagus /əˈspærəɡəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakasparagus444("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

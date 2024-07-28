@@ -142,9 +142,8 @@ class EnglishEntryapartfrom extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryapartfrom extends StatelessWidget {
                                 "I've finished apart from the last question.",
                             kurdishText: "ھەمووم تەواوکردە جگە لە کۆتا پرسیار.",
                             onPressedBritish: () => speakapartfrom1125("en-GB"),
-                            onPressedAmerican: () => speakapartfrom1125(
-                                // REPLACE: apart from /əˈpɑːrt frəm/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapartfrom1125("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +171,8 @@ class EnglishEntryapartfrom extends StatelessWidget {
                             kurdishText:
                                 "جگە لە ماڵەکەیان لە لەندەن، ڤێلایەکیشیان لە ئیسپانیا ھەبوو.",
                             onPressedBritish: () => speakapartfrom1127("en-GB"),
-                            onPressedAmerican: () => speakapartfrom1127(
-                                // REPLACE: apart from /əˈpɑːrt frəm/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapartfrom1127("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

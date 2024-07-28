@@ -128,7 +128,7 @@ class EnglishEntryalarm extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alarm"), // Find /əˈlɑːm/
+                            EntryTitle(word: "alarm"),
                           ],
                         ),
                         Row(
@@ -162,9 +162,8 @@ class EnglishEntryalarm extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -181,9 +180,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 "She decided to sound the alarm (= warn people that the situation was dangerous).",
                             kurdishText: "بڕیاریدا زەنگی مەترسی لێبدا.",
                             onPressedBritish: () => speakalarm355("en-GB"),
-                            onPressedAmerican: () => speakalarm355(
-                                // REPLACE: alarm /əˈlɑːrm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalarm355("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -192,9 +189,7 @@ class EnglishEntryalarm extends StatelessWidget {
                             kurdishText:
                                 "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە.",
                             onPressedBritish: () => speakalarm466("en-GB"),
-                            onPressedAmerican: () => speakalarm466(
-                                // REPLACE: alarm /əˈlɑːrm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalarm466("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -205,9 +200,7 @@ class EnglishEntryalarm extends StatelessWidget {
                             kurdishText:
                                 "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد.",
                             onPressedBritish: () => speakalarm4255("en-GB"),
-                            onPressedAmerican: () => speakalarm4255(
-                                // REPLACE: alarm /əˈlɑːrm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalarm4255("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -217,9 +210,7 @@ class EnglishEntryalarm extends StatelessWidget {
                             kurdishText:
                                 "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد.",
                             onPressedBritish: () => speakalarm4522("en-GB"),
-                            onPressedAmerican: () => speakalarm4522(
-                                // REPLACE: alarm /əˈlɑːrm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalarm4522("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -230,9 +221,7 @@ class EnglishEntryalarm extends StatelessWidget {
                             kurdishText:
                                 "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە.",
                             onPressedBritish: () => speakalarm4277("en-GB"),
-                            onPressedAmerican: () => speakalarm4277(
-                                // REPLACE: alarm /əˈlɑːrm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalarm4277("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -243,9 +232,7 @@ class EnglishEntryalarm extends StatelessWidget {
                             kurdishText:
                                 "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت.",
                             onPressedBritish: () => speakalarm7692("en-GB"),
-                            onPressedAmerican: () => speakalarm7692(
-                                // REPLACE: alarm /əˈlɑːrm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalarm7692("en-US"),
                           ),
                         ],
                       ),

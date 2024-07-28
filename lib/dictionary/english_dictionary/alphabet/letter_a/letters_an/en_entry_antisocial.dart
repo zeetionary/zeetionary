@@ -144,9 +144,8 @@ class EnglishEntryantisocial extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی.",
                             onPressedBritish: () =>
                                 speakantisocial1238("en-GB"),
-                            onPressedAmerican: () => speakantisocial1238(
-                                // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantisocial1238("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +177,8 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت.",
                             onPressedBritish: () =>
                                 speakantisocial1240("en-GB"),
-                            onPressedAmerican: () => speakantisocial1240(
-                                // REPLACE: antisocial /ˌæntiˈsəʊʃl/, /ˌæntaɪˈsəʊʃl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantisocial1240("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

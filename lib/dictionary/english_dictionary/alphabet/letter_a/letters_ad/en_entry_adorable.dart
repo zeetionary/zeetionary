@@ -63,7 +63,7 @@ class EnglishEntryadorable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adorable"), // Find /əˈdɔːrəbl/
+                            EntryTitle(word: "adorable"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadorable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,16 +112,14 @@ class EnglishEntryadorable extends StatelessWidget {
                             englishText: "What an adorable child!",
                             kurdishText: "چی منداڵێکی ژیکەڵەیە!",
                             onPressedBritish: () => speakadora9647("en-GB"),
-                            onPressedAmerican: () => speakadora9647(
-                                // REPLACE: adorable /əˈdɔːrəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakadora9647("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

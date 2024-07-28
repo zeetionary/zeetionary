@@ -140,9 +140,8 @@ class EnglishEntryanalog extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryanalog extends StatelessWidget {
                             kurdishText:
                                 "ئەمە ڕێگای ستانداردە بۆ گۆڕینی شەپۆلی ئەنالۆگ بۆ دیجیتاڵ.",
                             onPressedBritish: () => speakanalog85096("en-GB"),
-                            onPressedAmerican: () => speakanalog85096(
-                                // REPLACE: analogue /ˈænəlɔːɡ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalog85096("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryanalog extends StatelessWidget {
                             kurdishText:
                                 "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت.",
                             onPressedBritish: () => speakanalog79005("en-GB"),
-                            onPressedAmerican: () => speakanalog79005(
-                                // REPLACE: analogue /ˈænəlɔːɡ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalog79005("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +182,7 @@ class EnglishEntryanalog extends StatelessWidget {
                             kurdishText:
                                 "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان.",
                             onPressedBritish: () => speakanalog8506("en-GB"),
-                            onPressedAmerican: () => speakanalog8506(
-                                // REPLACE: analogue /ˈænəlɔːɡ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalog8506("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -64,7 +64,7 @@ class EnglishEntryadvent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "advent"), // Find /ˈædvent/
+                            EntryTitle(word: "advent"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadvent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +117,14 @@ class EnglishEntryadvent extends StatelessWidget {
                             kurdishText:
                                 "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو.",
                             onPressedBritish: () => speakadvent25677("en-GB"),
-                            onPressedAmerican: () => speakadvent25677(
-                                // REPLACE: advent /ˈædvent/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvent25677("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

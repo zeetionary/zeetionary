@@ -146,9 +146,8 @@ class EnglishEntryassemblyline extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryassemblyline extends StatelessWidget {
                                 "کرێکاران لەسەر ھێڵی بەرھەمھێنانەکە ماندوونەناسانە کاریان دەکرد بۆ بەرھەمھێنانی ئۆتۆمبێل.",
                             onPressedBritish: () =>
                                 speakassemblyline1003("en-GB"),
-                            onPressedAmerican: () => speakassemblyline1003(
-                                // REPLACE: assembly line /əˈsembli laɪn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassemblyline1003("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

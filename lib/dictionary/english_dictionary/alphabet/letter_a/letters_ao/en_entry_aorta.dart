@@ -141,9 +141,8 @@ class EnglishEntryaorta extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,7 @@ class EnglishEntryaorta extends StatelessWidget {
                             kurdishText:
                                 "خوێن دەکرێت بە شاخوێن‌بەردا دڵ جێبھێڵێت یان بێتە ناوی.",
                             onPressedBritish: () => speakaorta1053("en-GB"),
-                            onPressedAmerican: () => speakaorta1053(
-                                // REPLACE: aorta /eɪˈɔːrtə/
-                                "en-US"),
+                            onPressedAmerican: () => speakaorta1053("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

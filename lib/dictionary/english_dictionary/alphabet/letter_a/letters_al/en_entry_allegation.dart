@@ -64,7 +64,7 @@ class EnglishEntryallegation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allegation"), // Find /ˌæləˈɡeɪʃn/
+                            EntryTitle(word: "allegation"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryallegation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,8 @@ class EnglishEntryallegation extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەک ڕۆژنامە ئیدعای گەندەڵییان کرد لە پۆلیسخانەی شارەکە.",
                             onPressedBritish: () => speakallegation534("en-GB"),
-                            onPressedAmerican: () => speakallegation534(
-                                // REPLACE: allegation /ˌæləˈɡeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallegation534("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -129,9 +127,8 @@ class EnglishEntryallegation extends StatelessWidget {
                             kurdishText: "ڕەتیکردەوە دان بە تۆمەتەکان بنێت.",
                             onPressedBritish: () =>
                                 speakallegation36911("en-GB"),
-                            onPressedAmerican: () => speakallegation36911(
-                                // REPLACE: allegation /ˌæləˈɡeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallegation36911("en-US"),
                           ),
                         ],
                       ),

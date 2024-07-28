@@ -142,9 +142,8 @@ class EnglishEntryanticlimax extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryanticlimax extends StatelessWidget {
                             kurdishText:
                                 "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات.",
                             onPressedBritish: () => speakanticlimax843("en-GB"),
-                            onPressedAmerican: () => speakanticlimax843(
-                                // REPLACE: anticlimax /ˌæntiˈklaɪmæks/, /ˌæntaɪˈklaɪmæks/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticlimax843("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

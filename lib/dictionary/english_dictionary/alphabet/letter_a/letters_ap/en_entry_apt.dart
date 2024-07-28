@@ -146,9 +146,8 @@ class EnglishEntryapt extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,8 +164,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی.",
                             onPressedBritish: () => speakapt739("en-GB"),
                             onPressedAmerican: () =>
-                                speakapt739(// REPLACE: apt /æpt/
-                                    "en-US"),
+                                speakapt739("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,8 +175,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت.",
                             onPressedBritish: () => speakapt745("en-GB"),
                             onPressedAmerican: () =>
-                                speakapt745(// REPLACE: apt /æpt/
-                                    "en-US"),
+                                speakapt745("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,8 +188,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان.",
                             onPressedBritish: () => speakapt754("en-GB"),
                             onPressedAmerican: () =>
-                                speakapt754(// REPLACE: apt /æpt/
-                                    "en-US"),
+                                speakapt754("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -205,8 +201,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا.",
                             onPressedBritish: () => speakapt757("en-GB"),
                             onPressedAmerican: () =>
-                                speakapt757(// REPLACE: apt /æpt/
-                                    "en-US"),
+                                speakapt757("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

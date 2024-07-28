@@ -147,9 +147,8 @@ class EnglishEntryascent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryascent extends StatelessWidget {
                             kurdishText:
                                 "یەکەم سەرکەوتن بەسەر چیای ئێڤرست لە ساڵی ١٩٥٣ لەلایەن ئێدمند ھیلاری و تێنزینگ نۆرگای بوو، و ساتێکی وەرچەرخێنەر بوو لە مێژووی شاخەوانیدا.",
                             onPressedBritish: () => speakascent1230("en-GB"),
-                            onPressedAmerican: () => speakascent1230(
-                                // REPLACE: ascent /əˈsent/
-                                "en-US"),
+                            onPressedAmerican: () => speakascent1230("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryascent extends StatelessWidget {
                             kurdishText:
                                 "کە فڕۆکەکە دەستی‌کرد بە بەرزبوونەوە، دووکەڵی ئەستوورمان بینی لە یەکێک لە بزوێنەرەکانەوە.",
                             onPressedBritish: () => speakascent1232("en-GB"),
-                            onPressedAmerican: () => speakascent1232(
-                                // REPLACE: ascent /əˈsent/
-                                "en-US"),
+                            onPressedAmerican: () => speakascent1232("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

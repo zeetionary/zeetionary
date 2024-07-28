@@ -140,9 +140,8 @@ class EnglishEntryanalogue extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryanalogue extends StatelessWidget {
                             kurdishText:
                                 "ئەمە ڕێگای ستانداردە بۆ گۆڕینی شەپۆلی ئەنالۆگ بۆ دیجیتاڵ.",
                             onPressedBritish: () => speakanalogue85096("en-GB"),
-                            onPressedAmerican: () => speakanalogue85096(
-                                // REPLACE: analogue /ˈænəlɔːɡ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanalogue85096("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +171,8 @@ class EnglishEntryanalogue extends StatelessWidget {
                             kurdishText:
                                 "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت.",
                             onPressedBritish: () => speakanalogue79005("en-GB"),
-                            onPressedAmerican: () => speakanalogue79005(
-                                // REPLACE: analogue /ˈænəlɔːɡ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanalogue79005("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +184,7 @@ class EnglishEntryanalogue extends StatelessWidget {
                             kurdishText:
                                 "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان.",
                             onPressedBritish: () => speakanalogue8506("en-GB"),
-                            onPressedAmerican: () => speakanalogue8506(
-                                // REPLACE: analogue /ˈænəlɔːɡ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalogue8506("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

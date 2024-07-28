@@ -144,9 +144,8 @@ class EnglishEntryapprehensive extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,8 @@ class EnglishEntryapprehensive extends StatelessWidget {
                                 "کەمێک نیگەران بووم سەبارەت بە کاریگەرییەکانی ئەوەی وتم.",
                             onPressedBritish: () =>
                                 speakapprehensive946("en-GB"),
-                            onPressedAmerican: () => speakapprehensive946(
-                                // REPLACE: apprehensive /ˌæprɪˈhensɪv/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapprehensive946("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -143,9 +143,8 @@ class EnglishEntryapple extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryapple extends StatelessWidget {
                             englishText: "I took a bite of the apple.",
                             kurdishText: "قەپێکم لە سێوەکە گرت.",
                             onPressedBritish: () => speakapple547("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapple547(// REPLACE: apple /ˈæpl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakapple547("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -170,9 +167,7 @@ class EnglishEntryapple extends StatelessWidget {
                             englishText: "Peel and core the apples.",
                             kurdishText: "سێوەکە پاک بکە و ناوەکەی دەربکە.",
                             onPressedBritish: () => speakapple549("en-GB"),
-                            onPressedAmerican: () => speakapple549(
-                                // REPLACE: apple /ˈæpl/
-                                "en-US"),
+                            onPressedAmerican: () => speakapple549("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -114,9 +114,7 @@ class EnglishEntryassurance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "assurance"), // Find /əˈʃʊərəns/, /əˈʃɔːrəns/
+                            EntryTitle(word: "assurance"),
                             // divvviiider
                           ],
                         ),
@@ -152,9 +150,8 @@ class EnglishEntryassurance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -171,9 +168,7 @@ class EnglishEntryassurance extends StatelessWidget {
                             kurdishText:
                                 "داوای دڵنیاییان کرد کە حکومەت پابەند دەبێت بە پلانی پەروەردەوە.",
                             onPressedBritish: () => speakassurance848("en-GB"),
-                            onPressedAmerican: () => speakassurance848(
-                                // REPLACE: assurance /əˈʃʊrəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakassurance848("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -183,9 +178,7 @@ class EnglishEntryassurance extends StatelessWidget {
                             kurdishText:
                                 "ئەبێت بەڵێنم پێ‌بدەیت کە ئەم ڕەفتارە دووبارە نابێتەوە.",
                             onPressedBritish: () => speakassurance849("en-GB"),
-                            onPressedAmerican: () => speakassurance849(
-                                // REPLACE: assurance /əˈʃʊrəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakassurance849("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -197,9 +190,7 @@ class EnglishEntryassurance extends StatelessWidget {
                             kurdishText:
                                 "تەنانەت لە تەمەنێکی گەنجیشدا لەخۆڕادیتنی زۆری پیشان دەدا.",
                             onPressedBritish: () => speakassurance852("en-GB"),
-                            onPressedAmerican: () => speakassurance852(
-                                // REPLACE: assurance /əˈʃʊrəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakassurance852("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

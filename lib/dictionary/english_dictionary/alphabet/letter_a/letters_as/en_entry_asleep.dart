@@ -147,9 +147,8 @@ class EnglishEntryasleep extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryasleep extends StatelessWidget {
                             kurdishText:
                                 "وەستام تاوەکو ھەموویان خەویان لێ کەوت.",
                             onPressedBritish: () => speakasleep929("en-GB"),
-                            onPressedAmerican: () => speakasleep929(
-                                // REPLACE: asleep /əˈsliːp/
-                                "en-US"),
+                            onPressedAmerican: () => speakasleep929("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryasleep extends StatelessWidget {
                             kurdishText:
                                 "ھێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار.",
                             onPressedBritish: () => speakasleep930("en-GB"),
-                            onPressedAmerican: () => speakasleep930(
-                                // REPLACE: asleep /əˈsliːp/
-                                "en-US"),
+                            onPressedAmerican: () => speakasleep930("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,9 +186,7 @@ class EnglishEntryasleep extends StatelessWidget {
                             kurdishText:
                                 "نەمتوانی ڕاستەوخۆ بجوڵێم بەھۆی ئەوەی لاقم تەواو سڕبوو بوو.",
                             onPressedBritish: () => speakasleep933("en-GB"),
-                            onPressedAmerican: () => speakasleep933(
-                                // REPLACE: asleep /əˈsliːp/
-                                "en-US"),
+                            onPressedAmerican: () => speakasleep933("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

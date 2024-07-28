@@ -143,9 +143,8 @@ class EnglishEntryappal extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryappal extends StatelessWidget {
                             kurdishText:
                                 "بیرۆکەی ھاوبەشی‌کردنی ژوورەکە تاساندی.",
                             onPressedBritish: () => speakappal737("en-GB"),
-                            onPressedAmerican: () =>
-                                speakappal737(// REPLACE: appal /əˈpɔːl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakappal737("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -47,7 +47,7 @@ class EnglishEntryunderage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: YoutubeEmbeddedone
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -64,8 +64,7 @@ class EnglishEntryunderage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "underage"), // Find /ˈʌndə(r) eɪdʒ/
+                            EntryTitle(word: "underage"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryunderage extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -129,9 +127,7 @@ class EnglishEntryunderage extends StatelessWidget {
                                     onPressed: () => speakUnde142221("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakUnde142221(
-                                        // REPLACE: under age /ˈʌndər eɪdʒ/
-                                        "en-US"),
+                                    onPressed: () => speakUnde142221("en-US"),
                                   ),
                                 ],
                               ),

@@ -144,9 +144,8 @@ class EnglishEntryaristocrat extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryaristocrat extends StatelessWidget {
                                 "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لە دوای یەک خاوەندارێتی کراوە.",
                             onPressedBritish: () =>
                                 speakaristocrat1207("en-GB"),
-                            onPressedAmerican: () => speakaristocrat1207(
-                                // REPLACE: aristocrat /əˈrɪstəkræt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaristocrat1207("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

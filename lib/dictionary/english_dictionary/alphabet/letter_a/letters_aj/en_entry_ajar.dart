@@ -63,7 +63,7 @@ class EnglishEntryajar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ajar"), // Find /əˈdʒɑː(r)/
+                            EntryTitle(word: "ajar"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryajar extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryajar extends StatelessWidget {
                             englishText: "I'll leave the door ajar.",
                             kurdishText: "دەرگاکە بە کەمێک کراوە جێدێڵم.",
                             onPressedBritish: () => speakajar256("en-GB"),
-                            onPressedAmerican: () =>
-                                speakajar256(// REPLACE: ajar /əˈdʒɑːr/
-                                    "en-US"),
+                            onPressedAmerican: () => speakajar256("en-US"),
                           ),
                         ],
                       ),

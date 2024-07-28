@@ -180,9 +180,8 @@ class EnglishEntryappear extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -193,9 +192,7 @@ class EnglishEntryappear extends StatelessWidget {
                             englishText: "Smoke appeared on the horizon.",
                             kurdishText: "دووکەڵ لە ئاسۆدا دەرکەوت.",
                             onPressedBritish: () => speakappear1030("en-GB"),
-                            onPressedAmerican: () => speakappear1030(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1030("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -205,9 +202,7 @@ class EnglishEntryappear extends StatelessWidget {
                             kurdishText:
                                 "نیشانەکانی نەخۆشییەکە زۆرجار دەردەکەون لە ماوەی دوو ڕۆژدا.",
                             onPressedBritish: () => speakappear1032("en-GB"),
-                            onPressedAmerican: () => speakappear1032(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1032("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -219,9 +214,7 @@ class EnglishEntryappear extends StatelessWidget {
                             kurdishText:
                                 "زاناکان دڵنیانین ڤایرۆسەکە بۆ یەکەم جار لە کوێوە دەرکەوت.",
                             onPressedBritish: () => speakappear1034("en-GB"),
-                            onPressedAmerican: () => speakappear1034(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1034("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -232,9 +225,7 @@ class EnglishEntryappear extends StatelessWidget {
                                 "She didn't appear at all surprised at the news.",
                             kurdishText: "ھیچ سەرسام دیار نەبوو بە ھەواڵەکە.",
                             onPressedBritish: () => speakappear1037("en-GB"),
-                            onPressedAmerican: () => speakappear1037(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1037("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -243,9 +234,7 @@ class EnglishEntryappear extends StatelessWidget {
                             kurdishText:
                                 "ھەموو شتێک ئاسایی دەرکەوت لە سەرەتادا.",
                             onPressedBritish: () => speakappear1038("en-GB"),
-                            onPressedAmerican: () => speakappear1038(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1038("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -257,9 +246,7 @@ class EnglishEntryappear extends StatelessWidget {
                             kurdishText:
                                 "کتێبە تازەکەی لە بەھاردا بڵاودەبێتەوە.",
                             onPressedBritish: () => speakappear819("en-GB"),
-                            onPressedAmerican: () => speakappear819(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear819("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -269,9 +256,7 @@ class EnglishEntryappear extends StatelessWidget {
                             englishText: "He has appeared in over 60 movies.",
                             kurdishText: "لە زیاتر لە ٦٠ فیلمدا دەرکەوتووە.",
                             onPressedBritish: () => speakappear1043("en-GB"),
-                            onPressedAmerican: () => speakappear1043(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1043("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -283,9 +268,7 @@ class EnglishEntryappear extends StatelessWidget {
                             kurdishText:
                                 "پیاوێک گەشتە بەر دەرگاکە و داوای بینینی کرد.",
                             onPressedBritish: () => speakappear1045("en-GB"),
-                            onPressedAmerican: () => speakappear1045(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1045("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -296,9 +279,7 @@ class EnglishEntryappear extends StatelessWidget {
                                 "Your name will appear at the front of the book.",
                             kurdishText: "ناوت لە بەرگی کتێبەکە دەنووسرێت.",
                             onPressedBritish: () => speakappear1047("en-GB"),
-                            onPressedAmerican: () => speakappear1047(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1047("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -310,9 +291,7 @@ class EnglishEntryappear extends StatelessWidget {
                             kurdishText:
                                 "پیاوێک ئەمڕۆ لە دادگا ئامادە دەبێت کە تۆمەتی کوشتنی لەسەرە.",
                             onPressedBritish: () => speakappear1050("en-GB"),
-                            onPressedAmerican: () => speakappear1050(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1050("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -324,9 +303,7 @@ class EnglishEntryappear extends StatelessWidget {
                             kurdishText:
                                 "جەیمس گیلبێرت پارێزەری بەرگریکارەکە دەبێت.",
                             onPressedBritish: () => speakappear1052("en-GB"),
-                            onPressedAmerican: () => speakappear1052(
-                                // REPLACE: appear /əˈpɪr/
-                                "en-US"),
+                            onPressedAmerican: () => speakappear1052("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

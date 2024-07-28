@@ -147,9 +147,8 @@ class EnglishEntryartisan extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryartisan extends StatelessWidget {
                             kurdishText:
                                 "فێردەبیت چۆن پیشەسازانی سەدەی ١٨ کارەکانیان دەکرد.",
                             onPressedBritish: () => speakartisan1031("en-GB"),
-                            onPressedAmerican: () => speakartisan1031(
-                                // REPLACE: artisan /ˈɑːrtəzn/
-                                "en-US"),
+                            onPressedAmerican: () => speakartisan1031("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +177,7 @@ class EnglishEntryartisan extends StatelessWidget {
                             kurdishText:
                                 "نانەکانی نانەواخانەی پیشەسازەکە تەنھا بە باشترین ڕەچەتە درووست دەکرێن و بە ڕێگای کۆن دەبرژێندرێن.",
                             onPressedBritish: () => speakartisan1036("en-GB"),
-                            onPressedAmerican: () => speakartisan1036(
-                                // REPLACE: artisan /ˈɑːrtəzn/
-                                "en-US"),
+                            onPressedAmerican: () => speakartisan1036("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

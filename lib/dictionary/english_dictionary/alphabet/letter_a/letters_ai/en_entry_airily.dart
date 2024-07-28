@@ -64,7 +64,7 @@ class EnglishEntryairily extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airily"), // Find /ˈeərəli/
+                            EntryTitle(word: "airily"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryairily extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryairily extends StatelessWidget {
                             kurdishText:
                                 "ئەو بە خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام».",
                             onPressedBritish: () => speakairily2566("en-GB"),
-                            onPressedAmerican: () => speakairily2566(
-                                // REPLACE: airily /ˈerəli/
-                                "en-US"),
+                            onPressedAmerican: () => speakairily2566("en-US"),
                           ),
                         ],
                       ),

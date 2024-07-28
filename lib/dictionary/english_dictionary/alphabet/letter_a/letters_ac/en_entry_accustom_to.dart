@@ -65,8 +65,7 @@ class EnglishEntryaccustomto extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "accustom to"), // Find /əˈkʌstəm tə/
+                            EntryTitle(word: "accustom to"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryaccustomto extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -137,7 +135,7 @@ class EnglishEntryaccustomto extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedend(),

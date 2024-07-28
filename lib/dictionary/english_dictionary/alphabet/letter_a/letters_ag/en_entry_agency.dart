@@ -64,7 +64,7 @@ class EnglishEntryagency extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agency"), // Find /ˈeɪdʒənsi/
+                            EntryTitle(word: "agency"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagency extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryagency extends StatelessWidget {
                                 "She works for an surveillance agency.",
                             kurdishText: "بۆ دەزگایەکی چاودێری کاردەکات.",
                             onPressedBritish: () => speakagency27469("en-GB"),
-                            onPressedAmerican: () => speakagency27469(
-                                // REPLACE: agency /ˈeɪdʒənsi/
-                                "en-US"),
+                            onPressedAmerican: () => speakagency27469("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -130,16 +127,14 @@ class EnglishEntryagency extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک تاقیگە لەلایەن فەرمانگەکانی حکومەتەوە بەڕێوەدەبردرێن.",
                             onPressedBritish: () => speakagency2593("en-GB"),
-                            onPressedAmerican: () => speakagency2593(
-                                // REPLACE: agency /ˈeɪdʒənsi/
-                                "en-US"),
+                            onPressedAmerican: () => speakagency2593("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

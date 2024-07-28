@@ -141,9 +141,8 @@ class EnglishEntryamusement extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,8 @@ class EnglishEntryamusement extends StatelessWidget {
                                 "نەیدەتوانی خۆشحاڵیی خۆی بشارێتەوە بە شێوازی سەماکردنی.",
                             onPressedBritish: () =>
                                 speakamusement440963("en-GB"),
-                            onPressedAmerican: () => speakamusement440963(
-                                // REPLACE: amusement /əˈmjuːzmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamusement440963("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -174,9 +172,8 @@ class EnglishEntryamusement extends StatelessWidget {
                             kurdishText:
                                 "جاران خەڵکی کەم کەرەستەی سەرگەرمییان ھەبوو ھەڵیبژێرن. ھیچ ڕادیۆ و تەلەفیزیۆن نەبوو.",
                             onPressedBritish: () => speakamusement4418("en-GB"),
-                            onPressedAmerican: () => speakamusement4418(
-                                // REPLACE: amusement /əˈmjuːzmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamusement4418("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +184,8 @@ class EnglishEntryamusement extends StatelessWidget {
                                 "What do you do for amusement in this town?",
                             kurdishText: "لەم شارەدا چی دەکەن بۆ ڕابواردن؟",
                             onPressedBritish: () => speakamusement5903("en-GB"),
-                            onPressedAmerican: () => speakamusement5903(
-                                // REPLACE: amusement /əˈmjuːzmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamusement5903("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

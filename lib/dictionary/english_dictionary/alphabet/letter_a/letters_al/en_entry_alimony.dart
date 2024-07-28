@@ -63,7 +63,7 @@ class EnglishEntryalimony extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alimony"), // Find /ˈælɪməni/
+                            EntryTitle(word: "alimony"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryalimony extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryalimony extends StatelessWidget {
                             kurdishText:
                                 "پێویستە نەفەقە بدات بە ھاوسەری پێشووی.",
                             onPressedBritish: () => speakalimony4625("en-GB"),
-                            onPressedAmerican: () => speakalimony4625(
-                                // REPLACE: alimony /ˈælɪməʊni/
-                                "en-US"),
+                            onPressedAmerican: () => speakalimony4625("en-US"),
                           ),
                         ],
                       ),

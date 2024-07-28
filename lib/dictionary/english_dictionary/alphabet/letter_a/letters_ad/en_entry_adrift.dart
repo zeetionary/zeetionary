@@ -64,7 +64,7 @@ class EnglishEntryadrift extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adrift"), // Find /əˈdrɪft/
+                            EntryTitle(word: "adrift"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadrift extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryadrift extends StatelessWidget {
                             kurdishText:
                                 "سێ ڕۆژی لەناو شەپۆلەکان بەسەربرد لەسەر یەختەکەی.",
                             onPressedBritish: () => speakadri458692("en-GB"),
-                            onPressedAmerican: () => speakadri458692(
-                                // REPLACE: adrift /əˈdrɪft/
-                                "en-US"),
+                            onPressedAmerican: () => speakadri458692("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,9 +126,7 @@ class EnglishEntryadrift extends StatelessWidget {
                                 "Without language, human beings are cast adrift.",
                             kurdishText: "بەبێ زمان مرۆڤەکان سەرلێشێواون.",
                             onPressedBritish: () => speakadri52369("en-GB"),
-                            onPressedAmerican: () => speakadri52369(
-                                // REPLACE: adrift /əˈdrɪft/
-                                "en-US"),
+                            onPressedAmerican: () => speakadri52369("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -142,16 +137,14 @@ class EnglishEntryadrift extends StatelessWidget {
                             kurdishText:
                                 "وادیارە شتێک لە خەمڵاندنەکانمان ناڕێکە.",
                             onPressedBritish: () => speakadrif52317("en-GB"),
-                            onPressedAmerican: () => speakadrif52317(
-                                // REPLACE: adrift /əˈdrɪft/
-                                "en-US"),
+                            onPressedAmerican: () => speakadrif52317("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

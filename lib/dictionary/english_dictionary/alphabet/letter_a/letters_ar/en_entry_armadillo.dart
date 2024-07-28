@@ -143,9 +143,8 @@ class EnglishEntryarmadillo extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryarmadillo extends StatelessWidget {
                             englishText: "I have never seen an armadillo.",
                             kurdishText: "ھەرگیز ئەرمادیلۆیەکم نەدیوە.",
                             onPressedBritish: () => speakarmadillo440("en-GB"),
-                            onPressedAmerican: () => speakarmadillo440(
-                                // REPLACE: armadillo /ˌɑːrməˈdɪləʊ/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmadillo440("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

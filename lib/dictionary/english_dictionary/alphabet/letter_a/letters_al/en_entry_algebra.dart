@@ -64,7 +64,7 @@ class EnglishEntryalgebra extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "algebra"), // Find /ˈældʒɪbrə/
+                            EntryTitle(word: "algebra"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalgebra extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,8 @@ class EnglishEntryalgebra extends StatelessWidget {
                             kurdishText:
                                 "کچەکە حەزی بە ئەلجبرەیە لەکاتێکدا کوڕەکە بە ھیچ و پڕووپووچی دادەنا.",
                             onPressedBritish: () => speakalgebra356994("en-GB"),
-                            onPressedAmerican: () => speakalgebra356994(
-                                // REPLACE: algebra /ˈældʒɪbrə/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalgebra356994("en-US"),
                           ),
                         ],
                       ),

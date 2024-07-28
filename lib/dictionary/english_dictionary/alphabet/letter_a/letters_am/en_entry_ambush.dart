@@ -99,9 +99,8 @@ class EnglishEntryambush extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryambush extends StatelessWidget {
                             kurdishText:
                                 "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران.",
                             onPressedBritish: () => speakambush4355("en-GB"),
-                            onPressedAmerican: () => speakambush4355(
-                                // REPLACE: ambush /ˈæmbʊʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakambush4355("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -131,9 +128,7 @@ class EnglishEntryambush extends StatelessWidget {
                                 "The guerrillas ambushed them near the bridge.",
                             kurdishText: "گەریلاکان خستنیانە بۆسەوە.",
                             onPressedBritish: () => speakambush4699("en-GB"),
-                            onPressedAmerican: () => speakambush4699(
-                                // REPLACE: ambush /ˈæmbʊʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakambush4699("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

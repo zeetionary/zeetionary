@@ -64,7 +64,7 @@ class EnglishEntryalms extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alms"), // Find /ɑːmz/
+                            EntryTitle(word: "alms"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalms extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryalms extends StatelessWidget {
                             kurdishText:
                                 "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن.",
                             onPressedBritish: () => speakalms4266("en-GB"),
-                            onPressedAmerican: () =>
-                                speakalms4266(// REPLACE: alms /ɑːmz/
-                                    "en-US"),
+                            onPressedAmerican: () => speakalms4266("en-US"),
                           ),
                         ],
                       ),

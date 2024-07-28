@@ -144,9 +144,8 @@ class EnglishEntryappetite extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryappetite extends StatelessWidget {
                             kurdishText:
                                 "تووشی سەرئێشە و نەبوونی ئیشتیا بوو بوو.",
                             onPressedBritish: () => speakappetite227("en-GB"),
-                            onPressedAmerican: () => speakappetite227(
-                                // REPLACE: appetite /ˈæpɪtaɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakappetite227("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +173,7 @@ class EnglishEntryappetite extends StatelessWidget {
                             kurdishText:
                                 "بی‌بی‌سی لە خواستی خەڵکی بۆ زانیاریی گرنگ تێ‌دەگات.",
                             onPressedBritish: () => speakappetite233("en-GB"),
-                            onPressedAmerican: () => speakappetite233(
-                                // REPLACE: appetite /ˈæpɪtaɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakappetite233("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -164,9 +164,8 @@ class EnglishEntryamiss extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -183,9 +182,7 @@ class EnglishEntryamiss extends StatelessWidget {
                             kurdishText:
                                 "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد.",
                             onPressedBritish: () => speakamiss7741("en-GB"),
-                            onPressedAmerican: () =>
-                                speakamiss7741(// REPLACE: amiss /əˈmɪs/
-                                    "en-US"),
+                            onPressedAmerican: () => speakamiss7741("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -194,9 +191,7 @@ class EnglishEntryamiss extends StatelessWidget {
                             kurdishText:
                                 "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی.",
                             onPressedBritish: () => speakamiss8899("en-GB"),
-                            onPressedAmerican: () =>
-                                speakamiss8899(// REPLACE: amiss /əˈmɪs/
-                                    "en-US"),
+                            onPressedAmerican: () => speakamiss8899("en-US"),
                           ),
                         ],
                       ),

@@ -65,8 +65,7 @@ class EnglishEntryallclear extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "all-clear"), // Find /ði ˌɔːl ˈklɪə(r)/
+                            EntryTitle(word: "all-clear"),
                           ],
                         ),
                         Row(
@@ -101,9 +100,8 @@ class EnglishEntryallclear extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +114,8 @@ class EnglishEntryallclear extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا.",
                             onPressedBritish: () => speakallclear37455("en-GB"),
-                            onPressedAmerican: () => speakallclear37455(
-                                // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallclear37455("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,9 +126,8 @@ class EnglishEntryallclear extends StatelessWidget {
                             kurdishText:
                                 "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان.",
                             onPressedBritish: () => speakallclear24121("en-GB"),
-                            onPressedAmerican: () => speakallclear24121(
-                                // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallclear24121("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -143,9 +139,8 @@ class EnglishEntryallclear extends StatelessWidget {
                                 "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا.",
                             onPressedBritish: () =>
                                 speakallclear385796("en-GB"),
-                            onPressedAmerican: () => speakallclear385796(
-                                // REPLACE: all-clear /ði ˌɔːl ˈklɪr/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallclear385796("en-US"),
                           ),
                         ],
                       ),

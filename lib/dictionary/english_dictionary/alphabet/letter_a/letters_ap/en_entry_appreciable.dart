@@ -144,9 +144,8 @@ class EnglishEntryappreciable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,8 @@ class EnglishEntryappreciable extends StatelessWidget {
                                 "زیادبوونێکی بەرچاو لە قازانجەکان ھەبووە.",
                             onPressedBritish: () =>
                                 speakappreciable944("en-GB"),
-                            onPressedAmerican: () => speakappreciable944(
-                                // REPLACE: appreciable /əˈpriːʃəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciable944("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

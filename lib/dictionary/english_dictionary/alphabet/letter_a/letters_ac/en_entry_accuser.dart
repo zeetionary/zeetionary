@@ -64,7 +64,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "accuser"), // Find /əˈkjuːzə(r)/
+                            EntryTitle(word: "accuser"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaccuser extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -126,7 +125,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedend(),

@@ -65,8 +65,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "amalgamation"), // Find /əˌmælɡəˈmeɪʃn/
+                            EntryTitle(word: "amalgamation"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryamalgamation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -121,9 +119,8 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین.",
                             onPressedBritish: () =>
                                 speakamalgamation45999("en-GB"),
-                            onPressedAmerican: () => speakamalgamation45999(
-                                // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamalgamation45999("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -133,9 +130,8 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە.",
                             onPressedBritish: () =>
                                 speakamalgamation4444("en-GB"),
-                            onPressedAmerican: () => speakamalgamation4444(
-                                // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamalgamation4444("en-US"),
                           ),
                         ],
                       ),

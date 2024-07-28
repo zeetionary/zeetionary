@@ -142,9 +142,8 @@ class EnglishEntryapartment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryapartment extends StatelessWidget {
                             kurdishText:
                                 "دەستەژوورێکی دوو ژووریم بە کرێ گرت‌بوو لە باڵەخانەیەکی کۆن.",
                             onPressedBritish: () => speakapartment1150("en-GB"),
-                            onPressedAmerican: () => speakapartment1150(
-                                // REPLACE: apartment /əˈpɑːrtmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapartment1150("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,9 +171,8 @@ class EnglishEntryapartment extends StatelessWidget {
                                 "He was evicted from his Manhattan apartment.",
                             kurdishText: "لە دەستەژوورەکەی لە مانھاتن دەرکرا.",
                             onPressedBritish: () => speakapartment1152("en-GB"),
-                            onPressedAmerican: () => speakapartment1152(
-                                // REPLACE: apartment /əˈpɑːrtmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapartment1152("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

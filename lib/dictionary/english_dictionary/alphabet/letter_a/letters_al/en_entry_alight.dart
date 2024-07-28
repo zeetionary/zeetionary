@@ -80,7 +80,7 @@ class EnglishEntryalight extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alight"), // Find /əˈlaɪt/
+                            EntryTitle(word: "alight"),
                           ],
                         ),
                         Row(
@@ -114,9 +114,8 @@ class EnglishEntryalight extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -130,9 +129,7 @@ class EnglishEntryalight extends StatelessWidget {
                             englishText: "A car was overturned and set alight.",
                             kurdishText: "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت.",
                             onPressedBritish: () => speakalight3996("en-GB"),
-                            onPressedAmerican: () => speakalight3996(
-                                // REPLACE: alight /əˈlaɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalight3996("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -143,9 +140,7 @@ class EnglishEntryalight extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە.",
                             onPressedBritish: () => speakalight35244("en-GB"),
-                            onPressedAmerican: () => speakalight35244(
-                                // REPLACE: alight /əˈlaɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalight35244("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -155,9 +150,7 @@ class EnglishEntryalight extends StatelessWidget {
                             kurdishText:
                                 "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە.",
                             onPressedBritish: () => speakalight32852("en-GB"),
-                            onPressedAmerican: () => speakalight32852(
-                                // REPLACE: alight /əˈlaɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakalight32852("en-US"),
                           ),
                         ],
                       ),

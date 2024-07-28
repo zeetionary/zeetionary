@@ -147,9 +147,8 @@ class EnglishEntryassistant extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryassistant extends StatelessWidget {
                             kurdishText:
                                 "یاریدەدەرەکەم ئێستا چۆنیەتی کارکردنی ئامێرەکەتان پێ‌پیشان‌دەدات.",
                             onPressedBritish: () => speakassistant921("en-GB"),
-                            onPressedAmerican: () => speakassistant921(
-                                // REPLACE: assistant /əˈsɪstənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassistant921("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -178,9 +175,7 @@ class EnglishEntryassistant extends StatelessWidget {
                             kurdishText:
                                 "وەک یاریدەدەرێکی تایبەت بۆ سەرۆک کاری دەکرد.",
                             onPressedBritish: () => speakassistant923("en-GB"),
-                            onPressedAmerican: () => speakassistant923(
-                                // REPLACE: assistant /əˈsɪstənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassistant923("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +187,7 @@ class EnglishEntryassistant extends StatelessWidget {
                             kurdishText:
                                 "وەک فرۆشیارێک لە کتێب‌فرۆشێکی ناوخۆیی کاری دەکرد.",
                             onPressedBritish: () => speakassistant925("en-GB"),
-                            onPressedAmerican: () => speakassistant925(
-                                // REPLACE: assistant /əˈsɪstənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassistant925("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

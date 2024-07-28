@@ -150,9 +150,8 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                                 "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد.",
                             onPressedBritish: () =>
                                 speakartificialrespiration943("en-GB"),
-                            onPressedAmerican: () => speakartificialrespiration943(
-                                // REPLACE: artificial respiration /ˌɑːrtɪfɪʃl respəˈreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartificialrespiration943("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

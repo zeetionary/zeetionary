@@ -147,9 +147,8 @@ class EnglishEntryappeal extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryappeal extends StatelessWidget {
                             kurdishText:
                                 "پاڕانەوەیەکی ھەست‌بزوێنی ئاراستەی دەنگدەران کرد.",
                             onPressedBritish: () => speakappeal932("en-GB"),
-                            onPressedAmerican: () => speakappeal932(
-                                // REPLACE: appeal /əˈpiːl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappeal932("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -178,9 +175,7 @@ class EnglishEntryappeal extends StatelessWidget {
                             kurdishText:
                                 "پۆلیس تکای لە خەڵکی کرد بە ھێمنی بمێننەوە.",
                             onPressedBritish: () => speakappeal939("en-GB"),
-                            onPressedAmerican: () => speakappeal939(
-                                // REPLACE: appeal /əˈpiːl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappeal939("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +187,7 @@ class EnglishEntryappeal extends StatelessWidget {
                             kurdishText:
                                 "خەریک‌بوو دەستی‌ دەکرد بە تێگەشتن لە دڵڕفێنی ژیان لە لادێ.",
                             onPressedBritish: () => speakappeal946("en-GB"),
-                            onPressedAmerican: () => speakappeal946(
-                                // REPLACE: appeal /əˈpiːl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappeal946("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -206,9 +199,7 @@ class EnglishEntryappeal extends StatelessWidget {
                             kurdishText:
                                 "دادگا داوای پێداچوونەوەکەیی دژ بە بڕیارەکە ڕەتکردەوە.",
                             onPressedBritish: () => speakappeal950("en-GB"),
-                            onPressedAmerican: () => speakappeal950(
-                                // REPLACE: appeal /əˈpiːl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappeal950("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -220,9 +211,7 @@ class EnglishEntryappeal extends StatelessWidget {
                             kurdishText:
                                 "حکومەت تکای لە خەڵکی بەریتانیا کرد بۆ یارمەتی.",
                             onPressedBritish: () => speakappeal953("en-GB"),
-                            onPressedAmerican: () => speakappeal953(
-                                // REPLACE: appeal /əˈpiːl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappeal953("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -234,9 +223,7 @@ class EnglishEntryappeal extends StatelessWidget {
                             kurdishText:
                                 "فیلمەکانی سەرنجی بیسەری بەرفراوان ڕادەکێشن.",
                             onPressedBritish: () => speakappeal956("en-GB"),
-                            onPressedAmerican: () => speakappeal956(
-                                // REPLACE: appeal /əˈpiːl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappeal956("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -248,9 +235,7 @@ class EnglishEntryappeal extends StatelessWidget {
                             kurdishText:
                                 "کۆمپانیاکە داوای پێداچوونەوە بە بڕیارەکە دەکات.",
                             onPressedBritish: () => speakappeal958("en-GB"),
-                            onPressedAmerican: () => speakappeal958(
-                                // REPLACE: appeal /əˈpiːl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappeal958("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

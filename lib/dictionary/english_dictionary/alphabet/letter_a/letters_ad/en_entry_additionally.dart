@@ -64,8 +64,7 @@ class EnglishEntryadditionally extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "additionally"), // Find /əˈdɪʃənəli/
+                            EntryTitle(word: "additionally"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryadditionally extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +116,14 @@ class EnglishEntryadditionally extends StatelessWidget {
                             kurdishText:
                                 "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت.",
                             onPressedBritish: () => speakaddit2541("en-GB"),
-                            onPressedAmerican: () => speakaddit2541(
-                                // REPLACE: additionally /əˈdɪʃənəli/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddit2541("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

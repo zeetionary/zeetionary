@@ -144,9 +144,8 @@ class EnglishEntryapproximately extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 "گەشتەکە بە نزیکەیی حەوت کاتژمێری پێچوو.",
                             onPressedBritish: () =>
                                 speakapproximately1010("en-GB"),
-                            onPressedAmerican: () => speakapproximately1010(
-                                // REPLACE: approximately /əˈprɑːksɪmətli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapproximately1010("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -176,9 +174,8 @@ class EnglishEntryapproximately extends StatelessWidget {
                                 "بیناکان بە نزیکەیی یەکسان بوون لە ئەندازەدا.",
                             onPressedBritish: () =>
                                 speakapproximately1011("en-GB"),
-                            onPressedAmerican: () => speakapproximately1011(
-                                // REPLACE: approximately /əˈprɑːksɪmətli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapproximately1011("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

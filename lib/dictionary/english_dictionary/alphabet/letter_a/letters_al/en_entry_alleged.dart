@@ -64,7 +64,7 @@ class EnglishEntryalleged extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alleged"), // Find /əˈledʒd/
+                            EntryTitle(word: "alleged"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalleged extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryalleged extends StatelessWidget {
                             kurdishText:
                                 "کچەکە لە داگا بەڵگەی پێشکەشکرد دژ بە ھێرشکارە تاوانبارکراوەکە.",
                             onPressedBritish: () => speakalleged35962("en-GB"),
-                            onPressedAmerican: () => speakalleged35962(
-                                // REPLACE: alleged /əˈledʒd/
-                                "en-US"),
+                            onPressedAmerican: () => speakalleged35962("en-US"),
                           ),
                         ],
                       ),

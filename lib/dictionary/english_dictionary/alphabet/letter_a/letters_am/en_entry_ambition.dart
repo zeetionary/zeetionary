@@ -63,7 +63,7 @@ class EnglishEntryambition extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ambition"), // Find /æmˈbɪʃn/
+                            EntryTitle(word: "ambition"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryambition extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,18 +116,14 @@ class EnglishEntryambition extends StatelessWidget {
                             kurdishText:
                                 "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت.",
                             onPressedBritish: () => speakambition422("en-GB"),
-                            onPressedAmerican: () => speakambition422(
-                                // REPLACE: ambition /æmˈbɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakambition422("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "He had only one ambition in life.",
                             kurdishText: "یەک ئامانجی لە ژیاندا ھەبوو.",
                             onPressedBritish: () => speakambition3444("en-GB"),
-                            onPressedAmerican: () => speakambition3444(
-                                // REPLACE: ambition /æmˈbɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakambition3444("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -137,9 +132,7 @@ class EnglishEntryambition extends StatelessWidget {
                             englishText: "She was driven by personal ambition.",
                             kurdishText: "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا.",
                             onPressedBritish: () => speakambition344("en-GB"),
-                            onPressedAmerican: () => speakambition344(
-                                // REPLACE: ambition /æmˈbɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakambition344("en-US"),
                           ),
                         ],
                       ),

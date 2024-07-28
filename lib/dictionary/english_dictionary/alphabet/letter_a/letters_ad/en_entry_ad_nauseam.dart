@@ -64,8 +64,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "ad nauseam"), // Find /ˌæd ˈnɔːziəm/
+                            EntryTitle(word: "ad nauseam"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryadnauseam extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,16 +115,14 @@ class EnglishEntryadnauseam extends StatelessWidget {
                             kurdishText:
                                 "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە.",
                             onPressedBritish: () => speakadn25691("en-GB"),
-                            onPressedAmerican: () => speakadn25691(
-                                // REPLACE: adnauseam /ˌæd ˈnɔːziəm/
-                                "en-US"),
+                            onPressedAmerican: () => speakadn25691("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedend(),

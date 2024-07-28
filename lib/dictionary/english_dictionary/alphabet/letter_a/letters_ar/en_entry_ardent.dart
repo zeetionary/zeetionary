@@ -144,9 +144,8 @@ class EnglishEntryardent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryardent extends StatelessWidget {
                             kurdishText:
                                 "وەک ھەوادارێکی تامەزرۆ، لە ھەموو یارییەکدا ھاوار بۆ مانچستەر یونایتید دەکات.",
                             onPressedBritish: () => speakardent516("en-GB"),
-                            onPressedAmerican: () => speakardent516(
-                                // REPLACE: ardent /ˈɑːrdnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakardent516("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

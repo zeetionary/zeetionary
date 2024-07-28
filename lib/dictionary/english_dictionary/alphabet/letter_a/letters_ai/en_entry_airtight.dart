@@ -63,7 +63,7 @@ class EnglishEntryairtight extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airtight"), // Find /ˈeətaɪt/
+                            EntryTitle(word: "airtight"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryairtight extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,8 @@ class EnglishEntryairtight extends StatelessWidget {
                                 "Store the cake in an airtight container.",
                             kurdishText: "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە.",
                             onPressedBritish: () => speakairtight45222("en-GB"),
-                            onPressedAmerican: () => speakairtight45222(
-                                // REPLACE: airtight /ˈertaɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairtight45222("en-US"),
                           ),
                         ],
                       ),

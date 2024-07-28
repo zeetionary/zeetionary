@@ -301,9 +301,8 @@ class EnglishEntryaround extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -320,9 +319,7 @@ class EnglishEntryaround extends StatelessWidget {
                             kurdishText:
                                 "خانووەکە بە دەوری حەوشەیەکدا درووست‌کراوە.",
                             onPressedBritish: () => speakaround1058("en-GB"),
-                            onPressedAmerican: () => speakaround1058(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1058("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -330,9 +327,7 @@ class EnglishEntryaround extends StatelessWidget {
                             englishText: "He put his arms around her.",
                             kurdishText: "دەستی‌کردە ملی.",
                             onPressedBritish: () => speakaround1100("en-GB"),
-                            onPressedAmerican: () => speakaround1100(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1100("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -343,9 +338,7 @@ class EnglishEntryaround extends StatelessWidget {
                             kurdishText:
                                 "پاسەکە لە لایەکەی تری سوڕانەکەوە ھات.",
                             onPressedBritish: () => speakaround1106("en-GB"),
-                            onPressedAmerican: () => speakaround1106(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1106("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -353,9 +346,7 @@ class EnglishEntryaround extends StatelessWidget {
                             englishText: "Our house is just around the corner.",
                             kurdishText: "ماڵمان لەوسەری سوچەکەیە.",
                             onPressedBritish: () => speakaround1107("en-GB"),
-                            onPressedAmerican: () => speakaround1107(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1107("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -365,9 +356,7 @@ class EnglishEntryaround extends StatelessWidget {
                             englishText: "They walked around the lake.",
                             kurdishText: "بەدەوری دەریاچەکەدا ڕێیان کرد.",
                             onPressedBritish: () => speakaround1109("en-GB"),
-                            onPressedAmerican: () => speakaround1109(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1109("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -379,9 +368,7 @@ class EnglishEntryaround extends StatelessWidget {
                             kurdishText:
                                 "بە شارۆچکەکەدا ڕێیان‌کرد بۆ دۆزینەوەی شوێنێک بۆ نان‌خواردن.",
                             onPressedBritish: () => speakaround1112("en-GB"),
-                            onPressedAmerican: () => speakaround1112(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1112("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -393,9 +380,7 @@ class EnglishEntryaround extends StatelessWidget {
                             kurdishText:
                                 "ناتوانم ھەموو شتێک لەگەڵ خشتەی کاتی تۆ بگونجێنم!",
                             onPressedBritish: () => speakaround1114("en-GB"),
-                            onPressedAmerican: () => speakaround1114(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1114("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -407,9 +392,7 @@ class EnglishEntryaround extends StatelessWidget {
                             kurdishText:
                                 "پرسیاری زۆر ھەیە پەیوەندیدار بە پاڵنەرەکانی.",
                             onPressedBritish: () => speakaround1115("en-GB"),
-                            onPressedAmerican: () => speakaround1115(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1115("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -420,9 +403,7 @@ class EnglishEntryaround extends StatelessWidget {
                                 "The cost would be somewhere around £1 500.",
                             kurdishText: "تێچووەکەی نزیکەی ١,٥٠٠ پاوەند دەبێت.",
                             onPressedBritish: () => speakaround1117("en-GB"),
-                            onPressedAmerican: () => speakaround1117(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1117("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -433,9 +414,7 @@ class EnglishEntryaround extends StatelessWidget {
                             kurdishText:
                                 "لە ھەموو لایەکەوە گوێم لە پێکەنین بوو.",
                             onPressedBritish: () => speakaround1118("en-GB"),
-                            onPressedAmerican: () => speakaround1118(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1118("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -446,9 +425,7 @@ class EnglishEntryaround extends StatelessWidget {
                                 "How do you make the wheels go around?",
                             kurdishText: "چۆن وا لە ویلەکە دەکەیت بسووڕێتەوە؟",
                             onPressedBritish: () => speakaround1120("en-GB"),
-                            onPressedAmerican: () => speakaround1120(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1120("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -459,9 +436,7 @@ class EnglishEntryaround extends StatelessWidget {
                                 "She turned the car around and drove off.",
                             kurdishText: "ئۆتۆمبێلەکەی سووڕاندەوە و ڕۆشت.",
                             onPressedBritish: () => speakaround1123("en-GB"),
-                            onPressedAmerican: () => speakaround1123(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1123("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -473,9 +448,7 @@ class EnglishEntryaround extends StatelessWidget {
                             kurdishText:
                                 "درەختێکی کۆنم دی کە بە لایەنی کەمەوە ١٠ پێ ئەستوور بوو.",
                             onPressedBritish: () => speakaround1125("en-GB"),
-                            onPressedAmerican: () => speakaround1125(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1125("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -486,9 +459,7 @@ class EnglishEntryaround extends StatelessWidget {
                                 "There were papers lying around all over the floor.",
                             kurdishText: "کاغەز بە ھەموو زەوییەکەدا کەوتبوو.",
                             onPressedBritish: () => speakaround1128("en-GB"),
-                            onPressedAmerican: () => speakaround1128(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1128("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -500,9 +471,7 @@ class EnglishEntryaround extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک کەسی گەنج دانیشتبوون و بێزاربوون.",
                             onPressedBritish: () => speakaround1130("en-GB"),
-                            onPressedAmerican: () => speakaround1130(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1130("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -512,9 +481,7 @@ class EnglishEntryaround extends StatelessWidget {
                             englishText: "She must be somewhere around here.",
                             kurdishText: "دەبێت لە شوێنێک لێرە بێت.",
                             onPressedBritish: () => speakaround1131("en-GB"),
-                            onPressedAmerican: () => speakaround1131(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1131("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -526,9 +493,7 @@ class EnglishEntryaround extends StatelessWidget {
                             kurdishText:
                                 "لە ساڵانی ٢٠٠ەوە چالاکە وەک دەرھێنەرێکی فیلم.",
                             onPressedBritish: () => speakaround1133("en-GB"),
-                            onPressedAmerican: () => speakaround1133(
-                                // REPLACE: around /əˈraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaround1133("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -146,9 +146,8 @@ class EnglishEntryartificially extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryartificially extends StatelessWidget {
                                 "زۆرینەی قارچکەکان کە لە سوپەرمارکێتەکان دەفرۆشرێن بەشێوەی دەستکردانە لە پەییندا سەوزبوونە.",
                             onPressedBritish: () =>
                                 speakartificially954("en-GB"),
-                            onPressedAmerican: () => speakartificially954(
-                                // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartificially954("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -181,9 +179,8 @@ class EnglishEntryartificially extends StatelessWidget {
                                 "نرخەکانیان بەخواستی خۆیان بە نزمی دەھێڵنەوە.",
                             onPressedBritish: () =>
                                 speakartificially956("en-GB"),
-                            onPressedAmerican: () => speakartificially956(
-                                // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartificially956("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

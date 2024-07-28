@@ -89,8 +89,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "altogether"), // Find /ˌɔːltəˈɡeðə(r)/
+                            EntryTitle(word: "altogether"),
                           ],
                         ),
                         Row(
@@ -124,9 +123,8 @@ class EnglishEntryaltogether extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -142,9 +140,8 @@ class EnglishEntryaltogether extends StatelessWidget {
                             kurdishText:
                                 "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا.",
                             onPressedBritish: () => speakaltogether588("en-GB"),
-                            onPressedAmerican: () => speakaltogether588(
-                                // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaltogether588("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -153,9 +150,8 @@ class EnglishEntryaltogether extends StatelessWidget {
                             kurdishText: "بە تەواوی بارودۆخێکی گونجاو بوو.",
                             onPressedBritish: () =>
                                 speakaltogether45666("en-GB"),
-                            onPressedAmerican: () => speakaltogether45666(
-                                // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaltogether45666("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -165,9 +161,8 @@ class EnglishEntryaltogether extends StatelessWidget {
                             kurdishText: "کۆی گشتی ٦٨ پاوەند قەرزارمی.",
                             onPressedBritish: () =>
                                 speakaltogether523333("en-GB"),
-                            onPressedAmerican: () => speakaltogether523333(
-                                // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaltogether523333("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -179,9 +174,8 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 "خواردنەکە باش بوو. حەزیشمان بە میوزیکەکە بوو. بەکورتی، شەوێکی خۆش بوو.",
                             onPressedBritish: () =>
                                 speakaltogether4144("en-GB"),
-                            onPressedAmerican: () => speakaltogether4144(
-                                // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaltogether4144("en-US"),
                           ),
                         ],
                       ),

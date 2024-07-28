@@ -140,9 +140,8 @@ class EnglishEntryanthrax extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,7 @@ class EnglishEntryanthrax extends StatelessWidget {
                             kurdishText:
                                 "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو.",
                             onPressedBritish: () => speakanthrax833("en-GB"),
-                            onPressedAmerican: () => speakanthrax833(
-                                // REPLACE: anthrax /ˈænθræks/
-                                "en-US"),
+                            onPressedAmerican: () => speakanthrax833("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

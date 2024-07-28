@@ -139,9 +139,8 @@ class EnglishEntryannulment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryannulment extends StatelessWidget {
                             kurdishText:
                                 "پاشا ھەوڵی‌دا ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆندا ھەڵبوەشێنێتەوە.",
                             onPressedBritish: () => speakannulment917("en-GB"),
-                            onPressedAmerican: () => speakannulment917(
-                                // REPLACE: annulment /əˈnʌlmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakannulment917("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

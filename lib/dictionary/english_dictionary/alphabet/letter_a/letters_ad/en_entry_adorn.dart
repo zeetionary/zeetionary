@@ -63,7 +63,7 @@ class EnglishEntryadorn extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adorn"), // Find /əˈdɔːn/
+                            EntryTitle(word: "adorn"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadorn extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -111,16 +110,14 @@ class EnglishEntryadorn extends StatelessWidget {
                                 "The children adorned themselves with flowers.",
                             kurdishText: "منداڵەکان خۆیان بە گوڵ ڕازاندەوە.",
                             onPressedBritish: () => speakador59631("en-GB"),
-                            onPressedAmerican: () => speakador59631(
-                                // REPLACE: adorn /əˈdɔːrn/
-                                "en-US"),
+                            onPressedAmerican: () => speakador59631("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

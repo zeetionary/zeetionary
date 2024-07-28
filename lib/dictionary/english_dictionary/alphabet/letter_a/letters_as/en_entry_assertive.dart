@@ -145,9 +145,8 @@ class EnglishEntryassertive extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryassertive extends StatelessWidget {
                                 "You should try and be more assertive.",
                             kurdishText: "دەبێت زیاتر خۆسەپێنەر بیت.",
                             onPressedBritish: () => speakassertive1059("en-GB"),
-                            onPressedAmerican: () => speakassertive1059(
-                                // REPLACE: assertive /əˈsɜːrtɪv/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassertive1059("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

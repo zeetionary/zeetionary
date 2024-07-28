@@ -142,9 +142,8 @@ class EnglishEntryanticyclone extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,8 @@ class EnglishEntryanticyclone extends StatelessWidget {
                                 "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان.",
                             onPressedBritish: () =>
                                 speakanticyclone955("en-GB"),
-                            onPressedAmerican: () => speakanticyclone955(
-                                // REPLACE: anticyclone /ˌæntiˈsaɪkləʊn/, /ˌæntaɪˈsaɪkləʊn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticyclone955("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

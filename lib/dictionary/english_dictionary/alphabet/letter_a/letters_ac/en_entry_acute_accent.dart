@@ -63,8 +63,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "acute accent"), // Find /əˌkjuːt ˈæksent/
+                            EntryTitle(word: "acute accent"),
                           ],
                         ),
                         Row(
@@ -118,7 +117,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedend(),

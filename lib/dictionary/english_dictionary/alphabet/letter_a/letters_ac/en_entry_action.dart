@@ -163,7 +163,7 @@ class EnglishEntryaction extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "action"), // Find /ˈækʃn/
+                            EntryTitle(word: "action"),
                           ],
                         ),
                         Row(
@@ -197,9 +197,8 @@ class EnglishEntryaction extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -313,7 +312,7 @@ class EnglishEntryaction extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

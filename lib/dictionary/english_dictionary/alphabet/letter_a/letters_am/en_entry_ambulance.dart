@@ -99,9 +99,8 @@ class EnglishEntryambulance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,7 @@ class EnglishEntryambulance extends StatelessWidget {
                             kurdishText:
                                 "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە.",
                             onPressedBritish: () => speakambulanc7955("en-GB"),
-                            onPressedAmerican: () => speakambulanc7955(
-                                // REPLACE: ambulance /ˈæmbjələns/
-                                "en-US"),
+                            onPressedAmerican: () => speakambulanc7955("en-US"),
                           ),
                           // const DividerSentences()
                           // const DividerDefinition()

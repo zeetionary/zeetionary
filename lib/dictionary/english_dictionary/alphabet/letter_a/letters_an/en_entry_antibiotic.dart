@@ -141,9 +141,8 @@ class EnglishEntryantibiotic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,8 @@ class EnglishEntryantibiotic extends StatelessWidget {
                                 "The doctor put her on antibiotics (= told her to take them).",
                             kurdishText: "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات.",
                             onPressedBritish: () => speakantibiotic958("en-GB"),
-                            onPressedAmerican: () => speakantibiotic958(
-                                // REPLACE: antibiotic /ˌæntibaɪˈɑːtɪk/, /ˌæntaɪbaɪˈɑːtɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantibiotic958("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -64,7 +64,7 @@ class EnglishEntryallusion extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allusion"), // Find /əˈluːʒn/
+                            EntryTitle(word: "allusion"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryallusion extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryallusion extends StatelessWidget {
                             kurdishText:
                                 "وتەکەی وابینرا کە ئاماژەیەک بێت بۆ ئەو کوشتنانەی ئەم ماوە کە پەیوەندیدار بە مادەی ھۆشبەر بوون.",
                             onPressedBritish: () => speakallusio426("en-GB"),
-                            onPressedAmerican: () => speakallusio426(
-                                // REPLACE: allusion /əˈluːʒn/
-                                "en-US"),
+                            onPressedAmerican: () => speakallusio426("en-US"),
                           ),
                         ],
                       ),

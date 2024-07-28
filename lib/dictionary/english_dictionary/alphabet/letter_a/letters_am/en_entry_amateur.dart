@@ -73,9 +73,7 @@ class EnglishEntryamateur extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amateur"), // Find /ˈæmətə(r)/, /ˈæmətʃə(r)/
+                            EntryTitle(word: "amateur"),
                           ],
                         ),
                         Row(
@@ -111,9 +109,8 @@ class EnglishEntryamateur extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -130,9 +127,7 @@ class EnglishEntryamateur extends StatelessWidget {
                             kurdishText:
                                 "تاوەک تەمەنی ٤٠ ساڵیش ھەر وێنەگرێکی ھەوەس‌کار بوو، لەوەو بەدوا بوو کە بوو بە پڕۆفیشناڵ.",
                             onPressedBritish: () => speakamateur44451("en-GB"),
-                            onPressedAmerican: () => speakamateur44451(
-                                // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
-                                "en-US"),
+                            onPressedAmerican: () => speakamateur44451("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -143,9 +138,7 @@ class EnglishEntryamateur extends StatelessWidget {
                             kurdishText:
                                 "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو.",
                             onPressedBritish: () => speakamateur47955("en-GB"),
-                            onPressedAmerican: () => speakamateur47955(
-                                // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
-                                "en-US"),
+                            onPressedAmerican: () => speakamateur47955("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -156,9 +149,7 @@ class EnglishEntryamateur extends StatelessWidget {
                             kurdishText:
                                 "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە.",
                             onPressedBritish: () => speakamateur44592("en-GB"),
-                            onPressedAmerican: () => speakamateur44592(
-                                // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
-                                "en-US"),
+                            onPressedAmerican: () => speakamateur44592("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -169,9 +160,7 @@ class EnglishEntryamateur extends StatelessWidget {
                             kurdishText:
                                 "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە!",
                             onPressedBritish: () => speakamateur49555("en-GB"),
-                            onPressedAmerican: () => speakamateur49555(
-                                // REPLACE: amateur /ˈæmətər/, /ˈæmətʃər/
-                                "en-US"),
+                            onPressedAmerican: () => speakamateur49555("en-US"),
                           ),
                         ],
                       ),

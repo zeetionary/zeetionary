@@ -140,9 +140,8 @@ class EnglishEntryantibody extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryantibody extends StatelessWidget {
                             kurdishText:
                                 "ئەو دژەتەنانەی لە شیری سرووشتیدان منداڵی ساوا دەپارێزن لە نەخۆشی.",
                             onPressedBritish: () => speakantibody1019("en-GB"),
-                            onPressedAmerican: () => speakantibody1019(
-                                // REPLACE: antibody /ˈæntibɑːdi/
-                                "en-US"),
+                            onPressedAmerican: () => speakantibody1019("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

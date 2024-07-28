@@ -63,8 +63,7 @@ class EnglishEntryalteration extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alteration"), // Find /ˌɔːltəˈreɪʃn/
+                            EntryTitle(word: "alteration"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryalteration extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +114,8 @@ class EnglishEntryalteration extends StatelessWidget {
                             kurdishText: "ھەندێک گۆڕانکاری لە خانووەکە دەکەن.",
                             onPressedBritish: () =>
                                 speakalteration4522("en-GB"),
-                            onPressedAmerican: () => speakalteration4522(
-                                // REPLACE: alteration /ˌɔːltəˈreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalteration4522("en-US"),
                           ),
                         ],
                       ),

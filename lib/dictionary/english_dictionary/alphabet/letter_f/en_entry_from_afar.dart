@@ -63,7 +63,7 @@ class EnglishEntryafar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "from afar"), // Find /əˈfɑː(r)/
+                            EntryTitle(word: "from afar"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryafar extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -131,8 +130,7 @@ class EnglishEntryafar extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakafa2569(// REPLACE: afar /əˈfɑːr/
-                                            "en-US"),
+                                        speakafa2569(        "en-US"),
                                   ),
                                 ],
                               ),

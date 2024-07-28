@@ -148,9 +148,8 @@ class EnglishEntryapplication extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -168,9 +167,8 @@ class EnglishEntryapplication extends StatelessWidget {
                                 "داخوازینامەمان لە زیاتر لە ٣٠٠٠ خوێندکارەوە پێگەشتووە.",
                             onPressedBritish: () =>
                                 speakapplication707("en-GB"),
-                            onPressedAmerican: () => speakapplication707(
-                                // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapplication707("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -181,9 +179,8 @@ class EnglishEntryapplication extends StatelessWidget {
                                 "داخوازینامەیەکیان پێشکەشی ئەنجوومەنەکە کرد بۆ درووستکردنی دوو خانوو.",
                             onPressedBritish: () =>
                                 speakapplication709("en-GB"),
-                            onPressedAmerican: () => speakapplication709(
-                                // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapplication709("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +193,8 @@ class EnglishEntryapplication extends StatelessWidget {
                                 "داھێنانەکە بەکارھێنانی کرداریی زۆری دەبێت لە پیشەسازیدا.",
                             onPressedBritish: () =>
                                 speakapplication713("en-GB"),
-                            onPressedAmerican: () => speakapplication713(
-                                // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapplication713("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -211,9 +207,8 @@ class EnglishEntryapplication extends StatelessWidget {
                                 "سێ چین بۆیەی ویست تاوەکو گرافیتییەکە داپۆشین (بسڕینەوە).",
                             onPressedBritish: () =>
                                 speakapplication716("en-GB"),
-                            onPressedAmerican: () => speakapplication716(
-                                // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapplication716("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -226,9 +221,8 @@ class EnglishEntryapplication extends StatelessWidget {
                                 "دادوەران ڕۆڵی گرنگ دەبینن لە دڵنیایی‌کردنەوەی جێبەجێکردنی توندی یاساکە.",
                             onPressedBritish: () =>
                                 speakapplication721("en-GB"),
-                            onPressedAmerican: () => speakapplication721(
-                                // REPLACE: application /ˌæplɪˈkeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapplication721("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

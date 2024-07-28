@@ -139,9 +139,8 @@ class EnglishEntryamply extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,7 @@ class EnglishEntryamply extends StatelessWidget {
                             englishText: "His efforts were amply rewarded.",
                             kurdishText: "ھەوڵەکانی بەزیادەوە بەخشیشکران.",
                             onPressedBritish: () => speakamply459("en-GB"),
-                            onPressedAmerican: () =>
-                                speakamply459(// REPLACE: amply /ˈæmpli/
-                                    "en-US"),
+                            onPressedAmerican: () => speakamply459("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

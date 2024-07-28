@@ -140,9 +140,8 @@ class EnglishEntryantenatal extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryantenatal extends StatelessWidget {
                             kurdishText:
                                 "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی.",
                             onPressedBritish: () => speakantenatal504("en-GB"),
-                            onPressedAmerican: () => speakantenatal504(
-                                // REPLACE: antenatal /ˌæntiˈneɪtl/
-                                "en-US"),
+                            onPressedAmerican: () => speakantenatal504("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

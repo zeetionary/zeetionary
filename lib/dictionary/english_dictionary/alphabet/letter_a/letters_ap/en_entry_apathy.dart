@@ -144,9 +144,8 @@ class EnglishEntryapathy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryapathy extends StatelessWidget {
                             kurdishText:
                                 "ھەڵوێستی وەھا ئەنجامەکەی تەنھا بێ‌ھەستی دەبێت.",
                             onPressedBritish: () => speakapathy1212("en-GB"),
-                            onPressedAmerican: () => speakapathy1212(
-                                // REPLACE: apathy /ˈæpəθi/
-                                "en-US"),
+                            onPressedAmerican: () => speakapathy1212("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -176,9 +173,7 @@ class EnglishEntryapathy extends StatelessWidget {
                             kurdishText:
                                 "ھەستی بێ‌دەربەستیی ڕوولەزۆری لەناو گەنجان ھەیە، و ھەستی ئەوەی ھیچ ھەلێک نییە.",
                             onPressedBritish: () => speakapathy1215("en-GB"),
-                            onPressedAmerican: () => speakapathy1215(
-                                // REPLACE: apathy /ˈæpəθi/
-                                "en-US"),
+                            onPressedAmerican: () => speakapathy1215("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

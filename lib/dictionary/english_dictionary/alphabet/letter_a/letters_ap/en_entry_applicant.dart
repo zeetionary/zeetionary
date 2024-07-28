@@ -143,9 +143,8 @@ class EnglishEntryapplicant extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryapplicant extends StatelessWidget {
                                 "There were over 500 applicants for the job.",
                             kurdishText: "زیاتر لە ٥٠٠ داواکار بۆ کارەکە ھەن.",
                             onPressedBritish: () => speakapplicant656("en-GB"),
-                            onPressedAmerican: () => speakapplicant656(
-                                // REPLACE: applicant /ˈæplɪkənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapplicant656("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

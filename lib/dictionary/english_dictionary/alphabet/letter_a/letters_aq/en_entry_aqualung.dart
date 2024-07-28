@@ -144,9 +144,8 @@ class EnglishEntryaqualung extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryaqualung extends StatelessWidget {
                             kurdishText:
                                 "وشەی 'aqualung' لێکدراوی وشەکانی 'aqua' بە واتای ئاو و 'lung' بە واتای ھەناسەدانە.",
                             onPressedBritish: () => speakaqualung836("en-GB"),
-                            onPressedAmerican: () => speakaqualung836(
-                                // REPLACE: aqualung /ˈɑːkwəlʌŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakaqualung836("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

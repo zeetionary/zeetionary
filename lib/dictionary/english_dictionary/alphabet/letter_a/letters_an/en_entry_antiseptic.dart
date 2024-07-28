@@ -142,9 +142,8 @@ class EnglishEntryantiseptic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,8 @@ class EnglishEntryantiseptic extends StatelessWidget {
                             kurdishText: "ڕووشاوییەکە بە خاوێن‌کەر بساوە.",
                             onPressedBritish: () =>
                                 speakantiseptic1218("en-GB"),
-                            onPressedAmerican: () => speakantiseptic1218(
-                                // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiseptic1218("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,9 +171,8 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە.",
                             onPressedBritish: () =>
                                 speakantiseptic1221("en-GB"),
-                            onPressedAmerican: () => speakantiseptic1221(
-                                // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiseptic1221("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +185,8 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی.",
                             onPressedBritish: () =>
                                 speakantiseptic1225("en-GB"),
-                            onPressedAmerican: () => speakantiseptic1225(
-                                // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiseptic1225("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,9 +198,8 @@ class EnglishEntryantiseptic extends StatelessWidget {
                             kurdishText: "برینەکە بە پارچەیەکی زۆرپاک ببەستە.",
                             onPressedBritish: () =>
                                 speakantiseptic1228("en-GB"),
-                            onPressedAmerican: () => speakantiseptic1228(
-                                // REPLACE: antiseptic /ˌæntiˈseptɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiseptic1228("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

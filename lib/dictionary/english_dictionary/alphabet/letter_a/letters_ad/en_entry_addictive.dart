@@ -63,7 +63,7 @@ class EnglishEntryaddictive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "addictive"), // Find /əˈdɪktɪv/
+                            EntryTitle(word: "addictive"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaddictive extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,7 @@ class EnglishEntryaddictive extends StatelessWidget {
                             englishText: "The game is very addictive.",
                             kurdishText: "یارییەکە زۆر ئاڵوودەکەرە.",
                             onPressedBritish: () => speakaddic427("en-GB"),
-                            onPressedAmerican: () => speakaddic427(
-                                // REPLACE: addictive /əˈdɪktɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddic427("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -128,16 +125,14 @@ class EnglishEntryaddictive extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن.",
                             onPressedBritish: () => speakaddict241("en-GB"),
-                            onPressedAmerican: () => speakaddict241(
-                                // REPLACE: addictive /əˈdɪktɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddict241("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

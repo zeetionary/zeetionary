@@ -145,9 +145,8 @@ class EnglishEntryarise extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryarise extends StatelessWidget {
                             kurdishText:
                                 "ھەلێک ھاتەپێشەوە بۆ کارکردن لە ئەمریکا.",
                             onPressedBritish: () => speakarise1141("en-GB"),
-                            onPressedAmerican: () => speakarise1141(
-                                // REPLACE: arise /əˈraɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakarise1141("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -176,9 +173,7 @@ class EnglishEntryarise extends StatelessWidget {
                             kurdishText:
                                 "کێشەیەکی گەورە دەکرێت درووست‌ببێت ئەگەر دڵ لە لێدان بکەوێت.",
                             onPressedBritish: () => speakarise1144("en-GB"),
-                            onPressedAmerican: () => speakarise1144(
-                                // REPLACE: arise /əˈraɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakarise1144("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +185,7 @@ class EnglishEntryarise extends StatelessWidget {
                             kurdishText:
                                 "توندوتیژی زۆرجار لە ئەنجامی تووڕەیی ڕوودەدات.",
                             onPressedBritish: () => speakarise1145("en-GB"),
-                            onPressedAmerican: () => speakarise1145(
-                                // REPLACE: arise /əˈraɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakarise1145("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +197,7 @@ class EnglishEntryarise extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەک کارگەی تازە درووست‌بوون لە شارەکە.",
                             onPressedBritish: () => speakarise1147("en-GB"),
-                            onPressedAmerican: () => speakarise1147(
-                                // REPLACE: arise /əˈraɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakarise1147("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -216,9 +207,7 @@ class EnglishEntryarise extends StatelessWidget {
                             englishText: "He arose at dawn.",
                             kurdishText: "لە بەرەبەیاندا ھەستا.",
                             onPressedBritish: () => speakarise1149("en-GB"),
-                            onPressedAmerican: () => speakarise1149(
-                                // REPLACE: arise /əˈraɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakarise1149("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

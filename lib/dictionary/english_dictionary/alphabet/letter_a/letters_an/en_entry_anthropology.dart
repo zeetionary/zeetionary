@@ -141,9 +141,8 @@ class EnglishEntryanthropology extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,8 @@ class EnglishEntryanthropology extends StatelessWidget {
                                 "مرۆڤ‌ناسیی کۆمەڵایەتی بەوردی لێکۆڵینەوە دەکات لە پەیوەندیی خێزانی.",
                             onPressedBritish: () =>
                                 speakanthropology845("en-GB"),
-                            onPressedAmerican: () => speakanthropology845(
-                                // REPLACE: anthropology /ˌænθrəˈpɑːlədʒi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanthropology845("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

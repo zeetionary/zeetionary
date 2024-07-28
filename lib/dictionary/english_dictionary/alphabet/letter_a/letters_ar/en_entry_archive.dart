@@ -143,9 +143,8 @@ class EnglishEntryarchive extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryarchive extends StatelessWidget {
                                 "The BBC's archives are bulging with material.",
                             kurdishText: "ئەرشیفی بی‌بی‌سی پڕە لە زانیاری.",
                             onPressedBritish: () => speakarchive1050("en-GB"),
-                            onPressedAmerican: () => speakarchive1050(
-                                // REPLACE: archive /ˈɑːrkaɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakarchive1050("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

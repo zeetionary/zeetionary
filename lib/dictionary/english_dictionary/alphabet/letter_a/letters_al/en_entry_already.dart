@@ -97,7 +97,7 @@ class EnglishEntryalready extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "already"), // Find /ɔːlˈredi/
+                            EntryTitle(word: "already"),
                           ],
                         ),
                         Row(
@@ -131,9 +131,8 @@ class EnglishEntryalready extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -149,9 +148,7 @@ class EnglishEntryalready extends StatelessWidget {
                             kurdishText:
                                 "زوو گەشتینە ئەوێ، بەڵام مایک لەمێژبوو ڕۆشتبوو.",
                             onPressedBritish: () => speakalready125("en-GB"),
-                            onPressedAmerican: () => speakalready125(
-                                // REPLACE: already /ɔːlˈredi/
-                                "en-US"),
+                            onPressedAmerican: () => speakalready125("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -160,9 +157,7 @@ class EnglishEntryalready extends StatelessWidget {
                             englishText: "You're not leaving already, are you?",
                             kurdishText: "ھەروا زوو ناڕۆن، وایە؟",
                             onPressedBritish: () => speakalready4598("en-GB"),
-                            onPressedAmerican: () => speakalready4598(
-                                // REPLACE: already /ɔːlˈredi/
-                                "en-US"),
+                            onPressedAmerican: () => speakalready4598("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -173,9 +168,7 @@ class EnglishEntryalready extends StatelessWidget {
                             kurdishText:
                                 "کۆمپانیا تازەکە بەری نھا ناوودەنگێکی نایابی ھەیە.",
                             onPressedBritish: () => speakalready4855("en-GB"),
-                            onPressedAmerican: () => speakalready4855(
-                                // REPLACE: already /ɔːlˈredi/
-                                "en-US"),
+                            onPressedAmerican: () => speakalready4855("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -186,9 +179,7 @@ class EnglishEntryalready extends StatelessWidget {
                             kurdishText:
                                 "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت.",
                             onPressedBritish: () => speakalready54589("en-GB"),
-                            onPressedAmerican: () => speakalready54589(
-                                // REPLACE: already /ɔːlˈredi/
-                                "en-US"),
+                            onPressedAmerican: () => speakalready54589("en-US"),
                           ),
                         ],
                       ),

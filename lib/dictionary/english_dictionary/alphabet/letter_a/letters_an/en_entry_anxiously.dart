@@ -141,9 +141,8 @@ class EnglishEntryanxiously extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                             kurdishText:
                                 "بە نیگەرانییەوە لەلای تەلەفۆنەکە چاوەڕێ‌بووین.",
                             onPressedBritish: () => speakanxiously751("en-GB"),
-                            onPressedAmerican: () => speakanxiously751(
-                                // REPLACE: anxiously /ˈæŋkʃəsli/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxiously751("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -63,7 +63,7 @@ class EnglishEntryairworthy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airworthy"), // Find /ˈeəwɜːði/
+                            EntryTitle(word: "airworthy"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryairworthy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,8 @@ class EnglishEntryairworthy extends StatelessWidget {
                             englishText: "The planes were certified airworthy.",
                             kurdishText: "فڕۆکەکان بە گونجاو بۆ فڕین دانران.",
                             onPressedBritish: () => speakairworthy4277("en-GB"),
-                            onPressedAmerican: () => speakairworthy4277(
-                                // REPLACE: airworthy /ˈerwɜːrði/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairworthy4277("en-US"),
                           ),
                         ],
                       ),

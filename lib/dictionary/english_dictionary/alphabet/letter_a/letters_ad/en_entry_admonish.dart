@@ -63,7 +63,7 @@ class EnglishEntryadmonish extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "admonish"), // Find /ədˈmɒnɪʃ/
+                            EntryTitle(word: "admonish"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadmonish extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -111,16 +110,14 @@ class EnglishEntryadmonish extends StatelessWidget {
                                 "She was admonished for chewing gum in class.",
                             kurdishText: "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا.",
                             onPressedBritish: () => speakadmon2568("en-GB"),
-                            onPressedAmerican: () => speakadmon2568(
-                                // REPLACE: admonish /ədˈmɒnɪʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmon2568("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -63,8 +63,7 @@ class EnglishEntryadventurous extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adventurous"), // Find /ədˈventʃərəs/
+                            EntryTitle(word: "adventurous"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryadventurous extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -111,9 +109,7 @@ class EnglishEntryadventurous extends StatelessWidget {
                             englishText: "She led an adventurous life.",
                             kurdishText: "ژیانێکی سەرکێشیانەی ھەبوو.",
                             onPressedBritish: () => speakadven489223("en-GB"),
-                            onPressedAmerican: () => speakadven489223(
-                                // REPLACE: adventurous /ədˈventʃərəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakadven489223("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -122,16 +118,14 @@ class EnglishEntryadventurous extends StatelessWidget {
                             kurdishText:
                                 "زۆر مامۆستا پێیان باشە تازەگەری بکەن.",
                             onPressedBritish: () => speakadven365("en-GB"),
-                            onPressedAmerican: () => speakadven365(
-                                // REPLACE: adventurous /ədˈventʃərəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakadven365("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

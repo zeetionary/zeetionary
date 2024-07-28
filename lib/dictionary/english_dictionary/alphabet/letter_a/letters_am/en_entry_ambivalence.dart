@@ -64,8 +64,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "ambivalence"), // Find /æmˈbɪvələns/
+                            EntryTitle(word: "ambivalence"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryambivalence extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +116,8 @@ class EnglishEntryambivalence extends StatelessWidget {
                                 "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن.",
                             onPressedBritish: () =>
                                 speakambivalence444722("en-GB"),
-                            onPressedAmerican: () => speakambivalence444722(
-                                // REPLACE: ambivalence /æmˈbɪvələns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakambivalence444722("en-US"),
                           ),
                         ],
                       ),

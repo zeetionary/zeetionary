@@ -143,9 +143,8 @@ class EnglishEntryaromatic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryaromatic extends StatelessWidget {
                             englishText: "The plant is strongly aromatic.",
                             kurdishText: "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە.",
                             onPressedBritish: () => speakaromatic857("en-GB"),
-                            onPressedAmerican: () => speakaromatic857(
-                                // REPLACE: aromatic /ˌærəˈmætɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakaromatic857("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

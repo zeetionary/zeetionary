@@ -63,7 +63,7 @@ class EnglishEntryalcove extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alcove"), // Find /ˈælkəʊv/
+                            EntryTitle(word: "alcove"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryalcove extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryalcove extends StatelessWidget {
                             kurdishText:
                                 "جێ‌کتێبەکە بە تەواوی لە تاقەکە جێیدەبێتەوە.",
                             onPressedBritish: () => speakalcove3477("en-GB"),
-                            onPressedAmerican: () => speakalcove3477(
-                                // REPLACE: alcove /ˈælkəʊv/
-                                "en-US"),
+                            onPressedAmerican: () => speakalcove3477("en-US"),
                           ),
                         ],
                       ),

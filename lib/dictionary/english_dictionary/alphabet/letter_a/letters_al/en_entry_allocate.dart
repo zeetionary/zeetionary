@@ -64,7 +64,7 @@ class EnglishEntryallocate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allocate"), // Find /ˈæləkeɪt/
+                            EntryTitle(word: "allocate"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryallocate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryallocate extends StatelessWidget {
                             kurdishText:
                                 "گوژمەیەکی زۆر تەرخانکراوە بۆ کڕینی پەرتووک بۆ پەرتوکخانەکە.",
                             onPressedBritish: () => speakallocate4528("en-GB"),
-                            onPressedAmerican: () => speakallocate4528(
-                                // REPLACE: allocate /ˈæləkeɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallocate4528("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -124,9 +121,7 @@ class EnglishEntryallocate extends StatelessWidget {
                             kurdishText:
                                 "دەبێت پارەی زیاتر تەرخان بکرێت بۆ سوککردنی وشکەساڵییەکە.",
                             onPressedBritish: () => speakallocate412("en-GB"),
-                            onPressedAmerican: () => speakallocate412(
-                                // REPLACE: allocate /ˈæləkeɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallocate412("en-US"),
                           ),
                         ],
                       ),

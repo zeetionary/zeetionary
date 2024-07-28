@@ -64,7 +64,7 @@ class EnglishEntryadmissible extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "admissible"), // Find /ədˈmɪsəbl/
+                            EntryTitle(word: "admissible"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadmissible extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +117,14 @@ class EnglishEntryadmissible extends StatelessWidget {
                             kurdishText:
                                 "وێنە جێیباوەڕە ئەگەر بسەلمێندرێت کە ڕاستین.",
                             onPressedBritish: () => speakadmis25374("en-GB"),
-                            onPressedAmerican: () => speakadmis25374(
-                                // REPLACE: admissible /ədˈmɪsəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmis25374("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

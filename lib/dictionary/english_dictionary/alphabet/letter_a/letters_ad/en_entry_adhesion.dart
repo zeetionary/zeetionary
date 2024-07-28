@@ -63,7 +63,7 @@ class EnglishEntryadhesion extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adhesion"), // Find /ədˈhiː.ʒən/
+                            EntryTitle(word: "adhesion"),
                           ],
                         ),
                         Row(
@@ -113,7 +113,7 @@ class EnglishEntryadhesion extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         // YoutubeEmbeddedfour(),

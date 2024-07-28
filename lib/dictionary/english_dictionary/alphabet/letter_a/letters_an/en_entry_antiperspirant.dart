@@ -145,9 +145,8 @@ class EnglishEntryantiperspirant extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                 "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت.",
                             onPressedBritish: () =>
                                 speakantiperspirant1117("en-GB"),
-                            onPressedAmerican: () => speakantiperspirant1117(
-                                // REPLACE: antiperspirant /ˌæntiˈpɜːrspərənt/, /ˌæntaɪˈpɜːrspərənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiperspirant1117("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

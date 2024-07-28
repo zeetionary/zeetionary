@@ -96,7 +96,7 @@ class EnglishEntryalone extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alone"), // Find /əˈləʊn/
+                            EntryTitle(word: "alone"),
                           ],
                         ),
                         Row(
@@ -130,9 +130,8 @@ class EnglishEntryalone extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -148,9 +147,7 @@ class EnglishEntryalone extends StatelessWidget {
                                 "She was sitting all alone in the hall.",
                             kurdishText: "بە تەنھا لە ھۆڵەکە دانیشتبوو.",
                             onPressedBritish: () => speakalone1255("en-GB"),
-                            onPressedAmerican: () => speakalone1255(
-                                // REPLACE: alone /əˈləʊn/
-                                "en-US"),
+                            onPressedAmerican: () => speakalone1255("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -158,9 +155,7 @@ class EnglishEntryalone extends StatelessWidget {
                                 "I don't like going out alone at night.",
                             kurdishText: "حەزناکەم شەوانە بە تەنھا دەربچم.",
                             onPressedBritish: () => speakalone4692("en-GB"),
-                            onPressedAmerican: () => speakalone4692(
-                                // REPLACE: alone /əˈləʊn/
-                                "en-US"),
+                            onPressedAmerican: () => speakalone4692("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -170,9 +165,7 @@ class EnglishEntryalone extends StatelessWidget {
                                 "The assassin said he had acted alone.",
                             kurdishText: "بکوژەکە گوتی ھەر خۆی بووە.",
                             onPressedBritish: () => speakalone4598("en-GB"),
-                            onPressedAmerican: () => speakalone4598(
-                                // REPLACE: alone /əˈləʊn/
-                                "en-US"),
+                            onPressedAmerican: () => speakalone4598("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -182,9 +175,7 @@ class EnglishEntryalone extends StatelessWidget {
                             kurdishText:
                                 "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا.",
                             onPressedBritish: () => speakalone9652("en-GB"),
-                            onPressedAmerican: () => speakalone9652(
-                                // REPLACE: alone /əˈləʊn/
-                                "en-US"),
+                            onPressedAmerican: () => speakalone9652("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -195,9 +186,7 @@ class EnglishEntryalone extends StatelessWidget {
                             kurdishText:
                                 "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا.",
                             onPressedBritish: () => speakalone7451("en-GB"),
-                            onPressedAmerican: () => speakalone7451(
-                                // REPLACE: alone /əˈləʊn/
-                                "en-US"),
+                            onPressedAmerican: () => speakalone7451("en-US"),
                           ),
                         ],
                       ),

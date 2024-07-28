@@ -71,7 +71,7 @@ class EnglishEntryadjust extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adjust"), // Find /əˈdʒʌst/
+                            EntryTitle(word: "adjust"),
                           ],
                         ),
                         Row(
@@ -105,9 +105,8 @@ class EnglishEntryadjust extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,18 +118,14 @@ class EnglishEntryadjust extends StatelessWidget {
                                 "This button is for adjusting the volume.",
                             kurdishText: "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە.",
                             onPressedBritish: () => speakadj459("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadj459(// REPLACE: adjust /əˈdʒʌst/
-                                    "en-US"),
+                            onPressedAmerican: () => speakadj459("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "The brakes need to be adjusted.",
                             kurdishText: "وەستێنەرەکان دەبێت ڕێکبخرێن.",
                             onPressedBritish: () => speakadj7596("en-GB"),
-                            onPressedAmerican: () => speakadj7596(
-                                // REPLACE: adjust /əˈdʒʌst/
-                                "en-US"),
+                            onPressedAmerican: () => speakadj7596("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -141,9 +136,7 @@ class EnglishEntryadjust extends StatelessWidget {
                             kurdishText:
                                 "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان.",
                             onPressedBritish: () => speakadj4589("en-GB"),
-                            onPressedAmerican: () => speakadj4589(
-                                // REPLACE: adjust /əˈdʒʌst/
-                                "en-US"),
+                            onPressedAmerican: () => speakadj4589("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -153,16 +146,14 @@ class EnglishEntryadjust extends StatelessWidget {
                                 "He smoothed his hair and adjusted his tie.",
                             kurdishText: "قژی سافکرد و بۆینباخەکەی ڕێکخست.",
                             onPressedBritish: () => speakadj8542("en-GB"),
-                            onPressedAmerican: () => speakadj8542(
-                                // REPLACE: adjust /əˈdʒʌst/
-                                "en-US"),
+                            onPressedAmerican: () => speakadj8542("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

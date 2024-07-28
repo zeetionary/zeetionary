@@ -72,7 +72,7 @@ class EnglishEntryafford extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "afford"), // Find /əˈfɔːd/
+                            EntryTitle(word: "afford"),
                           ],
                         ),
                         Row(
@@ -106,9 +106,8 @@ class EnglishEntryafford extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -121,9 +120,7 @@ class EnglishEntryafford extends StatelessWidget {
                             kurdishText:
                                 "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو.",
                             onPressedBritish: () => speakaffor458("en-GB"),
-                            onPressedAmerican: () => speakaffor458(
-                                // REPLACE: afford /əˈfɔːrd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffor458("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -131,9 +128,7 @@ class EnglishEntryafford extends StatelessWidget {
                                 "They couldn't afford to buy a house there.",
                             kurdishText: "نەیاندەتوانی خانوویەک لەوێ بکڕن.",
                             onPressedBritish: () => speakaff6665("en-GB"),
-                            onPressedAmerican: () => speakaff6665(
-                                // REPLACE: afford /əˈfɔːrd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaff6665("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -143,9 +138,7 @@ class EnglishEntryafford extends StatelessWidget {
                                 "We cannot afford to ignore this warning.",
                             kurdishText: "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین.",
                             onPressedBritish: () => speakaff4511("en-GB"),
-                            onPressedAmerican: () => speakaff4511(
-                                // REPLACE: afford /əˈfɔːrd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaff4511("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -155,16 +148,14 @@ class EnglishEntryafford extends StatelessWidget {
                                 "The tree affords some shelter from the sun.",
                             kurdishText: "دارەکە ھەندێک سێبەر دەبەخشێت.",
                             onPressedBritish: () => speakaf44922("en-GB"),
-                            onPressedAmerican: () => speakaf44922(
-                                // REPLACE: afford /əˈfɔːrd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaf44922("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

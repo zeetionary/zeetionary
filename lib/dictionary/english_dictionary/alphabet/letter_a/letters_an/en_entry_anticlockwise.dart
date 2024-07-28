@@ -143,9 +143,8 @@ class EnglishEntryanticlockwise extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                 "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»",
                             onPressedBritish: () =>
                                 speakanticlockwise856("en-GB"),
-                            onPressedAmerican: () => speakanticlockwise856(
-                                // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticlockwise856("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
@@ -172,9 +170,8 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                 "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر.",
                             onPressedBritish: () =>
                                 speakanticlockwise859("en-GB"),
-                            onPressedAmerican: () => speakanticlockwise859(
-                                // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/, /ˌæntaɪˈklɑːkwaɪz/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticlockwise859("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

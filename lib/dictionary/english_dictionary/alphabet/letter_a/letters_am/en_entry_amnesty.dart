@@ -165,9 +165,8 @@ class EnglishEntryamnesty extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -185,9 +184,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                             kurdishText:
                                 "سەرۆک لێبووردنی گشتی بۆ ھەموو زیندانیانی سیاسی دەرکرد.",
                             onPressedBritish: () => speakamnesty4117("en-GB"),
-                            onPressedAmerican: () => speakamnesty4117(
-                                // REPLACE: amnesty /ˈæmnəsti/
-                                "en-US"),
+                            onPressedAmerican: () => speakamnesty4117("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -198,9 +195,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                             kurdishText:
                                 "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە.",
                             onPressedBritish: () => speakamnesty4699("en-GB"),
-                            onPressedAmerican: () => speakamnesty4699(
-                                // REPLACE: amnesty /ˈæmnəsti/
-                                "en-US"),
+                            onPressedAmerican: () => speakamnesty4699("en-US"),
                           ),
                         ],
                       ),

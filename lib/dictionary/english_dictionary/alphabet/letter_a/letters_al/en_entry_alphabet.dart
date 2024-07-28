@@ -63,7 +63,7 @@ class EnglishEntryalphabet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alphabet"), // Find /ˈælfəbet/
+                            EntryTitle(word: "alphabet"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryalphabet extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryalphabet extends StatelessWidget {
                                 "Alpha is the first letter of the Greek alphabet.",
                             kurdishText: "ئەلفا یەکەم پیتی ئەلفوبێی یۆنانییە.",
                             onPressedBritish: () => speakalphabet4721("en-GB"),
-                            onPressedAmerican: () => speakalphabet4721(
-                                // REPLACE: alphabet /ˈælfəbet/
-                                "en-US"),
+                            onPressedAmerican: () => speakalphabet4721("en-US"),
                           ),
                         ],
                       ),

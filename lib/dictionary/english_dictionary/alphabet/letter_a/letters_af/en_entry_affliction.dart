@@ -63,7 +63,7 @@ class EnglishEntryaffliction extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affliction"), // Find /əˈflɪkʃn/
+                            EntryTitle(word: "affliction"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaffliction extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,14 @@ class EnglishEntryaffliction extends StatelessWidget {
                                 "These poor people are in great affliction.",
                             kurdishText: "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن.",
                             onPressedBritish: () => speakafflict9644("en-GB"),
-                            onPressedAmerican: () => speakafflict9644(
-                                // REPLACE: affliction /əˈflɪkʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakafflict9644("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

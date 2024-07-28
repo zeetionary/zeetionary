@@ -145,9 +145,8 @@ class EnglishEntryASCII extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryASCII extends StatelessWidget {
                             englishText: "Save the text as an ASCII file.",
                             kurdishText: "نووسراوەکە بە فایلێکی ئاسکی باربکە.",
                             onPressedBritish: () => speakascii130("en-GB"),
-                            onPressedAmerican: () =>
-                                speakascii130(// REPLACE: ASCII /ˈæski/
-                                    "en-US"),
+                            onPressedAmerican: () => speakascii130("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

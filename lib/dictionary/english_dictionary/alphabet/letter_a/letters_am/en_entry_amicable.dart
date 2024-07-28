@@ -163,9 +163,8 @@ class EnglishEntryamicable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -180,9 +179,7 @@ class EnglishEntryamicable extends StatelessWidget {
                             englishText: "An amicable settlement was reached.",
                             kurdishText: "ڕێککەوتنێکی بێ‌مشتومڕ بەدەستھێنرا.",
                             onPressedBritish: () => speakamicable4477("en-GB"),
-                            onPressedAmerican: () => speakamicable4477(
-                                // REPLACE: amicable /ˈæmɪkəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakamicable4477("en-US"),
                           ),
                         ],
                       ),

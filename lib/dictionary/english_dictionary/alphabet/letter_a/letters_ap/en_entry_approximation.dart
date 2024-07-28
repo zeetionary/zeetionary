@@ -147,9 +147,8 @@ class EnglishEntryapproximation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,8 @@ class EnglishEntryapproximation extends StatelessWidget {
                                 "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس.",
                             onPressedBritish: () =>
                                 speakapproximation1020("en-GB"),
-                            onPressedAmerican: () => speakapproximation1020(
-                                // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapproximation1020("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -180,9 +178,8 @@ class EnglishEntryapproximation extends StatelessWidget {
                                 "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین.",
                             onPressedBritish: () =>
                                 speakapproximation1021("en-GB"),
-                            onPressedAmerican: () => speakapproximation1021(
-                                // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapproximation1021("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +192,8 @@ class EnglishEntryapproximation extends StatelessWidget {
                                 "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت.",
                             onPressedBritish: () =>
                                 speakapproximation1026("en-GB"),
-                            onPressedAmerican: () => speakapproximation1026(
-                                // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapproximation1026("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

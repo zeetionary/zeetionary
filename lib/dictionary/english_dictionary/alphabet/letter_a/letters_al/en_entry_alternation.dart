@@ -64,8 +64,7 @@ class EnglishEntryalternation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alternation"), // Find /ˌɔːltəˈneɪʃn/
+                            EntryTitle(word: "alternation"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryalternation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +116,8 @@ class EnglishEntryalternation extends StatelessWidget {
                                 "نۆرەکاری خۆرەتاو و بەفربارین بەردەوام بوو تا کۆتایی ھەفتەکە.",
                             onPressedBritish: () =>
                                 speakalternation4577("en-GB"),
-                            onPressedAmerican: () => speakalternation4577(
-                                // REPLACE: alternation /ˌɔːltərˈneɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternation4577("en-US"),
                           ),
                         ],
                       ),

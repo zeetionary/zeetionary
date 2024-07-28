@@ -115,9 +115,7 @@ class EnglishEntryassociation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "association"), // Find /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
+                            EntryTitle(word: "association"),
                             // divvviiider
                           ],
                         ),
@@ -154,9 +152,8 @@ class EnglishEntryassociation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -174,9 +171,8 @@ class EnglishEntryassociation extends StatelessWidget {
                                 "ڕێکخراوی تەندرووستیی بەریتانی ھەوڵ دەدات بۆ قەدەغەی تەواوەتیی ڕیکلام بۆ تۆباکۆ.",
                             onPressedBritish: () =>
                                 speakassociation1201("en-GB"),
-                            onPressedAmerican: () => speakassociation1201(
-                                // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociation1201("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +185,8 @@ class EnglishEntryassociation extends StatelessWidget {
                                 "ھەماھەنگی نزیکیان لەگەڵ کۆلێژێکی ئەمریکی ھێشتووەتەوە.",
                             onPressedBritish: () =>
                                 speakassociation1205("en-GB"),
-                            onPressedAmerican: () => speakassociation1205(
-                                // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociation1205("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +199,8 @@ class EnglishEntryassociation extends StatelessWidget {
                                 "دەبێت منداڵەکە فێربکەیت گرێیەک درووست بکات لەنێوان ڕەفتاری باش و پاداشت.",
                             onPressedBritish: () =>
                                 speakassociation1209("en-GB"),
-                            onPressedAmerican: () => speakassociation1209(
-                                // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociation1209("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -219,9 +213,8 @@ class EnglishEntryassociation extends StatelessWidget {
                                 "توێژینەوە پەیوەندی نێوان خواردن و ژمارەیەک نەخۆشی پیشاندا.",
                             onPressedBritish: () =>
                                 speakassociation1212("en-GB"),
-                            onPressedAmerican: () => speakassociation1212(
-                                // REPLACE: association /əˌsəʊsiˈeɪʃn/, /əˌsəʊʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociation1212("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

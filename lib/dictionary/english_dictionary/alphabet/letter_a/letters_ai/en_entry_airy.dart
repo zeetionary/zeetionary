@@ -64,7 +64,7 @@ class EnglishEntryairy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airy"), // Find /ˈeəri/
+                            EntryTitle(word: "airy"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryairy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,8 +116,7 @@ class EnglishEntryairy extends StatelessWidget {
                             kurdishText: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو.",
                             onPressedBritish: () => speakairy7352("en-GB"),
                             onPressedAmerican: () =>
-                                speakairy7352(// REPLACE: airy /ˈeri/
-                                    "en-US"),
+                                speakairy7352("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,8 +127,7 @@ class EnglishEntryairy extends StatelessWidget {
                                 "ماڵئاوایی لێ‌کرد بە دەستڕاوەشاندنێکی سادە.",
                             onPressedBritish: () => speakairy748("en-GB"),
                             onPressedAmerican: () =>
-                                speakairy748(// REPLACE: airy /ˈeri/
-                                    "en-US"),
+                                speakairy748("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -142,8 +139,7 @@ class EnglishEntryairy extends StatelessWidget {
                                 "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری.",
                             onPressedBritish: () => speakairy4255("en-GB"),
                             onPressedAmerican: () =>
-                                speakairy4255(// REPLACE: airy /ˈeri/
-                                    "en-US"),
+                                speakairy4255("en-US"),
                           ),
                         ],
                       ),

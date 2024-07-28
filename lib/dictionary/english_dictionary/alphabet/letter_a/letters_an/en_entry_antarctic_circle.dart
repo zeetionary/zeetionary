@@ -142,9 +142,8 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                                 "پەنگوینەکان نزیک لە سووڕگەی ئەنتارکتیک دەژین کە زۆر ساردە.",
                             onPressedBritish: () =>
                                 speakantarcticcircle156("en-GB"),
-                            onPressedAmerican: () => speakantarcticcircle156(
-                                // REPLACE: Antarctic Circle /ði ænˌtɑːrktɪk ˈsɜːekl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantarcticcircle156("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

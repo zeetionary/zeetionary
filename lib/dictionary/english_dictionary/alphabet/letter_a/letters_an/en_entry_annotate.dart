@@ -138,9 +138,8 @@ class EnglishEntryannotate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -152,9 +151,7 @@ class EnglishEntryannotate extends StatelessWidget {
                                 "The text was annotated with her own comments.",
                             kurdishText: "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی.",
                             onPressedBritish: () => speakannotate158("en-GB"),
-                            onPressedAmerican: () => speakannotate158(
-                                // REPLACE: annotate /ˈænəteɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakannotate158("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

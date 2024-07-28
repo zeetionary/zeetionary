@@ -111,9 +111,7 @@ class EnglishEntryarbitrary extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arbitrary"), // Find /ˈɑːbɪtrəri/, /ˈɑːbɪtri/
+                            EntryTitle(word: "arbitrary"),
                             // divvviiider
                           ],
                         ),
@@ -149,9 +147,8 @@ class EnglishEntryarbitrary extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -168,9 +165,8 @@ class EnglishEntryarbitrary extends StatelessWidget {
                             kurdishText:
                                 "بڕیاری پێش‌بینی‌نەکراو و خۆحەزی دەدا.",
                             onPressedBritish: () => speakarbitrary1119("en-GB"),
-                            onPressedAmerican: () => speakarbitrary1119(
-                                // REPLACE: arbitrary /ˈɑːrbɪtreri/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarbitrary1119("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -180,9 +176,8 @@ class EnglishEntryarbitrary extends StatelessWidget {
                             kurdishText:
                                 "ھەڵبژاردنی یاریزانەکان بۆ تیمەکە بە تەواوی ھەڕەمەکی دیاربوو.",
                             onPressedBritish: () => speakarbitrary1120("en-GB"),
-                            onPressedAmerican: () => speakarbitrary1120(
-                                // REPLACE: arbitrary /ˈɑːrbɪtreri/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarbitrary1120("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +189,8 @@ class EnglishEntryarbitrary extends StatelessWidget {
                             kurdishText:
                                 "خەڵکی دژی بەکارھێنانی دەسەڵاتی زۆردارانەی دەسەڵاتداران دەوەستنەوە لە کۆمەڵگایەکی دیموکراسیدا.",
                             onPressedBritish: () => speakarbitrary1125("en-GB"),
-                            onPressedAmerican: () => speakarbitrary1125(
-                                // REPLACE: arbitrary /ˈɑːrbɪtreri/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarbitrary1125("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

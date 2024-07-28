@@ -144,9 +144,8 @@ class EnglishEntryarmada extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryarmada extends StatelessWidget {
                             kurdishText:
                                 "کەشتی‌گەلی ئیسپانیا نێردرا بۆ ھێرشکردنە سەر ئینگلتەرە لە ساڵی ١٥٨٨.",
                             onPressedBritish: () => speakarmada423("en-GB"),
-                            onPressedAmerican: () => speakarmada423(
-                                // REPLACE: armada /ɑːrˈmɑːdə/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmada423("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

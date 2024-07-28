@@ -142,9 +142,8 @@ class EnglishEntryanticipate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,8 @@ class EnglishEntryanticipate extends StatelessWidget {
                             kurdishText: "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە.",
                             onPressedBritish: () =>
                                 speakanticipate1032("en-GB"),
-                            onPressedAmerican: () => speakanticipate1032(
-                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticipate1032("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -169,9 +167,8 @@ class EnglishEntryanticipate extends StatelessWidget {
                             kurdishText: "پێشبینی ناکەم ببێتە کێشە.",
                             onPressedBritish: () =>
                                 speakanticipate1033("en-GB"),
-                            onPressedAmerican: () => speakanticipate1033(
-                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticipate1033("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +181,8 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن.",
                             onPressedBritish: () =>
                                 speakanticipate1036("en-GB"),
-                            onPressedAmerican: () => speakanticipate1036(
-                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticipate1036("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -199,9 +195,8 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین.",
                             onPressedBritish: () =>
                                 speakanticipate1038("en-GB"),
-                            onPressedAmerican: () => speakanticipate1038(
-                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticipate1038("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -214,9 +209,8 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە.",
                             onPressedBritish: () =>
                                 speakanticipate1040("en-GB"),
-                            onPressedAmerican: () => speakanticipate1040(
-                                // REPLACE: anticipate /ænˈtɪsɪpeɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanticipate1040("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

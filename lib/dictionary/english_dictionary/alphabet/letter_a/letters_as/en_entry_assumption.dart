@@ -148,9 +148,8 @@ class EnglishEntryassumption extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,8 @@ class EnglishEntryassumption extends StatelessWidget {
                             kurdishText:
                                 "دەبێت پرسیار بخەینە سەر ھەندێک لە گریمانەکانی فەلسەفەی ڕۆژئاوا.",
                             onPressedBritish: () => speakassumption903("en-GB"),
-                            onPressedAmerican: () => speakassumption903(
-                                // REPLACE: assumption /əˈsʌmpʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassumption903("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -179,9 +177,8 @@ class EnglishEntryassumption extends StatelessWidget {
                             kurdishText:
                                 "کارەکان دەکەین بە گریمانەکردنی ئەوەی ھەموو ئەوانەی بانگھێشتکراون ئامادە دەبن.",
                             onPressedBritish: () => speakassumption904("en-GB"),
-                            onPressedAmerican: () => speakassumption904(
-                                // REPLACE: assumption /əˈsʌmpʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassumption904("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +190,8 @@ class EnglishEntryassumption extends StatelessWidget {
                             kurdishText:
                                 "گرتنی دەسەڵات لەلایەن شۆڕشگێڕانەوە سوپای سەرسام کرد.",
                             onPressedBritish: () => speakassumption906("en-GB"),
-                            onPressedAmerican: () => speakassumption906(
-                                // REPLACE: assumption /əˈsʌmpʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassumption906("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

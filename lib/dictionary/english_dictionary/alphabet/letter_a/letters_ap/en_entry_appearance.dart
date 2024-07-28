@@ -148,9 +148,8 @@ class EnglishEntryappearance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -168,9 +167,8 @@ class EnglishEntryappearance extends StatelessWidget {
                                 "ھەرگیز ھێندە زۆر گرنگی بە ڕواڵەتی نەداوە.",
                             onPressedBritish: () =>
                                 speakappearance1127("en-GB"),
-                            onPressedAmerican: () => speakappearance1127(
-                                // REPLACE: appearance /əˈpɪrəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappearance1127("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -181,9 +179,8 @@ class EnglishEntryappearance extends StatelessWidget {
                                 "بڕیاردان بە ڕواڵەت دەکرێت بتخاتە ھەڵەوە.",
                             onPressedBritish: () =>
                                 speakappearance1128("en-GB"),
-                            onPressedAmerican: () => speakappearance1128(
-                                // REPLACE: appearance /əˈpɪrəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappearance1128("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +193,8 @@ class EnglishEntryappearance extends StatelessWidget {
                                 "دەرکەوتنی لەناکاوی پاسەوانێک بووە ھۆی ئەوەی پارەکە دابنێن و ھەڵبێن.",
                             onPressedBritish: () =>
                                 speakappearance1131("en-GB"),
-                            onPressedAmerican: () => speakappearance1131(
-                                // REPLACE: appearance /əˈpɪrəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappearance1131("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -211,9 +207,8 @@ class EnglishEntryappearance extends StatelessWidget {
                                 "لە سەرەتای دەرکەوتنییەوە لە سەدەی نۆزدەوە، کۆلێرا بووە بەھۆی کووشتنی ملیۆنان کەس.",
                             onPressedBritish: () =>
                                 speakappearance1132("en-GB"),
-                            onPressedAmerican: () => speakappearance1132(
-                                // REPLACE: appearance /əˈpɪrəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappearance1132("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -226,9 +221,8 @@ class EnglishEntryappearance extends StatelessWidget {
                                 "یەکەم دەرکەوتنی گۆرانیبێژەکە لە تەمەنی ھەشت ساڵی بوو.",
                             onPressedBritish: () =>
                                 speakappearance1135("en-GB"),
-                            onPressedAmerican: () => speakappearance1135(
-                                // REPLACE: appearance /əˈpɪrəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappearance1135("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -241,9 +235,8 @@ class EnglishEntryappearance extends StatelessWidget {
                                 "بڵاوبوونەوەی دەنگۆکان لەسەر ژیان تایبەتیی وەزیرەکە لە میدیادا قسەی زۆری بەدوادا ھاتووە.",
                             onPressedBritish: () =>
                                 speakappearance1145("en-GB"),
-                            onPressedAmerican: () => speakappearance1145(
-                                // REPLACE: appearance /əˈpɪrəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappearance1145("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

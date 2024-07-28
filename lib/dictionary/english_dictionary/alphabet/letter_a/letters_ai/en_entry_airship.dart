@@ -64,7 +64,7 @@ class EnglishEntryairship extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airship"), // Find /ˈeəʃɪp/
+                            EntryTitle(word: "airship"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryairship extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryairship extends StatelessWidget {
                             kurdishText:
                                 "ئەگەر پێویست بکات ھەواکەشتییەکە دەتوانێت بۆ چەندین ڕۆژ لەوێ بمێنێتەوە بۆ دووربوون لە مەترسی.",
                             onPressedBritish: () => speakairship426("en-GB"),
-                            onPressedAmerican: () => speakairship426(
-                                // REPLACE: airship /ˈerʃɪp/
-                                "en-US"),
+                            onPressedAmerican: () => speakairship426("en-US"),
                           ),
                         ],
                       ),

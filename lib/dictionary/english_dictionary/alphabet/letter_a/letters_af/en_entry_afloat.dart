@@ -80,7 +80,7 @@ class EnglishEntryafloat extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "afloat"), // Find /əˈfləʊt/
+                            EntryTitle(word: "afloat"),
                           ],
                         ),
                         Row(
@@ -114,9 +114,8 @@ class EnglishEntryafloat extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -132,9 +131,7 @@ class EnglishEntryafloat extends StatelessWidget {
                             kurdishText:
                                 "تەقەڵایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە.",
                             onPressedBritish: () => speakaflo45("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaflo45(// REPLACE: afloat /əˈfləʊt/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaflo45("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -145,16 +142,14 @@ class EnglishEntryafloat extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەکی زۆر بزنسی بچووک تەقەڵایانە ئیفلاس نەکەن.",
                             onPressedBritish: () => speakafl5988("en-GB"),
-                            onPressedAmerican: () => speakafl5988(
-                                // REPLACE: afloat /əˈfləʊt/
-                                "en-US"),
+                            onPressedAmerican: () => speakafl5988("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

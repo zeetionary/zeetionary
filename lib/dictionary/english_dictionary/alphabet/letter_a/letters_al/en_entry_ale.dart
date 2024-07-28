@@ -63,7 +63,7 @@ class EnglishEntryale extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ale"), // Find /eɪl/
+                            EntryTitle(word: "ale"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryale extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryale extends StatelessWidget {
                             englishText: "This pub specializes in fine ales.",
                             kurdishText: "ئەم باڕە شارەزایە لە ئەیڵی فرەخاس.",
                             onPressedBritish: () => speakale346("en-GB"),
-                            onPressedAmerican: () =>
-                                speakale346(// REPLACE: ale /eɪl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakale346("en-US"),
                           ),
                         ],
                       ),

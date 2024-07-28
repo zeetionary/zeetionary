@@ -143,9 +143,8 @@ class EnglishEntryapex extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryapex extends StatelessWidget {
                             englishText: "The king was at the apex of society.",
                             kurdishText: "پاشا لە لوتکەی کۆمەڵگایە.",
                             onPressedBritish: () => speakapex213("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapex213(// REPLACE: apex /ˈeɪpeks/
-                                    "en-US"),
+                            onPressedAmerican: () => speakapex213("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryapex extends StatelessWidget {
                             kurdishText:
                                 "لە تەمەنی ٣٧ ساڵی لە ترۆپکی کارکردنیدا بوو.",
                             onPressedBritish: () => speakapex215("en-GB"),
-                            onPressedAmerican: () => speakapex215(
-                                // REPLACE: apex /ˈeɪpeks/
-                                "en-US"),
+                            onPressedAmerican: () => speakapex215("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

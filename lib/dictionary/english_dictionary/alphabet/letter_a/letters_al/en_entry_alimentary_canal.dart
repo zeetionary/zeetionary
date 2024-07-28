@@ -64,9 +64,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alimentary canal"), // Find /ˌælɪmentəri kəˈnæl/
+                            EntryTitle(word: "alimentary canal"),
                           ],
                         ),
                         Row(
@@ -102,9 +100,8 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -121,9 +118,8 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                 "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم.",
                             onPressedBritish: () =>
                                 speakalimentarycanal42588("en-GB"),
-                            onPressedAmerican: () => speakalimentarycanal42588(
-                                // REPLACE: alimentary canal /ˌælɪmentəri kəˈnæl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalimentarycanal42588("en-US"),
                           ),
                         ],
                       ),

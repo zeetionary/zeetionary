@@ -146,9 +146,8 @@ class EnglishEntryasset extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryasset extends StatelessWidget {
                                 "In his job, patience is an invaluable asset.",
                             kurdishText: "لە کارەکەیدا پشوودرێژی گەوھەرێکە.",
                             onPressedBritish: () => speakasset632("en-GB"),
-                            onPressedAmerican: () =>
-                                speakasset632(// REPLACE: asset /ˈæset/
-                                    "en-US"),
+                            onPressedAmerican: () => speakasset632("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryasset extends StatelessWidget {
                             kurdishText:
                                 "ھەبوونی توانای قسەکردن بە زمانێکی بیانی نیعمەتێکە.",
                             onPressedBritish: () => speakasset633("en-GB"),
-                            onPressedAmerican: () => speakasset633(
-                                // REPLACE: asset /ˈæset/
-                                "en-US"),
+                            onPressedAmerican: () => speakasset633("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

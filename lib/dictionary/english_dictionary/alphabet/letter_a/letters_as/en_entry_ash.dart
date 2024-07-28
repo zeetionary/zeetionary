@@ -146,9 +146,8 @@ class EnglishEntryash extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryash extends StatelessWidget {
                             kurdishText:
                                 "بەوریاییەوە سووتووی جگەرەکەی وەراندە ناو تەپڵەکە.",
                             onPressedBritish: () => speakash446("en-GB"),
-                            onPressedAmerican: () =>
-                                speakash446(// REPLACE: ash /æʃ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakash446("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryash extends StatelessWidget {
                             kurdishText:
                                 "خۆڵەمێشی گڕکانەکە دابارییە سەر ناوچەیەکی فراوان.",
                             onPressedBritish: () => speakash447("en-GB"),
-                            onPressedAmerican: () =>
-                                speakash447(// REPLACE: ash /æʃ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakash447("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +185,7 @@ class EnglishEntryash extends StatelessWidget {
                                 "The town was reduced to ashes in the fighting.",
                             kurdishText: "شارۆچکەکە بوو بە وێرانە لە شەڕەکەدا.",
                             onPressedBritish: () => speakash454("en-GB"),
-                            onPressedAmerican: () =>
-                                speakash454(// REPLACE: ash /æʃ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakash454("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +197,7 @@ class EnglishEntryash extends StatelessWidget {
                             kurdishText:
                                 "دەیویست خۆڵەمێشەکەی بڕژێنرێتەوە دەریاوە.",
                             onPressedBritish: () => speakash456("en-GB"),
-                            onPressedAmerican: () =>
-                                speakash456(// REPLACE: ash /æʃ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakash456("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

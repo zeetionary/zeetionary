@@ -63,7 +63,7 @@ class EnglishEntryalacrity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alacrity"), // Find /əˈlækrəti/
+                            EntryTitle(word: "alacrity"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryalacrity extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,8 @@ class EnglishEntryalacrity extends StatelessWidget {
                             kurdishText:
                                 "ئۆفەرەکەیان بە جۆشوخرۆشییەوە پەسەندکرد.",
                             onPressedBritish: () => speakalacrity42566("en-GB"),
-                            onPressedAmerican: () => speakalacrity42566(
-                                // REPLACE: alacrity /əˈlækrəti/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalacrity42566("en-US"),
                           ),
                         ],
                       ),

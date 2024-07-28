@@ -214,9 +214,8 @@ class EnglishEntryapproach extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -232,9 +231,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "ڕێگایەکی ھەڵەی گرتە بەر بۆ مامەڵەکردن لەگەڵیان.",
                             onPressedBritish: () => speakapproach1026("en-GB"),
-                            onPressedAmerican: () => speakapproach1026(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1026("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -244,9 +241,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "ئەو ڕێگایەی بەکاریان دەھێنا چی دیکە گونجاو نەبوو.",
                             onPressedBritish: () => speakapproach1028("en-GB"),
-                            onPressedAmerican: () => speakapproach1028(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1028("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -258,9 +253,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "نیگەران‌بوون سەبارەت بە نزیکبوونەوە لە جەنگ.",
                             onPressedBritish: () => speakapproach1030("en-GB"),
-                            onPressedAmerican: () => speakapproach1030(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1030("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -270,9 +263,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکان بێ‌دەنگ بوون بە نزیکبوونەوەی مامۆستاکەیان.",
                             onPressedBritish: () => speakapproach1031("en-GB"),
-                            onPressedAmerican: () => speakapproach1031(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1031("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -284,9 +275,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "یانەکە قسەی لەگەڵ کۆمپانیایەکی ناوخۆیی کردووە بۆ ڕیکلام‌کردن.",
                             onPressedBritish: () => speakapproach1034("en-GB"),
-                            onPressedAmerican: () => speakapproach1034(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1034("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -298,9 +287,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "بەرھەڵستی نزیکبوونەوە پێ‌داگیرەکانیی کرد.",
                             onPressedBritish: () => speakapproach1038("en-GB"),
-                            onPressedAmerican: () => speakapproach1038(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1038("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -312,9 +299,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "ھەموو ڕێگاکانی گەشتن بە کۆشکەکە لەلایەن سەربازەکانەوە پاسەوانی دەکران.",
                             onPressedBritish: () => speakapproach1039("en-GB"),
-                            onPressedAmerican: () => speakapproach1039(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1039("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -326,9 +311,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "تکایە پشتێنی سەلامەتی ببەستن، فڕۆکەکە ئێستا کۆتا فڕینی ئەنجام‌دەدا بۆ فڕۆکەخانەی ھیسرۆو.",
                             onPressedBritish: () => speakapproach1044("en-GB"),
-                            onPressedAmerican: () => speakapproach1044(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1044("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -339,9 +322,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "گوێمان لە دەنگی نزیکبوونەوەی شەمەندەفەرەکە بوو.",
                             onPressedBritish: () => speakapproach1047("en-GB"),
-                            onPressedAmerican: () => speakapproach1047(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1047("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -349,9 +330,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             englishText: "Winter is approaching.",
                             kurdishText: "زستان خەریکە نزیک‌دەبێتەوە.",
                             onPressedBritish: () => speakapproach1048("en-GB"),
-                            onPressedAmerican: () => speakapproach1048(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1048("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -363,9 +342,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "حەز دەکەم بۆچوونی بخوازم، بەڵام نزیکبوونەوە لێی بە ئاسان نابینم.",
                             onPressedBritish: () => speakapproach1050("en-GB"),
-                            onPressedAmerican: () => speakapproach1050(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1050("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -376,9 +353,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "ڕێژەی سوو خەریکە نزیک لە سفر دەبێتەوە.",
                             onPressedBritish: () => speakapproach1053("en-GB"),
-                            onPressedAmerican: () => speakapproach1053(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1053("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -390,9 +365,7 @@ class EnglishEntryapproach extends StatelessWidget {
                             kurdishText:
                                 "باشترین ڕێگا چییە بۆ مامەڵەکردن لەگەڵ ئەم کێشەیە؟",
                             onPressedBritish: () => speakapproach1055("en-GB"),
-                            onPressedAmerican: () => speakapproach1055(
-                                // REPLACE: approach /əˈprəʊtʃ/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproach1055("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

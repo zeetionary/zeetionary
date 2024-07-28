@@ -64,7 +64,7 @@ class EnglishEntryagitate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agitate"), // Find /ˈædʒɪteɪt/
+                            EntryTitle(word: "agitate"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagitate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryagitate extends StatelessWidget {
                             kurdishText:
                                 "خێزانەکەی بە پەشێوانە ھەوڵ دەدەن بتگوێزنەوە بۆ زیندانێک لە شانشینی یەکگرتوو.",
                             onPressedBritish: () => speakagit125("en-GB"),
-                            onPressedAmerican: () => speakagit125(
-                                // REPLACE: agitate /ˈædʒɪteɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakagit125("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -125,9 +122,7 @@ class EnglishEntryagitate extends StatelessWidget {
                                 "I didn't want to agitate her by telling her.",
                             kurdishText: "نامەوێ توورەی بکەم بە پێ وتنی.",
                             onPressedBritish: () => speakagit7592("en-GB"),
-                            onPressedAmerican: () => speakagit7592(
-                                // REPLACE: agitate /ˈædʒɪteɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakagit7592("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -138,16 +133,14 @@ class EnglishEntryagitate extends StatelessWidget {
                             kurdishText:
                                 "تێکەڵەکە تێک بدە بۆ ئەوەی ئاردەڵووکەکە بتوێتەوە.",
                             onPressedBritish: () => speakagita3477("en-GB"),
-                            onPressedAmerican: () => speakagita3477(
-                                // REPLACE: agitate /ˈædʒɪteɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakagita3477("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

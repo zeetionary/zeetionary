@@ -65,7 +65,7 @@ class EnglishEntryalbatross extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "albatross"), // Find /ˈælbətrɒs/
+                            EntryTitle(word: "albatross"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryalbatross extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,8 @@ class EnglishEntryalbatross extends StatelessWidget {
                             kurdishText:
                                 "ئەلباتروس دەتوانێت بۆ چەندین ڕۆژ لەیەک کاتدا لە ئاسماندا بمێنێتەوە.",
                             onPressedBritish: () => speakalbatross4377("en-GB"),
-                            onPressedAmerican: () => speakalbatross4377(
-                                // REPLACE: albatross /ˈælbətrɑːs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalbatross4377("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -132,9 +130,8 @@ class EnglishEntryalbatross extends StatelessWidget {
                             kurdishText:
                                 "قەرزە نیشتیمانییەکان مایەی سەرێشەن بۆ سەرۆک.",
                             onPressedBritish: () => speakalbatross3622("en-GB"),
-                            onPressedAmerican: () => speakalbatross3622(
-                                // REPLACE: albatross /ˈælbətrɑːs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalbatross3622("en-US"),
                           ),
                         ],
                       ),

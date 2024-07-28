@@ -148,9 +148,8 @@ class EnglishEntryassertion extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,8 @@ class EnglishEntryassertion extends StatelessWidget {
                             kurdishText:
                                 "ڕاست بوو لە جەخت‌کردنەوە لەوەی وەزیرەکە درۆی کردبوو.",
                             onPressedBritish: () => speakassertion1045("en-GB"),
-                            onPressedAmerican: () => speakassertion1045(
-                                // REPLACE: assertion /əˈsɜːrʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassertion1045("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -179,9 +177,8 @@ class EnglishEntryassertion extends StatelessWidget {
                             kurdishText:
                                 "ھیچ بەڵگەت ھەیە وەک پشتگیری بۆ وتەکانت؟",
                             onPressedBritish: () => speakassertion1046("en-GB"),
-                            onPressedAmerican: () => speakassertion1046(
-                                // REPLACE: assertion /əˈsɜːrʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassertion1046("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +190,8 @@ class EnglishEntryassertion extends StatelessWidget {
                             kurdishText:
                                 "خۆپیشاندانەکە جەختکردنەوەیەک بوو لە مافی ناڕەزایی ھێمنانە.",
                             onPressedBritish: () => speakassertion1051("en-GB"),
-                            onPressedAmerican: () => speakassertion1051(
-                                // REPLACE: assertion /əˈsɜːrʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassertion1051("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

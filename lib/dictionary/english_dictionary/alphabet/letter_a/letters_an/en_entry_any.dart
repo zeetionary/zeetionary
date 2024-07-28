@@ -182,9 +182,8 @@ class EnglishEntryany extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -199,9 +198,7 @@ class EnglishEntryany extends StatelessWidget {
                             englishText: "I didn't eat any meat.",
                             kurdishText: "ھیچ گۆشتم نەخوارد.",
                             onPressedBritish: () => speakany812("en-GB"),
-                            onPressedAmerican: () =>
-                                speakany812(// REPLACE: any /ˈeni/
-                                    "en-US"),
+                            onPressedAmerican: () => speakany812("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -209,9 +206,7 @@ class EnglishEntryany extends StatelessWidget {
                             englishText: "You can't go out without any shoes.",
                             kurdishText: "ناتوانی بێ ھیچ پێڵاوێک بچیتە دەرەوە.",
                             onPressedBritish: () => speakany814("en-GB"),
-                            onPressedAmerican: () =>
-                                speakany814(// REPLACE: any /ˈeni/
-                                    "en-US"),
+                            onPressedAmerican: () => speakany814("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -220,9 +215,7 @@ class EnglishEntryany extends StatelessWidget {
                             kurdishText:
                                 "ھەموو جۆرە قسەکردنێک لە پۆلدا قەدەغە دەکات.",
                             onPressedBritish: () => speakany815("en-GB"),
-                            onPressedAmerican: () =>
-                                speakany815(// REPLACE: any /ˈeni/
-                                    "en-US"),
+                            onPressedAmerican: () => speakany815("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -232,9 +225,7 @@ class EnglishEntryany extends StatelessWidget {
                             englishText: "Take any book you like.",
                             kurdishText: "ھەر کتێبێکت دەوێت بیبە.",
                             onPressedBritish: () => speakany817("en-GB"),
-                            onPressedAmerican: () =>
-                                speakany817(// REPLACE: any /ˈeni/
-                                    "en-US"),
+                            onPressedAmerican: () => speakany817("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -244,9 +235,7 @@ class EnglishEntryany extends StatelessWidget {
                             kurdishText:
                                 "ھەموو مامۆستایەک پێت دەڵێت قوتابیان بەخێرایی جیاواز فێردەبن.",
                             onPressedBritish: () => speakany819("en-GB"),
-                            onPressedAmerican: () =>
-                                speakany819(// REPLACE: any /ˈeni/
-                                    "en-US"),
+                            onPressedAmerican: () => speakany819("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -258,9 +247,7 @@ class EnglishEntryany extends StatelessWidget {
                             kurdishText:
                                 "ئەمڕۆ ھەر ڕۆژێکی وا ئاسایی نییە، لەدایکبوونی منە!",
                             onPressedBritish: () => speakany821("en-GB"),
-                            onPressedAmerican: () =>
-                                speakany821(// REPLACE: any /ˈeni/
-                                    "en-US"),
+                            onPressedAmerican: () => speakany821("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -272,9 +259,7 @@ class EnglishEntryany extends StatelessWidget {
                             kurdishText:
                                 "پێویستیمان بە ھەندێکی تر بۆیەیە؛ ھیچ نەماوە.",
                             onPressedBritish: () => speakany944("en-GB"),
-                            onPressedAmerican: () =>
-                                speakany944(// REPLACE: any /ˈeni/
-                                    "en-US"),
+                            onPressedAmerican: () => speakany944("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -284,9 +269,7 @@ class EnglishEntryany extends StatelessWidget {
                             englishText: "I'll take any you don't want.",
                             kurdishText: "ئەوەیان دەبەم کە ناتەوێ.",
                             onPressedBritish: () => speakany947("en-GB"),
-                            onPressedAmerican: () =>
-                                speakany947(// REPLACE: any /ˈeni/
-                                    "en-US"),
+                            onPressedAmerican: () => speakany947("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -296,9 +279,7 @@ class EnglishEntryany extends StatelessWidget {
                             englishText: "He wasn't any good at French.",
                             kurdishText: "ھیچ لە فەرەنسی باش نەبوو.",
                             onPressedBritish: () => speakany951("en-GB"),
-                            onPressedAmerican: () =>
-                                speakany951(// REPLACE: any /ˈeni/
-                                    "en-US"),
+                            onPressedAmerican: () => speakany951("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

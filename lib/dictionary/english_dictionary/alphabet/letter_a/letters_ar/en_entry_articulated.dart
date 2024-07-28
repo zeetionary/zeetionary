@@ -147,9 +147,8 @@ class EnglishEntryarticulated extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryarticulated extends StatelessWidget {
                                 "لۆرییەکی بارھەڵگر وەرگەڕاوە لەسەر ئەو سایدەی بەرەو باشوور دەچێت و بارەکەی ڕژاوە.",
                             onPressedBritish: () =>
                                 speakarticulated801("en-GB"),
-                            onPressedAmerican: () => speakarticulated801(
-                                // REPLACE: articulated /ɑːrˈtɪkjuleɪtɪd/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulated801("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

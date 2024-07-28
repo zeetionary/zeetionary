@@ -81,7 +81,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affinity"), // Find /əˈfɪnəti/
+                            EntryTitle(word: "affinity"),
                           ],
                         ),
                         Row(
@@ -115,9 +115,8 @@ class EnglishEntryaffinity extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -135,9 +134,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                             kurdishText:
                                 "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو.",
                             onPressedBritish: () => speakaffi5699("en-GB"),
-                            onPressedAmerican: () => speakaffi5699(
-                                // REPLACE: affinity /əˈfɪnəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffi5699("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -146,9 +143,7 @@ class EnglishEntryaffinity extends StatelessWidget {
                             kurdishText:
                                 "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە.",
                             onPressedBritish: () => speakaf155("en-GB"),
-                            onPressedAmerican: () => speakaf155(
-                                // REPLACE: affinity /əˈfɪnəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakaf155("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -159,16 +154,14 @@ class EnglishEntryaffinity extends StatelessWidget {
                             kurdishText:
                                 "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی.",
                             onPressedBritish: () => speakaffinity145("en-GB"),
-                            onPressedAmerican: () => speakaffinity145(
-                                // REPLACE: affinity /əˈfɪnəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffinity145("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

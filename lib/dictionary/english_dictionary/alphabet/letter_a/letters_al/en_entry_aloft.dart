@@ -63,7 +63,7 @@ class EnglishEntryaloft extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aloft"), // Find /əˈlɒft/
+                            EntryTitle(word: "aloft"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaloft extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryaloft extends StatelessWidget {
                             englishText: "She held the glass aloft.",
                             kurdishText: "گڵاسەکەی لەحەوادا گرت.",
                             onPressedBritish: () => speakaloft4256("en-GB"),
-                            onPressedAmerican: () => speakaloft4256(
-                                // REPLACE: aloft /əˈlɔːft/
-                                "en-US"),
+                            onPressedAmerican: () => speakaloft4256("en-US"),
                           ),
                         ],
                       ),

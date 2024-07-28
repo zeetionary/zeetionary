@@ -143,9 +143,8 @@ class EnglishEntryappetizer extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryappetizer extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک زەیتوونی سەوز بەرخۆراکێکی باش دەبێت.",
                             onPressedBritish: () => speakappetizer312("en-GB"),
-                            onPressedAmerican: () => speakappetizer312(
-                                // REPLACE: appetizer /ˈæpɪtaɪzər/
-                                "en-US"),
+                            onPressedAmerican: () => speakappetizer312("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

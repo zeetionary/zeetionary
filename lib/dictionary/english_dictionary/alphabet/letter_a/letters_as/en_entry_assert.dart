@@ -148,9 +148,8 @@ class EnglishEntryassert extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,7 @@ class EnglishEntryassert extends StatelessWidget {
                             kurdishText:
                                 "بەردەوام بوو لە جەختکردنەوە لە بێ‌تاوانیی.",
                             onPressedBritish: () => speakassert1024("en-GB"),
-                            onPressedAmerican: () => speakassert1024(
-                                // REPLACE: assert /əˈsɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassert1024("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -179,9 +176,7 @@ class EnglishEntryassert extends StatelessWidget {
                             kurdishText:
                                 "ڕاوێژکاری ئەڵمانیا دوودڵ بوو لە جەختکردنەوە لە پابەندیی حکومەتەکەی بە یەکگرتوویی ئەورووپا.",
                             onPressedBritish: () => speakassert1026("en-GB"),
-                            onPressedAmerican: () => speakassert1026(
-                                // REPLACE: assert /əˈsɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassert1026("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +188,7 @@ class EnglishEntryassert extends StatelessWidget {
                             kurdishText:
                                 "زۆر شەرمن و لەرزۆکی، دەبێت زیاتر خۆت دەربخەیت.",
                             onPressedBritish: () => speakassert1030("en-GB"),
-                            onPressedAmerican: () => speakassert1030(
-                                // REPLACE: assert /əˈsɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassert1030("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -207,9 +200,7 @@ class EnglishEntryassert extends StatelessWidget {
                             kurdishText:
                                 "دەیویست سەربەخۆیی لە دایک و باوکی بسەپێنێ.",
                             onPressedBritish: () => speakassert1032("en-GB"),
-                            onPressedAmerican: () => speakassert1032(
-                                // REPLACE: assert /əˈsɜːrt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassert1032("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

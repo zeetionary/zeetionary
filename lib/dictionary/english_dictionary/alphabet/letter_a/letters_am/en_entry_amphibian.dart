@@ -141,9 +141,8 @@ class EnglishEntryamphibian extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryamphibian extends StatelessWidget {
                             kurdishText:
                                 "سەلەمەندەر و بۆق گیانەوەرە دووژینەکانی دیکە بەتایبەتی ھەستیارن بە ژینگەی ڕەنووسی ھایدرۆجینی بەرز.",
                             onPressedBritish: () => speakamphibian4410("en-GB"),
-                            onPressedAmerican: () => speakamphibian4410(
-                                // REPLACE: amphibian /æmˈfɪbiən/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamphibian4410("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -175,9 +173,8 @@ class EnglishEntryamphibian extends StatelessWidget {
                                 "فڕۆکەیەکی جووتفڕی لێدەخوڕی، کە دەیتوانی لەسەر ئاو بینیشێنێتەوە لە حاڵەتی کێشە لە بزوێنەرەکانی.",
                             onPressedBritish: () =>
                                 speakamphibian44588("en-GB"),
-                            onPressedAmerican: () => speakamphibian44588(
-                                // REPLACE: amphibian /æmˈfɪbiən/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamphibian44588("en-US"),
                           ),
                         ],
                       ),

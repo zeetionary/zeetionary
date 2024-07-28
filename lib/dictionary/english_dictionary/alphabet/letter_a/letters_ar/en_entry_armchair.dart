@@ -144,9 +144,8 @@ class EnglishEntryarmchair extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryarmchair extends StatelessWidget {
                                 "He eased himself into the big armchair.",
                             kurdishText: "ئیستراحەتی کرد لەسەر قەنەفە گەورەکە.",
                             onPressedBritish: () => speakarmchair356("en-GB"),
-                            onPressedAmerican: () => speakarmchair356(
-                                // REPLACE: armchair /ˈɑːrmtʃer/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmchair356("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +173,7 @@ class EnglishEntryarmchair extends StatelessWidget {
                             kurdishText:
                                 "لەکاتێکدا خەڵکی کەمتر بەژداری یارییەکانی تۆپێن دەکەن، ژمارەی تەماشاکاران لە ماڵەوە زیاد دەکات.",
                             onPressedBritish: () => speakarmchair400("en-GB"),
-                            onPressedAmerican: () => speakarmchair400(
-                                // REPLACE: armchair /ˈɑːrmtʃer/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmchair400("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

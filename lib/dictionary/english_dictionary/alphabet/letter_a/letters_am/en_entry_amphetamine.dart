@@ -104,9 +104,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "amphetamine"), // Find /æmˈfetəmiːn/, /æmˈfetəmɪn/
+                            EntryTitle(word: "amphetamine"),
                             // divvviiider
                           ],
                         ),
@@ -143,9 +141,8 @@ class EnglishEntryamphetamine extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +161,8 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                 "ڕێگری‌کرا لە فلۆید بەژداری لە پێشبڕکێیەکە بکات بەھۆی ئەوەی پشکنینەکە پاشماوەی وزەبەخشی لە میزەکەی ئاشکراکرد.",
                             onPressedBritish: () =>
                                 speakamphetamine450("en-GB"),
-                            onPressedAmerican: () => speakamphetamine450(
-                                // REPLACE: amphetamine /æmˈfetəmiːn/, /æmˈfetəmɪn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamphetamine450("en-US"),
                           ),
                         ],
                       ),

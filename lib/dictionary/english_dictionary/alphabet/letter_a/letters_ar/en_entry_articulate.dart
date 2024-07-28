@@ -147,9 +147,8 @@ class EnglishEntryarticulate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryarticulate extends StatelessWidget {
                             kurdishText:
                                 "بەشێوەیەکی سەیر زمان‌ڕەوان بوو بۆ منداڵێکی ١٠ ساڵان.",
                             onPressedBritish: () => speakarticulate716("en-GB"),
-                            onPressedAmerican: () => speakarticulate716(
-                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulate716("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +178,8 @@ class EnglishEntryarticulate extends StatelessWidget {
                             kurdishText:
                                 "ھەموو ئەوەی گوێمان لێ‌بوو نوزەنوزە بوو، بەبێ ھیچ قسەیەکی ڕوون.",
                             onPressedBritish: () => speakarticulate718("en-GB"),
-                            onPressedAmerican: () => speakarticulate718(
-                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulate718("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +191,8 @@ class EnglishEntryarticulate extends StatelessWidget {
                             kurdishText:
                                 "کێشەی ھەبوو لە دەربڕینی بیرۆکەکانی بەڕوونی.",
                             onPressedBritish: () => speakarticulate720("en-GB"),
-                            onPressedAmerican: () => speakarticulate720(
-                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulate720("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -205,9 +201,8 @@ class EnglishEntryarticulate extends StatelessWidget {
                                 "She cannot articulate her feelings very well.",
                             kurdishText: "ناتوانێت بەڕوونی ھەستەکانی دەرببڕێت.",
                             onPressedBritish: () => speakarticulate722("en-GB"),
-                            onPressedAmerican: () => speakarticulate722(
-                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulate722("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -219,9 +214,8 @@ class EnglishEntryarticulate extends StatelessWidget {
                             kurdishText:
                                 "زۆر سەرخۆش بوو تا بتوانێ بە ڕوونی قسەبکات.",
                             onPressedBritish: () => speakarticulate736("en-GB"),
-                            onPressedAmerican: () => speakarticulate736(
-                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulate736("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -233,9 +227,8 @@ class EnglishEntryarticulate extends StatelessWidget {
                             kurdishText:
                                 "ئەم کۆرسانە دیزاین کراون بۆ ئەوەی لەگەڵ بڕوانامەی زانکۆ ڕێکبکەون.",
                             onPressedBritish: () => speakarticulate726("en-GB"),
-                            onPressedAmerican: () => speakarticulate726(
-                                // REPLACE: articulate /ɑːrˈtɪkjuleɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulate726("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

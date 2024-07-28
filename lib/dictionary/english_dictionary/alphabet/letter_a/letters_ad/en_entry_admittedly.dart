@@ -64,7 +64,7 @@ class EnglishEntryadmittedly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "admittedly"), // Find /ədˈmɪtɪdli/
+                            EntryTitle(word: "admittedly"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadmittedly extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +117,14 @@ class EnglishEntryadmittedly extends StatelessWidget {
                             kurdishText:
                                 "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە.",
                             onPressedBritish: () => speakadmit37894("en-GB"),
-                            onPressedAmerican: () => speakadmit37894(
-                                // REPLACE: admittedly /ədˈmɪtɪdli/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmit37894("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

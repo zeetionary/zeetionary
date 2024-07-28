@@ -64,7 +64,7 @@ class EnglishEntryagelimit extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "age limit"), // Find /ˈeɪdʒ lɪmɪt/
+                            EntryTitle(word: "age limit"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagelimit extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +117,14 @@ class EnglishEntryagelimit extends StatelessWidget {
                             kurdishText:
                                 "کەمترین تەمەن بۆ کڕینی جگەرە لە شانشینی یەکگرتوو ١٦ ساڵییە.",
                             onPressedBritish: () => speakageli1665892("en-GB"),
-                            onPressedAmerican: () => speakageli1665892(
-                                // REPLACE: age limit /ˈeɪdʒ lɪmɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakageli1665892("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -140,9 +140,8 @@ class EnglishEntryancient extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryancient extends StatelessWidget {
                             kurdishText:
                                 "شوێنەوارناسان پەرستگا وێرانەکانی ئەم شارستانیەتە کۆنە ھەڵدەدەنەوە.",
                             onPressedBritish: () => speakancient2258("en-GB"),
-                            onPressedAmerican: () => speakancient2258(
-                                // REPLACE: ancient /ˈeɪnʃənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakancient2258("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -170,9 +167,7 @@ class EnglishEntryancient extends StatelessWidget {
                                 "People have lived in this valley since ancient times.",
                             kurdishText: "خەڵکی لەدێر زەمانەوە لەم دۆڵە ژیاون.",
                             onPressedBritish: () => speakancient4077("en-GB"),
-                            onPressedAmerican: () => speakancient4077(
-                                // REPLACE: ancient /ˈeɪnʃənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakancient4077("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +177,7 @@ class EnglishEntryancient extends StatelessWidget {
                             englishText: "He's got an ancient laptop.",
                             kurdishText: "لاپتۆپێکی قەدیمی ھەیە.",
                             onPressedBritish: () => speakancient102("en-GB"),
-                            onPressedAmerican: () => speakancient102(
-                                // REPLACE: ancient /ˈeɪnʃənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakancient102("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +189,8 @@ class EnglishEntryancient extends StatelessWidget {
                             kurdishText:
                                 "زووژیاوان باوەڕیان بە بوونەوەری ئەفسانەیی و کۆمەڵە خواوەندی بەدەسەڵات ھەبوو.",
                             onPressedBritish: () => speakancient558030("en-GB"),
-                            onPressedAmerican: () => speakancient558030(
-                                // REPLACE: ancient /ˈeɪnʃənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakancient558030("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

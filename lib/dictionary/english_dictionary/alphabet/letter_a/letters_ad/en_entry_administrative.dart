@@ -64,9 +64,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "administrative"), // Find /ədˈmɪnɪstrətɪv/
+                            EntryTitle(word: "administrative"),
                           ],
                         ),
                         Row(
@@ -101,9 +99,8 @@ class EnglishEntryadministrative extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -121,16 +118,14 @@ class EnglishEntryadministrative extends StatelessWidget {
                             kurdishText:
                                 "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت.",
                             onPressedBritish: () => speakadmin25687("en-GB"),
-                            onPressedAmerican: () => speakadmin25687(
-                                // REPLACE: administrative /ədˈmɪnɪstreɪtɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmin25687("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

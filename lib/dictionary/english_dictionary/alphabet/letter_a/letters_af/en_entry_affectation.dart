@@ -64,8 +64,7 @@ class EnglishEntryaffectation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "affectation"), // Find /ˌæfekˈteɪʃn/
+                            EntryTitle(word: "affectation"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryaffectation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +115,7 @@ class EnglishEntryaffectation extends StatelessWidget {
                                 "She has many annoying little affectations.",
                             kurdishText: "ژمارەیەکی زۆر مەکربازیی بچووکی ھەیە.",
                             onPressedBritish: () => speakaffecta25699("en-GB"),
-                            onPressedAmerican: () => speakaffecta25699(
-                                // REPLACE: affectation /ˌæfekˈteɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffecta25699("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -128,16 +124,14 @@ class EnglishEntryaffectation extends StatelessWidget {
                             kurdishText:
                                 "برۆیەکانی بەرزکردەوە بە خۆنواندنی ئەوەی کە سەرسامە.",
                             onPressedBritish: () => speakaffect6277("en-GB"),
-                            onPressedAmerican: () => speakaffect6277(
-                                // REPLACE: affectation /ˌæfekˈteɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffect6277("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

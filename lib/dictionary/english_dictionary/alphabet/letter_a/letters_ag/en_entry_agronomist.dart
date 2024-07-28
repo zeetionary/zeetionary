@@ -64,8 +64,7 @@ class EnglishEntryagronomist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "agronomist"), // Find /əˈɡrɒnəmɪst/
+                            EntryTitle(word: "agronomist"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryagronomist extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +117,7 @@ class EnglishEntryagronomist extends StatelessWidget {
                             kurdishText:
                                 "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر.",
                             onPressedBritish: () => speakagronom35111("en-GB"),
-                            onPressedAmerican: () => speakagronom35111(
-                                // REPLACE: agronomist /əˈɡrɑːnəmɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakagronom35111("en-US"),
                           ),
                         ],
                       ),

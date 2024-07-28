@@ -195,9 +195,8 @@ class EnglishEntryanswer extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -213,9 +212,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                 "I rang the bell, but there was no answer.",
                             kurdishText: "زەنگم لێدا بەڵام وەڵام نەبوو.",
                             onPressedBritish: () => speakanswer1019("en-GB"),
-                            onPressedAmerican: () => speakanswer1019(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1019("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -224,9 +221,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                 "Can't you give me a definitive answer?",
                             kurdishText: "دەتوانیت وەڵامێکی تەواوم پێ بدەیت.",
                             onPressedBritish: () => speakanswer1021("en-GB"),
-                            onPressedAmerican: () => speakanswer1021(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1021("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -235,9 +230,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                 "She had no answer to the accusations.",
                             kurdishText: "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو.",
                             onPressedBritish: () => speakanswer1022("en-GB"),
-                            onPressedAmerican: () => speakanswer1022(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1022("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -249,9 +242,7 @@ class EnglishEntryanswer extends StatelessWidget {
                             kurdishText:
                                 "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە.",
                             onPressedBritish: () => speakanswer1025("en-GB"),
-                            onPressedAmerican: () => speakanswer1025(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1025("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -260,9 +251,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                 "Do you know the answer (= the right one) to question 12?",
                             kurdishText: "وەڵامی پرسیاری ١٢یەم دەزانی؟",
                             onPressedBritish: () => speakanswer1026("en-GB"),
-                            onPressedAmerican: () => speakanswer1026(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1026("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -273,9 +262,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                 "This may not be the answer for everyone.",
                             kurdishText: "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان.",
                             onPressedBritish: () => speakanswer1027("en-GB"),
-                            onPressedAmerican: () => speakanswer1027(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1027("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -285,9 +272,7 @@ class EnglishEntryanswer extends StatelessWidget {
                             kurdishText:
                                 "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە.",
                             onPressedBritish: () => speakanswer1029("en-GB"),
-                            onPressedAmerican: () => speakanswer1029(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1029("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -299,9 +284,7 @@ class EnglishEntryanswer extends StatelessWidget {
                             kurdishText:
                                 "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە.",
                             onPressedBritish: () => speakanswer1032("en-GB"),
-                            onPressedAmerican: () => speakanswer1032(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1032("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -309,9 +292,7 @@ class EnglishEntryanswer extends StatelessWidget {
                             englishText: "You haven't answered my question.",
                             kurdishText: "وەڵامی پرسیارەکەمت نەداوەتەوە.",
                             onPressedBritish: () => speakanswer1034("en-GB"),
-                            onPressedAmerican: () => speakanswer1034(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1034("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -321,9 +302,7 @@ class EnglishEntryanswer extends StatelessWidget {
                             kurdishText:
                                 "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە.",
                             onPressedBritish: () => speakanswer1036("en-GB"),
-                            onPressedAmerican: () => speakanswer1036(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1036("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -335,9 +314,7 @@ class EnglishEntryanswer extends StatelessWidget {
                             kurdishText:
                                 "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت.",
                             onPressedBritish: () => speakanswer1039("en-GB"),
-                            onPressedAmerican: () => speakanswer1039(
-                                // REPLACE: answer /ˈɑːnsər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanswer1039("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -64,7 +64,7 @@ class EnglishEntryaisle extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aisle"), // Find /aɪl/
+                            EntryTitle(word: "aisle"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaisle extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryaisle extends StatelessWidget {
                             kurdishText:
                                 "گەشبین دەردەکەوت کە بە ڕێڕەکەدا تێدەپەڕی دەست لەناو دەستی باوکی.",
                             onPressedBritish: () => speakaisle3888("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaisle3888(// REPLACE: aisle /aɪl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaisle3888("en-US"),
                           ),
                         ],
                       ),

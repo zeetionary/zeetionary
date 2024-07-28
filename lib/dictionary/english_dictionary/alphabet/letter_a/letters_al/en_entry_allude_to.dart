@@ -64,7 +64,7 @@ class EnglishEntryalludeto extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allude to"), // Find /əˈluːd tə/
+                            EntryTitle(word: "allude to"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalludeto extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,8 @@ class EnglishEntryalludeto extends StatelessWidget {
                             kurdishText:
                                 "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە.",
                             onPressedBritish: () => speakalludeto35477("en-GB"),
-                            onPressedAmerican: () => speakalludeto35477(
-                                // REPLACE: allude to /əˈluːd tə/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalludeto35477("en-US"),
                           ),
                         ],
                       ),

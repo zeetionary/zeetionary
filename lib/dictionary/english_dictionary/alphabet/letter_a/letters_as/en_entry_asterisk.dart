@@ -146,9 +146,8 @@ class EnglishEntryasterisk extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryasterisk extends StatelessWidget {
                             kurdishText:
                                 "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت.",
                             onPressedBritish: () => speakasterisk940("en-GB"),
-                            onPressedAmerican: () => speakasterisk940(
-                                // REPLACE: asterisk /ˈæstərɪsk/
-                                "en-US"),
+                            onPressedAmerican: () => speakasterisk940("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +176,7 @@ class EnglishEntryasterisk extends StatelessWidget {
                             kurdishText:
                                 "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت.",
                             onPressedBritish: () => speakasterisk943("en-GB"),
-                            onPressedAmerican: () => speakasterisk943(
-                                // REPLACE: asterisk /ˈæstərɪsk/
-                                "en-US"),
+                            onPressedAmerican: () => speakasterisk943("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

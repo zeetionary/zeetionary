@@ -138,9 +138,8 @@ class EnglishEntryanaerobic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,8 @@ class EnglishEntryanaerobic extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین.",
                             onPressedBritish: () => speakanaerobic0896("en-GB"),
-                            onPressedAmerican: () => speakanaerobic0896(
-                                // REPLACE: anaerobic /ˌænəˈrəʊbɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanaerobic0896("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

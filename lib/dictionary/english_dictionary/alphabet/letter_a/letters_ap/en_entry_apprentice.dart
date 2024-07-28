@@ -143,9 +143,8 @@ class EnglishEntryapprentice extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryapprentice extends StatelessWidget {
                             kurdishText:
                                 "زۆرینەی کارەکە لەلایەن شاگردەکان کرا.",
                             onPressedBritish: () => speakapprentice956("en-GB"),
-                            onPressedAmerican: () => speakapprentice956(
-                                // REPLACE: apprentice /əˈprentɪs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapprentice956("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +173,8 @@ class EnglishEntryapprentice extends StatelessWidget {
                                 "He was apprenticed to his uncle as a carpenter.",
                             kurdishText: "وەک شاگردێکی دارتاشی درا بە خاڵی.",
                             onPressedBritish: () => speakapprentice959("en-GB"),
-                            onPressedAmerican: () => speakapprentice959(
-                                // REPLACE: apprentice /əˈprentɪs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapprentice959("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

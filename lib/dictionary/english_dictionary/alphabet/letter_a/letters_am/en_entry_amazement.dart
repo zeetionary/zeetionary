@@ -63,7 +63,7 @@ class EnglishEntryamazement extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amazement"), // Find /əˈmeɪzmənt/
+                            EntryTitle(word: "amazement"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryamazement extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,8 @@ class EnglishEntryamazement extends StatelessWidget {
                             kurdishText: "بە سەرسامییەوە سەیری دەکرد.",
                             onPressedBritish: () =>
                                 speakamazement41121("en-GB"),
-                            onPressedAmerican: () => speakamazement41121(
-                                // REPLACE: amazement /əˈmeɪzmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamazement41121("en-US"),
                           ),
                         ],
                       ),

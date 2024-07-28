@@ -65,7 +65,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acuteness"), // Find /əˈkjuːtnəs/
+                            EntryTitle(word: "acuteness"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryacuteness extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                             kurdishText:
                                 "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە.",
                             onPressedBritish: () => speakacute2471("en-GB"),
-                            onPressedAmerican: () => speakacute2471(
-                                // REPLACE: acuteness /əˈkjuːtnəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakacute2471("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -127,16 +124,14 @@ class EnglishEntryacuteness extends StatelessWidget {
                             kurdishText:
                                 "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر.",
                             onPressedBritish: () => speakacuten524("en-GB"),
-                            onPressedAmerican: () => speakacuten524(
-                                // REPLACE: acuteness /əˈkjuːtnəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakacuten524("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

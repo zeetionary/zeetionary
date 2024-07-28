@@ -63,7 +63,7 @@ class EnglishEntryaffable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affable"), // Find /ˈæfəbl/
+                            EntryTitle(word: "affable"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaffable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,14 @@ class EnglishEntryaffable extends StatelessWidget {
                                 "He struck me as an affable sort of a man.",
                             kurdishText: "وەک پیاوێکی ڕووخۆش ھاتە بەرچاوم.",
                             onPressedBritish: () => speakaffab2569("en-GB"),
-                            onPressedAmerican: () => speakaffab2569(
-                                // REPLACE: affable /ˈæfəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffab2569("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

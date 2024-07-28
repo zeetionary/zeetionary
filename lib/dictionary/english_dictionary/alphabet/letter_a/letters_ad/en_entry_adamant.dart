@@ -63,7 +63,7 @@ class EnglishEntryadamant extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adamant"), // Find /ˈædəmənt/
+                            EntryTitle(word: "adamant"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadamant extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,14 @@ class EnglishEntryadamant extends StatelessWidget {
                                 "Eva was adamant that she would not come.",
                             kurdishText: "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت.",
                             onPressedBritish: () => speakadam35871("en-GB"),
-                            onPressedAmerican: () => speakadam35871(
-                                // REPLACE: adamant /ˈædəmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadam35871("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -65,7 +65,7 @@ class EnglishEntryadvertise extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "advertise"), // Find /ˈædvətaɪz/
+                            EntryTitle(word: "advertise"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryadvertise extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryadvertise extends StatelessWidget {
                             kurdishText:
                                 "ئەگەر دەتەوێت کڕیار ڕابکێشیت ئەوا دەبێت ڕیکلام بکەیت.",
                             onPressedBritish: () => speakadve2568("en-GB"),
-                            onPressedAmerican: () => speakadve2568(
-                                // REPLACE: advertise /ˈædvərtaɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakadve2568("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -127,9 +124,7 @@ class EnglishEntryadvertise extends StatelessWidget {
                             kurdishText:
                                 "باشترین کارەکان زۆرجار لە ڕۆژنامەکان بانگەشەیان بۆ ناکرێت.",
                             onPressedBritish: () => speakadver6384("en-GB"),
-                            onPressedAmerican: () => speakadver6384(
-                                // REPLACE: advertise /ˈædvərtaɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakadver6384("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -139,16 +134,14 @@ class EnglishEntryadvertise extends StatelessWidget {
                                 "She coughed to advertise her presence.",
                             kurdishText: "کۆکی بۆ پیشاندانی ئامادەییبوونی.",
                             onPressedBritish: () => speakadve35984("en-GB"),
-                            onPressedAmerican: () => speakadve35984(
-                                // REPLACE: advertise /ˈædvərtaɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakadve35984("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

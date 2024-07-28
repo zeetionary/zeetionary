@@ -139,9 +139,8 @@ class EnglishEntryanimation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,8 @@ class EnglishEntryanimation extends StatelessWidget {
                             kurdishText:
                                 "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە.",
                             onPressedBritish: () => speakanimation1026("en-GB"),
-                            onPressedAmerican: () => speakanimation1026(
-                                // REPLACE: animation /ˌænɪˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanimation1026("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -172,9 +170,8 @@ class EnglishEntryanimation extends StatelessWidget {
                             kurdishText:
                                 "فەرھەنگە ئەلیکترۆنییەکە ژمارەیەک ئەنیمەیشنی تێدابوو.",
                             onPressedBritish: () => speakanimation1027("en-GB"),
-                            onPressedAmerican: () => speakanimation1027(
-                                // REPLACE: animation /ˌænɪˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanimation1027("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +183,8 @@ class EnglishEntryanimation extends StatelessWidget {
                             kurdishText:
                                 "ڕووخساری ھیچ ڕەنگ و تین‌وگوڕی تێدانەمابوو.",
                             onPressedBritish: () => speakanimation1030("en-GB"),
-                            onPressedAmerican: () => speakanimation1030(
-                                // REPLACE: animation /ˌænɪˈmeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanimation1030("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

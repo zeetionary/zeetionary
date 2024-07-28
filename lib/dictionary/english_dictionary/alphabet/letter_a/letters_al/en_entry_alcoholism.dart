@@ -63,8 +63,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alcoholism"), // Find /ˈælkəhɒlɪzəm/
+                            EntryTitle(word: "alcoholism"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryalcoholism extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +112,8 @@ class EnglishEntryalcoholism extends StatelessWidget {
                                 "لە کۆتاییدا ھەوڵی چارەسەری بۆ ئاڵوودەییەکەی بە کحول دا.",
                             onPressedBritish: () =>
                                 speakalcoholism6582("en-GB"),
-                            onPressedAmerican: () => speakalcoholism6582(
-                                // REPLACE: alcoholism /ˈælkəhɑːlɪzəm/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalcoholism6582("en-US"),
                           ),
                         ],
                       ),

@@ -140,9 +140,8 @@ class EnglishEntryanti extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -154,9 +153,7 @@ class EnglishEntryanti extends StatelessWidget {
                                 "They’re completely anti the new proposals.",
                             kurdishText: "بە تەواوی دژ بە پێشنیازە تازەکانن.",
                             onPressedBritish: () => speakanti908("en-GB"),
-                            onPressedAmerican: () => speakanti908(
-                                // REPLACE: anti /ˈænti/, /ˈæntaɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanti908("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

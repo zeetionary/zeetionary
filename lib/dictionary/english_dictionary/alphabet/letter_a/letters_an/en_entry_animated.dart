@@ -138,9 +138,8 @@ class EnglishEntryanimated extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,7 @@ class EnglishEntryanimated extends StatelessWidget {
                             kurdishText:
                                 "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت.",
                             onPressedBritish: () => speakanimated944("en-GB"),
-                            onPressedAmerican: () => speakanimated944(
-                                // REPLACE: animated /ˈænɪmeɪtɪd/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimated944("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -166,9 +163,7 @@ class EnglishEntryanimated extends StatelessWidget {
                             englishText: "Her face suddenly became animated.",
                             kurdishText: "ڕووخساری لەناکاو گەشایەوە.",
                             onPressedBritish: () => speakanimated946("en-GB"),
-                            onPressedAmerican: () => speakanimated946(
-                                // REPLACE: animated /ˈænɪmeɪtɪd/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimated946("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +175,7 @@ class EnglishEntryanimated extends StatelessWidget {
                             kurdishText:
                                 "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە.",
                             onPressedBritish: () => speakanimated950("en-GB"),
-                            onPressedAmerican: () => speakanimated950(
-                                // REPLACE: animated /ˈænɪmeɪtɪd/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimated950("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

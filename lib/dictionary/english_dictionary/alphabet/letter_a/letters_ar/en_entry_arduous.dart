@@ -144,9 +144,8 @@ class EnglishEntryarduous extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryarduous extends StatelessWidget {
                             kurdishText:
                                 "ڕێگای گەشتنەوە بە ئارامی سیاسی زەحمەتە.",
                             onPressedBritish: () => speakarduous530("en-GB"),
-                            onPressedAmerican: () => speakarduous530(
-                                // REPLACE: arduous /ˈɑːrdʒuəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakarduous530("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +171,7 @@ class EnglishEntryarduous extends StatelessWidget {
                             englishText: "The work was arduous.",
                             kurdishText: "کارەکە تاقەت‌پڕوقێن بوو.",
                             onPressedBritish: () => speakarduous531("en-GB"),
-                            onPressedAmerican: () => speakarduous531(
-                                // REPLACE: arduous /ˈɑːrdʒuəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakarduous531("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

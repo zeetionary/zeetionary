@@ -138,9 +138,8 @@ class EnglishEntryamputation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryamputation extends StatelessWidget {
                                 "ڕووداوێک لە کاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی.",
                             onPressedBritish: () =>
                                 speakamputation7704("en-GB"),
-                            onPressedAmerican: () => speakamputation7704(
-                                // REPLACE: amputation /ˌæmpjuˈteɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamputation7704("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

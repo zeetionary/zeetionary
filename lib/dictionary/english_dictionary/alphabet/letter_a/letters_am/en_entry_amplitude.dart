@@ -140,9 +140,8 @@ class EnglishEntryamplitude extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,8 @@ class EnglishEntryamplitude extends StatelessWidget {
                                 "Sound waves are measured by their amplitude.",
                             kurdishText: "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن.",
                             onPressedBritish: () => speakamplitude4599("en-GB"),
-                            onPressedAmerican: () => speakamplitude4599(
-                                // REPLACE: amplitude /ˈæmplɪtuːd/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamplitude4599("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +171,8 @@ class EnglishEntryamplitude extends StatelessWidget {
                                 "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت.",
                             onPressedBritish: () =>
                                 speakamplitude46669("en-GB"),
-                            onPressedAmerican: () => speakamplitude46669(
-                                // REPLACE: amplitude /ˈæmplɪtuːd/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamplitude46669("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

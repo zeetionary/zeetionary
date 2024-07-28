@@ -139,9 +139,8 @@ class EnglishEntryancillary extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,8 @@ class EnglishEntryancillary extends StatelessWidget {
                             kurdishText:
                                 "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە.",
                             onPressedBritish: () => speakancillary1140("en-GB"),
-                            onPressedAmerican: () => speakancillary1140(
-                                // REPLACE: ancillary /ˈænsəleri/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakancillary1140("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -172,9 +170,8 @@ class EnglishEntryancillary extends StatelessWidget {
                             kurdishText:
                                 "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران.",
                             onPressedBritish: () => speakancillary0958("en-GB"),
-                            onPressedAmerican: () => speakancillary0958(
-                                // REPLACE: ancillary /ˈænsəleri/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakancillary0958("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -138,9 +138,8 @@ class EnglishEntryangel extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,7 @@ class EnglishEntryangel extends StatelessWidget {
                             englishText: "She looks like an angel.",
                             kurdishText: "ئەڵێی فریشتەیە.",
                             onPressedBritish: () => speakangel405("en-GB"),
-                            onPressedAmerican: () => speakangel405(
-                                // REPLACE: angel /ˈeɪndʒl/
-                                "en-US"),
+                            onPressedAmerican: () => speakangel405("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -167,9 +164,7 @@ class EnglishEntryangel extends StatelessWidget {
                             kurdishText:
                                 "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە.",
                             onPressedBritish: () => speakangel407("en-GB"),
-                            onPressedAmerican: () => speakangel407(
-                                // REPLACE: angel /ˈeɪndʒl/
-                                "en-US"),
+                            onPressedAmerican: () => speakangel407("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +174,7 @@ class EnglishEntryangel extends StatelessWidget {
                             englishText: "Mary’s children are little angels.",
                             kurdishText: "منداڵەکانی ماری فریشتەی وردیلەن.",
                             onPressedBritish: () => speakangel9963("en-GB"),
-                            onPressedAmerican: () => speakangel9963(
-                                // REPLACE: angel /ˈeɪndʒl/
-                                "en-US"),
+                            onPressedAmerican: () => speakangel9963("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,9 +184,7 @@ class EnglishEntryangel extends StatelessWidget {
                             englishText: "Thanks Dad, you're an angel.",
                             kurdishText: "سوپاس باوکە، تۆ فریشتەیت.",
                             onPressedBritish: () => speakangel4850("en-GB"),
-                            onPressedAmerican: () => speakangel4850(
-                                // REPLACE: angel /ˈeɪndʒl/
-                                "en-US"),
+                            onPressedAmerican: () => speakangel4850("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

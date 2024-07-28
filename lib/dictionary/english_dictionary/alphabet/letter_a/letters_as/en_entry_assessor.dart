@@ -148,9 +148,8 @@ class EnglishEntryassessor extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,7 @@ class EnglishEntryassessor extends StatelessWidget {
                             kurdishText:
                                 "حکومەت ھەڵسەنگێنەری سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە گونجاوی ئەو خەڵووزانەی لە کانەکان مابوونەوە.",
                             onPressedBritish: () => speakassessor1140("en-GB"),
-                            onPressedAmerican: () => speakassessor1140(
-                                // REPLACE: assessor /əˈsesər/
-                                "en-US"),
+                            onPressedAmerican: () => speakassessor1140("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -181,9 +178,7 @@ class EnglishEntryassessor extends StatelessWidget {
                             kurdishText:
                                 "ئۆفیسی نرخێنەرەکان جیاوازن لە شێوازی خەمڵاندنی نرخی خانوو.",
                             onPressedBritish: () => speakassessor1143("en-GB"),
-                            onPressedAmerican: () => speakassessor1143(
-                                // REPLACE: assessor /əˈsesər/
-                                "en-US"),
+                            onPressedAmerican: () => speakassessor1143("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +190,7 @@ class EnglishEntryassessor extends StatelessWidget {
                             kurdishText:
                                 "ھەڵسەنگێنەرەکان توانای خوێندکارانیان لە تاقیکردنەوەکە نرخاند.",
                             onPressedBritish: () => speakassessor1147("en-GB"),
-                            onPressedAmerican: () => speakassessor1147(
-                                // REPLACE: assessor /əˈsesər/
-                                "en-US"),
+                            onPressedAmerican: () => speakassessor1147("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

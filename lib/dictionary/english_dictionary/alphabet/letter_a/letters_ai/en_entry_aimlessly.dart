@@ -64,7 +64,7 @@ class EnglishEntryaimlessly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aimlessly"), // Find /ˈeɪmləsli/
+                            EntryTitle(word: "aimlessly"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaimlessly extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,8 @@ class EnglishEntryaimlessly extends StatelessWidget {
                                 "کە چاوەڕێی دەکرد بێ مەبەستانە لە گەراجەکەدا دەسوڕایەوە.",
                             onPressedBritish: () =>
                                 speakaimlessly76511981("en-GB"),
-                            onPressedAmerican: () => speakaimlessly76511981(
-                                // REPLACE: aimlessly /ˈeɪmləsli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaimlessly76511981("en-US"),
                           ),
                         ],
                       ),

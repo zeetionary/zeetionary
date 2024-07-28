@@ -97,7 +97,7 @@ class EnglishEntryagree extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agree"), // Find /əˈɡriː/
+                            EntryTitle(word: "agree"),
                           ],
                         ),
                         Row(
@@ -131,9 +131,8 @@ class EnglishEntryagree extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -144,9 +143,7 @@ class EnglishEntryagree extends StatelessWidget {
                             englishText: "When he said that, I had to agree.",
                             kurdishText: "کە ئەوەی گوت، ناچاربووم ھاوڕابم.",
                             onPressedBritish: () => speakagree6778("en-GB"),
-                            onPressedAmerican: () => speakagree6778(
-                                // REPLACE: agree /əˈɡriː/
-                                "en-US"),
+                            onPressedAmerican: () => speakagree6778("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -157,8 +154,7 @@ class EnglishEntryagree extends StatelessWidget {
                             kurdishText: "لێدانی مناڵ وەک سزادان پەسەند ناکەم.",
                             onPressedBritish: () => speakag2256("en-GB"),
                             onPressedAmerican: () =>
-                                speakag2256(// REPLACE: agree /əˈɡriː/
-                                    "en-US"),
+                                speakag2256("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -169,9 +165,7 @@ class EnglishEntryagree extends StatelessWidget {
                             kurdishText:
                                 "داوای زیادکردنی مووچەکەمم کرد و ئەویش ڕازی بوو.",
                             onPressedBritish: () => speakagree2344("en-GB"),
-                            onPressedAmerican: () => speakagree2344(
-                                // REPLACE: agree /əˈɡriː/
-                                "en-US"),
+                            onPressedAmerican: () => speakagree2344("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -182,8 +176,7 @@ class EnglishEntryagree extends StatelessWidget {
                                 "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت.",
                             onPressedBritish: () => speakagre3555("en-GB"),
                             onPressedAmerican: () =>
-                                speakagre3555(// REPLACE: agree /əˈɡriː/
-                                    "en-US"),
+                                speakagre3555("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -192,9 +185,7 @@ class EnglishEntryagree extends StatelessWidget {
                             englishText: "Next year's budget has been agreed.",
                             kurdishText: "بودجەی ساڵی داھاتوو پەسەندکراوە.",
                             onPressedBritish: () => speakagree37859("en-GB"),
-                            onPressedAmerican: () => speakagree37859(
-                                // REPLACE: agree /əˈɡriː/
-                                "en-US"),
+                            onPressedAmerican: () => speakagree37859("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -206,15 +197,14 @@ class EnglishEntryagree extends StatelessWidget {
                                 "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو.",
                             onPressedBritish: () => speakagr3544("en-GB"),
                             onPressedAmerican: () =>
-                                speakagr3544(// REPLACE: agree /əˈɡriː/
-                                    "en-US"),
+                                speakagr3544("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

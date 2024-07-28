@@ -63,7 +63,7 @@ class EnglishEntryaghast extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aghast"), // Find /əˈɡɑːst/
+                            EntryTitle(word: "aghast"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaghast extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,16 +113,14 @@ class EnglishEntryaghast extends StatelessWidget {
                                 "He stood aghast at the sight of so much blood.",
                             kurdishText: "واق‌وڕماو بوو بە بینینی خوێنێکی زۆر.",
                             onPressedBritish: () => speakaghas15622("en-GB"),
-                            onPressedAmerican: () => speakaghas15622(
-                                // REPLACE: aghast /əˈɡɑːst/
-                                "en-US"),
+                            onPressedAmerican: () => speakaghas15622("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -63,8 +63,7 @@ class EnglishEntryadmiration extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "admiration"), // Find /ˌædməˈreɪʃn/
+                            EntryTitle(word: "admiration"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryadmiration extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,16 +113,14 @@ class EnglishEntryadmiration extends StatelessWidget {
                                 "I have great admiration for her as a writer.",
                             kurdishText: "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە.",
                             onPressedBritish: () => speakadmira85971("en-GB"),
-                            onPressedAmerican: () => speakadmira85971(
-                                // REPLACE: admiration /ˌædməˈreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmira85971("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

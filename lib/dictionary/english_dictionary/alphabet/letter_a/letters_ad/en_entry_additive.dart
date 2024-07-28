@@ -64,7 +64,7 @@ class EnglishEntryadditive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "additive"), // Find /ˈædətɪv/
+                            EntryTitle(word: "additive"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadditive extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +117,14 @@ class EnglishEntryadditive extends StatelessWidget {
                             kurdishText:
                                 "ئەم خواردنەوەیە پڕە لە مادەی زیادکراو. سەیری نووسراوەکەی سەری بکە!",
                             onPressedBritish: () => speakaddit699("en-GB"),
-                            onPressedAmerican: () => speakaddit699(
-                                // REPLACE: additive /ˈædətɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddit699("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

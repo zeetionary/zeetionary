@@ -64,7 +64,7 @@ class EnglishEntryalleviate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alleviate"), // Find /əˈliːvieɪt/
+                            EntryTitle(word: "alleviate"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalleviate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,8 @@ class EnglishEntryalleviate extends StatelessWidget {
                                 "ژمارەیەک ڕێکار گردرانە بەر بۆ سوککردنی کێشەکە.",
                             onPressedBritish: () =>
                                 speakalleviate45277("en-GB"),
-                            onPressedAmerican: () => speakalleviate45277(
-                                // REPLACE: alleviate /əˈliːvieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalleviate45277("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -129,9 +127,8 @@ class EnglishEntryalleviate extends StatelessWidget {
                                 "چارەسەرەکان ھیچیان نەکرد بۆ کەمکردنەوەی ئازارەکەی.",
                             onPressedBritish: () =>
                                 speakalleviate35699("en-GB"),
-                            onPressedAmerican: () => speakalleviate35699(
-                                // REPLACE: alleviate /əˈliːvieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalleviate35699("en-US"),
                           ),
                         ],
                       ),

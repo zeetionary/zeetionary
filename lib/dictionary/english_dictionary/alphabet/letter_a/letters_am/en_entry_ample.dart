@@ -140,9 +140,8 @@ class EnglishEntryample extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryample extends StatelessWidget {
                             kurdishText:
                                 "کاتی پێویست ھەبوو بۆ گەشتن بە فڕۆکەخانەکە.",
                             onPressedBritish: () => speakample001("en-GB"),
-                            onPressedAmerican: () =>
-                                speakample001(// REPLACE: ample /ˈæmpl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakample001("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryample extends StatelessWidget {
                                 "These clothes belonged to a man of more ample girth.",
                             kurdishText: "ئەم جلانە ھی پیاوێکی کەمەر زل‌ترە.",
                             onPressedBritish: () => speakample4408("en-GB"),
-                            onPressedAmerican: () =>
-                                speakample4408(// REPLACE: ample /ˈæmpl/
-                                    "en-US"),
+                            onPressedAmerican: () => speakample4408("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

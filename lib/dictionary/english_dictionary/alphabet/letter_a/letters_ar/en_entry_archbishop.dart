@@ -143,9 +143,8 @@ class EnglishEntryarchbishop extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,8 @@ class EnglishEntryarchbishop extends StatelessWidget {
                             englishText: "He was made Archbishop of Milan.",
                             kurdishText: "کرا بە قەشەی گەورەی میلان.",
                             onPressedBritish: () => speakarchbishop315("en-GB"),
-                            onPressedAmerican: () => speakarchbishop315(
-                                // REPLACE: archbishop /ˌɑːrtʃˈbɪʃəp/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarchbishop315("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

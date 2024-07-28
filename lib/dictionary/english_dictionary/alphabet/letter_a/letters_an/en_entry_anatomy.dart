@@ -141,9 +141,8 @@ class EnglishEntryanatomy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                             kurdishText:
                                 "تێگەشتن لە پێکھاتەی درووست بوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک.",
                             onPressedBritish: () => speakanatomy409("en-GB"),
-                            onPressedAmerican: () => speakanatomy409(
-                                // REPLACE: anatomy /əˈnætəmi/
-                                "en-US"),
+                            onPressedAmerican: () => speakanatomy409("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -174,9 +171,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                             kurdishText:
                                 "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت.",
                             onPressedBritish: () => speakanatomy499("en-GB"),
-                            onPressedAmerican: () => speakanatomy499(
-                                // REPLACE: anatomy /əˈnætəmi/
-                                "en-US"),
+                            onPressedAmerican: () => speakanatomy499("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +183,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون.",
                             onPressedBritish: () => speakanatomy9500("en-GB"),
-                            onPressedAmerican: () => speakanatomy9500(
-                                // REPLACE: anatomy /əˈnætəmi/
-                                "en-US"),
+                            onPressedAmerican: () => speakanatomy9500("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,9 +195,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                             kurdishText:
                                 "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا.",
                             onPressedBritish: () => speakanatomy5582("en-GB"),
-                            onPressedAmerican: () => speakanatomy5582(
-                                // REPLACE: anatomy /əˈnætəmi/
-                                "en-US"),
+                            onPressedAmerican: () => speakanatomy5582("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

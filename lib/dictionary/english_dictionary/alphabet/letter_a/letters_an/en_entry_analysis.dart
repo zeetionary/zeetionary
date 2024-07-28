@@ -140,9 +140,8 @@ class EnglishEntryanalysis extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryanalysis extends StatelessWidget {
                             kurdishText:
                                 "توێژینەوەی زیاتر جیاوازیی بەرچاوی ھەرێمی لە ئەنجامەکان دەرخست.",
                             onPressedBritish: () => speakanalysis000("en-GB"),
-                            onPressedAmerican: () => speakanalysis000(
-                                // REPLACE: analysis /əˈnæləsɪs/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalysis000("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryanalysis extends StatelessWidget {
                             kurdishText:
                                 "بڕیارەکەمان‌دا لە دوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە.",
                             onPressedBritish: () => speakanalysis7499("en-GB"),
-                            onPressedAmerican: () => speakanalysis7499(
-                                // REPLACE: analysis /əˈnæləsɪs/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalysis7499("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,7 @@ class EnglishEntryanalysis extends StatelessWidget {
                             kurdishText:
                                 "سامپڵەکانی خوێنەکە نێردران بۆ تاقیگە بۆ لێکۆڵینەوە.",
                             onPressedBritish: () => speakanalysis7066("en-GB"),
-                            onPressedAmerican: () => speakanalysis7066(
-                                // REPLACE: analysis /əˈnæləsɪs/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalysis7066("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

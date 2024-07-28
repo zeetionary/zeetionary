@@ -146,9 +146,8 @@ class EnglishEntryanxiety extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک لە نەخۆشانی نەخۆشخانە بە دڵەڕاوکێی زۆردا تێپەڕدەبن.",
                             onPressedBritish: () => speakanxiety651("en-GB"),
-                            onPressedAmerican: () => speakanxiety651(
-                                // REPLACE: anxiety /æŋˈzaɪəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxiety651("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                             kurdishText:
                                 "دڵەڕاوکێی زۆر ھەیە سەبارەت بۆ کۆپی‌کردنی مرۆڤ.",
                             onPressedBritish: () => speakanxiety656("en-GB"),
-                            onPressedAmerican: () => speakanxiety656(
-                                // REPLACE: anxiety /æŋˈzaɪəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxiety656("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,9 +186,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک کەس ھەست بە پەستان و ئازاری دڵەخورپە و بێزاری دەکەن.",
                             onPressedBritish: () => speakanxiety700("en-GB"),
-                            onPressedAmerican: () => speakanxiety700(
-                                // REPLACE: anxiety /æŋˈzaɪəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxiety700("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -205,9 +198,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                             kurdishText:
                                 "ئەگەر نیگەرانیت بۆ تەندرووستیت، لای دکتۆرەکەت نیگەرانییەکانت باس بکە.",
                             onPressedBritish: () => speakanxiety705("en-GB"),
-                            onPressedAmerican: () => speakanxiety705(
-                                // REPLACE: anxiety /æŋˈzaɪəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxiety705("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -219,9 +210,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەک ڕۆژنامەنووس کەوتن بە مل خۆیاندا لە تامەزرۆییان بۆ گرتنی چەند وێنەیەکی.",
                             onPressedBritish: () => speakanxiety708("en-GB"),
-                            onPressedAmerican: () => speakanxiety708(
-                                // REPLACE: anxiety /æŋˈzaɪəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakanxiety708("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

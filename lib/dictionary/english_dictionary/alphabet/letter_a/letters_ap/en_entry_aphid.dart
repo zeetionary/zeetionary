@@ -143,9 +143,8 @@ class EnglishEntryaphid extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryaphid extends StatelessWidget {
                             kurdishText:
                                 "شۆکەکان دەتوانن وەچە بخەنەوە بەبێ جووتبوون.",
                             onPressedBritish: () => speakaphid229("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaphid229(// REPLACE: aphid /ˈeɪfɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaphid229("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

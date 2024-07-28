@@ -131,7 +131,7 @@ class EnglishEntryalways extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "always"), // Find /ˈɔːlweɪz/
+                            EntryTitle(word: "always"),
                           ],
                         ),
                         Row(
@@ -165,9 +165,8 @@ class EnglishEntryalways extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -181,9 +180,7 @@ class EnglishEntryalways extends StatelessWidget {
                             englishText: "Always lock your car.",
                             kurdishText: "ھەمیشە ئۆتۆمبێلەکەت دابخە.",
                             onPressedBritish: () => speakalways5699("en-GB"),
-                            onPressedAmerican: () => speakalways5699(
-                                // REPLACE: always /ˈɔːlweɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakalways5699("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -191,9 +188,7 @@ class EnglishEntryalways extends StatelessWidget {
                                 "The children always seem to be hungry.",
                             kurdishText: "منداڵەکان ھەمیشە برسی دەردەکەون.",
                             onPressedBritish: () => speakalways48999("en-GB"),
-                            onPressedAmerican: () => speakalways48999(
-                                // REPLACE: always /ˈɔːlweɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakalways48999("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -204,9 +199,7 @@ class EnglishEntryalways extends StatelessWidget {
                             kurdishText:
                                 "ئەمە ئەو ڕێگایە کە ھەمیشە بەکارمان ھێناوە.",
                             onPressedBritish: () => speakalways4631("en-GB"),
-                            onPressedAmerican: () => speakalways4631(
-                                // REPLACE: always /ˈɔːlweɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakalways4631("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -215,9 +208,7 @@ class EnglishEntryalways extends StatelessWidget {
                             englishText: "I'll always love you.",
                             kurdishText: "ھەمیشە خۆشمدەوێیت.",
                             onPressedBritish: () => speakalways3477("en-GB"),
-                            onPressedAmerican: () => speakalways3477(
-                                // REPLACE: always /ˈɔːlweɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakalways3477("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -226,9 +217,7 @@ class EnglishEntryalways extends StatelessWidget {
                             englishText: "That phone's always ringing.",
                             kurdishText: "ئەو موبایلە ھەمیشە زەنگ لێدەدات.",
                             onPressedBritish: () => speakalways47111("en-GB"),
-                            onPressedAmerican: () => speakalways47111(
-                                // REPLACE: always /ˈɔːlweɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakalways47111("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -239,9 +228,7 @@ class EnglishEntryalways extends StatelessWidget {
                             kurdishText:
                                 "ئەگەر بۆی ناکرێت، جۆن ھەردەم ئامادەیە.",
                             onPressedBritish: () => speakalways48666("en-GB"),
-                            onPressedAmerican: () => speakalways48666(
-                                // REPLACE: always /ˈɔːlweɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakalways48666("en-US"),
                           ),
                         ],
                       ),

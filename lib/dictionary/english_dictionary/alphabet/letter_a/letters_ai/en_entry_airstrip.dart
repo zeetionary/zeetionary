@@ -64,7 +64,7 @@ class EnglishEntryairstrip extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airstrip"), // Find /ˈeəstrɪp/
+                            EntryTitle(word: "airstrip"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryairstrip extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryairstrip extends StatelessWidget {
                             kurdishText:
                                 "لەسەر نەختە زەوییەک لە ناوەڕاستی جەنگەڵەکە نیشتینەوە.",
                             onPressedBritish: () => speakairstrip7655("en-GB"),
-                            onPressedAmerican: () => speakairstrip7655(
-                                // REPLACE: airstrip /ˈerstrɪp/
-                                "en-US"),
+                            onPressedAmerican: () => speakairstrip7655("en-US"),
                           ),
                         ],
                       ),

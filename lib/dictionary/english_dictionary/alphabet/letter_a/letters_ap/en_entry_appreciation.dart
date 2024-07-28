@@ -146,9 +146,8 @@ class EnglishEntryappreciation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,8 @@ class EnglishEntryappreciation extends StatelessWidget {
                             kurdishText: "قەدری میوزیکی خۆش نازانێ.",
                             onPressedBritish: () =>
                                 speakappreciation814("en-GB"),
-                            onPressedAmerican: () => speakappreciation814(
-                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciation814("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -178,9 +176,8 @@ class EnglishEntryappreciation extends StatelessWidget {
                                 "دەستم‌کردووە بە چێژ وەرگرتن لە ھۆنراوە.",
                             onPressedBritish: () =>
                                 speakappreciation815("en-GB"),
-                            onPressedAmerican: () => speakappreciation815(
-                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciation815("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +190,8 @@ class EnglishEntryappreciation extends StatelessWidget {
                                 "تەواو بێ ئاگا بووم لەو کێشانەی ڕووبەڕووی دەبوونەوە.",
                             onPressedBritish: () =>
                                 speakappreciation817("en-GB"),
-                            onPressedAmerican: () => speakappreciation817(
-                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciation817("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -206,9 +202,8 @@ class EnglishEntryappreciation extends StatelessWidget {
                                 "تێگەشتنی زیاتر و زیاتر ھەیە بۆ پێویستیی گۆڕانکاری.",
                             onPressedBritish: () =>
                                 speakappreciation818("en-GB"),
-                            onPressedAmerican: () => speakappreciation818(
-                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciation818("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -221,9 +216,8 @@ class EnglishEntryappreciation extends StatelessWidget {
                                 "دەمەوێت پێزانین و سوپاسگوزاریم بۆ ھەمووتان دەرببڕم.",
                             onPressedBritish: () =>
                                 speakappreciation820("en-GB"),
-                            onPressedAmerican: () => speakappreciation820(
-                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciation820("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -236,9 +230,8 @@ class EnglishEntryappreciation extends StatelessWidget {
                                 "بەرزبوونی نرخی خانووەکان خۆشی ھێناوە بۆ خاوەنەکانیان.",
                             onPressedBritish: () =>
                                 speakappreciation824("en-GB"),
-                            onPressedAmerican: () => speakappreciation824(
-                                // REPLACE: appreciation /əˌpriːʃiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciation824("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

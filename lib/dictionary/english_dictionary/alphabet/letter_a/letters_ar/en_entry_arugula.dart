@@ -145,9 +145,8 @@ class EnglishEntryarugula extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryarugula extends StatelessWidget {
                             kurdishText:
                                 "حەزم لە چێژی توونی ئوروگولایە لە زەڵاتەدا.",
                             onPressedBritish: () => speakarugula1018("en-GB"),
-                            onPressedAmerican: () => speakarugula1018(
-                                // REPLACE: arugula /əˈruːɡələ/
-                                "en-US"),
+                            onPressedAmerican: () => speakarugula1018("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

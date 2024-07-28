@@ -91,9 +91,8 @@ class EnglishEntryamorously extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -109,9 +108,8 @@ class EnglishEntryamorously extends StatelessWidget {
                             englishText: "He looked at her amorously.",
                             kurdishText: "بە ئەویندارانە سەیری دەکرد.",
                             onPressedBritish: () => speakamorously5555("en-GB"),
-                            onPressedAmerican: () => speakamorously5555(
-                                // REPLACE: amorously /ˈæmərəsli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamorously5555("en-US"),
                           ),
                         ],
                       ),

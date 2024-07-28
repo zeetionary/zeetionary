@@ -63,7 +63,7 @@ class EnglishEntryallergy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allergy"), // Find /ˈælədʒi/
+                            EntryTitle(word: "allergy"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryallergy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,18 +113,15 @@ class EnglishEntryallergy extends StatelessWidget {
                             englishText: "I have an allergy to animal hair.",
                             kurdishText: "ھەستیاریم بە مووی ئاژەڵ ھەیە.",
                             onPressedBritish: () => speakallergy462555("en-GB"),
-                            onPressedAmerican: () => speakallergy462555(
-                                // REPLACE: allergy /ˈælərdʒi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallergy462555("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "He developed an allergy to wheat.",
                             kurdishText: "ھەستیاری بە گەنمی بۆ درووست بوو.",
                             onPressedBritish: () => speakallergy53699("en-GB"),
-                            onPressedAmerican: () => speakallergy53699(
-                                // REPLACE: allergy /ˈælərdʒi/
-                                "en-US"),
+                            onPressedAmerican: () => speakallergy53699("en-US"),
                           ),
                         ],
                       ),

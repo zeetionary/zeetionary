@@ -145,9 +145,8 @@ class EnglishEntryartistry extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryartistry extends StatelessWidget {
                                 "You have to admire the artistry of her novels.",
                             kurdishText: "دەبێت سەرسامی ھونەری ڕۆمانەکانی بیت.",
                             onPressedBritish: () => speakartistry940("en-GB"),
-                            onPressedAmerican: () => speakartistry940(
-                                // REPLACE: artistry /ˈɑːrtɪstri/
-                                "en-US"),
+                            onPressedAmerican: () => speakartistry940("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

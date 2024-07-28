@@ -72,7 +72,7 @@ class EnglishEntrycontralto extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "contralto"), // Find /kənˈtræltəʊ/
+                            EntryTitle(word: "contralto"),
                           ],
                         ),
                         Row(
@@ -106,9 +106,8 @@ class EnglishEntrycontralto extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -121,9 +120,8 @@ class EnglishEntrycontralto extends StatelessWidget {
                             kurdishText:
                                 "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ کۆنتراڵتۆ.",
                             onPressedBritish: () => speakContralto6955("en-GB"),
-                            onPressedAmerican: () => speakContralto6955(
-                                // REPLACE: contralto /ˈæltəʊ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakContralto6955("en-US"),
                           ),
                         ],
                       ),

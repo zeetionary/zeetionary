@@ -99,7 +99,7 @@ class EnglishEntryaim extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aim"), // Find /eɪm/
+                            EntryTitle(word: "aim"),
                           ],
                         ),
                         Row(
@@ -133,9 +133,8 @@ class EnglishEntryaim extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -153,8 +152,7 @@ class EnglishEntryaim extends StatelessWidget {
                                 "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت.",
                             onPressedBritish: () => speakaim86555("en-GB"),
                             onPressedAmerican: () =>
-                                speakaim86555(// REPLACE: aim /eɪm/
-                                    "en-US"),
+                                speakaim86555("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -164,8 +162,7 @@ class EnglishEntryaim extends StatelessWidget {
                                 "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە.",
                             onPressedBritish: () => speakaim475699("en-GB"),
                             onPressedAmerican: () =>
-                                speakaim475699(// REPLACE: aim /eɪm/
-                                    "en-US"),
+                                speakaim475699("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -177,8 +174,7 @@ class EnglishEntryaim extends StatelessWidget {
                                 "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە.",
                             onPressedBritish: () => speakaim456933("en-GB"),
                             onPressedAmerican: () =>
-                                speakaim456933(// REPLACE: aim /eɪm/
-                                    "en-US"),
+                                speakaim456933("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -188,8 +184,7 @@ class EnglishEntryaim extends StatelessWidget {
                             kurdishText: "ڕەخنەکانم ڕوو لە تۆ نەبوون.",
                             onPressedBritish: () => speakaim5283("en-GB"),
                             onPressedAmerican: () =>
-                                speakaim5283(// REPLACE: aim /eɪm/
-                                    "en-US"),
+                                speakaim5283("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -201,8 +196,7 @@ class EnglishEntryaim extends StatelessWidget {
                                 "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا.",
                             onPressedBritish: () => speakaim371595446("en-GB"),
                             onPressedAmerican: () =>
-                                speakaim371595446(// REPLACE: aim /eɪm/
-                                    "en-US"),
+                                speakaim371595446("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -214,8 +208,7 @@ class EnglishEntryaim extends StatelessWidget {
                                 "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت.",
                             onPressedBritish: () => speakaim78562("en-GB"),
                             onPressedAmerican: () =>
-                                speakaim78562(// REPLACE: aim /eɪm/
-                                    "en-US"),
+                                speakaim78562("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -227,8 +220,7 @@ class EnglishEntryaim extends StatelessWidget {
                                 "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا.",
                             onPressedBritish: () => speakaim46011635("en-GB"),
                             onPressedAmerican: () =>
-                                speakaim46011635(// REPLACE: aim /eɪm/
-                                    "en-US"),
+                                speakaim46011635("en-US"),
                           ),
                         ],
                       ),

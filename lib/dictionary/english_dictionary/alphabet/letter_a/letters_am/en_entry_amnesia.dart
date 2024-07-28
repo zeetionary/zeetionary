@@ -164,9 +164,8 @@ class EnglishEntryamnesia extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -184,9 +183,7 @@ class EnglishEntryamnesia extends StatelessWidget {
                             kurdishText:
                                 "لە دوای ڕووداوەکە تووشی بیرنەمایی ماوە ماوە دەبوو.",
                             onPressedBritish: () => speakamnesia663("en-GB"),
-                            onPressedAmerican: () => speakamnesia663(
-                                // REPLACE: amnesia /æmˈniːʒə/
-                                "en-US"),
+                            onPressedAmerican: () => speakamnesia663("en-US"),
                           ),
                         ],
                       ),

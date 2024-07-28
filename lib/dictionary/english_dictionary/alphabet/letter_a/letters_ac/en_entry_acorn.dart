@@ -63,7 +63,7 @@ class EnglishEntryacorn extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acorn"), // Find /ˈeɪkɔːn/
+                            EntryTitle(word: "acorn"),
                           ],
                         ),
                         Row(
@@ -113,7 +113,7 @@ class EnglishEntryacorn extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

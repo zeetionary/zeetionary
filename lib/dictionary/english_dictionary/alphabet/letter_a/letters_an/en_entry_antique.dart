@@ -141,9 +141,8 @@ class EnglishEntryantique extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryantique extends StatelessWidget {
                             kurdishText:
                                 "پارچە ئەنتیکی گران‌بەھا لە ئاگرەکەدا لەناوچوون.",
                             onPressedBritish: () => speakantique1140("en-GB"),
-                            onPressedAmerican: () => speakantique1140(
-                                // REPLACE: antique /ænˈtiːk/
-                                "en-US"),
+                            onPressedAmerican: () => speakantique1140("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryantique extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک خشڵی ئەنتیکە ھێشتا بریسکە و درەوشانەوەیان ھەیە.",
                             onPressedBritish: () => speakantique1138("en-GB"),
-                            onPressedAmerican: () => speakantique1138(
-                                // REPLACE: antique /ænˈtiːk/
-                                "en-US"),
+                            onPressedAmerican: () => speakantique1138("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

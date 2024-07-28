@@ -63,7 +63,7 @@ class EnglishEntryaffluent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affluent"), // Find /ˈæfluənt/
+                            EntryTitle(word: "affluent"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaffluent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,16 +112,14 @@ class EnglishEntryaffluent extends StatelessWidget {
                             englishText: "We live in an affluent neighborhood.",
                             kurdishText: "لە گەڕەکێکی دەوڵەمەند دەژین.",
                             onPressedBritish: () => speakafflu4922("en-GB"),
-                            onPressedAmerican: () => speakafflu4922(
-                                // REPLACE: affluent /ˈæfluənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakafflu4922("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

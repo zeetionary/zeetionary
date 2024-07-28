@@ -165,9 +165,8 @@ class EnglishEntryamniocentesis extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -181,9 +180,8 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                                 "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت.",
                             onPressedBritish: () =>
                                 speakamniocentesis4799("en-GB"),
-                            onPressedAmerican: () => speakamniocentesis4799(
-                                // REPLACE: amniocentesis /ˌæmniəʊsenˈtiːsɪs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamniocentesis4799("en-US"),
                           ),
                         ],
                       ),

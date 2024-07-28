@@ -139,9 +139,8 @@ class EnglishEntryannotation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,8 @@ class EnglishEntryannotation extends StatelessWidget {
                                 "It will be published with annotations.",
                             kurdishText: "بڵاودەکرێتەوە لەگەڵ پەراوێزدا.",
                             onPressedBritish: () => speakannotation210("en-GB"),
-                            onPressedAmerican: () => speakannotation210(
-                                // REPLACE: annotation /ˌænəˈteɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakannotation210("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -170,9 +168,8 @@ class EnglishEntryannotation extends StatelessWidget {
                             kurdishText:
                                 "بڵاوکردنەوەی نووسراوی ئەدەبی بە ڕوونکردنەوەوە وادەکات خەڵکی زیاتر بیانخوێننەوە.",
                             onPressedBritish: () => speakannotation212("en-GB"),
-                            onPressedAmerican: () => speakannotation212(
-                                // REPLACE: annotation /ˌænəˈteɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakannotation212("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

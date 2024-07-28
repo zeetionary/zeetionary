@@ -63,8 +63,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "acute angle"), // Find /əˌkjuːt ˈæŋɡl/
+                            EntryTitle(word: "acute angle"),
                           ],
                         ),
                         Row(
@@ -116,7 +115,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

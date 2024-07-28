@@ -63,9 +63,7 @@ class EnglishEntryairplane extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "airplane (or aeroplane)"), // Find /ˈeərəpleɪn/
+                            EntryTitle(word: "airplane (or aeroplane)"),
                           ],
                         ),
                         Row(
@@ -99,9 +97,8 @@ class EnglishEntryairplane extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,16 +112,14 @@ class EnglishEntryairplane extends StatelessWidget {
                                 "The airplane was carrying 350 people.",
                             kurdishText: "فڕۆکەکە ٣٥٠ کەسی ھەڵگرتبوو.",
                             onPressedBritish: () => speakaerop3658("en-GB"),
-                            onPressedAmerican: () => speakaerop3658(
-                                // REPLACE: airplane /ˈerəpleɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaerop3658("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

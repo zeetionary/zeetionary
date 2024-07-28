@@ -63,7 +63,7 @@ class EnglishEntryadmirable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "admirable"), // Find /ˈædmərəbl/
+                            EntryTitle(word: "admirable"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadmirable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,16 +113,15 @@ class EnglishEntryadmirable extends StatelessWidget {
                                 "Her dedication to her work was admirable.",
                             kurdishText: "خۆتەرخانکردنی بۆ کارەکەی جێی ڕێزە.",
                             onPressedBritish: () => speakadmirable4258("en-GB"),
-                            onPressedAmerican: () => speakadmirable4258(
-                                // REPLACE: admirable /ˈædmərəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakadmirable4258("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -64,8 +64,7 @@ class EnglishEntryairterminal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "air terminal"), // Find /ˈeə tɜːmɪnl/
+                            EntryTitle(word: "air terminal"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryairterminal extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +117,8 @@ class EnglishEntryairterminal extends StatelessWidget {
                                 "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە.",
                             onPressedBritish: () =>
                                 speakairterminal3566("en-GB"),
-                            onPressedAmerican: () => speakairterminal3566(
-                                // REPLACE: air terminal /ˈer tɜːrmɪnl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairterminal3566("en-US"),
                           ),
                         ],
                       ),

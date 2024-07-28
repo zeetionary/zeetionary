@@ -64,8 +64,7 @@ class EnglishEntryagoraphobia extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "agoraphobia"), // Find /ˌæɡərəˈfəʊbiə/
+                            EntryTitle(word: "agoraphobia"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryagoraphobia extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,16 +117,14 @@ class EnglishEntryagoraphobia extends StatelessWidget {
                             kurdishText:
                                 "ئەگۆرافۆبیای ھەبوو و ھەرگیز نەیدەویست لە ماڵەوە دەربچێت.",
                             onPressedBritish: () => speakagoraph6922("en-GB"),
-                            onPressedAmerican: () => speakagoraph6922(
-                                // REPLACE: agoraphobia /ˌæɡərəˈfəʊbiə/
-                                "en-US"),
+                            onPressedAmerican: () => speakagoraph6922("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

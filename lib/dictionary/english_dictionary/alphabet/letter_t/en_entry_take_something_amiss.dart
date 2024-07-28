@@ -163,9 +163,8 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -194,9 +193,8 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                                         speakTakesomethingamiss411("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakTakesomethingamiss411(
-                                        // REPLACE: take something amiss /teɪk əˈmɪs/
-                                        "en-US"),
+                                    onPressed: () =>
+                                        speakTakesomethingamiss411("en-US"),
                                   ),
                                 ],
                               ),

@@ -145,9 +145,8 @@ class EnglishEntryartillery extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryartillery extends StatelessWidget {
                                 "The town is under heavy artillery fire.",
                             kurdishText: "شارۆچکەکە لەژێر ھێرشی تۆپخانەیە.",
                             onPressedBritish: () => speakartillery1010("en-GB"),
-                            onPressedAmerican: () => speakartillery1010(
-                                // REPLACE: artillery /ɑːrˈtɪləri/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartillery1010("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +175,8 @@ class EnglishEntryartillery extends StatelessWidget {
                             kurdishText:
                                 "بۆ ماوەی ٢٠ ساڵ لە یەکەی تۆپخانە خزمەتی کرد.",
                             onPressedBritish: () => speakartillery1014("en-GB"),
-                            onPressedAmerican: () => speakartillery1014(
-                                // REPLACE: artillery /ɑːrˈtɪləri/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakartillery1014("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

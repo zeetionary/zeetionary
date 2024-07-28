@@ -64,7 +64,7 @@ class EnglishEntryallin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "all-in"), // Find /ˌɔːl ˈɪn/
+                            EntryTitle(word: "all-in"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryallin extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,8 @@ class EnglishEntryallin extends StatelessWidget {
                             kurdishText:
                                 "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت.",
                             onPressedBritish: () => speakallallin52471("en-GB"),
-                            onPressedAmerican: () => speakallallin52471(
-                                // REPLACE: all-in /ˌɔːl ˈɪn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallallin52471("en-US"),
                           ),
                         ],
                       ),

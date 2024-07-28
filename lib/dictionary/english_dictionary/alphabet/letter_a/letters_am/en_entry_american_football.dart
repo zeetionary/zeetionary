@@ -84,9 +84,8 @@ class EnglishEntryamericanfootball extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -99,9 +98,8 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                             kurdishText: "ھیچ حەزم بە تۆپێنی ئەمریکی نییە.",
                             onPressedBritish: () =>
                                 speakamericanfootball45777("en-GB"),
-                            onPressedAmerican: () => speakamericanfootball45777(
-                                // REPLACE: American football /əˌmerɪkən ˈfʊtbɔːl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamericanfootball45777("en-US"),
                           ),
                         ],
                       ),

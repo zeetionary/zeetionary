@@ -146,9 +146,8 @@ class EnglishEntryarbitrageur extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                                 "ئەو یەکێکە لە بەناوبانگترین ئاربیتراژۆرەکانی وۆڵ ستریت.",
                             onPressedBritish: () =>
                                 speakarbitrageur1107("en-GB"),
-                            onPressedAmerican: () => speakarbitrageur1107(
-                                // REPLACE: arbitrageur /ˌɑːrbɪtrɑːˈʒɜːr/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarbitrageur1107("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

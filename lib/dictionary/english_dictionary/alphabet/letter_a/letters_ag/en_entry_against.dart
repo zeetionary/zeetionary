@@ -79,8 +79,7 @@ class EnglishEntryagainst extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "against"), // Find /əˈɡenst/, /əˈɡeɪnst/
+                            EntryTitle(word: "against"),
                           ],
                         ),
                         Row(
@@ -116,9 +115,8 @@ class EnglishEntryagainst extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -132,9 +130,7 @@ class EnglishEntryagainst extends StatelessWidget {
                             englishText: "That's against the law.",
                             kurdishText: "ئەوە دژ بە یاسایە.",
                             onPressedBritish: () => speakaga937884("en-GB"),
-                            onPressedAmerican: () => speakaga937884(
-                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                "en-US"),
+                            onPressedAmerican: () => speakaga937884("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -143,9 +139,7 @@ class EnglishEntryagainst extends StatelessWidget {
                             kurdishText:
                                 "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا.",
                             onPressedBritish: () => speakagain2566("en-GB"),
-                            onPressedAmerican: () => speakagain2566(
-                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                "en-US"),
+                            onPressedAmerican: () => speakagain2566("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -154,9 +148,7 @@ class EnglishEntryagainst extends StatelessWidget {
                             englishText: "The evidence is against him.",
                             kurdishText: "بەڵگەکان لە دژین.",
                             onPressedBritish: () => speakagain156("en-GB"),
-                            onPressedAmerican: () => speakagain156(
-                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                "en-US"),
+                            onPressedAmerican: () => speakagain156("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -166,9 +158,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                 "Put the piano there, against the wall.",
                             kurdishText: "پیانۆکە بخە ئەوێ، لەلای دیوارەکە.",
                             onPressedBritish: () => speakaga156338("en-GB"),
-                            onPressedAmerican: () => speakaga156338(
-                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                "en-US"),
+                            onPressedAmerican: () => speakaga156338("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -177,16 +167,14 @@ class EnglishEntryagainst extends StatelessWidget {
                             englishText: "They took precautions against fire.",
                             kurdishText: "ڕێکاریان دژ بە ئاگرەکە گرتەبەر.",
                             onPressedBritish: () => speakaga98274("en-GB"),
-                            onPressedAmerican: () => speakaga98274(
-                                // REPLACE: against /əˈɡenst/, /əˈɡeɪnst/
-                                "en-US"),
+                            onPressedAmerican: () => speakaga98274("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

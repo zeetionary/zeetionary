@@ -144,9 +144,8 @@ class EnglishEntryarguable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryarguable extends StatelessWidget {
                             kurdishText:
                                 "دەکرێت بوترێت بەدەستەوەدانی وردەکاری زۆر دەکرێت سەرلێشێوێنەر بێت.",
                             onPressedBritish: () => speakarguable1011("en-GB"),
-                            onPressedAmerican: () => speakarguable1011(
-                                // REPLACE: arguable /ˈɑːrɡjuəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarguable1011("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +171,7 @@ class EnglishEntryarguable extends StatelessWidget {
                             englishText: "It is arguable which way is quicker.",
                             kurdishText: "کام ڕێگەیان خێراترە قسەھەڵدەگرێت.",
                             onPressedBritish: () => speakarguable1013("en-GB"),
-                            onPressedAmerican: () => speakarguable1013(
-                                // REPLACE: arguable /ˈɑːrɡjuəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarguable1013("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

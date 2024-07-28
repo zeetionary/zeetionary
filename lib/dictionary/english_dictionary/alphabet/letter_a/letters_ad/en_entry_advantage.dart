@@ -74,7 +74,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "advantage"), // Find /ədˈvɑːntɪdʒ/
+                            EntryTitle(word: "advantage"),
                           ],
                         ),
                         Row(
@@ -108,9 +108,8 @@ class EnglishEntryadvantage extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -127,9 +126,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                             kurdishText:
                                 "سوودی کڕینی بلیت لە پێشدا ئەوەیە کە جێگەی باشتر وەردەگریت.",
                             onPressedBritish: () => speakadvan35688("en-GB"),
-                            onPressedAmerican: () => speakadvan35688(
-                                // REPLACE: advantage /ədˈvæntɪdʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvan35688("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -138,9 +135,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                             kurdishText:
                                 "بۆ گۆڵپارێزێک، ھەبوونی دەستی گەورە سوودێکی گەورەی ھەیە.",
                             onPressedBritish: () => speakadvan3674("en-GB"),
-                            onPressedAmerican: () => speakadvan3674(
-                                // REPLACE: advantage /ədˈvæntɪdʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvan3674("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -151,9 +146,7 @@ class EnglishEntryadvantage extends StatelessWidget {
                             kurdishText:
                                 "ھیچ بەرژەوەندییەک ھەیە لە زوو گەشتن بەوێ.",
                             onPressedBritish: () => speakadvan6724("en-GB"),
-                            onPressedAmerican: () => speakadvan6724(
-                                // REPLACE: advantage /ədˈvæntɪdʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvan6724("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -164,16 +157,14 @@ class EnglishEntryadvantage extends StatelessWidget {
                             kurdishText:
                                 "دایک و باوکانی دەوڵەمەند ھەوڵ دەدەن سوود بە منداڵانیان بگەیەنن بە نادنیان بۆ زانکۆ ناودارەکان.",
                             onPressedBritish: () => speakadvant9436("en-GB"),
-                            onPressedAmerican: () => speakadvant9436(
-                                // REPLACE: advantage /ədˈvæntɪdʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvant9436("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

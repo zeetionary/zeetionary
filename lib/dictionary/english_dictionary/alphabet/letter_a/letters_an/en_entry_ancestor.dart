@@ -140,9 +140,8 @@ class EnglishEntryancestor extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryancestor extends StatelessWidget {
                             kurdishText:
                                 "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا.",
                             onPressedBritish: () => speakancestor7690("en-GB"),
-                            onPressedAmerican: () => speakancestor7690(
-                                // REPLACE: ancestor /ˈænsestər/
-                                "en-US"),
+                            onPressedAmerican: () => speakancestor7690("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryancestor extends StatelessWidget {
                             kurdishText:
                                 "وێنەی باوانی لەسەر دیواری ژوورەکە بوو.",
                             onPressedBritish: () => speakancestor4800("en-GB"),
-                            onPressedAmerican: () => speakancestor4800(
-                                // REPLACE: ancestor /ˈænsestər/
-                                "en-US"),
+                            onPressedAmerican: () => speakancestor4800("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,8 @@ class EnglishEntryancestor extends StatelessWidget {
                             kurdishText:
                                 "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە.",
                             onPressedBritish: () => speakancestor02560("en-GB"),
-                            onPressedAmerican: () => speakancestor02560(
-                                // REPLACE: ancestor /ˈænsestər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakancestor02560("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -199,9 +193,7 @@ class EnglishEntryancestor extends StatelessWidget {
                             kurdishText:
                                 "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە.",
                             onPressedBritish: () => speakancestor0805("en-GB"),
-                            onPressedAmerican: () => speakancestor0805(
-                                // REPLACE: ancestor /ˈænsestər/
-                                "en-US"),
+                            onPressedAmerican: () => speakancestor0805("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

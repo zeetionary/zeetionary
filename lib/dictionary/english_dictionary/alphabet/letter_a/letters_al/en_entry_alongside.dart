@@ -65,7 +65,7 @@ class EnglishEntryalongside extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alongside"), // Find /əˌlɒŋˈsaɪd/
+                            EntryTitle(word: "alongside"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryalongside extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,8 @@ class EnglishEntryalongside extends StatelessWidget {
                             kurdishText:
                                 "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی.",
                             onPressedBritish: () => speakalongside4592("en-GB"),
-                            onPressedAmerican: () => speakalongside4592(
-                                // REPLACE: alongside /əˌlɔːŋˈsaɪd/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalongside4592("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -131,9 +129,8 @@ class EnglishEntryalongside extends StatelessWidget {
                             kurdishText:
                                 "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت.",
                             onPressedBritish: () => speakalongside4597("en-GB"),
-                            onPressedAmerican: () => speakalongside4597(
-                                // REPLACE: alongside /əˌlɔːŋˈsaɪd/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalongside4597("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -142,9 +139,7 @@ class EnglishEntryalongside extends StatelessWidget {
                             kurdishText:
                                 "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن.",
                             onPressedBritish: () => speakalongside9("en-GB"),
-                            onPressedAmerican: () => speakalongside9(
-                                // REPLACE: alongside /əˌlɔːŋˈsaɪd/
-                                "en-US"),
+                            onPressedAmerican: () => speakalongside9("en-US"),
                           ),
                         ],
                       ),

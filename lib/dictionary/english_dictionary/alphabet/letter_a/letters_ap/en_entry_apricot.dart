@@ -144,9 +144,8 @@ class EnglishEntryapricot extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryapricot extends StatelessWidget {
                             englishText: "I don't like apricot.",
                             kurdishText: "حەزم لە قەیسی نییە.",
                             onPressedBritish: () => speakapricot1040("en-GB"),
-                            onPressedAmerican: () => speakapricot1040(
-                                // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapricot1040("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +172,7 @@ class EnglishEntryapricot extends StatelessWidget {
                             kurdishText:
                                 "ژوورەکە بۆیەکرا بە پرتەقاڵی زەردباو و سپی.",
                             onPressedBritish: () => speakapricot1043("en-GB"),
-                            onPressedAmerican: () => speakapricot1043(
-                                // REPLACE: apricot /ˈæprɪkɑːt/, /ˈeɪprɪkɑːt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapricot1043("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

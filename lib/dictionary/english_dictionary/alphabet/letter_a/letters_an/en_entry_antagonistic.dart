@@ -139,9 +139,8 @@ class EnglishEntryantagonistic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,8 @@ class EnglishEntryantagonistic extends StatelessWidget {
                                 "چاوپێکەوتنەکە وای‌کرد دژبەرانە بێت بەرامبەر ڕۆژنامەنووسان.",
                             onPressedBritish: () =>
                                 speakantagonistic105("en-GB"),
-                            onPressedAmerican: () => speakantagonistic105(
-                                // REPLACE: antagonistic /ænˌtæɡəˈnɪstɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantagonistic105("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

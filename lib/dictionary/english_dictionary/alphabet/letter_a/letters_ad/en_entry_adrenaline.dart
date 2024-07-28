@@ -64,7 +64,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adrenaline"), // Find /əˈdrenəlɪn/
+                            EntryTitle(word: "adrenaline"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadrenaline extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +117,14 @@ class EnglishEntryadrenaline extends StatelessWidget {
                             kurdishText:
                                 "جۆشوخرۆشی لە سەرەتای پێشبڕکێیەک دەکرێت وابکات ئەدریناڵین زیادبکات.",
                             onPressedBritish: () => speakadren235874("en-GB"),
-                            onPressedAmerican: () => speakadren235874(
-                                // REPLACE: adrenaline /əˈdrenəlɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadren235874("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

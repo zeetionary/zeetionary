@@ -64,7 +64,7 @@ class EnglishEntryafflict extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "afflict"), // Find /əˈflɪkt/
+                            EntryTitle(word: "afflict"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryafflict extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryafflict extends StatelessWidget {
                             kurdishText:
                                 "شارەکەمان بۆ چەندین دەیەیە گیرۆدە بووە بە ڕێژەیەکی زۆری تاوان.",
                             onPressedBritish: () => speakaffl455("en-GB"),
-                            onPressedAmerican: () => speakaffl455(
-                                // REPLACE: afflict /əˈflɪkt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffl455("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -126,16 +123,14 @@ class EnglishEntryafflict extends StatelessWidget {
                                 "Severe drought has afflicted the region.",
                             kurdishText: "وشکەساڵی سەخت ھەرێمەکەی گرتووەتەوە.",
                             onPressedBritish: () => speakaffli994("en-GB"),
-                            onPressedAmerican: () => speakaffli994(
-                                // REPLACE: afflict /əˈflɪkt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffli994("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

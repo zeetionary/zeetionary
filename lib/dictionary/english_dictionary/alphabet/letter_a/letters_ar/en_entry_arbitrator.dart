@@ -144,9 +144,8 @@ class EnglishEntryarbitrator extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryarbitrator extends StatelessWidget {
                                 "لەم حاڵەتانەدا ناوبژیکارێکی دەرەکی ڕەنگە دیاری‌بکرێت.",
                             onPressedBritish: () =>
                                 speakarbitrator1204("en-GB"),
-                            onPressedAmerican: () => speakarbitrator1204(
-                                // REPLACE: arbitrator /ˈɑːrbɪtreɪtər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarbitrator1204("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

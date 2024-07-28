@@ -145,9 +145,8 @@ class EnglishEntryarchaeologist extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryarchaeologist extends StatelessWidget {
                                 "شوێنەوارناسە و بۆ ماوەی یەک ساڵی ڕابردوو خەریکی ھەڵکۆڵینی شوێنەوارێک بووە لە کریت.",
                             onPressedBritish: () =>
                                 speakarchaeologist251("en-GB"),
-                            onPressedAmerican: () => speakarchaeologist251(
-                                // REPLACE: archaeologist /ˌɑːrkiˈɑːlədʒɪst/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarchaeologist251("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

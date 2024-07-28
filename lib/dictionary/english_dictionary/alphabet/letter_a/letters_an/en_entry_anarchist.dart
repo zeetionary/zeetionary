@@ -137,9 +137,8 @@ class EnglishEntryanarchist extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -152,9 +151,7 @@ class EnglishEntryanarchist extends StatelessWidget {
                             kurdishText:
                                 "کەسێکی شاعیر و حکومەت‌نەویست و گیاخۆر بوو.",
                             onPressedBritish: () => speakanarchist459("en-GB"),
-                            onPressedAmerican: () => speakanarchist459(
-                                // REPLACE: anarchist /ˈænərkɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakanarchist459("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

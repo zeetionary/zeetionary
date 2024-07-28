@@ -64,7 +64,7 @@ class EnglishEntryairliner extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airliner"), // Find /ˈeəlaɪnə(r)/
+                            EntryTitle(word: "airliner"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryairliner extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryairliner extends StatelessWidget {
                             kurdishText:
                                 "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا.",
                             onPressedBritish: () => speakairliner3522("en-GB"),
-                            onPressedAmerican: () => speakairliner3522(
-                                // REPLACE: airliner /ˈerlaɪnər/
-                                "en-US"),
+                            onPressedAmerican: () => speakairliner3522("en-US"),
                           ),
                         ],
                       ),

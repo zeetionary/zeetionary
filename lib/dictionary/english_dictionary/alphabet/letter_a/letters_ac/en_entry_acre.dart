@@ -63,7 +63,7 @@ class EnglishEntryacre extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acre"), // Find /ˈeɪkə(r)/
+                            EntryTitle(word: "acre"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryacre extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -123,7 +122,7 @@ class EnglishEntryacre extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

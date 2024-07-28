@@ -63,7 +63,7 @@ class EnglishEntryaint extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ain't"), // Find /eɪnt/
+                            EntryTitle(word: "ain't"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaint extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -112,8 +111,7 @@ am not/is not/are not"""),
                             kurdishText: "شتەکان وەک جاران نین.",
                             onPressedBritish: () => speakaint286599("en-GB"),
                             onPressedAmerican: () =>
-                                speakaint286599(// REPLACE: ain't /eɪnt/
-                                    "en-US"),
+                                speakaint286599("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -124,8 +122,7 @@ has not/have not"""),
                             kurdishText: "ھیچ پارەم نییە.",
                             onPressedBritish: () => speakaint8411("en-GB"),
                             onPressedAmerican: () =>
-                                speakaint8411(// REPLACE: ain't /eɪnt/
-                                    "en-US"),
+                                speakaint8411("en-US"),
                           ),
                         ],
                       ),

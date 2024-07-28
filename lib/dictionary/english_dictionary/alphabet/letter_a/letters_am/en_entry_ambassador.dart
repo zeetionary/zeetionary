@@ -64,8 +64,7 @@ class EnglishEntryambassador extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "ambassador"), // Find /æmˈbæsədə(r)/
+                            EntryTitle(word: "ambassador"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryambassador extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,8 @@ class EnglishEntryambassador extends StatelessWidget {
                                 "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر.",
                             onPressedBritish: () =>
                                 speakambassador56661("en-GB"),
-                            onPressedAmerican: () => speakambassador56661(
-                                // REPLACE: ambassador /æmˈbæsədər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakambassador56661("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -131,9 +128,7 @@ class EnglishEntryambassador extends StatelessWidget {
                             kurdishText:
                                 "نێردەی پێشووتری ئەڵمانیایە بۆ نەتەوە یەکگرتووەکان.",
                             onPressedBritish: () => speakambassador8("en-GB"),
-                            onPressedAmerican: () => speakambassador8(
-                                // REPLACE: ambassador /æmˈbæsədər/
-                                "en-US"),
+                            onPressedAmerican: () => speakambassador8("en-US"),
                           ),
                         ],
                       ),

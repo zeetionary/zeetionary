@@ -80,7 +80,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ahead of"), // Find /əˈhed əv/
+                            EntryTitle(word: "ahead of"),
                           ],
                         ),
                         Row(
@@ -114,9 +114,8 @@ class EnglishEntryaheadof extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -127,9 +126,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                             englishText: "Two boys were ahead of us.",
                             kurdishText: "دوو کوڕ لە پێشمانەوە بوون.",
                             onPressedBritish: () => speakahead25355("en-GB"),
-                            onPressedAmerican: () => speakahead25355(
-                                // REPLACE: aheadof /əˈhed əv/
-                                "en-US"),
+                            onPressedAmerican: () => speakahead25355("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -138,9 +135,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                             kurdishText:
                                 "دە ڕۆژی پڕ لە ڕاھێنانی سەختمان لە پێشە.",
                             onPressedBritish: () => speakaheadof2377("en-GB"),
-                            onPressedAmerican: () => speakaheadof2377(
-                                // REPLACE: aheadof /əˈhed əv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaheadof2377("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -151,9 +146,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                             kurdishText:
                                 "چەند ڕۆژێک پێش وادەی دیاریکراو تەواو بووم.",
                             onPressedBritish: () => speakahead3522("en-GB"),
-                            onPressedAmerican: () => speakahead3522(
-                                // REPLACE: aheadof /əˈhed əv/
-                                "en-US"),
+                            onPressedAmerican: () => speakahead3522("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -164,9 +157,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                             kurdishText:
                                 "ھەمیشە لەپێش ئەوانی دیکەی پۆلەکە بووە.",
                             onPressedBritish: () => speakaheadof3596("en-GB"),
-                            onPressedAmerican: () => speakaheadof3596(
-                                // REPLACE: aheadof /əˈhed əv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaheadof3596("en-US"),
                           ),
                         ],
                       ),

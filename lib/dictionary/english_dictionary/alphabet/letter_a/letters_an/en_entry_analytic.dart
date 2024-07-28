@@ -155,9 +155,8 @@ class EnglishEntryanalytic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -168,9 +167,8 @@ class EnglishEntryanalytic extends StatelessWidget {
                             englishText: "She has a clear analytic mind.",
                             kurdishText: "مێشکێکی تەواو بەدیقەتی ھەیە.",
                             onPressedBritish: () => speakanalytical150("en-GB"),
-                            onPressedAmerican: () => speakanalytical150(
-                                // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanalytical150("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -181,9 +179,8 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان.",
                             onPressedBritish: () =>
                                 speakanalytical0025("en-GB"),
-                            onPressedAmerican: () => speakanalytical0025(
-                                // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanalytical0025("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +192,8 @@ class EnglishEntryanalytic extends StatelessWidget {
                             kurdishText:
                                 "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە.",
                             onPressedBritish: () => speakanalytic47906("en-GB"),
-                            onPressedAmerican: () => speakanalytic47906(
-                                // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanalytic47906("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

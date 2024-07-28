@@ -64,7 +64,7 @@ class EnglishEntryad extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ad"), // Find /æd/, /ˌeɪˈdiː/
+                            EntryTitle(word: "ad"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryad extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryad extends StatelessWidget {
                             kurdishText:
                                 "زۆرجار حەزم بە ڕیکلامەکانە لەسەر تەلەفیزیۆن وەک لە خودی پڕۆگرامەکان خۆیان.",
                             onPressedBritish: () => speakad142568("en-GB"),
-                            onPressedAmerican: () => speakad142568(
-                                // REPLACE: ad /æd/, /ˌeɪˈdiː/
-                                "en-US"),
+                            onPressedAmerican: () => speakad142568("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,16 +126,14 @@ class EnglishEntryad extends StatelessWidget {
                             englishText: "during the seventh century AD",
                             kurdishText: "لە ماوەی سەدەی حەوتەمی دوای زایین.",
                             onPressedBritish: () => speakad4247("en-GB"),
-                            onPressedAmerican: () => speakad4247(
-                                // REPLACE: ad /æd/, /ˌeɪˈdiː/
-                                "en-US"),
+                            onPressedAmerican: () => speakad4247("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

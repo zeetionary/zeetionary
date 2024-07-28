@@ -115,9 +115,7 @@ class EnglishEntryassociate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "associate"), // Find /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
+                            EntryTitle(word: "associate"),
                             // divvviiider
                           ],
                         ),
@@ -154,9 +152,8 @@ class EnglishEntryassociate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -173,9 +170,8 @@ class EnglishEntryassociate extends StatelessWidget {
                             kurdishText:
                                 "ھەمیشە بۆنی برژاندن دەبەستمەوە بە منداڵیمەوە.",
                             onPressedBritish: () => speakassociate1135("en-GB"),
-                            onPressedAmerican: () => speakassociate1135(
-                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociate1135("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -185,9 +181,8 @@ class EnglishEntryassociate extends StatelessWidget {
                             kurdishText:
                                 "زۆرکەس ڕاستەوخۆ ئاڵوودەیی دەبەستنەوە بە مادەی ھۆشبەر و کحول و جگەرە.",
                             onPressedBritish: () => speakassociate1136("en-GB"),
-                            onPressedAmerican: () => speakassociate1136(
-                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociate1136("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -199,9 +194,8 @@ class EnglishEntryassociate extends StatelessWidget {
                             kurdishText:
                                 "حەزم لە تێکەڵبوون لەگەڵ ئەو کەسانە نییە.",
                             onPressedBritish: () => speakassociate1139("en-GB"),
-                            onPressedAmerican: () => speakassociate1139(
-                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociate1139("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -213,9 +207,8 @@ class EnglishEntryassociate extends StatelessWidget {
                             kurdishText:
                                 "پشتگیری لێدوانەکانی سەرۆک وەزیران دەکەم.",
                             onPressedBritish: () => speakassociate1140("en-GB"),
-                            onPressedAmerican: () => speakassociate1140(
-                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociate1140("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -227,9 +220,8 @@ class EnglishEntryassociate extends StatelessWidget {
                             kurdishText:
                                 "ئەو ناسراوە بەوەی یەکێک لە ھاوەڵەکانی پیاوە تاوەنبارەکە بێت.",
                             onPressedBritish: () => speakassociate1143("en-GB"),
-                            onPressedAmerican: () => speakassociate1143(
-                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociate1143("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -241,9 +233,8 @@ class EnglishEntryassociate extends StatelessWidget {
                             kurdishText:
                                 "تەنھا بەرھەمھێنەری یاریدەدەر بوو لە فیلمەکەدا.",
                             onPressedBritish: () => speakassociate1147("en-GB"),
-                            onPressedAmerican: () => speakassociate1147(
-                                // REPLACE: associate /əˈsəʊsieɪt/, /əˈsəʊʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassociate1147("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

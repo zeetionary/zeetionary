@@ -146,9 +146,8 @@ class EnglishEntryarmour extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryarmour extends StatelessWidget {
                             kurdishText:
                                 "پۆلیس زرێپۆشیان لەبەرکرد پێش ڕووبەڕووبوونەوەی ئاژاوەچییەکان.",
                             onPressedBritish: () => speakarmour530("en-GB"),
-                            onPressedAmerican: () => speakarmour530(
-                                // REPLACE: armour /ˈɑːrmər/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmour530("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryarmour extends StatelessWidget {
                             kurdishText:
                                 "مەیموون ھیچ پارێزەرێکی جەستەیان نییە و مێشکیان بەکاردێنن بۆ چارەسەرکردنی کێشە.",
                             onPressedBritish: () => speakarmour531("en-GB"),
-                            onPressedAmerican: () => speakarmour531(
-                                // REPLACE: armour /ˈɑːrmər/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmour531("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +185,7 @@ class EnglishEntryarmour extends StatelessWidget {
                             kurdishText:
                                 "تانکەکانی ئەم سەردەمە زرێپۆشی بەھێزیان ھەیە.",
                             onPressedBritish: () => speakarmour536("en-GB"),
-                            onPressedAmerican: () => speakarmour536(
-                                // REPLACE: armour /ˈɑːrmər/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmour536("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +197,7 @@ class EnglishEntryarmour extends StatelessWidget {
                             kurdishText:
                                 "ھێزەکان پشتیوانی دەکران بە تانک و تۆپھاوێژ و زرێپۆشی دیکە.",
                             onPressedBritish: () => speakarmour540("en-GB"),
-                            onPressedAmerican: () => speakarmour540(
-                                // REPLACE: armour /ˈɑːrmər/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmour540("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

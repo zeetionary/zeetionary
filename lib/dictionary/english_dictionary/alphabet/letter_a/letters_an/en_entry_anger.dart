@@ -139,9 +139,8 @@ class EnglishEntryanger extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryanger extends StatelessWidget {
                             kurdishText:
                                 "پێویست‌بوو ڕێگایەک بدۆزێتەوە بۆ دەربڕینی توڕەییە خوراوەکەی.",
                             onPressedBritish: () => speakanger104("en-GB"),
-                            onPressedAmerican: () =>
-                                speakanger104(// REPLACE: anger /ˈæŋɡər/
-                                    "en-US"),
+                            onPressedAmerican: () => speakanger104("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -170,9 +167,7 @@ class EnglishEntryanger extends StatelessWidget {
                             kurdishText:
                                 "پلانەکە بوو بەھۆی توڕەیی خەڵکە خۆجێییەکە.",
                             onPressedBritish: () => speakanger407("en-GB"),
-                            onPressedAmerican: () => speakanger407(
-                                // REPLACE: anger /ˈæŋɡər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanger407("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +177,7 @@ class EnglishEntryanger extends StatelessWidget {
                             englishText: "The question clearly angered him.",
                             kurdishText: "پرسیارەکە بەڕوونی تووڕەی‌کرد.",
                             onPressedBritish: () => speakanger005("en-GB"),
-                            onPressedAmerican: () =>
-                                speakanger005(// REPLACE: anger /ˈæŋɡər/
-                                    "en-US"),
+                            onPressedAmerican: () => speakanger005("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -194,9 +187,7 @@ class EnglishEntryanger extends StatelessWidget {
                             kurdishText:
                                 "تووڕەبوون بەوەی ناڕەزاییەکانیان وەلاخران.",
                             onPressedBritish: () => speakanger950("en-GB"),
-                            onPressedAmerican: () => speakanger950(
-                                // REPLACE: anger /ˈæŋɡər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanger950("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

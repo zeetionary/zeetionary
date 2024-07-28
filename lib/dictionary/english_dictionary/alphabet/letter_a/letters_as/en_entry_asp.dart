@@ -146,9 +146,8 @@ class EnglishEntryasp extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryasp extends StatelessWidget {
                             kurdishText:
                                 "بەپێی ئەفسانەکان کلیۆپاترا بە گازی ماری ئاسپ خۆی کووشت.",
                             onPressedBritish: () => speakasp945("en-GB"),
-                            onPressedAmerican: () =>
-                                speakasp945(// REPLACE: asp /æsp/
-                                    "en-US"),
+                            onPressedAmerican: () => speakasp945("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

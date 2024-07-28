@@ -145,9 +145,8 @@ class EnglishEntryantiretroviral extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                 "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە.",
                             onPressedBritish: () =>
                                 speakantiretroviral1208("en-GB"),
-                            onPressedAmerican: () => speakantiretroviral1208(
-                                // REPLACE: antiretroviral /ˌæntiˌretrəʊˈvaɪrəl/, /ˌæntaɪˌretrəʊˈvaɪrəl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiretroviral1208("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

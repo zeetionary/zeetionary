@@ -64,7 +64,7 @@ class EnglishEntryallotment extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allotment"), // Find /əˈlɒtmənt/
+                            EntryTitle(word: "allotment"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryallotment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryallotment extends StatelessWidget {
                                 "They eat fresh vegetables from their allotment.",
                             kurdishText: "میوەی تازەی زەوییەکەی خۆیان دەخۆن.",
                             onPressedBritish: () => speakallotmen1234("en-GB"),
-                            onPressedAmerican: () => speakallotmen1234(
-                                // REPLACE: allotment /əˈlɑːtmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakallotmen1234("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -130,9 +127,8 @@ class EnglishEntryallotment extends StatelessWidget {
                             kurdishText:
                                 "پشکی ئاو بە جوتیاران کەمکرایەوە لە وشکەساڵییەکە.",
                             onPressedBritish: () => speakallotment3652("en-GB"),
-                            onPressedAmerican: () => speakallotment3652(
-                                // REPLACE: allotment /əˈlɑːtmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallotment3652("en-US"),
                           ),
                         ],
                       ),

@@ -63,7 +63,7 @@ class EnglishEntryaddiction extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "addiction"), // Find /əˈdɪkʃn/
+                            EntryTitle(word: "addiction"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaddiction extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,16 +114,14 @@ class EnglishEntryaddiction extends StatelessWidget {
                             kurdishText:
                                 "لە ئێستادا ھەوڵ دەدات کۆتایی بە ئاڵوودەییەکەی بە کحوول بھێنێت.",
                             onPressedBritish: () => speakaddict2541("en-GB"),
-                            onPressedAmerican: () => speakaddict2541(
-                                // REPLACE: addiction /əˈdɪkʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaddict2541("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

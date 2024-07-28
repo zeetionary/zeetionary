@@ -64,9 +64,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aesthetically"), // Find /iːsˈθetɪkli/, /esˈθetɪkli/
+                            EntryTitle(word: "aesthetically"),
                           ],
                         ),
                         Row(
@@ -101,9 +99,8 @@ class EnglishEntryaesthetically extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +113,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                             kurdishText:
                                 "فیلمەکە لەڕووی تەکنیکی و ھونەرییەوە نایاب بوو.",
                             onPressedBritish: () => speakaestheti1255("en-GB"),
-                            onPressedAmerican: () => speakaestheti1255(
-                                // REPLACE: aesthetically /esˈθetɪkli/
-                                "en-US"),
+                            onPressedAmerican: () => speakaestheti1255("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,16 +124,14 @@ class EnglishEntryaesthetically extends StatelessWidget {
                             kurdishText:
                                 "بەشی ناوەوە بەشێوەیەکی جوان دیزاین کرابوو.",
                             onPressedBritish: () => speakaesth3669941("en-GB"),
-                            onPressedAmerican: () => speakaesth3669941(
-                                // REPLACE: aesthetically /esˈθetɪkli/
-                                "en-US"),
+                            onPressedAmerican: () => speakaesth3669941("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

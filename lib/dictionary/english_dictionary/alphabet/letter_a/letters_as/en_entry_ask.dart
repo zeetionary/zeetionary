@@ -186,9 +186,8 @@ class EnglishEntryask extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -202,9 +201,7 @@ class EnglishEntryask extends StatelessWidget {
                             englishText: "He asked about her family.",
                             kurdishText: "پرسیاری لەسەر خێزانەکەی کرد.",
                             onPressedBritish: () => speakask721("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask721(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask721("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -213,9 +210,7 @@ class EnglishEntryask extends StatelessWidget {
                                 "Why does everyone keep asking me that?",
                             kurdishText: "بۆچی ھەمووان ئەوەم لێ دەپرسن؟",
                             onPressedBritish: () => speakask723("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask723(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask723("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -227,9 +222,7 @@ class EnglishEntryask extends StatelessWidget {
                             kurdishText:
                                 "ھەرکەس زانیاریی ھەیە داوای لێ‌کراوە پەیوەندی بە پۆلیسەوە بکات.",
                             onPressedBritish: () => speakask725("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask725(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask725("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -239,9 +232,7 @@ class EnglishEntryask extends StatelessWidget {
                             kurdishText:
                                 "ئەگەر بەڕێزەوە داوای لێ‌بکەیت یارمەتیت دەدات.",
                             onPressedBritish: () => speakask727("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask727(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask727("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -251,9 +242,7 @@ class EnglishEntryask extends StatelessWidget {
                             englishText: "Don't be afraid to ask for help.",
                             kurdishText: "مەترسە لە داواکردن بۆ یارمەتی.",
                             onPressedBritish: () => speakask728("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask728(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask728("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -261,9 +250,7 @@ class EnglishEntryask extends StatelessWidget {
                             englishText: "Why don't you ask his advice?",
                             kurdishText: "بۆچی داوای ڕاوێژی لێ ناکەی؟",
                             onPressedBritish: () => speakask729("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask729(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask729("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -273,9 +260,7 @@ class EnglishEntryask extends StatelessWidget {
                             englishText: "I asked to see the manager.",
                             kurdishText: "داوای بینینی سەرپرشتیارەکەم کرد.",
                             onPressedBritish: () => speakask731("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask731(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask731("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -285,9 +270,7 @@ class EnglishEntryask extends StatelessWidget {
                             englishText: "Thank you so much for asking me.",
                             kurdishText: "سوپاس بۆ بانگھێشتکردنم.",
                             onPressedBritish: () => speakask735("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask735(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask735("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -298,9 +281,7 @@ class EnglishEntryask extends StatelessWidget {
                                 "How much were they asking for their house?",
                             kurdishText: "داوای چەندیان بۆ خانووەکە دەکرد؟",
                             onPressedBritish: () => speakask737("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask737(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask737("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -310,9 +291,7 @@ class EnglishEntryask extends StatelessWidget {
                             englishText: "You're asking too much of him.",
                             kurdishText: "چاوەڕێی زۆری لێ‌دەکەیت.",
                             onPressedBritish: () => speakask739("en-GB"),
-                            onPressedAmerican: () =>
-                                speakask739(// REPLACE: ask /æsk/
-                                    "en-US"),
+                            onPressedAmerican: () => speakask739("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

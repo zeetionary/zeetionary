@@ -144,9 +144,8 @@ class EnglishEntryapprehend extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryapprehend extends StatelessWidget {
                             kurdishText:
                                 "پۆلیس گومانلێکراوێکیان بە چەکەوە دەستگیرکرد لە شوێنی تاوانەکە.",
                             onPressedBritish: () => speakapprehend922("en-GB"),
-                            onPressedAmerican: () => speakapprehend922(
-                                // REPLACE: apprehend /ˌæprɪˈhend/
-                                "en-US"),
+                            onPressedAmerican: () => speakapprehend922("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryapprehend extends StatelessWidget {
                             englishText: "He was slow to apprehend danger.",
                             kurdishText: "درەنگ ھەستی بە مەترسی دەکرد.",
                             onPressedBritish: () => speakapprehend924("en-GB"),
-                            onPressedAmerican: () => speakapprehend924(
-                                // REPLACE: apprehend /ˌæprɪˈhend/
-                                "en-US"),
+                            onPressedAmerican: () => speakapprehend924("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

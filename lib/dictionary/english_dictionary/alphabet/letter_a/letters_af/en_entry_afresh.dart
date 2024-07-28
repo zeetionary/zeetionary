@@ -63,7 +63,7 @@ class EnglishEntryafresh extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "afresh"), // Find /əˈfreʃ/
+                            EntryTitle(word: "afresh"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryafresh extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,15 +115,14 @@ class EnglishEntryafresh extends StatelessWidget {
                                 "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە.",
                             onPressedBritish: () => speakafre411("en-GB"),
                             onPressedAmerican: () =>
-                                speakafre411(// REPLACE: afresh /əˈfreʃ/
-                                    "en-US"),
+                                speakafre411("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -146,9 +146,8 @@ class EnglishEntryassassination extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +166,8 @@ class EnglishEntryassassination extends StatelessWidget {
                                 "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو.",
                             onPressedBritish: () =>
                                 speakassassination1017("en-GB"),
-                            onPressedAmerican: () => speakassassination1017(
-                                // REPLACE: assassination /əˌsæsɪˈneɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassassination1017("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

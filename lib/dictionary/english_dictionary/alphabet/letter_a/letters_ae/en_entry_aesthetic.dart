@@ -65,9 +65,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aesthetic"), // Find /iːsˈθetɪk/, /esˈθetɪk/
+                            EntryTitle(word: "aesthetic"),
                           ],
                         ),
                         Row(
@@ -102,9 +100,8 @@ class EnglishEntryaesthetic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -121,9 +118,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                             kurdishText:
                                 "کارە ھونەرییەکان تەنھا لە لایەنی ھونەرییەوە بڕیاریان لەسەر دەدرێت.",
                             onPressedBritish: () => speakaesth6588("en-GB"),
-                            onPressedAmerican: () => speakaesth6588(
-                                // REPLACE: aesthetic /esˈθetɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakaesth6588("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -134,9 +129,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                             kurdishText:
                                 "شتومەکەکانیان زیاتر بۆ جوانکاری بوو وەک ئەوەی بۆ پێویستی بووبن.",
                             onPressedBritish: () => speakaest67451("en-GB"),
-                            onPressedAmerican: () => speakaest67451(
-                                // REPLACE: aesthetic /esˈθetɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakaest67451("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -147,16 +140,14 @@ class EnglishEntryaesthetic extends StatelessWidget {
                             kurdishText:
                                 "خوێندکاران گەنگەشەی لایەنی جوانکاری (ڕەوانبێژی) لە شیعرەکانیان کرد.",
                             onPressedBritish: () => speakaest52887("en-GB"),
-                            onPressedAmerican: () => speakaest52887(
-                                // REPLACE: aesthetic /esˈθetɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakaest52887("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -64,7 +64,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alcohol"), // Find /ˈælkəhɒl/
+                            EntryTitle(word: "alcohol"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalcohol extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                             kurdishText:
                                 "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول.",
                             onPressedBritish: () => speakalcohol4538("en-GB"),
-                            onPressedAmerican: () => speakalcohol4538(
-                                // REPLACE: alcohol /ˈælkəhɔːl/
-                                "en-US"),
+                            onPressedAmerican: () => speakalcohol4538("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,9 +126,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                             englishText: "Wine contains about 10% alcohol.",
                             kurdishText: "بیرە ڕێژەی ١٠٪ کحولی تێدایە.",
                             onPressedBritish: () => speakalcohol42566("en-GB"),
-                            onPressedAmerican: () => speakalcohol42566(
-                                // REPLACE: alcohol /ˈælkəhɔːl/
-                                "en-US"),
+                            onPressedAmerican: () => speakalcohol42566("en-US"),
                           ),
                         ],
                       ),

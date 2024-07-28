@@ -83,7 +83,7 @@ class EnglishEntryalignment extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alignment"), // Find /əˈlaɪnmənt/
+                            EntryTitle(word: "alignment"),
                           ],
                         ),
                         Row(
@@ -117,9 +117,8 @@ class EnglishEntryalignment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -134,9 +133,8 @@ class EnglishEntryalignment extends StatelessWidget {
                                 "A bone in my spine was out of alignment.",
                             kurdishText: "ئێسکێک لە بڕبڕەی پشتم پلابوو.",
                             onPressedBritish: () => speakalignment2533("en-GB"),
-                            onPressedAmerican: () => speakalignment2533(
-                                // REPLACE: alignment /əˈlaɪnmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalignment2533("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -145,9 +143,8 @@ class EnglishEntryalignment extends StatelessWidget {
                             kurdishText:
                                 "دەرگاکە پێویستە لەگەڵ چوارچێوەکەی ڕێک بێت پێش ئەوەی دەست بە کارکردن بکەیت لەسەری.",
                             onPressedBritish: () => speakalignment2455("en-GB"),
-                            onPressedAmerican: () => speakalignment2455(
-                                // REPLACE: alignment /əˈlaɪnmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalignment2455("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -158,9 +155,8 @@ class EnglishEntryalignment extends StatelessWidget {
                             kurdishText:
                                 "ئەو سیاسەت دادەڕێژین کە لەگەل ئامانجەکانی ساڵەکەمان یەکبگرێتەوە.",
                             onPressedBritish: () => speakalignment3522("en-GB"),
-                            onPressedAmerican: () => speakalignment3522(
-                                // REPLACE: alignment /əˈlaɪnmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalignment3522("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -170,9 +166,8 @@ class EnglishEntryalignment extends StatelessWidget {
                                 "نرخی زەوی زۆر بەرزە و پێویستە ڕێکبخرێت.",
                             onPressedBritish: () =>
                                 speakalignment35288("en-GB"),
-                            onPressedAmerican: () => speakalignment35288(
-                                // REPLACE: alignment /əˈlaɪnmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalignment35288("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -184,9 +179,8 @@ class EnglishEntryalignment extends StatelessWidget {
                                 "سەرۆک وەزیرانە نوێیەکە ھاوپەیمانییەکی زیاتری لەگەڵ ئەمریکادا ھەیە.",
                             onPressedBritish: () =>
                                 speakalignment325888("en-GB"),
-                            onPressedAmerican: () => speakalignment325888(
-                                // REPLACE: alignment /əˈlaɪnmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalignment325888("en-US"),
                           ),
                         ],
                       ),

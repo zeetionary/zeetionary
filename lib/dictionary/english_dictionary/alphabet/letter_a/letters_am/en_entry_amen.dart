@@ -63,7 +63,7 @@ class EnglishEntryamen extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amen"), // Find /ɑːˈmen/, /eɪˈmen/
+                            EntryTitle(word: "amen"),
                             // divvviiider
                           ],
                         ),
@@ -100,9 +100,8 @@ class EnglishEntryamen extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryamen extends StatelessWidget {
                             englishText: "We ask this through our Lord, Amen.",
                             kurdishText: "بۆ ئەمە داوا لە خودا دەکەین، ئامین.",
                             onPressedBritish: () => speakamen2411("en-GB"),
-                            onPressedAmerican: () => speakamen2411(
-                                // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
-                                "en-US"),
+                            onPressedAmerican: () => speakamen2411("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -129,9 +126,7 @@ class EnglishEntryamen extends StatelessWidget {
                                 "Amen to that (= I certainly agree with that).",
                             kurdishText: "خودا بکات (ئەوە ڕووبدات).",
                             onPressedBritish: () => speakamen96552("en-GB"),
-                            onPressedAmerican: () => speakamen96552(
-                                // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
-                                "en-US"),
+                            onPressedAmerican: () => speakamen96552("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

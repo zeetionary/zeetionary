@@ -64,7 +64,7 @@ class EnglishEntryairlift extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airlift"), // Find /ˈeəlɪft/
+                            EntryTitle(word: "airlift"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryairlift extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryairlift extends StatelessWidget {
                             kurdishText:
                                 "دەسەڵاتدارانی ئەڵمانیا بیر لە ئۆپەراسیۆنی گواستنەوەی ڕزگارکردن بە فڕۆکە دەکەنەوە لە حاڵەتی خراپبوونی دۆخەکە.",
                             onPressedBritish: () => speakairlift43555("en-GB"),
-                            onPressedAmerican: () => speakairlift43555(
-                                // REPLACE: airlift /ˈerlɪft/
-                                "en-US"),
+                            onPressedAmerican: () => speakairlift43555("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -126,9 +123,7 @@ class EnglishEntryairlift extends StatelessWidget {
                             kurdishText:
                                 "زیاتر لە ٢٠٠ کەس لە دوورگەکە بە فڕۆکە ڕزگارکران.",
                             onPressedBritish: () => speakairlift3522("en-GB"),
-                            onPressedAmerican: () => speakairlift3522(
-                                // REPLACE: airlift /ˈerlɪft/
-                                "en-US"),
+                            onPressedAmerican: () => speakairlift3522("en-US"),
                           ),
                         ],
                       ),

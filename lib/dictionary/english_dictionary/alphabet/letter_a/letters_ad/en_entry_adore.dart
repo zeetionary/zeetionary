@@ -63,7 +63,7 @@ class EnglishEntryadore extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adore"), // Find /əˈdɔː(r)/
+                            EntryTitle(word: "adore"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadore extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -110,16 +109,14 @@ class EnglishEntryadore extends StatelessWidget {
                             englishText: "It's obvious that she adores him.",
                             kurdishText: "ئاشکرایە کە ئەڤینداریەتی.",
                             onPressedBritish: () => speakadore45821("en-GB"),
-                            onPressedAmerican: () => speakadore45821(
-                                // REPLACE: adore /əˈdɔːr/
-                                "en-US"),
+                            onPressedAmerican: () => speakadore45821("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -64,7 +64,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "algorithm"), // Find /ˈælɡərɪðəm/
+                            EntryTitle(word: "algorithm"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalgorithm extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,8 @@ class EnglishEntryalgorithm extends StatelessWidget {
                                 "ئەپە میوزیکییەکان، بۆ نموونە سپۆتیفای، ئەلگۆریزم بەکاردێنن بۆ ئەوەی پێشبینی ئەگەری حەزی ھەوادارانی باندێک بۆ باندێکی دیکە بکەن.",
                             onPressedBritish: () =>
                                 speakalgorithm25344("en-GB"),
-                            onPressedAmerican: () => speakalgorithm25344(
-                                // REPLACE: algorithm /ˈælɡərɪðəm/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalgorithm25344("en-US"),
                           ),
                         ],
                       ),

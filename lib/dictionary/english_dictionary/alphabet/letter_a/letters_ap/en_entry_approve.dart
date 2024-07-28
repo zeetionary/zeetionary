@@ -145,9 +145,8 @@ class EnglishEntryapprove extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryapprove extends StatelessWidget {
                             kurdishText:
                                 "بە دایکمم گوت واز لە قوتابخانە دێنم، بەڵام ڕازی نەبوو.",
                             onPressedBritish: () => speakapprove907("en-GB"),
-                            onPressedAmerican: () => speakapprove907(
-                                // REPLACE: approve /əˈpruːv/
-                                "en-US"),
+                            onPressedAmerican: () => speakapprove907("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +171,7 @@ class EnglishEntryapprove extends StatelessWidget {
                             englishText: "Do you approve of my idea?",
                             kurdishText: "بیرۆکەکەمت بەدڵە؟",
                             onPressedBritish: () => speakapprove908("en-GB"),
-                            onPressedAmerican: () => speakapprove908(
-                                // REPLACE: approve /əˈpruːv/
-                                "en-US"),
+                            onPressedAmerican: () => speakapprove908("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +182,7 @@ class EnglishEntryapprove extends StatelessWidget {
                                 "The committee unanimously approved the plan.",
                             kurdishText: "لیژنەکە بەتێکڕا پلانەکەی پەسەندکرد.",
                             onPressedBritish: () => speakapprove909("en-GB"),
-                            onPressedAmerican: () => speakapprove909(
-                                // REPLACE: approve /əˈpruːv/
-                                "en-US"),
+                            onPressedAmerican: () => speakapprove909("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -201,9 +194,7 @@ class EnglishEntryapprove extends StatelessWidget {
                             kurdishText:
                                 "ئەم دەرمانە بۆ بەکارھێنان لەسەر منداڵ پەسەند نەکراوە.",
                             onPressedBritish: () => speakapprove911("en-GB"),
-                            onPressedAmerican: () => speakapprove911(
-                                // REPLACE: approve /əˈpruːv/
-                                "en-US"),
+                            onPressedAmerican: () => speakapprove911("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

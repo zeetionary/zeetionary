@@ -150,9 +150,8 @@ class EnglishEntryarticle extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -169,9 +168,7 @@ class EnglishEntryarticle extends StatelessWidget {
                             kurdishText:
                                 "تویتەکەی لینکی وتارێکی تێدایە کە لەسەر سی-ئێن-ئێن پۆستکراوە.",
                             onPressedBritish: () => speakarticle525("en-GB"),
-                            onPressedAmerican: () => speakarticle525(
-                                // REPLACE: article /ˈɑːrtɪkl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarticle525("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -181,9 +178,7 @@ class EnglishEntryarticle extends StatelessWidget {
                             kurdishText:
                                 "بەپێی وتارێکی تازەی ڕۆژنامەیەک، کۆمپانیاکە بەھای دەگاتە ٢٠ ملیار پاوەند.",
                             onPressedBritish: () => speakarticle630("en-GB"),
-                            onPressedAmerican: () => speakarticle630(
-                                // REPLACE: article /ˈɑːrtɪkl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarticle630("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +190,7 @@ class EnglishEntryarticle extends StatelessWidget {
                             kurdishText:
                                 "مادە سەرەکییەکانی دەستوور تەنھا بە ڕیفراندۆم دەتوانرێن بگۆڕدرێن.",
                             onPressedBritish: () => speakarticle635("en-GB"),
-                            onPressedAmerican: () => speakarticle635(
-                                // REPLACE: article /ˈɑːrtɪkl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarticle635("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -209,9 +202,7 @@ class EnglishEntryarticle extends StatelessWidget {
                             kurdishText:
                                 "ئەو شتانەی لە ئۆتۆمبێلەکەدا دۆزرانەوە یارمەتی پۆلیسی دا لە ناسینەوەی تەرمەکە.",
                             onPressedBritish: () => speakarticle639("en-GB"),
-                            onPressedAmerican: () => speakarticle639(
-                                // REPLACE: article /ˈɑːrtɪkl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarticle639("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -223,9 +214,7 @@ class EnglishEntryarticle extends StatelessWidget {
                             kurdishText:
                                 "ناوی وڵاتان زۆرجار لە ئینگلیزیدا ئامرازی ناساندن وەرناگرن.",
                             onPressedBritish: () => speakarticle641("en-GB"),
-                            onPressedAmerican: () => speakarticle641(
-                                // REPLACE: article /ˈɑːrtɪkl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarticle641("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

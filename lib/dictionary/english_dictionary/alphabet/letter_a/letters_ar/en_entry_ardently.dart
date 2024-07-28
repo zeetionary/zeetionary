@@ -143,9 +143,8 @@ class EnglishEntryardently extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryardently extends StatelessWidget {
                             englishText: "He gazed at her ardently.",
                             kurdishText: "بە تامەزرۆییەوە لە کچەکەی دەڕوانی.",
                             onPressedBritish: () => speakardently523("en-GB"),
-                            onPressedAmerican: () => speakardently523(
-                                // REPLACE: ardently /ˈɑːrdntli/
-                                "en-US"),
+                            onPressedAmerican: () => speakardently523("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

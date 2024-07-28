@@ -63,7 +63,7 @@ class EnglishEntryagreeable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agreeable"), // Find /əˈɡriːəbl/
+                            EntryTitle(word: "agreeable"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryagreeable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,16 +113,14 @@ class EnglishEntryagreeable extends StatelessWidget {
                                 "She did her best to make herself agreeable.",
                             kurdishText: "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت.",
                             onPressedBritish: () => speakagree75888("en-GB"),
-                            onPressedAmerican: () => speakagree75888(
-                                // REPLACE: agreeable /əˈɡriːəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakagree75888("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

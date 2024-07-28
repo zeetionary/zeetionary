@@ -74,7 +74,7 @@ class EnglishEntryalthough extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "although"), // Find /ɔːlˈðəʊ/
+                            EntryTitle(word: "although"),
                           ],
                         ),
                         Row(
@@ -108,9 +108,8 @@ class EnglishEntryalthough extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -128,9 +127,7 @@ class EnglishEntryalthough extends StatelessWidget {
                             kurdishText:
                                 "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو.",
                             onPressedBritish: () => speakalthough4596("en-GB"),
-                            onPressedAmerican: () => speakalthough4596(
-                                // REPLACE: although /ɔːlˈðəʊ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalthough4596("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -141,9 +138,7 @@ class EnglishEntryalthough extends StatelessWidget {
                             kurdishText:
                                 "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت.",
                             onPressedBritish: () => speakalthough566("en-GB"),
-                            onPressedAmerican: () => speakalthough566(
-                                // REPLACE: although /ɔːlˈðəʊ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalthough566("en-US"),
                           ),
                         ],
                       ),

@@ -146,9 +146,8 @@ class EnglishEntryappropriation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەھۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە.",
                             onPressedBritish: () =>
                                 speakappropriation425("en-GB"),
-                            onPressedAmerican: () => speakappropriation425(
-                                // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriation425("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -181,9 +179,8 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داھاتووی نزیک.",
                             onPressedBritish: () =>
                                 speakappropriation432("en-GB"),
-                            onPressedAmerican: () => speakappropriation432(
-                                // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriation432("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +193,8 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 "لیژنەکە سەرفکردنی بڕی ٢٠,٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان.",
                             onPressedBritish: () =>
                                 speakappropriation436("en-GB"),
-                            onPressedAmerican: () => speakappropriation436(
-                                // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriation436("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

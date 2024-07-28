@@ -63,7 +63,7 @@ class EnglishEntryallegiance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allegiance"), // Find /əˈliːdʒəns/
+                            EntryTitle(word: "allegiance"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryallegiance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,8 @@ class EnglishEntryallegiance extends StatelessWidget {
                             kurdishText: "وەفاداری خۆی بۆ سەرۆک دووپاتکردەوە.",
                             onPressedBritish: () =>
                                 speakallegiance12566("en-GB"),
-                            onPressedAmerican: () => speakallegiance12566(
-                                // REPLACE: allegiance /əˈliːdʒəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallegiance12566("en-US"),
                           ),
                         ],
                       ),

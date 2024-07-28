@@ -139,9 +139,8 @@ class EnglishEntryanonymity extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryanonymity extends StatelessWidget {
                             kurdishText:
                                 "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی.",
                             onPressedBritish: () => speakanonymity1038("en-GB"),
-                            onPressedAmerican: () => speakanonymity1038(
-                                // REPLACE: anonymity /ˌænəˈnɪməti/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanonymity1038("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

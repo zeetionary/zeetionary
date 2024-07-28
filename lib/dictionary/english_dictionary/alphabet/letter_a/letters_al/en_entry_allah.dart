@@ -63,7 +63,7 @@ class EnglishEntryallah extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "Allah"), // Find /ˈælə/, /əˈlɑː/
+                            EntryTitle(word: "Allah"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryallah extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryallah extends StatelessWidget {
                             englishText: "It is the will of Allah.",
                             kurdishText: "ئەوە ویستی خودایە.",
                             onPressedBritish: () => speakallah359999("en-GB"),
-                            onPressedAmerican: () => speakallah359999(
-                                // REPLACE: Allah /ˈælə/, /ˈɑːlə/, /ɑːˈlɑː/
-                                "en-US"),
+                            onPressedAmerican: () => speakallah359999("en-US"),
                           ),
                         ],
                       ),

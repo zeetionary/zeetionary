@@ -145,9 +145,8 @@ class EnglishEntryascribeto extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                                 "This play is usually ascribed to Shakespeare.",
                             kurdishText: "ئەم شانۆیە زۆرجار دەدرێتەپاڵ شکسپیر.",
                             onPressedBritish: () => speakascribeto141("en-GB"),
-                            onPressedAmerican: () => speakascribeto141(
-                                // REPLACE: ascribe /əˈskraɪb tə/
-                                "en-US"),
+                            onPressedAmerican: () => speakascribeto141("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                             englishText: "He ascribed his failure to bad luck.",
                             kurdishText: "شکستەکەیی خستەمل بێ‌بەختی.",
                             onPressedBritish: () => speakascribeto143("en-GB"),
-                            onPressedAmerican: () => speakascribeto143(
-                                // REPLACE: ascribe /əˈskraɪb tə/
-                                "en-US"),
+                            onPressedAmerican: () => speakascribeto143("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +179,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                                 "We ascribe great importance to these policies.",
                             kurdishText: "گرنگی زۆر دەدەین بەم سیاسەتانە.",
                             onPressedBritish: () => speakascribeto146("en-GB"),
-                            onPressedAmerican: () => speakascribeto146(
-                                // REPLACE: ascribe /əˈskraɪb tə/
-                                "en-US"),
+                            onPressedAmerican: () => speakascribeto146("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -196,9 +189,7 @@ class EnglishEntryascribeto extends StatelessWidget {
                             kurdishText:
                                 "خەڵکی حەز دەکەن ھەستی مرۆڤ بە ئاژەڵیشەوە ببەستنەوە.",
                             onPressedBritish: () => speakascribeto147("en-GB"),
-                            onPressedAmerican: () => speakascribeto147(
-                                // REPLACE: ascribe /əˈskraɪb tə/
-                                "en-US"),
+                            onPressedAmerican: () => speakascribeto147("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

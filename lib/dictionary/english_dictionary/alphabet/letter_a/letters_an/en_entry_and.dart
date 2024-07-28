@@ -127,10 +127,7 @@ class EnglishEntryand extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "and"), // Find /ənd/, /ən/, /n/, strong form  /ænd/
-                            // divvviiider
+                            EntryTitle(word: "and"),
                           ],
                         ),
                         Row(
@@ -168,9 +165,8 @@ class EnglishEntryand extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -183,9 +179,7 @@ class EnglishEntryand extends StatelessWidget {
                             englishText: "Sue and I left early.",
                             kurdishText: "من و سوو زوو ڕۆشتین.",
                             onPressedBritish: () => speakand15005("en-GB"),
-                            onPressedAmerican: () => speakand15005(
-                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                "en-US"),
+                            onPressedAmerican: () => speakand15005("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +189,7 @@ class EnglishEntryand extends StatelessWidget {
                             englishText: "She came in and took her coat off.",
                             kurdishText: "ھاتە ژوورەوە و پاڵتاوەکەی داکەند.",
                             onPressedBritish: () => speakand5044("en-GB"),
-                            onPressedAmerican: () => speakand5044(
-                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                "en-US"),
+                            onPressedAmerican: () => speakand5044("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -207,9 +199,7 @@ class EnglishEntryand extends StatelessWidget {
                             englishText: "Go and get me a pen please.",
                             kurdishText: "تکایە بچۆ و پێنووسێکم بۆ بێنە.",
                             onPressedBritish: () => speakand2205("en-GB"),
-                            onPressedAmerican: () => speakand2205(
-                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                "en-US"),
+                            onPressedAmerican: () => speakand2205("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -221,9 +211,7 @@ class EnglishEntryand extends StatelessWidget {
                             kurdishText:
                                 "«بۆ چەندین کاتژمێر گفتوگۆمان کرد.» «ئەی چی بڕیارێکتان دا؟»",
                             onPressedBritish: () => speakand0258("en-GB"),
-                            onPressedAmerican: () => speakand0258(
-                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                "en-US"),
+                            onPressedAmerican: () => speakand0258("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -233,9 +221,7 @@ class EnglishEntryand extends StatelessWidget {
                             englishText: "Miss another class and you'll fail.",
                             kurdishText: "یەک وانەی تر نەیەی دەرناچیت.",
                             onPressedBritish: () => speakand8854("en-GB"),
-                            onPressedAmerican: () => speakand8854(
-                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                "en-US"),
+                            onPressedAmerican: () => speakand8854("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -245,9 +231,7 @@ class EnglishEntryand extends StatelessWidget {
                             englishText: "What's 47 and 16?",
                             kurdishText: "٤٧ کۆی ١٦ چەند دەکات؟",
                             onPressedBritish: () => speakand5560("en-GB"),
-                            onPressedAmerican: () => speakand5560(
-                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                "en-US"),
+                            onPressedAmerican: () => speakand5560("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -257,9 +241,7 @@ class EnglishEntryand extends StatelessWidget {
                             englishText: "The pain got worse and worse.",
                             kurdishText: "ئازارەکە خراپتر و خراپتر بوو.",
                             onPressedBritish: () => speakand22410("en-GB"),
-                            onPressedAmerican: () => speakand22410(
-                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                "en-US"),
+                            onPressedAmerican: () => speakand22410("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -271,9 +253,7 @@ class EnglishEntryand extends StatelessWidget {
                             kurdishText:
                                 "حەزم لە ژیانی شارە، بەڵام شار ھەیە و شاری تریش ھەیە.",
                             onPressedBritish: () => speakand5570("en-GB"),
-                            onPressedAmerican: () => speakand5570(
-                                // REPLACE: and /ənd/, /ən/, /n/, strong form  /ænd/
-                                "en-US"),
+                            onPressedAmerican: () => speakand5570("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

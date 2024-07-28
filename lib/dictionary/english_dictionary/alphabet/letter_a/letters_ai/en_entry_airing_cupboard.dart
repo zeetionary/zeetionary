@@ -63,8 +63,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "airing cupboard"), // Find /ˈeərɪŋ kʌbəd/
+                            EntryTitle(word: "airing cupboard"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryairingcupboard extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +116,8 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                             kurdishText: "جلەکان بخە دۆڵابەکە.",
                             onPressedBritish: () =>
                                 speakairingcupboard4588("en-GB"),
-                            onPressedAmerican: () => speakairingcupboard4588(
-                                // REPLACE: airing cupboard /ˈerɪŋ kʌbərd/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairingcupboard4588("en-US"),
                           ),
                         ],
                       ),

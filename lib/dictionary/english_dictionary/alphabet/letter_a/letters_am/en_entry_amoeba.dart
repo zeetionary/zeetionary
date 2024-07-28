@@ -99,9 +99,8 @@ class EnglishEntryamoeba extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryamoeba extends StatelessWidget {
                             kurdishText:
                                 "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا.",
                             onPressedBritish: () => speakamoeba352477("en-GB"),
-                            onPressedAmerican: () => speakamoeba352477(
-                                // REPLACE: amoeba /əˈmiːbə/
-                                "en-US"),
+                            onPressedAmerican: () => speakamoeba352477("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

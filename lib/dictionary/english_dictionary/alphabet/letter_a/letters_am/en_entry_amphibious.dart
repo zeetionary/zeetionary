@@ -140,9 +140,8 @@ class EnglishEntryamphibious extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,8 @@ class EnglishEntryamphibious extends StatelessWidget {
                             kurdishText: "زۆرینەی بۆقەکان دووژینەن.",
                             onPressedBritish: () =>
                                 speakamphibious3344("en-GB"),
-                            onPressedAmerican: () => speakamphibious3344(
-                                // REPLACE: amphibious /æmˈfɪbiəs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamphibious3344("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -174,9 +172,8 @@ class EnglishEntryamphibious extends StatelessWidget {
                                 "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین.",
                             onPressedBritish: () =>
                                 speakamphibious496002("en-GB"),
-                            onPressedAmerican: () => speakamphibious496002(
-                                // REPLACE: Dopsum1 /haʊ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamphibious496002("en-US"),
                           ),
                           const DividerDefinition(),
                           // const DividerSentences(),
@@ -189,9 +186,8 @@ class EnglishEntryamphibious extends StatelessWidget {
                                 "دوێنێ فڕۆکەیەکی جووتفڕم بینی لە دەریاچەکەدا.",
                             onPressedBritish: () =>
                                 speakamphibious44952("en-GB"),
-                            onPressedAmerican: () => speakamphibious44952(
-                                // REPLACE: Dopsum1 /haʊ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamphibious44952("en-US"),
                           ),
                           // const DividerDefinition(),
                           // const DividerSentences(),

@@ -138,9 +138,8 @@ class EnglishEntryanoint extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -151,9 +150,7 @@ class EnglishEntryanoint extends StatelessWidget {
                             englishText: "The priest anointed her with oil.",
                             kurdishText: "قەشەکە بە ڕۆن چەوری کرد.",
                             onPressedBritish: () => speakanoint949("en-GB"),
-                            onPressedAmerican: () => speakanoint949(
-                                // REPLACE: anoint /əˈnɔɪnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakanoint949("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

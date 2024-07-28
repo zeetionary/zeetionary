@@ -63,7 +63,7 @@ class EnglishEntryaloof extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aloof"), // Find /əˈluːf/
+                            EntryTitle(word: "aloof"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaloof extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,7 @@ class EnglishEntryaloof extends StatelessWidget {
                             kurdishText:
                                 "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو.",
                             onPressedBritish: () => speakaloof457("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaloof457(// REPLACE: aloof /əˈluːf/
-                                    "en-US"),
+                            onPressedAmerican: () => speakaloof457("en-US"),
                           ),
                         ],
                       ),

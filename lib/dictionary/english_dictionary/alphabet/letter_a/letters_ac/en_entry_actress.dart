@@ -64,7 +64,7 @@ class EnglishEntryactress extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "actress"), // Find /ˈæktrəs/
+                            EntryTitle(word: "actress"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryactress extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -125,7 +124,7 @@ class EnglishEntryactress extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedend(),
                         // YoutubeEmbeddedfour(),

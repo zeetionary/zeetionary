@@ -80,7 +80,7 @@ class EnglishEntryacute extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acute"), // Find /əˈkjuːt/
+                            EntryTitle(word: "acute"),
                           ],
                         ),
                         Row(
@@ -114,9 +114,8 @@ class EnglishEntryacute extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -132,9 +131,7 @@ class EnglishEntryacute extends StatelessWidget {
                             englishText: "There is an acute shortage of water.",
                             kurdishText: "کەمئاوییەکی سەخت بوونی ھەیە.",
                             onPressedBritish: () => speakacute1247("en-GB"),
-                            onPressedAmerican: () => speakacute1247(
-                                // REPLACE: acute /əˈkjuːt/
-                                "en-US"),
+                            onPressedAmerican: () => speakacute1247("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -143,9 +140,7 @@ class EnglishEntryacute extends StatelessWidget {
                             kurdishText:
                                 "ئابڕووچوونەکە شەرمەزارییەکی خراپ بوو بۆ سەرۆک.",
                             onPressedBritish: () => speakacut3749("en-GB"),
-                            onPressedAmerican: () => speakacut3749(
-                                // REPLACE: acute /əˈkjuːt/
-                                "en-US"),
+                            onPressedAmerican: () => speakacut3749("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -155,8 +150,7 @@ class EnglishEntryacute extends StatelessWidget {
                             kurdishText: "ئازاری سەختی سک ئێشە.",
                             onPressedBritish: () => speakacute42("en-GB"),
                             onPressedAmerican: () =>
-                                speakacute42(// REPLACE: acute /əˈkjuːt/
-                                    "en-US"),
+                                speakacute42("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -166,8 +160,7 @@ class EnglishEntryacute extends StatelessWidget {
                             kurdishText: "سەگ ھەستێکی تیژی بۆنکردنی ھەیە.",
                             onPressedBritish: () => speakacu5268("en-GB"),
                             onPressedAmerican: () =>
-                                speakacu5268(// REPLACE: acute /əˈkjuːt/
-                                    "en-US"),
+                                speakacu5268("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -177,15 +170,14 @@ class EnglishEntryacute extends StatelessWidget {
                             kurdishText: "بڕیاردانی وردبینانەیە.",
                             onPressedBritish: () => speakacu5269("en-GB"),
                             onPressedAmerican: () =>
-                                speakacu5269(// REPLACE: acute /əˈkjuːt/
-                                    "en-US"),
+                                speakacu5269("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

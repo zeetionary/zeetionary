@@ -111,8 +111,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "aspirin"), // Find /ˈæsprɪn/, /ˈæspərɪn/
+                            EntryTitle(word: "aspirin"),
                             // divvviiider
                           ],
                         ),
@@ -149,9 +148,8 @@ class EnglishEntryaspirin extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -167,9 +165,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                             englishText: "Do you have any aspirin?",
                             kurdishText: "ھیچ ئاسپرینت ھەیە؟",
                             onPressedBritish: () => speakaspirin814("en-GB"),
-                            onPressedAmerican: () => speakaspirin814(
-                                // REPLACE: aspirin /ˈæsprɪn/, /ˈæspərɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspirin814("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +173,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                             englishText: "Take two aspirin(s) for a headache.",
                             kurdishText: "دوو ئاسپرین بخۆ بۆ سەرێشە.",
                             onPressedBritish: () => speakaspirin815("en-GB"),
-                            onPressedAmerican: () => speakaspirin815(
-                                // REPLACE: aspirin /ˈæsprɪn/, /ˈæspərɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspirin815("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -63,7 +63,7 @@ class EnglishEntryamtwo extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "a.m."), // Find /haʊ/
+                            EntryTitle(word: "a.m."),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryamtwo extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -111,9 +110,7 @@ class EnglishEntryamtwo extends StatelessWidget {
                             kurdishText:
                                 "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەستپێ‌دەکات.",
                             onPressedBritish: () => speakamtwo4555("en-GB"),
-                            onPressedAmerican: () =>
-                                speakamtwo4555(// REPLACE: a.m. /haʊ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakamtwo4555("en-US"),
                           ),
                         ],
                       ),

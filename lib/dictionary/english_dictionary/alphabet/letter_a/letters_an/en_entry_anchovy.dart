@@ -138,9 +138,8 @@ class EnglishEntryanchovy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -153,9 +152,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                             kurdishText:
                                 "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی.",
                             onPressedBritish: () => speakanchovy502("en-GB"),
-                            onPressedAmerican: () => speakanchovy502(
-                                // REPLACE: anchovy /ˈæntʃəʊvi/
-                                "en-US"),
+                            onPressedAmerican: () => speakanchovy502("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

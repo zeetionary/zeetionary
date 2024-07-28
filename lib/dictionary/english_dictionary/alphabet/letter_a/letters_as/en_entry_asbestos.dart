@@ -146,9 +146,8 @@ class EnglishEntryasbestos extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryasbestos extends StatelessWidget {
                             kurdishText:
                                 "کاشییەکانی سەقفەکە کە ئەزبێستۆسیان لێدرابوو دەکەوتنەخوارەوە، بۆیە دەبوو بگۆڕدرێن.",
                             onPressedBritish: () => speakasbestos1111("en-GB"),
-                            onPressedAmerican: () => speakasbestos1111(
-                                // REPLACE: asbestos /æzˈbestəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakasbestos1111("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

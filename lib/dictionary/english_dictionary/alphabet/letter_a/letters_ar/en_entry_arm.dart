@@ -169,9 +169,8 @@ class EnglishEntryarm extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -186,9 +185,7 @@ class EnglishEntryarm extends StatelessWidget {
                             englishText: "She threw her arms around his neck.",
                             kurdishText: "دەستەکانی بەدەوری ملیدا بادا.",
                             onPressedBritish: () => speakarm127("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm127(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm127("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -198,9 +195,7 @@ class EnglishEntryarm extends StatelessWidget {
                             kurdishText:
                                 "بۆ پێشەوە ڕای‌دەکرد و دەستەکانی ڕادەوەشاند.",
                             onPressedBritish: () => speakarm129("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm129(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm129("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -211,9 +206,7 @@ class EnglishEntryarm extends StatelessWidget {
                             kurdishText:
                                 "قۆڵەکەی پێویستیی بە کورتکردنەوە ھەیە.",
                             onPressedBritish: () => speakarm131("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm131(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm131("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -224,9 +217,7 @@ class EnglishEntryarm extends StatelessWidget {
                             kurdishText:
                                 "لەسەر جێ‌دەستی کورسییەکەی ئەو دانیشت.",
                             onPressedBritish: () => speakarm134("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm134(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm134("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -238,9 +229,7 @@ class EnglishEntryarm extends StatelessWidget {
                             kurdishText:
                                 "تانکی بەنزینەکە دەکرێتەوە لەلایەن باڵێکی ڕۆبۆتییەوە.",
                             onPressedBritish: () => speakarm138("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm138(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm138("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -252,9 +241,7 @@ class EnglishEntryarm extends StatelessWidget {
                             kurdishText:
                                 "پردێکی بچووک بەسەر لقە ئاوەکەدا دەپەڕێتەوە.",
                             onPressedBritish: () => speakarm138("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm138(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm138("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -266,9 +253,7 @@ class EnglishEntryarm extends StatelessWidget {
                             kurdishText:
                                 "بانکەکە پلانی ھەیە بەشێکی لقی ئەمریکای بفرۆشێت.",
                             onPressedBritish: () => speakarm148("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm148(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm148("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -280,9 +265,7 @@ class EnglishEntryarm extends StatelessWidget {
                             kurdishText:
                                 "پیاوەکان بە دار و بەرد خۆیان قایم‌کرد.",
                             onPressedBritish: () => speakarm151("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm151(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm151("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -292,9 +275,7 @@ class EnglishEntryarm extends StatelessWidget {
                             kurdishText:
                                 "وڵاتەکە خۆی چەکدار دەکرد دژ بە دوژمنەکەی.",
                             onPressedBritish: () => speakarm152("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm152(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm152("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -306,9 +287,7 @@ class EnglishEntryarm extends StatelessWidget {
                             kurdishText:
                                 "پێش‌وەختە خۆی ئامادەکرد بۆ چاوپێکەوتنەکە بە دۆزینەوەی ھەر شتێک کە دەیتوانی بیکات سەبارەت بە کۆمپانیاکە.",
                             onPressedBritish: () => speakarm156("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarm156(// REPLACE: arm /ɑːrm/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarm156("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

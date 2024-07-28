@@ -147,9 +147,8 @@ class EnglishEntryasexual extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryasexual extends StatelessWidget {
                             englishText: "She led an asexual life.",
                             kurdishText: "ژیانێکی دوور لە سێکسی بەسەربرد.",
                             onPressedBritish: () => speakasexual353("en-GB"),
-                            onPressedAmerican: () => speakasexual353(
-                                // REPLACE: asexual /ˌeɪˈsekʃuəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakasexual353("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +175,7 @@ class EnglishEntryasexual extends StatelessWidget {
                             kurdishText:
                                 "کەسێکی سێکسنەخواز ئەتوانێت سێکس بکات ئەگەرچی دڵیشی نەچێت لە سێکس.",
                             onPressedBritish: () => speakasexual401("en-GB"),
-                            onPressedAmerican: () => speakasexual401(
-                                // REPLACE: asexual /ˌeɪˈsekʃuəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakasexual401("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +187,7 @@ class EnglishEntryasexual extends StatelessWidget {
                             kurdishText:
                                 "قەوزە دەکرێت زاوزێ بکەن بە زۆربوونی سێکسی و بە ناسێکسی.",
                             onPressedBritish: () => speakasexuals3("en-GB"),
-                            onPressedAmerican: () => speakasexuals3(
-                                // REPLACE: asexual /ˌeɪˈsekʃuəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakasexuals3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

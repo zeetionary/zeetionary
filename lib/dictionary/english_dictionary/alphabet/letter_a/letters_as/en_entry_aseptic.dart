@@ -146,9 +146,8 @@ class EnglishEntryaseptic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryaseptic extends StatelessWidget {
                             kurdishText:
                                 "نەشتەرگەرەکە تەکنیکی خاوێن لە بەکتریای بەکارھێنا بۆ ڕێگری لە بڵاوبوونەوەی نەخۆشی.",
                             onPressedBritish: () => speakaseptic157("en-GB"),
-                            onPressedAmerican: () => speakaseptic157(
-                                // REPLACE: aseptic /ˌeɪˈseptɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakaseptic157("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

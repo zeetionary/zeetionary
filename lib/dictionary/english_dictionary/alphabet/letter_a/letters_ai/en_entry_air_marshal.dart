@@ -65,7 +65,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "air marshal"), // Find /ˈeə mɑːʃl/
+                            EntryTitle(word: "air marshal"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryairmarshal extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,8 @@ class EnglishEntryairmarshal extends StatelessWidget {
                             kurdishText:
                                 "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو.",
                             onPressedBritish: () => speakairmarshal524("en-GB"),
-                            onPressedAmerican: () => speakairmarshal524(
-                                // REPLACE: air marshal /ˈer mɑːrʃl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairmarshal524("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -128,9 +126,8 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                 "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت.",
                             onPressedBritish: () =>
                                 speakairmarshal3528("en-GB"),
-                            onPressedAmerican: () => speakairmarshal3528(
-                                // REPLACE: air marshal /ˈer mɑːrʃl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairmarshal3528("en-US"),
                           ),
                         ],
                       ),

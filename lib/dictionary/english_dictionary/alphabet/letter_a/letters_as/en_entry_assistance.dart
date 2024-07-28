@@ -145,9 +145,8 @@ class EnglishEntryassistance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryassistance extends StatelessWidget {
                             englishText: "Can I be of any assistance?",
                             kurdishText: "ھیچ ھەیە بتوانم یارمەتیدەربم تێیدا؟",
                             onPressedBritish: () => speakassistance907("en-GB"),
-                            onPressedAmerican: () => speakassistance907(
-                                // REPLACE: assistance /əˈsɪstəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassistance907("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,9 +171,8 @@ class EnglishEntryassistance extends StatelessWidget {
                             kurdishText:
                                 "سەرنشینەکانی دیکە چوون بۆ یارمەتیدانی.",
                             onPressedBritish: () => speakassistance908("en-GB"),
-                            onPressedAmerican: () => speakassistance908(
-                                // REPLACE: assistance /əˈsɪstəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassistance908("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

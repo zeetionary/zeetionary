@@ -144,9 +144,8 @@ class EnglishEntryapparition extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryapparition extends StatelessWidget {
                             kurdishText:
                                 "تارمایی ژنێک بە ڕۆبەی سپییەوە ڕاگەیەندراوە.",
                             onPressedBritish: () => speakapparition917("en-GB"),
-                            onPressedAmerican: () => speakapparition917(
-                                // REPLACE: apparition /ˌæpəˈrɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapparition917("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

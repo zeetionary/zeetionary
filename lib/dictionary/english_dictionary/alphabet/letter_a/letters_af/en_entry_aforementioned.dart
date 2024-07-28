@@ -64,9 +64,7 @@ class EnglishEntryaforementioned extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aforementioned"), // Find /əˈfɔːmenʃənd/, /əˌfɔːˈmenʃənd/
+                            EntryTitle(word: "aforementioned"),
                           ],
                         ),
                         Row(
@@ -103,9 +101,8 @@ class EnglishEntryaforementioned extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -122,16 +119,14 @@ class EnglishEntryaforementioned extends StatelessWidget {
                             kurdishText:
                                 "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد.",
                             onPressedBritish: () => speakaforemen96("en-GB"),
-                            onPressedAmerican: () => speakaforemen96(
-                                // REPLACE: aforementioned /əˈfɔːmenʃənd/, /əˌfɔːˈmenʃənd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaforemen96("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

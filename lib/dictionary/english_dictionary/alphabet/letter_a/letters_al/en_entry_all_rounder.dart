@@ -64,8 +64,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "all-rounder"), // Find /ˌɔːl ˈraʊndə(r)/
+                            EntryTitle(word: "all-rounder"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryallrounder extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -121,9 +119,8 @@ class EnglishEntryallrounder extends StatelessWidget {
                                 "ھەزارپیشەیەکی باشە کە حەزی بە تێنس و کریکت و مەلەوانی ھەیە.",
                             onPressedBritish: () =>
                                 speakallrounder12544("en-GB"),
-                            onPressedAmerican: () => speakallrounder12544(
-                                // REPLACE: all-rounder /ˌɔːl ˈraʊndər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallrounder12544("en-US"),
                           ),
                         ],
                       ),

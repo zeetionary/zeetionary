@@ -150,9 +150,8 @@ class EnglishEntryarticulation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -170,9 +169,8 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 "ڕوونی و وردی دەربڕینی بیرۆکەکەی وا ئاسانی کرد کە تەنانەت ناشارەزاکانیش لە دەرئەنجامەکانی تێ‌بگەن.",
                             onPressedBritish: () =>
                                 speakarticulation845("en-GB"),
-                            onPressedAmerican: () => speakarticulation845(
-                                // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulation845("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +183,8 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 "زمان و ددان ھەردوویان ئەندامی ئاخاوتنن.",
                             onPressedBritish: () =>
                                 speakarticulation847("en-GB"),
-                            onPressedAmerican: () => speakarticulation847(
-                                // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulation847("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -200,9 +197,8 @@ class EnglishEntryarticulation extends StatelessWidget {
                                 "پێکەوەبەسترانی بەشەکانی پەزڵەکە تەواو بوو.",
                             onPressedBritish: () =>
                                 speakarticulation855("en-GB"),
-                            onPressedAmerican: () => speakarticulation855(
-                                // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulation855("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -212,9 +208,8 @@ class EnglishEntryarticulation extends StatelessWidget {
                             kurdishText: "جومگەی شان ڕێگا بە جووڵەی زۆر دەدات.",
                             onPressedBritish: () =>
                                 speakarticulation853("en-GB"),
-                            onPressedAmerican: () => speakarticulation853(
-                                // REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarticulation853("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

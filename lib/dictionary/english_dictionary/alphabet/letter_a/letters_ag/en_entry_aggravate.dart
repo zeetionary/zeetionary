@@ -64,7 +64,7 @@ class EnglishEntryaggravate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aggravate"), // Find /ˈæɡrəveɪt/
+                            EntryTitle(word: "aggravate"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaggravate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -111,9 +110,7 @@ class EnglishEntryaggravate extends StatelessWidget {
                             englishText: "Pollution can aggravate asthma.",
                             kurdishText: "پیسبوونی ژینگە ڕبۆ توندتر دەکات.",
                             onPressedBritish: () => speakaggrav25189("en-GB"),
-                            onPressedAmerican: () => speakaggrav25189(
-                                // REPLACE: aggravate /ˈæɡrəveɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggrav25189("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -122,16 +119,14 @@ class EnglishEntryaggravate extends StatelessWidget {
                             kurdishText:
                                 "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات.",
                             onPressedBritish: () => speakaggrav3744("en-GB"),
-                            onPressedAmerican: () => speakaggrav3744(
-                                // REPLACE: aggravate /ˈæɡrəveɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggrav3744("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

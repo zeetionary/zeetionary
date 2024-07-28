@@ -127,7 +127,7 @@ class EnglishEntryage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "age"), // Find /eɪdʒ/
+                            EntryTitle(word: "age"),
                           ],
                         ),
                         Row(
@@ -161,9 +161,8 @@ class EnglishEntryage extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -182,8 +181,7 @@ class EnglishEntryage extends StatelessWidget {
                                 "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو.",
                             onPressedBritish: () => speakage938665("en-GB"),
                             onPressedAmerican: () =>
-                                speakage938665(// REPLACE: age /eɪdʒ/
-                                    "en-US"),
+                                speakage938665("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -193,8 +191,7 @@ class EnglishEntryage extends StatelessWidget {
                                 "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە.",
                             onPressedBritish: () => speakage28225("en-GB"),
                             onPressedAmerican: () =>
-                                speakage28225(// REPLACE: age /eɪdʒ/
-                                    "en-US"),
+                                speakage28225("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -204,8 +201,7 @@ class EnglishEntryage extends StatelessWidget {
                             kurdishText: "بۆ ماوەیەکی زۆر چاوەڕێ بووم.",
                             onPressedBritish: () => speakage45562("en-GB"),
                             onPressedAmerican: () =>
-                                speakage45562(// REPLACE: age /eɪdʒ/
-                                    "en-US"),
+                                speakage45562("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -215,8 +211,7 @@ class EnglishEntryage extends StatelessWidget {
                             kurdishText: "لە پیرێتی دەترسا.",
                             onPressedBritish: () => speakage41663("en-GB"),
                             onPressedAmerican: () =>
-                                speakage41663(// REPLACE: age /eɪdʒ/
-                                    "en-US"),
+                                speakage41663("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -227,8 +222,7 @@ class EnglishEntryage extends StatelessWidget {
                                 "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا.",
                             onPressedBritish: () => speakage955887("en-GB"),
                             onPressedAmerican: () =>
-                                speakage955887(// REPLACE: age /eɪdʒ/
-                                    "en-US"),
+                                speakage955887("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -239,8 +233,7 @@ class EnglishEntryage extends StatelessWidget {
                                 "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو.",
                             onPressedBritish: () => speakage471114("en-GB"),
                             onPressedAmerican: () =>
-                                speakage471114(// REPLACE: age /eɪdʒ/
-                                    "en-US"),
+                                speakage471114("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -252,15 +245,14 @@ class EnglishEntryage extends StatelessWidget {
                                 "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە.",
                             onPressedBritish: () => speakage25221("en-GB"),
                             onPressedAmerican: () =>
-                                speakage25221(// REPLACE: age /eɪdʒ/
-                                    "en-US"),
+                                speakage25221("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

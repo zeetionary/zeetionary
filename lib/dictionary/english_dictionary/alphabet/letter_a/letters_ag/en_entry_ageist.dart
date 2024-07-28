@@ -63,7 +63,7 @@ class EnglishEntryageist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ageist"), // Find /ˈeɪdʒɪst/
+                            EntryTitle(word: "ageist"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryageist extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,15 @@ class EnglishEntryageist extends StatelessWidget {
                             kurdishText:
                                 "ڕاستییەکە ئەوەیە لە کۆمەڵگایەکدا دەژین کە مامەڵەی لەگەڵ کەسانی پیر خراپە.",
                             onPressedBritish: () => speakageist5272316("en-GB"),
-                            onPressedAmerican: () => speakageist5272316(
-                                // REPLACE: ageist /ˈeɪdʒɪst/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakageist5272316("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -164,9 +164,8 @@ class EnglishEntryamiably extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -182,9 +181,7 @@ class EnglishEntryamiably extends StatelessWidget {
                             kurdishText:
                                 "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە.",
                             onPressedBritish: () => speakamiably44557("en-GB"),
-                            onPressedAmerican: () => speakamiably44557(
-                                // REPLACE: amiably /ˈeɪmiəbli/
-                                "en-US"),
+                            onPressedAmerican: () => speakamiably44557("en-US"),
                           ),
                         ],
                       ),

@@ -63,7 +63,7 @@ class EnglishEntryacronym extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acronym"), // Find /ˈækrənɪm/
+                            EntryTitle(word: "acronym"),
                           ],
                         ),
                         Row(
@@ -115,7 +115,7 @@ class EnglishEntryacronym extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

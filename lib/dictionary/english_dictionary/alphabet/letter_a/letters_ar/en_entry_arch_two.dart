@@ -143,9 +143,8 @@ class EnglishEntryarchtwo extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryarchtwo extends StatelessWidget {
                             kurdishText:
                                 "ھەمیشە دژبەرێکی سەرسەختی پڕۆژەکە بووە.",
                             onPressedBritish: () => speakarchtwo213("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarchtwo213(// REPLACE: arch- /haʊ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarchtwo213("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

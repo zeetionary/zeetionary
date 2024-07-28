@@ -110,9 +110,7 @@ class EnglishEntryarbitrage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "arbitrage"), // Find /ˈɑːbɪtrɑːʒ/, /ˈɑːbɪtrɪdʒ/
+                            EntryTitle(word: "arbitrage"),
                             // divvviiider
                           ],
                         ),
@@ -148,9 +146,8 @@ class EnglishEntryarbitrage extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +160,8 @@ class EnglishEntryarbitrage extends StatelessWidget {
                             kurdishText:
                                 "بازرگانان وتیان بەرزبوونەوەی نرخی پیزۆ وای‌کرد نرخی پشکە مەکسیکییەکان گرانتر بن بە بەراورد بە ئەوانەی نیویۆرک و ئەمەش وایکرد ھەندێک کڕین و فرۆشتنەوە بە نرخی بەرز ڕووبدات.",
                             onPressedBritish: () => speakarbitrage1055("en-GB"),
-                            onPressedAmerican: () => speakarbitrage1055(
-                                // REPLACE: arbitrage /ˈɑːrbɪtrɑːʒ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarbitrage1055("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

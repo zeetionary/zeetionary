@@ -63,8 +63,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "aerodynamic"), // Find /ˌeərəʊdaɪˈnæmɪk/
+                            EntryTitle(word: "aerodynamic"),
                           ],
                         ),
                         Row(
@@ -112,7 +111,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

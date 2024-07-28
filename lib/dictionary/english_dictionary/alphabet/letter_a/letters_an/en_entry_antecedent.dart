@@ -142,9 +142,8 @@ class EnglishEntryantecedent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryantecedent extends StatelessWidget {
                             kurdishText:
                                 "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد.",
                             onPressedBritish: () => speakantecedent411("en-GB"),
-                            onPressedAmerican: () => speakantecedent411(
-                                // REPLACE: antecedent /ˌæntɪˈsiːdnt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantecedent411("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +173,8 @@ class EnglishEntryantecedent extends StatelessWidget {
                             kurdishText:
                                 "زۆر کەس حەز دەکەن زانیاری لەسەر باپیرانیان بزانن.",
                             onPressedBritish: () => speakantecedent414("en-GB"),
-                            onPressedAmerican: () => speakantecedent414(
-                                // REPLACE: antecedent /ˌæntɪˈsiːdnt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantecedent414("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +189,8 @@ class EnglishEntryantecedent extends StatelessWidget {
                             kurdishText:
                                 "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت.",
                             onPressedBritish: () => speakantecedent421("en-GB"),
-                            onPressedAmerican: () => speakantecedent421(
-                                // REPLACE: antecedent /ˌæntɪˈsiːdnt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantecedent421("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

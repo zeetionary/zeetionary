@@ -64,8 +64,7 @@ class EnglishEntryalleviation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alleviation"), // Find /əˌliːviˈeɪʃn/
+                            EntryTitle(word: "alleviation"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryalleviation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,8 @@ class EnglishEntryalleviation extends StatelessWidget {
                                 "دەرزی ئاژنین لەوانەیە یارمەتیدەر بێت لە سوککردنی سەرێشە.",
                             onPressedBritish: () =>
                                 speakalleviation47114("en-GB"),
-                            onPressedAmerican: () => speakalleviation47114(
-                                // REPLACE: alleviation /əˌliːviˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalleviation47114("en-US"),
                           ),
                         ],
                       ),

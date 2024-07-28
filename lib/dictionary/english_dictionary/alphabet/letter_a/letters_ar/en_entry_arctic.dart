@@ -144,9 +144,8 @@ class EnglishEntryarctic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryarctic extends StatelessWidget {
                             kurdishText:
                                 "ھیچ درەختێک لە ناوچەکانی جەمسەری باکوور گەشە ناکات.",
                             onPressedBritish: () => speakarctic449("en-GB"),
-                            onPressedAmerican: () => speakarctic449(
-                                // REPLACE: Arctic /ˈɑːrktɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarctic449("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +173,7 @@ class EnglishEntryarctic extends StatelessWidget {
                             kurdishText:
                                 "ئەم چەند ڕۆژەی ڕابردوو باکووری ئینگلتەرە بە کەشوھەوای زۆر سارددا تێپەڕیوە.",
                             onPressedBritish: () => speakarctic451("en-GB"),
-                            onPressedAmerican: () => speakarctic451(
-                                // REPLACE: Arctic /ˈɑːrktɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarctic451("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +183,7 @@ class EnglishEntryarctic extends StatelessWidget {
                             englishText: "Polar bears live in the Arctic.",
                             kurdishText: "ورچەسپی لە جەمسەری باکوور دەژین.",
                             onPressedBritish: () => speakarctic452("en-GB"),
-                            onPressedAmerican: () => speakarctic452(
-                                // REPLACE: Arctic /ˈɑːrktɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarctic452("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

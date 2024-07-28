@@ -138,9 +138,8 @@ class EnglishEntryanalgesic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,8 @@ class EnglishEntryanalgesic extends StatelessWidget {
                             kurdishText:
                                 "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و گەستن ھێوردەکاتەوە.",
                             onPressedBritish: () => speakanalgesic5802("en-GB"),
-                            onPressedAmerican: () => speakanalgesic5802(
-                                // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanalgesic5802("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -169,9 +167,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                             englishText: "Aspirin is a mild analgesic.",
                             kurdishText: "ئەسپرین ئازارشکێنێکی سووکە.",
                             onPressedBritish: () => speakanalgesic101("en-GB"),
-                            onPressedAmerican: () => speakanalgesic101(
-                                // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalgesic101("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

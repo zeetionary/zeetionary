@@ -144,9 +144,8 @@ class EnglishEntryargue extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryargue extends StatelessWidget {
                             englishText: "My brothers are always arguing.",
                             kurdishText: "براکانم ھەمیشە شەڕەدەمیانە.",
                             onPressedBritish: () => speakargue957("en-GB"),
-                            onPressedAmerican: () => speakargue957(
-                                // REPLACE: argue /ˈɑːrɡjuː/
-                                "en-US"),
+                            onPressedAmerican: () => speakargue957("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryargue extends StatelessWidget {
                             kurdishText:
                                 "ئەزانم شتێکی پڕوپووچ بوو مشتومڕمان لەسەر کرد.",
                             onPressedBritish: () => speakargue958("en-GB"),
-                            onPressedAmerican: () => speakargue958(
-                                // REPLACE: argue /ˈɑːrɡjuː/
-                                "en-US"),
+                            onPressedAmerican: () => speakargue958("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,7 @@ class EnglishEntryargue extends StatelessWidget {
                             englishText: "They argued for the right to strike.",
                             kurdishText: "مشتومڕیان لەبەرژەوەندی مانگگرتن کرد.",
                             onPressedBritish: () => speakargue1000("en-GB"),
-                            onPressedAmerican: () => speakargue1000(
-                                // REPLACE: argue /ˈɑːrɡjuː/
-                                "en-US"),
+                            onPressedAmerican: () => speakargue1000("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -199,9 +192,7 @@ class EnglishEntryargue extends StatelessWidget {
                             kurdishText:
                                 "پێشھاتەکانی ئەم دواییە دەرخەری گۆڕانن لە سیاسەتی حکومەت.",
                             onPressedBritish: () => speakargue1002("en-GB"),
-                            onPressedAmerican: () => speakargue1002(
-                                // REPLACE: argue /ˈɑːrɡjuː/
-                                "en-US"),
+                            onPressedAmerican: () => speakargue1002("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

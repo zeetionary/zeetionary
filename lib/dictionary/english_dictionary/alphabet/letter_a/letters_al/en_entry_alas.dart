@@ -64,7 +64,7 @@ class EnglishEntryalas extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alas"), // Find /əˈlæs/
+                            EntryTitle(word: "alas"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalas extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryalas extends StatelessWidget {
                             kurdishText:
                                 "بۆ زۆر کەس، بەداخەوە، برسێتی بەشێکە لە ژیانی ڕۆژانە.",
                             onPressedBritish: () => speakalas2569("en-GB"),
-                            onPressedAmerican: () =>
-                                speakalas2569(// REPLACE: alas /əˈlæs/
-                                    "en-US"),
+                            onPressedAmerican: () => speakalas2569("en-US"),
                           ),
                         ],
                       ),

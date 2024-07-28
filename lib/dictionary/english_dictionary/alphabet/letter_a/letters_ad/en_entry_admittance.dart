@@ -63,7 +63,7 @@ class EnglishEntryadmittance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "admittance"), // Find /ədˈmɪtns/
+                            EntryTitle(word: "admittance"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadmittance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,16 +114,14 @@ class EnglishEntryadmittance extends StatelessWidget {
                                 "He was refused admittance into the country.",
                             kurdishText: "ڕێگەی پێ نەدرا بچێتە ناو وڵاتەکەوە.",
                             onPressedBritish: () => speakadmitt37958("en-GB"),
-                            onPressedAmerican: () => speakadmitt37958(
-                                // REPLACE: admittance /ədˈmɪtns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmitt37958("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

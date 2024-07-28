@@ -65,7 +65,7 @@ class EnglishEntryaggression extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aggression"), // Find /əˈɡreʃn/
+                            EntryTitle(word: "aggression"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryaggression extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryaggression extends StatelessWidget {
                             kurdishText:
                                 "توێژینەوەکە دەریدەخات کە یارییە ئەلیکترۆنییەکان دەکرێت ببنەھۆی شەڕەنگێزی.",
                             onPressedBritish: () => speakaggres56322("en-GB"),
-                            onPressedAmerican: () => speakaggres56322(
-                                // REPLACE: aggression /əˈɡreʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggres56322("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -131,16 +128,14 @@ class EnglishEntryaggression extends StatelessWidget {
                             kurdishText:
                                 "سەرۆک ڕایگەیاند کە وڵاتەکە چاوپۆشی ناکات لە ھیچ دەستدرێژییەکی دەرەکی.",
                             onPressedBritish: () => speakaggr35741("en-GB"),
-                            onPressedAmerican: () => speakaggr35741(
-                                // REPLACE: aggression /əˈɡreʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggr35741("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

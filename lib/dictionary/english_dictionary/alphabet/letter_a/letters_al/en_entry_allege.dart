@@ -64,7 +64,7 @@ class EnglishEntryallege extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allege"), // Find /əˈledʒ/
+                            EntryTitle(word: "allege"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryallege extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryallege extends StatelessWidget {
                             kurdishText:
                                 "ئەوترێت خراپ مامەڵەی لەگەڵ زیندانیان دەکرد.",
                             onPressedBritish: () => speakallege46398("en-GB"),
-                            onPressedAmerican: () => speakallege46398(
-                                // REPLACE: allege /əˈledʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakallege46398("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -124,9 +121,7 @@ class EnglishEntryallege extends StatelessWidget {
                             kurdishText:
                                 "دوو پیاوەکە بانگەشەی ئەوە دەکەن کە پۆلیس ناچار بە دانپیانانی ھەڵەی کردوون.",
                             onPressedBritish: () => speakallege361423("en-GB"),
-                            onPressedAmerican: () => speakallege361423(
-                                // REPLACE: allege /əˈledʒ/
-                                "en-US"),
+                            onPressedAmerican: () => speakallege361423("en-US"),
                           ),
                         ],
                       ),

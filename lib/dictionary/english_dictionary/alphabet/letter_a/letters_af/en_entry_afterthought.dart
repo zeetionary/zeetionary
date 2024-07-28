@@ -64,8 +64,7 @@ class EnglishEntryafterthought extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "afterthought"), // Find /ˈɑːftəθɔːt/
+                            EntryTitle(word: "afterthought"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryafterthought extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,16 +117,14 @@ class EnglishEntryafterthought extends StatelessWidget {
                             kurdishText:
                                 "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە.",
                             onPressedBritish: () => speakafterth369("en-GB"),
-                            onPressedAmerican: () => speakafterth369(
-                                // REPLACE: afterthought /ˈɑːftərθɔːt/
-                                "en-US"),
+                            onPressedAmerican: () => speakafterth369("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

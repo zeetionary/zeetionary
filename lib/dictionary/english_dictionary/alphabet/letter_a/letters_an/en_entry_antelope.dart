@@ -139,9 +139,8 @@ class EnglishEntryantelope extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryantelope extends StatelessWidget {
                                 "The hunter disembowelled the antelope.",
                             kurdishText: "ڕاوچییەکە ئاسکەکێوییەکەی کەوڵ کرد.",
                             onPressedBritish: () => speakantelope451("en-GB"),
-                            onPressedAmerican: () => speakantelope451(
-                                // REPLACE: antelope /ˈæntɪləʊp/
-                                "en-US"),
+                            onPressedAmerican: () => speakantelope451("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -63,8 +63,7 @@ class EnglishEntryadjournment extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adjournment"), // Find /əˈdʒɜːnmənt/
+                            EntryTitle(word: "adjournment"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryadjournment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,16 +115,14 @@ class EnglishEntryadjournment extends StatelessWidget {
                                 "The judge granted us a short adjournment.",
                             kurdishText: "دادوەرەکە وچانێکی کاتی بەخشی.",
                             onPressedBritish: () => speakadjou2547("en-GB"),
-                            onPressedAmerican: () => speakadjou2547(
-                                // REPLACE: adjournment /əˈdʒɜːrnmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadjou2547("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

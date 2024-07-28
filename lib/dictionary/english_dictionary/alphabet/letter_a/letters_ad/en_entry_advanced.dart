@@ -65,7 +65,7 @@ class EnglishEntryadvanced extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "advanced"), // Find /ədˈvɑːnst/
+                            EntryTitle(word: "advanced"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryadvanced extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,7 @@ class EnglishEntryadvanced extends StatelessWidget {
                             kurdishText:
                                 "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو.",
                             onPressedBritish: () => speakadvanc2534("en-GB"),
-                            onPressedAmerican: () => speakadvanc2534(
-                                // REPLACE: advanced /ədˈvænst/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvanc2534("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -132,16 +129,14 @@ class EnglishEntryadvanced extends StatelessWidget {
                             kurdishText:
                                 "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت.",
                             onPressedBritish: () => speakadvan2546("en-GB"),
-                            onPressedAmerican: () => speakadvan2546(
-                                // REPLACE: advanced /ədˈvænst/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvan2546("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

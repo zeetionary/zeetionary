@@ -138,9 +138,8 @@ class EnglishEntryanglo extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -153,9 +152,7 @@ class EnglishEntryanglo extends StatelessWidget {
                             kurdishText:
                                 "ئینگلیزی-بەریتانی واتە کەسێک کە بە ڕەچەڵەک ئینگلیزە بەڵام لە کەنەدا دەژی.",
                             onPressedBritish: () => speakanglo40115("en-GB"),
-                            onPressedAmerican: () => speakanglo40115(
-                                // REPLACE: Anglo- /æŋɡləʊ/
-                                "en-US"),
+                            onPressedAmerican: () => speakanglo40115("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

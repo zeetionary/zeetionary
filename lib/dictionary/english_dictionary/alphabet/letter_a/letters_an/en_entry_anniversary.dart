@@ -138,9 +138,8 @@ class EnglishEntryanniversary extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە.",
                             onPressedBritish: () =>
                                 speakanniversary147("en-GB"),
-                            onPressedAmerican: () => speakanniversary147(
-                                // REPLACE: anniversary /ˌænɪˈvɜːrsəri/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanniversary147("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

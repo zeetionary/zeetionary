@@ -163,9 +163,8 @@ class EnglishEntryamerican extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -181,9 +180,7 @@ class EnglishEntryamerican extends StatelessWidget {
                                 "He said he was proud to be an American.",
                             kurdishText: "گوتی شانازییە بۆی خەڵکی ئەمریکا بێت.",
                             onPressedBritish: () => speakamerican4211("en-GB"),
-                            onPressedAmerican: () => speakamerican4211(
-                                // REPLACE: American /əˈmerɪkən/
-                                "en-US"),
+                            onPressedAmerican: () => speakamerican4211("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -192,18 +189,15 @@ class EnglishEntryamerican extends StatelessWidget {
                             englishText: "I'm American.",
                             kurdishText: "من ئەمریکیم.",
                             onPressedBritish: () => speakamerican4555("en-GB"),
-                            onPressedAmerican: () => speakamerican4555(
-                                // REPLACE: American /əˈmerɪkən/
-                                "en-US"),
+                            onPressedAmerican: () => speakamerican4555("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "They drive a big American car.",
                             kurdishText: "ئۆتۆمبێلێکی گەورەی ئەمریکییان ھەیە.",
                             onPressedBritish: () => speakamerican46599("en-GB"),
-                            onPressedAmerican: () => speakamerican46599(
-                                // REPLACE: American /əˈmerɪkən/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamerican46599("en-US"),
                           ),
                         ],
                       ),

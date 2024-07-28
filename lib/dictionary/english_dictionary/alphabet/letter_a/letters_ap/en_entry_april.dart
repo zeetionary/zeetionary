@@ -143,9 +143,8 @@ class EnglishEntryapril extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryapril extends StatelessWidget {
                             englishText: "She was born in April.",
                             kurdishText: "لە نیسان لەدایکبوو.",
                             onPressedBritish: () => speakapril1055("en-GB"),
-                            onPressedAmerican: () => speakapril1055(
-                                // REPLACE: April /ˈeɪprəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakapril1055("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryapril extends StatelessWidget {
                             englishText: "We went to Japan last April.",
                             kurdishText: "نیسانی ڕابردوو چووین بۆ ژاپۆن.",
                             onPressedBritish: () => speakapril1056("en-GB"),
-                            onPressedAmerican: () => speakapril1056(
-                                // REPLACE: April /ˈeɪprəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakapril1056("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -143,9 +143,8 @@ class EnglishEntryarmpit extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryarmpit extends StatelessWidget {
                                 "To my mind, a hairless armpit looks unnatural.",
                             kurdishText: "بۆ من، بن‌باڵی بێ موو نا سرووشتییە.",
                             onPressedBritish: () => speakarmpit412("en-GB"),
-                            onPressedAmerican: () => speakarmpit412(
-                                // REPLACE: armpit /ˈɑːrmpɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmpit412("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

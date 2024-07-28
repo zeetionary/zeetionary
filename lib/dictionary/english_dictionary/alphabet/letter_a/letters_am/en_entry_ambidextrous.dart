@@ -64,8 +64,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "ambidextrous"), // Find /ˌæmbiˈdekstrəs/
+                            EntryTitle(word: "ambidextrous"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryambidextrous extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,8 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                 "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە.",
                             onPressedBritish: () =>
                                 speakambidextrous525555("en-GB"),
-                            onPressedAmerican: () => speakambidextrous525555(
-                                // REPLACE: ambidextrous /ˌæmbiˈdekstrəs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakambidextrous525555("en-US"),
                           ),
                         ],
                       ),

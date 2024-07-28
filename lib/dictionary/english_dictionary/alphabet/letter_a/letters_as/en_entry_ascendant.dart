@@ -145,9 +145,8 @@ class EnglishEntryascendant extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,8 @@ class EnglishEntryascendant extends StatelessWidget {
                             kurdishText:
                                 "لە بورجی بزنم، بەڵام کەلووگەم بورجی شێرە.",
                             onPressedBritish: () => speakascendant1217("en-GB"),
-                            onPressedAmerican: () => speakascendant1217(
-                                // REPLACE: ascendant /əˈsendənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakascendant1217("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

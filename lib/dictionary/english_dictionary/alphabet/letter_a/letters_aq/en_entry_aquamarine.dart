@@ -145,9 +145,8 @@ class EnglishEntryaquamarine extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryaquamarine extends StatelessWidget {
                             kurdishText:
                                 "مورووی زومروود دەکرێت بەخت‌ھێنەر بێت لە خۆشەویستیدا.",
                             onPressedBritish: () => speakaquamarine857("en-GB"),
-                            onPressedAmerican: () => speakaquamarine857(
-                                // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaquamarine857("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +176,8 @@ class EnglishEntryaquamarine extends StatelessWidget {
                             kurdishText:
                                 "شاشەی تەلەفیزیۆنەکە بوو بە پارچە لاکێشەیەکی سەھۆڵی سەوزی شین‌باو.",
                             onPressedBritish: () => speakaquamarine902("en-GB"),
-                            onPressedAmerican: () => speakaquamarine902(
-                                // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaquamarine902("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +189,8 @@ class EnglishEntryaquamarine extends StatelessWidget {
                             kurdishText:
                                 "دەریا سەوزە شین‌باوەکە ئەدرەوشایەوە لەژێج خۆرە ڕۆشنەکەدا و دیمەنێکی دڵ‌ڕفێنەری درووستکردبوو.",
                             onPressedBritish: () => speakaquamarine905("en-GB"),
-                            onPressedAmerican: () => speakaquamarine905(
-                                // REPLACE: aquamarine /ˌɑːkwəməˈriːn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaquamarine905("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

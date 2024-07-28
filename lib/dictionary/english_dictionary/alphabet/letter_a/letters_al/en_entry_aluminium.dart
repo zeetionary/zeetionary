@@ -63,9 +63,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aluminium"), // Find /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/
+                            EntryTitle(word: "aluminium"),
                           ],
                         ),
                         Row(
@@ -101,9 +99,8 @@ class EnglishEntryaluminium extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -122,9 +119,8 @@ class EnglishEntryaluminium extends StatelessWidget {
                                 "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا.",
                             onPressedBritish: () =>
                                 speakaluminium55555("en-GB"),
-                            onPressedAmerican: () => speakaluminium55555(
-                                // REPLACE: aluminium /ˌæljəˈmɪniəm/, /ˌæləˈmɪniəm/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaluminium55555("en-US"),
                           ),
                         ],
                       ),

@@ -150,7 +150,7 @@ class EnglishEntryadvance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "advance"), // Find /ədˈvɑːns/
+                            EntryTitle(word: "advance"),
                           ],
                         ),
                         Row(
@@ -184,9 +184,8 @@ class EnglishEntryadvance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -202,9 +201,7 @@ class EnglishEntryadvance extends StatelessWidget {
                             kurdishText:
                                 "لە سەردەمێکدا دەژین کە تەکنەلۆژیا بەخێرایی بەرەو پێشەوە دەچێت.",
                             onPressedBritish: () => speakadv2567("en-GB"),
-                            onPressedAmerican: () => speakadv2567(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadv2567("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -215,9 +212,7 @@ class EnglishEntryadvance extends StatelessWidget {
                             kurdishText:
                                 "پێشڕەویی دوژمن ناچاری کردبوون بکشێنەوە ناو چیکان.",
                             onPressedBritish: () => speakadvan3567("en-GB"),
-                            onPressedAmerican: () => speakadvan3567(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvan3567("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -227,9 +222,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                 "The publishers have paid me an advance.",
                             kurdishText: "بڵاوکەرەوەکان پێشەکییەکیان داوە پێم.",
                             onPressedBritish: () => speakadv253("en-GB"),
-                            onPressedAmerican: () => speakadv253(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadv253("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -240,9 +233,7 @@ class EnglishEntryadvance extends StatelessWidget {
                             kurdishText:
                                 "ھەوڵیدا پەیوەندی سێکسی لەگەڵ یەکێک لە ھاوکارەکانی درووست بکات.",
                             onPressedBritish: () => speakadv23574("en-GB"),
-                            onPressedAmerican: () => speakadv23574(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadv23574("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -253,9 +244,7 @@ class EnglishEntryadvance extends StatelessWidget {
                             kurdishText:
                                 "تێگەشتنمان بۆ نەخۆشییەکە زۆر بەرەوپێشچووە لە چەند ساڵی ڕابردوودا.",
                             onPressedBritish: () => speakadvan6988("en-GB"),
-                            onPressedAmerican: () => speakadvan6988(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvan6988("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -266,9 +255,7 @@ class EnglishEntryadvance extends StatelessWidget {
                             kurdishText:
                                 "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا.",
                             onPressedBritish: () => speakad456("en-GB"),
-                            onPressedAmerican: () => speakad456(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakad456("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -279,9 +266,7 @@ class EnglishEntryadvance extends StatelessWidget {
                             kurdishText:
                                 "پێکەوە کاریان کرد بۆ بەرەوپێشچوونی دۆزی دیموکراسی.",
                             onPressedBritish: () => speakadv3568("en-GB"),
-                            onPressedAmerican: () => speakadv3568(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadv3568("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -290,9 +275,7 @@ class EnglishEntryadvance extends StatelessWidget {
                             englishText: "We will advance you the money.",
                             kurdishText: "پارەکەت بە پێشەکی پێدەدەین.",
                             onPressedBritish: () => speakadva391("en-GB"),
-                            onPressedAmerican: () => speakadva391(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadva391("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -303,9 +286,7 @@ class EnglishEntryadvance extends StatelessWidget {
                             kurdishText:
                                 "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا.",
                             onPressedBritish: () => speakadva7864("en-GB"),
-                            onPressedAmerican: () => speakadva7864(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadva7864("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -316,9 +297,7 @@ class EnglishEntryadvance extends StatelessWidget {
                             kurdishText:
                                 "ڕێکەوتی دانیشتنەکەی دادگا یەک ھەفتە ھێنراوەتە پێشەوە.",
                             onPressedBritish: () => speakadva8529("en-GB"),
-                            onPressedAmerican: () => speakadva8529(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadva8529("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -329,16 +308,14 @@ class EnglishEntryadvance extends StatelessWidget {
                             kurdishText:
                                 "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار.",
                             onPressedBritish: () => speakadv9678("en-GB"),
-                            onPressedAmerican: () => speakadv9678(
-                                // REPLACE: advance /ədˈvɑːns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadv9678("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

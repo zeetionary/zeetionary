@@ -146,9 +146,8 @@ class EnglishEntryaromatherapist extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                                 "حەزم لە چارەسەری سرووشتی و گیادەرمانی بوو و بوون بە ئێرۆماسێراپیست.",
                             onPressedBritish: () =>
                                 speakaromatherapist1046("en-GB"),
-                            onPressedAmerican: () => speakaromatherapist1046(
-                                // REPLACE: aromatherapist /əˌrəʊməˈθerəpɪst/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaromatherapist1046("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

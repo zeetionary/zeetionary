@@ -66,7 +66,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           children: [
                             EntryTitle(
                                 word:
-                                    "Alzheimer's diseaseeeeeeeeeeeeeeeeeeeeeeeee"), // Find /ˈæltshaɪməz dɪziːz/, /ˈɔːltshaɪməz dɪziːz/
+                                    "Alzheimer's diseaseeeeeeeeeeeeeeeeeeeeeeeee"),
                             // divvviiider
                           ],
                         ),
@@ -104,9 +104,8 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -125,9 +124,8 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە.",
                             onPressedBritish: () =>
                                 speakalzheimersdisease6555("en-GB"),
-                            onPressedAmerican: () => speakalzheimersdisease6555(
-                                // REPLACE: Alzheimer's disease /ˈɑːltshaɪmərz dɪziːz/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalzheimersdisease6555("en-US"),
                           ),
                         ],
                       ),

@@ -65,7 +65,7 @@ class EnglishEntryallocation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allocation"), // Find /ˌæləˈkeɪʃn/
+                            EntryTitle(word: "allocation"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryallocation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +119,8 @@ class EnglishEntryallocation extends StatelessWidget {
                                 "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە.",
                             onPressedBritish: () =>
                                 speakallocation1362("en-GB"),
-                            onPressedAmerican: () => speakallocation1362(
-                                // REPLACE: allocation /ˌæləˈkeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallocation1362("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -131,9 +129,8 @@ class EnglishEntryallocation extends StatelessWidget {
                             kurdishText:
                                 "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات.",
                             onPressedBritish: () => speakallocation342("en-GB"),
-                            onPressedAmerican: () => speakallocation342(
-                                // REPLACE: allocation /ˌæləˈkeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallocation342("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -143,9 +140,8 @@ class EnglishEntryallocation extends StatelessWidget {
                                 "The allocation of space in this office is unusual.",
                             kurdishText: "پێدانی شوێن لەم ئۆفیسەدا نامۆیە.",
                             onPressedBritish: () => speakallocation359("en-GB"),
-                            onPressedAmerican: () => speakallocation359(
-                                // REPLACE: allocation /ˌæləˈkeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallocation359("en-US"),
                           ),
                         ],
                       ),

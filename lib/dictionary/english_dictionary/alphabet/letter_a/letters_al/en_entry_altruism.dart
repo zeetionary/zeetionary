@@ -64,7 +64,7 @@ class EnglishEntryaltruism extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "altruism"), // Find /ˈæltruɪzəm/
+                            EntryTitle(word: "altruism"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaltruism extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryaltruism extends StatelessWidget {
                             kurdishText:
                                 "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی.",
                             onPressedBritish: () => speakaltruism4693("en-GB"),
-                            onPressedAmerican: () => speakaltruism4693(
-                                // REPLACE: altruism /ˈæltruɪzəm/
-                                "en-US"),
+                            onPressedAmerican: () => speakaltruism4693("en-US"),
                           ),
                         ],
                       ),

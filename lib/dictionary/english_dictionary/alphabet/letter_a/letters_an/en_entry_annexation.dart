@@ -139,9 +139,8 @@ class EnglishEntryannexation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,8 @@ class EnglishEntryannexation extends StatelessWidget {
                                 "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا.",
                             onPressedBritish: () =>
                                 speakannexation1150("en-GB"),
-                            onPressedAmerican: () => speakannexation1150(
-                                // REPLACE: annexation /ˌænekˈseɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakannexation1150("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,9 +171,8 @@ class EnglishEntryannexation extends StatelessWidget {
                                 "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات.",
                             onPressedBritish: () =>
                                 speakannexation1151("en-GB"),
-                            onPressedAmerican: () => speakannexation1151(
-                                // REPLACE: annexation /ˌænekˈseɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakannexation1151("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

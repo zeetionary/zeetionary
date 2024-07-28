@@ -64,8 +64,7 @@ class EnglishEntryadventurer extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adventurer"), // Find /ədˈventʃərə(r)/
+                            EntryTitle(word: "adventurer"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryadventurer extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,16 +117,14 @@ class EnglishEntryadventurer extends StatelessWidget {
                             kurdishText:
                                 "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد.",
                             onPressedBritish: () => speakadve3566("en-GB"),
-                            onPressedAmerican: () => speakadve3566(
-                                // REPLACE: adventurer /ədˈventʃərər/
-                                "en-US"),
+                            onPressedAmerican: () => speakadve3566("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

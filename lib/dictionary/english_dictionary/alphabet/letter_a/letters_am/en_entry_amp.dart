@@ -140,9 +140,8 @@ class EnglishEntryamp extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,7 @@ class EnglishEntryamp extends StatelessWidget {
                             kurdishText:
                                 "سرکتێکی ئاسایی ماڵان ١٥ بۆ ٢٠ ئەمپێر دەگوازێتەوە.",
                             onPressedBritish: () => speakamp4599("en-GB"),
-                            onPressedAmerican: () =>
-                                speakamp4599(// REPLACE: amp /æmp/
-                                    "en-US"),
+                            onPressedAmerican: () => speakamp4599("en-US"),
                           ),
                         ],
                       ),

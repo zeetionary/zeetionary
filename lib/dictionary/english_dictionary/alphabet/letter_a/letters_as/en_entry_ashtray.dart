@@ -146,9 +146,8 @@ class EnglishEntryashtray extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryashtray extends StatelessWidget {
                             kurdishText:
                                 "تەپڵەکی چێشتخانەکان بەزوویی بەتاڵ و پاک دەکرانەوە.",
                             onPressedBritish: () => speakashtray509("en-GB"),
-                            onPressedAmerican: () => speakashtray509(
-                                // REPLACE: ashtray /ˈæʃtreɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakashtray509("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

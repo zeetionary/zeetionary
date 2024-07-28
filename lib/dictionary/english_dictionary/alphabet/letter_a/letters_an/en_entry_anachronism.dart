@@ -139,9 +139,8 @@ class EnglishEntryanachronism extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryanachronism extends StatelessWidget {
                                 "پاشایەتی لەلایەن زۆر کەس بە بەشێک لە ڕابردوو دادەنرێت لە جیھانی ئەمڕۆدا.",
                             onPressedBritish: () =>
                                 speakanachronism4599("en-GB"),
-                            onPressedAmerican: () => speakanachronism4599(
-                                // REPLACE: anachronism /əˈnækrənɪzəm/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanachronism4599("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -174,9 +172,8 @@ class EnglishEntryanachronism extends StatelessWidget {
                                 "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر.",
                             onPressedBritish: () =>
                                 speakanachronism0205("en-GB"),
-                            onPressedAmerican: () => speakanachronism0205(
-                                // REPLACE: anachronism /əˈnækrənɪzəm/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanachronism0205("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -143,9 +143,8 @@ class EnglishEntryaptitude extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryaptitude extends StatelessWidget {
                                 "She showed a natural aptitude for the work.",
                             kurdishText: "بلیمەتیی سرووستی پیشان‌دا بۆ کارەکە.",
                             onPressedBritish: () => speakaptitude823("en-GB"),
-                            onPressedAmerican: () => speakaptitude823(
-                                // REPLACE: aptitude /ˈæptɪtuːd/
-                                "en-US"),
+                            onPressedAmerican: () => speakaptitude823("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

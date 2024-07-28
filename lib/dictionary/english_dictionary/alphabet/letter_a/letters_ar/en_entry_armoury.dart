@@ -145,9 +145,8 @@ class EnglishEntryarmoury extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە.",
                             onPressedBritish: () => speakarmoury631("en-GB"),
-                            onPressedAmerican: () => speakarmoury631(
-                                // REPLACE: armoury /ˈɑːrməri/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmoury631("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +177,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                             kurdishText:
                                 "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە.",
                             onPressedBritish: () => speakarmoury635("en-GB"),
-                            onPressedAmerican: () => speakarmoury635(
-                                // REPLACE: armoury /ˈɑːrməri/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmoury635("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +189,7 @@ class EnglishEntryarmoury extends StatelessWidget {
                             kurdishText:
                                 "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان.",
                             onPressedBritish: () => speakarmoury646("en-GB"),
-                            onPressedAmerican: () => speakarmoury646(
-                                // REPLACE: armoury /ˈɑːrməri/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmoury646("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

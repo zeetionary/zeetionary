@@ -65,7 +65,7 @@ class EnglishEntryallergic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allergic"), // Find /əˈlɜːdʒɪk/
+                            EntryTitle(word: "allergic"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryallergic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,8 @@ class EnglishEntryallergic extends StatelessWidget {
                                 "I like cats but unfortunately I'm allergic to them.",
                             kurdishText: "حەزم لە پشیلەیە بەڵام ھەستیارم پێی.",
                             onPressedBritish: () => speakallergic35699("en-GB"),
-                            onPressedAmerican: () => speakallergic35699(
-                                // REPLACE: allergic /əˈlɜːrdʒɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallergic35699("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,9 +127,7 @@ class EnglishEntryallergic extends StatelessWidget {
                             kurdishText:
                                 "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە.",
                             onPressedBritish: () => speakallergic4692("en-GB"),
-                            onPressedAmerican: () => speakallergic4692(
-                                // REPLACE: allergic /əˈlɜːrdʒɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakallergic4692("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -142,9 +138,8 @@ class EnglishEntryallergic extends StatelessWidget {
                             kurdishText:
                                 "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو.",
                             onPressedBritish: () => speakallergic45993("en-GB"),
-                            onPressedAmerican: () => speakallergic45993(
-                                // REPLACE: allergic /əˈlɜːrdʒɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallergic45993("en-US"),
                           ),
                         ],
                       ),

@@ -140,9 +140,8 @@ class EnglishEntryannounce extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,7 @@ class EnglishEntryannounce extends StatelessWidget {
                             kurdishText:
                                 "خۆشحاڵین بە ڕاگەیاندنی ئەوەی ھەر پێنج کاندیدەکە سەرکەوتووبوون.",
                             onPressedBritish: () => speakannounce350("en-GB"),
-                            onPressedAmerican: () => speakannounce350(
-                                // REPLACE: announce /əˈnaʊns/
-                                "en-US"),
+                            onPressedAmerican: () => speakannounce350("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -167,9 +164,7 @@ class EnglishEntryannounce extends StatelessWidget {
                             kurdishText:
                                 "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن ھەلی کاری بە میدیا ڕاگەیاند.",
                             onPressedBritish: () => speakannounce352("en-GB"),
-                            onPressedAmerican: () => speakannounce352(
-                                // REPLACE: announce /əˈnaʊns/
-                                "en-US"),
+                            onPressedAmerican: () => speakannounce352("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +174,7 @@ class EnglishEntryannounce extends StatelessWidget {
                             englishText: "Has our flight been announced yet?",
                             kurdishText: "گەشتەکەمان ڕاگەیەندراوە؟",
                             onPressedBritish: () => speakannounce356("en-GB"),
-                            onPressedAmerican: () => speakannounce356(
-                                // REPLACE: announce /əˈnaʊns/
-                                "en-US"),
+                            onPressedAmerican: () => speakannounce356("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +185,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                 "She announced that she'd given up drinking.",
                             kurdishText: "ڕایگەیاند وازی لە خواردنەوە ھێنا.",
                             onPressedBritish: () => speakannounce359("en-GB"),
-                            onPressedAmerican: () => speakannounce359(
-                                // REPLACE: announce /əˈnaʊns/
-                                "en-US"),
+                            onPressedAmerican: () => speakannounce359("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -205,9 +196,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                 "He announced the guests as they arrived. (= called out their names, for example at a formal party)",
                             kurdishText: "ھاتنی میوانەکانی ڕاگەیاند کە گەشتن.",
                             onPressedBritish: () => speakannounce403("en-GB"),
-                            onPressedAmerican: () => speakannounce403(
-                                // REPLACE: announce /əˈnaʊns/
-                                "en-US"),
+                            onPressedAmerican: () => speakannounce403("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

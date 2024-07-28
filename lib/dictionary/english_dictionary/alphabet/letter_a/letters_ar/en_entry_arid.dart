@@ -144,9 +144,8 @@ class EnglishEntryarid extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryarid extends StatelessWidget {
                             englishText: "Nothing grows in these arid regions.",
                             kurdishText: "ھیچ گەشە ناکات لەم ناوچە بێ‌بارانە.",
                             onPressedBritish: () => speakarid1126("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarid1126(// REPLACE: arid /ˈærɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarid1126("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -172,9 +169,7 @@ class EnglishEntryarid extends StatelessWidget {
                             englishText: "I found his writing extremely arid.",
                             kurdishText: "نووسینەکانی وشک‌بوون بەلامەوە.",
                             onPressedBritish: () => speakarid1129("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarid1129(// REPLACE: arid /ˈærɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarid1129("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +181,7 @@ class EnglishEntryarid extends StatelessWidget {
                             kurdishText:
                                 "لە دوای چەند ساڵێکی بێ‌قازانج، کۆمپانیاکە دەستی‌کردووە بە سەرکەوتن.",
                             onPressedBritish: () => speakarid1131("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarid1131(// REPLACE: arid /ˈærɪd/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarid1131("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

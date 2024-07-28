@@ -64,7 +64,7 @@ class EnglishEntryalleluia extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alleluia"), // Find /ˌælɪˈluːjə/
+                            EntryTitle(word: "alleluia"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalleluia extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,8 @@ class EnglishEntryalleluia extends StatelessWidget {
                             kurdishText:
                                 "کاتێک ھەواڵی سەرکەوتنیان گەشت، شوکرانەیەکی زۆری دڵخۆشی ھەبوو لەناو تیمەکە.",
                             onPressedBritish: () => speakalleluia35288("en-GB"),
-                            onPressedAmerican: () => speakalleluia35288(
-                                // REPLACE: alleluia /ˌælɪˈluːjə/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalleluia35288("en-US"),
                           ),
                         ],
                       ),

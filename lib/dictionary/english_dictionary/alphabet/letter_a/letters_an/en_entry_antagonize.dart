@@ -139,9 +139,8 @@ class EnglishEntryantagonize extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -154,9 +153,8 @@ class EnglishEntryantagonize extends StatelessWidget {
                             kurdishText:
                                 "بۆ دووربوون لە زیاتر تووڕەکردنی ھیچی دیکەی نەوت.",
                             onPressedBritish: () => speakantagonize117("en-GB"),
-                            onPressedAmerican: () => speakantagonize117(
-                                // REPLACE: Antagonize /ænˈtæɡənaɪz/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantagonize117("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

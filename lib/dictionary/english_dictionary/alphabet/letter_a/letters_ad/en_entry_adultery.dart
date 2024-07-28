@@ -63,7 +63,7 @@ class EnglishEntryadultery extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adultery"), // Find /əˈdʌltəri/
+                            EntryTitle(word: "adultery"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadultery extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,14 @@ class EnglishEntryadultery extends StatelessWidget {
                                 "He was accused of committing adultery.",
                             kurdishText: "تاوانبارکرا بە ئەنجامدانی زینا.",
                             onPressedBritish: () => speakadult53891("en-GB"),
-                            onPressedAmerican: () => speakadult53891(
-                                // REPLACE: adultery /əˈdʌltəri/
-                                "en-US"),
+                            onPressedAmerican: () => speakadult53891("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

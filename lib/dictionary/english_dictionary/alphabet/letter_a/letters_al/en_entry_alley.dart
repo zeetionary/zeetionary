@@ -63,7 +63,7 @@ class EnglishEntryalley extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alley"), // Find /ˈæli/
+                            EntryTitle(word: "alley"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryalley extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryalley extends StatelessWidget {
                             kurdishText:
                                 "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە.",
                             onPressedBritish: () => speakalley452("en-GB"),
-                            onPressedAmerican: () =>
-                                speakalley452(// REPLACE: alley /ˈæli/
-                                    "en-US"),
+                            onPressedAmerican: () => speakalley452("en-US"),
                           ),
                         ],
                       ),

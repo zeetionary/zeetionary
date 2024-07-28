@@ -64,7 +64,7 @@ class EnglishEntryaimless extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aimless"), // Find /ˈeɪmləs/
+                            EntryTitle(word: "aimless"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaimless extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryaimless extends StatelessWidget {
                             englishText: "My life seemed aimless.",
                             kurdishText: "ژیانم بێ ئامانج دیاربوو.",
                             onPressedBritish: () => speakaimless25388("en-GB"),
-                            onPressedAmerican: () => speakaimless25388(
-                                // REPLACE: aimless /ˈeɪmləs/
-                                "en-US"),
+                            onPressedAmerican: () => speakaimless25388("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -125,9 +122,7 @@ class EnglishEntryaimless extends StatelessWidget {
                             kurdishText:
                                 "گوتی ژیانی بێ ئامانج بوو لە دوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت.",
                             onPressedBritish: () => speakaimless4277("en-GB"),
-                            onPressedAmerican: () => speakaimless4277(
-                                // REPLACE: aimless /ˈeɪmləs/
-                                "en-US"),
+                            onPressedAmerican: () => speakaimless4277("en-US"),
                           ),
                         ],
                       ),

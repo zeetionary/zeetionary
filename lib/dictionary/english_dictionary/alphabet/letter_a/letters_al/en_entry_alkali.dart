@@ -64,7 +64,7 @@ class EnglishEntryalkali extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alkali"), // Find /ˈælkəlaɪ/
+                            EntryTitle(word: "alkali"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalkali extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryalkali extends StatelessWidget {
                             kurdishText:
                                 "کاتێک ترش و تفت کارلێک دەکەن خوێ و ئاو درووست دەکەن.",
                             onPressedBritish: () => speakalkali85236("en-GB"),
-                            onPressedAmerican: () => speakalkali85236(
-                                // REPLACE: alkali /ˈælkəlaɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalkali85236("en-US"),
                           ),
                         ],
                       ),

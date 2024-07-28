@@ -142,9 +142,8 @@ class EnglishEntryantediluvian extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryantediluvian extends StatelessWidget {
                                 "دایکم ھەندێک بیرۆکەی کۆنەپەرستانەی نائومێدکەری ھەیە دەربارەی ئەرکی ژنان.",
                             onPressedBritish: () =>
                                 speakantediluvian439("en-GB"),
-                            onPressedAmerican: () => speakantediluvian439(
-                                // REPLACE: antediluvian /ˌæntidɪˈluːviən/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantediluvian439("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

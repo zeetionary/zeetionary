@@ -64,7 +64,7 @@ class EnglishEntryaground extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aground"), // Find /əˈɡraʊnd/
+                            EntryTitle(word: "aground"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryaground extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryaground extends StatelessWidget {
                             kurdishText:
                                 "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا.",
                             onPressedBritish: () => speakagro3441("en-GB"),
-                            onPressedAmerican: () => speakagro3441(
-                                // REPLACE: aground /əˈɡraʊnd/
-                                "en-US"),
+                            onPressedAmerican: () => speakagro3441("en-US"),
                           ),
                         ],
                       ),

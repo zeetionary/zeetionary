@@ -163,9 +163,8 @@ class EnglishEntryamorous extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -183,9 +182,7 @@ class EnglishEntryamorous extends StatelessWidget {
                             kurdishText:
                                 "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە.",
                             onPressedBritish: () => speakamorous441("en-GB"),
-                            onPressedAmerican: () => speakamorous441(
-                                // REPLACE: amorous /ˈæmərəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakamorous441("en-US"),
                           ),
                         ],
                       ),

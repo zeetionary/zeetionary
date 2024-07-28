@@ -137,9 +137,8 @@ class EnglishEntryanalyst extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryanalyst extends StatelessWidget {
                             kurdishText:
                                 "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن.",
                             onPressedBritish: () => speakanalyst45888("en-GB"),
-                            onPressedAmerican: () => speakanalyst45888(
-                                // REPLACE: analyst /ˈænəlɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalyst45888("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -167,9 +164,7 @@ class EnglishEntryanalyst extends StatelessWidget {
                             englishText: "She is a financial analyst.",
                             kurdishText: "لێکۆڵەرێکی ئابوورییە.",
                             onPressedBritish: () => speakanalyst7401("en-GB"),
-                            onPressedAmerican: () => speakanalyst7401(
-                                // REPLACE: analyst /ˈænəlɪst/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalyst7401("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

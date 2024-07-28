@@ -63,7 +63,7 @@ class EnglishEntryakin extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "akin"), // Find /əˈkɪn/
+                            EntryTitle(word: "akin"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryakin extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,8 +115,7 @@ class EnglishEntryakin extends StatelessWidget {
                                 "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی.",
                             onPressedBritish: () => speakakin3544("en-GB"),
                             onPressedAmerican: () =>
-                                speakakin3544(// REPLACE: akin /əˈkɪn/
-                                    "en-US"),
+                                speakakin3544("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -127,8 +125,7 @@ class EnglishEntryakin extends StatelessWidget {
                                 "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی.",
                             onPressedBritish: () => speakakin5366("en-GB"),
                             onPressedAmerican: () =>
-                                speakakin5366(// REPLACE: akin /əˈkɪn/
-                                    "en-US"),
+                                speakakin5366("en-US"),
                           ),
                         ],
                       ),

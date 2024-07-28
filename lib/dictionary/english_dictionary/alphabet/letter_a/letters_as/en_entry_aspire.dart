@@ -145,9 +145,8 @@ class EnglishEntryaspire extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryaspire extends StatelessWidget {
                             englishText: "She aspired to a scientific career.",
                             kurdishText: "ئاواتی ھەبوو کارێکی زانستی ھەبێت.",
                             onPressedBritish: () => speakaspire700("en-GB"),
-                            onPressedAmerican: () => speakaspire700(
-                                // REPLACE: aspire /əˈspaɪər/
-                                "en-US"),
+                            onPressedAmerican: () => speakaspire700("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

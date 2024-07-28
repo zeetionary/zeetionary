@@ -114,7 +114,7 @@ class EnglishEntryaid extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aid"), // Find /eɪd/
+                            EntryTitle(word: "aid"),
                           ],
                         ),
                         Row(
@@ -148,9 +148,8 @@ class EnglishEntryaid extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -169,8 +168,7 @@ class EnglishEntryaid extends StatelessWidget {
                                 "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە.",
                             onPressedBritish: () => speakaid2522("en-GB"),
                             onPressedAmerican: () =>
-                                speakaid2522(// REPLACE: aid /eɪd/
-                                    "en-US"),
+                                speakaid2522("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -180,8 +178,7 @@ class EnglishEntryaid extends StatelessWidget {
                                 "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت.",
                             onPressedBritish: () => speakaid38996("en-GB"),
                             onPressedAmerican: () =>
-                                speakaid38996(// REPLACE: aid /eɪd/
-                                    "en-US"),
+                                speakaid38996("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -193,8 +190,7 @@ class EnglishEntryaid extends StatelessWidget {
                                 "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای.",
                             onPressedBritish: () => speakaid35288("en-GB"),
                             onPressedAmerican: () =>
-                                speakaid35288(// REPLACE: aid /eɪd/
-                                    "en-US"),
+                                speakaid35288("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -204,8 +200,7 @@ class EnglishEntryaid extends StatelessWidget {
                             kurdishText: "وێنە یارمەتیدەری باشە لە فێرکردندا.",
                             onPressedBritish: () => speakaid37844("en-GB"),
                             onPressedAmerican: () =>
-                                speakaid37844(// REPLACE: aid /eɪd/
-                                    "en-US"),
+                                speakaid37844("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -217,8 +212,7 @@ class EnglishEntryaid extends StatelessWidget {
                                 "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە.",
                             onPressedBritish: () => speakaid35882555("en-GB"),
                             onPressedAmerican: () =>
-                                speakaid35882555(// REPLACE: aid /eɪd/
-                                    "en-US"),
+                                speakaid35882555("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -228,8 +222,7 @@ class EnglishEntryaid extends StatelessWidget {
                                 "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا.",
                             onPressedBritish: () => speakaid45269("en-GB"),
                             onPressedAmerican: () =>
-                                speakaid45269(// REPLACE: aid /eɪd/
-                                    "en-US"),
+                                speakaid45269("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -241,8 +234,7 @@ class EnglishEntryaid extends StatelessWidget {
                                 "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە.",
                             onPressedBritish: () => speakaid43748("en-GB"),
                             onPressedAmerican: () =>
-                                speakaid43748(// REPLACE: aid /eɪd/
-                                    "en-US"),
+                                speakaid43748("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -250,8 +242,7 @@ class EnglishEntryaid extends StatelessWidget {
                             kurdishText: "نەعنا یارمەتی ھەرسکردن دەدات.",
                             onPressedBritish: () => speakaid35999("en-GB"),
                             onPressedAmerican: () =>
-                                speakaid35999(// REPLACE: aid /eɪd/
-                                    "en-US"),
+                                speakaid35999("en-US"),
                           ),
                         ],
                       ),

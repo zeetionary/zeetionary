@@ -80,7 +80,7 @@ class EnglishEntryadopt extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adopt"), // Find /əˈdɒpt/
+                            EntryTitle(word: "adopt"),
                           ],
                         ),
                         Row(
@@ -114,9 +114,8 @@ class EnglishEntryadopt extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -129,9 +128,7 @@ class EnglishEntryadopt extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە.",
                             onPressedBritish: () => speakad256471("en-GB"),
-                            onPressedAmerican: () => speakad256471(
-                                // REPLACE: adopt /əˈdɑːpt/
-                                "en-US"),
+                            onPressedAmerican: () => speakad256471("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -142,8 +139,7 @@ class EnglishEntryadopt extends StatelessWidget {
                             kurdishText: "پۆلیس ڕێکاری توندتری گرتەبەر.",
                             onPressedBritish: () => speakad25673("en-GB"),
                             onPressedAmerican: () =>
-                                speakad25673(// REPLACE: adopt /əˈdɑːpt/
-                                    "en-US"),
+                                speakad25673("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -154,9 +150,7 @@ class EnglishEntryadopt extends StatelessWidget {
                             kurdishText:
                                 "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد.",
                             onPressedBritish: () => speakado45826("en-GB"),
-                            onPressedAmerican: () => speakado45826(
-                                // REPLACE: adopt /əˈdɑːpt/
-                                "en-US"),
+                            onPressedAmerican: () => speakado45826("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -168,15 +162,14 @@ class EnglishEntryadopt extends StatelessWidget {
                                 "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە.",
                             onPressedBritish: () => speakado7259("en-GB"),
                             onPressedAmerican: () =>
-                                speakado7259(// REPLACE: adopt /əˈdɑːpt/
-                                    "en-US"),
+                                speakado7259("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

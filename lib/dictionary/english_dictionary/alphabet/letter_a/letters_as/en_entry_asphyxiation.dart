@@ -145,9 +145,8 @@ class EnglishEntryasphyxiation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryasphyxiation extends StatelessWidget {
                             kurdishText: "ھۆکاری مردنەکە خنکان بوو.",
                             onPressedBritish: () =>
                                 speakasphyxiation625("en-GB"),
-                            onPressedAmerican: () => speakasphyxiation625(
-                                // REPLACE: asphyxiation /əsˌfɪksiˈeɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakasphyxiation625("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

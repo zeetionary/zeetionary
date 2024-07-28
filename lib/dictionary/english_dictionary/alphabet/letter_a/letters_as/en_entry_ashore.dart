@@ -145,9 +145,8 @@ class EnglishEntryashore extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryashore extends StatelessWidget {
                             englishText: "We swam ashore.",
                             kurdishText: "بەرەو وشکانی مەلەمان کرد.",
                             onPressedBritish: () => speakashore607("en-GB"),
-                            onPressedAmerican: () => speakashore607(
-                                // REPLACE: ashore /əˈʃɔːr/
-                                "en-US"),
+                            onPressedAmerican: () => speakashore607("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryashore extends StatelessWidget {
                             kurdishText:
                                 "چەند پارچە تەختەیەک ھاتبوونە سەر وشکانییەکە.",
                             onPressedBritish: () => speakashore609("en-GB"),
-                            onPressedAmerican: () => speakashore609(
-                                // REPLACE: ashore /əˈʃɔːr/
-                                "en-US"),
+                            onPressedAmerican: () => speakashore609("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

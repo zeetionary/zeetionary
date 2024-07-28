@@ -145,9 +145,8 @@ class EnglishEntryarabic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryarabic extends StatelessWidget {
                                 "Arabic is very difficult to learn for many people.",
                             kurdishText: "بۆ زۆر خەڵک عەرەبی گرانە بۆ فێربوون.",
                             onPressedBritish: () => speakarabic1010("en-GB"),
-                            onPressedAmerican: () => speakarabic1010(
-                                // REPLACE: arabic /ˈærəbɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarabic1010("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +171,7 @@ class EnglishEntryarabic extends StatelessWidget {
                             kurdishText:
                                 "عیبری و عەرەبی ھەردووکیان زمانی سامین.",
                             onPressedBritish: () => speakarabic1012("en-GB"),
-                            onPressedAmerican: () => speakarabic1012(
-                                // REPLACE: arabic /ˈærəbɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarabic1012("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +183,7 @@ class EnglishEntryarabic extends StatelessWidget {
                             kurdishText:
                                 "بابەتەکانی ھۆنراوەی عەرەبی زۆرجار باسی خۆشەویستی و سرووشت و ناسنامەی نەتەوەیین.",
                             onPressedBritish: () => speakarabic1017("en-GB"),
-                            onPressedAmerican: () => speakarabic1017(
-                                // REPLACE: arabic /ˈærəbɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarabic1017("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

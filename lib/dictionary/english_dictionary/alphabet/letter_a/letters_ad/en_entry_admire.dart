@@ -65,7 +65,7 @@ class EnglishEntryadmire extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "admire"), // Find /ədˈmaɪə(r)/
+                            EntryTitle(word: "admire"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryadmire extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryadmire extends StatelessWidget {
                             kurdishText:
                                 "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە.",
                             onPressedBritish: () => speakadmi2561("en-GB"),
-                            onPressedAmerican: () => speakadmi2561(
-                                // REPLACE: admire /ədˈmaɪər/
-                                "en-US"),
+                            onPressedAmerican: () => speakadmi2561("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -125,16 +122,14 @@ class EnglishEntryadmire extends StatelessWidget {
                             kurdishText:
                                 "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا.",
                             onPressedBritish: () => speakadm96871("en-GB"),
-                            onPressedAmerican: () => speakadm96871(
-                                // REPLACE: admire /ədˈmaɪər/
-                                "en-US"),
+                            onPressedAmerican: () => speakadm96871("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

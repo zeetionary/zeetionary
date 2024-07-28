@@ -99,9 +99,8 @@ class EnglishEntryamenable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,8 @@ class EnglishEntryamenable extends StatelessWidget {
                                 "They had three very amenable children.",
                             kurdishText: "سێ منداڵی گوێگریان ھەبوو.",
                             onPressedBritish: () => speakamenable48577("en-GB"),
-                            onPressedAmerican: () => speakamenable48577(
-                                // REPLACE: amenable /əˈmiːnəbl/, /əˈmenəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamenable48577("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -129,9 +127,8 @@ class EnglishEntryamenable extends StatelessWidget {
                             kurdishText: "زۆر قایل دیاربوو بە بیرۆکەکەم.",
                             onPressedBritish: () =>
                                 speakamenable635211("en-GB"),
-                            onPressedAmerican: () => speakamenable635211(
-                                // REPLACE: amenable /əˈmiːnəbl/, /əˈmenəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamenable635211("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

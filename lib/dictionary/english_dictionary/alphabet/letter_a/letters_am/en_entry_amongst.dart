@@ -163,9 +163,8 @@ class EnglishEntryamongst extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -183,9 +182,7 @@ class EnglishEntryamongst extends StatelessWidget {
                             kurdishText:
                                 "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا.",
                             onPressedBritish: () => speakamongst7655("en-GB"),
-                            onPressedAmerican: () => speakamongst7655(
-                                // REPLACE: amongst /əˈmʌŋst/
-                                "en-US"),
+                            onPressedAmerican: () => speakamongst7655("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -195,9 +192,7 @@ class EnglishEntryamongst extends StatelessWidget {
                                 "A British woman was amongst the survivors.",
                             kurdishText: "ژنێکی بەریتانی لەناو ڕزگاربووان بوو.",
                             onPressedBritish: () => speakamongst4666("en-GB"),
-                            onPressedAmerican: () => speakamongst4666(
-                                // REPLACE: amongst /əˈmʌŋst/
-                                "en-US"),
+                            onPressedAmerican: () => speakamongst4666("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -208,9 +203,7 @@ class EnglishEntryamongst extends StatelessWidget {
                             kurdishText:
                                 "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد.",
                             onPressedBritish: () => speakamongst4111("en-GB"),
-                            onPressedAmerican: () => speakamongst4111(
-                                // REPLACE: amongst /əˈmʌŋst/
-                                "en-US"),
+                            onPressedAmerican: () => speakamongst4111("en-US"),
                           ),
                         ],
                       ),

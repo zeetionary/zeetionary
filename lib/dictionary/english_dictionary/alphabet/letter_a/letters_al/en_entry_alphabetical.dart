@@ -63,8 +63,7 @@ class EnglishEntryalphabetical extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alphabetical"), // Find /ˌælfəˈbetɪkl/
+                            EntryTitle(word: "alphabetical"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryalphabetical extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +112,8 @@ class EnglishEntryalphabetical extends StatelessWidget {
                                 "ناوەکان لە لیستەکەدا بە ڕیزبەندین (ئەلفوبێن).",
                             onPressedBritish: () =>
                                 speakalphabetical365("en-GB"),
-                            onPressedAmerican: () => speakalphabetical365(
-                                // REPLACE: alphabetical /ˌælfəˈbetɪkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalphabetical365("en-US"),
                           ),
                         ],
                       ),

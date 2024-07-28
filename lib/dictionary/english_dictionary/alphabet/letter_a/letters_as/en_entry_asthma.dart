@@ -145,9 +145,8 @@ class EnglishEntryasthma extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryasthma extends StatelessWidget {
                             kurdishText:
                                 "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە.",
                             onPressedBritish: () => speakasthma1012("en-GB"),
-                            onPressedAmerican: () => speakasthma1012(
-                                // REPLACE: asthma /ˈæzmə/
-                                "en-US"),
+                            onPressedAmerican: () => speakasthma1012("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -64,8 +64,7 @@ class EnglishEntryageing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "ageing (or aging)"), // Find /ˈeɪdʒɪŋ/
+                            EntryTitle(word: "ageing (or aging)"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryageing extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +115,7 @@ class EnglishEntryageing extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەکی زۆر پارێزەری پێسی ھەیە کە بانگەشەی ئەوە دەکەن تەمەنکردن بوەستێنن.",
                             onPressedBritish: () => speakageing35699("en-GB"),
-                            onPressedAmerican: () => speakageing35699(
-                                // REPLACE: ageing (or aging) /ˈeɪdʒɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakageing35699("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -128,16 +124,14 @@ class EnglishEntryageing extends StatelessWidget {
                             englishText: "He takes care of his ageing mother.",
                             kurdishText: "چاودێری دایکە پیرەکەی دەکات.",
                             onPressedBritish: () => speakageing148825("en-GB"),
-                            onPressedAmerican: () => speakageing148825(
-                                // REPLACE: ageing (or aging) /ˈeɪdʒɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakageing148825("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

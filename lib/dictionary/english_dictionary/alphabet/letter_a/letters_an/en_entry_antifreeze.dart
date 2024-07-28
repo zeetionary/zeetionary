@@ -140,9 +140,8 @@ class EnglishEntryantifreeze extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryantifreeze extends StatelessWidget {
                                 "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە.",
                             onPressedBritish: () =>
                                 speakantifreeze1051("en-GB"),
-                            onPressedAmerican: () => speakantifreeze1051(
-                                // REPLACE: antifreeze /ˈæntifriːz/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantifreeze1051("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

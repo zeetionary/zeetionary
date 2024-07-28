@@ -65,7 +65,7 @@ class EnglishEntryaffront extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affront"), // Find /əˈfrʌnt/
+                            EntryTitle(word: "affront"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryaffront extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryaffront extends StatelessWidget {
                             kurdishText:
                                 "وتارەکەی بێحورمەتی بوو بە ژمارەیەکی زۆر خەڵک لە گەڕەکەکە.",
                             onPressedBritish: () => speakaffront92("en-GB"),
-                            onPressedAmerican: () => speakaffront92(
-                                // REPLACE: affront /əˈfrʌnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffront92("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -130,16 +127,14 @@ class EnglishEntryaffront extends StatelessWidget {
                             kurdishText:
                                 "ھیواداربوو ھەست بە بێڕێزی پێکردن نەکەن ئەگەر بانگھێشت نەکرابان.",
                             onPressedBritish: () => speakaffron4599("en-GB"),
-                            onPressedAmerican: () => speakaffron4599(
-                                // REPLACE: affront /əˈfrʌnt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaffron4599("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

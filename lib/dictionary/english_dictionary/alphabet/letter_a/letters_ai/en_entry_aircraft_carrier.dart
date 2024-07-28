@@ -63,9 +63,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "aircraft carrier"), // Find /ˈeəkrɑːft kæriə(r)/
+                            EntryTitle(word: "aircraft carrier"),
                           ],
                         ),
                         Row(

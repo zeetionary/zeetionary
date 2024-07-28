@@ -137,9 +137,8 @@ class EnglishEntryanecdote extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,7 @@ class EnglishEntryanecdote extends StatelessWidget {
                             kurdishText:
                                 "کتێبەکە سەرچاوەیەکی دەوڵەمەندی سەرگوزشتەیە.",
                             onPressedBritish: () => speakanecdote5407("en-GB"),
-                            onPressedAmerican: () => speakanecdote5407(
-                                // REPLACE: anecdote /ˈænɪkdəʊt/
-                                "en-US"),
+                            onPressedAmerican: () => speakanecdote5407("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -170,9 +167,7 @@ class EnglishEntryanecdote extends StatelessWidget {
                             kurdishText:
                                 "ئەم توێژینەوەیە پشتی بە سەرگوزشتە بەستووە نەک ڕاستی.",
                             onPressedBritish: () => speakanecdote460("en-GB"),
-                            onPressedAmerican: () => speakanecdote460(
-                                // REPLACE: anecdote /ˈænɪkdəʊt/
-                                "en-US"),
+                            onPressedAmerican: () => speakanecdote460("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

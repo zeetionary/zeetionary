@@ -63,7 +63,7 @@ class EnglishEntryadjustable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adjustable"), // Find /əˈdʒʌstəbl/
+                            EntryTitle(word: "adjustable"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadjustable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,14 @@ class EnglishEntryadjustable extends StatelessWidget {
                                 "The height of the bicycle seat is adjustable.",
                             kurdishText: "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت.",
                             onPressedBritish: () => speakadjusta5847("en-GB"),
-                            onPressedAmerican: () => speakadjusta5847(
-                                // REPLACE: adjustable /əˈdʒʌstəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakadjusta5847("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

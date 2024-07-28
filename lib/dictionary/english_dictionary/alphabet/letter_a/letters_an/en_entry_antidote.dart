@@ -139,9 +139,8 @@ class EnglishEntryantidote extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryantidote extends StatelessWidget {
                                 "There is no known antidote to the poison.",
                             kurdishText: "ھیچ ژارکوژێک نییە بۆ ژەھرەکە.",
                             onPressedBritish: () => speakantidote1018("en-GB"),
-                            onPressedAmerican: () => speakantidote1018(
-                                // REPLACE: antidote /ˈæntidəʊt/
-                                "en-US"),
+                            onPressedAmerican: () => speakantidote1018("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

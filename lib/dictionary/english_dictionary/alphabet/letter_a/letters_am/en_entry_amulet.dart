@@ -140,9 +140,8 @@ class EnglishEntryamulet extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryamulet extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش.",
                             onPressedBritish: () => speakamulet44018("en-GB"),
-                            onPressedAmerican: () => speakamulet44018(
-                                // REPLACE: amulet /ˈæmjʊlət/
-                                "en-US"),
+                            onPressedAmerican: () => speakamulet44018("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

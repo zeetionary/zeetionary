@@ -110,9 +110,7 @@ class EnglishEntryapplicable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "applicable"), // Find /əˈplɪkəbl/, /ˈæplɪkəbl/
+                            EntryTitle(word: "applicable"),
                             // divvviiider
                           ],
                         ),
@@ -149,9 +147,8 @@ class EnglishEntryapplicable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -169,9 +166,8 @@ class EnglishEntryapplicable extends StatelessWidget {
                             kurdishText:
                                 "زۆرینەی فۆرمەکە پەیوەندی بە منەوە نەبوو.",
                             onPressedBritish: () => speakapplicable646("en-GB"),
-                            onPressedAmerican: () => speakapplicable646(
-                                // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapplicable646("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -180,9 +176,8 @@ class EnglishEntryapplicable extends StatelessWidget {
                             kurdishText:
                                 "یاساکە بەسەر ھەموواندا جێبەجێ‌دەکرێت.",
                             onPressedBritish: () => speakapplicable648("en-GB"),
-                            onPressedAmerican: () => speakapplicable648(
-                                // REPLACE: applicable /ˈæplɪkəbl/, /əˈplɪkəbl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapplicable648("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

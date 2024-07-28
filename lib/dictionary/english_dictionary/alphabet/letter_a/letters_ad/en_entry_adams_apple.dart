@@ -63,8 +63,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "Adam's apple"), // Find /ˌædəmz ˈæpl/
+                            EntryTitle(word: "Adam's apple"),
                           ],
                         ),
                         Row(
@@ -115,7 +114,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedend(),
                         // YoutubeEmbeddedfour(),

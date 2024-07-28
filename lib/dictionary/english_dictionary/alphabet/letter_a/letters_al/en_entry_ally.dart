@@ -63,7 +63,7 @@ class EnglishEntryally extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ally"), // Find /ˈælaɪ/
+                            EntryTitle(word: "ally"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryally extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,8 +117,7 @@ class EnglishEntryally extends StatelessWidget {
                                 "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە.",
                             onPressedBritish: () => speakally4211("en-GB"),
                             onPressedAmerican: () =>
-                                speakally4211(// REPLACE: ally /ˈælaɪ/
-                                    "en-US"),
+                                speakally4211("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -131,8 +129,7 @@ class EnglishEntryally extends StatelessWidget {
                                 "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری.",
                             onPressedBritish: () => speakally4322("en-GB"),
                             onPressedAmerican: () =>
-                                speakally4322(// REPLACE: ally /ˈælaɪ/
-                                    "en-US"),
+                                speakally4322("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """

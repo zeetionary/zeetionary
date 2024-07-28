@@ -149,9 +149,8 @@ class EnglishEntryassume extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -168,9 +167,7 @@ class EnglishEntryassume extends StatelessWidget {
                             kurdishText:
                                 "تاڕادەیەک ئەتوانین وادابنێین کە شتی زیاتر لەسەر ئەم بابەتە دەبیستین.",
                             onPressedBritish: () => speakassume843("en-GB"),
-                            onPressedAmerican: () => speakassume843(
-                                // REPLACE: assume /əˈsuːm/
-                                "en-US"),
+                            onPressedAmerican: () => speakassume843("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -180,9 +177,7 @@ class EnglishEntryassume extends StatelessWidget {
                             kurdishText:
                                 "با بۆ کەمێک وادابنێین پلانەکە سەرکەوتوو دەبێت.",
                             onPressedBritish: () => speakassume844("en-GB"),
-                            onPressedAmerican: () => speakassume844(
-                                // REPLACE: assume /əˈsuːm/
-                                "en-US"),
+                            onPressedAmerican: () => speakassume844("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +189,7 @@ class EnglishEntryassume extends StatelessWidget {
                             kurdishText:
                                 "ھێزە یاخیبووەکان کۆنترۆڵی پایتەختیان گرتووەتە دەست.",
                             onPressedBritish: () => speakassume846("en-GB"),
-                            onPressedAmerican: () => speakassume846(
-                                // REPLACE: assume /əˈsuːm/
-                                "en-US"),
+                            onPressedAmerican: () => speakassume846("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -208,9 +201,7 @@ class EnglishEntryassume extends StatelessWidget {
                             kurdishText:
                                 "لە چیرۆکەکەدا خودا شێوەی داڵێک لەخۆدەگرێت.",
                             onPressedBritish: () => speakassume848("en-GB"),
-                            onPressedAmerican: () => speakassume848(
-                                // REPLACE: assume /əˈsuːm/
-                                "en-US"),
+                            onPressedAmerican: () => speakassume848("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -222,9 +213,7 @@ class EnglishEntryassume extends StatelessWidget {
                             kurdishText:
                                 "کە چووە شارۆچکەیەکی تازە، ناوێکی تازەی ھەڵگرتەوە.",
                             onPressedBritish: () => speakassume851("en-GB"),
-                            onPressedAmerican: () => speakassume851(
-                                // REPLACE: assume /əˈsuːm/
-                                "en-US"),
+                            onPressedAmerican: () => speakassume851("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

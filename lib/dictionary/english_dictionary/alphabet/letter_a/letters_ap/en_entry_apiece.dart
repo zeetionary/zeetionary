@@ -143,9 +143,8 @@ class EnglishEntryapiece extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryapiece extends StatelessWidget {
                             kurdishText:
                                 "ستێرلینگ و واڵکۆت یەکی گۆڵێکیان تۆمارکرد.",
                             onPressedBritish: () => speakapiece237("en-GB"),
-                            onPressedAmerican: () => speakapiece237(
-                                // REPLACE: apiece /əˈpiːs/
-                                "en-US"),
+                            onPressedAmerican: () => speakapiece237("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

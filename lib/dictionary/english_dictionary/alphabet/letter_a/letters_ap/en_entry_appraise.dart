@@ -144,9 +144,8 @@ class EnglishEntryappraise extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryappraise extends StatelessWidget {
                             kurdishText:
                                 "ئەندازیارەکە نیگایەکی کرد لە دەرەوەی بیناکە بۆ نرخاندنی.",
                             onPressedBritish: () => speakappraise910("en-GB"),
-                            onPressedAmerican: () => speakappraise910(
-                                // REPLACE: appraise /əˈpreɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakappraise910("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -172,9 +169,7 @@ class EnglishEntryappraise extends StatelessWidget {
                                 "They appraised the painting at £200 000.",
                             kurdishText: "تابلۆکەیان بە ٢٠٠٠٠٠ پاوەند نرخاند.",
                             onPressedBritish: () => speakappraise913("en-GB"),
-                            onPressedAmerican: () => speakappraise913(
-                                // REPLACE: appraise /əˈpreɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakappraise913("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,7 @@ class EnglishEntryappraise extends StatelessWidget {
                             kurdishText:
                                 "بەڕێوبەران دەبێت ھەڵسەنگاندن بۆ تەواوی ستافەکەیان بکەن.",
                             onPressedBritish: () => speakappraise915("en-GB"),
-                            onPressedAmerican: () => speakappraise915(
-                                // REPLACE: appraise /əˈpreɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakappraise915("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -63,7 +63,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adjourn"), // Find /əˈdʒɜːn/
+                            EntryTitle(word: "adjourn"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadjourn extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -111,25 +110,21 @@ class EnglishEntryadjourn extends StatelessWidget {
                             kurdishText:
                                 "دادگا دانیشتنەکەی ھەڵپەسارد بۆ خواردنی نانی نیوەڕۆ.",
                             onPressedBritish: () => speakadjo952871("en-GB"),
-                            onPressedAmerican: () => speakadjo952871(
-                                // REPLACE: adjourn /əˈdʒɜːrn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadjo952871("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "The case was adjourned for a week.",
                             kurdishText: "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا.",
                             onPressedBritish: () => speakad4582("en-GB"),
-                            onPressedAmerican: () => speakad4582(
-                                // REPLACE: adjourn /əˈdʒɜːrn/
-                                "en-US"),
+                            onPressedAmerican: () => speakad4582("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

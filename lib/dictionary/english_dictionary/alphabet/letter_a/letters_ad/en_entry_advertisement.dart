@@ -64,8 +64,7 @@ class EnglishEntryadvertisement extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "advertisement"), // Find /ədˈvɜːtɪsmənt/
+                            EntryTitle(word: "advertisement"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryadvertisement extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,8 @@ class EnglishEntryadvertisement extends StatelessWidget {
                             kurdishText:
                                 "دەتوانی ڕیکلامەکە بخەیتە سەر وێبسایتێک.",
                             onPressedBritish: () => speakadvertis36412("en-GB"),
-                            onPressedAmerican: () => speakadvertis36412(
-                                // REPLACE: advertisement /ˌædvərˈtaɪzmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakadvertis36412("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -133,16 +130,14 @@ class EnglishEntryadvertisement extends StatelessWidget {
                             kurdishText:
                                 "بەداخەوەم کە من نموونەیەکی باش نیم بۆ ژەمە خۆراکییەکە بەھۆی ئەوەی کێشم زیادی کردووە!",
                             onPressedBritish: () => speakadver25914("en-GB"),
-                            onPressedAmerican: () => speakadver25914(
-                                // REPLACE: advertisement /ˌædvərˈtaɪzmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadver25914("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

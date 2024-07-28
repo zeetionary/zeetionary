@@ -64,7 +64,7 @@ class EnglishEntryacoustics extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acoustics"), // Find /əˈkuːstɪks/
+                            EntryTitle(word: "acoustics"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryacoustics extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -128,7 +127,7 @@ class EnglishEntryacoustics extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -139,9 +139,8 @@ class EnglishEntryanother extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,7 @@ class EnglishEntryanother extends StatelessWidget {
                             englishText: "Would you like another drink?",
                             kurdishText: "حەزت بە خواردنەوەیەکی ترە؟",
                             onPressedBritish: () => speakanother935("en-GB"),
-                            onPressedAmerican: () => speakanother935(
-                                // REPLACE: another /əˈnʌðər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanother935("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -166,9 +163,7 @@ class EnglishEntryanother extends StatelessWidget {
                                 "I'm going to have another piece of cake.",
                             kurdishText: "پارچە کێکێکی تر دەخۆم.",
                             onPressedBritish: () => speakanother937("en-GB"),
-                            onPressedAmerican: () => speakanother937(
-                                // REPLACE: another /əˈnʌðər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanother937("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +172,7 @@ class EnglishEntryanother extends StatelessWidget {
                             kurdishText:
                                 "دەتوانین کەسێکی تر لە ئۆتۆمبێلەکەم جێبکەینەوە.",
                             onPressedBritish: () => speakanother938("en-GB"),
-                            onPressedAmerican: () => speakanother938(
-                                // REPLACE: another /əˈnʌðər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanother938("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +182,7 @@ class EnglishEntryanother extends StatelessWidget {
                             englishText: "Let's do it another time.",
                             kurdishText: "با کاتێکی تر بیکەین.",
                             onPressedBritish: () => speakanother940("en-GB"),
-                            onPressedAmerican: () => speakanother940(
-                                // REPLACE: another /əˈnʌðər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanother940("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -201,9 +192,7 @@ class EnglishEntryanother extends StatelessWidget {
                             kurdishText:
                                 "حەزم بەم ژوورە نییە، داوای دانەیەکی تر دەکەم.",
                             onPressedBritish: () => speakanother942("en-GB"),
-                            onPressedAmerican: () => speakanother942(
-                                // REPLACE: another /əˈnʌðər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanother942("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -213,9 +202,7 @@ class EnglishEntryanother extends StatelessWidget {
                             englishText: "There'll never be another like him.",
                             kurdishText: "کەسێکی تری وەک ئەو دووبارە نابێتەوە.",
                             onPressedBritish: () => speakanother944("en-GB"),
-                            onPressedAmerican: () => speakanother944(
-                                // REPLACE: another /əˈnʌðər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanother944("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

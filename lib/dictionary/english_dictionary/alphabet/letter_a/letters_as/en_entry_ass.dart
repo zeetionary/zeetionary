@@ -146,9 +146,8 @@ class EnglishEntryass extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryass extends StatelessWidget {
                             kurdishText:
                                 "پانتۆڵی تەسکی لەپێ‌کردبوو کە سمتی دەرخستبوو.",
                             onPressedBritish: () => speakass834("en-GB"),
-                            onPressedAmerican: () =>
-                                speakass834(// REPLACE: arse /ɑːrs/
-                                    "en-US"),
+                            onPressedAmerican: () => speakass834("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryass extends StatelessWidget {
                             englishText: "Don't be such an ass!",
                             kurdishText: "ھێندە گەمژە مەبە!",
                             onPressedBritish: () => speakass837("en-GB"),
-                            onPressedAmerican: () =>
-                                speakass837(// REPLACE: arse /ɑːrs/
-                                    "en-US"),
+                            onPressedAmerican: () => speakass837("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,9 +186,7 @@ class EnglishEntryass extends StatelessWidget {
                             kurdishText:
                                 "جوتیارەکە پەڵاشەکەی بارکردە سەر پشتی گوێدرێژەکە.",
                             onPressedBritish: () => speakass842("en-GB"),
-                            onPressedAmerican: () =>
-                                speakass842(// REPLACE: arse /ɑːrs/
-                                    "en-US"),
+                            onPressedAmerican: () => speakass842("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -64,7 +64,7 @@ class EnglishEntryalbino extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "albino"), // Find /ælˈbiːnəʊ/
+                            EntryTitle(word: "albino"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalbino extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryalbino extends StatelessWidget {
                             kurdishText:
                                 "لەکۆتاییدا کەوتم لەگەڵ کابرایەکی ئەلباینۆ کە ئەندازیار بوو.",
                             onPressedBritish: () => speakalbino4855("en-GB"),
-                            onPressedAmerican: () => speakalbino4855(
-                                // REPLACE: albino /ælˈbaɪnəʊ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalbino4855("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -131,9 +128,7 @@ class EnglishEntryalbino extends StatelessWidget {
                             kurdishText:
                                 "کەسێکی ئەلباینۆ نەبوو، بەڵام نزیک بوو لێی.",
                             onPressedBritish: () => speakalbino3411("en-GB"),
-                            onPressedAmerican: () => speakalbino3411(
-                                // REPLACE: albino /ælˈbaɪnəʊ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalbino3411("en-US"),
                           ),
                         ],
                       ),

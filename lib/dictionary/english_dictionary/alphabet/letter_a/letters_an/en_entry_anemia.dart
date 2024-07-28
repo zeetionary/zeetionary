@@ -138,9 +138,8 @@ class EnglishEntryanemia extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,7 @@ class EnglishEntryanemia extends StatelessWidget {
                             kurdishText:
                                 "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە.",
                             onPressedBritish: () => speakanemia558("en-GB"),
-                            onPressedAmerican: () => speakanemia558(
-                                // REPLACE: anemia /əˈniːmiə/
-                                "en-US"),
+                            onPressedAmerican: () => speakanemia558("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

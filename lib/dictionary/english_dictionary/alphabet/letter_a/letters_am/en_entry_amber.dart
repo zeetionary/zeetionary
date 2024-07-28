@@ -64,7 +64,7 @@ class EnglishEntryamber extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amber"), // Find /ˈæmbə(r)/
+                            EntryTitle(word: "amber"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryamber extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -112,9 +111,7 @@ class EnglishEntryamber extends StatelessWidget {
                             kurdishText:
                                 "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە.",
                             onPressedBritish: () => speakamber4447("en-GB"),
-                            onPressedAmerican: () => speakamber4447(
-                                // REPLACE: amber /ˈæmbər/
-                                "en-US"),
+                            onPressedAmerican: () => speakamber4447("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -125,9 +122,7 @@ class EnglishEntryamber extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی.",
                             onPressedBritish: () => speakamber46922("en-GB"),
-                            onPressedAmerican: () => speakamber46922(
-                                // REPLACE: amber /ˈæmbər/
-                                "en-US"),
+                            onPressedAmerican: () => speakamber46922("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -137,9 +132,7 @@ class EnglishEntryamber extends StatelessWidget {
                             kurdishText:
                                 "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون.",
                             onPressedBritish: () => speakamber4699("en-GB"),
-                            onPressedAmerican: () => speakamber4699(
-                                // REPLACE: amber /ˈæmbər/
-                                "en-US"),
+                            onPressedAmerican: () => speakamber4699("en-US"),
                           ),
                         ],
                       ),

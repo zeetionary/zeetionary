@@ -146,9 +146,8 @@ class EnglishEntryarson extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryarson extends StatelessWidget {
                             kurdishText:
                                 "سینەمایەک دوێنێ شەو بە تەواوی لە باکووری لەندەن سووتا. پۆلیس گەمانی ھەیە سوتاندنی بە ئەنقەست بووبێت.",
                             onPressedBritish: () => speakarson912("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarson912(// REPLACE: arson /ˈɑːrsn/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarson912("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

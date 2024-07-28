@@ -140,9 +140,8 @@ class EnglishEntryanthem extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,7 @@ class EnglishEntryanthem extends StatelessWidget {
                             kurdishText:
                                 "ئەنزیمی ئەورووپا لێدرا لە سەرەتا و کۆتایی بۆنەکە.",
                             onPressedBritish: () => speakanthem542("en-GB"),
-                            onPressedAmerican: () => speakanthem542(
-                                // REPLACE: anthem /ˈænθəm/
-                                "en-US"),
+                            onPressedAmerican: () => speakanthem542("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

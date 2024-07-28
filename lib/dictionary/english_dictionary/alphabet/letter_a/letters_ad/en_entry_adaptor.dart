@@ -63,9 +63,7 @@ class EnglishEntryadaptor extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "adaptor (or adapter)"), // Find /əˈdæptə(r)/
+                            EntryTitle(word: "adaptor (or adapter)"),
                           ],
                         ),
                         Row(
@@ -123,7 +121,7 @@ class EnglishEntryadaptor extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

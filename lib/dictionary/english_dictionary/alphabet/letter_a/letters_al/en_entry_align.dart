@@ -64,7 +64,7 @@ class EnglishEntryalign extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "align"), // Find /əˈlaɪn/
+                            EntryTitle(word: "align"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalign extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryalign extends StatelessWidget {
                             kurdishText:
                                 "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن.",
                             onPressedBritish: () => speakalign43659("en-GB"),
-                            onPressedAmerican: () => speakalign43659(
-                                // REPLACE: align /əˈlaɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakalign43659("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -128,9 +125,7 @@ class EnglishEntryalign extends StatelessWidget {
                             kurdishText:
                                 "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر.",
                             onPressedBritish: () => speakalign35255("en-GB"),
-                            onPressedAmerican: () => speakalign35255(
-                                // REPLACE: align /əˈlaɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakalign35255("en-US"),
                           ),
                         ],
                       ),

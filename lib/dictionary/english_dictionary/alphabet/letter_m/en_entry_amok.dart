@@ -164,9 +164,8 @@ class EnglishEntryamok extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -200,8 +199,7 @@ class EnglishEntryamok extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () =>
-                                        speakamok46669(// REPLACE: amok /əˈmɑːk/
-                                            "en-US"),
+                                        speakamok46669(        "en-US"),
                                   ),
                                 ],
                               ),

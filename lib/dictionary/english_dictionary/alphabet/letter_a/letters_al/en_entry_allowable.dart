@@ -63,7 +63,7 @@ class EnglishEntryallowable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allowable"), // Find /əˈlaʊəbl/
+                            EntryTitle(word: "allowable"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryallowable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,7 @@ class EnglishEntryallowable extends StatelessWidget {
                             kurdishText:
                                 "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە.",
                             onPressedBritish: () => speakallowable432("en-GB"),
-                            onPressedAmerican: () => speakallowable432(
-                                // REPLACE: allowable /əˈlaʊəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakallowable432("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """

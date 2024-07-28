@@ -144,9 +144,8 @@ class EnglishEntryapproval extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryapproval extends StatelessWidget {
                             kurdishText:
                                 "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌ھێناوە.",
                             onPressedBritish: () => speakapproval826("en-GB"),
-                            onPressedAmerican: () => speakapproval826(
-                                // REPLACE: approval /əˈpruːvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproval826("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -172,9 +169,7 @@ class EnglishEntryapproval extends StatelessWidget {
                             englishText: "He showed his approval by smiling.",
                             kurdishText: "ڕەزامەندیی پیشان‌دا بە پێکەنین‌کردن.",
                             onPressedBritish: () => speakapproval829("en-GB"),
-                            onPressedAmerican: () => speakapproval829(
-                                // REPLACE: approval /əˈpruːvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproval829("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +181,7 @@ class EnglishEntryapproval extends StatelessWidget {
                             kurdishText:
                                 "پلانەکە پێشکەشی لیژنەکە دەکرێت بۆ پەسەندکردنی فەرمی.",
                             onPressedBritish: () => speakapproval831("en-GB"),
-                            onPressedAmerican: () => speakapproval831(
-                                // REPLACE: approval /əˈpruːvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproval831("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -196,9 +189,7 @@ class EnglishEntryapproval extends StatelessWidget {
                             englishText: "He won approval for his project.",
                             kurdishText: "پڕۆژەکەی پەسەندکردنی وەرگرت.",
                             onPressedBritish: () => speakapproval832("en-GB"),
-                            onPressedAmerican: () => speakapproval832(
-                                // REPLACE: approval /əˈpruːvl/
-                                "en-US"),
+                            onPressedAmerican: () => speakapproval832("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

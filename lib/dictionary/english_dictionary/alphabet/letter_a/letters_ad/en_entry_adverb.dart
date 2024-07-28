@@ -63,7 +63,7 @@ class EnglishEntryadverb extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adverb"), // Find /ˈædvɜːb/
+                            EntryTitle(word: "adverb"),
                           ],
                         ),
                         Row(
@@ -114,7 +114,7 @@ class EnglishEntryadverb extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

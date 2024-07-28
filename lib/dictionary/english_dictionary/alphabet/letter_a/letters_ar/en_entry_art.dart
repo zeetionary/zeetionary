@@ -221,9 +221,8 @@ class EnglishEntryart extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -238,9 +237,7 @@ class EnglishEntryart extends StatelessWidget {
                             englishText: "It's a very beautiful piece of art.",
                             kurdishText: "پارچەیەکی ھونەری زۆر جوانە.",
                             onPressedBritish: () => speakart925("en-GB"),
-                            onPressedAmerican: () =>
-                                speakart925(// REPLACE: art /ɑːrt/
-                                    "en-US"),
+                            onPressedAmerican: () => speakart925("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -250,9 +247,7 @@ class EnglishEntryart extends StatelessWidget {
                             kurdishText:
                                 "ستایلی ھونەریی کەمتر تازەگەریی تێدابوو وەک لەوانەی دیکەی ھاوسەردەمی.",
                             onPressedBritish: () => speakart927("en-GB"),
-                            onPressedAmerican: () =>
-                                speakart927(// REPLACE: art /ɑːrt/
-                                    "en-US"),
+                            onPressedAmerican: () => speakart927("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -264,9 +259,7 @@ class EnglishEntryart extends StatelessWidget {
                             kurdishText:
                                 "قەڵاکە یەکێک لە باشترین کۆمەڵە کاری ھونەری لە بەریتانیادا تێدایە.",
                             onPressedBritish: () => speakart930("en-GB"),
-                            onPressedAmerican: () =>
-                                speakart930(// REPLACE: art /ɑːrt/
-                                    "en-US"),
+                            onPressedAmerican: () => speakart930("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -276,9 +269,7 @@ class EnglishEntryart extends StatelessWidget {
                             englishText: "She's good at art and design.",
                             kurdishText: "لە ھونەر و دیزایندا باشە.",
                             onPressedBritish: () => speakart936("en-GB"),
-                            onPressedAmerican: () =>
-                                speakart936(// REPLACE: art /ɑːrt/
-                                    "en-US"),
+                            onPressedAmerican: () => speakart936("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -290,9 +281,7 @@ class EnglishEntryart extends StatelessWidget {
                             kurdishText:
                                 "پارەی زیاتری حکومەت بۆ ھونەر پێویستە.",
                             onPressedBritish: () => speakart947("en-GB"),
-                            onPressedAmerican: () =>
-                                speakart947(// REPLACE: art /ɑːrt/
-                                    "en-US"),
+                            onPressedAmerican: () => speakart947("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -304,9 +293,7 @@ class EnglishEntryart extends StatelessWidget {
                             kurdishText:
                                 "دراما ھونەرێکە زۆرجار لە ھۆڵی شانۆ پێشکەش دەکرێت.",
                             onPressedBritish: () => speakart943("en-GB"),
-                            onPressedAmerican: () =>
-                                speakart943(// REPLACE: art /ɑːrt/
-                                    "en-US"),
+                            onPressedAmerican: () => speakart943("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -318,9 +305,7 @@ class EnglishEntryart extends StatelessWidget {
                             kurdishText:
                                 "لە قوتابخانە زۆر لە بابەتە ھونەرییەکان باش بووم، بەڵام لە زانست بێ‌ئەمەل بووم.",
                             onPressedBritish: () => speakart939("en-GB"),
-                            onPressedAmerican: () =>
-                                speakart939(// REPLACE: art /ɑːrt/
-                                    "en-US"),
+                            onPressedAmerican: () => speakart939("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -331,9 +316,7 @@ class EnglishEntryart extends StatelessWidget {
                                 "I've never mastered the art of making bread.",
                             kurdishText: "ھەرگیز فێری ھونەری نانکردن نەبوومە.",
                             onPressedBritish: () => speakart950("en-GB"),
-                            onPressedAmerican: () =>
-                                speakart950(// REPLACE: art /ɑːrt/
-                                    "en-US"),
+                            onPressedAmerican: () => speakart950("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

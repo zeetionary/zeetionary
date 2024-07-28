@@ -64,7 +64,7 @@ class EnglishEntryalluring extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alluring"), // Find /əˈlʊərɪŋ/
+                            EntryTitle(word: "alluring"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalluring extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryalluring extends StatelessWidget {
                             kurdishText:
                                 "دڵڕفێنەرترین جلی لە ئاھەنگی ھاوسەرگیرییەکە لەبەرکردبوو.",
                             onPressedBritish: () => speakalluring8588("en-GB"),
-                            onPressedAmerican: () => speakalluring8588(
-                                // REPLACE: alluring /əˈlʊrɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalluring8588("en-US"),
                           ),
                         ],
                       ),

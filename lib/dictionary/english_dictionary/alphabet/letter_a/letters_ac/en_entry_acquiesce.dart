@@ -64,7 +64,7 @@ class EnglishEntryacquiesce extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acquiesce"), // Find /ˌækwiˈes/
+                            EntryTitle(word: "acquiesce"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryacquiesce extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -121,7 +120,7 @@ class EnglishEntryacquiesce extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -65,7 +65,7 @@ class EnglishEntryalienate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alienate"), // Find /ˈeɪliəneɪt/
+                            EntryTitle(word: "alienate"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryalienate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,9 +114,8 @@ class EnglishEntryalienate extends StatelessWidget {
                                 "لێدوانەکانی ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە.",
                             onPressedBritish: () =>
                                 speakalienate4625555("en-GB"),
-                            onPressedAmerican: () => speakalienate4625555(
-                                // REPLACE: alienate /ˈeɪliəneɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalienate4625555("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -128,9 +126,8 @@ class EnglishEntryalienate extends StatelessWidget {
                             kurdishText:
                                 "منداڵانی زۆر بەھرەمەند لەوانەیە ھەست بە نامۆیی بکەن لەگەل ئەوانی تری پۆلەکانیان.",
                             onPressedBritish: () => speakalienate34791("en-GB"),
-                            onPressedAmerican: () => speakalienate34791(
-                                // REPLACE: alienate /ˈeɪliəneɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalienate34791("en-US"),
                           ),
                         ],
                       ),

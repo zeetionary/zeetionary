@@ -47,7 +47,7 @@ class EnglishEntryfarafield extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: YoutubeEmbeddedone
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -65,8 +65,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "far afield (or farther/further afield)"), // Find /fɑː(r) əˈfiːld/
+                                word: "far afield (or farther/further afield)"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryfarafield extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -133,9 +131,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                                     onPressed: () => speakFaraf45228("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakFaraf45228(
-                                        // REPLACE: afield /fɑːr əˈfiːld/
-                                        "en-US"),
+                                    onPressed: () => speakFaraf45228("en-US"),
                                   ),
                                 ],
                               ),

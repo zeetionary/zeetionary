@@ -146,9 +146,8 @@ class EnglishEntryarrow extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryarrow extends StatelessWidget {
                             kurdishText:
                                 "بە وریاییەوە ئامانجی لە دارەکە گرتەوە بەڵام تیرەکە لێی‌نەدا.",
                             onPressedBritish: () => speakarrow745("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarrow745(// REPLACE: arrow /ˈærəʊ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarrow745("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryarrow extends StatelessWidget {
                             kurdishText:
                                 "خەڵکی تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن.",
                             onPressedBritish: () => speakarrow746("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarrow746(// REPLACE: arrow /ˈærəʊ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarrow746("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +184,7 @@ class EnglishEntryarrow extends StatelessWidget {
                             englishText: "Follow the arrows.",
                             kurdishText: "پابەندی ھێماکان بە.",
                             onPressedBritish: () => speakarrow750("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarrow750(// REPLACE: arrow /ˈærəʊ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarrow750("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -64,7 +64,7 @@ class EnglishEntryairforce extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "air force"), // Find /ˈeə fɔːs/
+                            EntryTitle(word: "air force"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryairforce extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryairforce extends StatelessWidget {
                             kurdishText:
                                 "دایک و باوکی ساردیان کردەوە لە پەیوەندیکردن بە ھێزی ئاسمانی.",
                             onPressedBritish: () => speakairforce3528("en-GB"),
-                            onPressedAmerican: () => speakairforce3528(
-                                // REPLACE: speakAirforce /ˈer fɔːrs/
-                                "en-US"),
+                            onPressedAmerican: () => speakairforce3528("en-US"),
                           ),
                         ],
                       ),

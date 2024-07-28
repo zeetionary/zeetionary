@@ -146,9 +146,8 @@ class EnglishEntryapparent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryapparent extends StatelessWidget {
                             kurdishText:
                                 "دواتر، بەبێ ھیچ ھۆکارێکی ڕوون، شەمەندەفەرەکە وەستا لە کارکردن.",
                             onPressedBritish: () => speakapparent852("en-GB"),
-                            onPressedAmerican: () => speakapparent852(
-                                // REPLACE: apparent /əˈpærənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapparent852("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryapparent extends StatelessWidget {
                             kurdishText:
                                 "ھەرزوو بۆ ھەموان ڕوونبووەوە کە توانای گۆرانی‌وتنی نەبوو.",
                             onPressedBritish: () => speakapparent853("en-GB"),
-                            onPressedAmerican: () => speakapparent853(
-                                // REPLACE: apparent /əˈpærənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapparent853("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,9 +186,7 @@ class EnglishEntryapparent extends StatelessWidget {
                             kurdishText:
                                 "دایک و باوکم نیگەران بوون بە کەمی ڕووکەشانەی تامەزرۆییم بۆ قوتابخانە.",
                             onPressedBritish: () => speakapparent858("en-GB"),
-                            onPressedAmerican: () => speakapparent858(
-                                // REPLACE: apparent /əˈpærənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakapparent858("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

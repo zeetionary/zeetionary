@@ -144,9 +144,8 @@ class EnglishEntryappendicitis extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,8 @@ class EnglishEntryappendicitis extends StatelessWidget {
                                 "دکتۆرەکە ژمارەیەکی زۆر نەخۆشی ھەوکردنی پەلەڕیخۆڵەی چارەسەرکردووە.",
                             onPressedBritish: () =>
                                 speakappendicitis142("en-GB"),
-                            onPressedAmerican: () => speakappendicitis142(
-                                // REPLACE: appendicitis /əˌpendəˈsaɪtɪs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappendicitis142("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

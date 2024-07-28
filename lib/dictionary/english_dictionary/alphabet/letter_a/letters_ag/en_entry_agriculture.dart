@@ -64,8 +64,7 @@ class EnglishEntryagriculture extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "agriculture"), // Find /ˈæɡrɪkʌltʃə(r)/
+                            EntryTitle(word: "agriculture"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryagriculture extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,16 +115,14 @@ class EnglishEntryagriculture extends StatelessWidget {
                             kurdishText:
                                 "کشتوکاڵ لە زۆر وڵات ھێشتا ھەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری.",
                             onPressedBritish: () => speakagri3588("en-GB"),
-                            onPressedAmerican: () => speakagri3588(
-                                // REPLACE: agriculture /ˈæɡrɪkʌltʃər/
-                                "en-US"),
+                            onPressedAmerican: () => speakagri3588("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

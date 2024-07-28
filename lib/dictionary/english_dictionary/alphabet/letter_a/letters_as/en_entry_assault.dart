@@ -151,9 +151,8 @@ class EnglishEntryassault extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -168,9 +167,7 @@ class EnglishEntryassault extends StatelessWidget {
                             kurdishText:
                                 "ھەردوو پیاوەکە بە ھێرشی تاوانبارکران.",
                             onPressedBritish: () => speakassault845("en-GB"),
-                            onPressedAmerican: () => speakassault845(
-                                // REPLACE: assault /əˈsɔːlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassault845("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -180,9 +177,7 @@ class EnglishEntryassault extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەکی زۆر لە پەلاماری نابەجێ بۆ سەر ژنان بەبێ باسکردن تێدەپەڕێت.",
                             onPressedBritish: () => speakassault851("en-GB"),
-                            onPressedAmerican: () => speakassault851(
-                                // REPLACE: assault /əˈsɔːlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassault851("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +189,7 @@ class EnglishEntryassault extends StatelessWidget {
                             kurdishText:
                                 "لە بەیانی زوودا ھێرشێک بۆ سەر پایتەختەکە ئەنجام‌درا.",
                             onPressedBritish: () => speakassault855("en-GB"),
-                            onPressedAmerican: () => speakassault855(
-                                // REPLACE: assault /əˈsɔːlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassault855("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -208,9 +201,7 @@ class EnglishEntryassault extends StatelessWidget {
                             kurdishText:
                                 "حکومەت ھەڵمەتێکی تازەی دژ بە بێ‌کاری ڕاگەیاندووە.",
                             onPressedBritish: () => speakassault856("en-GB"),
-                            onPressedAmerican: () => speakassault856(
-                                // REPLACE: assault /əˈsɔːlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassault856("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -222,9 +213,7 @@ class EnglishEntryassault extends StatelessWidget {
                             kurdishText:
                                 "ڕەخنەی ڕۆژنامەکە دژ بە سەرۆک تەواو ناڕەوا بوو.",
                             onPressedBritish: () => speakassault859("en-GB"),
-                            onPressedAmerican: () => speakassault859(
-                                // REPLACE: assault /əˈsɔːlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassault859("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -236,9 +225,7 @@ class EnglishEntryassault extends StatelessWidget {
                             kurdishText:
                                 "تاوانبارکراوە بە پەلاماردانی ئەفسەرێکی پۆلیس.",
                             onPressedBritish: () => speakassault900("en-GB"),
-                            onPressedAmerican: () => speakassault900(
-                                // REPLACE: assault /əˈsɔːlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassault900("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -248,9 +235,7 @@ class EnglishEntryassault extends StatelessWidget {
                             kurdishText:
                                 "چوار ژن بەم‌نزیکانە لە ناوچەکە پەلاماری سێکسییان بۆسەر ئەنجام دراوە.",
                             onPressedBritish: () => speakassault902("en-GB"),
-                            onPressedAmerican: () => speakassault902(
-                                // REPLACE: assault /əˈsɔːlt/
-                                "en-US"),
+                            onPressedAmerican: () => speakassault902("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

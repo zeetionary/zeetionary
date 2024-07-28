@@ -141,9 +141,8 @@ class EnglishEntryanvil extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,8 +160,7 @@ class EnglishEntryanvil extends StatelessWidget {
                             kurdishText: "سندانێکی باش باکی بە چەکوش نییە.",
                             onPressedBritish: () => speakanvil208("en-GB"),
                             onPressedAmerican: () =>
-                                speakanvil208(// REPLACE: anvil /ˈænvɪl/
-                                    "en-US"),
+                                speakanvil208("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

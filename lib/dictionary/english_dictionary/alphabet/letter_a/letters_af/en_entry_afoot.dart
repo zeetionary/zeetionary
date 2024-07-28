@@ -63,7 +63,7 @@ class EnglishEntryafoot extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "afoot"), // Find /əˈfʊt/
+                            EntryTitle(word: "afoot"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryafoot extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,15 +114,14 @@ class EnglishEntryafoot extends StatelessWidget {
                             kurdishText: "پلان لە ئارادایە بۆ زیادکردنی باج",
                             onPressedBritish: () => speakafoo4599("en-GB"),
                             onPressedAmerican: () =>
-                                speakafoo4599(// REPLACE: afoot /əˈfʊt/
-                                    "en-US"),
+                                speakafoo4599("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

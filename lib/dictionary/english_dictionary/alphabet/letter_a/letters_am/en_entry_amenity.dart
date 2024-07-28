@@ -163,9 +163,8 @@ class EnglishEntryamenity extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -183,18 +182,14 @@ class EnglishEntryamenity extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە.",
                             onPressedBritish: () => speakamenity4777("en-GB"),
-                            onPressedAmerican: () => speakamenity4777(
-                                // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakamenity4777("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "The hotel has excellent amenities.",
                             kurdishText: "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە.",
                             onPressedBritish: () => speakamenity7622("en-GB"),
-                            onPressedAmerican: () => speakamenity7622(
-                                // REPLACE: amenity /əˈmenəti/, /əˈmiːnəti/
-                                "en-US"),
+                            onPressedAmerican: () => speakamenity7622("en-US"),
                           ),
                         ],
                       ),

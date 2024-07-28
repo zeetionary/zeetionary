@@ -142,9 +142,8 @@ class EnglishEntryannual extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryannual extends StatelessWidget {
                             kurdishText:
                                 "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست.",
                             onPressedBritish: () => speakannual817("en-GB"),
-                            onPressedAmerican: () => speakannual817(
-                                // REPLACE: annual /ˈænjuəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakannual817("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryannual extends StatelessWidget {
                             kurdishText:
                                 "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان.",
                             onPressedBritish: () => speakannual819("en-GB"),
-                            onPressedAmerican: () => speakannual819(
-                                // REPLACE: annual /ˈænjuəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakannual819("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +182,7 @@ class EnglishEntryannual extends StatelessWidget {
                             kurdishText:
                                 "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم.",
                             onPressedBritish: () => speakannual821("en-GB"),
-                            onPressedAmerican: () => speakannual821(
-                                // REPLACE: annual /ˈænjuəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakannual821("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -201,9 +194,7 @@ class EnglishEntryannual extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس.",
                             onPressedBritish: () => speakannual829("en-GB"),
-                            onPressedAmerican: () => speakannual829(
-                                // REPLACE: annual /ˈænjuəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakannual829("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

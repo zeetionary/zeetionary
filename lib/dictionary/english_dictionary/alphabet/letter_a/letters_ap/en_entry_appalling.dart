@@ -144,9 +144,8 @@ class EnglishEntryappalling extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryappalling extends StatelessWidget {
                                 "The prisoners were living in appalling conditions.",
                             kurdishText: "زیندانیان لە دۆخی تۆقێنەردا دەژیان.",
                             onPressedBritish: () => speakappalling823("en-GB"),
-                            onPressedAmerican: () => speakappalling823(
-                                // REPLACE: appalling /əˈpɔːlɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakappalling823("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

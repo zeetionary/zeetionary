@@ -65,8 +65,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "aggravation"), // Find /ˌæɡrəˈveɪʃn/
+                            EntryTitle(word: "aggravation"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryaggravation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +116,8 @@ class EnglishEntryaggravation extends StatelessWidget {
                             kurdishText:
                                 "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم).",
                             onPressedBritish: () => speakaggrava685435("en-GB"),
-                            onPressedAmerican: () => speakaggrava685435(
-                                // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaggrava685435("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -129,16 +126,15 @@ class EnglishEntryaggravation extends StatelessWidget {
                             kurdishText:
                                 "لاقە تووشبووەکەت بحەسێنەوە بۆ ئەوەی بارودۆخەکە خراپتر نەبێت.",
                             onPressedBritish: () => speakaggravat37814("en-GB"),
-                            onPressedAmerican: () => speakaggravat37814(
-                                // REPLACE: aggravation /ˌæɡrəˈveɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaggravat37814("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

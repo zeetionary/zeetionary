@@ -144,9 +144,8 @@ class EnglishEntryappropriately extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,8 @@ class EnglishEntryappropriately extends StatelessWidget {
                                 "حکومەت تاوانبار کراوە بە وەڵام‌نەدانەوەی گونجاو بۆ پێداویستییەکانی کەسانی بێ‌لانە.",
                             onPressedBritish: () =>
                                 speakappropriately414("en-GB"),
-                            onPressedAmerican: () => speakappropriately414(
-                                // REPLACE: appropriately /əˈprəʊpriətli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriately414("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

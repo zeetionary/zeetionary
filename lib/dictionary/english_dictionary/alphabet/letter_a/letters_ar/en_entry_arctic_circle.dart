@@ -145,9 +145,8 @@ class EnglishEntryarcticcircle extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryarcticcircle extends StatelessWidget {
                                 "یەکێتیی سۆڤییەت چەکی ئەتۆمی لە خولگەی جەمسەری باکوور تاقیدەکردەوە.",
                             onPressedBritish: () =>
                                 speakarcticcircle505("en-GB"),
-                            onPressedAmerican: () => speakarcticcircle505(
-                                // REPLACE: the Arctic Circle /ði ˌɑːrktɪk ˈsɜːrkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarcticcircle505("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -144,9 +144,8 @@ class EnglishEntryarable extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryarable extends StatelessWidget {
                             kurdishText:
                                 "ناوەڕاستی گوندە بچووکەکە بە زەویی بەپیت دەوردراوە.",
                             onPressedBritish: () => speakarable1042("en-GB"),
-                            onPressedAmerican: () => speakarable1042(
-                                // REPLACE: arable /ˈærəbl/
-                                "en-US"),
+                            onPressedAmerican: () => speakarable1042("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

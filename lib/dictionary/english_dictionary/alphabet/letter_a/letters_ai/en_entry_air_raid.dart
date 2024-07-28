@@ -63,7 +63,7 @@ class EnglishEntryairraid extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "air raid"), // Find /ˈeə reɪd/
+                            EntryTitle(word: "air raid"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryairraid extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -112,9 +111,7 @@ class EnglishEntryairraid extends StatelessWidget {
                             kurdishText:
                                 "خێزانەکە لە ھێرشێکی ئاسمانیدا کوژران.",
                             onPressedBritish: () => speakairraid5377("en-GB"),
-                            onPressedAmerican: () => speakairraid5377(
-                                // REPLACE: air raid /ˈer reɪd/
-                                "en-US"),
+                            onPressedAmerican: () => speakairraid5377("en-US"),
                           ),
                         ],
                       ),

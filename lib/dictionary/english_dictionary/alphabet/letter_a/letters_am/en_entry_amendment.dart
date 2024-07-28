@@ -100,9 +100,8 @@ class EnglishEntryamendment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,8 @@ class EnglishEntryamendment extends StatelessWidget {
                             kurdishText:
                                 "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر.",
                             onPressedBritish: () => speakamendment1244("en-GB"),
-                            onPressedAmerican: () => speakamendment1244(
-                                // REPLACE: amendment /əˈmendmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamendment1244("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -131,9 +129,8 @@ class EnglishEntryamendment extends StatelessWidget {
                             kurdishText:
                                 "ئەنجوومەنی پیران ژمارەیەک گۆڕانکاری بۆ پڕۆژە یاساکە زیادکرد.",
                             onPressedBritish: () => speakamendment4557("en-GB"),
-                            onPressedAmerican: () => speakamendment4557(
-                                // REPLACE: amendment /əˈmendmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamendment4557("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -146,9 +143,8 @@ class EnglishEntryamendment extends StatelessWidget {
                                 "نۆزدەیەمین گۆڕانکاری بۆ دەستووری ئەمریکا مافی دەنگدانی دا بە ژنان.",
                             onPressedBritish: () =>
                                 speakamendment74111("en-GB"),
-                            onPressedAmerican: () => speakamendment74111(
-                                // REPLACE: amendment /əˈmendmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakamendment74111("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

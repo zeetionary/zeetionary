@@ -138,9 +138,8 @@ class EnglishEntryanon extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -151,9 +150,7 @@ class EnglishEntryanon extends StatelessWidget {
                             englishText: "See you anon.",
                             kurdishText: "زوو دەتبینمەوە.",
                             onPressedBritish: () => speakanon1058("en-GB"),
-                            onPressedAmerican: () =>
-                                speakanon1058(// REPLACE: anon /əˈnɑːn/
-                                    "en-US"),
+                            onPressedAmerican: () => speakanon1058("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

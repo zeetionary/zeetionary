@@ -64,8 +64,7 @@ class EnglishEntryadvantageous extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "advantageous"), // Find /ˌædvənˈteɪdʒəs/
+                            EntryTitle(word: "advantageous"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryadvantageous extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +116,14 @@ class EnglishEntryadvantageous extends StatelessWidget {
                             kurdishText:
                                 "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە.",
                             onPressedBritish: () => speakadvant964725("en-GB"),
-                            onPressedAmerican: () => speakadvant964725(
-                                // REPLACE: advantageous /ˌædvənˈteɪdʒəs/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvant964725("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

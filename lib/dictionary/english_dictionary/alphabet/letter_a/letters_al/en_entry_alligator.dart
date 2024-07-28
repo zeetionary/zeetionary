@@ -63,8 +63,7 @@ class EnglishEntryalligator extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alligator"), // Find /ˈælɪɡeɪtə(r)/
+                            EntryTitle(word: "alligator"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryalligator extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +111,8 @@ class EnglishEntryalligator extends StatelessWidget {
                             kurdishText:
                                 "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت.",
                             onPressedBritish: () => speakalligator4596("en-GB"),
-                            onPressedAmerican: () => speakalligator4596(
-                                // REPLACE: alligator /ˈælɪɡeɪtər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalligator4596("en-US"),
                           ),
                         ],
                       ),

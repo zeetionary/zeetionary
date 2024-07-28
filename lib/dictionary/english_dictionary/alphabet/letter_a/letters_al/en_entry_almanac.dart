@@ -101,9 +101,8 @@ class EnglishEntryalmanac extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +119,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                             kurdishText:
                                 "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا.",
                             onPressedBritish: () => speakalmanac4932("en-GB"),
-                            onPressedAmerican: () => speakalmanac4932(
-                                // REPLACE: almanac  /ˈɔːlmənæk/, /ˈælmənæk/
-                                "en-US"),
+                            onPressedAmerican: () => speakalmanac4932("en-US"),
                           ),
                         ],
                       ),

@@ -192,9 +192,8 @@ class EnglishEntryappreciate extends StatelessWidget {
                             kurdishText:
                                 "بەخشندەیی و دەست‌کراوەییت بەرز دەنرخێنم.",
                             onPressedBritish: () => speakappreciate756("en-GB"),
-                            onPressedAmerican: () => speakappreciate756(
-                                // REPLACE: appreciate /əˈpriːʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciate756("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -206,9 +205,8 @@ class EnglishEntryappreciate extends StatelessWidget {
                             kurdishText:
                                 "ئەوەی پێم‌نەزانی دووری نێوان دوو شارەکە بوو.",
                             onPressedBritish: () => speakappreciate759("en-GB"),
-                            onPressedAmerican: () => speakappreciate759(
-                                // REPLACE: appreciate /əˈpriːʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciate759("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),

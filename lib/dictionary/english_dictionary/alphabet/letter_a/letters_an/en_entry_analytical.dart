@@ -137,9 +137,8 @@ class EnglishEntryanalytical extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -150,9 +149,8 @@ class EnglishEntryanalytical extends StatelessWidget {
                             englishText: "She has a clear analytical mind.",
                             kurdishText: "مێشکێکی تەواو بەدیقەتی ھەیە.",
                             onPressedBritish: () => speakanalytical150("en-GB"),
-                            onPressedAmerican: () => speakanalytical150(
-                                // REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanalytical150("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

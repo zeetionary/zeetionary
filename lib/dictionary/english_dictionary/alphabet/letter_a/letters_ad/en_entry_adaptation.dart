@@ -64,8 +64,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adaptation"), // Find /ˌædæpˈteɪʃn/
+                            EntryTitle(word: "adaptation"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryadaptation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +117,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                             kurdishText:
                                 "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی تازە بۆ ھەندێک منداڵ ئاسان نییە.",
                             onPressedBritish: () => speakadapt3254("en-GB"),
-                            onPressedAmerican: () => speakadapt3254(
-                                // REPLACE: adaptation /ˌædæpˈteɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadapt3254("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -131,16 +127,14 @@ class EnglishEntryadaptation extends StatelessWidget {
                                 "a screen adaptation of Shakespeare’s ‘Macbeth’",
                             kurdishText: "سازاندنی فیلمیی ماکبێسی شکسپیر.",
                             onPressedBritish: () => speakadaptat2489("en-GB"),
-                            onPressedAmerican: () => speakadaptat2489(
-                                // REPLACE: adaptation /ˌædæpˈteɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadaptat2489("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

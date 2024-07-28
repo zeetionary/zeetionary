@@ -139,9 +139,8 @@ class EnglishEntryanalogy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryanalogy extends StatelessWidget {
                                 "The teacher drew an analogy between the human heart and a pump.",
                             kurdishText: "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک.",
                             onPressedBritish: () => speakanalogy4805("en-GB"),
-                            onPressedAmerican: () => speakanalogy4805(
-                                // REPLACE: analogy /əˈnælədʒi/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalogy4805("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -168,9 +165,7 @@ class EnglishEntryanalogy extends StatelessWidget {
                                 "The computer is a useful analogy for the brain.",
                             kurdishText: "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک.",
                             onPressedBritish: () => speakanalogy8540("en-GB"),
-                            onPressedAmerican: () => speakanalogy8540(
-                                // REPLACE: analogy /əˈnælədʒi/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalogy8540("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +177,7 @@ class EnglishEntryanalogy extends StatelessWidget {
                             kurdishText:
                                 "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ.",
                             onPressedBritish: () => speakanalogy8704("en-GB"),
-                            onPressedAmerican: () => speakanalogy8704(
-                                // REPLACE: analogy /əˈnælədʒi/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalogy8704("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

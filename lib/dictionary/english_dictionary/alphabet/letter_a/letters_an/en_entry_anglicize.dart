@@ -138,9 +138,8 @@ class EnglishEntryanglicize extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -153,9 +152,8 @@ class EnglishEntryanglicize extends StatelessWidget {
                             kurdishText:
                                 "ھاوسەرگیری لەگەڵ پەنابەری نەرویجی نیەڵز لارسن کرد کە دواتر ناوەکەی خۆی بە ئینگلیزی کرد.",
                             onPressedBritish: () => speakanglicize4450("en-GB"),
-                            onPressedAmerican: () => speakanglicize4450(
-                                // REPLACE: anglicize /ˈæŋɡlɪsaɪz/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanglicize4450("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -64,7 +64,7 @@ class EnglishEntryalias extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alias"), // Find /ˈælɡərɪðəm/
+                            EntryTitle(word: "alias"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalias extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryalias extends StatelessWidget {
                             englishText: "He travels under (= using) an alias.",
                             kurdishText: "لەژێر نازناوێکدا گەشت دەکات.",
                             onPressedBritish: () => speakalias53444("en-GB"),
-                            onPressedAmerican: () => speakalias53444(
-                                // REPLACE: alias /ˈælɡərɪðəm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalias53444("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,9 +126,7 @@ class EnglishEntryalias extends StatelessWidget {
                             kurdishText:
                                 "پاوڵ کەنەدی کە ھەروەھا ناسراوە بە ڕوپرت شارپ ئەمڕۆ چوو بپ زیندان.",
                             onPressedBritish: () => speakalias4556("en-GB"),
-                            onPressedAmerican: () => speakalias4556(
-                                // REPLACE: alias /ˈælɡərɪðəm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalias4556("en-US"),
                           ),
                         ],
                       ),

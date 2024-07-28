@@ -145,9 +145,8 @@ class EnglishEntryapply extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,8 +160,7 @@ class EnglishEntryapply extends StatelessWidget {
                                 "بڕیارم داوە داخوازینامە بۆ ئەم کارە تازە پێشکەش بکەم.",
                             onPressedBritish: () => speakapply736("en-GB"),
                             onPressedAmerican: () =>
-                                speakapply736(// REPLACE: apply /əˈplaɪ/
-                                    "en-US"),
+                                speakapply736("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,8 +171,7 @@ class EnglishEntryapply extends StatelessWidget {
                                 "لەوانەیە داوا پێشکەشی دادگا بکەن بۆ ھەڵوەشاندنەوەی بڕیارەکە.",
                             onPressedBritish: () => speakapply738("en-GB"),
                             onPressedAmerican: () =>
-                                speakapply738(// REPLACE: apply /əˈplaɪ/
-                                    "en-US"),
+                                speakapply738("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,8 +184,7 @@ class EnglishEntryapply extends StatelessWidget {
                                 "ئەوەی دەیڵێم تەنھا بەسەر ھەندێکتان دەچەسپێ.",
                             onPressedBritish: () => speakapply741("en-GB"),
                             onPressedAmerican: () =>
-                                speakapply741(// REPLACE: apply /əˈplaɪ/
-                                    "en-US"),
+                                speakapply741("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -201,8 +197,7 @@ class EnglishEntryapply extends StatelessWidget {
                                 "تەکنەلۆژیا تازەکە بەکارھێندرا لە کشتوکاڵدا.",
                             onPressedBritish: () => speakapply744("en-GB"),
                             onPressedAmerican: () =>
-                                speakapply744(// REPLACE: apply /əˈplaɪ/
-                                    "en-US"),
+                                speakapply744("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -213,8 +208,7 @@ class EnglishEntryapply extends StatelessWidget {
                                 "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت.",
                             onPressedBritish: () => speakapply747("en-GB"),
                             onPressedAmerican: () =>
-                                speakapply747(// REPLACE: apply /əˈplaɪ/
-                                    "en-US"),
+                                speakapply747("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -227,8 +221,7 @@ class EnglishEntryapply extends StatelessWidget {
                                 "چەسپەکە دەبێت لە ھەردوو ڕووەکە بدرێت.",
                             onPressedBritish: () => speakapply749("en-GB"),
                             onPressedAmerican: () =>
-                                speakapply749(// REPLACE: apply /əˈplaɪ/
-                                    "en-US"),
+                                speakapply749("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

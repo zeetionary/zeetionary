@@ -144,9 +144,8 @@ class EnglishEntryapathetic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryapathetic extends StatelessWidget {
                             kurdishText:
                                 "نەخۆشییەکە وای‌کرد ساردوسڕ بێ و مەیلی بینینی خەڵکی نەبێت.",
                             onPressedBritish: () => speakapathetic1229("en-GB"),
-                            onPressedAmerican: () => speakapathetic1229(
-                                // REPLACE: apathetic /ˌæpəˈθetɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapathetic1229("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -138,9 +138,8 @@ class EnglishEntryanesthetist extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -154,9 +153,8 @@ class EnglishEntryanesthetist extends StatelessWidget {
                                 "پسپۆڕی بێ‌ھۆشی سێ جار ھەوڵی‌دا بەنجەکە بکوتێ.",
                             onPressedBritish: () =>
                                 speakanesthetist4805("en-GB"),
-                            onPressedAmerican: () => speakanesthetist4805(
-                                // REPLACE: anesthetist /əˈnesθətɪst/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanesthetist4805("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

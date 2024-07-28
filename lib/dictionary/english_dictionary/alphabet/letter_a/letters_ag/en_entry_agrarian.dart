@@ -64,7 +64,7 @@ class EnglishEntryagrarian extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agrarian"), // Find /əˈɡreəriən/
+                            EntryTitle(word: "agrarian"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagrarian extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,16 +117,14 @@ class EnglishEntryagrarian extends StatelessWidget {
                             kurdishText:
                                 "حکومەتی ناوەندی ھاندرا بۆ دەستپێکردنی پڕۆگرامێکی گەورەی وەبەرھێنانی گشتگیر لە کەرتی کشتوکاڵی بۆ زیادکردنی بەرھەمھێنانی گەنم.",
                             onPressedBritish: () => speakagrarian4377("en-GB"),
-                            onPressedAmerican: () => speakagrarian4377(
-                                // REPLACE: agrarian /əˈɡreriən/
-                                "en-US"),
+                            onPressedAmerican: () => speakagrarian4377("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

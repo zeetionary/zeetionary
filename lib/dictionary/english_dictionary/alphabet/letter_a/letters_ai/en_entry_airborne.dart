@@ -64,7 +64,7 @@ class EnglishEntryairborne extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airborne"), // Find /ˈeəbɔːn/
+                            EntryTitle(word: "airborne"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryairborne extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryairborne extends StatelessWidget {
                             kurdishText:
                                 "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین).",
                             onPressedBritish: () => speakairborne4237("en-GB"),
-                            onPressedAmerican: () => speakairborne4237(
-                                // REPLACE: airborne /ˈeəbɔːrn/
-                                "en-US"),
+                            onPressedAmerican: () => speakairborne4237("en-US"),
                           ),
                         ],
                       ),

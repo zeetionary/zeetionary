@@ -143,9 +143,8 @@ class EnglishEntryarithmetic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryarithmetic extends StatelessWidget {
                             kurdishText: "لە ژمێرەناسیدا زۆر باش نییە.",
                             onPressedBritish: () =>
                                 speakarithmetic1223("en-GB"),
-                            onPressedAmerican: () => speakarithmetic1223(
-                                // REPLACE: arithmetic /əˈrɪθmətɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarithmetic1223("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

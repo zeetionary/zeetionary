@@ -64,7 +64,7 @@ class EnglishEntryadlib extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ad lib"), // Find /ˌæd ˈlɪb/
+                            EntryTitle(word: "ad lib"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadlib extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryadlib extends StatelessWidget {
                             kurdishText:
                                 "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد.",
                             onPressedBritish: () => speakadlib4587("en-GB"),
-                            onPressedAmerican: () => speakadlib4587(
-                                // REPLACE: ad lib /ˌæd ˈlɪb/
-                                "en-US"),
+                            onPressedAmerican: () => speakadlib4587("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -130,16 +127,14 @@ class EnglishEntryadlib extends StatelessWidget {
                             kurdishText:
                                 "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم.",
                             onPressedBritish: () => speakadlib42587("en-GB"),
-                            onPressedAmerican: () => speakadlib42587(
-                                // REPLACE: ad lib /ˌæd ˈlɪb/
-                                "en-US"),
+                            onPressedAmerican: () => speakadlib42587("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

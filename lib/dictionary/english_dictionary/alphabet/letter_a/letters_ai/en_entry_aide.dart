@@ -63,7 +63,7 @@ class EnglishEntryaide extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aide"), // Find /eɪd/
+                            EntryTitle(word: "aide"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaide extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,8 +117,7 @@ class EnglishEntryaide extends StatelessWidget {
                                 "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد.",
                             onPressedBritish: () => speakaid3596484("en-GB"),
                             onPressedAmerican: () =>
-                                speakaid3596484(// REPLACE: aide /eɪd/
-                                    "en-US"),
+                                speakaid3596484("en-US"),
                           ),
                         ],
                       ),

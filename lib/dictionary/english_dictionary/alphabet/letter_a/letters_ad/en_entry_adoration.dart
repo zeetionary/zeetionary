@@ -63,7 +63,7 @@ class EnglishEntryadoration extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adoration"), // Find /ˌædəˈreɪʃn/
+                            EntryTitle(word: "adoration"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadoration extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,16 +112,14 @@ class EnglishEntryadoration extends StatelessWidget {
                             englishText: "He gazed at her with pure adoration.",
                             kurdishText: "لێی دەڕوانی بە ئەڤینێکی بێگەرد.",
                             onPressedBritish: () => speakador25674("en-GB"),
-                            onPressedAmerican: () => speakador25674(
-                                // REPLACE: adoration /ˌædəˈreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakador25674("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

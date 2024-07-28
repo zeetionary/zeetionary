@@ -64,9 +64,7 @@ class EnglishEntryairhostess extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "air hostess"), // Find /ˈeə həʊstəs/, /ˈeə həʊstes/
+                            EntryTitle(word: "air hostess"),
                           ],
                         ),
                         Row(
@@ -101,9 +99,8 @@ class EnglishEntryairhostess extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +114,8 @@ class EnglishEntryairhostess extends StatelessWidget {
                                 "یەکێک لە کارگوزاران ڕایگەیاند فڕۆکەکە ڕفێندراوە.",
                             onPressedBritish: () =>
                                 speakairhostess43655("en-GB"),
-                            onPressedAmerican: () => speakairhostess43655(
-                                // REPLACE: air hostess /ˈer həʊstəs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairhostess43655("en-US"),
                           ),
                         ],
                       ),

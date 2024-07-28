@@ -139,9 +139,8 @@ class EnglishEntryanimatronics extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -155,9 +154,8 @@ class EnglishEntryanimatronics extends StatelessWidget {
                                 "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە.",
                             onPressedBritish: () =>
                                 speakanimatronics1043("en-GB"),
-                            onPressedAmerican: () => speakanimatronics1043(
-                                // REPLACE: animatronics /ˌænɪməˈtrɑːnɪks/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanimatronics1043("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

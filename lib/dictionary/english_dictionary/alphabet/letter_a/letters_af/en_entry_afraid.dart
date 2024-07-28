@@ -63,7 +63,7 @@ class EnglishEntryafraid extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "afraid"), // Find /əˈfreɪd/
+                            EntryTitle(word: "afraid"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryafraid extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,25 +112,21 @@ class EnglishEntryafraid extends StatelessWidget {
                             englishText: "Don't be afraid.",
                             kurdishText: "مەترسە.",
                             onPressedBritish: () => speakafrai4177("en-GB"),
-                            onPressedAmerican: () => speakafrai4177(
-                                // REPLACE: afraid /əˈfreɪd/
-                                "en-US"),
+                            onPressedAmerican: () => speakafrai4177("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "They know I'm afraid of heights.",
                             kurdishText: "دەزانن لە بەرزی دەترسم.",
                             onPressedBritish: () => speakafrai955("en-GB"),
-                            onPressedAmerican: () => speakafrai955(
-                                // REPLACE: afraid /əˈfreɪd/
-                                "en-US"),
+                            onPressedAmerican: () => speakafrai955("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

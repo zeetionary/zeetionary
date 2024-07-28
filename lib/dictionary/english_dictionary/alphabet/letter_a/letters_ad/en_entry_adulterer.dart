@@ -63,8 +63,7 @@ class EnglishEntryadulterer extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adulterer"), // Find /əˈdʌltərə(r)/
+                            EntryTitle(word: "adulterer"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryadulterer extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,16 +113,15 @@ class EnglishEntryadulterer extends StatelessWidget {
                                 "Her husband was a compulsive adulterer.",
                             kurdishText: "ھاوسەرەکەی زیناکارێکی خراپ بوو.",
                             onPressedBritish: () => speakadulterer2534("en-GB"),
-                            onPressedAmerican: () => speakadulterer2534(
-                                // REPLACE: adulterer /əˈdʌltərər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakadulterer2534("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

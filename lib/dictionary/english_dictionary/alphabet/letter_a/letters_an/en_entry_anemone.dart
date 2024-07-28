@@ -137,9 +137,8 @@ class EnglishEntryanemone extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,7 @@ class EnglishEntryanemone extends StatelessWidget {
                             kurdishText:
                                 "گوڵاڵەی دەشتیمان بینی لە دارستانەکان.",
                             onPressedBritish: () => speakanemone588("en-GB"),
-                            onPressedAmerican: () => speakanemone588(
-                                // REPLACE: anemone /əˈneməni/
-                                "en-US"),
+                            onPressedAmerican: () => speakanemone588("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

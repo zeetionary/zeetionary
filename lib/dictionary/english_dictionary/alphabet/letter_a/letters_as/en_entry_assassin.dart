@@ -145,9 +145,8 @@ class EnglishEntryassassin extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryassassin extends StatelessWidget {
                             englishText: "He was killed by a hired assassin.",
                             kurdishText: "لەلایەن بکوژێکی بەکرێگیراو کوژرا.",
                             onPressedBritish: () => speakassassin958("en-GB"),
-                            onPressedAmerican: () => speakassassin958(
-                                // REPLACE: assassin /əˈsæsn/
-                                "en-US"),
+                            onPressedAmerican: () => speakassassin958("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

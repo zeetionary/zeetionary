@@ -64,7 +64,7 @@ class EnglishEntryai extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "AI"), // Find /ˌeɪ ˈaɪ/
+                            EntryTitle(word: "AI"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryai extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryai extends StatelessWidget {
                             kurdishText:
                                 "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات.",
                             onPressedBritish: () => speakai934262("en-GB"),
-                            onPressedAmerican: () =>
-                                speakai934262(// REPLACE: AI /ˌeɪ ˈaɪ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakai934262("en-US"),
                           ),
                         ],
                       ),

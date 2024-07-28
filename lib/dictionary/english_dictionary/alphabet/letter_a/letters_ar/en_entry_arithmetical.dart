@@ -144,9 +144,8 @@ class EnglishEntryarithmetical extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,8 @@ class EnglishEntryarithmetical extends StatelessWidget {
                                 "دۆزینەوەی بڕەکە لێکدانەوەیەکی سادەی ژمێریارییە.",
                             onPressedBritish: () =>
                                 speakarithmetical100("en-GB"),
-                            onPressedAmerican: () => speakarithmetical100(
-                                // REPLACE: arithmetical /ˌærɪθˈmetɪkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarithmetical100("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

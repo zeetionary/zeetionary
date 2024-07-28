@@ -64,8 +64,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "acupuncture"), // Find /ˈækjupʌŋktʃə(r)/
+                            EntryTitle(word: "acupuncture"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryacupuncture extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,16 +118,14 @@ class EnglishEntryacupuncture extends StatelessWidget {
                             kurdishText:
                                 "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت.",
                             onPressedBritish: () => speakacupunct457("en-GB"),
-                            onPressedAmerican: () => speakacupunct457(
-                                // REPLACE: acupuncture /ˈækjupʌŋktʃər/
-                                "en-US"),
+                            onPressedAmerican: () => speakacupunct457("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

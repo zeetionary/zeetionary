@@ -63,9 +63,7 @@ class EnglishEntryagritourism extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "agritourism"), // Find /ˈæɡrɪtʊərɪzəm/, /ˈæɡrɪtɔːrɪzəm/
+                            EntryTitle(word: "agritourism"),
                           ],
                         ),
                         Row(

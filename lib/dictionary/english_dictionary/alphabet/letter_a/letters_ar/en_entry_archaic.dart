@@ -144,9 +144,8 @@ class EnglishEntryarchaic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryarchaic extends StatelessWidget {
                             kurdishText:
                                 "‘Thou art’ شێوەیەکی کۆنە بۆ ‘you are’.",
                             onPressedBritish: () => speakarchaic300("en-GB"),
-                            onPressedAmerican: () => speakarchaic300(
-                                // REPLACE: archaic /ɑːrˈkeɪɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarchaic300("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryarchaic extends StatelessWidget {
                             kurdishText:
                                 "سیستەمەکە کۆنەباو و نادادپەروەرە و پێویستی بە گۆڕانکارییە.",
                             onPressedBritish: () => speakarchaic302("en-GB"),
-                            onPressedAmerican: () => speakarchaic302(
-                                // REPLACE: archaic /ɑːrˈkeɪɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarchaic302("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +185,7 @@ class EnglishEntryarchaic extends StatelessWidget {
                             kurdishText:
                                 "زۆرێک لە مۆزەخانەکان ھونەری سەردەمانی کۆن نمایش دەکەن.",
                             onPressedBritish: () => speakarchaic304("en-GB"),
-                            onPressedAmerican: () => speakarchaic304(
-                                // REPLACE: archaic /ɑːrˈkeɪɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakarchaic304("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

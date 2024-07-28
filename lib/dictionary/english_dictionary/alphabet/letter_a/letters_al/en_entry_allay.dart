@@ -63,7 +63,7 @@ class EnglishEntryallay extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allay"), // Find /əˈleɪ/
+                            EntryTitle(word: "allay"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryallay extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryallay extends StatelessWidget {
                             kurdishText:
                                 "لێکۆڵینەوەکە کاریگەری کەمی بووە لەسەر دامرکاندنەوەی گومان.",
                             onPressedBritish: () => speakallay36299("en-GB"),
-                            onPressedAmerican: () => speakallay36299(
-                                // REPLACE: allay /əˈleɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakallay36299("en-US"),
                           ),
                         ],
                       ),

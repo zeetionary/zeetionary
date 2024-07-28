@@ -64,8 +64,7 @@ class EnglishEntryadulterate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "adulterate"), // Find /əˈdʌltəreɪt/
+                            EntryTitle(word: "adulterate"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryadulterate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,16 +117,14 @@ class EnglishEntryadulterate extends StatelessWidget {
                             kurdishText:
                                 "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە.",
                             onPressedBritish: () => speakadulte658134("en-GB"),
-                            onPressedAmerican: () => speakadulte658134(
-                                // REPLACE: adulterate /əˈdʌltəreɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakadulte658134("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

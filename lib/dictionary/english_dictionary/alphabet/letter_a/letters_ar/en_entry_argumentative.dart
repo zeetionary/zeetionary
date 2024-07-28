@@ -145,9 +145,8 @@ class EnglishEntryargumentative extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryargumentative extends StatelessWidget {
                             kurdishText: "ھەموو ئەندامێکی خێزانەکە چەنەبازن.",
                             onPressedBritish: () =>
                                 speakargumentative1050("en-GB"),
-                            onPressedAmerican: () => speakargumentative1050(
-                                // REPLACE: argumentative /ˌɑːrɡjuˈmentətɪv/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakargumentative1050("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -96,7 +96,7 @@ class EnglishEntryagain extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "again"), // Find /əˈɡen/, /əˈɡeɪn/
+                            EntryTitle(word: "again"),
                           ],
                         ),
                         Row(
@@ -132,9 +132,8 @@ class EnglishEntryagain extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -148,9 +147,7 @@ class EnglishEntryagain extends StatelessWidget {
                             englishText: "This must never happen again.",
                             kurdishText: "ئەمە ئەبێت ھەرگیز ڕوونەداتەوە.",
                             onPressedBritish: () => speakagain493("en-GB"),
-                            onPressedAmerican: () => speakagain493(
-                                // REPLACE: again /əˈɡen/, /əˈɡeɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakagain493("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -159,9 +156,7 @@ class EnglishEntryagain extends StatelessWidget {
                             kurdishText:
                                 "ئەگەر دووبارەی بکاتەوە دەبێت پێی بڵێم.",
                             onPressedBritish: () => speakagai1822("en-GB"),
-                            onPressedAmerican: () => speakagai1822(
-                                // REPLACE: again /əˈɡen/, /əˈɡeɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakagai1822("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -170,9 +165,7 @@ class EnglishEntryagain extends StatelessWidget {
                             englishText: "He was glad to be home again.",
                             kurdishText: "خۆشحاڵبوو کە دووبارە لە ماڵەوە بوو.",
                             onPressedBritish: () => speakagain156("en-GB"),
-                            onPressedAmerican: () => speakagain156(
-                                // REPLACE: again /əˈɡen/, /əˈɡeɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakagain156("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -183,16 +176,14 @@ class EnglishEntryagain extends StatelessWidget {
                             kurdishText:
                                 "نرخەکەی نیوەی نرخی دوو ساڵ پێش ئێستای خۆی چووەتە سەر.",
                             onPressedBritish: () => speakaga256("en-GB"),
-                            onPressedAmerican: () => speakaga256(
-                                // REPLACE: again /əˈɡen/, /əˈɡeɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaga256("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

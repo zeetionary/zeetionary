@@ -144,9 +144,8 @@ class EnglishEntryappraisal extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                                 "The report has been subject to appraisal.",
                             kurdishText: "ڕاپۆرتەکە بە لێکدانەوەدا تێپەڕبووە.",
                             onPressedBritish: () => speakappraisal930("en-GB"),
-                            onPressedAmerican: () => speakappraisal930(
-                                // REPLACE: appraisal /əˈpreɪzl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappraisal930("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -173,9 +170,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                             kurdishText:
                                 "ھەڵسەنگاندنێکی وردی پلانەکە ئەنجام دەدرێت.",
                             onPressedBritish: () => speakappraisal932("en-GB"),
-                            onPressedAmerican: () => speakappraisal932(
-                                // REPLACE: appraisal /əˈpreɪzl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappraisal932("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                             englishText: "I have my appraisal today.",
                             kurdishText: "ئەمڕۆ ڕۆژی ھەڵسەنگاندنمە.",
                             onPressedBritish: () => speakappraisal935("en-GB"),
-                            onPressedAmerican: () => speakappraisal935(
-                                // REPLACE: appraisal /əˈpreɪzl/
-                                "en-US"),
+                            onPressedAmerican: () => speakappraisal935("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

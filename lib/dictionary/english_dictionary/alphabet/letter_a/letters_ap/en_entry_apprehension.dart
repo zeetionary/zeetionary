@@ -146,9 +146,8 @@ class EnglishEntryapprehension extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 "دڵەخورپەی زیاتر و زیاتر ھەیە کە شەڕ لەوانەیە دووبارە دەست‌پێ‌بکاتەوە.",
                             onPressedBritish: () =>
                                 speakapprehension933("en-GB"),
-                            onPressedAmerican: () => speakapprehension933(
-                                // REPLACE: apprehension /ˌæprɪˈhenʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapprehension933("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -179,9 +177,8 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 "بە دڵەخورپەوە سەیری ئەنجامی ھەڵبژاردنەکانی دەکرد.",
                             onPressedBritish: () =>
                                 speakapprehension935("en-GB"),
-                            onPressedAmerican: () => speakapprehension935(
-                                // REPLACE: apprehension /ˌæprɪˈhenʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapprehension935("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +191,8 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 "ھەردوو سوپا و پۆلیس بەژداربوون لە دەستگیرکردنی تیرۆریستەکان.",
                             onPressedBritish: () =>
                                 speakapprehension939("en-GB"),
-                            onPressedAmerican: () => speakapprehension939(
-                                // REPLACE: apprehension /ˌæprɪˈhenʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapprehension939("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

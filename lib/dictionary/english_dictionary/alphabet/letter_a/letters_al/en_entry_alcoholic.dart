@@ -72,7 +72,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alcoholic"), // Find /ˌælkəˈhɒlɪk/
+                            EntryTitle(word: "alcoholic"),
                           ],
                         ),
                         Row(
@@ -106,9 +106,8 @@ class EnglishEntryalcoholic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +119,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                 "The fruit juice tasted slightly alcoholic.",
                             kurdishText: "شەربەتەکە کەمێک تامی کحولی دەدا.",
                             onPressedBritish: () => speakalcoholic459("en-GB"),
-                            onPressedAmerican: () => speakalcoholic459(
-                                // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakalcoholic459("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -133,9 +130,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                             kurdishText:
                                 "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن.",
                             onPressedBritish: () => speakalcoholic469("en-GB"),
-                            onPressedAmerican: () => speakalcoholic469(
-                                // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakalcoholic469("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -145,9 +140,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                 "She was taking care of her alcoholic son.",
                             kurdishText: "چاودێری کوڕە ئاڵوودەکەیی دەکرد.",
                             onPressedBritish: () => speakalcoholic358("en-GB"),
-                            onPressedAmerican: () => speakalcoholic358(
-                                // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakalcoholic358("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -159,9 +152,8 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                 "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی.",
                             onPressedBritish: () =>
                                 speakalcoholic39412("en-GB"),
-                            onPressedAmerican: () => speakalcoholic39412(
-                                // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalcoholic39412("en-US"),
                           ),
                         ],
                       ),

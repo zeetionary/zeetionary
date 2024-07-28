@@ -64,7 +64,7 @@ class EnglishEntryambiguous extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ambiguous"), // Find /æmˈbɪɡjuəs/
+                            EntryTitle(word: "ambiguous"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryambiguous extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,8 @@ class EnglishEntryambiguous extends StatelessWidget {
                             kurdishText:
                                 "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە.",
                             onPressedBritish: () => speakambiguous7666("en-GB"),
-                            onPressedAmerican: () => speakambiguous7666(
-                                // REPLACE: ambiguous /æmˈbɪɡjuəs/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakambiguous7666("en-US"),
                           ),
                         ],
                       ),

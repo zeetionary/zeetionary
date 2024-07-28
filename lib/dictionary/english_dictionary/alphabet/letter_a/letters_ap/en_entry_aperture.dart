@@ -144,9 +144,8 @@ class EnglishEntryaperture extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,7 @@ class EnglishEntryaperture extends StatelessWidget {
                             kurdishText:
                                 "سەربازەکە فیشەکێکی تەقاند لە کونێکی بچووکەوە لە کەڵەکەیەک کیسەلمەوە.",
                             onPressedBritish: () => speakaperture201("en-GB"),
-                            onPressedAmerican: () => speakaperture201(
-                                // REPLACE: aperture /ˈæpərtʃʊr/
-                                "en-US"),
+                            onPressedAmerican: () => speakaperture201("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +172,7 @@ class EnglishEntryaperture extends StatelessWidget {
                                 "Binoculars of this aperture are very expensive.",
                             kurdishText: "دووربینەکانی ئەم دەرچەیە زۆر گرانن.",
                             onPressedBritish: () => speakaperture204("en-GB"),
-                            onPressedAmerican: () => speakaperture204(
-                                // REPLACE: aperture /ˈæpərtʃʊr/
-                                "en-US"),
+                            onPressedAmerican: () => speakaperture204("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

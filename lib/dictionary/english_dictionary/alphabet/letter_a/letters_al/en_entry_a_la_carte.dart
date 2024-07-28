@@ -63,8 +63,7 @@ class EnglishEntryalacarte extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "à la carte"), // Find /ˌɑː lɑː ˈkɑːt/
+                            EntryTitle(word: "à la carte"),
                           ],
                         ),
                         Row(

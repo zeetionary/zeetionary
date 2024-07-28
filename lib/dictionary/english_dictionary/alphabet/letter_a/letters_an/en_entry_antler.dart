@@ -141,9 +141,8 @@ class EnglishEntryantler extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,7 @@ class EnglishEntryantler extends StatelessWidget {
                             kurdishText:
                                 "ئەو ڕاوچیانەی بەشوێن شاخی نێراسک دەگەڕێن سوورئاسک ڕاودەکەن.",
                             onPressedBritish: () => speakantler101("en-GB"),
-                            onPressedAmerican: () => speakantler101(
-                                // REPLACE: antler /ˈæntlər/
-                                "en-US"),
+                            onPressedAmerican: () => speakantler101("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

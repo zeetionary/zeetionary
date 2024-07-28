@@ -148,9 +148,8 @@ class EnglishEntryassessment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -168,9 +167,8 @@ class EnglishEntryassessment extends StatelessWidget {
                                 "ھەڵسەنگاندنێکی سەرەتاییمان ئەنجام‌دا بۆ دیاریکردنی ئاستی کارەکە.",
                             onPressedBritish: () =>
                                 speakassessment1125("en-GB"),
-                            onPressedAmerican: () => speakassessment1125(
-                                // REPLACE: assessment /əˈsesmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassessment1125("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -183,9 +181,8 @@ class EnglishEntryassessment extends StatelessWidget {
                                 "ھەڵسەنگاندنی پێداویستییەکان گرنگە بۆ دابینکردنی خزمەتگوزاریی تەندرووستیی بەرچاو لە نەخۆشخانەکە.",
                             onPressedBritish: () =>
                                 speakassessment1128("en-GB"),
-                            onPressedAmerican: () => speakassessment1128(
-                                // REPLACE: assessment /əˈsesmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassessment1128("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -198,9 +195,8 @@ class EnglishEntryassessment extends StatelessWidget {
                                 "ھەڵسەنگاندنی باو بۆ ئەو کۆرسانەی دەیڵێینەوە بریتییە لە داڕشتنی نووسراو.",
                             onPressedBritish: () =>
                                 speakassessment1131("en-GB"),
-                            onPressedAmerican: () => speakassessment1131(
-                                // REPLACE: assessment /əˈsesmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassessment1131("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

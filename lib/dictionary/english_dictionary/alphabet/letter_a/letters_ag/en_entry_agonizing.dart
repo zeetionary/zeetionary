@@ -63,7 +63,7 @@ class EnglishEntryagonizing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agonizing"), // Find /ˈæɡənaɪzɪŋ/
+                            EntryTitle(word: "agonizing"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryagonizing extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,16 +114,14 @@ class EnglishEntryagonizing extends StatelessWidget {
                                 "His father’s agonizing death devastated her.",
                             kurdishText: "مردنە بەژانەکەی باوکی وێرانی کرد.",
                             onPressedBritish: () => speaka145233("en-GB"),
-                            onPressedAmerican: () => speaka145233(
-                                // REPLACE: agonizing /ˈæɡənaɪzɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speaka145233("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

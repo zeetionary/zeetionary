@@ -65,7 +65,7 @@ class EnglishEntryadoption extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adoption"), // Find /əˈdɒpʃn/
+                            EntryTitle(word: "adoption"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryadoption extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,9 +115,7 @@ class EnglishEntryadoption extends StatelessWidget {
                             kurdishText:
                                 "دەستبەرداری منداڵەکە بوو بۆ ھەڵگرتنەوە.",
                             onPressedBritish: () => speakadopt58694("en-GB"),
-                            onPressedAmerican: () => speakadopt58694(
-                                // REPLACE: adoption /əˈdɑːpʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadopt58694("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -129,9 +126,7 @@ class EnglishEntryadoption extends StatelessWidget {
                             kurdishText:
                                 "بەکارھێنانی بەرفراوانی تەکنەلۆژیای تازە ئەکرێت ١٦٢ ملیار دۆلاری ساڵانە بگەڕێنێتەوە.",
                             onPressedBritish: () => speakadop5861("en-GB"),
-                            onPressedAmerican: () => speakadop5861(
-                                // REPLACE: adoption /əˈdɑːpʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadop5861("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -142,16 +137,14 @@ class EnglishEntryadoption extends StatelessWidget {
                             kurdishText:
                                 "پارتەکە بە فەرمی ھەڵبژاردنی جۆرج سمیسی وەک کاندیدی ھەڵبژاردنەکان ڕاگەیاند.",
                             onPressedBritish: () => speakadop25674("en-GB"),
-                            onPressedAmerican: () => speakadop25674(
-                                // REPLACE: adoption /əˈdɑːpʃn/
-                                "en-US"),
+                            onPressedAmerican: () => speakadop25674("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

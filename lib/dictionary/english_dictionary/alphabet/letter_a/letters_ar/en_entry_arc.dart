@@ -146,9 +146,8 @@ class EnglishEntryarc extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,8 +165,7 @@ class EnglishEntryarc extends StatelessWidget {
                                 "تۆپەکە لە شێوەی کەوانەیەک بەرزبوویەوە و چووە دەرەوەی یاریگاکە.",
                             onPressedBritish: () => speakarc1246("en-GB"),
                             onPressedAmerican: () =>
-                                speakarc1246(// REPLACE: arc /ɑːrk/
-                                    "en-US"),
+                                speakarc1246("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,8 +178,7 @@ class EnglishEntryarc extends StatelessWidget {
                                 "گوللە تۆپیان ھەڵدەدا بەسەرماندا لە شێوەی کەوانەیەکدا.",
                             onPressedBritish: () => speakarc1249("en-GB"),
                             onPressedAmerican: () =>
-                                speakarc1249(// REPLACE: arc /ɑːrk/
-                                    "en-US"),
+                                speakarc1249("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,8 +191,7 @@ class EnglishEntryarc extends StatelessWidget {
                                 "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا.",
                             onPressedBritish: () => speakarc1252("en-GB"),
                             onPressedAmerican: () =>
-                                speakarc1252(// REPLACE: arc /ɑːrk/
-                                    "en-US"),
+                                speakarc1252("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

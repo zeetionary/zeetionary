@@ -63,7 +63,7 @@ class EnglishEntryaerosol extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aerosol"), // Find /ˈeərəsɒl/
+                            EntryTitle(word: "aerosol"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaerosol extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,16 +116,14 @@ class EnglishEntryaerosol extends StatelessWidget {
                             kurdishText:
                                 "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا.",
                             onPressedBritish: () => speakaero63844("en-GB"),
-                            onPressedAmerican: () => speakaero63844(
-                                // REPLACE: aerosol /ˈerəsɒl/
-                                "en-US"),
+                            onPressedAmerican: () => speakaero63844("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

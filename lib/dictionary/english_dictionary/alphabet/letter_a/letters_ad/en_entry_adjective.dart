@@ -63,7 +63,7 @@ class EnglishEntryadjective extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adjective"), // Find /ˈædʒɪktɪv/
+                            EntryTitle(word: "adjective"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadjective extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,16 +113,14 @@ class EnglishEntryadjective extends StatelessWidget {
                             englishText: "Adjectives qualify nouns.",
                             kurdishText: "ھاوەڵناو پێناسەی ناو دەکات.",
                             onPressedBritish: () => speakadje1411("en-GB"),
-                            onPressedAmerican: () => speakadje1411(
-                                // REPLACE: adjective /ˈædʒɪktɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakadje1411("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

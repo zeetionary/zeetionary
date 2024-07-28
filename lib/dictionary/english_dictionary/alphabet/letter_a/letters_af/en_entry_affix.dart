@@ -63,7 +63,7 @@ class EnglishEntryaffix extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "affix"), // Find /əˈfɪks/
+                            EntryTitle(word: "affix"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaffix extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,8 +115,7 @@ class EnglishEntryaffix extends StatelessWidget {
                                 "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە.",
                             onPressedBritish: () => speakaffix911("en-GB"),
                             onPressedAmerican: () =>
-                                speakaffix911(// REPLACE: affix /əˈfɪks/
-                                    "en-US"),
+                                speakaffix911("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -127,7 +125,7 @@ class EnglishEntryaffix extends StatelessWidget {
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

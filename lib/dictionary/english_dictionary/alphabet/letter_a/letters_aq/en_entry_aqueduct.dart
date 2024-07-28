@@ -144,9 +144,8 @@ class EnglishEntryaqueduct extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryaqueduct extends StatelessWidget {
                             kurdishText:
                                 "زۆرێک ژەنەراڵی ڕۆم ئاوبارەیان درووست‌دەکرد بۆ سوپاکانیان لە کاتی شەڕدا.",
                             onPressedBritish: () => speakaqueduct1000("en-GB"),
-                            onPressedAmerican: () => speakaqueduct1000(
-                                // REPLACE: aqueduct /ˈækwɪdʌkt/
-                                "en-US"),
+                            onPressedAmerican: () => speakaqueduct1000("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -64,8 +64,7 @@ class EnglishEntryambivalent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "ambivalent"), // Find /æmˈbɪvələnt/
+                            EntryTitle(word: "ambivalent"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryambivalent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,8 @@ class EnglishEntryambivalent extends StatelessWidget {
                                 "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی.",
                             onPressedBritish: () =>
                                 speakambivalent4633("en-GB"),
-                            onPressedAmerican: () => speakambivalent4633(
-                                // REPLACE: ambivalent /æmˈbɪvələnt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakambivalent4633("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -132,9 +129,8 @@ class EnglishEntryambivalent extends StatelessWidget {
                                 "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە.",
                             onPressedBritish: () =>
                                 speakambivalent46777("en-GB"),
-                            onPressedAmerican: () => speakambivalent46777(
-                                // REPLACE: ambivalent /æmˈbɪvələnt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakambivalent46777("en-US"),
                           ),
                         ],
                       ),

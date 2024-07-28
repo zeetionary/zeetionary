@@ -143,9 +143,8 @@ class EnglishEntryapron extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryapron extends StatelessWidget {
                             englishText: "Her apron was speckled with oil.",
                             kurdishText: "بەروانکەکەی خاڵ خاڵ ڕۆنی پێوەبوو.",
                             onPressedBritish: () => speakapron728("en-GB"),
-                            onPressedAmerican: () => speakapron728(
-                                // REPLACE: apron /ˈeɪprən/
-                                "en-US"),
+                            onPressedAmerican: () => speakapron728("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

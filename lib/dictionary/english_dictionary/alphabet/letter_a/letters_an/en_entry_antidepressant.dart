@@ -142,9 +142,8 @@ class EnglishEntryantidepressant extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                 "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات.",
                             onPressedBritish: () =>
                                 speakantidepressant1005("en-GB"),
-                            onPressedAmerican: () => speakantidepressant1005(
-                                // REPLACE: antidepressant /ˌæntidɪˈpresnt/, /ˌæntaɪdɪˈpresnt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantidepressant1005("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

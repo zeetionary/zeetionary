@@ -63,7 +63,7 @@ class EnglishEntryadhoc extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ad hoc"), // Find /ˌæd ˈhɒk/
+                            EntryTitle(word: "ad hoc"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadhoc extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryadhoc extends StatelessWidget {
                             kurdishText:
                                 "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن.",
                             onPressedBritish: () => speakadhoc2414("en-GB"),
-                            onPressedAmerican: () => speakadhoc2414(
-                                // REPLACE: ad hoc /ˌæd ˈhɑːk/
-                                "en-US"),
+                            onPressedAmerican: () => speakadhoc2414("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -128,16 +125,14 @@ class EnglishEntryadhoc extends StatelessWidget {
                             englishText: "The decisions were made ad hoc.",
                             kurdishText: "بڕیارەکان گەرماوگەرم  دران.",
                             onPressedBritish: () => speakadhoc2414("en-GB"),
-                            onPressedAmerican: () => speakadhoc2414(
-                                // REPLACE: ad hoc /ˌæd ˈhɑːk/
-                                "en-US"),
+                            onPressedAmerican: () => speakadhoc2414("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

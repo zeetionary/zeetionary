@@ -63,7 +63,7 @@ class EnglishEntryaerospace extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aerospace"), // Find /ˈeərəʊspeɪs/
+                            EntryTitle(word: "aerospace"),
                           ],
                         ),
                         Row(
@@ -114,7 +114,7 @@ class EnglishEntryaerospace extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

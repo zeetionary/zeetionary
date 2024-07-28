@@ -144,9 +144,8 @@ class EnglishEntryapologize extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryapologize extends StatelessWidget {
                             englishText: "Why should I apologize?",
                             kurdishText: "بۆچی دەبێت داوای لێبووردن بکەم؟",
                             onPressedBritish: () => speakapologize535("en-GB"),
-                            onPressedAmerican: () => speakapologize535(
-                                // REPLACE: apologize /əˈpɑːlədʒaɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakapologize535("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -169,9 +166,7 @@ class EnglishEntryapologize extends StatelessWidget {
                             kurdishText:
                                 "ویستی بەشێوەیەکی گشتی داوای لێبووردن بکات لە قوربانییەکانی.",
                             onPressedBritish: () => speakapologize537("en-GB"),
-                            onPressedAmerican: () => speakapologize537(
-                                // REPLACE: apologize /əˈpɑːlədʒaɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakapologize537("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -181,9 +176,7 @@ class EnglishEntryapologize extends StatelessWidget {
                             kurdishText:
                                 "بە تەواوی داوای لێبووردن دەکەم ھەر لێدوانێکی بێ‌ڕێزانە کە وتبێتم.",
                             onPressedBritish: () => speakapologize540("en-GB"),
-                            onPressedAmerican: () => speakapologize540(
-                                // REPLACE: apologize /əˈpɑːlədʒaɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakapologize540("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

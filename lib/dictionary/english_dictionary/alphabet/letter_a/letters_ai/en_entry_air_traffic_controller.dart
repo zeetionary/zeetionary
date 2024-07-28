@@ -64,9 +64,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "air traffic controller"), // Find /ˌeə træfɪk kənˈtrəʊlə(r)/
+                            EntryTitle(word: "air traffic controller"),
                           ],
                         ),
                         Row(
@@ -104,9 +102,8 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -124,9 +121,8 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                                 "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد.",
                             onPressedBritish: () =>
                                 speakairtrafficcontroller4255("en-GB"),
-                            onPressedAmerican: () => speakairtrafficcontroller4255(
-                                // REPLACE: air traffic controller /ˌer træfɪk kənˈtrəʊlər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairtrafficcontroller4255("en-US"),
                           ),
                         ],
                       ),

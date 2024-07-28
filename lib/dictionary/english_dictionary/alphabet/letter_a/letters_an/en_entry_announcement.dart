@@ -141,9 +141,8 @@ class EnglishEntryannouncement extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryannouncement extends StatelessWidget {
                                 "پێشوازی لە ڕاگەیاندنە تازەکەی حکومەت دەکەین.",
                             onPressedBritish: () =>
                                 speakannouncement413("en-GB"),
-                            onPressedAmerican: () => speakannouncement413(
-                                // REPLACE: announcement /əˈnaʊnsmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakannouncement413("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +172,8 @@ class EnglishEntryannouncement extends StatelessWidget {
                                 "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی.",
                             onPressedBritish: () =>
                                 speakannouncement416("en-GB"),
-                            onPressedAmerican: () => speakannouncement416(
-                                // REPLACE: announcement /əˈnaʊnsmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakannouncement416("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +186,8 @@ class EnglishEntryannouncement extends StatelessWidget {
                                 "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات.",
                             onPressedBritish: () =>
                                 speakannouncement420("en-GB"),
-                            onPressedAmerican: () => speakannouncement420(
-                                // REPLACE: announcement /əˈnaʊnsmənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakannouncement420("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

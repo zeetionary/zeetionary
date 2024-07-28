@@ -65,7 +65,7 @@ class EnglishEntryaerial extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aerial"), // Find /ˈeəriəl/
+                            EntryTitle(word: "aerial"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryaerial extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,7 @@ class EnglishEntryaerial extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەکی زۆر ئاریەڵی تەلەڤیزیۆن لەسەر سەربانەکان لە دوورەوە دیار بوون.",
                             onPressedBritish: () => speakaeri5692("en-GB"),
-                            onPressedAmerican: () => speakaeri5692(
-                                // REPLACE: aerial /ˈeriəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakaeri5692("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -132,16 +129,14 @@ class EnglishEntryaerial extends StatelessWidget {
                             kurdishText:
                                 "بۆمبارانی ئاسمانی بۆ سەر ئامانجە سەربازییەکان بەردەوام بوون.",
                             onPressedBritish: () => speakaeria2567("en-GB"),
-                            onPressedAmerican: () => speakaeria2567(
-                                // REPLACE: aerial /ˈeriəl/
-                                "en-US"),
+                            onPressedAmerican: () => speakaeria2567("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

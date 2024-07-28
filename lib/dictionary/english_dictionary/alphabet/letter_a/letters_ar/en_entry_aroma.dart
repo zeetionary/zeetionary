@@ -143,9 +143,8 @@ class EnglishEntryaroma extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryaroma extends StatelessWidget {
                             kurdishText:
                                 "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات.",
                             onPressedBritish: () => speakaroma822("en-GB"),
-                            onPressedAmerican: () => speakaroma822(
-                                // REPLACE: aroma /əˈrəʊmə/
-                                "en-US"),
+                            onPressedAmerican: () => speakaroma822("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

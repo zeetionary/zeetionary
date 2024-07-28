@@ -141,9 +141,8 @@ class EnglishEntryantarctic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                             kurdishText:
                                 "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارھێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان.",
                             onPressedBritish: () => speakantarctic134("en-GB"),
-                            onPressedAmerican: () => speakantarctic134(
-                                // REPLACE: Antarctic /ænˈtɑːrktɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakantarctic134("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -170,9 +167,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                             kurdishText:
                                 "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەھۆڵ.",
                             onPressedBritish: () => speakantarctic136("en-GB"),
-                            onPressedAmerican: () => speakantarctic136(
-                                // REPLACE: Antarctic /ænˈtɑːrktɪk/
-                                "en-US"),
+                            onPressedAmerican: () => speakantarctic136("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

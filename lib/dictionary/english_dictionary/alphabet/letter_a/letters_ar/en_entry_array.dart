@@ -146,9 +146,8 @@ class EnglishEntryarray extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryarray extends StatelessWidget {
                             kurdishText:
                                 "نووسینەکانی کۆمەڵە بابەتێکی زۆر لەخۆیان‌دەگرن.",
                             onPressedBritish: () => speakarray145("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarray145(// REPLACE: array /əˈreɪ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarray145("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -176,9 +173,7 @@ class EnglishEntryarray extends StatelessWidget {
                             kurdishText:
                                 "شارەکە کێشە دەستەیەک لە کێشەی باوی کۆمەڵایەتی ھەیە.",
                             onPressedBritish: () => speakarray147("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarray147(// REPLACE: array /əˈreɪ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarray147("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +185,7 @@ class EnglishEntryarray extends StatelessWidget {
                             kurdishText:
                                 "دۆڵکەی ھەموو جۆر و قەبارەیەک لەسەر ڕەفەکان ڕیزکرابوون.",
                             onPressedBritish: () => speakarray151("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarray151(// REPLACE: array /əˈreɪ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarray151("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +197,7 @@ class EnglishEntryarray extends StatelessWidget {
                             kurdishText:
                                 "ھێزەکانی دوژمن لەدژیان کەوتنە ئامادەباشییەوە.",
                             onPressedBritish: () => speakarray154("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarray154(// REPLACE: array /əˈreɪ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarray154("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -146,9 +146,8 @@ class EnglishEntryassimilation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryassimilation extends StatelessWidget {
                                 "لە جیھانی خێرا-گوزەری تەکنەلۆژیادا، لەخۆگرتنی بیرۆکەی تازە گرنگە بۆ کۆمپانیاکان بۆ مانەوە.",
                             onPressedBritish: () =>
                                 speakassimilation833("en-GB"),
-                            onPressedAmerican: () => speakassimilation833(
-                                // REPLACE: assimilation /əˌsɪməˈleɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassimilation833("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -181,9 +179,8 @@ class EnglishEntryassimilation extends StatelessWidget {
                                 "توانەوەی بەڕەچەڵەک ئەڵمانییەکان لە ئەمریکا خێراتر بوو بەھۆی دوو جەنگە جیھانییەکەوە.",
                             onPressedBritish: () =>
                                 speakassimilation835("en-GB"),
-                            onPressedAmerican: () => speakassimilation835(
-                                // REPLACE: assimilation /əˌsɪməˈleɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakassimilation835("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),

@@ -75,7 +75,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aggressive"), // Find /əˈɡresɪv/
+                            EntryTitle(word: "aggressive"),
                           ],
                         ),
                         Row(
@@ -109,9 +109,8 @@ class EnglishEntryaggressive extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -128,9 +127,8 @@ class EnglishEntryaggressive extends StatelessWidget {
                                 "کە شەوەکە زیاتر تێپەڕی زیاتر شەڕەنخواز بوو.",
                             onPressedBritish: () =>
                                 speakaggressive51114("en-GB"),
-                            onPressedAmerican: () => speakaggressive51114(
-                                // REPLACE: aggressive /əˈɡresɪv/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaggressive51114("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -141,9 +139,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                             kurdishText:
                                 "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر.",
                             onPressedBritish: () => speakaggre2256("en-GB"),
-                            onPressedAmerican: () => speakaggre2256(
-                                // REPLACE: aggressive /əˈɡresɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggre2256("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -154,9 +150,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                             kurdishText:
                                 "دکتۆرەکان نەخۆشییەکەیان دەستنیشانکرد بە جۆرێکی سەختی شێرپەنجە کە ترس ھەیە چارەسەری نەبێت.",
                             onPressedBritish: () => speakaggr45999("en-GB"),
-                            onPressedAmerican: () => speakaggr45999(
-                                // REPLACE: aggressive /əˈɡresɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggr45999("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -167,16 +161,14 @@ class EnglishEntryaggressive extends StatelessWidget {
                             kurdishText:
                                 "نەخۆشییەکەی نیکۆلاس لە تشرینی دووەم بە یەکێکی دەگمەن دەستنیشانکرا و لەو کاتەوە ھەموو چارەسەرێکی وەرگرتووە.",
                             onPressedBritish: () => speakaggr5222("en-GB"),
-                            onPressedAmerican: () => speakaggr5222(
-                                // REPLACE: aggressive /əˈɡresɪv/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggr5222("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

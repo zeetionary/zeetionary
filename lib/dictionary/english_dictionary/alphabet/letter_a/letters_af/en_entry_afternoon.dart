@@ -63,7 +63,7 @@ class EnglishEntryafternoon extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "afternoon"), // Find /ˌɑːftəˈnuːn/
+                            EntryTitle(word: "afternoon"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryafternoon extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,25 +115,21 @@ class EnglishEntryafternoon extends StatelessWidget {
                                 "In the afternoon, they went shopping.",
                             kurdishText: "لە نیوەڕواندا دەچوون بۆ بازاڕ.",
                             onPressedBritish: () => speakaftern6288("en-GB"),
-                            onPressedAmerican: () => speakaftern6288(
-                                // REPLACE: afternoon /ˌɑːftəˈnuːn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaftern6288("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "Come over on Sunday afternoon.",
                             kurdishText: "نیوەڕۆی یەکشەمە وەرە.",
                             onPressedBritish: () => speakaftern481("en-GB"),
-                            onPressedAmerican: () => speakaftern481(
-                                // REPLACE: afternoon /ˌɑːftəˈnuːn/
-                                "en-US"),
+                            onPressedAmerican: () => speakaftern481("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

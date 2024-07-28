@@ -64,7 +64,7 @@ class EnglishEntryalto extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alto"), // Find /ˈæltəʊ/
+                            EntryTitle(word: "alto"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalto extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryalto extends StatelessWidget {
                             kurdishText:
                                 "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ ئالتۆ.",
                             onPressedBritish: () => speakalto4565("en-GB"),
-                            onPressedAmerican: () =>
-                                speakalto4565(// REPLACE: alto /ˈæltəʊ/
-                                    "en-US"),
+                            onPressedAmerican: () => speakalto4565("en-US"),
                           ),
                         ],
                       ),

@@ -64,7 +64,7 @@ class EnglishEntryailing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ailing"), // Find /ˈeɪlɪŋ/
+                            EntryTitle(word: "ailing"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryailing extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryailing extends StatelessWidget {
                             englishText: "She looked after her ailing father.",
                             kurdishText: "چاودێری باوکە ناساخەکەی دەکات.",
                             onPressedBritish: () => speakailing25388("en-GB"),
-                            onPressedAmerican: () => speakailing25388(
-                                // REPLACE: ailing /ˈeɪlɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakailing25388("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -127,9 +124,8 @@ class EnglishEntryailing extends StatelessWidget {
                             kurdishText:
                                 "تێد داوای لێ‌کردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە.",
                             onPressedBritish: () => speakailing4899956("en-GB"),
-                            onPressedAmerican: () => speakailing4899956(
-                                // REPLACE: ailing /ˈeɪlɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakailing4899956("en-US"),
                           ),
                         ],
                       ),

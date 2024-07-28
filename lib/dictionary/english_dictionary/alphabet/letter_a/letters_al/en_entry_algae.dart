@@ -65,8 +65,7 @@ class EnglishEntryalgae extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word:
-                                    "algae (the singular of algae is alga)"), // Find /ˈældʒiː/, /ˈælɡiː/
+                                word: "algae (the singular of algae is alga)"),
                           ],
                         ),
                         Row(
@@ -102,9 +101,8 @@ class EnglishEntryalgae extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -120,9 +118,7 @@ class EnglishEntryalgae extends StatelessWidget {
                                 "Algae has clogged the intake to the water stem.",
                             kurdishText: "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو.",
                             onPressedBritish: () => speakalgae4524("en-GB"),
-                            onPressedAmerican: () => speakalgae4524(
-                                // REPLACE: algae /ˈældʒiː/, /ˈælɡiː/
-                                "en-US"),
+                            onPressedAmerican: () => speakalgae4524("en-US"),
                           ),
                         ],
                       ),

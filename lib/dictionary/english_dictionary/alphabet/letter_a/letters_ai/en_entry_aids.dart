@@ -63,7 +63,7 @@ class EnglishEntryaids extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "AIDS"), // Find /eɪdz/
+                            EntryTitle(word: "AIDS"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaids extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,8 +112,7 @@ class EnglishEntryaids extends StatelessWidget {
                                 "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا.",
                             onPressedBritish: () => speakaids538666("en-GB"),
                             onPressedAmerican: () =>
-                                speakaids538666(// REPLACE: AIDS /eɪdz/
-                                    "en-US"),
+                                speakaids538666("en-US"),
                           ),
                         ],
                       ),

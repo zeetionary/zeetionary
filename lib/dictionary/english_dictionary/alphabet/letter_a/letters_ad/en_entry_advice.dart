@@ -64,7 +64,7 @@ class EnglishEntryadvice extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "advice"), // Find /ədˈvaɪs/
+                            EntryTitle(word: "advice"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadvice extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,25 +116,21 @@ class EnglishEntryadvice extends StatelessWidget {
                             kurdishText:
                                 "داوای ئامۆژگاری لە مامۆستاکەت بکە لەسەر چۆنیەتی خۆ ئامادەکردن بۆ تاقیکردنەوەکە.",
                             onPressedBritish: () => speakadvi4986("en-GB"),
-                            onPressedAmerican: () => speakadvi4986(
-                                // REPLACE: advice /ədˈvaɪs/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvi4986("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "Let me give you a piece of advice.",
                             kurdishText: "با کەمێک ئامۆژگاریت بکەم.",
                             onPressedBritish: () => speakadv64187("en-GB"),
-                            onPressedAmerican: () => speakadv64187(
-                                // REPLACE: advice /ədˈvaɪs/
-                                "en-US"),
+                            onPressedAmerican: () => speakadv64187("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

@@ -145,9 +145,8 @@ class EnglishEntryarmy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryarmy extends StatelessWidget {
                             kurdishText:
                                 "دوو سوپاکە ڕووبەڕووی یەکدی بوونەوە لە مەیدانی شەڕدا.",
                             onPressedBritish: () => speakarmy747("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarmy747(// REPLACE: army /ˈɑːrmi/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarmy747("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +171,7 @@ class EnglishEntryarmy extends StatelessWidget {
                             englishText: "A huge army marched on the city.",
                             kurdishText: "سوپایەکی گەورە دای بەسەر شارەکەدا.",
                             onPressedBritish: () => speakarmy749("en-GB"),
-                            onPressedAmerican: () => speakarmy749(
-                                // REPLACE: army /ˈɑːrmi/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmy749("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +181,7 @@ class EnglishEntryarmy extends StatelessWidget {
                             englishText: "Her sister is in the army.",
                             kurdishText: "خوشکەکەی لە سوپادایە.",
                             onPressedBritish: () => speakarmy751("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarmy751(// REPLACE: army /ˈɑːrmi/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarmy751("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -198,9 +191,7 @@ class EnglishEntryarmy extends StatelessWidget {
                             kurdishText:
                                 "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیھانی.",
                             onPressedBritish: () => speakarmy752("en-GB"),
-                            onPressedAmerican: () => speakarmy752(
-                                // REPLACE: army /ˈɑːrmi/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmy752("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -212,9 +203,7 @@ class EnglishEntryarmy extends StatelessWidget {
                             kurdishText:
                                 "ناسا ژمارەیەکی زۆر لە ئەندازیار ڕادەگرێت.",
                             onPressedBritish: () => speakarmy800("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarmy800(// REPLACE: army /ˈɑːrmi/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarmy800("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -224,9 +213,7 @@ class EnglishEntryarmy extends StatelessWidget {
                             kurdishText:
                                 "سوپایەک لە مێروولە بە ڕێگاکەدا تێپەڕین.",
                             onPressedBritish: () => speakarmy801("en-GB"),
-                            onPressedAmerican: () => speakarmy801(
-                                // REPLACE: army /ˈɑːrmi/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmy801("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

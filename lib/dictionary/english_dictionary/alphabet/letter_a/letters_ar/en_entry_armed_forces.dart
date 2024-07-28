@@ -145,9 +145,8 @@ class EnglishEntryarmedforces extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,8 @@ class EnglishEntryarmedforces extends StatelessWidget {
                                 "ورەی ھێزە چەکدارەکان لەوپەڕی نزمیدا بوو.",
                             onPressedBritish: () =>
                                 speakarmedforces208("en-GB"),
-                            onPressedAmerican: () => speakarmedforces208(
-                                // REPLACE: armed forces /ði ˌɑːrmd ˈfɔːrsɪz/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarmedforces208("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

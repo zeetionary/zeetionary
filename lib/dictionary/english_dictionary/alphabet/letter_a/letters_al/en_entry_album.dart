@@ -63,7 +63,7 @@ class EnglishEntryalbum extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "album"), // Find /ˈælbəm/
+                            EntryTitle(word: "album"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryalbum extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryalbum extends StatelessWidget {
                             englishText: "I keep the photographs in an album.",
                             kurdishText: "وێنەکان لە ئەلبومێکدا ھەڵدەگرم.",
                             onPressedBritish: () => speakalbum42599("en-GB"),
-                            onPressedAmerican: () => speakalbum42599(
-                                // REPLACE: album /ˈælbəm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalbum42599("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -127,9 +124,7 @@ class EnglishEntryalbum extends StatelessWidget {
                             kurdishText:
                                 "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە.",
                             onPressedBritish: () => speakalbum3655("en-GB"),
-                            onPressedAmerican: () => speakalbum3655(
-                                // REPLACE: album /ˈælbəm/
-                                "en-US"),
+                            onPressedAmerican: () => speakalbum3655("en-US"),
                           ),
                         ],
                       ),

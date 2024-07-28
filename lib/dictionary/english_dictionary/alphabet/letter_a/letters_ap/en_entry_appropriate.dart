@@ -149,9 +149,8 @@ class EnglishEntryappropriate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -169,9 +168,8 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 "ئێستا کە کێشەکە ناسێنراوە، ھەنگاوی گونجاو دەبێت بگیردرێتە بەر.",
                             onPressedBritish: () =>
                                 speakappropriate348("en-GB"),
-                            onPressedAmerican: () => speakappropriate348(
-                                // REPLACE: appropriate /əˈprəʊpriət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriate348("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -182,9 +180,8 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 "ئایا ئێستا کاتێکی باشە بۆ پێشکەش‌کردنی وتارێک؟",
                             onPressedBritish: () =>
                                 speakappropriate351("en-GB"),
-                            onPressedAmerican: () => speakappropriate351(
-                                // REPLACE: appropriate /əˈprəʊpriət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriate351("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -195,9 +192,8 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 "ئەمە ڕەنگە چارەسەرێکی گونجاو بێت بۆ زۆر نەخۆش.",
                             onPressedBritish: () =>
                                 speakappropriate352("en-GB"),
-                            onPressedAmerican: () => speakappropriate352(
-                                // REPLACE: appropriate /əˈprəʊpriət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriate352("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -210,9 +206,8 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 "ھەندێک لە سیاسەتەکانی ئۆپۆزسیۆن لەلایەن حکومەتەوە دزراون.",
                             onPressedBritish: () =>
                                 speakappropriate355("en-GB"),
-                            onPressedAmerican: () => speakappropriate355(
-                                // REPLACE: appropriate /əˈprəʊpriət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriate355("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -223,9 +218,8 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 "لە کارەکەی دەرکرا لە دوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە.",
                             onPressedBritish: () =>
                                 speakappropriate357("en-GB"),
-                            onPressedAmerican: () => speakappropriate357(
-                                // REPLACE: appropriate /əˈprəʊpriət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriate357("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -238,9 +232,8 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 "پێنج ملیۆن دۆلار تەرخان‌کراوە بۆ توێژینەوە لە نەخۆشییەکە.",
                             onPressedBritish: () =>
                                 speakappropriate400("en-GB"),
-                            onPressedAmerican: () => speakappropriate400(
-                                // REPLACE: appropriate /əˈprəʊpriət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriate400("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -253,9 +246,8 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 "کە ئیمپراتۆریەتییەکە فراوان بوو، ستایلی ھونەریی ژێردەستەکانیان بە پەرۆشییەوە دزی.",
                             onPressedBritish: () =>
                                 speakappropriate403("en-GB"),
-                            onPressedAmerican: () => speakappropriate403(
-                                // REPLACE: appropriate /əˈprəʊpriət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappropriate403("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

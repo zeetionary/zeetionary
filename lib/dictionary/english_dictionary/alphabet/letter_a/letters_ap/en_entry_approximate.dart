@@ -144,9 +144,8 @@ class EnglishEntryapproximate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -162,9 +161,8 @@ class EnglishEntryapproximate extends StatelessWidget {
                             kurdishText: "ئەو نرخەی دراوە بەنزیکەییە.",
                             onPressedBritish: () =>
                                 speakapproximate950("en-GB"),
-                            onPressedAmerican: () => speakapproximate950(
-                                // REPLACE: approximate /əˈprɑːksɪmət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapproximate950("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -175,9 +173,8 @@ class EnglishEntryapproximate extends StatelessWidget {
                                 "کاتی گەشتنی شەمەندەفەرەکە بە نزیکەیی ١٠:٣٠ یە.",
                             onPressedBritish: () =>
                                 speakapproximate952("en-GB"),
-                            onPressedAmerican: () => speakapproximate952(
-                                // REPLACE: approximate /əˈprɑːksɪmət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapproximate952("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +187,8 @@ class EnglishEntryapproximate extends StatelessWidget {
                                 "نرخی گشتی نزیک‌دەبێتەوە لە ١٥ ملیار پاوەند.",
                             onPressedBritish: () =>
                                 speakapproximate954("en-GB"),
-                            onPressedAmerican: () => speakapproximate954(
-                                // REPLACE: approximate /əˈprɑːksɪmət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapproximate954("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -203,9 +199,8 @@ class EnglishEntryapproximate extends StatelessWidget {
                                 "ئاژەڵەکان گەورەکران لە دۆخێک کە تا دەکرا نزیک‌بوو لە ژینگەی کێوییان.",
                             onPressedBritish: () =>
                                 speakapproximate956("en-GB"),
-                            onPressedAmerican: () => speakapproximate956(
-                                // REPLACE: approximate /əˈprɑːksɪmət/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapproximate956("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

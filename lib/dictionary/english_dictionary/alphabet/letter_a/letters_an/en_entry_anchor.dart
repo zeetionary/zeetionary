@@ -139,9 +139,8 @@ class EnglishEntryanchor extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryanchor extends StatelessWidget {
                             kurdishText:
                                 "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد.",
                             onPressedBritish: () => speakanchor08996("en-GB"),
-                            onPressedAmerican: () => speakanchor08996(
-                                // REPLACE: anchor /ˈæŋkər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanchor08996("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -168,9 +165,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                 "We weighed anchor (= pulled it out of the water).",
                             kurdishText: "لەنگەرەکەمان ھەڵکێشا.",
                             onPressedBritish: () => speakanchor104("en-GB"),
-                            onPressedAmerican: () => speakanchor104(
-                                // REPLACE: anchor /ˈæŋkər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanchor104("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +177,7 @@ class EnglishEntryanchor extends StatelessWidget {
                             kurdishText:
                                 "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو.",
                             onPressedBritish: () => speakanchor10("en-GB"),
-                            onPressedAmerican: () => speakanchor10(
-                                // REPLACE: anchor /ˈæŋkər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanchor10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +189,7 @@ class EnglishEntryanchor extends StatelessWidget {
                             kurdishText:
                                 "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی.",
                             onPressedBritish: () => speakanchor1044("en-GB"),
-                            onPressedAmerican: () => speakanchor1044(
-                                // REPLACE: anchor /ˈæŋkər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanchor1044("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -209,9 +200,7 @@ class EnglishEntryanchor extends StatelessWidget {
                             kurdishText:
                                 "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت.",
                             onPressedBritish: () => speakanchor0995("en-GB"),
-                            onPressedAmerican: () => speakanchor0995(
-                                // REPLACE: anchor /ˈæŋkər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanchor0995("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -222,9 +211,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                 "The ropes were anchored to the rocks.",
                             kurdishText: "گوریسەکان لە بەردەکان گیرکرابوون.",
                             onPressedBritish: () => speakanchor550("en-GB"),
-                            onPressedAmerican: () => speakanchor550(
-                                // REPLACE: anchor /ˈæŋkər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanchor550("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -236,9 +223,7 @@ class EnglishEntryanchor extends StatelessWidget {
                             kurdishText:
                                 "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن.",
                             onPressedBritish: () => speakanchor5006("en-GB"),
-                            onPressedAmerican: () => speakanchor5006(
-                                // REPLACE: anchor /ˈæŋkər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanchor5006("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -250,9 +235,7 @@ class EnglishEntryanchor extends StatelessWidget {
                             kurdishText:
                                 "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد.",
                             onPressedBritish: () => speakanchor444("en-GB"),
-                            onPressedAmerican: () => speakanchor444(
-                                // REPLACE: anchor /ˈæŋkər/
-                                "en-US"),
+                            onPressedAmerican: () => speakanchor444("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

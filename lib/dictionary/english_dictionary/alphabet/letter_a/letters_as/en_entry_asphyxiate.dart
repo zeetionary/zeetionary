@@ -145,9 +145,8 @@ class EnglishEntryasphyxiate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,8 @@ class EnglishEntryasphyxiate extends StatelessWidget {
                             englishText: "He was asphyxiated by the smoke.",
                             kurdishText: "بە دووکەڵەکە خنکا.",
                             onPressedBritish: () => speakasphyxiate617("en-GB"),
-                            onPressedAmerican: () => speakasphyxiate617(
-                                // REPLACE: asphyxiate /əsˈfɪksieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakasphyxiate617("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

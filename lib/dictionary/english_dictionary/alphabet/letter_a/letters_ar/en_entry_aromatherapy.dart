@@ -144,9 +144,8 @@ class EnglishEntryaromatherapy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -160,9 +159,8 @@ class EnglishEntryaromatherapy extends StatelessWidget {
                                 "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد.",
                             onPressedBritish: () =>
                                 speakaromatherapy915("en-GB"),
-                            onPressedAmerican: () => speakaromatherapy915(
-                                // REPLACE: aromatherapy /əˌrəʊməˈθerəpi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaromatherapy915("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

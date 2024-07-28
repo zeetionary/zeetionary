@@ -142,9 +142,8 @@ class EnglishEntryantiquated extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,8 @@ class EnglishEntryantiquated extends StatelessWidget {
                                 "سیستەمی گەرمییە کۆنەکە بە ئەستەم ژووری گەورە گەرم‌دەکاتەوە.",
                             onPressedBritish: () =>
                                 speakantiquated1125("en-GB"),
-                            onPressedAmerican: () => speakantiquated1125(
-                                // REPLACE: antiquated /ˈæntɪkweɪtɪd/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakantiquated1125("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

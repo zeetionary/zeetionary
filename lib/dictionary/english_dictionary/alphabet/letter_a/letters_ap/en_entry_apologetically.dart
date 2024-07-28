@@ -145,9 +145,8 @@ class EnglishEntryapologetically extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,8 @@ class EnglishEntryapologetically extends StatelessWidget {
                                 "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'.",
                             onPressedBritish: () =>
                                 speakapologetically512("en-GB"),
-                            onPressedAmerican: () => speakapologetically512(
-                                // REPLACE: apologetically /əˌpɑːləˈdʒetɪkli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapologetically512("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

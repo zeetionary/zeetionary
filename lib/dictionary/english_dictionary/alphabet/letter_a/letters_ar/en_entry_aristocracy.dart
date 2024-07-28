@@ -143,9 +143,8 @@ class EnglishEntryaristocracy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 "ھاوسەرگیری لەگەڵ ئەندامی خێزانێکی خانەدانی فەرەنسی کرد.",
                             onPressedBritish: () =>
                                 speakaristocracy1158("en-GB"),
-                            onPressedAmerican: () => speakaristocracy1158(
-                                // REPLACE: aristocracy /ˌærɪˈstɑːkrəsi/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaristocracy1158("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

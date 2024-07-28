@@ -63,7 +63,7 @@ class EnglishEntryadherence extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "adherence"), // Find /ədˈhɪərəns/
+                            EntryTitle(word: "adherence"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryadherence extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -115,16 +114,14 @@ class EnglishEntryadherence extends StatelessWidget {
                             englishText: "strict adherence to the rules",
                             kurdishText: "پابەندبوونی توند بە یاساکانەوە.",
                             onPressedBritish: () => speakadh2558("en-GB"),
-                            onPressedAmerican: () => speakadh2558(
-                                // REPLACE: adherence /ədˈhɪrəns/
-                                "en-US"),
+                            onPressedAmerican: () => speakadh2558("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

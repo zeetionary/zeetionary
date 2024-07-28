@@ -63,7 +63,7 @@ class EnglishEntryacrobat extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "acrobat"), // Find /ˈækrəbæt/
+                            EntryTitle(word: "acrobat"),
                           ],
                         ),
                         Row(
@@ -115,7 +115,7 @@ class EnglishEntryacrobat extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

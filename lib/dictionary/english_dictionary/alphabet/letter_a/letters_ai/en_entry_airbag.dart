@@ -64,7 +64,7 @@ class EnglishEntryairbag extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airbag"), // Find /ˈeəbæɡ/
+                            EntryTitle(word: "airbag"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryairbag extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +112,7 @@ class EnglishEntryairbag extends StatelessWidget {
                             kurdishText:
                                 "لە حاڵەتی پێکداداندا ئێرباگەکە شۆفێرەکە دەوەستێنێت لە کێشانی سنگی بە سوکانەکەدا.",
                             onPressedBritish: () => speakairbag46282("en-GB"),
-                            onPressedAmerican: () => speakairbag46282(
-                                // REPLACE: airbag /ˈerbæɡ/
-                                "en-US"),
+                            onPressedAmerican: () => speakairbag46282("en-US"),
                           ),
                         ],
                       ),

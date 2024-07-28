@@ -64,8 +64,7 @@ class EnglishEntryairtoair extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "air-to-air"), // Find /ˌeə tu ˈeə(r)/
+                            EntryTitle(word: "air-to-air"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryairtoair extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +117,7 @@ class EnglishEntryairtoair extends StatelessWidget {
                             kurdishText:
                                 "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ کەرەستەی پەیوەندی سەربازی.",
                             onPressedBritish: () => speakairtoair124("en-GB"),
-                            onPressedAmerican: () => speakairtoair124(
-                                // REPLACE: air-to-air /ˌer tu ˈer/
-                                "en-US"),
+                            onPressedAmerican: () => speakairtoair124("en-US"),
                           ),
                         ],
                       ),

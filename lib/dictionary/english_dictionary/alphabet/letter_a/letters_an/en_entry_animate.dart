@@ -139,9 +139,8 @@ class EnglishEntryanimate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryanimate extends StatelessWidget {
                             kurdishText:
                                 "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە).",
                             onPressedBritish: () => speakanimate926("en-GB"),
-                            onPressedAmerican: () => speakanimate926(
-                                // REPLACE: animate /ˈænɪmeɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimate926("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -171,9 +168,7 @@ class EnglishEntryanimate extends StatelessWidget {
                             kurdishText:
                                 "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون.",
                             onPressedBritish: () => speakanimate930("en-GB"),
-                            onPressedAmerican: () => speakanimate930(
-                                // REPLACE: animate /ˈænɪmeɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimate930("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,7 @@ class EnglishEntryanimate extends StatelessWidget {
                             kurdishText:
                                 "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان.",
                             onPressedBritish: () => speakanimate934("en-GB"),
-                            onPressedAmerican: () => speakanimate934(
-                                // REPLACE: animate /ˈænɪmeɪt/
-                                "en-US"),
+                            onPressedAmerican: () => speakanimate934("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

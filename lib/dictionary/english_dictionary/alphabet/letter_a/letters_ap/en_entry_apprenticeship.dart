@@ -144,9 +144,8 @@ class EnglishEntryapprenticeship extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,8 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 "لە دووەم ساڵی شاگردییەکەی بوو وەک دارتاشێک.",
                             onPressedBritish: () =>
                                 speakapprenticeship1013("en-GB"),
-                            onPressedAmerican: () => speakapprenticeship1013(
-                                // REPLACE: apprenticeship /əˈprentɪʃɪp/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakapprenticeship1013("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

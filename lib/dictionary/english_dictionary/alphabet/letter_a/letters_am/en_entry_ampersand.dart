@@ -139,9 +139,8 @@ class EnglishEntryampersand extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,8 @@ class EnglishEntryampersand extends StatelessWidget {
                             kurdishText:
                                 "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە.",
                             onPressedBritish: () => speakampersand0856("en-GB"),
-                            onPressedAmerican: () => speakampersand0856(
-                                // REPLACE: ampersand /ˈæmpərsænd/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakampersand0856("en-US"),
                           ),
                         ],
                       ),

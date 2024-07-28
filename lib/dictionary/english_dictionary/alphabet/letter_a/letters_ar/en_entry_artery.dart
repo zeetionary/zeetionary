@@ -146,9 +146,8 @@ class EnglishEntryartery extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -161,9 +160,7 @@ class EnglishEntryartery extends StatelessWidget {
                             kurdishText:
                                 "ڕەقبوونی خوێنبەرەکانی ناو دڵ دەکرێت ببێتە ھۆی جەڵدەی دڵ.",
                             onPressedBritish: () => speakartery148("en-GB"),
-                            onPressedAmerican: () => speakartery148(
-                                // REPLACE: artery /ˈɑːrtəri/
-                                "en-US"),
+                            onPressedAmerican: () => speakartery148("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

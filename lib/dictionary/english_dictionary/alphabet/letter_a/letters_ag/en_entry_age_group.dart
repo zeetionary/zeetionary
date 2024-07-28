@@ -64,7 +64,7 @@ class EnglishEntryagegroup extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "age group"), // Find /ˈeɪdʒ ɡruːp/
+                            EntryTitle(word: "age group"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagegroup extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,15 @@ class EnglishEntryagegroup extends StatelessWidget {
                             kurdishText:
                                 "ئەو کەسانەی تەمەنیان گەنج بوو کەمتر دەنگیان دا.",
                             onPressedBritish: () => speakagegrou199852("en-GB"),
-                            onPressedAmerican: () => speakagegrou199852(
-                                // REPLACE: age group /ˈeɪdʒ ɡruːp/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakagegrou199852("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

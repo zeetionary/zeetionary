@@ -145,9 +145,8 @@ class EnglishEntryarchitecture extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryarchitecture extends StatelessWidget {
                                 "پڕۆفیسۆری بیناسازییە لە زانکۆی ئۆریگۆن.",
                             onPressedBritish: () =>
                                 speakarchitecture415("en-GB"),
-                            onPressedAmerican: () => speakarchitecture415(
-                                // REPLACE: architecture /ˈɑːrkɪtektʃər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarchitecture415("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +177,8 @@ class EnglishEntryarchitecture extends StatelessWidget {
                                 "نموونەی زۆرێک لە ستایلەکانی بیناسازی لە شارەکە ھەن.",
                             onPressedBritish: () =>
                                 speakarchitecture417("en-GB"),
-                            onPressedAmerican: () => speakarchitecture417(
-                                // REPLACE: architecture /ˈɑːrkɪtektʃər/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakarchitecture417("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

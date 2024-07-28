@@ -113,8 +113,7 @@ class EnglishEntryassure extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "assure"), // Find /əˈʃʊə(r)/, /əˈʃɔː(r)/
+                            EntryTitle(word: "assure"),
                             // divvviiider
                           ],
                         ),
@@ -151,9 +150,8 @@ class EnglishEntryassure extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -169,9 +167,7 @@ class EnglishEntryassure extends StatelessWidget {
                             kurdishText:
                                 "وابیردەکەیتەوە کە بە ئەنقەست کردم، بەڵام دڵنیات دەکەمەوە بەئەنقەست نەبوو.",
                             onPressedBritish: () => speakassure902("en-GB"),
-                            onPressedAmerican: () => speakassure902(
-                                // REPLACE: assure /əˈʃʊr/
-                                "en-US"),
+                            onPressedAmerican: () => speakassure902("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -179,9 +175,7 @@ class EnglishEntryassure extends StatelessWidget {
                             englishText: "We assured him of our support.",
                             kurdishText: "دڵنیامانکردەوە لە پشتیوانیمان.",
                             onPressedBritish: () => speakassure903("en-GB"),
-                            onPressedAmerican: () => speakassure903(
-                                // REPLACE: assure /əˈʃʊr/
-                                "en-US"),
+                            onPressedAmerican: () => speakassure903("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +187,7 @@ class EnglishEntryassure extends StatelessWidget {
                             kurdishText:
                                 "دڵنیایی‌کردەوە کە نامەکە ھێشتا لە چەکمەجەکە بوو.",
                             onPressedBritish: () => speakassure905("en-GB"),
-                            onPressedAmerican: () => speakassure905(
-                                // REPLACE: assure /əˈʃʊr/
-                                "en-US"),
+                            onPressedAmerican: () => speakassure905("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -207,9 +199,7 @@ class EnglishEntryassure extends StatelessWidget {
                             kurdishText:
                                 "بردنەوە شوێنێکیان لە کۆتایی بۆ مسۆگەردەکات.",
                             onPressedBritish: () => speakassure921("en-GB"),
-                            onPressedAmerican: () => speakassure921(
-                                // REPLACE: assure /əˈʃʊr/
-                                "en-US"),
+                            onPressedAmerican: () => speakassure921("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

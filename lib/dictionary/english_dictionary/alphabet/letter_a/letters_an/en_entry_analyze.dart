@@ -137,9 +137,8 @@ class EnglishEntryanalyze extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryanalyze extends StatelessWidget {
                             kurdishText:
                                 "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت.",
                             onPressedBritish: () => speakanalyze7950("en-GB"),
-                            onPressedAmerican: () => speakanalyze7950(
-                                // REPLACE: analyze /ˈænəlaɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalyze7950("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -167,9 +164,7 @@ class EnglishEntryanalyze extends StatelessWidget {
                             englishText: "He tried to analyze his feelings.",
                             kurdishText: "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات.",
                             onPressedBritish: () => speakanalyze4920("en-GB"),
-                            onPressedAmerican: () => speakanalyze4920(
-                                // REPLACE: analyze /ˈænəlaɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalyze4920("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -177,9 +172,7 @@ class EnglishEntryanalyze extends StatelessWidget {
                             kurdishText:
                                 "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا.",
                             onPressedBritish: () => speakanalyze469("en-GB"),
-                            onPressedAmerican: () => speakanalyze469(
-                                // REPLACE: analyze /ˈænəlaɪz/
-                                "en-US"),
+                            onPressedAmerican: () => speakanalyze469("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

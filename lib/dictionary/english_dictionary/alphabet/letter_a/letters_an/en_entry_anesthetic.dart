@@ -137,9 +137,8 @@ class EnglishEntryanesthetic extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -156,9 +155,8 @@ class EnglishEntryanesthetic extends StatelessWidget {
                             kurdishText: "چەندە لەژێر بەنج دەبم؟",
                             onPressedBritish: () =>
                                 speakanesthetic8505("en-GB"),
-                            onPressedAmerican: () => speakanesthetic8505(
-                                // REPLACE: anesthetic /ˌænəsˈθetɪk/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanesthetic8505("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

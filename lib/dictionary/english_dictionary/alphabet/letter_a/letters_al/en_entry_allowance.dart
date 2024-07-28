@@ -88,7 +88,7 @@ class EnglishEntryallowance extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "allowance"), // Find /əˈlaʊəns/
+                            EntryTitle(word: "allowance"),
                           ],
                         ),
                         Row(
@@ -122,9 +122,8 @@ class EnglishEntryallowance extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -141,9 +140,8 @@ class EnglishEntryallowance extends StatelessWidget {
                                 "Do you get an allowance for clothing?",
                             kurdishText: "پارە وەردەگریت بۆ جلوبەرگ؟",
                             onPressedBritish: () => speakallowance1298("en-GB"),
-                            onPressedAmerican: () => speakallowance1298(
-                                // REPLACE: allowance /əˈlaʊəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallowance1298("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -151,9 +149,8 @@ class EnglishEntryallowance extends StatelessWidget {
                                 "The weekly allowance for each child is £15.",
                             kurdishText: "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە.",
                             onPressedBritish: () => speakallowance4251("en-GB"),
-                            onPressedAmerican: () => speakallowance4251(
-                                // REPLACE: allowance /əˈlaʊəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallowance4251("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -165,9 +162,8 @@ class EnglishEntryallowance extends StatelessWidget {
                                 "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە.",
                             onPressedBritish: () =>
                                 speakallowance12963("en-GB"),
-                            onPressedAmerican: () => speakallowance12963(
-                                // REPLACE: allowance /əˈlaʊəns/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakallowance12963("en-US"),
                           ),
                         ],
                       ),

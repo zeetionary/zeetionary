@@ -147,9 +147,8 @@ class EnglishEntryassign extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +164,7 @@ class EnglishEntryassign extends StatelessWidget {
                                 "The two large classrooms have been assigned to us.",
                             kurdishText: "دوو پۆلی گەورەمان پێدراوە.",
                             onPressedBritish: () => speakassign659("en-GB"),
-                            onPressedAmerican: () => speakassign659(
-                                // REPLACE: assign /əˈsaɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakassign659("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryassign extends StatelessWidget {
                             kurdishText:
                                 "مامۆستاکە ئەرکی جیاوازی دا بە ھەر قوتابییەک.",
                             onPressedBritish: () => speakassign700("en-GB"),
-                            onPressedAmerican: () => speakassign700(
-                                // REPLACE: assign /əˈsaɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakassign700("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +185,7 @@ class EnglishEntryassign extends StatelessWidget {
                                 "They've assigned their best man to the job.",
                             kurdishText: "باشترین کەسیان بۆ کارەکە ڕاسپاردووە.",
                             onPressedBritish: () => speakassign700("en-GB"),
-                            onPressedAmerican: () => speakassign700(
-                                // REPLACE: assign /əˈsaɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakassign700("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -203,9 +196,7 @@ class EnglishEntryassign extends StatelessWidget {
                                 "All the team were assigned to Poland.",
                             kurdishText: "تەواوی تیمەکە بۆ پۆڵەندا نێردران.",
                             onPressedBritish: () => speakassign706("en-GB"),
-                            onPressedAmerican: () => speakassign706(
-                                // REPLACE: assign /əˈsaɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakassign706("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -217,9 +208,7 @@ class EnglishEntryassign extends StatelessWidget {
                             kurdishText:
                                 "تابلۆکە ناتوانرێت مێژوویەکی تەواوی بۆ دیاری‌بکرێت.",
                             onPressedBritish: () => speakassign709("en-GB"),
-                            onPressedAmerican: () => speakassign709(
-                                // REPLACE: assign /əˈsaɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakassign709("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -231,9 +220,7 @@ class EnglishEntryassign extends StatelessWidget {
                             kurdishText:
                                 "ڕێککەوتنەکە مافی کۆپیڕایت دەدات بە دەزگای بڵاوکار.",
                             onPressedBritish: () => speakassign711("en-GB"),
-                            onPressedAmerican: () => speakassign711(
-                                // REPLACE: assign /əˈsaɪn/
-                                "en-US"),
+                            onPressedAmerican: () => speakassign711("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

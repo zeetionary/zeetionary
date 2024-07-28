@@ -144,9 +144,8 @@ class EnglishEntryarena extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryarena extends StatelessWidget {
                             kurdishText:
                                 "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت.",
                             onPressedBritish: () => speakarena1042("en-GB"),
-                            onPressedAmerican: () => speakarena1042(
-                                // REPLACE: arena /əˈriːnə/
-                                "en-US"),
+                            onPressedAmerican: () => speakarena1042("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +174,7 @@ class EnglishEntryarena extends StatelessWidget {
                             kurdishText:
                                 "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە.",
                             onPressedBritish: () => speakarena1045("en-GB"),
-                            onPressedAmerican: () => speakarena1045(
-                                // REPLACE: arena /əˈriːnə/
-                                "en-US"),
+                            onPressedAmerican: () => speakarena1045("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

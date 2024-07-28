@@ -138,9 +138,8 @@ class EnglishEntryanatomical extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,8 @@ class EnglishEntryanatomical extends StatelessWidget {
                             kurdishText:
                                 "ھەموو خوێندکارانی پزیشکی دەبێت توێکارییەکی یەکاڵاکردنەوەیی جەستەی مرۆڤ بکەن.",
                             onPressedBritish: () => speakanatomical460("en-GB"),
-                            onPressedAmerican: () => speakanatomical460(
-                                // REPLACE: anatomical /ˌænəˈtɑːmɪkl/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakanatomical460("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

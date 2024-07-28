@@ -66,7 +66,7 @@ class EnglishEntryaggregate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aggregate"), // Find /ˈæɡrɪɡət/
+                            EntryTitle(word: "aggregate"),
                           ],
                         ),
                         Row(
@@ -100,9 +100,8 @@ class EnglishEntryaggregate extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,7 @@ class EnglishEntryaggregate extends StatelessWidget {
                             kurdishText:
                                 "ھەر سێ پارتەکە پێکەوە ٢٥٪ دەنگەکانیان بەدەستھێنا.",
                             onPressedBritish: () => speakaggreg2622("en-GB"),
-                            onPressedAmerican: () => speakaggreg2622(
-                                // REPLACE: aggregate /ˈæɡrɪɡət/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggreg2622("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -132,9 +129,7 @@ class EnglishEntryaggregate extends StatelessWidget {
                             kurdishText:
                                 "کۆمپانیاکە ھەواڵ و زانیاری لە ژمارەیەک سەرچاوەوە کۆدەکاتەوە لەسەر وێبسایتەکەی.",
                             onPressedBritish: () => speakaggre35944("en-GB"),
-                            onPressedAmerican: () => speakaggre35944(
-                                // REPLACE: aggregate /ˈæɡrɪɡət/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggre35944("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -145,16 +140,14 @@ class EnglishEntryaggregate extends StatelessWidget {
                             kurdishText:
                                 "ھەر حەوت کۆمپانیاکە پێکەوە ١٠ ملیۆن دۆلار قازانجیان کرد.",
                             onPressedBritish: () => speakaggreg5266("en-GB"),
-                            onPressedAmerican: () => speakaggreg5266(
-                                // REPLACE: aggregate /ˈæɡrɪɡət/
-                                "en-US"),
+                            onPressedAmerican: () => speakaggreg5266("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

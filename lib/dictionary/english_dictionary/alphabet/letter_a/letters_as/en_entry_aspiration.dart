@@ -146,9 +146,8 @@ class EnglishEntryaspiration extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,8 @@ class EnglishEntryaspiration extends StatelessWidget {
                             kurdishText:
                                 "نەمزانی بوو ئارەزووت بۆ سیاسەت ھەبوو.",
                             onPressedBritish: () => speakaspiration709("en-GB"),
-                            onPressedAmerican: () => speakaspiration709(
-                                // REPLACE: aspiration /ˌæspəˈreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaspiration709("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +177,8 @@ class EnglishEntryaspiration extends StatelessWidget {
                             kurdishText:
                                 "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی ھەندێک وشەی دیاریکراو.",
                             onPressedBritish: () => speakaspiration722("en-GB"),
-                            onPressedAmerican: () => speakaspiration722(
-                                // REPLACE: aspiration /ˌæspəˈreɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaspiration722("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -139,9 +139,8 @@ class EnglishEntryannihilation extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -158,9 +157,8 @@ class EnglishEntryannihilation extends StatelessWidget {
                                 "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو.",
                             onPressedBritish: () =>
                                 speakannihilation126("en-GB"),
-                            onPressedAmerican: () => speakannihilation126(
-                                // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakannihilation126("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +171,8 @@ class EnglishEntryannihilation extends StatelessWidget {
                                 "یاریزانە بەرازیلییەکە پێویستی تەنھا بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی.",
                             onPressedBritish: () =>
                                 speakannihilation136("en-GB"),
-                            onPressedAmerican: () => speakannihilation136(
-                                // REPLACE: annihilation /əˌnaɪəˈleɪʃn/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakannihilation136("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

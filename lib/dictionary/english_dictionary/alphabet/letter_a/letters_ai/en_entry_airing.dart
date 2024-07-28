@@ -65,7 +65,7 @@ class EnglishEntryairing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airing"), // Find /ˈeərɪŋ/
+                            EntryTitle(word: "airing"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryairing extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryairing extends StatelessWidget {
                             kurdishText:
                                 "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا.",
                             onPressedBritish: () => speakairing4522("en-GB"),
-                            onPressedAmerican: () => speakairing4522(
-                                // REPLACE: airing /ˈerɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakairing4522("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -131,9 +128,7 @@ class EnglishEntryairing extends StatelessWidget {
                             kurdishText:
                                 "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە.",
                             onPressedBritish: () => speakairing4155("en-GB"),
-                            onPressedAmerican: () => speakairing4155(
-                                // REPLACE: airing /ˈerɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakairing4155("en-US"),
                           ),
                         ],
                       ),

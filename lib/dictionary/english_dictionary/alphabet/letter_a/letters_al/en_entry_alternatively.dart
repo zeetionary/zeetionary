@@ -64,8 +64,7 @@ class EnglishEntryalternatively extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alternatively"), // Find /ɔːlˈtɜːnətɪvli/
+                            EntryTitle(word: "alternatively"),
                           ],
                         ),
                         Row(
@@ -100,9 +99,8 @@ class EnglishEntryalternatively extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -121,9 +119,8 @@ class EnglishEntryalternatively extends StatelessWidget {
                                 "ئاژانسەکە کاری ڕێکخستنی گەشتەکەت بۆ دەکات. بەجێی‌ئەوە، خۆت دەتوانیت سەفەرەکەت ڕێک بخەیت.",
                             onPressedBritish: () =>
                                 speakalternatively5244("en-GB"),
-                            onPressedAmerican: () => speakalternatively5244(
-                                // REPLACE: alternatively /ɔːlˈtɜːrnətɪvli/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternatively5244("en-US"),
                           ),
                         ],
                       ),

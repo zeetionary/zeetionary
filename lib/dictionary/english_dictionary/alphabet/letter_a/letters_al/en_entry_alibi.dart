@@ -65,7 +65,7 @@ class EnglishEntryalibi extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alibi"), // Find /ˈæləbaɪ/
+                            EntryTitle(word: "alibi"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryalibi extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,9 +118,7 @@ class EnglishEntryalibi extends StatelessWidget {
                             kurdishText:
                                 "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو.",
                             onPressedBritish: () => speakalibi4588("en-GB"),
-                            onPressedAmerican: () => speakalibi4588(
-                                // REPLACE: alibi /ˈæləbaɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalibi4588("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -132,9 +129,7 @@ class EnglishEntryalibi extends StatelessWidget {
                             kurdishText:
                                 "لە دوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە.",
                             onPressedBritish: () => speakalibi499253("en-GB"),
-                            onPressedAmerican: () => speakalibi499253(
-                                // REPLACE: alibi /ˈæləbaɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalibi499253("en-US"),
                           ),
                         ],
                       ),

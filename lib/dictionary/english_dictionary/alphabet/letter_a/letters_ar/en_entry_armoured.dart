@@ -143,9 +143,8 @@ class EnglishEntryarmoured extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -159,9 +158,7 @@ class EnglishEntryarmoured extends StatelessWidget {
                             englishText: "The tank was heavily armoured.",
                             kurdishText: "تانکەکە بە سەختی زرێپۆش‌کرابوو.",
                             onPressedBritish: () => speakarmoured618("en-GB"),
-                            onPressedAmerican: () => speakarmoured618(
-                                // REPLACE: armoured /ˈɑːrmərd/
-                                "en-US"),
+                            onPressedAmerican: () => speakarmoured618("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

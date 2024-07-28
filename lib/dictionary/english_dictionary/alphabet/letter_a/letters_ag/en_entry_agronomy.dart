@@ -64,7 +64,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "agronomy"), // Find /əˈɡrɒnəmi/
+                            EntryTitle(word: "agronomy"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryagronomy extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -118,9 +117,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                             kurdishText:
                                 "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک.",
                             onPressedBritish: () => speakagron3784("en-GB"),
-                            onPressedAmerican: () => speakagron3784(
-                                // REPLACE: agronomy /əˈɡrɑːnəmi/
-                                "en-US"),
+                            onPressedAmerican: () => speakagron3784("en-US"),
                           ),
                         ],
                       ),

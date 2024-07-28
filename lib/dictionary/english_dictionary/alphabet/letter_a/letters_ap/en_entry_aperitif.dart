@@ -143,9 +143,8 @@ class EnglishEntryaperitif extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -157,9 +156,7 @@ class EnglishEntryaperitif extends StatelessWidget {
                                 "This vermouth is a delicious aperitif.",
                             kurdishText: "ئەم ڤرماوسە ئیشتیاکەرەوەیەکی بەتامە.",
                             onPressedBritish: () => speakaperitif144("en-GB"),
-                            onPressedAmerican: () => speakaperitif144(
-                                // REPLACE: aperitif /əˌperəˈtiːf/
-                                "en-US"),
+                            onPressedAmerican: () => speakaperitif144("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

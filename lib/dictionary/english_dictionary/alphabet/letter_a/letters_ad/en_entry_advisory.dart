@@ -64,7 +64,7 @@ class EnglishEntryadvisory extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "advisory"), // Find /ədˈvaɪzəri/
+                            EntryTitle(word: "advisory"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryadvisory extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -116,16 +115,14 @@ class EnglishEntryadvisory extends StatelessWidget {
                             kurdishText:
                                 "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری.",
                             onPressedBritish: () => speakadvi36511("en-GB"),
-                            onPressedAmerican: () => speakadvi36511(
-                                // REPLACE: advisory /ədˈvaɪzəri/
-                                "en-US"),
+                            onPressedAmerican: () => speakadvi36511("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

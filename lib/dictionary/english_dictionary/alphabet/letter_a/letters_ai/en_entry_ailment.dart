@@ -63,7 +63,7 @@ class EnglishEntryailment extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ailment"), // Find /ˈeɪlmənt/
+                            EntryTitle(word: "ailment"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryailment extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryailment extends StatelessWidget {
                                 "I got all the usual childhood ailments.",
                             kurdishText: "ھەموو دەردە باوەکانی منداڵیم گرت.",
                             onPressedBritish: () => speakailment1249("en-GB"),
-                            onPressedAmerican: () => speakailment1249(
-                                // REPLACE: ailment /ˈeɪlmənt/
-                                "en-US"),
+                            onPressedAmerican: () => speakailment1249("en-US"),
                           ),
                         ],
                       ),

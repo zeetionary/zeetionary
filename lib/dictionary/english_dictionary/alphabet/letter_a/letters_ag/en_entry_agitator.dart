@@ -64,8 +64,7 @@ class EnglishEntryagitator extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "agitator"), // Find /ˈædʒɪteɪtə(r)/
+                            EntryTitle(word: "agitator"),
                           ],
                         ),
                         Row(
@@ -99,9 +98,8 @@ class EnglishEntryagitator extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -119,16 +117,14 @@ class EnglishEntryagitator extends StatelessWidget {
                             kurdishText:
                                 "باوەڕ وایە مانگرتنەکە کاری ئاژاوەگێڕە نھێنییە سیاسییەکان بوو.",
                             onPressedBritish: () => speakagita62577("en-GB"),
-                            onPressedAmerican: () => speakagita62577(
-                                // REPLACE: agitator /ˈædʒɪteɪtər/
-                                "en-US"),
+                            onPressedAmerican: () => speakagita62577("en-US"),
                           ),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

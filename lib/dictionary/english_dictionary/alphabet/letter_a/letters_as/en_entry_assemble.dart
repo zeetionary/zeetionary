@@ -146,9 +146,8 @@ class EnglishEntryassemble extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -164,9 +163,7 @@ class EnglishEntryassemble extends StatelessWidget {
                             kurdishText:
                                 "ھەموو خوێندکاران داوایان لێ‌کرا لە ھۆڵە سەرەکییەکە کۆببنەوە.",
                             onPressedBritish: () => speakassemble925("en-GB"),
-                            onPressedAmerican: () => speakassemble925(
-                                // REPLACE: assemble /əˈsembl/
-                                "en-US"),
+                            onPressedAmerican: () => speakassemble925("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -175,9 +172,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 "She then addressed the assembled company (= all the people there).",
                             kurdishText: "دواتر قسەی بۆ تەواوی کۆمپانیاکە کرد.",
                             onPressedBritish: () => speakassemble926("en-GB"),
-                            onPressedAmerican: () => speakassemble926(
-                                // REPLACE: assemble /əˈsembl/
-                                "en-US"),
+                            onPressedAmerican: () => speakassemble926("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +184,7 @@ class EnglishEntryassemble extends StatelessWidget {
                             kurdishText:
                                 "یەک کاتژمێرم بەسەربرد بە پێکەوەنانی کەلوپەلەکان.",
                             onPressedBritish: () => speakassemble929("en-GB"),
-                            onPressedAmerican: () => speakassemble929(
-                                // REPLACE: assemble /əˈsembl/
-                                "en-US"),
+                            onPressedAmerican: () => speakassemble929("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

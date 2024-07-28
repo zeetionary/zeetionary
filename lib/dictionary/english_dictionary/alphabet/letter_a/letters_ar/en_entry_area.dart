@@ -170,9 +170,8 @@ class EnglishEntryarea extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -189,9 +188,7 @@ class EnglishEntryarea extends StatelessWidget {
                             kurdishText:
                                 "کێڵگەکە و ناوچەکەی دەورووبەری بەر لافاو کەوتن.",
                             onPressedBritish: () => speakarea957("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarea957(// REPLACE: area /ˈeriə/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarea957("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -201,9 +198,7 @@ class EnglishEntryarea extends StatelessWidget {
                             kurdishText:
                                 "ناوچەیەکی زۆری شارەکە لە بومەلەرزەکەدا وێران‌بوون.",
                             onPressedBritish: () => speakarea1002("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarea1002(// REPLACE: area /ˈeriə/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarea1002("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -215,9 +210,7 @@ class EnglishEntryarea extends StatelessWidget {
                             kurdishText:
                                 "دەتوانی جگەرە بکێشی تەنھا لە شوێنی دیاریکراوی.",
                             onPressedBritish: () => speakarea1005("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarea1005(// REPLACE: area /ˈeriə/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarea1005("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -229,9 +222,7 @@ class EnglishEntryarea extends StatelessWidget {
                             kurdishText:
                                 "لووەکە ھێشتا بڵاونەبووبووە بە بەشەکانی تری جەستەیدا.",
                             onPressedBritish: () => speakarea1015("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarea1015(// REPLACE: area /ˈeriə/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarea1015("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -242,9 +233,7 @@ class EnglishEntryarea extends StatelessWidget {
                                 "That's outside my specific area of expertise.",
                             kurdishText: "ئەوە لە دەرەوەی شارەزایی منە.",
                             onPressedBritish: () => speakarea1018("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarea1018(// REPLACE: area /ˈeriə/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarea1018("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -254,9 +243,7 @@ class EnglishEntryarea extends StatelessWidget {
                             kurdishText:
                                 "توێژینەوەی تر پێویستن لەم ڕوانگەیەوە.",
                             onPressedBritish: () => speakarea1020("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarea1020(// REPLACE: area /ˈeriə/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarea1020("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -267,9 +254,7 @@ class EnglishEntryarea extends StatelessWidget {
                                 "Britain occupies a total area of 88,798 square miles.",
                             kurdishText: "ڕووبەری بەریتانیا ٨٨,٧٩٨ میلە.",
                             onPressedBritish: () => speakarea1022("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarea1022(// REPLACE: area /ˈeriə/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarea1022("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

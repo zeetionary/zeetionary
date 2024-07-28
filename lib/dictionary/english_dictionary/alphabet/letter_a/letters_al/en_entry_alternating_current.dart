@@ -64,9 +64,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "alternating current"), // Find /ˌɔːltəneɪtɪŋ ˈkʌrənt/
+                            EntryTitle(word: "alternating current"),
                           ],
                         ),
                         Row(
@@ -102,9 +100,8 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -122,9 +119,8 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                 "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو.",
                             onPressedBritish: () =>
                                 speakalternatingcurrent124("en-GB"),
-                            onPressedAmerican: () => speakalternatingcurrent124(
-                                // REPLACE: alternating current /ˌɔːltərneɪtɪŋ ˈkɜːrənt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakalternatingcurrent124("en-US"),
                           ),
                         ],
                       ),

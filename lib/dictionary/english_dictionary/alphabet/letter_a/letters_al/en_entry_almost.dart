@@ -64,7 +64,7 @@ class EnglishEntryalmost extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "almost"), // Find /ˈɔːlməʊst/
+                            EntryTitle(word: "almost"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalmost extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -111,9 +110,7 @@ class EnglishEntryalmost extends StatelessWidget {
                             englishText: "I like almost all of them.",
                             kurdishText: "بە نزیکەیی حەزم لە ھەموویانە.",
                             onPressedBritish: () => speakalmost4211("en-GB"),
-                            onPressedAmerican: () => speakalmost4211(
-                                // REPLACE: almost /ˈɔːlməʊst/
-                                "en-US"),
+                            onPressedAmerican: () => speakalmost4211("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -122,9 +119,7 @@ class EnglishEntryalmost extends StatelessWidget {
                             kurdishText:
                                 "قەڵاکە بە نزیکەیی تەواو بە ئاو دەوردراوە.",
                             onPressedBritish: () => speakalmost2489("en-GB"),
-                            onPressedAmerican: () => speakalmost2489(
-                                // REPLACE: almost /ˈɔːlməʊst/
-                                "en-US"),
+                            onPressedAmerican: () => speakalmost2489("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -132,9 +127,7 @@ class EnglishEntryalmost extends StatelessWidget {
                                 "The painting is almost certainly a forgery.",
                             kurdishText: "تابلۆکە بە ئەگەری زۆر ساختەیە.",
                             onPressedBritish: () => speakalmost4958("en-GB"),
-                            onPressedAmerican: () => speakalmost4958(
-                                // REPLACE: almost /ˈɔːlməʊst/
-                                "en-US"),
+                            onPressedAmerican: () => speakalmost4958("en-US"),
                           ),
                         ],
                       ),

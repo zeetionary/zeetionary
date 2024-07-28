@@ -65,7 +65,7 @@ class EnglishEntryamazing extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amazing"), // Find /əˈmeɪzɪŋ/
+                            EntryTitle(word: "amazing"),
                           ],
                         ),
                         Row(
@@ -99,9 +99,8 @@ class EnglishEntryamazing extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -114,9 +113,7 @@ class EnglishEntryamazing extends StatelessWidget {
                             kurdishText:
                                 "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت.",
                             onPressedBritish: () => speakamazing45555("en-GB"),
-                            onPressedAmerican: () => speakamazing45555(
-                                // REPLACE: amazing /əˈmeɪzɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakamazing45555("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -125,9 +122,7 @@ class EnglishEntryamazing extends StatelessWidget {
                             kurdishText:
                                 "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرس بن.",
                             onPressedBritish: () => speakamazing95314("en-GB"),
-                            onPressedAmerican: () => speakamazing95314(
-                                // REPLACE: amazing /əˈmeɪzɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakamazing95314("en-US"),
                           ),
                         ],
                       ),

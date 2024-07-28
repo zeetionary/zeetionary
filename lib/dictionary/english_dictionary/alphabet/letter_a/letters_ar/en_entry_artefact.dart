@@ -146,9 +146,8 @@ class EnglishEntryartefact extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -166,9 +165,7 @@ class EnglishEntryartefact extends StatelessWidget {
                             kurdishText:
                                 "مۆزەخانەکە کۆمەڵە دەسکارێکی کۆنی ناوازەی نوبیای ھەیە.",
                             onPressedBritish: () => speakartefact112("en-GB"),
-                            onPressedAmerican: () => speakartefact112(
-                                // REPLACE: artefact /ˈɑːrtɪfækt/
-                                "en-US"),
+                            onPressedAmerican: () => speakartefact112("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

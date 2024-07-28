@@ -63,8 +63,7 @@ class EnglishEntryalliteration extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "alliteration"), // Find /əˌlɪtəˈreɪʃn/
+                            EntryTitle(word: "alliteration"),
                           ],
                         ),
                         Row(

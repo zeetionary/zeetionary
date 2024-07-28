@@ -145,9 +145,8 @@ class EnglishEntryarse extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -163,9 +162,7 @@ class EnglishEntryarse extends StatelessWidget {
                                 "Get off your arse! (= stop sitting around doing nothing)",
                             kurdishText: "ھەستە ئیشێک بکە.",
                             onPressedBritish: () => speakarse803("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarse803(// REPLACE: arse /ɑːrs/
-                                    "en-US"),
+                            onPressedAmerican: () => speakarse803("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),

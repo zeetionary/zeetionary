@@ -63,7 +63,7 @@ class EnglishEntryairmail extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airmail"), // Find /ˈeəmeɪl/
+                            EntryTitle(word: "airmail"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryairmail extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -110,9 +109,7 @@ class EnglishEntryairmail extends StatelessWidget {
                             englishText: "Send it airmail/by airmail.",
                             kurdishText: "بە پۆستەی ئاسمانی بینێرە.",
                             onPressedBritish: () => speakairmail4699("en-GB"),
-                            onPressedAmerican: () => speakairmail4699(
-                                // REPLACE: airmail /ˈermeɪl/
-                                "en-US"),
+                            onPressedAmerican: () => speakairmail4699("en-US"),
                           ),
                         ],
                       ),

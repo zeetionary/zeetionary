@@ -63,7 +63,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aircraft"), // Find /ˈeəkrɑːft/
+                            EntryTitle(word: "aircraft"),
                           ],
                         ),
                         Row(
@@ -97,9 +97,8 @@ class EnglishEntryaircraft extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -112,9 +111,8 @@ class EnglishEntryaircraft extends StatelessWidget {
                             kurdishText:
                                 "فڕۆکەکە بە دەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو.",
                             onPressedBritish: () => speakaircraft32477("en-GB"),
-                            onPressedAmerican: () => speakaircraft32477(
-                                // REPLACE: aircraft /ˈerkræft/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaircraft32477("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -122,9 +120,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                                 "The aircraft is due to take off at midnight.",
                             kurdishText: "فڕۆکەکە لە نیوەشەودا دەفڕێت.",
                             onPressedBritish: () => speakaircraft3477("en-GB"),
-                            onPressedAmerican: () => speakaircraft3477(
-                                // REPLACE: aircraft /ˈerkræft/
-                                "en-US"),
+                            onPressedAmerican: () => speakaircraft3477("en-US"),
                           ),
                         ],
                       ),

@@ -64,7 +64,7 @@ class EnglishEntryalarming extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "alarming"), // Find /əˈlɑːmɪŋ/
+                            EntryTitle(word: "alarming"),
                           ],
                         ),
                         Row(
@@ -98,9 +98,8 @@ class EnglishEntryalarming extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -117,9 +116,7 @@ class EnglishEntryalarming extends StatelessWidget {
                             kurdishText:
                                 "دارستانەکان بە ئاستێکی ترسێنەر کەمدەبن.",
                             onPressedBritish: () => speakalarming7488("en-GB"),
-                            onPressedAmerican: () => speakalarming7488(
-                                // REPLACE: alarming /əˈlɑːrmɪŋ/
-                                "en-US"),
+                            onPressedAmerican: () => speakalarming7488("en-US"),
                           ),
                         ],
                       ),

@@ -63,7 +63,7 @@ class EnglishEntryaerobics extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aerobics"), // Find /eəˈrəʊbɪks/
+                            EntryTitle(word: "aerobics"),
                           ],
                         ),
                         Row(
@@ -110,7 +110,7 @@ class EnglishEntryaerobics extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),

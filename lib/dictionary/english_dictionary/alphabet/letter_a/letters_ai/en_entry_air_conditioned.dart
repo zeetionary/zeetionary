@@ -63,8 +63,7 @@ class EnglishEntryairconditioned extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "air-conditioned"), // Find /ˈeə kəndɪʃnd/
+                            EntryTitle(word: "air-conditioned"),
                           ],
                         ),
                         Row(
@@ -98,9 +97,8 @@ class EnglishEntryairconditioned extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -113,9 +111,8 @@ class EnglishEntryairconditioned extends StatelessWidget {
                                 "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە.",
                             onPressedBritish: () =>
                                 speakairconditioned341("en-GB"),
-                            onPressedAmerican: () => speakairconditioned341(
-                                // REPLACE: air-conditioned /ˈer kəndɪʃnd/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakairconditioned341("en-US"),
                           ),
                         ],
                       ),

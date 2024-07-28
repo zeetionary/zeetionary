@@ -109,8 +109,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "anti-"), // Find /ænti/, /æntɪ/, /ænˈtɪ/
+                            EntryTitle(word: "anti-"),
                             // divvviiider
                           ],
                         ),
@@ -148,9 +147,8 @@ class EnglishEntryantitwo extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -165,9 +163,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                             kurdishText:
                                 "تەنھا لەبەرئەوەی پەیوەندیت پێوەناکەم واتای ئەوە نییە دژتم.",
                             onPressedBritish: () => speakantitwo920("en-GB"),
-                            onPressedAmerican: () => speakantitwo920(
-                                // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakantitwo920("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +173,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                             kurdishText:
                                 "سەربازەکان چەکێکی دژە تانکیان بەکارھێنا بۆ وەستاندنی دەبابە گەورەکە.",
                             onPressedBritish: () => speakantitwo925("en-GB"),
-                            onPressedAmerican: () => speakantitwo925(
-                                // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakantitwo925("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,9 +185,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                             kurdishText:
                                 "شانۆکانی شکسپیر کارەکتەری جیاوازیان تێدایە، ھەندێکیان پاڵەوانن و ھەندێکیشیان دژە پاڵەوانن.",
                             onPressedBritish: () => speakantitwo935("en-GB"),
-                            onPressedAmerican: () => speakantitwo935(
-                                // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakantitwo935("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -205,9 +197,7 @@ class EnglishEntryantitwo extends StatelessWidget {
                             kurdishText:
                                 "دژە بەستن ڕێگری لە بزوێنەری ئۆتۆمبێلەکەت دەکات بیبەستێ لە کەشوھەوای سارددا.",
                             onPressedBritish: () => speakantitwo938("en-GB"),
-                            onPressedAmerican: () => speakantitwo938(
-                                // REPLACE: anti- /ænti/, /æntɪ/, /æntaɪ/, /ænˈtɪ/
-                                "en-US"),
+                            onPressedAmerican: () => speakantitwo938("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

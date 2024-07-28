@@ -138,9 +138,7 @@ class EnglishEntryamok extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈmɑːk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈmɑːk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakamok("en-US"),
                             ),

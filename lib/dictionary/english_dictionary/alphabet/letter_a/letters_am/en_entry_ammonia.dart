@@ -137,9 +137,7 @@ class EnglishEntryammonia extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈməʊniə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈməʊniə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakammonia("en-US"),
                             ),
@@ -265,7 +263,6 @@ ${englishMeaningConst.text}
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -273,7 +270,6 @@ ${englishMeaningConst.text}
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

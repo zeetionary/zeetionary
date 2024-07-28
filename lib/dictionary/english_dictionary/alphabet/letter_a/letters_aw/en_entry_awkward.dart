@@ -306,7 +306,6 @@ Adjective: awkward (derived forms: awkwarder, awkwardest)
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -314,7 +313,6 @@ Adjective: awkward (derived forms: awkwarder, awkwardest)
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

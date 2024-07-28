@@ -73,9 +73,7 @@ class EnglishEntryamoeba extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈmiːbə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈmiːbə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakamoeba("en-US"),
                             ),
@@ -198,7 +196,6 @@ Usage: N. Amer (elsewhere: amoeba)
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -206,7 +203,6 @@ Usage: N. Amer (elsewhere: amoeba)
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

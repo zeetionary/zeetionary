@@ -247,7 +247,6 @@ Genus of terrestrial or lithophytic ferns having pinnatifid fronds; chiefly of t
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -255,7 +254,6 @@ Genus of terrestrial or lithophytic ferns having pinnatifid fronds; chiefly of t
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

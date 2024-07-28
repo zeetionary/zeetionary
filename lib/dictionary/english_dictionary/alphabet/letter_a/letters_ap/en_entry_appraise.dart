@@ -266,7 +266,6 @@ Estimate or determine the nature, value, quality, ability, extent, or significan
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -274,7 +273,6 @@ Estimate or determine the nature, value, quality, ability, extent, or significan
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

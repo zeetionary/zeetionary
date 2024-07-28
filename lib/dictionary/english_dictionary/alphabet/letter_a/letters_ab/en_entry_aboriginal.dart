@@ -429,7 +429,6 @@ A member of the people living in Australia when Europeans arrived (= Aborigine, 
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -437,7 +436,6 @@ A member of the people living in Australia when Europeans arrived (= Aborigine, 
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

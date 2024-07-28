@@ -72,9 +72,7 @@ class EnglishEntryambush extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæmbʊʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈæmbʊʃ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakambush("en-US"),
                             ),
@@ -217,7 +215,6 @@ Noun: ambush (derived forms: ambushed, ambushes, ambushing)
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -225,7 +222,6 @@ Noun: ambush (derived forms: ambushed, ambushes, ambushing)
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

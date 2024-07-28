@@ -137,8 +137,7 @@ class EnglishEntryamenity extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈmenəti/, /əˈmiːnəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /əˈmenəti/, /əˈmiːnəti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakamenity("en-US"),
                             ),
@@ -271,7 +270,6 @@ ${englishMeaningConst.text}
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -279,7 +277,6 @@ ${englishMeaningConst.text}
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

@@ -237,7 +237,6 @@ Inspiring awe, admiration or wonder (= amazing, awesome, awful [archaic], awing,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -245,7 +244,6 @@ Inspiring awe, admiration or wonder (= amazing, awesome, awful [archaic], awing,
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

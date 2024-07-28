@@ -10,7 +10,8 @@ class EnglishEntryabbreviation extends StatefulWidget {
   const EnglishEntryabbreviation({super.key});
 
   @override
-  State<EnglishEntryabbreviation> createState() => _EnglishEntryabbreviationState();
+  State<EnglishEntryabbreviation> createState() =>
+      _EnglishEntryabbreviationState();
 }
 
 class _EnglishEntryabbreviationState extends State<EnglishEntryabbreviation> {
@@ -226,8 +227,6 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   }
 }
 
-
-
 class KurdishMeaning extends StatelessWidget {
   KurdishMeaning({
     super.key,
@@ -432,7 +431,6 @@ ${englishMeaningConst.text}
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -440,7 +438,6 @@ ${englishMeaningConst.text}
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

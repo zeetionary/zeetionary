@@ -137,9 +137,7 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /teɪk əˈmɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /teɪk əˈmɪs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakTakesomethingamiss("en-US"),
                             ),

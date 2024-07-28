@@ -52,7 +52,6 @@ class EnglishEntryaddict extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -116,8 +115,7 @@ class EnglishEntryaddict extends StatelessWidget {
                             kurdishText:
                                 "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن.",
                             onPressedBritish: () => speakadd2354("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadd2354("en-US"),
+                            onPressedAmerican: () => speakadd2354("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -138,7 +136,7 @@ class EnglishEntryaddict extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedend(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

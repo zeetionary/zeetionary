@@ -88,7 +88,6 @@ class EnglishEntryaim extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -151,8 +150,7 @@ class EnglishEntryaim extends StatelessWidget {
                             kurdishText:
                                 "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت.",
                             onPressedBritish: () => speakaim86555("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaim86555("en-US"),
+                            onPressedAmerican: () => speakaim86555("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -161,8 +159,7 @@ class EnglishEntryaim extends StatelessWidget {
                             kurdishText:
                                 "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە.",
                             onPressedBritish: () => speakaim475699("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaim475699("en-US"),
+                            onPressedAmerican: () => speakaim475699("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -173,8 +170,7 @@ class EnglishEntryaim extends StatelessWidget {
                             kurdishText:
                                 "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە.",
                             onPressedBritish: () => speakaim456933("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaim456933("en-US"),
+                            onPressedAmerican: () => speakaim456933("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -183,8 +179,7 @@ class EnglishEntryaim extends StatelessWidget {
                             englishText: "My criticism wasn't aimed at you.",
                             kurdishText: "ڕەخنەکانم ڕوو لە تۆ نەبوون.",
                             onPressedBritish: () => speakaim5283("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaim5283("en-US"),
+                            onPressedAmerican: () => speakaim5283("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -195,8 +190,7 @@ class EnglishEntryaim extends StatelessWidget {
                             kurdishText:
                                 "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا.",
                             onPressedBritish: () => speakaim371595446("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaim371595446("en-US"),
+                            onPressedAmerican: () => speakaim371595446("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -207,8 +201,7 @@ class EnglishEntryaim extends StatelessWidget {
                             kurdishText:
                                 "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت.",
                             onPressedBritish: () => speakaim78562("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaim78562("en-US"),
+                            onPressedAmerican: () => speakaim78562("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -219,8 +212,7 @@ class EnglishEntryaim extends StatelessWidget {
                             kurdishText:
                                 "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا.",
                             onPressedBritish: () => speakaim46011635("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaim46011635("en-US"),
+                            onPressedAmerican: () => speakaim46011635("en-US"),
                           ),
                         ],
                       ),
@@ -232,7 +224,7 @@ class EnglishEntryaim extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

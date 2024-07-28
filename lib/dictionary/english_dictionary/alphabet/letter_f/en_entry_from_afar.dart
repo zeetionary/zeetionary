@@ -52,7 +52,6 @@ class EnglishEntryafar extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -129,8 +128,7 @@ class EnglishEntryafar extends StatelessWidget {
                                     onPressed: () => speakafa2569("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakafa2569(        "en-US"),
+                                    onPressed: () => speakafa2569("en-US"),
                                   ),
                                 ],
                               ),
@@ -146,7 +144,7 @@ class EnglishEntryafar extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

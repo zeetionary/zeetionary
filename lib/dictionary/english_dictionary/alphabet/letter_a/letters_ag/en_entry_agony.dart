@@ -52,7 +52,6 @@ class EnglishEntryagony extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -113,8 +112,7 @@ class EnglishEntryagony extends StatelessWidget {
                             englishText: "The soldier died in agony.",
                             kurdishText: "سەربازەکە بە ئازارەوە مرد.",
                             onPressedBritish: () => speakago1488("en-GB"),
-                            onPressedAmerican: () =>
-                                speakago1488("en-US"),
+                            onPressedAmerican: () => speakago1488("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -122,8 +120,7 @@ class EnglishEntryagony extends StatelessWidget {
                                 "Jack collapsed in agony on the floor.",
                             kurdishText: "جاک لە ئازاردا کەوت بە زەوییەکەدا.",
                             onPressedBritish: () => speakago1566("en-GB"),
-                            onPressedAmerican: () =>
-                                speakago1566("en-US"),
+                            onPressedAmerican: () => speakago1566("en-US"),
                           ),
                         ],
                       ),
@@ -135,7 +132,7 @@ class EnglishEntryagony extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

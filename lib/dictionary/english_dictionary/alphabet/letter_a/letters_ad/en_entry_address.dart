@@ -112,7 +112,6 @@ class EnglishEntryaddress extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -175,8 +174,7 @@ class EnglishEntryaddress extends StatelessWidget {
                             kurdishText:
                                 "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم.",
                             onPressedBritish: () => speakadd774("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadd774("en-US"),
+                            onPressedAmerican: () => speakadd774("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -216,8 +214,7 @@ class EnglishEntryaddress extends StatelessWidget {
                             kurdishText:
                                 "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە.",
                             onPressedBritish: () => speakadd99("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadd99("en-US"),
+                            onPressedAmerican: () => speakadd99("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -228,8 +225,7 @@ class EnglishEntryaddress extends StatelessWidget {
                             kurdishText:
                                 "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا.",
                             onPressedBritish: () => speakaddr11("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaddr11("en-US"),
+                            onPressedAmerican: () => speakaddr11("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -263,7 +259,7 @@ class EnglishEntryaddress extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

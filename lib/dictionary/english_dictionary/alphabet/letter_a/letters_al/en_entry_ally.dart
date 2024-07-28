@@ -52,7 +52,6 @@ class EnglishEntryally extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -116,8 +115,7 @@ class EnglishEntryally extends StatelessWidget {
                             kurdishText:
                                 "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە.",
                             onPressedBritish: () => speakally4211("en-GB"),
-                            onPressedAmerican: () =>
-                                speakally4211("en-US"),
+                            onPressedAmerican: () => speakally4211("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -128,8 +126,7 @@ class EnglishEntryally extends StatelessWidget {
                             kurdishText:
                                 "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری.",
                             onPressedBritish: () => speakally4322("en-GB"),
-                            onPressedAmerican: () =>
-                                speakally4322("en-US"),
+                            onPressedAmerican: () => speakally4322("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -144,7 +141,7 @@ class EnglishEntryally extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

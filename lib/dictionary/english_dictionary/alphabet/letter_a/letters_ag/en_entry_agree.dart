@@ -86,7 +86,6 @@ class EnglishEntryagree extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -153,8 +152,7 @@ class EnglishEntryagree extends StatelessWidget {
                                 "I don't agree with hitting children as a punishment.",
                             kurdishText: "لێدانی مناڵ وەک سزادان پەسەند ناکەم.",
                             onPressedBritish: () => speakag2256("en-GB"),
-                            onPressedAmerican: () =>
-                                speakag2256("en-US"),
+                            onPressedAmerican: () => speakag2256("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -175,8 +173,7 @@ class EnglishEntryagree extends StatelessWidget {
                             kurdishText:
                                 "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت.",
                             onPressedBritish: () => speakagre3555("en-GB"),
-                            onPressedAmerican: () =>
-                                speakagre3555("en-US"),
+                            onPressedAmerican: () => speakagre3555("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -196,8 +193,7 @@ class EnglishEntryagree extends StatelessWidget {
                             kurdishText:
                                 "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو.",
                             onPressedBritish: () => speakagr3544("en-GB"),
-                            onPressedAmerican: () =>
-                                speakagr3544("en-US"),
+                            onPressedAmerican: () => speakagr3544("en-US"),
                           ),
                         ],
                       ),
@@ -209,7 +205,7 @@ class EnglishEntryagree extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

@@ -69,7 +69,6 @@ class EnglishEntryadopt extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -138,8 +137,7 @@ class EnglishEntryadopt extends StatelessWidget {
                                 "The police adopted tighter security measures.",
                             kurdishText: "پۆلیس ڕێکاری توندتری گرتەبەر.",
                             onPressedBritish: () => speakad25673("en-GB"),
-                            onPressedAmerican: () =>
-                                speakad25673("en-US"),
+                            onPressedAmerican: () => speakad25673("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -161,8 +159,7 @@ class EnglishEntryadopt extends StatelessWidget {
                             kurdishText:
                                 "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە.",
                             onPressedBritish: () => speakado7259("en-GB"),
-                            onPressedAmerican: () =>
-                                speakado7259("en-US"),
+                            onPressedAmerican: () => speakado7259("en-US"),
                           ),
                         ],
                       ),
@@ -174,7 +171,7 @@ class EnglishEntryadopt extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

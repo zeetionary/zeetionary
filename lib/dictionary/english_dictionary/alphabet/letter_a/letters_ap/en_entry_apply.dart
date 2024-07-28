@@ -100,7 +100,6 @@ class EnglishEntryapply extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -159,8 +158,7 @@ class EnglishEntryapply extends StatelessWidget {
                             kurdishText:
                                 "بڕیارم داوە داخوازینامە بۆ ئەم کارە تازە پێشکەش بکەم.",
                             onPressedBritish: () => speakapply736("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapply736("en-US"),
+                            onPressedAmerican: () => speakapply736("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -170,8 +168,7 @@ class EnglishEntryapply extends StatelessWidget {
                             kurdishText:
                                 "لەوانەیە داوا پێشکەشی دادگا بکەن بۆ ھەڵوەشاندنەوەی بڕیارەکە.",
                             onPressedBritish: () => speakapply738("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapply738("en-US"),
+                            onPressedAmerican: () => speakapply738("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -183,8 +180,7 @@ class EnglishEntryapply extends StatelessWidget {
                             kurdishText:
                                 "ئەوەی دەیڵێم تەنھا بەسەر ھەندێکتان دەچەسپێ.",
                             onPressedBritish: () => speakapply741("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapply741("en-US"),
+                            onPressedAmerican: () => speakapply741("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,8 +192,7 @@ class EnglishEntryapply extends StatelessWidget {
                             kurdishText:
                                 "تەکنەلۆژیا تازەکە بەکارھێندرا لە کشتوکاڵدا.",
                             onPressedBritish: () => speakapply744("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapply744("en-US"),
+                            onPressedAmerican: () => speakapply744("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -207,8 +202,7 @@ class EnglishEntryapply extends StatelessWidget {
                             kurdishText:
                                 "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت.",
                             onPressedBritish: () => speakapply747("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapply747("en-US"),
+                            onPressedAmerican: () => speakapply747("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -220,8 +214,7 @@ class EnglishEntryapply extends StatelessWidget {
                             kurdishText:
                                 "چەسپەکە دەبێت لە ھەردوو ڕووەکە بدرێت.",
                             onPressedBritish: () => speakapply749("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapply749("en-US"),
+                            onPressedAmerican: () => speakapply749("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
@@ -235,7 +228,7 @@ class EnglishEntryapply extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

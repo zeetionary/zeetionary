@@ -52,7 +52,6 @@ class EnglishEntryafresh extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -114,8 +113,7 @@ class EnglishEntryafresh extends StatelessWidget {
                             kurdishText:
                                 "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە.",
                             onPressedBritish: () => speakafre411("en-GB"),
-                            onPressedAmerican: () =>
-                                speakafre411("en-US"),
+                            onPressedAmerican: () => speakafre411("en-US"),
                           ),
                         ],
                       ),
@@ -127,7 +125,7 @@ class EnglishEntryafresh extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

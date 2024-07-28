@@ -52,7 +52,6 @@ class EnglishEntryadapt extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -116,8 +115,7 @@ class EnglishEntryadapt extends StatelessWidget {
                             kurdishText:
                                 "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین.",
                             onPressedBritish: () => speakada4567("en-GB"),
-                            onPressedAmerican: () =>
-                                speakada4567("en-US"),
+                            onPressedAmerican: () => speakada4567("en-US"),
                           ),
                         ],
                       ),
@@ -129,7 +127,7 @@ class EnglishEntryadapt extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedend(),
-                        // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        // YoutubeEmbeddedsix(),
                         // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

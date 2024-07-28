@@ -101,7 +101,6 @@ class EnglishEntryarc extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -164,8 +163,7 @@ class EnglishEntryarc extends StatelessWidget {
                             kurdishText:
                                 "تۆپەکە لە شێوەی کەوانەیەک بەرزبوویەوە و چووە دەرەوەی یاریگاکە.",
                             onPressedBritish: () => speakarc1246("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarc1246("en-US"),
+                            onPressedAmerican: () => speakarc1246("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,8 +175,7 @@ class EnglishEntryarc extends StatelessWidget {
                             kurdishText:
                                 "گوللە تۆپیان ھەڵدەدا بەسەرماندا لە شێوەی کەوانەیەکدا.",
                             onPressedBritish: () => speakarc1249("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarc1249("en-US"),
+                            onPressedAmerican: () => speakarc1249("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,8 +187,7 @@ class EnglishEntryarc extends StatelessWidget {
                             kurdishText:
                                 "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا.",
                             onPressedBritish: () => speakarc1252("en-GB"),
-                            onPressedAmerican: () =>
-                                speakarc1252("en-US"),
+                            onPressedAmerican: () => speakarc1252("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
@@ -205,7 +201,7 @@ class EnglishEntryarc extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

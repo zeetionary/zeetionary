@@ -94,7 +94,6 @@ class EnglishEntryant extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -157,8 +156,7 @@ class EnglishEntryant extends StatelessWidget {
                             kurdishText:
                                 "مێروولە مێرووی بچووکن کە بەسەر زەویدا دەڕۆن بە گرووپی زۆرەوە.",
                             onPressedBritish: () => speakant1125("en-GB"),
-                            onPressedAmerican: () =>
-                                speakant1125("en-US"),
+                            onPressedAmerican: () => speakant1125("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
@@ -172,7 +170,7 @@ class EnglishEntryant extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

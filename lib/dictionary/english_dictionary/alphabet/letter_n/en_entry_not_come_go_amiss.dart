@@ -117,7 +117,6 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -128,9 +127,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "not come/go amiss"),
+                            EntryTitle(word: "not come/go amiss"),
                           ],
                         ),
                         Row(
@@ -244,7 +241,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

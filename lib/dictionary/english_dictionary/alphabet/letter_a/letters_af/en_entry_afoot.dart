@@ -52,7 +52,6 @@ class EnglishEntryafoot extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -113,8 +112,7 @@ class EnglishEntryafoot extends StatelessWidget {
                                 "There are plans afoot to increase taxation.",
                             kurdishText: "پلان لە ئارادایە بۆ زیادکردنی باج",
                             onPressedBritish: () => speakafoo4599("en-GB"),
-                            onPressedAmerican: () =>
-                                speakafoo4599("en-US"),
+                            onPressedAmerican: () => speakafoo4599("en-US"),
                           ),
                         ],
                       ),
@@ -126,7 +124,7 @@ class EnglishEntryafoot extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

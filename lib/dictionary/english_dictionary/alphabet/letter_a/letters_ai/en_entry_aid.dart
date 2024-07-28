@@ -103,7 +103,6 @@ class EnglishEntryaid extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -167,8 +166,7 @@ class EnglishEntryaid extends StatelessWidget {
                             kurdishText:
                                 "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە.",
                             onPressedBritish: () => speakaid2522("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaid2522("en-US"),
+                            onPressedAmerican: () => speakaid2522("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -177,8 +175,7 @@ class EnglishEntryaid extends StatelessWidget {
                             kurdishText:
                                 "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت.",
                             onPressedBritish: () => speakaid38996("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaid38996("en-US"),
+                            onPressedAmerican: () => speakaid38996("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -189,8 +186,7 @@ class EnglishEntryaid extends StatelessWidget {
                             kurdishText:
                                 "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای.",
                             onPressedBritish: () => speakaid35288("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaid35288("en-US"),
+                            onPressedAmerican: () => speakaid35288("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -199,8 +195,7 @@ class EnglishEntryaid extends StatelessWidget {
                             englishText: "Photos make useful teaching aids.",
                             kurdishText: "وێنە یارمەتیدەری باشە لە فێرکردندا.",
                             onPressedBritish: () => speakaid37844("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaid37844("en-US"),
+                            onPressedAmerican: () => speakaid37844("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -211,8 +206,7 @@ class EnglishEntryaid extends StatelessWidget {
                             kurdishText:
                                 "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە.",
                             onPressedBritish: () => speakaid35882555("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaid35882555("en-US"),
+                            onPressedAmerican: () => speakaid35882555("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -221,8 +215,7 @@ class EnglishEntryaid extends StatelessWidget {
                             kurdishText:
                                 "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا.",
                             onPressedBritish: () => speakaid45269("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaid45269("en-US"),
+                            onPressedAmerican: () => speakaid45269("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -233,16 +226,14 @@ class EnglishEntryaid extends StatelessWidget {
                             kurdishText:
                                 "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە.",
                             onPressedBritish: () => speakaid43748("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaid43748("en-US"),
+                            onPressedAmerican: () => speakaid43748("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "Peppermint aids digestion.",
                             kurdishText: "نەعنا یارمەتی ھەرسکردن دەدات.",
                             onPressedBritish: () => speakaid35999("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaid35999("en-US"),
+                            onPressedAmerican: () => speakaid35999("en-US"),
                           ),
                         ],
                       ),
@@ -254,7 +245,7 @@ class EnglishEntryaid extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

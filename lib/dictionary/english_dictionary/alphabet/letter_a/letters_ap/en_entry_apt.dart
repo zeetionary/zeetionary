@@ -101,7 +101,6 @@ class EnglishEntryapt extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -163,8 +162,7 @@ class EnglishEntryapt extends StatelessWidget {
                             kurdishText:
                                 "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی.",
                             onPressedBritish: () => speakapt739("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapt739("en-US"),
+                            onPressedAmerican: () => speakapt739("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,8 +172,7 @@ class EnglishEntryapt extends StatelessWidget {
                             kurdishText:
                                 "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت.",
                             onPressedBritish: () => speakapt745("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapt745("en-US"),
+                            onPressedAmerican: () => speakapt745("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,8 +184,7 @@ class EnglishEntryapt extends StatelessWidget {
                             kurdishText:
                                 "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان.",
                             onPressedBritish: () => speakapt754("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapt754("en-US"),
+                            onPressedAmerican: () => speakapt754("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -200,8 +196,7 @@ class EnglishEntryapt extends StatelessWidget {
                             kurdishText:
                                 "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا.",
                             onPressedBritish: () => speakapt757("en-GB"),
-                            onPressedAmerican: () =>
-                                speakapt757("en-US"),
+                            onPressedAmerican: () => speakapt757("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
@@ -215,7 +210,7 @@ class EnglishEntryapt extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

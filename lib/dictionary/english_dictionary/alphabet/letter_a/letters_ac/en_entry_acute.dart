@@ -69,7 +69,6 @@ class EnglishEntryacute extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -149,8 +148,7 @@ class EnglishEntryacute extends StatelessWidget {
                             englishText: "acute abdominal pains",
                             kurdishText: "ئازاری سەختی سک ئێشە.",
                             onPressedBritish: () => speakacute42("en-GB"),
-                            onPressedAmerican: () =>
-                                speakacute42("en-US"),
+                            onPressedAmerican: () => speakacute42("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -159,8 +157,7 @@ class EnglishEntryacute extends StatelessWidget {
                             englishText: "Dogs have an acute sense of smell.",
                             kurdishText: "سەگ ھەستێکی تیژی بۆنکردنی ھەیە.",
                             onPressedBritish: () => speakacu5268("en-GB"),
-                            onPressedAmerican: () =>
-                                speakacu5268("en-US"),
+                            onPressedAmerican: () => speakacu5268("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -169,8 +166,7 @@ class EnglishEntryacute extends StatelessWidget {
                             englishText: "Her judgement is acute.",
                             kurdishText: "بڕیاردانی وردبینانەیە.",
                             onPressedBritish: () => speakacu5269("en-GB"),
-                            onPressedAmerican: () =>
-                                speakacu5269("en-US"),
+                            onPressedAmerican: () => speakacu5269("en-US"),
                           ),
                         ],
                       ),
@@ -182,7 +178,7 @@ class EnglishEntryacute extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedend(),
-                        // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        // YoutubeEmbeddedsix(),
                         // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

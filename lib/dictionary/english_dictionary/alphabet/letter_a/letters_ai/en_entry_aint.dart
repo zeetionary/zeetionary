@@ -52,7 +52,6 @@ class EnglishEntryaint extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -110,8 +109,7 @@ am not/is not/are not"""),
                             englishText: "Things ain't what they used to be.",
                             kurdishText: "شتەکان وەک جاران نین.",
                             onPressedBritish: () => speakaint286599("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaint286599("en-US"),
+                            onPressedAmerican: () => speakaint286599("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -121,8 +119,7 @@ has not/have not"""),
                             englishText: "I ain't got no money.",
                             kurdishText: "ھیچ پارەم نییە.",
                             onPressedBritish: () => speakaint8411("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaint8411("en-US"),
+                            onPressedAmerican: () => speakaint8411("en-US"),
                           ),
                         ],
                       ),
@@ -134,7 +131,7 @@ has not/have not"""),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

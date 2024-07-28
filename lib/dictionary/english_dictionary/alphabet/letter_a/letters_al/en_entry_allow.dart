@@ -279,7 +279,6 @@ class EnglishEntryallow extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -338,8 +337,7 @@ class EnglishEntryallow extends StatelessWidget {
                             kurdishText:
                                 "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە.",
                             onPressedBritish: () => speakallow3255("en-GB"),
-                            onPressedAmerican: () =>
-                                speakallow3255("en-US"),
+                            onPressedAmerican: () => speakallow3255("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -348,8 +346,7 @@ class EnglishEntryallow extends StatelessWidget {
                             kurdishText:
                                 "یاساکە ڕێگە بە کۆمپانیاکان دەدات کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن.",
                             onPressedBritish: () => speakallow535("en-GB"),
-                            onPressedAmerican: () =>
-                                speakallow535("en-US"),
+                            onPressedAmerican: () => speakallow535("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -360,8 +357,7 @@ class EnglishEntryallow extends StatelessWidget {
                             kurdishText:
                                 "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە.",
                             onPressedBritish: () => speakallow369("en-GB"),
-                            onPressedAmerican: () =>
-                                speakallow369("en-US"),
+                            onPressedAmerican: () => speakallow369("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -371,8 +367,7 @@ class EnglishEntryallow extends StatelessWidget {
                                 "They weren't allowed into the country.",
                             kurdishText: "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە.",
                             onPressedBritish: () => speakallow4721("en-GB"),
-                            onPressedAmerican: () =>
-                                speakallow4721("en-US"),
+                            onPressedAmerican: () => speakallow4721("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -394,8 +389,7 @@ class EnglishEntryallow extends StatelessWidget {
                             kurdishText:
                                 "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم.",
                             onPressedBritish: () => speakallow2341("en-GB"),
-                            onPressedAmerican: () =>
-                                speakallow2341("en-US"),
+                            onPressedAmerican: () => speakallow2341("en-US"),
                           ),
                         ],
                       ),
@@ -407,7 +401,7 @@ class EnglishEntryallow extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

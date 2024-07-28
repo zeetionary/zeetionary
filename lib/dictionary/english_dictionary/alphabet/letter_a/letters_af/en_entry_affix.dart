@@ -52,7 +52,6 @@ class EnglishEntryaffix extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -114,8 +113,7 @@ class EnglishEntryaffix extends StatelessWidget {
                             kurdishText:
                                 "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە.",
                             onPressedBritish: () => speakaffix911("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaffix911("en-US"),
+                            onPressedAmerican: () => speakaffix911("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -130,7 +128,7 @@ class EnglishEntryaffix extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

@@ -53,7 +53,6 @@ class EnglishEntryairy extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -115,8 +114,7 @@ class EnglishEntryairy extends StatelessWidget {
                             englishText: "The office was light and airy.",
                             kurdishText: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو.",
                             onPressedBritish: () => speakairy7352("en-GB"),
-                            onPressedAmerican: () =>
-                                speakairy7352("en-US"),
+                            onPressedAmerican: () => speakairy7352("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -126,8 +124,7 @@ class EnglishEntryairy extends StatelessWidget {
                             kurdishText:
                                 "ماڵئاوایی لێ‌کرد بە دەستڕاوەشاندنێکی سادە.",
                             onPressedBritish: () => speakairy748("en-GB"),
-                            onPressedAmerican: () =>
-                                speakairy748("en-US"),
+                            onPressedAmerican: () => speakairy748("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -138,8 +135,7 @@ class EnglishEntryairy extends StatelessWidget {
                             kurdishText:
                                 "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری.",
                             onPressedBritish: () => speakairy4255("en-GB"),
-                            onPressedAmerican: () =>
-                                speakairy4255("en-US"),
+                            onPressedAmerican: () => speakairy4255("en-US"),
                           ),
                         ],
                       ),
@@ -151,7 +147,7 @@ class EnglishEntryairy extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

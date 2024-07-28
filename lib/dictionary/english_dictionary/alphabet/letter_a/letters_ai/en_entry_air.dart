@@ -183,7 +183,6 @@ class EnglishEntryair extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -244,8 +243,7 @@ class EnglishEntryair extends StatelessWidget {
                             englishText: "Let's go out for some fresh air.",
                             kurdishText: "با بچین ھەندێک ھەوای پاک ھەڵمژین.",
                             onPressedBritish: () => speakair11524("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair11524("en-US"),
+                            onPressedAmerican: () => speakair11524("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -254,8 +252,7 @@ class EnglishEntryair extends StatelessWidget {
                             kurdishText:
                                 "ھەناسەبڕکێی بوو بۆ ھەوا کە لە خانووە سووتاوەکەوە ڕایکردە دەرەوە.",
                             onPressedBritish: () => speakair42112("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair42112("en-US"),
+                            onPressedAmerican: () => speakair42112("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -264,16 +261,14 @@ class EnglishEntryair extends StatelessWidget {
                             englishText: "Wave your hands in the air!",
                             kurdishText: "دەست ڕاوەشێنە لە ھەوادا!",
                             onPressedBritish: () => speakair2133("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair2133("en-US"),
+                            onPressedAmerican: () => speakair2133("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "I kicked the ball high into the air.",
                             kurdishText: "بەرز لە تۆپەکەم ھەڵدا بە ئاسماندا.",
                             onPressedBritish: () => speakair4144("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair4144("en-US"),
+                            onPressedAmerican: () => speakair4144("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -284,8 +279,7 @@ class EnglishEntryair extends StatelessWidget {
                             kurdishText:
                                 "سەیرمان کرد کە ھەلیکۆپتەرەکە فڕییە ئاسمان.",
                             onPressedBritish: () => speakair45666("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair45666("en-US"),
+                            onPressedAmerican: () => speakair45666("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -295,8 +289,7 @@ class EnglishEntryair extends StatelessWidget {
                                 "There was an air of complete confidence about her.",
                             kurdishText: "ڕواڵەتێکی تەواو خۆباوەڕی تێدا بوو.",
                             onPressedBritish: () => speakair3544("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair3544("en-US"),
+                            onPressedAmerican: () => speakair3544("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -305,8 +298,7 @@ class EnglishEntryair extends StatelessWidget {
                             englishText: "Air the sheets well.",
                             kurdishText: "پێخەفەکان باش وشک بکەوە.",
                             onPressedBritish: () => speakair58999("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair58999("en-US"),
+                            onPressedAmerican: () => speakair58999("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -317,8 +309,7 @@ class EnglishEntryair extends StatelessWidget {
                             kurdishText:
                                 "پەنجەرەکە بە کراوەیی بھێڵەوە بۆ ئەوەی ھەوای پاک بێتە ژوورەکەوە.",
                             onPressedBritish: () => speakair49258("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair49258("en-US"),
+                            onPressedAmerican: () => speakair49258("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -329,8 +320,7 @@ class EnglishEntryair extends StatelessWidget {
                             kurdishText:
                                 "بابەتەکان بە ڕاشکاوی دەربڕدران و گەنگەشە کران لەلایەن گرووپەکەوە.",
                             onPressedBritish: () => speakair96354("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair96354("en-US"),
+                            onPressedAmerican: () => speakair96354("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -339,8 +329,7 @@ class EnglishEntryair extends StatelessWidget {
                             englishText: "The program aired last week.",
                             kurdishText: "پڕۆگرامەکە ھەفتەی ڕابردوو پێشکەشکرا.",
                             onPressedBritish: () => speakair74952("en-GB"),
-                            onPressedAmerican: () =>
-                                speakair74952("en-US"),
+                            onPressedAmerican: () => speakair74952("en-US"),
                           ),
                         ],
                       ),
@@ -352,7 +341,7 @@ class EnglishEntryair extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

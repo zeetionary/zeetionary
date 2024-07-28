@@ -53,7 +53,6 @@ class EnglishEntryagile extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -126,8 +125,7 @@ class EnglishEntryagile extends StatelessWidget {
                             kurdishText:
                                 "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە.",
                             onPressedBritish: () => speakagi1778("en-GB"),
-                            onPressedAmerican: () =>
-                                speakagi1778("en-US"),
+                            onPressedAmerican: () => speakagi1778("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -138,8 +136,7 @@ class EnglishEntryagile extends StatelessWidget {
                             kurdishText:
                                 "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد.",
                             onPressedBritish: () => speakagil56663("en-GB"),
-                            onPressedAmerican: () =>
-                                speakagil56663("en-US"),
+                            onPressedAmerican: () => speakagil56663("en-US"),
                           ),
                         ],
                       ),
@@ -151,7 +148,7 @@ class EnglishEntryagile extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

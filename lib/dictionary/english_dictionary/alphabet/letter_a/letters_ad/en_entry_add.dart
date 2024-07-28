@@ -68,7 +68,6 @@ class EnglishEntryadd extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -128,8 +127,7 @@ class EnglishEntryadd extends StatelessWidget {
                             englishText: "Shall I add your name to the list?",
                             kurdishText: "ناوت زیادبکەم بۆ لیستەکە؟",
                             onPressedBritish: () => speakadd4257("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadd4257("en-US"),
+                            onPressedAmerican: () => speakadd4257("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -138,8 +136,7 @@ class EnglishEntryadd extends StatelessWidget {
                             kurdishText:
                                 "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا.",
                             onPressedBritish: () => speakadd45698("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadd45698("en-US"),
+                            onPressedAmerican: () => speakadd45698("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -149,8 +146,7 @@ class EnglishEntryadd extends StatelessWidget {
                             kurdishText:
                                 "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات.",
                             onPressedBritish: () => speakadd241("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadd241("en-US"),
+                            onPressedAmerican: () => speakadd241("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -161,8 +157,7 @@ class EnglishEntryadd extends StatelessWidget {
                             kurdishText:
                                 "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم.",
                             onPressedBritish: () => speakadd459224("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadd459224("en-US"),
+                            onPressedAmerican: () => speakadd459224("en-US"),
                           ),
                         ],
                       ),
@@ -174,7 +169,7 @@ class EnglishEntryadd extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

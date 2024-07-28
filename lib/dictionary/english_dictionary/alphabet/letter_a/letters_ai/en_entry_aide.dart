@@ -52,7 +52,6 @@ class EnglishEntryaide extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -116,8 +115,7 @@ class EnglishEntryaide extends StatelessWidget {
                             kurdishText:
                                 "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد.",
                             onPressedBritish: () => speakaid3596484("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaid3596484("en-US"),
+                            onPressedAmerican: () => speakaid3596484("en-US"),
                           ),
                         ],
                       ),
@@ -129,7 +127,7 @@ class EnglishEntryaide extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

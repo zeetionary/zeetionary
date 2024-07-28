@@ -47,13 +47,12 @@ class EnglishEntryaccuser extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: DOPSUM_WRITE_A_SENTENCE
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -117,8 +116,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                             kurdishText:
                                 "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی.",
                             onPressedBritish: () => speaka91573("en-GB"),
-                            onPressedAmerican: () =>
-                                speaka91573("en-US"), // FIND: /əˈkjuːzər/
+                            onPressedAmerican: () => speaka91573("en-US"),
                           ),
                         ],
                       ),
@@ -130,7 +128,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedend(),
                         // YoutubeEmbeddedfive(),
-                        // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        // YoutubeEmbeddedsix(),
                         // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

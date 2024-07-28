@@ -71,7 +71,6 @@ class EnglishEntryaffect extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -139,8 +138,7 @@ class EnglishEntryaffect extends StatelessWidget {
                             kurdishText:
                                 "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات.",
                             onPressedBritish: () => speakaffe741("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaffe741("en-US"),
+                            onPressedAmerican: () => speakaffe741("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -161,8 +159,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                 "They were deeply affected by the news of her death.",
                             kurdishText: "زۆر ناڕەحەت بوون بە ھەواڵی مردنی.",
                             onPressedBritish: () => speakaff2566("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaff2566("en-US"),
+                            onPressedAmerican: () => speakaff2566("en-US"),
                           ),
                         ],
                       ),
@@ -174,7 +171,7 @@ class EnglishEntryaffect extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

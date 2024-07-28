@@ -117,7 +117,6 @@ class EnglishEntryamok extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -198,8 +197,7 @@ class EnglishEntryamok extends StatelessWidget {
                                     onPressed: () => speakamok46669("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakamok46669(        "en-US"),
+                                    onPressed: () => speakamok46669("en-US"),
                                   ),
                                 ],
                               ),
@@ -215,7 +213,7 @@ class EnglishEntryamok extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

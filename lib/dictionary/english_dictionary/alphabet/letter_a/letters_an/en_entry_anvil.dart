@@ -96,7 +96,6 @@ class EnglishEntryanvil extends StatelessWidget {
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -159,8 +158,7 @@ class EnglishEntryanvil extends StatelessWidget {
                                 "A good anvil does not fear the hammer.",
                             kurdishText: "سندانێکی باش باکی بە چەکوش نییە.",
                             onPressedBritish: () => speakanvil208("en-GB"),
-                            onPressedAmerican: () =>
-                                speakanvil208("en-US"),
+                            onPressedAmerican: () => speakanvil208("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,7 +172,7 @@ class EnglishEntryanvil extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),

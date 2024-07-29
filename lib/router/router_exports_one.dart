@@ -4456,22 +4456,22 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_gesticulation.dart' show EnglishEntrygesticulation
 // en_entry_gesture.dart' show EnglishEntrygesture
 // en_entry_get.dart' show EnglishEntryget
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_getaway.dart' show EnglishEntrygetaway
+// en_entry_get_together.dart' show EnglishEntrygettogether //// فففف get-together
+// en_entry_get_up.dart' show EnglishEntrygetup //// ffff get-up
+// en_entry_get_up_and_go.dart' show EnglishEntrygetupandgo //// ffff get-up-and-go
+// en_entry_geyser.dart' show EnglishEntrygeyser
+// en_entry_ghastly.dart' show EnglishEntryghastly
+// en_entry_ghetto.dart' show EnglishEntryghetto
+// en_entry_ghost.dart' show EnglishEntryghost
+// en_entry_ghostly.dart' show EnglishEntryghostly
+// en_entry_ghost_town.dart' show EnglishEntryghosttown //// فففف ghost town
+// en_entry_ghostwriter.dart' show EnglishEntryghostwriter
+// en_entry_giant.dart' show EnglishEntrygiant
+// en_entry_gibberish.dart' show EnglishEntrygibberish
+// en_entry_gibbon.dart' show EnglishEntrygibbon
+// en_entry_giblets.dart' show EnglishEntrygiblets
+// en_entry_giddy.dart' show EnglishEntrygiddy
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

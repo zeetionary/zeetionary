@@ -2850,7 +2850,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
       margin: const EdgeInsets.all(12.0),
       decoration: _isExpanded
           ? BoxDecoration(
-              color: Theme.of(context).highlightColor.withOpacity(0.02),
+              color: Theme.of(context).highlightColor.withOpacity(0.04),
               // color: Theme.of(context).primaryColor.withOpacity(0.01),
               border: Border.all(
                 // color: Theme.of(context).primaryColor.withOpacity(0.18),
@@ -2861,6 +2861,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
               borderRadius: const BorderRadius.all(Radius.circular(8.0)),
             )
           : BoxDecoration(
+              color: Theme.of(context).highlightColor.withOpacity(0.04),
               // color: Theme.of(context).primaryColor.withOpacity(0.01),
               border: Border.all(
                 color: Theme.of(context).highlightColor.withOpacity(0.2),

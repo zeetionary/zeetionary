@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntryglamorize extends StatefulWidget {
+  const EnglishEntryglamorize({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntryglamorize> createState() => _EnglishEntryglamorizeState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntryglamorizeState extends State<EnglishEntryglamorize> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
-
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
+- Verb: glamorize (Derived forms: glamorized, glamorizing, glamorizes)
+1. Interpret romantically (- romanticize, romanticise [Brit], glamourise [Brit], glamorise [Brit])
+"Don't glamorize this uninteresting and hard work!";
+ 
+2. Make glamorous and attractive (- glamourise [Brit], glamourize, glamorise [Brit])
+"This new wallpaper really glamorizes the living room!";
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "glamorize";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,14 +80,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""glamorize""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -919,10 +919,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """glamorize""",
+                      // alsoEnglishWord: "also: glamorize",
+                      britshText: """IpaUK: /ˈɡlæməraɪz/""",
+                      americanText: """IpaUS: /ˈɡlæməraɪz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,17 +963,14 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: 
 """),
-// With short examples define "gingerly", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+// With short examples define "glamorize", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText:
-                          """He opened the box gingerly and looked inside.""",
-                      kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2071,18 +2068,19 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = '';
+const double _startSecondsend = 000000000000000000000000000;
+const String _videoIdone = '';
+const double _startSecondsone = 000000000000000000000000000;
+const String _videoIdtwo = '';
+const double _startSecondstwo = 000000000000000000000000000;
+const String _videoIdthree = '';
+const double _startSecondsthree = 000000000000000000000000000;
+const String _videoIdfour = '';
+const double _startSecondsfour = 000000000000000000000000000;
+const String _videoIdfive = '';
+const double _startSecondsfive = 000000000000000000000000000;
+// ssssssssssssssssssssssgggggggg55555
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

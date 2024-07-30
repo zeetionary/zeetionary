@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntrygist extends StatefulWidget {
+  const EnglishEntrygist({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntrygist> createState() => _EnglishEntrygistState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntrygistState extends State<EnglishEntrygist> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
+- Noun: gist (Derived forms: gists)
+1. The central meaning or theme of a speech or literary work (- effect, essence, burden, core)
+ 
+2. The choicest or most essential or most vital part of some idea or experience (- kernel, substance, core, center [US], centre [Brit, Cdn], essence, heart, heart and soul, inwardness, marrow, meat, nub, pith, sum, nitty-gritty)
+"the gist of the prosecutor's argument";
 
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
+- Verb: gist (Derived forms: gisted, gisting, gists)
+1. Make a summary (of) (- précis)
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "gist";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,28 +82,30 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""gist""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts.speak(
+        """I missed the beginning of the lecture—can you give me the gist of what he said?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I'm afraid I don't quite follow your gist.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """It is difficult to convey the gist of Reich's ideas simply.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -919,10 +922,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """gist""",
+                      // alsoEnglishWord: "also: gist",
+                      britshText: """IpaUK: /dʒɪst/""",
+                      americanText: """IpaUS: /dʒɪst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,17 +966,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: پوختە، کاکڵ، کرۆک، نیویشک، خاڵی سەرەکی، سەربابەت
 """),
-// With short examples define "gingerly", please follow LX instructions
+// With short examples define "gist", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+                        text: """١. (ناو) واتای سەرەکی یان گشتی شتێک"""),
                     SentencesRow(
                       englishText:
-                          """He opened the box gingerly and looked inside.""",
+                          """I missed the beginning of the lecture—can you give me the gist of what he said?""",
                       kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                          """سەرەتای وانەکەم لەدەستدا ـ دەتوانیت پوختەی ئەوەم پێ بدەیت کە گوتی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -981,8 +983,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I'm afraid I don't quite follow your gist (= what you really mean).""",
+                      kurdishText: """بەداخەوەم کە تەواو لە مەبەستت تێناگەم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -990,8 +993,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is difficult to convey the gist of Reich's ideas simply.""",
+                      kurdishText:
+                          """سەختە کاکڵی بیرۆکەکانی ڕەیچ بە سادەیی بگوترێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2071,18 +2076,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = 'https://youtu.be/HDntl7yzzVI?t=';
+const double _startSecondsend = 0000000000000000000000000001816;
+const String _videoIdone = 'https://youtu.be/oD9BaNAH-eE?t=';
+const double _startSecondsone = 00000000000000000000000000031;
+const String _videoIdtwo = 'https://youtu.be/kTaYet07Ioo?t=';
+const double _startSecondstwo = 000000000000000000000000000296;
+const String _videoIdthree = 'https://youtu.be/AwodL8z2EtE?t=';
+const double _startSecondsthree = 0000000000000000000000000001615;
+const String _videoIdfour = 'https://youtu.be/gQmiqmxJMtA?t=';
+const double _startSecondsfour = 000000000000000000000000000908;
+const String _videoIdfive = 'https://youtu.be/yCBEumeXY4A?t=';
+const double _startSecondsfive = 000000000000000000000000000155;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

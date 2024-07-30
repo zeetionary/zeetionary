@@ -7220,7 +7220,7 @@ final Map<String, String> wordRoutes = {
   "genitalia": "/english-genitals",
   "geometrical": "/english-geometric",
   "gibe": "/english-jibe",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "gipsy": "/english-gypsy",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",

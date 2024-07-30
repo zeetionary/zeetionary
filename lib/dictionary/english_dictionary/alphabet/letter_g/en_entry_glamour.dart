@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntryglamour extends StatefulWidget {
+  const EnglishEntryglamour({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntryglamour> createState() => _EnglishEntryglamourState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntryglamourState extends State<EnglishEntryglamour> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
+- Noun: glamour (Derived forms: glamours)
+1. Alluring beauty or charm (often with sex-appeal) (- glamor [US], glam [informal])
 
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
+- Verb: glamour (Derived forms: glamours, glamoured, glamouring)
+1. Cast a spell over someone or something; put a hex on someone or something (- hex, bewitch, witch, enchant, jinx)
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "glamour";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,28 +79,31 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""glamour""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts.speak(
+        """Now that she's a pilot, foreign travel has lost its glamour for her.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Several film stars were invited to add a touch of glamour to the occasion.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Her long dark hair lent her a certain glamour.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -919,10 +920,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """glamour""",
+                      // alsoEnglishWord: "also: glamour",
+                      britshText: """IpaUK: /ˈɡlæmə(r)/""",
+                      americanText: """IpaUS: /ˈɡlæmər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,17 +964,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: سەرنج‌ڕاکێشی، ئەفسووناوی‌بوون، دڵڕفێنی، جوانی، تەفرەدەری، زریقەوبریقە
 """),
-// With short examples define "gingerly", please follow LX instructions
+// With short examples define "glamour", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+                            """١. (ناو) خاسیەتی جوان و باش کە وا دەکات شتێک، کەسێک، یان شوێنیک تایبەت دەربکەوێت، زۆرجار بەهۆی سامان یان پێگە"""),
                     SentencesRow(
                       englishText:
-                          """He opened the box gingerly and looked inside.""",
+                          """Now that she's a pilot, foreign travel has lost its glamour for her.""",
                       kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                          """ئێستا کە فڕۆکەوانە، گەشتی وڵاتانی دیکە دڵڕفێنی خۆی لەدەستداوە لای .""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -981,17 +982,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Several film stars were invited to add a touch of glamour to the occasion.""",
+                      kurdishText:
+                          """ژمارەیەک لە ئەستێرەکانی فیلم بانگهێشت کران بۆ زیادکردنی سەرنج‌ڕاکێشی بۆ بۆنەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) جوانی جەستەیی کە واتای سەرکەوتن و سامانە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her long dark hair lent her a certain glamour.""",
+                      kurdishText:
+                          """قژە ڕەشە درێژەکەی جوانییەکی تایبەتی پێیدا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2071,18 +2078,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = 'https://youtu.be/FX1eWKGGOrY?t=';
+const double _startSecondsend = 00000000000000000000000000041;
+const String _videoIdone = 'https://youtu.be/lDeFSOUHdH4?t=';
+const double _startSecondsone = 000000000000000000000000000382;
+const String _videoIdtwo = 'https://youtu.be/YCnFYvL17v4?t=';
+const double _startSecondstwo = 000000000000000000000000000341;
+const String _videoIdthree = 'https://youtu.be/zpDuNzO_rwA?t=';
+const double _startSecondsthree = 0000000000000000000000000008;
+const String _videoIdfour = 'https://youtu.be/nbPEpKUmml0?t=';
+const double _startSecondsfour = 00000000000000000000000000094;
+const String _videoIdfive = 'https://youtu.be/runjda4La_4?t=';
+const double _startSecondsfive = 0000000000000000000000000009;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

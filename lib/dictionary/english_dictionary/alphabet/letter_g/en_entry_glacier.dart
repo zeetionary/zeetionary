@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntryglacier extends StatefulWidget {
+  const EnglishEntryglacier({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntryglacier> createState() => _EnglishEntryglacierState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntryglacierState extends State<EnglishEntryglacier> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
-
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
+- Noun: glacier (Derived forms: glaciers)
+1. A slowly moving mass of ice
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "glacier";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,14 +76,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""glacier""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts
+        .speak("""The glacier carved a deep valley in the mountain.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -919,10 +915,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """glacier""",
+                      // alsoEnglishWord: "also: glacier",
+                      britshText: """IpaUK: /ˈɡlæsiə(r)/""",
+                      americanText: """IpaUS: /ˈɡleɪʃər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,17 +959,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: سەبار (سەهۆڵ + ڕووبار)، سەهۆڵ‌ڕووبار، ئاوبەست، ڕووباری سەهۆڵین، کۆمەڵکەسەهۆڵ، سەهۆڵان
 """),
-// With short examples define "gingerly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+                            """١. (ناو) پارچە شەختەیەکی گەورە کە بە هێواشی دەجووڵێت"""),
                     SentencesRow(
                       englishText:
-                          """He opened the box gingerly and looked inside.""",
+                          """The glacier carved a deep valley in the mountain.""",
                       kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                          """ئاوبەستەکە دۆڵێکی قووڵی لە شاخەکە درووست کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2071,18 +2066,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = 'https://youtu.be/G6A_7KS-eOY?t=';
+const double _startSecondsend = 00000000000000000000000000028;
+const String _videoIdone = 'https://youtu.be/IY3mXFXd3GU?t=';
+const double _startSecondsone = 00000000000000000000000000015;
+const String _videoIdtwo = 'https://youtu.be/UQ782Nz2VHs';
+const double _startSecondstwo = 0;
+const String _videoIdthree = 'https://youtu.be/T4RjPIzRApI?t=';
+const double _startSecondsthree = 000000000000000000000000000114;
+const String _videoIdfour = 'https://youtu.be/F-XPr6kpWP4?t=';
+const double _startSecondsfour = 00000000000000000000000000011;
+const String _videoIdfive = 'https://youtu.be/P7LKm9jtm8I?t=';
+const double _startSecondsfive = 0000000000000000000000000008;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

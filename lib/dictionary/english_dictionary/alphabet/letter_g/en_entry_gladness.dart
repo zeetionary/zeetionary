@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntrygladness extends StatefulWidget {
+  const EnglishEntrygladness({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntrygladness> createState() => _EnglishEntrygladnessState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntrygladnessState extends State<EnglishEntrygladness> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
-
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
+- Noun: gladness
+1. Experiencing joy and pleasure (- gladfulness, gladsomeness)
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "gladness";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,14 +76,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""gladness""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts
+        .speak("""Their hearts were filled with joy and gladness.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -919,10 +915,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """gladness""",
+                      // alsoEnglishWord: "also: gladness",
+                      britshText: """IpaUK: /ˈɡlædnəs/""",
+                      americanText: """IpaUS: /ˈɡlædnəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,17 +959,14 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: خۆشحاڵی، بەکەیفی، شادی، خۆشی، سەرخۆشی
 """),
-// With short examples define "gingerly", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+// With short examples define "gladness", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) خۆشی"""),
                     SentencesRow(
                       englishText:
-                          """He opened the box gingerly and looked inside.""",
-                      kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                          """Their hearts were filled with joy and gladness.""",
+                      kurdishText: """دڵیان پڕ بوو لە خۆشی و شادی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2071,18 +2064,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = 'https://youtu.be/_ZQ03ki7-UU?t=';
+const double _startSecondsend = 0000000000000000000000000001146;
+const String _videoIdone = 'https://youtu.be/cuFZ3NUwiPQ?t=';
+const double _startSecondsone = 00000000000000000000000000022;
+const String _videoIdtwo = 'https://youtu.be/qBuzN1dP06M?t=';
+const double _startSecondstwo = 0000000000000000000000000003761;
+const String _videoIdthree = 'https://youtu.be/HVailav65Fc?t=';
+const double _startSecondsthree = 0000000000000000000000000001859;
+const String _videoIdfour = 'https://youtu.be/R5bbp4w5KSU?t=';
+const double _startSecondsfour = 000000000000000000000000000919;
+const String _videoIdfive = 'https://youtu.be/1xVw6PsSinI?t=';
+const double _startSecondsfive = 0000000000000000000000000003560;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

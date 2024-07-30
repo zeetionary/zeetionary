@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntrygiraffe extends StatefulWidget {
+  const EnglishEntrygiraffe({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntrygiraffe> createState() => _EnglishEntrygiraffeState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntrygiraffeState extends State<EnglishEntrygiraffe> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
+- Noun: giraffe (Derived forms: giraffes)
+1. Tallest living quadruped; having a spotted coat and small horns and very long neck and legs; of savannahs of tropical Africa (- camelopard [archaic], Giraffa camelopardalis)
 
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "giraffe";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,21 +77,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""giraffe""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts.speak("""A full-grown giraffe is 5.5 m tall.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The giraffe was killed with a spear that had been tipped with poison.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -919,10 +916,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """giraffe""",
+                      // alsoEnglishWord: "also: giraffe",
+                      britshText: """IpaUK: /dʒəˈrɑːf/""",
+                      americanText: """IpaUS: /dʒəˈræf/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,17 +960,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: 
 """),
-// With short examples define "gingerly", please follow LX instructions
+// With short examples define "giraffe", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+                            """١. (ناو) ئاژەڵێکی ئەفریقی درێژ کە مل و لاقی درێژی هەیە"""),
                     SentencesRow(
-                      englishText:
-                          """He opened the box gingerly and looked inside.""",
+                      englishText: """A full-grown giraffe is 5.5 m tall.""",
                       kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                          """زەڕافەیەکی تەواو پێگەشتوو ٥,٥ مەتر بەرزە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -981,8 +977,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The giraffe was killed with a spear that had been tipped with poison.""",
+                      kurdishText:
+                          """زەڕافەکە بە ڕمێک کوژرابوو کە سەرەکەی ژەهری پێوە کرابوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2071,18 +2069,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = 'https://youtu.be/2WMOOA2ZM0w?t=';
+const double _startSecondsend = 00000000000000000000000000094;
+const String _videoIdone = 'https://youtu.be/MlQJ3saQ66I?t=';
+const double _startSecondsone = 00000000000000000000000000012;
+const String _videoIdtwo = 'https://youtu.be/ng1hVUozyuQ?t=';
+const double _startSecondstwo = 00000000000000000000000000023;
+const String _videoIdthree = 'https://youtu.be/s4aAXQM6J8Y?t=';
+const double _startSecondsthree = 00000000000000000000000000097;
+const String _videoIdfour = 'https://youtu.be/AAqpf5XzDL4?t=';
+const double _startSecondsfour = 00000000000000000000000000041;
+const String _videoIdfive = 'https://youtu.be/MDYAMuMgdjo';
+const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

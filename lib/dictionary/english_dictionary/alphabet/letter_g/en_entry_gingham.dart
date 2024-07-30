@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntrygingham extends StatefulWidget {
+  const EnglishEntrygingham({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntrygingham> createState() => _EnglishEntryginghamState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntryginghamState extends State<EnglishEntrygingham> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
-
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
+- Noun: gingham (Derived forms: ginghams)
+1. A clothing fabric in a plaid weave
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "gingham";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,14 +76,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""gingham""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts.speak(
+        """She set the table with a red and white gingham tablecloth.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -919,10 +915,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """gingham""",
+                      // alsoEnglishWord: "also: gingham",
+                      britshText: """IpaUK: /ˈɡɪŋəm/""",
+                      americanText: """IpaUS: /ˈɡɪŋəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,17 +959,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: 
 """),
-// With short examples define "gingerly", please follow LX instructions
+// With short examples define "gingham", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+                            """١. (ناو) قوماشێکی کەتانی کە سپییە و شێوەی ڕەنگداری تێدایە"""),
                     SentencesRow(
                       englishText:
-                          """He opened the box gingerly and looked inside.""",
+                          """She set the table with a red and white gingham tablecloth.""",
                       kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                          """مێزەکەی ئامادە کرد بە میزپۆشی کەتانی سوور و سپی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2071,18 +2067,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = 'https://youtu.be/HxRUuGqqMG4?t=';
+const double _startSecondsend = 000000000000000000000000000416;
+const String _videoIdone = 'https://youtu.be/kUE2fPLOUxo?t=';
+const double _startSecondsone = 000000000000000000000000000329;
+const String _videoIdtwo = 'https://youtu.be/ZFRnQ-Ti6Is?t=';
+const double _startSecondstwo = 00000000000000000000000000053;
+const String _videoIdthree = 'https://youtu.be/Lp5uh6ztGJo?t=';
+const double _startSecondsthree = 000000000000000000000000000146;
+const String _videoIdfour = 'https://youtu.be/oYBq6tgx_5M?t=';
+const double _startSecondsfour = 000000000000000000000000000991;
+const String _videoIdfive = 'https://youtu.be/3LN3__G2yGo?t=';
+const double _startSecondsfive = 000000000000000000000000000460;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

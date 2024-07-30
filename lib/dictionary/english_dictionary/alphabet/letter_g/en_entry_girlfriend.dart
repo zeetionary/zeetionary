@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntrygirlfriend extends StatefulWidget {
+  const EnglishEntrygirlfriend({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntrygirlfriend> createState() => _EnglishEntrygirlfriendState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntrygirlfriendState extends State<EnglishEntrygirlfriend> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
-
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
+- Noun: girlfriend (Derived forms: girlfriends)
+1. A girl or young woman with whom a man is romantically involved (- girl, lady friend, patootie [US, informal], sweetheart)
+"his girlfriend kicked him out";
+ 
+2. Any female friend
+"Mary and her girlfriend organized the party"
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "girlfriend";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,28 +80,28 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""girlfriend""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts.speak("""He’s got a new girlfriend.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I ran into a former girlfriend at the party.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""I had lunch with a girlfriend.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -919,10 +918,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """girlfriend""",
+                      // alsoEnglishWord: "also: girlfriend",
+                      britshText: """IpaUK: /ˈɡɜːlfrend/""",
+                      americanText: """IpaUS: /ˈɡɜːrlfrend/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,17 +962,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: 
 """),
-// With short examples define "gingerly", please follow LX instructions
+// With short examples define "girlfriend", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+                            """١. (ناو) کچێک یان ژنێک کە کەسێک پەیوەندیی ڕۆمانسی لەگەڵی هەیە"""),
                     SentencesRow(
-                      englishText:
-                          """He opened the box gingerly and looked inside.""",
-                      kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                      englishText: """He’s got a new girlfriend.""",
+                      kurdishText: """دۆستێکی کچی تازەی هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -981,17 +978,20 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I ran into a former girlfriend at the party.""",
+                      kurdishText:
+                          """لە ئاهەنگەکە بە ڕێکەوت دۆستە کچێکی کۆنم دی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) کچێک کە هاوڕێتە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I had lunch with a girlfriend.""",
+                      kurdishText: """نانی نیوەڕۆم لەگەڵ کچە هاوڕێیەک خوارد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2071,18 +2071,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = 'https://youtu.be/HDntl7yzzVI?t=';
+const double _startSecondsend = 000000000000000000000000000208;
+const String _videoIdone = 'https://youtu.be/Cqbleas1mmo?t=';
+const double _startSecondsone = 000000000000000000000000000489;
+const String _videoIdtwo = 'https://youtu.be/RgRSW3JvSYo?t=';
+const double _startSecondstwo = 00000000000000000000000000043;
+const String _videoIdthree = 'https://youtu.be/QCdqHswGS5A?t=';
+const double _startSecondsthree = 00000000000000000000000000058;
+const String _videoIdfour = 'https://youtu.be/bXCOI_LQ_0o?t=';
+const double _startSecondsfour = 00000000000000000000000000021;
+const String _videoIdfive = 'https://youtu.be/xdgOrKkxKXc?t=';
+const double _startSecondsfive = 00000000000000000000000000069;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

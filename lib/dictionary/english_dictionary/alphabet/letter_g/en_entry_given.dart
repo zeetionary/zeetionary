@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntrygiven extends StatefulWidget {
+  const EnglishEntrygiven({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntrygiven> createState() => _EnglishEntrygivenState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntrygivenState extends State<EnglishEntrygiven> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
+- Adjective: given
+1. Acknowledged as a supposition (- granted)
+"given the engine's condition, it is a wonder that it started";
+ 
+2. (usually followed by 'to') naturally disposed toward (- apt, disposed, minded, tending)
 
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
+- Noun: given (Derived forms: givens)
+1. An assumption that is taken for granted (- presumption, precondition)
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "given";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,42 +82,45 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""given""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts.speak("""They were to meet at a given time and place.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """We can find out how much money is spent on food in any given period.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Given his age, he's remarkably active.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Given her interest in children, teaching seems the right job for her.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """You can take it as a given that there will be champagne at the wedding.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -919,10 +923,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """given""",
+                      // alsoEnglishWord: "also: given",
+                      britshText: """IpaUK: /ˈɡɪvn/""",
+                      americanText: """IpaUS: /ˈɡɪvn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,35 +967,39 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: دیار، ڕوون، بەرچاو، دیاری‌کراو، دەس‌نیشان‌کراو،	وادانراو، تایبەتی،	خووگرتوو، گیرۆدە، فێر
 """),
-// With short examples define "gingerly", please follow LX instructions
+// With short examples define "given", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+                        text: """١. (ھاوەڵناو) کە پێشوەختە ڕێکخراوە"""),
                     SentencesRow(
                       englishText:
-                          """He opened the box gingerly and looked inside.""",
+                          """They were to meet at a given time and place.""",
                       kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                          """لە کات و شوێنێکی دەس‌نیشان‌کراو یەکیان دەدی .""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) دیاریکراو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We can find out how much money is spent on food in any given period.""",
+                      kurdishText:
+                          """دەتوانین ئەوە بزانین چەندە پارە لە خواردندا خەرج دەکرێت لە هەر کاتێکی دیاریکراودا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ئامراز) کە شتێک لەبەرچاو دەگریت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Given his age (= considering how old he is), he's remarkably active.""",
+                      kurdishText: """بە لەبەرچاوگرتنی تەمەنی، تەواو چالاکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -999,17 +1007,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Given her interest in children, teaching seems the right job for her.""",
+                      kurdishText:
+                          """بە لەبەرچاوگرتنی حەزی بۆ منداڵان، مامۆستایی کارێکی گونجاوە بۆی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) شتێک کە وەک ڕاستی پەسەند کراوە؛ کە دڵنیایی هەیە ڕووبدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You can take it as a given that there will be champagne at the wedding.""",
+                      kurdishText:
+                          """دەتوانیت وەک دڵنیایی وەری بگریت کە شامپەین لە ئاهەنگی هاوسەرگیرییەکە دەبێت.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -2071,18 +2085,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = 'https://youtu.be/ofTb57aZHZs?t=';
+const double _startSecondsend = 000000000000000000000000000293;
+const String _videoIdone = 'https://youtu.be/GVsUOuSjvcg?t=';
+const double _startSecondsone = 000000000000000000000000000554;
+const String _videoIdtwo = 'https://youtu.be/JY5t6iUzajk?t=';
+const double _startSecondstwo = 000000000000000000000000000362;
+const String _videoIdthree = 'https://youtu.be/CsTmgX32Uk8?t=';
+const double _startSecondsthree = 000000000000000000000000000308;
+const String _videoIdfour = 'https://youtu.be/fZJGTevM3QI';
+const double _startSecondsfour = 0;
+const String _videoIdfive = 'https://youtu.be/XnbCSboujF4?t=';
+const double _startSecondsfive = 000000000000000000000000000149;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygingerly extends StatefulWidget {
-  const EnglishEntrygingerly({super.key});
+class EnglishEntrygirlhood extends StatefulWidget {
+  const EnglishEntrygirlhood({super.key});
 
   @override
-  State<EnglishEntrygingerly> createState() => _EnglishEntrygingerlyState();
+  State<EnglishEntrygirlhood> createState() => _EnglishEntrygirlhoodState();
 }
 
-class _EnglishEntrygingerlyState extends State<EnglishEntrygingerly> {
+class _EnglishEntrygirlhoodState extends State<EnglishEntrygirlhood> {
   @override
   void initState() {
     super.initState();
@@ -51,17 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gingerly
-1. With extreme care or delicacy
-"they proceeded with gingerly footwork over the jagged stones"; "the issue was handled only in a gingerly way"
-
-- Adverb: gingerly
-1. In a gingerly manner
-"gingerly I raised the edge of the blanket"
+- Noun: girlhood (Derived forms: girlhoods)
+1. The childhood of a girl (- maidenhood [archaic], maidhood [archaic])
 """,
   );
 
-  final String keyword = "gingerly";
+  final String keyword = "girlhood";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -81,14 +76,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gingerly""");
+    await flutterTts.speak("""girlhood""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He opened the box gingerly and looked inside.""");
+    await flutterTts.speak("""She lived in India during her girlhood.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -919,10 +914,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gingerly""",
-                      // alsoEnglishWord: "also: gingerly",
-                      britshText: """IpaUK: /ˈdʒɪndʒəli/""",
-                      americanText: """IpaUS: /ˈdʒɪndʒərli/""",
+                      word: """girlhood""",
+                      // alsoEnglishWord: "also: girlhood",
+                      britshText: """IpaUK: /ˈɡɜːlhʊd/""",
+                      americanText: """IpaUS: /ˈɡɜːrlhʊd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -963,17 +958,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بە هێواشی، هێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
+کوردی: 
 """),
-// With short examples define "gingerly", please follow LX instructions
+// With short examples define "girlhood", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. هتد"""),
+                            """١. (ناو) ئەو کاتەی کەسێک هێشتا کچە و ژن نییە"""),
                     SentencesRow(
                       englishText:
-                          """He opened the box gingerly and looked inside.""",
-                      kurdishText:
-                          """بەوریاییەوە سندووقەکەی کردەوە و سەیری ناوەوەی کرد.""",
+                          """She lived in India during her girlhood.""",
+                      kurdishText: """لە کاتی کچێتیی لە هندستان دەژیا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2071,18 +2065,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/GDwOi7HpHtQ?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/0vZvPtI5Uk8?t=';
-const double _startSecondsone = 000000000000000000000000000253;
-const String _videoIdtwo = 'https://youtu.be/teQmpOtjCjY?t=';
-const double _startSecondstwo = 000000000000000000000000000124;
-const String _videoIdthree = 'https://youtu.be/JKFvCjItGDg?t=';
-const double _startSecondsthree = 000000000000000000000000000624;
-const String _videoIdfour = 'https://youtu.be/7zpojhD4hpI?t=';
-const double _startSecondsfour = 000000000000000000000000000772;
-const String _videoIdfive = 'https://youtu.be/Eim2GpHNQDg?t=';
-const double _startSecondsfive = 000000000000000000000000000404;
+const String _videoIdend = 'https://youtu.be/W6aDNutZoB0?t=';
+const double _startSecondsend = 00000000000000000000000000027;
+const String _videoIdone = 'https://youtu.be/3CLlRUqinHc?t=';
+const double _startSecondsone = 00000000000000000000000000075;
+const String _videoIdtwo = 'https://youtu.be/QWY6osJ4eJI?t=';
+const double _startSecondstwo = 000000000000000000000000000375;
+const String _videoIdthree = 'https://youtu.be/DF-93e26uys?t=';
+const double _startSecondsthree = 000000000000000000000000000713;
+const String _videoIdfour = 'https://youtu.be/Y2qy_R0wUbY?t=';
+const double _startSecondsfour = 000000000000000000000000000316;
+const String _videoIdfive = 'https://youtu.be/Mdmhiv7O5m8?t=';
+const double _startSecondsfive = 0000000000000000000000000001552;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

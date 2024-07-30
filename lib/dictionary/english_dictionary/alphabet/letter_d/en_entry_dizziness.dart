@@ -357,7 +357,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  "١. (ناو) ھەستکردن بەوەی ھەموو شتێک دەسووڕێتەوە ناتوانیت ھاوسەنگی ڕابگریت"),
+                  "١. (ناو) ھەستی ئەوەی ھەموو شتێک دەسووڕێتەوە ناتوانیت ھاوسەنگی ڕابگریت"),
           SentencesRow(
             englishText: "He complained of headaches and dizziness.",
             kurdishText: "بە دەست دەرێشە و سەرەگێژە دەیناڵاند.", // dizziness

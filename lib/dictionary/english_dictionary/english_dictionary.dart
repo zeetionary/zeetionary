@@ -7,6 +7,7 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary_list.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary_navigation.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary_filters.dart';
+import 'package:zeetionary/dictionary/english_dictionary/english_dictionary_filters_alphabet.dart';
 
 class DictionaryScreenEnglish extends ConsumerStatefulWidget {
   const DictionaryScreenEnglish({super.key});
@@ -21,8 +22,10 @@ class _DictionaryScreenEnglishState
   _DictionaryScreenEnglishState();
 
   bool isFilterExpanded = false;
+  bool isAlphabetFilterExpanded = false;
 
   String? selectedFilter;
+  String? selectedAlphabetFilter;
 
   Widget _buildFilterTag(String filter) {
     return Container(
@@ -73,6 +76,60 @@ class _DictionaryScreenEnglishState
             .toList();
       } else {
         filteredWords = List.from(filterItems[selectedFilter!]!);
+      }
+    });
+  }
+
+  Widget _buildAlphabetFilterTag(String filter) {
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 4),
+      child: ElevatedButton(
+        onPressed: () {
+          setState(() {
+            if (selectedAlphabetFilter == filter) {
+              selectedAlphabetFilter = null;
+              filteredWords = List.from(allWordsEnglish);
+            } else {
+              selectedAlphabetFilter = filter;
+              _updateFilteredWordsAlphabet();
+            }
+          });
+        },
+        style: ElevatedButton.styleFrom(
+          backgroundColor: selectedAlphabetFilter == filter
+              ? Theme.of(context).scaffoldBackgroundColor
+              : Theme.of(context).scaffoldBackgroundColor,
+          padding: const EdgeInsets.symmetric(horizontal: 10),
+          side: BorderSide(
+            color: selectedAlphabetFilter == filter
+                ? Theme.of(context).primaryColor.withOpacity(0.4)
+                : Theme.of(context).primaryColor.withOpacity(0.2),
+            width: selectedAlphabetFilter == filter ? 2 : 0.001,
+          ),
+        ),
+        child: Text(
+          filter.toUpperCase(),
+          style: TextStyle(
+            color: selectedAlphabetFilter == filter
+                ? Theme.of(context).primaryColor.withOpacity(0.8)
+                : Theme.of(context).primaryColor.withOpacity(0.6),
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _updateFilteredWordsAlphabet() {
+    setState(() {
+      if (_searchController.text.isNotEmpty) {
+        filteredWords = filterItemsByLetter[selectedAlphabetFilter!]!
+            .where((word) => word
+                .toLowerCase()
+                .contains(_searchController.text.toLowerCase()))
+            .toList();
+      } else {
+        filteredWords =
+            List.from(filterItemsByLetter[selectedAlphabetFilter!]!);
       }
     });
   }
@@ -429,15 +486,31 @@ class _DictionaryScreenEnglishState
                         ),
                       IconButton(
                         icon: Icon(
+                          isAlphabetFilterExpanded ? Icons.abc : Icons.abc,
+                          size: textSize + 5,
+                        ),
+                        onPressed: () {
+                          setState(
+                            () {
+                              isAlphabetFilterExpanded =
+                                  !isAlphabetFilterExpanded;
+                            },
+                          );
+                        },
+                      ),
+                      IconButton(
+                        icon: Icon(
                           isFilterExpanded
                               ? Icons.arrow_drop_up
                               : Icons.arrow_drop_down,
                           size: textSize + 5,
                         ),
                         onPressed: () {
-                          setState(() {
-                            isFilterExpanded = !isFilterExpanded;
-                          });
+                          setState(
+                            () {
+                              isFilterExpanded = !isFilterExpanded;
+                            },
+                          );
                         },
                       ),
                     ],
@@ -458,6 +531,24 @@ class _DictionaryScreenEnglishState
                     itemBuilder: (BuildContext context, int index) {
                       var filter = filterItems.keys.toList()[index];
                       return _buildFilterTag(filter);
+                    },
+                  ),
+                ),
+              ],
+            ),
+          ),
+          AnimatedContainer(
+            duration: const Duration(milliseconds: 250),
+            height: isAlphabetFilterExpanded ? 40 : 0,
+            child: Row(
+              children: [
+                Expanded(
+                  child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: filterItemsByLetter.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      var filter = filterItemsByLetter.keys.toList()[index];
+                      return _buildAlphabetFilterTag(filter);
                     },
                   ),
                 ),

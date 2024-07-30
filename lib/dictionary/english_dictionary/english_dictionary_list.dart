@@ -5453,8 +5453,6 @@ final List<String> allWordsEnglish = [
   "duvet", // duvet
   "DVD", // dvd // فففف DVD
   "DCT",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-
   "dwarf", // dwarf
   "dwell", // dwell
   "dweller", // dweller

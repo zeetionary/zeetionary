@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryglamorize extends StatefulWidget {
-  const EnglishEntryglamorize({super.key});
+class EnglishEntryglasshouse extends StatefulWidget {
+  const EnglishEntryglasshouse({super.key});
 
   @override
-  State<EnglishEntryglamorize> createState() => _EnglishEntryglamorizeState();
+  State<EnglishEntryglasshouse> createState() => _EnglishEntryglasshouseState();
 }
 
-class _EnglishEntryglamorizeState extends State<EnglishEntryglamorize> {
+class _EnglishEntryglasshouseState extends State<EnglishEntryglasshouse> {
   @override
   void initState() {
     super.initState();
@@ -51,16 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glamorize (Derived forms: glamorized, glamorizing, glamorizes)
-1. Interpret romantically (- romanticize, romanticise [Brit], glamourise [Brit], glamorise [Brit])
-"Don't glamorize this uninteresting and hard work!";
- 
-2. Make glamorous and attractive (- glamourise [Brit], glamourize, glamorise [Brit])
-"This new wallpaper really glamorizes the living room!";
+- Noun: glasshouse (Derived forms: glasshouses)
+Usage: Brit (N. Amer: greenhouse)
+1. A building with glass walls and roof; for the cultivation and exhibition of plants under controlled conditions (- greenhouse)
 """,
   );
 
-  final String keyword = "glamorize";
+  final String keyword = "glasshouse";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,21 +77,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""glamorize""");
+    await flutterTts.speak("""glasshouse""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Television tends to glamorize violence.""");
+    await flutterTts
+        .speak("""She waters the flowers in the glasshouse daily.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The ad glamorized life in the army, emphasizing travel and adventure.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -918,10 +916,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """glamorize""",
-                      // alsoEnglishWord: "also: glamorize",
-                      britshText: """IpaUK: /ˈɡlæməraɪz/""",
-                      americanText: """IpaUS: /ˈɡlæməraɪz/""",
+                      word: """glasshouse""",
+                      // alsoEnglishWord: "also: glasshouse",
+                      britshText: """IpaUK: /ˈɡlɑːshaʊs/""",
+                      americanText: """IpaUS: /ˈɡlæshaʊs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -964,11 +962,14 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "glamorize", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) ئەوەی شتێک بە جوان پیشان بدەیت، بە تایبەتی کە ناشرینە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بینایەکی شووشەیی بۆ چاندنی ڕووەک تێیدا"""),
                     SentencesRow(
-                      englishText: """Television tends to glamorize violence.""",
-                      kurdishText: """تەلەفیزیۆن مەیلی ئەوەی هەیە توندوتیژی جوان پیشان بدات.""",
+                      englishText:
+                          """She waters the flowers in the glasshouse daily.""",
+                      kurdishText:
+                          """هەموو ڕۆژێک گوڵەکانی ناو جامخانەکە ئاو دەدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -976,8 +977,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The ad glamorized life in the army, emphasizing travel and adventure.""",
-                      kurdishText: """ڕیکلامەکە ژیانی سوپای جوان دەکرد بەوەی سەرنجی دەخستە سەر گەشت و کاری مەترسیدار.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2066,18 +2067,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/hzs4TLZySnQ?t=';
-const double _startSecondsend = 000000000000000000000000000140;
-const String _videoIdone = 'https://youtu.be/Kxp4BRlh9KQ?t=';
-const double _startSecondsone = 000000000000000000000000000138;
-const String _videoIdtwo = 'https://youtu.be/0Mi3XFfAiCU?t=';
-const double _startSecondstwo = 000000000000000000000000000538;
-const String _videoIdthree = 'https://youtu.be/XAkQJ7bnScE?t=';
-const double _startSecondsthree = 0000000000000000000000000001230;
-const String _videoIdfour = 'https://youtu.be/WxDd8ocpcHk?t=';
-const double _startSecondsfour = 000000000000000000000000000579;
-const String _videoIdfive = 'https://youtu.be/LQ6Gdz323Fc?t=';
-const double _startSecondsfive = 000000000000000000000000000664;
+const String _videoIdend = 'https://youtu.be/5EkglVH6GM0?t=';
+const double _startSecondsend = 000000000000000000000000000236;
+const String _videoIdone = 'https://youtu.be/90X45UYXQR0?t=';
+const double _startSecondsone = 0000000000000000000000000001642;
+const String _videoIdtwo = 'https://youtu.be/HgP6uO1z5uc?t=';
+const double _startSecondstwo = 00000000000000000000000000010435;
+const String _videoIdthree = 'https://youtu.be/yLHaLhX4FdQ?t=';
+const double _startSecondsthree = 0000000000000000000000000002487;
+const String _videoIdfour = 'https://youtu.be/hBkhUClyJvs?t=';
+const double _startSecondsfour = 000000000000000000000000000346;
+const String _videoIdfive = 'https://youtu.be/OsavLUFNyUE?t=';
+const double _startSecondsfive = 000000000000000000000000000593;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

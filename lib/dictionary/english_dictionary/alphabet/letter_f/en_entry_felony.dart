@@ -162,7 +162,7 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تاوان، گوناھـ، کەتن، خراپی، بەدکاری
 """),
-                    const DefinitionKurdish(text: """١. (ناو) تاوانێکی خەست"""),
+                    const DefinitionKurdish(text: """١. (ناو) تاوانێکی سەخت"""),
                     SentencesRow(
                       englishText: """He was charged with felony assault.""",
                       kurdishText: """بە تاوانی ھێرشکردن سزا درا.""",

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryglamorize extends StatefulWidget {
-  const EnglishEntryglamorize({super.key});
+class EnglishEntryglamorous extends StatefulWidget {
+  const EnglishEntryglamorous({super.key});
 
   @override
-  State<EnglishEntryglamorize> createState() => _EnglishEntryglamorizeState();
+  State<EnglishEntryglamorous> createState() => _EnglishEntryglamorousState();
 }
 
-class _EnglishEntryglamorizeState extends State<EnglishEntryglamorize> {
+class _EnglishEntryglamorousState extends State<EnglishEntryglamorous> {
   @override
   void initState() {
     super.initState();
@@ -51,16 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glamorize (Derived forms: glamorized, glamorizing, glamorizes)
-1. Interpret romantically (- romanticize, romanticise [Brit], glamourise [Brit], glamorise [Brit])
-"Don't glamorize this uninteresting and hard work!";
- 
-2. Make glamorous and attractive (- glamourise [Brit], glamourize, glamorise [Brit])
-"This new wallpaper really glamorizes the living room!";
+- Adjective: glamorous
+1. Having an air of allure, romance and excitement (- glamourous [Brit, non-standard], glam [informal])
+"glamorous movie stars";
 """,
   );
 
-  final String keyword = "glamorize";
+  final String keyword = "glamorous";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,21 +77,21 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""glamorize""");
+    await flutterTts.speak("""glamorous""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Television tends to glamorize violence.""");
+    await flutterTts.speak("""Working in publishing turned out to be less than glamorous.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The ad glamorized life in the army, emphasizing travel and adventure.""");
+    await flutterTts.speak("""She was looking very glamorous.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -918,10 +915,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """glamorize""",
-                      // alsoEnglishWord: "also: glamorize",
-                      britshText: """IpaUK: /ˈɡlæməraɪz/""",
-                      americanText: """IpaUS: /ˈɡlæməraɪz/""",
+                      word: """glamorous""",
+                      // alsoEnglishWord: "also: glamorous",
+                      britshText: """IpaUK: /ˈɡlæmərəs/""",
+                      americanText: """IpaUS: /ˈɡlæmərəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -962,13 +959,13 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دڵڕفێن، سەرنج‌ڕاکێش، ئەفسووناوی، تەلەسماوی، جوان
 """),
-// With short examples define "glamorize", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) ئەوەی شتێک بە جوان پیشان بدەیت، بە تایبەتی کە ناشرینە"""),
+// With short examples define "glamorous", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) بەتایبەتی جوان و بەجۆش، و جیاواز لە شت و کەسی ئاسایی"""),
                     SentencesRow(
-                      englishText: """Television tends to glamorize violence.""",
-                      kurdishText: """تەلەفیزیۆن مەیلی ئەوەی هەیە توندوتیژی جوان پیشان بدات.""",
+                      englishText: """Working in publishing turned out to be less than glamorous.""",
+                      kurdishText: """کارکردن لە دەزگای بڵاوکردنەوە وەها دەرکەوت کە کەمتر لەوەی هەیە خۆش بێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -976,8 +973,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The ad glamorized life in the army, emphasizing travel and adventure.""",
-                      kurdishText: """ڕیکلامەکە ژیانی سوپای جوان دەکرد بەوەی سەرنجی دەخستە سەر گەشت و کاری مەترسیدار.""",
+                      englishText: """She was looking very glamorous.""",
+                      kurdishText: """زۆر جوان دەردەکەوت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2066,18 +2063,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/hzs4TLZySnQ?t=';
-const double _startSecondsend = 000000000000000000000000000140;
-const String _videoIdone = 'https://youtu.be/Kxp4BRlh9KQ?t=';
-const double _startSecondsone = 000000000000000000000000000138;
-const String _videoIdtwo = 'https://youtu.be/0Mi3XFfAiCU?t=';
-const double _startSecondstwo = 000000000000000000000000000538;
-const String _videoIdthree = 'https://youtu.be/XAkQJ7bnScE?t=';
-const double _startSecondsthree = 0000000000000000000000000001230;
-const String _videoIdfour = 'https://youtu.be/WxDd8ocpcHk?t=';
-const double _startSecondsfour = 000000000000000000000000000579;
-const String _videoIdfive = 'https://youtu.be/LQ6Gdz323Fc?t=';
-const double _startSecondsfive = 000000000000000000000000000664;
+const String _videoIdend = 'https://youtu.be/8hAdOYDoo4c?t=';
+const double _startSecondsend = 000000000000000000000000000149;
+const String _videoIdone = 'https://youtu.be/ewLpXw6uN28?t=';
+const double _startSecondsone = 000000000000000000000000000641;
+const String _videoIdtwo = 'https://youtu.be/HxRUuGqqMG4?t=';
+const double _startSecondstwo = 000000000000000000000000000459;
+const String _videoIdthree = 'https://youtu.be/BD44SVoCIFo?t=';
+const double _startSecondsthree = 000000000000000000000000000196;
+const String _videoIdfour = 'https://youtu.be/HiWXeWQAsUE?t=';
+const double _startSecondsfour = 000000000000000000000000000167;
+const String _videoIdfive = 'https://youtu.be/dph7FUCjvLM?t=';
+const double _startSecondsfive = 000000000000000000000000000128;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

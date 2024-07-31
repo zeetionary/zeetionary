@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryglamorize extends StatefulWidget {
-  const EnglishEntryglamorize({super.key});
+class EnglishEntryglassy extends StatefulWidget {
+  const EnglishEntryglassy({super.key});
 
   @override
-  State<EnglishEntryglamorize> createState() => _EnglishEntryglamorizeState();
+  State<EnglishEntryglassy> createState() => _EnglishEntryglassyState();
 }
 
-class _EnglishEntryglamorizeState extends State<EnglishEntryglamorize> {
+class _EnglishEntryglassyState extends State<EnglishEntryglassy> {
   @override
   void initState() {
     super.initState();
@@ -51,16 +51,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glamorize (Derived forms: glamorized, glamorizing, glamorizes)
-1. Interpret romantically (- romanticize, romanticise [Brit], glamourise [Brit], glamorise [Brit])
-"Don't glamorize this uninteresting and hard work!";
+- Adjective: glassy (Derived forms: glassiest, glassier)
+1. Resembling glass in smoothness and shininess and slickness
+"the glassy surface of the lake"; "the pavement was...glassy with water"
  
-2. Make glamorous and attractive (- glamourise [Brit], glamourize, glamorise [Brit])
-"This new wallpaper really glamorizes the living room!";
+2. (used of eyes) lacking liveliness (- glazed)
+"a glassy stare";
+ 
+3. (of ceramics) having the surface made shiny and nonporous by fusing a vitreous solution to it (- vitreous, vitrified)
+"glassy porcelain";
 """,
   );
 
-  final String keyword = "glamorize";
+  final String keyword = "glassy";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,21 +83,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""glamorize""");
+    await flutterTts.speak("""glassy""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Television tends to glamorize violence.""");
+    await flutterTts
+        .speak("""The sculpture was made from a glassy material.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The ad glamorized life in the army, emphasizing travel and adventure.""");
+    await flutterTts.speak("""Her eyes were glassy and her skin pale.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -918,10 +922,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """glamorize""",
-                      // alsoEnglishWord: "also: glamorize",
-                      britshText: """IpaUK: /ˈɡlæməraɪz/""",
-                      americanText: """IpaUS: /ˈɡlæməraɪz/""",
+                      word: """glassy""",
+                      // alsoEnglishWord: "also: glassy",
+                      britshText: """IpaUK: /ˈɡlɑːsi/""",
+                      americanText: """IpaUS: /ˈɡlæsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -962,22 +966,27 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: وەک شووشە، شووشەئاسا، شووشەیی، جام‌ئاسا،	(ئاو) زوڵاڵ، ڕوون،	(چاو) مات، بێ‌هەست
 """),
-// With short examples define "glamorize", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) ئەوەی شتێک بە جوان پیشان بدەیت، بە تایبەتی کە ناشرینە"""),
+// With short examples define "glassy", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) وەک شووشە؛ ساف و لووس"""),
                     SentencesRow(
-                      englishText: """Television tends to glamorize violence.""",
-                      kurdishText: """تەلەفیزیۆن مەیلی ئەوەی هەیە توندوتیژی جوان پیشان بدات.""",
+                      englishText:
+                          """The sculpture was made from a glassy material.""",
+                      kurdishText: """پەیکەرەکە لە مادەی شووشەیی درووستکرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە هیچ هەستێک پیشان نادات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The ad glamorized life in the army, emphasizing travel and adventure.""",
-                      kurdishText: """ڕیکلامەکە ژیانی سوپای جوان دەکرد بەوەی سەرنجی دەخستە سەر گەشت و کاری مەترسیدار.""",
+                      englishText:
+                          """Her eyes were glassy and her skin pale.""",
+                      kurdishText:
+                          """چاوەکانی بێ‌هەست و پێستی ڕەنگ‌پەڕیو بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2066,18 +2075,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/hzs4TLZySnQ?t=';
-const double _startSecondsend = 000000000000000000000000000140;
-const String _videoIdone = 'https://youtu.be/Kxp4BRlh9KQ?t=';
-const double _startSecondsone = 000000000000000000000000000138;
-const String _videoIdtwo = 'https://youtu.be/0Mi3XFfAiCU?t=';
-const double _startSecondstwo = 000000000000000000000000000538;
-const String _videoIdthree = 'https://youtu.be/XAkQJ7bnScE?t=';
-const double _startSecondsthree = 0000000000000000000000000001230;
-const String _videoIdfour = 'https://youtu.be/WxDd8ocpcHk?t=';
-const double _startSecondsfour = 000000000000000000000000000579;
-const String _videoIdfive = 'https://youtu.be/LQ6Gdz323Fc?t=';
-const double _startSecondsfive = 000000000000000000000000000664;
+const String _videoIdend = 'https://youtu.be/Xzv84ZdtlE0?t=';
+const double _startSecondsend = 0000000000000000000000000001446;
+const String _videoIdone = 'https://youtu.be/dtp6b76pMak?t=';
+const double _startSecondsone = 000000000000000000000000000508;
+const String _videoIdtwo = 'https://youtu.be/KLGSLCaksdY?t=';
+const double _startSecondstwo = 000000000000000000000000000169;
+const String _videoIdthree = 'https://youtu.be/ejFccNmL15g?t=';
+const double _startSecondsthree = 0000000000000000000000000001429;
+const String _videoIdfour = 'https://youtu.be/M73XCOzZAU0?t=';
+const double _startSecondsfour = 000000000000000000000000000344;
+const String _videoIdfive = 'https://youtu.be/rxm4KRVTB-4?t=';
+const double _startSecondsfive = 000000000000000000000000000817;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

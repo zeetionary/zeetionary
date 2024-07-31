@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryglamorize extends StatefulWidget {
-  const EnglishEntryglamorize({super.key});
+class EnglishEntryglare extends StatefulWidget {
+  const EnglishEntryglare({super.key});
 
   @override
-  State<EnglishEntryglamorize> createState() => _EnglishEntryglamorizeState();
+  State<EnglishEntryglare> createState() => _EnglishEntryglareState();
 }
 
-class _EnglishEntryglamorizeState extends State<EnglishEntryglamorize> {
+class _EnglishEntryglareState extends State<EnglishEntryglare> {
   @override
   void initState() {
     super.initState();
@@ -51,16 +51,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glamorize (Derived forms: glamorized, glamorizing, glamorizes)
-1. Interpret romantically (- romanticize, romanticise [Brit], glamourise [Brit], glamorise [Brit])
-"Don't glamorize this uninteresting and hard work!";
+- Verb: glare (Derived forms: glaring, glares, glared)
+1. Look at with a fixed gaze (- glower)
+"The girl glared at the man who tried to make a pass at her";
  
-2. Make glamorous and attractive (- glamourise [Brit], glamourize, glamorise [Brit])
-"This new wallpaper really glamorizes the living room!";
+2. Be sharply reflected
+"The moon glared back at itself from the lake's surface"
+ 
+3. Shine intensely
+"The sun glared down on us"
+
+- Noun: glare (Derived forms: glares)
+1. A light within the field of vision that is brighter than the brightness to which the eyes are adapted (- blaze, brilliance)
+"a glare of sunlight";
+ 
+2. An angry stare (- glower)
+ 
+3. A focus of public attention (- limelight, spotlight, public eye)
+"when Congress investigates it brings the full glare of publicity to the agency";
 """,
   );
 
-  final String keyword = "glamorize";
+  final String keyword = "glare";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,56 +92,61 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""glamorize""");
+    await flutterTts.speak("""glare""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Television tends to glamorize violence.""");
+    await flutterTts
+        .speak("""He didn't shout, he just glared at me silently.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The ad glamorized life in the army, emphasizing travel and adventure.""");
+    await flutterTts
+        .speak("""I looked at her and she glared furiously back.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The sun was glaring right in my eyes.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """For a moment she was blinded by the harsh glare of the sun.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""These sunglasses are designed to reduce glare.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""He sent her a glare that was full of suspicion.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""She shot a warning glare at her companion.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -918,10 +935,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """glamorize""",
-                      // alsoEnglishWord: "also: glamorize",
-                      britshText: """IpaUK: /ˈɡlæməraɪz/""",
-                      americanText: """IpaUS: /ˈɡlæməraɪz/""",
+                      word: """glare""",
+                      // alsoEnglishWord: "also: glare",
+                      britshText: """IpaUK: /ɡleə(r)/""",
+                      americanText: """IpaUS: /ɡler/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -962,13 +979,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شەوق یان تیشکی ناخۆش و چاوهەڵنەهاتوو، شەوقی تیژ یان زەق، درەوشانەوە، گەشانەوە، بریقانەوە، ورشە، بریقە، ڕۆشنایی یان تیشکی تیژ و زۆر
 """),
-// With short examples define "glamorize", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) ئەوەی شتێک بە جوان پیشان بدەیت، بە تایبەتی کە ناشرینە"""),
+// With short examples define "glare", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (کردار) سەیرکردنی کەسێک/شتێک بە تووڕەیی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: glower"),
                     SentencesRow(
-                      englishText: """Television tends to glamorize violence.""",
-                      kurdishText: """تەلەفیزیۆن مەیلی ئەوەی هەیە توندوتیژی جوان پیشان بدات.""",
+                      englishText:
+                          """He didn't shout, he just glared at me silently.""",
+                      kurdishText:
+                          """هاواری نەکرد، تەنها بە بێ‌دەنگی چاویی لێم زەق کردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -976,26 +997,32 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The ad glamorized life in the army, emphasizing travel and adventure.""",
-                      kurdishText: """ڕیکلامەکە ژیانی سوپای جوان دەکرد بەوەی سەرنجی دەخستە سەر گەشت و کاری مەترسیدار.""",
+                      englishText:
+                          """I looked at her and she glared furiously back.""",
+                      kurdishText:
+                          """سەیرم کرد و ئەویش بە تووڕەییەوە چاوی تێبڕیم..""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) درەوشانەوە بە توندی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The sun was glaring right in my eyes.""",
+                      kurdishText: """خۆرەکە ڕێک دەدرەوشایەوە بە ناوچاومدا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) ڕووناکییەکی زۆر توند"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """For a moment she was blinded by the harsh glare of the sun.""",
+                      kurdishText:
+                          """بۆ ساتێک بینایی نەما بە درەوشانەوەی توندی خۆرەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1003,17 +1030,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """These sunglasses are designed to reduce glare.""",
+                      kurdishText:
+                          """چاویلکەکان دیزاین کراون بۆ کەمکردنەوەی تیشکی تیژ.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) سەیرکردنی توند و زۆر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He sent her a glare that was full of suspicion.""",
+                      kurdishText: """نیگایەکی لێی کرد کە پڕ لە گومان بوو.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1021,8 +1052,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She shot a warning glare at her companion.""",
+                      kurdishText:
+                          """نیگایەکی ئاگادارکردنەوەی لە هاوکارەکەی کرد.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -2066,18 +2099,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/hzs4TLZySnQ?t=';
-const double _startSecondsend = 000000000000000000000000000140;
-const String _videoIdone = 'https://youtu.be/Kxp4BRlh9KQ?t=';
-const double _startSecondsone = 000000000000000000000000000138;
-const String _videoIdtwo = 'https://youtu.be/0Mi3XFfAiCU?t=';
-const double _startSecondstwo = 000000000000000000000000000538;
-const String _videoIdthree = 'https://youtu.be/XAkQJ7bnScE?t=';
-const double _startSecondsthree = 0000000000000000000000000001230;
-const String _videoIdfour = 'https://youtu.be/WxDd8ocpcHk?t=';
-const double _startSecondsfour = 000000000000000000000000000579;
-const String _videoIdfive = 'https://youtu.be/LQ6Gdz323Fc?t=';
-const double _startSecondsfive = 000000000000000000000000000664;
+const String _videoIdend = 'https://youtu.be/aCPNlZ7bvRc?t=';
+const double _startSecondsend = 000000000000000000000000000100;
+const String _videoIdone = 'https://youtu.be/YCnFYvL17v4?t=';
+const double _startSecondsone = 000000000000000000000000000115;
+const String _videoIdtwo = 'https://youtu.be/CtWqv0Z3ErM?t=';
+const double _startSecondstwo = 000000000000000000000000000681;
+const String _videoIdthree = 'https://youtu.be/mv9afG2Dm9I?t=';
+const double _startSecondsthree = 000000000000000000000000000852;
+const String _videoIdfour = 'https://youtu.be/-Kc1v9Dly3E?t=';
+const double _startSecondsfour = 0000000000000000000000000006;
+const String _videoIdfive = 'https://youtu.be/MEiq0oCUb_8?t=';
+const double _startSecondsfive = 000000000000000000000000000267;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

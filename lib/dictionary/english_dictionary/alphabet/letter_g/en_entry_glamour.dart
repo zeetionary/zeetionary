@@ -970,6 +970,7 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خاسیەتی جوان و باش کە وا دەکات شتێک، کەسێک، یان شوێنیک تایبەت دەربکەوێت، زۆرجار بەهۆی سامان یان پێگە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: glitter"),
                     SentencesRow(
                       englishText:
                           """Now that she's a pilot, foreign travel has lost its glamour for her.""",

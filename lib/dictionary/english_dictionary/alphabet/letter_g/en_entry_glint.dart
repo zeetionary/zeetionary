@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryglimpse extends StatefulWidget {
-  const EnglishEntryglimpse({super.key});
+class EnglishEntryglint extends StatefulWidget {
+  const EnglishEntryglint({super.key});
 
   @override
-  State<EnglishEntryglimpse> createState() => _EnglishEntryglimpseState();
+  State<EnglishEntryglint> createState() => _EnglishEntryglintState();
 }
 
-class _EnglishEntryglimpseState extends State<EnglishEntryglimpse> {
+class _EnglishEntryglintState extends State<EnglishEntryglint> {
   @override
   void initState() {
     super.initState();
@@ -51,22 +51,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glimpse (Derived forms: glimpses)
-1. A quick look (- glance, coup d'oeil)
+- Verb: glint (Derived forms: glinted, glinting, glints)
+1. Be shiny, as if wet (- glitter, glisten, gleam, shine)
+"His eyes were glinting";
  
-2. A brief or incomplete view
-"from the window he could catch a glimpse of the lake"
- 
-3. A vague indication
-"he caught only a glimpse of the professor's meaning"
+2. Throw a glance at; take a brief look at (- glance, peek)
+"She only glinted at the paper";
 
-- Verb: glimpse (Derived forms: glimpses, glimpsed, glimpsing)
-1. Catch a glimpse of or see briefly
-"We glimpsed the Queen as she got into her limousine"
+- Noun: glint (Derived forms: glints)
+1. A momentary flash of light (- flicker, spark)
+ 
+2. A spatially localized brightness
 """,
   );
 
-  final String keyword = "glimpse";
+  final String keyword = "glint";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -86,63 +85,63 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""glimpse""");
+    await flutterTts.speak("""glint""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He caught a glimpse of her in the crowd.""");
+    await flutterTts.speak("""The sea glinted in the moonlight.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I just got a glimpse at the baby, but she was very cute.""");
+    await flutterTts.speak("""The sun glinted on the windows.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Fans crowded the street outside waiting for a glimpse of their hero.""");
+    await flutterTts.speak("""Her eyes glinted angrily.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The programme gives us a rare glimpse of a great artist at work.""");
+    await flutterTts.speak("""Hostility glinted in his eyes.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Take a glimpse into the future of rail travel.""");
+    await flutterTts.speak("""He saw the glint of a knife and froze.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He'd glimpsed her through the window as he passed.""");
+    await flutterTts.speak("""He had a dangerous glint in his eyes.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Anne is glimpsed briefly at the beginning of the film.""");
+    await flutterTts.speak("""speaksentence700""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Suddenly she glimpsed the truth about her sister.""");
+    await flutterTts.speak("""speaksentence800""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -924,10 +923,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """glimpse""",
-                      // alsoEnglishWord: "also: glimpse",
-                      britshText: """IpaUK: /ɡlɪmps/""",
-                      americanText: """IpaUS: /ɡlɪmps/""",
+                      word: """glint""",
+                      // alsoEnglishWord: "also: glint",
+                      britshText: """IpaUK: /ɡlɪnt/""",
+                      americanText: """IpaUS: /ɡlɪnt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -968,13 +967,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: کورتە چاولێ‌کردن، چاوپیاخشاندن، چاوپیاگێڕان، سەرنجی کورت،	بۆچوون
+کوردی: درەوشانەوە، بریقانەوە، تروسکە، بروسکە،	کورتە چاولێ‌کردن، چاوپیاخشاندن، چاوپیاگێڕان
 """),
-// With short examples define "glimpse", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) بینینی کەسێک/شتێک بۆ ماوەیەکی زۆر کەم بە شێوەیەک کە بە تەواوی نایبینی"""),
+// With short examples define "glint", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) بەرهەمهێنانی فلاشی ڕۆشنایی درەوشاوە و بچووک"""),
                     SentencesRow(
-                      englishText: """He caught a glimpse of her in the crowd.""",
-                      kurdishText: """چاوی پێی کەوت لەناو حەشامەتەکەدا.""",
+                      englishText: """The sea glinted in the moonlight.""",
+                      kurdishText:
+                          """دەریاکە لەبەر تریفەی مانگدا دەدرەوشایەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -982,42 +984,49 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I just got a glimpse at the baby, but she was very cute.""",
-                      kurdishText: """تەنها بە کەمی کۆرپەکەم بینی، بەڵام زۆر ژیکەڵە بوو.""",
+                      englishText: """The sun glinted on the windows.""",
+                      kurdishText: """خۆرەکە لەسەر پەنجەرەکان دەردرەوشایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) پیشاندانی هەستێک لە چاواندا"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """Her eyes glinted angrily.""",
+                      kurdishText: """چاوەکانی بە تووڕەیی گڕیان لێ هەڵدەستا.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Fans crowded the street outside waiting for a glimpse of their hero.""",
-                      kurdishText: """هەواداران لە شەقامەکانی دەرەوە کۆبووبوونەوە بۆ سووکە بینینێکی پاڵەوانەکەیان.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) ئەزموونکردنی شتێک بە کورتی کە یارمەتیت دەدات لێی تێ بگەیت"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The programme gives us a rare glimpse of a great artist at work.""",
-                      kurdishText: """بەرنامەکە دەرفەتێکی دەگمەنمان پێدەدات بۆ بینینی هونەرمەندێکی مەزن لە کاتی کارکردندا..""",
+                      englishText: """Hostility glinted in his eyes.""",
+                      kurdishText: """تووڕەیی بەرچاوی گرتبوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) فلاشێکی ڕۆشنایی درەوشاوە و بچووک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Take a glimpse into the future of rail travel.""",
-                      kurdishText: """سەیرێکی داهاتووی گەشتکردن بە شەمەندەفەر بکە.""",
+                      englishText: """He saw the glint of a knife and froze.""",
+                      kurdishText:
+                          """درەوشانەوەی چەقۆیەکی بینی و لە جێگای خۆی وەستا.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (کردار) بینینی کەسێک/شتێک بۆ ماوەیەکی کەم و بە ناڕوونی"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) دەربڕینی چاوی کەسێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: glitter"),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He'd glimpsed her through the window as he passed.""",
-                      kurdishText: """بە پەنجەرەکدا بەرچاوی کەوت کە تێپەڕی.""",
+                      englishText: """He had a dangerous glint in his eyes.""",
+                      kurdishText: """نیگایەکی مەترسیدار لە چاوانیدا بوو.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1025,17 +1034,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Anne is glimpsed briefly at the beginning of the film.""",
-                      kurdishText: """ئان بۆ کەمێک دەبیندرێت لە سەرەتای فیلمەکەدا.""",
+                      englishText: """speaksentence700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (کردار) دەستکردن بە تێگەشتن لە شتێک"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Suddenly she glimpsed the truth about her sister.""",
-                      kurdishText: """لەناکاو ڕاستییەکە لەسەر خوشکەکەی تێگەشت.""",
+                      englishText: """speaksentence800""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -2070,18 +2079,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/VS6tnF31zr4?t=';
-const double _startSecondsend = 000000000000000000000000000987;
-const String _videoIdone = 'https://youtu.be/9VsDP584zyQ?t=';
-const double _startSecondsone = 000000000000000000000000000402;
-const String _videoIdtwo = 'https://youtu.be/Fr-qagv7ig0?t=';
-const double _startSecondstwo = 0000000000000000000000000001094;
-const String _videoIdthree = 'https://youtu.be/HxRUuGqqMG4?t=';
-const double _startSecondsthree = 0000000000000000000000000001524;
-const String _videoIdfour = 'https://youtu.be/OOg-4mtA3Zo?t=';
-const double _startSecondsfour = 0000000000000000000000000001445;
-const String _videoIdfive = 'https://youtu.be/qg2nGY1aqlg?t=';
-const double _startSecondsfive = 000000000000000000000000000879;
+const String _videoIdend = 'https://youtu.be/_2LApgOJe5k?t=';
+const double _startSecondsend = 000000000000000000000000000517;
+const String _videoIdone = 'https://youtu.be/4kEil-H7490?t=';
+const double _startSecondsone = 000000000000000000000000000562;
+const String _videoIdtwo = 'https://youtu.be/-ZMzfihqOkQ?t=';
+const double _startSecondstwo = 0000000000000000000000000001153;
+const String _videoIdthree = 'https://youtu.be/DRLkDafQbP8?t=';
+const double _startSecondsthree = 00000000000000000000000000067;
+const String _videoIdfour = 'https://youtu.be/OnjI-FBdRTQ?t=';
+const double _startSecondsfour = 00000000000000000000000000012927;
+const String _videoIdfive = 'https://youtu.be/wLmiWPHPqhU?t=';
+const double _startSecondsfive = 000000000000000000000000000182;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

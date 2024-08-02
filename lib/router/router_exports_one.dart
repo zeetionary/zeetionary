@@ -4557,8 +4557,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_glorification.dart' show EnglishEntryglorification
 // en_entry_glorious.dart' show EnglishEntryglorious
 // en_entry_gloriously.dart' show EnglishEntrygloriously
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_glory.dart' show EnglishEntryglory
+// en_entry_gloss.dart' show EnglishEntrygloss
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

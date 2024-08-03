@@ -4576,9 +4576,9 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_glycerine.dart' show EnglishEntryglycerine
 // en_entry_gnarled.dart' show EnglishEntrygnarled
 // en_entry_gnat.dart' show EnglishEntrygnat
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_gnaw.dart' show EnglishEntrygnaw
+// en_entry_gnome.dart' show EnglishEntrygnome
+// en_entry_gnp.dart' show EnglishEntrygnp //// ffff GNP
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

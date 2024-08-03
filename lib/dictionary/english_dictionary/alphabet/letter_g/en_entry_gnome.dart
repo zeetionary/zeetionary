@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygnat extends StatefulWidget {
-  const EnglishEntrygnat({super.key});
+class EnglishEntrygnome extends StatefulWidget {
+  const EnglishEntrygnome({super.key});
 
   @override
-  State<EnglishEntrygnat> createState() => _EnglishEntrygnatState();
+  State<EnglishEntrygnome> createState() => _EnglishEntrygnomeState();
 }
 
-class _EnglishEntrygnatState extends State<EnglishEntrygnat> {
+class _EnglishEntrygnomeState extends State<EnglishEntrygnome> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gnat (Derived forms: gnats)
-1. Any of various small biting flies: midges; biting midges; black flies; sand flies
+- Noun: gnome (Derived forms: gnomes)
+1. A legendary creature resembling a tiny old man; lives in the depths of the earth and guards buried treasure (- dwarf)
  
-2. (British usage) mosquito
+2. A short pithy saying expressing a general truth
 """,
   );
 
-  final String keyword = "gnat";
+  final String keyword = "gnome";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,14 +78,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gnat""");
+    await flutterTts.speak("""gnome""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A gnat buzzed around my ear.""");
+    await flutterTts.speak("""The old tale was about a gnome who lived in a tree stump.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -916,10 +916,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gnat""",
-                      // alsoEnglishWord: "also: gnat",
-                      britshText: """IpaUK: /næt/""",
-                      americanText: """IpaUS: /næt/""",
+                      word: """gnome""",
+                      // alsoEnglishWord: "also: gnome",
+                      britshText: """IpaUK: /nəʊm/""",
+                      americanText: """IpaUS: /nəʊm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -960,12 +960,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: جنۆکەی گرگنە، گزگل، جنۆکەی سەر خەزێنە، پەیکەری جنۆکە یان گرگنە
 """),
-                    const DefinitionKurdish(text: """١. (ناو) مێشێکی بچووک کە دوو باڵی هەیە و گاز دەگرێت، و زۆرجار بە گرووپی گەورە دەفڕن"""),
+                    const DefinitionKurdish(text: """١. (ناو) لە چیرۆکدا پیاوێکی بچووکە کە کڵاوێکی لەسەرە، لەژێر زەوی دەژی و زێڕ و گەنجینە دەپارێزێت"""),
                     SentencesRow(
-                      englishText: """A gnat buzzed around my ear.""",
-                      kurdishText: """مێشوولەیەک بە دەوری گوێیدا گیزەی دەهات.""",
+                      englishText: """The old tale was about a gnome who lived in a tree stump.""",
+                      kurdishText: """چیرۆکە کۆنەکە لەسەر کورتەباڵایەک بوو کە لە بنەدارێک دەژیا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2063,18 +2063,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/VUEXPAHqmIs?t=';
-const double _startSecondsend = 00000000000000000000000000020;
-const String _videoIdone = 'https://youtu.be/tYrdMjVXyNg?t=';
-const double _startSecondsone = 000000000000000000000000000745;
-const String _videoIdtwo = 'https://youtu.be/6JLbVQNS74w?t=';
-const double _startSecondstwo = 000000000000000000000000000605;
-const String _videoIdthree = 'https://youtu.be/0Sw8tS9XirA?t=';
-const double _startSecondsthree = 000000000000000000000000000163;
-const String _videoIdfour = 'https://youtu.be/WSNsibPwC2c?t=';
-const double _startSecondsfour = 000000000000000000000000000124;
-const String _videoIdfive = 'https://youtu.be/hyr8ZCHrGQI?t=';
-const double _startSecondsfive = 000000000000000000000000000123;
+const String _videoIdend = 'https://youtu.be/pTysrwci0pU?t=';
+const double _startSecondsend = 0000000000000000000000000001358;
+const String _videoIdone = 'https://youtu.be/y9nBhv0lq1s?t=';
+const double _startSecondsone = 000000000000000000000000000969;
+const String _videoIdtwo = 'https://youtu.be/_mqP7kd1H_Y?t=';
+const double _startSecondstwo = 000000000000000000000000000436;
+const String _videoIdthree = 'https://youtu.be/S9cZlONstG4?t=';
+const double _startSecondsthree = 00000000000000000000000000060;
+const String _videoIdfour = 'https://youtu.be/xpRQY2AX4CM?t=';
+const double _startSecondsfour = 000000000000000000000000000163;
+const String _videoIdfive = 'https://youtu.be/dYFvt_DYSys?t=';
+const double _startSecondsfive = 00000000000000000000000000092;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

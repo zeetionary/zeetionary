@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygnat extends StatefulWidget {
-  const EnglishEntrygnat({super.key});
+class EnglishEntrygnp extends StatefulWidget {
+  const EnglishEntrygnp({super.key});
 
   @override
-  State<EnglishEntrygnat> createState() => _EnglishEntrygnatState();
+  State<EnglishEntrygnp> createState() => _EnglishEntrygnpState();
 }
 
-class _EnglishEntrygnatState extends State<EnglishEntrygnat> {
+class _EnglishEntrygnpState extends State<EnglishEntrygnp> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gnat (Derived forms: gnats)
-1. Any of various small biting flies: midges; biting midges; black flies; sand flies
- 
-2. (British usage) mosquito
+- Noun: GNP (Derived forms: GNPs)
+1. Former measure of the United States economy; the total market value of goods and services produced by all citizens and capital during a given period (usually 1 yr) (- gross national product)
 """,
   );
 
-  final String keyword = "gnat";
+  final String keyword = "GNP";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,14 +76,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gnat""");
+    await flutterTts.speak("""GNP""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A gnat buzzed around my ear.""");
+    await flutterTts
+        .speak("""The country is forecasted to witness an increase in GNP.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -916,10 +915,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gnat""",
-                      // alsoEnglishWord: "also: gnat",
-                      britshText: """IpaUK: /næt/""",
-                      americanText: """IpaUS: /næt/""",
+                      word: """GNP""",
+                      // alsoEnglishWord: "also: GNP",
+                      britshText: """IpaUK: /ˌdʒiː en ˈpiː/""",
+                      americanText: """IpaUS: /ˌdʒiː en ˈpiː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -962,10 +961,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ناو) مێشێکی بچووک کە دوو باڵی هەیە و گاز دەگرێت، و زۆرجار بە گرووپی گەورە دەفڕن"""),
+// With short examples define "GNP", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) بەهای تەواوی ئەو کەلووپەل و خزمەتگوزارییانەی لەلایەن هاوڵاتیانی وڵاتێکەوە بەرهەمهێندراوە، چی لە ناوخۆ یان یان دەرەوەی وڵات"""),
                     SentencesRow(
-                      englishText: """A gnat buzzed around my ear.""",
-                      kurdishText: """مێشوولەیەک بە دەوری گوێیدا گیزەی دەهات.""",
+                      englishText:
+                          """The country is forecasted to witness an increase in GNP.""",
+                      kurdishText:
+                          """وڵاتەکە پێشبینی دەکرێت زیادبوونی جی‌ئێن‌پی بەخۆیەوە ببینێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2063,18 +2067,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/VUEXPAHqmIs?t=';
-const double _startSecondsend = 00000000000000000000000000020;
-const String _videoIdone = 'https://youtu.be/tYrdMjVXyNg?t=';
-const double _startSecondsone = 000000000000000000000000000745;
-const String _videoIdtwo = 'https://youtu.be/6JLbVQNS74w?t=';
-const double _startSecondstwo = 000000000000000000000000000605;
-const String _videoIdthree = 'https://youtu.be/0Sw8tS9XirA?t=';
-const double _startSecondsthree = 000000000000000000000000000163;
-const String _videoIdfour = 'https://youtu.be/WSNsibPwC2c?t=';
-const double _startSecondsfour = 000000000000000000000000000124;
-const String _videoIdfive = 'https://youtu.be/hyr8ZCHrGQI?t=';
-const double _startSecondsfive = 000000000000000000000000000123;
+const String _videoIdend = 'https://youtu.be/IPffjpXKcFk?t=';
+const double _startSecondsend = 000000000000000000000000000191;
+const String _videoIdone = 'https://youtu.be/P7_aKYU95jk?t=';
+const double _startSecondsone = 00000000000000000000000000033;
+const String _videoIdtwo = 'https://youtu.be/dHaILWPP33I?t=';
+const double _startSecondstwo = 000000000000000000000000000385;
+const String _videoIdthree = 'https://youtu.be/194CDlsFpQA?t=';
+const double _startSecondsthree = 00000000000000000000000000014;
+const String _videoIdfour = 'https://youtu.be/O-t8-Vq0HO0?t=';
+const double _startSecondsfour = 000000000000000000000000000507;
+const String _videoIdfive = 'https://youtu.be/fn39vHu0tm8?t=';
+const double _startSecondsfive = 000000000000000000000000000558;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

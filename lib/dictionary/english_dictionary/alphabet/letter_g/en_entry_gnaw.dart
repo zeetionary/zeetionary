@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygnat extends StatefulWidget {
-  const EnglishEntrygnat({super.key});
+class EnglishEntrygnaw extends StatefulWidget {
+  const EnglishEntrygnaw({super.key});
 
   @override
-  State<EnglishEntrygnat> createState() => _EnglishEntrygnatState();
+  State<EnglishEntrygnaw> createState() => _EnglishEntrygnawState();
 }
 
-class _EnglishEntrygnatState extends State<EnglishEntrygnat> {
+class _EnglishEntrygnawState extends State<EnglishEntrygnaw> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gnat (Derived forms: gnats)
-1. Any of various small biting flies: midges; biting midges; black flies; sand flies
+- Verb: gnaw (Derived forms: gnawed, gnawing, gnawn, gnaws)
+1. Bite or chew on with the teeth
+"gnaw an old cracker"
  
-2. (British usage) mosquito
+2. Become ground down or deteriorate (- erode, gnaw at, eat at, wear away)
+ 
+3. Cause lingering anxiety, torment, etc.
 """,
   );
 
-  final String keyword = "gnat";
+  final String keyword = "gnaw";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +81,21 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gnat""");
+    await flutterTts.speak("""gnaw""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A gnat buzzed around my ear.""");
+    await flutterTts.speak("""The dog was gnawing a bone.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She gnawed at her fingernails.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -916,10 +919,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gnat""",
-                      // alsoEnglishWord: "also: gnat",
-                      britshText: """IpaUK: /næt/""",
-                      americanText: """IpaUS: /næt/""",
+                      word: """gnaw""",
+                      // alsoEnglishWord: "also: gnaw",
+                      britshText: """IpaUK: /nɔː/""",
+                      americanText: """IpaUS: /nɔː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -960,12 +963,13 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: جووتن، کرۆژتن، گەستن، قەپاڵ لێدان
 """),
-                    const DefinitionKurdish(text: """١. (ناو) مێشێکی بچووک کە دوو باڵی هەیە و گاز دەگرێت، و زۆرجار بە گرووپی گەورە دەفڕن"""),
+// With short examples define "gnaw", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (کردار) بەردەوام گاز گرتن لە شتێک"""),
                     SentencesRow(
-                      englishText: """A gnat buzzed around my ear.""",
-                      kurdishText: """مێشوولەیەک بە دەوری گوێیدا گیزەی دەهات.""",
+                      englishText: """The dog was gnawing a bone.""",
+                      kurdishText: """سەگەکە ئێسکێکی دەجوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -973,8 +977,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She gnawed at her fingernails.""",
+                      kurdishText: """گازی لە نینۆکی دەگرت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2063,18 +2067,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/VUEXPAHqmIs?t=';
-const double _startSecondsend = 00000000000000000000000000020;
-const String _videoIdone = 'https://youtu.be/tYrdMjVXyNg?t=';
-const double _startSecondsone = 000000000000000000000000000745;
-const String _videoIdtwo = 'https://youtu.be/6JLbVQNS74w?t=';
-const double _startSecondstwo = 000000000000000000000000000605;
-const String _videoIdthree = 'https://youtu.be/0Sw8tS9XirA?t=';
-const double _startSecondsthree = 000000000000000000000000000163;
-const String _videoIdfour = 'https://youtu.be/WSNsibPwC2c?t=';
-const double _startSecondsfour = 000000000000000000000000000124;
-const String _videoIdfive = 'https://youtu.be/hyr8ZCHrGQI?t=';
-const double _startSecondsfive = 000000000000000000000000000123;
+const String _videoIdend = 'https://youtu.be/BP-ccTYqOoc?t=';
+const double _startSecondsend = 000000000000000000000000000158;
+const String _videoIdone = 'https://youtu.be/Zh4c5IrllBg?t=';
+const double _startSecondsone = 000000000000000000000000000170;
+const String _videoIdtwo = 'https://youtu.be/wkkx4PCcZjU?t=';
+const double _startSecondstwo = 000000000000000000000000000745;
+const String _videoIdthree = 'https://youtu.be/GoAA0sYkLI0?t=';
+const double _startSecondsthree = 000000000000000000000000000515;
+const String _videoIdfour = 'https://youtu.be/-7UzyXO-mzk?t=';
+const double _startSecondsfour = 000000000000000000000000000160;
+const String _videoIdfive = 'https://youtu.be/qWNHsaszXpc?t=';
+const double _startSecondsfive = 0000000000000000000000000001112;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

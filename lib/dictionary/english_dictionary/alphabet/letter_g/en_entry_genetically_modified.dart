@@ -106,7 +106,7 @@ ${englishMeaningConst.text}
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """genetically modified""",
-                      // alsoEnglishWord: "also: genetically modified",
+                      alsoEnglishWord: "also: GM",
                       britshText: """IpaUK: /dʒəˌnetɪkli ˈmɒdɪfaɪd/""",
                       americanText: """IpaUS: /dʒəˌnetɪkli ˈmɑːdɪfaɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),

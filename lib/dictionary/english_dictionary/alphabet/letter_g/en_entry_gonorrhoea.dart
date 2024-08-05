@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoldrush extends StatefulWidget {
-  const EnglishEntrygoldrush({super.key});
+class EnglishEntrygonorrhoea extends StatefulWidget {
+  const EnglishEntrygonorrhoea({super.key});
 
   @override
-  State<EnglishEntrygoldrush> createState() => _EnglishEntrygoldrushState();
+  State<EnglishEntrygonorrhoea> createState() => _EnglishEntrygonorrhoeaState();
 }
 
-class _EnglishEntrygoldrushState extends State<EnglishEntrygoldrush> {
+class _EnglishEntrygonorrhoeaState extends State<EnglishEntrygonorrhoea> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold rush (Derived forms: gold rushes)
-1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (- boom, bonanza, gravy [informal], godsend, manna from heaven, windfall, bunce [Brit, informal])
- 
-2. A large migration of people to a newly discovered gold field
+- Noun: gonorrhoea (Derived forms: gonorrhoeas)
+Usage: Brit, Cdn (US: gonorrhea)
+1. A common venereal disease caused by the bacterium Neisseria gonorrhoeae; symptoms are painful urination and pain around the urethra (- gonorrhea [N. Amer], clap)
 """,
   );
 
-  final String keyword = "gold rush";
+  final String keyword = "gonorrhoea";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,7 +77,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gold rush""");
+    await flutterTts.speak("""gonorrhoea""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -86,7 +85,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""Many left their homes to join the Australian gold rush.""");
+        .speak("""Gonorrhoea can cause painful urination if left untreated.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -938,10 +937,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gold rush""",
-                      // alsoEnglishWord: "also: gold rush",
-                      britshText: """IpaUK: /ˈɡəʊld rʌʃ/""",
-                      americanText: """IpaUS: /ˈɡəʊld rʌʃ/""",
+                      word: """gonorrhoea""",
+                      // alsoEnglishWord: "also: gonorrhoea",
+                      britshText: """IpaUK: /ˌɡɒnəˈrɪə/""",
+                      americanText: """IpaUS: /ˌɡɑːnəˈriːə/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,16 +981,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سووزەنەک، تۆمەڕژێ، ئاوەڕژێ
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک دەچن بۆ شوێنێک کە تازە زێڕی تێدا دۆزراوەتەوە"""),
+                            """١. (ناو) نەخۆشییەکی ئەندامانی زاوزێ کە دەکرێت لە کاتی سێکسدا بگوازرێتەوە"""),
                     SentencesRow(
                       englishText:
-                          """Many left their homes to join the Australian gold rush.""",
+                          """Gonorrhoea can cause painful urination if left untreated.""",
                       kurdishText:
-                          """زۆر کەس ماڵەکانیان بەجێهێشت بۆ ئەوەی بەشداری لە هەڵمەتی دۆزینەوەی زێڕی ئوسترالیادا بکەن.""",
+                          """سووزەنەک دەکرێت ببێتە هۆکاری میزکردنی بەئازار ئەگەر چارەسەر نەکرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2134,18 +2133,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
-const double _startSecondsend = 000000000000000000000000000993;
-const String _videoIdone = 'https://youtu.be/mqxgP8WlxJQ?t=';
-const double _startSecondsone = 000000000000000000000000000997;
-const String _videoIdtwo = 'https://youtu.be/RTOuKWojGss?t=';
-const double _startSecondstwo = 000000000000000000000000000791;
-const String _videoIdthree = 'https://youtu.be/NXpdyAWLDas?t=';
-const double _startSecondsthree = 000000000000000000000000000450;
-const String _videoIdfour = 'https://youtu.be/edbWdVkJUuE?t=';
-const double _startSecondsfour = 0000000000000000000000000001091;
-const String _videoIdfive = 'https://youtu.be/jtVfXLkc-ko?t=';
-const double _startSecondsfive = 000000000000000000000000000730;
+const String _videoIdend = 'https://youtu.be/7_ViD7qdano?t=';
+const double _startSecondsend = 000000000000000000000000000474;
+const String _videoIdone = 'https://youtu.be/-W4uWnwLVQM?t=';
+const double _startSecondsone = 0000000000000000000000000009;
+const String _videoIdtwo = 'https://youtu.be/Hb0KBGCnsHs?t=';
+const double _startSecondstwo = 000000000000000000000000000251;
+const String _videoIdthree = 'https://youtu.be/oZlYPyJuMM8?t=';
+const double _startSecondsthree = 000000000000000000000000000290;
+const String _videoIdfour = 'https://youtu.be/KHF8mB_8LUM?t=';
+const double _startSecondsfour = 000000000000000000000000000414;
+const String _videoIdfive = 'https://youtu.be/F1w80BW8sjc?t=';
+const double _startSecondsfive = 000000000000000000000000000599;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

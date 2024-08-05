@@ -4610,18 +4610,18 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_gold_medal.dart' show EnglishEntrygoldmedal //// فففف gold medal
 // en_entry_gold_mine.dart' show EnglishEntrygoldmine //// فففف gold mine
 // en_entry_gold_rush.dart' show EnglishEntrygoldrush //// فففف gold rush
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_goldsmith.dart' show EnglishEntrygoldsmith
+// en_entry_golden.dart' show EnglishEntrygolden
+// en_entry_golden_handshake.dart' show EnglishEntrygoldenhandshake //// ffff golden handshake
+// en_entry_golden_jubilee.dart' show EnglishEntrygoldenjubilee //// فففف golden jubilee
+// en_entry_golden_rule.dart' show EnglishEntrygoldenrule //// golden rule
+// en_entry_golf.dart' show EnglishEntrygolf
+// en_entry_golfer.dart' show EnglishEntrygolfer
+// en_entry_gong.dart' show EnglishEntrygong
+// en_entry_gonorrhoea.dart' show EnglishEntrygonorrhoea
+// en_entry_good.dart' show EnglishEntrygood
+// en_entry_good_for_nothing.dart' show EnglishEntrygoodfornothing //// ffff good-for-nothing
+// en_entry_good_humoured.dart' show EnglishEntrygoodhumoured //// فففف good-humoured
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

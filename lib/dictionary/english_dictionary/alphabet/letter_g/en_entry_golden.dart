@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoldrush extends StatefulWidget {
-  const EnglishEntrygoldrush({super.key});
+class EnglishEntrygolden extends StatefulWidget {
+  const EnglishEntrygolden({super.key});
 
   @override
-  State<EnglishEntrygoldrush> createState() => _EnglishEntrygoldrushState();
+  State<EnglishEntrygolden> createState() => _EnglishEntrygoldenState();
 }
 
-class _EnglishEntrygoldrushState extends State<EnglishEntrygoldrush> {
+class _EnglishEntrygoldenState extends State<EnglishEntrygolden> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold rush (Derived forms: gold rushes)
-1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (- boom, bonanza, gravy [informal], godsend, manna from heaven, windfall, bunce [Brit, informal])
+- Adjective: golden
+1. Having the deep slightly brownish colour of gold (- aureate, gilded, gilt, gold)
+"long golden hair";
  
-2. A large migration of people to a newly discovered gold field
+2. Marked by peace and prosperity (- halcyon, prosperous)
+"a golden era";
+ 
+3. Made from or covered with gold (- gold, gilded)
+"the golden calf";
+ 
+4. Supremely favoured (- fortunate)
+"golden lads and girls all must / like chimney sweepers come to dust";
+ 
+5. Suggestive of gold
+"a golden voice"
+ 
+6. Presaging or likely to bring good luck or a good outcome (- favorable [US], favourable [Brit, Cdn], lucky, prosperous)
+"a golden time to ask for a raise";
 """,
   );
 
-  final String keyword = "gold rush";
+  final String keyword = "golden";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,7 +92,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gold rush""");
+    await flutterTts.speak("""golden""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -86,21 +100,23 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""Many left their homes to join the Australian gold rush.""");
+        .speak("""The king wore a golden crown during the ceremony.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The walls gleamed golden in the light of the setting sun.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The information he gave us proved to be golden.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -938,10 +954,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gold rush""",
-                      // alsoEnglishWord: "also: gold rush",
-                      britshText: """IpaUK: /ˈɡəʊld rʌʃ/""",
-                      americanText: """IpaUS: /ˈɡəʊld rʌʃ/""",
+                      word: """golden""",
+                      // alsoEnglishWord: "also: golden",
+                      britshText: """IpaUK: /ˈɡəʊldən/""",
+                      americanText: """IpaUS: /ˈɡəʊldən/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,34 +998,40 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زێڕین، زێڕئاسا، درەوشاوە
 """),
+// With short examples define "golden", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک دەچن بۆ شوێنێک کە تازە زێڕی تێدا دۆزراوەتەوە"""),
+                        text: """١. (ھاوەڵناو) کە لە زێڕ درووستکراوە"""),
                     SentencesRow(
                       englishText:
-                          """Many left their homes to join the Australian gold rush.""",
+                          """The king wore a golden crown during the ceremony.""",
                       kurdishText:
-                          """زۆر کەس ماڵەکانیان بەجێهێشت بۆ ئەوەی بەشداری لە هەڵمەتی دۆزینەوەی زێڕی ئوسترالیادا بکەن.""",
+                          """پاشا تاجێکی زێڕینی لەسەر کرد لە ماوەی بۆنەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) ڕەنگی زێڕین"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The walls gleamed golden in the light of the setting sun.""",
+                      kurdishText:
+                          """دیوارەکان دەدرەوشانەوە بە زێڕین لە ڕۆشنایی خۆرە ئاوابووەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) شتێک کە تایبەتە و دەکرێت سەرکەوتوو بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The information he gave us proved to be golden.""",
+                      kurdishText: """ئەو زانیارییەی پێیداین زێڕین بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2134,18 +2156,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
-const double _startSecondsend = 000000000000000000000000000993;
-const String _videoIdone = 'https://youtu.be/mqxgP8WlxJQ?t=';
-const double _startSecondsone = 000000000000000000000000000997;
-const String _videoIdtwo = 'https://youtu.be/RTOuKWojGss?t=';
-const double _startSecondstwo = 000000000000000000000000000791;
-const String _videoIdthree = 'https://youtu.be/NXpdyAWLDas?t=';
-const double _startSecondsthree = 000000000000000000000000000450;
-const String _videoIdfour = 'https://youtu.be/edbWdVkJUuE?t=';
-const double _startSecondsfour = 0000000000000000000000000001091;
-const String _videoIdfive = 'https://youtu.be/jtVfXLkc-ko?t=';
-const double _startSecondsfive = 000000000000000000000000000730;
+const String _videoIdend = 'https://youtu.be/qWAagS_MANg?t=';
+const double _startSecondsend = 0000000000000000000000000001109;
+const String _videoIdone = 'https://youtu.be/h4CyhQqAPpk?t=';
+const double _startSecondsone = 000000000000000000000000000208;
+const String _videoIdtwo = 'https://youtu.be/ewLpXw6uN28?t=';
+const double _startSecondstwo = 000000000000000000000000000541;
+const String _videoIdthree = 'https://youtu.be/pTysrwci0pU?t=';
+const double _startSecondsthree = 000000000000000000000000000298;
+const String _videoIdfour = 'https://youtu.be/Rzd0mLf366I?t=';
+const double _startSecondsfour = 000000000000000000000000000160;
+const String _videoIdfive = 'https://youtu.be/vzKuobmi3iI?t=';
+const double _startSecondsfive = 000000000000000000000000000118;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

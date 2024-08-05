@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoldrush extends StatefulWidget {
-  const EnglishEntrygoldrush({super.key});
+class EnglishEntrygoldsmith extends StatefulWidget {
+  const EnglishEntrygoldsmith({super.key});
 
   @override
-  State<EnglishEntrygoldrush> createState() => _EnglishEntrygoldrushState();
+  State<EnglishEntrygoldsmith> createState() => _EnglishEntrygoldsmithState();
 }
 
-class _EnglishEntrygoldrushState extends State<EnglishEntrygoldrush> {
+class _EnglishEntrygoldsmithState extends State<EnglishEntrygoldsmith> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold rush (Derived forms: gold rushes)
-1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (- boom, bonanza, gravy [informal], godsend, manna from heaven, windfall, bunce [Brit, informal])
- 
-2. A large migration of people to a newly discovered gold field
+- Noun: goldsmith (Derived forms: goldsmiths)
+1. An artisan who makes jewellery and other objects out of gold (- goldworker, gold-worker)
 """,
   );
 
-  final String keyword = "gold rush";
+  final String keyword = "goldsmith";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,7 +76,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gold rush""");
+    await flutterTts.speak("""goldsmith""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -86,7 +84,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""Many left their homes to join the Australian gold rush.""");
+        .speak("""They took their old jewelry to a goldsmith for repairs.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -938,10 +936,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gold rush""",
-                      // alsoEnglishWord: "also: gold rush",
-                      britshText: """IpaUK: /ˈɡəʊld rʌʃ/""",
-                      americanText: """IpaUS: /ˈɡəʊld rʌʃ/""",
+                      word: """goldsmith""",
+                      // alsoEnglishWord: "also: goldsmith",
+                      britshText: """IpaUK: /ˈɡəʊldsmɪθ/""",
+                      americanText: """IpaUS: /ˈɡəʊldsmɪθ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,16 +980,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زێڕینگەر، زێڕگەر، زێڕەنگەر، زێڕنگەر
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک دەچن بۆ شوێنێک کە تازە زێڕی تێدا دۆزراوەتەوە"""),
+                            """١. (ناو) کەسێک کە شت لە زێڕ درووست دەکات یان چاکیان دەکاتەوە"""),
                     SentencesRow(
                       englishText:
-                          """Many left their homes to join the Australian gold rush.""",
+                          """They took their old jewelry to a goldsmith for repairs.""",
                       kurdishText:
-                          """زۆر کەس ماڵەکانیان بەجێهێشت بۆ ئەوەی بەشداری لە هەڵمەتی دۆزینەوەی زێڕی ئوسترالیادا بکەن.""",
+                          """خشڵە کۆنەکانیان برد زێڕەنگەرێک بۆ چاککردنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2134,18 +2132,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
-const double _startSecondsend = 000000000000000000000000000993;
-const String _videoIdone = 'https://youtu.be/mqxgP8WlxJQ?t=';
-const double _startSecondsone = 000000000000000000000000000997;
-const String _videoIdtwo = 'https://youtu.be/RTOuKWojGss?t=';
-const double _startSecondstwo = 000000000000000000000000000791;
-const String _videoIdthree = 'https://youtu.be/NXpdyAWLDas?t=';
-const double _startSecondsthree = 000000000000000000000000000450;
-const String _videoIdfour = 'https://youtu.be/edbWdVkJUuE?t=';
-const double _startSecondsfour = 0000000000000000000000000001091;
-const String _videoIdfive = 'https://youtu.be/jtVfXLkc-ko?t=';
-const double _startSecondsfive = 000000000000000000000000000730;
+const String _videoIdend = 'https://youtu.be/4YgsvITe7IU?t=';
+const double _startSecondsend = 000000000000000000000000000230;
+const String _videoIdone = 'https://youtu.be/H_pHPyn1oJ4?t=';
+const double _startSecondsone = 000000000000000000000000000423;
+const String _videoIdtwo = 'https://youtu.be/H_pHPyn1oJ4?t=';
+const double _startSecondstwo = 000000000000000000000000000448;
+const String _videoIdthree = 'https://youtu.be/1qvn7C9yuk0?t=';
+const double _startSecondsthree = 00000000000000000000000000021;
+const String _videoIdfour = 'https://youtu.be/it52tEVhrdY?t=';
+const double _startSecondsfour = 000000000000000000000000000240;
+const String _videoIdfive = 'https://youtu.be/QuUQGnGLMCw?t=';
+const double _startSecondsfive = 000000000000000000000000000257;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoldrush extends StatefulWidget {
-  const EnglishEntrygoldrush({super.key});
+class EnglishEntrygolfer extends StatefulWidget {
+  const EnglishEntrygolfer({super.key});
 
   @override
-  State<EnglishEntrygoldrush> createState() => _EnglishEntrygoldrushState();
+  State<EnglishEntrygolfer> createState() => _EnglishEntrygolferState();
 }
 
-class _EnglishEntrygoldrushState extends State<EnglishEntrygoldrush> {
+class _EnglishEntrygolferState extends State<EnglishEntrygolfer> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold rush (Derived forms: gold rushes)
-1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (- boom, bonanza, gravy [informal], godsend, manna from heaven, windfall, bunce [Brit, informal])
- 
-2. A large migration of people to a newly discovered gold field
+- Noun: golfer (Derived forms: golfers)
+1. Someone who plays the game of golf (- golf player, linksman)
+"the golfer went to the driving range to practice his pivot";
 """,
   );
 
-  final String keyword = "gold rush";
+  final String keyword = "golfer";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,15 +77,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gold rush""");
+    await flutterTts.speak("""golfer""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Many left their homes to join the Australian gold rush.""");
+    await flutterTts.speak("""He was one of the best golfers in the world.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -938,10 +936,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gold rush""",
-                      // alsoEnglishWord: "also: gold rush",
-                      britshText: """IpaUK: /ˈɡəʊld rʌʃ/""",
-                      americanText: """IpaUS: /ˈɡəʊld rʌʃ/""",
+                      word: """golfer""",
+                      // alsoEnglishWord: "also: golfer",
+                      britshText: """IpaUK: /ˈɡɒlfə(r)/""",
+                      americanText: """IpaUS: /ˈɡɑːlfər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,16 +980,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گۆڵفەوان، گۆڵفزان، یاریزانی گۆڵف
 """),
+// With short examples define "golfer", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک دەچن بۆ شوێنێک کە تازە زێڕی تێدا دۆزراوەتەوە"""),
+                        text: """١. (ناو) کەسێک کە یاریی گۆڵف دەکات"""),
                     SentencesRow(
                       englishText:
-                          """Many left their homes to join the Australian gold rush.""",
+                          """He was one of the best golfers in the world.""",
                       kurdishText:
-                          """زۆر کەس ماڵەکانیان بەجێهێشت بۆ ئەوەی بەشداری لە هەڵمەتی دۆزینەوەی زێڕی ئوسترالیادا بکەن.""",
+                          """یەکێک لە باشترین یاریزانەکانی گۆڵف بوو لە جیهاندا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2134,18 +2132,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
-const double _startSecondsend = 000000000000000000000000000993;
-const String _videoIdone = 'https://youtu.be/mqxgP8WlxJQ?t=';
-const double _startSecondsone = 000000000000000000000000000997;
-const String _videoIdtwo = 'https://youtu.be/RTOuKWojGss?t=';
-const double _startSecondstwo = 000000000000000000000000000791;
-const String _videoIdthree = 'https://youtu.be/NXpdyAWLDas?t=';
-const double _startSecondsthree = 000000000000000000000000000450;
-const String _videoIdfour = 'https://youtu.be/edbWdVkJUuE?t=';
-const double _startSecondsfour = 0000000000000000000000000001091;
-const String _videoIdfive = 'https://youtu.be/jtVfXLkc-ko?t=';
-const double _startSecondsfive = 000000000000000000000000000730;
+const String _videoIdend = 'https://youtu.be/oBcxuzdP3rs';
+const double _startSecondsend = 0;
+const String _videoIdone = 'https://youtu.be/HxRUuGqqMG4?t=';
+const double _startSecondsone = 000000000000000000000000000864;
+const String _videoIdtwo = 'https://youtu.be/80z6drP0NY8?t=';
+const double _startSecondstwo = 000000000000000000000000000120;
+const String _videoIdthree = 'https://youtu.be/wxyH1-B4Y7s?t=';
+const double _startSecondsthree = 000000000000000000000000000222;
+const String _videoIdfour = 'https://youtu.be/_4seGfFmfgw?t=';
+const double _startSecondsfour = 00000000000000000000000000088;
+const String _videoIdfive = 'https://youtu.be/Js4NiTFq9Pw?t=';
+const double _startSecondsfive = 00000000000000000000000000054;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

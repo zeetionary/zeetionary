@@ -6,14 +6,16 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoldrush extends StatefulWidget {
-  const EnglishEntrygoldrush({super.key});
+class EnglishEntrygoodfornothing extends StatefulWidget {
+  const EnglishEntrygoodfornothing({super.key});
 
   @override
-  State<EnglishEntrygoldrush> createState() => _EnglishEntrygoldrushState();
+  State<EnglishEntrygoodfornothing> createState() =>
+      _EnglishEntrygoodfornothingState();
 }
 
-class _EnglishEntrygoldrushState extends State<EnglishEntrygoldrush> {
+class _EnglishEntrygoodfornothingState
+    extends State<EnglishEntrygoodfornothing> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold rush (Derived forms: gold rushes)
-1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (- boom, bonanza, gravy [informal], godsend, manna from heaven, windfall, bunce [Brit, informal])
- 
-2. A large migration of people to a newly discovered gold field
+- Adjective: good-for-nothing
+1. Without merit; of little or no value or use (- good-for-nought, meritless, no-account [N. Amer], no-count, no-good, sorry)
+"a lazy no-count, good-for-nothing goldbrick";
+
+- Noun: good-for-nothing (Derived forms: good-for-nothings)
+1. An idle worthless person (- goldbrick [N. Amer, informal], goof-off [N. Amer, informal], ne'er-do-well, no-account [N. Amer], good-for-nought)
 """,
   );
 
-  final String keyword = "gold rush";
+  final String keyword = "good-for-nothing";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,15 +82,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gold rush""");
+    await flutterTts.speak("""good-for-nothing""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Many left their homes to join the Australian gold rush.""");
+    await flutterTts.speak("""Where's that good-for-nothing son of yours?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -938,10 +941,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gold rush""",
-                      // alsoEnglishWord: "also: gold rush",
-                      britshText: """IpaUK: /ˈɡəʊld rʌʃ/""",
-                      americanText: """IpaUS: /ˈɡəʊld rʌʃ/""",
+                      word: """good-for-nothing""",
+                      // alsoEnglishWord: "also: good-for-nothing",
+                      britshText: """IpaUK: /ˈɡʊd fə nʌθɪŋ/""",
+                      americanText: """IpaUS: /ˈɡʊd fər nʌθɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -984,14 +987,13 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
+// With short examples define "good-for-nothing", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک دەچن بۆ شوێنێک کە تازە زێڕی تێدا دۆزراوەتەوە"""),
+                        text: """١. (ھاوەڵناو) تەمەڵ و نا شارەزا"""),
                     SentencesRow(
                       englishText:
-                          """Many left their homes to join the Australian gold rush.""",
-                      kurdishText:
-                          """زۆر کەس ماڵەکانیان بەجێهێشت بۆ ئەوەی بەشداری لە هەڵمەتی دۆزینەوەی زێڕی ئوسترالیادا بکەن.""",
+                          """Where's that good-for-nothing son of yours?""",
+                      kurdishText: """ئەو کوڕە بێ‌سوودەت لە کوێیە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2134,18 +2136,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
-const double _startSecondsend = 000000000000000000000000000993;
-const String _videoIdone = 'https://youtu.be/mqxgP8WlxJQ?t=';
-const double _startSecondsone = 000000000000000000000000000997;
-const String _videoIdtwo = 'https://youtu.be/RTOuKWojGss?t=';
-const double _startSecondstwo = 000000000000000000000000000791;
-const String _videoIdthree = 'https://youtu.be/NXpdyAWLDas?t=';
-const double _startSecondsthree = 000000000000000000000000000450;
-const String _videoIdfour = 'https://youtu.be/edbWdVkJUuE?t=';
-const double _startSecondsfour = 0000000000000000000000000001091;
-const String _videoIdfive = 'https://youtu.be/jtVfXLkc-ko?t=';
-const double _startSecondsfive = 000000000000000000000000000730;
+const String _videoIdend = 'https://youtu.be/yLUvvfw_06s?t=';
+const double _startSecondsend = 0000000000000000000000000001330;
+const String _videoIdone = 'https://youtu.be/pSFc9hCNq9E?t=';
+const double _startSecondsone = 000000000000000000000000000294;
+const String _videoIdtwo = 'https://youtu.be/uqao3dOYO7U?t=';
+const double _startSecondstwo = 000000000000000000000000000499;
+const String _videoIdthree = 'https://youtu.be/TVU1FINnHMI?t=';
+const double _startSecondsthree = 000000000000000000000000000390;
+const String _videoIdfour = 'https://youtu.be/Solb9uA-tgQ?t=';
+const double _startSecondsfour = 00000000000000000000000000024425;
+const String _videoIdfive = 'https://youtu.be/QMklud_R8os';
+const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

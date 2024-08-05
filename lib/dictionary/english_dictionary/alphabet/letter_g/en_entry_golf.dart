@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoldrush extends StatefulWidget {
-  const EnglishEntrygoldrush({super.key});
+class EnglishEntrygolf extends StatefulWidget {
+  const EnglishEntrygolf({super.key});
 
   @override
-  State<EnglishEntrygoldrush> createState() => _EnglishEntrygoldrushState();
+  State<EnglishEntrygolf> createState() => _EnglishEntrygolfState();
 }
 
-class _EnglishEntrygoldrushState extends State<EnglishEntrygoldrush> {
+class _EnglishEntrygolfState extends State<EnglishEntrygolf> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold rush (Derived forms: gold rushes)
-1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (- boom, bonanza, gravy [informal], godsend, manna from heaven, windfall, bunce [Brit, informal])
- 
-2. A large migration of people to a newly discovered gold field
+- Noun: golf (Derived forms: golfs)
+1. A game played on a large open course with 9 or 18 holes; the object is to use as few strokes as possible in playing all the holes (- golf game)
+
+- Verb: golf (Derived forms: golfing, golfs, golfed)
+1. Play golf
 """,
   );
 
-  final String keyword = "gold rush";
+  final String keyword = "golf";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,29 +79,30 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gold rush""");
+    await flutterTts.speak("""golf""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Many left their homes to join the Australian gold rush.""");
+    await flutterTts.speak("""I play golf every weekend.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He enjoyed a round of golf on a Sunday morning.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """This is one of the most famous golf tournaments in the world.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -938,10 +940,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gold rush""",
-                      // alsoEnglishWord: "also: gold rush",
-                      britshText: """IpaUK: /ˈɡəʊld rʌʃ/""",
-                      americanText: """IpaUS: /ˈɡəʊld rʌʃ/""",
+                      word: """golf""",
+                      // alsoEnglishWord: "also: golf",
+                      britshText: """IpaUK: /ɡɒlf/""",
+                      americanText: """IpaUS: /ɡɑːlf/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -984,14 +986,11 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک دەچن بۆ شوێنێک کە تازە زێڕی تێدا دۆزراوەتەوە"""),
+// With short examples define "golf", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) یاریی گۆڵف"""),
                     SentencesRow(
-                      englishText:
-                          """Many left their homes to join the Australian gold rush.""",
-                      kurdishText:
-                          """زۆر کەس ماڵەکانیان بەجێهێشت بۆ ئەوەی بەشداری لە هەڵمەتی دۆزینەوەی زێڕی ئوسترالیادا بکەن.""",
+                      englishText: """I play golf every weekend.""",
+                      kurdishText: """هەموو کۆتایی هەفتە یاریی گۆڵف دەکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -999,8 +998,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He enjoyed a round of golf on a Sunday morning.""",
+                      kurdishText:
+                          """لە بەیانییەکی یەکشەممەدا چێژی لە دەورانێک لە یاریی گۆڵف بینی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This is one of the most famous golf tournaments in the world.""",
+                      kurdishText:
+                          """ئەمە یەکێکە لە بەناوبانگترین پاڵەوانێتییەکانی گۆڵف لە جیهاندا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2134,18 +2137,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
-const double _startSecondsend = 000000000000000000000000000993;
-const String _videoIdone = 'https://youtu.be/mqxgP8WlxJQ?t=';
-const double _startSecondsone = 000000000000000000000000000997;
-const String _videoIdtwo = 'https://youtu.be/RTOuKWojGss?t=';
-const double _startSecondstwo = 000000000000000000000000000791;
-const String _videoIdthree = 'https://youtu.be/NXpdyAWLDas?t=';
-const double _startSecondsthree = 000000000000000000000000000450;
-const String _videoIdfour = 'https://youtu.be/edbWdVkJUuE?t=';
-const double _startSecondsfour = 0000000000000000000000000001091;
-const String _videoIdfive = 'https://youtu.be/jtVfXLkc-ko?t=';
-const double _startSecondsfive = 000000000000000000000000000730;
+const String _videoIdend = 'https://youtu.be/bIDKhZ_4jLQ?t=';
+const double _startSecondsend = 000000000000000000000000000;
+const String _videoIdone = 'https://youtu.be/rPe4yziWiOg?t=320';
+const double _startSecondsone = 000000000000000000000000000281;
+const String _videoIdtwo = 'https://youtu.be/h3vmNBzSmAE?t=';
+const double _startSecondstwo = 00000000000000000000000000032;
+const String _videoIdthree = 'https://youtu.be/VkX4sQ3Rz6A';
+const double _startSecondsthree = 0;
+const String _videoIdfour = 'https://youtu.be/XM7wRwzEnxQ?t=';
+const double _startSecondsfour = 00000000000000000000000000028;
+const String _videoIdfive = 'https://youtu.be/MV1qaFv4VUg?t=';
+const double _startSecondsfive = 00000000000000000000000000010;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

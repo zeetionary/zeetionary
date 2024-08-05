@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoldrush extends StatefulWidget {
-  const EnglishEntrygoldrush({super.key});
+class EnglishEntrygoldenjubilee extends StatefulWidget {
+  const EnglishEntrygoldenjubilee({super.key});
 
   @override
-  State<EnglishEntrygoldrush> createState() => _EnglishEntrygoldrushState();
+  State<EnglishEntrygoldenjubilee> createState() =>
+      _EnglishEntrygoldenjubileeState();
 }
 
-class _EnglishEntrygoldrushState extends State<EnglishEntrygoldrush> {
+class _EnglishEntrygoldenjubileeState extends State<EnglishEntrygoldenjubilee> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold rush (Derived forms: gold rushes)
-1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (- boom, bonanza, gravy [informal], godsend, manna from heaven, windfall, bunce [Brit, informal])
- 
-2. A large migration of people to a newly discovered gold field
+- Noun: golden jubilee
+1. ​the 50th anniversary of an important event (- US: golden anniversary)
+"Queen Victoria’s Golden Jubilee celebrations";
 """,
   );
 
-  final String keyword = "gold rush";
+  final String keyword = "golden jubilee";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,15 +78,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gold rush""");
+    await flutterTts.speak("""golden jubilee""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Many left their homes to join the Australian gold rush.""");
+    await flutterTts.speak(
+        """The hospital will be celebrating its golden jubilee on Thursday.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -938,10 +938,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gold rush""",
-                      // alsoEnglishWord: "also: gold rush",
-                      britshText: """IpaUK: /ˈɡəʊld rʌʃ/""",
-                      americanText: """IpaUS: /ˈɡəʊld rʌʃ/""",
+                      word: """golden jubilee""",
+                      // alsoEnglishWord: "also: golden jubilee",
+                      britshText: """IpaUK: /ˌɡəʊldən ˈdʒuːbɪliː/""",
+                      americanText: """IpaUS: /ˌɡəʊldən ˈdʒuːbɪliː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -984,14 +984,14 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
+// With short examples define "golden jubilee", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک دەچن بۆ شوێنێک کە تازە زێڕی تێدا دۆزراوەتەوە"""),
+                        text: """١. (ناو) پەنجایەمین ساڵیادی شتێک"""),
                     SentencesRow(
                       englishText:
-                          """Many left their homes to join the Australian gold rush.""",
+                          """The hospital will be celebrating its golden jubilee on Thursday.""",
                       kurdishText:
-                          """زۆر کەس ماڵەکانیان بەجێهێشت بۆ ئەوەی بەشداری لە هەڵمەتی دۆزینەوەی زێڕی ئوسترالیادا بکەن.""",
+                          """ڕۆژی پێنجشەممە نەخۆشخانەکە ئاهەنگی پەنجایەمین ساڵیادی دەگێڕێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2134,18 +2134,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
-const double _startSecondsend = 000000000000000000000000000993;
-const String _videoIdone = 'https://youtu.be/mqxgP8WlxJQ?t=';
-const double _startSecondsone = 000000000000000000000000000997;
-const String _videoIdtwo = 'https://youtu.be/RTOuKWojGss?t=';
-const double _startSecondstwo = 000000000000000000000000000791;
-const String _videoIdthree = 'https://youtu.be/NXpdyAWLDas?t=';
-const double _startSecondsthree = 000000000000000000000000000450;
-const String _videoIdfour = 'https://youtu.be/edbWdVkJUuE?t=';
-const double _startSecondsfour = 0000000000000000000000000001091;
-const String _videoIdfive = 'https://youtu.be/jtVfXLkc-ko?t=';
-const double _startSecondsfive = 000000000000000000000000000730;
+const String _videoIdend = 'https://youtu.be/yKrFM2tQ_VI?t=';
+const double _startSecondsend = 000000000000000000000000000441;
+const String _videoIdone = 'https://youtu.be/OzjjnwRVy58?t=';
+const double _startSecondsone = 000000000000000000000000000256;
+const String _videoIdtwo = 'https://youtu.be/zAZH62XgAJo?t=';
+const double _startSecondstwo = 000000000000000000000000000929;
+const String _videoIdthree = 'https://youtu.be/qqgNflQG_AE?t=';
+const double _startSecondsthree = 0000000000000000000000000001093;
+const String _videoIdfour = 'https://youtu.be/8lagnA5m1nY?t=';
+const double _startSecondsfour = 000000000000000000000000000478;
+const String _videoIdfive = 'https://youtu.be/yCt6RjmGCXY?t=';
+const double _startSecondsfive = 00000000000000000000000000065;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

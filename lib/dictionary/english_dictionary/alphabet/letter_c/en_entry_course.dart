@@ -555,6 +555,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ناوچەیەکی گەورە کە بۆ یاری گۆڵف ئامادە کراوە"),
+          const AlsoEnglishckb(word: "ھەروەھا: golf course"),
           SentencesRow(
             englishText: "He spends every weekend out on the golf course.",
             kurdishText:

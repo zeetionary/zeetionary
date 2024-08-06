@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoodhumoured extends StatefulWidget {
-  const EnglishEntrygoodhumoured({super.key});
+class EnglishEntrygosh extends StatefulWidget {
+  const EnglishEntrygosh({super.key});
 
   @override
-  State<EnglishEntrygoodhumoured> createState() =>
-      _EnglishEntrygoodhumouredState();
+  State<EnglishEntrygosh> createState() => _EnglishEntrygoshState();
 }
 
-class _EnglishEntrygoodhumouredState extends State<EnglishEntrygoodhumoured> {
+class _EnglishEntrygoshState extends State<EnglishEntrygosh> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: good-humoured
-Usage: Brit, Cdn (US: good-humored)
-1. Disposed to please (- amiable, good-humored [US])
+- Interjection: gosh 
+Usage: informal
+1. Used to express surprise (- Christ [informal], Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness [informal], goodness me [informal], Gordon Bennett [informal], gracious [informal], gracious me [informal], fancy that [informal], gawd [informal], god, my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
+"Oh my gosh! Are you okay?";
 """,
   );
 
-  final String keyword = "good-humoured";
+  final String keyword = "gosh";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,15 +78,14 @@ Usage: Brit, Cdn (US: good-humored)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""good-humoured""");
+    await flutterTts.speak("""gosh""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They were good-humoured despite the bad weather.""");
+    await flutterTts.speak("""Gosh, I didn't expect to see you here!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -938,10 +937,10 @@ Usage: Brit, Cdn (US: good-humored)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """good-humoured""",
-                      // alsoEnglishWord: "also: good-humoured",
-                      britshText: """IpaUK: /ˌɡʊd ˈhjuːməd/""",
-                      americanText: """IpaUS: /ˌɡʊd ˈhjuːmərd/""",
+                      word: """gosh""",
+                      // alsoEnglishWord: "also: gosh",
+                      britshText: """IpaUK: /ɡɒʃ/""",
+                      americanText: """IpaUS: /ɡɑːʃ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,16 +981,16 @@ Usage: Brit, Cdn (US: good-humored)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: شاد، بەنەشە، خۆشحاڵ، گەش، ڕووشیرین، دڵگەرم، دڵشاد، دڵخۆش، بەکەیف، بەدەماخ، بەگوڕ، تامەزرۆ، بەپەرۆش، خۆش
+کوردی: ئاخ، خوایە، ئەی خوایە، تیاح، پەح
 """),
-// With short examples define "good-humoured", please follow LX instructions
+// With short examples define "gosh", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) ئەوەی کەسێک دۆستانە بێت و لە کەشێکی خۆشدا بێت"""),
+                            """١. (سەرسوڕمان) کاتێک کەسێک سەرسامە یان شۆکە"""),
                     SentencesRow(
-                      englishText:
-                          """They were good-humoured despite the bad weather.""",
-                      kurdishText: """خۆشحاڵ بوون سەرەڕای کەشە خراپەکە.""",
+                      englishText: """Gosh, I didn't expect to see you here!""",
+                      kurdishText:
+                          """خوایە، پێشبینی ئەوەم نەدەکرد لێرە بتبینم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2134,18 +2133,18 @@ Usage: Brit, Cdn (US: good-humored)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/iDVxOg_R0rc?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/mUYrsA4sJeE?t=';
-const double _startSecondsone = 0000000000000000000000000002575;
-const String _videoIdtwo = 'https://youtu.be/C8zhDIFsFsI?t=';
-const double _startSecondstwo = 000000000000000000000000000387;
-const String _videoIdthree = 'https://youtu.be/2klmuggOElE?t=';
-const double _startSecondsthree = 000000000000000000000000000101;
-const String _videoIdfour = 'https://youtu.be/xg0XzbASIwE?t=';
-const double _startSecondsfour = 0000000000000000000000000003644;
-const String _videoIdfive = 'https://youtu.be/mM9YQdAuMXU?t=';
-const double _startSecondsfive = 000000000000000000000000000463;
+const String _videoIdend = 'https://youtu.be/_wNsZEqpKUA?t=';
+const double _startSecondsend = 00000000000000000000000000089;
+const String _videoIdone = 'https://youtu.be/e09xig209cQ?t=';
+const double _startSecondsone = 000000000000000000000000000860;
+const String _videoIdtwo = 'https://youtu.be/-HyHZsa79LU?t=';
+const double _startSecondstwo = 000000000000000000000000000132;
+const String _videoIdthree = 'https://youtu.be/wizgxRBfVTY?t=';
+const double _startSecondsthree = 000000000000000000000000000113;
+const String _videoIdfour = 'https://youtu.be/n3LMSflEN54?t=';
+const double _startSecondsfour = 00000000000000000000000000084;
+const String _videoIdfive = 'https://youtu.be/YIp9bEV2-GI?t=';
+const double _startSecondsfive = 000000000000000000000000000271;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,15 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoodhumoured extends StatefulWidget {
-  const EnglishEntrygoodhumoured({super.key});
+class EnglishEntrygoodnatured extends StatefulWidget {
+  const EnglishEntrygoodnatured({super.key});
 
   @override
-  State<EnglishEntrygoodhumoured> createState() =>
-      _EnglishEntrygoodhumouredState();
+  State<EnglishEntrygoodnatured> createState() =>
+      _EnglishEntrygoodnaturedState();
 }
 
-class _EnglishEntrygoodhumouredState extends State<EnglishEntrygoodhumoured> {
+class _EnglishEntrygoodnaturedState extends State<EnglishEntrygoodnatured> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: good-humoured
-Usage: Brit, Cdn (US: good-humored)
-1. Disposed to please (- amiable, good-humored [US])
+- Adjective: good-natured
+1. Having an easygoing and cheerful disposition
+"too good-natured to resent a little criticism"; "the good-natured policeman on our block"; "the sounds of good-natured play"
 """,
   );
 
-  final String keyword = "good-humoured";
+  final String keyword = "good-natured";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,15 +78,14 @@ Usage: Brit, Cdn (US: good-humored)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""good-humoured""");
+    await flutterTts.speak("""good-natured""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They were good-humoured despite the bad weather.""");
+    await flutterTts.speak("""The discussion was good-natured and positive.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -938,10 +937,10 @@ Usage: Brit, Cdn (US: good-humored)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """good-humoured""",
-                      // alsoEnglishWord: "also: good-humoured",
-                      britshText: """IpaUK: /ˌɡʊd ˈhjuːməd/""",
-                      americanText: """IpaUS: /ˌɡʊd ˈhjuːmərd/""",
+                      word: """good-natured""",
+                      // alsoEnglishWord: "also: good-natured",
+                      britshText: """IpaUK: /ˌɡʊd ˈneɪtʃəd/""",
+                      americanText: """IpaUS: /ˌɡʊd ˈneɪtʃərd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,16 +981,16 @@ Usage: Brit, Cdn (US: good-humored)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: شاد، بەنەشە، خۆشحاڵ، گەش، ڕووشیرین، دڵگەرم، دڵشاد، دڵخۆش، بەکەیف، بەدەماخ، بەگوڕ، تامەزرۆ، بەپەرۆش، خۆش
+کوردی: 
 """),
-// With short examples define "good-humoured", please follow LX instructions
+// With short examples define "good-natured", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) ئەوەی کەسێک دۆستانە بێت و لە کەشێکی خۆشدا بێت"""),
+                            """١. (ھاوەڵناو) میهرەبان و لەسەرەخۆ کە مامەڵە لەگەڵ خەڵکی دەکات"""),
                     SentencesRow(
                       englishText:
-                          """They were good-humoured despite the bad weather.""",
-                      kurdishText: """خۆشحاڵ بوون سەرەڕای کەشە خراپەکە.""",
+                          """The discussion was good-natured and positive.""",
+                      kurdishText: """گفتووگۆکە میهرەبانانە و ئەرێنی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2134,18 +2133,18 @@ Usage: Brit, Cdn (US: good-humored)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/iDVxOg_R0rc?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/mUYrsA4sJeE?t=';
-const double _startSecondsone = 0000000000000000000000000002575;
-const String _videoIdtwo = 'https://youtu.be/C8zhDIFsFsI?t=';
-const double _startSecondstwo = 000000000000000000000000000387;
-const String _videoIdthree = 'https://youtu.be/2klmuggOElE?t=';
-const double _startSecondsthree = 000000000000000000000000000101;
-const String _videoIdfour = 'https://youtu.be/xg0XzbASIwE?t=';
-const double _startSecondsfour = 0000000000000000000000000003644;
-const String _videoIdfive = 'https://youtu.be/mM9YQdAuMXU?t=';
-const double _startSecondsfive = 000000000000000000000000000463;
+const String _videoIdend = 'https://youtu.be/TxFR_7KsTDA?t=';
+const double _startSecondsend = 000000000000000000000000000488;
+const String _videoIdone = 'https://youtu.be/iZx04fmxdfA?t=';
+const double _startSecondsone = 000000000000000000000000000772;
+const String _videoIdtwo = 'https://youtu.be/mOkx6A02ero?t=';
+const double _startSecondstwo = 0000000000000000000000000001375;
+const String _videoIdthree = 'https://youtu.be/TtSQ8zBh070?t=';
+const double _startSecondsthree = 000000000000000000000000000147;
+const String _videoIdfour = 'https://youtu.be/N8-pg9sI8Xo?t=';
+const double _startSecondsfour = 000000000000000000000000000106;
+const String _videoIdfive = 'https://youtu.be/ojAIgO3BtUY?t=';
+const double _startSecondsfive = 000000000000000000000000000432;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

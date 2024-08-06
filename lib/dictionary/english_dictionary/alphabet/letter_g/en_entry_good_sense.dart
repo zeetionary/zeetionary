@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoodhumoured extends StatefulWidget {
-  const EnglishEntrygoodhumoured({super.key});
+class EnglishEntrygoodsense extends StatefulWidget {
+  const EnglishEntrygoodsense({super.key});
 
   @override
-  State<EnglishEntrygoodhumoured> createState() =>
-      _EnglishEntrygoodhumouredState();
+  State<EnglishEntrygoodsense> createState() => _EnglishEntrygoodsenseState();
 }
 
-class _EnglishEntrygoodhumouredState extends State<EnglishEntrygoodhumoured> {
+class _EnglishEntrygoodsenseState extends State<EnglishEntrygoodsense> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: good-humoured
-Usage: Brit, Cdn (US: good-humored)
-1. Disposed to please (- amiable, good-humored [US])
+- Noun: good sense
+1. Sound practical judgment (- common sense, gumption [informal], horse sense [informal], sense, mother wit)
+"fortunately she had the good sense to run away";
 """,
   );
 
-  final String keyword = "good-humoured";
+  final String keyword = "good sense";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,7 +77,7 @@ Usage: Brit, Cdn (US: good-humored)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""good-humoured""");
+    await flutterTts.speak("""good sense""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -86,7 +85,7 @@ Usage: Brit, Cdn (US: good-humored)
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""They were good-humoured despite the bad weather.""");
+        .speak("""Keeping to a low-fat diet makes very good sense.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -938,10 +937,10 @@ Usage: Brit, Cdn (US: good-humored)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """good-humoured""",
-                      // alsoEnglishWord: "also: good-humoured",
-                      britshText: """IpaUK: /ˌɡʊd ˈhjuːməd/""",
-                      americanText: """IpaUS: /ˌɡʊd ˈhjuːmərd/""",
+                      word: """good sense""",
+                      // alsoEnglishWord: "also: good sense",
+                      britshText: """IpaUK: /ˌɡʊd ˈsens/""",
+                      americanText: """IpaUS: /ˌɡʊd ˈsens/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,16 +981,17 @@ Usage: Brit, Cdn (US: good-humored)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: شاد، بەنەشە، خۆشحاڵ، گەش، ڕووشیرین، دڵگەرم، دڵشاد، دڵخۆش، بەکەیف، بەدەماخ، بەگوڕ، تامەزرۆ، بەپەرۆش، خۆش
+کوردی: ئەقڵی بەکردەوە، باش‌دادگەری، باش‌بڕیاردان، توانایی دەکردنی بڕیارێکی دروست
 """),
-// With short examples define "good-humoured", please follow LX instructions
+// With short examples define "good sense", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) ئەوەی کەسێک دۆستانە بێت و لە کەشێکی خۆشدا بێت"""),
+                            """١. (ناو) توانای ئەوەی بڕیاری درووست بدەیت لەسەر شتێک"""),
                     SentencesRow(
                       englishText:
-                          """They were good-humoured despite the bad weather.""",
-                      kurdishText: """خۆشحاڵ بوون سەرەڕای کەشە خراپەکە.""",
+                          """Keeping to a low-fat diet makes very good sense (= is a sensible thing to do).""",
+                      kurdishText:
+                          """بەردەوامی لەسەر خواردنی کەم چەور زۆر ژیرانەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2134,18 +2134,18 @@ Usage: Brit, Cdn (US: good-humored)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/iDVxOg_R0rc?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/mUYrsA4sJeE?t=';
-const double _startSecondsone = 0000000000000000000000000002575;
-const String _videoIdtwo = 'https://youtu.be/C8zhDIFsFsI?t=';
-const double _startSecondstwo = 000000000000000000000000000387;
-const String _videoIdthree = 'https://youtu.be/2klmuggOElE?t=';
-const double _startSecondsthree = 000000000000000000000000000101;
-const String _videoIdfour = 'https://youtu.be/xg0XzbASIwE?t=';
-const double _startSecondsfour = 0000000000000000000000000003644;
-const String _videoIdfive = 'https://youtu.be/mM9YQdAuMXU?t=';
-const double _startSecondsfive = 000000000000000000000000000463;
+const String _videoIdend = 'https://youtu.be/lsFPbgK1v9I?t=';
+const double _startSecondsend = 000000000000000000000000000317;
+const String _videoIdone = 'https://youtu.be/hoihoGGdQ4U?t=';
+const double _startSecondsone = 000000000000000000000000000176;
+const String _videoIdtwo = 'https://youtu.be/BDh46oosdms?t=';
+const double _startSecondstwo = 000000000000000000000000000256;
+const String _videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=';
+const double _startSecondsthree = 0000000000000000000000000003616;
+const String _videoIdfour = 'https://youtu.be/tqX4jKktiS0?t=';
+const double _startSecondsfour = 000000000000000000000000000681;
+const String _videoIdfive = 'https://youtu.be/e-V_MDVgISo?t=';
+const double _startSecondsfive = 000000000000000000000000000363;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

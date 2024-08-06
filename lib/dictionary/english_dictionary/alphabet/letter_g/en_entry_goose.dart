@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoodhumoured extends StatefulWidget {
-  const EnglishEntrygoodhumoured({super.key});
+class EnglishEntrygoose extends StatefulWidget {
+  const EnglishEntrygoose({super.key});
 
   @override
-  State<EnglishEntrygoodhumoured> createState() =>
-      _EnglishEntrygoodhumouredState();
+  State<EnglishEntrygoose> createState() => _EnglishEntrygooseState();
 }
 
-class _EnglishEntrygoodhumouredState extends State<EnglishEntrygoodhumoured> {
+class _EnglishEntrygooseState extends State<EnglishEntrygoose> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +51,29 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: good-humoured
-Usage: Brit, Cdn (US: good-humored)
-1. Disposed to please (- amiable, good-humored [US])
+- Noun: goose (Derived forms: gooses)
+1. Web-footed long-necked typically gregarious migratory aquatic birds usually larger and less aquatic than ducks
+ 
+2. Flesh of a goose (domestic or wild)
+ 
+3. [informal] Someone who is a stupid incompetent fool (- fathead [informal], goof [informal], goofball [N. Amer, informal], bozo [N. Amer, informal], jackass, cuckoo, zany)
+
+- Verb: goose (Derived forms: goosing, gooses, goosed, geese)
+Usage: informal
+1. Pinch in the buttocks
+"he goosed the unsuspecting girl"
+ 
+2. Prod into action
+ 
+3. [N. Amer, informal] Give a spurt of fuel to
+"goose the car"
+ 
+4. [N. Amer, informal] Boost, increase
+"comes with a free ticket to goose early attendance"
 """,
   );
 
-  final String keyword = "good-humoured";
+  final String keyword = "goose";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,36 +93,35 @@ Usage: Brit, Cdn (US: good-humored)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""good-humoured""");
+    await flutterTts.speak("""goose""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They were good-humoured despite the bad weather.""");
+    await flutterTts.speak("""They fed the goose pieces of bread.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She saw a flock of geese flying in a V formation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Jack goosed her as she reached for a file.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The government has done everything possible to goose the economy along.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -938,10 +952,10 @@ Usage: Brit, Cdn (US: good-humored)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """good-humoured""",
-                      // alsoEnglishWord: "also: good-humoured",
-                      britshText: """IpaUK: /ˌɡʊd ˈhjuːməd/""",
-                      americanText: """IpaUS: /ˌɡʊd ˈhjuːmərd/""",
+                      word: """goose""",
+                      // alsoEnglishWord: "also: goose",
+                      britshText: """IpaUK: /ɡuːs/""",
+                      americanText: """IpaUS: /ɡuːs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,16 +996,12 @@ Usage: Brit, Cdn (US: good-humored)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: شاد، بەنەشە، خۆشحاڵ، گەش، ڕووشیرین، دڵگەرم، دڵشاد، دڵخۆش، بەکەیف، بەدەماخ، بەگوڕ، تامەزرۆ، بەپەرۆش، خۆش
+کوردی: 
 """),
-// With short examples define "good-humoured", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵناو) ئەوەی کەسێک دۆستانە بێت و لە کەشێکی خۆشدا بێت"""),
+                    const DefinitionKurdish(text: """١. (ناو) قاز؛ قازی مێینە؛ گۆشتی قاز"""),
                     SentencesRow(
-                      englishText:
-                          """They were good-humoured despite the bad weather.""",
-                      kurdishText: """خۆشحاڵ بوون سەرەڕای کەشە خراپەکە.""",
+                      englishText: """They fed the goose pieces of bread.""",
+                      kurdishText: """لەتە نانیان دەدات بە قازەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -999,26 +1009,26 @@ Usage: Brit, Cdn (US: good-humored)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She saw a flock of geese flying in a V formation.""",
+                      kurdishText: """پۆلێک قازی بینی کە بە شێوەی V دەفڕێن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (کردار) دەستدان لە سمتی کەسێک بە خێرایی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Jack goosed her as she reached for a file.""",
+                      kurdishText: """جاک دەستی هێنا بە سمتیدا کە ویستی فایلێک بهێنێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (کردار) ئەوەی شتێک بجووڵێنیت یان خێراتر کار بکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The government has done everything possible to goose the economy along.""",
+                      kurdishText: """حکومەت هەموو شتێکی کردووە کە ئابووری ببووژێنێتەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -2134,18 +2144,18 @@ Usage: Brit, Cdn (US: good-humored)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/iDVxOg_R0rc?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/mUYrsA4sJeE?t=';
-const double _startSecondsone = 0000000000000000000000000002575;
-const String _videoIdtwo = 'https://youtu.be/C8zhDIFsFsI?t=';
-const double _startSecondstwo = 000000000000000000000000000387;
-const String _videoIdthree = 'https://youtu.be/2klmuggOElE?t=';
-const double _startSecondsthree = 000000000000000000000000000101;
-const String _videoIdfour = 'https://youtu.be/xg0XzbASIwE?t=';
-const double _startSecondsfour = 0000000000000000000000000003644;
-const String _videoIdfive = 'https://youtu.be/mM9YQdAuMXU?t=';
-const double _startSecondsfive = 000000000000000000000000000463;
+const String _videoIdend = 'https://youtu.be/6N5l0sgPP5k?t=';
+const double _startSecondsend = 00000000000000000000000000054;
+const String _videoIdone = 'https://youtu.be/eUkeI_JkArU?t=';
+const double _startSecondsone = 000000000000000000000000000276;
+const String _videoIdtwo = 'https://youtu.be/VDeI8j55wwY?t=';
+const double _startSecondstwo = 00000000000000000000000000017;
+const String _videoIdthree = 'https://youtu.be/_w9k2NSD83Q?t=';
+const double _startSecondsthree = 00000000000000000000000000038;
+const String _videoIdfour = 'https://youtu.be/jbIfA6YoO4c';
+const double _startSecondsfour = 0;
+const String _videoIdfive = 'https://youtu.be/KZMLW-_qx18';
+const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

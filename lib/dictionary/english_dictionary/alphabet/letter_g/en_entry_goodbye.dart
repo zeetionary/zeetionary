@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoodhumoured extends StatefulWidget {
-  const EnglishEntrygoodhumoured({super.key});
+class EnglishEntrygoodbye extends StatefulWidget {
+  const EnglishEntrygoodbye({super.key});
 
   @override
-  State<EnglishEntrygoodhumoured> createState() =>
-      _EnglishEntrygoodhumouredState();
+  State<EnglishEntrygoodbye> createState() => _EnglishEntrygoodbyeState();
 }
 
-class _EnglishEntrygoodhumouredState extends State<EnglishEntrygoodhumoured> {
+class _EnglishEntrygoodbyeState extends State<EnglishEntrygoodbye> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: good-humoured
-Usage: Brit, Cdn (US: good-humored)
-1. Disposed to please (- amiable, good-humored [US])
+- Interjection: goodbye
+1. An informal farewell remark (- cheers [Brit, informal], chin-chin [Brit, informal], toodle-oo [informal], toodle-pip [Brit, informal], ta-ta [Brit, informal], ta-ra [UK, informal], bye [informal], bye-bye [informal], good-bye [N. Amer], good-by [US], farewell, sayonara [US, informal], so long [informal], vale [archaic])
+"We all stopped to say goodbye before her flight left";
+
+- Noun: goodbye (Derived forms: goodbyes, good-byes)
+1. A farewell remark (- adieu, adios, arrivederci, auf wiedersehen, au revoir, bye, bye-bye, cheerio [Brit, informal], good-by [US], goodby [US], good-bye [N. Amer], good day, sayonara [US], so long [informal], farewell)
 """,
   );
 
-  final String keyword = "good-humoured";
+  final String keyword = "goodbye";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,43 +80,42 @@ Usage: Brit, Cdn (US: good-humored)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""good-humoured""");
+    await flutterTts.speak("""goodbye""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They were good-humoured despite the bad weather.""");
+    await flutterTts.speak("""Goodbye! It was great to meet you.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She didn't even say goodbye to her mother.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Say goodbye to Mary for me.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""We've already said our goodbyes.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""Goodbye Bill! See you next week.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -938,10 +939,10 @@ Usage: Brit, Cdn (US: good-humored)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """good-humoured""",
-                      // alsoEnglishWord: "also: good-humoured",
-                      britshText: """IpaUK: /ˌɡʊd ˈhjuːməd/""",
-                      americanText: """IpaUS: /ˌɡʊd ˈhjuːmərd/""",
+                      word: """goodbye""",
+                      // alsoEnglishWord: "also: goodbye",
+                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
+                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,16 +983,14 @@ Usage: Brit, Cdn (US: good-humored)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: شاد، بەنەشە، خۆشحاڵ، گەش، ڕووشیرین، دڵگەرم، دڵشاد، دڵخۆش، بەکەیف، بەدەماخ، بەگوڕ، تامەزرۆ، بەپەرۆش، خۆش
+کوردی: ماڵاوایی، خوداحافیزی، خاترخوازی، خوا ئاگادارت بێ، خوات لەگەڵ، بە خێر چن، بە خودام سپاردن، خوا ئاگادارتان بێ
 """),
-// With short examples define "good-humoured", please follow LX instructions
+// With short examples define "goodbye", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵناو) ئەوەی کەسێک دۆستانە بێت و لە کەشێکی خۆشدا بێت"""),
+                        text: """١. (سەرسوڕمان، ناو) خوداحافیزی"""),
                     SentencesRow(
-                      englishText:
-                          """They were good-humoured despite the bad weather.""",
-                      kurdishText: """خۆشحاڵ بوون سەرەڕای کەشە خراپەکە.""",
+                      englishText: """Goodbye! It was great to meet you.""",
+                      kurdishText: """خوداحافیز! خۆشحاڵ بووم بە بینینت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -999,8 +998,9 @@ Usage: Brit, Cdn (US: good-humored)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She didn't even say goodbye to her mother.""",
+                      kurdishText: """تەنانەت خوداحافیزیشی لە دایکی نەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1008,8 +1008,8 @@ Usage: Brit, Cdn (US: good-humored)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Say goodbye to Mary for me.""",
+                      kurdishText: """خوداحافیزیم بگەیەنە بە ماری.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1017,8 +1017,8 @@ Usage: Brit, Cdn (US: good-humored)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We've already said our goodbyes.""",
+                      kurdishText: """پێشوەختە خوداحافیزیی خۆمان کردبوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1026,8 +1026,9 @@ Usage: Brit, Cdn (US: good-humored)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Goodbye Bill! See you next week.""",
+                      kurdishText:
+                          """خوات لەگەڵ بیڵ! هەفتەی داهاتوو دەتبینمەوە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -2134,18 +2135,18 @@ Usage: Brit, Cdn (US: good-humored)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/iDVxOg_R0rc?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/mUYrsA4sJeE?t=';
-const double _startSecondsone = 0000000000000000000000000002575;
-const String _videoIdtwo = 'https://youtu.be/C8zhDIFsFsI?t=';
-const double _startSecondstwo = 000000000000000000000000000387;
-const String _videoIdthree = 'https://youtu.be/2klmuggOElE?t=';
-const double _startSecondsthree = 000000000000000000000000000101;
-const String _videoIdfour = 'https://youtu.be/xg0XzbASIwE?t=';
-const double _startSecondsfour = 0000000000000000000000000003644;
-const String _videoIdfive = 'https://youtu.be/mM9YQdAuMXU?t=';
-const double _startSecondsfive = 000000000000000000000000000463;
+const String _videoIdend = 'https://youtu.be/_GFkHA5EZdE?t=';
+const double _startSecondsend = 000000000000000000000000000401;
+const String _videoIdone = 'https://youtu.be/Oq61TxejZ5g?t=';
+const double _startSecondsone = 000000000000000000000000000151;
+const String _videoIdtwo = 'https://youtu.be/dfuPBC-v5NE?t=';
+const double _startSecondstwo = 0000000000000000000000000001417;
+const String _videoIdthree = 'https://youtu.be/BNRItz1Ngt0?t=';
+const double _startSecondsthree = 00000000000000000000000000034;
+const String _videoIdfour = 'https://youtu.be/DEFD9TSHg_A?t=';
+const double _startSecondsfour = 000000000000000000000000000223;
+const String _videoIdfive = 'https://youtu.be/UuGpm01SPcA?t=';
+const double _startSecondsfive = 000000000000000000000000000205;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

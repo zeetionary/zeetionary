@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               DefinitionKurdishLink(
-                text: "٣. بڕوانە لە bathrobe",
+                text: "٢. بڕوانە لە bathrobe",
                 links: [
                   LinkInfo(
                     start: 12,

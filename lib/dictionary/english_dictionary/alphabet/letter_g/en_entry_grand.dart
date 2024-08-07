@@ -1007,14 +1007,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گەورە، مەزن، کەڵنگ، بەشکۆ، شکۆمەند: The wedding was a very grand occasion ◊ the Grand Duchess Elena
-2	زۆرچاک، یەکجار باش: Thanks. That'll be grand!
-3	هەرەگەورە، گەورە: a grand design/plan/strategy
-4	سەرەکی، گرنگ، بەرکەفتی
-5	گشت، هەموو
-6	بەرین، بەربڵاو
-7	خۆپێ‌زلانە
-8	(ماف) ڕشت
+کوردی: گەورە، مەزن، کەڵنگ، بەشکۆ، شکۆمەند،	زۆرچاک، یەکجار باش،	هەرەگەورە، گەورە،	سەرەکی، گرنگ، بەرکەفتی،	گشت، هەموو،	بەرین، بەربڵاو،	خۆپێ‌زلانە،	(ماف) ڕشت
 """),
 // With short examples define "grand", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),

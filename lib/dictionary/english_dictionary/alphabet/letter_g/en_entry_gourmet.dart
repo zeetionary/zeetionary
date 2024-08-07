@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygooseberry extends StatefulWidget {
-  const EnglishEntrygooseberry({super.key});
+class EnglishEntrygourmet extends StatefulWidget {
+  const EnglishEntrygourmet({super.key});
 
   @override
-  State<EnglishEntrygooseberry> createState() => _EnglishEntrygooseberryState();
+  State<EnglishEntrygourmet> createState() => _EnglishEntrygourmetState();
 }
 
-class _EnglishEntrygooseberryState extends State<EnglishEntrygooseberry> {
+class _EnglishEntrygourmetState extends State<EnglishEntrygourmet> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gooseberry (Derived forms: gooseberries)
-1. Spiny Eurasian shrub having greenish purple-tinged flowers and ovoid yellow-green or red-purple berries (- gooseberry bush, Ribes uva-crispa, Ribes grossularia, goosegog [Brit, informal])
- 
-2. Currant-like berry used primarily in jams and jellies (- goosegog [Brit, informal])
+- Noun: gourmet (Derived forms: gourmets)
+1. A person devoted to refined sensuous enjoyment (especially good food and drink) (- epicure, gastronome, bon vivant, epicurean, foodie, gastronomist)
+
+- Adjective: gourmet
+1. (of food) fine; high-quality
 """,
   );
 
-  final String keyword = "gooseberry";
+  final String keyword = "gourmet";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +79,23 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gooseberry""");
+    await flutterTts.speak("""gourmet""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gooseberries grow well in cool climates.""");
+    await flutterTts
+        .speak("""She prepared a gourmet meal for the dinner party.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""As a gourmet, she loved trying exotic cuisines.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -937,10 +940,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gooseberry""",
-                      // alsoEnglishWord: "also: gooseberry",
-                      britshText: """IpaUK: /ˈɡʊzbəri/""",
-                      americanText: """IpaUS: /ˈɡuːsberi/""",
+                      word: """gourmet""",
+                      // alsoEnglishWord: "also: gourmet",
+                      britshText: """IpaUK: /ˈɡʊəmeɪ/""",
+                      americanText: """IpaUS: /ˈɡʊrmeɪ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,25 +984,29 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: جوان، دڵڕفێن، سەرنج‌ڕاکێش،	بەشکۆ، بەتەنتەنە، بەکەشخە،	بەئاڵاوواڵا، ڕەنگاوڕەنگ، ڕازاوە، بەزریقەوبریقە، بریقاوی
+کوردی: 
 """),
+// With short examples define "gourmet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) میوەیەکی سەوزی کوڵکنی بچووکە کە بە شەتڵ گەشە دەکات و تامێکی ترشی هەیە"""),
+                            """١. (ناو) خواردن و خواردنەوەیەک کە زۆرجار کوالێتی بەرزە و گران‌بەهایە"""),
                     SentencesRow(
                       englishText:
-                          """Gooseberries grow well in cool climates.""",
+                          """She prepared a gourmet meal for the dinner party.""",
                       kurdishText:
-                          """گووزبێری لە کەشی فێنکدا باش گەشە دەکات.""",
+                          """ژەمێکی زۆرباشی بۆ ئاهەنگەکە ئامادە کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) کەسێک کە شارەزایی لە خواردن هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """As a gourmet, she loved trying exotic cuisines.""",
+                      kurdishText:
+                          """وەک خۆراکناسێک، حەزی دەکرد خواردنی بیانی تاقی بکاتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2133,18 +2140,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/pzlA9HDNwBs?t=';
-const double _startSecondsend = 000000000000000000000000000207;
-const String _videoIdone = 'https://youtu.be/rUtabLpT_6M?t=';
-const double _startSecondsone = 000000000000000000000000000771;
-const String _videoIdtwo = 'https://youtu.be/reayoUtJ0jU?t=';
-const double _startSecondstwo = 000000000000000000000000000273;
-const String _videoIdthree = 'https://youtu.be/QiiNBtPOTH4?t=';
-const double _startSecondsthree = 000000000000000000000000000482;
-const String _videoIdfour = 'https://youtu.be/LANeuZl_B1s?t=';
-const double _startSecondsfour = 000000000000000000000000000292;
-const String _videoIdfive = 'https://youtu.be/7tzTQnXuZKk?t=';
-const double _startSecondsfive = 000000000000000000000000000273;
+const String _videoIdend = 'https://youtu.be/a7wC2M0b5u0?t=';
+const double _startSecondsend = 000000000000000000000000000494;
+const String _videoIdone = 'https://youtu.be/ENWDU_RkUb8?t=';
+const double _startSecondsone = 000000000000000000000000000952;
+const String _videoIdtwo = 'https://youtu.be/Is1IWMPNqh4?t=';
+const double _startSecondstwo = 0000000000000000000000000001115;
+const String _videoIdthree = 'https://youtu.be/ZyrvMuNPJ-Y';
+const double _startSecondsthree = 0;
+const String _videoIdfour = 'https://youtu.be/Bv7Hw2dDflQ?t=';
+const double _startSecondsfour = 00000000000000000000000000020;
+const String _videoIdfive = 'https://youtu.be/69UIlCLyvNE?t=';
+const double _startSecondsfive = 000000000000000000000000000366;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

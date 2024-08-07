@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygooseberry extends StatefulWidget {
-  const EnglishEntrygooseberry({super.key});
+class EnglishEntrygown extends StatefulWidget {
+  const EnglishEntrygown({super.key});
 
   @override
-  State<EnglishEntrygooseberry> createState() => _EnglishEntrygooseberryState();
+  State<EnglishEntrygown> createState() => _EnglishEntrygownState();
 }
 
-class _EnglishEntrygooseberryState extends State<EnglishEntrygooseberry> {
+class _EnglishEntrygownState extends State<EnglishEntrygown> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,24 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gooseberry (Derived forms: gooseberries)
-1. Spiny Eurasian shrub having greenish purple-tinged flowers and ovoid yellow-green or red-purple berries (- gooseberry bush, Ribes uva-crispa, Ribes grossularia, goosegog [Brit, informal])
+- Noun: gown (Derived forms: gowns)
+1. A woman's dress, usually with a close-fitting bodice and a long flared skirt, often worn on formal occasions
  
-2. Currant-like berry used primarily in jams and jellies (- goosegog [Brit, informal])
+2. The members of a university as distinguished from the other residents of the town in which the university is located
+"the relations between town and gown are always sensitive"
+ 
+3. Lingerie consisting of a loose dress designed to be worn in bed by women (- nightgown, nightie [informal], night-robe, nightdress, nighty [informal])
+ 
+4. Protective garment worn by surgeons during operations (- surgical gown, scrubs)
+ 
+5. Outerwear consisting of a long flowing garment used for official or ceremonial occasions (- robe)
+
+- Verb: gown (Derived forms: gowns, gowning, gowned)
+1. Dress in a gown
 """,
   );
 
-  final String keyword = "gooseberry";
+  final String keyword = "gown";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,28 +88,30 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gooseberry""");
+    await flutterTts.speak("""gown""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gooseberries grow well in cool climates.""");
+    await flutterTts.speak("""She was dressed in a long flowing gown.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""A graduation gown is usually black with a cap.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The nurse handed him a surgeon’s gown before the surgery.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -937,10 +949,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gooseberry""",
-                      // alsoEnglishWord: "also: gooseberry",
-                      britshText: """IpaUK: /ˈɡʊzbəri/""",
-                      americanText: """IpaUS: /ˈɡuːsberi/""",
+                      word: """gown""",
+                      // alsoEnglishWord: "also: gown",
+                      britshText: """IpaUK: /ɡaʊn/""",
+                      americanText: """IpaUS: /ɡaʊn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,34 +993,42 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: جوان، دڵڕفێن، سەرنج‌ڕاکێش،	بەشکۆ، بەتەنتەنە، بەکەشخە،	بەئاڵاوواڵا، ڕەنگاوڕەنگ، ڕازاوە، بەزریقەوبریقە، بریقاوی
+کوردی: کراسی ژنانە، قەسری،	کەوا، عەبا، جبە، باڵاپۆش
 """),
+// With short examples define "gown", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) میوەیەکی سەوزی کوڵکنی بچووکە کە بە شەتڵ گەشە دەکات و تامێکی ترشی هەیە"""),
+                            """١. (ناو) جلێکی ژنانە، بە تایبەتی دانەیەکی درێژ بۆ بۆنەی تایبەت"""),
                     SentencesRow(
                       englishText:
-                          """Gooseberries grow well in cool climates.""",
-                      kurdishText:
-                          """گووزبێری لە کەشی فێنکدا باش گەشە دەکات.""",
+                          """She was dressed in a long flowing gown.""",
+                      kurdishText: """کراسێکی درێژی فشێ لەبەر کردبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) جلێک کە لەبەر دەکرێت لەلایەن دادوەران، پارێزەران، و ئەندامانی زانکۆ لە بۆنەی تایبەتیدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A graduation gown is usually black with a cap.""",
+                      kurdishText:
+                          """جلی دەرچوون لە زانکۆ بە شێوەیەکی گشتی ڕەشە لەگەڵ کڵاوێک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) جلێک کە ستافی نەخۆشخانە لەبەری دەکەن، بە تایبەتی بۆ خۆپارێزی لە نەخۆشی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The nurse handed him a surgeon’s gown before the surgery.""",
+                      kurdishText:
+                          """پەرستارەکە جلێکی نەشتەرگەری پێدا پێش ئەوەی نەشتەرگەرییەکە دەست پێبکات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2133,18 +2153,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/pzlA9HDNwBs?t=';
-const double _startSecondsend = 000000000000000000000000000207;
-const String _videoIdone = 'https://youtu.be/rUtabLpT_6M?t=';
-const double _startSecondsone = 000000000000000000000000000771;
-const String _videoIdtwo = 'https://youtu.be/reayoUtJ0jU?t=';
-const double _startSecondstwo = 000000000000000000000000000273;
-const String _videoIdthree = 'https://youtu.be/QiiNBtPOTH4?t=';
-const double _startSecondsthree = 000000000000000000000000000482;
-const String _videoIdfour = 'https://youtu.be/LANeuZl_B1s?t=';
-const double _startSecondsfour = 000000000000000000000000000292;
-const String _videoIdfive = 'https://youtu.be/7tzTQnXuZKk?t=';
-const double _startSecondsfive = 000000000000000000000000000273;
+const String _videoIdend = 'https://youtu.be/kaf4p10SiWY?t=';
+const double _startSecondsend = 0;
+const String _videoIdone = 'https://youtu.be/HDntl7yzzVI?t=';
+const double _startSecondsone = 000000000000000000000000000435;
+const String _videoIdtwo = 'https://youtu.be/9TugA_z5vQE?t=';
+const double _startSecondstwo = 000000000000000000000000000116;
+const String _videoIdthree = 'https://youtu.be/Tc_HhuikGCc?t=';
+const double _startSecondsthree = 0000000000000000000000000008;
+const String _videoIdfour = 'https://youtu.be/g01YnqH-2ek?t=';
+const double _startSecondsfour = 000000000000000000000000000211;
+const String _videoIdfive = 'https://youtu.be/wROC3b1CKtg?t=';
+const double _startSecondsfive = 000000000000000000000000000183;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygooseberry extends StatefulWidget {
-  const EnglishEntrygooseberry({super.key});
+class EnglishEntrygoverness extends StatefulWidget {
+  const EnglishEntrygoverness({super.key});
 
   @override
-  State<EnglishEntrygooseberry> createState() => _EnglishEntrygooseberryState();
+  State<EnglishEntrygoverness> createState() => _EnglishEntrygovernessState();
 }
 
-class _EnglishEntrygooseberryState extends State<EnglishEntrygooseberry> {
+class _EnglishEntrygovernessState extends State<EnglishEntrygoverness> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gooseberry (Derived forms: gooseberries)
-1. Spiny Eurasian shrub having greenish purple-tinged flowers and ovoid yellow-green or red-purple berries (- gooseberry bush, Ribes uva-crispa, Ribes grossularia, goosegog [Brit, informal])
- 
-2. Currant-like berry used primarily in jams and jellies (- goosegog [Brit, informal])
+- Noun: governess (Derived forms: governesses)
+1. A woman entrusted with the care and supervision of a child (especially in a private home)
 """,
   );
 
-  final String keyword = "gooseberry";
+  final String keyword = "governess";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,14 +76,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gooseberry""");
+    await flutterTts.speak("""governess""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gooseberries grow well in cool climates.""");
+    await flutterTts
+        .speak("""She was educated at home by a series of governesses.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -937,10 +936,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gooseberry""",
-                      // alsoEnglishWord: "also: gooseberry",
-                      britshText: """IpaUK: /ˈɡʊzbəri/""",
-                      americanText: """IpaUS: /ˈɡuːsberi/""",
+                      word: """governess""",
+                      // alsoEnglishWord: "also: governess",
+                      britshText: """IpaUK: /ˈɡʌvənəs/""",
+                      americanText: """IpaUS: /ˈɡʌvərnəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,16 +980,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: جوان، دڵڕفێن، سەرنج‌ڕاکێش،	بەشکۆ، بەتەنتەنە، بەکەشخە،	بەئاڵاوواڵا، ڕەنگاوڕەنگ، ڕازاوە، بەزریقەوبریقە، بریقاوی
+کوردی: 
 """),
+// With short examples define "governess", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) میوەیەکی سەوزی کوڵکنی بچووکە کە بە شەتڵ گەشە دەکات و تامێکی ترشی هەیە"""),
+                            """١. (ناو) ژنێک کە مامۆستای تایبەتی منداڵانی خێزانێکە و لەگەڵیان دەژی"""),
                     SentencesRow(
                       englishText:
-                          """Gooseberries grow well in cool climates.""",
+                          """She was educated at home by a series of governesses.""",
                       kurdishText:
-                          """گووزبێری لە کەشی فێنکدا باش گەشە دەکات.""",
+                          """لە ماڵەوە پەروەردە کرا لەلایەن ژمارەیەک ژنە مانۆستای تایبەتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2133,18 +2133,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/pzlA9HDNwBs?t=';
-const double _startSecondsend = 000000000000000000000000000207;
-const String _videoIdone = 'https://youtu.be/rUtabLpT_6M?t=';
-const double _startSecondsone = 000000000000000000000000000771;
-const String _videoIdtwo = 'https://youtu.be/reayoUtJ0jU?t=';
-const double _startSecondstwo = 000000000000000000000000000273;
-const String _videoIdthree = 'https://youtu.be/QiiNBtPOTH4?t=';
-const double _startSecondsthree = 000000000000000000000000000482;
-const String _videoIdfour = 'https://youtu.be/LANeuZl_B1s?t=';
-const double _startSecondsfour = 000000000000000000000000000292;
-const String _videoIdfive = 'https://youtu.be/7tzTQnXuZKk?t=';
-const double _startSecondsfive = 000000000000000000000000000273;
+const String _videoIdend = 'https://youtu.be/RhI8NrHparM?t=';
+const double _startSecondsend = 000000000000000000000000000383;
+const String _videoIdone = 'https://youtu.be/lAK9hIyLEUw?t=';
+const double _startSecondsone = 000000000000000000000000000457;
+const String _videoIdtwo = 'https://youtu.be/y0zBYOXrSp0?t=';
+const double _startSecondstwo = 00000000000000000000000000063;
+const String _videoIdthree = 'https://youtu.be/OXhEBfK3Njc?t=';
+const double _startSecondsthree = 000000000000000000000000000801;
+const String _videoIdfour = 'https://youtu.be/8N4swncj6bI?t=';
+const double _startSecondsfour = 00000000000000000000000000082;
+const String _videoIdfive = 'https://youtu.be/SeuEmmYp59E?t=';
+const double _startSecondsfive = 000000000000000000000000000746;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

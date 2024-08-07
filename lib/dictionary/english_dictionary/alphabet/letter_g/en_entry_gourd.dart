@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygooseberry extends StatefulWidget {
-  const EnglishEntrygooseberry({super.key});
+class EnglishEntrygourd extends StatefulWidget {
+  const EnglishEntrygourd({super.key});
 
   @override
-  State<EnglishEntrygooseberry> createState() => _EnglishEntrygooseberryState();
+  State<EnglishEntrygourd> createState() => _EnglishEntrygourdState();
 }
 
-class _EnglishEntrygooseberryState extends State<EnglishEntrygooseberry> {
+class _EnglishEntrygourdState extends State<EnglishEntrygourd> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gooseberry (Derived forms: gooseberries)
-1. Spiny Eurasian shrub having greenish purple-tinged flowers and ovoid yellow-green or red-purple berries (- gooseberry bush, Ribes uva-crispa, Ribes grossularia, goosegog [Brit, informal])
+- Noun: gourd (Derived forms: gourds)
+1. Any of numerous inedible fruits with hard rinds
  
-2. Currant-like berry used primarily in jams and jellies (- goosegog [Brit, informal])
+2. Any vine of the family Cucurbitaceae that bears fruits with hard rinds (- gourd vine)
+ 
+3. Bottle made from the dried shell of a bottle gourd (- calabash)
 """,
   );
 
-  final String keyword = "gooseberry";
+  final String keyword = "gourd";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,14 +80,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gooseberry""");
+    await flutterTts.speak("""gourd""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gooseberries grow well in cool climates.""");
+    await flutterTts
+        .speak("""They grew several varieties of gourds in the garden.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -937,10 +940,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gooseberry""",
-                      // alsoEnglishWord: "also: gooseberry",
-                      britshText: """IpaUK: /ˈɡʊzbəri/""",
-                      americanText: """IpaUS: /ˈɡuːsberi/""",
+                      word: """gourd""",
+                      // alsoEnglishWord: "also: gourd",
+                      britshText: """IpaUK: /ɡʊəd/,  /ɡɔːd/""",
+                      americanText: """IpaUS: /ɡʊrd/,  /ɡɔːrd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,16 +984,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: جوان، دڵڕفێن، سەرنج‌ڕاکێش،	بەشکۆ، بەتەنتەنە، بەکەشخە،	بەئاڵاوواڵا، ڕەنگاوڕەنگ، ڕازاوە، بەزریقەوبریقە، بریقاوی
+کوردی: 
 """),
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) میوەیەکی سەوزی کوڵکنی بچووکە کە بە شەتڵ گەشە دەکات و تامێکی ترشی هەیە"""),
+                        text: """١. (ھاوەڵناو) کوولەکەی سەوزباو"""),
                     SentencesRow(
                       englishText:
-                          """Gooseberries grow well in cool climates.""",
+                          """They grew several varieties of gourds in the garden.""",
                       kurdishText:
-                          """گووزبێری لە کەشی فێنکدا باش گەشە دەکات.""",
+                          """ژمارەیەک جۆری جیاواز لە کوولەکە لە باخچەکە دەچاند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2133,18 +2135,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/pzlA9HDNwBs?t=';
-const double _startSecondsend = 000000000000000000000000000207;
-const String _videoIdone = 'https://youtu.be/rUtabLpT_6M?t=';
-const double _startSecondsone = 000000000000000000000000000771;
-const String _videoIdtwo = 'https://youtu.be/reayoUtJ0jU?t=';
-const double _startSecondstwo = 000000000000000000000000000273;
-const String _videoIdthree = 'https://youtu.be/QiiNBtPOTH4?t=';
-const double _startSecondsthree = 000000000000000000000000000482;
-const String _videoIdfour = 'https://youtu.be/LANeuZl_B1s?t=';
-const double _startSecondsfour = 000000000000000000000000000292;
-const String _videoIdfive = 'https://youtu.be/7tzTQnXuZKk?t=';
-const double _startSecondsfive = 000000000000000000000000000273;
+const String _videoIdend = 'https://youtu.be/YRhqMWUH2Ig?t=';
+const double _startSecondsend = 000000000000000000000000000312;
+const String _videoIdone = 'https://youtu.be/W-ZuKp8P7gA?t=';
+const double _startSecondsone = 0000000000000000000000000001643;
+const String _videoIdtwo = 'https://youtu.be/1vnbc8PQDCk?t=';
+const double _startSecondstwo = 000000000000000000000000000304;
+const String _videoIdthree = 'https://youtu.be/S1opkMO1w4U?t=';
+const double _startSecondsthree = 000000000000000000000000000548;
+const String _videoIdfour = 'https://youtu.be/Hwv7KYzjX78?t=';
+const double _startSecondsfour = 0000000000000000000000000001312;
+const String _videoIdfive = 'https://youtu.be/ih8X45dZ5NI?t=';
+const double _startSecondsfive = 0000000000000000000000000001157;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygooseberry extends StatefulWidget {
-  const EnglishEntrygooseberry({super.key});
+class EnglishEntrygraciously extends StatefulWidget {
+  const EnglishEntrygraciously({super.key});
 
   @override
-  State<EnglishEntrygooseberry> createState() => _EnglishEntrygooseberryState();
+  State<EnglishEntrygraciously> createState() => _EnglishEntrygraciouslyState();
 }
 
-class _EnglishEntrygooseberryState extends State<EnglishEntrygooseberry> {
+class _EnglishEntrygraciouslyState extends State<EnglishEntrygraciously> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gooseberry (Derived forms: gooseberries)
-1. Spiny Eurasian shrub having greenish purple-tinged flowers and ovoid yellow-green or red-purple berries (- gooseberry bush, Ribes uva-crispa, Ribes grossularia, goosegog [Brit, informal])
- 
-2. Currant-like berry used primarily in jams and jellies (- goosegog [Brit, informal])
+- Adverb: graciously
+1. In a gracious or graceful manner (- gracefully)
+"he did not have a chance to grow up graciously";
 """,
   );
 
-  final String keyword = "gooseberry";
+  final String keyword = "graciously";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +77,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gooseberry""");
+    await flutterTts.speak("""graciously""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gooseberries grow well in cool climates.""");
+    await flutterTts.speak("""She graciously accepted our invitation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """They offered praise for what God had graciously given them.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -937,10 +937,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gooseberry""",
-                      // alsoEnglishWord: "also: gooseberry",
-                      britshText: """IpaUK: /ˈɡʊzbəri/""",
-                      americanText: """IpaUS: /ˈɡuːsberi/""",
+                      word: """graciously""",
+                      // alsoEnglishWord: "also: graciously",
+                      britshText: """IpaUK: /ˈɡreɪʃəsli/""",
+                      americanText: """IpaUS: /ˈɡreɪʃəsli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,25 +981,28 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: جوان، دڵڕفێن، سەرنج‌ڕاکێش،	بەشکۆ، بەتەنتەنە، بەکەشخە،	بەئاڵاوواڵا، ڕەنگاوڕەنگ، ڕازاوە، بەزریقەوبریقە، بریقاوی
+کوردی: لە ڕووی گەورەیی‌یەوە، بەبەزەیی‌یانە، دڵسۆزانە
 """),
+// With short examples define "graciously", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) میوەیەکی سەوزی کوڵکنی بچووکە کە بە شەتڵ گەشە دەکات و تامێکی ترشی هەیە"""),
+                            """١. (ھاوەڵکار) بەشێوەیەک کە بەڕێزانە و میهرەبانانەیە"""),
                     SentencesRow(
                       englishText:
-                          """Gooseberries grow well in cool climates.""",
-                      kurdishText:
-                          """گووزبێری لە کەشی فێنکدا باش گەشە دەکات.""",
+                          """She graciously accepted our invitation.""",
+                      kurdishText: """بەڕێزەوە بانگهێشتەکەمانی پەسەند کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵکار) بە میهرەبانی و بەخشندەیی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They offered praise for what God had graciously given them.""",
+                      kurdishText:
+                          """نزایان کرد بۆ ئەوەی خودا بە میهرەبانی پێی دابوون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2133,18 +2136,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/pzlA9HDNwBs?t=';
-const double _startSecondsend = 000000000000000000000000000207;
-const String _videoIdone = 'https://youtu.be/rUtabLpT_6M?t=';
-const double _startSecondsone = 000000000000000000000000000771;
-const String _videoIdtwo = 'https://youtu.be/reayoUtJ0jU?t=';
-const double _startSecondstwo = 000000000000000000000000000273;
-const String _videoIdthree = 'https://youtu.be/QiiNBtPOTH4?t=';
-const double _startSecondsthree = 000000000000000000000000000482;
-const String _videoIdfour = 'https://youtu.be/LANeuZl_B1s?t=';
-const double _startSecondsfour = 000000000000000000000000000292;
-const String _videoIdfive = 'https://youtu.be/7tzTQnXuZKk?t=';
-const double _startSecondsfive = 000000000000000000000000000273;
+const String _videoIdend = 'https://youtu.be/5R65skWdg7Y?t=';
+const double _startSecondsend = 0000000000000000000000000003151;
+const String _videoIdone = 'https://youtu.be/JNpKUp5FTeY?t=';
+const double _startSecondsone = 000000000000000000000000000578;
+const String _videoIdtwo = 'https://youtu.be/waZyyWnNJ_Y?t=';
+const double _startSecondstwo = 0000000000000000000000000001044;
+const String _videoIdthree = 'https://youtu.be/XkYvo6S82LE?t=';
+const double _startSecondsthree = 0000000000000000000000000002585;
+const String _videoIdfour = 'https://youtu.be/WwhyZUlmaWA?t=';
+const double _startSecondsfour = 0000000000000000000000000003599;
+const String _videoIdfive = 'https://youtu.be/112H-vY4Wdo?t=';
+const double _startSecondsfive = 000000000000000000000000000789;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

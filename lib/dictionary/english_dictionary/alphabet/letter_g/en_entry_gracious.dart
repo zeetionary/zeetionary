@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygooseberry extends StatefulWidget {
-  const EnglishEntrygooseberry({super.key});
+class EnglishEntrygracious extends StatefulWidget {
+  const EnglishEntrygracious({super.key});
 
   @override
-  State<EnglishEntrygooseberry> createState() => _EnglishEntrygooseberryState();
+  State<EnglishEntrygracious> createState() => _EnglishEntrygraciousState();
 }
 
-class _EnglishEntrygooseberryState extends State<EnglishEntrygooseberry> {
+class _EnglishEntrygraciousState extends State<EnglishEntrygracious> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,27 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gooseberry (Derived forms: gooseberries)
-1. Spiny Eurasian shrub having greenish purple-tinged flowers and ovoid yellow-green or red-purple berries (- gooseberry bush, Ribes uva-crispa, Ribes grossularia, goosegog [Brit, informal])
+- Adjective: gracious
+1. Characterized by charm, good taste, and generosity of spirit
+"gracious even to unexpected visitors"; "gracious living"; "he bears insult with gracious good humour"
  
-2. Currant-like berry used primarily in jams and jellies (- goosegog [Brit, informal])
+2. Characterized by kindness and warm courtesy especially of a king to his subjects (- benignant)
+"our gracious king";
+ 
+3. Exhibiting courtesy and politeness (- courteous, nice)
+"a gracious gesture";
+ 
+4. Disposed to bestow favours
+"thanks to the gracious gods"
+
+- Interjection: gracious
+Usage: informal
+1. Used to express surprise (- Christ [informal], Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness [informal], goodness me [informal], Gordon Bennett [informal], gracious me [informal], fancy that [informal], gawd [informal], god, my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
+"Good gracious me, when did you come, where have you come from, what have you been doing?";
 """,
   );
 
-  final String keyword = "gooseberry";
+  final String keyword = "gracious";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,35 +91,35 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gooseberry""");
+    await flutterTts.speak("""gracious""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gooseberries grow well in cool climates.""");
+    await flutterTts.speak("""Lady Caroline was gracious enough to accept our invitation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He has not yet learned how to be gracious in defeat.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""We can't afford gracious living.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The performance will take place in the gracious presence of HRH the Prince of Wales.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -937,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gooseberry""",
-                      // alsoEnglishWord: "also: gooseberry",
-                      britshText: """IpaUK: /ˈɡʊzbəri/""",
-                      americanText: """IpaUS: /ˈɡuːsberi/""",
+                      word: """gracious""",
+                      // alsoEnglishWord: "also: gracious",
+                      britshText: """IpaUK: /ˈɡreɪʃəs/""",
+                      americanText: """IpaUS: /ˈɡreɪʃəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,16 +994,13 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: جوان، دڵڕفێن، سەرنج‌ڕاکێش،	بەشکۆ، بەتەنتەنە، بەکەشخە،	بەئاڵاوواڵا، ڕەنگاوڕەنگ، ڕازاوە، بەزریقەوبریقە، بریقاوی
+کوردی: دڵسۆز، دڵنەرم، بەبەزەیی، دڵنەوا،	گەورە، لە ڕووی گەورەیی یان پیاوەتی‌یەوە، بەسەرکەرەوە،	(خودا) دڵوڤان، بەدەهندە، بەڕەحم،	بەڕەوشتانە،	شایانە، بەشکۆ
 """),
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ناو) میوەیەکی سەوزی کوڵکنی بچووکە کە بە شەتڵ گەشە دەکات و تامێکی ترشی هەیە"""),
+// With short examples define "gracious", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) بەخشندە و بەڕێز و میهرەبان"""),
                     SentencesRow(
-                      englishText:
-                          """Gooseberries grow well in cool climates.""",
-                      kurdishText:
-                          """گووزبێری لە کەشی فێنکدا باش گەشە دەکات.""",
+                      englishText: """Lady Caroline was gracious enough to accept our invitation.""",
+                      kurdishText: """خاتوو کارۆلاین هێندە بەڕێز بوو کە بانگهێشتەکەی پەسەند بکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -998,26 +1008,26 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He has not yet learned how to be gracious in defeat.""",
+                      kurdishText: """فێرنەبووە بەڕێز بێت لە شکستدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) ژیانێکی ئاسوودە و ئاسان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We can't afford gracious living.""",
+                      kurdishText: """ناتوانین ژیانێکی ئاسوودە دابین بکەین.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) وەک ڕێزگرتن لەکاتی قسەکردن لەگەڵ کەسانی شاهانە و باسکردنی کارەکانیان بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The performance will take place in the gracious presence of HRH the Prince of Wales.""",
+                      kurdishText: """نمایشەکە بە ئامادەبوونی بەڕێزی خاوەن شکۆ شازادەی وێڵز بەڕێوە دەچێت..""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -2133,18 +2143,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/pzlA9HDNwBs?t=';
-const double _startSecondsend = 000000000000000000000000000207;
-const String _videoIdone = 'https://youtu.be/rUtabLpT_6M?t=';
-const double _startSecondsone = 000000000000000000000000000771;
-const String _videoIdtwo = 'https://youtu.be/reayoUtJ0jU?t=';
-const double _startSecondstwo = 000000000000000000000000000273;
-const String _videoIdthree = 'https://youtu.be/QiiNBtPOTH4?t=';
-const double _startSecondsthree = 000000000000000000000000000482;
-const String _videoIdfour = 'https://youtu.be/LANeuZl_B1s?t=';
-const double _startSecondsfour = 000000000000000000000000000292;
-const String _videoIdfive = 'https://youtu.be/7tzTQnXuZKk?t=';
-const double _startSecondsfive = 000000000000000000000000000273;
+const String _videoIdend = 'https://youtu.be/8HEfIJlcFbs?t=';
+const double _startSecondsend = 000000000000000000000000000408;
+const String _videoIdone = 'https://youtu.be/YRhqMWUH2Ig?t=';
+const double _startSecondsone = 000000000000000000000000000130;
+const String _videoIdtwo = 'https://youtu.be/d3qOoYZppaQ?t=';
+const double _startSecondstwo = 000000000000000000000000000940;
+const String _videoIdthree = 'https://youtu.be/lEgPVrSZa6w?t=';
+const double _startSecondsthree = 000000000000000000000000000435;
+const String _videoIdfour = 'https://youtu.be/6vWXjKXtLnU?t=';
+const double _startSecondsfour = 000000000000000000000000000209;
+const String _videoIdfive = 'https://youtu.be/afc783au8d8?t=';
+const double _startSecondsfive = 000000000000000000000000000432;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

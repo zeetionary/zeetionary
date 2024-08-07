@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygooseberry extends StatefulWidget {
-  const EnglishEntrygooseberry({super.key});
+class EnglishEntrygps extends StatefulWidget {
+  const EnglishEntrygps({super.key});
 
   @override
-  State<EnglishEntrygooseberry> createState() => _EnglishEntrygooseberryState();
+  State<EnglishEntrygps> createState() => _EnglishEntrygpsState();
 }
 
-class _EnglishEntrygooseberryState extends State<EnglishEntrygooseberry> {
+class _EnglishEntrygpsState extends State<EnglishEntrygps> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gooseberry (Derived forms: gooseberries)
-1. Spiny Eurasian shrub having greenish purple-tinged flowers and ovoid yellow-green or red-purple berries (- gooseberry bush, Ribes uva-crispa, Ribes grossularia, goosegog [Brit, informal])
- 
-2. Currant-like berry used primarily in jams and jellies (- goosegog [Brit, informal])
+- Noun: GPS
+1. A navigational system involving satellites and computers that can determine the latitude and longitude of a receiver on Earth by computing the time difference for signals from different satellites to reach the receiver (- Global Positioning System)
 """,
   );
 
-  final String keyword = "gooseberry";
+  final String keyword = "GPS";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,14 +76,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""gooseberry""");
+    await flutterTts.speak("""GPS""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gooseberries grow well in cool climates.""");
+    await flutterTts.speak(
+        """She switched on the GPS system before she left the airport.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -937,10 +936,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gooseberry""",
-                      // alsoEnglishWord: "also: gooseberry",
-                      britshText: """IpaUK: /ˈɡʊzbəri/""",
-                      americanText: """IpaUS: /ˈɡuːsberi/""",
+                      word: """GPS""",
+                      // alsoEnglishWord: "also: GPS",
+                      britshText: """IpaUK: /ˌdʒiː piː ˈes/""",
+                      americanText: """IpaUS: /ˌdʒiː piː ˈes/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,16 +980,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: جوان، دڵڕفێن، سەرنج‌ڕاکێش،	بەشکۆ، بەتەنتەنە، بەکەشخە،	بەئاڵاوواڵا، ڕەنگاوڕەنگ، ڕازاوە، بەزریقەوبریقە، بریقاوی
+کوردی: 
 """),
+// With short examples define "GPS", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) میوەیەکی سەوزی کوڵکنی بچووکە کە بە شەتڵ گەشە دەکات و تامێکی ترشی هەیە"""),
+                            """١. (ناو) سیستەمێکە کە پەخش لە مانگی دەستکردەکانەوە دەنێردرێت بۆ ئامێرێکی تایبەت، بەکاردێت بۆ نیشاندانی شوێنی کەسێک یان شتێک لەسەر زەوی بە شێوەیەکی زۆر ورد"""),
                     SentencesRow(
                       englishText:
-                          """Gooseberries grow well in cool climates.""",
+                          """She switched on the GPS system before she left the airport.""",
                       kurdishText:
-                          """گووزبێری لە کەشی فێنکدا باش گەشە دەکات.""",
+                          """سیستەمی جی‌پی‌ئێسیان خستە کار پێش ئەوەی فڕۆکەخانەکە جێبهێڵێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2133,18 +2133,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/pzlA9HDNwBs?t=';
-const double _startSecondsend = 000000000000000000000000000207;
-const String _videoIdone = 'https://youtu.be/rUtabLpT_6M?t=';
-const double _startSecondsone = 000000000000000000000000000771;
-const String _videoIdtwo = 'https://youtu.be/reayoUtJ0jU?t=';
-const double _startSecondstwo = 000000000000000000000000000273;
-const String _videoIdthree = 'https://youtu.be/QiiNBtPOTH4?t=';
-const double _startSecondsthree = 000000000000000000000000000482;
-const String _videoIdfour = 'https://youtu.be/LANeuZl_B1s?t=';
-const double _startSecondsfour = 000000000000000000000000000292;
-const String _videoIdfive = 'https://youtu.be/7tzTQnXuZKk?t=';
-const double _startSecondsfive = 000000000000000000000000000273;
+const String _videoIdend = 'https://youtu.be/82tcHq84KTU?t=';
+const double _startSecondsend = 00000000000000000000000000041;
+const String _videoIdone = 'https://youtu.be/ObRYNKXwzrs?t=';
+const double _startSecondsone = 00000000000000000000000000020;
+const String _videoIdtwo = 'https://youtu.be/CnwAJrDikgU?t=';
+const double _startSecondstwo = 00000000000000000000000000046;
+const String _videoIdthree = 'https://youtu.be/3jbpoxKzoIs';
+const double _startSecondsthree = 0;
+const String _videoIdfour = 'https://youtu.be/a_TSR_v07m0?t=';
+const double _startSecondsfour = 000000000000000000000000000183;
+const String _videoIdfive = 'https://youtu.be/LxdoC2sG1i4?t=';
+const double _startSecondsfive = 00000000000000000000000000096;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

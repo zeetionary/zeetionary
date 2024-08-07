@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygraciousness extends StatefulWidget {
-  const EnglishEntrygraciousness({super.key});
+class EnglishEntrygrain extends StatefulWidget {
+  const EnglishEntrygrain({super.key});
 
   @override
-  State<EnglishEntrygraciousness> createState() => _EnglishEntrygraciousnessState();
+  State<EnglishEntrygrain> createState() => _EnglishEntrygrainState();
 }
 
-class _EnglishEntrygraciousnessState extends State<EnglishEntrygraciousness> {
+class _EnglishEntrygrainState extends State<EnglishEntrygrain> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +51,47 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: graciousness
-1. Excellence of manners or social conduct
+- Noun: grain (Derived forms: grains)
+1. A relatively small granular particle of a substance
+"a grain of sand"; "a grain of sugar"
  
-2. The quality of being kind and gentle (- benignity, benignancy)
+2. Foodstuff prepared from the starchy grains of cereal grasses (- food grain, cereal)
+ 
+3. The side of leather from which the hair has been removed
+ 
+4. A weight unit used for pearls or diamonds: 50 mg or 1/4 carat (- metric grain)
+ 
+5. 1/60 dram; equals an avoirdupois grain or 64.799 milligrams
+ 
+6. 1/7000 pound; equals a troy grain or 64.799 milligrams
+ 
+7. Dry seed-like fruit produced by the cereal grasses: e.g. wheat, barley, Indian corn (- caryopsis)
+ 
+8. A cereal grass
+"wheat is a grain that is grown in Kansas"
+ 
+9. The smallest possible unit of anything
+"there was a grain of truth in what he said"; "he does not have a grain of sense"
+ 
+10. The direction, texture, or pattern of fibers found in wood or leather or stone or in a woven fabric
+"saw the board across the grain"
+ 
+11. The physical composition of something (especially with respect to the size and shape of the small constituents of a substance) (- texture)
+"sand of a fine grain"; "a stone of coarse grain";
+
+- Verb: grain (Derived forms: grains, graining, grained)
+1. Thoroughly work in (- ingrain, engrain)
+"His hands were grained with dirt";
+ 
+2. Paint (a surface) to make it look like stone or wood
+ 
+3. Form into grains (- granulate)
+ 
+4. Become granular (- granulate)
 """,
   );
 
-  final String keyword = "graciousness";
+  final String keyword = "grain";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,49 +111,53 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""graciousness""");
+    await flutterTts.speak("""grain""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""His humility and graciousness have won our hearts.""");
+    await flutterTts
+        .speak("""Russia sold 12 million tons of grain abroad last year.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The house retains its air of tranquillity and graciousness.""");
+    await flutterTts
+        .speak("""Grain production has been falling in recent years.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The peasants had ceased to sow grain.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""I got a grain of sand in my eye.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""There isn't a grain of truth in those rumours.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """The analysis showed a few grains of arsenic in the solution.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -937,10 +974,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """graciousness""",
-                      // alsoEnglishWord: "also: graciousness",
-                      britshText: """IpaUK: /ˈɡreɪʃəsnəs/""",
-                      americanText: """IpaUS: /ˈɡreɪʃəsnəs/""",
+                      word: """grain""",
+                      // alsoEnglishWord: "also: grain",
+                      britshText: """IpaUK: /ɡreɪn/""",
+                      americanText: """IpaUS: /ɡreɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,22 +1018,28 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دڵسۆزی، دڵوڤانی، دڵنەرمی، بەبەزەیێتی،	بەدەهندەیی،	گەورەیی
+کوردی: دانەوێڵە، پەتڵە، دڕکەدو، دغڵ، دەغڵ‌ودان، وشکەدان، وردەدان، دانوو، دەنک، دان، تۆو، توو،	جۆیێ، بڕێ، بڕێکی زۆر کەم،	(دار) بار یان دۆخی ڕەگ، باری ڕەگە، باری ڕیشاڵ،	(بەرد) ڕەگە، دەمار، چین،	ڕەنگ(جێگیر یان کاڵەوەنەبوو)، خۆڕەنگ،	(خوازە) سروشت، بار، دۆخ، وەزع،	ناڕێکی یان زبر و چرچی دیوی دەرەوەی چەرم،	گەنم، گەنمە، دەنک
 """),
-// With short examples define "graciousness", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ئەوەی میهرەبان، بەڕێز، و دەستکراوە بیت"""),
+// With short examples define "grain", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دەنکە تۆوی هەندێک خواردنی وەک گەنم، برنج، هتد"""),
                     SentencesRow(
-                      englishText: """His humility and graciousness have won our hearts.""",
-                      kurdishText: """سادەیی و دلۆڤانییەکەی دڵمانی بەدەست هێناوە.""",
+                      englishText:
+                          """Russia sold 12 million tons of grain abroad last year.""",
+                      kurdishText:
+                          """ڕووسیا ساڵی ڕابردوو ١٢ ملیۆن تەن دانەوێڵەی لە دەرەوە فرۆشت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) ئەوەی کە شێوەی ئاسوودەیی و ئاسانی ژیان دابین بکات"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The house retains its air of tranquillity and graciousness.""",
-                      kurdishText: """خانووەکە هێشتا کەشی ئارامی و شکۆمەندی خۆی پاراستووە.""",
+                      englishText:
+                          """Grain production has been falling in recent years.""",
+                      kurdishText:
+                          """بەرهەمهێنانی دانەوێڵە لەم ساڵانەی دواییدا کەمی کردووە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1004,35 +1047,43 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The peasants had ceased to sow grain.""",
+                      kurdishText:
+                          """جووتیاران وازیان هێناوە لەوەی دانەوێڵە بچێنن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) بەشێکی بچووکی سەختی مادەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I got a grain of sand in my eye.""",
+                      kurdishText: """دەنکە گەنمێک چووەتە چاوم.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) ڕێژەیەکی زۆر کەم"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: iota"),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There isn't a grain of truth in those rumours.""",
+                      kurdishText: """دەنکۆڵەیەک ڕاستی لە قسەکانیدا نییە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) یەکەیەکی بچووکی پێوانە کە یەکسانە بە ٠,٠٦٤٨ گرام یان ٠,٠٠١٤٣ پاوەند و بەکاردێت بۆ پێوانی دەرمان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The analysis showed a few grains of arsenic in the solution.""",
+                      kurdishText:
+                          """پشکنینەکە چەند گرەینێک لە زەرنیخی لە گیراوەکە پیشان دا.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -2130,18 +2181,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/6p0qaIHMNK0?t=';
-const double _startSecondsend = 000000000000000000000000000454;
-const String _videoIdone = 'https://youtu.be/NCeu5Wy-oVI?t=';
-const double _startSecondsone = 000000000000000000000000000680;
-const String _videoIdtwo = 'https://youtu.be/P-NTz99Yu74?t=';
-const double _startSecondstwo = 000000000000000000000000000105;
-const String _videoIdthree = 'https://youtu.be/qkmJ2i4kZ1c?t=';
-const double _startSecondsthree = 000000000000000000000000000973;
-const String _videoIdfour = 'https://youtu.be/gXEWgXNmi-8?t=';
-const double _startSecondsfour = 000000000000000000000000000638;
-const String _videoIdfive = 'https://youtu.be/96mL1Lmf5Ik?t=';
-const double _startSecondsfive = 00000000000000000000000000022;
+const String _videoIdend = 'https://youtu.be/Op7Ii3ikfSk?t=';
+const double _startSecondsend = 0;
+const String _videoIdone = 'https://youtu.be/0dtBjqIu5W8?t=';
+const double _startSecondsone = 00000000000000000000000000035;
+const String _videoIdtwo = 'https://youtu.be/qziXjkrPx5c?t=';
+const double _startSecondstwo = 00000000000000000000000000057;
+const String _videoIdthree = 'https://youtu.be/PKrInVDqYVQ?t=';
+const double _startSecondsthree = 000000000000000000000000000371;
+const String _videoIdfour = 'https://youtu.be/ciDjE518YFM?t=';
+const double _startSecondsfour = 000000000000000000000000000203;
+const String _videoIdfive = 'https://youtu.be/ugQ16k85xcc?t=';
+const double _startSecondsfive = 000000000000000000000000000255;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

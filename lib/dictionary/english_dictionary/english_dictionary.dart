@@ -345,6 +345,7 @@ class _DictionaryScreenEnglishState
     input = input.replaceAll('ce', 'se');
     input = input.replaceAll('sation', 'zation');
     input = input.replaceAll('amme', 'am');
+    input = input.replaceAll('mme', 'm');
     input = input.replaceAll('ogue', 'og');
     input = input.replaceAll('llery', 'lry');
     input = input.replaceAll('nes', 'ns');

@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygraciousness extends StatefulWidget {
-  const EnglishEntrygraciousness({super.key});
+class EnglishEntrygrade extends StatefulWidget {
+  const EnglishEntrygrade({super.key});
 
   @override
-  State<EnglishEntrygraciousness> createState() => _EnglishEntrygraciousnessState();
+  State<EnglishEntrygrade> createState() => _EnglishEntrygradeState();
 }
 
-class _EnglishEntrygraciousnessState extends State<EnglishEntrygraciousness> {
+class _EnglishEntrygradeState extends State<EnglishEntrygrade> {
   @override
   void initState() {
     super.initState();
@@ -51,14 +52,45 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: graciousness
-1. Excellence of manners or social conduct
+- Noun: grade (Derived forms: grades)
+1. [N. Amer] A body of students who are taught together (- class, form, course)
+"early morning grades are always sleepy";
  
-2. The quality of being kind and gentle (- benignity, benignancy)
+2. A relative position or degree of value in a graded group (- level, tier)
+"lumber of the highest grade";
+ 
+3. [N. Amer] The gradient of a slope, road or other surface
+"the road had a steep grade"
+ 
+4. One-hundredth of a right angle (- grad)
+ 
+5. A degree of ablaut (- gradation)
+ 
+6. A number or letter indicating quality (especially of a student's performance) (- mark, score)
+"grade A milk";
+ 
+7. The height of the ground on which something stands (- ground level)
+"the base of the tower was below grade";
+ 
+8. A position on a scale of intensity, amount or quality (- degree, level)
+"a moderate grade of intelligence";
+ 
+9. A variety of cattle produced by crossbreeding with a superior breed
+
+- Verb: grade (Derived forms: grading, grades, graded)
+1. Assign a rank or rating to (= - rate, rank, range, order, place)
+"The restaurant is graded highly in the food guide";
+ 
+2. Level to the right gradient
+ 
+3. Assign a grade or rank to, according to one's evaluation (- score, mark)
+"grade tests";
+ 
+4. Determine the grade of or assign a grade to
 """,
   );
 
-  final String keyword = "graciousness";
+  final String keyword = "grade";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,140 +110,147 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""graciousness""");
+    await flutterTts.speak("""grade""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""His humility and graciousness have won our hearts.""");
+    await flutterTts.speak("""She got good grades in her exams.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The house retains its air of tranquillity and graciousness.""");
+    await flutterTts
+        .speak("""70 per cent of students achieved Grade C or above.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""I need to improve my grades.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""The oral exam constitutes 10 per cent of the final grade.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""Sam is in (the) second grade.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""He skipped a grade so he finished high school early.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts
+        .speak("""My son will be starting third grade this fall.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""He moved up three grades in just a year.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts
+        .speak("""All the materials used were of the highest grade.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""She's still only on a secretarial grade.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak("""She was offered a job at a lower grade.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts.speak("""The majority of staff are on the same grade.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1300""");
+    await flutterTts
+        .speak("""The doctor was concerned about his high grade fever.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts.speak("""I spent all weekend grading papers.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1500""");
+    await flutterTts.speak("""The best students are graded A.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1600""");
+    await flutterTts.speak("""I don't think he graded our essays fairly.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1700""");
+    await flutterTts.speak("""Eggs are graded from small to extra large.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1800""");
+    await flutterTts.speak("""Ten beaches were graded as acceptable.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1900""");
+    await flutterTts
+        .speak("""The grammar exercises are graded for difficulty.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
@@ -937,10 +976,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """graciousness""",
-                      // alsoEnglishWord: "also: graciousness",
-                      britshText: """IpaUK: /ˈɡreɪʃəsnəs/""",
-                      americanText: """IpaUS: /ˈɡreɪʃəsnəs/""",
+                      word: """grade""",
+                      // alsoEnglishWord: "also: grade",
+                      britshText: """IpaUK: /ɡreɪd/""",
+                      americanText: """IpaUS: /ɡreɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,22 +1020,27 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دڵسۆزی، دڵوڤانی، دڵنەرمی، بەبەزەیێتی،	بەدەهندەیی،	گەورەیی
+کوردی: پلە، نمرە، چین، ئەندازە، چینە، توێژ،	پلەی سەربازی،	قۆناخ،	ڕادە، پایە، تەراز، ئاست،	پۆل، ساڵی خوێندن، نمرە، نیشە،	جۆر، چەشن، ئاوا
 """),
-// With short examples define "graciousness", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ئەوەی میهرەبان، بەڕێز، و دەستکراوە بیت"""),
+// With short examples define "grade", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (ناو) نمرەی تاقیکردنەوە"""),
                     SentencesRow(
-                      englishText: """His humility and graciousness have won our hearts.""",
-                      kurdishText: """سادەیی و دلۆڤانییەکەی دڵمانی بەدەست هێناوە.""",
+                      englishText: """She got good grades in her exams.""",
+                      kurdishText: """نمرەی باشی لە تاقیکردنەوەکانی هێنا.""",
+                      englishNote:
+                          """(American English) She got good grades on her exams.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) ئەوەی کە شێوەی ئاسوودەیی و ئاسانی ژیان دابین بکات"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The house retains its air of tranquillity and graciousness.""",
-                      kurdishText: """خانووەکە هێشتا کەشی ئارامی و شکۆمەندی خۆی پاراستووە.""",
+                      englishText:
+                          """70 per cent of students achieved Grade C or above.""",
+                      kurdishText:
+                          """٧٠ لە سەدی خوێندکاران نمرەی C یان بەرزتریان هێنا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1004,8 +1048,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I need to improve my grades.""",
+                      kurdishText: """دەبێت نمرەکانم باشتر بکەم.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1013,17 +1057,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The oral exam constitutes 10 per cent of the final grade.""",
+                      kurdishText:
+                          """تاقیکردنەوە زارەکییەکە ١٠ لە سەدی تاقیکردنەوەی کۆتایی پێکدێنێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) لە سیستەمی خوێندنی ئەمریکا یەکێکە لە قۆناغەکانی خوێندن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Sam is in (the) second grade.""",
+                      kurdishText: """سام لە قۆناغی دووەمە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1031,8 +1079,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He skipped a grade so he finished high school early.""",
+                      kurdishText:
+                          """قۆناغێکی پەڕدا بۆیە خوێندنی ئامادەیی زوو تەواو کرد.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1040,8 +1090,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """My son will be starting third grade this fall.""",
+                      kurdishText:
+                          """ئەم پاییزە کوڕەکەم قۆناغی سێیەم تەواو دەکات.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1049,26 +1101,32 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He moved up three grades in just a year.""",
+                      kurdishText: """کە تەنها یەک ساڵدا سێ ساڵ چووە پێشەوە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) کوالێتی بەرهەم یان مادەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """All the materials used were of the highest grade.""",
+                      kurdishText:
+                          """هەموو ئەو مادانەی بەکارهێندران لە بەرزترین ئاستدا بوون.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) پلەی کەسێک لە دامەزراوەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She's still only on a secretarial grade.""",
+                      kurdishText: """هێشتا لە پلەی سکرتێرییە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -1076,8 +1134,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was offered a job at a lower grade.""",
+                      kurdishText: """کارێکی لە پۆستێکی نزمتر پێدرا.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -1085,26 +1144,41 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The majority of staff are on the same grade.""",
+                      kurdishText: """زۆرینەی ستافەکە لە هەمان پلەن.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ناو) ئاستی توندی نەخۆشییەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The doctor was concerned about his high grade fever.""",
+                      kurdishText:
+                          """پزیشکەکە نیگەران بوو سەبارەت بە تایە ئاست بەرزەکەی.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    CustomRichText(
+                      textBeforeLink: "٦. بڕوانە لە ",
+                      linkText: "gradient",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context).push("/english-grade/gradient");
+                      },
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٧. (کردار) پێدانی نمرە بە خوێندکار"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I spent all weekend grading papers.""",
+                      kurdishText:
+                          """تەواوی کۆتایی هەفتەم بەسەر برد بە نمرەدانانی وەڵام.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -1112,8 +1186,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The best students are graded A.""",
+                      kurdishText:
+                          """باشترین خوێندکارەکان نمرەی A ــیان پێدەدرێت.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -1121,17 +1196,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I don't think he graded our essays fairly.""",
+                      kurdishText:
+                          """پێم وانییە بە دادپەروەری نمرەی دابێت داڕشتنەکانمان.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٨. (کردار) ڕێکخستنی خەڵکی یان شت بە گرووپ بەپێی توانا، ئەندازە، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Eggs are graded from small to extra large.""",
+                      kurdishText:
+                          """هێلکەکان لە بچووکەوە بۆ زۆر گەورە ڕێکدەخرێت.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -1139,8 +1220,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Ten beaches were graded as acceptable.""",
+                      kurdishText: """دە کەناراو لە گرووپی پەسەند دانران.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -1148,8 +1229,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The grammar exercises are graded for difficulty.""",
+                      kurdishText:
+                          """ڕاهێنانە ڕێزمانییەکان بەپێی سەختی پۆلێن کراون.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -2130,18 +2213,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/6p0qaIHMNK0?t=';
-const double _startSecondsend = 000000000000000000000000000454;
-const String _videoIdone = 'https://youtu.be/NCeu5Wy-oVI?t=';
-const double _startSecondsone = 000000000000000000000000000680;
-const String _videoIdtwo = 'https://youtu.be/P-NTz99Yu74?t=';
-const double _startSecondstwo = 000000000000000000000000000105;
-const String _videoIdthree = 'https://youtu.be/qkmJ2i4kZ1c?t=';
-const double _startSecondsthree = 000000000000000000000000000973;
-const String _videoIdfour = 'https://youtu.be/gXEWgXNmi-8?t=';
-const double _startSecondsfour = 000000000000000000000000000638;
-const String _videoIdfive = 'https://youtu.be/96mL1Lmf5Ik?t=';
-const double _startSecondsfive = 00000000000000000000000000022;
+const String _videoIdend = 'https://youtu.be/4J0xFUyz1nw?t=';
+const double _startSecondsend = 000000000000000000000000000412;
+const String _videoIdone = 'https://youtu.be/_GFkHA5EZdE?t=';
+const double _startSecondsone = 000000000000000000000000000377;
+const String _videoIdtwo = 'https://youtu.be/70d22_haOiU?t=';
+const double _startSecondstwo = 000000000000000000000000000146;
+const String _videoIdthree = 'https://youtu.be/Pto9L7kjuSM?t=';
+const double _startSecondsthree = 00000000000000000000000000076;
+const String _videoIdfour = 'https://youtu.be/f7DqQ5lOlaU?t=';
+const double _startSecondsfour = 000000000000000000000000000206;
+const String _videoIdfive = 'https://youtu.be/dqcSk-EDrRo?t=';
+const double _startSecondsfive = 000000000000000000000000000209;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -1,21 +1,95 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: EnglishEntryaccommodation - speakAccommodation - accommodation - /əˌkɒməˈdeɪʃn/
-
 enum TtsState { playing }
 
-class EnglishEntryaccommodation extends StatelessWidget {
-  EnglishEntryaccommodation({super.key});
-  final FlutterTts flutterTts = FlutterTts();
+class EnglishEntryaccommodation extends StatefulWidget {
+  const EnglishEntryaccommodation({super.key});
 
-  Future<void> speakaccommodation(String languageCode) async {
+  @override
+  State<EnglishEntryaccommodation> createState() => _EnglishEntryaccommodationState();
+}
+
+class _EnglishEntryaccommodationState extends State<EnglishEntryaccommodation> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
+
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: accommodation (derived forms: accommodations)
+1. Living quarters provided for public convenience
+"the nearby hotel offers overnight accommodation"
+ 
+2. Making or becoming suitable; adjusting to circumstances (= adjustment, fitting)
+ 
+3. A settlement of differences
+"they reached an accommodation with Japan"
+ 
+4. The act of providing something (lodging, seat or food) to meet a need
+ 
+5. (physiology) the automatic adjustment in focal length of the natural lens of the eye
+ 
+6. In the theories of Jean Piaget: the modification of internal representations in order to accommodate a changing knowledge of reality
+""",
+  );
+// 188888880002200
+
+  final String keyword = "accommodation";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accommodation");
+    await flutterTts.speak("""accommodation""");
   }
 
   Future<void> speakac24995(String languageCode) async {
@@ -52,57 +126,61 @@ class EnglishEntryaccommodation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "accommodation"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˌkɒməˈdeɪʃn/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakaccommodation("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /əˌkɑːməˈdeɪʃn/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakaccommodation("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """accommodation""",
+                      // alsoEnglishWord: "also: accommodation",
+                      britshText: """IpaUK: /əˌkɒməˈdeɪʃn/""",
+                      americanText: """IpaUS: /əˌkɑːməˈdeɪʃn/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
                     ),
+                  ),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: const TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const EnglishMeaning(),
+                    const DividerDefinition(),
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
                     SingleChildScrollView(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -152,27 +230,64 @@ class EnglishEntryaccommodation extends StatelessWidget {
                         ],
                       ),
                     ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedend(),
-                        // YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(),
-                        // YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
-                        // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
                   ],
                 ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddedone(),
+                  YoutubeEmbeddedtwo(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
+                  // YoutubeEmbeddedsix(),
+                  // YoutubeEmbeddedseven(),
+                  // YoutubeEmbeddedeight(),
+                  // YoutubeEmbeddednine(),
+                  // YoutubeEmbeddedten(),
+                  // YoutubeEmbeddedeleven(),
+                  // YoutubeEmbeddedtwelve(),
+                  // YoutubeEmbeddedthirteen(),
+                  // YoutubeEmbeddeddfourteen(),
+                  // YoutubeEmbeddedfifteen(),
+                  // YoutubeEmbeddeddsixteen(),
+                  // YoutubeEmbeddeddseventeen(),
+                  // YoutubeEmbeddeddeighteen(),
+                  // YoutubeEmbeddeddnineteen(),
+                  // YoutubeEmbeddedtwenty(),
+                  // YoutubeEmbeddedmulti(),
+                  YoutubeEmbeddedend(),
+                ],
               ),
             ],
           ),
@@ -181,84 +296,6 @@ class EnglishEntryaccommodation extends StatelessWidget {
     );
   }
 }
-
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: accommodation (derived forms: accommodations)
-1. Living quarters provided for public convenience
-"the nearby hotel offers overnight accommodation"
- 
-2. Making or becoming suitable; adjusting to circumstances (= adjustment, fitting)
- 
-3. A settlement of differences
-"they reached an accommodation with Japan"
- 
-4. The act of providing something (lodging, seat or food) to meet a need
- 
-5. (physiology) the automatic adjustment in focal length of the natural lens of the eye
- 
-6. In the theories of Jean Piaget: the modification of internal representations in order to accommodate a changing knowledge of reality
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-enum TtsState { playing }
+enum TtsState { playing } // final EnglishMeaningConst
 
 class EnglishEntryable extends StatefulWidget {
   const EnglishEntryable({super.key});
@@ -14,290 +15,82 @@ class EnglishEntryable extends StatefulWidget {
 
 class _EnglishEntryableState extends State<EnglishEntryable> {
   @override
-  Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: NestedScrollView(
-          headerSliverBuilder: (context, innerBoxIsScrolled) {
-            return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
-                flexibleSpace: FlexibleSpaceBar(
-                  background: EntryAndIPA(),
-                ),
-                automaticallyImplyLeading: false,
-                bottom: TabBar(
-                  tabs: [
-                    UkIconForTab(),
-                    KurdIconForTab(),
-                    VideoIconForTab(),
-                  ],
-                ),
-              ),
-            ];
-          },
-          body: TabBarView(
-            children: [
-              const EnglishMeaning(),
-              KurdishMeaning(),
-              const YoutubeVideos(),
-            ],
-          ),
-        ),
-      ),
-    );
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
   }
-}
 
-class EntryAndIPA extends StatelessWidget {
-  const EntryAndIPA({
-    super.key,
-  });
+  FlutterTts flutterTts = FlutterTts();
 
-  @override
-  Widget build(BuildContext context) {
-    return const SingleChildScrollView(
-      child: Column(
-        children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  TitleOfEntry(),
-                ],
-              ),
-              // const TitleOfEntryAlso(),
-              IpaUK(),
-              IpaUS(),
-            ],
-          ),
-        ],
-      ),
-    );
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
   }
-}
 
-class TitleOfEntry extends StatelessWidget {
-  const TitleOfEntry({
-    super.key,
-  });
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
 
-  @override
-  Widget build(BuildContext context) {
-    return const EntryTitle(word: "able");
+    setState(() {
+      isSpeaking = false;
+    });
   }
-}
 
-class TitleOfEntryAlso extends StatelessWidget {
-  const TitleOfEntryAlso({
-    super.key,
-  });
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: able (derived forms: ablest, abler)
+1. Having the skills and qualifications to do things well (=capable)
+"able teachers";
+ 
+2. (usually followed by 'to') having the necessary means, skill, know-how or authority to do something
+"able to swim"; "she was able to program her computer"; "we were at last able to buy a car"; "able to get a grant for the project"
+ 
+3. Having inherent physical or mental ability or capacity
+"able to learn"; "human beings are able to walk on two feet"; "Superman is able to leap tall buildings"
+ 
+4. Having a strong healthy body (=able-bodied)
+"an able seaman"; "every able-bodied young man served in the army";
 
-  @override
-  Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: able");
+- Adjective suffix: -able
+5۔ Able to be, subject to (=-ible)
+""",
+  );
+// 188888880002200
+
+  final String keyword = "able";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
   }
-}
 
-class IpaUK extends StatelessWidget {
-  const IpaUK({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        TTSUK(),
-        const IpaUKtext(),
-      ],
-    );
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
   }
-}
 
-class IpaUKtext extends StatelessWidget {
-  const IpaUKtext({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /ˈeɪbl/");
-  }
-}
-
-class TTSUK extends StatelessWidget {
-  TTSUK({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakable(String languageCode) async {
+  Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("able");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomIconButtonBritish(
-      onPressed: () => speakable("en-GB"),
-    );
-  }
-}
-
-class IpaUS extends StatelessWidget {
-  const IpaUS({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        TTSUS(),
-        const IpaUStext(),
-      ],
-    );
-  }
-}
-
-class IpaUStext extends StatelessWidget {
-  const IpaUStext({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /ˈeɪbl/");
-  }
-}
-
-class TTSUS extends StatelessWidget {
-  TTSUS({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakable(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("able");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(
-      onPressed: () => speakable("en-US"),
-    );
-  }
-}
-
-class KurdishMeaning extends StatelessWidget {
-  KurdishMeaning({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakables1(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("// speakables111111111111111111111111111111111");
-  }
-
-  Future<void> speakables2(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables200");
-  }
-
-  Future<void> speakables3(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables300");
-  }
-
-  Future<void> speakables4(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables400");
-  }
-
-  Future<void> speakables5(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables500");
-  }
-
-  Future<void> speakables6(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables600");
-  }
-
-  Future<void> speakables7(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables700");
-  }
-
-  Future<void> speakables8(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables800");
-  }
-
-  Future<void> speakables9(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables900");
-  }
-
-  Future<void> speakables10(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables1000");
-  }
-
-  Future<void> speakables11(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables1100");
-  }
-
-  Future<void> speakables12(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables1200");
-  }
-
-  Future<void> speakables13(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakables1300");
+    await flutterTts.speak("""able""");
   }
 
   Future<void> speaka358(String languageCode) async {
@@ -325,124 +118,168 @@ class KurdishMeaning extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+    return DefaultTabController(
+      length: 4,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """able""",
+                      // alsoEnglishWord: "also: able",
+                      britshText: """IpaUK: /ˈeɪbl/""",
+                      americanText: """IpaUS: /ˈeɪbl/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: const TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const DividerDefinition(),
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
+                    SingleChildScrollView(
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
 کوردی: توانا، بەتوانا، توانادار، خورت، لێوەشاو، لێھاتوو، بەکارھاتوو، ژێھاتی، شارەزا
 """),
-          const DefinitionKurdish(
-              text:
-                  "١. (ھاوەڵناو) ھەبوونی بەھرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک"
-                  ""),
-          SentencesRow(
-            englishText: "You must be able to speak French for this job.",
-            kurdishText: "بۆ ئەم کارە دەبێت بتوانی بە فەرەنسی قسەبکەیت.",
-            onPressedBritish: () => speaka321("en-GB"),
-            onPressedAmerican: () => speaka321("en-US"),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵناو) ھەبوونی بەھرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک"
+                                  ""),
+                          SentencesRow(
+                            englishText:
+                                "You must be able to speak French for this job.",
+                            kurdishText:
+                                "بۆ ئەم کارە دەبێت بتوانی بە فەرەنسی قسەبکەیت.",
+                            onPressedBritish: () => speaka321("en-GB"),
+                            onPressedAmerican: () => speaka321("en-US"),
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "We're still able to get visas to come and go from Thailand.",
+                            kurdishText:
+                                "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین.",
+                            onPressedBritish: () => speaka324("en-GB"),
+                            onPressedAmerican: () => speaka324("en-US"),
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "Are you really willing and able to do what is necessary?",
+                            kurdishText:
+                                "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟",
+                            onPressedBritish: () => speaka358("en-GB"),
+                            onPressedAmerican: () => speaka358("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddedone(),
+                  YoutubeEmbeddedtwo(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
+                  // YoutubeEmbeddedsix(),
+                  // YoutubeEmbeddedseven(),
+                  // YoutubeEmbeddedeight(),
+                  // YoutubeEmbeddednine(),
+                  // YoutubeEmbeddedten(),
+                  // YoutubeEmbeddedeleven(),
+                  // YoutubeEmbeddedtwelve(),
+                  // YoutubeEmbeddedthirteen(),
+                  // YoutubeEmbeddeddfourteen(),
+                  // YoutubeEmbeddedfifteen(),
+                  // YoutubeEmbeddeddsixteen(),
+                  // YoutubeEmbeddeddseventeen(),
+                  // YoutubeEmbeddeddeighteen(),
+                  // YoutubeEmbeddeddnineteen(),
+                  // YoutubeEmbeddedtwenty(),
+                  // YoutubeEmbeddedmulti(),
+                  YoutubeEmbeddedend(),
+                ],
+              ),
+            ],
           ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                "We're still able to get visas to come and go from Thailand.",
-            kurdishText:
-                "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین.",
-            onPressedBritish: () => speaka324("en-GB"),
-            onPressedAmerican: () => speaka324("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                "Are you really willing and able to do what is necessary?",
-            kurdishText: "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟",
-            onPressedBritish: () => speaka358("en-GB"),
-            onPressedAmerican: () => speaka358("en-US"),
-          ),
-        ],
+        ),
       ),
     );
   }
 }
-
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-// Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-// Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Adjective: able (derived forms: ablest, abler)
-1. Having the skills and qualifications to do things well (=capable)
-"able teachers";
- 
-2. (usually followed by 'to') having the necessary means, skill, know-how or authority to do something
-"able to swim"; "she was able to program her computer"; "we were at last able to buy a car"; "able to get a grant for the project"
- 
-3. Having inherent physical or mental ability or capacity
-"able to learn"; "human beings are able to walk on two feet"; "Superman is able to leap tall buildings"
- 
-4. Having a strong healthy body (=able-bodied)
-"an able seaman"; "every able-bodied young man served in the army";
-
-- Adjective suffix: -able
-5۔ Able to be, subject to (=-ible)
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});
@@ -618,35 +455,6 @@ class YoutubeEmbeddedend extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  final String _videoId = 'PUT_VID';
-  final double _startSeconds = 222222222222222;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
 class YoutubeVideos extends StatelessWidget {
   const YoutubeVideos({
     super.key,
@@ -682,13 +490,3 @@ class YoutubeVideos extends StatelessWidget {
     );
   }
 }
-
-// end WORD_WEB
-
-
-
-
-
-
-
-// replace these: Eng

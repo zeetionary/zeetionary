@@ -1,129 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: EnglishEntryaccordion - speakAaccordion - accordion - /əˈkɔːdiən/
-
 enum TtsState { playing }
 
-class EnglishEntryaccordion extends StatelessWidget {
-  EnglishEntryaccordion({super.key});
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakaaccordion(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accordion");
-  }
+class EnglishEntryaccordion extends StatefulWidget {
+  const EnglishEntryaccordion({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "accordion"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈkɔːdiən/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakaaccordion("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /əˈkɔːrdiən/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakaaccordion("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              const Expanded(
-                child: TabBarView(
-                  children: [
-                    EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          KurdishVocabulary(text: """
-کوردی: (میوزیک) ئاکۆردیەن، ئاکاردیۆن
-"""),
-                          DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ئامێرێکی میوزیکییە کە بە ھەردوو دەستت دەیگریت و بە پاڵنان و ڕاکێشانی ھەردوو بەشەکەی و پەنجەنان بە کلیلەکانی سەری دەنگ درووست دەکات"
-                                  ""),
-                        ],
-                      ),
-                    ),
-                    YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedend(),
-                        // YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(),
-                        // YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
-                        // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+  State<EnglishEntryaccordion> createState() => _EnglishEntryaccordionState();
 }
 
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
+class _EnglishEntryaccordionState extends State<EnglishEntryaccordion> {
   @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
 
-class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
+
   bool isSpeaking = false;
 
   Future<void> startSpeaking(
@@ -140,46 +41,182 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
-    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });
   }
 
-  // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: accordion (derived forms: accordions)
 1. A portable box-shaped free-reed instrument; the reeds are made to vibrate by air from the bellows controlled by the player (= squeeze box)
 """,
   );
+// 188888880002200
+
+  final String keyword = "accordion";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""accordion""");
+  }
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
+    return DefaultTabController(
+      length: 4,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """accordion""",
+                      // alsoEnglishWord: "also: accordion",
+                      britshText: """IpaUK: /əˈkɔːdiən/""",
+                      americanText: """IpaUS: /əˈkɔːrdiən/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: const TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const DividerDefinition(),
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              const SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
+                    SingleChildScrollView(
+                      child: CustomColumnWidget(
+                        children: [
+                          KurdishVocabulary(text: """
+کوردی: (میوزیک) ئاکۆردیەن، ئاکاردیۆن
+"""),
+                          DefinitionKurdish(
+                              text:
+                                  "١. (ناو) ئامێرێکی میوزیکییە کە بە ھەردوو دەستت دەیگریت و بە پاڵنان و ڕاکێشانی ھەردوو بەشەکەی و پەنجەنان بە کلیلەکانی سەری دەنگ درووست دەکات"
+                                  ""),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddedone(),
+                  YoutubeEmbeddedtwo(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
+                  // YoutubeEmbeddedsix(),
+                  // YoutubeEmbeddedseven(),
+                  // YoutubeEmbeddedeight(),
+                  // YoutubeEmbeddednine(),
+                  // YoutubeEmbeddedten(),
+                  // YoutubeEmbeddedeleven(),
+                  // YoutubeEmbeddedtwelve(),
+                  // YoutubeEmbeddedthirteen(),
+                  // YoutubeEmbeddeddfourteen(),
+                  // YoutubeEmbeddedfifteen(),
+                  // YoutubeEmbeddeddsixteen(),
+                  // YoutubeEmbeddeddseventeen(),
+                  // YoutubeEmbeddeddeighteen(),
+                  // YoutubeEmbeddeddnineteen(),
+                  // YoutubeEmbeddedtwenty(),
+                  // YoutubeEmbeddedmulti(),
+                  YoutubeEmbeddedend(),
+                ],
+              ),
+            ],
           ),
-          englishMeaningConst,
-        ],
+        ),
       ),
     );
   }
 }
-
-// DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});

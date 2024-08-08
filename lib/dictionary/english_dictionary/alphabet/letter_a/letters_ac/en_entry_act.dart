@@ -1,23 +1,125 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryact - replace speakAct - replace act - /ækt/ - find Dopsum2
-
 enum TtsState { playing }
 
-class EnglishEntryact extends StatelessWidget {
-  EnglishEntryact({super.key});
-  final FlutterTts flutterTts = FlutterTts();
+class EnglishEntryact extends StatefulWidget {
+  const EnglishEntryact({super.key});
 
-  Future<void> speakact(String languageCode) async {
+  @override
+  State<EnglishEntryact> createState() => _EnglishEntryactState();
+}
+
+class _EnglishEntryactState extends State<EnglishEntryact> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
+
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: act (derived forms: acts)
+1. Something that people do or cause to happen (= deed, human action, human activity)
+ 
+2. (law) a legal document codifying the result of deliberations of a committee, society or legislative body (= enactment)
+ 
+3. A subdivision of a play, opera or ballet
+ 
+4. A short performance that is part of a longer program (= routine, number, turn, bit)
+"he did his act three times every evening";
+ 
+5. A manifestation of insincerity
+"he put on quite an act for her benefit"
+
+- Verb: act (routine, number, turn, bit)
+1. Perform an action; do something (= move)
+"think before you act"; "The governor should act on the new energy bill"; "The nanny acted quickly by grabbing the toddler and covering him with a wet towel";
+ 
+2. Show a certain behaviour; conduct or comport oneself (= behave, do)
+"You should act like an adult"; "The dog acts ferocious, but he is really afraid of people";
+ 
+3. (performing arts) Perform a role or part (= play, represent)
+"She wants to act Lady Macbeth, but she is too young for the role";
+ 
+4. Discharge one's duties
+"She acts as the chair"; "In what capacity are you acting?"
+ 
+5. Pretend to have certain qualities or state of mind (= play, act as)
+"He acted the idiot";
+ 
+6. Be suitable for theatrical performance
+"This scene acts well"
+ 
+7. Have a desired or expected effect or outcome (= work)
+"The breaks of my new car act quickly";
+ 
+8. Be engaged in an activity, often for no particular purpose other than pleasure
+ 
+9. Behave unnaturally or affectedly (= dissemble, pretend)
+"She's just acting";
+ 
+10 (dramaturgy) perform on a stage or theatre (= play, roleplay, playact)
+"She acts in this play"; "He acted in 'Julius Caesar'";
+""",
+  );
+// 188888880002200
+
+  final String keyword = "act";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("act");
+    await flutterTts.speak("""act""");
   }
-
+  
   Future<void> speakact7859(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -97,92 +199,64 @@ class EnglishEntryact extends StatelessWidget {
     await flutterTts.speak("The king is killed in the opening act.");
   }
 
-  // Future<void> speakact(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAct
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("act");
-  // }
-
-  // Future<void> speakact(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAct
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("act");
-  // }
-
-  // Future<void> speakact(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAct
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("act");
-  // }
-
-  // Future<void> speakact(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAct
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("act");
-  // }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "act"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /ækt/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakact("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /ækt/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakact("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """act""",
+                      // alsoEnglishWord: "also: act",
+                      britshText: """IpaUK: /ækt/""",
+                      americanText: """IpaUS: /ækt/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
                     ),
+                  ),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: const TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const EnglishMeaning(),
+                    const DividerDefinition(),
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
                     SingleChildScrollView(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -314,27 +388,64 @@ class EnglishEntryact extends StatelessWidget {
                         ],
                       ),
                     ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedend(),
-                        // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
                   ],
                 ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddedone(),
+                  YoutubeEmbeddedtwo(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
+                  YoutubeEmbeddedsix(),
+                  YoutubeEmbeddedseven(),
+                  YoutubeEmbeddedeight(),
+                  YoutubeEmbeddednine(),
+                  // YoutubeEmbeddedten(),
+                  // YoutubeEmbeddedeleven(),
+                  // YoutubeEmbeddedtwelve(),
+                  // YoutubeEmbeddedthirteen(),
+                  // YoutubeEmbeddeddfourteen(),
+                  // YoutubeEmbeddedfifteen(),
+                  // YoutubeEmbeddeddsixteen(),
+                  // YoutubeEmbeddeddseventeen(),
+                  // YoutubeEmbeddeddeighteen(),
+                  // YoutubeEmbeddeddnineteen(),
+                  // YoutubeEmbeddedtwenty(),
+                  // YoutubeEmbeddedmulti(),
+                  YoutubeEmbeddedend(),
+                ],
               ),
             ],
           ),
@@ -343,112 +454,6 @@ class EnglishEntryact extends StatelessWidget {
     );
   }
 }
-
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: act (derived forms: acts)
-1. Something that people do or cause to happen (= deed, human action, human activity)
- 
-2. (law) a legal document codifying the result of deliberations of a committee, society or legislative body (= enactment)
- 
-3. A subdivision of a play, opera or ballet
- 
-4. A short performance that is part of a longer program (= routine, number, turn, bit)
-"he did his act three times every evening";
- 
-5. A manifestation of insincerity
-"he put on quite an act for her benefit"
-
-- Verb: act (routine, number, turn, bit)
-1. Perform an action; do something (= move)
-"think before you act"; "The governor should act on the new energy bill"; "The nanny acted quickly by grabbing the toddler and covering him with a wet towel";
- 
-2. Show a certain behaviour; conduct or comport oneself (= behave, do)
-"You should act like an adult"; "The dog acts ferocious, but he is really afraid of people";
- 
-3. (performing arts) Perform a role or part (= play, represent)
-"She wants to act Lady Macbeth, but she is too young for the role";
- 
-4. Discharge one's duties
-"She acts as the chair"; "In what capacity are you acting?"
- 
-5. Pretend to have certain qualities or state of mind (= play, act as)
-"He acted the idiot";
- 
-6. Be suitable for theatrical performance
-"This scene acts well"
- 
-7. Have a desired or expected effect or outcome (= work)
-"The breaks of my new car act quickly";
- 
-8. Be engaged in an activity, often for no particular purpose other than pleasure
- 
-9. Behave unnaturally or affectedly (= dissemble, pretend)
-"She's just acting";
- 
-10 (dramaturgy) perform on a stage or theatre (= play, roleplay, playact)
-"She acts in this play"; "He acted in 'Julius Caesar'";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});

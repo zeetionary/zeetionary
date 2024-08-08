@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-enum TtsState { playing }
+enum TtsState { playing } // final EnglishMeaningConst
 
 class EnglishEntryabdomen extends StatefulWidget {
   const EnglishEntryabdomen({super.key});
@@ -17,15 +17,76 @@ class _EnglishEntryabdomenState extends State<EnglishEntryabdomen> {
   @override
   void initState() {
     super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
   }
 
-  final FlutterTts flutterTts = FlutterTts();
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: abdomen (plural: abdomens)
+1. The region of the body of a vertebrate between the thorax and the pelvis (=venter, stomach, belly)
+ 
+2. The cavity containing the major viscera; in mammals it is separated from the thorax by the diaphragm (=abdominal cavity)
+""",
+  );
+// 188888880002200
+
+  final String keyword = "abdomen";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("""abdomen""");
+  }
+
+  Future<void> speakabdomens1(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("// speakabdomens111111111111111111111111111111111");
   }
 
   @override
@@ -67,9 +128,77 @@ class _EnglishEntryabdomenState extends State<EnglishEntryabdomen> {
           },
           body: TabBarView(
             children: [
-              const EnglishMeaning(),
-              KurdishMeaning(),
-              const SentencesFromDatabase(),
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const DividerDefinition(),
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
+                    SingleChildScrollView(
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵناو) پێنناسە"),
+                          SentencesRow(
+                            englishText:
+                                "// speakabdomens111111111111111111111111111111111",
+                            kurdishText: "رستە_رستە_رستە_رستە.",
+                            onPressedBritish: () => speakabdomens1("en-GB"),
+                            onPressedAmerican: () => speakabdomens1("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
               const YouTubeScroller(
                 children: [
                   YoutubeEmbeddedone(),
@@ -103,316 +232,6 @@ class _EnglishEntryabdomenState extends State<EnglishEntryabdomen> {
     );
   }
 }
-
-class SentencesFromDatabase extends StatefulWidget {
-  const SentencesFromDatabase({super.key});
-
-  @override
-  State<SentencesFromDatabase> createState() => _SentencesFromDatabaseState();
-}
-
-class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "abdomen";
-  late FlutterTts flutterTts;
-  List<Map<String, dynamic>> filteredSentences = [];
-
-  @override
-  void initState() {
-    super.initState();
-    flutterTts = FlutterTts();
-    flutterTts.setLanguage("en-GB");
-    fetchSentences();
-  }
-
-  Future<void> fetchSentences() async {
-    final sentences =
-        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
-    setState(() {
-      filteredSentences = sentences;
-    });
-  }
-
-  void speakEnglish(String text, {String? languageCode}) async {
-    await flutterTts.setLanguage(languageCode ?? "en-GB");
-    await flutterTts.speak(text);
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Consumer(
-        builder: (context, ref, child) {
-          if (filteredSentences.isEmpty) {
-            return const NoSentencesFromDatabase();
-          } else {
-            return ListView.builder(
-              itemCount: filteredSentences.length,
-              itemBuilder: (context, index) {
-                final sentence = filteredSentences[index];
-                return SingleChildScrollView(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.end,
-                      children: [
-                        Row(
-                          children: [
-                            Expanded(
-                              child: Column(
-                                children: [
-                                  Align(
-                                    alignment: Alignment.topLeft,
-                                    child: DatabaseUtils.instance.highlightText(
-                                      sentence['english'].toString(),
-                                      keyword,
-                                      ref,
-                                      context,
-                                    ),
-                                  ),
-                                  Directionality(
-                                    textDirection: TextDirection.rtl,
-                                    child: Align(
-                                      alignment: Alignment.topRight,
-                                      child:
-                                          DatabaseUtils.instance.highlightText(
-                                        sentence['french'].toString(),
-                                        keyword,
-                                        ref,
-                                        context,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            const CustomSizedBoxForTTS(),
-                            Column(
-                              children: [
-                                CustomIconButtonBritish(
-                                  onPressed: () => speakEnglish(
-                                    sentence['english'].toString(),
-                                    languageCode: "en-GB",
-                                  ),
-                                ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () => speakEnglish(
-                                    sentence['english'].toString(),
-                                    languageCode: "en-US",
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                        if (filteredSentences.length > 1 &&
-                            index != filteredSentences.length - 1)
-                          const DividerSentences(),
-                      ],
-                    ),
-                  ),
-                );
-              },
-            );
-          }
-        },
-      ),
-    );
-  }
-
-  @override
-  void dispose() {
-    flutterTts.stop();
-    super.dispose();
-  }
-}
-
-class KurdishMeaning extends StatelessWidget {
-  KurdishMeaning({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakabdomens1(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("// speakabdomens111111111111111111111111111111111");
-  }
-
-  Future<void> speakabdomens2(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens200");
-  }
-
-  Future<void> speakabdomens3(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens300");
-  }
-
-  Future<void> speakabdomens4(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens400");
-  }
-
-  Future<void> speakabdomens5(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens500");
-  }
-
-  Future<void> speakabdomens6(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens600");
-  }
-
-  Future<void> speakabdomens7(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens700");
-  }
-
-  Future<void> speakabdomens8(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens800");
-  }
-
-  Future<void> speakabdomens9(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens900");
-  }
-
-  Future<void> speakabdomens10(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens1000");
-  }
-
-  Future<void> speakabdomens11(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens1100");
-  }
-
-  Future<void> speakabdomens12(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens1200");
-  }
-
-  Future<void> speakabdomens13(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabdomens1300");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی:
-// """),
-          const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
-          SentencesRow(
-            englishText: "// speakabdomens111111111111111111111111111111111",
-            kurdishText: "رستە_رستە_رستە_رستە.",
-            onPressedBritish: () => speakabdomens1("en-GB"),
-            onPressedAmerican: () => speakabdomens1("en-US"),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-// Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-// Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: abdomen (plural: abdomens)
-1. The region of the body of a vertebrate between the thorax and the pelvis (=venter, stomach, belly)
- 
-2. The cavity containing the major viscera; in mammals it is separated from the thorax by the diaphragm (=abdominal cavity)
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});

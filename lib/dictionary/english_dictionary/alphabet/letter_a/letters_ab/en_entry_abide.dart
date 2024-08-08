@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-enum TtsState { playing }
+enum TtsState { playing } // final EnglishMeaningConst
 
 class EnglishEntryabide extends StatefulWidget {
   const EnglishEntryabide({super.key});
@@ -17,15 +17,85 @@ class _EnglishEntryabideState extends State<EnglishEntryabide> {
   @override
   void initState() {
     super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
   }
 
-  final FlutterTts flutterTts = FlutterTts();
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: abide (derived forms: abides, abiding, abided)
+1. Put up with something or somebody unpleasant (=digest, endure, stick out, stomach, bear, stand, tolerate, support, brook, suffer, put up)
+"The new secretary had to abide a lot of unprofessional remarks";
+ 
+2. [archaic] Dwell (=bide [archaic], stay)
+"You can abide with me while you are in town";
+""",
+  );
+// 188888880002200
+
+  final String keyword = "abide";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("""abide""");
+  }
+
+  Future<void> speaka62(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I can't abide people with no sense of humour.");
+  }
+
+  Future<void> speaka92(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I can’t abide people who look down on others.");
   }
 
   @override
@@ -67,9 +137,84 @@ class _EnglishEntryabideState extends State<EnglishEntryabide> {
           },
           body: TabBarView(
             children: [
-              const EnglishMeaning(),
-              KurdishMeaning(),
-              const SentencesFromDatabase(),
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const DividerDefinition(),
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
+                    SingleChildScrollView(
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١. (کردار) ڕقبوون لە شتێک تا ئەو ئاستەی حەز ناکەیت لەگەڵیان بیت"""),
+                          SentencesRow(
+                            englishText:
+                                "I can't abide people with no sense of humour.",
+                            kurdishText:
+                                "ناتوانم لەگەڵ ئەو کەسانە بم کە ھیچ گاڵتە و گەپ نازانن.",
+                            onPressedBritish: () => speaka62("en-GB"),
+                            onPressedAmerican: () => speaka62("en-US"),
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "I can’t abide people who look down on others.",
+                            kurdishText:
+                                "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دیکە دەکەن.",
+                            onPressedBritish: () => speaka92("en-GB"),
+                            onPressedAmerican: () => speaka92("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
               const YouTubeScroller(
                 children: [
                   YoutubeEmbeddedone(),
@@ -103,339 +248,6 @@ class _EnglishEntryabideState extends State<EnglishEntryabide> {
     );
   }
 }
-
-class SentencesFromDatabase extends StatefulWidget {
-  const SentencesFromDatabase({super.key});
-
-  @override
-  State<SentencesFromDatabase> createState() => _SentencesFromDatabaseState();
-}
-
-class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "abide";
-  late FlutterTts flutterTts;
-  List<Map<String, dynamic>> filteredSentences = [];
-
-  @override
-  void initState() {
-    super.initState();
-    flutterTts = FlutterTts();
-    flutterTts.setLanguage("en-GB");
-    fetchSentences();
-  }
-
-  Future<void> fetchSentences() async {
-    final sentences =
-        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
-    setState(() {
-      filteredSentences = sentences;
-    });
-  }
-
-  void speakEnglish(String text, {String? languageCode}) async {
-    await flutterTts.setLanguage(languageCode ?? "en-GB");
-    await flutterTts.speak(text);
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Consumer(
-        builder: (context, ref, child) {
-          if (filteredSentences.isEmpty) {
-            return const NoSentencesFromDatabase();
-          } else {
-            return ListView.builder(
-              itemCount: filteredSentences.length,
-              itemBuilder: (context, index) {
-                final sentence = filteredSentences[index];
-                return SingleChildScrollView(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.end,
-                      children: [
-                        Row(
-                          children: [
-                            Expanded(
-                              child: Column(
-                                children: [
-                                  Align(
-                                    alignment: Alignment.topLeft,
-                                    child: DatabaseUtils.instance.highlightText(
-                                      sentence['english'].toString(),
-                                      keyword,
-                                      ref,
-                                      context,
-                                    ),
-                                  ),
-                                  Directionality(
-                                    textDirection: TextDirection.rtl,
-                                    child: Align(
-                                      alignment: Alignment.topRight,
-                                      child:
-                                          DatabaseUtils.instance.highlightText(
-                                        sentence['french'].toString(),
-                                        keyword,
-                                        ref,
-                                        context,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            const CustomSizedBoxForTTS(),
-                            Column(
-                              children: [
-                                CustomIconButtonBritish(
-                                  onPressed: () => speakEnglish(
-                                    sentence['english'].toString(),
-                                    languageCode: "en-GB",
-                                  ),
-                                ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () => speakEnglish(
-                                    sentence['english'].toString(),
-                                    languageCode: "en-US",
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                        if (filteredSentences.length > 1 &&
-                            index != filteredSentences.length - 1)
-                          const DividerSentences(),
-                      ],
-                    ),
-                  ),
-                );
-              },
-            );
-          }
-        },
-      ),
-    );
-  }
-
-  @override
-  void dispose() {
-    flutterTts.stop();
-    super.dispose();
-  }
-}
-
-class KurdishMeaning extends StatelessWidget {
-  KurdishMeaning({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakabides1(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("// speakabides111111111111111111111111111111111");
-  }
-
-  Future<void> speakabides2(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides200");
-  }
-
-  Future<void> speakabides3(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides300");
-  }
-
-  Future<void> speakabides4(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides400");
-  }
-
-  Future<void> speakabides5(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides500");
-  }
-
-  Future<void> speakabides6(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides600");
-  }
-
-  Future<void> speakabides7(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides700");
-  }
-
-  Future<void> speakabides8(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides800");
-  }
-
-  Future<void> speakabides9(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides900");
-  }
-
-  Future<void> speakabides10(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides1000");
-  }
-
-  Future<void> speakabides11(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides1100");
-  }
-
-  Future<void> speakabides12(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides1200");
-  }
-
-  Future<void> speakabides13(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakabides1300");
-  }
-
-  Future<void> speaka62(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I can't abide people with no sense of humour.");
-  }
-
-  Future<void> speaka92(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I can’t abide people who look down on others.");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """
-١. (کردار) ڕقبوون لە شتێک تا ئەو ئاستەی حەز ناکەیت لەگەڵیان بیت"""),
-          SentencesRow(
-            englishText: "I can't abide people with no sense of humour.",
-            kurdishText:
-                "ناتوانم لەگەڵ ئەو کەسانە بم کە ھیچ گاڵتە و گەپ نازانن.",
-            onPressedBritish: () => speaka62("en-GB"),
-            onPressedAmerican: () => speaka62("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "I can’t abide people who look down on others.",
-            kurdishText:
-                "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دیکە دەکەن.",
-            onPressedBritish: () => speaka92("en-GB"),
-            onPressedAmerican: () => speaka92("en-US"),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-// Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-// Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Verb: abide (derived forms: abides, abiding, abided)
-1. Put up with something or somebody unpleasant (=digest, endure, stick out, stomach, bear, stand, tolerate, support, brook, suffer, put up)
-"The new secretary had to abide a lot of unprofessional remarks";
- 
-2. [archaic] Dwell (=bide [archaic], stay)
-"You can abide with me while you are in town";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});

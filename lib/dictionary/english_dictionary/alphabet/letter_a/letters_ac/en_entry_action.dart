@@ -1,23 +1,122 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryaction - replace speakAction - replace action - /ˈækʃn/ - find Dopsum2
-
 enum TtsState { playing }
 
-class EnglishEntryaction extends StatelessWidget {
-  EnglishEntryaction({super.key});
-  final FlutterTts flutterTts = FlutterTts();
+class EnglishEntryaction extends StatefulWidget {
+  const EnglishEntryaction({super.key});
 
-  Future<void> speakaction(String languageCode) async {
+  @override
+  State<EnglishEntryaction> createState() => _EnglishEntryactionState();
+}
+
+class _EnglishEntryactionState extends State<EnglishEntryaction> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
+
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: action (derived forms: actions)
+1. Something done (usually as opposed to something said)
+"there were stories of murders and other unnatural actions"
+ 
+2. The state of being active (= activity, activeness)
+"he is out of action";
+ 
+3. (military) a military engagement (= military action)
+"he saw action in Korea";
+ 
+4. A process existing in or produced by nature (rather than by the intent of human beings) (= natural process, natural action, activity)
+"the action of natural forces"; "the natural action of natural forces";
+ 
+5. The series of events that form a plot
+"his novels always have a lot of action"
+ 
+6. The trait of being active and energetic and forceful
+"a man of action"
+ 
+7. The operating part that transmits power to a mechanism (= action mechanism)
+"the piano had a very stiff action";
+ 
+8. (law) a judicial proceeding brought by one party against another; one party prosecutes another for a wrong done or for protection of a right or for prevention of a wrong (= legal action, action at law)
+ 
+9. An act by a government body or supranational organization
+"recent federal action undermined the segregationist position"; "the United Nations must have the power to propose and organize action without being hobbled by irrelevant issues"; "the Union action of emancipating Southern slaves"
+ 
+10. The most important or interesting work or activity in a specific area or field
+"the action is no longer in technology stocks but in municipal bonds"; "gawkers always try to get as close to the action as possible"
+ 
+11. In firearms terminology, the mechanism that handles the ammunition (loads, locks, fires, and extracts the cartridges).
+"Actions can be categorized in several ways, including single action versus double action, break action versus bolt action, and others."
+
+- Verb: action (derived forms: actioned, actioning, actions)
+1. Institute legal proceedings against; file a suit against (= sue, litigate, process)
+"She actioned the company for discrimination";
+ 
+2. Cause to happen; complete successfully (= carry through, accomplish, execute, carry out, fulfill [N. Amer], fulfil [Brit, Cdn])
+"He actioned the operation";
+""",
+  );
+// 188888880002200
+
+  final String keyword = "action";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("action");
+    await flutterTts.speak("""action""");
   }
-
+  
   Future<void> speakaction9652(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -85,108 +184,64 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.speak("Your request will be actioned.");
   }
 
-  // Future<void> speakaction(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAction
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action");
-  // }
-
-  // Future<void> speakaction(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAction
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action");
-  // }
-
-  // Future<void> speakaction(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAction
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action");
-  // }
-
-  // Future<void> speakaction(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAction
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action");
-  // }
-
-  // Future<void> speakaction(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAction
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action");
-  // }
-
-  // Future<void> speakaction(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAction
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("action");
-  // }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "action"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈækʃn/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakaction("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈækʃn/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakaction("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """action""",
+                      // alsoEnglishWord: "also: action",
+                      britshText: """IpaUK: /ˈækʃn/""",
+                      americanText: """IpaUS: /ˈækʃn/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
                     ),
+                  ),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: const TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const EnglishMeaning(),
+                    const DividerDefinition(),
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
                     SingleChildScrollView(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -299,27 +354,64 @@ class EnglishEntryaction extends StatelessWidget {
                         ],
                       ),
                     ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedend(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
                   ],
                 ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddedone(),
+                  YoutubeEmbeddedtwo(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
+                  YoutubeEmbeddedsix(),
+                  YoutubeEmbeddedseven(),
+                  YoutubeEmbeddedeight(),
+                  YoutubeEmbeddednine(),
+                  YoutubeEmbeddedten(),
+                  // YoutubeEmbeddedeleven(),
+                  // YoutubeEmbeddedtwelve(),
+                  // YoutubeEmbeddedthirteen(),
+                  // YoutubeEmbeddeddfourteen(),
+                  // YoutubeEmbeddedfifteen(),
+                  // YoutubeEmbeddeddsixteen(),
+                  // YoutubeEmbeddeddseventeen(),
+                  // YoutubeEmbeddeddeighteen(),
+                  // YoutubeEmbeddeddnineteen(),
+                  // YoutubeEmbeddedtwenty(),
+                  // YoutubeEmbeddedmulti(),
+                  YoutubeEmbeddedend(),
+                ],
               ),
             ],
           ),
@@ -328,109 +420,6 @@ class EnglishEntryaction extends StatelessWidget {
     );
   }
 }
-
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: action (derived forms: actions)
-1. Something done (usually as opposed to something said)
-"there were stories of murders and other unnatural actions"
- 
-2. The state of being active (= activity, activeness)
-"he is out of action";
- 
-3. (military) a military engagement (= military action)
-"he saw action in Korea";
- 
-4. A process existing in or produced by nature (rather than by the intent of human beings) (= natural process, natural action, activity)
-"the action of natural forces"; "the natural action of natural forces";
- 
-5. The series of events that form a plot
-"his novels always have a lot of action"
- 
-6. The trait of being active and energetic and forceful
-"a man of action"
- 
-7. The operating part that transmits power to a mechanism (= action mechanism)
-"the piano had a very stiff action";
- 
-8. (law) a judicial proceeding brought by one party against another; one party prosecutes another for a wrong done or for protection of a right or for prevention of a wrong (= legal action, action at law)
- 
-9. An act by a government body or supranational organization
-"recent federal action undermined the segregationist position"; "the United Nations must have the power to propose and organize action without being hobbled by irrelevant issues"; "the Union action of emancipating Southern slaves"
- 
-10. The most important or interesting work or activity in a specific area or field
-"the action is no longer in technology stocks but in municipal bonds"; "gawkers always try to get as close to the action as possible"
- 
-11. In firearms terminology, the mechanism that handles the ammunition (loads, locks, fires, and extracts the cartridges).
-"Actions can be categorized in several ways, including single action versus double action, break action versus bolt action, and others."
-
-- Verb: action (derived forms: actioned, actioning, actions)
-1. Institute legal proceedings against; file a suit against (= sue, litigate, process)
-"She actioned the company for discrimination";
- 
-2. Cause to happen; complete successfully (= carry through, accomplish, execute, carry out, fulfill [N. Amer], fulfil [Brit, Cdn])
-"He actioned the operation";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});

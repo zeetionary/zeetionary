@@ -1,23 +1,127 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: EnglishEntryaccount - speakAccount - account - /əˈkaʊnt/
-
 enum TtsState { playing }
 
-class EnglishEntryaccount extends StatelessWidget {
-  EnglishEntryaccount({super.key});
-  final FlutterTts flutterTts = FlutterTts();
+class EnglishEntryaccount extends StatefulWidget {
+  const EnglishEntryaccount({super.key});
 
-  Future<void> speakaccount(String languageCode) async {
+  @override
+  State<EnglishEntryaccount> createState() => _EnglishEntryaccountState();
+}
+
+class _EnglishEntryaccountState extends State<EnglishEntryaccount> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
+
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: account (derived forms: accounts, accounting, accounted)
+1. A record or narrative description of past events (= history, chronicle, story)
+"he gave an inaccurate account of the plot to kill the president";
+ 
+2. A short account of the news (= report, news report, story, write up)
+"the account of his speech that was given on the evening news made the governor furious";
+ 
+3. A formal contractual relationship established to provide for regular banking, brokerage or business services (= business relationship)
+"he asked to see the executive who handled his account";
+ 
+4. A statement that makes something comprehensible by describing the relevant structure, operation or circumstances etc. (= explanation)
+"I expected a brief account";
+ 
+5. Grounds
+"don't do it on my account"; "the paper was rejected on account of its length";
+- score
+ 
+6. Importance or value
+"a person of considerable account"; "he predicted that although it is of small account now it will rapidly increase in importance"
+ 
+7. A statement of recent transactions and the resulting balance (= accounting, account statement)
+"they send me an account every month";
+ 
+8. The act of informing by verbal report (= report)
+"by all accounts they were a happy couple";
+ 
+9. An itemized statement of money owed for goods shipped or services rendered (= bill, invoice)
+"send me an account of what I owe";
+ 
+10. The quality of taking advantage
+"she turned her writing skills to good account"
+ 
+11. The justification for some act or belief (= defense [US], defence [Brit, Cdn], vindication)
+
+- Verb: account 
+1. Be the sole or primary factor in the existence, acquisition, supply, or disposal of something
+"Passing grades account for half of the grades given in this exam"
+ 
+2. Keep an account of (= calculate)
+ 
+3. To give an account or representation of in words (= report, describe)
+ 
+4. Furnish a justifying analysis or explanation (= answer for)
+"I can't account for the missing money";
+""",
+  );
+// 188888880002200
+
+  final String keyword = "account";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("account");
+    await flutterTts.speak("""account""");
   }
-
+  
   Future<void> speakac24579(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
@@ -65,57 +169,61 @@ class EnglishEntryaccount extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "account"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈkaʊnt/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakaccount("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /əˈkaʊnt/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakaccount("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """account""",
+                      // alsoEnglishWord: "also: account",
+                      britshText: """IpaUK: /əˈkaʊnt/""",
+                      americanText: """IpaUS: /əˈkaʊnt/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
                     ),
+                  ),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: const TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const EnglishMeaning(),
+                    const DividerDefinition(),
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
                     SingleChildScrollView(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
@@ -186,27 +294,64 @@ class EnglishEntryaccount extends StatelessWidget {
                         ],
                       ),
                     ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddedend(),
-                        // YoutubeEmbeddedten(),
-                        // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
                   ],
                 ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddedone(),
+                  YoutubeEmbeddedtwo(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
+                  YoutubeEmbeddedsix(),
+                  YoutubeEmbeddedseven(),
+                  YoutubeEmbeddedeight(),
+                  // YoutubeEmbeddednine(),
+                  // YoutubeEmbeddedten(),
+                  // YoutubeEmbeddedeleven(),
+                  // YoutubeEmbeddedtwelve(),
+                  // YoutubeEmbeddedthirteen(),
+                  // YoutubeEmbeddeddfourteen(),
+                  // YoutubeEmbeddedfifteen(),
+                  // YoutubeEmbeddeddsixteen(),
+                  // YoutubeEmbeddeddseventeen(),
+                  // YoutubeEmbeddeddeighteen(),
+                  // YoutubeEmbeddeddnineteen(),
+                  // YoutubeEmbeddedtwenty(),
+                  // YoutubeEmbeddedmulti(),
+                  YoutubeEmbeddedend(),
+                ],
               ),
             ],
           ),
@@ -215,114 +360,6 @@ class EnglishEntryaccount extends StatelessWidget {
     );
   }
 }
-
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-  // Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: account (derived forms: accounts, accounting, accounted)
-1. A record or narrative description of past events (= history, chronicle, story)
-"he gave an inaccurate account of the plot to kill the president";
- 
-2. A short account of the news (= report, news report, story, write up)
-"the account of his speech that was given on the evening news made the governor furious";
- 
-3. A formal contractual relationship established to provide for regular banking, brokerage or business services (= business relationship)
-"he asked to see the executive who handled his account";
- 
-4. A statement that makes something comprehensible by describing the relevant structure, operation or circumstances etc. (= explanation)
-"I expected a brief account";
- 
-5. Grounds
-"don't do it on my account"; "the paper was rejected on account of its length";
-- score
- 
-6. Importance or value
-"a person of considerable account"; "he predicted that although it is of small account now it will rapidly increase in importance"
- 
-7. A statement of recent transactions and the resulting balance (= accounting, account statement)
-"they send me an account every month";
- 
-8. The act of informing by verbal report (= report)
-"by all accounts they were a happy couple";
- 
-9. An itemized statement of money owed for goods shipped or services rendered (= bill, invoice)
-"send me an account of what I owe";
- 
-10. The quality of taking advantage
-"she turned her writing skills to good account"
- 
-11. The justification for some act or belief (= defense [US], defence [Brit, Cdn], vindication)
-
-- Verb: account 
-1. Be the sole or primary factor in the existence, acquisition, supply, or disposal of something
-"Passing grades account for half of the grades given in this exam"
- 
-2. Keep an account of (= calculate)
- 
-3. To give an account or representation of in words (= report, describe)
- 
-4. Furnish a justifying analysis or explanation (= answer for)
-"I can't account for the missing money";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});

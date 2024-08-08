@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-enum TtsState { playing }
+enum TtsState { playing } // final EnglishMeaningConst
 
 class EnglishEntryabseil extends StatefulWidget {
   const EnglishEntryabseil({super.key});

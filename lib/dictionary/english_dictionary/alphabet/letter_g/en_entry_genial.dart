@@ -160,7 +160,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ڕووخۆش، لەدڵەونزیک، گەرم‌وگوڕانە، دۆستانە، خۆشەویستانە، بەمحیبەت، دڵسۆز، دڵنەرم،	(هەوا) خۆش، گەرم، باش، گونجاو، لەبار، نەرم
+کوردی: ڕووخۆش، لەدڵەونزیک، گەرم‌وگوڕانە، دۆستانە، خۆشەویستانە، بەمحیبەت، دڵسۆز، دڵنەرم،	(ھەوا) خۆش، گەرم، باش، گونجاو، لەبار، نەرم
 """),
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) دۆستانە و دڵخۆش"""),
@@ -176,7 +176,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Her manner was quite genial.""",
-                      kurdishText: """هەڵسوکەوتی تەواو دۆستانە بوو.""",
+                      kurdishText: """ھەڵسوکەوتی تەواو دۆستانە بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

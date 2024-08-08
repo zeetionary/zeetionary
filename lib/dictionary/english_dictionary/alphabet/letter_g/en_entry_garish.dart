@@ -147,7 +147,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەزریقەوبریقە، بریقاوی، بەئاڵاوواڵا، ڕەنگاوڕەنگ، هەزار ڕەنگ،	(ڕەنگ، بەرگ، شەوق و هتد) زەق، توند، تیژ
+کوردی: بەزریقەوبریقە، بریقاوی، بەئاڵاوواڵا، ڕەنگاوڕەنگ، ھەزار ڕەنگ،	(ڕەنگ، بەرگ، شەوق و ھتد) زەق، توند، تیژ
 """),
 // With short examples define "garish", please follow LX instructions
                     const DefinitionKurdish(

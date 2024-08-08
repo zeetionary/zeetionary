@@ -394,21 +394,15 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence2("en-GB"),
                               onPressedAmerican: () => speaksentence2("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """Can you all gather round? I've got something to tell you.""",
                               kurdishText:
-                                  """دەتوانن هەمووتان کۆببنەوە؟ شتێکم هەیە پێتان بڵێم.""",
+                                  """دەتوانن ھەمووتان کۆببنەوە؟ شتێکم ھەیە پێتان بڵێم.""",
                               onPressedBritish: () => speaksentence3("en-GB"),
                               onPressedAmerican: () => speaksentence3("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -418,21 +412,15 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence4("en-GB"),
                               onPressedAmerican: () => speaksentence4("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """They were all gathered round the TV.""",
                               kurdishText:
-                                  """هەموویان لە دەوری تەلەفیزیۆنەکە خڕبوونەوە.""",
+                                  """ھەموویان لە دەوری تەلەفیزیۆنەکە خڕبوونەوە.""",
                               onPressedBritish: () => speaksentence5("en-GB"),
                               onPressedAmerican: () => speaksentence5("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -442,9 +430,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence6("en-GB"),
                               onPressedAmerican: () => speaksentence6("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -454,15 +439,12 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence7("en-GB"),
                               onPressedAmerican: () => speaksentence7("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """They are all gathering for a major conference.""",
                               kurdishText:
-                                  """هەموویان کۆبوونەتەوە بۆ کۆنفرانسە گرنگەکەیان.""",
+                                  """ھەموویان کۆبوونەتەوە بۆ کۆنفرانسە گرنگەکەیان.""",
                               onPressedBritish: () => speaksentence8("en-GB"),
                               onPressedAmerican: () => speaksentence8("en-US"),
                             ),
@@ -478,7 +460,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """People slowly gathered their belongings and left the hall.""",
                       kurdishText:
-                          """خەڵکی بە‌هێواشی شتەکانیانیان کۆکردەوە و هۆڵەکەیان جێهێشت.""",
+                          """خەڵکی بە‌ھێواشی شتەکانیانیان کۆکردەوە و ھۆڵەکەیان جێھێشت.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -495,7 +477,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """She gathered her things together and got to her feet.""",
-                      kurdishText: """شتەکانیی کۆکردەوە و هەستایە سەر پێ.""",
+                      kurdishText: """شتەکانیی کۆکردەوە و ھەستایە سەر پێ.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -506,14 +488,14 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Detectives have spent months gathering evidence.""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      kurdishText: """لێکۆڵەران چەندین مانگیان بە کۆکردنەوەی بەڵگە بەسەر بردووە.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (کردار) کۆکردنەوەی ڕووەک، میوە، هتد لە کردارچەیەکی فراوانەوە"""),
+                            """٤. (کردار) کۆکردنەوەی ڕووەک، میوە، ھتد لە کردارچەیەکی فراوانەوە"""),
                     SentencesRow(
                       englishText:
                           """They lived in the forest, gathering mushrooms and berries to eat.""",
@@ -524,7 +506,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٥. (کردار) کۆکردنەوەی بەرهەم دانەوێڵە """),
+                        text: """٥. (کردار) کۆکردنەوەی بەرھەم دانەوێڵە """),
                     SentencesRow(
                       englishText:
                           """It was late August and the harvest had been safely gathered in.""",
@@ -536,10 +518,10 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٦. (کردار) باوەڕکردن یان تێگەشتن لەوەی شتێک ڕاستە بەهۆی ئەو زانیارییەی کە هەتە"""),
+                            """٦. (کردار) باوەڕکردن یان تێگەشتن لەوەی شتێک ڕاستە بەھۆی ئەو زانیارییەی کە ھەتە"""),
                     SentencesRow(
                       englishText: """I gather (that) you wanted to see me.""",
-                      kurdishText: """وەها تێگەشتم دەتەوێت بمبینی.""",
+                      kurdishText: """وەھا تێگەشتم دەتەوێت بمبینی.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -548,7 +530,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I gather from your letter that you're not enjoying your job.""",
                       kurdishText:
-                          """وەها لە نامەکەت تێدەگەم کە چێژ لە کارەکەت نابینی.""",
+                          """وەھا لە نامەکەت تێدەگەم کە چێژ لە کارەکەت نابینی.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -562,7 +544,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٧. (کردار) زیادبوونی خێرایی، هێز، هتد"""),
+                        text: """٧. (کردار) زیادبوونی خێرایی، ھێز، ھتد"""),
                     SentencesRow(
                       englishText: """The truck gathered speed.""",
                       kurdishText: """پێڕۆیەکە خێرایی زیاد کرد.""",
@@ -574,7 +556,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """As the weeks passed, Charlotte began to gather strength.""",
                       kurdishText:
-                          """کە هەفتەکە تێپەڕی، شارلۆت دەستیکرد بە کۆکردنەوەی وزە.""",
+                          """کە ھەفتەکە تێپەڕی، شارلۆت دەستیکرد بە کۆکردنەوەی وزە.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -583,7 +565,7 @@ ${englishMeaningConst.text}
                         text: """٨. (کردار) کەم‌کەم زیادبوون لە ڕێژە یان بڕ"""),
                     SentencesRow(
                       englishText: """The storm clouds were gathering.""",
-                      kurdishText: """هەوری زریانەکان زیادیان دەکرد.""",
+                      kurdishText: """ھەوری زریانەکان زیادیان دەکرد.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
@@ -599,7 +581,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She gathered up her skirts and ran.""",
-                      kurdishText: """تەنوورەکەی کۆکردەوە و هەڵهات.""",
+                      kurdishText: """تەنوورەکەی کۆکردەوە و ھەڵھات.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -622,7 +604,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She gathered the child in her arms and held him close.""",
                       kurdishText:
-                          """منداڵەکەی لەباوەش گرت و نزیک لە خۆی هێشتییەوە.""",
+                          """منداڵەکەی لەباوەش گرت و نزیک لە خۆی ھێشتییەوە.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -636,7 +618,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٢. (کردار) ئامادەکردنی خۆت بۆ شتێک کە هەوڵی دەوێت"""),
+                            """١٢. (کردار) ئامادەکردنی خۆت بۆ شتێک کە ھەوڵی دەوێت"""),
                     SentencesRow(
                       englishText:
                           """I sat down for a moment to gather my strength.""",

@@ -153,12 +153,12 @@ Usage: N. Amer (elsewhere: petrol station)
 // With short examples define "gas station", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) بەنزینخانە؛ شوێنێک لە تەنیشتی شەقام کە دەویستیت بۆ بەنزین، ڕۆن، گاز، هتد"""),
+                            """١. (ناو) بەنزینخانە؛ شوێنێک لە تەنیشتی شەقام کە دەویستیت بۆ بەنزین، ڕۆن، گاز، ھتد"""),
                     SentencesRow(
                       englishText:
                           """Her father was partner in a gas station chain.""",
                       kurdishText:
-                          """باوکی هاوبەش بوو لە زنجیرە بەنزینخانەیەک.""",
+                          """باوکی ھاوبەش بوو لە زنجیرە بەنزینخانەیەک.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

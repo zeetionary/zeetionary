@@ -167,11 +167,11 @@ ${englishMeaningConst.text}
 // With short examples define "generalization", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) قسەیەک کە پشتی تەنها بە چەند ڕاستی یان نموونەیەک بەستووە؛ ئەوەی کە قسەیەکی وەها بکەیت"""),
+                            """١. (ناو) قسەیەک کە پشتی تەنھا بە چەند ڕاستی یان نموونەیەک بەستووە؛ ئەوەی کە قسەیەکی وەھا بکەیت"""),
                     SentencesRow(
                       englishText: """Try to avoid generalization.""",
                       kurdishText:
-                          """هەوڵ بدە لە گشتگیریکردن دوور بکەویتەوە.""",
+                          """ھەوڵ بدە لە گشتگیریکردن دوور بکەویتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

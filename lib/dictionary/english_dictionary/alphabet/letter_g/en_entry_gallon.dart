@@ -159,7 +159,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The tankers carried 130 000 gallons of fuel.""",
                       kurdishText:
-                          """تەنکەرەکان ١٣٠٠٠ گاڵۆن لە سووتەمەنییان هەڵگرتبوو.""",
+                          """تەنکەرەکان ١٣٠٠٠ گاڵۆن لە سووتەمەنییان ھەڵگرتبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

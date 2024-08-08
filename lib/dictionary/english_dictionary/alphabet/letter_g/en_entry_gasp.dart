@@ -175,12 +175,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: نقەنق، نق‌وهۆڕ، نیخەنیخ، هانکەهانک، هەناسەبڕکێ
+کوردی: نقەنق، نق‌وھۆڕ، نیخەنیخ، ھانکەھانک، ھەناسەبڕکێ
 """),
 // With short examples define "gasp", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) هەناسەدانێکی قووڵ بە دەم، بە تایبەتی کە سەرسامیت بە شتێک"""),
+                            """١. (کردار) ھەناسەدانێکی قووڵ بە دەم، بە تایبەتی کە سەرسامیت بە شتێک"""),
                     SentencesRow(
                       englishText: """She gasped at the wonderful view.""",
                       kurdishText: """کە دیمەنە جوانەکەی دی گوتی پەحا.""",
@@ -189,13 +189,13 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (کردار) هەناسەدان یان قسەکردن بە سەختی"""),
+                        text: """٢. (کردار) ھەناسەدان یان قسەکردن بە سەختی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He came to the surface of the water gasping for air.""",
                       kurdishText:
-                          """هاتە سەر ڕووەکە ھەناسەبڕکێی بوو بۆ ھەوا.""",
+                          """ھاتە سەر ڕووەکە ھەناسەبڕکێی بوو بۆ ھەوا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -208,11 +208,11 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (ناو) هەناسەدانی قووڵ"""),
+                        text: """٣. (ناو) ھەناسەدانی قووڵ"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """His breath came in short gasps.""",
-                      kurdishText: """هەناسەدانەکەی بە هەناسەبڕکێی کورت بوو.""",
+                      kurdishText: """ھەناسەدانەکەی بە ھەناسەبڕکێی کورت بوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

@@ -376,12 +376,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: کایە، گەمە، یاری،	پێشبڕکێ،	جانەوەری کێوی ڕاوی،	ڕاو، نێچیر، گۆشتی ڕاو، گۆشتی گیانەوەری ڕاوی،	دهۆ، فێڵ، کەڵەک،	شۆخی، جەفەنگ،	کار، پیشە، ئیش،	ڕێگا، شێوە،	نەخشە، پڕۆژە،	سەرقاڵی، ڕابواردن، ململانێکان، پێشبڕکێکان، کایەکان، یاری‌یەکان
+کوردی: کایە، گەمە، یاری،	پێشبڕکێ،	جانەوەری کێوی ڕاوی،	ڕاو، نێچیر، گۆشتی ڕاو، گۆشتی گیانەوەری ڕاوی،	دھۆ، فێڵ، کەڵەک،	شۆخی، جەفەنگ،	کار، پیشە، ئیش،	ڕێگا، شێوە،	نەخشە، پڕۆژە،	سەرقاڵی، ڕابواردن، ململانێکان، پێشبڕکێکان، کایەکان، یاری‌یەکان
 """),
 // With short examples define "game", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) چالاکییەک کە بۆ خۆشی دەیکەیت و زۆرجار یاسای هەیە و لە کۆتاییدا دەبەیتەوە یان دەدۆڕێیت"""),
+                            """١. (ناو) چالاکییەک کە بۆ خۆشی دەیکەیت و زۆرجار یاسای ھەیە و لە کۆتاییدا دەبەیتەوە یان دەدۆڕێیت"""),
                     SentencesRow(
                       englishText:
                           """The kids were playing a game with their balloons.""",
@@ -393,21 +393,21 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The children invented a new game.""",
-                      kurdishText: """منداڵەکان یارییەکی تازەیان داهێنا.""",
+                      kurdishText: """منداڵەکان یارییەکی تازەیان داھێنا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I play online games with my friends.""",
-                      kurdishText: """یاری ئۆنلاین لەگەڵ هاوڕێیەکانم دەکەم.""",
+                      kurdishText: """یاری ئۆنلاین لەگەڵ ھاوڕێیەکانم دەکەم.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) یارییەکی وەرزشی کە یاسای هەیە و خەڵکی یان تیم دژی یەکدی یاری دەکەن"""),
+                            """٢. (ناو) یارییەکی وەرزشی کە یاسای ھەیە و خەڵکی یان تیم دژی یەکدی یاری دەکەن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """How I hated team games at school!""",
@@ -448,9 +448,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence7("en-GB"),
                               onPressedAmerican: () => speaksentence7("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -459,9 +456,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence8("en-GB"),
                               onPressedAmerican: () => speaksentence8("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -471,33 +465,24 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence9("en-GB"),
                               onPressedAmerican: () => speaksentence9("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """They're in training for the big game.""",
                               kurdishText:
-                                  """ڕاهێنان بۆ یارییە گرنگەکە دەکەین.""",
+                                  """ڕاھێنان بۆ یارییە گرنگەکە دەکەین.""",
                               onPressedBritish: () => speaksentence10("en-GB"),
                               onPressedAmerican: () => speaksentence10("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """Manchester United are playing a home game this week.""",
                               kurdishText:
-                                  """مانچێستەر یونایتید ئەم هەفتەیە لە ناو یاریگای خۆیان یاری دەکەن.""",
+                                  """مانچێستەر یونایتید ئەم ھەفتەیە لە ناو یاریگای خۆیان یاری دەکەن.""",
                               onPressedBritish: () => speaksentence11("en-GB"),
                               onPressedAmerican: () => speaksentence11("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -519,7 +504,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Stretching exercises can help you avoid injury and improve your game.""",
                       kurdishText:
-                          """ڕاهێنانی کشان دەکرێت یارمەتیت بدەن لە خۆپاراستن لە پێکان و باشترکردنی یاریکردنت.""",
+                          """ڕاھێنانی کشان دەکرێت یارمەتیت بدەن لە خۆپاراستن لە پێکان و باشترکردنی یاریکردنت.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -531,7 +516,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She's hoping to participate in the next Olympic Games.""",
                       kurdishText:
-                          """بەهیوایە بەژداری لە یارییەکانی ئۆڵۆمپیاد بکات.""",
+                          """بەھیوایە بەژداری لە یارییەکانی ئۆڵۆمپیاد بکات.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -550,14 +535,14 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I always hated games at school.""",
-                      kurdishText: """هەمیشە ڕقم لە وەرزش بوو لە قوتابخانە.""",
+                      kurdishText: """ھەمیشە ڕقم لە وەرزش بوو لە قوتابخانە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (ناو) لە هەندێک یاریدا، بۆ نموونە تێنس، بەشێکی خاڵەکانە"""),
+                            """٧. (ناو) لە ھەندێک یاریدا، بۆ نموونە تێنس، بەشێکی خاڵەکانە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -586,7 +571,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٩. (ناو) پلانێکی زیرەکانە و نهێنی"""),
+                        text: """٩. (ناو) پلانێکی زیرەکانە و نھێنی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -598,7 +583,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٠. (کردار) بەکارهێنانی یاساکانی سیستەمێک بە شێوەیەک کە دەتەوێت لە بەرژەوەندیی خۆت"""),
+                            """١٠. (کردار) بەکارھێنانی یاساکانی سیستەمێک بە شێوەیەک کە دەتەوێت لە بەرژەوەندیی خۆت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -641,11 +626,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٢. (هاوەڵناو) کە ئامادەیە بۆ کردنی شتێکی تازە، سەخت، یان گران"""),
+                            """١٢. (ھاوەڵناو) کە ئامادەیە بۆ کردنی شتێکی تازە، سەخت، یان گران"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She's game for anything.""",
-                      kurdishText: """ئامادەی هەموو شتێکە.""",
+                      kurdishText: """ئامادەی ھەموو شتێکە.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
@@ -654,7 +639,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We need a volunteer for this exercise. Who's game to try?""",
                       kurdishText:
-                          """پێویستیمان بە خۆبەخشێکە بۆ ئەم ڕاهێنانە. کێ ئامادەیە تاقی بکاتەوە؟""",
+                          """پێویستیمان بە خۆبەخشێکە بۆ ئەم ڕاھێنانە. کێ ئامادەیە تاقی بکاتەوە؟""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),

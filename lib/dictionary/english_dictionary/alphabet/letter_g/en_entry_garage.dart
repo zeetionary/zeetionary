@@ -220,7 +220,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The car's still at the garage.""",
-                      kurdishText: """ئۆتۆمبێلەکە هێشتا لە گەراجە.""",
+                      kurdishText: """ئۆتۆمبێلەکە ھێشتا لە گەراجە.""",
                       englishNote:
                           """This means the car is currently being kept or repaired at the auto repair shop.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
@@ -233,7 +233,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """They have space to garage two cars.""",
                       kurdishText:
-                          """جێگایان هەیە بۆ گەراجکردنی دوو ئۆتۆمبێل.""",
+                          """جێگایان ھەیە بۆ گەراجکردنی دوو ئۆتۆمبێل.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

@@ -194,16 +194,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: زەرداو، زراو، کرانتی، توورەکەی زراو، کیسەی زراو، زیەڵگ، شت و نێوەرۆکی نێو کیسەی زراو،	توورەکەی زراوی گیانەوەر،	(قسە) ناخۆشی، ڕەقی، تاڵی،	ڕووداری، بێ‌شەرمی، بێ‌حەیایی، جدەو، دڵ‌وجەرگ، زراو، ئازایەتی، غیرەت، بوێری،	عەیب، عار، لکە، داماڵکان، پشتەڕێژ، ڕووشان، پێست ڕۆیشتن، برین،	(هەل)ئاوسان یان ماسینی دار و ڕووەک
+کوردی: زەرداو، زراو، کرانتی، توورەکەی زراو، کیسەی زراو، زیەڵگ، شت و نێوەرۆکی نێو کیسەی زراو،	توورەکەی زراوی گیانەوەر،	(قسە) ناخۆشی، ڕەقی، تاڵی،	ڕووداری، بێ‌شەرمی، بێ‌حەیایی، جدەو، دڵ‌وجەرگ، زراو، ئازایەتی، غیرەت، بوێری،	عەیب، عار، لکە، داماڵکان، پشتەڕێژ، ڕووشان، پێست ڕۆیشتن، برین،	(ھەل)ئاوسان یان ماسینی دار و ڕووەک
 """),
 // With short examples define "gall", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕەفتاری بێ‌ڕێزانە کە جێگەی سەرسامییە بەهۆی ئەوەی کەسەکە خەجاڵەت نابێت"""),
+                            """١. (ناو) ڕەفتاری بێ‌ڕێزانە کە جێگەی سەرسامییە بەھۆی ئەوەی کەسەکە خەجاڵەت نابێت"""),
                     SentencesRow(
                       englishText: """Then they had the gall to complain!""",
                       kurdishText:
-                          """ڕووداری ئەوەیان هەبوو ناڕەزایی دەرببڕن.""",
+                          """ڕووداری ئەوەیان ھەبوو ناڕەزایی دەرببڕن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -212,26 +212,26 @@ ${englishMeaningConst.text}
                       englishText:
                           """Considering that he never even bothers to visit my parents, I'm amazed that Tim has the gall to ask them for money!""",
                       kurdishText:
-                          """بە لەبەرچاوگرتنی ئەوەی کە هەرگیز هەوڵ نادات سەردانی دایبابم بکات، سەرسامم کە تیم ڕووداری ئەوەی هەیە داوای پارەیان لێ بکات!""",
+                          """بە لەبەرچاوگرتنی ئەوەی کە ھەرگیز ھەوڵ نادات سەردانی دایبابم بکات، سەرسامم کە تیم ڕووداری ئەوەی ھەیە داوای پارەیان لێ بکات!""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) هەستێکی پڕ لە ڕق"""),
+                        text: """٢. (ناو) ھەستێکی پڕ لە ڕق"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She replied with words full of venom and gall.""",
                       kurdishText:
-                          """بە وشەی پڕ لە ژەهراوی و تووڕەیی وەڵامی دایەوە.""",
+                          """بە وشەی پڕ لە ژەھراوی و تووڕەیی وەڵامی دایەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) هەڵاوسانێک لەسەر درەخت، ڕووەک، یان جەستەی ئاژەڵ کە بەهۆی نەخۆشییەوە درووست دەبێت"""),
+                            """٣. (ناو) ھەڵاوسانێک لەسەر درەخت، ڕووەک، یان جەستەی ئاژەڵ کە بەھۆی نەخۆشییەوە درووست دەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -253,7 +253,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (کردار) واکردنی ئەوەی کەسێک هەست بە بێزاری یان تووڕەیی بکات"""),
+                            """٥. (کردار) واکردنی ئەوەی کەسێک ھەست بە بێزاری یان تووڕەیی بکات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

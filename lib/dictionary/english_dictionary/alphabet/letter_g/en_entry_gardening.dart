@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """My mother has always enjoyed gardening.""",
-                      kurdishText: """دایکم هەمیشە حەزی بە باخەوانی بووە.""",
+                      kurdishText: """دایکم ھەمیشە حەزی بە باخەوانی بووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

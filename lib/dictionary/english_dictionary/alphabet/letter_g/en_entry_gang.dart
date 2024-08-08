@@ -235,7 +235,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """We were all in the same gang.""",
-                      kurdishText: """هەموومان لە هەمان گرووپ بووین.""",
+                      kurdishText: """ھەموومان لە ھەمان گرووپ بووین.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -243,7 +243,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Many gang members are just children.""",
                       kurdishText:
-                          """زۆر لە ئەندامانی گرووپەکان تەنها منداڵانن.""",
+                          """زۆر لە ئەندامانی گرووپەکان تەنھا منداڵانن.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -257,11 +257,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) ژمارەیەک هاوڕێ کە زوو زوو یەکدی دەبینن"""),
+                            """٣. (ناو) ژمارەیەک ھاوڕێ کە زوو زوو یەکدی دەبینن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The whole gang will be there.""",
-                      kurdishText: """تەواوی هاوڕێیان لەوێ دەبن.""",
+                      kurdishText: """تەواوی ھاوڕێیان لەوێ دەبن.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -270,7 +270,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I go out with a gang of friends most Saturdays.""",
                       kurdishText:
-                          """زۆرینەی شەممان لەگەڵ گرووپێک لە هاوڕێیان دەچمە دەرەوە.""",
+                          """زۆرینەی شەممان لەگەڵ گرووپێک لە ھاوڕێیان دەچمە دەرەوە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

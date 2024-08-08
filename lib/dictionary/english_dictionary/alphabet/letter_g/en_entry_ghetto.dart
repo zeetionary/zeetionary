@@ -166,7 +166,7 @@ ${englishMeaningConst.text}
 // With short examples define "ghetto", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ناوچەیەکی هەژارنشین کە ژمارەیەک خەڵکی دیاریکراو دابڕاو لە خەڵکە سەرەکییەکە تێیدا دەژین"""),
+                            """١. (ناو) ناوچەیەکی ھەژارنشین کە ژمارەیەک خەڵکی دیاریکراو دابڕاو لە خەڵکە سەرەکییەکە تێیدا دەژین"""),
                     SentencesRow(
                       englishText:
                           """I'm from the ghetto and I didn't have it easy.""",
@@ -178,7 +178,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ناوچەیەک یان گرووپێک کە تایبەتمەندیی خۆی هەیە و خەڵکەکەی بە جۆرێک جیاوازن لە خەڵکە سەرەکییەکە"""),
+                            """٢. (ناو) ناوچەیەک یان گرووپێک کە تایبەتمەندیی خۆی ھەیە و خەڵکەکەی بە جۆرێک جیاوازن لە خەڵکە سەرەکییەکە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

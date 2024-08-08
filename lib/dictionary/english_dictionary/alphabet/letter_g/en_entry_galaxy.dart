@@ -178,12 +178,12 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) هەر یەک لە سیستەمە گەورەکانی ئەستێرە لە بۆشایی ئاسماندا"""),
+                            """١. (ناو) ھەر یەک لە سیستەمە گەورەکانی ئەستێرە لە بۆشایی ئاسماندا"""),
                     SentencesRow(
                       englishText:
                           """The Andromeda galaxy is the closest to ours.""",
                       kurdishText:
-                          """گەلەئەستێرەی ئەندرۆمیدا نزیکترینە لە هی خۆمانەوە.""",
+                          """گەلەئەستێرەی ئەندرۆمیدا نزیکترینە لە ھی خۆمانەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -197,13 +197,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) گەلە ئەستێرەی ڕێگای شیری کە خۆری خۆمان و هەسارەکانیی تێدایە"""),
+                            """٢. (ناو) گەلە ئەستێرەی ڕێگای شیری کە خۆری خۆمان و ھەسارەکانیی تێدایە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Jupiter is the biggest planet in our solar system, but not the biggest planet in the Galaxy.""",
                       kurdishText:
-                          """موشتەری گەورەترین هەسارەی کۆمەڵەی خۆرەکەمانە، بەڵام گەورەترینی گەلە ئەستێرەکەمان نییە.""",
+                          """موشتەری گەورەترین ھەسارەی کۆمەڵەی خۆرەکەمانە، بەڵام گەورەترینی گەلە ئەستێرەکەمان نییە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

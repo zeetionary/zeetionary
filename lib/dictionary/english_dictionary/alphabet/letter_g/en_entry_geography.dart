@@ -215,12 +215,12 @@ ${englishMeaningConst.text}
 // With short examples define "geography", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) بریتییە لە توویژینەوەی زانستی لە ڕووی زەوی، تایبەتمەندییە فیزیکییەکانی، دابەشبوونەکانی، بەرهەمەکانی، دانیشتوانی، هتد"""),
+                            """١. (ناو) بریتییە لە توویژینەوەی زانستی لە ڕووی زەوی، تایبەتمەندییە فیزیکییەکانی، دابەشبوونەکانی، بەرھەمەکانی، دانیشتوانی، ھتد"""),
                     SentencesRow(
                       englishText:
                           """Today's geography lesson covered world climates.""",
                       kurdishText:
-                          """بابەتی ئەمڕۆی جوگرافیا باسی لە ئاووهەواکانی جیهان کرد.""",
+                          """بابەتی ئەمڕۆی جوگرافیا باسی لە ئاووھەواکانی جیھان کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -229,7 +229,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She earned a degree in geography from the university.""",
                       kurdishText:
-                          """لە زانکۆ بڕوانامەی لە جوگرافیا بەدەستهێنا.""",
+                          """لە زانکۆ بڕوانامەی لە جوگرافیا بەدەستھێنا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -260,7 +260,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """These streets had a very particular geography.""",
                       kurdishText:
-                          """ئەم شەقامانە جوگرافیایەکی زۆر تایبەتیان هەیە.""",
+                          """ئەم شەقامانە جوگرافیایەکی زۆر تایبەتیان ھەیە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -289,13 +289,13 @@ ${englishMeaningConst.text}
                       englishText:
                           """The geography of poverty and the geography of voting are connected.""",
                       kurdishText:
-                          """جوگرافیای هەژاری و جوگرافیای دەنگدان پەیوەندیدارن.""",
+                          """جوگرافیای ھەژاری و جوگرافیای دەنگدان پەیوەندیدارن.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٤. (ناو) وڵات، ناوچە، یان هەرێم"""),
+                        text: """٤. (ناو) وڵات، ناوچە، یان ھەرێم"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

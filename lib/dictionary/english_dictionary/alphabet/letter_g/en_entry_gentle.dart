@@ -223,12 +223,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دڵسۆز، دڵنەرم، بەڕوحم، بەڕەحم، بەبەزەیی، مێهرەوان،	بەئابڕوو، بەوەج، خانەدان، بەگزادە،	ئاگادار، تێبین،	ناتوندوتیژ، ئارام، هێمن، هێدی، لەسەرەخۆ، نیان،	(هەوا، تێمپراچێر، لێژایی و هتد) فێنک، مام‌ناوەندی، سازگار، نەرم، نیان، خۆش،	(دەنگ) ناسک، نەرم
+کوردی: دڵسۆز، دڵنەرم، بەڕوحم، بەڕەحم، بەبەزەیی، مێھرەوان،	بەئابڕوو، بەوەج، خانەدان، بەگزادە،	ئاگادار، تێبین،	ناتوندوتیژ، ئارام، ھێمن، ھێدی، لەسەرەخۆ، نیان،	(ھەوا، تێمپراچێر، لێژایی و ھتد) فێنک، مام‌ناوەندی، سازگار، نەرم، نیان، خۆش،	(دەنگ) ناسک، نەرم
 """),
 // With short examples define "gentle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) هێمن و میهرەبان؛ کردنی شت بە ئارامی و وریایی"""),
+                            """١. (ھاوەڵناو) ھێمن و میھرەبان؛ کردنی شت بە ئارامی و وریایی"""),
                     SentencesRow(
                       englishText: """Terry was a gentle soul.""",
                       kurdishText: """تێری کەسێکی لەسەرەخۆ بوو.""",
@@ -238,7 +238,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She was the gentlest of nurses.""",
-                      kurdishText: """لە میهرەبانترین پەرستارەکان بوو.""",
+                      kurdishText: """لە میھرەبانترین پەرستارەکان بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -259,13 +259,13 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The professor gave a gentle smile.""",
-                      kurdishText: """پڕۆفیسۆرەکە بزەیەکی میهرەبانانەی کرد.""",
+                      kurdishText: """پڕۆفیسۆرەکە بزەیەکی میھرەبانانەی کرد.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ھاوەڵناو) کە بەهێز و زۆر نییە"""),
+                        text: """٢. (ھاوەڵناو) کە بەھێز و زۆر نییە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Cook over a gentle heat.""",
@@ -276,13 +276,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵناو) کە بەهێز و توند نییە؛ کە کاریگەریی کەمە"""),
+                            """٣. (ھاوەڵناو) کە بەھێز و توند نییە؛ کە کاریگەریی کەمە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The doctor recommended a little gentle exercise.""",
                       kurdishText:
-                          """پزیشکەکە پێشنیاری ڕاهێنانێکی لەسەرەخۆی کەمی کرد.""",
+                          """پزیشکەکە پێشنیاری ڕاھێنانێکی لەسەرەخۆی کەمی کرد.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

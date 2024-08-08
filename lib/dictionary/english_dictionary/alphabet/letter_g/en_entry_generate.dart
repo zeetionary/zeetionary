@@ -190,12 +190,12 @@ ${englishMeaningConst.text}
 // With short examples define "generate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) بەرهەمهێنانی وزە، بە تایبەتی کارەبا"""),
+                            """١. (کردار) بەرھەمھێنانی وزە، بە تایبەتی کارەبا"""),
                     SentencesRow(
                       englishText:
                           """The wind turbines are used to generate electricity.""",
                       kurdishText:
-                          """تۆرباینە باییەکان کارەبا بەرهەم دەهێنن.""",
+                          """تۆرباینە باییەکان کارەبا بەرھەم دەھێنن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -204,14 +204,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """Living cells generate energy from food.""",
                       kurdishText:
-                          """خانە زیندووەکان وزە لە خواردن بەرهەم دەهێنن.""",
+                          """خانە زیندووەکان وزە لە خواردن بەرھەم دەھێنن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) بەرهەمهێنان یان درووستکردنی شتێک"""),
+                            """٢. (کردار) بەرھەمھێنان یان درووستکردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """We need someone to generate new ideas.""",

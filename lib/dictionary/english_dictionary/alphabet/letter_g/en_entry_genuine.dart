@@ -188,9 +188,9 @@ ${englishMeaningConst.text}
 // With short examples define "genuine", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) ڕاست؛ کە هەمان ئەو شتەیە کە دەیبینیت"""),
+                            """١. (ھاوەڵناو) ڕاست؛ کە ھەمان ئەو شتەیە کە دەیبینیت"""),
                     AlsoEnglishckblink(
-                      textBeforeLink: "هەروەها: ",
+                      textBeforeLink: "ھەروەھا: ",
                       linkText: "authentic",
                       textAfterLink: ".",
                       onTap: () {
@@ -228,7 +228,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He made a genuine attempt to improve conditions.""",
                       kurdishText:
-                          """هەوڵێکی سەرڕاستانەی دا بۆ باشترکردنی دۆخەکە.""",
+                          """ھەوڵێکی سەرڕاستانەی دا بۆ باشترکردنی دۆخەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -236,7 +236,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """He came across as a very genuine person.""",
-                      kurdishText: """وەک کەسێکی زۆر دڵپاک دەهاتە بەرچاو.""",
+                      kurdishText: """وەک کەسێکی زۆر دڵپاک دەھاتە بەرچاو.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

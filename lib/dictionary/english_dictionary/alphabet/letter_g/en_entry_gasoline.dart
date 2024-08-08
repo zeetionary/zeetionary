@@ -158,7 +158,7 @@ Usage: N. Amer (elsewhere: petrol)
                       englishText:
                           """I fill up the tank with gasoline about once a week.""",
                       kurdishText:
-                          """نزیکەی هەفتەی جارێک تانکییەکە پڕ لە بەنزین دەکەم.""",
+                          """نزیکەی ھەفتەی جارێک تانکییەکە پڕ لە بەنزین دەکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

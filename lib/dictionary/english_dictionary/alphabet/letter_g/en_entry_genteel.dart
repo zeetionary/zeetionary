@@ -167,7 +167,7 @@ ${englishMeaningConst.text}
 // With short examples define "genteel", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە سەر بە چینی باڵایە، یان وەهای پیشان دەدات"""),
+                            """١. (ھاوەڵناو) کە سەر بە چینی باڵایە، یان وەھای پیشان دەدات"""),
                     SentencesRow(
                       englishText: """Her genteel accent irritated me.""",
                       kurdishText:
@@ -179,19 +179,19 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """He lived in genteel poverty (= trying to keep the style of a high social class, but with little money).""",
-                      kurdishText: """بە هەژاری نەجیبانە دەژیا.""",
+                      kurdishText: """بە ھەژاری نەجیبانە دەژیا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ھاوەڵناو) هێمن و لەسەرخۆ"""),
+                        text: """٢. (ھاوەڵناو) ھێمن و لەسەرخۆ"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The game seemed to be a more genteel version of American football.""",
                       kurdishText:
-                          """وەها دەردەکەوت کە شێوەیەکی لەسەرخۆی تۆپێنی ئەمریکی بێت.""",
+                          """وەھا دەردەکەوت کە شێوەیەکی لەسەرخۆی تۆپێنی ئەمریکی بێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

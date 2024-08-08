@@ -163,7 +163,7 @@ ${englishMeaningConst.text}
                             """١. (ناو) کەسێک کە کاری چاودێری کردنی باخچە دەکات"""),
                     SentencesRow(
                       englishText: """We employ a gardener two days a week.""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      kurdishText: """دوو هەفتە لە ڕۆژێکدا باخەوانێک بە کرێ دەگرین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

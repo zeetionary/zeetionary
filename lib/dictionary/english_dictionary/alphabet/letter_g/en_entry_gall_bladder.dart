@@ -154,7 +154,7 @@ ${englishMeaningConst.text}
 // With short examples define "gall bladder", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەندامێک کە گرێدراوەوە بە جگەرەوە تێیدا زراو هەڵگیراوە"""),
+                            """١. (ناو) ئەندامێک کە گرێدراوەوە بە جگەرەوە تێیدا زراو ھەڵگیراوە"""),
                     SentencesRow(
                       englishText:
                           """She had an operation to remove a stone from her gall bladder.""",

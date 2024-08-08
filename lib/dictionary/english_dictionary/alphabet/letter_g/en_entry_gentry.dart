@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """His diaries provide a look at the life of the gentry in 18th-century Virginia.""",
                       kurdishText:
-                          """بیرەوەرییەکانی تێڕوانینێک سەبارەت بە ژیانی چینی دەوڵەمەند لە ڤێرجینیای سەدەی هەژدەهەم دەدات بەدەستەوە.""",
+                          """بیرەوەرییەکانی تێڕوانینێک سەبارەت بە ژیانی چینی دەوڵەمەند لە ڤێرجینیای سەدەی ھەژدەھەم دەدات بەدەستەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

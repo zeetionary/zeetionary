@@ -153,12 +153,12 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە جینەکانی دەستکراوە، بۆ نموونە بۆ ئەوەی میوەی زیاتری هەبێت یان تووشی نەخۆشی نەبێت"""),
+                            """١. (ھاوەڵناو) کە جینەکانی دەستکراوە، بۆ نموونە بۆ ئەوەی میوەی زیاتری ھەبێت یان تووشی نەخۆشی نەبێت"""),
                     SentencesRow(
                       englishText:
                           """They tested genetically modified animals in the lab.""",
                       kurdishText:
-                          """ئاژەڵی بۆهێڵ گۆڕاویان تاقیکردەوە لە تاقیگە.""",
+                          """ئاژەڵی بۆھێڵ گۆڕاویان تاقیکردەوە لە تاقیگە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -258,7 +258,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دەروازە، درگا(ی گەورە)، دەرکە، درگای حەوشە،	ژوورگە، ڕێگا، ڕێی چوونەژوورەوە،	(بەنداو) زمانە، دەروازە،	شوێنی هاتنەدەر و چوونەژوورەوە،	ژمارەی سەیرکەران یان چاولێکەران
+کوردی: دەروازە، درگا(ی گەورە)، دەرکە، درگای حەوشە،	ژوورگە، ڕێگا، ڕێی چوونەژوورەوە،	(بەنداو) زمانە، دەروازە،	شوێنی ھاتنەدەر و چوونەژوورەوە،	ژمارەی سەیرکەران یان چاولێکەران
 """),
 // With short examples define "gate", please follow LX instructions
                     const DefinitionKurdish(
@@ -275,7 +275,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Students were still standing outside the school gates.""",
                       kurdishText:
-                          """منداڵان هێشتا لە پێش دەرگای قوتابخانەکە وەستابوون.""",
+                          """منداڵان ھێشتا لە پێش دەرگای قوتابخانەکە وەستابوون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -384,7 +384,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Tonight's game has attracted the largest gate of the season.""",
                       kurdishText:
-                          """یارییەکەی ئەمشەو زۆرترین هاندەری وەرزەکەی هەبووە.""",
+                          """یارییەکەی ئەمشەو زۆرترین ھاندەری وەرزەکەی ھەبووە.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),

@@ -167,7 +167,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She wore a gauze skirt to the summer party.""",
                       kurdishText:
-                          """تەنوورەیەکی برنجۆکی لەبەر کرد بۆ ئاهەنگە هاوینەکە.""",
+                          """تەنوورەیەکی برنجۆکی لەبەر کرد بۆ ئاھەنگە ھاوینەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

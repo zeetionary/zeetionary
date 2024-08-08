@@ -161,7 +161,7 @@ ${englishMeaningConst.text}
 // With short examples define "gaunt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کەسێکی زۆر لاواز، زۆرجار بەهۆی نەخۆشی، کەم‌خۆراکی، یان نیگەرانی"""),
+                            """١. (ھاوەڵناو) کەسێکی زۆر لاواز، زۆرجار بەھۆی نەخۆشی، کەم‌خۆراکی، یان نیگەرانی"""),
                     SentencesRow(
                       englishText: """She looked gaunt and exhausted.""",
                       kurdishText: """لاواز و ماندوو دیاربوو.""",

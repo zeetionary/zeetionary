@@ -164,7 +164,7 @@ ${englishMeaningConst.text}
 // With short examples define "gangway", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕێگای نێوان ڕیزە کورسییەکانی هۆڵی شانۆ، فڕۆکە، هتد"""),
+                            """١. (ناو) ڕێگای نێوان ڕیزە کورسییەکانی ھۆڵی شانۆ، فڕۆکە، ھتد"""),
                     SentencesRow(
                       englishText:
                           """I made my way along the narrow gangway.""",
@@ -181,7 +181,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They finally agreed to let us on board and we climbed the gangway.""",
                       kurdishText:
-                          """لە کۆتاییدا ڕازی بوون بهێڵن بچینە سەر کەشتییەکە و سەرکەوتین بەسەر پردۆکەکەدا.""",
+                          """لە کۆتاییدا ڕازی بوون بھێڵن بچینە سەر کەشتییەکە و سەرکەوتین بەسەر پردۆکەکەدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

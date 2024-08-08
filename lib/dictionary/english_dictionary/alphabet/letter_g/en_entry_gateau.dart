@@ -151,10 +151,10 @@ ${englishMeaningConst.text}
 // With short examples define "gateau", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کێکێکی گەورە کە پڕ دەکرێت لە کرێم و زۆرجار میوە، کاکڵدار، هتد لەسەری دادەنرێت"""),
+                            """١. (ناو) کێکێکی گەورە کە پڕ دەکرێت لە کرێم و زۆرجار میوە، کاکڵدار، ھتد لەسەری دادەنرێت"""),
                     SentencesRow(
                       englishText: """Is there any gateau left?""",
-                      kurdishText: """هیچ کێکێک ماوەتەوە؟""",
+                      kurdishText: """ھیچ کێکێک ماوەتەوە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

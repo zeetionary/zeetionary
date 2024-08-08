@@ -175,7 +175,7 @@ ${englishMeaningConst.text}
                             """١. (ھاوەڵناو) پەیوەندیدار بە وڵاتی ئەڵمانیا"""),
                     SentencesRow(
                       englishText: """He has a German girlfriend.""",
-                      kurdishText: """دۆستە کچێکی ئەڵمانی هەیە.""",
+                      kurdishText: """دۆستە کچێکی ئەڵمانی ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -187,7 +187,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We have a group of Germans staying at the hotel.""",
                       kurdishText:
-                          """گرووپێک خەڵکی ئەڵمانیمان هەیە کە لە هوتێلەکە دەمێننەوە.""",
+                          """گرووپێک خەڵکی ئەڵمانیمان ھەیە کە لە ھوتێلەکە دەمێننەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

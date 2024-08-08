@@ -176,16 +176,16 @@ ${englishMeaningConst.text}
                       englishText:
                           """The 100-strong garrison had received no supplies for a week.""",
                       kurdishText:
-                          """فەوجەکە/تابوورەکە بۆ هەفتەیەک هیچ ئازووقەیان پێنەگەشت بوو.""",
+                          """فەوجەکە/تابوورەکە بۆ ھەفتەیەک ھیچ ئازووقەیان پێنەگەشت بوو.""",
                       kurdishNote:
-                          """تابوور هەزار سەربازە، و فەوج سەروو ١٠ هەزارە""",
+                          """تابوور ھەزار سەربازە، و فەوج سەروو ١٠ ھەزارە""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) دانانی سەرباز لە ناوچەیەک بۆ پاراستنی لە هێرش"""),
+                            """٢. (کردار) دانانی سەرباز لە ناوچەیەک بۆ پاراستنی لە ھێرش"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

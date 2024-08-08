@@ -163,10 +163,10 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەشتییەکی تەختی درێ کە چارۆکەی هەبوو یۆنانی و ڕۆمە کۆنەکان بەکاریان دەهێنا، و زۆرجار زیندانی یان کۆیلەکان سەوڵیان لێدەدا"""),
+                            """١. (ناو) کەشتییەکی تەختی درێ کە چارۆکەی ھەبوو یۆنانی و ڕۆمە کۆنەکان بەکاریان دەھێنا، و زۆرجار زیندانی یان کۆیلەکان سەوڵیان لێدەدا"""),
                     SentencesRow(
                       englishText: """The ancient galley had many rowers.""",
-                      kurdishText: """گاڵیی کۆن زۆر توانای هەبوو.""",
+                      kurdishText: """گاڵیی کۆن زۆر توانای ھەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -159,7 +159,7 @@ ${englishMeaningConst.text}
 // With short examples define "geology", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) زانستی لێکۆڵینەوە لە پێکهاتەی زەوی، لە نێوانیاندا بنەچە و مێژووی ئەو بەرد و خۆڵەی کە زەوی پێکدەهێنن"""),
+                            """١. (ناو) زانستی لێکۆڵینەوە لە پێکھاتەی زەوی، لە نێوانیاندا بنەچە و مێژووی ئەو بەرد و خۆڵەی کە زەوی پێکدەھێنن"""),
                     SentencesRow(
                       englishText: """He did geology at university.""",
                       kurdishText: """زەویناسی خوێند لە زانکۆ.""",

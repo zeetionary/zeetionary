@@ -147,7 +147,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گەدەیی، مێعدەیی، سەربە گەدە، پێوەندی بە مێعدەوە هەیە
+کوردی: گەدەیی، مێعدەیی، سەربە گەدە، پێوەندی بە مێعدەوە ھەیە
 """),
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) پەیوەندیدار بە گەددە"""),

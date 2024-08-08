@@ -154,7 +154,7 @@ ${englishMeaningConst.text}
 // """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) قایشێک کە زۆرجار لە لاق دەبەسترێت بۆ ئەوەی گۆرەوی یان کۆڵۆن لە جێگای خۆی بهێڵێتەوە"""),
+                            """١. (ناو) قایشێک کە زۆرجار لە لاق دەبەسترێت بۆ ئەوەی گۆرەوی یان کۆڵۆن لە جێگای خۆی بھێڵێتەوە"""),
                     SentencesRow(
                       englishText: """The garter slipped down her leg.""",
                       kurdishText: """The garter slipped down her leg..""",

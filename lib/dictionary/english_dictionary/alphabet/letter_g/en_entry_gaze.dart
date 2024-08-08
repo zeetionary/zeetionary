@@ -193,7 +193,7 @@ ${englishMeaningConst.text}
 // With short examples define "gaze", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) سەیرکردنی کەسێک بێ جووڵە بۆ ماوەیەکی زۆر، بەهۆی ئەوەی کە سەرسامیت یان ئەوەی بیرت لای شتێکی دیکە"""),
+                            """١. (کردار) سەیرکردنی کەسێک بێ جووڵە بۆ ماوەیەکی زۆر، بەھۆی ئەوەی کە سەرسامیت یان ئەوەی بیرت لای شتێکی دیکە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: stare"),
                     SentencesRow(
                       englishText: """She gazed at him in amazement.""",
@@ -206,7 +206,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He sat for hours just gazing into space.""",
                       kurdishText:
-                          """بۆ چەندین کاتژمێر دانیشت تەنها لە دەرووبەری ڕووانی.""",
+                          """بۆ چەندین کاتژمێر دانیشت تەنھا لە دەرووبەری ڕووانی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -215,7 +215,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Every one gazed at her beautiful jewels.""",
                       kurdishText:
-                          """هەموان چاویان لەسەر خشڵە جوانەکانی بوو.""",
+                          """ھەموان چاویان لەسەر خشڵە جوانەکانی بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

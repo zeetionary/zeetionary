@@ -146,18 +146,18 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هەڵەی گەورە، لێ‌داقڵیشان، لێ‌هەڵقڵیشان، شاشی، چەوتی
+کوردی: ھەڵەی گەورە، لێ‌داقڵیشان، لێ‌ھەڵقڵیشان، شاشی، چەوتی
 """),
 // With short examples define "gaffe", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) هەڵەیەک کە کەسێک لە دەرەوە یان بۆنەیەکی کۆمەڵایەتیدا دەیکات، بە تایبەتی شتێک کە جێگەی شەرمەزارییە"""),
+                            """١. (ناو) ھەڵەیەک کە کەسێک لە دەرەوە یان بۆنەیەکی کۆمەڵایەتیدا دەیکات، بە تایبەتی شتێک کە جێگەی شەرمەزارییە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: faux pas"),
                     SentencesRow(
                       englishText:
                           """He made some real gaffes early in his career.""",
                       kurdishText:
-                          """لە سەرەتای کاریدا ژمارەیەک هەڵەی نابەجێی کرد.""",
+                          """لە سەرەتای کاریدا ژمارەیەک ھەڵەی نابەجێی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

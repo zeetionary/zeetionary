@@ -166,7 +166,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گشتی‌بوون، گشتێتی، دەربڕینی بەگشتی، هەمەلایەنی، گشت‌لایەنی، زۆرداگرتن،	زۆرینە، پڕانی،	بەشی سەرەکی
+کوردی: گشتی‌بوون، گشتێتی، دەربڕینی بەگشتی، ھەمەلایەنی، گشت‌لایەنی، زۆرداگرتن،	زۆرینە، پڕانی،	بەشی سەرەکی
 """),
 // With short examples define "generality", please follow LX instructions
                     const DefinitionKurdish(
@@ -175,7 +175,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """As usual, he confined his comments to generalities.""",
-                      kurdishText: """وەک هەمیشە، لێدوانەکانی بە گشتگیری دا.""",
+                      kurdishText: """وەک ھەمیشە، لێدوانەکانی بە گشتگیری دا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -187,7 +187,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """This view is held by the generality of leading scholars.""",
                       kurdishText:
-                          """ئەم دیدە هی زۆرینەی پسپۆڕە بەناوبانگەکانە.""",
+                          """ئەم دیدە ھی زۆرینەی پسپۆڕە بەناوبانگەکانە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -200,7 +200,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """An account of such generality is of little value.""",
                       kurdishText:
-                          """گێڕانەوەیەک بە گشتگیری وەهاوە بەهای کەمە.""",
+                          """گێڕانەوەیەک بە گشتگیری وەھاوە بەھای کەمە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

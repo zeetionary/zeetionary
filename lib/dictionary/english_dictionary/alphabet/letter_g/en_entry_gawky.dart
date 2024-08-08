@@ -156,7 +156,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The gawky boy tripped over his own feet.""",
-                      kurdishText: """کوڕە زلحۆکە پێی لە قاچی خۆی هەڵکەوت.""",
+                      kurdishText: """کوڕە زلحۆکە پێی لە قاچی خۆی ھەڵکەوت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

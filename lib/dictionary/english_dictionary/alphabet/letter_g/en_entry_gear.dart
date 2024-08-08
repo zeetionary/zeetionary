@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گێڕ، گیر، چەرخ یان پێچکەی ددانەدار،	دەزگا، ئامێر، ئامراز، هەجەت،	بەرگ، شمەک،	میزان‌کردنی میکانیزمی گێڕ،	(خوازە) لێوەشاوەیی، لێهاتوویی،	چالاکی، خێرایی، جم‌وجۆڵ، دەرمانی ناقانوونی
+کوردی: گێڕ، گیر، چەرخ یان پێچکەی ددانەدار،	دەزگا، ئامێر، ئامراز، ھەجەت،	بەرگ، شمەک،	میزان‌کردنی میکانیزمی گێڕ،	(خوازە) لێوەشاوەیی، لێھاتوویی،	چالاکی، خێرایی، جم‌وجۆڵ، دەرمانی ناقانوونی
 """),
 // With short examples define "gear", please follow LX instructions
                     const DefinitionKurdish(
@@ -307,18 +307,18 @@ ${englishMeaningConst.text}
                       englishText:
                           """Careless use of the clutch may damage the gears.""",
                       kurdishText:
-                          """بەکارهێنانی ناوریایانەی کلاچەکە ڕەنگە زیان بە گێڕەکان بگەیەنێت.""",
+                          """بەکارھێنانی ناوریایانەی کلاچەکە ڕەنگە زیان بە گێڕەکان بگەیەنێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ئاستی گێڕی ئۆتۆمبێل کە خێرایی و هێزی جیاواز بەکاردێنێت"""),
+                            """٢. (ناو) ئاستی گێڕی ئۆتۆمبێل کە خێرایی و ھێزی جیاواز بەکاردێنێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Does your car have five or six gears?""",
-                      kurdishText: """ئۆتۆمبێلەکەت پێنج یان شەش گێڕی هەیە؟""",
+                      kurdishText: """ئۆتۆمبێلەکەت پێنج یان شەش گێڕی ھەیە؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -355,7 +355,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """When parking on a hill, leave the car in gear.""",
                       kurdishText:
-                          """کە لەسەر بەرزاییەک دەوەستیت، ئۆتۆمبێلەکەت لە گێڕ بهێڵەوە.""",
+                          """کە لەسەر بەرزاییەک دەوەستیت، ئۆتۆمبێلەکەت لە گێڕ بھێڵەوە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -369,7 +369,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Leave the car out of gear.""",
-                      kurdishText: """ئۆتۆمبێلەکە لە بۆش بهێڵەوە.""",
+                      kurdishText: """ئۆتۆمبێلەکە لە بۆش بھێڵەوە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -389,7 +389,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The shop sells various types of outdoor gear.""",
                       kurdishText:
-                          """فرۆشگاکە ژمارەیەکی جیاواز لە هەجەت و بەرگی دەرەوە دەفرۆشێت.""",
+                          """فرۆشگاکە ژمارەیەکی جیاواز لە ھەجەت و بەرگی دەرەوە دەفرۆشێت.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -407,7 +407,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The cooking gear is still in the back of the car.""",
                       kurdishText:
-                          """جلی چێشتلێنانەکە هێشتا لە پشتەوەی ئۆتۆمبێلەکەیە.""",
+                          """جلی چێشتلێنانەکە ھێشتا لە پشتەوەی ئۆتۆمبێلەکەیە.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -418,7 +418,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Her friends were all wearing the latest gear.""",
                       kurdishText:
-                          """هاوڕێکانی هەموویان تازەترین جلیان لەبەربوو.""",
+                          """ھاوڕێکانی ھەموویان تازەترین جلیان لەبەربوو.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -427,18 +427,18 @@ ${englishMeaningConst.text}
                       englishText:
                           """She was the only one wearing expensive gear.""",
                       kurdishText:
-                          """تەنها کەس بوو کە جلی گران‌بەهای لەبەربوو.""",
+                          """تەنھا کەس بوو کە جلی گران‌بەھای لەبەربوو.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٥. (ناو) ئەو شتانەی کەسێک هەیەتی"""),
+                        text: """٥. (ناو) ئەو شتانەی کەسێک ھەیەتی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I've left all my gear at Dave's house.""",
                       kurdishText:
-                          """تەواوی شمەکەکانم لە ماڵی دەیڤ جێهێشتووە.""",
+                          """تەواوی شمەکەکانم لە ماڵی دەیڤ جێھێشتووە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -451,20 +451,20 @@ ${englishMeaningConst.text}
                       englishText:
                           """They inspected the lifting gear before use.""",
                       kurdishText:
-                          """پێش بەکارهێنان ئامێری بەرزکردنەوەکەی پشکنی.""",
+                          """پێش بەکارھێنان ئامێری بەرزکردنەوەکەی پشکنی.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (ناو) بۆ باسکردنی هەوڵ و خێرایی کردنی شتێک"""),
+                            """٧. (ناو) بۆ باسکردنی ھەوڵ و خێرایی کردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The party organization is moving into top gear as the election approaches.""",
                       kurdishText:
-                          """ڕێکخستنی پارتەکە چووەتە ئەوپەڕی خێرایی کە هەڵبژاردن نزیک دەبێتەوە.""",
+                          """ڕێکخستنی پارتەکە چووەتە ئەوپەڕی خێرایی کە ھەڵبژاردن نزیک دەبێتەوە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -478,13 +478,13 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٨. (ناو) مادەی هۆشبەر"""),
+                    const DefinitionKurdish(text: """٨. (ناو) مادەی ھۆشبەر"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The traffickers knew that there would always be someone willing to move the gear.""",
                       kurdishText:
-                          """قاچاخچییان دەیانزانی هەمیشە کەسێک دەبێت ئامادە بێت مادەکان بگوازێتەوە.""",
+                          """قاچاخچییان دەیانزانی ھەمیشە کەسێک دەبێت ئامادە بێت مادەکان بگوازێتەوە.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),

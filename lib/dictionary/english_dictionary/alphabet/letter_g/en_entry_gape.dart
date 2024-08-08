@@ -191,7 +191,7 @@ ${englishMeaningConst.text}
 // With short examples define "gape", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) سەیرکردنی کەسێک/شتێک بەهۆی ئەوەی کە سەرسامیت"""),
+                            """١. (ناو) سەیرکردنی کەسێک/شتێک بەھۆی ئەوەی کە سەرسامیت"""),
                     SentencesRow(
                       englishText:
                           """She climbed into her sports car to the gapes of passers-by.""",
@@ -208,14 +208,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """The perch has the large eye and wide gape of an active hunter.""",
                       kurdishText:
-                          """ماسییەکە چاوێکی گەورە و دەمێکی داچەقیوی ڕاوکەرێکی چالاکی هەیە.""",
+                          """ماسییەکە چاوێکی گەورە و دەمێکی داچەقیوی ڕاوکەرێکی چالاکی ھەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (کردار) ڕوانین لە کەسێک/شتێک بەهۆی ئەوەی کە سەرسامیت"""),
+                            """٣. (کردار) ڕوانین لە کەسێک/شتێک بەھۆی ئەوەی کە سەرسامیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Isabel gaped at him, horrified.""",

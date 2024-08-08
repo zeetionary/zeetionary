@@ -157,14 +157,14 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بوار، پانتایی، ڕاخستە، هەموو مەودایێ، ڕادە"""),
+کوردی: بوار، پانتایی، ڕاخستە، ھەموو مەودایێ، ڕادە"""),
                     const DefinitionKurdish(
                         text: """١. (ناو) کۆمەڵەیەکی تەواو لە جۆرە شتێک"""),
                     SentencesRow(
                       englishText:
                           """The exhibition runs the whole gamut of artistic styles.""",
                       kurdishText:
-                          """پێشانگاکە هەموو جۆرەکانی شێوازی هونەری لە خۆ دەگرێت.""",
+                          """پێشانگاکە ھەموو جۆرەکانی شێوازی ھونەری لە خۆ دەگرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -173,7 +173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """In her stories she expresses the whole gamut of emotions, from happiness to sorrow.""",
                       kurdishText:
-                          """لە چیرۆکەکانی تەواوی هەستەکان پیشان دەدات، لە دڵخۆشییەوە بۆ دڵتەنگی.""",
+                          """لە چیرۆکەکانی تەواوی ھەستەکان پیشان دەدات، لە دڵخۆشییەوە بۆ دڵتەنگی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

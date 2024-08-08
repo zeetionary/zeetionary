@@ -171,15 +171,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گەوهەر، جەواهێر، شتی یەکجار بەنرخ
+کوردی: گەوھەر، جەواھێر، شتی یەکجار بەنرخ
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) بەردێکی گران‌بەها کە لە خشڵدا بەکاردێت"""),
+                            """١. (ناو) بەردێکی گران‌بەھا کە لە خشڵدا بەکاردێت"""),
                     SentencesRow(
                       englishText: """She wore a ring with a sparkling gem.""",
                       kurdishText:
-                          """ئەڵقەیەکی لەدەست کردبوو بە گەوهەرێکی درەوشاوە.""",
+                          """ئەڵقەیەکی لەدەست کردبوو بە گەوھەرێکی درەوشاوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -191,7 +191,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """This picture is the gem (= the best) of the collection.""",
-                      kurdishText: """ئەم وێنەیە گەوهەری کۆمەڵەکەیە.""",
+                      kurdishText: """ئەم وێنەیە گەوھەری کۆمەڵەکەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -200,7 +200,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He's a real gem - you'd be a fool to break up with him.""",
                       kurdishText:
-                          """گەوهەرێکی تەواوە ـ گەمژە دەبیت پەیوەندیت بپچڕیت لەگەڵی.""",
+                          """گەوھەرێکی تەواوە ـ گەمژە دەبیت پەیوەندیت بپچڕیت لەگەڵی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

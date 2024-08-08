@@ -160,7 +160,7 @@ ${englishMeaningConst.text}
 کوردی: ڕەشەبا، زلان، زوورباک، تووفان، گوژین، بای توند و بەقەوەت، پووگ
 """),
                     const DefinitionKurdish(
-                        text: """١. (ناو) بایەکی تەواو بەهێز"""),
+                        text: """١. (ناو) بایەکی تەواو بەھێز"""),
                     SentencesRow(
                       englishText: """The gale blew down hundreds of trees.""",
                       kurdishText: """ڕەشەبایەکە سەدان درەختی کەواند.""",

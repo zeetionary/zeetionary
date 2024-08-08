@@ -187,7 +187,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Our gentile neighbours remained loyal to us and continued to maintain a friendly relationship.""",
                       kurdishText:
-                          """دراوسێ ناجووەکانمان وەفادار مانەوە لەگەڵمان و بەردەوام بوون لە هێشتنەوەی پەیوەندی هاوڕێیەتی.""",
+                          """دراوسێ ناجووەکانمان وەفادار مانەوە لەگەڵمان و بەردەوام بوون لە ھێشتنەوەی پەیوەندی ھاوڕێیەتی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

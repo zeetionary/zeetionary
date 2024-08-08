@@ -193,10 +193,10 @@ ${englishMeaningConst.text}
 // With short examples define "gently", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە ئارامی و لەسەرەخۆیی، نەک بە توندی و بەهێزی"""),
+                            """١. (ھاوەڵکار) بە ئارامی و لەسەرەخۆیی، نەک بە توندی و بەھێزی"""),
                     SentencesRow(
                       englishText: """She held the baby gently.""",
-                      kurdishText: """منداڵەکەی بە هێمنی لە باوەش گرت.""",
+                      kurdishText: """منداڵەکەی بە ھێمنی لە باوەش گرت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -204,7 +204,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Massage the area gently but firmly.""",
                       kurdishText:
-                          """ئەو بەشە بە هێمنی بەڵام قایمی مەساج بکە.""",
+                          """ئەو بەشە بە ھێمنی بەڵام قایمی مەساج بکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -218,12 +218,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵکار) بەشێوەیەکی لەسەرەخۆ و میهرەبانانە"""),
+                            """٢. (ھاوەڵکار) بەشێوەیەکی لەسەرەخۆ و میھرەبانانە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """‘You miss them, don't you?’ he asked gently.""",
-                      kurdishText: """بە هێمنی گوتی 'پێیان نەگەشتی، وایە؟'""",
+                      kurdishText: """بە ھێمنی گوتی 'پێیان نەگەشتی، وایە؟'""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

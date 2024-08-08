@@ -209,7 +209,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I think all genders are able to care for children equally.""",
                       kurdishText:
-                          """پێموایە کە هەموو ڕەگەزەکان وەک یەک دەتوانن چاودێری منداڵ بکەن.""",
+                          """پێموایە کە ھەموو ڕەگەزەکان وەک یەک دەتوانن چاودێری منداڵ بکەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -225,13 +225,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) لە ژمارەیەک هەر یەک لەو پۆلانەیە کە ناو، هاوەڵناو، و جێناوی بەسەردا دابەش دەبێت؛ دابەشکردنی ناو، هاوەڵناو، و جێناو بۆ ڕەگەزی جیاواز"""),
+                            """٢. (ناو) لە ژمارەیەک ھەر یەک لەو پۆلانەیە کە ناو، ھاوەڵناو، و جێناوی بەسەردا دابەش دەبێت؛ دابەشکردنی ناو، ھاوەڵناو، و جێناو بۆ ڕەگەزی جیاواز"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In French the adjective must agree with the noun in number and gender.""",
                       kurdishText:
-                          """لە زمانی فەرەنسیدا هاوەڵناو مەرجە بگونجێت لەگەڵ ناودا بەپێی ژمارە و ڕەگەز.""",
+                          """لە زمانی فەرەنسیدا ھاوەڵناو مەرجە بگونجێت لەگەڵ ناودا بەپێی ژمارە و ڕەگەز.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

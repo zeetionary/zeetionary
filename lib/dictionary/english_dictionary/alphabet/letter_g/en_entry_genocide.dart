@@ -173,7 +173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The violence was reminiscent of the 1994 genocide in Rwanda.""",
                       kurdishText:
-                          """توندوتیژییەکە وەبیرهێنەرەوەی جینۆسایدی ١٩٩٤ ـی ڕواندا بوو.""",
+                          """توندوتیژییەکە وەبیرھێنەرەوەی جینۆسایدی ١٩٩٤ ـی ڕواندا بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

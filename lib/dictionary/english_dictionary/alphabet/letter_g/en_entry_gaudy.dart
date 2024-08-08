@@ -163,7 +163,7 @@ Usage: Brit
                     SentencesRow(
                       englishText: """He was wearing a gaudy Hawaiian shirt.""",
                       kurdishText:
-                          """جلێکی هاواییانەی بەئاڵاوواڵا لەبەر کردبوو.""",
+                          """جلێکی ھاواییانەی بەئاڵاوواڵا لەبەر کردبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

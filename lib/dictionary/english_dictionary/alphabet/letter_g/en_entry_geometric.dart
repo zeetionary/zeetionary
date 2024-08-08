@@ -155,12 +155,12 @@ ${englishMeaningConst.text}
 // With short examples define "geometric", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) پەیوەندیدار بە ئەو بەشەی بیرکاری کە گرنگی دەدات بە پێوان پەیوەندیی هێڵەکان، گۆشەکان، ڕووەکان، و شێوە فرە ڕەهەندییەکان"""),
+                            """١. (ھاوەڵناو) پەیوەندیدار بە ئەو بەشەی بیرکاری کە گرنگی دەدات بە پێوان پەیوەندیی ھێڵەکان، گۆشەکان، ڕووەکان، و شێوە فرە ڕەھەندییەکان"""),
                     SentencesRow(
                       englishText:
                           """Architects use geometric methods to design buildings.""",
                       kurdishText:
-                          """تەلارسازەکان ڕێگای جیۆمەتری بەکاردەهێنن بۆ دیزاینکردنی بینا.""",
+                          """تەلارسازەکان ڕێگای جیۆمەتری بەکاردەھێنن بۆ دیزاینکردنی بینا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

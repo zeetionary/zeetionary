@@ -289,7 +289,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گشتی، هەمەکی، هەموو، خەڵک، خەڵکی ڕەمەکی، جەماوەر، تێکڕا، گشت، گشتگیر، گشتگرەوە، نابەرتەسک، هەمووگر، سەراپاگیر، سەرتاسەری، سەرانسەری، هەمەلایەنە، گشت‌لایەنە،	هەمیشەیی،	ئاسایی، عەدەتی،	(لە لێکدانا) سەرـ، ـگشتی، سەرۆک، سەرۆکی گشتی، فەرماندەر، سەرکردە
+کوردی: گشتی، ھەمەکی، ھەموو، خەڵک، خەڵکی ڕەمەکی، جەماوەر، تێکڕا، گشت، گشتگیر، گشتگرەوە، نابەرتەسک، ھەمووگر، سەراپاگیر، سەرتاسەری، سەرانسەری، ھەمەلایەنە، گشت‌لایەنە،	ھەمیشەیی،	ئاسایی، عەدەتی،	(لە لێکدانا) سەرـ، ـگشتی، سەرۆک، سەرۆکی گشتی، فەرماندەر، سەرکردە
 """),
 // With short examples define "general", please follow LX instructions
                     const DefinitionKurdish(
@@ -311,25 +311,19 @@ ${englishMeaningConst.text}
                               englishText:
                                   """There is general agreement on that point.""",
                               kurdishText:
-                                  """ڕێکەوتنی گشتی لەسەر ئەو خاڵە هەیە.""",
+                                  """ڕێکەوتنی گشتی لەسەر ئەو خاڵە ھەیە.""",
                               onPressedBritish: () => speaksentence2("en-GB"),
                               onPressedAmerican: () => speaksentence2("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """The general trend has been a slow decline in output.""",
                               kurdishText:
-                                  """ترێندی گشتی هێواشییەک بووە لە بەرهەمهێنان.""",
+                                  """ترێندی گشتی ھێواشییەک بووە لە بەرھەمھێنان.""",
                               onPressedBritish: () => speaksentence3("en-GB"),
                               onPressedAmerican: () => speaksentence3("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -339,27 +333,21 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence4("en-GB"),
                               onPressedAmerican: () => speaksentence4("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """The general consensus was that the scheme was too expensive.""",
                               kurdishText:
-                                  """هاودەنگی گشتی ئەوەیە کە پلانەکە زۆری تێدەچوو.""",
+                                  """ھاودەنگی گشتی ئەوەیە کە پلانەکە زۆری تێدەچوو.""",
                               onPressedBritish: () => speaksentence5("en-GB"),
                               onPressedAmerican: () => speaksentence5("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """There was a general amnesty for crimes committed during the civil war.""",
                               kurdishText:
-                                  """لێبوردنی گشتی هەبوو بۆ ئەو تاوانانەی کە لە ماوەی جەنگە ناوخۆییەکە ئەنجام دران.""",
+                                  """لێبوردنی گشتی ھەبوو بۆ ئەو تاوانانەی کە لە ماوەی جەنگە ناوخۆییەکە ئەنجام دران.""",
                               onPressedBritish: () => speaksentence6("en-GB"),
                               onPressedAmerican: () => speaksentence6("en-US"),
                             ),
@@ -369,12 +357,12 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ھاوەڵناو) ئاسایی؛ وەک هەمیشە"""),
+                        text: """٢. (ھاوەڵناو) ئاسایی؛ وەک ھەمیشە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is one exception to this general principle.""",
-                      kurdishText: """یەک لادان هەیە بۆ ئەم بنچینە گشتییە.""",
+                      kurdishText: """یەک لادان ھەیە بۆ ئەم بنچینە گشتییە.""",
                       englishNote:
                           """This means there is one specific case where the usual rule does not apply.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
@@ -449,7 +437,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We shall keep the discussion fairly general.""",
                       kurdishText:
-                          """دەبێت باسەکە بە کەمێک گشتگیر بهیڵێنەوە.""",
+                          """دەبێت باسەکە بە کەمێک گشتگیر بھیڵێنەوە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -468,13 +456,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (ھاوەڵناو) ئەفسەرێکی زۆر پلە بەرز لە هێزی ئاسمانی ئەمریکا؛ ئەفسەری بەرزترین پێگە لە هێزی دەریایی ئەمریکا"""),
+                            """٧. (ھاوەڵناو) ئەفسەرێکی زۆر پلە بەرز لە ھێزی ئاسمانی ئەمریکا؛ ئەفسەری بەرزترین پێگە لە ھێزی دەریایی ئەمریکا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Both generals had commanded units in that area.""",
                       kurdishText:
-                          """هەردوو ژەنەڕاڵەکە ستایشی یەکەکانی ئەو ناوچەیان کرد.""",
+                          """ھەردوو ژەنەڕاڵەکە ستایشی یەکەکانی ئەو ناوچەیان کرد.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),

@@ -151,12 +151,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەرهەم‌هێنەر، دروسکەر، داهێنەر
+کوردی: بەرھەم‌ھێنەر، دروسکەر، داھێنەر
 """),
 // With short examples define "generative", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە دەتوانێت شتێک بەرهەم بهێنێت"""),
+                            """١. (ھاوەڵناو) کە دەتوانێت شتێک بەرھەم بھێنێت"""),
                     SentencesRow(
                       englishText:
                           """Analysts say the business is strongly cash generative.""",

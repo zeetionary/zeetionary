@@ -153,7 +153,7 @@ ${englishMeaningConst.text}
 // With short examples define "garden centre", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) شوێنێک کە ڕووەک، تۆو، کەرەستەی باخچە، هتد دەفرۆشێت"""),
+                            """١. (ناو) شوێنێک کە ڕووەک، تۆو، کەرەستەی باخچە، ھتد دەفرۆشێت"""),
                     SentencesRow(
                       englishText:
                           """I want to be able to go to a garden centre; it is a day out.""",

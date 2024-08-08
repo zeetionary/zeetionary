@@ -180,19 +180,19 @@ Usage: informal
                     SentencesRow(
                       englishText: """She seems to think we’re all gaga.""",
                       kurdishText:
-                          """وادیار بوو وەها بیربکاتەوە هەموومان خەڵەفاوین.""",
+                          """وادیار بوو وەھا بیربکاتەوە ھەموومان خەڵەفاوین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) کەمێک شێتانە بەهۆی ئەوەی بەجۆشیت سەبارەت بە کەسێک/شتێک"""),
+                            """٢. (ھاوەڵناو) کەمێک شێتانە بەھۆی ئەوەی بەجۆشیت سەبارەت بە کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fans went totally gaga over the band.""",
-                      kurdishText: """هەوادارەکان تەواو خرۆشان بە باندەکە.""",
+                      kurdishText: """ھەوادارەکان تەواو خرۆشان بە باندەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

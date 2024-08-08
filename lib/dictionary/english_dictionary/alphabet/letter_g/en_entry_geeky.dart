@@ -162,7 +162,7 @@ Usage: informal
 // With short examples define "geeky", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) پەیوەندیدار بە کەسێک کە زیرەکە، بەڵام بێزارکەرە، ئەو جلانە لەبەر دەکات کە باو نین، و نازانێت لە دۆخی کۆمەڵایەتیدا ڕەفتار بکات، هتد"""),
+                            """١. (ھاوەڵناو) پەیوەندیدار بە کەسێک کە زیرەکە، بەڵام بێزارکەرە، ئەو جلانە لەبەر دەکات کە باو نین، و نازانێت لە دۆخی کۆمەڵایەتیدا ڕەفتار بکات، ھتد"""),
                     const AlsoEnglishckb(word: "ھەروەھا: nerdy "),
                     SentencesRow(
                       englishText:
@@ -181,7 +181,7 @@ Usage: informal
                       englishText:
                           """She has a geeky obsession with Japanese video games.""",
                       kurdishText:
-                          """حەزێکی زۆری بۆ یاریی ڤیدیۆیی ژاپۆنی هەیە.""",
+                          """حەزێکی زۆری بۆ یاریی ڤیدیۆیی ژاپۆنی ھەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

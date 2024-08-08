@@ -215,12 +215,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هەڵکەوتەیی، هۆشی لەرادەبەدەر، توانایی، توانایی داهێنەرانە، بەهرە،	هەڵکەوتوو، بلیمەت، شارەزایی یان تواناییەکی تایبەتی، شارەزا، پسپۆڕ،	تایبەتمەندی، ڕەوشت،	فریشتە یان گیانی پارێزەر
+کوردی: ھەڵکەوتەیی، ھۆشی لەرادەبەدەر، توانایی، توانایی داھێنەرانە، بەھرە،	ھەڵکەوتوو، بلیمەت، شارەزایی یان تواناییەکی تایبەتی، شارەزا، پسپۆڕ،	تایبەتمەندی، ڕەوشت،	فریشتە یان گیانی پارێزەر
 """),
 // With short examples define "genius", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) توانای هونەری، زیرەکی، یان شارەزایی زۆر"""),
+                            """١. (ناو) توانای ھونەری، زیرەکی، یان شارەزایی زۆر"""),
                     SentencesRow(
                       englishText:
                           """She was at the peak of her creative genius.""",
@@ -276,7 +276,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He had a genius for making people feel at home.""",
                       kurdishText:
-                          """توانای بێ‌وێنەی هەبوو لەوەی وا بکات خەڵکی ئاسوودە بن لە ماڵەکەی.""",
+                          """توانای بێ‌وێنەی ھەبوو لەوەی وا بکات خەڵکی ئاسوودە بن لە ماڵەکەی.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -284,14 +284,14 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """She has a genius for sorting things out.""",
-                      kurdishText: """شارەزایی هەبوو لەوەی لە شت تێبگات.""",
+                      kurdishText: """شارەزایی ھەبوو لەوەی لە شت تێبگات.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (هاوەڵناو) کە توانای هونەری، شارەزایی، یان زیرەکی زۆری تێدایە"""),
+                            """٤. (ھاوەڵناو) کە توانای ھونەری، شارەزایی، یان زیرەکی زۆری تێدایە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

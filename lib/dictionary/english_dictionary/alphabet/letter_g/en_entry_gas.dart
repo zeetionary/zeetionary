@@ -285,22 +285,22 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گاز،	هەڵم،	گازی بێهۆش‌کەر، گازی سڕکەر،	گازی ژاراوی،	(لەئەمریکا) بێنزین، بەنزین، قسەی قۆڕ، فڵتە، لاف،	باوبژ، تڕوتس، بای ناوزگ
+کوردی: گاز،	ھەڵم،	گازی بێھۆش‌کەر، گازی سڕکەر،	گازی ژاراوی،	(لەئەمریکا) بێنزین، بەنزین، قسەی قۆڕ، فڵتە، لاف،	باوبژ، تڕوتس، بای ناوزگ
 """),
 // With short examples define "gas", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) مادەیەک کە ڕەق یان شل نییە، بۆ نموونە ئۆکسجین و هایدرۆجین"""),
+                            """١. (ناو) مادەیەک کە ڕەق یان شل نییە، بۆ نموونە ئۆکسجین و ھایدرۆجین"""),
                     SentencesRow(
                       englishText: """Air is a mixture of gases.""",
-                      kurdishText: """هەوا تێکەڵەی ژمارەیەک گازە.""",
+                      kurdishText: """ھەوا تێکەڵەی ژمارەیەک گازە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Carbon monoxide is a poisonous gas.""",
-                      kurdishText: """یەکە ئۆکسیدی کاربۆن گازێکی ژەهراوییە.""",
+                      kurdishText: """یەکە ئۆکسیدی کاربۆن گازێکی ژەھراوییە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -308,7 +308,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """It gives off a poisonous gas as it decomposes.""",
-                      kurdishText: """کە شیدەبێتەوە گازێکی ژەهراوی دەردەدات.""",
+                      kurdishText: """کە شیدەبێتەوە گازێکی ژەھراوی دەردەدات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The country has huge gas reserves.""",
-                      kurdishText: """وڵاتەکە یەدەگی گازی ئێجگار زۆری هەیە.""",
+                      kurdishText: """وڵاتەکە یەدەگی گازی ئێجگار زۆری ھەیە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -347,11 +347,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) جۆرە گازێکی دیاریکراو کە لە کاتی نەشتەرگەریدا بەکاردێت بۆ ئەوەی کەسەکە بێهۆش بخات یان ئازارەکە سووک بکات"""),
+                            """٣. (ناو) جۆرە گازێکی دیاریکراو کە لە کاتی نەشتەرگەریدا بەکاردێت بۆ ئەوەی کەسەکە بێھۆش بخات یان ئازارەکە سووک بکات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Did you have gas or an injection?""",
-                      kurdishText: """هەوات هەڵمژی یان دەرزیت لێدرا؟""",
+                      kurdishText: """ھەوات ھەڵمژی یان دەرزیت لێدرا؟""",
                       englishNote: """Did you have gas or an injection?""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
@@ -361,7 +361,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I had/was given gas when I had my wisdom teeth taken out.""",
                       kurdishText:
-                          """هەوا هەڵمژینم پێدرا کە ددانی ژیریمم دەرهێنا.""",
+                          """ھەوا ھەڵمژینم پێدرا کە ددانی ژیریمم دەرھێنا.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -373,7 +373,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They carried out a gas attack against the town.""",
                       kurdishText:
-                          """هێرشێکی گازییان لە دژی شارەکە ئەنجام دا..""",
+                          """ھێرشێکی گازییان لە دژی شارەکە ئەنجام دا..""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -383,7 +383,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا لە بەریتانیا: petrol"),
                     SentencesRow(
                       englishText: """I still had plenty of gas in the tank.""",
-                      kurdishText: """هێشتا بەنزینی زۆرم لە تانکەکەدا هەبوو.""",
+                      kurdishText: """ھێشتا بەنزینی زۆرم لە تانکەکەدا ھەبوو.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The party was a real gas.""",
-                      kurdishText: """ئاهەنگەکە تەواو خۆش بوو.""",
+                      kurdishText: """ئاھەنگەکە تەواو خۆش بوو.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -422,7 +422,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٩. (کردار) کوشتن یان زیان گەیاندن بە کەسێک بە گازی ژەهراوی"""),
+                            """٩. (کردار) کوشتن یان زیان گەیاندن بە کەسێک بە گازی ژەھراوی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He was gassed in the war.""",
@@ -438,7 +438,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Susan came round and we sat gassing for hours.""",
                       kurdishText:
-                          """سوزان هات و دانیشتین بۆ چەندین کاتژمێر دەمەتەقێمان کرد.""",
+                          """سوزان ھات و دانیشتین بۆ چەندین کاتژمێر دەمەتەقێمان کرد.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -446,7 +446,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """I thought he’d never stop gassing!""",
                       kurdishText:
-                          """وام بیرکردەوە هەرگیز لە فڵتەفڵت/چەنەدان ناکەوێت.""",
+                          """وام بیرکردەوە ھەرگیز لە فڵتەفڵت/چەنەدان ناکەوێت.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),

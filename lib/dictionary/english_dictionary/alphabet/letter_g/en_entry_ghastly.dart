@@ -191,7 +191,7 @@ ${englishMeaningConst.text}
 // With short examples define "ghastly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) زۆر ترسناک یان ناخۆش، بەهۆی ئەوەی مردن، ئازار، هتد لەخۆدەگرێت"""),
+                            """١. (ھاوەڵناو) زۆر ترسناک یان ناخۆش، بەھۆی ئەوەی مردن، ئازار، ھتد لەخۆدەگرێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: horrible"),
                     SentencesRow(
                       englishText:
@@ -207,14 +207,14 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: terrible"),
                     SentencesRow(
                       englishText: """The weather was ghastly.""",
-                      kurdishText: """کەشووهەواکە یەکجار خراپ بوو.""",
+                      kurdishText: """کەشووھەواکە یەکجار خراپ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """It's all been a ghastly mistake.""",
-                      kurdishText: """هەمووی هەڵەیەکی زۆر خراپ بووە.""",
+                      kurdishText: """ھەمووی ھەڵەیەکی زۆر خراپ بووە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -225,7 +225,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: horrible"),
                     SentencesRow(
                       englishText: """This lipstick is a ghastly colour.""",
-                      kurdishText: """ئەم سووراوە ڕەنگێکی بێزراوی هەیە.""",
+                      kurdishText: """ئەم سووراوە ڕەنگێکی بێزراوی ھەیە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -235,7 +235,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: terrible"),
                     SentencesRow(
                       englishText: """I felt ghastly the next day.""",
-                      kurdishText: """ڕۆژی دواتر هەستم بە نەخۆشی کرد.""",
+                      kurdishText: """ڕۆژی دواتر ھەستم بە نەخۆشی کرد.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

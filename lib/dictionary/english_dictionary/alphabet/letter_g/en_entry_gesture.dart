@@ -194,12 +194,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: سەرودەست ڕاتڵەکاندن، سەرودەس‌لەقاندن، دەست‌تەکان‌دان، پەلەفرتە، پەلەفرتکە، خۆتەکان‌دان، هێما، ئاماژە، نیشانە
+کوردی: سەرودەست ڕاتڵەکاندن، سەرودەس‌لەقاندن، دەست‌تەکان‌دان، پەلەفرتە، پەلەفرتکە، خۆتەکان‌دان، ھێما، ئاماژە، نیشانە
 """),
 // With short examples define "gesture", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) جووڵەیەک کە بە دەست، سەرت، یان ڕووخسارت دەیکەیت کە واتایەکی دیاریکراوی هەیە"""),
+                            """١. (ناو) جووڵەیەک کە بە دەست، سەرت، یان ڕووخسارت دەیکەیت کە واتایەکی دیاریکراوی ھەیە"""),
                     SentencesRow(
                       englishText:
                           """He made a rude gesture at the driver of the other car.""",
@@ -235,13 +235,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) شتێک کە دەیکەیت یان دەیڵێیت کە هەستێک یان نیازێک پیشان دەدات"""),
+                            """٢. (ناو) شتێک کە دەیکەیت یان دەیڵێیت کە ھەستێک یان نیازێک پیشان دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They sent some flowers as a gesture of sympathy to the parents of the child.""",
                       kurdishText:
-                          """ژمارەیەک گوڵی نارد وەک نیشانەی هاوخەمی بۆ دایبابی منداڵەکە.""",
+                          """ژمارەیەک گوڵی نارد وەک نیشانەی ھاوخەمی بۆ دایبابی منداڵەکە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -250,7 +250,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We do not accept responsibility but we will refund the money as a gesture of goodwill.""",
                       kurdishText:
-                          """بەرپرسیاریەتی هەڵناگرین بەڵام پارەکە دەگەڕێنینەوە وەک ئاماژەی نیازپاکی.""",
+                          """بەرپرسیاریەتی ھەڵناگرین بەڵام پارەکە دەگەڕێنینەوە وەک ئاماژەی نیازپاکی.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),

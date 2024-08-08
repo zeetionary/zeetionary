@@ -83,8 +83,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Geraniums are known for their vibrant red and pink flowers.""");
   }
 
   @override
@@ -149,14 +149,14 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "geranium", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕووەکێکی باخچە کە گوڵێکی گەورەی سوور، پەمەیی، یان سپی لە کۆتایی هەر قەدێکییەتی"""),
+                            """١. (ناو) ڕووەکێکی باخچە کە گوڵێکی گەورەی سوور، پەمەیی، یان سپی لە کۆتایی ھەر قەدێکییەتی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Geraniums are known for their vibrant red and pink flowers.""",
+                      kurdishText:
+                          """جیرانیۆم بۆ گوڵە سوور و پەمەییە درەوشاوەکانیان ناسراون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

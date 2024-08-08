@@ -154,7 +154,7 @@ ${englishMeaningConst.text}
 //                     SentencesRow(
 //                       englishText: """// ssssssssssssssssssssssgggggggg55555
 // """,
-//                       kurdishText: """رستە_رستە_رستە_رستە.""",
+//                       kurdishText: """رستە_رستە_رستە__رستە.""",
 //                       onPressedBritish: () => speaksentence1("en-GB"),
 //                       onPressedAmerican: () => speaksentence1("en-US"),
 //                     ),

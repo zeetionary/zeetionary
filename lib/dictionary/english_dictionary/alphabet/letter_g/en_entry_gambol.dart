@@ -149,7 +149,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هەڵبەزودابەز، هەڵبزۆق، هەڵپەڕوداپەڕ، قلەسەما
+کوردی: ھەڵبەزودابەز، ھەڵبزۆق، ھەڵپەڕوداپەڕ، قلەسەما
 """),
 // With short examples define "gambol", please follow LX instructions
                     const DefinitionKurdish(
@@ -158,7 +158,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Lambs were gambolling (about/around) in the spring sunshine.""",
                       kurdishText:
-                          """بەرخ هەڵبەزودابەزیان بوو لە خۆرەتاوەکە بەهارییەکەدا.""",
+                          """بەرخ ھەڵبەزودابەزیان بوو لە خۆرەتاوەکە بەھارییەکەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

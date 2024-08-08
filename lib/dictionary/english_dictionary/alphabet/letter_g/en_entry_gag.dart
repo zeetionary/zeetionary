@@ -242,7 +242,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The judge issued a gag order on the case.""",
                       kurdishText:
-                          """دادوەرەکە فەرمانی نهێنی‌پارێزی لەسەر کەیسەکە سەپاند.""",
+                          """دادوەرەکە فەرمانی نھێنی‌پارێزی لەسەر کەیسەکە سەپاند.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -266,7 +266,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """It was just a gag—we didn't mean to upset anyone.""",
                       kurdishText:
-                          """تەنها گاڵتەیەک بوو ـ نەمانویست کەس بێزار بکەین.""",
+                          """تەنھا گاڵتەیەک بوو ـ نەمانویست کەس بێزار بکەین.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -290,20 +290,20 @@ ${englishMeaningConst.text}
                       englishText:
                           """The new laws are seen as an attempt to gag the press.""",
                       kurdishText:
-                          """یاسا تازەکان وەک هەوڵێک دەبینرێن بۆ سەرکوتکردنی ڕۆژنامەوانان.""",
+                          """یاسا تازەکان وەک ھەوڵێک دەبینرێن بۆ سەرکوتکردنی ڕۆژنامەوانان.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (کردار) هەبوونی ئەو هەستەی کە خەریکە دەڕشێیتەوە"""),
+                            """٧. (کردار) ھەبوونی ئەو ھەستەی کە خەریکە دەڕشێیتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I tried my best to eat it but the meat was so fatty I gagged on it.""",
                       kurdishText:
-                          """هەموو هەوڵم دا کە بیخۆم بەڵم گۆشتەکە هێندە چەور بوو ڕشانەوەم پێی هات.""",
+                          """ھەموو ھەوڵم دا کە بیخۆم بەڵم گۆشتەکە ھێندە چەور بوو ڕشانەوەم پێی ھات.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

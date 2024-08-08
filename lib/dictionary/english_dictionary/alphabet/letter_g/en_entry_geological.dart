@@ -161,12 +161,12 @@ ${englishMeaningConst.text}
 // With short examples define "geological", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) پەیوەندیدار بە زانستی لێکۆڵینەوە لە پێکهاتەی زەوی، لە نێوانیاندا بنەچە و مێژووی ئەو بەرد و خۆڵەی کە زەوی پێکدەهێنن"""),
+                            """١. (ھاوەڵکار) پەیوەندیدار بە زانستی لێکۆڵینەوە لە پێکھاتەی زەوی، لە نێوانیاندا بنەچە و مێژووی ئەو بەرد و خۆڵەی کە زەوی پێکدەھێنن"""),
                     SentencesRow(
                       englishText:
                           """The complex geological structure of the region formed over millions of years.""",
                       kurdishText:
-                          """پێکهاتە زەویناسییە ئاڵۆزەکەی هەرێمەکە سەروو یەک ملیۆن ساڵ پێش ئێستا درووست بوو.""",
+                          """پێکھاتە زەویناسییە ئاڵۆزەکەی ھەرێمەکە سەروو یەک ملیۆن ساڵ پێش ئێستا درووست بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

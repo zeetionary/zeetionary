@@ -150,7 +150,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەشتییەکی گەورە چارۆکەدار کە لە نێوان سەدەکانی ١٥ بۆ ١٨ بەکار دەهات، بە تایبەتی لەلایەن ئیسپانیاوە"""),
+                            """١. (ناو) کەشتییەکی گەورە چارۆکەدار کە لە نێوان سەدەکانی ١٥ بۆ ١٨ بەکار دەھات، بە تایبەتی لەلایەن ئیسپانیاوە"""),
                     SentencesRow(
                       englishText:
                           """The galleon sailed across the Atlantic Ocean.""",

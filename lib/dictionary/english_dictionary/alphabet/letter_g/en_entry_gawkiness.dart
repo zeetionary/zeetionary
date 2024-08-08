@@ -146,7 +146,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
-// کوردی: بێ‌دەس‌وپێیی، دەسەوسانی، زلحۆرت، زلحۆیی، بەیدەسی، دەس‌خاوی، سستەپەڵەیی، هیچ‌لەدەس‌نەهاتوویی
+// کوردی: بێ‌دەس‌وپێیی، دەسەوسانی، زلحۆرت، زلحۆیی، بەیدەسی، دەس‌خاوی، سستەپەڵەیی، ھیچ‌لەدەس‌نەھاتوویی
 // """),
                     const DefinitionKurdish(
                         text:

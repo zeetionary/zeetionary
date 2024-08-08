@@ -149,12 +149,12 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بریقەدارانە، بە ئاڵاو واڵاوە
 """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە زۆر ڕەنگینە بەشێوەیەک کە جوان نییە"""),
                     SentencesRow(
                       englishText:
                           """The tourists were gaudily dressed in Hawaiian shirts.""",
                       kurdishText:
-                          """گەشتیارەکان جلی بەئاڵاوواڵای هاواییانەیانەیان لەبەر کردبوو.""",
+                          """گەشتیارەکان جلی بەئاڵاوواڵای ھاواییانەیانەیان لەبەر کردبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

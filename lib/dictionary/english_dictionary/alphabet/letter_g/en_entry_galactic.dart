@@ -150,7 +150,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: کاکێشکەیی، کاگێشکەیی، گەلەستێرەیی، سەربە کۆئەستێرە (بەتایبەت کاکێشانی ڕێگای شیری)،	یەکجار زۆر، لەژمارنەهاتوو، بێ‌ئەنداز، زەبەلاح، یەکجار گەورە، فیلەتەن
+کوردی: کاکێشکەیی، کاگێشکەیی، گەلەستێرەیی، سەربە کۆئەستێرە (بەتایبەت کاکێشانی ڕێگای شیری)،	یەکجار زۆر، لەژمارنەھاتوو، بێ‌ئەنداز، زەبەلاح، یەکجار گەورە، فیلەتەن
 """),
 // With short examples define "galactic", please follow LX instructions
                     const DefinitionKurdish(

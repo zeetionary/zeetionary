@@ -153,12 +153,12 @@ ${englishMeaningConst.text}
 // With short examples define "gauche", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) شەرمن و نائاسوودە لە مامەڵەکردن لەگەڵ خەڵکی و زۆرجار شتێکی هەڵە بکەیت یان بڵێیت"""),
+                            """١. (ھاوەڵناو) شەرمن و نائاسوودە لە مامەڵەکردن لەگەڵ خەڵکی و زۆرجار شتێکی ھەڵە بکەیت یان بڵێیت"""),
                     SentencesRow(
                       englishText:
                           """She had grown from a gauche teenager to a self-assured young woman.""",
                       kurdishText:
-                          """لە هەرزەکارێکی نەفامەوە بووبوو بە ژنێکی گەنجی باوەڕبەخۆ.""",
+                          """لە ھەرزەکارێکی نەفامەوە بووبوو بە ژنێکی گەنجی باوەڕبەخۆ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

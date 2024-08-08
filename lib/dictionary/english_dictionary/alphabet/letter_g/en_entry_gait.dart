@@ -159,7 +159,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """I could always recognize her by the briskness of her gait.""",
-                      kurdishText: """هەمیشە دەمناسییەوە بە خێرایی ڕێکردنی.""",
+                      kurdishText: """ھەمیشە دەمناسییەوە بە خێرایی ڕێکردنی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

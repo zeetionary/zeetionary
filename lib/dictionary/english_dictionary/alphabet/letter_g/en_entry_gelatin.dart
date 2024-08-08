@@ -154,12 +154,12 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) مادەیەکی ڕوونی بێ‌تام کە لە کوڵاندنی ئێسکی ئاژەڵ بەرهەم دێت و بەکاردێت بۆ درووستکردنی جێڵی، فیلمی کامێرا، هتد"""),
+                            """١. (ناو) مادەیەکی ڕوونی بێ‌تام کە لە کوڵاندنی ئێسکی ئاژەڵ بەرھەم دێت و بەکاردێت بۆ درووستکردنی جێڵی، فیلمی کامێرا، ھتد"""),
                     SentencesRow(
                       englishText:
                           """She used gelatin to make the dessert firm.""",
                       kurdishText:
-                          """جیلاتینی بەکارهێنا بۆ ئەوەی شیرینییەکە توند بکات.""",
+                          """جیلاتینی بەکارھێنا بۆ ئەوەی شیرینییەکە توند بکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -194,7 +194,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: خۆڵ‌وخاک، ئاشغاڵ، گەن‌وگوو، زبڵ، زبڵ‌وزاڵ، پاشماوە، بەرماوە،	هەڵیت‌وپڵیت، قسەی هیچەکە، قسەی قۆڕ، قسەی حەلەق‌ومەلەق
+کوردی: خۆڵ‌وخاک، ئاشغاڵ، گەن‌وگوو، زبڵ، زبڵ‌وزاڵ، پاشماوە، بەرماوە،	ھەڵیت‌وپڵیت، قسەی ھیچەکە، قسەی قۆڕ، قسەی حەلەق‌ومەلەق
 """),
                     const DefinitionKurdish(text: """١. (ناو) زباڵە"""),
                     SentencesRow(
@@ -215,7 +215,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """There was garbage strewn around everywhere.""",
-                      kurdishText: """زباڵە لە هەموو شوێنێک کەوت بوو.""",
+                      kurdishText: """زباڵە لە ھەموو شوێنێک کەوت بوو.""",
                       englishNote:
                           """This means trash was scattered all over the place.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
@@ -237,7 +237,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """It's mostly the same old garbage.""",
-                      kurdishText: """بە زۆری هەر قسە هیچەکانی کۆنە.""",
+                      kurdishText: """بە زۆری ھەر قسە ھیچەکانی کۆنە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -245,7 +245,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The second series was a piece of garbage.""",
-                      kurdishText: """دووەم زنجیرە تەنها هیچەکەیەک بوو.""",
+                      kurdishText: """دووەم زنجیرە تەنھا ھیچەکەیەک بوو.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),

@@ -154,12 +154,12 @@ ${englishMeaningConst.text}
 // With short examples define "genetically", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە بۆهێڵەکان یان زانستی لێکۆڵینەوە لە بۆهێڵەکان"""),
+                            """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە بۆھێڵەکان یان زانستی لێکۆڵینەوە لە بۆھێڵەکان"""),
                     SentencesRow(
                       englishText:
                           """The brain's response to pain is, at least in part, genetically determined.""",
                       kurdishText:
-                          """وەڵامدانەوەی مێشک بۆ ئازار، هیچ نەبێت، بۆماوەییانە دیاریکراوە.""",
+                          """وەڵامدانەوەی مێشک بۆ ئازار، ھیچ نەبێت، بۆماوەییانە دیاریکراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

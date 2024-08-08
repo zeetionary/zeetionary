@@ -153,7 +153,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) گرووپێک لە ئاژەڵ، ڕووەک، هتد کە تایبەتمەندیی لێکچوویان هەیە، و بچووکترە لە خێزان و گەورەترە لە چەشن"""),
+                            """١. (ناو) گرووپێک لە ئاژەڵ، ڕووەک، ھتد کە تایبەتمەندیی لێکچوویان ھەیە، و بچووکترە لە خێزان و گەورەترە لە چەشن"""),
                     SentencesRow(
                       englishText:
                           """The genus Panthera includes lions and tigers.""",

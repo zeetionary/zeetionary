@@ -244,7 +244,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ئەندازە، نمرە،	ئەستوورایی، قاڵندی،	(چەک) کالیبر،	میل، پلە،	دەزگای پێوان یان ئەندازەگرتن، ئەندازە، ئامێری پێوان،	(لە لێکدانا) ـپێو،	(ڕێگای ئاسن) مەودای نێوان دوو ڕەیل، پانایی ڕێگای ئاسن،	پێودانگ، پێوانە، پێوەر،	(دەریاوانی و کۆن) هەڵ‌ومەرجی کەشتی باگەڕ سەبارەت بە با
+کوردی: ئەندازە، نمرە،	ئەستوورایی، قاڵندی،	(چەک) کالیبر،	میل، پلە،	دەزگای پێوان یان ئەندازەگرتن، ئەندازە، ئامێری پێوان،	(لە لێکدانا) ـپێو،	(ڕێگای ئاسن) مەودای نێوان دوو ڕەیل، پانایی ڕێگای ئاسن،	پێودانگ، پێوانە، پێوەر،	(دەریاوانی و کۆن) ھەڵ‌ومەرجی کەشتی باگەڕ سەبارەت بە با
 """),
 // With short examples define "gauge", please follow LX instructions
                     const DefinitionKurdish(
@@ -283,7 +283,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """At that time railways of three different gauges were in use.""",
                       kurdishText:
-                          """لەو سەردەمەدەدا سکەی سێ جۆر فراوانی لە بەکارهێناندا بوون.""",
+                          """لەو سەردەمەدەدا سکەی سێ جۆر فراوانی لە بەکارھێناندا بوون.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (کردار) بڕیاردانێک لەسەر شتێک، بە تایبەتی هەست و هەڵسوکەوتی خەڵکی"""),
+                            """٥. (کردار) بڕیاردانێک لەسەر شتێک، بە تایبەتی ھەست و ھەڵسوکەوتی خەڵکی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Use a thermometer to gauge the temperature.""",
                       kurdishText:
-                          """گەرمی‌پێوێک بەکاربهێنە بۆ پێوانی پلەی گەرمی.""",
+                          """گەرمی‌پێوێک بەکاربھێنە بۆ پێوانی پلەی گەرمی.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),

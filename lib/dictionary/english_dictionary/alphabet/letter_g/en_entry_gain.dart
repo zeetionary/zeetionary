@@ -385,15 +385,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەرژەوەندی، خێر، سوود، کەڵک، قازانج، بەهرە، بەرە، بەروبووم،	زۆربوون، چوونەسەرەوە،	بەدەس‌هێنان، دەس‌خستن، گیرخستن، دەسکەوتن،	پێشکەوتن، پێشڤەچوون،	چا(ک)بوونەوە
+کوردی: بەرژەوەندی، خێر، سوود، کەڵک، قازانج، بەھرە، بەرە، بەروبووم،	زۆربوون، چوونەسەرەوە،	بەدەس‌ھێنان، دەس‌خستن، گیرخستن، دەسکەوتن،	پێشکەوتن، پێشڤەچوون،	چا(ک)بوونەوە
 """),
                     const DefinitionKurdish(
-                        text: """١. (کردار) بەدەستهێنان یان بردنەوەی شتێک"""),
+                        text: """١. (کردار) بەدەستھێنان یان بردنەوەی شتێک"""),
                     SentencesRow(
                       englishText:
                           """They managed to gain access to secret files.""",
                       kurdishText:
-                          """توانی دەستڕاگەشتن بە فایلەکان بەدەست بهێنێت.""",
+                          """توانی دەستڕاگەشتن بە فایلەکان بەدەست بھێنێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -408,33 +408,24 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence2("en-GB"),
                               onPressedAmerican: () => speaksentence2("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """The country gained its independence ten years ago.""",
                               kurdishText:
-                                  """وڵاتەکە دە ساڵ پێش ئێستا سەربەخۆیی بەدەستهێنا.""",
+                                  """وڵاتەکە دە ساڵ پێش ئێستا سەربەخۆیی بەدەستھێنا.""",
                               onPressedBritish: () => speaksentence3("en-GB"),
                               onPressedAmerican: () => speaksentence3("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """The party gained over 50 per cent of the vote.""",
                               kurdishText:
-                                  """پارتەکە سەروو پەنجا لە سەدی دەنگی بەدەستهێنا.""",
+                                  """پارتەکە سەروو پەنجا لە سەدی دەنگی بەدەستھێنا.""",
                               onPressedBritish: () => speaksentence4("en-GB"),
                               onPressedAmerican: () => speaksentence4("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -444,9 +435,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence5("en-GB"),
                               onPressedAmerican: () => speaksentence5("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -456,21 +444,15 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence6("en-GB"),
                               onPressedAmerican: () => speaksentence6("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """He has gained a reputation for unpredictable behaviour.""",
                               kurdishText:
-                                  """ناوبانگی بەدەست هێنابوو بۆ ئەوەی کە ڕەفتاری پێشبینی نەکراوە.""",
+                                  """ناوبانگی بەدەست ھێنابوو بۆ ئەوەی کە ڕەفتاری پێشبینی نەکراوە.""",
                               onPressedBritish: () => speaksentence7("en-GB"),
                               onPressedAmerican: () => speaksentence7("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -487,20 +469,20 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) بەدەستهێنانی سوودێک لە شتێک یان کردنی شتێک"""),
+                            """٢. (کردار) بەدەستھێنانی سوودێک لە شتێک یان کردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The firm is hoping to gain an advantage over its competitors.""",
                       kurdishText:
-                          """کۆمپانیاکە بەهیوایە باڵادەستی بەدەست بهێنێت بەسەر ڕکابەرەکانی.""",
+                          """کۆمپانیاکە بەھیوایە باڵادەستی بەدەست بھێنێت بەسەر ڕکابەرەکانی.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """What do you hope to gain by this?""",
-                      kurdishText: """بە هیوایت چی بەدەست بخەیت لەمە؟""",
+                      kurdishText: """بە ھیوایت چی بەدەست بخەیت لەمە؟""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -509,7 +491,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There is nothing to be gained from delaying the decision.""",
                       kurdishText:
-                          """هیچ شتێک نییە بەدەست بێت لە دواخستنی بڕیاردانەکە.""",
+                          """ھیچ شتێک نییە بەدەست بێت لە دواخستنی بڕیاردانەکە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -527,7 +509,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """If the proposal goes ahead, we all stand to gain.""",
                       kurdishText:
-                          """ئەگەر پێشنیارەکە بەرەو پێش بچێت، هەموومان سوود دەبینین.""",
+                          """ئەگەر پێشنیارەکە بەرەو پێش بچێت، ھەموومان سوود دەبینین.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -535,19 +517,19 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """We all gained a lot from the experience.""",
-                      kurdishText: """هەموومان زۆر سوودمان بینی لە ئەزموون.""",
+                      kurdishText: """ھەموومان زۆر سوودمان بینی لە ئەزموون.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (کردار) بەدەستهێنانی زیاتر لە شتێک"""),
+                        text: """٣. (کردار) بەدەستھێنانی زیاتر لە شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As you gain experience, you will grow in confidence.""",
                       kurdishText:
-                          """کە ئەزموون بەدەست دەهێنیت، باوەڕت زیاد دەکات.""",
+                          """کە ئەزموون بەدەست دەھێنیت، باوەڕت زیاد دەکات.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -563,7 +545,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He has gained support from major figures in the industry.""",
                       kurdishText:
-                          """کەمپینەکە پشتیوانی کەسانی گرنگی پیشەسازییەکەی بەدەستهێناوە.""",
+                          """کەمپینەکە پشتیوانی کەسانی گرنگی پیشەسازییەکەی بەدەستھێناوە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -575,18 +557,18 @@ ${englishMeaningConst.text}
                       englishText:
                           """My watch gains two minutes every 24 hours.""",
                       kurdishText:
-                          """کاتژمێرەکە دوو خولەک پێش دەکەوێت لە هەر ٢٤ کاتژمێرێک.""",
+                          """کاتژمێرەکە دوو خولەک پێش دەکەوێت لە ھەر ٢٤ کاتژمێرێک.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٥. (کردار) کە دراو بەهای زیاد دەکات"""),
+                        text: """٥. (کردار) کە دراو بەھای زیاد دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The euro gained against the dollar again today.""",
-                      kurdishText: """یۆرۆ دووبارە دژ بە دۆلار بەهێز بوو.""",
+                      kurdishText: """یۆرۆ دووبارە دژ بە دۆلار بەھێز بوو.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -611,7 +593,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The opposition made unexpected gains in the last election.""",
                       kurdishText:
-                          """ئۆپۆزسیۆن زیادبوونی پێشبینی نەکراوی بەخۆوە دی لە هەڵبژاردنی ڕابردوودا.""",
+                          """ئۆپۆزسیۆن زیادبوونی پێشبینی نەکراوی بەخۆوە دی لە ھەڵبژاردنی ڕابردوودا.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -620,7 +602,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Regular exercise helps prevent weight gain.""",
                       kurdishText:
-                          """ڕاهێنانی بەردەوام یارمەتیدەر دەبێت لە ڕێگری لە زیادبوونی کێش.""",
+                          """ڕاھێنانی بەردەوام یارمەتیدەر دەبێت لە ڕێگری لە زیادبوونی کێش.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -628,7 +610,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """August showed a gain of 144 000 jobs.""",
                       kurdishText:
-                          """زیادبوونی ١٤٤٠٠٠ هەلی کار لە ئابدا هەبوو.""",
+                          """زیادبوونی ١٤٤٠٠٠ ھەلی کار لە ئابدا ھەبوو.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -637,7 +619,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """This change in the tax system will mean big gains for some companies.""",
                       kurdishText:
-                          """گۆڕان لە سیستەمی باجەکەدا واتا قازانجی زۆر بۆ هەندێک کۆمپانیا.""",
+                          """گۆڕان لە سیستەمی باجەکەدا واتا قازانجی زۆر بۆ ھەندێک کۆمپانیا.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
@@ -649,7 +631,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """These policies have resulted in great gains in public health.""",
                       kurdishText:
-                          """ئەم سیاسەتانە بوونەتە هۆکاری بەرەوپێشچوونی زۆر لە تەندرووستی گشتیدا.""",
+                          """ئەم سیاسەتانە بوونەتە ھۆکاری بەرەوپێشچوونی زۆر لە تەندرووستی گشتیدا.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
@@ -668,7 +650,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Financial gain was never her motivation.""",
-                      kurdishText: """قازانجی دارایی هەرگیز پاڵنەری نەبوو.""",
+                      kurdishText: """قازانجی دارایی ھەرگیز پاڵنەری نەبوو.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
@@ -677,7 +659,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They sold the company purely for short-term gain.""",
                       kurdishText:
-                          """کۆمپانیاکەیان فرۆشت تەنها بۆ قازانجی کورت مەودا.""",
+                          """کۆمپانیاکەیان فرۆشت تەنھا بۆ قازانجی کورت مەودا.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),

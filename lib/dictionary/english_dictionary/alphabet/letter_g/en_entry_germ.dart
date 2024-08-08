@@ -187,7 +187,7 @@ ${englishMeaningConst.text}
 // With short examples define "germ", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) زیندەوەرێکی زۆر بچووک کە دەکرێت ببێتە هۆکاری هەوکردن و نەخۆشی"""),
+                            """١. (ناو) زیندەوەرێکی زۆر بچووک کە دەکرێت ببێتە ھۆکاری ھەوکردن و نەخۆشی"""),
                     SentencesRow(
                       englishText: """Disinfectant kills germs.""",
                       kurdishText: """دژە بەکتریا دەکرێت میکرۆب بکوژێت.""",

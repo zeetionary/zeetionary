@@ -147,7 +147,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: تارمایی‌ئاسا، شێوەتارمایی، ڕۆح‌ئاسا، شێوەسەهویر، وەکوو تارمایی، خەیاڵی،	ترسناک، تۆقێنەر
+کوردی: تارمایی‌ئاسا، شێوەتارمایی، ڕۆح‌ئاسا، شێوەسەھویر، وەکوو تارمایی، خەیاڵی،	ترسناک، تۆقێنەر
 """),
 // With short examples define "ghostly", please follow LX instructions
                     const DefinitionKurdish(
@@ -156,7 +156,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The mist made her look like a ghostly figure.""",
                       kurdishText:
-                          """تەمەکە وەهای لێکرد کە وەک شێوەیەکی تارمایی‌ئاسا دەربکەوێت.""",
+                          """تەمەکە وەھای لێکرد کە وەک شێوەیەکی تارمایی‌ئاسا دەربکەوێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

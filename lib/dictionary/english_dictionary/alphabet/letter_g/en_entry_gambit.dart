@@ -161,7 +161,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Their promise to lower taxes is clearly an election-year gambit.""",
                       kurdishText:
-                          """بەڵێنیان بۆ کەمکردنەوەی باجی بە ئاشکرایی جووڵەیەکی پێش هەڵبژاردنە.""",
+                          """بەڵێنیان بۆ کەمکردنەوەی باجی بە ئاشکرایی جووڵەیەکی پێش ھەڵبژاردنە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

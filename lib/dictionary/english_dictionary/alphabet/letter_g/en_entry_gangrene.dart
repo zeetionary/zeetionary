@@ -158,7 +158,7 @@ ${englishMeaningConst.text}
 // With short examples define "gangrene", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) داڕزانی بەشێکی جەستە بەهۆی ئەوەی خوێنی بۆ ناچێت"""),
+                            """١. (ناو) داڕزانی بەشێکی جەستە بەھۆی ئەوەی خوێنی بۆ ناچێت"""),
                     SentencesRow(
                       englishText:
                           """Gangrene set in and he had to have his leg amputated.""",

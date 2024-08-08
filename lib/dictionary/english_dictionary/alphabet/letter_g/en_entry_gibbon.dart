@@ -150,7 +150,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) مەیموونێکی بچووکی قۆڵ درێژ کە لە باشووری ڕۆژهەڵاتی ئاسیا دەژی"""),
+                            """١. (ناو) مەیموونێکی بچووکی قۆڵ درێژ کە لە باشووری ڕۆژھەڵاتی ئاسیا دەژی"""),
                     SentencesRow(
                       englishText:
                           """The gibbon swung from tree to tree with ease.""",

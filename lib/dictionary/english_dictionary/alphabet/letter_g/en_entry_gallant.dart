@@ -176,7 +176,7 @@ Usage: archaic
                       englishText:
                           """She made a gallant attempt to hide her tears.""",
                       kurdishText:
-                          """هەوڵێکی بوێرانەی دا بۆ شاردنەوەی فرمێسکەکانی.""",
+                          """ھەوڵێکی بوێرانەی دا بۆ شاردنەوەی فرمێسکەکانی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

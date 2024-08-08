@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Will the society to which these gasmen belong be considered an approved society?""",
                       kurdishText:
-                          """ئایا ئەو کۆمەڵگایانەی کە ئەم شارەزایانەی گازی هەیە بە کۆمەڵگایەکی پەسەندکراو دادەنرێت؟""",
+                          """ئایا ئەو کۆمەڵگایانەی کە ئەم شارەزایانەی گازی ھەیە بە کۆمەڵگایەکی پەسەندکراو دادەنرێت؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

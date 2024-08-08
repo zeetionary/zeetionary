@@ -161,7 +161,7 @@ ${englishMeaningConst.text}
 // With short examples define "gauntlet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دەستکێشی ئاسنی کە وەک بەشێک لە جلی سەربازی بەکاردەهات لە سەدەکانی ناوەڕاست؛ دەستکێشێکی کە دەست و مەچەک دەپارێزێت"""),
+                            """١. (ناو) دەستکێشی ئاسنی کە وەک بەشێک لە جلی سەربازی بەکاردەھات لە سەدەکانی ناوەڕاست؛ دەستکێشێکی کە دەست و مەچەک دەپارێزێت"""),
                     SentencesRow(
                       englishText:
                           """In winter, motorcyclists rely on leather gauntlets for warmth.""",

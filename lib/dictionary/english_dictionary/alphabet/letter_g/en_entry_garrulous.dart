@@ -155,7 +155,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: زۆربڵە، چەنەدرێژ، چەنەباز، چەقەسرۆ، زۆروەڕ، چەنەهەراش، لەوچە، سازنگە
+کوردی: زۆربڵە، چەنەدرێژ، چەنەباز، چەقەسرۆ، زۆروەڕ، چەنەھەراش، لەوچە، سازنگە
 """),
 // With short examples define "garrulous", please follow LX instructions
                     const DefinitionKurdish(
@@ -164,7 +164,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: talkative"),
                     SentencesRow(
                       englishText: """He is garrulous and inquisitive.""",
-                      kurdishText: """فرەوێژ و خۆتێ‌هەڵقورتێنە.""",
+                      kurdishText: """فرەوێژ و خۆتێ‌ھەڵقورتێنە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -173,7 +173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I had talked too much about myself and felt like a garrulous old fool.""",
                       kurdishText:
-                          """زۆر قسەم لەسەر خۆم کرد و هەستم کرد گەمژەیەکی بەتەمەنی فرەوێژم.""",
+                          """زۆر قسەم لەسەر خۆم کرد و ھەستم کرد گەمژەیەکی بەتەمەنی فرەوێژم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

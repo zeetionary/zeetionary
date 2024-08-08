@@ -163,7 +163,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: heroically"),
                     SentencesRow(
                       englishText: """She gallantly battled on alone.""",
-                      kurdishText: """پاڵەوانانە بە تەنها جەنگا.""",
+                      kurdishText: """پاڵەوانانە بە تەنھا جەنگا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

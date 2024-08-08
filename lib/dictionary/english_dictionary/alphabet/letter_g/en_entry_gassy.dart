@@ -159,7 +159,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گازاوی، پڕگاز، گازدار، گازئاسا،	زۆربڵە، چەقەسرۆ، چەنەهەراش،	(قسە) هیچ، قۆڕ، پڕوپووچ،	بەلاف‌وگاف، فیشاڵ‌چی، فشەکەر، خۆهەڵکێش
+کوردی: گازاوی، پڕگاز، گازدار، گازئاسا،	زۆربڵە، چەقەسرۆ، چەنەھەراش،	(قسە) ھیچ، قۆڕ، پڕوپووچ،	بەلاف‌وگاف، فیشاڵ‌چی، فشەکەر، خۆھەڵکێش
 """),
                     const DefinitionKurdish(
                         text:
@@ -175,13 +175,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) کە هەست بە گازات دەکەیت لە گەددەت"""),
+                            """٢. (ھاوەڵناو) کە ھەست بە گازات دەکەیت لە گەددەت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The dog looked uncomfortable and gassy.""",
                       kurdishText:
-                          """سەگەکە هەستی بە نائاسوودەیی و گازات دەکرد.""",
+                          """سەگەکە ھەستی بە نائاسوودەیی و گازات دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

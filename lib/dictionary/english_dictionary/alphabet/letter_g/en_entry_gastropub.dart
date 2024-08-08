@@ -153,12 +153,12 @@ Usage: Brit
 // With short examples define "gastropub", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) شوێنێک کە خواردنی خۆش پێشکەش دەکات، و مادەی کحوولی و خواردنەوەی دیکەشی هەیە"""),
+                            """١. (ناو) شوێنێک کە خواردنی خۆش پێشکەش دەکات، و مادەی کحوولی و خواردنەوەی دیکەشی ھەیە"""),
                     SentencesRow(
                       englishText:
                           """This busy gastropub serves great food, although the service can be slow.""",
                       kurdishText:
-                          """ئەم خواردنگە قەرەباڵغە خواردنی باشی هەیە، ئەگەرچی خزمەتکردنەکە دەکرێت هێواش بێت.""",
+                          """ئەم خواردنگە قەرەباڵغە خواردنی باشی ھەیە، ئەگەرچی خزمەتکردنەکە دەکرێت ھێواش بێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

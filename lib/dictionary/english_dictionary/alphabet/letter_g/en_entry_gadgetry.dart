@@ -173,7 +173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I don’t understand all the gadgetry in modern cars.""",
                       kurdishText:
-                          """لەم هەموو دەزگایانەی ئەم ئۆتۆمبێلە سەردەمییانە تێناگەم .""",
+                          """لەم ھەموو دەزگایانەی ئەم ئۆتۆمبێلە سەردەمییانە تێناگەم .""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

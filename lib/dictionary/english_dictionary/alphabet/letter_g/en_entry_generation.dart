@@ -274,12 +274,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەرهەم‌هێنان، پێکهێنان، پەیداکردن، دروست‌کردن،	زاوزێ، پەیداکردن، وەچەخستنەوە،	وەچە، بەرە، پشت، نفش، نەوە، دەڤل
+کوردی: بەرھەم‌ھێنان، پێکھێنان، پەیداکردن، دروست‌کردن،	زاوزێ، پەیداکردن، وەچەخستنەوە،	وەچە، بەرە، پشت، نفش، نەوە، دەڤل
 """),
 // With short examples define "generation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) نەوە؛ هەموو ئەو کەسانەی کە لە ماوەیەکدا لە دایکبوونە"""),
+                            """١. (ناو) نەوە؛ ھەموو ئەو کەسانەی کە لە ماوەیەکدا لە دایکبوونە"""),
                     SentencesRow(
                       englishText:
                           """My generation have grown up with the internet.""",
@@ -292,7 +292,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I often wonder what future generations will make of our efforts.""",
                       kurdishText:
-                          """زۆرجار بیردەکەمەوە کە نەوەکانی داهاتوو چی لە هەوڵەکانمان دەچننەوە.""",
+                          """زۆرجار بیردەکەمەوە کە نەوەکانی داھاتوو چی لە ھەوڵەکانمان دەچننەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The hopes and dreams of youth today are different from those of previous generations.""",
                       kurdishText:
-                          """هیوا و خەونەکانی گەنجانی ئەمڕۆ جیاوازە لەوانەی نەوەکانی پێشوو.""",
+                          """ھیوا و خەونەکانی گەنجانی ئەمڕۆ جیاوازە لەوانەی نەوەکانی پێشوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -319,7 +319,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The First World War slaughtered a whole generation.""",
                       kurdishText:
-                          """یەکەم جەنگی جیهانی یەک نەوەی تەواوی لەناوبرد.""",
+                          """یەکەم جەنگی جیھانی یەک نەوەی تەواوی لەناوبرد.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -328,7 +328,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The older generation tends to have more traditional views.""",
                       kurdishText:
-                          """نەوەی پێشووتر مەیلی ئەوەی هەیە کە دیداگای کۆنەباوی هەبێت.""",
+                          """نەوەی پێشووتر مەیلی ئەوەی ھەیە کە دیداگای کۆنەباوی ھەبێت.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -359,7 +359,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """These decisions will affect our children for generations to come.""",
                       kurdishText:
-                          """ئەم بڕیارانە کاریگەریان دەبێت لەسەر نەوەکانمان بۆ چەندین نەوەی داهاتوو.""",
+                          """ئەم بڕیارانە کاریگەریان دەبێت لەسەر نەوەکانمان بۆ چەندین نەوەی داھاتوو.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -386,13 +386,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) ژمارەیەک کەسی هاوتەمەن کە هەمان چالاکی ئەنجام دەدەن"""),
+                            """٤. (ناو) ژمارەیەک کەسی ھاوتەمەن کە ھەمان چالاکی ئەنجام دەدەن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He influenced my generation more than any other actor.""",
                       kurdishText:
-                          """کاریگەری لەسەر نەوەی من هەبوو زیاتر لە هەر ئەکتەرێکی دیکە.""",
+                          """کاریگەری لەسەر نەوەی من ھەبوو زیاتر لە ھەر ئەکتەرێکی دیکە.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),

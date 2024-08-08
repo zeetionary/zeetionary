@@ -153,7 +153,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "get-together", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) کۆبوونەوەیەکی نافەرمی، ئاهەنگێک"""),
+                        text: """١. (ناو) کۆبوونەوەیەکی نافەرمی، ئاھەنگێک"""),
                     SentencesRow(
                       englishText:
                           """Most of the students were more interested in social get-togethers than going to lectures.""",

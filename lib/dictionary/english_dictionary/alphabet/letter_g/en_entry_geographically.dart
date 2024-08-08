@@ -168,7 +168,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Slovenians have always been geographically and culturally a part of Central Europe rather than of the Balkans.""",
                       kurdishText:
-                          """سلۆڤینییەکان هەمیشە لە ڕووی جوگرافیایی و کەلتورییەوە بەشێک بوونە لە ناوەڕاستی ئەورووپا نەک وڵاتانی باڵکان.""",
+                          """سلۆڤینییەکان ھەمیشە لە ڕووی جوگرافیایی و کەلتورییەوە بەشێک بوونە لە ناوەڕاستی ئەورووپا نەک وڵاتانی باڵکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -181,7 +181,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There is currently much interest in the ways in which public money is distributed geographically.""",
                       kurdishText:
-                          """لە ئێستادا حەزێکی زۆر هەیە بۆ ئەو شێوازانەی کە پارەی گشتی بە جوگرافیاییانە دابەش دەکرێت.""",
+                          """لە ئێستادا حەزێکی زۆر ھەیە بۆ ئەو شێوازانەی کە پارەی گشتی بە جوگرافیاییانە دابەش دەکرێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

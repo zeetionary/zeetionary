@@ -165,7 +165,7 @@ ${englishMeaningConst.text}
 // With short examples define "galvanize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) وا لە کەسێک بکەیت کارێک بکات بەوەی سەرسامیان بکەیت یان بیهێنیتە جۆش"""),
+                            """١. (ھاوەڵناو) وا لە کەسێک بکەیت کارێک بکات بەوەی سەرسامیان بکەیت یان بیھێنیتە جۆش"""),
                     SentencesRow(
                       englishText: """The win galvanized the whole team.""",
                       kurdishText: """بردنەوەکە تەواوی تیمەکەی جۆشدا.""",
@@ -177,7 +177,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We need new approaches that will galvanize the industry to deal with its problems.""",
                       kurdishText:
-                          """پێویستیمان بە ڕێگای تازە هەیە کە پیشەسازییەکە هان بدات مامەڵە لەگەڵ کێشەکانی بکات.""",
+                          """پێویستیمان بە ڕێگای تازە ھەیە کە پیشەسازییەکە ھان بدات مامەڵە لەگەڵ کێشەکانی بکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

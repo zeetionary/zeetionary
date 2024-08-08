@@ -175,7 +175,7 @@ Usage: informal
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Is there a gents near here?""",
-                      kurdishText: """سەراو لەم نزیکە هەیە؟""",
+                      kurdishText: """سەراو لەم نزیکە ھەیە؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -165,7 +165,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There was the usual gaggle of journalists waiting for the star.""",
                       kurdishText:
-                          """ڕۆژنامەنووسە هەمیشەییەکان لەوێ بوون چاوەڕێی ئەستێرەکەیان دەکرد.""",
+                          """ڕۆژنامەنووسە ھەمیشەییەکان لەوێ بوون چاوەڕێی ئەستێرەکەیان دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -156,7 +156,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دڵاوایی، بەخشندەیی، بەدەهندەیی، بەرچاوتێری، دەس‌کراوەیی،	لێبوردەیی،	جوامێری، دڵ‌گەورەیی، پیاوەتی، مرۆیی
+کوردی: دڵاوایی، بەخشندەیی، بەدەھندەیی، بەرچاوتێری، دەس‌کراوەیی،	لێبوردەیی،	جوامێری، دڵ‌گەورەیی، پیاوەتی، مرۆیی
 """),
 // With short examples define "generosity", please follow LX instructions
                     const DefinitionKurdish(

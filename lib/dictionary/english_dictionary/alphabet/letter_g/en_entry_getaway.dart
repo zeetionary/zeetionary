@@ -158,16 +158,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هەڵاتن، دەرچوون، دەربازبوون، ڕەڤیان، ڕاکردن
+کوردی: ھەڵاتن، دەرچوون، دەربازبوون، ڕەڤیان، ڕاکردن
 """),
 // With short examples define "getaway", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) هەڵهاتن لە دۆخێکی سەخت"""),
+                        text: """١. (ناو) ھەڵھاتن لە دۆخێکی سەخت"""),
                     SentencesRow(
                       englishText:
                           """The two masked men made their getaway in a stolen van.""",
                       kurdishText:
-                          """دوو پیاوە دەمامکدارەکە هەڵهتانیان ئەنجامدا بە ڤانێکی دزراو.""",
+                          """دوو پیاوە دەمامکدارەکە ھەڵھتانیان ئەنجامدا بە ڤانێکی دزراو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -178,7 +178,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They planned a romantic weekend getaway in the mountains.""",
                       kurdishText:
-                          """پلانی پشوویەکی دڵدارانەی کۆتایی هەفتەیان دانا لە چیاکان.""",
+                          """پلانی پشوویەکی دڵدارانەی کۆتایی ھەفتەیان دانا لە چیاکان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

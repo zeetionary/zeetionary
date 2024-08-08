@@ -159,7 +159,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Keep the seeds in warm, damp conditions to encourage germination.""",
                       kurdishText:
-                          """تۆوەکان لە شوێنی گەرمی شێدار بهێڵەوە بۆ ئەوەی یارمەتیی چەکەرەکردن بدات.""",
+                          """تۆوەکان لە شوێنی گەرمی شێدار بھێڵەوە بۆ ئەوەی یارمەتیی چەکەرەکردن بدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

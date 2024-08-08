@@ -171,13 +171,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) کەسێک کە ئامادەیە خۆی تووشی مەترسی بکات بەهیوای ئەوەی سەرکەوتوو بێت"""),
+                            """٢. (ناو) کەسێک کە ئامادەیە خۆی تووشی مەترسی بکات بەھیوای ئەوەی سەرکەوتوو بێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She is an eternal optimist and gambler at heart.""",
                       kurdishText:
-                          """کەسێکی هەمیشە گەشبین و سەرەڕۆیە لە دڵەوە.""",
+                          """کەسێکی ھەمیشە گەشبین و سەرەڕۆیە لە دڵەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

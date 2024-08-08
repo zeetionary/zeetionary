@@ -169,7 +169,7 @@ Usage: informal
                       englishText:
                           """In the gaslight she looked paler than ever.""",
                       kurdishText:
-                          """لە گازلایتەکەدا زیاتر لە هەرکات ڕەنگپەڕیوتر بوو.""",
+                          """لە گازلایتەکەدا زیاتر لە ھەرکات ڕەنگپەڕیوتر بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -182,7 +182,7 @@ Usage: informal
                       englishText:
                           """He lied to his wife and then gaslighted her by making her think she was the one being unreasonable.""",
                       kurdishText:
-                          """درۆی لەگەڵ ژنەکەی کرد و دواتر چەواشەی کرد بەوەی وەها بیربکاتەوە کە ئەو ئەو کەسە بوو کە نابەجێیە.""",
+                          """درۆی لەگەڵ ژنەکەی کرد و دواتر چەواشەی کرد بەوەی وەھا بیربکاتەوە کە ئەو ئەو کەسە بوو کە نابەجێیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -231,7 +231,7 @@ Usage: Brit
 // With short examples define "garden", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) باخچەی ماڵ کە تێیدا گوڵ، سەوزە، میوە، هتد دەچێنیت """),
+                            """١. (ناو) باخچەی ماڵ کە تێیدا گوڵ، سەوزە، میوە، ھتد دەچێنیت """),
                     SentencesRow(
                       englishText: """The main bedroom overlooks the garden.""",
                       kurdishText:
@@ -252,7 +252,7 @@ Usage: Brit
                       englishText:
                           """The garden is laid out in 18th-century style.""",
                       kurdishText:
-                          """باخچەکە بە ستایڵی سەدەی هەژدە درووستکراوە.""",
+                          """باخچەکە بە ستایڵی سەدەی ھەژدە درووستکراوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -261,7 +261,7 @@ Usage: Brit
                       englishText:
                           """We got someone to design the garden for us.""",
                       kurdishText:
-                          """کەسێکمان هێنا باخچەکەمان بۆ دیزاین بکات.""",
+                          """کەسێکمان ھێنا باخچەکەمان بۆ دیزاین بکات.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -269,7 +269,7 @@ Usage: Brit
                     SentencesRow(
                       englishText: """Weekends were spent doing the garden.""",
                       kurdishText:
-                          """کۆتاییەکانی هەفتەکان بە خەریک بوون بە باخچەکەوە بەسەر دەبران.""",
+                          """کۆتاییەکانی ھەفتەکان بە خەریک بوون بە باخچەکەوە بەسەر دەبران.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -311,7 +311,7 @@ Usage: Brit
                       englishText:
                           """Thousands of people now visit the gardens every year.""",
                       kurdishText:
-                          """هەزاران کەس ئێستا هەموو ساڵێک سەردانی باخچەکان دەکەن.""",
+                          """ھەزاران کەس ئێستا ھەموو ساڵێک سەردانی باخچەکان دەکەن.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -322,7 +322,7 @@ Usage: Brit
                     SentencesRow(
                       englishText: """More people are choosing to garden.""",
                       kurdishText:
-                          """زۆر کەس لە ئێستادا ئەوە هەڵدەبژێرن کە لە باخچە کار بکەن.""",
+                          """زۆر کەس لە ئێستادا ئەوە ھەڵدەبژێرن کە لە باخچە کار بکەن.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),

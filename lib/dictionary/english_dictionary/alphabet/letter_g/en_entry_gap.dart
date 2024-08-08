@@ -274,7 +274,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: کەلێن، کەلەبەر، کەل، کەلایی، کەلاش، شەبەق، قەڵەش، دەلاقە، ڕەخنە، کون، باخۆر، بابوێر، جیاوازی، جیایی، جیابوونەوە، پسان، دابڕان، پچڕان،	مەودا، دووری،	(خوازە) بۆشایی، ڤالاهی
+کوردی: کەلێن، کەلەبەر، کەل، کەلایی، کەلاش، شەبەق، قەڵەش، دەلاقە، ڕەخنە، کون، باخۆر، بابوێر، جیاوازی، جیایی، جیابوونەوە، پسان، دابڕان، پچڕان،	مەودا، دووری،	(خوازە) بۆشایی، ڤالاھی
 """),
 
 // With short examples define "gap", please follow LX instructions
@@ -302,7 +302,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """There are huge gaps in their knowledge.""",
-                      kurdishText: """کەلێنی زۆر هەیە لە زانیارییاندا.""",
+                      kurdishText: """کەلێنی زۆر ھەیە لە زانیارییاندا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -310,7 +310,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """His death left an enormous gap in my life.""",
-                      kurdishText: """مەرگی کەلێنێکی گەورەی لە ژیانم جێهێشت.""",
+                      kurdishText: """مەرگی کەلێنێکی گەورەی لە ژیانم جێھێشت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -326,12 +326,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) بۆشایی نێوان دوو شت یان ناوەڕاستی شتێک، بە تایبەتی بەهۆی ئەوەی بەشێک ونە"""),
+                            """٢. (ناو) بۆشایی نێوان دوو شت یان ناوەڕاستی شتێک، بە تایبەتی بەھۆی ئەوەی بەشێک ونە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There should be a six-inch gap at the bottom.""",
-                      kurdishText: """دەبێت بۆشایی شەش ئینچ لە ژێرەوە هەبێت.""",
+                      kurdishText: """دەبێت بۆشایی شەش ئینچ لە ژێرەوە ھەبێت.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Leave a gap between your car and the next.""",
                       kurdishText:
-                          """بۆشاییەک لە نێوان ئۆتۆمبێلەکەت و ئەوەی دواتر جێبهێڵە.""",
+                          """بۆشاییەک لە نێوان ئۆتۆمبێلەکەت و ئەوەی دواتر جێبھێڵە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -356,7 +356,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Position the tiles, leaving a narrow gap between the edges.""",
                       kurdishText:
-                          """خشتەکان دابنێ و بۆشاییەکی کەم لە نێوان قەراغەکان بهێڵەوە.""",
+                          """خشتەکان دابنێ و بۆشاییەکی کەم لە نێوان قەراغەکان بھێڵەوە.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -387,7 +387,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There’s a big age gap between them (= a big difference in their ages).""",
                       kurdishText:
-                          """جیاوازییەکی گەورەی تەمەنی هەیە لە نێوانیاندا.""",
+                          """جیاوازییەکی گەورەی تەمەنی ھەیە لە نێوانیاندا.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -403,7 +403,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) جیاوازییەک کە خەڵکی یان باوەڕیان، دۆخیان، هتد جیادەکاتەوە"""),
+                            """٤. (ناو) جیاوازییەک کە خەڵکی یان باوەڕیان، دۆخیان، ھتد جیادەکاتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -418,7 +418,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The only way to close this gap is to innovate.""",
                       kurdishText:
-                          """تەنها ڕێگای کەمکردنەوەی ئەم جیاوازییە نوێگەریییە.""",
+                          """تەنھا ڕێگای کەمکردنەوەی ئەم جیاوازییە نوێگەریییە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -427,7 +427,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The crisis was largely due to a wide gap between supply and demand.""",
                       kurdishText:
-                          """قەیرانەکە بە هۆکارێکی زۆر بەهۆی جیاوازیی نێوان بەرهەمهێنان و خواست بوو.""",
+                          """قەیرانەکە بە ھۆکارێکی زۆر بەھۆی جیاوازیی نێوان بەرھەمھێنان و خواست بوو.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),

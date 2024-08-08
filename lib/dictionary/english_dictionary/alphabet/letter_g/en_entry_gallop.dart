@@ -219,12 +219,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: چوارناڵە، تەقڵەکوت، چارگاڤی، ترەختان، غار، لنگار، لنگدان،	پەلە، تاو، پڕتاو، هەشتاو، لەز،	شەقاوی خێرا و توند
+کوردی: چوارناڵە، تەقڵەکوت، چارگاڤی، ترەختان، غار، لنگار، لنگدان،	پەلە، تاو، پڕتاو، ھەشتاو، لەز،	شەقاوی خێرا و توند
 """),
 // With short examples define "gallop", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) کە ئەسپێک یان ئاژەڵێک ڕا دەکات و هەر چوار پێی لەگەڵ هەر شەقاوێک لە زەوی بەرز دەبێتەوە"""),
+                            """١. (کردار) کە ئەسپێک یان ئاژەڵێک ڕا دەکات و ھەر چوار پێی لەگەڵ ھەر شەقاوێک لە زەوی بەرز دەبێتەوە"""),
                     SentencesRow(
                       englishText: """The terrified horse galloped off.""",
                       kurdishText: """ئەسپە ترساوەکە غاری دا و ڕۆشت.""",
@@ -256,7 +256,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: charge"),
                     SentencesRow(
                       englishText: """She came galloping down the street.""",
-                      kurdishText: """بە شەقامەکەدا بە ڕاکردن هاتە خوار.""",
+                      kurdishText: """بە شەقامەکەدا بە ڕاکردن ھاتە خوار.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -298,7 +298,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She always lives life at a gallop.""",
-                      kurdishText: """هەمیشە بە خێرایی دەژی.""",
+                      kurdishText: """ھەمیشە بە خێرایی دەژی.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),

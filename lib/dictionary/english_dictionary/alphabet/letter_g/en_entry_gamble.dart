@@ -200,7 +200,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I gambled all my winnings on the last race.""",
                       kurdishText:
-                          """لە کۆتا پێشبڕکێ هەموو بردنەوەکانمم خستە قومارەوە.""",
+                          """لە کۆتا پێشبڕکێ ھەموو بردنەوەکانمم خستە قومارەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -231,14 +231,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """It was wrong to gamble with our children's future.""",
                       kurdishText:
-                          """ئەوە هەڵە بوو داهاتووی منداڵەکانمان بخەینە مەترسییەوە.""",
+                          """ئەوە ھەڵە بوو داھاتووی منداڵەکانمان بخەینە مەترسییەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) شتێک کە دەیکەیت و دەزانیت مەترسیدارە بەڵام بەهیوایت سەرکەوتوو بێت"""),
+                            """٣. (ناو) شتێک کە دەیکەیت و دەزانیت مەترسیدارە بەڵام بەھیوایت سەرکەوتوو بێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

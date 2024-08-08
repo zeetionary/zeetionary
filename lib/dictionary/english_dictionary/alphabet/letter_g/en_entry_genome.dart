@@ -153,7 +153,7 @@ ${englishMeaningConst.text}
 // With short examples define "genome", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دەستەیەکی تەواوی بۆهێڵ لە خانەیەک یان شتێکی زیندوو"""),
+                            """١. (ناو) دەستەیەکی تەواوی بۆھێڵ لە خانەیەک یان شتێکی زیندوو"""),
                     SentencesRow(
                       englishText:
                           """The human genome contains all the DNA in our cells.""",

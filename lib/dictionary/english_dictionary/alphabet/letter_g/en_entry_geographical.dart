@@ -169,14 +169,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """The importance of the town is due to its geographical location.""",
                       kurdishText:
-                          """گرنگی شارۆچکەکە بەهۆی هەڵکەوتەی جوگرافیاییەتی.""",
+                          """گرنگی شارۆچکەکە بەھۆی ھەڵکەوتەی جوگرافیاییەتی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) پەیوەندیدار بە توویژینەوەی زانستی لە ڕووی زەوی، تایبەتمەندییە فیزیکییەکانی، دابەشبوونەکانی، بەرهەمەکانی، دانیشتوانی، هتد"""),
+                            """٢. (ھاوەڵناو) پەیوەندیدار بە توویژینەوەی زانستی لە ڕووی زەوی، تایبەتمەندییە فیزیکییەکانی، دابەشبوونەکانی، بەرھەمەکانی، دانیشتوانی، ھتد"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

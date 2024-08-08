@@ -159,12 +159,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: (هونەر، موسیقا، وێژە و هتد) جۆر، چەشن، شێواز، شێوە، ئاوا (تایبەتی)، ژانر
+کوردی: (ھونەر، موسیقا، وێژە و ھتد) جۆر، چەشن، شێواز، شێوە، ئاوا (تایبەتی)، ژانر
 """),
 // With short examples define "genre", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) جۆرێکی دیاریکراو لە میوزیک، هونەر، وێژە، یان فیلم کە دەیناسیتەوە بەهۆی تایبەتمەندییەکانی"""),
+                            """١. (ناو) جۆرێکی دیاریکراو لە میوزیک، ھونەر، وێژە، یان فیلم کە دەیناسیتەوە بەھۆی تایبەتمەندییەکانی"""),
                     SentencesRow(
                       englishText:
                           """Crime fiction is a genre which seems likely to stay with us for many years.""",

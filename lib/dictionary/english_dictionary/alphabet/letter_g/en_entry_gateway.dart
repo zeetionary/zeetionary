@@ -162,7 +162,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دەروازە، دەرکە، درگا،	ڕێگا، ژوورگە، گوزەر، ڕێڕەو،	کلیل، ڕێگای گەیشتن بە، مایەی بەدەس‌هێنانی شتێ
+کوردی: دەروازە، دەرکە، درگا،	ڕێگا، ژوورگە، گوزەر، ڕێڕەو،	کلیل، ڕێگای گەیشتن بە، مایەی بەدەس‌ھێنانی شتێ
 """),
 // With short examples define "gateway", please follow LX instructions
                     const DefinitionKurdish(

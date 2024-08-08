@@ -154,12 +154,12 @@ ${englishMeaningConst.text}
 // With short examples define "gentlemanly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە زۆر باشە ڕەفتار دەکات و هەڵسوکەوتی زۆر باشە"""),
+                            """١. (ھاوەڵناو) کە زۆر باشە ڕەفتار دەکات و ھەڵسوکەوتی زۆر باشە"""),
                     SentencesRow(
                       englishText:
                           """So far, the election campaign has been a very gentlemanly affair.""",
                       kurdishText:
-                          """تا ئێستا، کەمپینی هەڵبژاردنەکە بابەتێکی زۆر بەڕێزانە بووە.""",
+                          """تا ئێستا، کەمپینی ھەڵبژاردنەکە بابەتێکی زۆر بەڕێزانە بووە.""",
                       kurdishNote: """واتا کاندیدەکان ڕێزی یەکدییان گرتووە""",
                       englishNote:
                           "This means the election campaign has been conducted with politeness and respect, without any harsh or aggressive behavior.",

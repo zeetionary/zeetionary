@@ -159,7 +159,7 @@ ${englishMeaningConst.text}
 // With short examples define "GDP", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) تێکڕای بەرهەمی ناوخۆیی؛ تەواوی ئەو کەلووپەل و خزمەتگوزارییانەی کە لە ساڵێکدا لە لایەن وڵاتێکەوە بەرهەم هاتوون"""),
+                            """١. (ناو) تێکڕای بەرھەمی ناوخۆیی؛ تەواوی ئەو کەلووپەل و خزمەتگوزارییانەی کە لە ساڵێکدا لە لایەن وڵاتێکەوە بەرھەم ھاتوون"""),
                     SentencesRow(
                       englishText:
                           """GDP grew 5.8 percent in the first quarter.""",
@@ -172,7 +172,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """There was a 42-per-cent decline in GDP.""",
-                      kurdishText: """٤٢ لە سەد دابەزین لە جی‌دی‌پی هەبوو.""",
+                      kurdishText: """٤٢ لە سەد دابەزین لە جی‌دی‌پی ھەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

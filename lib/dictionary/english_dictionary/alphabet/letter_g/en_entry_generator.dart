@@ -185,16 +185,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەرهەم‌هێنە، پێکهێنەر، کۆمپانی دەزگای بەرهەم‌هێنانی وزەی ئێلیکتریسیتە، داینەمۆ
+کوردی: بەرھەم‌ھێنە، پێکھێنەر، کۆمپانی دەزگای بەرھەم‌ھێنانی وزەی ئێلیکتریسیتە، داینەمۆ
 """),
 // With short examples define "generator", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) ئامێرێک کە کارەبا بەرهەم دەهێنێت"""),
+                        text: """١. (ناو) ئامێرێک کە کارەبا بەرھەم دەھێنێت"""),
                     SentencesRow(
                       englishText:
                           """The factory's emergency generators were used during the power cut.""",
                       kurdishText:
-                          """مۆلیدە فریاگوزارییەکانی کارگەکە بەکارهاتن لەو ماوەیەی پچڕانی کارەبا.""",
+                          """مۆلیدە فریاگوزارییەکانی کارگەکە بەکارھاتن لەو ماوەیەی پچڕانی کارەبا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -203,19 +203,19 @@ ${englishMeaningConst.text}
                       englishText:
                           """The wind generator delivers 120 watts in a strong breeze.""",
                       kurdishText:
-                          """بەرهەمهێنەرە باییەکە ١٢٠ وات لە بایەکی بەهێزدا بەرهەم دەهێنێت.""",
+                          """بەرھەمھێنەرە باییەکە ١٢٠ وات لە بایەکی بەھێزدا بەرھەم دەھێنێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) ئامێرێک بۆ بەرهەمهێنانی شتێک"""),
+                        text: """٢. (ناو) ئامێرێک بۆ بەرھەمھێنانی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The museum uses smells and smoke generators to create proper atmosphere.""",
                       kurdishText:
-                          """مۆزەخانەکە درووستکەری دووکەڵ و بۆن بەکار دەهێنێت بۆ درووستکردنی کەشێکی گونجاو.""",
+                          """مۆزەخانەکە درووستکەری دووکەڵ و بۆن بەکار دەھێنێت بۆ درووستکردنی کەشێکی گونجاو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -234,13 +234,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) کۆمپانیایەک کە کارەبا بەرهەم دەهێنێت"""),
+                            """٤. (ناو) کۆمپانیایەک کە کارەبا بەرھەم دەھێنێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The two major electricity generators declined to comment.""",
                       kurdishText:
-                          """دوو بەرهەمهێنەرە سەرەکییەکەی کارەبا ڕەتیان کردەوە لێدوان بدەن.""",
+                          """دوو بەرھەمھێنەرە سەرەکییەکەی کارەبا ڕەتیان کردەوە لێدوان بدەن.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

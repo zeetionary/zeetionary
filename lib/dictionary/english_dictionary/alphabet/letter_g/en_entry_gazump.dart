@@ -160,7 +160,7 @@ Usage: Brit, informal
                       englishText:
                           """Sally's offer for the house has been accepted, but she's worried she might be gazumped.""",
                       kurdishText:
-                          """پێشنیاری سالی بۆ کڕینی خانووەکە پەسەندکراوە، بەڵام لەوە دەترسێت کە ئەگەری ئەوە هەبێت کە لەوانەیە کەسێکی تر پێشنیاری باشتر بکات و مامەڵەکەی لەدەست بدات.""",
+                          """پێشنیاری سالی بۆ کڕینی خانووەکە پەسەندکراوە، بەڵام لەوە دەترسێت کە ئەگەری ئەوە ھەبێت کە لەوانەیە کەسێکی تر پێشنیاری باشتر بکات و مامەڵەکەی لەدەست بدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

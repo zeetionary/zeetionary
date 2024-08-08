@@ -190,12 +190,12 @@ ${englishMeaningConst.text}
 // With short examples define "generalize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) بەکارهێنانی کۆمەڵە ڕاستی و تێگەشتنێک بۆ درووستکردنی بۆچوونێک کە بە پەیوەندیدار بە دۆخێکی دیکە دادەنرێت"""),
+                            """١. (کردار) بەکارھێنانی کۆمەڵە ڕاستی و تێگەشتنێک بۆ درووستکردنی بۆچوونێک کە بە پەیوەندیدار بە دۆخێکی دیکە دادەنرێت"""),
                     SentencesRow(
                       englishText:
                           """It would be foolish to generalize from a single example.""",
                       kurdishText:
-                          """گەمژە دەبم ئەگەر لە تەنها نموونەیەکەوە بۆچوون درووست بکەم.""",
+                          """گەمژە دەبم ئەگەر لە تەنھا نموونەیەکەوە بۆچوون درووست بکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -217,14 +217,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """It is dangerous to generalize about the poor.""",
                       kurdishText:
-                          """مەترسیدار دەبێت گشتگیری بکەیت سەبارەت بە هەژاران.""",
+                          """مەترسیدار دەبێت گشتگیری بکەیت سەبارەت بە ھەژاران.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (کردار) ئەوەی کە بیردۆزێک، بیرۆکەیەک، هتد بەکاربێنیت بۆ گشتگیری؛ ئەوەی کە تێگەشتن بۆ گرووپێک بکەیت بەو زانیارییەی لە گرووپێکی دیکەوە هەتە"""),
+                            """٣. (کردار) ئەوەی کە بیردۆزێک، بیرۆکەیەک، ھتد بەکاربێنیت بۆ گشتگیری؛ ئەوەی کە تێگەشتن بۆ گرووپێک بکەیت بەو زانیارییەی لە گرووپێکی دیکەوە ھەتە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -239,7 +239,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We are now in a position to generalize the lessons we have learnt.""",
                       kurdishText:
-                          """ئێستا لە پێگەیەکداین کە ئەو وانانەی فێریان بووینە بە گشتی بەکاربهێنین.""",
+                          """ئێستا لە پێگەیەکداین کە ئەو وانانەی فێریان بووینە بە گشتی بەکاربھێنین.""",
                       englishNote:
                           """This means we can now apply the knowledge and insights gained from our experiences to broader contexts or situations.""",
                       onPressedBritish: () => speaksentence5("en-GB"),

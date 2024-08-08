@@ -164,17 +164,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: سەربە بۆماوە، بۆماوەیی یان ژێنێتیک،	نژادەیی، سەربە بۆهێڵەکان، سەربە ژێنەکان
+کوردی: سەربە بۆماوە، بۆماوەیی یان ژێنێتیک،	نژادەیی، سەربە بۆھێڵەکان، سەربە ژێنەکان
 """),
 // With short examples define "genetic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) پەیوەندیدار بە بۆهێڵەکان یان زانستی لێکۆڵینەوە لە بۆهێڵەکان"""),
+                            """١. (ھاوەڵناو) پەیوەندیدار بە بۆھێڵەکان یان زانستی لێکۆڵینەوە لە بۆھێڵەکان"""),
                     SentencesRow(
                       englishText:
                           """There are about 4 000 inherited human genetic diseases.""",
                       kurdishText:
-                          """نزیکەی ٤٠٠٠ جۆرە لە نەخۆشی گوازراوی بۆهێڵی مرۆڤ هەیە.""",
+                          """نزیکەی ٤٠٠٠ جۆرە لە نەخۆشی گوازراوی بۆھێڵی مرۆڤ ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -148,7 +148,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: سەربە خێر، خێردەرەوە، بەمووچە، بەکەڵک، پڕمەفا، بەداهات، پڕبەهرە، بەسوود، بەقازانج
+کوردی: سەربە خێر، خێردەرەوە، بەمووچە، بەکەڵک، پڕمەفا، بەداھات، پڕبەھرە، بەسوود، بەقازانج
 """),
 // With short examples define "gainful", please follow LX instructions
                     const DefinitionKurdish(

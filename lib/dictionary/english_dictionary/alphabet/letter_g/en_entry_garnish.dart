@@ -168,7 +168,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ئەزبۆلە، بەهارات، دەرمانک، خۆشکە، هەزوێلە، ڕازاندنەوە، خەمڵاندن، سازکردن، بەدەورداهاتن، جوان‌کردن
+کوردی: ئەزبۆلە، بەھارات، دەرمانک، خۆشکە، ھەزوێلە، ڕازاندنەوە، خەمڵاندن، سازکردن، بەدەورداھاتن، جوان‌کردن
 """),
 // With short examples define "garnish", please follow LX instructions
                     const DefinitionKurdish(
@@ -198,7 +198,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Keep some olives to one side for garnish.""",
                       kurdishText:
-                          """زەیتوونەکان لە لایەکەوە بۆ جوانی بهێڵەوە.""",
+                          """زەیتوونەکان لە لایەکەوە بۆ جوانی بھێڵەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

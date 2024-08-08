@@ -163,7 +163,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کونێکی سرووشتی کە لێیەوە هەندێک جار ئاوی گەرم یان هەڵم دێتە دەرەوە"""),
+                            """١. (ناو) کونێکی سرووشتی کە لێیەوە ھەندێک جار ئاوی گەرم یان ھەڵم دێتە دەرەوە"""),
                     SentencesRow(
                       englishText:
                           """A geyser's eruption can be a spectacular sight.""",

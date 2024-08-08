@@ -151,7 +151,7 @@ ${englishMeaningConst.text}
 // With short examples define "gauntness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) لاوازی کەسێک، زۆرجار بەهۆی نەخۆشی، کەم‌خۆراکی، یان نیگەرانی"""),
+                            """١. (ناو) لاوازی کەسێک، زۆرجار بەھۆی نەخۆشی، کەم‌خۆراکی، یان نیگەرانی"""),
                     SentencesRow(
                       englishText: """He was thin to the point of gauntness.""",
                       kurdishText: """باریک بوو تا ئاستی لەڕی.""",

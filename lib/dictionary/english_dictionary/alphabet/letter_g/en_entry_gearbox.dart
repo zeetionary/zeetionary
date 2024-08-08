@@ -156,7 +156,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """To overcome these problems, the mechanical structure was redesigned without the gearbox.""",
                       kurdishText:
-                          """بۆ زاڵبوون بەسەر ئەم کێشەیەدا، پێکهاتە میکانیکییەکە دیزاینکرایەوە بەبێ سندووقی گێڕەکە.""",
+                          """بۆ زاڵبوون بەسەر ئەم کێشەیەدا، پێکھاتە میکانیکییەکە دیزاینکرایەوە بەبێ سندووقی گێڕەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

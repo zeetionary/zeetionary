@@ -152,10 +152,10 @@ ${englishMeaningConst.text}
 // With short examples define "gaseous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە وەک گازە یان لە گاز پێکهاتووە"""),
+                            """١. (ھاوەڵناو) کە وەک گازە یان لە گاز پێکھاتووە"""),
                     SentencesRow(
                       englishText: """Steam is water in its gaseous form.""",
-                      kurdishText: """هەڵم ئاوە لە شێوەی گازیدا.""",
+                      kurdishText: """ھەڵم ئاوە لە شێوەی گازیدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

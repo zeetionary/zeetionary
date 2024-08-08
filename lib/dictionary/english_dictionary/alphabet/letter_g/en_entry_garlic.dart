@@ -174,7 +174,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """For this recipe you need four cloves (= single pieces) of garlic, crushed.""",
                       kurdishText:
-                          """بۆ ئەم ڕەچەتەیە پێویستت بە چوار سەلکە سیر هەیە بە وردکراوی.""",
+                          """بۆ ئەم ڕەچەتەیە پێویستت بە چوار سەلکە سیر ھەیە بە وردکراوی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

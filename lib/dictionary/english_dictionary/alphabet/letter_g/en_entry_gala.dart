@@ -156,16 +156,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: سوور، ئاهەنگ، مێهرەگان، فێستیڤاڵ،	پێشبڕکی
+کوردی: سوور، ئاھەنگ، مێھرەگان، فێستیڤاڵ،	پێشبڕکی
 """),
 // With short examples define "gala", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئاهەنگێکی گشتی کە ئاهەنگێڕان و چێژبەخشینی تێدایە"""),
+                            """١. (ناو) ئاھەنگێکی گشتی کە ئاھەنگێڕان و چێژبەخشینی تێدایە"""),
                     SentencesRow(
                       englishText: """The charity gala was a huge success.""",
                       kurdishText:
-                          """ئاهەنگە خێرخوازییەکە سەرکەوتنێکی گەورە بوو.""",
+                          """ئاھەنگە خێرخوازییەکە سەرکەوتنێکی گەورە بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -178,7 +178,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They attended the swimming gala to cheer their team.""",
                       kurdishText:
-                          """بەژداری پێشبڕکێ مەلەوانییەکە بوون بۆ هاندانی تیمەکەیان.""",
+                          """بەژداری پێشبڕکێ مەلەوانییەکە بوون بۆ ھاندانی تیمەکەیان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -89,7 +89,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""When I looked down from the top floor, I felt giddy.""");
+    await flutterTts
+        .speak("""When I looked down from the top floor, I felt giddy.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -110,14 +111,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She was giddy with anticipation about spending two months with her father.""");
+    await flutterTts.speak(
+        """She was giddy with anticipation about spending two months with her father.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The kids were pushing the roundabout at a giddy speed.""");
+    await flutterTts
+        .speak("""The kids were pushing the roundabout at a giddy speed.""");
   }
 
   @override
@@ -180,13 +183,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: سەرلەگێژەوەهاتوو، سەرگێژ، تووشی سەرگێژە،	سەرلەگێژەوەهێنەر، گێژکەر،	هەڵەشە، سەرچڵ، ناڕشت، گەوج، حۆل، نەفام
+کوردی: سەرلەگێژەوەھاتوو، سەرگێژ، تووشی سەرگێژە،	سەرلەگێژەوەھێنەر، گێژکەر،	ھەڵەشە، سەرچڵ، ناڕشت، گەوج، حۆل، نەفام
 """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) هەستکردن بەوەی هەموو شتێک دەجووڵێت و خەریکە دەکەویت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ھەستکردن بەوەی ھەموو شتێک دەجووڵێت و خەریکە دەکەویت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: dizzy"),
                     SentencesRow(
-                      englishText: """When I looked down from the top floor, I felt giddy.""",
-                      kurdishText: """لە نهۆمی سەری سەرەوەوە سەیری خوارەوەم کرد و هەستم بە گێژخواردووی کرد.""",
+                      englishText:
+                          """When I looked down from the top floor, I felt giddy.""",
+                      kurdishText:
+                          """لە نھۆمی سەری سەرەوەوە سەیری خوارەوەم کرد و ھەستم بە گێژخواردووی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -198,7 +205,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) زۆر دڵخۆش و بەجۆش کە ناتوانیت بە ئاسایی ڕەفتار بکەیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) زۆر دڵخۆش و بەجۆش کە ناتوانیت بە ئاسایی ڕەفتار بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She was giddy with happiness.""",
@@ -208,17 +217,22 @@ ${englishMeaningConst.text}
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She was giddy with anticipation about spending two months with her father.""",
-                      kurdishText: """شاگەشکە بووبوو بە چاوەڕوانی ئەوەی کە دوو مانگی لەگەڵ باوکی بەسەر دەبرد.""",
+                      englishText:
+                          """She was giddy with anticipation about spending two months with her father.""",
+                      kurdishText:
+                          """شاگەشکە بووبوو بە چاوەڕوانی ئەوەی کە دوو مانگی لەگەڵ باوکی بەسەر دەبرد.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە تووشی گێژخواردوویت دەکات"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) کە تووشی گێژخواردوویت دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The kids were pushing the roundabout at a giddy speed.""",
-                      kurdishText: """منداڵەکان بە بازنەکەدا دەسووڕانەوە بە خێرایی گێژخواردووکەر.""",
+                      englishText:
+                          """The kids were pushing the roundabout at a giddy speed.""",
+                      kurdishText:
+                          """منداڵەکان بە بازنەکەدا دەسووڕانەوە بە خێرایی گێژخواردووکەر.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

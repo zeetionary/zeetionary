@@ -153,12 +153,12 @@ ${englishMeaningConst.text}
 // With short examples define "gatecrasher", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەسێک کە دەچێتە ئاهەنگێک یان بۆنەیەکی کۆمەڵایەتی بەبێ ئەوەی بانگهێشت کرابێت"""),
+                            """١. (ناو) کەسێک کە دەچێتە ئاھەنگێک یان بۆنەیەکی کۆمەڵایەتی بەبێ ئەوەی بانگھێشت کرابێت"""),
                     SentencesRow(
                       englishText:
                           """The party was ruined by a couple of rowdy gatecrashers.""",
                       kurdishText:
-                          """ئاهەنگەکە تێکدرا لەلایەن میوانی بانگێشتن‌نەکراو شەڕفرۆش.""",
+                          """ئاھەنگەکە تێکدرا لەلایەن میوانی بانگێشتن‌نەکراو شەڕفرۆش.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

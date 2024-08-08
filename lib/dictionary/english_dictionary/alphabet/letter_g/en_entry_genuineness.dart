@@ -162,12 +162,12 @@ ${englishMeaningConst.text}
 // With short examples define "genuineness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەوەی شتێک ڕاستی بێت و هەمان ئەو شتە بێت کە دەردەکەوێت"""),
+                            """١. (ناو) ئەوەی شتێک ڕاستی بێت و ھەمان ئەو شتە بێت کە دەردەکەوێت"""),
                     SentencesRow(
                       englishText:
                           """There is no reason to doubt the genuineness of these documents.""",
                       kurdishText:
-                          """هیچ هۆکارێک نییە گومان بکرێت لە ڕاستەقینەییەتی ئەم بەڵگەنامانە.""",
+                          """ھیچ ھۆکارێک نییە گومان بکرێت لە ڕاستەقینەییەتی ئەم بەڵگەنامانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

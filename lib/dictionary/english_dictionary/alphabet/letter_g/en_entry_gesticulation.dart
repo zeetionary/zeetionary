@@ -153,7 +153,7 @@ ${englishMeaningConst.text}
 // With short examples define "gesticulation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) بەکارهێنانی دەست و باڵت بۆ ئەوەی سەرنجی کەسێک ڕابکێشیت یان کەسێک تێبگەیەنیت لەوەی دەیڵێیت"""),
+                            """١. (ناو) بەکارھێنانی دەست و باڵت بۆ ئەوەی سەرنجی کەسێک ڕابکێشیت یان کەسێک تێبگەیەنیت لەوەی دەیڵێیت"""),
                     SentencesRow(
                       englishText:
                           """She was waving her hands in excited gesticulations.""",

@@ -179,7 +179,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """They were a bunch of hopeless geriatrics.""",
-                      kurdishText: """ژمارەیەک بەساڵاچووی بێ‌هیوا بوون.""",
+                      kurdishText: """ژمارەیەک بەساڵاچووی بێ‌ھیوا بوون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

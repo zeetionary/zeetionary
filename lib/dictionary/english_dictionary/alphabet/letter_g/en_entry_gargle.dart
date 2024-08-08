@@ -204,7 +204,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He felt better after he had a gargle with salt water.""",
                       kurdishText:
-                          """هەستی بە باشتر کرد کە غەڕغەڕەیەکی بە ئاوی سوێر کرد.""",
+                          """ھەستی بە باشتر کرد کە غەڕغەڕەیەکی بە ئاوی سوێر کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

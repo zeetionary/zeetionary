@@ -192,7 +192,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She speaks generously about everyone.""",
-                      kurdishText: """بەخشندانە قسە لەسەر هەموان دەکات.""",
+                      kurdishText: """بەخشندانە قسە لەسەر ھەموان دەکات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

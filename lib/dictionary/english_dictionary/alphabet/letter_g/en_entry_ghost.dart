@@ -213,7 +213,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ڕۆحی مردوو، تارمایی، خێو، سەهویر، سوێس، تیبا، سێتاڤ، ماچێتر،	کەم، نەختێ، چکێ، بڕێ
+کوردی: ڕۆحی مردوو، تارمایی، خێو، سەھویر، سوێس، تیبا، سێتاڤ، ماچێتر،	کەم، نەختێ، چکێ، بڕێ
 """),
 // With short examples define "ghost", please follow LX instructions
                     const DefinitionKurdish(
@@ -222,7 +222,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Do you believe in ghosts (= believe that they exist)?""",
-                      kurdishText: """باوەڕت بە خێو هەیە؟""",
+                      kurdishText: """باوەڕت بە خێو ھەیە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -238,7 +238,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """He looked as if he had seen a ghost (= looked very frightened).""",
-                      kurdishText: """وەها دیار بوو کە خێوێکی بینیبێت.""",
+                      kurdishText: """وەھا دیار بوو کە خێوێکی بینیبێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -251,14 +251,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """The ghost of anti-Semitism still haunts Europe.""",
                       kurdishText:
-                          """یادەوەری دژە-جووی هێشتا لەبیری ئەورووپایە.""",
+                          """یادەوەری دژە-جووی ھێشتا لەبیری ئەورووپایە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) ڕێژەیەکی زۆر کەم لە شتێک کە ماوەتەوە یان ئەوەی کە دڵنیا نیت بوونی هەبێت"""),
+                            """٣. (ناو) ڕێژەیەکی زۆر کەم لە شتێک کە ماوەتەوە یان ئەوەی کە دڵنیا نیت بوونی ھەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -281,13 +281,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (کردار) لەناکاو کۆتایی هێنان بە پەیوەندی لەگەڵ کەسێک بۆ ئەوەی پەیوەندییەکە بپچڕێنیت"""),
+                            """٥. (کردار) لەناکاو کۆتایی ھێنان بە پەیوەندی لەگەڵ کەسێک بۆ ئەوەی پەیوەندییەکە بپچڕێنیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When you're ghosted, it's difficult, because you may hang on to false hope.""",
                       kurdishText:
-                          """کاتێک کەسێک پەیوەندی لەگەڵت دەپچڕێنێت و وەڵامت ناداتەوە، زەحمەتە، چونکە لەوانەیە دەست بە هیوایەکی درۆینەوە بگریت.""",
+                          """کاتێک کەسێک پەیوەندی لەگەڵت دەپچڕێنێت و وەڵامت ناداتەوە، زەحمەتە، چونکە لەوانەیە دەست بە ھیوایەکی درۆینەوە بگریت.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

@@ -154,12 +154,12 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) نەخۆشییەکی گەدە و بەشەکانی دیکەی ڕێڕەوی خۆراک کە دەبێتە هۆکاری سکچوون و ڕشانەوە"""),
+                            """١. (ناو) نەخۆشییەکی گەدە و بەشەکانی دیکەی ڕێڕەوی خۆراک کە دەبێتە ھۆکاری سکچوون و ڕشانەوە"""),
                     SentencesRow(
                       englishText:
                           """Gastroenteritis spread quickly among the children.""",
                       kurdishText:
-                          """هەوکردنی ڕێڕەوی خۆراک زوو بەناو منداڵەکاندا بڵاوبوویەوە.""",
+                          """ھەوکردنی ڕێڕەوی خۆراک زوو بەناو منداڵەکاندا بڵاوبوویەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

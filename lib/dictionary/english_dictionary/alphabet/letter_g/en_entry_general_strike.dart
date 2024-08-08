@@ -156,7 +156,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Unions have called a general strike, which is expected to stop all public services for a day.""",
                       kurdishText:
-                          """سەندیکاکان داوای مانگرتنی گشتییان کردووە کە وەها پێشبینی دەکرێت تەواوی کارکردن بۆ ڕۆژێک بوەستێنێت.""",
+                          """سەندیکاکان داوای مانگرتنی گشتییان کردووە کە وەھا پێشبینی دەکرێت تەواوی کارکردن بۆ ڕۆژێک بوەستێنێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

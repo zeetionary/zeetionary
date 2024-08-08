@@ -185,30 +185,30 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گشت، ناتایبەتی، گشتی، گشتگرەوە، هەمەکی، بۆ هەموو، بۆ گشت، تێکڕایی،	ناوی گشت(ی)، گشتەنێو،	(زیندەناسی) سەربە ڕەگەز یان توخم، توخمی، ڕەگەزی
+کوردی: گشت، ناتایبەتی، گشتی، گشتگرەوە، ھەمەکی، بۆ ھەموو، بۆ گشت، تێکڕایی،	ناوی گشت(ی)، گشتەنێو،	(زیندەناسی) سەربە ڕەگەز یان توخم، توخمی، ڕەگەزی
 """),
 // With short examples define "generic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە تەواوی گرووپێک لە شت هەیەتی یان پەیوەندیدارن پێوەی"""),
+                            """١. (ھاوەڵناو) کە تەواوی گرووپێک لە شت ھەیەتی یان پەیوەندیدارن پێوەی"""),
                     SentencesRow(
                       englishText:
                           """The new engines all had a generic problem with their fan blades.""",
                       kurdishText:
-                          """هەموو بزوێنەرە تازەکان کێشەیەکی گشتگیریان هەبوو لەگەڵ دەمی پانکەکان.""",
+                          """ھەموو بزوێنەرە تازەکان کێشەیەکی گشتگیریان ھەبوو لەگەڵ دەمی پانکەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) بەرهەمێک کە ناوی ئەو کۆمپانیایە بەکارناهێنێت کە بەرهەمی هێناوە"""),
+                            """٢. (ھاوەڵناو) بەرھەمێک کە ناوی ئەو کۆمپانیایە بەکارناھێنێت کە بەرھەمی ھێناوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The doctor offered me a choice of a branded or a generic drug.""",
                       kurdishText:
-                          """پزیشکەکە هەڵبژاردەی چارەسەری کۆمپانیایەک یان یەکێکی بێ‌ناونیشان پێدام.""",
+                          """پزیشکەکە ھەڵبژاردەی چارەسەری کۆمپانیایەک یان یەکێکی بێ‌ناونیشان پێدام.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -221,20 +221,20 @@ ${englishMeaningConst.text}
                       englishText:
                           """The movie was pretty boring, with a generic storyline and emotionless characters.""",
                       kurdishText:
-                          """فیلمەکە تەواو بێزارکەر بوو لەگەڵ گێڕانەوەیەکی زۆر باو و کارەکتەری بێ هەست.""",
+                          """فیلمەکە تەواو بێزارکەر بوو لەگەڵ گێڕانەوەیەکی زۆر باو و کارەکتەری بێ ھەست.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) جۆرێکی بەرهەمێک کە لەلایەن کۆمپانیایەکەوە درووستکراوە کە زۆر ناسراو نییە"""),
+                            """٤. (ناو) جۆرێکی بەرھەمێک کە لەلایەن کۆمپانیایەکەوە درووستکراوە کە زۆر ناسراو نییە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Generics are usually less expensive than the original brand.""",
                       kurdishText:
-                          """دەستکردەکان زۆرجار کەمتر گران‌بەهان وەک لە براندە ڕەسەنەکان.""",
+                          """دەستکردەکان زۆرجار کەمتر گران‌بەھان وەک لە براندە ڕەسەنەکان.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

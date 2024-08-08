@@ -162,12 +162,12 @@ ${englishMeaningConst.text}
 // With short examples define "gesticulate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) بەکارهێنانی دەست و باڵت بۆ ئەوەی سەرنجی کەسێک ڕابکێشیت یان کەسێک تێبگەیەنیت لەوەی دەیڵێیت"""),
+                            """١. (کردار) بەکارھێنانی دەست و باڵت بۆ ئەوەی سەرنجی کەسێک ڕابکێشیت یان کەسێک تێبگەیەنیت لەوەی دەیڵێیت"""),
                     SentencesRow(
                       englishText:
                           """She was shouting and gesticulating from the other side of the road.""",
                       kurdishText:
-                          """لا لایەکەی دیکەی ڕێگاکەوە هاواری دەکرد و دەستی ڕادەوەشاند.""",
+                          """لا لایەکەی دیکەی ڕێگاکەوە ھاواری دەکرد و دەستی ڕادەوەشاند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

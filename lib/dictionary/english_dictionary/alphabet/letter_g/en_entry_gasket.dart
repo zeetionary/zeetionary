@@ -170,7 +170,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """He blew a gasket at the news (= became very angry).""",
-                      kurdishText: """تووڕە بوو بە هەواڵەکە.""",
+                      kurdishText: """تووڕە بوو بە ھەواڵەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

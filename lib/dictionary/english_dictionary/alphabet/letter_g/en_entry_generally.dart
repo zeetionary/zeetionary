@@ -260,7 +260,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: as a rule"),
                     SentencesRow(
                       englishText: """I generally get up at six.""",
-                      kurdishText: """زۆرجار لە شەش هەڵدەستم لە خەو.""",
+                      kurdishText: """زۆرجار لە شەش ھەڵدەستم لە خەو.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -269,7 +269,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """These systems generally use solar power.""",
                       kurdishText:
-                          """ئەم سیستەمانە زۆرجار وزەی خۆر بەکاردەهێنن.""",
+                          """ئەم سیستەمانە زۆرجار وزەی خۆر بەکاردەھێنن.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Let's talk just about investment generally.""",
                       kurdishText:
-                          """با تەنها باس لە وەبەرهێنان بە گشتی بکەین.""",
+                          """با تەنھا باس لە وەبەرھێنان بە گشتی بکەین.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),

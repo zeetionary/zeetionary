@@ -156,7 +156,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The hospital has a dedicated geriatrics department.""",
                       kurdishText:
-                          """نەخۆشخانە بەشێکی تەرخانراو بە بەشی چاودێری بەساڵاچووان هەیە.""",
+                          """نەخۆشخانە بەشێکی تەرخانراو بە بەشی چاودێری بەساڵاچووان ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

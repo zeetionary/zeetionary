@@ -152,13 +152,13 @@ ${englishMeaningConst.text}
 // With short examples define "gatecrash", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) چوونە ئاهەنگێک کە بانگهێشت نەکراوی بۆی"""),
+                            """١. (کردار) چوونە ئاھەنگێک کە بانگھێشت نەکراوی بۆی"""),
                     SentencesRow(
                       englishText: """He decided to gatecrash the wedding.""",
                       kurdishText:
-                          """بڕیاریدا سەرسەرەکی بچێتە ئاهەنگی هاوسەرگیرییەکە.""",
+                          """بڕیاریدا سەرسەرەکی بچێتە ئاھەنگی ھاوسەرگیرییەکە.""",
                       kurdishNote:
-                          """یان: بڕیاری دا بەبێ بانگهێشت بچێتە ئاهەنگی زەماوەندەکە.""",
+                          """یان: بڕیاری دا بەبێ بانگھێشت بچێتە ئاھەنگی زەماوەندەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

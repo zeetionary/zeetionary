@@ -153,7 +153,7 @@ ${englishMeaningConst.text}
 // With short examples define "ghostwriter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەسێک کە کتێبێک، هتد دەنووسێت بۆ کەسێکی دیکە کە دواتر بە ناوی خۆیەوە بڵاوی دەکاتەوە"""),
+                            """١. (ناو) کەسێک کە کتێبێک، ھتد دەنووسێت بۆ کەسێکی دیکە کە دواتر بە ناوی خۆیەوە بڵاوی دەکاتەوە"""),
                     SentencesRow(
                       englishText:
                           """The novel was largely written by an unacknowledged ghostwriter.""",

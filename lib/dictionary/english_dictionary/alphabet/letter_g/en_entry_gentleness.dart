@@ -176,32 +176,32 @@ ${englishMeaningConst.text}
 کوردی: دڵسۆزی، دڵنەرمی،	پیاوەتی، جوامێری، مەردایەتی،	نەرمی، لەسەرەخۆیی، نیانی،	مام‌ناوەندی، سازگاری
 """),
                     const DefinitionKurdish(
-                        text: """١. (ناو) لەسەرەخۆیی و میهرەبانی"""),
+                        text: """١. (ناو) لەسەرەخۆیی و میھرەبانی"""),
                     SentencesRow(
                       englishText:
                           """She will be remembered for her kindness and gentleness.""",
                       kurdishText:
-                          """بۆ میهرەبانیی و لەسەرخۆیی بەبیردەهێندرێتەوە.""",
+                          """بۆ میھرەبانیی و لەسەرخۆیی بەبیردەھێندرێتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ئەوەی شتێک بە هێمنی و وریایی بکەیت"""),
+                            """٢. (ناو) ئەوەی شتێک بە ھێمنی و وریایی بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The gentleness of his touch calmed the baby.""",
                       kurdishText:
-                          """هێمنی دەستلێدانەکەی منداڵەکەی ژیر کردەوە.""",
+                          """ھێمنی دەستلێدانەکەی منداڵەکەی ژیر کردەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) ئەوەی کەش و هەوا یان پلەی گەرمی توند و بەهێز نەبێت"""),
+                            """٣. (ناو) ئەوەی کەش و ھەوا یان پلەی گەرمی توند و بەھێز نەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -219,7 +219,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I love the gentleness of the hills where these valleys nestle.""",
                       kurdishText:
-                          """حەزم بە تەختی ئەم گردانەیە کە ئەم دۆڵانەی لێهەڵکەوتووە.""",
+                          """حەزم بە تەختی ئەم گردانەیە کە ئەم دۆڵانەی لێھەڵکەوتووە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

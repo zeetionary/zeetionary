@@ -192,10 +192,10 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: پیشانگای هونەری، نیگارخانە
+کوردی: پیشانگای ھونەری، نیگارخانە
 """),
                     const DefinitionKurdish(
-                        text: """١. (ناو) پێشانگای هونەری"""),
+                        text: """١. (ناو) پێشانگای ھونەری"""),
                     SentencesRow(
                       englishText:
                           """The painting is now on display at the National Gallery in London.""",
@@ -209,7 +209,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Some of his work has been exhibited by local art galleries.""",
                       kurdishText:
-                          """هەندێک لە کارەکانی لە لایەن پێشانگا هونەرییە لۆکاڵییەکان نمایشکراون.""",
+                          """ھەندێک لە کارەکانی لە لایەن پێشانگا ھونەرییە لۆکاڵییەکان نمایشکراون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -227,12 +227,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) فرۆشگایەکی تایبەتی بچووک کە دەتوانیت لێی کاری هونەری بکڕیت"""),
+                            """٣. (ناو) فرۆشگایەکی تایبەتی بچووک کە دەتوانیت لێی کاری ھونەری بکڕیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I bought it last year at the gallery.""",
                       kurdishText:
-                          """ساڵی ڕابردوو لە فرۆشگا هونەرییەکە کڕیم.""",
+                          """ساڵی ڕابردوو لە فرۆشگا ھونەرییەکە کڕیم.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -245,7 +245,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The packed public gallery of the court erupted in a roar of approval.""",
                       kurdishText:
-                          """گەلەرییە پڕەکەی دادگا هاواریان لێ هەستا بە دەنگی بەرزی ڕەزامەندی.""",
+                          """گەلەرییە پڕەکەی دادگا ھاواریان لێ ھەستا بە دەنگی بەرزی ڕەزامەندی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

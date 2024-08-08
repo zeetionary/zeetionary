@@ -158,7 +158,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """It is normal to invite representatives of all political parties to the garden party.""",
                       kurdishText:
-                          """ئاساییە نوێنەری هەموو پارتە سیاسییەکان ناگهێشت بکەیت بۆ میوانی ناو باخ.""",
+                          """ئاساییە نوێنەری ھەموو پارتە سیاسییەکان ناگھێشت بکەیت بۆ میوانی ناو باخ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

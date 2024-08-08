@@ -1018,7 +1018,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I doubt if he'll listen to advice from me, but I'll give it a go.""");
+    await flutterTts.speak(
+        """I doubt if he'll listen to advice from me, but I'll give it a go.""");
   }
 
   Future<void> speaksentence117(String languageCode) async {
@@ -1088,7 +1089,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هێزی ڕۆیشتن، جم‌وجۆڵ، گورجی، وزە، هەڵسووڕان، چالاکی، بەگوڕی، بەگوژمی، وزە، گوژم، تەوژم، تین‌وگوڕ، تامەزرۆیی،	ڕووداو، بوویەر، قەومین،	حەول، تێکۆشان، بزاڤ،	نۆبە، نۆرە، جار، کەشە، چین،	(پزشکی) لێهاتن، گرتن،	مۆد یان باوی ڕۆژ، بابەتی ڕۆژ
+کوردی: ھێزی ڕۆیشتن، جم‌وجۆڵ، گورجی، وزە، ھەڵسووڕان، چالاکی، بەگوڕی، بەگوژمی، وزە، گوژم، تەوژم، تین‌وگوڕ، تامەزرۆیی،	ڕووداو، بوویەر، قەومین،	حەول، تێکۆشان، بزاڤ،	نۆبە، نۆرە، جار، کەشە، چین،	(پزشکی) لێھاتن، گرتن،	مۆد یان باوی ڕۆژ، بابەتی ڕۆژ
 """),
 // With short examples define "go", please follow LX instructions
                     const DefinitionKurdish(
@@ -1141,7 +1142,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """She has gone to see her sister this weekend.""",
                               kurdishText:
-                                  """ئەم کۆتایی هەفتەیە چووە بۆ بینینی خوشکەکەی.""",
+                                  """ئەم کۆتایی ھەفتەیە چووە بۆ بینینی خوشکەکەی.""",
                               onPressedBritish: () => speaksentence6("en-GB"),
                               onPressedAmerican: () => speaksentence6("en-US"),
                             ),
@@ -1155,7 +1156,7 @@ ${englishMeaningConst.text}
                             const DividerSentences(),
                             SentencesRow(
                               englishText: """Go and get me a drink!""",
-                              kurdishText: """بچۆ و خواردنەوەیەکم بۆ بهێنە!""",
+                              kurdishText: """بچۆ و خواردنەوەیەکم بۆ بھێنە!""",
                               onPressedBritish: () => speaksentence8("en-GB"),
                               onPressedAmerican: () => speaksentence8("en-US"),
                             ),
@@ -1171,7 +1172,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Could you go and get me a towel?""",
                               kurdishText:
-                                  """دەتوانیت بچیت خاولییەکم بۆ بهێنیت؟""",
+                                  """دەتوانیت بچیت خاولییەکم بۆ بھێنیت؟""",
                               onPressedBritish: () => speaksentence10("en-GB"),
                               onPressedAmerican: () => speaksentence10("en-US"),
                             ),
@@ -1201,7 +1202,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Are you going to Dave's party?""",
-                      kurdishText: """دەچیتە ئاهەنگەکەی دەیڤ؟""",
+                      kurdishText: """دەچیتە ئاھەنگەکەی دەیڤ؟""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -1220,7 +1221,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """His dog goes everywhere with him.""",
                               kurdishText:
-                                  """سەگەکەی بۆ هەموو شوێنێک لەگەڵی دەچێت.""",
+                                  """سەگەکەی بۆ ھەموو شوێنێک لەگەڵی دەچێت.""",
                               onPressedBritish: () => speaksentence15("en-GB"),
                               onPressedAmerican: () => speaksentence15("en-US"),
                             ),
@@ -1229,7 +1230,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """He invited her to go with him to the concert.""",
                               kurdishText:
-                                  """بانگهێشتی کرد بۆ ئەوەی لەگەڵی بچێتە کۆنسێرت.""",
+                                  """بانگھێشتی کرد بۆ ئەوەی لەگەڵی بچێتە کۆنسێرت.""",
                               onPressedBritish: () => speaksentence16("en-GB"),
                               onPressedAmerican: () => speaksentence16("en-US"),
                             ),
@@ -1274,7 +1275,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText:
                                   """Slow down—you're going too fast.""",
-                              kurdishText: """هێواش بەرەوە ـ زۆر خێرا دەچیت.""",
+                              kurdishText: """ھێواش بەرەوە ـ زۆر خێرا دەچیت.""",
                               onPressedBritish: () => speaksentence20("en-GB"),
                               onPressedAmerican: () => speaksentence20("en-US"),
                             ),
@@ -1283,7 +1284,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """We had gone many miles without seeing another car.""",
                               kurdishText:
-                                  """چەندین میل چووبووین بە بێ بینینی هیچ ئۆتۆمبێلێکی دیکە.""",
+                                  """چەندین میل چووبووین بە بێ بینینی ھیچ ئۆتۆمبێلێکی دیکە.""",
                               onPressedBritish: () => speaksentence21("en-GB"),
                               onPressedAmerican: () => speaksentence21("en-US"),
                             ),
@@ -1331,7 +1332,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """I tripped and went tumbling down the stairs.""",
                               kurdishText:
-                                  """پێم هەڵکەوت و بە پلەکانەکاندا کەوتمە خوارەوە.""",
+                                  """پێم ھەڵکەوت و بە پلەکانەکاندا کەوتمە خوارەوە.""",
                               onPressedBritish: () => speaksentence25("en-GB"),
                               onPressedAmerican: () => speaksentence25("en-US"),
                             ),
@@ -1342,7 +1343,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (کردار) جێهێشتنی شوێنێک بۆ گەشتن بە یەکێکی دیکە"""),
+                            """٥. (کردار) جێھێشتنی شوێنێک بۆ گەشتن بە یەکێکی دیکە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: depart"),
                     SentencesRow(
                       englishText: """I must be going now.""",
@@ -1357,7 +1358,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText:
                                   """They came at six and went at nine.""",
-                              kurdishText: """لە شەش هاتن و لە نۆ چوون.""",
+                              kurdishText: """لە شەش ھاتن و لە نۆ چوون.""",
                               onPressedBritish: () => speaksentence27("en-GB"),
                               onPressedAmerican: () => speaksentence27("en-US"),
                             ),
@@ -1424,12 +1425,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٦. (کردار) جێهێشتنی شوێنێک و کردنی شتێکی جیاوازتر"""),
+                            """٦. (کردار) جێھێشتنی شوێنێک و کردنی شتێکی جیاوازتر"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Richard has gone on leave for two weeks.""",
-                      kurdishText: """ڕیچارد بۆ دوو هەفتە پشووی وەرگرتووە.""",
+                      kurdishText: """ڕیچارد بۆ دوو ھەفتە پشووی وەرگرتووە.""",
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
@@ -1485,7 +1486,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText:
                                   """I always go to the gym before work.""",
-                              kurdishText: """هەمیشە پێش کار دەچمە جیم.""",
+                              kurdishText: """ھەمیشە پێش کار دەچمە جیم.""",
                               onPressedBritish: () => speaksentence41("en-GB"),
                               onPressedAmerican: () => speaksentence41("en-US"),
                             ),
@@ -1501,7 +1502,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """She went on Facebook and removed her as a friend.""",
-                      kurdishText: """چووە سەر فەیسبووک و وەک هاوڕێ سڕییەوە.""",
+                      kurdishText: """چووە سەر فەیسبووک و وەک ھاوڕێ سڕییەوە.""",
                       onPressedBritish: () => speaksentence42("en-GB"),
                       onPressedAmerican: () => speaksentence42("en-US"),
                     ),
@@ -1510,14 +1511,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """To find out what the terms mean, go to the glossary.""",
                       kurdishText:
-                          """بۆ زانینی ئەوەی وشەکان واتایان چییە، بچۆ سەر فەرهەنگۆکە.""",
+                          """بۆ زانینی ئەوەی وشەکان واتایان چییە، بچۆ سەر فەرھەنگۆکە.""",
                       onPressedBritish: () => speaksentence43("en-GB"),
                       onPressedAmerican: () => speaksentence43("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٩. (کردار) جێهێشتنی شوێنێک یان چوونە شوێنێک بۆ بەژداری لە چالاکییەک یان وەرزشێک"""),
+                            """٩. (کردار) جێھێشتنی شوێنێک یان چوونە شوێنێک بۆ بەژداری لە چالاکییەک یان وەرزشێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1547,7 +1548,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I want this memo to go to all managers.""",
                       kurdishText:
-                          """دەمەوێت ئەم میمۆیە بنێردرێت بۆ هەموو بەڕێوەبەران.""",
+                          """دەمەوێت ئەم میمۆیە بنێردرێت بۆ ھەموو بەڕێوەبەران.""",
                       onPressedBritish: () => speaksentence47("en-GB"),
                       onPressedAmerican: () => speaksentence47("en-US"),
                     ),
@@ -1576,7 +1577,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: disappear"),
                     SentencesRow(
                       englishText: """Has your headache gone yet?""",
-                      kurdishText: """سەرێشەکەت هێشتا ماوە؟""",
+                      kurdishText: """سەرێشەکەت ھێشتا ماوە؟""",
                       onPressedBritish: () => speaksentence50("en-GB"),
                       onPressedAmerican: () => speaksentence50("en-US"),
                     ),
@@ -1632,7 +1633,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """This dictionary goes on the top shelf.""",
-                      kurdishText: """فەرهەنگەکە هی ڕەفەی سەرەوەیە.""",
+                      kurdishText: """فەرھەنگەکە ھی ڕەفەی سەرەوەیە.""",
                       onPressedBritish: () => speaksentence55("en-GB"),
                       onPressedAmerican: () => speaksentence55("en-US"),
                     ),
@@ -1653,7 +1654,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """My clothes won't all go in that one suitcase.""",
                       kurdishText:
-                          """جلەکانم هەموو لەو یەک جانتایە جێگایان نابێتەوە.""",
+                          """جلەکانم ھەموو لەو یەک جانتایە جێگایان نابێتەوە.""",
                       onPressedBritish: () => speaksentence57("en-GB"),
                       onPressedAmerican: () => speaksentence57("en-US"),
                     ),
@@ -1662,7 +1663,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He tried to push his hand through the gap but it wouldn't go.""",
                       kurdishText:
-                          """هەوڵیدا دەستی بکات بە بۆشاییەکەدا بەڵام جێی نەبوویەوە.""",
+                          """ھەوڵیدا دەستی بکات بە بۆشاییەکەدا بەڵام جێی نەبوویەوە.""",
                       onPressedBritish: () => speaksentence58("en-GB"),
                       onPressedAmerican: () => speaksentence58("en-US"),
                     ),
@@ -1672,7 +1673,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Did everything go smoothly?""",
-                      kurdishText: """هەموو شت بێ کێشە تێپەڕی؟""",
+                      kurdishText: """ھەموو شت بێ کێشە تێپەڕی؟""",
                       onPressedBritish: () => speaksentence59("en-GB"),
                       onPressedAmerican: () => speaksentence59("en-US"),
                     ),
@@ -1745,7 +1746,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """They're threatening to go on strike again.""",
                               kurdishText:
-                                  """هەڕەشەی ئەوە دەکەن دووبرە مان بگرن.""",
+                                  """ھەڕەشەی ئەوە دەکەن دووبرە مان بگرن.""",
                               onPressedBritish: () => speaksentence66("en-GB"),
                               onPressedAmerican: () => speaksentence66("en-US"),
                             ),
@@ -1802,7 +1803,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """I can't believe I'm going bald—I'm only thirty!""",
                               kurdishText:
-                                  """ناتوانم باوەڕ بەوە بکەم کەچەڵ دەبم ـ تەنها سی ساڵم.""",
+                                  """ناتوانم باوەڕ بەوە بکەم کەچەڵ دەبم ـ تەنھا سی ساڵم.""",
                               onPressedBritish: () => speaksentence72("en-GB"),
                               onPressedAmerican: () => speaksentence72("en-US"),
                             ),
@@ -1827,7 +1828,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He prefers to go naked at home when alone.""",
                       kurdishText:
-                          """کە لە ماڵەوە تەنهایە پێی خۆشترە کە ڕووت بێت.""",
+                          """کە لە ماڵەوە تەنھایە پێی خۆشترە کە ڕووت بێت.""",
                       onPressedBritish: () => speaksentence74("en-GB"),
                       onPressedAmerican: () => speaksentence74("en-US"),
                     ),
@@ -1840,14 +1841,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """They went for two weeks without receiving any news.""",
                       kurdishText:
-                          """دوو هەفتەیان تێپەڕاند بە بێ وەرگرتنی هیچ هەواڵێک.""",
+                          """دوو ھەفتەیان تێپەڕاند بە بێ وەرگرتنی ھیچ ھەواڵێک.""",
                       onPressedBritish: () => speaksentence75("en-GB"),
                       onPressedAmerican: () => speaksentence75("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢١. (کردار) ئەوەی شتێک ببیندرێت، باس بکرێت، هتد"""),
+                            """٢١. (کردار) ئەوەی شتێک ببیندرێت، باس بکرێت، ھتد"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Pippa's absence went unnoticed.""",
@@ -1864,7 +1865,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Police are worried that many crimes go unreported.""",
                               kurdishText:
-                                  """پۆلیس نیگەرانن کە زۆر تاوان بە بێ هەواڵ لێدان تێدەپەڕێت.""",
+                                  """پۆلیس نیگەرانن کە زۆر تاوان بە بێ ھەواڵ لێدان تێدەپەڕێت.""",
                               onPressedBritish: () => speaksentence77("en-GB"),
                               onPressedAmerican: () => speaksentence77("en-US"),
                             ),
@@ -1914,11 +1915,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢٤. (کردار) ئەوەی ژمارەیەک بە ڕێژەیەکی تەواو لە ژمارەیەکی دیکەدا هەبێت"""),
+                            """٢٤. (کردار) ئەوەی ژمارەیەک بە ڕێژەیەکی تەواو لە ژمارەیەکی دیکەدا ھەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """3 into 12 goes 4 times.""",
-                      kurdishText: """٤ جار ٣ هەیە لە ١٢ ــدا.""",
+                      kurdishText: """٤ جار ٣ ھەیە لە ١٢ ــدا.""",
                       onPressedBritish: () => speaksentence82("en-GB"),
                       onPressedAmerican: () => speaksentence82("en-US"),
                     ),
@@ -1968,7 +1969,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢٦. (کردار) بۆ گوتنی ئەوەی گۆرانییەک یان هۆنراوەیەک چی وشەیەک یان تیونێکی تێدایە، یان ئەوەی چی ڕوودەدات لە چیرۆکێک"""),
+                            """٢٦. (کردار) بۆ گوتنی ئەوەی گۆرانییەک یان ھۆنراوەیەک چی وشەیەک یان تیونێکی تێدایە، یان ئەوەی چی ڕوودەدات لە چیرۆکێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """How does that song go?""",
@@ -1992,7 +1993,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """The story goes that she's been married five times.""",
                               kurdishText:
-                                  """چیرۆکەکە بەو شێوەیە کە پێنج جار هاوسەرگیری کردووە.""",
+                                  """چیرۆکەکە بەو شێوەیە کە پێنج جار ھاوسەرگیری کردووە.""",
                               onPressedBritish: () => speaksentence89("en-GB"),
                               onPressedAmerican: () => speaksentence89("en-US"),
                             ),
@@ -2145,7 +2146,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We won't let the house go for less than £200 000.""",
                       kurdishText:
-                          """ناهێڵین خانووەکە بە کەمتر لە ٢٠٠٠٠٠ پاوەند بدرێت.""",
+                          """ناھێڵین خانووەکە بە کەمتر لە ٢٠٠٠٠٠ پاوەند بدرێت.""",
                       onPressedBritish: () => speaksentence104("en-GB"),
                       onPressedAmerican: () => speaksentence104("en-US"),
                     ),
@@ -2154,7 +2155,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There was usually some bread going cheap (= being sold cheaply) at the end of the day.""",
                       kurdishText:
-                          """زۆرجار هەندێک نان لە کۆتایی ڕۆژەکە بە هەرزان دەفرۆشرا.""",
+                          """زۆرجار ھەندێک نان لە کۆتایی ڕۆژەکە بە ھەرزان دەفرۆشرا.""",
                       onPressedBritish: () => speaksentence105("en-GB"),
                       onPressedAmerican: () => speaksentence105("en-US"),
                     ),
@@ -2186,7 +2187,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """This all goes to prove my theory.""",
                       kurdishText:
-                          """ئەمە هەموو یارمەتیدەری بیردۆزەکەم دەبێت.""",
+                          """ئەمە ھەموو یارمەتیدەری بیردۆزەکەم دەبێت.""",
                       onPressedBritish: () => speaksentence108("en-GB"),
                       onPressedAmerican: () => speaksentence108("en-US"),
                     ),
@@ -2195,7 +2196,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """It (= what has just happened) just goes to show you can't always tell how people are going to react.""",
                       kurdishText:
-                          """ئەوە تەنها ئەوە پیشان دەدات کە ناتوانیت پێشبینی ئەوە بکەیت کە خەڵکی چۆن وەڵام دەدەنەوە.""",
+                          """ئەوە تەنھا ئەوە پیشان دەدات کە ناتوانیت پێشبینی ئەوە بکەیت کە خەڵکی چۆن وەڵام دەدەنەوە.""",
                       onPressedBritish: () => speaksentence109("en-GB"),
                       onPressedAmerican: () => speaksentence109("en-US"),
                     ),
@@ -2206,7 +2207,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """There just aren't any jobs going in this area.""",
-                      kurdishText: """هیچ کارێک لەم ناوچەیە نییە.""",
+                      kurdishText: """ھیچ کارێک لەم ناوچەیە نییە.""",
                       onPressedBritish: () => speaksentence110("en-GB"),
                       onPressedAmerican: () => speaksentence110("en-US"),
                     ),
@@ -2247,7 +2248,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٤٠. (ناو) هەوڵدانی کردنی شتێک"""),
+                        text: """٤٠. (ناو) ھەوڵدانی کردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """It took three goes to get it right.""",
@@ -2258,17 +2259,20 @@ ${englishMeaningConst.text}
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I doubt if he'll listen to advice from me, but I'll give it a go (= I'll try but I don't think I will succeed).""",
-                      kurdishText: """گومانم هەیە گوێ لە ئامۆژگاریم بگرێت بەڵام هەوڵێک دەدەم.""",
+                      englishText:
+                          """I doubt if he'll listen to advice from me, but I'll give it a go (= I'll try but I don't think I will succeed).""",
+                      kurdishText:
+                          """گومانم ھەیە گوێ لە ئامۆژگاریم بگرێت بەڵام ھەوڵێک دەدەم.""",
                       onPressedBritish: () => speaksentence116("en-GB"),
                       onPressedAmerican: () => speaksentence116("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤١. (ناو) وزە و تامەزرۆیی"""),
+                    const DefinitionKurdish(
+                        text: """٤١. (ناو) وزە و تامەزرۆیی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Mary's always got plenty of go.""",
-                      kurdishText: """ماری هەمیشە تامەزرۆیی زۆری هەیە.""",
+                      kurdishText: """ماری ھەمیشە تامەزرۆیی زۆری ھەیە.""",
                       onPressedBritish: () => speaksentence117("en-GB"),
                       onPressedAmerican: () => speaksentence117("en-US"),
                     ),

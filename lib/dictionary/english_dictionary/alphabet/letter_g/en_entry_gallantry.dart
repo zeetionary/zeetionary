@@ -182,7 +182,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I'd like to think that gallantry isn't dead.""",
                       kurdishText:
-                          """حەز دەکەم باوەڕ بەوە بێنم کە جوامێری هێشتا ماوە.""",
+                          """حەز دەکەم باوەڕ بەوە بێنم کە جوامێری ھێشتا ماوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

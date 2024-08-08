@@ -161,7 +161,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەو بەشەی بیرکاری کە گرنگی دەدات بە پێوان پەیوەندیی هێڵەکان، گۆشەکان، ڕووەکان، و شێوە فرە ڕەهەندییەکان"""),
+                            """١. (ناو) ئەو بەشەی بیرکاری کە گرنگی دەدات بە پێوان پەیوەندیی ھێڵەکان، گۆشەکان، ڕووەکان، و شێوە فرە ڕەھەندییەکان"""),
                     SentencesRow(
                       englishText:
                           """Understanding the laws of geometry is essential for architecture.""",
@@ -173,7 +173,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) پێوان پەیوەندیی هێڵەکان، گۆشەکان، هتد لە شێوە یان شتێکی دیاریکراودا"""),
+                            """٢. (ناو) پێوان پەیوەندیی ھێڵەکان، گۆشەکان، ھتد لە شێوە یان شتێکی دیاریکراودا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

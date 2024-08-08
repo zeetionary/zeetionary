@@ -166,7 +166,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The police are trying to stop all illegal gambling.""",
                       kurdishText:
-                          """پۆلیس هەوڵ دەدەن هەموو قومارێکی نایاسایی بوەستێنن.""",
+                          """پۆلیس ھەوڵ دەدەن ھەموو قومارێکی نایاسایی بوەستێنن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -155,7 +155,7 @@ ${englishMeaningConst.text}
 // With short examples define "gazette", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕۆژنامەی دامەزراوەیەک کە زانیاری گرنگ کەخۆدەگرێت لەسەر ئەو بڕیارانەی کە دراون، یان ئەو کەسانەی کە بە کرێ گیردراون؛ هەندێک ڕۆژنامە لە ناوەکانیان بەکاری دەهێنن"""),
+                            """١. (ناو) ڕۆژنامەی دامەزراوەیەک کە زانیاری گرنگ کەخۆدەگرێت لەسەر ئەو بڕیارانەی کە دراون، یان ئەو کەسانەی کە بە کرێ گیردراون؛ ھەندێک ڕۆژنامە لە ناوەکانیان بەکاری دەھێنن"""),
                     SentencesRow(
                       englishText:
                           """The institute publishes a gazette twice a year.""",

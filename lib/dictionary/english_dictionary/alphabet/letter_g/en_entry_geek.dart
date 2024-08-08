@@ -169,7 +169,7 @@ Usage: informal
 // With short examples define "geek", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەسێک کە زیرەکە، بەڵام بێزارکەرە، ئەو جلانە لەبەر دەکات کە باو نین، و نازانێت لە دۆخی کۆمەڵایەتیدا ڕەفتار بکات، هتد"""),
+                            """١. (ناو) کەسێک کە زیرەکە، بەڵام بێزارکەرە، ئەو جلانە لەبەر دەکات کە باو نین، و نازانێت لە دۆخی کۆمەڵایەتیدا ڕەفتار بکات، ھتد"""),
                     const AlsoEnglishckb(word: "ھەروەھا: nerd"),
                     SentencesRow(
                       englishText: """He's such a geek.""",
@@ -186,7 +186,7 @@ Usage: informal
                       englishText:
                           """He is a computer geek who loves coding and programming.""",
                       kurdishText:
-                          """شارەزاییەکی کۆمپیوتەرە کە حەزی بە کۆدنووسین و پڕۆگرامسازی هەیە.""",
+                          """شارەزاییەکی کۆمپیوتەرە کە حەزی بە کۆدنووسین و پڕۆگرامسازی ھەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

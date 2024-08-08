@@ -152,7 +152,7 @@ ${englishMeaningConst.text}
 // With short examples define "gallows", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) چوارچێوەیەک کە لەسەر خەڵکی دەکوژرێن بە هەڵواسین"""),
+                            """١. (ناو) چوارچێوەیەک کە لەسەر خەڵکی دەکوژرێن بە ھەڵواسین"""),
                     SentencesRow(
                       englishText:
                           """New witnesses have cast doubt on some of the evidence that sent the 19-year-old to the gallows.""",

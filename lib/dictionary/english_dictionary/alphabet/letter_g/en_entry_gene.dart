@@ -170,7 +170,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: نژادە، بۆهێڵ، ژێن
+کوردی: نژادە، بۆھێڵ، ژێن
 """),
 // With short examples define "gene", please follow LX instructions
                     const DefinitionKurdish(
@@ -188,7 +188,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Gene mutations are alterations in the DNA code.""",
                       kurdishText:
-                          """گۆڕانی بۆهێڵ گۆڕانە لە کۆدی دی‌ئێن‌ئەی.""",
+                          """گۆڕانی بۆھێڵ گۆڕانە لە کۆدی دی‌ئێن‌ئەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -196,7 +196,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The gene is passed on to their children.""",
-                      kurdishText: """بۆهێڵەکە دەگوازرێتەوە منداڵەکانیان.""",
+                      kurdishText: """بۆھێڵەکە دەگوازرێتەوە منداڵەکانیان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -205,7 +205,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We may be able to identify the genes responsible for disease resistance.""",
                       kurdishText:
-                          """ڕەنگە بتوانین ئەو بۆهێڵانە بناسینەوە کە بەرپرسی پاراستنن لە نەخۆشی.""",
+                          """ڕەنگە بتوانین ئەو بۆھێڵانە بناسینەوە کە بەرپرسی پاراستنن لە نەخۆشی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

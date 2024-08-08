@@ -149,7 +149,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: مرۆڤی چەنەوەر، چەنەدەر، چەنەهەراش
+کوردی: مرۆڤی چەنەوەر، چەنەدەر، چەنەھەراش
 """),
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە زۆر قسە دەکات"""),
@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The meeting dragged on because of the gasbag.""",
                       kurdishText:
-                          """چاوپێکەوتنەکە درێژەی کێشا بەهۆی چەنەوەرەکە.""",
+                          """چاوپێکەوتنەکە درێژەی کێشا بەھۆی چەنەوەرەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

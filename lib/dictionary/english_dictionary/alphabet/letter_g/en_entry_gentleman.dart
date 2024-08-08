@@ -200,7 +200,7 @@ ${englishMeaningConst.text}
 // With short examples define "gentleman", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) پیاوێکی بەڕێز و ڕۆشنبیر کە هەمیشە هەڵسوکەوتی زۆر باشە"""),
+                            """١. (ناو) پیاوێکی بەڕێز و ڕۆشنبیر کە ھەمیشە ھەڵسوکەوتی زۆر باشە"""),
                     SentencesRow(
                       englishText: """You acted like a true gentleman.""",
                       kurdishText: """وەک جوامێرێکی تەواو مامەڵەت کرد.""",
@@ -210,14 +210,14 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He was always the perfect gentleman.""",
-                      kurdishText: """هەمیشە باشترین جوامێر بووە.""",
+                      kurdishText: """ھەمیشە باشترین جوامێر بووە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He's no gentleman!""",
-                      kurdishText: """هیچ بەڕێز نییە!""",
+                      kurdishText: """ھیچ بەڕێز نییە!""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

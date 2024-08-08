@@ -154,7 +154,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """She tried gamely to finish the race.""",
                       kurdishText:
-                          """بوێرانە هەوڵی دا پێشبڕکێیەکە تەواو بکات.""",
+                          """بوێرانە ھەوڵی دا پێشبڕکێیەکە تەواو بکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

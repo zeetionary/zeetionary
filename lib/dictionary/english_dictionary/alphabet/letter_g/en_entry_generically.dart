@@ -166,7 +166,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە تەواوی گرووپێک لە شت هەیەتی یان پەیوەندیدارن پێوەی؛ بە شێوەیەک کە تایبەت نییە و گشتییە"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە تەواوی گرووپێک لە شت ھەیەتی یان پەیوەندیدارن پێوەی؛ بە شێوەیەک کە تایبەت نییە و گشتییە"""),
                     SentencesRow(
                       englishText:
                           """She described it generically, without details.""",

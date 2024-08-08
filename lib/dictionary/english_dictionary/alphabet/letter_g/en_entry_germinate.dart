@@ -180,7 +180,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The seeds will only germinate if the temperature is warm enough.""",
                       kurdishText:
-                          """تۆوەکان چەکەرە دەکەن تەنها ئەگەر پلەی گەرمی بەپێی پێویست گەرم بێت.""",
+                          """تۆوەکان چەکەرە دەکەن تەنھا ئەگەر پلەی گەرمی بەپێی پێویست گەرم بێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

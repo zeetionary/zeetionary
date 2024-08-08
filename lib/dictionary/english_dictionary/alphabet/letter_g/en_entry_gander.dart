@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She noticed a gander protecting its nest.""",
                       kurdishText:
-                          """قازە نێرەیەکی بینی کە هێلانەکەی دەپاراست.""",
+                          """قازە نێرەیەکی بینی کە ھێلانەکەی دەپاراست.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

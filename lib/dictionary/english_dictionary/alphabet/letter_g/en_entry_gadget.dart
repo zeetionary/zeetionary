@@ -164,7 +164,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دەزگا، ئامێر، ئامراز، ئامێر یان دەزگایێکی میکانیکی، کەرەسە، هەجەت
+کوردی: دەزگا، ئامێر، ئامراز، ئامێر یان دەزگایێکی میکانیکی، کەرەسە، ھەجەت
 """),
 // With short examples define "gadget", please follow LX instructions
                     const DefinitionKurdish(
@@ -174,7 +174,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We live in a world filled with high-tech gadgets.""",
                       kurdishText:
-                          """لە جیهانێکدا دەژین کە پڕە لە ئامرازی تەکنەلۆژی بەرز.""",
+                          """لە جیھانێکدا دەژین کە پڕە لە ئامرازی تەکنەلۆژی بەرز.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -192,7 +192,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Have you seen this handy little gadget - it's for separating egg yolks from whites.""",
                       kurdishText:
-                          """ئەم ئامرازە بچووکە دەستییەت دیوە ـ بۆ جیاکردنەوەی زەردێنەی هێلکەیە لە سپێنە.""",
+                          """ئەم ئامرازە بچووکە دەستییەت دیوە ـ بۆ جیاکردنەوەی زەردێنەی ھێلکەیە لە سپێنە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

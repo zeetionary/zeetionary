@@ -183,7 +183,7 @@ ${englishMeaningConst.text}
 // With short examples define "gathering", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کۆبوونەوەی خەڵکی بۆ هۆکارێکی دیاریکراو"""),
+                            """١. (ناو) کۆبوونەوەی خەڵکی بۆ ھۆکارێکی دیاریکراو"""),
                     SentencesRow(
                       englishText:
                           """He was asked to speak at a gathering of religious leaders.""",
@@ -197,7 +197,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We're having a small family gathering to mark our wedding anniversary.""",
                       kurdishText:
-                          """کۆبوونەوەیەکی بچووکی خێزانیمان دەبێت بۆ یادکردنەوەی ساڵیادی هاوسەرگیرییەکەمان.""",
+                          """کۆبوونەوەیەکی بچووکی خێزانیمان دەبێت بۆ یادکردنەوەی ساڵیادی ھاوسەرگیرییەکەمان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -206,7 +206,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """In some cultures, women are not allowed to attend public gatherings.""",
                       kurdishText:
-                          """لە هەندێک کەلتووردا ژنان ڕێگایان پێنادرێت بەژداری کۆبوونەوەی گشتی بکەن.""",
+                          """لە ھەندێک کەلتووردا ژنان ڕێگایان پێنادرێت بەژداری کۆبوونەوەی گشتی بکەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

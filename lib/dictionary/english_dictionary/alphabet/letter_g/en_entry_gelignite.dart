@@ -151,12 +151,12 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
                     const DefinitionKurdish(
-                        text: """١. (ناو) مادەیەکی تەقەمەنیی زۆر بەهێز"""),
+                        text: """١. (ناو) مادەیەکی تەقەمەنیی زۆر بەھێز"""),
                     SentencesRow(
                       englishText:
                           """It is the easiest form of warfare to fill a car with gelignite and leave it.""",
                       kurdishText:
-                          """ئاسانترین جۆری شەڕکردن ئەوەیە ئۆتۆمبێلێک پڕ بکەیت لە جێلینایت و جێی بهێڵیت.""",
+                          """ئاسانترین جۆری شەڕکردن ئەوەیە ئۆتۆمبێلێک پڕ بکەیت لە جێلینایت و جێی بھێڵیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

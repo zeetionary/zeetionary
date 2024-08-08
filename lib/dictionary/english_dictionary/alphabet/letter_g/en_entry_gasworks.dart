@@ -147,16 +147,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گازگە، گازگا، کارگەی گاز، کارگەی بەرهەم‌هێنانی گاز
+کوردی: گازگە، گازگا، کارگەی گاز، کارگەی بەرھەم‌ھێنانی گاز
 """),
 // With short examples define "gasworks", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) کارگەی بەرهەمهێنانی گاز"""),
+                        text: """١. (ناو) کارگەی بەرھەمھێنانی گاز"""),
                     SentencesRow(
                       englishText:
                           """You have men who work in brickworks in summer and in gasworks in winter.""",
                       kurdishText:
-                          """خەڵک هەیە لە هاویندا لە کارگەی خشت کار دەکات و لە زستاندا لە کارگەی گاز.""",
+                          """خەڵک ھەیە لە ھاویندا لە کارگەی خشت کار دەکات و لە زستاندا لە کارگەی گاز.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

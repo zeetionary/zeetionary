@@ -215,7 +215,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دڵاوا، بەدەهندە، (بەر)چاوتێر، دەس‌کراوە، نانبدە، چاوتێرانە، دڵاوایانە،	لێبوردە، بەخشندە،	دڵگەورە، پیاوچاک، گەورە، جوامێر،	زۆر، زەبەن
+کوردی: دڵاوا، بەدەھندە، (بەر)چاوتێر، دەس‌کراوە، نانبدە، چاوتێرانە، دڵاوایانە،	لێبوردە، بەخشندە،	دڵگەورە، پیاوچاک، گەورە، جوامێر،	زۆر، زەبەن
 """),
 // With short examples define "generous", please follow LX instructions
                     const DefinitionKurdish(
@@ -233,7 +233,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He was generous to his friends and family.""",
                       kurdishText:
-                          """بەخشندە بوو لەگەڵ هاوڕێیان و خێزانەکەی.""",
+                          """بەخشندە بوو لەگەڵ ھاوڕێیان و خێزانەکەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -242,7 +242,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She was generous in her praise for her co-stars.""",
                       kurdishText:
-                          """بەخشندە بوو لە ستایشی هاو نمایشکارەکانی.""",
+                          """بەخشندە بوو لە ستایشی ھاو نمایشکارەکانی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -268,7 +268,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """It was extremely generous of him to offer to pay for us both.""",
                       kurdishText:
-                          """تەواو لە بەخشندەیی بوو کە پێشنیاری کرد پارەی هردوومان بدات.""",
+                          """تەواو لە بەخشندەیی بوو کە پێشنیاری کرد پارەی ھردوومان بدات.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -279,7 +279,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The car has a generous amount of space.""",
-                      kurdishText: """ئۆۆتمبێلەکە ڕێژەیەکی زۆر جێگای هەیە.""",
+                      kurdishText: """ئۆۆتمبێلەکە ڕێژەیەکی زۆر جێگای ھەیە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -292,7 +292,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He wrote a very generous assessment of my work.""",
                       kurdishText:
-                          """زۆر هەڵسەنگاندنێکی بەخشندانەی کارەکەمی نووسی.""",
+                          """زۆر ھەڵسەنگاندنێکی بەخشندانەی کارەکەمی نووسی.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Her generous spirit shone through in everything she did.""",
                       kurdishText:
-                          """گیانی بەخشندەیی دەدرەوشایەوە لە هەر شتێکدا کە دەیکرد.""",
+                          """گیانی بەخشندەیی دەدرەوشایەوە لە ھەر شتێکدا کە دەیکرد.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),

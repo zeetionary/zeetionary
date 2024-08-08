@@ -164,7 +164,7 @@ ${englishMeaningConst.text}
 // With short examples define "Gaelic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) زمانیکی کێڵتیکی کە لە هەندێک ناوچەی ڕۆژئاوای سکۆتلەندا قسەی پێ دەکریت و زمانێکی فەرمی سکۆتلەندایە"""),
+                            """١. (ناو) زمانیکی کێڵتیکی کە لە ھەندێک ناوچەی ڕۆژئاوای سکۆتلەندا قسەی پێ دەکریت و زمانێکی فەرمی سکۆتلەندایە"""),
                     SentencesRow(
                       englishText:
                           """The decline of Scots Gaelic will inevitably continue for a while.""",
@@ -176,13 +176,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) زمانێکی کێڵتیکی کە لەلایەن هەندێک خەڵکەوە لە ئێرلەندا قسەی پێ دەکرێت و زمانێکی فەرمی کۆماری ئێرلەندایە کە تێیدا لە هەموو قوتابخانەکان دەگوترێتەوە"""),
+                            """٢. (ناو) زمانێکی کێڵتیکی کە لەلایەن ھەندێک خەڵکەوە لە ئێرلەندا قسەی پێ دەکرێت و زمانێکی فەرمی کۆماری ئێرلەندایە کە تێیدا لە ھەموو قوتابخانەکان دەگوترێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They all spoke Gaelic down in the west.""",
                       kurdishText:
-                          """هەموویان لە ڕۆژئاوا بە گالیکی سە دەکەن.""",
+                          """ھەموویان لە ڕۆژئاوا بە گالیکی سە دەکەن.""",
                       englishNote:
                           """This means that in the western region, everyone communicated using the Gaelic language. "Down" adds a sense of direction or location, implying that the west is either geographically lower or perceived as being in a lower position on a map.""",
                       onPressedBritish: () => speaksentence2("en-GB"),

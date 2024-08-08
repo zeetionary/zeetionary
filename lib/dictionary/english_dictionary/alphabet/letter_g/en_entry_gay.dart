@@ -194,12 +194,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هاوڕەگەزخواز،	شاد، سەرخۆش، خۆشحاڵ، بەگوڕ، بەکەیف، ڕووبەپێکەنین، بەدەماخ،	بێ‌فکر، بێ‌خەیاڵ، بێ‌خەم، بەفشەگرتوو،	زریقەوبریقە، بەئاڵاواڵا، زەڕقی
+کوردی: ھاوڕەگەزخواز،	شاد، سەرخۆش، خۆشحاڵ، بەگوڕ، بەکەیف، ڕووبەپێکەنین، بەدەماخ،	بێ‌فکر، بێ‌خەیاڵ، بێ‌خەم، بەفشەگرتوو،	زریقەوبریقە، بەئاڵاواڵا، زەڕقی
 """),
 // With short examples define "gay", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کەسێک، بە تایبەتی پیاوێک، کە حەزی کەسانی هەمان ڕەگەزی خۆی هەیە"""),
+                            """١. (ھاوەڵناو) کەسێک، بە تایبەتی پیاوێک، کە حەزی کەسانی ھەمان ڕەگەزی خۆی ھەیە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: homosexual"),
                     SentencesRow(
                       englishText: """I didn't know he was gay.""",
@@ -210,7 +210,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He is openly gay.""",
-                      kurdishText: """بە ئاشکرایی هاوڕەگەزخوازە.""",
+                      kurdishText: """بە ئاشکرایی ھاوڕەگەزخوازە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -231,7 +231,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She felt lighthearted and gay.""",
-                      kurdishText: """کاتێکی بێ‌کێشە و دڵخۆشانەمان هەبوو.""",
+                      kurdishText: """کاتێکی بێ‌کێشە و دڵخۆشانەمان ھەبوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

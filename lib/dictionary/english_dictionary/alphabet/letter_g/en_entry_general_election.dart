@@ -153,12 +153,12 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "general election", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) هەڵبژاردنی نوێنەرانی پەرلەمانی"""),
+                        text: """١. (ناو) ھەڵبژاردنی نوێنەرانی پەرلەمانی"""),
                     SentencesRow(
                       englishText:
                           """If defeated, he would immediately call a general election.""",
                       kurdishText:
-                          """ئەگەر ببەزێندرێت، ڕاستەوخۆ داوای هەڵبژاردنی پەرلەمانی دەکات.""",
+                          """ئەگەر ببەزێندرێت، ڕاستەوخۆ داوای ھەڵبژاردنی پەرلەمانی دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

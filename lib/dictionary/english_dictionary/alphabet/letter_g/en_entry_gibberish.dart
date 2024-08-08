@@ -154,12 +154,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هەڵیت‌وپڵیت، قسە قۆڕ و هیچەکە، فڵتەفڵت، چەقەچەق، بڵمەبڵم
+کوردی: ھەڵیت‌وپڵیت، قسە قۆڕ و ھیچەکە، فڵتەفڵت، چەقەچەق، بڵمەبڵم
 """),
 // With short examples define "gibberish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) وشە کە هیچ واتای نییە یان ئەستەمە بۆ تێگەشتن"""),
+                            """١. (ھاوەڵناو) وشە کە ھیچ واتای نییە یان ئەستەمە بۆ تێگەشتن"""),
                     const AlsoEnglishckb(word: "ھەروەھا: nonsense"),
                     SentencesRow(
                       englishText:
@@ -173,7 +173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """After a while I stopped listening to his stream of gibberish.""",
                       kurdishText:
-                          """دوای ماوەیەک وەستام لە ئەو هەموو فڵتەفڵتەی.""",
+                          """دوای ماوەیەک وەستام لە ئەو ھەموو فڵتەفڵتەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

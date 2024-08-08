@@ -267,7 +267,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٤. (ناو) دامەزراوەیەکی زۆر گەورەی بەهێز"""),
+                        text: """٤. (ناو) دامەزراوەیەکی زۆر گەورەی بەھێز"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

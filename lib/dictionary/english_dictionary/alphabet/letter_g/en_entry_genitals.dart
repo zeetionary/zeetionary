@@ -156,7 +156,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The doctor examined her genitals for any issues.""",
                       kurdishText:
-                          """پزیشکە پشکنینی بۆ ئەندامی زاوزێی کرد بۆ هەر کێشەیەک.""",
+                          """پزیشکە پشکنینی بۆ ئەندامی زاوزێی کرد بۆ ھەر کێشەیەک.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

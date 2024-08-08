@@ -175,7 +175,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There are some genuinely funny moments in the film.""",
                       kurdishText:
-                          """هەندێک ساتی بەڕاستی پێکەنیناوی لە فیلمەکە هەیە.""",
+                          """ھەندێک ساتی بەڕاستی پێکەنیناوی لە فیلمەکە ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -184,7 +184,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The election result was genuinely democratic.""",
                       kurdishText:
-                          """ئەنجامی هەڵبژاردنەکە بە ڕاستی دیموکراسییانە بوو.""",
+                          """ئەنجامی ھەڵبژاردنەکە بە ڕاستی دیموکراسییانە بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

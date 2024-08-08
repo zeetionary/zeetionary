@@ -229,18 +229,18 @@ Usage: Brit, Cdn (US: gonorrhea)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/7_ViD7qdano?t=';
-const double _startSecondsend = 000000000000000000000000000474;
-const String _videoIdone = 'https://youtu.be/-W4uWnwLVQM?t=';
-const double _startSecondsone = 0000000000000000000000000009;
-const String _videoIdtwo = 'https://youtu.be/Hb0KBGCnsHs?t=';
-const double _startSecondstwo = 000000000000000000000000000251;
-const String _videoIdthree = 'https://youtu.be/oZlYPyJuMM8?t=';
-const double _startSecondsthree = 000000000000000000000000000290;
-const String _videoIdfour = 'https://youtu.be/KHF8mB_8LUM?t=';
-const double _startSecondsfour = 000000000000000000000000000414;
-const String _videoIdfive = 'https://youtu.be/F1w80BW8sjc?t=';
-const double _startSecondsfive = 000000000000000000000000000599;
+const String _videoIdend = '7_ViD7qdano?t=';
+const double _startSecondsend = 474;
+const String _videoIdone = '-W4uWnwLVQM?t=';
+const double _startSecondsone = 9;
+const String _videoIdtwo = 'Hb0KBGCnsHs?t=';
+const double _startSecondstwo = 251;
+const String _videoIdthree = 'oZlYPyJuMM8?t=';
+const double _startSecondsthree = 290;
+const String _videoIdfour = 'KHF8mB_8LUM?t=';
+const double _startSecondsfour = 414;
+const String _videoIdfive = 'F1w80BW8sjc?t=';
+const double _startSecondsfive = 599;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

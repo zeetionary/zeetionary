@@ -353,18 +353,18 @@ Verb: gloss (Derived forms: glosses, glossed, glossing)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/9K_CZizKdVs?t=';
-const double _startSecondsend = 000000000000000000000000000758;
-const String _videoIdone = 'https://youtu.be/57htei0Xw1E?t=';
-const double _startSecondsone = 000000000000000000000000000178;
-const String _videoIdtwo = 'https://youtu.be/1Gxrwh4zGPg?t=';
-const double _startSecondstwo = 000000000000000000000000000779;
-const String _videoIdthree = 'https://youtu.be/FSHITL5oedk?t=';
-const double _startSecondsthree = 000000000000000000000000000654;
-const String _videoIdfour = 'https://youtu.be/MqyJZsGFZ3M?t=';
-const double _startSecondsfour = 0000000000000000000000000001191;
-const String _videoIdfive = 'https://youtu.be/Zb5IH57SorQ?t=';
-const double _startSecondsfive = 00000000000000000000000000052;
+const String _videoIdend = '9K_CZizKdVs?t=';
+const double _startSecondsend = 758;
+const String _videoIdone = '57htei0Xw1E?t=';
+const double _startSecondsone = 178;
+const String _videoIdtwo = '1Gxrwh4zGPg?t=';
+const double _startSecondstwo = 779;
+const String _videoIdthree = 'FSHITL5oedk?t=';
+const double _startSecondsthree = 654;
+const String _videoIdfour = 'MqyJZsGFZ3M?t=';
+const double _startSecondsfour = 1191;
+const String _videoIdfive = 'Zb5IH57SorQ?t=';
+const double _startSecondsfive = 52;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

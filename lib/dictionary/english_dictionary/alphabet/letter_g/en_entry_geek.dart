@@ -257,18 +257,18 @@ Usage: informal
   }
 }
 
-const String _videoIdend = 'https://youtu.be/eo62AEDwTKY';
+const String _videoIdend = 'eo62AEDwTKY';
 const double _startSecondsend = 0;
-const String _videoIdone = 'https://youtu.be/ShMRAN78598?t=';
-const double _startSecondsone = 000000000000000000000000000535;
-const String _videoIdtwo = 'https://youtu.be/kUE2fPLOUxo?t=';
-const double _startSecondstwo = 000000000000000000000000000780;
-const String _videoIdthree = 'https://youtu.be/MK2USJnG9og?t=';
-const double _startSecondsthree = 000000000000000000000000000657;
-const String _videoIdfour = 'https://youtu.be/tlezBUdD53w?t=';
-const double _startSecondsfour = 000000000000000000000000000205;
-const String _videoIdfive = 'https://youtu.be/04RHKZUprwc?t=';
-const double _startSecondsfive = 000000000000000000000000000155;
+const String _videoIdone = 'ShMRAN78598?t=';
+const double _startSecondsone = 535;
+const String _videoIdtwo = 'kUE2fPLOUxo?t=';
+const double _startSecondstwo = 780;
+const String _videoIdthree = 'MK2USJnG9og?t=';
+const double _startSecondsthree = 657;
+const String _videoIdfour = 'tlezBUdD53w?t=';
+const double _startSecondsfour = 205;
+const String _videoIdfive = '04RHKZUprwc?t=';
+const double _startSecondsfive = 155;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

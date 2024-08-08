@@ -284,18 +284,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/qWAagS_MANg?t=';
-const double _startSecondsend = 0000000000000000000000000001109;
-const String _videoIdone = 'https://youtu.be/h4CyhQqAPpk?t=';
-const double _startSecondsone = 000000000000000000000000000208;
-const String _videoIdtwo = 'https://youtu.be/ewLpXw6uN28?t=';
-const double _startSecondstwo = 000000000000000000000000000541;
-const String _videoIdthree = 'https://youtu.be/pTysrwci0pU?t=';
-const double _startSecondsthree = 000000000000000000000000000298;
-const String _videoIdfour = 'https://youtu.be/Rzd0mLf366I?t=';
-const double _startSecondsfour = 000000000000000000000000000160;
-const String _videoIdfive = 'https://youtu.be/vzKuobmi3iI?t=';
-const double _startSecondsfive = 000000000000000000000000000118;
+const String _videoIdend = 'qWAagS_MANg?t=';
+const double _startSecondsend = 1109;
+const String _videoIdone = 'h4CyhQqAPpk?t=';
+const double _startSecondsone = 208;
+const String _videoIdtwo = 'ewLpXw6uN28?t=';
+const double _startSecondstwo = 541;
+const String _videoIdthree = 'pTysrwci0pU?t=';
+const double _startSecondsthree = 298;
+const String _videoIdfour = 'Rzd0mLf366I?t=';
+const double _startSecondsfour = 160;
+const String _videoIdfive = 'vzKuobmi3iI?t=';
+const double _startSecondsfive = 118;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

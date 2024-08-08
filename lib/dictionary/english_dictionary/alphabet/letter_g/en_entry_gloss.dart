@@ -353,17 +353,17 @@ Verb: gloss (Derived forms: glosses, glossed, glossing)
 }
 
 // 188888880002200
-const String _videoIdend = '9K_CZizKdVs?t=';
+const String _videoIdend = '9K_CZizKdVs';
 const double _startSecondsend = 758;
-const String _videoIdone = '57htei0Xw1E?t=';
+const String _videoIdone = '57htei0Xw1E';
 const double _startSecondsone = 178;
-const String _videoIdtwo = '1Gxrwh4zGPg?t=';
+const String _videoIdtwo = '1Gxrwh4zGPg';
 const double _startSecondstwo = 779;
-const String _videoIdthree = 'FSHITL5oedk?t=';
+const String _videoIdthree = 'FSHITL5oedk';
 const double _startSecondsthree = 654;
-const String _videoIdfour = 'MqyJZsGFZ3M?t=';
+const String _videoIdfour = 'MqyJZsGFZ3M';
 const double _startSecondsfour = 1191;
-const String _videoIdfive = 'Zb5IH57SorQ?t=';
+const String _videoIdfive = 'Zb5IH57SorQ';
 const double _startSecondsfive = 52;
 
 class YoutubeEmbeddedend extends StatelessWidget {

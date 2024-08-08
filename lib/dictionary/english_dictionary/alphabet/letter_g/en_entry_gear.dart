@@ -555,15 +555,15 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'hFZFjoX2cGg?t=';
+const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 474;
-const String _videoIdone = '2fOWFfpLYW0?t=';
+const String _videoIdone = '2fOWFfpLYW0';
 const double _startSecondsone = 228;
-const String _videoIdtwo = 'tsxmyL7TUJg?t=';
+const String _videoIdtwo = 'tsxmyL7TUJg';
 const double _startSecondstwo = 1081;
-const String _videoIdthree = 'SrDEtSlqJC4?t=';
+const String _videoIdthree = 'SrDEtSlqJC4';
 const double _startSecondsthree = 611;
-const String _videoIdfour = 'XI9kKiyIMf0?t=';
+const String _videoIdfour = 'XI9kKiyIMf0';
 const double _startSecondsfour = 59;
 const String _videoIdfive = '_-vguUGj8pg';
 const double _startSecondsfive = 0;

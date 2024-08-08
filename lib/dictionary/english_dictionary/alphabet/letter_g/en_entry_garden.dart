@@ -393,17 +393,17 @@ Usage: Brit
   }
 }
 
-const String _videoIdend = 'zJRSjaycVGE?t=';
+const String _videoIdend = 'zJRSjaycVGE';
 const double _startSecondsend = 11;
-const String _videoIdone = 'NdXw8UzMlLs?t=';
+const String _videoIdone = 'NdXw8UzMlLs';
 const double _startSecondsone = 53;
-const String _videoIdtwo = 'QuEo67fEbIg?t=';
+const String _videoIdtwo = 'QuEo67fEbIg';
 const double _startSecondstwo = 23;
-const String _videoIdthree = '9Z3hgEWNq8s?t=';
+const String _videoIdthree = '9Z3hgEWNq8s';
 const double _startSecondsthree = 6;
-const String _videoIdfour = 'hTqtGJwsJVE?t=';
+const String _videoIdfour = 'hTqtGJwsJVE';
 const double _startSecondsfour = 874;
-const String _videoIdfive = '544DTGHIBM0?t=';
+const String _videoIdfive = '544DTGHIBM0';
 const double _startSecondsfive = 498;
 
 class YoutubeEmbeddedend extends StatelessWidget {

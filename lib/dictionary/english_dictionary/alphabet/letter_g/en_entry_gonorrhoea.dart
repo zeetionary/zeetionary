@@ -229,17 +229,17 @@ Usage: Brit, Cdn (US: gonorrhea)
 }
 
 // 188888880002200
-const String _videoIdend = '7_ViD7qdano?t=';
+const String _videoIdend = '7_ViD7qdano';
 const double _startSecondsend = 474;
-const String _videoIdone = '-W4uWnwLVQM?t=';
+const String _videoIdone = '-W4uWnwLVQM';
 const double _startSecondsone = 9;
-const String _videoIdtwo = 'Hb0KBGCnsHs?t=';
+const String _videoIdtwo = 'Hb0KBGCnsHs';
 const double _startSecondstwo = 251;
-const String _videoIdthree = 'oZlYPyJuMM8?t=';
+const String _videoIdthree = 'oZlYPyJuMM8';
 const double _startSecondsthree = 290;
-const String _videoIdfour = 'KHF8mB_8LUM?t=';
+const String _videoIdfour = 'KHF8mB_8LUM';
 const double _startSecondsfour = 414;
-const String _videoIdfive = 'F1w80BW8sjc?t=';
+const String _videoIdfive = 'F1w80BW8sjc';
 const double _startSecondsfive = 599;
 
 class YoutubeEmbeddedend extends StatelessWidget {

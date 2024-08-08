@@ -245,15 +245,15 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'k3CE7EnAXR0?t=';
+const String _videoIdend = 'k3CE7EnAXR0';
 const double _startSecondsend = 60;
-const String _videoIdone = 'F3RGIBExjfE?t=';
+const String _videoIdone = 'F3RGIBExjfE';
 const double _startSecondsone = 73;
 const String _videoIdtwo = 'CIFXhnSXPYw';
 const double _startSecondstwo = 0;
-const String _videoIdthree = '3qTxmgeloOE?t=';
+const String _videoIdthree = '3qTxmgeloOE';
 const double _startSecondsthree = 0;
-const String _videoIdfour = 'G2eCgSoHwkE?t=';
+const String _videoIdfour = 'G2eCgSoHwkE';
 const double _startSecondsfour = 33;
 const String _videoIdfive = 'P0FxoHihhJM';
 const double _startSecondsfive = 0;

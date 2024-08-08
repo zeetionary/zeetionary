@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
@@ -195,16 +194,6 @@ class EnglishEntrycarnival extends StatelessWidget {
                                 "منداڵەکان خۆیان ئامادە دەکەن بۆ کەرنەڤاڵی گوندەکە.",
                             onPressedBritish: () => speakcarnivals2("en-GB"),
                             onPressedAmerican: () => speakcarnivals2("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          CustomRichText(
-                            textBeforeLink: "٣. بڕوانە لە ",
-                            linkText: "funfair",
-                            textAfterLink: "",
-                            onTap: () {
-                              Routemaster.of(context)
-                                  .push("/english-carnival/funfair");
-                            },
                           ),
                         ],
                       ),

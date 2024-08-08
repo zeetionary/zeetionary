@@ -227,17 +227,17 @@ Usage: Brit, Cdn (US: gearshift)
   }
 }
 
-const String _videoIdend = 'gkyVZxtsubM?t=';
+const String _videoIdend = 'gkyVZxtsubM';
 const double _startSecondsend = 2590;
-const String _videoIdone = 'hjsrqMe0B3s?t=';
+const String _videoIdone = 'hjsrqMe0B3s';
 const double _startSecondsone = 586;
-const String _videoIdtwo = 'ERgp4bmr228?t=';
+const String _videoIdtwo = 'ERgp4bmr228';
 const double _startSecondstwo = 206;
-const String _videoIdthree = 'TYJ8uoJ7DAk?t=';
+const String _videoIdthree = 'TYJ8uoJ7DAk';
 const double _startSecondsthree = 1139;
-const String _videoIdfour = 'pdlyyulxiy0?t=';
+const String _videoIdfour = 'pdlyyulxiy0';
 const double _startSecondsfour = 166;
-const String _videoIdfive = 'LKqiDy_Po2M?t=';
+const String _videoIdfive = 'LKqiDy_Po2M';
 const double _startSecondsfive = 62;
 
 class YoutubeEmbeddedend extends StatelessWidget {

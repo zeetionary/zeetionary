@@ -255,15 +255,15 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'rEdl2Uetpvo?t=';
+const String _videoIdend = 'rEdl2Uetpvo';
 const double _startSecondsend = 186;
-const String _videoIdone = 'AwhBTrzzqeg?t=';
+const String _videoIdone = 'AwhBTrzzqeg';
 const double _startSecondsone = 232;
-const String _videoIdtwo = 'iuOYz8zt9J4?t=';
+const String _videoIdtwo = 'iuOYz8zt9J4';
 const double _startSecondstwo = 100;
-const String _videoIdthree = 'uKgaVlMN7IY?t=';
+const String _videoIdthree = 'uKgaVlMN7IY';
 const double _startSecondsthree = 24;
-const String _videoIdfour = '2xcWYu18a-w?t=';
+const String _videoIdfour = '2xcWYu18a-w';
 const double _startSecondsfour = 4;
 const String _videoIdfive = 'mVXkkaJHsAg';
 const double _startSecondsfive = 0;

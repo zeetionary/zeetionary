@@ -248,17 +248,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'J-4FaTv1mcM?t=';
+const String _videoIdend = 'J-4FaTv1mcM';
 const double _startSecondsend = 1314;
-const String _videoIdone = 'EmT0i0xG6zg?t=';
+const String _videoIdone = 'EmT0i0xG6zg';
 const double _startSecondsone = 440;
-const String _videoIdtwo = 'OBG50aoUwlI?t=';
+const String _videoIdtwo = 'OBG50aoUwlI';
 const double _startSecondstwo = 106;
-const String _videoIdthree = 'waOUNwZA4aQ?t=';
+const String _videoIdthree = 'waOUNwZA4aQ';
 const double _startSecondsthree = 708;
-const String _videoIdfour = 'b3Wn9lH9qdA?t=';
+const String _videoIdfour = 'b3Wn9lH9qdA';
 const double _startSecondsfour = 38;
-const String _videoIdfive = 'MEZV6EE8JMA?t=';
+const String _videoIdfive = 'MEZV6EE8JMA';
 const double _startSecondsfive = 1289;
 
 class YoutubeEmbeddedend extends StatelessWidget {

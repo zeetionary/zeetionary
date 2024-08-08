@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygoblet extends StatefulWidget {
-  const EnglishEntrygoblet({super.key});
+class EnglishEntrygodforsaken extends StatefulWidget {
+  const EnglishEntrygodforsaken({super.key});
 
   @override
-  State<EnglishEntrygoblet> createState() => _EnglishEntrygobletState();
+  State<EnglishEntrygodforsaken> createState() => _EnglishEntrygodforsakenState();
 }
 
-class _EnglishEntrygobletState extends State<EnglishEntrygoblet> {
+class _EnglishEntrygodforsakenState extends State<EnglishEntrygodforsaken> {
   @override
   void initState() {
     super.initState();
@@ -57,7 +57,7 @@ ${englishMeaningConst.text}
 """,
   );
 
-  final String keyword = "goblet";
+  final String keyword = "godforsaken";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -77,7 +77,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""goblet""");
+    await flutterTts.speak("""godforsaken""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -104,8 +104,8 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """goblet""",
-                      // alsoEnglishWord: "also: goblet",
+                      word: """godforsaken""",
+                      // alsoEnglishWord: "also: godforsaken",
                       britshText: """IpaUK: /ˈɡɒdfəseɪkən/""",
                       americanText: """IpaUS: /ˈɡɑːdfərseɪkən/""",
                       onPressedBritish: () => speakheadword("en-GB"),
@@ -150,7 +150,7 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شوێنی دڵتەنگ، جەھەنم، چۆڵگە، کەلاوە، وێرانە
 """),
-// With short examples define "goblet", please follow LX instructions
+// With short examples define "godforsaken", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) شوێنێکی بێزارکەر و ناخۆش"""),
                     SentencesRow(
@@ -228,17 +228,17 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'SUDEB4Ui_g8?t=';
+const String _videoIdend = 'SUDEB4Ui_g8';
 const double _startSecondsend = 449;
-const String _videoIdone = 'YRhqMWUH2Ig?t=';
+const String _videoIdone = 'YRhqMWUH2Ig';
 const double _startSecondsone = 368;
-const String _videoIdtwo = '96BhTy93MN0?t=';
+const String _videoIdtwo = '96BhTy93MN0';
 const double _startSecondstwo = 757;
-const String _videoIdthree = 'vFHKj0xmmqY?t=';
+const String _videoIdthree = 'vFHKj0xmmqY';
 const double _startSecondsthree = 1508;
-const String _videoIdfour = 'kKkjTbt9ArQ?t=';
+const String _videoIdfour = 'kKkjTbt9ArQ';
 const double _startSecondsfour = 153;
-const String _videoIdfive = 'GKsvKiXoNhE?t=';
+const String _videoIdfive = 'GKsvKiXoNhE';
 const double _startSecondsfive = 7132;
 
 class YoutubeEmbeddedend extends StatelessWidget {

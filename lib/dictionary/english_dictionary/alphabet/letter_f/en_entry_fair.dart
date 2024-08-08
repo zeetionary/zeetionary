@@ -678,18 +678,9 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence26("en-US"),
           ),
           const DividerDefinition(),
-          CustomRichText(
-            textBeforeLink: "٩. بڕوانە لە ",
-            linkText: "funfair",
-            textAfterLink: "",
-            onTap: () {
-              Routemaster.of(context).push("/english-fair/funfair");
-            },
-          ),
-          const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """١٠. (ھاوەڵناو) جۆرە چێژبینینێک لە کێڵگەیەک یان پارکێک کە تێیدا ئاژەڵی کێڵگە و بەرھەمەکانیان بەژداری دەکەن و ڕکابەری دەکەن"""),
+                  """٩. (ھاوەڵناو) جۆرە چێژبینینێک لە کێڵگەیەک یان پارکێک کە تێیدا ئاژەڵی کێڵگە و بەرھەمەکانیان بەژداری دەکەن و ڕکابەری دەکەن"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We all went south for the state fair.""",
@@ -699,7 +690,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           CustomRichText(
-            textBeforeLink: "١١. بڕوانە لە ",
+            textBeforeLink: "١٠. بڕوانە لە ",
             linkText: "fete",
             textAfterLink: "",
             onTap: () {
@@ -709,7 +700,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """١٢. (ناو) بۆنەیەک تێیدا خەڵکی کاڵاکانیان نمایش دەکەن و دەیان فرۆشن"""),
+                  """١١. (ناو) بۆنەیەک تێیدا خەڵکی کاڵاکانیان نمایش دەکەن و دەیان فرۆشن"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I bought it at a local craft fair.""",

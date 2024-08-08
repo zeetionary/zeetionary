@@ -229,17 +229,17 @@ Usage: N. Amer (elsewhere: petrol station)
   }
 }
 
-const String _videoIdend = 'VrKW58MS12g?t=';
+const String _videoIdend = 'VrKW58MS12g';
 const double _startSecondsend = 992;
-const String _videoIdone = 'y1sF6ZeASU0?t=';
+const String _videoIdone = 'y1sF6ZeASU0';
 const double _startSecondsone = 581;
-const String _videoIdtwo = 'wknSc6HRUMI?t=';
+const String _videoIdtwo = 'wknSc6HRUMI';
 const double _startSecondstwo = 295;
-const String _videoIdthree = '092PIJKKgFo?t=';
+const String _videoIdthree = '092PIJKKgFo';
 const double _startSecondsthree = 612;
-const String _videoIdfour = 'raSeaAeryWE?t=';
+const String _videoIdfour = 'raSeaAeryWE';
 const double _startSecondsfour = 865;
-const String _videoIdfive = '4Q1FzhMY8FQ?t=';
+const String _videoIdfive = '4Q1FzhMY8FQ';
 const double _startSecondsfive = 801;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -227,15 +227,15 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'L1eoutp7FSc?t=';
+const String _videoIdend = 'L1eoutp7FSc';
 const double _startSecondsend = 660;
-const String _videoIdone = 'aO1vZspxeLQ?t=';
+const String _videoIdone = 'aO1vZspxeLQ';
 const double _startSecondsone = 661;
-const String _videoIdtwo = '5URfsrtXSMk?t=';
+const String _videoIdtwo = '5URfsrtXSMk';
 const double _startSecondstwo = 609;
-const String _videoIdthree = 'nC08NDF15Mg?t=';
+const String _videoIdthree = 'nC08NDF15Mg';
 const double _startSecondsthree = 139;
-const String _videoIdfour = 'bKLWTKujciY?t=';
+const String _videoIdfour = 'bKLWTKujciY';
 const double _startSecondsfour = 37;
 const String _videoIdfive = '6Cjl_55-T38';
 const double _startSecondsfive = 0;

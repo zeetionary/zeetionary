@@ -311,15 +311,15 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'QLq6GEiHqR8?t=';
+const String _videoIdend = 'QLq6GEiHqR8';
 const double _startSecondsend = 143;
-const String _videoIdone = 'ewLpXw6uN28?t=';
+const String _videoIdone = 'ewLpXw6uN28';
 const double _startSecondsone = 418;
-const String _videoIdtwo = 'AF8d72mA41M?t=';
+const String _videoIdtwo = 'AF8d72mA41M';
 const double _startSecondstwo = 1456;
-const String _videoIdthree = 'yRmOWcWdQAo?t=';
+const String _videoIdthree = 'yRmOWcWdQAo';
 const double _startSecondsthree = 5;
-const String _videoIdfour = 'idWpZ63isMo?t=';
+const String _videoIdfour = 'idWpZ63isMo';
 const double _startSecondsfour = 101;
 const String _videoIdfive = 'f5jwTft6654';
 const double _startSecondsfive = 0;

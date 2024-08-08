@@ -1301,7 +1301,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She crashed into a waiter and his tray of drinks went flying.""",
                       kurdishText:
-                          """کێسای بە گارسۆنێکدا و سینییە خواردنەوەکەی چوو بە حەوادا.""",
+                          """کێشای بە گارسۆنێکدا و سینییە خواردنەوەکەی چوو بە حەوادا.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),

@@ -1607,7 +1607,7 @@ class KurdishVocabulary extends ConsumerWidget {
 }
 
 class VocabularyExpansionTile extends ConsumerStatefulWidget {
-  static const String defaultTitle = 'ووشەوواتا'; // Shared title
+  static const String defaultTitle = 'وشەوواتا'; // Shared title
   final List<Widget> children;
 
   const VocabularyExpansionTile({
@@ -1644,24 +1644,24 @@ class _VocabularyExpansionTileState
           //       width: 1.0,
           //     ),
           //   )
-          // ? null
-          ? BoxDecoration(
-              border: Border.all(
-                color: Theme.of(context).primaryColor.withOpacity(0.2),
-                // color: Colors.blue.withOpacity(0.9),
-                width: 1.0,
-              ),
-              borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-            )
-          : BoxDecoration(
-              border: Border.all(
-                color: Theme.of(context).primaryColor.withOpacity(0.2),
-                // color: Colors.blue.withOpacity(0.9),
-                width: 1.0,
-              ),
-              borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-            ),
-      // : null, // or nothing
+          ? null
+          // ? BoxDecoration(
+          //     border: Border.all(
+          //       color: Theme.of(context).primaryColor.withOpacity(0.2),
+          //       // color: Colors.blue.withOpacity(0.9),
+          //       width: 1.0,
+          //     ),
+          //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+          //   )
+          // : BoxDecoration(
+          //     border: Border.all(
+          //       color: Theme.of(context).primaryColor.withOpacity(0.2),
+          //       // color: Colors.blue.withOpacity(0.9),
+          //       width: 1.0,
+          //     ),
+          //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+          //   ),
+          : null, // or nothing
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [

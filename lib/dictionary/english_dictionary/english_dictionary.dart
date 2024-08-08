@@ -28,6 +28,7 @@ class _DictionaryScreenEnglishState
   String? selectedAlphabetFilter;
 
   Widget _buildFilterTag(String filter) {
+    final textSize = ref.watch(textSizeProvider);
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 4),
       child: ElevatedButton(
@@ -60,6 +61,7 @@ class _DictionaryScreenEnglishState
             color: selectedFilter == filter
                 ? Theme.of(context).primaryColor.withOpacity(0.8)
                 : Theme.of(context).primaryColor.withOpacity(0.6),
+            fontSize: textSize + 1,
           ),
         ),
       ),
@@ -81,6 +83,7 @@ class _DictionaryScreenEnglishState
   }
 
   Widget _buildAlphabetFilterTag(String filter) {
+    final textSize = ref.watch(textSizeProvider);
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 4),
       child: ElevatedButton(
@@ -113,6 +116,7 @@ class _DictionaryScreenEnglishState
             color: selectedAlphabetFilter == filter
                 ? Theme.of(context).primaryColor.withOpacity(0.8)
                 : Theme.of(context).primaryColor.withOpacity(0.6),
+            fontSize: textSize + 1,
           ),
         ),
       ),
@@ -522,24 +526,6 @@ class _DictionaryScreenEnglishState
           ),
           AnimatedContainer(
             duration: const Duration(milliseconds: 250),
-            height: isFilterExpanded ? 40 : 0,
-            child: Row(
-              children: [
-                Expanded(
-                  child: ListView.builder(
-                    scrollDirection: Axis.horizontal,
-                    itemCount: filterItems.length,
-                    itemBuilder: (BuildContext context, int index) {
-                      var filter = filterItems.keys.toList()[index];
-                      return _buildFilterTag(filter);
-                    },
-                  ),
-                ),
-              ],
-            ),
-          ),
-          AnimatedContainer(
-            duration: const Duration(milliseconds: 250),
             height: isAlphabetFilterExpanded ? 40 : 0,
             child: Row(
               children: [
@@ -550,6 +536,24 @@ class _DictionaryScreenEnglishState
                     itemBuilder: (BuildContext context, int index) {
                       var filter = filterItemsByLetter.keys.toList()[index];
                       return _buildAlphabetFilterTag(filter);
+                    },
+                  ),
+                ),
+              ],
+            ),
+          ),
+          AnimatedContainer(
+            duration: const Duration(milliseconds: 250),
+            height: isFilterExpanded ? 40 : 0,
+            child: Row(
+              children: [
+                Expanded(
+                  child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemCount: filterItems.length,
+                    itemBuilder: (BuildContext context, int index) {
+                      var filter = filterItems.keys.toList()[index];
+                      return _buildFilterTag(filter);
                     },
                   ),
                 ),

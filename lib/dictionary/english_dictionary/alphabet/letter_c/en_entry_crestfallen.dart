@@ -141,8 +141,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakcrestfallen(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("crestfallen");
   }
 
@@ -190,8 +190,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakcrestfallen(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("crestfallen");
   }
 
@@ -212,16 +212,16 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakcrestfallens1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("Mrs Clark looked quite crestfallen all of a sudden.");
   }
 
   Future<void> speakcrestfallens2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("He looked crestfallen at their decision.");
   }
 

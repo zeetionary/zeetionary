@@ -141,8 +141,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakdispleasure(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("displeasure");
   }
 
@@ -190,8 +190,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakdispleasure(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("displeasure");
   }
 
@@ -212,16 +212,16 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakdispleasures1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("She made no attempt to hide her displeasure at the prospect.");
   }
 
   Future<void> speakdispleasures2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The incident has heightened public displeasure with the authorities.");
   }

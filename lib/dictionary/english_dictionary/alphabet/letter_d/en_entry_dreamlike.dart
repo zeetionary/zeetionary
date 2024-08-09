@@ -270,8 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakdreamlike(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("dreamlike");
   }
 
@@ -319,8 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakdreamlike(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("dreamlike");
   }
 
@@ -341,15 +341,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakdreamlikes1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The place has an almost dreamlike quality.");
   }
 
   Future<void> speakdreamlikes2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The dancer’s movements were slow and dreamlike.");
   }
 

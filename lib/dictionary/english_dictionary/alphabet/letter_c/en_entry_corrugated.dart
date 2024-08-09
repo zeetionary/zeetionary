@@ -139,8 +139,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakcorrugated(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("corrugated");
   }
 
@@ -188,8 +188,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakcorrugated(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("corrugated");
   }
 
@@ -210,15 +210,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakcorrugateds1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The roof is made from sheets of corrugated iron.");
   }
 
   Future<void> speakcorrugateds2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "He had put corrugated plastic sheeting on the roof to let in light.");
   }

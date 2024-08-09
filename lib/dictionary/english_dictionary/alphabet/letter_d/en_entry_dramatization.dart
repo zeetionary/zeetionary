@@ -271,8 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakdramatization(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("dramatization");
   }
 
@@ -320,8 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakdramatization(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("dramatization");
   }
 
@@ -342,8 +342,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakdramatizations1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("It's not a documentary; it's a dramatization.");
   }
 

@@ -272,8 +272,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakdualcarriageway(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("dual carriageway");
   }
 
@@ -321,8 +321,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakdualcarriageway(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("dual carriageway");
   }
 
@@ -343,16 +343,16 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakdualcarriageways1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "He was caught driving the wrong way down the dual carriageway.");
   }
 
   Future<void> speakdualcarriageways2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Follow the dual carriageway and you'll see signs for the turn-off.");
   }

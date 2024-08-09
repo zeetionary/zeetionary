@@ -271,8 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> downtoearthth(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("down-to-earth");
   }
 
@@ -320,8 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> downtoearthth(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("down-to-earth");
   }
 
@@ -342,8 +342,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> downtoearthths1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Gloria is probably the most down-to-earth person I've ever met.");
   }

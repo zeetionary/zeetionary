@@ -272,8 +272,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakdomesticscience(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("domestic science");
   }
 
@@ -321,8 +321,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakdomesticscience(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("domestic science");
   }
 
@@ -343,8 +343,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakdomesticsciences1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("She took a domestic science class to learn cooking basics.");
   }

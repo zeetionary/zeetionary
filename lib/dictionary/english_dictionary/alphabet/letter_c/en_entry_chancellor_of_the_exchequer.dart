@@ -13,15 +13,15 @@ class EnglishEntrychancelloroftheexchequer extends StatelessWidget {
 
   Future<void> speakChancelloroftheExchequer(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Chancellor of the Exchequer");
   }
 
   Future<void> speakChancelloroftheExchequers1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The Chancellor of the Exchequer presented the annual budget to Parliament.");
   }

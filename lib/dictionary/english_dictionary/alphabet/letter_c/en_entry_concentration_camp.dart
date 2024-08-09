@@ -13,15 +13,15 @@ class EnglishEntryconcentrationcamp extends StatelessWidget {
 
   Future<void> speakconcentrationcamp(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("concentration camp");
   }
 
   Future<void> speakconcentrationcamps1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "During World War II, millions of Jews were imprisoned in concentration camps.");
   }

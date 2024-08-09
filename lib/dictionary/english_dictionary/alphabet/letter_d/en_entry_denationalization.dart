@@ -142,8 +142,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakdenationalization(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("denationalization");
   }
 
@@ -191,8 +191,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakdenationalization(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("denationalization");
   }
 
@@ -213,8 +213,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakdenationalizations1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The last years of the 20th century were marked by some wide-ranging denationalizations.");
   }

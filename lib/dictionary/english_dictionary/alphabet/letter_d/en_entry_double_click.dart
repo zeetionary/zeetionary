@@ -271,8 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakdoubleclick(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("double-click");
   }
 
@@ -320,8 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakdoubleclick(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("double-click");
   }
 
@@ -342,8 +342,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakdoubleclicks1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("To run an application, just double-click on the icon.");
   }

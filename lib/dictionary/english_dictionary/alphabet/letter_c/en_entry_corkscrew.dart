@@ -13,15 +13,15 @@ class EnglishEntrycorkscrew extends StatelessWidget {
 
   Future<void> speakcorkscrew(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("corkscrew");
   }
 
   Future<void> speakcorkscrews1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "She always kept a corkscrew in her kitchen drawer for opening wine bottles.");
   }

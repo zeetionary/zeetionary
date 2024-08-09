@@ -13,15 +13,15 @@ class EnglishEntrycoloursupplement extends StatelessWidget {
 
   Future<void> speakcoloursupplement(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("colour supplement");
   }
 
   Future<void> speakcoloursupplements1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The business has grown a lot in recent years, largely as a result of advertising in the Sunday colour supplements.");
   }

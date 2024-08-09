@@ -143,8 +143,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakdirectobject(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("direct object");
   }
 
@@ -194,8 +194,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakdirectobject(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("direct object");
   }
 
@@ -216,8 +216,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakdirectobjects1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("In ‘I met him in town’, the word ‘him’ is the direct object.");
   }

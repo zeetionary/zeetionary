@@ -13,15 +13,15 @@ class EnglishEntrychamberofcommerce extends StatelessWidget {
 
   Future<void> speakchamberofcommerce(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("chamber of commerce");
   }
 
   Future<void> speakchamberofcommerces1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Members of the chamber of commerce receive discounts on business services and access to resources.");
   }

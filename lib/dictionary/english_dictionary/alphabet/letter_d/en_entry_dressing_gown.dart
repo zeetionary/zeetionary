@@ -272,8 +272,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakdressinggown(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("dressing gown");
   }
 
@@ -321,8 +321,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakdressinggown(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("dressing gown");
   }
 
@@ -343,8 +343,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakdressinggowns1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("He wraps his dressing gown around himself in the morning.");
   }

@@ -13,15 +13,15 @@ class EnglishEntrycoolheaded extends StatelessWidget {
 
   Future<void> speakcoolheaded(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("cool-headed");
   }
 
   Future<void> speakcoolheadeds1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Even the most cool-headed individuals can be thrown into a mild panic at the prospect of organizing a wedding.");
   }

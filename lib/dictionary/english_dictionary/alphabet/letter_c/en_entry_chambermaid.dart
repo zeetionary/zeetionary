@@ -13,15 +13,15 @@ class EnglishEntrychambermaid extends StatelessWidget {
 
   Future<void> speakchambermaid(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("chambermaid");
   }
 
   Future<void> speakchambermaids1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The diligent chambermaid takes pride in keeping the hotel rooms clean and comfortable.");
   }

@@ -13,15 +13,15 @@ class EnglishEntrycompoundinterest extends StatelessWidget {
 
   Future<void> speakcompoundinterest(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("compound interest");
   }
 
   Future<void> speakcompoundinterests1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Thanks to the power of compound interest, every €1 you invest in your 20s is worth €2 in your 30s and €4 in your 40s.");
   }

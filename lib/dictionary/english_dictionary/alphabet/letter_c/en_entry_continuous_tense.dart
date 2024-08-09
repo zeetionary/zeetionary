@@ -13,15 +13,15 @@ class EnglishEntrycontinuoustense extends StatelessWidget {
 
   Future<void> speakcontinuoustense(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("continuous tense");
   }
 
   Future<void> speakcontinuoustenses1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The continuous tenses can be challenging for learners, especially when distinguishing between them and the simple tenses.");
   }

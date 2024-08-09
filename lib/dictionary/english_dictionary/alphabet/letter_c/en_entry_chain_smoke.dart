@@ -13,15 +13,15 @@ class EnglishEntrychainsmoke extends StatelessWidget {
 
   Future<void> speakchainsmoke(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("chain-smoke");
   }
 
   Future<void> speakchainsmokes1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Joan's under a lot of pressure these days - she's been chain-smoking ever since her divorce.");
   }

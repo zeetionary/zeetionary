@@ -146,7 +146,12 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
           onPressed: () {
             clearEnglishHistory(context);
           },
-          child: const Icon(Icons.delete),
+          backgroundColor: Theme.of(context).primaryColor.withOpacity(0.1),
+          child: Icon(
+            Icons.delete,
+            size: textSize + 2,
+            color: Theme.of(context).primaryColor.withOpacity(0.6),
+          ),
         ),
       ),
     );

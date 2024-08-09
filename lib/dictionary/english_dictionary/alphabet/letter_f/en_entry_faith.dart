@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The children are learning to understand people of different faiths.""",
             kurdishText:
-                """منداڵان فێر دەبن سەبارەت بە خەڵکی ئایینە جیاوازەکان.""",
+                """منداڵان فێری تێگەشتن لە خەڵکی ئایینە جیاوازەکان دەبن.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),

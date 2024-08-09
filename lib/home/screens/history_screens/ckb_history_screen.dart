@@ -21,7 +21,6 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
 
     // Show a dialog to confirm clearing kurdish history
     bool confirmClear = await showDialog(
-      
       context: context,
       builder: (BuildContext context) {
         final textSize = ref.watch(textSizeProvider) + 2;
@@ -166,8 +165,8 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
                 final kurdishhistory = snapshot.data!;
                 return ListView.separated(
                   separatorBuilder: (BuildContext context, int index) {
-                return const ListViewSeparator();
-              },
+                    return const ListViewSeparator();
+                  },
                   itemCount: kurdishhistory.length,
                   itemBuilder: (context, index) {
                     final word = kurdishhistory.elementAt(index);
@@ -198,7 +197,12 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
             onPressed: () {
               clearKurdishHistory(context);
             },
-            child: const Icon(Icons.delete),
+            backgroundColor: Theme.of(context).primaryColor.withOpacity(0.1),
+            child: Icon(
+              Icons.delete,
+              size: textSize + 2,
+              color: Theme.of(context).primaryColor.withOpacity(0.6),
+            ),
           ),
           floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
         ),

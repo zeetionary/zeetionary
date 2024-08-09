@@ -10,7 +10,8 @@ class EnglishEntryaccreditation extends StatefulWidget {
   const EnglishEntryaccreditation({super.key});
 
   @override
-  State<EnglishEntryaccreditation> createState() => _EnglishEntryaccreditationState();
+  State<EnglishEntryaccreditation> createState() =>
+      _EnglishEntryaccreditationState();
 }
 
 class _EnglishEntryaccreditationState extends State<EnglishEntryaccreditation> {
@@ -76,15 +77,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accreditation""");
   }
 
   Future<void> speaka24894(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The college was given full accreditation in 1965.");
   }
 

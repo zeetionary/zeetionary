@@ -13,15 +13,15 @@ class EnglishEntryalgorithm extends StatelessWidget {
 
   Future<void> speakalgorithm(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("algorithm");
   }
 
   Future<void> speakalgorithm25344(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another.");
   }

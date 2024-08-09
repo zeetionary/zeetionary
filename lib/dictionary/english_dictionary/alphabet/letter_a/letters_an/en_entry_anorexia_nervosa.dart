@@ -14,15 +14,15 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
 
   Future<void> speakanorexianervosa(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("anorexia nervosa");
   }
 
   Future<void> speakanorexia848(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Reports of anorexia nervosa and other eating disorders are on the increase.");
   }

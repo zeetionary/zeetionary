@@ -10,7 +10,8 @@ class EnglishEntryacupuncture extends StatefulWidget {
   const EnglishEntryacupuncture({super.key});
 
   @override
-  State<EnglishEntryacupuncture> createState() => _EnglishEntryacupunctureState();
+  State<EnglishEntryacupuncture> createState() =>
+      _EnglishEntryacupunctureState();
 }
 
 class _EnglishEntryacupunctureState extends State<EnglishEntryacupuncture> {
@@ -75,15 +76,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""acupuncture""");
   }
-  
+
   Future<void> speakacupunct457(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Acupuncture has been practised in China for thousands of years.");
   }
@@ -235,7 +236,6 @@ ${englishMeaningConst.text}
     );
   }
 }
-
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});

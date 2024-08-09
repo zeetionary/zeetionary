@@ -19,15 +19,15 @@ class EnglishEntryarbitrage extends StatelessWidget {
 
   Future<void> speakarbitrage(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("arbitrage");
   }
 
   Future<void> speakarbitrage1055(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Traders said a rise in the peso's value made Mexican share prices more expensive compared with shares sold in New York and sparked some arbitrage selling.");
   }

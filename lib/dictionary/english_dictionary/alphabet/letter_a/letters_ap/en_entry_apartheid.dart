@@ -17,15 +17,15 @@ class EnglishEntryapartheid extends StatelessWidget {
 
   Future<void> speakapartheid(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("apartheid");
   }
 
   Future<void> speakapartheid1139(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "During the late 1980s and 1990s, South Africa was undergoing its dramatic transition from apartheid to black majority rule.");
   }

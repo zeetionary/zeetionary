@@ -10,7 +10,8 @@ class EnglishEntryaccelerator extends StatefulWidget {
   const EnglishEntryaccelerator({super.key});
 
   @override
-  State<EnglishEntryaccelerator> createState() => _EnglishEntryacceleratorState();
+  State<EnglishEntryaccelerator> createState() =>
+      _EnglishEntryacceleratorState();
 }
 
 class _EnglishEntryacceleratorState extends State<EnglishEntryaccelerator> {
@@ -82,15 +83,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accelerator""");
   }
-  
+
   Future<void> speakac45871(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "She put her foot on the accelerator and we sped through the traffic lights.");
   }

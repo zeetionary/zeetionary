@@ -13,15 +13,15 @@ class EnglishEntryambidextrous extends StatelessWidget {
 
   Future<void> speakambidextrous(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("ambidextrous");
   }
 
   Future<void> speakambidextrous525555(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous.");
   }

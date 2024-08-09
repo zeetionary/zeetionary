@@ -415,26 +415,35 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrawings4("en-US"),
           ),
           const DividerDefinition(),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              DefinitionKurdishLink(
-                text: "٣. بڕوانە لە draw",
-                links: [
-                  LinkInfo(
-                    start: 12,
-                    end: 17,
-                    style: const TextStyle(
-                      color: Colors.blue,
-                    ),
-                  ),
-                ],
-                onTap: () {
-                  Routemaster.of(context).push("/english-drawing/draw");
-                },
-              ),
-            ],
+          CustomRichText(
+            textBeforeLink: "٣. بڕوانە لە پێناسەی ١٩ ــی ",
+            linkText: "draw",
+            textAfterLink: "",
+            onTap: () {
+              Routemaster.of(context).push("/english-drawing/draw");
+            },
           ),
+          // const DividerDefinition(),
+          // Column(
+          //   mainAxisAlignment: MainAxisAlignment.center,
+          //   children: <Widget>[
+          //     DefinitionKurdishLink(
+          //       text: "٣. بڕوانە لە draw",
+          //       links: [
+          //         LinkInfo(
+          //           start: 12,
+          //           end: 17,
+          //           style: const TextStyle(
+          //             color: Colors.blue,
+          //           ),
+          //         ),
+          //       ],
+          //       onTap: () {
+          //         Routemaster.of(context).push("/english-");
+          //       },
+          //     ),
+          //   ],
+          // ),
           // drawings5drawings5
           // drawings6drawings6
           // drawings7drawings7

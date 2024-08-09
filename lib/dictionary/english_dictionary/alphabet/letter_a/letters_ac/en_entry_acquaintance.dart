@@ -10,7 +10,8 @@ class EnglishEntryacquaintance extends StatefulWidget {
   const EnglishEntryacquaintance({super.key});
 
   @override
-  State<EnglishEntryacquaintance> createState() => _EnglishEntryacquaintanceState();
+  State<EnglishEntryacquaintance> createState() =>
+      _EnglishEntryacquaintanceState();
 }
 
 class _EnglishEntryacquaintanceState extends State<EnglishEntryacquaintance> {
@@ -80,22 +81,22 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""acquaintance""");
   }
-  
+
   Future<void> speakacqu4587(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I bumped into an old acquaintance on the train.");
   }
 
   Future<void> speakacq3528(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("He hoped their acquaintance would develop further.");
   }

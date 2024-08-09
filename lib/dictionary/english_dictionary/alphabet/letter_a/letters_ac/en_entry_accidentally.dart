@@ -10,7 +10,8 @@ class EnglishEntryaccidentally extends StatefulWidget {
   const EnglishEntryaccidentally({super.key});
 
   @override
-  State<EnglishEntryaccidentally> createState() => _EnglishEntryaccidentallyState();
+  State<EnglishEntryaccidentally> createState() =>
+      _EnglishEntryaccidentallyState();
 }
 
 class _EnglishEntryaccidentallyState extends State<EnglishEntryaccidentally> {
@@ -82,15 +83,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accidentally""");
   }
-  
+
   Future<void> speaka21589(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("The damage couldn't have been caused accidentally.");
   }

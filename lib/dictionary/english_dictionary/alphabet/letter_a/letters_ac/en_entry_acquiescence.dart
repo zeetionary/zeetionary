@@ -10,7 +10,8 @@ class EnglishEntryacquiescence extends StatefulWidget {
   const EnglishEntryacquiescence({super.key});
 
   @override
-  State<EnglishEntryacquiescence> createState() => _EnglishEntryacquiescenceState();
+  State<EnglishEntryacquiescence> createState() =>
+      _EnglishEntryacquiescenceState();
 }
 
 class _EnglishEntryacquiescenceState extends State<EnglishEntryacquiescence> {
@@ -78,15 +79,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""acquiescence""");
   }
-  
+
   Future<void> speakacquiesc2596(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I must admit, your acquiescence surprised me.");
   }
 

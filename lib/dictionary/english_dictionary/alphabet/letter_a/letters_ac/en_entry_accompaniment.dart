@@ -10,7 +10,8 @@ class EnglishEntryaccompaniment extends StatefulWidget {
   const EnglishEntryaccompaniment({super.key});
 
   @override
-  State<EnglishEntryaccompaniment> createState() => _EnglishEntryaccompanimentState();
+  State<EnglishEntryaccompaniment> createState() =>
+      _EnglishEntryaccompanimentState();
 }
 
 class _EnglishEntryaccompanimentState extends State<EnglishEntryaccompaniment> {
@@ -82,33 +83,33 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accompaniment""");
   }
 
   Future<void> speaka77499(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Serve plain rice as an accompaniment.");
   }
 
   Future<void> speaka569222(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "High blood pressure is a common accompaniment to this disease.");
   }
 
   Future<void> speakac15587(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("a song with piano accompaniment");
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

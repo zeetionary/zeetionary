@@ -13,15 +13,15 @@ class EnglishEntryamniocentesis extends StatelessWidget {
 
   Future<void> speakamniocentesis(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("amniocentesis");
   }
 
   Future<void> speakamniocentesis4799(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Pregnant women over the age of 35 will be offered (an) amniocentesis.");
   }

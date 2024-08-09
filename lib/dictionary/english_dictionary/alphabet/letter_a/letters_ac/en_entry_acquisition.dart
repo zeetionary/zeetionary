@@ -10,7 +10,8 @@ class EnglishEntryacquisition extends StatefulWidget {
   const EnglishEntryacquisition({super.key});
 
   @override
-  State<EnglishEntryacquisition> createState() => _EnglishEntryacquisitionState();
+  State<EnglishEntryacquisition> createState() =>
+      _EnglishEntryacquisitionState();
 }
 
 class _EnglishEntryacquisitionState extends State<EnglishEntryacquisition> {
@@ -84,31 +85,31 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""acquisition""");
   }
-  
+
   Future<void> speakacquis2534(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The acquisition of huge amounts of data has helped our research enormously.");
   }
 
   Future<void> speakacqui24987(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The money will be spent on acquisitions for the university library.");
   }
 
   Future<void> speakacqu1254(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("They have made acquisitions in several EU countries.");
   }

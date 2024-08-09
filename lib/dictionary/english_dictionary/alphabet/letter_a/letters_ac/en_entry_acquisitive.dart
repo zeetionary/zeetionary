@@ -10,7 +10,8 @@ class EnglishEntryacquisitive extends StatefulWidget {
   const EnglishEntryacquisitive({super.key});
 
   @override
-  State<EnglishEntryacquisitive> createState() => _EnglishEntryacquisitiveState();
+  State<EnglishEntryacquisitive> createState() =>
+      _EnglishEntryacquisitiveState();
 }
 
 class _EnglishEntryacquisitiveState extends State<EnglishEntryacquisitive> {
@@ -76,15 +77,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""acquisitive""");
   }
-  
+
   Future<void> speakacq12469(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("It is an acquisitive company looking for ways to expand.");
   }
@@ -234,7 +235,6 @@ ${englishMeaningConst.text}
       ),
     );
   }
-
 }
 
 class YoutubeEmbeddedone extends StatelessWidget {

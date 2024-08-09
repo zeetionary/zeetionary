@@ -10,7 +10,8 @@ class EnglishEntryachievement extends StatefulWidget {
   const EnglishEntryachievement({super.key});
 
   @override
-  State<EnglishEntryachievement> createState() => _EnglishEntryachievementState();
+  State<EnglishEntryachievement> createState() =>
+      _EnglishEntryachievementState();
 }
 
 class _EnglishEntryachievementState extends State<EnglishEntryachievement> {
@@ -77,23 +78,23 @@ Noun: achievement (derived forms: achievements)
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""achievement""");
   }
-  
+
   Future<void> speaka452876(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("It was a remarkable achievement for such a young player.");
   }
 
   Future<void> speakac251468(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("This work is the crowning achievement of her career.");
   }

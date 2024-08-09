@@ -10,7 +10,8 @@ class EnglishEntryaccumulation extends StatefulWidget {
   const EnglishEntryaccumulation({super.key});
 
   @override
-  State<EnglishEntryaccumulation> createState() => _EnglishEntryaccumulationState();
+  State<EnglishEntryaccumulation> createState() =>
+      _EnglishEntryaccumulationState();
 }
 
 class _EnglishEntryaccumulationState extends State<EnglishEntryaccumulation> {
@@ -81,22 +82,23 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accumulation""");
   }
+
   Future<void> speakac1548(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Despite this accumulation of evidence, the government persisted in doing nothing.");
   }
 
   Future<void> speaka122158(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Accumulations of sand can be formed by the action of waves on coastal beaches.");
   }

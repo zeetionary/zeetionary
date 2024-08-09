@@ -13,15 +13,15 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
 
   Future<void> speakalzheimersdisease(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Alzheimer's disease");
   }
 
   Future<void> speakalzheimersdisease6555(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("The most common form of dementia is Alzheimer's disease.");
   }

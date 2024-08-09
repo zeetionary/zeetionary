@@ -21,15 +21,15 @@ class EnglishEntryattributive extends StatelessWidget {
 
   Future<void> speakattributive(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("attributive");
   }
 
   Future<void> speakattributive1121(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "In ‘the blue sky’ and ‘a family business’, ‘blue’ and ‘family’ are attributive.");
   }

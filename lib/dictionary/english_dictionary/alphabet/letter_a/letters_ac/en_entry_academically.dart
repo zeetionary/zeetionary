@@ -10,7 +10,8 @@ class EnglishEntryacademically extends StatefulWidget {
   const EnglishEntryacademically({super.key});
 
   @override
-  State<EnglishEntryacademically> createState() => _EnglishEntryacademicallyState();
+  State<EnglishEntryacademically> createState() =>
+      _EnglishEntryacademicallyState();
 }
 
 class _EnglishEntryacademicallyState extends State<EnglishEntryacademically> {
@@ -76,27 +77,27 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""academically""");
   }
 
   Future<void> speakac584(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "He wasn’t very well qualified academically but had a lot of experience.");
   }
 
   Future<void> speaka56387(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("You have to do well academically to get into medical school.");
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(

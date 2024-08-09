@@ -10,7 +10,8 @@ class EnglishEntryaccomplished extends StatefulWidget {
   const EnglishEntryaccomplished({super.key});
 
   @override
-  State<EnglishEntryaccomplished> createState() => _EnglishEntryaccomplishedState();
+  State<EnglishEntryaccomplished> createState() =>
+      _EnglishEntryaccomplishedState();
 }
 
 class _EnglishEntryaccomplishedState extends State<EnglishEntryaccomplished> {
@@ -82,15 +83,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accomplished""");
   }
-  
+
   Future<void> speakaccomplisheds1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She was an elegant and accomplished woman.");
   }
 

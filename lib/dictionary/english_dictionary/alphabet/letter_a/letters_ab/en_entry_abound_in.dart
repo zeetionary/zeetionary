@@ -75,15 +75,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abound in""");
   }
-  
+
   Future<void> speaka25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The lakes abound in fish.");
   }
 
@@ -146,20 +146,20 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
 ١. (کرداری لێکدراو) کاتێک شتێک ڕێژەیەکی زۆر لە شتێکی تێدایە"""),
-          SentencesRow(
-            englishText: "The lakes abound in fish.",
-            kurdishText: "دەریاچەکە پڕە لە ماسی.",
-            onPressedBritish: () => speaka25("en-GB"),
-            onPressedAmerican: () => speaka25("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          SentencesRow(
+                            englishText: "The lakes abound in fish.",
+                            kurdishText: "دەریاچەکە پڕە لە ماسی.",
+                            onPressedBritish: () => speaka25("en-GB"),
+                            onPressedAmerican: () => speaka25("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

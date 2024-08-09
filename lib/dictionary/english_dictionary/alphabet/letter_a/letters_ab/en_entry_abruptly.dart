@@ -76,15 +76,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abruptly""");
   }
 
   Future<void> speaka2416(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The interview ended abruptly.");
   }
 
@@ -147,20 +147,21 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
 ١. شتێک لەناکاو و بەشێوەییەکی چاوەڕواننەکراو ڕووبدات"""),
-          SentencesRow(
-            englishText: "The interview ended abruptly.",
-            kurdishText: "چاوپێکەوتنەکە بەشێوەیەکی چاوەڕواننەکراو کۆتایی ھات.",
-            onPressedBritish: () => speaka2416("en-GB"),
-            onPressedAmerican: () => speaka2416("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          SentencesRow(
+                            englishText: "The interview ended abruptly.",
+                            kurdishText:
+                                "چاوپێکەوتنەکە بەشێوەیەکی چاوەڕواننەکراو کۆتایی ھات.",
+                            onPressedBritish: () => speaka2416("en-GB"),
+                            onPressedAmerican: () => speaka2416("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

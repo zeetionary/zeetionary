@@ -85,30 +85,29 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abroad""");
   }
 
-  
   Future<void> speakab28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("There was news abroad that a change was coming.");
   }
 
   Future<void> speaka2569(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("He was famous, both at home and abroad.");
   }
 
   Future<void> speaka3459(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She worked abroad for a year.");
   }
 
@@ -171,40 +170,44 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
 کوردی: ھەندەران، دەرەوە، لە دەرەوەی وڵات، بەربڵاوانە، ھەموو جێیێ، گشت شوێنێ
 """),
-          const DefinitionKurdish(
-              text: "١. (ھاوەڵکار) پەیوەندیدار بە وڵاتێکی بیانی"
-                  ""),
-          SentencesRow(
-            englishText: "She worked abroad for a year.",
-            kurdishText: "لە دەرەوەی وڵات بۆ ساڵێک کاری کرد.",
-            onPressedBritish: () => speaka3459("en-GB"),
-            onPressedAmerican: () => speaka3459("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "He was famous, both at home and abroad.",
-            kurdishText: "لە ناوەوە و دەرەوەی وڵات بەناوبانگ بوو.",
-            onPressedBritish: () => speaka2569("en-GB"),
-            onPressedAmerican: () => speaka2569("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """
+                          const DefinitionKurdish(
+                              text: "١. (ھاوەڵکار) پەیوەندیدار بە وڵاتێکی بیانی"
+                                  ""),
+                          SentencesRow(
+                            englishText: "She worked abroad for a year.",
+                            kurdishText: "لە دەرەوەی وڵات بۆ ساڵێک کاری کرد.",
+                            onPressedBritish: () => speaka3459("en-GB"),
+                            onPressedAmerican: () => speaka3459("en-US"),
+                          ),
+                          const DividerSentences(),
+                          SentencesRow(
+                            englishText:
+                                "He was famous, both at home and abroad.",
+                            kurdishText:
+                                "لە ناوەوە و دەرەوەی وڵات بەناوبانگ بوو.",
+                            onPressedBritish: () => speaka2569("en-GB"),
+                            onPressedAmerican: () => speaka2569("en-US"),
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت"""),
-          SentencesRow(
-            englishText: "There was news abroad that a change was coming.",
-            kurdishText: "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە.",
-            onPressedBritish: () => speakab28("en-GB"),
-            onPressedAmerican: () => speakab28("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          SentencesRow(
+                            englishText:
+                                "There was news abroad that a change was coming.",
+                            kurdishText:
+                                "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە.",
+                            onPressedBritish: () => speakab28("en-GB"),
+                            onPressedAmerican: () => speakab28("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

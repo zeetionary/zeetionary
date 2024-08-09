@@ -13,15 +13,15 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
 
   Future<void> speakalternatingcurrent(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("alternating current");
   }
 
   Future<void> speakalternatingcurrent124(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Unlike Edison, George Westinghouse was a proponent of alternating current.");
   }

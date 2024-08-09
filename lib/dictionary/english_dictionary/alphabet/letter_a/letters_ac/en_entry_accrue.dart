@@ -79,16 +79,17 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accrue""");
   }
 
   Future<void> speakheadwordhhdgg(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""By the time they leave, they'll have accrued a year's holiday pay.""");
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak(
+        """By the time they leave, they'll have accrued a year's holiday pay.""");
   }
 
   @override
@@ -162,7 +163,8 @@ ${englishMeaningConst.text}
                             kurdishText:
                                 "تا ئەوکاتەی دەڕۆن، بەشی پشوویەکی یەک ساڵە پارە کۆدەکەنەوە.",
                             onPressedBritish: () => speakheadwordhhdgg("en-GB"),
-                            onPressedAmerican: () => speakheadwordhhdgg("en-US"),
+                            onPressedAmerican: () =>
+                                speakheadwordhhdgg("en-US"),
                           ),
                         ],
                       ),

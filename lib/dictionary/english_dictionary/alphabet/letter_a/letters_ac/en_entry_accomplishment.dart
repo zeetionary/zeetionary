@@ -10,10 +10,12 @@ class EnglishEntryaccomplishment extends StatefulWidget {
   const EnglishEntryaccomplishment({super.key});
 
   @override
-  State<EnglishEntryaccomplishment> createState() => _EnglishEntryaccomplishmentState();
+  State<EnglishEntryaccomplishment> createState() =>
+      _EnglishEntryaccomplishmentState();
 }
 
-class _EnglishEntryaccomplishmentState extends State<EnglishEntryaccomplishment> {
+class _EnglishEntryaccomplishmentState
+    extends State<EnglishEntryaccomplishment> {
   @override
   void initState() {
     super.initState();
@@ -78,31 +80,31 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accomplishment""");
   }
-  
+
   Future<void> speakac2564(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Money will be crucial to the accomplishment of our objectives.");
   }
 
   Future<void> speaka5741(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("Drawing and singing were among her many accomplishments.");
   }
 
   Future<void> speakac5789(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("It was one of the President's greatest accomplishments.");
   }

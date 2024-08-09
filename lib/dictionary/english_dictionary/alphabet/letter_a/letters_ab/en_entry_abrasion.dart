@@ -79,23 +79,22 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abrasion""");
   }
 
-  
   Future<void> speaka6247(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Diamonds have extreme resistance to abrasion.");
   }
 
   Future<void> speaka3269(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("He suffered cuts and abrasions to the face.");
   }
 
@@ -158,33 +157,37 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
 کوردی: داخوران، داکڕان، داشۆران، داتاشین، داڕووشان، ڕووشان، لێخستن، (دا)سووان
 """),
-          const DefinitionKurdish(
-              text: "١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا"
-                  ""),
-          SentencesRow(
-            englishText: "He suffered cuts and abrasions to the face.",
-            kurdishText: "تووشی برین و داڕووشان بوو لەسەر ڕووخساری.",
-            onPressedBritish: () => speaka3269("en-GB"),
-            onPressedAmerican: () => speaka3269("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا"
+                                  ""),
+                          SentencesRow(
+                            englishText:
+                                "He suffered cuts and abrasions to the face.",
+                            kurdishText:
+                                "تووشی برین و داڕووشان بوو لەسەر ڕووخساری.",
+                            onPressedBritish: () => speaka3269("en-GB"),
+                            onPressedAmerican: () => speaka3269("en-US"),
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
 ٢. (ناو) زیان گەشتن بەڕووی شتێ بەھۆی داڕووشان"""),
-          SentencesRow(
-            englishText: "Diamonds have extreme resistance to abrasion.",
-            kurdishText: "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان.",
-            onPressedBritish: () => speaka6247("en-GB"),
-            onPressedAmerican: () => speaka6247("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          SentencesRow(
+                            englishText:
+                                "Diamonds have extreme resistance to abrasion.",
+                            kurdishText: "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان.",
+                            onPressedBritish: () => speaka6247("en-GB"),
+                            onPressedAmerican: () => speaka6247("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

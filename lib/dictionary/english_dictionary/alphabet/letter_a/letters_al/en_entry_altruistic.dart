@@ -13,15 +13,15 @@ class EnglishEntryaltruistic extends StatelessWidget {
 
   Future<void> speakaltruistic(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("altruistic");
   }
 
   Future<void> speakaltruistic4583(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity.");
   }

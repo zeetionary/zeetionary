@@ -10,7 +10,8 @@ class EnglishEntryabridgement extends StatefulWidget {
   const EnglishEntryabridgement({super.key});
 
   @override
-  State<EnglishEntryabridgement> createState() => _EnglishEntryabridgementState();
+  State<EnglishEntryabridgement> createState() =>
+      _EnglishEntryabridgementState();
 }
 
 class _EnglishEntryabridgementState extends State<EnglishEntryabridgement> {
@@ -75,15 +76,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abridgement""");
   }
-  
+
   Future<void> speaka3912(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("Abridgement of this complex text was extremely difficult.");
   }
@@ -147,26 +148,27 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
 کوردی: کورت‌کردنەوە، لێ‌کردنەوە، پوختە، کورتە
 """),
-          const DefinitionKurdish(
-              text:
-                  "١. (ناو) کتێبێک یان نووسراوێک کە ھەندێک لە بەشەکانی لادراوە"
-                  ""),
-          SentencesRow(
-            englishText:
-                "Abridgement of this complex text was extremely difficult.",
-            kurdishText: "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو.",
-            onPressedBritish: () => speaka3912("en-GB"),
-            onPressedAmerican: () => speaka3912("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ناو) کتێبێک یان نووسراوێک کە ھەندێک لە بەشەکانی لادراوە"
+                                  ""),
+                          SentencesRow(
+                            englishText:
+                                "Abridgement of this complex text was extremely difficult.",
+                            kurdishText:
+                                "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو.",
+                            onPressedBritish: () => speaka3912("en-GB"),
+                            onPressedAmerican: () => speaka3912("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

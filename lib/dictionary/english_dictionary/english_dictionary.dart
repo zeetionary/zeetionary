@@ -61,7 +61,7 @@ class _DictionaryScreenEnglishState
             color: selectedFilter == filter
                 ? Theme.of(context).primaryColor.withOpacity(0.8)
                 : Theme.of(context).primaryColor.withOpacity(0.6),
-            fontSize: textSize + 1,
+            fontSize: textSize - 3,
           ),
         ),
       ),
@@ -116,7 +116,7 @@ class _DictionaryScreenEnglishState
             color: selectedAlphabetFilter == filter
                 ? Theme.of(context).primaryColor.withOpacity(0.8)
                 : Theme.of(context).primaryColor.withOpacity(0.6),
-            fontSize: textSize + 1,
+            fontSize: textSize - 3,
           ),
         ),
       ),
@@ -486,13 +486,35 @@ class _DictionaryScreenEnglishState
                     children: [
                       if (_searchController.text.isNotEmpty)
                         IconButton(
-                          icon: Icon(Icons.clear, size: textSize + 5),
+                          icon: Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(
+                                color: Theme.of(context)
+                                    .primaryColor
+                                    .withOpacity(0.3),
+                                width: 1.0,
+                              ),
+                              borderRadius: BorderRadius.circular(15.0),
+                            ),
+                            child: Icon(Icons.clear, size: textSize + 5),
+                          ),
                           onPressed: clearSearch,
                         ),
                       IconButton(
-                        icon: Icon(
-                          isAlphabetFilterExpanded ? Icons.abc : Icons.abc,
-                          size: textSize + 5,
+                        icon: Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              color: Theme.of(context)
+                                  .primaryColor
+                                  .withOpacity(0.3),
+                              width: 1.0,
+                            ),
+                            borderRadius: BorderRadius.circular(15.0),
+                          ),
+                          child: Icon(
+                            isAlphabetFilterExpanded ? Icons.abc : Icons.abc,
+                            size: textSize + 5,
+                          ),
                         ),
                         onPressed: () {
                           setState(
@@ -504,11 +526,22 @@ class _DictionaryScreenEnglishState
                         },
                       ),
                       IconButton(
-                        icon: Icon(
-                          isFilterExpanded
-                              ? Icons.arrow_drop_up
-                              : Icons.arrow_drop_down,
-                          size: textSize + 5,
+                        icon: Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              color: Theme.of(context)
+                                  .primaryColor
+                                  .withOpacity(0.3),
+                              width: 1.0,
+                            ),
+                            borderRadius: BorderRadius.circular(15.0),
+                          ),
+                          child: Icon(
+                            isFilterExpanded
+                                ? Icons.arrow_drop_up
+                                : Icons.arrow_drop_down,
+                            size: textSize + 5,
+                          ),
                         ),
                         onPressed: () {
                           setState(
@@ -526,7 +559,7 @@ class _DictionaryScreenEnglishState
           ),
           AnimatedContainer(
             duration: const Duration(milliseconds: 250),
-            height: isAlphabetFilterExpanded ? 40 : 0,
+            height: isAlphabetFilterExpanded ? textSize + 15 : 0,
             child: Row(
               children: [
                 Expanded(
@@ -542,9 +575,12 @@ class _DictionaryScreenEnglishState
               ],
             ),
           ),
+          // const SizedBox(
+          //   height: 18,
+          // ),
           AnimatedContainer(
             duration: const Duration(milliseconds: 250),
-            height: isFilterExpanded ? 40 : 0,
+            height: isFilterExpanded ? textSize + 15 : 0,
             child: Row(
               children: [
                 Expanded(

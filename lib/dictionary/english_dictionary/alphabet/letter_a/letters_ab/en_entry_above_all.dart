@@ -79,15 +79,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""above all""");
   }
-  
+
   Future<void> speaka2196(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Above all, keep in touch.");
   }
 
@@ -150,20 +150,21 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
 ١. بە تایبەتی، لە سەروو ھەموو شتێک"""),
-          SentencesRow(
-            englishText: "Above all, keep in touch.",
-            kurdishText: "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم.",
-            onPressedBritish: () => speaka2196("en-GB"),
-            onPressedAmerican: () => speaka2196("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          SentencesRow(
+                            englishText: "Above all, keep in touch.",
+                            kurdishText:
+                                "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم.",
+                            onPressedBritish: () => speaka2196("en-GB"),
+                            onPressedAmerican: () => speaka2196("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

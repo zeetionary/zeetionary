@@ -10,7 +10,8 @@ class EnglishEntryachillesheel extends StatefulWidget {
   const EnglishEntryachillesheel({super.key});
 
   @override
-  State<EnglishEntryachillesheel> createState() => _EnglishEntryachillesheelState();
+  State<EnglishEntryachillesheel> createState() =>
+      _EnglishEntryachillesheelState();
 }
 
 class _EnglishEntryachillesheelState extends State<EnglishEntryachillesheel> {
@@ -75,15 +76,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""Achilles' heel""");
   }
-  
+
   Future<void> speakac153864(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The enemy had an Achilles heel somewhere, if only he could find it.");
   }

@@ -81,24 +81,23 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abrasive""");
   }
 
-  
   Future<void> speakab254(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("Throughout his career he was known for his abrasive manner.");
   }
 
   Future<void> speakab321(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The cleaner has a mildly abrasive action.");
   }
 
@@ -161,35 +160,37 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
 کوردی: کڕێنەر، کڕەک، داخورێنەر، سوێنەر، زبرە، خاوێن‌کەرەوە، داتاشەر، لووس‌کەر، مشت‌وماڵ‌دەر، ژان‌بەدڵ‌گەیێن، جەرگبڕ، دڵ‌شکێن، ناخۆش، توندوتیژ، کەرەسە یا مەتریاڵی سوێنەر، ماکی سوواندن، سوێنە
 """),
-          const DefinitionKurdish(
-              text:
-                  """١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن"""),
-          SentencesRow(
-            englishText: "The cleaner has a mildly abrasive action.",
-            kurdishText: "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات.",
-            onPressedBritish: () => speakab321("en-GB"),
-            onPressedAmerican: () => speakab321("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن"""),
+                          SentencesRow(
+                            englishText:
+                                "The cleaner has a mildly abrasive action.",
+                            kurdishText:
+                                "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات.",
+                            onPressedBritish: () => speakab321("en-GB"),
+                            onPressedAmerican: () => speakab321("en-US"),
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێک کە ڕەفتاری دڵشکێن و خراپە"""),
-          SentencesRow(
-            englishText:
-                "Throughout his career he was known for his abrasive manner.",
-            kurdishText:
-                "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە.",
-            onPressedBritish: () => speakab254("en-GB"),
-            onPressedAmerican: () => speakab254("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          SentencesRow(
+                            englishText:
+                                "Throughout his career he was known for his abrasive manner.",
+                            kurdishText:
+                                "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە.",
+                            onPressedBritish: () => speakab254("en-GB"),
+                            onPressedAmerican: () => speakab254("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

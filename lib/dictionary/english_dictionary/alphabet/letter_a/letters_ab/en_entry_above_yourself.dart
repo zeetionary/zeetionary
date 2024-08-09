@@ -10,7 +10,8 @@ class EnglishEntryaboveyourself extends StatefulWidget {
   const EnglishEntryaboveyourself({super.key});
 
   @override
-  State<EnglishEntryaboveyourself> createState() => _EnglishEntryaboveyourselfState();
+  State<EnglishEntryaboveyourself> createState() =>
+      _EnglishEntryaboveyourselfState();
 }
 
 class _EnglishEntryaboveyourselfState extends State<EnglishEntryaboveyourself> {
@@ -75,8 +76,8 @@ Idiom: above yourself
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""above yourself""");
   }
 
@@ -139,13 +140,13 @@ Idiom: above yourself
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          DefinitionKurdish(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          DefinitionKurdish(text: """
 ١. کاتێک کە خۆت بە زیاتر لەوەی ھەیت دەزانیت"""),
-        ],
-      ),
-    ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -212,7 +213,6 @@ Idiom: above yourself
     );
   }
 }
-
 
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});

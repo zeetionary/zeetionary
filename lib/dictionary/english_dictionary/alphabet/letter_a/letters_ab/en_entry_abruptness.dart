@@ -80,15 +80,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abruptness""");
   }
-  
+
   Future<void> speaka6417(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The abruptness of the ending comes as a shock after the long slow build-up.");
   }
@@ -152,25 +152,25 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
 کوردی: کتوپڕی، لەناکاوی
 """),
-          const DefinitionKurdish(
-              text: "١. (ناو) بەشێوەیەکی لەناکاو و کتوپڕ" ""),
-          SentencesRow(
-            englishText:
-                "The abruptness of the ending comes as a shock after the long slow build-up.",
-            kurdishText:
-                "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لە دوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە.",
-            onPressedBritish: () => speaka6417("en-GB"),
-            onPressedAmerican: () => speaka6417("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          const DefinitionKurdish(
+                              text: "١. (ناو) بەشێوەیەکی لەناکاو و کتوپڕ" ""),
+                          SentencesRow(
+                            englishText:
+                                "The abruptness of the ending comes as a shock after the long slow build-up.",
+                            kurdishText:
+                                "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لە دوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە.",
+                            onPressedBritish: () => speaka6417("en-GB"),
+                            onPressedAmerican: () => speaka6417("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

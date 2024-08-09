@@ -75,15 +75,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abscess""");
   }
-  
+
   Future<void> speakabscesss1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("// He had a painful abscess on his hand.");
   }
 
@@ -146,24 +146,25 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
 کوردی: دمەڵ، دومەڵ، کوان، مادە، سۆ، کولک، پزرک، ناسۆر، گۆنر
 """),
-          const DefinitionKurdish(
-              text:
-                  """١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد"""),
-          SentencesRow(
-            englishText: "He had a painful abscess on his hand.",
-            kurdishText: "دومەڵێکی گەورەی ھەبوو لەسەر دەستی.",
-            onPressedBritish: () => speakabscesss1("en-GB"),
-            onPressedAmerican: () => speakabscesss1("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          const DefinitionKurdish(
+                              text:
+                                  """١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد"""),
+                          SentencesRow(
+                            englishText:
+                                "He had a painful abscess on his hand.",
+                            kurdishText: "دومەڵێکی گەورەی ھەبوو لەسەر دەستی.",
+                            onPressedBritish: () => speakabscesss1("en-GB"),
+                            onPressedAmerican: () => speakabscesss1("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

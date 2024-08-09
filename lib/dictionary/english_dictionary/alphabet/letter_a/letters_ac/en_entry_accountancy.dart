@@ -10,7 +10,8 @@ class EnglishEntryaccountancy extends StatefulWidget {
   const EnglishEntryaccountancy({super.key});
 
   @override
-  State<EnglishEntryaccountancy> createState() => _EnglishEntryaccountancyState();
+  State<EnglishEntryaccountancy> createState() =>
+      _EnglishEntryaccountancyState();
 }
 
 class _EnglishEntryaccountancyState extends State<EnglishEntryaccountancy> {
@@ -75,15 +76,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accountancy""");
   }
-  
+
   Future<void> speaka19437(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She studied accountancy at university.");
   }
 

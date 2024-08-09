@@ -53,6 +53,9 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
     return AdvancedDrawer(
       controller: _advancedDrawerController,
       animationCurve: Curves.easeInOut,
+      // backdropColor: const Color.fromARGB(255, 11, 11, 11),
+      // backdropColor: Theme.of(context).primaryColor.withOpacity(0.01),
+      backdropColor: Theme.of(context).scaffoldBackgroundColor,
       // animationCurve: Curves.easeInOutCubicEmphasized,
       // backdropColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.8),
       animationDuration: const Duration(milliseconds: 200),
@@ -61,7 +64,9 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
       // openScale: 1.0,
       disabledGestures: false,
       childDecoration: const BoxDecoration(
-        borderRadius: BorderRadius.all(Radius.circular(16)),
+        borderRadius: BorderRadius.all(
+          Radius.circular(16),
+        ),
       ),
       drawer: MyDrawer(textSize: textSize),
       child: Scaffold(
@@ -117,6 +122,10 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
         ),
         body: _widgetOptions[_selectedIndex],
         bottomNavigationBar: NavigationBar(
+          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+          shadowColor: Theme.of(context).primaryColor,
+          indicatorColor: Theme.of(context).primaryColor.withOpacity(0.2),
+          surfaceTintColor: Theme.of(context).primaryColor.withOpacity(0.1),
           selectedIndex: _selectedIndex,
           onDestinationSelected: _onItemTapped,
           destinations: <NavigationDestination>[
@@ -155,7 +164,7 @@ class MyDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: ListTileTheme(
-        textColor: Colors.white,
+        textColor: Colors.blueAccent,
         iconColor: Colors.white,
         child: Container(
           constraints: BoxConstraints(
@@ -301,7 +310,8 @@ class MyDrawer extends StatelessWidget {
                           color: Theme.of(context).primaryColor,
                         ),
                         onTap: () {
-                          Routemaster.of(context).push('/irregular-verbs-screen');
+                          Routemaster.of(context)
+                              .push('/irregular-verbs-screen');
                         },
                       ),
                     ],

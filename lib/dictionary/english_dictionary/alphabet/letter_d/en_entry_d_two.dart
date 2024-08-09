@@ -226,7 +226,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: "١. (کورتکراوە) لە زمانی نووسیندا بەکاردێت بۆ کورتکراوە"),
+              text: "١. (کورتکراوە) لە زمانی نووسیندا بەکاردێت بۆ کورتکراوەی die"),
           SentencesRow(
             englishText: "Emily Clifton, d. 1865",
             kurdishText: "ئێمیلی کلیفتن، کۆچکردووی ١٨٦٥.", // d.

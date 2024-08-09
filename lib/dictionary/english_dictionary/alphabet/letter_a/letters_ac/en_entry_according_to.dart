@@ -10,7 +10,8 @@ class EnglishEntryaccordingto extends StatefulWidget {
   const EnglishEntryaccordingto({super.key});
 
   @override
-  State<EnglishEntryaccordingto> createState() => _EnglishEntryaccordingtoState();
+  State<EnglishEntryaccordingto> createState() =>
+      _EnglishEntryaccordingtoState();
 }
 
 class _EnglishEntryaccordingtoState extends State<EnglishEntryaccordingto> {
@@ -79,23 +80,23 @@ Preposition: according to
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""according to""");
   }
-  
+
   Future<void> speakac59173(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("You've been absent six times according to our records.");
   }
 
   Future<void> speakac65874(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The work was done according to her instructions.");
   }
 

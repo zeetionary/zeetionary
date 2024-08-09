@@ -134,25 +134,28 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
         children: [
           Padding(
             padding: const EdgeInsets.all(16.0),
-            child: TextField(
-              controller: _searchController,
-              decoration: InputDecoration(
-                border: const OutlineInputBorder(),
-                // labelText: "Search",
-                hintText: "Search for sentences...",
-                hintStyle: TextStyle(fontSize: textSize),
-                prefixIcon: Icon(Icons.search, size: textSize + 5),
-                suffixIcon: _searchController.text.isNotEmpty
-                    ? IconButton(
-                        icon: const Icon(Icons.clear),
-                        onPressed: () {
-                          _searchController.clear();
-                          filterSentences("");
-                        },
-                      )
-                    : null,
+            child: SizedBox(
+              height: 60,
+              child: TextField(
+                controller: _searchController,
+                decoration: InputDecoration(
+                  border: const OutlineInputBorder(),
+                  // labelText: "Search",
+                  hintText: "Search for sentences...",
+                  hintStyle: TextStyle(fontSize: textSize),
+                  prefixIcon: Icon(Icons.search, size: textSize + 5),
+                  suffixIcon: _searchController.text.isNotEmpty
+                      ? IconButton(
+                          icon: const Icon(Icons.clear),
+                          onPressed: () {
+                            _searchController.clear();
+                            filterSentences("");
+                          },
+                        )
+                      : null,
+                ),
+                onChanged: (value) => filterSentences(value),
               ),
-              onChanged: (value) => filterSentences(value),
             ),
           ),
           Expanded(

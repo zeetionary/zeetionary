@@ -84,8 +84,8 @@ ${englishMeaningConst.text}
 
   Future<void> speakabacus(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("abacus");
   }
 
@@ -264,8 +264,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speak145287(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "In ancient times, people relied on an abacus to perform mathematical calculations.");
   }

@@ -10,10 +10,12 @@ class EnglishEntryacknowledgment extends StatefulWidget {
   const EnglishEntryacknowledgment({super.key});
 
   @override
-  State<EnglishEntryacknowledgment> createState() => _EnglishEntryacknowledgmentState();
+  State<EnglishEntryacknowledgment> createState() =>
+      _EnglishEntryacknowledgmentState();
 }
 
-class _EnglishEntryacknowledgmentState extends State<EnglishEntryacknowledgment> {
+class _EnglishEntryacknowledgmentState
+    extends State<EnglishEntryacknowledgment> {
   @override
   void initState() {
     super.initState();
@@ -82,31 +84,31 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""acknowledgment""");
   }
-  
+
   Future<void> speakackno5387(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("There is acknowledgement on his part that he was to blame.");
   }
 
   Future<void> speakacknowl5674(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("I wrote to them but never got any acknowledgement.");
   }
 
   Future<void> speakacknowle65899(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("The flowers were a small acknowledgement of your kindness.");
   }

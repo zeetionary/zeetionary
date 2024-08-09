@@ -10,7 +10,8 @@ class EnglishEntryaccordingly extends StatefulWidget {
   const EnglishEntryaccordingly({super.key});
 
   @override
-  State<EnglishEntryaccordingly> createState() => _EnglishEntryaccordinglyState();
+  State<EnglishEntryaccordingly> createState() =>
+      _EnglishEntryaccordinglyState();
 }
 
 class _EnglishEntryaccordinglyState extends State<EnglishEntryaccordingly> {
@@ -79,23 +80,23 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accordingly""");
   }
-  
+
   Future<void> speaka25143(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices.");
   }
 
   Future<void> speakac75924(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("We have to discover his plans and act accordingly.");
   }

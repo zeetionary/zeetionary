@@ -79,15 +79,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abreast""");
   }
-  
+
   Future<void> speaka2156(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("A police car drove abreast of us and signalled us to stop.");
   }
@@ -151,26 +151,27 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
 کوردی: لەپاڵ‌یەک، شان‌بەشان، مل‌بەمل، پێ‌بەپێ، پێک‌نزیک، تەنشیت‌بەتەنیشت، ڕێک
 """),
-          const DefinitionKurdish(
-              text: "١. (ھاوەڵکار) شانبەشان ڕێکردن لەگەڵ کەسێک بە ھەمان ئاراستە"
-                  ""),
-          SentencesRow(
-            englishText:
-                "A police car drove abreast of us and signalled us to stop.",
-            kurdishText:
-                "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین.",
-            onPressedBritish: () => speaka2156("en-GB"),
-            onPressedAmerican: () => speaka2156("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (ھاوەڵکار) شانبەشان ڕێکردن لەگەڵ کەسێک بە ھەمان ئاراستە"
+                                  ""),
+                          SentencesRow(
+                            englishText:
+                                "A police car drove abreast of us and signalled us to stop.",
+                            kurdishText:
+                                "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین.",
+                            onPressedBritish: () => speaka2156("en-GB"),
+                            onPressedAmerican: () => speaka2156("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

@@ -79,15 +79,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""abridge""");
   }
 
   Future<void> speakab2561(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("She has been asked to abridge the novel for radio.");
   }
@@ -151,25 +151,27 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     SingleChildScrollView(
-      child: CustomColumnWidget(
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+                      child: CustomColumnWidget(
+                        children: [
+                          const DividerDefinition(),
+                          const KurdishVocabulary(text: """
 کوردی: کورتکردنەوە، زەوتکردن
 """),
-          const DefinitionKurdish(
-              text:
-                  "١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی"
-                  ""),
-          SentencesRow(
-            englishText: "She has been asked to abridge the novel for radio.",
-            kurdishText: "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە.",
-            onPressedBritish: () => speakab2561("en-GB"),
-            onPressedAmerican: () => speakab2561("en-US"),
-          ),
-        ],
-      ),
-    ),
+                          const DefinitionKurdish(
+                              text:
+                                  "١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی"
+                                  ""),
+                          SentencesRow(
+                            englishText:
+                                "She has been asked to abridge the novel for radio.",
+                            kurdishText:
+                                "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە.",
+                            onPressedBritish: () => speakab2561("en-GB"),
+                            onPressedAmerican: () => speakab2561("en-US"),
+                          ),
+                        ],
+                      ),
+                    ),
                   ],
                 ),
               ),

@@ -10,7 +10,8 @@ class EnglishEntryaccompanist extends StatefulWidget {
   const EnglishEntryaccompanist({super.key});
 
   @override
-  State<EnglishEntryaccompanist> createState() => _EnglishEntryaccompanistState();
+  State<EnglishEntryaccompanist> createState() =>
+      _EnglishEntryaccompanistState();
 }
 
 class _EnglishEntryaccompanistState extends State<EnglishEntryaccompanist> {
@@ -76,15 +77,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accompanist""");
   }
-  
+
   Future<void> speakac98832(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("The singer's accompanist on the piano was Charles Harman.");
   }

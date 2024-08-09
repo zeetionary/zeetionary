@@ -10,7 +10,8 @@ class EnglishEntryaccommodating extends StatefulWidget {
   const EnglishEntryaccommodating({super.key});
 
   @override
-  State<EnglishEntryaccommodating> createState() => _EnglishEntryaccommodatingState();
+  State<EnglishEntryaccommodating> createState() =>
+      _EnglishEntryaccommodatingState();
 }
 
 class _EnglishEntryaccommodatingState extends State<EnglishEntryaccommodating> {
@@ -79,15 +80,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accommodating""");
   }
-  
+
   Future<void> speakac24687(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("They are very accommodating to people with special needs.");
   }

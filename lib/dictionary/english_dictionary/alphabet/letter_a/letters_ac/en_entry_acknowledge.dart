@@ -10,7 +10,8 @@ class EnglishEntryacknowledge extends StatefulWidget {
   const EnglishEntryacknowledge({super.key});
 
   @override
-  State<EnglishEntryacknowledge> createState() => _EnglishEntryacknowledgeState();
+  State<EnglishEntryacknowledge> createState() =>
+      _EnglishEntryacknowledgeState();
 }
 
 class _EnglishEntryacknowledgeState extends State<EnglishEntryacknowledge> {
@@ -91,39 +92,39 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""acknowledge""");
   }
-  
+
   Future<void> speakackn1254(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("I have to acknowledge the fact that I am partly responsible.");
   }
 
   Future<void> speakackn1427(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("He does not acknowledge that he has done anything wrong.");
   }
 
   Future<void> speakackn12569(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("He is widely acknowledged as the best player in the world.");
   }
 
   Future<void> speakackn647(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("All applications will be acknowledged.");
   }
 

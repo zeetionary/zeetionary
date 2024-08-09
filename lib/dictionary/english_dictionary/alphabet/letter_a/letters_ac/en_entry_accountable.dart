@@ -10,7 +10,8 @@ class EnglishEntryaccountable extends StatefulWidget {
   const EnglishEntryaccountable({super.key});
 
   @override
-  State<EnglishEntryaccountable> createState() => _EnglishEntryaccountableState();
+  State<EnglishEntryaccountable> createState() =>
+      _EnglishEntryaccountableState();
 }
 
 class _EnglishEntryaccountableState extends State<EnglishEntryaccountable> {
@@ -76,15 +77,15 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""accountable""");
   }
-  
+
   Future<void> speaka65814(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("Someone must be held accountable for the killings.");
   }

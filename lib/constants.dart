@@ -22,6 +22,9 @@ class Constants {
   static const kurd1Path = 'assets/images/kurd_one.png';
 }
 
+const double ttsPitch = 1.0;
+const double ttsSpeechRate = 0.5;
+
 class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   const ZeetionaryAppbar({super.key});
 

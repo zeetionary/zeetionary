@@ -67,6 +67,8 @@ ${englishMeaningConst.text}
 """;
 
     await flutterTts.setLanguage(languageCode);
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
     await flutterTts.speak(textToSpeak);
 
     setState(() {

@@ -13,22 +13,22 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
 
   Future<void> speakNotcomegoamiss(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("not come/go amiss");
   }
 
   Future<void> speakNotcomegoamiss142(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("A little luck wouldn't go amiss right now!");
   }
 
   Future<void> speakNotcomegoamiss78(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
         .speak("I followed them all the way to make sure nothing went amiss.");
   }

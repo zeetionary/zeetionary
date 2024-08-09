@@ -23,8 +23,7 @@ class _EnglishEntryengineState extends State<EnglishEntryengine> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""engine""");
   }
 
@@ -235,53 +234,46 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""I got in the car and started the engine.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""My car had to have a new engine.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""The engine runs on diesel.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""Its engine is powered by both gasoline and electricity.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         """Agriculture is a key engine of growth in most developing countries.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""Great newspapers serve as an engine for positive change.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""He was the engine behind the victory.""");
   }
 

@@ -91,37 +91,32 @@ Usage: informal
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""goose""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""They fed the goose pieces of bread.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""She saw a flock of geese flying in a V formation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Jack goosed her as she reached for a file.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         """The government has done everything possible to goose the economy along.""");
   }

@@ -23,8 +23,7 @@ class _EnglishEntryexpansionState extends State<EnglishEntryexpansion> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""expansion""");
   }
 
@@ -235,16 +234,14 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         """Despite the recession the company is confident of further expansion.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""The expansion of higher education will continue.""");
   }

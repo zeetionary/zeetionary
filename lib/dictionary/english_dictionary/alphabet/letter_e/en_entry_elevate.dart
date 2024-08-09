@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelevate(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("elevate");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelevate(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("elevate");
   }
 
@@ -341,39 +339,34 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelevates1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "He elevated many of his friends to powerful positions within the government.");
   }
 
   Future<void> speakelevates2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "It was an attempt to elevate football to a subject worthy of study.");
   }
 
   Future<void> speakelevates3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("It is important that the injured leg should be elevated.");
   }
 
   Future<void> speakelevates4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("Smoking often elevates blood pressure.");
   }
 
   Future<void> speakelevates5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("The song never failed to elevate his spirits.");
   }
 

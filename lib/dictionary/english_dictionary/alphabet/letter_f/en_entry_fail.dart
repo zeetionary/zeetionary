@@ -23,8 +23,7 @@ class _EnglishEntryfailState extends State<EnglishEntryfail> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""fail""");
   }
 
@@ -235,279 +234,241 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Ultimately all their efforts failed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""I failed in my attempt to persuade her.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""He failed in his bid for the presidency.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""They promised a lot, but utterly failed to deliver.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""I tried to cheer her up, but failed miserably.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Others have tried and failed.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Can we succeed where others have failed?""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""She failed to get into art college.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""The game fails in many respects.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Opponents say it's a policy doomed to fail.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""What will you do if you fail?""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""He failed his driving test.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Students who fail the exam can retake it.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""The restaurant failed a hygiene inspection.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""People failed to recognize her talent.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""If you fail to comply, you can be fined.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Such comments never failed to annoy him.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""I fail to see why you won't even give it a try.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""She cannot fail to be aware of the situation.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""They failed in their duty to protect the public.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""He has repeatedly failed to explain his actions.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""The brakes on my bike failed half way down the hill.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Sadly, his kidneys had failed.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""The plane can still be flown if one engine fails.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""Many of the plane's systems failed before the crash.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Telephone systems can fail during a storm.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         """What happens if your internet connection fails while you are downloading a file?""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Her eyesight is failing.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""The light began to fail.""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""When he lost his job, he felt he had failed his family.""");
   }
 
   Future<void> speaksentence31(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""She tried to be brave, but her courage failed her.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Words fail me.""");
   }
 
   Future<void> speaksentence33(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""The crops failed again last summer.""");
   }
 
   Future<void> speaksentence34(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""The rains had failed and the rivers were dry.""");
   }
 
   Future<void> speaksentence35(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""Several banks failed during the recession.""");
   }
 
   Future<void> speaksentence36(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         """More banks failed as people rushed to withdraw their money.""");
   }
 
   Future<void> speaksentence37(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""I got three passes and one fail.""");
   }
 
   Future<void> speaksentence38(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""My pancakes were an epic fail.""");
   }
 

@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeasily(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("easily");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeasily(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("easily");
   }
 
@@ -341,75 +339,65 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeasilys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("The software is easily available.");
   }
 
   Future<void> speakeasilys2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("I can easily finish it tonight.");
   }
 
   Future<void> speakeasilys3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("The major problems of the city can be easily identified.");
   }
 
   Future<void> speakeasilys4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("We won easily by six goals to two.");
   }
 
   Future<void> speakeasilys5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "Are you sure you locked the gate? You could easily have forgotten.");
   }
 
   Future<void> speakeasilys6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("The situation might all too easily have become a disaster.");
   }
 
   Future<void> speakeasilys7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("It's easily the best play I've seen this year.");
   }
 
   Future<void> speakeasilys8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("She is easily the most experienced teacher in the school.");
   }
 
   Future<void> speakeasilys9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("I get bored easily.");
   }
 
   Future<void> speakeasilys10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("He's easily distracted.");
   }
 

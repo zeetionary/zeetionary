@@ -23,8 +23,7 @@ class _EnglishEntryemuState extends State<EnglishEntryemu> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("emu");
   }
 
@@ -235,8 +234,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("Emus grow to almost two metres and can run at nearly 50 kph.");
   }

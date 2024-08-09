@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakemail(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("email");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakemail(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("email");
   }
 
@@ -341,61 +339,53 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemails1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "I will be on vacation for a week in November, with no access to email.");
   }
 
   Future<void> speakemails2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("Membership notifications go out through email in the fall.");
   }
 
   Future<void> speakemails3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("Each of the rooms has internet and email access.");
   }
 
   Future<void> speakemails4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("We've been exchanging emails over the past few weeks.");
   }
 
   Future<void> speakemails5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("I got an email from Andrew last week.");
   }
 
   Future<void> speakemails6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("Reading email has become the first task of the morning.");
   }
 
   Future<void> speakemails7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("Patrick emailed me yesterday.");
   }
 
   Future<void> speakemails8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("I'll email the documents to her.");
   }
 

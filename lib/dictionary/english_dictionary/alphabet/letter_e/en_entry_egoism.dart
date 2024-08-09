@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakegoism(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("egoism");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakegoism(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("egoism");
   }
 
@@ -341,16 +339,14 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakegoisms1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "His egoism prevented him from really loving anyone but himself.");
   }
 
   Future<void> speakegoisms2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "Finding herself world-famous by the time she was 18 only encouraged the actress's egotism.");
   }

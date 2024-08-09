@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelector(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("elector");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelector(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("elector");
   }
 
@@ -341,8 +339,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelectors1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("Not all the registered electors actually voted.");
   }
 

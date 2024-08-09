@@ -272,8 +272,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelderstatesman(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("elder statesman");
   }
 
@@ -321,8 +320,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelderstatesman(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("elder statesman");
   }
 
@@ -343,8 +341,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelderstatesmans1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("He is one of the medical profession's elder statesmen.");
   }

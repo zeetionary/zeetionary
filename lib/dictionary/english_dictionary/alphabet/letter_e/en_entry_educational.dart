@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeducational(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("educational");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeducational(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("educational");
   }
 
@@ -342,38 +340,33 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeducationals1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("Are educational standards falling?");
   }
 
   Future<void> speakeducationals2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("She has no formal educational qualifications.");
   }
 
   Future<void> speakeducationals3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "The two women were from similar social and educational backgrounds.");
   }
 
   Future<void> speakeducationals4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("She fought for educational opportunities for women.");
   }
 
   Future<void> speakeducationals5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("Watching television can be very educational.");
   }
 

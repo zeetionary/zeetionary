@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakearthquake(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("earthquake");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakearthquake(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("earthquake");
   }
 
@@ -341,38 +339,33 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakearthquakes1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("I was asleep when the earthquake struck.");
   }
 
   Future<void> speakearthquakes2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("Much of the town was destroyed in the earthquake.");
   }
 
   Future<void> speakearthquakes3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("It was the biggest earthquake ever recorded in the US.");
   }
 
   Future<void> speakearthquakes4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "The area has not experienced a major earthquake in more than 700 years.");
   }
 
   Future<void> speakearthquakes5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("The earthquake hit the city at two in the morning.");
   }

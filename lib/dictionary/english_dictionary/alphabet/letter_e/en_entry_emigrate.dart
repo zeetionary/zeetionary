@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakemigrate(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("emigrate");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakemigrate(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("emigrate");
   }
 
@@ -341,16 +339,14 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemigrates1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "The family left Czechoslovakia in 1968 and emigrated to America.");
   }
 
   Future<void> speakemigrates2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "Many people who emigrated experienced poverty and racism when they arrived.");
   }

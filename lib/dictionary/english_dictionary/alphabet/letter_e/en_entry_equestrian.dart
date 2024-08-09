@@ -23,8 +23,7 @@ class _EnglishEntryequestrianState extends State<EnglishEntryequestrian> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""equestrian""");
   }
 
@@ -235,8 +234,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         """They plan to hold the Olympics' equestrian events in another part of the city.""");
   }

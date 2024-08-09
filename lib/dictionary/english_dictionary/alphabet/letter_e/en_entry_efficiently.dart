@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakefficiently(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("efficiently");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakefficiently(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("efficiently");
   }
 
@@ -342,16 +340,14 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakefficientlys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("Resources must be used efficiently to avoid waste.");
   }
 
   Future<void> speakefficientlys2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "If markets fail or do not work efficiently, government has a role to play.");
   }

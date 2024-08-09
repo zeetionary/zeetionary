@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakemergent(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("emergent");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakemergent(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("emergent");
   }
 
@@ -341,8 +339,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemergents1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "The agencies are using the money to promote emergent technologies.");
   }

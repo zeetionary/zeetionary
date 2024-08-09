@@ -24,8 +24,7 @@ class _EnglishEntryfeedingbottleState extends State<EnglishEntryfeedingbottle> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""feeding bottle""");
   }
 
@@ -236,8 +235,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         """The survey reveals that 80% of dads help with the bottle-feeding.""");
   }

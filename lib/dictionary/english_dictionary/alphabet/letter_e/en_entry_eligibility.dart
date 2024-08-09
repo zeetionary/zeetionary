@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeligibility(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("eligibility");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeligibility(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("eligibility");
   }
 
@@ -342,16 +340,14 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeligibilitys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "Marriage to a national gave automatic eligibility for citizenship.");
   }
 
   Future<void> speakeligibilitys2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "She assessed each of her students to determine their eligibility to take the higher exam.");
   }

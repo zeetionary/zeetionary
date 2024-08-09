@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelectrician(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("electrician");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelectrician(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("electrician");
   }
 
@@ -342,16 +340,14 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelectricians1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("We need to call in an electrician to sort out the wiring.");
   }
 
   Future<void> speakelectricians2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("The electrician has diagnosed a fault in the wiring.");
   }

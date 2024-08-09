@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelucidation(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("elucidation");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelucidation(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("elucidation");
   }
 
@@ -342,16 +340,14 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelucidations1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("Their objectives and methods require further elucidation.");
   }
 
   Future<void> speakelucidations2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("These figures need elucidation.");
   }
 

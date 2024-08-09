@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelectronics(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("electronics");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelectronics(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("electronics");
   }
 
@@ -342,32 +340,28 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelectronicss1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "In the electronics industry, for instance, 5000 jobs are being lost.");
   }
 
   Future<void> speakelectronicss2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("A degree in electronics helped her get a job in tech.");
   }
 
   Future<void> speakelectronicss3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("About 45 000 people worked in electronics in Scotland.");
   }
 
   Future<void> speakelectronicss4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("Their company merged with a Japanese electronics giant.");
   }

@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelectrically(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("electrically");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelectrically(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("electrically");
   }
 
@@ -342,8 +340,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelectricallys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "The system can be connected to virtually any type of electrically controlled device.");
   }

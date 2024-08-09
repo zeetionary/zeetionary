@@ -10,7 +10,8 @@ class EnglishEntrygodforsaken extends StatefulWidget {
   const EnglishEntrygodforsaken({super.key});
 
   @override
-  State<EnglishEntrygodforsaken> createState() => _EnglishEntrygodforsakenState();
+  State<EnglishEntrygodforsaken> createState() =>
+      _EnglishEntrygodforsakenState();
 }
 
 class _EnglishEntrygodforsakenState extends State<EnglishEntrygodforsaken> {
@@ -75,15 +76,13 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""godforsaken""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""I can't stand living in this godforsaken hole.""");
   }

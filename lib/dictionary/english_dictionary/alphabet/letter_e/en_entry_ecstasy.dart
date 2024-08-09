@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakecstasy(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("ecstasy");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakecstasy(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("ecstasy");
   }
 
@@ -341,24 +339,21 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakecstasys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("He had never felt such ecstasy as he did that night.");
   }
 
   Future<void> speakecstasys2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("I was in sheer ecstasy over the prospect of meeting her.");
   }
 
   Future<void> speakecstasys3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "She received visions and ecstasies, sharing in the saint's sufferings.");
   }

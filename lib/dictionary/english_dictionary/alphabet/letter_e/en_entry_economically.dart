@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeconomically(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("economically");
   }
 
@@ -321,8 +320,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeconomically(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("economically");
   }
 
@@ -343,38 +341,33 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeconomicallys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("The factory is no longer economically viable.");
   }
 
   Future<void> speakeconomicallys2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("Economically, the centre of Spain has lost its dominant role.");
   }
 
   Future<void> speakeconomicallys3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("Changes have taken place both economically and politically.");
   }
 
   Future<void> speakeconomicallys4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("I'll do the job as economically as possible.");
   }
 
   Future<void> speakeconomicallys5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("Learn to express yourself more economically.");
   }
 

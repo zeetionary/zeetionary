@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakearnestly(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("earnestly");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakearnestly(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("earnestly");
   }
 
@@ -341,15 +339,13 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakearnestlys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("He gazed earnestly into my eyes.");
   }
 
   Future<void> speakearnestlys2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "He hopes school officials will continue to work earnestly to ensure the rights of their minority students.");
   }

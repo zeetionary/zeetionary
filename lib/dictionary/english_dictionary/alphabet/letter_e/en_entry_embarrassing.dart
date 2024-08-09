@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakembarrassing(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("embarrassing");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakembarrassing(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("embarrassing");
   }
 
@@ -342,47 +340,41 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakembarrassings1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("His terrible acting is just embarrassing to watch.");
   }
 
   Future<void> speakembarrassings2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "It can be embarrassing for children to tell complete strangers about such incidents.");
   }
 
   Future<void> speakembarrassings3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("It was so embarrassing having to sing in public.");
   }
 
   Future<void> speakembarrassings4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "My mother's presence made the situation even more embarrassing.");
   }
 
   Future<void> speakembarrassings5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("This EU ruling puts Britain in a very embarrassing position.");
   }
 
   Future<void> speakembarrassings6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "The report is likely to prove highly embarrassing to the government.");
   }

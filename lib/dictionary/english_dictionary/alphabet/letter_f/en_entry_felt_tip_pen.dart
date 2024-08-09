@@ -74,15 +74,13 @@ ${englishMeaningConst.text}
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""felt-tip pen""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("""I marked the location on a map with a felt-tip pen.""");
   }
@@ -147,7 +145,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
                     const DefinitionKurdish(
                         text:

@@ -270,8 +270,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakearlobe(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("earlobe");
   }
 
@@ -319,8 +318,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakearlobe(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("earlobe");
   }
 
@@ -341,15 +339,13 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakearlobes1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("She pierced her earlobe for earrings.");
   }
 
   Future<void> speakearlobes2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("He felt a slight pain in his earlobe.");
   }
 

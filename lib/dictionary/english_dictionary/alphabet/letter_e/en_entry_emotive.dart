@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakemotive(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("emotive");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakemotive(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("emotive");
   }
 
@@ -342,8 +340,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemotives1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("Animal experimentation is a highly emotive issue.");
   }
 

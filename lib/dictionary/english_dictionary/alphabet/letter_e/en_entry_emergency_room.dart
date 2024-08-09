@@ -272,8 +272,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakemergencyroom(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("emergency room");
   }
 
@@ -322,8 +321,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakemergencyroom(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("emergency room");
   }
 
@@ -344,8 +342,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemergencyrooms1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("She had to be rushed to the emergency room.");
   }
 

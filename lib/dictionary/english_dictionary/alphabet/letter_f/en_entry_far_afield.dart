@@ -13,15 +13,13 @@ class EnglishEntryfarafield extends StatelessWidget {
 
   Future<void> speakFarafield(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("far afield");
   }
 
   Future<void> speakFaraf45228(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "We export our products to countries as far afield as Japan and Canada.");
   }

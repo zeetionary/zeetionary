@@ -23,8 +23,7 @@ class _EnglishEntryensuiteState extends State<EnglishEntryensuite> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("""en suite""");
   }
 
@@ -235,8 +234,7 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         """Each bedroom in the hotel has a bathroom en suite/an en-suite bathroom.""");
   }
@@ -250,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(
               text:

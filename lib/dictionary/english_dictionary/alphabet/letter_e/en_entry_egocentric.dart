@@ -271,8 +271,7 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakegocentric(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("egocentric");
   }
 
@@ -320,8 +319,7 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakegocentric(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("egocentric");
   }
 
@@ -342,23 +340,20 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakegocentrics1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak(
         "Young children are usually egocentric because they haven’t learnt other forms of behaviour.");
   }
 
   Future<void> speakegocentrics2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("I find her very egocentric.");
   }
 
   Future<void> speakegocentrics3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("He was a supremely egocentric man.");
   }
 

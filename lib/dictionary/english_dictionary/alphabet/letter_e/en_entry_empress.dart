@@ -24,8 +24,7 @@ class _EnglishEntryempressState extends State<EnglishEntryempress> {
 
   Future<void> speakempress(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("empress");
   }
 
@@ -190,16 +189,14 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakempresss1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts
         .speak("She became an empress after her husband's coronation.");
   }
 
   Future<void> speakempresss2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
+
     await flutterTts.speak("The empress issued a decree to improve trade.");
   }
 

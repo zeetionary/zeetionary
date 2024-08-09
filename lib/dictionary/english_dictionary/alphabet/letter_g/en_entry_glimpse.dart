@@ -247,7 +247,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەزموونکردنی شتێک بە کورتی کە یارمەتیت دەدات لێی تێ بگەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The programme gives us a rare glimpse of a great artist at work.""",
@@ -269,7 +268,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) بینینی کەسێک/شتێک بۆ ماوەیەکی کەم و بە ناڕوونی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He'd glimpsed her through the window as he passed.""",
@@ -289,7 +287,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) دەستکردن بە تێگەشتن لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Suddenly she glimpsed the truth about her sister.""",

@@ -219,7 +219,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ھەستێکی پڕ لە ڕق"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She replied with words full of venom and gall.""",
@@ -232,7 +231,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ھەڵاوسانێک لەسەر درەخت، ڕووەک، یان جەستەی ئاژەڵ کە بەھۆی نەخۆشییەوە درووست دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """One of the best plants to examine for galls is an oak tree.""",
@@ -254,7 +252,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) واکردنی ئەوەی کەسێک ھەست بە بێزاری یان تووڕەیی بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It galls me to have to apologize to her.""",

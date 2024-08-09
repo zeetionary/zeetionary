@@ -1199,7 +1199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) چوونە شوێنێکی دیاریکراو لەگەڵ کەسێکی دیکە بۆ ئەوەی ئامادە بیت لە بۆنەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Are you going to Dave's party?""",
                       kurdishText: """دەچیتە ئاھەنگەکەی دەیڤ؟""",
@@ -1242,7 +1241,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) چوون بە ئاراستەیەکی دیاریکراو یان بە مەودایەکی دیاریکراودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's going too fast.""",
                       kurdishText: """زۆر خێرا دەچێت.""",
@@ -1296,7 +1294,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ڕۆشتن بە شێوەیەکی دیاریکراو، یان لە کاتی کردنی شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She crashed into a waiter and his tray of drinks went flying.""",
@@ -1426,7 +1423,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) جێھێشتنی شوێنێک و کردنی شتێکی جیاوازتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Richard has gone on leave for two weeks.""",
@@ -1449,7 +1445,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) چوونە شوێنێک بە مەبەستێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I have to go to hospital for an operation.""",
@@ -1498,7 +1493,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) سەردانکردنی لاپەڕە یان وێبسایتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She went on Facebook and removed her as a friend.""",
@@ -1519,7 +1513,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) جێھێشتنی شوێنێک یان چوونە شوێنێک بۆ بەژداری لە چالاکییەک یان وەرزشێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Shall we go for a drink (= at a pub or bar) after work?""",
@@ -1543,7 +1536,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (کردار) ئەوەی شتێک بنێردرێت بۆ شوێنێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I want this memo to go to all managers.""",
@@ -1555,7 +1547,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (کردار) بۆ باسکردنی تێپەڕینی کات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hasn't the time gone quickly?""",
                       kurdishText: """کات زوو تێنەپەڕیوە؟""",
@@ -1594,7 +1585,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (کردار) چوون یان درێژبوونەوە بە ئاراستەیەکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Where does this road go?""",
                       kurdishText: """ئەم ڕێگایە بۆ کوێ دەچێت؟""",
@@ -1630,7 +1620,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٤. (کردار) ئەوەی لە شوێنی خۆی دابندرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This dictionary goes on the top shelf.""",
                       kurdishText: """فەرھەنگەکە ھی ڕەفەی سەرەوەیە.""",
@@ -1649,7 +1638,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (کردار) بۆ گوتنی ئەوەی شتێک لە جێگایەک جێی نابێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """My clothes won't all go in that one suitcase.""",
@@ -1670,7 +1658,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٦. (کردار) بۆ باسکردنی بەرەوپێشچوونی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Did everything go smoothly?""",
                       kurdishText: """ھەموو شت بێ کێشە تێپەڕی؟""",
@@ -1705,7 +1692,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٧. (کردار) بۆ گوتنی ئەوەی کەسێک/شتێک چووەتە دۆخێکی دیاریکراو یان لێی دەرچووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She went to sleep.""",
                       kurdishText: """خەوی لێکەوت.""",
@@ -1765,7 +1751,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٨. (کردار) ئەوەی گۆڕان ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's beginning to go blind.""",
                       kurdishText: """خەریکە کوێر دەبێت.""",
@@ -1814,7 +1799,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٩. (کردار) ژیانکردن بە شێوەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She cannot bear the thought of children going hungry.""",
@@ -1836,7 +1820,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢٠. (کردار) بەسەربردنی کاتێکی دیاریکراو بە شێوەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They went for two weeks without receiving any news.""",
@@ -1849,7 +1832,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢١. (کردار) ئەوەی شتێک ببیندرێت، باس بکرێت، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Pippa's absence went unnoticed.""",
                       kurdishText:
@@ -1886,7 +1868,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢٢. (کردار) ئەوەی دەنگێک یان جووڵەیەکی دیاریکراو دەربکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She went like this with her hand.""",
                       kurdishText: """بە دەستی ئەمەی کرد.""",
@@ -1904,7 +1885,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢٣. (کردار) ئەوەی دەنگێک دەربکرێت وەک ئاماژە بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The whistle went for the end of the game.""",
@@ -1916,7 +1896,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢٤. (کردار) ئەوەی ژمارەیەک بە ڕێژەیەکی تەواو لە ژمارەیەکی دیکەدا ھەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """3 into 12 goes 4 times.""",
                       kurdishText: """٤ جار ٣ ھەیە لە ١٢ ــدا.""",
@@ -1928,14 +1907,13 @@ ${englishMeaningConst.text}
                       kurdishText: """٧ نییە لە ١٥ ــدا.""",
                       englishNote: """Also: 7 won’t go into 15.
                       
-                      American English: 7 into 15 doesn’t go.""",
+American English: 7 into 15 doesn’t go.""",
                       onPressedBritish: () => speaksentence83("en-GB"),
                       onPressedAmerican: () => speaksentence83("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٥. (کردار) ئەوەی لەگەڵ شتێک بگونجێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Does this jacket go with this skirt?""",
                       kurdishText: """ئەم چاکەتەکە لەگەڵ تەنوورەکە دەگونجێت؟""",
@@ -1970,7 +1948,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢٦. (کردار) بۆ گوتنی ئەوەی گۆرانییەک یان ھۆنراوەیەک چی وشەیەک یان تیونێکی تێدایە، یان ئەوەی چی ڕوودەدات لە چیرۆکێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How does that song go?""",
                       kurdishText: """ئەو گۆرانییە چۆنە؟""",
@@ -2003,7 +1980,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢٧. (کردار) گوتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I asked ‘How much?’ and he goes, ‘Fifty’ and I go, ‘Fifty? You must be joking!’""",
@@ -2015,7 +1991,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٨. (کردار) دەستپێکردنی چالاکییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As soon as he gets here we're ready to go.""",
@@ -2026,7 +2001,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٩. (کردار) ئەوەی ئامێرێک کار بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This clock doesn't go.""",
                       kurdishText: """ئەم کاتژمێرە کار ناکات.""",
@@ -2043,7 +2017,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣٠. (کردار) ئەوەی کە بتەوێت شتێک فڕێ بدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The old sofa will have to go.""",
                       kurdishText: """قەنەفە کۆنەکە دەبێت فڕێ بدرێت.""",
@@ -2061,7 +2034,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣١. (کردار) ئەوەی شتێک زیانی پێ بگات یان لە کارکردن بکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her sight is beginning to go.""",
                       kurdishText: """بینایی خەریکە نامێنێت.""",
@@ -2094,7 +2066,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣٢. (کردار) مردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You can't take your money with you when you go.""",
@@ -2105,7 +2076,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣٣. (کردار) کە پارە بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I don't know where the money goes!""",
                       kurdishText: """نازانم پارەکە لە چیدا خەرج دەکرێت.""",
@@ -2141,7 +2111,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣٤. (کردار) ئەوەی بفرۆشرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We won't let the house go for less than £200 000.""",
@@ -2163,7 +2132,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣٥. (کردار) ئەوەی ئامادە بیت بڕە پارەیەکی دیاریکراو بە شتێک بدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'll go to £1 000 but that's my limit.""",
                       kurdishText: """١٠٠٠ پاوەند دەدەم بەڵام ئەوە ئەوپەڕمە.""",
@@ -2183,7 +2151,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣٦. (کردار) یارمەتیدان؛ بەژداری لە کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This all goes to prove my theory.""",
                       kurdishText:
@@ -2203,7 +2170,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣٧. (کردار) ئەوەی شتێک بەردەست ببێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There just aren't any jobs going in this area.""",
@@ -2214,7 +2180,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣٨. (کردار) چوونە سەرئاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Do you need to go, Billy?""",
                       kurdishText: """پێویستت بە چوونە سەرئاوە، بیڵی؟""",
@@ -2225,7 +2190,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣٩. (ناو) نۆرەی کەسێک کە یاری بکات یان بەژداری چالاکییەک بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Whose go is it?""",
                       kurdishText: """نۆرەی کێیە؟""",
@@ -2249,7 +2213,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤٠. (ناو) ھەوڵدانی کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It took three goes to get it right.""",
                       kurdishText:
@@ -2269,7 +2232,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤١. (ناو) وزە و تامەزرۆیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Mary's always got plenty of go.""",
                       kurdishText: """ماری ھەمیشە تامەزرۆیی زۆری ھەیە.""",

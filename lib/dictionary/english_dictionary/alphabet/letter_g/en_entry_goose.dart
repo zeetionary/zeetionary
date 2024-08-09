@@ -185,9 +185,9 @@ Usage: informal
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text: """١. (ناو) قاز؛ قازی مێینە؛ گۆشتی قاز"""),
                     SentencesRow(
@@ -207,7 +207,6 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) دەستدان لە سمتی کەسێک بە خێرایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Jack goosed her as she reached for a file.""",
@@ -220,7 +219,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی شتێک بجووڵێنیت یان خێراتر کار بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The government has done everything possible to goose the economy along.""",

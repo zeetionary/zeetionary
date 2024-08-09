@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) زۆرینەی کەس یان شت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This view is held by the generality of leading scholars.""",
@@ -195,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی کە شتێک گشتگیر بێت نەک بچێتە ناو وردەکاری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """An account of such generality is of little value.""",

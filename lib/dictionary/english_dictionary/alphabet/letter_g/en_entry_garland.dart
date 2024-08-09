@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ڕازاندنەوە یان پێدانی تاجەگوڵینە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They garlanded the visitors with scented flowers.""",

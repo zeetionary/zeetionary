@@ -245,7 +245,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) گۆڵ تۆمارکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She scored twenty goals in her first season.""",

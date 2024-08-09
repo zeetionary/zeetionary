@@ -232,7 +232,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کۆمەڵێک کەس کە کاتی زۆر پێکەوە بەسەر دەبەن و زۆرجار کێشە درووست دەکەن و شەڕ لەگەڵ گرووپی دیکە دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We were all in the same gang.""",
                       kurdishText: """ھەموومان لە ھەمان گرووپ بووین.""",
@@ -258,7 +257,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ژمارەیەک ھاوڕێ کە زوو زوو یەکدی دەبینن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The whole gang will be there.""",
                       kurdishText: """تەواوی ھاوڕێیان لەوێ دەبن.""",
@@ -278,7 +276,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) گرووپێکی ڕێکخراو لە تاوانباران یان زیندانییان کە پێکەوە کار دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The work was done by convicts working in gangs.""",

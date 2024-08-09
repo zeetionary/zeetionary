@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە دڵخۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She waved gaily to the little crowd.""",
                       kurdishText:
@@ -190,7 +189,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بەبێ ئەوەی گرنگی بە کاریگەرییەکەی لەسەر کەسانی دیکە بدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She gaily announced that she was leaving the next day.""",

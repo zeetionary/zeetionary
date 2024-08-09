@@ -232,7 +232,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) بە لەبەرچاوگرتنی ھەموو لایەنەکانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They sent a global email to all staff.""",
                       kurdishText:
@@ -253,7 +252,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە لەسەر تەواوی فایلێک یان پڕۆگرامێک کار دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We ran a global search on the database.""",

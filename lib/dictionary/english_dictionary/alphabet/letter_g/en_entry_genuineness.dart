@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەوەی کە بکرێت متمانەی پێ بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """There was a genuineness about her.""",
                       kurdishText: """سەڕاستییەکی تێدا بوو.""",

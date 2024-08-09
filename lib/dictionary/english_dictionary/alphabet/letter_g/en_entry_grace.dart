@@ -263,7 +263,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ڕەفتارێک کە بەڕێزەوەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He conducted himself with grace and dignity throughout the trial.""",
@@ -276,7 +275,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) جۆرە ڕەفتارێک کە خەڵکی بە خەڵکی بەڕێزەوە سەیری دەکەن و بە پەسەندی دادەنێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was not particularly well versed in the social graces.""",
@@ -289,7 +287,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) کاتێکی زیادە کە بە کەسێک دەدرێت بۆ ئەوەی پارەیەک بداتەوە، کارێک تەواو بکات، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They've given me a month's grace to get the money.""",
@@ -301,7 +298,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) خۆشەویستی خودا بۆ مرۆڤ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was only by the grace of God that they survived.""",
@@ -313,7 +309,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) نزای پێش نانخواردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Let's say grace.""",
                       kurdishText: """با شوکرانەبژێری بکەین.""",
@@ -323,7 +318,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) جوانتر پیشاندانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We sat at a small table graced with a vase of fresh flowers.""",
@@ -336,7 +330,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) ئەوەی شکۆ بۆ شتێک بھێنیت؛ ئەوەی بەژداری شتێک بکەیت وەک کەسێکی گرنگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The occasion was graced by the presence of Lord and Lady Thomson.""",

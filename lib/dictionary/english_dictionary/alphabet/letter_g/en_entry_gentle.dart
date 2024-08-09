@@ -266,7 +266,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە بەھێز و زۆر نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Cook over a gentle heat.""",
                       kurdishText: """لەسەر گەرمییەکی کەم لێی بنێ.""",
@@ -277,7 +276,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە بەھێز و توند نییە؛ کە کاریگەریی کەمە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The doctor recommended a little gentle exercise.""",

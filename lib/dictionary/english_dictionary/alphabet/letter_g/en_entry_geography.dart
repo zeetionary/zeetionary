@@ -209,9 +209,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "geography", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -255,7 +255,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شێوازی درووستبوونی تایبەتمەندییەکانی فیزیکییەکانی شوێنێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These streets had a very particular geography.""",
@@ -284,7 +283,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو شێوازەی کە لایەنێکی دیاریکراوی کۆمەڵگا یان ژیان کاریگەرە بە جوگرافیا یان بە پێی جوگرافیا دەگۆڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The geography of poverty and the geography of voting are connected.""",
@@ -296,7 +294,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) وڵات، ناوچە، یان ھەرێم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We are now operational across multiple geographies.""",

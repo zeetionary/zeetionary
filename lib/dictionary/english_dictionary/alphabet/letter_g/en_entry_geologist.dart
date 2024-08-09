@@ -146,9 +146,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە شارەزایی ھەیە لە زانستی لێکۆڵینەوە لە پێکھاتەی زەوی، لە نێوانیاندا بنەچە و مێژووی ئەو بەرد و خۆڵەی کە زەوی پێکدەھێنن"""),

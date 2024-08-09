@@ -236,7 +236,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە دەیکەیت یان دەیڵێیت کە ھەستێک یان نیازێک پیشان دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They sent some flowers as a gesture of sympathy to the parents of the child.""",

@@ -195,7 +195,6 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کارێک، بە تایبەتی کە بۆ کاتییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She landed her first gig on a kids' TV show.""",
@@ -216,7 +215,6 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) پێشکەشکردنی نمایشی میوزیکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We were gigging two or three nights a week.""",

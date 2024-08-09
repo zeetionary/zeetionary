@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ئەوەی لە ڕەفتارت بەڕێز و بەخشندە بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His father had always taught him to be graceful in defeat.""",

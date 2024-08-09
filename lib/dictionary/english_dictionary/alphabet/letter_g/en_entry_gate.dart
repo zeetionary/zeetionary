@@ -307,7 +307,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دەرچەیەک کە دەکرێت بە دەرگایەک بگیرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I was slightly nervous as I entered the gates.""",
@@ -344,7 +343,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ڕێڕەوی فڕۆکەخانە کە لێیەوە گەشتیاران بەرەو فڕۆکەکانیان دەچن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Passengers for Paris should proceed to gate 8.""",
@@ -366,7 +364,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) بەربەستێک کە ڕێگری لە جووڵەی ئاو دەکات لە ڕووبارێک یان کەناڵێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They installed a new sluice gate at the dam.""",
@@ -379,7 +376,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ژمارەی ئەو کەسانەی بەژداری بۆنەیەکی وەرزشی دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Tonight's game has attracted the largest gate of the season.""",
@@ -392,7 +388,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) قازانجی فرۆشتنی بلیت بۆ یارییەکی وەرزشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Today's gate will be given to charity.""",
                       kurdishText:

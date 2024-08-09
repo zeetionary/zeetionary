@@ -164,9 +164,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gentile", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە جوولەکە نییە"""),
@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە باس لە کەسێک دەکات کە جوو نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Our gentile neighbours remained loyal to us and continued to maintain a friendly relationship.""",

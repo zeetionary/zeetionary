@@ -246,7 +246,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) یادەوەری شتێک، بە تایبەتی شتی خراپ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The ghost of anti-Semitism still haunts Europe.""",
@@ -259,7 +258,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ڕێژەیەکی زۆر کەم لە شتێک کە ماوەتەوە یان ئەوەی کە دڵنیا نیت بوونی ھەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There was a ghost of a smile on his face.""",
@@ -270,7 +268,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) جووڵان بە بێ‌دەنگی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They ghosted up the smooth waters of the river.""",
@@ -282,7 +279,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) لەناکاو کۆتایی ھێنان بە پەیوەندی لەگەڵ کەسێک بۆ ئەوەی پەیوەندییەکە بپچڕێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When you're ghosted, it's difficult, because you may hang on to false hope.""",

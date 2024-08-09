@@ -315,7 +315,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئاستی گێڕی ئۆتۆمبێل کە خێرایی و ھێزی جیاواز بەکاردێنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Does your car have five or six gears?""",
                       kurdishText: """ئۆتۆمبێلەکەت پێنج یان شەش گێڕی ھەیە؟""",
@@ -377,7 +376,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو کەرەستە و جلانەی بۆ چالاکییەکی دیاریکراو پێویستن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She had her running gear on.""",
                       kurdishText: """جلی ڕاکردنی لەبەربوو.""",
@@ -413,7 +411,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ناو) جلوبەرگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her friends were all wearing the latest gear.""",
@@ -434,7 +431,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) ئەو شتانەی کەسێک ھەیەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I've left all my gear at Dave's house.""",
                       kurdishText:
@@ -446,7 +442,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ئامێرێک کە بۆ مەبەستێکی تایبەتی بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They inspected the lifting gear before use.""",
@@ -459,7 +454,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) بۆ باسکردنی ھەوڵ و خێرایی کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The party organization is moving into top gear as the election approaches.""",
@@ -479,7 +473,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٨. (ناو) مادەی ھۆشبەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The traffickers knew that there would always be someone willing to move the gear.""",

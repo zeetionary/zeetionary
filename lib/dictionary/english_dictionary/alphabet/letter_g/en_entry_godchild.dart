@@ -146,9 +146,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) منداڵێک/کوڕێک/کچێک کە لە مەراسیمی تەوفنیدا ھەندێک لە پەروەردەی لایەنی ئەخلاقی و ئایینیی دەدرێت بە دوو کەسی دیکە کە زۆرجار کەسانی نزیکی دایک و باوکیین"""),

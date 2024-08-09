@@ -217,7 +217,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) پەیوەندیدار بە کەسێکی گەی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They danced all night at the gay club.""",
                       kurdishText:
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) دڵخۆش و پڕ لە خۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She felt lighthearted and gay.""",
                       kurdishText: """کاتێکی بێ‌کێشە و دڵخۆشانەمان ھەبوو.""",
@@ -238,7 +236,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) کە ڕەنگی درەوشاوەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The streets were gay and full of people.""",

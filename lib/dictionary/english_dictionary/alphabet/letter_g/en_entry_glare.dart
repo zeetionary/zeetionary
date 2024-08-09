@@ -235,7 +235,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) درەوشانەوە بە توندی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The sun was glaring right in my eyes.""",
                       kurdishText: """خۆرەکە ڕێک دەدرەوشایەوە بە ناوچاومدا.""",
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ڕووناکییەکی زۆر توند"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """For a moment she was blinded by the harsh glare of the sun.""",
@@ -266,7 +264,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) سەیرکردنی توند و زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He sent her a glare that was full of suspicion.""",

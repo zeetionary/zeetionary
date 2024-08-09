@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شوێنێک کە پێڕۆ چاکدەکرێتەوە، دەتوانیت ئۆتۆمبێلی تازە بکڕیت، یان بەنزین یان گاز بۆ ئۆتۆمبێلەکەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I had to take the car to the garage.""",
                       kurdishText: """پێویست بوو ئۆتۆمبێلەکە ببەمە گەراجەکە.""",
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) دانانی ئۆتۆمبێل لە گەراج"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They have space to garage two cars.""",
                       kurdishText:

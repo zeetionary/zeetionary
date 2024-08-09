@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) پیاھەڵدان و پەرستشی خودا یان کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A statue was erected to glorify the country's national heroes.""",

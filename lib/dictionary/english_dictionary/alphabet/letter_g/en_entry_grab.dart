@@ -372,7 +372,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ھەوڵدان بۆ گرتنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She grabbed at the branch, missed and fell.""",
@@ -419,7 +418,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ئەوەی شتێک بە خێرایی بخۆیت یان بیبەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Let's grab a sandwich before we go.""",
                       kurdishText: """با لەفەیک بخۆین پێش ئەوەی بچین.""",
@@ -445,7 +443,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) ئەوەی شتێک بۆ خۆت ببەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """By the time we arrived, someone had grabbed all the good seats.""",
@@ -457,7 +454,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) ئەوەی سەرنجی کەسێک ڕابکێشیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'll see if I can grab the waitress and get the bill.""",
@@ -479,7 +475,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) ھەوڵێکی لەناکاو بۆ گرتن یان بردنی کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He made a grab for her bag.""",
                       kurdishText: """ھەوڵێ بردنی جانتاکەیی دا.""",

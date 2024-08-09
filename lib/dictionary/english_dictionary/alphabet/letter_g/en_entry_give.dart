@@ -782,7 +782,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) پێدان وەک دیاری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """What are you giving your father for his birthday?""",
@@ -843,7 +842,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) پێدانی شتێک بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were all thirsty so I gave them a drink.""",
@@ -1009,7 +1007,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) بەخشینی پارە بۆ یارمەتیدانی خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We need your help—please give generously.""",
@@ -1038,7 +1035,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) پارەدان بۆ کردن یان ھەبوونی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'll give you £100 and not a penny more!""",
@@ -1065,7 +1061,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) لەگەڵ ناو بەکاردێت بۆ باسکردنی کارێکی دیاریکراو، و ھەمان واتا ناوەکە دەدا بە کرداری """),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She gave a shrug of her shoulders (= shrugged).""",
@@ -1137,7 +1132,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) درووستکردنی ھەستێکی دیاریکراو لای کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """All that driving has given me a headache.""",
@@ -1148,7 +1142,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) پەیوەندی کردن بە کەسێکەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Give me a call tomorrow.""",
                       kurdishText: """سبەی پەیوەندیم پێوە بکە.""",
@@ -1165,7 +1158,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (کردار) بڕیاردان لە ئاستی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I give it ten out of ten for originality.""",
@@ -1192,7 +1184,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (کردار) گواستنەوەی نەخۆشییەک بۆ کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You've given me your cold.""",
                       kurdishText: """ھەڵامەتەکەتت تووشم کردووە.""",
@@ -1210,7 +1201,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (کردار) ئەوەی سزایەک تووشی کەسێک بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The judge gave him a nine-month suspended sentence.""",
@@ -1232,7 +1222,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (کردار) ڕێکخستنی ئاھەنگێک و بانگھێشتنی خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We're giving a party to celebrate our silver wedding.""",
@@ -1245,7 +1234,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (کردار) ئەنجامدانی نمایشێک لە پێش خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He gave a rousing performance of the Bob Marley song.""",
@@ -1267,7 +1255,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (کردار) بەکارھێنانی کات، وزە. ھتد بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I gave the matter a lot of thought.""",
                       kurdishText: """بیرکردنەوەی زۆرم دا بە کێشەکە.""",
@@ -1289,7 +1276,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (کردار) پێشبینی کردنی ئەوەی شتێک بۆ ماوەیەکی دیاریکراو بەردەوام دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """That marriage won't last. I'll give them two years at the outside.""",
@@ -1302,7 +1288,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٦. (کردار) ئەوەی بڕیار بدەیت شوێنی تۆپ لە یاریگادا کوێیە یان گؤڵێک حساب بووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The umpire gave the ball out.""",
                       kurdishText:
@@ -1320,7 +1305,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٧. (کردار) چەمانەوە یان کشان لەژێر فشاردا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The branch began to give under his weight.""",
@@ -1332,7 +1316,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٨. (کردار) ئەوەی بیرکردنەوەت بگۆڕیت یان واز بھێنیت لە ھەندێک لە خواستەکانت """),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You're going to have to give a little.""",
                       kurdishText: """دەبێت کەمێک سازش بکەیت.""",
@@ -1342,8 +1325,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٩. (کردار) توانای شتێک بۆ چەمانەوە یان کشان لەژێر فشاردا"""),
-                    const DividerSentences(),
+                            """١٩. (ناو) توانای شتێک بۆ چەمانەوە یان کشان لەژێر فشاردا"""),
                     SentencesRow(
                       englishText:
                           """The shoes may seem tight at first, but the leather has plenty of give in it.""",

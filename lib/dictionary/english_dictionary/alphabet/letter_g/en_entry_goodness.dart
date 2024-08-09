@@ -204,7 +204,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو لایەنەی شتێک کە کاریگەری باشی ھەیە لەسەر کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These vegetables have had all the goodness boiled out of them.""",

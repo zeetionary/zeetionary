@@ -184,9 +184,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "generate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -212,7 +212,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بەرھەمھێنان یان درووستکردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We need someone to generate new ideas.""",
                       kurdishText:

@@ -243,7 +243,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) کە شێوەی ڕەنگپەڕیوە وەک مردوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His face was ghastly white.""",
                       kurdishText: """ڕووخساری تارمایی‌ئاسا سپی بوو.""",

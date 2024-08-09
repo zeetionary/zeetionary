@@ -209,7 +209,6 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ژیانێکی ئاسوودە و ئاسان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We can't afford gracious living.""",
                       kurdishText: """ناتوانین ژیانێکی ئاسوودە دابین بکەین.""",
@@ -220,7 +219,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) وەک ڕێزگرتن لەکاتی قسەکردن لەگەڵ کەسانی شاھانە و باسکردنی کارەکانیان بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The performance will take place in the gracious presence of HRH the Prince of Wales.""",

@@ -346,7 +346,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) منداڵێکی خۆت کە کچە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They have two girls and a boy.""",
                       kurdishText: """دوو کچ و کوڕێکیان ھەیە.""",
@@ -362,7 +361,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) ژنێکی گەنج"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He married the girl next door.""",
                       kurdishText: """کچەکەی دراوسێیانی خواست.""",
@@ -402,7 +400,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ناو) کچانی گرووپێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm having a night out with the girls.""",
                       kurdishText:

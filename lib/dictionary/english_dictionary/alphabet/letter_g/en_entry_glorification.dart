@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پیاھەڵدان یان پەرستشی خودا یان کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Cathedrals are built for the glorification of God.""",

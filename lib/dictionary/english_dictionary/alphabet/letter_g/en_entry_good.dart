@@ -940,7 +940,6 @@ Usage: N. Amer
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) خۆش؛ کە چێژی لێ دەبینیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Did you have a good time in London?""",
                       kurdishText: """کاتێکی خۆشت ھەبوو لە لەندەن؟""",
@@ -1016,7 +1015,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) شتێک کە باشە و پەیوەندیدارە بەوەی باس دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Thank you, good question.""",
                       kurdishText: """سوپاس، پرسیارێکی باشە.""",
@@ -1092,7 +1090,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کە ڕێزلێگیراوە و پەسەند دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The play had good reviews.""",
                       kurdishText: """شانۆکە ھەڵسەنگاندنی باشی ھەبوو.""",
@@ -1125,7 +1122,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) کە دەتوانێت شتێک بە باشی بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Nick has always been good at finding cheap flights.""",
@@ -1168,7 +1164,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """٦. (ھاوەڵناو) ئەوەی شتێک بە باشی بەکاربھێنیت یان باش مامەڵە لەگەڵ خەڵکی بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's good with her hands (= able to make things, etc.).""",
@@ -1186,7 +1181,6 @@ Usage: N. Amer
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ھاوەڵناو) کە لە ڕووی ئەخلاقییەوە ڕاستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She has tried to lead a good life.""",
                       kurdishText: """ھەوڵیداوە ژیانێکی درووستی ھەبێت.""",
@@ -1229,7 +1223,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) کە بە توندی پابەند بە ژمارەیەک یاسا یان بنچینە دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was a good Catholic girl.""",
                       kurdishText: """کچێکی پابەند بە کاسۆلیک بوو.""",
@@ -1239,7 +1232,6 @@ Usage: N. Amer
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ھاوەڵناو) میھرەبان لەگەڵ کەسانی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You've always been such a good friend.""",
                       kurdishText: """ھەمیشە ھاوڕێیەکی زۆر میھرەبان بوویتە.""",
@@ -1274,7 +1266,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """١٠. (ھاوەڵناو) منداڵ یان ئاژەڵ کە بە ڕێزەوە و باش ڕەفتار دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You can stay up late if you're good.""",
                       kurdishText:
@@ -1309,7 +1300,6 @@ Usage: N. Amer
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ھاوەڵناو) تەندرووست و بەھێز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I don't feel too good today.""",
                       kurdishText: """ئەمڕۆ زۆر ھەست بە باشی ناکەم.""",
@@ -1320,7 +1310,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """١٢. (ھاوەڵناو) کە کاریگەری باش و بەسوودی ھەیە لەسەر کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Living so close to a chemicals factory can't be good.""",
@@ -1381,7 +1370,6 @@ Usage: N. Amer
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """١٣. (ھاوەڵناو) گونجاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Now is a good time to buy a house.""",
                       kurdishText:
@@ -1443,7 +1431,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """١٤. (ھاوەڵناو) بۆ ڕازیبوون بەوەی کە گوتراوە یان کراوە، یان بۆ چوونە سەر بابەتێکی تازە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Good, I think we've come to a decision.""",
@@ -1462,7 +1449,6 @@ Usage: N. Amer
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٥. (ھاوەڵناو) بۆ ستایشکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """‘I've ordered some drinks.’ ‘Good man!’""",
@@ -1475,7 +1461,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """١٦. (ھاوەڵناو) لە ڕستەی سەرسوورمان بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Good God!""",
                       kurdishText: """ئای خودا!""",
@@ -1486,7 +1471,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """١٧. (ھاوەڵناو) بە ڕێژە، بڕ، یان ئاستێکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The kitchen is a good size.""",
                       kurdishText: """چێشتخانەکە قەبارەی گەورەیە.""",
@@ -1529,7 +1513,6 @@ Usage: N. Amer
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٨. (ھاوەڵناو) کە کەمتر نییە لە؛ کە زیاترە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We waited for a good hour.""",
                       kurdishText:
@@ -1549,7 +1532,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """١٩. (ھاوەڵناو) کە بە ئاستێکی بەرز و زۆر دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You'll feel better after a good sleep.""",
                       kurdishText:
@@ -1568,7 +1550,6 @@ Usage: N. Amer
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٠. (ھاوەڵناو) پێکەنیناوی و زیرەکانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """That's a good one!""",
                       kurdishText: """ئەوەیان زیرەکانە بوو!""",
@@ -1579,7 +1560,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """٢١. (ھاوەڵناو) کە ھێز، وزە، تەندرووستی، ھتد ماوە بۆ ماوە یان مەودایەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You're good for (= you will live) a few years yet.""",
@@ -1590,7 +1570,6 @@ Usage: N. Amer
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٢. (ھاوەڵناو) کە پەسەندکراوە بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The ticket is good for three months.""",
                       kurdishText: """بلیتەکە بۆ سێ مانگ کار دەکات.""",
@@ -1601,7 +1580,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """٢٣. (ھاوەڵناو) کە ئەگەری ھەیە شتێک دابین بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's always good for a laugh.""",
                       kurdishText: """ھەمیشە پێکەنینێک درووست دەکات.""",
@@ -1611,7 +1589,6 @@ Usage: N. Amer
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٤. (ناو) ھەڵسوکەوتی درووست و پەسەندکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Do they even know the difference between good and evil?""",
@@ -1628,7 +1605,6 @@ Usage: N. Amer
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢٥. (ناو) کەسانی باش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was a gathering of the great and the good.""",
@@ -1640,7 +1616,6 @@ Usage: N. Amer
                     const DefinitionKurdish(
                         text:
                             """٢٦. (ناو) شتێک کە یارمەتیدەری کەسێک/شتێک دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Cuts have been made for the good of the company.""",
@@ -1668,7 +1643,6 @@ Usage: N. Amer
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢٧. (ھاوەڵکار) بە باشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Now, you listen to me good!""",
                       kurdishText: """ئێستا، باش گوێم لێ بگرە!""",

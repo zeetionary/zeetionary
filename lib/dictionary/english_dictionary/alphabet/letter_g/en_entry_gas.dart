@@ -316,7 +316,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) جۆرێکی یاتبەت لە گاز کە بۆ گەرمکردن و چێشتلێنان بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Can you smell gas?""",
                       kurdishText: """بۆنی گاز دەکەیت؟""",
@@ -348,7 +347,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) جۆرە گازێکی دیاریکراو کە لە کاتی نەشتەرگەریدا بەکاردێت بۆ ئەوەی کەسەکە بێھۆش بخات یان ئازارەکە سووک بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Did you have gas or an injection?""",
                       kurdishText: """ھەوات ھەڵمژی یان دەرزیت لێدرا؟""",
@@ -401,7 +399,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ناو) کەسێک یان بۆنەیەک کە خۆشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The party was a real gas.""",
                       kurdishText: """ئاھەنگەکە تەواو خۆش بوو.""",
@@ -412,7 +409,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) بای ناو ڕیخۆڵەکان کە دەکرێتە دەرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Beer gives me gas.""",
                       kurdishText: """بیرە تڕوتسم پێدەدات.""",
@@ -423,7 +419,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) کوشتن یان زیان گەیاندن بە کەسێک بە گازی ژەھراوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He was gassed in the war.""",
                       kurdishText: """لە جەنگەکەدا بەر گاز کەوت.""",
@@ -433,7 +428,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (کردار) قسەکردن لەسەر شتی بێ‌سوود"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Susan came round and we sat gassing for hours.""",

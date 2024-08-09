@@ -132,9 +132,9 @@ class EnglishEntryblowup extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
                           const DividerDefinition(),
-                          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+                          //                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵناو) پێنناسە"),
                           SentencesRow(

@@ -184,9 +184,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "generalize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -212,7 +212,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) گشتگیرکردنی دۆخێک و لەبەرچاونەگرتنی وردەکاری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It is dangerous to generalize about the poor.""",
@@ -225,7 +224,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی کە بیردۆزێک، بیرۆکەیەک، ھتد بەکاربێنیت بۆ گشتگیری؛ ئەوەی کە تێگەشتن بۆ گرووپێک بکەیت بەو زانیارییەی لە گرووپێکی دیکەوە ھەتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These conclusions cannot be generalized to the whole country.""",

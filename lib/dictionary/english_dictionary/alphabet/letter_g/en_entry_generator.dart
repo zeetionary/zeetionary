@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئامێرێک بۆ بەرھەمھێنانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The museum uses smells and smoke generators to create proper atmosphere.""",
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک یان شتێک کە شتێک درووست دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The company is a major generator of jobs.""",
@@ -235,7 +233,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) کۆمپانیایەک کە کارەبا بەرھەم دەھێنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The two major electricity generators declined to comment.""",

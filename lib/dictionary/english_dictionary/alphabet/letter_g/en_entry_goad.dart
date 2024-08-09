@@ -181,9 +181,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "goad", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -218,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە وا لە کەسێک دەکات شتێک بکات بەوەی بێزاری بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His speech should serve as a goad to action.""",

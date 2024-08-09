@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) بەکارھێنانی زیاتر لەوەی پێویستتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She said that industrialized countries should reduce their gluttonous (= greater than is needed) consumption of oil.""",

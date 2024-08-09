@@ -299,7 +299,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەوەی گەرمات بێت یان سوور بووبوویتەوە بەھۆی ڕاھێنانەوە یان بەھۆی ئەوەی بەجۆشیت، شەرمەزاریت، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her cheeks were glowing.""",
                       kurdishText: """گۆناکانی سوورببوونەوە.""",
@@ -317,7 +316,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) ئەوەی دڵخۆش یان ئاسوودە بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was glowing with pride.""",
                       kurdishText: """بە شانازییەوە دەگەشایەوە.""",
@@ -337,7 +335,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ڕۆشناییەک کە زۆر درەوشاوە نییە، وەک ڕۆشناییەکی ئاگرێک کە خەریکە دەکوژێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The city was just a red glow on the horizon.""",
@@ -359,7 +356,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ڕەنگی سوور یان پەمەیی سەر ڕووخسار کە ڕاھێنانت زۆر کردووە یان دڵخۆش یان بەجۆشیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fresh air had brought a healthy glow to her cheeks.""",
@@ -371,7 +367,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) ڕەنگی ئاڵتوونی یان سوور"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The sunset threw an orange glow on the cliffs.""",
@@ -382,7 +377,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٧. (ناو) ھەستی دڵخۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When she looked at her children, she felt a glow of pride.""",

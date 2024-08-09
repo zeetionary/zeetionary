@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) قسەی خێرا کە سەختە بۆ تێگەشتن، بە تایبەتی کە ژمارەیەک کەس پێکەوە قسە دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She ignored the constant gabble from the back.""",

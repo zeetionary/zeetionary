@@ -163,9 +163,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "girlfriend", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کچێک کە ھاوڕێتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I had lunch with a girlfriend.""",
                       kurdishText: """نانی نیوەڕۆم لەگەڵ کچە ھاوڕێیەک خوارد.""",

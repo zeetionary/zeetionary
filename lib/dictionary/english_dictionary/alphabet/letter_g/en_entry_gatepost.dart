@@ -145,9 +145,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ستوونی دەروازە؛ ستوونێک کە دەرگایەکی پێوە ڕاگیرکراوە یان کە دەگیردرێت دەلکێت پێوەی لە لای بەرامبەر"""),

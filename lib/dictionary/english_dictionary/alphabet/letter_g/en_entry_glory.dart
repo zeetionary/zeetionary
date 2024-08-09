@@ -255,7 +255,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) پەسندان و پەرستشی خودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They built many churches, great and small, to the glory of God.""",
@@ -266,7 +265,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) جوانی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The city was spread out beneath us in all its glory.""",
@@ -290,7 +288,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) شتێک کە جوانە، سەرنجڕاکێشە، و شایەنی ستایشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The temple is one of the glories of ancient Greece.""",

@@ -158,9 +158,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "giveaway", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شتێک کە بێ‌بەرامبەر دەدرێت"""),
@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە وات لێدەکات ڕاستییەک بزانیت-"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She pretended she wasn't excited but the expression on her face was a dead (= obvious) giveaway.""",

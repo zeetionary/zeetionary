@@ -239,7 +239,6 @@ Verb: gloss (Derived forms: glosses, glossed, glossing)
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بۆیەیەک کە وشک دەبێتەوە ڕوویەکی درەوشاوەی سەختی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We'll need a litre of gloss (paint) to cover the woodwork.""",
@@ -252,7 +251,6 @@ Verb: gloss (Derived forms: glosses, glossed, glossing)
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شێوازی ڕوونکردنەوەی شتێک کە وا دەکات زیاتر سەرنجڕاکێش بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The director puts a Hollywood gloss on the civil war.""",
@@ -265,7 +263,6 @@ Verb: gloss (Derived forms: glosses, glossed, glossing)
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ڕوونکردنەوەی وشەیەک یان دەستەواژەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In the school edition of the book, the older and more rare words have been glossed.""",
@@ -278,7 +275,6 @@ Verb: gloss (Derived forms: glosses, glossed, glossing)
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) بۆیەکردن بە بۆیەیەک کە وشک دەبێتەوە ڕوویەکی درەوشاوەی سەختی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They glossed the door.""",
                       kurdishText: """دەرگاکەمان بۆیە کرد.""",

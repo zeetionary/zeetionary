@@ -227,7 +227,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) کۆنترۆڵ کردن یان کاریگەری دانان لەسەر ئەوەی کەسێک/شتێک چۆن کار دەکات، ڕوودەدات، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Prices are governed by market demand.""",
                       kurdishText:

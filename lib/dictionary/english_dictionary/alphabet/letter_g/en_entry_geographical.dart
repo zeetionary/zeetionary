@@ -158,9 +158,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "geographical", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) پەیوەندیدار بە توویژینەوەی زانستی لە ڕووی زەوی، تایبەتمەندییە فیزیکییەکانی، دابەشبوونەکانی، بەرھەمەکانی، دانیشتوانی، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Researchers and surveyors exchanged geographical knowledge.""",

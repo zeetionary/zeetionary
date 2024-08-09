@@ -189,9 +189,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gouge", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -216,7 +216,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) زۆرکردن لە کەسێک کە بڕە پارەیەکی زۆر بدات بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Housing shortages permit landlords to gouge their renters.""",
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ئامرازێکی تیژ بۆ کونکردنە تەختە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The debris is cleared out with a gouge.""",
@@ -239,7 +237,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) برین یان چاڵێکی قووڵ و تەسک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The massive wheels were digging great gouges in the road’s surface.""",

@@ -275,7 +275,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) زیاتر لەوەی پێویستە؛ زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The car has a generous amount of space.""",
@@ -287,7 +286,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) بەخشندە لە مامەڵە لەگەڵ خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He wrote a very generous assessment of my work.""",

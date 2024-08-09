@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی کە شێوەی ئاسوودەیی و ئاسانی ژیان دابین بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The house retains its air of tranquillity and graciousness.""",

@@ -209,7 +209,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) بەنزیکەیی تاریکی تەواو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We watched the boats come back in the gloom.""",

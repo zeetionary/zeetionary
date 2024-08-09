@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) پڕۆسەی گەشەی بیرۆکە یان پلانێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His book was nearly twenty years in gestation.""",

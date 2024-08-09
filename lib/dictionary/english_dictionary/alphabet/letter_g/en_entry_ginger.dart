@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕەنگی سوور یان پرتەقاڵی مەیلەو قاوەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The cat's fur is a bright ginger.""",
                       kurdishText: """تووکی پشیلەکە سوورێکی درەوشاوەیە.""",
@@ -214,7 +213,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە قژی سوور یان پرتەقاڵی مەیلەو قاوەیی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hey, ginger, what are you doing?""",
                       kurdishText: """ھا، قژسوور، چی دەکەیت؟""",
@@ -225,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) ڕەنگی پرتەقاڵی مەیلەو قاوەیی ڕۆشن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The painting featured a ginger sunset over the hills.""",

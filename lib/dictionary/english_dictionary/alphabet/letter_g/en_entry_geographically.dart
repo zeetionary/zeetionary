@@ -157,9 +157,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "geographically", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە پەیوەندیدارە بە ئەو شێوازەی کە لایەنێکی دیاریکراوی کۆمەڵگا یان ژیان کاریگەرە بە جوگرافیا یان بە پێی جوگرافیا دەگۆڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is currently much interest in the ways in which public money is distributed geographically.""",

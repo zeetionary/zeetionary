@@ -294,7 +294,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵکار) بەبێ باسکردنی وردەکاریی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Let's talk just about investment generally.""",

@@ -161,9 +161,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە تەواوی گرووپێک لە شت ھەیەتی یان پەیوەندیدارن پێوەی؛ بە شێوەیەک کە تایبەت نییە و گشتییە"""),

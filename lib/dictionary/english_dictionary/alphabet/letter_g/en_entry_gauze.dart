@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) قوماشێکی تەنک کە بۆ پێچانی برین بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Bandages made of gauze are useful for holding light dressings in place.""",

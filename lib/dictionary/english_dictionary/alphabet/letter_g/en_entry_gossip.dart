@@ -274,7 +274,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) گفتووگۆیەک لەسەر کەسانی دیکە و ژیانی تایبەتییان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I love a good gossip.""",
                       kurdishText: """حەزم بە غەیبەتکردنی خۆشە.""",
@@ -292,7 +291,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە حەزی بە بڵاوکردنەوەی قسەڵۆکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The people I work with are terrible gossips.""",
@@ -304,7 +302,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) باسکردنی ژیانی تایبەتی خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I can't stand here gossiping all day.""",
                       kurdishText:

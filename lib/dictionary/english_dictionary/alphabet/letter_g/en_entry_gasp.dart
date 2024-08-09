@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ھەناسەدان یان قسەکردن بە سەختی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He came to the surface of the water gasping for air.""",
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ھەناسەدانی قووڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His breath came in short gasps.""",
                       kurdishText: """ھەناسەدانەکەی بە ھەناسەبڕکێی کورت بوو.""",

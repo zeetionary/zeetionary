@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەوەی کە وابکەیت ڕوویەک بدرەوشێتەوە بەوەی مادەیەکی شلی بەسەردا بکەیت و گەرمی بکەیت یان جێیبھێڵیت بۆ ئەوەی وشک ببێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Glaze the pastry with beaten egg.""",
                       kurdishText: """ھەویرەکە بە ھێلکەی تێکدراو چەور بکە.""",
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) دانانی شووشە لەناو پەنجەرە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The house is nearly finished but it hasn't been glazed yet.""",
@@ -229,7 +227,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) مادەیەکی شلە کە لە ھێلکە، شیر، یان شەکر پێکھاتووە و ڕووی کێک، نان، ھتد ـی پێ چەور دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Brush the top of the cake with the apricot glaze.""",

@@ -211,7 +211,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) کاری سەخت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Most of the graft was done for them by their assistants.""",
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) بەکارھێنانی ڕێگای نادادی یان نایاسایی، بە تایبەتی بەرتیل، بۆ بەدەستھێنانی شتێک؛ ئەو پارەیەی بەم شێوەیە دەست دەکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He promised an end to graft and corruption in public life.""",
@@ -237,7 +235,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) گوستنەوەی پێست، ئێسک، ھتد لە بەشێکی زیندووی لەش و دانانی لەسەر بەشێکی زیان پێگەشتوو؛ بڕینی بەشێکی ڕووەکێک و دانانی لەسەر ڕووەکیکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """New skin had to be grafted on from his back.""",
@@ -250,7 +247,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) ئەوەی بیرۆکەیەک، سیستەمێک، ھتد بکەیت بە بەشێک لە دانەیەکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The management tried unsuccessfully to graft new working methods onto the existing ways of doing things.""",
@@ -262,7 +258,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) کارکردن بە سەختی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She’s been grafting all day.""",
                       kurdishText: """تەواوی ڕۆژەکە کاری کردووە.""",

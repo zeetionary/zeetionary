@@ -145,9 +145,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گیانلەبەرێکی بچووکی ناشرین کە خەڵکی دەخەڵێنێت و کێشە درووست دەکات"""),

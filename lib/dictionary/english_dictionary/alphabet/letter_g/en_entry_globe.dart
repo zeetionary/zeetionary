@@ -215,7 +215,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) نەخشەیەکی جیھان کە وەک تۆپێک وایە """),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A dusty old globe stood in the corner of the schoolroom.""",

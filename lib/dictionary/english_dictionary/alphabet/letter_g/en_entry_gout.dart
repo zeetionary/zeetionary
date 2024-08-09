@@ -145,9 +145,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نەخۆشییەک کە دەبێتە ھۆکاری ھەڵاوسانی بەئازار لە جومگەکانی پەنجەکان و ئەژنۆ"""),

@@ -155,9 +155,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gigabyte", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) یەکەیەکی زانیاریی کۆمپیوتەر کە لە ١,٠٧٣,٧٤١,٨٢٤ بایت پێکھاتووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Gigabyte (GB) can be a synonym of gibibyte.""",

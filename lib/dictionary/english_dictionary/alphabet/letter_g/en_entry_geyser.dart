@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئامێرێک کە ئاو گەرم دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They installed a new geyser to heat water.""",

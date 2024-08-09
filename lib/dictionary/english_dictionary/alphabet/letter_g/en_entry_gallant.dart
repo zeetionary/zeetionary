@@ -184,7 +184,6 @@ Usage: archaic
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە پیاوێک بەڕێزانە بەرامبەر بە ژن ڕەفتار بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """That wasn't very gallant of you, Paul, pushing a young lady out of the way like that!""",

@@ -164,9 +164,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "golf", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) یاریی گۆڵف"""),
                     SentencesRow(

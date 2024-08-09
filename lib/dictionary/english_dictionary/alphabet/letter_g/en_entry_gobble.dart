@@ -165,9 +165,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gobble", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) خواردنی شتێک زۆر بە خێرایی"""),

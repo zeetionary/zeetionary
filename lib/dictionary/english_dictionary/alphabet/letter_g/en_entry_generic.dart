@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) بەرھەمێک کە ناوی ئەو کۆمپانیایە بەکارناھێنێت کە بەرھەمی ھێناوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The doctor offered me a choice of a branded or a generic drug.""",
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) شتێک، بۆ نموونە، چیرۆکێک، گۆرانییەک، یان فیلمێک، کە خەیاڵی تێدا نییە بۆیە ڕەسەن نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The movie was pretty boring, with a generic storyline and emotionless characters.""",
@@ -229,7 +227,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) جۆرێکی بەرھەمێک کە لەلایەن کۆمپانیایەکەوە درووستکراوە کە زۆر ناسراو نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Generics are usually less expensive than the original brand.""",

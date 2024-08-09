@@ -156,9 +156,9 @@ Usage: UK
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "giro", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -173,7 +173,6 @@ Usage: UK
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) چەکێک کە حکومەت بە سیستەمی جیرۆ پارەکەی داوە بۆ ئەو کەسانەی بێکارن، نەخۆشن، یان داھاتی کەمیان ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She didn't know how she would manage until her next giro.""",

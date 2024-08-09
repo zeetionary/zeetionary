@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ژنێک کە کەسانی دیکە زۆریان خۆشدەوێت و ڕێزی دەگرن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She dreamed of becoming a Hollywood screen goddess.""",

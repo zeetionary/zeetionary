@@ -158,9 +158,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "grammatical", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بە پێی یاساکانی ڕێزمان ڕاستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """That sentence is not grammatical.""",
                       kurdishText: """ڕستەکە ڕێزمانی نییە.""",

@@ -224,7 +224,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) شوێنێک کە پاشماوەی لێ فڕێ دەدرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Throw it in the garbage.""",
                       kurdishText: """بیخە زبڵەکەوە.""",
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) شتێکی گەمژانە یان ناڕاست"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It's mostly the same old garbage.""",
                       kurdishText: """بە زۆری ھەر قسە ھیچەکانی کۆنە.""",

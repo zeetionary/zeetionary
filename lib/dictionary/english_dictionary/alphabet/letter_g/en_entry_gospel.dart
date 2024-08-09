@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕێبازێک کە کەسێک باوەڕی پێی ھەیە و ھەوڵ دەدات کەسانی دیکە ڕازی بکات باوەڕی پێ بھێنن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He travels around the country, streading the gospel of natural farming.""",
@@ -200,7 +199,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) تەواوی ڕاستی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't take his word as gospel.""",
                       kurdishText: """قسەی وەک ڕاستی وەرمەگرە.""",

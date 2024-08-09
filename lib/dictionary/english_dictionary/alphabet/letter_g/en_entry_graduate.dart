@@ -235,9 +235,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "graduate", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێکی کە بڕوانامەی زانکۆی ھەیە"""),
@@ -260,7 +260,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) لە ئەمریکا کەسێکە کە قوتابخانە، کۆلێژ، یان زانکۆی تەواو کردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's a recent graduate of Yale.""",
                       kurdishText: """دەرچوویەکی تازەی یەیڵە.""",
@@ -271,7 +270,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) تەواوکردنی زانکۆ یان کۆلێژ و بەدەستھێنانی، بە تایبەتی یەکەم بڕوانامە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She taught in France after she graduated.""",
@@ -309,7 +307,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) تەواوکردنی کۆرسێک، بە تایبەتی لە قوتابخانەی ئامادەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He flunked math and never graduated.""",
                       kurdishText:
@@ -329,7 +326,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) پێدانی بڕوانامە بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The college graduated 50 students last year.""",
@@ -342,7 +338,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) ئەوەی شتێک بکەیت کە گرنگتر یان باشترە لەوەی پێشووتر دەتکرد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She recently graduated from being a dancer to having a small role in a movie.""",

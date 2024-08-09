@@ -241,7 +241,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) خوێندنەوەی شتێک بە خێرایی، نەک بە وریایی و تەواوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I only had time to glance at my emails.""",
@@ -262,7 +261,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) سەیرکردنێکی خێرا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I just took a quick glance at the company's website.""",

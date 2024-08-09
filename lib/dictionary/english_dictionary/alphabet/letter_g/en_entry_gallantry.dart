@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) سەرنجی تایبەت کە پیاوان دەیدەن بە ژنان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'd like to think that gallantry isn't dead.""",

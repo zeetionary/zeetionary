@@ -152,9 +152,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە کانزایەکی بازنەیی کە بە چوارچێوەیەکدا ھەڵواسراوە و دەنگێکی بەرز دەردەکات کە لێی دەدرێت"""),

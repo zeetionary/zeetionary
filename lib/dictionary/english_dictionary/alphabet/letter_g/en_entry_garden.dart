@@ -286,7 +286,6 @@ Usage: Brit
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بەشێکی حەوشە کە ڕووەک و گوڵی تێدا دەچێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These flowers brighten up backyard gardens all over the country.""",
@@ -306,7 +305,6 @@ Usage: Brit
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) پارکی گشتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Thousands of people now visit the gardens every year.""",
@@ -318,7 +316,6 @@ Usage: Brit
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) کارکردن لە باخچە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """More people are choosing to garden.""",
                       kurdishText:

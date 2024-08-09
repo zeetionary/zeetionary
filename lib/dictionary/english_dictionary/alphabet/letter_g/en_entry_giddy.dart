@@ -208,7 +208,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) زۆر دڵخۆش و بەجۆش کە ناتوانیت بە ئاسایی ڕەفتار بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was giddy with happiness.""",
                       kurdishText: """لە خۆشیدا سەرخۆش بوو.""",
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە تووشی گێژخواردوویت دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The kids were pushing the roundabout at a giddy speed.""",

@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) کەسێک کە ڕێزی تایبەتی دەدات بە ژنان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He gallantly kissed her hand at the song's end.""",

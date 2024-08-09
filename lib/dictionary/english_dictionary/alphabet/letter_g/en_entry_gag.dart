@@ -237,7 +237,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) فەرمانێک کە ڕێگری لەوە دەکات شتێک باس بکرێت بۆ خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The judge issued a gag order on the case.""",
@@ -249,7 +248,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) نوکتە یان چیرۆکێکی پێکەنیناوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I did a few opening gags about the band that had played before me.""",
@@ -261,7 +259,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) گاڵتەیەک کە لەگەڵ کەسێک دەیکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was just a gag—we didn't mean to upset anyone.""",
@@ -274,7 +271,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) دانانی پارچە پەڕۆیەک لەسەر یان ناو دەمی کەسێک بۆ ئەوەی قسە نەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The hostages were bound and gagged.""",
                       kurdishText: """بارمتەکان دەست و دەمیان بەسترابوونەوە.""",
@@ -285,7 +281,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) ڕێگری لە کەسێک لەوەی کە بە ئازادی قسە بکات یان بۆچوونەکانی دەرببڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The new laws are seen as an attempt to gag the press.""",
@@ -298,7 +293,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) ھەبوونی ئەو ھەستەی کە خەریکە دەڕشێیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I tried my best to eat it but the meat was so fatty I gagged on it.""",

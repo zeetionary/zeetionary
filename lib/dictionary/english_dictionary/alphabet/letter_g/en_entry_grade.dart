@@ -355,7 +355,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) لە سیستەمی خوێندنی ئەمریکا یەکێکە لە قۆناغەکانی خوێندن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Sam is in (the) second grade.""",
                       kurdishText: """سام لە قۆناغی دووەمە.""",
@@ -391,7 +390,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) کوالێتی بەرھەم یان مادەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """All the materials used were of the highest grade.""",
@@ -403,7 +401,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) پلەی کەسێک لە دامەزراوەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's still only on a secretarial grade.""",
@@ -430,7 +427,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) ئاستی توندی نەخۆشییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The doctor was concerned about his high grade fever.""",
@@ -451,7 +447,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) پێدانی نمرە بە خوێندکار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I spent all weekend grading papers.""",
                       kurdishText:
@@ -480,7 +475,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) ڕێکخستنی خەڵکی یان شت بە گرووپ بەپێی توانا، ئەندازە، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Eggs are graded from small to extra large.""",

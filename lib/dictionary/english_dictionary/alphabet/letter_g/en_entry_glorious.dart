@@ -223,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کەشێکی گەرم کە خۆر تێیدا دەدرەوشێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They had three weeks of glorious sunshine.""",
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) تەواو خۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We had a glorious time in the south of France last summer.""",

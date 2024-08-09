@@ -211,7 +211,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەوەی بە جووڵی ھەوا بفڕیت، بۆ باڵندە بە بێ ئەوەی باڵی بشەقێنێت، و فڕۆکە بە بێ ئەوەی بزوێنەرەکانی کار بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """An eagle was gliding high overhead.""",
                       kurdishText: """داڵێک لەسەرەوە دەسووڕایەوە.""",
@@ -230,7 +229,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) جووڵەی بەردەوامی لەسەرەخۆ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She didn't exactly walk - it was more of a glide.""",

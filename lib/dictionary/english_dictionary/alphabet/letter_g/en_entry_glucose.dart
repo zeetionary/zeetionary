@@ -152,9 +152,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جۆرێکی سادەی شەکر کە سەرچاوەیەکی گرنگی وزەیە لە شتە زیندووەکاندا و بەشێکە لە زۆر کاربۆھایدرات"""),

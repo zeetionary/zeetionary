@@ -148,9 +148,9 @@ Usage: N. Amer (elsewhere: petrol)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text: """١. (ناو) بەنزینی ئۆتۆمبێل"""),
                     const AlsoEnglishckb(word: "ھەروەھا: gas، petrol"),

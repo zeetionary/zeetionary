@@ -219,7 +219,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەشێوەیەکی لەسەرەخۆ و میھرەبانانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """‘You miss them, don't you?’ he asked gently.""",
@@ -230,7 +229,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵکار) کە زۆر بە تەختی لێژ دەبێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The path ran gently down to the sea.""",
                       kurdishText: """ڕێگاکە بە تەختی بەرەو دەریاکە دەچوو.""",
@@ -241,7 +239,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵکار) بۆ ئەوەی بە کەسێک بڵێیت بە وریایی شتێک بکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't go too fast—gently does it!""",
                       kurdishText: """زۆر خێرا مەچۆ ـ بە وریایی بچۆ.""",

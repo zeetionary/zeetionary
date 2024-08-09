@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ئەوەی چاو پڕ لە ھەستێک بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His eyes glittered with greed.""",
                       kurdishText: """چاوەکانی پڕ لە چاوچنۆکی بوون.""",
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) بریسکانەوەی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There was a glitter of frost on the grass.""",

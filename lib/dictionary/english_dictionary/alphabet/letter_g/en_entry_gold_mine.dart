@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کارێک یان چالاکییەک کە قازانجی زۆری دەبێت؛ شتێک کە بەھای زۆرە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The archive is a gold mine for historians.""",

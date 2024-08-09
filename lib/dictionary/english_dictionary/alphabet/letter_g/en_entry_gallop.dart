@@ -234,7 +234,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) غاردانی ئەسپێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Jo galloped across the field towards him.""",
@@ -262,7 +261,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ناو) غاردانی ئەسپ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """My horse suddenly broke into a gallop.""",
                       kurdishText: """ئەسپەکەم لەناکاو کەوتە غاردان.""",
@@ -286,7 +284,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) سواری کردنی ئەسپ بە غاردان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I went for a gallop by the sea.""",
                       kurdishText: """چووم بۆ غاردانێک لە کەناری دەریاکە.""",
@@ -295,7 +292,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٦. (ناو) بە خێرایی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She always lives life at a gallop.""",
                       kurdishText: """ھەمیشە بە خێرایی دەژی.""",

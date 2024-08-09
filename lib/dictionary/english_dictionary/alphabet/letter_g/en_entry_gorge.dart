@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) خواردنی ڕێژەیەکی زۆر لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """If you gorge yourself on snacks like that, you won't eat your dinner.""",

@@ -198,7 +198,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) گەلە ئەستێرەی ڕێگای شیری کە خۆری خۆمان و ھەسارەکانیی تێدایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Jupiter is the biggest planet in our solar system, but not the biggest planet in the Galaxy.""",
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کۆبوونەوەی ژمارەیەک کەسی بەناوبانگ، شارەزا، یان دەوڵەمەند"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Italy, with their galaxy of superstar players, are without a doubt favourites to win the contest.""",

@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ھەستی ئەوەی زۆر دڵخۆش و بەجۆش بیت کە کۆنترۆڵی ڕەفتاری خۆت ناکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His childlike excitement verged on giddiness.""",

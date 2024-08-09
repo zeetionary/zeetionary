@@ -146,9 +146,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "get-up", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) دەستە جلێک، بە تایبەتی کە نامۆیە"""),

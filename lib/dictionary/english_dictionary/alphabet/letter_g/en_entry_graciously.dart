@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە میھرەبانی و بەخشندەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They offered praise for what God had graciously given them.""",

@@ -160,9 +160,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "ghetto", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ناوچەیەک یان گرووپێک کە تایبەتمەندیی خۆی ھەیە و خەڵکەکەی بە جۆرێک جیاوازن لە خەڵکە سەرەکییەکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The south coast of Spain has become something of a tourist ghetto.""",

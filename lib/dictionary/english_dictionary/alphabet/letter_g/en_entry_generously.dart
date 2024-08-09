@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) کە ڕێژەیەکی زۆرتر لە پێویستی شتێک بەکاردێنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Season generously with salt and pepper.""",
@@ -189,7 +188,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بەخشندانە؛ بەشێووەیەک کە کەسێک لایەنی باشی شتێک دەبینێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She speaks generously about everyone.""",
                       kurdishText: """بەخشندانە قسە لەسەر ھەموان دەکات.""",

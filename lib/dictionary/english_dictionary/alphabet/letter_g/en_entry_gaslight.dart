@@ -177,7 +177,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) واکردن لە کەسێک بەوەی باوەڕ بە درۆ بکات بۆ ئەوەی کۆنترۆڵی بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He lied to his wife and then gaslighted her by making her think she was the one being unreasonable.""",

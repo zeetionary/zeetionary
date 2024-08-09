@@ -245,7 +245,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێکی بلیمەت یان زۆر شارەزا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's a genius at organizing people.""",
                       kurdishText: """بلیمەتێکە لە ڕێکخستنی خەڵکیدا.""",
@@ -271,7 +270,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) توانا یان شارەزایی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He had a genius for making people feel at home.""",
@@ -292,7 +290,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کە توانای ھونەری، شارەزایی، یان زیرەکی زۆری تێدایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her genius idea solved a major problem.""",

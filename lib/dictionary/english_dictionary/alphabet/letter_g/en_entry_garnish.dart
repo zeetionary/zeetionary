@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەمێک خواردن کە وەک ڕازاندنەوە لەگەڵ دانەیەکی گەورەترە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Keep some olives to one side for garnish.""",

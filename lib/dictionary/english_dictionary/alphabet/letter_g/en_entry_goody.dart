@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێکی باش، بە تایبەتی لە فیلم یان کتێب"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's sometimes difficult to tell who are the goodies and who are the baddies.""",

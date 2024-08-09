@@ -164,9 +164,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "go-ahead", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) مۆڵەتی کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The council has given the go-ahead to start building.""",

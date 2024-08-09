@@ -217,7 +217,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) خۆ خستنە مەترسی ئەوەی شتێک لە دەست بدەیت بۆ ئەوەی سەرکەوتوو بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He's gambling his reputation on this deal.""",
@@ -239,7 +238,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شتێک کە دەیکەیت و دەزانیت مەترسیدارە بەڵام بەھیوایت سەرکەوتوو بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was the biggest gamble of his political career.""",

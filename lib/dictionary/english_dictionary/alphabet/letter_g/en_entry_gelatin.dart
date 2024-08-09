@@ -149,9 +149,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەکی ڕوونی بێ‌تام کە لە کوڵاندنی ئێسکی ئاژەڵ بەرھەم دێت و بەکاردێت بۆ درووستکردنی جێڵی، فیلمی کامێرا، ھتد"""),

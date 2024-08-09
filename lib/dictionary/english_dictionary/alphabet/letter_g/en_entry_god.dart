@@ -300,7 +300,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) لە ھەندێک ئاییندا بوونێکە کە باوەڕ وایە دەسەڵاتی بەسەر لایەنێکی دیاریکراوی سرووشتدا ھەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Mars was the Roman god of war.""",
                       kurdishText: """مارس خودای جەنگی ڕۆمەکان بوو.""",
@@ -325,7 +324,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە کەسانی زۆریان خۆشدەوێت و ڕێزی دەگرن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """To her fans she's a god.""",
                       kurdishText: """لای ھەوادارانی خوداوەندێکە.""",
@@ -336,7 +334,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) شتێک کە سەرنج و گرنگیی زۆری پێدەدرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Money is his god.""",
                       kurdishText: """پارە خودایەتی.""",

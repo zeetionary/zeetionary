@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) پەیوەندیدار بە بنەچە و مێژووی بەرد و خۆڵی ناوچەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A geological survey is essential before construction projects.""",

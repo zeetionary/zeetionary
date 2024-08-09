@@ -252,7 +252,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پارە، خشڵ، ھتد کە لە زێڕ درووستکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was absolutely dripping with gold.""",
                       kurdishText: """تەواو خۆی بە زێڕ ڕازاندبوویەوە.""",
@@ -270,7 +269,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) مەدالیایەک کە لە زێڕ درووستکراوە و دەدرێت بە براوی پێشبڕکێیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The team look set to win Olympic gold.""",
                       kurdishText:
@@ -287,7 +285,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ناو) ڕەنگی زێڕی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His hair was a pale gold.""",
                       kurdishText: """قژی زێڕینێکی کاڵ بوو.""",
@@ -303,7 +300,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٥. (ھاوەڵناو) زێڕی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The company name was spelled out in gold letters.""",

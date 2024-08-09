@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی شتێک بە ھێمنی و وریایی بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The gentleness of his touch calmed the baby.""",
@@ -202,7 +201,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی کەش و ھەوا یان پلەی گەرمی توند و بەھێز نەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was content to be pushed along by the gentleness of the breeze.""",
@@ -214,7 +212,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) ئەوەی شوێنێک زۆر لێژ نەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I love the gentleness of the hills where these valleys nestle.""",

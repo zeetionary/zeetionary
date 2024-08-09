@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) قۆناغێکی سەرەتای گەشەی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Here was the germ of a brilliant idea.""",
                       kurdishText: """ئەمە سەرەتای بیرۆکەیەکی بلیمەتانە بوو.""",
@@ -226,7 +225,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) ئەو بەشەی ڕووەک یان ئاژەڵ کە دەکرێت ببێتە دانەیەکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The germ is the embryo of the new plant.""",

@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) دانانی سەرباز لە ناوچەیەک بۆ پاراستنی لە ھێرش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Two regiments were sent to garrison the town.""",

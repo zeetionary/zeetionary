@@ -161,9 +161,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "germinate", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) کە تۆوێک دەست دەکات بە گەشە"""),

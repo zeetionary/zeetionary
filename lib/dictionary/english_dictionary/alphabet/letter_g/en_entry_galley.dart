@@ -158,9 +158,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەشتییەکی تەختی درێ کە چارۆکەی ھەبوو یۆنانی و ڕۆمە کۆنەکان بەکاریان دەھێنا، و زۆرجار زیندانی یان کۆیلەکان سەوڵیان لێدەدا"""),
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) چێشتخانەی سەر کەشتی یان فڕۆکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The cook prepared meals in the ship's galley.""",

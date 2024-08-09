@@ -267,7 +267,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) پێوانی فراوانی یان قەبەیی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """What gauge of wire do we need?""",
                       kurdishText: """چی ئەستوورییەکی وایەرمان پێویستە.""",
@@ -278,7 +277,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) دووری نێوان ڕێڕەوەکانی سکەی شەمەندەفەر یان ویلەکانی شەمەندەفەرەکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """At that time railways of three different gauges were in use.""",
@@ -291,7 +289,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ڕاستییەک یان ڕووداوێک کە دەکرێت بەکاربێت بۆ خەمڵاندن یان بڕیاردان لەسەر شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This project will be a good gauge of their promotion chances.""",
@@ -304,7 +301,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) بڕیاردانێک لەسەر شتێک، بە تایبەتی ھەست و ھەڵسوکەوتی خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They interviewed employees to gauge their reaction to the changes.""",
@@ -325,7 +321,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) پێوانی شتێک بە ئامێری تایبەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Use a thermometer to gauge the temperature.""",
@@ -337,7 +332,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) پێوانی شتێک بە نزیکەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We were able to gauge the strength of the wind from the movement of the trees.""",

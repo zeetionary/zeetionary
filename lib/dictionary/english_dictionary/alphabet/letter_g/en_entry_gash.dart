@@ -169,9 +169,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gash", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) درووستکردنی بڕینێکی گەورە لە شتێک، بەتایبەتی ڕووخساری کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He gashed his hand on a sharp piece of rock.""",

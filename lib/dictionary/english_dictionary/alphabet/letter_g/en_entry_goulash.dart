@@ -145,9 +145,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خواردنێکی ھەنگاری توون کە لە گۆشت پێکھاتووە و بە ھێواشی دەکوڵێندرێت لەگەڵ پاپریکا (= ھاڕاوەی توون کە لە بیبەر درووستکراوە)"""),

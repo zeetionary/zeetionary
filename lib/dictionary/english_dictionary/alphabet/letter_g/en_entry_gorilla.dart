@@ -148,9 +148,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جۆرێکی ئەفریقی زۆر گەروەی بەھێزە لە ئەیپ (= وەک مەیموون بەڵام گەورە و بێ کلکە) و بە مووی ڕەش و قاوەیی داپۆشراوە"""),

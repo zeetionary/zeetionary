@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە ھیچ ھەستێک پیشان نادات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her eyes were glassy and her skin pale.""",

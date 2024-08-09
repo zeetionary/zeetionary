@@ -156,9 +156,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو بەشەی بیرکاری کە گرنگی دەدات بە پێوان پەیوەندیی ھێڵەکان، گۆشەکان، ڕووەکان، و شێوە فرە ڕەھەندییەکان"""),
@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پێوان پەیوەندیی ھێڵەکان، گۆشەکان، ھتد لە شێوە یان شتێکی دیاریکراودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He analyzed the geometry of chemical bonds.""",

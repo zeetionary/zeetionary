@@ -215,7 +215,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) ژمارەیەک وێنە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Visit the photo gallery on our website to see pictures from the event.""",
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) فرۆشگایەکی تایبەتی بچووک کە دەتوانیت لێی کاری ھونەری بکڕیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I bought it last year at the gallery.""",
                       kurdishText:
@@ -240,7 +238,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ناوچەیەکی بەرز لە پشت یان لایەکانی بینایەک کە خەڵکی دەتوانن دابنیشن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The packed public gallery of the court erupted in a roar of approval.""",

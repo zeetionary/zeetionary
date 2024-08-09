@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) پێکەوە لکاندن بە چەسپ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Make sure the edges are glued down.""",
                       kurdishText:

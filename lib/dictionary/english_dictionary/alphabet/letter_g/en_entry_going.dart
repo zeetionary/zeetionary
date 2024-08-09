@@ -214,7 +214,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) خێرایی کردنی شتێک لەلایەن کەسێکەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Walking four miles in an hour is pretty good going for me.""",
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) دۆخی زەوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The path was rough going, even in daylight.""",
@@ -247,7 +245,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) بەردەوام چوونە ئەو شوێنەی کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He grew up in a church-going family.""",
                       kurdishText:

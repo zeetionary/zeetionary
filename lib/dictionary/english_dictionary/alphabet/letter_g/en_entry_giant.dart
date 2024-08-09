@@ -232,7 +232,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) لە چیرۆکدا کەسێکی زەبەلاحە کە زۆرجار دڕندە و گەمژەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Dad terrified us with stories of a big, bad giant who ate little children.""",
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) کەسێک یان شتێک کە زۆرجار گەورەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He is described as a gentle giant.""",
                       kurdishText: """بە زەبەلاحێکی لەسەرەخۆ باس دەکرێت.""",
@@ -268,7 +266,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) دامەزراوەیەکی زۆر گەورەی بەھێز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These are boom times for the software giant.""",
@@ -289,7 +286,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) کەسێک کە زۆرباشە لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Toni Morrison is one of the twentieth century's literary giants.""",

@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پردێک کە لەسەر لایەکی کەشتییەک و وشکانی دادەنرێت بۆ ئەوەی خەڵکی بچنە سەر کەشتییەکە یان دابەزن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They finally agreed to let us on board and we climbed the gangway.""",

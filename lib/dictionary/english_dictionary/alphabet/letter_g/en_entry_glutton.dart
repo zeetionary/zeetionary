@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە حەزی لە کردنی کاری سەخت یان ناخۆشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She’s a glutton for tough challenges.""",
                       kurdishText: """ئارەزوومەندێکی کارە سەختەکانە.""",

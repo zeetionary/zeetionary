@@ -158,9 +158,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "Gaelic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) زمانێکی کێڵتیکی کە لەلایەن ھەندێک خەڵکەوە لە ئێرلەندا قسەی پێ دەکرێت و زمانێکی فەرمی کۆماری ئێرلەندایە کە تێیدا لە ھەموو قوتابخانەکان دەگوترێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They all spoke Gaelic down in the west.""",

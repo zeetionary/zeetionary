@@ -258,7 +258,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ئەوەی سوپاسگوزار بیت بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'd be glad of your help.""",
                       kurdishText: """زۆر مەمنوون دەبم بۆ یارمەتیت.""",
@@ -283,7 +282,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) زۆر ئامادە بۆ یارمەتیدانی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'd be glad to lend you the money.""",
                       kurdishText:

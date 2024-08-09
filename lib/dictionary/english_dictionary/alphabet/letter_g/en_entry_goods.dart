@@ -229,7 +229,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەو شتانەی کە دەکرێت ھەڵبگیردرێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was accused of handling stolen goods.""",
@@ -250,7 +249,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو شتانەی کە بە شەمەندەفەر دەگوازرێنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A goods train was derailed last night.""",
                       kurdishText:

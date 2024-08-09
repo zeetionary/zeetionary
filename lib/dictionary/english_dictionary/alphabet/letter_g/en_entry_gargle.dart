@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) شلەیەک کە بۆ غەڕغەڕە بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The doctor recommended an antiseptic gargle after surgery.""",
@@ -199,7 +198,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) غەڕغەڕەکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He felt better after he had a gargle with salt water.""",

@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) زۆر درەوشاوە و ناخۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We went out into the glaring sunshine.""",
                       kurdishText: """چووینە بەر ھەتاوە توندەکە.""",

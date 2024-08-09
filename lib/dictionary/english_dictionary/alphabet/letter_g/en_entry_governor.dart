@@ -208,7 +208,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە بەرپرسی بەڕێوەبردنی ویلایەتێکە لە ئەمریکا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has officially launched her campaign to become state governor.""",
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە سەر بە دەستەی بەڕێوەبردنی قوتابخانە، کۆلێژ، نەخۆشخانە، ھتد ــە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'll have to present my plan to the board of governors.""",
@@ -234,7 +232,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) کەسێک کە دامەزراوەیەک بەڕێوە دەبات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He is a former governor of the Bank of England.""",

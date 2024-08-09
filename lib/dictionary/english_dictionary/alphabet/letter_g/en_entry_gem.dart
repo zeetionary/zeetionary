@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک، شتێک، یان شوێنێک کە زۆر باشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This picture is the gem (= the best) of the collection.""",

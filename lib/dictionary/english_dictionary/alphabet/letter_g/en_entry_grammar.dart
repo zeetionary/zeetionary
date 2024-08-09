@@ -160,9 +160,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "grammar", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ڕێزمان"""),
                     SentencesRow(
@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) زانیاری کەسێک لە ڕێزماندا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His grammar is appalling.""",
                       kurdishText: """ڕێزمانەکەی وێرانە.""",

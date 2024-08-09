@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) مادەیەکی زۆر سووکی باریک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bride chose a gown of gossamer silk for its lightness.""",

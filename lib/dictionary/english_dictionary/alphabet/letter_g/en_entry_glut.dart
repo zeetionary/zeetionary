@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەوەی ڕێژەیەکی زۆر لە شتێک بەردەست بخرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The market has been glutted with foreign cars.""",

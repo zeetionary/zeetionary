@@ -147,9 +147,9 @@ Usage: Brit (N. Amer: greenhouse)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بینایەکی شووشەیی بۆ چاندنی ڕووەک تێیدا"""),

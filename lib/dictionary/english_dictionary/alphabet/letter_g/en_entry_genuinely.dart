@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە کە دەکرێت متمانەی پێ بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was genuinely sorry.""",
                       kurdishText: """لە دڵەوە بەداخەوە بوو.""",

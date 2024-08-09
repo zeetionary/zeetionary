@@ -470,7 +470,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بەدەستھێنانی سوودێک لە شتێک یان کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The firm is hoping to gain an advantage over its competitors.""",
@@ -524,7 +523,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) بەدەستھێنانی زیاتر لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As you gain experience, you will grow in confidence.""",
@@ -552,7 +550,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) کە کات خێرا دەچێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """My watch gains two minutes every 24 hours.""",
@@ -564,7 +561,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) کە دراو بەھای زیاد دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The euro gained against the dollar again today.""",
@@ -576,7 +572,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) گەشتنە شوێنێک، زۆرجار لە دوای ماوەیەکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """At last she gained the shelter of the forest.""",
@@ -588,7 +583,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ناو) زیادبوون لە بڕی شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The opposition made unexpected gains in the last election.""",
@@ -626,7 +620,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) سوود یان بەرەوپێشچوون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These policies have resulted in great gains in public health.""",
@@ -646,7 +639,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ناو) قازانجی ئابووری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Financial gain was never her motivation.""",

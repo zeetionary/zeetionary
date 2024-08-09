@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) دەم یان دەنووکێکی داچەقاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The perch has the large eye and wide gape of an active hunter.""",
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ڕوانین لە کەسێک/شتێک بەھۆی ئەوەی کە سەرسامیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Isabel gaped at him, horrified.""",
                       kurdishText: """ئیزابێل بە تۆقاوی لێی دەڕوانی.""",
@@ -233,7 +231,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) کە بە تەواوی کراوەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The empty cash box lay gaping open in one corner.""",

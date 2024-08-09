@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ھەست بە گازات دەکەیت لە گەددەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The dog looked uncomfortable and gassy.""",

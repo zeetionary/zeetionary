@@ -213,7 +213,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) پڕۆسەی کۆکردنەوەی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She spent hours on information gathering at the library.""",

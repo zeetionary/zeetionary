@@ -156,9 +156,9 @@ Usage: informal
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "geeky", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -176,7 +176,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) پەیوەندیدار بە کەسێک کە زۆری حەز بە بابەتێکی دیاریکراوە، بە تایبەتی یاریی کۆمپیوتەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has a geeky obsession with Japanese video games.""",

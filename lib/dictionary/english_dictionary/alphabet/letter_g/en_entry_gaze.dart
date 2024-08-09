@@ -222,7 +222,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) چاوبڕینە شتێک بۆ ماوەیەکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He met her gaze (= looked at her while she looked at him).""",

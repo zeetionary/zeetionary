@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ڕەنگی زێڕین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The walls gleamed golden in the light of the setting sun.""",
@@ -208,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) شتێک کە تایبەتە و دەکرێت سەرکەوتوو بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The information he gave us proved to be golden.""",

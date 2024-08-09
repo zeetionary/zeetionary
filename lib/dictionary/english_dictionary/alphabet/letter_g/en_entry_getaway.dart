@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) کورتە پشوویەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They planned a romantic weekend getaway in the mountains.""",

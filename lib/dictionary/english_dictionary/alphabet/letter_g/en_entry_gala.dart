@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پێشبڕکێی وەرزشیم بە تایبەتی لە مەلەوانیدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They attended the swimming gala to cheer their team.""",

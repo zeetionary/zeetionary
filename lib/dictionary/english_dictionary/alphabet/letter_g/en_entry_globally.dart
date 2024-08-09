@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە لەبەرچاوگرتنی ھەموو لایەنەکانی شتێک دەگرێتەوە یان لە خۆیان دەگرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It is important to approach the problem globally.""",
@@ -212,7 +211,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بە شێوەیەک کە لەسەر تەواوی فایلێک یان پڕۆگرامێک کار دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The processing can be applied globally to all digital signals.""",

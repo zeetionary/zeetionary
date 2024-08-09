@@ -310,7 +310,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شتێک کە ئاسانە بۆ کردن یان ھەرزانە بۆ کڕین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Their second goal was an absolute gift.""",
@@ -329,7 +328,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) پێدانی شتێک بە کەسێک بەبێ ئەوەی ھیچ ھەوڵی بۆی دابێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They gifted their opponents a goal.""",
                       kurdishText: """گۆڵێکیان بەخشی بە ڕکابەرەکەیان.""",

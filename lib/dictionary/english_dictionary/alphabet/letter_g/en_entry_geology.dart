@@ -153,9 +153,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "geology", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بنەچە و مێژووی بەرد و خۆڵی ناوچەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """At the time, she was writing a book on the geology of Australia.""",

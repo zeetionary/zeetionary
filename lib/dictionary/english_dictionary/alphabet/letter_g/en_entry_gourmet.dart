@@ -157,9 +157,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gourmet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێک کە شارەزایی لە خواردن ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As a gourmet, she loved trying exotic cuisines.""",

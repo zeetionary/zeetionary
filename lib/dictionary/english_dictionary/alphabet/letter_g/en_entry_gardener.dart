@@ -163,7 +163,8 @@ ${englishMeaningConst.text}
                             """١. (ناو) کەسێک کە کاری چاودێری کردنی باخچە دەکات"""),
                     SentencesRow(
                       englishText: """We employ a gardener two days a week.""",
-                      kurdishText: """دوو هەفتە لە ڕۆژێکدا باخەوانێک بە کرێ دەگرین.""",
+                      kurdishText:
+                          """دوو هەفتە لە ڕۆژێکدا باخەوانێک بە کرێ دەگرین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -171,7 +172,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە حەزی بە کارکردن لە باخچەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """My wife's a keen gardener.""",
                       kurdishText: """ژنەکەم باخەوانە.""",

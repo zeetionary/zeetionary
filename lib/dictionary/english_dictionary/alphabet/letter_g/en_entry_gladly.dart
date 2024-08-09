@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە دڵخۆشییەوە؛ بە سوپاسەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When I offered her my seat, she accepted it gladly.""",

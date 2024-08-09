@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) بۆنەی تەواوکردنی خوێندن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """My whole family came to my graduation.""",
                       kurdishText:

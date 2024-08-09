@@ -172,7 +172,6 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) سەراوی گشتی بۆ پیاوان """),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Is there a gents near here?""",
                       kurdishText: """سەراو لەم نزیکە ھەیە؟""",

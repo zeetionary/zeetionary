@@ -147,9 +147,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شلەیەکی ڕوون، خەست، و شیرین کە بەکاردێت بۆ مادەی تەقەمەنی و دەرمان و خواردنی شیرینی"""),

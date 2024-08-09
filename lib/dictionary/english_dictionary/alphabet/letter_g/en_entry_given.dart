@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We can find out how much money is spent on food in any given period.""",
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ئامراز) کە شتێک لەبەرچاو دەگریت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Given his age (= considering how old he is), he's remarkably active.""",
@@ -232,7 +230,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) شتێک کە وەک ڕاستی پەسەند کراوە؛ کە دڵنیایی ھەیە ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You can take it as a given that there will be champagne at the wedding.""",

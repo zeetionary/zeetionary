@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ھێمن و لەسەرخۆ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The game seemed to be a more genteel version of American football.""",

@@ -213,7 +213,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) پیشاندانی ھەستێک لە چاواندا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her eyes glinted angrily.""",
                       kurdishText: """چاوەکانی بە تووڕەیی گڕیان لێ ھەڵدەستا.""",
@@ -230,7 +229,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) فلاشێکی ڕۆشنایی درەوشاوە و بچووک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He saw the glint of a knife and froze.""",
                       kurdishText:

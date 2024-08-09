@@ -149,9 +149,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لە ڕۆمای کۆندا پیاوێک بوو کە شەڕی لەگەڵ پیاوانی دیکە یان تاوانباران دەکرد بۆ چێژبەخشین بە خەڵکی"""),

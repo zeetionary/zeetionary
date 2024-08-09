@@ -336,7 +336,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو ماوەیەی کە بە تێکڕا منداڵێک گەورە دەبێت، دەبێتە پێگەشتوو، و منداڵی دەبێت (زۆرجار بە نزیکەی ٣٠ ساڵ دادەندرێت)"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Many more people go to university now than a generation ago.""",
@@ -375,7 +374,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) یەک قۆناغی مێژووی خێزانێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Five generations of his family had been farmers.""",
@@ -387,7 +385,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ژمارەیەک کەسی ھاوتەمەن کە ھەمان چالاکی ئەنجام دەدەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He influenced my generation more than any other actor.""",

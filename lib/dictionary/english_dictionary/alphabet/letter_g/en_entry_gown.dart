@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) جلێک کە لەبەر دەکرێت لەلایەن دادوەران، پارێزەران، و ئەندامانی زانکۆ لە بۆنەی تایبەتیدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A graduation gown is usually black with a cap.""",
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) جلێک کە ستافی نەخۆشخانە لەبەری دەکەن، بە تایبەتی بۆ خۆپارێزی لە نەخۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The nurse handed him a surgeon’s gown before the surgery.""",

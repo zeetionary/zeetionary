@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە گرنگ و گران‌بەھا شت دەردەخات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This magazine is full of glossy advertisements.""",

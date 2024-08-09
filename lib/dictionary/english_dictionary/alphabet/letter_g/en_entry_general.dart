@@ -358,7 +358,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ئاسایی؛ وەک ھەمیشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is one exception to this general principle.""",
@@ -390,7 +389,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە بەشە گرنگەکانی شتێک لەخۆ دەگرێت نەک وردەکاری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I know how it works in general terms.""",
                       kurdishText: """بە گشتگیری دەزانم چۆن کار دەکات.""",
@@ -419,7 +417,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) بە نزیکەیی بەو ئاراستەیەی کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They fired in the general direction of the enemy.""",
@@ -432,7 +429,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) کە تایبەت نییە بە بابەتێکی دیاریکراو یان تایبەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We shall keep the discussion fairly general.""",
@@ -445,7 +441,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ھاوەڵناو) کە پەیوەندیدار نییە بە یەک لایەنی کەسێک یان شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The building was in a general state of disrepair.""",
@@ -457,7 +452,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ھاوەڵناو) ئەفسەرێکی زۆر پلە بەرز لە ھێزی ئاسمانی ئەمریکا؛ ئەفسەری بەرزترین پێگە لە ھێزی دەریایی ئەمریکا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Both generals had commanded units in that area.""",

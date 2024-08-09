@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ئەوەی ناشرینە بۆ سەیرکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He described the house as ugly and graceless.""",
@@ -215,7 +214,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) جوڵان بە شێوەیەک کە سرووشتی و جوان نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When did their seductive swagger cease to be sexy, and begin to seem graceless?""",

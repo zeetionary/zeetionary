@@ -169,9 +169,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text: """١. (ناو) حەوتەم پیتی ئەلفوبێی ئینگلیزی"""),
                     SentencesRow(
@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کورتکراوە) کورتکراوە بۆ گرام gram"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Add 400g of sugar.""",
                       kurdishText: """٤٠٠ گرام شەکر زیاد بکە.""",

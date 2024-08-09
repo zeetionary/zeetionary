@@ -155,9 +155,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "grammatically", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە بە پێی یاساکانی ڕێزمان ڕاستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Children know how to speak grammatically a long time before they learn grammar.""",

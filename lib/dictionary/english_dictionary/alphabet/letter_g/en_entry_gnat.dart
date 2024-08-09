@@ -147,9 +147,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مێشێکی بچووک کە دوو باڵی ھەیە و گاز دەگرێت، و زۆرجار بە گرووپی گەورە دەفڕن"""),

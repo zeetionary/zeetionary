@@ -239,7 +239,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ئەوەی زۆر پاک و ڕۆشن دەربکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The house was gleaming with fresh white paint.""",
@@ -261,7 +260,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی کە کەسێک ھەستێک پیشان بدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His eyes gleamed with amusement.""",
                       kurdishText: """چاوەکانی لە دڵخۆشیدا دەگەشانەوە.""",
@@ -273,7 +271,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ڕووناکی ڕوونی کاڵ کە زۆرجار لە شتێکەوە دەدرێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We could see the gleam of moonlight on the water.""",
@@ -293,7 +290,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٥. (ناو) کەمێک لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There was a faint gleam of hope in his eyes.""",
@@ -306,7 +302,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) دەربڕینی ھەست و سۆزێکی دیاریکراو لە چاوی کەسێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The gleam in his eye made her uncomfortable (= as if he was planning something secret or unpleasant).""",

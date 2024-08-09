@@ -225,7 +225,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بۆ بانگکردنی پیاوێک، بە تایبەتی کە نایناسیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Ladies and gentlemen! Can I have your attention, please?""",

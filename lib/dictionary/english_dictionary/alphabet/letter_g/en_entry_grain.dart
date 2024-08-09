@@ -254,7 +254,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) بەشێکی بچووکی سەختی مادەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I got a grain of sand in my eye.""",
                       kurdishText: """دەنکە گەنمێک چووەتە چاوم.""",
@@ -276,7 +275,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) یەکەیەکی بچووکی پێوانە کە یەکسانە بە ٠,٠٦٤٨ گرام یان ٠,٠٠١٤٣ پاوەند و بەکاردێت بۆ پێوانی دەرمان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The analysis showed a few grains of arsenic in the solution.""",

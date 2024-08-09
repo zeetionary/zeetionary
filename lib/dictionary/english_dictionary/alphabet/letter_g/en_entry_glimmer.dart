@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) درەوشانەوە بە ڕووناکییەکی کزی ناجێگیر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The candles glimmered in the corner.""",
                       kurdishText: """مۆمەکان لە سووچەکەدا دەترووسکانەوە.""",

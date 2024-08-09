@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شوێنێک کە لێیەوە دەچیت بۆ شوێنێکی گەورەتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Manchester is known as the gateway to the north.""",
@@ -192,7 +191,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ڕێگای گەشتن بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A good education is the gateway to success.""",

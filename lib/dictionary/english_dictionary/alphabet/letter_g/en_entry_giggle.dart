@@ -208,7 +208,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەمێک پێکەنینی دووبارەی گێلانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She gave a nervous giggle.""",
                       kurdishText: """پێکەنینێکی شڵەژاوانەی کرد.""",
@@ -226,7 +225,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) شتێک کە پێتوایە پێکەنیناوییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We only did it for a giggle.""",
                       kurdishText: """تەنھا بۆ پێکەنین کردمان.""",
@@ -237,7 +235,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) پێکەنینی بەردەوام کە ناتوانیت بیوەستێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I get the giggles when I'm nervous.""",
                       kurdishText: """دەکەومە خش‌بردنەوە کە شڵەژاوم.""",

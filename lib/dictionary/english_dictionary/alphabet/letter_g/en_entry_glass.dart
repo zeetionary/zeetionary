@@ -308,7 +308,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) پەرداخی شووشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He poured orange juice into a glass.""",
                       kurdishText: """شەربەتی پرتەقاڵی کردە گڵاسێکەوە.""",
@@ -332,7 +331,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ئەو شتەی لە گڵاسێکدایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He poured her a fresh glass of water.""",
                       kurdishText: """گڵاسێک ئاوی پاکی بۆ تێکرد.""",
@@ -349,7 +347,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ناو) چاویلکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I wear glasses for driving.""",
                       kurdishText: """چاویلکە لە چاو دەکات بۆ لێخوڕین.""",
@@ -359,7 +356,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) ئەو شتانەی لە شووشە درووستکراون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has a fine collection of Bohemian glass.""",
@@ -371,7 +367,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) لێدان بە شووشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I got glassed in the face and needed treatment.""",

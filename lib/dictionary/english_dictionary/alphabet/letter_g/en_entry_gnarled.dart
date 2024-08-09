@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) چەماوە بەھۆی تەمەن و یان نەخۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His hands were gnarled with age and arthritis.""",

@@ -148,9 +148,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک دەچن بۆ شوێنێک کە تازە زێڕی تێدا دۆزراوەتەوە"""),

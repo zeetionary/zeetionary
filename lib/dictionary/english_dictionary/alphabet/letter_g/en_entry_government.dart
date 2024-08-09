@@ -335,7 +335,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) سیستەمێک یان ڕێگایەکی دیاریکراوی بەڕێوەبردنی وڵاتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Democratic government has now replaced military rule.""",
@@ -357,7 +356,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) چالاکی یان شێوازی کۆنترۆڵکردنی وڵاتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We need strong government to take the country through this crisis.""",

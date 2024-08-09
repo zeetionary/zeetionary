@@ -181,9 +181,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی ئایا کەسێک ڕەگەزی نێرە یان مێ، بە تایبەتی پەیوەندیدار بە جیاوازیی کەلتووری یان کۆمەڵایەتی نەک زیندەزانی؛ کەسێک کە سەر بە ڕەگەزێکە"""),
@@ -226,7 +226,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) لە ژمارەیەک ھەر یەک لەو پۆلانەیە کە ناو، ھاوەڵناو، و جێناوی بەسەردا دابەش دەبێت؛ دابەشکردنی ناو، ھاوەڵناو، و جێناو بۆ ڕەگەزی جیاواز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In French the adjective must agree with the noun in number and gender.""",

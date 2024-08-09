@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پشتێنێک کە جاران بۆ جوانی دەبەسترا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In medieval times, a girdle was a sign of wealth.""",
@@ -210,7 +209,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شتێک کە دەوری شتێکی دیکەی داوە؛ شتێک کە پشتێنەیەکی بە دەوری شتێکی دیکەدا درووست کردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Geologists study the girdle of ores surrounding the mountain.""",
@@ -222,7 +220,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) دەوردانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A chain of volcanoes girdles the Pacific.""",

@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە ئامادەیە خۆی تووشی مەترسی بکات بەھیوای ئەوەی سەرکەوتوو بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She is an eternal optimist and gambler at heart.""",

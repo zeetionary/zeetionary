@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پارچە قوماشێک کە لە زینی ئەسپ دەبەسترێت بۆ ئەوەی زینەکەی قایم بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Loosen the girth a little.""",
                       kurdishText: """قەیاسەی ئەسپەکە شل بکەرەوە.""",

@@ -147,9 +147,9 @@ Usage: N. Amer (elsewhere: petrol station)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gas station", please follow LX instructions
                     const DefinitionKurdish(
                         text:

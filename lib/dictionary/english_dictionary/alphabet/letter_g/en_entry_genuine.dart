@@ -223,7 +223,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە دەکرێت متمانەی پێ بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He made a genuine attempt to improve conditions.""",

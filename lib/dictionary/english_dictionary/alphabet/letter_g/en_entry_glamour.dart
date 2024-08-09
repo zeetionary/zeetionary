@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) جوانی جەستەیی کە واتای سەرکەوتن و سامانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her long dark hair lent her a certain glamour.""",

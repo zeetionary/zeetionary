@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) گرووپێک قاز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A gaggle of geese crossed the road.""",
                       kurdishText: """گرووپێک قاز لە ڕێگاکە پەڕینەوە.""",

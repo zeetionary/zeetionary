@@ -175,9 +175,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "glacial", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بەھۆی شەختە بەفری گەورەوە درووست بووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The valley is filled with glacial deposits from ancient ice.""",
@@ -205,7 +204,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ھاوەڵناو) زۆر سارد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The dining room was glacial.""",
                       kurdishText: """ژووری نان خواردنەکە زۆر سارد بوو.""",
@@ -214,7 +212,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ھاوەڵناو) ساردوسڕ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her expression was glacial.""",
                       kurdishText: """دەربڕینەکەی ساردوسڕ بوو.""",

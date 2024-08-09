@@ -188,7 +188,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کەمێک شێتانە بەھۆی ئەوەی بەجۆشیت سەبارەت بە کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fans went totally gaga over the band.""",

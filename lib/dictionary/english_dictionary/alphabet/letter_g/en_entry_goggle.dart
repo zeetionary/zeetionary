@@ -159,9 +159,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "goggle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) چاویلکەیەک کە تەواو دەنووسێت بە دەرووبەری چاو بۆ پاراستنی لە تۆز، با، ئاو، ھتد، یان بۆ پێدانی بینایی زیاتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """My swimming goggles keep steaming up so I can’t see.""",

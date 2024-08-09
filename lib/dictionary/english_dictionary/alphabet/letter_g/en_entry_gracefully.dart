@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە بەڕێز و بەخشندەییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I think we should just give in gracefully.""",

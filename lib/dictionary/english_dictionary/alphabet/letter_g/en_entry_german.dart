@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێک کە خەڵکی ئەڵمانیایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We have a group of Germans staying at the hotel.""",
@@ -195,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) زمانی ئەڵمانیا، نەمسا، و بەشێکی سویسرا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I can count to ten in German.""",
                       kurdishText: """دەتوانم بە ئەڵمانی تا ژمارە ١٠ بخوێنم.""",

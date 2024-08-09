@@ -327,7 +327,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بۆشایی نێوان دوو شت یان ناوەڕاستی شتێک، بە تایبەتی بەھۆی ئەوەی بەشێک ونە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There should be a six-inch gap at the bottom.""",
@@ -364,7 +363,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ماوەی وەستانی شتێک، یان ماوەی نێوان دوو شت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He wrote his first novel in the gap between school and university.""",
@@ -404,7 +402,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) جیاوازییەک کە خەڵکی یان باوەڕیان، دۆخیان، ھتد جیادەکاتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A huge gap has opened up between expectations and what is deliverable.""",

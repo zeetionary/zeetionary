@@ -408,7 +408,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) یارییەکی وەرزشی کە یاسای ھەیە و خەڵکی یان تیم دژی یەکدی یاری دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How I hated team games at school!""",
                       kurdishText:
@@ -428,7 +427,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) بۆنەیەکی یاریکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They lost their first home game of the season.""",
@@ -499,7 +497,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) شێوازی یاری کردنی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Stretching exercises can help you avoid injury and improve your game.""",
@@ -511,7 +508,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) بۆنەیەکی ڕێکخراوی وەرزشی گەورە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's hoping to participate in the next Olympic Games.""",
@@ -532,7 +528,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) وەرزش وەک بابەتێک یان چالاکییەک لە قوتابخانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I always hated games at school.""",
                       kurdishText: """ھەمیشە ڕقم لە وەرزش بوو لە قوتابخانە.""",
@@ -543,7 +538,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) لە ھەندێک یاریدا، بۆ نموونە تێنس، بەشێکی خاڵەکانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Sharapova won the opening game of the third set.""",
@@ -555,7 +549,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) جۆرە چالاکی یان بازرگانییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How long have you been in this game?""",
                       kurdishText: """چەندە لەم کارەدا بوویتە؟""",
@@ -572,7 +565,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ناو) پلانێکی زیرەکانە و نھێنی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I realized that he had been playing a stupid game with me.""",
@@ -584,7 +576,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) بەکارھێنانی یاساکانی سیستەمێک بە شێوەیەک کە دەتەوێت لە بەرژەوەندیی خۆت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The problem with these precise rules is that they can be gamed.""",
@@ -605,7 +596,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (کردار) ئەنجامدانی یاریی کۆمپیوتەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He spends most of his free time gaming.""",
@@ -627,7 +617,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (ھاوەڵناو) کە ئامادەیە بۆ کردنی شتێکی تازە، سەخت، یان گران"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's game for anything.""",
                       kurdishText: """ئامادەی ھەموو شتێکە.""",

@@ -662,6 +662,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) سەرە مەنھۆڵ"),
+          const AlsoEnglishckb(word: "ھەروەھا: grate"),
           SentencesRow(
             englishText:
                 "She used a drain strainer to prevent food from going down.",

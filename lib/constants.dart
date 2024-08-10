@@ -1505,29 +1505,6 @@ class IPAofEnglish extends ConsumerWidget {
   }
 }
 
-class IPAofEnglishtest extends ConsumerWidget {
-  // Renamed to IPAofEnglishtest
-  final String text;
-
-  const IPAofEnglishtest({super.key, required this.text});
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
-
-    return Container(
-      constraints: const BoxConstraints(maxWidth: 300),
-      padding: const EdgeInsets.symmetric(horizontal: 4.0),
-      child: Text(
-        text,
-        style: TextStyle(
-          fontSize: textSize,
-        ), // Use adjusted text size
-      ),
-    );
-  }
-}
-
 class CustomColumnWidget extends StatelessWidget {
   final List<Widget> children;
 
@@ -2710,10 +2687,10 @@ class _EmptyPageIconState extends State<EmptyPageIcon>
             builder: (context, child) {
               return Transform.rotate(
                 angle: _animation.value * 2 * 3.141,
-                child: const Icon(
+                child: Icon(
                   Icons.history,
                   size: 66.0,
-                  // color: Colors.blue,
+                  color: Theme.of(context).primaryColor.withOpacity(0.7),
                 ),
               );
             },

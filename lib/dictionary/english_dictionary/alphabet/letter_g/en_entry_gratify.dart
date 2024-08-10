@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygrapple extends StatefulWidget {
-  const EnglishEntrygrapple({super.key});
+class EnglishEntrygratify extends StatefulWidget {
+  const EnglishEntrygratify({super.key});
 
   @override
-  State<EnglishEntrygrapple> createState() => _EnglishEntrygrappleState();
+  State<EnglishEntrygratify> createState() => _EnglishEntrygratifyState();
 }
 
-class _EnglishEntrygrappleState extends State<EnglishEntrygrapple> {
+class _EnglishEntrygratifyState extends State<EnglishEntrygratify> {
   @override
   void initState() {
     super.initState();
@@ -53,24 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: grapple (Derived forms: grappled, grapples, grappling)
-1. Succeed in doing, achieving, or producing (something) with the limited or inadequate means available (- cope, get by, make do, contend, deal, manage)
+- Verb: gratify (Derived forms: gratifies, gratified, gratifying)
+1. Make happy or satisfied (- satisfy)
  
-2. Hold or seize, as in a wrestling match (- grip)
-"the two men grappled with each other for several minutes";
-
-- Noun: grapple (Derived forms: grapples)
-1. A tool consisting of several hooks for grasping and holding; often thrown with a rope (- grapnel, grappler, grappling hook, grappling iron)
- 
-2. A dredging bucket with hinges like the shell of a clam (- clamshell)
- 
-3. The act of engaging in close hand-to-hand combat (- wrestle, wrestling, grappling, hand-to-hand struggle)
-"they had a fierce grapple";
-
+2. Yield (to); give satisfaction to (- pander, indulge)
 """,
   );
 
-  final String keyword = "grapple";
+  final String keyword = "gratify";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -90,35 +80,37 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""grapple""");
+    await flutterTts.speak("""gratify""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Passers-by grappled with the man after the attack.""");
+    await flutterTts
+        .speak("""It gratified him to think that it was all his work.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They managed to grapple him to the ground.""");
+    await flutterTts.speak("""I was gratified by their invitation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The new government has yet to grapple with the problem of air pollution.""");
+    await flutterTts
+        .speak("""He only gave his consent in order to gratify her wishes.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was grappling to find an answer to his question.""");
+    await flutterTts.speak("""speaksentence400""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -949,10 +941,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """grapple""",
-                      // alsoEnglishWord: "also: grapple",
-                      britshText: """IpaUK: /ˈɡræpl/""",
-                      americanText: """IpaUS: /ˈɡræpl/""",
+                      word: """gratify""",
+                      // alsoEnglishWord: "also: gratify",
+                      britshText: """IpaUK: /ˈɡrætɪfaɪ/""",
+                      americanText: """IpaUS: /ˈɡrætɪfaɪ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,13 +985,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شاد کردن، دڵخۆش کردن، ڕازی کردن
 """),
-// With short examples define "grapple", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) گرتنی کەسێک/شتێک بە توندی و ڕووبەڕووبوونەوە یان وەستانەوە دژی"""),
+// With short examples define "gratify", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (کردار) دڵخۆشکردنی کەسێک"""),
                     SentencesRow(
-                      englishText: """Passers-by grappled with the man after the attack.""",
-                      kurdishText: """ڕێبواران ڕووبەڕووی پیاوەکە بوونەوە لە دوای هێرشەکە.""",
+                      englishText:
+                          """It gratified him to think that it was all his work.""",
+                      kurdishText:
+                          """ئەوە دڵخۆشی کرد کە بیر بکاتەوە ئەوە هەموو کاری ئەو بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1002,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They managed to grapple him to the ground.""",
-                      kurdishText: """توانییان بیکێشن بە زەویدا.""",
+                      englishText: """I was gratified by their invitation.""",
+                      kurdishText: """دڵخۆش بووم بە بانگهێشتەکەیان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) هەوڵدان بە سەختی بۆ دۆزینەوەی چارەسەری کێشەیەک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) ئەوەی پێویستییەک، حەزێک، هتد بەجێبهێنیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The new government has yet to grapple with the problem of air pollution.""",
-                      kurdishText: """حکومەتە تازەکە هێشتا تەقەڵایەتی لەگەڵ کێشەی پیسبوونی هەوا.""",
+                      englishText:
+                          """He only gave his consent in order to gratify her wishes.""",
+                      kurdishText:
+                          """مۆڵەتی دا تەنها بۆ ئەوەی حەزەکانی بەدیبهێنێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,8 +1024,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was grappling to find an answer to his question.""",
-                      kurdishText: """تەقەڵام بوو بۆ دۆزینەوەی وەڵامی پرسیارەکەی.""",
+                      englishText: """speaksentence400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -2142,18 +2141,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/-6vzjjIrRK8?t=';
-const double _startSecondsend = 000000000000000000000000000507;
-const String _videoIdone = 'https://youtu.be/axcPoS2sF0E?t=';
-const double _startSecondsone = 00000000000000000000000000041;
-const String _videoIdtwo = 'https://youtu.be/Zad6v8ZHzdg?t=';
-const double _startSecondstwo = 0000000000000000000000000001115;
-const String _videoIdthree = 'https://youtu.be/WRU5m3Q3gkw?t=';
-const double _startSecondsthree = 00000000000000000000000000015;
-const String _videoIdfour = 'https://youtu.be/3KC32Vymo0Q?t=';
-const double _startSecondsfour = 0000000000000000000000000001606;
-const String _videoIdfive = 'https://youtu.be/RAlI0pbMQiM?t=';
-const double _startSecondsfive = 000000000000000000000000000621;
+const String _videoIdend = 'https://youtu.be/5kBLP14b0z4?t=';
+const double _startSecondsend = 000000000000000000000000000211;
+const String _videoIdone = 'https://youtu.be/xSEeu2kzs0w?t=';
+const double _startSecondsone = 000000000000000000000000000418;
+const String _videoIdtwo = 'https://youtu.be/Q9tlK43WIKo?t=';
+const double _startSecondstwo = 00000000000000000000000000019;
+const String _videoIdthree = 'https://youtu.be/mC-lSeu7xEE?t=';
+const double _startSecondsthree = 000000000000000000000000000434;
+const String _videoIdfour = 'https://youtu.be/0DalqD-12NM?t=';
+const double _startSecondsfour = 000000000000000000000000000137;
+const String _videoIdfive = 'https://youtu.be/QNyAeyA05_4?t=';
+const double _startSecondsfive = 000000000000000000000000000338;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

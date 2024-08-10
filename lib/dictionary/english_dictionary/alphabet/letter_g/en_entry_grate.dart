@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygrapple extends StatefulWidget {
-  const EnglishEntrygrapple({super.key});
+class EnglishEntrygrate extends StatefulWidget {
+  const EnglishEntrygrate({super.key});
 
   @override
-  State<EnglishEntrygrapple> createState() => _EnglishEntrygrappleState();
+  State<EnglishEntrygrate> createState() => _EnglishEntrygrateState();
 }
 
-class _EnglishEntrygrappleState extends State<EnglishEntrygrapple> {
+class _EnglishEntrygrateState extends State<EnglishEntrygrate> {
   @override
   void initState() {
     super.initState();
@@ -53,24 +54,31 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: grapple (Derived forms: grappled, grapples, grappling)
-1. Succeed in doing, achieving, or producing (something) with the limited or inadequate means available (- cope, get by, make do, contend, deal, manage)
+- Noun: grate (Derived forms: grates)
+1. A frame of iron bars to hold a fire (- grating)
  
-2. Hold or seize, as in a wrestling match (- grip)
-"the two men grappled with each other for several minutes";
+2. A harsh rasping sound made by scraping something
+ 
+3. A barrier that has parallel or crossed bars blocking a passage but admitting air (- grating)
 
-- Noun: grapple (Derived forms: grapples)
-1. A tool consisting of several hooks for grasping and holding; often thrown with a rope (- grapnel, grappler, grappling hook, grappling iron)
+- Verb: grate (Derived forms: grated, grates, grating)
+1. Furnish with a grate
+"a grated fireplace"
  
-2. A dredging bucket with hinges like the shell of a clam (- clamshell)
+2. Gnaw into; make resentful or angry (- eat into, fret, rankle)
+"The injustice grated her";
  
-3. The act of engaging in close hand-to-hand combat (- wrestle, wrestling, grappling, hand-to-hand struggle)
-"they had a fierce grapple";
-
+3. Reduce to small shreds or pulverize by rubbing against a rough or sharp perforated surface
+"grate carrots and onions"; "grate nutmeg"
+ 
+4. Make a grating or grinding sound by rubbing together (- grind)
+"grate one's teeth in anger";
+ 
+5. Scratch repeatedly (- scrape)
 """,
   );
 
-  final String keyword = "grapple";
+  final String keyword = "grate";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -90,49 +98,52 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""grapple""");
+    await flutterTts.speak("""grate""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Passers-by grappled with the man after the attack.""");
+    await flutterTts.speak("""A huge log fire was burning in the grate.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They managed to grapple him to the ground.""");
+    await flutterTts
+        .speak("""Grate the cheese and sprinkle it over the tomatoes.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The new government has yet to grapple with the problem of air pollution.""");
+    await flutterTts.speak("""Her voice really grates on me.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was grappling to find an answer to his question.""");
+    await flutterTts.speak(
+        """It grated with him when people implied he wasn't really British.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""The rusty hinges grated as the gate swung back.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""He grated his knife across the plate.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -949,10 +960,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """grapple""",
-                      // alsoEnglishWord: "also: grapple",
-                      britshText: """IpaUK: /ˈɡræpl/""",
-                      americanText: """IpaUS: /ˈɡræpl/""",
+                      word: """grate""",
+                      // alsoEnglishWord: "also: grate",
+                      britshText: """IpaUK: /ɡreɪt/""",
+                      americanText: """IpaUS: /ɡreɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +1003,48 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "grapple", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) گرتنی کەسێک/شتێک بە توندی و ڕووبەڕووبوونەوە یان وەستانەوە دژی"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: (کولین) ئاورگ، ئاگردان، مەنقەڵ، ناوگۆڕک، کوورە، کوورەی دیواری،	ڕەندە، کوشتەرا،	تۆڕ، پەنجێرە،	زیندان، بەندی‌خانە،	دەنگی لێک‌کەوتن، زرنگەزرنگ
+// """),
+// With short examples define "grate", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچەیەکی ئاسنین کە لە ئاگردانێک دارەکە ڕادەگرێت"""),
                     SentencesRow(
-                      englishText: """Passers-by grappled with the man after the attack.""",
-                      kurdishText: """ڕێبواران ڕووبەڕووی پیاوەکە بوونەوە لە دوای هێرشەکە.""",
+                      englishText:
+                          """A huge log fire was burning in the grate.""",
+                      kurdishText:
+                          """کۆلکەدارێکی گەورە لەسەر مەنقەڵەکە دەسووتا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    CustomRichText(
+                      textBeforeLink: "٢. بڕوانە لە پێناسەی ٦ ــی",
+                      linkText: "drain",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context).push("/english-grate/drain");
+                      },
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) وردکردنی شت بە ڕەندە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They managed to grapple him to the ground.""",
-                      kurdishText: """توانییان بیکێشن بە زەویدا.""",
+                      englishText:
+                          """Grate the cheese and sprinkle it over the tomatoes.""",
+                      kurdishText:
+                          """پەنیرەکە لە ڕەندە بدە و بیپرژێنە بەسەر تەماتەکەدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) هەوڵدان بە سەختی بۆ دۆزینەوەی چارەسەری کێشەیەک"""),
+                    const DefinitionKurdish(text: """٤. (کردار) بێزارکردن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The new government has yet to grapple with the problem of air pollution.""",
-                      kurdishText: """حکومەتە تازەکە هێشتا تەقەڵایەتی لەگەڵ کێشەی پیسبوونی هەوا.""",
+                      englishText: """Her voice really grates on me.""",
+                      kurdishText: """دەنگی بەڕاستی بێزارم دەکات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,17 +1052,25 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was grappling to find an answer to his question.""",
-                      kurdishText: """تەقەڵام بوو بۆ دۆزینەوەی وەڵامی پرسیارەکەی.""",
+                      englishText:
+                          """It grated with him when people implied he wasn't really British.""",
+                      kurdishText:
+                          """ئەو بێزاری دەکرد کە خەڵکی وایان پیشان دەدا کە لە ڕاستیدا بەریتانی نییە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (کردار) دەرکردنی دەنگێکی ناخۆش کە دوو شت بە یەکدا دەساوێن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The rusty hinges grated as the gate swung back.""",
+                      kurdishText:
+                          """گێژەنە ژەنگاوییەکان جیڕەیان هات کە دەرگاکە کرایەوە.""",
+                      englishNote:
+                          """This means the old, corroded hinges made a harsh, scraping sound as the gate moved open.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1043,8 +1078,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He grated his knife across the plate.""",
+                      kurdishText: """چەقۆکەیی دەکیڕاند بە دەورییەکەدا.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -2142,18 +2177,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/-6vzjjIrRK8?t=';
-const double _startSecondsend = 000000000000000000000000000507;
-const String _videoIdone = 'https://youtu.be/axcPoS2sF0E?t=';
-const double _startSecondsone = 00000000000000000000000000041;
-const String _videoIdtwo = 'https://youtu.be/Zad6v8ZHzdg?t=';
-const double _startSecondstwo = 0000000000000000000000000001115;
-const String _videoIdthree = 'https://youtu.be/WRU5m3Q3gkw?t=';
-const double _startSecondsthree = 00000000000000000000000000015;
-const String _videoIdfour = 'https://youtu.be/3KC32Vymo0Q?t=';
-const double _startSecondsfour = 0000000000000000000000000001606;
-const String _videoIdfive = 'https://youtu.be/RAlI0pbMQiM?t=';
-const double _startSecondsfive = 000000000000000000000000000621;
+const String _videoIdend = 'https://youtu.be/7j5ul4XBjAI?t=';
+const double _startSecondsend = 00000000000000000000000000023;
+const String _videoIdone = 'https://youtu.be/hQT7PN4Tzsg?t=';
+const double _startSecondsone = 000000000000000000000000000237;
+const String _videoIdtwo = 'https://youtu.be/m6kcANnAJSo?t=';
+const double _startSecondstwo = 000000000000000000000000000367;
+const String _videoIdthree = 'https://youtu.be/j3o6RLBehlc?t=';
+const double _startSecondsthree = 000000000000000000000000000424;
+const String _videoIdfour = 'https://youtu.be/Lkl9_3-jX6c?t=';
+const double _startSecondsfour = 000000000000000000000000000500;
+const String _videoIdfive = 'https://youtu.be/a7wC2M0b5u0?t=';
+const double _startSecondsfive = 000000000000000000000000000285;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

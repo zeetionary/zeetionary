@@ -4680,25 +4680,25 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 
 
 
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
 // en_entry_grand.dart' show EnglishEntrygrand
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_grandly.dart' show EnglishEntrygrandly
+// en_entry_grandstand.dart' show EnglishEntrygrandstand
+// en_entry_grandchild.dart' show EnglishEntrygrandchild
+// en_entry_granddaughter.dart' show EnglishEntrygranddaughter
+// en_entry_grandson.dart' show EnglishEntrygrandson
+// en_entry_grandfather.dart' show EnglishEntrygrandfather
+// en_entry_grandmother.dart' show EnglishEntrygrandmother
+// en_entry_grandparent.dart' show EnglishEntrygrandparent
+// en_entry_grandeur.dart' show EnglishEntrygrandeur
+// en_entry_grandiose.dart' show EnglishEntrygrandiose
+// en_entry_granite.dart' show EnglishEntrygranite
+// en_entry_granny_flat.dart' show EnglishEntrygrannyflat //// ffff granny flat
+// en_entry_grant.dart' show EnglishEntrygrant
+// en_entry_granulated_sugar.dart' show EnglishEntrygranulatedsugar //// فففف granulated sugar
+// en_entry_granule.dart' show EnglishEntrygranule
+// en_entry_grape.dart' show EnglishEntrygrape
+// en_entry_grapefruit.dart' show EnglishEntrygrapefruit
+// en_entry_graph.dart' show EnglishEntrygraph
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

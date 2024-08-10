@@ -4699,11 +4699,11 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_grape.dart' show EnglishEntrygrape
 // en_entry_grapefruit.dart' show EnglishEntrygrapefruit
 // en_entry_graph.dart' show EnglishEntrygraph
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_graphic.dart' show EnglishEntrygraphic
+// en_entry_graphically.dart' show EnglishEntrygraphically
+// en_entry_graphics.dart' show EnglishEntrygraphics
+// en_entry_graphite.dart' show EnglishEntrygraphite
+// en_entry_grapple.dart' show EnglishEntrygrapple
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

@@ -4742,11 +4742,11 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_greatly.dart' show EnglishEntrygreatly
 // en_entry_greatness.dart' show EnglishEntrygreatness
 // en_entry_greed.dart' show EnglishEntrygreed
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_greedy.dart' show EnglishEntrygreedy
+// en_entry_greedily.dart' show EnglishEntrygreedily
+// en_entry_green.dart' show EnglishEntrygreen
+// en_entry_green_bean.dart' show EnglishEntrygreenbean //// فففف green bean
+// en_entry_green_belt.dart' show EnglishEntrygreenbelt //// فففف green belt
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

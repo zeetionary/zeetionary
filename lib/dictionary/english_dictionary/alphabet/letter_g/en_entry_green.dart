@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygreed extends StatefulWidget {
-  const EnglishEntrygreed({super.key});
+class EnglishEntrygreen extends StatefulWidget {
+  const EnglishEntrygreen({super.key});
 
   @override
-  State<EnglishEntrygreed> createState() => _EnglishEntrygreedState();
+  State<EnglishEntrygreen> createState() => _EnglishEntrygreenState();
 }
 
-class _EnglishEntrygreedState extends State<EnglishEntrygreed> {
+class _EnglishEntrygreenState extends State<EnglishEntrygreen> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,53 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: greed (Derived forms: greeds)
-1. Excessive desire to acquire or possess more (especially more material wealth) than one needs or deserves
+- Adjective: green (Derived forms: greener, greenest)
+1. Of the colour between blue and yellow in the colour spectrum; similar to the colour of fresh grass (- greenish, light-green, dark-green, greeny)
+"a green tree"; "green fields"; "green paint"; "a light-green tree"; "a dark-green tree";
  
-2. Reprehensible acquisitiveness; insatiable desire for wealth (personified as one of the deadly sins) (- avarice, covetousness, rapacity, avaritia)
+2. Not damaging to the environment, or directed at preventing environmental damage (- environmentally-friendly, eco-friendly)
+"Retailers can influence consumers by promoting green products and ideas in their shops";
+ 
+3. Looking pale and unhealthy
+"you're looking green"; "green around the gills"
+ 
+4. Naive and easily deceived or tricked (- fleeceable, gullible)
+"at that early age she had been green and in love";
+ 
+5. Concerned with, supporting or in conformity with the political principles of the Green Party
+ 
+6. Not fully developed or mature; not ripe (- unripe, unripened, immature)
+"fried green tomatoes"; "green wood";
+ 
+7. [informal] Lacking practical experience or training (- inexperienced, inexperient [non-standard])
+"The students poked fun at the green teacher";
+
+- Noun: green (Derived forms: greens)
+1. Green colour or pigment; resembling the colour of growing grass (- greenness, viridity)
+ 
+2. A piece of open land for recreational use in an urban area (- park, commons, common)
+ 
+3. An area of closely cropped grass surrounding the hole on a golf course (- putting green, putting surface)
+"the ball rolled across the green and into the bunker";
+ 
+4. Any of various leafy plants or their leaves and stems eaten as vegetables (- greens, leafy vegetable)
+ 
+5. [slang] A street name for ketamine (- K [slang], jet [slang], super acid [slang], special K [slang], honey oil [slang], cat valium [slang], super C [slang])
+
+- Verb: green (Derived forms: greens, greening, greened)
+1. Turn or become green
+"The trees are greening"
+
+- Noun: Green (Derived forms: Greens)
+1. An environmentalist who belongs to the Green Party
+ 
+2. United States labour leader who was president of the American Federation of Labor from 1924 to 1952 and who led the struggle with the Congress of Industrial Organizations (1873-1952) (- William Green)
+ 
+3. A river that rises in western Wyoming and flows southward through Utah to become a tributary of the Colorado River (- Green River)
 """,
   );
 
-  final String keyword = "greed";
+  final String keyword = "green";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,112 +119,118 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""greed""");
+    await flutterTts.speak("""green""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""His actions were motivated by greed.""");
+    await flutterTts.speak("""Wait for the light to turn green.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She killed him to satisfy her greed.""");
+    await flutterTts.speak(
+        """He's got pink walls and a green carpet, which to my mind looks all wrong.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Nothing would satisfy her greed for power.""");
+    await flutterTts
+        .speak("""I think I'll take your advice and get the green dress.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I don't know why I'm eating more - it's not hunger, it's just greed!""");
+    await flutterTts.speak("""I wore that skirt with the green spots.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""After the rains, the land was green with new growth.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""The recipe called for green tomatoes and vinegar.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak(
+        """The Green Party has pledged to invest heavily in public transport.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""The new trainees are still very green.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""Their leaves are a dark green.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""She was dressed all in green.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak(
+        """The room was decorated in a combination of greens and blues.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts.speak("""Eat up your greens.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1300""");
+    await flutterTts.speak("""Young leaves may be eaten as salad greens.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts.speak("""Children were playing on the village green.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1500""");
+    await flutterTts.speak("""Did the ball land on the green?""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
@@ -939,10 +984,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """greed""",
-                      // alsoEnglishWord: "also: greed",
-                      britshText: """IpaUK: /ɡriːd/""",
-                      americanText: """IpaUS: /ɡriːd/""",
+                      word: """green""",
+                      // alsoEnglishWord: "also: green",
+                      britshText: """IpaUK: /ɡriːn/""",
+                      americanText: """IpaUS: /ɡriːn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -983,13 +1028,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: تەماح، نەوس، چڵێسی، زگ‌بەردانەوە، چاوچنۆکی، زگەڕۆیی
+کوردی: سەوز، کەسک، شین، سەرسەوز، سەوزایی، شینایی، سەوزەڵانی، شیناوەرد،	(میوە) کاڵ، شین، نەگەییو، فەریک، کاڵ‌وکرچ،	ناسک، تورت،	(دار) تەڕ، وشکەوەنەبوو، خاو،	چاونەکراوە، تازەکار، کەم‌ئەزموون، خاو، مناڵ، ناپوخت،	سادە، ساویلکە،	ڕەنگ‌بزرکاو، زەرد، ڕەنگ‌نەخۆش،	کاڵ، کەم‌ڕەنگ،	یەکجار بەخیل، چاوپێ‌هەڵنەهاتوو،	سەربە ژینگەپارێزی، لایەنگری ژینگەپارێز، ژینگەپارێز، بەرگی سەوز، جل‌وبەرگی سەوز،	سەوزەڵانی، سەوزایی، شینایی، شیناوەرد، مێرگ، شوێنی سەوز
 """),
-// With short examples define "greed", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) حەزی زۆر بۆ پارە، دەسەڵات، هتد"""),
+// With short examples define "green", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) سەوز"""),
                     SentencesRow(
-                      englishText: """His actions were motivated by greed.""",
-                      kurdishText: """کردارەکانی پاڵنەری تەماحیان هەبوو.""",
+                      englishText:
+                          """Wait for the light to turn green (= on traffic lights).""",
+                      kurdishText:
+                          """بوەستە ڕۆشناییەکە ببێت بە سەوز پێش ئەوەی بچیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -997,8 +1044,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She killed him to satisfy her greed.""",
-                      kurdishText: """کوشتی بۆ تێرکردنی تەماحەکەی.""",
+                      englishText:
+                          """He's got pink walls and a green carpet, which to my mind looks all wrong.""",
+                      kurdishText:
+                          """دیواری پەمەیی ق ڕایەخی سەوزی هەیە، کە لای من هەمووی هەڵە دیارە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1006,62 +1055,78 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Nothing would satisfy her greed for power.""",
-                      kurdishText: """هیچ شتێک تەماحی بۆ دەسەڵات تێر نەدەکرد.""",
+                      englishText:
+                          """I think I'll take your advice and get the green dress.""",
+                      kurdishText:
+                          """پێموایە ئامۆژگارییەکەت لە گوێ دەگرم و جلە سەوزەکە دەکڕم.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) حەزێکی زۆر بۆ خواردن و خواردنەوە کە چی دیکە برسی نیت"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I don't know why I'm eating more - it's not hunger, it's just greed!""",
-                      kurdishText: """نازانم بۆچی زیاتر دەخۆم ـ برسێتی نییە، تەنها چڵێسییە!""",
+                      englishText:
+                          """I wore that skirt with the green spots.""",
+                      kurdishText:
+                          """ئەو تەنوورەم لەبەر کرد کە خاڵی سەوزی تێدایە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە بە سەوزەگیا داپۆشراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """After the rains, the land was green with new growth.""",
+                      kurdishText:
+                          """دوای بارانەکان، زەوییەکان سەوز بوون بە سەوزبوونی تازە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) کە هێشتا ئامادە نییە بخورێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The recipe called for green tomatoes and vinegar.""",
+                      kurdishText:
+                          """ڕەچەتەکە تەماتەی نەگەییو و سرکەی دەویست.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ھاوەڵناو) پەیوەندیدار بە پارتی ژینگەپارێزان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The Green Party has pledged to invest heavily in public transport.""",
+                      kurdishText:
+                          """پارتی سەوز بەڵێنی داوە وەبەرهێنان بە ڕێژەیەکی زۆر بکات لە کەرتی گواستنەوە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ھاوەڵناو) کەسێکی گەنج و بێ‌ئەزموون"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The new trainees are still very green.""",
+                      kurdishText:
+                          """ڕاهێنراوە تازەکان هێشتا زۆر کەم‌ئەزموونن.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """٦. (ناو) ڕەنگی سەوز"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Their leaves are a dark green.""",
+                      kurdishText: """گەڵاکانیان سەوزی کاڵن.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -1069,8 +1134,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She was dressed all in green.""",
+                      kurdishText: """تەواو ڕەنگی سەوزی لەبەربوو.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -1078,17 +1143,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The room was decorated in a combination of greens and blues.""",
+                      kurdishText:
+                          """ژوورەکە بە تێکەڵەیەکی سەوز و شین ڕازێندرابوویەوە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٧. (ناو) سەوزە کە گەڵاکەی سەوزێکی کاڵە، بۆ نموونە کەلەرم و سپێناخ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Eat up your greens.""",
+                      kurdishText: """سەوزەکانت بخۆ.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -1096,26 +1165,33 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Young leaves may be eaten as salad greens.""",
+                      kurdishText:
+                          """گەڵا تازەکان دەکرێت وەک سەوزەی زەڵاتە بخورێن.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٨. (ناو) ناوچەیەکی سەوزایی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Children were playing on the village green.""",
+                      kurdishText:
+                          """منداڵان لە سەوزایی گوندەکە یارییان دەکرد.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٩. (ناو) ناوچەیەک لە گۆڕەپانی گۆڵف کە لە دەوری کونەکەیە و چیمەنەکەی کورتکراوەتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Did the ball land on the green?""",
+                      kurdishText: """تۆپەکە لەسەر سەوزاییەکە نیشتەوە؟""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -2132,18 +2208,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/hYE5Lipyh_Q?t=';
-const double _startSecondsend = 000000000000000000000000000254;
-const String _videoIdone = 'https://youtu.be/nGrB-5ieeMU?t=';
-const double _startSecondsone = 000000000000000000000000000378;
-const String _videoIdtwo = 'https://youtu.be/mncCR3wehF8?t=';
-const double _startSecondstwo = 000000000000000000000000000763;
-const String _videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=';
-const double _startSecondsthree = 0000000000000000000000000005203;
-const String _videoIdfour = 'https://youtu.be/V2ec7EE0pB8?t=';
-const double _startSecondsfour = 0000000000000000000000000003061;
-const String _videoIdfive = 'https://youtu.be/RZt7kE7PZMQ?t=';
-const double _startSecondsfive = 000000000000000000000000000172;
+const String _videoIdend = 'https://youtu.be/hS2x1zl4rn0?t=';
+const double _startSecondsend = 0000000000000000000000000001418;
+const String _videoIdone = 'https://youtu.be/FHJ3CMWnVxY?t=';
+const double _startSecondsone = 000000000000000000000000000142;
+const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
+const double _startSecondstwo = 0000000000000000000000000001875;
+const String _videoIdthree = 'https://youtu.be/yjhibJ-OqxE?t=';
+const double _startSecondsthree = 000000000000000000000000000290;
+const String _videoIdfour = 'https://youtu.be/Ht0IbFNbfSY?t=';
+const double _startSecondsfour = 00000000000000000000000000025;
+const String _videoIdfive = 'https://youtu.be/uBstq-_zaYk?t=';
+const double _startSecondsfive = 00000000000000000000000000086;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

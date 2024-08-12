@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygreenbelt extends StatefulWidget {
-  const EnglishEntrygreenbelt({super.key});
+class EnglishEntrygrille extends StatefulWidget {
+  const EnglishEntrygrille({super.key});
 
   @override
-  State<EnglishEntrygreenbelt> createState() => _EnglishEntrygreenbeltState();
+  State<EnglishEntrygrille> createState() => _EnglishEntrygrilleState();
 }
 
-class _EnglishEntrygreenbeltState extends State<EnglishEntrygreenbelt> {
+class _EnglishEntrygrilleState extends State<EnglishEntrygrille> {
   @override
   void initState() {
     super.initState();
@@ -53,12 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: green belt (Derived forms: green belts)
-1. A belt of parks or rural land surrounding a town or city (- greenway)
+- Noun: grille (Derived forms: grilles)
+1. Small opening (like a window in a door) through which business can be transacted (- wicket, lattice)
+ 
+2. Grating that admits cooling air to car's radiator (- radiator grille)
+ 
+3. A framework of metal bars used as a partition or a grate (- grill, grillwork)
 """,
   );
 
-  final String keyword = "green belt";
+  final String keyword = "grille";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +82,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""green belt""");
+    await flutterTts.speak("""grille""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""New roads are cutting into the green belt.""");
+    await flutterTts
+        .speak("""A grille separated the prisoners from their visitors.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Green belt development is carefully regulated.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -937,10 +942,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """green belt""",
-                      // alsoEnglishWord: "also: green belt",
-                      britshText: """IpaUK: /ˈɡriːn belt/""",
-                      americanText: """IpaUS: /ˈɡriːn belt/""",
+                      word: """grille""",
+                      // alsoEnglishWord: "also: grille",
+                      britshText: """IpaUK: /ɡrɪl/""",
+                      americanText: """IpaUS: /ɡrɪl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -983,11 +988,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "green belt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ناوچەیەکی کراوە بە دەوری شارێکدا کە تێیدا کۆنترۆڵی توند هەیە لەسەر بنیاتنانی نیشتەجێبوون"""),
+// With short examples define "grille", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارێزەرێکی ئاسنین یان تەلی کە لە پێش پەنجەرە، دەرگا، ئامێرێک، هتد دانراوە بۆ پاراستن"""),
                     SentencesRow(
-                      englishText: """New roads are cutting into the green belt.""",
-                      kurdishText: """ڕێگای تازە بە پشتێنەی شاردا تێدەپەڕن.""",
+                      englishText:
+                          """A grille separated the prisoners from their visitors.""",
+                      kurdishText:
+                          """شیشبەندێک زیندانییەکانی لە سەردانکاران جیادەکردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -995,8 +1004,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Green belt development is carefully regulated.""",
-                      kurdishText: """بنیاتنان لە پشتێنەی شار بە وریاییەوە ڕێکدەخرێت.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2130,18 +2139,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/RfmFNM9PHa0?t=';
-const double _startSecondsend = 000000000000000000000000000252;
-const String _videoIdone = 'https://youtu.be/PcfytbYo1SQ?t=';
-const double _startSecondsone = 000000000000000000000000000813;
-const String _videoIdtwo = 'https://youtu.be/YBcuJLPBAbE?t=';
-const double _startSecondstwo = 0000000000000000000000000001441;
-const String _videoIdthree = 'https://youtu.be/jaCkZvrDtC8?t=';
-const double _startSecondsthree = 000000000000000000000000000398;
-const String _videoIdfour = 'https://youtu.be/6BQauxZql4M?t=';
-const double _startSecondsfour = 000000000000000000000000000806;
-const String _videoIdfive = 'https://youtu.be/ACtO9TnF6HM?t=';
-const double _startSecondsfive = 000000000000000000000000000140;
+const String _videoIdend = 'https://youtu.be/XDVkqrB-Pj8?t=';
+const double _startSecondsend = 00000000000000000000000000014;
+const String _videoIdone = 'https://youtu.be/N_2QFPkluCg';
+const double _startSecondsone = 0;
+const String _videoIdtwo = 'https://youtu.be/bBpnS1ddfNw?t=';
+const double _startSecondstwo = 0000000000000000000000000009;
+const String _videoIdthree = 'https://youtu.be/qPYUqUjca68?t=';
+const double _startSecondsthree = 00000000000000000000000000012;
+const String _videoIdfour = 'https://youtu.be/2k4ZK9p8fwc?t=';
+const double _startSecondsfour = 000000000000000000000000000327;
+const String _videoIdfive = 'https://youtu.be/ZSeKDygrAas?t=';
+const double _startSecondsfive = 000000000000000000000000000175;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

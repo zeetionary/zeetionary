@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygreenbelt extends StatefulWidget {
-  const EnglishEntrygreenbelt({super.key});
+class EnglishEntrygrin extends StatefulWidget {
+  const EnglishEntrygrin({super.key});
 
   @override
-  State<EnglishEntrygreenbelt> createState() => _EnglishEntrygreenbeltState();
+  State<EnglishEntrygrin> createState() => _EnglishEntrygrinState();
 }
 
-class _EnglishEntrygreenbeltState extends State<EnglishEntrygreenbelt> {
+class _EnglishEntrygrinState extends State<EnglishEntrygrin> {
   @override
   void initState() {
     super.initState();
@@ -53,12 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: green belt (Derived forms: green belts)
-1. A belt of parks or rural land surrounding a town or city (- greenway)
+- Verb: grin (Derived forms: grins, grinning, grinned)
+1. To draw back the lips and reveal the teeth, in a smile, grimace, or snarl
+
+- Noun: grin (Derived forms: grins)
+1. A facial expression characterized by turning up the corners of the mouth; usually shows pleasure or amusement (- smile, smiling, grinning)
 """,
   );
 
-  final String keyword = "green belt";
+  final String keyword = "grin";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,28 +81,28 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""green belt""");
+    await flutterTts.speak("""grin""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""New roads are cutting into the green belt.""");
+    await flutterTts.speak("""Stop grinning and tell me what happened!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Green belt development is carefully regulated.""");
+    await flutterTts.speak("""She grinned amiably at us.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She gave a broad grin.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -937,10 +940,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """green belt""",
-                      // alsoEnglishWord: "also: green belt",
-                      britshText: """IpaUK: /ˈɡriːn belt/""",
-                      americanText: """IpaUS: /ˈɡriːn belt/""",
+                      word: """grin""",
+                      // alsoEnglishWord: "also: grin",
+                      britshText: """IpaUK: /ɡrɪn/""",
+                      americanText: """IpaUS: /ɡrɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -983,11 +986,11 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "green belt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ناوچەیەکی کراوە بە دەوری شارێکدا کە تێیدا کۆنترۆڵی توند هەیە لەسەر بنیاتنانی نیشتەجێبوون"""),
+// With short examples define "grin", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (کردار) پێکەنین بە فراوانی"""),
                     SentencesRow(
-                      englishText: """New roads are cutting into the green belt.""",
-                      kurdishText: """ڕێگای تازە بە پشتێنەی شاردا تێدەپەڕن.""",
+                      englishText: """Stop grinning and tell me what happened!""",
+                      kurdishText: """بوەستە لە خەنین و پێم بڵێ چی ڕوویدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -995,17 +998,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Green belt development is carefully regulated.""",
-                      kurdishText: """بنیاتنان لە پشتێنەی شار بە وریاییەوە ڕێکدەخرێت.""",
+                      englishText: """She grinned amiably at us.""",
+                      kurdishText: """بە دڵخۆشییەوە پێدەکەنی بۆمان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) پێکەنین بە فراوانی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She gave a broad grin.""",
+                      kurdishText: """خەنینێکی فراوانی کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2130,18 +2133,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/RfmFNM9PHa0?t=';
-const double _startSecondsend = 000000000000000000000000000252;
-const String _videoIdone = 'https://youtu.be/PcfytbYo1SQ?t=';
-const double _startSecondsone = 000000000000000000000000000813;
-const String _videoIdtwo = 'https://youtu.be/YBcuJLPBAbE?t=';
-const double _startSecondstwo = 0000000000000000000000000001441;
-const String _videoIdthree = 'https://youtu.be/jaCkZvrDtC8?t=';
-const double _startSecondsthree = 000000000000000000000000000398;
-const String _videoIdfour = 'https://youtu.be/6BQauxZql4M?t=';
-const double _startSecondsfour = 000000000000000000000000000806;
-const String _videoIdfive = 'https://youtu.be/ACtO9TnF6HM?t=';
-const double _startSecondsfive = 000000000000000000000000000140;
+const String _videoIdend = 'https://youtu.be/LwZIxGAG8xA?t=';
+const double _startSecondsend = 00000000000000000000000000031;
+const String _videoIdone = 'https://youtu.be/69ZyEw0T7Z8?t=';
+const double _startSecondsone = 000000000000000000000000000235;
+const String _videoIdtwo = 'https://youtu.be/Udk8YHOy0EU?t=';
+const double _startSecondstwo = 000000000000000000000000000312;
+const String _videoIdthree = 'https://youtu.be/iZbala54uzk?t=';
+const double _startSecondsthree = 000000000000000000000000000284;
+const String _videoIdfour = 'https://youtu.be/Nfl9KgjWpiw';
+const double _startSecondsfour = 0;
+const String _videoIdfive = 'https://youtu.be/1ykJaIhCIWg?t=';
+const double _startSecondsfive = 000000000000000000000000000241;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

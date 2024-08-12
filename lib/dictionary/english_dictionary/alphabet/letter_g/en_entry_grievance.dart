@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygreenbelt extends StatefulWidget {
-  const EnglishEntrygreenbelt({super.key});
+class EnglishEntrygrievance extends StatefulWidget {
+  const EnglishEntrygrievance({super.key});
 
   @override
-  State<EnglishEntrygreenbelt> createState() => _EnglishEntrygreenbeltState();
+  State<EnglishEntrygrievance> createState() => _EnglishEntrygrievanceState();
 }
 
-class _EnglishEntrygreenbeltState extends State<EnglishEntrygreenbelt> {
+class _EnglishEntrygrievanceState extends State<EnglishEntrygrievance> {
   @override
   void initState() {
     super.initState();
@@ -53,12 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: green belt (Derived forms: green belts)
-1. A belt of parks or rural land surrounding a town or city (- greenway)
+- Noun: grievance (Derived forms: grievances)
+1. A resentment strong enough to justify retaliation (- grudge, score)
+ 
+2. An allegation that something imposes an illegal obligation or denies some legal right or causes injustice
+ 
+3. A complaint about a (real or imaginary) wrong that causes resentment and is grounds for action
 """,
   );
 
-  final String keyword = "green belt";
+  final String keyword = "grievance";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,28 +82,31 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""green belt""");
+    await flutterTts.speak("""grievance""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""New roads are cutting into the green belt.""");
+    await flutterTts.speak(
+        """Parents were invited to air their grievances at the meeting.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Green belt development is carefully regulated.""");
+    await flutterTts
+        .speak("""These interviews aim to deal with individual grievances.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Does the company have a formal grievance procedure?""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -937,10 +944,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """green belt""",
-                      // alsoEnglishWord: "also: green belt",
-                      britshText: """IpaUK: /ˈɡriːn belt/""",
-                      americanText: """IpaUS: /ˈɡriːn belt/""",
+                      word: """grievance""",
+                      // alsoEnglishWord: "also: grievance",
+                      britshText: """IpaUK: /ˈɡriːvəns/""",
+                      americanText: """IpaUS: /ˈɡriːvəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,13 +988,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سکاڵا، گازندە، گلەیی، ناڵە، دەردی دڵ، شکات،	ناڕەزایی
 """),
-// With short examples define "green belt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ناوچەیەکی کراوە بە دەوری شارێکدا کە تێیدا کۆنترۆڵی توند هەیە لەسەر بنیاتنانی نیشتەجێبوون"""),
+// With short examples define "grievance", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شتێک کە پێتوایە نادادپەروەرانەیە و دژی دەوەستیت"""),
                     SentencesRow(
-                      englishText: """New roads are cutting into the green belt.""",
-                      kurdishText: """ڕێگای تازە بە پشتێنەی شاردا تێدەپەڕن.""",
+                      englishText:
+                          """Parents were invited to air their grievances (= express them) at the meeting.""",
+                      kurdishText:
+                          """دایبابان بانگکران بۆ ئەوەی سکاڵایان لە کۆبوونەوەکە ڕابگەیەنن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -995,8 +1006,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Green belt development is carefully regulated.""",
-                      kurdishText: """بنیاتنان لە پشتێنەی شار بە وریاییەوە ڕێکدەخرێت.""",
+                      englishText:
+                          """These interviews aim to deal with individual grievances.""",
+                      kurdishText:
+                          """ئەم چاوپێکەوتنانە ئامانجیانە مامەڵە لەگەڵ گازەندەی کەسەکان بکەن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1004,8 +1017,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Does the company have a formal grievance procedure (= a way of dealing with your complaints at work)?""",
+                      kurdishText:
+                          """ئایا کۆمپانیاکە ڕێگەی فەرمی سکاڵای هەیە؟""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2130,18 +2145,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/RfmFNM9PHa0?t=';
-const double _startSecondsend = 000000000000000000000000000252;
-const String _videoIdone = 'https://youtu.be/PcfytbYo1SQ?t=';
-const double _startSecondsone = 000000000000000000000000000813;
-const String _videoIdtwo = 'https://youtu.be/YBcuJLPBAbE?t=';
-const double _startSecondstwo = 0000000000000000000000000001441;
-const String _videoIdthree = 'https://youtu.be/jaCkZvrDtC8?t=';
-const double _startSecondsthree = 000000000000000000000000000398;
-const String _videoIdfour = 'https://youtu.be/6BQauxZql4M?t=';
-const double _startSecondsfour = 000000000000000000000000000806;
-const String _videoIdfive = 'https://youtu.be/ACtO9TnF6HM?t=';
-const double _startSecondsfive = 000000000000000000000000000140;
+const String _videoIdend = 'https://youtu.be/pLwHTqU2r_Y?t=';
+const double _startSecondsend = 00000000000000000000000000047;
+const String _videoIdone = 'https://youtu.be/tZktTdGHaJY?t=';
+const double _startSecondsone = 0000000000000000000000000001265;
+const String _videoIdtwo = 'https://youtu.be/eweyhaE6mpI?t=';
+const double _startSecondstwo = 000000000000000000000000000260;
+const String _videoIdthree = 'https://youtu.be/zj6p5kYnPPY?t=';
+const double _startSecondsthree = 000000000000000000000000000779;
+const String _videoIdfour = 'https://youtu.be/s_jaU5V9FUg?t=';
+const double _startSecondsfour = 0000000000000000000000000008;
+const String _videoIdfive = 'https://youtu.be/9l3f1KrMQeo?t=';
+const double _startSecondsfive = 000000000000000000000000000231;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

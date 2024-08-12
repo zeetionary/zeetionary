@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygreenbelt extends StatefulWidget {
-  const EnglishEntrygreenbelt({super.key});
+class EnglishEntrygregarious extends StatefulWidget {
+  const EnglishEntrygregarious({super.key});
 
   @override
-  State<EnglishEntrygreenbelt> createState() => _EnglishEntrygreenbeltState();
+  State<EnglishEntrygregarious> createState() => _EnglishEntrygregariousState();
 }
 
-class _EnglishEntrygreenbeltState extends State<EnglishEntrygreenbelt> {
+class _EnglishEntrygregariousState extends State<EnglishEntrygregarious> {
   @override
   void initState() {
     super.initState();
@@ -53,12 +53,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: green belt (Derived forms: green belts)
-1. A belt of parks or rural land surrounding a town or city (- greenway)
+- Adjective: gregarious
+1. (of animals) tending to form a group with others of the same species
+"gregarious bird species"
+ 
+2. (of plants) growing in groups that are close together
+ 
+3. Instinctively or temperamentally seeking and enjoying the company of others
+"he is a gregarious person who avoids solitude"
 """,
   );
 
-  final String keyword = "green belt";
+  final String keyword = "gregarious";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +84,21 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""green belt""");
+    await flutterTts.speak("""gregarious""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""New roads are cutting into the green belt.""");
+    await flutterTts.speak("""She’s very outgoing and gregarious.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Green belt development is carefully regulated.""");
+    await flutterTts.speak("""Hugh was a popular and gregarious man.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -937,10 +943,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """green belt""",
-                      // alsoEnglishWord: "also: green belt",
-                      britshText: """IpaUK: /ˈɡriːn belt/""",
-                      americanText: """IpaUS: /ˈɡriːn belt/""",
+                      word: """gregarious""",
+                      // alsoEnglishWord: "also: gregarious",
+                      britshText: """IpaUK: /ɡrɪˈɡeəriəs/""",
+                      americanText: """IpaUS: /ɡrɪˈɡeriəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,13 +987,14 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خوێن‌گەرم، ڕووخۆشی تێکەڵی خەڵک،	مێگەل‌ژی، ژیانی بەکۆمەڵ، دەستەیی، ژیانی مێگەلی، بۆڵ‌بۆڵ، بۆڵی، هێشووهێشوو، هێشوویی
 """),
-// With short examples define "green belt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ناوچەیەکی کراوە بە دەوری شارێکدا کە تێیدا کۆنترۆڵی توند هەیە لەسەر بنیاتنانی نیشتەجێبوون"""),
+// With short examples define "gregarious", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: sociable"),
                     SentencesRow(
-                      englishText: """New roads are cutting into the green belt.""",
-                      kurdishText: """ڕێگای تازە بە پشتێنەی شاردا تێدەپەڕن.""",
+                      englishText: """She’s very outgoing and gregarious.""",
+                      kurdishText: """ئەو زۆر کراوەیە و کۆمەڵایەتییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -995,8 +1002,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Green belt development is carefully regulated.""",
-                      kurdishText: """بنیاتنان لە پشتێنەی شار بە وریاییەوە ڕێکدەخرێت.""",
+                      englishText: """Hugh was a popular and gregarious man.""",
+                      kurdishText: """هیو پیاوێکی ناسراو و خوێن‌گەرم بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2130,18 +2137,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/RfmFNM9PHa0?t=';
-const double _startSecondsend = 000000000000000000000000000252;
-const String _videoIdone = 'https://youtu.be/PcfytbYo1SQ?t=';
-const double _startSecondsone = 000000000000000000000000000813;
-const String _videoIdtwo = 'https://youtu.be/YBcuJLPBAbE?t=';
-const double _startSecondstwo = 0000000000000000000000000001441;
-const String _videoIdthree = 'https://youtu.be/jaCkZvrDtC8?t=';
-const double _startSecondsthree = 000000000000000000000000000398;
-const String _videoIdfour = 'https://youtu.be/6BQauxZql4M?t=';
-const double _startSecondsfour = 000000000000000000000000000806;
-const String _videoIdfive = 'https://youtu.be/ACtO9TnF6HM?t=';
-const double _startSecondsfive = 000000000000000000000000000140;
+const String _videoIdend = 'https://youtu.be/E44kFkyl_Y8?t=';
+const double _startSecondsend = 0000000000000000000000000001010;
+const String _videoIdone = 'https://youtu.be/j0iOuOMh_JE?t=';
+const double _startSecondsone = 000000000000000000000000000296;
+const String _videoIdtwo = 'https://youtu.be/VvcceH0HdUY?t=';
+const double _startSecondstwo = 00000000000000000000000000068;
+const String _videoIdthree = 'https://youtu.be/hcUAJNqxrUY?t=';
+const double _startSecondsthree = 000000000000000000000000000286;
+const String _videoIdfour = 'https://youtu.be/rKo8Sv99MkM?t=';
+const double _startSecondsfour = 000000000000000000000000000228;
+const String _videoIdfive = 'https://youtu.be/N8-pg9sI8Xo?t=';
+const double _startSecondsfive = 000000000000000000000000000307;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

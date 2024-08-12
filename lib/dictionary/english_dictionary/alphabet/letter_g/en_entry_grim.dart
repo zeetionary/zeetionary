@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygreenbelt extends StatefulWidget {
-  const EnglishEntrygreenbelt({super.key});
+class EnglishEntrygrim extends StatefulWidget {
+  const EnglishEntrygrim({super.key});
 
   @override
-  State<EnglishEntrygreenbelt> createState() => _EnglishEntrygreenbeltState();
+  State<EnglishEntrygrim> createState() => _EnglishEntrygrimState();
 }
 
-class _EnglishEntrygreenbeltState extends State<EnglishEntrygreenbelt> {
+class _EnglishEntrygrimState extends State<EnglishEntrygrim> {
   @override
   void initState() {
     super.initState();
@@ -53,12 +53,29 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: green belt (Derived forms: green belts)
-1. A belt of parks or rural land surrounding a town or city (- greenway)
+- Adjective: grim (Derived forms: grimmest, grimmer)
+1. Not to be placated, appeased or moved by entreaty (- inexorable, relentless, stern, unappeasable, unforgiving, unrelenting)
+"grim determination"; "grim necessity";
+ 
+2. Shockingly repellent; inspiring horror (- ghastly, grisly, gruesome, macabre, sick)
+"the grim aftermath of the bombing";
+ 
+3. Harshly ironic or sinister (- black, mordant)
+"a grim joke"; "grim laughter";
+ 
+4. Harshly uninviting or formidable in manner or appearance (- dour, forbidding)
+"a grim man loving duty more than humanity"; "undoubtedly the grimmest part of him was his iron claw";
+ 
+5. Filled with melancholy and despondency (- gloomy, blue [informal], depressed, dispirited, down, downcast, downhearted, down in the mouth, low, low-spirited)
+"took a grim view of the economy";
+ 
+6. Causing dejection (- blue [informal], dark, dingy, disconsolate, dismal, gloomy, sorry, drab, drear, dreary)
+"grim rainy weather";
+
 """,
   );
 
-  final String keyword = "green belt";
+  final String keyword = "grim";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,56 +95,60 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""green belt""");
+    await flutterTts.speak("""grim""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""New roads are cutting into the green belt.""");
+    await flutterTts
+        .speak("""He set about the task with grim concentration.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Green belt development is carefully regulated.""");
+    await flutterTts.speak("""James had some rather grim news.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""We face the grim prospect of still higher unemployment.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""Booth paints a grim picture of life in the next century.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""The house looked grim and dreary in the rain.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""I feel grim this morning.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts
+        .speak("""Their performance was fairly grim, I'm afraid!""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -937,10 +958,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """green belt""",
-                      // alsoEnglishWord: "also: green belt",
-                      britshText: """IpaUK: /ˈɡriːn belt/""",
-                      americanText: """IpaUS: /ˈɡriːn belt/""",
+                      word: """grim""",
+                      // alsoEnglishWord: "also: grim",
+                      britshText: """IpaUK: /ɡrɪm/""",
+                      americanText: """IpaUS: /ɡrɪm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,22 +1002,27 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مۆن، گرژ، ڕشت، مڕومۆچ،	سەخت، گران، بێ‌ئەمان،	ناخۆش، تاڵ، خراپ،	دڵتەزێن، جەرگبڕ، ترسناک، ترسێنەر، بێ‌بەزەیی‌یانە،	نگریس،	خەماوی، نگەران‌کەر، خەمبار، دڵپڕ، ناڕەحەت‌کەر، بەژان،	نەخۆش، ناساز،	شپرزە، خراپ، ناخۆش
 """),
-// With short examples define "green belt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ناوچەیەکی کراوە بە دەوری شارێکدا کە تێیدا کۆنترۆڵی توند هەیە لەسەر بنیاتنانی نیشتەجێبوون"""),
+// With short examples define "grim", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە جدی دیارە"""),
                     SentencesRow(
-                      englishText: """New roads are cutting into the green belt.""",
-                      kurdishText: """ڕێگای تازە بە پشتێنەی شاردا تێدەپەڕن.""",
+                      englishText:
+                          """He set about the task with grim concentration.""",
+                      kurdishText:
+                          """بە سەرنج‌پێدانی تەواوەوە دەستی بە کارەکە کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) ناخۆش و بێزارکەر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Green belt development is carefully regulated.""",
-                      kurdishText: """بنیاتنان لە پشتێنەی شار بە وریاییەوە ڕێکدەخرێت.""",
+                      englishText: """James had some rather grim news.""",
+                      kurdishText:
+                          """جەیمس هەندێک هەواڵی کەمێک ناخۆشی پێبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1004,8 +1030,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We face the grim prospect of still higher unemployment.""",
+                      kurdishText:
+                          """ڕووبەڕووی پاشەڕۆژی بێ‌کاریی هێشتا زیاتر دەبینەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1013,35 +1041,44 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Booth paints a grim picture of life in the next century.""",
+                      kurdishText:
+                          """بووس وێنایەکی ژیانی تاڵ لە سەدەی داهاتوو دەکێشێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) شوێنێک یان بینایەکی ناخۆش و بێزارکەر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The house looked grim and dreary in the rain.""",
+                      kurdishText:
+                          """خانووەکە لە بارانەکەدا نیگەران‌کەر و خەماوی دەردەکەوت..""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٤. (ھاوەڵناو) نەخۆش"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I feel grim this morning.""",
+                      kurdishText: """ئەم بەیانییە هەست بە ناساغی دەکەم.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ھاوەڵناو) کە کوالێتیی زۆر خراپە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Their performance was fairly grim, I'm afraid!""",
+                      kurdishText:
+                          """بەداخەوەم کە نمایشەکە تا ڕادەیەک هیچەکە بوو.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -2130,18 +2167,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/RfmFNM9PHa0?t=';
-const double _startSecondsend = 000000000000000000000000000252;
-const String _videoIdone = 'https://youtu.be/PcfytbYo1SQ?t=';
-const double _startSecondsone = 000000000000000000000000000813;
-const String _videoIdtwo = 'https://youtu.be/YBcuJLPBAbE?t=';
-const double _startSecondstwo = 0000000000000000000000000001441;
-const String _videoIdthree = 'https://youtu.be/jaCkZvrDtC8?t=';
-const double _startSecondsthree = 000000000000000000000000000398;
-const String _videoIdfour = 'https://youtu.be/6BQauxZql4M?t=';
-const double _startSecondsfour = 000000000000000000000000000806;
-const String _videoIdfive = 'https://youtu.be/ACtO9TnF6HM?t=';
-const double _startSecondsfive = 000000000000000000000000000140;
+const String _videoIdend = 'https://youtu.be/8eq2vGEEbB4?t=';
+const double _startSecondsend = 000000000000000000000000000328;
+const String _videoIdone = 'https://youtu.be/AwhBTrzzqeg?t=';
+const double _startSecondsone = 000000000000000000000000000461;
+const String _videoIdtwo = 'https://youtu.be/7eM7pb5M5DU?t=';
+const double _startSecondstwo = 0000000000000000000000000002416;
+const String _videoIdthree = 'https://youtu.be/JcpboMScfIY?t=';
+const double _startSecondsthree = 00000000000000000000000000088;
+const String _videoIdfour = 'https://youtu.be/62EGPCEmeh4?t=';
+const double _startSecondsfour = 000000000000000000000000000717;
+const String _videoIdfive = 'https://youtu.be/Q-nWA0WeF98?t=';
+const double _startSecondsfive = 0000000000000000000000000002072;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

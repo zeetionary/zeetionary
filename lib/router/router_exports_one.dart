@@ -4747,36 +4747,36 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_green.dart' show EnglishEntrygreen
 // en_entry_green_bean.dart' show EnglishEntrygreenbean //// فففف green bean
 // en_entry_green_belt.dart' show EnglishEntrygreenbelt //// فففف green belt
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_green_fingers.dart' show EnglishEntrygreenfingers //// فففف green fingers
+// en_entry_greengrocer.dart' show EnglishEntrygreengrocer
+// en_entry_greenhouse.dart' show EnglishEntrygreenhouse
+// en_entry_greenhouse_effect.dart' show EnglishEntrygreenhouseeffect //// فففف greenhouse effect
+// en_entry_greenhouse_gas.dart' show EnglishEntrygreenhousegas //// فففف greenhouse gas
+// en_entry_greenness.dart' show EnglishEntrygreenness
+// en_entry_greenery.dart' show EnglishEntrygreenery
+// en_entry_greet.dart' show EnglishEntrygreet
+// en_entry_greeting.dart' show EnglishEntrygreeting
+// en_entry_gregarious.dart' show EnglishEntrygregarious
+// en_entry_grenade.dart' show EnglishEntrygrenade
+// en_entry_grey.dart' show EnglishEntrygrey
+// en_entry_grey_matter.dart' show EnglishEntrygreymatter //// فففف grey matter
+// en_entry_greyhound.dart' show EnglishEntrygreyhound
+// en_entry_grid.dart' show EnglishEntrygrid
+// en_entry_grief.dart' show EnglishEntrygrief
+// en_entry_grievance.dart' show EnglishEntrygrievance
+// en_entry_grieve.dart' show EnglishEntrygrieve
+// en_entry_grill.dart' show EnglishEntrygrill
+// en_entry_grille.dart' show EnglishEntrygrille
+// en_entry_grim.dart' show EnglishEntrygrim
+// en_entry_grimly.dart' show EnglishEntrygrimly
+// en_entry_grimace.dart' show EnglishEntrygrimace
+// en_entry_grime.dart' show EnglishEntrygrime
+// en_entry_grimy.dart' show EnglishEntrygrimy
+// en_entry_grin.dart' show EnglishEntrygrin
+// en_entry_grind.dart' show EnglishEntrygrind
+// en_entry_grinder.dart' show EnglishEntrygrinder
+// en_entry_grindstone.dart' show EnglishEntrygrindstone
+// en_entry_grip.dart' show EnglishEntrygrip
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

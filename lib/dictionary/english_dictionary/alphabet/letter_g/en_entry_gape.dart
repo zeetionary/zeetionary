@@ -51,16 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gape (Derived forms: gapes)
+- Noun: gape (derived forms: gapes)
 1. An expression of openmouthed astonishment
  
 2. A stare of amazement (usually with the mouth open)
 
-- Verb: gape (Derived forms: gaping, gaped, gapes)
-1. Look with amazement; look stupidly (- goggle, gawp [Brit, informal], gawk)
+- Verb: gape (derived forms: gaping, gaped, gapes)
+1. Look with amazement; look stupidly (= goggle, gawp [Brit, informal], gawk)
 "he was gaping at me, close to panic";
 
-2. Be wide open (- yawn, yaw)
+2. Be wide open (= yawn, yaw)
 "the deep gaping canyon";
 """,
   );

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gatepost (Derived forms: gateposts)
+- Noun: gatepost (derived forms: gateposts)
 1. Either of two posts that bound a gate
 """,
   );

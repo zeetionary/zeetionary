@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gable (Derived forms: gables)
-1. The vertical triangular wall between the sloping ends of gable roof (- gable end, gable wall)
+- Noun: gable (derived forms: gables)
+1. The vertical triangular wall between the sloping ends of gable roof (= gable end, gable wall)
 """,
   );
 

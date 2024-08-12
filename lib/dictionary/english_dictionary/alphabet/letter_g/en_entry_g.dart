@@ -51,25 +51,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: g (Derived forms: gs)
-1. The 7th letter of the Roman alphabet (- G)
+- Noun: g (derived forms: gs)
+1. The 7th letter of the Roman alphabet (= G)
  
-2. A metric unit of weight equal to one thousandth of a kilogram (- gram, gramme, gm)
+2. A metric unit of weight equal to one thousandth of a kilogram (= gram, gramme, gm)
  
-3. A unit of force equal to the force exerted by gravity; used to indicate the force to which a body is subjected when it is accelerated (- gee, g-force)
+3. A unit of force equal to the force exerted by gravity; used to indicate the force to which a body is subjected when it is accelerated (= gee, g-force)
 
-- Noun: G (Derived forms: Gs)
-1. A unit of information equal to 1024 mebibytes or 2^30 (1,073,741,824) bytes (- gigabyte, gibibyte, GB, GiB, gig [informal])
+- Noun: G (derived forms: Gs)
+1. A unit of information equal to 1024 mebibytes or 2^30 (1,073,741,824) bytes (= gigabyte, gibibyte, GB, GiB, gig [informal])
  
-2. The cardinal number that is the product of 10 and 100 (- thousand, one thousand, 1000, M, K, chiliad, thou, yard)
+2. The cardinal number that is the product of 10 and 100 (= thousand, one thousand, 1000, M, K, chiliad, thou, yard)
  
-3. One of the four nucleotides used in building DNA, also known as deoxyguanylate, or dGMP; all four nucleotides have a common phosphate group and a sugar (ribose) (- deoxyguanosine monophosphate)
+3. One of the four nucleotides used in building DNA, also known as deoxyguanylate, or dGMP; all four nucleotides have a common phosphate group and a sugar (ribose) (= deoxyguanosine monophosphate)
  
-4. A unit of information equal to 1000 megabytes or 10^9 (1,000,000,000) bytes (- gigabyte, GB, gig [informal])
+4. A unit of information equal to 1000 megabytes or 10^9 (1,000,000,000) bytes (= gigabyte, GB, gig [informal])
  
-5. (physics) the universal constant relating force to mass and distance in Newton's law of gravitation (- gravitational constant, universal gravitational constant, constant of gravitation)
+5. (physics) the universal constant relating force to mass and distance in Newton's law of gravitation (= gravitational constant, universal gravitational constant, constant of gravitation)
  
-6. A purine base found in DNA and RNA; pairs with cytosine (- guanine)
+6. A purine base found in DNA and RNA; pairs with cytosine (= guanine)
 """,
   );
 

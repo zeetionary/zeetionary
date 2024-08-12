@@ -52,9 +52,9 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: gentleness
-1. The property possessed by a slope that is very gradual (- gradualness)
+1. The property possessed by a slope that is very gradual (= gradualness)
  
-2. Acting in a manner that is gentle and mild and even-tempered (- softness, mildness)
+2. Acting in a manner that is gentle and mild and even-tempered (= softness, mildness)
 "his fingers have learned gentleness";
 """,
   );

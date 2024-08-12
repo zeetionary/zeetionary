@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: generality (Derived forms: generalities)
-1. An idea or conclusion having general application (- generalization, generalisation [Brit])
+- Noun: generality (derived forms: generalities)
+1. An idea or conclusion having general application (= generalization, generalisation [Brit])
 "he spoke in broad generalities";
  
 2. The quality of being general, widespread or having general applicability

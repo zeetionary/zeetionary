@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glare (Derived forms: glaring, glares, glared)
-1. Look at with a fixed gaze (- glower)
+- Verb: glare (derived forms: glaring, glares, glared)
+1. Look at with a fixed gaze (= glower)
 "The girl glared at the man who tried to make a pass at her";
  
 2. Be sharply reflected
@@ -61,13 +61,13 @@ ${englishMeaningConst.text}
 3. Shine intensely
 "The sun glared down on us"
 
-- Noun: glare (Derived forms: glares)
-1. A light within the field of vision that is brighter than the brightness to which the eyes are adapted (- blaze, brilliance)
+- Noun: glare (derived forms: glares)
+1. A light within the field of vision that is brighter than the brightness to which the eyes are adapted (= blaze, brilliance)
 "a glare of sunlight";
  
-2. An angry stare (- glower)
+2. An angry stare (= glower)
  
-3. A focus of public attention (- limelight, spotlight, public eye)
+3. A focus of public attention (= limelight, spotlight, public eye)
 "when Congress investigates it brings the full glare of publicity to the agency";
 """,
   );
@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شەوق یان تیشکی ناخۆش و چاوھەڵنەھاتوو، شەوقی تیژ یان زەق، درەوشانەوە، گەشانەوە، بریقانەوە، ورشە، بریقە، ڕۆشنایی یان تیشکی تیژ و زۆر
 """),
-// With short examples define "glare", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) سەیرکردنی کەسێک/شتێک بە تووڕەیی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: glower"),

@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: globe (Derived forms: globes)
-1. The 3rd planet from the sun; the planet we live on (- Earth, earth, world)
+- Noun: globe (derived forms: globes)
+1. The 3rd planet from the sun; the planet we live on (= Earth, earth, world)
 "the globe moves around the sun";
  
-2. An object with a spherical shape (- ball, orb)
+2. An object with a spherical shape (= ball, orb)
 "a globe of fire";
  
 3. A sphere on which a map (especially of the earth) is represented
@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زەوی، گۆی زەوی،	جیھان، جەھان،	گۆ یان تۆپی جوگرافیایی،	گۆ،	شووشەی خڕ بۆ ڕاگرتنی ماسی،	(توێکاری) گۆی چاو
 """),
-// With short examples define "globe", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) جیھان"""),
                     SentencesRow(
                       englishText:

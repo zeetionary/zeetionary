@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لەخوداترسی، خودابینی، دینداری، بەدینی، پارێزگاری، خواناسی
 """),
-// With short examples define "godliness", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ژیانی خواناسی"""),
                     SentencesRow(
                       englishText:

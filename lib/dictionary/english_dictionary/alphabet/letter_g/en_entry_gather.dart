@@ -51,22 +51,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gather (Derived forms: gathered, gathers, gathering)
-1. Assemble or get together (- garner, collect, pull together)
+- Verb: gather (derived forms: gathered, gathers, gathering)
+1. Assemble or get together (= garner, collect, pull together)
 "gather some stones";
  
-2. (of people) collect in one place (- meet, assemble, forgather, foregather)
+2. (of people) collect in one place (= meet, assemble, forgather, foregather)
 "Let's gather in the dining room";
  
-3. Collect in one place, esp. growing to a large number or quantity (- accumulate, cumulate, conglomerate, pile up, amass)
+3. Collect in one place, esp. growing to a large number or quantity (= accumulate, cumulate, conglomerate, pile up, amass)
 "Journals are gathering in my office";
  
 4. Conclude from evidence
 "I gather you have not done your homework"
  
-5. Draw together into folds or puckers (- pucker, tuck)
+5. Draw together into folds or puckers (= pucker, tuck)
  
-7. Get people together (- assemble, get together)
+7. Get people together (= assemble, get together)
 "gather the close family members";
  
 8. Draw and bring closer
@@ -75,13 +75,13 @@ ${englishMeaningConst.text}
 9. Look for (food) in nature
 "Our ancestors gathered nuts in the Fall"
  
-10. Increase or develop (- gain)
+10. Increase or develop (= gain)
 "the car gathers speed";
 
-- Noun: gather (Derived forms: gathers)
-1. Sewing consisting of small folds or puckers made by pulling tight a thread in a line of stitching (- gathering)
+- Noun: gather (derived forms: gathers)
+1. Sewing consisting of small folds or puckers made by pulling tight a thread in a line of stitching (= gathering)
  
-2. The act of gathering something (- gathering)
+2. The act of gathering something (= gathering)
 """,
   );
 

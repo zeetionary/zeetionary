@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gambit ((Derived forms: gambits))
-1. An opening remark intended to secure an advantage for the speaker (- ploy)
+- Noun: gambit ((derived forms: gambits))
+1. An opening remark intended to secure an advantage for the speaker (= ploy)
  
-2. A tactic or manoeuvre intended to gain an advantage (- ploy, stratagem)
+2. A tactic or manoeuvre intended to gain an advantage (= ploy, stratagem)
  
 3. A chess move early in the game in which the player sacrifices minor pieces in order to obtain an advantageous position
 """,

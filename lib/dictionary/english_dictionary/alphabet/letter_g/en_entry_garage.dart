@@ -51,16 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garage (Derived forms: garages)
+- Noun: garage (derived forms: garages)
 1. An outbuilding (or part of a building) for housing automobiles
  
-2. A repair shop where cars and trucks are serviced and repaired (- service department)
+2. A repair shop where cars and trucks are serviced and repaired (= service department)
  
 3. A type of guitar rock music, personified by amateur bands playing in the basement or garage
  
 4. [Brit] A type of electronic dance music
 
-- Verb: garage (Derived forms: garaging, garaged, garages)
+- Verb: garage (derived forms: garaging, garaged, garages)
 1. Keep or store in a garage
 "we don't garage our car"
 

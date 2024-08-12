@@ -51,37 +51,37 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glow (Derived forms: glowed, glows, glowing)
+- Verb: glow (derived forms: glowed, glows, glowing)
 1. Emit a steady even light without flames
 "The fireflies were glowing and flying about in the garden"
  
-2. Have a complexion with a strong bright colour, such as red or pink (- beam, radiate, shine)
+2. Have a complexion with a strong bright colour, such as red or pink (= beam, radiate, shine)
 "Her face glowed when she came out of the sauna";
  
-3. Shine intensely, as if with heat (- burn)
+3. Shine intensely, as if with heat (= burn)
 "The coals were glowing in the dark";
  
 4. Be exuberant or high-spirited
 "Make the people's hearts glow"
  
-5. Experience a feeling of well-being or happiness, as from good health or an intense emotion (- beam, radiate, shine)
+5. Experience a feeling of well-being or happiness, as from good health or an intense emotion (= beam, radiate, shine)
 "She was glowing with joy";
 
-- Noun: glow (Derived forms: glows)
-1. An alert and refreshed state (- freshness)
+- Noun: glow (derived forms: glows)
+1. An alert and refreshed state (= freshness)
  
-2. Light from nonthermal sources (- luminescence)
+2. Light from nonthermal sources (= luminescence)
  
-3. The phenomenon of light emission by a body as its temperature is raised (- incandescence)
+3. The phenomenon of light emission by a body as its temperature is raised (= incandescence)
  
 4. A feeling of considerable warmth
 "the glow of new love"; "a glow of regret"
  
 5. A steady even light without flames
  
-6. The amount of electromagnetic radiation leaving or arriving at a point on a surface (- radiance, glowing)
+6. The amount of electromagnetic radiation leaving or arriving at a point on a surface (= radiance, glowing)
  
-7. An appearance of reflected light (- gleam, gleaming, lambency)
+7. An appearance of reflected light (= gleam, gleaming, lambency)
 """,
   );
 
@@ -252,7 +252,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شەوق، ڕۆشنایی، ڕووناکی، تروسکە، بروسکە، درەوشانەوە، بریسکانەوە، بریقانەوە، بریقە، ورشە،	سوورھەڵگەڕان، گەرمی، تین‌وگوڕ، کوڵان، کەف‌وکوڵ، تاووتین، تاوتوێ، جۆش‌وخرۆش، جۆش‌سەندن، تاوسەندن، کڵپەکردن،	شادی، خۆشی، دڵخۆشی، سەرخۆشی، بەکەیفی، پێخۆش‌بوون، ڕەزامەندی، قایلی
 """),
-// With short examples define "glow", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) درەوشانەوە بە کەمی"""),
                     SentencesRow(

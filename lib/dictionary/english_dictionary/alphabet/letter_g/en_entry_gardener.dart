@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gardener (Derived forms: gardeners)
-1. Someone who takes care of a garden (- nurseryman)
+- Noun: gardener (derived forms: gardeners)
+1. Someone who takes care of a garden (= nurseryman)
  
 2. Someone employed to work in a garden
 """,
@@ -161,7 +161,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """We employ a gardener two days a week.""",
                       kurdishText:
-                          """دوو هەفتە لە ڕۆژێکدا باخەوانێک بە کرێ دەگرین.""",
+                          """دوو ھەفتە لە ڕۆژێکدا باخەوانێک بە کرێ دەگرین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

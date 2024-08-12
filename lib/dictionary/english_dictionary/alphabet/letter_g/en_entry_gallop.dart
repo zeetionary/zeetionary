@@ -51,17 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gallop (Derived forms: galloping, gallops, galloped)
+- Verb: gallop (derived forms: galloping, gallops, galloped)
 1. (riding) ride at a gallop
 "He was galloping down the road"
  
 2. Go at galloping speed
 "The horse was galloping along"
  
-3. (riding) cause to move at full gallop (- extend)
+3. (riding) cause to move at full gallop (= extend)
 "Did you gallop the horse just now?";
 
-- Noun: gallop (Derived forms: gallops)
+- Noun: gallop (derived forms: gallops)
 1. A fast gait of a horse; a two-beat stride during which all four legs are off the ground simultaneously
 """,
   );

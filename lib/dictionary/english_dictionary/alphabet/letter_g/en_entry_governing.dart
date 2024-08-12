@@ -55,8 +55,8 @@ ${englishMeaningConst.text}
 1. Responsible for making and enforcing rules and laws
 "governing bodies"
 
-- Noun: governing (Derived forms: governings)
-1. The act of governing; exercising authority (- government, governance, government activity, administration)
+- Noun: governing (derived forms: governings)
+1. The act of governing; exercising authority (= government, governance, government activity, administration)
 "regulations for the governing of state prisons";
 """,
   );

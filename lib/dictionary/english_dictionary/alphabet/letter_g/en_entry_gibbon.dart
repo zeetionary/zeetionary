@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gibbon (Derived forms: Gibbons, gibbons)
-1. Smallest and most perfectly anthropoid arboreal ape having long arms and no tail; of southern Asia and East Indies (- Hylobates lar)
+- Noun: gibbon (derived forms: Gibbons, gibbons)
+1. Smallest and most perfectly anthropoid arboreal ape having long arms and no tail; of southern Asia and East Indies (= Hylobates lar)
 """,
   );
 

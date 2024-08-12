@@ -51,17 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gem (Derived forms: gems)
-1. A precious or semiprecious stone incorporated into a piece of jewellery (- jewel, precious stone)
+- Noun: gem (derived forms: gems)
+1. A precious or semiprecious stone incorporated into a piece of jewellery (= jewel, precious stone)
  
-2. Art highly prized for its beauty or perfection (- treasure)
+2. Art highly prized for its beauty or perfection (= treasure)
  
-3. A crystalline rock that can be cut and polished for jewellery (- gemstone, stone)
+3. A crystalline rock that can be cut and polished for jewellery (= gemstone, stone)
 "he had the gem set in a ring for his wife";
  
-4. A brilliant or much-loved person who is highly valued (- jewel, treasure [informal], pearl [informal])
+4. A brilliant or much-loved person who is highly valued (= jewel, treasure [informal], pearl [informal])
  
-5. A small but valuable piece of information or advice (- nugget, pearl)
+5. A small but valuable piece of information or advice (= nugget, pearl)
 "gems of wisdom";
 """,
   );

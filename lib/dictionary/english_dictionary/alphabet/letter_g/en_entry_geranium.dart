@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: geranium (Derived forms: geraniums)
+- Noun: geranium (derived forms: geraniums)
 1. Any of numerous plants of the family Geraniaceae
 """,
   );

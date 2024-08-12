@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: grab (Derived forms: grabbed, grabbing, grabs)
-1. Take hold of so as to seize, restrain or stop the motion of (- catch, take hold of)
+- Verb: grab (derived forms: grabbed, grabbing, grabs)
+1. Take hold of so as to seize, restrain or stop the motion of (= catch, take hold of)
 "Grab the elevator door!";
  
-2. Get hold of or seize quickly and easily (- snap up, snaffle)
+2. Get hold of or seize quickly and easily (= snap up, snaffle)
 "I grabbed all the good buys during the garage sale";
  
 3. Make a grasping or snatching motion with the hand
@@ -67,13 +67,13 @@ ${englishMeaningConst.text}
 5. Take or grasp suddenly
 "She grabbed the child's hand and ran out of the room"
  
-6. Capture the attention or imagination of (- seize)
+6. Capture the attention or imagination of (= seize)
 "This story will grab you";
 
-- Noun: grab (Derived forms: grabs)
+- Noun: grab (derived forms: grabs)
 1. A mechanical device for gripping an object
  
-2. The act of catching an object with the hands (- catch, snatch, snap)
+2. The act of catching an object with the hands (= catch, snatch, snap)
 "he made a grab for the ball before it landed";
 """,
   );
@@ -314,7 +314,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """He grabbed hold of me and wouldn't let go.""",
-                      kurdishText: """گرتمی و نەیدەهێشت بچم.""",
+                      kurdishText: """گرتمی و نەیدەھێشت بچم.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

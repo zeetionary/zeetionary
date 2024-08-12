@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gander (Derived forms: ganders)
+- Noun: gander (derived forms: ganders)
 1. Mature male goose
  
-2. [informal] The act of directing the eyes toward something and perceiving it visually; look (- look, looking, looking at, butcher's [Brit, slang])
+2. [informal] The act of directing the eyes toward something and perceiving it visually; look (= look, looking, looking at, butcher's [Brit, slang])
 "he went out to have a gander";
 
 """,

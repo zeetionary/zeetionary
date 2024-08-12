@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glucose (Derived forms: glucoses)
+- Noun: glucose (derived forms: glucoses)
 1. A monosaccharide sugar that has several forms; an important source of physiological energy
 """,
   );

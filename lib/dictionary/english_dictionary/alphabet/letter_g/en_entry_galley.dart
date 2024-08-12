@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: galley (Derived forms: galleys)
+- Noun: galley (derived forms: galleys)
 1. A large medieval vessel with a single deck propelled by sails and oars with guns at stern and prow; a complement of 1,000 men; used mainly in the Mediterranean for war and trading
  
 2. (classical antiquity) a crescent-shaped seagoing vessel propelled by oars
  
 3. The kitchen area for food preparation on an airliner
  
-4. The area for food preparation on a ship (- ship's galley, caboose [N. Amer], cookhouse)
+4. The area for food preparation on a ship (= ship's galley, caboose [N. Amer], cookhouse)
 """,
   );
 

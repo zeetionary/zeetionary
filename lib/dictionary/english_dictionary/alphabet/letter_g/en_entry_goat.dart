@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goat (Derived forms: goats)
-1. Any of numerous agile ruminants related to sheep but having a beard and straight horns (- caprine animal)
+- Noun: goat (derived forms: goats)
+1. Any of numerous agile ruminants related to sheep but having a beard and straight horns (= caprine animal)
  
-2. [informal] Man with strong sexual desires (- satyr, lecher, lech, letch)
+2. [informal] Man with strong sexual desires (= satyr, lecher, lech, letch)
  
-3. [N. Amer] Someone who is punished for the errors of others (- scapegoat, whipping boy, fall guy [N. Amer, informal])
+3. [N. Amer] Someone who is punished for the errors of others (= scapegoat, whipping boy, fall guy [N. Amer, informal])
 """,
   );
 
@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "goat", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) بزن"""),
                     SentencesRow(
                       englishText:

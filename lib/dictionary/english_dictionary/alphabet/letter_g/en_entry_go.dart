@@ -51,29 +51,29 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: go (Derived forms: goes, going, gone)
-1. Change location; proceed; also used metaphorically (- travel, move, locomote)
+- Verb: go (derived forms: goes, going, gone)
+1. Change location; proceed; also used metaphorically (= travel, move, locomote)
 "How fast does your new car go?"; "The policemen went from door to door looking for the suspect";
  
-2. Follow a procedure or take a course (- proceed, move)
+2. Follow a procedure or take a course (= proceed, move)
 "She went through a lot of trouble"; "go about the world in a certain manner"; "Messages must go through diplomatic channels"; "We should go farther in this matter";
  
-3. Move away from a place into another direction (- go away, depart)
+3. Move away from a place into another direction (= go away, depart)
 "Go away before I start to cry";
  
-4. Enter or assume a certain state or condition (- become, get)
+4. Enter or assume a certain state or condition (= become, get)
 "her face went red with anger"; "She went into ecstasy"; "Get going!";
  
 5. Be awarded; be allotted
 "The first prize goes to Mary"; "Her money went on clothes"
  
-6. Have a particular form (- run)
+6. Have a particular form (= run)
 "as the saying goes...";
  
-7. Stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point (- run, pass, lead, extend)
+7. Stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point (= run, pass, lead, extend)
 "His knowledge doesn't go very far";
  
-8. Follow a certain course (- proceed)
+8. Follow a certain course (= proceed)
 "The inauguration went well"; "how did your interview go?";
  
 9. Be abolished or discarded
@@ -82,37 +82,37 @@ ${englishMeaningConst.text}
 10. Be or continue to be in a certain condition
 "The children went hungry that day"
  
-11. Make a certain noise or sound (- sound)
+11. Make a certain noise or sound (= sound)
 "She went 'Mmmmm'"; "The gun went 'bang'";
  
-12. Perform as expected when applied (- function, work, operate, run)
+12. Perform as expected when applied (= function, work, operate, run)
 "The washing machine won't go unless it's plugged in";
  
-13. To be spent or finished (- run low, run short)
+13. To be spent or finished (= run low, run short)
 "Gas is going at the gas stations in the Midwest";
  
-14. Progress by being changed (- move, run)
+14. Progress by being changed (= move, run)
 "The speech has to go through several more drafts";
  
-15. Continue to live and avoid dying (- survive, last, live, live on, endure, hold up, hold out)
+15. Continue to live and avoid dying (= survive, last, live, live on, endure, hold up, hold out)
 "We went without water and food for 3 days";
  
 16. Pass, fare, or elapse; of a certain state of affairs or action
 "How is it going?"; "The day went well until I got your call"
  
-17. Cease to live; lose all bodily attributes and functions necessary to sustain life (- die, decease [archaic], perish, exit, pass away, expire, pass, kick the bucket [informal], cash in one's chips [informal], buy the farm [N. Amer, informal], conk [informal], give-up the ghost [informal], drop dead, pop off [informal], choke, croak [informal], snuff it [informal], flatline [informal], cop it [Brit, informal], cash in [informal], pop one's clogs [informal])
+17. Cease to live; lose all bodily attributes and functions necessary to sustain life (= die, decease [archaic], perish, exit, pass away, expire, pass, kick the bucket [informal], cash in one's chips [informal], buy the farm [N. Amer, informal], conk [informal], give-up the ghost [informal], drop dead, pop off [informal], choke, croak [informal], snuff it [informal], flatline [informal], cop it [Brit, informal], cash in [informal], pop one's clogs [informal])
 "The patient went peacefully";
  
-18. Be in the right place or situation (- belong)
+18. Be in the right place or situation (= belong)
 "Where do these books go?";
  
 19. Be ranked or compare
 "This violinist is as good as Juilliard-trained violinists go"
  
-20. Begin or set in motion (- start, get going)
+20. Begin or set in motion (= start, get going)
 "Ready, set, go!"; "I get going at eight in the morning";
  
-21. Have a turn; make one's move in a game (- move)
+21. Have a turn; make one's move in a game (= move)
 "Can I go now?";
  
 22. Be contained in
@@ -121,38 +121,38 @@ ${englishMeaningConst.text}
 23. Be sounded, played, or expressed
 "How does this song go again?"
  
-24. Fit in well or harmonize (- blend, blend in)
+24. Fit in well or harmonize (= blend, blend in)
 "This sofa won't go with the chairs";
  
-25. Provide access; extend (in the direction of something) (- lead)
+25. Provide access; extend (in the direction of something) (= lead)
 "This door goes to the basement";
  
-26. Be the right size or shape; fit correctly or as desired (- fit)
+26. Be the right size or shape; fit correctly or as desired (= fit)
 "This piece won't go into the puzzle";
  
-27. Go through in search of something; search through someone's belongings in an unauthorized way (- rifle)
+27. Go through in search of something; search through someone's belongings in an unauthorized way (= rifle)
 "Who went through my desk drawers?";
  
 28. Be spent
 "All my money went for food and rent"
  
-29. Give support (to) or make a choice (of) one out of a group or number (- plump)
+29. Give support (to) or make a choice (of) one out of a group or number (= plump)
  
-30. Stop operating or functioning (- fail, go bad, give way, die, give out, conk out [informal], break, break down, pack up [Brit, informal])
+30. Stop operating or functioning (= fail, go bad, give way, die, give out, conk out [informal], break, break down, pack up [Brit, informal])
 "The engine finally went"; "her eyesight went after the accident"; "The engine went bad on the way to town";
 
-- Noun: go (Derived forms: goes)
-1. A time period for working (after which you will be relieved by someone else) (- spell, tour, turn)
+- Noun: go (derived forms: goes)
+1. A time period for working (after which you will be relieved by someone else) (= spell, tour, turn)
 "it's my go";
  
-2. A usually brief attempt (- crack, fling, pass, whirl [informal], offer, bash [Brit, informal])
+2. A usually brief attempt (= crack, fling, pass, whirl [informal], offer, bash [Brit, informal])
 "he took a go at it";
  
-3. A board game for two players who place counters on a grid; the object is to surround and so capture the opponent's counters (- go game)
+3. A board game for two players who place counters on a grid; the object is to surround and so capture the opponent's counters (= go game)
  
 4. A turn at something
  
-5. [slang] A street name for methylenedioxymethamphetamine (- Adam [slang], ecstasy [slang], XTC [slang], disco biscuit [slang], X [slang], hug drug [slang], molly [US, slang])
+5. [slang] A street name for methylenedioxymethamphetamine (= Adam [slang], ecstasy [slang], XTC [slang], disco biscuit [slang], X [slang], hug drug [slang], molly [US, slang])
 
 - Adjective: go
 1. Functioning correctly and ready for action
@@ -973,7 +973,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھێزی ڕۆیشتن، جم‌وجۆڵ، گورجی، وزە، ھەڵسووڕان، چالاکی، بەگوڕی، بەگوژمی، وزە، گوژم، تەوژم، تین‌وگوڕ، تامەزرۆیی،	ڕووداو، بوویەر، قەومین،	حەول، تێکۆشان، بزاڤ،	نۆبە، نۆرە، جار، کەشە، چین،	(پزشکی) لێھاتن، گرتن،	مۆد یان باوی ڕۆژ، بابەتی ڕۆژ
 """),
-// With short examples define "go", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) چوونە شوێنێک"""),
                     SentencesRow(

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: giraffe (Derived forms: giraffes)
-1. Tallest living quadruped; having a spotted coat and small horns and very long neck and legs; of savannahs of tropical Africa (- camelopard [archaic], Giraffa camelopardalis)
+- Noun: giraffe (derived forms: giraffes)
+1. Tallest living quadruped; having a spotted coat and small horns and very long neck and legs; of savannahs of tropical Africa (= camelopard [archaic], Giraffa camelopardalis)
 
 """,
   );

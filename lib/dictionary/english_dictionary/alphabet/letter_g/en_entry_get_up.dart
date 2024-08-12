@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: get-up 
-1. A set of clothing (with accessories) (- outfit, rig, turnout)
+1. A set of clothing (with accessories) (= outfit, rig, turnout)
 "his getup was exceedingly elegant";
 """,
   );

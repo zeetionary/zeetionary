@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: gleefully 
-1. In a joyous and gleeful manner (- joyously, joyfully)
+1. In a joyous and gleeful manner (= joyously, joyfully)
 "the old man had greeted her gleefully";
 """,
   );

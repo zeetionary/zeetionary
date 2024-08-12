@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold (Derived forms: golds)
-1. A deep yellow colour (- amber)
+- Noun: gold (derived forms: golds)
+1. A deep yellow colour (= amber)
 "he admired the gold of her hair";
  
 2. Coins made of gold
  
-3. A soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia (- Au, atomic number 79)
+3. A soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia (= Au, atomic number 79)
  
 4. Great wealth
 "Whilst that for which all virtue now is sold, and almost every vice--almighty gold"
@@ -65,11 +65,11 @@ ${englishMeaningConst.text}
 5. Something likened to the metal in brightness, preciousness or superiority etc.
 "the child was as good as gold"; "she has a heart of gold"
 
-- Adjective: gold (Derived forms: goldest, golder)
-1. Made from or covered with gold (- golden, gilded)
+- Adjective: gold (derived forms: goldest, golder)
+1. Made from or covered with gold (= golden, gilded)
 "gold coins"; "the gold dome of the Capitol";
  
-2. Having the deep slightly brownish colour of gold (- aureate, gilded, gilt, golden)
+2. Having the deep slightly brownish colour of gold (= aureate, gilded, gilt, golden)
 "long gold hair"; "a gold carpet";
 """,
   );
@@ -220,7 +220,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زێڕ،	پارە، پووڵ؛ ماڵ، دارایی، سامان،	(پێشبڕکێ) میداڵی زێڕ،	ڕەنگی زەرد،	(دروس‌کراو) زێڕکرد، زێڕکار،	زێڕین، لە زێڕ،	زەرد، (ڕەنگ) زێڕین
 """),
-// With short examples define "gold", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) زێڕ"""),
                     SentencesRow(
                       englishText: """He always wore a gold chain.""",

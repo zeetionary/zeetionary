@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garden (Derived forms: gardens)
+- Noun: garden (derived forms: gardens)
 1. A plot of ground where plants are cultivated
  
 2. The flowers, vegetables, fruits or herbs that are cultivated in a garden
  
 3. A yard or lawn adjoining a house
 
-- Verb: garden (Derived forms: gardened, gardening, gardens)
+- Verb: garden (derived forms: gardened, gardening, gardens)
 1. (gardening) work in the garden
 "My hobby is gardening"
 

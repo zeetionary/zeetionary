@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gaffe (Derived forms: gaffes)
-1. A socially awkward or tactless act (- faux pas, solecism, slip, gaucherie)
+- Noun: gaffe (derived forms: gaffes)
+1. A socially awkward or tactless act (= faux pas, solecism, slip, gaucherie)
 """,
   );
 

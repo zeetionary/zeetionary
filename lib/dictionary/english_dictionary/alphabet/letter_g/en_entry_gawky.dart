@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gawky (Derived forms: gawkiest, gawkier)
-1. Lacking grace in movement or posture (- clumsy, clunky [informal], ungainly, unwieldy, klutzy [N. Amer, informal])
+- Adjective: gawky (derived forms: gawkiest, gawkier)
+1. Lacking grace in movement or posture (= clumsy, clunky [informal], ungainly, unwieldy, klutzy [N. Amer, informal])
 "a gawky lad with long ungainly legs";
 
 """,

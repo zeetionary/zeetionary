@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gatecrash (Derived forms: gatecrashes, gatecrashed, gatecrashing)
-1. Enter uninvited or without permission (- barge in [informal], crash [informal])
+- Verb: gatecrash (derived forms: gatecrashes, gatecrashed, gatecrashing)
+1. Enter uninvited or without permission (= barge in [informal], crash [informal])
 "let's gatecrash the party!";
 """,
   );

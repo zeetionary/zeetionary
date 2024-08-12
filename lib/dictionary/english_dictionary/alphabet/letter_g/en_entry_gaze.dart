@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gaze (Derived forms: gazes, gazed, gazing)
-1. Look at with fixed eyes (- stare)
+- Verb: gaze (derived forms: gazes, gazed, gazing)
+1. Look at with fixed eyes (= stare)
 "The students gazed at the teacher with amazement";
 
-- Noun: gaze (Derived forms: gazes)
-1. A long fixed look (- regard)
+- Noun: gaze (derived forms: gazes)
+1. A long fixed look (= regard)
 "he fixed his paternal gaze on me";
 
 """,

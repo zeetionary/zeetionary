@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: geologist (Derived forms: geologists)
+- Noun: geologist (derived forms: geologists)
 1. A specialist in geology
 """,
   );

@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: genitals
-1. External sex organ (- genitalia, genital organ, private parts, privates, crotch)
+1. External sex organ (= genitalia, genital organ, private parts, privates, crotch)
 """,
   );
 

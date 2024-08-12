@@ -51,21 +51,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: grain (Derived forms: grains)
+- Noun: grain (derived forms: grains)
 1. A relatively small granular particle of a substance
 "a grain of sand"; "a grain of sugar"
  
-2. Foodstuff prepared from the starchy grains of cereal grasses (- food grain, cereal)
+2. Foodstuff prepared from the starchy grains of cereal grasses (= food grain, cereal)
  
 3. The side of leather from which the hair has been removed
  
-4. A weight unit used for pearls or diamonds: 50 mg or 1/4 carat (- metric grain)
+4. A weight unit used for pearls or diamonds: 50 mg or 1/4 carat (= metric grain)
  
 5. 1/60 dram; equals an avoirdupois grain or 64.799 milligrams
  
 6. 1/7000 pound; equals a troy grain or 64.799 milligrams
  
-7. Dry seed-like fruit produced by the cereal grasses: e.g. wheat, barley, Indian corn (- caryopsis)
+7. Dry seed-like fruit produced by the cereal grasses: e.g. wheat, barley, Indian corn (= caryopsis)
  
 8. A cereal grass
 "wheat is a grain that is grown in Kansas"
@@ -76,18 +76,18 @@ ${englishMeaningConst.text}
 10. The direction, texture, or pattern of fibers found in wood or leather or stone or in a woven fabric
 "saw the board across the grain"
  
-11. The physical composition of something (especially with respect to the size and shape of the small constituents of a substance) (- texture)
+11. The physical composition of something (especially with respect to the size and shape of the small constituents of a substance) (= texture)
 "sand of a fine grain"; "a stone of coarse grain";
 
-- Verb: grain (Derived forms: grains, graining, grained)
-1. Thoroughly work in (- ingrain, engrain)
+- Verb: grain (derived forms: grains, graining, grained)
+1. Thoroughly work in (= ingrain, engrain)
 "His hands were grained with dirt";
  
 2. Paint (a surface) to make it look like stone or wood
  
-3. Form into grains (- granulate)
+3. Form into grains (= granulate)
  
-4. Become granular (- granulate)
+4. Become granular (= granulate)
 """,
   );
 

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gamekeeper (Derived forms: gamekeepers)
-1. A person employed to take care of game and wildlife (- game warden, warrener)
+- Noun: gamekeeper (derived forms: gamekeepers)
+1. A person employed to take care of game and wildlife (= game warden, warrener)
 """,
   );
 

@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: geyser (Derived forms: geysers)
+- Noun: geyser (derived forms: geysers)
 1. A spring that discharges hot water and steam
  
 2. [Brit] A gas-fired water heater
 
-- Verb: geyser (Derived forms: geysered, geysering, geysers)
+- Verb: geyser (derived forms: geysered, geysering, geysers)
 1. To overflow like a geyser
 """,
   );

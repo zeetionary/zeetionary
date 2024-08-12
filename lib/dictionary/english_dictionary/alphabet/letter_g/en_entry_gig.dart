@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gig (Derived forms: gigs)
+- Noun: gig (derived forms: gigs)
 1. [informal] A booking for musicians
 "they played a gig in New Jersey"
  
@@ -60,17 +60,17 @@ ${englishMeaningConst.text}
  
 3. Long and light rowing boat; especially for racing
  
-4. An implement with a shaft and barbed point used for catching fish (- spear, fizgig, fishgig, lance)
+4. An implement with a shaft and barbed point used for catching fish (= spear, fizgig, fishgig, lance)
  
 5. A cluster of hooks (without barbs) that is drawn through a school of fish to hook their bodies; used when fish are not biting
  
 6. Tender that is a light ship's boat; often for personal use of captain
  
-7. [informal] A unit of information equal to 1000 megabytes or 10^9 (1,000,000,000) bytes (- gigabyte, G, GB)
+7. [informal] A unit of information equal to 1000 megabytes or 10^9 (1,000,000,000) bytes (= gigabyte, G, GB)
  
-8. [informal] A unit of information equal to 1024 mebibytes or 2^30 (1,073,741,824) bytes (- gigabyte, gibibyte, G, GB, GiB)
+8. [informal] A unit of information equal to 1024 mebibytes or 2^30 (1,073,741,824) bytes (= gigabyte, gibibyte, G, GB, GiB)
 
-- Verb: gig (Derived forms: gigging, gigged, gigs)
+- Verb: gig (derived forms: gigging, gigged, gigs)
 Usage: informal
 1. Perform music at a gig
 """,

@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: glamorous
-1. Having an air of allure, romance and excitement (- glamourous [Brit, non-standard], glam [informal])
+1. Having an air of allure, romance and excitement (= glamourous [Brit, non-standard], glam [informal])
 "glamorous movie stars";
 """,
   );

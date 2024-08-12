@@ -51,17 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: girl (Derived forms: girls)
-1. A young female (- miss, missy [informal], young lady, young woman, fille)
+- Noun: girl (derived forms: girls)
+1. A young female (= miss, missy [informal], young lady, young woman, fille)
 "a girl of 18";
  
-2. A youthful female person (- female child, little girl)
+2. A youthful female person (= female child, little girl)
 "the girls were just learning to ride a tricycle"; "the baby was a girl";
  
-3. A female human offspring (- daughter)
+3. A female human offspring (= daughter)
 "her girl cared for her in her old age";
  
-4. A girl or young woman with whom a man is romantically involved (- girlfriend, lady friend, patootie [US, informal], sweetheart)
+4. A girl or young woman with whom a man is romantically involved (= girlfriend, lady friend, patootie [US, informal], sweetheart)
 "his girl kicked him out";
  
 5. A friendly informal reference to a grown woman
@@ -266,7 +266,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کچ، دۆت، کەنیشک، ئافرەت، ژن
 """),
-// With short examples define "girl", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) منداڵێکی کچ"""),
                     SentencesRow(
                       englishText:

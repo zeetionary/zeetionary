@@ -51,15 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gorge (Derived forms: gorges)
+- Noun: gorge (derived forms: gorges)
 1. A deep ravine (usually with a river running through it)
  
-2. A narrow pass (especially one between mountains) (- defile)
+2. A narrow pass (especially one between mountains) (= defile)
  
-3. The passage between the pharynx and the stomach (- esophagus [N. Amer], oesophagus [Brit, Cdn], gullet)
+3. The passage between the pharynx and the stomach (= esophagus [N. Amer], oesophagus [Brit, Cdn], gullet)
 
-- Verb: gorge (Derived forms: gorges, gorged, gorging)
-1. Overeat or eat immodestly; make a pig of oneself (- ingurgitate [rare], overindulge, glut, englut [archaic], stuff, engorge, overgorge, overeat, gormandize, gormandise [Brit], gourmandize, binge [informal], pig out [informal], satiate, gourmandise [Brit])
+- Verb: gorge (derived forms: gorges, gorged, gorging)
+1. Overeat or eat immodestly; make a pig of oneself (= ingurgitate [rare], overindulge, glut, englut [archaic], stuff, engorge, overgorge, overeat, gormandize, gormandise [Brit], gourmandize, binge [informal], pig out [informal], satiate, gourmandise [Brit])
 "She gorged herself at the dinner";
 """,
   );
@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەنگەڵان، دەربەند، تەنگ، گەلی، گاز، گازەدووک، شێو و دۆڵی قووڵ (زۆرجار ئاویشی پیادەڕوا)،	تەنگەڕێ، ڕێگای تەسک، دەرتەنگ، دەربەند،	گەروو، قوڕگ، ئاوەخۆرە،	(بیناسازی) ڕێڕەوی باریکی پشتەوە (لە سەنگەربەندی)،	شتی ناو گەدە یان مێعدە،	بەرد یان ئێسکی تیژکراو بۆ ڕاوەماسی
 """),
-// With short examples define "gorge", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەندەڵانێکی قووڵ"""),
                     SentencesRow(

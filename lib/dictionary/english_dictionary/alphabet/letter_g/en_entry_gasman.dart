@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gasman (Derived forms: gasmen)
+- Noun: gasman (derived forms: gasmen)
 1. Someone employed by a gas company
 """,
   );

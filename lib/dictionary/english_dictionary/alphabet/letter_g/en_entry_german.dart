@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: German (Derived forms: Germans)
+- Noun: German (derived forms: Germans)
 1. A person of German nationality
  
-2. The standard German language; developed historically from West Germanic (- High German, German language, High German language)
+2. The standard German language; developed historically from West Germanic (= High German, German language, High German language)
 
 - Adjective: German
 1. Of or pertaining to or characteristic of Germany or its people or language

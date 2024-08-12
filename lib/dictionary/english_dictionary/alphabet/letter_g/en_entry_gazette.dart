@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gazette (Derived forms: gazettes)
+- Noun: gazette (derived forms: gazettes)
 1. A newspaper or official journal
 
-- Verb: gazette (Derived forms: gazetted, gazetting, gazettes)
+- Verb: gazette (derived forms: gazetted, gazetting, gazettes)
 1. Publish in a gazette
 """,
   );

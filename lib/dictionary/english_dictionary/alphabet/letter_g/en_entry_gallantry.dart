@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gallantry (Derived forms: gallantries)
-1. The qualities of a hero or heroine; exceptional or heroic courage when facing danger (especially in battle) (- heroism, valor [US], valour [Brit, Cdn], valorousness, valiance, valiancy)
+- Noun: gallantry (derived forms: gallantries)
+1. The qualities of a hero or heroine; exceptional or heroic courage when facing danger (especially in battle) (= heroism, valor [US], valour [Brit, Cdn], valorousness, valiance, valiancy)
 "he showed great gallantry in battle";
  
-2. Courtesy towards women (- chivalry)
+2. Courtesy towards women (= chivalry)
  
 3. Polite attentiveness to women
 

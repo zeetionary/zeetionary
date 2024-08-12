@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gout (Derived forms: gouts)
-1. A painful inflammation of the big toe and foot caused by defects in uric acid metabolism resulting in deposits of the acid and its salts in the blood and joints (- gouty arthritis, urarthritis)
+- Noun: gout (derived forms: gouts)
+1. A painful inflammation of the big toe and foot caused by defects in uric acid metabolism resulting in deposits of the acid and its salts in the blood and joints (= gouty arthritis, urarthritis)
 """,
   );
 

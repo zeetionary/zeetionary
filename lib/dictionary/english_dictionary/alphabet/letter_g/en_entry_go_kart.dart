@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: go-kart (Derived forms: go-karts)
-1. A small low motor vehicle with four wheels and an open framework; used for racing (- go-cart)
+- Noun: go-kart (derived forms: go-karts)
+1. A small low motor vehicle with four wheels and an open framework; used for racing (= go-cart)
 """,
   );
 

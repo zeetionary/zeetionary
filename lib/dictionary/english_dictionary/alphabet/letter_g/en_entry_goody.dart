@@ -52,9 +52,9 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: goody
-1. Something considered choice to eat (- dainty, delicacy, kickshaw [archaic], treat)
+1. Something considered choice to eat (= dainty, delicacy, kickshaw [archaic], treat)
  
-2. [Brit, informal] The good person that you want to win, esp. in a movie (- good guy [N. Amer], goodie [Brit, informal])
+2. [Brit, informal] The good person that you want to win, esp. in a movie (= good guy [N. Amer], goodie [Brit, informal])
 """,
   );
 
@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قارەمان، پیاوی باش، کەسایەتی باش،	شتی خۆش
 """),
-// With short examples define "goody", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەر شتێک کە خەڵکی دەیانەوێت، بە تایبەتی شتێک کە زۆر خۆشە بۆ خواردن"""),

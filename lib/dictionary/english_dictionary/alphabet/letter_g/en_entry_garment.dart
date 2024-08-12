@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garment (Derived forms: garments)
+- Noun: garment (derived forms: garments)
 1. An article of clothing
 "garments of the finest silk"
 
-- Verb: garment (Derived forms: garmenting, garmented, garments)
-1. Provide with clothes or put clothes on (- dress, clothe, enclothe, garb, raiment [archaic], tog [informal], habilitate [archaic], fit out, apparel)
+- Verb: garment (derived forms: garmenting, garmented, garments)
+1. Provide with clothes or put clothes on (= dress, clothe, enclothe, garb, raiment [archaic], tog [informal], habilitate [archaic], fit out, apparel)
 """,
   );
 

@@ -51,24 +51,24 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gap (Derived forms: gaps)
-1. A conspicuous disparity or difference as between two figures (- spread)
+- Noun: gap (derived forms: gaps)
+1. A conspicuous disparity or difference as between two figures (= spread)
 "gap between income and outgo";
  
-2. An open or empty space in or between things (- opening)
+2. An open or empty space in or between things (= opening)
 "the explosion made a gap in the wall";
  
-3. A narrow space between things; a narrow opening (- crack)
+3. A narrow space between things; a narrow opening (= crack)
  
-4. A pass between mountain peaks; geomorphological term for the lowest point on a mountain ridge between two peaks (- col)
+4. A pass between mountain peaks; geomorphological term for the lowest point on a mountain ridge between two peaks (= col)
  
 5. A difference (especially an unfortunate difference) between two opinions or two views or two situations
  
-6. An act of delaying or interrupting the continuity (- break, interruption, disruption)
+6. An act of delaying or interrupting the continuity (= break, interruption, disruption)
 "there was a gap in his account";
 
-- Verb: gap (Derived forms: gapping, gapped, gaps)
-1. Make an opening or gap in (- breach)
+- Verb: gap (derived forms: gapping, gapped, gaps)
+1. Make an opening or gap in (= breach)
 """,
   );
 

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glossary (Derived forms: glossaries)
-1. An alphabetical list of technical terms in some specialized field of knowledge; usually published as an appendix to a text on that field (- gloss)
+- Noun: glossary (derived forms: glossaries)
+1. An alphabetical list of technical terms in some specialized field of knowledge; usually published as an appendix to a text on that field (= gloss)
 "He appended a glossary to his novel where he used an invented language";
 
 """,

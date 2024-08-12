@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: glaring
-1. Shining intensely (- blazing, blinding, dazzling, fulgent [literary], glary)
+1. Shining intensely (= blazing, blinding, dazzling, fulgent [literary], glary)
 "the glaring sun";
  
-2. Conspicuously and outrageously bad or reprehensible (- crying, egregious, flagrant, gross, rank)
+2. Conspicuously and outrageously bad or reprehensible (= crying, egregious, flagrant, gross, rank)
 "a glaring error";
 """,
   );

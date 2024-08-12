@@ -52,9 +52,9 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: giddiness
-1. An impulsive scatterbrained manner (- silliness)
+1. An impulsive scatterbrained manner (= silliness)
  
-2. A reeling sensation; a feeling that you are about to fall (- dizziness, lightheadedness, vertigo, wooziness [informal])
+2. A reeling sensation; a feeling that you are about to fall (= dizziness, lightheadedness, vertigo, wooziness [informal])
 """,
   );
 

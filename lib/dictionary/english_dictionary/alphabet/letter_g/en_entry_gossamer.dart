@@ -52,16 +52,16 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gossamer
-1. Characterized by unusual lightness and delicacy (- ethereal, etherial)
+1. Characterized by unusual lightness and delicacy (= ethereal, etherial)
 "gossamer shading through his playing";
  
-2. So thin as to transmit light (- diaphanous, filmy, gauzy, gauze-like, see-through, sheer, transparent, vaporous, vapourous [Brit, non-standard], cobwebby, vapoury [Brit, Cdn], vapory [US])
+2. So thin as to transmit light (= diaphanous, filmy, gauzy, gauze-like, see-through, sheer, transparent, vaporous, vapourous [Brit, non-standard], cobwebby, vapoury [Brit, Cdn], vapory [US])
 "gossamer cobwebs";
 
-- Noun: gossamer (Derived forms: gossamers)
+- Noun: gossamer (derived forms: gossamers)
 1. A gauze fabric with an extremely fine texture
  
-2. Filaments from a web that was spun by a spider (- cobweb)
+2. Filaments from a web that was spun by a spider (= cobweb)
 """,
   );
 

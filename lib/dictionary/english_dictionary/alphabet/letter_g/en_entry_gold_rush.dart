@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold rush (Derived forms: gold rushes)
-1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (- boom, bonanza, gravy [informal], godsend, manna from heaven, windfall, bunce [Brit, informal])
+- Noun: gold rush (derived forms: gold rushes)
+1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (= boom, bonanza, gravy [informal], godsend, manna from heaven, windfall, bunce [Brit, informal])
  
 2. A large migration of people to a newly discovered gold field
 """,

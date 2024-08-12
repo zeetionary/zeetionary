@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glance (Derived forms: glances, glanced, glancing)
-1. Throw a glance at; take a brief look at (- peek, glint)
+- Verb: glance (derived forms: glances, glanced, glancing)
+1. Throw a glance at; take a brief look at (= peek, glint)
 "She only glanced at the paper";
  
 2. Hit at an angle
 
-- Noun: glance (Derived forms: glances)
-1. A quick look (- glimpse, coup d'oeil)
+- Noun: glance (derived forms: glances)
+1. A quick look (= glimpse, coup d'oeil)
 """,
   );
 
@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چاولێ‌کردن، ڕوانین، ئاوڕ، چاوپیاخشاندن، چاوپیاگێڕان، کورتەسەرنج، پیاچوونەوە،	ئاماژە،	بریقەدانەوە، بریسکانەوە، درەوشانەوە
 """),
-// With short examples define "glance", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) سەیرکردنی شتێک بە خێرایی"""),
                     SentencesRow(

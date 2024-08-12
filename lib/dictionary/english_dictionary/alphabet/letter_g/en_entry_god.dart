@@ -51,21 +51,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: god (Derived forms: gods)
-1. Any supernatural being worshipped as controlling some part of the world or some aspect of life or who is the personification of a force (- deity, divinity, immortal)
+- Noun: god (derived forms: gods)
+1. Any supernatural being worshipped as controlling some part of the world or some aspect of life or who is the personification of a force (= deity, divinity, immortal)
  
 2. A man of such superior qualities that he seems like a deity to other people
 "he was a god among men"
  
-3. A material effigy that is worshipped (- idol, graven image)
+3. A material effigy that is worshipped (= idol, graven image)
 "money was his god";
 
 - Interjection: god
-1. Used to express surprise (- Christ [informal], Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness [informal], goodness me [informal], Gordon Bennett [informal], gracious [informal], gracious me [informal], fancy that [informal], gawd [informal], my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
+1. Used to express surprise (= Christ [informal], Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness [informal], goodness me [informal], Gordon Bennett [informal], gracious [informal], gracious me [informal], fancy that [informal], gawd [informal], my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
 "god, it was only a dollar last time I was here!";
 
-- Noun: God (Derived forms: Gods)
-1. The supernatural being conceived as the perfect and omnipotent and omniscient originator and ruler of the universe; the object of worship in monotheistic religions (- Supreme Being)""",
+- Noun: God (derived forms: Gods)
+1. The supernatural being conceived as the perfect and omnipotent and omniscient originator and ruler of the universe; the object of worship in monotheistic religions (= Supreme Being)""",
   );
 
   final String keyword = "god";

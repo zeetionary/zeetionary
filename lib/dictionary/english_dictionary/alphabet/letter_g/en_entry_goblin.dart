@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goblin (Derived forms: goblins)
-1. (folklore) a small grotesque supernatural creature that makes trouble for human beings (- hob, hobgoblin, pooka [Ireland])
+- Noun: goblin (derived forms: goblins)
+1. (folklore) a small grotesque supernatural creature that makes trouble for human beings (= hob, hobgoblin, pooka [Ireland])
 """,
   );
 

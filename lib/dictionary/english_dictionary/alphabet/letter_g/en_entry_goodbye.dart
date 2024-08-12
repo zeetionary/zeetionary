@@ -52,11 +52,11 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Interjection: goodbye
-1. An informal farewell remark (- cheers [Brit, informal], chin-chin [Brit, informal], toodle-oo [informal], toodle-pip [Brit, informal], ta-ta [Brit, informal], ta-ra [UK, informal], bye [informal], bye-bye [informal], good-bye [N. Amer], good-by [US], farewell, sayonara [US, informal], so long [informal], vale [archaic])
+1. An informal farewell remark (= cheers [Brit, informal], chin-chin [Brit, informal], toodle-oo [informal], toodle-pip [Brit, informal], ta-ta [Brit, informal], ta-ra [UK, informal], bye [informal], bye-bye [informal], good-bye [N. Amer], good-by [US], farewell, sayonara [US, informal], so long [informal], vale [archaic])
 "We all stopped to say goodbye before her flight left";
 
-- Noun: goodbye (Derived forms: goodbyes, good-byes)
-1. A farewell remark (- adieu, adios, arrivederci, auf wiedersehen, au revoir, bye, bye-bye, cheerio [Brit, informal], good-by [US], goodby [US], good-bye [N. Amer], good day, sayonara [US], so long [informal], farewell)
+- Noun: goodbye (derived forms: goodbyes, good-byes)
+1. A farewell remark (= adieu, adios, arrivederci, auf wiedersehen, au revoir, bye, bye-bye, cheerio [Brit, informal], good-by [US], goodby [US], good-bye [N. Amer], good day, sayonara [US], so long [informal], farewell)
 """,
   );
 

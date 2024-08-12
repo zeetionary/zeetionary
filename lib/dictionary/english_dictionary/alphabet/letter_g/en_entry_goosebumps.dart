@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goosebumps (Derived forms: goosebumps, goose bumps)
-1. Reflex erection of hairs of the skin in response to cold or emotional stress or skin irritation (- pilomotor reflex, gooseflesh, goose bump, goose pimple, goose skin, horripilation)
+- Noun: goosebumps (derived forms: goosebumps, goose bumps)
+1. Reflex erection of hairs of the skin in response to cold or emotional stress or skin irritation (= pilomotor reflex, gooseflesh, goose bump, goose pimple, goose skin, horripilation)
 """,
   );
 

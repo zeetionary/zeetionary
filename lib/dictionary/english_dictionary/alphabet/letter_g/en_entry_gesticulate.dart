@@ -52,8 +52,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gesticulate (Derived forms: gesticulating, gesticulates, gesticulated)
-1. Show, express or direct through movement (- gesture, motion)
+- Verb: gesticulate (derived forms: gesticulating, gesticulates, gesticulated)
+1. Show, express or direct through movement (= gesture, motion)
 "He gesticulated his desire to leave";
 """,
   );

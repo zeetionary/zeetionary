@@ -51,9 +51,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glasshouse (Derived forms: glasshouses)
+- Noun: glasshouse (derived forms: glasshouses)
 Usage: Brit (N. Amer: greenhouse)
-1. A building with glass walls and roof; for the cultivation and exhibition of plants under controlled conditions (- greenhouse)
+1. A building with glass walls and roof; for the cultivation and exhibition of plants under controlled conditions (= greenhouse)
 """,
   );
 

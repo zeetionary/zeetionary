@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glean (Derived forms: gleans, gleaned, gleaning)
+- Verb: glean (derived forms: gleans, gleaned, gleaning)
 1. Learn a little information, esp. with difficulty or in small pieces
  
-2. [archaic] Gather, as of natural products (- reap, harvest)
+2. [archaic] Gather, as of natural products (= reap, harvest)
 """,
   );
 

@@ -52,22 +52,22 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: golden
-1. Having the deep slightly brownish colour of gold (- aureate, gilded, gilt, gold)
+1. Having the deep slightly brownish colour of gold (= aureate, gilded, gilt, gold)
 "long golden hair";
  
-2. Marked by peace and prosperity (- halcyon, prosperous)
+2. Marked by peace and prosperity (= halcyon, prosperous)
 "a golden era";
  
-3. Made from or covered with gold (- gold, gilded)
+3. Made from or covered with gold (= gold, gilded)
 "the golden calf";
  
-4. Supremely favoured (- fortunate)
+4. Supremely favoured (= fortunate)
 "golden lads and girls all must / like chimney sweepers come to dust";
  
 5. Suggestive of gold
 "a golden voice"
  
-6. Presaging or likely to bring good luck or a good outcome (- favorable [US], favourable [Brit, Cdn], lucky, prosperous)
+6. Presaging or likely to bring good luck or a good outcome (= favorable [US], favourable [Brit, Cdn], lucky, prosperous)
 "a golden time to ask for a raise";
 """,
   );

@@ -51,15 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: generalize (Derived forms: generalizing, generalizes, generalized)
-1. Draw from specific cases for more general cases (- generalise [Brit], extrapolate, infer)
+- Verb: generalize (derived forms: generalizing, generalizes, generalized)
+1. Draw from specific cases for more general cases (= generalise [Brit], extrapolate, infer)
  
-2. Speak or write in generalities (- generalise [Brit])
+2. Speak or write in generalities (= generalise [Brit])
  
-3. Cater to popular taste to make popular and present to the general public; bring into general or common use (- popularize, popularise [Brit], vulgarize, vulgarise [Brit], generalise [Brit])
+3. Cater to popular taste to make popular and present to the general public; bring into general or common use (= popularize, popularise [Brit], vulgarize, vulgarise [Brit], generalise [Brit])
 "They generalized coffee in Washington State";
  
-4. Become systemic and spread throughout the body (- generalise [Brit])
+4. Become systemic and spread throughout the body (= generalise [Brit])
 "this kind of infection generalizes throughout the immune system";
 """,
   );

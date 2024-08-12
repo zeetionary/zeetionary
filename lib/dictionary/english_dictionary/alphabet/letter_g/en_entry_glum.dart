@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: glum (Derived forms: glummer, glummest)
+- Adjective: glum (derived forms: glummer, glummest)
 1. Moody and melancholic
  
-2. Showing a brooding ill humour (- dark, dour, glowering, moody, morose, saturnine, sour, sullen)
+2. Showing a brooding ill humour (= dark, dour, glowering, moody, morose, saturnine, sour, sullen)
 "a glum, hopeless shrug";
 """,
   );
@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خەمبار، دڵتەنگ، مات، ناڕەحەت، کز، بێ‌کەیف، ناڤچاڤ‌شین، ڕووسارد، ناھومێد
 """),
-// With short examples define "glum", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) دڵتەنگ و بێزار"""),
                     const AlsoEnglishckb(word: "ھەروەھا: gloomy"),

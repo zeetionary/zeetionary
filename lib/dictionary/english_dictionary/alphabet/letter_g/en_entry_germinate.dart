@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: germinate (Derived forms: germinating, germinates, germinated)
-1. Produce buds, branches, or germinate (- shoot, spud [informal], pullulate, bourgeon [archaic], burgeon forth [archaic], sprout, burgeon [archaic])
+- Verb: germinate (derived forms: germinating, germinates, germinated)
+1. Produce buds, branches, or germinate (= shoot, spud [informal], pullulate, bourgeon [archaic], burgeon forth [archaic], sprout, burgeon [archaic])
 "the potatoes germinated";
  
-2. Start and work to gradually produce or understand (- evolve, develop)
+2. Start and work to gradually produce or understand (= evolve, develop)
 "We have germinated a new theory of evolution";
  
 3. Cause to grow or sprout

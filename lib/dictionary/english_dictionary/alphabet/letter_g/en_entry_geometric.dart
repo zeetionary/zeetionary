@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: geometric
-1. (fine arts) characterized by simple geometric forms in design and decoration (- geometrical)
+1. (fine arts) characterized by simple geometric forms in design and decoration (= geometrical)
 "a buffalo hide painted with red and black geometric designs";
  
-2. Of or relating to or determined by geometry (- geometrical)
+2. Of or relating to or determined by geometry (= geometrical)
 """,
   );
 

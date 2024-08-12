@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glut (Derived forms: gluts)
-1. A supply or amount of something that is more than needed; an excessive amount (- oversupply, surfeit)
+- Noun: glut (derived forms: gluts)
+1. A supply or amount of something that is more than needed; an excessive amount (= oversupply, surfeit)
 
-- Verb: glut (Derived forms: glutting, glutted, gluts)
-1. Overeat or eat immodestly; make a pig of oneself (- gorge, ingurgitate [rare], overindulge, englut [archaic], stuff, engorge, overgorge, overeat, gormandize, gormandise [Brit], gourmandize, binge [informal], pig out [informal], satiate, gourmandise [Brit])
+- Verb: glut (derived forms: glutting, glutted, gluts)
+1. Overeat or eat immodestly; make a pig of oneself (= gorge, ingurgitate [rare], overindulge, englut [archaic], stuff, engorge, overgorge, overeat, gormandize, gormandise [Brit], gourmandize, binge [informal], pig out [informal], satiate, gourmandise [Brit])
  
-2. Supply with an excess of (- flood, oversupply)
+2. Supply with an excess of (= flood, oversupply)
 "Glut the country with cheap imports from the Orient";
 """,
   );
@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خستنەڕووی لەڕادەبەدەر، بڕی بێ‌ئەندازە، لەئەندازبەدەری، لەرادەبەدەری، زۆری، زەبەنی، گەلێ، لەپێویست‌بەدەر، بڕێکی زۆر،	زۆرخۆری
 """),
-// With short examples define "glut", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) دۆخێک کە تێیدا زۆر لە شتێک ھەیە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: surfeit"),

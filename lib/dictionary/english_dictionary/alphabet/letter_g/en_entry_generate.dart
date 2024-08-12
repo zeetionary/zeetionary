@@ -51,17 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: generate (Derived forms: generated, generates, generating)
-1. Produce, create (- bring forth)
+- Verb: generate (derived forms: generated, generates, generating)
+1. Produce, create (= bring forth)
 "The new manager generated a lot of problems"; "The computer bug generated chaos in the office"; "The earthquake generated a tsunami";
  
-2. Give or supply (- render, yield, return, give)
+2. Give or supply (= render, yield, return, give)
 "The estate generates some revenue for the family";
  
 3. Produce (energy)
 "We can't generate enough power for the entire city"; "The hydroelectric plant needs to generate more electricity"
  
-4. Make (offspring) by reproduction (- beget [archaic], get, engender, father, mother, sire, bring forth)
+4. Make (offspring) by reproduction (= beget [archaic], get, engender, father, mother, sire, bring forth)
 """,
   );
 

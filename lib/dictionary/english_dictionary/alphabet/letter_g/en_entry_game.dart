@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: game (Derived forms: games)
+- Noun: game (derived forms: games)
 1. A contest with rules to determine a winner
 "you need four people to play this game"
  
@@ -70,7 +70,7 @@ ${englishMeaningConst.text}
  
 7. The flesh of wild animals that is used for food
  
-8. [informal] A secret scheme to do something (especially something underhand or illegal) (- plot, secret plan)
+8. [informal] A secret scheme to do something (especially something underhand or illegal) (= plot, secret plan)
 "I saw through his little game from the start";
  
 9. The game equipment needed in order to play a particular game
@@ -79,21 +79,21 @@ ${englishMeaningConst.text}
 10. Frivolous or trifling behaviour
 "for actors, memorizing lines is no game"; "for him, life is all fun and games"
  
-11. [informal] Your occupation or line of work (- biz [informal])
+11. [informal] Your occupation or line of work (= biz [informal])
 "he's in the plumbing game";
 
 - Adjective: game
-1. Willing or keen to do something (- up for)
+1. Willing or keen to do something (= up for)
  
-2. [informal] Willing to face danger (- gamy, gamey, gritty, mettlesome, spirited, spunky [informal])
+2. [informal] Willing to face danger (= gamy, gamey, gritty, mettlesome, spirited, spunky [informal])
  
-3. [informal] Disabled in the feet or legs (- crippled, halt [archaic], halting, lame, gimpy [N. Amer, informal])
+3. [informal] Disabled in the feet or legs (= crippled, halt [archaic], halting, lame, gimpy [N. Amer, informal])
 "a game leg";
 
-- Verb: game (Derived forms: gamer, gamed, games, gamest, gaming)
-1. Gamble on something (- bet on, back, gage [archaic], stake, punt)
+- Verb: game (derived forms: gamer, gamed, games, gamest, gaming)
+1. Gamble on something (= bet on, back, gage [archaic], stake, punt)
  
-2. Manipulate or exploit a system to one's advantage, esp. in an unfair way (- play)
+2. Manipulate or exploit a system to one's advantage, esp. in an unfair way (= play)
 "game the system of ranking musical hits by including free downloads";
 """,
   );

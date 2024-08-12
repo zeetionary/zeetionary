@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: godsend (Derived forms: godsends)
-1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (- boom, bonanza, gold rush, gravy [informal], manna from heaven, windfall, bunce [Brit, informal])
+- Noun: godsend (derived forms: godsends)
+1. A sudden happening that brings good fortune (as a sudden opportunity to make money) (= boom, bonanza, gold rush, gravy [informal], manna from heaven, windfall, bunce [Brit, informal])
 """,
   );
 

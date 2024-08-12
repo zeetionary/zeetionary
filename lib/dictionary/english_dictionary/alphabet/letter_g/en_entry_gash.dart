@@ -51,16 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gash (Derived forms: gashes)
-1. A wound made by cutting (- cut, slash, slice)
+- Noun: gash (derived forms: gashes)
+1. A wound made by cutting (= cut, slash, slice)
 "he put a bandage over the gash";
  
-2. A trench resembling a furrow that was made by erosion or excavation (- cut)
+2. A trench resembling a furrow that was made by erosion or excavation (= cut)
  
-3. A strong sweeping cut made with a sharp instrument (- slash)
+3. A strong sweeping cut made with a sharp instrument (= slash)
 
-- Verb: gash (Derived forms: gashes, gashed, gashing)
-1. Cut open (- slash)
+- Verb: gash (derived forms: gashes, gashed, gashing)
+1. Cut open (= slash)
 "she gashed her wrists";
 """,
   );

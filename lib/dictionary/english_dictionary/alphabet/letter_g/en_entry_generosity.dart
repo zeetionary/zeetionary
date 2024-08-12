@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: generosity (Derived forms: generosities)
-1. The trait of being willing to give your money or time (- generousness)
+- Noun: generosity (derived forms: generosities)
+1. The trait of being willing to give your money or time (= generousness)
  
-2. Acting generously (- unselfishness)
+2. Acting generously (= unselfishness)
 """,
   );
 

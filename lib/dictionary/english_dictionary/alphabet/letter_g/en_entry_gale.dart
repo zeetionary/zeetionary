@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gale (Derived forms: gales)
+- Noun: gale (derived forms: gales)
 1. A strong wind moving 45-90 knots; force 7 to 10 on Beaufort scale
 "it was destroyed by the strength of the gale"
  

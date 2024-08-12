@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gallows (Derived forms: gallowses)
-1. An instrument of execution consisting of a wooden frame from which a condemned person is executed by hanging (- gallows tree, gallows-tree, gibbet, gallous [archaic])
+- Noun: gallows (derived forms: gallowses)
+1. An instrument of execution consisting of a wooden frame from which a condemned person is executed by hanging (= gallows tree, gallows-tree, gibbet, gallous [archaic])
 """,
   );
 

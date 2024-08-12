@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gentleman (Derived forms: gentlemen)
+- Noun: gentleman (derived forms: gentlemen)
 1. A man of refinement
  
 2. A polite or formal term referring to a man
  
-3. A manservant who acts as a personal attendant to his employer (- valet, valet de chambre, gentleman's gentleman, man)
+3. A manservant who acts as a personal attendant to his employer (= valet, valet de chambre, gentleman's gentleman, man)
 "Jeeves was Bertie Wooster's gentleman";
 """,
   );

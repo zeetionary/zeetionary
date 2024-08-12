@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: garbled
-1. Lacking orderly continuity (- confused, disconnected, disjointed, disordered, illogical, scattered, unconnected)
+1. Lacking orderly continuity (= confused, disconnected, disjointed, disordered, illogical, scattered, unconnected)
 "a garbled set of instructions";
 """,
   );

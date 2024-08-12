@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 - Noun: genuineness
 1. The state of being genuine
  
-2. The property of being genuine or valid, not being a fake or forgery (- authenticity, legitimacy)
+2. The property of being genuine or valid, not being a fake or forgery (= authenticity, legitimacy)
 """,
   );
 

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gargoyle (Derived forms: gargoyles)
+- Noun: gargoyle (derived forms: gargoyles)
 1. A spout that terminates in a grotesquely carved figure of a person or animal
  
 2. An ornament consisting of a grotesquely carved figure of a person or animal

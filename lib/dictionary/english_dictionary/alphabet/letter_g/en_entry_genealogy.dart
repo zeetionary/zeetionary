@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: genealogy (Derived forms: genealogies)
-1. Successive generations of kin (- family tree)
+- Noun: genealogy (derived forms: genealogies)
+1. Successive generations of kin (= family tree)
  
 2. The study or investigation of ancestry and family history
 """,

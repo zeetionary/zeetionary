@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: given
-1. Acknowledged as a supposition (- granted)
+1. Acknowledged as a supposition (= granted)
 "given the engine's condition, it is a wonder that it started";
  
-2. (usually followed by 'to') naturally disposed toward (- apt, disposed, minded, tending)
+2. (usually followed by 'to') naturally disposed toward (= apt, disposed, minded, tending)
 
-- Noun: given (Derived forms: givens)
-1. An assumption that is taken for granted (- presumption, precondition)
+- Noun: given (derived forms: givens)
+1. An assumption that is taken for granted (= presumption, precondition)
 """,
   );
 
@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دیار، ڕوون، بەرچاو، دیاری‌کراو، دەس‌نیشان‌کراو،	وادانراو، تایبەتی،	خووگرتوو، گیرۆدە، فێر
 """),
-// With short examples define "given", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە پێشوەختە ڕێکخراوە"""),
                     SentencesRow(

@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: generative
-1. Producing new life or offspring (- procreative, reproductive)
+1. Producing new life or offspring (= procreative, reproductive)
 "the reproductive or generative organs";
  
-2. Having the ability to produce or originate (- productive)
+2. Having the ability to produce or originate (= productive)
 "generative forces";
 """,
   );

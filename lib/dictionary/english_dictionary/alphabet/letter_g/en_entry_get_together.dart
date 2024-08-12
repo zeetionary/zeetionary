@@ -52,8 +52,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: get together (Derived forms: get togethers)
-1. A small informal social gathering (- meeting)
+- Noun: get together (derived forms: get togethers)
+1. A small informal social gathering (= meeting)
 "there was an informal get together in my living room";
 """,
   );

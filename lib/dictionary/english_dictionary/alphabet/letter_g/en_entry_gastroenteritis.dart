@@ -53,8 +53,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gastroenteritis (Derived forms: gastroenteritises)
-1. Inflammation of the stomach and intestines; can be caused by Salmonella enteritidis (- stomach flu, intestinal flu)
+- Noun: gastroenteritis (derived forms: gastroenteritises)
+1. Inflammation of the stomach and intestines; can be caused by Salmonella enteritidis (= stomach flu, intestinal flu)
 
 """,
   );

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold medal (Derived forms: gold medals)
+- Noun: gold medal (derived forms: gold medals)
 1. A trophy made of gold (or having the appearance of gold) that is usually awarded for winning first place in a competition
 """,
   );

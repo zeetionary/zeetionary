@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: generator (Derived forms: generators)
+- Noun: generator (derived forms: generators)
 1. An apparatus that produces a vapour or gas
  
 2. Engine that converts mechanical energy into electrical energy by electromagnetic induction
  
-3. Someone who originates, causes or initiates something (- source, author)
+3. Someone who originates, causes or initiates something (= source, author)
 "he was the generator of several complaints";
  
 4. An electronic device for producing a signal voltage

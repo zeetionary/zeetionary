@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: good (Derived forms: better, best)
-1. Having the normally expected amount (- full)
+- Adjective: good (derived forms: better, best)
+1. Having the normally expected amount (= full)
 "a good mile from here"; "gives good measure";
  
-2. Deserving of esteem and respect (- estimable, honorable [US], respectable, honourable [Brit, Cdn])
+2. Deserving of esteem and respect (= estimable, honorable [US], respectable, honourable [Brit, Cdn])
 "ruined the family's good name";
  
 3. Having desirable or positive qualities especially those suitable for a thing specified
@@ -63,52 +63,52 @@ ${englishMeaningConst.text}
  
 4. Morally admirable
  
-5. Promoting or enhancing well-being (- beneficial)
+5. Promoting or enhancing well-being (= beneficial)
 "the experience was good for her";
  
 6. Agreeable or pleasing
 "we all had a good time"; "good manners"
  
-7. Of moral excellence (- just, upright)
+7. Of moral excellence (= just, upright)
 "a genuinely good person";
  
-8. Having or showing knowledge and skill and aptitude (- adept, expert, practiced [N. Amer], proficient, skillful [N. Amer], skilful [Brit, Cdn], practised [Brit, Cdn])
+8. Having or showing knowledge and skill and aptitude (= adept, expert, practiced [N. Amer], proficient, skillful [N. Amer], skilful [Brit, Cdn], practised [Brit, Cdn])
 "a good mechanic";
  
-9. Thorough (- proper)
+9. Thorough (= proper)
 "gave the house a good cleaning"; "had a good workout";
  
-10. With or in a close or intimate relationship (- dear, near)
+10. With or in a close or intimate relationship (= dear, near)
 "a good friend";
  
-11. Financially safe (- dependable, safe, secure)
+11. Financially safe (= dependable, safe, secure)
 "a good investment";
  
-12. Most suitable or right for a particular purpose (- right, ripe)
+12. Most suitable or right for a particular purpose (= right, ripe)
 "a good time to plant tomatoes";
  
-13. Resulting favourably (- well)
+13. Resulting favourably (= well)
 "it's a good thing that I wasn't there"; "it is good that you stayed";
  
-14. Exerting force or influence (- effective, in effect, in force)
+14. Exerting force or influence (= effective, in effect, in force)
 "a warranty good for two years";
  
 15. Capable of pleasing
 "good looks"
  
-16. Appealing to the mind (- serious)
+16. Appealing to the mind (= serious)
 "good music";
  
-17. In excellent physical condition (- sound)
+17. In excellent physical condition (= sound)
 "good teeth"; "I still have one good leg";
  
-18. Tending to promote physical well-being; beneficial to health (- salutary)
+18. Tending to promote physical well-being; beneficial to health (= salutary)
 "a good night's sleep";
  
-19. Not forged (- honest)
+19. Not forged (= honest)
 "a good dollar bill";
  
-20. Not left to spoil (- unspoiled, unspoilt)
+20. Not left to spoil (= unspoiled, unspoilt)
 "the meat is still good";
  
 21. Generally admired
@@ -118,20 +118,20 @@ ${englishMeaningConst.text}
 1. Benefit
 "for your own good"; "what's the good of worrying?"
  
-2. Moral excellence or admirableness (- goodness)
+2. Moral excellence or admirableness (= goodness)
 "there is much good to be found in people";
  
-3. That which is pleasing, valuable or useful (- goodness)
+3. That which is pleasing, valuable or useful (= goodness)
 "weigh the good against the bad"; "among the highest goods of all are happiness and self-realization";
  
-4. A raw material or product that is bought and sold commercially in large quantities (- commodity, trade good)
+4. A raw material or product that is bought and sold commercially in large quantities (= commodity, trade good)
 
-- Adverb: good (Derived forms: better, best)
+- Adverb: good (derived forms: better, best)
 Usage: N. Amer
-1. (often used as a combining form) in a good or proper or satisfactory manner or to a high standard ('good' is a nonstandard dialectal variant for 'well') (- well)
+1. (often used as a combining form) in a good or proper or satisfactory manner or to a high standard ('good' is a nonstandard dialectal variant for 'well') (= well)
 "the baby can walk pretty good";
  
-2. Completely and absolutely (- thoroughly, soundly, proper)
+2. Completely and absolutely (= thoroughly, soundly, proper)
 "we beat him good";
 """,
   );
@@ -745,7 +745,6 @@ Usage: N. Amer
                     const KurdishVocabulary(text: """
 کوردی: باش، چاک، قەنج، خاس،	چەلەنگ، خۆش، وەش، شیرین،	دڵسۆز، دەسگر، بەدەم‌خەڵکەوەبوو،	گونجاو، لەبار، شیاو،	بەسوود، بەقازانج، بەکەڵک،	بەڕەوشت، ڕەفتارباش،	ساغ، سڵامەت، ساخلەم،	جێی‌متمانە، جێی‌باوەڕ، بەنرخ، بەبایەخ، باوەڕپێکراو، لێ‌ڕابینراو،	باش، دروست، ڕاست،	شارەزا، کارامە، سەردەرچوو، بەتوانا، کارزان،	زۆر، کەمێ زۆر،	(جل‌وبەرگ) تازە، خاوێن، نەو،	ناقەڵب، ئەسڵ، ڕەسەن، ڕاستەقینە، تەواو، ڕەبەق،	شیرپاک، پاک، گەورەپیاو،	بەجێ، ژیرانە،	چاکە، باشە، کاری چاکە، خێر،	کردەوەی باشە،	باشی، چاکی،	قازانج، سوود، بەرژەوەندی،	خەڵکی باش، چاکەکاران، خێرخوازان،	شتی چاک
 """),
-// With short examples define "good", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) باش"""),
                     SentencesRow(
                       englishText:

@@ -52,8 +52,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: globalization (Derived forms: globalizations)
-1. Growth to a global or worldwide scale (- globalisation [Brit])
+- Noun: globalization (derived forms: globalizations)
+1. Growth to a global or worldwide scale (= globalisation [Brit])
 "the globalization of the communication industry";
 """,
   );

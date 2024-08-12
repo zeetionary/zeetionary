@@ -51,40 +51,40 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gain (Derived forms: gains, gaining, gained)
-1. Have the benefit of; obtain something desirable (- derive)
+- Verb: gain (derived forms: gains, gaining, gained)
+1. Have the benefit of; obtain something desirable (= derive)
 "gain pleasure from one's garden";
  
-2. Acquire something through effort (- acquire, win)
+2. Acquire something through effort (= acquire, win)
 "Gain an understanding of international finance";
  
-3. Derive a benefit from (- profit, benefit)
+3. Derive a benefit from (= profit, benefit)
 "She gained from his vast experience";
  
-4. Be at the destination after some time, either real or abstract; come to a given position (- reach, make, attain, hit, arrive at)
+4. Be at the destination after some time, either real or abstract; come to a given position (= reach, make, attain, hit, arrive at)
  
-5. Obtain advantages, such as points, etc. (- advance, win, pull ahead, make headway, get ahead, gain ground)
+5. Obtain advantages, such as points, etc. (= advance, win, pull ahead, make headway, get ahead, gain ground)
 "The home team was gaining ground";
  
-6. Rise in rate or price (- advance)
+6. Rise in rate or price (= advance)
 "The stock market gained 24 points today";
  
-7. Increase or develop (- gather)
+7. Increase or develop (= gather)
 "the peace movement gained momentum";
  
-8. Receive money in return for work; make a profit as the result of some business transaction (- take in, clear, make, earn, realize, realise [Brit], pull in [informal], bring in)
+8. Receive money in return for work; make a profit as the result of some business transaction (= take in, clear, make, earn, realize, realise [Brit], pull in [informal], bring in)
 "He gains £5,000 each month";
  
-9. Increase (one's body weight) (- put on)
+9. Increase (one's body weight) (= put on)
 "She gained 20 pounds when she stopped exercising";
 
-- Noun: gain (Derived forms: gains)
-1. A quantity that is added (- addition, increase)
+- Noun: gain (derived forms: gains)
+1. A quantity that is added (= addition, increase)
 "they recorded the cattle's gain in weight over a period of weeks";
  
-2. The advantageous quality of being beneficial (- profit)
+2. The advantageous quality of being beneficial (= profit)
  
-3. The amount of increase in signal power, voltage or current expressed as the ratio of output to input (- amplification)
+3. The amount of increase in signal power, voltage or current expressed as the ratio of output to input (= amplification)
  
 4. The amount by which the revenue of a business exceeds its cost of operating
 """,

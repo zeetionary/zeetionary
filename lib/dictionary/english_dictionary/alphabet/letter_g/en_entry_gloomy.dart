@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gloomy (Derived forms: gloomier, gloomiest)
-1. Depressingly dark (- glooming [archaic], gloomful [archaic], sulky)
+- Adjective: gloomy (derived forms: gloomier, gloomiest)
+1. Depressingly dark (= glooming [archaic], gloomful [archaic], sulky)
 "the gloomy forest";
  
-2. Filled with melancholy and despondency (- grim, blue [informal], depressed, dispirited, down, downcast, downhearted, down in the mouth, low, low-spirited)
+2. Filled with melancholy and despondency (= grim, blue [informal], depressed, dispirited, down, downcast, downhearted, down in the mouth, low, low-spirited)
 "gloomy at the thought of what he had to face"; "gloomy predictions"; "a gloomy silence";
  
-3. Causing dejection (- blue [informal], dark, dingy, disconsolate, dismal, grim, sorry, drab, drear, dreary)
+3. Causing dejection (= blue [informal], dark, dingy, disconsolate, dismal, grim, sorry, drab, drear, dreary)
 "a dark gloomy day";
 """,
   );

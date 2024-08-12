@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold mine (Derived forms: gold mines, goldmines)
-1. A good source of something that is desired (- goldmine)
+- Noun: gold mine (derived forms: gold mines, goldmines)
+1. A good source of something that is desired (= goldmine)
  
-2. A mine where gold ore is found (- goldmine)
+2. A mine where gold ore is found (= goldmine)
 """,
   );
 

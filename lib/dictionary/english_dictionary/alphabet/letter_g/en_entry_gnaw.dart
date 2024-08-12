@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gnaw (Derived forms: gnawed, gnawing, gnawn, gnaws)
+- Verb: gnaw (derived forms: gnawed, gnawing, gnawn, gnaws)
 1. Bite or chew on with the teeth
 "gnaw an old cracker"
  
-2. Become ground down or deteriorate (- erode, gnaw at, eat at, wear away)
+2. Become ground down or deteriorate (= erode, gnaw at, eat at, wear away)
  
 3. Cause lingering anxiety, torment, etc.
 """,
@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جووتن، کرۆژتن، گەستن، قەپاڵ لێدان
 """),
-// With short examples define "gnaw", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) بەردەوام گاز گرتن لە شتێک"""),
                     SentencesRow(

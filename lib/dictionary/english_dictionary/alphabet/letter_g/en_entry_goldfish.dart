@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goldfish (Derived forms: goldfishes)
-1. Small golden or orange-red freshwater fishes of Eurasia used as pond or aquarium fishes (- Carassius auratus)
+- Noun: goldfish (derived forms: goldfishes)
+1. Small golden or orange-red freshwater fishes of Eurasia used as pond or aquarium fishes (= Carassius auratus)
 """,
   );
 

@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gild (Derived forms: gilds)
-1. A formal association of people with similar interests (- club, social club, society, guild, lodge, order)
+- Noun: gild (derived forms: gilds)
+1. A formal association of people with similar interests (= club, social club, society, guild, lodge, order)
 
-- Verb: gild (Derived forms: gilded, gilding, gilds)
-1. Decorate with, or as if with, gold leaf or liquid gold (- begild, engild)
+- Verb: gild (derived forms: gilded, gilding, gilds)
+1. Decorate with, or as if with, gold leaf or liquid gold (= begild, engild)
 """,
   );
 
@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gild", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) واکردنی ئەوەی شتێک بدرەوشێتەوە"""),
                     SentencesRow(

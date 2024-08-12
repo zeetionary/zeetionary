@@ -51,22 +51,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gear (Derived forms: gears)
-1. A toothed wheel that engages another toothed mechanism in order to change the speed or direction of transmitted motion (- gear wheel, geared wheel, cogwheel)
+- Noun: gear (derived forms: gears)
+1. A toothed wheel that engages another toothed mechanism in order to change the speed or direction of transmitted motion (= gear wheel, geared wheel, cogwheel)
  
-2. Wheelwork consisting of a connected set of rotating gears by which force is transmitted, motion or torque is changed (- gearing, geartrain, power train, train, drivetrain)
+2. Wheelwork consisting of a connected set of rotating gears by which force is transmitted, motion or torque is changed (= gearing, geartrain, power train, train, drivetrain)
 "the fool got his tie caught in the gear";
  
-3. A mechanism for transmitting motion for some specific purpose (as the steering gear of a vehicle) (- gear mechanism)
+3. A mechanism for transmitting motion for some specific purpose (as the steering gear of a vehicle) (= gear mechanism)
  
-4. Equipment consisting of miscellaneous articles needed for a particular operation or sport etc. (- paraphernalia, appurtenance)
+4. Equipment consisting of miscellaneous articles needed for a particular operation or sport etc. (= paraphernalia, appurtenance)
  
-5. [informal] Clothing in general (- apparel, wearing apparel, dress, clothes, toggery [informal])
+5. [informal] Clothing in general (= apparel, wearing apparel, dress, clothes, toggery [informal])
  
 6. [informal] Illegal drugs
 
-- Verb: gear (Derived forms: gears, gearing, geared)
-1. Set the level or character of (- pitch)
+- Verb: gear (derived forms: gears, gearing, geared)
+1. Set the level or character of (= pitch)
 "She geared her speech to the teenagers in the audience";
  
 2. Adjust gears in order to achieve a desired speed

@@ -51,24 +51,24 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: giant (Derived forms: giants)
+- Noun: giant (derived forms: giants)
 1. Any creature of exceptional size
  
-2. A person of exceptional importance and reputation (- colossus, behemoth, heavyweight, titan)
+2. A person of exceptional importance and reputation (= colossus, behemoth, heavyweight, titan)
  
 3. An unusually large enterprise
 "Walton built a retail giant"
  
-4. A very large person; impressive in size or qualities (- hulk, heavyweight, whale)
+4. A very large person; impressive in size or qualities (= hulk, heavyweight, whale)
  
-5. Someone that is abnormally large and powerful (- goliath, behemoth, monster, colossus)
+5. Someone that is abnormally large and powerful (= goliath, behemoth, monster, colossus)
  
 6. An imaginary figure of superhuman size and strength; appears in folklore and fairy tales
  
-7. A very bright star of large diameter and low density (relative to the Sun) (- giant star)
+7. A very bright star of large diameter and low density (relative to the Sun) (= giant star)
 
 - Adjective: giant
-1. Of great mass; huge and bulky (- elephantine, gargantuan, jumbo)
+1. Of great mass; huge and bulky (= elephantine, gargantuan, jumbo)
 "a giant jet";
 """,
   );

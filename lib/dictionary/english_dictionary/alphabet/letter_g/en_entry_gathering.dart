@@ -52,14 +52,14 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: gathering
-1. A group of persons together in one place (- assemblage)
+1. A group of persons together in one place (= assemblage)
  
-2. The social act of assembling (- assembly, assemblage)
+2. The social act of assembling (= assembly, assemblage)
 "they demanded the right of gathering";
  
-3. The act of gathering something (- gather)
+3. The act of gathering something (= gather)
  
-4. Sewing consisting of small folds or puckers made by pulling tight a thread in a line of stitching (- gather)
+4. Sewing consisting of small folds or puckers made by pulling tight a thread in a line of stitching (= gather)
 """,
   );
 

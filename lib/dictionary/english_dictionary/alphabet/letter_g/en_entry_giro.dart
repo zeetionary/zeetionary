@@ -51,9 +51,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: giro (Derived forms: giros)
+- Noun: giro (derived forms: giros)
 Usage: UK
-1. A check given by the British government to someone who is unemployed; it can be cashed either at a bank or at the post office (- giro cheque [Brit])
+1. A check given by the British government to someone who is unemployed; it can be cashed either at a bank or at the post office (= giro cheque [Brit])
  
 2. A British financial system in which a bank or a post office transfers money from one account to another when they receive authorization to do so
 """,

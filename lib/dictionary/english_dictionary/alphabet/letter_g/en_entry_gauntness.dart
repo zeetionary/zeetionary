@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: gauntness
-1. Extreme leanness (usually caused by starvation or disease) (- bonyness, boniness, emaciation, maceration)
+1. Extreme leanness (usually caused by starvation or disease) (= bonyness, boniness, emaciation, maceration)
 """,
   );
 

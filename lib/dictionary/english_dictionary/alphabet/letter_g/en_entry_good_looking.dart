@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: good-looking
-1. Pleasing in appearance especially by reason of conformity to ideals of form and proportion (- fine-looking, better-looking, handsome, well-favored [US], well-favoured [Brit, Cdn], on fleek [N. Amer, informal])
+1. Pleasing in appearance especially by reason of conformity to ideals of form and proportion (= fine-looking, better-looking, handsome, well-favored [US], well-favoured [Brit, Cdn], on fleek [N. Amer, informal])
 "a good-looking man";
 """,
   );

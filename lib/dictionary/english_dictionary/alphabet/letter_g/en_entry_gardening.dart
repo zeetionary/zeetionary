@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gardening (Derived forms: gardenings)
-1. The cultivation of plants (- horticulture)
+- Noun: gardening (derived forms: gardenings)
+1. The cultivation of plants (= horticulture)
 "My hobby is gardening";
 
 """,

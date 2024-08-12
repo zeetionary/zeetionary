@@ -55,10 +55,10 @@ ${englishMeaningConst.text}
 1. Lacking graciousness
 "a totally graceless hostess"
  
-2. Lacking grace; clumsy (- ungraceful)
+2. Lacking grace; clumsy (= ungraceful)
 "a graceless production of the play";
  
-3. Lacking social polish (- gauche, unpolished)
+3. Lacking social polish (= gauche, unpolished)
 """,
   );
 

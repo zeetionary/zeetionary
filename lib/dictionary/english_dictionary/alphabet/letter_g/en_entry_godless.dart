@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: godless
-1. Not revering god (- irreverent)
+1. Not revering god (= irreverent)
 "I know a fair amount of atheists, seeing as I live in a relatively godless town";
 """,
   );
@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌خودا، بێ‌دین، دیندڕ، خودانەناس
 """),
-// With short examples define "godless", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کە باوەڕی بە خودا نییە یان ڕێزی لێ ناگرێت"""),

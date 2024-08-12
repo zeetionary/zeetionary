@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gallstone (Derived forms: gallstones)
-1. A calculus formed in the gall bladder or its ducts (- bilestone)
+- Noun: gallstone (derived forms: gallstones)
+1. A calculus formed in the gall bladder or its ducts (= bilestone)
 """,
   );
 

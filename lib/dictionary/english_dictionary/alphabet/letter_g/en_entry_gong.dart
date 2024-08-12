@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gong (Derived forms: gongs)
-1. A percussion instrument consisting of a metal plate that is struck with a softheaded drumstick (- tam-tam)
+- Noun: gong (derived forms: gongs)
+1. A percussion instrument consisting of a metal plate that is struck with a softheaded drumstick (= tam-tam)
  
-2. A percussion instrument consisting of a set of tuned bells that are struck with a hammer; used as an orchestral instrument (- chime, bell)
+2. A percussion instrument consisting of a set of tuned bells that are struck with a hammer; used as an orchestral instrument (= chime, bell)
  
 3. [Brit, informal] A medal, award or honour
 
-- Verb: gong (Derived forms: gongs, gonging, gonged)
+- Verb: gong (derived forms: gongs, gonging, gonged)
 1. Sound a gong
 """,
   );

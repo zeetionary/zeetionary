@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: global warming
-1. An increase in the average temperature of the earth's atmosphere (especially a sustained increase that causes climatic changes) (- global heating, climate change)
+1. An increase in the average temperature of the earth's atmosphere (especially a sustained increase that causes climatic changes) (= global heating, climate change)
 """,
   );
 

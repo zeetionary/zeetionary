@@ -52,8 +52,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: germination (Derived forms: germinations)
-1. The process whereby seeds or spores sprout and begin to grow (- sprouting)
+- Noun: germination (derived forms: germinations)
+1. The process whereby seeds or spores sprout and begin to grow (= sprouting)
  
 2. The origin of some development
 "the germination of their discontent"

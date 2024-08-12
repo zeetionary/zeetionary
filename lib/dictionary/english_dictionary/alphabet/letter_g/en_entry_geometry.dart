@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: geometry (Derived forms: geometries)
+- Noun: geometry (derived forms: geometries)
 1. (mathematics) the pure mathematics of points and lines and curves and surfaces
 "geometry is the mathematical science of shape"
  

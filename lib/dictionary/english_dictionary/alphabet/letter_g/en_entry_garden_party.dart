@@ -52,8 +52,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garden party (Derived forms: garden parties)
-1. A party of people assembled for social interaction out of doors (- lawn party, fête champêtre)
+- Noun: garden party (derived forms: garden parties)
+1. A party of people assembled for social interaction out of doors (= lawn party, fête champêtre)
 """,
   );
 

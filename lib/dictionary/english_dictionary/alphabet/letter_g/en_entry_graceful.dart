@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
 - Adjective: graceful
 1. Characterized by beauty of movement, style, form, or execution
  
-2. Suggesting taste, ease, and wealth (- elegant, refined)
+2. Suggesting taste, ease, and wealth (= elegant, refined)
 """,
   );
 
@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جوان، نازەنین، بەئەدا،	شۆخ‌وشەنگ، بەلەخت‌ولار، خۆش‌ئەندام، ڕێک‌وپێک،	قورس، سەنگین، مەند،	سەرنج‌ڕاکێش، دڵڕفێن، خۆش،	بەڕەوشتانە
 """),
-// With short examples define "graceful", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) جووڵان بە لەنجەولارەوە"""),
                     SentencesRow(

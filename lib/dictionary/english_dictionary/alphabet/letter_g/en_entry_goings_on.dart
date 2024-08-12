@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
     text: """
 - Noun: goings-on
 Usage: informal
-1. Odd or suspicious happenings or behaviour (- carryings-on [Brit, informal], carry-on [Brit, informal])
+1. Odd or suspicious happenings or behaviour (= carryings-on [Brit, informal], carry-on [Brit, informal])
 """,
   );
 

@@ -51,17 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: government (Derived forms: governments)
-1. The organization that is the governing authority of a political unit (- authorities, regime)
+- Noun: government (derived forms: governments)
+1. The organization that is the governing authority of a political unit (= authorities, regime)
 "the government reduced taxes";
  
-2. The act of governing; exercising authority (- governing, governance, government activity, administration)
+2. The act of governing; exercising authority (= governing, governance, government activity, administration)
 "he had considerable experience of government";
  
 3. (government) the system or form by which a community or other political unit is governed
 "tyrannical government"
  
-4. (government) the study of government of states and other political units (- politics, political science)
+4. (government) the study of government of states and other political units (= politics, political science)
 """,
   );
 
@@ -239,7 +239,6 @@ ${englishMeaningConst.text}
 کوردی: حکومەت، میری، حوکومەت، فەرمان‌گێڕی، دەسەڵات‌گێڕی، دەسەڵات‌داری، حکومەت‌داری، فەرمان‌ڕەوایی، حوکم‌داری، حوکم‌ڕانی، دەستەی بەڕێوەبەرانی حکومەت، فەرمان‌گێڕان، دەوڵەت،	دەسەڵات،
 	شێواز یا ڕێکخستەی بەڕێوەبردن
 """),
-// With short examples define "government", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) حکومەت"""),
                     SentencesRow(
                       englishText: """She has resigned from the Government.""",

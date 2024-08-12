@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: good sense
-1. Sound practical judgment (- common sense, gumption [informal], horse sense [informal], sense, mother wit)
+1. Sound practical judgment (= common sense, gumption [informal], horse sense [informal], sense, mother wit)
 "fortunately she had the good sense to run away";
 """,
   );

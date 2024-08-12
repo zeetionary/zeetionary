@@ -51,15 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gent (Derived forms: gents)
+- Noun: gent (derived forms: gents)
 Usage: informal
 1. Informal abbreviation of 'gentleman'
  
-2. A boy or man (- chap [Brit, informal], fellow, feller [non-standard], fella [informal], lad [informal], blighter [Brit, informal], cuss [informal], bloke [Brit, informal], boyo [UK, Ireland], bucko [informal], dog [informal])
+2. A boy or man (= chap [Brit, informal], fellow, feller [non-standard], fella [informal], lad [informal], blighter [Brit, informal], cuss [informal], bloke [Brit, informal], boyo [UK, Ireland], bucko [informal], dog [informal])
 "you lucky gent";
 
 - Noun: Gent
-1. Port city in northwestern Belgium and industrial centre; famous for cloth industry (- Gand, Ghent)
+1. Port city in northwestern Belgium and industrial centre; famous for cloth industry (= Gand, Ghent)
 """,
   );
 

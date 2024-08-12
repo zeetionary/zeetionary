@@ -51,17 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: genius (Derived forms: genii, geniuses)
-1. Someone who has exceptional intellectual ability and originality (- mastermind, brain, brainiac [N. Amer], Einstein, smart cookie [N. Amer, informal], brainbox [Brit, informal])
+- Noun: genius (derived forms: genii, geniuses)
+1. Someone who has exceptional intellectual ability and originality (= mastermind, brain, brainiac [N. Amer], Einstein, smart cookie [N. Amer, informal], brainbox [Brit, informal])
 "Mozart was a child genius";
  
-2. Unusual mental ability (- brilliance)
+2. Unusual mental ability (= brilliance)
  
-3. Someone who is dazzlingly skilled in any field (- ace [informal], adept, champion, sensation, maven [US, informal], mavin [US, informal], virtuoso, hotshot [informal], star, superstar, whiz [informal], whizz [informal], wizard [informal], wiz [informal], megastar [informal])
+3. Someone who is dazzlingly skilled in any field (= ace [informal], adept, champion, sensation, maven [US, informal], mavin [US, informal], virtuoso, hotshot [informal], star, superstar, whiz [informal], whizz [informal], wizard [informal], wiz [informal], megastar [informal])
  
-4. Exceptional creative ability (- wizardry)
+4. Exceptional creative ability (= wizardry)
  
-5. A natural talent (- flair)
+5. A natural talent (= flair)
 "he has a genius for interior decorating";
 
 """,

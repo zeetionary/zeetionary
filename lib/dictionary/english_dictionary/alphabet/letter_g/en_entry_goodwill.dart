@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goodwill (Derived forms: good wills, goodwills)
-1. (accounting) an intangible asset valued according to the advantage or reputation a business has acquired (over and above its tangible assets) (- good will)
+- Noun: goodwill (derived forms: good wills, goodwills)
+1. (accounting) an intangible asset valued according to the advantage or reputation a business has acquired (over and above its tangible assets) (= good will)
  
-2. The friendly hope that something will succeed (- good will)
+2. The friendly hope that something will succeed (= good will)
  
-3. A disposition to kindness and compassion (- grace, good will)
+3. A disposition to kindness and compassion (= grace, good will)
 "the victor's goodwill in treating the vanquished";
 """,
   );

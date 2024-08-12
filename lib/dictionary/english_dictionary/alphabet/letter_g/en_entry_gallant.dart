@@ -55,19 +55,19 @@ ${englishMeaningConst.text}
 1. Unflinching in battle or action
 "a gallant warrior"; "put up a gallant resistance to the attackers"
  
-2. Lively and spirited (- dashing)
+2. Lively and spirited (= dashing)
 "a gallant hero";
  
-3. Being attentive to women like an ideal knight (- chivalrous, knightly)
+3. Being attentive to women like an ideal knight (= chivalrous, knightly)
  
-4. Having or displaying great dignity or nobility (- lofty, majestic, proud)
+4. Having or displaying great dignity or nobility (= lofty, majestic, proud)
 "a gallant pageant";
 
-- Noun: gallant (Derived forms: gallants)
+- Noun: gallant (derived forms: gallants)
 Usage: archaic
-1. A man who is much concerned with his dress and appearance (- dandy, dude [informal], fop, beau [archaic], swell [informal], fashion plate, clotheshorse [informal])
+1. A man who is much concerned with his dress and appearance (= dandy, dude [informal], fop, beau [archaic], swell [informal], fashion plate, clotheshorse [informal])
  
-2. A man who attends or escorts a woman (- squire)
+2. A man who attends or escorts a woman (= squire)
 """,
   );
 

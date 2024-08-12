@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: graciously
-1. In a gracious or graceful manner (- gracefully)
+1. In a gracious or graceful manner (= gracefully)
 "he did not have a chance to grow up graciously";
 """,
   );

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gait (Derived forms: gaits)
-1. The rate of moving (especially walking or running) (- pace)
+- Noun: gait (derived forms: gaits)
+1. The rate of moving (especially walking or running) (= pace)
  
 2. A horse's manner of moving
  

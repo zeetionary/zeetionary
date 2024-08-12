@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: galvanize (Derived forms: galvanized, galvanizes, galvanizing)
-1. To stimulate to action (- startle, galvanise [Brit])
+- Verb: galvanize (derived forms: galvanized, galvanizes, galvanizing)
+1. To stimulate to action (= startle, galvanise [Brit])
 "galvanized into action";
  
-2. Cover with zinc (- galvanise [Brit])
+2. Cover with zinc (= galvanise [Brit])
 "galvanize steel";
  
-3. Stimulate (muscles) by administering a shock (- galvanise [Brit])
+3. Stimulate (muscles) by administering a shock (= galvanise [Brit])
 """,
   );
 

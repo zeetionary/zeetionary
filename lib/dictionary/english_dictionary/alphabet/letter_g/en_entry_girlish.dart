@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کچانە، کچ‌ئاسا، کەنیشک‌ئاسا
 """),
-// With short examples define "girlish", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) وەک کچ؛ ھی کچ"""),
                     SentencesRow(

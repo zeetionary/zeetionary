@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: grammarian (Derived forms: grammarians)
-1. A linguist who specializes in the study of grammar and syntax (- syntactician)
+- Noun: grammarian (derived forms: grammarians)
+1. A linguist who specializes in the study of grammar and syntax (= syntactician)
 """,
   );
 

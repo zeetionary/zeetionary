@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: giddy (Derived forms: giddier, giddiest)
-1. Having or causing a whirling sensation; liable to falling (- dizzy, woozy [informal], vertiginous)
+- Adjective: giddy (derived forms: giddier, giddiest)
+1. Having or causing a whirling sensation; liable to falling (= dizzy, woozy [informal], vertiginous)
 "had a headache and felt giddy"; "a giddy precipice";
  
-2. Lacking seriousness; given to frivolity (- airheaded, dizzy, empty-headed, featherbrained, light-headed, lightheaded, silly)
+2. Lacking seriousness; given to frivolity (= airheaded, dizzy, empty-headed, featherbrained, light-headed, lightheaded, silly)
 "a giddy blonde";
-- Verb: giddy (Derived forms: giddied, giddies, giddying)
+- Verb: giddy (derived forms: giddied, giddies, giddying)
 1. Make or become dizzy
 """,
   );

@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: godly
-1. Showing great reverence for god (- reverent, worshipful)
+1. Showing great reverence for god (= reverent, worshipful)
 "a godly man"; "leading a godly life";
  
-2. Emanating from God (- divine)
+2. Emanating from God (= divine)
 "everything is black or white...satanic or godly";
 """,
   );

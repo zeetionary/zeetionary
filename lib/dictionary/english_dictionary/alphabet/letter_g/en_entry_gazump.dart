@@ -51,9 +51,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gazump (Derived forms: gazumping, gazumps, gazumped)
+- Verb: gazump (derived forms: gazumping, gazumps, gazumped)
 Usage: Brit, informal
-1. Rip off; ask an unreasonable price (- overcharge, soak [informal], surcharge, fleece [informal], pluck [informal], rob, hook [informal], skin [informal])
+1. Rip off; ask an unreasonable price (= overcharge, soak [informal], surcharge, fleece [informal], pluck [informal], rob, hook [informal], skin [informal])
  
 2. Raise the price of something after agreeing on a lower price
 """,

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ghetto (Derived forms: ghettos, ghettoes)
+- Noun: ghetto (derived forms: ghettos, ghettoes)
 1. Formerly the restricted quarter of many European cities in which Jews were required to live
 "the Warsaw ghetto"
  

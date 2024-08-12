@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: genealogical
-1. Of or relating to genealogy (- genealogic)
+1. Of or relating to genealogy (= genealogic)
 "genealogical records";
 """,
   );

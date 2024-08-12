@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: galleon (Derived forms: galleons)
+- Noun: galleon (derived forms: galleons)
 1. A large square-rigged sailing ship with three or more masts; used by the Spanish for commerce and war from the 15th to 18th centuries
 """,
   );

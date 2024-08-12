@@ -51,15 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glint (Derived forms: glinted, glinting, glints)
-1. Be shiny, as if wet (- glitter, glisten, gleam, shine)
+- Verb: glint (derived forms: glinted, glinting, glints)
+1. Be shiny, as if wet (= glitter, glisten, gleam, shine)
 "His eyes were glinting";
  
-2. Throw a glance at; take a brief look at (- glance, peek)
+2. Throw a glance at; take a brief look at (= glance, peek)
 "She only glinted at the paper";
 
-- Noun: glint (Derived forms: glints)
-1. A momentary flash of light (- flicker, spark)
+- Noun: glint (derived forms: glints)
+1. A momentary flash of light (= flicker, spark)
  
 2. A spatially localized brightness
 """,

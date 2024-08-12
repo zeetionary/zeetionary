@@ -51,9 +51,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: geeky (Derived forms: geekier, geekiest)
+- Adjective: geeky (derived forms: geekier, geekiest)
 Usage: informal
-1. like or in the manner of a nerd (- nerdy [informal], nerdish [informal])
+1. like or in the manner of a nerd (= nerdy [informal], nerdish [informal])
 "They're seen as geeky and odd, don't know how to joke or when to stop";
 """,
   );

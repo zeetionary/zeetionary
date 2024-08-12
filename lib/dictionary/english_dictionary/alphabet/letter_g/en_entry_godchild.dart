@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: godchild (Derived forms: godchildren)
+- Noun: godchild (derived forms: godchildren)
 1. An infant who is sponsored by an adult (the godparent) at baptism
 """,
   );

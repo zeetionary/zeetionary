@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 1. In great numbers
 "daffodils galore"
  
-2. Existing in abundance (- abounding)
+2. Existing in abundance (= abounding)
 "whiskey galore";
 """,
   );

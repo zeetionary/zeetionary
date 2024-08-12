@@ -51,19 +51,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gown (Derived forms: gowns)
+- Noun: gown (derived forms: gowns)
 1. A woman's dress, usually with a close-fitting bodice and a long flared skirt, often worn on formal occasions
  
 2. The members of a university as distinguished from the other residents of the town in which the university is located
 "the relations between town and gown are always sensitive"
  
-3. Lingerie consisting of a loose dress designed to be worn in bed by women (- nightgown, nightie [informal], night-robe, nightdress, nighty [informal])
+3. Lingerie consisting of a loose dress designed to be worn in bed by women (= nightgown, nightie [informal], night-robe, nightdress, nighty [informal])
  
-4. Protective garment worn by surgeons during operations (- surgical gown, scrubs)
+4. Protective garment worn by surgeons during operations (= surgical gown, scrubs)
  
-5. Outerwear consisting of a long flowing garment used for official or ceremonial occasions (- robe)
+5. Outerwear consisting of a long flowing garment used for official or ceremonial occasions (= robe)
 
-- Verb: gown (Derived forms: gowns, gowning, gowned)
+- Verb: gown (derived forms: gowns, gowning, gowned)
 1. Dress in a gown
 """,
   );

@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goal (Derived forms: goals)
-1. The state of affairs that a plan is intended to achieve and that (when achieved) terminates behaviour intended to achieve it (- end)
+- Noun: goal (derived forms: goals)
+1. The state of affairs that a plan is intended to achieve and that (when achieved) terminates behaviour intended to achieve it (= end)
 "the goals justify the means";
  
-2. The place designated as the end (as of a race or journey) (- finish, destination)
+2. The place designated as the end (as of a race or journey) (= finish, destination)
 "a crowd assembled at the goal";
  
 3. Game equipment consisting of the place toward which players of a game try to advance a ball or puck in order to score points
@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئامانج، ھیوا، ئاوات، ھێڤی، مەبەست، ئارەزوو،	(تۆپێن) گۆڵ،	دەروازە، گۆڵەچوارچێوە، چوارچێوک،	(خوازە) شوێن‌مەبەست، جێگای چوون
 """),
-// With short examples define "goal", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) گۆڵی یارییەکی وەرزشی"""),
                     SentencesRow(

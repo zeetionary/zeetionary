@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gambling (Derived forms: gamblings)
-1. The act of playing for stakes in the hope of winning (including the payment of a price for a chance to win a prize) (- gaming, play)
+- Noun: gambling (derived forms: gamblings)
+1. The act of playing for stakes in the hope of winning (including the payment of a price for a chance to win a prize) (= gaming, play)
 "his gambling cost him a fortune";
 
 - Adjective: gambling 
-1. Preoccupied with the pursuit of pleasure and especially games of chance (- dissipated, betting, card-playing, sporting)
+1. Preoccupied with the pursuit of pleasure and especially games of chance (= dissipated, betting, card-playing, sporting)
 "a gambling fool";
 """,
   );

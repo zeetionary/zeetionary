@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gnat (Derived forms: gnats)
+- Noun: gnat (derived forms: gnats)
 1. Any of various small biting flies: midges; biting midges; black flies; sand flies
  
 2. (British usage) mosquito

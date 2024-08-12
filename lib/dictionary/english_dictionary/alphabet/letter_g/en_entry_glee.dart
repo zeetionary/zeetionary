@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glee (Derived forms: glees)
-1. Great merriment (- hilarity, mirth, mirthfulness, gleefulness)
+- Noun: glee (derived forms: glees)
+1. Great merriment (= hilarity, mirth, mirthfulness, gleefulness)
  
-2. Malicious satisfaction (- gloat, gloating)
+2. Malicious satisfaction (= gloat, gloating)
 """,
   );
 

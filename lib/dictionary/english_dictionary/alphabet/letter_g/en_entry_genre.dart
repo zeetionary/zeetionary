@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: genre (Derived forms: genres)
+- Noun: genre (derived forms: genres)
 1. A kind of literary or artistic work
  
-2. A style of expressing yourself in writing (- writing style, literary genre)
+2. A style of expressing yourself in writing (= writing style, literary genre)
  
 3. A class of art (or artistic endeavour) having a characteristic form or technique
 """,

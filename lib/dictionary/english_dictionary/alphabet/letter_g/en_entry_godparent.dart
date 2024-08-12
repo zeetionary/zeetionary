@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: godparent (Derived forms: godparents)
+- Noun: godparent (derived forms: godparents)
 1. A person who sponsors someone (the godchild) at baptism
 """,
   );

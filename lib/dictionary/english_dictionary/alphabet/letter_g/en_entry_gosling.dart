@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gosling (Derived forms: goslings)
+- Noun: gosling (derived forms: goslings)
 1. Young goose
 """,
   );

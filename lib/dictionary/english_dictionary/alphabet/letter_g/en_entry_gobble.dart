@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gobble (Derived forms: gobbling, gobbles, gobbled)
-1. Eat hastily without proper chewing (- bolt)
+- Verb: gobble (derived forms: gobbling, gobbles, gobbled)
+1. Eat hastily without proper chewing (= bolt)
 "Don't gobble your food!";
  
 2. Make a gurgling sound, characteristic of turkeys
 
-- Noun: gobble (Derived forms: gobbles)
+- Noun: gobble (derived forms: gobbles)
 1. The characteristic sound made by a turkey cock
 """,
   );

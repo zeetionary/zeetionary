@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 1. With respect to the whole earth
 "think globally, not locally"
  
-2. Worldwide (- internationally)
+2. Worldwide (= internationally)
 "this is globally significant";
 """,
   );

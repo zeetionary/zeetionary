@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glider (Derived forms: gliders)
-1. Aircraft supported only by the dynamic action of air against its surfaces (- sailplane)
+- Noun: glider (derived forms: gliders)
+1. Aircraft supported only by the dynamic action of air against its surfaces (= sailplane)
  
 2. Anything that glides
 """,

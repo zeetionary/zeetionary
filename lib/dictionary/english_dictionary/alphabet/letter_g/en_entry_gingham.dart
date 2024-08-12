@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gingham (Derived forms: ginghams)
+- Noun: gingham (derived forms: ginghams)
 1. A clothing fabric in a plaid weave
 """,
   );

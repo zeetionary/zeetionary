@@ -51,34 +51,34 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glass (Derived forms: glasses)
+- Noun: glass (derived forms: glasses)
 1. A brittle transparent solid with irregular atomic structure
  
-2. A container made of glass for holding liquids while drinking (- drinking glass)
+2. A container made of glass for holding liquids while drinking (= drinking glass)
  
-3. The quantity a glass will hold (- glassful)
+3. The quantity a glass will hold (= glassful)
  
-4. A small refracting telescope (- field glass, spyglass)
+4. A small refracting telescope (= field glass, spyglass)
  
-5. [informal] An amphetamine derivative (trade name Methedrine) used in the form of a crystalline hydrochloride; used as a stimulant to the nervous system and as an appetite suppressant (- methamphetamine, methamphetamine hydrochloride, Methedrine, meth [informal], deoxyephedrine, chalk [informal], crank [informal], ice [informal], shabu [Asia, informal], trash [informal], gak [informal], crystal meth)
+5. [informal] An amphetamine derivative (trade name Methedrine) used in the form of a crystalline hydrochloride; used as a stimulant to the nervous system and as an appetite suppressant (= methamphetamine, methamphetamine hydrochloride, Methedrine, meth [informal], deoxyephedrine, chalk [informal], crank [informal], ice [informal], shabu [Asia, informal], trash [informal], gak [informal], crystal meth)
  
-6. A mirror; usually a ladies' dressing mirror (- looking glass)
+6. A mirror; usually a ladies' dressing mirror (= looking glass)
  
 7. Glassware collectively
 "She collected old glass"
 
-- Verb: glass (Derived forms: glasses, glassed, glassing)
-1. Furnish with glass (- glaze)
+- Verb: glass (derived forms: glasses, glassed, glassing)
+1. Furnish with glass (= glaze)
 "glass the windows";
  
 2. Scan (game in the forest) with binoculars
  
-3. Enclose with glass (- glass in)
+3. Enclose with glass (= glass in)
 "glass in a porch";
  
 4. Put in a glass container
  
-5. Become glassy or take on a glass-like appearance (- glaze, glass over, glaze over)
+5. Become glassy or take on a glass-like appearance (= glaze, glass over, glaze over)
 "Her eyes glass over when she is bored";
  
 6. [Brit] Hit with a glass, particularly in the face
@@ -256,7 +256,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شووشە، مینا، جام، قاپ‌وکەوچکی شووشەیی، حاجەتی شووشەیی، شووشەواڵە،	لیوان، پیاڵە،	ئاوێنە، نەینک،	دووربین، تێلیسکۆپ،	پەستان‌پێو
 """),
-// With short examples define "glass", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) شووشە"""),
                     SentencesRow(
                       englishText:

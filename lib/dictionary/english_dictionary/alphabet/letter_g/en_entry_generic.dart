@@ -63,8 +63,8 @@ ${englishMeaningConst.text}
  
 4. (computing, of program code) written to operate on any data type, the type required being given as a parameter
 
-- Noun: generic (Derived forms: generics)
-1. Wine that does not meet the minimum qualifications and standards for use of a designation by appellation of origin (where the grapes are grown) or by varietal content; may only be labelled by proprietary (made-up) name, by general colour (such as 'vin rouge', 'vino rosso', 'rotwein', 'red wine', etc.), or by general class (as 'vin ordinaire', 'vin de table', 'vino da tavola', 'tafelwein', 'table wine', etc.) (- generic wine)
+- Noun: generic (derived forms: generics)
+1. Wine that does not meet the minimum qualifications and standards for use of a designation by appellation of origin (where the grapes are grown) or by varietal content; may only be labelled by proprietary (made-up) name, by general colour (such as 'vin rouge', 'vino rosso', 'rotwein', 'red wine', etc.), or by general class (as 'vin ordinaire', 'vin de table', 'vino da tavola', 'tafelwein', 'table wine', etc.) (= generic wine)
  
 2. Any product that can be sold without a brand name
 """,

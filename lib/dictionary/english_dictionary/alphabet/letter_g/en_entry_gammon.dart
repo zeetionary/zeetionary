@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gammon (Derived forms: gammons)
-1. Meat cut from the thigh of a hog (usually smoked) (- ham, jambon)
+- Noun: gammon (derived forms: gammons)
+1. Meat cut from the thigh of a hog (usually smoked) (= ham, jambon)
  
 2. Hind portion of a side of bacon
  

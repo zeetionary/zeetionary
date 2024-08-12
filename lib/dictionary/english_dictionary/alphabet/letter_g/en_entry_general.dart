@@ -64,21 +64,21 @@ ${englishMeaningConst.text}
 4. Somewhat indefinite
 "bearing a general resemblance to the original"; "a general description of the merchandise"
  
-5. Of worldwide scope or applicability (- cosmopolitan, ecumenical, oecumenical [archaic], universal, worldwide, world-wide, global)
+5. Of worldwide scope or applicability (= cosmopolitan, ecumenical, oecumenical [archaic], universal, worldwide, world-wide, global)
 "an issue of general import";
  
 6. (medicine) affecting the entire body
 "a general anaesthetic"; "general symptoms"
 
-- Noun: general (Derived forms: generals)
-1. (military) a general officer of the highest rank (- full general)
+- Noun: general (derived forms: generals)
+1. (military) a general officer of the highest rank (= full general)
  
-2. The head of a religious order or congregation (- superior general)
+2. The head of a religious order or congregation (= superior general)
  
 3. A fact about the whole (as opposed to particular)
 "he discussed the general but neglected the particular"
 
-- Verb: general (Derived forms: generaling, generalled, generals, generalling, generaled)
+- Verb: general (derived forms: generaling, generalled, generals, generalling, generaled)
 1. Command as a general
 """,
   );

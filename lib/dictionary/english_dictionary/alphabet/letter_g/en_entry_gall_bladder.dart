@@ -52,8 +52,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gallbladder (Derived forms: gallbladders, gall bladders)
-1. A muscular sac attached to the liver that stores bile (secreted by the liver) until it is needed for digestion (- gall bladder)
+- Noun: gallbladder (derived forms: gallbladders, gall bladders)
+1. A muscular sac attached to the liver that stores bile (secreted by the liver) until it is needed for digestion (= gall bladder)
 
 """,
   );

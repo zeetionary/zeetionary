@@ -54,12 +54,12 @@ ${englishMeaningConst.text}
 - Adjective: gentile
 1. Belonging to or characteristic of non-Jewish peoples
 
-- Noun: gentile (Derived forms: gentiles)
-1. A person who does not acknowledge your god (- heathen, pagan, infidel)
+- Noun: gentile (derived forms: gentiles)
+1. A person who does not acknowledge your god (= heathen, pagan, infidel)
  
 2. A person who is not a member of one's own religion; used in this sense by Mormons and Hindus
  
-3. A Christian as contrasted with a Jew (- non-Jew, goy [informal])
+3. A Christian as contrasted with a Jew (= non-Jew, goy [informal])
  
 4. A Christian
 "Christians refer to themselves as gentiles"

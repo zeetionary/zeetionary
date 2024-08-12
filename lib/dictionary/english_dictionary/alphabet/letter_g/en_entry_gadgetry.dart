@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gadgetry (Derived forms: gadgetries)
+- Noun: gadgetry (derived forms: gadgetries)
 1. Appliances collectively
 "laborsaving gadgetry"
 """,

@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: genetically modified
-1. (of an animal or plant, esp. as food) having genetic material that has been changed using genetic engineering (- GM)
+1. (of an animal or plant, esp. as food) having genetic material that has been changed using genetic engineering (= GM)
 """,
   );
 

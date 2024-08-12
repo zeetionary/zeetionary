@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gnarled
-1. Used of old persons or old trees; covered with knobs or knots (- gnarly, knotted, knotty, knobbed)
+1. Used of old persons or old trees; covered with knobs or knots (= gnarly, knotted, knotty, knobbed)
 "gnarled and knotted hands";
 """,
   );

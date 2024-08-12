@@ -52,38 +52,38 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: grade (Derived forms: grades)
-1. [N. Amer] A body of students who are taught together (- class, form, course)
+- Noun: grade (derived forms: grades)
+1. [N. Amer] A body of students who are taught together (= class, form, course)
 "early morning grades are always sleepy";
  
-2. A relative position or degree of value in a graded group (- level, tier)
+2. A relative position or degree of value in a graded group (= level, tier)
 "lumber of the highest grade";
  
 3. [N. Amer] The gradient of a slope, road or other surface
 "the road had a steep grade"
  
-4. One-hundredth of a right angle (- grad)
+4. One-hundredth of a right angle (= grad)
  
-5. A degree of ablaut (- gradation)
+5. A degree of ablaut (= gradation)
  
-6. A number or letter indicating quality (especially of a student's performance) (- mark, score)
+6. A number or letter indicating quality (especially of a student's performance) (= mark, score)
 "grade A milk";
  
-7. The height of the ground on which something stands (- ground level)
+7. The height of the ground on which something stands (= ground level)
 "the base of the tower was below grade";
  
-8. A position on a scale of intensity, amount or quality (- degree, level)
+8. A position on a scale of intensity, amount or quality (= degree, level)
 "a moderate grade of intelligence";
  
 9. A variety of cattle produced by crossbreeding with a superior breed
 
-- Verb: grade (Derived forms: grading, grades, graded)
+- Verb: grade (derived forms: grading, grades, graded)
 1. Assign a rank or rating to (= - rate, rank, range, order, place)
 "The restaurant is graded highly in the food guide";
  
 2. Level to the right gradient
  
-3. Assign a grade or rank to, according to one's evaluation (- score, mark)
+3. Assign a grade or rank to, according to one's evaluation (= score, mark)
 "grade tests";
  
 4. Determine the grade of or assign a grade to
@@ -295,7 +295,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پلە، نمرە، چین، ئەندازە، چینە، توێژ،	پلەی سەربازی،	قۆناخ،	ڕادە، پایە، تەراز، ئاست،	پۆل، ساڵی خوێندن، نمرە، نیشە،	جۆر، چەشن، ئاوا
 """),
-// With short examples define "grade", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) نمرەی تاقیکردنەوە"""),
                     SentencesRow(

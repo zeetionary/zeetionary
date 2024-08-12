@@ -51,16 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gate (Derived forms: gates)
+- Noun: gate (derived forms: gates)
 1. A movable barrier in a fence or wall
  
-2. A computer circuit with several inputs but only one output that can be activated by particular combinations of inputs (- logic gate)
+2. A computer circuit with several inputs but only one output that can be activated by particular combinations of inputs (= logic gate)
  
 3. Total admission receipts at a sports event
  
 4. Passageway (as in an air terminal) where passengers can embark or disembark
 
-- Verb: gate (Derived forms: gated, gates, gating)
+- Verb: gate (derived forms: gated, gates, gating)
 1. (architecture) supply with a gate
 "The house was gated"
  

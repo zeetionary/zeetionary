@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gnome (Derived forms: gnomes)
-1. A legendary creature resembling a tiny old man; lives in the depths of the earth and guards buried treasure (- dwarf)
+- Noun: gnome (derived forms: gnomes)
+1. A legendary creature resembling a tiny old man; lives in the depths of the earth and guards buried treasure (= dwarf)
  
 2. A short pithy saying expressing a general truth
 """,

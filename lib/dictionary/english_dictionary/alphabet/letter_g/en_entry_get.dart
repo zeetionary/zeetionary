@@ -51,62 +51,62 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: get (Derived forms: gets, getting, gotten)
-1. Come into the possession of something concrete or abstract (- acquire)
+- Verb: get (derived forms: gets, getting, gotten)
+1. Come into the possession of something concrete or abstract (= acquire)
 "She got a lot of paintings from her uncle"; "Get your results the next day"; "Get permission to take a few days off from work";
  
-2. Enter or assume a certain state or condition (- become, go)
+2. Enter or assume a certain state or condition (= become, go)
 "It must be getting more serious"; "Get going!";
  
-3. Cause to move; cause to be in a certain position or condition (- let, have)
+3. Cause to move; cause to be in a certain position or condition (= let, have)
 "He got his squad on the ball"; "He got a girl into trouble";
  
-4. Be subject to a specified treatment or analysis (- receive, find, obtain, incur)
+4. Be subject to a specified treatment or analysis (= receive, find, obtain, incur)
 "I got nothing but trouble for my good intentions";
  
-5. Reach a destination by movement or progress (- arrive, come)
+5. Reach a destination by movement or progress (= arrive, come)
 "She didn't get to Chicago until after midnight";
  
-6. Go or come after and bring or take back (- bring, convey, fetch)
+6. Go or come after and bring or take back (= bring, convey, fetch)
 "Get me those books over there, please";
  
-7. Go through (mental or physical states or experiences) (- experience, receive, have)
+7. Go through (mental or physical states or experiences) (= experience, receive, have)
 "get an idea"; "get nauseous";
  
-8. Take vengeance on or get even (- pay back, pay off, fix [informal])
+8. Take vengeance on or get even (= pay back, pay off, fix [informal])
 "We'll get them!"; "This time I got him";
  
-9. Achieve a point or goal (- have, make)
+9. Achieve a point or goal (= have, make)
 "The Brazilian team got 4 goals";
  
-10. Make someone or something act in a particular way or do a particular thing (- induce, stimulate, cause, have, make)
+10. Make someone or something act in a particular way or do a particular thing (= induce, stimulate, cause, have, make)
 "My children finally got me to buy a computer";
  
-11. Succeed in catching or seizing, especially after a chase (- catch, capture)
+11. Succeed in catching or seizing, especially after a chase (= catch, capture)
 "We finally got the suspect";
  
-12. Come to have or undergo a change of (physical features and attributes) (- grow, develop, produce, acquire)
+12. Come to have or undergo a change of (physical features and attributes) (= grow, develop, produce, acquire)
 "I got funny spots all over my body";
  
-13. Be stricken by an illness, fall victim to an illness (- contract, take)
+13. Be stricken by an illness, fall victim to an illness (= contract, take)
 "He got AIDS";
  
 14. Communicate with a place or person; establish communication with, as if by telephone
 "Bill called this number and he got Mary"; "The operator couldn't get Kobe because of the earthquake"
  
-15. Give certain properties to something (- make)
+15. Give certain properties to something (= make)
 "get someone mad";
  
-16. Move into a desired direction of discourse (- drive, aim)
+16. Move into a desired direction of discourse (= drive, aim)
 "What are you getting at?";
  
-17. Grasp with the mind or develop an understanding of (- catch)
+17. Grasp with the mind or develop an understanding of (= catch)
 "did you get it?"; "She didn't get the joke"; "I just don't get him";
  
-18. Attract and fix (- catch, arrest)
+18. Attract and fix (= catch, arrest)
 "His look got her";
  
-19. Reach with a blow or hit in a particular spot (- catch)
+19. Reach with a blow or hit in a particular spot (= catch)
 "The blow got him in the back";
  
 20. Reach by calculation
@@ -118,45 +118,45 @@ ${englishMeaningConst.text}
 22. Purchase
 "What did you get at the toy store?"
  
-23. Perceive by hearing (- catch)
+23. Perceive by hearing (= catch)
 "She didn't get his name when they met the first time";
  
-24. Suffer from the receipt of (- catch)
+24. Suffer from the receipt of (= catch)
 "She will get hell for this behaviour!";
  
-25. Receive as a retribution or punishment (- receive)
+25. Receive as a retribution or punishment (= receive)
 "He got 5 years in prison";
  
 26. Reach and board
 "She got the bus just as it was leaving"
  
-27. Irritate (- get under one's skin)
+27. Irritate (= get under one's skin)
 "Her childish behaviour really get to me"; "His lying really gets me";
  
 28. Evoke an emotional response
 "Brahms's 'Requiem' gets me every time"
  
-29. Apprehend and reproduce accurately (- catch)
+29. Apprehend and reproduce accurately (= catch)
 "She got the mood just right in her photographs";
  
-30. (baseball) earn or achieve a base by being walked by the pitcher (- draw)
+30. (baseball) earn or achieve a base by being walked by the pitcher (= draw)
  
 31. Overcome or destroy
 "The ice storm got my hibiscus"; "the cat got the goldfish"
  
-32. Confuse or leave at a loss because of something complex or difficult to understand (- confuse, throw, fox, befuddle, fuddle, bedevil, confound, discombobulate [informal], perplex, vex, stick, puzzle, mystify, baffle, beat, pose, bewilder, flummox, stupefy, nonplus, gravel, dumbfound)
+32. Confuse or leave at a loss because of something complex or difficult to understand (= confuse, throw, fox, befuddle, fuddle, bedevil, confound, discombobulate [informal], perplex, vex, stick, puzzle, mystify, baffle, beat, pose, bewilder, flummox, stupefy, nonplus, gravel, dumbfound)
 "Got me--I don't know the answer!";
  
-33. Take the first step or steps in carrying out an action (- get down, begin, start out, start, set about, set out, commence)
+33. Take the first step or steps in carrying out an action (= get down, begin, start out, start, set about, set out, commence)
 "Get working as soon as the sun rises!"; "Let's get down to work now";
  
-34. Undergo (as of injuries and illnesses) (- suffer, sustain, have)
+34. Undergo (as of injuries and illnesses) (= suffer, sustain, have)
 "She got a bruise on her leg"; "He got his arm broken in the scuffle";
  
-35. Make (offspring) by reproduction (- beget [archaic], engender, father, mother, sire, generate, bring forth)
+35. Make (offspring) by reproduction (= beget [archaic], engender, father, mother, sire, generate, bring forth)
 "Abraham got Isaac";
 
-- Noun: get (Derived forms: gets)
+- Noun: get (derived forms: gets)
 1. A return on a shot that seemed impossible to reach and would normally have resulted in a point for the opponent
 """,
   );

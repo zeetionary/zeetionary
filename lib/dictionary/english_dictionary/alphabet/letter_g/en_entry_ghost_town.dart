@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ghost town (Derived forms: ghost towns)
+- Noun: ghost town (derived forms: ghost towns)
 1. A deserted settlement (especially in western United States)
 """,
   );

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: genus (Derived forms: genera)
+- Noun: genus (derived forms: genera)
 1. A general kind of something
 "ignore the genus communism"
  

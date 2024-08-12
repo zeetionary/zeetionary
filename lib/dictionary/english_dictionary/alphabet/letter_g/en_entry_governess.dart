@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: governess (Derived forms: governesses)
+- Noun: governess (derived forms: governesses)
 1. A woman entrusted with the care and supervision of a child (especially in a private home)
 """,
   );

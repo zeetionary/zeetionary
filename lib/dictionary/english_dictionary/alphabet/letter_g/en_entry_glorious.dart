@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: glorious
-1. Characterized by grandeur (- brilliant, magnificent, splendid, majestic)
+1. Characterized by grandeur (= brilliant, magnificent, splendid, majestic)
 "a glorious work of art";
  
-2. Having great beauty and splendour (- resplendent, splendid, splendiferous)
+2. Having great beauty and splendour (= resplendent, splendid, splendiferous)
 "a glorious spring morning";
  
 3. Having, deserving or conferring glory

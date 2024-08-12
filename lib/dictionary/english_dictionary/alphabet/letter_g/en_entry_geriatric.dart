@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 1. Of or relating to the aged
 "geriatric disorder"
  
-2. Of or relating to or practising geriatrics (- gerontological)
+2. Of or relating to or practising geriatrics (= gerontological)
 "geriatric hospital";
 """,
   );

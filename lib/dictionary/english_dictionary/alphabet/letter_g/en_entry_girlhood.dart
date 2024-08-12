@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: girlhood (Derived forms: girlhoods)
-1. The childhood of a girl (- maidenhood [archaic], maidhood [archaic])
+- Noun: girlhood (derived forms: girlhoods)
+1. The childhood of a girl (= maidenhood [archaic], maidhood [archaic])
 """,
   );
 
@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "girlhood", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو کاتەی کەسێک ھێشتا کچە و ژن نییە"""),

@@ -51,19 +51,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gospel (Derived forms: gospels)
-1. The written body of teachings of a religious group that are generally accepted by that group (- religious doctrine, church doctrine, creed)
+- Noun: gospel (derived forms: gospels)
+1. The written body of teachings of a religious group that are generally accepted by that group (= religious doctrine, church doctrine, creed)
  
-2. An unquestionable truth (- gospel truth)
+2. An unquestionable truth (= gospel truth)
 "his word was gospel";
  
-3. (a cappella singing) folk music consisting of a genre of a cappella music originating with Black slaves in the United States and featuring call and response; influential on the development of other genres of popular music (especially soul) (- gospel singing, gospel music)
+3. (a cappella singing) folk music consisting of a genre of a cappella music originating with Black slaves in the United States and featuring call and response; influential on the development of other genres of popular music (especially soul) (= gospel singing, gospel music)
  
 4. A doctrine that is believed to be of great importance
 "Newton's writings were gospel for those who followed"
 
-- Noun: Gospel (Derived forms: Gospels)
-1. The four books in the New Testament (Matthew, Mark, Luke, and John) that tell the story of Christ's life and teachings (- Gospels, evangel)
+- Noun: Gospel (derived forms: Gospels)
+1. The four books in the New Testament (Matthew, Mark, Luke, and John) that tell the story of Christ's life and teachings (= Gospels, evangel)
 """,
   );
 

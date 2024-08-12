@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: gladness
-1. Experiencing joy and pleasure (- gladfulness, gladsomeness)
+1. Experiencing joy and pleasure (= gladfulness, gladsomeness)
 """,
   );
 
@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خۆشحاڵی، بەکەیفی، شادی، خۆشی، سەرخۆشی
 """),
-// With short examples define "gladness", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) خۆشی"""),
                     SentencesRow(
                       englishText:

@@ -51,16 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glory (Derived forms: glories)
-1. A state of high honour (- glorification)
+- Noun: glory (derived forms: glories)
+1. A state of high honour (= glorification)
 "he valued glory above life itself";
  
-2. Brilliant radiant beauty (- resplendence, resplendency)
+2. Brilliant radiant beauty (= resplendence, resplendency)
 "the glory of the sunrise";
  
-3. An indication of radiant light drawn around the head of a saint (- aura, aureole, halo, nimbus, gloriole, aureola)
+3. An indication of radiant light drawn around the head of a saint (= aura, aureole, halo, nimbus, gloriole, aureola)
 
-- Verb: glory (Derived forms: glories, glorying, gloried)
+- Verb: glory (derived forms: glories, glorying, gloried)
 1. Rejoice proudly
 """,
   );

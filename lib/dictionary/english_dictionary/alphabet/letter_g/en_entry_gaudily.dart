@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: gaudily
-1. In a tastelessly garish manner (- garishly, tawdrily, chintzily [Brit])
+1. In a tastelessly garish manner (= garishly, tawdrily, chintzily [Brit])
 """,
   );
 

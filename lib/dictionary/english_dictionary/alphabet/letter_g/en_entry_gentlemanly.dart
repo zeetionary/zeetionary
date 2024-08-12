@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gentlemanly
-1. Befitting a man of good breeding (- gentlemanlike)
+1. Befitting a man of good breeding (= gentlemanlike)
 "gentlemanly behaviour";
 """,
   );

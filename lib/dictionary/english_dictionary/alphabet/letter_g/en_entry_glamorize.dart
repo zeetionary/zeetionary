@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glamorize (Derived forms: glamorized, glamorizing, glamorizes)
-1. Interpret romantically (- romanticize, romanticise [Brit], glamourise [Brit], glamorise [Brit])
+- Verb: glamorize (derived forms: glamorized, glamorizing, glamorizes)
+1. Interpret romantically (= romanticize, romanticise [Brit], glamourise [Brit], glamorise [Brit])
 "Don't glamorize this uninteresting and hard work!";
  
-2. Make glamorous and attractive (- glamourise [Brit], glamourize, glamorise [Brit])
+2. Make glamorous and attractive (= glamourise [Brit], glamourize, glamorise [Brit])
 "This new wallpaper really glamorizes the living room!";
 """,
   );

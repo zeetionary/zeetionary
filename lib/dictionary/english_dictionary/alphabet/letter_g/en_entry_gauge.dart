@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gauge (Derived forms: gauging, gauges, gauged)
-1. Form an estimate of (quantities or time) (- estimate, approximate, guess, judge)
+- Verb: gauge (derived forms: gauging, gauges, gauged)
+1. Form an estimate of (quantities or time) (= estimate, approximate, guess, judge)
 "I gauge this chicken to weigh three pounds";
  
 2. Rub to a uniform size
@@ -70,16 +70,16 @@ ${englishMeaningConst.text}
 6. Mix in specific proportions
 "gauge plaster"
 
-- Noun: gauge (Derived forms: gauges)
-1. A measuring instrument for measuring and indicating a quantity such as the thickness of wire or the amount of rain etc. (- gage [N. Amer])
+- Noun: gauge (derived forms: gauges)
+1. A measuring instrument for measuring and indicating a quantity such as the thickness of wire or the amount of rain etc. (= gage [N. Amer])
  
-2. Accepted or approved instance or example of a quantity or quality against which others are judged or measured or compared (- standard of measurement)
+2. Accepted or approved instance or example of a quantity or quality against which others are judged or measured or compared (= standard of measurement)
  
 3. The distance between the rails of a railway or between the wheels of a train
  
 4. The thickness of wire
  
-5. Diameter of a tube or gun barrel (- bore, caliber [US], calibre [Brit, Cdn])
+5. Diameter of a tube or gun barrel (= bore, caliber [US], calibre [Brit, Cdn])
 
 """,
   );

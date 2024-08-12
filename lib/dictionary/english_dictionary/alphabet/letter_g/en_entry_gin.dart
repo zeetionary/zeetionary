@@ -51,18 +51,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gin (Derived forms: gins)
-1. Strong liquor flavoured with juniper berries (- mother's ruin [Brit, slang])
+- Noun: gin (derived forms: gins)
+1. Strong liquor flavoured with juniper berries (= mother's ruin [Brit, slang])
  
-2. A noose used as trap for birds or small mammals (- snare, noose)
+2. A noose used as trap for birds or small mammals (= snare, noose)
  
-3. A machine that separates the seeds from raw cotton fibers (- cotton gin)
+3. A machine that separates the seeds from raw cotton fibers (= cotton gin)
  
-4. A form of rummy in which a player can go out if the cards remaining in their hand total less than 10 points (- gin rummy, knock rummy)
+4. A form of rummy in which a player can go out if the cards remaining in their hand total less than 10 points (= gin rummy, knock rummy)
  
 5. [Austral, offensive] An Aboriginal woman
 
-- Verb: gin (Derived forms: ginning, ginned, gins)
+- Verb: gin (derived forms: ginning, ginned, gins)
 1. Separate the seeds from (cotton) with a cotton gin
  
 2. (hunting) trap with a snare

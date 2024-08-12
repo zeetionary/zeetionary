@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gateau (Derived forms: gateaus, gateaux)
+- Noun: gateau (derived forms: gateaus, gateaux)
 1. Any of various rich and elaborate cakes
 """,
   );

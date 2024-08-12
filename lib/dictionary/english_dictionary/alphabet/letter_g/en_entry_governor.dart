@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: governor (Derived forms: governors)
+- Noun: governor (derived forms: governors)
 1. The head of a state government
  
-2. A control that maintains a steady speed in a machine (as by controlling the supply of fuel) (- regulator)
+2. A control that maintains a steady speed in a machine (as by controlling the supply of fuel) (= regulator)
 """,
   );
 

@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gooseberry (Derived forms: gooseberries)
-1. Spiny Eurasian shrub having greenish purple-tinged flowers and ovoid yellow-green or red-purple berries (- gooseberry bush, Ribes uva-crispa, Ribes grossularia, goosegog [Brit, informal])
+- Noun: gooseberry (derived forms: gooseberries)
+1. Spiny Eurasian shrub having greenish purple-tinged flowers and ovoid yellow-green or red-purple berries (= gooseberry bush, Ribes uva-crispa, Ribes grossularia, goosegog [Brit, informal])
  
-2. Currant-like berry used primarily in jams and jellies (- goosegog [Brit, informal])
+2. Currant-like berry used primarily in jams and jellies (= goosegog [Brit, informal])
 """,
   );
 

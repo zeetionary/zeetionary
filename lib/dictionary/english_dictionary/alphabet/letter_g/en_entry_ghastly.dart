@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: ghastly (Derived forms: ghastliest, ghastlier)
-1. Shockingly repellent; inspiring horror (- grim, grisly, gruesome, macabre, sick)
+- Adjective: ghastly (derived forms: ghastliest, ghastlier)
+1. Shockingly repellent; inspiring horror (= grim, grisly, gruesome, macabre, sick)
 "ghastly wounds";
  
-2. Gruesomely indicative of death or the dead (- charnel, sepulchral)
+2. Gruesomely indicative of death or the dead (= charnel, sepulchral)
 "ghastly shrieks";
 """,
   );

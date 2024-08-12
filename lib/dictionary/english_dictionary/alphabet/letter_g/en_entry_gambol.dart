@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gambol (Derived forms: gambols)
-1. Gay or light-hearted recreational activity for diversion or amusement (- play, frolic, romp, caper [informal])
+- Noun: gambol (derived forms: gambols)
+1. Gay or light-hearted recreational activity for diversion or amusement (= play, frolic, romp, caper [informal])
 
-- Verb: gambol (Derived forms: gamboling, gambolled, gambolling, gambols, gamboled)
-1. Play boisterously (- frolic, lark [informal], rollick, skylark [informal], disport, sport, cavort, frisk, romp, run around, lark about [informal])
+- Verb: gambol (derived forms: gamboling, gambolled, gambolling, gambols, gamboled)
+1. Play boisterously (= frolic, lark [informal], rollick, skylark [informal], disport, sport, cavort, frisk, romp, run around, lark about [informal])
 """,
   );
 

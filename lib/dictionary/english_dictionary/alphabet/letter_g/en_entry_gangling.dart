@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gangling
-1. Tall and thin and having long slender limbs (- gangly, lanky, rangy)
+1. Tall and thin and having long slender limbs (= gangly, lanky, rangy)
 "a gangling teenager";
  
-2. Tall and thin (- gangly, lanky)
+2. Tall and thin (= gangly, lanky)
 """,
   );
 

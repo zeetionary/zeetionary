@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: glib (Derived forms: glibber, glibbest)
+- Adjective: glib (derived forms: glibber, glibbest)
 1. Marked by lack of intellectual depth
 "glib generalizations"; "a glib response to a complex question"
  
-2. Having only superficial plausibility (- pat, slick)
+2. Having only superficial plausibility (= pat, slick)
 "glib promises";
  
-3. Artfully persuasive in speech (- glib-tongued, smooth-tongued)
+3. Artfully persuasive in speech (= glib-tongued, smooth-tongued)
 "a glib tongue";
 """,
   );

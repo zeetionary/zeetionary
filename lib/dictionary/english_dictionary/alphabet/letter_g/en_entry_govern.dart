@@ -51,20 +51,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: govern (Derived forms: governing, governs, governed)
-1. Bring into conformity with rules, principles or usage; impose regulations (- regulate, regularize, regularise [Brit], order)
+- Verb: govern (derived forms: governing, governs, governed)
+1. Bring into conformity with rules, principles or usage; impose regulations (= regulate, regularize, regularise [Brit], order)
 "We cannot govern the way people dress";
  
 2. Direct or strongly influence the behaviour of
 "His belief in God governs his conduct"
  
-3. Exercise authority over; as of nations (- rule)
+3. Exercise authority over; as of nations (= rule)
 "Who is governing the country now?";
  
 4. Require to be in a certain grammatical case, voice, or mood
 "most transitive verbs govern the accusative case in German"
  
-5. Determine; be able to change (- control)
+5. Determine; be able to change (= control)
 "rooms are equipped with air conditioning system to govern the temperature";
 """,
   );

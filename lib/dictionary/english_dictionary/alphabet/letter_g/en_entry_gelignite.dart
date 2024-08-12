@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gelignite (Derived forms: gelignites)
-1. A type of dynamite in which the nitroglycerin is absorbed in a base of wood pulp and sodium or potassium nitrate (- gelly)
+- Noun: gelignite (derived forms: gelignites)
+1. A type of dynamite in which the nitroglycerin is absorbed in a base of wood pulp and sodium or potassium nitrate (= gelly)
 
 """,
   );

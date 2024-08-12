@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: globalize (Derived forms: globalized, globalizes, globalizing)
-1. Make world-wide in scope or application (- globalise [Brit])
+- Verb: globalize (derived forms: globalized, globalizes, globalizing)
+1. Make world-wide in scope or application (= globalise [Brit])
 "Markets are being increasingly globalized";
 """,
   );
@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "globalize", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) بڵاوبوونەوە بە جیھان"""),
                     SentencesRow(

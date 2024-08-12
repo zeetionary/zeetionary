@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garrison (Derived forms: garrisons)
-1. (military) a fortified military post where troops are stationed (- fort)
+- Noun: garrison (derived forms: garrisons)
+1. (military) a fortified military post where troops are stationed (= fort)
  
 2. (military) the troops who maintain and guard a fortified place
 
-- Verb: garrison (Derived forms: garrisoned, garrisoning, garrisons)
+- Verb: garrison (derived forms: garrisoned, garrisoning, garrisons)
 1. Station (troops) in a fort or garrison
 """,
   );

@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glimmer (Derived forms: glimmers)
-1. A flash of light (especially reflected light) (- gleam, gleaming)
+- Noun: glimmer (derived forms: glimmers)
+1. A flash of light (especially reflected light) (= gleam, gleaming)
  
-2. A slight suggestion or vague understanding (- inkling, intimation, glimmering)
+2. A slight suggestion or vague understanding (= inkling, intimation, glimmering)
 
-- Verb: glimmer (Derived forms: glimmered, glimmering, glimmers)
-1. Shine brightly, like a star or a light (- gleam)
+- Verb: glimmer (derived forms: glimmered, glimmering, glimmers)
+1. Shine brightly, like a star or a light (= gleam)
 """,
   );
 
@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زریوە(زریو)، ورشەورش، پرتەپرت، زەردە، تروسکەتروسک، شەوقی کەم، ڕۆشنایی کز، کزەڕووناکی،	(خوازە) چەخماخە، تروسکە، بروسکە، نیشانە، بەرژەنگ، سووکەنیشانە
 """),
-// With short examples define "glimmer", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ڕووناکییەکی کزی ناجێگیر"""),
                     SentencesRow(

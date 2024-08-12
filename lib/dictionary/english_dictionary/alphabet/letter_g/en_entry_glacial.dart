@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: glacial
-1. Devoid of warmth and cordiality; expressive of unfriendliness or disdain (- frigid, frosty, frozen, icy, wintry)
+1. Devoid of warmth and cordiality; expressive of unfriendliness or disdain (= frigid, frosty, frozen, icy, wintry)
 "a glacial handshake";
  
-2. Extremely cold (- arctic, frigid, gelid, icy, polar)
+2. Extremely cold (= arctic, frigid, gelid, icy, polar)
 "glacial winds";
  
 3. Relating to or derived from a glacier

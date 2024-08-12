@@ -56,7 +56,7 @@ ${englishMeaningConst.text}
 "glowing praise"
 
 - Noun: glowing
-1. The amount of electromagnetic radiation leaving or arriving at a point on a surface (- radiance, glow)
+1. The amount of electromagnetic radiation leaving or arriving at a point on a surface (= radiance, glow)
 """,
   );
 

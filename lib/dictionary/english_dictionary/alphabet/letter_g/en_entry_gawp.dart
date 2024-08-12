@@ -51,9 +51,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gawp (Derived forms: gawped, gawps, gawping)
+- Verb: gawp (derived forms: gawped, gawps, gawping)
 Usage: Brit, informal
-1. Look with amazement; look stupidly (- goggle, gape, gawk)
+1. Look with amazement; look stupidly (= goggle, gape, gawk)
 "The queue was gawping at him, like he was a hired clown";
 """,
   );

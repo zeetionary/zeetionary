@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gold leaf (Derived forms: gold leaves)
+- Noun: gold leaf (derived forms: gold leaves)
 1. A very thin form of gold foil
 """,
   );

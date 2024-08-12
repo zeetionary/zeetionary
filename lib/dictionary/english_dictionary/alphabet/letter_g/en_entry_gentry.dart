@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gentry (Derived forms: gentries)
-1. The most powerful members of a society (- aristocracy)
+- Noun: gentry (derived forms: gentries)
+1. The most powerful members of a society (= aristocracy)
 """,
   );
 

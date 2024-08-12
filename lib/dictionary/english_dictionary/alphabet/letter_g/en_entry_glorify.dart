@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glorify (Derived forms: glorified, glorifying, glorifies)
-1. Praise, glorify, or honour (- laud, extol, exalt, proclaim)
+- Verb: glorify (derived forms: glorified, glorifying, glorifies)
+1. Praise, glorify, or honour (= laud, extol, exalt, proclaim)
 "glorify one's spouse's cooking";
  
 2. Bestow glory upon
 "The victory over the enemy glorified the Republic"
  
-3. Elevate or idealize, in allusion to Christ's transfiguration (- transfigure, spiritualize, spiritualise [Brit])
+3. Elevate or idealize, in allusion to Christ's transfiguration (= transfigure, spiritualize, spiritualise [Brit])
  
 4. Cause to seem more splendid
 "You are glorifying a rather mediocre building"

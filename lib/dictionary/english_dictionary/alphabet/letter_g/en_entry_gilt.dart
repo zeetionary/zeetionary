@@ -52,11 +52,11 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gilt
-1. Having the deep slightly brownish colour of gold (- aureate, gilded, gold, golden)
+1. Having the deep slightly brownish colour of gold (= aureate, gilded, gold, golden)
 "long gilt hair";
 
-- Noun: gilt (Derived forms: gilts)
-1. A coating of gold or of something that looks like gold (- gilding)
+- Noun: gilt (derived forms: gilts)
+1. A coating of gold or of something that looks like gold (= gilding)
  
 2. A young female pig
 """,

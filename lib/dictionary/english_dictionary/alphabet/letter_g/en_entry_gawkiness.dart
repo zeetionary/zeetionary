@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: gawkiness
-1. The carriage of someone whose movements and posture are extremely ungainly and inelegant (- ungainliness)
+1. The carriage of someone whose movements and posture are extremely ungainly and inelegant (= ungainliness)
 """,
   );
 

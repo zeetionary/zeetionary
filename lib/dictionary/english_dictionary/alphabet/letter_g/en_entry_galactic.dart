@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: galactic
-1. Inconceivably large (- astronomic, astronomical)
+1. Inconceivably large (= astronomic, astronomical)
  
 2. Of or relating to a galaxy (especially our galaxy the Milky Way)
 "the galactic plane"

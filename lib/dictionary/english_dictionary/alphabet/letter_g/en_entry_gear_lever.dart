@@ -51,9 +51,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gear lever (Derived forms: gear levers)
+- Noun: gear lever (derived forms: gear levers)
 Usage: Brit, Cdn (US: gearshift)
-1. A mechanical device for engaging and disengaging gears (- gearshift [N. Amer], gearstick, shifter [N. Amer])
+1. A mechanical device for engaging and disengaging gears (= gearshift [N. Amer], gearstick, shifter [N. Amer])
 "in Britain they call a gear lever a gear lever";
 
 """,

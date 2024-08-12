@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: grassy (Derived forms: grassiest, grassier)
+- Adjective: grassy (derived forms: grassiest, grassier)
 1. Abounding in grass
 "At sunset, Eric took me to the top of grassy Hill"
  
@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: داپۆشراو بە گیا، سەوز، پڕگیا، سەوزەڵانی، بژوێناوی، شیناوەرد، گیاجاڕ
 """),
-// With short examples define "grassy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە بە سەوزەگیا داپۆشراوە"""),
                     SentencesRow(
@@ -231,18 +230,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/a7wC2M0b5u0?t=';
-const double _startSecondsend = 000000000000000000000000000464;
-const String _videoIdone = 'https://youtu.be/B7gKA1o31rM?t=';
-const double _startSecondsone = 000000000000000000000000000868;
-const String _videoIdtwo = 'https://youtu.be/5CS46C_MMc0?t=';
-const double _startSecondstwo = 000000000000000000000000000209;
-const String _videoIdthree = 'https://youtu.be/y9nBhv0lq1s?t=';
-const double _startSecondsthree = 000000000000000000000000000964;
-const String _videoIdfour = 'https://youtu.be/Xnaj9ULhwqU?t=';
-const double _startSecondsfour = 000000000000000000000000000232;
-const String _videoIdfive = 'https://youtu.be/Ya2_Khcdwsk?t=';
-const double _startSecondsfive = 000000000000000000000000000204;
+const String _videoIdend = 'a7wC2M0b5u0';
+const double _startSecondsend = 464;
+const String _videoIdone = 'B7gKA1o31rM';
+const double _startSecondsone = 868;
+const String _videoIdtwo = '5CS46C_MMc0';
+const double _startSecondstwo = 209;
+const String _videoIdthree = 'y9nBhv0lq1s';
+const double _startSecondsthree = 964;
+const String _videoIdfour = 'Xnaj9ULhwqU';
+const double _startSecondsfour = 232;
+const String _videoIdfive = 'Ya2_Khcdwsk';
+const double _startSecondsfive = 204;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

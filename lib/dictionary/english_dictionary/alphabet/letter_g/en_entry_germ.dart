@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: germ (Derived forms: germs)
-1. Anything that provides inspiration for later work (- source, seed)
+- Noun: germ (derived forms: germs)
+1. Anything that provides inspiration for later work (= source, seed)
  
 2. A small apparently simple structure (as a fertilized egg) from which new tissue can develop into a complete organism
  
-3. A minute life form (especially a disease-causing bacterium); the term is not in technical use (- microbe, bug)
+3. A minute life form (especially a disease-causing bacterium); the term is not in technical use (= microbe, bug)
  
 4. (mathematics) an equivalence class of functions that are the same in a neighbourhood around a given point
 """,

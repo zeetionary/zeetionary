@@ -51,15 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: graduation (Derived forms: graduations)
+- Noun: graduation (derived forms: graduations)
 1. The successful completion of a program of study
  
-2. An academic exercise in which diplomas are conferred (- commencement, commencement exercise, commencement ceremony, graduation exercise)
+2. An academic exercise in which diplomas are conferred (= commencement, commencement exercise, commencement ceremony, graduation exercise)
  
 3. A line (as on a vessel or ruler) that marks a measurement
 "the ruler had 16 graduations per inch"
  
-4. The act of arranging in grades (- gradation)
+4. The act of arranging in grades (= gradation)
 """,
   );
 

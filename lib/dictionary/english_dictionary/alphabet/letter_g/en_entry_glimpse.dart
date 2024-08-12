@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glimpse (Derived forms: glimpses)
-1. A quick look (- glance, coup d'oeil)
+- Noun: glimpse (derived forms: glimpses)
+1. A quick look (= glance, coup d'oeil)
  
 2. A brief or incomplete view
 "from the window he could catch a glimpse of the lake"
@@ -60,7 +60,7 @@ ${englishMeaningConst.text}
 3. A vague indication
 "he caught only a glimpse of the professor's meaning"
 
-- Verb: glimpse (Derived forms: glimpses, glimpsed, glimpsing)
+- Verb: glimpse (derived forms: glimpses, glimpsed, glimpsing)
 1. Catch a glimpse of or see briefly
 "We glimpsed the Queen as she got into her limousine"
 """,

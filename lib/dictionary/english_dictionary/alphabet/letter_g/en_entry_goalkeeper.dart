@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goalkeeper (Derived forms: goalkeepers)
-1. The soccer or hockey player assigned to protect the goal (- goalie, goaltender [N. Amer], netkeeper, netminder, keeper)
+- Noun: goalkeeper (derived forms: goalkeepers)
+1. The soccer or hockey player assigned to protect the goal (= goalie, goaltender [N. Amer], netkeeper, netminder, keeper)
  
-2. The defensive position on an ice hockey, soccer or lacrosse team who stands in front of the goal and tries to prevent opposing players from scoring (- goalie, goaltender [N. Amer], keeper)
+2. The defensive position on an ice hockey, soccer or lacrosse team who stands in front of the goal and tries to prevent opposing players from scoring (= goalie, goaltender [N. Amer], keeper)
 """,
   );
 
@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "goalkeeper", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) گۆڵپارێز"""),
                     SentencesRow(
                       englishText:

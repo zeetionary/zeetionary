@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: genteel (Derived forms: genteelest, genteeler)
-1. Marked by refinement in taste and manners (- civilized, civilised [Brit], cultivated, cultured, polite)
+- Adjective: genteel (derived forms: genteelest, genteeler)
+1. Marked by refinement in taste and manners (= civilized, civilised [Brit], cultivated, cultured, polite)
 "a genteel old lady";
 """,
   );

@@ -51,19 +51,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glaze (Derived forms: glazed, glazing, glazes)
+- Verb: glaze (derived forms: glazed, glazing, glazes)
 1. Cover with a smooth or shiny coating
 "the potter glazed the dishes"; "glaze the bread with eggwhite"
  
-2. Become glassy or take on a glass-like appearance (- glass, glass over, glaze over)
+2. Become glassy or take on a glass-like appearance (= glass, glass over, glaze over)
 "Her eyes glaze over when she is bored";
  
-3. Furnish with glass (- glass)
+3. Furnish with glass (= glass)
 "glaze the windows";
  
-4. Coat with something sweet, such as a hard sugar glaze (- sugarcoat, candy)
+4. Coat with something sweet, such as a hard sugar glaze (= sugarcoat, candy)
 
-- Noun: glaze (Derived forms: glazes)
+- Noun: glaze (derived forms: glazes)
 1. A coating for ceramics, metal, etc.
  
 2. Any of various thin shiny (savoury or sweet) coatings applied to foods

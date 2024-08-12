@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gist (Derived forms: gists)
-1. The central meaning or theme of a speech or literary work (- effect, essence, burden, core)
+- Noun: gist (derived forms: gists)
+1. The central meaning or theme of a speech or literary work (= effect, essence, burden, core)
  
-2. The choicest or most essential or most vital part of some idea or experience (- kernel, substance, core, center [US], centre [Brit, Cdn], essence, heart, heart and soul, inwardness, marrow, meat, nub, pith, sum, nitty-gritty)
+2. The choicest or most essential or most vital part of some idea or experience (= kernel, substance, core, center [US], centre [Brit, Cdn], essence, heart, heart and soul, inwardness, marrow, meat, nub, pith, sum, nitty-gritty)
 "the gist of the prosecutor's argument";
 
-- Verb: gist (Derived forms: gisted, gisting, gists)
-1. Make a summary (of) (- précis)
+- Verb: gist (derived forms: gisted, gisting, gists)
+1. Make a summary (of) (= précis)
 """,
   );
 

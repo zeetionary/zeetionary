@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: godforsaken
-1. Located in a dismal or remote area; desolate (- waste, wild)
+1. Located in a dismal or remote area; desolate (= waste, wild)
 "a godforsaken wilderness crossroads";
 """,
   );

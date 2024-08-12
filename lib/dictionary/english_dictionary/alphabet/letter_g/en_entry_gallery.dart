@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gallery (Derived forms: galleries)
+- Noun: gallery (derived forms: galleries)
 1. Spectators at a golf or tennis match
  
-2. A porch along the outside of a building (sometimes partly enclosed) (- veranda, verandah)
+2. A porch along the outside of a building (sometimes partly enclosed) (= veranda, verandah)
  
-3. A room or series of rooms where works of art are exhibited (- art gallery, picture gallery)
+3. A room or series of rooms where works of art are exhibited (= art gallery, picture gallery)
  
 4. A long usually narrow room used for some specific purpose
 "shooting gallery"
@@ -65,7 +65,7 @@ ${englishMeaningConst.text}
  
 6. Narrow recessed balcony area along an upper floor on the interior of a building; usually marked by a colonnade
  
-7. (mining) a horizontal (or nearly horizontal) passageway in a mine (- drift, heading)
+7. (mining) a horizontal (or nearly horizontal) passageway in a mine (= drift, heading)
 "they dug a gallery parallel with the vein";
 """,
   );

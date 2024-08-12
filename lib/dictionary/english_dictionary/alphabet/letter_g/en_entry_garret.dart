@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garret (Derived forms: garrets)
-1. Floor consisting of open space at the top of a house just below roof; often used for storage (- loft, attic)
+- Noun: garret (derived forms: garrets)
+1. Floor consisting of open space at the top of a house just below roof; often used for storage (= loft, attic)
 """,
   );
 

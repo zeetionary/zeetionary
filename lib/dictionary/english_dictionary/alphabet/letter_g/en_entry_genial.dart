@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: genial
-1. Diffusing warmth and friendliness (- affable, amiable, cordial)
+1. Diffusing warmth and friendliness (= affable, amiable, cordial)
 "a genial host";
  
-2. Agreeable, conducive to comfort (- kind)
+2. Agreeable, conducive to comfort (= kind)
 "the genial sunshine";
  
-3. Of or relating to the chin or median part of the lower jaw (- mental)
+3. Of or relating to the chin or median part of the lower jaw (= mental)
 """,
   );
 

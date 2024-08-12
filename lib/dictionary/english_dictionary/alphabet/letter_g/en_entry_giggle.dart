@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: giggle (Derived forms: giggled, giggles, giggling)
-1. Laugh nervously (- titter)
+- Verb: giggle (derived forms: giggled, giggles, giggling)
+1. Laugh nervously (= titter)
 "The girls giggled when the rock star came into the classroom";
 
-- Noun: giggle (Derived forms: giggles)
+- Noun: giggle (derived forms: giggles)
 1. A foolish or nervous laugh
 """,
   );

@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gleeful
-1. Full of high-spirited delight (- elated, joyful, jubilant, cock-a-hoop [informal], gleesome [archaic], on top of the world [informal])
+1. Full of high-spirited delight (= elated, joyful, jubilant, cock-a-hoop [informal], gleesome [archaic], on top of the world [informal])
 "a gleeful heart";
 """,
   );

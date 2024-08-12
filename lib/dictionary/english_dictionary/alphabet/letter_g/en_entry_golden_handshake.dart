@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: golden handshake (Derived forms: golden handshakes)
+- Noun: golden handshake (derived forms: golden handshakes)
 1. A lucrative severance agreement offered to an employee (usually as an incentive to retire)
 """,
   );

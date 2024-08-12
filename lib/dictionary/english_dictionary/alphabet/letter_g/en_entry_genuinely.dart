@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: genuinely
-1. In accordance with truth, fact or reality (- truly, really, veritably)
+1. In accordance with truth, fact or reality (= truly, really, veritably)
 "a genuinely open society";
  
-2. With authentic origin (- authentically)
+2. With authentic origin (= authentically)
 "it is genuinely British";
 """,
   );

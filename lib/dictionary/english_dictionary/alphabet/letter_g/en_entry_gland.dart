@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gland (Derived forms: glands)
-1. Any of various organs that synthesize substances needed by the body and release it through ducts or directly into the bloodstream (- secretory organ, secretor, secreter)
+- Noun: gland (derived forms: glands)
+1. Any of various organs that synthesize substances needed by the body and release it through ducts or directly into the bloodstream (= secretory organ, secretor, secreter)
 """,
   );
 

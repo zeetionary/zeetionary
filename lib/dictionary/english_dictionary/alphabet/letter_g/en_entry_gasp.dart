@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gasp (Derived forms: gasped, gasps, gasping)
-1. Breathe noisily, as when one is exhausted (- pant, puff, heave)
+- Verb: gasp (derived forms: gasped, gasps, gasping)
+1. Breathe noisily, as when one is exhausted (= pant, puff, heave)
 "The runners reached the finish line, gasping heavily";
  
 2. Speak in a breathless manner
 
-- Noun: gasp (Derived forms: gasps)
-1. A short laboured intake of breath with the mouth open (- pant)
+- Noun: gasp (derived forms: gasps)
+1. A short laboured intake of breath with the mouth open (= pant)
 "she gave a gasp and fainted";
 """,
   );

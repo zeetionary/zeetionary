@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: geographer (Derived forms: geographers)
+- Noun: geographer (derived forms: geographers)
 1. An expert on geography
 """,
   );

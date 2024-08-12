@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gram (Derived forms: grams)
-1. A metric unit of weight equal to one thousandth of a kilogram (- gramme, gm, g)
+- Noun: gram (derived forms: grams)
+1. A metric unit of weight equal to one thousandth of a kilogram (= gramme, gm, g)
 """,
   );
 

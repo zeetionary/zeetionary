@@ -51,18 +51,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: girdle (Derived forms: girdles)
+- Noun: girdle (derived forms: girdles)
 1. An encircling or ringlike structure
  
-2. A band of material around the waist that strengthens a skirt or trousers (- cincture, sash, waistband, waistcloth)
+2. A band of material around the waist that strengthens a skirt or trousers (= cincture, sash, waistband, waistcloth)
  
-3. A woman's close-fitting foundation garment (- corset, stays)
+3. A woman's close-fitting foundation garment (= corset, stays)
 
-- Verb: girdle (Derived forms: girdling, girdles, girdled)
-1. Cut a girdle around so as to kill by interrupting the circulation of water and nutrients (- deaden)
+- Verb: girdle (derived forms: girdling, girdles, girdled)
+1. Cut a girdle around so as to kill by interrupting the circulation of water and nutrients (= deaden)
 "girdle the plant";
  
-2. Put a girdle on or around (- gird, girt)
+2. Put a girdle on or around (= gird, girt)
 "girdle your loins";
 """,
   );

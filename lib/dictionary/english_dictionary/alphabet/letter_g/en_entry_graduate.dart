@@ -51,23 +51,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: graduate (Derived forms: graduates, graduating, graduated)
+- Verb: graduate (derived forms: graduates, graduating, graduated)
 1. Receive an academic degree upon completion of one's studies; completion of a course or training
 "She graduated in 1990"
  
 2. Confer an academic degree upon
 "This school graduates 2,000 students each year"
  
-3. Make fine adjustments or divide into marked intervals for optimal measuring (- calibrate, fine-tune)
+3. Make fine adjustments or divide into marked intervals for optimal measuring (= calibrate, fine-tune)
 "graduate a cylinder";
 
-- Noun: graduate (Derived forms: graduates)
-1. A person who has received a degree from a school (high school, college or university) (- alumnus, alum, grad)
+- Noun: graduate (derived forms: graduates)
+1. A person who has received a degree from a school (high school, college or university) (= alumnus, alum, grad)
  
 2. A measuring instrument for measuring fluid volume; a glass container (cup or cylinder or flask) whose sides are marked with or divided into amounts
 
 - Adjective: graduate
-1. Of or relating to studies beyond a bachelor's degree (- postgraduate, postgrad [informal])
+1. Of or relating to studies beyond a bachelor's degree (= postgraduate, postgrad [informal])
 "graduate courses";
 """,
   );
@@ -226,7 +226,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "graduate", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێکی کە بڕوانامەی زانکۆی ھەیە"""),
                     SentencesRow(

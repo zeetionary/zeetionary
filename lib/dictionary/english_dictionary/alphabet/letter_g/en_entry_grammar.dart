@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: grammar (Derived forms: grammars)
+- Noun: grammar (derived forms: grammars)
 1. (linguistics) the branch of linguistics that deals with syntax and morphology (and sometimes also deals with semantics) 
 """,
   );
@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grammar", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ڕێزمان"""),
                     SentencesRow(
                       englishText:

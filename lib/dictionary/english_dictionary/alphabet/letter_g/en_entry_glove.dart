@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glove (Derived forms: gloves)
-1. The handwear used by fielders in playing baseball (- baseball glove, baseball mitt, mitt)
+- Noun: glove (derived forms: gloves)
+1. The handwear used by fielders in playing baseball (= baseball glove, baseball mitt, mitt)
  
 2. Handwear: covers the hand and wrist
  
-3. (boxing) boxing equipment consisting of big and padded coverings for the fists of the fighters; worn for the sport of boxing (- boxing glove)
+3. (boxing) boxing equipment consisting of big and padded coverings for the fists of the fighters; worn for the sport of boxing (= boxing glove)
 """,
   );
 
@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەسکێش، دەسەوانە، لەپک،	دەسکێشی شەڕەمشت
 """),
-// With short examples define "glove", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) دەسکێش"""),
                     SentencesRow(
                       englishText:

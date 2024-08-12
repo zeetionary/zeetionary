@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: gradually
-1. In a gradual manner (- bit by bit, step by step)
+1. In a gradual manner (= bit by bit, step by step)
 "the snake moved gradually toward its victim";
 """,
   );

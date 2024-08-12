@@ -51,19 +51,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gossip (Derived forms: gossips)
-1. Light informal conversation for social occasions (- chitchat [informal], chit-chat [informal], chit chat [informal], small talk, gab [informal], gabfest [N. Amer, informal], tittle-tattle, chinwag [Brit, informal], chin-wag [Brit, informal], chin-wagging [Brit, informal], causerie, bavardage [literary], chinwag [Brit, informal])
+- Noun: gossip (derived forms: gossips)
+1. Light informal conversation for social occasions (= chitchat [informal], chit-chat [informal], chit chat [informal], small talk, gab [informal], gabfest [N. Amer, informal], tittle-tattle, chinwag [Brit, informal], chin-wag [Brit, informal], chin-wagging [Brit, informal], causerie, bavardage [literary], chinwag [Brit, informal])
  
-2. A report (often malicious) about the behaviour of other people (- comment, scuttlebutt [N. Amer, informal], goss [Brit, informal])
+2. A report (often malicious) about the behaviour of other people (= comment, scuttlebutt [N. Amer, informal], goss [Brit, informal])
 "the divorce caused much gossip";
  
-3. A person given to gossiping and divulging personal information about others (- gossiper, gossipmonger, rumormonger [US], rumourmonger [Brit, Cdn], newsmonger)
+3. A person given to gossiping and divulging personal information about others (= gossiper, gossipmonger, rumormonger [US], rumourmonger [Brit, Cdn], newsmonger)
 
-- Verb: gossip (Derived forms: gossiping, gossiped, gossips)
-1. Talk informally about someone else's private or personal business, esp. spreading negative or scandalous information even though it has not been confirmed to be true (- dish the dirt [informal], dish [N. Amer, informal])
+- Verb: gossip (derived forms: gossiping, gossiped, gossips)
+1. Talk informally about someone else's private or personal business, esp. spreading negative or scandalous information even though it has not been confirmed to be true (= dish the dirt [informal], dish [N. Amer, informal])
 "She won't gossip";
  
-2. Talk socially without exchanging too much information (- chew the fat [informal], shoot the breeze [N. Amer, informal], chat, confabulate, confab [informal], chitchat [informal], chit-chat [informal], chatter, chaffer, natter [informal], jaw [informal], claver [UK, dialect], visit [N. Amer, informal], chew the rag [informal], gas [informal], gab [informal])
+2. Talk socially without exchanging too much information (= chew the fat [informal], shoot the breeze [N. Amer, informal], chat, confabulate, confab [informal], chitchat [informal], chit-chat [informal], chatter, chaffer, natter [informal], jaw [informal], claver [UK, dialect], visit [N. Amer, informal], chew the rag [informal], gas [informal], gab [informal])
 "the men were sitting in the cafe and gossiping";
 """,
   );
@@ -215,7 +215,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەنگۆ، بەندوباو، واتوورە، لۆغەت، ڕەمڵ، قسە، گەپ، چەڵتە، مقۆمقۆ، وتەوت، قسەڵۆک،	قسەی ھیچەکە و پووچەکە، ھەڵیت‌وپڵیت،	خراپەوتن، گالەگورت، زەم‌کردن، لەپادوان،	مرۆی دەم‌بەھاوار
 """),
-// With short examples define "gossip", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) قسەوقسەڵۆک لەسەر ژیانی خەڵکی"""),
                     SentencesRow(

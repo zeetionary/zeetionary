@@ -51,16 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garnish (Derived forms: garnishes)
+- Noun: garnish (derived forms: garnishes)
 1. Something (such as parsley) added to a dish for flavour or decoration
  
 2. Any decoration added as a trimming or adornment
 
-- Verb: garnish (Derived forms: garnished, garnishing, garnishes)
+- Verb: garnish (derived forms: garnished, garnishing, garnishes)
 1. Take a debtor's wages on legal orders, such as for child support (= - garnishee)
 "His employer garnished his wages in order to pay his debt";
  
-2. Decorate (food), as with parsley or other ornamental foods (- trim, dress)
+2. Decorate (food), as with parsley or other ornamental foods (= trim, dress)
 """,
   );
 

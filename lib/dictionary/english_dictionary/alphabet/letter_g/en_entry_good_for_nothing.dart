@@ -54,11 +54,11 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: good-for-nothing
-1. Without merit; of little or no value or use (- good-for-nought, meritless, no-account [N. Amer], no-count, no-good, sorry)
+1. Without merit; of little or no value or use (= good-for-nought, meritless, no-account [N. Amer], no-count, no-good, sorry)
 "a lazy no-count, good-for-nothing goldbrick";
 
-- Noun: good-for-nothing (Derived forms: good-for-nothings)
-1. An idle worthless person (- goldbrick [N. Amer, informal], goof-off [N. Amer, informal], ne'er-do-well, no-account [N. Amer], good-for-nought)
+- Noun: good-for-nothing (derived forms: good-for-nothings)
+1. An idle worthless person (= goldbrick [N. Amer, informal], goof-off [N. Amer, informal], ne'er-do-well, no-account [N. Amer], good-for-nought)
 """,
   );
 

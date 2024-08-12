@@ -58,7 +58,7 @@ ${englishMeaningConst.text}
 2. (of a topographical gradient) not steep or abrupt
 "a gradual slope"
 
-- Noun: gradual (Derived forms: graduals)
+- Noun: gradual (derived forms: graduals)
 1. (Roman Catholic Church) an antiphon (usually from the Book of Psalms) immediately after the epistle at Mass
 """,
   );

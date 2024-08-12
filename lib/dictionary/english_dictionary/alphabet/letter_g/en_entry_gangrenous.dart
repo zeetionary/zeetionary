@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gangrenous
-1. Suffering from tissue death (- mortified)
+1. Suffering from tissue death (= mortified)
 "During the war I found hot-water dressings as a means of promoting reaction, as a preventive of gangrenous tendencies";
 """,
   );

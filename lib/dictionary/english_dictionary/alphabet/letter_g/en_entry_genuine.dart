@@ -53,13 +53,13 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: genuine
-1. Not fake or counterfeit (- echt)
+1. Not fake or counterfeit (= echt)
 "a genuine Picasso"; "genuine leather";
  
-2. Not pretended; sincerely felt or expressed (- true, unfeigned)
+2. Not pretended; sincerely felt or expressed (= true, unfeigned)
 "genuine emotion";
  
-3. Being or reflecting the essential or genuine character of something (- actual, literal, real)
+3. Being or reflecting the essential or genuine character of something (= actual, literal, real)
 "a genuine dilemma";
 """,
   );

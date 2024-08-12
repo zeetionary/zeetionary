@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gateway (Derived forms: gateways)
+- Noun: gateway (derived forms: gateways)
 1. An entrance that can be closed by a gate
 """,
   );

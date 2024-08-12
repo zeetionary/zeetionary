@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glutton (Derived forms: gluttons)
-1. A person who is devoted to eating and drinking to excess (- gourmand, gourmandizer, trencherman, gormandizer, gormandiser [Brit], greedyguts [informal], gannet [Brit])
+- Noun: glutton (derived forms: gluttons)
+1. A person who is devoted to eating and drinking to excess (= gourmand, gourmandizer, trencherman, gormandizer, gormandiser [Brit], greedyguts [informal], gannet [Brit])
  
-2. Musteline mammal of northern Eurasia (- Gulo gulo, wolverine)
+2. Musteline mammal of northern Eurasia (= Gulo gulo, wolverine)
 """,
   );
 
@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بنیادەمی زۆرخۆر، چڵێس، زگەڕۆ، نەوسن، زکوون
 """),
-// With short examples define "glutton", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە زۆر دەخوات"""),
                     SentencesRow(

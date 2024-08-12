@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: geography (Derived forms: geographies)
-1. Study of the earth's surface; includes people's responses to topography and climate and soil and vegetation (- geographics)
+- Noun: geography (derived forms: geographies)
+1. Study of the earth's surface; includes people's responses to topography and climate and soil and vegetation (= geographics)
 """,
   );
 

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gladden (Derived forms: gladdening, gladdens, gladdened)
-1. Make glad or happy (- joy)
+- Verb: gladden (derived forms: gladdening, gladdens, gladdened)
+1. Make glad or happy (= joy)
  
 2. Become glad or happy
 """,
@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خۆشحاڵ کردن، خۆش کردن، دڵخۆش کردن
 """),
-// With short examples define "gladden", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) دڵخۆشکردنی کەسێک"""),
                     SentencesRow(

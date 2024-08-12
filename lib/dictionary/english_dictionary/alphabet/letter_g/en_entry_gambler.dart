@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gambler (Derived forms: gamblers)
+- Noun: gambler (derived forms: gamblers)
 1. A person who wagers money on the outcome of games or sporting events
  
-2. Someone who risks loss or injury in the hope of gain or excitement (- risk taker, chancer [Brit, informal])
+2. Someone who risks loss or injury in the hope of gain or excitement (= risk taker, chancer [Brit, informal])
 """,
   );
 

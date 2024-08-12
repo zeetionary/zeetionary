@@ -52,14 +52,14 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: goodness
-1. That which is pleasing, valuable or useful (- good)
+1. That which is pleasing, valuable or useful (= good)
  
-2. Moral excellence or admirableness (- good)
+2. Moral excellence or admirableness (= good)
 "there is much goodness to be found in people";
 
 - Interjection: goodness 
 Usage: informal
-1. Used to express surprise (- Christ [informal], Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness me [informal], Gordon Bennett [informal], gracious [informal], gracious me [informal], fancy that [informal], gawd [informal], god, my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
+1. Used to express surprise (= Christ [informal], Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness me [informal], Gordon Bennett [informal], gracious [informal], gracious me [informal], fancy that [informal], gawd [informal], god, my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
 "My goodness me. She doesn't sound like the kind of person who should be held up as a hero to the next generation";
 """,
   );
@@ -175,7 +175,6 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی: چاکی، چاکێتی، باشە، چاکە، خاسی،	دڵسۆزی، دڵوڤانی، دڵباشی، خێر، چاکەکاری، خێرخوازی،	تەح، پیاح، پەح، خوایە گیان
 """),
-// With short examples define "goodness", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی شتێک باش بێت"""),
                     SentencesRow(

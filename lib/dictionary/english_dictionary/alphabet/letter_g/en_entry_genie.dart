@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: genie (Derived forms: genies)
-1. (Islam) an invisible spirit mentioned in the Koran and believed by Muslims to inhabit the earth and influence mankind by appearing in the form of humans or animals (- jinni, jinnee, djinni, djinny, djinn)
+- Noun: genie (derived forms: genies)
+1. (Islam) an invisible spirit mentioned in the Koran and believed by Muslims to inhabit the earth and influence mankind by appearing in the form of humans or animals (= jinni, jinnee, djinni, djinny, djinn)
 """,
   );
 

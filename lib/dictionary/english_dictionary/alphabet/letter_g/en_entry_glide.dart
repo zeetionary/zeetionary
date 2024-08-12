@@ -51,20 +51,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glide (Derived forms: gliding, glides, glided)
+- Verb: glide (derived forms: gliding, glides, glided)
 1. Move smoothly and effortlessly
  
 2. (air travel) fly in or as if in a glider plane
  
 3. Cause to move or pass silently, smoothly, or imperceptibly
 
-- Noun: glide (Derived forms: glides)
-1. A vowellike sound that serves as a consonant (- semivowel)
+- Noun: glide (derived forms: glides)
+1. A vowellike sound that serves as a consonant (= semivowel)
  
-2. The act of moving smoothly along a surface while remaining in contact with it (- slide, coast)
+2. The act of moving smoothly along a surface while remaining in contact with it (= slide, coast)
 "his glide didn't stop until the bottom of the hill";
  
-3. The activity of flying a glider (- gliding, sailplaning, soaring, sailing)
+3. The activity of flying a glider (= gliding, sailplaning, soaring, sailing)
 """,
   );
 
@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خلیسکان، خزان، خزین، شەختین،	لەنجەولار، نەرم‌ڕۆیشتن
 """),
-// With short examples define "glide", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) جووڵان بە نەرمی و لەسەرەخۆیی"""),
                     SentencesRow(

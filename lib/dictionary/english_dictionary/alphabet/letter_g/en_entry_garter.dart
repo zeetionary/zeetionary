@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garter (Derived forms: garters)
-1. A band (usually elastic) worn around the leg to hold up a stocking (or around the arm to hold up a sleeve) (- supporter)
+- Noun: garter (derived forms: garters)
+1. A band (usually elastic) worn around the leg to hold up a stocking (or around the arm to hold up a sleeve) (= supporter)
 
-- Verb: garter (Derived forms: garters, gartering, gartered)
+- Verb: garter (derived forms: garters, gartering, gartered)
 1. Fasten with or as if with a garter
 """,
   );

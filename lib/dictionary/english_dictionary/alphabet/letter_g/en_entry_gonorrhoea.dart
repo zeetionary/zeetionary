@@ -51,9 +51,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gonorrhoea (Derived forms: gonorrhoeas)
+- Noun: gonorrhoea (derived forms: gonorrhoeas)
 Usage: Brit, Cdn (US: gonorrhea)
-1. A common venereal disease caused by the bacterium Neisseria gonorrhoeae; symptoms are painful urination and pain around the urethra (- gonorrhea [N. Amer], clap)
+1. A common venereal disease caused by the bacterium Neisseria gonorrhoeae; symptoms are painful urination and pain around the urethra (= gonorrhea [N. Amer], clap)
 """,
   );
 

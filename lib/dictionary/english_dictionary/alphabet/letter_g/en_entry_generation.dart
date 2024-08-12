@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: generation (Derived forms: generations)
-1. All the people living at the same time or of approximately the same age (- coevals, contemporaries)
+- Noun: generation (derived forms: generations)
+1. All the people living at the same time or of approximately the same age (= coevals, contemporaries)
  
 2. Group of genetically related organisms constituting a single step in the line of descent
  
@@ -62,12 +62,12 @@ ${englishMeaningConst.text}
 4. A stage of technological development or innovation
 "the third generation of computers"
  
-5. A coming into being (- genesis)
+5. A coming into being (= genesis)
  
 6. The production of heat or electricity
 "dams were built for the generation of electricity"
  
-7. The act of producing offspring or multiplying by such production (- multiplication, propagation)
+7. The act of producing offspring or multiplying by such production (= multiplication, propagation)
 """,
   );
 

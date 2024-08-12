@@ -51,20 +51,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: grand (Derived forms: grander, grandest)
-1. Of behaviour that is impressive and ambitious in scale or scope (- expansive, heroic)
+- Adjective: grand (derived forms: grander, grandest)
+1. Of behaviour that is impressive and ambitious in scale or scope (= expansive, heroic)
 "in the grand manner"; "collecting on a grand scale";
  
-2. Of or befitting a lord (- august, lordly)
+2. Of or befitting a lord (= august, lordly)
 "of grand lineage";
  
-3. Ostentatiously rich and superior in quality (- deluxe, gilded, luxurious, opulent, princely, sumptuous, lush, luxury)
+3. Ostentatiously rich and superior in quality (= deluxe, gilded, luxurious, opulent, princely, sumptuous, lush, luxury)
 "grand dining rooms";
  
-4. Extraordinarily good or great; used especially as an intensifier (- fantastic, howling [informal], marvelous [US], marvellous [Brit, Cdn], rattling [informal], terrific, tremendous, wonderful, wondrous, phenomenal, epic [slang], magnificent, heavenly [informal])
+4. Extraordinarily good or great; used especially as an intensifier (= fantastic, howling [informal], marvelous [US], marvellous [Brit, Cdn], rattling [informal], terrific, tremendous, wonderful, wondrous, phenomenal, epic [slang], magnificent, heavenly [informal])
 "a grand trip to the Orient";
  
-5. Of high moral or intellectual value; elevated in nature or style (- exalted, elevated, sublime, high-flown, high-minded, lofty, rarefied, rarified, idealistic, noble-minded)
+5. Of high moral or intellectual value; elevated in nature or style (= exalted, elevated, sublime, high-flown, high-minded, lofty, rarefied, rarified, idealistic, noble-minded)
 "a grand purpose";
  
 6. Large and impressive in physical size or extent
@@ -73,11 +73,11 @@ ${englishMeaningConst.text}
 7. The most important and magnificent in adornment
 "grand ballroom"; "grand staircase"
  
-8. Used of a person's appearance or behaviour; befitting an eminent person (- distinguished, imposing, magisterial)
+8. Used of a person's appearance or behaviour; befitting an eminent person (= distinguished, imposing, magisterial)
 "his grand bearing";
 
-- Noun: grand (Derived forms: grands)
-1. A piano with the strings on a horizontal harp-shaped frame; usually supported by three legs (- grand piano)
+- Noun: grand (derived forms: grands)
+1. A piano with the strings on a horizontal harp-shaped frame; usually supported by three legs (= grand piano)
  
 2. [informal] A thousand dollars or pounds
 """,
@@ -190,97 +190,6 @@ ${englishMeaningConst.text}
     await flutterTts.speak("""It'll cost you five grand!""");
   }
 
-  Future<void> speaksentence13(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1300""");
-  }
-
-  Future<void> speaksentence14(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1400""");
-  }
-
-  Future<void> speaksentence15(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1500""");
-  }
-
-  Future<void> speaksentence16(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1600""");
-  }
-
-  Future<void> speaksentence17(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1700""");
-  }
-
-  Future<void> speaksentence18(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1800""");
-  }
-
-  Future<void> speaksentence19(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1900""");
-  }
-
-  Future<void> speaksentence20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_2000""");
-  }
-
-  Future<void> speaksentence21(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2100""");
-  }
-
-  Future<void> speaksentence22(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2200""");
-  }
-
-  Future<void> speaksentence23(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2300""");
-  }
-
-  Future<void> speaksentence24(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2400""");
-  }
-
-  Future<void> speaksentence25(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2500""");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -343,7 +252,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گەورە، مەزن، کەڵنگ، بەشکۆ، شکۆمەند،	زۆرچاک، یەکجار باش،	ھەرەگەورە، گەورە،	سەرەکی، گرنگ، بەرکەفتی،	گشت، ھەموو،	بەرین، بەربڵاو،	خۆپێ‌زلانە،	(ماف) ڕشت
 """),
-// With short examples define "grand", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) سەرنجڕاکێش و گەورە یان گرنگ"""),
                     SentencesRow(
                       englishText: """It's not a very grand house.""",
@@ -352,17 +260,13 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
 
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The wedding was a very grand occasion.""",
-                      kurdishText: """ئاهەنگە هاوسەرگیرییەکە بۆنەیەکی زۆر بەشکۆ بوو.""",
+                      kurdishText: """ئاھەنگە ھاوسەرگیرییەکە بۆنەیەکی زۆر بەشکۆ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The Palace of Versailles is very grand.""",
@@ -371,17 +275,17 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) لە ناوی بینا، هتد ــی سەرنجڕاکێش یان زۆر گەورە بەکاردێت"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) لە ناوی بینا، ھتد ــی سەرنجڕاکێش یان زۆر گەورە بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """We stayed at the Grand Hotel.""",
-                      kurdishText: """لە هوتێلە گەورەکە ماینەوە.""",
+                      kurdishText: """لە ھوتێلە گەورەکە ماینەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
 
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە پێویستی بە هەوڵ، پارە، و کاتی زۆر هەیە بۆ سەرکەوتن"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە پێویستی بە ھەوڵ، پارە، و کاتی زۆر ھەیە بۆ سەرکەوتن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The gallery had its grand opening on 18 January.""",
@@ -389,8 +293,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """New Yorkers built their city on a grand scale.""",
@@ -407,21 +309,19 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Tomorrow is the grand final with just 12 contestants left from the hundreds who entered.""",
-                      kurdishText: """سبەی یاری گرنگی کۆتاییە بە تەنها ١٢ ڕکابەر لە کۆی ئەو سەدان کەسەی بەژدارییان کرد.""",
+                      kurdishText: """سبەی یاری گرنگی کۆتاییە بە تەنھا ١٢ ڕکابەر لە کۆی ئەو سەدان کەسەی بەژدارییان کرد.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (ھاوەڵناو) ڕەفتارکردن بە شکۆوە بەهۆی ئەوەی سەر بە ئاستی باڵان"""),
+                    const DefinitionKurdish(text: """٥. (ھاوەڵناو) ڕەفتارکردن بە شکۆوە بەھۆی ئەوەی سەر بە ئاستی باڵان"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """They're all Lord or Lady somebody, but they're not at all grand.""",
-                      kurdishText: """هەموویان فڵان بەڕێز یان خاتوونن، بەڵام کەسانی زۆر گرنگ نین.""",
+                      kurdishText: """ھەموویان فڵان بەڕێز یان خاتوونن، بەڵام کەسانی زۆر گرنگ نین.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -434,8 +334,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Fred did a grand job of painting the house.""",
@@ -448,63 +346,9 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """It'll cost you five grand!""",
-                      kurdishText: """ئەوە پێنج هەزار دەکەوێت لەسەرت!""",
+                      kurdishText: """ئەوە پێنج ھەزار دەکەوێت لەسەرت!""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence13("en-GB"),
-                      onPressedAmerican: () => speaksentence13("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence14("en-GB"),
-                      onPressedAmerican: () => speaksentence14("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence15("en-GB"),
-                      onPressedAmerican: () => speaksentence15("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence16("en-GB"),
-                      onPressedAmerican: () => speaksentence16("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence17("en-GB"),
-                      onPressedAmerican: () => speaksentence17("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence18("en-GB"),
-                      onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                   ],
                 ),
@@ -575,17 +419,17 @@ ${englishMeaningConst.text}
 
 // 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
-const double _startSecondsend = 0000000000000000000000000001199;
+const double _startSecondsend = 1199;
 const String _videoIdone = 'e09xig209cQ';
-const double _startSecondsone = 000000000000000000000000000644;
+const double _startSecondsone = 644;
 const String _videoIdtwo = 'HDntl7yzzVI';
-const double _startSecondstwo = 0000000000000000000000000001348;
+const double _startSecondstwo = 1348;
 const String _videoIdthree = 'YRhqMWUH2Ig';
-const double _startSecondsthree = 0000000000000000000000000001406;
+const double _startSecondsthree = 1406;
 const String _videoIdfour = 'Mx8JkGHaGUI';
-const double _startSecondsfour = 0000000000000000000000000001565;
+const double _startSecondsfour = 1565;
 const String _videoIdfive = 'a9m3GD0DbPY';
-const double _startSecondsfive = 00000000000000000000000000077;
+const double _startSecondsfive = 77;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

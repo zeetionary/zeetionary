@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: genetics
-1. The branch of biology that studies heredity and variation in organisms (- genetic science)
+1. The branch of biology that studies heredity and variation in organisms (= genetic science)
  
 2. The genetic makeup of a specific individual, organism or species
 """,

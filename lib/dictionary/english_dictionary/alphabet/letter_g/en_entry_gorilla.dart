@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gorilla (Derived forms: gorillas)
-1. Largest anthropoid ape; terrestrial and vegetarian; of forests of central west Africa (- Gorilla gorilla)
+- Noun: gorilla (derived forms: gorillas)
+1. Largest anthropoid ape; terrestrial and vegetarian; of forests of central west Africa (= Gorilla gorilla)
 
 2. (informal) a large aggressive man
 """,

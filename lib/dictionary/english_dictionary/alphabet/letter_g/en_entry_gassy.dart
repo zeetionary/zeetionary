@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gassy (Derived forms: gassier, gassiest)
+- Adjective: gassy (derived forms: gassier, gassiest)
 1. Resembling gas
  
-2. [informal] Suffering from excessive gas in the alimentary canal (- colicky, flatulent)
+2. [informal] Suffering from excessive gas in the alimentary canal (= colicky, flatulent)
 "One study found both infant massage and a crib vibrator useful in reducing crying in gassy babies";
  
-3. [informal] Full of trivial conversation (- chatty, gabby, garrulous, loquacious, talkative, talky)
+3. [informal] Full of trivial conversation (= chatty, gabby, garrulous, loquacious, talkative, talky)
 """,
   );
 

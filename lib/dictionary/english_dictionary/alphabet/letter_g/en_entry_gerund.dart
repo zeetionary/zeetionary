@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gerund (Derived forms: gerunds)
+- Noun: gerund (derived forms: gerunds)
 1. A noun formed from a verb (such as the '-ing' form of an English verb when used as a noun)
 """,
   );

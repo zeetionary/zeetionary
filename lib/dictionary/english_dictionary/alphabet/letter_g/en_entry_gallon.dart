@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gallon (Derived forms: gallons)
-1. United States liquid unit equal to 4 quarts or 3.785 litres (- gal)
+- Noun: gallon (derived forms: gallons)
+1. United States liquid unit equal to 4 quarts or 3.785 litres (= gal)
  
-2. A British imperial capacity measure (liquid or dry) equal to 4 quarts or 4.545 litres (- Imperial gallon, congius)
+2. A British imperial capacity measure (liquid or dry) equal to 4 quarts or 4.545 litres (= Imperial gallon, congius)
 
 """,
   );

@@ -51,15 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gargle (Derived forms: gargles)
-1. A medicated solution used for gargling and rinsing the mouth (- mouthwash)
+- Noun: gargle (derived forms: gargles)
+1. A medicated solution used for gargling and rinsing the mouth (= mouthwash)
  
 2. The sound produced while gargling
 
-- Verb: gargle (Derived forms: gargled, gargles, gargling)
+- Verb: gargle (derived forms: gargled, gargles, gargling)
 1. Utter with gargling or burbling sounds
  
-2. Rinse one's mouth and throat with mouthwash (- rinse)
+2. Rinse one's mouth and throat with mouthwash (= rinse)
 "gargle with this liquid";
 """,
   );

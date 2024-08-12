@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gainful
-1. Yielding a fair profit (- paid, paying)
+1. Yielding a fair profit (= paid, paying)
 "This country has been recently concerned with the increase in gainful employment among women";
 """,
   );

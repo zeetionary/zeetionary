@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gearbox (Derived forms: gearboxes)
-1. The shell (metal casing) in which a train of gears is sealed (- gear box, gear case)
+- Noun: gearbox (derived forms: gearboxes)
+1. The shell (metal casing) in which a train of gears is sealed (= gear box, gear case)
 """,
   );
 

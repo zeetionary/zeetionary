@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gaslight (Derived forms: gaslights)
+- Noun: gaslight (derived forms: gaslights)
 1. Light yielded by the combustion of illuminating gas
 
-- Verb: gaslight (Derived forms: gaslighting, gaslighted, gaslights)
+- Verb: gaslight (derived forms: gaslighting, gaslighted, gaslights)
 Usage: informal
 1. Manipulate someone psychologically so that they start to question their own sanity
 "I was gaslighted a few times in situations where I was 100% in the right"

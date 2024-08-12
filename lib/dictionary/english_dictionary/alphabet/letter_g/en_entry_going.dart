@@ -56,11 +56,11 @@ ${englishMeaningConst.text}
 "a going concern"
 
 - Noun: going
-1. The act of departing (- departure, going away, leaving)
+1. The act of departing (= departure, going away, leaving)
  
-2. A euphemistic expression for death (- passing, loss, departure, exit, expiration, release)
+2. A euphemistic expression for death (= passing, loss, departure, exit, expiration, release)
  
-3. Advancing toward a goal (- sledding)
+3. Advancing toward a goal (= sledding)
 "persuading him was easy going";
 """,
   );
@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕۆیشتن، چوون، ڕەو، ھەرین، مەش،	(خوازە) مردن، ڕۆیشتن،	ڕەفتار، ھەڵس‌وکەوت،	ڕەوش، بارودۆخ، بارودۆخی ڕێگا، باری عەرز،	خێرایی، پێشکەوتن، چوونەپێش، پێشڤەچوون،	لەبەردەس، ھەیی، بەردەس،	(نرخ و ھتد) ئێستا، ھەنووکە،	بەبڕەو، گەشەسەندوو، بەڕمێن
 """),
-// With short examples define "going", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) جێھێشتنی شوێنێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: departure"),

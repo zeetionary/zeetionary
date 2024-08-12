@@ -52,8 +52,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gatecrasher (Derived forms: gatecrashers)
-1. Someone who gets in (to a party) without an invitation or without paying (- crasher [informal], unwelcome guest)
+- Noun: gatecrasher (derived forms: gatecrashers)
+1. Someone who gets in (to a party) without an invitation or without paying (= crasher [informal], unwelcome guest)
 """,
   );
 

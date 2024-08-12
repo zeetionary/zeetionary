@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: godlike
-1. Appropriate to or befitting a god (- divine)
+1. Appropriate to or befitting a god (= divine)
 "a man of godlike sagacity"; "man must play God for he has acquired certain godlike powers";
  
-2. Being or having the nature of a god (- divine)
+2. Being or having the nature of a god (= divine)
 "the custom of killing the godlike king upon any serious failure of his...powers";
 """,
   );

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goldsmith (Derived forms: goldsmiths)
-1. An artisan who makes jewellery and other objects out of gold (- goldworker, gold-worker)
+- Noun: goldsmith (derived forms: goldsmiths)
+1. An artisan who makes jewellery and other objects out of gold (= goldworker, gold-worker)
 """,
   );
 

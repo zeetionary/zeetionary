@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gibberish (Derived forms: gibberishes)
-1. Unintelligible talking (- gibber)
+- Noun: gibberish (derived forms: gibberishes)
+1. Unintelligible talking (= gibber)
 """,
   );
 

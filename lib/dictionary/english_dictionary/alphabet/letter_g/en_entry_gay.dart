@@ -51,28 +51,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gay (Derived forms: gayest, gayer)
-1. Homosexual or arousing homosexual desires (- homophile [archaic])
+- Adjective: gay (derived forms: gayest, gayer)
+1. Homosexual or arousing homosexual desires (= homophile [archaic])
  
-2. Of or relating to homosexual men or women (- same-sex, homosexual)
+2. Of or relating to homosexual men or women (= same-sex, homosexual)
  
-3. Bright and pleasant; promoting a feeling of cheer (- cheery, sunny, sunshiny)
+3. Bright and pleasant; promoting a feeling of cheer (= cheery, sunny, sunshiny)
 "a gay sunny room";
  
-4. Full of or showing high-spirited merriment (- jocund [formal], jolly, jovial, merry, mirthful)
+4. Full of or showing high-spirited merriment (= jocund [formal], jolly, jovial, merry, mirthful)
 "when hearts were young and gay"; "a poet could not but be gay, in such a jocund company";
  
 5. Given to social pleasures often including dissipation
 "led a gay Bohemian life"; "a gay old rogue with an eye for the ladies"
  
-6. Brightly coloured and showy (- brave, braw [UK, dialect])
+6. Brightly coloured and showy (= brave, braw [UK, dialect])
 "a dress a bit too gay for her years"; "birds with gay plumage";
  
-7. Offering fun and gaiety (- festal, festive, merry)
+7. Offering fun and gaiety (= festal, festive, merry)
 "gay and exciting night life";
 
-- Noun: gay (Derived forms: gays)
-1. Someone who is sexually attracted to persons of the same sex (- homosexual, homophile [archaic])
+- Noun: gay (derived forms: gays)
+1. Someone who is sexually attracted to persons of the same sex (= homosexual, homophile [archaic])
 """,
   );
 

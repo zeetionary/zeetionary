@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gloat (Derived forms: gloats)
-1. Malicious satisfaction (- gloating, glee)
+- Noun: gloat (derived forms: gloats)
+1. Malicious satisfaction (= gloating, glee)
 
-- Verb: gloat (Derived forms: gloated, gloats, gloating)
-1. Dwell on with satisfaction (- triumph, crow)
+- Verb: gloat (derived forms: gloated, gloats, gloating)
+1. Dwell on with satisfaction (= triumph, crow)
  
 2. Gaze at or think about something with great self-satisfaction, gratification, or joy
 """,

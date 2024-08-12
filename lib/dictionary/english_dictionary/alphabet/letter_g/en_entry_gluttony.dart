@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gluttony (Derived forms: gluttonies)
+- Noun: gluttony (derived forms: gluttonies)
 1. Habitual eating to excess
  
-2. Eating to excess (personified as one of the deadly sins) (- overeating, gula)
+2. Eating to excess (personified as one of the deadly sins) (= overeating, gula)
 """,
   );
 
@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زۆرخۆری، چڵێسی، زگەڕۆیی، زکوونی
 """),
-// With short examples define "gluttony", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) زۆرخۆری"""),
                     const AlsoEnglishckb(word: "ھەروەھا: greed"),
                     SentencesRow(

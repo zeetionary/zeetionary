@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goalpost (Derived forms: goalposts)
+- Noun: goalpost (derived forms: goalposts)
 1. One of a pair of posts (usually joined by a crossbar) that are set up as a goal at each end of a playing field
 """,
   );

@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gigantic
-1. Exceedingly large, extensive or important (- mammoth)
+1. Exceedingly large, extensive or important (= mammoth)
 "a gigantic redwood"; "gigantic disappointment";
 """,
   );
@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: یەکجار زلە، یەکجار گەورە، فیلەتەن، زەبەلاح
 """),
-// With short examples define "gigantic", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) تەواو گەورە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: enormous، huge"),

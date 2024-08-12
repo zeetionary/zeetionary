@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: GDP (Derived forms: GDPs)
-1. The measure of an economy adopted by the United States in 1991; the total market values of goods and services produced by workers and capital within a nation's borders during a given period (usually 1 year) (- gross domestic product)
+- Noun: GDP (derived forms: GDPs)
+1. The measure of an economy adopted by the United States in 1991; the total market values of goods and services produced by workers and capital within a nation's borders during a given period (usually 1 year) (= gross domestic product)
 
 """,
   );

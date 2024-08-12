@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: globule (Derived forms: globules)
+- Noun: globule (derived forms: globules)
 1. A small globe or ball
 """,
   );

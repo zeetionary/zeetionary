@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: geology (Derived forms: geologies)
+- Noun: geology (derived forms: geologies)
 1. A science that deals with the history of the earth as recorded in rocks
 """,
   );

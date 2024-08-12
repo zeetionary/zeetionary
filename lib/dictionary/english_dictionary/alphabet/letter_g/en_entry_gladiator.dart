@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gladiator (Derived forms: gladiators)
+- Noun: gladiator (derived forms: gladiators)
 1. (ancient Rome) a professional combatant or a captive who entertained the public by engaging in mortal combat
  
-2. A professional boxer (- prizefighter)
+2. A professional boxer (= prizefighter)
  
 3. A type of sandal, shoe or boot where the foot is secured by several or many straps
 """,

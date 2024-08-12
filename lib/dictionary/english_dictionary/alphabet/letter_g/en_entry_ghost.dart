@@ -51,26 +51,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ghost (Derived forms: ghosts)
+- Noun: ghost (derived forms: ghosts)
 1. The visible disembodied soul of a dead person
  
-2. A mental representation of some haunting experience (- shade, spook, wraith, specter [US], spectre [Brit, Cdn])
+2. A mental representation of some haunting experience (= shade, spook, wraith, specter [US], spectre [Brit, Cdn])
 "he looked like he had seen a ghost";
  
-3. A writer who gives the credit of authorship to someone else (- ghostwriter)
+3. A writer who gives the credit of authorship to someone else (= ghostwriter)
  
-4. A suggestion of some quality (- touch, trace)
+4. A suggestion of some quality (= touch, trace)
 "he detected a ghost of a smile on her face";
  
 5. A faint false image formed in an optical or display device, e.g. by reflection from the surfaces of one or more lenses
 
-- Verb: ghost (Derived forms: ghosted, ghosts, ghosting)
+- Verb: ghost (derived forms: ghosted, ghosts, ghosting)
 1. Move like a ghost
 "The masked men ghosted across the moonlit yard"
  
-2. Haunt like a ghost; pursue (- haunt, obsess)
+2. Haunt like a ghost; pursue (= haunt, obsess)
  
-3. Write for someone else (- ghostwrite)
+3. Write for someone else (= ghostwrite)
  
 4. End a personal relationship by stopping all contact without explanation
 "a way to reduce the chances of being ghosted is to only date people that you get to know in person first"

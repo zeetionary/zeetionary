@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glen (Derived forms: glens)
+- Noun: glen (derived forms: glens)
 1. A narrow secluded valley (in the mountains)
 """,
   );

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gentle (Derived forms: gentlest, gentler)
-1. Kind; not harsh, stern or severe (- soft)
+- Adjective: gentle (derived forms: gentlest, gentler)
+1. Kind; not harsh, stern or severe (= soft)
 "a vein of gentle irony"; "poked gentle fun at him"; "a gentle reprimand";
  
 2. Having or showing a kindly or tender nature
@@ -61,25 +61,25 @@ ${englishMeaningConst.text}
 3. Quiet and soothing
 "a gentle voice"; "a gentle nocturne"
  
-4. Easily handled or managed (- docile)
+4. Easily handled or managed (= docile)
 "a gentle old horse, docile and obedient";
  
-5. Having little impact (- easy, soft)
+5. Having little impact (= easy, soft)
 "gentle rain"; "a gentle breeze";
  
-6. Marked by moderate steepness (- easy)
+6. Marked by moderate steepness (= easy)
 "a gentle slope";
  
-7. [archaic] Belonging to or characteristic of the nobility or aristocracy (- aristocratic, aristocratical, blue, blue-blooded, patrician)
+7. [archaic] Belonging to or characteristic of the nobility or aristocracy (= aristocratic, aristocratical, blue, blue-blooded, patrician)
 "of gentle blood";
 
-- Verb: gentle (Derived forms: gentling, gentles, gentled)
-1. Cause to be more favourably inclined; gain the good will of (- pacify, lenify, conciliate, assuage, appease, mollify, placate, gruntle)
+- Verb: gentle (derived forms: gentling, gentles, gentled)
+1. Cause to be more favourably inclined; gain the good will of (= pacify, lenify, conciliate, assuage, appease, mollify, placate, gruntle)
 "She managed to gentle the angry customer";
  
 2. Stroke soothingly
  
-3. [archaic] Give a title to someone; make someone a member of the nobility (- ennoble, entitle)
+3. [archaic] Give a title to someone; make someone a member of the nobility (= ennoble, entitle)
 """,
   );
 

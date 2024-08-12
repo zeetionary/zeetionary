@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: gladly
-1. With pleasure (- lief [archaic], fain [archaic])
+1. With pleasure (= lief [archaic], fain [archaic])
 "this was gladly agreed to";
 """,
   );
@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە پێخۆش‌بوونەوە، بە دڵەوە، بە خۆشحاڵی‌یەوە
 """),
-// With short examples define "gladly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) ئەوەی کە ئامادەییت ھەبێت"""),
                     SentencesRow(

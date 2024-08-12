@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gory (Derived forms: goriest, gorier)
-1. Covered with blood (- bloodstained)
+- Adjective: gory (derived forms: goriest, gorier)
+1. Covered with blood (= bloodstained)
 "a gory dagger";
  
-2. Accompanied by bloodshed (- sanguinary, sanguineous, slaughterous, butcherly)
+2. Accompanied by bloodshed (= sanguinary, sanguineous, slaughterous, butcherly)
 "this bitter and gory war";
 """,
   );

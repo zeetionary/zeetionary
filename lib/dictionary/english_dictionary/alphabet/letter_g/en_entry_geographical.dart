@@ -53,9 +53,9 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: geographical
-1. Of or relating to the science of geography (- geographic)
+1. Of or relating to the science of geography (= geographic)
  
-2. Determined by geography (- geographic)
+2. Determined by geography (= geographic)
 "the north and south geographical poles";
 """,
   );

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glassware (Derived forms: glasswares)
-1. An article of tableware made of glass (- glasswork)
+- Noun: glassware (derived forms: glasswares)
+1. An article of tableware made of glass (= glasswork)
 "destructible glassware";
 """,
   );

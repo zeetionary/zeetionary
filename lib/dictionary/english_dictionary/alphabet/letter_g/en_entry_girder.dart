@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: girder (Derived forms: girders)
+- Noun: girder (derived forms: girders)
 1. A beam made usually of steel; a main support in a structure
 """,
   );

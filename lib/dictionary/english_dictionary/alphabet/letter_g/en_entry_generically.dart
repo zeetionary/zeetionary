@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: generically
-1. Without regard to specific details or exceptions (- broadly, loosely, broadly speaking, generally)
+1. Without regard to specific details or exceptions (= broadly, loosely, broadly speaking, generally)
  
 2. Without a trademark or brand name
 "we market these drugs generically"

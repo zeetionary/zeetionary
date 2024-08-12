@@ -51,19 +51,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gleam (Derived forms: gleams, gleamed, gleaming)
-1. Be shiny, as if wet (- glitter, glisten, glint, shine)
+- Verb: gleam (derived forms: gleams, gleamed, gleaming)
+1. Be shiny, as if wet (= glitter, glisten, glint, shine)
 "His eyes were gleaming";
  
-2. Shine brightly, like a star or a light (- glimmer)
+2. Shine brightly, like a star or a light (= glimmer)
  
 3. To shine with faint or brief light
 "A terrible thought gleamed in her mind"
 
-- Noun: gleam (Derived forms: gleams)
-1. An appearance of reflected light (- gleaming, glow, lambency)
+- Noun: gleam (derived forms: gleams)
+1. An appearance of reflected light (= gleaming, glow, lambency)
  
-2. A flash of light (especially reflected light) (- gleaming, glimmer)
+2. A flash of light (especially reflected light) (= gleaming, glimmer)
 """,
   );
 

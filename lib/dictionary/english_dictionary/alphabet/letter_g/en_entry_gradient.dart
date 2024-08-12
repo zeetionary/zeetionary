@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gradient (Derived forms: gradients)
+- Noun: gradient (derived forms: gradients)
 1. A graded change in the magnitude of some physical quantity or dimension
  
-2. The property possessed by a line or surface that departs from the horizontal (- slope)
+2. The property possessed by a line or surface that departs from the horizontal (= slope)
 "a five-degree gradient";
 """,
   );

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glade (Derived forms: glades)
-1. A tract of land with few or no trees in the middle of a wooded area (- clearing)
+- Noun: glade (derived forms: glades)
+1. A tract of land with few or no trees in the middle of a wooded area (= clearing)
 """,
   );
 

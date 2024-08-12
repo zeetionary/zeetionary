@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garbage (Derived forms: garbages)
-1. Food that is discarded (as from a kitchen) (- refuse, food waste, scraps)
+- Noun: garbage (derived forms: garbages)
+1. Food that is discarded (as from a kitchen) (= refuse, food waste, scraps)
  
-2. A worthless message (- drivel)
+2. A worthless message (= drivel)
  
 3. A receptacle where waste can be discarded
 "she tossed the mouldy bread into the garbage"

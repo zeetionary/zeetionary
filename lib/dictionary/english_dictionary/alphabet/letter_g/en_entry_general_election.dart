@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: general election (Derived forms: general elections)
+- Noun: general election (derived forms: general elections)
 1. A national or state election; candidates are chosen in all constituencies
 """,
   );

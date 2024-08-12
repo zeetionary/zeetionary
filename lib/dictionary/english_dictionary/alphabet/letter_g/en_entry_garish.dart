@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: garish
-1. Tastelessly showy (- brassy [informal], cheap, flash [informal], flashy, gaudy, gimcrack, loud, meretricious, tacky [informal], tatty [informal], tawdry, trashy)
+1. Tastelessly showy (= brassy [informal], cheap, flash [informal], flashy, gaudy, gimcrack, loud, meretricious, tacky [informal], tatty [informal], tawdry, trashy)
 "garish colours";
 """,
   );

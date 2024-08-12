@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goddess (Derived forms: goddesses)
+- Noun: goddess (derived forms: goddesses)
 1. A female deity
  
 2. A woman admired for being especially physically attractive, charming or intelligent
@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خواژن، خێوی ژن، خوابانوو، بانووخوا
 """),
-// With short examples define "goddess", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) خوای مێینە"""),
                     SentencesRow(
                       englishText:

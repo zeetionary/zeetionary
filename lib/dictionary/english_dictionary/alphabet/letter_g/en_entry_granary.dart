@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: granary (Derived forms: granaries)
-1. A storehouse for threshed grain or animal feed (- garner)
+- Noun: granary (derived forms: granaries)
+1. A storehouse for threshed grain or animal feed (= garner)
 """,
   );
 

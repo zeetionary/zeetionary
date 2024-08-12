@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: golf (Derived forms: golfs)
-1. A game played on a large open course with 9 or 18 holes; the object is to use as few strokes as possible in playing all the holes (- golf game)
+- Noun: golf (derived forms: golfs)
+1. A game played on a large open course with 9 or 18 holes; the object is to use as few strokes as possible in playing all the holes (= golf game)
 
-- Verb: golf (Derived forms: golfing, golfs, golfed)
+- Verb: golf (derived forms: golfing, golfs, golfed)
 1. Play golf
 """,
   );
@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "golf", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) یاریی گۆڵف"""),
                     SentencesRow(
                       englishText: """I play golf every weekend.""",

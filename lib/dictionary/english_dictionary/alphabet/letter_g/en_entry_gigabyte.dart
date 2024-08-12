@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gigabyte (Derived forms: gigabytes)
-1. A unit of information equal to 1000 megabytes or 10^9 (1,000,000,000) bytes (- G, GB, gig [informal])
+- Noun: gigabyte (derived forms: gigabytes)
+1. A unit of information equal to 1000 megabytes or 10^9 (1,000,000,000) bytes (= G, GB, gig [informal])
  
-2. A unit of information equal to 1024 mebibytes or 2^30 (1,073,741,824) bytes (- gibibyte, G, GB, GiB, gig [informal])
+2. A unit of information equal to 1024 mebibytes or 2^30 (1,073,741,824) bytes (= gibibyte, G, GB, GiB, gig [informal])
 """,
   );
 

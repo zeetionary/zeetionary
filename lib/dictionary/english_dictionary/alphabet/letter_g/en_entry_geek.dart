@@ -51,16 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: geek (Derived forms: geeks)
-1. [informal] A person with an unusual or odd personality (- eccentric, eccentric person, flake [N. Amer, informal], oddball [informal], dag [Austral, NZ, informal])
+- Noun: geek (derived forms: geeks)
+1. [informal] A person with an unusual or odd personality (= eccentric, eccentric person, flake [N. Amer, informal], oddball [informal], dag [Austral, NZ, informal])
  
 2. A knowledgeable and obsessive computer enthusiast
  
-3. Someone who is very knowledgeable and enthusiastic (or obsessive) about a specific subject (- wonk [informal])
+3. Someone who is very knowledgeable and enthusiastic (or obsessive) about a specific subject (= wonk [informal])
  
 4. [informal] A carnival performer who does disgusting acts
 
-- Verb: geek (Derived forms: geeked, geeking, geeks)
+- Verb: geek (derived forms: geeked, geeking, geeks)
 Usage: informal
 1. To be intoxicated
 """,

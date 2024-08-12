@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: genome (Derived forms: genomes)
+- Noun: genome (derived forms: genomes)
 1. The ordering of genes in a haploid set of chromosomes of a particular organism; the full DNA sequence of an organism
 "the human genome contains approximately three billion chemical base pairs"
 """,

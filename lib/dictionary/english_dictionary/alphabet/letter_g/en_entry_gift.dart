@@ -51,17 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gift (Derived forms: gifts)
+- Noun: gift (derived forms: gifts)
 1. Something acquired without compensation
  
-2. A natural ability or quality (- endowment, talent, natural endowment)
+2. A natural ability or quality (= endowment, talent, natural endowment)
  
-3. The act of giving (- giving)
+3. The act of giving (= giving)
 
-- Verb: gift (Derived forms: gifts, gifting, gifted)
-1. Give qualities or abilities to (- endow, indue, empower, invest, endue)
+- Verb: gift (derived forms: gifts, gifting, gifted)
+1. Give qualities or abilities to (= endow, indue, empower, invest, endue)
  
-2. Give as a present; make a gift of (- give, present)
+2. Give as a present; make a gift of (= give, present)
 """,
   );
 
@@ -224,7 +224,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دیاری، پێشکەشی، خەڵات،	بەخشین، پێدان، (ماف) بەخشین،	توانایی، بەھرە، مرخ،	مفت، خۆڕایی، ئاسان، وەک ئاوخواردنەوە
 """),
-// With short examples define "gift", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) دیاری"""),
                     const AlsoEnglishckb(word: "ھەروەھا: present"),
                     SentencesRow(

@@ -53,13 +53,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: grouse (Derived forms: grouse)
+1. (game bird) flesh of any of various grouse of the family Tetraonidae; usually roasted; flesh too dry to broil
+ 
+2. Popular game bird having a plump body and feathered legs and feet
 
-EnglishEntrygrouse grouse
-WORD_WEB grouse grouse grouse
-haʊʊʊʊʊʊʊ4
+- Verb: grouse (Derived forms: grouses, groused, grousing)
+1. Hunt grouse
+ 
+2. Complain (- gripe, bitch [informal], crab [informal], beef [informal], squawk, bellyache [informal], holler [informal])
+"What was he grousing about?";
+
+- Adjective: grouse
+Usage: Austral, NZ, informal
+1. Excellent (- bang-up [N. Amer, informal], bully [informal], corking [Brit, informal], cracking [Brit, informal], dandy, great, groovy [informal], keen, neat, nifty [informal], not bad [informal], peachy, slap-up [informal], swell [informal], smashing [Brit, informal], old, not half bad [informal], ripper [Austral, informal], lovely)
+"he did a grouse job";
 """,
   );
-// 188888880002200
 
   final String keyword = "grouse";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -943,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """grouse""",
                       // alsoEnglishWord: "also: grouse",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɡraʊs/""",
+                      americanText: """IpaUS: /ɡraʊs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -987,8 +997,7 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "grouse", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) باڵندەیەک کە جەستەی قەڵەوە و پەڕ لەسەر لاقی هەیە، و خەڵکی بۆ وەرزش یان گۆشتەکەی تەقەی لێ دەکەن؛ گۆشتی ئەم باڵندە"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555
 """,
@@ -2135,19 +2144,18 @@ haʊʊʊʊʊʊʊ4
 }
 
 // 188888880002200
-const String _videoIdend = '';
-const double _startSecondsend = 000000000000000000000000000;
-const String _videoIdone = '';
-const double _startSecondsone = 000000000000000000000000000;
-const String _videoIdtwo = '';
-const double _startSecondstwo = 000000000000000000000000000;
-const String _videoIdthree = '';
-const double _startSecondsthree = 000000000000000000000000000;
-const String _videoIdfour = '';
-const double _startSecondsfour = 000000000000000000000000000;
-const String _videoIdfive = '';
-const double _startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+const String _videoIdend = 'https://youtu.be/ammbKPg0aqw?t=';
+const double _startSecondsend = 000000000000000000000000000427;
+const String _videoIdone = 'https://youtu.be/9dnN82DsQ2k?t=';
+const double _startSecondsone = 000000000000000000000000000397;
+const String _videoIdtwo = 'https://youtu.be/V-0UCEWtLa0?t=';
+const double _startSecondstwo = 000000000000000000000000000751;
+const String _videoIdthree = 'https://youtu.be/IVUjJpk0qWc?t=';
+const double _startSecondsthree = 0000000000000000000000000001628;
+const String _videoIdfour = 'https://youtu.be/HpRQx020GDE?t=';
+const double _startSecondsfour = 000000000000000000000000000435;
+const String _videoIdfive = 'https://youtu.be/y-E_n0q0ttI?t=';
+const double _startSecondsfive = 000000000000000000000000000376;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

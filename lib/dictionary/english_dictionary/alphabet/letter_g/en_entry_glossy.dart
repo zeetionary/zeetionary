@@ -51,20 +51,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: glossy (Derived forms: glossiest, glossier)
-1. Based on pretence; deceptively pleasing (- gilded, meretricious, specious)
+- Adjective: glossy (derived forms: glossiest, glossier)
+1. Based on pretence; deceptively pleasing (= gilded, meretricious, specious)
  
-2. (of paper and fabric and leather) having a surface made smooth and shiny especially by pressing between rollers (- calendered)
+2. (of paper and fabric and leather) having a surface made smooth and shiny especially by pressing between rollers (= calendered)
 "glossy paper";
  
-3. Reflecting light (- glistening, lustrous, sheeny, shiny, shining)
+3. Reflecting light (= glistening, lustrous, sheeny, shiny, shining)
 "the horse's glossy coat";
  
-4. Superficially attractive and stylish; suggesting wealth or expense (- showy)
+4. Superficially attractive and stylish; suggesting wealth or expense (= showy)
 "a glossy TV series";
 
-- Noun: glossy (Derived forms: glossies)
-1. A magazine printed on good quality paper (- slick [N. Amer], slick magazine)
+- Noun: glossy (derived forms: glossies)
+1. A magazine printed on good quality paper (= slick [N. Amer], slick magazine)
  
 2. A photograph that is printed on smooth shiny paper
 """,
@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: درەوشاوە، بریقەدار، مشت‌وماڵ‌دراو، ورشن، بریسکەدار،	خۆش‌ڕواڵەت، ڕواڵەت‌جوان
 """),
-// With short examples define "glossy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) لووس و درەوشاوە"""),
                     SentencesRow(

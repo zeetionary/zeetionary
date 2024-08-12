@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: glassy (Derived forms: glassiest, glassier)
+- Adjective: glassy (derived forms: glassiest, glassier)
 1. Resembling glass in smoothness and shininess and slickness
 "the glassy surface of the lake"; "the pavement was...glassy with water"
  
-2. (used of eyes) lacking liveliness (- glazed)
+2. (used of eyes) lacking liveliness (= glazed)
 "a glassy stare";
  
-3. (of ceramics) having the surface made shiny and nonporous by fusing a vitreous solution to it (- vitreous, vitrified)
+3. (of ceramics) having the surface made shiny and nonporous by fusing a vitreous solution to it (= vitreous, vitrified)
 "glassy porcelain";
 """,
   );
@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: وەک شووشە، شووشەئاسا، شووشەیی، جام‌ئاسا،	(ئاو) زوڵاڵ، ڕوون،	(چاو) مات، بێ‌ھەست
 """),
-// With short examples define "glassy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) وەک شووشە؛ ساف و لووس"""),
                     SentencesRow(

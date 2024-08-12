@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gourd (Derived forms: gourds)
+- Noun: gourd (derived forms: gourds)
 1. Any of numerous inedible fruits with hard rinds
  
-2. Any vine of the family Cucurbitaceae that bears fruits with hard rinds (- gourd vine)
+2. Any vine of the family Cucurbitaceae that bears fruits with hard rinds (= gourd vine)
  
-3. Bottle made from the dried shell of a bottle gourd (- calabash)
+3. Bottle made from the dried shell of a bottle gourd (= calabash)
 """,
   );
 

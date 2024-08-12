@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: generally
-1. Most of the time; in most cases (- by and large, more often than not, mostly, in general, on the whole, typically, ordinarily, as a rule, usually, normally)
+1. Most of the time; in most cases (= by and large, more often than not, mostly, in general, on the whole, typically, ordinarily, as a rule, usually, normally)
 "generally it doesn't rain much here";
  
-2. Without distinction of one from others (- in general, in the main)
+2. Without distinction of one from others (= in general, in the main)
 "he is interested in snakes generally";
  
-3. Without regard to specific details or exceptions (- broadly, loosely, broadly speaking, generically)
+3. Without regard to specific details or exceptions (= broadly, loosely, broadly speaking, generically)
 "he interprets the law generally";
 """,
   );

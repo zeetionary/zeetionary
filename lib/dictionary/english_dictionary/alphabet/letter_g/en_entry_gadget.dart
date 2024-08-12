@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gadget (Derived forms: gadgets)
-1. A device or control that is very useful for a particular job (- appliance, contraption, contrivance, convenience, gizmo [informal], gismo [informal], widget)
+- Noun: gadget (derived forms: gadgets)
+1. A device or control that is very useful for a particular job (= appliance, contraption, contrivance, convenience, gizmo [informal], gismo [informal], widget)
 "The company trademarked their new gadget";
 """,
   );

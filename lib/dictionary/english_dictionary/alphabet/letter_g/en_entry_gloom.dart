@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gloom (Derived forms: glooms)
-1. A state of partial or total darkness (- somberness [US], sombreness [Brit, Cdn])
+- Noun: gloom (derived forms: glooms)
+1. A state of partial or total darkness (= somberness [US], sombreness [Brit, Cdn])
 "he struck a match to dispel the gloom";
  
-2. A feeling of melancholy apprehension (- gloominess, somberness [US], sombreness [Brit, Cdn])
+2. A feeling of melancholy apprehension (= gloominess, somberness [US], sombreness [Brit, Cdn])
  
-3. An atmosphere of depression and melancholy (- gloominess, glumness)
+3. An atmosphere of depression and melancholy (= gloominess, glumness)
 "gloom pervaded the office";
 """,
   );
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تاریکی، لێڵی، ماتی،	خەم، خەفەت، پەژارە، زڤڕی، کۆڤان، خوسپە، دڵتەنگی، ناڕەحەتی، ناھومێدی، دڵساردی، دڵتەنگی
 """),
-// With short examples define "gloom", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ھەستی دڵتەنگی و بێ‌ھیوایی"""),
                     AlsoEnglishckblink(

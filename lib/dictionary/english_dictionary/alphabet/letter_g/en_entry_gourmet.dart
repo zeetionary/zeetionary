@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gourmet (Derived forms: gourmets)
-1. A person devoted to refined sensuous enjoyment (especially good food and drink) (- epicure, gastronome, bon vivant, epicurean, foodie, gastronomist)
+- Noun: gourmet (derived forms: gourmets)
+1. A person devoted to refined sensuous enjoyment (especially good food and drink) (= epicure, gastronome, bon vivant, epicurean, foodie, gastronomist)
 
 - Adjective: gourmet
 1. (of food) fine; high-quality

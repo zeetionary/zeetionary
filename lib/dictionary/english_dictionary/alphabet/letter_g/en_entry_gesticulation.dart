@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gesticulation (Derived forms: gesticulations)
+- Noun: gesticulation (derived forms: gesticulations)
 1. A deliberate and vigorous gesture or motion
 """,
   );

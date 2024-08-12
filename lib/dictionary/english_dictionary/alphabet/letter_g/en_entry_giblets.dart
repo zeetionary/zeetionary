@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: giblets
-1. Edible viscera of a fowl (- giblet)
+1. Edible viscera of a fowl (= giblet)
 """,
   );
 

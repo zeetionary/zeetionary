@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: goggle (Derived forms: goggling, goggled, goggles)
-1. Look with amazement; look stupidly (- gape, gawp [Brit, informal], gawk)
+- Verb: goggle (derived forms: goggling, goggled, goggles)
+1. Look with amazement; look stupidly (= gape, gawp [Brit, informal], gawk)
 "he was goggling at me, close to panic";
 
-- Noun: goggle (Derived forms: goggles)
+- Noun: goggle (derived forms: goggles)
 1. A wide-eyed stare
  
 2. (used in plural) see goggles

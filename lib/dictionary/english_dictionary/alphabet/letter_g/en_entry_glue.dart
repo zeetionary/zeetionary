@@ -51,15 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glue (Derived forms: glued, glueing, gluing, glues)
-1. Join or attach with or as if with glue (- paste)
+- Verb: glue (derived forms: glued, glueing, gluing, glues)
+1. Join or attach with or as if with glue (= paste)
 "glue the sign on the wall";
  
 2. Be fixed as if by glue
 "His eyes were glued on her"
 
-- Noun: glue (Derived forms: glues)
-1. Cement consisting of a sticky substance that is used as an adhesive (- gum, mucilage)
+- Noun: glue (derived forms: glues)
+1. Cement consisting of a sticky substance that is used as an adhesive (= gum, mucilage)
 """,
   );
 

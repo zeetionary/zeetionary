@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gamble (Derived forms: gambled, gambling, gambles)
-1. Take a risk in the hope of a favourable outcome (- chance, risk, hazard, take chances, adventure, run a risk, take a chance)
+- Verb: gamble (derived forms: gambled, gambling, gambles)
+1. Take a risk in the hope of a favourable outcome (= chance, risk, hazard, take chances, adventure, run a risk, take a chance)
 "When you buy these stocks you are gambling";
  
 2. Play games for money

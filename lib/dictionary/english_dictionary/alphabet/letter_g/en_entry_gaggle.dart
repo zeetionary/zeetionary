@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gaggle (Derived forms: gaggles)
+- Noun: gaggle (derived forms: gaggles)
 1. A flock of geese
 
-- Verb: gaggle (Derived forms: gaggled, gaggling, gaggles)
-1. Make a noise characteristic of a goose (- cackle)
+- Verb: gaggle (derived forms: gaggled, gaggling, gaggles)
+1. Make a noise characteristic of a goose (= cackle)
 """,
   );
 

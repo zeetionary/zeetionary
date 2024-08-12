@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: giveaway (Derived forms: giveaways)
+- Noun: giveaway (derived forms: giveaways)
 1. A gift of public land or resources for the private gain of a limited group
  
 2. An unintentional disclosure
  
-3. A television or radio program in which contestants compete for awards (- game show)
+3. A television or radio program in which contestants compete for awards (= game show)
 """,
   );
 

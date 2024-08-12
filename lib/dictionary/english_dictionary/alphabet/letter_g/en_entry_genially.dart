@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: genially
-1. In an affable manner (- affably, amiably)
+1. In an affable manner (= affably, amiably)
 "'Come and visit me,' he said genially";
 """,
   );

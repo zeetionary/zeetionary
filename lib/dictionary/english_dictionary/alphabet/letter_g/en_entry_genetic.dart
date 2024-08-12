@@ -52,16 +52,16 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: genetic 
-1. Occurring among members of a family usually by heredity (- familial, hereditary, inherited, transmitted, transmissible)
+1. Occurring among members of a family usually by heredity (= familial, hereditary, inherited, transmitted, transmissible)
 "genetic traits";
  
-2. Of or relating to or produced by or being a gene (- genic, genetical)
+2. Of or relating to or produced by or being a gene (= genic, genetical)
 "genetic code";
  
 3. Pertaining to or referring to origin
 "genetic history reconstructs the origins of a literary work"
  
-4. Of or relating to the science of genetics (- genetical)
+4. Of or relating to the science of genetics (= genetical)
 "genetic research";
 """,
   );

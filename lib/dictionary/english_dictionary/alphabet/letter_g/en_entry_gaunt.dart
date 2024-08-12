@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gaunt (Derived forms: gauntest, gaunter)
-1. Very thin especially from disease, hunger or cold (- cadaverous, emaciated, haggard, pinched, skeletal, wasted)
+- Adjective: gaunt (derived forms: gauntest, gaunter)
+1. Very thin especially from disease, hunger or cold (= cadaverous, emaciated, haggard, pinched, skeletal, wasted)
 "a nightmare population of gaunt men and skeletal boys";
  
 2. Bleak, barren and desolate

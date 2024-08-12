@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: genital
-1. Of or relating to the external sex organs (- venereal)
+1. Of or relating to the external sex organs (= venereal)
 "genital herpes";
 """,
   );

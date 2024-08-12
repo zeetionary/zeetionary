@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goulash (Derived forms: goulashes)
-1. A rich meat stew highly seasoned with paprika (- Hungarian goulash, gulyas)
+- Noun: goulash (derived forms: goulashes)
+1. A rich meat stew highly seasoned with paprika (= Hungarian goulash, gulyas)
 """,
   );
 

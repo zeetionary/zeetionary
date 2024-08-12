@@ -51,20 +51,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: graft (Derived forms: grafts)
-1. (surgery) tissue or organ transplanted from a donor to a recipient; in some cases the patient can be both donor and recipient (- transplant)
+- Noun: graft (derived forms: grafts)
+1. (surgery) tissue or organ transplanted from a donor to a recipient; in some cases the patient can be both donor and recipient (= transplant)
  
-2. The practice of offering something (usually money) in order to gain an illicit advantage (- bribery, palm-greasing [informal])
+2. The practice of offering something (usually money) in order to gain an illicit advantage (= bribery, palm-greasing [informal])
  
-3. The act of grafting something onto something else (- grafting)
+3. The act of grafting something onto something else (= grafting)
  
 4. [Brit] Hard work
 
-- Verb: graft (Derived forms: grafted, grafts, grafting)
-1. Cause to grow together parts from different plants (- engraft, ingraft [archaic])
+- Verb: graft (derived forms: grafted, grafts, grafting)
+1. Cause to grow together parts from different plants (= engraft, ingraft [archaic])
 "graft the cherry tree branch onto the plum tree";
  
-2. Place the organ of a donor into the body of a recipient (- transplant)
+2. Place the organ of a donor into the body of a recipient (= transplant)
 """,
   );
 

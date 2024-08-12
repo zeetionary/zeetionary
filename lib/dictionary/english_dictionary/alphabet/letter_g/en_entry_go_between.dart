@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: go-between (Derived forms: go-betweens)
-1. A negotiator who acts as a link between parties (- mediator, intermediator, intermediary, intercessor, intermediate)
+- Noun: go-between (derived forms: go-betweens)
+1. A negotiator who acts as a link between parties (= mediator, intermediator, intermediary, intercessor, intermediate)
 """,
   );
 

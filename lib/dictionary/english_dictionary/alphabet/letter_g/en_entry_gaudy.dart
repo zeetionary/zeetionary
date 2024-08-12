@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gaudy (Derived forms: gaudier, gaudiest)
-1. Tastelessly showy (- brassy [informal], cheap, flash [informal], flashy, garish, gimcrack, loud, meretricious, tacky [informal], tatty [informal], tawdry, trashy)
+- Adjective: gaudy (derived forms: gaudier, gaudiest)
+1. Tastelessly showy (= brassy [informal], cheap, flash [informal], flashy, garish, gimcrack, loud, meretricious, tacky [informal], tatty [informal], tawdry, trashy)
 "a gaudy costume";
  
-2. (used especially of clothes) marked by conspicuous display (- flashy, jazzy, showy, sporty)
+2. (used especially of clothes) marked by conspicuous display (= flashy, jazzy, showy, sporty)
 
-- Noun: gaudy (Derived forms: gaudies)
+- Noun: gaudy (derived forms: gaudies)
 Usage: Brit
 1. (Britain) a celebratory reunion feast or entertainment held at a college
 """,

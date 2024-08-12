@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gimmick (Derived forms: gimmicks)
-1. A trick or device used to achieve some end, esp. sales or publicity (- device)
+- Noun: gimmick (derived forms: gimmicks)
+1. A trick or device used to achieve some end, esp. sales or publicity (= device)
 "it was a great sales gimmick"; "a cheap promotions gimmick for greedy businessmen";
 """,
   );

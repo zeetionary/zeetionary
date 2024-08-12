@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: Gaelic
-1. Relating to or characteristic of the Celts (- Celtic)
+1. Relating to or characteristic of the Celts (= Celtic)
 
-- Noun: Gaelic (Derived forms: Gaelics)
-1. Any of several related languages of the Celts in Ireland and Scotland (- Goidelic, Erse, Goidelic language, Erse language, Gaelic language)
+- Noun: Gaelic (derived forms: Gaelics)
+1. Any of several related languages of the Celts in Ireland and Scotland (= Goidelic, Erse, Goidelic language, Erse language, Gaelic language)
 """,
   );
 

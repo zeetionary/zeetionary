@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: geological
-1. Of or relating to or based on geology (- geologic)
+1. Of or relating to or based on geology (= geologic)
 "geological formations";
 """,
   );

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glacier (Derived forms: glaciers)
+- Noun: glacier (derived forms: glaciers)
 1. A slowly moving mass of ice
 """,
   );

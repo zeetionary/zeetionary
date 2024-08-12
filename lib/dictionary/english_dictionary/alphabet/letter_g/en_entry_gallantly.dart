@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: gallantly
-1. In a gallant manner (- chivalrously)
+1. In a gallant manner (= chivalrously)
 "he gallantly offered to take her home";
 """,
   );

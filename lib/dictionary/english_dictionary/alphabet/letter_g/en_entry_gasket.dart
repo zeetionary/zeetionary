@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gasket (Derived forms: gaskets)
+- Noun: gasket (derived forms: gaskets)
 1. Seal consisting of a ring for packing pistons or sealing a pipe joint
 """,
   );

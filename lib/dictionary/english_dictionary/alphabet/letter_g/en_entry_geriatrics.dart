@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: geriatrics
-1. The branch of medical science that deals with diseases and problems specific to old people (- gerontology)
+1. The branch of medical science that deals with diseases and problems specific to old people (= gerontology)
 """,
   );
 

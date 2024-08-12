@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gamut (Derived forms: gamuts)
+- Noun: gamut (derived forms: gamuts)
 1. A complete extent or range:
  
 2. (music) the entire scale of musical notes

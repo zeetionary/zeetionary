@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 1. In a graceful manner
 "she swooped gracefully"
  
-2. In a gracious or graceful manner (- graciously)
+2. In a gracious or graceful manner (= graciously)
 "he did not have a chance to grow up gracefully";
 """,
   );

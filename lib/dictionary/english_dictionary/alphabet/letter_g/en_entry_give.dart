@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: give (Derived forms: given, gave, giving, gives)
+- Verb: give (derived forms: given, gave, giving, gives)
 1. Cause to have, in the abstract sense or physical sense
 "She gave him a black eye"; "The draft gave me a cold"
  
-2. Be the cause or source of (- yield, afford)
+2. Be the cause or source of (= yield, afford)
 "He gave me a lot of trouble";
  
 3. Transfer possession of something concrete or abstract to somebody
@@ -64,31 +64,31 @@ ${englishMeaningConst.text}
 4. Convey or reveal information
 "Give one's name"
  
-5. Convey, as of a compliment, regards, attention, etc.; bestow (- pay)
+5. Convey, as of a compliment, regards, attention, etc.; bestow (= pay)
 "give the orders"; "Give him my best regards";
  
-6. Organize or be responsible for (- hold, throw, have, make)
+6. Organize or be responsible for (= hold, throw, have, make)
 "give a course";
  
-7. Convey or communicate; of a smile, a look, a physical gesture (- throw)
+7. Convey or communicate; of a smile, a look, a physical gesture (= throw)
 "She gave me a dirty look";
  
-8. Give as a present; make a gift of (- gift, present)
+8. Give as a present; make a gift of (= gift, present)
 "What will you give her for her birthday?";
  
-9. Cause to happen or be responsible for (- yield)
+9. Cause to happen or be responsible for (= yield)
 "His two singles gave the team the victory";
  
-10. Dedicate (- pay, devote)
+10. Dedicate (= pay, devote)
 "give thought to"; "give priority to";
  
-11. Give or supply (- render, yield, return, generate)
+11. Give or supply (= render, yield, return, generate)
 "The estate gives some revenue for the family";
  
-12. Transmit (knowledge or skills) (- impart, leave, pass on)
+12. Transmit (knowledge or skills) (= impart, leave, pass on)
 "give a secret to the Russians";
  
-13. Bring about (- establish)
+13. Bring about (= establish)
 "The trompe l'oeil-illusion gives depth";
  
 14. Leave with; give temporarily
@@ -97,37 +97,37 @@ ${englishMeaningConst.text}
 15. Emit or utter
 "Give a gulp"; "give a yelp"
  
-16. Endure the loss of (- sacrifice)
+16. Endure the loss of (= sacrifice)
 "He gave his life for his children"; "I gave two sons to the war";
  
-17. Place into the hands or custody of (- pass, hand, reach, pass on, turn over)
+17. Place into the hands or custody of (= pass, hand, reach, pass on, turn over)
 "give me the spoon, please";
  
-18. Use entirely for a specific person, activity, or cause (- dedicate, consecrate, commit, devote)
+18. Use entirely for a specific person, activity, or cause (= dedicate, consecrate, commit, devote)
 "give one's talents to a good cause";
  
 19. Give (as medicine)
 "I gave him the drug"
  
-20. Give or convey physically (- apply)
+20. Give or convey physically (= apply)
 "She gave him First Aid"; "I gave him a punch in the nose";
  
-21. Bestow (- render)
+21. Bestow (= render)
 "give homage";
  
-22. Allow, esp. in an official capacity (- grant)
+22. Allow, esp. in an official capacity (= grant)
 "give a divorce";
  
-23. Move in order to make room for someone or something (- move over, give way, ease up, yield)
+23. Move in order to make room for someone or something (= move over, give way, ease up, yield)
 "The park gave way to a supermarket";
  
-24. Give food to (- feed)
+24. Give food to (= feed)
 "don't give the child this tough meat";
  
-25. Provide a part of a whole amount; give towards some cause (- contribute, chip in [informal], kick in)
+25. Provide a part of a whole amount; give towards some cause (= contribute, chip in [informal], kick in)
 "I gave at the office";
  
-26. Break down, literally or metaphorically (- collapse, fall in, cave in, give way, break, founder)
+26. Break down, literally or metaphorically (= collapse, fall in, cave in, give way, break, founder)
 "The wall gave in"; "The roof finally gave under the weight of the ice"; "The wall gave way";
  
 27. Estimate the duration or outcome of something
@@ -139,7 +139,7 @@ ${englishMeaningConst.text}
 29. Deliver in exchange or recompense
 "I'll give you three books for four CDs"
  
-30. Provide entry or access to (- afford, open)
+30. Provide entry or access to (= afford, open)
 "The French doors give onto a terrace";
  
 31. Present to view
@@ -148,7 +148,7 @@ ${englishMeaningConst.text}
 32. (performing arts) perform for an audience
 "Pollini is giving another concert in New York"
  
-33. Be flexible under stress of physical force (- yield)
+33. Be flexible under stress of physical force (= yield)
 "This material doesn't give";
  
 34. Propose
@@ -184,8 +184,8 @@ ${englishMeaningConst.text}
 44. Proffer (a body part)
 "She gave her hand to her little sister"
 
-- Noun: give (Derived forms: gives)
-1. The elasticity of something that can be stretched and returns to its original length (- spring, springiness)
+- Noun: give (derived forms: gives)
+1. The elasticity of something that can be stretched and returns to its original length (= spring, springiness)
 """,
   );
 

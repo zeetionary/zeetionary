@@ -52,9 +52,9 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: graffiti 
-1. A rude decoration inscribed on rocks or walls (- graffito)
+1. A rude decoration inscribed on rocks or walls (= graffito)
 
-- Verb: graffiti (Derived forms: graffitiing, graffitied, graffities)
+- Verb: graffiti (derived forms: graffitiing, graffitied, graffities)
 1. Draw as graffiti
 """,
   );

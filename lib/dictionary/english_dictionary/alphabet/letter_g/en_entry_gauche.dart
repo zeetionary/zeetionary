@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: gauche (Derived forms: gaucher, gauchest)
-1. Lacking social polish (- graceless, unpolished)
+- Adjective: gauche (derived forms: gaucher, gauchest)
+1. Lacking social polish (= graceless, unpolished)
 "too gauche to leave the room when the conversation became intimate"; "their excellent manners always made me feel gauche";
 """,
   );

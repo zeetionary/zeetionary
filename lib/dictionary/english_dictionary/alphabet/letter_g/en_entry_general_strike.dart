@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: general strike (Derived forms: general strikes)
+- Noun: general strike (derived forms: general strikes)
 1. A coordinated work stoppage by a substantial proportion of the workers of a particular city, region or state, normally to achieve economic or political goals
 """,
   );

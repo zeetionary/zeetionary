@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gangster (Derived forms: gangsters)
-1. A criminal who is a member of gang (- mobster)
+- Noun: gangster (derived forms: gangsters)
+1. A criminal who is a member of gang (= mobster)
 """,
   );
 

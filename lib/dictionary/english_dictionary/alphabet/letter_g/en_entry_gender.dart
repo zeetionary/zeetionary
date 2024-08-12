@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gender (Derived forms: genders)
-1. A grammatical category in inflected languages governing the agreement between nouns and pronouns and adjectives; in some languages it is quite arbitrary but in Indo-European languages it is usually based on sex or animateness (- grammatical gender)
+- Noun: gender (derived forms: genders)
+1. A grammatical category in inflected languages governing the agreement between nouns and pronouns and adjectives; in some languages it is quite arbitrary but in Indo-European languages it is usually based on sex or animateness (= grammatical gender)
  
-2. The properties that distinguish organisms on the basis of their reproductive roles (- sex, sexuality)
+2. The properties that distinguish organisms on the basis of their reproductive roles (= sex, sexuality)
 "she didn't want to know the gender of the foetus";
 """,
   );

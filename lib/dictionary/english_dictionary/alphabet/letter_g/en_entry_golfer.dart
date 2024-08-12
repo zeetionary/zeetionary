@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: golfer (Derived forms: golfers)
-1. Someone who plays the game of golf (- golf player, linksman)
+- Noun: golfer (derived forms: golfers)
+1. Someone who plays the game of golf (= golf player, linksman)
 "the golfer went to the driving range to practice his pivot";
 """,
   );
@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گۆڵفەوان، گۆڵفزان، یاریزانی گۆڵف
 """),
-// With short examples define "golfer", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە یاریی گۆڵف دەکات"""),
                     SentencesRow(

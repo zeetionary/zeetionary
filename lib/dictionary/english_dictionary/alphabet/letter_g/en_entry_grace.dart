@@ -51,37 +51,37 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: grace (Derived forms: graces)
-1. Elegance and beauty of movement or expression (- gracility)
+- Noun: grace (derived forms: graces)
+1. Elegance and beauty of movement or expression (= gracility)
 "a beautiful figure which she used in subtle movements of unparalleled grace";
  
-2. (Christian theology) a state of sanctification by God; the state of one who is under such divine influence (- saving grace, state of grace)
+2. (Christian theology) a state of sanctification by God; the state of one who is under such divine influence (= saving grace, state of grace)
 "the conception of grace developed alongside the conception of sin"; "it was debated whether saving grace could be obtained outside the membership of the church"; "the Virgin lived in a state of grace";
  
-3. A sense of propriety and consideration for others (- seemliness)
+3. A sense of propriety and consideration for others (= seemliness)
 "a place where the company of others must be accepted with good grace";
  
-4. A disposition to kindness and compassion (- good will, goodwill)
+4. A disposition to kindness and compassion (= good will, goodwill)
 "the victor's grace in treating the vanquished";
  
-5. A period of time past the deadline for fulfilling an obligation during which a penalty that would be imposed for being late is waived, especially an extended period granted as a special favour (- grace period)
+5. A period of time past the deadline for fulfilling an obligation during which a penalty that would be imposed for being late is waived, especially an extended period granted as a special favour (= grace period)
 "The payment had originally been due on April 1 but we had a grace period which expired in June.";
  
-6. A short prayer of thanks before a meal (- blessing, thanksgiving)
+6. A short prayer of thanks before a meal (= blessing, thanksgiving)
 "their youngest son said grace";
  
-7. (Christian theology) the free and unmerited favour or beneficence of God (- grace of God, free grace)
+7. (Christian theology) the free and unmerited favour or beneficence of God (= grace of God, free grace)
 "God's grace is manifested in the salvation of sinners"; "there but for the grace of God go I"; "God's free grace is manifested in the salvation of sinners";
  
-8. A feeling of favourable regard (- favor [US], favour [Brit, Cdn])
+8. A feeling of favourable regard (= favor [US], favour [Brit, Cdn])
  
 9. Time allowed for someone to honour an obligation, pay a debt, etc.
 
-- Verb: grace (Derived forms: graces, graced, gracing)
-1. Make more attractive by adding ornament, colour, etc. (- decorate, adorn, ornament, embellish, beautify)
+- Verb: grace (derived forms: graces, graced, gracing)
+1. Make more attractive by adding ornament, colour, etc. (= decorate, adorn, ornament, embellish, beautify)
 "grace the room for the party";
  
-2. Serve to decorate and look nice (- deck, adorn, decorate, embellish, beautify)
+2. Serve to decorate and look nice (= deck, adorn, decorate, embellish, beautify)
 "Flowers graced the tables everywhere";
 """,
   );

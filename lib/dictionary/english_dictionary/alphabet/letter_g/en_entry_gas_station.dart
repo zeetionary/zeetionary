@@ -51,9 +51,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gas station (Derived forms: gas stations)
+- Noun: gas station (derived forms: gas stations)
 Usage: N. Amer (elsewhere: petrol station)
-1. A service station that sells gasoline (- gasoline station [N. Amer], filling station, petrol station [Brit])
+1. A service station that sells gasoline (= gasoline station [N. Amer], filling station, petrol station [Brit])
 """,
   );
 

@@ -51,23 +51,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gloss (Derived forms: glosses)
-1. The property of being smooth and shiny (- polish, glossiness, burnish)
+- Noun: gloss (derived forms: glosses)
+1. The property of being smooth and shiny (= polish, glossiness, burnish)
  
-2. An explanation or definition of an obscure word in a text (- rubric)
+2. An explanation or definition of an obscure word in a text (= rubric)
  
-3. An alphabetical list of technical terms in some specialized field of knowledge; usually published as an appendix to a text on that field (- glossary)
+3. An alphabetical list of technical terms in some specialized field of knowledge; usually published as an appendix to a text on that field (= glossary)
 "He appended a gloss to his novel where he used an invented language";
  
-4. An outward or token appearance or form that is deliberately misleading (- semblance, color [US], colour [Brit, Cdn])
+4. An outward or token appearance or form that is deliberately misleading (= semblance, color [US], colour [Brit, Cdn])
 "he tried to give his falsehood the gloss of moral sanction";
 
-Verb: gloss (Derived forms: glosses, glossed, glossing)
+Verb: gloss (derived forms: glosses, glossed, glossing)
 1. Give a shine or gloss to, usually by rubbing
  
-2. Provide interlinear explanations for words or phrases (- comment, annotate)
+2. Provide interlinear explanations for words or phrases (= comment, annotate)
  
-3. Give a deceptive explanation or excuse for (- color [US], colour [Brit, Cdn])
+3. Give a deceptive explanation or excuse for (= color [US], colour [Brit, Cdn])
 """,
   );
 

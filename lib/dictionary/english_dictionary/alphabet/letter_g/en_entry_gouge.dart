@@ -51,17 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: gouge (Derived forms: gouged, gouges, gouging)
-1. Cut out a groove or hollow using a sharp implement (- rout)
+- Verb: gouge (derived forms: gouged, gouges, gouging)
+1. Cut out a groove or hollow using a sharp implement (= rout)
  
-2. Force with the thumb (- force out)
+2. Force with the thumb (= force out)
 "gouge out his eyes";
  
-3. [informal] Obtain by coercion or intimidation (- extort, squeeze, rack [archaic], wring)
+3. [informal] Obtain by coercion or intimidation (= extort, squeeze, rack [archaic], wring)
 "They gouged money from the executive by threatening to reveal his past to the company boss";
 
-- Noun: gouge (Derived forms: gouges)
-1. An impression in a surface (as made by a blow) (- dent, ding, nick)
+- Noun: gouge (derived forms: gouges)
+1. An impression in a surface (as made by a blow) (= dent, ding, nick)
  
 2. And edge tool with a blade like a trough for cutting channels or grooves
  

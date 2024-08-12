@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: graduated
-1. Marked with or divided into degrees (- calibrated)
+1. Marked with or divided into degrees (= calibrated)
 "a graduated thermometer";
  
-2. Taking place by degrees (- gradational, gradatory)
+2. Taking place by degrees (= gradational, gradatory)
 """,
   );
 

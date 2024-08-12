@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: get-up-and-go
-1. Enterprising or ambitious drive (- energy, push)
+1. Enterprising or ambitious drive (= energy, push)
 "Europeans often laugh at American get-up-and-go";
 """,
   );

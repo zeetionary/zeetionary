@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gangway (Derived forms: gangways)
+- Noun: gangway (derived forms: gangways)
 1. A temporary passageway of planks (as over mud on a building site)
  
-2. A temporary bridge for getting on and off a vessel at dockside (- gangplank, gangboard)
+2. A temporary bridge for getting on and off a vessel at dockside (= gangplank, gangboard)
  
-3. [Brit] Passageway between seating areas as in an auditorium or passenger vehicle or between areas of shelves of goods as in stores (- aisle)
+3. [Brit] Passageway between seating areas as in an auditorium or passenger vehicle or between areas of shelves of goods as in stores (= aisle)
 
 """,
   );

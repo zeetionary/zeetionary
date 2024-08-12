@@ -51,16 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gesture (Derived forms: gestures)
+- Noun: gesture (derived forms: gestures)
 1. Motion of hands or body to emphasize or help to express a thought or feeling
  
-2. The use of movements (especially of the hands) to communicate familiar or prearranged signals (- motion)
+2. The use of movements (especially of the hands) to communicate familiar or prearranged signals (= motion)
  
 3. Something done as an indication of intention
 "a political gesture"; "a gesture of defiance"
 
-- Verb: gesture (Derived forms: gestured, gestures, gesturing)
-1. Show, express or direct through movement (- gesticulate, motion)
+- Verb: gesture (derived forms: gestured, gestures, gesturing)
+1. Show, express or direct through movement (= gesticulate, motion)
 "He gestured his desire to leave";
 """,
   );

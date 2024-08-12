@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gazelle (Derived forms: gazelles)
+- Noun: gazelle (derived forms: gazelles)
 1. Small swift graceful antelope of Africa and Asia having lustrous eyes
 """,
   );

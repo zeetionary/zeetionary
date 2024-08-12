@@ -51,23 +51,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ginger (Derived forms: gingers)
-1. Pungent rhizome of the common ginger plant; used fresh as a seasoning especially in Asian cookery (- gingerroot)
+- Noun: ginger (derived forms: gingers)
+1. Pungent rhizome of the common ginger plant; used fresh as a seasoning especially in Asian cookery (= gingerroot)
  
 2. Perennial plant having leafy reedlike stems and branching aromatic rhizomes used as a hot spice
  
-3. Dried ground gingerroot (- powdered ginger)
+3. Dried ground gingerroot (= powdered ginger)
  
-4. Liveliness and energy (- pep [informal], peppiness)
+4. Liveliness and energy (= pep [informal], peppiness)
 "this tonic is guaranteed to give you more ginger";
  
-5. [informal] Someone who has red hair (- redhead, redheader, red-header, carrottop [informal], blue [Austral, NZ, informal])
+5. [informal] Someone who has red hair (= redhead, redheader, red-header, carrottop [informal], blue [Austral, NZ, informal])
 
 - Adjective: ginger
-1. (used especially of hair or fur) having a bright orange-brown colour (- gingery, ginger-haired)
+1. (used especially of hair or fur) having a bright orange-brown colour (= gingery, ginger-haired)
 "a ginger kitten";
 
-- Verb: ginger (Derived forms: gingered, gingering, gingers)
+- Verb: ginger (derived forms: gingered, gingering, gingers)
 1. (cooking) add ginger to in order to add flavour
 "ginger the soup"
 """,

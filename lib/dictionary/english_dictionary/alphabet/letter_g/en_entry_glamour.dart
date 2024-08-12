@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glamour (Derived forms: glamours)
-1. Alluring beauty or charm (often with sex-appeal) (- glamor [US], glam [informal])
+- Noun: glamour (derived forms: glamours)
+1. Alluring beauty or charm (often with sex-appeal) (= glamor [US], glam [informal])
 
-- Verb: glamour (Derived forms: glamours, glamoured, glamouring)
-1. Cast a spell over someone or something; put a hex on someone or something (- hex, bewitch, witch, enchant, jinx)
+- Verb: glamour (derived forms: glamours, glamoured, glamouring)
+1. Cast a spell over someone or something; put a hex on someone or something (= hex, bewitch, witch, enchant, jinx)
 """,
   );
 

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gala (Derived forms: galas)
-1. A showy and festive party (- gala affair, jamboree, blowout [informal])
+- Noun: gala (derived forms: galas)
+1. A showy and festive party (= gala affair, jamboree, blowout [informal])
  
 2. [Brit] An informal or local sporting competition
 """,

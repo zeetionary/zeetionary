@@ -52,8 +52,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ghostwriter (Derived forms: ghostwriters)
-1. A writer who gives the credit of authorship to someone else (- ghost)
+- Noun: ghostwriter (derived forms: ghostwriters)
+1. A writer who gives the credit of authorship to someone else (= ghost)
 """,
   );
 

@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glower (Derived forms: glowered, glowering, glowers)
-1. Look at with a fixed gaze (- glare)
+- Verb: glower (derived forms: glowered, glowering, glowers)
+1. Look at with a fixed gaze (= glare)
 "The girl glowered at the man who tried to make a pass at her";
  
-2. Look angry or sullen, wrinkle one's forehead, as if to signal disapproval (- frown, lour, lower[2])
+2. Look angry or sullen, wrinkle one's forehead, as if to signal disapproval (= frown, lour, lower[2])
 
-- Noun: glower (Derived forms: glowers)
-1. An angry stare (- glare)
+- Noun: glower (derived forms: glowers)
+1. An angry stare (= glare)
 """,
   );
 

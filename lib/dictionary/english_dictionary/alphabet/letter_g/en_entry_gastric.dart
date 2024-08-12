@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: gastric
-1. Relating to or involving the stomach (- stomachic, stomachal)
+1. Relating to or involving the stomach (= stomachic, stomachal)
 "gastric ulcer";
 """,
   );

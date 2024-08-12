@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gas mask (Derived forms: gas masks)
-1. A protective mask with a filter; protects the face and lungs against poisonous gases (- respirator, gas helmet)
+- Noun: gas mask (derived forms: gas masks)
+1. A protective mask with a filter; protects the face and lungs against poisonous gases (= respirator, gas helmet)
 """,
   );
 

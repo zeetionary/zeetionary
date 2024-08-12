@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: ghostly (Derived forms: ghostlier, ghostliest)
-1. Resembling or characteristic of a phantom (- apparitional, ghostlike, phantasmal, spectral, spiritual)
+- Adjective: ghostly (derived forms: ghostlier, ghostliest)
+1. Resembling or characteristic of a phantom (= apparitional, ghostlike, phantasmal, spectral, spiritual)
 "a ghostly face at the window";
 """,
   );

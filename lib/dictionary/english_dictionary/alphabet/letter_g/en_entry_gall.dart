@@ -52,23 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gall (Derived forms: galls)
-1. The trait of being rude and impertinent; inclined to take liberties (- crust, impertinence, impudence, insolence, cheekiness, freshness)
+- Noun: gall (derived forms: galls)
+1. The trait of being rude and impertinent; inclined to take liberties (= crust, impertinence, impudence, insolence, cheekiness, freshness)
  
-2. A feeling of deep and bitter anger and ill-will (- resentment, bitterness, rancor [US], rancour [Brit, Cdn], ill feeling, hard feelings, acrimoniousness, bile)
+2. A feeling of deep and bitter anger and ill-will (= resentment, bitterness, rancor [US], rancour [Brit, Cdn], ill feeling, hard feelings, acrimoniousness, bile)
  
-3. An open sore on the back of a horse caused by ill-fitting or badly adjusted saddle (- saddle sore)
+3. An open sore on the back of a horse caused by ill-fitting or badly adjusted saddle (= saddle sore)
  
 4. A skin sore caused by chafing
  
 5. Abnormal swelling of plant tissue caused by insects, microorganisms or injury
  
-6. A digestive juice secreted by the liver and stored in the gallbladder; aids in the digestion of fats (- bile)
+6. A digestive juice secreted by the liver and stored in the gallbladder; aids in the digestion of fats (= bile)
 
-- Verb: gall (Derived forms: galled, galls, galling)
-1. Become or make sore by or as if by rubbing (- chafe, fret)
+- Verb: gall (derived forms: galled, galls, galling)
+1. Become or make sore by or as if by rubbing (= chafe, fret)
  
-2. Irritate or vex (- irk)
+2. Irritate or vex (= irk)
 "It galls me that we lost the suit";
 """,
   );

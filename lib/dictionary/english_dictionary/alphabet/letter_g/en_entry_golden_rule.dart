@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: golden rule (Derived forms: golden rules)
+- Noun: golden rule (derived forms: golden rules)
 1. Any important rule
 "the golden rule of teaching is to be clear"
 """,

@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glazier (Derived forms: glaziers)
-1. Someone who cuts flat glass to size (- glass cutter, glass-cutter, glassworker, glazer)
+- Noun: glazier (derived forms: glaziers)
+1. Someone who cuts flat glass to size (= glass cutter, glass-cutter, glassworker, glazer)
 """,
   );
 

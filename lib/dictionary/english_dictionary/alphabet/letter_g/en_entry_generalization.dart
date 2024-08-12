@@ -53,15 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: generalization (Derived forms: generalizations)
-1. Reasoning from detailed facts to general principles (- generalisation [Brit], induction, inductive reasoning)
+- Noun: generalization (derived forms: generalizations)
+1. Reasoning from detailed facts to general principles (= generalisation [Brit], induction, inductive reasoning)
  
-2. An idea or conclusion having general application (- generalisation [Brit], generality)
+2. An idea or conclusion having general application (= generalisation [Brit], generality)
 "he spoke in broad generalizations";
  
-3. The process of formulating general concepts by abstracting common properties of instances (- abstraction, generalisation [Brit])
+3. The process of formulating general concepts by abstracting common properties of instances (= abstraction, generalisation [Brit])
  
-4. (psychology) transfer of a response learned to one stimulus to a similar stimulus (- generalisation [Brit], stimulus generalization, stimulus generalisation [Brit])
+4. (psychology) transfer of a response learned to one stimulus to a similar stimulus (= generalisation [Brit], stimulus generalization, stimulus generalisation [Brit])
 """,
   );
 

@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gabble (Derived forms: gabbles)
-1. Rapid and indistinct speech (- jabber, jabbering)
+- Noun: gabble (derived forms: gabbles)
+1. Rapid and indistinct speech (= jabber, jabbering)
 
-- Verb: gabble (Derived forms: gabbles, gabbled, gabbling)
-1. Speak (about unimportant matters) rapidly and incessantly (- chatter, piffle, palaver [informal], prate, tittle-tattle, twaddle [informal], clack [informal], maunder, prattle, blab [informal], gibber, tattle, blabber [informal], vapour [Brit, Cdn], rabbit [Brit, informal], vapor [US], twattle [UK, dialect], witter [Brit, informal], yabber [Brit, informal], yatter [Brit, informal])
+- Verb: gabble (derived forms: gabbles, gabbled, gabbling)
+1. Speak (about unimportant matters) rapidly and incessantly (= chatter, piffle, palaver [informal], prate, tittle-tattle, twaddle [informal], clack [informal], maunder, prattle, blab [informal], gibber, tattle, blabber [informal], vapour [Brit, Cdn], rabbit [Brit, informal], vapor [US], twattle [UK, dialect], witter [Brit, informal], yabber [Brit, informal], yatter [Brit, informal])
 """,
   );
 

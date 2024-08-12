@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: go-ahead (Derived forms: go-aheads)
-1. A signal to proceed (- green light, thumbs-up [informal])
+- Noun: go-ahead (derived forms: go-aheads)
+1. A signal to proceed (= green light, thumbs-up [informal])
  
-2. Readiness to embark on bold new ventures (- enterprise, enterprisingness, initiative)
+2. Readiness to embark on bold new ventures (= enterprise, enterprisingness, initiative)
 """,
   );
 

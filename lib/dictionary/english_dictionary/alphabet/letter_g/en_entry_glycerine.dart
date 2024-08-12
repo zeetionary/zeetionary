@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glycerine (Derived forms: glycerines)
-1. A sweet syrupy trihydroxy alcohol obtained by saponification of fats and oils (- glycerol, glycerin [N. Amer])
+- Noun: glycerine (derived forms: glycerines)
+1. A sweet syrupy trihydroxy alcohol obtained by saponification of fats and oils (= glycerol, glycerin [N. Amer])
 
 """,
   );

@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: getaway (Derived forms: getaways)
-1. A rapid escape (as by criminals) (- lam [N. Amer, informal])
+- Noun: getaway (derived forms: getaways)
+1. A rapid escape (as by criminals) (= lam [N. Amer, informal])
 "the thieves made a clean getaway";
  
-2. The attribute of being capable of rapid acceleration (- pickup)
+2. The attribute of being capable of rapid acceleration (= pickup)
 """,
   );
 

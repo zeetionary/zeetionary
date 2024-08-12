@@ -51,9 +51,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gasoline (Derived forms: gasolines)
+- Noun: gasoline (derived forms: gasolines)
 Usage: N. Amer (elsewhere: petrol)
-1. A volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines (- gasolene [N. Amer], gas [N. Amer], petrol [Brit], juice [informal])
+1. A volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines (= gasolene [N. Amer], gas [N. Amer], petrol [Brit], juice [informal])
 "during the war the government imposed rationing of food and gasoline";
 """,
   );

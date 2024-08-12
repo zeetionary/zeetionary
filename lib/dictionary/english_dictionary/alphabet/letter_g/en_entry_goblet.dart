@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goblet (Derived forms: goblets)
+- Noun: goblet (derived forms: goblets)
 1. A drinking glass with a base and stem
  
-2. A bowl-shaped drinking vessel; especially the Eucharistic cup (- chalice, calix)
+2. A bowl-shaped drinking vessel; especially the Eucharistic cup (= chalice, calix)
 """,
   );
 

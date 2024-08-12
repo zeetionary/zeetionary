@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: girlfriend (Derived forms: girlfriends)
-1. A girl or young woman with whom a man is romantically involved (- girl, lady friend, patootie [US, informal], sweetheart)
+- Noun: girlfriend (derived forms: girlfriends)
+1. A girl or young woman with whom a man is romantically involved (= girl, lady friend, patootie [US, informal], sweetheart)
 "his girlfriend kicked him out";
  
 2. Any female friend

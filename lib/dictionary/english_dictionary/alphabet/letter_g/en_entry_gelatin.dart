@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gelatin (Derived forms: gelatins)
-1. A colourless water-soluble glutinous protein obtained from animal tissues such as bone and skin (- gelatine)
+- Noun: gelatin (derived forms: gelatins)
+1. A colourless water-soluble glutinous protein obtained from animal tissues such as bone and skin (= gelatine)
  
-2. An edible jelly (sweet or pungent) made with gelatin and used as a dessert or salad base or a coating for foods (- jelly)
+2. An edible jelly (sweet or pungent) made with gelatin and used as a dessert or salad base or a coating for foods (= jelly)
  
-3. A thin translucent membrane used over stage lights for colour effects (- gel)
+3. A thin translucent membrane used over stage lights for colour effects (= gel)
 """,
   );
 

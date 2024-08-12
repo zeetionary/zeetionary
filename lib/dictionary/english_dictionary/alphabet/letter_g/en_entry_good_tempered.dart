@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: good-tempered
-1. Not easily irritated (- equable, even-tempered, placid)
+1. Not easily irritated (= equable, even-tempered, placid)
 """,
   );
 

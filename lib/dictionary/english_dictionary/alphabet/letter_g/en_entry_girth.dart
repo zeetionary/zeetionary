@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: girth (Derived forms: girths)
+- Noun: girth (derived forms: girths)
 1. The distance around a person's body
  
-2. Stable gear consisting of a band around a horse's belly that holds the saddle in place (- cinch)
+2. Stable gear consisting of a band around a horse's belly that holds the saddle in place (= cinch)
 
-- Verb: girth (Derived forms: girthed, girthing, girths)
-1. Tie a cinch around (- cinch [N. Amer])
+- Verb: girth (derived forms: girthed, girthing, girths)
+1. Tie a cinch around (= cinch [N. Amer])
 """,
   );
 

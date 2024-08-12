@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەل‌وپەل، شمەک، واڵە، شت‌ومەک، بارخانە
 """),
-// With short examples define "goods", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو شتانەی کە بەرھەم دەھێندرێن بۆ ئەوەی بفرۆشرێن"""),

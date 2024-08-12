@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garlic (Derived forms: garlics)
-1. Bulbous herb of southern Europe widely naturalized; bulb breaks up into separate strong-flavoured cloves (- Allium sativum)
+- Noun: garlic (derived forms: garlics)
+1. Bulbous herb of southern Europe widely naturalized; bulb breaks up into separate strong-flavoured cloves (= Allium sativum)
  
-2. Aromatic bulb used as seasoning (- ail)
+2. Aromatic bulb used as seasoning (= ail)
 
 """,
   );

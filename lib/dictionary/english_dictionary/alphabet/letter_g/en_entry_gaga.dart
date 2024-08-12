@@ -53,9 +53,9 @@ ${englishMeaningConst.text}
     text: """
 - Adjective: gaga
 Usage: informal
-1. Mentally or physically infirm with age (- doddering, doddery, senile)
+1. Mentally or physically infirm with age (= doddering, doddery, senile)
  
-2. Intensely enthusiastic about or preoccupied with (- crazy, wild, dotty [informal])
+2. Intensely enthusiastic about or preoccupied with (= crazy, wild, dotty [informal])
 "gaga over the rock group's new album";
 """,
   );

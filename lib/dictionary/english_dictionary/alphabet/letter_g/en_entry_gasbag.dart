@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gasbag (Derived forms: gasbags)
+- Noun: gasbag (derived forms: gasbags)
 1. A boring person who talks a great deal about uninteresting topics (= - windbag)
  
-2. The bag containing the gas in a balloon (- envelope)
+2. The bag containing the gas in a balloon (= envelope)
 
 """,
   );

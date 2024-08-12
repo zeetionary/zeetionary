@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gingerbread (Derived forms: gingerbreads)
+- Noun: gingerbread (derived forms: gingerbreads)
 1. Cake flavoured with ginger
  
 2. (architecture) a flamboyant architectural style

@@ -52,11 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: glorification (Derived forms: glorifications)
-1. A state of high honour (- glory)
+- Noun: glorification (derived forms: glorifications)
+1. A state of high honour (= glory)
 "he valued glorification above life itself";
  
-2. A portrayal of something as ideal (- idealization, idealisation [Brit])
+2. A portrayal of something as ideal (= idealization, idealisation [Brit])
 "the glorification of rural life was very misleading";
  
 3. The act of glorifying (as in worship)

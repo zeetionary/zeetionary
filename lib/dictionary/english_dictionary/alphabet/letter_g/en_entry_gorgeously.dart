@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: gorgeously
-1. In an impressively beautiful manner (- splendidly, resplendently, magnificently)
+1. In an impressively beautiful manner (= splendidly, resplendently, magnificently)
 "the Princess was gorgeously dressed";
 """,
   );
@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gorgeously", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە شێوەیەکی زۆر جوان"""),
                     SentencesRow(

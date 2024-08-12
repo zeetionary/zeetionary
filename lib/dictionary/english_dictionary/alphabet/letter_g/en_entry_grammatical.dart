@@ -53,10 +53,10 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: grammatical
-1. Of or pertaining to grammar (- grammatic)
+1. Of or pertaining to grammar (= grammatic)
 "grammatical rules";
  
-2. Conforming to the rules of grammar or usage accepted by native speakers (- well-formed)
+2. Conforming to the rules of grammar or usage accepted by native speakers (= well-formed)
 "spoke in grammatical sentences";
 """,
   );

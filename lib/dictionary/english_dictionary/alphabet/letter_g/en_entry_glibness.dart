@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: glibness
-1. A kind of fluent easy superficiality (- slickness)
+1. A kind of fluent easy superficiality (= slickness)
 "the glibness of a high-pressure salesman";
 """,
   );

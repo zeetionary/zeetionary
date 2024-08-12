@@ -51,19 +51,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gang (Derived forms: gangs)
-1. An association of criminals (- pack, ring, mob)
+- Noun: gang (derived forms: gangs)
+1. An association of criminals (= pack, ring, mob)
 "police tried to break up the gang";
  
-2. An informal body of friends (- crowd, crew, bunch)
+2. An informal body of friends (= crowd, crew, bunch)
 "he still hangs out with the same gang";
  
-3. An organized group of workmen (- crew, work party)
+3. An organized group of workmen (= crew, work party)
  
 4. Tool consisting of a combination of implements arranged to work together
 
-- Verb: gang (Derived forms: gangs, ganging, ganged)
-1. Act as an organized group (- gang up)
+- Verb: gang (derived forms: gangs, ganging, ganged)
+1. Act as an organized group (= gang up)
 """,
   );
 

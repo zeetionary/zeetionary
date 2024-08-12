@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gangrene (Derived forms: gangrenes)
-1. Necrotic tissue; a mortified or gangrenous part or mass (- sphacelus, slough)
+- Noun: gangrene (derived forms: gangrenes)
+1. Necrotic tissue; a mortified or gangrenous part or mass (= sphacelus, slough)
  
-2. The localized death of living cells (as from infection or the interruption of blood supply) (- necrosis, mortification, sphacelus)
+2. The localized death of living cells (as from infection or the interruption of blood supply) (= necrosis, mortification, sphacelus)
 
-- Verb: gangrene (Derived forms: gangrened, gangrenes, gangrening)
-1. Undergo necrosis (- necrose, mortify, sphacelate)
+- Verb: gangrene (derived forms: gangrened, gangrenes, gangrening)
+1. Undergo necrosis (= necrose, mortify, sphacelate)
 "the tissue around the wound gangrened";
 """,
   );

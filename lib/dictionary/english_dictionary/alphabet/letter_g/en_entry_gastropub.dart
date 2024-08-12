@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gastropub (Derived forms: gastropubs)
+- Noun: gastropub (derived forms: gastropubs)
 Usage: Brit
 1. A pub serving good food
 """,

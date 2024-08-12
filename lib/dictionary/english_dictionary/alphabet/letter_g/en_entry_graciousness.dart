@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 - Noun: graciousness
 1. Excellence of manners or social conduct
  
-2. The quality of being kind and gentle (- benignity, benignancy)
+2. The quality of being kind and gentle (= benignity, benignancy)
 """,
   );
 

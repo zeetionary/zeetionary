@@ -55,10 +55,10 @@ ${englishMeaningConst.text}
 1. Gradually
 "a gently sloping terrain"
  
-2. In a gentle manner (- mildly)
+2. In a gentle manner (= mildly)
 "he talked gently to the injured animal";
  
-3. With little weight or force (- lightly, softly)
+3. With little weight or force (= lightly, softly)
 "she kissed him gently on the forehead";
 """,
   );

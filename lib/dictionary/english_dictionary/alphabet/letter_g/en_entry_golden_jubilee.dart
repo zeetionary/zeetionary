@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: golden jubilee
-1. ​the 50th anniversary of an important event (- US: golden anniversary)
+1. ​the 50th anniversary of an important event (= US: golden anniversary)
 "Queen Victoria’s Golden Jubilee celebrations";
 """,
   );

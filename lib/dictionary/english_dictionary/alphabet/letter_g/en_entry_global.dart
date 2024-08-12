@@ -52,15 +52,15 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: global
-1. Involving the entire earth; not limited or provincial in scope (- planetary, world, worldwide, world-wide)
+1. Involving the entire earth; not limited or provincial in scope (= planetary, world, worldwide, world-wide)
 "global war"; "global monetary policy";
 
-2. Having the shape of a sphere or ball (- ball-shaped, globose, globular, orbicular, spheric, spherical, globoid, globe-shaped, globate)
+2. Having the shape of a sphere or ball (= ball-shaped, globose, globular, orbicular, spheric, spherical, globoid, globe-shaped, globate)
 "little global houses like mud-wasp nests";
  
-3. Spanning or extending throughout the entire world (- worldwide, world-wide)
+3. Spanning or extending throughout the entire world (= worldwide, world-wide)
  
-4. Of worldwide scope or applicability (- cosmopolitan, ecumenical, oecumenical [archaic], general, universal, worldwide, world-wide)
+4. Of worldwide scope or applicability (= cosmopolitan, ecumenical, oecumenical [archaic], general, universal, worldwide, world-wide)
 "an issue of global import";
  
 5. (computing) of a variable, accessible by all parts of a program

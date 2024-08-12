@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: GNP (Derived forms: GNPs)
-1. Former measure of the United States economy; the total market value of goods and services produced by all citizens and capital during a given period (usually 1 yr) (- gross national product)
+- Noun: GNP (derived forms: GNPs)
+1. Former measure of the United States economy; the total market value of goods and services produced by all citizens and capital during a given period (usually 1 yr) (= gross national product)
 """,
   );
 

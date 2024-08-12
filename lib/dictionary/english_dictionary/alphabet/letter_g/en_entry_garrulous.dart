@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: garrulous
-1. Full of trivial conversation (- chatty, gabby, loquacious, talkative, talky, gassy [informal])
+1. Full of trivial conversation (= chatty, gabby, loquacious, talkative, talky, gassy [informal])
 "kept from her housework by garrulous neighbours";
 """,
   );

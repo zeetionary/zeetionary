@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gauze (Derived forms: gauzes)
-1. (medicine) bleached cotton cloth of plain weave used for bandages and dressings (- gauze bandage)
+- Noun: gauze (derived forms: gauzes)
+1. (medicine) bleached cotton cloth of plain weave used for bandages and dressings (= gauze bandage)
  
-2. A net of transparent fabric with a loose open weave (- netting, veiling)
+2. A net of transparent fabric with a loose open weave (= netting, veiling)
 
 """,
   );

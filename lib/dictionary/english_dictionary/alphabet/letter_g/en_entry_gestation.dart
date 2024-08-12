@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gestation (Derived forms: gestations)
-1. The period during which an embryo develops (about 266 days in humans) (- gestation period)
+- Noun: gestation (derived forms: gestations)
+1. The period during which an embryo develops (about 266 days in humans) (= gestation period)
  
-2. The state of being pregnant; the period from conception to birth when a woman carries a developing foetus in her uterus (- pregnancy, maternity)
+2. The state of being pregnant; the period from conception to birth when a woman carries a developing foetus in her uterus (= pregnancy, maternity)
  
 3. The conception and development of an idea or plan
 """,

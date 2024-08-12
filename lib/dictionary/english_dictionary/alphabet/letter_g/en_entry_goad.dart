@@ -51,19 +51,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goad (Derived forms: goads)
-1. A pointed instrument that is used to prod into a state of motion (- prod)
+- Noun: goad (derived forms: goads)
+1. A pointed instrument that is used to prod into a state of motion (= prod)
  
-2. Anything that inspires, motivates or drives you to do something (- goading, prod, prodding, urging, spur, spurring)
+2. Anything that inspires, motivates or drives you to do something (= goading, prod, prodding, urging, spur, spurring)
 
-- Verb: goad (Derived forms: goading, goaded, goads)
-1. Give heart or courage to (- spur)
+- Verb: goad (derived forms: goading, goaded, goads)
+1. Give heart or courage to (= spur)
  
 2. Urge with or as if with a goad
  
-3. Stab or urge on as if with a pointed stick (- prick)
+3. Stab or urge on as if with a pointed stick (= prick)
  
-4. Annoy or provoke, as by constant criticism (- needle)
+4. Annoy or provoke, as by constant criticism (= needle)
 "He goaded her with his sarcastic remarks";
 """,
   );

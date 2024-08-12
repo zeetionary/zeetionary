@@ -51,31 +51,31 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gas (Derived forms: gases, gasses)
-1. The state of matter distinguished from the solid and liquid states by: relatively low density and viscosity; relatively great expansion and contraction with changes in pressure and temperature; the ability to diffuse readily; and the spontaneous tendency to become distributed uniformly throughout any container (- gaseous state)
+- Noun: gas (derived forms: gases, gasses)
+1. The state of matter distinguished from the solid and liquid states by: relatively low density and viscosity; relatively great expansion and contraction with changes in pressure and temperature; the ability to diffuse readily; and the spontaneous tendency to become distributed uniformly throughout any container (= gaseous state)
  
 2. A fluid in the gaseous state having neither independent shape nor volume and being able to expand indefinitely
  
-3. [N. Amer] A volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines (- gasoline [N. Amer], gasolene [N. Amer], petrol [Brit], juice [informal])
+3. [N. Amer] A volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines (= gasoline [N. Amer], gasolene [N. Amer], petrol [Brit], juice [informal])
  
-4. [N. Amer] A pedal that controls the throttle valve (- accelerator, accelerator pedal, gas pedal [N. Amer], throttle)
+4. [N. Amer] A pedal that controls the throttle valve (= accelerator, accelerator pedal, gas pedal [N. Amer], throttle)
 "he stepped on the gas";
  
-5. A fossil fuel in the gaseous state; used for cooking and heating homes (- natural gas)
+5. A fossil fuel in the gaseous state; used for cooking and heating homes (= natural gas)
  
 6. (blockchains) the cost to conduct a transaction
 "the exact price of the gas is determined by supply and demand between the network's miner"
  
-7. A state of excessive gas in the alimentary canal (- flatulence, flatulency)
+7. A state of excessive gas in the alimentary canal (= flatulence, flatulency)
 
-- Verb: gas (Derived forms: gassed, gases, gassing)
+- Verb: gas (derived forms: gassed, gases, gassing)
 1. Attack with gas; subject to gas fumes
 "The despot gassed the rebellious tribes"
  
-2. [informal] Talk socially without exchanging too much information (- chew the fat [informal], shoot the breeze [N. Amer, informal], chat, confabulate, confab [informal], chitchat [informal], chit-chat [informal], chatter, chaffer, natter [informal], gossip, jaw [informal], claver [UK, dialect], visit [N. Amer, informal], chew the rag [informal], gab [informal])
+2. [informal] Talk socially without exchanging too much information (= chew the fat [informal], shoot the breeze [N. Amer, informal], chat, confabulate, confab [informal], chitchat [informal], chit-chat [informal], chatter, chaffer, natter [informal], gossip, jaw [informal], claver [UK, dialect], visit [N. Amer, informal], chew the rag [informal], gab [informal])
 "the men were sitting in the cafe and gassing";
  
-3. [informal] Show off, esp. with exaggeration (- boast, tout, swash [archaic], shoot a line [informal], brag, blow, bluster, vaunt, gasconade [archaic], skite [Austral, NZ, informal])
+3. [informal] Show off, esp. with exaggeration (= boast, tout, swash [archaic], shoot a line [informal], brag, blow, bluster, vaunt, gasconade [archaic], skite [Austral, NZ, informal])
 """,
   );
 

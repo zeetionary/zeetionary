@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gelding (Derived forms: geldings)
+- Noun: gelding (derived forms: geldings)
 1. Castrated male horse
 """,
   );

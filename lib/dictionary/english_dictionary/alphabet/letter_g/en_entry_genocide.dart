@@ -51,8 +51,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: genocide (Derived forms: genocides)
-1. The systematic killing of people on the basis of ethnicity, religion, political opinion, social status, etc. (- race murder, racial extermination)
+- Noun: genocide (derived forms: genocides)
+1. The systematic killing of people on the basis of ethnicity, religion, political opinion, social status, etc. (= race murder, racial extermination)
 """,
   );
 

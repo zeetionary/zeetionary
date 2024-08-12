@@ -52,14 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glitter (Derived forms: glittered, glittering, glitters)
-1. Be shiny, as if wet (- glisten, glint, gleam, shine)
+- Verb: glitter (derived forms: glittered, glittering, glitters)
+1. Be shiny, as if wet (= glisten, glint, gleam, shine)
 "His eyes were glittering";
 
-- Noun: glitter (Derived forms: glitters)
-1. The quality of shining with a bright reflected light (- glister [archaic], glisten, scintillation, sparkle)
+- Noun: glitter (derived forms: glitters)
+1. The quality of shining with a bright reflected light (= glister [archaic], glisten, scintillation, sparkle)
  
-2. The occurrence of a small flash or spark (- sparkle, coruscation)
+2. The occurrence of a small flash or spark (= sparkle, coruscation)
 """,
   );
 
@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: درەوشانەوە، ورشانەوە، بریقانەوە، تروسکە، بریسکە، ئارنگ، درەوشەدرەوش، ورشەورش، تروسکەتروسک، بریسک‌وھۆڕ
 """),
-// With short examples define "glitter", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) بریسکانەوە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: sparkle"),
                     SentencesRow(

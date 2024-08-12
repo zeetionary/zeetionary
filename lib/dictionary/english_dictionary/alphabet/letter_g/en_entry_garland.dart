@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: garland (Derived forms: garlands)
-1. Flower arrangement consisting of a circular band of foliage or flowers for ornamental purposes (- wreath, coronal, chaplet, lei)
+- Noun: garland (derived forms: garlands)
+1. Flower arrangement consisting of a circular band of foliage or flowers for ornamental purposes (= wreath, coronal, chaplet, lei)
  
-2. An anthology of short literary pieces and poems and ballads etc. (- florilegium, miscellany)
+2. An anthology of short literary pieces and poems and ballads etc. (= florilegium, miscellany)
 
-- Verb: garland (Derived forms: garlanded, garlands, garlanding)
+- Verb: garland (derived forms: garlanded, garlands, garlanding)
 1. Adorn with bands of flowers or leaves
 "They garlanded the statue"
 """,

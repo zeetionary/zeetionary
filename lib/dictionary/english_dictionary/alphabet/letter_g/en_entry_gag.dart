@@ -51,34 +51,34 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gag (Derived forms: gags)
-1. A humorous anecdote or remark intended to provoke laughter (- joke, laugh, jest, jape)
+- Noun: gag (derived forms: gags)
+1. A humorous anecdote or remark intended to provoke laughter (= joke, laugh, jest, jape)
 "he knows a million gags";
  
-2. Restraint put into a person's mouth to prevent speaking or shouting (- muzzle)
+2. Restraint put into a person's mouth to prevent speaking or shouting (= muzzle)
  
-3. (law) a court order restricting information or comment by the participants involved in a lawsuit (- gag order, gagging order [Brit])
+3. (law) a court order restricting information or comment by the participants involved in a lawsuit (= gag order, gagging order [Brit])
 "imposing a gag order on members of the press violates the First Amendment";
 
-- Verb: gag (Derived forms: gagged, gags, gagging)
-1. Tie a gag around someone's mouth in order to silence them (- muzzle)
+- Verb: gag (derived forms: gagged, gags, gagging)
+1. Tie a gag around someone's mouth in order to silence them (= muzzle)
 "The burglars gagged the home owner and tied him to a chair";
  
-2. Prevent from speaking out (- muzzle)
+2. Prevent from speaking out (= muzzle)
 "The press was gagged";
  
-3. Be too tight; rub or press (- choke, fret)
+3. Be too tight; rub or press (= choke, fret)
 "This neckband is gagging the cat";
  
-4. Make jokes or quips (- quip)
+4. Make jokes or quips (= quip)
 "The students were gagging during dinner";
  
-5. Struggle for breath; have insufficient oxygen intake (- choke, strangle, suffocate)
+5. Struggle for breath; have insufficient oxygen intake (= choke, strangle, suffocate)
 "he swallowed a fishbone and gagged";
  
-6. Cause to retch or choke (- choke)
+6. Cause to retch or choke (= choke)
  
-7. Make an unsuccessful effort to vomit; strain to vomit (- heave, retch)
+7. Make an unsuccessful effort to vomit; strain to vomit (= heave, retch)
  
 8. [Brit, informal] Be eager or desperate for something (esp. sex)
 "she was gagging for it"

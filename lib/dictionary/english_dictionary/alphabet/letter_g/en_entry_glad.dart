@@ -51,21 +51,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: glad (Derived forms: gladder, gladdest)
+- Adjective: glad (derived forms: gladder, gladdest)
 1. Showing or causing joy and pleasure; especially made happy
 "glad you are here"; "glad that they succeeded"; "gave a glad shout"; "a glad smile"; "heard the glad news"; "a glad occasion"
  
-2. Eagerly disposed to act or to be of service (- happy)
+2. Eagerly disposed to act or to be of service (= happy)
 "glad to help";
  
 3. Feeling happy appreciation
 "glad of the fire's warmth"
  
-4. Cheerful and bright (- beaming)
+4. Cheerful and bright (= beaming)
 "a glad May morning";
 
-- Noun: glad (Derived forms: glads)
-1. Any of numerous plants of the genus Gladiolus native chiefly to tropical and South Africa having sword-shaped leaves and one-sided spikes of brightly coloured funnel-shaped flowers; widely cultivated (- gladiolus, gladiola, sword lily)
+- Noun: glad (derived forms: glads)
+1. Any of numerous plants of the genus Gladiolus native chiefly to tropical and South Africa having sword-shaped leaves and one-sided spikes of brightly coloured funnel-shaped flowers; widely cultivated (= gladiolus, gladiola, sword lily)
 """,
   );
 
@@ -209,7 +209,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرخۆش، دڵخۆش، بەکەیف، شاگەشکە، خۆشحاڵ، شاد، دڵشاد، خۆش،	پێخۆش‌بوو، ڕازی، مەمنوون، سپاس‌کار، دەس‌خۆش‌بێژ
 """),
-// With short examples define "glad", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) دڵخۆش؛ کەیف‌شاد"""),
                     SentencesRow(

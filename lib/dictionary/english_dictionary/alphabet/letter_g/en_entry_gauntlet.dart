@@ -51,17 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gauntlet (Derived forms: gauntlets)
-1. A challenge (- gantlet [US])
+- Noun: gauntlet (derived forms: gauntlets)
+1. A challenge (= gantlet [US])
 "threw down the gauntlet"; "took up the gauntlet";
  
-2. A glove of armoured leather; protects the hand (- gantlet [US], metal glove)
+2. A glove of armoured leather; protects the hand (= gantlet [US], metal glove)
  
-3. A glove with long sleeve (- gantlet [US])
+3. A glove with long sleeve (= gantlet [US])
  
-4. A form of punishment in which a person is forced to run between two lines of men facing each other and armed with clubs or whips to beat the victim (- gantlet [US])
+4. A form of punishment in which a person is forced to run between two lines of men facing each other and armed with clubs or whips to beat the victim (= gantlet [US])
  
-5. The convergence of two parallel railway tracks in a narrow place; the inner rails cross and run parallel and then diverge so a train remains on its own tracks at all times (- gantlet [US])
+5. The convergence of two parallel railway tracks in a narrow place; the inner rails cross and run parallel and then diverge so a train remains on its own tracks at all times (= gantlet [US])
 """,
   );
 

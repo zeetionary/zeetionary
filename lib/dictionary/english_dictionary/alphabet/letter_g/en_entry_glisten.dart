@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: glisten (Derived forms: glistened, glistening, glistens)
-1. Be shiny, as if wet (- glitter, glint, gleam, shine)
+- Verb: glisten (derived forms: glistened, glistening, glistens)
+1. Be shiny, as if wet (= glitter, glint, gleam, shine)
 "His eyes were glistening";
 
-- Noun: glisten (Derived forms: glistens)
-1. The quality of shining with a bright reflected light (- glitter, glister [archaic], scintillation, sparkle)
+- Noun: glisten (derived forms: glistens)
+1. The quality of shining with a bright reflected light (= glitter, glister [archaic], scintillation, sparkle)
 """,
   );
 
@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: درەوشانەوە، بریسکانەوە، شەوق‌دانەوە، بریقانەوە
 """),
-// With short examples define "glisten", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) درەوشانەوە"""),
                     SentencesRow(
                       englishText: """Sweat glistened on his forehead.""",

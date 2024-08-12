@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: generously
-1. In a generous manner (- liberally, munificently)
+1. In a generous manner (= liberally, munificently)
 "he gave generously to several charities";
 """,
   );

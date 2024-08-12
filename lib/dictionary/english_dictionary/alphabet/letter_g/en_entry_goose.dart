@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: goose (Derived forms: gooses)
+- Noun: goose (derived forms: gooses)
 1. Web-footed long-necked typically gregarious migratory aquatic birds usually larger and less aquatic than ducks
  
 2. Flesh of a goose (domestic or wild)
  
-3. [informal] Someone who is a stupid incompetent fool (- fathead [informal], goof [informal], goofball [N. Amer, informal], bozo [N. Amer, informal], jackass, cuckoo, zany)
+3. [informal] Someone who is a stupid incompetent fool (= fathead [informal], goof [informal], goofball [N. Amer, informal], bozo [N. Amer, informal], jackass, cuckoo, zany)
 
-- Verb: goose (Derived forms: goosing, gooses, goosed, geese)
+- Verb: goose (derived forms: goosing, gooses, goosed, geese)
 Usage: informal
 1. Pinch in the buttocks
 "he goosed the unsuspecting girl"

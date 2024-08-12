@@ -53,8 +53,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: general practitioner (Derived forms: general practitioners)
-1. A physician who is not a specialist but treats all illnesses (- GP)
+- Noun: general practitioner (derived forms: general practitioners)
+1. A physician who is not a specialist but treats all illnesses (= GP)
 """,
   );
 

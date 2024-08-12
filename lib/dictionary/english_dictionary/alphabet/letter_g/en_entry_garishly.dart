@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: garishly
-1. In a tastelessly garish manner (- tawdrily, gaudily, chintzily [Brit])
+1. In a tastelessly garish manner (= tawdrily, gaudily, chintzily [Brit])
 "the temple was garishly decorated with bright plastic flowers";
 """,
   );

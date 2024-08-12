@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: glibly
-1. With superficial plausibility (- slickly)
+1. With superficial plausibility (= slickly)
 "he talked glibly";
 """,
   );

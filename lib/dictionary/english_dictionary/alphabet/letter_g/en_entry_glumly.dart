@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adverb: glumly
-1. In a sullen manner (- dourly, sullenly)
+1. In a sullen manner (= dourly, sullenly)
 "he sat in his chair glumly";
 """,
   );

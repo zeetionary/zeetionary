@@ -55,10 +55,10 @@ ${englishMeaningConst.text}
 1. Characterized by charm, good taste, and generosity of spirit
 "gracious even to unexpected visitors"; "gracious living"; "he bears insult with gracious good humour"
  
-2. Characterized by kindness and warm courtesy especially of a king to his subjects (- benignant)
+2. Characterized by kindness and warm courtesy especially of a king to his subjects (= benignant)
 "our gracious king";
  
-3. Exhibiting courtesy and politeness (- courteous, nice)
+3. Exhibiting courtesy and politeness (= courteous, nice)
 "a gracious gesture";
  
 4. Disposed to bestow favours
@@ -66,7 +66,7 @@ ${englishMeaningConst.text}
 
 - Interjection: gracious
 Usage: informal
-1. Used to express surprise (- Christ [informal], Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness [informal], goodness me [informal], Gordon Bennett [informal], gracious me [informal], fancy that [informal], gawd [informal], god, my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
+1. Used to express surprise (= Christ [informal], Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness [informal], goodness me [informal], Gordon Bennett [informal], gracious me [informal], fancy that [informal], gawd [informal], god, my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lord [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
 "Good gracious me, when did you come, where have you come from, what have you been doing?";
 """,
   );
@@ -182,7 +182,6 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی: دڵسۆز، دڵنەرم، بەبەزەیی، دڵنەوا،	گەورە، لە ڕووی گەورەیی یان پیاوەتی‌یەوە، بەسەرکەرەوە،	(خودا) دڵوڤان، بەدەھندە، بەڕەحم،	بەڕەوشتانە،	شایانە، بەشکۆ
 """),
-// With short examples define "gracious", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) بەخشندە و بەڕێز و میھرەبان"""),
                     SentencesRow(

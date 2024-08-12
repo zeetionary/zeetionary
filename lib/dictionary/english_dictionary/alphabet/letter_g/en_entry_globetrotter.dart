@@ -52,8 +52,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: globetrotter (Derived forms: globetrotters)
-1. Someone who travels widely and often (- world traveler [US], world traveller [Brit, Cdn])
+- Noun: globetrotter (derived forms: globetrotters)
+1. Someone who travels widely and often (= world traveler [US], world traveller [Brit, Cdn])
 """,
   );
 

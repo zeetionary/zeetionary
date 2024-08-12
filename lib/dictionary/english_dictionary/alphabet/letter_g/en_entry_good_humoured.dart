@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
     text: """
 - Adjective: good-humoured
 Usage: Brit, Cdn (US: good-humored)
-1. Disposed to please (- amiable, good-humored [US])
+1. Disposed to please (= amiable, good-humored [US])
 """,
   );
 

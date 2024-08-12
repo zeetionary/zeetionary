@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: galaxy (Derived forms: galaxies)
-1. (astronomy) a collection of star systems; any of the billions of systems each having many stars and nebulae and dust (- extragalactic nebula)
+- Noun: galaxy (derived forms: galaxies)
+1. (astronomy) a collection of star systems; any of the billions of systems each having many stars and nebulae and dust (= extragalactic nebula)
 "'extragalactic nebula' is a former name for 'galaxy'";
  
 2. A splendid assemblage (especially of famous people)
  
-3. Tufted evergreen perennial herb having spikes of tiny white flowers and glossy green round to heart-shaped leaves that become coppery to maroon or purplish in fall (- galax, wandflower, beetleweed, coltsfoot, Galax urceolata)
+3. Tufted evergreen perennial herb having spikes of tiny white flowers and glossy green round to heart-shaped leaves that become coppery to maroon or purplish in fall (= galax, wandflower, beetleweed, coltsfoot, Galax urceolata)
 """,
   );
 

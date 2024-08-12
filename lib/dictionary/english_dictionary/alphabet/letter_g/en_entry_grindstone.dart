@@ -987,7 +987,7 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """١. (ناو) بەردێکی خڕ کە وەک ویل سووڕ دەدرێت و بەکاردێت بۆ تیژکردنی چەقۆ و کەرەستەی دیکە"""),
                     SentencesRow(
                       englishText: """The grindstone spun as he worked.""",
-                      kurdishText: """بەردی چەقۆتیژکردنەکە دەسووڕایەوە کە ئەو کاری کرد.""",
+                      kurdishText: """بەردە چەرخەکە دەسووڕایەوە کە ئەو کاری کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

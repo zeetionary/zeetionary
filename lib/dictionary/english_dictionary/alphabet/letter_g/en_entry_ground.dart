@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygrip extends StatefulWidget {
-  const EnglishEntrygrip({super.key});
+class EnglishEntryground extends StatefulWidget {
+  const EnglishEntryground({super.key});
 
   @override
-  State<EnglishEntrygrip> createState() => _EnglishEntrygripState();
+  State<EnglishEntryground> createState() => _EnglishEntrygroundState();
 }
 
-class _EnglishEntrygripState extends State<EnglishEntrygrip> {
+class _EnglishEntrygroundState extends State<EnglishEntryground> {
   @override
   void initState() {
     super.initState();
@@ -54,37 +53,66 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: grip (Derived forms: grips, gripping, gripped)
-1. Hold fast or firmly
-"He gripped the steering wheel"
+- Noun: ground (Derived forms: grounds)
+1. The solid part of the earth's surface (- land, dry land, earth, solid ground, terra firma)
+"he dropped the logs on the ground"; "the plane turned away from the sea and moved back over solid ground";
  
-2. Hold or seize, as in a wrestling match (- grapple)
+2. Reason or cause (- reason, occasion)
+"the grounds for their declaration";
  
-3. To render motionless, as with a fixed stare or by arousing terror or awe (- fascinate, transfix, spellbind)
-"The snake charmer grips the cobra";
+3. The loose soft material that makes up a large part of the land surface (- earth)
+"they dug into the ground outside the church";
+ 
+4. A relation that provides the foundation for something (- footing, basis)
+ 
+5. A position to be won or defended in battle (or as if in battle)
+"they gained ground step by step"; "they fought to regain the lost ground"
+ 
+6. The part of a scene (or picture) that lies behind objects in the foreground (- background, backdrop)
+"he posed her against a ground of rolling hills";
+ 
+7. Material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use) (- land, soil)
+"the ground had never been ploughed";
+ 
+8. A relatively homogeneous percept extending back of the figure on which attention is focused
+ 
+9. (electricity) a connection between an electrical device and a large conducting body, such as the earth (which is taken to be at zero voltage) (- earth [Brit])
+ 
+10. (art) the surface (as a wall or canvas) prepared to take the paint for a painting
+ 
+11. The first or preliminary coat of paint or size applied to a surface (- flat coat, primer, priming, primer coat, priming coat, undercoat)
 
-- Noun: grip (Derived forms: grips)
-1. The act of grasping (- clasp, clench, clutch, clutches, grasp, hold)
-"he has a strong grip for an old man";
+- Verb: ground (Derived forms: grounding, grounds, grounded)
+1. Fix firmly and stably (- anchor)
+"ground the lamppost in concrete";
  
-2. The appendage to an object that is designed to be held in order to use or move it (- handle, handgrip, hold)
-"it was an old briefcase but it still had a good grip";
+2. Confine or restrict to the ground
+"After the accident, they grounded the plane and the pilot"
  
-3. A portable rectangular container for carrying clothes (- bag, traveling bag [US], travelling bag, suitcase)
+3. Place or put on the ground
  
-4. The friction between a body and the surface on which it moves (as between an automobile tire and the road) (- traction, adhesive friction)
+4. Instruct someone in the fundamentals of a subject
  
-5. Worker who moves the camera around while a film or television show is being made
+5. Bring to the ground (- strand, run aground)
+"the storm grounded the ship";
  
-6. An intellectual hold or understanding (- grasp)
-"a good grip on French history"; "they kept a firm grip on the two top priorities"; "he was in the grip of a powerful emotion";
+6. Hit or reach the ground (- run aground)
  
-7. A flat wire hairpin whose prongs press tightly together; used to hold bobbed hair in place (- bobby pin [N. Amer, Austral, NZ], hairgrip [UK])
-"in Britain they call a bobby pin a grip";
+7. (football) throw to the ground in order to stop play and avoid being tackled behind the line of scrimmage
+ 
+8. (baseball) a hit that travels along the playing field.
+"he grounded to the second baseman"
+ 
+9. Cover with a primer; apply a primer to (- prime, undercoat)
+ 
+10. Connect to a ground
+"ground the electrical connections for safety reasons"
+ 
+12. Use as a basis for; found on (- establish, base, found)
 """,
   );
 
-  final String keyword = "grip";
+  final String keyword = "ground";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -104,266 +132,277 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""grip""");
+    await flutterTts.speak("""ground""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Keep a tight grip on the rope.""");
+    await flutterTts.speak("""I found her lying on the ground.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The climber slipped and lost her grip.""");
+    await flutterTts.speak("""He fell to the ground, crying out in pain.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He finally broke her grip and escaped.""");
+    await flutterTts.speak(
+        """The helicopter hovered a couple of hundred metres above the ground.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The home team took a firm grip on the game.""");
+    await flutterTts
+        .speak("""The library has four levels below ground and seven above.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""We need to tighten the grip we have on the market.""");
+    await flutterTts.speak("""He sat down on the ground.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The Prime Minister needs to keep a tight grip on his party.""");
+    await flutterTts.speak("""Her eyes searched the ground.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I couldn't get a grip on what was going on.""");
+    await flutterTts
+        .speak("""The helicopter burst into flames when it hit the ground.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The government does not seem to have a very firm grip on the economy.""");
+    await flutterTts
+        .speak("""The plane was so overloaded it couldn't leave the ground.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """These tyres give the bus better grip in slippery conditions.""");
+    await flutterTts.speak("""The tunnel goes deep under the ground.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""The grip on a golf club was worn and needed replacing.""");
+    await flutterTts.speak("""Thunder shook the ground.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""She gripped on to the railing with both hands.""");
+    await flutterTts.speak("""It was buried three metres below ground.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She gripped hard at the arms of her chair.""");
+    await flutterTts.speak("""The rope barely reached the ground below.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Grip the rope as tightly as you can.""");
+    await flutterTts.speak("""Ground forces were deployed in the area.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The book grips you from start to finish.""");
+    await flutterTts.speak("""He called for more troops on the ground.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was totally gripped by the story.""");
+    await flutterTts.speak(
+        """We found a patch of open ground in the middle of the woods.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was gripped by a feeling of panic.""");
+    await flutterTts
+        .speak("""The atmosphere inside the ground was electric.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A sudden fear gripped me.""");
+    await flutterTts
+        .speak("""The boats headed to the fishing grounds at dawn.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""Terrorism has gripped the country for the past two years.""");
+    await flutterTts.speak("""Prepare the ground before you plant anything.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1900""");
+    await flutterTts.speak("""The car got stuck in the muddy ground.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_2000""");
+    await flutterTts
+        .speak("""You can sow the seeds directly into the ground.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2100""");
+    await flutterTts.speak("""The house has extensive grounds.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2200""");
+    await flutterTts.speak("""She lived in the grounds of the castle.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2300""");
+    await flutterTts
+        .speak("""He managed to cover a lot of ground in a short talk.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2400""");
+    await flutterTts
+        .speak("""We had to go over the same ground in class the next day.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2500""");
+    await flutterTts
+        .speak("""You're on dangerous ground if you criticize his family.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2600""");
+    await flutterTts
+        .speak("""Legal scholars say the president is on shaky ground.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2700""");
+    await flutterTts.speak("""I apologize if I'm going over old ground.""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2800""");
+    await flutterTts.speak("""You have no grounds for complaint.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2900""");
+    await flutterTts.speak("""What were his grounds for wanting a divorce?""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_3000""");
+    await flutterTts.speak(
+        """There are reasonable grounds to believe that a crime has been committed.""");
   }
 
   Future<void> speaksentence31(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence3100""");
+    await flutterTts.speak(
+        """The case was dismissed on the ground that there was insufficient evidence.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence3200""");
+    await flutterTts
+        .speak("""Employers cannot discriminate on grounds of age.""");
   }
 
   Future<void> speaksentence33(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence3300""");
+    await flutterTts.speak(
+        """The fishing boat had been grounded off the coast of Cornwall.""");
   }
 
   Future<void> speaksentence34(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence3400""");
+    await flutterTts.speak(
+        """All planes out of Heathrow have been grounded by the strikes.""");
   }
 
   Future<void> speaksentence35(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence3500""");
+    await flutterTts.speak("""You're grounded for a week!""");
   }
 
   Future<void> speaksentence36(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence3600""");
+    await flutterTts
+        .speak("""He bought a bag of ground coffee from the store.""");
   }
 
   Future<void> speaksentence37(String languageCode) async {
@@ -970,10 +1009,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """grip""",
-                      // alsoEnglishWord: "also: grip",
-                      britshText: """IpaUK: /ɡrɪp/""",
-                      americanText: """IpaUS: /ɡrɪp/""",
+                      word: """ground""",
+                      // alsoEnglishWord: "also: ground",
+                      britshText: """IpaUK: /ɡraʊnd/""",
+                      americanText: """IpaUS: /ɡraʊnd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1014,210 +1053,219 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گرتن، گیر، دەس‌لێ‌گیرکردن، هیزی گرتن، توانایی گرتن، گرۆکی، گیرایی،	جێگای دەست، جێ‌دەس،	دەسەڵات، دەس‌بەسەراگرتن، هێز، کۆنتڕۆڵ،	تێگەیشتن، پێ‌پێبردن، پێزانین،	گیرە، مەنگەنە، گیرگە، بەست، دەسک، قوڵف، دەسگیرە، دەزگیرە،	چنگ، مشت،	دەرزی قژ،	ساک، جانتا، گلەیی، شکات، لاری، گازندە، سکاڵا، دەربڕینی ناڕەزایەتی
+کوردی: زەوی، زەمین،	خاک، گڵ،	عەرز، سەرعەرز، وشکانی، ڕووی عەرز،	مەودا،	ناوچە، دەڤەر،	بنکی دەریا، تەرکی زەریا،	بنەڕەت، بنچینە، بناخە،	تەخت، تەختایی، زەمینە،	پارچە زەویێ بۆ مەبەستێکی تایبەتی،	بوار، مەڵبەند، پانتایی، ئاقار،	ڕەوش، بارودۆخ،	بابەت، مژار،	هۆ، مایە، سۆنگە، پاساو، بەڵگە،	جێگا، ڤار، جێ، شوێن،	خڵتە، بن، نیشتوو، تڵتە، پەگر،	خاک، زەمین، مەیدان، گۆڕەپان، هۆیەکان، بەڵگەگان،	حەوشە، باخچە، باغچە، دەوروبەر (خاک و باخانە)ی خانووبەرە،	خڵتە یان تڵپەی قاوە، بنی قاوە،	وایەری زەمین
 """),
-// With short examples define "grip", please follow LX instructions
-                    const DefinitionKurdish(
-                        text: """١. (ناو) گرتنی کەسێک/شتێک بە توندی"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: grasp"),
+// With short examples define "ground", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) ڕووی زەوی"""),
                     SentencesRow(
-                      englishText: """Keep a tight grip on the rope.""",
-                      kurdishText: """بە توندی حەبلەکە بگرە.""",
+                      englishText: """I found her lying on the ground.""",
+                      kurdishText: """دۆزیمەوە کە لەسەر زەوییەکە کەوت بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The climber slipped and lost her grip.""",
-                      kurdishText:
-                          """شاخەوانەکە خلیسکا و دەس‌لێ‌گیرکردنەکەی نەما.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """He finally broke her grip and escaped.""",
-                      kurdishText:
-                          """سەرەنجام لە گرتنەکەی دەربازی بوو و هەڵهات.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
+                    Column(
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText:
+                                  """He fell to the ground, crying out in pain.""",
+                              kurdishText:
+                                  """کەوتە سەر زەوییەکە و لە ئازاردا دەیقیژاند.""",
+                              onPressedBritish: () => speaksentence2("en-GB"),
+                              onPressedAmerican: () => speaksentence2("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The helicopter hovered a couple of hundred metres above the ground.""",
+                              kurdishText:
+                                  """هەلیکۆپتەرەکە چەند سەد مەترێک لە سەروو ڕووی زەوییەوە دەسووڕایەوە.""",
+                              onPressedBritish: () => speaksentence3("en-GB"),
+                              onPressedAmerican: () => speaksentence3("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The library has four levels below ground and seven above.""",
+                              kurdishText:
+                                  """کتێبخانەکە چوار نهۆمی لە خوار زەوییەوە هەیە و حەوتیش لە سەرەوە.""",
+                              onPressedBritish: () => speaksentence4("en-GB"),
+                              onPressedAmerican: () => speaksentence4("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """He sat down on the ground.""",
+                              kurdishText: """لەسەر زەوییەکە دانیشت.""",
+                              onPressedBritish: () => speaksentence5("en-GB"),
+                              onPressedAmerican: () => speaksentence5("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """Her eyes searched the ground.""",
+                              kurdishText:
+                                  """چاوەکانی بە زەوییەکەدا دەگەڕان.""",
+                              onPressedBritish: () => speaksentence6("en-GB"),
+                              onPressedAmerican: () => speaksentence6("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The helicopter burst into flames when it hit the ground.""",
+                              kurdishText:
+                                  """هەلیکۆپتەرەکە کەوتە ناو بڵێسە ئاگر کە کەوت بە زەویدا.""",
+                              onPressedBritish: () => speaksentence7("en-GB"),
+                              onPressedAmerican: () => speaksentence7("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The plane was so overloaded it couldn't leave the ground.""",
+                              kurdishText:
+                                  """فڕۆکەکە هێندە کەلووپەلی تێدا بوو نەیدەتوانی لە زەوی بەرزببێتەوە.""",
+                              onPressedBritish: () => speaksentence8("en-GB"),
+                              onPressedAmerican: () => speaksentence8("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The tunnel goes deep under the ground.""",
+                              kurdishText:
+                                  """تونێلەکە قووڵ بە ژێر زەویدا دەچێت.""",
+                              onPressedBritish: () => speaksentence9("en-GB"),
+                              onPressedAmerican: () => speaksentence9("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """Thunder shook the ground.""",
+                              kurdishText: """چەخماخە زەوییەکەی لەراندەوە.""",
+                              onPressedBritish: () => speaksentence10("en-GB"),
+                              onPressedAmerican: () => speaksentence10("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """It was buried three metres below ground.""",
+                              kurdishText:
+                                  """سێ مەتر لە ژێر زەوییەوە شاردرابوویەوە.""",
+                              onPressedBritish: () => speaksentence11("en-GB"),
+                              onPressedAmerican: () => speaksentence11("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The rope barely reached the ground below.""",
+                              kurdishText:
+                                  """حەبلەکە بە ئاستەنگ گەشتە زەوییەکەی خوارەوە.""",
+                              onPressedBritish: () => speaksentence12("en-GB"),
+                              onPressedAmerican: () => speaksentence12("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) کۆنترۆڵ و دەسەڵات بەسەر کەسێک/شتێکدا"""),
+                            """٢. (ناو) بۆ باسکردنی ئەو چالاکییانەی کە لەسەر زەوی ڕوودەدەن نەک لە ئاسمان یان ناو ئاو"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The home team took a firm grip on the game.""",
+                          """Ground forces were deployed in the area.""",
                       kurdishText:
-                          """تیمی میواندار کۆنترۆڵی توندی سەپاند بەسەر یارییەکەدا.""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
-                      onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """We need to tighten the grip we have on the market.""",
-                      kurdishText:
-                          """دەبێت ئەو کۆنترۆڵە توند بکەینەوە کە بەسەر بازاڕدا هەمانە.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
-                      onPressedAmerican: () => speaksentence5("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """The Prime Minister needs to keep a tight grip on his party.""",
-                      kurdishText:
-                          """سەرۆک وەزیران دەبێت کۆنترۆڵی توند بەسەر پارتەکەیدا بهێڵێتەوە.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٣. (ناو) تێگەشتن لە شتێک"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: grasp"),
-                    SentencesRow(
-                      englishText:
-                          """I couldn't get a grip on what was going on.""",
-                      kurdishText: """نەمدەتوانی تێبگەم لەوەی چی ڕوویدەدا.""",
-                      onPressedBritish: () => speaksentence7("en-GB"),
-                      onPressedAmerican: () => speaksentence7("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """The government does not seem to have a very firm grip on the economy.""",
-                      kurdishText:
-                          """حکومەت وەها دەرناکەوێت تێگەشتنی باشی بۆ ئابووری هەبێت.""",
-                      onPressedBritish: () => speaksentence8("en-GB"),
-                      onPressedAmerican: () => speaksentence8("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٤. (ناو) توانای شتێک بۆ جووڵان بەسەر ڕوویەک بەبێ خلیسکان"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """These tyres give the bus better grip in slippery conditions.""",
-                      kurdishText:
-                          """ئەم تایانە گیربوونی باشتر دەدات بە پاسەکە لە دۆخی خزیدا.""",
-                      onPressedBritish: () => speaksentence9("en-GB"),
-                      onPressedAmerican: () => speaksentence9("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٥. (ناو) ئەو بەشەی شتێک کە دەتوانیت بیگریت و بەبێ ئەوەی لە دەستت بخلیسکێت"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """The grip on a golf club was worn and needed replacing.""",
-                      kurdishText:
-                          """دەسکی داری گۆڵفەکە کۆن بووبوو و پێویستی بە گۆڕین بوو.""",
-                      onPressedBritish: () => speaksentence10("en-GB"),
-                      onPressedAmerican: () => speaksentence10("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    CustomRichText(
-                      textBeforeLink: "٦. بڕوانە لە ",
-                      linkText: "hairgrip",
-                      textAfterLink: "",
-                      onTap: () {
-                        Routemaster.of(context).push("/english-grip/hairgrip");
-                      },
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٧. (کردار) گرتنی کەسێک/شتێک بە توندی"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: grasp"),
-                    SentencesRow(
-                      englishText:
-                          """She gripped on to the railing with both hands.""",
-                      kurdishText: """بە هەردوو دەست دەستی گرت بە دەسکەکەوە.""",
-                      onPressedBritish: () => speaksentence11("en-GB"),
-                      onPressedAmerican: () => speaksentence11("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """She gripped hard at the arms of her chair.""",
-                      kurdishText: """بە توندی دەسکی کورسییەکەی گرتبوو.""",
-                      onPressedBritish: () => speaksentence12("en-GB"),
-                      onPressedAmerican: () => speaksentence12("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Grip the rope as tightly as you can.""",
-                      kurdishText: """چەندە توند دەتوانیت حەبلەکە بگرە.""",
+                          """هێزە زەمینییەکان لە ناوچەکە بڵاوکرانەوە.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٨. (کردار) حەز درووستکردنی لای کەسێک؛ هەبوونی کاریگەریی بەهێز لەسەر کەسێک"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The book grips you from start to finish.""",
-                      kurdishText:
-                          """کتێبەکە لە سەرەتا تا کۆتایی دڵت دەڕفێنێت.""",
+                          """He called for more troops on the ground.""",
+                      kurdishText: """داوای هێزی زیاتری لەسەر زەوی کرد.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) زەوی یان دەشتێکی کراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was totally gripped by the story.""",
-                      kurdishText: """تەواو سەرسام بووم بە چیرۆکەکە.""",
+                      englishText:
+                          """We found a patch of open ground in the middle of the woods.""",
+                      kurdishText:
+                          """پارچەیەک زەوی کراوەمان بینییەوە لە دارستانەکە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٩. (کردار) هەبوونی کاریگەریی زۆر لەسەر کەسێک/شتێک"""),
+                            """٤. (ناو) زەوییەک کە بۆ مەبەستێکی دیاریکراو، چالاکییەک، یان وەرزشێک بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was gripped by a feeling of panic.""",
-                      kurdishText: """تووشی هەستی تۆقین بووم.""",
+                      englishText:
+                          """The atmosphere inside the ground was electric.""",
+                      kurdishText:
+                          """کەشوهەوای ناو یاریگاکە پڕ لە وزە و جۆش و خرۆش بوو.""",
+                      englishNote:
+                          """This means the feeling or mood inside the stadium (or venue) was highly charged, full of energy, excitement, and anticipation. People were likely very enthusiastic and emotionally engaged, creating a vibrant and thrilling environment.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (ناو) ناوچەیەکی فراوان کە بۆ مەبەستێکی دیاریکراو بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A sudden fear gripped me.""",
-                      kurdishText: """ترسێکی لەناکاو باڵی بەسەریدا کێشا.""",
+                      englishText:
+                          """The boats headed to the fishing grounds at dawn.""",
+                      kurdishText:
+                          """بەلەمەکان لە بەرەبەیاندا کەوتنە ڕێ بۆ ناوچەی ماسیگرتنەکە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٦. (ناو) خۆڵی سەر ڕووی زەوی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """Terrorism has gripped the country for the past two years.""",
+                          """Prepare the ground before you plant anything.""",
                       kurdishText:
-                          """تیرۆریزم بۆ دوو ساڵی ڕابردوو وڵاتەکەی خستووەتە ژێر ڕکێفی خۆیەوە.""",
+                          """خاکەکە ئامادە بکە پێش ئەوەی هیچ بچێنیت.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -1225,8 +1273,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The car got stuck in the muddy ground.""",
+                      kurdishText:
+                          """ئۆتۆمبێلەکە لەسەر زەوییە قوڕاوییەکە گیری کرد.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -1234,17 +1283,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_2000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You can sow the seeds directly into the ground.""",
+                      kurdishText:
+                          """دەتوانیت تۆوەکە ڕاستەوخۆ لە زەوییەکە بچێنیت.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٨. (ناو) زەوی یان باخچەی دەوری بینایەکی گەورە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The house has extensive grounds.""",
+                      kurdishText: """خانووەکە زەوی فراوانی هەیە.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -1252,134 +1305,186 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She lived in the grounds of the castle.""",
+                      kurdishText: """لە دەورووبەری قەڵاکە دەژیا.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٩. (ناو) بوارێکی زانیاری، حەز، یان بیرۆکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He managed to cover a lot of ground in a short talk.""",
+                      kurdishText: """توانی باسی زۆر بوار لە کورتە قسەیەکدا.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence2400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence24("en-GB"),
-                      onPressedAmerican: () => speaksentence24("en-US"),
+                    Column(
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText:
+                                  """We had to go over the same ground (= talk about the same things again) in class the next day.""",
+                              kurdishText:
+                                  """ڕۆژی دواتر دەبوو باسی هەمان شت بکەین لە پۆلدا.""",
+                              onPressedBritish: () => speaksentence24("en-GB"),
+                              onPressedAmerican: () => speaksentence24("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """You're on dangerous ground (= likely to offend or upset somebody) if you criticize his family.""",
+                              kurdishText:
+                                  """ئەگەر ڕەخنە لە خێزانەکەی بگریت، خۆت دەخەیتە بارودۆخێکی مەترسیدارەوە..""",
+                              onPressedBritish: () => speaksentence25("en-GB"),
+                              onPressedAmerican: () => speaksentence25("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """Legal scholars say the president is on shaky ground.""",
+                              kurdishText:
+                                  """پسپۆڕە لۆکاڵییەکان دەڵێن سەرۆک لە دۆخێکی لەرزۆکە.""",
+                              englishNote:
+                                  "This means the president's position or situation is unstable, uncertain, or vulnerable, often due to legal or political issues. Legal scholars suggest that the president may be in a precarious or weak position that could lead to challenges or difficulties.",
+                              onPressedBritish: () => speaksentence26("en-GB"),
+                              onPressedAmerican: () => speaksentence26("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I apologize if I'm going over old ground.""",
+                              kurdishText:
+                                  """داوای لێبووردن دەکەم ئەگەر باسی شتی باسکراو دەکەم.""",
+                              englishNote:
+                                  """This means the speaker is sorry if they are repeating information or discussing topics that have already been covered before. They are acknowledging that their current discussion might be revisiting previous points or issues.""",
+                              onPressedBritish: () => speaksentence27("en-GB"),
+                              onPressedAmerican: () => speaksentence27("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٩. (ناو) هۆکاری سرووست یان باش بۆ گوتن، کردن، یان باوەڕکردن بە شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence25("en-GB"),
-                      onPressedAmerican: () => speaksentence25("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence2600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence26("en-GB"),
-                      onPressedAmerican: () => speaksentence26("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence2700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence27("en-GB"),
-                      onPressedAmerican: () => speaksentence27("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence2800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """You have no grounds for complaint.""",
+                      kurdishText: """هیچ هۆکارت بۆ ناڕەزایی نییە.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence2900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence29("en-GB"),
-                      onPressedAmerican: () => speaksentence29("en-US"),
+                    Column(
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText:
+                                  """What were his grounds for wanting a divorce?""",
+                              kurdishText:
+                                  """هۆکارەکانی چی بوو بۆ ویستنی جیابوونەوە؟""",
+                              onPressedBritish: () => speaksentence29("en-GB"),
+                              onPressedAmerican: () => speaksentence29("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """There are reasonable grounds to believe that a crime has been committed.""",
+                              kurdishText:
+                                  """هۆکارەکانی گونجاو هەیە بۆ باوەڕبوون بەوەی تاوانەکە ئەنجام دراوە.""",
+                              onPressedBritish: () => speaksentence30("en-GB"),
+                              onPressedAmerican: () => speaksentence30("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The case was dismissed on the ground that there was insufficient evidence.""",
+                              kurdishText:
+                                  """کەیسەکە وەلانرا بە هۆکاری ئەوەی بەڵگەی ناپێویست هەبوو.""",
+                              onPressedBritish: () => speaksentence31("en-GB"),
+                              onPressedAmerican: () => speaksentence31("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """Employers cannot discriminate on grounds of age.""",
+                              kurdishText:
+                                  """خاوەنکاران ناتوانن جیاکاری بکەن لەسەر بنەمای تەمەن.""",
+                              onPressedBritish: () => speaksentence32("en-GB"),
+                              onPressedAmerican: () => speaksentence32("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٠. (کردار) کە بەلەم یان شتێک لە ئاوێکی کەم‌قووڵ بەر خاکەکە دەکەوێت و ناتوانێت بجووڵێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_3000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence30("en-GB"),
-                      onPressedAmerican: () => speaksentence30("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence3100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence31("en-GB"),
-                      onPressedAmerican: () => speaksentence31("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence3200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence32("en-GB"),
-                      onPressedAmerican: () => speaksentence32("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence3300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The fishing boat had been grounded off the coast of Cornwall.""",
+                      kurdishText:
+                          """بەلەمە ماسیگرییەکە لە نزیک کەناراوی کۆرنوۆڵ چەقیبوو.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١١. (کردار) ڕێگریکردن لە فڕینی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """All planes out of Heathrow have been grounded by the strikes.""",
+                      kurdishText:
+                          """هەموو فڕۆکەکان لە هێسرۆوە ڕاگیراون بەهۆی مانگرتنەوە.""",
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٢. (کردار) سزادانی منداڵێک بەوەی نەهێڵیت بچێتە دەرەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """You're grounded for a week!""",
+                      kurdishText: """بۆ هەفتەیەک لە ماڵەوە ڕادەگیرێیت.""",
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١٣. (هاوەڵناو) کە وردکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He bought a bag of ground coffee from the store.""",
+                      kurdishText: """کیسەیەک قاوەی هاڕاوی لە فرۆشگاکە کڕی.""",
                       onPressedBritish: () => speaksentence36("en-GB"),
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
@@ -2207,18 +2312,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
-const double _startSecondsend = 000000000000000000000000000273;
-const String _videoIdone = 'https://youtu.be/zqllxbPWKNI?t=';
-const double _startSecondsone = 0000000000000000000000000001539;
-const String _videoIdtwo = 'https://youtu.be/dXt1ftcdxNg?t=';
-const double _startSecondstwo = 000000000000000000000000000195;
-const String _videoIdthree = 'https://youtu.be/1aHVa2jT3n4?t=';
-const double _startSecondsthree = 00000000000000000000000000091;
-const String _videoIdfour = 'https://youtu.be/qY5m8PXzcS4?t=';
-const double _startSecondsfour = 00000000000000000000000000046;
-const String _videoIdfive = 'https://youtu.be/Hc6u1vy8_z4?t=';
-const double _startSecondsfive = 00000000000000000000000000090;
+const String _videoIdend = 'https://youtu.be/FHJ3CMWnVxY?t=';
+const double _startSecondsend = 000000000000000000000000000176;
+const String _videoIdone = 'https://youtu.be/gFuEoxh5hd4?t=';
+const double _startSecondsone = 000000000000000000000000000494;
+const String _videoIdtwo = 'https://youtu.be/_wNsZEqpKUA?t=';
+const double _startSecondstwo = 0000000000000000000000000001123;
+const String _videoIdthree = 'https://youtu.be/K12WhrZfxxw?t=';
+const double _startSecondsthree = 000000000000000000000000000156;
+const String _videoIdfour = 'https://youtu.be/D9od6OlaPgc?t=';
+const double _startSecondsfour = 000000000000000000000000000487;
+const String _videoIdfive = 'https://youtu.be/SOeAThye5rQ?t=';
+const double _startSecondsfive = 00000000000000000000000000059;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -111,7 +111,7 @@ ${englishMeaningConst.text}
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """first floor""",
-                      // alsoEnglishWord: "also: first floor",
+                      alsoEnglishWord: "also: ground floor",
                       britshText: """IpaUK: /ˌfɜːst ˈflɔː(r)/""",
                       americanText: """IpaUS: /ˌfɜːrst ˈflɔːr/""",
                       onPressedBritish: () => speakheadword("en-GB"),

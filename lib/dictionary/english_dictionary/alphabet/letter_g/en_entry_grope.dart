@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygrip extends StatefulWidget {
-  const EnglishEntrygrip({super.key});
+class EnglishEntrygrope extends StatefulWidget {
+  const EnglishEntrygrope({super.key});
 
   @override
-  State<EnglishEntrygrip> createState() => _EnglishEntrygripState();
+  State<EnglishEntrygrope> createState() => _EnglishEntrygropeState();
 }
 
-class _EnglishEntrygripState extends State<EnglishEntrygrip> {
+class _EnglishEntrygropeState extends State<EnglishEntrygrope> {
   @override
   void initState() {
     super.initState();
@@ -54,37 +53,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: grip (Derived forms: grips, gripping, gripped)
-1. Hold fast or firmly
-"He gripped the steering wheel"
+- Verb: grope (Derived forms: groping, gropes, groped)
+1. Feel about uncertainly or blindly (- fumble)
+"She groped for her glasses in the darkness of the bedroom";
  
-2. Hold or seize, as in a wrestling match (- grapple)
+2. Search blindly or uncertainly
+"His mind groped to make the connection"
  
-3. To render motionless, as with a fixed stare or by arousing terror or awe (- fascinate, transfix, spellbind)
-"The snake charmer grips the cobra";
+3. Fondle for sexual pleasure (- feel up [slang], cop a feel [slang], touch up [Brit, slang])
+"He made some sexual advances at the woman in his office and groped her repeatedly";
 
-- Noun: grip (Derived forms: grips)
-1. The act of grasping (- clasp, clench, clutch, clutches, grasp, hold)
-"he has a strong grip for an old man";
- 
-2. The appendage to an object that is designed to be held in order to use or move it (- handle, handgrip, hold)
-"it was an old briefcase but it still had a good grip";
- 
-3. A portable rectangular container for carrying clothes (- bag, traveling bag [US], travelling bag, suitcase)
- 
-4. The friction between a body and the surface on which it moves (as between an automobile tire and the road) (- traction, adhesive friction)
- 
-5. Worker who moves the camera around while a film or television show is being made
- 
-6. An intellectual hold or understanding (- grasp)
-"a good grip on French history"; "they kept a firm grip on the two top priorities"; "he was in the grip of a powerful emotion";
- 
-7. A flat wire hairpin whose prongs press tightly together; used to hold bobbed hair in place (- bobby pin [N. Amer, Austral, NZ], hairgrip [UK])
-"in Britain they call a bobby pin a grip";
+- Noun: grope (Derived forms: gropes)
+1. The act of groping; and instance of groping
 """,
   );
 
-  final String keyword = "grip";
+  final String keyword = "grope";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -104,140 +88,136 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""grip""");
+    await flutterTts.speak("""grope""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Keep a tight grip on the rope.""");
+    await flutterTts
+        .speak("""He groped around in the dark for his other sock.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The climber slipped and lost her grip.""");
+    await flutterTts.speak("""She groped blindly for the door handle.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He finally broke her grip and escaped.""");
+    await flutterTts
+        .speak("""She groped through the darkness towards the doors.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The home team took a firm grip on the game.""");
+    await flutterTts.speak(
+        """She described how he had groped her whenever they were alone.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""We need to tighten the grip we have on the market.""");
+    await flutterTts.speak("""speaksentence500""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The Prime Minister needs to keep a tight grip on his party.""");
+    await flutterTts.speak("""speaksentence600""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I couldn't get a grip on what was going on.""");
+    await flutterTts.speak("""speaksentence700""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The government does not seem to have a very firm grip on the economy.""");
+    await flutterTts.speak("""speaksentence800""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """These tyres give the bus better grip in slippery conditions.""");
+    await flutterTts.speak("""speaksentence900""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""The grip on a golf club was worn and needed replacing.""");
+    await flutterTts.speak("""speaksentence_1000""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""She gripped on to the railing with both hands.""");
+    await flutterTts.speak("""speaksentence1100""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She gripped hard at the arms of her chair.""");
+    await flutterTts.speak("""speaksentence1200""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Grip the rope as tightly as you can.""");
+    await flutterTts.speak("""speaksentence1300""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The book grips you from start to finish.""");
+    await flutterTts.speak("""speaksentence1400""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was totally gripped by the story.""");
+    await flutterTts.speak("""speaksentence1500""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was gripped by a feeling of panic.""");
+    await flutterTts.speak("""speaksentence1600""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A sudden fear gripped me.""");
+    await flutterTts.speak("""speaksentence1700""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""Terrorism has gripped the country for the past two years.""");
+    await flutterTts.speak("""speaksentence1800""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
@@ -970,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """grip""",
-                      // alsoEnglishWord: "also: grip",
-                      britshText: """IpaUK: /ɡrɪp/""",
-                      americanText: """IpaUS: /ɡrɪp/""",
+                      word: """grope""",
+                      // alsoEnglishWord: "also: grope",
+                      britshText: """IpaUK: /ɡrəʊp/""",
+                      americanText: """IpaUS: /ɡrəʊp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1014,15 +994,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: گرتن، گیر، دەس‌لێ‌گیرکردن، هیزی گرتن، توانایی گرتن، گرۆکی، گیرایی،	جێگای دەست، جێ‌دەس،	دەسەڵات، دەس‌بەسەراگرتن، هێز، کۆنتڕۆڵ،	تێگەیشتن، پێ‌پێبردن، پێزانین،	گیرە، مەنگەنە، گیرگە، بەست، دەسک، قوڵف، دەسگیرە، دەزگیرە،	چنگ، مشت،	دەرزی قژ،	ساک، جانتا، گلەیی، شکات، لاری، گازندە، سکاڵا، دەربڕینی ناڕەزایەتی
+کوردی: 
 """),
-// With short examples define "grip", please follow LX instructions
+// With short examples define "grope", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) گرتنی کەسێک/شتێک بە توندی"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: grasp"),
+                        text:
+                            """١. (کردار) هەوڵدان بۆ دۆزینەوەی شتێک کە نایبینیت بە دەستەکانت"""),
                     SentencesRow(
-                      englishText: """Keep a tight grip on the rope.""",
-                      kurdishText: """بە توندی حەبلەکە بگرە.""",
+                      englishText:
+                          """He groped around in the dark for his other sock.""",
+                      kurdishText:
+                          """لە تاریکییەکەدا بۆ گۆرەوییەکانی دەستی دەگێڕا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1030,32 +1012,36 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The climber slipped and lost her grip.""",
+                      englishText:
+                          """She groped blindly for the door handle.""",
                       kurdishText:
-                          """شاخەوانەکە خلیسکا و دەس‌لێ‌گیرکردنەکەی نەما.""",
+                          """بە نابینایی دەستی دەگێڕا بۆ دەسکی دەرگاکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) هەوڵدان بۆ گەشتن بە شوێنیک بە بەکارهێنانی دەستت بەهۆی ئەوەی بە ڕوونی نابینیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He finally broke her grip and escaped.""",
+                      englishText:
+                          """She groped through the darkness towards the doors.""",
                       kurdishText:
-                          """سەرەنجام لە گرتنەکەی دەربازی بوو و هەڵهات.""",
+                          """بە دەستی ڕێگای خۆی بەرەو دەرگاکە دۆزییەوە لە تاریکییەکەدا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) کۆنترۆڵ و دەسەڵات بەسەر کەسێک/شتێکدا"""),
+                            """٣. (کردار) دەستدان لە کەسێک بە حەزی سێکسییەوە، بە تایبەتی بە بێ مۆڵەت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The home team took a firm grip on the game.""",
+                          """She described how he had groped her whenever they were alone.""",
                       kurdishText:
-                          """تیمی میواندار کۆنترۆڵی توندی سەپاند بەسەر یارییەکەدا.""",
+                          """باسی ئەوەی کرد کە چۆن دەستی لێدەدا هەر کاتێک تەنها بوون.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1063,10 +1049,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """We need to tighten the grip we have on the market.""",
-                      kurdishText:
-                          """دەبێت ئەو کۆنترۆڵە توند بکەینەوە کە بەسەر بازاڕدا هەمانە.""",
+                      englishText: """speaksentence500""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1074,21 +1058,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The Prime Minister needs to keep a tight grip on his party.""",
-                      kurdishText:
-                          """سەرۆک وەزیران دەبێت کۆنترۆڵی توند بەسەر پارتەکەیدا بهێڵێتەوە.""",
+                      englishText: """speaksentence600""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٣. (ناو) تێگەشتن لە شتێک"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: grasp"),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """I couldn't get a grip on what was going on.""",
-                      kurdishText: """نەمدەتوانی تێبگەم لەوەی چی ڕوویدەدا.""",
+                      englishText: """speaksentence700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1096,56 +1076,35 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The government does not seem to have a very firm grip on the economy.""",
-                      kurdishText:
-                          """حکومەت وەها دەرناکەوێت تێگەشتنی باشی بۆ ئابووری هەبێت.""",
+                      englishText: """speaksentence800""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٤. (ناو) توانای شتێک بۆ جووڵان بەسەر ڕوویەک بەبێ خلیسکان"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """These tyres give the bus better grip in slippery conditions.""",
-                      kurdishText:
-                          """ئەم تایانە گیربوونی باشتر دەدات بە پاسەکە لە دۆخی خزیدا.""",
+                      englishText: """speaksentence900""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٥. (ناو) ئەو بەشەی شتێک کە دەتوانیت بیگریت و بەبێ ئەوەی لە دەستت بخلیسکێت"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The grip on a golf club was worn and needed replacing.""",
-                      kurdishText:
-                          """دەسکی داری گۆڵفەکە کۆن بووبوو و پێویستی بە گۆڕین بوو.""",
+                      englishText: """speaksentence_1000""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
-                    CustomRichText(
-                      textBeforeLink: "٦. بڕوانە لە ",
-                      linkText: "hairgrip",
-                      textAfterLink: "",
-                      onTap: () {
-                        Routemaster.of(context).push("/english-grip/hairgrip");
-                      },
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٧. (کردار) گرتنی کەسێک/شتێک بە توندی"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: grasp"),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """She gripped on to the railing with both hands.""",
-                      kurdishText: """بە هەردوو دەست دەستی گرت بە دەسکەکەوە.""",
+                      englishText: """speaksentence1100""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -1153,9 +1112,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """She gripped hard at the arms of her chair.""",
-                      kurdishText: """بە توندی دەسکی کورسییەکەی گرتبوو.""",
+                      englishText: """speaksentence1200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -1163,21 +1121,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Grip the rope as tightly as you can.""",
-                      kurdishText: """چەندە توند دەتوانیت حەبلەکە بگرە.""",
+                      englishText: """speaksentence1300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٨. (کردار) حەز درووستکردنی لای کەسێک؛ هەبوونی کاریگەریی بەهێز لەسەر کەسێک"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The book grips you from start to finish.""",
-                      kurdishText:
-                          """کتێبەکە لە سەرەتا تا کۆتایی دڵت دەڕفێنێت.""",
+                      englishText: """speaksentence1400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -1185,19 +1139,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was totally gripped by the story.""",
-                      kurdishText: """تەواو سەرسام بووم بە چیرۆکەکە.""",
+                      englishText: """speaksentence1500""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٩. (کردار) هەبوونی کاریگەریی زۆر لەسەر کەسێک/شتێک"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was gripped by a feeling of panic.""",
-                      kurdishText: """تووشی هەستی تۆقین بووم.""",
+                      englishText: """speaksentence1600""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -1205,8 +1157,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A sudden fear gripped me.""",
-                      kurdishText: """ترسێکی لەناکاو باڵی بەسەریدا کێشا.""",
+                      englishText: """speaksentence1700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -1214,10 +1166,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Terrorism has gripped the country for the past two years.""",
-                      kurdishText:
-                          """تیرۆریزم بۆ دوو ساڵی ڕابردوو وڵاتەکەی خستووەتە ژێر ڕکێفی خۆیەوە.""",
+                      englishText: """speaksentence1800""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -2207,18 +2157,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
-const double _startSecondsend = 000000000000000000000000000273;
-const String _videoIdone = 'https://youtu.be/zqllxbPWKNI?t=';
-const double _startSecondsone = 0000000000000000000000000001539;
-const String _videoIdtwo = 'https://youtu.be/dXt1ftcdxNg?t=';
-const double _startSecondstwo = 000000000000000000000000000195;
-const String _videoIdthree = 'https://youtu.be/1aHVa2jT3n4?t=';
-const double _startSecondsthree = 00000000000000000000000000091;
-const String _videoIdfour = 'https://youtu.be/qY5m8PXzcS4?t=';
-const double _startSecondsfour = 00000000000000000000000000046;
-const String _videoIdfive = 'https://youtu.be/Hc6u1vy8_z4?t=';
-const double _startSecondsfive = 00000000000000000000000000090;
+const String _videoIdend = 'https://youtu.be/h_OeMVcol1g?t=';
+const double _startSecondsend = 0000000000000000000000000001343;
+const String _videoIdone = 'https://youtu.be/rbrL40XHlPQ?t=';
+const double _startSecondsone = 000000000000000000000000000524;
+const String _videoIdtwo = 'https://youtu.be/rwoPd2MHEh0?t=';
+const double _startSecondstwo = 0000000000000000000000000001543;
+const String _videoIdthree = 'https://youtu.be/Ir2O2ysWaes?t=';
+const double _startSecondsthree = 000000000000000000000000000171;
+const String _videoIdfour = 'https://youtu.be/K0PUZ7w_bfI?t=';
+const double _startSecondsfour = 000000000000000000000000000262;
+const String _videoIdfive = 'https://youtu.be/wkSuMiPFnCU?t=';
+const double _startSecondsfive = 0000000000000000000000000001437;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

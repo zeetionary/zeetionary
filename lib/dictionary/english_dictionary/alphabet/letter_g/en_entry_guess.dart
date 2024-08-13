@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryguard extends StatefulWidget {
-  const EnglishEntryguard({super.key});
+class EnglishEntryguess extends StatefulWidget {
+  const EnglishEntryguess({super.key});
 
   @override
-  State<EnglishEntryguard> createState() => _EnglishEntryguardState();
+  State<EnglishEntryguess> createState() => _EnglishEntryguessState();
 }
 
-class _EnglishEntryguardState extends State<EnglishEntryguard> {
+class _EnglishEntryguessState extends State<EnglishEntryguess> {
   @override
   void initState() {
     super.initState();
@@ -53,48 +53,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: guard (Derived forms: guards)
-1. A person who keeps watch over something or someone
+- Verb: guess (Derived forms: guessed, guessing, guesses)
+1. Expect to be true; believe (- think, opine, suppose, imagine, reckon, daresay [informal], dare say [informal])
+"I guess she is angry at me for standing her up";
  
-2. The person who lines up between the centre and the tackles on the offensive line of a football team on the line of scrimmage
-"the left guard was injured on the play"
+2. Put forward, of a guess, in spite of possible refutation (- venture, pretend, hazard)
+"I am guessing that the price of real estate will rise again";
  
-3. A device designed to prevent injury or accidents (- safety, safety device)
+3. Form an estimate of (quantities or time) (- estimate, gauge, approximate, judge)
  
-4. A posture of defence in boxing or fencing
-"keep your guard up"
- 
-5. The person who plays the position of guard on a basketball team
- 
-6. A military unit serving to protect some place or person
- 
-7. A precautionary measure warding off impending danger, damage or injury etc. (- precaution, safeguard)
-"we let our guard down";
- 
-8. The duty of serving as a sentry (- guard duty, sentry duty, sentry go)
-"he was on guard that night";
- 
-9. (American football) a position on the line of scrimmage between the centre and the tackles
-"guards must be good blockers"
- 
-10. A position on a basketball team
+4. Guess correctly; solve by guessing (- infer)
+"He guessed the right number of beans in the jar and won the prize";
 
-- Verb: guard (Derived forms: guarded, guards, guarding)
-1. To keep watch over
-"there would be men guarding the horses"
+- Noun: guess (Derived forms: guesses)
+1. A message expressing an opinion based on incomplete evidence (- conjecture, supposition, surmise, surmisal, speculation, hypothesis)
  
-2. Watch over or shield from danger or harm; protect (- ward)
-"guard my possessions while I'm away";
- 
-3. Protect against a challenge or attack (- defend, hold)
-"guard that position behind the trees!";
- 
-4. Take precautions in order to avoid some unwanted consequence
-"guard against becoming too friendly with the staff"; "guard against infection"
+2. An estimate based on little or no information (- guesswork, guessing, shot, dead reckoning)
 """,
   );
 
-  final String keyword = "guard";
+  final String keyword = "guess";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -114,65 +92,65 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""guard""");
+    await flutterTts.speak("""guess""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The building is protected by armed guards.""");
+    await flutterTts.speak("""I don't really know. I'm just guessing.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A guard was posted outside the building.""");
+    await flutterTts.speak("""He guessed wrong.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""Guards had been posted all around the TV studio.""");
+    await flutterTts.speak("""I'd guess that she's about 30.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""The escaped prisoner was brought back under armed guard.""");
+    await flutterTts.speak("""She guessed the answer straight away.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The terrorist was kept under police guard.""");
+    await flutterTts
+        .speak("""So it was Rob who broke the window? I might have guessed!""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He fell asleep on guard duty.""");
+    await flutterTts.speak(
+        """If I had to guess, I'd say she was the one responsible for this.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Would you like me to keep guard of your room?""");
+    await flutterTts.speak("""Guess what! He's asked me out!""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The suspects were kept under police guard.""");
+    await flutterTts.speak("""Guess who I've just seen!""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -180,64 +158,66 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""The president always travels with an armed guard.""");
+        .speak("""I guess (that) you’ll be looking for a new job now.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""All players wear helmets and face guards.""");
+    await flutterTts.speak("""I guess I'm just lucky.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """Ensure the guard is in place before operating the machine.""");
+    await flutterTts.speak("""Go on! Have a guess!""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Armed officers guarded the entrance.""");
+    await flutterTts
+        .speak("""If I might hazard a guess, I'd say she was about thirty.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""You can't get in; the whole place is guarded.""");
+    await flutterTts.speak(
+        """But this is clearly just a wild guess at what his motives could have been.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He was under instructions to guard the key with his life.""");
+    await flutterTts
+        .speak("""They might be here by 3—but that's just a rough guess.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The military base is closely guarded.""");
+    await flutterTts.speak("""speaksentence1500""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The mountain pass is well guarded.""");
+    await flutterTts.speak("""speaksentence1600""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The prisoners were guarded by soldiers.""");
+    await flutterTts.speak("""speaksentence1700""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
@@ -977,10 +957,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """guard""",
-                      // alsoEnglishWord: "also: guard",
-                      britshText: """IpaUK: /ɡɑːd/""",
-                      americanText: """IpaUS: /ɡɑːrd/""",
+                      word: """guess""",
+                      // alsoEnglishWord: "also: guess",
+                      britshText: """IpaUK: /ɡes/""",
+                      americanText: """IpaUS: /ɡes/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1021,17 +1001,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: نۆبەداری، کێشک، پاس، ئاگاداری، ئاگالێ‌بوون، پاراستن، چاودێری، زێرەڤانی، نۆبەدار، پاسەوان، کێشک‌چی، کێشک‌گر، ئاگاوان، پارێزەر،	زیندانەوان، نۆبەداری زیندان،	بەرپرسی شەمەندەفەر،	قەڵغان، مەتاڵ، پارێزە، پارێزەر، ئامێر یان وەسیلەی پاراستن
+کوردی: گومان، بۆچوون، مەزندە، ڕاوێژ، پێ‌وابوون، خەیاڵ، مەرەسە
 """),
-// With short examples define "guard", please follow LX instructions
+// With short examples define "guess", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) پاسەوانێک کە ئاگای لە شوێنێک دەبێت یان ڕێگری لە هەڵهاتنی زیندانی دەکات"""),
+                            """١. (ناو) هەوڵدان بۆ وەڵامدانەوە یان بیرکردنەوە لە شتێک بەبێ دڵنیایی"""),
                     SentencesRow(
                       englishText:
-                          """The building is protected by armed guards.""",
-                      kurdishText:
-                          """بیناکە لەلایەن پاسەوانی چەکدارەوە پارێزراوە.""",
+                          """I don't really know. I'm just guessing.""",
+                      kurdishText: """لە ڕاستیدا نازانم. تەنها گومان دەکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1039,10 +1018,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """A guard was posted outside the building.""",
-                      kurdishText:
-                          """پاسەوانێک لە دەرەوەی زیندانەکە دانرابوو.""",
+                      englishText: """He guessed wrong.""",
+                      kurdishText: """بە هەڵە داینا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1050,121 +1027,106 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Guards had been posted all around the TV studio.""",
+                      englishText: """I'd guess that she's about 30.""",
                       kurdishText:
-                          """پاسەوان لە دەوری هەموو ستودیۆی تەلەفیزیۆنەکە دانرا بوون.""",
+                          """مەزەندەی ئەوە دەکەم نزیکەی ٣٠ ساڵان بێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) کار یان ئەرکی پاسەوانی شوێنێک یان چاودێری زیندانی"""),
+                            """٢. (کردار) دۆزینەوەی وەڵامی ڕاست بۆ پرسیارێک یان ڕاستییەک بەبێ زانینی هەموو ڕاستییەکان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The escaped prisoner was brought back under armed guard.""",
-                      kurdishText:
-                          """زیندانییە هەڵهاتووەکە بە چاودێری پاسەوانی چەکدار هێندرایەوە.""",
+                      englishText: """She guessed the answer straight away.""",
+                      kurdishText: """ڕاستەوخۆ پێشبینی وەڵامە ڕاستەکەی کرد.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
-                    Column(
-                      children: [
-                        MyExpansionTile(
-                          children: [
-                            SentencesRow(
-                              englishText:
-                                  """The terrorist was kept under police guard.""",
-                              kurdishText:
-                                  """تیرۆریستەکە لە ژێر چاودێری پۆلیس هێڵدرایەوە.""",
-                              onPressedBritish: () => speaksentence5("en-GB"),
-                              onPressedAmerican: () => speaksentence5("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText: """He fell asleep on guard duty.""",
-                              kurdishText:
-                                  """خەوی لێکەوت لە کاتی ئەرکی پاسەوانی.""",
-                              onPressedBritish: () => speaksentence6("en-GB"),
-                              onPressedAmerican: () => speaksentence6("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """Would you like me to keep guard of your room?""",
-                              kurdishText:
-                                  """دەتەوێت پاسەوانی ژوورەکەت بکەم؟""",
-                              onPressedBritish: () => speaksentence7("en-GB"),
-                              onPressedAmerican: () => speaksentence7("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """The suspects were kept under police guard.""",
-                              kurdishText:
-                                  """گومان لێکراوەکان لەژێر چاودێری پۆلیس هێڵدرانەوە.""",
-                              onPressedBritish: () => speaksentence8("en-GB"),
-                              onPressedAmerican: () => speaksentence8("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٣. (ناو) گرووپێک پاسەوان کە کەسێک یان شوێنێک دەپارێزن"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """The president always travels with an armed guard.""",
-                      kurdishText:
-                          """سەرۆک هەمیشە لەگەڵ پاسەوانی چەکدار گەشت دەکات.""",
-                      onPressedBritish: () => speaksentence9("en-GB"),
-                      onPressedAmerican: () => speaksentence9("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٤. (ناو) شتێک کە کەسێک یان شتێک لە مەترسی دەپارێزێت"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """All players wear helmets and face guards.""",
-                      kurdishText:
-                          """هەموو یاریزانەکان کڵاو لەسەر دەکەن و قەڵغانی ڕووخسار دەبەستن.""",
-                      onPressedBritish: () => speaksentence10("en-GB"),
-                      onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """Ensure the guard is in place before operating the machine.""",
+                          """So it was Rob who broke the window? I might have guessed!""",
                       kurdishText:
-                          """دڵنیابەرەوە پارێزەرەکە لە شوێنی خۆیەتی پێش ئەوەی ئامێرەکە بخەیتە کار.""",
+                          """کەواتە ڕۆب بوو کە پەنجەرەکەی شکاند؟ ڕەنگە بکرایە بۆی بچووبام!""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """If I had to guess, I'd say she was the one responsible for this.""",
+                      kurdishText:
+                          """ئەگەر پێویست بێت مەزەندەی بکەم، دەڵێم ئەو ئەو کەسە بوو کە بەرپرس بوو بۆی.""",
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) بەکاردێت بۆ گوتنی ئەوەی شتێکی جێی سەرنجڕاکێش یان بەجۆشهێهەر دەڵێیت"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """Guess what! He's asked me out!""",
+                      kurdishText: """بڵێ چی! داوای ژووانێکی لێکردم!""",
+                      onPressedBritish: () => speaksentence7("en-GB"),
+                      onPressedAmerican: () => speaksentence7("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """Guess who I've just seen!""",
+                      kurdishText: """بڵێ کێم دیوە هەر ئێستا!""",
+                      onPressedBritish: () => speaksentence8("en-GB"),
+                      onPressedAmerican: () => speaksentence8("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٤. (کردار) وادانانی ئەوەی شتێک ڕاستە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """I guess (that) you’ll be looking for a new job now.""",
+                      kurdishText:
+                          """وای مەزەندە دەکەم بۆ کارێکی تازە دەگەڕێیت.""",
+                      onPressedBritish: () => speaksentence9("en-GB"),
+                      onPressedAmerican: () => speaksentence9("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """I guess I'm just lucky.""",
+                      kurdishText:
+                          """وای مەزەندە دەکەم تەنها ئەوەیە بە بەختم.""",
+                      onPressedBritish: () => speaksentence10("en-GB"),
+                      onPressedAmerican: () => speaksentence10("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (ناو) هەوڵدان بۆ وەڵامێکی ڕاست یان دەربڕینی بۆچوونێک کە دڵنیا نیت ئایا ڕاستیت"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """Go on! Have a guess!""",
+                      kurdishText: """بەردەوام بە! مەزەندەی بکە!""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
-                    // skipped_meaning
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (کردار) پاراستن و پاسەوانیکردنی شوێنێک یان کەسێک"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Armed officers guarded the entrance.""",
-                      kurdishText: """ئەفسەری چەکدار دەروازەکەیان دەپاراست.""",
+                      englishText:
+                          """If I might hazard a guess, I'd say she was about thirty.""",
+                      kurdishText:
+                          """ئەگەر بکرێت مەزەندەیەک بکەم، ئەوا دەڵێم نزیکەی ٣٠ ساڵان بوو.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -1172,8 +1134,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """You can't get in; the whole place is guarded.""",
-                      kurdishText: """ناتوانیت بچیتە ژوورەوە؛ تەواوی شوێنەکە پاسەوانی دەکرێت.""",
+                      englishText:
+                          """But this is clearly just a wild guess (= not sensible or accurate) at what his motives could have been.""",
+                      kurdishText:
+                          """بەڵام ئەمە تەنها مەزەندەیەکی سەرسەرەکییە بۆ ئەوەی کە پاڵنەرەکانی دەبوو چیبان.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -1181,8 +1145,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was under instructions to guard the key with his life.""",
-                      kurdishText: """ڕێنمایی پێدرابوو کە کلیلەکە بە ژیانی بپارێزێت.""",
+                      englishText:
+                          """They might be here by 3—but that's just a rough guess (= not exact).""",
+                      kurdishText:
+                          """لەوانەیە نزیکەی ٣ لێرە بن ـ بەڵام ئەوە تەنها مەزەندەیەکی نزیکە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -1190,24 +1156,26 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The military base is closely guarded.""",
-                      kurdishText: """بنکە سەربازییەکە بە وردی چاودێری دەکرێت.""",
+                      englishText: """speaksentence1500""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The mountain pass is well guarded.""",
-                      kurdishText: """ڕێگای چیاکە باش پاسەوانی دەکرێت.""",
+                      englishText: """speaksentence1600""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (کردار) پاسەوانیکردنی زیندانی"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The prisoners were guarded by soldiers.""",
-                      kurdishText: """زیندانییەکان لەلایەن سەربازەوە پاسەوانی دەکران.""",
+                      englishText: """speaksentence1700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -2206,18 +2174,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/NZ74oFctP_g?t=';
-const double _startSecondsend = 000000000000000000000000000127;
-const String _videoIdone = 'https://youtu.be/55XJ1ObZKaM?t=';
-const double _startSecondsone = 000000000000000000000000000431;
-const String _videoIdtwo = 'https://youtu.be/ewLpXw6uN28?t=';
-const double _startSecondstwo = 0000000000000000000000000001445;
-const String _videoIdthree = 'https://youtu.be/2TUGZ1VQDss?t=';
-const double _startSecondsthree = 000000000000000000000000000384;
-const String _videoIdfour = 'https://youtu.be/XiL74IuPv00?t=';
-const double _startSecondsfour = 000000000000000000000000000129;
-const String _videoIdfive = 'https://youtu.be/uSW5zEWY15c?t=';
-const double _startSecondsfive = 00000000000000000000000000042;
+const String _videoIdend = 'https://youtu.be/a_TSR_v07m0?t=';
+const double _startSecondsend = 000000000000000000000000000754;
+const String _videoIdone = 'https://youtu.be/hS2x1zl4rn0?t=';
+const double _startSecondsone = 000000000000000000000000000730;
+const String _videoIdtwo = 'https://youtu.be/_Z0ZQT0FttM?t=';
+const double _startSecondstwo = 0000000000000000000000000001836;
+const String _videoIdthree = 'https://youtu.be/khOUvmOQExc?t=';
+const double _startSecondsthree = 0000000000000000000000000004;
+const String _videoIdfour = 'https://youtu.be/XZVHmRvfDHM?t=';
+const double _startSecondsfour = 00000000000000000000000000024;
+const String _videoIdfive = 'https://youtu.be/wizgxRBfVTY?t=';
+const double _startSecondsfive = 00000000000000000000000000032;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

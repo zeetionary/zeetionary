@@ -104,6 +104,7 @@ class EnglishEntryconductor extends StatelessWidget {
                             onPressedBritish: () => speakconductors1("en-GB"),
                             onPressedAmerican: () => speakconductors1("en-US"),
                           ),
+                          // skipped_meaning
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:

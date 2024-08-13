@@ -138,6 +138,7 @@ class EnglishEntrybegrudge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ناڕەحەت بوون بەوەی کەسێک شتێکی ھەیە چونکە پێت‌وایە شایەنی نییە"""),
+                          const AlsoEnglishckb(word: "ھەروەھا: grudge"),
                           SentencesRow(
                             englishText:
                                 "You surely don't begrudge him his happiness?",
@@ -159,6 +160,7 @@ class EnglishEntrybegrudge extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (کردار) ناڕەحەت بوون بە کردن، پارەدان، یان پێدانی شتێک"""),
+                          const AlsoEnglishckb(word: "ھەروەھا: grudge"),
                           SentencesRow(
                             englishText:
                                 "I begrudge every second I spent trying to help him.",

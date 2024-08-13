@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygrouse extends StatefulWidget {
-  const EnglishEntrygrouse({super.key});
+class EnglishEntrygruelling extends StatefulWidget {
+  const EnglishEntrygruelling({super.key});
 
   @override
-  State<EnglishEntrygrouse> createState() => _EnglishEntrygrouseState();
+  State<EnglishEntrygruelling> createState() => _EnglishEntrygruellingState();
 }
 
-class _EnglishEntrygrouseState extends State<EnglishEntrygrouse> {
+class _EnglishEntrygruellingState extends State<EnglishEntrygruelling> {
   @override
   void initState() {
     super.initState();
@@ -54,25 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: grouse (Derived forms: grouse)
-1. (game bird) flesh of any of various grouse of the family Tetraonidae; usually roasted; flesh too dry to broil
- 
-2. Popular game bird having a plump body and feathered legs and feet
-
-- Verb: grouse (Derived forms: grouses, groused, grousing)
-1. Hunt grouse
- 
-2. Complain (- gripe, bitch [informal], crab [informal], beef [informal], squawk, bellyache [informal], holler [informal])
-"What was he grousing about?";
-
-- Adjective: grouse
-Usage: Austral, NZ, informal
-1. Excellent (- bang-up [N. Amer, informal], bully [informal], corking [Brit, informal], cracking [Brit, informal], dandy, great, groovy [informal], keen, neat, nifty [informal], not bad [informal], peachy, slap-up [informal], swell [informal], smashing [Brit, informal], old, not half bad [informal], ripper [Austral, informal], lovely)
-"he did a grouse job";
+- Adjective: gruelling
+Usage: Brit, Cdn (US: grueling)
+1. Characterized by effort to the point of exhaustion; especially physical effort (- arduous, backbreaking, grueling [US], hard, heavy, laborious, operose, punishing, toilsome, killing [informal])
+"a gruelling campaign"; "worked their gruelling way up the mining valley";
 """,
   );
 
-  final String keyword = "grouse";
+  final String keyword = "gruelling";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -92,14 +80,14 @@ Usage: Austral, NZ, informal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""grouse""");
+    await flutterTts.speak("""gruelling""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He saw a pair of grouse on his hike.""");
+    await flutterTts.speak("""I've had a gruelling day.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -107,7 +95,7 @@ Usage: Austral, NZ, informal
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """She's always grousing about how she's been treated by the management.""");
+        """It had been a gruelling season, but the final result made it worthwhile.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -952,10 +940,10 @@ Usage: Austral, NZ, informal
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """grouse""",
-                      // alsoEnglishWord: "also: grouse",
-                      britshText: """IpaUK: /ɡraʊs/""",
-                      americanText: """IpaUS: /ɡraʊs/""",
+                      word: """gruelling""",
+                      // alsoEnglishWord: "also: gruelling",
+                      britshText: """IpaUK: /ˈɡruːəlɪŋ/""",
+                      americanText: """IpaUS: /ˈɡruːəlɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,37 +984,27 @@ Usage: Austral, NZ, informal
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەخت، گران، دژوار، قورس، چەتوون، ئاسێ، ڕیشەدەرهێن، پڕئەرک، زەحمەتاوی، ساحەب‌ماندوو
 """),
+// With short examples define "gruelling", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) باڵندەیەک کە جەستەی قەڵەوە و پەڕ لەسەر لاقی هەیە، و خەڵکی بۆ وەرزش یان گۆشتەکەی تەقەی لێ دەکەن؛ گۆشتی ئەم باڵندە"""),
+                            """١. (ھاوەڵناو) کە زۆر سەختە و وات لێ دەکات زۆر ماندوو بیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: punishing"),
                     SentencesRow(
-                      englishText: """He saw a pair of grouse on his hike.""",
-                      kurdishText:
-                          """جووتە کوڕکوڕێکی دیکە لا کاتی شاخەوانییەکەیدا.""",
+                      englishText: """I've had a gruelling day.""",
+                      kurdishText: """ڕۆژێکی زەحمەتاویم تێپەڕاند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    CustomRichText(
-                      textBeforeLink: "٢. بڕوانە لە ",
-                      linkText: "complaint",
-                      textAfterLink: "",
-                      onTap: () {
-                        Routemaster.of(context)
-                            .push("/english-grouse/complaint");
-                      },
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٣. (کردار) ناڕەزایی دەربڕین"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """She's always grousing about how she's been treated by the management.""",
+                          """It had been a gruelling season, but the final result made it worthwhile.""",
                       kurdishText:
-                          """هەمیشە ناڕەزایی دەردەبڕێت لەسەر ئەوەی چۆن مامەڵەی لەگەڵ کراوە.""",
+                          """وەرزێکی سەخت بوو، بەڵام ئەنجامی کۆتایی وایکرد شایەنی بێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2160,18 +2138,18 @@ Usage: Austral, NZ, informal
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/ammbKPg0aqw?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/9dnN82DsQ2k?t=';
-const double _startSecondsone = 000000000000000000000000000397;
-const String _videoIdtwo = 'https://youtu.be/V-0UCEWtLa0?t=';
-const double _startSecondstwo = 000000000000000000000000000751;
-const String _videoIdthree = 'https://youtu.be/IVUjJpk0qWc?t=';
-const double _startSecondsthree = 0000000000000000000000000001628;
-const String _videoIdfour = 'https://youtu.be/HpRQx020GDE?t=';
-const double _startSecondsfour = 000000000000000000000000000435;
-const String _videoIdfive = 'https://youtu.be/y-E_n0q0ttI?t=';
-const double _startSecondsfive = 000000000000000000000000000376;
+const String _videoIdend = 'https://youtu.be/y-E_n0q0ttI?t=';
+const double _startSecondsend = 000000000000000000000000000756;
+const String _videoIdone = 'https://youtu.be/MgSgkNiEQuA?t=';
+const double _startSecondsone = 000000000000000000000000000404;
+const String _videoIdtwo = 'https://youtu.be/K6R_eFCcVfM?t=';
+const double _startSecondstwo = 000000000000000000000000000416;
+const String _videoIdthree = 'https://youtu.be/G6A_7KS-eOY?t=';
+const double _startSecondsthree = 000000000000000000000000000264;
+const String _videoIdfour = 'https://youtu.be/1cod1XavsnA?t=';
+const double _startSecondsfour = 000000000000000000000000000239;
+const String _videoIdfive = 'https://youtu.be/gE82LsvGujI?t=';
+const double _startSecondsfive = 000000000000000000000000000910;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

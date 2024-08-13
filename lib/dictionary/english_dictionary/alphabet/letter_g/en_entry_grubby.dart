@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygrouse extends StatefulWidget {
-  const EnglishEntrygrouse({super.key});
+class EnglishEntrygrubby extends StatefulWidget {
+  const EnglishEntrygrubby({super.key});
 
   @override
-  State<EnglishEntrygrouse> createState() => _EnglishEntrygrouseState();
+  State<EnglishEntrygrubby> createState() => _EnglishEntrygrubbyState();
 }
 
-class _EnglishEntrygrouseState extends State<EnglishEntrygrouse> {
+class _EnglishEntrygrubbyState extends State<EnglishEntrygrubby> {
   @override
   void initState() {
     super.initState();
@@ -54,25 +53,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: grouse (Derived forms: grouse)
-1. (game bird) flesh of any of various grouse of the family Tetraonidae; usually roasted; flesh too dry to broil
+- Adjective: grubby (Derived forms: grubbier, grubbiest)
+Usage: informal
+1. Thickly covered with ingrained dirt or soot (- begrimed, dingy, grimy, grungy, raunchy [US, informal], manky [Brit, informal], scungy [Austral, NZ, informal])
+"grubby little fingers";
  
-2. Popular game bird having a plump body and feathered legs and feet
+2. Infested with grubs
 
-- Verb: grouse (Derived forms: grouses, groused, grousing)
-1. Hunt grouse
- 
-2. Complain (- gripe, bitch [informal], crab [informal], beef [informal], squawk, bellyache [informal], holler [informal])
-"What was he grousing about?";
-
-- Adjective: grouse
-Usage: Austral, NZ, informal
-1. Excellent (- bang-up [N. Amer, informal], bully [informal], corking [Brit, informal], cracking [Brit, informal], dandy, great, groovy [informal], keen, neat, nifty [informal], not bad [informal], peachy, slap-up [informal], swell [informal], smashing [Brit, informal], old, not half bad [informal], ripper [Austral, informal], lovely)
-"he did a grouse job";
+- Noun: grubby (Derived forms: grubbies)
+Usage: informal
+1. Small sculpin of the coast of New England (- Myxocephalus aenaeus)
 """,
   );
 
-  final String keyword = "grouse";
+  final String keyword = "grubby";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -92,14 +86,14 @@ Usage: Austral, NZ, informal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""grouse""");
+    await flutterTts.speak("""grubby""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He saw a pair of grouse on his hike.""");
+    await flutterTts.speak("""My hands are a bit grubby.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -107,7 +101,7 @@ Usage: Austral, NZ, informal
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """She's always grousing about how she's been treated by the management.""");
+        """She sees the business of making money as just grubby opportunism.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -952,10 +946,10 @@ Usage: Austral, NZ, informal
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """grouse""",
-                      // alsoEnglishWord: "also: grouse",
-                      britshText: """IpaUK: /ɡraʊs/""",
-                      americanText: """IpaUS: /ɡraʊs/""",
+                      word: """grubby""",
+                      // alsoEnglishWord: "also: grubby",
+                      britshText: """IpaUK: /ˈɡrʌbi/""",
+                      americanText: """IpaUS: /ˈɡrʌbi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,37 +990,28 @@ Usage: Austral, NZ, informal
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پیس، گڵاو، چەپەڵ، گەمار، چڵکن، ناحەز، ناشیرین، ناشایست
 """),
+// With short examples define "grubby", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) باڵندەیەک کە جەستەی قەڵەوە و پەڕ لەسەر لاقی هەیە، و خەڵکی بۆ وەرزش یان گۆشتەکەی تەقەی لێ دەکەن؛ گۆشتی ئەم باڵندە"""),
+                            """١. (ھاوەڵناو) کەمێک پیس بەهۆی ئەوەی نەشۆراوە یان پاکنەکراوە"""),
                     SentencesRow(
-                      englishText: """He saw a pair of grouse on his hike.""",
-                      kurdishText:
-                          """جووتە کوڕکوڕێکی دیکە لا کاتی شاخەوانییەکەیدا.""",
+                      englishText: """My hands are a bit grubby.""",
+                      kurdishText: """دەستەکانم کەمێک پیسن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    CustomRichText(
-                      textBeforeLink: "٢. بڕوانە لە ",
-                      linkText: "complaint",
-                      textAfterLink: "",
-                      onTap: () {
-                        Routemaster.of(context)
-                            .push("/english-grouse/complaint");
-                      },
-                    ),
-                    const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (کردار) ناڕەزایی دەربڕین"""),
+                        text:
+                            """٢. (ھاوەڵناو) ناخۆش بەهۆی ئەوەی چالاکی لەخۆ دەگرێت کە ئەخلاقی یان ڕاستگۆییانە نییە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """She's always grousing about how she's been treated by the management.""",
+                          """She sees the business of making money as just grubby opportunism.""",
                       kurdishText:
-                          """هەمیشە ناڕەزایی دەردەبڕێت لەسەر ئەوەی چۆن مامەڵەی لەگەڵ کراوە.""",
+                          """کاری پارە پەیداکردن تەنها بە هەلقۆزتنەوەی چەپەڵانە دەبینێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2160,18 +2145,18 @@ Usage: Austral, NZ, informal
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/ammbKPg0aqw?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/9dnN82DsQ2k?t=';
-const double _startSecondsone = 000000000000000000000000000397;
-const String _videoIdtwo = 'https://youtu.be/V-0UCEWtLa0?t=';
-const double _startSecondstwo = 000000000000000000000000000751;
-const String _videoIdthree = 'https://youtu.be/IVUjJpk0qWc?t=';
-const double _startSecondsthree = 0000000000000000000000000001628;
-const String _videoIdfour = 'https://youtu.be/HpRQx020GDE?t=';
-const double _startSecondsfour = 000000000000000000000000000435;
-const String _videoIdfive = 'https://youtu.be/y-E_n0q0ttI?t=';
-const double _startSecondsfive = 000000000000000000000000000376;
+const String _videoIdend = 'https://youtu.be/Tfb99MZlqKY?t=';
+const double _startSecondsend = 0000000000000000000000000001157;
+const String _videoIdone = 'https://youtu.be/qOY8F_ngNWI?t=';
+const double _startSecondsone = 000000000000000000000000000326;
+const String _videoIdtwo = 'https://youtu.be/oWVaIefXaBs?t=';
+const double _startSecondstwo = 000000000000000000000000000535;
+const String _videoIdthree = 'https://youtu.be/tCqwT2MqLxI?t=';
+const double _startSecondsthree = 000000000000000000000000000745;
+const String _videoIdfour = 'https://youtu.be/D6V85qfsu3g?t=';
+const double _startSecondsfour = 0000000000000000000000000001793;
+const String _videoIdfive = 'https://youtu.be/y9nBhv0lq1s?t=';
+const double _startSecondsfive = 00000000000000000000000000090;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

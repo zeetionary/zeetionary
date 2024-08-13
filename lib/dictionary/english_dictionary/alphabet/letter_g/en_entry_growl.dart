@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygrouse extends StatefulWidget {
-  const EnglishEntrygrouse({super.key});
+class EnglishEntrygrowl extends StatefulWidget {
+  const EnglishEntrygrowl({super.key});
 
   @override
-  State<EnglishEntrygrouse> createState() => _EnglishEntrygrouseState();
+  State<EnglishEntrygrowl> createState() => _EnglishEntrygrowlState();
 }
 
-class _EnglishEntrygrouseState extends State<EnglishEntrygrouse> {
+class _EnglishEntrygrowlState extends State<EnglishEntrygrowl> {
   @override
   void initState() {
     super.initState();
@@ -54,25 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: grouse (Derived forms: grouse)
-1. (game bird) flesh of any of various grouse of the family Tetraonidae; usually roasted; flesh too dry to broil
- 
-2. Popular game bird having a plump body and feathered legs and feet
+- Verb: growl (Derived forms: growling, growled, growls)
+1. To utter or emit low dull rumbling sounds (- grumble, rumble)
+"he growled a rude response";
 
-- Verb: grouse (Derived forms: grouses, groused, grousing)
-1. Hunt grouse
- 
-2. Complain (- gripe, bitch [informal], crab [informal], beef [informal], squawk, bellyache [informal], holler [informal])
-"What was he grousing about?";
-
-- Adjective: grouse
-Usage: Austral, NZ, informal
-1. Excellent (- bang-up [N. Amer, informal], bully [informal], corking [Brit, informal], cracking [Brit, informal], dandy, great, groovy [informal], keen, neat, nifty [informal], not bad [informal], peachy, slap-up [informal], swell [informal], smashing [Brit, informal], old, not half bad [informal], ripper [Austral, informal], lovely)
-"he did a grouse job";
+- Noun: growl (Derived forms: growls)
+1. The sound of growling (as made by animals) (- growling)
 """,
   );
 
-  final String keyword = "grouse";
+  final String keyword = "growl";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -92,36 +82,36 @@ Usage: Austral, NZ, informal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""grouse""");
+    await flutterTts.speak("""growl""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He saw a pair of grouse on his hike.""");
+    await flutterTts.speak("""The dog growled at them.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """She's always grousing about how she's been treated by the management.""");
+    await flutterTts.speak("""Her stomach was growling with hunger.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(""""Not now, I'm busy," he growled.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""The dog eyed me suspiciously and gave a low growl.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -952,10 +942,10 @@ Usage: Austral, NZ, informal
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """grouse""",
-                      // alsoEnglishWord: "also: grouse",
-                      britshText: """IpaUK: /ɡraʊs/""",
-                      americanText: """IpaUS: /ɡraʊs/""",
+                      word: """growl""",
+                      // alsoEnglishWord: "also: growl",
+                      britshText: """IpaUK: /ɡraʊl/""",
+                      americanText: """IpaUS: /ɡraʊl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,60 +986,51 @@ Usage: Austral, NZ, informal
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەنگی مڕە، نەڕە، گرمە، شریخە، هەڵشاخان، بۆڵە، پرتە
 """),
+// With short examples define "growl", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) باڵندەیەک کە جەستەی قەڵەوە و پەڕ لەسەر لاقی هەیە، و خەڵکی بۆ وەرزش یان گۆشتەکەی تەقەی لێ دەکەن؛ گۆشتی ئەم باڵندە"""),
+                        text: """١. (کردار) نەڕاندنی ئاژەڵ"""),
                     SentencesRow(
-                      englishText: """He saw a pair of grouse on his hike.""",
-                      kurdishText:
-                          """جووتە کوڕکوڕێکی دیکە لا کاتی شاخەوانییەکەیدا.""",
+                      englishText: """The dog growled at them.""",
+                      kurdishText: """سەگەکە نەڕەی کرد لێیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    CustomRichText(
-                      textBeforeLink: "٢. بڕوانە لە ",
-                      linkText: "complaint",
-                      textAfterLink: "",
-                      onTap: () {
-                        Routemaster.of(context)
-                            .push("/english-grouse/complaint");
-                      },
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٣. (کردار) ناڕەزایی دەربڕین"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """She's always grousing about how she's been treated by the management.""",
-                      kurdishText:
-                          """هەمیشە ناڕەزایی دەردەبڕێت لەسەر ئەوەی چۆن مامەڵەی لەگەڵ کراوە.""",
+                      englishText: """Her stomach was growling with hunger.""",
+                      kurdishText: """(خوازراوی) گەددەی قۆڕەی دەهات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) گوتنی شتێک بە دەنگێکی نزمی تووڕە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """"Not now, I'm busy," he growled.""",
+                      kurdishText:
+                          """بە ورتەیەکی تووڕەییەوە گوتی 'ئێستا نا، سەرقاڵم.'""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ناو) نەڕە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The dog eyed me suspiciously and gave a low growl.""",
+                      kurdishText:
+                          """سەگەکە بە گومانەوە سەیری کردم و نەڕەیەکی نزمی کرد.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence500""",
@@ -1058,7 +1039,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence600""",
@@ -1067,7 +1048,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence700""",
@@ -1076,7 +1057,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence800""",
@@ -1085,7 +1066,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence900""",
@@ -1094,7 +1075,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_1000""",
@@ -1103,7 +1084,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1100""",
@@ -1112,7 +1093,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1200""",
@@ -1121,7 +1102,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1300""",
@@ -1130,7 +1111,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1400""",
@@ -1139,7 +1120,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1500""",
@@ -1148,7 +1129,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1600""",
@@ -1157,7 +1138,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1700""",
@@ -1166,7 +1147,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1800""",
@@ -1175,7 +1156,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1900""",
@@ -1184,7 +1165,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_2000""",
@@ -1193,7 +1174,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2100""",
@@ -1202,7 +1183,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2200""",
@@ -1211,7 +1192,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2300""",
@@ -1220,7 +1201,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2400""",
@@ -1229,7 +1210,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2500""",
@@ -1238,7 +1219,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2600""",
@@ -1247,7 +1228,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2700""",
@@ -1256,7 +1237,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2800""",
@@ -1265,7 +1246,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2900""",
@@ -1274,7 +1255,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_3000""",
@@ -1283,7 +1264,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence30("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3100""",
@@ -1292,7 +1273,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3200""",
@@ -1301,7 +1282,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence32("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3300""",
@@ -1310,7 +1291,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3400""",
@@ -1319,7 +1300,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3500""",
@@ -1328,7 +1309,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3600""",
@@ -1337,7 +1318,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3700""",
@@ -1346,7 +1327,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3800""",
@@ -1355,7 +1336,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3900""",
@@ -1364,7 +1345,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence39("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_4000""",
@@ -1373,7 +1354,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence40("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4100""",
@@ -1382,7 +1363,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence41("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4200""",
@@ -1391,7 +1372,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence42("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4300""",
@@ -1400,7 +1381,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence43("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4400""",
@@ -1409,7 +1390,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence44("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4500""",
@@ -1418,7 +1399,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence45("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4600""",
@@ -1427,7 +1408,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence46("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4700""",
@@ -1436,7 +1417,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence47("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4800""",
@@ -1445,7 +1426,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence48("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4900""",
@@ -1454,7 +1435,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence49("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_5000""",
@@ -1463,7 +1444,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence50("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5100""",
@@ -1472,7 +1453,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence51("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5200""",
@@ -1481,7 +1462,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence52("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5300""",
@@ -1490,7 +1471,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence53("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5400""",
@@ -1499,7 +1480,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence54("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5500""",
@@ -1508,7 +1489,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence55("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5600""",
@@ -1517,7 +1498,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence56("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5700""",
@@ -1526,7 +1507,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence57("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5800""",
@@ -1535,7 +1516,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence58("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5900""",
@@ -1544,7 +1525,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence59("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_6000""",
@@ -1553,7 +1534,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence60("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6100""",
@@ -1562,7 +1543,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence61("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6200""",
@@ -1571,7 +1552,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence62("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6300""",
@@ -1580,7 +1561,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence63("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6400""",
@@ -1589,7 +1570,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence64("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6500""",
@@ -1598,7 +1579,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence65("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6600""",
@@ -1607,7 +1588,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence66("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6700""",
@@ -1616,7 +1597,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence67("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6800""",
@@ -1625,7 +1606,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence68("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6900""",
@@ -1634,7 +1615,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence69("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_7000""",
@@ -1643,7 +1624,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence70("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7100""",
@@ -1652,7 +1633,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence71("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7200""",
@@ -1661,7 +1642,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence72("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7300""",
@@ -1670,7 +1651,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence73("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7400""",
@@ -1679,7 +1660,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence74("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7500""",
@@ -1688,7 +1669,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence75("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7600""",
@@ -1697,7 +1678,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence76("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7700""",
@@ -1706,7 +1687,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence77("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7800""",
@@ -1715,7 +1696,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence78("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7900""",
@@ -1724,7 +1705,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence79("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_8000""",
@@ -1733,7 +1714,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence80("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8100""",
@@ -1742,7 +1723,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence81("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8200""",
@@ -1751,7 +1732,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence82("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8300""",
@@ -1760,7 +1741,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence83("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8400""",
@@ -1769,7 +1750,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence84("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8500""",
@@ -1778,7 +1759,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence85("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8600""",
@@ -1787,7 +1768,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence86("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8700""",
@@ -1796,7 +1777,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence87("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8800""",
@@ -1805,7 +1786,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence88("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8900""",
@@ -1814,7 +1795,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence89("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_9000""",
@@ -1823,7 +1804,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence90("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence9100""",
@@ -1832,7 +1813,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence91("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence9200""",
@@ -1841,7 +1822,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence92("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence9300""",
@@ -1850,7 +1831,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence93("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence9400""",
@@ -1859,7 +1840,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence94("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence9500""",
@@ -1868,7 +1849,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence95("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence9600""",
@@ -1877,7 +1858,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence96("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence9700""",
@@ -1886,7 +1867,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence97("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence9800""",
@@ -1895,7 +1876,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence98("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence9900""",
@@ -1904,7 +1885,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence99("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence__10000""",
@@ -1913,7 +1894,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence100("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_10100""",
@@ -1922,7 +1903,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence101("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_10200""",
@@ -1931,7 +1912,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence102("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_10300""",
@@ -1940,7 +1921,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence103("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_10400""",
@@ -1949,7 +1930,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence104("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_10500""",
@@ -1958,7 +1939,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence105("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_10600""",
@@ -1967,7 +1948,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence106("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_10700""",
@@ -1976,7 +1957,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence107("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_10800""",
@@ -1985,7 +1966,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence108("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_10900""",
@@ -1994,7 +1975,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence109("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11000""",
@@ -2003,7 +1984,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence110("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11100""",
@@ -2012,7 +1993,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence111("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11200""",
@@ -2021,7 +2002,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence112("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11300""",
@@ -2030,7 +2011,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence113("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11400""",
@@ -2039,7 +2020,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence114("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11500""",
@@ -2048,7 +2029,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence115("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11600""",
@@ -2057,7 +2038,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence116("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11700""",
@@ -2066,7 +2047,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence117("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11800""",
@@ -2075,7 +2056,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence118("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_11900""",
@@ -2084,7 +2065,7 @@ Usage: Austral, NZ, informal
                       onPressedAmerican: () => speaksentence119("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_12000""",
@@ -2160,18 +2141,18 @@ Usage: Austral, NZ, informal
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/ammbKPg0aqw?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/9dnN82DsQ2k?t=';
-const double _startSecondsone = 000000000000000000000000000397;
-const String _videoIdtwo = 'https://youtu.be/V-0UCEWtLa0?t=';
-const double _startSecondstwo = 000000000000000000000000000751;
-const String _videoIdthree = 'https://youtu.be/IVUjJpk0qWc?t=';
-const double _startSecondsthree = 0000000000000000000000000001628;
-const String _videoIdfour = 'https://youtu.be/HpRQx020GDE?t=';
-const double _startSecondsfour = 000000000000000000000000000435;
-const String _videoIdfive = 'https://youtu.be/y-E_n0q0ttI?t=';
-const double _startSecondsfive = 000000000000000000000000000376;
+const String _videoIdend = 'https://youtu.be/5R65skWdg7Y?t=';
+const double _startSecondsend = 0000000000000000000000000001821;
+const String _videoIdone = 'https://youtu.be/JTB5T5aldNo?t=';
+const double _startSecondsone = 00000000000000000000000000046;
+const String _videoIdtwo = 'https://youtu.be/YuXYKx5uPcQ?t=';
+const double _startSecondstwo = 00000000000000000000000000036;
+const String _videoIdthree = 'https://youtu.be/NMkLGZSrLto?t=';
+const double _startSecondsthree = 000000000000000000000000000545;
+const String _videoIdfour = 'https://youtu.be/XAiyb29Xy3w?t=';
+const double _startSecondsfour = 000000000000000000000000000732;
+const String _videoIdfive = 'https://youtu.be/VdLQC2b5Wkg?t=';
+const double _startSecondsfive = 000000000000000000000000000119;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

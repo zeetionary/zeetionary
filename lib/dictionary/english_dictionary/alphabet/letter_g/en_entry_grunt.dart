@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygrouse extends StatefulWidget {
-  const EnglishEntrygrouse({super.key});
+class EnglishEntrygrunt extends StatefulWidget {
+  const EnglishEntrygrunt({super.key});
 
   @override
-  State<EnglishEntrygrouse> createState() => _EnglishEntrygrouseState();
+  State<EnglishEntrygrunt> createState() => _EnglishEntrygruntState();
 }
 
-class _EnglishEntrygrouseState extends State<EnglishEntrygrouse> {
+class _EnglishEntrygruntState extends State<EnglishEntrygrunt> {
   @override
   void initState() {
     super.initState();
@@ -54,25 +53,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: grouse (Derived forms: grouse)
-1. (game bird) flesh of any of various grouse of the family Tetraonidae; usually roasted; flesh too dry to broil
- 
-2. Popular game bird having a plump body and feathered legs and feet
+- Verb: grunt (Derived forms: grunts, grunting, grunted)
+1. Issue a gruff, low, animal-like noise
+"He grunted his reluctant approval"
 
-- Verb: grouse (Derived forms: grouses, groused, grousing)
-1. Hunt grouse
+- Noun: grunt (Derived forms: grunts)
+1. The short low gruff noise of the kind made by hogs (- oink)
  
-2. Complain (- gripe, bitch [informal], crab [informal], beef [informal], squawk, bellyache [informal], holler [informal])
-"What was he grousing about?";
-
-- Adjective: grouse
-Usage: Austral, NZ, informal
-1. Excellent (- bang-up [N. Amer, informal], bully [informal], corking [Brit, informal], cracking [Brit, informal], dandy, great, groovy [informal], keen, neat, nifty [informal], not bad [informal], peachy, slap-up [informal], swell [informal], smashing [Brit, informal], old, not half bad [informal], ripper [Austral, informal], lovely)
-"he did a grouse job";
+2. [N. Amer, informal] An unskilled or low-ranking soldier or other worker
+"infantrymen in Vietnam were called grunts"; "he went from grunt to chairman in six years"
+ 
+3. Medium-sized tropical marine food fishes that utter grunting sounds when caught
 """,
   );
 
-  final String keyword = "grouse";
+  final String keyword = "grunt";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -92,50 +87,52 @@ Usage: Austral, NZ, informal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""grouse""");
+    await flutterTts.speak("""grunt""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He saw a pair of grouse on his hike.""");
+    await flutterTts.speak("""Loud grunts were coming from the pigsty.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """She's always grousing about how she's been treated by the management.""");
+    await flutterTts
+        .speak("""He pulled harder on the rope, grunting with the effort.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He grunted something about being late and rushed out.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""He lifted the heavy box with a grunt.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """If you can't get a 'good' job, go be a construction grunt.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""He still thinks like a grunt in the trenches.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -952,10 +949,10 @@ Usage: Austral, NZ, informal
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """grouse""",
-                      // alsoEnglishWord: "also: grouse",
-                      britshText: """IpaUK: /ɡraʊs/""",
-                      americanText: """IpaUS: /ɡraʊs/""",
+                      word: """grunt""",
+                      // alsoEnglishWord: "also: grunt",
+                      britshText: """IpaUK: /ɡrʌnt/""",
+                      americanText: """IpaUS: /ɡrʌnt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,73 +993,75 @@ Usage: Austral, NZ, informal
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مقەمق، مرقە، مڕەمڕ
 """),
+// With short examples define "grunt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) باڵندەیەک کە جەستەی قەڵەوە و پەڕ لەسەر لاقی هەیە، و خەڵکی بۆ وەرزش یان گۆشتەکەی تەقەی لێ دەکەن؛ گۆشتی ئەم باڵندە"""),
+                            """١. (کردار) دەنگێک کە ژمارەیەک لە قوڕگدا درووستی دەکەن، بە تیابەتی بەراز"""),
                     SentencesRow(
-                      englishText: """He saw a pair of grouse on his hike.""",
+                      englishText:
+                          """Loud grunts were coming from the pigsty.""",
                       kurdishText:
-                          """جووتە کوڕکوڕێکی دیکە لا کاتی شاخەوانییەکەیدا.""",
+                          """مرقەی بەرز لە تەویکەی بەرازەکانەوە دەهات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    CustomRichText(
-                      textBeforeLink: "٢. بڕوانە لە ",
-                      linkText: "complaint",
-                      textAfterLink: "",
-                      onTap: () {
-                        Routemaster.of(context)
-                            .push("/english-grouse/complaint");
-                      },
-                    ),
-                    const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (کردار) ناڕەزایی دەربڕین"""),
+                        text:
+                            """٢. (کردار) درووستکردنی دەنگێک لە قوڕگت، بە تایبەتی بۆ پیشاندانی ئەوەی کە ئازارت هەیە، بێزاریت، یان حەزت بە شتێک نییە؛ وتنی شتێک بەم شێوەیە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """She's always grousing about how she's been treated by the management.""",
+                          """He pulled harder on the rope, grunting with the effort.""",
                       kurdishText:
-                          """هەمیشە ناڕەزایی دەردەبڕێت لەسەر ئەوەی چۆن مامەڵەی لەگەڵ کراوە.""",
+                          """حەبلەکەی زیاتر ڕادەکێشا و لە هەوڵداندا نقەی دەهات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He grunted something about being late and rushed out.""",
+                      kurdishText:
+                          """شتێکی بە نقەوە گوت لەسەر ئەوەی کە درەنگ کەوتووە و چووە دەرەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) دەنگێکی نزمی کەسێک یان ئاژەڵێک، بە تایبەتی بەراز"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He lifted the heavy box with a grunt.""",
+                      kurdishText: """سندووقە قورسەکەی بە نقەیەکەوە هەڵگرت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) کرێکارێک کە کارێک بە کرێی کەم دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """If you can't get a 'good' job, go be a construction grunt.""",
+                      kurdishText:
+                          """ئەگەر ناتوانیت کارێک بەدەست بخەیت، بچۆ ببە بە کرێکاری بیناسازی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ناو) سەربازێکی پلە نزم"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He still thinks like a grunt in the trenches.""",
+                      kurdishText:
+                          """هێشتا وەک سەربازێکی ناو سەنگەرەکان بیر دەکاتەوە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -2160,18 +2159,18 @@ Usage: Austral, NZ, informal
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/ammbKPg0aqw?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/9dnN82DsQ2k?t=';
-const double _startSecondsone = 000000000000000000000000000397;
-const String _videoIdtwo = 'https://youtu.be/V-0UCEWtLa0?t=';
-const double _startSecondstwo = 000000000000000000000000000751;
-const String _videoIdthree = 'https://youtu.be/IVUjJpk0qWc?t=';
-const double _startSecondsthree = 0000000000000000000000000001628;
-const String _videoIdfour = 'https://youtu.be/HpRQx020GDE?t=';
-const double _startSecondsfour = 000000000000000000000000000435;
-const String _videoIdfive = 'https://youtu.be/y-E_n0q0ttI?t=';
-const double _startSecondsfive = 000000000000000000000000000376;
+const String _videoIdend = 'https://youtu.be/V7Zy5a9nfDg?t=';
+const double _startSecondsend = 0000000000000000000000000002947;
+const String _videoIdone = 'https://youtu.be/jLVl44NJ9ls?t=';
+const double _startSecondsone = 000000000000000000000000000240;
+const String _videoIdtwo = 'https://youtu.be/LBHP4bscP1g?t=';
+const double _startSecondstwo = 000000000000000000000000000267;
+const String _videoIdthree = 'https://youtu.be/wKvgHGsySus?t=';
+const double _startSecondsthree = 000000000000000000000000000379;
+const String _videoIdfour = 'https://youtu.be/E-T3CR_P6_E?t=';
+const double _startSecondsfour = 000000000000000000000000000141;
+const String _videoIdfive = 'https://youtu.be/g_9iDhEA5ms?t=';
+const double _startSecondsfive = 0000000000000000000000000001740;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -589,7 +589,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) بڕ یان ڕێژەی زۆر زیاترە لە ئاسایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This is a matter of great importance.""",
                       kurdishText: """ئەمە بابەتێکی زۆر گرنگە.""",
@@ -692,7 +691,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) زۆر گەورە لە ڕووی ئەندازە یان بڕ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A great crowd had gathered.""",
                       kurdishText: """جەماوەرێکی زۆر کۆبوونەوە.""",
@@ -741,7 +739,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) بۆ جەختکردنەوە لە پێش ھاوەڵناوێک دادەنرێت کە باس لە بڕ یان ئەندازە دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There was a great big pile of books on the table.""",
@@ -769,7 +766,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) زۆر باش لە توانا یان کوالێتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He has been described as the world's greatest violinist.""",
@@ -796,7 +792,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ھاوەڵناو) گرنگ و سەرنجڕاکێش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The wedding was a great occasion.""",
                       kurdishText:
@@ -824,7 +819,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ھاوەڵناو) کە پێگە و کاریگەریی بەرزی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We can make this country great again.""",
                       kurdishText: """دەتوانین ئەم وڵاتە مەزن بکەینەوە.""",
@@ -835,7 +829,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) لە دۆخێکی زۆر باشی دەروونی یان جەستەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She seemed in great spirits (= very cheerful).""",
@@ -861,7 +854,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ھاوەڵناو) کە توانای ھەیە شتێک بە باشی بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's great at chess.""",
                       kurdishText: """زۆر باشە لە شەترەنجدا.""",
@@ -871,7 +863,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (ھاوەڵناو) کە زۆر بەسوودە بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This gadget's great for opening jars.""",
                       kurdishText:
@@ -883,7 +874,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (ھاوەڵناو) بۆ جەختکردنەوە لە باسکردنی کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We are great friends.""",
                       kurdishText: """ھاوڕێی زۆر باشین.""",
@@ -916,7 +906,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (ھاوەڵناو) لە پێش ناوی خزم بەکاردێت بۆ گوتنی ئەوەی پەیوەندییەکی دوور ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He inherited a watch from my great-great-grandfather (= the grandfather of his grandfather).""",
@@ -928,7 +917,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ناو) کەسێکی زۆر ناسراو و سەرکەوتوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was one of boxing's all-time greats.""",
@@ -939,7 +927,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """١٤. (ھاوەڵکار) زۆر باش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Well done. You did great.""",
                       kurdishText: """بژیت. زۆر باشت کرد.""",

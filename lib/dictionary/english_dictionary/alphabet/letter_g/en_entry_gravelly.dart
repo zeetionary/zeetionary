@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) دەنگێکی گڕ و نەڕ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His gravelly voice is perfect for radio.""",

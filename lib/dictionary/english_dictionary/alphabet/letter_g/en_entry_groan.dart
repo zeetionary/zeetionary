@@ -242,7 +242,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) ناڕەزایی دەربڕین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I don't have time to listen to your moans and groans.""",

@@ -275,7 +275,6 @@ Usage: archaic
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) بۆ باسکردنی مەرگ یان مەرگی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Is there life beyond the grave (= life after death)?""",
@@ -302,7 +301,6 @@ Usage: archaic
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) ڕژد و گرنگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The police have expressed grave concern about the missing child's safety.""",
@@ -331,7 +329,6 @@ Usage: archaic
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کە ھەڵسووکەوتی جدییە وەک ئەوەی ھیچ ڕووی نەدابێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He looked very grave as he entered the room.""",

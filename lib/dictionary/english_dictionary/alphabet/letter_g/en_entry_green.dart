@@ -334,7 +334,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە بە سەوزەگیا داپۆشراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """After the rains, the land was green with new growth.""",
@@ -346,7 +345,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە ھێشتا ئامادە نییە بخورێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The recipe called for green tomatoes and vinegar.""",
@@ -359,7 +357,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) پەیوەندیدار بە پارتی ژینگەپارێزان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The Green Party has pledged to invest heavily in public transport.""",
@@ -371,7 +368,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) کەسێکی گەنج و بێ‌ئەزموون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The new trainees are still very green.""",
                       kurdishText:
@@ -381,7 +377,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٦. (ناو) ڕەنگی سەوز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Their leaves are a dark green.""",
                       kurdishText: """گەڵاکانیان سەوزی کاڵن.""",
@@ -408,7 +403,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) سەوزە کە گەڵاکەی سەوزێکی کاڵە، بۆ نموونە کەلەرم و سپێناخ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Eat up your greens.""",
                       kurdishText: """سەوزەکانت بخۆ.""",
@@ -427,7 +421,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) ناوچەیەکی سەوزایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Children were playing on the village green.""",
@@ -440,7 +433,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) ناوچەیەک لە گۆڕەپانی گۆڵف کە لە دەوری کونەکەیە و چیمەنەکەی کورتکراوەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Did the ball land on the green?""",
                       kurdishText: """تۆپەکە لەسەر سەوزاییەکە نیشتەوە؟""",

@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) چەوریی ئاژەڵ کە نەرم بووە بە لێنان و گەرمکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He collected the plates, which were covered with grease.""",
@@ -219,7 +218,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) لێدانی گریس یان چەوری لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Place the cakes on a lightly greased baking tray.""",

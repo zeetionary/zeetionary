@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پەیامی پیرۆزبایی ھیواخواستن بۆ تەندرووستی، خۆشی، ھتد ــی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """My mother sends her greetings to you all.""",

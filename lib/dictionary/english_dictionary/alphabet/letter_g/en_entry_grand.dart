@@ -276,7 +276,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ھاوەڵناو) لە ناوی بینا، ھتد ــی سەرنجڕاکێش یان زۆر گەورە بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We stayed at the Grand Hotel.""",
                       kurdishText: """لە ھوتێلە گەورەکە ماینەوە.""",
@@ -286,7 +285,6 @@ ${englishMeaningConst.text}
 
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە پێویستی بە ھەوڵ، پارە، و کاتی زۆر ھەیە بۆ سەرکەوتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The gallery had its grand opening on 18 January.""",
                       kurdishText: """پێشانگاکە کرانەوە شکۆدارەکەی لە ١٨ ــی کانوونی دووەم.""",
@@ -302,7 +300,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ھاوەڵناو) بەکاردێت بۆ باسکردنی شتێک کە گرنگترین یان گەورەترینە لەناو جۆرەکەی خۆیدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The film won the grand prize at the Berlin Film Festival.""",
                       kurdishText: """فیلمەکە باڵاترین خەڵاتی فیستیڤاڵی فیلمی بەرلینی بردەوە.""",
@@ -318,7 +315,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٥. (ھاوەڵناو) ڕەفتارکردن بە شکۆوە بەھۆی ئەوەی سەر بە ئاستی باڵان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They're all Lord or Lady somebody, but they're not at all grand.""",
                       kurdishText: """ھەموویان فڵان بەڕێز یان خاتوونن، بەڵام کەسانی زۆر گرنگ نین.""",
@@ -327,7 +323,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٦. (ھاوەڵناو) کە زۆر باش یان نایاب دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Thanks. That'll be grand!""",
                       kurdishText: """سوپاس. ئەوە نایاب دەبێت!""",
@@ -343,7 +338,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٧. (ناو) ١٠٠٠ پاوەند یان دۆلار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It'll cost you five grand!""",
                       kurdishText: """ئەوە پێنج ھەزار دەکەوێت لەسەرت!""",

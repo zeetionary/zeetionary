@@ -226,7 +226,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) چوارچێوەیەکی ئاسنینی تەخت کە خواردن دەخەیتە سەری بۆ دانانی لەسەر ئاگر؛ خواردنێک کە برژاندنی لەم شێوەیە (کەباب) درووستکراوە؛ کەبابخانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Once the charcoal is glowing, place the food on the grill, turning it regularly.""",
@@ -237,18 +236,17 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     CustomRichText(
-                    textBeforeLink: "٣. بڕوانە لە ",
-                    linkText: "grille",
-                    textAfterLink: "",
-                    onTap: () {
-                    Routemaster.of(context).push("/english-grill/grille");
-                    },
+                      textBeforeLink: "٣. بڕوانە لە ",
+                      linkText: "grille",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context).push("/english-grill/grille");
+                      },
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ئامادەکردنی خواردن لەسەر ئاگری بەھێز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Grill the sausages for ten minutes.""",
                       kurdishText: """سۆسجەکان بۆ دە خولەک ببرژێنە.""",
@@ -259,7 +257,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) ئامادەکردنی خواردن لەسەر ئاگر، بە تایبەتی لە دەرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """At night we used to grill steaks over charcoal in the open air.""",
@@ -272,7 +269,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) پرسیارکردنی زۆر لە کەسێک لەسەر ژیانی تایبەتیان، بە تایبەتی بە شێوەیەکی ناخۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was grilled by detectives for several hours.""",

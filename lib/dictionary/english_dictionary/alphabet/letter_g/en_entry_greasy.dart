@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) خواردنێکی چەور"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This food's a bit greasy, isn't it?""",
                       kurdishText: """ئەم خواردنە کەمێک چەورە، وانییە؟""",
@@ -199,7 +198,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) قژ یان پێستی چەور"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She tied back her long greasy hair.""",
                       kurdishText: """قژە چەورە درێژەکەی لە پشتییەوە بەست.""",

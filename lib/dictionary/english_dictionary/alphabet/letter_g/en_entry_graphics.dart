@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەری بەرھەمھێنانی دیزاین، وێنە، و وێنەکێشان، بە تایبەتی لە بەرھەمھێنانی کتێب، گۆڤار، وێبسایت، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The storyline of the game was great but the graphics were very disappointing.""",

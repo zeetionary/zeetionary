@@ -248,7 +248,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ڕەفتار، قسەکردن، یان شێوەی جدی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were asked to behave with the gravity that was appropriate in a court of law.""",

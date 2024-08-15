@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئامادەکردنی کەسێک بۆ کار یان پێگەیەکی گرنگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The eldest son is being groomed to take over when his father dies.""",
@@ -215,7 +214,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە چاودێری ئەسپ دەکاتەوە و پاکیان دەکاتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He works as a groom at the stables.""",
                       kurdishText: """وەک مەیتەر لە تەویلەکە کار دەکات.""",
@@ -226,7 +224,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) پیاوێک لە ڕۆژی ھاوسەرگیریی، یان چەند ڕۆژی پێش یان پاشتری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bride and groom walked down the aisle together.""",

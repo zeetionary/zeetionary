@@ -261,7 +261,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) زۆر ڕوون و پەسەندنەکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The government committed a gross violation of human rights.""",
@@ -293,7 +292,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) قەڵەو و ناشرین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She felt hurt by being called gross.""",
                       kurdishText: """ھەستی بە ئازار کرد کە پێی گوترا خرسە.""",
@@ -303,7 +301,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ھاوەڵکار) بە کۆی گشتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She earns £25 000 a year gross.""",
                       kurdishText:
@@ -315,7 +312,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) بەدەستھێنانی بڕێکی دیاریکراو پارە پێش دەرکردنی باج لێی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The concert grossed a massive £2 million at the box office.""",
@@ -327,7 +323,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) گرووپێک کە پێکھاتووە لە ١٤٤ شت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He bought two gross of apples for the event.""",

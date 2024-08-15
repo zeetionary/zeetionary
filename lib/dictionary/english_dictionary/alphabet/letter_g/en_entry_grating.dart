@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) دەنگێکی ناخۆش و بێزارکەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The complaining of his grating voice all day was driving me crazy.""",

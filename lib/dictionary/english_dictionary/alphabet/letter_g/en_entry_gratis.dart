@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە بە خۆڕاییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Drinks were gratis.""",
                       kurdishText: """خواردنەوەکان بێ‌بەرامبەر بوون.""",

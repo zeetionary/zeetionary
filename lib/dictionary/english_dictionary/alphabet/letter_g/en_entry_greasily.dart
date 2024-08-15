@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە ناشرینی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The newspaper commented greasily about her sexual affair.""",

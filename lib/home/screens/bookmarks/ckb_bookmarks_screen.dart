@@ -85,17 +85,22 @@ class _KurdishFavouritesScreenState
                 return const ListViewSeparator();
               },
             ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          _clearKurdishFavourites();
-        },
-        // backgroundColor: Theme.of(context).primaryColor.withOpacity(0.1),
-        child: Icon(
-          Icons.delete,
-          size: textSize + 2,
-          color: Theme.of(context).primaryColor.withOpacity(0.9),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {
+      //     _clearKurdishFavourites();
+      //   },
+      //   // backgroundColor: Theme.of(context).primaryColor.withOpacity(0.1),
+      //   child: Icon(
+      //     Icons.delete,
+      //     size: textSize + 2,
+      //     color: Theme.of(context).primaryColor.withOpacity(0.9),
+      //   ),
+      // ),
+      floatingActionButton: CustomFloatingActionButton(
+          onPressed: () {
+            _clearKurdishFavourites(); // This is all you need to specify
+          },
         ),
-      ),
     );
   }
 

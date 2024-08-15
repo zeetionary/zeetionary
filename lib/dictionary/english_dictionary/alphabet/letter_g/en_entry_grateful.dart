@@ -255,7 +255,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) بەکاردێت لەگەڵ داواکردنی شتێک، بە تایبەتی لە نامەدا یان لە دۆخێکی فەرمیدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I would be most grateful if you would keep this matter confidential.""",

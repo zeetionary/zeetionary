@@ -579,7 +579,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بۆ باسکردنی ئەو چالاکییانەی کە لەسەر زەوی ڕوودەدەن نەک لە ئاسمان یان ناو ئاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Ground forces were deployed in the area.""",
@@ -599,7 +598,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) زەوی یان دەشتێکی کراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We found a patch of open ground in the middle of the woods.""",
@@ -612,7 +610,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) زەوییەک کە بۆ مەبەستێکی دیاریکراو، چالاکییەک، یان وەرزشێک بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The atmosphere inside the ground was electric.""",
@@ -627,7 +624,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ناوچەیەکی فراوان کە بۆ مەبەستێکی دیاریکراو بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The boats headed to the fishing grounds at dawn.""",
@@ -639,7 +635,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) خۆڵی سەر ڕووی زەوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Prepare the ground before you plant anything.""",
@@ -669,7 +664,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) زەوی یان باخچەی دەوری بینایەکی گەورە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The house has extensive grounds.""",
                       kurdishText: """خانووەکە زەوی فراوانی ھەیە.""",
@@ -687,7 +681,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ناو) بوارێکی زانیاری، حەز، یان بیرۆکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He managed to cover a lot of ground in a short talk.""",
@@ -746,7 +739,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) ھۆکاری سرووست یان باش بۆ گوتن، کردن، یان باوەڕکردن بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You have no grounds for complaint.""",
                       kurdishText: """ھیچ ھۆکارت بۆ ناڕەزایی نییە.""",
@@ -800,7 +792,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) کە بەلەم یان شتێک لە ئاوێکی کەم‌قووڵ بەر خاکەکە دەکەوێت و ناتوانێت بجووڵێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fishing boat had been grounded off the coast of Cornwall.""",
@@ -812,7 +803,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (کردار) ڕێگریکردن لە فڕینی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """All planes out of Heathrow have been grounded by the strikes.""",
@@ -825,7 +815,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (کردار) سزادانی منداڵێک بەوەی نەھێڵیت بچێتە دەرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You're grounded for a week!""",
                       kurdishText: """بۆ ھەفتەیەک لە ماڵەوە ڕادەگیرێیت.""",
@@ -835,7 +824,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ھاوەڵناو) کە وردکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He bought a bag of ground coffee from the store.""",

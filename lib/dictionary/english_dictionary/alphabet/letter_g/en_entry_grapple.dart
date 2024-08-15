@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (کردار) ھەوڵدان بە سەختی بۆ دۆزینەوەی چارەسەری کێشەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The new government has yet to grapple with the problem of air pollution.""",
                       kurdishText: """حکومەتە تازەکە ھێشتا تەقەڵایەتی لەگەڵ کێشەی پیسبوونی ھەوا.""",

@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دەربڕینێکی ناشرین بە ڕووخسارت بۆ پیشاندانی ئازار، حەز نەکردن لە شتێک، ھتد یان بۆ ئەوەی کەسێک پێ بکەنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He acknowledged his mistake with a wry grimace.""",

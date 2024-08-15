@@ -251,7 +251,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بردنی ئاژەڵ بۆ ناو گژووگیا بۆ ئەوەی شت بخۆن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The land is used by local people to graze their animals.""",
@@ -264,7 +263,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) خواردنی بڕی کەم لە خواردن بۆ چەند جارێک لە ڕۆژێکدا وەک لەوەی سێ ژەم بخۆیت، بە تایبەتی کە ئیشی دیکە دەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I have this really bad habit of grazing on junk food.""",
@@ -277,7 +275,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ڕووشانی پێست بەوەی بدات بە شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I fell and grazed my knee.""",
                       kurdishText: """کەوتم و پێم ڕووشا.""",
@@ -297,7 +294,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) بەرکەوتن بە شتێک کە بە لای دا تێدەپەڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The bullet grazed his cheek.""",
                       kurdishText: """فیشەکەکە ڕووشا بە گۆنایدا.""",
@@ -306,7 +302,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٦. (ناو) ڕووشانی پێست"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Adam walked away from the crash with just cuts and grazes.""",

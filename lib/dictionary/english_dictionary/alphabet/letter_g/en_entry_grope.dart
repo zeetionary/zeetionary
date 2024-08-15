@@ -209,7 +209,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ھەوڵدان بۆ گەشتن بە شوێنیک بە بەکارھێنانی دەستت بەھۆی ئەوەی بە ڕوونی نابینیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She groped through the darkness towards the doors.""",
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) دەستدان لە کەسێک بە حەزی سێکسییەوە، بە تایبەتی بە بێ مۆڵەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She described how he had groped her whenever they were alone.""",

@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە شێوەیەکی ناشرین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The body was grotesquely bruised and swollen.""",

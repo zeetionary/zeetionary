@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) گرنگی یان پێگەی کۆمەڵایەتی کە کەسێک ھەیەتی یان پێی وایە ھەیەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He has a sense of grandeur about him.""",
                       kurdishText: """ھەستێکی نەجیبزادەیی ھەبوو لەسەری.""",

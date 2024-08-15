@@ -290,7 +290,6 @@ Usage: Brit, Cdn (US: gray)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کەش‌وھەوای ھەوراوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I hate these grey days.""",
                       kurdishText: """ڕقم لەم ڕۆژە ھەوراوییانەیە.""",
@@ -309,7 +308,6 @@ Usage: Brit, Cdn (US: gray)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) ھەبوونی قژی خۆڵەمێشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's gone very grey.""",
                       kurdishText: """زۆر خۆڵەمێشی بووە.""",
@@ -320,7 +318,6 @@ Usage: Brit, Cdn (US: gray)
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) ڕەنگپەڕیو بەھۆی ماندوویەتی، نەخۆشی، یان دڵتەنگی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His face was grey with pain.""",
                       kurdishText: """ڕووخساری لە ئازاردا دەرپەڕیو بووبوو.""",
@@ -331,7 +328,6 @@ Usage: Brit, Cdn (US: gray)
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) کە وات لێ دەکات دڵتەنگ بیت؛ کە حەزت نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Life seems grey and pointless without him.""",
@@ -342,7 +338,6 @@ Usage: Brit, Cdn (US: gray)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ھاوەڵناو) کە سەرنجڕاکێش نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Ours is a company that isn't run by grey men in suits.""",
@@ -354,7 +349,6 @@ Usage: Brit, Cdn (US: gray)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ناو) ڕەنگی خۆڵەمێشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His eyes are a dark grey.""",
                       kurdishText: """چاوەکانی خۆڵەمێشی تاریکن.""",
@@ -373,7 +367,6 @@ Usage: Brit, Cdn (US: gray)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) ئەسپی خۆڵەمێشی یان سپی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's riding the grey.""",
                       kurdishText: """سواری ئەسپە بۆرەکە دەکات.""",
@@ -383,7 +376,6 @@ Usage: Brit, Cdn (US: gray)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (کردار) بوون بە خۆڵەمێشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His hair was greying at the sides.""",
                       kurdishText: """قژی لە لایەکانەوە خۆڵەمێشی دەبوو.""",

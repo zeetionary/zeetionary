@@ -299,7 +299,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) تێگەشتن لە شتێک بە تەواوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They failed to grasp the importance of his words.""",
@@ -326,7 +325,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) قۆزتنەوەی ھەلێک بەبێ دوودڵی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I grasped the opportunity to work abroad.""",
@@ -374,7 +372,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) تێگەشتنی کەسێک لە بابەتێک یان ڕاستییەکانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He has a good grasp of German grammar.""",
                       kurdishText: """تێگەشتنی باشی لە زمانی ئەڵمانی ھەیە.""",
@@ -404,7 +401,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) توانای بە دەستھێنانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Success was within her grasp.""",
                       kurdishText: """سەرکەوتن لە پێشی بوو.""",

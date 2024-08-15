@@ -202,21 +202,6 @@ Adverb: aback
                             onPressedBritish: () => speak1256935("en-GB"),
                             onPressedAmerican: () => speak1256935("en-US"),
                           ),
-                          SentencesRow(
-                            englishText: "I took the dog for a walk.",
-                            kurdishText: "سەگەکەم بردە پیاسەیەک.",
-                            onPressedBritish: () => speak1256935("en-GB"),
-                            onPressedAmerican: () => speak1256935("en-US"),
-                          ),
-                          SentencesRow(
-                            englishText: "I took the dog for a walk.",
-                            kurdishText: "سەگەکەم بردە پیاسەیەک.",
-                            englishNote:
-                                "Similar: I'm just going to walk the dog.",
-                            kurdishNote: "بەڵێ ئەوە ڕاستە کە بردی.",
-                            onPressedBritish: () => speak1256935("en-GB"),
-                            onPressedAmerican: () => speak1256935("en-US"),
-                          ),
                         ],
                       ),
                     ),

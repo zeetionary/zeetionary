@@ -111,7 +111,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""At times he got discouraged, but his grit and determination kept him going.""");
+    await flutterTts.speak(
+        """At times he got discouraged, but his grit and determination kept him going.""");
   }
 
   @override
@@ -176,7 +177,8 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چەو، زیخ، ورکەبەرد،	لەسەرمانەوە، بەبڕیاری، خۆڕاگری، سووربوون، کۆڵنەدان، ویست،	وێران، ئازایەتی
 """),
-                    const DefinitionKurdish(text: """١. (ناو) پارچەی زۆر بچووکی بەرد و خۆڵ"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) پارچەی زۆر بچووکی بەرد و خۆڵ"""),
                     SentencesRow(
                       englishText: """I had a piece of grit in my eye.""",
                       kurdishText: """وردە بەردێک لە چاومدا بوو.""",
@@ -191,11 +193,14 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) توانای مێشک بۆ کردنی شتێک کە وا دەکات کەسێک بەردەوام بێت لە کردنی شتێکی سەخت و ناخۆش"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) توانای مێشک بۆ کردنی شتێک کە وا دەکات کەسێک بەردەوام بێت لە کردنی شتێکی سەخت و ناخۆش"""),
                     SentencesRow(
-                      englishText: """At times he got discouraged, but his grit and determination kept him going.""",
-                      kurdishText: """ھەندێک کات بێ‌ھیوا بوو، بەڵام کۆڵنەدان و سووربوونی بە بەردەوامی ھێشتییەوە.""",
+                      englishText:
+                          """At times he got discouraged, but his grit and determination kept him going.""",
+                      kurdishText:
+                          """ھەندێک کات بێ‌ھیوا بوو، بەڵام کۆڵنەدان و سووربوونی بە بەردەوامی ھێشتییەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

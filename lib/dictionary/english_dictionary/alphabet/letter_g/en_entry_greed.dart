@@ -108,7 +108,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I don't know why I'm eating more - it's not hunger, it's just greed!""");
+    await flutterTts.speak(
+        """I don't know why I'm eating more - it's not hunger, it's just greed!""");
   }
 
   @override
@@ -173,7 +174,8 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەماح، نەوس، چڵێسی، زگ‌بەردانەوە، چاوچنۆکی، زگەڕۆیی
 """),
-                    const DefinitionKurdish(text: """١. (ناو) حەزی زۆر بۆ پارە، دەسەڵات، ھتد"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) حەزی زۆر بۆ پارە، دەسەڵات، ھتد"""),
                     SentencesRow(
                       englishText: """His actions were motivated by greed.""",
                       kurdishText: """کردارەکانی پاڵنەری تەماحیان ھەبوو.""",
@@ -189,17 +191,22 @@ ${englishMeaningConst.text}
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Nothing would satisfy her greed for power.""",
-                      kurdishText: """ھیچ شتێک تەماحی بۆ دەسەڵات تێر نەدەکرد.""",
+                      englishText:
+                          """Nothing would satisfy her greed for power.""",
+                      kurdishText:
+                          """ھیچ شتێک تەماحی بۆ دەسەڵات تێر نەدەکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) حەزێکی زۆر بۆ خواردن و خواردنەوە کە چی دیکە برسی نیت"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) حەزێکی زۆر بۆ خواردن و خواردنەوە کە چی دیکە برسی نیت"""),
                     SentencesRow(
-                      englishText: """I don't know why I'm eating more - it's not hunger, it's just greed!""",
-                      kurdishText: """نازانم بۆچی زیاتر دەخۆم ـ برسێتی نییە، تەنھا چڵێسییە!""",
+                      englishText:
+                          """I don't know why I'm eating more - it's not hunger, it's just greed!""",
+                      kurdishText:
+                          """نازانم بۆچی زیاتر دەخۆم ـ برسێتی نییە، تەنھا چڵێسییە!""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

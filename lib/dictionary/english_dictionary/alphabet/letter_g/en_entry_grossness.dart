@@ -173,7 +173,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """I stared at the grossness of the bathroom.""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      kurdishText: """واقم وڕما لە قێزەونی حەمامەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی تاوانێک ئاشکرا و پەسەندنەکراو بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He couldn't forgive the grossness of her betrayal.""",

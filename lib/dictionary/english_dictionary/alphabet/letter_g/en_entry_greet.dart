@@ -225,7 +225,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ھەبوونی کاردانەوە بۆ کەسێک/شتێک بە شێوەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The changes were greeted with suspicion.""",
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی شتێک یەکەم شت بێت کە لە کاتێکی دیاریکراودا دەیبینیت، دەیبیستیت، یان ھەستی پێ دەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When she opened the door she was greeted by a scene of utter confusion.""",

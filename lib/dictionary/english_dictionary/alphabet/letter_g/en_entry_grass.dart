@@ -254,7 +254,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) زەوییەک کە بە سەوزەگیا داپۆشراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't walk on the grass.""",
                       kurdishText: """لەسەر چیمەنەکە ڕێ مەکە.""",
@@ -279,7 +278,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ھەوڵدان بە پۆلیس سەبارەت بە تاوانی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Who grassed on us?""",
                       kurdishText: """کێ ھەواڵی لێ داین؟""",

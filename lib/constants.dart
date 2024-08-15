@@ -2375,6 +2375,39 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
 //   }
 // }
 
+class CustomFloatingActionButton extends ConsumerWidget {
+  final VoidCallback onPressed;
+
+  const CustomFloatingActionButton({
+    super.key,
+    required this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+
+    return Container(
+      decoration: BoxDecoration(
+        border: Border.all(
+          color: Theme.of(context).primaryColor.withOpacity(0.3),
+          width: 1.0,
+        ),
+        borderRadius: BorderRadius.circular(15.0),
+      ),
+      child: FloatingActionButton(
+        onPressed: onPressed,
+        // backgroundColor: Theme.of(context).primaryColor.withOpacity(0.9),
+        child: Icon(
+          Icons.delete,
+          size: textSize + 2,
+          color: Theme.of(context).primaryColor.withOpacity(0.9),
+        ),
+      ),
+    );
+  }
+}
+
 class CustomIconButtonBritish extends ConsumerWidget {
   final VoidCallback? onPressed;
 

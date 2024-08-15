@@ -306,7 +306,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) داننان بەوەی شتێک ڕاستە لە لای کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's a smart woman, I grant you, but she's no genius.""",
@@ -319,7 +318,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) بڕە پارەیەک کە لەلایەن حکومەت یان دامەزراوەیەکی تایبەتەوە دەدرێت بۆ ئەوەی بۆ مەبەستێکی تایبەت بەکاربێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is a lot of competition for research grants.""",

@@ -243,7 +243,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) بەرھەمھێنانی شتێک بە ھاڕینی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The flour is ground using traditional methods.""",
@@ -265,7 +264,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) تیژکردن یان لووسکردنی شتێک بەوەی بیھێنیت بە ڕوویەکی زبردا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This is a special stone for grinding knives.""",
@@ -276,7 +274,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) توندکردن لە شتێک؛ ساوین بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The dirt on her hands was ground in.""",
                       kurdishText: """قوڕی دەستی تەواو چەسپابوو.""",
@@ -295,7 +292,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) چالاکییەک کە ماندووت دەکات و کاتی زۆری دەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Having to type up my handwritten work was a real grind.""",

@@ -167,9 +167,11 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (کردار) پێکەنین بە فراوانی"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) پێکەنین بە فراوانی"""),
                     SentencesRow(
-                      englishText: """Stop grinning and tell me what happened!""",
+                      englishText:
+                          """Stop grinning and tell me what happened!""",
                       kurdishText: """بوەستە لە خەنین و پێم بڵێ چی ڕوویدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
@@ -182,8 +184,8 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) پێکەنین بە فراوانی"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) پێکەنین بە فراوانی"""),
                     SentencesRow(
                       englishText: """She gave a broad grin.""",
                       kurdishText: """خەنینێکی فراوانی کرد.""",

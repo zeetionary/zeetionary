@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) تەواو ناشرین بەشێوەیەک کە ترسێنەر یان پێکەنیناوییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """By now she'd had so much cosmetic surgery that she looked quite grotesque.""",

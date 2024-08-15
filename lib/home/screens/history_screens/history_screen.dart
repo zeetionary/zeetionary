@@ -51,7 +51,7 @@ class CustomTabBarHistory extends ConsumerWidget {
     final textSize = ref.watch(textSizeProvider) + 40;
 
     return Container(
-      height: textSize,
+      height: textSize - 2,
       decoration: BoxDecoration(
         color: Theme.of(context).primaryColor.withOpacity(0.01),
         border: Border.all(
@@ -105,7 +105,7 @@ class UkIconForHistoryTab extends ConsumerWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 100,
+        width: 80,
         height: textSize,
       ),
     );
@@ -123,7 +123,7 @@ class KurdIconForHistoryTab extends ConsumerWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 100,
+        width: 80,
         height: textSize,
       ),
     );

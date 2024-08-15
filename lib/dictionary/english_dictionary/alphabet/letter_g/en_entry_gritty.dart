@@ -98,7 +98,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He showed the gritty determination that we've come to expect from him.""");
+    await flutterTts.speak(
+        """He showed the gritty determination that we've come to expect from him.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -170,29 +171,38 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زیخاوی، چەودار، ورکەبەرداوی،	ساوەرین،	بێ‌باک، نەترس، بەغیرەت، بەجەرگ
 """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە وردە زیخی تێدایە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە وردە زیخی تێدایە"""),
                     SentencesRow(
-                      englishText: """He sat uncomfortably on the gritty pavement.""",
-                      kurdishText: """لەسەر پیادەڕەوە زیخاوییەکە بە نائاسووسەیی دانیشت.""",
+                      englishText:
+                          """He sat uncomfortably on the gritty pavement.""",
+                      kurdishText:
+                          """لەسەر پیادەڕەوە زیخاوییەکە بە نائاسووسەیی دانیشت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) پیشاندانی توانای مێشک کە وا دەکات کەسێک بەردەوام بێت لە کردنی شتێکی سەخت و ناخۆش"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) پیشاندانی توانای مێشک کە وا دەکات کەسێک بەردەوام بێت لە کردنی شتێکی سەخت و ناخۆش"""),
                     SentencesRow(
-                      englishText: """He showed the gritty determination that we've come to expect from him.""",
-                      kurdishText: """ئەو شێلگیرییە بەجەرگانەی پیشان دا کە لێیمان چاوەڕێ دەکرد.""",
+                      englishText:
+                          """He showed the gritty determination that we've come to expect from him.""",
+                      kurdishText:
+                          """ئەو شێلگیرییە بەجەرگانەی پیشان دا کە لێیمان چاوەڕێ دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) پیشاندانی شتێکی ناخۆش وەک خۆی"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) پیشاندانی شتێکی ناخۆش وەک خۆی"""),
                     SentencesRow(
-                      englishText: """The novel was praised for its gritty realism.""",
+                      englishText:
+                          """The novel was praised for its gritty realism.""",
                       kurdishText: """ڕۆمانەکە بۆ واقیعیەتی ناخۆش ستایش کرا.""",
-                      englishNote: """This means 'The novel was highly regarded for its unflinching and realistic portrayal of harsh or difficult aspects of life.'""",
+                      englishNote:
+                          """This means 'The novel was highly regarded for its unflinching and realistic portrayal of harsh or difficult aspects of life.'""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -218,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە وەھات لێدەکات زۆر پەژارە بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was a grief to them that they had no children.""",
@@ -230,7 +229,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) کێشە و نیگەرانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He caused his parents a lot of grief.""",
                       kurdishText:

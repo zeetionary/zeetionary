@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە پێویستی بە ھەوڵ، پارە، و کاتی زۆر ھەیە بۆ سەرکەوتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Their house is very grandly furnished.""",
                       kurdishText:

@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەوەی بە سەوزەگیا داپۆشرابێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A warming trend on Arctic land causes an increase in greenness.""",
@@ -195,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی کە پشتگیری پاراستنی ژینگە بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Supermarkets have started proclaiming the greenness of their products.""",

@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بڕە پارەیەکی زۆر کە دەدرێت بە کەسێک کە کارەکەی جێدەھێڵێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """After he was disabled in the accident, he left the army with a one-off gratuity of £5,000.""",

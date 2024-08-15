@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی شتێک کوالێتی یان توانای باش و بەرزی ھەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The novel's greatness lies in its simplicity.""",

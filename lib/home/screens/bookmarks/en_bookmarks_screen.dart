@@ -52,49 +52,54 @@ class _EnglishfavouritesScreenState
   // @override
   @override
   Widget build(BuildContext context) {
-  final textSize = ref.watch(textSizeProvider) + 2;
+    final textSize = ref.watch(textSizeProvider) + 2;
 
-  return Scaffold(
-    body: englishfavourites.isEmpty
-        ? const Center(
-            child: EmptyPageIcon(
-              text: 'No favourites here',
-            ),
-          )
-        : ListView.separated(
-            itemCount: englishfavourites.length,
-            itemBuilder: (context, index) {
-              final englishfavourite = englishfavourites.reversed.toList()[index];
-              final displayTitle = englishfavourite.split('-').first;
-              return ListTile(
-                title: Text(
-                  displayTitle,
-                  style: TextStyle(
-                    fontSize: textSize, // Set your desired font size
+    return Scaffold(
+      body: englishfavourites.isEmpty
+          ? const Center(
+              child: EmptyPageIcon(
+                text: 'No favourites here',
+              ),
+            )
+          : ListView.separated(
+              itemCount: englishfavourites.length,
+              itemBuilder: (context, index) {
+                final englishfavourite =
+                    englishfavourites.reversed.toList()[index];
+                final displayTitle = englishfavourite.split('-').first;
+                return ListTile(
+                  title: Text(
+                    displayTitle,
+                    style: TextStyle(
+                      fontSize: textSize, // Set your desired font size
+                    ),
                   ),
-                ),
-                trailing: const Icon(Icons.arrow_forward),
-                onTap: () => navigateToScreen(context, englishfavourite),
-              );
-            },
-            separatorBuilder: (BuildContext context, int index) {
+                  trailing: const Icon(Icons.arrow_forward),
+                  onTap: () => navigateToScreen(context, englishfavourite),
+                );
+              },
+              separatorBuilder: (BuildContext context, int index) {
                 return const ListViewSeparator();
               },
-          ),
-    floatingActionButton: FloatingActionButton(
-      onPressed: () {
-        _clearenglishfavourites();
-      },
-      // backgroundColor: Theme.of(context).primaryColor.withOpacity(0.1),
-          child: Icon(
-            Icons.delete,
-            size: textSize + 2,
-            color: Theme.of(context).primaryColor.withOpacity(0.9),
-          ),
-    ),
-  );
-}
-
+            ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {
+      //     _clearenglishfavourites();
+      //   },
+      //   // backgroundColor: Theme.of(context).primaryColor.withOpacity(0.1),
+      //       child: Icon(
+      //         Icons.delete,
+      //         size: textSize + 2,
+      //         color: Theme.of(context).primaryColor.withOpacity(0.9),
+      //       ),
+      // ),
+      floatingActionButton: CustomFloatingActionButton(
+        onPressed: () {
+          _clearenglishfavourites(); // This is all you need to specify
+        },
+      ),
+    );
+  }
 
   Future<void> _clearenglishfavourites() async {
     // Show a confirmation dialog

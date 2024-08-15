@@ -88,7 +88,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He found his ancestors' graves in the village graveyard.""");
+    await flutterTts
+        .speak("""He found his ancestors' graves in the village graveyard.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -160,18 +161,23 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گۆڕستان، قەبران، قەبرستان
 """),
-                    const DefinitionKurdish(text: """١. (ناو) شوێنێک کە مردووی تێدا دەنێژرێت"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) شوێنێک کە مردووی تێدا دەنێژرێت"""),
                     SentencesRow(
-                      englishText: """He found his ancestors' graves in the village graveyard.""",
-                      kurdishText: """گۆڕی باپیرانی لە گۆڕستانی گوندەکە دۆزییەوە.""",
+                      englishText:
+                          """He found his ancestors' graves in the village graveyard.""",
+                      kurdishText:
+                          """گۆڕی باپیرانی لە گۆڕستانی گوندەکە دۆزییەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) شوێنێک کە شتی نەویستراوی لێ فڕێ دەدرێت"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شوێنێک کە شتی نەویستراوی لێ فڕێ دەدرێت"""),
                     SentencesRow(
-                      englishText: """The backyard became a graveyard for old cars.""",
+                      englishText:
+                          """The backyard became a graveyard for old cars.""",
                       kurdishText: """حەوشەکە بوو بە گۆڕستانی ئۆتۆمبێلی کۆن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),

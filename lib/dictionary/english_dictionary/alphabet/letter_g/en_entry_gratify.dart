@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەوەی پێویستییەک، حەزێک، ھتد بەجێبھێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He only gave his consent in order to gratify her wishes.""",

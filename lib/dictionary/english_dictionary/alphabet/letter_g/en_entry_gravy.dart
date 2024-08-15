@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک، بە تایبەتی پارە، کە بە دەست دێت کە پێشبینی ناکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Anything on top of eight percent profit is just gravy for the industry.""",

@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو شتانەی لە فرۆشگایەک دەیان کڕیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """More people are buying their groceries online.""",

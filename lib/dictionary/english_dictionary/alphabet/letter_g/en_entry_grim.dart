@@ -226,7 +226,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ناخۆش و بێزارکەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """James had some rather grim news.""",
                       kurdishText:
@@ -256,7 +255,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) شوێنێک یان بینایەکی ناخۆش و بێزارکەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The house looked grim and dreary in the rain.""",
@@ -267,7 +265,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ھاوەڵناو) نەخۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I feel grim this morning.""",
                       kurdishText: """ئەم بەیانییە ھەست بە ناساغی دەکەم.""",
@@ -277,7 +274,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) کە کوالێتیی زۆر خراپە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Their performance was fairly grim, I'm afraid!""",

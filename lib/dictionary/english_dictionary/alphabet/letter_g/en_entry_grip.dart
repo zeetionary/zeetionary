@@ -331,7 +331,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کۆنترۆڵ و دەسەڵات بەسەر کەسێک/شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The home team took a firm grip on the game.""",
@@ -382,7 +381,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) توانای شتێک بۆ جووڵان بەسەر ڕوویەک بەبێ خلیسکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These tyres give the bus better grip in slippery conditions.""",
@@ -395,7 +393,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ئەو بەشەی شتێک کە دەتوانیت بیگریت و بەبێ ئەوەی لە دەستت بخلیسکێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The grip on a golf club was worn and needed replacing.""",
@@ -443,7 +440,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) حەز درووستکردنی لای کەسێک؛ ھەبوونی کاریگەریی بەھێز لەسەر کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The book grips you from start to finish.""",
@@ -463,7 +459,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) ھەبوونی کاریگەریی زۆر لەسەر کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I was gripped by a feeling of panic.""",
                       kurdishText: """تووشی ھەستی تۆقین بووم.""",

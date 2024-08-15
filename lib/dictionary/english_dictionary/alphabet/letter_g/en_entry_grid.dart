@@ -223,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ژمارەیەک پارچە ئاسن یان تەختە کە تەریبن بە یەکدی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The window had a metal grid.""",
                       kurdishText: """پەنجەرەکە شیشبەندێکی ھەبوو.""",
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کۆمەڵە چوارگۆشەیەک لەسەر ناخشەیەک کە پیت و ژمارەیان لێدراوە بۆ یارمەتیدان لە دۆزینەوەی شوێنی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The grid reference is C8.""",
                       kurdishText: """خشتەی ئاماژەپێکراو C8 ــە.""",
@@ -245,7 +243,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) سیستەمێکی وایەری کارەبایی یان بۆری گاز گواستنەوە بۆ ناوچەیەکی فراوان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The development of the country’s electricity grid took years.""",

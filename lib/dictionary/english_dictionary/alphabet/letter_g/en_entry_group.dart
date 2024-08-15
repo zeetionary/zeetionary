@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """A group of us are going to the theatre this evening.""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      kurdishText: """گرووپێکمان ئەمشەو دەچین بۆ هۆڵی شانۆ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -409,7 +409,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ژمارەیەک کەس کە پێکەوە کار دەکەن یان ھەمان بیرکردنەوەیان ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Other members of the group agree.""",
                       kurdishText: """ئەندامانی دیکەی گرووپەکە ڕازین.""",
@@ -454,7 +453,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ژمارەیەک کۆمپانیا کە ھی یەک کەس یان دامەزراوەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This acquisition will make them the largest newspaper group in the world.""",
@@ -467,7 +465,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ژمارەیەک میوزیک‌ژەن کە پێکەوە کار دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The group formed back in 1992.""",
                       kurdishText: """گرووپەکە لە ساڵی ١٩٩٢ دامەزرا.""",
@@ -477,7 +474,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) کۆبوونەوە لە گرووپێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The children grouped themselves around their teacher.""",
@@ -508,7 +504,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) دابەشکردنی خەڵکی و شت بۆ ژمارەیەک گرووپی لێکچوو و ھاوبەش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The books are grouped together by subject.""",

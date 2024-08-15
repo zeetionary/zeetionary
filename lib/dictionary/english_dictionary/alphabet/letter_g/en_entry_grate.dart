@@ -232,7 +232,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) وردکردنی شت بە ڕەندە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Grate the cheese and sprinkle it over the tomatoes.""",
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (کردار) بێزارکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her voice really grates on me.""",
                       kurdishText: """دەنگی بەڕاستی بێزارم دەکات.""",
@@ -263,7 +261,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) دەرکردنی دەنگێکی ناخۆش کە دوو شت بە یەکدا دەساوێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The rusty hinges grated as the gate swung back.""",

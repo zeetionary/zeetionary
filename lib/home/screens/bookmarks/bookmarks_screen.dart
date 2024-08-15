@@ -18,7 +18,7 @@ class BookmarksScreen extends StatelessWidget {
           padding: EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
           child: Column(
             children: [
-              CustomTabBarHistory(
+              CustomTabBarBookmarks(
                 tabs: [
                   UkIconForBookmarksTab(),
                   KurdIconForBookmarksTab(),
@@ -40,10 +40,10 @@ class BookmarksScreen extends StatelessWidget {
   }
 }
 
-class CustomTabBarHistory extends ConsumerWidget {
+class CustomTabBarBookmarks extends ConsumerWidget {
   final List<Widget> tabs;
 
-  const CustomTabBarHistory({super.key, required this.tabs});
+  const CustomTabBarBookmarks({super.key, required this.tabs});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -51,7 +51,7 @@ class CustomTabBarHistory extends ConsumerWidget {
     final textSize = ref.watch(textSizeProvider) + 40;
 
     return Container(
-      height: textSize,
+      height: textSize - 2,
       decoration: BoxDecoration(
         color: Theme.of(context).primaryColor.withOpacity(0.01),
         border: Border.all(
@@ -101,11 +101,11 @@ class UkIconForBookmarksTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 12;
+    final textSize = ref.watch(textSizeProvider);
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 100,
+        width: 80,
         height: textSize,
       ),
     );
@@ -123,7 +123,7 @@ class KurdIconForBookmarksTab extends ConsumerWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 100,
+        width: 80,
         height: textSize,
       ),
     );

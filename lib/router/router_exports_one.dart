@@ -4837,9 +4837,9 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_guesstimate.dart' show EnglishEntryguesstimate
 // en_entry_guesswork.dart' show EnglishEntryguesswork
 // en_entry_guest.dart' show EnglishEntryguest
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_guest_house.dart' show EnglishEntryguesthouse //// فففف guest house
+// en_entry_guffaw.dart' show EnglishEntryguffaw
+// en_entry_guidance.dart' show EnglishEntryguidance
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

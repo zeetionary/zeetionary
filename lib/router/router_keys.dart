@@ -11137,7 +11137,6 @@ final Map<String, PageBuilder> routes = {
 "/english-explore": (_) => _blP(const EnglishEntryexplore()),
 "/english-exploration": (_) => _blP(const EnglishEntryexploration()),
 "/english-exploratory": (_) => _blP(const EnglishEntryexploratory()),
-
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   "/english-embroider/embellish": (_) => _blP(const EnglishEntryembellish()),
@@ -12554,8 +12553,7 @@ final Map<String, PageBuilder> routes = {
   "/english-grammarian": (_) => _blP(const EnglishEntrygrammarian()),
   "/english-grammatical": (_) => _blP(const EnglishEntrygrammatical()),
   "/english-grammatically": (_) => _blP(const EnglishEntrygrammatically()),
-  "/english-granary": (_) => _blP(const EnglishEntrygranary()),
-  
+  "/english-granary": (_) => _blP(const EnglishEntrygranary()),  
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),

@@ -18,33 +18,33 @@ class LoginScreen extends ConsumerWidget {
     final isLoading = ref.watch(authControllerProvider);
 
     return Scaffold(
-      appBar: AppBar(
-        actions: [
-          TextButton(
-            onPressed: () {},
-            child: const Text(
-              'چۆنیەتیی بەکارھێنان',
-              style: TextStyle(
-                color: Colors.red,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
-        ],
-      ),
+      // appBar: AppBar(
+      //   actions: [
+      //     TextButton(
+      //       onPressed: () {},
+      //       child: const Text(
+      //         'چۆنیەتیی بەکارھێنان',
+      //         style: TextStyle(
+      //           color: Colors.red,
+      //           fontWeight: FontWeight.bold,
+      //         ),
+      //       ),
+      //     ),
+      //   ],
+      // ),
       body: isLoading
           ? const Loader()
           : Column(
               children: [
                 const SizedBox(height: 30),
-                const Text(
-                  'یەکەم فەرھەنگی ڤیدیۆیی ئینگلیزی - کوردی',
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                const SizedBox(height: 30),
+                // const Text(
+                //   'یەکەم فەرھەنگی ڤیدیۆیی ئینگلیزی - کوردی',
+                //   style: TextStyle(
+                //     fontSize: 16,
+                //     fontWeight: FontWeight.bold,
+                //   ),
+                // ),
+                // const SizedBox(height: 30),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Image.asset(

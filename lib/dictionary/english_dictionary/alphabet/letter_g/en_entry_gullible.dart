@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryguise extends StatefulWidget {
-  const EnglishEntryguise({super.key});
+class EnglishEntrygullible extends StatefulWidget {
+  const EnglishEntrygullible({super.key});
 
   @override
-  State<EnglishEntryguise> createState() => _EnglishEntryguiseState();
+  State<EnglishEntrygullible> createState() => _EnglishEntrygullibleState();
 }
 
-class _EnglishEntryguiseState extends State<EnglishEntryguise> {
+class _EnglishEntrygullibleState extends State<EnglishEntrygullible> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: guise (Derived forms: guises)
-1. An artful or simulated semblance (- pretense [N. Amer], pretence [Brit, Cdn], pretext)
-"under the guise of friendship he betrayed them";
+- Adjective: gullible
+1. Naive and easily deceived or tricked (- fleeceable, green)
+"at that early age she had been gullible and in love";
+ 
+2. Easily tricked because of being too trusting
+"gullible tourists taken in by the shell game"
 """,
   );
 
-  final String keyword = "guise";
+  final String keyword = "gullible";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,21 +82,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""guise""");
+    await flutterTts.speak("""gullible""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The story appears in different guises in different cultures.""");
+    await flutterTts.speak(
+        """The advertisement is aimed at gullible young women worried about their weight.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""His speech presented racist ideas under the guise of nationalism.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -938,10 +942,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """guise""",
-                      // alsoEnglishWord: "also: guise",
-                      britshText: """IpaUK: /ɡaɪz/""",
-                      americanText: """IpaUS: /ɡaɪz/""",
+                      word: """gullible""",
+                      // alsoEnglishWord: "also: gullible",
+                      britshText: """IpaUK: /ˈɡʌləbl/""",
+                      americanText: """IpaUS: /ˈɡʌləbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,13 +986,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ڕواڵەت، ڕووکەش، ڕوو، ناو، شێوە، شێوەی دەرەوە
+کوردی: ساویلکە، خۆش‌باوەڕ، زوولەخشتەچوو، زووباوەڕ، فەقیر، گوێ‌لەمست، سادە
 """),
-// With short examples define "guise", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شێوازی دەرکەوتنی کەسێک/شتێک، زۆرجار کە جیاوازە لە شێوەی ئاسایی"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە بە ئاسانی دەخەڵێیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: naive"),
                     SentencesRow(
-                      englishText: """The story appears in different guises in different cultures.""",
-                      kurdishText: """چیرۆکەکە بە ژمارەیەک ڕواڵەتی جیاواز لە کەلتووری جیاوازدا دەردەکەوێت.""",
+                      englishText:
+                          """The advertisement is aimed at gullible young women worried about their weight.""",
+                      kurdishText:
+                          """ڕیکلامەکە بۆ ئەو ژنە ساویلکە گەنجانەیە کە زۆر نیگەرانن سەبارەت بە کێشیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -996,8 +1003,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """His speech presented racist ideas under the guise of nationalism.""",
-                      kurdishText: """وتارەکەی بیرۆکەی ڕەگەزپەرستانەی پیشاندا لە ژێر ناوی وڵات‌پەرستی.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2131,18 +2138,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/y__v0aEgzO0?t=';
-const double _startSecondsend = 000000000000000000000000000919;
-const String _videoIdone = 'https://youtu.be/qVfJheBp7Ys?t=';
-const double _startSecondsone = 000000000000000000000000000649;
-const String _videoIdtwo = 'https://youtu.be/-aSdFrPnlRg?t=';
-const double _startSecondstwo = 0000000000000000000000000001673;
-const String _videoIdthree = 'https://youtu.be/vchJnrZgz-4?t=';
-const double _startSecondsthree = 000000000000000000000000000962;
-const String _videoIdfour = 'https://youtu.be/KL8CIZej19o?t=';
-const double _startSecondsfour = 00000000000000000000000000055;
-const String _videoIdfive = 'https://youtu.be/mS9CFBlLOcg?t=';
-const double _startSecondsfive = 0000000000000000000000000001284;
+const String _videoIdend = 'https://youtu.be/JE6nrwxvcEM?t=';
+const double _startSecondsend = 000000000000000000000000000200;
+const String _videoIdone = 'https://youtu.be/MLd4K5hKosw?t=';
+const double _startSecondsone = 000000000000000000000000000203;
+const String _videoIdtwo = 'https://youtu.be/B7gKA1o31rM?t=';
+const double _startSecondstwo = 0000000000000000000000000002237;
+const String _videoIdthree = 'https://youtu.be/3PX2d3Zwutg?t=';
+const double _startSecondsthree = 000000000000000000000000000883;
+const String _videoIdfour = 'https://youtu.be/BvHCpWixZRA?t=';
+const double _startSecondsfour = 000000000000000000000000000237;
+const String _videoIdfive = 'https://youtu.be/05cLDzx64nQ?t=';
+const double _startSecondsfive = 000000000000000000000000000107;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

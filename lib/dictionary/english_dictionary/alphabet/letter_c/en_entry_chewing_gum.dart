@@ -99,7 +99,7 @@ class EnglishEntrychewinggum extends StatelessWidget {
                             englishText:
                                 "Would you like a piece/stick of chewing gum?",
                             kurdishText:
-                                "حەزت بە کەمێک لە بنێشت ھەیە؟", // chewing gum",
+                                "حەزت بە کەمێک لە بنێشت ھەیە؟",
                             onPressedBritish: () => speakchewinggums1("en-GB"),
                             onPressedAmerican: () => speakchewinggums1("en-US"),
                           ),

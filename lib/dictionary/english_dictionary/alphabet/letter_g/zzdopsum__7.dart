@@ -988,6 +988,7 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "dopsum1", please follow LX instructions
+// \b(dopsum1)(s|ed|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555

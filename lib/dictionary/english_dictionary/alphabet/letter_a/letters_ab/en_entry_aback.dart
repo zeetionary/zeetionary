@@ -27,6 +27,12 @@ import 'package:zeetionary/constants.dart';
 
 // \/\/ With short examples define "\w+", please follow LX instructions
 
+// \\b\w+\(s\|ed\|ing\)\?
+// \bdopsum1(s|ed|ing)?
+
+// \\b\(\w+\)\(s\|ed\|ing\)\?\\b\(\?=\[\.!\?\]\?\)
+// \b(gum)(s|ed|ing)?\b(?=[.!?]?)
+
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,
 

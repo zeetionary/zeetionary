@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryguise extends StatefulWidget {
-  const EnglishEntryguise({super.key});
+class EnglishEntrygun extends StatefulWidget {
+  const EnglishEntrygun({super.key});
 
   @override
-  State<EnglishEntryguise> createState() => _EnglishEntryguiseState();
+  State<EnglishEntrygun> createState() => _EnglishEntrygunState();
 }
 
-class _EnglishEntryguiseState extends State<EnglishEntryguise> {
+class _EnglishEntrygunState extends State<EnglishEntrygun> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,32 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: guise (Derived forms: guises)
-1. An artful or simulated semblance (- pretense [N. Amer], pretence [Brit, Cdn], pretext)
-"under the guise of friendship he betrayed them";
+- Noun: gun (Derived forms: guns)
+1. A weapon that discharges a missile at high velocity (especially from a metal tube or barrel)
+ 
+2. Large but transportable armament (- artillery, heavy weapon, ordnance)
+ 
+3. A person who shoots a gun (as regards their ability) (- gunman)
+ 
+4. A professional killer who uses a gun (- gunman, gunslinger, hired gun, gun for hire, triggerman, hit man, hitman, torpedo, shooter)
+ 
+5. A hand-operated pump that resembles a pistol; forces grease into parts of a machine (- grease gun)
+ 
+6. (military) the discharge of a firearm as signal or as a salute in military ceremonies
+"two runners started before the gun"; "a twenty gun salute"
+
+- Verb: gun (Derived forms: guns, gunning, gunned)
+1. Shoot with a gun
+"He was gunned down"
+ 
+2. Offer vigorous support to a person or cause (- gun)
+"she was gunning for him in the election";
+ 
+3. Attack someone, try to cause someone's downfall
 """,
   );
 
-  final String keyword = "guise";
+  final String keyword = "gun";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,21 +98,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""guise""");
+    await flutterTts.speak("""gun""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The story appears in different guises in different cultures.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""His speech presented racist ideas under the guise of nationalism.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -938,10 +958,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """guise""",
-                      // alsoEnglishWord: "also: guise",
-                      britshText: """IpaUK: /ɡaɪz/""",
-                      americanText: """IpaUS: /ɡaɪz/""",
+                      word: """gun""",
+                      // alsoEnglishWord: "also: gun",
+                      britshText: """IpaUK: /ɡʌn/""",
+                      americanText: """IpaUS: /ɡʌn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,13 +1002,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ڕواڵەت، ڕووکەش، ڕوو، ناو، شێوە، شێوەی دەرەوە
+کوردی: 
 """),
-// With short examples define "guise", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شێوازی دەرکەوتنی کەسێک/شتێک، زۆرجار کە جیاوازە لە شێوەی ئاسایی"""),
+// With short examples define "gun", please follow LX instructions
+// \b(gun)(s|ed|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """The story appears in different guises in different cultures.""",
-                      kurdishText: """چیرۆکەکە بە ژمارەیەک ڕواڵەتی جیاواز لە کەلتووری جیاوازدا دەردەکەوێت.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -996,8 +1018,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """His speech presented racist ideas under the guise of nationalism.""",
-                      kurdishText: """وتارەکەی بیرۆکەی ڕەگەزپەرستانەی پیشاندا لە ژێر ناوی وڵات‌پەرستی.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2131,18 +2153,19 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/y__v0aEgzO0?t=';
-const double _startSecondsend = 000000000000000000000000000919;
-const String _videoIdone = 'https://youtu.be/qVfJheBp7Ys?t=';
-const double _startSecondsone = 000000000000000000000000000649;
-const String _videoIdtwo = 'https://youtu.be/-aSdFrPnlRg?t=';
-const double _startSecondstwo = 0000000000000000000000000001673;
-const String _videoIdthree = 'https://youtu.be/vchJnrZgz-4?t=';
-const double _startSecondsthree = 000000000000000000000000000962;
-const String _videoIdfour = 'https://youtu.be/KL8CIZej19o?t=';
-const double _startSecondsfour = 00000000000000000000000000055;
-const String _videoIdfive = 'https://youtu.be/mS9CFBlLOcg?t=';
-const double _startSecondsfive = 0000000000000000000000000001284;
+const String _videoIdend = 'https://youtu.be/CiTS3dcYicw?t=';
+const double _startSecondsend = 00000000000000000000000000079;
+const String _videoIdone = 'https://youtu.be/mFYiD8NfrMI?t=';
+const double _startSecondsone = 00000000000000000000000000029;
+const String _videoIdtwo = 'https://youtu.be/Byx_9EMMo1Y?t=';
+const double _startSecondstwo = 000000000000000000000000000227;
+const String _videoIdthree = 'https://youtu.be/AtiMqeDmo1M?t=';
+const double _startSecondsthree = 000000000000000000000000000153;
+const String _videoIdfour = 'https://youtu.be/O7UdNsU2LB8?t=';
+const double _startSecondsfour = 00000000000000000000000000011;
+const String _videoIdfive = '';
+const double _startSecondsfive = 000000000000000000000000000;
+// ssssssssssssssssssssssgggggggg55555
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

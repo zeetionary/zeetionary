@@ -283,7 +283,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """The runner says he's never used steroids to enhance his performance.""",
+                """The runner runners runing says he's never used steroids to enhance his performance.""",
             kurdishText:
                 """ڕاکەرەکە دەڵێت ھەرگیز وزەبەخشی بەکارنەھێناوە بۆ بەھێزکردنی ئاستی.""",
             onPressedBritish: () => speaksentence2("en-GB"),

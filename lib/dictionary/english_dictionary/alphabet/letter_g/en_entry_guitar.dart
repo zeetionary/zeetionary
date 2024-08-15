@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryguise extends StatefulWidget {
-  const EnglishEntryguise({super.key});
+class EnglishEntryguitar extends StatefulWidget {
+  const EnglishEntryguitar({super.key});
 
   @override
-  State<EnglishEntryguise> createState() => _EnglishEntryguiseState();
+  State<EnglishEntryguitar> createState() => _EnglishEntryguitarState();
 }
 
-class _EnglishEntryguiseState extends State<EnglishEntryguise> {
+class _EnglishEntryguitarState extends State<EnglishEntryguitar> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: guise (Derived forms: guises)
-1. An artful or simulated semblance (- pretense [N. Amer], pretence [Brit, Cdn], pretext)
-"under the guise of friendship he betrayed them";
+- Noun: guitar (Derived forms: guitars)
+1. A stringed instrument usually having six strings; played by strumming or plucking
 """,
   );
 
-  final String keyword = "guise";
+  final String keyword = "guitar";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,28 +78,28 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""guise""");
+    await flutterTts.speak("""guitar""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The story appears in different guises in different cultures.""");
+    await flutterTts.speak("""Do you play the guitar?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""His speech presented racist ideas under the guise of nationalism.""");
+    await flutterTts.speak("""She plays guitar in a band.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He sat on the grass, strumming his guitar.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -938,10 +937,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """guise""",
-                      // alsoEnglishWord: "also: guise",
-                      britshText: """IpaUK: /ɡaɪz/""",
-                      americanText: """IpaUS: /ɡaɪz/""",
+                      word: """guitar""",
+                      // alsoEnglishWord: "also: guitar",
+                      britshText: """IpaUK: /ɡɪˈtɑː(r)/""",
+                      americanText: """IpaUS: /ɡɪˈtɑːr/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,13 +981,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ڕواڵەت، ڕووکەش، ڕوو، ناو، شێوە، شێوەی دەرەوە
+کوردی: 
 """),
-// With short examples define "guise", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شێوازی دەرکەوتنی کەسێک/شتێک، زۆرجار کە جیاوازە لە شێوەی ئاسایی"""),
+// With short examples define "guitar", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئامێرێکی میوزیکی کە زۆرجار شەش تەلی هەیە"""),
                     SentencesRow(
-                      englishText: """The story appears in different guises in different cultures.""",
-                      kurdishText: """چیرۆکەکە بە ژمارەیەک ڕواڵەتی جیاواز لە کەلتووری جیاوازدا دەردەکەوێت.""",
+                      englishText: """Do you play the guitar?""",
+                      kurdishText: """گیتار دەژەنیت؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -996,8 +997,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """His speech presented racist ideas under the guise of nationalism.""",
-                      kurdishText: """وتارەکەی بیرۆکەی ڕەگەزپەرستانەی پیشاندا لە ژێر ناوی وڵات‌پەرستی.""",
+                      englishText: """She plays guitar in a band.""",
+                      kurdishText: """لە باندێکدا گیتار دەژەنێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1005,8 +1006,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He sat on the grass, strumming his guitar.""",
+                      kurdishText:
+                          """لەسەر سەوزەگیاکە دانیشت گیتارەکەی دەژەنی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2131,18 +2134,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/y__v0aEgzO0?t=';
-const double _startSecondsend = 000000000000000000000000000919;
-const String _videoIdone = 'https://youtu.be/qVfJheBp7Ys?t=';
-const double _startSecondsone = 000000000000000000000000000649;
-const String _videoIdtwo = 'https://youtu.be/-aSdFrPnlRg?t=';
-const double _startSecondstwo = 0000000000000000000000000001673;
-const String _videoIdthree = 'https://youtu.be/vchJnrZgz-4?t=';
-const double _startSecondsthree = 000000000000000000000000000962;
-const String _videoIdfour = 'https://youtu.be/KL8CIZej19o?t=';
-const double _startSecondsfour = 00000000000000000000000000055;
-const String _videoIdfive = 'https://youtu.be/mS9CFBlLOcg?t=';
-const double _startSecondsfive = 0000000000000000000000000001284;
+const String _videoIdend = 'https://youtu.be/2_phBUYlbds?t=';
+const double _startSecondsend = 0000000000000000000000000005;
+const String _videoIdone = 'https://youtu.be/omcNGrnt7Sg?t=';
+const double _startSecondsone = 0000000000000000000000000003227;
+const String _videoIdtwo = 'https://youtu.be/7si11pQ5mgw?t=';
+const double _startSecondstwo = 0000000000000000000000000007;
+const String _videoIdthree = 'https://youtu.be/2fch6wJNuxE?t=';
+const double _startSecondsthree = 000000000000000000000000000102;
+const String _videoIdfour = 'https://youtu.be/abPjtpNzO5U?t=';
+const double _startSecondsfour = 00000000000000000000000000077;
+const String _videoIdfive = 'https://youtu.be/fpfyF4gx3jw?t=';
+const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

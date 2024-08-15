@@ -85,11 +85,11 @@ class _EnglishfavouritesScreenState
       onPressed: () {
         _clearenglishfavourites();
       },
-      backgroundColor: Theme.of(context).primaryColor.withOpacity(0.1),
+      // backgroundColor: Theme.of(context).primaryColor.withOpacity(0.1),
           child: Icon(
             Icons.delete,
             size: textSize + 2,
-            color: Theme.of(context).primaryColor.withOpacity(0.6),
+            color: Theme.of(context).primaryColor.withOpacity(0.9),
           ),
     ),
   );

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygun extends StatefulWidget {
-  const EnglishEntrygun({super.key});
+class EnglishEntrygut extends StatefulWidget {
+  const EnglishEntrygut({super.key});
 
   @override
-  State<EnglishEntrygun> createState() => _EnglishEntrygunState();
+  State<EnglishEntrygut> createState() => _EnglishEntrygutState();
 }
 
-class _EnglishEntrygunState extends State<EnglishEntrygun> {
+class _EnglishEntrygutState extends State<EnglishEntrygut> {
   @override
   void initState() {
     super.initState();
@@ -53,32 +53,27 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: gun (Derived forms: guns)
-1. A weapon that discharges a missile at high velocity (especially from a metal tube or barrel)
+- Noun: gut (Derived forms: guts)
+1. The part of the alimentary canal between the stomach and the anus (- intestine, bowel)
  
-2. Large but transportable armament (- artillery, heavy weapon, ordnance)
+2. A narrow channel or strait
  
-3. A person who shoots a gun (as regards their ability) (- gunman)
- 
-4. A professional killer who uses a gun (- gunman, gunslinger, hired gun, gun for hire, triggerman, hit man, hitman, torpedo, shooter)
- 
-5. A hand-operated pump that resembles a pistol; forces grease into parts of a machine (- grease gun)
- 
-6. (military) the discharge of a firearm as signal or as a salute in military ceremonies
-"two runners started before the gun"; "a twenty gun salute"
+3. A strong cord made from the intestines of sheep and used in surgery (- catgut)
 
-- Verb: gun (Derived forms: guns, gunning, gunned)
-1. Shoot with a gun
-"He was gunned down"
+- Verb: gut (Derived forms: gutted, gutting, guts)
+1. Empty completely; destroy the inside of
+"Gut the building"
  
-2. Offer vigorous support to a person or cause (- gun)
-"she was gunning for him in the election";
- 
-3. Attack someone, try to cause someone's downfall
+2. Remove the guts of
+"gut the sheep"
+
+- Adjective: gut
+1. Unthinking; prompted by (or as if by) instinct (- natural, instinctive, instinctual)
+"a cat's gut aversion to water";
 """,
   );
 
-  final String keyword = "gun";
+  final String keyword = "gut";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -98,109 +93,114 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""gun""");
+    await flutterTts.speak("""gut""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I have never fired a gun in my life.""");
+    await flutterTts.speak(
+        """It can take up to 72 hours for food to pass through the gut.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He pointed a gun at her head.""");
+    await flutterTts
+        .speak("""I had a terrible pain in my guts after eating too much.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Should police officers carry guns?""");
+    await flutterTts
+        .speak("""I'll only cook fish if the guts have been removed.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """Anti-aircraft guns opened fire as the bombers flew overhead.""");
+    await flutterTts
+        .speak("""I don't like movies that are full of blood and guts.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Look out, he's got a gun!""");
+    await flutterTts.speak("""Have you seen the gut on him!""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The guard drew his gun.""");
+    await flutterTts.speak(
+        """He doesn't have the guts to walk away from a well-paid job.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She pulled a gun on me.""");
+    await flutterTts
+        .speak("""She had the guts to stand up to the school bully.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The gun went off by accident.""");
+    await flutterTts
+        .speak("""I had a feeling in my guts that something was wrong.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""The attacker held a gun to the hostage’s head.""");
+    await flutterTts.speak(
+        """Understanding the guts of the problem is crucial for solving it.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The British police do not carry guns.""");
+    await flutterTts
+        .speak("""The hotel was completely gutted by fire last year.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He used a spray gun to paint the car.""");
+    await flutterTts.speak("""The fish was already cleaned and gutted.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""At the gun, the runners sprinted away down the track.""");
+    await flutterTts.speak("""You have to work on gut instinct.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""The hired gun turned out to be a police informant.""");
+    await flutterTts.speak("""speaksentence1300""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He gunned the cab through the red light.""");
+    await flutterTts.speak("""speaksentence1400""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
@@ -961,10 +961,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """gun""",
-                      // alsoEnglishWord: "also: gun",
-                      britshText: """IpaUK: /ɡʌn/""",
-                      americanText: """IpaUS: /ɡʌn/""",
+                      word: """gut""",
+                      // alsoEnglishWord: "also: gut",
+                      britshText: """IpaUK: /ɡʌt/""",
+                      americanText: """IpaUS: /ɡʌt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1005,165 +1005,165 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: چەک، تفەنگ
+کوردی: ڕیخۆڵە، ڕۆڤی،	زگ، گەدە، ورگ، کرش،	دەزووی تەقەڵ (برین‌کاری) تەقەڵی نەشتەرگەری،	ژێ (وەکوو بۆ ڤیۆڵین)،	دەربەندی تەنگ، تەنگەڵان، تەنگە، دەرتەنگ،	کۆڵان یان گوزەری تەنگ، هەناو، پزۆر، گورگان‌خواردوو، گرنگ‌ترین بەشی شتێک،	وێران، نەترسی، ئازایەتی، بەغیرەتی،	مرۆی زگەڕۆ
 """),
-// With short examples define "gun", please follow LX instructions
+// With short examples define "gut", please follow LX instructions
+// \b(gut)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
-                        text: """١. (ناو) چەکێک کە فیشەک دەتەقێنێت"""),
+                        text:
+                            """١. (ناو) ڕێڕەوی خۆراک کە لێیەوە خۆراک تێدەپەڕێت کە گەدە جێدەهێڵێت"""),
                     SentencesRow(
-                      englishText: """I have never fired a gun in my life.""",
-                      kurdishText: """هەرگیز فیشەکم نەتەقاندووە لە ژیانمدا.""",
+                      englishText:
+                          """It can take up to 72 hours for food to pass through the gut.""",
+                      kurdishText:
+                          """دەکرێت نزیکەی ٧٢ کاتژمێری پێبچێت بۆ خواردن تاوەکو بە ڕیخۆڵەدا تێپەڕێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    Column(
-                      children: [
-                        MyExpansionTile(
-                          children: [
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText: """He pointed a gun at her head.""",
-                              kurdishText: """چەکێکی ئاراستەی سەری کرد.""",
-                              onPressedBritish: () => speaksentence2("en-GB"),
-                              onPressedAmerican: () => speaksentence2("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """Should police officers carry guns?""",
-                              kurdishText:
-                                  """ئەفسەرانی پۆلیس دەبێت چەک هەڵبگرن؟""",
-                              onPressedBritish: () => speaksentence3("en-GB"),
-                              onPressedAmerican: () => speaksentence3("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """Anti-aircraft guns opened fire as the bombers flew overhead.""",
-                              kurdishText:
-                                  """چەکە دژە فڕۆکەکان دەستیان بە تەقە کرد کە بۆمبهاوێژەکان لەسەرەوە دەفڕین.""",
-                              onPressedBritish: () => speaksentence4("en-GB"),
-                              onPressedAmerican: () => speaksentence4("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText: """Look out, he's got a gun!""",
-                              kurdishText: """ببینە، چەکی پێیە!""",
-                              onPressedBritish: () => speaksentence5("en-GB"),
-                              onPressedAmerican: () => speaksentence5("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """The guard drew his gun (= took it out so it was ready to use).""",
-                              kurdishText: """پاسەوانەکە چەکەکەی ڕاکێشا.""",
-                              onPressedBritish: () => speaksentence6("en-GB"),
-                              onPressedAmerican: () => speaksentence6("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """She pulled a gun on me (= took out a gun and aimed it at me).""",
-                              kurdishText: """چەکێکی ئاراستەکرد لێم.""",
-                              onPressedBritish: () => speaksentence7("en-GB"),
-                              onPressedAmerican: () => speaksentence7("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText: """The gun went off by accident.""",
-                              kurdishText: """چەکەکە بە ڕێکەوت تەقی.""",
-                              onPressedBritish: () => speaksentence8("en-GB"),
-                              onPressedAmerican: () => speaksentence8("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """The attacker held a gun to the hostage’s head.""",
-                              kurdishText:
-                                  """هێرشکارەکە چەکێکی لەسەر سەری بارمتەکە دانابوو.""",
-                              onPressedBritish: () => speaksentence9("en-GB"),
-                              onPressedAmerican: () => speaksentence9("en-US"),
-                            ),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """The British police do not carry guns.""",
-                              kurdishText: """پۆلیسی بەریتانیا چەک هەڵناگرن.""",
-                              onPressedBritish: () => speaksentence10("en-GB"),
-                              onPressedAmerican: () => speaksentence10("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """I had a terrible pain in my guts after eating too much.""",
+                      kurdishText:
+                          """ئازارم هەبوو لە ڕیخۆڵەمدا لە دوای خواردنی زۆر.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) شتێک کە فشار بەکاردێنێت بۆ دەردانی شتێک"""),
+                            """٢. (ناو) ئەندامەکانی دەورووبەری گەدە، بە تایبەتی لە ئاژەڵدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He used a spray gun to paint the car.""",
+                      englishText:
+                          """I'll only cook fish if the guts have been removed.""",
                       kurdishText:
-                          """سپرەی ڕێژێکی بەکارهێنا بۆ بۆیەکردنی ئۆتۆمبێلەکە.""",
+                          """ماسی لێ دەنێم تەنها ئەگەر ناوسکەکەی دەرکرابێت.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """I don't like movies that are full of blood and guts (= that show a lot of blood and violence).""",
+                      kurdishText:
+                          """(خوازراوی) حەزم بەو فیلمانە نییە کە پڕن لە خوێن و توندووتیژی.""",
+                      onPressedBritish: () => speaksentence4("en-GB"),
+                      onPressedAmerican: () => speaksentence4("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """٣. (ناو) گەدەی مرۆڤ"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: belly"),
+                    SentencesRow(
+                      englishText: """Have you seen the gut on him!""",
+                      kurdishText: """ئەو گەدەیەت بینیوە کە پێوەیەتی!.""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) بوێری و توانای هزری بۆ کردنی شتێکی سەخت و ناخۆش"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """He doesn't have the guts to walk away from a well-paid job.""",
+                      kurdishText:
+                          """ئەو غیرەتەی نییە کە لە کارێکی مووچە باش ڕابکات.""",
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """She had the guts to stand up to the school bully.""",
+                      kurdishText:
+                          """بوێری ئەوەی هەبوو دژ بە وەیگێڕێکی قوتابخانە بوەستێتەوە.""",
+                      onPressedBritish: () => speaksentence7("en-GB"),
+                      onPressedAmerican: () => speaksentence7("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (ناو) ئەو شوێنەی کە باوەڕ وایە هەستی سرووشتیتی تێدایە و وەهات لێ دەکات بە شێوەیەکی دیاریکراو بیر بکەیتەوە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """I had a feeling in my guts that something was wrong.""",
+                      kurdishText:
+                          """هەستێکم هەبوو لە هەناومدا کە شتێک هەڵەیە.""",
+                      onPressedBritish: () => speaksentence8("en-GB"),
+                      onPressedAmerican: () => speaksentence8("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٦. (ناو) گرنگترین بەشی شتێک"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """Understanding the guts of the problem is crucial for solving it.""",
+                      kurdishText:
+                          """تێگەیشتن لە هەناوی کێشەکە گرنگە بۆ چارەسەری.""",
+                      onPressedBritish: () => speaksentence9("en-GB"),
+                      onPressedAmerican: () => speaksentence9("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٧. (کردار) لەناوبردنی بەشی ناوەوەی بینایەک یان ژوورێک"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The hotel was completely gutted by fire last year.""",
+                      kurdishText:
+                          """هوتێلەکە ساڵی ڕابردوو تەواو بە ئاگر لەناوچوو.""",
+                      onPressedBritish: () => speaksentence10("en-GB"),
+                      onPressedAmerican: () => speaksentence10("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٨. (کردار) دەرکردنی بەشی ناوەوەی ماسییەک یان ئاژەڵێک و ئامادەکردنی بۆ لێنان"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The fish was already cleaned and gutted.""",
+                      kurdishText:
+                          """ماسییەکە پێشتر پاککرابوویەوە و ڕیخۆڵەکانی دەرهێنرابوون.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
+                    // skipped_meaning
+                    // const DividerDefinition(),
+                    // const DefinitionKurdish(text: """٩. (هاوەڵناو) کە پشتی بە هەست و سۆز بەستووە نەک بیرکردنەوە"""),
+                    // const DividerSentences(),
+                    // SentencesRow(
+                    //   englishText: """You have to work on gut instinct.""",
+                    //   kurdishText: """دەبێت گرنگی بە.""",
+                    //   onPressedBritish: () => speaksentence12("en-GB"),
+                    //   onPressedAmerican: () => speaksentence12("en-US"),
+                    // ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٣. (ناو) ئامێرێک کە دەنگێکی بەرز دەردەکات بۆ ئاماژە بە دەستپێکردنی پێشبڕکێیەک"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """At the gun, the runners sprinted away down the track.""",
-                      kurdishText:
-                          """لەگەڵ دەنگی دەستپێک، ڕاکەرەکان بە گۆڕەپانەکەدا بۆی دەرچوون.""",
-                      onPressedBritish: () => speaksentence12("en-GB"),
-                      onPressedAmerican: () => speaksentence12("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٤. (ناو) کەسێک کە بە کرێ گیراوە بۆ کوشتنی کەسێک"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """The hired gun turned out to be a police informant.""",
-                      kurdishText:
-                          """چەکدارەکە بە کرێ گیراوەکە دەرکەوت کە سیخوڕی پۆلیس بێت.""",
+                      englishText: """speaksentence1300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٥. (کردار) کە بزوێنەری ئۆتۆمبێل خێرا کار دەکات؛ دەستکردن بەوەی پێڕۆیەک بە خێرایی لێبخوڕیت"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """He gunned the cab through the red light.""",
-                      kurdishText: """تەکسییەکەی بە لایتە سوورەکەدا لێخوڕی.""",
+                      englishText: """speaksentence1400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -2189,18 +2189,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/CiTS3dcYicw?t=';
-const double _startSecondsend = 00000000000000000000000000079;
-const String _videoIdone = 'https://youtu.be/mFYiD8NfrMI?t=';
-const double _startSecondsone = 00000000000000000000000000029;
-const String _videoIdtwo = 'https://youtu.be/Byx_9EMMo1Y?t=';
-const double _startSecondstwo = 000000000000000000000000000227;
-const String _videoIdthree = 'https://youtu.be/AtiMqeDmo1M?t=';
-const double _startSecondsthree = 000000000000000000000000000153;
-const String _videoIdfour = 'https://youtu.be/O7UdNsU2LB8?t=';
-const double _startSecondsfour = 00000000000000000000000000011;
-const String _videoIdfive = 'https://youtu.be/gwZuUxeBYV8?t=';
-const double _startSecondsfive = 000000000000000000000000000819;
+const String _videoIdend = 'https://youtu.be/j1BfO7VlIw4?t=';
+const double _startSecondsend = 000000000000000000000000000565;
+const String _videoIdone = 'https://youtu.be/MGO4_8YRKro?t=';
+const double _startSecondsone = 000000000000000000000000000423;
+const String _videoIdtwo = 'https://youtu.be/544DTGHIBM0?t=';
+const double _startSecondstwo = 000000000000000000000000000717;
+const String _videoIdthree = 'https://youtu.be/55XJ1ObZKaM?t=';
+const double _startSecondsthree = 000000000000000000000000000240;
+const String _videoIdfour = 'https://youtu.be/raSeaAeryWE?t=';
+const double _startSecondsfour = 0000000000000000000000000001747;
+const String _videoIdfive = 'https://youtu.be/Gv4Af83KFrE?t=';
+const double _startSecondsfive = 0000000000000000000000000001181;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

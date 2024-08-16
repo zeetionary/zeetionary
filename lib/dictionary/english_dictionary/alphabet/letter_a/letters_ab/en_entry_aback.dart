@@ -30,8 +30,8 @@ import 'package:zeetionary/constants.dart';
 // \\b\w+\(s\|ed\|ing\)\?
 // \bdopsum1(s|ed|ing)?
 
-// \\b\(\w+\)\(s\|ed\|ing\)\?\\b\(\?=\[\.!\?\]\?\)
-// \b(gum)(s|ed|ing)?\b(?=[.!?]?)
+// \\b\(\w+\)\(s\|ed\|es\|ing\)\?\\b\(\?=\[\.!\?\]\?\)
+// \b(gum)(s|ed|es|ing)?\b(?=[.!?]?)
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,

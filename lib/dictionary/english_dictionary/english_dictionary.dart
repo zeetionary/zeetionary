@@ -352,6 +352,7 @@ class _DictionaryScreenEnglishState
     input = input.replaceAll('mme', 'm');
     input = input.replaceAll('ogue', 'og');
     input = input.replaceAll('llery', 'lry');
+    input = input.replaceAll('naec', 'nec');
     input = input.replaceAll('nes', 'ns');
     input = input.replaceAll('nium', 'num');
     input = input.replaceAll('è', 'e');

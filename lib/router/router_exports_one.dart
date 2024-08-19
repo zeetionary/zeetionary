@@ -4891,19 +4891,19 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 
 
 // en_entry_h.dart' show EnglishEntryh
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_haberdasher.dart' show EnglishEntryhaberdasher
+// en_entry_haberdashery.dart' show EnglishEntryhaberdashery
+// en_entry_habit.dart' show EnglishEntryhabit
+// en_entry_habitable.dart' show EnglishEntryhabitable
+// en_entry_habitat.dart' show EnglishEntryhabitat
+// en_entry_habitation.dart' show EnglishEntryhabitation
+// en_entry_habitual.dart' show EnglishEntryhabitual
+// en_entry_habitually.dart' show EnglishEntryhabitually
+// en_entry_hack.dart' show EnglishEntryhack
+// en_entry_hacksaw.dart' show EnglishEntryhacksaw
+// en_entry_hacker.dart' show EnglishEntryhacker
+// en_entry_hackneyed.dart' show EnglishEntryhackneyed
+// en_entry_haddock.dart' show EnglishEntryhaddock
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

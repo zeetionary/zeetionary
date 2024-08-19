@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryh extends StatefulWidget {
-  const EnglishEntryh({super.key});
+class EnglishEntryhabitual extends StatefulWidget {
+  const EnglishEntryhabitual({super.key});
 
   @override
-  State<EnglishEntryh> createState() => _EnglishEntryhState();
+  State<EnglishEntryhabitual> createState() => _EnglishEntryhabitualState();
 }
 
-class _EnglishEntryhState extends State<EnglishEntryh> {
+class _EnglishEntryhabitualState extends State<EnglishEntryhabitual> {
   @override
   void initState() {
     super.initState();
@@ -53,22 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: h (Derived forms: hs)
-1. The 8th letter of the Roman alphabet (- H)
- 
-2. The constant of proportionality relating the energy of a photon to its frequency; approximately 6.626 x 10^-34 joule-second (- Planck's constant)
-
-Noun: H (Derived forms: Hs)
-1. (thermodynamics) a thermodynamic quantity equal to the internal energy of a system plus the product of its volume and pressure (- heat content, total heat, enthalpy)
-"H is the amount of energy in a system capable of doing mechanical work";
- 
-2. A nonmetallic univalent element that is normally a colourless and odourless highly flammable diatomic gas; the simplest and lightest and most abundant element in the universe (- hydrogen, atomic number 1)
- 
-3. A unit of inductance in which an induced electromotive force of one volt is produced when the current is varied at the rate of one ampere per second (- henry)
+- Adjective: habitual
+1. Commonly used or practised; usual (- accustomed, customary, wonted)
+"his habitual comment";
 """,
   );
 
-  final String keyword = "h";
+  final String keyword = "habitual";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -88,35 +79,35 @@ Noun: H (Derived forms: Hs)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""h""");
+    await flutterTts.speak("""habitual""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""‘Hat’ begins with (an) H/‘H’.""");
+    await flutterTts.speak("""They waited for his habitual response.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She reverted to her habitual frown.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Is habitual drunkenness considered to be grounds for divorce?""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""He had been dismissed for habitual lateness.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -947,10 +938,10 @@ Noun: H (Derived forms: Hs)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """h""",
-                      // alsoEnglishWord: "also: h",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """habitual""",
+                      // alsoEnglishWord: "also: habitual",
+                      britshText: """IpaUK: /həˈbɪtʃuəl/""",
+                      americanText: """IpaUS: /həˈbɪtʃuəl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,14 +982,14 @@ Noun: H (Derived forms: Hs)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئاسایی، هەمیشەیی، عەدەتی،	گیرۆدە، ڕاهاتوو، عادەت‌کردوو، خدەگرتوو، فێر،	لە ڕووی عادەتەوە، واخووگرتوو، واڕاهاتوو
 """),
-// With short examples define "h", please follow LX instructions
-// \b(h)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) هەشتەم پیتی ئەلفوبێی زمانی ئینگلیزی"""),
+// With short examples define "habitual", please follow LX instructions
+// \b(habitual)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە لە کەسێک یان شتێک چاوەڕێ دەکرێت"""),
                     SentencesRow(
-                      englishText: """‘Hat’ begins with (an) H/‘H’.""",
-                      kurdishText: """‘Hat’ بە H/‘H’ دەست پێدەکات.""",
+                      englishText: """They waited for his habitual response.""",
+                      kurdishText: """بۆ وەڵامدانەوە هەمیشەییەکەی وەستان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1006,17 +997,17 @@ Noun: H (Derived forms: Hs)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She reverted to her habitual frown.""",
+                      kurdishText: """کەوتەوە سەر ڕووگرژییە هەمیشەییەکەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کارێک کە زۆرجار بە شێوەیەک دەکرێت کە سەختە بوەستێندرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Is habitual drunkenness considered to be grounds for divorce?""",
+                      kurdishText: """ئایا سەرخۆشیی عادەتییانە بە هۆکارێکی باش دادەنرێت بۆ جیابوونەوە؟""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1024,8 +1015,8 @@ Noun: H (Derived forms: Hs)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He had been dismissed for habitual lateness.""",
+                      kurdishText: """دەرکرابوو (لە کارەکەی) بۆ دواکەوتنی عادەتیی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -2141,18 +2132,18 @@ Noun: H (Derived forms: Hs)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/Kirup-Nzw3o?t=';
-const double _startSecondsend = 352;
-const String _videoIdone = 'https://youtu.be/xY3Z8acE8ew?t=';
-const double _startSecondsone = 00000000000000000000000000030;
-const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondstwo = 000000000000000000000000000810;
-const String _videoIdthree = 'https://youtu.be/RIQDmnIJZv8?t=';
-const double _startSecondsthree = 00000000000000000000000000025;
-const String _videoIdfour = 'https://youtu.be/vnSAV2uWHPw?t=';
-const double _startSecondsfour = 000000000000000000000000000142;
-const String _videoIdfive = 'https://youtu.be/Gv4Af83KFrE?t=';
-const double _startSecondsfive = 0000000000000000000000000001128;
+const String _videoIdend = 'https://youtu.be/L1HCG3BGK8I?t=';
+const double _startSecondsend = 000000000000000000000000000217;
+const String _videoIdone = 'https://youtu.be/87y1_IbJRZE?t=';
+const double _startSecondsone = 0000000000000000000000000001220;
+const String _videoIdtwo = 'https://youtu.be/sY8aFSY2zv4?t=';
+const double _startSecondstwo = 0000000000000000000000000007962;
+const String _videoIdthree = 'https://youtu.be/HGezagpjZiA?t=';
+const double _startSecondsthree = 0000000000000000000000000002027;
+const String _videoIdfour = 'https://youtu.be/QKIobyk6Isc?t=';
+const double _startSecondsfour = 000000000000000000000000000418;
+const String _videoIdfive = 'https://youtu.be/jcL4JEqFlg0?t=';
+const double _startSecondsfive = 00000000000000000000000000024;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

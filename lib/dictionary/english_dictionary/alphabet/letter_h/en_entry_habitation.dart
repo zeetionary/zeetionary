@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryh extends StatefulWidget {
-  const EnglishEntryh({super.key});
+class EnglishEntryhabitation extends StatefulWidget {
+  const EnglishEntryhabitation({super.key});
 
   @override
-  State<EnglishEntryh> createState() => _EnglishEntryhState();
+  State<EnglishEntryhabitation> createState() => _EnglishEntryhabitationState();
 }
 
-class _EnglishEntryhState extends State<EnglishEntryh> {
+class _EnglishEntryhabitationState extends State<EnglishEntryhabitation> {
   @override
   void initState() {
     super.initState();
@@ -53,22 +53,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: h (Derived forms: hs)
-1. The 8th letter of the Roman alphabet (- H)
+- Noun: habitation (Derived forms: habitations)
+1. The native habitat or home of an animal or plant
  
-2. The constant of proportionality relating the energy of a photon to its frequency; approximately 6.626 x 10^-34 joule-second (- Planck's constant)
-
-Noun: H (Derived forms: Hs)
-1. (thermodynamics) a thermodynamic quantity equal to the internal energy of a system plus the product of its volume and pressure (- heat content, total heat, enthalpy)
-"H is the amount of energy in a system capable of doing mechanical work";
+2. Housing that someone is living in (- dwelling, home, domicile, abode, dwelling house, domicil [rare])
+"he built a modest habitation near the pond";
  
-2. A nonmetallic univalent element that is normally a colourless and odourless highly flammable diatomic gas; the simplest and lightest and most abundant element in the universe (- hydrogen, atomic number 1)
- 
-3. A unit of inductance in which an induced electromotive force of one volt is produced when the current is varied at the rate of one ampere per second (- henry)
+3. The act of dwelling in or living permanently in a place (said of both animals and men) (- inhabitancy, inhabitation)
+"he studied the creation and habitation and demise of the colony";
 """,
   );
 
-  final String keyword = "h";
+  final String keyword = "habitation";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -88,21 +84,23 @@ Noun: H (Derived forms: Hs)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""h""");
+    await flutterTts.speak("""habitation""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""‘Hat’ begins with (an) H/‘H’.""");
+    await flutterTts
+        .speak("""They looked around for any signs of habitation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The road serves the scattered habitations along the coast.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -947,10 +945,10 @@ Noun: H (Derived forms: Hs)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """h""",
-                      // alsoEnglishWord: "also: h",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """habitation""",
+                      // alsoEnglishWord: "also: habitation",
+                      britshText: """IpaUK: /ˌhæbɪˈteɪʃn/""",
+                      americanText: """IpaUS: /ˌhæbɪˈteɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,23 +989,30 @@ Noun: H (Derived forms: Hs)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێ‌مانەوە، لێ‌دانیشتن، نیشتەجێ‌بوون، گیرسانەوە، ژیوارکردن،	ماڵ، خانوو، شوێنی گیرسانەوە، ئەوڵەگا، پۆرگە
 """),
-// With short examples define "h", please follow LX instructions
-// \b(h)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) هەشتەم پیتی ئەلفوبێی زمانی ئینگلیزی"""),
+// With short examples define "habitation", please follow LX instructions
+// \b(habitation)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) ژیانکردن لە شوێنێک"""),
                     SentencesRow(
-                      englishText: """‘Hat’ begins with (an) H/‘H’.""",
-                      kurdishText: """‘Hat’ بە H/‘H’ دەست پێدەکات.""",
+                      englishText:
+                          """They looked around for any signs of habitation.""",
+                      kurdishText: """گەڕان بۆ هەر ئاماژەیەکی ژیانکردن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) شوێنێک کە خەڵکی لێی دەژین"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The road serves the scattered habitations along the coast.""",
+                      kurdishText:
+                          """ڕێگاکە بۆ ئەو کەسانەیە کە نیشتەجێی کەناراوەکەن.""",
+                      englishNote:
+                          """This means the road is used by the people who live in the different places along the coast.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2141,18 +2146,18 @@ Noun: H (Derived forms: Hs)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/Kirup-Nzw3o?t=';
-const double _startSecondsend = 352;
-const String _videoIdone = 'https://youtu.be/xY3Z8acE8ew?t=';
-const double _startSecondsone = 00000000000000000000000000030;
-const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondstwo = 000000000000000000000000000810;
-const String _videoIdthree = 'https://youtu.be/RIQDmnIJZv8?t=';
-const double _startSecondsthree = 00000000000000000000000000025;
-const String _videoIdfour = 'https://youtu.be/vnSAV2uWHPw?t=';
-const double _startSecondsfour = 000000000000000000000000000142;
-const String _videoIdfive = 'https://youtu.be/Gv4Af83KFrE?t=';
-const double _startSecondsfive = 0000000000000000000000000001128;
+const String _videoIdend = 'https://youtu.be/twAP3buj9Og?t=';
+const double _startSecondsend = 000000000000000000000000000491;
+const String _videoIdone = 'https://youtu.be/wh3vW2V7ucU?t=';
+const double _startSecondsone = 000000000000000000000000000504;
+const String _videoIdtwo = 'https://youtu.be/HBhXvLlB-kY?t=';
+const double _startSecondstwo = 0000000000000000000000000008599;
+const String _videoIdthree = 'https://youtu.be/HJ56MYa9W8M?t=';
+const double _startSecondsthree = 000000000000000000000000000427;
+const String _videoIdfour = 'https://youtu.be/Gc-B-a5FrvU?t=';
+const double _startSecondsfour = 000000000000000000000000000127;
+const String _videoIdfive = 'https://youtu.be/u2ivR5B1PVs?t=';
+const double _startSecondsfive = 0000000000000000000000000001404;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryh extends StatefulWidget {
-  const EnglishEntryh({super.key});
+class EnglishEntryhackneyed extends StatefulWidget {
+  const EnglishEntryhackneyed({super.key});
 
   @override
-  State<EnglishEntryh> createState() => _EnglishEntryhState();
+  State<EnglishEntryhackneyed> createState() => _EnglishEntryhackneyedState();
 }
 
-class _EnglishEntryhState extends State<EnglishEntryh> {
+class _EnglishEntryhackneyedState extends State<EnglishEntryhackneyed> {
   @override
   void initState() {
     super.initState();
@@ -53,22 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: h (Derived forms: hs)
-1. The 8th letter of the Roman alphabet (- H)
- 
-2. The constant of proportionality relating the energy of a photon to its frequency; approximately 6.626 x 10^-34 joule-second (- Planck's constant)
-
-Noun: H (Derived forms: Hs)
-1. (thermodynamics) a thermodynamic quantity equal to the internal energy of a system plus the product of its volume and pressure (- heat content, total heat, enthalpy)
-"H is the amount of energy in a system capable of doing mechanical work";
- 
-2. A nonmetallic univalent element that is normally a colourless and odourless highly flammable diatomic gas; the simplest and lightest and most abundant element in the universe (- hydrogen, atomic number 1)
- 
-3. A unit of inductance in which an induced electromotive force of one volt is produced when the current is varied at the rate of one ampere per second (- henry)
+- Adjective: hackneyed
+1. Repeated too often; overfamiliar through overuse (- banal, commonplace, old-hat [informal], shopworn [N. Amer], stock, threadbare, timeworn, tired, trite, well-worn, shop-soiled [Brit])
+"hackneyed phrases";
 """,
   );
 
-  final String keyword = "h";
+  final String keyword = "hackneyed";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -88,14 +79,15 @@ Noun: H (Derived forms: Hs)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""h""");
+    await flutterTts.speak("""hackneyed""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""‘Hat’ begins with (an) H/‘H’.""");
+    await flutterTts
+        .speak("""The artist should be careful to avoid hackneyed subjects.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -947,10 +939,10 @@ Noun: H (Derived forms: Hs)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """h""",
-                      // alsoEnglishWord: "also: h",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """hackneyed""",
+                      // alsoEnglishWord: "also: hackneyed",
+                      britshText: """IpaUK: /ˈhæknid/""",
+                      americanText: """IpaUS: /ˈhæknid/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,14 +983,17 @@ Noun: H (Derived forms: Hs)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کۆن، لەباوکەوتوو، ڕزیو، پوواو، سوواو، شڕ، شەکەتکەر
 """),
-// With short examples define "h", please follow LX instructions
-// \b(h)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) هەشتەم پیتی ئەلفوبێی زمانی ئینگلیزی"""),
+// With short examples define "hackneyed", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کە زۆر بەکارهاتووە بۆیە ناخۆشە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: clichéd"),
                     SentencesRow(
-                      englishText: """‘Hat’ begins with (an) H/‘H’.""",
-                      kurdishText: """‘Hat’ بە H/‘H’ دەست پێدەکات.""",
+                      englishText:
+                          """The artist should be careful to avoid hackneyed subjects.""",
+                      kurdishText:
+                          """هونەرمەندەکە دەبێت وریا بێت لەوەی لە بابەتی لەباوکەوتوو دوور بێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2141,18 +2136,18 @@ Noun: H (Derived forms: Hs)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/Kirup-Nzw3o?t=';
-const double _startSecondsend = 352;
-const String _videoIdone = 'https://youtu.be/xY3Z8acE8ew?t=';
-const double _startSecondsone = 00000000000000000000000000030;
-const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondstwo = 000000000000000000000000000810;
-const String _videoIdthree = 'https://youtu.be/RIQDmnIJZv8?t=';
-const double _startSecondsthree = 00000000000000000000000000025;
-const String _videoIdfour = 'https://youtu.be/vnSAV2uWHPw?t=';
-const double _startSecondsfour = 000000000000000000000000000142;
-const String _videoIdfive = 'https://youtu.be/Gv4Af83KFrE?t=';
-const double _startSecondsfive = 0000000000000000000000000001128;
+const String _videoIdend = 'https://youtu.be/iYAjQyOW-Ak?t=';
+const double _startSecondsend = 000000000000000000000000000247;
+const String _videoIdone = 'https://youtu.be/4r6IbVN9f0U?t=';
+const double _startSecondsone = 000000000000000000000000000768;
+const String _videoIdtwo = 'https://youtu.be/tZ3FnbzNwss?t=';
+const double _startSecondstwo = 00000000000000000000000000059;
+const String _videoIdthree = 'https://youtu.be/gRb7illNciw?t=';
+const double _startSecondsthree = 000000000000000000000000000895;
+const String _videoIdfour = 'https://youtu.be/qEB6o7dlGe4?t=';
+const double _startSecondsfour = 000000000000000000000000000123;
+const String _videoIdfive = 'https://youtu.be/UPqMBZ_QWV4?t=';
+const double _startSecondsfive = 000000000000000000000000000264;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

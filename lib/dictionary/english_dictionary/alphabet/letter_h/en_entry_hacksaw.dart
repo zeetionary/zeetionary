@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryh extends StatefulWidget {
-  const EnglishEntryh({super.key});
+class EnglishEntryhacksaw extends StatefulWidget {
+  const EnglishEntryhacksaw({super.key});
 
   @override
-  State<EnglishEntryh> createState() => _EnglishEntryhState();
+  State<EnglishEntryhacksaw> createState() => _EnglishEntryhacksawState();
 }
 
-class _EnglishEntryhState extends State<EnglishEntryh> {
+class _EnglishEntryhacksawState extends State<EnglishEntryhacksaw> {
   @override
   void initState() {
     super.initState();
@@ -53,22 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: h (Derived forms: hs)
-1. The 8th letter of the Roman alphabet (- H)
- 
-2. The constant of proportionality relating the energy of a photon to its frequency; approximately 6.626 x 10^-34 joule-second (- Planck's constant)
+- Noun: hacksaw (Derived forms: hacksaws)
+1. Saw used with one hand for cutting metal (- hack saw, metal saw)
 
-Noun: H (Derived forms: Hs)
-1. (thermodynamics) a thermodynamic quantity equal to the internal energy of a system plus the product of its volume and pressure (- heat content, total heat, enthalpy)
-"H is the amount of energy in a system capable of doing mechanical work";
- 
-2. A nonmetallic univalent element that is normally a colourless and odourless highly flammable diatomic gas; the simplest and lightest and most abundant element in the universe (- hydrogen, atomic number 1)
- 
-3. A unit of inductance in which an induced electromotive force of one volt is produced when the current is varied at the rate of one ampere per second (- henry)
+- Verb: hacksaw (Derived forms: hacksawing, hacksaws, hacksawed, hacksawn)
+1. Cut with a hacksaw
 """,
   );
 
-  final String keyword = "h";
+  final String keyword = "hacksaw";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -88,21 +81,21 @@ Noun: H (Derived forms: Hs)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""h""");
+    await flutterTts.speak("""hacksaw""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""‘Hat’ begins with (an) H/‘H’.""");
+    await flutterTts.speak("""The hacksaw blade snapped under pressure.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He replaced the hacksaw blade with a new one.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -947,10 +940,10 @@ Noun: H (Derived forms: Hs)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """h""",
-                      // alsoEnglishWord: "also: h",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """hacksaw""",
+                      // alsoEnglishWord: "also: hacksaw",
+                      britshText: """IpaUK: /ˈhæksɔː/""",
+                      americanText: """IpaUS: /ˈhæksɔː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,14 +984,13 @@ Noun: H (Derived forms: Hs)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مشار یان هەڕەی ئاسن‌بڕ، مشاری کەوانی، هەڕەی کەوانە، کەوانەهەڕە
 """),
-// With short examples define "h", please follow LX instructions
-// \b(h)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) هەشتەم پیتی ئەلفوبێی زمانی ئینگلیزی"""),
+// \b(hacksaw)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(text: """١. (ناو) ئامرازێک کە دەمێکی تیژی هەیە و بۆ بڕین بەکاردێت"""),
                     SentencesRow(
-                      englishText: """‘Hat’ begins with (an) H/‘H’.""",
-                      kurdishText: """‘Hat’ بە H/‘H’ دەست پێدەکات.""",
+                      englishText: """The hacksaw blade snapped under pressure.""",
+                      kurdishText: """دەمی هەڕەکە لەژێر پەستاندا شکا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1006,8 +998,8 @@ Noun: H (Derived forms: Hs)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He replaced the hacksaw blade with a new one.""",
+                      kurdishText: """دەمی هەڕەکەی بە دانەیەکی تازەتر گۆڕییەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2141,18 +2133,18 @@ Noun: H (Derived forms: Hs)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/Kirup-Nzw3o?t=';
-const double _startSecondsend = 352;
-const String _videoIdone = 'https://youtu.be/xY3Z8acE8ew?t=';
-const double _startSecondsone = 00000000000000000000000000030;
-const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondstwo = 000000000000000000000000000810;
-const String _videoIdthree = 'https://youtu.be/RIQDmnIJZv8?t=';
-const double _startSecondsthree = 00000000000000000000000000025;
-const String _videoIdfour = 'https://youtu.be/vnSAV2uWHPw?t=';
-const double _startSecondsfour = 000000000000000000000000000142;
-const String _videoIdfive = 'https://youtu.be/Gv4Af83KFrE?t=';
-const double _startSecondsfive = 0000000000000000000000000001128;
+const String _videoIdend = 'https://youtu.be/OZ_xhkg32nk?t=';
+const double _startSecondsend = 000000000000000000000000000708;
+const String _videoIdone = 'https://youtu.be/2Hq4CtLfnZs?t=';
+const double _startSecondsone = 000000000000000000000000000844;
+const String _videoIdtwo = 'https://youtu.be/6KEthELQfro?t=';
+const double _startSecondstwo = 000000000000000000000000000161;
+const String _videoIdthree = 'https://youtu.be/iVCMsbF_OD0?t=';
+const double _startSecondsthree = 000000000000000000000000000472;
+const String _videoIdfour = 'https://youtu.be/b5DPLB02T00?t=';
+const double _startSecondsfour = 000000000000000000000000000348;
+const String _videoIdfive = 'https://youtu.be/kvo-n2AYZnA?t=';
+const double _startSecondsfive = 000000000000000000000000000210;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryh extends StatefulWidget {
-  const EnglishEntryh({super.key});
+class EnglishEntryhabitable extends StatefulWidget {
+  const EnglishEntryhabitable({super.key});
 
   @override
-  State<EnglishEntryh> createState() => _EnglishEntryhState();
+  State<EnglishEntryhabitable> createState() => _EnglishEntryhabitableState();
 }
 
-class _EnglishEntryhState extends State<EnglishEntryh> {
+class _EnglishEntryhabitableState extends State<EnglishEntryhabitable> {
   @override
   void initState() {
     super.initState();
@@ -53,22 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: h (Derived forms: hs)
-1. The 8th letter of the Roman alphabet (- H)
- 
-2. The constant of proportionality relating the energy of a photon to its frequency; approximately 6.626 x 10^-34 joule-second (- Planck's constant)
-
-Noun: H (Derived forms: Hs)
-1. (thermodynamics) a thermodynamic quantity equal to the internal energy of a system plus the product of its volume and pressure (- heat content, total heat, enthalpy)
-"H is the amount of energy in a system capable of doing mechanical work";
- 
-2. A nonmetallic univalent element that is normally a colourless and odourless highly flammable diatomic gas; the simplest and lightest and most abundant element in the universe (- hydrogen, atomic number 1)
- 
-3. A unit of inductance in which an induced electromotive force of one volt is produced when the current is varied at the rate of one ampere per second (- henry)
+- Adjective: habitable
+1. Fit for habitation (- inhabitable)
+"the habitable world";
 """,
   );
 
-  final String keyword = "h";
+  final String keyword = "habitable";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -88,28 +79,30 @@ Noun: H (Derived forms: Hs)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""h""");
+    await flutterTts.speak("""habitable""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""‘Hat’ begins with (an) H/‘H’.""");
+    await flutterTts
+        .speak("""The house should be habitable by the new year.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The room was barely habitable.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Some areas of the country are just too cold to be habitable.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -947,10 +940,10 @@ Noun: H (Derived forms: Hs)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """h""",
-                      // alsoEnglishWord: "also: h",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """habitable""",
+                      // alsoEnglishWord: "also: habitable",
+                      britshText: """IpaUK: /ˈhæbɪtəbl/""",
+                      americanText: """IpaUS: /ˈhæbɪtəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,14 +984,18 @@ Noun: H (Derived forms: Hs)
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ژیان‌لێ‌کراو، لەنیشتەجێ‌هاتوو، جێی‌ژیوار، شیاوی لێ‌مانەوە، لەدانیشتن‌هاتوو، ژیانی لێ‌دەکرێ، بۆ دانیشتن دەبێ، بۆ گیرسانەوە دەبێ
 """),
-// With short examples define "h", please follow LX instructions
-// \b(h)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) هەشتەم پیتی ئەلفوبێی زمانی ئینگلیزی"""),
+// With short examples define "habitable", please follow LX instructions
+// \b(habitable)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە گونجاوە بۆ ژیانی مرۆڤ تێیدا"""),
                     SentencesRow(
-                      englishText: """‘Hat’ begins with (an) H/‘H’.""",
-                      kurdishText: """‘Hat’ بە H/‘H’ دەست پێدەکات.""",
+                      englishText:
+                          """The house should be habitable by the new year.""",
+                      kurdishText:
+                          """خانووەکە تاوەکو ساڵی داهاتوو دەبێت لەنیشتەجێ‌هاتوو بێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1006,8 +1003,8 @@ Noun: H (Derived forms: Hs)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The room was barely habitable.""",
+                      kurdishText: """ژوورەکە بە ئاستەنگ شیاوی ژیان بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1015,8 +1012,10 @@ Noun: H (Derived forms: Hs)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some areas of the country are just too cold to be habitable.""",
+                      kurdishText:
+                          """هەندێک ناوچەی وڵاتەکە زۆر ساردن کە شیاو بۆ ژیان بن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2141,18 +2140,18 @@ Noun: H (Derived forms: Hs)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/Kirup-Nzw3o?t=';
-const double _startSecondsend = 352;
-const String _videoIdone = 'https://youtu.be/xY3Z8acE8ew?t=';
-const double _startSecondsone = 00000000000000000000000000030;
-const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondstwo = 000000000000000000000000000810;
-const String _videoIdthree = 'https://youtu.be/RIQDmnIJZv8?t=';
-const double _startSecondsthree = 00000000000000000000000000025;
-const String _videoIdfour = 'https://youtu.be/vnSAV2uWHPw?t=';
-const double _startSecondsfour = 000000000000000000000000000142;
-const String _videoIdfive = 'https://youtu.be/Gv4Af83KFrE?t=';
-const double _startSecondsfive = 0000000000000000000000000001128;
+const String _videoIdend = 'https://youtu.be/FaCeZsOOKEY?t=';
+const double _startSecondsend = 000000000000000000000000000610;
+const String _videoIdone = 'https://youtu.be/j3DuONZb3Ik?t=';
+const double _startSecondsone = 000000000000000000000000000174;
+const String _videoIdtwo = 'https://youtu.be/_S2EXOKlo_c?t=';
+const double _startSecondstwo = 000000000000000000000000000272;
+const String _videoIdthree = 'https://youtu.be/mSWL0GBf-TM?t=';
+const double _startSecondsthree = 000000000000000000000000000471;
+const String _videoIdfour = 'https://youtu.be/hSNWkRw53Jo?t=';
+const double _startSecondsfour = 0000000000000000000000000007004;
+const String _videoIdfive = 'https://youtu.be/AqkMykYQ7eU?t=';
+const double _startSecondsfive = 000000000000000000000000000114;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

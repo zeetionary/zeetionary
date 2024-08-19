@@ -987,7 +987,6 @@ ${englishMeaningConst.text}
 کوردی: وەکوو هەمیشە، وەکوو جاران، لە ڕووی عادەتەوە، لە ڕووی خووەوە
 """),
 // With short examples define "habitually", please follow LX instructions
-// \b(habitually)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە لە کەسێک یان شتێک چاوەڕێ دەکرێت"""),

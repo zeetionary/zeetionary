@@ -985,7 +985,6 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "hailstone", please follow LX instructions
-// \b(hailstone)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تۆپەڵێکی بچووک لە بەفر کە وەک باران دەبارێت"""),

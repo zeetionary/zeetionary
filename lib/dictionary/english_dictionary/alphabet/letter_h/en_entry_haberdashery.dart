@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haberdashery)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێک کە کەرەستەی بچووکی دروومان دەفرۆشێت، بۆ نموونە دەرزی، بەکرە، دوگمە، هتد"""),

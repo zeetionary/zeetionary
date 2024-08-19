@@ -988,7 +988,6 @@ ${englishMeaningConst.text}
 کوردی: تووکن، پڕتووک، تووکاوی، تیسکن، موواوی، قژن، کوڵکن، تووک‌ئاسا، مووئاسا
 """),
 // With short examples define "hairy", please follow LX instructions
-// \b(hairy)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە قژ و مووی زۆری پێوەیە"""),
                     SentencesRow(

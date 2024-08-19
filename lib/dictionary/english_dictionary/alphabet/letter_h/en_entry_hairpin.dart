@@ -983,7 +983,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(hairpin)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە وایەرێکی چەماوە کە لە ناوەڕاستدا چەماوەتەوە و ژنان بەکاری دەهێنن بۆ ڕاگرتنی قژیان"""),

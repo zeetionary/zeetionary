@@ -988,7 +988,6 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "haircut", please follow LX instructions
-// \b(haircut)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کەسێک قژی ببڕێت لای کەسێکی دیکە"""),

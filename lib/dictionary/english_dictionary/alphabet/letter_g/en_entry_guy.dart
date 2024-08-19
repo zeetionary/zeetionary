@@ -997,7 +997,6 @@ Usage: UK
 کوردی: کابرا، پیاو، ئینسان، بنیادەم، مرۆ، هەڤاڵان، دەستە ڕفێق، دەستەی هاوەڵان
 """),
 // With short examples define "guy", please follow LX instructions
-// \b(guy)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(text: """١. (ناو) پیاوێک"""),
                     SentencesRow(
                       englishText: """The poor guy must have been terrified.""",

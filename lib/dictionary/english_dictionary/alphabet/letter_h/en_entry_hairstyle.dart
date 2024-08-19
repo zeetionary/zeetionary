@@ -985,7 +985,6 @@ ${englishMeaningConst.text}
 کوردی: شێوەی سەر، شێوازی قژ، جوان‌کردنی قژ، شێوازی ڕازاندنەوەی قژ 
 """),
 // With short examples define "hairstyle", please follow LX instructions
-// \b(hairstyle)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (ناو) شێوەی بڕین یان داهێنانی قژی کەسێک"""),
                     SentencesRow(

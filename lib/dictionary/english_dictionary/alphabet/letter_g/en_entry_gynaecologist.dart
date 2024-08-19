@@ -986,7 +986,6 @@ Usage: Brit, Cdn (US: gynecologist)
 کوردی: 
 """),
 // With short examples define "gynaecologist", please follow LX instructions
-// \b(gynaecologist)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پزیشکێک کە لێکۆڵینەوە لە نەخۆشییەکانی ژنان دەکات و چارەسەریان دەکات"""),

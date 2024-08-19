@@ -987,7 +987,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: ژنەجادووگەر، کۆلەوەنانی، دەڵەدێو، پیرێژنی ناحەز
 // """),
-// \b(hag)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (ناو) وشەیەکی ناشرین بۆ ژنێکی پیر"""),
                     SentencesRow(

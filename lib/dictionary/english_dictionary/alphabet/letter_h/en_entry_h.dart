@@ -994,8 +994,9 @@ Noun: H (Derived forms: Hs)
 کوردی: 
 """),
 // With short examples define "h", please follow LX instructions
-// \b(h)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) هەشتەم پیتی ئەلفوبێی زمانی ئینگلیزی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هەشتەم پیتی ئەلفوبێی زمانی ئینگلیزی"""),
                     SentencesRow(
                       englishText: """‘Hat’ begins with (an) H/‘H’.""",
                       kurdishText: """‘Hat’ بە H/‘H’ دەست پێدەکات.""",

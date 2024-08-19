@@ -986,10 +986,12 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مشار یان هەڕەی ئاسن‌بڕ، مشاری کەوانی، هەڕەی کەوانە، کەوانەهەڕە
 """),
-// \b(hacksaw)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ئامرازێک کە دەمێکی تیژی هەیە و بۆ بڕین بەکاردێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئامرازێک کە دەمێکی تیژی هەیە و بۆ بڕین بەکاردێت"""),
                     SentencesRow(
-                      englishText: """The hacksaw blade snapped under pressure.""",
+                      englishText:
+                          """The hacksaw blade snapped under pressure.""",
                       kurdishText: """دەمی هەڕەکە لەژێر پەستاندا شکا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
@@ -998,8 +1000,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He replaced the hacksaw blade with a new one.""",
-                      kurdishText: """دەمی هەڕەکەی بە دانەیەکی تازەتر گۆڕییەوە.""",
+                      englishText:
+                          """He replaced the hacksaw blade with a new one.""",
+                      kurdishText:
+                          """دەمی هەڕەکەی بە دانەیەکی تازەتر گۆڕییەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

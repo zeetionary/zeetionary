@@ -985,7 +985,6 @@ Usage: Brit, Cdn (US: hemorrhoid)
                     const KurdishVocabulary(text: """
 کوردی: مایەسیری، بێوەسیری، باوەسیری
 """),
-// \b(haemorrhoid)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) موولوولە خوێنەکانی دەوری کۆم کە ئاوساون و بەئازارن"""),

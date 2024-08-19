@@ -88,7 +88,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Police raided a gypsy camp early this morning.""");
+    await flutterTts
+        .speak("""Police raided a gypsy camp early this morning.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -987,11 +988,14 @@ ${englishMeaningConst.text}
 کوردی: کاولی، دۆم، قەجەر، نەوەر، جنگانە
 """),
 // With short examples define "gypsy", please follow LX instructions
-// \b(gypsy)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ئەندامێکی گرووپێکی کۆچبەری ئیتنیکی کە لە ڕەسەندا ئاسیایین، و زۆرجار بە ڕۆما یان ڕۆمانی ناودەهێندرێن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەندامێکی گرووپێکی کۆچبەری ئیتنیکی کە لە ڕەسەندا ئاسیایین، و زۆرجار بە ڕۆما یان ڕۆمانی ناودەهێندرێن"""),
                     SentencesRow(
-                      englishText: """Police raided a gypsy camp early this morning.""",
-                      kurdishText: """پۆلیس ئەم بەیانییە هەڵیکوتایە سەر کەمپێکی دۆمەکان.""",
+                      englishText:
+                          """Police raided a gypsy camp early this morning.""",
+                      kurdishText:
+                          """پۆلیس ئەم بەیانییە هەڵیکوتایە سەر کەمپێکی دۆمەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

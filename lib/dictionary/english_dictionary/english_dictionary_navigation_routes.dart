@@ -7677,7 +7677,8 @@ final Map<String, String> wordRoutes = {
   "green fingers": "/english-greenfingers", //// فففف green fingers",
   "greengrocer": "/english-greengrocer",
   "greenhouse": "/english-greenhouse",
-  "greenhouse effect": "/english-greenhouseeffect", //// فففف greenhouse effect",
+  "greenhouse effect":
+      "/english-greenhouseeffect", //// فففف greenhouse effect",
   "greenhouse gas": "/english-greenhousegas", //// فففف greenhouse gas",
   "greenness": "/english-greenness",
   "greenery": "/english-greenery",
@@ -7819,8 +7820,6 @@ final Map<String, String> wordRoutes = {
   "gyrate": "/english-gyrate",
   "gyration": "/english-gyration",
 
-
-
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -7895,7 +7894,7 @@ final Map<String, String> wordRoutes = {
   "hairpin turn": "/english-hairpin",
   "hairpin curve": "/english-hairpin",
   "hairpin bend": "/english-hairpin",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "hallo": "/english-hello",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",

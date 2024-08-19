@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
 کوردی: لێ‌مانەوە، لێ‌دانیشتن، نیشتەجێ‌بوون، گیرسانەوە، ژیوارکردن،	ماڵ، خانوو، شوێنی گیرسانەوە، ئەوڵەگا، پۆرگە
 """),
 // With short examples define "habitation", please follow LX instructions
-// \b(habitation)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) ژیانکردن لە شوێنێک"""),
                     SentencesRow(

@@ -10,7 +10,8 @@ class EnglishEntryhaemophilia extends StatefulWidget {
   const EnglishEntryhaemophilia({super.key});
 
   @override
-  State<EnglishEntryhaemophilia> createState() => _EnglishEntryhaemophiliaState();
+  State<EnglishEntryhaemophilia> createState() =>
+      _EnglishEntryhaemophiliaState();
 }
 
 class _EnglishEntryhaemophiliaState extends State<EnglishEntryhaemophilia> {
@@ -984,11 +985,14 @@ Usage: Brit, Cdn (US: hemophilia)
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haemophilia)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) دۆخێکی تەندرووستی کە دەبێتە هۆکاری لەدەستچوونی خوێنی زۆر تەنانەت بە برینێکی بچووک بەهۆی ئەوەی خوێن کڵۆ درووست ناکات، و زۆرجار تەنها تووشی پیاوان دەبێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دۆخێکی تەندرووستی کە دەبێتە هۆکاری لەدەستچوونی خوێنی زۆر تەنانەت بە برینێکی بچووک بەهۆی ئەوەی خوێن کڵۆ درووست ناکات، و زۆرجار تەنها تووشی پیاوان دەبێت"""),
                     SentencesRow(
-                      englishText: """Haemophilia can cause internal bleeding.""",
-                      kurdishText: """هیمۆفیلیا دەکرێت ببێتە هۆکاری خوێنبەربوونی ناوەکی.""",
+                      englishText:
+                          """Haemophilia can cause internal bleeding.""",
+                      kurdishText:
+                          """هیمۆفیلیا دەکرێت ببێتە هۆکاری خوێنبەربوونی ناوەکی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

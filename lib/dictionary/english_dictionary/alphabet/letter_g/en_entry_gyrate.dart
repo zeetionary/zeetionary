@@ -988,7 +988,6 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "gyrate", please follow LX instructions
-// \b(gyrate)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) جووڵان بە بازنەیی؛ واکردنی ئەوەی شتێک بە بازنەیەکدا بچووڵێت"""),

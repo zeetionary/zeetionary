@@ -85,7 +85,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Riders displayed their horsemanship skills in the gymkhana.""");
+    await flutterTts.speak(
+        """Riders displayed their horsemanship skills in the gymkhana.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -983,11 +984,14 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(gymkhana)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) بۆنەیەک کە تێیدا ئەسپسواران بەژداری لە ژمارەیەک ڕکابەری دەکەن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بۆنەیەک کە تێیدا ئەسپسواران بەژداری لە ژمارەیەک ڕکابەری دەکەن"""),
                     SentencesRow(
-                      englishText: """Riders displayed their horsemanship skills in the gymkhana.""",
-                      kurdishText: """سوارەکان توانای ئەسپسوارییان لە ڕکابەرییەکە پیشان دا.""",
+                      englishText:
+                          """Riders displayed their horsemanship skills in the gymkhana.""",
+                      kurdishText:
+                          """سوارەکان توانای ئەسپسوارییان لە ڕکابەرییەکە پیشان دا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

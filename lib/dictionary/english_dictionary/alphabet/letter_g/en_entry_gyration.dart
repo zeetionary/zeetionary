@@ -989,7 +989,6 @@ ${englishMeaningConst.text}
 کوردی: سووڕان، خولان، خولانەوە، چەرخین، دەورلێدان، گەڕان، چەرخ‌خواردن، گردوخول، سووڕخواردن، چەرخ
 """),
 // With short examples define "gyration", please follow LX instructions
-// \b(gyration)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (ناو) سووڕانەوە بە بازنەیی"""),
                     SentencesRow(

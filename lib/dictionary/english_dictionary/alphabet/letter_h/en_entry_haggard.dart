@@ -987,7 +987,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تێکچوو، ماندوو، شەکەت، قوپاو، پەککەوتوو، چاوبەقووڵاچوو، زەردوکز"""),
 // With short examples define "haggard", please follow LX instructions
-// \b(haggard)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زۆر ماندوو دیارە بەهۆی نەخۆشییەوە"""),

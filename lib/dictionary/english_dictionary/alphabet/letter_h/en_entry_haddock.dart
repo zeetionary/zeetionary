@@ -985,8 +985,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haddock)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
                     SentencesRow(
                       englishText: """Haddock is a good source of protein.""",
                       kurdishText: """هادۆک سەرچاوەی باشی پڕۆتینە.""",

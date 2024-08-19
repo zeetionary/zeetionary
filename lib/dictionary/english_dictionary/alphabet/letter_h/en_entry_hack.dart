@@ -1031,7 +1031,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(hack)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (کردار) لێدان و بڕینی کەسێک/شتێک"""),
                     SentencesRow(

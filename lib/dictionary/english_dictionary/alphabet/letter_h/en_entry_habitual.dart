@@ -100,7 +100,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Is habitual drunkenness considered to be grounds for divorce?""");
+    await flutterTts.speak(
+        """Is habitual drunkenness considered to be grounds for divorce?""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -985,8 +986,9 @@ ${englishMeaningConst.text}
 کوردی: ئاسایی، هەمیشەیی، عەدەتی،	گیرۆدە، ڕاهاتوو، عادەت‌کردوو، خدەگرتوو، فێر،	لە ڕووی عادەتەوە، واخووگرتوو، واڕاهاتوو
 """),
 // With short examples define "habitual", please follow LX instructions
-// \b(habitual)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە لە کەسێک یان شتێک چاوەڕێ دەکرێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە کەسێک یان شتێک چاوەڕێ دەکرێت"""),
                     SentencesRow(
                       englishText: """They waited for his habitual response.""",
                       kurdishText: """بۆ وەڵامدانەوە هەمیشەییەکەی وەستان.""",
@@ -1003,11 +1005,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کارێک کە زۆرجار بە شێوەیەک دەکرێت کە سەختە بوەستێندرێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کارێک کە زۆرجار بە شێوەیەک دەکرێت کە سەختە بوەستێندرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Is habitual drunkenness considered to be grounds for divorce?""",
-                      kurdishText: """ئایا سەرخۆشیی عادەتییانە بە هۆکارێکی باش دادەنرێت بۆ جیابوونەوە؟""",
+                      englishText:
+                          """Is habitual drunkenness considered to be grounds for divorce?""",
+                      kurdishText:
+                          """ئایا سەرخۆشیی عادەتییانە بە هۆکارێکی باش دادەنرێت بۆ جیابوونەوە؟""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1015,8 +1021,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He had been dismissed for habitual lateness.""",
-                      kurdishText: """دەرکرابوو (لە کارەکەی) بۆ دواکەوتنی عادەتیی.""",
+                      englishText:
+                          """He had been dismissed for habitual lateness.""",
+                      kurdishText:
+                          """دەرکرابوو (لە کارەکەی) بۆ دواکەوتنی عادەتیی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

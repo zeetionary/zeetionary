@@ -988,7 +988,6 @@ Usage: Brit, Cdn (US: gynecological)
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(gynaecological)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە توێژینەوە و چارەسەری زانستییانەی دۆخ و نەخۆشییەکانی ژنان"""),

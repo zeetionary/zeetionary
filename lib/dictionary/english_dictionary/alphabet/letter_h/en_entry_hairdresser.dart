@@ -986,7 +986,6 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "hairdresser", please follow LX instructions
-// \b(hairdresser)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە کاری بڕین و داهێنانی قژە"""),
                     SentencesRow(

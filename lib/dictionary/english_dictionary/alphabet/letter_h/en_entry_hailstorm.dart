@@ -984,7 +984,6 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "hailstorm", please follow LX instructions
-// \b(hailstorm)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (ناو) زریانێک کە تەرزەی لەگەڵە"""),
                     SentencesRow(

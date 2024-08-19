@@ -984,7 +984,6 @@ Usage: UK (=bobby pin)
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(hairgrip)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     const AlsoEnglishckb(
                         word: "ھەروەھا: grip، یان ئینگلیزیی ئەمریکی bobby pin"),

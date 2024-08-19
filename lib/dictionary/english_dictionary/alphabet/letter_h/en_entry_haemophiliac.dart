@@ -11,7 +11,8 @@ class EnglishEntryhaemophiliac extends StatefulWidget {
   const EnglishEntryhaemophiliac({super.key});
 
   @override
-  State<EnglishEntryhaemophiliac> createState() => _EnglishEntryhaemophiliacState();
+  State<EnglishEntryhaemophiliac> createState() =>
+      _EnglishEntryhaemophiliacState();
 }
 
 class _EnglishEntryhaemophiliacState extends State<EnglishEntryhaemophiliac> {
@@ -87,7 +88,8 @@ Usage: Brit, Cdn (US: hemophiliac)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Haemophiliacs face challenges in everyday life.""");
+    await flutterTts
+        .speak("""Haemophiliacs face challenges in everyday life.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -985,19 +987,21 @@ Usage: Brit, Cdn (US: hemophiliac)
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haemophiliac)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DividerDefinition(),
                     CustomRichText(
-                    textBeforeLink: "١. کەسێک کە تووشبووی ",
-                    linkText: "هیمۆفیلیایە",
-                    textAfterLink: "",
-                    onTap: () {
-                    Routemaster.of(context).push("/english-haemophiliac/haemophilia");
-                    },
+                      textBeforeLink: "١. کەسێک کە تووشبووی ",
+                      linkText: "هیمۆفیلیایە",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context)
+                            .push("/english-haemophiliac/haemophilia");
+                      },
                     ),
                     SentencesRow(
-                      englishText: """Haemophiliacs face challenges in everyday life.""",
-                      kurdishText: """کەسانی تووشبوو بە هیمۆفیلیا ڕووبەڕووی ئاڵەنگاری دەبنەوە لە ژیانی ڕۆژانەدا.""",
+                      englishText:
+                          """Haemophiliacs face challenges in everyday life.""",
+                      kurdishText:
+                          """کەسانی تووشبوو بە هیمۆفیلیا ڕووبەڕووی ئاڵەنگاری دەبنەوە لە ژیانی ڕۆژانەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

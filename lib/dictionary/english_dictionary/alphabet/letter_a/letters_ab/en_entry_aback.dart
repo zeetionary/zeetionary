@@ -31,7 +31,7 @@ import 'package:zeetionary/constants.dart';
 // \bdopsum1(s|ed|ing)?
 
 // \\b\(\w+\)\(s\|ed\|es\|ing\)\?\\b\(\?=\[\.!\?\]\?\)
-// \b(gum)(s|ed|es|ing)?\b(?=[.!?]?)
+// \b(dopsum1)(s|ed|es|ing)?\b(?=[.!?]?)
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,

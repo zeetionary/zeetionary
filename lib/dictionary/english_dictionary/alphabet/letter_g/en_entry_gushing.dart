@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
 کوردی: لە هەڵقوڵین‌دا، هەڵقوڵیو، لە کفەدا، ڕوولە هەڵچوون، لە فیشقە(کردن)دا،	بەگوڕ، بەجۆش، بەتاو، بەتین
 """),
 // With short examples define "gushing", please follow LX instructions
-// \b(gushing)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) دەربڕینی جۆش‌وخرۆشی، هەستو و سۆز، و ستایشی زۆر کە لە دڵەوە نییە"""),

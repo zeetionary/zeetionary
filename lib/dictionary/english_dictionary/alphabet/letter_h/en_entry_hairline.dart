@@ -987,7 +987,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(hairline)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) قەراغی قژی کەسێک، بە تایبەتی لە پێشەوە"""),

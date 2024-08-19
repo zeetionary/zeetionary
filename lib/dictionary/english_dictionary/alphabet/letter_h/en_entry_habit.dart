@@ -115,14 +115,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The strategy is helping children develop the habit of reading for fun.""");
+    await flutterTts.speak(
+        """The strategy is helping children develop the habit of reading for fun.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""It's all right to borrow money occasionally, but don't let it become a habit.""");
+    await flutterTts.speak(
+        """It's all right to borrow money occasionally, but don't let it become a habit.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -136,21 +138,24 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm trying to break the habit of staying up too late.""");
+    await flutterTts
+        .speak("""I'm trying to break the habit of staying up too late.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm not in the habit of letting strangers into my apartment.""");
+    await flutterTts.speak(
+        """I'm not in the habit of letting strangers into my apartment.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I've got into the habit of turning on the TV as soon as I get home.""");
+    await flutterTts.speak(
+        """I've got into the habit of turning on the TV as soon as I get home.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -178,14 +183,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Much of what we do in daily life is done by habit.""");
+    await flutterTts
+        .speak("""Much of what we do in daily life is done by habit.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He began to finance his habit through burglary.""");
+    await flutterTts
+        .speak("""He began to finance his habit through burglary.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
@@ -1000,8 +1007,9 @@ ${englishMeaningConst.text}
 کوردی: خوو، پیشە، عادەت،	دەستوور، ڕەوشت، هەڵس‌وکەوتی هەمیشەیی، سان، داب، کەڤنەشۆپ، ڕێ‌وشوێن،	گیرۆدەیی، ئالوودەیی، فێربوون،	عابا، باڵاپۆش، خەرقە
 """),
 // With short examples define "habit", please follow LX instructions
-// \b(habit)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) شتێک کە زۆرجار دەیکەیت بەبێ بیرکردنەوە، و ئاسان نییە بوەستیت لە کردنی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شتێک کە زۆرجار دەیکەیت بەبێ بیرکردنەوە، و ئاسان نییە بوەستیت لە کردنی"""),
                     SentencesRow(
                       englishText: """You need to change your eating habits.""",
                       kurdishText: """دەبێت خووەکانی نانخواردنت بگۆڕیت.""",
@@ -1009,93 +1017,119 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     Column(
-                    children: [
-                    MyExpansionTile(
-                    children: [
-                    SentencesRow(
-                      englishText: """Most of us have some undesirable habits.""",
-                      kurdishText: """زۆرینەمان هەندێک خووی بزێومان هەیە.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText:
+                                  """Most of us have some undesirable habits.""",
+                              kurdishText:
+                                  """زۆرینەمان هەندێک خووی بزێومان هەیە.""",
+                              onPressedBritish: () => speaksentence2("en-GB"),
+                              onPressedAmerican: () => speaksentence2("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The strategy is helping children develop the habit of reading for fun.""",
+                              kurdishText:
+                                  """ستراتیژییەکە یارمەتیدانی منداڵانە کە گەشە بە خوێندنەوە بۆ خۆشی بدەن.""",
+                              onPressedBritish: () => speaksentence3("en-GB"),
+                              onPressedAmerican: () => speaksentence3("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """It's all right to borrow money occasionally, but don't let it become a habit.""",
+                              kurdishText:
+                                  """ئاساییە جاروبار پارە بە قەرز وەربگریت، بەڵام مەهێڵە ببێت بە خوو.""",
+                              onPressedBritish: () => speaksentence4("en-GB"),
+                              onPressedAmerican: () => speaksentence4("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I'd prefer you not to make a habit of it.""",
+                              kurdishText:
+                                  """وام باشە بۆت ئەوە نەکەیت بە خوو.""",
+                              onPressedBritish: () => speaksentence5("en-GB"),
+                              onPressedAmerican: () => speaksentence5("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I'm trying to break the habit of staying up too late.""",
+                              kurdishText:
+                                  """هەوڵ ئەدەم خووی بێداربوون تا درەنگانی شەو نەهێڵم.""",
+                              onPressedBritish: () => speaksentence6("en-GB"),
+                              onPressedAmerican: () => speaksentence6("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I'm not in the habit of letting strangers into my apartment.""",
+                              kurdishText:
+                                  """ئەو خووەم نییە کەسانی نامۆ بهێنمە ناو ژوورەکەمەوە.""",
+                              onPressedBritish: () => speaksentence7("en-GB"),
+                              onPressedAmerican: () => speaksentence7("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I've got into the habit of turning on the TV as soon as I get home.""",
+                              kurdishText:
+                                  """دەستم بەو خووە کردووە کە تەلەفیزیۆنەکە بکەمەوە هەرکە دەگەمە ماڵەوە.""",
+                              onPressedBritish: () => speaksentence8("en-GB"),
+                              onPressedAmerican: () => speaksentence8("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """She has some very annoying habits.""",
+                              kurdishText: """ژمارەیەک خووی بێزارکەری هەیە.""",
+                              onPressedBritish: () => speaksentence9("en-GB"),
+                              onPressedAmerican: () => speaksentence9("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I got out of the habit of getting up early.""",
+                              kurdishText:
+                                  """ئەو خووەم نەما کە زوو لە خەو هەڵبستم.""",
+                              onPressedBritish: () => speaksentence10("en-GB"),
+                              onPressedAmerican: () => speaksentence10("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The strategy is helping children develop the habit of reading for fun.""",
-                      kurdishText: """ستراتیژییەکە یارمەتیدانی منداڵانە کە گەشە بە خوێندنەوە بۆ خۆشی بدەن.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """It's all right to borrow money occasionally, but don't let it become a habit.""",
-                      kurdishText: """ئاساییە جاروبار پارە بە قەرز وەربگریت، بەڵام مەهێڵە ببێت بە خوو.""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
-                      onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """I'd prefer you not to make a habit of it.""",
-                      kurdishText: """وام باشە بۆت ئەوە نەکەیت بە خوو.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
-                      onPressedAmerican: () => speaksentence5("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """I'm trying to break the habit of staying up too late.""",
-                      kurdishText: """هەوڵ ئەدەم خووی بێداربوون تا درەنگانی شەو نەهێڵم.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """I'm not in the habit of letting strangers into my apartment.""",
-                      kurdishText: """ئەو خووەم نییە کەسانی نامۆ بهێنمە ناو ژوورەکەمەوە.""",
-                      onPressedBritish: () => speaksentence7("en-GB"),
-                      onPressedAmerican: () => speaksentence7("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """I've got into the habit of turning on the TV as soon as I get home.""",
-                      kurdishText: """دەستم بەو خووە کردووە کە تەلەفیزیۆنەکە بکەمەوە هەرکە دەگەمە ماڵەوە.""",
-                      onPressedBritish: () => speaksentence8("en-GB"),
-                      onPressedAmerican: () => speaksentence8("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """She has some very annoying habits.""",
-                      kurdishText: """ژمارەیەک خووی بێزارکەری هەیە.""",
-                      onPressedBritish: () => speaksentence9("en-GB"),
-                      onPressedAmerican: () => speaksentence9("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """I got out of the habit of getting up early.""",
-                      kurdishText: """ئەو خووەم نەما کە زوو لە خەو هەڵبستم.""",
-                      onPressedBritish: () => speaksentence10("en-GB"),
-                      onPressedAmerican: () => speaksentence10("en-US"),
-                    ),
-                    ],
-                    ),
-                    ],
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) ڕەفتاری هەمیشەیی"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) ڕەفتاری هەمیشەیی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I only do it out of habit.""",
@@ -1107,17 +1141,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Much of what we do in daily life is done by habit.""",
-                      kurdishText: """زۆرینەی ئەوەی لە ژیانی ڕۆژانەمان دەیکەین تەنها لە عادەتە.""",
+                      englishText:
+                          """Much of what we do in daily life is done by habit.""",
+                      kurdishText:
+                          """زۆرینەی ئەوەی لە ژیانی ڕۆژانەمان دەیکەین تەنها لە عادەتە.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ناو) پێویستی ئەوەی کە بەردەوام مادەی هۆشبەر، مادەی کحوولی، یان جگەرە بەکاربهێنیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) پێویستی ئەوەی کە بەردەوام مادەی هۆشبەر، مادەی کحوولی، یان جگەرە بەکاربهێنیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He began to finance his habit through burglary.""",
-                      kurdishText: """دەستی کرد بەوەی پارەی ئاڵوودەییەکەی بە دزی پەیدا بکات.""",
+                      englishText:
+                          """He began to finance his habit through burglary.""",
+                      kurdishText:
+                          """دەستی کرد بەوەی پارەی ئاڵوودەییەکەی بە دزی پەیدا بکات.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),

@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(hacker)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە دەچێتە ناو زانیاریی کۆمپیوتەری کەسێکی دیکە بەبێ مۆڵەت"""),

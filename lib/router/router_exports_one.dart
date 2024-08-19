@@ -4926,20 +4926,20 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_hairstyle.dart' show EnglishEntryhairstyle
 // en_entry_hairy.dart' show EnglishEntryhairy
 // en_entry_hairiness.dart' show EnglishEntryhairiness
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_half.dart' show EnglishEntryhalf
+// en_entry_half_and_half.dart' show EnglishEntryhalfandhalf //// ffff half-and-half
+// en_entry_half_board.dart' show EnglishEntryhalfboard //// ffff half board
+// en_entry_half_term.dart' show EnglishEntryhalfterm //// فففف half-term
+// en_entry_half_time.dart' show EnglishEntryhalftime //// half-time
+// en_entry_halfway.dart' show EnglishEntryhalfway
+// en_entry_halfwit.dart' show EnglishEntryhalfwit
+// en_entry_half_witted.dart' show EnglishEntryhalfwitted //// فففف half-witted
+// en_entry_half_baked.dart' show EnglishEntryhalfbaked //// ffff half-baked
+// en_entry_half_hearted.dart' show EnglishEntryhalfhearted //// فففف half-hearted
+// en_entry_hall.dart' show EnglishEntryhall
+// en_entry_hallmark.dart' show EnglishEntryhallmark
+// en_entry_halloween.dart' show EnglishEntryhalloween //// ffff Halloween
+// en_entry_hallucination.dart' show EnglishEntryhallucination
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

@@ -986,20 +986,26 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "gym", please follow LX instructions
-// \b(gym)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ژوور یان هۆڵێک بۆ ئەنجامدانی ڕاهێنانی جەستەیی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ژوور یان هۆڵێک بۆ ئەنجامدانی ڕاهێنانی جەستەیی"""),
                     SentencesRow(
-                      englishText: """The school has recently built a new gym.""",
-                      kurdishText: """قوتابخانەکە تازەگی جیمێکی تازەی درووستکردووە.""",
+                      englishText:
+                          """The school has recently built a new gym.""",
+                      kurdishText:
+                          """قوتابخانەکە تازەگی جیمێکی تازەی درووستکردووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) شوێنێکی تایبەت بۆ ڕاهێنانی جەستەیی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شوێنێکی تایبەت بۆ ڕاهێنانی جەستەیی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I work out at the gym most days.""",
-                      kurdishText: """زۆرینەی ڕۆژەکان لە جیمەکە ڕاهێنان دەکەم.""",
+                      kurdishText:
+                          """زۆرینەی ڕۆژەکان لە جیمەکە ڕاهێنان دەکەم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1007,13 +1013,16 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I hit the gym at 6.00 again this morning.""",
-                      kurdishText: """ئەم بەیانییە دووىارە لە ٦ دەچمەوە جیمەکە.""",
+                      englishText:
+                          """I hit the gym at 6.00 again this morning.""",
+                      kurdishText:
+                          """ئەم بەیانییە دووىارە لە ٦ دەچمەوە جیمەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ناو) ڕاهێنانی جەستەیی لە جیمدا"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) ڕاهێنانی جەستەیی لە جیمدا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I don't enjoy gym.""",

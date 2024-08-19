@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "gymnastic", please follow LX instructions
-// \b(gymnastic)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DividerDefinition(),
                     CustomRichText(
                       textBeforeLink: "١. پەیوەندیدار بە ",

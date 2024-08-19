@@ -986,7 +986,6 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "guzzle", please follow LX instructions
-// \b(guzzle)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خواردنەوەی شتێک (لە بەریتانیا خواردنیش) بە خێرایی و بە ڕێژەیەکی زۆر"""),

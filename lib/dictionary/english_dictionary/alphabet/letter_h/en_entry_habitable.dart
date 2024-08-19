@@ -987,7 +987,6 @@ ${englishMeaningConst.text}
 کوردی: ژیان‌لێ‌کراو، لەنیشتەجێ‌هاتوو، جێی‌ژیوار، شیاوی لێ‌مانەوە، لەدانیشتن‌هاتوو، ژیانی لێ‌دەکرێ، بۆ دانیشتن دەبێ، بۆ گیرسانەوە دەبێ
 """),
 // With short examples define "habitable", please follow LX instructions
-// \b(habitable)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە گونجاوە بۆ ژیانی مرۆڤ تێیدا"""),

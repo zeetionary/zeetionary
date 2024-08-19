@@ -989,7 +989,6 @@ ${englishMeaningConst.text}
 کوردی: ڕەشەبا، بای توند، بای قایم، هەڵکردنی بای توند یان ڕەشەبا،	ڕەهێڵە، ڕێژنە، بارینی بە خوڕەم،	(ئاور، دووکەڵ و هتد) گڕکێشان، کڵپەکردن،	(خوازە) هەڵچوون، تەقینەوەی هەست و سۆز
 """),
 // With short examples define "gust", please follow LX instructions
-// \b(gust)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زیادبوونی لەناکاوی بڕ یان خێرایی با"""),

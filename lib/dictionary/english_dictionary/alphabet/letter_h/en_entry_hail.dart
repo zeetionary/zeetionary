@@ -1007,7 +1007,6 @@ ${englishMeaningConst.text}
 کوردی: تەرزە، تەیرۆک، گلێرە، خڕخڕۆک،	(خوازە) ڕێژنە، ڕەهێڵە، لێشاو، لۆدە
 """),
 // With short examples define "hail", please follow LX instructions
-// \b(hail)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بۆ باسکردنی کەسێک/شتێک و ئەوەی کە زۆر باش بێت"""),

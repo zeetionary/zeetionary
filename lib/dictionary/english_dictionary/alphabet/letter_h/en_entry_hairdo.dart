@@ -987,7 +987,6 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(hairdo)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (ناو) شێوەی بڕینی قژی کەسێک"""),
                     SentencesRow(

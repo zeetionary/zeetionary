@@ -985,14 +985,13 @@ ${englishMeaningConst.text}
 // کوردی: مووئاسایی، تووک‌ئاسایی، لە قژچوویی
 // """),
 // With short examples define "hairiness", please follow LX instructions
-// \b(hairiness)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی شتێک بە موو داپۆشرابێت"""),
                     SentencesRow(
                       englishText:
                           """She was a small woman with excessive facial hairiness.""",
                       kurdishText:
-                          """ژنێکی بچووک بوو بە تووکنی ڕووخساری زۆرەوە.""",
+                          """ژنێکی بچووک بوو بە تووکنیی زۆری ڕووخسارەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

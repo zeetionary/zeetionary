@@ -989,7 +989,6 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "haggle", please follow LX instructions
-// \b(haggle)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) مشتومڕکردن لەگەڵ کەسێک بۆ گەشتن بە ڕێکەوتن، بە تایبەتی لەسەر نرخی شتێک"""),

@@ -987,7 +987,6 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "gymnast", please follow LX instructions
-// \b(gymnast)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DividerDefinition(),
                     CustomRichText(
                       textBeforeLink: "١. کەسێک کە کاری ",

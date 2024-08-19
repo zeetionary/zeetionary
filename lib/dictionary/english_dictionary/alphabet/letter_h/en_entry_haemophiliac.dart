@@ -3,17 +3,18 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:routemaster/routemaster.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhaddock extends StatefulWidget {
-  const EnglishEntryhaddock({super.key});
+class EnglishEntryhaemophiliac extends StatefulWidget {
+  const EnglishEntryhaemophiliac({super.key});
 
   @override
-  State<EnglishEntryhaddock> createState() => _EnglishEntryhaddockState();
+  State<EnglishEntryhaemophiliac> createState() => _EnglishEntryhaemophiliacState();
 }
 
-class _EnglishEntryhaddockState extends State<EnglishEntryhaddock> {
+class _EnglishEntryhaemophiliacState extends State<EnglishEntryhaemophiliac> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +54,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: haddock (Derived forms: haddock, haddocks)
-1. Lean white flesh of fish similar to but smaller than cod; usually baked or poached or as fillets sautéed or fried
- 
-2. Important food fish on both sides of the Atlantic; related to cod but usually smaller (- Melanogrammus aeglefinus)
+- Noun: haemophiliac (Derived forms: haemophiliacs)
+Usage: Brit, Cdn (US: hemophiliac)
+1. Someone who has haemophilia and is subject to uncontrollable bleeding (- hemophiliac [N. Amer], bleeder, hemophile [N. Amer], haemophile [Brit, Cdn])
 """,
   );
 
-  final String keyword = "haddock";
+  final String keyword = "haemophiliac";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,14 +80,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""haddock""");
+    await flutterTts.speak("""haemophiliac""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Haddock is a good source of protein.""");
+    await flutterTts.speak("""Haemophiliacs face challenges in everyday life.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -939,10 +939,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """haddock""",
-                      // alsoEnglishWord: "also: haddock",
-                      britshText: """IpaUK: /ˈhædək/""",
-                      americanText: """IpaUS: /ˈhædək/""",
+                      word: """haemophiliac""",
+                      // alsoEnglishWord: "also: haemophiliac",
+                      britshText: """IpaUK: /ˌhiːməˈfɪliæk/""",
+                      americanText: """IpaUS: /ˌhiːməˈfɪliæk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -985,11 +985,19 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haddock)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
+// \b(haemophiliac)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DividerDefinition(),
+                    CustomRichText(
+                    textBeforeLink: "١. کەسێک کە تووشبووی ",
+                    linkText: "هیمۆفیلیایە",
+                    textAfterLink: "",
+                    onTap: () {
+                    Routemaster.of(context).push("/english-haemophiliac/haemophilia");
+                    },
+                    ),
                     SentencesRow(
-                      englishText: """Haddock is a good source of protein.""",
-                      kurdishText: """هادۆک سەرچاوەی باشی پڕۆتینە.""",
+                      englishText: """Haemophiliacs face challenges in everyday life.""",
+                      kurdishText: """کەسانی تووشبوو بە هیمۆفیلیا ڕووبەڕووی ئاڵەنگاری دەبنەوە لە ژیانی ڕۆژانەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2132,18 +2140,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/KObL442PWhQ?t=';
-const double _startSecondsend = 000000000000000000000000000233;
-const String _videoIdone = 'https://youtu.be/ishwT92D8Ec?t=';
-const double _startSecondsone = 000000000000000000000000000146;
-const String _videoIdtwo = 'https://youtu.be/A_uyT6UEBFs?t=';
-const double _startSecondstwo = 000000000000000000000000000817;
-const String _videoIdthree = 'https://youtu.be/JgA6GWAtIAo?t=';
-const double _startSecondsthree = 000000000000000000000000000466;
-const String _videoIdfour = 'https://youtu.be/CYEFR_kg6Us?t=';
-const double _startSecondsfour = 00000000000000000000000000016;
-const String _videoIdfive = 'https://youtu.be/ZWmp3a_lQBc?t=';
-const double _startSecondsfive = 000000000000000000000000000919;
+const String _videoIdend = 'https://youtu.be/JyxNKJ9ypcw?t=';
+const double _startSecondsend = 000000000000000000000000000322;
+const String _videoIdone = 'https://youtu.be/MvVeyetd334?t=';
+const double _startSecondsone = 0000000000000000000000000001432;
+const String _videoIdtwo = 'https://youtu.be/xiHzyTcxsOo?t=';
+const double _startSecondstwo = 00000000000000000000000000033;
+const String _videoIdthree = 'https://youtu.be/2SE1SWashuU?t=';
+const double _startSecondsthree = 00000000000000000000000000034;
+const String _videoIdfour = 'https://youtu.be/fnqMq-QCJEo?t=';
+const double _startSecondsfour = 000000000000000000000000000501;
+const String _videoIdfive = 'https://youtu.be/KV7cuH7vJ9Q?t=';
+const double _startSecondsfive = 000000000000000000000000000190;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

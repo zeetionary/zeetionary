@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhaddock extends StatefulWidget {
-  const EnglishEntryhaddock({super.key});
+class EnglishEntryhaemophilia extends StatefulWidget {
+  const EnglishEntryhaemophilia({super.key});
 
   @override
-  State<EnglishEntryhaddock> createState() => _EnglishEntryhaddockState();
+  State<EnglishEntryhaemophilia> createState() => _EnglishEntryhaemophiliaState();
 }
 
-class _EnglishEntryhaddockState extends State<EnglishEntryhaddock> {
+class _EnglishEntryhaemophiliaState extends State<EnglishEntryhaemophilia> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: haddock (Derived forms: haddock, haddocks)
-1. Lean white flesh of fish similar to but smaller than cod; usually baked or poached or as fillets sautéed or fried
- 
-2. Important food fish on both sides of the Atlantic; related to cod but usually smaller (- Melanogrammus aeglefinus)
+- Noun: haemophilia (Derived forms: haemophilias)
+Usage: Brit, Cdn (US: hemophilia)
+1. Congenital tendency to uncontrolled bleeding; usually affects males and is transmitted from mother to son (- hemophilia [N. Amer], bleeder's disease)
 """,
   );
 
-  final String keyword = "haddock";
+  final String keyword = "haemophilia";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,14 +79,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""haddock""");
+    await flutterTts.speak("""haemophilia""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Haddock is a good source of protein.""");
+    await flutterTts.speak("""Haemophilia can cause internal bleeding.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -939,10 +938,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """haddock""",
-                      // alsoEnglishWord: "also: haddock",
-                      britshText: """IpaUK: /ˈhædək/""",
-                      americanText: """IpaUS: /ˈhædək/""",
+                      word: """haemophilia""",
+                      // alsoEnglishWord: "also: haemophilia",
+                      britshText: """IpaUK: /ˌhiːməˈfɪliə/""",
+                      americanText: """IpaUS: /ˌhiːməˈfɪliə/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -985,11 +984,11 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haddock)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
+// \b(haemophilia)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(text: """١. (ناو) دۆخێکی تەندرووستی کە دەبێتە هۆکاری لەدەستچوونی خوێنی زۆر تەنانەت بە برینێکی بچووک بەهۆی ئەوەی خوێن کڵۆ درووست ناکات، و زۆرجار تەنها تووشی پیاوان دەبێت"""),
                     SentencesRow(
-                      englishText: """Haddock is a good source of protein.""",
-                      kurdishText: """هادۆک سەرچاوەی باشی پڕۆتینە.""",
+                      englishText: """Haemophilia can cause internal bleeding.""",
+                      kurdishText: """هیمۆفیلیا دەکرێت ببێتە هۆکاری خوێنبەربوونی ناوەکی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2132,18 +2131,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/KObL442PWhQ?t=';
-const double _startSecondsend = 000000000000000000000000000233;
-const String _videoIdone = 'https://youtu.be/ishwT92D8Ec?t=';
-const double _startSecondsone = 000000000000000000000000000146;
-const String _videoIdtwo = 'https://youtu.be/A_uyT6UEBFs?t=';
-const double _startSecondstwo = 000000000000000000000000000817;
-const String _videoIdthree = 'https://youtu.be/JgA6GWAtIAo?t=';
-const double _startSecondsthree = 000000000000000000000000000466;
-const String _videoIdfour = 'https://youtu.be/CYEFR_kg6Us?t=';
-const double _startSecondsfour = 00000000000000000000000000016;
-const String _videoIdfive = 'https://youtu.be/ZWmp3a_lQBc?t=';
-const double _startSecondsfive = 000000000000000000000000000919;
+const String _videoIdend = 'https://youtu.be/Cqbleas1mmo?t=';
+const double _startSecondsend = 0000000000000000000000000001159;
+const String _videoIdone = 'https://youtu.be/NZOHQwzA0bM?t=';
+const double _startSecondsone = 000000000000000000000000000392;
+const String _videoIdtwo = 'https://youtu.be/_FRXE1L_PbI?t=';
+const double _startSecondstwo = 000000000000000000000000000689;
+const String _videoIdthree = 'https://youtu.be/79O9WD6Hi5g?t=';
+const double _startSecondsthree = 00000000000000000000000000028;
+const String _videoIdfour = 'https://youtu.be/HYfQYJlgmUc?t=';
+const double _startSecondsfour = 0000000000000000000000000001755;
+const String _videoIdfive = 'https://youtu.be/fKQlBGu1sFU?t=';
+const double _startSecondsfive = 000000000000000000000000000347;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

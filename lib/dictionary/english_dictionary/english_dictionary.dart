@@ -349,6 +349,7 @@ class _DictionaryScreenEnglishState
     input = input.replaceAll('ce', 'se');
     input = input.replaceAll('sation', 'zation');
     input = input.replaceAll('amme', 'am');
+    input = input.replaceAll('haem', 'hem');
     input = input.replaceAll('mme', 'm');
     input = input.replaceAll('ogue', 'og');
     input = input.replaceAll('llery', 'lry');
@@ -539,8 +540,10 @@ class _DictionaryScreenEnglishState
                           ),
                           child: Icon(
                             isFilterExpanded
-                                ? Icons.arrow_drop_up
-                                : Icons.arrow_drop_down,
+                                ? Icons.topic_outlined
+                                : Icons.topic_outlined,
+                            // ? Icons.arrow_drop_up
+                            // : Icons.arrow_drop_down,
                             size: textSize + 5,
                           ),
                         ),

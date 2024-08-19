@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhaddock extends StatefulWidget {
-  const EnglishEntryhaddock({super.key});
+class EnglishEntryhairgrip extends StatefulWidget {
+  const EnglishEntryhairgrip({super.key});
 
   @override
-  State<EnglishEntryhaddock> createState() => _EnglishEntryhaddockState();
+  State<EnglishEntryhairgrip> createState() => _EnglishEntryhairgripState();
 }
 
-class _EnglishEntryhaddockState extends State<EnglishEntryhaddock> {
+class _EnglishEntryhairgripState extends State<EnglishEntryhairgrip> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: haddock (Derived forms: haddock, haddocks)
-1. Lean white flesh of fish similar to but smaller than cod; usually baked or poached or as fillets sautéed or fried
- 
-2. Important food fish on both sides of the Atlantic; related to cod but usually smaller (- Melanogrammus aeglefinus)
+- Noun: hairgrip (Derived forms: hairgrips)
+Usage: UK (=bobby pin)
+1. A flat wire hairpin whose prongs press tightly together; used to hold bobbed hair in place (- bobby pin [N. Amer, Austral, NZ], grip)
 """,
   );
 
-  final String keyword = "haddock";
+  final String keyword = "hairgrip";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,14 +79,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""haddock""");
+    await flutterTts.speak("""hairgrip""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Haddock is a good source of protein.""");
+    await flutterTts.speak("""She used a hairgrip to secure her ponytail.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -939,10 +938,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """haddock""",
-                      // alsoEnglishWord: "also: haddock",
-                      britshText: """IpaUK: /ˈhædək/""",
-                      americanText: """IpaUS: /ˈhædək/""",
+                      word: """hairgrip""",
+                      // alsoEnglishWord: "also: hairgrip",
+                      britshText: """IpaUK: /ˈheəɡrɪp/""",
+                      americanText: """IpaUS: /ˈherɡrɪp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -985,11 +984,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haddock)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
+// \b(hairgrip)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const AlsoEnglishckb(
+                        word: "ھەروەھا: grip، یان ئینگلیزیی ئەمریکی bobby pin"),
                     SentencesRow(
-                      englishText: """Haddock is a good source of protein.""",
-                      kurdishText: """هادۆک سەرچاوەی باشی پڕۆتینە.""",
+                      englishText:
+                          """She used a hairgrip to secure her ponytail.""",
+                      kurdishText:
+                          """ماشەیەکی بەکارهێنا بۆ ڕاگرتنی پەلکەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2132,18 +2135,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/KObL442PWhQ?t=';
-const double _startSecondsend = 000000000000000000000000000233;
-const String _videoIdone = 'https://youtu.be/ishwT92D8Ec?t=';
-const double _startSecondsone = 000000000000000000000000000146;
-const String _videoIdtwo = 'https://youtu.be/A_uyT6UEBFs?t=';
-const double _startSecondstwo = 000000000000000000000000000817;
-const String _videoIdthree = 'https://youtu.be/JgA6GWAtIAo?t=';
-const double _startSecondsthree = 000000000000000000000000000466;
-const String _videoIdfour = 'https://youtu.be/CYEFR_kg6Us?t=';
-const double _startSecondsfour = 00000000000000000000000000016;
-const String _videoIdfive = 'https://youtu.be/ZWmp3a_lQBc?t=';
-const double _startSecondsfive = 000000000000000000000000000919;
+const String _videoIdend = 'https://youtu.be/dGp0771vy6A?t=';
+const double _startSecondsend = 000000000000000000000000000269;
+const String _videoIdone = 'https://youtu.be/onQz-zEV5yY?t=';
+const double _startSecondsone = 000000000000000000000000000340;
+const String _videoIdtwo = 'https://youtu.be/m8MuJ8sPQoE?t=';
+const double _startSecondstwo = 00000000000000000000000000089;
+const String _videoIdthree = 'https://youtu.be/IKOVNtA2D4Q?t=';
+const double _startSecondsthree = 000000000000000000000000000685;
+const String _videoIdfour = 'https://youtu.be/HRpyA1E7H3I?t=';
+const double _startSecondsfour = 000000000000000000000000000780;
+const String _videoIdfive = 'https://youtu.be/HAnmRjGcWSM?t=';
+const double _startSecondsfive = 000000000000000000000000000392;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

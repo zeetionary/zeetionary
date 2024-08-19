@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhaddock extends StatefulWidget {
-  const EnglishEntryhaddock({super.key});
+class EnglishEntryhaggard extends StatefulWidget {
+  const EnglishEntryhaggard({super.key});
 
   @override
-  State<EnglishEntryhaddock> createState() => _EnglishEntryhaddockState();
+  State<EnglishEntryhaggard> createState() => _EnglishEntryhaggardState();
 }
 
-class _EnglishEntryhaddockState extends State<EnglishEntryhaddock> {
+class _EnglishEntryhaggardState extends State<EnglishEntryhaggard> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: haddock (Derived forms: haddock, haddocks)
-1. Lean white flesh of fish similar to but smaller than cod; usually baked or poached or as fillets sautéed or fried
+- Adjective: haggard
+1. Showing the wearing effects of overwork, care or suffering (- careworn, drawn, raddled, worn)
+"her face was drawn and haggard from sleeplessness";
  
-2. Important food fish on both sides of the Atlantic; related to cod but usually smaller (- Melanogrammus aeglefinus)
+2. Very thin especially from disease, hunger or cold (- cadaverous, emaciated, gaunt, pinched, skeletal, wasted)
+"eyes were haggard and cavernous";
 """,
   );
 
-  final String keyword = "haddock";
+  final String keyword = "haggard";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,14 +82,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""haddock""");
+    await flutterTts.speak("""haggard""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Haddock is a good source of protein.""");
+    await flutterTts.speak("""He looked pale and haggard.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -939,10 +941,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """haddock""",
-                      // alsoEnglishWord: "also: haddock",
-                      britshText: """IpaUK: /ˈhædək/""",
-                      americanText: """IpaUS: /ˈhædək/""",
+                      word: """haggard""",
+                      // alsoEnglishWord: "also: haggard",
+                      britshText: """IpaUK: /ˈhæɡəd/""",
+                      americanText: """IpaUS: /ˈhæɡərd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -983,13 +985,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// \b(haddock)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
+کوردی: تێکچوو، ماندوو، شەکەت، قوپاو، پەککەوتوو، چاوبەقووڵاچوو، زەردوکز"""),
+// With short examples define "haggard", please follow LX instructions
+// \b(haggard)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە زۆر ماندوو دیارە بەهۆی نەخۆشییەوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: drawn"),
                     SentencesRow(
-                      englishText: """Haddock is a good source of protein.""",
-                      kurdishText: """هادۆک سەرچاوەی باشی پڕۆتینە.""",
+                      englishText: """He looked pale and haggard.""",
+                      kurdishText: """ڕەنگپەڕیو و شەکەت دیاربوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2132,18 +2137,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/KObL442PWhQ?t=';
-const double _startSecondsend = 000000000000000000000000000233;
-const String _videoIdone = 'https://youtu.be/ishwT92D8Ec?t=';
-const double _startSecondsone = 000000000000000000000000000146;
-const String _videoIdtwo = 'https://youtu.be/A_uyT6UEBFs?t=';
-const double _startSecondstwo = 000000000000000000000000000817;
-const String _videoIdthree = 'https://youtu.be/JgA6GWAtIAo?t=';
-const double _startSecondsthree = 000000000000000000000000000466;
-const String _videoIdfour = 'https://youtu.be/CYEFR_kg6Us?t=';
-const double _startSecondsfour = 00000000000000000000000000016;
-const String _videoIdfive = 'https://youtu.be/ZWmp3a_lQBc?t=';
-const double _startSecondsfive = 000000000000000000000000000919;
+const String _videoIdend = 'https://youtu.be/Sxdk_q7AdTo?t=';
+const double _startSecondsend = 000000000000000000000000000611;
+const String _videoIdone = 'https://youtu.be/Gtjfvcqw0pI?t=';
+const double _startSecondsone = 000000000000000000000000000537;
+const String _videoIdtwo = 'https://youtu.be/HZq_HjKCRB4?t=';
+const double _startSecondstwo = 000000000000000000000000000348;
+const String _videoIdthree = 'https://youtu.be/hfMsvYROjpM?t=';
+const double _startSecondsthree = 0000000000000000000000000001022;
+const String _videoIdfour = 'https://youtu.be/VL0cscPoPiw?t=';
+const double _startSecondsfour = 0000000000000000000000000001626;
+const String _videoIdfive = 'https://youtu.be/KqfcpNrcGb0?t=';
+const double _startSecondsfive = 000000000000000000000000000955;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

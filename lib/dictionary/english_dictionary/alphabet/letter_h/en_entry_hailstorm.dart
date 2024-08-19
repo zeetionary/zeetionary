@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhaddock extends StatefulWidget {
-  const EnglishEntryhaddock({super.key});
+class EnglishEntryhailstorm extends StatefulWidget {
+  const EnglishEntryhailstorm({super.key});
 
   @override
-  State<EnglishEntryhaddock> createState() => _EnglishEntryhaddockState();
+  State<EnglishEntryhailstorm> createState() => _EnglishEntryhailstormState();
 }
 
-class _EnglishEntryhaddockState extends State<EnglishEntryhaddock> {
+class _EnglishEntryhailstormState extends State<EnglishEntryhailstorm> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: haddock (Derived forms: haddock, haddocks)
-1. Lean white flesh of fish similar to but smaller than cod; usually baked or poached or as fillets sautéed or fried
- 
-2. Important food fish on both sides of the Atlantic; related to cod but usually smaller (- Melanogrammus aeglefinus)
+- Noun: hailstorm (Derived forms: hailstorms)
+1. A storm during which hail falls
 """,
   );
 
-  final String keyword = "haddock";
+  final String keyword = "hailstorm";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,14 +78,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""haddock""");
+    await flutterTts.speak("""hailstorm""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Haddock is a good source of protein.""");
+    await flutterTts.speak("""Hailstorms are more common in summer.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -939,10 +937,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """haddock""",
-                      // alsoEnglishWord: "also: haddock",
-                      britshText: """IpaUK: /ˈhædək/""",
-                      americanText: """IpaUS: /ˈhædək/""",
+                      word: """hailstorm""",
+                      // alsoEnglishWord: "also: hailstorm",
+                      britshText: """IpaUK: /ˈheɪlstɔːm/""",
+                      americanText: """IpaUS: /ˈheɪlstɔːrm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -985,11 +983,13 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haddock)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
+// With short examples define "hailstorm", please follow LX instructions
+// \b(hailstorm)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(
+                        text: """١. (ناو) زریانێک کە تەرزەی لەگەڵە"""),
                     SentencesRow(
-                      englishText: """Haddock is a good source of protein.""",
-                      kurdishText: """هادۆک سەرچاوەی باشی پڕۆتینە.""",
+                      englishText: """Hailstorms are more common in summer.""",
+                      kurdishText: """باوبۆرانی بەتەرزە لە هاویندا باون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2132,18 +2132,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/KObL442PWhQ?t=';
-const double _startSecondsend = 000000000000000000000000000233;
-const String _videoIdone = 'https://youtu.be/ishwT92D8Ec?t=';
-const double _startSecondsone = 000000000000000000000000000146;
-const String _videoIdtwo = 'https://youtu.be/A_uyT6UEBFs?t=';
-const double _startSecondstwo = 000000000000000000000000000817;
-const String _videoIdthree = 'https://youtu.be/JgA6GWAtIAo?t=';
-const double _startSecondsthree = 000000000000000000000000000466;
-const String _videoIdfour = 'https://youtu.be/CYEFR_kg6Us?t=';
-const double _startSecondsfour = 00000000000000000000000000016;
-const String _videoIdfive = 'https://youtu.be/ZWmp3a_lQBc?t=';
-const double _startSecondsfive = 000000000000000000000000000919;
+const String _videoIdend = 'https://youtu.be/r9PPgAvXkEY?t=';
+const double _startSecondsend = 000000000000000000000000000608;
+const String _videoIdone = 'https://youtu.be/UvjSXBqQe4A?t=';
+const double _startSecondsone = 000000000000000000000000000463;
+const String _videoIdtwo = 'https://youtu.be/IctC0Quf8zc?t=';
+const double _startSecondstwo = 00000000000000000000000000010;
+const String _videoIdthree = 'https://youtu.be/c4WRit8P6SE?t=';
+const double _startSecondsthree = 000000000000000000000000000366;
+const String _videoIdfour = 'https://youtu.be/uhZW4Rofa3Y?t=';
+const double _startSecondsfour = 000000000000000000000000000604;
+const String _videoIdfive = 'https://youtu.be/tcS12SsftMs?t=';
+const double _startSecondsfive = 00000000000000000000000000066;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

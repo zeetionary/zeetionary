@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhaddock extends StatefulWidget {
-  const EnglishEntryhaddock({super.key});
+class EnglishEntryhaggle extends StatefulWidget {
+  const EnglishEntryhaggle({super.key});
 
   @override
-  State<EnglishEntryhaddock> createState() => _EnglishEntryhaddockState();
+  State<EnglishEntryhaggle> createState() => _EnglishEntryhaggleState();
 }
 
-class _EnglishEntryhaddockState extends State<EnglishEntryhaddock> {
+class _EnglishEntryhaggleState extends State<EnglishEntryhaggle> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: haddock (Derived forms: haddock, haddocks)
-1. Lean white flesh of fish similar to but smaller than cod; usually baked or poached or as fillets sautéed or fried
- 
-2. Important food fish on both sides of the Atlantic; related to cod but usually smaller (- Melanogrammus aeglefinus)
+- Verb: haggle (Derived forms: haggles, haggling, haggled)
+1. Wrangle (over a price, terms of an agreement, etc.) (- higgle [archaic], chaffer, huckster [N. Amer])
+"Let's not haggle over a few dollars";
+
+- Noun: haggle (Derived forms: haggles)
+1. An instance of intense argument (as in bargaining) (- haggling, wrangle, wrangling)
 """,
   );
 
-  final String keyword = "haddock";
+  final String keyword = "haggle";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,21 +82,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""haddock""");
+    await flutterTts.speak("""haggle""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Haddock is a good source of protein.""");
+    await flutterTts.speak(
+        """We spent a long time haggling with the authorities over our visas.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""You can sometimes haggle a good discount.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -939,10 +942,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """haddock""",
-                      // alsoEnglishWord: "also: haddock",
-                      britshText: """IpaUK: /ˈhædək/""",
-                      americanText: """IpaUS: /ˈhædək/""",
+                      word: """haggle""",
+                      // alsoEnglishWord: "also: haggle",
+                      britshText: """IpaUK: /ˈhæɡl/""",
+                      americanText: """IpaUS: /ˈhæɡl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -985,11 +988,16 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haddock)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
+// With short examples define "haggle", please follow LX instructions
+// \b(haggle)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) مشتومڕکردن لەگەڵ کەسێک بۆ گەشتن بە ڕێکەوتن، بە تایبەتی لەسەر نرخی شتێک"""),
                     SentencesRow(
-                      englishText: """Haddock is a good source of protein.""",
-                      kurdishText: """هادۆک سەرچاوەی باشی پڕۆتینە.""",
+                      englishText:
+                          """We spent a long time haggling with the authorities over our visas.""",
+                      kurdishText:
+                          """کاتێکی زۆرمان لەگەڵ بەرپرسان بەسەر برد لەسەر مشتومڕی ڤیزاکانمان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -997,8 +1005,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You can sometimes haggle a good discount.""",
+                      kurdishText:
+                          """هەندێک جار دەکرێت بە معامەلە بگەیت بە داشکاندنێکی باش.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2132,18 +2142,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/KObL442PWhQ?t=';
-const double _startSecondsend = 000000000000000000000000000233;
-const String _videoIdone = 'https://youtu.be/ishwT92D8Ec?t=';
-const double _startSecondsone = 000000000000000000000000000146;
-const String _videoIdtwo = 'https://youtu.be/A_uyT6UEBFs?t=';
-const double _startSecondstwo = 000000000000000000000000000817;
-const String _videoIdthree = 'https://youtu.be/JgA6GWAtIAo?t=';
-const double _startSecondsthree = 000000000000000000000000000466;
-const String _videoIdfour = 'https://youtu.be/CYEFR_kg6Us?t=';
-const double _startSecondsfour = 00000000000000000000000000016;
-const String _videoIdfive = 'https://youtu.be/ZWmp3a_lQBc?t=';
-const double _startSecondsfive = 000000000000000000000000000919;
+const String _videoIdend = 'https://youtu.be/GWOHjuC47FY?t=';
+const double _startSecondsend = 000000000000000000000000000167;
+const String _videoIdone = 'https://youtu.be/Xtwar56r4Lg?t=';
+const double _startSecondsone = 000000000000000000000000000239;
+const String _videoIdtwo = 'https://youtu.be/yUZA04AtjIs?t=';
+const double _startSecondstwo = 000000000000000000000000000136;
+const String _videoIdthree = 'https://youtu.be/XXhc5UTxv5I?t=';
+const double _startSecondsthree = 000000000000000000000000000485;
+const String _videoIdfour = 'https://youtu.be/7HaqDRlWons?t=';
+const double _startSecondsfour = 000000000000000000000000000259;
+const String _videoIdfive = 'https://youtu.be/mYH74v3jWjs?t=';
+const double _startSecondsfive = 000000000000000000000000000770;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

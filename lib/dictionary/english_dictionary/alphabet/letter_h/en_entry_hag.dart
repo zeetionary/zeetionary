@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhaddock extends StatefulWidget {
-  const EnglishEntryhaddock({super.key});
+class EnglishEntryhag extends StatefulWidget {
+  const EnglishEntryhag({super.key});
 
   @override
-  State<EnglishEntryhaddock> createState() => _EnglishEntryhaddockState();
+  State<EnglishEntryhag> createState() => _EnglishEntryhagState();
 }
 
-class _EnglishEntryhaddockState extends State<EnglishEntryhaddock> {
+class _EnglishEntryhagState extends State<EnglishEntryhag> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: haddock (Derived forms: haddock, haddocks)
-1. Lean white flesh of fish similar to but smaller than cod; usually baked or poached or as fillets sautéed or fried
+- Noun: hag (Derived forms: hags)
+1. An ugly evil-looking old woman (- beldam [archaic], beldame [archaic], witch, crone)
+"a toothless old hag";
  
-2. Important food fish on both sides of the Atlantic; related to cod but usually smaller (- Melanogrammus aeglefinus)
+2. Eel-like cyclostome having a tongue with horny teeth in a round mouth surrounded by eight tentacles; feeds on dead or trapped fishes by boring into their bodies (- hagfish, slime eels)
 """,
   );
 
-  final String keyword = "haddock";
+  final String keyword = "hag";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,14 +81,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""haddock""");
+    await flutterTts.speak("""hag""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Haddock is a good source of protein.""");
+    await flutterTts
+        .speak("""The children were afraid of the old hag in the woods.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -939,10 +941,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """haddock""",
-                      // alsoEnglishWord: "also: haddock",
-                      britshText: """IpaUK: /ˈhædək/""",
-                      americanText: """IpaUS: /ˈhædək/""",
+                      word: """hag""",
+                      // alsoEnglishWord: "also: hag",
+                      britshText: """IpaUK: /hæɡ/""",
+                      americanText: """IpaUS: /hæɡ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -982,14 +984,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// \b(haddock)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: ژنەجادووگەر، کۆلەوەنانی، دەڵەدێو، پیرێژنی ناحەز
+// """),
+// \b(hag)(s|ed|es|ing)?\b(?=[.!?]?)
+                    const DefinitionKurdish(
+                        text: """١. (ناو) وشەیەکی ناشرین بۆ ژنێکی پیر"""),
                     SentencesRow(
-                      englishText: """Haddock is a good source of protein.""",
-                      kurdishText: """هادۆک سەرچاوەی باشی پڕۆتینە.""",
+                      englishText:
+                          """The children were afraid of the old hag in the woods.""",
+                      kurdishText:
+                          """منداڵەکان لە کەڵتەکۆنەکەی دارستانەکە دەترسان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2132,18 +2137,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/KObL442PWhQ?t=';
-const double _startSecondsend = 000000000000000000000000000233;
-const String _videoIdone = 'https://youtu.be/ishwT92D8Ec?t=';
-const double _startSecondsone = 000000000000000000000000000146;
-const String _videoIdtwo = 'https://youtu.be/A_uyT6UEBFs?t=';
-const double _startSecondstwo = 000000000000000000000000000817;
-const String _videoIdthree = 'https://youtu.be/JgA6GWAtIAo?t=';
-const double _startSecondsthree = 000000000000000000000000000466;
-const String _videoIdfour = 'https://youtu.be/CYEFR_kg6Us?t=';
-const double _startSecondsfour = 00000000000000000000000000016;
-const String _videoIdfive = 'https://youtu.be/ZWmp3a_lQBc?t=';
-const double _startSecondsfive = 000000000000000000000000000919;
+const String _videoIdend = 'https://youtu.be/jMw1NAwYDbQ?t=';
+const double _startSecondsend = 0000000000000000000000000001123;
+const String _videoIdone = 'https://youtu.be/q4vdACLx-hQ?t=';
+const double _startSecondsone = 000000000000000000000000000717;
+const String _videoIdtwo = 'https://youtu.be/3D8lFaMbFv0?t=';
+const double _startSecondstwo = 0000000000000000000000000006;
+const String _videoIdthree = 'https://youtu.be/i_ppflSR-ww?t=';
+const double _startSecondsthree = 000000000000000000000000000369;
+const String _videoIdfour = 'https://youtu.be/1Mwr6kcg2qM?t=';
+const double _startSecondsfour = 000000000000000000000000000466;
+const String _videoIdfive = 'https://youtu.be/o7J0IOYrKyc?t=';
+const double _startSecondsfive = 000000000000000000000000000106;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhaddock extends StatefulWidget {
-  const EnglishEntryhaddock({super.key});
+class EnglishEntryhaemorrhage extends StatefulWidget {
+  const EnglishEntryhaemorrhage({super.key});
 
   @override
-  State<EnglishEntryhaddock> createState() => _EnglishEntryhaddockState();
+  State<EnglishEntryhaemorrhage> createState() =>
+      _EnglishEntryhaemorrhageState();
 }
 
-class _EnglishEntryhaddockState extends State<EnglishEntryhaddock> {
+class _EnglishEntryhaemorrhageState extends State<EnglishEntryhaemorrhage> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +54,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: haddock (Derived forms: haddock, haddocks)
-1. Lean white flesh of fish similar to but smaller than cod; usually baked or poached or as fillets sautéed or fried
- 
-2. Important food fish on both sides of the Atlantic; related to cod but usually smaller (- Melanogrammus aeglefinus)
+- Noun: haemorrhage (Derived forms: haemorrhages)
+Usage: Brit, Cdn (US: hemorrhage)
+1. The flow of blood from a ruptured blood vessel (- bleeding, hemorrhage [N. Amer])
+
+- Verb: haemorrhage (Derived forms: haemorrhaged, haemorrhages, haemorrhaging)
+Usage: Brit, Cdn (US: hemorrhage)
+1. Lose blood from one's body (- shed blood, bleed, hemorrhage [N. Amer])
 """,
   );
 
-  final String keyword = "haddock";
+  final String keyword = "haemorrhage";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,28 +84,30 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""haddock""");
+    await flutterTts.speak("""haemorrhage""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Haddock is a good source of protein.""");
+    await flutterTts.speak("""He was checked for any signs of haemorrhage.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The patient died from acute cerebral haemorrhage.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The newspaper sold its websites in a bid to stem the haemorrhage of cash from the business.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -939,10 +945,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """haddock""",
-                      // alsoEnglishWord: "also: haddock",
-                      britshText: """IpaUK: /ˈhædək/""",
-                      americanText: """IpaUS: /ˈhædək/""",
+                      word: """haemorrhage""",
+                      // alsoEnglishWord: "also: haemorrhage",
+                      britshText: """IpaUK: /ˈhemərɪdʒ/""",
+                      americanText: """IpaUS: /ˈhemərɪdʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -985,11 +991,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// \b(haddock)(s|ed|es|ing)?\b(?=[.!?]?)
-                    const DefinitionKurdish(text: """١. (ناو) ماسییەکی بچووک کە لە ناوەوە سپییە و دەخورێت"""),
+// With short examples define "haemorrhage", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دۆخێکی تەندرووستی کە دەبێتە هۆکاری خوێنبەربوونی زۆر بەهۆی زیانگەشتن بە موولوولەیەکی خوێن لە لەشی مرۆڤدا"""),
                     SentencesRow(
-                      englishText: """Haddock is a good source of protein.""",
-                      kurdishText: """هادۆک سەرچاوەی باشی پڕۆتینە.""",
+                      englishText:
+                          """He was checked for any signs of haemorrhage.""",
+                      kurdishText:
+                          """پشکنینی بۆ کرا بۆ هەر ئاماژەیەکی خوێنبەربوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -997,17 +1007,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The patient died from acute cerebral haemorrhage.""",
+                      kurdishText:
+                          """نەخۆشەکە بە هۆی خوێنبەربوونی لەناکاوی مێشک مرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) لەدەستدانی زۆری پارە، خەڵک. هتد لە وڵاتێک، گرووپێک، یان دامەزراوەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The newspaper sold its websites in a bid to stem the haemorrhage of cash from the business.""",
+                      kurdishText:
+                          """ڕۆژنامەکە ماڵپەڕەکانی خۆی فرۆشت لە هەوڵێکدا بۆ ڕێگری لە لەدەستدانی خێرای پارەی بیزنسەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2132,18 +2148,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/KObL442PWhQ?t=';
-const double _startSecondsend = 000000000000000000000000000233;
-const String _videoIdone = 'https://youtu.be/ishwT92D8Ec?t=';
-const double _startSecondsone = 000000000000000000000000000146;
-const String _videoIdtwo = 'https://youtu.be/A_uyT6UEBFs?t=';
-const double _startSecondstwo = 000000000000000000000000000817;
-const String _videoIdthree = 'https://youtu.be/JgA6GWAtIAo?t=';
-const double _startSecondsthree = 000000000000000000000000000466;
-const String _videoIdfour = 'https://youtu.be/CYEFR_kg6Us?t=';
-const double _startSecondsfour = 00000000000000000000000000016;
-const String _videoIdfive = 'https://youtu.be/ZWmp3a_lQBc?t=';
-const double _startSecondsfive = 000000000000000000000000000919;
+const String _videoIdend = 'https://youtu.be/-K2WUezOTDg?t=';
+const double _startSecondsend = 000000000000000000000000000434;
+const String _videoIdone = 'https://youtu.be/YCnFYvL17v4?t=';
+const double _startSecondsone = 000000000000000000000000000282;
+const String _videoIdtwo = 'https://youtu.be/pdipblQmgnw?t=';
+const double _startSecondstwo = 000000000000000000000000000366;
+const String _videoIdthree = 'https://youtu.be/wlbO-DyxwYA?t=';
+const double _startSecondsthree = 0000000000000000000000000001133;
+const String _videoIdfour = 'https://youtu.be/VeKq-l2Uzv8?t=';
+const double _startSecondsfour = 000000000000000000000000000203;
+const String _videoIdfive = 'https://youtu.be/TankFrHtQiM?t=';
+const double _startSecondsfive = 00000000000000000000000000066;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

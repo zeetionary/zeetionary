@@ -2397,10 +2397,10 @@ class CustomFloatingActionButton extends ConsumerWidget {
       ),
       child: FloatingActionButton(
         onPressed: onPressed,
-        // backgroundColor: Theme.of(context).primaryColor.withOpacity(0.9),
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
         child: Icon(
           Icons.delete,
-          size: textSize + 2,
+          size: textSize + 12,
           color: Theme.of(context).primaryColor.withOpacity(0.9),
         ),
       ),

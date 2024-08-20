@@ -5,9 +5,39 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/home_screen_logout.dart';
 // import 'package:zeetionary/firebase/features/auth/screen/login_screen.dart';
 import 'package:zeetionary/router/router_keys.dart';
+import 'package:zeetionary/router/router_keys_english_first.dart';
+// import 'package:zeetionary/router/router_keys_three.dart';
+// import 'package:zeetionary/router/router_keys_four.dart';
+// import 'package:zeetionary/router/router_keys_five.dart';
+import 'package:zeetionary/grammar/grammar_screen.dart';
+import 'package:zeetionary/quiz/quiz_screen.dart';
+import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
+import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
+import 'package:zeetionary/home/screens/irregular_verbs/irregular_verbs.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_notifier.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_pages.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_grammar.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_grammar_two.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_vocabulary.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_vocabulary_two.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_vocabulary_three.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_linguistics.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_discussion.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_etymology.dart';
+// import 'package:zeetionary/main.dart';
+import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
+import 'package:zeetionary/dictionary/sentences/sentences_page.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
+import 'package:zeetionary/home/screens/home_screen_three.dart';
 
-import 'package:zeetionary/router/router_exports_one.dart';
-
+//
+//
+//
+import 'package:zeetionary/router/exports_english_first.dart';
+import 'package:zeetionary/router/router_keys_english_history_first.dart';
+//
+//
+//
 //
 //
 
@@ -29,7 +59,6 @@ import 'package:zeetionary/home/screens/reddit/reddit_etymology.dart';
 // import 'package:zeetionary/main.dart';
 import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
-
 
 //
 //
@@ -455,8 +484,6 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dismally.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dismantle.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_d/en_entry_dismay.dart';
-
-
 
 
 
@@ -986,4 +1013,90 @@ final loggedOutRoute = RouteMap(routes: {
   "/english-exploratory": (_) => _blP(const EnglishEntryexploratory()),
 });
 
-final loggedInRoute = RouteMap(routes: routes);
+// final loggedInRoute = RouteMap(routes: routes);
+
+final loggedInRoute = RouteMap(routes: allRoutes);
+
+final Map<String, PageBuilder> allRoutes = {
+  ...getRoutesMain(),
+  ...getRoutesEnglishFirst(),
+  ...getRoutesEnglishHistoryFirst(),
+  // ...getRoutes(),
+  // ...getRoutes(),
+  // ...getRoutes(),
+  // ...getRoutes(),
+  // ...getRoutes(),
+};
+
+Map<String, PageBuilder> getRoutesMain() {
+  return {
+    "/": (_) => _blP(const HomeScreenThree()),
+  //
+  //
+  //
+  '/english-subreddit': (_) => _blP(const RedditFeed()),
+  '/english-subreddit/reddit-grammar': (_) => _blP(const RedditGrammar()),
+  '/english-subreddit/reddit-grammar-two': (_) =>
+      _blP(const RedditGrammarTwo()),
+  '/english-subreddit/reddit-vocabulary': (_) => _blP(const RedditVocabulary()),
+  '/english-subreddit/reddit-vocabulary-two': (_) =>
+      _blP(const RedditVocabularyTwo()),
+  '/english-subreddit/reddit-etymology': (_) => _blP(const RedditEtymology()),
+  '/english-subreddit/reddit-vocabulary-three': (_) =>
+      _blP(const RedditVocabularyThree()),
+  '/english-subreddit/reddit-linguistics': (_) =>
+      _blP(const RedditLinguistics()),
+  '/english-subreddit/reddit-discussion': (_) => _blP(const RedditDiscussion()),
+  //
+  //
+  //
+  '/english-subreddit/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  //
+  '/english-subreddit/reddit-grammar/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  //
+  '/english-subreddit/reddit-grammar-two/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  //
+  '/english-subreddit/reddit-vocabulary/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  //
+  '/english-subreddit/reddit-vocabulary-two/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  //
+  '/english-subreddit/reddit-vocabulary-three/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  //
+  '/english-subreddit/reddit-etymology/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  //
+  '/english-subreddit/reddit-linguistics/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  //
+  '/english-subreddit/reddit-discussion/post/:id': (route) =>
+      MaterialPage(child: RedditComments(postId: route.pathParameters['id']!)),
+  //
+  "/history-screen": (_) => _blP(const HistoryScreen()),
+  //
+  "/bookmarks-screen": (_) => _blP(const BookmarksScreen()),
+  //
+  "/tts-screen": (_) => _blP(const TTSPage()),
+  //
+  "/grammar-screen": (_) => _blP(const GrammarScreen()),
+  //
+  "/english-sentences-page": (_) => _blP(const SentencesPage()),
+  //
+  "/settings-screen": (_) => _blP(const SettingsPage()),
+  //
+  '/quiz-screen': (_) => _blP(const QuizScreen()),
+  //
+  '/irregular-verbs-screen': (_) => _blP(const IrregularVerbsScreen()),
+  //
+// '/quiz-screen': (_) => _blP(const QuizScreen(currentTheme: ThemeData.light())),
+// English dictionary starts here
+// English dictionary starts here
+// English dictionary starts here
+// English dictionary starts here
+  };
+}

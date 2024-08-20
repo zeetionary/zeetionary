@@ -28,18 +28,18 @@ class EnglishDictionaryNavigationLogout extends StatelessWidget {
       onTapWord: (wordsEnglish) {
         saveToHistory(wordsEnglish);
 
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Directionality(
-              textDirection: TextDirection.ltr,
-              child: Align(
-                alignment: Alignment.topLeft,
-                child: Text(
-                    'Please log in with an account to unlock the full content of the app'),
-              ),
-            ),
-          ),
-        );
+        // ScaffoldMessenger.of(context).showSnackBar(
+        //   const SnackBar(
+        //     content: Directionality(
+        //       textDirection: TextDirection.ltr,
+        //       child: Align(
+        //         alignment: Alignment.topLeft,
+        //         child: Text(
+        //             'Please log in with an account to unlock the full content of the app'),
+        //       ),
+        //     ),
+        //   ),
+        // );
 
         String? route = wordRoutesLogout[wordsEnglish];
         if (route != null) {

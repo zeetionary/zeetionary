@@ -4940,7 +4940,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_hallmark.dart' show EnglishEntryhallmark
 // en_entry_halloween.dart' show EnglishEntryhalloween //// ffff Halloween
 // en_entry_hallucination.dart' show EnglishEntryhallucination
-// en_entry_.dart' show EnglishEntry
+// en_entry_halo.dart' show EnglishEntryhalo
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

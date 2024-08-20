@@ -14,7 +14,7 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/firebase/core/common/error_text.dart';
 import 'package:zeetionary/firebase/core/common/loader.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
-import 'package:zeetionary/router/router_main.dart';
+import 'package:zeetionary/router/aa_router_main.dart';
 import 'package:path/path.dart';
 
 // import 'package:zeetionary/dictionary/database_sentences.dart';

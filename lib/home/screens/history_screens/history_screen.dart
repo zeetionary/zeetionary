@@ -51,14 +51,13 @@ class CustomTabBarHistory extends ConsumerWidget {
     final textSize = ref.watch(textSizeProvider) + 40;
 
     return Container(
-      height: textSize - 2,
+      height: textSize - 8,
       decoration: BoxDecoration(
-        color: Theme.of(context).primaryColor.withOpacity(0.01),
         border: Border.all(
           color: Theme.of(context).primaryColor.withOpacity(0.3),
           width: 1.0,
         ),
-        borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+        borderRadius: BorderRadius.circular(15.0),
       ),
       child: TabBar(
         isScrollable: true,
@@ -101,12 +100,12 @@ class UkIconForHistoryTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 12;
+    final textSize = ref.watch(textSizeProvider);
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 80,
-        height: textSize,
+        width: textSize + 80,
+        height: textSize + 15,
       ),
     );
   }
@@ -119,12 +118,12 @@ class KurdIconForHistoryTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 12;
+    final textSize = ref.watch(textSizeProvider);
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 80,
-        height: textSize,
+        width: textSize + 80,
+        height: textSize + 15,
       ),
     );
   }

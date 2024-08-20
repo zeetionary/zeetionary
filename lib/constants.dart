@@ -1535,34 +1535,34 @@ class KurdishVocabulary extends ConsumerWidget {
       padding: const EdgeInsets.all(0.1),
       child: Column(
         children: [
-          GestureDetector(
-            // Wrap Text with GestureDetector
-            onLongPress: () {
-              Clipboard.setData(ClipboardData(text: text));
-              ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(
-                  content: Directionality(
-                    textDirection: TextDirection.rtl,
-                    child: Text(
-                      'وشەوواتا لەبەرگیرایەوە',
-                      style: TextStyle(
-                        fontSize: textSize + 1,
-                      ),
-                    ),
-                  ),
+          VocabularyExpansionTile(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(
+                  left: 1,
+                  right: 28,
                 ),
-              );
-            },
-            child: Column(
-              children: [
-                VocabularyExpansionTile(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.only(
-                        left: 1,
-                        right: 28,
+                child: GestureDetector(
+                  // Wrap Text with GestureDetector
+                  onLongPress: () {
+                    Clipboard.setData(ClipboardData(text: text));
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Directionality(
+                          textDirection: TextDirection.rtl,
+                          child: Text(
+                            'وشەوواتا لەبەرگیرایەوە',
+                            style: TextStyle(
+                              fontSize: textSize + 1,
+                            ),
+                          ),
+                        ),
                       ),
-                      child: Text(
+                    );
+                  },
+                  child: Column(
+                    children: [
+                      Text(
                         text,
                         style: TextStyle(
                           fontSize: textSize + 2, // change size back to + 2
@@ -1571,11 +1571,11 @@ class KurdishVocabulary extends ConsumerWidget {
                         textAlign: TextAlign.right,
                         textDirection: TextDirection.rtl,
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
           const SizedBox(
             width: 10,
@@ -1583,6 +1583,58 @@ class KurdishVocabulary extends ConsumerWidget {
         ],
       ),
     );
+    // return Padding(
+    //   padding: const EdgeInsets.all(0.1),
+    //   child: Column(
+    //     children: [
+    //       GestureDetector(
+    //         // Wrap Text with GestureDetector
+    //         onLongPress: () {
+    //           Clipboard.setData(ClipboardData(text: text));
+    //           ScaffoldMessenger.of(context).showSnackBar(
+    //             SnackBar(
+    //               content: Directionality(
+    //                 textDirection: TextDirection.rtl,
+    //                 child: Text(
+    //                   'وشەوواتا لەبەرگیرایەوە',
+    //                   style: TextStyle(
+    //                     fontSize: textSize + 1,
+    //                   ),
+    //                 ),
+    //               ),
+    //             ),
+    //           );
+    //         },
+    //         child: Column(
+    //           children: [
+    //             VocabularyExpansionTile(
+    //               children: [
+    //                 Padding(
+    //                   padding: const EdgeInsets.only(
+    //                     left: 1,
+    //                     right: 28,
+    //                   ),
+    //                   child: Text(
+    //                     text,
+    //                     style: TextStyle(
+    //                       fontSize: textSize + 2, // change size back to + 2
+    //                       // fontWeight: FontWeight.w800,
+    //                     ),
+    //                     textAlign: TextAlign.right,
+    //                     textDirection: TextDirection.rtl,
+    //                   ),
+    //                 ),
+    //               ],
+    //             ),
+    //           ],
+    //         ),
+    //       ),
+    //       const SizedBox(
+    //         width: 10,
+    //       ),
+    //     ],
+    //   ),
+    // );
   }
 }
 
@@ -2397,7 +2449,8 @@ class CustomFloatingActionButton extends ConsumerWidget {
       ),
       child: FloatingActionButton(
         onPressed: onPressed,
-        backgroundColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
+        backgroundColor:
+            Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
         child: Icon(
           Icons.delete,
           size: textSize + 12,

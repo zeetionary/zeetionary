@@ -62,7 +62,6 @@ ${englishMeaningConst.text}
 3. A circle of light around the sun or moon
 """,
   );
-// 188888880002200
 
   final String keyword = "halo";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -91,15 +90,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She played the part of an angel, complete with wings and a halo.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The halo around the moon was a beautiful sight.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -988,23 +988,28 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خەرمانە، تامار، بازنەی ڕووناکی
 """),
-// With short examples define "halo", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بازنەیەک لە ڕووناکی کە لەسەر یان دەوری کەسێکی پیرۆز دەکێشرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She played the part of an angel, complete with wings and a halo.""",
+                      kurdishText:
+                          """ڕۆڵی فریشتەیەکی گێڕا بە باڵ و خەرمانەی بازنەییەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەڵقەیەک لە ڕووناکی کە لە دەوری مانگ یان خۆر دەبینرێت لە کاتی مانگگیران یان خۆرگیران"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The halo around the moon was a beautiful sight.""",
+                      kurdishText: """بازنەی دەوری مانگ دیمەنێکی جوان بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2138,19 +2143,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = '';
-const double _startSecondsend = 000000000000000000000000000;
-const String _videoIdone = '';
-const double _startSecondsone = 000000000000000000000000000;
-const String _videoIdtwo = '';
-const double _startSecondstwo = 000000000000000000000000000;
-const String _videoIdthree = '';
-const double _startSecondsthree = 000000000000000000000000000;
-const String _videoIdfour = '';
-const double _startSecondsfour = 000000000000000000000000000;
-const String _videoIdfive = '';
-const double _startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+const String _videoIdend = 'https://youtu.be/2h6HeqO-U9c';
+const double _startSecondsend = 0;
+const String _videoIdone = 'https://youtu.be/88vAjE15Hb0';
+const double _startSecondsone = 0;
+const String _videoIdtwo = 'https://youtu.be/Wao0_uB4Zw4?t=';
+const double _startSecondstwo = 000000000000000000000000000994;
+const String _videoIdthree = 'https://youtu.be/PHLY4a5fTjU?t=';
+const double _startSecondsthree = 000000000000000000000000000248;
+const String _videoIdfour = 'https://youtu.be/F8Thuw3qPGw?t=';
+const double _startSecondsfour = 000000000000000000000000000218;
+const String _videoIdfive = 'https://youtu.be/WTfQpdTD_3M?t=';
+const double _startSecondsfive = 0000000000000000000000000001816;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

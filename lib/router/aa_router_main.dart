@@ -4,8 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/home_screen_logout.dart';
 // import 'package:zeetionary/firebase/features/auth/screen/login_screen.dart';
-import 'package:zeetionary/router/router_keys.dart';
-import 'package:zeetionary/router/router_keys_english_first.dart';
+// import 'package:zeetionary/router/router_keys.dart';
 // import 'package:zeetionary/router/router_keys_three.dart';
 // import 'package:zeetionary/router/router_keys_four.dart';
 // import 'package:zeetionary/router/router_keys_five.dart';
@@ -34,31 +33,31 @@ import 'package:zeetionary/home/screens/home_screen_three.dart';
 //
 //
 import 'package:zeetionary/router/exports_english_first.dart';
+import 'package:zeetionary/router/router_keys_english_first.dart';
 import 'package:zeetionary/router/router_keys_english_history_first.dart';
-//
-//
+import 'package:zeetionary/router/router_keys_english_bookmarks_first.dart';
 //
 //
 //
 
-import 'package:zeetionary/grammar/grammar_screen.dart';
-import 'package:zeetionary/quiz/quiz_screen.dart';
-import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
-import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
-import 'package:zeetionary/home/screens/irregular_verbs/irregular_verbs.dart';
+// import 'package:zeetionary/grammar/grammar_screen.dart';
+// import 'package:zeetionary/quiz/quiz_screen.dart';
+// import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
+// import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
+// import 'package:zeetionary/home/screens/irregular_verbs/irregular_verbs.dart';
 // import 'package:zeetionary/home/screens/reddit/reddit_notifier.dart';
-import 'package:zeetionary/home/screens/reddit/reddit_pages.dart';
-import 'package:zeetionary/home/screens/reddit/reddit_grammar.dart';
-import 'package:zeetionary/home/screens/reddit/reddit_grammar_two.dart';
-import 'package:zeetionary/home/screens/reddit/reddit_vocabulary.dart';
-import 'package:zeetionary/home/screens/reddit/reddit_vocabulary_two.dart';
-import 'package:zeetionary/home/screens/reddit/reddit_vocabulary_three.dart';
-import 'package:zeetionary/home/screens/reddit/reddit_linguistics.dart';
-import 'package:zeetionary/home/screens/reddit/reddit_discussion.dart';
-import 'package:zeetionary/home/screens/reddit/reddit_etymology.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_pages.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_grammar.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_grammar_two.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_vocabulary.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_vocabulary_two.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_vocabulary_three.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_linguistics.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_discussion.dart';
+// import 'package:zeetionary/home/screens/reddit/reddit_etymology.dart';
 // import 'package:zeetionary/main.dart';
-import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
-import 'package:zeetionary/home/screens/settings_screens/settings.dart';
+// import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
+// import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
 //
 //
@@ -70,7 +69,6 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_a.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
-import 'package:zeetionary/dictionary/sentences/sentences_page.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abacus.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandon.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandoned.dart';
@@ -1021,7 +1019,7 @@ final Map<String, PageBuilder> allRoutes = {
   ...getRoutesMain(),
   ...getRoutesEnglishFirst(),
   ...getRoutesEnglishHistoryFirst(),
-  // ...getRoutes(),
+  ...getRoutesEnglishBookmarksFirst(),
   // ...getRoutes(),
   // ...getRoutes(),
   // ...getRoutes(),

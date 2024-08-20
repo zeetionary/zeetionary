@@ -498,7 +498,10 @@ class _DictionaryScreenEnglishState
                               ),
                               borderRadius: BorderRadius.circular(15.0),
                             ),
-                            child: Icon(Icons.clear, size: textSize + 5),
+                            child: Padding(
+                              padding: const EdgeInsets.all(3.0),
+                              child: Icon(Icons.clear, size: textSize + 5),
+                            ),
                           ),
                           onPressed: clearSearch,
                         ),
@@ -513,9 +516,12 @@ class _DictionaryScreenEnglishState
                             ),
                             borderRadius: BorderRadius.circular(15.0),
                           ),
-                          child: Icon(
-                            isAlphabetFilterExpanded ? Icons.abc : Icons.abc,
-                            size: textSize + 5,
+                          child: Padding(
+                            padding: const EdgeInsets.all(3.0),
+                            child: Icon(
+                              isAlphabetFilterExpanded ? Icons.abc : Icons.abc,
+                              size: textSize + 5,
+                            ),
                           ),
                         ),
                         onPressed: () {
@@ -538,13 +544,16 @@ class _DictionaryScreenEnglishState
                             ),
                             borderRadius: BorderRadius.circular(15.0),
                           ),
-                          child: Icon(
-                            isFilterExpanded
-                                ? Icons.topic_outlined
-                                : Icons.topic_outlined,
-                            // ? Icons.arrow_drop_up
-                            // : Icons.arrow_drop_down,
-                            size: textSize + 5,
+                          child: Padding(
+                            padding: const EdgeInsets.all(3.0),
+                            child: Icon(
+                              isFilterExpanded
+                                  ? Icons.topic_outlined
+                                  : Icons.topic_outlined,
+                              // ? Icons.arrow_drop_up
+                              // : Icons.arrow_drop_down,
+                              size: textSize + 5,
+                            ),
                           ),
                         ),
                         onPressed: () {

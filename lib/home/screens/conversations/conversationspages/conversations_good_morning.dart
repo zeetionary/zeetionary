@@ -1,111 +1,220 @@
 import 'package:flutter/material.dart';
-import 'package:just_audio/just_audio.dart';
+import 'package:audioplayers/audioplayers.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
+import 'package:styled_text/styled_text.dart';
 
-class ConversationsGoodMorning extends StatefulWidget {
+class ConversationsGoodMorning extends ConsumerStatefulWidget {
   const ConversationsGoodMorning({super.key});
 
   @override
-  _ConversationsGoodMorningState createState() =>
+  ConsumerState<ConsumerStatefulWidget> createState() =>
       _ConversationsGoodMorningState();
 }
 
-class _ConversationsGoodMorningState extends State<ConversationsGoodMorning> {
-  final AudioPlayer _player = AudioPlayer();
-  Duration? _duration;
+class _ConversationsGoodMorningState
+    extends ConsumerState<ConversationsGoodMorning> {
+  final audioPlayer = AudioPlayer();
+
+  bool isPlaying = false;
+  Duration duration = Duration.zero;
+  Duration position = Duration.zero;
+  bool isPlayerVisible = false;
 
   @override
   void initState() {
     super.initState();
 
-    _player.setAsset('conversations/audio.mp3').then((duration) {
+    setAudio();
+
+    // Listen to the player state changes
+    audioPlayer.onPlayerStateChanged.listen((state) {
       setState(() {
-        _duration = duration;
+        isPlaying = state == PlayerState.playing;
       });
-    }).catchError((error) {
-      print("Error loading audio: $error");
     });
+
+    // Listen to the duration changes
+    audioPlayer.onDurationChanged.listen((newDuration) {
+      setState(() {
+        duration = newDuration;
+      });
+    });
+
+    // Listen to the position changes
+    audioPlayer.onPositionChanged.listen((newPosition) {
+      setState(() {
+        position = newPosition;
+      });
+    });
+  }
+
+  Future setAudio() async {
+    audioPlayer.setReleaseMode(ReleaseMode.stop);
+
+    final player = AudioCache(prefix: 'assets/');
+    final file = await player.load('audio_two.mp3');
+    audioPlayer.setSourceDeviceFile(file.path);
   }
 
   @override
   void dispose() {
-    _player.dispose();
+    audioPlayer.dispose();
     super.dispose();
+  }
+
+  String formatTime(Duration duration) {
+    String twoDigits(int n) => n.toString().padLeft(2, '0');
+    final minutes = twoDigits(duration.inMinutes.remainder(60));
+    final seconds = twoDigits(duration.inSeconds.remainder(60));
+    return '$minutes:$seconds';
   }
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider);
+
     return Scaffold(
-      appBar: AppBar(title: const Text('Audio Player SnackBar Example')),
-      body: const Center(child: Text('Your main content here')),
-      bottomSheet: Container(
-        color: Colors.grey[800],
-        height: 60,
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Row(
-            children: [
-              IconButton(
-                icon: const Icon(Icons.play_arrow, color: Colors.white),
-                onPressed: () => _player.play(),
-              ),
-              IconButton(
-                icon: const Icon(Icons.pause, color: Colors.white),
-                onPressed: () => _player.pause(),
-              ),
-              Expanded(
-                child: StreamBuilder<Duration?>(
-                  stream: _player.positionStream,
-                  builder: (context, snapshot) {
-                    final position = snapshot.data ?? Duration.zero;
-                    return Slider(
-                      value: position.inSeconds.toDouble(),
-                      onChanged: (value) {
-                        _player.seek(Duration(seconds: value.toInt()));
-                      },
-                      min: 0,
-                      max: (_duration?.inSeconds ?? 0).toDouble(),
-                    );
-                  },
+      appBar: const ZeetionaryAppbar(),
+      floatingActionButton: !isPlayerVisible
+          ? CustomFloatingActionButtonPlayer(
+              onPressed: () {
+                setState(() {
+                  isPlayerVisible = true;
+                });
+              },
+            )
+          : null,
+      body: BodyOfGoodmorning(),
+      bottomNavigationBar: isPlayerVisible
+          ? Container(
+              color: Theme.of(context).scaffoldBackgroundColor,
+              height: 160,
+              child: Padding(
+                padding: const EdgeInsets.all(20),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Slider(
+                            min: 0,
+                            max: duration.inSeconds.toDouble(),
+                            value: position.inSeconds.toDouble(),
+                            onChanged: (value) async {
+                              final newPosition =
+                                  Duration(seconds: value.toInt());
+                              await audioPlayer.seek(newPosition);
+
+                              await audioPlayer.resume();
+                            },
+                          ),
+                        ),
+                        IconButton(
+                          icon: Icon(Icons.keyboard_arrow_down,
+                              color: Theme.of(context).primaryColor),
+                          onPressed: () async {
+                            await audioPlayer.pause();
+                            setState(() {
+                              isPlayerVisible = false;
+                            });
+                          },
+                        ),
+                      ],
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(formatTime(position)),
+                          Text(formatTime(duration - position)),
+                        ],
+                      ),
+                    ),
+                    Expanded(
+                      child: Center(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            IconButton(
+                              icon: Icon(Icons.replay_5,
+                                  color: Theme.of(context).primaryColor),
+                              iconSize: textSize + 25,
+                              onPressed: () async {
+                                final newPosition =
+                                    position - const Duration(seconds: 5);
+                                await audioPlayer.seek(newPosition);
+                              },
+                            ),
+                            IconButton(
+                              icon: Icon(
+                                  isPlaying ? Icons.pause : Icons.play_arrow,
+                                  color: Theme.of(context).primaryColor),
+                              iconSize: textSize + 25,
+                              onPressed: () async {
+                                if (isPlaying) {
+                                  await audioPlayer.pause();
+                                } else {
+                                  await audioPlayer.resume();
+                                }
+                              },
+                            ),
+                            IconButton(
+                              icon: Icon(Icons.forward_5,
+                                  color: Theme.of(context).primaryColor),
+                              iconSize: textSize + 25,
+                              onPressed: () async {
+                                final newPosition =
+                                    position + const Duration(seconds: 5);
+                                await audioPlayer.seek(newPosition);
+                              },
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
               ),
-            ],
-          ),
-        ),
-      ),
+            )
+          : null,
     );
   }
 }
 
-// import 'package:zeetionary/constants.dart';
-// import 'package:styled_text/styled_text.dart';
+class BodyOfGoodmorning extends StatelessWidget {
+  const BodyOfGoodmorning({
+    super.key,
+  });
 
-// class Conversationsgoodmorning extends StatelessWidget {
-//   const Conversationsgoodmorning({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return SelectionArea(
-//       child: Scaffold(
-//         appBar: const ZeetionaryAppbar(),
-//         body: Center(
-//           child: SingleChildScrollView(
-//             padding: const EdgeInsets.symmetric(vertical: 32),
-//             child: Column(
-//               mainAxisAlignment: MainAxisAlignment.center,
-//               children: <Widget>[
-//                 StyledText(
-//                   text: 'Text with <red>red</red> action inside.',
-//                   tags: {
-//                     'red': StyledTextTag(
-//                       style: const TextStyle(color: Colors.red),
-//                     ),
-//                   },
-//                 ),
-//               ],
-//             ),
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      padding: const EdgeInsets.symmetric(vertical: 32),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          CustomAlignWidgetLeft(
+            text: 'Text with <red>reeeed</red> action inside.',
+            tags: {
+              'red': StyledTextTag(
+                style: const TextStyle(color: Colors.red),
+              ),
+            },
+          ),
+          CustomAlignWidgetRight(
+            text: 'Text with <red>reeeed</red> action inside.',
+            tags: {
+              'red': StyledTextTag(
+                style: const TextStyle(color: Colors.red),
+              ),
+            },
+          )
+        ],
+      ),
+    );
+  }
+}

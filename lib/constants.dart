@@ -12,6 +12,7 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
 // import 'package:zeetionary/theme/pallete.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:styled_text/styled_text.dart';
 
 class Constants {
   static const logo1Path = 'assets/images/zeetionary_one.png';
@@ -2461,6 +2462,41 @@ class CustomFloatingActionButton extends ConsumerWidget {
   }
 }
 
+class CustomFloatingActionButtonPlayer extends ConsumerWidget {
+  final VoidCallback onPressed;
+
+  const CustomFloatingActionButtonPlayer({
+    super.key,
+    required this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+
+    return Container(
+      decoration: BoxDecoration(
+        border: Border.all(
+          color: Theme.of(context).primaryColor.withOpacity(0.3),
+          width: 1.0,
+        ),
+        borderRadius: BorderRadius.circular(15.0),
+      ),
+      child: FloatingActionButton(
+        onPressed: onPressed,
+        backgroundColor:
+            Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
+        child: Icon(
+          Icons.music_note,
+          // Icons.music_note,
+          size: textSize + 12,
+          color: Theme.of(context).primaryColor.withOpacity(0.9),
+        ),
+      ),
+    );
+  }
+}
+
 class CustomIconButtonBritish extends ConsumerWidget {
   final VoidCallback? onPressed;
 
@@ -2993,6 +3029,117 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
               children: widget.children,
             ),
         ],
+      ),
+    );
+  }
+}
+
+
+
+
+
+
+
+// conversations
+// conversations
+// conversations
+// conversations
+// conversations
+// conversations
+// conversations
+// conversations
+
+
+
+
+
+
+
+class CustomAlignWidgetLeft extends StatelessWidget {
+  final String text;
+  final Map<String, StyledTextTagBase> tags;
+
+  const CustomAlignWidgetLeft({
+    super.key,
+    required this.text,
+    required this.tags,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Align(
+      alignment: Alignment.topLeft,
+      child: Directionality(
+        textDirection: TextDirection.ltr,
+        child: Row(
+          children: [
+            Image.asset(
+              Constants.googlePath,
+              width: 52,
+            ),
+            Container(
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Theme.of(context).primaryColor.withOpacity(0.3),
+                  width: 1.0,
+                ),
+                borderRadius: BorderRadius.circular(15.0),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: StyledText(
+                  text: text,
+                  tags: tags,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class CustomAlignWidgetRight extends StatelessWidget {
+  final String text;
+  final Map<String, StyledTextTagBase> tags;
+
+  const CustomAlignWidgetRight({
+    super.key,
+    required this.text,
+    required this.tags,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Align(
+      alignment: Alignment.topRight,
+      child: Directionality(
+        textDirection: TextDirection.rtl,
+        child: Row(
+          children: [
+            Image.asset(
+              Constants.googlePath,
+              width: 52,
+            ),
+            Container(
+              decoration: BoxDecoration(
+                border: Border.all(
+                  color: Theme.of(context).primaryColor.withOpacity(0.3),
+                  width: 1.0,
+                ),
+                borderRadius: BorderRadius.circular(15.0),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: StyledText(
+                  text: text,
+                  tags: tags,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

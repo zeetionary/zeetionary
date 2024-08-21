@@ -1,103 +1,127 @@
-import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';
+// import 'package:flutter/material.dart';
+// import 'package:audioplayers/audioplayers.dart';
 
-class ConversationsGoodAfternoon extends StatefulWidget {
-  @override
-  _ConversationsGoodAfternoonState createState() => _ConversationsGoodAfternoonState();
-}
+// class ConversationsGoodAfternoon extends StatefulWidget {
+//   const ConversationsGoodAfternoon({super.key});
 
-class _ConversationsGoodAfternoonState extends State<ConversationsGoodAfternoon> {
-  final AudioPlayer _audioPlayer = AudioPlayer();
-  bool _isPlaying = false;
-  Duration _duration = Duration.zero;
-  Duration _position = Duration.zero;
+//   @override
+//   _ConversationsGoodAfternoonState createState() =>
+//       _ConversationsGoodAfternoonState();
+// }
 
-  @override
-  void initState() {
-    super.initState();
+// class _ConversationsGoodAfternoonState
+//     extends State<ConversationsGoodAfternoon> {
+//   final audioPlayer = AudioPlayer();
 
-    // Load the audio file
-    _audioPlayer.setSource(AssetSource('assets/conversations/audio.mp3'));
+//   bool isPlaying = false;
+//   Duration duration = Duration.zero;
+//   Duration position = Duration.zero;
 
-    // Listen to changes in player state
-    _audioPlayer.onDurationChanged.listen((duration) {
-      setState(() {
-        _duration = duration;
-      });
-    });
+//   @override
+//   void initState() {
+//     super.initState();
 
-    _audioPlayer.onPositionChanged.listen((position) {
-      setState(() {
-        _position = position;
-      });
-    });
+//     setAudio();
 
-    _audioPlayer.onPlayerComplete.listen((event) {
-      setState(() {
-        _isPlaying = false;
-        _position = Duration.zero;
-      });
-    });
-  }
+//     // Listen to the player state changes
+//     audioPlayer.onPlayerStateChanged.listen((state) {
+//       setState(() {
+//         isPlaying = state == PlayerState.playing;
+//       });
+//     });
 
-  void _playPause() async {
-    if (_isPlaying) {
-      await _audioPlayer.pause();
-    } else {
-      await _audioPlayer.resume(); // If the audio was already loaded
-    }
-    setState(() {
-      _isPlaying = !_isPlaying;
-    });
-  }
+//     // Listen to the duration changes
+//     audioPlayer.onDurationChanged.listen((newDuration) {
+//       setState(() {
+//         duration = newDuration;
+//       });
+//     });
 
-  void _seekTo(Duration position) {
-    _audioPlayer.seek(position);
-  }
+//     // Listen to the position changes
+//     audioPlayer.onPositionChanged.listen((newPosition) {
+//       setState(() {
+//         position = newPosition;
+//       });
+//     });
+//   }
 
-  @override
-  void dispose() {
-    _audioPlayer.dispose();
-    super.dispose();
-  }
+//   Future setAudio() async {
+//     audioPlayer.setReleaseMode(ReleaseMode.stop);
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Mini Player Example')),
-      // body: Center(
-      //   child: Text('Welcome to the Audio Player'),
-      // ),
-      body: BottomAppBar(
-        child: Container(
-          height: 80,
-          padding: EdgeInsets.symmetric(horizontal: 16.0),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Slider(
-                min: 0.0,
-                max: _duration.inSeconds.toDouble(),
-                value: _position.inSeconds.toDouble().clamp(0.0, _duration.inSeconds.toDouble()),
-                onChanged: (value) {
-                  _seekTo(Duration(seconds: value.toInt()));
-                },
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Icon(Icons.music_note),
-                  Text('Now Playing: Example Song'),
-                  IconButton(
-                    icon: Icon(_isPlaying ? Icons.pause : Icons.play_arrow),
-                    onPressed: _playPause,
-                  ),
-                ],
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-}
+//     final player = AudioCache(prefix: 'assets/');
+//     final file = await player.load('audio.mp3');
+//     audioPlayer.setSourceDeviceFile(file.path);
+//   }
+
+//   @override
+//   void dispose() {
+//     audioPlayer.dispose();
+//     super.dispose();
+//   }
+
+//   String formatTime(Duration duration) {
+//     String twoDigits(int n) => n.toString().padLeft(2, '0');
+//     final minutes = twoDigits(duration.inMinutes.remainder(60));
+//     final seconds = twoDigits(duration.inSeconds.remainder(60));
+//     return '$minutes:$seconds';
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: const Text('Good afternoon'),
+//       ),
+//       body: const Center(child: Text('Your main content here')),
+//       bottomSheet: Container(
+//         color: Colors.black,
+//         height: 160,
+//         child: Padding(
+//           padding: const EdgeInsets.all(20),
+//           child: Column(
+//             mainAxisAlignment: MainAxisAlignment.center,
+//             children: [
+//               Slider(
+//                 min: 0,
+//                 max: duration.inSeconds.toDouble(),
+//                 value: position.inSeconds.toDouble(),
+//                 onChanged: (value) async {
+//                   final newPosition = Duration(seconds: value.toInt());
+//                   await audioPlayer.seek(newPosition);
+
+//                   await audioPlayer.resume();
+//                 },
+//               ),
+//               Padding(
+//                 padding: const EdgeInsets.symmetric(horizontal: 10),
+//                 child: Row(
+//                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                   children: [
+//                     Text(formatTime(position)),
+//                     Text(formatTime(duration - position)),
+//                   ],
+//                 ),
+//               ),
+//               CircleAvatar(
+//                 radius: 35,
+//                 child: IconButton(
+//                   icon: Icon(
+//                     isPlaying ? Icons.pause : Icons.play_arrow,
+//                   ),
+//                   iconSize: 50,
+//                   onPressed: () async {
+//                     if (isPlaying) {
+//                       await audioPlayer.pause();
+//                     } else {
+//                       await audioPlayer.resume();
+//                     }
+//                   },
+//                 ),
+//               ),
+//             ],
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }

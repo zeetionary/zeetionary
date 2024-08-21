@@ -21,6 +21,8 @@ class Constants {
   static const googlePath = 'assets/images/google.png';
   static const uk1Path = 'assets/images/uk_one.png';
   static const kurd1Path = 'assets/images/kurd_one.png';
+  static const boyAva = 'assets/images/boy_two.jpg';
+  static const girlAva = 'assets/images/girl.jpg';
 }
 
 const double ttsPitch = 1.0;
@@ -1664,7 +1666,7 @@ class _VocabularyExpansionTileState
     final textSize = ref.watch(textSizeProvider);
     return Container(
       // height: 45, // adds black and yellow lines
-      margin: const EdgeInsets.all(8.0),
+      // margin: const EdgeInsets.all(1.0),
       decoration: _isExpanded
           // ? BoxDecoration(
           //     color: Theme.of(context)
@@ -1717,6 +1719,7 @@ class _VocabularyExpansionTileState
                   Icon(
                     _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
                     size: textSize + 1,
+                    color: Theme.of(context).highlightColor.withOpacity(0.9),
                   ),
                   Row(
                     children: [
@@ -1726,6 +1729,8 @@ class _VocabularyExpansionTileState
                         style: TextStyle(
                           fontSize: textSize + 1, // Adjust the font size
                           // fontWeight: FontWeight.bold, // Adjust the font weight
+                          color:
+                              Theme.of(context).highlightColor.withOpacity(0.9),
                           // color: currentTheme
                           //     .primaryColor, // Adjust the text color
                         ),
@@ -1735,6 +1740,8 @@ class _VocabularyExpansionTileState
                       ),
                       Icon(
                         Icons.touch_app_outlined,
+                        color:
+                            Theme.of(context).highlightColor.withOpacity(0.9),
                         // color: Colors.blue.withOpacity(0.9),
                         // color: Theme.of(context).primaryColor.withOpacity(0.3),
                         size: textSize + 5,
@@ -2487,7 +2494,7 @@ class CustomFloatingActionButtonPlayer extends ConsumerWidget {
         backgroundColor:
             Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
         child: Icon(
-          Icons.music_note,
+          Icons.play_arrow,
           // Icons.music_note,
           size: textSize + 12,
           color: Theme.of(context).primaryColor.withOpacity(0.9),
@@ -3034,12 +3041,6 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
   }
 }
 
-
-
-
-
-
-
 // conversations
 // conversations
 // conversations
@@ -3049,98 +3050,212 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
 // conversations
 // conversations
 
+class CustomConversationsLeft extends ConsumerWidget {
+  final String englishText;
+  final String kurdishText;
+  final Map<String, StyledTextTag> englishTags;
+  final Map<String, StyledTextTag> kurdishTags;
 
-
-
-
-
-
-class CustomAlignWidgetLeft extends StatelessWidget {
-  final String text;
-  final Map<String, StyledTextTagBase> tags;
-
-  const CustomAlignWidgetLeft({
+  const CustomConversationsLeft({
     super.key,
-    required this.text,
-    required this.tags,
+    required this.englishText,
+    required this.kurdishText,
+    required this.englishTags,
+    required this.kurdishTags,
   });
 
   @override
-  Widget build(BuildContext context) {
-    return Align(
-      alignment: Alignment.topLeft,
-      child: Directionality(
-        textDirection: TextDirection.ltr,
-        child: Row(
-          children: [
-            Image.asset(
-              Constants.googlePath,
-              width: 52,
-            ),
-            Container(
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: Theme.of(context).primaryColor.withOpacity(0.3),
-                  width: 1.0,
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: <Widget>[
+        Align(
+          alignment: Alignment.centerLeft,
+          child: Directionality(
+            textDirection: TextDirection.ltr,
+            child: Row(
+              children: [
+                Container(
+                  width: textSize + 30.0,
+                  height: textSize + 20.0,
+                  // margin: EdgeInsets.only(
+                  //   top: textSize + 50.0,
+                  //   bottom: textSize + 33.0,
+                  // ),
+                  clipBehavior: Clip.antiAlias,
+                  padding: const EdgeInsets.all(2.0),
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).primaryColor.withOpacity(0.01),
+                    borderRadius: BorderRadius.circular(200.0),
+                    border: Border.all(
+                      color: Theme.of(context).primaryColor.withOpacity(0.02),
+                      width: 1.0,
+                    ),
+                  ),
+                  child: Image.asset(
+                    Constants.boyAva,
+                    width: 52,
+                  ),
                 ),
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: StyledText(
-                  text: text,
-                  tags: tags,
+                const SizedBox(width: 12),
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Theme.of(context).primaryColor.withOpacity(0.3),
+                      width: 1.0,
+                    ),
+                    borderRadius: const BorderRadius.only(
+                      bottomRight: Radius.circular(20.0),
+                      topLeft: Radius.circular(20.0),
+                      topRight: Radius.circular(20.0),
+                    ),
+                  ),
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Directionality(
+                            textDirection: TextDirection.ltr,
+                            child: StyledText(
+                              text: englishText,
+                              tags: englishTags,
+                              style: TextStyle(fontSize: textSize),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Align(
+                          alignment: Alignment.centerRight,
+                          child: Directionality(
+                            textDirection: TextDirection.rtl,
+                            child: StyledText(
+                              text: kurdishText,
+                              tags: kurdishTags,
+                              style: TextStyle(fontSize: textSize),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
+              ],
             ),
-          ],
+          ),
         ),
-      ),
+      ],
     );
   }
 }
 
-class CustomAlignWidgetRight extends StatelessWidget {
-  final String text;
-  final Map<String, StyledTextTagBase> tags;
+class CustomConversationsRight extends ConsumerWidget {
+  final String englishText;
+  final String kurdishText;
+  final Map<String, StyledTextTag> englishTags;
+  final Map<String, StyledTextTag> kurdishTags;
 
-  const CustomAlignWidgetRight({
+  const CustomConversationsRight({
     super.key,
-    required this.text,
-    required this.tags,
+    required this.englishText,
+    required this.kurdishText,
+    required this.englishTags,
+    required this.kurdishTags,
   });
 
   @override
-  Widget build(BuildContext context) {
-    return Align(
-      alignment: Alignment.topRight,
-      child: Directionality(
-        textDirection: TextDirection.rtl,
-        child: Row(
-          children: [
-            Image.asset(
-              Constants.googlePath,
-              width: 52,
-            ),
-            Container(
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: Theme.of(context).primaryColor.withOpacity(0.3),
-                  width: 1.0,
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: <Widget>[
+        Align(
+          alignment: Alignment.centerRight,
+          child: Directionality(
+            textDirection: TextDirection.rtl,
+            child: Row(
+              children: [
+                Container(
+                  width: textSize + 30.0,
+                  height: textSize + 20.0,
+                  margin: EdgeInsets.only(
+                    top: textSize + 50.0,
+                    bottom: textSize + 33.0,
+                  ),
+                  clipBehavior: Clip.antiAlias,
+                  padding: const EdgeInsets.all(2.0),
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).primaryColor.withOpacity(0.01),
+                    borderRadius: BorderRadius.circular(300.0),
+                    border: Border.all(
+                      color: Theme.of(context).primaryColor.withOpacity(0.02),
+                      width: 1.0,
+                    ),
+                  ),
+                  child: Image.asset(
+                    Constants.girlAva,
+                    width: 52,
+                  ),
                 ),
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: StyledText(
-                  text: text,
-                  tags: tags,
+                const SizedBox(width: 12),
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(
+                      color: Theme.of(context).primaryColor.withOpacity(0.3),
+                      width: 1.0,
+                    ),
+                    borderRadius: const BorderRadius.only(
+                      bottomLeft: Radius.circular(20.0),
+                      topLeft: Radius.circular(20.0),
+                      topRight: Radius.circular(20.0),
+                    ),
+                  ),
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Directionality(
+                            textDirection: TextDirection.ltr,
+                            child: StyledText(
+                              text: englishText,
+                              tags: englishTags,
+                              style: TextStyle(fontSize: textSize),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Align(
+                          alignment: Alignment.centerRight,
+                          child: Directionality(
+                            textDirection: TextDirection.rtl,
+                            child: StyledText(
+                              text: kurdishText,
+                              tags: kurdishTags,
+                              style: TextStyle(fontSize: textSize),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
+              ],
             ),
-          ],
+          ),
         ),
-      ),
+      ],
     );
   }
 }

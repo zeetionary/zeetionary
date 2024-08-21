@@ -3,18 +3,17 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:routemaster/routemaster.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhammer extends StatefulWidget {
-  const EnglishEntryhammer({super.key});
+class EnglishEntryhand extends StatefulWidget {
+  const EnglishEntryhand({super.key});
 
   @override
-  State<EnglishEntryhammer> createState() => _EnglishEntryhammerState();
+  State<EnglishEntryhand> createState() => _EnglishEntryhandState();
 }
 
-class _EnglishEntryhammerState extends State<EnglishEntryhammer> {
+class _EnglishEntryhandState extends State<EnglishEntryhand> {
   @override
   void initState() {
     super.initState();
@@ -54,36 +53,59 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hammer (Derived forms: hammers)
-1. A hand tool with a heavy rigid head and a handle; used to deliver an impulsive force by striking
+- Noun: hand (Derived forms: hands)
+1. The (prehensile) extremity of the superior limb (- manus, mitt, paw)
+"he had the hands of a surgeon";
  
-2. The part of a gunlock that strikes the percussion cap when the trigger is pulled (- cock)
+2. A hired labourer on a farm or ranch (- hired hand, hired man)
+"the hired hand fixed the railing"; "a ranch hand";
  
-3. The ossicle attached to the eardrum (- malleus)
+3. Something written by hand (- handwriting, script)
+"his hand was illegible";
  
-4. A light drumstick with a rounded head that is used to strike such percussion instruments as chimes, kettledrums, marimbas, glockenspiels, etc. (- mallet)
+4. Ability
+"he wanted to try his hand at singing"
  
-5. A heavy metal sphere attached to a flexible wire; used in the hammer throw
+5. A position given by its location to the side of an object
+"objections were voiced on every hand"
  
-6. A striker that is covered in felt and that causes the piano strings to vibrate
+6. The cards held in a card game by a given player at any given time (- deal)
+"he kept trying to see my hand"; "I didn't hold a good hand all evening";
  
-7. A power tool for drilling rocks (- power hammer)
+7. One of two sides of an issue
+"on the one hand..., but on the other hand..."
  
-8. The act of pounding (delivering repeated heavy blows) (- pound, hammering, pounding)
-"the sudden hammer of fists caught him off guard";
+8. A rotating pointer on the face of a timepiece
+"the big hand counts the minutes"
+ 
+9. A unit of length equal to 4 inches; used in measuring horses
+"the horse stood 20 hands"
+ 
+10. A member of the crew of a ship
+"all hands on deck"
+ 
+11. A card player in a game of bridge (- bridge player)
+"we need a 4th hand for bridge";
+ 
+12. A round of applause to signify approval
+"give the little lady a great big hand"
+ 
+13. Terminal part of the forelimb in certain vertebrates (e.g. apes or kangaroos)
+"the kangaroo's forearms seem undeveloped but the powerful five-fingered hands are skilled at feinting and clouting"
+ 
+14. Physical assistance (- helping hand)
+"give me a hand with the chores";
 
-- Verb: hammer (Derived forms: hammered, hammering, hammers)
-1. Beat with or as if with a hammer
-"hammer the metal flat"
+- Verb: hand (Derived forms: handed, handing, hands)
+1. Place into the hands or custody of (- pass, reach, pass on, turn over, give)
+"hand me the spoon, please";
  
-2. Create by hammering (- forge)
-"hammer the silver into a bowl";
- 
-3. [informal] Beat thoroughly and conclusively in a competition or fight (= - cream [informal], bat, clobber [informal], drub, thrash [informal], lick [informal], marmalise [Brit, informal], marmelize [Brit, informal], marmelise [Brit, informal], wipe the floor [informal], paste [informal], beat hollow [informal], whale [N. Amer, informal], marmalize [Brit, informal], smoke [N. Amer, informal], muller [Brit, informal], blow away [informal], slaughter [informal], tromp [N. Amer, informal], trounce)
+2. Guide, conduct or usher somewhere
+"hand the elderly lady into the taxi"
 """,
   );
 
-  final String keyword = "hammer";
+  final String keyword = "hand";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -103,21 +125,23 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hammer""");
+    await flutterTts.speak("""hand""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He struck her on the head with a hammer.""");
+    await flutterTts
+        .speak("""Keep both hands on the steering wheel at all times.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She hit her thumb with the hammer.""");
+    await flutterTts.speak(
+        """She had a large diamond on the ring finger of her left hand.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -125,211 +149,224 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""She took a hammer and knocked a hole in the wall.""");
+        .speak("""He was holding a large mug of coffee in his right hand.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The hammers in a piano are arranged in rows.""");
+    await flutterTts.speak("""Put your hand up if you know the answer.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I could hear somebody hammering next door.""");
+    await flutterTts.speak("""He had a painful abscess on his hand.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She hammered the nail into the wall.""");
+    await flutterTts.speak(
+        """For a goalkeeper, it's a great advantage to have big hands.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The swords are then hammered into shape.""");
+    await flutterTts.speak("""Wave your hands in the air!""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Someone was hammering at the door.""");
+    await flutterTts.speak(
+        """I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Hail was hammering down onto the roof.""");
+    await flutterTts.speak(
+        """He rubbed his hands in glee as he thought of all the money he would make.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He hammered the ball into the net.""");
+    await flutterTts.speak("""She introduced us and we shook hands.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Our team was hammered 5–1.""");
+    await flutterTts.speak("""Give me your hand while we cross the road.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """Eastern provinces were brutally hammered by the weekend flooding.""");
+    await flutterTts.speak("""He killed the snake with his bare hands.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1300""");
+    await flutterTts.speak("""Beth grasped the rope with both hands.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts.speak("""He lifted his hand to her face.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1500""");
+    await flutterTts.speak("""He slid his hands into his pockets.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1600""");
+    await flutterTts
+        .speak("""Her hand shook as she lifted the glass to her lips.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1700""");
+    await flutterTts.speak(
+        """The one-handed catch was a testament to the player's skill.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1800""");
+    await flutterTts.speak(
+        """Left-handed scissors are a helpful tool for left-handed children.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1900""");
+    await flutterTts
+        .speak("""The neighbours are always willing to lend a hand.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_2000""");
+    await flutterTts.speak("""Let me give you a hand with those bags.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2100""");
+    await flutterTts.speak(
+        """Early reports suggest the hand of rebel forces in the bombings.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2200""");
+    await flutterTts.speak(
+        """This appointment was an attempt to strengthen her hand in policy discussions.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2300""");
+    await flutterTts.speak(
+        """The hands on the clock showed the exact time at which the explosion occurred.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2400""");
+    await flutterTts.speak(
+        """The little hand points to the hour and the big hand points to the minutes.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2500""");
+    await flutterTts.speak(
+        """The farmer would bring in hired hands to help him harvest the crop.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2600""");
+    await flutterTts.speak("""All hands on deck!""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2700""");
+    await flutterTts
+        .speak("""Mail for hand delivery is put in a separate box.""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2800""");
+    await flutterTts.speak("""I'll have to leave after this hand.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2900""");
+    await flutterTts.speak("""You dealt me an appalling hand in that game.""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_3000""");
+    await flutterTts.speak("""She handed the letter to me.""");
   }
 
   Future<void> speaksentence31(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence3100""");
+    await flutterTts.speak("""He handed the book to Sally.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence3200""");
+    await flutterTts.speak(
+        """This decision effectively handed Burke control of the company.""");
   }
 
   Future<void> speaksentence33(String languageCode) async {
@@ -964,10 +1001,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hammer""",
-                      // alsoEnglishWord: "also: hammer",
-                      britshText: """IpaUK: /ˈhæmə(r)/""",
-                      americanText: """IpaUS: /ˈhæmər/""",
+                      word: """hand""",
+                      // alsoEnglishWord: "also: hand",
+                      britshText: """IpaUK: /hænd/""",
+                      americanText: """IpaUS: /hænd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1008,183 +1045,208 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: چەکوش، موورە، مەردان، چەکوچ
+کوردی: دەست، دەس،	پانایی دەست، لەپ یان بەری دەس،	(سەعات و هتد) میل، دەسک،	یارمەتی، کۆمەک،	کرێکار، کارکەر،	ئەندامی دەستەی کارکەرانی کەشتی، مەلەوان،	شارەزایی، مامۆستایی، وەستایی،	بەشداری، دەس‌تیابوون، دەس‌تێوەردان، خۆتێکەڵ‌کردن،	خەت، دەس‌نووس، دەس‌وخەت،	(بەتایبەت ژن‌ومێردایەتی) بەڵێنی، بڕیار، گفت، پەیمان،	دەسەڵات، کۆنتڕۆڵ، دەس‌ڕۆیشتوویی، هێز،	سەرچاوە، چاڤکانی، ژێدەر،	یەکەی پێوان، بەرامبەر بە ٤ ئینچ (١٦/١٠ سانتی‌میتر)،	لا، دەست، ئالی،	چەپڵە، دەس‌بەیەکادان،	(پەڕێن) دەست، یاریزان، کایەچی،	(دەس)لێکدانەوە، تەوقە،	چەپڵە
 """),
-// With short examples define "hammer", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) چەکووش"""),
+// With short examples define "hand", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) دەست"""),
                     SentencesRow(
                       englishText:
-                          """He struck her on the head with a hammer.""",
-                      kurdishText: """بە چەکووشێک کێشای بە سەریدا.""",
+                          """Keep both hands on the steering wheel at all times.""",
+                      kurdishText:
+                          """هەردەم هەردوو دەستت لەسەر سووکانەکە بهێڵەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """She hit her thumb with the hammer.""",
-                      kurdishText: """بە چەکووشێک لە پەنجەی خۆی دا.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """She took a hammer and knocked a hole in the wall.""",
-                      kurdishText:
-                          """چەکووشەکەی هێنا و کونێکی کردە دیوارەکە.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    CustomRichText(
-                      textBeforeLink: "٢. بڕوانە لە ",
-                      linkText: "gavel",
-                      textAfterLink: "",
-                      onTap: () {
-                        Routemaster.of(context).push("/english-hammer/gavel");
-                      },
+                    Column(
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText:
+                                  """She had a large diamond on the ring finger of her left hand.""",
+                              kurdishText:
+                                  """ئەڵقەیەکی ئەڵماسی گەورە لە براتووتەی دەستی چەپی بوو.""",
+                              onPressedBritish: () => speaksentence2("en-GB"),
+                              onPressedAmerican: () => speaksentence2("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """He was holding a large mug of coffee in his right hand.""",
+                              kurdishText:
+                                  """پیاڵەیەکی گەورە لە قاوەی لە دەستی ڕاستی گرتبوو.""",
+                              onPressedBritish: () => speaksentence3("en-GB"),
+                              onPressedAmerican: () => speaksentence3("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """Put your hand up if you know the answer.""",
+                              kurdishText:
+                                  """دەستت بەرز بکەرەوە ئەگەر وەڵامەکە دەزانی.""",
+                              onPressedBritish: () => speaksentence4("en-GB"),
+                              onPressedAmerican: () => speaksentence4("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """He had a painful abscess on his hand.""",
+                              kurdishText: "دومەڵێکی گەورەی ھەبوو لەسەر دەستی.",
+                              onPressedBritish: () => speaksentence5("en-GB"),
+                              onPressedAmerican: () => speaksentence5("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """For a goalkeeper, it's a great advantage to have big hands.""",
+                              kurdishText:
+                                  "بۆ گۆڵپارێزێک، ھەبوونی دەستی گەورە سوودێکی گەورەی ھەیە.",
+                              onPressedBritish: () => speaksentence6("en-GB"),
+                              onPressedAmerican: () => speaksentence6("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """Wave your hands in the air!""",
+                              kurdishText: "دەست ڕاوەشێنە لە ھەوادا!",
+                              onPressedBritish: () => speaksentence7("en-GB"),
+                              onPressedAmerican: () => speaksentence7("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous.""",
+                              kurdishText:
+                                  "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە.",
+                              onPressedBritish: () => speaksentence8("en-GB"),
+                              onPressedAmerican: () => speaksentence8("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """He rubbed his hands in glee as he thought of all the money he would make.""",
+                              kurdishText:
+                                  """دەستی لە خۆشیدا بە یەکدا سووا کە بیری لەوە کردەوە چەندە پارە قازانج دەکات.""",
+                              onPressedBritish: () => speaksentence9("en-GB"),
+                              onPressedAmerican: () => speaksentence9("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """She introduced us and we shook hands.""",
+                              kurdishText:
+                                  """بە یەکمانی ناساند و تەوقەمان کرد.""",
+                              onPressedBritish: () => speaksentence10("en-GB"),
+                              onPressedAmerican: () => speaksentence10("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """Give me your hand (= hold my hand) while we cross the road.""",
+                              kurdishText:
+                                  """دەستتم بدەیە کە لە شەقامەکە دەپەڕینەوە.""",
+                              onPressedBritish: () => speaksentence11("en-GB"),
+                              onPressedAmerican: () => speaksentence11("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """He killed the snake with his bare hands (= using only his hands).""",
+                              kurdishText: """مارەکەی کوشت تەنها بە دەستی.""",
+                              onPressedBritish: () => speaksentence12("en-GB"),
+                              onPressedAmerican: () => speaksentence12("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """Beth grasped the rope with both hands.""",
+                              kurdishText:
+                                  """بێس بە هەردوو دەستی حەبلەکەی توند گرتبوو.""",
+                              onPressedBritish: () => speaksentence13("en-GB"),
+                              onPressedAmerican: () => speaksentence13("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """He lifted his hand to her face.""",
+                              kurdishText:
+                                  """دەستی بۆ لای ڕووخساری بەرزکردەوە.""",
+                              onPressedBritish: () => speaksentence14("en-GB"),
+                              onPressedAmerican: () => speaksentence14("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """He slid his hands into his pockets.""",
+                              kurdishText:
+                                  """دەستەکانی خستە گیرافانەکانییەوە.""",
+                              onPressedBritish: () => speaksentence15("en-GB"),
+                              onPressedAmerican: () => speaksentence15("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (کردار) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """Her hand shook as she lifted the glass to her lips.""",
+                              kurdishText:
+                                  """دەستی دەلەرزی کە گڵاسەکەی بۆ لێوی بەرزکردەوە.""",
+                              onPressedBritish: () => speaksentence16("en-GB"),
+                              onPressedAmerican: () => speaksentence16("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) بەشێکی پیانۆ کە لە تەلەکان دەدات بۆ درووستکردنی دەنگ"""),
+                            """٢. (ناو) بەکارهێنانی دەست یان ژمارەی ئەو دەستانەی کە باسکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The hammers in a piano are arranged in rows.""",
-                      kurdishText: """چەکوشەکانی پیانۆ بە ڕیز ڕێکخراون.""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
-                      onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٤. (کردار) لێدان بە چەکوش"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """I could hear somebody hammering next door.""",
-                      kurdishText: """گوێم لە دراوسێیەک بوو چەکەشی دەکوتا.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
-                      onPressedAmerican: () => speaksentence5("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """She hammered the nail into the wall.""",
-                      kurdishText: """بزمارەکەی داکوتایە سەر دیوارەکە.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """The swords are then hammered into shape.""",
-                      kurdishText: """شمشێرەکان بە چەکوش ڕێکخرانەوە.""",
-                      onPressedBritish: () => speaksentence7("en-GB"),
-                      onPressedAmerican: () => speaksentence7("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٥. (کردار) لێدانی بەردەوام لە شتێک بە سەختی"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: pound"),
-                    SentencesRow(
-                      englishText: """Someone was hammering at the door.""",
+                          """The one-handed catch was a testament to the player's skill.""",
                       kurdishText:
-                          """کەسێک دەرگاکەی هێنابوویە خوار (= زۆر لێی دەدا).""",
-                      onPressedBritish: () => speaksentence8("en-GB"),
-                      onPressedAmerican: () => speaksentence8("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Hail was hammering down onto the roof.""",
-                      kurdishText: """تەرزە دەیکێشا بە سەربانەکەدا.""",
-                      onPressedBritish: () => speaksentence9("en-GB"),
-                      onPressedAmerican: () => speaksentence9("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٦. (کردار) لێدان لە تۆپێک بە توندی"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """He hammered the ball into the net.""",
-                      kurdishText: """تۆپەکەی بە توندی خستە ناو تۆڕەکەوە.""",
-                      onPressedBritish: () => speaksentence10("en-GB"),
-                      onPressedAmerican: () => speaksentence10("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٧. (کردار) شکستهێنان زۆر بە ئاسانی"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Our team was hammered 5–1.""",
-                      kurdishText: """تیمەکان ٥-١ گۆڵباران کرا.""",
-                      onPressedBritish: () => speaksentence11("en-GB"),
-                      onPressedAmerican: () => speaksentence11("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٨. (کردار) هەبوونی کاریگەری زۆر خراپ"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """Eastern provinces were brutally hammered by the weekend flooding.""",
-                      kurdishText:
-                          """پارێزگاکانی ڕۆژهەڵات زۆر خراپ کاریگەر بوون بە لافاوەکە.""",
-                      onPressedBritish: () => speaksentence12("en-GB"),
-                      onPressedAmerican: () => speaksentence12("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence13("en-GB"),
-                      onPressedAmerican: () => speaksentence13("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence14("en-GB"),
-                      onPressedAmerican: () => speaksentence14("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence15("en-GB"),
-                      onPressedAmerican: () => speaksentence15("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence16("en-GB"),
-                      onPressedAmerican: () => speaksentence16("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                          """گرتنە یەک دەستییەکە شاهیدی بوو بۆ شارەزایی یاریزانەکە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -1192,17 +1254,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Left-handed scissors are a helpful tool for left-handed children.""",
+                      kurdishText:
+                          """مەقەستی دەستە چەپی ئامرازێکی باشن بۆ منداڵانی چەپلەر.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) یارمەتی لە کردنی شتێکدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The neighbours are always willing to lend a hand.""",
+                      kurdishText:
+                          """دراوسێیەکان هەمیشە ئامادەن یارمەتی پێشکەش بکەن.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -1210,17 +1277,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_2000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Let me give you a hand with those bags (= help you to carry them).""",
+                      kurdishText:
+                          """با یارمەتییەکت بدەم لەگەڵ ئەو جانتایانەدا.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) کاری کەسێک لە دۆخێکی تایبەتدا؛ ئەو ئەرکەی کەسێک دەیبینێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Early reports suggest the hand of rebel forces in the bombings.""",
+                      kurdishText:
+                          """ڕاپۆرتە سەرەتاییەکان ئاماژە بە ڕۆڵی یاخیبووەکان لە بۆمبارانەکەدا پیشان دەدەن.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -1228,17 +1301,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This appointment was an attempt to strengthen her hand in policy discussions.""",
+                      kurdishText:
+                          """ئەم دیاریکردنە هەوڵێک بوو بۆ بەهێزکردنی ڕۆڵی لە گەنگەشەی سیاسەتەکاندا.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """٥. (ناو) میلی کاتژمێر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hands on the clock showed the exact time at which the explosion occurred.""",
+                      kurdishText:
+                          """میلەکانی کاتژمێرەکە ڕێک ئەو کاتەیان پیشان دەدا کە تەقینەوەکە ڕوویدا.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -1246,44 +1323,56 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The little hand points to the hour and the big hand points to the minutes.""",
+                      kurdishText:
+                          """میلە بچووکەکە ڕووی لە کاتژمێرە و میلە گەورەکە ڕووی لە خولەکەکانە.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (ناو) کەسێک کە کاری دەست دەکات لە کێڵگەیەک یان کارگەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The farmer would bring in hired hands to help him harvest the crop.""",
+                      kurdishText:
+                          """جووتیارەکە کرێکاری بەکرێگیراو دێنێت بۆ یارمەتیدانی لە دروێنەکەدا.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """٧. (ناو) دەریاوان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """All hands on deck!""",
+                      kurdishText:
+                          """هەموو دەریاوانەکان بۆ سەر ڕووی کەشتییەکە.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٨. (ناو) لەلایەن کەسێکەوە نەک ئامێرێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Mail for hand delivery is put in a separate box.""",
+                      kurdishText:
+                          """مەیڵ بۆ گواستنەوەی دەستی دەخرێتە سندووقێکی جیاواز.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٩. (ناو) قۆناغێک لە یاری؛ ئەو کاردانەی کەسێک وەری دەگرێت بۆ دەستێک یاری کارد """),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I'll have to leave after this hand.""",
+                      kurdishText: """دوای ئەم دەستەیە دەبێت بچم.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),
@@ -1291,17 +1380,20 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You dealt me an appalling hand in that game.""",
+                      kurdishText: """لەو یارییەدا دەستێکی زۆ خراپت پێدام.""",
                       onPressedBritish: () => speaksentence29("en-GB"),
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١٠. (کردار) پێدانی شتێک بە کەسێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_3000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She handed the letter to me.""",
+                      kurdishText: """نامەکەی پێمدا.""",
+                      englishNote: """Also: She handed me the letter.""",
                       onPressedBritish: () => speaksentence30("en-GB"),
                       onPressedAmerican: () => speaksentence30("en-US"),
                     ),
@@ -1309,17 +1401,20 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He handed the book to Sally.""",
+                      kurdishText: """کتێبەکەی دا بە سالی.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١١. (کردار) ڕێگەدان بە کەسێک کە شتێک ببات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This decision effectively handed Burke control of the company.""",
+                      kurdishText:
+                          """بڕیارەکە کاریگەرانە کۆنترۆڵی کۆمپانیاکەی دا بە بێرک.""",
                       onPressedBritish: () => speaksentence32("en-GB"),
                       onPressedAmerican: () => speaksentence32("en-US"),
                     ),
@@ -2183,18 +2278,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/NFtQOxjWfaA?t=';
-const double _startSecondsend = 000000000000000000000000000314;
-const String _videoIdone = 'https://youtu.be/rPe4yziWiOg?t=';
-const double _startSecondsone = 000000000000000000000000000661;
-const String _videoIdtwo = 'https://youtu.be/h0IPcqF2q9U?t=';
-const double _startSecondstwo = 000000000000000000000000000829;
-const String _videoIdthree = 'https://youtu.be/lGSOWwUvJiU?t=';
-const double _startSecondsthree = 000000000000000000000000000421;
-const String _videoIdfour = 'https://youtu.be/UkHGF2opK8k?t=';
-const double _startSecondsfour = 00000000000000000000000000059;
-const String _videoIdfive = 'https://youtu.be/-ZF63-Ozmns';
-const double _startSecondsfive = 0;
+const String _videoIdend = 'https://youtu.be/2GsK5feFt1U?t=';
+const double _startSecondsend = 000000000000000000000000000185;
+const String _videoIdone = 'https://youtu.be/xkYved-ucGg?t=';
+const double _startSecondsone = 0000000000000000000000000001523;
+const String _videoIdtwo = 'https://youtu.be/zmEv7vTOQGE?t=';
+const double _startSecondstwo = 000000000000000000000000000354;
+const String _videoIdthree = 'https://youtu.be/lrNcx2D_FZI?t=';
+const double _startSecondsthree = 0000000000000000000000000002;
+const String _videoIdfour = 'https://youtu.be/2TUGZ1VQDss?t=';
+const double _startSecondsfour = 000000000000000000000000000273;
+const String _videoIdfive = 'https://youtu.be/dfuPBC-v5NE?t=';
+const double _startSecondsfive = 0000000000000000000000000001212;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

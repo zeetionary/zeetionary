@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
+import 'dart:async';
+import 'dart:math';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:routemaster/routemaster.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
-// import 'package:zeetionary/constants.dart';
-
-// class GrammarScreen extends StatefulWidget {
-//   const GrammarScreen({super.key});
-
-//   @override
-//   State<GrammarScreen> createState() => _GrammarScreenState();
-// }
+import 'package:zeetionary/grammar/grammar_list.dart';
+import 'package:zeetionary/grammar/grammar_navigation.dart';
+import 'package:zeetionary/grammar/grammar_filters.dart';
 
 class GrammarScreen extends ConsumerStatefulWidget {
   const GrammarScreen({super.key});
@@ -18,27 +15,24 @@ class GrammarScreen extends ConsumerStatefulWidget {
   ConsumerState<ConsumerStatefulWidget> createState() => _GrammarScreenState();
 }
 
-// class _GrammarScreenState extends State<GrammarScreen> {
-
 class _GrammarScreenState extends ConsumerState<GrammarScreen> {
   _GrammarScreenState();
-  // (zee: adde tags) https://chat.openai.com/c/488e70a6-e67b-418c-9f94-fc78cdff92e4
-  // (zee: added expansion tile) https://chat.openai.com/c/c71302c6-7f56-4336-9f2f-044931aa1ac4
 
-  bool isFilterExpanded = false;
+  bool isFilterExpanded = true;
+
+  String? selectedFilter;
 
   Widget _buildFilterTag(String filter) {
+    final textSize = ref.watch(textSizeProvider);
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 4),
       child: ElevatedButton(
         onPressed: () {
           setState(() {
             if (selectedFilter == filter) {
-              // If the selected tag is tapped again, unselect it
               selectedFilter = null;
-              filteredWords = List.from(allGrammarSubjects);
+              filteredWords = List.from(allWordsEnglish);
             } else {
-              // Otherwise, select the tag and update the list
               selectedFilter = filter;
               _updateFilteredWords();
             }
@@ -62,6 +56,7 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
             color: selectedFilter == filter
                 ? Theme.of(context).primaryColor.withOpacity(0.8)
                 : Theme.of(context).primaryColor.withOpacity(0.6),
+            fontSize: textSize - 3,
           ),
         ),
       ),
@@ -71,96 +66,104 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
   void _updateFilteredWords() {
     setState(() {
       if (_searchController.text.isNotEmpty) {
-        // If there's a search query, filter based on the query
         filteredWords = filterItems[selectedFilter!]!
             .where((word) => word
                 .toLowerCase()
                 .contains(_searchController.text.toLowerCase()))
             .toList();
       } else {
-        // If no search query, show all items for the selected filter
         filteredWords = List.from(filterItems[selectedFilter!]!);
       }
     });
   }
-
-  final Map<String, List<String>> filterItems = {
-    "present": ["teeeee", "present simple", "present perfect"],
-    "past": ["past simple", "past perfect"],
-    // "pasttt": ["past simple", "past perfect"],
-    // "pastttt": ["past simple", "past perfect"],
-    // "pasttttt": ["past simple", "past perfect"],
-    // "pastttttt": ["past simple", "past perfect"],
-    // "pasttttttt": ["past simple", "past perfect"],
-  };
-
-  String? selectedFilter; // Nullable to represent no selection
-
-  final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
-  final List<String> allGrammarSubjects = [
-    // "dopsum",
-    "present simple",
-    "present perfect",
-    "past simple",
-    "past perfect",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-    "test",
-  ];
 
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
 
   final ScrollController _scrollController = ScrollController();
   bool showScrollToTop = false;
+  Set<String> englishfavourites = {};
 
   @override
   void initState() {
     super.initState();
-    filteredWords = List.from(allGrammarSubjects);
-    // Add a listener to the scroll controller to determine when to show the scroll-to-top button
+    filteredWords = List.from(allWordsEnglish);
     _scrollController.addListener(() {
       setState(() {
         showScrollToTop = _scrollController.offset > 100;
       });
     });
+    shuffledWords = List.from(allWordsEnglish)..shuffle(Random());
+    _startTimer();
+    _loadEnglishFavourites();
+  }
+
+  void _loadEnglishFavourites() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      englishfavourites =
+          prefs.getStringList('grammar favourites')?.toSet() ?? {};
+    });
+  }
+
+  void _updateEnglishFavourites() async {
+    final prefs = await SharedPreferences.getInstance();
+    final englishFavouritesList =
+        prefs.getStringList('grammar favourites')?.toSet() ?? {};
+
+    setState(() {
+      englishfavourites = englishFavouritesList;
+    });
+  }
+
+  void onEnglishFavourite(String word) async {
+    final prefs = await SharedPreferences.getInstance();
+
+    setState(() {
+      final englishFavouritesList =
+          prefs.getStringList('grammar favourites')?.toSet() ?? {};
+
+      final wordWithoutTimestamp = word.split('-').first;
+
+      if (englishFavouritesList.contains(wordWithoutTimestamp)) {
+        englishFavouritesList.remove(wordWithoutTimestamp);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Favourite removed: $wordWithoutTimestamp'),
+          ),
+        );
+      } else {
+        englishFavouritesList.add(wordWithoutTimestamp);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Favourite added: $wordWithoutTimestamp'),
+          ),
+        );
+      }
+
+      prefs.setStringList('grammar favourites', englishFavouritesList.toList());
+      _updateEnglishFavourites();
+    });
+  }
+
+  List<String> shuffledWords = [];
+
+  // int _shuffleCurrentIndex = 0;
+
+  void _shuffleWords() {
+    shuffledWords = List.from(allWordsEnglish)..shuffle(Random());
+  }
+
+  void _startTimer() async {
+    for (var i = 0; i < shuffledWords.length; i++) {
+      await Future.delayed(const Duration(milliseconds: 1100), () {
+        setState(() {
+          // _shuffleCurrentIndex = i;
+        });
+      });
+    }
+    _shuffleWords();
+    _startTimer();
   }
 
   void _scrollToTop() {
@@ -171,108 +174,132 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
     );
   }
 
-  // void filterResults(String query) {
-  //   setState(() {
-  //     filteredWords = allGrammarSubjects
-  //         .where((word) => word.toLowerCase().contains(query.toLowerCase()))
-  //         .toList();
-  //   });
-  // }
-
   void filterResults(String query) {
     setState(() {
       if (query.isEmpty) {
-        // If the query is empty, show all words
-        filteredWords = List.from(allGrammarSubjects);
+        filteredWords = List.from(allWordsEnglish);
       } else {
-        // Create a map to store word frequencies
         Map<String, int> wordFrequencies = {};
 
-        // Update frequencies for exact matches, considering hyphens and spaces as the same
-        for (String word in allGrammarSubjects) {
-          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
-          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+        for (String word in allWordsEnglish) {
+          String normalizedWord = _normalizeString(word);
+          String normalizedQuery = _normalizeString(query);
 
           if (normalizedWord == normalizedQuery) {
-            wordFrequencies[word] = (wordFrequencies[word] ?? 0) +
-                2; // Higher weight for exact matches
+            wordFrequencies[word] = (wordFrequencies[word] ?? 0) + 2;
           }
         }
 
-        // Update frequencies for relevant matches (contains the query), considering hyphens and spaces as the same
-        for (String word in allGrammarSubjects) {
-          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
-          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+        for (String word in allWordsEnglish) {
+          String normalizedWord = _normalizeString(word);
+          String normalizedQuery = _normalizeString(query);
 
           if (normalizedWord.contains(normalizedQuery)) {
-            // Prioritize words with more consecutive matching characters
-            int consecutiveMatches =
-                _countConsecutiveMatches(normalizedWord, normalizedQuery);
+            int consecutiveMatches = _countConsecutiveMatches(
+              normalizedWord,
+              normalizedQuery,
+            );
             wordFrequencies[word] =
                 (wordFrequencies[word] ?? 0) + consecutiveMatches;
           }
         }
 
-        // Fuzzy search for approximate matches, considering hyphens and spaces as the same
-        List<String> fuzzyMatches = allGrammarSubjects
-            .where((word) => _fuzzyMatch(word.replaceAll('-', ' '),
-                query.replaceAll('-', ' ').toLowerCase()))
+        List<String> fuzzyMatches = allWordsEnglish
+            .where((word) =>
+                _fuzzyMatch(_normalizeString(word), _normalizeString(query)))
             .toList();
 
-        // Update frequencies for fuzzy matches
         for (String word in fuzzyMatches) {
           wordFrequencies[word] = (wordFrequencies[word] ?? 0) + 1;
         }
 
-        // Combine and prioritize by relevancy, with exact matches at the top
         filteredWords = wordFrequencies.keys.toList()
           ..sort((a, b) {
-            bool exactMatchA = a.replaceAll('-', ' ').toLowerCase() ==
-                query.replaceAll('-', ' ').toLowerCase();
-            bool exactMatchB = b.replaceAll('-', ' ').toLowerCase() ==
-                query.replaceAll('-', ' ').toLowerCase();
+            bool exactMatchA = _isExactMatch(a, query);
+            bool exactMatchB = _isExactMatch(b, query);
 
             if (exactMatchA && !exactMatchB) {
-              return -1; // A is an exact match, so it comes first.
+              return -1;
             } else if (!exactMatchA && exactMatchB) {
-              return 1; // B is an exact match, so it comes first.
+              return 1;
             } else {
-              // Sort based on frequencies for non-exact matches
-              int frequencyComparison =
-                  (wordFrequencies[b] ?? 0).compareTo(wordFrequencies[a] ?? 0);
+              bool isSubstringA = a.contains(query) && !exactMatchA;
+              bool isSubstringB = b.contains(query) && !exactMatchB;
 
-              if (frequencyComparison == 0) {
-                // If frequencies are equal, prioritize words containing the exact match
-                bool containsExactA = a
-                    .replaceAll('-', ' ')
-                    .toLowerCase()
-                    .contains(query.replaceAll('-', ' ').toLowerCase());
-                bool containsExactB = b
-                    .replaceAll('-', ' ')
-                    .toLowerCase()
-                    .contains(query.replaceAll('-', ' ').toLowerCase());
-
-                if (containsExactA && !containsExactB) {
-                  return -1; // A contains the exact match, so it comes next.
-                } else if (!containsExactA && containsExactB) {
-                  return 1; // B contains the exact match, so it comes next.
-                }
-
-                // If not an exact match, prioritize by the length of consecutive matches
-                int consecutiveMatchComparison =
-                    _countConsecutiveMatches(b, query)
-                        .compareTo(_countConsecutiveMatches(a, query));
-
-                if (consecutiveMatchComparison != 0) {
-                  return consecutiveMatchComparison;
-                }
+              if (isSubstringA && !isSubstringB) {
+                return -1;
+              } else if (!isSubstringA && isSubstringB) {
+                return 1;
               }
 
-              return frequencyComparison;
+              bool startsWithA = a.startsWith(query);
+              bool startsWithB = b.startsWith(query);
+
+              if (startsWithA && !startsWithB) {
+                return -1;
+              } else if (!startsWithA && startsWithB) {
+                return 1;
+              }
+
+              bool endsWithA = a.endsWith(query);
+              bool endsWithB = b.endsWith(query);
+
+              if (endsWithA && !endsWithB) {
+                return -1;
+              } else if (!endsWithA && endsWithB) {
+                return 1;
+              }
+
+              if (exactMatchA && exactMatchB) {
+                return a.length.compareTo(b.length);
+              }
+
+              int consecutiveMatchComparison =
+                  _countConsecutiveMatches(b, query)
+                      .compareTo(_countConsecutiveMatches(a, query));
+
+              if (consecutiveMatchComparison != 0) {
+                return consecutiveMatchComparison;
+              }
+
+              return (wordFrequencies[b] ?? 0)
+                  .compareTo(wordFrequencies[a] ?? 0);
             }
           });
       }
     });
+  }
+
+  bool _isExactMatch(String word, String query) {
+    word = _normalizeString(word);
+    query = _normalizeString(query);
+
+    return word == query;
+  }
+
+  String _normalizeString(String input) {
+    input = input.replaceAll('ise', 'ize');
+    input = input.replaceAll('sy', 'zy');
+    input = input.replaceAll('tre', 'ter');
+    input = input.replaceAll('our', 'or');
+    input = input.replaceAll('lling', 'ling');
+    input = input.replaceAll('yse', 'yze');
+    input = input.replaceAll('ourite', 'orite');
+    input = input.replaceAll('ce', 'se');
+    input = input.replaceAll('sation', 'zation');
+    input = input.replaceAll('amme', 'am');
+    input = input.replaceAll('haem', 'hem');
+    input = input.replaceAll('mme', 'm');
+    input = input.replaceAll('ogue', 'og');
+    input = input.replaceAll('llery', 'lry');
+    input = input.replaceAll('naec', 'nec');
+    input = input.replaceAll('nes', 'ns');
+    input = input.replaceAll('nium', 'num');
+    input = input.replaceAll('è', 'e');
+    input = input.replaceAll('ê', 'e');
+    input = input.replaceAll('hoea', 'hea');
+
+    return input.replaceAll('-', ' ').toLowerCase();
   }
 
   int _countConsecutiveMatches(String word, String query) {
@@ -288,62 +315,57 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
   }
 
   bool _fuzzyMatch(String word, String query) {
-    // Implement an enhanced fuzzy matching algorithm
-    // Consider consecutive character matches and adjust the threshold.
-
-    // Case-insensitive comparison
     word = word.toLowerCase();
     query = query.toLowerCase();
 
-    // Exact match
     if (word == query) {
       return true;
     }
 
-    // Check for consecutive character matches
-    int consecutiveMatches = 0;
-    int maxConsecutiveMatches = 2; // Adjust as needed
+    int maxEditDistance = 2;
+    int editDistance = _calculateEditDistance(word, query);
 
-    for (int i = 0;
-        i < word.length && consecutiveMatches <= maxConsecutiveMatches;
-        i++) {
-      if (i < query.length && word[i] == query[i]) {
-        consecutiveMatches++;
-      } else {
-        consecutiveMatches = 0;
+    return editDistance <= maxEditDistance;
+  }
+
+  int _calculateEditDistance(String a, String b) {
+    int m = a.length;
+    int n = b.length;
+    List<List<int>> dp =
+        List.generate(m + 1, (_) => List<int>.filled(n + 1, 0));
+
+    for (int i = 0; i <= m; i++) {
+      for (int j = 0; j <= n; j++) {
+        if (i == 0) {
+          dp[i][j] = j;
+        } else if (j == 0) {
+          dp[i][j] = i;
+        } else if (a[i - 1] == b[j - 1]) {
+          dp[i][j] = dp[i - 1][j - 1];
+        } else {
+          dp[i][j] = 1 + _min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+        }
       }
     }
 
-    return consecutiveMatches > maxConsecutiveMatches;
+    return dp[m][n];
   }
 
-  // void filterResults(String query) {
-  //   setState(() {
-  //     if (query.isEmpty) {
-  //       // If the query is empty, show all words
-  //       filteredWords = List.from(allGrammarSubjects);
-  //     } else {
-  //       // Sort words to prioritize exact matches first
-  //       filteredWords = allGrammarSubjects
-  //           .where((word) => word.toLowerCase().contains(query.toLowerCase()))
-  //           .toList();
+  int _min(int a, int b, int c) => a < b ? (a < c ? a : c) : (b < c ? b : c);
 
-  //       filteredWords.sort((a, b) {
-  //         bool exactMatchA = a.toLowerCase() == query.toLowerCase();
-  //         bool exactMatchB = b.toLowerCase() == query.toLowerCase();
+  void saveToHistory(String word) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    List<String> englishhistory = prefs.getStringList('grammar history') ?? [];
 
-  //         if (exactMatchA && !exactMatchB) {
-  //           return -1; // A is an exact match, so it comes first.
-  //         } else if (!exactMatchA && exactMatchB) {
-  //           return 1; // B is an exact match, so it comes first.
-  //         } else {
-  //           // If both are exact matches or neither are, sort them based on lexicographic order.
-  //           return a.toLowerCase().compareTo(b.toLowerCase());
-  //         }
-  //       });
-  //     }
-  //   });
-  // }
+    if (englishhistory.contains(word)) {
+      englishhistory.remove(word);
+    }
+
+    englishhistory.insert(0, word);
+    await prefs.setStringList('grammar history', englishhistory);
+
+    setState(() {});
+  }
 
   void clearSearch() {
     _searchController.clear();
@@ -364,29 +386,22 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
       floatingActionButton: showScrollToTop
           ? FloatingActionButton(
               onPressed: _scrollToTop,
-              backgroundColor:
-                  Theme.of(context).scaffoldBackgroundColor, // background color
-              elevation: 0, // Remove elevation
+              backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+              elevation: 0,
               shape: RoundedRectangleBorder(
-                borderRadius:
-                    BorderRadius.circular(16.0), // Button border radius
+                borderRadius: BorderRadius.circular(16.0),
                 side: BorderSide(
-                  color: Theme.of(context)
-                      .primaryColor
-                      .withOpacity(0.003), // Border color
-                  width: 0.2, // Border width
+                  color: Theme.of(context).primaryColor.withOpacity(0.003),
+                  width: 0.2,
                 ),
               ),
               child: Icon(
                 Icons.arrow_upward,
-                size: textSize + 2, // Adjust the icon size as needed
-                color: Theme.of(context)
-                    .primaryColor
-                    .withOpacity(0.6), // Icon color
+                size: textSize + 2,
+                color: Theme.of(context).primaryColor.withOpacity(0.6),
               ),
             )
           : null,
-      // (zee: scroll top) https://chat.openai.com/c/8f33ee5e-f847-4559-93f1-8869b74f52f9
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -401,64 +416,75 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
                 controller: _searchController,
                 onChanged: filterResults,
                 decoration: InputDecoration(
-                  // labelText: "Search here",
-                  prefixIcon: Icon(Icons.search, size: textSize + 5),
-                  hintText: "Search here",
+                  // hintText: shuffledWords.isEmpty
+                  //     ? ''
+                  //     : shuffledWords[_shuffleCurrentIndex],
+                  hintText: "Explore English",
                   hintStyle: TextStyle(fontSize: textSize),
-                  // suffixIcon: IconButton(
-                  //   icon: Icon(
-                  //     isFilterExpanded
-                  //         ? Icons.arrow_drop_up
-                  //         : Icons.arrow_drop_down,
-                  //   ),
-                  //   onPressed: () {
-                  //     setState(() {
-                  //       isFilterExpanded = !isFilterExpanded;
-                  //     });
-                  //   },
-                  // ),
+                  border: const OutlineInputBorder(),
+                  prefixIcon: Icon(Icons.search, size: textSize + 5),
                   suffixIcon: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       if (_searchController.text.isNotEmpty)
                         IconButton(
-                          icon: Icon(Icons.clear, size: textSize + 5),
+                          icon: Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(
+                                color: Theme.of(context)
+                                    .primaryColor
+                                    .withOpacity(0.3),
+                                width: 1.0,
+                              ),
+                              borderRadius: BorderRadius.circular(15.0),
+                            ),
+                            child: Padding(
+                              padding: const EdgeInsets.all(3.0),
+                              child: Icon(Icons.clear, size: textSize + 5),
+                            ),
+                          ),
                           onPressed: clearSearch,
                         ),
                       IconButton(
-                        icon: Icon(
-                          isFilterExpanded
-                              ? Icons.arrow_drop_up
-                              : Icons.arrow_drop_down,
-                          size: textSize + 5, // Adjust the size as needed
+                        icon: Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              color: Theme.of(context)
+                                  .primaryColor
+                                  .withOpacity(0.3),
+                              width: 1.0,
+                            ),
+                            borderRadius: BorderRadius.circular(15.0),
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(3.0),
+                            child: Icon(
+                              isFilterExpanded
+                                  ? Icons.topic_outlined
+                                  : Icons.topic_outlined,
+                              // ? Icons.arrow_drop_up
+                              // : Icons.arrow_drop_down,
+                              size: textSize + 5,
+                            ),
+                          ),
                         ),
                         onPressed: () {
-                          setState(() {
-                            isFilterExpanded = !isFilterExpanded;
-                          });
+                          setState(
+                            () {
+                              isFilterExpanded = !isFilterExpanded;
+                            },
+                          );
                         },
-                      )
+                      ),
                     ],
                   ),
-                  border: const OutlineInputBorder(),
                 ),
               ),
             ),
           ),
-          // Tags for filtering
-          // AnimatedContainer(
-          //   duration: const Duration(milliseconds: 150),
-          //   height: isFilterExpanded ? 40 : 0,
-          //   child: Row(
-          //     mainAxisAlignment: MainAxisAlignment.center,
-          //     children: [
-          //       for (var filter in filterItems.keys) _buildFilterTag(filter),
-          //     ],
-          //   ),
-          // ),
           AnimatedContainer(
             duration: const Duration(milliseconds: 250),
-            height: isFilterExpanded ? 40 : 0,
+            height: isFilterExpanded ? textSize + 15 : 0,
             child: Row(
               children: [
                 Expanded(
@@ -474,172 +500,18 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
               ],
             ),
           ),
-          // (zee: scrollable: https://chat.openai.com/c/0a2f9950-39d5-4fff-86eb-87635448df3e)
           Expanded(
             child: Directionality(
-              textDirection:
-                  TextDirection.ltr, // Set the text direction to right-to-left
-              child: EnglishGrammar(
+              textDirection: TextDirection.ltr,
+              child: EnglishDictionaryNavigation(
                 words: filteredWords,
                 scrollController: _scrollController,
-                onTapWord: (allGrammarSubjects) {
-                  if (allGrammarSubjects == "100") {
-                    Routemaster.of(context).push("/english/grammar/aback");
-                  }
-                  if (allGrammarSubjects == "present simple") {
-                    Routemaster.of(context).push("/english/grammar/aback");
-                  }
-                  if (allGrammarSubjects == "teeeee") {
-                    Routemaster.of(context).push("/english/grammar/aback");
-                  }
-                },
+                onEnglishFavourite: onEnglishFavourite,
+                englishfavourites: englishfavourites,
               ),
             ),
           ),
         ],
-      ),
-    );
-  }
-}
-
-class EnglishGrammar extends StatelessWidget {
-  final List<String> words;
-  final Function(String) onTapWord;
-  final ScrollController scrollController;
-
-  const EnglishGrammar({
-    super.key,
-    required this.words,
-    required this.onTapWord,
-    required this.scrollController,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return ListView.builder(
-      controller: scrollController, // Use the passed scroll controller
-      itemCount: words.length,
-      itemBuilder: (BuildContext context, int index) {
-        return ListTileGrammar(
-          allGrammarSubjects: words[index],
-          onTap: () {
-            onTapWord(words[index]);
-          },
-        );
-      },
-    );
-  }
-}
-
-// class EnglishGrammar extends StatelessWidget {
-//   final List<String> words;
-//   final Function(String) onTapWord;
-//   final ScrollController scrollController;
-
-//   const EnglishGrammar({
-//     super.key,
-//     required this.words,
-//     required this.onTapWord,
-//     required this.scrollController,
-//   });
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return ListView.builder(
-//       controller: scrollController, // Use the passed scroll controller
-//       itemCount: words.length,
-//       itemBuilder: (BuildContext context, int index) {
-//         return ListTileGrammar(
-//           allGrammarSubjects: words[index],
-//           onTap: () {
-//             onTapWord(words[index]);
-//           },
-//         );
-//       },
-//     );
-//   }
-// }
-
-// class EnglishGrammar extends StatelessWidget {
-//   final List<String> words;
-//   final Function(String) onTapWord;
-
-//   const EnglishGrammar({
-//     super.key,
-//     required this.words,
-//     required this.onTapWord,
-//   });
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return ListView.builder(
-//       itemCount: words.length,
-//       itemBuilder: (BuildContext context, int index) {
-//         return ListTileGrammar(
-//           allGrammarSubjects: words[index],
-//           onTap: () {
-//             onTapWord(words[index]);
-//           },
-//         );
-//       },
-//     );
-//   }
-// }
-
-class ListTileGrammar extends ConsumerWidget {
-  final String allGrammarSubjects;
-  final VoidCallback? onTap;
-
-  const ListTileGrammar({
-    super.key,
-    required this.allGrammarSubjects,
-    this.onTap,
-  });
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2;
-    return InkWell(
-      onTap: onTap,
-      child: ListTile(
-        key: key,
-        title: Text(
-          allGrammarSubjects,
-          style: TextStyle(
-            fontSize: textSize, // Set your desired font size
-          ),
-        ),
-        trailing: const Icon(Icons.arrow_forward),
-      ),
-    );
-  }
-}
-
-class CardButton extends ConsumerWidget {
-  final String label;
-  final VoidCallback? onPressed;
-
-  const CardButton({
-    super.key,
-    required this.label,
-    this.onPressed,
-  });
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2;
-    return SizedBox(
-      height: 50,
-      child: Card(
-        child: InkWell(
-          onTap: onPressed,
-          child: Center(
-            child: Text(
-              label,
-              style: TextStyle(fontSize: textSize),
-            ),
-          ),
-        ),
       ),
     );
   }

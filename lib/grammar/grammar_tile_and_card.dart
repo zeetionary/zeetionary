@@ -3,14 +3,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
-class EnglishDictionaryLogout extends StatelessWidget {
+class EnglishDictionary extends StatelessWidget {
   final List<String> words;
   final Function(String) onTapWord;
   final ScrollController scrollController;
   final Function(String) onEnglishFavourite;
   final Set<String> englishfavourites;
 
-  const EnglishDictionaryLogout({
+  const EnglishDictionary({
     super.key,
     required this.words,
     required this.onTapWord,
@@ -25,10 +25,10 @@ class EnglishDictionaryLogout extends StatelessWidget {
       controller: scrollController,
       itemCount: words.length,
       separatorBuilder: (BuildContext context, int index) {
-        return const ListViewSeparator();
-      },
+                  return const ListViewSeparator();
+                },
       itemBuilder: (BuildContext context, int index) {
-        return ListTileEnglishLogout(
+        return ListTileEnglish(
           wordsEnglish: words[index],
           onTap: () {
             onTapWord(words[index]);
@@ -41,13 +41,13 @@ class EnglishDictionaryLogout extends StatelessWidget {
   }
 }
 
-// class ListTileEnglishLogout extends StatelessWidget {
+// class ListTileEnglish extends StatelessWidget {
 //   final String wordsEnglish;
 //   final VoidCallback onTap;
 //   final VoidCallback onEnglishFavourite;
 //   final bool isFavouriteed;
 
-//   const ListTileEnglishLogout({
+//   const ListTileEnglish({
 //     super.key,
 //     required this.wordsEnglish,
 //     required this.onTap,
@@ -68,13 +68,13 @@ class EnglishDictionaryLogout extends StatelessWidget {
 //   }
 // }
 
-class ListTileEnglishLogout extends ConsumerWidget {
+class ListTileEnglish extends ConsumerWidget {
   final String wordsEnglish;
   final VoidCallback? onTap;
   final VoidCallback? onEnglishFavourite;
   final bool isFavouriteed;
 
-  const ListTileEnglishLogout({
+  const ListTileEnglish({
     super.key,
     required this.wordsEnglish,
     this.onTap,
@@ -97,11 +97,13 @@ class ListTileEnglishLogout extends ConsumerWidget {
           ),
         ),
         trailing: IconButton(
-          icon: Icon(
-            Icons.arrow_forward, // Change the icon to a forward-facing arrow
-            color: Theme.of(context).primaryColor.withOpacity(0.7),
-          ),
-          onPressed: null,
+          icon: isFavouriteed
+              ? Icon(Icons.favorite,
+                  color: Theme.of(context).primaryColor.withOpacity(0.7))
+              // color: Colors.red.shade300.withOpacity(0.99))
+              : Icon(Icons.favorite_border,
+                  color: Theme.of(context).primaryColor.withOpacity(0.7)),
+          onPressed: () => onEnglishFavourite?.call(),
         ),
       ),
     );
@@ -170,14 +172,14 @@ class CardButton extends ConsumerWidget {
 
 
 
-// class EnglishDictionaryLogout extends StatelessWidget {
+// class EnglishDictionary extends StatelessWidget {
 //   final List<String> words;
 //   final Function(String) onTapWord;
 //   final ScrollController scrollController;
 //   final Function(String) onEnglishFavourite;
 //   final Set<String> englishfavourites;
 
-//   const EnglishDictionaryLogout({
+//   const EnglishDictionary({
 //     super.key,
 //     required this.words,
 //     required this.onTapWord,
@@ -192,7 +194,7 @@ class CardButton extends ConsumerWidget {
 //       controller: scrollController, // Use the passed scroll controller
 //       itemCount: words.length,
 //       itemBuilder: (BuildContext context, int index) {
-//         return ListTileEnglishLogout(
+//         return ListTileEnglish(
 //           wordsEnglish: words[index],
 //           onTap: () {
 //             onTapWord(words[index]);
@@ -206,12 +208,12 @@ class CardButton extends ConsumerWidget {
 //   }
 // }
 
-// class EnglishDictionaryLogout extends StatelessWidget {
+// class EnglishDictionary extends StatelessWidget {
 //   final List<String> words;
 //   final Function(String) onTapWord;
 //   final ScrollController scrollController;
 
-//   const EnglishDictionaryLogout({
+//   const EnglishDictionary({
 //     super.key,
 //     required this.words,
 //     required this.onTapWord,
@@ -224,7 +226,7 @@ class CardButton extends ConsumerWidget {
 //       controller: scrollController, // Use the passed scroll controller
 //       itemCount: words.length,
 //       itemBuilder: (BuildContext context, int index) {
-//         return ListTileEnglishLogout(
+//         return ListTileEnglish(
 //           wordsEnglish: words[index],
 //           onTap: () {
 //             onTapWord(words[index]);
@@ -235,11 +237,11 @@ class CardButton extends ConsumerWidget {
 //   }
 // }
 
-// class EnglishDictionaryLogout extends StatelessWidget {
+// class EnglishDictionary extends StatelessWidget {
 //   final List<String> words;
 //   final Function(String) onTapWord;
 
-//   const EnglishDictionaryLogout({
+//   const EnglishDictionary({
 //     super.key,
 //     required this.words,
 //     required this.onTapWord,
@@ -250,7 +252,7 @@ class CardButton extends ConsumerWidget {
 //     return ListView.builder(
 //       itemCount: words.length,
 //       itemBuilder: (BuildContext context, int index) {
-//         return ListTileEnglishLogout(
+//         return ListTileEnglish(
 //           wordsEnglish: words[index],
 //           onTap: () {
 //             onTapWord(words[index]);
@@ -261,13 +263,13 @@ class CardButton extends ConsumerWidget {
 //   }
 // }
 
-// class ListTileEnglishLogout extends ConsumerWidget {
+// class ListTileEnglish extends ConsumerWidget {
 //   final String wordsEnglish;
 //   final VoidCallback? onTap;
 //   final VoidCallback? onEnglishFavourite;
 //   final bool isFavouriteed;
 
-//   const ListTileEnglishLogout({
+//   const ListTileEnglish({
 //     super.key,
 //     required this.wordsEnglish,
 //     this.onTap,

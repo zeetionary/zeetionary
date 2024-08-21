@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/home/screens/history_screens/ckb_history_screen.dart';
 import 'package:zeetionary/home/screens/history_screens/en_history_screen.dart';
+import 'package:zeetionary/home/screens/history_screens/gr_history_screen.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -11,7 +12,7 @@ class HistoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const DefaultTabController(
-      length: 2,
+      length: 3,
       child: Scaffold(
         appBar: ZeetionaryAppbar(),
         body: Padding(
@@ -22,6 +23,7 @@ class HistoryScreen extends StatelessWidget {
                 tabs: [
                   UkIconForHistoryTab(),
                   KurdIconForHistoryTab(),
+                  UkIconForHistoryTab(),
                 ],
               ),
               Expanded(
@@ -29,6 +31,7 @@ class HistoryScreen extends StatelessWidget {
                   children: [
                     EnglishHistoryScreen(),
                     KurdishHistoryScreen(),
+                    GrammarHistoryScreen(),
                   ],
                 ),
               ),
@@ -60,7 +63,7 @@ class CustomTabBarHistory extends ConsumerWidget {
         borderRadius: BorderRadius.circular(15.0),
       ),
       child: TabBar(
-        isScrollable: true,
+        isScrollable: false,
         tabs: tabs,
         indicator: BoxDecoration(
           gradient: LinearGradient(
@@ -104,8 +107,8 @@ class UkIconForHistoryTab extends ConsumerWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: textSize + 80,
-        height: textSize + 15,
+        width: textSize + 50,
+        height: textSize + 10,
       ),
     );
   }
@@ -122,8 +125,8 @@ class KurdIconForHistoryTab extends ConsumerWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: textSize + 80,
-        height: textSize + 15,
+        width: textSize + 50,
+        height: textSize + 10,
       ),
     );
   }

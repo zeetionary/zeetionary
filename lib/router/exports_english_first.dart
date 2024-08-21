@@ -4939,16 +4939,16 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_halloween.dart' show EnglishEntryhalloween //// ffff Halloween
 // en_entry_hallucination.dart' show EnglishEntryhallucination
 // en_entry_halo.dart' show EnglishEntryhalo
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_halt.dart' show EnglishEntryhalt
+// en_entry_halter.dart' show EnglishEntryhalter
+// en_entry_halting.dart' show EnglishEntryhalting
+// en_entry_haltingly.dart' show EnglishEntryhaltingly
+// en_entry_halve.dart' show EnglishEntryhalve
+// en_entry_ham.dart' show EnglishEntryham
+// en_entry_ham_fisted.dart' show EnglishEntryham_fisted //// ffff ham-fisted
+// en_entry_hamburger.dart' show EnglishEntryhamburger
+// en_entry_hamlet.dart' show EnglishEntryhamlet
+// en_entry_hammer.dart' show EnglishEntryhammer
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

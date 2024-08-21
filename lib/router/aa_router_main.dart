@@ -10,6 +10,7 @@ import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/home
 // import 'package:zeetionary/router/router_keys_five.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/quiz/quiz_screen.dart';
+import 'package:zeetionary/home/screens/conversations/conversations_screen.dart';
 import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 import 'package:zeetionary/home/screens/irregular_verbs/irregular_verbs.dart';
@@ -36,6 +37,7 @@ import 'package:zeetionary/router/exports_english_first.dart';
 import 'package:zeetionary/router/router_keys_english_first.dart';
 import 'package:zeetionary/router/router_keys_english_history_first.dart';
 import 'package:zeetionary/router/router_keys_english_bookmarks_first.dart';
+import 'package:zeetionary/router/router_keys_conversations.dart';
 //
 //
 //
@@ -1020,7 +1022,7 @@ final Map<String, PageBuilder> allRoutes = {
   ...getRoutesEnglishFirst(),
   ...getRoutesEnglishHistoryFirst(),
   ...getRoutesEnglishBookmarksFirst(),
-  // ...getRoutes(),
+  ...getRoutesConversations(),
   // ...getRoutes(),
   // ...getRoutes(),
   // ...getRoutes(),
@@ -1084,6 +1086,8 @@ Map<String, PageBuilder> getRoutesMain() {
   "/grammar-screen": (_) => _blP(const GrammarScreen()),
   //
   "/english-sentences-page": (_) => _blP(const SentencesPage()),
+  //
+  "/conversations-screen": (_) => _blP(const ConversationScreen()),
   //
   "/settings-screen": (_) => _blP(const SettingsPage()),
   //

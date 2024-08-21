@@ -12688,7 +12688,7 @@ Map<String, PageBuilder> getRoutesEnglishFirst() {
   // "/english-gymnastic/gymnastics": (_) => _blP(const EnglishEntrygymnastics()),
   // "/english-haemophiliac/haemophilia": (_) => _blP(const EnglishEntryhaemophilia()),
   // "/english-hall/dormitory": (_) => _blP(const EnglishEntrydormitory()),
-  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-hammer/gavel": (_) => _blP(const EnglishEntrygavel()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),

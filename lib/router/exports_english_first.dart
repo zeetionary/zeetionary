@@ -4958,19 +4958,19 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_handbrake.dart' show EnglishEntryhandbrake
 // en_entry_handcuff.dart' show EnglishEntryhandcuff
 // en_entry_handful.dart' show EnglishEntryhandful
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_handheld.dart' show EnglishEntryhandheld
+// en_entry_hand_picked.dart' show EnglishEntryhandpicked //// فففف hand-picked
+// en_entry_hands_free.dart' show EnglishEntryhandsfree //// فففف hands-free
+// en_entry_handshake.dart' show EnglishEntryhandshake
+// en_entry_handstand.dart' show EnglishEntryhandstand
+// en_entry_handwriting.dart' show EnglishEntryhandwriting
+// en_entry_handout.dart' show EnglishEntryhandout
+// en_entry_handicap.dart' show EnglishEntryhandicap
+// en_entry_handicapped.dart' show EnglishEntryhandicapped
+// en_entry_handicraft.dart' show EnglishEntryhandicraft
+// en_entry_handiwork.dart' show EnglishEntryhandiwork
+// en_entry_handkerchief.dart' show EnglishEntryhandkerchief
+// en_entry_handle.dart' show EnglishEntryhandle
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

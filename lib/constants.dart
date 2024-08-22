@@ -2494,7 +2494,8 @@ class CustomFloatingActionButtonPlayer extends ConsumerWidget {
         backgroundColor:
             Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
         child: Icon(
-          Icons.play_arrow,
+          Icons.headphones_outlined,
+          // Icons.play_arrow,
           // Icons.music_note,
           size: textSize + 12,
           color: Theme.of(context).primaryColor.withOpacity(0.9),
@@ -3072,81 +3073,89 @@ class CustomConversationsLeft extends ConsumerWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        Align(
-          alignment: Alignment.centerLeft,
-          child: Directionality(
-            textDirection: TextDirection.ltr,
-            child: Row(
-              children: [
-                Container(
-                  width: textSize + 30.0,
-                  height: textSize + 20.0,
-                  // margin: EdgeInsets.only(
-                  //   top: textSize + 50.0,
-                  //   bottom: textSize + 33.0,
-                  // ),
-                  clipBehavior: Clip.antiAlias,
-                  padding: const EdgeInsets.all(2.0),
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).primaryColor.withOpacity(0.01),
-                    borderRadius: BorderRadius.circular(200.0),
-                    border: Border.all(
-                      color: Theme.of(context).primaryColor.withOpacity(0.02),
-                      width: 1.0,
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Align(
+            alignment: Alignment.centerLeft,
+            child: Directionality(
+              textDirection: TextDirection.ltr,
+              child: Row(
+                children: [
+                  Container(
+                    // width: textSize + 30.0,
+                    // height: textSize + 20.0,
+                    // margin: EdgeInsets.only(
+                    //   top: textSize + 50.0,
+                    //   bottom: textSize + 33.0,
+                    // ),
+                    clipBehavior: Clip.antiAlias,
+                    // padding: const EdgeInsets.all(2.0),
+                    decoration: BoxDecoration(
+                      color: Theme.of(context)
+                          .scaffoldBackgroundColor
+                          .withOpacity(0.0001),
+                      borderRadius: BorderRadius.circular(800.0),
+                      border: Border.all(
+                        color: Theme.of(context)
+                            .scaffoldBackgroundColor
+                            .withOpacity(0.02),
+                        width: 1.0,
+                      ),
+                    ),
+                    child: Image.asset(
+                      Constants.boyAva,
+                      width: 52,
                     ),
                   ),
-                  child: Image.asset(
-                    Constants.boyAva,
-                    width: 52,
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: Theme.of(context).primaryColor.withOpacity(0.3),
-                      width: 1.0,
+                  const SizedBox(width: 12),
+                  Container(
+                    constraints: const BoxConstraints(maxWidth: 300),
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Theme.of(context).primaryColor.withOpacity(0.3),
+                        width: 1.0,
+                      ),
+                      borderRadius: const BorderRadius.only(
+                        bottomRight: Radius.circular(20.0),
+                        topLeft: Radius.circular(20.0),
+                        topRight: Radius.circular(20.0),
+                      ),
                     ),
-                    borderRadius: const BorderRadius.only(
-                      bottomRight: Radius.circular(20.0),
-                      topLeft: Radius.circular(20.0),
-                      topRight: Radius.circular(20.0),
-                    ),
-                  ),
-                  child: Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Directionality(
-                            textDirection: TextDirection.ltr,
-                            child: StyledText(
-                              text: englishText,
-                              tags: englishTags,
-                              style: TextStyle(fontSize: textSize),
+                    child: Column(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Align(
+                            alignment: Alignment.centerLeft,
+                            child: Directionality(
+                              textDirection: TextDirection.ltr,
+                              child: StyledText(
+                                text: englishText,
+                                tags: englishTags,
+                                style: TextStyle(fontSize: textSize),
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Align(
-                          alignment: Alignment.centerRight,
-                          child: Directionality(
-                            textDirection: TextDirection.rtl,
-                            child: StyledText(
-                              text: kurdishText,
-                              tags: kurdishTags,
-                              style: TextStyle(fontSize: textSize),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Align(
+                            alignment: Alignment.centerRight,
+                            child: Directionality(
+                              textDirection: TextDirection.rtl,
+                              child: StyledText(
+                                text: kurdishText,
+                                tags: kurdishTags,
+                                style: TextStyle(fontSize: textSize),
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         ),
@@ -3177,81 +3186,89 @@ class CustomConversationsRight extends ConsumerWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        Align(
-          alignment: Alignment.centerRight,
-          child: Directionality(
-            textDirection: TextDirection.rtl,
-            child: Row(
-              children: [
-                Container(
-                  width: textSize + 30.0,
-                  height: textSize + 20.0,
-                  margin: EdgeInsets.only(
-                    top: textSize + 50.0,
-                    bottom: textSize + 33.0,
-                  ),
-                  clipBehavior: Clip.antiAlias,
-                  padding: const EdgeInsets.all(2.0),
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).primaryColor.withOpacity(0.01),
-                    borderRadius: BorderRadius.circular(300.0),
-                    border: Border.all(
-                      color: Theme.of(context).primaryColor.withOpacity(0.02),
-                      width: 1.0,
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Align(
+            alignment: Alignment.centerRight,
+            child: Directionality(
+              textDirection: TextDirection.rtl,
+              child: Row(
+                children: [
+                  Container(
+                    // width: textSize + 30.0,
+                    // height: textSize + 20.0,
+                    // margin: EdgeInsets.only(
+                    //   top: textSize + 50.0,
+                    //   bottom: textSize + 33.0,
+                    // ),
+                    clipBehavior: Clip.antiAlias,
+                    // padding: const EdgeInsets.all(2.0),
+                    decoration: BoxDecoration(
+                      color: Theme.of(context)
+                          .scaffoldBackgroundColor
+                          .withOpacity(0.0001),
+                      borderRadius: BorderRadius.circular(800.0),
+                      border: Border.all(
+                        color: Theme.of(context)
+                            .scaffoldBackgroundColor
+                            .withOpacity(0.02),
+                        width: 1.0,
+                      ),
+                    ),
+                    child: Image.asset(
+                      Constants.girlAva,
+                      width: 52,
                     ),
                   ),
-                  child: Image.asset(
-                    Constants.girlAva,
-                    width: 52,
-                  ),
-                ),
-                const SizedBox(width: 12),
-                Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(
-                      color: Theme.of(context).primaryColor.withOpacity(0.3),
-                      width: 1.0,
+                  const SizedBox(width: 12),
+                  Container(
+                    constraints: const BoxConstraints(maxWidth: 300),
+                    decoration: BoxDecoration(
+                      border: Border.all(
+                        color: Theme.of(context).primaryColor.withOpacity(0.3),
+                        width: 1.0,
+                      ),
+                      borderRadius: const BorderRadius.only(
+                        bottomLeft: Radius.circular(20.0),
+                        topLeft: Radius.circular(20.0),
+                        topRight: Radius.circular(20.0),
+                      ),
                     ),
-                    borderRadius: const BorderRadius.only(
-                      bottomLeft: Radius.circular(20.0),
-                      topLeft: Radius.circular(20.0),
-                      topRight: Radius.circular(20.0),
-                    ),
-                  ),
-                  child: Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Directionality(
-                            textDirection: TextDirection.ltr,
-                            child: StyledText(
-                              text: englishText,
-                              tags: englishTags,
-                              style: TextStyle(fontSize: textSize),
+                    child: Column(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Align(
+                            alignment: Alignment.centerLeft,
+                            child: Directionality(
+                              textDirection: TextDirection.ltr,
+                              child: StyledText(
+                                text: englishText,
+                                tags: englishTags,
+                                style: TextStyle(fontSize: textSize),
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Align(
-                          alignment: Alignment.centerRight,
-                          child: Directionality(
-                            textDirection: TextDirection.rtl,
-                            child: StyledText(
-                              text: kurdishText,
-                              tags: kurdishTags,
-                              style: TextStyle(fontSize: textSize),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Align(
+                            alignment: Alignment.centerRight,
+                            child: Directionality(
+                              textDirection: TextDirection.rtl,
+                              child: StyledText(
+                                text: kurdishText,
+                                tags: kurdishTags,
+                                style: TextStyle(fontSize: textSize),
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         ),

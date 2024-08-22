@@ -31,7 +31,7 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
           setState(() {
             if (selectedFilter == filter) {
               selectedFilter = null;
-              filteredWords = List.from(allWordsEnglish);
+              filteredWords = List.from(allTopicsGrammar);
             } else {
               selectedFilter = filter;
               _updateFilteredWords();
@@ -82,58 +82,58 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
 
   final ScrollController _scrollController = ScrollController();
   bool showScrollToTop = false;
-  Set<String> englishfavourites = {};
+  Set<String> grammarfavourites = {};
 
   @override
   void initState() {
     super.initState();
-    filteredWords = List.from(allWordsEnglish);
+    filteredWords = List.from(allTopicsGrammar);
     _scrollController.addListener(() {
       setState(() {
         showScrollToTop = _scrollController.offset > 100;
       });
     });
-    shuffledWords = List.from(allWordsEnglish)..shuffle(Random());
+    shuffledWords = List.from(allTopicsGrammar)..shuffle(Random());
     _startTimer();
-    _loadEnglishFavourites();
+    _loadgrammarfavourites();
   }
 
-  void _loadEnglishFavourites() async {
+  void _loadgrammarfavourites() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      englishfavourites =
+      grammarfavourites =
           prefs.getStringList('grammar favourites')?.toSet() ?? {};
     });
   }
 
-  void _updateEnglishFavourites() async {
+  void _updategrammarfavourites() async {
     final prefs = await SharedPreferences.getInstance();
-    final englishFavouritesList =
+    final grammarfavouritesList =
         prefs.getStringList('grammar favourites')?.toSet() ?? {};
 
     setState(() {
-      englishfavourites = englishFavouritesList;
+      grammarfavourites = grammarfavouritesList;
     });
   }
 
-  void onEnglishFavourite(String word) async {
+  void onGrammarFavourite(String word) async {
     final prefs = await SharedPreferences.getInstance();
 
     setState(() {
-      final englishFavouritesList =
+      final grammarfavouritesList =
           prefs.getStringList('grammar favourites')?.toSet() ?? {};
 
       final wordWithoutTimestamp = word.split('-').first;
 
-      if (englishFavouritesList.contains(wordWithoutTimestamp)) {
-        englishFavouritesList.remove(wordWithoutTimestamp);
+      if (grammarfavouritesList.contains(wordWithoutTimestamp)) {
+        grammarfavouritesList.remove(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text('Favourite removed: $wordWithoutTimestamp'),
           ),
         );
       } else {
-        englishFavouritesList.add(wordWithoutTimestamp);
+        grammarfavouritesList.add(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text('Favourite added: $wordWithoutTimestamp'),
@@ -141,8 +141,8 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
         );
       }
 
-      prefs.setStringList('grammar favourites', englishFavouritesList.toList());
-      _updateEnglishFavourites();
+      prefs.setStringList('grammar favourites', grammarfavouritesList.toList());
+      _updategrammarfavourites();
     });
   }
 
@@ -151,7 +151,7 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
   // int _shuffleCurrentIndex = 0;
 
   void _shuffleWords() {
-    shuffledWords = List.from(allWordsEnglish)..shuffle(Random());
+    shuffledWords = List.from(allTopicsGrammar)..shuffle(Random());
   }
 
   void _startTimer() async {
@@ -177,11 +177,11 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
   void filterResults(String query) {
     setState(() {
       if (query.isEmpty) {
-        filteredWords = List.from(allWordsEnglish);
+        filteredWords = List.from(allTopicsGrammar);
       } else {
         Map<String, int> wordFrequencies = {};
 
-        for (String word in allWordsEnglish) {
+        for (String word in allTopicsGrammar) {
           String normalizedWord = _normalizeString(word);
           String normalizedQuery = _normalizeString(query);
 
@@ -190,7 +190,7 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
           }
         }
 
-        for (String word in allWordsEnglish) {
+        for (String word in allTopicsGrammar) {
           String normalizedWord = _normalizeString(word);
           String normalizedQuery = _normalizeString(query);
 
@@ -204,7 +204,7 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
           }
         }
 
-        List<String> fuzzyMatches = allWordsEnglish
+        List<String> fuzzyMatches = allTopicsGrammar
             .where((word) =>
                 _fuzzyMatch(_normalizeString(word), _normalizeString(query)))
             .toList();
@@ -355,14 +355,14 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
 
   void saveToHistory(String word) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> englishhistory = prefs.getStringList('grammar history') ?? [];
+    List<String> grammarhistory = prefs.getStringList('grammar history') ?? [];
 
-    if (englishhistory.contains(word)) {
-      englishhistory.remove(word);
+    if (grammarhistory.contains(word)) {
+      grammarhistory.remove(word);
     }
 
-    englishhistory.insert(0, word);
-    await prefs.setStringList('grammar history', englishhistory);
+    grammarhistory.insert(0, word);
+    await prefs.setStringList('grammar history', grammarhistory);
 
     setState(() {});
   }
@@ -503,11 +503,11 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
           Expanded(
             child: Directionality(
               textDirection: TextDirection.ltr,
-              child: EnglishDictionaryNavigation(
+              child: GrammarNavigation(
                 words: filteredWords,
                 scrollController: _scrollController,
-                onEnglishFavourite: onEnglishFavourite,
-                englishfavourites: englishfavourites,
+                onGrammarFavourite: onGrammarFavourite,
+                grammarfavourites: grammarfavourites,
               ),
             ),
           ),

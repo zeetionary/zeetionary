@@ -55,8 +55,7 @@ flutter:
     - assets/images/zee_splash.png
     - assets/images/zeetionary_one.png
     - assets/images/zeetionary_three.png
-    - assets/audio.mp3
-    - assets/audio_two.mp3
+    - assets/good_morning.mp3
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

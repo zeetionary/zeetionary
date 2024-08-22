@@ -23,7 +23,7 @@ class BookmarksScreen extends StatelessWidget {
                 tabs: [
                   UkIconForBookmarksTab(),
                   KurdIconForBookmarksTab(),
-                  UkIconForBookmarksTab(),
+                  GrammarIconForBookmarksTab(),
                 ],
               ),
               Expanded(
@@ -128,6 +128,28 @@ class KurdIconForBookmarksTab extends ConsumerWidget {
         width: textSize + 50,
         height: textSize + 10,
       ),
+    );
+  }
+}
+
+class GrammarIconForBookmarksTab extends ConsumerWidget {
+  const GrammarIconForBookmarksTab({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    return Tab(
+      icon: Icon(
+        Icons.language,
+        size: textSize + 12,
+      ),
+      // icon: Image.asset(
+      //   'assets/images/uk_one.png',
+      //   width: textSize + 50,
+      //   height: textSize + 10,
+      // ),
     );
   }
 }

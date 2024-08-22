@@ -91,36 +91,35 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She scooped up handfuls of loose earth.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She grabbed handfuls of the dirty snow.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Only a handful of people came.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""They cannot hope to win more than a handful of seats at the next election.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""Her children can be a real handful.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -988,14 +987,13 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پڕمشتێ، پڕدەستێ، پڕچنگ(ێ)، لوێچ(ێ)، (لالوێچ)، گەمش، گولم،	ژمارەیەکی کەم، هێندێ، هەندێ، بڕێ
 """),
 // With short examples define "handful", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) بڕێک لە شتێک کە لە دەستدا جێگای دەبێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She scooped up handfuls of loose earth.""",
+                      kurdishText: """مشتێک خۆڵی نەرمی هەڵگرت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1003,17 +1001,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She grabbed handfuls of the dirty snow.""",
+                      kurdishText: """چەند مشتێک لە بەفرە پیسەکەی هەڵگرت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) ژمارەیەکی کەم لە خەڵکی یان شت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Only a handful of people came.""",
+                      kurdishText: """تەنها ژمارەیەکی کەم لە خەڵک هاتن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1021,17 +1019,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They cannot hope to win more than a handful of seats at the next election.""",
+                      kurdishText: """ناتوانن پێشبینی ئەوە بکەن زیاتر لە کەمێک کورسی لە هەڵبژاردنی داهاتوو ببەنەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ناو) کەسێک یان ئاژەڵێک کە سەختە کۆنترۆڵ بکرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her children can be a real handful.""",
+                      kurdishText: """منداڵەکانی دەکرێت هاروهاجی تەواو بن.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -2138,19 +2136,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = '';
-const double _startSecondsend = 000000000000000000000000000;
-const String _videoIdone = '';
-const double _startSecondsone = 000000000000000000000000000;
-const String _videoIdtwo = '';
-const double _startSecondstwo = 000000000000000000000000000;
-const String _videoIdthree = '';
-const double _startSecondsthree = 000000000000000000000000000;
-const String _videoIdfour = '';
-const double _startSecondsfour = 000000000000000000000000000;
-const String _videoIdfive = '';
-const double _startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+const String _videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
+const double _startSecondsend = 000000000000000000000000000658;
+const String _videoIdone = 'https://youtu.be/h4CyhQqAPpk?t=';
+const double _startSecondsone = 00000000000000000000000000069;
+const String _videoIdtwo = 'https://youtu.be/7EnWiGYT1g4?t=';
+const double _startSecondstwo = 000000000000000000000000000257;
+const String _videoIdthree = 'https://youtu.be/x6btmJSRueE?t=';
+const double _startSecondsthree = 000000000000000000000000000238;
+const String _videoIdfour = 'https://youtu.be/HxRUuGqqMG4?t=';
+const double _startSecondsfour = 000000000000000000000000000142;
+const String _videoIdfive = 'https://youtu.be/7c1FO8FT__U?t=';
+const double _startSecondsfive = 000000000000000000000000000387;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

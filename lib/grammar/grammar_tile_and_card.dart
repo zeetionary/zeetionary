@@ -7,16 +7,16 @@ class EnglishDictionary extends StatelessWidget {
   final List<String> words;
   final Function(String) onTapWord;
   final ScrollController scrollController;
-  final Function(String) onEnglishFavourite;
-  final Set<String> englishfavourites;
+  final Function(String) onGrammarFavourite;
+  final Set<String> grammarfavourites;
 
   const EnglishDictionary({
     super.key,
     required this.words,
     required this.onTapWord,
     required this.scrollController,
-    required this.onEnglishFavourite,
-    required this.englishfavourites,
+    required this.onGrammarFavourite,
+    required this.grammarfavourites,
   });
 
   @override
@@ -25,16 +25,16 @@ class EnglishDictionary extends StatelessWidget {
       controller: scrollController,
       itemCount: words.length,
       separatorBuilder: (BuildContext context, int index) {
-                  return const ListViewSeparator();
-                },
+        return const ListViewSeparator();
+      },
       itemBuilder: (BuildContext context, int index) {
         return ListTileEnglish(
           wordsEnglish: words[index],
           onTap: () {
             onTapWord(words[index]);
           },
-          onEnglishFavourite: () => onEnglishFavourite(words[index]),
-          isFavouriteed: englishfavourites.contains(words[index]),
+          onGrammarFavourite: () => onGrammarFavourite(words[index]),
+          isFavouriteed: grammarfavourites.contains(words[index]),
         );
       },
     );
@@ -44,14 +44,14 @@ class EnglishDictionary extends StatelessWidget {
 // class ListTileEnglish extends StatelessWidget {
 //   final String wordsEnglish;
 //   final VoidCallback onTap;
-//   final VoidCallback onEnglishFavourite;
+//   final VoidCallback onGrammarFavourite;
 //   final bool isFavouriteed;
 
 //   const ListTileEnglish({
 //     super.key,
 //     required this.wordsEnglish,
 //     required this.onTap,
-//     required this.onEnglishFavourite,
+//     required this.onGrammarFavourite,
 //     required this.isFavouriteed,
 //   });
 
@@ -61,7 +61,7 @@ class EnglishDictionary extends StatelessWidget {
 //       title: Text(wordsEnglish),
 //       trailing: IconButton(
 //         icon: Icon(isFavouriteed ? Icons.favorite : Icons.favorite_border),
-//         onPressed: onEnglishFavourite,
+//         onPressed: onGrammarFavourite,
 //       ),
 //       onTap: onTap,
 //     );
@@ -71,14 +71,14 @@ class EnglishDictionary extends StatelessWidget {
 class ListTileEnglish extends ConsumerWidget {
   final String wordsEnglish;
   final VoidCallback? onTap;
-  final VoidCallback? onEnglishFavourite;
+  final VoidCallback? onGrammarFavourite;
   final bool isFavouriteed;
 
   const ListTileEnglish({
     super.key,
     required this.wordsEnglish,
     this.onTap,
-    this.onEnglishFavourite,
+    this.onGrammarFavourite,
     this.isFavouriteed = false,
   });
 
@@ -103,7 +103,7 @@ class ListTileEnglish extends ConsumerWidget {
               // color: Colors.red.shade300.withOpacity(0.99))
               : Icon(Icons.favorite_border,
                   color: Theme.of(context).primaryColor.withOpacity(0.7)),
-          onPressed: () => onEnglishFavourite?.call(),
+          onPressed: () => onGrammarFavourite?.call(),
         ),
       ),
     );
@@ -176,16 +176,16 @@ class CardButton extends ConsumerWidget {
 //   final List<String> words;
 //   final Function(String) onTapWord;
 //   final ScrollController scrollController;
-//   final Function(String) onEnglishFavourite;
-//   final Set<String> englishfavourites;
+//   final Function(String) onGrammarFavourite;
+//   final Set<String> grammarfavourites;
 
 //   const EnglishDictionary({
 //     super.key,
 //     required this.words,
 //     required this.onTapWord,
 //     required this.scrollController,
-//     required this.onEnglishFavourite,
-//     required this.englishfavourites,
+//     required this.onGrammarFavourite,
+//     required this.grammarfavourites,
 //   });
 
 //   @override
@@ -199,9 +199,9 @@ class CardButton extends ConsumerWidget {
 //           onTap: () {
 //             onTapWord(words[index]);
 //           },
-//           onEnglishFavourite: () => onEnglishFavourite(
+//           onGrammarFavourite: () => onGrammarFavourite(
 //               words[index]), // Use the passed value for favouriting
-//           isFavouriteed: englishfavourites.contains(words[index]),
+//           isFavouriteed: grammarfavourites.contains(words[index]),
 //         );
 //       },
 //     );
@@ -266,14 +266,14 @@ class CardButton extends ConsumerWidget {
 // class ListTileEnglish extends ConsumerWidget {
 //   final String wordsEnglish;
 //   final VoidCallback? onTap;
-//   final VoidCallback? onEnglishFavourite;
+//   final VoidCallback? onGrammarFavourite;
 //   final bool isFavouriteed;
 
 //   const ListTileEnglish({
 //     super.key,
 //     required this.wordsEnglish,
 //     this.onTap,
-//     this.onEnglishFavourite,
+//     this.onGrammarFavourite,
 //     this.isFavouriteed = false,
 //   });
 
@@ -298,7 +298,7 @@ class CardButton extends ConsumerWidget {
 //               // color: Colors.red.shade300.withOpacity(0.99))
 //               : Icon(Icons.favorite_border,
 //                   color: Theme.of(context).primaryColor.withOpacity(0.7)),
-//           onPressed: () => onEnglishFavourite?.call(),
+//           onPressed: () => onGrammarFavourite?.call(),
 //         ),
 //       ),
 //     );

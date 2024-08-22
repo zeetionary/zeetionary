@@ -54,7 +54,7 @@ class _ConversationsGoodMorningState
     audioPlayer.setReleaseMode(ReleaseMode.stop);
 
     final player = AudioCache(prefix: 'assets/');
-    final file = await player.load('audio_two.mp3');
+    final file = await player.load('good_morning.mp3');
     audioPlayer.setSourceDeviceFile(file.path);
   }
 
@@ -208,8 +208,8 @@ class BodyOfGoodmorning extends StatelessWidget {
       child: Column(
         children: [
           CustomConversationsLeft(
-            englishText: '<red>Hello</red>, how are you?',
-            kurdishText: '<red>سڵاو</red> چۆنیت؟',
+            englishText: 'Good morning!',
+            kurdishText: 'بەیانیت باش!',
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),
@@ -222,8 +222,8 @@ class BodyOfGoodmorning extends StatelessWidget {
             },
           ),
           CustomConversationsRight(
-            englishText: '<red>Hello</red>, how are you?',
-            kurdishText: '<red>سڵاو</red> چۆنیت؟',
+            englishText: 'Morning! How’s it going?',
+            kurdishText: 'بەیانی تۆش باش! کاروبار چۆنە؟',
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),
@@ -236,8 +236,10 @@ class BodyOfGoodmorning extends StatelessWidget {
             },
           ),
           CustomConversationsLeft(
-            englishText: '<red>Hello</red>, how are you?',
-            kurdishText: '<red>سڵاو</red> چۆنیت؟',
+            englishText:
+                """Pretty good. Got my coffee, so I'm set. How about you?""",
+            kurdishText:
+                """زۆر باش. قاوەکەمم خواردەوە، بۆیە تەواو ئامادەم. ئەی تۆ؟""",
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),
@@ -250,8 +252,10 @@ class BodyOfGoodmorning extends StatelessWidget {
             },
           ),
           CustomConversationsRight(
-            englishText: '<red>Hello</red>, how are you?',
-            kurdishText: '<red>سڵاو</red> چۆنیت؟',
+            englishText:
+                """Same here. Already checked a few emails, so I'm feeling productive.""",
+            kurdishText:
+                """منیش. پێشوەختە سەیری چەند ئیمەیڵێکم، بۆیە هەست دەکەم شتێکم بەدەستهێناوە""",
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),
@@ -264,8 +268,8 @@ class BodyOfGoodmorning extends StatelessWidget {
             },
           ),
           CustomConversationsLeft(
-            englishText: '<red>Hello</red>, how are you?',
-            kurdishText: '<red>سڵاو</red> چۆنیت؟',
+            englishText: """Nice! Any big tasks on your plate today?""",
+            kurdishText: """باشە! هیچ ئەرکێک ئەمڕۆ لە هەگبەتدایە؟""",
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),
@@ -278,8 +282,9 @@ class BodyOfGoodmorning extends StatelessWidget {
             },
           ),
           CustomConversationsRight(
-            englishText: '<red>Hello</red>, how are you?',
-            kurdishText: '<red>سڵاو</red> چۆنیت؟',
+            englishText:
+                """A couple of meetings and a report to finish. You?""",
+            kurdishText: """چەند کۆبوونەوەیەک و ڕاپۆرتێک بۆ تەواوکردن.""",
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),
@@ -292,8 +297,8 @@ class BodyOfGoodmorning extends StatelessWidget {
             },
           ),
           CustomConversationsLeft(
-            englishText: '<red>Hello</red>, how are you?',
-            kurdishText: '<red>سڵاو</red> چۆنیت؟',
+            englishText: """We should catch up later about that project.""",
+            kurdishText: """دەبێت دواتر لەسەر ئەو پڕۆژەیە قسە بکەین.""",
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),
@@ -306,8 +311,36 @@ class BodyOfGoodmorning extends StatelessWidget {
             },
           ),
           CustomConversationsRight(
-            englishText: '<red>Hello</red>, how are you?',
-            kurdishText: '<red>سڵاو</red> چۆنیت؟',
+            englishText: """Definitely! Let’s touch base after lunch.""",
+            kurdishText: """بەدڵنیاییەوە! با دوای نانی نیوەڕۆ قسە بکەینەوە""",
+            englishTags: {
+              'red': StyledTextTag(
+                style: const TextStyle(color: Colors.red),
+              ),
+            },
+            kurdishTags: {
+              'red': StyledTextTag(
+                style: const TextStyle(color: Colors.red),
+              ),
+            },
+          ),
+          CustomConversationsLeft(
+            englishText: """Sounds like a plan. Have a good morning!""",
+            kurdishText: """پلانێکی باشە. بەیانییەکی خۆش!""",
+            englishTags: {
+              'red': StyledTextTag(
+                style: const TextStyle(color: Colors.red),
+              ),
+            },
+            kurdishTags: {
+              'red': StyledTextTag(
+                style: const TextStyle(color: Colors.red),
+              ),
+            },
+          ),
+          CustomConversationsRight(
+            englishText: """You too! See you later.""",
+            kurdishText: """بۆ تۆش! دەتبینمەوە.""",
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),

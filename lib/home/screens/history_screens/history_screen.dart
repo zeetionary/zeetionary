@@ -23,7 +23,7 @@ class HistoryScreen extends StatelessWidget {
                 tabs: [
                   UkIconForHistoryTab(),
                   KurdIconForHistoryTab(),
-                  UkIconForHistoryTab(),
+                  GrammarIconForHistoryTab(),
                 ],
               ),
               Expanded(
@@ -128,6 +128,28 @@ class KurdIconForHistoryTab extends ConsumerWidget {
         width: textSize + 50,
         height: textSize + 10,
       ),
+    );
+  }
+}
+
+class GrammarIconForHistoryTab extends ConsumerWidget {
+  const GrammarIconForHistoryTab({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    return Tab(
+      icon: Icon(
+        Icons.language,
+        size: textSize + 12,
+      ),
+      // icon: Image.asset(
+      //   'assets/images/uk_one.png',
+      //   width: textSize + 50,
+      //   height: textSize + 10,
+      // ),
     );
   }
 }

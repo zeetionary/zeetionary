@@ -152,7 +152,7 @@ class _KurdishSentencesScreenState
             text: beforeMatch,
             style: TextStyle(
               color: Theme.of(context).primaryColor,
-              fontSize: textSize + 4,
+              fontSize: textSize + 5,
             ),
           ),
           TextSpan(
@@ -160,14 +160,14 @@ class _KurdishSentencesScreenState
             style: TextStyle(
               color: Theme.of(context).highlightColor,
               fontWeight: FontWeight.bold,
-              fontSize: textSize + 4,
+              fontSize: textSize + 5,
             ),
           ),
           TextSpan(
             text: afterMatch,
             style: TextStyle(
               color: Theme.of(context).primaryColor,
-              fontSize: textSize + 4,
+              fontSize: textSize + 5,
             ),
           ),
         ],

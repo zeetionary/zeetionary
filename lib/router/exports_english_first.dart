@@ -5008,10 +5008,10 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_hard_copy.dart' show EnglishEntryhardcopy //// ffff hard copy
 // en_entry_hard_core.dart' show EnglishEntryhardcore //// فففف hard core
 // en_entry_hard_currency.dart' show EnglishEntryhardcurrency //// فففف hard currency
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hard_disk.dart' show EnglishEntryharddisk //// ffff hard disk
+// en_entry_hard_drug.dart' show EnglishEntryharddrug //// فففف hard drug
+// en_entry_hard_headed.dart' show EnglishEntryhardheaded //// فففف hard-headed
+// en_entry_hard_hearted.dart' show EnglishEntryhardhearted //// فففف hard-hearted
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

@@ -939,7 +939,7 @@ ${englishMeaningConst.text}
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """handkerchief""",
-                      // alsoEnglishWord: "also: handkerchief",
+                      alsoEnglishWord: "also: hanky, hankie",
                       britshText: """IpaUK: /ˈhæŋkətʃɪf/,  /ˈhæŋkətʃiːf/""",
                       americanText: """IpaUS: /ˈhæŋkərtʃɪf/,  /ˈhæŋkərtʃiːf/""",
                       onPressedBritish: () => speakheadword("en-GB"),

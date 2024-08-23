@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: "James was a handsome devil and rich, too.",
-            kurdishText: "خەیمس شەیتانێکی جوان و دەوڵەمەندیش بوو.",
+            kurdishText: "جەیمس شەیتانێکی جوان و دەوڵەمەندیش بوو.",
             onPressedBritish: () => speakdevils8("en-GB"),
             onPressedAmerican: () => speakdevils8("en-US"),
           ),

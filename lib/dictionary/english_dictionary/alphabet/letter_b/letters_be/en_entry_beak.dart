@@ -155,7 +155,7 @@ class EnglishEntrybeak extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He'd be handsome if it wasn't for that huge beak of his.",
-                            kurdishText: "جوان دەبوو ئەگەر ئەو لمۆزەی نەبوایە.",
+                            kurdishText: "جوان دەبوو ئەگەر ئەو لمۆزە زلەی نەبوایە.",
                             onPressedBritish: () => speakbeaks2("en-GB"),
                             onPressedAmerican: () => speakbeaks2("en-US"),
                           ),

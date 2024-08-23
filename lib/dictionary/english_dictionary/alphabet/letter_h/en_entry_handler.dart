@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhandle extends StatefulWidget {
-  const EnglishEntryhandle({super.key});
+class EnglishEntryhandler extends StatefulWidget {
+  const EnglishEntryhandler({super.key});
 
   @override
-  State<EnglishEntryhandle> createState() => _EnglishEntryhandleState();
+  State<EnglishEntryhandler> createState() => _EnglishEntryhandlerState();
 }
 
-class _EnglishEntryhandleState extends State<EnglishEntryhandle> {
+class _EnglishEntryhandlerState extends State<EnglishEntryhandler> {
   @override
   void initState() {
     super.initState();
@@ -53,37 +53,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: handle (Derived forms: handled, handling, handles)
-1. Be in charge of, act on, or dispose of (- manage, deal, care)
-"This blender can't handle nuts";
+- Noun: handler (Derived forms: handlers)
+1. One who trains or exhibits animals (- animal trainer)
  
-2. Interact in a certain way (- treat, do by)
-"Handle the press reporters gently";
+2. An agent who handles something or someone
+"the senator's campaign handlers"
  
-3. Act on verbally or in some form of artistic expression (- cover, treat, plow [N. Amer], deal, address, plough [Brit, Cdn])
-"The course handled all of Western Civilization";
- 
-4. Touch, lift, or hold with the hands (- palm)
-"Don't handle the merchandise";
- 
-5. Handle effectively (- wield, manage)
-"The burglar handled an axe";
- 
-6. Show and train
-"The prize-winning poodle was handled by Mrs. Priscilla Prescott"
-
-- Noun: handle (Derived forms: handles)
-1. The appendage to an object that is designed to be held in order to use or move it (- grip, handgrip, hold)
-"he grabbed the hammer by the handle";
- 
-2. A name or identifier
- 
-3. A way of understanding or controlling something
-"trying to get a handle on a complex issue"
+3. (sport) someone in charge of training an athlete or a team (- coach, manager)
 """,
   );
 
-  final String keyword = "handle";
+  final String keyword = "handler";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -103,146 +83,143 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""handle""");
+    await flutterTts.speak("""handler""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A new man was appointed to handle the crisis.""");
+    await flutterTts.speak(
+        """The police brought in dog handlers to join the hunt for the attacker.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She's very good at handling her patients.""");
+    await flutterTts
+        .speak("""Baggage handlers load and unload luggage from airplanes.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He decided to handle things himself.""");
+    await flutterTts.speak(
+        """The president's handlers are telling him to pull out of the talks.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""This matter has been handled very badly.""");
+    await flutterTts.speak("""speaksentence400""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""We can handle up to 500 calls an hour at our new offices.""");
+    await flutterTts.speak("""speaksentence500""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We all have to learn to handle stress.""");
+    await flutterTts.speak("""speaksentence600""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Her next question was not so easily handled.""");
+    await flutterTts.speak("""speaksentence700""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Our cat hates being handled.""");
+    await flutterTts.speak("""speaksentence800""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""Garden tools can be hazardous if carelessly handled.""");
+    await flutterTts.speak("""speaksentence900""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The books are ancient, and need to be handled very carefully.""");
+    await flutterTts.speak("""speaksentence_1000""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She's a difficult horse to handle.""");
+    await flutterTts.speak("""speaksentence1100""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""I wasn't sure if I could handle such a powerful car.""");
+    await flutterTts.speak("""speaksentence1200""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The car handles well in any weather.""");
+    await flutterTts.speak("""speaksentence1300""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They were arrested for handling stolen goods.""");
+    await flutterTts.speak("""speaksentence1400""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She turned the handle and opened the door.""");
+    await flutterTts.speak("""speaksentence1500""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""He tried the handle but the window was locked.""");
+    await flutterTts.speak("""speaksentence1600""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The handle's broken off this jug.""");
+    await flutterTts.speak("""speaksentence1700""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I picked it up and the handle broke off.""");
+    await flutterTts.speak("""speaksentence1800""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The long handle of the spoon kept my hands away from the hot soup.""");
+    await flutterTts.speak("""speaksentence1900""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
@@ -968,10 +945,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """handle""",
-                      // alsoEnglishWord: "also: handle",
-                      britshText: """IpaUK: /ˈhændl/""",
-                      americanText: """IpaUS: /ˈhændl/""",
+                      word: """handler""",
+                      // alsoEnglishWord: "also: handler",
+                      britshText: """IpaUK: /ˈhændlə(r)/""",
+                      americanText: """IpaUS: /ˈhændlər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1012,38 +989,43 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دەس(ـتـ)ک، هەنگڵ، قوڵف، دەسەگیرە، قڵف، کلک، چنگە، کولپەک (وەک هی کووپە)، کەرگە، دەسکەلووجە، کلکە، مشتە، جێ‌دەس،	بیانوو، پەڵپ، دەساوێز،	سەرناو، تایتڵ، نێو
+کوردی: 
 """),
-// With short examples define "handle", please follow LX instructions
+// With short examples define "handler", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) مامەڵەکردن لەگەڵ کەسێک، کارێک، دۆخێک، یان هەست‌وسۆزێک"""),
+                            """١. (ناو) کەسێک ئاژەڵ کۆنترۆڵ دەکات و ڕاهێنانی پێدەکات، بە تایبەتی سەگ"""),
                     SentencesRow(
                       englishText:
-                          """A new man was appointed to handle the crisis.""",
+                          """The police brought in dog handlers to join the hunt for the attacker.""",
                       kurdishText:
-                          """پیاوێکی تازە دانرا بۆ مامەڵەکردن لەگەڵ دۆخەکە.""",
+                          """پۆلیس ڕاهێنەری سەگیان هێنا بۆ بەژداری لە گەڕان بۆ هێرشکارەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک کە شت هەڵدەگرێت و مامەڵەی لەگەڵ دەکات وەک بەشێک لە کارەکەی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """She's very good at handling her patients.""",
+                          """Baggage handlers load and unload luggage from airplanes.""",
                       kurdishText:
-                          """زۆر باشە لە مامەڵەکردن لەگەڵ نەخۆشەکانی.""",
+                          """کارمەندانی کەلووپەل جانتا دەخەنە فڕۆکە و دەریان دەکەن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) کەسێک کە ڕاوێژ بە کەسێکی گرنگ دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He decided to handle things himself.""",
+                      englishText:
+                          """The president's handlers are telling him to pull out of the talks.""",
                       kurdishText:
-                          """بڕیاریدا بۆ خۆی مامەڵە لەگەڵ شتەکان بکات.""",
+                          """ڕاوێژکارانی سەرۆک پێی دەڵێن لە گفتووگۆکان بکشێتەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1051,10 +1033,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """This matter has been handled very badly.""",
-                      kurdishText:
-                          """ئەم بابەتە زۆر خراپ مامەڵەی لەگەڵ کراوە.""",
+                      englishText: """speaksentence400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1062,10 +1042,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """We can handle up to 500 calls an hour at our new offices.""",
-                      kurdishText:
-                          """لە ئۆفیسە تازەکانمان دەتوانین لە کاتژمێرێکدا ٥٠٠ پەیوەندی وەربگرین.""",
+                      englishText: """speaksentence500""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1073,9 +1051,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We all have to learn to handle stress.""",
-                      kurdishText:
-                          """هەموومان دەبێت فێربین مامەڵە لەگەڵ سترێس بکەین.""",
+                      englishText: """speaksentence600""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1083,21 +1060,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Her next question was not so easily handled.""",
-                      kurdishText:
-                          """پرسیاری دواتری ئاسان مامەڵەی لەگەڵ نەکرا.""",
+                      englishText: """speaksentence700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (کردار) گرتن، جوڵاندن، یان دەستدان لە شتێک"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Our cat hates being handled.""",
-                      kurdishText: """پشیلەکەمان ڕقی لێیە دەستی لێبدرێت.""",
+                      englishText: """speaksentence800""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -1105,10 +1078,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Garden tools can be hazardous if carelessly handled.""",
-                      kurdishText:
-                          """کەلوپەلی باخچە دەکرێت زیانبەخش بن ئەگەر بەناوریاییەوە دەستیان لێ بدرێت.""",
+                      englishText: """speaksentence900""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -1116,21 +1087,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The books are ancient, and need to be handled very carefully.""",
-                      kurdishText:
-                          """کتێبەکان کۆنن و دەبێت زۆر بەوریاییەوە دەستیان لێ بدرێت.""",
+                      englishText: """speaksentence_1000""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٣. (کردار) کۆنترۆڵکردنی پێڕۆیەک، ئاژەڵێک، ئامرازێک، هتد"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She's a difficult horse to handle.""",
-                      kurdishText: """ئەسپێکی سەختە بۆ کۆنترۆڵکردن.""",
+                      englishText: """speaksentence1100""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -1138,46 +1105,35 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """I wasn't sure if I could handle such a powerful car.""",
-                      kurdishText:
-                          """دڵنیانەبوم کە بتوانم ئۆۆتمبێلێکی وەها بەهێز کۆنترۆڵ بکەم.""",
+                      englishText: """speaksentence1200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٤. (کردار) ئەوەی پێڕۆیەک ئاسان یان سەخت بێت بۆ کۆنترۆڵکردن"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The car handles well in any weather.""",
-                      kurdishText:
-                          """ئۆتۆمبێلەکە باش کار دەکات لە هەر کەشووهەوایەک.""",
+                      englishText: """speaksentence1300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٥. (کردار) کڕین یان فرۆشتنی شتێک"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """They were arrested for handling stolen goods.""",
-                      kurdishText:
-                          """دەستگیرکران بۆ کڕین و فرۆشتنی شتی دزراو.""",
+                      englishText: """speaksentence1400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٦. (ناو) ئەو بەشەی شتێک کە دەیگریت بۆ کردنەوە"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """She turned the handle and opened the door.""",
-                      kurdishText: """دەسکەکەی سووڕاند و دەرگاکەی کردەوە.""",
+                      englishText: """speaksentence1500""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -1185,20 +1141,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """He tried the handle but the window was locked.""",
-                      kurdishText: """دەسکەکەی گرت بەڵام پەنجەرەکە گیربوو.""",
+                      englishText: """speaksentence1600""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٧. (ناو) ئەو بەشەی شتێک کە دەیگریت بۆ ئەوەی بیگریت بە دەستەوە"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The handle's broken off this jug.""",
-                      kurdishText: """دەسکەکە لەم سووراحییە لێبووەتەوە.""",
+                      englishText: """speaksentence1700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -1206,22 +1159,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """I picked it up and the handle broke off.""",
-                      kurdishText: """هەڵمگرت و دەسکەکەی شکا.""",
+                      englishText: """speaksentence1800""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٨. (ناو) هەبوونی ئەو ژمارەیە یان جۆرەی دەسک کە باسکراوە"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The long handle of the spoon kept my hands away from the hot soup.""",
-                      kurdishText:
-                          """دەسکە درێژەکەی کەوچکەکە دەستمی بەدوور گرت لە شۆرباکە.""",
+                      englishText: """speaksentence1900""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -2202,18 +2150,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/70d22_haOiU?t=';
-const double _startSecondsend = 000000000000000000000000000198;
-const String _videoIdone = 'https://youtu.be/gngPQ771Ahk?t=';
-const double _startSecondsone = 0000000000000000000000000003811;
-const String _videoIdtwo = 'https://youtu.be/ozsgl_sLnHQ?t=';
-const double _startSecondstwo = 000000000000000000000000000530;
-const String _videoIdthree = 'https://youtu.be/LPWU5UTy920?t=';
-const double _startSecondsthree = 000000000000000000000000000864;
-const String _videoIdfour = 'https://youtu.be/UwM8km0ALbo?t=';
-const double _startSecondsfour = 00000000000000000000000000018;
-const String _videoIdfive = 'https://youtu.be/_I0N-w7QEHc?t=';
-const double _startSecondsfive = 000000000000000000000000000200;
+const String _videoIdend = 'https://youtu.be/sAiTuitN5b8?t=';
+const double _startSecondsend = 00000000000000000000000000076;
+const String _videoIdone = 'https://youtu.be/7ziWrneMYss?t=';
+const double _startSecondsone = 000000000000000000000000000661;
+const String _videoIdtwo = 'https://youtu.be/qSmyimnMOBo?t=';
+const double _startSecondstwo = 0000000000000000000000000003772;
+const String _videoIdthree = 'https://youtu.be/OuOkS2tm89k?t=';
+const double _startSecondsthree = 00000000000000000000000000098;
+const String _videoIdfour = 'https://youtu.be/knjliFs3gR8?t=';
+const double _startSecondsfour = 000000000000000000000000000263;
+const String _videoIdfive = 'https://youtu.be/qSmyimnMOBo?t=';
+const double _startSecondsfive = 0000000000000000000000000003771;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

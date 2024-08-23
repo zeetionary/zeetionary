@@ -90,6 +90,7 @@ class EnglishEntrycoldcash extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) پارە کە ئامادەیە کە بۆ خەرجکردن، بەتایبەتی لە شێوەی سکە و کاغەزدا"),
+                          const AlsoEnglishckb(word: "ھەروەھا: hard cash"),
                           SentencesRow(
                             englishText: "He paid for the car with cold cash.",
                             kurdishText:

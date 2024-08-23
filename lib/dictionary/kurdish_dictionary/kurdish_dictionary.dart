@@ -284,8 +284,7 @@ class _DictionaryScreenKurdishState
   String normalizeKurdishZWNJ(String input) {
     // Replace ZWNJ with an empty string
     // https://chat.openai.com/c/3be92bde-854c-4f40-8617-179f3b7602ca
-    return input.replaceAll(
-        '\u200c', ''); // '\u200c' is the Unicode representation of ZWNJ
+    return input.replaceAll('\u200c', '');
   }
 
   String normalizeKurdishH(String input) {
@@ -432,6 +431,22 @@ class _DictionaryScreenKurdishState
                   controller: _searchController,
                   onChanged: filterResults,
                   decoration: InputDecoration(
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Theme.of(context)
+                            .highlightColor, // Set your desired color here
+                        width: 2.0, // Set the border width
+                      ),
+                    ),
+                    // enabledBorder: OutlineInputBorder(
+                    //   borderSide: BorderSide(
+                    //     color: Theme.of(context)
+                    //         .highlightColor, // The color of the border when not focused
+                    //     width: 2.0,
+                    //   ),
+                    // ),
+                    border: const OutlineInputBorder(),
+
                     // labelText: "لێرە بگەڕێ",
                     // hintText: "لێرە بگەڕێ",
                     hintText: shuffledWords.isEmpty
@@ -445,7 +460,6 @@ class _DictionaryScreenKurdishState
                             onPressed: clearSearch,
                           )
                         : null,
-                    border: const OutlineInputBorder(),
                   ),
                 ),
               ),

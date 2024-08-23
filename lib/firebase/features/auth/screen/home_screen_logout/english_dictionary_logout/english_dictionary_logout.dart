@@ -356,11 +356,25 @@ class _DictionaryScreenEnglishLogoutState
                 controller: _searchController,
                 onChanged: filterResults,
                 decoration: InputDecoration(
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Theme.of(context)
+                          .highlightColor, // Set your desired color here
+                      width: 2.0, // Set the border width
+                    ),
+                  ),
+                  // enabledBorder: OutlineInputBorder(
+                  //   borderSide: BorderSide(
+                  //     color: Theme.of(context)
+                  //         .highlightColor, // The color of the border when not focused
+                  //     width: 2.0,
+                  //   ),
+                  // ),
+                  border: const OutlineInputBorder(),
                   hintText: shuffledWordsLogout.isEmpty
                       ? ''
                       : shuffledWordsLogout[_shuffleCurrentIndex],
                   hintStyle: TextStyle(fontSize: textSize),
-                  border: const OutlineInputBorder(),
                   prefixIcon: Icon(Icons.search, size: textSize + 5),
                   suffixIcon: Row(
                     mainAxisSize: MainAxisSize.min,

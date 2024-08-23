@@ -46,6 +46,7 @@ flutter:
   assets:
     - assets/
     - assets/sentences.db
+    - assets/kurdish_sentences.db
     - assets/images/google.png
     - assets/images/kurd_one.png
     - assets/images/uk_one.png

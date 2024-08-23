@@ -5003,11 +5003,11 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_harassment.dart' show EnglishEntryharassment
 // en_entry_harbour.dart' show EnglishEntryharbour
 // en_entry_hard.dart' show EnglishEntryhard
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hardback.dart' show EnglishEntryhardback
+// en_entry_hardboard.dart' show EnglishEntryhardboard
+// en_entry_hard_copy.dart' show EnglishEntryhardcopy //// ffff hard copy
+// en_entry_hard_core.dart' show EnglishEntryhardcore //// فففف hard core
+// en_entry_hard_currency.dart' show EnglishEntryhardcurrency //// فففف hard currency
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

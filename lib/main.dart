@@ -72,6 +72,8 @@ import 'package:path/path.dart';
 // flutter build apk --no-tree-shake-icons
 // flutter build apk --release --no-tree-shake-icons
 
+// flutter build appbundle --release --target-platform=android-arm64
+
 // flutter build apk --release --target-platform=android-arm64
 // flutter build apk --release --target-platform=android-arm64 --split-per-abi
 // flutter build apk --release --target=lib/main.dart --target-platform=android-arm64 --split-per-abi

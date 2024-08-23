@@ -3326,13 +3326,15 @@ class DatabaseUtils {
             style: TextStyle(
               fontSize: textSize + 1,
               color: Theme.of(context).primaryColor,
+              // color: Theme.of(context).highlightColor,
             ),
             text: text.substring(start, index)));
       }
       spans.add(TextSpan(
         text: text.substring(index, index + keyword.length),
         style: TextStyle(
-          backgroundColor: Colors.yellowAccent.withOpacity(0.3),
+          // backgroundColor: Theme.of(context).highlightColor,
+          fontWeight: FontWeight.bold,
           fontSize: textSize + 1,
         ),
       ));
@@ -3355,7 +3357,8 @@ class DatabaseUtils {
       text: TextSpan(
         style: TextStyle(
           fontSize: textSize + 1,
-          color: Theme.of(context).primaryColor,
+          // color: Theme.of(context).primaryColor,
+          color: Theme.of(context).highlightColor,
         ),
         children: spans,
       ),

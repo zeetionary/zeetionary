@@ -3225,6 +3225,7 @@ final Map<String, String> wordRoutes = {
   "cold": "/english-cold",
   "cold-blooded": "/english-cold-blooded",
   "cold cash": "/english-cold-cash",
+  "hard cash": "/english-cold-cash",
   "cold-hearted": "/english-cold-hearted",
   "coldly": "/english-coldly",
   "coldness": "/english-coldness",

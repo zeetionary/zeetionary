@@ -4,6 +4,7 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
+import 'package:zeetionary/dictionary/sentences/kurdish_sentences.dart';
 import 'package:zeetionary/dictionary/sentences/sentences_page.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
@@ -25,6 +26,7 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
     const DictionaryScreenEnglish(),
     const DictionaryScreenKurdish(),
     const SentencesPage(),
+    const KurdishSentencesScreen(),
     const GrammarScreen(),
   ];
 
@@ -140,6 +142,10 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
             NavigationDestination(
               icon: Icon(Icons.search, size: textSize + 10),
               label: 'Sentences',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.search, size: textSize + 10),
+              label: 'ڕستە',
             ),
             NavigationDestination(
               icon: Icon(Icons.school, size: textSize + 10),

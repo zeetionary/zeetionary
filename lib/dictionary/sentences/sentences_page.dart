@@ -18,6 +18,7 @@ class SentencesPage extends ConsumerStatefulWidget {
 
 class _SentencesPageState extends ConsumerState<SentencesPage> {
   _SentencesPageState();
+
   final TextEditingController _searchController = TextEditingController();
   final ScrollController _scrollController = ScrollController();
   late FlutterTts flutterTts;
@@ -139,6 +140,20 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
               child: TextField(
                 controller: _searchController,
                 decoration: InputDecoration(
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Theme.of(context)
+                          .highlightColor, // Set your desired color here
+                      width: 2.0, // Set the border width
+                    ),
+                  ),
+                  // enabledBorder: OutlineInputBorder(
+                  //   borderSide: BorderSide(
+                  //     color: Theme.of(context)
+                  //         .highlightColor, // The color of the border when not focused
+                  //     width: 2.0,
+                  //   ),
+                  // ),
                   border: const OutlineInputBorder(),
                   // labelText: "Search",
                   hintText: "Search for sentences...",

@@ -5012,20 +5012,20 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_hard_drug.dart' show EnglishEntryharddrug //// فففف hard drug
 // en_entry_hard_headed.dart' show EnglishEntryhardheaded //// فففف hard-headed
 // en_entry_hard_hearted.dart' show EnglishEntryhardhearted //// فففف hard-hearted
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hard_labour.dart' show EnglishEntryhardlabour //// ffff hard labour
+// en_entry_hard_line.dart' show EnglishEntryhardline //// فففف hard-line
+// en_entry_hard_shoulder.dart' show EnglishEntryhardshoulder //// فففف hard shoulder
+// en_entry_hardware.dart' show EnglishEntryhardware
+// en_entry_hard_water.dart' show EnglishEntryhardwater //// فففف hard water
+// en_entry_hardwood.dart' show EnglishEntryhardwood
+// en_entry_hard_boiled.dart' show EnglishEntryhardboiled //// فففف hard-boiled
+// en_entry_hard_pressed.dart' show EnglishEntryhardpressed //// فففف hard-pressed
+// en_entry_hard_up.dart' show EnglishEntryhardup //// فففف hard up
+// en_entry_hard_wearing.dart' show EnglishEntryhardwearing //// فففف hard-wearing
+// en_entry_harden.dart' show EnglishEntryharden
+// en_entry_hardly.dart' show EnglishEntryhardly
+// en_entry_hardship.dart' show EnglishEntryhardship
+// en_entry_hardy.dart' show EnglishEntryhardy
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

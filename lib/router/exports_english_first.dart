@@ -5026,8 +5026,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_hardly.dart' show EnglishEntryhardly
 // en_entry_hardship.dart' show EnglishEntryhardship
 // en_entry_hardy.dart' show EnglishEntryhardy
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hardiness.dart' show EnglishEntryhardiness
+// en_entry_hare.dart' show EnglishEntryhare
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

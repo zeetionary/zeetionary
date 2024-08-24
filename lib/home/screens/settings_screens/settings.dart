@@ -160,7 +160,7 @@ class SettingsPage extends ConsumerWidget {
     if (user != null) {
       try {
         await user.delete();
-      if (!context.mounted) return;
+        if (!context.mounted) return;
         showSnackBar(context, "Account deleted successfully");
         Routemaster.of(context).replace('/');
       } catch (e) {
@@ -197,6 +197,7 @@ class SettingsPage extends ConsumerWidget {
                 'Cancel',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
             ),

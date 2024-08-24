@@ -131,6 +131,7 @@ class _EnglishfavouritesScreenState
                 'No',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
             ),
@@ -143,6 +144,7 @@ class _EnglishfavouritesScreenState
                 'Yes',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Colors.red,
                 ),
               ),
             ),

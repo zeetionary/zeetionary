@@ -49,6 +49,7 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
                 'نەخێر',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
             ),
@@ -60,6 +61,7 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
                 'بەڵێ',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Colors.red,
                 ),
               ),
             ),

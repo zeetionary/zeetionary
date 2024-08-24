@@ -55,6 +55,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
                 'No',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
             ),
@@ -66,6 +67,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
                 'Yes',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Colors.red,
                 ),
               ),
             ),
@@ -2920,7 +2922,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "chancy": "/history-screen/chancy",
       "chancel": "/history-screen/chancel",
       "chancellor": "/history-screen/chancellor",
-      "Chancellor of the Exchequer": "/history-screen/chancellor-of-the-exchequer",
+      "Chancellor of the Exchequer":
+          "/history-screen/chancellor-of-the-exchequer",
       "chandelier": "/history-screen/chandelier",
       "change": "/history-screen/change",
       "changeable": "/history-screen/changeable",
@@ -5546,7 +5549,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "drive-by": "/history-screen/drive-by", // ffff drive-by
       "drive-in": "/history-screen/drive-in", // ffff drive-in
       "driver": "/history-screen/driver",
-      "driving licence": "/history-screen/driving-licence", // ffff driving licence
+      "driving licence":
+          "/history-screen/driving-licence", // ffff driving licence
       "driving test": "/history-screen/driving-test", // ffff driving test
       "drivel": "/history-screen/drivel",
       "drizzle": "/history-screen/drizzle",
@@ -5582,7 +5586,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "dryness": "/history-screen/dryness",
       "dry rot": "/history-screen/dry-rot", // ffff dry rot
       "dual": "/history-screen/dual",
-      "dual carriageway": "/history-screen/dual-carriageway", // فففف dual carriageway
+      "dual carriageway":
+          "/history-screen/dual-carriageway", // فففف dual carriageway
       "dub": "/history-screen/dub",
       "driveway": "/history-screen/drive",
       "dry-cleaner’s": "/history-screen/cleaners",
@@ -5817,7 +5822,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "elbow grease": "/history-screen/elbow-grease", // فففف elbow grease
       "elbow_room": "/history-screen/elbowroom", // فففف elbow room
       "elder": "/history-screen/elder",
-      "elder statesman": "/history-screen/elder-statesman", // فففف elder statesman
+      "elder statesman":
+          "/history-screen/elder-statesman", // فففف elder statesman
       "elderly": "/history-screen/elderly",
       "eldest": "/history-screen/eldest",
       "elect": "/history-screen/elect",
@@ -5846,7 +5852,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "elegantly": "/history-screen/elegantly",
       "element": "/history-screen/element",
       "elementary": "/history-screen/elementary",
-      "elementary school": "/history-screen/elementaryschool", // فففف elementary school
+      "elementary school":
+          "/history-screen/elementaryschool", // فففف elementary school
       "elephant": "/history-screen/elephant",
       "elevate": "/history-screen/elevate",
       "elevation": "/history-screen/elevation",
@@ -6288,7 +6295,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "exciting": "/history-screen/exciting",
       "exclaim": "/history-screen/exclaim",
       "exclamation": "/history-screen/exclamation",
-      "exclamation mark": "/history-screen/exclamationmark", //// فففف exclamation mark
+      "exclamation mark":
+          "/history-screen/exclamationmark", //// فففف exclamation mark
       "exclude": "/history-screen/exclude",
       "exclusion": "/history-screen/exclusion",
       "exclusive": "/history-screen/exclusive",
@@ -6463,7 +6471,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "extravaganza": "/history-screen/extravaganza",
       "extreme": "/history-screen/extreme",
       "extremely": "/history-screen/extremely",
-      "extreme sport": "/history-screen/extremesport", ////// فففف extreme sport",
+      "extreme sport":
+          "/history-screen/extremesport", ////// فففف extreme sport",
       "extremist": "/history-screen/extremist",
       "extremity": "/history-screen/extremity",
       "extricate": "/history-screen/extricate",
@@ -6560,7 +6569,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "familiarize": "/history-screen/familiarize",
       "familiarly": "/history-screen/familiarly",
       "family": "/history-screen/family",
-      "family planning": "/history-screen/familyplanning", //// ffff family planning",
+      "family planning":
+          "/history-screen/familyplanning", //// ffff family planning",
       "family tree": "/history-screen/familytree", //// فففف family tree",
       "famine": "/history-screen/famine",
       "famished": "/history-screen/famished",
@@ -6595,7 +6605,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "fare": "/history-screen/fare",
       "farm": "/history-screen/farm",
       "farmer": "/history-screen/farmer",
-      "farmer's market": "/history-screen/farmersmarket", //// فففف farmer's market",
+      "farmer's market":
+          "/history-screen/farmersmarket", //// فففف farmer's market",
       "farmhand": "/history-screen/farmhand",
       "farmhouse": "/history-screen/farmhouse",
       "farmyard": "/history-screen/farmyard",
@@ -6622,7 +6633,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "fate": "/history-screen/fate",
       "fateful": "/history-screen/fateful",
       "father": "/history-screen/father",
-      "Father Christmas": "/history-screen/fatherchristmas", //// ffff Father Christmas",
+      "Father Christmas":
+          "/history-screen/fatherchristmas", //// ffff Father Christmas",
       "father-in-law": "/history-screen/fatherinlaw", //// فففف father-in-law",
       "fatherland": "/history-screen/fatherland",
       "fatherly": "/history-screen/fatherly",
@@ -6670,7 +6682,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "feebly": "/history-screen/feebly",
       "feed": "/history-screen/feed",
       "feedback": "/history-screen/feedback",
-      "feeding bottle": "/history-screen/feedingbottle", //// فففف feeding bottle",
+      "feeding bottle":
+          "/history-screen/feedingbottle", //// فففف feeding bottle",
       "feel": "/history-screen/feel",
       "feeler": "/history-screen/feeler",
       "feeling": "/history-screen/feeling",
@@ -6768,11 +6781,13 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "figuratively": "/history-screen/figuratively",
       "figure": "/history-screen/figure",
       "figurehead": "/history-screen/figurehead",
-      "figure of speech": "/history-screen/figureofspeech", //// فففف figure of speech",
+      "figure of speech":
+          "/history-screen/figureofspeech", //// فففف figure of speech",
       "filament": "/history-screen/filament",
       "file": "/history-screen/file",
       "filings": "/history-screen/filings",
-      "filing cabinet": "/history-screen/filingcabinet", //// فففف filing cabinet",
+      "filing cabinet":
+          "/history-screen/filingcabinet", //// فففف filing cabinet",
       "fill": "/history-screen/fill",
       "filler": "/history-screen/filler",
       "filling": "/history-screen/filling",
@@ -6839,7 +6854,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "first-hand": "/history-screen/first-hand", //// فففف first-hand",
       "firstly": "/history-screen/firstly",
       "first name": "/history-screen/firstname", //// فففف first name",
-      "the first person": "/history-screen/thefirstperson", //// فففف the first person",
+      "the first person":
+          "/history-screen/thefirstperson", //// فففف the first person",
       "first-rate": "/history-screen/first-rate", //// فففف first-rate",
       "fish": "/history-screen/fish",
       "fisherman": "/history-screen/fisherman",
@@ -7041,7 +7057,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
           "/history-screen/foot-and-mouthdisease", //// فففف foot-and-mouth disease",
       "football": "/history-screen/football",
       "footballer": "/history-screen/footballer",
-      "football pools": "/history-screen/footballpools", //// فففف football pools",
+      "football pools":
+          "/history-screen/footballpools", //// فففف football pools",
       "footer": "/history-screen/footer",
       "foothill": "/history-screen/foothill",
       "foothold": "/history-screen/foothold",
@@ -7077,7 +7094,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "forehead": "/history-screen/forehead",
       "foreign": "/history-screen/foreign",
       "foreigner": "/history-screen/foreigner",
-      "foreign exchange": "/history-screen/foreignexchange", //// فففف foreign exchange",
+      "foreign exchange":
+          "/history-screen/foreignexchange", //// فففف foreign exchange",
       "foreman": "/history-screen/foreman",
       "foremost": "/history-screen/foremost",
       "forensic": "/history-screen/forensic",
@@ -7105,7 +7123,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "forgo": "/history-screen/forgo",
       "fork": "/history-screen/fork",
       "forked": "/history-screen/forked",
-      "forklift truck": "/history-screen/forklifttruck", //// فففف forklift truck",
+      "forklift truck":
+          "/history-screen/forklifttruck", //// فففف forklift truck",
       "forlorn": "/history-screen/forlorn",
       "forlornly": "/history-screen/forlornly",
       "form": "/history-screen/form",
@@ -7137,13 +7156,15 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "fortunate": "/history-screen/fortunate",
       "fortunately": "/history-screen/fortunately",
       "fortune": "/history-screen/fortune",
-      "fortune teller": "/history-screen/fortuneteller", //// فففف fortune teller",
+      "fortune teller":
+          "/history-screen/fortuneteller", //// فففف fortune teller",
       "forty": "/history-screen/forty",
       "fortieth": "/history-screen/fortieth",
       "forum": "/history-screen/forum",
       "forward": "/history-screen/forward",
       "forwardness": "/history-screen/forwardness",
-      "forward-looking": "/history-screen/forward-looking", //// فففف forward-looking",
+      "forward-looking":
+          "/history-screen/forward-looking", //// فففف forward-looking",
       "fossil": "/history-screen/fossil",
       "fossilize": "/history-screen/fossilize",
       "foster": "/history-screen/foster",
@@ -7197,7 +7218,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "freckle": "/history-screen/freckle",
       "freckled": "/history-screen/freckled",
       "free": "/history-screen/free",
-      "free enterprise": "/history-screen/freeenterprise", //// ffff free enterprise",
+      "free enterprise":
+          "/history-screen/freeenterprise", //// ffff free enterprise",
       "free-for-all": "/history-screen/free-for-all", //// فففف free-for-all",
       "freehand": "/history-screen/freehand",
       "freelance": "/history-screen/freelance",
@@ -7210,7 +7232,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "freedom": "/history-screen/freedom",
       "freeze": "/history-screen/freeze",
       "freezer": "/history-screen/freezer",
-      "freezing point": "/history-screen/freezingpoint", //// فففف freezing point",
+      "freezing point":
+          "/history-screen/freezingpoint", //// فففف freezing point",
       "freight": "/history-screen/freight",
       "freighter": "/history-screen/freighter",
       "French": "/history-screen/french", //// ffff French",
@@ -7267,7 +7290,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "front": "/history-screen/front",
       "frontage": "/history-screen/frontage",
       "frontal": "/history-screen/frontal",
-      "the front line": "/history-screen/thefrontline", //// ffff the front line",
+      "the front line":
+          "/history-screen/thefrontline", //// ffff the front line",
       "front-page": "/history-screen/front-page", //// فففف front-page",
       "frontier": "/history-screen/frontier",
       "frost": "/history-screen/frost",
@@ -7293,7 +7317,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "fucking": "/history-screen/fucking",
       "fudge": "/history-screen/fudge",
       "fuel": "/history-screen/fuel",
-      "fuel injection": "/history-screen/fuelinjection", //// فففف fuel injection",
+      "fuel injection":
+          "/history-screen/fuelinjection", //// فففف fuel injection",
       "fugitive": "/history-screen/fugitive",
       "fulfil": "/history-screen/fulfil",
       "fulfilment": "/history-screen/fulfilment",
@@ -7318,7 +7343,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "fundamentalist": "/history-screen/fundamentalist",
       "fundamentally": "/history-screen/fundamentally",
       "funeral": "/history-screen/funeral",
-      "funeral parlour": "/history-screen/funeralparlour", //// فففف funeral parlour",
+      "funeral parlour":
+          "/history-screen/funeralparlour", //// فففف funeral parlour",
       "fungus": "/history-screen/fungus",
       "funnel": "/history-screen/funnel",
       "funny": "/history-screen/funny",
@@ -7485,12 +7511,14 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "genealogy": "/history-screen/genealogy",
       "genealogical": "/history-screen/genealogical",
       "general": "/history-screen/general",
-      "general election": "/history-screen/generalelection", //// فففف general election",
+      "general election":
+          "/history-screen/generalelection", //// فففف general election",
       "generality": "/history-screen/generality",
       "generally": "/history-screen/generally",
       "general practitioner":
           "/history-screen/generalpractitioner", //// فففف general practitioner",
-      "general strike": "/history-screen/generalstrike", //// فففف general strike",
+      "general strike":
+          "/history-screen/generalstrike", //// فففف general strike",
       "generalize": "/history-screen/generalize",
       "generalization": "/history-screen/generalization",
       "generate": "/history-screen/generate",
@@ -7555,7 +7583,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "getaway": "/history-screen/getaway",
       "get-together": "/history-screen/get-together", //// فففف get-together",
       "get-up": "/history-screen/getup", //// ffff get-up",
-      "get-up-and-go": "/history-screen/get-up-and-go", //// ffff get-up-and-go",
+      "get-up-and-go":
+          "/history-screen/get-up-and-go", //// ffff get-up-and-go",
       "geyser": "/history-screen/geyser",
       "ghastly": "/history-screen/ghastly",
       "ghetto": "/history-screen/ghetto",
@@ -7640,7 +7669,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "gloatingly": "/history-screen/gloatingly",
       "global": "/history-screen/global",
       "globally": "/history-screen/globally",
-      "global warming": "/history-screen/globalwarming", //// فففف global warming",
+      "global warming":
+          "/history-screen/globalwarming", //// فففف global warming",
       "globalize": "/history-screen/globalize",
       "globalization": "/history-screen/globalization",
       "globe": "/history-screen/globe",
@@ -7708,20 +7738,25 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "gold rush": "/history-screen/goldrush", //// فففف gold rush",
       "goldsmith": "/history-screen/goldsmith",
       "golden": "/history-screen/golden",
-      "golden handshake": "/history-screen/goldenhandshake", //// ffff golden handshake",
-      "golden jubilee": "/history-screen/goldenjubilee", //// فففف golden jubilee",
+      "golden handshake":
+          "/history-screen/goldenhandshake", //// ffff golden handshake",
+      "golden jubilee":
+          "/history-screen/goldenjubilee", //// فففف golden jubilee",
       "golden rule": "/history-screen/goldenrule", //// golden rule",
       "golf": "/history-screen/golf",
       "golfer": "/history-screen/golfer",
       "gong": "/history-screen/gong",
       "gonorrhoea": "/history-screen/gonorrhoea",
       "good": "/history-screen/good",
-      "good-for-nothing": "/history-screen/good-for-nothing", //// ffff good-for-nothing",
-      "good-humoured": "/history-screen/good-humoured", //// فففف good-humoured",
+      "good-for-nothing":
+          "/history-screen/good-for-nothing", //// ffff good-for-nothing",
+      "good-humoured":
+          "/history-screen/good-humoured", //// فففف good-humoured",
       "good-looking": "/history-screen/good-looking", //// فففف good-looking",
       "good-natured": "/history-screen/good-natured", //// فففف good-natured",
       "good sense": "/history-screen/goodsense", //// فففف good sense",
-      "good-tempered": "/history-screen/good-tempered", //// فففف good-tempered",
+      "good-tempered":
+          "/history-screen/good-tempered", //// فففف good-tempered",
       "goodbye": "/history-screen/goodbye",
       "goodness": "/history-screen/goodness",
       "goods": "/history-screen/goods",
@@ -7790,7 +7825,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "granite": "/history-screen/granite",
       "granny flat": "/history-screen/grannyflat", //// ffff granny flat",
       "grant": "/history-screen/grant",
-      "granulated sugar": "/history-screen/granulatedsugar", //// فففف granulated sugar",
+      "granulated sugar":
+          "/history-screen/granulatedsugar", //// فففف granulated sugar",
       "granule": "/history-screen/granule",
       "grape": "/history-screen/grape",
       "grapefruit": "/history-screen/grapefruit",
@@ -7847,7 +7883,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "greenhouse": "/history-screen/greenhouse",
       "greenhouse effect":
           "/history-screen/greenhouseeffect", //// فففف greenhouse effect",
-      "greenhouse gas": "/history-screen/greenhousegas", //// فففف greenhouse gas",
+      "greenhouse gas":
+          "/history-screen/greenhousegas", //// فففف greenhouse gas",
       "greenness": "/history-screen/greenness",
       "greenery": "/history-screen/greenery",
       "greet": "/history-screen/greet",
@@ -7937,7 +7974,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "guffaw": "/history-screen/guffaw",
       "guidance": "/history-screen/guidance",
       "guide": "/history-screen/guide",
-      "guidedmissile": "/history-screen/guidedmissile", //// ffff guided missile",
+      "guidedmissile":
+          "/history-screen/guidedmissile", //// ffff guided missile",
       "guideline": "/history-screen/guideline",
       "guild": "/history-screen/guild",
       "guile": "/history-screen/guile",
@@ -7973,7 +8011,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "gust": "/history-screen/gust",
       "gut": "/history-screen/gut",
       "gutter": "/history-screen/gutter",
-      "the gutter press": "/history-screen/thegutterpress", //// فففف the gutter press",
+      "the gutter press":
+          "/history-screen/thegutterpress", //// فففف the gutter press",
       "guy": "/history-screen/guy",
       "guzzle": "/history-screen/guzzle",
       "gym": "/history-screen/gym",

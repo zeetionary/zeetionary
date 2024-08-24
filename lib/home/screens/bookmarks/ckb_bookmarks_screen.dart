@@ -97,10 +97,10 @@ class _KurdishFavouritesScreenState
       //   ),
       // ),
       floatingActionButton: CustomFloatingActionButton(
-          onPressed: () {
-            _clearKurdishFavourites(); // This is all you need to specify
-          },
-        ),
+        onPressed: () {
+          _clearKurdishFavourites(); // This is all you need to specify
+        },
+      ),
     );
   }
 
@@ -139,6 +139,7 @@ class _KurdishFavouritesScreenState
                 'نەخێر',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
             ),
@@ -151,6 +152,7 @@ class _KurdishFavouritesScreenState
                 'بەڵێ',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Colors.red,
                 ),
               ),
             ),

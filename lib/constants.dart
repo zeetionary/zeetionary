@@ -724,7 +724,10 @@ class YouTubeVideosContainer extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: onReloadVideo,
-            child: const Icon(Icons.replay),
+            child: Icon(
+              Icons.replay,
+              color: Theme.of(context).primaryColor.withOpacity(0.4),
+            ),
           ),
           const SizedBox(
             height: 30,
@@ -813,7 +816,10 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: onReloadVideo,
-            child: const Icon(Icons.replay),
+            child: Icon(
+              Icons.replay,
+              color: Theme.of(context).primaryColor.withOpacity(0.4),
+            ),
           ),
         ],
       ),

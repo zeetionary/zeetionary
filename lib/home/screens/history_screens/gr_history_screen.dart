@@ -55,6 +55,7 @@ class _GrammarHistoryScreenState extends ConsumerState<GrammarHistoryScreen> {
                 'No',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
             ),
@@ -66,6 +67,7 @@ class _GrammarHistoryScreenState extends ConsumerState<GrammarHistoryScreen> {
                 'Yes',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Colors.red,
                 ),
               ),
             ),

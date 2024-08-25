@@ -208,6 +208,33 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
 //   }
 // }
 
+class ConstantContainer extends StatelessWidget {
+  final Widget child;
+  final EdgeInsetsGeometry? padding; // Optional padding for the Container
+
+  const ConstantContainer({
+    super.key,
+    required this.child,
+    this.padding,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: padding, // Apply the padding if provided
+      decoration: BoxDecoration(
+        border: Border.all(
+          color: Theme.of(context).primaryColor.withOpacity(0.3),
+          width: 1.0,
+        ),
+        borderRadius: BorderRadius.circular(15.0),
+      ),
+      child: child,
+    );
+  }
+}
+
+
 class YouTubeScroller extends StatefulWidget {
   final List<Widget> children;
 
@@ -1903,15 +1930,7 @@ class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
               padding: const EdgeInsets.only(left: 8.0),
               child: Directionality(
                 textDirection: TextDirection.rtl,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).primaryColor.withOpacity(0.01),
-                    border: Border.all(
-                      color: Theme.of(context).primaryColor.withOpacity(0.18),
-                      width: 1.0,
-                    ),
-                    borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-                  ),
+                child: ConstantContainer(
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Directionality(
@@ -1928,6 +1947,31 @@ class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
                     ),
                   ),
                 ),
+                // child: Container(
+                //   decoration: BoxDecoration(
+                //     color: Theme.of(context).primaryColor.withOpacity(0.01),
+                //     border: Border.all(
+                //       color: Theme.of(context).primaryColor.withOpacity(0.18),
+                //       width: 1.0,
+                //     ),
+                //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+                //   ),
+                //   child: Padding(
+                //     padding: const EdgeInsets.all(8.0),
+                //     child: Directionality(
+                //       textDirection: TextDirection.rtl,
+                //       child: Text(
+                //         '${widget.note}',
+                //         textDirection: TextDirection.rtl,
+                //         textAlign: TextAlign.right,
+                //         style: TextStyle(
+                //           fontSize: textSize + 2,
+                //           fontWeight: FontWeight.w500,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
               ),
             ),
         ],
@@ -2242,15 +2286,7 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
           if (_showNote && widget.note != null && widget.note!.isNotEmpty)
             Padding(
               padding: const EdgeInsets.only(left: 8.0),
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Theme.of(context).primaryColor.withOpacity(0.01),
-                  border: Border.all(
-                    color: Theme.of(context).primaryColor.withOpacity(0.18),
-                    width: 1.0,
-                  ),
-                  borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-                ),
+              child: ConstantContainer(
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
@@ -2264,6 +2300,28 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
                   ),
                 ),
               ),
+              // child: Container(
+              //   decoration: BoxDecoration(
+              //     color: Theme.of(context).primaryColor.withOpacity(0.01),
+              //     border: Border.all(
+              //       color: Theme.of(context).primaryColor.withOpacity(0.18),
+              //       width: 1.0,
+              //     ),
+              //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+              //   ),
+              //   child: Padding(
+              //     padding: const EdgeInsets.all(8.0),
+              //     child: Text(
+              //       '${widget.note}',
+              //       textDirection: TextDirection.ltr,
+              //       textAlign: TextAlign.left,
+              //       style: TextStyle(
+              //         fontSize: textSize + 1,
+              //         fontWeight: FontWeight.w400,
+              //       ),
+              //     ),
+              //   ),
+              // ),
             ),
         ],
       ),
@@ -2387,15 +2445,7 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
               padding: const EdgeInsets.only(left: 8.0),
               child: Directionality(
                 textDirection: TextDirection.rtl,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).primaryColor.withOpacity(0.01),
-                    border: Border.all(
-                      color: Theme.of(context).primaryColor.withOpacity(0.18),
-                      width: 1.0,
-                    ),
-                    borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-                  ),
+                child: ConstantContainer(
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Directionality(
@@ -2412,6 +2462,31 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
                     ),
                   ),
                 ),
+                // child: Container(
+                //   decoration: BoxDecoration(
+                //     color: Theme.of(context).primaryColor.withOpacity(0.01),
+                //     border: Border.all(
+                //       color: Theme.of(context).primaryColor.withOpacity(0.18),
+                //       width: 1.0,
+                //     ),
+                //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+                //   ),
+                //   child: Padding(
+                //     padding: const EdgeInsets.all(8.0),
+                //     child: Directionality(
+                //       textDirection: TextDirection.rtl,
+                //       child: Text(
+                //         '${widget.note}',
+                //         textDirection: TextDirection.rtl,
+                //         textAlign: TextAlign.right,
+                //         style: TextStyle(
+                //           fontSize: textSize + 1,
+                //           fontWeight: FontWeight.w400,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
               ),
             ),
         ],
@@ -2453,14 +2528,7 @@ class CustomFloatingActionButton extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider);
 
-    return Container(
-      decoration: BoxDecoration(
-        border: Border.all(
-          color: Theme.of(context).primaryColor.withOpacity(0.3),
-          width: 1.0,
-        ),
-        borderRadius: BorderRadius.circular(15.0),
-      ),
+    return ConstantContainer(
       child: FloatingActionButton(
         onPressed: onPressed,
         backgroundColor:
@@ -2487,14 +2555,7 @@ class CustomFloatingActionButtonPlayer extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider);
 
-    return Container(
-      decoration: BoxDecoration(
-        border: Border.all(
-          color: Theme.of(context).primaryColor.withOpacity(0.3),
-          width: 1.0,
-        ),
-        borderRadius: BorderRadius.circular(15.0),
-      ),
+return ConstantContainer(
       child: FloatingActionButton(
         onPressed: onPressed,
         backgroundColor:
@@ -2508,6 +2569,27 @@ class CustomFloatingActionButtonPlayer extends ConsumerWidget {
         ),
       ),
     );
+    // return Container(
+    //   decoration: BoxDecoration(
+    //     border: Border.all(
+    //       color: Theme.of(context).primaryColor.withOpacity(0.3),
+    //       width: 1.0,
+    //     ),
+    //     borderRadius: BorderRadius.circular(15.0),
+    //   ),
+    //   child: FloatingActionButton(
+    //     onPressed: onPressed,
+    //     backgroundColor:
+    //         Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
+    //     child: Icon(
+    //       Icons.headphones_outlined,
+    //       // Icons.play_arrow,
+    //       // Icons.music_note,
+    //       size: textSize + 12,
+    //       color: Theme.of(context).primaryColor.withOpacity(0.9),
+    //     ),
+    //   ),
+    // );
   }
 }
 

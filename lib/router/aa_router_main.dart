@@ -9,7 +9,8 @@ import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/home
 // import 'package:zeetionary/router/router_keys_four.dart';
 // import 'package:zeetionary/router/router_keys_five.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
-import 'package:zeetionary/quiz/quiz_screen.dart';
+// import 'package:zeetionary/quiz/quiz_screen.dart';
+import 'package:zeetionary/quiz/quiz_screen_two.dart';
 import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 import 'package:zeetionary/home/screens/irregular_verbs/irregular_verbs.dart';
@@ -551,7 +552,7 @@ final loggedOutRoute = RouteMap(routes: {
   "/grammar-screen": (_) => _blP(const GrammarScreen()),
   "/english-sentences-page": (_) => _blP(const SentencesPage()),
   "/settings-screen": (_) => _blP(const SettingsPage()),
-  '/quiz-screen': (_) => _blP(const QuizScreen()),
+  // '/quiz-screen': (_) => _blP(const QuizScreen()),
   '/irregular-verbs-screen': (_) => _blP(const IrregularVerbsScreen()),
 // '/quiz-screen': (_) => _blP(const QuizScreen(currentTheme: ThemeData.light())),
 // English dictionary starts here
@@ -1088,7 +1089,7 @@ Map<String, PageBuilder> getRoutesMain() {
   //
   "/settings-screen": (_) => _blP(const SettingsPage()),
   //
-  '/quiz-screen': (_) => _blP(const QuizScreen()),
+  '/quiz-screen': (_) => _blP(QuizScreen()),
   //
   '/irregular-verbs-screen': (_) => _blP(const IrregularVerbsScreen()),
   //

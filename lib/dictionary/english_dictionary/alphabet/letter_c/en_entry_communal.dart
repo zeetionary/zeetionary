@@ -112,7 +112,7 @@ class EnglishEntrycommunal extends StatelessWidget {
                             englishText:
                                 "As a student he tried communal living for a few years.",
                             kurdishText:
-                                "وەک خوێندکارێک ھەوڵیدا بە ژیانی ھاوبەش بژی بۆ چەند ساڵێک.", // communal",
+                                "وەک خوێندکارێک ھەوڵیدا بە ژیانی ھاوبەش بژی بۆ چەند ساڵێک.",
                             onPressedBritish: () => speakcommunals1("en-GB"),
                             onPressedAmerican: () => speakcommunals1("en-US"),
                           ),

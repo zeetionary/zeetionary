@@ -141,7 +141,7 @@ class EnglishEntrybribe extends StatelessWidget {
                             englishText:
                                 "It was alleged that he had taken bribes while in office.",
                             kurdishText:
-                                "بانگەشەی ئەوە دەکرا کە ھەندێک بەرتیلی وەرگرتبێت کە دەسەڵاتدار بوو.", // bribe" as
+                                "بانگەشەی ئەوە دەکرا کە ھەندێک بەرتیلی وەرگرتبێت کە دەسەڵاتدار بوو.",
                             onPressedBritish: () => speakbribes1("en-GB"),
                             onPressedAmerican: () => speakbribes1("en-US"),
                           ),

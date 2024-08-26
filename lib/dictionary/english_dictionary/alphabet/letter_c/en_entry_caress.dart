@@ -188,8 +188,7 @@ class EnglishEntrycaress extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "His fingers gently caressed her cheek.",
-                            kurdishText:
-                                "پەنجەکانی بە نەرمی ساوی بە گۆنایدا.", // caress",
+                            kurdishText: "پەنجەکانی بە نەرمی ساوی بە گۆنایدا.",
                             onPressedBritish: () => speakcaresss1("en-GB"),
                             onPressedAmerican: () => speakcaresss1("en-US"),
                           ),

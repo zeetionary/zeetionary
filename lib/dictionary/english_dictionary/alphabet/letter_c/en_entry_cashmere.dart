@@ -174,7 +174,7 @@ class EnglishEntrycashmere extends StatelessWidget {
 ١. (ناو) پارچە یان کوتاڵی کەشمیر/کشمیر؛ کوتاڵێکی نەرم و باشە کە لە مووی بزن درووست دەکرێت و جلی گران‌بەھای لێ درووست دەکرێت"""),
                           SentencesRow(
                             englishText: "The scarf is 70% cashmere.",
-                            kurdishText: "لەچکەکە ٧٠٪ کشمیرە.", // cashmere",
+                            kurdishText: "لەچکەکە ٧٠٪ کشمیرە.",
                             onPressedBritish: () => speakcashmeres1("en-GB"),
                             onPressedAmerican: () => speakcashmeres1("en-US"),
                           ),

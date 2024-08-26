@@ -177,7 +177,7 @@ class EnglishEntrycatalyticconverter extends StatelessWidget {
                             englishText:
                                 "The government mandates the use of catalytic converters to minimize environmental impact.",
                             kurdishText:
-                                "حکومەت بەکارھێنانی کۆنڤێرتەری ھاندەرانە دەسەپێنێت بۆ کەمکردنەوەی کاریگەریی ژینگەیی.", // catalytic converter",
+                                "حکومەت بەکارھێنانی کۆنڤێرتەری ھاندەرانە دەسەپێنێت بۆ کەمکردنەوەی کاریگەریی ژینگەیی.",
                             onPressedBritish: () =>
                                 speakcatalyticconverters1("en-GB"),
                             onPressedAmerican: () =>

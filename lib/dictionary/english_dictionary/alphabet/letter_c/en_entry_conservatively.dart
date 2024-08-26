@@ -104,7 +104,7 @@ class EnglishEntryconservatively extends StatelessWidget {
                             englishText:
                                 "I was dressed conservatively in a long brown skirt with a matching jacket.",
                             kurdishText:
-                                "کۆنەپارێزانە جلم لەبەربوو بە تەنوورەیەکی قاوەیی درێژ و چاکەتێکی ھەمان ڕەنگ.", // conservatively",
+                                "کۆنەپارێزانە جلم لەبەربوو بە تەنوورەیەکی قاوەیی درێژ و چاکەتێکی ھەمان ڕەنگ.",
                             onPressedBritish: () =>
                                 speakconservativelys1("en-GB"),
                             onPressedAmerican: () =>

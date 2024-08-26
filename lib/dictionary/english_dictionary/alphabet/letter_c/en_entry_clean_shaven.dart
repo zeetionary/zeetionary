@@ -93,7 +93,7 @@ class EnglishEntrycleanshaven extends StatelessWidget {
                             englishText:
                                 "She ran her hand over his clean-shaven cheek.",
                             kurdishText:
-                                "دەستی ھێنا بە ڕووخسارە تەواو تاشراوەکەیدا.", // clean-shaven",
+                                "دەستی ھێنا بە ڕووخسارە تەواو تاشراوەکەیدا.",
                             onPressedBritish: () => speakcleanshavens1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcleanshavens1("en-US"),

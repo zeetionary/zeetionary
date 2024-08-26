@@ -110,7 +110,7 @@ class EnglishEntryconsonant extends StatelessWidget {
                             englishText:
                                 "Don't you hate the way she speaks, pronouncing each single consonant so precisely?",
                             kurdishText:
-                                "ڕقت لەو شێوەیە نییە کە قسە دەکات و ھەر دەنگێکی نەبزوێن بە تەواوی دەخوێنێتەوە؟", // consonant",
+                                "ڕقت لەو شێوەیە نییە کە قسە دەکات و ھەر دەنگێکی نەبزوێن بە تەواوی دەخوێنێتەوە؟",
                             onPressedBritish: () => speakconsonants1("en-GB"),
                             onPressedAmerican: () => speakconsonants1("en-US"),
                           ),

@@ -124,7 +124,7 @@ class EnglishEntryconverse extends StatelessWidget {
                             englishText:
                                 "She conversed with the Romanians in French.",
                             kurdishText:
-                                "بە فەرەنسی قسەی لەگەڵ ڕۆمانییەکان کرد.", // converse",
+                                "بە فەرەنسی قسەی لەگەڵ ڕۆمانییەکان کرد.",
                             onPressedBritish: () => speakconverses1("en-GB"),
                             onPressedAmerican: () => speakconverses1("en-US"),
                           ),

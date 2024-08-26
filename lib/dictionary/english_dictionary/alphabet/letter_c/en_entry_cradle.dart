@@ -258,8 +258,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) لانکەی منداڵ"),
           SentencesRow(
             englishText: "She rocked the baby to sleep in its cradle.",
-            kurdishText:
-                "منداڵەکەی بە جواندن خەواند لە لانکەکەیدا.", // cradle", please follow LX instructions
+            kurdishText: "منداڵەکەی بە جواندن خەواند لە لانکەکەیدا.",
             onPressedBritish: () => speakcradles1("en-GB"),
             onPressedAmerican: () => speakcradles1("en-US"),
           ),

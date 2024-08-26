@@ -118,7 +118,7 @@ class EnglishEntrycontrive extends StatelessWidget {
                             englishText:
                                 "She contrived to spend a couple of hours with him every Sunday evening.",
                             kurdishText:
-                                "توانی ھەموو ئێوارانێکی یەکشەممان چەند کاتژمێرێک لەگەڵی بەسەر ببات.", // contrive",
+                                "توانی ھەموو ئێوارانێکی یەکشەممان چەند کاتژمێرێک لەگەڵی بەسەر ببات.",
                             onPressedBritish: () => speakcontrives1("en-GB"),
                             onPressedAmerican: () => speakcontrives1("en-US"),
                           ),

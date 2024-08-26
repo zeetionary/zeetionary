@@ -111,7 +111,7 @@ class EnglishEntryconvergence extends StatelessWidget {
                             englishText:
                                 "The city was a natural point of convergence for river-based traffic.",
                             kurdishText:
-                                "شارەکە خاڵێکی سرووشتی یەک‌گیر بوو بۆ ھاتووچۆی ناو ڕووبار.", // convergence",
+                                "شارەکە خاڵێکی سرووشتی یەک‌گیر بوو بۆ ھاتووچۆی ناو ڕووبار.",
                             onPressedBritish: () => speakconvergences1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconvergences1("en-US"),

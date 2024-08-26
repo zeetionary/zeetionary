@@ -94,8 +94,7 @@ class EnglishEntrychilli extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ناو) بیبەرەتوونە"),
                           SentencesRow(
                             englishText: "Add 2 chopped red chillies.",
-                            kurdishText:
-                                "دوو بیبەرەتوونەی وردکراو زیادبکە.", // chilli",
+                            kurdishText: "دوو بیبەرەتوونەی وردکراو زیادبکە.",
                             onPressedBritish: () => speakchillis1("en-GB"),
                             onPressedAmerican: () => speakchillis1("en-US"),
                           ),

@@ -121,7 +121,7 @@ class EnglishEntrychew extends StatelessWidget {
                             englishText:
                                 "After the operation you may find it difficult to chew and swallow.",
                             kurdishText:
-                                "لە دوای نەشتەرگەرییەکە ڕەنگە زەحمەت بێت کە شت بجاویت و قوتی بدەیت.", // chew",
+                                "لە دوای نەشتەرگەرییەکە ڕەنگە زەحمەت بێت کە شت بجاویت و قوتی بدەیت.",
                             onPressedBritish: () => speakchews1("en-GB"),
                             onPressedAmerican: () => speakchews1("en-US"),
                           ),

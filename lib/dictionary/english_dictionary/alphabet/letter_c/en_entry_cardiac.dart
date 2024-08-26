@@ -177,7 +177,7 @@ class EnglishEntrycardiac extends StatelessWidget {
                             englishText:
                                 "The patient had a history of cardiac disease.",
                             kurdishText:
-                                "نەخۆشەکە پێشینەیەکی لەگەڵ نەخۆشی دڵ ھەبوو.", // cardiac",
+                                "نەخۆشەکە پێشینەیەکی لەگەڵ نەخۆشی دڵ ھەبوو.",
                             onPressedBritish: () => speakcardiacs1("en-GB"),
                             onPressedAmerican: () => speakcardiacs1("en-US"),
                           ),

@@ -180,7 +180,7 @@ class EnglishEntrycavalcade extends StatelessWidget {
                             englishText:
                                 "They were followed by a cavalcade of 20 cars.",
                             kurdishText:
-                                "لەلایەن دەستەیەکی ٢٠ ئۆتۆمبێلییەوە یاوەری دەکران.", // cavalcade",
+                                "لەلایەن دەستەیەکی ٢٠ ئۆتۆمبێلییەوە یاوەری دەکران.",
                             onPressedBritish: () => speakcavalcades1("en-GB"),
                             onPressedAmerican: () => speakcavalcades1("en-US"),
                           ),

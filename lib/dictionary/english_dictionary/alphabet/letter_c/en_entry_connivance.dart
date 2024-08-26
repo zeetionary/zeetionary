@@ -95,7 +95,7 @@ class EnglishEntryconnivance extends StatelessWidget {
                             englishText:
                                 "The crime was committed with the connivance of a police officer.",
                             kurdishText:
-                                "تاوانەکە بە ھاودەستی ئەفسەرێکی پۆلیس ئەنجامدرا.", // connivance",
+                                "تاوانەکە بە ھاودەستی ئەفسەرێکی پۆلیس ئەنجامدرا.",
                             onPressedBritish: () => speakconnivances1("en-GB"),
                             onPressedAmerican: () => speakconnivances1("en-US"),
                           ),

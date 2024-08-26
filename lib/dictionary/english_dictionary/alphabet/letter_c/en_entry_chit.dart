@@ -101,7 +101,7 @@ class EnglishEntrychit extends StatelessWidget {
                             englishText:
                                 "Do I need to sign a chit for these drinks?",
                             kurdishText:
-                                "دەبێت پەڕەیەک واژۆ بکەم بۆ ئەم خواردنەوانە؟", // chit",
+                                "دەبێت پەڕەیەک واژۆ بکەم بۆ ئەم خواردنەوانە؟",
                             onPressedBritish: () => speakchits1("en-GB"),
                             onPressedAmerican: () => speakchits1("en-US"),
                           ),

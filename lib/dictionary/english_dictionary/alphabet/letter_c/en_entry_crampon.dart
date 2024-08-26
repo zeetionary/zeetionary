@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The mountaineer strapped on his crampons before beginning the ascent.",
             kurdishText:
-                "شاخەوانەکە سەھۆڵبڕەکەی بەست پێش ئەوەی سەرکەوتنەکەی دەست‌پێ بکات.", // crampon", please follow LX instructions
+                "شاخەوانەکە سەھۆڵبڕەکەی بەست پێش ئەوەی سەرکەوتنەکەی دەست‌پێ بکات.",
             onPressedBritish: () => speakcrampons1("en-GB"),
             onPressedAmerican: () => speakcrampons1("en-US"),
           ),

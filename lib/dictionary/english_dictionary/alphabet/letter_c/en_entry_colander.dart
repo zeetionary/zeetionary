@@ -95,7 +95,7 @@ class EnglishEntrycolander extends StatelessWidget {
                             englishText:
                                 "After four minutes, pour the pasta into a colander to drain.",
                             kurdishText:
-                                "لە دوای چوار خولەک، پاستاکە بڕژێنە ناو سووزگییەکەوە بۆ ئاوەچۆڕکردن.", // colander",
+                                "لە دوای چوار خولەک، پاستاکە بڕژێنە ناو سووزگییەکەوە بۆ ئاوەچۆڕکردن.",
                             onPressedBritish: () => speakcolanders1("en-GB"),
                             onPressedAmerican: () => speakcolanders1("en-US"),
                           ),

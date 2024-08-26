@@ -123,8 +123,7 @@ class EnglishEntrycoal extends StatelessWidget {
                                   "١. (ناو) مادەیەکی نائەندامی سەختی ڕەش کە لە ژێر زەویدایە و دەسووتێنرێت بۆ درووستکردنی گەرمی"),
                           SentencesRow(
                             englishText: "I put more coal on the fire.",
-                            kurdishText:
-                                "خەڵووزی زیاترم خستە ئاگرەکەوە.", // coal",
+                            kurdishText: "خەڵووزی زیاترم خستە ئاگرەکەوە.",
                             onPressedBritish: () => speakcoals1("en-GB"),
                             onPressedAmerican: () => speakcoals1("en-US"),
                           ),

@@ -126,7 +126,7 @@ class EnglishEntrycompensation extends StatelessWidget {
                             englishText:
                                 "The employer has a duty to pay full compensation for injuries received at work.",
                             kurdishText:
-                                "خاوەنکار ئەرکییەتی قەرەبووی تەواو بدات بۆ برین کە لە شوێنی کار ڕووبدات.", // compensation",
+                                "خاوەنکار ئەرکییەتی قەرەبووی تەواو بدات بۆ برین کە لە شوێنی کار ڕووبدات.",
                             onPressedBritish: () =>
                                 speakcompensations1("en-GB"),
                             onPressedAmerican: () =>

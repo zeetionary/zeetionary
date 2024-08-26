@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She ordered a custom-built sofa to fit perfectly in her living room.",
             kurdishText:
-                "داوای قەنەفەیەکی بە تایبەت درووستکراوی کرد بۆ ئەوەی لە ژووری میوانییەکەیدا جێگای ببێتەوە.", // custom-built", please follow LX instructions
+                "داوای قەنەفەیەکی بە تایبەت درووستکراوی کرد بۆ ئەوەی لە ژووری میوانییەکەیدا جێگای ببێتەوە.",
             onPressedBritish: () => speakcustombuilts1("en-GB"),
             onPressedAmerican: () => speakcustombuilts1("en-US"),
           ),

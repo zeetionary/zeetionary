@@ -190,7 +190,7 @@ class EnglishEntrycheap extends StatelessWidget {
                             englishText:
                                 "Their cheap prices have helped them pick up new customers.",
                             kurdishText:
-                                "نرخە ھەرزانەکانیان یارمەتی داون کڕیاری تازە کۆبکەنەوە.", // cheap",
+                                "نرخە ھەرزانەکانیان یارمەتی داون کڕیاری تازە کۆبکەنەوە.",
                             onPressedBritish: () => speakcheaps1("en-GB"),
                             onPressedAmerican: () => speakcheaps1("en-US"),
                           ),

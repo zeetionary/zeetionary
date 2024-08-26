@@ -100,7 +100,7 @@ class EnglishEntryconductor extends StatelessWidget {
                           SentencesRow(
                             englishText: "The conductor raised his baton.",
                             kurdishText:
-                                "سەرتیپی ئۆرکێستراکە دارەکەیی بەرزکردەوە.", // conductor",
+                                "سەرتیپی ئۆرکێستراکە دارەکەیی بەرزکردەوە.",
                             onPressedBritish: () => speakconductors1("en-GB"),
                             onPressedAmerican: () => speakconductors1("en-US"),
                           ),

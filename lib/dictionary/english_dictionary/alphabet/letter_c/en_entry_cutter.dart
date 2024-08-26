@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "٢. (ناو) ئامرازێک کە شت دەبڕێت"),
           SentencesRow(
             englishText: "This cutter has a six-inch blade.",
-            kurdishText:
-                "ئەم کەتەرە دەمێکی شەش ئینجی ھەیە.", // cutter", please follow LX instructions
+            kurdishText: "ئەم کەتەرە دەمێکی شەش ئینجی ھەیە.",
             onPressedBritish: () => speakcutters1("en-GB"),
             onPressedAmerican: () => speakcutters1("en-US"),
           ),

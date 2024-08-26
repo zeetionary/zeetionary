@@ -181,7 +181,7 @@ class EnglishEntrycarbonpaper extends StatelessWidget {
                             englishText:
                                 "In offices, carbon paper was once a standard tool for replicating important documents.",
                             kurdishText:
-                                "لە ئۆفیسەکاندا، کاغەزی کۆپی جاران ئامرازێکی ستاندارد بوو بۆ لەبەرگرتنەوەی بەڵگەنامە گرنگەکان.", // carbon paper",
+                                "لە ئۆفیسەکاندا، کاغەزی کۆپی جاران ئامرازێکی ستاندارد بوو بۆ لەبەرگرتنەوەی بەڵگەنامە گرنگەکان.",
                             onPressedBritish: () => speakcarbonpapers1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcarbonpapers1("en-US"),

@@ -182,7 +182,7 @@ class EnglishEntrycamper extends StatelessWidget {
                             englishText:
                                 "During the summer months we have on average 170 campers staying here every night.",
                             kurdishText:
-                                "لە کاتی مانگەکانی ھاوین بە تێکڕا ١٧٠ کەمپ‌نشینمان ھەبوو کە ھەموو شەوێک لێرە دەمانەوە.", // camper
+                                "لە کاتی مانگەکانی ھاوین بە تێکڕا ١٧٠ کەمپ‌نشینمان ھەبوو کە ھەموو شەوێک لێرە دەمانەوە",
                             onPressedBritish: () => speakcampers1("en-GB"),
                             onPressedAmerican: () => speakcampers1("en-US"),
                           ),

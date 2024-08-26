@@ -95,7 +95,7 @@ class EnglishEntrychallenger extends StatelessWidget {
                             englishText:
                                 "The Senator faces a challenger with conservative views.",
                             kurdishText:
-                                "سیناتۆرەکە ڕووبەڕووی ڕکابەرێک دەبێتەوە کە کۆنەپارێزە.", // challenger",
+                                "سیناتۆرەکە ڕووبەڕووی ڕکابەرێک دەبێتەوە کە کۆنەپارێزە.",
                             onPressedBritish: () => speakchallengers1("en-GB"),
                             onPressedAmerican: () => speakchallengers1("en-US"),
                           ),

@@ -101,7 +101,7 @@ class EnglishEntrycomposed extends StatelessWidget {
                             englishText:
                                 "The committee is composed mainly of lawyers.",
                             kurdishText:
-                                "لیژنەکە بەشێوەیەکی سەرەکی لە پارێزەران پێکھاتووە.", // composed",
+                                "لیژنەکە بەشێوەیەکی سەرەکی لە پارێزەران پێکھاتووە.",
                             onPressedBritish: () => speakcomposeds1("en-GB"),
                             onPressedAmerican: () => speakcomposeds1("en-US"),
                           ),

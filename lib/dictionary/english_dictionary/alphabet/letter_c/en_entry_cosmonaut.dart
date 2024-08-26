@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Yuri Gagarin was the first cosmonaut to travel into space.",
             kurdishText:
-                "یوری گاگارین یەکەم ئاسمان‌گەڕی ڕووسی بوو بچێتە بۆشایی ئاسمان.", // cosmonaut", please follow LX instructions
+                "یوری گاگارین یەکەم ئاسمان‌گەڕی ڕووسی بوو بچێتە بۆشایی ئاسمان.",
             onPressedBritish: () => speakcosmonauts1("en-GB"),
             onPressedAmerican: () => speakcosmonauts1("en-US"),
           ),

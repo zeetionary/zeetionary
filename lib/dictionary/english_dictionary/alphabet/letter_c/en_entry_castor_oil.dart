@@ -178,7 +178,7 @@ class EnglishEntrycastoroil extends StatelessWidget {
                             englishText:
                                 "Applying castor oil can help moisturize dry skin.",
                             kurdishText:
-                                "بەکارھێنانی ڕۆنە گەرچەک دەکرێت یارمەتی ڕووخساری وشک شێداربکاتەوە.", // castor oil",
+                                "بەکارھێنانی ڕۆنە گەرچەک دەکرێت یارمەتی ڕووخساری وشک شێداربکاتەوە.",
                             onPressedBritish: () => speakcastoroils1("en-GB"),
                             onPressedAmerican: () => speakcastoroils1("en-US"),
                           ),

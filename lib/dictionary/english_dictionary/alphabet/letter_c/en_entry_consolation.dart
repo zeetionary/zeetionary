@@ -110,7 +110,7 @@ class EnglishEntryconsolation extends StatelessWidget {
                             englishText:
                                 "If it's any consolation, she didn't get the job, either.",
                             kurdishText:
-                                "ئەگەر دڵدانەوە دەبێت بۆت، ئەویش کارەکەی وەرنەگرت.", // consolation",
+                                "ئەگەر دڵدانەوە دەبێت بۆت، ئەویش کارەکەی وەرنەگرت.",
                             onPressedBritish: () => speakconsolations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsolations1("en-US"),

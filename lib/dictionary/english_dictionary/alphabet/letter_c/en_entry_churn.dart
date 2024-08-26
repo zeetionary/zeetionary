@@ -131,7 +131,7 @@ class EnglishEntrychurn extends StatelessWidget {
                             englishText:
                                 "The water churned beneath the huge ship.",
                             kurdishText:
-                                "ئاوەکە لەژێر کەشتییە گەورەکەدا شەپۆلی دەدا.", // churn",
+                                "ئاوەکە لەژێر کەشتییە گەورەکەدا شەپۆلی دەدا.",
                             onPressedBritish: () => speakchurns1("en-GB"),
                             onPressedAmerican: () => speakchurns1("en-US"),
                           ),

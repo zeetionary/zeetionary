@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دڵتەنگ و بێ‌ھیوا بەھۆی ئەوەی شکستھێناوە و چاوەڕوان نەبوویت"),
           SentencesRow(
             englishText: "Mrs Clark looked quite crestfallen all of a sudden.",
-            kurdishText:
-                "خاتوو کلارک لەناکاو زۆر ھەناسەسارد دیار بوو.", // crestfallen", please follow LX instructions
+            kurdishText: "خاتوو کلارک لەناکاو زۆر ھەناسەسارد دیار بوو.",
             onPressedBritish: () => speakcrestfallens1("en-GB"),
             onPressedAmerican: () => speakcrestfallens1("en-US"),
           ),

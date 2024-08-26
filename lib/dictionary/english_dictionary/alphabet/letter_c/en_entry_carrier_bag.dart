@@ -175,7 +175,7 @@ class EnglishEntrycarrierbag extends StatelessWidget {
                             englishText:
                                 "After shopping, she placed her groceries in a carrier bag.",
                             kurdishText:
-                                "لە دوای بازاڕکردن، شتەکانی خستە ناو تورەکەیەکەوە.", // carrier bag",
+                                "لە دوای بازاڕکردن، شتەکانی خستە ناو تورەکەیەکەوە.",
                             onPressedBritish: () => speakcarrierbags1("en-GB"),
                             onPressedAmerican: () => speakcarrierbags1("en-US"),
                           ),

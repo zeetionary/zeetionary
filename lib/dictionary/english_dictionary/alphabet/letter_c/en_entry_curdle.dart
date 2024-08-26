@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The milk curdled after being left out of the fridge.",
             kurdishText:
-                "شیرەکە مەیی لە دوای ئەوەی لە ساردکەرەوەکە ھێڵدرایەوە.", // curdle", please follow LX instructions
+                "شیرەکە مەیی لە دوای ئەوەی لە ساردکەرەوەکە ھێڵدرایەوە.",
             onPressedBritish: () => speakcurdles1("en-GB"),
             onPressedAmerican: () => speakcurdles1("en-US"),
           ),

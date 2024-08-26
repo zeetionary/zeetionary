@@ -101,7 +101,7 @@ class EnglishEntrycocoa extends StatelessWidget {
                             englishText:
                                 "The recipe called for a tablespoon of cocoa.",
                             kurdishText:
-                                "ڕەچەتەکە یەک کەوچکی چێشتخۆر کاکاوی دەویست.", // cocoa",
+                                "ڕەچەتەکە یەک کەوچکی چێشتخۆر کاکاوی دەویست.",
                             onPressedBritish: () => speakcocoas1("en-GB"),
                             onPressedAmerican: () => speakcocoas1("en-US"),
                           ),

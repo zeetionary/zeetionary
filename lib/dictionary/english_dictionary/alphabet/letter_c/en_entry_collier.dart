@@ -101,7 +101,7 @@ class EnglishEntrycollier extends StatelessWidget {
                             englishText:
                                 "He followed in his father's footsteps and became a collier.",
                             kurdishText:
-                                "بە شوێن پێی باوکیدا چوو و بوو بە خەڵووزکەن.", // collier",
+                                "بە شوێن پێی باوکیدا چوو و بوو بە خەڵووزکەن.",
                             onPressedBritish: () => speakcolliers1("en-GB"),
                             onPressedAmerican: () => speakcolliers1("en-US"),
                           ),

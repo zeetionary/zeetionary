@@ -95,7 +95,7 @@ class EnglishEntrycontraband extends StatelessWidget {
                             englishText:
                                 "The lorry contained thousands of pounds worth of contraband.",
                             kurdishText:
-                                "لۆرییەکە بە بەھای ھەزاران پاوەند مادەی قاچاغی تێدابوو.", // contraband",
+                                "لۆرییەکە بە بەھای ھەزاران پاوەند مادەی قاچاغی تێدابوو.",
                             onPressedBritish: () => speakcontrabands1("en-GB"),
                             onPressedAmerican: () => speakcontrabands1("en-US"),
                           ),

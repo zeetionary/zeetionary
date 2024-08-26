@@ -103,7 +103,7 @@ class EnglishEntrychauvinistic extends StatelessWidget {
                             englishText:
                                 "It is a deeply chauvinist community where the few women who have jobs are ridiculed.",
                             kurdishText:
-                                "گەڕەکێکی تەواو پیاوسالارانەیە کە ئەو ڕێژە کەمەی ژنان کە کاریان ھەیە گاڵتەیان پێ‌دەکرێت.", // chauvinistic",
+                                "گەڕەکێکی تەواو پیاوسالارانەیە کە ئەو ڕێژە کەمەی ژنان کە کاریان ھەیە گاڵتەیان پێ‌دەکرێت.",
                             onPressedBritish: () =>
                                 speakchauvinistics1("en-GB"),
                             onPressedAmerican: () =>

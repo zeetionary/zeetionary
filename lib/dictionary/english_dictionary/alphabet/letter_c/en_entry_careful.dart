@@ -177,7 +177,7 @@ class EnglishEntrycareful extends StatelessWidget {
                                   "١. (ھاوەڵناو) پێدانی ھۆشیاری و گرنگی بەوەی دەیکەیت بپ ئەوەی ھیچی ھەڵە ڕوونەدات"),
                           SentencesRow(
                             englishText: " Be careful!",
-                            kurdishText: "ئاگادار بە!", // careful",
+                            kurdishText: "ئاگادار بە!",
                             onPressedBritish: () => speakcarefuls1("en-GB"),
                             onPressedAmerican: () => speakcarefuls1("en-US"),
                           ),

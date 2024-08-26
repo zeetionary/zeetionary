@@ -102,7 +102,7 @@ class EnglishEntrycolonialist extends StatelessWidget {
                             englishText:
                                 "The colonialist powers of the 19th century included Britain, France, and Spain.",
                             kurdishText:
-                                "ھێزە داگیرکەرەکانی سەدەی ١٩ بریتی بوون لە بەریتانیا، فەرەنسا، ئیسپانیا.", // colonialist",
+                                "ھێزە داگیرکەرەکانی سەدەی ١٩ بریتی بوون لە بەریتانیا، فەرەنسا، ئیسپانیا.",
                             onPressedBritish: () => speakcolonialists1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcolonialists1("en-US"),

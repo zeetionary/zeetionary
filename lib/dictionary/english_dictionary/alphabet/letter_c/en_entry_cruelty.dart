@@ -261,8 +261,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The deliberate cruelty of his words cut her like a knife.",
-            kurdishText:
-                "دڕندەیی بەئەنقەستی وشەکانی وەک چەقۆ برینداری کرد.", // cruelty", please follow LX instructions
+            kurdishText: "دڕندەیی بەئەنقەستی وشەکانی وەک چەقۆ برینداری کرد.",
             onPressedBritish: () => speakcrueltys1("en-GB"),
             onPressedAmerican: () => speakcrueltys1("en-US"),
           ),

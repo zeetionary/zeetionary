@@ -109,8 +109,7 @@ class EnglishEntrycloakroom extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The cloakroom was crowded with jackets and bags.",
-                            kurdishText:
-                                "کلەکڕوومەکە پڕ لە چاکەت و جانتا بوو.", // cloakroom",
+                            kurdishText: "کلەکڕوومەکە پڕ لە چاکەت و جانتا بوو.",
                             onPressedBritish: () => speakcloakrooms1("en-GB"),
                             onPressedAmerican: () => speakcloakrooms1("en-US"),
                           ),

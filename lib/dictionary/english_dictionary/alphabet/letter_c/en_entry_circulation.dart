@@ -139,7 +139,7 @@ class EnglishEntrycirculation extends StatelessWidget {
                             englishText:
                                 "Regular exercise will improve blood circulation.",
                             kurdishText:
-                                "ڕاھێنانی بەدەوام سووڕی خوێن بەھێز دەکات.", // circulation",
+                                "ڕاھێنانی بەدەوام سووڕی خوێن بەھێز دەکات.",
                             onPressedBritish: () => speakcirculations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcirculations1("en-US"),

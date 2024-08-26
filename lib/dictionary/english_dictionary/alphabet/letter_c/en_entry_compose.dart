@@ -116,7 +116,7 @@ class EnglishEntrycompose extends StatelessWidget {
                             englishText:
                                 "Mozart composed his last opera shortly before he died.",
                             kurdishText:
-                                "مۆزارت کۆتا ئۆپێرای نووسی ماوەیەکی کەم پێش مردنی.", // compose",
+                                "مۆزارت کۆتا ئۆپێرای نووسی ماوەیەکی کەم پێش مردنی.",
                             onPressedBritish: () => speakcomposes1("en-GB"),
                             onPressedAmerican: () => speakcomposes1("en-US"),
                           ),

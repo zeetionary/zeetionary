@@ -110,7 +110,7 @@ class EnglishEntryconsecutive extends StatelessWidget {
                             englishText:
                                 "She was absent for nine consecutive days.",
                             kurdishText:
-                                "بۆ نۆ ڕۆژی دوابەدوای‌یەک نەھاتوو بوو.", // consecutive",
+                                "بۆ نۆ ڕۆژی دوابەدوای‌یەک نەھاتوو بوو.",
                             onPressedBritish: () => speakconsecutives1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsecutives1("en-US"),

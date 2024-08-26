@@ -173,8 +173,7 @@ class EnglishEntrycentimetre extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The shelves are three centimetres thick.",
-                            kurdishText:
-                                "ڕەفەکان سێ سەنتیمەتر ئەستوورن.", // centimetre",
+                            kurdishText: "ڕەفەکان سێ سەنتیمەتر ئەستوورن.",
                             onPressedBritish: () => speakcentimetres1("en-GB"),
                             onPressedAmerican: () => speakcentimetres1("en-US"),
                           ),

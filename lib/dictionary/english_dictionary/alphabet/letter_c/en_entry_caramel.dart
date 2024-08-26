@@ -176,7 +176,7 @@ class EnglishEntrycaramel extends StatelessWidget {
                             englishText:
                                 "The delightful aroma of caramel wafted through the kitchen.",
                             kurdishText:
-                                "بۆنی خۆشی کەرەمێلەکە بە چێشتخانەکەدا بڵاوبوویەوە.", // caramel",
+                                "بۆنی خۆشی کەرەمێلەکە بە چێشتخانەکەدا بڵاوبوویەوە.",
                             onPressedBritish: () => speakcaramels1("en-GB"),
                             onPressedAmerican: () => speakcaramels1("en-US"),
                           ),

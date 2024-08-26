@@ -135,8 +135,7 @@ class EnglishEntrybrusquely extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "‘What's your name?’ he asked brusquely.",
-                            kurdishText:
-                                "بە بێ‌ڕێزییەوە وتی 'ناوت چییە؟'", // brusquely" as
+                            kurdishText: "بە بێ‌ڕێزییەوە وتی 'ناوت چییە؟'",
                             onPressedBritish: () => speakbrusquelys1("en-GB"),
                             onPressedAmerican: () => speakbrusquelys1("en-US"),
                           ),

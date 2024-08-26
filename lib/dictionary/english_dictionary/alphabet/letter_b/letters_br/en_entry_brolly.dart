@@ -133,8 +133,7 @@ class EnglishEntrybrolly extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I left my brolly on the bus yesterday.",
-                            kurdishText:
-                                "دوێنێ چەترەکەم لە پاسەکە جێھێشت.", // brolly" as
+                            kurdishText: "دوێنێ چەترەکەم لە پاسەکە جێھێشت.",
                             onPressedBritish: () => speakbrollys1("en-GB"),
                             onPressedAmerican: () => speakbrollys1("en-US"),
                           ),

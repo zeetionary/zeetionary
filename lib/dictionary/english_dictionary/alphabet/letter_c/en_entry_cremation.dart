@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "More people are choosing cremation rather than burial.",
-            kurdishText:
-                "خەڵکی زیاتر سووتاندن ھەڵدەبژێرن وەک لە ناشتن.", // cremation", please follow LX instructions
+            kurdishText: "خەڵکی زیاتر سووتاندن ھەڵدەبژێرن وەک لە ناشتن.",
             onPressedBritish: () => speakcremations1("en-GB"),
             onPressedAmerican: () => speakcremations1("en-US"),
           ),

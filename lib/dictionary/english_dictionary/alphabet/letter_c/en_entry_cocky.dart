@@ -103,7 +103,7 @@ class EnglishEntrycocky extends StatelessWidget {
                             englishText:
                                 "Let's not get too cocky—things could still go wrong.",
                             kurdishText:
-                                "با ھێندە لەخۆبایی نەبین، شتەکان دەکرێت بگۆڕێن.", // cocky",
+                                "با ھێندە لەخۆبایی نەبین، شتەکان دەکرێت بگۆڕێن.",
                             onPressedBritish: () => speakcockys1("en-GB"),
                             onPressedAmerican: () => speakcockys1("en-US"),
                           ),

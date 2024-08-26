@@ -181,7 +181,7 @@ class EnglishEntrycalibre extends StatelessWidget {
                             englishText:
                                 "He was impressed by the high calibre of applicants for the job.",
                             kurdishText:
-                                "سەرسام بوو بە لێوەشاوەیی داواکارانی کارەکە.", // calibre
+                                "سەرسام بوو بە لێوەشاوەیی داواکارانی کارەکە",
                             onPressedBritish: () => speakcalibres1("en-GB"),
                             onPressedAmerican: () => speakcalibres1("en-US"),
                           ),

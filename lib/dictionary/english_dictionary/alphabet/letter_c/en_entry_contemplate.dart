@@ -145,7 +145,7 @@ class EnglishEntrycontemplate extends StatelessWidget {
                             englishText:
                                 "You're too young to be contemplating retirement.",
                             kurdishText:
-                                "زۆر گەنجیت تا بیر لە خانەنشین بوون بکەیتەوە.", // contemplate",
+                                "زۆر گەنجیت تا بیر لە خانەنشین بوون بکەیتەوە.",
                             onPressedBritish: () => speakcontemplates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontemplates1("en-US"),

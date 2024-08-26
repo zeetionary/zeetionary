@@ -101,7 +101,7 @@ class EnglishEntryclod extends StatelessWidget {
                             englishText:
                                 "Their hoofs threw up clods of earth as they galloped across the field.",
                             kurdishText:
-                                "سمەکان کڵۆ خۆڵیان فڕێ دەدا کە بە کێڵگەکەدا غاریان دەدا.", // clod",
+                                "سمەکان کڵۆ خۆڵیان فڕێ دەدا کە بە کێڵگەکەدا غاریان دەدا.",
                             onPressedBritish: () => speakclods1("en-GB"),
                             onPressedAmerican: () => speakclods1("en-US"),
                           ),

@@ -100,7 +100,7 @@ class EnglishEntrycherub extends StatelessWidget {
                             englishText:
                                 "The church's ceiling was adorned with paintings of cherubs playing musical instruments.",
                             kurdishText:
-                                "بنبانی کڵێساکە ڕازێندرابووەوە بە تابلۆی منداڵی فریشتەیی کە ئامێری میوزیکییان دەژەند.", // cherub",
+                                "بنبانی کڵێساکە ڕازێندرابووەوە بە تابلۆی منداڵی فریشتەیی کە ئامێری میوزیکییان دەژەند.",
                             onPressedBritish: () => speakcherubs1("en-GB"),
                             onPressedAmerican: () => speakcherubs1("en-US"),
                           ),

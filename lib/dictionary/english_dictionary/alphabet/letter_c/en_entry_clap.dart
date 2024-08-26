@@ -163,7 +163,7 @@ class EnglishEntryclap extends StatelessWidget {
                             englishText:
                                 "After she performed, Ariana stood up and clapped for her.",
                             kurdishText:
-                                "لەدوای ئەوەی نمایشەکەی پێشکەشکرد، ئاریانا ھەستایە سەرپێ و چەپڵەی بۆ لێدا.", // clap",
+                                "لەدوای ئەوەی نمایشەکەی پێشکەشکرد، ئاریانا ھەستایە سەرپێ و چەپڵەی بۆ لێدا.",
                             onPressedBritish: () => speakclaps1("en-GB"),
                             onPressedAmerican: () => speakclaps1("en-US"),
                           ),

@@ -111,7 +111,7 @@ class EnglishEntryconjunction extends StatelessWidget {
                             englishText:
                                 "The conjunction \"although\" joins the two clauses in the sentence \"He left, although I begged him not to.\"",
                             kurdishText:
-                                "لێکدەری \"although\" دوو بڕگەی ڕستەی \"He left, although I begged him not to.\" پێکەوە گرێ دەدات.", // conjunction",
+                                "لێکدەری \"although\" دوو بڕگەی ڕستەی \"He left, although I begged him not to.\" پێکەوە گرێ دەدات.",
                             onPressedBritish: () => speakconjunctions1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconjunctions1("en-US"),

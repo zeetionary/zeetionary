@@ -141,7 +141,7 @@ class EnglishEntrybrotherhood extends StatelessWidget {
                             englishText:
                                 "The group tries to promote a spirit of brotherhood among its members.",
                             kurdishText:
-                                "گرووپەکە ھەوڵ دەدات گیانی برایەتی برەو پێ بدات لە نێوان ئەندامەکانی.", // brotherhood" as
+                                "گرووپەکە ھەوڵ دەدات گیانی برایەتی برەو پێ بدات لە نێوان ئەندامەکانی.",
                             onPressedBritish: () => speakbrotherhoods1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbrotherhoods1("en-US"),

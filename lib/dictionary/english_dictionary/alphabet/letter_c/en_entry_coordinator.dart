@@ -96,7 +96,7 @@ class EnglishEntrycoordinator extends StatelessWidget {
                             englishText:
                                 "The campaign needs an effective coordinator.",
                             kurdishText:
-                                "کەمپینەکە پێویستی بە ڕێکخەرێکی کارا ھەیە.", // coordinator",
+                                "کەمپینەکە پێویستی بە ڕێکخەرێکی کارا ھەیە.",
                             onPressedBritish: () => speakcoordinators1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcoordinators1("en-US"),

@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بایەک کە بەر ڕاست و چەپی فڕۆکەیەک دەکەوێت"),
           SentencesRow(
             englishText: "Strong crosswinds blew the plane off course.",
-            kurdishText:
-                "پەرچەبای بەھێز فڕۆکەکەیان لە ڕێڕەوەکەی لادا.", // crosswind", please follow LX instructions
+            kurdishText: "پەرچەبای بەھێز فڕۆکەکەیان لە ڕێڕەوەکەی لادا.",
             onPressedBritish: () => speakcrosswinds1("en-GB"),
             onPressedAmerican: () => speakcrosswinds1("en-US"),
           ),

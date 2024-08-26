@@ -181,7 +181,7 @@ class EnglishEntrycelebration extends StatelessWidget {
                             englishText:
                                 "I hope you'll join in the Christmas celebrations.",
                             kurdishText:
-                                "ھیوادارم پەیوەندی بکەیت بە ئاھەنگگێڕانی کریسمسەوە.", // celebration",
+                                "ھیوادارم پەیوەندی بکەیت بە ئاھەنگگێڕانی کریسمسەوە.",
                             onPressedBritish: () => speakcelebrations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcelebrations1("en-US"),

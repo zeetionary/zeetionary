@@ -94,7 +94,7 @@ class EnglishEntrycistern extends StatelessWidget {
                             englishText:
                                 "The ancient Romans used cisterns to collect rainwater for bathing and drinking.",
                             kurdishText:
-                                "ڕۆمە کۆنەکان عەماراویان بەکاردەھێنا بۆ کۆکردنەوەی ئاوی باران بۆ خۆشۆردن و خواردنەوە.", // cistern",
+                                "ڕۆمە کۆنەکان عەماراویان بەکاردەھێنا بۆ کۆکردنەوەی ئاوی باران بۆ خۆشۆردن و خواردنەوە.",
                             onPressedBritish: () => speakcisterns1("en-GB"),
                             onPressedAmerican: () => speakcisterns1("en-US"),
                           ),

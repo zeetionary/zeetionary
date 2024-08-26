@@ -109,7 +109,7 @@ class EnglishEntrychaste extends StatelessWidget {
                             englishText:
                                 "In the past, a woman needed to be chaste to make a good marriage.",
                             kurdishText:
-                                "لە کۆندا، ژن دەبوو داوێن‌پاک بێت بۆ دەستکەوتنی ھاوسەرگیرییەکی باش.", // chaste",
+                                "لە کۆندا، ژن دەبوو داوێن‌پاک بێت بۆ دەستکەوتنی ھاوسەرگیرییەکی باش.",
                             onPressedBritish: () => speakchastes1("en-GB"),
                             onPressedAmerican: () => speakchastes1("en-US"),
                           ),

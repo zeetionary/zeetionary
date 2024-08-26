@@ -103,7 +103,7 @@ class EnglishEntrycompilation extends StatelessWidget {
                             englishText:
                                 "Her latest album is a compilation of all her best singles.",
                             kurdishText:
-                                "کۆتا ئەلبوومی کۆکراوەیەکی باشترین سینگڵەکانیەتی.", // compilation",
+                                "کۆتا ئەلبوومی کۆکراوەیەکی باشترین سینگڵەکانیەتی.",
                             onPressedBritish: () => speakcompilations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcompilations1("en-US"),

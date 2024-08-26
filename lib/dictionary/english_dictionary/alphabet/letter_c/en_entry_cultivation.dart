@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The cultivation of wheat required the most fertile lands.",
-            kurdishText:
-                "چاندنی دانەوێڵە پێویستی بە بەپیتترین خاک ھەیە.", // cultivation", please follow LX instructions
+            kurdishText: "چاندنی دانەوێڵە پێویستی بە بەپیتترین خاک ھەیە.",
             onPressedBritish: () => speakcultivations1("en-GB"),
             onPressedAmerican: () => speakcultivations1("en-US"),
           ),

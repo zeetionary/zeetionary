@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There is a direct correlation between exposure to sun and skin cancer.",
             kurdishText:
-                "پێکبەندی ڕاستەوخۆ ھەیە لەنێوان بەرکەوتن بە خۆر و شێرپەنجەی پێست.", // correlation", please follow LX instructions
+                "پێکبەندی ڕاستەوخۆ ھەیە لەنێوان بەرکەوتن بە خۆر و شێرپەنجەی پێست.",
             onPressedBritish: () => speakcorrelations1("en-GB"),
             onPressedAmerican: () => speakcorrelations1("en-US"),
           ),

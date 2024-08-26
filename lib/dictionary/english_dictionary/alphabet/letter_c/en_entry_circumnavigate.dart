@@ -95,7 +95,7 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
                             englishText:
                                 "They circumnavigated the world in 75 days.",
                             kurdishText:
-                                "بە ٧٥ ڕۆژ بە دەوری جیھاندا سووڕانەوە.", // circumnavigate",
+                                "بە ٧٥ ڕۆژ بە دەوری جیھاندا سووڕانەوە.",
                             onPressedBritish: () =>
                                 speakcircumnavigates1("en-GB"),
                             onPressedAmerican: () =>

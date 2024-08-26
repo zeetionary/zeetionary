@@ -101,7 +101,7 @@ class EnglishEntryconcussion extends StatelessWidget {
                             englishText:
                                 "He was taken to hospital with concussion.",
                             kurdishText:
-                                "بردرا بۆ نەخۆشخانە بەھۆی ڕاتڵەکانی مێشک.", // concussion",
+                                "بردرا بۆ نەخۆشخانە بەھۆی ڕاتڵەکانی مێشک.",
                             onPressedBritish: () => speakconcussions1("en-GB"),
                             onPressedAmerican: () => speakconcussions1("en-US"),
                           ),

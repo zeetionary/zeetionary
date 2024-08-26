@@ -179,7 +179,7 @@ class EnglishEntrycasement extends StatelessWidget {
                             englishText:
                                 "Casement windows are popular in older homes for their charming design.",
                             kurdishText:
-                                "پەنجەرەی دەرگایی لە خانووە کۆنەکاندا باون بەھۆی دیزاینی جوانیان.", // casement",
+                                "پەنجەرەی دەرگایی لە خانووە کۆنەکاندا باون بەھۆی دیزاینی جوانیان.",
                             onPressedBritish: () => speakcasements1("en-GB"),
                             onPressedAmerican: () => speakcasements1("en-US"),
                           ),

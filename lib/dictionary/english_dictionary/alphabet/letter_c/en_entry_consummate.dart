@@ -116,8 +116,7 @@ class EnglishEntryconsummate extends StatelessWidget {
                                   "١. (ھاوەڵناو) پیشاندانی شارەزایی زۆر؛ تەواو"),
                           SentencesRow(
                             englishText: "She was a consummate performer.",
-                            kurdishText:
-                                "نمایشکارێکی کارامە بوو.", // consummate",
+                            kurdishText: "نمایشکارێکی کارامە بوو.",
                             onPressedBritish: () => speakconsummates1("en-GB"),
                             onPressedAmerican: () => speakconsummates1("en-US"),
                           ),

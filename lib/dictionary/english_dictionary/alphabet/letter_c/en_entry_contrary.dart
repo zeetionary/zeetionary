@@ -148,7 +148,7 @@ class EnglishEntrycontrary extends StatelessWidget {
                             englishText:
                                 "Contrary to popular belief, many cats dislike milk.",
                             kurdishText:
-                                "پێچەوانەی باوەڕی بەرفراوان، زۆر پشیلە ڕقیان لە شیرە.", // contrary",
+                                "پێچەوانەی باوەڕی بەرفراوان، زۆر پشیلە ڕقیان لە شیرە.",
                             onPressedBritish: () => speakcontrarys1("en-GB"),
                             onPressedAmerican: () => speakcontrarys1("en-US"),
                           ),

@@ -102,7 +102,7 @@ class EnglishEntrycitizenship extends StatelessWidget {
                             englishText:
                                 "They were granted full French citizenship.",
                             kurdishText:
-                                "مافی تەواوی ھاوڵاتیبوونی فەرەنسایان پێدرا.", // citizenship",
+                                "مافی تەواوی ھاوڵاتیبوونی فەرەنسایان پێدرا.",
                             onPressedBritish: () => speakcitizenships1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcitizenships1("en-US"),

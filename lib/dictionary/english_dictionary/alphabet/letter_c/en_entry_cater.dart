@@ -179,7 +179,7 @@ class EnglishEntrycater extends StatelessWidget {
                             englishText:
                                 "Most of our work now involves catering for weddings.",
                             kurdishText:
-                                "زۆرینەی کارەکانمان لە ئێستادا بریتیین لە پێشکەشکردنی خواردن بە بۆنەی ھاوسەرگیری.", // cater",
+                                "زۆرینەی کارەکانمان لە ئێستادا بریتیین لە پێشکەشکردنی خواردن بە بۆنەی ھاوسەرگیری.",
                             onPressedBritish: () => speakcaters1("en-GB"),
                             onPressedAmerican: () => speakcaters1("en-US"),
                           ),

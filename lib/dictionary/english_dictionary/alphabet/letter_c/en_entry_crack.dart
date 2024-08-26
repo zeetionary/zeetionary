@@ -425,8 +425,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) درزبردن"),
           SentencesRow(
             englishText: "The ice cracked as I stepped onto it.",
-            kurdishText:
-                "سەھۆڵەکە درزی برد کە پێم لەسەری دانا.", // crack", please follow LX instructions
+            kurdishText: "سەھۆڵەکە درزی برد کە پێم لەسەری دانا.",
             onPressedBritish: () => speakcracks1("en-GB"),
             onPressedAmerican: () => speakcracks1("en-US"),
           ),

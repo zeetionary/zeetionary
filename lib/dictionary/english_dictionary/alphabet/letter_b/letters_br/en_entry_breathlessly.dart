@@ -136,7 +136,7 @@ class EnglishEntrybreathlessly extends StatelessWidget {
                             englishText:
                                 "He ran breathlessly into the house and burst into the room without knocking.",
                             kurdishText:
-                                "بە ھەناسەبڕکێوە ڕایکردە ماڵەکە و خۆی کرد بە ژوورەکەدا بەبێ لە دەرگادان.", // breathlessly" as
+                                "بە ھەناسەبڕکێوە ڕایکردە ماڵەکە و خۆی کرد بە ژوورەکەدا بەبێ لە دەرگادان.",
                             onPressedBritish: () =>
                                 speakbreathlesslys1("en-GB"),
                             onPressedAmerican: () =>

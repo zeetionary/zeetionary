@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Cranial nerves are responsible for transmitting sensory information to the brain.",
             kurdishText:
-                "دەمارەکانی کاسەی سەر پەرپرسن بۆ گواستنەوەی زانیاری ھەستەوەری بۆ مێشک.", // cranial", please follow LX instructions
+                "دەمارەکانی کاسەی سەر پەرپرسن بۆ گواستنەوەی زانیاری ھەستەوەری بۆ مێشک.",
             onPressedBritish: () => speakcranials1("en-GB"),
             onPressedAmerican: () => speakcranials1("en-US"),
           ),

@@ -135,7 +135,7 @@ class EnglishEntrybruschetta extends StatelessWidget {
                             englishText:
                                 "At the party, everyone loved the bruschetta appetizers.",
                             kurdishText:
-                                "لە ئاھەنگەکە ھەمووان حەزیان بە بروسشێتا بەرخۆراکەکە ھەبوو.", // bruschetta" as
+                                "لە ئاھەنگەکە ھەمووان حەزیان بە بروسشێتا بەرخۆراکەکە ھەبوو.",
                             onPressedBritish: () => speakbruschettas1("en-GB"),
                             onPressedAmerican: () => speakbruschettas1("en-US"),
                           ),

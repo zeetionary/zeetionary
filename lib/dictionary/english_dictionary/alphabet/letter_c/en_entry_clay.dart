@@ -101,8 +101,7 @@ class EnglishEntryclay extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She moulded the clay into the shape of a head.",
-                            kurdishText:
-                                "قوڕەکەی قاڵبکردە سەر شێوەی سەرێک.", // clay",
+                            kurdishText: "قوڕەکەی قاڵبکردە سەر شێوەی سەرێک.",
                             onPressedBritish: () => speakclays1("en-GB"),
                             onPressedAmerican: () => speakclays1("en-US"),
                           ),

@@ -144,7 +144,7 @@ class EnglishEntryBSE extends StatelessWidget {
                             englishText:
                                 "The discovery of a case of BSE in the cattle herd raised concerns about food safety.",
                             kurdishText:
-                                "دۆزینەوەی حاڵەتێکی نەخۆشی ھاری بووە بەھۆی نیگەرانی سەبارەت بە سەلامەتی خواردن.", // BSE" as
+                                "دۆزینەوەی حاڵەتێکی نەخۆشی ھاری بووە بەھۆی نیگەرانی سەبارەت بە سەلامەتی خواردن.",
                             onPressedBritish: () => speakbSEs1("en-GB"),
                             onPressedAmerican: () => speakbSEs1("en-US"),
                           ),

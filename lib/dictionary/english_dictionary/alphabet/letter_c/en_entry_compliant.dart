@@ -109,7 +109,7 @@ class EnglishEntrycompliant extends StatelessWidget {
                             englishText:
                                 "By then, Henry seemed less compliant with his wife's wishes than he had six months before.",
                             kurdishText:
-                                "تا ئەوکاتە، ھێنری وادیاربوو کەمتر گوێرایەڵی خواستەکانی ژنەکەی بێت وەک لەوەی پێش شەش مانگ وابوو.", // compliant",
+                                "تا ئەوکاتە، ھێنری وادیاربوو کەمتر گوێرایەڵی خواستەکانی ژنەکەی بێت وەک لەوەی پێش شەش مانگ وابوو.",
                             onPressedBritish: () => speakcompliants1("en-GB"),
                             onPressedAmerican: () => speakcompliants1("en-US"),
                           ),

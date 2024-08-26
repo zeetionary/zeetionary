@@ -181,7 +181,7 @@ class EnglishEntrycancerous extends StatelessWidget {
                             englishText:
                                 "Doctors consider their treatment a success when no cancerous cells remain.",
                             kurdishText:
-                                "پزیشکان چارەسەرەکەیان بە سەرکەوتوو ناودەھێنن ئەگەر ھیچ خانەیەکی شێرپەنجەگرتوو نەمێنێتەوە.", // cancerous
+                                "پزیشکان چارەسەرەکەیان بە سەرکەوتوو ناودەھێنن ئەگەر ھیچ خانەیەکی شێرپەنجەگرتوو نەمێنێتەوە",
                             onPressedBritish: () => speakcancerouss1("en-GB"),
                             onPressedAmerican: () => speakcancerouss1("en-US"),
                           ),

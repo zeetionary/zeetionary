@@ -136,8 +136,7 @@ class EnglishEntrybridegroom extends StatelessWidget {
                                   "١. (ناو) پیاوێک لە ڕۆژی ھاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"),
                           SentencesRow(
                             englishText: "I enjoyed the bridegroom’s speech.",
-                            kurdishText:
-                                "وتاری زاواکەم بەدڵبوو.", // bridegroom" as
+                            kurdishText: "وتاری زاواکەم بەدڵبوو.",
                             onPressedBritish: () => speakbridegrooms1("en-GB"),
                             onPressedAmerican: () => speakbridegrooms1("en-US"),
                           ),

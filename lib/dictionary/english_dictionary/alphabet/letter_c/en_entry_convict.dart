@@ -114,8 +114,7 @@ class EnglishEntryconvict extends StatelessWidget {
                                   "١. (کردار) بە فەرمی گوتن و بڕیاردانی ئەوەی کەسێک تاوانبارە لە دادگادا"),
                           SentencesRow(
                             englishText: "He was convicted of fraud.",
-                            kurdishText:
-                                "بە ساختەکاری تۆمەتبارکرا.", // convict",
+                            kurdishText: "بە ساختەکاری تۆمەتبارکرا.",
                             onPressedBritish: () => speakconvicts1("en-GB"),
                             onPressedAmerican: () => speakconvicts1("en-US"),
                           ),

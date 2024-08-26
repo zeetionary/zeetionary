@@ -254,8 +254,7 @@ class EnglishEntrycommand extends StatelessWidget {
                                   "١. (ناو) فەرمانک کە بە کەسێک یان ئاژەڵێک دەکرێت"),
                           SentencesRow(
                             englishText: "Begin when I give the command.",
-                            kurdishText:
-                                "کە فەرمان دەکەم دەستپێ بکە.", // command",
+                            kurdishText: "کە فەرمان دەکەم دەستپێ بکە.",
                             onPressedBritish: () => speakcommands1("en-GB"),
                             onPressedAmerican: () => speakcommands1("en-US"),
                           ),

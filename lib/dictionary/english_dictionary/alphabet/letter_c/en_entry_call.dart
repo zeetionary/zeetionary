@@ -447,8 +447,7 @@ class EnglishEntrycall extends StatelessWidget {
                               text: """١. (کردار) ناوھێنان، ناونان"""),
                           SentencesRow(
                             englishText: "They decided to call the baby Mark.",
-                            kurdishText:
-                                "بڕیاریاندا منداڵەکە ناوبنێن مارک.", // call
+                            kurdishText: "بڕیاریاندا منداڵەکە ناوبنێن مارک",
                             onPressedBritish: () => speakcalls1("en-GB"),
                             onPressedAmerican: () => speakcalls1("en-US"),
                           ),

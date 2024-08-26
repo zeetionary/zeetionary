@@ -114,7 +114,7 @@ class EnglishEntrycoolness extends StatelessWidget {
                             englishText:
                                 "There's a slight coolness in the air - do you think it's going to rain?",
                             kurdishText:
-                                "کەمێک فێنکی لە کەشەکەدا ھەیە، پێت وایە باران ببارێت؟", // coolness",
+                                "کەمێک فێنکی لە کەشەکەدا ھەیە، پێت وایە باران ببارێت؟",
                             onPressedBritish: () => speakcoolnesss1("en-GB"),
                             onPressedAmerican: () => speakcoolnesss1("en-US"),
                           ),

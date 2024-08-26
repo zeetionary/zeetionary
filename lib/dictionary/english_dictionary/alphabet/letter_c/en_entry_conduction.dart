@@ -95,7 +95,7 @@ class EnglishEntryconduction extends StatelessWidget {
                             englishText:
                                 "The conduction of electricity can be affected by factors such as temperature.",
                             kurdishText:
-                                "گەیاندنی کارەبا دەکرێت کاریگەر ببێت بە فاکتەری وەک پلەی گەرمی.", // conduction",
+                                "گەیاندنی کارەبا دەکرێت کاریگەر ببێت بە فاکتەری وەک پلەی گەرمی.",
                             onPressedBritish: () => speakconductions1("en-GB"),
                             onPressedAmerican: () => speakconductions1("en-US"),
                           ),

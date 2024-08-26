@@ -111,7 +111,7 @@ class EnglishEntryconstructive extends StatelessWidget {
                             englishText:
                                 "His work involved helping hyperactive children to use their energy in a constructive way.",
                             kurdishText:
-                                "کارەکەی یارمەتیدانی منداڵانی ھاروھاجی لەخۆدەگرت بۆ بەکارھێنانی وزەیان بە شێوەیەکی بەسوود.", // constructive",
+                                "کارەکەی یارمەتیدانی منداڵانی ھاروھاجی لەخۆدەگرت بۆ بەکارھێنانی وزەیان بە شێوەیەکی بەسوود.",
                             onPressedBritish: () =>
                                 speakconstructives1("en-GB"),
                             onPressedAmerican: () =>

@@ -95,7 +95,7 @@ class EnglishEntrychronology extends StatelessWidget {
                             englishText:
                                 "Historians seem to have confused the chronology of these events.",
                             kurdishText:
-                                "مێژوونووسان وادەردەکەون کە تۆماری ڕیزبەندی ئەم ڕووداوانەیان تێکەڵ کردبێت.", // chronology",
+                                "مێژوونووسان وادەردەکەون کە تۆماری ڕیزبەندی ئەم ڕووداوانەیان تێکەڵ کردبێت.",
                             onPressedBritish: () => speakchronologys1("en-GB"),
                             onPressedAmerican: () => speakchronologys1("en-US"),
                           ),

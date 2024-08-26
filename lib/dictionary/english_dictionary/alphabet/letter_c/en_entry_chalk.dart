@@ -108,7 +108,7 @@ class EnglishEntrychalk extends StatelessWidget {
                             englishText:
                                 "The artist used chalk to create sculptures in the park.",
                             kurdishText:
-                                "ھونەرمەندەکە گەچی بەکارھێنا بۆ درووستکردنی پەیکەر لە پارکەکە.", // chalk",
+                                "ھونەرمەندەکە گەچی بەکارھێنا بۆ درووستکردنی پەیکەر لە پارکەکە.",
                             onPressedBritish: () => speakchalks1("en-GB"),
                             onPressedAmerican: () => speakchalks1("en-US"),
                           ),

@@ -108,7 +108,7 @@ class EnglishEntrycompute extends StatelessWidget {
                             englishText:
                                 "The losses were computed at £5 million.",
                             kurdishText:
-                                "زیانەکان بە ٥ ملیۆن پاوەند خەمڵێندران.", // compute",
+                                "زیانەکان بە ٥ ملیۆن پاوەند خەمڵێندران.",
                             onPressedBritish: () => speakcomputes1("en-GB"),
                             onPressedAmerican: () => speakcomputes1("en-US"),
                           ),

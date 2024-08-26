@@ -181,7 +181,7 @@ class EnglishEntrycant extends StatelessWidget {
                             englishText:
                                 "His speech was full of political, social and religious cant.",
                             kurdishText:
-                                "وتارەکەی پڕ لە قسەی ھەلەق و بەلەقی سیاسی و کۆمەڵایەتی و ئایینی بوو.", // cant
+                                "وتارەکەی پڕ لە قسەی ھەلەق و بەلەقی سیاسی و کۆمەڵایەتی و ئایینی بوو",
                             onPressedBritish: () => speakcants1("en-GB"),
                             onPressedAmerican: () => speakcants1("en-US"),
                           ),

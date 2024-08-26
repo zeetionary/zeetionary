@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ئەوەی کە شتێک ناوازە یان بێ‌خەوش بکات؛ گرنگ یان باش"),
           SentencesRow(
             englishText: "The cathedral is the crowning glory of the city.",
-            kurdishText:
-                "کڵێساکە شانازیی تەواوکاری شارەکە.", // crowning", please follow LX instructions
+            kurdishText: "کڵێساکە شانازیی تەواوکاری شارەکە.",
             onPressedBritish: () => speakcrownings1("en-GB"),
             onPressedAmerican: () => speakcrownings1("en-US"),
           ),

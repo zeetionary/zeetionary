@@ -109,7 +109,7 @@ class EnglishEntryconsiderably extends StatelessWidget {
                             englishText:
                                 "The need for sleep varies considerably from person to person.",
                             kurdishText:
-                                "پێویستی خەو زۆر دەگۆڕێت لە کەسێکەوە بۆ کەسێکی دیکە.", // considerably",
+                                "پێویستی خەو زۆر دەگۆڕێت لە کەسێکەوە بۆ کەسێکی دیکە.",
                             onPressedBritish: () =>
                                 speakconsiderablys1("en-GB"),
                             onPressedAmerican: () =>

@@ -222,7 +222,7 @@ class EnglishEntryconnection extends StatelessWidget {
                             englishText:
                                 "Scientists have established a connection between cholesterol levels and heart disease.",
                             kurdishText:
-                                "زاناکان پەیوەندییەکیان لە نێوان ئاستی کۆلێسترۆڵ و نەخۆشی دڵ درووستکردووە.", // connection",
+                                "زاناکان پەیوەندییەکیان لە نێوان ئاستی کۆلێسترۆڵ و نەخۆشی دڵ درووستکردووە.",
                             onPressedBritish: () => speakconnections1("en-GB"),
                             onPressedAmerican: () => speakconnections1("en-US"),
                           ),

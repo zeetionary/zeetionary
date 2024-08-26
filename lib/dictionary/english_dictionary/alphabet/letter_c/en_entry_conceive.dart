@@ -138,7 +138,7 @@ class EnglishEntryconceive extends StatelessWidget {
                             englishText:
                                 "The dam project was originally conceived in 1977.",
                             kurdishText:
-                                "پڕۆژەی بەنداوەکە لە سەرەتادا بیری لێکرایەوە لە ساڵی ١٩٧٧.", // conceive",
+                                "پڕۆژەی بەنداوەکە لە سەرەتادا بیری لێکرایەوە لە ساڵی ١٩٧٧.",
                             onPressedBritish: () => speakconceives1("en-GB"),
                             onPressedAmerican: () => speakconceives1("en-US"),
                           ),

@@ -175,7 +175,7 @@ class EnglishEntrycastiron extends StatelessWidget {
                             englishText:
                                 "The blacksmith crafted a durable cooking pot from cast iron for the kitchen.",
                             kurdishText:
-                                "ئاسنگەرەکە تاوەیەکی چێشتلێنانی قایمی درووستکرد لە ئاسنی سەخت بۆ مەتبەخەکە.", // cast iron",
+                                "ئاسنگەرەکە تاوەیەکی چێشتلێنانی قایمی درووستکرد لە ئاسنی سەخت بۆ مەتبەخەکە.",
                             onPressedBritish: () => speakcastirons1("en-GB"),
                             onPressedAmerican: () => speakcastirons1("en-US"),
                           ),

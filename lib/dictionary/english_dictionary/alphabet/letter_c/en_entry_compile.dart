@@ -110,7 +110,7 @@ class EnglishEntrycompile extends StatelessWidget {
                             englishText:
                                 "We are trying to compile a list of suitable people for the job.",
                             kurdishText:
-                                "ھەوڵ دەدەین لیستێکی کەسانی گونجاو بۆ کارەکە پێکەوە بنێین .", // compile",
+                                "ھەوڵ دەدەین لیستێکی کەسانی گونجاو بۆ کارەکە پێکەوە بنێین .",
                             onPressedBritish: () => speakcompiles1("en-GB"),
                             onPressedAmerican: () => speakcompiles1("en-US"),
                           ),

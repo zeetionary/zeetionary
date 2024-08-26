@@ -138,7 +138,7 @@ class EnglishEntrybristle extends StatelessWidget {
                             englishText:
                                 "The old woman had a few grey bristles sprouting from her chin.",
                             kurdishText:
-                                "ژنە پیرەکە ژمارەیەک تاڵە مووی سپی ھەبوو لە چەناگەیەوە دەرچووبوون.", // bristle" as
+                                "ژنە پیرەکە ژمارەیەک تاڵە مووی سپی ھەبوو لە چەناگەیەوە دەرچووبوون.",
                             onPressedBritish: () => speakbristles1("en-GB"),
                             onPressedAmerican: () => speakbristles1("en-US"),
                           ),

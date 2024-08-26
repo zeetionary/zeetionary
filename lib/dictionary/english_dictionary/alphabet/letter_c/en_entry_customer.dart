@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The company rewards loyal customers with discounts.",
             kurdishText:
-                "کۆمپانیاکە پاداشتی کڕیارە دڵسۆزەکان دەداتەوە بە داشکاندن.", // customer", please follow LX instructions
+                "کۆمپانیاکە پاداشتی کڕیارە دڵسۆزەکان دەداتەوە بە داشکاندن.",
             onPressedBritish: () => speakcustomers1("en-GB"),
             onPressedAmerican: () => speakcustomers1("en-US"),
           ),

@@ -135,7 +135,7 @@ class EnglishEntrycoffee extends StatelessWidget {
                             englishText:
                                 "An inviting smell of coffee wafted into the room.",
                             kurdishText:
-                                "بۆنێکی سەرنجڕاکێشی قاوە خۆی کرد بە ژوورەکەدا.", // coffee",
+                                "بۆنێکی سەرنجڕاکێشی قاوە خۆی کرد بە ژوورەکەدا.",
                             onPressedBritish: () => speakcoffees1("en-GB"),
                             onPressedAmerican: () => speakcoffees1("en-US"),
                           ),

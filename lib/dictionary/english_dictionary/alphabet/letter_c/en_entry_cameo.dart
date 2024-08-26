@@ -181,7 +181,7 @@ class EnglishEntrycameo extends StatelessWidget {
                             englishText:
                                 "He appears briefly towards the end of the film in a cameo role as a priest.",
                             kurdishText:
-                                "لە نزیک کۆتایی فیلمەکە بەکورتی دەردەکەوێت لە ڕۆڵێکی بچووکدا وەک قەشەیەک.", // cameo
+                                "لە نزیک کۆتایی فیلمەکە بەکورتی دەردەکەوێت لە ڕۆڵێکی بچووکدا وەک قەشەیەک",
                             onPressedBritish: () => speakcameos1("en-GB"),
                             onPressedAmerican: () => speakcameos1("en-US"),
                           ),

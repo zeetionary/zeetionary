@@ -142,7 +142,7 @@ class EnglishEntrybreed extends StatelessWidget {
                             englishText:
                                 "Many animals breed only at certain times of the year.",
                             kurdishText:
-                                "زۆر ئاژەڵ تەنھا لە ھەندێک کاتی دیاریکراوی ساڵدا وەچە دەخەنەوە.", // breed" as
+                                "زۆر ئاژەڵ تەنھا لە ھەندێک کاتی دیاریکراوی ساڵدا وەچە دەخەنەوە.",
                             onPressedBritish: () => speakbreeds1("en-GB"),
                             onPressedAmerican: () => speakbreeds1("en-US"),
                           ),

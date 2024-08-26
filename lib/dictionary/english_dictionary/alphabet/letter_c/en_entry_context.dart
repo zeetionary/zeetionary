@@ -139,7 +139,7 @@ class EnglishEntrycontext extends StatelessWidget {
                             englishText:
                                 "The government must consider the context of the protests.",
                             kurdishText:
-                                "حکومەت دەبێت ھەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت.", // context",
+                                "حکومەت دەبێت ھەلومەرجی خۆپیشاندانەکان لەبەرچاو بگرێت.",
                             onPressedBritish: () => speakcontexts1("en-GB"),
                             onPressedAmerican: () => speakcontexts1("en-US"),
                           ),

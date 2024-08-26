@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ناوچەیەک کە پەرژینێکی لە دەورە بۆ ئەسپ، مانگا، ھتد لە کێڵگەیەکدا"),
           SentencesRow(
             englishText: "They drove the ponies into a corral.",
-            kurdishText:
-                "سواری ئەسپۆکەکانیان دەکرد لە حەوشەکەدا.", // corral", please follow LX instructions
+            kurdishText: "سواری ئەسپۆکەکانیان دەکرد لە حەوشەکەدا.",
             onPressedBritish: () => speakcorrals1("en-GB"),
             onPressedAmerican: () => speakcorrals1("en-US"),
           ),

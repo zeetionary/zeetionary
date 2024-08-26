@@ -103,8 +103,7 @@ class EnglishEntryconfidentiality extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They signed a confidentiality agreement.",
-                            kurdishText:
-                                "نھێنییەکی سڕپۆشییان واژۆکرد.", // confidentiality",
+                            kurdishText: "نھێنییەکی سڕپۆشییان واژۆکرد.",
                             onPressedBritish: () =>
                                 speakconfidentialitys1("en-GB"),
                             onPressedAmerican: () =>

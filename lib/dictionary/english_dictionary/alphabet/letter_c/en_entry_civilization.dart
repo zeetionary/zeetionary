@@ -118,7 +118,7 @@ class EnglishEntrycivilization extends StatelessWidget {
                             englishText:
                                 "Some people think that nuclear war would mean the end of civilization.",
                             kurdishText:
-                                "ھەندێک کەس باوەڕیان وایە جەنگی ئەتۆمی دەبێتە ھۆی کۆتایی شارستانییەت.", // civilization",
+                                "ھەندێک کەس باوەڕیان وایە جەنگی ئەتۆمی دەبێتە ھۆی کۆتایی شارستانییەت.",
                             onPressedBritish: () =>
                                 speakcivilizations1("en-GB"),
                             onPressedAmerican: () =>

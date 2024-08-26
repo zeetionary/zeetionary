@@ -95,7 +95,7 @@ class EnglishEntryconvalescent extends StatelessWidget {
                             englishText:
                                 "I treated him as a convalescent, not as a sick man.",
                             kurdishText:
-                                "وەک ڕوولەچاکبوویەک مامەڵەم لەگەڵ دەکرد نەک پیاوێکی نەخۆش.", // convalescent",
+                                "وەک ڕوولەچاکبوویەک مامەڵەم لەگەڵ دەکرد نەک پیاوێکی نەخۆش.",
                             onPressedBritish: () =>
                                 speakconvalescents1("en-GB"),
                             onPressedAmerican: () =>

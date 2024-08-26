@@ -97,7 +97,7 @@ class EnglishEntrycoloursupplement extends StatelessWidget {
                             englishText:
                                 "The business has grown a lot in recent years, largely as a result of advertising in the Sunday colour supplements.",
                             kurdishText:
-                                "بازرگانییەکە زۆر بەرەوپێشچووە لەم ساڵانەی دواییدا، بەزۆری لە ئەنجامی بانگەشەکردن لە گۆڤارە پاشکۆکانی یەکشەممان.", // colour supplement",
+                                "بازرگانییەکە زۆر بەرەوپێشچووە لەم ساڵانەی دواییدا، بەزۆری لە ئەنجامی بانگەشەکردن لە گۆڤارە پاشکۆکانی یەکشەممان.",
                             onPressedBritish: () =>
                                 speakcoloursupplements1("en-GB"),
                             onPressedAmerican: () =>

@@ -102,7 +102,7 @@ class EnglishEntrycontroller extends StatelessWidget {
                             englishText:
                                 "He is the new programme controller for BBC2.",
                             kurdishText:
-                                "سەرپەرشتیارە تازەکەی پڕۆگرامە لە BBC2.", // controller",
+                                "سەرپەرشتیارە تازەکەی پڕۆگرامە لە BBC2.",
                             onPressedBritish: () => speakcontrollers1("en-GB"),
                             onPressedAmerican: () => speakcontrollers1("en-US"),
                           ),

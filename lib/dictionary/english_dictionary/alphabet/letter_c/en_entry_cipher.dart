@@ -124,8 +124,7 @@ class EnglishEntrycipher extends StatelessWidget {
                                   "١. (ناو) شێوازێکی نھێنی نووسین، بەتایبەتی یەکێک کە ژمارەیەک پیت و سمبول بەکاردێن بۆ ھێماکردنی ئەوانی دیکە"),
                           SentencesRow(
                             englishText: "The message was written in cipher.",
-                            kurdishText:
-                                "نامەکە بە ھێما نووسرابوو.", // cipher",
+                            kurdishText: "نامەکە بە ھێما نووسرابوو.",
                             onPressedBritish: () => speakciphers1("en-GB"),
                             onPressedAmerican: () => speakciphers1("en-US"),
                           ),

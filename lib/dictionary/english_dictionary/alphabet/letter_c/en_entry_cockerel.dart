@@ -93,7 +93,7 @@ class EnglishEntrycockerel extends StatelessWidget {
                             englishText:
                                 "She raised a flock of hens and a cockerel.",
                             kurdishText:
-                                "گرووپێک لە مریشک و باڕە کەڵەبابێکی بەخێودەکرد.", // cockerel",
+                                "گرووپێک لە مریشک و باڕە کەڵەبابێکی بەخێودەکرد.",
                             onPressedBritish: () => speakcockerels1("en-GB"),
                             onPressedAmerican: () => speakcockerels1("en-US"),
                           ),

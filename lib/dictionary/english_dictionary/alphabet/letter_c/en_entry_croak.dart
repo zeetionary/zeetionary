@@ -251,8 +251,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) دەرکردنی دەنگێکی بەرز، وەک قیڕەقیڕی بۆق"),
           SentencesRow(
             englishText: "A frog croaked by the water.",
-            kurdishText:
-                "بۆقێک قیڕەقیڕی بوو لای ئاوەکە.", // croak", please follow LX instructions
+            kurdishText: "بۆقێک قیڕەقیڕی بوو لای ئاوەکە.",
             onPressedBritish: () => speakcroaks1("en-GB"),
             onPressedAmerican: () => speakcroaks1("en-US"),
           ),

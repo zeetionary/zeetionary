@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ھەبوونی ڕوویەکی دەرەوە کە سەختە"),
           SentencesRow(
             englishText: "The smell of fresh crusty bread filled the kitchen.",
-            kurdishText:
-                "بۆنی نانی توێژداری تازە چێشتخانەکەی پڕکرد.", // crusty", please follow LX instructions
+            kurdishText: "بۆنی نانی توێژداری تازە چێشتخانەکەی پڕکرد.",
             onPressedBritish: () => speakcrustys1("en-GB"),
             onPressedAmerican: () => speakcrustys1("en-US"),
           ),

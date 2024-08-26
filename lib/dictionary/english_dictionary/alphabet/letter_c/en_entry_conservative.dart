@@ -133,7 +133,7 @@ class EnglishEntryconservative extends StatelessWidget {
                             englishText:
                                 "The southern state's inhabitants tend to be socially conservative.",
                             kurdishText:
-                                "دانیشتوانی ویلایەتەکانی باشوور مەیلی ئەوەیان ھەیە لە ڕووی کۆمەڵایەتییەوە کۆنەپارێز بن.", // conservative",
+                                "دانیشتوانی ویلایەتەکانی باشوور مەیلی ئەوەیان ھەیە لە ڕووی کۆمەڵایەتییەوە کۆنەپارێز بن.",
                             onPressedBritish: () =>
                                 speakconservatives1("en-GB"),
                             onPressedAmerican: () =>

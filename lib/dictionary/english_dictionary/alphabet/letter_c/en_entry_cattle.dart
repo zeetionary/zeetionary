@@ -180,7 +180,7 @@ class EnglishEntrycattle extends StatelessWidget {
                             englishText:
                                 "He moved his cattle farther down into the valley in winter.",
                             kurdishText:
-                                "گاگەلەکەی زیاتر دەبردە دۆڵەکەوە لە زستاندا.", // cattle",
+                                "گاگەلەکەی زیاتر دەبردە دۆڵەکەوە لە زستاندا.",
                             onPressedBritish: () => speakcattles1("en-GB"),
                             onPressedAmerican: () => speakcattles1("en-US"),
                           ),

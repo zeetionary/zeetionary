@@ -100,7 +100,7 @@ class EnglishEntrycommissioner extends StatelessWidget {
                             englishText:
                                 "The commissioners reviewed the report together.",
                             kurdishText:
-                                "کۆمسیاران پێکەوە چاویان بە ڕاپۆرتەکەدا خشاند.", // commissioner",
+                                "کۆمسیاران پێکەوە چاویان بە ڕاپۆرتەکەدا خشاند.",
                             onPressedBritish: () =>
                                 speakcommissioners1("en-GB"),
                             onPressedAmerican: () =>

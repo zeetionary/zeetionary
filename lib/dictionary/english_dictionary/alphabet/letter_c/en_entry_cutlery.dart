@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەوچک، چەقۆ، چنگاڵ، ھتد بۆ خواردن"),
           SentencesRow(
             englishText: "Put the cutlery in the drawer.",
-            kurdishText:
-                "چەقۆ و کەوچکەکان بخە چەکمەجەکەوە.", // cutlery", please follow LX instructions
+            kurdishText: "چەقۆ و کەوچکەکان بخە چەکمەجەکەوە.",
             onPressedBritish: () => speakcutlerys1("en-GB"),
             onPressedAmerican: () => speakcutlerys1("en-US"),
           ),

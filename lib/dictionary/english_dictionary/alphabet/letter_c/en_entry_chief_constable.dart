@@ -94,7 +94,7 @@ class EnglishEntrychiefconstable extends StatelessWidget {
                             englishText:
                                 "He was appointed as acting chief constable following the retirement of his predecessor.",
                             kurdishText:
-                                "وەک بەڕێوبەری کاربەڕێکەری پۆلیس دانرا لە دوای خانەنشینبوونی ئەوەی پێشووتری.", // chief constable",
+                                "وەک بەڕێوبەری کاربەڕێکەری پۆلیس دانرا لە دوای خانەنشینبوونی ئەوەی پێشووتری.",
                             onPressedBritish: () =>
                                 speakchiefconstables1("en-GB"),
                             onPressedAmerican: () =>

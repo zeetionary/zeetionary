@@ -103,7 +103,7 @@ class EnglishEntrychapel extends StatelessWidget {
                             englishText:
                                 "They were married in a wedding chapel in Las Vegas.",
                             kurdishText:
-                                "لە نوێژگەیەکی ھاوسەرگیری زەماوەندیان کرد لە لاس ڤێگاس.", // chapel",
+                                "لە نوێژگەیەکی ھاوسەرگیری زەماوەندیان کرد لە لاس ڤێگاس.",
                             onPressedBritish: () => speakchapels1("en-GB"),
                             onPressedAmerican: () => speakchapels1("en-US"),
                           ),

@@ -141,7 +141,7 @@ class EnglishEntrybrood extends StatelessWidget {
                             englishText:
                                 "You're not still brooding over what he said, are you?",
                             kurdishText:
-                                "ھێشتا بیر لەوە دەکەیتەوە کە گوتی، وانییە؟", // brood" as
+                                "ھێشتا بیر لەوە دەکەیتەوە کە گوتی، وانییە؟",
                             onPressedBritish: () => speakbroods1("en-GB"),
                             onPressedAmerican: () => speakbroods1("en-US"),
                           ),

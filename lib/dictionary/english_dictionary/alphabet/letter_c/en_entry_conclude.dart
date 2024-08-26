@@ -139,8 +139,7 @@ class EnglishEntryconclude extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "It is too early for us to conclude anything.",
-                            kurdishText:
-                                "زۆر زووە بۆمان ھیچ گەڵاڵە بکەین.", // conclude",
+                            kurdishText: "زۆر زووە بۆمان ھیچ گەڵاڵە بکەین.",
                             onPressedBritish: () => speakconcludes1("en-GB"),
                             onPressedAmerican: () => speakconcludes1("en-US"),
                           ),

@@ -260,8 +260,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) زۆر گرنگ بەھۆی ئەوەی کاریگەری لە شتی دیکە دەکات"),
           SentencesRow(
             englishText: "The next few weeks are going to be crucial.",
-            kurdishText:
-                "چەند ھەفتەی داھاتوو چارەنووسساز دەبن.", // crucial", please follow LX instructions
+            kurdishText: "چەند ھەفتەی داھاتوو چارەنووسساز دەبن.",
             onPressedBritish: () => speakcrucials1("en-GB"),
             onPressedAmerican: () => speakcrucials1("en-US"),
           ),

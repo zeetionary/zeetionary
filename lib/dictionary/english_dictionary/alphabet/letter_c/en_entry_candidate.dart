@@ -186,8 +186,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He is the best candidate for the job.",
-                            kurdishText:
-                                "باشترین بەربژێرە بۆ کارەکە.", // candidate
+                            kurdishText: "باشترین بەربژێرە بۆ کارەکە",
                             onPressedBritish: () => speakcandidates1("en-GB"),
                             onPressedAmerican: () => speakcandidates1("en-US"),
                           ),

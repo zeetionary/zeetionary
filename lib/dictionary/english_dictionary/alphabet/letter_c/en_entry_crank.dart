@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کەسێک کە بیرۆکەی نامۆی ھەیە"),
           SentencesRow(
             englishText: "Vegans are no longer dismissed as cranks.",
-            kurdishText:
-                "مرۆڤە ڤیگنەکان چیتر وەک کەسانی سەیر سەیر ناکرێن.", // crank", please follow LX instructions
+            kurdishText: "مرۆڤە ڤیگنەکان چیتر وەک کەسانی سەیر سەیر ناکرێن.",
             onPressedBritish: () => speakcranks1("en-GB"),
             onPressedAmerican: () => speakcranks1("en-US"),
           ),

@@ -139,7 +139,7 @@ class EnglishEntrychapter extends StatelessWidget {
                             englishText:
                                 "He devotes an entire chapter to this topic.",
                             kurdishText:
-                                "یەک بەشی تەواو بۆ ئەم بابەتە تەرخان دەکات.", // chapter",
+                                "یەک بەشی تەواو بۆ ئەم بابەتە تەرخان دەکات.",
                             onPressedBritish: () => speakchapters1("en-GB"),
                             onPressedAmerican: () => speakchapters1("en-US"),
                           ),

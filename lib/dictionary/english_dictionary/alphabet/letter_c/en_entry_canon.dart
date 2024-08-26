@@ -183,7 +183,7 @@ class EnglishEntrycanon extends StatelessWidget {
                             englishText:
                                 "The canon directed the choir and organized musical aspects of the cathedral.",
                             kurdishText:
-                                "قەشەکە سەرپەرشتی دەستەی گۆرانیبێژ و ڕێکخستنی لایەنی میوزیکی کڵێساکەی دەکرد.", // canon
+                                "قەشەکە سەرپەرشتی دەستەی گۆرانیبێژ و ڕێکخستنی لایەنی میوزیکی کڵێساکەی دەکرد",
                             onPressedBritish: () => speakcanons1("en-GB"),
                             onPressedAmerican: () => speakcanons1("en-US"),
                           ),

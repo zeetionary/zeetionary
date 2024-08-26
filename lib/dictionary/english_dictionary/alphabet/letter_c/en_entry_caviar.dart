@@ -175,7 +175,7 @@ class EnglishEntrycaviar extends StatelessWidget {
                             englishText:
                                 "The Caspian Sea and Black Sea are historically renowned for their caviar production.",
                             kurdishText:
-                                "دەریای قەزوین و ڕەش لە مێژوودا ناسراوبوونە بۆ بەرھەمی خاویاریان.", // caviar",
+                                "دەریای قەزوین و ڕەش لە مێژوودا ناسراوبوونە بۆ بەرھەمی خاویاریان.",
                             onPressedBritish: () => speakcaviars1("en-GB"),
                             onPressedAmerican: () => speakcaviars1("en-US"),
                           ),

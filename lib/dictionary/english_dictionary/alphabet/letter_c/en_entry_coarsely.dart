@@ -99,8 +99,7 @@ class EnglishEntrycoarsely extends StatelessWidget {
                               text: "١. (ھاوەڵکار) بە کردنە پارچەی گەورە"),
                           SentencesRow(
                             englishText: "Chop the cabbage coarsely.",
-                            kurdishText:
-                                "کەلەرمەکە بە پارچەی گەورەوە ورد بکە.", // coarsely",
+                            kurdishText: "کەلەرمەکە بە پارچەی گەورەوە ورد بکە.",
                             onPressedBritish: () => speakcoarselys1("en-GB"),
                             onPressedAmerican: () => speakcoarselys1("en-US"),
                           ),

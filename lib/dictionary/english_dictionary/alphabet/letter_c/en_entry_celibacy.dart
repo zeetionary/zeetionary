@@ -178,7 +178,7 @@ class EnglishEntrycelibacy extends StatelessWidget {
                             englishText:
                                 "Celibacy is not exclusive to Catholic priests.",
                             kurdishText:
-                                "ڕەبەنی تایبەت نییە بە قەشە کاسۆلیکییەکان.", // celibacy",
+                                "ڕەبەنی تایبەت نییە بە قەشە کاسۆلیکییەکان.",
                             onPressedBritish: () => speakcelibacys1("en-GB"),
                             onPressedAmerican: () => speakcelibacys1("en-US"),
                           ),

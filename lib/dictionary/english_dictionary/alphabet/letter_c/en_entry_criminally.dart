@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Not a single officer has been found criminally liable.",
-            kurdishText:
-                "یەک ئەفسەریش بە یاسای تاوانکاری بە بەرپرس دانەنراوە.", // criminally", please follow LX instructions
+            kurdishText: "یەک ئەفسەریش بە یاسای تاوانکاری بە بەرپرس دانەنراوە.",
             onPressedBritish: () => speakcriminallys1("en-GB"),
             onPressedAmerican: () => speakcriminallys1("en-US"),
           ),

@@ -193,8 +193,7 @@ class EnglishEntrychild extends StatelessWidget {
                               text: "١. (ناو) منداڵێک کە ھێشتا پێگەشتوو نییە"),
                           SentencesRow(
                             englishText: "Children grow up so quickly!",
-                            kurdishText:
-                                "منداڵان زۆر خوو گەورە دەبن.", // child",
+                            kurdishText: "منداڵان زۆر خوو گەورە دەبن.",
                             onPressedBritish: () => speakchilds1("en-GB"),
                             onPressedAmerican: () => speakchilds1("en-US"),
                           ),

@@ -140,8 +140,7 @@ class EnglishEntryconstruct extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The building was constructed in 1993.",
-                            kurdishText:
-                                "بیناکە لە ساڵی ١٩٩٣ درووستکرا.", // construct",
+                            kurdishText: "بیناکە لە ساڵی ١٩٩٣ درووستکرا.",
                             onPressedBritish: () => speakconstructs1("en-GB"),
                             onPressedAmerican: () => speakconstructs1("en-US"),
                           ),

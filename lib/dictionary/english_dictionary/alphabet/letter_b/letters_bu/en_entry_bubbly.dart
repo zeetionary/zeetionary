@@ -135,8 +135,7 @@ class EnglishEntrybubbly extends StatelessWidget {
                               text: "١. (ھاوەڵناو) پڕ لە بڵق یان کەف"),
                           SentencesRow(
                             englishText: "I want a nice hot bubbly bath.",
-                            kurdishText:
-                                "حەوزێکی گەرمی پڕ کەفم دەوێت.", // bubbly" as
+                            kurdishText: "حەوزێکی گەرمی پڕ کەفم دەوێت.",
                             onPressedBritish: () => speakbubblys1("en-GB"),
                             onPressedAmerican: () => speakbubblys1("en-US"),
                           ),

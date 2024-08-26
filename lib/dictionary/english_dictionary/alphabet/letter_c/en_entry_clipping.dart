@@ -102,7 +102,7 @@ class EnglishEntryclipping extends StatelessWidget {
                             englishText:
                                 "She collected the nail clippings in a tissue.",
                             kurdishText:
-                                "نینۆکە بڕاوەکانی لە کلێنسێکدا کۆکردەوە.", // clipping",
+                                "نینۆکە بڕاوەکانی لە کلێنسێکدا کۆکردەوە.",
                             onPressedBritish: () => speakclippings1("en-GB"),
                             onPressedAmerican: () => speakclippings1("en-US"),
                           ),

@@ -96,7 +96,7 @@ class EnglishEntryconfidant extends StatelessWidget {
                             englishText:
                                 "There were times when a semi-stranger was a better confidante than a close friend.",
                             kurdishText:
-                                "ھەندێک کات ھەبوو کە کەسێکی تا ڕادەیەک نامۆ ڕازگرێکی باشتر بوو وەک لە کەسێکی نزیک .", // confidant",
+                                "ھەندێک کات ھەبوو کە کەسێکی تا ڕادەیەک نامۆ ڕازگرێکی باشتر بوو وەک لە کەسێکی نزیک .",
                             onPressedBritish: () => speakconfidants1("en-GB"),
                             onPressedAmerican: () => speakconfidants1("en-US"),
                           ),

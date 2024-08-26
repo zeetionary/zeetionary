@@ -173,8 +173,7 @@ class EnglishEntrycarbon extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The substance was identified as carbon.",
-                            kurdishText:
-                                "مادەکە وەک کاربۆن ناسێنرا.", // carbon",
+                            kurdishText: "مادەکە وەک کاربۆن ناسێنرا.",
                             onPressedBritish: () => speakcarbons1("en-GB"),
                             onPressedAmerican: () => speakcarbons1("en-US"),
                           ),

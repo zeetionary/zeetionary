@@ -106,7 +106,7 @@ class EnglishEntryclotheshorse extends StatelessWidget {
                             englishText:
                                 "Shirts were airing on a clothes horse in front of the fire.",
                             kurdishText:
-                                "جلوبەرگ وشکدەبوونەوە لەسەر تەنافەکە لە پێش ئاگرەکە.", // clothes horse",
+                                "جلوبەرگ وشکدەبوونەوە لەسەر تەنافەکە لە پێش ئاگرەکە.",
                             onPressedBritish: () => clotheshorserses1("en-GB"),
                             onPressedAmerican: () => clotheshorserses1("en-US"),
                           ),

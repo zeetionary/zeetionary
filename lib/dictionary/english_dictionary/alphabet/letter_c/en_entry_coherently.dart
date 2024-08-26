@@ -102,7 +102,7 @@ class EnglishEntrycoherently extends StatelessWidget {
                             englishText:
                                 "She presented her case clearly and coherently.",
                             kurdishText:
-                                "کەیسەکەی بە ڕوونی و ڕەوانی پێشکەشکرد.", // coherently",
+                                "کەیسەکەی بە ڕوونی و ڕەوانی پێشکەشکرد.",
                             onPressedBritish: () => speakcoherentlys1("en-GB"),
                             onPressedAmerican: () => speakcoherentlys1("en-US"),
                           ),

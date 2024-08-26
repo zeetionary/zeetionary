@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە لە قومارخانە بەرپرسی یارییەکە و پارە وەردەگرێت و دەبەخشێت"),
           SentencesRow(
             englishText: "He trained for months to become a skilled croupier.",
-            kurdishText:
-                "بۆ چەندین ڕاھێنانی کرد بۆ بوون بە میزگێڕێکی شارەزا.", // croupier", please follow LX instructions
+            kurdishText: "بۆ چەندین ڕاھێنانی کرد بۆ بوون بە میزگێڕێکی شارەزا.",
             onPressedBritish: () => speakcroupiers1("en-GB"),
             onPressedAmerican: () => speakcroupiers1("en-US"),
           ),

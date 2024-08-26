@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) سنووردارکردنی شتێک یان وا بکەیت کە تەنھا بۆ ماوەیەکی کەم بەردەوام بێت"),
           SentencesRow(
             englishText: "Spending on books has been severely curtailed.",
-            kurdishText:
-                "خەرجکردنی پارە لەسەر کتێب بە توندی سنووردار کراوە.", // curtail", please follow LX instructions
+            kurdishText: "خەرجکردنی پارە لەسەر کتێب بە توندی سنووردار کراوە.",
             onPressedBritish: () => speakcurtails1("en-GB"),
             onPressedAmerican: () => speakcurtails1("en-US"),
           ),

@@ -174,8 +174,7 @@ class EnglishEntrycaffeine extends StatelessWidget {
 ١. (ناو) مادەیەک کە لە چاو قاوەدا ھەیە و چالاکت دەکات"""),
                           SentencesRow(
                             englishText: "Try to avoid too much caffeine.",
-                            kurdishText:
-                                "ھەوڵ بدە لە کافینی زۆر بەدوور بیت.", // caffeine
+                            kurdishText: "ھەوڵ بدە لە کافینی زۆر بەدوور بیت",
                             onPressedBritish: () => speakcaffeines1("en-GB"),
                             onPressedAmerican: () => speakcaffeines1("en-US"),
                           ),

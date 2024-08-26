@@ -101,7 +101,7 @@ class EnglishEntrycharcoal extends StatelessWidget {
                             englishText:
                                 "I prefer sketching in charcoal to pencil.",
                             kurdishText:
-                                "پێم باشترە بە خەڵووز نەخشاندن بکەم وەک لە پێنووس.", // charcoal",
+                                "پێم باشترە بە خەڵووز نەخشاندن بکەم وەک لە پێنووس.",
                             onPressedBritish: () => speakcharcoals1("en-GB"),
                             onPressedAmerican: () => speakcharcoals1("en-US"),
                           ),

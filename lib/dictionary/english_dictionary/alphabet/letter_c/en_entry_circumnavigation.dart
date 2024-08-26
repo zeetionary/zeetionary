@@ -96,7 +96,7 @@ class EnglishEntrycircumnavigation extends StatelessWidget {
                             englishText:
                                 "We completed our circumnavigation of the island in our little boat.",
                             kurdishText:
-                                "سووڕانەوەکەمان بە دەوری دوورگەکەدا تەواوکرد بە بەلەمە بچووکەکەمان.", // circumnavigation",
+                                "سووڕانەوەکەمان بە دەوری دوورگەکەدا تەواوکرد بە بەلەمە بچووکەکەمان.",
                             onPressedBritish: () =>
                                 speakcircumnavigations1("en-GB"),
                             onPressedAmerican: () =>

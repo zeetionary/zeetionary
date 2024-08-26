@@ -313,7 +313,7 @@ class EnglishEntrycheck extends StatelessWidget {
                             englishText:
                                 "Check your answers before handing it in.",
                             kurdishText:
-                                "وەڵامەکانت بپشکنە پێش ئەوەی ڕادەستی بکەیت.", // check",
+                                "وەڵامەکانت بپشکنە پێش ئەوەی ڕادەستی بکەیت.",
                             onPressedBritish: () => speakchecks1("en-GB"),
                             onPressedAmerican: () => speakchecks1("en-US"),
                           ),

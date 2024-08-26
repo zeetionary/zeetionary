@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Protective gear is required when working with corrosive acids.",
             kurdishText:
-                "جلی پارێزەر پێویستە لە کاتی کارکردن لەگەڵ ترشەڵۆکی ڕزێنەر.", // corrosive", please follow LX instructions
+                "جلی پارێزەر پێویستە لە کاتی کارکردن لەگەڵ ترشەڵۆکی ڕزێنەر.",
             onPressedBritish: () => speakcorrosives1("en-GB"),
             onPressedAmerican: () => speakcorrosives1("en-US"),
           ),

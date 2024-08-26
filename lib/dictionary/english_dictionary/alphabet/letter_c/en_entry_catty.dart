@@ -179,7 +179,7 @@ class EnglishEntrycatty extends StatelessWidget {
                             englishText:
                                 "She's always making catty remarks about her sister.",
                             kurdishText:
-                                "ھەمیشە قسەی بوغازەوی دەکات لەسەر خوشکەکەی.", // catty",
+                                "ھەمیشە قسەی بوغازەوی دەکات لەسەر خوشکەکەی.",
                             onPressedBritish: () => speakcattys1("en-GB"),
                             onPressedAmerican: () => speakcattys1("en-US"),
                           ),

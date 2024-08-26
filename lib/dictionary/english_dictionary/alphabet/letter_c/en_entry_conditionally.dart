@@ -101,8 +101,7 @@ class EnglishEntryconditionally extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Six prisoners were released conditionally.",
-                            kurdishText:
-                                "شەش زیندانی بە مەرج ئازادکران.", // conditionally",
+                            kurdishText: "شەش زیندانی بە مەرج ئازادکران.",
                             onPressedBritish: () =>
                                 speakconditionallys1("en-GB"),
                             onPressedAmerican: () =>

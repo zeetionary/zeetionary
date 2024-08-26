@@ -103,8 +103,7 @@ class EnglishEntrycharacteristically extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Characteristically, Helen paid for everyone.",
-                            kurdishText:
-                                "وەک ھەمیشە، ھێلین پارەی ھەمووانی دا.", // characteristically",
+                            kurdishText: "وەک ھەمیشە، ھێلین پارەی ھەمووانی دا.",
                             onPressedBritish: () =>
                                 speakcharacteristicallys1("en-GB"),
                             onPressedAmerican: () =>

@@ -308,8 +308,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) لوولبوون یان وابکەیت شتێک لوول بێت"),
           SentencesRow(
             englishText: "His hair curls naturally.",
-            kurdishText:
-                "قژی بە سرووشتی لوول دەبێت.", // curl", please follow LX instructions
+            kurdishText: "قژی بە سرووشتی لوول دەبێت.",
             onPressedBritish: () => speakcurls1("en-GB"),
             onPressedAmerican: () => speakcurls1("en-US"),
           ),

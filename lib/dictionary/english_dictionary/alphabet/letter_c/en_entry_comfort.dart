@@ -207,7 +207,7 @@ class EnglishEntrycomfort extends StatelessWidget {
                             englishText:
                                 "The hotel offers a high standard of comfort and service.",
                             kurdishText:
-                                "ھوتێلەکە ئاستێکی بەرزی ئاسوودەیی و خزمەت پێشکەش دەکات.", // comfort",
+                                "ھوتێلەکە ئاستێکی بەرزی ئاسوودەیی و خزمەت پێشکەش دەکات.",
                             onPressedBritish: () => speakcomforts1("en-GB"),
                             onPressedAmerican: () => speakcomforts1("en-US"),
                           ),

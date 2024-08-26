@@ -102,7 +102,7 @@ class EnglishEntryconsequently extends StatelessWidget {
                             englishText:
                                 "This poses a threat to agriculture and the food chain, and consequently to human health.",
                             kurdishText:
-                                "ئەمە مەترسی درووست دەکات بۆ کشتوکاڵ و زنجیرەی خۆراکی، و لە ئەنجامدا تەندرووستی مرۆڤ.", // consequently",
+                                "ئەمە مەترسی درووست دەکات بۆ کشتوکاڵ و زنجیرەی خۆراکی، و لە ئەنجامدا تەندرووستی مرۆڤ.",
                             onPressedBritish: () =>
                                 speakconsequentlys1("en-GB"),
                             onPressedAmerican: () =>

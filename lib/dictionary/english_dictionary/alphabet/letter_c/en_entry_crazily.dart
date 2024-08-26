@@ -259,8 +259,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەشێوەیەک کە گەمژانەیە یان ناچێتە ئەقڵەوە"),
           SentencesRow(
             englishText: "We can't afford the crazily expensive ticket prices.",
-            kurdishText:
-                "ناتوانین نرخی لەئەقڵبەدەری بلیتەکان دەبین بکەین.", // crazily", please follow LX instructions
+            kurdishText: "ناتوانین نرخی لەئەقڵبەدەری بلیتەکان دەبین بکەین.",
             onPressedBritish: () => speakcrazilys1("en-GB"),
             onPressedAmerican: () => speakcrazilys1("en-US"),
           ),

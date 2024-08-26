@@ -95,7 +95,7 @@ class EnglishEntrycheesecloth extends StatelessWidget {
                             englishText:
                                 "She wrapped the homemade cheese in cheesecloth and hung it to drain whey.",
                             kurdishText:
-                                "پەنیرەکەی خستە پەنیرپێچەوە و ھەڵیواسی بۆ ئەوەی شیراوەکەی بتکێت.", // cheesecloth",
+                                "پەنیرەکەی خستە پەنیرپێچەوە و ھەڵیواسی بۆ ئەوەی شیراوەکەی بتکێت.",
                             onPressedBritish: () => speakcheesecloths1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcheesecloths1("en-US"),

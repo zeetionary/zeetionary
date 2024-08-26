@@ -179,7 +179,7 @@ class EnglishEntrycartridge extends StatelessWidget {
                             englishText:
                                 "The soldier swiftly loaded a fresh cartridge into the rifle.",
                             kurdishText:
-                                "سەربازەکە بەخێرایی فیشەکێکی تازەی خستە تفەنگەکەیەوە.", // cartridge",
+                                "سەربازەکە بەخێرایی فیشەکێکی تازەی خستە تفەنگەکەیەوە.",
                             onPressedBritish: () => speakcartridges1("en-GB"),
                             onPressedAmerican: () => speakcartridges1("en-US"),
                           ),

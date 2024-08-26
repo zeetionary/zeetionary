@@ -176,8 +176,7 @@ class EnglishEntrycemetery extends StatelessWidget {
                                   "١. (ناو) ناوچەیەک کە بەکاردێت بۆ ناشتنی مردوو، بەتایبەتی یەکێک کە لە نزیک کڵێسایەک نییە"),
                           SentencesRow(
                             englishText: "He was buried in a private cemetery.",
-                            kurdishText:
-                                "لە گۆڕستانێکی تایبەت نێژرا.", // cemetery",
+                            kurdishText: "لە گۆڕستانێکی تایبەت نێژرا.",
                             onPressedBritish: () => speakcemeterys1("en-GB"),
                             onPressedAmerican: () => speakcemeterys1("en-US"),
                           ),

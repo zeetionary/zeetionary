@@ -148,7 +148,7 @@ class EnglishEntryconsistent extends StatelessWidget {
                             englishText:
                                 "He has been Milan's most consistent player (= who plays well most often) this season.",
                             kurdishText:
-                                "ئەم وەرزە یاریزانی نەگۆڕی میلانی بووە.", // consistent",
+                                "ئەم وەرزە یاریزانی نەگۆڕی میلانی بووە.",
                             onPressedBritish: () => speakconsistents1("en-GB"),
                             onPressedAmerican: () => speakconsistents1("en-US"),
                           ),

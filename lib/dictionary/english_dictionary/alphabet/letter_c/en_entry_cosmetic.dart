@@ -258,8 +258,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) مادەی جوانکاری بۆ ڕووخسار یان جەستە"),
           SentencesRow(
             englishText: "She found a job selling cosmetics.",
-            kurdishText:
-                "کارێکی لە فرۆشتنی جوانکاری دۆزییەوە.", // cosmetic", please follow LX instructions
+            kurdishText: "کارێکی لە فرۆشتنی جوانکاری دۆزییەوە.",
             onPressedBritish: () => speakcosmetics1("en-GB"),
             onPressedAmerican: () => speakcosmetics1("en-US"),
           ),

@@ -180,8 +180,7 @@ class EnglishEntrycarve extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The statue was carved out of a single piece of stone.",
-                            kurdishText:
-                                "پەیکەرەکە لە یەک پارچە بەرد داتاشرا.", // carve",
+                            kurdishText: "پەیکەرەکە لە یەک پارچە بەرد داتاشرا.",
                             onPressedBritish: () => speakcarves1("en-GB"),
                             onPressedAmerican: () => speakcarves1("en-US"),
                           ),

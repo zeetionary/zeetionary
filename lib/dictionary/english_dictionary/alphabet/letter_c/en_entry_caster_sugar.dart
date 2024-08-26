@@ -182,8 +182,7 @@ class EnglishEntrycastersugar extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Sprinkle a teaspoon of caster sugar over the top.",
-                            kurdishText:
-                                "وردەشەکر بپرژێنە بە سەرەکەیدا.", // caster sugar",
+                            kurdishText: "وردەشەکر بپرژێنە بە سەرەکەیدا.",
                             onPressedBritish: () => speakcastersugars1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcastersugars1("en-US"),

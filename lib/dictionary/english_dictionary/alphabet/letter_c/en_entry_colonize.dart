@@ -116,7 +116,7 @@ class EnglishEntrycolonize extends StatelessWidget {
                             englishText:
                                 "The area was colonized by the Vikings.",
                             kurdishText:
-                                "ناوچەکە بوو بە ژێر دەستەی ڤایکینگەکانەوە.", // colonize",
+                                "ناوچەکە بوو بە ژێر دەستەی ڤایکینگەکانەوە.",
                             onPressedBritish: () => speakcolonizes1("en-GB"),
                             onPressedAmerican: () => speakcolonizes1("en-US"),
                           ),

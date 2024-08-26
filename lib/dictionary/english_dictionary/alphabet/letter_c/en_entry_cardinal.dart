@@ -180,7 +180,7 @@ class EnglishEntrycardinal extends StatelessWidget {
                           SentencesRow(
                             englishText: "Cardinals elect and advise the Pope.",
                             kurdishText:
-                                "کاردیناڵەکان پاپا ھەڵدەبژێرن و ڕاوێژی پێدەدەن.", // cardinal",
+                                "کاردیناڵەکان پاپا ھەڵدەبژێرن و ڕاوێژی پێدەدەن.",
                             onPressedBritish: () => speakcardinals1("en-GB"),
                             onPressedAmerican: () => speakcardinals1("en-US"),
                           ),

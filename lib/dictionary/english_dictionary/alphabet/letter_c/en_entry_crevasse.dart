@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The majority of crevasse deaths happen to those who travel across glaciers unroped.",
             kurdishText:
-                "زۆرینەی مردنی ناو سەھۆڵەکەلێنەکان بەسەر ئەو گەشتیارانەدا دێت کە بەبێ حەبل گەشت دەکەن بە ئاوبەستەکاندا.", // crevasse", please follow LX instructions
+                "زۆرینەی مردنی ناو سەھۆڵەکەلێنەکان بەسەر ئەو گەشتیارانەدا دێت کە بەبێ حەبل گەشت دەکەن بە ئاوبەستەکاندا.",
             onPressedBritish: () => speakcrevasses1("en-GB"),
             onPressedAmerican: () => speakcrevasses1("en-US"),
           ),

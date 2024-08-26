@@ -116,8 +116,7 @@ class EnglishEntryconsign extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I consigned her letter to the wastebasket.",
-                            kurdishText:
-                                "نامەکەیم خستە زبڵدانەکەوە.", // consign",
+                            kurdishText: "نامەکەیم خستە زبڵدانەکەوە.",
                             onPressedBritish: () => speakconsigns1("en-GB"),
                             onPressedAmerican: () => speakconsigns1("en-US"),
                           ),

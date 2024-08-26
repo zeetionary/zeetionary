@@ -135,7 +135,7 @@ class EnglishEntrybreezily extends StatelessWidget {
                             englishText:
                                 "She breezily asked her ex if he was seeing anyone now.",
                             kurdishText:
-                                "بە ئاسوودەییەوە پرسی لە خۆشەویستی پێشووی ئەگەر ئێستا لەگەڵ کەس پەیوەندی ھەیە.", // breezily" as
+                                "بە ئاسوودەییەوە پرسی لە خۆشەویستی پێشووی ئەگەر ئێستا لەگەڵ کەس پەیوەندی ھەیە.",
                             onPressedBritish: () => speakbreezilys1("en-GB"),
                             onPressedAmerican: () => speakbreezilys1("en-US"),
                           ),

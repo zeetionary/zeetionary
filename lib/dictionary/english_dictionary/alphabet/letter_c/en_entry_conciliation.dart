@@ -103,7 +103,7 @@ class EnglishEntryconciliation extends StatelessWidget {
                             englishText:
                                 "All attempts at conciliation failed and the dispute continued.",
                             kurdishText:
-                                "ھەموو ھەوڵەکانی ئاشتکردنەوە شکستیان ھێنا و مشتومڕەکە بەردەوام بوو.", // conciliation",
+                                "ھەموو ھەوڵەکانی ئاشتکردنەوە شکستیان ھێنا و مشتومڕەکە بەردەوام بوو.",
                             onPressedBritish: () =>
                                 speakconciliations1("en-GB"),
                             onPressedAmerican: () =>

@@ -95,7 +95,7 @@ class EnglishEntryclippers extends StatelessWidget {
                             englishText:
                                 "He used the nail clippers to trim his fingernails.",
                             kurdishText:
-                                "نینۆکبڕەکەی بەکارھێنا بۆ بڕینی نینۆکەکانی.", // clippers",
+                                "نینۆکبڕەکەی بەکارھێنا بۆ بڕینی نینۆکەکانی.",
                             onPressedBritish: () => speakclipperss1("en-GB"),
                             onPressedAmerican: () => speakclipperss1("en-US"),
                           ),

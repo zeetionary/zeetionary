@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The army imposed a dusk-to-dawn curfew.",
             kurdishText:
-                "سوپا قەدەغەی ھاتووچۆ لە تاریکانەوە (مەغریب) تا بەرەبەیان ڕاگەیاند.", // curfew", please follow LX instructions
+                "سوپا قەدەغەی ھاتووچۆ لە تاریکانەوە (مەغریب) تا بەرەبەیان ڕاگەیاند.",
             onPressedBritish: () => speakcurfews1("en-GB"),
             onPressedAmerican: () => speakcurfews1("en-US"),
           ),

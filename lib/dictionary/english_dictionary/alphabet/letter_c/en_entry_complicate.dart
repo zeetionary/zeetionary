@@ -111,7 +111,7 @@ class EnglishEntrycomplicate extends StatelessWidget {
                             englishText:
                                 "I do not wish to complicate the task more than is necessary.",
                             kurdishText:
-                                "نامەوێت ئەرکەکە زیاتر لەوەی پێویستە ئاڵۆز بکەم.", // complicate",
+                                "نامەوێت ئەرکەکە زیاتر لەوەی پێویستە ئاڵۆز بکەم.",
                             onPressedBritish: () => speakcomplicates1("en-GB"),
                             onPressedAmerican: () => speakcomplicates1("en-US"),
                           ),

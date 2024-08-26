@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) شەرمن یان خۆدەرخەستن بەو شێوەیە، بەتایبەتی پەیوەندیدار بە خۆشەویستی و سێکس"),
           SentencesRow(
             englishText: "She gave me a coy smile.",
-            kurdishText:
-                "بزەیەکی شەرمنانەی لێکردم.", // coy", please follow LX instructions
+            kurdishText: "بزەیەکی شەرمنانەی لێکردم.",
             onPressedBritish: () => speakcoys1("en-GB"),
             onPressedAmerican: () => speakcoys1("en-US"),
           ),

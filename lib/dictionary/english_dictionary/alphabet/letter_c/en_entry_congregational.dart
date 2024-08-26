@@ -105,7 +105,7 @@ class EnglishEntrycongregational extends StatelessWidget {
                             englishText:
                                 "The visit’s purpose may be to participate in congregational worship.",
                             kurdishText:
-                                "مەبەستی سەردانەکە ڕەنگە بەژداریکردن بێت لە پەرستشی بەکۆمەڵ.", // congregational",
+                                "مەبەستی سەردانەکە ڕەنگە بەژداریکردن بێت لە پەرستشی بەکۆمەڵ.",
                             onPressedBritish: () =>
                                 speakcongregationals1("en-GB"),
                             onPressedAmerican: () =>

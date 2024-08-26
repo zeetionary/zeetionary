@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Our ideas began to crystallize into a definite plan.",
             kurdishText:
-                "بیرۆکەکانمان دەستیان کرد بەوەی ببن بە پلانێکی دیاریکراو.", // crystallize", please follow LX instructions
+                "بیرۆکەکانمان دەستیان کرد بەوەی ببن بە پلانێکی دیاریکراو.",
             onPressedBritish: () => speakcrystallizes1("en-GB"),
             onPressedAmerican: () => speakcrystallizes1("en-US"),
           ),

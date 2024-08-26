@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "We peered over the lip of the crater into the volcano.",
-            kurdishText:
-                "لە دەمی کونەگڕکانەوە سەیری گڕکانەکەمان کرد.", // crater", please follow LX instructions
+            kurdishText: "لە دەمی کونەگڕکانەوە سەیری گڕکانەکەمان کرد.",
             onPressedBritish: () => speakcraters1("en-GB"),
             onPressedAmerican: () => speakcraters1("en-US"),
           ),

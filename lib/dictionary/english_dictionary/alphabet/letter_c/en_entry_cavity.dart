@@ -179,7 +179,7 @@ class EnglishEntrycavity extends StatelessWidget {
                             englishText:
                                 "The gold was hidden in a secret cavity.",
                             kurdishText:
-                                "زێڕەکە لەناو کەلێنێکی نھێنیدا دۆزرایەوە.", // cavity",
+                                "زێڕەکە لەناو کەلێنێکی نھێنیدا دۆزرایەوە.",
                             onPressedBritish: () => speakcavitys1("en-GB"),
                             onPressedAmerican: () => speakcavitys1("en-US"),
                           ),

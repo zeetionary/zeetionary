@@ -95,7 +95,7 @@ class EnglishEntrychorister extends StatelessWidget {
                             englishText:
                                 "She joined the choristers to sing in the school choir.",
                             kurdishText:
-                                "پەیوەندی بە گۆرانیبێژانی کۆچڕەکەوە کرد لە کۆچڕی قوتابخانەکە.", // chorister",
+                                "پەیوەندی بە گۆرانیبێژانی کۆچڕەکەوە کرد لە کۆچڕی قوتابخانەکە.",
                             onPressedBritish: () => speakchoristers1("en-GB"),
                             onPressedAmerican: () => speakchoristers1("en-US"),
                           ),

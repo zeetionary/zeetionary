@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) کۆتایی ھاتن بە ئەنجامێکی دیاریکراو یان لە خاڵێکی دیاریکراودا"),
           SentencesRow(
             englishText: "Months of hard work culminated in success.",
-            kurdishText:
-                "چەندین مانگ لە کاری سەخت بە سەرکەوتن کۆتایی ھات.", // culminate", please follow LX instructions
+            kurdishText: "چەندین مانگ لە کاری سەخت بە سەرکەوتن کۆتایی ھات.",
             onPressedBritish: () => speakculminates1("en-GB"),
             onPressedAmerican: () => speakculminates1("en-US"),
           ),

@@ -118,7 +118,7 @@ class EnglishEntryconform extends StatelessWidget {
                             englishText:
                                 "There is considerable pressure on teenagers to conform.",
                             kurdishText:
-                                "فشاری زۆر لەسەر گەنجان ھەیە بۆ چاولێکەری.", // conform",
+                                "فشاری زۆر لەسەر گەنجان ھەیە بۆ چاولێکەری.",
                             onPressedBritish: () => speakconforms1("en-GB"),
                             onPressedAmerican: () => speakconforms1("en-US"),
                           ),

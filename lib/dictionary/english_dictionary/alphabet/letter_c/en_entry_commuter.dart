@@ -103,7 +103,7 @@ class EnglishEntrycommuter extends StatelessWidget {
                             englishText:
                                 "The five o’clock train is always packed with commuters.",
                             kurdishText:
-                                "شەمەندەفەری کاتژمێر پێنج ھەمیشە پڕە لە ھاتووچۆکەرانی ڕۆژانە.", // commuter",
+                                "شەمەندەفەری کاتژمێر پێنج ھەمیشە پڕە لە ھاتووچۆکەرانی ڕۆژانە.",
                             onPressedBritish: () => speakcommuters1("en-GB"),
                             onPressedAmerican: () => speakcommuters1("en-US"),
                           ),

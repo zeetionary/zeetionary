@@ -340,8 +340,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) پەستان خستنە سەر شتێک بەشێوەیەک کە زیانی پێدەگات یان شێوەی دەگۆڕێت"),
           SentencesRow(
             englishText: "The car was completely crushed under the truck.",
-            kurdishText:
-                "ئۆتۆمبێلەکە بە تەواوی لەژێر بارھەڵگرەکەدا تلیقا.", // crush", please follow LX instructions
+            kurdishText: "ئۆتۆمبێلەکە بە تەواوی لەژێر بارھەڵگرەکەدا تلیقا.",
             onPressedBritish: () => speakcrushs1("en-GB"),
             onPressedAmerican: () => speakcrushs1("en-US"),
           ),

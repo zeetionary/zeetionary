@@ -96,8 +96,7 @@ class EnglishEntrychess extends StatelessWidget {
                                   "١. (ناو) شەترەنج؛ یارییەکی دوو کەسی کە لەسەر تەختەیەک دەکرێت کە چوارگۆشەی ڕەش و سپی لەسەرکێشراوە و لەسەریان کە ھەر پارچەیەکی یاریکردن (شا، شاژن، قەڵا، ھتد) بەپێی یاساکانی یارییەکە دەجوڵێنرێت. ئامانج لێی ئەوەیە شای یاریزانەکەی تر بخەیتە دۆخێکەوە کە نەتوانێت ھەڵبێت"),
                           SentencesRow(
                             englishText: "Alex plays chess as a hobby.",
-                            kurdishText:
-                                "ئەلێکس وەک خولیا یاری شەترەنج دەکات.", // chess",
+                            kurdishText: "ئەلێکس وەک خولیا یاری شەترەنج دەکات.",
                             onPressedBritish: () => speakchesss1("en-GB"),
                             onPressedAmerican: () => speakchesss1("en-US"),
                           ),

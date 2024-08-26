@@ -92,8 +92,7 @@ class EnglishEntrycheesecake extends StatelessWidget {
                                   "١. (ناو) شیرینییەکی سارد کە لە تێکەڵەیەکی نەرمی کرێمی پەنیر، شەکر، ھێلکە، لەسەر بسکیت یان کێک درووست دەکرێت و دەکرێت بە پارچەی بچووکەوە"),
                           SentencesRow(
                             englishText: "Is there any cheesecake left?",
-                            kurdishText:
-                                "ھیچ پەنیرکێک ماوەتەوە؟", // cheesecake",
+                            kurdishText: "ھیچ پەنیرکێک ماوەتەوە؟",
                             onPressedBritish: () => speakcheesecakes1("en-GB"),
                             onPressedAmerican: () => speakcheesecakes1("en-US"),
                           ),

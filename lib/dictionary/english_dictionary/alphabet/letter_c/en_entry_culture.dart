@@ -318,8 +318,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Cooking is a hugely important part of French culture.",
-            kurdishText:
-                "خواردن لێنان بەشێکی زۆر گرنگی کەلتووری فەرەنسایە.", // culture", please follow LX instructions
+            kurdishText: "خواردن لێنان بەشێکی زۆر گرنگی کەلتووری فەرەنسایە.",
             onPressedBritish: () => speakcultures1("en-GB"),
             onPressedAmerican: () => speakcultures1("en-US"),
           ),

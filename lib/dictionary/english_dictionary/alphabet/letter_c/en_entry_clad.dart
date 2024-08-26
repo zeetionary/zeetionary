@@ -106,7 +106,7 @@ class EnglishEntryclad extends StatelessWidget {
                                   "١. (ھاوەڵناو) پۆشینی جلوبەرگێکی دیاریکراو"),
                           SentencesRow(
                             englishText: "She was clad in blue velvet.",
-                            kurdishText: "قەیفەی شینی لەبەربوو.", // clad",
+                            kurdishText: "قەیفەی شینی لەبەربوو.",
                             onPressedBritish: () => speakclads1("en-GB"),
                             onPressedAmerican: () => speakclads1("en-US"),
                           ),

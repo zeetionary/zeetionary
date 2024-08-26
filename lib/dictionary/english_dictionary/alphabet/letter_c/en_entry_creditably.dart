@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بە شێوەیەک کە جێگای ستایشە"),
           SentencesRow(
             englishText: "The team performed creditably.",
-            kurdishText:
-                "تیمەکە بە شایستەی ستایشەوە نمایشیان کرد.", // creditably", please follow LX instructions
+            kurdishText: "تیمەکە بە شایستەی ستایشەوە نمایشیان کرد.",
             onPressedBritish: () => speakcreditablys1("en-GB"),
             onPressedAmerican: () => speakcreditablys1("en-US"),
           ),

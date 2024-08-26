@@ -176,7 +176,7 @@ class EnglishEntryceaselessly extends StatelessWidget {
                           SentencesRow(
                             englishText: "He worked ceaselessly for charity.",
                             kurdishText:
-                                "بێ وەستان کاری بۆ ڕێکخراوی خێرخوازی کرد.", // ceaselessly",
+                                "بێ وەستان کاری بۆ ڕێکخراوی خێرخوازی کرد.",
                             onPressedBritish: () => speakceaselesslys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakceaselesslys1("en-US"),

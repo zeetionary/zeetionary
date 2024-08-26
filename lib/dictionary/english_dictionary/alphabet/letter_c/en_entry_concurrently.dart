@@ -94,7 +94,7 @@ class EnglishEntryconcurrently extends StatelessWidget {
                                 "The prison sentences will run concurrently.",
                             kurdishText: "سزا زیندانییەکان پێکەوە دەبن.",
                             kurdishNote:
-                                "سزاکانی زیندانیکردن لە ھەمان کاتدا جێبەجێ دەکرێن، واتە کۆی ئەو ماوەیەی کە دەسەپێنرێت یەکسان دەبێت بە درێژترین ماوە، نەک کۆی سەرجەم سزاکان.", // concurrently",
+                                "سزاکانی زیندانیکردن لە ھەمان کاتدا جێبەجێ دەکرێن، واتە کۆی ئەو ماوەیەی کە دەسەپێنرێت یەکسان دەبێت بە درێژترین ماوە، نەک کۆی سەرجەم سزاکان.",
                             onPressedBritish: () =>
                                 speakconcurrentlys1("en-GB"),
                             onPressedAmerican: () =>

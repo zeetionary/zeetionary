@@ -177,8 +177,7 @@ class EnglishEntrycellar extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "We keep onions and apples in the cellar.",
-                            kurdishText:
-                                "پیاز و سێو دەخەینە ژێرخانەکە.", // cellar",
+                            kurdishText: "پیاز و سێو دەخەینە ژێرخانەکە.",
                             onPressedBritish: () => speakcellars1("en-GB"),
                             onPressedAmerican: () => speakcellars1("en-US"),
                           ),

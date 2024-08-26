@@ -177,8 +177,7 @@ class EnglishEntrycaptivity extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He was held in captivity for three years.",
-                            kurdishText:
-                                "بۆ چوار ساڵ بە یەخسیری ھێڵدرایەوە.", // captivity
+                            kurdishText: "بۆ چوار ساڵ بە یەخسیری ھێڵدرایەوە",
                             onPressedBritish: () => speakcaptivitys1("en-GB"),
                             onPressedAmerican: () => speakcaptivitys1("en-US"),
                           ),

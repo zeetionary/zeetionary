@@ -150,7 +150,7 @@ class EnglishEntryclub extends StatelessWidget {
                                   "١. (ناو) دامەزراوەیەک بۆ ئەو کەسانەی کە ھەمان خولیایان ھەیە یان چالاکییەک پێکەوە دەکەن"),
                           SentencesRow(
                             englishText: "They belong to the same golf club.",
-                            kurdishText: "سەر بە ھەمان یانەی گۆڵفن.", // club",
+                            kurdishText: "سەر بە ھەمان یانەی گۆڵفن.",
                             onPressedBritish: () => speakclubs1("en-GB"),
                             onPressedAmerican: () => speakclubs1("en-US"),
                           ),

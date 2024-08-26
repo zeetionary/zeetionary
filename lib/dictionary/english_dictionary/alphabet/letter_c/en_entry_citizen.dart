@@ -119,7 +119,7 @@ class EnglishEntrycitizen extends StatelessWidget {
                             englishText:
                                 "The defeat of the president did not change the lives of ordinary citizens for the better.",
                             kurdishText:
-                                "شکستی سەرۆک ژیانی ھاوڵاتی ئاسایی نەگۆڕی بۆ باشتر.", // citizen",
+                                "شکستی سەرۆک ژیانی ھاوڵاتی ئاسایی نەگۆڕی بۆ باشتر.",
                             onPressedBritish: () => speakcitizens1("en-GB"),
                             onPressedAmerican: () => speakcitizens1("en-US"),
                           ),

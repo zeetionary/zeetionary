@@ -96,7 +96,7 @@ class EnglishEntrychildminder extends StatelessWidget {
                             englishText:
                                 "The childminder took the children to the park every afternoon.",
                             kurdishText:
-                                "لەلەکە ھەموو نیوەڕۆیەک منداڵەکانی دەبرد بۆ پارکەکە.", // childminder",
+                                "لەلەکە ھەموو نیوەڕۆیەک منداڵەکانی دەبرد بۆ پارکەکە.",
                             onPressedBritish: () => speakchildminders1("en-GB"),
                             onPressedAmerican: () =>
                                 speakchildminders1("en-US"),

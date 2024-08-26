@@ -139,7 +139,7 @@ class EnglishEntrybrickwork extends StatelessWidget {
                             englishText:
                                 "Plaster had fallen away in places, exposing the brickwork.",
                             kurdishText:
-                                "پلاستەر لەملاولا لێبووەوە و خشتەکان دەرکەوتبوون.", // brickwork" as
+                                "پلاستەر لەملاولا لێبووەوە و خشتەکان دەرکەوتبوون.",
                             onPressedBritish: () => speakbrickworks1("en-GB"),
                             onPressedAmerican: () => speakbrickworks1("en-US"),
                           ),

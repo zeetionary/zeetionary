@@ -184,7 +184,7 @@ class EnglishEntrycancel extends StatelessWidget {
                             englishText:
                                 "All flights have been cancelled because of bad weather.",
                             kurdishText:
-                                "ھەموو گەشتە ئاسمانییەکان ھەڵوەشێندراونەتەوە بەھۆی کەشوھەوای خراپەوە.", // cancel
+                                "ھەموو گەشتە ئاسمانییەکان ھەڵوەشێندراونەتەوە بەھۆی کەشوھەوای خراپەوە",
                             onPressedBritish: () => speakcancels1("en-GB"),
                             onPressedAmerican: () => speakcancels1("en-US"),
                           ),

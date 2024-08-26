@@ -139,7 +139,7 @@ class EnglishEntrybrotherinlaw extends StatelessWidget {
                             englishText:
                                 "My brother-in-law is coming over for dinner tonight.",
                             kurdishText:
-                                "شووبراکەم بۆ نانی ئێوارە دێت بۆ ماڵمان ئەمشەو.", // brother-in-law" as
+                                "شووبراکەم بۆ نانی ئێوارە دێت بۆ ماڵمان ئەمشەو.",
                             onPressedBritish: () =>
                                 speakbrotherinlaws1("en-GB"),
                             onPressedAmerican: () =>

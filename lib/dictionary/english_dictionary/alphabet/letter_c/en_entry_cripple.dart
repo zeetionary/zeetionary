@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He was born with a condition that left him a cripple.",
-            kurdishText:
-                "بە نەخۆشییەکەوە لەدایکبوو کە کردی بە ئیفلیجێک.", // cripple", please follow LX instructions
+            kurdishText: "بە نەخۆشییەکەوە لەدایکبوو کە کردی بە ئیفلیجێک.",
             onPressedBritish: () => speakcripples1("en-GB"),
             onPressedAmerican: () => speakcripples1("en-US"),
           ),

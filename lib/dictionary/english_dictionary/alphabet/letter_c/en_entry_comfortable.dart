@@ -189,8 +189,7 @@ class EnglishEntrycomfortable extends StatelessWidget {
                               text: "١. (ھاوەڵناو) شتێک کە ئاسوودەبەخشە"),
                           SentencesRow(
                             englishText: "It's such a comfortable bed.",
-                            kurdishText:
-                                "جێخەوێکی تەواو ئاسوودەبەخش بوو.", // comfortable",
+                            kurdishText: "جێخەوێکی تەواو ئاسوودەبەخش بوو.",
                             onPressedBritish: () => speakcomfortables1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcomfortables1("en-US"),

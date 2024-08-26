@@ -96,7 +96,7 @@ class EnglishEntrychronologically extends StatelessWidget {
                             englishText:
                                 "The dates are arranged chronologically.",
                             kurdishText:
-                                "بەروارەکان بەپێی ڕیزبەندی مێژوویی ڕیزکراون.", // chronologically",
+                                "بەروارەکان بەپێی ڕیزبەندی مێژوویی ڕیزکراون.",
                             onPressedBritish: () =>
                                 speakchronologicallys1("en-GB"),
                             onPressedAmerican: () =>

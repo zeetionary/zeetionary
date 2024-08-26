@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) جێگەیەکی خەو بۆ منداڵان کە لاکانی بەرزن"),
           SentencesRow(
             englishText: "She put the baby down in the crib for a nap.",
-            kurdishText:
-                "منداڵەکەی خستە جۆلانەکەوە بۆ سەرخەوێک.", // crib", please follow LX instructions
+            kurdishText: "منداڵەکەی خستە جۆلانەکەوە بۆ سەرخەوێک.",
             onPressedBritish: () => speakcribs1("en-GB"),
             onPressedAmerican: () => speakcribs1("en-US"),
           ),

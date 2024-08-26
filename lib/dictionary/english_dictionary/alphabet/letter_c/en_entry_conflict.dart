@@ -166,7 +166,7 @@ class EnglishEntryconflict extends StatelessWidget {
                             englishText:
                                 "The violence was the result of political conflicts.",
                             kurdishText:
-                                "توندوتیژییەکە ئەنجامی ڕووبەڕووبوونەوەی سیاسی بوو.", // conflict",
+                                "توندوتیژییەکە ئەنجامی ڕووبەڕووبوونەوەی سیاسی بوو.",
                             onPressedBritish: () => speakconflicts1("en-GB"),
                             onPressedAmerican: () => speakconflicts1("en-US"),
                           ),

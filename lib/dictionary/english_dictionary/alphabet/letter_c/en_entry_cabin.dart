@@ -180,7 +180,7 @@ class EnglishEntrycabin extends StatelessWidget {
                             englishText:
                                 "I lay in my cabin feeling miserably seasick.",
                             kurdishText:
-                                "لە ژوورۆچکەکەمدا پاڵکەوتبووم و بەخراپی نەخۆش بووم.", // cabin
+                                "لە ژوورۆچکەکەمدا پاڵکەوتبووم و بەخراپی نەخۆش بووم",
                             onPressedBritish: () => speakcabins1("en-GB"),
                             onPressedAmerican: () => speakcabins1("en-US"),
                           ),

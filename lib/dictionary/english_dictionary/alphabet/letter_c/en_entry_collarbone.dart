@@ -95,7 +95,7 @@ class EnglishEntrycollarbone extends StatelessWidget {
                             englishText:
                                 "The collarbone is easily fractured due to its location.",
                             kurdishText:
-                                "ئێسکی چەڵەمە بە ئاسانی ئێشی پێدەگات بەھۆی شوێنکەیەوە.", // collarbone",
+                                "ئێسکی چەڵەمە بە ئاسانی ئێشی پێدەگات بەھۆی شوێنکەیەوە.",
                             onPressedBritish: () => speakcollarbones1("en-GB"),
                             onPressedAmerican: () => speakcollarbones1("en-US"),
                           ),

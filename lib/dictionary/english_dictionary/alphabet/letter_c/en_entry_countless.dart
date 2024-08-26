@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) زۆرجار؛ ھێندە زۆر کە ژمارە ناکرێت"),
           SentencesRow(
             englishText: "I've warned her countless times.",
-            kurdishText:
-                "بەڕێژەی بێشومار ئاگادارم کردووەتەوە.", // countless", please follow LX instructions
+            kurdishText: "بەڕێژەی بێشومار ئاگادارم کردووەتەوە.",
             onPressedBritish: () => speakcountlesss1("en-GB"),
             onPressedAmerican: () => speakcountlesss1("en-US"),
           ),

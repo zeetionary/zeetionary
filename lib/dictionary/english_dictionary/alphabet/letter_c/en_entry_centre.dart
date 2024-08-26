@@ -270,7 +270,7 @@ class EnglishEntrycentre extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He walked to the centre of the circle.",
-                            kurdishText: "ڕۆیشتە چەقی بازنەکە.", // centre",
+                            kurdishText: "ڕۆیشتە چەقی بازنەکە.",
                             onPressedBritish: () => speakcentres1("en-GB"),
                             onPressedAmerican: () => speakcentres1("en-US"),
                           ),

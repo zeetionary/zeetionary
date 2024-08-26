@@ -91,8 +91,7 @@ class EnglishEntrycloseset extends StatelessWidget {
                               text: "١. (ھاوەڵناو) زۆر نزیک لە یەکدی"),
                           SentencesRow(
                             englishText: "He had close-set eyes.",
-                            kurdishText:
-                                "چاوی زۆر نزیک لە یەکدی ھەبوو.", // close-set",
+                            kurdishText: "چاوی زۆر نزیک لە یەکدی ھەبوو.",
                             onPressedBritish: () => speakclosesets1("en-GB"),
                             onPressedAmerican: () => speakclosesets1("en-US"),
                           ),

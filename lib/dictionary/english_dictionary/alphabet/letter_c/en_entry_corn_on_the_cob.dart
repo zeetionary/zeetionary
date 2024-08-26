@@ -97,7 +97,7 @@ class EnglishEntrycornonthecob extends StatelessWidget {
                             englishText:
                                 "Corn on the cob is a favorite summer treat for many people.",
                             kurdishText:
-                                "زەڕات خواردنی دڵخوازی ھاوینەی زۆر کەسە.", // corn on the cob",
+                                "زەڕات خواردنی دڵخوازی ھاوینەی زۆر کەسە.",
                             onPressedBritish: () =>
                                 speakcornonthecobs1("en-GB"),
                             onPressedAmerican: () =>

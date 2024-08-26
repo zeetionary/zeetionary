@@ -140,7 +140,7 @@ class EnglishEntrybrink extends StatelessWidget {
                             englishText:
                                 "Scientists are on the brink of making a major new discovery.",
                             kurdishText:
-                                "زاناکان لە کات و ساتی دۆزینەوەیەکی گرنگی تازەن.", // brink" as
+                                "زاناکان لە کات و ساتی دۆزینەوەیەکی گرنگی تازەن.",
                             onPressedBritish: () => speakbrinks1("en-GB"),
                             onPressedAmerican: () => speakbrinks1("en-US"),
                           ),

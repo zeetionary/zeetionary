@@ -91,8 +91,7 @@ class EnglishEntryclappedout extends StatelessWidget {
                               text: "١. (ھاوەڵناو) کۆن و لە دۆخێکی خراپدا"),
                           SentencesRow(
                             englishText: "The car's totally clapped out.",
-                            kurdishText:
-                                "ئۆتۆمبێلەکە تەواو شڕ بووە.", // clapped out",
+                            kurdishText: "ئۆتۆمبێلەکە تەواو شڕ بووە.",
                             onPressedBritish: () => speakclappedouts1("en-GB"),
                             onPressedAmerican: () => speakclappedouts1("en-US"),
                           ),

@@ -103,8 +103,7 @@ class EnglishEntrycontemplative extends StatelessWidget {
                                   "١. (ھاوەڵناو) بیرکردنەوە بە ھێمنی و قووڵی سەبارەت بە شتێک"),
                           SentencesRow(
                             englishText: "She was in contemplative mood.",
-                            kurdishText:
-                                "لە کەشێکی تێڕاماویدا بوو.", // contemplative",
+                            kurdishText: "لە کەشێکی تێڕاماویدا بوو.",
                             onPressedBritish: () =>
                                 speakcontemplatives1("en-GB"),
                             onPressedAmerican: () =>

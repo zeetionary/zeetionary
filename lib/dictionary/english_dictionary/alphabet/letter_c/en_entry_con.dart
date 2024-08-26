@@ -123,7 +123,7 @@ class EnglishEntrycon extends StatelessWidget {
                             englishText:
                                 "The so-called bargain was just a big con!",
                             kurdishText:
-                                "ئەو بەناو ڕێکەوتە تەنھا دەسبڕییەک بوو.", // con",
+                                "ئەو بەناو ڕێکەوتە تەنھا دەسبڕییەک بوو.",
                             onPressedBritish: () => speakcons1("en-GB"),
                             onPressedAmerican: () => speakcons1("en-US"),
                           ),

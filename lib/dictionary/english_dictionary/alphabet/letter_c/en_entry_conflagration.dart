@@ -96,7 +96,7 @@ class EnglishEntryconflagration extends StatelessWidget {
                             englishText:
                                 "The fire services were not adequate to deal with major conflagrations.",
                             kurdishText:
-                                "خزمەتگوزارییەکانی ئاگرکوژێنەوە ھێندە بەشی پێویست نەبوون بۆ مامەڵەکردن لەگەڵ ئاگری زۆر گەورە.", // conflagration",
+                                "خزمەتگوزارییەکانی ئاگرکوژێنەوە ھێندە بەشی پێویست نەبوون بۆ مامەڵەکردن لەگەڵ ئاگری زۆر گەورە.",
                             onPressedBritish: () =>
                                 speakconflagrations1("en-GB"),
                             onPressedAmerican: () =>

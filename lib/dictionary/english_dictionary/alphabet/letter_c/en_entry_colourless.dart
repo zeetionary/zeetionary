@@ -109,7 +109,7 @@ class EnglishEntrycolourless extends StatelessWidget {
                             englishText:
                                 "The reaction will produce a colourless liquid.",
                             kurdishText:
-                                "کارلێکەکە شلەیەکی بێ ڕەنگ درووست دەکات.", // colourless",
+                                "کارلێکەکە شلەیەکی بێ ڕەنگ درووست دەکات.",
                             onPressedBritish: () => speakcolourlesss1("en-GB"),
                             onPressedAmerican: () => speakcolourlesss1("en-US"),
                           ),

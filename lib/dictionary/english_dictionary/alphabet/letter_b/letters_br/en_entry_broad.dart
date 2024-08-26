@@ -305,7 +305,7 @@ class EnglishEntrybroad extends StatelessWidget {
                               text: """١. (ھاوەڵناو) فراوان"""),
                           SentencesRow(
                             englishText: "He's got broad shoulders.",
-                            kurdishText: "شانی پانی ھەیە.", // broad" as
+                            kurdishText: "شانی پانی ھەیە.",
                             onPressedBritish: () => speakbroads1("en-GB"),
                             onPressedAmerican: () => speakbroads1("en-US"),
                           ),

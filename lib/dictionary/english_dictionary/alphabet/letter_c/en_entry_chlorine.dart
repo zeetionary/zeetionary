@@ -94,7 +94,7 @@ class EnglishEntrychlorine extends StatelessWidget {
                             englishText:
                                 "The chlorine in the pool makes my eyes sore.",
                             kurdishText:
-                                "کلۆری مەلەوانگەکان وا لە چاو دەکات سوور ببێتەوە.", // chlorine",
+                                "کلۆری مەلەوانگەکان وا لە چاو دەکات سوور ببێتەوە.",
                             onPressedBritish: () => speakchlorines1("en-GB"),
                             onPressedAmerican: () => speakchlorines1("en-US"),
                           ),

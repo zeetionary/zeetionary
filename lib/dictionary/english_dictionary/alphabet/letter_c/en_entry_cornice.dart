@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She admired the intricate details of the cornice in the historic house.",
             kurdishText:
-                "سەرسام بوو بە وردەکارییە ئاڵۆزەکەی پاسارەی خانووە مێژووییەکە.", // cornice", please follow LX instructions
+                "سەرسام بوو بە وردەکارییە ئاڵۆزەکەی پاسارەی خانووە مێژووییەکە.",
             onPressedBritish: () => speakcornices1("en-GB"),
             onPressedAmerican: () => speakcornices1("en-US"),
           ),

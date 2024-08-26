@@ -177,8 +177,7 @@ class EnglishEntrycategorize extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Participants were categorized according to age.",
-                            kurdishText:
-                                "بەژداربووان بەپێی تەمەن پۆلێنکران.", // categorize",
+                            kurdishText: "بەژداربووان بەپێی تەمەن پۆلێنکران.",
                             onPressedBritish: () => speakcategorizes1("en-GB"),
                             onPressedAmerican: () => speakcategorizes1("en-US"),
                           ),

@@ -175,7 +175,7 @@ class EnglishEntrycellist extends StatelessWidget {
                             englishText:
                                 "He was principal cellist of the Atlanta Symphony Orchestra.",
                             kurdishText:
-                                "چەلۆژەنی سەرەکی ئۆرکێسترای سیمفۆنیای ئەتلانتا بوو.", // cellist",
+                                "چەلۆژەنی سەرەکی ئۆرکێسترای سیمفۆنیای ئەتلانتا بوو.",
                             onPressedBritish: () => speakcellists1("en-GB"),
                             onPressedAmerican: () => speakcellists1("en-US"),
                           ),

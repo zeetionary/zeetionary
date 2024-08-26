@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە لە دواوەی بەلەمێکی سەڵدار دادەنیشێت و ئاراستەکەی کۆنترۆڵ دەکات"),
           SentencesRow(
             englishText: "Coxes are often small, light people.",
-            kurdishText:
-                "سوکان‌داران زۆرجار کەسانی بچووک و سووکن.", // cox", please follow LX instructions
+            kurdishText: "سوکان‌داران زۆرجار کەسانی بچووک و سووکن.",
             onPressedBritish: () => speakcoxs1("en-GB"),
             onPressedAmerican: () => speakcoxs1("en-US"),
           ),

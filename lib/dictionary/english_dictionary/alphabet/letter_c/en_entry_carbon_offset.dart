@@ -174,8 +174,7 @@ class EnglishEntrycarbonoffset extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Do you buy carbon offsets every time you fly?",
-                            kurdishText:
-                                "ھەر کاتێک دەفڕیت قەرەبووی دەکەیتەوە؟", // carbon offset",
+                            kurdishText: "ھەر کاتێک دەفڕیت قەرەبووی دەکەیتەوە؟",
                             onPressedBritish: () =>
                                 speakcarbonoffsets1("en-GB"),
                             onPressedAmerican: () =>

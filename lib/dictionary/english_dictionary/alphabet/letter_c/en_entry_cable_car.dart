@@ -180,7 +180,7 @@ class EnglishEntrycablecar extends StatelessWidget {
                             englishText:
                                 "Cable cars offer breathtaking views of the city.",
                             kurdishText:
-                                "تەلەفریکەکان دیمەنێکی دڵڕفێنەری شارەکە دەدەن بەدەستەوە.", // cable car
+                                "تەلەفریکەکان دیمەنێکی دڵڕفێنەری شارەکە دەدەن بەدەستەوە.",
                             onPressedBritish: () => speakcablecars1("en-GB"),
                             onPressedAmerican: () => speakcablecars1("en-US"),
                           ),

@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) درووستبوونی چرچ و لۆچی، بۆ نموونە لەسەر پێست، کاغەز، یان جل"),
           SentencesRow(
             englishText: "Her face crinkled up in a smile.",
-            kurdishText:
-                "ڕووخساری چرچ بوو بە پێکەنینێک.", // crinkle", please follow LX instructions
+            kurdishText: "ڕووخساری چرچ بوو بە پێکەنینێک.",
             onPressedBritish: () => speakcrinkles1("en-GB"),
             onPressedAmerican: () => speakcrinkles1("en-US"),
           ),

@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو، کردار) جۆرە خواردنێکی باشووری ئاسیا کە لە گۆشت، سەوزە، ھتد پێکدێت و لە سۆسی تووندا لێدەنرێت، و زۆرجار لەگەڵ برنج دەخورێت؛ درووستکردنی ئەم خواردنە بە گۆشت، سەوزە، ھتد"),
           SentencesRow(
             englishText: "Would you like some more curry?",
-            kurdishText:
-                "حەزت بە ھەندێک کەری زیاتر ھەیە؟", // curry", please follow LX instructions
+            kurdishText: "حەزت بە ھەندێک کەری زیاتر ھەیە؟",
             onPressedBritish: () => speakcurrys1("en-GB"),
             onPressedAmerican: () => speakcurrys1("en-US"),
           ),

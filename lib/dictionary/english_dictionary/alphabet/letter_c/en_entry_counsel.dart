@@ -271,8 +271,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ڕاوێژ و ئامۆژگاری"),
           SentencesRow(
             englishText: "Listen to the counsel of your elders.",
-            kurdishText:
-                "گوێ لە ڕاوێژی بەتەمەنەکانت بگرە.", // counsel", please follow LX instructions
+            kurdishText: "گوێ لە ڕاوێژی بەتەمەنەکانت بگرە.",
             onPressedBritish: () => speakcounsels1("en-GB"),
             onPressedAmerican: () => speakcounsels1("en-US"),
           ),

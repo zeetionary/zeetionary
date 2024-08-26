@@ -138,7 +138,7 @@ class EnglishEntrybridesmaid extends StatelessWidget {
                             englishText:
                                 "Tim asked her sister to be (a) bridesmaid.",
                             kurdishText:
-                                "تیم داوای لە خوشکەکەی ببێت بە ئاوەڵ‌بووک.", // bridesmaid" as
+                                "تیم داوای لە خوشکەکەی ببێت بە ئاوەڵ‌بووک.",
                             onPressedBritish: () => speakbridesmaids1("en-GB"),
                             onPressedAmerican: () => speakbridesmaids1("en-US"),
                           ),

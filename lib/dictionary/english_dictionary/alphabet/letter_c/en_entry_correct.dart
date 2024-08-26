@@ -359,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Do you have the correct time?",
             kurdishText: "کاتی درووست دەزانی؟",
-            kurdishNote:
-                "کاتژمێرەکەت کاتی درووست دەخوێنێتەوە؟", // correct", please follow LX instructions
+            kurdishNote: "کاتژمێرەکەت کاتی درووست دەخوێنێتەوە؟",
             onPressedBritish: () => speakcorrects1("en-GB"),
             onPressedAmerican: () => speakcorrects1("en-US"),
           ),

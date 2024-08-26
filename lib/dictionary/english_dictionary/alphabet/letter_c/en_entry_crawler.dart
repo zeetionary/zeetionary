@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She became known as a crawler after constantly praising the teacher to get better grades.",
             kurdishText:
-                "وەک ماستاوچی ناسرا لە دوای ئەوەی بەردەوام ستایشی مامۆستاکەی دەکرد بۆ بەدەستھێنانی نمرەی بەرزتر.", // crawler", please follow LX instructions
+                "وەک ماستاوچی ناسرا لە دوای ئەوەی بەردەوام ستایشی مامۆستاکەی دەکرد بۆ بەدەستھێنانی نمرەی بەرزتر.",
             onPressedBritish: () => speakcrawlers1("en-GB"),
             onPressedAmerican: () => speakcrawlers1("en-US"),
           ),

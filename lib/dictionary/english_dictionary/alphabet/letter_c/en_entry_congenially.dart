@@ -96,7 +96,7 @@ class EnglishEntrycongenially extends StatelessWidget {
                             englishText:
                                 "He smiled congenially and offered me his hand to shake.",
                             kurdishText:
-                                "ڕووخۆشانە پێدەکەنی و دەستی بۆم ڕاکێشا بۆ تەوقە کردن.", // congenially",
+                                "ڕووخۆشانە پێدەکەنی و دەستی بۆم ڕاکێشا بۆ تەوقە کردن.",
                             onPressedBritish: () => speakcongeniallys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcongeniallys1("en-US"),

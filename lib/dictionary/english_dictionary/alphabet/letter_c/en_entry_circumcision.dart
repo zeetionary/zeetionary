@@ -95,7 +95,7 @@ class EnglishEntrycircumcision extends StatelessWidget {
                             englishText:
                                 "Circumcision is an important rite in a number of religions.",
                             kurdishText:
-                                "خەتەنەکردن بۆنەیەکی گرنگە لە ژمارەیەک ئاییندا.", // circumcision",
+                                "خەتەنەکردن بۆنەیەکی گرنگە لە ژمارەیەک ئاییندا.",
                             onPressedBritish: () =>
                                 speakcircumcisions1("en-GB"),
                             onPressedAmerican: () =>

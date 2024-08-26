@@ -181,7 +181,7 @@ class EnglishEntrycamber extends StatelessWidget {
                             englishText:
                                 "The road was designed with a noticeable camber for water drainage.",
                             kurdishText:
-                                "ڕێگاکە بە گورگەپشتێکی دیارەوە دیزاین کرابوو بۆ ڕێگەدان بە ئاوەچۆڕکردن.", // camber
+                                "ڕێگاکە بە گورگەپشتێکی دیارەوە دیزاین کرابوو بۆ ڕێگەدان بە ئاوەچۆڕکردن",
                             onPressedBritish: () => speakcambers1("en-GB"),
                             onPressedAmerican: () => speakcambers1("en-US"),
                           ),

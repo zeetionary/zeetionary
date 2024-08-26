@@ -108,8 +108,7 @@ class EnglishEntrycontentious extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Try to avoid any contentious wording.",
-                            kurdishText:
-                                "ھەوڵ بدە لە زمانی توند بەدوور بە.", // contentious",
+                            kurdishText: "ھەوڵ بدە لە زمانی توند بەدوور بە.",
                             onPressedBritish: () => speakcontentiouss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontentiouss1("en-US"),

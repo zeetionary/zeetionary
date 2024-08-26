@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پێنووسێک کە ڕەنگینە یان یان تەباشیر و پێنووسی مۆمی ڕەنگینە"),
           SentencesRow(
             englishText: "She coloured the picture in with crayons.",
-            kurdishText:
-                "وێنەکەی بە پێنووسی ڕەنگی ڕەنگ کرد.", // crayon", please follow LX instructions
+            kurdishText: "وێنەکەی بە پێنووسی ڕەنگی ڕەنگ کرد.",
             onPressedBritish: () => speakcrayons1("en-GB"),
             onPressedAmerican: () => speakcrayons1("en-US"),
           ),

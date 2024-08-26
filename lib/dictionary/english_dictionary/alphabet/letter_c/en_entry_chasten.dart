@@ -94,7 +94,7 @@ class EnglishEntrychasten extends StatelessWidget {
                             englishText:
                                 "He felt suitably chastened and apologized.",
                             kurdishText:
-                                "ھەستی بە پەشیمانی کرد و داوای لێبووردنی کرد.", // chasten",
+                                "ھەستی بە پەشیمانی کرد و داوای لێبووردنی کرد.",
                             onPressedBritish: () => speakchastens1("en-GB"),
                             onPressedAmerican: () => speakchastens1("en-US"),
                           ),

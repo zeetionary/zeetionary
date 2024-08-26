@@ -176,7 +176,7 @@ class EnglishEntrycatastrophic extends StatelessWidget {
                             englishText:
                                 "An unchecked increase in the use of fossil fuels could have catastrophic results for the planet.",
                             kurdishText:
-                                "زیادبوونی کۆنتڕۆڵ‌نەکراوی بەکارھێنانی سووتەمەنی بەبەردبوو ئەنجامی کارەستباری بۆ زەوی دەبێت.", // catastrophic",
+                                "زیادبوونی کۆنتڕۆڵ‌نەکراوی بەکارھێنانی سووتەمەنی بەبەردبوو ئەنجامی کارەستباری بۆ زەوی دەبێت.",
                             onPressedBritish: () =>
                                 speakcatastrophics1("en-GB"),
                             onPressedAmerican: () =>

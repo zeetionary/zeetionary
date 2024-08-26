@@ -445,7 +445,7 @@ class EnglishEntrycare extends StatelessWidget {
                             englishText:
                                 "Some people were badly injured and needed medical care.",
                             kurdishText:
-                                "ھەندێک کەس بە خراپی برینداربوون و پێویستیان بە چاودێریی تەندرووستی.", // care",
+                                "ھەندێک کەس بە خراپی برینداربوون و پێویستیان بە چاودێریی تەندرووستی.",
                             onPressedBritish: () => speakcares1("en-GB"),
                             onPressedAmerican: () => speakcares1("en-US"),
                           ),

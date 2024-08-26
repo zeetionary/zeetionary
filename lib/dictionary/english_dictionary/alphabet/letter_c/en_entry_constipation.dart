@@ -101,7 +101,7 @@ class EnglishEntryconstipation extends StatelessWidget {
                             englishText:
                                 "Taking high doses of iron can cause constipation.",
                             kurdishText:
-                                "خواردنی زۆری مادەی ئاسن دەکرێت ببێتە ھۆی قەبزی.", // constipation",
+                                "خواردنی زۆری مادەی ئاسن دەکرێت ببێتە ھۆی قەبزی.",
                             onPressedBritish: () =>
                                 speakconstipations1("en-GB"),
                             onPressedAmerican: () =>

@@ -110,7 +110,7 @@ class EnglishEntrychin extends StatelessWidget {
                             englishText:
                                 "A strap fastens under the chin to keep the helmet in place.",
                             kurdishText:
-                                "بەستێک لە خوارەوەی چەناگە دەبەسترێت بۆ ھێشتنەوەی کڵاوەکە لە جێگای خۆی.", // chin",
+                                "بەستێک لە خوارەوەی چەناگە دەبەسترێت بۆ ھێشتنەوەی کڵاوەکە لە جێگای خۆی.",
                             onPressedBritish: () => speakchins1("en-GB"),
                             onPressedAmerican: () => speakchins1("en-US"),
                           ),

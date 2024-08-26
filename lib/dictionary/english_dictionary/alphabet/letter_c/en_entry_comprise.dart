@@ -116,8 +116,7 @@ class EnglishEntrycomprise extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The collection comprises 327 paintings.",
-                            kurdishText:
-                                "کۆکراوەکە ٣٢٧ تابلۆ لەخۆدەگرێت.", // comprise",
+                            kurdishText: "کۆکراوەکە ٣٢٧ تابلۆ لەخۆدەگرێت.",
                             onPressedBritish: () => speakcomprises1("en-GB"),
                             onPressedAmerican: () => speakcomprises1("en-US"),
                           ),

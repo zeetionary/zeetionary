@@ -94,7 +94,7 @@ class EnglishEntrychancy extends StatelessWidget {
                             englishText:
                                 "Working for yourself can be a chancy business.",
                             kurdishText:
-                                "کارکردن بۆ خۆت (ھەبوونی کاری خۆت) دەکرێت بازرگانییەکی ھات‌ونەھات بێت.", // chancy",
+                                "کارکردن بۆ خۆت (ھەبوونی کاری خۆت) دەکرێت بازرگانییەکی ھات‌ونەھات بێت.",
                             onPressedBritish: () => speakchancys1("en-GB"),
                             onPressedAmerican: () => speakchancys1("en-US"),
                           ),

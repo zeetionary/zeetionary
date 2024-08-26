@@ -103,7 +103,7 @@ class EnglishEntryconstellation extends StatelessWidget {
                             englishText:
                                 "The Little Bear constellation is still used by navigators at sea.",
                             kurdishText:
-                                "گەلەئەستێرەی ورچی بچووک ھێشتا لەلایەن کەشتیوانەکانەوە لە دەریادا بەکاردێت.", // constellation",
+                                "گەلەئەستێرەی ورچی بچووک ھێشتا لەلایەن کەشتیوانەکانەوە لە دەریادا بەکاردێت.",
                             onPressedBritish: () =>
                                 speakconstellations1("en-GB"),
                             onPressedAmerican: () =>

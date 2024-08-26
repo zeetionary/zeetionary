@@ -102,7 +102,7 @@ class EnglishEntryclipboard extends StatelessWidget {
                             englishText:
                                 "Add your name to the list on the clipboard.",
                             kurdishText:
-                                "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە.", // clipboard",
+                                "ناوت بۆ لەسەر لیستی سەر کلیپ بۆردەکە زیاد بکە.",
                             onPressedBritish: () => speakclipboards1("en-GB"),
                             onPressedAmerican: () => speakclipboards1("en-US"),
                           ),

@@ -179,7 +179,7 @@ class EnglishEntrycaterpillar extends StatelessWidget {
                             englishText:
                                 "I found a gorgeous green caterpillar munching on leaves in my garden.",
                             kurdishText:
-                                "کرمەپەپوولەیەکی جوانی سەوزم دۆزییەوە گەڵای داری دەخوارد لە باخچەکەم.", // caterpillar",
+                                "کرمەپەپوولەیەکی جوانی سەوزم دۆزییەوە گەڵای داری دەخوارد لە باخچەکەم.",
                             onPressedBritish: () => speakcaterpillars1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcaterpillars1("en-US"),

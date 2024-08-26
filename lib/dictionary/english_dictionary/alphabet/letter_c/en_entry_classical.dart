@@ -131,7 +131,7 @@ class EnglishEntryclassical extends StatelessWidget {
                             englishText:
                                 "I tend to listen to pop music rather than classical.",
                             kurdishText:
-                                "زیاتر گوێ لە میوزیکی پۆپ دەگرم وەک لە کلاسیکڵ.", // classical",
+                                "زیاتر گوێ لە میوزیکی پۆپ دەگرم وەک لە کلاسیکڵ.",
                             onPressedBritish: () => speakclassicals1("en-GB"),
                             onPressedAmerican: () => speakclassicals1("en-US"),
                           ),

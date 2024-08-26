@@ -157,7 +157,7 @@ class EnglishEntryconfirm extends StatelessWidget {
                             englishText:
                                 "We have yet to confirm the identities of the victims.",
                             kurdishText:
-                                "ھێشتا خەریکین ناسنامەی قوربانییەکان پشت‌ڕاست دەکەینەوە.", // confirm",
+                                "ھێشتا خەریکین ناسنامەی قوربانییەکان پشت‌ڕاست دەکەینەوە.",
                             onPressedBritish: () => speakconfirms1("en-GB"),
                             onPressedAmerican: () => speakconfirms1("en-US"),
                           ),

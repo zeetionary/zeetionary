@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "They haven't actually done anything culpably wrong.",
             kurdishText:
-                "لەڕاستیدا ھیچ شتێکیان نەکردووە بەرپرسیارانە ھەڵە بێت.", // culpably", please follow LX instructions
+                "لەڕاستیدا ھیچ شتێکیان نەکردووە بەرپرسیارانە ھەڵە بێت.",
             onPressedBritish: () => speakculpablys1("en-GB"),
             onPressedAmerican: () => speakculpablys1("en-US"),
           ),

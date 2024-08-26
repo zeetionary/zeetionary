@@ -94,7 +94,7 @@ class EnglishEntrycleancut extends StatelessWidget {
                             englishText:
                                 "Julie's fiancé is a nice clean-cut young man.",
                             kurdishText:
-                                "دەستگیرانەکەی جولی پیاوێکی گەنجی جوانی ڕێکوپێکە.", // clean-cut",
+                                "دەستگیرانەکەی جولی پیاوێکی گەنجی جوانی ڕێکوپێکە.",
                             onPressedBritish: () => speakcleancuts1("en-GB"),
                             onPressedAmerican: () => speakcleancuts1("en-US"),
                           ),

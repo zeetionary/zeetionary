@@ -179,7 +179,7 @@ class EnglishEntrycapillary extends StatelessWidget {
                           SentencesRow(
                             englishText: "Oxygen diffuses through capillaries.",
                             kurdishText:
-                                "ئۆکسجین لە ڕێگەی موولوولەکانی خوێنەوە دەگوازرێتەوە.", // capillary
+                                "ئۆکسجین لە ڕێگەی موولوولەکانی خوێنەوە دەگوازرێتەوە",
                             onPressedBritish: () => speakcapillarys1("en-GB"),
                             onPressedAmerican: () => speakcapillarys1("en-US"),
                           ),

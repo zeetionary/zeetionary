@@ -135,8 +135,7 @@ class EnglishEntrychocolate extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He broke off a few squares of chocolate.",
-                            kurdishText:
-                                "چەند پارچە چکلێتێکی شکاند.", // chocolate",
+                            kurdishText: "چەند پارچە چکلێتێکی شکاند.",
                             onPressedBritish: () => speakchocolates1("en-GB"),
                             onPressedAmerican: () => speakchocolates1("en-US"),
                           ),

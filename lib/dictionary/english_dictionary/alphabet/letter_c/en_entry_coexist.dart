@@ -103,7 +103,7 @@ class EnglishEntrycoexist extends StatelessWidget {
                             englishText:
                                 "The illness frequently coexists with other chronic diseases.",
                             kurdishText:
-                                "نەخۆشییەکە زۆرجار ھاوکات دەبێت لەگەڵ نەخۆشی درێژخایەندا.", // coexist",
+                                "نەخۆشییەکە زۆرجار ھاوکات دەبێت لەگەڵ نەخۆشی درێژخایەندا.",
                             onPressedBritish: () => speakcoexists1("en-GB"),
                             onPressedAmerican: () => speakcoexists1("en-US"),
                           ),

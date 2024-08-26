@@ -180,7 +180,7 @@ class EnglishEntrycaravan extends StatelessWidget {
                             englishText:
                                 "The local farmer lets holiday caravans park on his land.",
                             kurdishText:
-                                "جوتیارە لۆکاڵییەکە ڕێگا دەدات کارڤانی گەشتیاری لە زەوییەکەی پارک بکەن.", // caravan",
+                                "جوتیارە لۆکاڵییەکە ڕێگا دەدات کارڤانی گەشتیاری لە زەوییەکەی پارک بکەن.",
                             onPressedBritish: () => speakcaravans1("en-GB"),
                             onPressedAmerican: () => speakcaravans1("en-US"),
                           ),

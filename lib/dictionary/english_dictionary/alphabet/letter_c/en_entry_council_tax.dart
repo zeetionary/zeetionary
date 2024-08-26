@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She was ordered to appear in court for non-payment of council tax.",
             kurdishText:
-                "فەرمانی پێکرا لە دادگا ئامادەبێت بۆ پێنەدانی باجی ئەنجوومەن.", // council tax", please follow LX instructions
+                "فەرمانی پێکرا لە دادگا ئامادەبێت بۆ پێنەدانی باجی ئەنجوومەن.",
             onPressedBritish: () => speakcounciltaxs1("en-GB"),
             onPressedAmerican: () => speakcounciltaxs1("en-US"),
           ),

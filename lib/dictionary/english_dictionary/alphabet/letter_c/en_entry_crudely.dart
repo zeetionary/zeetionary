@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەکی سادە کە گشتگیر نییە بەڵام تێگەشتنێکی گشتی دەدات بە دەستەوە"),
           SentencesRow(
             englishText: "To put it crudely, the bad guys are winning.",
-            kurdishText:
-                "گشتگیرانە بیڵێم، کەسە خراپەکان دەبەنەوە.", // crudely", please follow LX instructions
+            kurdishText: "گشتگیرانە بیڵێم، کەسە خراپەکان دەبەنەوە.",
             onPressedBritish: () => speakcrudelys1("en-GB"),
             onPressedAmerican: () => speakcrudelys1("en-US"),
           ),

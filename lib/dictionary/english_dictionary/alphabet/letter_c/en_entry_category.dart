@@ -179,7 +179,7 @@ class EnglishEntrycategory extends StatelessWidget {
                             englishText:
                                 "These are the nominees from each category.",
                             kurdishText:
-                                "ئەمانە بەربژێرەکان لە ھەر دەستەیەکەوە.", // category",
+                                "ئەمانە بەربژێرەکان لە ھەر دەستەیەکەوە.",
                             onPressedBritish: () => speakcategorys1("en-GB"),
                             onPressedAmerican: () => speakcategorys1("en-US"),
                           ),

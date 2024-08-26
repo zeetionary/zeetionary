@@ -164,7 +164,7 @@ class EnglishEntryclever extends StatelessWidget {
                                   "١. (ھاوەڵناو) خێرا کە فێربوون و تێگەشتندا"),
                           SentencesRow(
                             englishText: "Clever girl!",
-                            kurdishText: "کچی زرنگ!", // clever",
+                            kurdishText: "کچی زرنگ!",
                             onPressedBritish: () => speakclevers1("en-GB"),
                             onPressedAmerican: () => speakclevers1("en-US"),
                           ),

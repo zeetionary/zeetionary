@@ -139,7 +139,7 @@ class EnglishEntrybricklayer extends StatelessWidget {
                             englishText:
                                 "The experienced bricklayer meticulously arranged the bricks for the new wall.",
                             kurdishText:
-                                "وەستا بە ئەزموونەکە بە وردییەوە خشتەکانی دانا بۆ بۆ دیوارە تازەکە.", // bricklayer" as
+                                "وەستا بە ئەزموونەکە بە وردییەوە خشتەکانی دانا بۆ بۆ دیوارە تازەکە.",
                             onPressedBritish: () => speakbricklayers1("en-GB"),
                             onPressedAmerican: () => speakbricklayers1("en-US"),
                           ),

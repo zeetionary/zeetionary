@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پڕۆسەی لەناوبردنی شتێک، بەتایبەتی بە کارلێکی کیمیایی"),
           SentencesRow(
             englishText: "Look for signs of corrosion.",
-            kurdishText:
-                "بۆ ئاماژەی داخوران بگەڕێ.", // corrosion", please follow LX instructions
+            kurdishText: "بۆ ئاماژەی داخوران بگەڕێ.",
             onPressedBritish: () => speakcorrosions1("en-GB"),
             onPressedAmerican: () => speakcorrosions1("en-US"),
           ),

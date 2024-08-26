@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "You'll need some cash in local currency but you can also use your credit card.",
             kurdishText:
-                "پێویستیت بە ھەندێ کاش لە دراوی ناوخۆ ھەیە بەڵام دەشتوانیت کرێدیت کاردەکەت بەکاربھێنیت.", // currency", please follow LX instructions
+                "پێویستیت بە ھەندێ کاش لە دراوی ناوخۆ ھەیە بەڵام دەشتوانیت کرێدیت کاردەکەت بەکاربھێنیت.",
             onPressedBritish: () => speakcurrencys1("en-GB"),
             onPressedAmerican: () => speakcurrencys1("en-US"),
           ),

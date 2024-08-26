@@ -93,8 +93,7 @@ class EnglishEntryconscientious extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She was a popular and conscientious teacher.",
-                            kurdishText:
-                                "مامۆستایەکی ناسراو و دڵسۆز بوو.", // conscientious",
+                            kurdishText: "مامۆستایەکی ناسراو و دڵسۆز بوو.",
                             onPressedBritish: () =>
                                 speakconscientiouss1("en-GB"),
                             onPressedAmerican: () =>

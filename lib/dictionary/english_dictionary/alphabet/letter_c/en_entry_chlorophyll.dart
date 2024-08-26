@@ -95,7 +95,7 @@ class EnglishEntrychlorophyll extends StatelessWidget {
                             englishText:
                                 "The biologist studied the process of photosynthesis and the role of chlorophyll in plants.",
                             kurdishText:
-                                "زیندەزانەکە لێکۆڵینەوەی لە پڕۆسەی ڕۆشنەپێکھاتن و ئەرکی کلۆرۆفیل دەکرد لە ڕووەکەکاندا.", // chlorophyll",
+                                "زیندەزانەکە لێکۆڵینەوەی لە پڕۆسەی ڕۆشنەپێکھاتن و ئەرکی کلۆرۆفیل دەکرد لە ڕووەکەکاندا.",
                             onPressedBritish: () => speakchlorophylls1("en-GB"),
                             onPressedAmerican: () =>
                                 speakchlorophylls1("en-US"),

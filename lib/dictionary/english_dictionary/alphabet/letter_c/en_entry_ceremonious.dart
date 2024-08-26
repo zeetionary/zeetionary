@@ -179,7 +179,7 @@ class EnglishEntryceremonious extends StatelessWidget {
                             englishText:
                                 "Diplomats exchanged ceremonious greetings before beginning the peace negotiations.",
                             kurdishText:
-                                "نێردە سیاسییەکان سڵاوی فەرمییان لەیەک کرد پێش ئەوەی گفتوگۆی ئاشتی دەستپێ بکەن.", // ceremonious",
+                                "نێردە سیاسییەکان سڵاوی فەرمییان لەیەک کرد پێش ئەوەی گفتوگۆی ئاشتی دەستپێ بکەن.",
                             onPressedBritish: () => speakceremoniouss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakceremoniouss1("en-US"),

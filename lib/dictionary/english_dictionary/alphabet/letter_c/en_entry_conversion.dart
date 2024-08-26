@@ -118,7 +118,7 @@ class EnglishEntryconversion extends StatelessWidget {
                             englishText:
                                 "Conversion to gas central heating will save you a lot of money.",
                             kurdishText:
-                                "گۆڕین بۆ گەرمکەری ناوەکی گاز پارەی زۆرت بۆ دەگێڕێتەوە.", // conversion",
+                                "گۆڕین بۆ گەرمکەری ناوەکی گاز پارەی زۆرت بۆ دەگێڕێتەوە.",
                             onPressedBritish: () => speakconversions1("en-GB"),
                             onPressedAmerican: () => speakconversions1("en-US"),
                           ),

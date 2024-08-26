@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I've finished the crossword apart from 3 across and 10 down.",
             kurdishText:
-                "خشتەی پۆتانی وشەکانم تەواوکردووە جگە لە ٣ بە ئاسۆیی و ١٠ بە ستوونی.", // crossword", please follow LX instructions
+                "خشتەی پۆتانی وشەکانم تەواوکردووە جگە لە ٣ بە ئاسۆیی و ١٠ بە ستوونی.",
             onPressedBritish: () => speakcrosswords1("en-GB"),
             onPressedAmerican: () => speakcrosswords1("en-US"),
           ),

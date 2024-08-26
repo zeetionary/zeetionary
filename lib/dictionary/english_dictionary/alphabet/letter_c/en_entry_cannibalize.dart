@@ -178,7 +178,7 @@ class EnglishEntrycannibalize extends StatelessWidget {
                             englishText:
                                 "We believe the two perfumes appeal to different buyers and won’t cannibalize one another’s sales.",
                             kurdishText:
-                                "پێمانوایە دوو بۆنەکە بۆ دوو کڕیاری جیاوازن کار لە فرۆشی یەکدی ناکەن.", // cannibalize",
+                                "پێمانوایە دوو بۆنەکە بۆ دوو کڕیاری جیاوازن کار لە فرۆشی یەکدی ناکەن.",
                             onPressedBritish: () => speakcannibalizes1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcannibalizes1("en-US"),

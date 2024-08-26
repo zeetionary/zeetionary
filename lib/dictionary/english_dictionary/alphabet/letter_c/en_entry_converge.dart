@@ -118,7 +118,7 @@ class EnglishEntryconverge extends StatelessWidget {
                             englishText:
                                 "Thousands of supporters converged on London for the rally.",
                             kurdishText:
-                                "ھەزاران لایەنگر لە لەندەن بە یەک گەشتن بۆ پێشبڕکێیەکە.", // converge",
+                                "ھەزاران لایەنگر لە لەندەن بە یەک گەشتن بۆ پێشبڕکێیەکە.",
                             onPressedBritish: () => speakconverges1("en-GB"),
                             onPressedAmerican: () => speakconverges1("en-US"),
                           ),

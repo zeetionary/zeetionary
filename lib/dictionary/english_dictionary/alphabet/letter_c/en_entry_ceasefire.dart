@@ -181,7 +181,7 @@ class EnglishEntryceasefire extends StatelessWidget {
                             englishText:
                                 "Observers have reported serious violations of the ceasefire.",
                             kurdishText:
-                                "چاودێران سەرپێچیی توندی ئاگربەستەکەیان بینیوە.", // ceasefire",
+                                "چاودێران سەرپێچیی توندی ئاگربەستەکەیان بینیوە.",
                             onPressedBritish: () => speakceasefires1("en-GB"),
                             onPressedAmerican: () => speakceasefires1("en-US"),
                           ),

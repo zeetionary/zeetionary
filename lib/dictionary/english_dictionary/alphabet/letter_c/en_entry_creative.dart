@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) لەخۆگرتنی بەکارھێنانی خەیاڵ و شارەزایی بۆ درووستکردنی شتێکی تازە یان کارێکی ھونەری"),
           SentencesRow(
             englishText: "She channels her creative energy into her art.",
-            kurdishText:
-                "وزەی ئافرێنەری دەخاتە گەڕ بۆ ھونەرەکەی.", // creative", please follow LX instructions
+            kurdishText: "وزەی ئافرێنەری دەخاتە گەڕ بۆ ھونەرەکەی.",
             onPressedBritish: () => speakcreatives1("en-GB"),
             onPressedAmerican: () => speakcreatives1("en-US"),
           ),

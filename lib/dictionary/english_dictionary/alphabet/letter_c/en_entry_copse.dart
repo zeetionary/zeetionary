@@ -93,8 +93,7 @@ class EnglishEntrycopse extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "There was a small copse of trees in the distance.",
-                            kurdishText:
-                                "لە دوورەوە بێشەڵانێکی بچووک دیاربوو.", // copse",
+                            kurdishText: "لە دوورەوە بێشەڵانێکی بچووک دیاربوو.",
                             onPressedBritish: () => speakcopses1("en-GB"),
                             onPressedAmerican: () => speakcopses1("en-US"),
                           ),

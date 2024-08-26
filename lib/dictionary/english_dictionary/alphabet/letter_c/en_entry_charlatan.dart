@@ -95,7 +95,7 @@ class EnglishEntrycharlatan extends StatelessWidget {
                             englishText:
                                 "He knows nothing about medicine—he’s a complete charlatan.",
                             kurdishText:
-                                "ھیچ لەسەر دەرمان نازانێت، تەڵەکەبازێکی تەواوە.", // charlatan",
+                                "ھیچ لەسەر دەرمان نازانێت، تەڵەکەبازێکی تەواوە.",
                             onPressedBritish: () => speakcharlatans1("en-GB"),
                             onPressedAmerican: () => speakcharlatans1("en-US"),
                           ),

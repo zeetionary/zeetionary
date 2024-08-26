@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) شتێک کە ھەستێکی ناخۆش یان کەمێک ترس یان تۆقان درووست دەکات"),
           SentencesRow(
             englishText: "It feels a bit creepy in here.",
-            kurdishText:
-                "ئێرە کەمێک ترسێنەرە.", // creepy", please follow LX instructions
+            kurdishText: "ئێرە کەمێک ترسێنەرە.",
             onPressedBritish: () => speakcreepys1("en-GB"),
             onPressedAmerican: () => speakcreepys1("en-US"),
           ),

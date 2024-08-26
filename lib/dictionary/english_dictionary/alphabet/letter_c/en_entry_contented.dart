@@ -92,8 +92,7 @@ class EnglishEntrycontented extends StatelessWidget {
                                   "١. (ھاوەڵناو) ھەستکردن بە خۆشی و شادی، بەتایبەتی بەھۆی ئەوەی ژیانت باشە"),
                           SentencesRow(
                             englishText: "He was a contented man.",
-                            kurdishText:
-                                "پیاوێکی بە قەناعەت بوو.", // contented",
+                            kurdishText: "پیاوێکی بە قەناعەت بوو.",
                             onPressedBritish: () => speakcontenteds1("en-GB"),
                             onPressedAmerican: () => speakcontenteds1("en-US"),
                           ),

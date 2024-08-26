@@ -102,7 +102,7 @@ class EnglishEntrycommotion extends StatelessWidget {
                             englishText:
                                 "I heard a commotion and went to see what was happening.",
                             kurdishText:
-                                "گوێم لە دەنگەدەنگێک بوو و چووم بزانم چی ڕوودەدات.", // commotion",
+                                "گوێم لە دەنگەدەنگێک بوو و چووم بزانم چی ڕوودەدات.",
                             onPressedBritish: () => speakcommotions1("en-GB"),
                             onPressedAmerican: () => speakcommotions1("en-US"),
                           ),

@@ -178,7 +178,7 @@ class EnglishEntrycanoeist extends StatelessWidget {
                                   """١. (ناو) کەسێک کە گەشت دەکات لە caneo دا (بەلەمێکی سووکی باریک کە بە سەوڵ دەیجوڵێنیت)"""),
                           SentencesRow(
                             englishText: "He is an experienced canoeist.",
-                            kurdishText: "گەمی‌سوارێکی بەئەزموونە.", // canoeist
+                            kurdishText: "گەمی‌سوارێکی بەئەزموونە",
                             onPressedBritish: () => speakcanoeists1("en-GB"),
                             onPressedAmerican: () => speakcanoeists1("en-US"),
                           ),

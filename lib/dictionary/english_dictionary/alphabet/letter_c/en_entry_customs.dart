@@ -277,7 +277,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The Customs have seized large quantities of smuggled heroin.",
             kurdishText:
-                "دەزگای گومرک ڕێژەیەکی زۆر لە ھیرۆینی ھاوردەکراوی دەستبەسەردا گرتووە.", // customs", please follow LX instructions
+                "دەزگای گومرک ڕێژەیەکی زۆر لە ھیرۆینی ھاوردەکراوی دەستبەسەردا گرتووە.",
             onPressedBritish: () => speakcustomss1("en-GB"),
             onPressedAmerican: () => speakcustomss1("en-US"),
           ),

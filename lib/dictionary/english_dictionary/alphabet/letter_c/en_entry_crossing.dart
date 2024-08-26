@@ -263,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The child was killed when a car failed to stop at the crossing.",
             kurdishText:
-                "منداڵەکە گیانی لەدەستدا کە ئۆتۆمبێلێک نەیتوانی لە ڕێگای پەڕینەوەکە بوەستێت.", // crossing", please follow LX instructions
+                "منداڵەکە گیانی لەدەستدا کە ئۆتۆمبێلێک نەیتوانی لە ڕێگای پەڕینەوەکە بوەستێت.",
             onPressedBritish: () => speakcrossings1("en-GB"),
             onPressedAmerican: () => speakcrossings1("en-US"),
           ),

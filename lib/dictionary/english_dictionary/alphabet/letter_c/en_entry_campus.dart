@@ -179,7 +179,7 @@ class EnglishEntrycampus extends StatelessWidget {
                             englishText:
                                 "The number of graduate students living off campus has dropped.",
                             kurdishText:
-                                "ژمارەی ئەو خوێندکارانەی کە لە دەرەوەی کەمپ دەژین دابەزیوە.", // campus
+                                "ژمارەی ئەو خوێندکارانەی کە لە دەرەوەی کەمپ دەژین دابەزیوە",
                             onPressedBritish: () => speakcampuss1("en-GB"),
                             onPressedAmerican: () => speakcampuss1("en-US"),
                           ),

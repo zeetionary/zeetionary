@@ -103,7 +103,7 @@ class EnglishEntryconvolution extends StatelessWidget {
                             englishText:
                                 "The movie's plot twists and convolutions demand a lot of concentration from the audience.",
                             kurdishText:
-                                "گۆڕانە لەناکاو و ئاڵۆزییەکان و فیلمەکە سەرنجێکی زۆر لە بینەر دەخوازێت.", // convolution",
+                                "گۆڕانە لەناکاو و ئاڵۆزییەکان و فیلمەکە سەرنجێکی زۆر لە بینەر دەخوازێت.",
                             onPressedBritish: () => speakconvolutions1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconvolutions1("en-US"),

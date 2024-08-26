@@ -143,8 +143,7 @@ class EnglishEntrycomb extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She ran a comb through her tangled hair.",
-                            kurdishText:
-                                "شانەیەکی بە قژە بژەکەیدا ھێنا.", // comb",
+                            kurdishText: "شانەیەکی بە قژە بژەکەیدا ھێنا.",
                             onPressedBritish: () => speakcombs1("en-GB"),
                             onPressedAmerican: () => speakcombs1("en-US"),
                           ),

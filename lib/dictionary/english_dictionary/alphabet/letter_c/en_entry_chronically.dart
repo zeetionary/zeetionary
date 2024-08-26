@@ -102,7 +102,7 @@ class EnglishEntrychronically extends StatelessWidget {
                             englishText:
                                 "They share caring for their chronically ill father.",
                             kurdishText:
-                                "بە ھاوبەشی چاودێری باوکە نەخۆشە درێژخایەنەکەیان دەکەن.", // chronically",
+                                "بە ھاوبەشی چاودێری باوکە نەخۆشە درێژخایەنەکەیان دەکەن.",
                             onPressedBritish: () => speakchronicallys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakchronicallys1("en-US"),

@@ -99,7 +99,7 @@ class EnglishEntryconsumerdurables extends StatelessWidget {
                             englishText:
                                 "Consumer durables such as refrigerators and washing machines are essential household appliances.",
                             kurdishText:
-                                "کەلووپەلە قایمەکانی وەک ساردکەرەوە و جلشۆر ئامێری سەرەکی ماڵەوەن.", // consumer durables",
+                                "کەلووپەلە قایمەکانی وەک ساردکەرەوە و جلشۆر ئامێری سەرەکی ماڵەوەن.",
                             onPressedBritish: () =>
                                 speakconsumerdurabless1("en-GB"),
                             onPressedAmerican: () =>

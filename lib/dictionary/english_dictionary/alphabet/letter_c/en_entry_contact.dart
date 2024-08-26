@@ -297,8 +297,7 @@ class EnglishEntrycontact extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I don't have much contact with my uncle.",
-                            kurdishText:
-                                "ھێندە تێکەڵیم لەگەڵ مامم/خاڵم نییە.", // contact",
+                            kurdishText: "ھێندە تێکەڵیم لەگەڵ مامم/خاڵم نییە.",
                             onPressedBritish: () => speakcontacts1("en-GB"),
                             onPressedAmerican: () => speakcontacts1("en-US"),
                           ),

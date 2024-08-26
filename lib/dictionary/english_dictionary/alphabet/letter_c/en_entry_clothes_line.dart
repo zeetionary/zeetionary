@@ -94,8 +94,7 @@ class EnglishEntryclothesline extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She hung the laundry on the clothesline.",
-                            kurdishText:
-                                "جلەکانی دا بە تەنافەکەدا.", // clothes line",
+                            kurdishText: "جلەکانی دا بە تەنافەکەدا.",
                             onPressedBritish: () => clotheslinees1("en-GB"),
                             onPressedAmerican: () => clotheslinees1("en-US"),
                           ),

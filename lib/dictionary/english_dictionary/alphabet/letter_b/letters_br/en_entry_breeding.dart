@@ -137,8 +137,7 @@ class EnglishEntrybreeding extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The family's business was horse-breeding.",
-                            kurdishText:
-                                "پیشەی خێزانەکە بەخێوکردنی ئەسپ بوو.", // breeding" as
+                            kurdishText: "پیشەی خێزانەکە بەخێوکردنی ئەسپ بوو.",
                             onPressedBritish: () => speakbreedings1("en-GB"),
                             onPressedAmerican: () => speakbreedings1("en-US"),
                           ),

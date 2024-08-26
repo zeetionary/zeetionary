@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Is this interest in health foods just a passing craze?",
             kurdishText:
-                "ئەم حەزە بۆ خواردنی تەندرووستی تەنھا کەف‌وکوڵێکی بۆماوەییە؟", // craze", please follow LX instructions
+                "ئەم حەزە بۆ خواردنی تەندرووستی تەنھا کەف‌وکوڵێکی بۆماوەییە؟",
             onPressedBritish: () => speakcrazes1("en-GB"),
             onPressedAmerican: () => speakcrazes1("en-US"),
           ),

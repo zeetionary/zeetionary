@@ -103,7 +103,7 @@ class EnglishEntrycongressional extends StatelessWidget {
                             englishText:
                                 "He blocked congressional approval of the rescue plan.",
                             kurdishText:
-                                "پەسەندکردنی کۆنگرێسی بۆ پلانی بەھاناوەچوونەکە بلۆک کرد.", // congressional",
+                                "پەسەندکردنی کۆنگرێسی بۆ پلانی بەھاناوەچوونەکە بلۆک کرد.",
                             onPressedBritish: () =>
                                 speakcongressionals1("en-GB"),
                             onPressedAmerican: () =>

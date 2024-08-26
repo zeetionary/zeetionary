@@ -109,7 +109,7 @@ class EnglishEntryclerical extends StatelessWidget {
                             englishText:
                                 "The delay in processing the paperwork was due to a clerical error in the filing system.",
                             kurdishText:
-                                "دواکەوتن لە ئەنجامدانی کاغەزکارییەکە بەھۆی ھەڵەیەکی ئۆفیسەکەوە بوو لە سیستەمی فایلەکە.", // clerical",
+                                "دواکەوتن لە ئەنجامدانی کاغەزکارییەکە بەھۆی ھەڵەیەکی ئۆفیسەکەوە بوو لە سیستەمی فایلەکە.",
                             onPressedBritish: () => speakclericals1("en-GB"),
                             onPressedAmerican: () => speakclericals1("en-US"),
                           ),

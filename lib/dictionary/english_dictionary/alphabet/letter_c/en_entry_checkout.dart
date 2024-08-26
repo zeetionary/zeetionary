@@ -99,7 +99,7 @@ class EnglishEntrycheckout extends StatelessWidget {
                             englishText:
                                 "Your fruit and vegetables will be weighed at the checkout.",
                             kurdishText:
-                                "میوە و سەوزەکانت لە مێزی پارەدان دەکێشرێن.", // checkout",
+                                "میوە و سەوزەکانت لە مێزی پارەدان دەکێشرێن.",
                             onPressedBritish: () => speakcheckouts1("en-GB"),
                             onPressedAmerican: () => speakcheckouts1("en-US"),
                           ),

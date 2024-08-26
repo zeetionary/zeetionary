@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The countdown to the rocket launch will begin at 9.00 a.m.",
             kurdishText:
-                "پەرچەژمارە بۆ ھەڵدانی مووشەکەەک لە ٩ ـی بەیانی دەستپێ دەکات.", // countdown", please follow LX instructions
+                "پەرچەژمارە بۆ ھەڵدانی مووشەکەەک لە ٩ ـی بەیانی دەستپێ دەکات.",
             onPressedBritish: () => speakcountdowns1("en-GB"),
             onPressedAmerican: () => speakcountdowns1("en-US"),
           ),

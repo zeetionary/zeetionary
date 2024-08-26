@@ -104,7 +104,7 @@ class EnglishEntryconfidentially extends StatelessWidget {
                             englishText:
                                 "She told me confidentially that she is going to retire early.",
                             kurdishText:
-                                "بە نھێنی‌یانە پێی گوتم کە زوو خانەنشین دەبێت.", // confidentially",
+                                "بە نھێنی‌یانە پێی گوتم کە زوو خانەنشین دەبێت.",
                             onPressedBritish: () =>
                                 speakconfidentiallys1("en-GB"),
                             onPressedAmerican: () =>

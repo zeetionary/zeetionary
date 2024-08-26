@@ -174,7 +174,7 @@ class EnglishEntrycauseway extends StatelessWidget {
                             englishText:
                                 "The islands are linked by causeways and bridges.",
                             kurdishText:
-                                "دوورگەکان بە بەرزەڕێ و پرد پێکەوەبەستراون.", // causeway",
+                                "دوورگەکان بە بەرزەڕێ و پرد پێکەوەبەستراون.",
                             onPressedBritish: () => speakcauseways1("en-GB"),
                             onPressedAmerican: () => speakcauseways1("en-US"),
                           ),

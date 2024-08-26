@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She used cotton wool to apply the ointment to the wound.",
             kurdishText:
-                "لۆکەی بەکارھێنا بۆ لێدانی مەڵھەمەکە لە برینەکە.", // cotton wool", please follow LX instructions
+                "لۆکەی بەکارھێنا بۆ لێدانی مەڵھەمەکە لە برینەکە.",
             onPressedBritish: () => speakcottonwools1("en-GB"),
             onPressedAmerican: () => speakcottonwools1("en-US"),
           ),

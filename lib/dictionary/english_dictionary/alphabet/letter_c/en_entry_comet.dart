@@ -95,7 +95,7 @@ class EnglishEntrycomet extends StatelessWidget {
                             englishText:
                                 "People gathered to watch the comet's rare appearance.",
                             kurdishText:
-                                "خەڵکی کۆبوونەوە بۆ بینینی دەرکەوتنی دەگمەنی کلکدارەکە.", // comet",
+                                "خەڵکی کۆبوونەوە بۆ بینینی دەرکەوتنی دەگمەنی کلکدارەکە.",
                             onPressedBritish: () => speakcomets1("en-GB"),
                             onPressedAmerican: () => speakcomets1("en-US"),
                           ),

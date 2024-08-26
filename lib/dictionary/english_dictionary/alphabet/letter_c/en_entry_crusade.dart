@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ھەوڵێکی ڕشت و درێژ بۆ بەدەستھێنانی شتێک کە پێتوایە ڕاستە یان وەستاندنی شتێک کە پێتوایە ھەڵەیە"),
           SentencesRow(
             englishText: "Her moral crusade began in 1963.",
-            kurdishText:
-                "ھەڵمەتە ئەخلاقییەکەی لە ساڵی ١٩٦٣ دەستیپێکرد.", // crusade", please follow LX instructions
+            kurdishText: "ھەڵمەتە ئەخلاقییەکەی لە ساڵی ١٩٦٣ دەستیپێکرد.",
             onPressedBritish: () => speakcrusades1("en-GB"),
             onPressedAmerican: () => speakcrusades1("en-US"),
           ),

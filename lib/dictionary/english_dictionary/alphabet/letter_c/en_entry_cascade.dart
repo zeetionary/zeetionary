@@ -182,7 +182,7 @@ class EnglishEntrycascade extends StatelessWidget {
                             englishText:
                                 "The soothing sound of the cascade echoed through the surroundings.",
                             kurdishText:
-                                "دەنگی ھێورکەرەوەی نیمچەتاڤگەکە بە دەورووبەردا بڵاوبووبوو.", // cascade",
+                                "دەنگی ھێورکەرەوەی نیمچەتاڤگەکە بە دەورووبەردا بڵاوبووبوو.",
                             onPressedBritish: () => speakcascades1("en-GB"),
                             onPressedAmerican: () => speakcascades1("en-US"),
                           ),

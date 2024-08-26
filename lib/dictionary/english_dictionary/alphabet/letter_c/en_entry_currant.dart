@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ترێی وشک کە لە کێکدا بەکاردێت"),
           SentencesRow(
             englishText: "She enjoyed a currant bun with her afternoon tea.",
-            kurdishText:
-                "کێکێکی کشمیشداری لەگەڵ چای بەیانیدا خوارد.", // currant", please follow LX instructions
+            kurdishText: "کێکێکی کشمیشداری لەگەڵ چای بەیانیدا خوارد.",
             onPressedBritish: () => speakcurrants1("en-GB"),
             onPressedAmerican: () => speakcurrants1("en-US"),
           ),

@@ -133,8 +133,7 @@ class EnglishEntrybrotherly extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He gave her a brotherly kiss on the cheek.",
-                            kurdishText:
-                                "ماچێکی برایانەی سەر گۆنایی کرد.", // brotherly" as
+                            kurdishText: "ماچێکی برایانەی سەر گۆنایی کرد.",
                             onPressedBritish: () => speakbrotherlys1("en-GB"),
                             onPressedAmerican: () => speakbrotherlys1("en-US"),
                           ),

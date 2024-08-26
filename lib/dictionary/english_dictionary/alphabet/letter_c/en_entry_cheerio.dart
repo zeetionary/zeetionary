@@ -90,7 +90,7 @@ class EnglishEntrycheerio extends StatelessWidget {
                           SentencesRow(
                             englishText: "Cheerio then. See you on Wednesday.",
                             kurdishText:
-                                "کەواتە خوات لەگەڵ، چوارشەممە دەتبینمەوە.", // cheerio",
+                                "کەواتە خوات لەگەڵ، چوارشەممە دەتبینمەوە.",
                             onPressedBritish: () => speakcheerios1("en-GB"),
                             onPressedAmerican: () => speakcheerios1("en-US"),
                           ),

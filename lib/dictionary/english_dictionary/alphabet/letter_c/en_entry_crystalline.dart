@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) درووستکراو لە کریستاڵ یان پەیوەندیدار پێوەی"),
           SentencesRow(
             englishText: "Granite is a common example of a crystalline rock.",
-            kurdishText:
-                "گرانیت نموونەیەکی باوی بەرزی کریستاڵییە.", // crystalline", please follow LX instructions
+            kurdishText: "گرانیت نموونەیەکی باوی بەرزی کریستاڵییە.",
             onPressedBritish: () => speakcrystallines1("en-GB"),
             onPressedAmerican: () => speakcrystallines1("en-US"),
           ),

@@ -102,7 +102,7 @@ class EnglishEntrycommendable extends StatelessWidget {
                             englishText:
                                 "They always conduct their affairs with commendable honesty.",
                             kurdishText:
-                                "ھەمیشە کارەکانیان بە ڕاستگۆیی جێی‌پەسن ئەنجام دەدەن.", // commendable",
+                                "ھەمیشە کارەکانیان بە ڕاستگۆیی جێی‌پەسن ئەنجام دەدەن.",
                             onPressedBritish: () => speakcommendables1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcommendables1("en-US"),
@@ -111,7 +111,7 @@ class EnglishEntrycommendable extends StatelessWidget {
                             englishText:
                                 "He wasn't always successful, but he made a commendable effort.",
                             kurdishText:
-                                "ھەموو کات سەرکەوتوو نەدەبوو، بەڵام ھەوڵی لەپەسن‌ھاتووی دەدا.", // commendable",
+                                "ھەموو کات سەرکەوتوو نەدەبوو، بەڵام ھەوڵی لەپەسن‌ھاتووی دەدا.",
                             onPressedBritish: () => speakcommendables2("en-GB"),
                             onPressedAmerican: () =>
                                 speakcommendables2("en-US"),

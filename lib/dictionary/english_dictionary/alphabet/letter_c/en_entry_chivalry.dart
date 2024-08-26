@@ -103,7 +103,7 @@ class EnglishEntrychivalry extends StatelessWidget {
                             englishText:
                                 "She appreciated the chivalry of opening doors for her.",
                             kurdishText:
-                                "جوامێری کردنەوەی دەرگای بۆی بەرز دەنرخاند.", // chivalry",
+                                "جوامێری کردنەوەی دەرگای بۆی بەرز دەنرخاند.",
                             onPressedBritish: () => speakchivalrys1("en-GB"),
                             onPressedAmerican: () => speakchivalrys1("en-US"),
                           ),

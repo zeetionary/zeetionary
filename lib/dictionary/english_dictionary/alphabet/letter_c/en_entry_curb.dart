@@ -260,8 +260,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) کۆنترۆڵکردن یان سنووردارکردنی شتێک"),
           SentencesRow(
             englishText: "He needs to learn to curb his temper.",
-            kurdishText:
-                "دەبێت فێربێت زاڵ ببێت بەسەر تووڕەییدا.", // curb", please follow LX instructions
+            kurdishText: "دەبێت فێربێت زاڵ ببێت بەسەر تووڕەییدا.",
             onPressedBritish: () => speakcurbs1("en-GB"),
             onPressedAmerican: () => speakcurbs1("en-US"),
           ),

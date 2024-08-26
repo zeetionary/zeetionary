@@ -251,8 +251,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) درووستکردنی شێوەیەک کە ژمارەیەک ڕاستەھێڵی تێدایە کە یەکتری دەبڕن"),
           SentencesRow(
             englishText: "Searchlights were criss-crossing the sky.",
-            kurdishText:
-                "لایتەکانی گەڕان بە یەکدا دەچوون لە ئاسماندا.", // criss-cross", please follow LX instructions
+            kurdishText: "لایتەکانی گەڕان بە یەکدا دەچوون لە ئاسماندا.",
             onPressedBritish: () => speakcrisscrosss1("en-GB"),
             onPressedAmerican: () => speakcrisscrosss1("en-US"),
           ),

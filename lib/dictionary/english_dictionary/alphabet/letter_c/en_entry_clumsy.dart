@@ -140,7 +140,7 @@ class EnglishEntryclumsy extends StatelessWidget {
                             englishText:
                                 "I spilt your coffee. Sorry—that was clumsy of me.",
                             kurdishText:
-                                "قاوەکەتم ڕژاند، ببوورە، لە ھەڵەشەییم بوو.", // clumsy",
+                                "قاوەکەتم ڕژاند، ببوورە، لە ھەڵەشەییم بوو.",
                             onPressedBritish: () => speakclumsys1("en-GB"),
                             onPressedAmerican: () => speakclumsys1("en-US"),
                           ),

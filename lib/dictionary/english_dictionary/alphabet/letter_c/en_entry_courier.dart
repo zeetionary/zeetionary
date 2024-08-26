@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک یان کۆمپانیایەک کە کاری ئەوەیە شتومەک و کاغەزی گرنگ بۆ شوێنێک"),
           SentencesRow(
             englishText: "We sent the documents by courier.",
-            kurdishText:
-                "بەڵگەنامەکانمان بە نامەبەری نارد.", // courier", please follow LX instructions
+            kurdishText: "بەڵگەنامەکانمان بە نامەبەری نارد.",
             onPressedBritish: () => speakcouriers1("en-GB"),
             onPressedAmerican: () => speakcouriers1("en-US"),
           ),

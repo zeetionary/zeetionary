@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The island is a mixture of high mountains, craggy coastline, sandy beaches and deep blue sea.",
             kurdishText:
-                "دوورگەکە تێکەڵەیەکە لە چیای بەرز، ھێڵی کەناری کێودار، کەناراوی خۆڵاوی، و دەریای شینی قووڵە.", // craggy", please follow LX instructions
+                "دوورگەکە تێکەڵەیەکە لە چیای بەرز، ھێڵی کەناری کێودار، کەناراوی خۆڵاوی، و دەریای شینی قووڵە.",
             onPressedBritish: () => speakcraggys1("en-GB"),
             onPressedAmerican: () => speakcraggys1("en-US"),
           ),

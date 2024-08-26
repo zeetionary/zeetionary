@@ -124,7 +124,7 @@ class EnglishEntrycompulsion extends StatelessWidget {
                             englishText:
                                 "You are under no compulsion to pay immediately.",
                             kurdishText:
-                                "لەژێر ھیچ زۆرەملێیەکدا نیت کە زوو پارە بدەیت.", // compulsion",
+                                "لەژێر ھیچ زۆرەملێیەکدا نیت کە زوو پارە بدەیت.",
                             onPressedBritish: () => speakcompulsions1("en-GB"),
                             onPressedAmerican: () => speakcompulsions1("en-US"),
                           ),

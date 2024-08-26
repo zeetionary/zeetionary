@@ -126,7 +126,7 @@ class EnglishEntryconception extends StatelessWidget {
                             englishText:
                                 "He has no conception of how difficult life is if you're unemployed.",
                             kurdishText:
-                                "ھیچ تێگەشتنێکی نییە بۆ ئەوەی چەندە ژیان دەکرێت قورس بێت ئەگەر بێکار بیت.", // conception",
+                                "ھیچ تێگەشتنێکی نییە بۆ ئەوەی چەندە ژیان دەکرێت قورس بێت ئەگەر بێکار بیت.",
                             onPressedBritish: () => speakconceptions1("en-GB"),
                             onPressedAmerican: () => speakconceptions1("en-US"),
                           ),

@@ -187,7 +187,7 @@ class EnglishEntrycanker extends StatelessWidget {
                             englishText:
                                 "Cut out lesions on branches caused by canker.",
                             kurdishText:
-                                "برینی سەر لقەکان ببڕەوە کە بە ئافەت درووست بوونە.", // canker
+                                "برینی سەر لقەکان ببڕەوە کە بە ئافەت درووست بوونە",
                             onPressedBritish: () => speakcankers1("en-GB"),
                             onPressedAmerican: () => speakcankers1("en-US"),
                           ),

@@ -123,7 +123,7 @@ class EnglishEntryclothes extends StatelessWidget {
                             englishText:
                                 "I bought some new clothes for the trip.",
                             kurdishText:
-                                "ھەندێک جلوبەرگی تازەم بۆ گەشتەکە کڕی.", // clothes",
+                                "ھەندێک جلوبەرگی تازەم بۆ گەشتەکە کڕی.",
                             onPressedBritish: () => speakclothess1("en-GB"),
                             onPressedAmerican: () => speakclothess1("en-US"),
                           ),

@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە بێ‌ڕێزانە دەردەکەوێت بەھۆی ئەوەی وشەی کەم بەکارھاتووە یان خێرایە"),
           SentencesRow(
             englishText: "He nodded curtly.",
-            kurdishText:
-                "بەخێرایی سەری دالەقاند.", // curtly", please follow LX instructions
+            kurdishText: "بەخێرایی سەری دالەقاند.",
             onPressedBritish: () => speakcurtlys1("en-GB"),
             onPressedAmerican: () => speakcurtlys1("en-US"),
           ),

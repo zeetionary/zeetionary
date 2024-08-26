@@ -173,8 +173,7 @@ class EnglishEntrycelery extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Chop the celery and add it to the salad.",
-                            kurdishText:
-                                "کەرەوزەکە ورد بکە و بیکە زەڵاتەکەوە.", // celery",
+                            kurdishText: "کەرەوزەکە ورد بکە و بیکە زەڵاتەکەوە.",
                             onPressedBritish: () => speakcelerys1("en-GB"),
                             onPressedAmerican: () => speakcelerys1("en-US"),
                           ),

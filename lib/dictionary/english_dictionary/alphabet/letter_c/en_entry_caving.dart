@@ -175,8 +175,7 @@ class EnglishEntrycaving extends StatelessWidget {
                               text: "١. (ناو) وەرزشی گەڕان بە ئەشکەوتدا"),
                           SentencesRow(
                             englishText: "He had always wanted to go caving.",
-                            kurdishText:
-                                "ھەمیشە دەیویست بچێت بۆ ئەشکەوت‌گەڕی.", // caving",
+                            kurdishText: "ھەمیشە دەیویست بچێت بۆ ئەشکەوت‌گەڕی.",
                             onPressedBritish: () => speakcavings1("en-GB"),
                             onPressedAmerican: () => speakcavings1("en-US"),
                           ),

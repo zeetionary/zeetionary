@@ -93,8 +93,7 @@ class EnglishEntrycommentate extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Who will be commentating on the game?",
-                            kurdishText:
-                                "کێ شیکەرەوەی یارییەکە دەبێت؟", // commentate",
+                            kurdishText: "کێ شیکەرەوەی یارییەکە دەبێت؟",
                             onPressedBritish: () => speakcommentates1("en-GB"),
                             onPressedAmerican: () => speakcommentates1("en-US"),
                           ),

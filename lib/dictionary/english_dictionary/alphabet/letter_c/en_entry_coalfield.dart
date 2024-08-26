@@ -95,7 +95,7 @@ class EnglishEntrycoalfield extends StatelessWidget {
                             englishText:
                                 "The coalfield provided jobs for many local residents.",
                             kurdishText:
-                                "خەڵووزەڵانەکە کاری بۆ ژمارەیەکی زۆر لە ھاوڵاتیان ڕەخساند.", // coalfield",
+                                "خەڵووزەڵانەکە کاری بۆ ژمارەیەکی زۆر لە ھاوڵاتیان ڕەخساند.",
                             onPressedBritish: () => speakcoalfields1("en-GB"),
                             onPressedAmerican: () => speakcoalfields1("en-US"),
                           ),

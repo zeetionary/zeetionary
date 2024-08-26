@@ -180,7 +180,7 @@ class EnglishEntrycarefulness extends StatelessWidget {
                             englishText:
                                 "It is evident from her notes that she read with great carefulness.",
                             kurdishText:
-                                "لە تێبینییەکانییەوە دیارە کە بۆ وریایی تەواوە خوێندییەوە.", // carefulness",
+                                "لە تێبینییەکانییەوە دیارە کە بۆ وریایی تەواوە خوێندییەوە.",
                             onPressedBritish: () => speakcarefulnesss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcarefulnesss1("en-US"),

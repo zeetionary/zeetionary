@@ -125,7 +125,7 @@ class EnglishEntrycomparative extends StatelessWidget {
                             englishText:
                                 "He was living in comparative comfort (= compared with others or with his own life at a previous time).",
                             kurdishText:
-                                "بە بەراوردەوە لە ژیانێکی ئاسوودەدا دەژیا.", // comparative",
+                                "بە بەراوردەوە لە ژیانێکی ئاسوودەدا دەژیا.",
                             onPressedBritish: () => speakcomparatives1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcomparatives1("en-US"),

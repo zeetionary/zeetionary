@@ -99,8 +99,7 @@ class EnglishEntrycontinually extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەک کە زۆر دووبارە کراوە و بێزارکەرە"),
                           SentencesRow(
                             englishText: "They argue continually about money.",
-                            kurdishText:
-                                "بەردەوام مشتومڕیانە لەسەر پارە.", // continually",
+                            kurdishText: "بەردەوام مشتومڕیانە لەسەر پارە.",
                             onPressedBritish: () => speakcontinuallys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontinuallys1("en-US"),

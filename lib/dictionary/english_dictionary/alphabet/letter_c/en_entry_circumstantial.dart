@@ -103,7 +103,7 @@ class EnglishEntrycircumstantial extends StatelessWidget {
                             englishText:
                                 "The case against him was largely circumstantial.",
                             kurdishText:
-                                "کەیسەکەی دژی زیاتر پشتبەستوو بە بەڵگە بوو.", // circumstantial",
+                                "کەیسەکەی دژی زیاتر پشتبەستوو بە بەڵگە بوو.",
                             onPressedBritish: () =>
                                 speakcircumstantials1("en-GB"),
                             onPressedAmerican: () =>

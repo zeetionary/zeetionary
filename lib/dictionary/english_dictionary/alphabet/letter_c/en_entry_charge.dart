@@ -433,7 +433,7 @@ class EnglishEntrycharge extends StatelessWidget {
                                   "١. (ناو) ئەو بڕەی کە کەسێک داوای دەکات بۆ شتێک یان خزمەتگوزارییەک"),
                           SentencesRow(
                             englishText: "Delivery is free of charge.",
-                            kurdishText: "گەیاندن بێ‌بەرامبەرە.", // charge",
+                            kurdishText: "گەیاندن بێ‌بەرامبەرە.",
                             onPressedBritish: () => speakcharges1("en-GB"),
                             onPressedAmerican: () => speakcharges1("en-US"),
                           ),

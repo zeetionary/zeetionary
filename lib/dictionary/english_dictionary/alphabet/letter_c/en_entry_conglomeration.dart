@@ -104,7 +104,7 @@ class EnglishEntryconglomeration extends StatelessWidget {
                             englishText:
                                 "There was a strange conglomeration of objects on the mantelpiece.",
                             kurdishText:
-                                "تێکەڵەیەکی نامۆ لە شت ھەبوو لەسەر سەرکوورەکە.", // conglomeration",
+                                "تێکەڵەیەکی نامۆ لە شت ھەبوو لەسەر سەرکوورەکە.",
                             onPressedBritish: () =>
                                 speakconglomerations1("en-GB"),
                             onPressedAmerican: () =>

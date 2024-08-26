@@ -175,7 +175,7 @@ class EnglishEntrycarriageway extends StatelessWidget {
                             englishText:
                                 "Drivers should exercise caution when changing lanes on a busy carriageway.",
                             kurdishText:
-                                "شۆفێران دەبێت وریایی پیشان بدەن لە گۆڕینی ھێڵ لە سایدێکی قەرەباڵغدا.", // carriageway",
+                                "شۆفێران دەبێت وریایی پیشان بدەن لە گۆڕینی ھێڵ لە سایدێکی قەرەباڵغدا.",
                             onPressedBritish: () => speakcarriageways1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcarriageways1("en-US"),

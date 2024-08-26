@@ -102,7 +102,7 @@ class EnglishEntrycomedian extends StatelessWidget {
                             englishText:
                                 "He started out as a comedian in Liverpool.",
                             kurdishText:
-                                "وەک ئەکتەرێکی کۆمیدی لە لیڤەرپوولەوە دەستیپێکرد.", // comedian",
+                                "وەک ئەکتەرێکی کۆمیدی لە لیڤەرپوولەوە دەستیپێکرد.",
                             onPressedBritish: () => speakcomedians1("en-GB"),
                             onPressedAmerican: () => speakcomedians1("en-US"),
                           ),

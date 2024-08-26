@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "I hit my knee on the corner of the table.",
             kurdishText:
-                "لاقم کێشا بە سووچی مێزەکەدا.", // corner", please follow LX instructions
+                "لاقم کێشا بە سووچی مێزەکەدا.",
             onPressedBritish: () => speakcorners1("en-GB"),
             onPressedAmerican: () => speakcorners1("en-US"),
           ),

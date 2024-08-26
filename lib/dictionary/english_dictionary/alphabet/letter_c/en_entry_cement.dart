@@ -183,7 +183,7 @@ class EnglishEntrycement extends StatelessWidget {
                             englishText:
                                 "Different types of cement are used for various construction purposes.",
                             kurdishText:
-                                "جۆری جیاوازی چیمەنتۆ بەکاردێن بۆ مەبەستی جیاوازی بنیاتنان.", // cement",
+                                "جۆری جیاوازی چیمەنتۆ بەکاردێن بۆ مەبەستی جیاوازی بنیاتنان.",
                             onPressedBritish: () => speakcements1("en-GB"),
                             onPressedAmerican: () => speakcements1("en-US"),
                           ),

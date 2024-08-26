@@ -127,7 +127,7 @@ class EnglishEntrycompetitive extends StatelessWidget {
                             englishText:
                                 "Graduates have to fight for jobs in an increasingly competitive market.",
                             kurdishText:
-                                "دەرچووان دەبێت بجەنگن بۆ کار لە بازاڕێکی بەردەوام زیاتر ڕکابەرانەدا.", // competitive",
+                                "دەرچووان دەبێت بجەنگن بۆ کار لە بازاڕێکی بەردەوام زیاتر ڕکابەرانەدا.",
                             onPressedBritish: () => speakcompetitives1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcompetitives1("en-US"),

@@ -228,7 +228,7 @@ class EnglishEntrycommon extends StatelessWidget {
                             englishText:
                                 "Breast cancer is the most common form of cancer among women in this country.",
                             kurdishText:
-                                "شێرپەنجەی مەمک یەکێکە لە باوترین جۆرەکانی شێرپەنجە لە ناو ژناندا لەم وڵاتە.", // common",
+                                "شێرپەنجەی مەمک یەکێکە لە باوترین جۆرەکانی شێرپەنجە لە ناو ژناندا لەم وڵاتە.",
                             onPressedBritish: () => speakcommons1("en-GB"),
                             onPressedAmerican: () => speakcommons1("en-US"),
                           ),

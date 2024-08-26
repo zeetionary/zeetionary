@@ -95,7 +95,7 @@ class EnglishEntryclearsighted extends StatelessWidget {
                             englishText:
                                 "Simon has a clear-sighted vision of the company's future.",
                             kurdishText:
-                                "سایمن وێنایەکی بیرفراوانی داھاتووی کۆمپانیاکەی ھەیە.", // clear-sighted",
+                                "سایمن وێنایەکی بیرفراوانی داھاتووی کۆمپانیاکەی ھەیە.",
                             onPressedBritish: () =>
                                 speakclearsighteds1("en-GB"),
                             onPressedAmerican: () =>

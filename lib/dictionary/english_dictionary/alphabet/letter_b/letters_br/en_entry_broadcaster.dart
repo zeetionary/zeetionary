@@ -140,7 +140,7 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                             englishText:
                                 "She is a writer and broadcaster on environmental matters.",
                             kurdishText:
-                                "نووسەر و پێشکەشکارە لەسەر بابەتە ژینگەییەکان.", // broadcaster" as
+                                "نووسەر و پێشکەشکارە لەسەر بابەتە ژینگەییەکان.",
                             onPressedBritish: () => speakbroadcasters1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbroadcasters1("en-US"),

@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The cuckoo is a migratory bird that travels long distances.",
-            kurdishText:
-                "کوکوو باڵندەیەکی کۆچەرییە کە مەدای دوور گەشت دەکات.", // cuckoo", please follow LX instructions
+            kurdishText: "کوکوو باڵندەیەکی کۆچەرییە کە مەدای دوور گەشت دەکات.",
             onPressedBritish: () => speakcuckoos1("en-GB"),
             onPressedAmerican: () => speakcuckoos1("en-US"),
           ),

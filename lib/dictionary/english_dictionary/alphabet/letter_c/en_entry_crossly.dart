@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) خوێنتاڵانە؛ بە بێزاری یان کەمێک تووڕەیی"),
           SentencesRow(
             englishText: "\"Of course not,\" he denied crossly.",
-            kurdishText:
-                "'بە دڵنیاییەوە نا،' بە تووڕەییەوە گوتی.", // crossly", please follow LX instructions
+            kurdishText: "'بە دڵنیاییەوە نا،' بە تووڕەییەوە گوتی.",
             onPressedBritish: () => speakcrosslys1("en-GB"),
             onPressedAmerican: () => speakcrosslys1("en-US"),
           ),

@@ -93,7 +93,7 @@ class EnglishEntrycommencement extends StatelessWidget {
                             englishText:
                                 "Please turn off your mobile phones before the commencement of the flight.",
                             kurdishText:
-                                "تکایە موبایلەکانتان بکوژێننەوە پێش دەستپێکردنی گەشتەکە.", // commencement",
+                                "تکایە موبایلەکانتان بکوژێننەوە پێش دەستپێکردنی گەشتەکە.",
                             onPressedBritish: () =>
                                 speakcommencements1("en-GB"),
                             onPressedAmerican: () =>

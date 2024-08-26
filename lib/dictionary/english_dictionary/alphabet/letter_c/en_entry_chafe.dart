@@ -179,7 +179,7 @@ class EnglishEntrychafe extends StatelessWidget {
                             englishText:
                                 "Her wrists chafed where the rope had been.",
                             kurdishText:
-                                "مەچەکانی داماڵراوبوون لەو شوێنەی حەبلەکە بەسترابوو.", // chafe",
+                                "مەچەکانی داماڵراوبوون لەو شوێنەی حەبلەکە بەسترابوو.",
                             onPressedBritish: () => speakchafes1("en-GB"),
                             onPressedAmerican: () => speakchafes1("en-US"),
                           ),

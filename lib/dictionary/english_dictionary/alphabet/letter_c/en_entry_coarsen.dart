@@ -99,7 +99,7 @@ class EnglishEntrycoarsen extends StatelessWidget {
                             englishText:
                                 "Her hair gradually coarsened as she grew older.",
                             kurdishText:
-                                "قژی کەم کەم زبر بوو کە چوو بە تەمەندا.", // coarsen",
+                                "قژی کەم کەم زبر بوو کە چوو بە تەمەندا.",
                             onPressedBritish: () => speakcoarsens1("en-GB"),
                             onPressedAmerican: () => speakcoarsens1("en-US"),
                           ),

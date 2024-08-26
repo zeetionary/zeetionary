@@ -176,8 +176,7 @@ class EnglishEntrycertainly extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Without treatment, she will almost certainly die.",
-                            kurdishText:
-                                "بێ چارەسەر، بە ئەگەری زۆرەوە دەمرێت.", // certainly",
+                            kurdishText: "بێ چارەسەر، بە ئەگەری زۆرەوە دەمرێت.",
                             onPressedBritish: () => speakcertainlys1("en-GB"),
                             onPressedAmerican: () => speakcertainlys1("en-US"),
                           ),

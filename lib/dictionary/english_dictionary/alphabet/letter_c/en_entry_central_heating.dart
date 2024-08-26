@@ -176,7 +176,7 @@ class EnglishEntrycentralheating extends StatelessWidget {
                             englishText:
                                 "Central heating uses a boiler to generate heat.",
                             kurdishText:
-                                "گەرمکەری ناوەکی بۆیلەر بەکاردێنێت بۆ درووستکردنی گەرمی.", // central heating",
+                                "گەرمکەری ناوەکی بۆیلەر بەکاردێنێت بۆ درووستکردنی گەرمی.",
                             onPressedBritish: () =>
                                 speakcentralheatings1("en-GB"),
                             onPressedAmerican: () =>

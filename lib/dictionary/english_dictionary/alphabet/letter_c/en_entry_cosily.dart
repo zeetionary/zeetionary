@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The children are cosily tucked up in bed.",
             kurdishText:
-                "منداڵەکان بە ئاسوودەیی خۆیان لە جێخەودا گرمۆڵە کردووە.", // cosily", please follow LX instructions
+                "منداڵەکان بە ئاسوودەیی خۆیان لە جێخەودا گرمۆڵە کردووە.",
             onPressedBritish: () => speakcosilys1("en-GB"),
             onPressedAmerican: () => speakcosilys1("en-US"),
           ),

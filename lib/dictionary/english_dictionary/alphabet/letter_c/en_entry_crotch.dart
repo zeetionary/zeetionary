@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) جومگەی لاق لە بەشی سەرەوە لە نزیک ناوگەڵ؛ ئەو بەشەی پانتۆڵ کە دەکەوێتە کە جومگەی لاق لە نزیک ناوگەڵ دادەپۆشێت"),
           SentencesRow(
             englishText: "The pants were too tight in the crotch.",
-            kurdishText:
-                "پانتۆڵەکە لە ناوگەڵەوە زۆر تەسک بوو.", // crotch", please follow LX instructions
+            kurdishText: "پانتۆڵەکە لە ناوگەڵەوە زۆر تەسک بوو.",
             onPressedBritish: () => speakcrotchs1("en-GB"),
             onPressedAmerican: () => speakcrotchs1("en-US"),
           ),

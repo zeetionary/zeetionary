@@ -103,7 +103,7 @@ class EnglishEntryconcoct extends StatelessWidget {
                             englishText:
                                 "The soup was concocted from different kinds of fish.",
                             kurdishText:
-                                "سووپەکە درووستکرا لە ژمارەیەک جۆری جیاوازی ماسی.", // concoct",
+                                "سووپەکە درووستکرا لە ژمارەیەک جۆری جیاوازی ماسی.",
                             onPressedBritish: () => speakconcocts1("en-GB"),
                             onPressedAmerican: () => speakconcocts1("en-US"),
                           ),

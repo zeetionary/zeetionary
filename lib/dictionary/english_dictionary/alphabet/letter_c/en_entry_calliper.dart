@@ -182,7 +182,7 @@ class EnglishEntrycalliper extends StatelessWidget {
                             englishText:
                                 "The engineer used a calliper to precisely measure the width of the metal rod.",
                             kurdishText:
-                                "ئەندازیارەکە پەڕگارێکی بەکارھێنا بۆ پێوانی پانی چڵە ئاسنەکە.", // calliper
+                                "ئەندازیارەکە پەڕگارێکی بەکارھێنا بۆ پێوانی پانی چڵە ئاسنەکە",
                             onPressedBritish: () => speakcallipers1("en-GB"),
                             onPressedAmerican: () => speakcallipers1("en-US"),
                           ),

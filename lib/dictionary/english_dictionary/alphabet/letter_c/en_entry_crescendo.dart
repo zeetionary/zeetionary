@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئەو ساتەی ژاواژاوێک یان پارچە میوزیکێک لەو پەڕی بەرزییە"),
           SentencesRow(
             englishText: "The music reached a crescendo.",
-            kurdishText:
-                "میوزیکەکە گەشتە ئەوپەڕی.", // crescendo", please follow LX instructions
+            kurdishText: "میوزیکەکە گەشتە ئەوپەڕی.",
             onPressedBritish: () => speakcrescendos1("en-GB"),
             onPressedAmerican: () => speakcrescendos1("en-US"),
           ),

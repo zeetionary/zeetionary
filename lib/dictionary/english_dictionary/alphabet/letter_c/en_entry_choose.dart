@@ -143,8 +143,7 @@ class EnglishEntrychoose extends StatelessWidget {
                                   "١. (کردار) ھەڵبژاردن کەسێک یان شتێک لەناو ئەوانەی کە بەردەستن"),
                           SentencesRow(
                             englishText: "You choose—I can't decide.",
-                            kurdishText:
-                                "تۆ ھەڵیبژێرە، من ناتوانم بڕیار بدەم.", // choose",
+                            kurdishText: "تۆ ھەڵیبژێرە، من ناتوانم بڕیار بدەم.",
                             onPressedBritish: () => speakchooses1("en-GB"),
                             onPressedAmerican: () => speakchooses1("en-US"),
                           ),

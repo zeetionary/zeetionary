@@ -95,7 +95,7 @@ class EnglishEntrycoffin extends StatelessWidget {
                             englishText:
                                 "A procession of mourners slowly followed the coffin.",
                             kurdishText:
-                                "کاروانێک لە شیوەنگێڕان بە ھێواشی بە دوای تابووتەکەوە بوون.", // coffin",
+                                "کاروانێک لە شیوەنگێڕان بە ھێواشی بە دوای تابووتەکەوە بوون.",
                             onPressedBritish: () => speakcoffins1("en-GB"),
                             onPressedAmerican: () => speakcoffins1("en-US"),
                           ),

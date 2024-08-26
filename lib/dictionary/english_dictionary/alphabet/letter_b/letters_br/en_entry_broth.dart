@@ -139,7 +139,7 @@ class EnglishEntrybroth extends StatelessWidget {
                             englishText:
                                 "I enjoyed a warm bowl of chicken broth when I was feeling under the weather.",
                             kurdishText:
-                                "کە نەخۆش بووم دەفرێک لە مەرگەی گەرمم خوارد.", // broth" as
+                                "کە نەخۆش بووم دەفرێک لە مەرگەی گەرمم خوارد.",
                             onPressedBritish: () => speakbroths1("en-GB"),
                             onPressedAmerican: () => speakbroths1("en-US"),
                           ),

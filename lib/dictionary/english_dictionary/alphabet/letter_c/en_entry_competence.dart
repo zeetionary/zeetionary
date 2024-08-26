@@ -141,7 +141,7 @@ class EnglishEntrycompetence extends StatelessWidget {
                             englishText:
                                 "He gradually developed the competence to deal with the more difficult cases.",
                             kurdishText:
-                                "کەم کەم توانای گەشەپێدا بۆ مامەڵەکردن لەگەڵ کەیسە زیاتر سەختەکان.", // competence",
+                                "کەم کەم توانای گەشەپێدا بۆ مامەڵەکردن لەگەڵ کەیسە زیاتر سەختەکان.",
                             onPressedBritish: () => speakcompetences1("en-GB"),
                             onPressedAmerican: () => speakcompetences1("en-US"),
                           ),

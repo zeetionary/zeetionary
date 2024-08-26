@@ -265,8 +265,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) گەندەڵی"),
           SentencesRow(
             englishText: "The new president has promised to fight corruption.",
-            kurdishText:
-                "سەرۆکە تازەکە بەڵێنی داوە شەڕی دژ بە گەندەڵی بکات.", // corruption", please follow LX instructions
+            kurdishText: "سەرۆکە تازەکە بەڵێنی داوە شەڕی دژ بە گەندەڵی بکات.",
             onPressedBritish: () => speakcorruptions1("en-GB"),
             onPressedAmerican: () => speakcorruptions1("en-US"),
           ),

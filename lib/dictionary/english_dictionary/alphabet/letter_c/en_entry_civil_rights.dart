@@ -95,7 +95,7 @@ class EnglishEntrycivilrights extends StatelessWidget {
                             englishText:
                                 "Civil rights include freedom, equality in law and in employment, and the right to vote.",
                             kurdishText:
-                                "مافە مەدەنییەکان ئازادی، یەکسانی لە پێش یاسا و کاردا، مافی دەنگدان دەگرێتەوە.", // civilrights",
+                                "مافە مەدەنییەکان ئازادی، یەکسانی لە پێش یاسا و کاردا، مافی دەنگدان دەگرێتەوە.",
                             onPressedBritish: () => speakcivilrightss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcivilrightss1("en-US"),

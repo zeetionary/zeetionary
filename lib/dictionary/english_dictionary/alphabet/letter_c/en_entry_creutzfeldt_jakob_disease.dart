@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There is no cure for Creutzfeldt-Jakob disease, and it is always fatal.",
             kurdishText:
-                "ھیچ چارەسەرێک بۆ CJD نییە و ھەمیشە کوشندەیە.", // Creutzfeldt-Jakob disease", please follow LX instructions
+                "ھیچ چارەسەرێک بۆ CJD نییە و ھەمیشە کوشندەیە.",
             onPressedBritish: () => speakcreutzfeldtjakobdiseases1("en-GB"),
             onPressedAmerican: () => speakcreutzfeldtjakobdiseases1("en-US"),
           ),

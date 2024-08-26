@@ -228,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) پاسکیلسوار"),
           SentencesRow(
             englishText: "They are both very keen cyclists.",
-            kurdishText:
-                "ھەردووکیان پاسکیلسواری بەتامەزرۆ بوون.", // cyclist", please follow LX instructions
+            kurdishText: "ھەردووکیان پاسکیلسواری بەتامەزرۆ بوون.",
             onPressedBritish: () => speakcyclists1("en-GB"),
             onPressedAmerican: () => speakcyclists1("en-US"),
           ),

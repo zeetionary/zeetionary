@@ -166,8 +166,7 @@ class EnglishEntryclimate extends StatelessWidget {
                                   "١. (ناو) ئاو و ھەوا؛ کەشووھەوای ساڵانە لە شوێنێکی دیاریکراودا"),
                           SentencesRow(
                             englishText: "The city has a cold climate.",
-                            kurdishText:
-                                "شارەکە ئاو و ھەوایەکی ساردی ھەیە.", // climate",
+                            kurdishText: "شارەکە ئاو و ھەوایەکی ساردی ھەیە.",
                             onPressedBritish: () => speakclimates1("en-GB"),
                             onPressedAmerican: () => speakclimates1("en-US"),
                           ),

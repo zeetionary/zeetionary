@@ -97,7 +97,7 @@ class EnglishEntrychequecard extends StatelessWidget {
                             englishText:
                                 "He lost his cheque card while traveling and had to report it to the bank.",
                             kurdishText:
-                                "لەکاتی گەشتدا چێک کاردەکەی ونکردوو و پێویست بوو بە بانکەکە ڕابگەیەنێت.", // cheque card",
+                                "لەکاتی گەشتدا چێک کاردەکەی ونکردوو و پێویست بوو بە بانکەکە ڕابگەیەنێت.",
                             onPressedBritish: () => speakchequecards1("en-GB"),
                             onPressedAmerican: () => speakchequecards1("en-US"),
                           ),

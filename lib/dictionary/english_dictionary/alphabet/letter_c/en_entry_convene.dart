@@ -103,7 +103,7 @@ class EnglishEntryconvene extends StatelessWidget {
                             englishText:
                                 "The prime minister convened (a meeting of) his cabinet to discuss the matter.",
                             kurdishText:
-                                "سەرۆک وەزیران کابینەکەی کۆکردەوە بۆ باسکردنی بابەتەکە.", // convene",
+                                "سەرۆک وەزیران کابینەکەی کۆکردەوە بۆ باسکردنی بابەتەکە.",
                             onPressedBritish: () => speakconvenes1("en-GB"),
                             onPressedAmerican: () => speakconvenes1("en-US"),
                           ),

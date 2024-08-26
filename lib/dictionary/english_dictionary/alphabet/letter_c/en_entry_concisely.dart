@@ -92,8 +92,7 @@ class EnglishEntryconcisely extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەک کە تەنھا ئەو زانیارییانە دەدات کە پێویست و گرنگن بە بەکارھێنانی وشەی کەم"),
                           SentencesRow(
                             englishText: "He spoke clearly and concisely.",
-                            kurdishText:
-                                "بە ڕوونی و پوختی قسەیکرد.", // concisely",
+                            kurdishText: "بە ڕوونی و پوختی قسەیکرد.",
                             onPressedBritish: () => speakconciselys1("en-GB"),
                             onPressedAmerican: () => speakconciselys1("en-US"),
                           ),

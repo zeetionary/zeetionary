@@ -150,7 +150,7 @@ class EnglishEntrycharm extends StatelessWidget {
                               text: "١. (ناو) جوانی و دڵڕفێنی"),
                           SentencesRow(
                             englishText: "He was a man of great charm.",
-                            kurdishText: "پیاوێکی دڵڕفێنەر بوو.", // charm",
+                            kurdishText: "پیاوێکی دڵڕفێنەر بوو.",
                             onPressedBritish: () => speakcharms1("en-GB"),
                             onPressedAmerican: () => speakcharms1("en-US"),
                           ),

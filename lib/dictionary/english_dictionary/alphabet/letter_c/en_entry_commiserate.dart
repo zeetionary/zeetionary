@@ -94,7 +94,7 @@ class EnglishEntrycommiserate extends StatelessWidget {
                             englishText:
                                 "She commiserated with the losers on their defeat.",
                             kurdishText:
-                                "ھاوسۆزی دەربڕی بۆ دۆڕاوەکان بەھۆی شکستەکەیان.", // commiserate",
+                                "ھاوسۆزی دەربڕی بۆ دۆڕاوەکان بەھۆی شکستەکەیان.",
                             onPressedBritish: () => speakcommiserates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcommiserates1("en-US"),

@@ -103,7 +103,7 @@ class EnglishEntrycondescension extends StatelessWidget {
                             englishText:
                                 "Her smile was a mixture of pity and condescension.",
                             kurdishText:
-                                "بزەکەی تێکەڵەیەک لە بەزەیی و فیزنی بوو.", // condescension",
+                                "بزەکەی تێکەڵەیەک لە بەزەیی و فیزنی بوو.",
                             onPressedBritish: () =>
                                 speakcondescensions1("en-GB"),
                             onPressedAmerican: () =>

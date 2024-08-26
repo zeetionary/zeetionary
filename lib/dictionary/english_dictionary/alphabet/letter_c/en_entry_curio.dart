@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The antique shop was filled with all sorts of curios.",
-            kurdishText:
-                "فرۆشگا ئەنتیکەکە پڕبوو لە ھەموو جۆرە دانسقەیەک.", // curio", please follow LX instructions
+            kurdishText: "فرۆشگا ئەنتیکەکە پڕبوو لە ھەموو جۆرە دانسقەیەک.",
             onPressedBritish: () => speakcurios1("en-GB"),
             onPressedAmerican: () => speakcurios1("en-US"),
           ),

@@ -102,7 +102,7 @@ class EnglishEntryconvivial extends StatelessWidget {
                             englishText:
                                 "We passed a convivial evening at the McCabes’ house.",
                             kurdishText:
-                                "ئێوارەیەکی دۆستانەمان بەسەر برد لە ماڵی مککەیبز.", // convivial",
+                                "ئێوارەیەکی دۆستانەمان بەسەر برد لە ماڵی مککەیبز.",
                             onPressedBritish: () => speakconvivials1("en-GB"),
                             onPressedAmerican: () => speakconvivials1("en-US"),
                           ),

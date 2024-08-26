@@ -174,7 +174,7 @@ class EnglishEntryc extends StatelessWidget {
 ١. (ناو) سێیەم پیتی ئەلفوبێی ئینگلیزی"""),
                           SentencesRow(
                             englishText: "‘Cat’ begins with (a) C/‘C’.",
-                            kurdishText: "وشەی cat بە C دەستپێ‌دەکات.", // c
+                            kurdishText: "وشەی cat بە C دەستپێ‌دەکات.",
                             onPressedBritish: () => speakcs1("en-GB"),
                             onPressedAmerican: () => speakcs1("en-US"),
                           ),

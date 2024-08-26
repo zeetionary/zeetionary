@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) کەم کەم لەناوبردنی کانزا، ئاسن، یان مادەی تر بە کارلێکی کیمیایی"),
           SentencesRow(
             englishText: "Acid corrodes metal.",
-            kurdishText:
-                "ترشەڵۆک کانزا دەڕزێنێت.", // corrode", please follow LX instructions
+            kurdishText: "ترشەڵۆک کانزا دەڕزێنێت.",
             onPressedBritish: () => speakcorrodes1("en-GB"),
             onPressedAmerican: () => speakcorrodes1("en-US"),
           ),

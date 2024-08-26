@@ -182,7 +182,7 @@ class EnglishEntrycanvass extends StatelessWidget {
                             englishText:
                                 "Volunteers and staffers were manning the phones and organizing a canvass.",
                             kurdishText:
-                                "خۆبەخشان و ئەندامانی ستاف ھێڵەکانی پەیوەندییان بەڕێوەدەبرد.", // canvass
+                                "خۆبەخشان و ئەندامانی ستاف ھێڵەکانی پەیوەندییان بەڕێوەدەبرد",
                             onPressedBritish: () => speakcanvasss1("en-GB"),
                             onPressedAmerican: () => speakcanvasss1("en-US"),
                           ),

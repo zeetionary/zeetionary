@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "In the Pacific, tropical cyclonic storms cause destruction like nowhere else in the world.",
             kurdishText:
-                "لە زەریای ھێمندا، زریانی باھۆزی خولگەیی دەبێتە ھۆی وێرانکاری جیاواز لە ھەموو شوێنێکی دیکەی جیھان.", // cyclonic", please follow LX instructions
+                "لە زەریای ھێمندا، زریانی باھۆزی خولگەیی دەبێتە ھۆی وێرانکاری جیاواز لە ھەموو شوێنێکی دیکەی جیھان.",
             onPressedBritish: () => speakcyclonics1("en-GB"),
             onPressedAmerican: () => speakcyclonics1("en-US"),
           ),

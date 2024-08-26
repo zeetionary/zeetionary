@@ -92,8 +92,7 @@ class EnglishEntryclimber extends StatelessWidget {
                                   "١. (ناو) کەسێک یان ئاژەڵێک کە سەردەکەوێت بە شتدا"),
                           SentencesRow(
                             englishText: "Monkeys are efficient climbers.",
-                            kurdishText:
-                                "مەیموون پیاھەڵگژێکی زۆرباشە.", // climber",
+                            kurdishText: "مەیموون پیاھەڵگژێکی زۆرباشە.",
                             onPressedBritish: () => speakclimbers1("en-GB"),
                             onPressedAmerican: () => speakclimbers1("en-US"),
                           ),

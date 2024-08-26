@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The evolution of human life was a gradual, cumulative process.",
             kurdishText:
-                "پەرەسەندنی ژیانی مرۆڤ پڕۆسەیەکی ھێواش و خڕەوەبوو بوو.", // cumulative", please follow LX instructions
+                "پەرەسەندنی ژیانی مرۆڤ پڕۆسەیەکی ھێواش و خڕەوەبوو بوو.",
             onPressedBritish: () => speakcumulatives1("en-GB"),
             onPressedAmerican: () => speakcumulatives1("en-US"),
           ),

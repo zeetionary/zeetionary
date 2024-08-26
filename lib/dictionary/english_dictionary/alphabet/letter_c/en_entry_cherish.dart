@@ -115,8 +115,7 @@ class EnglishEntrycherish extends StatelessWidget {
                                   "١. (کردار) خۆشویستنی کەسێک/شتێک بە ئاستێکی زۆر و پاراستنی"),
                           SentencesRow(
                             englishText: "Children need to be cherished.",
-                            kurdishText:
-                                "منداڵان دەبێت خۆشبویسترێن.", // cherish",
+                            kurdishText: "منداڵان دەبێت خۆشبویسترێن.",
                             onPressedBritish: () => speakcherishs1("en-GB"),
                             onPressedAmerican: () => speakcherishs1("en-US"),
                           ),

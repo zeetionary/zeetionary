@@ -94,7 +94,7 @@ class EnglishEntryconstabulary extends StatelessWidget {
                             englishText:
                                 "The constabulary worked tirelessly to apprehend the suspect.",
                             kurdishText:
-                                "پۆلیس ماندوونەناسانە کاریان دەکرد بۆ گرتنی گومانلێکراوەکە.", // constabulary",
+                                "پۆلیس ماندوونەناسانە کاریان دەکرد بۆ گرتنی گومانلێکراوەکە.",
                             onPressedBritish: () =>
                                 speakconstabularys1("en-GB"),
                             onPressedAmerican: () =>

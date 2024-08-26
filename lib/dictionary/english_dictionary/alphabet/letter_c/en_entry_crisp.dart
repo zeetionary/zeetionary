@@ -297,8 +297,7 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(word: "ھەروەھا: crispy"),
           SentencesRow(
             englishText: "Bake until the pastry is golden and crisp.",
-            kurdishText:
-                "بیبرژێنە تاوەکو ھەویرەکە ئاڵتوونی و خرمدار دەبێت.", // crisp", please follow LX instructions
+            kurdishText: "بیبرژێنە تاوەکو ھەویرەکە ئاڵتوونی و خرمدار دەبێت.",
             onPressedBritish: () => speakcrisps1("en-GB"),
             onPressedAmerican: () => speakcrisps1("en-US"),
           ),

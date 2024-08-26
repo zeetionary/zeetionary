@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The champion looks set to play his fellow countryman in the final.",
             kurdishText:
-                "پاڵەوانەکە وا بڕیارە یاری لەگەڵ ھاونیشتیمانییەکەی بکات لە کۆتاییدا.", // countryman", please follow LX instructions
+                "پاڵەوانەکە وا بڕیارە یاری لەگەڵ ھاونیشتیمانییەکەی بکات لە کۆتاییدا.",
             onPressedBritish: () => speakcountrymans1("en-GB"),
             onPressedAmerican: () => speakcountrymans1("en-US"),
           ),

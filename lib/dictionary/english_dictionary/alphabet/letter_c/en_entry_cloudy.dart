@@ -106,8 +106,7 @@ class EnglishEntrycloudy extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "It stayed cloudy for most of the day.",
-                            kurdishText:
-                                "بۆ زۆرینەی ڕۆژەکە ھەوراوی مایەوە.", // cloudy",
+                            kurdishText: "بۆ زۆرینەی ڕۆژەکە ھەوراوی مایەوە.",
                             onPressedBritish: () => speakcloudys1("en-GB"),
                             onPressedAmerican: () => speakcloudys1("en-US"),
                           ),

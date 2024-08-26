@@ -266,8 +266,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) توندی و تازەیی"),
           SentencesRow(
             englishText: "The salad had lost its crispness.",
-            kurdishText:
-                "زەڵاتەکە تازەییەکەی لەدەستداوە.", // crispness", please follow LX instructions
+            kurdishText: "زەڵاتەکە تازەییەکەی لەدەستداوە.",
             onPressedBritish: () => speakcrispnesss1("en-GB"),
             onPressedAmerican: () => speakcrispnesss1("en-US"),
           ),

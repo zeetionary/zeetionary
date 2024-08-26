@@ -112,8 +112,7 @@ class EnglishEntryclarify extends StatelessWidget {
                               text: "١. (کردار) ڕوونکردنەوەی شتێک"),
                           SentencesRow(
                             englishText: "I hope this clarifies my position.",
-                            kurdishText:
-                                "ھیوادارم ئەمە بۆچوونم ڕوونبکاتەوە.", // clarify",
+                            kurdishText: "ھیوادارم ئەمە بۆچوونم ڕوونبکاتەوە.",
                             onPressedBritish: () => speakclarifys1("en-GB"),
                             onPressedAmerican: () => speakclarifys1("en-US"),
                           ),

@@ -101,7 +101,7 @@ class EnglishEntrychieftain extends StatelessWidget {
                             englishText:
                                 "She was respected as a wise chieftain among her people.",
                             kurdishText:
-                                "لەناو خەڵکەکەیدا وەک سەرخێڵێکی ژیر ڕێزی لێ‌دەگیردرا.", // chieftain",
+                                "لەناو خەڵکەکەیدا وەک سەرخێڵێکی ژیر ڕێزی لێ‌دەگیردرا.",
                             onPressedBritish: () => speakchieftains1("en-GB"),
                             onPressedAmerican: () => speakchieftains1("en-US"),
                           ),

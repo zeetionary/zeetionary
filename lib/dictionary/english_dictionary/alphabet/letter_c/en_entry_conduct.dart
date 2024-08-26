@@ -208,7 +208,7 @@ class EnglishEntryconduct extends StatelessWidget {
                             englishText:
                                 "There are concerns about the way in which the firm conducts its activities.",
                             kurdishText:
-                                "نیگەرانی ھەیە سەبارەت بەو شێوازەی کە کۆمپانیاکە چالاکییەکانی ئەنجام دەدات.", // conduct",
+                                "نیگەرانی ھەیە سەبارەت بەو شێوازەی کە کۆمپانیاکە چالاکییەکانی ئەنجام دەدات.",
                             onPressedBritish: () => speakconducts1("en-GB"),
                             onPressedAmerican: () => speakconducts1("en-US"),
                           ),

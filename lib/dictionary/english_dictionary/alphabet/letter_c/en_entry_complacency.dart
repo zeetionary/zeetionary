@@ -103,7 +103,7 @@ class EnglishEntrycomplacency extends StatelessWidget {
                             englishText:
                                 "What annoys me about these girls is their complacency - they seem to have no desire to expand their horizons.",
                             kurdishText:
-                                "چی دەربارەی ئەم کچانە بێزارم دەکات خەیاڵ‌تەختییانە، وادەردەکەون ھیچ ئارەزوویان نەبێت ئاسۆیان فراوان بکەن.", // complacency",
+                                "چی دەربارەی ئەم کچانە بێزارم دەکات خەیاڵ‌تەختییانە، وادەردەکەون ھیچ ئارەزوویان نەبێت ئاسۆیان فراوان بکەن.",
                             onPressedBritish: () => speakcomplacencys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcomplacencys1("en-US"),

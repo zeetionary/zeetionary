@@ -234,8 +234,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) خەمڵاندنی تێچووی شتێک"),
           SentencesRow(
             englishText: "Here is a detailed costing of our proposals.",
-            kurdishText:
-                "ئەمە نرخاندنێکی وردی پێشنیارەکانمانە.", // costing", please follow LX instructions
+            kurdishText: "ئەمە نرخاندنێکی وردی پێشنیارەکانمانە.",
             onPressedBritish: () => speakcostings1("en-GB"),
             onPressedAmerican: () => speakcostings1("en-US"),
           ),

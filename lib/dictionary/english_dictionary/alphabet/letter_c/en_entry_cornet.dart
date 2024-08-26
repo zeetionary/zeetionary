@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She learned to play the cornet in her school band.",
             kurdishText:
-                "فێری ژەنینی کۆرنێت بوو لە باندی قوتابخانەکەیەوە.", // cornet", please follow LX instructions
+                "فێری ژەنینی کۆرنێت بوو لە باندی قوتابخانەکەیەوە.",
             onPressedBritish: () => speakcornets1("en-GB"),
             onPressedAmerican: () => speakcornets1("en-US"),
           ),

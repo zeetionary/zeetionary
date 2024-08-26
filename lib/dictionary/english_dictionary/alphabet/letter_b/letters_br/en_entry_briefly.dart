@@ -136,7 +136,7 @@ class EnglishEntrybriefly extends StatelessWidget {
                           SentencesRow(
                             englishText: "He had spoken to Emma only briefly.",
                             kurdishText:
-                                "تەنھا بۆ ماوەیەکی کەم قسەی لەگەڵ ئێما کردبوو.", // briefly" as
+                                "تەنھا بۆ ماوەیەکی کەم قسەی لەگەڵ ئێما کردبوو.",
                             onPressedBritish: () => speakbrieflys1("en-GB"),
                             onPressedAmerican: () => speakbrieflys1("en-US"),
                           ),

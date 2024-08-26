@@ -298,7 +298,7 @@ class EnglishEntrybring extends StatelessWidget {
                             englishText:
                                 "Don't forget to bring your books with you.",
                             kurdishText:
-                                "بیرت نەچێت کتێبەکانت لەگەڵ خۆت بێنیت.", // bring" as
+                                "بیرت نەچێت کتێبەکانت لەگەڵ خۆت بێنیت.",
                             onPressedBritish: () => speakbrings1("en-GB"),
                             onPressedAmerican: () => speakbrings1("en-US"),
                           ),

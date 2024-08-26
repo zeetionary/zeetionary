@@ -113,8 +113,7 @@ class EnglishEntryclench extends StatelessWidget {
                               text: "١. (کردار) توندکردنی دەست، ددان، ھتد"),
                           SentencesRow(
                             englishText: "He clenched his fists in anger.",
-                            kurdishText:
-                                "مستی لە تووڕەییدا توندکردبوو.", // clench",
+                            kurdishText: "مستی لە تووڕەییدا توندکردبوو.",
                             onPressedBritish: () => speakclenchs1("en-GB"),
                             onPressedAmerican: () => speakclenchs1("en-US"),
                           ),

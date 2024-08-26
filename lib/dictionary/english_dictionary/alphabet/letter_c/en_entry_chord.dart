@@ -90,8 +90,7 @@ class EnglishEntrychord extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She strummed a few chords on her guitar.",
-                            kurdishText:
-                                "چەند کۆردێکی لێدا لەسەر گیتارەکەی.", // chord",
+                            kurdishText: "چەند کۆردێکی لێدا لەسەر گیتارەکەی.",
                             onPressedBritish: () => speakchords1("en-GB"),
                             onPressedAmerican: () => speakchords1("en-US"),
                           ),

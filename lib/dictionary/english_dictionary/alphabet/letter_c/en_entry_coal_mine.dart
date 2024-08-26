@@ -94,7 +94,7 @@ class EnglishEntrycoalmine extends StatelessWidget {
                             englishText:
                                 "The coal mine employed hundreds of workers.",
                             kurdishText:
-                                "کانە خەڵووزەکە کاری بۆ سەدان کرێکار دابینکرد.", // coal mine",
+                                "کانە خەڵووزەکە کاری بۆ سەدان کرێکار دابینکرد.",
                             onPressedBritish: () => speakcoalmines1("en-GB"),
                             onPressedAmerican: () => speakcoalmines1("en-US"),
                           ),

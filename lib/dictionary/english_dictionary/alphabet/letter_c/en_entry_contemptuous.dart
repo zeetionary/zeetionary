@@ -99,8 +99,7 @@ class EnglishEntrycontemptuous extends StatelessWidget {
                                   "١. (ھاوەڵناو) پیشاندانی ئەوەی کە ھیچ ڕێزت بۆ کەسێک نییە"),
                           SentencesRow(
                             englishText: "She gave him a contemptuous look.",
-                            kurdishText:
-                                "نیگایەکی سووکانەی لێکرد.", // contemptuous",
+                            kurdishText: "نیگایەکی سووکانەی لێکرد.",
                             onPressedBritish: () =>
                                 speakcontemptuouss1("en-GB"),
                             onPressedAmerican: () =>

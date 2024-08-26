@@ -131,7 +131,7 @@ class EnglishEntrycombat extends StatelessWidget {
                                   "١. (ھاوەڵناو) شەڕ، بەتایبەتی لە کاتی جەنگدا"),
                           SentencesRow(
                             englishText: "He was killed in combat.",
-                            kurdishText: "لە شەڕدا کوژرا.", // combat",
+                            kurdishText: "لە شەڕدا کوژرا.",
                             onPressedBritish: () => speakcombats1("en-GB"),
                             onPressedAmerican: () => speakcombats1("en-US"),
                           ),

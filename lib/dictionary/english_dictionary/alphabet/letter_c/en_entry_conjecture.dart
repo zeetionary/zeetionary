@@ -111,7 +111,7 @@ class EnglishEntryconjecture extends StatelessWidget {
                             englishText:
                                 "The truth of his conjecture was confirmed by the newspaper report.",
                             kurdishText:
-                                "ڕاستی ئەم گومانە پشتڕاستکرایەوە لەلایەن ڕاپۆرتی ڕۆژنامەکەوە.", // conjecture",
+                                "ڕاستی ئەم گومانە پشتڕاستکرایەوە لەلایەن ڕاپۆرتی ڕۆژنامەکەوە.",
                             onPressedBritish: () => speakconjectures1("en-GB"),
                             onPressedAmerican: () => speakconjectures1("en-US"),
                           ),

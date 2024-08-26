@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "His parents had craftily concealed from him the fact that they were planning to rent out his room.",
             kurdishText:
-                "دایبابی زۆرزانانە لێیان شاردەوە کە ژوورەکەی بە کرێ دەدەن.", // craftily", please follow LX instructions
+                "دایبابی زۆرزانانە لێیان شاردەوە کە ژوورەکەی بە کرێ دەدەن.",
             onPressedBritish: () => speakcraftilys1("en-GB"),
             onPressedAmerican: () => speakcraftilys1("en-US"),
           ),

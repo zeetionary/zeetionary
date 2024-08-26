@@ -102,7 +102,7 @@ class EnglishEntrycheckpoint extends StatelessWidget {
                             englishText:
                                 "There are border guards at the checkpoint crossing.",
                             kurdishText:
-                                "پاسەوانی سنووری ھەیە لە خاڵە سنوورییەکە.", // checkpoint",
+                                "پاسەوانی سنووری ھەیە لە خاڵە سنوورییەکە.",
                             onPressedBritish: () => speakcheckpoints1("en-GB"),
                             onPressedAmerican: () => speakcheckpoints1("en-US"),
                           ),

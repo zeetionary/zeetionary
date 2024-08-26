@@ -102,7 +102,7 @@ class EnglishEntrycombustion extends StatelessWidget {
                             englishText:
                                 "Poisonous gases are produced during fossil fuel combustion.",
                             kurdishText:
-                                "گازی ژەھراوی درووست دەبن لە کاتی سووتانی سووتەمەنی بەبەردبوو.", // combustion",
+                                "گازی ژەھراوی درووست دەبن لە کاتی سووتانی سووتەمەنی بەبەردبوو.",
                             onPressedBritish: () => speakcombustions1("en-GB"),
                             onPressedAmerican: () => speakcombustions1("en-US"),
                           ),

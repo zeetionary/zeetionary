@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Cucumbers are usually sliced and eaten raw in salads.",
             kurdishText:
-                "خەیار زۆرجار قاژ دەکرێت و بە خاوی لە زەڵاتەدا دەخورێت.", // cucumber", please follow LX instructions
+                "خەیار زۆرجار قاژ دەکرێت و بە خاوی لە زەڵاتەدا دەخورێت.",
             onPressedBritish: () => speakcucumbers1("en-GB"),
             onPressedAmerican: () => speakcucumbers1("en-US"),
           ),

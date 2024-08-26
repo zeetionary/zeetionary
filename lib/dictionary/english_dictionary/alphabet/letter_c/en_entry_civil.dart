@@ -151,7 +151,7 @@ class EnglishEntrycivil extends StatelessWidget {
                             englishText:
                                 "There were concerns that the economic reforms might lead to civil unrest.",
                             kurdishText:
-                                "نیگەرانی ھەبوو لەوەی کە چاکسازییە ئابورییەکان لەوانەیە ببنە ھۆی ئاڵۆزی ھاوڵاتییان.", // civil",
+                                "نیگەرانی ھەبوو لەوەی کە چاکسازییە ئابورییەکان لەوانەیە ببنە ھۆی ئاڵۆزی ھاوڵاتییان.",
                             onPressedBritish: () => speakcivils1("en-GB"),
                             onPressedAmerican: () => speakcivils1("en-US"),
                           ),

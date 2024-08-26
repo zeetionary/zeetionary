@@ -109,7 +109,7 @@ class EnglishEntrychallenging extends StatelessWidget {
                             englishText:
                                 "He found the course academically challenging.",
                             kurdishText:
-                                "کۆرسەکەی لە لایەنی خوێندنەوە بە سەخت بینی.", // challenging",
+                                "کۆرسەکەی لە لایەنی خوێندنەوە بە سەخت بینی.",
                             onPressedBritish: () => speakchallengings1("en-GB"),
                             onPressedAmerican: () =>
                                 speakchallengings1("en-US"),

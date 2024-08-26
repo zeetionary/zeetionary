@@ -116,7 +116,7 @@ class EnglishEntryclerk extends StatelessWidget {
                             englishText:
                                 "The sales clerk answered all our questions.",
                             kurdishText:
-                                "فرۆشیارەکە وەڵامی ھەموو پرسیارەکانمانی دایەوە.", // clerk",
+                                "فرۆشیارەکە وەڵامی ھەموو پرسیارەکانمانی دایەوە.",
                             onPressedBritish: () => speakclerks1("en-GB"),
                             onPressedAmerican: () => speakclerks1("en-US"),
                           ),

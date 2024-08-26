@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئامێرێکی بەرزکەرەوە کە لە بیناسازیدا بەکاردێت بۆ بەرزکردنەوەی کەرەستە قورسەکان"),
           SentencesRow(
             englishText: "The crane lifted the container off the ship.",
-            kurdishText:
-                "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە ھەڵکێشا.", // crane", please follow LX instructions
+            kurdishText: "بەرزکەرەوەکە سنووقەکەی لە کەشتییەکە ھەڵکێشا.",
             onPressedBritish: () => speakcranes1("en-GB"),
             onPressedAmerican: () => speakcranes1("en-US"),
           ),

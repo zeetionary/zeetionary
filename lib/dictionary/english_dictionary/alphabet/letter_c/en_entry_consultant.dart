@@ -102,7 +102,7 @@ class EnglishEntryconsultant extends StatelessWidget {
                             englishText:
                                 "He was happy to act as a consultant to the company.",
                             kurdishText:
-                                "دڵخۆش بوو وەک ڕاوێژکارێک بۆ کۆمپانیاکە کاربکات.", // consultant",
+                                "دڵخۆش بوو وەک ڕاوێژکارێک بۆ کۆمپانیاکە کاربکات.",
                             onPressedBritish: () => speakconsultants1("en-GB"),
                             onPressedAmerican: () => speakconsultants1("en-US"),
                           ),

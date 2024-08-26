@@ -321,8 +321,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ڕەخنەگرانە؛ گوتنی شتی خراپی کەسێک یان شتێک"),
           SentencesRow(
             englishText: "You should just ignore any critical comments.",
-            kurdishText:
-                "دەبێت ھەموو لێدوانێکی ڕەخنەگرانە پشتگوێ بخەیت.", // critical", please follow LX instructions
+            kurdishText: "دەبێت ھەموو لێدوانێکی ڕەخنەگرانە پشتگوێ بخەیت.",
             onPressedBritish: () => speakcriticals1("en-GB"),
             onPressedAmerican: () => speakcriticals1("en-US"),
           ),

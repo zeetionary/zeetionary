@@ -259,8 +259,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شێوەیەکی شەش لای یەکسانی چوارگۆشەیی کە ناوەکەی بەتاڵە؛ پارچەیەکی چوارگۆشە لە شتێک، بەتایبەتی خواردن"),
           SentencesRow(
             englishText: "Cut the cheese into small cubes.",
-            kurdishText:
-                "پەنیرەکە بکە بە چوارگۆشەی بچووکەوە.", // cube", please follow LX instructions
+            kurdishText: "پەنیرەکە بکە بە چوارگۆشەی بچووکەوە.",
             onPressedBritish: () => speakcubes1("en-GB"),
             onPressedAmerican: () => speakcubes1("en-US"),
           ),

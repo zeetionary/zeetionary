@@ -103,7 +103,7 @@ class EnglishEntrycohabit extends StatelessWidget {
                             englishText:
                                 "She refused to cohabit with him before the wedding.",
                             kurdishText:
-                                "ڕەتیکردەوە پێش ھاوسەرگیرییەکە لەگەڵی بژی.", // cohabit",
+                                "ڕەتیکردەوە پێش ھاوسەرگیرییەکە لەگەڵی بژی.",
                             onPressedBritish: () => speakcohabits1("en-GB"),
                             onPressedAmerican: () => speakcohabits1("en-US"),
                           ),

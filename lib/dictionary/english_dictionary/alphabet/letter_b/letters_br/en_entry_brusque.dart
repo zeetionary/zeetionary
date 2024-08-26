@@ -138,7 +138,7 @@ class EnglishEntrybrusque extends StatelessWidget {
                           SentencesRow(
                             englishText: "The doctor spoke in a brusque tone.",
                             kurdishText:
-                                "دکتۆرەکە بە تۆنێکی بێ‌ماریفەتانە قسەی دەکرد.", // brusque" as
+                                "دکتۆرەکە بە تۆنێکی بێ‌ماریفەتانە قسەی دەکرد.",
                             onPressedBritish: () => speakbrusques1("en-GB"),
                             onPressedAmerican: () => speakbrusques1("en-US"),
                           ),

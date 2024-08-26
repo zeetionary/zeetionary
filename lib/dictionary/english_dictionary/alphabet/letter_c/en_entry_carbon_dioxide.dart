@@ -178,7 +178,7 @@ class EnglishEntrycarbondioxide extends StatelessWidget {
                             englishText:
                                 "Trees absorb carbon dioxide and produce oxygen.",
                             kurdishText:
-                                "درەختەکان دوانۆکسیدی کاربۆن دەمژن و ئۆکسجین دەدەنەوە.", // carbon dioxide",
+                                "درەختەکان دوانۆکسیدی کاربۆن دەمژن و ئۆکسجین دەدەنەوە.",
                             onPressedBritish: () =>
                                 speakcarbondioxides1("en-GB"),
                             onPressedAmerican: () =>

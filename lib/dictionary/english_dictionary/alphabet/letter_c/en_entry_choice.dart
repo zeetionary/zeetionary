@@ -250,7 +250,7 @@ class EnglishEntrychoice extends StatelessWidget {
                             englishText:
                                 "We are faced with a difficult choice.",
                             kurdishText:
-                                "ڕووبەڕووی ھەڵبژاردنی سەخت بووینەتەوە.", // choice",
+                                "ڕووبەڕووی ھەڵبژاردنی سەخت بووینەتەوە.",
                             onPressedBritish: () => speakchoices1("en-GB"),
                             onPressedAmerican: () => speakchoices1("en-US"),
                           ),

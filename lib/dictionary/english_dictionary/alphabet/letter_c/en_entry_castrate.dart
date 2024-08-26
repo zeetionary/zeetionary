@@ -179,7 +179,7 @@ class EnglishEntrycastrate extends StatelessWidget {
                             englishText:
                                 "Farmers may castrate male animals to control breeding.",
                             kurdishText:
-                                "ئاژەڵداران لەوانەیە ئاژەڵە نێرینەکان بخەسێنن بۆ ڕێگری لە زاوزێ.", // castrate",
+                                "ئاژەڵداران لەوانەیە ئاژەڵە نێرینەکان بخەسێنن بۆ ڕێگری لە زاوزێ.",
                             onPressedBritish: () => speakcastrates1("en-GB"),
                             onPressedAmerican: () => speakcastrates1("en-US"),
                           ),

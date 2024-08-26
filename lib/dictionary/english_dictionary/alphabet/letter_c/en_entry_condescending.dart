@@ -101,7 +101,7 @@ class EnglishEntrycondescending extends StatelessWidget {
                             englishText:
                                 "He has a condescending attitude towards women.",
                             kurdishText:
-                                "ھەڵسوکەوتێکی لەخۆڕازی ھەیە بەرامبەر بە ژنان.", // condescending",
+                                "ھەڵسوکەوتێکی لەخۆڕازی ھەیە بەرامبەر بە ژنان.",
                             onPressedBritish: () =>
                                 speakcondescendings1("en-GB"),
                             onPressedAmerican: () =>

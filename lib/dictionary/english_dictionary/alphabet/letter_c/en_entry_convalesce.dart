@@ -94,7 +94,7 @@ class EnglishEntryconvalesce extends StatelessWidget {
                             englishText:
                                 "She is convalescing at home after her operation.",
                             kurdishText:
-                                "لە ماڵەوە چاکدەبێتەوە لە دوای نەشتەرگەرییەکەی.", // convalesce",
+                                "لە ماڵەوە چاکدەبێتەوە لە دوای نەشتەرگەرییەکەی.",
                             onPressedBritish: () => speakconvalesces1("en-GB"),
                             onPressedAmerican: () => speakconvalesces1("en-US"),
                           ),

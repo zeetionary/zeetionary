@@ -181,7 +181,7 @@ class EnglishEntrycagoule extends StatelessWidget {
                             englishText:
                                 "Bad weather is likely, so please wear boots and a cagoule.",
                             kurdishText:
-                                "ئەگەری کەشوھەوای دژوار ھەیە، بۆیە تکایە پۆتین و باگیرێک لەبەربکە.", // cagoule
+                                "ئەگەری کەشوھەوای دژوار ھەیە، بۆیە تکایە پۆتین و باگیرێک لەبەربکە",
                             onPressedBritish: () => speakcagoules1("en-GB"),
                             onPressedAmerican: () => speakcagoules1("en-US"),
                           ),

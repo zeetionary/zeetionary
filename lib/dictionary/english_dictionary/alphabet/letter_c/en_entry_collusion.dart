@@ -102,7 +102,7 @@ class EnglishEntrycollusion extends StatelessWidget {
                             englishText:
                                 "The police were corrupt and were operating in collusion with the drug dealers.",
                             kurdishText:
-                                "پۆلیس گەندەڵ بوون بە ھەماھەنگی لەگەڵ بازرگانانی مادە ھۆشبەرەکان کاریان دەکرد.", // collusion",
+                                "پۆلیس گەندەڵ بوون بە ھەماھەنگی لەگەڵ بازرگانانی مادە ھۆشبەرەکان کاریان دەکرد.",
                             onPressedBritish: () => speakcollusions1("en-GB"),
                             onPressedAmerican: () => speakcollusions1("en-US"),
                           ),

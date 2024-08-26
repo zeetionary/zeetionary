@@ -116,7 +116,7 @@ class EnglishEntryclout extends StatelessWidget {
                             englishText:
                                 "I knew his opinion carried a lot of clout with them.",
                             kurdishText:
-                                "دەمزانی بۆچوونی کاریگەری زۆری ھەیە لەسەریان.", // clout",
+                                "دەمزانی بۆچوونی کاریگەری زۆری ھەیە لەسەریان.",
                             onPressedBritish: () => speakclouts1("en-GB"),
                             onPressedAmerican: () => speakclouts1("en-US"),
                           ),

@@ -119,7 +119,7 @@ class EnglishEntryconserve extends StatelessWidget {
                             englishText:
                                 "The nationalists are very eager to conserve their customs and language.",
                             kurdishText:
-                                "نەتەوەپەرستەکان زۆر بەپەرۆشن بۆ پاراستنی نەریت و زمانیان.", // conserve",
+                                "نەتەوەپەرستەکان زۆر بەپەرۆشن بۆ پاراستنی نەریت و زمانیان.",
                             onPressedBritish: () => speakconserves1("en-GB"),
                             onPressedAmerican: () => speakconserves1("en-US"),
                           ),

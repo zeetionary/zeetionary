@@ -94,7 +94,7 @@ class EnglishEntrycolic extends StatelessWidget {
                             englishText:
                                 "The baby's persistent crying was due to colic.",
                             kurdishText:
-                                "گریانی بەردەوامی منداڵەکە بەھۆی ژانەزگ بوو.", // colic",
+                                "گریانی بەردەوامی منداڵەکە بەھۆی ژانەزگ بوو.",
                             onPressedBritish: () => speakcolics1("en-GB"),
                             onPressedAmerican: () => speakcolics1("en-US"),
                           ),

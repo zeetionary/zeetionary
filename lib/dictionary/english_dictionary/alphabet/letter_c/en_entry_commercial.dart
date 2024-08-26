@@ -154,8 +154,7 @@ class EnglishEntrycommercial extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They have offices in the commercial heart of the city.",
-                            kurdishText:
-                                "ئۆفیسیان لە ناوجەرگەی شار ھەیە.", // commercial",
+                            kurdishText: "ئۆفیسیان لە ناوجەرگەی شار ھەیە.",
                             onPressedBritish: () => speakcommercials1("en-GB"),
                             onPressedAmerican: () => speakcommercials1("en-US"),
                           ),

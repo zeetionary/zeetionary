@@ -141,7 +141,7 @@ class EnglishEntrybroadcast extends StatelessWidget {
                             englishText:
                                 "Most of the programmes are broadcast in English.",
                             kurdishText:
-                                "زۆرینەی پڕۆگرامەکان بە ئینگلیزی پەخش دەکرێن.", // broadcast" as
+                                "زۆرینەی پڕۆگرامەکان بە ئینگلیزی پەخش دەکرێن.",
                             onPressedBritish: () => speakbroadcasts1("en-GB"),
                             onPressedAmerican: () => speakbroadcasts1("en-US"),
                           ),

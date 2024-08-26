@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She condemned postwar curtailment of civil liberties.",
             kurdishText:
-                "سەرکۆنەی بەرتەسکردنەوەی ئازادی کەسی دوای جەنگەکەی کرد.", // curtailment", please follow LX instructions
+                "سەرکۆنەی بەرتەسکردنەوەی ئازادی کەسی دوای جەنگەکەی کرد.",
             onPressedBritish: () => speakcurtailments1("en-GB"),
             onPressedAmerican: () => speakcurtailments1("en-US"),
           ),

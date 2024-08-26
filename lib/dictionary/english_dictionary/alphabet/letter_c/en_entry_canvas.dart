@@ -177,7 +177,7 @@ class EnglishEntrycanvas extends StatelessWidget {
                             englishText:
                                 "Their tents were made from heavy canvas.",
                             kurdishText:
-                                "خێوەتەکانیان لە کانڤسی بەھێز درووستکرابوون.", // canvas
+                                "خێوەتەکانیان لە کانڤسی بەھێز درووستکرابوون",
                             onPressedBritish: () => speakcanvass1("en-GB"),
                             onPressedAmerican: () => speakcanvass1("en-US"),
                           ),

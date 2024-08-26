@@ -180,7 +180,7 @@ class EnglishEntrychip extends StatelessWidget {
                           const AlsoEnglishckb(word: "ھەروەھا: French fry"),
                           SentencesRow(
                             englishText: "He was eating a burger and chips.",
-                            kurdishText: "لەفە و پەتاتەی دەخوارد.", // chip",
+                            kurdishText: "لەفە و پەتاتەی دەخوارد.",
                             onPressedBritish: () => speakchips1("en-GB"),
                             onPressedAmerican: () => speakchips1("en-US"),
                           ),

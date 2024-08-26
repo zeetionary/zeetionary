@@ -177,8 +177,7 @@ class EnglishEntrycastle extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They were invited to a banquet in the castle.",
-                            kurdishText:
-                                "بانگھێشتکران بۆ میوانییەک لە قەڵاکە.", // castle",
+                            kurdishText: "بانگھێشتکران بۆ میوانییەک لە قەڵاکە.",
                             onPressedBritish: () => speakcastles1("en-GB"),
                             onPressedAmerican: () => speakcastles1("en-US"),
                           ),

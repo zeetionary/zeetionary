@@ -111,7 +111,7 @@ class EnglishEntryconstipated extends StatelessWidget {
                             englishText:
                                 "You should eat more fibre and fruit if you are constipated.",
                             kurdishText:
-                                "دەبێت ڕیشاڵ و میوەی زیاتر بخۆیت ئەگەر ھەست بە قەبزی دەکەیت.", // constipated",
+                                "دەبێت ڕیشاڵ و میوەی زیاتر بخۆیت ئەگەر ھەست بە قەبزی دەکەیت.",
                             onPressedBritish: () => speakconstipateds1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconstipateds1("en-US"),

@@ -92,8 +92,7 @@ class EnglishEntrycheeky extends StatelessWidget {
                                   "١. (ھاوەڵناو) بێ‌شەرم بەشێوەیەکی بێزارکەرانە یان بە گاڵتەوە"),
                           SentencesRow(
                             englishText: "You're getting far too cheeky!",
-                            kurdishText:
-                                "خەریکە زۆر بێ‌شەرم دەبیت.", // cheeky",
+                            kurdishText: "خەریکە زۆر بێ‌شەرم دەبیت.",
                             onPressedBritish: () => speakcheekys1("en-GB"),
                             onPressedAmerican: () => speakcheekys1("en-US"),
                           ),

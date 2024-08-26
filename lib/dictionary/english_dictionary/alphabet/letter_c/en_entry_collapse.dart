@@ -205,8 +205,7 @@ class EnglishEntrycollapse extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The roof collapsed under the weight of snow.",
-                            kurdishText:
-                                "سەربانەکە لەژێر کێشی بەفردا ڕووخا.", // collapse",
+                            kurdishText: "سەربانەکە لەژێر کێشی بەفردا ڕووخا.",
                             onPressedBritish: () => speakcollapses1("en-GB"),
                             onPressedAmerican: () => speakcollapses1("en-US"),
                           ),

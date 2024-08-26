@@ -300,8 +300,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کاری مۆداڵ) وەک ڕابردووی can بەکاردێت"),
           SentencesRow(
             englishText: "She said that she couldn't come.",
-            kurdishText:
-                "گوتی کە ناتوانێت بێت.", // could", please follow LX instructions
+            kurdishText: "گوتی کە ناتوانێت بێت.",
             onPressedBritish: () => speakcoulds1("en-GB"),
             onPressedAmerican: () => speakcoulds1("en-US"),
           ),

@@ -134,7 +134,7 @@ class EnglishEntrybriefs extends StatelessWidget {
                             englishText:
                                 "He usually wears regular black cotton briefs.",
                             kurdishText:
-                                "زۆرجار شۆرتی کەتانی ئاسایی ڕەش لەبەردەکات.", // briefs" as
+                                "زۆرجار شۆرتی کەتانی ئاسایی ڕەش لەبەردەکات.",
                             onPressedBritish: () => speakbriefss1("en-GB"),
                             onPressedAmerican: () => speakbriefss1("en-US"),
                           ),

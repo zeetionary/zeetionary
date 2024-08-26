@@ -103,7 +103,7 @@ class EnglishEntrycolon extends StatelessWidget {
                             englishText:
                                 "The colon is a versatile punctuation mark: it has several uses in writing.",
                             kurdishText:
-                                "کۆلۆن نیشانەیەکی خاڵبەندی فرەکارە: ژمارەیەک ئەرکی ھەیە لە نووسیندا.", // colon",
+                                "کۆلۆن نیشانەیەکی خاڵبەندی فرەکارە: ژمارەیەک ئەرکی ھەیە لە نووسیندا.",
                             onPressedBritish: () => speakcolons1("en-GB"),
                             onPressedAmerican: () => speakcolons1("en-US"),
                           ),

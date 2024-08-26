@@ -95,7 +95,7 @@ class EnglishEntryclam extends StatelessWidget {
                             englishText:
                                 "The moment I mentioned the children he closed up like a clam (= became silent and refused to discuss the topic).",
                             kurdishText:
-                                "ھەرکە باسی منداڵەکانم کرد وەک کلامێک بێ‌دەنگ بوو.", // clam",
+                                "ھەرکە باسی منداڵەکانم کرد وەک کلامێک بێ‌دەنگ بوو.",
                             onPressedBritish: () => speakclams1("en-GB"),
                             onPressedAmerican: () => speakclams1("en-US"),
                           ),

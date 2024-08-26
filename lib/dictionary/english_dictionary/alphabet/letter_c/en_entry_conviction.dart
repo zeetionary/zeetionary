@@ -132,7 +132,7 @@ class EnglishEntryconviction extends StatelessWidget {
                             englishText:
                                 "He plans to appeal against his conviction.",
                             kurdishText:
-                                "پلانی ھەیە پەڵپ لە توانبارکردنەکەی بگرێت.", // conviction",
+                                "پلانی ھەیە پەڵپ لە توانبارکردنەکەی بگرێت.",
                             onPressedBritish: () => speakconvictions1("en-GB"),
                             onPressedAmerican: () => speakconvictions1("en-US"),
                           ),

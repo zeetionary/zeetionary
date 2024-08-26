@@ -101,7 +101,7 @@ class EnglishEntrycomrade extends StatelessWidget {
                             englishText:
                                 "We must fight for our rights, comrades!",
                             kurdishText:
-                                "دەبێت بۆ مافەکانمان بجەنگین، ھەڤاڵان!", // comrade",
+                                "دەبێت بۆ مافەکانمان بجەنگین، ھەڤاڵان!",
                             onPressedBritish: () => speakcomrades1("en-GB"),
                             onPressedAmerican: () => speakcomrades1("en-US"),
                           ),

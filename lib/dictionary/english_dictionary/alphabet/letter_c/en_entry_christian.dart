@@ -114,8 +114,7 @@ class EnglishEntrychristian extends StatelessWidget {
                                   "١. (ھاوەڵناو) پشتبەستوو یان باوەڕدار بە وانەکانی عیسای مەسیح"),
                           SentencesRow(
                             englishText: "She had a Christian upbringing.",
-                            kurdishText:
-                                "پەروەردەیەکی مەسحی ھەبوو.", // Christian",
+                            kurdishText: "پەروەردەیەکی مەسحی ھەبوو.",
                             onPressedBritish: () => speakChristians1("en-GB"),
                             onPressedAmerican: () => speakChristians1("en-US"),
                           ),

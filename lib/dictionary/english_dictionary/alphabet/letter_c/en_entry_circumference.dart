@@ -94,8 +94,7 @@ class EnglishEntrycircumference extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The earth is almost 25 000 miles in circumference.",
-                            kurdishText:
-                                "کەمەرەی زەوی نزیکەی ٢٥٠٠٠ میلە.", // circumference",
+                            kurdishText: "کەمەرەی زەوی نزیکەی ٢٥٠٠٠ میلە.",
                             onPressedBritish: () =>
                                 speakcircumferences1("en-GB"),
                             onPressedAmerican: () =>

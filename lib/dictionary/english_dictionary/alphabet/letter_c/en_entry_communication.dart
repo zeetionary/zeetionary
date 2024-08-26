@@ -159,7 +159,7 @@ class EnglishEntrycommunication extends StatelessWidget {
                             englishText:
                                 "Good communication between team leaders and members is essential.",
                             kurdishText:
-                                "گفتوگۆی باش لە نێوان سەرکردەکان و ئەندامان گرنگە.", // communication",
+                                "گفتوگۆی باش لە نێوان سەرکردەکان و ئەندامان گرنگە.",
                             onPressedBritish: () =>
                                 speakcommunications1("en-GB"),
                             onPressedAmerican: () =>

@@ -182,7 +182,7 @@ class EnglishEntrycampaigner extends StatelessWidget {
                             englishText:
                                 "She was an outspoken campaigner for victims of domestic abuse.",
                             kurdishText:
-                                "خەباتکارێکی سەرسەخت بوو بۆ قوربانیانی توندوتیژی خێزانی.", // campaigner
+                                "خەباتکارێکی سەرسەخت بوو بۆ قوربانیانی توندوتیژی خێزانی",
                             onPressedBritish: () => speakcampaigners1("en-GB"),
                             onPressedAmerican: () => speakcampaigners1("en-US"),
                           ),

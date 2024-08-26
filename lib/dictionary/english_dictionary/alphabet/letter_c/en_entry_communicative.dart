@@ -109,8 +109,7 @@ class EnglishEntrycommunicative extends StatelessWidget {
                                   "١. (ھاوەڵناو) ھەبوونی ئامادەیی بۆ پێدانی زانیاری بە کەسانی دیکە"),
                           SentencesRow(
                             englishText: "I don't find him very communicative.",
-                            kurdishText:
-                                "بە زۆر ڕووخۆش نایبینم.", // communicative",
+                            kurdishText: "بە زۆر ڕووخۆش نایبینم.",
                             onPressedBritish: () =>
                                 speakcommunicatives1("en-GB"),
                             onPressedAmerican: () =>

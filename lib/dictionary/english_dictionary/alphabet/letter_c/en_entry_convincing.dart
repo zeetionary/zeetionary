@@ -100,8 +100,7 @@ class EnglishEntryconvincing extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She sounded very convincing to me (= I believed what she said).",
-                            kurdishText:
-                                "زۆر قایل‌کەر دیاربوو لام.", // convincing",
+                            kurdishText: "زۆر قایل‌کەر دیاربوو لام.",
                             onPressedBritish: () => speakconvincings1("en-GB"),
                             onPressedAmerican: () => speakconvincings1("en-US"),
                           ),

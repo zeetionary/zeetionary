@@ -294,7 +294,7 @@ class EnglishEntrybrother extends StatelessWidget {
 ١. (ناو) کوڕێک یان پیاوێک کە ھەمان دایک و باوکی کەسێکی تری ھەیە"""),
                           SentencesRow(
                             englishText: "We're brothers.",
-                            kurdishText: "ئێمە براین.", // brother" as
+                            kurdishText: "ئێمە براین.",
                             onPressedBritish: () => speakbrothers1("en-GB"),
                             onPressedAmerican: () => speakbrothers1("en-US"),
                           ),

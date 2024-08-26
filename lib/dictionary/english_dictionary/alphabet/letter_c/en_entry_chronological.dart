@@ -102,8 +102,7 @@ class EnglishEntrychronological extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Give me the dates in chronological order.",
-                            kurdishText:
-                                "بەروارەکانم بە ڕیزبەندی کات پێبدە.", // chronological",
+                            kurdishText: "بەروارەکانم بە ڕیزبەندی کات پێبدە.",
                             onPressedBritish: () =>
                                 speakchronologicals1("en-GB"),
                             onPressedAmerican: () =>

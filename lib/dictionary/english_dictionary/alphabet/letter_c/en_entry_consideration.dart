@@ -219,7 +219,7 @@ class EnglishEntryconsideration extends StatelessWidget {
                             englishText:
                                 "Careful consideration should be given to issues of health and safety.",
                             kurdishText:
-                                "تێڕامانی ورد دەبێت بدرێت بە بابەتەکانی تەندرووستی و سەلامەتی.", // consideration",
+                                "تێڕامانی ورد دەبێت بدرێت بە بابەتەکانی تەندرووستی و سەلامەتی.",
                             onPressedBritish: () =>
                                 speakconsiderations1("en-GB"),
                             onPressedAmerican: () =>

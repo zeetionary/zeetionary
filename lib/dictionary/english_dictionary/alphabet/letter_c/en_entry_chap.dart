@@ -106,8 +106,7 @@ class EnglishEntrychap extends StatelessWidget {
                                   "١. (ناو) بۆ ناوھێنانی پیاوێک بە شێوەیەکی ھاوڕێیانە"),
                           SentencesRow(
                             englishText: "He isn't such a bad chap really.",
-                            kurdishText:
-                                "لە ڕاستیدا ھێندە زەلامێکی خراپ نییە.", // chap",
+                            kurdishText: "لە ڕاستیدا ھێندە زەلامێکی خراپ نییە.",
                             onPressedBritish: () => speakchaps1("en-GB"),
                             onPressedAmerican: () => speakchaps1("en-US"),
                           ),

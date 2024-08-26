@@ -175,7 +175,7 @@ class EnglishEntrycarol extends StatelessWidget {
                             englishText:
                                 "\"Silent Night\" is my favourite (Christmas) carol.",
                             kurdishText:
-                                "\"Silent Night\" سروودی دڵخوازی کریسمسمە.", // carol",
+                                "\"Silent Night\" سروودی دڵخوازی کریسمسمە.",
                             onPressedBritish: () => speakcarols1("en-GB"),
                             onPressedAmerican: () => speakcarols1("en-US"),
                           ),

@@ -118,7 +118,7 @@ class EnglishEntryconsciousness extends StatelessWidget {
                             englishText:
                                 "She did not regain consciousness and died the next day.",
                             kurdishText:
-                                "ھۆشی بەبەر نەھاتەوە و ڕۆژی دواتر گیانی لەدەستدا.", // consciousness",
+                                "ھۆشی بەبەر نەھاتەوە و ڕۆژی دواتر گیانی لەدەستدا.",
                             onPressedBritish: () =>
                                 speakconsciousnesss1("en-GB"),
                             onPressedAmerican: () =>

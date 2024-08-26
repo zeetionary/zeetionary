@@ -125,7 +125,7 @@ class EnglishEntryconsistency extends StatelessWidget {
                             englishText:
                                 "She has played with great consistency all season.",
                             kurdishText:
-                                "تەواوی وەرزەکە نەگۆڕی ناوازەوە یاری کردووە.", // consistency",
+                                "تەواوی وەرزەکە نەگۆڕی ناوازەوە یاری کردووە.",
                             onPressedBritish: () => speakconsistencys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsistencys1("en-US"),

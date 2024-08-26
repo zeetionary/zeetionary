@@ -98,8 +98,7 @@ class EnglishEntrycollected extends StatelessWidget {
                               text: "١. (ھاوەڵناو) زۆر ئارام و لەسەرخۆ"),
                           SentencesRow(
                             englishText: "She appeared calm and collected.",
-                            kurdishText:
-                                "ئارام و لەسەرخۆ دەرکەوت.", // collected",
+                            kurdishText: "ئارام و لەسەرخۆ دەرکەوت.",
                             onPressedBritish: () => speakcollecteds1("en-GB"),
                             onPressedAmerican: () => speakcollecteds1("en-US"),
                           ),

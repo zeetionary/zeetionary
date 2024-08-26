@@ -138,8 +138,7 @@ class EnglishEntrybroker extends StatelessWidget {
                                   """١. (ناو) کەسێک کە کاری کڕین و فرۆشتن بۆ خەڵکی دیکە دەکات، یان کڕین و فرۆشتنی سەرمایە"""),
                           SentencesRow(
                             englishText: "Ask advice from an insurance broker.",
-                            kurdishText:
-                                "داوای ڕاوێژ بکە لە دەڵاڵێکی بیمەوە.", // broker" as
+                            kurdishText: "داوای ڕاوێژ بکە لە دەڵاڵێکی بیمەوە.",
                             onPressedBritish: () => speakbrokers1("en-GB"),
                             onPressedAmerican: () => speakbrokers1("en-US"),
                           ),

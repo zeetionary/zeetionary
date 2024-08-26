@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "We live in a quiet cul-de-sac.",
             kurdishText:
-                "لەسەر شەقامێکی یەکسەرە دەژین.", // cul-de-sac", please follow LX instructions
+                "لەسەر شەقامێکی یەکسەرە دەژین.",
             onPressedBritish: () => speakculdesacs1("en-GB"),
             onPressedAmerican: () => speakculdesacs1("en-US"),
           ),

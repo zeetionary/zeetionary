@@ -102,7 +102,7 @@ class EnglishEntrycompassionately extends StatelessWidget {
                             englishText:
                                 "They spoke compassionately, trying to calm her.",
                             kurdishText:
-                                "بە میھرەبانییەوە قسەیان دەکرد و ھەوڵیان دەدا ھێوری بکەنەوە.", // compassionately",
+                                "بە میھرەبانییەوە قسەیان دەکرد و ھەوڵیان دەدا ھێوری بکەنەوە.",
                             onPressedBritish: () =>
                                 speakcompassionatelys1("en-GB"),
                             onPressedAmerican: () =>

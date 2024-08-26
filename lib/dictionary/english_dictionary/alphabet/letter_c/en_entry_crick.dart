@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) گەیاندنی ئازار بە مل یان پشت بەشێوەیەک کە ئازارێکی دژوارت پێ دەگەیەنێت"),
           SentencesRow(
             englishText: "I suffered a cricked neck during a game of tennis.",
-            kurdishText:
-                "لە یارییەکی تێنسدا تووشی کۆڵنجی مل بوومەوە.", // crick", please follow LX instructions
+            kurdishText: "لە یارییەکی تێنسدا تووشی کۆڵنجی مل بوومەوە.",
             onPressedBritish: () => speakcricks1("en-GB"),
             onPressedAmerican: () => speakcricks1("en-US"),
           ),

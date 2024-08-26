@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) دادگایەکی سەربازی بۆ ئەو کەسانەی یاسا دەشکێنن"),
           SentencesRow(
             englishText: "He was convicted at a court martial.",
-            kurdishText:
-                "لە دادگایەکی سەربازی بە تاوانبار دانرا.", // court martial", please follow LX instructions
+            kurdishText: "لە دادگایەکی سەربازی بە تاوانبار دانرا.",
             onPressedBritish: () => speakcourtmartials1("en-GB"),
             onPressedAmerican: () => speakcourtmartials1("en-US"),
           ),

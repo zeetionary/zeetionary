@@ -114,7 +114,7 @@ class EnglishEntrycomputer extends StatelessWidget {
                             englishText:
                                 "The whole process is run and monitored by computer.",
                             kurdishText:
-                                "تەواوی پڕۆسەکە لەلایەن کۆمپیوتەرەوە ئەنجام دەدرێت و چاودێری دەکرێت.", // computer",
+                                "تەواوی پڕۆسەکە لەلایەن کۆمپیوتەرەوە ئەنجام دەدرێت و چاودێری دەکرێت.",
                             onPressedBritish: () => speakcomputers1("en-GB"),
                             onPressedAmerican: () => speakcomputers1("en-US"),
                           ),

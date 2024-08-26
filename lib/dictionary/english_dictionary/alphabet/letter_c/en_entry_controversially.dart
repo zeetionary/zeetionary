@@ -104,7 +104,7 @@ class EnglishEntrycontroversially extends StatelessWidget {
                             englishText:
                                 "Controversially, the girl was expelled from school.",
                             kurdishText:
-                                "مشت‌ومڕلەسەرانە، کچەکە لە خوێندنگا دەرکرا.", // controversially",
+                                "مشت‌ومڕلەسەرانە، کچەکە لە خوێندنگا دەرکرا.",
                             onPressedBritish: () =>
                                 speakcontroversiallys1("en-GB"),
                             onPressedAmerican: () =>

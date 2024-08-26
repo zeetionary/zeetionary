@@ -158,8 +158,7 @@ class EnglishEntrychop extends StatelessWidget {
                                   "١. (کردار) بڕینی شتێک بۆ پارچەی بچووکتر بە شتێکی تیژ"),
                           SentencesRow(
                             englishText: "He was chopping logs for firewood.",
-                            kurdishText:
-                                "کۆلکەداری دەشکاند بۆ ئێزنگ.", // chop",
+                            kurdishText: "کۆلکەداری دەشکاند بۆ ئێزنگ.",
                             onPressedBritish: () => speakchops1("en-GB"),
                             onPressedAmerican: () => speakchops1("en-US"),
                           ),

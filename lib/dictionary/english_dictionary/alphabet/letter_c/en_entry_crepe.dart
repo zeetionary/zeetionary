@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) قوماشێکی تەنک کە لە لۆکە یان ئاوریشم درووستکراوە و ھێڵی بچووکی تێدایە"),
           SentencesRow(
             englishText: "She wrapped her sprained ankle with a crêpe bandage.",
-            kurdishText:
-                "لاقە شینبووەکەی بە لەفاف پێچا.", // crêpe", please follow LX instructions
+            kurdishText: "لاقە شینبووەکەی بە لەفاف پێچا.",
             onPressedBritish: () => speakcrepes1("en-GB"),
             onPressedAmerican: () => speakcrepes1("en-US"),
           ),

@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The microphone was cunningly concealed in the bookcase.",
             kurdishText:
-                "مایکرۆفۆنەکە زۆرزانانە لە جێ‌کتێبەکەدا شاردرابوویەوە.", // cunningly", please follow LX instructions
+                "مایکرۆفۆنەکە زۆرزانانە لە جێ‌کتێبەکەدا شاردرابوویەوە.",
             onPressedBritish: () => speakcunninglys1("en-GB"),
             onPressedAmerican: () => speakcunninglys1("en-US"),
           ),

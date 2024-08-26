@@ -183,7 +183,7 @@ class EnglishEntrycane extends StatelessWidget {
                             englishText:
                                 "Farmers harvested sugar cane for processing into sugar.",
                             kurdishText:
-                                "جوتیاران قامیشی شەکریان دوورییەوە بۆ کردنی بە شەکر.", // cane
+                                "جوتیاران قامیشی شەکریان دوورییەوە بۆ کردنی بە شەکر",
                             onPressedBritish: () => speakcanes1("en-GB"),
                             onPressedAmerican: () => speakcanes1("en-US"),
                           ),

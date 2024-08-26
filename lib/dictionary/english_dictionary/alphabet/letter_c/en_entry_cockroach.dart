@@ -95,7 +95,7 @@ class EnglishEntrycockroach extends StatelessWidget {
                             englishText:
                                 "The kitchens were discovered to be infested with cockroaches.",
                             kurdishText:
-                                "زانرا کە چێشتخانەکان پڕبوون لە سیسرکە.", // cockroach",
+                                "زانرا کە چێشتخانەکان پڕبوون لە سیسرکە.",
                             onPressedBritish: () => speakcockroachs1("en-GB"),
                             onPressedAmerican: () => speakcockroachs1("en-US"),
                           ),

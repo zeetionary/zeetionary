@@ -118,7 +118,7 @@ class EnglishEntrycompress extends StatelessWidget {
                             englishText:
                                 "As more snow fell, the bottom layer was compressed into ice.",
                             kurdishText:
-                                "کە بەفری زیاتر کەوت، چینی خوارەوە پەستێورا بۆ سەھۆڵ.", // compress",
+                                "کە بەفری زیاتر کەوت، چینی خوارەوە پەستێورا بۆ سەھۆڵ.",
                             onPressedBritish: () => speakcompresss1("en-GB"),
                             onPressedAmerican: () => speakcompresss1("en-US"),
                           ),

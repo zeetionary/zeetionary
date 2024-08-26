@@ -110,7 +110,7 @@ class EnglishEntrycomplication extends StatelessWidget {
                             englishText:
                                 "The bad weather added a further complication to our journey.",
                             kurdishText:
-                                "کەشوھەوای خراپ ئاڵۆزییەکی دیکەی بۆ گەشتەکەمان زیاد کرد.", // complication",
+                                "کەشوھەوای خراپ ئاڵۆزییەکی دیکەی بۆ گەشتەکەمان زیاد کرد.",
                             onPressedBritish: () =>
                                 speakcomplications1("en-GB"),
                             onPressedAmerican: () =>

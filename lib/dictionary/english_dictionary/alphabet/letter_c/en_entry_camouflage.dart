@@ -184,7 +184,7 @@ class EnglishEntrycamouflage extends StatelessWidget {
                             englishText:
                                 "He pulled the camouflage net over the entrance to the tent.",
                             kurdishText:
-                                "تۆڕە ڕەنگ‌گرەکەی کێشا بەسەر دەرگای چوونە ناو خێوەتەکە.", // camouflage
+                                "تۆڕە ڕەنگ‌گرەکەی کێشا بەسەر دەرگای چوونە ناو خێوەتەکە",
                             onPressedBritish: () => speakcamouflages1("en-GB"),
                             onPressedAmerican: () => speakcamouflages1("en-US"),
                           ),

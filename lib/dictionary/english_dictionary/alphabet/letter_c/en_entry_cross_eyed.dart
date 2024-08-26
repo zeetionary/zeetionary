@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I’m going cross-eyed, working on those handwritten texts all day.",
             kurdishText:
-                "خەریکە خێل دەبم بەدەست کارکردن بۆ تەواوی ڕۆژەکە لەگەڵ ئەو نووسینە دەستنووسانە.", // cross-eyed", please follow LX instructions
+                "خەریکە خێل دەبم بەدەست کارکردن بۆ تەواوی ڕۆژەکە لەگەڵ ئەو نووسینە دەستنووسانە.",
             onPressedBritish: () => speakcrosseyeds1("en-GB"),
             onPressedAmerican: () => speakcrosseyeds1("en-US"),
           ),

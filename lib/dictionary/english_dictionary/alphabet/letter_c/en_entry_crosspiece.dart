@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The carpenter attached a crosspiece to each side of the frame to give extra support to the roof.",
             kurdishText:
-                "دارتاشەکە چوارباڵییەکی بەست لە ھەر لایەکی چوارچێوەکە بۆ پێدانی پاڵپشتی زیاتر بە سەربانەکە.", // crosspiece", please follow LX instructions
+                "دارتاشەکە چوارباڵییەکی بەست لە ھەر لایەکی چوارچێوەکە بۆ پێدانی پاڵپشتی زیاتر بە سەربانەکە.",
             onPressedBritish: () => speakcrosspieces1("en-GB"),
             onPressedAmerican: () => speakcrosspieces1("en-US"),
           ),

@@ -178,7 +178,7 @@ class EnglishEntrycaptor extends StatelessWidget {
                             englishText:
                                 "The hostages were treated well by their captors.",
                             kurdishText:
-                                "بارمتەکان بەباشی لەلایەن دیل‌گرەکانیانەوە مامەڵەیان لەگەڵ کرا.", // captor
+                                "بارمتەکان بەباشی لەلایەن دیل‌گرەکانیانەوە مامەڵەیان لەگەڵ کرا",
                             onPressedBritish: () => speakcaptors1("en-GB"),
                             onPressedAmerican: () => speakcaptors1("en-US"),
                           ),

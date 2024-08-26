@@ -238,7 +238,7 @@ class EnglishEntrycopy extends StatelessWidget {
                             englishText:
                                 "The thieves replaced the original painting with a copy.",
                             kurdishText:
-                                "دزەکان تابلۆ ڕەسەنەکەیان گۆڕییەوە لەگەڵ دانەیەکی کۆپیدا.", // copy",
+                                "دزەکان تابلۆ ڕەسەنەکەیان گۆڕییەوە لەگەڵ دانەیەکی کۆپیدا.",
                             onPressedBritish: () => speakcopys1("en-GB"),
                             onPressedAmerican: () => speakcopys1("en-US"),
                           ),

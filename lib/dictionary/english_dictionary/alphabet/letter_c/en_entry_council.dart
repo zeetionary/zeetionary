@@ -285,7 +285,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The decision still has to be ratified by the full council.",
             kurdishText:
-                "بڕیارەکە ھێشتا دەبێت پەسەند بکرێت لەلایەن ھەموو ئەنجوومەنەکەوە.", // council", please follow LX instructions
+                "بڕیارەکە ھێشتا دەبێت پەسەند بکرێت لەلایەن ھەموو ئەنجوومەنەکەوە.",
             onPressedBritish: () => speakcouncils1("en-GB"),
             onPressedAmerican: () => speakcouncils1("en-US"),
           ),

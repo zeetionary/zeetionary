@@ -93,7 +93,7 @@ class EnglishEntrycleverness extends StatelessWidget {
                             englishText:
                                 "Brain size and cleverness do not go together.",
                             kurdishText:
-                                "قەبارەی مێشک و زیرەکی پەیوەندییان بە یەکەوە نییە.", // cleverness",
+                                "قەبارەی مێشک و زیرەکی پەیوەندییان بە یەکەوە نییە.",
                             onPressedBritish: () => speakclevernesss1("en-GB"),
                             onPressedAmerican: () => speakclevernesss1("en-US"),
                           ),

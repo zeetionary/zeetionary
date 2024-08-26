@@ -119,7 +119,7 @@ class EnglishEntrycollective extends StatelessWidget {
                             englishText:
                                 "MPs heaved a collective sigh of relief when the news was announced last night.",
                             kurdishText:
-                                "ئەندامانی پەرلەمان ھەناسەیەکی بەکۆمەڵی ئارامکەرەوەیان ھەڵکێشا کە ھەواڵەکە دوێنێ شەو ڕاگەیەندرا.", // collective",
+                                "ئەندامانی پەرلەمان ھەناسەیەکی بەکۆمەڵی ئارامکەرەوەیان ھەڵکێشا کە ھەواڵەکە دوێنێ شەو ڕاگەیەندرا.",
                             onPressedBritish: () => speakcollectives1("en-GB"),
                             onPressedAmerican: () => speakcollectives1("en-US"),
                           ),

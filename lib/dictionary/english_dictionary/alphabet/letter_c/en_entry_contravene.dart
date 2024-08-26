@@ -103,7 +103,7 @@ class EnglishEntrycontravene extends StatelessWidget {
                             englishText:
                                 "The company was found guilty of contravening safety regulations.",
                             kurdishText:
-                                "کۆمپانیاکە بە تاوانباری سەرپێچیکردنی ڕێوشوێنەکانی سەلامەتی دانرا.", // contravene",
+                                "کۆمپانیاکە بە تاوانباری سەرپێچیکردنی ڕێوشوێنەکانی سەلامەتی دانرا.",
                             onPressedBritish: () => speakcontravenes1("en-GB"),
                             onPressedAmerican: () => speakcontravenes1("en-US"),
                           ),

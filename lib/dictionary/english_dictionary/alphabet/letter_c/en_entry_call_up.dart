@@ -178,7 +178,7 @@ class EnglishEntrycallup extends StatelessWidget {
                             englishText:
                                 "Because of his occupation, he was not liable for call-up.",
                             kurdishText:
-                                "بەھۆی پیشەکەیەوە، خزمەتی سەربازی نەیدەگرتەوە.", // call-up
+                                "بەھۆی پیشەکەیەوە، خزمەتی سەربازی نەیدەگرتەوە.",
                             onPressedBritish: () => speakcallups1("en-GB"),
                             onPressedAmerican: () => speakcallups1("en-US"),
                           ),

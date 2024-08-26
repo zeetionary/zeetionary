@@ -172,7 +172,7 @@ class EnglishEntrycarnivore extends StatelessWidget {
 ١. (ناو) گیانەوەری گۆشت‌خۆر"""),
                           SentencesRow(
                             englishText: "Lions and tigers are carnivores.",
-                            kurdishText: "شێر و بەور گۆشتخۆرن.", // carnivore",
+                            kurdishText: "شێر و بەور گۆشتخۆرن.",
                             onPressedBritish: () => speakcarnivores1("en-GB"),
                             onPressedAmerican: () => speakcarnivores1("en-US"),
                           ),

@@ -140,7 +140,7 @@ class EnglishEntrybrutal extends StatelessWidget {
                             englishText:
                                 "He had presided over a brutal regime in which thousands of people had been killed.",
                             kurdishText:
-                                "سەرکردەی ڕژێمێکی دڕندە بوو کە تێیدا ھەزاران کەس کوژران.", // brutal" as
+                                "سەرکردەی ڕژێمێکی دڕندە بوو کە تێیدا ھەزاران کەس کوژران.",
                             onPressedBritish: () => speakbrutals1("en-GB"),
                             onPressedAmerican: () => speakbrutals1("en-US"),
                           ),

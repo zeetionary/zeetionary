@@ -249,8 +249,8 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Armed forces launched a counter-attack against the rebels.",
             kurdishText:
-                "ھێزە سەربازییەکان پەرچەھێرشێکیان دژ بە یاخیبووان ئەنجامدا.", // counter-attack", please follow LX instructions
-            onPressedBritish: () => speakcounterattacks1("en-GB"),
+                "ھێزە سەربازییەکان پەرچەھێرشێکیان دژ بە یاخیبووان ئەنجامدا.",
+                            onPressedBritish: () => speakcounterattacks1("en-GB"),
             onPressedAmerican: () => speakcounterattacks1("en-US"),
           ),
           const DividerSentences(),

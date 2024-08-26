@@ -323,8 +323,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) گەمژانە"),
           SentencesRow(
             englishText: "Are you crazy? We could get killed doing that.",
-            kurdishText:
-                "شێت بوویتە؟ دەکرێت بمرین ئەوە بکەین.", // crazy", please follow LX instructions
+            kurdishText: "شێت بوویتە؟ دەکرێت بمرین ئەوە بکەین.",
             onPressedBritish: () => speakcrazys1("en-GB"),
             onPressedAmerican: () => speakcrazys1("en-US"),
           ),

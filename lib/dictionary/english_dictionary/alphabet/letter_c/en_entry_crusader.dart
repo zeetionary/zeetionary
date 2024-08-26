@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He has set himself up as a crusader for higher standards in the media.",
             kurdishText:
-                "خۆی تەرخان کردووە وەک خەباتکارێک بۆ ستانداردی بەرزتر لە میدیادا.", // crusader", please follow LX instructions
+                "خۆی تەرخان کردووە وەک خەباتکارێک بۆ ستانداردی بەرزتر لە میدیادا.",
             onPressedBritish: () => speakcrusaders1("en-GB"),
             onPressedAmerican: () => speakcrusaders1("en-US"),
           ),

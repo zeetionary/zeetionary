@@ -250,8 +250,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) لۆکە؛ ڕووەکێک کە لە وڵاتە گەرمەکان دەچێنرێت بۆ پەڕە نەرمە سپییەکەی کە لە دەوری تۆوەکەی گەشە دەکات و بۆ قوماش درووستکردن بەکاردێت"),
           SentencesRow(
             englishText: "They grew cotton, tobacco, corn and fruit.",
-            kurdishText:
-                "لۆکە، تووتن، گەنمەشامی، و میوە دەچێنن.", // cotton", please follow LX instructions
+            kurdishText: "لۆکە، تووتن، گەنمەشامی، و میوە دەچێنن.",
             onPressedBritish: () => speakcottons1("en-GB"),
             onPressedAmerican: () => speakcottons1("en-US"),
           ),

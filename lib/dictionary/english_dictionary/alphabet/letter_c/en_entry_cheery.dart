@@ -93,7 +93,7 @@ class EnglishEntrycheery extends StatelessWidget {
                             englishText:
                                 "She walked in with a cheery \"Good morning!\"",
                             kurdishText:
-                                "ھاتە ژوورە بە \"بەیانی باش\" ـێکی دڵگەشەوە.", // cheery",
+                                "ھاتە ژوورە بە \"بەیانی باش\" ـێکی دڵگەشەوە.",
                             onPressedBritish: () => speakcheerys1("en-GB"),
                             onPressedAmerican: () => speakcheerys1("en-US"),
                           ),

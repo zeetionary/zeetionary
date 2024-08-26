@@ -137,8 +137,7 @@ class EnglishEntrybroke extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I'm always broke by the end of the month.",
-                            kurdishText:
-                                "ھەمیشە لەکۆتایی مانگدا بێ پارەم.", // broke" as
+                            kurdishText: "ھەمیشە لەکۆتایی مانگدا بێ پارەم.",
                             onPressedBritish: () => speakbrokes1("en-GB"),
                             onPressedAmerican: () => speakbrokes1("en-US"),
                           ),

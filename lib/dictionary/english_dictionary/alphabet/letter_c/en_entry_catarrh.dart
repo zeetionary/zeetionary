@@ -174,7 +174,7 @@ class EnglishEntrycatarrh extends StatelessWidget {
                             englishText:
                                 "My catarrh started after I caught a cold.",
                             kurdishText:
-                                "خڵمەکەم دەستیپێکرد لە دوای گرتنی ھەڵامەت.", // catarrh",
+                                "خڵمەکەم دەستیپێکرد لە دوای گرتنی ھەڵامەت.",
                             onPressedBritish: () => speakcatarrhs1("en-GB"),
                             onPressedAmerican: () => speakcatarrhs1("en-US"),
                           ),

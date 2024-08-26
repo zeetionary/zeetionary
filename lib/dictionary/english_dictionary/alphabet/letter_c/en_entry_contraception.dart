@@ -101,7 +101,7 @@ class EnglishEntrycontraception extends StatelessWidget {
                           SentencesRow(
                             englishText: "They never used any contraception.",
                             kurdishText:
-                                "ھەرگیز ھیچ دژەسکپڕییەکیان بەکارنەھێنا.", // contraception",
+                                "ھەرگیز ھیچ دژەسکپڕییەکیان بەکارنەھێنا.",
                             onPressedBritish: () =>
                                 speakcontraceptions1("en-GB"),
                             onPressedAmerican: () =>

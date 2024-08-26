@@ -177,7 +177,7 @@ class EnglishEntrycalorie extends StatelessWidget {
                             englishText:
                                 "No sugar for me, thanks—I'm counting my calories.",
                             kurdishText:
-                                "بەبێ شەکر بۆ من، تکایە. کالۆریم کەم دەکەمەوە.", // calorie
+                                "بەبێ شەکر بۆ من، تکایە. کالۆریم کەم دەکەمەوە",
                             onPressedBritish: () => speakcalories1("en-GB"),
                             onPressedAmerican: () => speakcalories1("en-US"),
                           ),

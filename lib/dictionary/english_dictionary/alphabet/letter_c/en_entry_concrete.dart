@@ -136,7 +136,7 @@ class EnglishEntryconcrete extends StatelessWidget {
                             englishText:
                                 "The bomb shelter has concrete walls that are three metres thick.",
                             kurdishText:
-                                "پەناگە بۆمبەکە دیواری کۆنکرێتی ھەیە کە سێ مەتر پانە.", // concrete",
+                                "پەناگە بۆمبەکە دیواری کۆنکرێتی ھەیە کە سێ مەتر پانە.",
                             onPressedBritish: () => speakconcretes1("en-GB"),
                             onPressedAmerican: () => speakconcretes1("en-US"),
                           ),

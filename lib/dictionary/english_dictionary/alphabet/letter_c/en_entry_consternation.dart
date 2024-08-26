@@ -103,7 +103,7 @@ class EnglishEntryconsternation extends StatelessWidget {
                             englishText:
                                 "The announcement of her retirement caused consternation among tennis fans.",
                             kurdishText:
-                                "ڕاگەیاندنی وازھێنانی بوو بەھۆی پەشۆکان لەناو ھەوادارانی تێنسدا.", // consternation",
+                                "ڕاگەیاندنی وازھێنانی بوو بەھۆی پەشۆکان لەناو ھەوادارانی تێنسدا.",
                             onPressedBritish: () =>
                                 speakconsternations1("en-GB"),
                             onPressedAmerican: () =>

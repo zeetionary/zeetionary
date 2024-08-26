@@ -101,7 +101,7 @@ class EnglishEntrycommercially extends StatelessWidget {
                             englishText:
                                 "The product is not yet commercially available.",
                             kurdishText:
-                                "بەرھەمەکە ھێشتا لەلایەنی بازرگانییەوە بەردەست نییە.", // commercially",
+                                "بەرھەمەکە ھێشتا لەلایەنی بازرگانییەوە بەردەست نییە.",
                             onPressedBritish: () =>
                                 speakcommerciallys1("en-GB"),
                             onPressedAmerican: () =>

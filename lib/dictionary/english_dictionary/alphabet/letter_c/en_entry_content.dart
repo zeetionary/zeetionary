@@ -218,8 +218,7 @@ class EnglishEntrycontent extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He tipped the contents of the bag onto the table.",
-                            kurdishText:
-                                "ناواخنی جانتاکەی خستە سەر مێزەکە.", // content",
+                            kurdishText: "ناواخنی جانتاکەی خستە سەر مێزەکە.",
                             onPressedBritish: () => speakcontents1("en-GB"),
                             onPressedAmerican: () => speakcontents1("en-US"),
                           ),

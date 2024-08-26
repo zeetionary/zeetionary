@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The museum's custodians ensure the artifacts are properly preserved.",
             kurdishText:
-                "بەرپرسانی مۆزەخانەکە دڵنیایی دەکەن لەوەی کەرەستەکان بە گونجاوی پارێزراون.", // custodian", please follow LX instructions
+                "بەرپرسانی مۆزەخانەکە دڵنیایی دەکەن لەوەی کەرەستەکان بە گونجاوی پارێزراون.",
             onPressedBritish: () => speakcustodians1("en-GB"),
             onPressedAmerican: () => speakcustodians1("en-US"),
           ),

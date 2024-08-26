@@ -94,7 +94,7 @@ class EnglishEntrycockatoo extends StatelessWidget {
                             englishText:
                                 "She taught her pet cockatoo to mimic her words.",
                             kurdishText:
-                                "تووتییە پۆپنەدارەکەی فێرکرد کە لاسایی قسەکانی بکاتەوە.", // cockatoo",
+                                "تووتییە پۆپنەدارەکەی فێرکرد کە لاسایی قسەکانی بکاتەوە.",
                             onPressedBritish: () => speakcockatoos1("en-GB"),
                             onPressedAmerican: () => speakcockatoos1("en-US"),
                           ),

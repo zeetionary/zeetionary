@@ -177,8 +177,7 @@ class EnglishEntrycar extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Paula got into the car and drove off.",
-                            kurdishText:
-                                "پاولا چووە ناو ئۆتۆمبێلەکە و لێیخوڕی.", // car
+                            kurdishText: "پاولا چووە ناو ئۆتۆمبێلەکە و لێیخوڕی",
                             onPressedBritish: () => speakcars1("en-GB"),
                             onPressedAmerican: () => speakcars1("en-US"),
                           ),

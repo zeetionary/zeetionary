@@ -118,7 +118,7 @@ class EnglishEntryconstrain extends StatelessWidget {
                             englishText:
                                 "The evidence was so compelling that he felt constrained to accept it.",
                             kurdishText:
-                                "بەڵگەکە زۆر قایلکەر بوو کە ھەستی بە ناچاری کرد پەسەندی بکات.", // constrain",
+                                "بەڵگەکە زۆر قایلکەر بوو کە ھەستی بە ناچاری کرد پەسەندی بکات.",
                             onPressedBritish: () => speakconstrains1("en-GB"),
                             onPressedAmerican: () => speakconstrains1("en-US"),
                           ),

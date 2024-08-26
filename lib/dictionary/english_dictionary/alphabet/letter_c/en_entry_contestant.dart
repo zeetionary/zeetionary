@@ -101,7 +101,7 @@ class EnglishEntrycontestant extends StatelessWidget {
                           SentencesRow(
                             englishText: "Please welcome our next contestant.",
                             kurdishText:
-                                "تکایە پێشوازی لە ڕکابەری دواترمان بکەن.", // contestant",
+                                "تکایە پێشوازی لە ڕکابەری دواترمان بکەن.",
                             onPressedBritish: () => speakcontestants1("en-GB"),
                             onPressedAmerican: () => speakcontestants1("en-US"),
                           ),

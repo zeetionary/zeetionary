@@ -109,7 +109,7 @@ class EnglishEntryconvoluted extends StatelessWidget {
                             englishText:
                                 "Her book is full of long, convoluted sentences.",
                             kurdishText:
-                                "کتێبەکەی پڕ بە لە ڕستەی درێژ و ئاڵۆزە.", // convoluted",
+                                "کتێبەکەی پڕ بە لە ڕستەی درێژ و ئاڵۆزە.",
                             onPressedBritish: () => speakconvoluteds1("en-GB"),
                             onPressedAmerican: () => speakconvoluteds1("en-US"),
                           ),

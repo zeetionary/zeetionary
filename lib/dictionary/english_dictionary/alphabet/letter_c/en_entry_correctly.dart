@@ -250,8 +250,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەشێوەیەک کە ڕاستە؛ بێ ھەڵەیە"),
           SentencesRow(
             englishText: "Have you spelled it correctly?",
-            kurdishText:
-                "بە درووستی ڕێنووست کردووە؟", // correctly", please follow LX instructions
+            kurdishText: "بە درووستی ڕێنووست کردووە؟",
             onPressedBritish: () => speakcorrectlys1("en-GB"),
             onPressedAmerican: () => speakcorrectlys1("en-US"),
           ),

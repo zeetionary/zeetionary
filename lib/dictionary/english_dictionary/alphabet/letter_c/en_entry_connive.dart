@@ -103,7 +103,7 @@ class EnglishEntryconnive extends StatelessWidget {
                             englishText:
                                 "She knew that if she said nothing she would be conniving in an injustice.",
                             kurdishText:
-                                "دەیزانی ئەگەر ھیچ نەڵێت ئەوا لە نادادپەروەرییەک تێوەدەگلێت.", // connive",
+                                "دەیزانی ئەگەر ھیچ نەڵێت ئەوا لە نادادپەروەرییەک تێوەدەگلێت.",
                             onPressedBritish: () => speakconnives1("en-GB"),
                             onPressedAmerican: () => speakconnives1("en-US"),
                           ),

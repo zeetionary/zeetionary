@@ -100,8 +100,7 @@ class EnglishEntryclueless extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He's completely clueless about computers.",
-                            kurdishText:
-                                "بە تەواوی نەزانە لەسەر کۆمپیوتەر.", // clueless",
+                            kurdishText: "بە تەواوی نەزانە لەسەر کۆمپیوتەر.",
                             onPressedBritish: () => speakcluelesss1("en-GB"),
                             onPressedAmerican: () => speakcluelesss1("en-US"),
                           ),

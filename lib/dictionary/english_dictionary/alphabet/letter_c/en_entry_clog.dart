@@ -113,8 +113,7 @@ class EnglishEntryclog extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The narrow streets were clogged with traffic.",
-                            kurdishText:
-                                "شەقامە تەسکەکان بە ھاتووچۆ گیرابوون.", // clog",
+                            kurdishText: "شەقامە تەسکەکان بە ھاتووچۆ گیرابوون.",
                             onPressedBritish: () => speakclogs1("en-GB"),
                             onPressedAmerican: () => speakclogs1("en-US"),
                           ),

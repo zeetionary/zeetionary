@@ -139,7 +139,7 @@ class EnglishEntrybroadside extends StatelessWidget {
                             englishText:
                                 "The prime minister fired a broadside at his critics.",
                             kurdishText:
-                                "سەرۆک وەزیران ھێرشی توندی کردە سەر ڕەخنەگرانی.", // broadside" as
+                                "سەرۆک وەزیران ھێرشی توندی کردە سەر ڕەخنەگرانی.",
                             onPressedBritish: () => speakbroadsides1("en-GB"),
                             onPressedAmerican: () => speakbroadsides1("en-US"),
                           ),

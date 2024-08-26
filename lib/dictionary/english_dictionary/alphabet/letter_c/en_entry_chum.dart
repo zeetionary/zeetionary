@@ -90,7 +90,7 @@ class EnglishEntrychum extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ناو) ھاوڕێیەک"),
                           SentencesRow(
                             englishText: "That's all right by me, chum.",
-                            kurdishText: "زۆر ئاساییە لام، ھاوڕێکەم.", // chum",
+                            kurdishText: "زۆر ئاساییە لام، ھاوڕێکەم.",
                             onPressedBritish: () => speakchums1("en-GB"),
                             onPressedAmerican: () => speakchums1("en-US"),
                           ),

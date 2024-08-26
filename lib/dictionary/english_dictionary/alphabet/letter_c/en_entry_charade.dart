@@ -110,7 +110,7 @@ class EnglishEntrycharade extends StatelessWidget {
                             englishText:
                                 "Their whole marriage had been a charade—they had never loved each other.",
                             kurdishText:
-                                "تەواوی ھاوسەرگیرییەکەیان درۆ بوو، ھەرگیز یەکیان خۆشنەویست.", // charade",
+                                "تەواوی ھاوسەرگیرییەکەیان درۆ بوو، ھەرگیز یەکیان خۆشنەویست.",
                             onPressedBritish: () => speakcharades1("en-GB"),
                             onPressedAmerican: () => speakcharades1("en-US"),
                           ),

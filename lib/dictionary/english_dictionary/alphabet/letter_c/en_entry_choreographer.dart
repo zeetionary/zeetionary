@@ -97,7 +97,7 @@ class EnglishEntrychoreographer extends StatelessWidget {
                             englishText:
                                 "She is a passionate Spanish dancer and choreographer.",
                             kurdishText:
-                                "سەماکار و سەماداڕێژێکی بەپەرۆشی ئیسپانییە.", // choreographer",
+                                "سەماکار و سەماداڕێژێکی بەپەرۆشی ئیسپانییە.",
                             onPressedBritish: () =>
                                 speakchoreographers1("en-GB"),
                             onPressedAmerican: () =>

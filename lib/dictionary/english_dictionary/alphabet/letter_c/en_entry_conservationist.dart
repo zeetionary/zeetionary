@@ -104,7 +104,7 @@ class EnglishEntryconservationist extends StatelessWidget {
                             englishText:
                                 "Conservationists are fighting to save the tiger.",
                             kurdishText:
-                                "ژینگەپارێزان دەجەنگن بۆ پاراستنی بەور.", // conservationist",
+                                "ژینگەپارێزان دەجەنگن بۆ پاراستنی بەور.",
                             onPressedBritish: () =>
                                 speakconservationists1("en-GB"),
                             onPressedAmerican: () =>

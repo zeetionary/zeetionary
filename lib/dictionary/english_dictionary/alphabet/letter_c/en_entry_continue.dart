@@ -276,7 +276,7 @@ class EnglishEntrycontinue extends StatelessWidget {
                             englishText:
                                 "Police have not yet made any arrests, but investigations continue.",
                             kurdishText:
-                                "پۆلیس ھێشتا کەسیان دەستگیر نەکردووە، بەڵام لێکۆڵینەوەکان بەردەوامن.", // continue",
+                                "پۆلیس ھێشتا کەسیان دەستگیر نەکردووە، بەڵام لێکۆڵینەوەکان بەردەوامن.",
                             onPressedBritish: () => speakcontinues1("en-GB"),
                             onPressedAmerican: () => speakcontinues1("en-US"),
                           ),

@@ -251,8 +251,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) باوەڕپێکراو"),
           SentencesRow(
             englishText: "It is just not credible that she would cheat.",
-            kurdishText:
-                "باوەڕپێکراو نییە کە گزی بکات.", // credible", please follow LX instructions
+            kurdishText: "باوەڕپێکراو نییە کە گزی بکات.",
             onPressedBritish: () => speakcredibles1("en-GB"),
             onPressedAmerican: () => speakcredibles1("en-US"),
           ),

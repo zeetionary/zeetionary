@@ -108,7 +108,7 @@ class EnglishEntryconfectionery extends StatelessWidget {
                             englishText:
                                 "Confectionery is a multimillion-pound business.",
                             kurdishText:
-                                "شیرینی بازرگانییەکی چەند ملیۆن پاوەندییە.", // confectionery",
+                                "شیرینی بازرگانییەکی چەند ملیۆن پاوەندییە.",
                             onPressedBritish: () =>
                                 speakconfectionerys1("en-GB"),
                             onPressedAmerican: () =>

@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئیمپراتۆری ڕووسیا لە ڕابردوودا"),
           SentencesRow(
             englishText: "Tsar Nicholas II was known for his autocratic rule.",
-            kurdishText:
-                "زار نیکۆلاسی دووەم ناسراوبوو بۆ دڕندەییەکەی.", // tsar", please follow LX instructions
+            kurdishText: "زار نیکۆلاسی دووەم ناسراوبوو بۆ دڕندەییەکەی.",
             onPressedBritish: () => speaktsars1("en-GB"),
             onPressedAmerican: () => speaktsars1("en-US"),
           ),

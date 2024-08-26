@@ -134,7 +134,7 @@ class EnglishEntrycoordinate extends StatelessWidget {
                             englishText:
                                 "They appointed a new manager to coordinate the work of the team.",
                             kurdishText:
-                                "بەڕێوبەرێکی تازەیان دیاریکرد بۆ کارەکە لەگەڵ تیمەکە ڕێکبخات.", // coordinate",
+                                "بەڕێوبەرێکی تازەیان دیاریکرد بۆ کارەکە لەگەڵ تیمەکە ڕێکبخات.",
                             onPressedBritish: () => speakcoordinates1("en-GB"),
                             onPressedAmerican: () => speakcoordinates1("en-US"),
                           ),

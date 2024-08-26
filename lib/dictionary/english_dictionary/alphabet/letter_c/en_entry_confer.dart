@@ -103,7 +103,7 @@ class EnglishEntryconfer extends StatelessWidget {
                             englishText:
                                 "He wanted to confer with his colleagues before reaching a decision.",
                             kurdishText:
-                                "دەیویست ڕاوێژ لەگەڵ ھاوکارەکانی بکات پێش گەشتن بە بڕیارێک.", // confer",
+                                "دەیویست ڕاوێژ لەگەڵ ھاوکارەکانی بکات پێش گەشتن بە بڕیارێک.",
                             onPressedBritish: () => speakconfers1("en-GB"),
                             onPressedAmerican: () => speakconfers1("en-US"),
                           ),

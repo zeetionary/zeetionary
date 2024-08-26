@@ -207,7 +207,7 @@ class EnglishEntryconsider extends StatelessWidget {
                           SentencesRow(
                             englishText: "I'd like some time to consider.",
                             kurdishText:
-                                "پێویستم بە ھەندێک کاتە بۆ  بیرکردنەوە.", // consider",
+                                "پێویستم بە ھەندێک کاتە بۆ  بیرکردنەوە.",
                             onPressedBritish: () => speakconsiders1("en-GB"),
                             onPressedAmerican: () => speakconsiders1("en-US"),
                           ),

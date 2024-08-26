@@ -137,7 +137,7 @@ class EnglishEntrybride extends StatelessWidget {
                                   "١. (ناو) ژنێک لە ڕۆژی ھاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"),
                           SentencesRow(
                             englishText: "He introduced his new bride.",
-                            kurdishText: "بووکە تازەکەی ناساند.", // bride" as
+                            kurdishText: "بووکە تازەکەی ناساند.",
                             onPressedBritish: () => speakbrides1("en-GB"),
                             onPressedAmerican: () => speakbrides1("en-US"),
                           ),

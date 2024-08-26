@@ -103,7 +103,7 @@ class EnglishEntryconfederacy extends StatelessWidget {
                             englishText:
                                 "The confederacy of tribes was formed to resist the invading army.",
                             kurdishText:
-                                "ھاوپەیمانی خێڵەکان درووستکرا بۆ وەستانەوە دژ بە سوپا داگیرکەرەکە.", // confederacy",
+                                "ھاوپەیمانی خێڵەکان درووستکرا بۆ وەستانەوە دژ بە سوپا داگیرکەرەکە.",
                             onPressedBritish: () => speakconfederacys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconfederacys1("en-US"),

@@ -175,7 +175,7 @@ class EnglishEntrycentennial extends StatelessWidget {
                             englishText:
                                 "The year 1889 was the centennial of the inauguration of George Washington.",
                             kurdishText:
-                                "ساڵی ١٨٨٩ سەدەم ساڵیادی بە سەرۆک ناساندنی جۆرج واشنتۆن بوو.", // centennial",
+                                "ساڵی ١٨٨٩ سەدەم ساڵیادی بە سەرۆک ناساندنی جۆرج واشنتۆن بوو.",
                             onPressedBritish: () => speakcentennials1("en-GB"),
                             onPressedAmerican: () => speakcentennials1("en-US"),
                           ),

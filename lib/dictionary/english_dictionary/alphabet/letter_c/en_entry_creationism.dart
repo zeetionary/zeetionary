@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Some people believe in creationism instead of evolution.",
             kurdishText:
-                "ھەندێک کەس باوەڕیان بە ئافرێنەری ھەیە وەک لە پەرەسەندن.", // creationism", please follow LX instructions
+                "ھەندێک کەس باوەڕیان بە ئافرێنەری ھەیە وەک لە پەرەسەندن.",
             onPressedBritish: () => speakcreationisms1("en-GB"),
             onPressedAmerican: () => speakcreationisms1("en-US"),
           ),

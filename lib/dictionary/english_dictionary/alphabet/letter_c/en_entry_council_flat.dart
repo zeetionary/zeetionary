@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They moved into a council flat after their previous home was destroyed.",
             kurdishText:
-                "چوونە فلاتێکی ئەنجوومەن لە دوای ئەوەی خانووی پێشووتریان ڕووخێنرا.", // council flat", please follow LX instructions
+                "چوونە فلاتێکی ئەنجوومەن لە دوای ئەوەی خانووی پێشووتریان ڕووخێنرا.",
             onPressedBritish: () => speakcouncilflats1("en-GB"),
             onPressedAmerican: () => speakcouncilflats1("en-US"),
           ),

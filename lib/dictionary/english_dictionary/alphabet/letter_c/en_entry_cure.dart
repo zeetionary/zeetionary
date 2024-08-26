@@ -350,8 +350,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) چارەسەرکردنی کەسێک لە نەخۆشی"),
           SentencesRow(
             englishText: "Will you be able to cure him, Doctor?",
-            kurdishText:
-                "دەتوانیت چارەسەری بکەیت، پزیشک؟", // cure", please follow LX instructions
+            kurdishText: "دەتوانیت چارەسەری بکەیت، پزیشک؟",
             onPressedBritish: () => speakcures1("en-GB"),
             onPressedAmerican: () => speakcures1("en-US"),
           ),

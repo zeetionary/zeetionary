@@ -95,7 +95,7 @@ class EnglishEntrycommentator extends StatelessWidget {
                             englishText:
                                 "He's one of the great sports commentators of our time.",
                             kurdishText:
-                                "یەکێکە لە شیکەرەوە گەورە وەرزشییەکانی سەردەمەکەمان.", // commentator",
+                                "یەکێکە لە شیکەرەوە گەورە وەرزشییەکانی سەردەمەکەمان.",
                             onPressedBritish: () => speakcommentators1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcommentators1("en-US"),

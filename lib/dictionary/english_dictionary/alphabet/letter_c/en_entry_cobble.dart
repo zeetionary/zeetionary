@@ -93,7 +93,7 @@ class EnglishEntrycobble extends StatelessWidget {
                             englishText:
                                 "The old man cobbled his shoes with care.",
                             kurdishText:
-                                "پیاوە پیرەکە بە وریاییەوە پێڵاوەکانی چاککردەوە.", // cobble",
+                                "پیاوە پیرەکە بە وریاییەوە پێڵاوەکانی چاککردەوە.",
                             onPressedBritish: () => speakcobbles1("en-GB"),
                             onPressedAmerican: () => speakcobbles1("en-US"),
                           ),

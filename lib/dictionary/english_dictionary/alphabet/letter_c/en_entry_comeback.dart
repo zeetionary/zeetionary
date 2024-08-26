@@ -110,7 +110,7 @@ class EnglishEntrycomeback extends StatelessWidget {
                             englishText:
                                 "The player is on the comeback trail after a serious knee injury.",
                             kurdishText:
-                                "یاریزانەکە لەسەر ڕێڕەوی گەڕانەوەیە لە دوای ماوەیەکی لە پێکانی سەختی لاق.", // comeback",
+                                "یاریزانەکە لەسەر ڕێڕەوی گەڕانەوەیە لە دوای ماوەیەکی لە پێکانی سەختی لاق.",
                             onPressedBritish: () => speakcomebacks1("en-GB"),
                             onPressedAmerican: () => speakcomebacks1("en-US"),
                           ),

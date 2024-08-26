@@ -423,8 +423,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کۆمەڵە وانەیەک لەسەر بابەتێک"),
           SentencesRow(
             englishText: "He took a course in Russian language and literature.",
-            kurdishText:
-                "بەژداری کۆرسێکی لەسەر زمان و ئەدەبی ڕووسی کرد.", // course", please follow LX instructions
+            kurdishText: "بەژداری کۆرسێکی لەسەر زمان و ئەدەبی ڕووسی کرد.",
             onPressedBritish: () => speakcourses1("en-GB"),
             onPressedAmerican: () => speakcourses1("en-US"),
           ),

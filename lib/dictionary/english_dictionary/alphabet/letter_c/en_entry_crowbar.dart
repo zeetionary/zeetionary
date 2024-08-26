@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The thieves forced one of the windows open with a crowbar.",
-            kurdishText:
-                "دزەکان بە نوێڵێک یەکێک لە پەنجەرەکانیان کردەوە.", // crowbar", please follow LX instructions
+            kurdishText: "دزەکان بە نوێڵێک یەکێک لە پەنجەرەکانیان کردەوە.",
             onPressedBritish: () => speakcrowbars1("en-GB"),
             onPressedAmerican: () => speakcrowbars1("en-US"),
           ),

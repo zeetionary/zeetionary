@@ -110,7 +110,7 @@ class EnglishEntrycommunism extends StatelessWidget {
                             englishText:
                                 "Much of the region's industry collapsed after the fall of communism.",
                             kurdishText:
-                                "زۆرێک لە پیشەسازی ناوچەکە داڕووخا لە دوای کەوتنی کۆمیونیزم.", // communism",
+                                "زۆرێک لە پیشەسازی ناوچەکە داڕووخا لە دوای کەوتنی کۆمیونیزم.",
                             onPressedBritish: () => speakcommunisms1("en-GB"),
                             onPressedAmerican: () => speakcommunisms1("en-US"),
                           ),

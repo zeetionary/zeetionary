@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Some people feel pressured to conform to the ideals of the cult of youth.",
             kurdishText:
-                "ھەندێک کەس ھەست بە فشار دەکەن لە شوێنکەوتنی نموونەکانی ڕێبازی گەنجان.", // cult", please follow LX instructions
+                "ھەندێک کەس ھەست بە فشار دەکەن لە شوێنکەوتنی نموونەکانی ڕێبازی گەنجان.",
             onPressedBritish: () => speakcults1("en-GB"),
             onPressedAmerican: () => speakcults1("en-US"),
           ),

@@ -179,7 +179,7 @@ class EnglishEntrycarving extends StatelessWidget {
                             englishText:
                                 "There is some fine carving on the facade.",
                             kurdishText:
-                                "ھەندێک ھەڵکۆڵینی جوان لەسەر ڕووی پێشەوەی بیناکەیە.", // carving",
+                                "ھەندێک ھەڵکۆڵینی جوان لەسەر ڕووی پێشەوەی بیناکەیە.",
                             onPressedBritish: () => speakcarvings1("en-GB"),
                             onPressedAmerican: () => speakcarvings1("en-US"),
                           ),

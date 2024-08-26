@@ -112,7 +112,7 @@ class EnglishEntryconfiguration extends StatelessWidget {
                             englishText:
                                 "The design is based on four configurations of squares.",
                             kurdishText:
-                                "دیزاینەکە پشتی بەستووە بە چوار ڕێکخستنی چوارگۆشە.", // configuration",
+                                "دیزاینەکە پشتی بەستووە بە چوار ڕێکخستنی چوارگۆشە.",
                             onPressedBritish: () =>
                                 speakconfigurations1("en-GB"),
                             onPressedAmerican: () =>

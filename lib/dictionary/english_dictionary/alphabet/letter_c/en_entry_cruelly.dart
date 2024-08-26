@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە حەزی گەیاندنی ئازاری دەروونی یان جەستەیی پیشان دەدات"),
           SentencesRow(
             englishText: "The dog had been cruelly treated.",
-            kurdishText:
-                "سەگەکە بە دڕندانە مامەڵەی لەگەڵ کرابوو.", // cruelly", please follow LX instructions
+            kurdishText: "سەگەکە بە دڕندانە مامەڵەی لەگەڵ کرابوو.",
             onPressedBritish: () => speakcruellys1("en-GB"),
             onPressedAmerican: () => speakcruellys1("en-US"),
           ),

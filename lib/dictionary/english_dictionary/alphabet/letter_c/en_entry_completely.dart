@@ -114,8 +114,7 @@ class EnglishEntrycompletely extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "It was completely different from how I had imagined it.",
-                            kurdishText:
-                                "تەواو جیاوازبوو لەوەی خەیاڵم کردبوو.", // completely",
+                            kurdishText: "تەواو جیاوازبوو لەوەی خەیاڵم کردبوو.",
                             onPressedBritish: () => speakcompletelys1("en-GB"),
                             onPressedAmerican: () => speakcompletelys1("en-US"),
                           ),

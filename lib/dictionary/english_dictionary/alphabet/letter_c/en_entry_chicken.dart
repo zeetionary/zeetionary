@@ -155,8 +155,7 @@ class EnglishEntrychicken extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ناو) مریشک"),
                           SentencesRow(
                             englishText: "They keep chickens in the back yard.",
-                            kurdishText:
-                                "مریشک ڕادەگرن لە حەوشەی پشتەوەیان.", // chicken",
+                            kurdishText: "مریشک ڕادەگرن لە حەوشەی پشتەوەیان.",
                             onPressedBritish: () => speakchickens1("en-GB"),
                             onPressedAmerican: () => speakchickens1("en-US"),
                           ),

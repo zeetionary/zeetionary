@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ڕووخساری کەسێک یان دەربڕینی ڕووخسار"),
           SentencesRow(
             englishText: "He was of noble countenance.",
-            kurdishText:
-                "ڕووخسارێکی بەنەجیب‌زادەی ھەبوو.", // countenance", please follow LX instructions
+            kurdishText: "ڕووخسارێکی بەنەجیب‌زادەی ھەبوو.",
             onPressedBritish: () => speakcountenances1("en-GB"),
             onPressedAmerican: () => speakcountenances1("en-US"),
           ),
@@ -246,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "٢. (کردار) ڕازیبوون یان پشتگیری بە شتێک"),
           SentencesRow(
             englishText: "The committee refused to countenance his proposals.",
-            kurdishText:
-                "لیژنەکە ڕەتیکردەوە ڕازی بێت بە پێشنیارەکانی.", // countenance", please follow LX instructions
+            kurdishText: "لیژنەکە ڕەتیکردەوە ڕازی بێت بە پێشنیارەکانی.",
             onPressedBritish: () => speakcountenances2("en-GB"),
             onPressedAmerican: () => speakcountenances2("en-US"),
           ),

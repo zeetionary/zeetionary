@@ -108,7 +108,7 @@ class EnglishEntryconceal extends StatelessWidget {
                             englishText:
                                 "Tim could barely conceal his disappointment.",
                             kurdishText:
-                                "تیم بە ئاستەنگ دەیتوانی نایومێدییەکەی بشارێتەوە.", // conceal",
+                                "تیم بە ئاستەنگ دەیتوانی نایومێدییەکەی بشارێتەوە.",
                             onPressedBritish: () => speakconceals1("en-GB"),
                             onPressedAmerican: () => speakconceals1("en-US"),
                           ),

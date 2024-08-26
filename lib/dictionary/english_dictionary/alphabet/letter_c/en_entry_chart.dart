@@ -155,7 +155,7 @@ class EnglishEntrychart extends StatelessWidget {
                             englishText:
                                 "The charts of 138 patients with chronic heart failure were reviewed.",
                             kurdishText:
-                                "ھێڵکاری ١٣٨ نەخۆش کە سستبوونی درێژخایەنی دڵیان ھەبوو پێداچوونەوەی بۆ کرا.", // chart",
+                                "ھێڵکاری ١٣٨ نەخۆش کە سستبوونی درێژخایەنی دڵیان ھەبوو پێداچوونەوەی بۆ کرا.",
                             onPressedBritish: () => speakcharts1("en-GB"),
                             onPressedAmerican: () => speakcharts1("en-US"),
                           ),

@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) سووتاندنی جەستەیەک"),
           SentencesRow(
             englishText: "When she dies she wants to be cremated, not buried.",
-            kurdishText:
-                "کە دەمرێت دەیەوێت بسووتێندرێت نەک بنێژرێت.", // cremate", please follow LX instructions
+            kurdishText: "کە دەمرێت دەیەوێت بسووتێندرێت نەک بنێژرێت.",
             onPressedBritish: () => speakcremates1("en-GB"),
             onPressedAmerican: () => speakcremates1("en-US"),
           ),

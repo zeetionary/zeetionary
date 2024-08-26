@@ -95,7 +95,7 @@ class EnglishEntrychimneysweep extends StatelessWidget {
                             englishText:
                                 "He hired a chimney sweep to inspect and clean the chimney before winter.",
                             kurdishText:
-                                "دووکەڵکێش‌سڕێکی گرت بۆ ئەوەی دووکەڵ‌کێشەکە بپشکنێت و پاکی بکاتەوە پێش زستان.", // chimney sweep",
+                                "دووکەڵکێش‌سڕێکی گرت بۆ ئەوەی دووکەڵ‌کێشەکە بپشکنێت و پاکی بکاتەوە پێش زستان.",
                             onPressedBritish: () =>
                                 speakchimneysweeps1("en-GB"),
                             onPressedAmerican: () =>

@@ -101,7 +101,7 @@ class EnglishEntryclimactic extends StatelessWidget {
                             englishText:
                                 "The film ends with a climactic battle scene.",
                             kurdishText:
-                                "فیلمەکە بە دیمەنێکی جەنگی خرووشێنەر کۆتایی دێت.", // climactic",
+                                "فیلمەکە بە دیمەنێکی جەنگی خرووشێنەر کۆتایی دێت.",
                             onPressedBritish: () => speakclimactics1("en-GB"),
                             onPressedAmerican: () => speakclimactics1("en-US"),
                           ),

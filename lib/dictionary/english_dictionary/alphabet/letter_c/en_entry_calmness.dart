@@ -180,7 +180,7 @@ class EnglishEntrycalmness extends StatelessWidget {
                             englishText:
                                 "Mark exudes calmness and never gets rattled.",
                             kurdishText:
-                                "مارک ئارامی لێ‌دەبارێت و ھەرگیز نیگەران نابێت.", // calmness
+                                "مارک ئارامی لێ‌دەبارێت و ھەرگیز نیگەران نابێت",
                             onPressedBritish: () => speakcalmnesss1("en-GB"),
                             onPressedAmerican: () => speakcalmnesss1("en-US"),
                           ),

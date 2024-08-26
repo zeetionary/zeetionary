@@ -102,7 +102,7 @@ class EnglishEntrycommonsense extends StatelessWidget {
                             englishText:
                                 "For goodness' sake, just use your common sense!",
                             kurdishText:
-                                "بۆ خاتری خودا، تەنھا ژیریت بەکاربێنە.", // common sense",
+                                "بۆ خاتری خودا، تەنھا ژیریت بەکاربێنە.",
                             onPressedBritish: () => speakcommonsenses1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcommonsenses1("en-US"),

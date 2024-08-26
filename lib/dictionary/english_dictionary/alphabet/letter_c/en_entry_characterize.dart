@@ -117,8 +117,7 @@ class EnglishEntrycharacterize extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The city is characterized by tall modern buildings.",
-                            kurdishText:
-                                "شارەکە بە بینای بەرز دەناسرێتەوە.", // characterize",
+                            kurdishText: "شارەکە بە بینای بەرز دەناسرێتەوە.",
                             onPressedBritish: () =>
                                 speakcharacterizes1("en-GB"),
                             onPressedAmerican: () =>

@@ -95,7 +95,7 @@ class EnglishEntryconurbation extends StatelessWidget {
                             englishText:
                                 "The region has several medium-sized towns and cities, but no major conurbations.",
                             kurdishText:
-                                "ناوچەکە ژمارەیەک لە شارۆچکە و شاری مام ناوەندی ھەیە، بەڵام کۆشاری گەورەی نییە.", // conurbation",
+                                "ناوچەکە ژمارەیەک لە شارۆچکە و شاری مام ناوەندی ھەیە، بەڵام کۆشاری گەورەی نییە.",
                             onPressedBritish: () => speakconurbations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconurbations1("en-US"),

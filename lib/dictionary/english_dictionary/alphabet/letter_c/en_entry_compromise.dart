@@ -186,7 +186,7 @@ class EnglishEntrycompromise extends StatelessWidget {
                             englishText:
                                 "After lengthy talks the two sides finally reached a compromise.",
                             kurdishText:
-                                "لە دوای گفروگۆی دوور و درێژ دوو لایەنەکە گەشتن بە سازان.", // compromise",
+                                "لە دوای گفروگۆی دوور و درێژ دوو لایەنەکە گەشتن بە سازان.",
                             onPressedBritish: () => speakcompromises1("en-GB"),
                             onPressedAmerican: () => speakcompromises1("en-US"),
                           ),

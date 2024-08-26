@@ -113,8 +113,7 @@ class EnglishEntrycomic extends StatelessWidget {
                               text: "١. (ھاوەڵناو) پێکەنیناوی"),
                           SentencesRow(
                             englishText: "The play is both comic and tragic.",
-                            kurdishText:
-                                "شانۆکە ھەم کۆمیدی و ھەم تراژیدیایە.", // comic",
+                            kurdishText: "شانۆکە ھەم کۆمیدی و ھەم تراژیدیایە.",
                             onPressedBritish: () => speakcomics1("en-GB"),
                             onPressedAmerican: () => speakcomics1("en-US"),
                           ),

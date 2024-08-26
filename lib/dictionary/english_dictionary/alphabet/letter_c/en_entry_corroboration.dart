@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The prosecution provided corroboration for her allegation.",
-            kurdishText:
-                "لێکۆڵینەوە پشتڕاست.", // corroboration", please follow LX instructions
+            kurdishText: "لێکۆڵینەوە پشتڕاست.",
             onPressedBritish: () => speakcorroborations1("en-GB"),
             onPressedAmerican: () => speakcorroborations1("en-US"),
           ),

@@ -139,7 +139,7 @@ class EnglishEntrybrow extends StatelessWidget {
                           SentencesRow(
                             englishText: "The nurse mopped his fevered brow.",
                             kurdishText:
-                                "پەرستارەکە ناوچاوانە تێ‌گرتووەکەی سڕی.", // brow" as
+                                "پەرستارەکە ناوچاوانە تێ‌گرتووەکەی سڕی.",
                             onPressedBritish: () => speakbrows1("en-GB"),
                             onPressedAmerican: () => speakbrows1("en-US"),
                           ),

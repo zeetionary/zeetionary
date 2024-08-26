@@ -156,7 +156,7 @@ class EnglishEntryconvenient extends StatelessWidget {
                             englishText:
                                 "Fruit is a convenient source of vitamins and energy.",
                             kurdishText:
-                                "میوە سەرچاوەیەکی بەسوودی ڤیتامین و وزەیە.", // convenient",
+                                "میوە سەرچاوەیەکی بەسوودی ڤیتامین و وزەیە.",
                             onPressedBritish: () => speakconvenients1("en-GB"),
                             onPressedAmerican: () => speakconvenients1("en-US"),
                           ),

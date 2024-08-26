@@ -108,7 +108,7 @@ class EnglishEntrycircus extends StatelessWidget {
                           SentencesRow(
                             englishText: "She ran away to join the circus.",
                             kurdishText:
-                                "ڕایکرد بۆ ئەوەی پەیوەندی بە سێرکسەکەوە بکات.", // circus",
+                                "ڕایکرد بۆ ئەوەی پەیوەندی بە سێرکسەکەوە بکات.",
                             onPressedBritish: () => speakcircuss1("en-GB"),
                             onPressedAmerican: () => speakcircuss1("en-US"),
                           ),

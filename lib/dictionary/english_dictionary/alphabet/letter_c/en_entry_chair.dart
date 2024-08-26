@@ -175,7 +175,7 @@ class EnglishEntrychair extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ناو) کورسی"),
                           SentencesRow(
                             englishText: "Sit on your chair!",
-                            kurdishText: "لەسەر کورسییەکەت دابنیشە!", // chair",
+                            kurdishText: "لەسەر کورسییەکەت دابنیشە!",
                             onPressedBritish: () => speakchairs1("en-GB"),
                             onPressedAmerican: () => speakchairs1("en-US"),
                           ),

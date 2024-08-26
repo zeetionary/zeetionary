@@ -352,8 +352,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) تاجی پاشا و شاژن"),
           SentencesRow(
             englishText: "The crown was placed upon the new monarch's head.",
-            kurdishText:
-                "تاجەکە لەسەری پاشا/شاژنە تازەکە دانرا.", // crown", please follow LX instructions
+            kurdishText: "تاجەکە لەسەری پاشا/شاژنە تازەکە دانرا.",
             onPressedBritish: () => speakcrowns1("en-GB"),
             onPressedAmerican: () => speakcrowns1("en-US"),
           ),

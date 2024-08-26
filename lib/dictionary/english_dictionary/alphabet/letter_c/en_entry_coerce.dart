@@ -106,8 +106,7 @@ class EnglishEntrycoerce extends StatelessWidget {
                                   "١. (کردار) زۆرکردن لە کەسێک بۆ ئەوەی شتێک بکات بە بەکارھێنانی ھەڕەشە"),
                           SentencesRow(
                             englishText: "She hadn’t coerced him in any way.",
-                            kurdishText:
-                                "بە ھیچ شێوەیەک زۆری لێ نەکردبوو.", // coerce",
+                            kurdishText: "بە ھیچ شێوەیەک زۆری لێ نەکردبوو.",
                             onPressedBritish: () => speakcoerces1("en-GB"),
                             onPressedAmerican: () => speakcoerces1("en-US"),
                           ),

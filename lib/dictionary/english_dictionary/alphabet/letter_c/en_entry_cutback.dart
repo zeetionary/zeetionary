@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There have been substantial staff cutbacks in order to save money.",
             kurdishText:
-                "ڕێژەیەکی زۆر کەمکردنەوە لە ستافدا ھەبووە بۆ گەڕاندنەوەی پارە.", // cutback", please follow LX instructions
+                "ڕێژەیەکی زۆر کەمکردنەوە لە ستافدا ھەبووە بۆ گەڕاندنەوەی پارە.",
             onPressedBritish: () => speakcutbacks1("en-GB"),
             onPressedAmerican: () => speakcutbacks1("en-US"),
           ),

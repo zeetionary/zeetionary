@@ -172,7 +172,7 @@ class EnglishEntryclassic extends StatelessWidget {
                             englishText:
                                 "This classic novel was first published in 1938.",
                             kurdishText:
-                                "ئەم ڕۆمانە مێژووییە یەکەم جار لە ١٩٣٨ بڵاوکرایەوە.", // classic",
+                                "ئەم ڕۆمانە مێژووییە یەکەم جار لە ١٩٣٨ بڵاوکرایەوە.",
                             onPressedBritish: () => speakclassics1("en-GB"),
                             onPressedAmerican: () => speakclassics1("en-US"),
                           ),

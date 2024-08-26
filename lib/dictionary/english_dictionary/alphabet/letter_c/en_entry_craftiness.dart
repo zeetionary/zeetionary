@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She gets her way by a mixture of craftiness and determination.",
             kurdishText:
-                "بەوە دەگات کە دەیەوێت بە تێکەڵەیەک لە زۆرزانی و کۆڵنەدان.", // craftiness", please follow LX instructions
+                "بەوە دەگات کە دەیەوێت بە تێکەڵەیەک لە زۆرزانی و کۆڵنەدان.",
             onPressedBritish: () => speakcraftinesss1("en-GB"),
             onPressedAmerican: () => speakcraftinesss1("en-US"),
           ),

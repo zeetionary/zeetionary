@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بەشێکی چەکێکی بانکی، بلیتێک، ھتد کە دەیھێڵیتەوە لە کاتێکدا بەشەکەی دیکەی دەدەیت بە کەسێک "),
           SentencesRow(
             englishText: "After paying the bill, she tore off the counterfoil.",
-            kurdishText:
-                "لە دوای دانەوەی خەرجییەکان، بنەچەکەکەی دڕاند.", // counterfoil", please follow LX instructions
+            kurdishText: "لە دوای دانەوەی خەرجییەکان، بنەچەکەکەی دڕاند.",
             onPressedBritish: () => speakcounterfoils1("en-GB"),
             onPressedAmerican: () => speakcounterfoils1("en-US"),
           ),

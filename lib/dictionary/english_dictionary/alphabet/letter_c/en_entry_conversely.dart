@@ -95,7 +95,7 @@ class EnglishEntryconversely extends StatelessWidget {
                             englishText:
                                 "You can add the fluid to the powder, or, conversely, the powder to the fluid.",
                             kurdishText:
-                                "دەتوانیت شلەکە بۆ ھاڕاوەکە زیاد بکەیت، یان بە پێچەوانەوە، ھاڕاوەکە بۆ شلەکە زیاد بکەیت.", // conversely",
+                                "دەتوانیت شلەکە بۆ ھاڕاوەکە زیاد بکەیت، یان بە پێچەوانەوە، ھاڕاوەکە بۆ شلەکە زیاد بکەیت.",
                             onPressedBritish: () => speakconverselys1("en-GB"),
                             onPressedAmerican: () => speakconverselys1("en-US"),
                           ),

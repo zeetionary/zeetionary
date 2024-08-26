@@ -184,7 +184,7 @@ class EnglishEntryclosely extends StatelessWidget {
                             englishText:
                                 "He walked into the room, closely followed by the rest of the family.",
                             kurdishText:
-                                "ھاتە ژوورەکەوە و نزیک لە دواییەوە ئەندامانی دیکەی خێزانەکەی بوون.", // closely",
+                                "ھاتە ژوورەکەوە و نزیک لە دواییەوە ئەندامانی دیکەی خێزانەکەی بوون.",
                             onPressedBritish: () => speakcloselys1("en-GB"),
                             onPressedAmerican: () => speakcloselys1("en-US"),
                           ),

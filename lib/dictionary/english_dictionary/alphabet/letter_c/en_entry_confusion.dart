@@ -133,8 +133,7 @@ class EnglishEntryconfusion extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The announcement caused a lot of confusion.",
-                            kurdishText:
-                                "ڕاگەیاندنەکە بوو بەھۆی پەشۆکاوی زۆر.", // confusion",
+                            kurdishText: "ڕاگەیاندنەکە بوو بەھۆی پەشۆکاوی زۆر.",
                             onPressedBritish: () => speakconfusions1("en-GB"),
                             onPressedAmerican: () => speakconfusions1("en-US"),
                           ),

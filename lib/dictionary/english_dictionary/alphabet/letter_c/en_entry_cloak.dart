@@ -115,8 +115,7 @@ class EnglishEntrycloak extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She threw a heavy cloak over her shoulders.",
-                            kurdishText:
-                                "جبەیەکی قورسی دا بە شانیدا.", // cloak",
+                            kurdishText: "جبەیەکی قورسی دا بە شانیدا.",
                             onPressedBritish: () => speakcloaks1("en-GB"),
                             onPressedAmerican: () => speakcloaks1("en-US"),
                           ),

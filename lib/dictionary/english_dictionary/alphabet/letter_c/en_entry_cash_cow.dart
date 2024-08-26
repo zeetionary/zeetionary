@@ -175,7 +175,7 @@ class EnglishEntrycashcow extends StatelessWidget {
                             englishText:
                                 "The studios discovered that movie rentals were an even bigger cash cow than selling tickets.",
                             kurdishText:
-                                "ستودیۆکان زانیان کە فیلم بە کرێدان قازانجێکی گەورەتر بوون وەک لە فرپشتنی بلیت.", // cash cow",
+                                "ستودیۆکان زانیان کە فیلم بە کرێدان قازانجێکی گەورەتر بوون وەک لە فرپشتنی بلیت.",
                             onPressedBritish: () => speakcashcows1("en-GB"),
                             onPressedAmerican: () => speakcashcows1("en-US"),
                           ),

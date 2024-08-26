@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) گۆڕانی لەناکاوی حکومەت کە زۆرجار نایاسایی و توندوتیژانەیە"),
           SentencesRow(
             englishText: "He seized power in a military coup in 2008.",
-            kurdishText:
-                "لە کودەتایەکی سەربازیدا لە ٢٠٠٨ دەسەڵاتی قۆرخکرد.", // coup", please follow LX instructions
+            kurdishText: "لە کودەتایەکی سەربازیدا لە ٢٠٠٨ دەسەڵاتی قۆرخکرد.",
             onPressedBritish: () => speakcoups1("en-GB"),
             onPressedAmerican: () => speakcoups1("en-US"),
           ),

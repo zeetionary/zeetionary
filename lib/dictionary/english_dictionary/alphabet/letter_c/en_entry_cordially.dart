@@ -101,7 +101,7 @@ class EnglishEntrycordially extends StatelessWidget {
                             englishText:
                                 "You are cordially invited to a celebration for Mr Michael Brown on his retirement.",
                             kurdishText:
-                                "لە دڵەوە بانگھێشت کراویت بۆ ئاھەنگگێڕانێک بۆ بەڕێز مایکڵ براون بە بۆنەی خانەنشین بوونییەوە.", // cordially",
+                                "لە دڵەوە بانگھێشت کراویت بۆ ئاھەنگگێڕانێک بۆ بەڕێز مایکڵ براون بە بۆنەی خانەنشین بوونییەوە.",
                             onPressedBritish: () => speakcordiallys1("en-GB"),
                             onPressedAmerican: () => speakcordiallys1("en-US"),
                           ),

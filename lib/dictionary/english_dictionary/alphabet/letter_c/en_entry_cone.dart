@@ -103,7 +103,7 @@ class EnglishEntrycone extends StatelessWidget {
                             englishText:
                                 "The construction crew placed traffic cones along the road to divert traffic.",
                             kurdishText:
-                                "تیمی بیناسازییەکە مۆتەی ھاتووچۆیان لە ڕێگاکەدا دانا بۆ گۆڕینی ئاراستەی ھاتووچۆ.", // cone",
+                                "تیمی بیناسازییەکە مۆتەی ھاتووچۆیان لە ڕێگاکەدا دانا بۆ گۆڕینی ئاراستەی ھاتووچۆ.",
                             onPressedBritish: () => speakcones1("en-GB"),
                             onPressedAmerican: () => speakcones1("en-US"),
                           ),

@@ -380,8 +380,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) گریان"),
           SentencesRow(
             englishText: "It's all right. Don't cry.",
-            kurdishText:
-                "ھیچ نییە، مەگری.", // cry", please follow LX instructions
+            kurdishText: "ھیچ نییە، مەگری.",
             onPressedBritish: () => speakcrys1("en-GB"),
             onPressedAmerican: () => speakcrys1("en-US"),
           ),

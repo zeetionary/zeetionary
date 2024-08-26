@@ -95,7 +95,7 @@ class EnglishEntrycoeducational extends StatelessWidget {
                             englishText:
                                 "The school has now made the decision to go fully co-educational.",
                             kurdishText:
-                                "قوتابخانەکە بڕیاریداوە بە تەواوی ببێت بە سیستەمی تێکەڵاو.", // co-educational",
+                                "قوتابخانەکە بڕیاریداوە بە تەواوی ببێت بە سیستەمی تێکەڵاو.",
                             onPressedBritish: () =>
                                 speakcoeducationals1("en-GB"),
                             onPressedAmerican: () =>

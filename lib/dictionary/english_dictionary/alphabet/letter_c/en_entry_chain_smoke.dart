@@ -91,7 +91,7 @@ class EnglishEntrychainsmoke extends StatelessWidget {
                             englishText:
                                 "Joan's under a lot of pressure these days - she's been chain-smoking ever since her divorce.",
                             kurdishText:
-                                "جوان لەژێر پەستانی زۆرە ئەم ماوەیە، لەوەتەی جیابوونەوەکەیەوە بە زنجیرە جگەرە دەکێشێت.", // chain-smoke",
+                                "جوان لەژێر پەستانی زۆرە ئەم ماوەیە، لەوەتەی جیابوونەوەکەیەوە بە زنجیرە جگەرە دەکێشێت.",
                             onPressedBritish: () => speakchainsmokes1("en-GB"),
                             onPressedAmerican: () => speakchainsmokes1("en-US"),
                           ),

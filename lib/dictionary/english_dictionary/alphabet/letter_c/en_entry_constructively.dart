@@ -100,8 +100,7 @@ class EnglishEntryconstructively extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەک کە کاریگەری بەسوود و یارمەتیدەری ھەیە"),
                           SentencesRow(
                             englishText: "Use your time constructively.",
-                            kurdishText:
-                                "بنیاتنەرانە کاتت بەکاربھێنە.", // constructively",
+                            kurdishText: "بنیاتنەرانە کاتت بەکاربھێنە.",
                             onPressedBritish: () =>
                                 speakconstructivelys1("en-GB"),
                             onPressedAmerican: () =>

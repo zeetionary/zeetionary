@@ -179,7 +179,7 @@ class EnglishEntrycarvingknife extends StatelessWidget {
                             englishText:
                                 "You can easily slice through a turkey with a sharp carving knife.",
                             kurdishText:
-                                "دەتوانی بە ئاسانی قەلێک ببڕیت بە سیکاردێک.", // carving knife",
+                                "دەتوانی بە ئاسانی قەلێک ببڕیت بە سیکاردێک.",
                             onPressedBritish: () =>
                                 speakcarvingknifes1("en-GB"),
                             onPressedAmerican: () =>

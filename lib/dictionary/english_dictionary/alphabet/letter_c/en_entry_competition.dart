@@ -165,7 +165,7 @@ class EnglishEntrycompetition extends StatelessWidget {
                             englishText:
                                 "Hundreds of schools entered the competition.",
                             kurdishText:
-                                "سەدان قوتابخانە بەژداری کێبڕکێیەکە بوون.", // competition",
+                                "سەدان قوتابخانە بەژداری کێبڕکێیەکە بوون.",
                             onPressedBritish: () => speakcompetitions1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcompetitions1("en-US"),

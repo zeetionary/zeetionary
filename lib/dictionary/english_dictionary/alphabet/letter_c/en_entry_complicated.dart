@@ -100,8 +100,7 @@ class EnglishEntrycomplicated extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The instructions look very complicated.",
-                            kurdishText:
-                                "ڕێنماییەکان زۆر ئاڵۆز دیارن.", // complicated",
+                            kurdishText: "ڕێنماییەکان زۆر ئاڵۆز دیارن.",
                             onPressedBritish: () => speakcomplicateds1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcomplicateds1("en-US"),

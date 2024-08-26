@@ -110,7 +110,7 @@ class EnglishEntryconfinement extends StatelessWidget {
                             englishText:
                                 "The animals are kept in close confinement.",
                             kurdishText:
-                                "ئاژەڵەکان لە لە حەپسی داخراودا ڕادەگیردرێن.", // confinement",
+                                "ئاژەڵەکان لە لە حەپسی داخراودا ڕادەگیردرێن.",
                             onPressedBritish: () => speakconfinements1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconfinements1("en-US"),

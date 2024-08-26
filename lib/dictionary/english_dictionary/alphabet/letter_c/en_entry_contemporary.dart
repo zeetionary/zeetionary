@@ -146,7 +146,7 @@ class EnglishEntrycontemporary extends StatelessWidget {
                             englishText:
                                 "We have no contemporary account of the battle (= written near the time that it happened).",
                             kurdishText:
-                                "ھیچ سەرچاوەیەکی ھاوسەردەمی شەڕەکەمان نییە.", // contemporary",
+                                "ھیچ سەرچاوەیەکی ھاوسەردەمی شەڕەکەمان نییە.",
                             onPressedBritish: () =>
                                 speakcontemporarys1("en-GB"),
                             onPressedAmerican: () =>

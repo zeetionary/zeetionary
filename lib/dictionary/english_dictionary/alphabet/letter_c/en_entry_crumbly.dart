@@ -228,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە بە ئاسانی ورد دەبێت"),
           SentencesRow(
             englishText: "The cake should have a light and crumbly texture.",
-            kurdishText:
-                "کێکەکە دەبێت ڕەنگێکی ڕۆشن و وشکی ھەبێت.", // crumbly", please follow LX instructions
+            kurdishText: "کێکەکە دەبێت ڕەنگێکی ڕۆشن و وشکی ھەبێت.",
             onPressedBritish: () => speakcrumblys1("en-GB"),
             onPressedAmerican: () => speakcrumblys1("en-US"),
           ),

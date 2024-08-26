@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Mrs Ramsay was a cultured woman who travelled a great deal.",
-            kurdishText:
-                "خاتوو ڕامزای ژنێکی ڕۆشنبیر بوو کە زۆر گەشتی دەکرد.", // cultured", please follow LX instructions
+            kurdishText: "خاتوو ڕامزای ژنێکی ڕۆشنبیر بوو کە زۆر گەشتی دەکرد.",
             onPressedBritish: () => speakcultureds1("en-GB"),
             onPressedAmerican: () => speakcultureds1("en-US"),
           ),

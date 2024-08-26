@@ -91,7 +91,7 @@ class EnglishEntrychimneypot extends StatelessWidget {
                             englishText:
                                 "The old house had several chimney pots of different shapes and sizes.",
                             kurdishText:
-                                "خانووە کۆنەکە ژمارەیەک لوولەی دووکەڵ‌کێشی ھەبوو لە شێوە و قەبارەی جیاواز.", // chimney pot",
+                                "خانووە کۆنەکە ژمارەیەک لوولەی دووکەڵ‌کێشی ھەبوو لە شێوە و قەبارەی جیاواز.",
                             onPressedBritish: () => speakchimneypots1("en-GB"),
                             onPressedAmerican: () => speakchimneypots1("en-US"),
                           ),

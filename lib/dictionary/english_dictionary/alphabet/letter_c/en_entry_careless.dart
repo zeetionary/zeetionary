@@ -179,7 +179,7 @@ class EnglishEntrycareless extends StatelessWidget {
                             englishText:
                                 "It was careless of me to leave the door open.",
                             kurdishText:
-                                "لە کەمتەرخەمیم بوو کە دەرگاکەم بە کراوەیی جێھێشت.", // careless",
+                                "لە کەمتەرخەمیم بوو کە دەرگاکەم بە کراوەیی جێھێشت.",
                             onPressedBritish: () => speakcarelesss1("en-GB"),
                             onPressedAmerican: () => speakcarelesss1("en-US"),
                           ),

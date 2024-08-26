@@ -157,8 +157,7 @@ class EnglishEntrychoke extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She almost choked to death in the thick fumes.",
-                            kurdishText:
-                                "لە تەمە دژوارەکەدا خەریک بوو بخنکێت.", // choke",
+                            kurdishText: "لە تەمە دژوارەکەدا خەریک بوو بخنکێت.",
                             onPressedBritish: () => speakchokes1("en-GB"),
                             onPressedAmerican: () => speakchokes1("en-US"),
                           ),

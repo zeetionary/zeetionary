@@ -118,7 +118,7 @@ class EnglishEntrycoalition extends StatelessWidget {
                             englishText:
                                 "The two parties have formed a coalition.",
                             kurdishText:
-                                "دوو پارتەکە ھاوپەیمانێتییەکیان درووستکردووە.", // coalition",
+                                "دوو پارتەکە ھاوپەیمانێتییەکیان درووستکردووە.",
                             onPressedBritish: () => speakcoalitions1("en-GB"),
                             onPressedAmerican: () => speakcoalitions1("en-US"),
                           ),

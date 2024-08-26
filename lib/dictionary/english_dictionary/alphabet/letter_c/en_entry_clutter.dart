@@ -132,7 +132,7 @@ class EnglishEntryclutter extends StatelessWidget {
                             englishText:
                                 "Don't clutter the page with too many diagrams.",
                             kurdishText:
-                                "پەڕەکە مەشێوێنە بە ژمارەیەکی زۆر لە ھێڵکاری.", // clutter",
+                                "پەڕەکە مەشێوێنە بە ژمارەیەکی زۆر لە ھێڵکاری.",
                             onPressedBritish: () => speakclutters1("en-GB"),
                             onPressedAmerican: () => speakclutters1("en-US"),
                           ),

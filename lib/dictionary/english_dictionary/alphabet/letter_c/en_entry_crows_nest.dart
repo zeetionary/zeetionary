@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "From the crow's nest, the lookout could see far out to sea.",
             kurdishText:
-                "لە چاوێرگەکەوە، چاودێرەکە دوور بە دەریاکەدا ببینێت.", // crow's nest", please follow LX instructions
+                "لە چاوێرگەکەوە، چاودێرەکە دوور بە دەریاکەدا ببینێت.",
             onPressedBritish: () => speakcrowsnests1("en-GB"),
             onPressedAmerican: () => speakcrowsnests1("en-US"),
           ),

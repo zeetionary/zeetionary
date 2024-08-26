@@ -102,7 +102,7 @@ class EnglishEntrycordon extends StatelessWidget {
                             englishText:
                                 "Demonstrators broke through the police cordon.",
                             kurdishText:
-                                "خۆپیشاندەران بە ڕیزی پۆلیسەکاندا تێپەڕین.", // cordon",
+                                "خۆپیشاندەران بە ڕیزی پۆلیسەکاندا تێپەڕین.",
                             onPressedBritish: () => speakcordons1("en-GB"),
                             onPressedAmerican: () => speakcordons1("en-US"),
                           ),

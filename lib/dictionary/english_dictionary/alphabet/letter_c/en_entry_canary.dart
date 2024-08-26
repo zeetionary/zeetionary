@@ -179,7 +179,7 @@ class EnglishEntrycanary extends StatelessWidget {
                           SentencesRow(
                             englishText: "She had a canary in a birdcage.",
                             kurdishText:
-                                "کەنارییەکی لە قەفەزێکی باڵندەدا ھەبوو.", // canary
+                                "کەنارییەکی لە قەفەزێکی باڵندەدا ھەبوو",
                             onPressedBritish: () => speakcanarys1("en-GB"),
                             onPressedAmerican: () => speakcanarys1("en-US"),
                           ),

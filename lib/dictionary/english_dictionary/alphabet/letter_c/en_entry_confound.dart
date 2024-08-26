@@ -117,7 +117,7 @@ class EnglishEntryconfound extends StatelessWidget {
                             englishText:
                                 "The sudden rise in share prices has confounded economists.",
                             kurdishText:
-                                "بەرزبوونی لەناکاوی نرخی پشکەکان ئابووریناسانی سەرلێ‌شێواو کردووە .", // confound",
+                                "بەرزبوونی لەناکاوی نرخی پشکەکان ئابووریناسانی سەرلێ‌شێواو کردووە .",
                             onPressedBritish: () => speakconfounds1("en-GB"),
                             onPressedAmerican: () => speakconfounds1("en-US"),
                           ),

@@ -102,7 +102,7 @@ class EnglishEntrycopulation extends StatelessWidget {
                             englishText:
                                 "Among grey seals, copulation may occur either on land or in the water.",
                             kurdishText:
-                                "لە نێوان سەگە ئاوییە خۆڵەمێشییەکاندا، جووتبوون دەکرێت لەسەر زەوی یان لە ئاودا ڕووبدات.", // copulation",
+                                "لە نێوان سەگە ئاوییە خۆڵەمێشییەکاندا، جووتبوون دەکرێت لەسەر زەوی یان لە ئاودا ڕووبدات.",
                             onPressedBritish: () => speakcopulations1("en-GB"),
                             onPressedAmerican: () => speakcopulations1("en-US"),
                           ),

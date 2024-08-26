@@ -99,7 +99,7 @@ class EnglishEntryclamber extends StatelessWidget {
                                   "١. (کردار) سەرکەوتن یان جوڵان بە ئاستەنگەوە بە بەکارھێنانی دەست و قاچ"),
                           SentencesRow(
                             englishText: "They clambered over/up the rocks.",
-                            kurdishText: "بە بەردەکانا ھەڵگژان.", // clamber",
+                            kurdishText: "بە بەردەکانا ھەڵگژان.",
                             onPressedBritish: () => speakclambers1("en-GB"),
                             onPressedAmerican: () => speakclambers1("en-US"),
                           ),

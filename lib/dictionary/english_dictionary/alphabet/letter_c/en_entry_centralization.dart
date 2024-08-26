@@ -177,7 +177,7 @@ class EnglishEntrycentralization extends StatelessWidget {
                             englishText:
                                 "He protested against the centralization of government.",
                             kurdishText:
-                                "دژ بە ناوەندی‌کردنی حکومەت وەستایەوە.", // centralization",
+                                "دژ بە ناوەندی‌کردنی حکومەت وەستایەوە.",
                             onPressedBritish: () =>
                                 speakcentralizations1("en-GB"),
                             onPressedAmerican: () =>

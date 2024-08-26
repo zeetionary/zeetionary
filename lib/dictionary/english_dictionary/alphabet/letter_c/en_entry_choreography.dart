@@ -95,7 +95,7 @@ class EnglishEntrychoreography extends StatelessWidget {
                             englishText:
                                 "The movie's choreography was praised for its creativity and precision.",
                             kurdishText:
-                                "سەمای فیلمەکە پەسندراوە بۆ داھێنەری و وردییەکەی.", // choreography",
+                                "سەمای فیلمەکە پەسندراوە بۆ داھێنەری و وردییەکەی.",
                             onPressedBritish: () =>
                                 speakchoreographys1("en-GB"),
                             onPressedAmerican: () =>

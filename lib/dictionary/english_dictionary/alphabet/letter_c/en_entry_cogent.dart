@@ -95,7 +95,7 @@ class EnglishEntrycogent extends StatelessWidget {
                             englishText:
                                 "She put forward some cogent reasons for abandoning the plan.",
                             kurdishText:
-                                "ھەندێک ھۆکاری قایلکەری گوت بۆ وازھێنان لە پلانەکە.", // cogent",
+                                "ھەندێک ھۆکاری قایلکەری گوت بۆ وازھێنان لە پلانەکە.",
                             onPressedBritish: () => speakcogents1("en-GB"),
                             onPressedAmerican: () => speakcogents1("en-US"),
                           ),

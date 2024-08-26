@@ -180,7 +180,7 @@ class EnglishEntrycellular extends StatelessWidget {
                             englishText:
                                 "All living organisms are made up of cellular structures.",
                             kurdishText:
-                                "ھەموو گیانلەبەرە زیندووەکان لە پێکھاتەی خانەیی درووستبوونە.", // cellular",
+                                "ھەموو گیانلەبەرە زیندووەکان لە پێکھاتەی خانەیی درووستبوونە.",
                             onPressedBritish: () => speakcellulars1("en-GB"),
                             onPressedAmerican: () => speakcellulars1("en-US"),
                           ),

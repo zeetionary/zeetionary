@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She stood up and brushed the crumbs from her sweater.",
-            kurdishText:
-                "ھەستایە سەرپێ و وردەکەی لە بلووزەکەی کردەوە.", // crumb", please follow LX instructions
+            kurdishText: "ھەستایە سەرپێ و وردەکەی لە بلووزەکەی کردەوە.",
             onPressedBritish: () => speakcrumbs1("en-GB"),
             onPressedAmerican: () => speakcrumbs1("en-US"),
           ),

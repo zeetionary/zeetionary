@@ -318,8 +318,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He was riding his cycle home when he was hit by a lorry.",
-            kurdishText:
-                "دووچەرخەکەی دەڕانی بۆ ماڵەوە کە لۆرییەک لێیدا.", // cycle", please follow LX instructions
+            kurdishText: "دووچەرخەکەی دەڕانی بۆ ماڵەوە کە لۆرییەک لێیدا.",
             onPressedBritish: () => speakcycles1("en-GB"),
             onPressedAmerican: () => speakcycles1("en-US"),
           ),

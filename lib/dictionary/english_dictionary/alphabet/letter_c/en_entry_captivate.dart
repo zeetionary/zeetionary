@@ -176,8 +176,7 @@ class EnglishEntrycaptivate extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The children were captivated by her stories.",
-                            kurdishText:
-                                "منداڵان سەرسامبوون بە چیرۆکەکانی.", // captivate
+                            kurdishText: "منداڵان سەرسامبوون بە چیرۆکەکانی",
                             onPressedBritish: () => speakcaptivates1("en-GB"),
                             onPressedAmerican: () => speakcaptivates1("en-US"),
                           ),

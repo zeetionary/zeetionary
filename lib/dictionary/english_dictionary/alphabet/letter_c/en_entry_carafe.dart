@@ -177,7 +177,7 @@ class EnglishEntrycarafe extends StatelessWidget {
                             englishText:
                                 "I poured myself some water from the carafe on the table.",
                             kurdishText:
-                                "ھەندێک ئاوم بۆ خۆم تێکرد لە سوراحی سەر مێزەکە.", // carafe",
+                                "ھەندێک ئاوم بۆ خۆم تێکرد لە سوراحی سەر مێزەکە.",
                             onPressedBritish: () => speakcarafes1("en-GB"),
                             onPressedAmerican: () => speakcarafes1("en-US"),
                           ),

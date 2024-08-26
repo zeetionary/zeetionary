@@ -110,7 +110,7 @@ class EnglishEntrycongratulate extends StatelessWidget {
                             englishText:
                                 "I congratulated them all on their results.",
                             kurdishText:
-                                "پیرۆزباییم لە ھەموویان کرد بۆ ئەنجامەکانیان.", // congratulate",
+                                "پیرۆزباییم لە ھەموویان کرد بۆ ئەنجامەکانیان.",
                             onPressedBritish: () =>
                                 speakcongratulates1("en-GB"),
                             onPressedAmerican: () =>

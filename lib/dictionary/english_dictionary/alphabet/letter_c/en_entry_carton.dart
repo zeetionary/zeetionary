@@ -179,7 +179,7 @@ class EnglishEntrycarton extends StatelessWidget {
                             englishText:
                                 "He started drawing cartoons when he was still at school.",
                             kurdishText:
-                                "دەستی بە کێشانی کارتۆن کرد کە ھێشتا لە قوتابخانە بوو.", // carton",
+                                "دەستی بە کێشانی کارتۆن کرد کە ھێشتا لە قوتابخانە بوو.",
                             onPressedBritish: () => speakcartons1("en-GB"),
                             onPressedAmerican: () => speakcartons1("en-US"),
                           ),

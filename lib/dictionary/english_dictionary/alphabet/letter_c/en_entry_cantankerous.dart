@@ -179,8 +179,7 @@ class EnglishEntrycantankerous extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He's getting a bit cantankerous in his old age.",
-                            kurdishText:
-                                "کەمێک ڕووتاڵ بووە لە تەمەنی پیرییدا.", // cantankerous",
+                            kurdishText: "کەمێک ڕووتاڵ بووە لە تەمەنی پیرییدا.",
                             onPressedBritish: () =>
                                 speakcantankerouss1("en-GB"),
                             onPressedAmerican: () =>

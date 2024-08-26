@@ -100,8 +100,7 @@ class EnglishEntrychivalrous extends StatelessWidget {
                                   "١. (ھاوەڵناو) پیاوێک کە بەڕێز و میھرەبان، بەتایبەتی بەرامبەر ژنان"),
                           SentencesRow(
                             englishText: "I was only trying to be chivalrous.",
-                            kurdishText:
-                                "تەنھا ھەوڵم دا بەڕێز بم.", // chivalrous",
+                            kurdishText: "تەنھا ھەوڵم دا بەڕێز بم.",
                             onPressedBritish: () => speakchivalrouss1("en-GB"),
                             onPressedAmerican: () => speakchivalrouss1("en-US"),
                           ),

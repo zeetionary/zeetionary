@@ -93,7 +93,7 @@ class EnglishEntrycheetah extends StatelessWidget {
                           SentencesRow(
                             englishText: "Cheetahs are mainly found in Africa.",
                             kurdishText:
-                                "چیتا بەشێوەیەکی سەرەکی لە ئەفریقا دەبینرێت.", // cheetah",
+                                "چیتا بەشێوەیەکی سەرەکی لە ئەفریقا دەبینرێت.",
                             onPressedBritish: () => speakcheetahs1("en-GB"),
                             onPressedAmerican: () => speakcheetahs1("en-US"),
                           ),

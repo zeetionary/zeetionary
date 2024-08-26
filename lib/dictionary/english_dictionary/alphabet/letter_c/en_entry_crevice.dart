@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Most of the year the insects are hidden in rock crevices.",
             kurdishText:
-                "زۆرینەی ساڵەکە مێرووەکان لە کەلێنی بەردەکاندا شاراوەن.", // crevice", please follow LX instructions
+                "زۆرینەی ساڵەکە مێرووەکان لە کەلێنی بەردەکاندا شاراوەن.",
             onPressedBritish: () => speakcrevices1("en-GB"),
             onPressedAmerican: () => speakcrevices1("en-US"),
           ),

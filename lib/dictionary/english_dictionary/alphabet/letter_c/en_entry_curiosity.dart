@@ -266,8 +266,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) حەزێکی زۆر بۆ زانین سەبارەت بە شتێک"),
           SentencesRow(
             englishText: "Children show curiosity about everything.",
-            kurdishText:
-                "منداڵان زانین‌خوازییان بۆ ھەموو شتێک ھەیە.", // curiosity", please follow LX instructions
+            kurdishText: "منداڵان زانین‌خوازییان بۆ ھەموو شتێک ھەیە.",
             onPressedBritish: () => speakcuriositys1("en-GB"),
             onPressedAmerican: () => speakcuriositys1("en-US"),
           ),

@@ -134,7 +134,7 @@ class EnglishEntrybronchial extends StatelessWidget {
                             englishText:
                                 "He had bronchial pneumonia as a child.",
                             kurdishText:
-                                "کە منداڵ بوو ھەوکردنی لە لقە بۆرییەکانی ھەوای ھەبوو.", // bronchial" as
+                                "کە منداڵ بوو ھەوکردنی لە لقە بۆرییەکانی ھەوای ھەبوو.",
                             onPressedBritish: () => speakbronchials1("en-GB"),
                             onPressedAmerican: () => speakbronchials1("en-US"),
                           ),

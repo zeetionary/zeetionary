@@ -95,7 +95,7 @@ class EnglishEntrychurchyard extends StatelessWidget {
                             englishText:
                                 "Volunteers lovingly tended the flowers in the churchyard.",
                             kurdishText:
-                                "خۆبەخشان بە خۆشەویستییەوە ئاگاداری گوڵەکانی کڵێساکە دەبوون.", // churchyard",
+                                "خۆبەخشان بە خۆشەویستییەوە ئاگاداری گوڵەکانی کڵێساکە دەبوون.",
                             onPressedBritish: () => speakchurchyards1("en-GB"),
                             onPressedAmerican: () => speakchurchyards1("en-US"),
                           ),

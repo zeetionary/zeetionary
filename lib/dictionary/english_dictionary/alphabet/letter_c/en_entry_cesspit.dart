@@ -185,7 +185,7 @@ class EnglishEntrycesspit extends StatelessWidget {
                             englishText:
                                 "Rural homes often use cesspits for waste disposal.",
                             kurdishText:
-                                "ماڵە گوندنشینەکان زۆرجار چاڵەپیساو بەکاردێن بۆ فڕێدانی پیسایی.", // cesspit",
+                                "ماڵە گوندنشینەکان زۆرجار چاڵەپیساو بەکاردێن بۆ فڕێدانی پیسایی.",
                             onPressedBritish: () => speakcesspits1("en-GB"),
                             onPressedAmerican: () => speakcesspits1("en-US"),
                           ),

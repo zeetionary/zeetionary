@@ -95,7 +95,7 @@ class EnglishEntrycolonialism extends StatelessWidget {
                             englishText:
                                 "The history of tobacco growing is intimately associated with colonialism and slavery.",
                             kurdishText:
-                                "مێژووی گەشەپێدانی تووتن بەئاستێکی زۆر دەبەسترێتەوە بە کۆلۆنیاڵیزم و کۆیلایەتی.", // colonialism",
+                                "مێژووی گەشەپێدانی تووتن بەئاستێکی زۆر دەبەسترێتەوە بە کۆلۆنیاڵیزم و کۆیلایەتی.",
                             onPressedBritish: () => speakcolonialisms1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcolonialisms1("en-US"),

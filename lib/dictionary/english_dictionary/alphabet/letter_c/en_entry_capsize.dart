@@ -175,8 +175,7 @@ class EnglishEntrycapsize extends StatelessWidget {
                               text: "١. (کردار) وەرگەڕان لە ئاودا"),
                           SentencesRow(
                             englishText: "The boat capsized and sank.",
-                            kurdishText:
-                                "بەلەمەکە وەرگەڕا و نغرۆبوو.", // capsize
+                            kurdishText: "بەلەمەکە وەرگەڕا و نغرۆبوو",
                             onPressedBritish: () => speakcapsizes1("en-GB"),
                             onPressedAmerican: () => speakcapsizes1("en-US"),
                           ),

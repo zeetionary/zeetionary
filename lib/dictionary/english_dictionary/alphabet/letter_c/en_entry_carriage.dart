@@ -179,7 +179,7 @@ class EnglishEntrycarriage extends StatelessWidget {
                             englishText:
                                 "Passengers enjoyed panoramic views from the carriage as the train traversed the long route.",
                             kurdishText:
-                                "گەشتیاران چێژیان بینی لە دیمەنی پانۆرامایی لە واگۆنەکەوە کە شەمەندەفەرەکە بە ڕێگا درێژەکەدا تێپەڕی.", // carriage",
+                                "گەشتیاران چێژیان بینی لە دیمەنی پانۆرامایی لە واگۆنەکەوە کە شەمەندەفەرەکە بە ڕێگا درێژەکەدا تێپەڕی.",
                             onPressedBritish: () => speakcarriages1("en-GB"),
                             onPressedAmerican: () => speakcarriages1("en-US"),
                           ),

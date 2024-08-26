@@ -92,8 +92,7 @@ class EnglishEntrycontemptible extends StatelessWidget {
                                   "١. (ھاوەڵناو) بەشێوەیەک خراپ کە شایەنی ڕێز نییە"),
                           SentencesRow(
                             englishText: "Her behaviour was contemptible.",
-                            kurdishText:
-                                "ھەڵسوکەوتی چەپەڵ/ھیچ‌وپووچ بوو.", // contemptible",
+                            kurdishText: "ھەڵسوکەوتی چەپەڵ/ھیچ‌وپووچ بوو.",
                             onPressedBritish: () =>
                                 speakcontemptibles1("en-GB"),
                             onPressedAmerican: () =>

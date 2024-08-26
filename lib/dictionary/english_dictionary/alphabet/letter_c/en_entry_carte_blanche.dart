@@ -179,7 +179,7 @@ class EnglishEntrycarteblanche extends StatelessWidget {
                             englishText:
                                 "He was given carte blanche to say what he liked in the report.",
                             kurdishText:
-                                "ئازادیی تەواوی پێدرا بۆ وتنی ئەوەی حەزی دەکرد لە ڕاپۆرتەکەدا.", // carte blanche",
+                                "ئازادیی تەواوی پێدرا بۆ وتنی ئەوەی حەزی دەکرد لە ڕاپۆرتەکەدا.",
                             onPressedBritish: () =>
                                 speakcarteblanches1("en-GB"),
                             onPressedAmerican: () =>

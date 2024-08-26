@@ -97,7 +97,7 @@ class EnglishEntrycomputerliterate extends StatelessWidget {
                             englishText:
                                 "She is highly computer-literate, and good at explaining the use of the system to others.",
                             kurdishText:
-                                "زۆر شارەزای کۆمپیوتەرە، و باشە لە ڕوونکردنەوەی بەکارھێنانی سیستەمەکە بۆ کەسانی دیکە.", // computer literate",
+                                "زۆر شارەزای کۆمپیوتەرە، و باشە لە ڕوونکردنەوەی بەکارھێنانی سیستەمەکە بۆ کەسانی دیکە.",
                             onPressedBritish: () =>
                                 speakcomputerliterates1("en-GB"),
                             onPressedAmerican: () =>

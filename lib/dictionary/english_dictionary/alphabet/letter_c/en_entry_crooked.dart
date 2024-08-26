@@ -242,8 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) چەماوە یان لاربوو"),
           SentencesRow(
             englishText: "Your glasses are on crooked.",
-            kurdishText:
-                "چاویلکەکەت بە لاری لە چاوە.", // crooked", please follow LX instructions
+            kurdishText: "چاویلکەکەت بە لاری لە چاوە.",
             onPressedBritish: () => speakcrookeds1("en-GB"),
             onPressedAmerican: () => speakcrookeds1("en-US"),
           ),

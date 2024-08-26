@@ -124,7 +124,7 @@ class EnglishEntryconversation extends StatelessWidget {
                             englishText:
                                 "The main topic of conversation was the likely outcome of the election.",
                             kurdishText:
-                                "بابەتی سەرەکیی گفتوگۆکە ئەنجامی پێشبینیکراوی ھەڵبژاردنەکە بوو.", // conversation",
+                                "بابەتی سەرەکیی گفتوگۆکە ئەنجامی پێشبینیکراوی ھەڵبژاردنەکە بوو.",
                             onPressedBritish: () =>
                                 speakconversations1("en-GB"),
                             onPressedAmerican: () =>

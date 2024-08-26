@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە حەزی زۆر بۆ زانین سەبارەت بە شتێک پیشان دەدات"),
           SentencesRow(
             englishText: "A group of reporters looked at her curiously.",
-            kurdishText:
-                "ژمارەیەک پەیامنێر بە تامەزرۆییەوە سەیریان دەکرد.", // curiously", please follow LX instructions
+            kurdishText: "ژمارەیەک پەیامنێر بە تامەزرۆییەوە سەیریان دەکرد.",
             onPressedBritish: () => speakcuriouslys1("en-GB"),
             onPressedAmerican: () => speakcuriouslys1("en-US"),
           ),

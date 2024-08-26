@@ -116,7 +116,7 @@ class EnglishEntrychunk extends StatelessWidget {
                             englishText:
                                 "He cut the food up into bite-size chunks.",
                             kurdishText:
-                                "خواردنەکەی کرد بە پارچەی پڕ پڕبەدەمەوە.", // chunk",
+                                "خواردنەکەی کرد بە پارچەی پڕ پڕبەدەمەوە.",
                             onPressedBritish: () => speakchunks1("en-GB"),
                             onPressedAmerican: () => speakchunks1("en-US"),
                           ),

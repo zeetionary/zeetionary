@@ -179,7 +179,7 @@ class EnglishEntrycat extends StatelessWidget {
                                   "١. (ناو) ئاژەڵێکی بچووک کە فەرووی نەرمی ھەیە و خەڵک زۆرجار وەک ماڵی ڕایدەگرن"),
                           SentencesRow(
                             englishText: "I have a cat called Bo.",
-                            kurdishText: "پشیلەیەکم ھەیە بەناوی بەو.", // cat",
+                            kurdishText: "پشیلەیەکم ھەیە بەناوی بەو.",
                             onPressedBritish: () => speakcats1("en-GB"),
                             onPressedAmerican: () => speakcats1("en-US"),
                           ),

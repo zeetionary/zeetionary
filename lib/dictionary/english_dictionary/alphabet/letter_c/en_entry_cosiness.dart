@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She enjoyed the cosiness of curling up with a book by the fireplace.",
             kurdishText:
-                "حەزی لە ئاسوودەیی گرمۆڵەبوون بوو بە کتێبێکەوە لە تەنیشت ئاگردانەکە.", // cosiness", please follow LX instructions
+                "حەزی لە ئاسوودەیی گرمۆڵەبوون بوو بە کتێبێکەوە لە تەنیشت ئاگردانەکە.",
             onPressedBritish: () => speakcosinesss1("en-GB"),
             onPressedAmerican: () => speakcosinesss1("en-US"),
           ),

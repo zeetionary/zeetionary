@@ -178,7 +178,7 @@ class EnglishEntryceaseless extends StatelessWidget {
                             englishText:
                                 "His ceaseless questions began to annoy me.",
                             kurdishText:
-                                "پرسیارە بێ‌کۆتاکانی بوون بە مایەی بێزاریم.", // ceaseless",
+                                "پرسیارە بێ‌کۆتاکانی بوون بە مایەی بێزاریم.",
                             onPressedBritish: () => speakceaselesss1("en-GB"),
                             onPressedAmerican: () => speakceaselesss1("en-US"),
                           ),

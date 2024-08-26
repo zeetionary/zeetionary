@@ -104,7 +104,7 @@ class EnglishEntryconsolidation extends StatelessWidget {
                             englishText:
                                 "Putin announced one of the most sweeping consolidations of presidential power since the fall of communism.",
                             kurdishText:
-                                "پۆتین یەکێک لە کاریگەرترین کارەکانی بەھێزکردنی دەسەڵاتی سەرۆکایەتی ڕاگەیاند لەوەتەی کەوتنی کۆمیونیزمەوە.", // consolidation",
+                                "پۆتین یەکێک لە کاریگەرترین کارەکانی بەھێزکردنی دەسەڵاتی سەرۆکایەتی ڕاگەیاند لەوەتەی کەوتنی کۆمیونیزمەوە.",
                             onPressedBritish: () =>
                                 speakconsolidations1("en-GB"),
                             onPressedAmerican: () =>

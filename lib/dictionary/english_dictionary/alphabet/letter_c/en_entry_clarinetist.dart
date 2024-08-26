@@ -94,7 +94,7 @@ class EnglishEntryclarinetist extends StatelessWidget {
                             englishText:
                                 "She plays the saxophone and is also a fine clarinetist.",
                             kurdishText:
-                                "ساکسۆفۆن دەژەنێت و کلارینێت‌ژەنێکی باشە.", // clarinetist",
+                                "ساکسۆفۆن دەژەنێت و کلارینێت‌ژەنێکی باشە.",
                             onPressedBritish: () => speakclarinetists1("en-GB"),
                             onPressedAmerican: () =>
                                 speakclarinetists1("en-US"),

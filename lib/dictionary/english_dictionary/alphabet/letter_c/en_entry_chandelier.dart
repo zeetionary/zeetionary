@@ -95,7 +95,7 @@ class EnglishEntrychandelier extends StatelessWidget {
                             englishText:
                                 "Guests admired the sparkling crystals hanging from the chandelier in the dining room.",
                             kurdishText:
-                                "میوانەکان سەرسام بوون بە کریستاڵە درەوشاوەکە کە لە چلچراکەوە شۆڕبووبوونەوە لە ژووری نان‌خواردنەکە.", // chandelier",
+                                "میوانەکان سەرسام بوون بە کریستاڵە درەوشاوەکە کە لە چلچراکەوە شۆڕبووبوونەوە لە ژووری نان‌خواردنەکە.",
                             onPressedBritish: () => speakchandeliers1("en-GB"),
                             onPressedAmerican: () => speakchandeliers1("en-US"),
                           ),

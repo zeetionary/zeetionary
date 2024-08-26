@@ -109,7 +109,7 @@ class EnglishEntrycloset extends StatelessWidget {
                             englishText:
                                 "She has a walk-in closet for all her clothes.",
                             kurdishText:
-                                "دۆڵابێکی گەورەی ھەبوو بۆ ھەموو جلەکانی.", // closet",
+                                "دۆڵابێکی گەورەی ھەبوو بۆ ھەموو جلەکانی.",
                             onPressedBritish: () => speakclosets1("en-GB"),
                             onPressedAmerican: () => speakclosets1("en-US"),
                           ),

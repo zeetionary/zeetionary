@@ -102,7 +102,7 @@ class EnglishEntrycomplexion extends StatelessWidget {
                             englishText:
                                 "Years of heavy drinking had given Alison a florid complexion.",
                             kurdishText:
-                                "ساڵانێک لە خواردنەوە ڕواڵەتێکی سوورەوەبووی دابوو بە ئالیسن.", // complexion",
+                                "ساڵانێک لە خواردنەوە ڕواڵەتێکی سوورەوەبووی دابوو بە ئالیسن.",
                             onPressedBritish: () => speakcomplexions1("en-GB"),
                             onPressedAmerican: () => speakcomplexions1("en-US"),
                           ),

@@ -102,7 +102,7 @@ class EnglishEntrycoastline extends StatelessWidget {
                             englishText:
                                 "Measures were taken to protect the coastline from the oil spillage.",
                             kurdishText:
-                                "ھەنگاو نرا بۆ پاراستنی ھێڵە کەنارییەکە لە ڕژانی نەوت.", // coastline",
+                                "ھەنگاو نرا بۆ پاراستنی ھێڵە کەنارییەکە لە ڕژانی نەوت.",
                             onPressedBritish: () => speakcoastlines1("en-GB"),
                             onPressedAmerican: () => speakcoastlines1("en-US"),
                           ),

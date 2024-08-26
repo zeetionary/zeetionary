@@ -116,7 +116,7 @@ class EnglishEntrycontemplation extends StatelessWidget {
                           SentencesRow(
                             englishText: "He sat there deep in contemplation.",
                             kurdishText:
-                                "لەوێ دانیشتبوو لە بیرکردنەوەی قووڵدا.", // contemplation",
+                                "لەوێ دانیشتبوو لە بیرکردنەوەی قووڵدا.",
                             onPressedBritish: () =>
                                 speakcontemplations1("en-GB"),
                             onPressedAmerican: () =>

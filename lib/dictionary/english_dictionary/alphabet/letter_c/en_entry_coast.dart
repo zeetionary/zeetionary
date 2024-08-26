@@ -144,7 +144,7 @@ class EnglishEntrycoast extends StatelessWidget {
                             englishText:
                                 "They plan to swim around the coast of Ireland.",
                             kurdishText:
-                                "پلانیان ھەیە مەلە بە کەنارەکانی ئێرلەندادا بکەن.", // coast",
+                                "پلانیان ھەیە مەلە بە کەنارەکانی ئێرلەندادا بکەن.",
                             onPressedBritish: () => speakcoasts1("en-GB"),
                             onPressedAmerican: () => speakcoasts1("en-US"),
                           ),

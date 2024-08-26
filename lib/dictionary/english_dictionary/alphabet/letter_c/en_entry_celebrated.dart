@@ -177,8 +177,7 @@ class EnglishEntrycelebrated extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She was celebrated for her wit and charm.",
-                            kurdishText:
-                                "ناودار بوو بۆ زیرەکیی و جوانییەکەی.", // celebrated",
+                            kurdishText: "ناودار بوو بۆ زیرەکیی و جوانییەکەی.",
                             onPressedBritish: () => speakcelebrateds1("en-GB"),
                             onPressedAmerican: () => speakcelebrateds1("en-US"),
                           ),

@@ -105,7 +105,7 @@ class EnglishEntrycomputerization extends StatelessWidget {
                             englishText:
                                 "As industry was modernized by computerization, workers' skills became outdated.",
                             kurdishText:
-                                "کە پیشەسازی کرا بە سەردەمیانە بە کردنەکۆمپیوتەری، شارەزایی کرێکاران بێ‌سوود بوو.", // computerization",
+                                "کە پیشەسازی کرا بە سەردەمیانە بە کردنەکۆمپیوتەری، شارەزایی کرێکاران بێ‌سوود بوو.",
                             onPressedBritish: () =>
                                 speakcomputerizations1("en-GB"),
                             onPressedAmerican: () =>

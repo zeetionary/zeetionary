@@ -103,7 +103,7 @@ class EnglishEntrycontretemps extends StatelessWidget {
                             englishText:
                                 "They have been ignoring me since our last contretemps.",
                             kurdishText:
-                                "لەوتەی کۆتا مشتومڕمانەوە پشتگوێم دەخەن.", // contretemps",
+                                "لەوتەی کۆتا مشتومڕمانەوە پشتگوێم دەخەن.",
                             onPressedBritish: () => speakcontretempss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontretempss1("en-US"),

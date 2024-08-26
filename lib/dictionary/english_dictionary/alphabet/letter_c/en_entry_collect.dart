@@ -201,7 +201,7 @@ class EnglishEntrycollect extends StatelessWidget {
                             englishText:
                                 "The purpose of his trip was to collect material for a book.",
                             kurdishText:
-                                "ئامانجی گەشتەکەی کۆکردنەوەی زانیاری بوو بۆ کتێبێک.", // collect",
+                                "ئامانجی گەشتەکەی کۆکردنەوەی زانیاری بوو بۆ کتێبێک.",
                             onPressedBritish: () => speakcollects1("en-GB"),
                             onPressedAmerican: () => speakcollects1("en-US"),
                           ),

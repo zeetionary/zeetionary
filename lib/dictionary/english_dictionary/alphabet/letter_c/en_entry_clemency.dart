@@ -102,7 +102,7 @@ class EnglishEntryclemency extends StatelessWidget {
                             englishText:
                                 "He was executed by firing squad despite widespread pleas for clemency.",
                             kurdishText:
-                                "بە گوللەباران کوژرا سەرەڕای پاڕانەوەی بەرفراوان بۆ لێبووردەیی.", // clemency",
+                                "بە گوللەباران کوژرا سەرەڕای پاڕانەوەی بەرفراوان بۆ لێبووردەیی.",
                             onPressedBritish: () => speakclemencys1("en-GB"),
                             onPressedAmerican: () => speakclemencys1("en-US"),
                           ),

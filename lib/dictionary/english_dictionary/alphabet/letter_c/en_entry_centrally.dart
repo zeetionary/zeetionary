@@ -181,7 +181,7 @@ class EnglishEntrycentrally extends StatelessWidget {
                             englishText:
                                 "The hotel is in a centrally located part of the city.",
                             kurdishText:
-                                "ھوتێلەکە لە بەشێکی ناوجەرگەی شارەکەیە.", // centrally",
+                                "ھوتێلەکە لە بەشێکی ناوجەرگەی شارەکەیە.",
                             onPressedBritish: () => speakcentrallys1("en-GB"),
                             onPressedAmerican: () => speakcentrallys1("en-US"),
                           ),

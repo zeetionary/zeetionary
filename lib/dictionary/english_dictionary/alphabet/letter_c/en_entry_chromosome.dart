@@ -95,7 +95,7 @@ class EnglishEntrychromosome extends StatelessWidget {
                             englishText:
                                 "Humans have 23 pairs of chromosomes in their cells.",
                             kurdishText:
-                                "مرۆڤ ٢٣ جووتەکرۆمۆسۆمی ھەیە لە خانەکانی.", // chromosome",
+                                "مرۆڤ ٢٣ جووتەکرۆمۆسۆمی ھەیە لە خانەکانی.",
                             onPressedBritish: () => speakchromosomes1("en-GB"),
                             onPressedAmerican: () => speakchromosomes1("en-US"),
                           ),

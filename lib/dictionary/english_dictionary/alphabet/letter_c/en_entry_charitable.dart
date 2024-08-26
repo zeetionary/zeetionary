@@ -119,7 +119,7 @@ class EnglishEntrycharitable extends StatelessWidget {
                             englishText:
                                 "She set up a charitable trust to fund education projects.",
                             kurdishText:
-                                "ڕێکخراوێکی خێرخوازی درووستکرد بۆ خەرجی لە پڕۆژەی پەروەردەدا.", // charitable",
+                                "ڕێکخراوێکی خێرخوازی درووستکرد بۆ خەرجی لە پڕۆژەی پەروەردەدا.",
                             onPressedBritish: () => speakcharitables1("en-GB"),
                             onPressedAmerican: () => speakcharitables1("en-US"),
                           ),

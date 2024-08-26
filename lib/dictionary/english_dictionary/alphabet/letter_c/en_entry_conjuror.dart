@@ -94,7 +94,7 @@ class EnglishEntryconjuror extends StatelessWidget {
                             englishText:
                                 "It’s a mystery to me how the conjuror made that rabbit appear.",
                             kurdishText:
-                                "نھێنییەکە لام کە چۆن سیحربازەکە وایکرد ئەو کەروێشکە دەربکەوێت.", // conjuror",
+                                "نھێنییەکە لام کە چۆن سیحربازەکە وایکرد ئەو کەروێشکە دەربکەوێت.",
                             onPressedBritish: () => speakconjurors1("en-GB"),
                             onPressedAmerican: () => speakconjurors1("en-US"),
                           ),

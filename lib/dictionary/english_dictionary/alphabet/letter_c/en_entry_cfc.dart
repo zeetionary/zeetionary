@@ -179,7 +179,7 @@ class EnglishEntrycfc extends StatelessWidget {
                             englishText:
                                 "CFCs cause damage to the ozone layer.",
                             kurdishText:
-                                "کلۆرۆفلۆرۆکاربۆن زیانبەخشە بۆ چینی ئۆزۆن.", // CFC",
+                                "کلۆرۆفلۆرۆکاربۆن زیانبەخشە بۆ چینی ئۆزۆن.",
                             onPressedBritish: () => speakCFCs1("en-GB"),
                             onPressedAmerican: () => speakCFCs1("en-US"),
                           ),

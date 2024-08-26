@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "We welcome people of all races, colours and creeds.",
             kurdishText:
-                "پێشوازی لە خەڵکی ھەموو ڕەگەز و ڕەنگ و ڕێبازێک دەکەین.", // creed", please follow LX instructions
+                "پێشوازی لە خەڵکی ھەموو ڕەگەز و ڕەنگ و ڕێبازێک دەکەین.",
             onPressedBritish: () => speakcreeds1("en-GB"),
             onPressedAmerican: () => speakcreeds1("en-US"),
           ),

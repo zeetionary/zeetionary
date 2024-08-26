@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ھەبوونی شێوەی چین‌چین کە وەک شەپۆل وایە"),
           SentencesRow(
             englishText: "The roof is made from sheets of corrugated iron.",
-            kurdishText:
-                "سەربانەکە درووستکراوە لە پارچە ئاسنی چین‌چین.", // corrugated", please follow LX instructions
+            kurdishText: "سەربانەکە درووستکراوە لە پارچە ئاسنی چین‌چین.",
             onPressedBritish: () => speakcorrugateds1("en-GB"),
             onPressedAmerican: () => speakcorrugateds1("en-US"),
           ),

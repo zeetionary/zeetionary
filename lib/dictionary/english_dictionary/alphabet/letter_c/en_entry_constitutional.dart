@@ -119,7 +119,7 @@ class EnglishEntryconstitutional extends StatelessWidget {
                             englishText:
                                 "She had long advocated constitutional reform.",
                             kurdishText:
-                                "بۆ ماوەیەکی زۆر پشتگیری چاکسازی دەستووری کردبوو.", // constitutional",
+                                "بۆ ماوەیەکی زۆر پشتگیری چاکسازی دەستووری کردبوو.",
                             onPressedBritish: () =>
                                 speakconstitutionals1("en-GB"),
                             onPressedAmerican: () =>

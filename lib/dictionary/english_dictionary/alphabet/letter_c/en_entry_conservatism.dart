@@ -112,7 +112,7 @@ class EnglishEntryconservatism extends StatelessWidget {
                             englishText:
                                 "Ryan espoused the traditional social conservatism of the district.",
                             kurdishText:
-                                "ڕایان پشتگیری لە کۆنەپارێزیی کۆمەڵایەتیی نەریتی ناوچەکە دەکرد..", // conservatism",
+                                "ڕایان پشتگیری لە کۆنەپارێزیی کۆمەڵایەتیی نەریتی ناوچەکە دەکرد..",
                             onPressedBritish: () =>
                                 speakconservatisms1("en-GB"),
                             onPressedAmerican: () =>

@@ -95,7 +95,7 @@ class EnglishEntryconcerto extends StatelessWidget {
                             englishText:
                                 "The pianist performed a Mozart concerto with the orchestra.",
                             kurdishText:
-                                "پیانۆژەنەکە کۆنسێرتیەکۆ مۆزارتی ئەنجامدا لەگەڵ ئۆرکێستراکە.", // concerto",
+                                "پیانۆژەنەکە کۆنسێرتیەکۆ مۆزارتی ئەنجامدا لەگەڵ ئۆرکێستراکە.",
                             onPressedBritish: () => speakconcertos1("en-GB"),
                             onPressedAmerican: () => speakconcertos1("en-US"),
                           ),

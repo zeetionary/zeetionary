@@ -176,7 +176,7 @@ class EnglishEntrycamera extends StatelessWidget {
                             englishText:
                                 "Just point the camera and press the button.",
                             kurdishText:
-                                "تەنھا کامێراکە ئاراستە بکە و پەنجە بنێ بە دووگمەکەدا.", // camera
+                                "تەنھا کامێراکە ئاراستە بکە و پەنجە بنێ بە دووگمەکەدا",
                             onPressedBritish: () => speakcameras1("en-GB"),
                             onPressedAmerican: () => speakcameras1("en-US"),
                           ),

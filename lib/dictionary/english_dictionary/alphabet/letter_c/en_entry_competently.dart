@@ -103,7 +103,7 @@ class EnglishEntrycompetently extends StatelessWidget {
                             englishText:
                                 "The movie is well-acted and very competently filmed.",
                             kurdishText:
-                                "فیلمەکە بە باشی نمایشی تێدا کراوە و زۆر بە لێزانانە فیلمی گیراوە.", // competently",
+                                "فیلمەکە بە باشی نمایشی تێدا کراوە و زۆر بە لێزانانە فیلمی گیراوە.",
                             onPressedBritish: () => speakcompetentlys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcompetentlys1("en-US"),

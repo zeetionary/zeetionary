@@ -119,7 +119,7 @@ class EnglishEntrycircumcise extends StatelessWidget {
                             englishText:
                                 "The United States has a strong tradition of circumcising baby boys.",
                             kurdishText:
-                                "ئەمریکا نەریتێکی بەھێزی خەتەنەکردنی منداڵە کوڕەکانیان ھەیە.", // circumcise",
+                                "ئەمریکا نەریتێکی بەھێزی خەتەنەکردنی منداڵە کوڕەکانیان ھەیە.",
                             onPressedBritish: () => speakcircumcises1("en-GB"),
                             onPressedAmerican: () => speakcircumcises1("en-US"),
                           ),

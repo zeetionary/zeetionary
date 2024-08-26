@@ -103,7 +103,7 @@ class EnglishEntrycondescend extends StatelessWidget {
                             englishText:
                                 "We had to wait almost an hour before he condescended to see us.",
                             kurdishText:
-                                "پێویست بوو بە نزیکەیی یەک کاتژمێر چاوەڕێ بین تا لەخۆی ڕاببینێت کە بمان بینێت.", // condescend",
+                                "پێویست بوو بە نزیکەیی یەک کاتژمێر چاوەڕێ بین تا لەخۆی ڕاببینێت کە بمان بینێت.",
                             onPressedBritish: () => speakcondescends1("en-GB"),
                             onPressedAmerican: () => speakcondescends1("en-US"),
                           ),

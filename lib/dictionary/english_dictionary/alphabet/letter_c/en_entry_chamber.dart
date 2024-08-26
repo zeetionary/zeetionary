@@ -134,7 +134,7 @@ class EnglishEntrychamber extends StatelessWidget {
                             englishText:
                                 "She is due to deliver a speech in the senate chamber.",
                             kurdishText:
-                                "بڕیار وایە وتارێک لە ئەنجوومەنی پیران پێشکەش بکات.", // chamber",
+                                "بڕیار وایە وتارێک لە ئەنجوومەنی پیران پێشکەش بکات.",
                             onPressedBritish: () => speakchambers1("en-GB"),
                             onPressedAmerican: () => speakchambers1("en-US"),
                           ),

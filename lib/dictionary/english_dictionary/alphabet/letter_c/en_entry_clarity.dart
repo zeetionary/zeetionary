@@ -116,8 +116,7 @@ class EnglishEntryclarity extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She expressed herself with great clarity.",
-                            kurdishText:
-                                "خۆی زۆر بە ڕوونی دەربڕی.", // clarity",
+                            kurdishText: "خۆی زۆر بە ڕوونی دەربڕی.",
                             onPressedBritish: () => speakclaritys1("en-GB"),
                             onPressedAmerican: () => speakclaritys1("en-US"),
                           ),

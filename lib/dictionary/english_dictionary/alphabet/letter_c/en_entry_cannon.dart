@@ -180,8 +180,7 @@ class EnglishEntrycannon extends StatelessWidget {
                                   """١. (ناو) چەکێکی قورس و گەورەی کۆن کە لەسەر ویلە و تۆپەڵە بەرد یان تۆپەڵە ئاسن"""),
                           SentencesRow(
                             englishText: "Three cannon opened fire.",
-                            kurdishText:
-                                "سێ تۆپھاوێژ دەستیان بە بە شەڕ کرد.", // cannon
+                            kurdishText: "سێ تۆپھاوێژ دەستیان بە بە شەڕ کرد",
                             onPressedBritish: () => speakcannons1("en-GB"),
                             onPressedAmerican: () => speakcannons1("en-US"),
                           ),

@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Many families rely on council houses for affordable housing.",
             kurdishText:
-                "زۆر خێزان پشت بە خانووی ئەنجوومەن دەبەستن بۆ مانەوەی ھەرزان.", // council house", please follow LX instructions
+                "زۆر خێزان پشت بە خانووی ئەنجوومەن دەبەستن بۆ مانەوەی ھەرزان.",
             onPressedBritish: () => speakcouncilhouses1("en-GB"),
             onPressedAmerican: () => speakcouncilhouses1("en-US"),
           ),

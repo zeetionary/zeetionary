@@ -139,7 +139,7 @@ class EnglishEntrybrochure extends StatelessWidget {
                             englishText:
                                 "She picked up a travel brochure to plan her vacation to exotic destinations.",
                             kurdishText:
-                                "نامیلکەیەکی گەشتیاری کڕی بۆ پلاندانانی گەشتەکەی بۆ شوێنە سەرنجڕاکێشەکان.", // brochure" as
+                                "نامیلکەیەکی گەشتیاری کڕی بۆ پلاندانانی گەشتەکەی بۆ شوێنە سەرنجڕاکێشەکان.",
                             onPressedBritish: () => speakbrochures1("en-GB"),
                             onPressedAmerican: () => speakbrochures1("en-US"),
                           ),

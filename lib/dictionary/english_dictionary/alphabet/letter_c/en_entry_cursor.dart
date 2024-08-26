@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "You can move the cursor either by using the mouse or by using the arrow keys on the keyboard.",
             kurdishText:
-                "جێنیشاندەرەکە دەجوڵێنیت یان بە جوڵاندنی ماوسەکە یان بە بەکارھێنانی دووگمەی تیرەکان لەسەر کیبۆردەکە.", // cursor", please follow LX instructions
+                "جێنیشاندەرەکە دەجوڵێنیت یان بە جوڵاندنی ماوسەکە یان بە بەکارھێنانی دووگمەی تیرەکان لەسەر کیبۆردەکە.",
             onPressedBritish: () => speakcursors1("en-GB"),
             onPressedAmerican: () => speakcursors1("en-US"),
           ),

@@ -100,8 +100,7 @@ class EnglishEntrycomparatively extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He died comparatively young (= at a younger age than most people die).",
-                            kurdishText:
-                                "بەراوردکاری‌یانە بە گەنجی مرد.", // comparatively",
+                            kurdishText: "بەراوردکاری‌یانە بە گەنجی مرد.",
                             onPressedBritish: () =>
                                 speakcomparativelys1("en-GB"),
                             onPressedAmerican: () =>

@@ -179,7 +179,7 @@ class EnglishEntrycatburglar extends StatelessWidget {
                             englishText:
                                 "The jury heard that he was a professional cat burglar.",
                             kurdishText:
-                                "دەستەی دادوەران گوێی گرت لەوەی کە دزێکی ھەڵگەڕە.", // cat burglar",
+                                "دەستەی دادوەران گوێی گرت لەوەی کە دزێکی ھەڵگەڕە.",
                             onPressedBritish: () => speakcatburglars1("en-GB"),
                             onPressedAmerican: () => speakcatburglars1("en-US"),
                           ),

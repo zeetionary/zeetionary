@@ -232,7 +232,7 @@ class EnglishEntryconnect extends StatelessWidget {
                             englishText:
                                 "The towns are connected by train and bus services.",
                             kurdishText:
-                                "شارۆچکەکان بە شەمەندەفەر و پاس پێکەوە گرێدراون.", // connect",
+                                "شارۆچکەکان بە شەمەندەفەر و پاس پێکەوە گرێدراون.",
                             onPressedBritish: () => speakconnects1("en-GB"),
                             onPressedAmerican: () => speakconnects1("en-US"),
                           ),

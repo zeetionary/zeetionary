@@ -138,7 +138,7 @@ class EnglishEntrycontempt extends StatelessWidget {
                                   "١. (ناو) ئەو ھەستەی کە کەسێک ھیچ نرخی نییە و شایەنی ڕێز نییە"),
                           SentencesRow(
                             englishText: "She looked at him with contempt.",
-                            kurdishText: "بە سووکی سەیری کرد.", // contempt",
+                            kurdishText: "بە سووکی سەیری کرد.",
                             onPressedBritish: () => speakcontempts1("en-GB"),
                             onPressedAmerican: () => speakcontempts1("en-US"),
                           ),

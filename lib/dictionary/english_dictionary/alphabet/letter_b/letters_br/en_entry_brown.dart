@@ -137,8 +137,7 @@ class EnglishEntrybrown extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Soon the yellow leaves will turn brown.",
-                            kurdishText:
-                                "بەزوویی گەڵا زەردەکان قاوەیی دەبن.", // brown" as
+                            kurdishText: "بەزوویی گەڵا زەردەکان قاوەیی دەبن.",
                             onPressedBritish: () => speakbrowns1("en-GB"),
                             onPressedAmerican: () => speakbrowns1("en-US"),
                           ),

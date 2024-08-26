@@ -103,7 +103,7 @@ class EnglishEntrycommemorate extends StatelessWidget {
                             englishText:
                                 "A series of movies will be shown to commemorate the thirtieth anniversary of his death.",
                             kurdishText:
-                                "ژمارەیەک فیلم نمایش دەکرێن بۆ یادکردنەوەی سیازدەیەمین ساڵیادی مردنی.", // commemorate",
+                                "ژمارەیەک فیلم نمایش دەکرێن بۆ یادکردنەوەی سیازدەیەمین ساڵیادی مردنی.",
                             onPressedBritish: () => speakcommemorates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcommemorates1("en-US"),

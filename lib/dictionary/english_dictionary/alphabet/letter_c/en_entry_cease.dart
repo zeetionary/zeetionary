@@ -175,8 +175,7 @@ class EnglishEntrycease extends StatelessWidget {
                               text: "١. (کردار) وەستان لە ڕوودان یان ھەبوون"),
                           SentencesRow(
                             englishText: "You never cease to amaze me!",
-                            kurdishText:
-                                "ھەرگیز لە سەرسامکردنم ناکەویت!", // cease",
+                            kurdishText: "ھەرگیز لە سەرسامکردنم ناکەویت!",
                             onPressedBritish: () => speakceases1("en-GB"),
                             onPressedAmerican: () => speakceases1("en-US"),
                           ),

@@ -93,7 +93,7 @@ class EnglishEntrycohesion extends StatelessWidget {
                             englishText:
                                 "The lack of cohesion within the party lost them votes in the election.",
                             kurdishText:
-                                "نەبوونی یەکگرتوووی لەناو پارتەکە بوو بەھۆی لە دەستدانی دەنگ لە ھەڵبژاردنەکە.", // cohesion",
+                                "نەبوونی یەکگرتوووی لەناو پارتەکە بوو بەھۆی لە دەستدانی دەنگ لە ھەڵبژاردنەکە.",
                             onPressedBritish: () => speakcohesions1("en-GB"),
                             onPressedAmerican: () => speakcohesions1("en-US"),
                           ),

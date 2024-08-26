@@ -182,7 +182,7 @@ class EnglishEntrycart extends StatelessWidget {
                             englishText:
                                 "Milk was delivered by horse and cart in those days.",
                             kurdishText:
-                                "شیر ئەو ڕۆژانە بە ئەسپ و عەرەبانە دەگوازرایەوە.", // cart",
+                                "شیر ئەو ڕۆژانە بە ئەسپ و عەرەبانە دەگوازرایەوە.",
                             onPressedBritish: () => speakcarts1("en-GB"),
                             onPressedAmerican: () => speakcarts1("en-US"),
                           ),

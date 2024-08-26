@@ -94,7 +94,7 @@ class EnglishEntrychristianname extends StatelessWidget {
                             englishText:
                                 "We're all on Christian-name terms here.",
                             kurdishText:
-                                "لێرە ھەموو بە ناوی یەکەم یەکدی بانگ دەکەین.", // Christian name",
+                                "لێرە ھەموو بە ناوی یەکەم یەکدی بانگ دەکەین.",
                             onPressedBritish: () =>
                                 speakChristiannames1("en-GB"),
                             onPressedAmerican: () =>

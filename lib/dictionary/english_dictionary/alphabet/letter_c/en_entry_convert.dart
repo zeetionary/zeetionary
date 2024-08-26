@@ -170,7 +170,7 @@ class EnglishEntryconvert extends StatelessWidget {
                             englishText:
                                 "They took just nine months to convert the building.",
                             kurdishText:
-                                "تەنھا نۆ مانگیان پێویست بوو بۆ گۆڕینی بیناکە.", // convert",
+                                "تەنھا نۆ مانگیان پێویست بوو بۆ گۆڕینی بیناکە.",
                             onPressedBritish: () => speakconverts1("en-GB"),
                             onPressedAmerican: () => speakconverts1("en-US"),
                           ),

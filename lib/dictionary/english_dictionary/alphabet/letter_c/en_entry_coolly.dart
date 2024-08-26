@@ -99,8 +99,7 @@ class EnglishEntrycoolly extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەک کە ھاوڕێیانە یان بەجۆشەوە نییە"),
                           SentencesRow(
                             englishText: "He received my suggestion coolly.",
-                            kurdishText:
-                                "پێشنیارەکەمی ساردوسڕانە وەرگرت.", // coolly",
+                            kurdishText: "پێشنیارەکەمی ساردوسڕانە وەرگرت.",
                             onPressedBritish: () => speakcoollys1("en-GB"),
                             onPressedAmerican: () => speakcoollys1("en-US"),
                           ),

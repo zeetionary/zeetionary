@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە خەڵکی لە شوێنێک یان دۆخێکی دیاریکراودا دەیکەن"),
           SentencesRow(
             englishText: "Is it customary to tip hairdressers in this country?",
-            kurdishText:
-                "نەریتە کە شاگردانە بدەیت بە سەرتاشان لەم وڵاتە؟", // customary", please follow LX instructions
+            kurdishText: "نەریتە کە شاگردانە بدەیت بە سەرتاشان لەم وڵاتە؟",
             onPressedBritish: () => speakcustomarys1("en-GB"),
             onPressedAmerican: () => speakcustomarys1("en-US"),
           ),

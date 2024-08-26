@@ -101,7 +101,7 @@ class EnglishEntryclientele extends StatelessWidget {
                             englishText:
                                 "It takes time to build (up) a clientele.",
                             kurdishText:
-                                "کاتی پێدەچێت کە موشتەری ھەمیشەیی درووست بکەیت.", // clientele",
+                                "کاتی پێدەچێت کە موشتەری ھەمیشەیی درووست بکەیت.",
                             onPressedBritish: () => speakclienteles1("en-GB"),
                             onPressedAmerican: () => speakclienteles1("en-US"),
                           ),

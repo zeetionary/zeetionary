@@ -111,7 +111,7 @@ class EnglishEntrycleavage extends StatelessWidget {
                             englishText:
                                 "She leaned forward slightly, revealing a deep cleavage.",
                             kurdishText:
-                                "کەمێک بۆ پێشەوە چەمایەوە و سینگێکی گەورەی بەدەرخست.", // cleavage",
+                                "کەمێک بۆ پێشەوە چەمایەوە و سینگێکی گەورەی بەدەرخست.",
                             onPressedBritish: () => speakcleavages1("en-GB"),
                             onPressedAmerican: () => speakcleavages1("en-US"),
                           ),

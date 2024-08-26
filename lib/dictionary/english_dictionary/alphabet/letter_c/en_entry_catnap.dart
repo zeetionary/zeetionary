@@ -175,7 +175,7 @@ class EnglishEntrycatnap extends StatelessWidget {
                             englishText:
                                 "Taking a catnap can enhance alertness and productivity.",
                             kurdishText:
-                                "وەرگرتنی سووکەڵەخەوێک دەکرێت بەئاگایی و بەبەرھەمی زیاد بکات.", // catnap",
+                                "وەرگرتنی سووکەڵەخەوێک دەکرێت بەئاگایی و بەبەرھەمی زیاد بکات.",
                             onPressedBritish: () => speakcatnaps1("en-GB"),
                             onPressedAmerican: () => speakcatnaps1("en-US"),
                           ),

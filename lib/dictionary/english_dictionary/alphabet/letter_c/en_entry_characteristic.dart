@@ -137,7 +137,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
                             englishText:
                                 "All human languages share some common characteristics.",
                             kurdishText:
-                                "ھەموو زمانەکانی مرۆڤ ھەندێک تایبەتمەندی ھاوبەشیان ھەیە.", // characteristic",
+                                "ھەموو زمانەکانی مرۆڤ ھەندێک تایبەتمەندی ھاوبەشیان ھەیە.",
                             onPressedBritish: () =>
                                 speakcharacteristics1("en-GB"),
                             onPressedAmerican: () =>

@@ -115,7 +115,7 @@ class EnglishEntrychore extends StatelessWidget {
                             englishText:
                                 "The kids all help out with the household chores.",
                             kurdishText:
-                                "منداڵەکان ھەموویان یارمەتیدەر دەبن لە کاری ماڵەوە.", // chore",
+                                "منداڵەکان ھەموویان یارمەتیدەر دەبن لە کاری ماڵەوە.",
                             onPressedBritish: () => speakchores1("en-GB"),
                             onPressedAmerican: () => speakchores1("en-US"),
                           ),

@@ -134,7 +134,7 @@ class EnglishEntrybrunette extends StatelessWidget {
                             englishText:
                                 "Her wife was a plump, blue-eyed brunette.",
                             kurdishText:
-                                "ژنەکەی خرپنێکی چاو شینی قژ قاوەیی بوو.", // brunette" as
+                                "ژنەکەی خرپنێکی چاو شینی قژ قاوەیی بوو.",
                             onPressedBritish: () => speakbrunettes1("en-GB"),
                             onPressedAmerican: () => speakbrunettes1("en-US"),
                           ),

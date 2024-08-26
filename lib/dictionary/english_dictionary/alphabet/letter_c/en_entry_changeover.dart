@@ -96,7 +96,7 @@ class EnglishEntrychangeover extends StatelessWidget {
                             englishText:
                                 "The changeover to the new taxation system has created a lot of problems.",
                             kurdishText:
-                                "گۆڕان بۆ سیستەمە تازەکەی باجدان ژمارەیەکی زۆر کێشەی درووستکردووە.", // changeover",
+                                "گۆڕان بۆ سیستەمە تازەکەی باجدان ژمارەیەکی زۆر کێشەی درووستکردووە.",
                             onPressedBritish: () => speakchangeovers1("en-GB"),
                             onPressedAmerican: () => speakchangeovers1("en-US"),
                           ),

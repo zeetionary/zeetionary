@@ -176,7 +176,7 @@ class EnglishEntrycajole extends StatelessWidget {
                             englishText:
                                 "I managed to cajole her out of leaving too early.",
                             kurdishText:
-                                "توانیم ڕازی بکەم دژ بە ڕۆشتن زۆر بەزوویی.", // cajole
+                                "توانیم ڕازی بکەم دژ بە ڕۆشتن زۆر بەزوویی",
                             onPressedBritish: () => speakcajoles1("en-GB"),
                             onPressedAmerican: () => speakcajoles1("en-US"),
                           ),

@@ -191,7 +191,7 @@ class EnglishEntrycompany extends StatelessWidget {
                             englishText:
                                 "It is the world's largest software company.",
                             kurdishText:
-                                "گەورەترین کۆمپانیای نەرمامێرە لە جیھاندا.", // company",
+                                "گەورەترین کۆمپانیای نەرمامێرە لە جیھاندا.",
                             onPressedBritish: () => speakcompanys1("en-GB"),
                             onPressedAmerican: () => speakcompanys1("en-US"),
                           ),

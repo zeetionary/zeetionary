@@ -98,7 +98,7 @@ class EnglishEntrycockpit extends StatelessWidget {
                             englishText:
                                 "The cockpit door was securely locked during the flight.",
                             kurdishText:
-                                "دەرگای ژووری فڕۆکەوانی بە توندی قوفڵکرا لە ماوەی گەشتەکەدا.", // cockpit",
+                                "دەرگای ژووری فڕۆکەوانی بە توندی قوفڵکرا لە ماوەی گەشتەکەدا.",
                             onPressedBritish: () => speakcockpits1("en-GB"),
                             onPressedAmerican: () => speakcockpits1("en-US"),
                           ),

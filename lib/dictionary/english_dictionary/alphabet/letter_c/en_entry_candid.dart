@@ -181,8 +181,7 @@ class EnglishEntrycandid extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I felt she was being less than candid with me.",
-                            kurdishText:
-                                "پێم‌وابوو ڕێک‌وڕاست نییە لەگەڵم.", // candid
+                            kurdishText: "پێم‌وابوو ڕێک‌وڕاست نییە لەگەڵم",
                             onPressedBritish: () => speakcandids1("en-GB"),
                             onPressedAmerican: () => speakcandids1("en-US"),
                           ),

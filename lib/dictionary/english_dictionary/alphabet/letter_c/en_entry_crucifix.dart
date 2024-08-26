@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She always wears a small gold crucifix round her neck.",
-            kurdishText:
-                "ھەمیشە خاچێکی بچووکی ئاڵتوونی لە ملی دەبەستێت.", // crucifix", please follow LX instructions
+            kurdishText: "ھەمیشە خاچێکی بچووکی ئاڵتوونی لە ملی دەبەستێت.",
             onPressedBritish: () => speakcrucifixs1("en-GB"),
             onPressedAmerican: () => speakcrucifixs1("en-US"),
           ),

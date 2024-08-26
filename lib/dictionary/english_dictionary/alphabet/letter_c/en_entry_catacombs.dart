@@ -178,7 +178,7 @@ class EnglishEntrycatacombs extends StatelessWidget {
                             englishText:
                                 "They went down into catacombs beneath the church.",
                             kurdishText:
-                                "چوونەخوارەوە بۆ گۆڕستانی ژێر کڵێساکە.", // catacombs",
+                                "چوونەخوارەوە بۆ گۆڕستانی ژێر کڵێساکە.",
                             onPressedBritish: () => speakcatacombss1("en-GB"),
                             onPressedAmerican: () => speakcatacombss1("en-US"),
                           ),

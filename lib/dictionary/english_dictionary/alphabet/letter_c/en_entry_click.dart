@@ -168,7 +168,7 @@ class EnglishEntryclick extends StatelessWidget {
                             englishText:
                                 "Click here to add your opinion to the survey.",
                             kurdishText:
-                                "لێرە گرتە بکە بۆ زیادکردنی بۆچوونت بۆ ڕاپرسییەکە.", // click",
+                                "لێرە گرتە بکە بۆ زیادکردنی بۆچوونت بۆ ڕاپرسییەکە.",
                             onPressedBritish: () => speakclicks1("en-GB"),
                             onPressedAmerican: () => speakclicks1("en-US"),
                           ),

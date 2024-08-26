@@ -103,7 +103,7 @@ class EnglishEntryclink extends StatelessWidget {
                             englishText:
                                 "They clinked glasses and drank to each other's health.",
                             kurdishText:
-                                "گڵاسەکانیان کێشا بە یەکدا و خواردیانەوە بە خۆشی تەندرووستی یەکدی.", // clink",
+                                "گڵاسەکانیان کێشا بە یەکدا و خواردیانەوە بە خۆشی تەندرووستی یەکدی.",
                             onPressedBritish: () => speakclinks1("en-GB"),
                             onPressedAmerican: () => speakclinks1("en-US"),
                           ),

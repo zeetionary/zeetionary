@@ -95,7 +95,7 @@ class EnglishEntrycolonist extends StatelessWidget {
                             englishText:
                                 "The early colonists faced many hardships in the new world.",
                             kurdishText:
-                                "کۆلۆنی‌نشینە سەرەتاییەکان ڕووبەڕووی سەختی زۆر بوونەوە لە جیھانە تازەکەدا.", // colonist",
+                                "کۆلۆنی‌نشینە سەرەتاییەکان ڕووبەڕووی سەختی زۆر بوونەوە لە جیھانە تازەکەدا.",
                             onPressedBritish: () => speakcolonists1("en-GB"),
                             onPressedAmerican: () => speakcolonists1("en-US"),
                           ),

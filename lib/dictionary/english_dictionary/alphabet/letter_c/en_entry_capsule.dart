@@ -181,7 +181,7 @@ class EnglishEntrycapsule extends StatelessWidget {
                             englishText:
                                 "The medicine can be taken in tablet or capsule form.",
                             kurdishText:
-                                "دەرمانەکە دەکرێت وەک حەب یان کاپسوول بخوردرێت.", // capsule
+                                "دەرمانەکە دەکرێت وەک حەب یان کاپسوول بخوردرێت",
                             onPressedBritish: () => speakcapsules1("en-GB"),
                             onPressedAmerican: () => speakcapsules1("en-US"),
                           ),

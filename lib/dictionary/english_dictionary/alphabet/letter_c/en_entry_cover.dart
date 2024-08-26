@@ -544,8 +544,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) داپۆشین بۆ شاردنەوە"),
           SentencesRow(
             englishText: "She covered her face with her hands.",
-            kurdishText:
-                "بە دەستی ڕووخساری داپۆشی.", // cover", please follow LX instructions
+            kurdishText: "بە دەستی ڕووخساری داپۆشی.",
             onPressedBritish: () => speakcovers1("en-GB"),
             onPressedAmerican: () => speakcovers1("en-US"),
           ),

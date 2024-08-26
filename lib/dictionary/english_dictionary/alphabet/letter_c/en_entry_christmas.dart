@@ -118,7 +118,7 @@ class EnglishEntrychristmas extends StatelessWidget {
                                   "١. (ناو) ٢٥ـی کانوونی یەکەم، ئەو ڕۆژەی مەسیحییەکان ڕۆژی لەدایکبوون عیسای مەسیح پیرۆز دەکەن"),
                           SentencesRow(
                             englishText: "What did you get for Christmas?",
-                            kurdishText: "چیت وەرگرت بۆ کریسمس؟", // Christmas",
+                            kurdishText: "چیت وەرگرت بۆ کریسمس؟",
                             onPressedBritish: () => speakChristmass1("en-GB"),
                             onPressedAmerican: () => speakChristmass1("en-US"),
                           ),

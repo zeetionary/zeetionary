@@ -158,8 +158,7 @@ class EnglishEntrychain extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She wore a gold chain around her neck.",
-                            kurdishText:
-                                "زنجیرێکی ئاڵتوونی لە ملی بەستبوو.", // chain",
+                            kurdishText: "زنجیرێکی ئاڵتوونی لە ملی بەستبوو.",
                             onPressedBritish: () => speakchains1("en-GB"),
                             onPressedAmerican: () => speakchains1("en-US"),
                           ),

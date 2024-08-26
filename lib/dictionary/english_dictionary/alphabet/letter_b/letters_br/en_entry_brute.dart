@@ -138,8 +138,7 @@ class EnglishEntrybrute extends StatelessWidget {
                               text: """١. (ناو) کەسێکی دڕندە"""),
                           SentencesRow(
                             englishText: "His father was a drunken brute.",
-                            kurdishText:
-                                "باوکی دڕندەیەکی سەرخۆش بوو.", // brute" as
+                            kurdishText: "باوکی دڕندەیەکی سەرخۆش بوو.",
                             onPressedBritish: () => speakbrutes1("en-GB"),
                             onPressedAmerican: () => speakbrutes1("en-US"),
                           ),

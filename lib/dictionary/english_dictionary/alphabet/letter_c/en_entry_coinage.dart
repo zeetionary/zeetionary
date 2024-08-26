@@ -110,7 +110,7 @@ class EnglishEntrycoinage extends StatelessWidget {
                             englishText:
                                 "The study of Roman coinage provides insights into Roman history and culture.",
                             kurdishText:
-                                "لێکۆڵینەوە لە دراوی ڕۆم زانیاری دەدات بەدەستەوە لەسەر مێژوو و کەلتووری ڕۆم.", // coinage",
+                                "لێکۆڵینەوە لە دراوی ڕۆم زانیاری دەدات بەدەستەوە لەسەر مێژوو و کەلتووری ڕۆم.",
                             onPressedBritish: () => speakcoinages1("en-GB"),
                             onPressedAmerican: () => speakcoinages1("en-US"),
                           ),

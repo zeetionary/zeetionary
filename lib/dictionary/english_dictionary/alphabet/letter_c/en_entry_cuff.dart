@@ -267,8 +267,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بەشی خوارەوەی پاڵتۆیەک یان قۆڵی جلێک لەسەر مەچەک"),
           SentencesRow(
             englishText: "He buttoned his cuffs.",
-            kurdishText:
-                "سەرقۆڵەکانی بەست.", // cuff", please follow LX instructions
+            kurdishText: "سەرقۆڵەکانی بەست.",
             onPressedBritish: () => speakcuffs1("en-GB"),
             onPressedAmerican: () => speakcuffs1("en-US"),
           ),

@@ -204,7 +204,7 @@ class EnglishEntrycommission extends StatelessWidget {
                             englishText:
                                 "The commission is expected to report its findings next month.",
                             kurdishText:
-                                "کۆمسیۆنەکە چاوەڕێ دەکرێت مانگی داھاتوو دۆزینەوەکانی ئاشکرا بکات.", // commission",
+                                "کۆمسیۆنەکە چاوەڕێ دەکرێت مانگی داھاتوو دۆزینەوەکانی ئاشکرا بکات.",
                             onPressedBritish: () => speakcommissions1("en-GB"),
                             onPressedAmerican: () => speakcommissions1("en-US"),
                           ),

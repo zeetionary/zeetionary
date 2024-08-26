@@ -95,7 +95,7 @@ class EnglishEntrycollapsible extends StatelessWidget {
                             englishText:
                                 "We brought collapsible chairs to the outdoor concert.",
                             kurdishText:
-                                "کورسی نووشتاوەمان ھێنا بۆ کۆنسێرتە دەرەکییەکە.", // collapsible",
+                                "کورسی نووشتاوەمان ھێنا بۆ کۆنسێرتە دەرەکییەکە.",
                             onPressedBritish: () => speakcollapsibles1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcollapsibles1("en-US"),

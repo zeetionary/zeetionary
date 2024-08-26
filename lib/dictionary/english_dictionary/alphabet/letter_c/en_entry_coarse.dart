@@ -108,7 +108,7 @@ class EnglishEntrycoarse extends StatelessWidget {
                             englishText:
                                 "She looked at the boy's coarse hands and heavy boots.",
                             kurdishText:
-                                "سەیری دەستە زبر و پوتینە گەورەکانی کوڕەکەی کرد.", // coarse",
+                                "سەیری دەستە زبر و پوتینە گەورەکانی کوڕەکەی کرد.",
                             onPressedBritish: () => speakcoarses1("en-GB"),
                             onPressedAmerican: () => speakcoarses1("en-US"),
                           ),

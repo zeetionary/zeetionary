@@ -152,7 +152,7 @@ class EnglishEntrycircumstance extends StatelessWidget {
                             englishText:
                                 "Police said there were no suspicious circumstances surrounding the boy's death.",
                             kurdishText:
-                                "پۆلیس گوتی ھیچ بارودۆخێکی گوماناوی نەبوو پەیوەندیدار بە گیان لەدەستدانی منداڵەکە.", // circumstance",
+                                "پۆلیس گوتی ھیچ بارودۆخێکی گوماناوی نەبوو پەیوەندیدار بە گیان لەدەستدانی منداڵەکە.",
                             onPressedBritish: () =>
                                 speakcircumstances1("en-GB"),
                             onPressedAmerican: () =>

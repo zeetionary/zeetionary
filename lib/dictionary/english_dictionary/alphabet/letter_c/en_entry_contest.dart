@@ -166,7 +166,7 @@ class EnglishEntrycontest extends StatelessWidget {
                             englishText:
                                 "She was awarded the first prize in an essay contest .",
                             kurdishText:
-                                "خەڵاتی یەکەمی پێدرا لە پێشبڕکێیەکی وتار نووسین.", // contest",
+                                "خەڵاتی یەکەمی پێدرا لە پێشبڕکێیەکی وتار نووسین.",
                             onPressedBritish: () => speakcontests1("en-GB"),
                             onPressedAmerican: () => speakcontests1("en-US"),
                           ),

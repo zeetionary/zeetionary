@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئەو ڕێژەیەی کە لە پیاڵە یان پەرداخێکدا جێگای دەبێتەوە"),
           SentencesRow(
             englishText: "Add two cupfuls of milk to the mixture.",
-            kurdishText:
-                "دوو پیاڵە شیر زیاد بکە بۆ تێکەڵەکە.", // cupful", please follow LX instructions
+            kurdishText: "دوو پیاڵە شیر زیاد بکە بۆ تێکەڵەکە.",
             onPressedBritish: () => speakcupfuls1("en-GB"),
             onPressedAmerican: () => speakcupfuls1("en-US"),
           ),

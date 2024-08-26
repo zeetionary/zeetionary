@@ -95,7 +95,7 @@ class EnglishEntrycitrus extends StatelessWidget {
                             englishText:
                                 "Good sources of vitamin C are vegetables and fruits, especially citrus.",
                             kurdishText:
-                                "سەرچاوەی باشی ڤیتامین C بریتییە لە سەوزە و میوە، بەتایبەتی مزرەمەنی.", // citrus",
+                                "سەرچاوەی باشی ڤیتامین C بریتییە لە سەوزە و میوە، بەتایبەتی مزرەمەنی.",
                             onPressedBritish: () => speakcitruss1("en-GB"),
                             onPressedAmerican: () => speakcitruss1("en-US"),
                           ),

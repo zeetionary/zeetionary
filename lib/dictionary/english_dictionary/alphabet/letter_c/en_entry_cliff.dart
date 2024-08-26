@@ -109,7 +109,7 @@ class EnglishEntrycliff extends StatelessWidget {
                             englishText:
                                 "Keep away from the edge of the cliff - you might fall.",
                             kurdishText:
-                                "دووربە لە قەراغی لاپاڵەکە، لەوانەیە بکەویت.", // cliff",
+                                "دووربە لە قەراغی لاپاڵەکە، لەوانەیە بکەویت.",
                             onPressedBritish: () => speakcliffs1("en-GB"),
                             onPressedAmerican: () => speakcliffs1("en-US"),
                           ),

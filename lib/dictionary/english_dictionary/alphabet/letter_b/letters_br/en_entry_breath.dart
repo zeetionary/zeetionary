@@ -292,7 +292,7 @@ class EnglishEntrybreath extends StatelessWidget {
                           SentencesRow(
                             englishText: "His breath smelt of garlic.",
                             kurdishText:
-                                "ھەناسەی بۆنی سیری دەدا.", // breath" as
+                                "ھەناسەی بۆنی سیری دەدا.",
                             onPressedBritish: () => speakbreaths1("en-GB"),
                             onPressedAmerican: () => speakbreaths1("en-US"),
                           ),

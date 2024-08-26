@@ -95,7 +95,7 @@ class EnglishEntryclarinet extends StatelessWidget {
                             englishText:
                                 "Learning to play the clarinet requires practice and dedication.",
                             kurdishText:
-                                "فێربوونی لێدانی کلارینێت پێویستی بە مەشق و خۆبەخت‌کردن ھەیە.", // clarinet",
+                                "فێربوونی لێدانی کلارینێت پێویستی بە مەشق و خۆبەخت‌کردن ھەیە.",
                             onPressedBritish: () => speakclarinets1("en-GB"),
                             onPressedAmerican: () => speakclarinets1("en-US"),
                           ),

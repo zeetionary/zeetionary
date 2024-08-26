@@ -107,8 +107,7 @@ class EnglishEntrycondense extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Steam condenses into water when it cools.",
-                            kurdishText:
-                                "ھەڵم دەبێت بە ئاو کە سارد دەبێتەوە.", // condense",
+                            kurdishText: "ھەڵم دەبێت بە ئاو کە سارد دەبێتەوە.",
                             onPressedBritish: () => speakcondenses1("en-GB"),
                             onPressedAmerican: () => speakcondenses1("en-US"),
                           ),

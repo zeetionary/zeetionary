@@ -179,7 +179,7 @@ class EnglishEntrycarthorse extends StatelessWidget {
                             englishText:
                                 "He admired the strength of the carthorse as it pulled the plow.",
                             kurdishText:
-                                "سەرسام بوو بە توانای پاڵانییەکە لە ڕاکێشانی گاسنەکەدا.", // carthorse",
+                                "سەرسام بوو بە توانای پاڵانییەکە لە ڕاکێشانی گاسنەکەدا.",
                             onPressedBritish: () => speakcarthorses1("en-GB"),
                             onPressedAmerican: () => speakcarthorses1("en-US"),
                           ),

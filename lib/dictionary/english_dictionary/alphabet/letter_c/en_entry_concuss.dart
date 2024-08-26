@@ -95,7 +95,7 @@ class EnglishEntryconcuss extends StatelessWidget {
                             englishText:
                                 "He was concussed in a car accident and had temporary memory loss.",
                             kurdishText:
-                                "لە پێکدادانیکی ئۆتۆمبێلدا زەربەی سەری بەرکەوت و لەدەستدانی بۆماوەیی بیرەوەری تووشبوو.", // concuss",
+                                "لە پێکدادانیکی ئۆتۆمبێلدا زەربەی سەری بەرکەوت و لەدەستدانی بۆماوەیی بیرەوەری تووشبوو.",
                             onPressedBritish: () => speakconcusss1("en-GB"),
                             onPressedAmerican: () => speakconcusss1("en-US"),
                           ),

@@ -94,7 +94,7 @@ class EnglishEntrycollectively extends StatelessWidget {
                             englishText:
                                 "We have had a successful year, both collectively and individually.",
                             kurdishText:
-                                "ساڵێکی سەرکەوتوومان ھەبووە، چی بە کۆمەڵ و چی بە تاک.", // collectively",
+                                "ساڵێکی سەرکەوتوومان ھەبووە، چی بە کۆمەڵ و چی بە تاک.",
                             onPressedBritish: () =>
                                 speakcollectivelys1("en-GB"),
                             onPressedAmerican: () =>

@@ -103,7 +103,7 @@ class EnglishEntrychronicle extends StatelessWidget {
                             englishText:
                                 "Her latest novel is a chronicle of life in a German village.",
                             kurdishText:
-                                "تازەترین ڕۆمانی تۆماری ژیانە لە گوندێکی ئەڵمانی.", // chronicle",
+                                "تازەترین ڕۆمانی تۆماری ژیانە لە گوندێکی ئەڵمانی.",
                             onPressedBritish: () => speakchronicles1("en-GB"),
                             onPressedAmerican: () => speakchronicles1("en-US"),
                           ),

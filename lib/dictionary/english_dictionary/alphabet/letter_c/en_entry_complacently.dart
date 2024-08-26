@@ -94,7 +94,7 @@ class EnglishEntrycomplacently extends StatelessWidget {
                             englishText:
                                 "Do not complacently assume that all is well.",
                             kurdishText:
-                                "لەخۆڕازییانە وا دامەنێ ھەموو شت باشە.", // complacently",
+                                "لەخۆڕازییانە وا دامەنێ ھەموو شت باشە.",
                             onPressedBritish: () =>
                                 speakcomplacentlys1("en-GB"),
                             onPressedAmerican: () =>

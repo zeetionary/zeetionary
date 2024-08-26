@@ -268,8 +268,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە ئەو شتە خراپەکانی کەسێک یان شتێک دەڵێیت"),
           SentencesRow(
             englishText: "She spoke critically of her father.",
-            kurdishText:
-                "بە ڕەخنەوە قسەی لەسەر باوکی دەکرد.", // critically", please follow LX instructions
+            kurdishText: "بە ڕەخنەوە قسەی لەسەر باوکی دەکرد.",
             onPressedBritish: () => speakcriticallys1("en-GB"),
             onPressedAmerican: () => speakcriticallys1("en-US"),
           ),

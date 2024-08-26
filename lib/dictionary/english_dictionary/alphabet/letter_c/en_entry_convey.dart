@@ -133,7 +133,7 @@ class EnglishEntryconvey extends StatelessWidget {
                             englishText:
                                 "Colours like red convey a sense of energy and strength.",
                             kurdishText:
-                                "ڕەنگی وەک سوور ھەستێکی وزە و بەھێزی دەبەخشن.", // convey",
+                                "ڕەنگی وەک سوور ھەستێکی وزە و بەھێزی دەبەخشن.",
                             onPressedBritish: () => speakconveys1("en-GB"),
                             onPressedAmerican: () => speakconveys1("en-US"),
                           ),

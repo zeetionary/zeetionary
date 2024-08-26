@@ -139,7 +139,7 @@ class EnglishEntrycite extends StatelessWidget {
                             englishText:
                                 "Citing unnamed sources, the newspaper reports that the two companies are nearing a deal.",
                             kurdishText:
-                                "بە ئاماژە بە سەرچاوەی ناونەھێنراو، ڕۆژنامەکە بڵاویکردووەتەوە کە دوو کۆمپانیاکە لە ڕێککەوتن نزیکدەبنەوە.", // cite",
+                                "بە ئاماژە بە سەرچاوەی ناونەھێنراو، ڕۆژنامەکە بڵاویکردووەتەوە کە دوو کۆمپانیاکە لە ڕێککەوتن نزیکدەبنەوە.",
                             onPressedBritish: () => speakcites1("en-GB"),
                             onPressedAmerican: () => speakcites1("en-US"),
                           ),

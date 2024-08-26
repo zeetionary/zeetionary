@@ -141,7 +141,7 @@ class EnglishEntrybrowse extends StatelessWidget {
                             englishText:
                                 "We went for a browse around an antique shop.",
                             kurdishText:
-                                "چووین بۆ گەڕانێک لە فرۆشگای ئەنتیکەکەدا.", // browse" as
+                                "چووین بۆ گەڕانێک لە فرۆشگای ئەنتیکەکەدا.",
                             onPressedBritish: () => speakbrowses1("en-GB"),
                             onPressedAmerican: () => speakbrowses1("en-US"),
                           ),

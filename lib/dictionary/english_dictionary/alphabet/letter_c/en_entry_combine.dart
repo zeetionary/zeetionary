@@ -169,7 +169,7 @@ class EnglishEntrycombine extends StatelessWidget {
                             englishText:
                                 "Hydrogen and oxygen combine to form water.",
                             kurdishText:
-                                "ھایدرۆجین و ئۆکسجین یەکدەگرن بۆ درووستکردنی ئاو.", // combine",
+                                "ھایدرۆجین و ئۆکسجین یەکدەگرن بۆ درووستکردنی ئاو.",
                             onPressedBritish: () => speakcombines1("en-GB"),
                             onPressedAmerican: () => speakcombines1("en-US"),
                           ),

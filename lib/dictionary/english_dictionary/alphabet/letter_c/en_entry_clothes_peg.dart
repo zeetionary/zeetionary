@@ -97,7 +97,7 @@ class EnglishEntryclothespeg extends StatelessWidget {
                             englishText:
                                 "She needed more clothes pegs to hang all the laundry.",
                             kurdishText:
-                                "پێویستی بە جلگری زیاتر بوو بۆ ئەوەی ھەموو جلەکان ھەڵبواسێت.", // clothes peg",
+                                "پێویستی بە جلگری زیاتر بوو بۆ ئەوەی ھەموو جلەکان ھەڵبواسێت.",
                             onPressedBritish: () => speakclothespegs1("en-GB"),
                             onPressedAmerican: () => speakclothespegs1("en-US"),
                           ),

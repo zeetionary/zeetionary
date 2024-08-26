@@ -129,8 +129,7 @@ class EnglishEntryclaw extends StatelessWidget {
                                   "١. (ناو) چڕنووک؛ یەکێک لە نینۆکە تیژەکانی سەر پێی ئاژەڵێک یان باڵندەیەک"),
                           SentencesRow(
                             englishText: "The cat lashed out with its claws.",
-                            kurdishText:
-                                "پشێلەکە بە چڕنووکەکانی ھێرشی کرد.", // claw",
+                            kurdishText: "پشێلەکە بە چڕنووکەکانی ھێرشی کرد.",
                             onPressedBritish: () => speakclaws1("en-GB"),
                             onPressedAmerican: () => speakclaws1("en-US"),
                           ),

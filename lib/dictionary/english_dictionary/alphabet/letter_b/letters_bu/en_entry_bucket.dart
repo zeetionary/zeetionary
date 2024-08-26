@@ -140,7 +140,7 @@ class EnglishEntrybucket extends StatelessWidget {
                             englishText:
                                 "The children ran down to the beach with their buckets and spades.",
                             kurdishText:
-                                "منداڵەکان بە کەنارەکەدا ڕایان دەکرد بە سەتڵ و خاکەنازەکانیانەوە.", // bucket" as
+                                "منداڵەکان بە کەنارەکەدا ڕایان دەکرد بە سەتڵ و خاکەنازەکانیانەوە.",
                             onPressedBritish: () => speakbuckets1("en-GB"),
                             onPressedAmerican: () => speakbuckets1("en-US"),
                           ),

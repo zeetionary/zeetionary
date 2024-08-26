@@ -152,8 +152,7 @@ class EnglishEntrycolumn extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The website has an attractive two-column format.",
-                            kurdishText:
-                                "وێبسایتەکە شێوەیەکی دوو ستوونی ھەیە.", // column",
+                            kurdishText: "وێبسایتەکە شێوەیەکی دوو ستوونی ھەیە.",
                             onPressedBritish: () => speakcolumns1("en-GB"),
                             onPressedAmerican: () => speakcolumns1("en-US"),
                           ),

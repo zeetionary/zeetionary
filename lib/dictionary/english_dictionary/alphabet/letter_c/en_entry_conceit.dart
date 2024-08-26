@@ -109,8 +109,7 @@ class EnglishEntryconceit extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I can say without conceit that I have talent.",
-                            kurdishText:
-                                "دەتوانم بەبێ پۆز بڵێم بەھرەم ھەیە.", // conceit",
+                            kurdishText: "دەتوانم بەبێ پۆز بڵێم بەھرەم ھەیە.",
                             onPressedBritish: () => speakconceits1("en-GB"),
                             onPressedAmerican: () => speakconceits1("en-US"),
                           ),

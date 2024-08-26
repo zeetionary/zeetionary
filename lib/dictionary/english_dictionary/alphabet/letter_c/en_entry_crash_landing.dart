@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) نیشتنەوەی ناچاری"),
           SentencesRow(
             englishText: "The pilot attempted a crash-landing on the beach.",
-            kurdishText:
-                "فڕۆکەوانەکە ھەوڵی نیشتنەوەی ناچاری دا لە کەناراوەکە.", // crash landing", please follow LX instructions
+            kurdishText: "فڕۆکەوانەکە ھەوڵی نیشتنەوەی ناچاری دا لە کەناراوەکە.",
             onPressedBritish: () => speakcrashlandings1("en-GB"),
             onPressedAmerican: () => speakcrashlandings1("en-US"),
           ),

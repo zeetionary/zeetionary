@@ -145,7 +145,7 @@ class EnglishEntrycollege extends StatelessWidget {
                             englishText:
                                 "She wanted to go to college to become a nurse.",
                             kurdishText:
-                                "دەیویست بچێتە کۆلێژ بۆ بوون بە پەرستار.", // college",
+                                "دەیویست بچێتە کۆلێژ بۆ بوون بە پەرستار.",
                             onPressedBritish: () => speakcolleges1("en-GB"),
                             onPressedAmerican: () => speakcolleges1("en-US"),
                           ),

@@ -178,7 +178,7 @@ class EnglishEntryceremonially extends StatelessWidget {
                             englishText:
                                 "The Queen ceremonially opened the new hospital.",
                             kurdishText:
-                                "شاژن لە بۆنەیەکدا نەخۆشخانە تازەکەی کردەوە.", // ceremonially",
+                                "شاژن لە بۆنەیەکدا نەخۆشخانە تازەکەی کردەوە.",
                             onPressedBritish: () =>
                                 speakceremoniallys1("en-GB"),
                             onPressedAmerican: () =>

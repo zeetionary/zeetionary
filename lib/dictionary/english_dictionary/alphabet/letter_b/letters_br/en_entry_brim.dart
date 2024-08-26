@@ -139,8 +139,7 @@ class EnglishEntrybrim extends StatelessWidget {
                                   "١. (ناو) لێواری گڵاسێک، دەفرێک، دۆڵکەیەک، ھتد"),
                           SentencesRow(
                             englishText: "He filled the glass to the brim.",
-                            kurdishText:
-                                "گڵاسەکەی تا لێوەکەی پڕکرد.", // brim" as
+                            kurdishText: "گڵاسەکەی تا لێوەکەی پڕکرد.",
                             onPressedBritish: () => speakbrims1("en-GB"),
                             onPressedAmerican: () => speakbrims1("en-US"),
                           ),

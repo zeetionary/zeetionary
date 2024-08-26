@@ -114,8 +114,7 @@ class EnglishEntrycloth extends StatelessWidget {
                                   "١. (ناو) قوماش کە بە ڕێسان یان چنین درووستکراوە"),
                           SentencesRow(
                             englishText: "They used to export cotton cloth.",
-                            kurdishText:
-                                "جاران قوماشی لۆکەیان ھەناردە دەکرد.", // cloth",
+                            kurdishText: "جاران قوماشی لۆکەیان ھەناردە دەکرد.",
                             onPressedBritish: () => speakcloths1("en-GB"),
                             onPressedAmerican: () => speakcloths1("en-US"),
                           ),

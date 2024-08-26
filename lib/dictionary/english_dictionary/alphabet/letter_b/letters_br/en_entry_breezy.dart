@@ -136,8 +136,7 @@ class EnglishEntrybreezy extends StatelessWidget {
                                   "١. (ھاوەڵناو) کەشێک کە ھەوایەکی بەھێز بەڵام خۆشی ھەیە"),
                           SentencesRow(
                             englishText: "It was a bright, breezy day.",
-                            kurdishText:
-                                "ڕۆژێکی ڕۆشنی پڕکزەبا بوو.", // breezy" as
+                            kurdishText: "ڕۆژێکی ڕۆشنی پڕکزەبا بوو.",
                             onPressedBritish: () => speakbreezys1("en-GB"),
                             onPressedAmerican: () => speakbreezys1("en-US"),
                           ),

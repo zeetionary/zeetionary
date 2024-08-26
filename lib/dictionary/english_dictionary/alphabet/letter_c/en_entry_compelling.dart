@@ -116,7 +116,7 @@ class EnglishEntrycompelling extends StatelessWidget {
                             englishText:
                                 "Her latest book makes compelling reading.",
                             kurdishText:
-                                "کۆتا کتێبی خوێندنەوەیەکی سەرنجڕاکێشە.", // compelling",
+                                "کۆتا کتێبی خوێندنەوەیەکی سەرنجڕاکێشە.",
                             onPressedBritish: () => speakcompellings1("en-GB"),
                             onPressedAmerican: () => speakcompellings1("en-US"),
                           ),

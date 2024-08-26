@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "James lived in a charming country cottage with roses around the door.",
             kurdishText:
-                "جەیمس لە کۆختەیەکی دڵبەری دەرەوەی شاردا دەژیا کە گوڵ لە دەوری دەرگاکەی بوو.", // cottage", please follow LX instructions
+                "جەیمس لە کۆختەیەکی دڵبەری دەرەوەی شاردا دەژیا کە گوڵ لە دەوری دەرگاکەی بوو.",
             onPressedBritish: () => speakcottages1("en-GB"),
             onPressedAmerican: () => speakcottages1("en-US"),
           ),

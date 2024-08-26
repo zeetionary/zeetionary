@@ -299,8 +299,7 @@ class EnglishEntrybrief extends StatelessWidget {
                               text: """١. (ھاوەڵناو) بۆ ماوەیەکی کەم"""),
                           SentencesRow(
                             englishText: "Mozart's life was brief.",
-                            kurdishText:
-                                "ژیانی مۆزارت کورتخایەن بوو.", // brief" as
+                            kurdishText: "ژیانی مۆزارت کورتخایەن بوو.",
                             onPressedBritish: () => speakbriefs1("en-GB"),
                             onPressedAmerican: () => speakbriefs1("en-US"),
                           ),

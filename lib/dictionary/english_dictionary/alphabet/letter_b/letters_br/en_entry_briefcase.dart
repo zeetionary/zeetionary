@@ -139,7 +139,7 @@ class EnglishEntrybriefcase extends StatelessWidget {
                             englishText:
                                 "He wore a torn suit and carried a battered briefcase.",
                             kurdishText:
-                                "جلوبەرگێکی دڕاوی لەبەربوو و جانتایەکی دەستی کۆنی ھەڵگرتبوو.", // briefcase" as
+                                "جلوبەرگێکی دڕاوی لەبەربوو و جانتایەکی دەستی کۆنی ھەڵگرتبوو.",
                             onPressedBritish: () => speakbriefcases1("en-GB"),
                             onPressedAmerican: () => speakbriefcases1("en-US"),
                           ),

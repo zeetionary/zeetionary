@@ -103,7 +103,7 @@ class EnglishEntrycondom extends StatelessWidget {
                             englishText:
                                 "She insisted that her partner wear a condom every time they had sex.",
                             kurdishText:
-                                "پێداگیر بوو لەسەر ئەوەی دۆستەکەی کۆندۆم بەکاربێنێت ھەرکاتێک سێکسیان بکردایە.", // condom",
+                                "پێداگیر بوو لەسەر ئەوەی دۆستەکەی کۆندۆم بەکاربێنێت ھەرکاتێک سێکسیان بکردایە.",
                             onPressedBritish: () => speakcondoms1("en-GB"),
                             onPressedAmerican: () => speakcondoms1("en-US"),
                           ),

@@ -95,7 +95,7 @@ class EnglishEntryconcurrent extends StatelessWidget {
                             englishText:
                                 "He was imprisoned for two concurrent terms of 30 months and 18 months.",
                             kurdishText:
-                                "بۆ دوو ماوەی ٣٠ مانگ و ١٨ مانگ زیندانی کرا.", // concurrent",
+                                "بۆ دوو ماوەی ٣٠ مانگ و ١٨ مانگ زیندانی کرا.",
                             onPressedBritish: () => speakconcurrents1("en-GB"),
                             onPressedAmerican: () => speakconcurrents1("en-US"),
                           ),

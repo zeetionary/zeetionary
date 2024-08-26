@@ -176,7 +176,7 @@ class EnglishEntrycannery extends StatelessWidget {
                             englishText:
                                 "His mother worked in the local tuna cannery.",
                             kurdishText:
-                                "دایکی لە کارگەیەکی لەقوتوخستنی خۆجێی ماسی تونا کاری دەکرد.", // cannery
+                                "دایکی لە کارگەیەکی لەقوتوخستنی خۆجێی ماسی تونا کاری دەکرد",
                             onPressedBritish: () => speakcannerys1("en-GB"),
                             onPressedAmerican: () => speakcannerys1("en-US"),
                           ),

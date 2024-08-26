@@ -137,8 +137,7 @@ class EnglishEntrybrew extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "This beer is brewed in the Czech Republic.",
-                            kurdishText:
-                                "بیرەکە لە کۆماری چیک درووستکراوە.", // brew" as
+                            kurdishText: "بیرەکە لە کۆماری چیک درووستکراوە.",
                             onPressedBritish: () => speakbrews1("en-GB"),
                             onPressedAmerican: () => speakbrews1("en-US"),
                           ),

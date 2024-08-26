@@ -95,7 +95,7 @@ class EnglishEntryconveyorbelt extends StatelessWidget {
                             englishText:
                                 "The conveyor belt carried the boxes to the loading dock.",
                             kurdishText:
-                                "قایشە گوازەرەوەکە سنووقی دەگواستەوە بۆ جێگەی بارکردنەکە.", // conveyor belt",
+                                "قایشە گوازەرەوەکە سنووقی دەگواستەوە بۆ جێگەی بارکردنەکە.",
                             onPressedBritish: () =>
                                 speakconveyorbelts1("en-GB"),
                             onPressedAmerican: () =>

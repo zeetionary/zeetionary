@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) توانای کردنی شتێکی ترسناک"),
           SentencesRow(
             englishText: "He showed great courage and determination.",
-            kurdishText:
-                "بوێری و کۆڵنەدانی گەورەی پیشاندا.", // courage", please follow LX instructions
+            kurdishText: "بوێری و کۆڵنەدانی گەورەی پیشاندا.",
             onPressedBritish: () => speakcourages1("en-GB"),
             onPressedAmerican: () => speakcourages1("en-US"),
           ),

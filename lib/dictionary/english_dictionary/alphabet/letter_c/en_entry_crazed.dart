@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) پڕ لە ھەست و بەبێ کۆنترۆڵ"),
           SentencesRow(
             englishText: "He became crazed with anger.",
-            kurdishText:
-                "لە تووڕەییدا ڕق‌ھەستاو بوو.", // crazed", please follow LX instructions
+            kurdishText: "لە تووڕەییدا ڕق‌ھەستاو بوو.",
             onPressedBritish: () => speakcrazeds1("en-GB"),
             onPressedAmerican: () => speakcrazeds1("en-US"),
           ),

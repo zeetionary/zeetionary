@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) بە واتایەکی شاراوە یان سەخت بۆ تێگەشتن"),
           SentencesRow(
             englishText: "I got a cryptic text message from Sam.",
-            kurdishText:
-                "نامەیەکی سڕاویم پێگەشت لە سامەوە.", // cryptic", please follow LX instructions
+            kurdishText: "نامەیەکی سڕاویم پێگەشت لە سامەوە.",
             onPressedBritish: () => speakcryptics1("en-GB"),
             onPressedAmerican: () => speakcryptics1("en-US"),
           ),

@@ -182,7 +182,7 @@ class EnglishEntrycarrier extends StatelessWidget {
                             englishText:
                                 "Delta Air Lines is the third-largest carrier in the US.",
                             kurdishText:
-                                "ھێڵی ئاسمانی دەلتا سێیەم گەورەترینە کۆمپانیای گوێزانەوەیە لە ئەمرکادا.", // carrier",
+                                "ھێڵی ئاسمانی دەلتا سێیەم گەورەترینە کۆمپانیای گوێزانەوەیە لە ئەمرکادا.",
                             onPressedBritish: () => speakcarriers1("en-GB"),
                             onPressedAmerican: () => speakcarriers1("en-US"),
                           ),

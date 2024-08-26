@@ -100,7 +100,7 @@ class EnglishEntryconfiscate extends StatelessWidget {
                             englishText:
                                 "Their land was confiscated after the war.",
                             kurdishText:
-                                "زەوییەکەیان دەستی بەسەردا گیرا لە دوای جەنگەکە.", // confiscate",
+                                "زەوییەکەیان دەستی بەسەردا گیرا لە دوای جەنگەکە.",
                             onPressedBritish: () => speakconfiscates1("en-GB"),
                             onPressedAmerican: () => speakconfiscates1("en-US"),
                           ),

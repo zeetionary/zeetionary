@@ -180,7 +180,7 @@ class EnglishEntrycalculating extends StatelessWidget {
                             englishText:
                                 "I never realized you could be so calculating.",
                             kurdishText:
-                                "ھەرگیز نەمزانی دەکرا ھێندە زرنگ بیت.", // calculating",
+                                "ھەرگیز نەمزانی دەکرا ھێندە زرنگ بیت.",
                             onPressedBritish: () => speakcalculatings1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcalculatings1("en-US"),

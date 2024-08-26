@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) دانانی شتێک یان کەسێک بە زۆر لە شوێنێکی بچووکدا"),
           SentencesRow(
             englishText: "He crammed eight people into his car.",
-            kurdishText:
-                "ھەشت کەسی تەپاندە ناو ئۆتۆمبێلەکەی.", // cram", please follow LX instructions
+            kurdishText: "ھەشت کەسی تەپاندە ناو ئۆتۆمبێلەکەی.",
             onPressedBritish: () => speakcrams1("en-GB"),
             onPressedAmerican: () => speakcrams1("en-US"),
           ),

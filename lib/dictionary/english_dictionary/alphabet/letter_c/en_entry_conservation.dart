@@ -118,7 +118,7 @@ class EnglishEntryconservation extends StatelessWidget {
                             englishText:
                                 "Road development in the area has been limited by conservation programmes.",
                             kurdishText:
-                                "پەرەپێدانی ڕێگا لە ناوچەکە سنووردار کراوە بە پڕۆگرامی پاراستنی ژینگەیی.", // conservation",
+                                "پەرەپێدانی ڕێگا لە ناوچەکە سنووردار کراوە بە پڕۆگرامی پاراستنی ژینگەیی.",
                             onPressedBritish: () =>
                                 speakconservations1("en-GB"),
                             onPressedAmerican: () =>

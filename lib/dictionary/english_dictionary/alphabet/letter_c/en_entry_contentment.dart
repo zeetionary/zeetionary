@@ -98,8 +98,7 @@ class EnglishEntrycontentment extends StatelessWidget {
                               text: "١. (ناو) ھەستی دڵخۆشی و ئاسوودەیی"),
                           SentencesRow(
                             englishText: "He has found contentment at last.",
-                            kurdishText:
-                                "لە کۆتاییدا بە دڵخۆشی گەشت.", // contentment",
+                            kurdishText: "لە کۆتاییدا بە دڵخۆشی گەشت.",
                             onPressedBritish: () => speakcontentments1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontentments1("en-US"),

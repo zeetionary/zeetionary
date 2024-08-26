@@ -447,7 +447,7 @@ class EnglishEntrycase extends StatelessWidget {
                             englishText:
                                 "In some cases people have had to wait several weeks for an appointment.",
                             kurdishText:
-                                "لە زۆر حاڵەتدا خەڵکی پێویست بووە ژمارەیەک ھەفتە چاوەڕێ بن بۆ چاوپێکەوتنێک.", // case",
+                                "لە زۆر حاڵەتدا خەڵکی پێویست بووە ژمارەیەک ھەفتە چاوەڕێ بن بۆ چاوپێکەوتنێک.",
                             onPressedBritish: () => speakcases1("en-GB"),
                             onPressedAmerican: () => speakcases1("en-US"),
                           ),

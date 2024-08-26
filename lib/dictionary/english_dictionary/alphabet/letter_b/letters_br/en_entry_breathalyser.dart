@@ -135,7 +135,7 @@ class EnglishEntrybreathalyser extends StatelessWidget {
                             englishText:
                                 "The police officer asked the driver to blow into the breathalyser.",
                             kurdishText:
-                                "ئەفسەری پۆلیسەکە داوای لە شۆفێرەکە کرد فوو بکات بە ھەناسەپێوەکەدا.", // breathalyser" as
+                                "ئەفسەری پۆلیسەکە داوای لە شۆفێرەکە کرد فوو بکات بە ھەناسەپێوەکەدا.",
                             onPressedBritish: () =>
                                 speakbreathalysers1("en-GB"),
                             onPressedAmerican: () =>

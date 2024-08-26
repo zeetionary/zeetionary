@@ -138,8 +138,7 @@ class EnglishEntrybrigade extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "A special army brigade is to be formed.",
-                            kurdishText:
-                                "لیوایەکی تایبەتی سوپا درووست دەکرێت.", // brigade" as
+                            kurdishText: "لیوایەکی تایبەتی سوپا درووست دەکرێت.",
                             onPressedBritish: () => speakbrigades1("en-GB"),
                             onPressedAmerican: () => speakbrigades1("en-US"),
                           ),

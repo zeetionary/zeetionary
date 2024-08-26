@@ -124,7 +124,7 @@ class EnglishEntrycollar extends StatelessWidget {
                             englishText:
                                 "He wore a collar and tie for the occasion.",
                             kurdishText:
-                                "جلێکی ملیواندار و بۆینباخی لەبەرکرد بۆ بۆنەکە.", // collar",
+                                "جلێکی ملیواندار و بۆینباخی لەبەرکرد بۆ بۆنەکە.",
                             onPressedBritish: () => speakcollars1("en-GB"),
                             onPressedAmerican: () => speakcollars1("en-US"),
                           ),

@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The general ordered a counterattack to regain control of the situation.",
             kurdishText:
-                "ژەنەڕاڵەکە فەرمانی بە ھێرشێکی پێچەوانە کرد بۆ بەدەستھێنانەوەی کۆنترۆڵی دۆخەکە.", // counter-", please follow LX instructions
+                "ژەنەڕاڵەکە فەرمانی بە ھێرشێکی پێچەوانە کرد بۆ بەدەستھێنانەوەی کۆنترۆڵی دۆخەکە.",
             onPressedBritish: () => speakcountertwos1("en-GB"),
             onPressedAmerican: () => speakcountertwos1("en-US"),
           ),

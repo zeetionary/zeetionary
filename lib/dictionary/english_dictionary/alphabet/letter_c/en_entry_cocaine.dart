@@ -94,7 +94,7 @@ class EnglishEntrycocaine extends StatelessWidget {
                             englishText:
                                 "He became addicted to cocaine in his twenties.",
                             kurdishText:
-                                "لە بیستەکانی تەمەنیدا ئاڵوودە بوو بە کۆکاین.", // cocaine",
+                                "لە بیستەکانی تەمەنیدا ئاڵوودە بوو بە کۆکاین.",
                             onPressedBritish: () => speakcocaines1("en-GB"),
                             onPressedAmerican: () => speakcocaines1("en-US"),
                           ),

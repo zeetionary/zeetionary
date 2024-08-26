@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She had kept all the press cuttings about the murder.",
-            kurdishText:
-                "ھەموو لێکراوەکانی میدیای سەبارەت بە کوشتنەکە ھەڵگرت.", // cutting", please follow LX instructions
+            kurdishText: "ھەموو لێکراوەکانی میدیای سەبارەت بە کوشتنەکە ھەڵگرت.",
             onPressedBritish: () => speakcuttings1("en-GB"),
             onPressedAmerican: () => speakcuttings1("en-US"),
           ),

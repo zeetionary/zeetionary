@@ -94,7 +94,7 @@ class EnglishEntrycholera extends StatelessWidget {
                             englishText:
                                 "A cholera epidemic swept the country.",
                             kurdishText:
-                                "بڵاوبوونەوەیەکی بەربڵاوی کۆلێرا لە وڵاتەکە ڕوویدا.", // cholera",
+                                "بڵاوبوونەوەیەکی بەربڵاوی کۆلێرا لە وڵاتەکە ڕوویدا.",
                             onPressedBritish: () => speakcholeras1("en-GB"),
                             onPressedAmerican: () => speakcholeras1("en-US"),
                           ),

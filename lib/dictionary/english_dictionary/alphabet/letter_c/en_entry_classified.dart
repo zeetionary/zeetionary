@@ -109,7 +109,7 @@ class EnglishEntryclassified extends StatelessWidget {
                             englishText:
                                 "These documents contain classified material.",
                             kurdishText:
-                                "ئەم بەڵگەنامانە زانیاری نھێنی لەخۆدەگرن.", // classified",
+                                "ئەم بەڵگەنامانە زانیاری نھێنی لەخۆدەگرن.",
                             onPressedBritish: () => speakclassifieds1("en-GB"),
                             onPressedAmerican: () => speakclassifieds1("en-US"),
                           ),

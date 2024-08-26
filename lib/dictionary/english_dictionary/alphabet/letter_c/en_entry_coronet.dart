@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The painting of the queen showed her wearing a golden coronet.",
             kurdishText:
-                "تابلۆی شاژنەکە پیشانی دا بە لەسەرکردنی تاجۆکەیەکی ئاڵتوونییەوە.", // coronet", please follow LX instructions
+                "تابلۆی شاژنەکە پیشانی دا بە لەسەرکردنی تاجۆکەیەکی ئاڵتوونییەوە.",
             onPressedBritish: () => speakcoronets1("en-GB"),
             onPressedAmerican: () => speakcoronets1("en-US"),
           ),

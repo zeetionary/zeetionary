@@ -102,7 +102,7 @@ class EnglishEntrychariot extends StatelessWidget {
                             englishText:
                                 "The warriors rode into battle in a chariot.",
                             kurdishText:
-                                "جەنگاوەرەکان چوونە جەنگەوە بە ئەڕابە.", // chariot",
+                                "جەنگاوەرەکان چوونە جەنگەوە بە ئەڕابە.",
                             onPressedBritish: () => speakchariots1("en-GB"),
                             onPressedAmerican: () => speakchariots1("en-US"),
                           ),

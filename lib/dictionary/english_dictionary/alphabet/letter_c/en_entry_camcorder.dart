@@ -181,7 +181,7 @@ class EnglishEntrycamcorder extends StatelessWidget {
                             englishText:
                                 "He captured the family vacation memories using his camcorder.",
                             kurdishText:
-                                "یادەوەرییەکانی گەشتە خێزانییەکەی بە کامێرا دەستییەکەی وێنە گرت.", // camcorder
+                                "یادەوەرییەکانی گەشتە خێزانییەکەی بە کامێرا دەستییەکەی وێنە گرت",
                             onPressedBritish: () => speakcamcorders1("en-GB"),
                             onPressedAmerican: () => speakcamcorders1("en-US"),
                           ),

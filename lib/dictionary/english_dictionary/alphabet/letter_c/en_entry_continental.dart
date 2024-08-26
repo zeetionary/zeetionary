@@ -117,7 +117,7 @@ class EnglishEntrycontinental extends StatelessWidget {
                             englishText:
                                 "Most continental men like British women.",
                             kurdishText:
-                                "زۆرێک لە پیاوە ئەورووپاییەکان حەزیان بە ژنانی بەریتانییە.", // continental",
+                                "زۆرێک لە پیاوە ئەورووپاییەکان حەزیان بە ژنانی بەریتانییە.",
                             onPressedBritish: () => speakcontinentals1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontinentals1("en-US"),

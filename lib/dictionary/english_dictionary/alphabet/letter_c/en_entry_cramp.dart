@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئازارێکی لەناکاو کە تووشی دەبیت کاتێک ماسولکەکانی بەشێکی دیاریکراوی جەستەت گرژ دەبن، بەزۆری بەھۆی سەرما یان زۆر وەرزشکردنەوە دروست دەبێت"),
           SentencesRow(
             englishText: "I was beginning to get cramp in my leg.",
-            kurdishText:
-                "ژانێک لە لاقمدا درووست بووە.", // cramp", please follow LX instructions
+            kurdishText: "ژانێک لە لاقمدا درووست بووە.",
             onPressedBritish: () => speakcramps1("en-GB"),
             onPressedAmerican: () => speakcramps1("en-US"),
           ),

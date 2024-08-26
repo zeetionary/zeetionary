@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە شارەزاییەکی تایبەتی ھەیە، بەتایبەتی کەسێک کە کاری دەستی دەکات"),
           SentencesRow(
             englishText: "It is clearly the work of a master craftsman.",
-            kurdishText:
-                "بە ئاشکرایی کاری پیشەسازێکی لێزانە.", // craftsman", please follow LX instructions
+            kurdishText: "بە ئاشکرایی کاری پیشەسازێکی لێزانە.",
             onPressedBritish: () => speakcraftsmans1("en-GB"),
             onPressedAmerican: () => speakcraftsmans1("en-US"),
           ),

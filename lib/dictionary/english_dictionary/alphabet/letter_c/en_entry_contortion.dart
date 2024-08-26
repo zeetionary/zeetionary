@@ -118,7 +118,7 @@ class EnglishEntrycontortion extends StatelessWidget {
                             englishText:
                                 "His facial contortions amused the schoolchildren.",
                             kurdishText:
-                                "خواروخێچی ڕووخساری منداڵانی قوتابخانەکەی دڵخۆش کرد.", // contortion",
+                                "خواروخێچی ڕووخساری منداڵانی قوتابخانەکەی دڵخۆش کرد.",
                             onPressedBritish: () => speakcontortions1("en-GB"),
                             onPressedAmerican: () => speakcontortions1("en-US"),
                           ),

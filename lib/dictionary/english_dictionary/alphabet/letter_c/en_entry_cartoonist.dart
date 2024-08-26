@@ -178,7 +178,7 @@ class EnglishEntrycartoonist extends StatelessWidget {
                             englishText:
                                 "The talented cartoonist captured political issues through witty illustrations.",
                             kurdishText:
-                                "کاریکاتۆرکێشە بەھرەدارەکە کێشە سیاسییەکانی دەربڕی لە ڕوون‌کردنەوە زیرەکانەکەیدا.", // cartoonist",
+                                "کاریکاتۆرکێشە بەھرەدارەکە کێشە سیاسییەکانی دەربڕی لە ڕوون‌کردنەوە زیرەکانەکەیدا.",
                             onPressedBritish: () => speakcartoonists1("en-GB"),
                             onPressedAmerican: () => speakcartoonists1("en-US"),
                           ),

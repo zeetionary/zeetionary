@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They drove to the little creek where they kept their fishing boat.",
             kurdishText:
-                "چوونە زێیە بچووکەکەوە کە تێیدا بەلەمی ڕاوکردنەکەیان ھێشتەوە.", // creek", please follow LX instructions
+                "چوونە زێیە بچووکەکەوە کە تێیدا بەلەمی ڕاوکردنەکەیان ھێشتەوە.",
             onPressedBritish: () => speakcreeks1("en-GB"),
             onPressedAmerican: () => speakcreeks1("en-US"),
           ),

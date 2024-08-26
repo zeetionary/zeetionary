@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The commander of the third army corps was killed yesterday.",
-            kurdishText:
-                "فەرماندەی یەکەی سێیەمی سوپا دوێنێ کوژرا.", // corps", please follow LX instructions
+            kurdishText: "فەرماندەی یەکەی سێیەمی سوپا دوێنێ کوژرا.",
             onPressedBritish: () => speakcorpss1("en-GB"),
             onPressedAmerican: () => speakcorpss1("en-US"),
           ),

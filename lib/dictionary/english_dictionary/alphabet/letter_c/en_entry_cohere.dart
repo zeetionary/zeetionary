@@ -111,7 +111,7 @@ class EnglishEntrycohere extends StatelessWidget {
                             englishText:
                                 "This view does not cohere with their other beliefs.",
                             kurdishText:
-                                "ئەم دیدە یەکناگرێتەوە لەگەڵ باوەڕەکانی دیکەیاندا.", // cohere",
+                                "ئەم دیدە یەکناگرێتەوە لەگەڵ باوەڕەکانی دیکەیاندا.",
                             onPressedBritish: () => speakcoheres1("en-GB"),
                             onPressedAmerican: () => speakcoheres1("en-US"),
                           ),

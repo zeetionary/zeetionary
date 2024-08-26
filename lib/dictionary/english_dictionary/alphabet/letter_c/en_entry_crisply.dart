@@ -262,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The aroma of crisply fried potatoes filled the kitchen.",
-            kurdishText:
-                "بۆنی خۆشی پەتاتەی برژاوی خرمەدار چێشتخانەکەی گرتبوو.", // crisply", please follow LX instructions
+            kurdishText: "بۆنی خۆشی پەتاتەی برژاوی خرمەدار چێشتخانەکەی گرتبوو.",
             onPressedBritish: () => speakcrisplys1("en-GB"),
             onPressedAmerican: () => speakcrisplys1("en-US"),
           ),

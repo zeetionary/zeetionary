@@ -178,7 +178,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
                             englishText:
                                 "She deplored unbridled capitalism as much as communism.",
                             kurdishText:
-                                "ھێندەی کۆمیونیزم ڕقی لە سەرمایەداریی بێ‌جڵەو بوو.", // capitalism
+                                "ھێندەی کۆمیونیزم ڕقی لە سەرمایەداریی بێ‌جڵەو بوو",
                             onPressedBritish: () => speakcapitalisms1("en-GB"),
                             onPressedAmerican: () => speakcapitalisms1("en-US"),
                           ),

@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) زۆر دووبارەبوو بە ھەمان زنجیرە"),
           SentencesRow(
             englishText: "Economic activity often follows a cyclical pattern.",
-            kurdishText:
-                "چالاکی ئابووری زۆرجار بە ھەمان شێوەی زنجیرەیی دەچێت.", // cyclical", please follow LX instructions
+            kurdishText: "چالاکی ئابووری زۆرجار بە ھەمان شێوەی زنجیرەیی دەچێت.",
             onPressedBritish: () => speakcyclicals1("en-GB"),
             onPressedAmerican: () => speakcyclicals1("en-US"),
           ),

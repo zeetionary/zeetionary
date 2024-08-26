@@ -137,7 +137,7 @@ class EnglishEntrybrothel extends StatelessWidget {
                           SentencesRow(
                             englishText: "He used to visit a brothel in Paris.",
                             kurdishText:
-                                "جاران سەردانی قەحبەخانەیەکی لە پاریس دەکرد.", // brothel" as
+                                "جاران سەردانی قەحبەخانەیەکی لە پاریس دەکرد.",
                             onPressedBritish: () => speakbrothels1("en-GB"),
                             onPressedAmerican: () => speakbrothels1("en-US"),
                           ),

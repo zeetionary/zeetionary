@@ -185,7 +185,7 @@ class EnglishEntrycelsius extends StatelessWidget {
                             englishText:
                                 "Are the temperatures given in Celsius or Fahrenheit?",
                             kurdishText:
-                                "پلەکانی گەرمی بە سیلیزین یان فەھرنایت؟", // celsius",
+                                "پلەکانی گەرمی بە سیلیزین یان فەھرنایت؟",
                             onPressedBritish: () => speakcelsiuss1("en-GB"),
                             onPressedAmerican: () => speakcelsiuss1("en-US"),
                           ),

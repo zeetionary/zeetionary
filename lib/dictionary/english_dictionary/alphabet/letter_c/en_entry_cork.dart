@@ -111,7 +111,7 @@ class EnglishEntrycork extends StatelessWidget {
                             englishText:
                                 "Cork tiles are often used in music studios because they absorb sound well.",
                             kurdishText:
-                                "ناسکەخشتی تەپەدۆر زۆرجار لە ستۆدیۆی میوزیکی بەکاردێت چونکە باش دەنگ ھەڵدەمژن.", // cork",
+                                "ناسکەخشتی تەپەدۆر زۆرجار لە ستۆدیۆی میوزیکی بەکاردێت چونکە باش دەنگ ھەڵدەمژن.",
                             onPressedBritish: () => speakcorks1("en-GB"),
                             onPressedAmerican: () => speakcorks1("en-US"),
                           ),

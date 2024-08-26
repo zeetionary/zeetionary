@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The guard wielded a cudgel to fend off attackers.",
             kurdishText:
-                "پاسەوانەکە تێڵایەکی ھەڵگرت بۆ دوورخستنەوەی ھێرشکارەکان.", // cudgel", please follow LX instructions
+                "پاسەوانەکە تێڵایەکی ھەڵگرت بۆ دوورخستنەوەی ھێرشکارەکان.",
             onPressedBritish: () => speakcudgels1("en-GB"),
             onPressedAmerican: () => speakcudgels1("en-US"),
           ),

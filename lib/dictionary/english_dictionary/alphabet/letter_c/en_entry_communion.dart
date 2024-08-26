@@ -108,7 +108,7 @@ class EnglishEntrycommunion extends StatelessWidget {
                             englishText:
                                 "He lived in close communion with nature.",
                             kurdishText:
-                                "لە پەیوەندی نزیکدا لەگەڵ سرووشت دەژیا.", // communion",
+                                "لە پەیوەندی نزیکدا لەگەڵ سرووشت دەژیا.",
                             onPressedBritish: () => speakcommunions1("en-GB"),
                             onPressedAmerican: () => speakcommunions1("en-US"),
                           ),

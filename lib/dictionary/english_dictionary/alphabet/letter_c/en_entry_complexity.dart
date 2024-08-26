@@ -110,7 +110,7 @@ class EnglishEntrycomplexity extends StatelessWidget {
                             englishText:
                                 "I was astonished by the size and complexity of the problem.",
                             kurdishText:
-                                "سەرسام بووم بە ئەندازە و ئاڵۆزی کێشەکە.", // complexity",
+                                "سەرسام بووم بە ئەندازە و ئاڵۆزی کێشەکە.",
                             onPressedBritish: () => speakcomplexitys1("en-GB"),
                             onPressedAmerican: () => speakcomplexitys1("en-US"),
                           ),

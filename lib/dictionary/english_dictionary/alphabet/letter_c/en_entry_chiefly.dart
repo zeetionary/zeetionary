@@ -102,7 +102,7 @@ class EnglishEntrychiefly extends StatelessWidget {
                             englishText:
                                 "He's travelled widely, chiefly in Africa and Asia.",
                             kurdishText:
-                                "بەفراوانی گەشت دەکات، بەتایبەتی لە ئەفریقا و ئاسیا.", // chiefly",
+                                "بەفراوانی گەشت دەکات، بەتایبەتی لە ئەفریقا و ئاسیا.",
                             onPressedBritish: () => speakchieflys1("en-GB"),
                             onPressedAmerican: () => speakchieflys1("en-US"),
                           ),

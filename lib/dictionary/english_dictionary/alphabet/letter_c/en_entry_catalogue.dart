@@ -181,7 +181,7 @@ class EnglishEntrycatalogue extends StatelessWidget {
                             englishText:
                                 "An illustrated catalogue accompanies the exhibition.",
                             kurdishText:
-                                "کاتەلۆگێکی وێنەدار لەگەڵ پێشانگاکەیە.", // catalogue",
+                                "کاتەلۆگێکی وێنەدار لەگەڵ پێشانگاکەیە.",
                             onPressedBritish: () => speakcatalogues1("en-GB"),
                             onPressedAmerican: () => speakcatalogues1("en-US"),
                           ),

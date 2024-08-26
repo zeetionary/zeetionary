@@ -102,7 +102,7 @@ class EnglishEntryconstancy extends StatelessWidget {
                             englishText:
                                 "The constancy of temperature inside the plane ensured a comfortable flight for the passengers.",
                             kurdishText:
-                                "نەگۆڕی پلەی گەرمی لەناو فڕۆکەکەدا دڵنیایی لە گەشتێکی ئارام بۆ گەشتیاران کردەوە.", // constancy",
+                                "نەگۆڕی پلەی گەرمی لەناو فڕۆکەکەدا دڵنیایی لە گەشتێکی ئارام بۆ گەشتیاران کردەوە.",
                             onPressedBritish: () => speakconstancys1("en-GB"),
                             onPressedAmerican: () => speakconstancys1("en-US"),
                           ),

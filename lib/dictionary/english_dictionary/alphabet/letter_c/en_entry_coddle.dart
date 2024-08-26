@@ -99,7 +99,7 @@ class EnglishEntrycoddle extends StatelessWidget {
                                   "١. (کردار) مامەڵەکردن لەگەڵ کەسێک بە ئاگایی و سەرنجی زۆرەوە"),
                           SentencesRow(
                             englishText: "She coddles him like a child.",
-                            kurdishText: "وەک منداڵ دەیلاوێنێتەوە.", // coddle",
+                            kurdishText: "وەک منداڵ دەیلاوێنێتەوە.",
                             onPressedBritish: () => speakcoddles1("en-GB"),
                             onPressedAmerican: () => speakcoddles1("en-US"),
                           ),

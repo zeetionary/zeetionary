@@ -148,8 +148,7 @@ class EnglishEntryconstitution extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Britain does not have a written constitution.",
-                            kurdishText:
-                                "بەریتانیا دەستووری نووسراوی نییە.", // constitution",
+                            kurdishText: "بەریتانیا دەستووری نووسراوی نییە.",
                             onPressedBritish: () =>
                                 speakconstitutions1("en-GB"),
                             onPressedAmerican: () =>

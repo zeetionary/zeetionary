@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "How many cubic metres of water are needed to fill the tank?",
-            kurdishText:
-                "چەند مەتر سێجا ئاو پێویستە بۆ پڕکردنی تەنکییەکە.", // cubic", please follow LX instructions
+            kurdishText: "چەند مەتر سێجا ئاو پێویستە بۆ پڕکردنی تەنکییەکە.",
             onPressedBritish: () => speakcubics1("en-GB"),
             onPressedAmerican: () => speakcubics1("en-US"),
           ),

@@ -289,8 +289,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دەنگێک وەک ئەوەی شتێکی ڕەق پەستانی بخرێتە سەر یان بشکێندرێت"),
           SentencesRow(
             englishText: "The car drew up with a crunch of gravel.",
-            kurdishText:
-                "ئۆتۆمبێلەکە وەستا بە دەنگی خشەی زیخ.", // crunch", please follow LX instructions
+            kurdishText: "ئۆتۆمبێلەکە وەستا بە دەنگی خشەی زیخ.",
             onPressedBritish: () => speakcrunchs1("en-GB"),
             onPressedAmerican: () => speakcrunchs1("en-US"),
           ),

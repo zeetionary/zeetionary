@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She wrote a feminist critique of Freud's theories.",
             kurdishText:
-                "کارێکی ڕەخنەگری فێمینیزمانەی بیردۆزەکانی فرۆیدی نووسی.", // critique", please follow LX instructions
+                "کارێکی ڕەخنەگری فێمینیزمانەی بیردۆزەکانی فرۆیدی نووسی.",
             onPressedBritish: () => speakcritiques1("en-GB"),
             onPressedAmerican: () => speakcritiques1("en-US"),
           ),

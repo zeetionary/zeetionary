@@ -110,7 +110,7 @@ class EnglishEntrycomparable extends StatelessWidget {
                             englishText:
                                 "A comparable house in the south of the city would cost twice as much.",
                             kurdishText:
-                                "خانوویەکی ھاوشێوە لە باشووری شارەکە دوو ھێندەی تێدەچێت.", // comparable",
+                                "خانوویەکی ھاوشێوە لە باشووری شارەکە دوو ھێندەی تێدەچێت.",
                             onPressedBritish: () => speakcomparables1("en-GB"),
                             onPressedAmerican: () => speakcomparables1("en-US"),
                           ),

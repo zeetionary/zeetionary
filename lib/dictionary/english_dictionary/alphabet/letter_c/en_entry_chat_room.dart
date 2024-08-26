@@ -94,7 +94,7 @@ class EnglishEntrychatroom extends StatelessWidget {
                             englishText:
                                 "You can't believe all the stories you hear in internet chat rooms.",
                             kurdishText:
-                                "نابێت باوەڕ بکەیت بە ھەموو ئەو چیرۆکانەی ناو چات‌ڕوومەکانی سەر ئینتەرنێت بکەیت .", // chat room",
+                                "نابێت باوەڕ بکەیت بە ھەموو ئەو چیرۆکانەی ناو چات‌ڕوومەکانی سەر ئینتەرنێت بکەیت .",
                             onPressedBritish: () => speakchatrooms1("en-GB"),
                             onPressedAmerican: () => speakchatrooms1("en-US"),
                           ),

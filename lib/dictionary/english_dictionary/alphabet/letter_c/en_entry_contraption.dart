@@ -94,7 +94,7 @@ class EnglishEntrycontraption extends StatelessWidget {
                             englishText:
                                 "What's that strange contraption in the garage?",
                             kurdishText:
-                                "ئەو شتە سەمەرە نامۆیە چییە لە گەراجەکەدا؟", // contraption",
+                                "ئەو شتە سەمەرە نامۆیە چییە لە گەراجەکەدا؟",
                             onPressedBritish: () => speakcontraptions1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontraptions1("en-US"),

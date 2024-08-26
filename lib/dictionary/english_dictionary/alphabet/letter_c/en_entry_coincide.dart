@@ -125,7 +125,7 @@ class EnglishEntrycoincide extends StatelessWidget {
                             englishText:
                                 "It's a pity our trips to New York don't coincide.",
                             kurdishText:
-                                "جێگەی داخە گەشتەکانمان بۆ نیویۆرک ھاوکات نابن.", // coincide",
+                                "جێگەی داخە گەشتەکانمان بۆ نیویۆرک ھاوکات نابن.",
                             onPressedBritish: () => speakcoincides1("en-GB"),
                             onPressedAmerican: () => speakcoincides1("en-US"),
                           ),

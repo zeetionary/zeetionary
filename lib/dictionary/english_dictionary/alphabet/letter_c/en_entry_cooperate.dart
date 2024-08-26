@@ -117,7 +117,7 @@ class EnglishEntrycooperate extends StatelessWidget {
                             englishText:
                                 "The two groups agreed to cooperate with each other.",
                             kurdishText:
-                                "دوو گرووپەکە ڕازی بوون پێکەوە کار بکەن.", // cooperate",
+                                "دوو گرووپەکە ڕازی بوون پێکەوە کار بکەن.",
                             onPressedBritish: () => speakcooperates1("en-GB"),
                             onPressedAmerican: () => speakcooperates1("en-US"),
                           ),

@@ -96,7 +96,7 @@ class EnglishEntrycolloquialism extends StatelessWidget {
                             englishText:
                                 "\"Gonna\" is a colloquialism for \"going to.\"",
                             kurdishText:
-                                "\"Gonna\" وشەی ئاخاوتنە بۆ \"going to.\".", // colloquialism",
+                                "\"Gonna\" وشەی ئاخاوتنە بۆ \"going to.\".",
                             onPressedBritish: () =>
                                 speakcolloquialisms1("en-GB"),
                             onPressedAmerican: () =>

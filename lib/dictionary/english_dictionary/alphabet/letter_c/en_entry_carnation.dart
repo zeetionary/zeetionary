@@ -173,8 +173,7 @@ class EnglishEntrycarnation extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He was wearing a carnation in his buttonhole.",
-                            kurdishText:
-                                "گوڵێکی بەستبوو لە کونەدوگمەکەی.", // carnation",
+                            kurdishText: "گوڵێکی بەستبوو لە کونەدوگمەکەی.",
                             onPressedBritish: () => speakcarnations1("en-GB"),
                             onPressedAmerican: () => speakcarnations1("en-US"),
                           ),

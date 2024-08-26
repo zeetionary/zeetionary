@@ -179,7 +179,7 @@ class EnglishEntrycayenne extends StatelessWidget {
                             englishText:
                                 "Cayenne peppers are long, thin, and typically measure between 10-25 cm.",
                             kurdishText:
-                                "بیبەرەسوورە درێژ و باریکن و بەزۆری لە نێوان ١٠-٢٥ سم دەبن.", // cayenne",
+                                "بیبەرەسوورە درێژ و باریکن و بەزۆری لە نێوان ١٠-٢٥ سم دەبن.",
                             onPressedBritish: () => speakcayennes1("en-GB"),
                             onPressedAmerican: () => speakcayennes1("en-US"),
                           ),

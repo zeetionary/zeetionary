@@ -179,7 +179,7 @@ class EnglishEntrycarnal extends StatelessWidget {
                             englishText:
                                 "The intimate scenes in the movie depicted the characters' carnal attraction.",
                             kurdishText:
-                                "دیمەنی ورووژێنەری فیلمەکە سەرنجڕاکێشی شەھوەتی کارەکتەرەکەی پیشاندا.", // carnal",
+                                "دیمەنی ورووژێنەری فیلمەکە سەرنجڕاکێشی شەھوەتی کارەکتەرەکەی پیشاندا.",
                             onPressedBritish: () => speakcarnals1("en-GB"),
                             onPressedAmerican: () => speakcarnals1("en-US"),
                           ),

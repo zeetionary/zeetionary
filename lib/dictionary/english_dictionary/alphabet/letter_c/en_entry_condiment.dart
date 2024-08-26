@@ -95,7 +95,7 @@ class EnglishEntrycondiment extends StatelessWidget {
                             englishText:
                                 "The table was set with various condiments, including vinegar, ketchup, and salt.",
                             kurdishText:
-                                "مێزەکە پڕ بوو لە ژمارەیەک لە تامی وەک سرکە و کەچەپ و خوێ.", // condiment",
+                                "مێزەکە پڕ بوو لە ژمارەیەک لە تامی وەک سرکە و کەچەپ و خوێ.",
                             onPressedBritish: () => speakcondiments1("en-GB"),
                             onPressedAmerican: () => speakcondiments1("en-US"),
                           ),

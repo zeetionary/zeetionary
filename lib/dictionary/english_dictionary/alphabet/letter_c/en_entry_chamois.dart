@@ -103,7 +103,7 @@ class EnglishEntrychamois extends StatelessWidget {
                             englishText:
                                 "The chamois's keen sense of balance allows it to traverse narrow ledges and cliffs with ease.",
                             kurdishText:
-                                "ھەستی تیژی ھاوسەنگی‌ڕاگرتنی بزنەکێوی ڕێگەی پێدەدات لێوارە تەسکەکان و قەدپاڵەکان بە ئاسانی ببڕێت.", // chamois",
+                                "ھەستی تیژی ھاوسەنگی‌ڕاگرتنی بزنەکێوی ڕێگەی پێدەدات لێوارە تەسکەکان و قەدپاڵەکان بە ئاسانی ببڕێت.",
                             onPressedBritish: () => speakchamoiss1("en-GB"),
                             onPressedAmerican: () => speakchamoiss1("en-US"),
                           ),

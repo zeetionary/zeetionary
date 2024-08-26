@@ -148,7 +148,7 @@ class EnglishEntrycomparison extends StatelessWidget {
                             englishText:
                                 "Comparison with other oil-producing countries is extremely interesting.",
                             kurdishText:
-                                "بەراوردکاری لەگەڵ وڵاتانی دیکەی بەرھەمھێنەری نەوت سەرنجڕاکشە.", // comparison",
+                                "بەراوردکاری لەگەڵ وڵاتانی دیکەی بەرھەمھێنەری نەوت سەرنجڕاکشە.",
                             onPressedBritish: () => speakcomparisons1("en-GB"),
                             onPressedAmerican: () => speakcomparisons1("en-US"),
                           ),

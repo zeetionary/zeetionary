@@ -110,7 +110,7 @@ class EnglishEntryconsiderately extends StatelessWidget {
                             englishText:
                                 "She drives carefully and considerately.",
                             kurdishText:
-                                "بە وریایی و بیرفراوانییەوە شۆفێری دەکات.", // considerately",
+                                "بە وریایی و بیرفراوانییەوە شۆفێری دەکات.",
                             onPressedBritish: () =>
                                 speakconsideratelys1("en-GB"),
                             onPressedAmerican: () =>

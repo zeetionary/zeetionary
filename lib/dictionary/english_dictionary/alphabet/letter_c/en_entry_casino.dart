@@ -174,7 +174,7 @@ class EnglishEntrycasino extends StatelessWidget {
                             englishText:
                                 "He opened a new casino in California.",
                             kurdishText:
-                                "قومارخانەیەکی تازەی لە کالیفۆرنیا کردەوە.", // casino",
+                                "قومارخانەیەکی تازەی لە کالیفۆرنیا کردەوە.",
                             onPressedBritish: () => speakcasinos1("en-GB"),
                             onPressedAmerican: () => speakcasinos1("en-US"),
                           ),

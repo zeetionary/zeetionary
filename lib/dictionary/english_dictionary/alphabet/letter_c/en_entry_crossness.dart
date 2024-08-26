@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
           SentencesRow(
             englishText: "// speakcrossnesss111111111111111111111111111111111",
-            kurdishText:
-                "رستە_رستە_رستە_رستە.", // crossness", please follow LX instructions
+            kurdishText: "رستە_رستە_رستە_رستە.",
             onPressedBritish: () => speakcrossnesss1("en-GB"),
             onPressedAmerican: () => speakcrossnesss1("en-US"),
           ),

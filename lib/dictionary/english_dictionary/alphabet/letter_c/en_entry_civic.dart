@@ -110,7 +110,7 @@ class EnglishEntrycivic extends StatelessWidget {
                             englishText:
                                 "The prime minister met many civic leaders, including the mayor and the leaders of immigrant communities.",
                             kurdishText:
-                                "سەرۆک وەزیران ژمارەیەکی زۆری سەرکردەی شارەکانی بینیوە، لە نێوانیاندا سەرۆک شارەوانی و سەرکردەکانی کۆمەڵگەکانی پەنابەران.", // civic",
+                                "سەرۆک وەزیران ژمارەیەکی زۆری سەرکردەی شارەکانی بینیوە، لە نێوانیاندا سەرۆک شارەوانی و سەرکردەکانی کۆمەڵگەکانی پەنابەران.",
                             onPressedBritish: () => speakcivics1("en-GB"),
                             onPressedAmerican: () => speakcivics1("en-US"),
                           ),

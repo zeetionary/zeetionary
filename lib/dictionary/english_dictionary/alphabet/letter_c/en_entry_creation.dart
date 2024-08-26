@@ -275,8 +275,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) درووستکردنی شتێکی تازە، یان شتێک کە پێشووتر بوونی نەبووە"),
           SentencesRow(
             englishText: "Job creation needs to be the top priority.",
-            kurdishText:
-                "ڕەخساندنی کار ئەولەویەتی سەرەکییە.", // creation", please follow LX instructions
+            kurdishText: "ڕەخساندنی کار ئەولەویەتی سەرەکییە.",
             onPressedBritish: () => speakcreations1("en-GB"),
             onPressedAmerican: () => speakcreations1("en-US"),
           ),

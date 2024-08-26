@@ -100,8 +100,7 @@ class EnglishEntrycoarseness extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The coarseness of the cloth irritated her skin.",
-                            kurdishText:
-                                "زبری قوماشەکە پێستی جاڕس دەکرد.", // coarseness",
+                            kurdishText: "زبری قوماشەکە پێستی جاڕس دەکرد.",
                             onPressedBritish: () => speakcoarsenesss1("en-GB"),
                             onPressedAmerican: () => speakcoarsenesss1("en-US"),
                           ),

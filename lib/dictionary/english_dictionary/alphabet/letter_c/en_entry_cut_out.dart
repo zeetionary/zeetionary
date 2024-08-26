@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I had my photo taken with a life-size cut-out of the actor.",
-            kurdishText:
-                "وێنەیەکم گرت لەگەڵ شێوەیەکی ڕاستەقینەی ئەکتەرەکە.", // cut-out", please follow LX instructions
+            kurdishText: "وێنەیەکم گرت لەگەڵ شێوەیەکی ڕاستەقینەی ئەکتەرەکە.",
             onPressedBritish: () => speakcutouts1("en-GB"),
             onPressedAmerican: () => speakcutouts1("en-US"),
           ),

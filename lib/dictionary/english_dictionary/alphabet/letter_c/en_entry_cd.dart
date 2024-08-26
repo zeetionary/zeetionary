@@ -174,7 +174,7 @@ class EnglishEntrycd extends StatelessWidget {
                             englishText:
                                 "His albums are available on CD and online.",
                             kurdishText:
-                                "ئەلبومەکانی لەسەر سی‌دی و بە ئۆنلاین بەردەستن.", // CD",
+                                "ئەلبومەکانی لەسەر سی‌دی و بە ئۆنلاین بەردەستن.",
                             onPressedBritish: () => speakCDs1("en-GB"),
                             onPressedAmerican: () => speakCDs1("en-US"),
                           ),

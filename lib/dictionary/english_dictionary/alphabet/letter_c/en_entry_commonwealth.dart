@@ -119,7 +119,7 @@ class EnglishEntrycommonwealth extends StatelessWidget {
                             englishText:
                                 "There is an annual meeting of Commonwealth heads of government.",
                             kurdishText:
-                                "چاوپێکەوتنێکی ساڵانەی سەرۆک حکومەتەکانی وڵاتانی کۆمۆنوێڵس دەکرێت.", // commonwealth",
+                                "چاوپێکەوتنێکی ساڵانەی سەرۆک حکومەتەکانی وڵاتانی کۆمۆنوێڵس دەکرێت.",
                             onPressedBritish: () =>
                                 speakcommonwealths1("en-GB"),
                             onPressedAmerican: () =>

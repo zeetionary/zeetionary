@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I went to see a debt counsellor and she agreed to come to the bank with me.",
             kurdishText:
-                "چووم بۆ بینینی ڕاوێکارێکی قەرزاری و ڕازی بوو لەگەڵم بێت بۆ بانکەکە.", // counsellor", please follow LX instructions
+                "چووم بۆ بینینی ڕاوێکارێکی قەرزاری و ڕازی بوو لەگەڵم بێت بۆ بانکەکە.",
             onPressedBritish: () => speakcounsellors1("en-GB"),
             onPressedAmerican: () => speakcounsellors1("en-US"),
           ),

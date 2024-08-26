@@ -104,7 +104,7 @@ class EnglishEntrycheque extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ناو) چەکی بانکی"),
                           SentencesRow(
                             englishText: "Can I write you a cheque?",
-                            kurdishText: "چەکێکت بۆ بنووسم؟", // cheque",
+                            kurdishText: "چەکێکت بۆ بنووسم؟",
                             onPressedBritish: () => speakcheques1("en-GB"),
                             onPressedAmerican: () => speakcheques1("en-US"),
                           ),

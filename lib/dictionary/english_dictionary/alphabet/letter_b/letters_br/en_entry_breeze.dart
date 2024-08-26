@@ -140,7 +140,7 @@ class EnglishEntrybreeze extends StatelessWidget {
                             englishText:
                                 "The flowers were gently swaying in the breeze.",
                             kurdishText:
-                                "گوڵەکان بە ئارامی لە سریوەکەدا دەڕاژان.", // breeze" as
+                                "گوڵەکان بە ئارامی لە سریوەکەدا دەڕاژان.",
                             onPressedBritish: () => speakbreezes1("en-GB"),
                             onPressedAmerican: () => speakbreezes1("en-US"),
                           ),

@@ -175,7 +175,7 @@ class EnglishEntrycentaur extends StatelessWidget {
                             englishText:
                                 "In Greek mythology, Chiron was a wise and noble centaur known for his teachings and healing abilities.",
                             kurdishText:
-                                "لە ئەفسانەی یۆنانیدا، کایرۆن مرۆسپێکی بیرمەند و دەوڵەمەند بوو کە ناسراو بوو بۆ توانای وانەگوتنەوەی و چارەسەرکردنی.", // centaur",
+                                "لە ئەفسانەی یۆنانیدا، کایرۆن مرۆسپێکی بیرمەند و دەوڵەمەند بوو کە ناسراو بوو بۆ توانای وانەگوتنەوەی و چارەسەرکردنی.",
                             onPressedBritish: () => speakcentaurs1("en-GB"),
                             onPressedAmerican: () => speakcentaurs1("en-US"),
                           ),

@@ -118,7 +118,7 @@ class EnglishEntryclone extends StatelessWidget {
                             englishText:
                                 "The plant clone was grown in a laboratory.",
                             kurdishText:
-                                "ڕووەکە لێکچووەکە لە تاقیگە گەشەی پێدرا.", // clone",
+                                "ڕووەکە لێکچووەکە لە تاقیگە گەشەی پێدرا.",
                             onPressedBritish: () => speakclones1("en-GB"),
                             onPressedAmerican: () => speakclones1("en-US"),
                           ),

@@ -106,8 +106,7 @@ class EnglishEntrycheers extends StatelessWidget {
                                   "١. (سەرسوڕمان) وشەیەکە لە کاتی خواردنەوەدا دەوترێت"),
                           SentencesRow(
                             englishText: "Cheers! Your good health.",
-                            kurdishText:
-                                "بەخۆشی! بۆ تەندرووستی باشت.", // cheers",
+                            kurdishText: "بەخۆشی! بۆ تەندرووستی باشت.",
                             onPressedBritish: () => speakcheerss1("en-GB"),
                             onPressedAmerican: () => speakcheerss1("en-US"),
                           ),

@@ -117,8 +117,7 @@ class EnglishEntryconvulsion extends StatelessWidget {
                           ),
                           SentencesRow(
                             englishText: "The child went into convulsions.",
-                            kurdishText:
-                                "منداڵەکە دەستی بە فێ کرد.", // convulsion",
+                            kurdishText: "منداڵەکە دەستی بە فێ کرد.",
                             onPressedBritish: () => speakconvulsions1("en-GB"),
                             onPressedAmerican: () => speakconvulsions1("en-US"),
                           ),

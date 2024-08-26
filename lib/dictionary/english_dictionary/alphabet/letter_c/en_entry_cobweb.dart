@@ -94,7 +94,7 @@ class EnglishEntrycobweb extends StatelessWidget {
                             englishText:
                                 "Thick cobwebs hung in the dusty corners.",
                             kurdishText:
-                                "تەڤنکی ئەستوور لە سووچە تۆزاوییەکاندا بوون.", // cobweb",
+                                "تەڤنکی ئەستوور لە سووچە تۆزاوییەکاندا بوون.",
                             onPressedBritish: () => speakcobwebs1("en-GB"),
                             onPressedAmerican: () => speakcobwebs1("en-US"),
                           ),

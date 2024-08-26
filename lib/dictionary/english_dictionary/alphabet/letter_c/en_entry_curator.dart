@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The museum curator carefully cataloged each new artifact.",
             kurdishText:
-                "مۆزەوانەکە بە وریاییەوە ھەموو دەسکارێکی تازەی پێڕست دەکرد.", // curator", please follow LX instructions
+                "مۆزەوانەکە بە وریاییەوە ھەموو دەسکارێکی تازەی پێڕست دەکرد.",
             onPressedBritish: () => speakcurators1("en-GB"),
             onPressedAmerican: () => speakcurators1("en-US"),
           ),

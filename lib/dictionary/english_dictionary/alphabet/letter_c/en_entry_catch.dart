@@ -445,8 +445,7 @@ class EnglishEntrycatch extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She managed to catch the keys as they fell.",
-                            kurdishText:
-                                "توانی کلیلەکان بگرێت کە کەوتن.", // catch",
+                            kurdishText: "توانی کلیلەکان بگرێت کە کەوتن.",
                             onPressedBritish: () => speakcatchs1("en-GB"),
                             onPressedAmerican: () => speakcatchs1("en-US"),
                           ),

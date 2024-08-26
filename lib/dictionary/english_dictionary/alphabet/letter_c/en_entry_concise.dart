@@ -93,8 +93,7 @@ class EnglishEntryconcise extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She gave us clear and concise instructions.",
-                            kurdishText:
-                                "ڕێنمایی کورت و پوختی پێداین.", // concise",
+                            kurdishText: "ڕێنمایی کورت و پوختی پێداین.",
                             onPressedBritish: () => speakconcises1("en-GB"),
                             onPressedAmerican: () => speakconcises1("en-US"),
                           ),

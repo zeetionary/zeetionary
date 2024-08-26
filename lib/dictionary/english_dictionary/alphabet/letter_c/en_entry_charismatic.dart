@@ -95,7 +95,7 @@ class EnglishEntrycharismatic extends StatelessWidget {
                             englishText:
                                 "Few were able to resist this charismatic and persuasive leader.",
                             kurdishText:
-                                "کەم کەس دەیانتوانی بوەستن لە پێش سەرکردە لێھاتوو و قایلکەرەکە.", // charismatic",
+                                "کەم کەس دەیانتوانی بوەستن لە پێش سەرکردە لێھاتوو و قایلکەرەکە.",
                             onPressedBritish: () => speakcharismatics1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcharismatics1("en-US"),

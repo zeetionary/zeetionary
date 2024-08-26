@@ -95,7 +95,7 @@ class EnglishEntrycharacterless extends StatelessWidget {
                             englishText:
                                 "It's just one of those characterless modern cities.",
                             kurdishText:
-                                "ھەر یەکێکە لەو شارە ناخۆشە سەردەمییانە.", // characterless",
+                                "ھەر یەکێکە لەو شارە ناخۆشە سەردەمییانە.",
                             onPressedBritish: () =>
                                 speakcharacterlesss1("en-GB"),
                             onPressedAmerican: () =>

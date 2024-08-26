@@ -234,8 +234,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He checked his current account balance online before making a purchase.",
-            kurdishText:
-                "پێش کڕین سەیری باڵانسی ھەژمارە ڕەوەنییەکەی کرد.", // current account", please follow LX instructions
+            kurdishText: "پێش کڕین سەیری باڵانسی ھەژمارە ڕەوەنییەکەی کرد.",
             onPressedBritish: () => speakcurrentaccounts1("en-GB"),
             onPressedAmerican: () => speakcurrentaccounts1("en-US"),
           ),

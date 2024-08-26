@@ -117,7 +117,7 @@ class EnglishEntrycheckmate extends StatelessWidget {
                                   "١. (کردار) لە شترەنجدا بریتییە لە دانانی ڕکابەرەکەت لە دۆخێکدا کە تێیدا نەتوانێت شاکەی لە گرتن بپارێزێت و بۆیە یارییەکە بدۆڕێنێت"),
                           SentencesRow(
                             englishText: "His king had been checkmated.",
-                            kurdishText: "شاکەی کش‌ومات درا.", // checkmate",
+                            kurdishText: "شاکەی کش‌ومات درا.",
                             onPressedBritish: () => speakcheckmates1("en-GB"),
                             onPressedAmerican: () => speakcheckmates1("en-US"),
                           ),

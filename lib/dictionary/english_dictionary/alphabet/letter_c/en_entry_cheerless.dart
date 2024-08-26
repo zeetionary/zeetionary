@@ -94,7 +94,7 @@ class EnglishEntrycheerless extends StatelessWidget {
                             englishText:
                                 "Despite the festive decorations, the party felt cheerless without her presence.",
                             kurdishText:
-                                "سەرەڕای ڕازاندنەوە تایبەتەکە، ئاھەنگەکە کزومات بوو بەبێ ئامادەیی ئەو.", // cheerless",
+                                "سەرەڕای ڕازاندنەوە تایبەتەکە، ئاھەنگەکە کزومات بوو بەبێ ئامادەیی ئەو.",
                             onPressedBritish: () => speakcheerlesss1("en-GB"),
                             onPressedAmerican: () => speakcheerlesss1("en-US"),
                           ),

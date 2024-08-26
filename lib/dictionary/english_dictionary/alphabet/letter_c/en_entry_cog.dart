@@ -94,7 +94,7 @@ class EnglishEntrycog extends StatelessWidget {
                             englishText:
                                 "The cogs in the machine turned smoothly.",
                             kurdishText:
-                                "ددانەکانی ئامێرەکە بە لەسەرخۆیی دەجوڵان.", // cog",
+                                "ددانەکانی ئامێرەکە بە لەسەرخۆیی دەجوڵان.",
                             onPressedBritish: () => speakcogs1("en-GB"),
                             onPressedAmerican: () => speakcogs1("en-US"),
                           ),

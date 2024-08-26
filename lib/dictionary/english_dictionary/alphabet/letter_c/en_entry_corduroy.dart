@@ -95,7 +95,7 @@ class EnglishEntrycorduroy extends StatelessWidget {
                             englishText:
                                 "He wore a comfortable corduroy jacket on chilly evenings.",
                             kurdishText:
-                                "چاکەتێکی کودەری ئاسوودەبەخشێ لەبەردەکرد لە شەوانی ساردا.", // corduroy",
+                                "چاکەتێکی کودەری ئاسوودەبەخشێ لەبەردەکرد لە شەوانی ساردا.",
                             onPressedBritish: () => speakcorduroys1("en-GB"),
                             onPressedAmerican: () => speakcorduroys1("en-US"),
                           ),

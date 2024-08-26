@@ -182,7 +182,7 @@ class EnglishEntrycallbox extends StatelessWidget {
                             englishText:
                                 "The campus has strategically placed call boxes for quick response to safety concerns.",
                             kurdishText:
-                                "کەمپەکە بەشێوەیەکی ستراتیژی کیوسکی تەلەفۆنی داناوە بۆ وەڵامدانەوەی خێرا لە کاتی ھەبوونی مەترسی.", // call box
+                                "کەمپەکە بەشێوەیەکی ستراتیژی کیوسکی تەلەفۆنی داناوە بۆ وەڵامدانەوەی خێرا لە کاتی ھەبوونی مەترسی.",
                             onPressedBritish: () => speakcallboxs1("en-GB"),
                             onPressedAmerican: () => speakcallboxs1("en-US"),
                           ),

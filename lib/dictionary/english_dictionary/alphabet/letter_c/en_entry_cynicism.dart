@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "In a world full of cynicism she was the one person I felt I could trust.",
             kurdishText:
-                "لە دونیایەکی پڕ لە بەدگومانیدا ئەو ئەو تاکە کەسە بوو کە ھەستم دەکرد دەتوانم متمانەی پێ بکەم.", // cynicism", please follow LX instructions
+                "لە دونیایەکی پڕ لە بەدگومانیدا ئەو ئەو تاکە کەسە بوو کە ھەستم دەکرد دەتوانم متمانەی پێ بکەم.",
             onPressedBritish: () => speakcynicisms1("en-GB"),
             onPressedAmerican: () => speakcynicisms1("en-US"),
           ),

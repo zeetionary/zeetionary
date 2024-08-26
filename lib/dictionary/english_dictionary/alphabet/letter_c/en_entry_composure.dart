@@ -102,7 +102,7 @@ class EnglishEntrycomposure extends StatelessWidget {
                             englishText:
                                 "He maintained his composure despite a desperate desire to laugh.",
                             kurdishText:
-                                "ھێمنی خۆی پاراست سەرەڕای ئارەزووی زۆری بۆ پێکەنین.", // composure",
+                                "ھێمنی خۆی پاراست سەرەڕای ئارەزووی زۆری بۆ پێکەنین.",
                             onPressedBritish: () => speakcomposures1("en-GB"),
                             onPressedAmerican: () => speakcomposures1("en-US"),
                           ),

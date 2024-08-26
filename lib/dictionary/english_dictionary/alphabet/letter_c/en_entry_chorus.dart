@@ -117,7 +117,7 @@ class EnglishEntrychorus extends StatelessWidget {
                             englishText:
                                 "I'll sing the verses and I'd like you all to join in the chorus.",
                             kurdishText:
-                                "من کۆپلەکان دەخوێنم و حەزدەکەم ئێوەش ھەمووتان لە کۆرسەکە بەژدار بن.", // chorus",
+                                "من کۆپلەکان دەخوێنم و حەزدەکەم ئێوەش ھەمووتان لە کۆرسەکە بەژدار بن.",
                             onPressedBritish: () => speakchoruss1("en-GB"),
                             onPressedAmerican: () => speakchoruss1("en-US"),
                           ),

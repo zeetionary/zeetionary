@@ -177,7 +177,7 @@ class EnglishEntrycanyoning extends StatelessWidget {
                             englishText:
                                 "Canyoning requires a permit in most national parks in the United States.",
                             kurdishText:
-                                "لە زۆرینەی پارکە نیشتیمانییەکانی ئەمریکا وەرزشی کانیۆنینگ پێویستی بە مۆڵەت ھەیە.", // canyoning
+                                "لە زۆرینەی پارکە نیشتیمانییەکانی ئەمریکا وەرزشی کانیۆنینگ پێویستی بە مۆڵەت ھەیە",
                             onPressedBritish: () => speakcanyonings1("en-GB"),
                             onPressedAmerican: () => speakcanyonings1("en-US"),
                           ),

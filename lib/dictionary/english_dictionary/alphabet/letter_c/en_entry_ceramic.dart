@@ -179,7 +179,7 @@ class EnglishEntryceramic extends StatelessWidget {
                             englishText:
                                 "The robot is made of metal, ceramic, and other materials.",
                             kurdishText:
-                                "ڕۆبۆتەکە لە کانزا، سیرامیک، و مادەی دیکە درووستکراوە.", // ceramic",
+                                "ڕۆبۆتەکە لە کانزا، سیرامیک، و مادەی دیکە درووستکراوە.",
                             onPressedBritish: () => speakceramics1("en-GB"),
                             onPressedAmerican: () => speakceramics1("en-US"),
                           ),

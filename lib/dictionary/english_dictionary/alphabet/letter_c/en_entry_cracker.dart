@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "We were offered cheese and crackers with our drinks.",
             kurdishText:
-                "لەگەڵ خواردنەوەکانمان بسکیتی سوێرمان پێدرا.", // cracker
+                "لەگەڵ خواردنەوەکانمان بسکیتی سوێرمان پێدرا.",
             onPressedBritish: () => speakcrackers1("en-GB"),
             onPressedAmerican: () => speakcrackers1("en-US"),
           ),

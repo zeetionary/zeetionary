@@ -102,7 +102,7 @@ class EnglishEntryclergy extends StatelessWidget {
                             englishText:
                                 "All the local clergy were asked to attend the ceremony.",
                             kurdishText:
-                                "تواوی پیاوە ئاینییە خۆجێییەکان داوایان لێکرا بەژداری ئاھەنگەکە بن.", // clergy",
+                                "تواوی پیاوە ئاینییە خۆجێییەکان داوایان لێکرا بەژداری ئاھەنگەکە بن.",
                             onPressedBritish: () => speakclergys1("en-GB"),
                             onPressedAmerican: () => speakclergys1("en-US"),
                           ),

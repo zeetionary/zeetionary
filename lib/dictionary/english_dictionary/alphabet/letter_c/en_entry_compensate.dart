@@ -127,7 +127,7 @@ class EnglishEntrycompensate extends StatelessWidget {
                             englishText:
                                 "Nothing can compensate for the loss of a loved one.",
                             kurdishText:
-                                "ھیچ قەرەبووی لەدەستدانی کەسیکی خۆشەویست ناکاتەوە.", // compensate",
+                                "ھیچ قەرەبووی لەدەستدانی کەسیکی خۆشەویست ناکاتەوە.",
                             onPressedBritish: () => speakcompensates1("en-GB"),
                             onPressedAmerican: () => speakcompensates1("en-US"),
                           ),

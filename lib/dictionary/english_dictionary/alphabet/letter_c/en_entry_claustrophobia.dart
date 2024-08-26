@@ -97,7 +97,7 @@ class EnglishEntryclaustrophobia extends StatelessWidget {
                             englishText:
                                 "I hate lifts—they give me claustrophobia.",
                             kurdishText:
-                                "ڕقم لە بەرزکەرەوەیە، تووشی تەنگەبەرترسیم دەکەن.", // claustrophobia",
+                                "ڕقم لە بەرزکەرەوەیە، تووشی تەنگەبەرترسیم دەکەن.",
                             onPressedBritish: () =>
                                 speakclaustrophobias1("en-GB"),
                             onPressedAmerican: () =>

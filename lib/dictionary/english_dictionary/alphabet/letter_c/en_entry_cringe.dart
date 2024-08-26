@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The puppy is very nervous and cringes at every loud noise.",
             kurdishText:
-                "توولەکە زۆر شڵەژاوە و لە ھەر دەنگێکی بەرز ڕادەچڵەکێت.", // cringe", please follow LX instructions
+                "توولەکە زۆر شڵەژاوە و لە ھەر دەنگێکی بەرز ڕادەچڵەکێت.",
             onPressedBritish: () => speakcringes1("en-GB"),
             onPressedAmerican: () => speakcringes1("en-US"),
           ),

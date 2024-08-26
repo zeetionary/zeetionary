@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Profits have risen by 15 per cent compared with the corresponding period last year.",
             kurdishText:
-                "قازانج بە ١٥ لە سەد بەرزبووەتەوە بەراورد بە ھەمان ماوەی ساڵی ڕابردوو.", // corresponding", please follow LX instructions
+                "قازانج بە ١٥ لە سەد بەرزبووەتەوە بەراورد بە ھەمان ماوەی ساڵی ڕابردوو.",
             onPressedBritish: () => speakcorrespondings1("en-GB"),
             onPressedAmerican: () => speakcorrespondings1("en-US"),
           ),

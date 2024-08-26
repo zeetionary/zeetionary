@@ -94,7 +94,7 @@ class EnglishEntryconqueror extends StatelessWidget {
                             englishText:
                                 "The disease was introduced by the Spanish conquerors in the sixteenth century.",
                             kurdishText:
-                                "نەخۆشییەکە لە سەدەی شازدە لەلایەن داگیرکەرە ئیسپانییەکانەوە ھێندرا.", // conqueror",
+                                "نەخۆشییەکە لە سەدەی شازدە لەلایەن داگیرکەرە ئیسپانییەکانەوە ھێندرا.",
                             onPressedBritish: () => speakconquerors1("en-GB"),
                             onPressedAmerican: () => speakconquerors1("en-US"),
                           ),

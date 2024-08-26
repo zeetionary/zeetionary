@@ -95,7 +95,7 @@ class EnglishEntrychildlike extends StatelessWidget {
                             englishText:
                                 "All her life she had a childlike trust in other people.",
                             kurdishText:
-                                "تەواوی ژیانی متمانەیەکی منداڵ‌ئاسای بە کەسانی دیکە ھەبوو.", // childlike",
+                                "تەواوی ژیانی متمانەیەکی منداڵ‌ئاسای بە کەسانی دیکە ھەبوو.",
                             onPressedBritish: () => speakchildlikes1("en-GB"),
                             onPressedAmerican: () => speakchildlikes1("en-US"),
                           ),

@@ -120,7 +120,7 @@ class EnglishEntrycoordination extends StatelessWidget {
                             englishText:
                                 "The aim was to improve the coordination of services.",
                             kurdishText:
-                                "ئامانجەکە ئەوە بوو پێکەوەکاری خزمەتگوزارییەکان بەھێز بکرێت.", // coordination",
+                                "ئامانجەکە ئەوە بوو پێکەوەکاری خزمەتگوزارییەکان بەھێز بکرێت.",
                             onPressedBritish: () =>
                                 speakcoordinations1("en-GB"),
                             onPressedAmerican: () =>

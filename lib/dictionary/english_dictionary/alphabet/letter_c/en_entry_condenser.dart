@@ -95,7 +95,7 @@ class EnglishEntrycondenser extends StatelessWidget {
                             englishText:
                                 "The refrigerator's condenser works to cool the air inside, keeping the food fresh.",
                             kurdishText:
-                                "فرێزەری بەفرگرەکە کار دەکات بۆ ئەوەی ھەوای ناوەوە سارد بکات و خواردنەکان بە تازەیی بھێڵێت.", // condenser",
+                                "فرێزەری بەفرگرەکە کار دەکات بۆ ئەوەی ھەوای ناوەوە سارد بکات و خواردنەکان بە تازەیی بھێڵێت.",
                             onPressedBritish: () => speakcondensers1("en-GB"),
                             onPressedAmerican: () => speakcondensers1("en-US"),
                           ),

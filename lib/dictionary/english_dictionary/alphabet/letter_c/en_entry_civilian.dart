@@ -117,7 +117,7 @@ class EnglishEntrycivilian extends StatelessWidget {
                             englishText:
                                 "Two soldiers and one civilian were killed in the explosion.",
                             kurdishText:
-                                "دوو سەرباز و ھاوڵاتییەکی مەدەنی لە تەقینەوەکەدا کوژران.", // civilian",
+                                "دوو سەرباز و ھاوڵاتییەکی مەدەنی لە تەقینەوەکەدا کوژران.",
                             onPressedBritish: () => speakcivilians1("en-GB"),
                             onPressedAmerican: () => speakcivilians1("en-US"),
                           ),

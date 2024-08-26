@@ -175,7 +175,7 @@ class EnglishEntrycataract extends StatelessWidget {
                             englishText:
                                 "A cataract can be removed under local anaesthetic.",
                             kurdishText:
-                                "کاتراکت دەکرێت لاببردرێت لەژێر سڕکەری شوێنیدا.", // cataract",
+                                "کاتراکت دەکرێت لاببردرێت لەژێر سڕکەری شوێنیدا.",
                             onPressedBritish: () => speakcataracts1("en-GB"),
                             onPressedAmerican: () => speakcataracts1("en-US"),
                           ),

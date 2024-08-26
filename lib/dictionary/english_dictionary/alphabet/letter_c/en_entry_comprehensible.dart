@@ -104,7 +104,7 @@ class EnglishEntrycomprehensible extends StatelessWidget {
                             englishText:
                                 "His French was barely comprehensible.",
                             kurdishText:
-                                "فەرەنسییەکەی بە ئاستەنگ لە تێگەشتن دەھات.", // comprehensible",
+                                "فەرەنسییەکەی بە ئاستەنگ لە تێگەشتن دەھات.",
                             onPressedBritish: () =>
                                 speakcomprehensibles1("en-GB"),
                             onPressedAmerican: () =>

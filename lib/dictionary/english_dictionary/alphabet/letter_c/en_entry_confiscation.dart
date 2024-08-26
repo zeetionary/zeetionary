@@ -102,7 +102,7 @@ class EnglishEntryconfiscation extends StatelessWidget {
                             englishText:
                                 "If found guilty of this crime they face heavy fines, confiscation of goods and even imprisonment.",
                             kurdishText:
-                                "وەک وەک تاوانکار ئەم تاوانە بناسرێن ڕووبەڕووی بژێرەی توند، دەستبەسەرداگرتنی کەلوپەل و تەنانەت زیندانیش دەبنەوە.", // confiscation",
+                                "وەک وەک تاوانکار ئەم تاوانە بناسرێن ڕووبەڕووی بژێرەی توند، دەستبەسەرداگرتنی کەلوپەل و تەنانەت زیندانیش دەبنەوە.",
                             onPressedBritish: () =>
                                 speakconfiscations1("en-GB"),
                             onPressedAmerican: () =>

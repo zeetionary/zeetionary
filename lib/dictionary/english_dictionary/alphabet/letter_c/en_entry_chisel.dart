@@ -109,7 +109,7 @@ class EnglishEntrychisel extends StatelessWidget {
                             englishText:
                                 "She sharpened the chisel before starting work on the stone sculpture.",
                             kurdishText:
-                                "مەکارەکەی تیژکرد پێش ئەوەی دەست بکات بە کارکردن لەسەر پەیکەرە بەردینەکە.", // chisel",
+                                "مەکارەکەی تیژکرد پێش ئەوەی دەست بکات بە کارکردن لەسەر پەیکەرە بەردینەکە.",
                             onPressedBritish: () => speakchisels1("en-GB"),
                             onPressedAmerican: () => speakchisels1("en-US"),
                           ),

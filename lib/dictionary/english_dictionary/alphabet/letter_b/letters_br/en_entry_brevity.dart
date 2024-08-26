@@ -138,8 +138,7 @@ class EnglishEntrybrevity extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The report is a masterpiece of brevity.",
-                            kurdishText:
-                                "ڕاپۆرتەکە شاکارێکی پوختییە.", // brevity" as
+                            kurdishText: "ڕاپۆرتەکە شاکارێکی پوختییە.",
                             onPressedBritish: () => speakbrevitys1("en-GB"),
                             onPressedAmerican: () => speakbrevitys1("en-US"),
                           ),

@@ -109,7 +109,7 @@ class EnglishEntryclan extends StatelessWidget {
                             englishText:
                                 "He became clan chief after his father's death.",
                             kurdishText:
-                                "بوو بە سەرگەورەی تایەفەکەی لە دوای مەرگی باوکی.", // clan",
+                                "بوو بە سەرگەورەی تایەفەکەی لە دوای مەرگی باوکی.",
                             onPressedBritish: () => speakclans1("en-GB"),
                             onPressedAmerican: () => speakclans1("en-US"),
                           ),

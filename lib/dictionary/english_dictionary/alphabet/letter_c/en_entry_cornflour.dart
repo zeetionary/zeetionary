@@ -102,7 +102,7 @@ class EnglishEntrycornflour extends StatelessWidget {
                             englishText:
                                 "Place the cornflour in a small bowl and gradually stir in the water until smooth.",
                             kurdishText:
-                                "ئاردی گەنمەشامییەکە بکە دەفرێکەوە و کەم کەم تێکی بدە لە ئاوەکە تاوەکو لووس دەبێت .", // cornflour",
+                                "ئاردی گەنمەشامییەکە بکە دەفرێکەوە و کەم کەم تێکی بدە لە ئاوەکە تاوەکو لووس دەبێت .",
                             onPressedBritish: () => speakcornflours1("en-GB"),
                             onPressedAmerican: () => speakcornflours1("en-US"),
                           ),

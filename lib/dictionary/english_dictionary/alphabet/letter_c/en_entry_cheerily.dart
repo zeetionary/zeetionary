@@ -93,8 +93,7 @@ class EnglishEntrycheerily extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He replied cheerily in the affirmative.",
-                            kurdishText:
-                                "بە دڵگەشییەوە بە بەڵێ وەڵامی دایەوە.", // cheerily",
+                            kurdishText: "بە دڵگەشییەوە بە بەڵێ وەڵامی دایەوە.",
                             onPressedBritish: () => speakcheerilys1("en-GB"),
                             onPressedAmerican: () => speakcheerilys1("en-US"),
                           ),

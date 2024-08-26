@@ -136,7 +136,7 @@ class EnglishEntrybrilliantly extends StatelessWidget {
                             englishText:
                                 "He seems to do everything brilliantly - piano playing, skiing, sailing.",
                             kurdishText:
-                                "وا دەردەکەوێت ھەموو شتێک بە نایابی بکات، ژەنینی پیانۆ، خلیسکانی، بەلەمەوانی.", // brilliantly" as
+                                "وا دەردەکەوێت ھەموو شتێک بە نایابی بکات، ژەنینی پیانۆ، خلیسکانی، بەلەمەوانی.",
                             onPressedBritish: () => speakbrilliantlys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbrilliantlys1("en-US"),

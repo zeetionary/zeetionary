@@ -94,7 +94,7 @@ class EnglishEntryconspirator extends StatelessWidget {
                             englishText:
                                 "The emperor pardoned five of the conspirators.",
                             kurdishText:
-                                "ئیمپراتۆر لە پێنج لە پیلانگێڕەکان خۆشبوو.", // conspirator",
+                                "ئیمپراتۆر لە پێنج لە پیلانگێڕەکان خۆشبوو.",
                             onPressedBritish: () => speakconspirators1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconspirators1("en-US"),

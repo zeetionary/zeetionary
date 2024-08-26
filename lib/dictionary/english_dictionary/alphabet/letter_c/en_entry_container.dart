@@ -125,7 +125,7 @@ class EnglishEntrycontainer extends StatelessWidget {
                             englishText:
                                 "Food will last longer if kept in an airtight container.",
                             kurdishText:
-                                "خواردن زیاتر دەمێنێتەوە ئەگەر دەفرێکی ھەوانەکێش ھەڵبگیردرێت.", // container",
+                                "خواردن زیاتر دەمێنێتەوە ئەگەر دەفرێکی ھەوانەکێش ھەڵبگیردرێت.",
                             onPressedBritish: () => speakcontainers1("en-GB"),
                             onPressedAmerican: () => speakcontainers1("en-US"),
                           ),

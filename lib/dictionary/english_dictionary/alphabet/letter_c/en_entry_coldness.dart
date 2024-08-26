@@ -99,8 +99,7 @@ class EnglishEntrycoldness extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She was hurt by the coldness in his voice.",
-                            kurdishText:
-                                "دڵی ڕەنجا بە ساردوسڕی دەنگی.", // coldness",
+                            kurdishText: "دڵی ڕەنجا بە ساردوسڕی دەنگی.",
                             onPressedBritish: () => speakcoldnesss1("en-GB"),
                             onPressedAmerican: () => speakcoldnesss1("en-US"),
                           ),

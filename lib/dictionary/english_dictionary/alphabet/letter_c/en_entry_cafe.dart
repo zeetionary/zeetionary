@@ -182,7 +182,7 @@ class EnglishEntrycafe extends StatelessWidget {
                             englishText:
                                 "There are small shops and cafes around every corner.",
                             kurdishText:
-                                "فرۆشگا و چاخانەی بچووک لە دەوری ھەموو سووچێکن.", // cafe
+                                "فرۆشگا و چاخانەی بچووک لە دەوری ھەموو سووچێکن",
                             onPressedBritish: () => speakcafes1("en-GB"),
                             onPressedAmerican: () => speakcafes1("en-US"),
                           ),

@@ -92,8 +92,7 @@ class EnglishEntrycontentedly extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات دڵخۆش و ئاسوودەیت، بەتایبەتی بەھۆی ئەوەی ژیانت باشە"),
                           SentencesRow(
                             englishText: "She smiled contentedly.",
-                            kurdishText:
-                                "بە قەناعەتەوە پێدەکەنی.", // contentedly",
+                            kurdishText: "بە قەناعەتەوە پێدەکەنی.",
                             onPressedBritish: () => speakcontentedlys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontentedlys1("en-US"),

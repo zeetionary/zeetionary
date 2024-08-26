@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ھەبوونی کاریگەرییەک کە پێچەوانەی ئەوەیە کە مەبەست بوو"),
           SentencesRow(
             englishText: "Increases in taxation would be counterproductive.",
-            kurdishText:
-                "زیادکردنی باج دژەبەرھەم‌ھێن دەبێت.", // counterproductive", please follow LX instructions
+            kurdishText: "زیادکردنی باج دژەبەرھەم‌ھێن دەبێت.",
             onPressedBritish: () => speakcounterproductives1("en-GB"),
             onPressedAmerican: () => speakcounterproductives1("en-US"),
           ),

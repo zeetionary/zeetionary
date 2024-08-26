@@ -103,7 +103,7 @@ class EnglishEntryconsumer extends StatelessWidget {
                             englishText:
                                 "Health-conscious consumers want more information about the food they buy.",
                             kurdishText:
-                                "ئەو کڕیارانەی گرنگی بە تەندرووستی دەدەن زانیاری زیاتریان دەوێت سەبارەت بەو خواردنانەی دەیکڕن.", // consumer",
+                                "ئەو کڕیارانەی گرنگی بە تەندرووستی دەدەن زانیاری زیاتریان دەوێت سەبارەت بەو خواردنانەی دەیکڕن.",
                             onPressedBritish: () => speakconsumers1("en-GB"),
                             onPressedAmerican: () => speakconsumers1("en-US"),
                           ),

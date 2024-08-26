@@ -95,7 +95,7 @@ class EnglishEntrycorkscrew extends StatelessWidget {
                             englishText:
                                 "She always kept a corkscrew in her kitchen drawer for opening wine bottles.",
                             kurdishText:
-                                "ھەمیشە سەرھەڵپچڕێکی ھەڵدەگرت لە چەکمەجەی چێشتخانەکەیدا بۆ کردنەوەی بوتڵی بیرە.", // corkscrew",
+                                "ھەمیشە سەرھەڵپچڕێکی ھەڵدەگرت لە چەکمەجەی چێشتخانەکەیدا بۆ کردنەوەی بوتڵی بیرە.",
                             onPressedBritish: () => speakcorkscrews1("en-GB"),
                             onPressedAmerican: () => speakcorkscrews1("en-US"),
                           ),

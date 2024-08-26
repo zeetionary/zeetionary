@@ -103,7 +103,7 @@ class EnglishEntryclearing extends StatelessWidget {
                             englishText:
                                 "We made camp that night in a clearing in the woods.",
                             kurdishText:
-                                "ئەو شەوە کەمپمان ھەڵدا لە ڕووتایی دارستانەکە.", // clearing",
+                                "ئەو شەوە کەمپمان ھەڵدا لە ڕووتایی دارستانەکە.",
                             onPressedBritish: () => speakclearings1("en-GB"),
                             onPressedAmerican: () => speakclearings1("en-US"),
                           ),

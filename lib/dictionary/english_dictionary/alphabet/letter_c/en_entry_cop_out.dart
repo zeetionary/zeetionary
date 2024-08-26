@@ -91,8 +91,7 @@ class EnglishEntrycopout extends StatelessWidget {
                               text: "١. (ناو) خۆدزینەوە لە شتێک"),
                           SentencesRow(
                             englishText: "Not turning up was just a cop-out.",
-                            kurdishText:
-                                "ئامادەنەبوون تەنھا خۆدزینەوەیەک بوو.", // cop-out",
+                            kurdishText: "ئامادەنەبوون تەنھا خۆدزینەوەیەک بوو.",
                             onPressedBritish: () => speakcopouts1("en-GB"),
                             onPressedAmerican: () => speakcopouts1("en-US"),
                           ),

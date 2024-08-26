@@ -105,7 +105,7 @@ class EnglishEntryclandestine extends StatelessWidget {
                             englishText:
                                 "She could see no future in her clandestine relationship.",
                             kurdishText:
-                                "ھیچ داھاتوویەکی نەدەبینی لە پەیوەندییە نھێنییەکەیدا.", // clandestine",
+                                "ھیچ داھاتوویەکی نەدەبینی لە پەیوەندییە نھێنییەکەیدا.",
                             onPressedBritish: () => speakclandestines1("en-GB"),
                             onPressedAmerican: () =>
                                 speakclandestines1("en-US"),

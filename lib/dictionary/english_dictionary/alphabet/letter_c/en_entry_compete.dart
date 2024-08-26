@@ -126,7 +126,7 @@ class EnglishEntrycompete extends StatelessWidget {
                             englishText:
                                 "He's hoping to compete in the London marathon.",
                             kurdishText:
-                                "ھیوا دەخوازێت لە ماراسۆنی لەندەن ڕکابەری بکات.", // compete",
+                                "ھیوا دەخوازێت لە ماراسۆنی لەندەن ڕکابەری بکات.",
                             onPressedBritish: () => speakcompetes1("en-GB"),
                             onPressedAmerican: () => speakcompetes1("en-US"),
                           ),

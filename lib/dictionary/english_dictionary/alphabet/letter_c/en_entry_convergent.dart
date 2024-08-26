@@ -103,7 +103,7 @@ class EnglishEntryconvergent extends StatelessWidget {
                             englishText:
                                 "The rays become more convergent as they leave the lens.",
                             kurdishText:
-                                "تیشکەکان لێک نزیکدەبنەوە کە ھاوێنەکە جێدێڵن.", // convergent",
+                                "تیشکەکان لێک نزیکدەبنەوە کە ھاوێنەکە جێدێڵن.",
                             onPressedBritish: () => speakconvergents1("en-GB"),
                             onPressedAmerican: () => speakconvergents1("en-US"),
                           ),

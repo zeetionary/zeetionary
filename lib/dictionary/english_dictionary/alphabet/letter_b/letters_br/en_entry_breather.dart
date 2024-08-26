@@ -137,7 +137,7 @@ class EnglishEntrybreather extends StatelessWidget {
                           SentencesRow(
                             englishText: "Tell me when you need a breather.",
                             kurdishText:
-                                "پێم بڵێ کە پێویستت بە حەسانەوە بوو.", // breather" as
+                                "پێم بڵێ کە پێویستت بە حەسانەوە بوو.",
                             onPressedBritish: () => speakbreathers1("en-GB"),
                             onPressedAmerican: () => speakbreathers1("en-US"),
                           ),

@@ -101,8 +101,7 @@ class EnglishEntryconjure extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Her grandfather taught her to conjure.",
-                            kurdishText:
-                                "باپیرەی فێری کرد چۆن سیحر بکات.", // conjure",
+                            kurdishText: "باپیرەی فێری کرد چۆن سیحر بکات.",
                             onPressedBritish: () => speakconjures1("en-GB"),
                             onPressedAmerican: () => speakconjures1("en-US"),
                           ),

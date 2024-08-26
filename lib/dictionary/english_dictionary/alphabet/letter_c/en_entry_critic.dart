@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Bradley Cooper's gripping performance has been praised by critics.",
             kurdishText:
-                "نمایشی سەرنجڕاکێشی برادلی کووپەر لەلایەن ڕەخنەگرانەوە بەرزنرخێندراوە.", // critic", please follow LX instructions
+                "نمایشی سەرنجڕاکێشی برادلی کووپەر لەلایەن ڕەخنەگرانەوە بەرزنرخێندراوە.",
             onPressedBritish: () => speakcritics1("en-GB"),
             onPressedAmerican: () => speakcritics1("en-US"),
           ),

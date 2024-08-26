@@ -101,7 +101,7 @@ class EnglishEntrycoating extends StatelessWidget {
                             englishText:
                                 "Apply a thin coating of glue to the surface.",
                             kurdishText:
-                                "توێژاڵێکی باریک لە سرێش بدە لە ڕووەکە.", // coating",
+                                "توێژاڵێکی باریک لە سرێش بدە لە ڕووەکە.",
                             onPressedBritish: () => speakcoatings1("en-GB"),
                             onPressedAmerican: () => speakcoatings1("en-US"),
                           ),

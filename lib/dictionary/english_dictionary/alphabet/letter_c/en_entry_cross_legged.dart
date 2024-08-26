@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They gathered around the campfire, sitting cross-legged on blankets.",
             kurdishText:
-                "لە دەوری ئاگرەکە کۆبوونەوە و بە چوار مشقی دانیشتبوون لەسەر بەتانی.", // cross-legged", please follow LX instructions
+                "لە دەوری ئاگرەکە کۆبوونەوە و بە چوار مشقی دانیشتبوون لەسەر بەتانی.",
             onPressedBritish: () => speakcrossleggeds1("en-GB"),
             onPressedAmerican: () => speakcrossleggeds1("en-US"),
           ),

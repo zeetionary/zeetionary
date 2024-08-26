@@ -179,7 +179,7 @@ class EnglishEntrycastigate extends StatelessWidget {
                             englishText:
                                 "He castigated himself for being so stupid.",
                             kurdishText:
-                                "سەرزەنشتی خۆی کرد بۆ ھێندە گەمژە بوون.", // castigate",
+                                "سەرزەنشتی خۆی کرد بۆ ھێندە گەمژە بوون.",
                             onPressedBritish: () => speakcastigates1("en-GB"),
                             onPressedAmerican: () => speakcastigates1("en-US"),
                           ),

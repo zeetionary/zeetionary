@@ -106,8 +106,7 @@ class EnglishEntryconvulse extends StatelessWidget {
                                   "١. (کردار) درووستکردنی لەرزینێکی لەناکاو لە ڕووخساری کەسێکدا"),
                           SentencesRow(
                             englishText: "A violent shiver convulsed him.",
-                            kurdishText:
-                                "لەرزەیەکی بەھێز ڕایتڵەقاند.", // convulse",
+                            kurdishText: "لەرزەیەکی بەھێز ڕایتڵەقاند.",
                             onPressedBritish: () => speakconvulses1("en-GB"),
                             onPressedAmerican: () => speakconvulses1("en-US"),
                           ),

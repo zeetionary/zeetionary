@@ -101,7 +101,7 @@ class EnglishEntrycoldblooded extends StatelessWidget {
                             englishText:
                                 "The author's novel featured a chilling portrayal of a cold-blooded killer.",
                             kurdishText:
-                                "ڕۆمانی نووسەرەکە وێنایەکی تۆقێنەری بکوژێکی بێ ھەست بوو.", // cold-blooded",
+                                "ڕۆمانی نووسەرەکە وێنایەکی تۆقێنەری بکوژێکی بێ ھەست بوو.",
                             onPressedBritish: () => speakcoldbloodeds1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcoldbloodeds1("en-US"),

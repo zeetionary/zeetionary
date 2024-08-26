@@ -341,8 +341,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ڕووەکێک کە بۆ ڕێژەیەکی زۆر دەچێندرێت"),
           SentencesRow(
             englishText: "Sugar cane is an important crop on the island.",
-            kurdishText:
-                "قامیشی شەکر بەروبوویەکی گرنگە لە دوورگەکە.", // crop", please follow LX instructions
+            kurdishText: "قامیشی شەکر بەروبوویەکی گرنگە لە دوورگەکە.",
             onPressedBritish: () => speakcrops1("en-GB"),
             onPressedAmerican: () => speakcrops1("en-US"),
           ),

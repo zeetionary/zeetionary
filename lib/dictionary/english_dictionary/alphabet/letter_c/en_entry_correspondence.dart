@@ -287,7 +287,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The editor welcomes correspondence from readers on any subject.",
             kurdishText:
-                "ڕۆژنامەنووسەکە پێشوازی لە نامەی خوێنەران لەسەر ھەر بابەتێک دەگات.", // correspondence", please follow LX instructions
+                "ڕۆژنامەنووسەکە پێشوازی لە نامەی خوێنەران لەسەر ھەر بابەتێک دەگات.",
             onPressedBritish: () => speakcorrespondences1("en-GB"),
             onPressedAmerican: () => speakcorrespondences1("en-US"),
           ),

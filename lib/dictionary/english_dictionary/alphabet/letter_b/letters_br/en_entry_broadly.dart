@@ -137,8 +137,7 @@ class EnglishEntrybroadly extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەکی گشتی، بەبێ وردەکاری"),
                           SentencesRow(
                             englishText: "Broadly speaking, I agree with you.",
-                            kurdishText:
-                                "بەشێوەیەکی گشتی، لەگەڵت ھاوڕام.", // broadly" as
+                            kurdishText: "بەشێوەیەکی گشتی، لەگەڵت ھاوڕام.",
                             onPressedBritish: () => speakbroadlys1("en-GB"),
                             onPressedAmerican: () => speakbroadlys1("en-US"),
                           ),

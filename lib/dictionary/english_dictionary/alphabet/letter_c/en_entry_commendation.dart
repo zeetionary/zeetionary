@@ -99,8 +99,7 @@ class EnglishEntrycommendation extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The film deserves the highest commendation.",
-                            kurdishText:
-                                "فیلمەکە شایەنی ئەوپەڕی ستایشکردنە.", // commendation",
+                            kurdishText: "فیلمەکە شایەنی ئەوپەڕی ستایشکردنە.",
                             onPressedBritish: () =>
                                 speakcommendations1("en-GB"),
                             onPressedAmerican: () =>

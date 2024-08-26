@@ -180,7 +180,7 @@ class EnglishEntrycertain extends StatelessWidget {
                             englishText:
                                 "I think it was him, but I can't be certain.",
                             kurdishText:
-                                "پێم‌وایە ئەوبوو، بەڵام ناتوانم دڵنیابم.", // certain",
+                                "پێم‌وایە ئەوبوو، بەڵام ناتوانم دڵنیابم.",
                             onPressedBritish: () => speakcertains1("en-GB"),
                             onPressedAmerican: () => speakcertains1("en-US"),
                           ),

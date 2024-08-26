@@ -97,7 +97,7 @@ class EnglishEntrycharitably extends StatelessWidget {
                             englishText:
                                 "Try to think about him a little more charitably.",
                             kurdishText:
-                                "ھەوڵ بدە ھەندێک بەخشندانە بیری لێ بکەیەوە.", // charitably",
+                                "ھەوڵ بدە ھەندێک بەخشندانە بیری لێ بکەیەوە.",
                             onPressedBritish: () => speakcharitablys1("en-GB"),
                             onPressedAmerican: () => speakcharitablys1("en-US"),
                           ),

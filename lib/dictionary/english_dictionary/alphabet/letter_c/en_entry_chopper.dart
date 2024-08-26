@@ -101,7 +101,7 @@ class EnglishEntrychopper extends StatelessWidget {
                             englishText:
                                 "The news crew arrived at the scene in a chopper to report on the accident.",
                             kurdishText:
-                                "تیمە ھەواڵییەکە بە ھێلی‌کۆپتەرێک گەشتنە شوێنەکە بۆ ڕاپۆرتکردن لەسەر ڕووداوەکە.", // chopper",
+                                "تیمە ھەواڵییەکە بە ھێلی‌کۆپتەرێک گەشتنە شوێنەکە بۆ ڕاپۆرتکردن لەسەر ڕووداوەکە.",
                             onPressedBritish: () => speakchoppers1("en-GB"),
                             onPressedAmerican: () => speakchoppers1("en-US"),
                           ),

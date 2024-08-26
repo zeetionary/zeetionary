@@ -95,7 +95,7 @@ class EnglishEntrycolloquially extends StatelessWidget {
                             englishText:
                                 "Jardine writes clearly and colloquially for the non-academic reader.",
                             kurdishText:
-                                "جاردین بەڕوونی و شێوازی گفتوگۆ دەنووسێت بۆ کەسانی نا ئەکادیمی .", // colloquially",
+                                "جاردین بەڕوونی و شێوازی گفتوگۆ دەنووسێت بۆ کەسانی نا ئەکادیمی .",
                             onPressedBritish: () =>
                                 speakcolloquiallys1("en-GB"),
                             onPressedAmerican: () =>

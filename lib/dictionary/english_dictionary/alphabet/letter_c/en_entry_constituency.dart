@@ -102,7 +102,7 @@ class EnglishEntryconstituency extends StatelessWidget {
                             englishText:
                                 "Unemployment is high in her constituency.",
                             kurdishText:
-                                "بێ‌کاری زۆر ھەیە لە مەڵبەندی ھەڵبژاردنیدا.", // constituency",
+                                "بێ‌کاری زۆر ھەیە لە مەڵبەندی ھەڵبژاردنیدا.",
                             onPressedBritish: () =>
                                 speakconstituencys1("en-GB"),
                             onPressedAmerican: () =>

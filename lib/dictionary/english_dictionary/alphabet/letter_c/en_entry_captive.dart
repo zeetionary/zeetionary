@@ -178,7 +178,7 @@ class EnglishEntrycaptive extends StatelessWidget {
                             englishText:
                                 "They were taken captive by masked gunmen.",
                             kurdishText:
-                                "لەلایەن چەکداری دەمامکدارەوە بەدیل گیردران.", // captive
+                                "لەلایەن چەکداری دەمامکدارەوە بەدیل گیردران",
                             onPressedBritish: () => speakcaptives1("en-GB"),
                             onPressedAmerican: () => speakcaptives1("en-US"),
                           ),

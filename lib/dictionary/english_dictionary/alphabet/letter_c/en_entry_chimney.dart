@@ -100,7 +100,7 @@ class EnglishEntrychimney extends StatelessWidget {
                             englishText:
                                 "He threw a bit of paper onto the fire and it flew up the chimney.",
                             kurdishText:
-                                "پارچە کاغەزێکی خستە ئاگرەکەوە و بە دووکەڵ‌کێشەکەدا بەرزبووەوە.", // chimney",
+                                "پارچە کاغەزێکی خستە ئاگرەکەوە و بە دووکەڵ‌کێشەکەدا بەرزبووەوە.",
                             onPressedBritish: () => speakchimneys1("en-GB"),
                             onPressedAmerican: () => speakchimneys1("en-US"),
                           ),

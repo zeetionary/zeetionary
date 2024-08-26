@@ -109,8 +109,7 @@ class EnglishEntrycontaminate extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The drinking water has become contaminated with lead.",
-                            kurdishText:
-                                "ئاوە خواردنەوەکە بە قورقۆشم پیسبووە.", // contaminate",
+                            kurdishText: "ئاوە خواردنەوەکە بە قورقۆشم پیسبووە.",
                             onPressedBritish: () => speakcontaminates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontaminates1("en-US"),

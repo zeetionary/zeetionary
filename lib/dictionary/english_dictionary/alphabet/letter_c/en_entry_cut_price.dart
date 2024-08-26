@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They decided to wait to buy the furniture at a cut-price.",
             kurdishText:
-                "بڕیاریاندا بوەستن بۆ ئەوەی کەلوپەلەکە بە داشکاندن بکڕن.", // cut-price", please follow LX instructions
+                "بڕیاریاندا بوەستن بۆ ئەوەی کەلوپەلەکە بە داشکاندن بکڕن.",
             onPressedBritish: () => speakcutprices1("en-GB"),
             onPressedAmerican: () => speakcutprices1("en-US"),
           ),

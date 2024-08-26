@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) گۆڕانکارییەک بۆ ڕاستکردنەوەی ھەڵەیەک"),
           SentencesRow(
             englishText: "I've made a few small corrections to your report.",
-            kurdishText:
-                "ھەندێک ڕاستکردنەوەی بچووکم بۆ ڕاپۆرتەکەت ئەنجامداوە.", // correction", please follow LX instructions
+            kurdishText: "ھەندێک ڕاستکردنەوەی بچووکم بۆ ڕاپۆرتەکەت ئەنجامداوە.",
             onPressedBritish: () => speakcorrections1("en-GB"),
             onPressedAmerican: () => speakcorrections1("en-US"),
           ),

@@ -123,7 +123,7 @@ class EnglishEntryclamour extends StatelessWidget {
                             englishText:
                                 "People began to clamour for his resignation.",
                             kurdishText:
-                                "خەڵکی دەستیان کرد بە ھەراوھوریا بۆ دەستلەکارکێشانەوەی.", // clamour",
+                                "خەڵکی دەستیان کرد بە ھەراوھوریا بۆ دەستلەکارکێشانەوەی.",
                             onPressedBritish: () => speakclamours1("en-GB"),
                             onPressedAmerican: () => speakclamours1("en-US"),
                           ),

@@ -118,7 +118,7 @@ class EnglishEntrycolonial extends StatelessWidget {
                             englishText:
                                 "Tunisia achieved independence from French colonial rule in 1956.",
                             kurdishText:
-                                "تونس سەربەخۆیی بەدەستھێنا لە دەسەڵاتی داگیرکەری فەرەنسا لە ١٩٥٦.", // colonial",
+                                "تونس سەربەخۆیی بەدەستھێنا لە دەسەڵاتی داگیرکەری فەرەنسا لە ١٩٥٦.",
                             onPressedBritish: () => speakcolonials1("en-GB"),
                             onPressedAmerican: () => speakcolonials1("en-US"),
                           ),

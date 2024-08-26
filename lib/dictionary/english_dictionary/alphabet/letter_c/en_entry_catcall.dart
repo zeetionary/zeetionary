@@ -179,7 +179,7 @@ class EnglishEntrycatcall extends StatelessWidget {
                             englishText:
                                 "A chorus of catcalls and boos erupted in the middle of the ballet.",
                             kurdishText:
-                                "ھاوارێک لە ھووھا و ھاتوھاوار بەرزبووەوە لە ناوەڕاستی سەمای بالێیەکەدا.", // catcall",
+                                "ھاوارێک لە ھووھا و ھاتوھاوار بەرزبووەوە لە ناوەڕاستی سەمای بالێیەکەدا.",
                             onPressedBritish: () => speakcatcalls1("en-GB"),
                             onPressedAmerican: () => speakcatcalls1("en-US"),
                           ),

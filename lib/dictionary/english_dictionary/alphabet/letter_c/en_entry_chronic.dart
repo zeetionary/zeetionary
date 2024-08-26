@@ -125,7 +125,7 @@ class EnglishEntrychronic extends StatelessWidget {
                             englishText:
                                 "The study looks at adults with chronic conditions such as asthma and diabetes.",
                             kurdishText:
-                                "توێژتنەوەکە توێژینەوە لەو کەسانە دەکات کە دۆخی درێژخایەنی وەک تەنگەنەفەسی و شەکرەیان ھەیە.", // chronic",
+                                "توێژتنەوەکە توێژینەوە لەو کەسانە دەکات کە دۆخی درێژخایەنی وەک تەنگەنەفەسی و شەکرەیان ھەیە.",
                             onPressedBritish: () => speakchronics1("en-GB"),
                             onPressedAmerican: () => speakchronics1("en-US"),
                           ),

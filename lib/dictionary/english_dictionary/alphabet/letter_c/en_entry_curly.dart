@@ -242,15 +242,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) لوول"),
           SentencesRow(
             englishText: "I wish my hair was curly.",
-            kurdishText:
-                "بەھیوام قژم لوول بایە.", // curly", please follow LX instructions
+            kurdishText: "بەھیوام قژم لوول بایە.",
             onPressedBritish: () => speakcurlys1("en-GB"),
             onPressedAmerican: () => speakcurlys1("en-US"),
           ),
           SentencesRow(
             englishText: "She wished she had naturally curly hair.",
-            kurdishText:
-                "ئاواتەخوازبوو قژی سرووشتی لوولی ھەبایە.", // curly", please follow LX instructions
+            kurdishText: "ئاواتەخوازبوو قژی سرووشتی لوولی ھەبایە.",
             onPressedBritish: () => speakcurlys2("en-GB"),
             onPressedAmerican: () => speakcurlys2("en-US"),
           ),

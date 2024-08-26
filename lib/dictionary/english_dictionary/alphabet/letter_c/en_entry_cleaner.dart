@@ -108,7 +108,7 @@ class EnglishEntrycleaner extends StatelessWidget {
                             englishText:
                                 "I met him while I was working as a cleaner in a hospital.",
                             kurdishText:
-                                "بینیم کە وەک پاککەرەوەیەک لە نەخۆشخانەکە کارم دەکرد.", // cleaner",
+                                "بینیم کە وەک پاککەرەوەیەک لە نەخۆشخانەکە کارم دەکرد.",
                             onPressedBritish: () => speakcleaners1("en-GB"),
                             onPressedAmerican: () => speakcleaners1("en-US"),
                           ),

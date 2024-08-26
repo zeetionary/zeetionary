@@ -179,7 +179,7 @@ class EnglishEntrycarnival extends StatelessWidget {
                             englishText:
                                 "There is a local carnival every year.",
                             kurdishText:
-                                "ھەموو ساڵێک کەرنەڤاڵێکی ناوخۆیی ھەیە.", // carnival",
+                                "ھەموو ساڵێک کەرنەڤاڵێکی ناوخۆیی ھەیە.",
                             onPressedBritish: () => speakcarnivals1("en-GB"),
                             onPressedAmerican: () => speakcarnivals1("en-US"),
                           ),

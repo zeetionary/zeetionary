@@ -187,7 +187,7 @@ class EnglishEntrycalculate extends StatelessWidget {
                             englishText:
                                 "That figure was calculated using the standard equation.",
                             kurdishText:
-                                "ژمارەکە لێکدرایەوە بە بەکارھێنانی ھاوکێشەیەکی ستاندارد.", // calculate
+                                "ژمارەکە لێکدرایەوە بە بەکارھێنانی ھاوکێشەیەکی ستاندارد",
                             onPressedBritish: () => speakcalculates1("en-GB"),
                             onPressedAmerican: () => speakcalculates1("en-US"),
                           ),

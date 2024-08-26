@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کەسێکی ڕۆشنبیر"),
           SentencesRow(
             englishText: "His voice was pleasant and cultivated.",
-            kurdishText:
-                "دەنگی خۆش و ڕۆشنبیرانە بوو.", // cultivated", please follow LX instructions
+            kurdishText: "دەنگی خۆش و ڕۆشنبیرانە بوو.",
             onPressedBritish: () => speakcultivateds1("en-GB"),
             onPressedAmerican: () => speakcultivateds1("en-US"),
           ),

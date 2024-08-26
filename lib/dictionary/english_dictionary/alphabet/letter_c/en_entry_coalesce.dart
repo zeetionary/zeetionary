@@ -102,7 +102,7 @@ class EnglishEntrycoalesce extends StatelessWidget {
                             englishText:
                                 "The puddles had coalesced into a small stream.",
                             kurdishText:
-                                "چاڵاوەکان یەکیان گرت بۆ درووستکردنی زەلکاوێکی بچووک.", // coalesce",
+                                "چاڵاوەکان یەکیان گرت بۆ درووستکردنی زەلکاوێکی بچووک.",
                             onPressedBritish: () => speakcoalesces1("en-GB"),
                             onPressedAmerican: () => speakcoalesces1("en-US"),
                           ),

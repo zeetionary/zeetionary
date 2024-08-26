@@ -102,7 +102,7 @@ class EnglishEntryconsistently extends StatelessWidget {
                             englishText:
                                 "Her work has been of a consistently high standard.",
                             kurdishText:
-                                "کارەکانی بەردەوام لە ئاستی بەرزدا بوونە.", // consistently",
+                                "کارەکانی بەردەوام لە ئاستی بەرزدا بوونە.",
                             onPressedBritish: () =>
                                 speakconsistentlys1("en-GB"),
                             onPressedAmerican: () =>

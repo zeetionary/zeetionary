@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کردن بە خێرایی و بەبێ بیرکردنەوەی زۆر"),
           SentencesRow(
             englishText: "He gave the report a rather cursory look.",
-            kurdishText:
-                "سەیرێکی سەرسەرەکی لە ڕاپۆرتەکە کرد.", // cursory", please follow LX instructions
+            kurdishText: "سەیرێکی سەرسەرەکی لە ڕاپۆرتەکە کرد.",
             onPressedBritish: () => speakcursorys1("en-GB"),
             onPressedAmerican: () => speakcursorys1("en-US"),
           ),

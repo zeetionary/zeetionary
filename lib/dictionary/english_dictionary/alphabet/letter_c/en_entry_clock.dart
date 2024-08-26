@@ -171,8 +171,7 @@ class EnglishEntryclock extends StatelessWidget {
                                   "١. (ناو) کاتژمێری سەر دیوار، مێز، یان کۆمپیوتەر (کاتژمێری دەست نا)"),
                           SentencesRow(
                             englishText: "The clock struck twelve/midnight.",
-                            kurdishText:
-                                "کاتژمێرەکە گەشتە سەر دوازدە.", // clock",
+                            kurdishText: "کاتژمێرەکە گەشتە سەر دوازدە.",
                             onPressedBritish: () => speakclocks1("en-GB"),
                             onPressedAmerican: () => speakclocks1("en-US"),
                           ),

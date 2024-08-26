@@ -310,8 +310,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شێوازێکی پەسەندکراوی ڕەفتارکردن یان کردنی شتەکان لە کۆمەڵگەدا"),
           SentencesRow(
             englishText: "It's a local custom.",
-            kurdishText:
-                "ڕێسایەکی ناوخۆییە.", // custom", please follow LX instructions
+            kurdishText: "ڕێسایەکی ناوخۆییە.",
             onPressedBritish: () => speakcustoms1("en-GB"),
             onPressedAmerican: () => speakcustoms1("en-US"),
           ),

@@ -124,7 +124,7 @@ class EnglishEntrycollision extends StatelessWidget {
                             englishText:
                                 "Stewart was injured in a collision with another player.",
                             kurdishText:
-                                "ستیوارت بریندار بوو لە پیاکێشانێک لەگەڵ یاریزانێکی دیکەدا.", // collision",
+                                "ستیوارت بریندار بوو لە پیاکێشانێک لەگەڵ یاریزانێکی دیکەدا.",
                             onPressedBritish: () => speakcollisions1("en-GB"),
                             onPressedAmerican: () => speakcollisions1("en-US"),
                           ),

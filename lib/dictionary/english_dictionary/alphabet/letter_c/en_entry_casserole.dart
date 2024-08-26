@@ -177,7 +177,7 @@ class EnglishEntrycasserole extends StatelessWidget {
                                   "١. (ناو) ژەمە خواردنێکی گەرم کە لە گۆشت و سەوزە، ھتد و بە ھێواشی لە شلەدا لە فڕنێک لێ دەنرێت"),
                           SentencesRow(
                             englishText: "Is there any casserole left?",
-                            kurdishText: "ھیچ کاسرۆڵم بۆ ماوە؟", // casserole",
+                            kurdishText: "ھیچ کاسرۆڵم بۆ ماوە؟",
                             onPressedBritish: () => speakcasseroles1("en-GB"),
                             onPressedAmerican: () => speakcasseroles1("en-US"),
                           ),

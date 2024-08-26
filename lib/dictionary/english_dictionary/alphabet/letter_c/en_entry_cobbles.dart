@@ -98,7 +98,7 @@ class EnglishEntrycobbles extends StatelessWidget {
                           SentencesRow(
                             englishText: "The cart rumbled over the cobbles.",
                             kurdishText:
-                                "عەرەبانەکە زرمەی دەھات بەسەر خڕکەبەردەکاندا.", // cobbles",
+                                "عەرەبانەکە زرمەی دەھات بەسەر خڕکەبەردەکاندا.",
                             onPressedBritish: () => speakcobbless1("en-GB"),
                             onPressedAmerican: () => speakcobbless1("en-US"),
                           ),

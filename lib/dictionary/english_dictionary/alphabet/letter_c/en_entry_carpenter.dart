@@ -179,7 +179,7 @@ class EnglishEntrycarpenter extends StatelessWidget {
                             englishText:
                                 "He was apprenticed to a carpenter at the age of sixteen.",
                             kurdishText:
-                                "لە تەمەنی شازدە ساڵی خرایە بەر کار وەک دارتاشێک.", // carpenter",
+                                "لە تەمەنی شازدە ساڵی خرایە بەر کار وەک دارتاشێک.",
                             onPressedBritish: () => speakcarpenters1("en-GB"),
                             onPressedAmerican: () => speakcarpenters1("en-US"),
                           ),

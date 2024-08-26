@@ -250,8 +250,7 @@ class EnglishEntryclimb extends StatelessWidget {
                               text: "١. (کردار) سەرکەوتن بەسەر شتێکدا"),
                           SentencesRow(
                             englishText: "She climbed up the stairs.",
-                            kurdishText:
-                                "بە پلەکانەکاندا چووە سەرەوە.", // climb",
+                            kurdishText: "بە پلەکانەکاندا چووە سەرەوە.",
                             onPressedBritish: () => speakclimbs1("en-GB"),
                             onPressedAmerican: () => speakclimbs1("en-US"),
                           ),

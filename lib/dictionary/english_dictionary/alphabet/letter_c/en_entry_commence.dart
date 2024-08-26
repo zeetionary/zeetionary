@@ -115,7 +115,7 @@ class EnglishEntrycommence extends StatelessWidget {
                             englishText:
                                 "The meeting is scheduled to commence at noon.",
                             kurdishText:
-                                "کۆبوونەوەکە ڕێکخراوە لە نیوەڕۆدا دەستپێ بکات.", // commence",
+                                "کۆبوونەوەکە ڕێکخراوە لە نیوەڕۆدا دەستپێ بکات.",
                             onPressedBritish: () => speakcommences1("en-GB"),
                             onPressedAmerican: () => speakcommences1("en-US"),
                           ),

@@ -100,7 +100,7 @@ class EnglishEntrycopiously extends StatelessWidget {
                             englishText:
                                 "We ate and drank copiously at the party.",
                             kurdishText:
-                                "زۆرمان خوارد و خواردەوە لە ئاھەنگەکە.", // copiously",
+                                "زۆرمان خوارد و خواردەوە لە ئاھەنگەکە.",
                             onPressedBritish: () => speakcopiouslys1("en-GB"),
                             onPressedAmerican: () => speakcopiouslys1("en-US"),
                           ),

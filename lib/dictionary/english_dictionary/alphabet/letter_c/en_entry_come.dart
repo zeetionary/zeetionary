@@ -625,8 +625,7 @@ class EnglishEntrycome extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He came into the room and shut the door.",
-                            kurdishText:
-                                "ھاتە ناو ژوورەکەوە و دەرگای داخست.", // come",
+                            kurdishText: "ھاتە ناو ژوورەکەوە و دەرگای داخست.",
                             onPressedBritish: () => speakcomes1("en-GB"),
                             onPressedAmerican: () => speakcomes1("en-US"),
                           ),

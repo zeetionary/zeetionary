@@ -108,7 +108,7 @@ class EnglishEntrychauffeur extends StatelessWidget {
                             englishText:
                                 "His chauffeur was waiting in the street outside.",
                             kurdishText:
-                                "شۆفێرەکەی لە شەقامەکە لە دەرەوە چاوەڕێ بوو.", // chauffeur",
+                                "شۆفێرەکەی لە شەقامەکە لە دەرەوە چاوەڕێ بوو.",
                             onPressedBritish: () => speakchauffeurs1("en-GB"),
                             onPressedAmerican: () => speakchauffeurs1("en-US"),
                           ),

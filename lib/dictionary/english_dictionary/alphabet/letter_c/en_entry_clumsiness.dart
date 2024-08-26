@@ -111,7 +111,7 @@ class EnglishEntryclumsiness extends StatelessWidget {
                             englishText:
                                 "Weakness or clumsiness of the hands is characteristic of the disease.",
                             kurdishText:
-                                "لاوازی یان لەرزۆکی دەست لە خاسیەتەکانی نەخۆشییەکەن.", // clumsiness",
+                                "لاوازی یان لەرزۆکی دەست لە خاسیەتەکانی نەخۆشییەکەن.",
                             onPressedBritish: () => speakclumsinesss1("en-GB"),
                             onPressedAmerican: () => speakclumsinesss1("en-US"),
                           ),

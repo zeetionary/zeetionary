@@ -103,7 +103,7 @@ class EnglishEntrychildish extends StatelessWidget {
                             englishText:
                                 "His childish handwriting was filled with misspellings and grammar errors.",
                             kurdishText:
-                                "دەستوخەتە منداڵانەکەی پڕبوو لە ھەڵەی ڕێنووس ڕێزمانی.", // childish",
+                                "دەستوخەتە منداڵانەکەی پڕبوو لە ھەڵەی ڕێنووس ڕێزمانی.",
                             onPressedBritish: () => speakchildishs1("en-GB"),
                             onPressedAmerican: () => speakchildishs1("en-US"),
                           ),

@@ -102,7 +102,7 @@ class EnglishEntrycondolence extends StatelessWidget {
                             englishText:
                                 "Our condolences go to his wife and family.",
                             kurdishText:
-                                "ھاوخەمیمان ھەیە بۆ ھاوژین و خێزانەکەی.", // condolence",
+                                "ھاوخەمیمان ھەیە بۆ ھاوژین و خێزانەکەی.",
                             onPressedBritish: () => speakcondolences1("en-GB"),
                             onPressedAmerican: () => speakcondolences1("en-US"),
                           ),

@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He was sprawled on the living-room couch watching TV.",
             kurdishText:
-                "لەسەر قەنەفەی دیوەخانەکە ڕاکشابوو سەیری تەلەفیزیۆنی دەکرد.", // couch", please follow LX instructions
+                "لەسەر قەنەفەی دیوەخانەکە ڕاکشابوو سەیری تەلەفیزیۆنی دەکرد.",
             onPressedBritish: () => speakcouchs1("en-GB"),
             onPressedAmerican: () => speakcouchs1("en-US"),
           ),

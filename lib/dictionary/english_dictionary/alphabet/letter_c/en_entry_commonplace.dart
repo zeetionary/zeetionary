@@ -108,7 +108,7 @@ class EnglishEntrycommonplace extends StatelessWidget {
                             englishText:
                                 "This technology is now commonplace in schools.",
                             kurdishText:
-                                "ئەم تەکنەلۆژیایە ئێستا بەربڵاوە لە قوتابخانەکاندا.", // commonplace",
+                                "ئەم تەکنەلۆژیایە ئێستا بەربڵاوە لە قوتابخانەکاندا.",
                             onPressedBritish: () => speakcommonplaces1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcommonplaces1("en-US"),

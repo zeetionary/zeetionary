@@ -112,7 +112,7 @@ class EnglishEntrycompactness extends StatelessWidget {
                             englishText:
                                 "I thought the compactness of this house was wonderful.",
                             kurdishText:
-                                "پێموابوو پەستێوراوی ماڵەکەی جوان بوو.", // compactness",
+                                "پێموابوو پەستێوراوی ماڵەکەی جوان بوو.",
                             onPressedBritish: () => speakcompactnesss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcompactnesss1("en-US"),

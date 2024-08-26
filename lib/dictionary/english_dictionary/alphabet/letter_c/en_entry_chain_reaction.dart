@@ -99,7 +99,7 @@ class EnglishEntrychainreaction extends StatelessWidget {
                             englishText:
                                 "In nuclear physics, a chain reaction occurs when one nuclear reaction triggers additional reactions, releasing large amounts of energy.",
                             kurdishText:
-                                "لە فیزیای ناوەکیدا، کارلێکی زنجیری ڕوودەدات کە یەک کارلێکی ناوەکی کارلێکی دیکە درووست دەکات، و وزەی زۆر دەردەپەڕێنێت.", // chain reaction",
+                                "لە فیزیای ناوەکیدا، کارلێکی زنجیری ڕوودەدات کە یەک کارلێکی ناوەکی کارلێکی دیکە درووست دەکات، و وزەی زۆر دەردەپەڕێنێت.",
                             onPressedBritish: () =>
                                 speakchainreactions1("en-GB"),
                             onPressedAmerican: () =>

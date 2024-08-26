@@ -102,7 +102,7 @@ class EnglishEntrycod extends StatelessWidget {
                             englishText:
                                 "My son went out in the boat and caught a five-pound cod.",
                             kurdishText:
-                                "کوڕەکەم لە بەلەمەکە چووە دەرەوە و ماسییەکی پێنج پاوەندی گرت.", // cod",
+                                "کوڕەکەم لە بەلەمەکە چووە دەرەوە و ماسییەکی پێنج پاوەندی گرت.",
                             onPressedBritish: () => speakcods1("en-GB"),
                             onPressedAmerican: () => speakcods1("en-US"),
                           ),

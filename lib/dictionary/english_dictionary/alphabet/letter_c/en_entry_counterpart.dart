@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The Foreign Minister held talks with his Chinese counterpart.",
-            kurdishText:
-                "وەزیری دەرەوە گفتوگۆی کرد لەگەڵ ھاوتا چینییەکەی.", // counterpart", please follow LX instructions
+            kurdishText: "وەزیری دەرەوە گفتوگۆی کرد لەگەڵ ھاوتا چینییەکەی.",
             onPressedBritish: () => speakcounterparts1("en-GB"),
             onPressedAmerican: () => speakcounterparts1("en-US"),
           ),

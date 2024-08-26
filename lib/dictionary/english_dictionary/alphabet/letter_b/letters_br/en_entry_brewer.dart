@@ -139,7 +139,7 @@ class EnglishEntrybrewer extends StatelessWidget {
                             englishText:
                                 "Six big brewers account for about 75% of total beer sales in the UK.",
                             kurdishText:
-                                "شەش کۆمپانیای بەرھەمھێنەری بیرە لە پشت ٧٥٪ فرۆشی بیرەن لە شانشینی یەکگرتوو.", // brewer" as
+                                "شەش کۆمپانیای بەرھەمھێنەری بیرە لە پشت ٧٥٪ فرۆشی بیرەن لە شانشینی یەکگرتوو.",
                             onPressedBritish: () => speakbrewers1("en-GB"),
                             onPressedAmerican: () => speakbrewers1("en-US"),
                           ),

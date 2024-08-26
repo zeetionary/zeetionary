@@ -179,7 +179,7 @@ class EnglishEntrycautious extends StatelessWidget {
                             englishText:
                                 "The government has been cautious in its response to the report.",
                             kurdishText:
-                                "حکومەت ھۆشیار بووە لە وەڵامدانەوەیدا بۆ ڕاپۆرتەکە.", // cautious",
+                                "حکومەت ھۆشیار بووە لە وەڵامدانەوەیدا بۆ ڕاپۆرتەکە.",
                             onPressedBritish: () => speakcautiouss1("en-GB"),
                             onPressedAmerican: () => speakcautiouss1("en-US"),
                           ),

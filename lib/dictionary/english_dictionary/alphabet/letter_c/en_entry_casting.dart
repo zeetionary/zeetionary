@@ -173,7 +173,7 @@ class EnglishEntrycasting extends StatelessWidget {
                           SentencesRow(
                             englishText: "Casting was completed by May.",
                             kurdishText:
-                                "ھەڵبژاردنی ئەکتەرەکان تا ئایار تەواو بوو.", // casting",
+                                "ھەڵبژاردنی ئەکتەرەکان تا ئایار تەواو بوو.",
                             onPressedBritish: () => speakcastings1("en-GB"),
                             onPressedAmerican: () => speakcastings1("en-US"),
                           ),

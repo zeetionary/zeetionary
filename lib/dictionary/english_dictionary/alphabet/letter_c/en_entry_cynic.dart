@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە پێی وایە خەڵکی تەنھا بۆ یارمەتیدانی خۆیان کار دەکەن، نەک بە ھۆکاری باش یان دڵسۆزی"),
           SentencesRow(
             englishText: "Don’t be such a cynic!",
-            kurdishText:
-                "ھێندە بەدگومان مەبە!", // cynic", please follow LX instructions
+            kurdishText: "ھێندە بەدگومان مەبە!",
             onPressedBritish: () => speakcynics1("en-GB"),
             onPressedAmerican: () => speakcynics1("en-US"),
           ),

@@ -123,8 +123,7 @@ class EnglishEntrychest extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She gasped for breath, her chest heaving.",
-                            kurdishText:
-                                "ھەناسەبڕکێی بوو و سنگی گەورە بوو.", // chest",
+                            kurdishText: "ھەناسەبڕکێی بوو و سنگی گەورە بوو.",
                             onPressedBritish: () => speakchests1("en-GB"),
                             onPressedAmerican: () => speakchests1("en-US"),
                           ),

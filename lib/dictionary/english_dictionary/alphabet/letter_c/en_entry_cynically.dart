@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He observed cynically that the war had made many people rich.",
             kurdishText:
-                "بەدگومانانە سەرنجی ئەوەی دا کە جەنگەکە زۆر کەسی دەوڵەمەند کرد.", // cynically", please follow LX instructions
+                "بەدگومانانە سەرنجی ئەوەی دا کە جەنگەکە زۆر کەسی دەوڵەمەند کرد.",
             onPressedBritish: () => speakcynicallys1("en-GB"),
             onPressedAmerican: () => speakcynicallys1("en-US"),
           ),

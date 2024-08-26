@@ -222,8 +222,7 @@ class EnglishEntrycharacter extends StatelessWidget {
                                   "١. (ناو) کەسێک یان شتێک لە شانۆیەک، فیلمێک، یان کتێبێک"),
                           SentencesRow(
                             englishText: "Who plays the main character?",
-                            kurdishText:
-                                "کێ ڕۆڵی کەسایەتی سەرەکی دەبینێت؟", // character",
+                            kurdishText: "کێ ڕۆڵی کەسایەتی سەرەکی دەبینێت؟",
                             onPressedBritish: () => speakcharacters1("en-GB"),
                             onPressedAmerican: () => speakcharacters1("en-US"),
                           ),

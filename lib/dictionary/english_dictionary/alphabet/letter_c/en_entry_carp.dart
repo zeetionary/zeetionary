@@ -176,7 +176,7 @@ class EnglishEntrycarp extends StatelessWidget {
                             englishText:
                                 "In some cultures, carp is considered a symbol of good luck and prosperity.",
                             kurdishText:
-                                "لە ھەندێک کەلتووردا، ماسی کارپ وەک سیمبولی بەختی باش و بووژانەوە دەبینرێت.", // carp",
+                                "لە ھەندێک کەلتووردا، ماسی کارپ وەک سیمبولی بەختی باش و بووژانەوە دەبینرێت.",
                             onPressedBritish: () => speakcarps1("en-GB"),
                             onPressedAmerican: () => speakcarps1("en-US"),
                           ),

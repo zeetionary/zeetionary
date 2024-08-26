@@ -520,7 +520,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A new computer system has been installed at a cost of £80 000.",
             kurdishText:
-                "سیستەمێکی تازەی کۆمپیوتەر بە خەرجی ٨٠٠٠٠ پاوەند دامەزراوە.", // cost", please follow LX instructions
+                "سیستەمێکی تازەی کۆمپیوتەر بە خەرجی ٨٠٠٠٠ پاوەند دامەزراوە.",
             onPressedBritish: () => speakcosts1("en-GB"),
             onPressedAmerican: () => speakcosts1("en-US"),
           ),

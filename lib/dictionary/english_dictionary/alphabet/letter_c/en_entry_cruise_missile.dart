@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The cruise missile struck its target with pinpoint accuracy.",
             kurdishText:
-                "مووشەکە کرووزەکە بە درووستی وردەوە کێشای بە ئامانجەکەی دا.", // cruise missile", please follow LX instructions
+                "مووشەکە کرووزەکە بە درووستی وردەوە کێشای بە ئامانجەکەی دا.",
             onPressedBritish: () => speakcruisemissiles1("en-GB"),
             onPressedAmerican: () => speakcruisemissiles1("en-US"),
           ),

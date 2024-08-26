@@ -175,7 +175,7 @@ class EnglishEntrycathode extends StatelessWidget {
                             englishText:
                                 "In a television, the cathode emits electrons that hit the screen, creating the picture.",
                             kurdishText:
-                                "لە تەلەفیزیۆنێکدا کاسۆد ئەلیکترۆن دەردەپەڕێنێت کە لە شاشەکە دەدەن و وێنە درووست دەکەن.", // cathode",
+                                "لە تەلەفیزیۆنێکدا کاسۆد ئەلیکترۆن دەردەپەڕێنێت کە لە شاشەکە دەدەن و وێنە درووست دەکەن.",
                             onPressedBritish: () => speakcathodes1("en-GB"),
                             onPressedAmerican: () => speakcathodes1("en-US"),
                           ),

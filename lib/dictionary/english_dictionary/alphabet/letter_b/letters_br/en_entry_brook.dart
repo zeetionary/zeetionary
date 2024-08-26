@@ -137,7 +137,7 @@ class EnglishEntrybrook extends StatelessWidget {
                             englishText:
                                 "We'll have to cross the brook to get to the road.",
                             kurdishText:
-                                "دەبێت لە جۆگەکە بپەڕینەوە بۆ ئەوەی بگەین بە ڕێگاکە.", // brook" as
+                                "دەبێت لە جۆگەکە بپەڕینەوە بۆ ئەوەی بگەین بە ڕێگاکە.",
                             onPressedBritish: () => speakbrooks1("en-GB"),
                             onPressedAmerican: () => speakbrooks1("en-US"),
                           ),

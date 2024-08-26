@@ -95,7 +95,7 @@ class EnglishEntryconciseness extends StatelessWidget {
                             englishText:
                                 "The letters were edited for clarity and conciseness.",
                             kurdishText:
-                                "نامەکان دەستکاری کران بۆ ڕوونی و پوختی.", // conciseness",
+                                "نامەکان دەستکاری کران بۆ ڕوونی و پوختی.",
                             onPressedBritish: () => speakconcisenesss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconcisenesss1("en-US"),

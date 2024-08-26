@@ -141,7 +141,7 @@ class EnglishEntrybrighten extends StatelessWidget {
                             englishText:
                                 "In the distance, the sky was beginning to brighten.",
                             kurdishText:
-                                "لە دوورەوە ئاسمان دەستی بە درەوشانەوە دەکرد.", // brighten" as
+                                "لە دوورەوە ئاسمان دەستی بە درەوشانەوە دەکرد.",
                             onPressedBritish: () => speakbrightens1("en-GB"),
                             onPressedAmerican: () => speakbrightens1("en-US"),
                           ),

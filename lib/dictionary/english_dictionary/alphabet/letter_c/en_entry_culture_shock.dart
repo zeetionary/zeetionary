@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He had never left his village before so arriving in the capital was a big culture shock.",
             kurdishText:
-                "ھەرگیز پێشووتر گوندەکەی جێنەھێشتبوو بۆیە گەشتن بە پایتەخت گورزێکی کەلتووری گەورە بوو.", // culture shock", please follow LX instructions
+                "ھەرگیز پێشووتر گوندەکەی جێنەھێشتبوو بۆیە گەشتن بە پایتەخت گورزێکی کەلتووری گەورە بوو.",
             onPressedBritish: () => speakcultureshocks1("en-GB"),
             onPressedAmerican: () => speakcultureshocks1("en-US"),
           ),

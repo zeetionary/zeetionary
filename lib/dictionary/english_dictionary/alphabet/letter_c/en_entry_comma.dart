@@ -100,8 +100,7 @@ class EnglishEntrycomma extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The relative clause is separated by commas.",
-                            kurdishText:
-                                "بڕگەی ڕستە بە فاریزە جیادەکرێتەوە.", // comma",
+                            kurdishText: "بڕگەی ڕستە بە فاریزە جیادەکرێتەوە.",
                             onPressedBritish: () => speakcommas1("en-GB"),
                             onPressedAmerican: () => speakcommas1("en-US"),
                           ),

@@ -93,7 +93,7 @@ class EnglishEntryconvulsive extends StatelessWidget {
                           SentencesRow(
                             englishText: "Her breath came in convulsive gasps.",
                             kurdishText:
-                                "ھەناسەدانەکەی بە ھەناسەبڕکێی کۆنترۆڵ‌نەکراو بوو.", // convulsive",
+                                "ھەناسەدانەکەی بە ھەناسەبڕکێی کۆنترۆڵ‌نەکراو بوو.",
                             onPressedBritish: () => speakconvulsives1("en-GB"),
                             onPressedAmerican: () => speakconvulsives1("en-US"),
                           ),

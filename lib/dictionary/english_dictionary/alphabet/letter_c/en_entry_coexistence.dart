@@ -95,7 +95,7 @@ class EnglishEntrycoexistence extends StatelessWidget {
                             englishText:
                                 "The two communities enjoyed a period of peaceful coexistence.",
                             kurdishText:
-                                "دوو کۆمەڵگەکە ماوەیەک بە پێکەوەژیانی ئاشتییانە ژیان.", // coexistence",
+                                "دوو کۆمەڵگەکە ماوەیەک بە پێکەوەژیانی ئاشتییانە ژیان.",
                             onPressedBritish: () => speakcoexistences1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcoexistences1("en-US"),

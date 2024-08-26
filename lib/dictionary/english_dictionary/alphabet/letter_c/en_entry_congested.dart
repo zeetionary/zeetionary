@@ -108,7 +108,7 @@ class EnglishEntrycongested extends StatelessWidget {
                             englishText:
                                 "Many of Europe's airports are heavily congested.",
                             kurdishText:
-                                "زۆرێک لە فڕۆکەخانەکانی ئەورووپا تەواو قەرەباڵغن.", // congested",
+                                "زۆرێک لە فڕۆکەخانەکانی ئەورووپا تەواو قەرەباڵغن.",
                             onPressedBritish: () => speakcongesteds1("en-GB"),
                             onPressedAmerican: () => speakcongesteds1("en-US"),
                           ),

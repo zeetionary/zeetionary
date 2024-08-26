@@ -175,7 +175,7 @@ class EnglishEntrycellophane extends StatelessWidget {
                             englishText:
                                 "The baker wrapped the breads in cellophane to keep it fresh.",
                             kurdishText:
-                                "نانەواکە نانەکانی بە سێلفۆن پێچایەوە بۆ ئەوەی بە تازەیی ڕایان بگرێت.", // Cellophane",
+                                "نانەواکە نانەکانی بە سێلفۆن پێچایەوە بۆ ئەوەی بە تازەیی ڕایان بگرێت.",
                             onPressedBritish: () => speakCellophanes1("en-GB"),
                             onPressedAmerican: () => speakCellophanes1("en-US"),
                           ),

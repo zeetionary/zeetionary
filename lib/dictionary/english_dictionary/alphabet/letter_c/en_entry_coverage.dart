@@ -270,8 +270,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There was blanket coverage (= reports everywhere) of the royal divorce.",
-            kurdishText:
-                "ڕووماڵی بەرفراوانی جیابوونەوە شاھانەییەکە ھەبوو.", // coverage", please follow LX instructions
+            kurdishText: "ڕووماڵی بەرفراوانی جیابوونەوە شاھانەییەکە ھەبوو.",
             onPressedBritish: () => speakcoverages1("en-GB"),
             onPressedAmerican: () => speakcoverages1("en-US"),
           ),

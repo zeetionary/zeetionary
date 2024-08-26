@@ -100,7 +100,7 @@ class EnglishEntrychasm extends StatelessWidget {
                             englishText:
                                 "Suddenly a huge chasm opened in the earth.",
                             kurdishText:
-                                "لەناکاو کەندڕێکی گەورە لە زەویدا درووست بوو.", // chasm",
+                                "لەناکاو کەندڕێکی گەورە لە زەویدا درووست بوو.",
                             onPressedBritish: () => speakchasms1("en-GB"),
                             onPressedAmerican: () => speakchasms1("en-US"),
                           ),

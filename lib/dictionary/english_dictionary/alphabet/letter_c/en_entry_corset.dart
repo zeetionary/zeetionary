@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Women in the 19th century often wore corsets to achieve a slim waist.",
             kurdishText:
-                "ژنان لە سەدەی نۆزدەدا زۆرجار زگ‌بەندیان دەبەست بۆ بەدەستھێنانی کەمەرێکی باریک.", // corset", please follow LX instructions
+                "ژنان لە سەدەی نۆزدەدا زۆرجار زگ‌بەندیان دەبەست بۆ بەدەستھێنانی کەمەرێکی باریک.",
             onPressedBritish: () => speakcorsets1("en-GB"),
             onPressedAmerican: () => speakcorsets1("en-US"),
           ),

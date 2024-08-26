@@ -208,7 +208,7 @@ class EnglishEntryclash extends StatelessWidget {
                             englishText:
                                 "Clashes broke out between police and demonstrators.",
                             kurdishText:
-                                "پێکدادان دەستیپێکرد لە نێوان پۆلیس و خۆپیشاندەراندا.", // clash",
+                                "پێکدادان دەستیپێکرد لە نێوان پۆلیس و خۆپیشاندەراندا.",
                             onPressedBritish: () => speakclashs1("en-GB"),
                             onPressedAmerican: () => speakclashs1("en-US"),
                           ),

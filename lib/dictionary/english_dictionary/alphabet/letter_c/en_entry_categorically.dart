@@ -173,7 +173,7 @@ class EnglishEntrycategorically extends StatelessWidget {
                           SentencesRow(
                             englishText: "He categorically rejected our offer.",
                             kurdishText:
-                                "بەشێوەیەکی یەکلایی‌کەرەوە ئۆفەرەکەمانی ڕەتکردەوە.", // categorically",
+                                "بەشێوەیەکی یەکلایی‌کەرەوە ئۆفەرەکەمانی ڕەتکردەوە.",
                             onPressedBritish: () =>
                                 speakcategoricallys1("en-GB"),
                             onPressedAmerican: () =>

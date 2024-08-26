@@ -95,7 +95,7 @@ class EnglishEntrycollateral extends StatelessWidget {
                             englishText:
                                 "We had put our house up as collateral for our bank loan.",
                             kurdishText:
-                                "خانووەکەمان وەک بارمتە  بۆ قەرزە بانکییەکەمان دانا.", // collateral",
+                                "خانووەکەمان وەک بارمتە  بۆ قەرزە بانکییەکەمان دانا.",
                             onPressedBritish: () => speakcollaterals1("en-GB"),
                             onPressedAmerican: () => speakcollaterals1("en-US"),
                           ),

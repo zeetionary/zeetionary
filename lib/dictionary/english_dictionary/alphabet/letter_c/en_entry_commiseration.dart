@@ -99,8 +99,7 @@ class EnglishEntrycommiseration extends StatelessWidget {
                                   "١. (ناو) ھاوسۆزی دەربڕین بۆ کەسێک کە شتێکی ناخۆشی بەسەرھاتووە"),
                           SentencesRow(
                             englishText: "I offered him my commiseration.",
-                            kurdishText:
-                                "ھاوسۆزی خۆمم پێشکەش کرد.", // commiseration",
+                            kurdishText: "ھاوسۆزی خۆمم پێشکەش کرد.",
                             onPressedBritish: () =>
                                 speakcommiserations1("en-GB"),
                             onPressedAmerican: () =>

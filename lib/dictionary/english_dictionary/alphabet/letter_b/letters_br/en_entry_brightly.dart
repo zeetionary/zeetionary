@@ -135,8 +135,7 @@ class EnglishEntrybrightly extends StatelessWidget {
                               text: "١. (ھاوەڵکار) بەدرەوشاوەیی"),
                           SentencesRow(
                             englishText: "The sun was shining brightly.",
-                            kurdishText:
-                                "خۆر بە پڕتیشکانەوە دەدرەوشایەوە.", // brightly" as
+                            kurdishText: "خۆر بە پڕتیشکانەوە دەدرەوشایەوە.",
                             onPressedBritish: () => speakbrightlys1("en-GB"),
                             onPressedAmerican: () => speakbrightlys1("en-US"),
                           ),

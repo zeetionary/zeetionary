@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The accident was the result of a culpable failure to consider the risks involved.",
             kurdishText:
-                "ڕووداوەکە ئەنجامی شکستھێنانێکی بەرپرس بوو لە لەبەرچاوگرتنی ئەو مەترسییانەی ھەبوو.", // culpable", please follow LX instructions
+                "ڕووداوەکە ئەنجامی شکستھێنانێکی بەرپرس بوو لە لەبەرچاوگرتنی ئەو مەترسییانەی ھەبوو.",
             onPressedBritish: () => speakculpables1("en-GB"),
             onPressedAmerican: () => speakculpables1("en-US"),
           ),

@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) نەفرەتلکراو بە سیحر"),
           SentencesRow(
             englishText: "The whole family seemed cursed.",
-            kurdishText:
-                "تەواوی خێزانەکە وادیاربوو نەفرەتلێکراو بن.", // cursed", please follow LX instructions
+            kurdishText: "تەواوی خێزانەکە وادیاربوو نەفرەتلێکراو بن.",
             onPressedBritish: () => speakcurseds1("en-GB"),
             onPressedAmerican: () => speakcurseds1("en-US"),
           ),

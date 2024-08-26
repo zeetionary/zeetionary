@@ -95,7 +95,7 @@ class EnglishEntrycleverly extends StatelessWidget {
                             englishText:
                                 "I thought you handled the situation very cleverly.",
                             kurdishText:
-                                "وامفکری کە زۆر زیرەکانە مامەڵەت لەگەڵ دۆخەکە کرد.", // cleverly",
+                                "وامفکری کە زۆر زیرەکانە مامەڵەت لەگەڵ دۆخەکە کرد.",
                             onPressedBritish: () => speakcleverlys1("en-GB"),
                             onPressedAmerican: () => speakcleverlys1("en-US"),
                           ),

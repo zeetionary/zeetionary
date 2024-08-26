@@ -95,7 +95,7 @@ class EnglishEntrycharioteer extends StatelessWidget {
                             englishText:
                                 "In ancient Greece, charioteers competed in the Olympics for glory and honor.",
                             kurdishText:
-                                "لە یۆنانی کۆندا، ئەڕابەوانان لە ئۆڵۆمپیاددا ڕکابەریان دەکرد بۆ شکۆ و شانازی.", // charioteer",
+                                "لە یۆنانی کۆندا، ئەڕابەوانان لە ئۆڵۆمپیاددا ڕکابەریان دەکرد بۆ شکۆ و شانازی.",
                             onPressedBritish: () => speakcharioteers1("en-GB"),
                             onPressedAmerican: () => speakcharioteers1("en-US"),
                           ),

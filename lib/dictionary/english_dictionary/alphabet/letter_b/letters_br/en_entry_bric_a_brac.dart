@@ -133,7 +133,7 @@ class EnglishEntrybricabrac extends StatelessWidget {
                           SentencesRow(
                             englishText: "They sell antiques and bric-a-brac.",
                             kurdishText:
-                                "شتی ئەنتیکە و خشڵ‌وزەمبەری ھەرزان دەفرۆشن.", // bric-a-brac" as
+                                "شتی ئەنتیکە و خشڵ‌وزەمبەری ھەرزان دەفرۆشن.",
                             onPressedBritish: () => speakbricabracs1("en-GB"),
                             onPressedAmerican: () => speakbricabracs1("en-US"),
                           ),

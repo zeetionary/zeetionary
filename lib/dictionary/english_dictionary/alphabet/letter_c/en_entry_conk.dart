@@ -102,7 +102,7 @@ class EnglishEntryconk extends StatelessWidget {
                             englishText:
                                 "He conked the burglar on the head with a baseball bat.",
                             kurdishText:
-                                "کێشای بە سەری دزەکەدا بە دارێکی یاری بەیسبۆڵ.", // conk",
+                                "کێشای بە سەری دزەکەدا بە دارێکی یاری بەیسبۆڵ.",
                             onPressedBritish: () => speakconks1("en-GB"),
                             onPressedAmerican: () => speakconks1("en-US"),
                           ),

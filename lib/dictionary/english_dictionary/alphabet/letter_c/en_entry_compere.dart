@@ -101,7 +101,7 @@ class EnglishEntrycompere extends StatelessWidget {
                             englishText:
                                 "The compère kept the event lively and engaging.",
                             kurdishText:
-                                "پێشکەش‌کارەکە بۆنەکەی بە گوڕوتین و سەرنجڕاکێشی ڕاگرت.", // compère",
+                                "پێشکەش‌کارەکە بۆنەکەی بە گوڕوتین و سەرنجڕاکێشی ڕاگرت.",
                             onPressedBritish: () => speakcomperes1("en-GB"),
                             onPressedAmerican: () => speakcomperes1("en-US"),
                           ),

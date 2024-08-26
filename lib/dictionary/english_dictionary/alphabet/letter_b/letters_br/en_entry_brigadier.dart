@@ -135,7 +135,7 @@ class EnglishEntrybrigadier extends StatelessWidget {
                               text: "١. (ناو) ئەفسەرێکی پلە باڵا لە سوپادا"),
                           SentencesRow(
                             englishText: "Thank you, Brigadier.",
-                            kurdishText: "سوپاس، سەرلیوا.", // brigadier" as
+                            kurdishText: "سوپاس، سەرلیوا.",
                             onPressedBritish: () => speakbrigadiers1("en-GB"),
                             onPressedAmerican: () => speakbrigadiers1("en-US"),
                           ),

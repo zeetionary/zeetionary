@@ -102,7 +102,7 @@ class EnglishEntrycollage extends StatelessWidget {
                             englishText:
                                 "She makes collages from everyday objects that she finds.",
                             kurdishText:
-                                "کالاژ درووست دەکات لەو شتانەی ڕۆژانە دەیاندۆزێتەوە.", // collage",
+                                "کالاژ درووست دەکات لەو شتانەی ڕۆژانە دەیاندۆزێتەوە.",
                             onPressedBritish: () => speakcollages1("en-GB"),
                             onPressedAmerican: () => speakcollages1("en-US"),
                           ),

@@ -91,7 +91,7 @@ class EnglishEntrychancel extends StatelessWidget {
                             englishText:
                                 "The choir assembled in the chancel to sing hymns during the church service.",
                             kurdishText:
-                                "دەستەی گۆرانیبێژان لە چانسڵەکە کۆبوونەوە بۆ چڕینی گۆرانی ئایینی لە کاتی خزمەتگوزاری کڵێساکە.", // chancel",
+                                "دەستەی گۆرانیبێژان لە چانسڵەکە کۆبوونەوە بۆ چڕینی گۆرانی ئایینی لە کاتی خزمەتگوزاری کڵێساکە.",
                             onPressedBritish: () => speakchancels1("en-GB"),
                             onPressedAmerican: () => speakchancels1("en-US"),
                           ),

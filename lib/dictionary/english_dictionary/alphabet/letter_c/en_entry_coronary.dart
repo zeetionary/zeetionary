@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Regular exercise reduces the risk of coronary heart disease.",
             kurdishText:
-                "ڕاھێنانی بەردەوام مەترسی نەخۆشی خوێنبەرەکانی ناو دڵ کەمدەکاتەوە.", // coronary", please follow LX instructions
+                "ڕاھێنانی بەردەوام مەترسی نەخۆشی خوێنبەرەکانی ناو دڵ کەمدەکاتەوە.",
             onPressedBritish: () => speakcoronarys1("en-GB"),
             onPressedAmerican: () => speakcoronarys1("en-US"),
           ),

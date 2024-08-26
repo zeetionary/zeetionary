@@ -182,7 +182,7 @@ class EnglishEntrycatastrophe extends StatelessWidget {
                             englishText:
                                 "Early warnings of rising water levels prevented another major catastrophe.",
                             kurdishText:
-                                "ئاگادارکەرەوە سەرەتاییەکانی بەرزبوونەوەی ئاستی ئاو ڕێگەی لە کارەساتێکی دیکەی گەورە گرت.", // catastrophe",
+                                "ئاگادارکەرەوە سەرەتاییەکانی بەرزبوونەوەی ئاستی ئاو ڕێگەی لە کارەساتێکی دیکەی گەورە گرت.",
                             onPressedBritish: () => speakcatastrophes1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcatastrophes1("en-US"),

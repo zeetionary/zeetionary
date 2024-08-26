@@ -178,8 +178,7 @@ class EnglishEntrycashregister extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He gave her £10 from the cash register.",
-                            kurdishText:
-                                "١٠ پاوەندی لە پارەنووسەکە پێدا.", // cash register",
+                            kurdishText: "١٠ پاوەندی لە پارەنووسەکە پێدا.",
                             onPressedBritish: () =>
                                 speakcashregisters1("en-GB"),
                             onPressedAmerican: () =>

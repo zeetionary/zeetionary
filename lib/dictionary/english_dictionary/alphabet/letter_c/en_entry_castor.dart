@@ -175,7 +175,7 @@ class EnglishEntrycastor extends StatelessWidget {
                             englishText:
                                 "Adding castors to the table legs made rearranging the room effortless.",
                             kurdishText:
-                                "زیادکردنی تایە بۆ لاقی مێزەکە ڕێکخستنەوەی ژوورەکەی ئاسان کرد.", // castor",
+                                "زیادکردنی تایە بۆ لاقی مێزەکە ڕێکخستنەوەی ژوورەکەی ئاسان کرد.",
                             onPressedBritish: () => speakcastors1("en-GB"),
                             onPressedAmerican: () => speakcastors1("en-US"),
                           ),

@@ -102,7 +102,7 @@ class EnglishEntrychequered extends StatelessWidget {
                             englishText:
                                 "He's had a chequered business career.",
                             kurdishText:
-                                "کارێکی بازرگانی پڕ لە ھەورازونشێوی ھەبووە.", // chequered",
+                                "کارێکی بازرگانی پڕ لە ھەورازونشێوی ھەبووە.",
                             onPressedBritish: () => speakchequereds1("en-GB"),
                             onPressedAmerican: () => speakchequereds1("en-US"),
                           ),

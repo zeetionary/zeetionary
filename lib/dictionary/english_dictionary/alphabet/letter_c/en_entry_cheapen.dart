@@ -117,7 +117,7 @@ class EnglishEntrycheapen extends StatelessWidget {
                             englishText:
                                 "She never cheapened herself by lowering her standards.",
                             kurdishText:
-                                "ھەرگیز خۆی کەمنەکردەوە بە دابەزاندنی ستانداردەکانی.", // cheapen",
+                                "ھەرگیز خۆی کەمنەکردەوە بە دابەزاندنی ستانداردەکانی.",
                             onPressedBritish: () => speakcheapens1("en-GB"),
                             onPressedAmerican: () => speakcheapens1("en-US"),
                           ),

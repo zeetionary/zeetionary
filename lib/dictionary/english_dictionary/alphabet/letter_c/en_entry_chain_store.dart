@@ -90,7 +90,7 @@ class EnglishEntrychainstore extends StatelessWidget {
                             englishText:
                                 "These small towns are dominated by chain stores.",
                             kurdishText:
-                                "ئەم شارۆچکانە بچووکانە پڕن لە زنجیرەفرۆشگا.", // chain store",
+                                "ئەم شارۆچکانە بچووکانە پڕن لە زنجیرەفرۆشگا.",
                             onPressedBritish: () => speakchainstores1("en-GB"),
                             onPressedAmerican: () => speakchainstores1("en-US"),
                           ),

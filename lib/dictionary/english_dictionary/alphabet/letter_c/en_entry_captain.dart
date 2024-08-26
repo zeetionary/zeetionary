@@ -181,7 +181,7 @@ class EnglishEntrycaptain extends StatelessWidget {
                             englishText:
                                 "The captain gave the order to abandon ship.",
                             kurdishText:
-                                "کاپتنەکە فەرمانی جیھێشتنی کەشتییەکەی دەرکرد.", // captain
+                                "کاپتنەکە فەرمانی جیھێشتنی کەشتییەکەی دەرکرد",
                             onPressedBritish: () => speakcaptains1("en-GB"),
                             onPressedAmerican: () => speakcaptains1("en-US"),
                           ),

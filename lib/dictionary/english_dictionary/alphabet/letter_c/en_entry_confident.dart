@@ -143,8 +143,7 @@ class EnglishEntryconfident extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She was in a relaxed, confident mood.",
-                            kurdishText:
-                                "لە کەشێکی ئاسوودە و باوەڕبەخۆیی بوو.", // confident",
+                            kurdishText: "لە کەشێکی ئاسوودە و باوەڕبەخۆیی بوو.",
                             onPressedBritish: () => speakconfidents1("en-GB"),
                             onPressedAmerican: () => speakconfidents1("en-US"),
                           ),

@@ -170,7 +170,7 @@ class EnglishEntryconstruction extends StatelessWidget {
                             englishText:
                                 "Work has begun on the construction of the new airport.",
                             kurdishText:
-                                "کاری بنیاتنانی فڕۆکەخانە تازەکە دەستیپێکردووە.", // construction",
+                                "کاری بنیاتنانی فڕۆکەخانە تازەکە دەستیپێکردووە.",
                             onPressedBritish: () =>
                                 speakconstructions1("en-GB"),
                             onPressedAmerican: () =>

@@ -184,7 +184,7 @@ class EnglishEntrycanonical extends StatelessWidget {
                             englishText:
                                 "The Gospel of Matthew and the Book of Genesis are both canonical texts in Christianity.",
                             kurdishText:
-                                "کتێبی ئینجیلی ماسیو و کتێبی جێنەسیز ھەردووکیان وەک نووسینی پەسەندکراون لە مەسیحییەتدا.", // canonical
+                                "کتێبی ئینجیلی ماسیو و کتێبی جێنەسیز ھەردووکیان وەک نووسینی پەسەندکراون لە مەسیحییەتدا",
                             onPressedBritish: () => speakcanonicals1("en-GB"),
                             onPressedAmerican: () => speakcanonicals1("en-US"),
                           ),

@@ -95,7 +95,7 @@ class EnglishEntrycontractual extends StatelessWidget {
                             englishText:
                                 "We have contractual obligations to control prices.",
                             kurdishText:
-                                "بەرپرسیارێتی بڕیارنامەییمان ھەیە کە کۆنترۆڵی نرخ بکەین.", // contractual",
+                                "بەرپرسیارێتی بڕیارنامەییمان ھەیە کە کۆنترۆڵی نرخ بکەین.",
                             onPressedBritish: () => speakcontractuals1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontractuals1("en-US"),

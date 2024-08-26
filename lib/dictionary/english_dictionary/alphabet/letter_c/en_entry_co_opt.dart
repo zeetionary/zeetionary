@@ -100,8 +100,7 @@ class EnglishEntrycoopt extends StatelessWidget {
                                   "١. (کردار) کردنی کەسێک بە ئەندامی گرووپێک، لیژنەیەک، ھتد بە ڕازیبوونی ھەموو ئەندامانی دیکە"),
                           SentencesRow(
                             englishText: "She was co-opted onto the board.",
-                            kurdishText:
-                                "ھەڵبژێردرایە ناو دەستەکە.", // co-opt",
+                            kurdishText: "ھەڵبژێردرایە ناو دەستەکە.",
                             onPressedBritish: () => speakcoopts1("en-GB"),
                             onPressedAmerican: () => speakcoopts1("en-US"),
                           ),

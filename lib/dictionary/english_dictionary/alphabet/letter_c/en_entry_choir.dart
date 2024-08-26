@@ -92,8 +92,7 @@ class EnglishEntrychoir extends StatelessWidget {
                                   "١. (ناو) کۆمەڵێک گۆرانیبێژ کە پێکەوە گۆرانی دەڵێن، بۆ نموونە لە مەراسیمی ئایینی لە کڵێسادا"),
                           SentencesRow(
                             englishText: "She sings in the school choir.",
-                            kurdishText:
-                                "گۆرانی دەڵێت لە کۆچڕی قوتابخانەکە.", // choir",
+                            kurdishText: "گۆرانی دەڵێت لە کۆچڕی قوتابخانەکە.",
                             onPressedBritish: () => speakchoirs1("en-GB"),
                             onPressedAmerican: () => speakchoirs1("en-US"),
                           ),

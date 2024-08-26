@@ -104,7 +104,7 @@ class EnglishEntrycompactly extends StatelessWidget {
                             englishText:
                                 "The tent folds compactly when not in use.",
                             kurdishText:
-                                "خێوەتەکان پەستێوراوانە قەد دەبن کە بەکارنایەن.", // compactly",
+                                "خێوەتەکان پەستێوراوانە قەد دەبن کە بەکارنایەن.",
                             onPressedBritish: () => speakcompactlys1("en-GB"),
                             onPressedAmerican: () => speakcompactlys1("en-US"),
                           ),

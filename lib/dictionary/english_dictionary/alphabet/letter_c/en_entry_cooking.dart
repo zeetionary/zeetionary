@@ -113,7 +113,7 @@ class EnglishEntrycooking extends StatelessWidget {
                           SentencesRow(
                             englishText: "My husband does all the cooking.",
                             kurdishText:
-                                "ھاوسەرەکەم ھەموو کاری چێشتلێنان دەکات.", // cooking",
+                                "ھاوسەرەکەم ھەموو کاری چێشتلێنان دەکات.",
                             onPressedBritish: () => speakcookings1("en-GB"),
                             onPressedAmerican: () => speakcookings1("en-US"),
                           ),

@@ -171,7 +171,7 @@ class EnglishEntrychill extends StatelessWidget {
                             englishText:
                                 "There's a chill in the air this morning.",
                             kurdishText:
-                                "سەرمایەک ئەم بەیانییە لە ھەوادا ھەیە.", // chill",
+                                "سەرمایەک ئەم بەیانییە لە ھەوادا ھەیە.",
                             onPressedBritish: () => speakchills1("en-GB"),
                             onPressedAmerican: () => speakchills1("en-US"),
                           ),

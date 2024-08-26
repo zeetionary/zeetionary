@@ -119,7 +119,7 @@ class EnglishEntrychampion extends StatelessWidget {
                             englishText:
                                 "They were champions at the Winter Olympics in Chamonix.",
                             kurdishText:
-                                "پاڵەوانی ئۆڵمپیادی زستانە بوون لە شامۆنی.", // champion",
+                                "پاڵەوانی ئۆڵمپیادی زستانە بوون لە شامۆنی.",
                             onPressedBritish: () => speakchampions1("en-GB"),
                             onPressedAmerican: () => speakchampions1("en-US"),
                           ),

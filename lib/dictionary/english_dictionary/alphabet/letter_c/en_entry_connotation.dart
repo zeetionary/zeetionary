@@ -109,8 +109,7 @@ class EnglishEntryconnotation extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "It is important to understand the power of connotation.",
-                            kurdishText:
-                                "گرنگە لە ھێزی لاواتا تێبگەیت.", // connotation",
+                            kurdishText: "گرنگە لە ھێزی لاواتا تێبگەیت.",
                             onPressedBritish: () => speakconnotations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconnotations1("en-US"),

@@ -182,7 +182,7 @@ class EnglishEntrycanal extends StatelessWidget {
                             englishText:
                                 "The barge moved slowly along the canal.",
                             kurdishText:
-                                "بەکەمە بارھەڵگرەکە بەھێواشی بە کەناڵەکەدا چوو.", // canal
+                                "بەکەمە بارھەڵگرەکە بەھێواشی بە کەناڵەکەدا چوو",
                             onPressedBritish: () => speakcanals1("en-GB"),
                             onPressedAmerican: () => speakcanals1("en-US"),
                           ),

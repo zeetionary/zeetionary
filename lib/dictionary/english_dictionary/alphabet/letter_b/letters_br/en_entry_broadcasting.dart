@@ -139,7 +139,7 @@ class EnglishEntrybroadcasting extends StatelessWidget {
                             englishText:
                                 "Huge amounts of money are spent on sports broadcasting.",
                             kurdishText:
-                                "پارەیەکی زۆر خەرج دەکرێت بۆ پەخشی تەلەفیزیۆنی.", // broadcasting" as
+                                "پارەیەکی زۆر خەرج دەکرێت بۆ پەخشی تەلەفیزیۆنی.",
                             onPressedBritish: () =>
                                 speakbroadcastings1("en-GB"),
                             onPressedAmerican: () =>

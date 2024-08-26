@@ -125,7 +125,7 @@ class EnglishEntrycomfortably extends StatelessWidget {
                             englishText:
                                 "All the rooms were comfortably furnished.",
                             kurdishText:
-                                "ھەموو ژوورەکان بە ئاسوودەبەخشانە کەلوپەلیان لێ دانرا.", // comfortably",
+                                "ھەموو ژوورەکان بە ئاسوودەبەخشانە کەلوپەلیان لێ دانرا.",
                             onPressedBritish: () => speakcomfortablys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcomfortablys1("en-US"),

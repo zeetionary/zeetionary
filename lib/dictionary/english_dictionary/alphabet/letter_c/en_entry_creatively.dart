@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "This is a unique opportunity to think creatively about how to fix these problems.",
             kurdishText:
-                "ئەمە دەرفەتێکی باشە بۆ بیرکردنەوە بە تازەگەرییانە سەبارەت بەوەی چۆن ئەم کێشانە چارەسەر بکەین.", // creatively", please follow LX instructions
+                "ئەمە دەرفەتێکی باشە بۆ بیرکردنەوە بە تازەگەرییانە سەبارەت بەوەی چۆن ئەم کێشانە چارەسەر بکەین.",
             onPressedBritish: () => speakcreativelys1("en-GB"),
             onPressedAmerican: () => speakcreativelys1("en-US"),
           ),

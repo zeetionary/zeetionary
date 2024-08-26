@@ -709,8 +709,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) بڕینی شتێک"),
           SentencesRow(
             englishText: "She cut her finger on a piece of glass.",
-            kurdishText:
-                "پەنجەی بە پارچە شووشەیەک بڕی.", // cut", please follow LX instructions
+            kurdishText: "پەنجەی بە پارچە شووشەیەک بڕی.",
             onPressedBritish: () => speakcuts1("en-GB"),
             onPressedAmerican: () => speakcuts1("en-US"),
           ),

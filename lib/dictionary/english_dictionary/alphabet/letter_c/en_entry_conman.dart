@@ -95,7 +95,7 @@ class EnglishEntryconman extends StatelessWidget {
                             englishText:
                                 "The movie focuses on the friendship between a dim-witted stud and a petty conman.",
                             kurdishText:
-                                "فیلمەکە سەرنج دەخاتەسەر ھاوڕێیەتی زەنەکێکی گەمژە و دەسبڕێکی ھیچ‌وپووچ.", // conman",
+                                "فیلمەکە سەرنج دەخاتەسەر ھاوڕێیەتی زەنەکێکی گەمژە و دەسبڕێکی ھیچ‌وپووچ.",
                             onPressedBritish: () => speakconmans1("en-GB"),
                             onPressedAmerican: () => speakconmans1("en-US"),
                           ),

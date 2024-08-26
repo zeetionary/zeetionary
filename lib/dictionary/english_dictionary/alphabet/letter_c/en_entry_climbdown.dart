@@ -95,7 +95,7 @@ class EnglishEntryclimbdown extends StatelessWidget {
                             englishText:
                                 "Saying she was wrong was a difficult climbdown for Sarah.",
                             kurdishText:
-                                "وتنی ئەوەی کە ھەڵە بوو کورتان-سوڕانێکی سەخت بوو بۆ سارا.", // climbdown",
+                                "وتنی ئەوەی کە ھەڵە بوو کورتان-سوڕانێکی سەخت بوو بۆ سارا.",
                             onPressedBritish: () => speakclimbdowns1("en-GB"),
                             onPressedAmerican: () => speakclimbdowns1("en-US"),
                           ),

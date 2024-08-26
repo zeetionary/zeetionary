@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەسێک کە زۆر دەگری، بەتایبەتی بەبێ ھۆکار"),
           SentencesRow(
             englishText: "Don't be such a crybaby.",
-            kurdishText:
-                "ھێندە گرینۆک مەبە.", // crybaby", please follow LX instructions
+            kurdishText: "ھێندە گرینۆک مەبە.",
             onPressedBritish: () => speakcrybabys1("en-GB"),
             onPressedAmerican: () => speakcrybabys1("en-US"),
           ),

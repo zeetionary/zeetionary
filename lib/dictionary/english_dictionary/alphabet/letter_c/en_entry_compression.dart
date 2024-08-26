@@ -102,7 +102,7 @@ class EnglishEntrycompression extends StatelessWidget {
                             englishText:
                                 "Tectonic forces caused compression in the earth’s crust.",
                             kurdishText:
-                                "ھێزی تەکتۆنی دەبێتە ھۆی پەستان لە کرۆکی زەویدا.", // compression",
+                                "ھێزی تەکتۆنی دەبێتە ھۆی پەستان لە کرۆکی زەویدا.",
                             onPressedBritish: () => speakcompressions1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcompressions1("en-US"),

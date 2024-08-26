@@ -95,7 +95,7 @@ class EnglishEntrycommemorative extends StatelessWidget {
                             englishText:
                                 "Everyone who takes part in the race will get a commemorative medal.",
                             kurdishText:
-                                "ھەرکەسێک کە لە پێشبڕکێکە بەژدار دەبێت مەدالیایەکی یادەوەری وەردەگرێت.", // commemorative",
+                                "ھەرکەسێک کە لە پێشبڕکێکە بەژدار دەبێت مەدالیایەکی یادەوەری وەردەگرێت.",
                             onPressedBritish: () =>
                                 speakcommemoratives1("en-GB"),
                             onPressedAmerican: () =>

@@ -103,7 +103,7 @@ class EnglishEntrycoral extends StatelessWidget {
                             englishText:
                                 "The coral necklace was a gift from her grandmother and held sentimental value.",
                             kurdishText:
-                                "ملوانکە مەرجانەکە دیارییەک بوو لە داپیرەیەوە و بەھای سۆزداری ھەبوو.", // coral",
+                                "ملوانکە مەرجانەکە دیارییەک بوو لە داپیرەیەوە و بەھای سۆزداری ھەبوو.",
                             onPressedBritish: () => speakcorals1("en-GB"),
                             onPressedAmerican: () => speakcorals1("en-US"),
                           ),

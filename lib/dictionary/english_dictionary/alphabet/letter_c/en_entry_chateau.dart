@@ -93,7 +93,7 @@ class EnglishEntrychateau extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The valley is home to more than 300 chateaux.",
-                            kurdishText: "دۆڵەکە ٣٠٠ کۆشکی لێیە.", // chateau",
+                            kurdishText: "دۆڵەکە ٣٠٠ کۆشکی لێیە.",
                             onPressedBritish: () => speakchateaus1("en-GB"),
                             onPressedAmerican: () => speakchateaus1("en-US"),
                           ),

@@ -147,7 +147,7 @@ class EnglishEntrycharter extends StatelessWidget {
                             englishText:
                                 "He fought for a social charter of workers' rights.",
                             kurdishText:
-                                "تێکۆشا بۆ دەستوورێکی کۆمەڵایەتی مافەکانی کرێکاران.", // charter",
+                                "تێکۆشا بۆ دەستوورێکی کۆمەڵایەتی مافەکانی کرێکاران.",
                             onPressedBritish: () => speakcharters1("en-GB"),
                             onPressedAmerican: () => speakcharters1("en-US"),
                           ),

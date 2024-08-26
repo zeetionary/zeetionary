@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They would like crockery and cutlery as wedding presents.",
             kurdishText:
-                "حەزیان بە قاپ‌وقاچاخ و کەوچک و کاردە وەک دیاری ھاوسەرگیری.", // crockery", please follow LX instructions
+                "حەزیان بە قاپ‌وقاچاخ و کەوچک و کاردە وەک دیاری ھاوسەرگیری.",
             onPressedBritish: () => speakcrockerys1("en-GB"),
             onPressedAmerican: () => speakcrockerys1("en-US"),
           ),

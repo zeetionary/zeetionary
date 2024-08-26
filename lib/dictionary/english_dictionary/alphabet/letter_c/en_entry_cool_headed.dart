@@ -94,7 +94,7 @@ class EnglishEntrycoolheaded extends StatelessWidget {
                             englishText:
                                 "Even the most cool-headed individuals can be thrown into a mild panic at the prospect of organizing a wedding.",
                             kurdishText:
-                                "تەنانەت کەسانی تەواو لەسەرەخۆش دەکرێت بکەونە کەمێک شڵەژاوییەوە لە چاوەڕوانی ئامادەکردنی بۆنەیەکی ھاوسەرگیریدا.", // cool-headed",
+                                "تەنانەت کەسانی تەواو لەسەرەخۆش دەکرێت بکەونە کەمێک شڵەژاوییەوە لە چاوەڕوانی ئامادەکردنی بۆنەیەکی ھاوسەرگیریدا.",
                             onPressedBritish: () => speakcoolheadeds1("en-GB"),
                             onPressedAmerican: () => speakcoolheadeds1("en-US"),
                           ),

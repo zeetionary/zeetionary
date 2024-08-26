@@ -101,8 +101,7 @@ class EnglishEntryconspiracy extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They were charged with conspiracy to murder.",
-                            kurdishText:
-                                "تۆمەتبارکران بە پیلانگێڕان بۆ کوشتن.", // conspiracy",
+                            kurdishText: "تۆمەتبارکران بە پیلانگێڕان بۆ کوشتن.",
                             onPressedBritish: () => speakconspiracys1("en-GB"),
                             onPressedAmerican: () => speakconspiracys1("en-US"),
                           ),

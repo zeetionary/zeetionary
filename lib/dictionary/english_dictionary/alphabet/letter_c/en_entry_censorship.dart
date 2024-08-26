@@ -179,7 +179,7 @@ class EnglishEntrycensorship extends StatelessWidget {
                             englishText:
                                 "The decree imposed strict censorship of the media.",
                             kurdishText:
-                                "بڕیارەکە سانسۆری قورسی سەپاند بەسەر میدیادا.", // censorship",
+                                "بڕیارەکە سانسۆری قورسی سەپاند بەسەر میدیادا.",
                             onPressedBritish: () => speakcensorships1("en-GB"),
                             onPressedAmerican: () => speakcensorships1("en-US"),
                           ),

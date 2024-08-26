@@ -103,7 +103,7 @@ class EnglishEntrycontamination extends StatelessWidget {
                             englishText:
                                 "Environmental contamination resulting from human activities is a major health concern.",
                             kurdishText:
-                                "پیسبوونی ژینگەیی بەھۆی چالاکییەکانی مرۆڤەوە نیگەرانییەنی تەندرووستی گرنگە.", // contamination",
+                                "پیسبوونی ژینگەیی بەھۆی چالاکییەکانی مرۆڤەوە نیگەرانییەنی تەندرووستی گرنگە.",
                             onPressedBritish: () =>
                                 speakcontaminations1("en-GB"),
                             onPressedAmerican: () =>

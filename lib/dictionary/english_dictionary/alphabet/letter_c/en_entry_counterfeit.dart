@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) شتێک کە ساختەیە و کۆپی شتێکی دیکەیە"),
           SentencesRow(
             englishText: "Are you aware these notes are counterfeit?",
-            kurdishText:
-                "ئاگاداریت ئەم پارانە ساختەن؟", // counterfeit", please follow LX instructions
+            kurdishText: "ئاگاداریت ئەم پارانە ساختەن؟",
             onPressedBritish: () => speakcounterfeits1("en-GB"),
             onPressedAmerican: () => speakcounterfeits1("en-US"),
           ),

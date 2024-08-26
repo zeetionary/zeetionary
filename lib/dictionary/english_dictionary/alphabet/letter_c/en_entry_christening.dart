@@ -94,7 +94,7 @@ class EnglishEntrychristening extends StatelessWidget {
                             englishText:
                                 "We all got together at the christening.",
                             kurdishText:
-                                "ھەموومان لە مەراسیمی تەوفنەکەدا کۆبووینەوە.", // christening",
+                                "ھەموومان لە مەراسیمی تەوفنەکەدا کۆبووینەوە.",
                             onPressedBritish: () => speakchristenings1("en-GB"),
                             onPressedAmerican: () =>
                                 speakchristenings1("en-US"),

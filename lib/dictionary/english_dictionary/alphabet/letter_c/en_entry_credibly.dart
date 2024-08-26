@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We can credibly describe the band's latest album as their best yet.",
             kurdishText:
-                "بە متمانەوە دەتوانین کۆتا ئەلبومی باندەکە وەک باشترینیان تاوەکو ئێستا ناوبێنین.", // credibly", please follow LX instructions
+                "بە متمانەوە دەتوانین کۆتا ئەلبومی باندەکە وەک باشترینیان تاوەکو ئێستا ناوبێنین.",
             onPressedBritish: () => speakcrediblys1("en-GB"),
             onPressedAmerican: () => speakcrediblys1("en-US"),
           ),

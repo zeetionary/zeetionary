@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Applications with a full curriculum vitae should reach the Principal by June 12th.",
             kurdishText:
-                "داخوازینامەکان لەگەڵ سی‌ڤیی تەواو دەبێت بگەن بە بەڕێوبەر تاوەکو ١٢ ـی حوزەیران.", // curriculum vitae", please follow LX instructions
+                "داخوازینامەکان لەگەڵ سی‌ڤیی تەواو دەبێت بگەن بە بەڕێوبەر تاوەکو ١٢ ـی حوزەیران.",
             onPressedBritish: () => speakcurriculumvitaes1("en-GB"),
             onPressedAmerican: () => speakcurriculumvitaes1("en-US"),
           ),

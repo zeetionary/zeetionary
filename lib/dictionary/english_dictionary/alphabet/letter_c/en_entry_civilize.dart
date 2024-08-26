@@ -103,7 +103,7 @@ class EnglishEntrycivilize extends StatelessWidget {
                             englishText:
                                 "The girls in a class tend to have a civilizing influence on the boys.",
                             kurdishText:
-                                "ھەبوونی کچان لە پۆلێکدا وادەردەکەوێت کاریگەری باشی لەسەر ڕەفتاری کوڕان ھەبێت.", // civilize",
+                                "ھەبوونی کچان لە پۆلێکدا وادەردەکەوێت کاریگەری باشی لەسەر ڕەفتاری کوڕان ھەبێت.",
                             onPressedBritish: () => speakcivilizes1("en-GB"),
                             onPressedAmerican: () => speakcivilizes1("en-US"),
                           ),

@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ڕووەکێک کە قەدێکی باریکی ھەیە لەگەڵ گەڵای بچووک و زۆرجار لەگەڵ لەفە و زەڵاتە دەخورێت"),
           SentencesRow(
             englishText: "She made egg and cress sandwiches for the picnic.",
-            kurdishText:
-                "بۆ سەیرانەکە لەفەی سەوزە و ھێلکەی ئامادە کردس.", // cress", please follow LX instructions
+            kurdishText: "بۆ سەیرانەکە لەفەی سەوزە و ھێلکەی ئامادە کردس.",
             onPressedBritish: () => speakcresss1("en-GB"),
             onPressedAmerican: () => speakcresss1("en-US"),
           ),

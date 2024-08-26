@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The evidence was corroborated by two independent witnesses.",
-            kurdishText:
-                "بەڵگەکە لەلایەن دوو شایەتحاڵەوە پشتڕاستکرایەوە.", // corroborate", please follow LX instructions
+            kurdishText: "بەڵگەکە لەلایەن دوو شایەتحاڵەوە پشتڕاستکرایەوە.",
             onPressedBritish: () => speakcorroborates1("en-GB"),
             onPressedAmerican: () => speakcorroborates1("en-US"),
           ),

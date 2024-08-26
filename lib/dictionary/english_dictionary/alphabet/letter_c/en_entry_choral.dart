@@ -95,7 +95,7 @@ class EnglishEntrychoral extends StatelessWidget {
                             englishText:
                                 "The choral performance at the concert was breathtaking.",
                             kurdishText:
-                                "نمایشی کۆچڕەکە لە کۆنسێرتەکە سەرسووڕھێنەر بوو.", // choral",
+                                "نمایشی کۆچڕەکە لە کۆنسێرتەکە سەرسووڕھێنەر بوو.",
                             onPressedBritish: () => speakchorals1("en-GB"),
                             onPressedAmerican: () => speakchorals1("en-US"),
                           ),

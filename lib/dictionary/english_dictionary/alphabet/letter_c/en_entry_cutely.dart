@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەشێوەیەک کە جوان و سەرنجڕاکێشە"),
           SentencesRow(
             englishText: "He smiled cutely at her.",
-            kurdishText:
-                "سەرنجڕاکێشانە بزەیەکی بۆ کرد.", // cutely", please follow LX instructions
+            kurdishText: "سەرنجڕاکێشانە بزەیەکی بۆ کرد.",
             onPressedBritish: () => speakcutelys1("en-GB"),
             onPressedAmerican: () => speakcutelys1("en-US"),
           ),

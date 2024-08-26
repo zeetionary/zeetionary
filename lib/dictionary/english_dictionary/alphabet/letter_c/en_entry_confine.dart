@@ -125,7 +125,7 @@ class EnglishEntryconfine extends StatelessWidget {
                             englishText:
                                 "The work will not be confined to the Glasgow area.",
                             kurdishText:
-                                "کارەکە سنووردار نابێت بە ناوچەی گلاسگۆ.", // confine",
+                                "کارەکە سنووردار نابێت بە ناوچەی گلاسگۆ.",
                             onPressedBritish: () => speakconfines1("en-GB"),
                             onPressedAmerican: () => speakconfines1("en-US"),
                           ),

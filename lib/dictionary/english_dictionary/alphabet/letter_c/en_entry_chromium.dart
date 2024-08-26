@@ -95,7 +95,7 @@ class EnglishEntrychromium extends StatelessWidget {
                             englishText:
                                 "Stainless steel contains chromium, which gives it its resistance to corrosion.",
                             kurdishText:
-                                "پۆڵای بێ‌خەوش کرۆمیەمی تێدایە بۆ پێدانی خۆگری دژ بە ژەنگ.", // chromium",
+                                "پۆڵای بێ‌خەوش کرۆمیەمی تێدایە بۆ پێدانی خۆگری دژ بە ژەنگ.",
                             onPressedBritish: () => speakchromiums1("en-GB"),
                             onPressedAmerican: () => speakchromiums1("en-US"),
                           ),

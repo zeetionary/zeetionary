@@ -277,7 +277,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Police sometimes put themselves in danger when arresting violent criminals.",
             kurdishText:
-                "پۆلیس ھەندێک جار خۆیان دەخەنەوە مەترسییەوە کە تاوانکارە توندوتیژەکان دەگرن.", // criminal", please follow LX instructions
+                "پۆلیس ھەندێک جار خۆیان دەخەنەوە مەترسییەوە کە تاوانکارە توندوتیژەکان دەگرن.",
             onPressedBritish: () => speakcriminals1("en-GB"),
             onPressedAmerican: () => speakcriminals1("en-US"),
           ),

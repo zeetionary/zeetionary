@@ -312,8 +312,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) پەردەی سەر پەنجەرە"),
           SentencesRow(
             englishText: "She opened her curtains and looked out.",
-            kurdishText:
-                "پەردەکانیی کردەوە و سەیری دەرەوەی کرد.", // curtain", please follow LX instructions
+            kurdishText: "پەردەکانیی کردەوە و سەیری دەرەوەی کرد.",
             onPressedBritish: () => speakcurtains1("en-GB"),
             onPressedAmerican: () => speakcurtains1("en-US"),
           ),

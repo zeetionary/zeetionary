@@ -109,7 +109,7 @@ class EnglishEntrycordial extends StatelessWidget {
                             englishText:
                                 "The talks took place in a cordial atmosphere.",
                             kurdishText:
-                                "گفتوگۆکان لە کەشێکی گەرموگوڕدا ڕوویاندا.", // cordial",
+                                "گفتوگۆکان لە کەشێکی گەرموگوڕدا ڕوویاندا.",
                             onPressedBritish: () => speakcordials1("en-GB"),
                             onPressedAmerican: () => speakcordials1("en-US"),
                           ),

@@ -102,7 +102,7 @@ class EnglishEntrycomprehend extends StatelessWidget {
                             englishText:
                                 "The infinite distances of space are too great for the human mind to comprehend.",
                             kurdishText:
-                                "مەودا بێ‌کۆتاکانی ئاسمان زۆر گەورەترن لەوەی مێشکی مرۆڤ لێی تێ بگات.", // comprehend",
+                                "مەودا بێ‌کۆتاکانی ئاسمان زۆر گەورەترن لەوەی مێشکی مرۆڤ لێی تێ بگات.",
                             onPressedBritish: () => speakcomprehends1("en-GB"),
                             onPressedAmerican: () => speakcomprehends1("en-US"),
                           ),

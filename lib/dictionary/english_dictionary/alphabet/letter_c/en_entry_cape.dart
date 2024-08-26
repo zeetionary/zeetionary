@@ -181,7 +181,7 @@ class EnglishEntrycape extends StatelessWidget {
                             englishText:
                                 "He strode out of the room, his black cape flowing behind him.",
                             kurdishText:
-                                "لە ژوورەکە ھاتە دەرەوە و کۆڵوانەکەی لە دواوەی فشبوو بوو.", // cape
+                                "لە ژوورەکە ھاتە دەرەوە و کۆڵوانەکەی لە دواوەی فشبوو بوو",
                             onPressedBritish: () => speakcapes1("en-GB"),
                             onPressedAmerican: () => speakcapes1("en-US"),
                           ),

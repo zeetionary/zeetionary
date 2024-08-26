@@ -100,8 +100,7 @@ class EnglishEntrychickenpox extends StatelessWidget {
                                   "١. (ناو) نەخۆشییەک کە بەتایبەتی لەناو منداڵاندا بەربڵاوە کە دەبێتە ھۆی پلەی گەرمی بەرز و خاڵی سوور لەسەر جەستە"),
                           SentencesRow(
                             englishText: "Did you have chicken pox as a child?",
-                            kurdishText:
-                                "کە منداڵ بوویت دڕکەمێکوتەت گرت؟", // chickenpox",
+                            kurdishText: "کە منداڵ بوویت دڕکەمێکوتەت گرت؟",
                             onPressedBritish: () => speakchickenpoxs1("en-GB"),
                             onPressedAmerican: () => speakchickenpoxs1("en-US"),
                           ),

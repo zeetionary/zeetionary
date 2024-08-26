@@ -176,7 +176,7 @@ class EnglishEntrycc extends StatelessWidget {
                             englishText:
                                 "Please be aware that the monthly meeting has been rescheduled to next Tuesday at 10:00 AM. Agenda items have been updated accordingly. To all attendees, cc Janet Gold.",
                             kurdishText:
-                                "تکایە ئاگاداربن کە چاوپێکەوتنی مانگانە دووبارە ڕێکخراوەتەوە بۆ سێشەممەی داھاتوو لە کاتژمێر ١٠. بابەتەکانی ئەجێندا بەگوێرەی ئەوە نوێکراونەتەوە. بۆ تەواوی بەژداربووان، و کۆپییەک بۆ جانێت گۆڵد.", // cc",
+                                "تکایە ئاگاداربن کە چاوپێکەوتنی مانگانە دووبارە ڕێکخراوەتەوە بۆ سێشەممەی داھاتوو لە کاتژمێر ١٠. بابەتەکانی ئەجێندا بەگوێرەی ئەوە نوێکراونەتەوە. بۆ تەواوی بەژداربووان، و کۆپییەک بۆ جانێت گۆڵد.",
                             onPressedBritish: () => speakccs1("en-GB"),
                             onPressedAmerican: () => speakccs1("en-US"),
                           ),

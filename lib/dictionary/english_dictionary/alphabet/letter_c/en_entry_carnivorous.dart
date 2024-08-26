@@ -174,7 +174,7 @@ class EnglishEntrycarnivorous extends StatelessWidget {
                             englishText:
                                 "I gave up my carnivorous diet several years ago.",
                             kurdishText:
-                                "چەند ساڵێک پێش ئێستا وازم لە خۆراکی گۆشتیم ھێنا.", // carnivorous",
+                                "چەند ساڵێک پێش ئێستا وازم لە خۆراکی گۆشتیم ھێنا.",
                             onPressedBritish: () => speakcarnivorouss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcarnivorouss1("en-US"),

@@ -98,8 +98,7 @@ class EnglishEntrychildbirth extends StatelessWidget {
                               text: "١. (ناو) پڕۆسەی منداڵبوون"),
                           SentencesRow(
                             englishText: "She dreaded the pain of childbirth.",
-                            kurdishText:
-                                "دەترسا لە ئازاری منداڵبوون.", // childbirth",
+                            kurdishText: "دەترسا لە ئازاری منداڵبوون.",
                             onPressedBritish: () => speakchildbirths1("en-GB"),
                             onPressedAmerican: () => speakchildbirths1("en-US"),
                           ),

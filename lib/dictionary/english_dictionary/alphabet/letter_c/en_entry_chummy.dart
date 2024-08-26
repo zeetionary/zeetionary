@@ -92,8 +92,7 @@ class EnglishEntrychummy extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They're very chummy with their neighbours.",
-                            kurdishText:
-                                "زۆر دۆستانەن لەگەڵ دراوسێیەکانیان.", // chummy",
+                            kurdishText: "زۆر دۆستانەن لەگەڵ دراوسێیەکانیان.",
                             onPressedBritish: () => speakchummys1("en-GB"),
                             onPressedAmerican: () => speakchummys1("en-US"),
                           ),

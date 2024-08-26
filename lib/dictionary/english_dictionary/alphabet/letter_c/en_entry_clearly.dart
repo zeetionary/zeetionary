@@ -141,7 +141,7 @@ class EnglishEntryclearly extends StatelessWidget {
                             englishText:
                                 "It's difficult to see anything clearly in this mirror.",
                             kurdishText:
-                                "سەختە ھیچ لەم ئاوێنەیەدا بە ڕوونی ببینیت.", // clearly",
+                                "سەختە ھیچ لەم ئاوێنەیەدا بە ڕوونی ببینیت.",
                             onPressedBritish: () => speakclearlys1("en-GB"),
                             onPressedAmerican: () => speakclearlys1("en-US"),
                           ),

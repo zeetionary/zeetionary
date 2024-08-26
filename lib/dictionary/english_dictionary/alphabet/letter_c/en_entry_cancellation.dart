@@ -183,7 +183,7 @@ class EnglishEntrycancellation extends StatelessWidget {
                             englishText:
                                 "Cancellations must be made in writing.Cancellations must be made in writing.",
                             kurdishText:
-                                "ھەڵوەشاندنەوە دەبێت بە نووسراو بکرێت.", // cancellation",
+                                "ھەڵوەشاندنەوە دەبێت بە نووسراو بکرێت.",
                             onPressedBritish: () =>
                                 speakcancellations1("en-GB"),
                             onPressedAmerican: () =>

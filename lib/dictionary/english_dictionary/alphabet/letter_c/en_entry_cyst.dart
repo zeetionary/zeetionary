@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ھەڵئاوساوییەک لەسەر جەستە کە شلەی تێدایە"),
           SentencesRow(
             englishText: "He had a cyst removed from near his eye.",
-            kurdishText:
-                "دوومەڵێکی بۆ لابردرا لە نزیکی گوێی.", // cyst", please follow LX instructions
+            kurdishText: "دوومەڵێکی بۆ لابردرا لە نزیکی گوێی.",
             onPressedBritish: () => speakcysts1("en-GB"),
             onPressedAmerican: () => speakcysts1("en-US"),
           ),

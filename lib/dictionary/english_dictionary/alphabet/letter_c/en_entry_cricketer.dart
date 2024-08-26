@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He is a talented cricketer who has represented his country in many matches.",
             kurdishText:
-                "یاریزانێکی لێھاتووی کریکێتە کە لە زۆر یاریدا نوێنەرایەتی وڵاتەکەی کردووە.", // cricketer", please follow LX instructions
+                "یاریزانێکی لێھاتووی کریکێتە کە لە زۆر یاریدا نوێنەرایەتی وڵاتەکەی کردووە.",
             onPressedBritish: () => speakcricketers1("en-GB"),
             onPressedAmerican: () => speakcricketers1("en-US"),
           ),

@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پێوەرێک کە بەپێی ئەوە ھەڵسەنگاندن دەکرێت یان بڕیار دەدرێت"),
           SentencesRow(
             englishText: "She failed to meet the strict selection criteria.",
-            kurdishText:
-                "پێوەرە توندەکانی ھەڵبژاردنی تێدا نەبوو.", // criterion", please follow LX instructions
+            kurdishText: "پێوەرە توندەکانی ھەڵبژاردنی تێدا نەبوو.",
             onPressedBritish: () => speakcriterions1("en-GB"),
             onPressedAmerican: () => speakcriterions1("en-US"),
           ),

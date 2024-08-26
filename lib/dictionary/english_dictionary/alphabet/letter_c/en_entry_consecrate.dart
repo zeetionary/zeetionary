@@ -106,8 +106,7 @@ class EnglishEntryconsecrate extends StatelessWidget {
                                   "١. (کردار) بە فەرمی گوتن لە بۆنەیەکدا کە شتێک پیرۆزە و دەکرێت بۆ مەبەستی ئایینی بەکاربێت"),
                           SentencesRow(
                             englishText: "The church was consecrated in 1853.",
-                            kurdishText:
-                                "کڵێساکە لە ١٨٥٣ پیرۆزکرا.", // consecrate",
+                            kurdishText: "کڵێساکە لە ١٨٥٣ پیرۆزکرا.",
                             onPressedBritish: () => speakconsecrates1("en-GB"),
                             onPressedAmerican: () => speakconsecrates1("en-US"),
                           ),

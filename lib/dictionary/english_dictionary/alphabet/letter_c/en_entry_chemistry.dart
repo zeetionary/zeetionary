@@ -108,8 +108,7 @@ class EnglishEntrychemistry extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He did physics and chemistry at university.",
-                            kurdishText:
-                                "فیزیا و کیمیای خوێند لە زانکۆ.", // chemistry",
+                            kurdishText: "فیزیا و کیمیای خوێند لە زانکۆ.",
                             onPressedBritish: () => speakchemistrys1("en-GB"),
                             onPressedAmerican: () => speakchemistrys1("en-US"),
                           ),

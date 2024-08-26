@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەشتییەکی گەورە کە لە جەنگدا بەکاردێت"),
           SentencesRow(
             englishText: "He served on a battle cruiser.",
-            kurdishText:
-                "لەسەر کەشتییەکی جەنگی خزمەتی کرد.", // cruiser", please follow LX instructions
+            kurdishText: "لەسەر کەشتییەکی جەنگی خزمەتی کرد.",
             onPressedBritish: () => speakcruisers1("en-GB"),
             onPressedAmerican: () => speakcruisers1("en-US"),
           ),

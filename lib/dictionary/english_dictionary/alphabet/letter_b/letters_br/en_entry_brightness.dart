@@ -140,7 +140,7 @@ class EnglishEntrybrightness extends StatelessWidget {
                             englishText:
                                 "She was momentarily blinded by the brightness of the room.",
                             kurdishText:
-                                "بۆ ماوەیەکی کەم تووشی شەوارەیی بوو بە ڕۆشنایی ژوورەکە.", // brightness" as
+                                "بۆ ماوەیەکی کەم تووشی شەوارەیی بوو بە ڕۆشنایی ژوورەکە.",
                             onPressedBritish: () => speakbrightnesss1("en-GB"),
                             onPressedAmerican: () => speakbrightnesss1("en-US"),
                           ),

@@ -133,7 +133,7 @@ class EnglishEntrycongress extends StatelessWidget {
                             englishText:
                                 "The Republican congress applauded this news enthusiastically.",
                             kurdishText:
-                                "کۆبوونەوەی کۆمارییەکان بە جۆش‌وخرۆشییەوە پیرۆزباییان لە ھەواڵەکە کرد.", // congress",
+                                "کۆبوونەوەی کۆمارییەکان بە جۆش‌وخرۆشییەوە پیرۆزباییان لە ھەواڵەکە کرد.",
                             onPressedBritish: () => speakcongresss1("en-GB"),
                             onPressedAmerican: () => speakcongresss1("en-US"),
                           ),

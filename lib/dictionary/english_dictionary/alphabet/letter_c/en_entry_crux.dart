@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) گرنگترین یان سەخترین بەشی کێشەیەک یان بابەتێک"),
           SentencesRow(
             englishText: "Now we come to the crux of the matter.",
-            kurdishText:
-                "ئێستا دێینە سەر کاکڵی کێشەکە.", // crux", please follow LX instructions
+            kurdishText: "ئێستا دێینە سەر کاکڵی کێشەکە.",
             onPressedBritish: () => speakcruxs1("en-GB"),
             onPressedAmerican: () => speakcruxs1("en-US"),
           ),
@@ -246,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The crux of the country's economic problems is its foreign debt.",
             kurdishText:
-                "پرسی دژواری کێشە ئابورییەکانی وڵاتەکە قەرزی دەرەکییە.", // crux", please follow LX instructions
+                "پرسی دژواری کێشە ئابورییەکانی وڵاتەکە قەرزی دەرەکییە.",
             onPressedBritish: () => speakcruxs2("en-GB"),
             onPressedAmerican: () => speakcruxs2("en-US"),
           ),

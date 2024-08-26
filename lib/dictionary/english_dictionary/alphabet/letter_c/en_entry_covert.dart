@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Every measure, both overt and covert, is being taken against terrorists.",
             kurdishText:
-                "ھەموو ھەنگاوێک، چی ئاشکرا یان نھێنی، دژ بە تیرۆریستان دەگیردرێتە بەر.", // covert", please follow LX instructions
+                "ھەموو ھەنگاوێک، چی ئاشکرا یان نھێنی، دژ بە تیرۆریستان دەگیردرێتە بەر.",
             onPressedBritish: () => speakcoverts1("en-GB"),
             onPressedAmerican: () => speakcoverts1("en-US"),
           ),

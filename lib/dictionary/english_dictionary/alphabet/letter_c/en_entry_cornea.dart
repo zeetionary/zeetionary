@@ -103,7 +103,7 @@ class EnglishEntrycornea extends StatelessWidget {
                             englishText:
                                 "The cornea is highly sensitive and contains many nerve endings.",
                             kurdishText:
-                                "کۆرنیا زۆر ھەستیارە و ژمارەیەکی زۆر سەرە دەمار لەخۆدەگرێت.", // cornea",
+                                "کۆرنیا زۆر ھەستیارە و ژمارەیەکی زۆر سەرە دەمار لەخۆدەگرێت.",
                             onPressedBritish: () => speakcorneas1("en-GB"),
                             onPressedAmerican: () => speakcorneas1("en-US"),
                           ),

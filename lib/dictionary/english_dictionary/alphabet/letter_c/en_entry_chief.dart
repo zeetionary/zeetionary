@@ -170,7 +170,7 @@ class EnglishEntrychief extends StatelessWidget {
                             englishText:
                                 "He became the chief architect of the Treaty of Paris.",
                             kurdishText:
-                                "بوو بە گرنگترین دانەری پەیماننامەی پاریس.", // chief",
+                                "بوو بە گرنگترین دانەری پەیماننامەی پاریس.",
                             onPressedBritish: () => speakchiefs1("en-GB"),
                             onPressedAmerican: () => speakchiefs1("en-US"),
                           ),

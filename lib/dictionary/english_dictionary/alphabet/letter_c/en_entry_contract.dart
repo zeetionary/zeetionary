@@ -200,7 +200,7 @@ class EnglishEntrycontract extends StatelessWidget {
                             englishText:
                                 "All employees have a written contract of employment.",
                             kurdishText:
-                                "ھەموو کارمەندان گرێبەستێکی نووسراوی وەرگرتنیان ھەیە.", // contract",
+                                "ھەموو کارمەندان گرێبەستێکی نووسراوی وەرگرتنیان ھەیە.",
                             onPressedBritish: () => speakcontracts1("en-GB"),
                             onPressedAmerican: () => speakcontracts1("en-US"),
                           ),

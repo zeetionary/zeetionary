@@ -269,7 +269,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The government is attempting to solve the debt crisis through spending cuts.",
             kurdishText:
-                "حکومەت ھەوڵ دەدات ئاریشەی قەرز چارەسەر بکات بە کەمکردنەوەی خەرجی.", // crisis", please follow LX instructions
+                "حکومەت ھەوڵ دەدات ئاریشەی قەرز چارەسەر بکات بە کەمکردنەوەی خەرجی.",
             onPressedBritish: () => speakcrisiss1("en-GB"),
             onPressedAmerican: () => speakcrisiss1("en-US"),
           ),

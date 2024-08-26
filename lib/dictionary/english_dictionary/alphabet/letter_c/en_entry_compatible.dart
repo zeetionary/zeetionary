@@ -118,7 +118,7 @@ class EnglishEntrycompatible extends StatelessWidget {
                             englishText:
                                 "The new system will be compatible with existing equipment.",
                             kurdishText:
-                                "سیستەمە تازەکە گونجاو دەبێت لەگەڵ ئەو ئامێرانەی کە بوونیان ھەیە.", // compatible",
+                                "سیستەمە تازەکە گونجاو دەبێت لەگەڵ ئەو ئامێرانەی کە بوونیان ھەیە.",
                             onPressedBritish: () => speakcompatibles1("en-GB"),
                             onPressedAmerican: () => speakcompatibles1("en-US"),
                           ),

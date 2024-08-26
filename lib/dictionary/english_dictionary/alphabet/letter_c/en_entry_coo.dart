@@ -110,7 +110,7 @@ class EnglishEntrycoo extends StatelessWidget {
                             englishText:
                                 "He imitated the sound of the dove's coo to attract the bird closer.",
                             kurdishText:
-                                "گمەگمی کۆترەکەی دووبارە دەکردەوە بۆ ئەوەی نزیکتری بکاتەوە.", // coo",
+                                "گمەگمی کۆترەکەی دووبارە دەکردەوە بۆ ئەوەی نزیکتری بکاتەوە.",
                             onPressedBritish: () => speakcoos1("en-GB"),
                             onPressedAmerican: () => speakcoos1("en-US"),
                           ),

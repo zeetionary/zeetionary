@@ -104,7 +104,7 @@ class EnglishEntrycoeducation extends StatelessWidget {
                             englishText:
                                 "In 1963 the university moved to co-education.",
                             kurdishText:
-                                "لە ساڵی ١٩٦٣ زانکۆکە بوو بە سیستەمی تێکەڵاو.", // co-education",
+                                "لە ساڵی ١٩٦٣ زانکۆکە بوو بە سیستەمی تێکەڵاو.",
                             onPressedBritish: () => speakcoeducations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcoeducations1("en-US"),

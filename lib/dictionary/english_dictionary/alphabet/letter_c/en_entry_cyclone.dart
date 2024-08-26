@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) زریانێکی توندی خولگەیی کە تێدا با بە سووڕخواردن دەجوڵێت"),
           SentencesRow(
             englishText: "The cyclone struck the village late last night.",
-            kurdishText:
-                "باھۆزەکە شەوی ڕابردوو لە گوندەکەی دا.", // cyclone", please follow LX instructions
+            kurdishText: "باھۆزەکە شەوی ڕابردوو لە گوندەکەی دا.",
             onPressedBritish: () => speakcyclones1("en-GB"),
             onPressedAmerican: () => speakcyclones1("en-US"),
           ),

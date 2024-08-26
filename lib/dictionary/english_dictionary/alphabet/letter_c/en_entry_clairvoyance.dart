@@ -95,7 +95,7 @@ class EnglishEntryclairvoyance extends StatelessWidget {
                             englishText:
                                 "The critique released two days earlier seemed like remarkable clairvoyance.",
                             kurdishText:
-                                "ڕەخنەوتارەکە کە پێش دوو ڕۆژ بڵاوکرایەوە وەک پێشزانی ناوازە دیاربوو.", // clairvoyance",
+                                "ڕەخنەوتارەکە کە پێش دوو ڕۆژ بڵاوکرایەوە وەک پێشزانی ناوازە دیاربوو.",
                             onPressedBritish: () =>
                                 speakclairvoyances1("en-GB"),
                             onPressedAmerican: () =>

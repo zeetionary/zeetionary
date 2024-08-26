@@ -308,8 +308,7 @@ class EnglishEntrycondition extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Many of the paintings are in poor condition.",
-                            kurdishText:
-                                "زۆرێک لە تابلۆکان لە دۆخی خراپدان.", // condition",
+                            kurdishText: "زۆرێک لە تابلۆکان لە دۆخی خراپدان.",
                             onPressedBritish: () => speakconditions1("en-GB"),
                             onPressedAmerican: () => speakconditions1("en-US"),
                           ),

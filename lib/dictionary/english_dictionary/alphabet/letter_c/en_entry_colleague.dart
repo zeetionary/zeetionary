@@ -110,7 +110,7 @@ class EnglishEntrycolleague extends StatelessWidget {
                             englishText:
                                 "We were friends and colleagues for more than 20 years.",
                             kurdishText:
-                                "ھاوڕێ و ھاوکار بووین بۆ زیاتر لە ٢٠ ساڵ.", // colleague",
+                                "ھاوڕێ و ھاوکار بووین بۆ زیاتر لە ٢٠ ساڵ.",
                             onPressedBritish: () => speakcolleagues1("en-GB"),
                             onPressedAmerican: () => speakcolleagues1("en-US"),
                           ),

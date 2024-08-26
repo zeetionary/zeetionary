@@ -176,7 +176,7 @@ class EnglishEntrycelebrity extends StatelessWidget {
                             englishText:
                                 "He became a celebrity in China after winning a gold medal at the Olympics.",
                             kurdishText:
-                                "بوو بە ناودارێک لە چین لە دوای بردنەوەی مەدالیایەکی زێڕ لە ئۆڵمپیاددا.", // celebrity",
+                                "بوو بە ناودارێک لە چین لە دوای بردنەوەی مەدالیایەکی زێڕ لە ئۆڵمپیاددا.",
                             onPressedBritish: () => speakcelebritys1("en-GB"),
                             onPressedAmerican: () => speakcelebritys1("en-US"),
                           ),

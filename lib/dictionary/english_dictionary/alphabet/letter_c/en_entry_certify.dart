@@ -181,7 +181,7 @@ class EnglishEntrycertify extends StatelessWidget {
                             englishText:
                                 "He handed her a piece of paper certifying (that) she was in good health.",
                             kurdishText:
-                                "پارچە کاغەزێکی پێدا کە پشتڕاستیکردەوە کە کچەکە لە تەندرووستییەکی باشدایە.", // certify",
+                                "پارچە کاغەزێکی پێدا کە پشتڕاستیکردەوە کە کچەکە لە تەندرووستییەکی باشدایە.",
                             onPressedBritish: () => speakcertifys1("en-GB"),
                             onPressedAmerican: () => speakcertifys1("en-US"),
                           ),

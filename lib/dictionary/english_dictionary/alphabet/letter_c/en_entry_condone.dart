@@ -101,7 +101,7 @@ class EnglishEntrycondone extends StatelessWidget {
                           SentencesRow(
                             englishText: "Terrorism can never be condoned.",
                             kurdishText:
-                                "تیرۆریزم نابێت ھەرگیز چاوپۆشێ لێبکرێت.", // condone",
+                                "تیرۆریزم نابێت ھەرگیز چاوپۆشێ لێبکرێت.",
                             onPressedBritish: () => speakcondones1("en-GB"),
                             onPressedAmerican: () => speakcondones1("en-US"),
                           ),

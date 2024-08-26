@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پێشبڕکێیەکی ڕاکردن یان بەفرەخلیسکێ بە دەشت‌ودەردا؛ وەرزشی لەم شێوەیە"),
           SentencesRow(
             englishText: "Who won the cross-country?",
-            kurdishText:
-                "کێ ڕاکردنی دەشت‌دەرییەکەی بردەوە؟", // cross-country", please follow LX instructions
+            kurdishText: "کێ ڕاکردنی دەشت‌دەرییەکەی بردەوە؟",
             onPressedBritish: () => speakcrosscountrys1("en-GB"),
             onPressedAmerican: () => speakcrosscountrys1("en-US"),
           ),

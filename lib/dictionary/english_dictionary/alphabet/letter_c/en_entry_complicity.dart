@@ -94,7 +94,7 @@ class EnglishEntrycomplicity extends StatelessWidget {
                             englishText:
                                 "She is suspected of complicity in the fraud.",
                             kurdishText:
-                                "گومانی ھاودەستی لێدەکرێت لە ساختەکارییەکەدا.", // complicity",
+                                "گومانی ھاودەستی لێدەکرێت لە ساختەکارییەکەدا.",
                             onPressedBritish: () => speakcomplicitys1("en-GB"),
                             onPressedAmerican: () => speakcomplicitys1("en-US"),
                           ),

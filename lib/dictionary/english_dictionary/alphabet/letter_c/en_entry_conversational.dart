@@ -102,7 +102,7 @@ class EnglishEntryconversational extends StatelessWidget {
                             englishText:
                                 "I learnt conversational Spanish at evening classes.",
                             kurdishText:
-                                "فێری ئیسپانی قسەکردن بووم لە وانەی ئێواران.", // conversational",
+                                "فێری ئیسپانی قسەکردن بووم لە وانەی ئێواران.",
                             onPressedBritish: () =>
                                 speakconversationals1("en-GB"),
                             onPressedAmerican: () =>

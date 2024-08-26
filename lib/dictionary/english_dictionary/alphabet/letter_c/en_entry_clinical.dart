@@ -118,7 +118,7 @@ class EnglishEntryclinical extends StatelessWidget {
                             englishText:
                                 "There is no clinical reason for his symptoms.",
                             kurdishText:
-                                "ھیچ ھۆکارێکی تەندرووستی نییە بۆ نیشانەکانی.", // clinical",
+                                "ھیچ ھۆکارێکی تەندرووستی نییە بۆ نیشانەکانی.",
                             onPressedBritish: () => speakclinicals1("en-GB"),
                             onPressedAmerican: () => speakclinicals1("en-US"),
                           ),

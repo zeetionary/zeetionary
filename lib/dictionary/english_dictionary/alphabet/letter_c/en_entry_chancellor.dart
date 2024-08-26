@@ -106,7 +106,7 @@ class EnglishEntrychancellor extends StatelessWidget {
                             englishText:
                                 "The talks were headed by Germany’s Chancellor Merkel.",
                             kurdishText:
-                                "گفتوگۆکان لەلایەن مێرکڵی ڕاوێژکاری ئەڵمانیاوە سەرکردایەتی دەکرا.", // chancellor",
+                                "گفتوگۆکان لەلایەن مێرکڵی ڕاوێژکاری ئەڵمانیاوە سەرکردایەتی دەکرا.",
                             onPressedBritish: () => speakchancellors1("en-GB"),
                             onPressedAmerican: () => speakchancellors1("en-US"),
                           ),

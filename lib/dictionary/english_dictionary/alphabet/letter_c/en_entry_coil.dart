@@ -115,7 +115,7 @@ class EnglishEntrycoil extends StatelessWidget {
                             englishText:
                                 "The snake coiled up, ready to strike.",
                             kurdishText:
-                                "مارەکە خۆی لوولدا و ئامادە بوو بۆ پێوەدان.", // coil",
+                                "مارەکە خۆی لوولدا و ئامادە بوو بۆ پێوەدان.",
                             onPressedBritish: () => speakcoils1("en-GB"),
                             onPressedAmerican: () => speakcoils1("en-US"),
                           ),

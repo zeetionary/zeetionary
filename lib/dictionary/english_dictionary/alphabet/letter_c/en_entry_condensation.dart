@@ -111,7 +111,7 @@ class EnglishEntrycondensation extends StatelessWidget {
                             englishText:
                                 "We get a lot of condensation on the walls in the winter.",
                             kurdishText:
-                                "ڕێژەیەکی زۆر لە دڵۆپە ئاومان لەسەر دیوارەکە دەبێت لە زستاندا.", // condensation",
+                                "ڕێژەیەکی زۆر لە دڵۆپە ئاومان لەسەر دیوارەکە دەبێت لە زستاندا.",
                             onPressedBritish: () =>
                                 speakcondensations1("en-GB"),
                             onPressedAmerican: () =>

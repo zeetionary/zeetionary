@@ -118,7 +118,7 @@ class EnglishEntrycircuit extends StatelessWidget {
                             englishText:
                                 "We did a complete circuit of the park in twenty minutes.",
                             kurdishText:
-                                "دەوارنێکی تەواوی پارکەکەمان ئەنجامدا لە ٢٠ خولەکدا.", // circuit",
+                                "دەوارنێکی تەواوی پارکەکەمان ئەنجامدا لە ٢٠ خولەکدا.",
                             onPressedBritish: () => speakcircuits1("en-GB"),
                             onPressedAmerican: () => speakcircuits1("en-US"),
                           ),

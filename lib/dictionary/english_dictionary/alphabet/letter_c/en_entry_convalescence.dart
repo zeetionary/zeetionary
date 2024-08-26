@@ -94,7 +94,7 @@ class EnglishEntryconvalescence extends StatelessWidget {
                             englishText:
                                 "You need four to six weeks' convalescence.",
                             kurdishText:
-                                "پێویستت بە چوار بۆ شەش ھەفتە لە ماوەی چاکبوونەوە ھەیە.", // convalescence",
+                                "پێویستت بە چوار بۆ شەش ھەفتە لە ماوەی چاکبوونەوە ھەیە.",
                             onPressedBritish: () =>
                                 speakconvalescences1("en-GB"),
                             onPressedAmerican: () =>

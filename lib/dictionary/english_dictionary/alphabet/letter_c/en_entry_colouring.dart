@@ -111,7 +111,7 @@ class EnglishEntrycolouring extends StatelessWidget {
                             englishText:
                                 "This contains no artificial colouring or flavouring.",
                             kurdishText:
-                                "ئەمە ھیچ ڕەنگ یان تامێکی دەستکردی تێدا نییە.", // colouring",
+                                "ئەمە ھیچ ڕەنگ یان تامێکی دەستکردی تێدا نییە.",
                             onPressedBritish: () => speakcolourings1("en-GB"),
                             onPressedAmerican: () => speakcolourings1("en-US"),
                           ),

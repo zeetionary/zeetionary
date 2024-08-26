@@ -100,7 +100,7 @@ class EnglishEntryconcert extends StatelessWidget {
                             englishText:
                                 "The orchestra gave a concert in Miami in January.",
                             kurdishText:
-                                "ئۆرکێستراکە کۆنسێرتێکی لە میامی لە کانوونی دووەمدا سازکرد.", // concert",
+                                "ئۆرکێستراکە کۆنسێرتێکی لە میامی لە کانوونی دووەمدا سازکرد.",
                             onPressedBritish: () => speakconcerts1("en-GB"),
                             onPressedAmerican: () => speakconcerts1("en-US"),
                           ),

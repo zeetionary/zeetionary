@@ -125,7 +125,7 @@ class EnglishEntrycontraction extends StatelessWidget {
                             englishText:
                                 "The design needs to allow for the expansion and contraction of the metal.",
                             kurdishText:
-                                "دیزاینەکە دەبێت ڕێگا بە کشان و چوونەوە یەکی کانزاکە بدات.", // contraction",
+                                "دیزاینەکە دەبێت ڕێگا بە کشان و چوونەوە یەکی کانزاکە بدات.",
                             onPressedBritish: () => speakcontractions1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontractions1("en-US"),

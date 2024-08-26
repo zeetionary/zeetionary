@@ -161,7 +161,7 @@ class EnglishEntrycomment extends StatelessWidget {
                             englishText:
                                 "She made helpful comments on my work.",
                             kurdishText:
-                                "لێدوانی یارمەتیدەری دا لەسەر کارەکانم.", // comment",
+                                "لێدوانی یارمەتیدەری دا لەسەر کارەکانم.",
                             onPressedBritish: () => speakcomments1("en-GB"),
                             onPressedAmerican: () => speakcomments1("en-US"),
                           ),

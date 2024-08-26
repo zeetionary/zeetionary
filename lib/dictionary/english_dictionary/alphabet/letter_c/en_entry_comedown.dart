@@ -95,7 +95,7 @@ class EnglishEntrycomedown extends StatelessWidget {
                             englishText:
                                 "It was a sad comedown for a band that was so popular only a year ago.",
                             kurdishText:
-                                "ڕۆچوونێکی دڵشکێنەر بوو بۆ باندێک کە تەنھا چەند ساڵی پێش زۆر ناودار بوو.", // comedown",
+                                "ڕۆچوونێکی دڵشکێنەر بوو بۆ باندێک کە تەنھا چەند ساڵی پێش زۆر ناودار بوو.",
                             onPressedBritish: () => speakcomedowns1("en-GB"),
                             onPressedAmerican: () => speakcomedowns1("en-US"),
                           ),

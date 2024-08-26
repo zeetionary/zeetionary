@@ -259,8 +259,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ھەبوونی توانای بەدەستخستنی ئەوەی دەتەوێت بە زیرەکی، بەتایبەتی بە فێڵ و تەڵەکەبازی"),
           SentencesRow(
             englishText: "He was as cunning as a fox.",
-            kurdishText:
-                "وەک ڕێوی زۆرزان بوو.", // cunning", please follow LX instructions
+            kurdishText: "وەک ڕێوی زۆرزان بوو.",
             onPressedBritish: () => speakcunnings1("en-GB"),
             onPressedAmerican: () => speakcunnings1("en-US"),
           ),

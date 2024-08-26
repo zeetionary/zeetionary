@@ -102,7 +102,7 @@ class EnglishEntryconscientiously extends StatelessWidget {
                             englishText:
                                 "She performed all her duties conscientiously.",
                             kurdishText:
-                                "ھەموو ئەرکەکانی بە وریاییەوە بەجێھێنا.", // conscientiously",
+                                "ھەموو ئەرکەکانی بە وریاییەوە بەجێھێنا.",
                             onPressedBritish: () =>
                                 speakconscientiouslys1("en-GB"),
                             onPressedAmerican: () =>

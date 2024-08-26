@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart.",
             kurdishText:
-                "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و ھەمپبرێی بۆگارتن.", // co-star", please follow LX instructions
+                "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و ھەمپبرێی بۆگارتن.",
             onPressedBritish: () => speakcostars1("en-GB"),
             onPressedAmerican: () => speakcostars1("en-US"),
           ),

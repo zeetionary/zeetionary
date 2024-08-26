@@ -250,8 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) تۆپەڵکردن"),
           SentencesRow(
             englishText: "This material crumples very easily.",
-            kurdishText:
-                "ئەم مادەیە ئاسان تۆپەڵ دەکرێت.", // crumple", please follow LX instructions
+            kurdishText: "ئەم مادەیە ئاسان تۆپەڵ دەکرێت.",
             onPressedBritish: () => speakcrumples1("en-GB"),
             onPressedAmerican: () => speakcrumples1("en-US"),
           ),

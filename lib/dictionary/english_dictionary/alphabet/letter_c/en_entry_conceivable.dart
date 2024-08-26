@@ -101,8 +101,7 @@ class EnglishEntryconceivable extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "It is conceivable that I'll see her tomorrow.",
-                            kurdishText:
-                                "ئەگەری ھەیە سبەی بیبینم.", // conceivable",
+                            kurdishText: "ئەگەری ھەیە سبەی بیبینم.",
                             onPressedBritish: () => speakconceivables1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconceivables1("en-US"),

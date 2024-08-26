@@ -110,7 +110,7 @@ class EnglishEntryconsiderable extends StatelessWidget {
                             englishText:
                                 "The project wasted a considerable amount of time and money.",
                             kurdishText:
-                                "پڕۆژەکە پارە و کاتی بەرچاوی بەفیڕۆدا.", // considerable",
+                                "پڕۆژەکە پارە و کاتی بەرچاوی بەفیڕۆدا.",
                             onPressedBritish: () =>
                                 speakconsiderables1("en-GB"),
                             onPressedAmerican: () =>

@@ -213,7 +213,7 @@ class EnglishEntrycompare extends StatelessWidget {
                             englishText:
                                 "We compared the two reports carefully.",
                             kurdishText:
-                                "دوو ڕاپۆرتەکەمان بەوریاییەوە بەراورد کرد.", // compare",
+                                "دوو ڕاپۆرتەکەمان بەوریاییەوە بەراورد کرد.",
                             onPressedBritish: () => speakcompares1("en-GB"),
                             onPressedAmerican: () => speakcompares1("en-US"),
                           ),

@@ -126,7 +126,7 @@ class EnglishEntrycord extends StatelessWidget {
                             englishText:
                                 "You need a piece of thick cord about two feet long.",
                             kurdishText:
-                                "پێویستیت بە تەلێکی ئەستوور ھەیە کە نزیکەی دوو پێ درێژ بێت.", // cord",
+                                "پێویستیت بە تەلێکی ئەستوور ھەیە کە نزیکەی دوو پێ درێژ بێت.",
                             onPressedBritish: () => speakcords1("en-GB"),
                             onPressedAmerican: () => speakcords1("en-US"),
                           ),

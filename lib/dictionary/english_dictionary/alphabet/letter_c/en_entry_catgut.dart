@@ -176,7 +176,7 @@ class EnglishEntrycatgut extends StatelessWidget {
                             englishText:
                                 "Violin, cello, and other string instruments traditionally use catgut strings for their rich sound.",
                             kurdishText:
-                                "کەمانچە، چەلۆ، و ئامێرە میوزیکییەکانی دیکە تەلی ژێ بەکاردێنن بۆ دەنگە پڕ و خۆشەکەیان.", // catgut",
+                                "کەمانچە، چەلۆ، و ئامێرە میوزیکییەکانی دیکە تەلی ژێ بەکاردێنن بۆ دەنگە پڕ و خۆشەکەیان.",
                             onPressedBritish: () => speakcatguts1("en-GB"),
                             onPressedAmerican: () => speakcatguts1("en-US"),
                           ),

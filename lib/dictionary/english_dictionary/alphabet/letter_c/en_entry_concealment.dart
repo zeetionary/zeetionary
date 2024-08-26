@@ -93,7 +93,7 @@ class EnglishEntryconcealment extends StatelessWidget {
                             englishText:
                                 "Many animals rely on concealment for protection.",
                             kurdishText:
-                                "زۆر ئاژەڵ پشت بە خۆشاردنەوە دەبەستن بۆ پاراستن.", // concealment",
+                                "زۆر ئاژەڵ پشت بە خۆشاردنەوە دەبەستن بۆ پاراستن.",
                             onPressedBritish: () => speakconcealments1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconcealments1("en-US"),

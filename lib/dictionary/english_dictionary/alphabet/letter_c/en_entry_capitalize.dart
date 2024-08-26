@@ -178,7 +178,7 @@ class EnglishEntrycapitalize extends StatelessWidget {
                             englishText:
                                 "The names of political parties are always capitalized.",
                             kurdishText:
-                                "ناوی پارتە سیاسییەکان ھەمیشە بە پیتی گەورە دەستپێ دەکرێت.", // capitalize
+                                "ناوی پارتە سیاسییەکان ھەمیشە بە پیتی گەورە دەستپێ دەکرێت",
                             onPressedBritish: () => speakcapitalizes1("en-GB"),
                             onPressedAmerican: () => speakcapitalizes1("en-US"),
                           ),

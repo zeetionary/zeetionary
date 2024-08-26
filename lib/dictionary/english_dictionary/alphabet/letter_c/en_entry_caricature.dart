@@ -181,7 +181,7 @@ class EnglishEntrycaricature extends StatelessWidget {
                             englishText:
                                 "In the newspaper, a brilliant caricature depicted the mayor with oversized glasses and a hat.",
                             kurdishText:
-                                "لە ڕۆژنامەکەدا، کاریکاتێرێکی بلیمەتانە سەرۆک شارەوانییەکەی پیشاندا بە چاویلکەی گەورە کڵاوێکەوە.", // caricature",
+                                "لە ڕۆژنامەکەدا، کاریکاتێرێکی بلیمەتانە سەرۆک شارەوانییەکەی پیشاندا بە چاویلکەی گەورە کڵاوێکەوە.",
                             onPressedBritish: () => speakcaricatures1("en-GB"),
                             onPressedAmerican: () => speakcaricatures1("en-US"),
                           ),

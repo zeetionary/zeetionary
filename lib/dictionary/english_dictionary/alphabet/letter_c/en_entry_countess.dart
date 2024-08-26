@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The countess was known for her charitable work in the community.",
             kurdishText:
-                "ژنە بەگزادەکە بۆ کارە خێرخوازییەکانی ناسراوبوو لە کۆمەڵگەکەدا.", // countess", please follow LX instructions
+                "ژنە بەگزادەکە بۆ کارە خێرخوازییەکانی ناسراوبوو لە کۆمەڵگەکەدا.",
             onPressedBritish: () => speakcountesss1("en-GB"),
             onPressedAmerican: () => speakcountesss1("en-US"),
           ),

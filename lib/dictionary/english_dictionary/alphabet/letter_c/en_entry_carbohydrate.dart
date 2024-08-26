@@ -174,8 +174,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
 ١. (ناو) کاربۆھایدرات، ھایدراتی کاربۆن؛ مادەیەک بۆ نموونە شەکر و نیشاستە کە لە کاربۆن و ھایدرۆجین و ئۆکسجین پێکھاتووە. کاربۆھایدراتی خواردن وزە و گەرمی بە لەش دەبەخشێت"""),
                           SentencesRow(
                             englishText: "Nuts are high in carbohydrates.",
-                            kurdishText:
-                                "کاکڵدارەکان پڕ لە کاربۆھایدراتن.", // carbohydrate",
+                            kurdishText: "کاکڵدارەکان پڕ لە کاربۆھایدراتن.",
                             onPressedBritish: () =>
                                 speakcarbohydrates1("en-GB"),
                             onPressedAmerican: () =>

@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The bank refused to give him a loan, saying that he wasn't creditworthy.",
             kurdishText:
-                "بانکەکە ڕەتیکردەوە قەرزی پێبدات، گوتیان کە قەرز کوێرە.", // creditworthy", please follow LX instructions
+                "بانکەکە ڕەتیکردەوە قەرزی پێبدات، گوتیان کە قەرز کوێرە.",
             onPressedBritish: () => speakcreditworthys1("en-GB"),
             onPressedAmerican: () => speakcreditworthys1("en-US"),
           ),

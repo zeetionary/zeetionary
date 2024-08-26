@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Nelson’s final resting place was in the crypt of St Paul’s Cathedral.",
             kurdishText:
-                "دوا مەنزڵگای نێڵسن لە ژێر زەمینی کڵێسای قەشە پاوڵ بوو.", // crypt", please follow LX instructions
+                "دوا مەنزڵگای نێڵسن لە ژێر زەمینی کڵێسای قەشە پاوڵ بوو.",
             onPressedBritish: () => speakcrypts1("en-GB"),
             onPressedAmerican: () => speakcrypts1("en-US"),
           ),

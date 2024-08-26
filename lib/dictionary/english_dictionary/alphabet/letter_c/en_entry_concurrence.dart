@@ -101,7 +101,7 @@ class EnglishEntryconcurrence extends StatelessWidget {
                             englishText:
                                 "The doctor may seek the concurrence of a relative before carrying out the procedure.",
                             kurdishText:
-                                "پزیشکەکە ڕەنگە داوای ڕازیبوونی خزمێک بکات پێش ئەوەی نەشتەرگەرییەکە بکات.", // concurrence",
+                                "پزیشکەکە ڕەنگە داوای ڕازیبوونی خزمێک بکات پێش ئەوەی نەشتەرگەرییەکە بکات.",
                             onPressedBritish: () => speakconcurrences1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconcurrences1("en-US"),

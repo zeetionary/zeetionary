@@ -299,8 +299,7 @@ class EnglishEntrybright extends StatelessWidget {
                               text: "١. (ھاوەڵناو) ڕۆشن و درەوشاوە"),
                           SentencesRow(
                             englishText: "Her eyes were bright with tears.",
-                            kurdishText:
-                                "چاوەکانی لە فرمێسکدا دەدرەوشانەوە.", // bright" as
+                            kurdishText: "چاوەکانی لە فرمێسکدا دەدرەوشانەوە.",
                             onPressedBritish: () => speakbrights1("en-GB"),
                             onPressedAmerican: () => speakbrights1("en-US"),
                           ),

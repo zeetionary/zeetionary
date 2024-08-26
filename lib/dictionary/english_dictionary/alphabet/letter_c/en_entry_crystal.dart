@@ -262,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پارچە مادەیەکی بچووک و کە ژمارەیەکی زۆر ڕووی تەختی ھەیە کە بە سرووشتی درووست دەبن کە مادەکە ڕەق دەبێت"),
           SentencesRow(
             englishText: "The crystal sparkled in the sunlight.",
-            kurdishText:
-                "کریستاڵەکە لە پێش ھەتاوەکەدا دەگەشایەوە.", // crystal", please follow LX instructions
+            kurdishText: "کریستاڵەکە لە پێش ھەتاوەکەدا دەگەشایەوە.",
             onPressedBritish: () => speakcrystals1("en-GB"),
             onPressedAmerican: () => speakcrystals1("en-US"),
           ),

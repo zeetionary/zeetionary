@@ -191,8 +191,7 @@ class EnglishEntrychase extends StatelessWidget {
                                   "١. (ناو) چوون بە دوای کەسێک یان شتێک بۆ گرتنی"),
                           SentencesRow(
                             englishText: "My dog likes chasing rabbits.",
-                            kurdishText:
-                                "سەگەکەم حەزی بە شوێنکەوتنی کەروێشکە.", // chase",
+                            kurdishText: "سەگەکەم حەزی بە شوێنکەوتنی کەروێشکە.",
                             onPressedBritish: () => speakchases1("en-GB"),
                             onPressedAmerican: () => speakchases1("en-US"),
                           ),

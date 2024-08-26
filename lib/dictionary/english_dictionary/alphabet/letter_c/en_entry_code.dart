@@ -164,7 +164,7 @@ class EnglishEntrycode extends StatelessWidget {
                                   "١. (ناو) سیستەمێک لە وشە، پیت، ژمارە، یان سمبول کە ئاماژەن بە پەیامێک یان زانیاری تۆمار دەکەن بە شێوەی نھێنی بە کورتی"),
                           SentencesRow(
                             englishText: "It's written in code.",
-                            kurdishText: "بە کۆد نووسراوە.", // code",
+                            kurdishText: "بە کۆد نووسراوە.",
                             onPressedBritish: () => speakcodes1("en-GB"),
                             onPressedAmerican: () => speakcodes1("en-US"),
                           ),

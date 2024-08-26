@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بە فەرمی دانانی تاجی شاھانە لەسەر پاشایەک یان شاژنێک"),
           SentencesRow(
             englishText: "He was present at the coronation of Queen Victoria.",
-            kurdishText:
-                "لە تاج‌لەسەرنانی شاژن ڤیکتۆریا ئامادەبوو.", // coronation", please follow LX instructions
+            kurdishText: "لە تاج‌لەسەرنانی شاژن ڤیکتۆریا ئامادەبوو.",
             onPressedBritish: () => speakcoronations1("en-GB"),
             onPressedAmerican: () => speakcoronations1("en-US"),
           ),

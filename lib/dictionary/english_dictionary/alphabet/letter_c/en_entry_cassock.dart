@@ -179,7 +179,7 @@ class EnglishEntrycassock extends StatelessWidget {
                             englishText:
                                 "The priest donned his black cassock before leading the Sunday service.",
                             kurdishText:
-                                "قەشەکە عەبا ڕەشەکەیی لەبەرکرد پێش ئەوەی بەرنوێژی ڕۆژی یەکشەممە بکات.", // cassock",
+                                "قەشەکە عەبا ڕەشەکەیی لەبەرکرد پێش ئەوەی بەرنوێژی ڕۆژی یەکشەممە بکات.",
                             onPressedBritish: () => speakcassocks1("en-GB"),
                             onPressedAmerican: () => speakcassocks1("en-US"),
                           ),

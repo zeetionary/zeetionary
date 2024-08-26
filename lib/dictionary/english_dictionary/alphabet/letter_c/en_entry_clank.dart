@@ -103,7 +103,7 @@ class EnglishEntryclank extends StatelessWidget {
                             englishText:
                                 "My bike chain was clanking in an alarming way as I pedalled along.",
                             kurdishText:
-                                "زنجیری پاسکیلەکەم خڕەخڕی دەھات کە پایدانم بۆ پێشەوە لێدەدا.", // clank",
+                                "زنجیری پاسکیلەکەم خڕەخڕی دەھات کە پایدانم بۆ پێشەوە لێدەدا.",
                             onPressedBritish: () => speakclanks1("en-GB"),
                             onPressedAmerican: () => speakclanks1("en-US"),
                           ),

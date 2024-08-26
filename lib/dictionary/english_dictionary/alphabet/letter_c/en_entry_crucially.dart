@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The plants need light and, crucially, a flow of cool air.",
             kurdishText:
-                "ڕووەکەکان پێویستییان بە ڕۆشنایی و گرنتریش ھەواگۆڕکێی ھەوای فێنک ھەیە.", // crucially", please follow LX instructions
+                "ڕووەکەکان پێویستییان بە ڕۆشنایی و گرنتریش ھەواگۆڕکێی ھەوای فێنک ھەیە.",
             onPressedBritish: () => speakcruciallys1("en-GB"),
             onPressedAmerican: () => speakcruciallys1("en-US"),
           ),

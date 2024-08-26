@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "All orders must be countersigned by one of the directors.",
             kurdishText:
-                "ھەموو فەرمانەکان دەبێت دووبارە واژۆ بکرێن لەلایەن یەکێک لە بەڕێوبەرەکانەوە.", // countersign", please follow LX instructions
+                "ھەموو فەرمانەکان دەبێت دووبارە واژۆ بکرێن لەلایەن یەکێک لە بەڕێوبەرەکانەوە.",
             onPressedBritish: () => speakcountersigns1("en-GB"),
             onPressedAmerican: () => speakcountersigns1("en-US"),
           ),

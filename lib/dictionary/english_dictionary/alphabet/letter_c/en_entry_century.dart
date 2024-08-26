@@ -179,7 +179,7 @@ class EnglishEntrycentury extends StatelessWidget {
                             englishText:
                                 "A century ago, Valparaiso was the country's main port.",
                             kurdishText:
-                                "سەدەیەک پێش ئێستا، ڤالپارایزۆ بەندەری سەرەکی وڵاتەکە بوو.", // century",
+                                "سەدەیەک پێش ئێستا، ڤالپارایزۆ بەندەری سەرەکی وڵاتەکە بوو.",
                             onPressedBritish: () => speakcenturys1("en-GB"),
                             onPressedAmerican: () => speakcenturys1("en-US"),
                           ),

@@ -153,7 +153,7 @@ class EnglishEntryconsent extends StatelessWidget {
                             englishText:
                                 "The written consent of a parent is required.",
                             kurdishText:
-                                "مۆڵەتی نووسراوی یەکێک لە دایک و باوک پێویستە.", // consent",
+                                "مۆڵەتی نووسراوی یەکێک لە دایک و باوک پێویستە.",
                             onPressedBritish: () => speakconsents1("en-GB"),
                             onPressedAmerican: () => speakconsents1("en-US"),
                           ),

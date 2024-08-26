@@ -103,7 +103,7 @@ class EnglishEntryclaimant extends StatelessWidget {
                             englishText:
                                 "The claimant to the throne argued that their lineage traced back to the royal family.",
                             kurdishText:
-                                "بانگەشەکاری تەختی شاھانە دەیگوت ڕەچەڵەکیان بۆ خێزانی شاھانە دەگەڕێتەوە.", // claimant",
+                                "بانگەشەکاری تەختی شاھانە دەیگوت ڕەچەڵەکیان بۆ خێزانی شاھانە دەگەڕێتەوە.",
                             onPressedBritish: () => speakclaimants1("en-GB"),
                             onPressedAmerican: () => speakclaimants1("en-US"),
                           ),

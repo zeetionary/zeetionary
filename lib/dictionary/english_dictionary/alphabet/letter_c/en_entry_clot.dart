@@ -107,7 +107,7 @@ class EnglishEntryclot extends StatelessWidget {
                                   "١. (ناو) کڵۆ؛ مادەیەکی چڕ و سەخت کە درووست دەبێت کاتێک خوێن وشک دەبێتەوە یان خەست دەبێت"),
                           SentencesRow(
                             englishText: "They removed a clot from his brain.",
-                            kurdishText: "کڵۆیەکیان لە مێشکی لادا.", // clot",
+                            kurdishText: "کڵۆیەکیان لە مێشکی لادا.",
                             onPressedBritish: () => speakclots1("en-GB"),
                             onPressedAmerican: () => speakclots1("en-US"),
                           ),

@@ -271,7 +271,7 @@ class EnglishEntrycalm extends StatelessWidget {
                             englishText:
                                 "It is important to keep calm in an emergency.",
                             kurdishText:
-                                "لەسەرخۆیی گرنگە لە بارودۆخی لەناکاودا.", // calm
+                                "لەسەرخۆیی گرنگە لە بارودۆخی لەناکاودا",
                             onPressedBritish: () => speakcalms1("en-GB"),
                             onPressedAmerican: () => speakcalms1("en-US"),
                           ),

@@ -101,7 +101,7 @@ class EnglishEntrycoagulate extends StatelessWidget {
                             englishText:
                                 "Blood began to coagulate around the edges of the wound.",
                             kurdishText:
-                                "خوێن دەستی مەیین کرد لە دەوری برینەکە.", // coagulate",
+                                "خوێن دەستی مەیین کرد لە دەوری برینەکە.",
                             onPressedBritish: () => speakcoagulates1("en-GB"),
                             onPressedAmerican: () => speakcoagulates1("en-US"),
                           ),

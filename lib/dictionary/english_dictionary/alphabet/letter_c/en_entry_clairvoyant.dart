@@ -95,7 +95,7 @@ class EnglishEntryclairvoyant extends StatelessWidget {
                             englishText:
                                 "People are claiming to have had clairvoyant visions of the murder.",
                             kurdishText:
-                                "خەڵکی بانگەشەی ئەوە دەکەن خەونی پێشوەختەی کوشتنەکەیان ھەبووبێت.", // clairvoyant",
+                                "خەڵکی بانگەشەی ئەوە دەکەن خەونی پێشوەختەی کوشتنەکەیان ھەبووبێت.",
                             onPressedBritish: () => speakclairvoyants1("en-GB"),
                             onPressedAmerican: () =>
                                 speakclairvoyants1("en-US"),

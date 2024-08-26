@@ -178,8 +178,7 @@ class EnglishEntrycanoe extends StatelessWidget {
                                   """١. (ناو) بەلەمێکی سووکی باریک کە بە سەوڵ دەیجوڵێنیت"""),
                           SentencesRow(
                             englishText: "We crossed the lake by canoe.",
-                            kurdishText:
-                                "بە بەلەم بە دەریاچەکەدا پەڕینەوە.", // canoe
+                            kurdishText: "بە بەلەم بە دەریاچەکەدا پەڕینەوە",
                             onPressedBritish: () => speakcanoes1("en-GB"),
                             onPressedAmerican: () => speakcanoes1("en-US"),
                           ),

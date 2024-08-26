@@ -175,7 +175,7 @@ class EnglishEntrycavern extends StatelessWidget {
                             englishText:
                                 "The underground cavern was formed where water used to flow.",
                             kurdishText:
-                                "ئەشکەوتە گەورەکە درووست بوو لەو شوێنەی کە جاران ئاو پێیدا دەچوو.", // cavern",
+                                "ئەشکەوتە گەورەکە درووست بوو لەو شوێنەی کە جاران ئاو پێیدا دەچوو.",
                             onPressedBritish: () => speakcaverns1("en-GB"),
                             onPressedAmerican: () => speakcaverns1("en-US"),
                           ),

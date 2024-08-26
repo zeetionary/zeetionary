@@ -133,7 +133,7 @@ class EnglishEntryconsole extends StatelessWidget {
                             englishText:
                                 "Nothing could console the children when their mother died.",
                             kurdishText:
-                                "ھیچ نەیدەتوانی دڵنەوایی منداڵەکان بداتەوە کە دایکیان مرد.", // console",
+                                "ھیچ نەیدەتوانی دڵنەوایی منداڵەکان بداتەوە کە دایکیان مرد.",
                             onPressedBritish: () => speakconsoles1("en-GB"),
                             onPressedAmerican: () => speakconsoles1("en-US"),
                           ),

@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەلەپچەی پۆلیس بۆ بەستنی دەستی دەستگیرکراوان"),
           SentencesRow(
             englishText: "She was led away in handcuffs.",
-            kurdishText:
-                "بە کەلەپچەکراوی بردرا.", // handcuffs", please follow LX instructions
+            kurdishText: "بە کەلەپچەکراوی بردرا.",
             onPressedBritish: () => speakhandcuffss1("en-GB"),
             onPressedAmerican: () => speakhandcuffss1("en-US"),
           ),

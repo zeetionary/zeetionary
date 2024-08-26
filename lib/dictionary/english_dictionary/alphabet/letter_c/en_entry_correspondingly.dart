@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Life in the city is more expensive, but salaries are correspondingly higher.",
             kurdishText:
-                "ژیان لە شار (نرخی) گرانترە، بەڵام لەگەڵێدا مووچە بەرزترە.", // correspondingly", please follow LX instructions
+                "ژیان لە شار (نرخی) گرانترە، بەڵام لەگەڵێدا مووچە بەرزترە.",
             onPressedBritish: () => speakcorrespondinglys1("en-GB"),
             onPressedAmerican: () => speakcorrespondinglys1("en-US"),
           ),

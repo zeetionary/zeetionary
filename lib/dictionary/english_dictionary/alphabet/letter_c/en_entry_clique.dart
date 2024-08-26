@@ -95,7 +95,7 @@ class EnglishEntryclique extends StatelessWidget {
                             englishText:
                                 "The club is dominated by a small clique of intellectuals.",
                             kurdishText:
-                                "یانەکە بەزۆری شوێنی ژمارەیەک دەستە لە ڕۆشنفکرانە.", // clique",
+                                "یانەکە بەزۆری شوێنی ژمارەیەک دەستە لە ڕۆشنفکرانە.",
                             onPressedBritish: () => speakcliques1("en-GB"),
                             onPressedAmerican: () => speakcliques1("en-US"),
                           ),

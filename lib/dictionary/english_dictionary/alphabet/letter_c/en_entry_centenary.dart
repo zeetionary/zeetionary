@@ -174,7 +174,7 @@ class EnglishEntrycentenary extends StatelessWidget {
                             englishText:
                                 "The club will celebrate its centenary next year.",
                             kurdishText:
-                                "یانەکە یادی سەد ساڵەی ساڵی داھاتوو پیرۆز دەکات.", // centenary",
+                                "یانەکە یادی سەد ساڵەی ساڵی داھاتوو پیرۆز دەکات.",
                             onPressedBritish: () => speakcentenarys1("en-GB"),
                             onPressedAmerican: () => speakcentenarys1("en-US"),
                           ),

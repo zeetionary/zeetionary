@@ -298,7 +298,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "None of the passengers and crew were injured.",
             kurdishText:
-                "ھیچ یەک لە گەشتیاران و دەستەی کارکەران بریندار نەبوون.", // crew", please follow LX instructions
+                "ھیچ یەک لە گەشتیاران و دەستەی کارکەران بریندار نەبوون.",
             onPressedBritish: () => speakcrews1("en-GB"),
             onPressedAmerican: () => speakcrews1("en-US"),
           ),

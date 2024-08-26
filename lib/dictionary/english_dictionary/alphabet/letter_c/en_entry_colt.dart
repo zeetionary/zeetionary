@@ -93,7 +93,7 @@ class EnglishEntrycolt extends StatelessWidget {
                             englishText:
                                 "The colt followed its mother closely.",
                             kurdishText:
-                                "جوانووەکە بەنزیکی لە دوای دایکییەوە بوو.", // colt",
+                                "جوانووەکە بەنزیکی لە دوای دایکییەوە بوو.",
                             onPressedBritish: () => speakcolts1("en-GB"),
                             onPressedAmerican: () => speakcolts1("en-US"),
                           ),

@@ -134,7 +134,7 @@ class EnglishEntrycooperative extends StatelessWidget {
                             englishText:
                                 "Cooperative activity is essential to effective community work.",
                             kurdishText:
-                                "چالاکی ھەرەوەزی گرنگە بۆ کاری کۆمەڵگایەکی کاریگەر.", // cooperative",
+                                "چالاکی ھەرەوەزی گرنگە بۆ کاری کۆمەڵگایەکی کاریگەر.",
                             onPressedBritish: () => speakcooperatives1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcooperatives1("en-US"),

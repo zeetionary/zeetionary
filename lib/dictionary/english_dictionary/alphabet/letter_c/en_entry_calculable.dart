@@ -180,7 +180,7 @@ class EnglishEntrycalculable extends StatelessWidget {
                             englishText:
                                 "The time required to complete the project was calculable given the available resources.",
                             kurdishText:
-                                "ئەو کاتەی پێویست بوو بۆ تەواوکردنی پڕۆژەکە لێک‌دەدرایەوە بەو زانیارییانەی بەردەست بوون.", // calculable
+                                "ئەو کاتەی پێویست بوو بۆ تەواوکردنی پڕۆژەکە لێک‌دەدرایەوە بەو زانیارییانەی بەردەست بوون",
                             onPressedBritish: () => speakcalculables1("en-GB"),
                             onPressedAmerican: () => speakcalculables1("en-US"),
                           ),

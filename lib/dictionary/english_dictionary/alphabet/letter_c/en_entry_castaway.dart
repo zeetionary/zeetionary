@@ -175,7 +175,7 @@ class EnglishEntrycastaway extends StatelessWidget {
                             englishText:
                                 "After the shipwreck, the lone survivor became a castaway on a deserted island.",
                             kurdishText:
-                                "لە دوای تێکشکانەکە، ڕزگاربووەکە تەنھاکە بۆ بە دابڕاوێک لەسەر دوورگەیەکی چۆڵ.", // castaway",
+                                "لە دوای تێکشکانەکە، ڕزگاربووەکە تەنھاکە بۆ بە دابڕاوێک لەسەر دوورگەیەکی چۆڵ.",
                             onPressedBritish: () => speakcastaways1("en-GB"),
                             onPressedAmerican: () => speakcastaways1("en-US"),
                           ),

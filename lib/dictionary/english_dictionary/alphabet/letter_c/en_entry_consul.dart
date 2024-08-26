@@ -103,7 +103,7 @@ class EnglishEntryconsul extends StatelessWidget {
                             englishText:
                                 "The British consul in Miami works closely with local authorities to support British nationals in times of need.",
                             kurdishText:
-                                "کۆنسوڵی بەریتانیا لە میامی لەنزیکەوە کاردەکات لەگەڵ بەرپرسە خۆجێییەکان بۆ یارمەتیدانی ھاوڵاتییە بەریتانییەکان لە کاتی پێویستیدا.", // consul",
+                                "کۆنسوڵی بەریتانیا لە میامی لەنزیکەوە کاردەکات لەگەڵ بەرپرسە خۆجێییەکان بۆ یارمەتیدانی ھاوڵاتییە بەریتانییەکان لە کاتی پێویستیدا.",
                             onPressedBritish: () => speakconsuls1("en-GB"),
                             onPressedAmerican: () => speakconsuls1("en-US"),
                           ),

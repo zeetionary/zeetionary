@@ -95,7 +95,7 @@ class EnglishEntryconciliate extends StatelessWidget {
                             englishText:
                                 "These changes have been made in an attempt to conciliate critics of the plan.",
                             kurdishText:
-                                "ئەم گۆڕانکارییانە ئەنجام دراون بۆ ھێورکردنەوەی دژبەرانی پلانەکە.", // conciliate",
+                                "ئەم گۆڕانکارییانە ئەنجام دراون بۆ ھێورکردنەوەی دژبەرانی پلانەکە.",
                             onPressedBritish: () => speakconciliates1("en-GB"),
                             onPressedAmerican: () => speakconciliates1("en-US"),
                           ),

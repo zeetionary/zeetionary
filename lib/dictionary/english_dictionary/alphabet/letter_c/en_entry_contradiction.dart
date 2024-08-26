@@ -118,7 +118,7 @@ class EnglishEntrycontradiction extends StatelessWidget {
                             englishText:
                                 "How can we resolve this apparent contradiction?",
                             kurdishText:
-                                "چۆن دەتوانین ئەم دژبەرییە ئاشکرایە چارەسەر بکەین؟", // contradiction",
+                                "چۆن دەتوانین ئەم دژبەرییە ئاشکرایە چارەسەر بکەین؟",
                             onPressedBritish: () =>
                                 speakcontradictions1("en-GB"),
                             onPressedAmerican: () =>

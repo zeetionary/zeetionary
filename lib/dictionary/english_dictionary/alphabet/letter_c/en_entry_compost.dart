@@ -101,7 +101,7 @@ class EnglishEntrycompost extends StatelessWidget {
                           SentencesRow(
                             englishText: "Repot the plant in fresh compost.",
                             kurdishText:
-                                "ڕووەکەکان بخە گۆزەڵەی ترەوە بە پەیینی تازەوە.", // compost",
+                                "ڕووەکەکان بخە گۆزەڵەی ترەوە بە پەیینی تازەوە.",
                             onPressedBritish: () => speakcomposts1("en-GB"),
                             onPressedAmerican: () => speakcomposts1("en-US"),
                           ),

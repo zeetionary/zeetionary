@@ -103,7 +103,7 @@ class EnglishEntryconsciously extends StatelessWidget {
                             englishText:
                                 "Sound has more profound effects on us than we consciously realize.",
                             kurdishText:
-                                "دەنگ کاریگەری زۆر زیاتری لەسەرمان ھەیە وەک لەوەی بەئاگایانە پێی دەزانین.", // consciously",
+                                "دەنگ کاریگەری زۆر زیاتری لەسەرمان ھەیە وەک لەوەی بەئاگایانە پێی دەزانین.",
                             onPressedBritish: () => speakconsciouslys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsciouslys1("en-US"),

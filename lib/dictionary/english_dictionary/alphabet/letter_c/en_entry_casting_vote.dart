@@ -172,8 +172,7 @@ class EnglishEntrycastingvote extends StatelessWidget {
 ١. (ناو) دەنگی دیاری‌کەر یان یەکلایی‌کەرەوە کە دەدرێت لەلایەن ئەو کەسەی کە سەرپەرشتی چاوپێکەوتنێک دەکات کاتێک کە دەنگی ئەندامەکان یەکسانە"""),
                           SentencesRow(
                             englishText: "You have the casting vote.",
-                            kurdishText:
-                                "دەنگی یەکلاکەرەوە لای تۆیە.", // casting vote",
+                            kurdishText: "دەنگی یەکلاکەرەوە لای تۆیە.",
                             onPressedBritish: () => speakcastingvotes1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcastingvotes1("en-US"),

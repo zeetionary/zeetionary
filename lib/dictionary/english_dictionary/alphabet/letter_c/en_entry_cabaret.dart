@@ -177,7 +177,7 @@ class EnglishEntrycabaret extends StatelessWidget {
                             englishText:
                                 "He gained recognition through cabaret acts performed at restaurants.",
                             kurdishText:
-                                "ناوی دەرکرد بە نمایشە شەوانەکانی لە چێشتخانەکان.", // cabaret
+                                "ناوی دەرکرد بە نمایشە شەوانەکانی لە چێشتخانەکان",
                             onPressedBritish: () => speakcabarets1("en-GB"),
                             onPressedAmerican: () => speakcabarets1("en-US"),
                           ),

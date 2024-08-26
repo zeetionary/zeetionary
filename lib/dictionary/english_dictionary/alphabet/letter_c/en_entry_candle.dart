@@ -177,8 +177,7 @@ class EnglishEntrycandle extends StatelessWidget {
                           const DefinitionKurdish(text: """١. (ناو) مۆم"""),
                           SentencesRow(
                             englishText: "The room was lit by candles.",
-                            kurdishText:
-                                "ژوورەکە بە مۆم گەشێندرابووەوە.", // candle
+                            kurdishText: "ژوورەکە بە مۆم گەشێندرابووەوە",
                             onPressedBritish: () => speakcandles1("en-GB"),
                             onPressedAmerican: () => speakcandles1("en-US"),
                           ),

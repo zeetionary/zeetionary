@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ڕەفتار و ھەڵسوکەوتی گەمژانە و نائەقڵانی"),
           SentencesRow(
             englishText: "I get tired of all the craziness in Hollywood.",
-            kurdishText:
-                "بێزار دەبم لەو ھەموو نائەقڵانییەی ھۆڵیوود.", // craziness", please follow LX instructions
+            kurdishText: "بێزار دەبم لەو ھەموو نائەقڵانییەی ھۆڵیوود.",
             onPressedBritish: () => speakcrazinesss1("en-GB"),
             onPressedAmerican: () => speakcrazinesss1("en-US"),
           ),

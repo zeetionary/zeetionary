@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The assailant struck the victim over the head with a cosh.",
-            kurdishText:
-                "ھێرشکارەکە بە تێڵایەک کێشای بە سەری قوربانییەکەدا.", // cosh", please follow LX instructions
+            kurdishText: "ھێرشکارەکە بە تێڵایەک کێشای بە سەری قوربانییەکەدا.",
             onPressedBritish: () => speakcoshs1("en-GB"),
             onPressedAmerican: () => speakcoshs1("en-US"),
           ),

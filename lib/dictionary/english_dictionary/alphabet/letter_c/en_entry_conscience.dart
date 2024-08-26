@@ -137,8 +137,7 @@ class EnglishEntryconscience extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "This is a matter of individual conscience (= everyone must make their own judgement about it).",
-                            kurdishText:
-                                "ئەمە بابەتێکی ویژدانی کەسییە.", // conscience",
+                            kurdishText: "ئەمە بابەتێکی ویژدانی کەسییە.",
                             onPressedBritish: () => speakconsciences1("en-GB"),
                             onPressedAmerican: () => speakconsciences1("en-US"),
                           ),

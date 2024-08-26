@@ -261,8 +261,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کارێک یان چالاکییەک کە ئاماژەیە بۆ کەسێک کە شتێک بکات"),
           SentencesRow(
             englishText: "Jon's arrival was a cue for more champagne.",
-            kurdishText:
-                "گەشتنی جۆن ئاماژە بوو بۆ شامپەینی زیاتر.", // cue", please follow LX instructions
+            kurdishText: "گەشتنی جۆن ئاماژە بوو بۆ شامپەینی زیاتر.",
             onPressedBritish: () => speakcues1("en-GB"),
             onPressedAmerican: () => speakcues1("en-US"),
           ),

@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We need to take corrective action to halt this country's decline.",
             kurdishText:
-                "پێویستیمان بە ھەنگاوی ڕاستکەرەوە ھەیە بۆ وەستاندنی داتەپینی ئەم وڵاتە.", // corrective", please follow LX instructions
+                "پێویستیمان بە ھەنگاوی ڕاستکەرەوە ھەیە بۆ وەستاندنی داتەپینی ئەم وڵاتە.",
             onPressedBritish: () => speakcorrectives1("en-GB"),
             onPressedAmerican: () => speakcorrectives1("en-US"),
           ),

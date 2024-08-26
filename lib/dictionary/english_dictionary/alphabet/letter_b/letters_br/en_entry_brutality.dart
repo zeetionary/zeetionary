@@ -139,7 +139,7 @@ class EnglishEntrybrutality extends StatelessWidget {
                             englishText:
                                 "The brutality of the dictator's regime shocked the international community.",
                             kurdishText:
-                                "دڕندەیی ڕژێمی دیکتاتۆرەکە کۆمەڵگەی نێودەوڵەتی حەپەساند.", // brutality" as
+                                "دڕندەیی ڕژێمی دیکتاتۆرەکە کۆمەڵگەی نێودەوڵەتی حەپەساند.",
                             onPressedBritish: () => speakbrutalitys1("en-GB"),
                             onPressedAmerican: () => speakbrutalitys1("en-US"),
                           ),

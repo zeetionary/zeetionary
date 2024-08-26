@@ -95,7 +95,7 @@ class EnglishEntrycommunique extends StatelessWidget {
                             englishText:
                                 "The leaders attending the conference have issued a joint communiqué.",
                             kurdishText:
-                                "ئەو سەرکردانەی بەژادری کۆنفرانسەکە دەکەن دەبێت بەیاننامەیەکی ھاوبەش دەربکەن.", // communique",
+                                "ئەو سەرکردانەی بەژادری کۆنفرانسەکە دەکەن دەبێت بەیاننامەیەکی ھاوبەش دەربکەن.",
                             onPressedBritish: () => speakcommuniques1("en-GB"),
                             onPressedAmerican: () => speakcommuniques1("en-US"),
                           ),

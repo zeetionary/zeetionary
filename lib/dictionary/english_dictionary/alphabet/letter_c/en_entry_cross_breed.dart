@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Cross-breeds often exhibit a combination of traits from both parent species.",
             kurdishText:
-                "دووڕەگەکان زۆرجار تێکەڵەیەک لە خاسیەتەکانی ھەر دوو باوان پیشان دەدەن.", // cross-breed", please follow LX instructions
+                "دووڕەگەکان زۆرجار تێکەڵەیەک لە خاسیەتەکانی ھەر دوو باوان پیشان دەدەن.",
             onPressedBritish: () => speakcrossbreeds1("en-GB"),
             onPressedAmerican: () => speakcrossbreeds1("en-US"),
           ),

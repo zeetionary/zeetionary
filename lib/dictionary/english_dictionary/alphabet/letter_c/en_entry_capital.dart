@@ -187,7 +187,7 @@ class EnglishEntrycapital extends StatelessWidget {
                                   "١. (ناو) پایتەخت؛ گرنگترین شارۆچکە یان شاری وڵاتێک یان ھەرێمێک کە لێیەوە حکومەت کاردەکات"),
                           SentencesRow(
                             englishText: "Oslo is the capital of Norway.",
-                            kurdishText: "ئۆسلۆ پایتەختی نەرویجە.", // capital
+                            kurdishText: "ئۆسلۆ پایتەختی نەرویجە",
                             onPressedBritish: () => speakcapitals1("en-GB"),
                             onPressedAmerican: () => speakcapitals1("en-US"),
                           ),

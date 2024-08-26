@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ھەبوونی باوەڕ بەوەی کە خەڵکی تەنھا بۆ سوودی خۆیان کاردەکەن و ھۆکاری دڵسۆزی و باشەیان نییە"),
           SentencesRow(
             englishText: "Do you have to be so cynical about everything?",
-            kurdishText:
-                "دەبێت ھێندە بەدگومان بیت سەبارەت بە ھەموو شتێک؟", // cynical", please follow LX instructions
+            kurdishText: "دەبێت ھێندە بەدگومان بیت سەبارەت بە ھەموو شتێک؟",
             onPressedBritish: () => speakcynicals1("en-GB"),
             onPressedAmerican: () => speakcynicals1("en-US"),
           ),

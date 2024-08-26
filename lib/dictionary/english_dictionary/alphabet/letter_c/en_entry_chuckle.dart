@@ -106,7 +106,7 @@ class EnglishEntrychuckle extends StatelessWidget {
                               text: "١. (ناو) پێکەنین بە بێ‌دەنگی"),
                           SentencesRow(
                             englishText: "She gave a chuckle of delight.",
-                            kurdishText: "خەنینێکی لە خۆشیدا کرد.", // chuckle",
+                            kurdishText: "خەنینێکی لە خۆشیدا کرد.",
                             onPressedBritish: () => speakchuckles1("en-GB"),
                             onPressedAmerican: () => speakchuckles1("en-US"),
                           ),

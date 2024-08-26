@@ -95,7 +95,7 @@ class EnglishEntrycloistered extends StatelessWidget {
                             englishText:
                                 "I came to appreciate the cloistered existence of the monks.",
                             kurdishText:
-                                "ھاتم بۆ زانینی قەدری ژیانی پەڕگیری ڕەبەنەکان.", // cloistered",
+                                "ھاتم بۆ زانینی قەدری ژیانی پەڕگیری ڕەبەنەکان.",
                             onPressedBritish: () => speakcloistereds1("en-GB"),
                             onPressedAmerican: () => speakcloistereds1("en-US"),
                           ),

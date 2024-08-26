@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کڵاوێکی فشی گەورە کە سەر دادەپۆشێت و زۆرجار ڕەبەنەکان لەبەری دەکەن"),
           SentencesRow(
             englishText: "She lifted the cowl of her cloak.",
-            kurdishText:
-                "کڵاوی جبەکەی بەرزکردەوە.", // cowl", please follow LX instructions
+            kurdishText: "کڵاوی جبەکەی بەرزکردەوە.",
             onPressedBritish: () => speakcowls1("en-GB"),
             onPressedAmerican: () => speakcowls1("en-US"),
           ),

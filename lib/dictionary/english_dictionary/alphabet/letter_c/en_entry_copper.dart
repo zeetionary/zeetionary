@@ -123,8 +123,7 @@ class EnglishEntrycopper extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Her hair shone like burnished copper.",
-                            kurdishText:
-                                "قژی وەک مسی سافکراو دەدرەوشایەوە.", // copper",
+                            kurdishText: "قژی وەک مسی سافکراو دەدرەوشایەوە.",
                             onPressedBritish: () => speakcoppers1("en-GB"),
                             onPressedAmerican: () => speakcoppers1("en-US"),
                           ),

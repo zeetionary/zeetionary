@@ -92,8 +92,7 @@ class EnglishEntryclockwork extends StatelessWidget {
                                   "١. (ناو) بەشێکی ئامێرێک کە لە ویل و سپرینگ پێکھاتووە و وەک کاتژمێر خۆکارانە کاردەکات"),
                           SentencesRow(
                             englishText: "The toy was powered by clockwork.",
-                            kurdishText:
-                                "یارییە منداڵانەکە قورمیشکراو بوو.", // clockwork",
+                            kurdishText: "یارییە منداڵانەکە قورمیشکراو بوو.",
                             onPressedBritish: () => speakclockworks1("en-GB"),
                             onPressedAmerican: () => speakclockworks1("en-US"),
                           ),

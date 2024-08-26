@@ -175,7 +175,7 @@ class EnglishEntrycardigan extends StatelessWidget {
                             englishText:
                                 "She wore her cozy cardigan to stay warm in the chilly weather.",
                             kurdishText:
-                                "چاکەتە خورییە گەرم‌وگوڕەکەیی پۆشی بۆ گەرم مانەوە لە کەشە ساردەکەدا.", // cardigan",
+                                "چاکەتە خورییە گەرم‌وگوڕەکەیی پۆشی بۆ گەرم مانەوە لە کەشە ساردەکەدا.",
                             onPressedBritish: () => speakcardigans1("en-GB"),
                             onPressedAmerican: () => speakcardigans1("en-US"),
                           ),

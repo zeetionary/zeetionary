@@ -173,8 +173,7 @@ class EnglishEntrychurch extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The procession moved into the church.",
-                            kurdishText:
-                                "قافڵەکە چوونە ناو کڵێساکە.", // church",
+                            kurdishText: "قافڵەکە چوونە ناو کڵێساکە.",
                             onPressedBritish: () => speakchurchs1("en-GB"),
                             onPressedAmerican: () => speakchurchs1("en-US"),
                           ),

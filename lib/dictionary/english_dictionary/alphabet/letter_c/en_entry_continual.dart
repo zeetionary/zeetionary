@@ -125,7 +125,7 @@ class EnglishEntrycontinual extends StatelessWidget {
                             englishText:
                                 "He seemed to need continual reassurance.",
                             kurdishText:
-                                "وادیاربوو کە پێویستی بە دڵنیاییکردنەوەی بەردەوام ھەبێت.", // continual",
+                                "وادیاربوو کە پێویستی بە دڵنیاییکردنەوەی بەردەوام ھەبێت.",
                             onPressedBritish: () => speakcontinuals1("en-GB"),
                             onPressedAmerican: () => speakcontinuals1("en-US"),
                           ),

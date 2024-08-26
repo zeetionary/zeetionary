@@ -95,7 +95,7 @@ class EnglishEntrycivilservant extends StatelessWidget {
                             englishText:
                                 "He’s a 35-year-old civil servant with two young children.",
                             kurdishText:
-                                "فەرمانبەرێکی حکومی ٣٥ ساڵانە و دوو منداڵی ھەیە.", // civil servant",
+                                "فەرمانبەرێکی حکومی ٣٥ ساڵانە و دوو منداڵی ھەیە.",
                             onPressedBritish: () =>
                                 speakcivilservants1("en-GB"),
                             onPressedAmerican: () =>

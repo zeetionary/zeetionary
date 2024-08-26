@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The train had comfortable couchettes for passengers.",
             kurdishText:
-                "شەمەندەفەرەکە تەختی خەوی ئاسوودەبەخشی بۆ گەشتیاران ھەبوو.", // couchette", please follow LX instructions
+                "شەمەندەفەرەکە تەختی خەوی ئاسوودەبەخشی بۆ گەشتیاران ھەبوو.",
             onPressedBritish: () => speakcouchettes1("en-GB"),
             onPressedAmerican: () => speakcouchettes1("en-US"),
           ),

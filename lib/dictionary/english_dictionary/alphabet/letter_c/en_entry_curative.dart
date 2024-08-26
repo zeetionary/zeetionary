@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She believed in the curative powers of herbal remedies.",
-            kurdishText:
-                "باوەڕی بە ھێزی چارەسازی چارەسەرە گیاییەکان ھەبوو.", // curative", please follow LX instructions
+            kurdishText: "باوەڕی بە ھێزی چارەسازی چارەسەرە گیاییەکان ھەبوو.",
             onPressedBritish: () => speakcuratives1("en-GB"),
             onPressedAmerican: () => speakcuratives1("en-US"),
           ),

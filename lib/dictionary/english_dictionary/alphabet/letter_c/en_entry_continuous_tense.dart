@@ -97,7 +97,7 @@ class EnglishEntrycontinuoustense extends StatelessWidget {
                             englishText:
                                 "The continuous tenses can be challenging for learners, especially when distinguishing between them and the simple tenses.",
                             kurdishText:
-                                "دەمەکانی بەردەوامی دەکرێت سەخت بن بۆ فێرخوازان، بەتایبەتی لە کاتی جیاکردنەوە لە نێوانیان و دەمە سادەکان.", // continuous tense",
+                                "دەمەکانی بەردەوامی دەکرێت سەخت بن بۆ فێرخوازان، بەتایبەتی لە کاتی جیاکردنەوە لە نێوانیان و دەمە سادەکان.",
                             onPressedBritish: () =>
                                 speakcontinuoustenses1("en-GB"),
                             onPressedAmerican: () =>

@@ -101,8 +101,7 @@ class EnglishEntryclosefitting extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She wore a close-fitting dress to the party.",
-                            kurdishText:
-                                "جلی تەسکی بۆ ئاھەنگەکە پۆشی.", // close-fitting",
+                            kurdishText: "جلی تەسکی بۆ ئاھەنگەکە پۆشی.",
                             onPressedBritish: () =>
                                 speakclosefittings1("en-GB"),
                             onPressedAmerican: () =>

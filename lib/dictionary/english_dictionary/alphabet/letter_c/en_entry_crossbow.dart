@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The hunter used a crossbow to hunt deer in the forest.",
             kurdishText:
-                "ڕاوچییەکە کەوانێکی بەکاردەھێنا بۆ ڕاوکردنی ئاسک لە دارستانەکەدا.", // crossbow", please follow LX instructions
+                "ڕاوچییەکە کەوانێکی بەکاردەھێنا بۆ ڕاوکردنی ئاسک لە دارستانەکەدا.",
             onPressedBritish: () => speakcrossbows1("en-GB"),
             onPressedAmerican: () => speakcrossbows1("en-US"),
           ),

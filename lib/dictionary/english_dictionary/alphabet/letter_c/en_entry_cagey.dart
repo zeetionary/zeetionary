@@ -180,7 +180,7 @@ class EnglishEntrycagey extends StatelessWidget {
                           SentencesRow(
                             englishText: "Tony is very cagey about his family.",
                             kurdishText:
-                                "تۆنی زۆر بەپارێزە سەبارەت بە خێزانەکەی.", // cagey
+                                "تۆنی زۆر بەپارێزە سەبارەت بە خێزانەکەی",
                             onPressedBritish: () => speakcageys1("en-GB"),
                             onPressedAmerican: () => speakcageys1("en-US"),
                           ),

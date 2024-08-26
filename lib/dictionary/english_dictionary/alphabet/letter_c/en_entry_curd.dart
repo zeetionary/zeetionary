@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She learned how to make curd from her grandmother's recipe.",
-            kurdishText:
-                "فێربوو چۆن لۆرک درووست بکات لە ڕەچەتەکەی داپیرەیەوە.", // curd", please follow LX instructions
+            kurdishText: "فێربوو چۆن لۆرک درووست بکات لە ڕەچەتەکەی داپیرەیەوە.",
             onPressedBritish: () => speakcurds1("en-GB"),
             onPressedAmerican: () => speakcurds1("en-US"),
           ),

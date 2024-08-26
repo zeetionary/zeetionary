@@ -92,8 +92,7 @@ class EnglishEntrycoldly extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "\"That's your problem,\" she said coldly.",
-                            kurdishText:
-                                "بێ ھەستانە وتی 'ئەوە کێشەی خۆتە.'", // coldly",
+                            kurdishText: "بێ ھەستانە وتی 'ئەوە کێشەی خۆتە.'",
                             onPressedBritish: () => speakcoldlys1("en-GB"),
                             onPressedAmerican: () => speakcoldlys1("en-US"),
                           ),

@@ -95,7 +95,7 @@ class EnglishEntrycoleslaw extends StatelessWidget {
                             englishText:
                                 "The restaurant's coleslaw was tangy and delicious.",
                             kurdishText:
-                                "زەڵاتە کەلەرمەکەی چێشتخانەکە توند و بەتام بوو.", // coleslaw",
+                                "زەڵاتە کەلەرمەکەی چێشتخانەکە توند و بەتام بوو.",
                             onPressedBritish: () => speakcoleslaws1("en-GB"),
                             onPressedAmerican: () => speakcoleslaws1("en-US"),
                           ),

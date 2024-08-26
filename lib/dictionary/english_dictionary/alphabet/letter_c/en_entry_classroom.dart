@@ -105,7 +105,7 @@ class EnglishEntryclassroom extends StatelessWidget {
                             englishText:
                                 "Two science classrooms are positioned directly across the hall.",
                             kurdishText:
-                                "دوو پۆلی زانست لە بەرامبەر ھۆڵەکە دانراون.", // classroom",
+                                "دوو پۆلی زانست لە بەرامبەر ھۆڵەکە دانراون.",
                             onPressedBritish: () => speakclassrooms1("en-GB"),
                             onPressedAmerican: () => speakclassrooms1("en-US"),
                           ),

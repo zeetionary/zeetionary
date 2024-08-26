@@ -178,8 +178,7 @@ class EnglishEntrycanter extends StatelessWidget {
                                   "١. (ناو) جوڵەی ئەسپ کە بەخێراییەک کە زۆرە، بەڵام زۆر زۆر نا کە غاردان بێت"),
                           SentencesRow(
                             englishText: "She set off at a canter.",
-                            kurdishText:
-                                "بە نەرمە غارێک دەستی بە جوڵە کرد.", // canter
+                            kurdishText: "بە نەرمە غارێک دەستی بە جوڵە کرد",
                             onPressedBritish: () => speakcanters1("en-GB"),
                             onPressedAmerican: () => speakcanters1("en-US"),
                           ),

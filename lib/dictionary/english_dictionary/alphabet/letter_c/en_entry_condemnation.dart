@@ -103,7 +103,7 @@ class EnglishEntrycondemnation extends StatelessWidget {
                             englishText:
                                 "There was widespread condemnation of the invasion.",
                             kurdishText:
-                                "ئیدانەی بەرفراوانی داگیرکارییەکە ھەبوو.", // condemnation",
+                                "ئیدانەی بەرفراوانی داگیرکارییەکە ھەبوو.",
                             onPressedBritish: () =>
                                 speakcondemnations1("en-GB"),
                             onPressedAmerican: () =>

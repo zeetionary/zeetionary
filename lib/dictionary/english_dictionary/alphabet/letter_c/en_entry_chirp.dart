@@ -108,7 +108,7 @@ class EnglishEntrychirp extends StatelessWidget {
                             englishText:
                                 "We could here chirp of birds in the distance.",
                             kurdishText:
-                                "گوێمان لە جریوەی باڵندە بوو لە دوورەوە.", // chirp",
+                                "گوێمان لە جریوەی باڵندە بوو لە دوورەوە.",
                             onPressedBritish: () => speakchirps1("en-GB"),
                             onPressedAmerican: () => speakchirps1("en-US"),
                           ),

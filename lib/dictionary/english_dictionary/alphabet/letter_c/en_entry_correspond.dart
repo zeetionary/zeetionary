@@ -283,8 +283,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) بوون بە ھەمان شت لەگەڵ شتێکی دیکەکەدا"),
           SentencesRow(
             englishText: "Your account and hers do not correspond.",
-            kurdishText:
-                "گێڕانەوەکەی تۆ و ئەوەی ئەو یەکناگرنەوە.", // correspond", please follow LX instructions
+            kurdishText: "گێڕانەوەکەی تۆ و ئەوەی ئەو یەکناگرنەوە.",
             onPressedBritish: () => speakcorresponds1("en-GB"),
             onPressedAmerican: () => speakcorresponds1("en-US"),
           ),

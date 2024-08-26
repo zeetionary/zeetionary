@@ -291,7 +291,7 @@ class EnglishEntrybrush extends StatelessWidget {
                             englishText:
                                 "A tiled floor is easy to brush clean.",
                             kurdishText:
-                                "زەوییەکی کاشیکراو ئاسان پاکدەکرێتەوە.", // brush" as
+                                "زەوییەکی کاشیکراو ئاسان پاکدەکرێتەوە.",
                             onPressedBritish: () => speakbrushs1("en-GB"),
                             onPressedAmerican: () => speakbrushs1("en-US"),
                           ),

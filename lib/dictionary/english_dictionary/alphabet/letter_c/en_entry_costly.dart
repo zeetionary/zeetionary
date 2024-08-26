@@ -251,8 +251,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر گران"),
           SentencesRow(
             englishText: "Buying new furniture may prove too costly.",
-            kurdishText:
-                "کڕینی کەلوپەلی تازە ڕەنگە زۆر گران دەربچێت.", // costly", please follow LX instructions
+            kurdishText: "کڕینی کەلوپەلی تازە ڕەنگە زۆر گران دەربچێت.",
             onPressedBritish: () => speakcostlys1("en-GB"),
             onPressedAmerican: () => speakcostlys1("en-US"),
           ),

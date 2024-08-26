@@ -103,7 +103,7 @@ class EnglishEntrychangeable extends StatelessWidget {
                             englishText:
                                 "The weather is very changeable at this time of year.",
                             kurdishText:
-                                "کەشوھەوا زۆر پێشبینی‌نەکراوە لەم کاتەی ساڵدا.", // changeable",
+                                "کەشوھەوا زۆر پێشبینی‌نەکراوە لەم کاتەی ساڵدا.",
                             onPressedBritish: () => speakchangeables1("en-GB"),
                             onPressedAmerican: () => speakchangeables1("en-US"),
                           ),

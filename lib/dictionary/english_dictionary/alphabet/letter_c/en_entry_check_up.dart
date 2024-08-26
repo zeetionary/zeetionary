@@ -94,7 +94,7 @@ class EnglishEntrycheckup extends StatelessWidget {
                             englishText:
                                 "At your age, you should have regular check-ups.",
                             kurdishText:
-                                "لەم تەمەنەی تۆدا، دەبێت پشکنینی ماوەماوەت ھەبێت.", // check-up",
+                                "لەم تەمەنەی تۆدا، دەبێت پشکنینی ماوەماوەت ھەبێت.",
                             onPressedBritish: () => speakcheckups1("en-GB"),
                             onPressedAmerican: () => speakcheckups1("en-US"),
                           ),

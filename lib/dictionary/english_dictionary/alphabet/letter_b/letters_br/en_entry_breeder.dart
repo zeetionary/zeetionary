@@ -139,7 +139,7 @@ class EnglishEntrybreeder extends StatelessWidget {
                             englishText:
                                 "She was one of the country's top sheep breeders.",
                             kurdishText:
-                                "یەکێک لە گەورەترین بەخێوکارانی مەڕ بوو لە وڵاتەکەدا.", // breeder" as
+                                "یەکێک لە گەورەترین بەخێوکارانی مەڕ بوو لە وڵاتەکەدا.",
                             onPressedBritish: () => speakbreeders1("en-GB"),
                             onPressedAmerican: () => speakbreeders1("en-US"),
                           ),

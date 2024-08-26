@@ -180,7 +180,7 @@ class EnglishEntryceremoniously extends StatelessWidget {
                             englishText:
                                 "He shook hands ceremoniously with each of his supporters as they arrived.",
                             kurdishText:
-                                "تەوقەی کرد بەڕێزەوە لەگەڵ ھەریەک لە لایەنگیرانی کە دەگەشتن.", // ceremoniously",
+                                "تەوقەی کرد بەڕێزەوە لەگەڵ ھەریەک لە لایەنگیرانی کە دەگەشتن.",
                             onPressedBritish: () =>
                                 speakceremoniouslys1("en-GB"),
                             onPressedAmerican: () =>

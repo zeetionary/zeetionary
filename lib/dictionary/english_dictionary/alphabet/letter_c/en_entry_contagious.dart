@@ -116,8 +116,7 @@ class EnglishEntrycontagious extends StatelessWidget {
                                   "١. (ھاوەڵناو) نەخۆشییەک کە بە بەرکەوتن دەگوازرێتەوە"),
                           SentencesRow(
                             englishText: "The new disease proved contagious.",
-                            kurdishText:
-                                "نەخۆشییە تازەکە ڕاگوێزەرە.", // contagious",
+                            kurdishText: "نەخۆشییە تازەکە ڕاگوێزەرە.",
                             onPressedBritish: () => speakcontagiouss1("en-GB"),
                             onPressedAmerican: () => speakcontagiouss1("en-US"),
                           ),

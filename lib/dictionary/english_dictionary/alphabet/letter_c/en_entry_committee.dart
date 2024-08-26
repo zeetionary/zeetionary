@@ -117,7 +117,7 @@ class EnglishEntrycommittee extends StatelessWidget {
                             englishText:
                                 "The committee has/have decided to close the restaurant.",
                             kurdishText:
-                                "لیژنەکە بڕیاری داوە چێشتخانەکە دابخات.", // committee",
+                                "لیژنەکە بڕیاری داوە چێشتخانەکە دابخات.",
                             onPressedBritish: () => speakcommittees1("en-GB"),
                             onPressedAmerican: () => speakcommittees1("en-US"),
                           ),

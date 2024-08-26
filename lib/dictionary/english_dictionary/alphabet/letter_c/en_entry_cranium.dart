@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The cranium is made up of several bones fused together.",
             kurdishText:
-                "کاسەی سەر لە ژمارەیەک ئێسک پێکھاتووە کە پێکەوە لکاون.", // cranium", please follow LX instructions
+                "کاسەی سەر لە ژمارەیەک ئێسک پێکھاتووە کە پێکەوە لکاون.",
             onPressedBritish: () => speakcraniums1("en-GB"),
             onPressedAmerican: () => speakcraniums1("en-US"),
           ),

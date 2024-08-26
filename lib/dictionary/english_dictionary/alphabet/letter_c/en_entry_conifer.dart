@@ -95,7 +95,7 @@ class EnglishEntryconifer extends StatelessWidget {
                             englishText:
                                 "The conifer provided shelter for many birds and small animals.",
                             kurdishText:
-                                "کۆنیفەرەکە پەناگەی بۆ زۆر باڵندە و ئاژەڵی بچووک دابین کردبوو.", // conifer",
+                                "کۆنیفەرەکە پەناگەی بۆ زۆر باڵندە و ئاژەڵی بچووک دابین کردبوو.",
                             onPressedBritish: () => speakconifers1("en-GB"),
                             onPressedAmerican: () => speakconifers1("en-US"),
                           ),

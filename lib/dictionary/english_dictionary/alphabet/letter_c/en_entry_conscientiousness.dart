@@ -104,7 +104,7 @@ class EnglishEntryconscientiousness extends StatelessWidget {
                             englishText:
                                 "They were impressed by the professionalism and conscientiousness of the staff.",
                             kurdishText:
-                                "سەرسام بوون بە لێوەشاوەیی و دڵسۆزی ستافەکە.", // conscientiousness",
+                                "سەرسام بوون بە لێوەشاوەیی و دڵسۆزی ستافەکە.",
                             onPressedBritish: () =>
                                 speakconscientiousnesss1("en-GB"),
                             onPressedAmerican: () =>

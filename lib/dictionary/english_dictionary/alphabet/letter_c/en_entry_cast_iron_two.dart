@@ -179,7 +179,7 @@ class EnglishEntrycastirontwo extends StatelessWidget {
                             englishText:
                                 "The chef praised the cast-iron skillet for its unparalleled heat retention.",
                             kurdishText:
-                                "شێفەکە پەسنی تاوە سەختەکەی کرد بۆ بەرگەگرتنی ناوازەی بە گەرمی.", // cast-iron",
+                                "شێفەکە پەسنی تاوە سەختەکەی کرد بۆ بەرگەگرتنی ناوازەی بە گەرمی.",
                             onPressedBritish: () => speakcastirons1("en-GB"),
                             onPressedAmerican: () => speakcastirons1("en-US"),
                           ),

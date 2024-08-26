@@ -103,7 +103,7 @@ class EnglishEntryclaret extends StatelessWidget {
                             englishText:
                                 "The claret-filled wine glasses sparkled in the candlelight.",
                             kurdishText:
-                                "گڵاسە بیرە پڕ لە سوورەمەییەکان لە ڕۆشنایی مۆمەکەدا دەبریسکانەوە.", // claret",
+                                "گڵاسە بیرە پڕ لە سوورەمەییەکان لە ڕۆشنایی مۆمەکەدا دەبریسکانەوە.",
                             onPressedBritish: () => speakclarets1("en-GB"),
                             onPressedAmerican: () => speakclarets1("en-US"),
                           ),

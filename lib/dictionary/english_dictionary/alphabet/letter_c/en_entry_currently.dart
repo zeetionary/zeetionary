@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) لە ئێستادا"),
           SentencesRow(
             englishText: "The hourly charge is currently £35.",
-            kurdishText:
-                "کرێی یەک کاتژمێر لە ئێستادا ٣٥ پاوەندە.", // currently", please follow LX instructions
+            kurdishText: "کرێی یەک کاتژمێر لە ئێستادا ٣٥ پاوەندە.",
             onPressedBritish: () => speakcurrentlys1("en-GB"),
             onPressedAmerican: () => speakcurrentlys1("en-US"),
           ),
@@ -252,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Currently, over 500 students are enrolled on the course.",
             kurdishText:
-                "لە ئێستادا، زیاتر لە ٥٠٠ خوێندکار بەژدارن لە کۆرسەکە.", // currently", please follow LX instructions
+                "لە ئێستادا، زیاتر لە ٥٠٠ خوێندکار بەژدارن لە کۆرسەکە.",
             onPressedBritish: () => speakcurrentlys2("en-GB"),
             onPressedAmerican: () => speakcurrentlys2("en-US"),
           ),

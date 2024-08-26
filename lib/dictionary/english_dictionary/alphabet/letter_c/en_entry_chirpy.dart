@@ -100,8 +100,7 @@ class EnglishEntrychirpy extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She seemed quite chirpy this morning.",
-                            kurdishText:
-                                "ئەم بەیانییە تەواو خۆشحاڵ بوو.", // chirpy",
+                            kurdishText: "ئەم بەیانییە تەواو خۆشحاڵ بوو.",
                             onPressedBritish: () => speakchirpys1("en-GB"),
                             onPressedAmerican: () => speakchirpys1("en-US"),
                           ),

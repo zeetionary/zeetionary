@@ -101,7 +101,7 @@ class EnglishEntrycoffer extends StatelessWidget {
                             englishText:
                                 "She stored her jewelry in a wooden coffer.",
                             kurdishText:
-                                "خشڵەکانی لە سندووقێکی داریندا ھەڵگرت.", // coffer",
+                                "خشڵەکانی لە سندووقێکی داریندا ھەڵگرت.",
                             onPressedBritish: () => speakcoffers1("en-GB"),
                             onPressedAmerican: () => speakcoffers1("en-US"),
                           ),

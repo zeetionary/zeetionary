@@ -421,7 +421,7 @@ class EnglishEntrycan extends StatelessWidget {
                                   "١. (کاری مۆداڵ) بۆ دەربڕینی توانای کرنی شتێک لە لایەن کەسێک/شتێک"),
                           SentencesRow(
                             englishText: "I can run fast.",
-                            kurdishText: "دەتوانم خێرا ڕابکەم.", // can
+                            kurdishText: "دەتوانم خێرا ڕابکەم",
                             onPressedBritish: () => speakcans1("en-GB"),
                             onPressedAmerican: () => speakcans1("en-US"),
                           ),

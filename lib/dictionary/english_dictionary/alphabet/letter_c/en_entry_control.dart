@@ -419,7 +419,7 @@ class EnglishEntrycontrol extends StatelessWidget {
                             englishText:
                                 "The party expects to gain control of the council in the next election.",
                             kurdishText:
-                                "پارتەکە پێشبینی ئەوە دەکات لە ھەڵبژاردنی داھاتوودا کۆنترۆڵی ئەنجوومەنەکە بکات.", // control",
+                                "پارتەکە پێشبینی ئەوە دەکات لە ھەڵبژاردنی داھاتوودا کۆنترۆڵی ئەنجوومەنەکە بکات.",
                             onPressedBritish: () => speakcontrols1("en-GB"),
                             onPressedAmerican: () => speakcontrols1("en-US"),
                           ),

@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "London offers a wide variety of international cuisines.",
             kurdishText:
-                "لەندەن ژمارەیەکی زۆر جیاواز لە دەستاوی نێودەوڵەتی لێیە.", // cuisine", please follow LX instructions
+                "لەندەن ژمارەیەکی زۆر جیاواز لە دەستاوی نێودەوڵەتی لێیە.",
             onPressedBritish: () => speakcuisines1("en-GB"),
             onPressedAmerican: () => speakcuisines1("en-US"),
           ),

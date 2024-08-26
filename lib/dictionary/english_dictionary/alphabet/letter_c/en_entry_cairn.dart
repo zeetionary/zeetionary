@@ -181,7 +181,7 @@ class EnglishEntrycairn extends StatelessWidget {
                             englishText:
                                 "The shepherd created a cairn to mark the edge of the grazing land.",
                             kurdishText:
-                                "شوانەکە کەڵەکەبەردێکی دانا بۆ دیاریکردنی کۆتایی ناوچەی لەوەڕەکە.", // cairn
+                                "شوانەکە کەڵەکەبەردێکی دانا بۆ دیاریکردنی کۆتایی ناوچەی لەوەڕەکە",
                             onPressedBritish: () => speakcairns1("en-GB"),
                             onPressedAmerican: () => speakcairns1("en-US"),
                           ),

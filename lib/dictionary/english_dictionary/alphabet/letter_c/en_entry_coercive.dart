@@ -94,7 +94,7 @@ class EnglishEntrycoercive extends StatelessWidget {
                             englishText:
                                 "The president relied on the coercive powers of the military.",
                             kurdishText:
-                                "سەرۆک پشتی بە دەسەڵاتی سەپێنەری سوپا دەبەست.", // coercive",
+                                "سەرۆک پشتی بە دەسەڵاتی سەپێنەری سوپا دەبەست.",
                             onPressedBritish: () => speakcoercives1("en-GB"),
                             onPressedAmerican: () => speakcoercives1("en-US"),
                           ),

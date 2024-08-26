@@ -235,8 +235,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کرێمدار"),
           SentencesRow(
             englishText: "It tastes deliciously creamy.",
-            kurdishText:
-                "بە شێوەیەکی بە لەزەت کرێمدارە.", // creamy", please follow LX instructions
+            kurdishText: "بە شێوەیەکی بە لەزەت کرێمدارە.",
             onPressedBritish: () => speakcreamys1("en-GB"),
             onPressedAmerican: () => speakcreamys1("en-US"),
           ),

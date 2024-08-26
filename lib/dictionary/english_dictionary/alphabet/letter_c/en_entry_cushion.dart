@@ -276,8 +276,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) قوماشێک کە پڕکراوە لە مادەی نەرم بۆ ئەوەی دانیشتن ئاسان بکات"),
           SentencesRow(
             englishText: "I rested my elbow on a cushion.",
-            kurdishText:
-                "باڵم لەسەر پشتییەک دانا.", // cushion", please follow LX instructions
+            kurdishText: "باڵم لەسەر پشتییەک دانا.",
             onPressedBritish: () => speakcushions1("en-GB"),
             onPressedAmerican: () => speakcushions1("en-US"),
           ),

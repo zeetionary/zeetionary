@@ -95,7 +95,7 @@ class EnglishEntrycopycat extends StatelessWidget {
                             englishText:
                                 "Whether it is the original attacker or a copycat, he must be caught soon.",
                             kurdishText:
-                                "ئایا کە ھێرشکارە سەرەکییەکەیە یان لاسایی‌کەرەوەیەک، دەبێت زوو بگیرێت.", // copycat",
+                                "ئایا کە ھێرشکارە سەرەکییەکەیە یان لاسایی‌کەرەوەیەک، دەبێت زوو بگیرێت.",
                             onPressedBritish: () => speakcopycats1("en-GB"),
                             onPressedAmerican: () => speakcopycats1("en-US"),
                           ),

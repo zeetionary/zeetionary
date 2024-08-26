@@ -108,8 +108,7 @@ class EnglishEntryconscript extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He was conscripted into the army in 1939.",
-                            kurdishText:
-                                "ساڵی ١٩٣٩ بانگکرا بۆ سوپا.", // conscript",
+                            kurdishText: "ساڵی ١٩٣٩ بانگکرا بۆ سوپا.",
                             onPressedBritish: () => speakconscripts1("en-GB"),
                             onPressedAmerican: () => speakconscripts1("en-US"),
                           ),

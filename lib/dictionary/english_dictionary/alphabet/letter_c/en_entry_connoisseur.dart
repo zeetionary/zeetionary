@@ -103,7 +103,7 @@ class EnglishEntryconnoisseur extends StatelessWidget {
                             englishText:
                                 "Only the true connoisseur could tell the difference between these two wines.",
                             kurdishText:
-                                "تەنھا شارەزایەکی تەواو دەتوانێت جیاوازی ئەم دوو بیرە بکات.", // connoisseur",
+                                "تەنھا شارەزایەکی تەواو دەتوانێت جیاوازی ئەم دوو بیرە بکات.",
                             onPressedBritish: () => speakconnoisseurs1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconnoisseurs1("en-US"),

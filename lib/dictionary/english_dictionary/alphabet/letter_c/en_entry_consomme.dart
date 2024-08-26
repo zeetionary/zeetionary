@@ -103,7 +103,7 @@ class EnglishEntryconsomme extends StatelessWidget {
                             englishText:
                                 "Do not boil too fast or the consommé will become cloudy.",
                             kurdishText:
-                                "مەرگەکە زۆر زۆر مەکوڵێنە ئەگەرنا ھەس دەبێتەوە.", // consommé",
+                                "مەرگەکە زۆر زۆر مەکوڵێنە ئەگەرنا ھەس دەبێتەوە.",
                             onPressedBritish: () => speakconsommes1("en-GB"),
                             onPressedAmerican: () => speakconsommes1("en-US"),
                           ),

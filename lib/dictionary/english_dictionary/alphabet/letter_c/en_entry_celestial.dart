@@ -176,8 +176,7 @@ class EnglishEntrycelestial extends StatelessWidget {
                                   "١. (ھاوەڵناو) پەیوەندیدار بە ئاسمان و بەھەشت"),
                           SentencesRow(
                             englishText: "The moon is a celestial body.",
-                            kurdishText:
-                                "مانگ تەنێکی ئاسمانییە.", // celestial",
+                            kurdishText: "مانگ تەنێکی ئاسمانییە.",
                             onPressedBritish: () => speakcelestials1("en-GB"),
                             onPressedAmerican: () => speakcelestials1("en-US"),
                           ),

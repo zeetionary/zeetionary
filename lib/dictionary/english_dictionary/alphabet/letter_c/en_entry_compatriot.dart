@@ -95,7 +95,7 @@ class EnglishEntrycompatriot extends StatelessWidget {
                             englishText:
                                 "He played against one of his compatriots in the semi-final.",
                             kurdishText:
-                                "دژ بە یەکێک لە ھاونیشتیمانییەکانی یاریکرد لە نیوەی کۆتاییدا.", // compatriot",
+                                "دژ بە یەکێک لە ھاونیشتیمانییەکانی یاریکرد لە نیوەی کۆتاییدا.",
                             onPressedBritish: () => speakcompatriots1("en-GB"),
                             onPressedAmerican: () => speakcompatriots1("en-US"),
                           ),

@@ -270,7 +270,7 @@ class EnglishEntrycomplete extends StatelessWidget {
                             englishText:
                                 "You will receive payment for each complete day that you work.",
                             kurdishText:
-                                "پارە وەردەگریت بۆ ھەر ڕۆژێک بە تەواوی کار دەکەیت.", // complete",
+                                "پارە وەردەگریت بۆ ھەر ڕۆژێک بە تەواوی کار دەکەیت.",
                             onPressedBritish: () => speakcompletes1("en-GB"),
                             onPressedAmerican: () => speakcompletes1("en-US"),
                           ),

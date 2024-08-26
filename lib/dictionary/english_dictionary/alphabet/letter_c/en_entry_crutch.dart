@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) دارشەقێک کە لەژێر باڵتی دادەنێیت بۆ ئەوەی ڕێ بکەیت لە دوای ئەوەی لاقت یان پێت بریندار کردووە"),
           SentencesRow(
             englishText: "She can only walk with crutches.",
-            kurdishText:
-                "تەنھا بە دارشەق دەتوانێت ڕێ بکات.", // crutch", please follow LX instructions
+            kurdishText: "تەنھا بە دارشەق دەتوانێت ڕێ بکات.",
             onPressedBritish: () => speakcrutchs1("en-GB"),
             onPressedAmerican: () => speakcrutchs1("en-US"),
           ),

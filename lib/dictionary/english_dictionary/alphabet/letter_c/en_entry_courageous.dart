@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I hope people will be courageous enough to speak out against this injustice.",
             kurdishText:
-                "ھیوادارم خەڵکی ھێندە بوێر بن دژی نادادییەکەی بەدەنگ بێن.", // courageous", please follow LX instructions
+                "ھیوادارم خەڵکی ھێندە بوێر بن دژی نادادییەکەی بەدەنگ بێن.",
             onPressedBritish: () => speakcourageouss1("en-GB"),
             onPressedAmerican: () => speakcourageouss1("en-US"),
           ),

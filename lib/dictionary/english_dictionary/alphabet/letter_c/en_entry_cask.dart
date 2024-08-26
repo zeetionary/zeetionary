@@ -179,7 +179,7 @@ class EnglishEntrycask extends StatelessWidget {
                             englishText:
                                 "The celebration featured a traditional drink served directly from a beautifully decorated cask.",
                             kurdishText:
-                                "ئاھەنگگێڕانەکە خواردنەوەیەکی تێدابوو کە ڕاستەوخۆ لە پیپێکی جوان ڕازاندراوەوە تێدەکرا.", // cask",
+                                "ئاھەنگگێڕانەکە خواردنەوەیەکی تێدابوو کە ڕاستەوخۆ لە پیپێکی جوان ڕازاندراوەوە تێدەکرا.",
                             onPressedBritish: () => speakcasks1("en-GB"),
                             onPressedAmerican: () => speakcasks1("en-US"),
                           ),

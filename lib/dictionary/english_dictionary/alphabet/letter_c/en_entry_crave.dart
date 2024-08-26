@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) بوونی ئارەزوویەکی زۆر بۆ شتێک"),
           SentencesRow(
             englishText: "She has always craved excitement.",
-            kurdishText:
-                "ھەمیشە حەزی بە جۆش‌وخرۆشی بووە.", // crave", please follow LX instructions
+            kurdishText: "ھەمیشە حەزی بە جۆش‌وخرۆشی بووە.",
             onPressedBritish: () => speakcraves1("en-GB"),
             onPressedAmerican: () => speakcraves1("en-US"),
           ),

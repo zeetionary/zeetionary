@@ -273,8 +273,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She's my cousin.",
             kurdishText: "ئامۆزامە.",
-            kurdishNote:
-                "ھەروەھا: خاڵۆزامە؛ پورزامە", // cousin", please follow LX instructions
+            kurdishNote: "ھەروەھا: خاڵۆزامە؛ پورزامە",
             onPressedBritish: () => speakcousins1("en-GB"),
             onPressedAmerican: () => speakcousins1("en-US"),
           ),

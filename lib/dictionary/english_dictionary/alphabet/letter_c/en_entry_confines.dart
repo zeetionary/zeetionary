@@ -107,8 +107,7 @@ class EnglishEntryconfines extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "It is beyond the confines of human knowledge.",
-                            kurdishText:
-                                "لە دەرەوەی سنووری زانیاریی مرۆڤە.", // confines",
+                            kurdishText: "لە دەرەوەی سنووری زانیاریی مرۆڤە.",
                             onPressedBritish: () => speakconfiness1("en-GB"),
                             onPressedAmerican: () => speakconfiness1("en-US"),
                           ),

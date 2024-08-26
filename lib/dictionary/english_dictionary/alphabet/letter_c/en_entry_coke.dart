@@ -101,7 +101,7 @@ class EnglishEntrycoke extends StatelessWidget {
                             englishText:
                                 "The patient was given coke to numb the pain.",
                             kurdishText:
-                                "نەخۆشەکە کۆکاینی پێدرا بۆ ڕەواندنەوەی ئازارەکە.", // coke",
+                                "نەخۆشەکە کۆکاینی پێدرا بۆ ڕەواندنەوەی ئازارەکە.",
                             onPressedBritish: () => speakcokes1("en-GB"),
                             onPressedAmerican: () => speakcokes1("en-US"),
                           ),

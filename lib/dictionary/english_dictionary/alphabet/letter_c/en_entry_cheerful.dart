@@ -107,8 +107,7 @@ class EnglishEntrycheerful extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "You're not your usual cheerful self today.",
-                            kurdishText:
-                                "ئەمڕۆ وەک ھەمیشەیی خۆت دڵخۆش نیت.", // cheerful",
+                            kurdishText: "ئەمڕۆ وەک ھەمیشەیی خۆت دڵخۆش نیت.",
                             onPressedBritish: () => speakcheerfuls1("en-GB"),
                             onPressedAmerican: () => speakcheerfuls1("en-US"),
                           ),

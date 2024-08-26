@@ -179,7 +179,7 @@ class EnglishEntrycautionary extends StatelessWidget {
                             englishText:
                                 "In her conclusion, the author sounds a cautionary note.",
                             kurdishText:
-                                "لە دەرئەنجامدا، نووسەر تێبینییەکی ھۆشیارکەرەوانە دەدات.", // cautionary",
+                                "لە دەرئەنجامدا، نووسەر تێبینییەکی ھۆشیارکەرەوانە دەدات.",
                             onPressedBritish: () => speakcautionarys1("en-GB"),
                             onPressedAmerican: () => speakcautionarys1("en-US"),
                           ),

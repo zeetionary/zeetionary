@@ -279,8 +279,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کەسێکی فێڵباز"),
           SentencesRow(
             englishText: "That salesman is a real crook.",
-            kurdishText:
-                "فرۆشیارەکە تەڵەکەبازێکی تەواوە.", // crook", please follow LX instructions
+            kurdishText: "فرۆشیارەکە تەڵەکەبازێکی تەواوە.",
             onPressedBritish: () => speakcrooks1("en-GB"),
             onPressedAmerican: () => speakcrooks1("en-US"),
           ),

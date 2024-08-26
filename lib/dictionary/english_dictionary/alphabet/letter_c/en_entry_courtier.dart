@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Many of the courtiers were strongly wedded to traditional ways of doing things.",
             kurdishText:
-                "زۆرێک لە بەردەستەکان بە توندی ڕادەھێنران بە ڕێگا نەریتییەکانی کردنی شتەکان.", // courtier", please follow LX instructions
+                "زۆرێک لە بەردەستەکان بە توندی ڕادەھێنران بە ڕێگا نەریتییەکانی کردنی شتەکان.",
             onPressedBritish: () => speakcourtiers1("en-GB"),
             onPressedAmerican: () => speakcourtiers1("en-US"),
           ),

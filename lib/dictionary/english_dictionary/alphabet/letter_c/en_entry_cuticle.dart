@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She applied lotion to her hands to soften the cuticles.",
             kurdishText:
-                "گیراوەی دا لە دەستەکانی بۆ نەرمکردنەوەی پێستی نینۆکی.", // cuticle", please follow LX instructions
+                "گیراوەی دا لە دەستەکانی بۆ نەرمکردنەوەی پێستی نینۆکی.",
             onPressedBritish: () => speakcuticles1("en-GB"),
             onPressedAmerican: () => speakcuticles1("en-US"),
           ),

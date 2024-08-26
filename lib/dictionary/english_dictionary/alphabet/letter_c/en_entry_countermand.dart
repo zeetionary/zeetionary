@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He appeared to be countermanding orders as fast as they were given.",
-            kurdishText:
-                "وا دەردەکەوت کە فەرمانەکان بشکێنێت ھەرکە دەدران.", // countermand", please follow LX instructions
+            kurdishText: "وا دەردەکەوت کە فەرمانەکان بشکێنێت ھەرکە دەدران.",
             onPressedBritish: () => speakcountermands1("en-GB"),
             onPressedAmerican: () => speakcountermands1("en-US"),
           ),

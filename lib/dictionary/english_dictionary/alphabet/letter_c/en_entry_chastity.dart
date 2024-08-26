@@ -95,7 +95,7 @@ class EnglishEntrychastity extends StatelessWidget {
                             englishText:
                                 "As a monk, he took vows of chastity, poverty, and obedience.",
                             kurdishText:
-                                "وەک ڕەبەنێک سوێندی پاکیزەیی، ھەژاری، و گوێڕایەڵی خواردبوو.", // chastity",
+                                "وەک ڕەبەنێک سوێندی پاکیزەیی، ھەژاری، و گوێڕایەڵی خواردبوو.",
                             onPressedBritish: () => speakchastitys1("en-GB"),
                             onPressedAmerican: () => speakchastitys1("en-US"),
                           ),

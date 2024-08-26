@@ -177,8 +177,7 @@ class EnglishEntrycage extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I don’t like seeing animals in cages.",
-                            kurdishText:
-                                "حەزناکەم ئاژەڵان لە قەفەزدا ببینم.", // cage
+                            kurdishText: "حەزناکەم ئاژەڵان لە قەفەزدا ببینم",
                             onPressedBritish: () => speakcages1("en-GB"),
                             onPressedAmerican: () => speakcages1("en-US"),
                           ),

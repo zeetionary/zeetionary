@@ -95,7 +95,7 @@ class EnglishEntryclosedshop extends StatelessWidget {
                             englishText:
                                 "Working in a closed shop had advantages and disadvantages.",
                             kurdishText:
-                                "کارکردن لە دامەزراوەی داخراودا دەکرێت سوود و زیانی خۆی ھەبێت.", // closed shop",
+                                "کارکردن لە دامەزراوەی داخراودا دەکرێت سوود و زیانی خۆی ھەبێت.",
                             onPressedBritish: () => speakclosedshops1("en-GB"),
                             onPressedAmerican: () => speakclosedshops1("en-US"),
                           ),

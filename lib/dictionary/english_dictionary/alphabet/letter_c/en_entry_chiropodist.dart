@@ -95,7 +95,7 @@ class EnglishEntrychiropodist extends StatelessWidget {
                             englishText:
                                 "The chiropodist provided advice on proper foot care.",
                             kurdishText:
-                                "پاپزیشکەکە ڕاوێژی دا لەسەر چاودێری گونجاوی پێ.", // chiropodist",
+                                "پاپزیشکەکە ڕاوێژی دا لەسەر چاودێری گونجاوی پێ.",
                             onPressedBritish: () => speakchiropodists1("en-GB"),
                             onPressedAmerican: () =>
                                 speakchiropodists1("en-US"),

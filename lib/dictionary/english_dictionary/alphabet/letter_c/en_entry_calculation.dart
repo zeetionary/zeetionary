@@ -181,7 +181,7 @@ class EnglishEntrycalculation extends StatelessWidget {
                           SentencesRow(
                             englishText: "Cathy did a rough calculation.",
                             kurdishText:
-                                "کاسی شیکارکردنێکی سادەی کرد.", // calculation",
+                                "کاسی شیکارکردنێکی سادەی کرد.",
                             onPressedBritish: () => speakcalculations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcalculations1("en-US"),

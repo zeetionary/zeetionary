@@ -129,7 +129,7 @@ class EnglishEntrycheek extends StatelessWidget {
                               text: "١. (ناو) گۆنای ڕووخسار"),
                           SentencesRow(
                             englishText: "He kissed her on both cheeks.",
-                            kurdishText: "ماچی ھەردوو گۆنای کرد.", // cheek",
+                            kurdishText: "ماچی ھەردوو گۆنای کرد.",
                             onPressedBritish: () => speakcheeks1("en-GB"),
                             onPressedAmerican: () => speakcheeks1("en-US"),
                           ),

@@ -228,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) توڕە و بێزار"),
           SentencesRow(
             englishText: "You're very crabby today. What's bothering you?",
-            kurdishText:
-                "ئەمڕۆ زۆر مۆنیت. چی بووە؟", // crabby", please follow LX instructions
+            kurdishText: "ئەمڕۆ زۆر مۆنیت. چی بووە؟",
             onPressedBritish: () => speakcrabbys1("en-GB"),
             onPressedAmerican: () => speakcrabbys1("en-US"),
           ),

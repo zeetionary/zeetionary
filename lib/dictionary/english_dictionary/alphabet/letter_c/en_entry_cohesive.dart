@@ -102,7 +102,7 @@ class EnglishEntrycohesive extends StatelessWidget {
                             englishText:
                                 "The project team's cohesive efforts resulted in a successful outcome.",
                             kurdishText:
-                                "ھەوڵی یەکگرتووی تیمی پڕۆژەکە ئەنجامێکی سەرکەوتووانەی لێکەوتەوە.", // cohesive",
+                                "ھەوڵی یەکگرتووی تیمی پڕۆژەکە ئەنجامێکی سەرکەوتووانەی لێکەوتەوە.",
                             onPressedBritish: () => speakcohesives1("en-GB"),
                             onPressedAmerican: () => speakcohesives1("en-US"),
                           ),

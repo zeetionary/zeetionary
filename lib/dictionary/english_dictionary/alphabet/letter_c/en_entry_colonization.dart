@@ -103,7 +103,7 @@ class EnglishEntrycolonization extends StatelessWidget {
                             englishText:
                                 "European colonization of the Americas, with its cycle of war, disease and slavery, decimated the indigenous peoples.",
                             kurdishText:
-                                "کۆلۆنی‌سازی ئەورووپییەکان لە ئەمریکا، بە جەنگ، نەخۆشی، و کۆیلایەتی، کۆتایی بە دانیشتووانە ڕەسەنەکان ھێنا.", // colonization",
+                                "کۆلۆنی‌سازی ئەورووپییەکان لە ئەمریکا، بە جەنگ، نەخۆشی، و کۆیلایەتی، کۆتایی بە دانیشتووانە ڕەسەنەکان ھێنا.",
                             onPressedBritish: () =>
                                 speakcolonizations1("en-GB"),
                             onPressedAmerican: () =>

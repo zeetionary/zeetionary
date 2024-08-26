@@ -115,7 +115,7 @@ class EnglishEntrycontention extends StatelessWidget {
                             englishText:
                                 "Privatization of the health service remains a point of contention.",
                             kurdishText:
-                                "دان بە کەرتی تایبەتی خزمەتگوزاری تەندرووستی وەک خاڵێکی جێی مشتومڕ ماوەتەوە.", // contention",
+                                "دان بە کەرتی تایبەتی خزمەتگوزاری تەندرووستی وەک خاڵێکی جێی مشتومڕ ماوەتەوە.",
                             onPressedBritish: () => speakcontentions1("en-GB"),
                             onPressedAmerican: () => speakcontentions1("en-US"),
                           ),

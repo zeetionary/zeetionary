@@ -182,7 +182,7 @@ class EnglishEntrycapitulate extends StatelessWidget {
                             englishText:
                                 "They were finally forced to capitulate to the terrorists' demands.",
                             kurdishText:
-                                "لە کۆتایی ناچارکران ملبدەن بۆ داوای تیرۆریستان.", // capitulate
+                                "لە کۆتایی ناچارکران ملبدەن بۆ داوای تیرۆریستان",
                             onPressedBritish: () => speakcapitulates1("en-GB"),
                             onPressedAmerican: () => speakcapitulates1("en-US"),
                           ),

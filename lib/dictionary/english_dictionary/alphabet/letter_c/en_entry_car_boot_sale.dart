@@ -177,7 +177,7 @@ class EnglishEntrycarbootsale extends StatelessWidget {
                             englishText:
                                 "At the car boot sale, I found a camera for a bargain.",
                             kurdishText:
-                                "لە مەزاتەکەدا کامێرایەکم کڕی زۆر بە ھەرزان.", // car boot sale",
+                                "لە مەزاتەکەدا کامێرایەکم کڕی زۆر بە ھەرزان.",
                             onPressedBritish: () => speakcarbootsales1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcarbootsales1("en-US"),

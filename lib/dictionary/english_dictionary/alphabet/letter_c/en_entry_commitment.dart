@@ -177,8 +177,7 @@ class EnglishEntrycommitment extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I'm not ready to make a long-term commitment.",
-                            kurdishText:
-                                "ئامادە نیم پەیمانی درێژخایەن بدەم.", // commitment",
+                            kurdishText: "ئامادە نیم پەیمانی درێژخایەن بدەم.",
                             onPressedBritish: () => speakcommitments1("en-GB"),
                             onPressedAmerican: () => speakcommitments1("en-US"),
                           ),

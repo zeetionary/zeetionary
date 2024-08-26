@@ -108,7 +108,7 @@ class EnglishEntrycolossal extends StatelessWidget {
                             englishText:
                                 "The singer earns a colossal amount of money.",
                             kurdishText:
-                                "گۆرانیبێژەکە پارەیەکی بێ‌ئەندازە قازانج دەکات.", // colossal",
+                                "گۆرانیبێژەکە پارەیەکی بێ‌ئەندازە قازانج دەکات.",
                             onPressedBritish: () => speakcolossals1("en-GB"),
                             onPressedAmerican: () => speakcolossals1("en-US"),
                           ),

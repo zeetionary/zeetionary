@@ -95,7 +95,7 @@ class EnglishEntrycitricacid extends StatelessWidget {
                             englishText:
                                 "Citric acid is commonly used in soft drinks to add a sour taste.",
                             kurdishText:
-                                "ترشەڵۆکی سیتریک بە زۆری بەکاردێت لە خواردنەوەکاندا بۆ زیادکردنی تامێکی ترش.", // citric acid",
+                                "ترشەڵۆکی سیتریک بە زۆری بەکاردێت لە خواردنەوەکاندا بۆ زیادکردنی تامێکی ترش.",
                             onPressedBritish: () => speakcitricacids1("en-GB"),
                             onPressedAmerican: () => speakcitricacids1("en-US"),
                           ),

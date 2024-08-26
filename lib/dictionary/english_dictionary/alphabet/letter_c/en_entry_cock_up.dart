@@ -102,7 +102,7 @@ class EnglishEntrycockup extends StatelessWidget {
                             englishText:
                                 "So, it was delivered to the wrong place? What a cock-up!",
                             kurdishText:
-                                "کەواتە، بۆ ناونیشانێکی ھەڵە نێردرا؟ چی سەھوویەک!", // cock-up",
+                                "کەواتە، بۆ ناونیشانێکی ھەڵە نێردرا؟ چی سەھوویەک!",
                             onPressedBritish: () => speakcockups1("en-GB"),
                             onPressedAmerican: () => speakcockups1("en-US"),
                           ),

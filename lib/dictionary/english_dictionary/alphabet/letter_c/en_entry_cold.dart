@@ -197,7 +197,7 @@ class EnglishEntrycold extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) سارد"),
                           SentencesRow(
                             englishText: "I'm cold. Turn the heating up.",
-                            kurdishText: "سەرمامە. گەرمییەکە بکەوە.", // cold",
+                            kurdishText: "سەرمامە. گەرمییەکە بکەوە.",
                             onPressedBritish: () => speakcolds1("en-GB"),
                             onPressedAmerican: () => speakcolds1("en-US"),
                           ),

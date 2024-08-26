@@ -272,8 +272,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) دوو کەس یان شت"),
           SentencesRow(
             englishText: "I saw a couple of men get out.",
-            kurdishText:
-                "دوو پیاوم دیت ھاتنە دەرەوە.", // couple", please follow LX instructions
+            kurdishText: "دوو پیاوم دیت ھاتنە دەرەوە.",
             onPressedBritish: () => speakcouples1("en-GB"),
             onPressedAmerican: () => speakcouples1("en-US"),
           ),

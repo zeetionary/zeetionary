@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A curt note of rejection arrived from the company director.",
             kurdishText:
-                "تێبینییەکی کورتی ڕەتکردنەوە گەشت لە بەڕێوەبەری کۆمپانیاکەوە.", // curt", please follow LX instructions
+                "تێبینییەکی کورتی ڕەتکردنەوە گەشت لە بەڕێوەبەری کۆمپانیاکەوە.",
             onPressedBritish: () => speakcurts1("en-GB"),
             onPressedAmerican: () => speakcurts1("en-US"),
           ),

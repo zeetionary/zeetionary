@@ -146,7 +146,7 @@ class EnglishEntrycheat extends StatelessWidget {
                             englishText:
                                 "She is accused of attempting to cheat the taxman.",
                             kurdishText:
-                                "تۆمەتباری کرد بە ھەوڵدان بۆ فریودانی باجگرەکە.", // cheat",
+                                "تۆمەتباری کرد بە ھەوڵدان بۆ فریودانی باجگرەکە.",
                             onPressedBritish: () => speakcheats1("en-GB"),
                             onPressedAmerican: () => speakcheats1("en-US"),
                           ),

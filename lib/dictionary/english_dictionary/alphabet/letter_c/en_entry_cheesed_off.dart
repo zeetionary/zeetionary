@@ -91,7 +91,7 @@ class EnglishEntrycheesedoff extends StatelessWidget {
                               text: "١. (ھاوەڵناو) توڕە یان بێزار"),
                           SentencesRow(
                             englishText: "He’s cheesed off with his job.",
-                            kurdishText: "بێزارە لە کارەکەی.", // cheesed off",
+                            kurdishText: "بێزارە لە کارەکەی.",
                             onPressedBritish: () => speakcheesedoffs1("en-GB"),
                             onPressedAmerican: () => speakcheesedoffs1("en-US"),
                           ),

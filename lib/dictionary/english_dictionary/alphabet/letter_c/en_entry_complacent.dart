@@ -102,7 +102,7 @@ class EnglishEntrycomplacent extends StatelessWidget {
                             englishText:
                                 "We can't afford to become complacent about any of our products.",
                             kurdishText:
-                                "بەرگەی ئەوە ناگرین قایل بین بە ھیچ یەک لە بەرھەمەکانمان (دەبێت بەردەوام باشتر بین).", // complacent",
+                                "بەرگەی ئەوە ناگرین قایل بین بە ھیچ یەک لە بەرھەمەکانمان (دەبێت بەردەوام باشتر بین).",
                             onPressedBritish: () => speakcomplacents1("en-GB"),
                             onPressedAmerican: () => speakcomplacents1("en-US"),
                           ),

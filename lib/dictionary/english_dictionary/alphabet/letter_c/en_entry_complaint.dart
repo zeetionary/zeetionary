@@ -138,7 +138,7 @@ class EnglishEntrycomplaint extends StatelessWidget {
                             englishText:
                                 "She said the police had immediately investigated the complaint.",
                             kurdishText:
-                                "گوتی پۆلیس دەستبەجێ لێکۆڵینەوەی لە سکاڵاکە کرد.", // complaint",
+                                "گوتی پۆلیس دەستبەجێ لێکۆڵینەوەی لە سکاڵاکە کرد.",
                             onPressedBritish: () => speakcomplaints1("en-GB"),
                             onPressedAmerican: () => speakcomplaints1("en-US"),
                           ),

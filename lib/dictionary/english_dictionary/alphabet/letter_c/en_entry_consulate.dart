@@ -95,7 +95,7 @@ class EnglishEntryconsulate extends StatelessWidget {
                             englishText:
                                 "The Israeli consulate in Istanbul was attacked by some Turkish terrorists.",
                             kurdishText:
-                                "کونسوڵخانەی ئیسرائیل لە ئەستەنبوڵ لەلایەن ھەندێک تیرۆریستی تورکەوە ھێرشی کرایە سەر.", // consulate",
+                                "کونسوڵخانەی ئیسرائیل لە ئەستەنبوڵ لەلایەن ھەندێک تیرۆریستی تورکەوە ھێرشی کرایە سەر.",
                             onPressedBritish: () => speakconsulates1("en-GB"),
                             onPressedAmerican: () => speakconsulates1("en-US"),
                           ),

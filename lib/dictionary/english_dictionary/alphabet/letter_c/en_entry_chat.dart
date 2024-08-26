@@ -173,7 +173,7 @@ class EnglishEntrychat extends StatelessWidget {
                           SentencesRow(
                             englishText: "I'm sorry I can't stop to chat.",
                             kurdishText:
-                                "ببوورە ناتوانم بۆ دەمەتەقێیەک بوەستم.", // chat",
+                                "ببوورە ناتوانم بۆ دەمەتەقێیەک بوەستم.",
                             onPressedBritish: () => speakchats1("en-GB"),
                             onPressedAmerican: () => speakchats1("en-US"),
                           ),

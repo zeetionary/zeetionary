@@ -103,7 +103,7 @@ class EnglishEntryclient extends StatelessWidget {
                             englishText:
                                 "She's a well-known lawyer with many famous clients.",
                             kurdishText:
-                                "پارێزەرێکی ناسراوە بە ژمارەیەکی زۆر مشتەری بەناوبانگەوە.", // client",
+                                "پارێزەرێکی ناسراوە بە ژمارەیەکی زۆر مشتەری بەناوبانگەوە.",
                             onPressedBritish: () => speakclients1("en-GB"),
                             onPressedAmerican: () => speakclients1("en-US"),
                           ),

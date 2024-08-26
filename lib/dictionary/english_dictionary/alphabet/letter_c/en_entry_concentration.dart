@@ -117,7 +117,7 @@ class EnglishEntryconcentration extends StatelessWidget {
                             englishText:
                                 "This book requires a great deal of concentration.",
                             kurdishText:
-                                "ئەم کتێبە پێویستی بە سەرنجی زۆر ھەیە.", // concentration",
+                                "ئەم کتێبە پێویستی بە سەرنجی زۆر ھەیە.",
                             onPressedBritish: () =>
                                 speakconcentrations1("en-GB"),
                             onPressedAmerican: () =>

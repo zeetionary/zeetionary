@@ -95,7 +95,7 @@ class EnglishEntryconsidered extends StatelessWidget {
                             englishText:
                                 "It is my considered opinion that he should be promoted.",
                             kurdishText:
-                                "ئەو بۆچوونی لێکۆڵراومە کە دەبێت پلەی بەرزبکرێتەوە.", // considered",
+                                "ئەو بۆچوونی لێکۆڵراومە کە دەبێت پلەی بەرزبکرێتەوە.",
                             onPressedBritish: () => speakconsidereds1("en-GB"),
                             onPressedAmerican: () => speakconsidereds1("en-US"),
                           ),

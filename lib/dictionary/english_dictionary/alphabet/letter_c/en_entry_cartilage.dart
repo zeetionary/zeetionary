@@ -177,8 +177,7 @@ class EnglishEntrycartilage extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I’ve damaged the cartilage in my knee.",
-                            kurdishText:
-                                "کڕکڕاگەی چۆکم ئازاری پێگەشتووە.", // cartilage",
+                            kurdishText: "کڕکڕاگەی چۆکم ئازاری پێگەشتووە.",
                             onPressedBritish: () => speakcartilages1("en-GB"),
                             onPressedAmerican: () => speakcartilages1("en-US"),
                           ),

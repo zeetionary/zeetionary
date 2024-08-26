@@ -168,7 +168,7 @@ class EnglishEntrycontain extends StatelessWidget {
                             englishText:
                                 "This drink doesn't contain any alcohol.",
                             kurdishText:
-                                "ئەم خواردنەوەیە ھیچ مادەی کحولی تێدا نییە.", // contain",
+                                "ئەم خواردنەوەیە ھیچ مادەی کحولی تێدا نییە.",
                             onPressedBritish: () => speakcontains1("en-GB"),
                             onPressedAmerican: () => speakcontains1("en-US"),
                           ),

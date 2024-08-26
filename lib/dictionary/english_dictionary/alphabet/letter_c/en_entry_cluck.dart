@@ -110,7 +110,7 @@ class EnglishEntrycluck extends StatelessWidget {
                             englishText:
                                 "The mother hen clucked to her chicks, calling them to her.",
                             kurdishText:
-                                "دایکە مریشکەکە گارەگاری بۆ جووجەڵەکانی دەکرد و بانگی دەکردن بۆ لای خۆی.", // cluck",
+                                "دایکە مریشکەکە گارەگاری بۆ جووجەڵەکانی دەکرد و بانگی دەکردن بۆ لای خۆی.",
                             onPressedBritish: () => speakclucks1("en-GB"),
                             onPressedAmerican: () => speakclucks1("en-US"),
                           ),

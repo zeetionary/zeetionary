@@ -136,8 +136,7 @@ class EnglishEntrybud extends StatelessWidget {
                                   "١. (ھاوەڵناو) خونچەی ڕووەکێک کە دواتر دەبێتە گوڵ"),
                           SentencesRow(
                             englishText: "The tree is in bud already.",
-                            kurdishText:
-                                "دارەکە دەمێک دەبێت خونچەی گرتووە.", // bud" as
+                            kurdishText: "دارەکە دەمێک دەبێت خونچەی گرتووە.",
                             onPressedBritish: () => speakbuds1("en-GB"),
                             onPressedAmerican: () => speakbuds1("en-US"),
                           ),

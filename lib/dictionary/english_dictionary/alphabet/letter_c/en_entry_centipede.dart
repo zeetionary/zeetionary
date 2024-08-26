@@ -179,7 +179,7 @@ class EnglishEntrycentipede extends StatelessWidget {
                             englishText:
                                 "Despite their name, centipedes do not have 100 legs; the number varies by species.",
                             kurdishText:
-                                "سەرەڕای ناوەکەیان، سەدپێ سەدپێی نییە. ژمارەکە بەپێی جۆر دەگۆڕێت.", // centipede",
+                                "سەرەڕای ناوەکەیان، سەدپێ سەدپێی نییە. ژمارەکە بەپێی جۆر دەگۆڕێت.",
                             onPressedBritish: () => speakcentipedes1("en-GB"),
                             onPressedAmerican: () => speakcentipedes1("en-US"),
                           ),

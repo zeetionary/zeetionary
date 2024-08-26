@@ -102,7 +102,7 @@ class EnglishEntrychoppy extends StatelessWidget {
                             englishText:
                                 "The choppy waters caused some of the boats to capsize.",
                             kurdishText:
-                                "دەریا پڕشەپۆلەکان بوون بەھۆی ئەوەی ژمارەیەک لە بەلەمەکان وەرگەڕێن.", // choppy",
+                                "دەریا پڕشەپۆلەکان بوون بەھۆی ئەوەی ژمارەیەک لە بەلەمەکان وەرگەڕێن.",
                             onPressedBritish: () => speakchoppys1("en-GB"),
                             onPressedAmerican: () => speakchoppys1("en-US"),
                           ),

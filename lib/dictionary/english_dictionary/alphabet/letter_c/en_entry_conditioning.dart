@@ -103,7 +103,7 @@ class EnglishEntryconditioning extends StatelessWidget {
                             englishText:
                                 "Is personality the result of conditioning from parents and society, or are we born with it?",
                             kurdishText:
-                                "ئایا کەسایەتی ئەنجامی کاریگەری دایک و باوک و کۆمەڵگەیە یان شتێکە لەگەڵمان لەدایک دەبێت؟", // conditioning",
+                                "ئایا کەسایەتی ئەنجامی کاریگەری دایک و باوک و کۆمەڵگەیە یان شتێکە لەگەڵمان لەدایک دەبێت؟",
                             onPressedBritish: () =>
                                 speakconditionings1("en-GB"),
                             onPressedAmerican: () =>

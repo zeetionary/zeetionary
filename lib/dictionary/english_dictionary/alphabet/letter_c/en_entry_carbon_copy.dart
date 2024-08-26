@@ -176,7 +176,7 @@ class EnglishEntrycarboncopy extends StatelessWidget {
                             englishText:
                                 "Each participant received a carbon copy of the meeting agenda.",
                             kurdishText:
-                                "ھەر بەژداربوویەک کۆپییەکی ئەجێندای کۆبوونەوەکەی وەرگرت.", // carbon copy",
+                                "ھەر بەژداربوویەک کۆپییەکی ئەجێندای کۆبوونەوەکەی وەرگرت.",
                             onPressedBritish: () => speakcarboncopys1("en-GB"),
                             onPressedAmerican: () => speakcarboncopys1("en-US"),
                           ),

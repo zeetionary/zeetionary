@@ -96,7 +96,7 @@ class EnglishEntryconsortium extends StatelessWidget {
                             englishText:
                                 "Our company forms part of a consortium of local businesses working for environmental change.",
                             kurdishText:
-                                "کۆمپانیاکەمان بەشێک لە کۆمەڵەی بازرگانییە خۆجێییەکان پێکدێنێت کە کار بۆ گۆڕانی ژیمگەیی دەکەن.", // consortium",
+                                "کۆمپانیاکەمان بەشێک لە کۆمەڵەی بازرگانییە خۆجێییەکان پێکدێنێت کە کار بۆ گۆڕانی ژیمگەیی دەکەن.",
                             onPressedBritish: () => speakconsortiums1("en-GB"),
                             onPressedAmerican: () => speakconsortiums1("en-US"),
                           ),

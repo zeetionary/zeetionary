@@ -91,8 +91,7 @@ class EnglishEntrycolliery extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The colliery employed hundreds of workers.",
-                            kurdishText:
-                                "کانە خەڵووزەکە سەدان کرێکاری ھەبوو.", // colliery",
+                            kurdishText: "کانە خەڵووزەکە سەدان کرێکاری ھەبوو.",
                             onPressedBritish: () => speakcollierys1("en-GB"),
                             onPressedAmerican: () => speakcollierys1("en-US"),
                           ),

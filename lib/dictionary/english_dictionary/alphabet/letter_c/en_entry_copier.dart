@@ -94,7 +94,7 @@ class EnglishEntrycopier extends StatelessWidget {
                             englishText:
                                 "The copier ran out of paper halfway through the job.",
                             kurdishText:
-                                "لە ناوەڕاستی کارەکەدا دەزگای کۆپییەکە کاغەزی تێدا نەما.", // copier",
+                                "لە ناوەڕاستی کارەکەدا دەزگای کۆپییەکە کاغەزی تێدا نەما.",
                             onPressedBritish: () => speakcopiers1("en-GB"),
                             onPressedAmerican: () => speakcopiers1("en-US"),
                           ),

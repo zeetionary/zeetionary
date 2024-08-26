@@ -138,7 +138,7 @@ class EnglishEntrycoat extends StatelessWidget {
                             englishText:
                                 "I dressed in my finest blue wool coat.",
                             kurdishText:
-                                "باشترین قەمسەڵەی خوری شینمم لەبەرکرد.", // coat",
+                                "باشترین قەمسەڵەی خوری شینمم لەبەرکرد.",
                             onPressedBritish: () => speakcoats1("en-GB"),
                             onPressedAmerican: () => speakcoats1("en-US"),
                           ),

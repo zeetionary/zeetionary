@@ -177,8 +177,7 @@ class EnglishEntrycatalyst extends StatelessWidget {
                                   "١. (ناو) لە کیمیادا مادەیەکە کە کارلێکێکی کیمیایی خێراتر دەکات بەبێ ئەوەی خۆی گۆڕێت"),
                           SentencesRow(
                             englishText: "Chlorine will act as a catalyst.",
-                            kurdishText:
-                                "کلۆر وەک ھاندەرێکی کیمیایی کاردەکات.", // catalyst",
+                            kurdishText: "کلۆر وەک ھاندەرێکی کیمیایی کاردەکات.",
                             onPressedBritish: () => speakcatalysts1("en-GB"),
                             onPressedAmerican: () => speakcatalysts1("en-US"),
                           ),

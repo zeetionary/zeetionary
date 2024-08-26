@@ -139,7 +139,7 @@ class EnglishEntrybrutish extends StatelessWidget {
                             englishText:
                                 "Life for our early ancestors was nasty, brutish and short, according to the evidence.",
                             kurdishText:
-                                "بەپێی بەڵگەکان، ژیان بۆ باوانە سەرەتاییەکانمان ناخۆش، سەخت، و کورت بوو.", // brutish" as
+                                "بەپێی بەڵگەکان، ژیان بۆ باوانە سەرەتاییەکانمان ناخۆش، سەخت، و کورت بوو.",
                             onPressedBritish: () => speakbrutishs1("en-GB"),
                             onPressedAmerican: () => speakbrutishs1("en-US"),
                           ),

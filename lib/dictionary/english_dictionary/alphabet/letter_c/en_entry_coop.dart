@@ -94,7 +94,7 @@ class EnglishEntrycoop extends StatelessWidget {
                             englishText:
                                 "She collected the eggs from the coop every morning.",
                             kurdishText:
-                                "ھەموو بەیانییەک ھێلکەکانی لە کولانەکە کۆدەکردەوە.", // coop",
+                                "ھەموو بەیانییەک ھێلکەکانی لە کولانەکە کۆدەکردەوە.",
                             onPressedBritish: () => speakcoops1("en-GB"),
                             onPressedAmerican: () => speakcoops1("en-US"),
                           ),

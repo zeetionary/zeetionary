@@ -182,7 +182,7 @@ class EnglishEntrycommunity extends StatelessWidget {
                             englishText:
                                 "The local community supported us from the start.",
                             kurdishText:
-                                "کۆمەڵگە خپجێیەکە لە سەرەتادا پشتیوانییان کردین.", // community",
+                                "کۆمەڵگە خپجێیەکە لە سەرەتادا پشتیوانییان کردین.",
                             onPressedBritish: () => speakcommunitys1("en-GB"),
                             onPressedAmerican: () => speakcommunitys1("en-US"),
                           ),

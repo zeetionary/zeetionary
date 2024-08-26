@@ -178,8 +178,7 @@ class EnglishEntrycandidly extends StatelessWidget {
                                   "١. (ھاوەڵکار) بە ڕاستگۆیی و ڕاستی و درووستی"),
                           SentencesRow(
                             englishText: "She candidly admitted her mistakes.",
-                            kurdishText:
-                                "ڕاشکاوانە دانی بە ھەڵەکانیدا نا.", // candidly
+                            kurdishText: "ڕاشکاوانە دانی بە ھەڵەکانیدا نا",
                             onPressedBritish: () => speakcandidlys1("en-GB"),
                             onPressedAmerican: () => speakcandidlys1("en-US"),
                           ),

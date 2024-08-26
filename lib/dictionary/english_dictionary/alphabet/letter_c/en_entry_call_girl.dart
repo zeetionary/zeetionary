@@ -181,7 +181,7 @@ class EnglishEntrycallgirl extends StatelessWidget {
                             englishText:
                                 "Many call girls have their own websites with some personal details.",
                             kurdishText:
-                                "زۆر لەشفرۆش وێبسایتی خۆیان ھەیە لەگەڵ ھەندێک زانیاریی کەسی تێیدا.", // call girl
+                                "زۆر لەشفرۆش وێبسایتی خۆیان ھەیە لەگەڵ ھەندێک زانیاریی کەسی تێیدا.",
                             onPressedBritish: () => speakcallgirls1("en-GB"),
                             onPressedAmerican: () => speakcallgirls1("en-US"),
                           ),

@@ -108,7 +108,7 @@ class EnglishEntrycoloured extends StatelessWidget {
                             englishText:
                                 "He uses ink and coloured pencils in his drawings.",
                             kurdishText:
-                                "مەرەکەب و پێنووسی ڕەنگاوڕەنگ بەکاردێنێت.", // coloured",
+                                "مەرەکەب و پێنووسی ڕەنگاوڕەنگ بەکاردێنێت.",
                             onPressedBritish: () => speakcoloureds1("en-GB"),
                             onPressedAmerican: () => speakcoloureds1("en-US"),
                           ),

@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Drinking plenty of water can help prevent cystitis.",
             kurdishText:
-                "خواردنی ئاوی زۆر دەکرێت ڕێگری لە ھەوکردنی میزڵدان بکات.", // cystitis", please follow LX instructions
+                "خواردنی ئاوی زۆر دەکرێت ڕێگری لە ھەوکردنی میزڵدان بکات.",
             onPressedBritish: () => speakcystitiss1("en-GB"),
             onPressedAmerican: () => speakcystitiss1("en-US"),
           ),

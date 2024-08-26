@@ -95,7 +95,7 @@ class EnglishEntrycobbled extends StatelessWidget {
                             englishText:
                                 "The streets of the main village are still cobbled.",
                             kurdishText:
-                                "ڕێگاکانی گوندە سەرەکییەکە ھێشتا خڕکەڕێژکراون.", // cobbled",
+                                "ڕێگاکانی گوندە سەرەکییەکە ھێشتا خڕکەڕێژکراون.",
                             onPressedBritish: () => speakcobbleds1("en-GB"),
                             onPressedAmerican: () => speakcobbleds1("en-US"),
                           ),

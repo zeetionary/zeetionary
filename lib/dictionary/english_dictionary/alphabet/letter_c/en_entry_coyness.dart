@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شەرمنی یان خۆدەرخستن بەو شێوەیە، بەتایبەتی پەیوەندیدار بە خۆشەویستی و سێکس"),
           SentencesRow(
             englishText: "Suddenly the coyness was gone from her voice.",
-            kurdishText:
-                "لەناکاو شەرمنی دەنگی نەما.", // coyness", please follow LX instructions
+            kurdishText: "لەناکاو شەرمنی دەنگی نەما.",
             onPressedBritish: () => speakcoynesss1("en-GB"),
             onPressedAmerican: () => speakcoynesss1("en-US"),
           ),

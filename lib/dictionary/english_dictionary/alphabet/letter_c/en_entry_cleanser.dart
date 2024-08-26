@@ -101,7 +101,7 @@ class EnglishEntrycleanser extends StatelessWidget {
                             englishText:
                                 "I use cleanser on my face every night.",
                             kurdishText:
-                                "ھەموو شەوێک خاوێن‌کەرەوە بەکاردێنم بۆ ڕووخسارم.", // cleanser",
+                                "ھەموو شەوێک خاوێن‌کەرەوە بەکاردێنم بۆ ڕووخسارم.",
                             onPressedBritish: () => speakcleansers1("en-GB"),
                             onPressedAmerican: () => speakcleansers1("en-US"),
                           ),

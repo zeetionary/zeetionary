@@ -329,8 +329,7 @@ class EnglishEntryclass extends StatelessWidget {
                                   "١. (ناو) کۆمەڵێک خوێندکار کە پێکەوە وانە دەخوێنن"),
                           SentencesRow(
                             englishText: "We were in the same class at school.",
-                            kurdishText:
-                                "لە ھەمان پۆلین لە قوتابخانە.", // class",
+                            kurdishText: "لە ھەمان پۆلین لە قوتابخانە.",
                             onPressedBritish: () => speakclasss1("en-GB"),
                             onPressedAmerican: () => speakclasss1("en-US"),
                           ),

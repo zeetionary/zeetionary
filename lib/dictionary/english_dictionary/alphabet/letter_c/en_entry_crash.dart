@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A man has been arrested in connection with a fatal crash.",
             kurdishText:
-                "کەسێک دەستگیرکراوە پەیوەندیدار بە پێکدادانەکە کوشندەکە.", // crash", please follow LX instructions
+                "کەسێک دەستگیرکراوە پەیوەندیدار بە پێکدادانەکە کوشندەکە.",
             onPressedBritish: () => speakcrashs1("en-GB"),
             onPressedAmerican: () => speakcrashs1("en-US"),
           ),

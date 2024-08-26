@@ -95,7 +95,7 @@ class EnglishEntrychiropody extends StatelessWidget {
                             englishText:
                                 "If you are disabled, you are entitled to free chiropody.",
                             kurdishText:
-                                "ئەگەر پەککەوتەیت، دەکرێت چاودێری پا بێ‌بەرامبەر وەربگریت.", // chiropody",
+                                "ئەگەر پەککەوتەیت، دەکرێت چاودێری پا بێ‌بەرامبەر وەربگریت.",
                             onPressedBritish: () => speakchiropodys1("en-GB"),
                             onPressedAmerican: () => speakchiropodys1("en-US"),
                           ),

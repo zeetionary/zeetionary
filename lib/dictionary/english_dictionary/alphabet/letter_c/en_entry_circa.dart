@@ -91,8 +91,7 @@ class EnglishEntrycirca extends StatelessWidget {
                               text: "١. (ئامراز) بەنزیکەیی"),
                           SentencesRow(
                             englishText: "He was born circa 1600.",
-                            kurdishText:
-                                "تەقریبەن لە ١٦٠٠ لەدایکبوو.", // circa",
+                            kurdishText: "تەقریبەن لە ١٦٠٠ لەدایکبوو.",
                             onPressedBritish: () => speakcircas1("en-GB"),
                             onPressedAmerican: () => speakcircas1("en-US"),
                           ),

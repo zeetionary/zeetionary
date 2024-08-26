@@ -101,7 +101,7 @@ class EnglishEntrycomputerize extends StatelessWidget {
                             englishText:
                                 "The factory has been fully computerized.",
                             kurdishText:
-                                "کارگەکە بە تەواوی بە کۆمپیوتەر کراوە.", // computerize",
+                                "کارگەکە بە تەواوی بە کۆمپیوتەر کراوە.",
                             onPressedBritish: () => speakcomputerizes1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcomputerizes1("en-US"),

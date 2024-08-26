@@ -103,7 +103,7 @@ class EnglishEntryconsummation extends StatelessWidget {
                             englishText:
                                 "The consummation of their marriage was a private and intimate moment.",
                             kurdishText:
-                                "کامڵکردنی ھاوسەرگیرییەکەیان ساتێکی تایبەت و کەسی بوو.", // consummation",
+                                "کامڵکردنی ھاوسەرگیرییەکەیان ساتێکی تایبەت و کەسی بوو.",
                             onPressedBritish: () =>
                                 speakconsummations1("en-GB"),
                             onPressedAmerican: () =>

@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The cortège made its way slowly through the streets to the cemetery.",
             kurdishText:
-                "بەڕێکەران بەھێواشی ڕێگایان گرتەبەر بە شەقاکەدا بەرەو گۆڕستانەکە.", // cortege", please follow LX instructions
+                "بەڕێکەران بەھێواشی ڕێگایان گرتەبەر بە شەقاکەدا بەرەو گۆڕستانەکە.",
             onPressedBritish: () => speakcorteges1("en-GB"),
             onPressedAmerican: () => speakcorteges1("en-US"),
           ),

@@ -140,7 +140,7 @@ class EnglishEntrycombination extends StatelessWidget {
                             englishText:
                                 "The tragedy was due to a combination of factors.",
                             kurdishText:
-                                "تراژیدیاکە بەھۆی ئاوێتەی کۆمەڵێک فاکتەرەوە بوو.", // combination",
+                                "تراژیدیاکە بەھۆی ئاوێتەی کۆمەڵێک فاکتەرەوە بوو.",
                             onPressedBritish: () => speakcombinations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcombinations1("en-US"),

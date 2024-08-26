@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) لاشەی مردوویەک، بەتایبەتی ھی مرۆڤێک"),
           SentencesRow(
             englishText: "The corpse was barely recognizable.",
-            kurdishText:
-                "تەرمەکە بە ئەستەم دەناسرایەوە.", // corpse", please follow LX instructions
+            kurdishText: "تەرمەکە بە ئەستەم دەناسرایەوە.",
             onPressedBritish: () => speakcorpses1("en-GB"),
             onPressedAmerican: () => speakcorpses1("en-US"),
           ),

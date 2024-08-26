@@ -94,7 +94,7 @@ class EnglishEntryconviviality extends StatelessWidget {
                             englishText:
                                 "He was known for his conviviality as a host.",
                             kurdishText:
-                                "وەک خاوەنماڵ بۆ دۆستایەتییەکەی ناسراوبوو.", // conviviality",
+                                "وەک خاوەنماڵ بۆ دۆستایەتییەکەی ناسراوبوو.",
                             onPressedBritish: () =>
                                 speakconvivialitys1("en-GB"),
                             onPressedAmerican: () =>

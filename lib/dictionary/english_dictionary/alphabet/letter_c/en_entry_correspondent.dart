@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە لە وڵاتێکی دیاریکراوەوە یان لەسەر بابەتێکی دیاریکراو بۆ ڕۆژنامەیەک یان تەلەفیزیۆنێک یان ڕادیۆیەک ڕاپۆرت ئامادە دەکات"),
           SentencesRow(
             englishText: "She's the BBC's political correspondent.",
-            kurdishText:
-                "پەیامنێری سیاسیی بی‌بی‌سییە.", // correspondent", please follow LX instructions
+            kurdishText: "پەیامنێری سیاسیی بی‌بی‌سییە.",
             onPressedBritish: () => speakcorrespondents1("en-GB"),
             onPressedAmerican: () => speakcorrespondents1("en-US"),
           ),

@@ -177,7 +177,7 @@ class EnglishEntrycanvasser extends StatelessWidget {
                             englishText:
                                 "Canvassers will go door-to-door on election day.",
                             kurdishText:
-                                "لە ڕۆژی ھەڵبژاردندا بانگەشەکاران دەرگا بە دەرگا دەگەڕێن.", // canvasser
+                                "لە ڕۆژی ھەڵبژاردندا بانگەشەکاران دەرگا بە دەرگا دەگەڕێن",
                             onPressedBritish: () => speakcanvassers1("en-GB"),
                             onPressedAmerican: () => speakcanvassers1("en-US"),
                           ),

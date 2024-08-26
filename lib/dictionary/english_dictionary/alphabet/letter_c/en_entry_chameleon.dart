@@ -95,7 +95,7 @@ class EnglishEntrychameleon extends StatelessWidget {
                             englishText:
                                 "Predators often struggle to spot chameleons as they hide among branches and foliage.",
                             kurdishText:
-                                "ڕاوکەران زۆرجار کێشەیان ھەیە لەگەڵ دۆزینەوەی ڕۆژپەرستان ھەیە بەھۆی ئەوەی خۆیان لەناو لق و پۆپەکان دەشارنەوە.", // chameleon",
+                                "ڕاوکەران زۆرجار کێشەیان ھەیە لەگەڵ دۆزینەوەی ڕۆژپەرستان ھەیە بەھۆی ئەوەی خۆیان لەناو لق و پۆپەکان دەشارنەوە.",
                             onPressedBritish: () => speakchameleons1("en-GB"),
                             onPressedAmerican: () => speakchameleons1("en-US"),
                           ),

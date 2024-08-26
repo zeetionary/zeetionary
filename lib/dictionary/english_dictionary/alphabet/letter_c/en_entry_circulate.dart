@@ -138,7 +138,7 @@ class EnglishEntrycirculate extends StatelessWidget {
                             englishText:
                                 "The condition prevents the blood from circulating freely.",
                             kurdishText:
-                                "دۆخەکە ڕێگا لە خوێن دەگرێت بە بە سەربەستی بسووڕێتەوە.", // circulate",
+                                "دۆخەکە ڕێگا لە خوێن دەگرێت بە بە سەربەستی بسووڕێتەوە.",
                             onPressedBritish: () => speakcirculates1("en-GB"),
                             onPressedAmerican: () => speakcirculates1("en-US"),
                           ),

@@ -101,8 +101,7 @@ class EnglishEntrycontrite extends StatelessWidget {
                                   "١. (ھاوەڵناو) زۆر پەشیمان بۆ شتێکی خراپ کە کردووتە"),
                           SentencesRow(
                             englishText: "Her expression was contrite.",
-                            kurdishText:
-                                "دەربڕینەکەی زۆر بە پەشیمان بوو.", // contrite",
+                            kurdishText: "دەربڕینەکەی زۆر بە پەشیمان بوو.",
                             onPressedBritish: () => speakcontrites1("en-GB"),
                             onPressedAmerican: () => speakcontrites1("en-US"),
                           ),

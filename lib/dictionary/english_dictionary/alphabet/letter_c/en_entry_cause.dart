@@ -379,8 +379,7 @@ class EnglishEntrycause extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Unemployment is a major cause of poverty.",
-                            kurdishText:
-                                "بێکاری ھۆکارێکی گەورەی ھەژارییە.", // cause",
+                            kurdishText: "بێکاری ھۆکارێکی گەورەی ھەژارییە.",
                             onPressedBritish: () => speakcauses1("en-GB"),
                             onPressedAmerican: () => speakcauses1("en-US"),
                           ),

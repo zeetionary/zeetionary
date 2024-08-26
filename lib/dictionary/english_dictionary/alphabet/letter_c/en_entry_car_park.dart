@@ -179,7 +179,7 @@ class EnglishEntrycarpark extends StatelessWidget {
                             englishText:
                                 "The multilevel car park near the shopping center accommodates hundreds of cars.",
                             kurdishText:
-                                "گەراجە چەند نھۆمییەکە لە نزیکی سەنتەری بازاڕکردنەکە جێگەی سەدان ئۆتۆمبێلی تێدا دەبێتەوە.", // car park",
+                                "گەراجە چەند نھۆمییەکە لە نزیکی سەنتەری بازاڕکردنەکە جێگەی سەدان ئۆتۆمبێلی تێدا دەبێتەوە.",
                             onPressedBritish: () => speakcarparks1("en-GB"),
                             onPressedAmerican: () => speakcarparks1("en-US"),
                           ),

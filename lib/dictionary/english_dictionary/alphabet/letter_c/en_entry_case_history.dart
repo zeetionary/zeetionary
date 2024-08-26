@@ -178,7 +178,7 @@ class EnglishEntrycasehistory extends StatelessWidget {
                             englishText:
                                 "She familiarized herself with the case history of her new patient.",
                             kurdishText:
-                                "خۆی ئاشناکرد لەگەڵ تۆماری ڕابردووی نەخۆشە تازەکەی.", // case history",
+                                "خۆی ئاشناکرد لەگەڵ تۆماری ڕابردووی نەخۆشە تازەکەی.",
                             onPressedBritish: () => speakcasehistorys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcasehistorys1("en-US"),

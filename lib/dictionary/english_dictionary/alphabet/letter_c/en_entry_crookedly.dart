@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە لاری"),
           SentencesRow(
             englishText: "A large portrait was hanging crookedly on the wall.",
-            kurdishText:
-                "وێنەیەکی گەورە بە لاری لەسەر دیوارەکە ھەڵواسرابوو.", // crookedly", please follow LX instructions
+            kurdishText: "وێنەیەکی گەورە بە لاری لەسەر دیوارەکە ھەڵواسرابوو.",
             onPressedBritish: () => speakcrookedlys1("en-GB"),
             onPressedAmerican: () => speakcrookedlys1("en-US"),
           ),

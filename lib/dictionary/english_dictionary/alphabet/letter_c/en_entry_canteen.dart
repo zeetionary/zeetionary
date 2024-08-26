@@ -181,7 +181,7 @@ class EnglishEntrycanteen extends StatelessWidget {
                             englishText:
                                 "I usually have my lunch in the canteen at school.",
                             kurdishText:
-                                "زۆرجار نانی نیوەڕۆ لە حانووتی قوتابخانە دەخۆم.", // canteen
+                                "زۆرجار نانی نیوەڕۆ لە حانووتی قوتابخانە دەخۆم",
                             onPressedBritish: () => speakcanteens1("en-GB"),
                             onPressedAmerican: () => speakcanteens1("en-US"),
                           ),

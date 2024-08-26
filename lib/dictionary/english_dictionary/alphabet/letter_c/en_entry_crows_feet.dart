@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Using sunscreen can help prevent crow's feet from forming.",
             kurdishText:
-                "بەکارھێنانی دژەخۆر دەکرێت یارمەتیدەر بێت دژ بە درووستبوونی لۆچی چاو.", // crow's feet", please follow LX instructions
+                "بەکارھێنانی دژەخۆر دەکرێت یارمەتیدەر بێت دژ بە درووستبوونی لۆچی چاو.",
             onPressedBritish: () => speakcrowsfeets1("en-GB"),
             onPressedAmerican: () => speakcrowsfeets1("en-US"),
           ),

@@ -117,7 +117,7 @@ class EnglishEntrycontinuation extends StatelessWidget {
                             englishText:
                                 "The years 2000–01 saw the continuation of the university’s planned expansion.",
                             kurdishText:
-                                "ساڵانی ٢٠٠٠-٢٠٠١ بەردەوامێتی بەرفراوانبوونی پلاندانراوی زانکۆکەی بەخۆوە بینی.", // continuation",
+                                "ساڵانی ٢٠٠٠-٢٠٠١ بەردەوامێتی بەرفراوانبوونی پلاندانراوی زانکۆکەی بەخۆوە بینی.",
                             onPressedBritish: () =>
                                 speakcontinuations1("en-GB"),
                             onPressedAmerican: () =>

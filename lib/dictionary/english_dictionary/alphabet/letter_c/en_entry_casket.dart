@@ -178,7 +178,7 @@ class EnglishEntrycasket extends StatelessWidget {
                           SentencesRow(
                             englishText: "Inside lay a casket of gold coins.",
                             kurdishText:
-                                "لە ناوەوە سنووقێکی دراوی ئاڵتوونی ھەیە.", // casket",
+                                "لە ناوەوە سنووقێکی دراوی ئاڵتوونی ھەیە.",
                             onPressedBritish: () => speakcaskets1("en-GB"),
                             onPressedAmerican: () => speakcaskets1("en-US"),
                           ),

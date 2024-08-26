@@ -95,7 +95,7 @@ class EnglishEntryclef extends StatelessWidget {
                             englishText:
                                 "Musicians must learn to read both the treble and bass clef to play music accurately.",
                             kurdishText:
-                                "میوزیکژەنان دەبێت فێری خوێندنەوەی کلیلی بەرز و نزم بخوێننەوە بۆ ژەنینی میوزیک بە درووستی.", // clef",
+                                "میوزیکژەنان دەبێت فێری خوێندنەوەی کلیلی بەرز و نزم بخوێننەوە بۆ ژەنینی میوزیک بە درووستی.",
                             onPressedBritish: () => speakclefs1("en-GB"),
                             onPressedAmerican: () => speakclefs1("en-US"),
                           ),

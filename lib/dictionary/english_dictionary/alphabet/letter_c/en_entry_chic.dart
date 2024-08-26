@@ -100,7 +100,7 @@ class EnglishEntrychic extends StatelessWidget {
                             englishText:
                                 "British politicians are not renowned for their chic.",
                             kurdishText:
-                                "سیاسەتمەدارە بەریتانییەکان ناسراو نیین بۆ شۆخ‌وشەنگییان.", // chic",
+                                "سیاسەتمەدارە بەریتانییەکان ناسراو نیین بۆ شۆخ‌وشەنگییان.",
                             onPressedBritish: () => speakchics1("en-GB"),
                             onPressedAmerican: () => speakchics1("en-US"),
                           ),

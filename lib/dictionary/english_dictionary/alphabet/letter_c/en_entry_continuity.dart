@@ -133,7 +133,7 @@ class EnglishEntrycontinuity extends StatelessWidget {
                             englishText:
                                 "To ensure continuity of care, it is better for a single doctor to treat the patient.",
                             kurdishText:
-                                "بۆ دڵنیایی لە بەردەوامی چاودێری، باشترە یەک پزیشک چارەسەری نەخۆشەکە بکات.", // continuity",
+                                "بۆ دڵنیایی لە بەردەوامی چاودێری، باشترە یەک پزیشک چارەسەری نەخۆشەکە بکات.",
                             onPressedBritish: () => speakcontinuitys1("en-GB"),
                             onPressedAmerican: () => speakcontinuitys1("en-US"),
                           ),

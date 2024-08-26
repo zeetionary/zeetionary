@@ -180,7 +180,7 @@ class EnglishEntrychaff extends StatelessWidget {
                             englishText:
                                 "While not directly consumed, chaff has various uses, including animal feed and bedding.",
                             kurdishText:
-                                "ئەگەرچی ڕاستەوخۆ بەکارنایەت، بەڵام سۆس ژمارەیەک بەکارھێنانی ھەیە، وەک بۆ ئالیکی ئاژەڵ و جێگەی نووستنیان.", // chaff",
+                                "ئەگەرچی ڕاستەوخۆ بەکارنایەت، بەڵام سۆس ژمارەیەک بەکارھێنانی ھەیە، وەک بۆ ئالیکی ئاژەڵ و جێگەی نووستنیان.",
                             onPressedBritish: () => speakchaffs1("en-GB"),
                             onPressedAmerican: () => speakchaffs1("en-US"),
                           ),

@@ -95,7 +95,7 @@ class EnglishEntrychambermaid extends StatelessWidget {
                             englishText:
                                 "The diligent chambermaid takes pride in keeping the hotel rooms clean and comfortable.",
                             kurdishText:
-                                "ژنە کارەکەرە زەحمەتکێشەکە شانازی دەکات بە ڕاگرتنی ژوورەکانی ھوتێلەکە بە پاکی و ئاسوودەبەخشی.", // chambermaid",
+                                "ژنە کارەکەرە زەحمەتکێشەکە شانازی دەکات بە ڕاگرتنی ژوورەکانی ھوتێلەکە بە پاکی و ئاسوودەبەخشی.",
                             onPressedBritish: () => speakchambermaids1("en-GB"),
                             onPressedAmerican: () =>
                                 speakchambermaids1("en-US"),

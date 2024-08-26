@@ -159,8 +159,7 @@ class EnglishEntryconscious extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She's very conscious of the problems involved.",
-                            kurdishText:
-                                "زۆر بەئاگایە لەو کێشانەی لە ڕێگان.", // conscious",
+                            kurdishText: "زۆر بەئاگایە لەو کێشانەی لە ڕێگان.",
                             onPressedBritish: () => speakconsciouss1("en-GB"),
                             onPressedAmerican: () => speakconsciouss1("en-US"),
                           ),

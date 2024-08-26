@@ -139,7 +139,7 @@ class EnglishEntrybrilliance extends StatelessWidget {
                             englishText:
                                 "Her first novel showed signs of brilliance.",
                             kurdishText:
-                                "یەکەم ڕۆمانی ئاماژەی بلیمەتی تێدابوو.", // brilliance" as
+                                "یەکەم ڕۆمانی ئاماژەی بلیمەتی تێدابوو.",
                             onPressedBritish: () => speakbrilliances1("en-GB"),
                             onPressedAmerican: () => speakbrilliances1("en-US"),
                           ),

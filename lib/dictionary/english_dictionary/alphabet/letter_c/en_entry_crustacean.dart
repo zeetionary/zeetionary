@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The crab is a common crustacean found along the shore.",
-            kurdishText:
-                "قرژاڵ توێکڵدارێکی باوە کە لە کەنارەکاندا ھەیە.", // crustacean", please follow LX instructions
+            kurdishText: "قرژاڵ توێکڵدارێکی باوە کە لە کەنارەکاندا ھەیە.",
             onPressedBritish: () => speakcrustaceans1("en-GB"),
             onPressedAmerican: () => speakcrustaceans1("en-US"),
           ),

@@ -443,8 +443,7 @@ class EnglishEntrycarry extends StatelessWidget {
 ١. (کردار) ھەڵگرتن"""),
                           SentencesRow(
                             englishText: "He was carrying a large bag.",
-                            kurdishText:
-                                "تورەگەیەکی گەورەی ھەڵگرتبوو.", // carry",
+                            kurdishText: "تورەگەیەکی گەورەی ھەڵگرتبوو.",
                             onPressedBritish: () => speakcarrys1("en-GB"),
                             onPressedAmerican: () => speakcarrys1("en-US"),
                           ),

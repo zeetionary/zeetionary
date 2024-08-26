@@ -178,7 +178,7 @@ class EnglishEntrycensus extends StatelessWidget {
                             englishText:
                                 "A national census is taken every ten years.",
                             kurdishText:
-                                "سەرژمێرییەکی نیشتیمانی ھەر ١٠ ساڵ جارێک دەکرێت.", // census",
+                                "سەرژمێرییەکی نیشتیمانی ھەر ١٠ ساڵ جارێک دەکرێت.",
                             onPressedBritish: () => speakcensuss1("en-GB"),
                             onPressedAmerican: () => speakcensuss1("en-US"),
                           ),

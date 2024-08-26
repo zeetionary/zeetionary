@@ -184,7 +184,7 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
                             englishText:
                                 "They want their son to go to St Mary's, but they're not in the catchment area.",
                             kurdishText:
-                                "دەیانەوێت کوڕەکەیان بچێتە قوتابخانەی سەینت ماری، بەڵام لەو مەڵبەندە نین.", // catchment area",
+                                "دەیانەوێت کوڕەکەیان بچێتە قوتابخانەی سەینت ماری، بەڵام لەو مەڵبەندە نین.",
                             onPressedBritish: () =>
                                 speakcatchmentareas1("en-GB"),
                             onPressedAmerican: () =>

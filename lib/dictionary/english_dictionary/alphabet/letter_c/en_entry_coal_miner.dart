@@ -95,7 +95,7 @@ class EnglishEntrycoalminer extends StatelessWidget {
                             englishText:
                                 "Coal miners often faced dangerous working conditions.",
                             kurdishText:
-                                "کرێکارانی کانە خەڵووز زۆرجار ڕووبەڕووی دۆخی کارکردنی مەترسیدار دەبنەوە.", // coal miner",
+                                "کرێکارانی کانە خەڵووز زۆرجار ڕووبەڕووی دۆخی کارکردنی مەترسیدار دەبنەوە.",
                             onPressedBritish: () => speakcoalminers1("en-GB"),
                             onPressedAmerican: () => speakcoalminers1("en-US"),
                           ),

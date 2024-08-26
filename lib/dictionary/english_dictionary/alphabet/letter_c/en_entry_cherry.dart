@@ -100,8 +100,7 @@ class EnglishEntrycherry extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She placed a bowl of cherries on the table.",
-                            kurdishText:
-                                "دەفرێک گێلاسی لەسەر مێزەکە دانا.", // cherry",
+                            kurdishText: "دەفرێک گێلاسی لەسەر مێزەکە دانا.",
                             onPressedBritish: () => speakcherrys1("en-GB"),
                             onPressedAmerican: () => speakcherrys1("en-US"),
                           ),

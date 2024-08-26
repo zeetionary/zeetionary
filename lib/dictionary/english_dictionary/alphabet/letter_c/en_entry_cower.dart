@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A gun went off and people cowered behind walls and under tables.",
             kurdishText:
-                "چەکێک تەقەی ھات و خەڵکی لە پشتەوەی دیوارەکان و ژێر مێزەکان خۆیان مەڵاسدا.", // cower", please follow LX instructions
+                "چەکێک تەقەی ھات و خەڵکی لە پشتەوەی دیوارەکان و ژێر مێزەکان خۆیان مەڵاسدا.",
             onPressedBritish: () => speakcowers1("en-GB"),
             onPressedAmerican: () => speakcowers1("en-US"),
           ),

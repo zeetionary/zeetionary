@@ -178,8 +178,7 @@ class EnglishEntrycarrot extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "It's rather early to be sowing carrot seeds, isn't it?",
-                            kurdishText:
-                                "زووە بۆ ناشتنی تۆوی گێزەر، وانییە؟", // carrot",
+                            kurdishText: "زووە بۆ ناشتنی تۆوی گێزەر، وانییە؟",
                             onPressedBritish: () => speakcarrots1("en-GB"),
                             onPressedAmerican: () => speakcarrots1("en-US"),
                           ),

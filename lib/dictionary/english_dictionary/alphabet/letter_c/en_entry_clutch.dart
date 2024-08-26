@@ -179,7 +179,7 @@ class EnglishEntryclutch extends StatelessWidget {
                               text: "١. (کردار) گرتنی کەسێک/شتێک بە توندی"),
                           SentencesRow(
                             englishText: "He clutched the child to him.",
-                            kurdishText: "منداڵەکەی توند گرتبوو.", // clutch",
+                            kurdishText: "منداڵەکەی توند گرتبوو.",
                             onPressedBritish: () => speakclutchs1("en-GB"),
                             onPressedAmerican: () => speakclutchs1("en-US"),
                           ),

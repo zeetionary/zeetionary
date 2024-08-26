@@ -100,8 +100,7 @@ class EnglishEntrychubby extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Aah, look at his chubby little hands!",
-                            kurdishText:
-                                "ئاھ، سەیری دەستە خڕەڵەکانی بکە.", // chubby",
+                            kurdishText: "ئاھ، سەیری دەستە خڕەڵەکانی بکە.",
                             onPressedBritish: () => speakchubbys1("en-GB"),
                             onPressedAmerican: () => speakchubbys1("en-US"),
                           ),

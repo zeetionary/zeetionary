@@ -179,8 +179,7 @@ class EnglishEntrycadge extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I managed to cadge some money off my dad.",
-                            kurdishText:
-                                "توانیم ھەندێک پارە لە باوکم دەربێنم.", // cadge
+                            kurdishText: "توانیم ھەندێک پارە لە باوکم دەربێنم",
                             onPressedBritish: () => speakcadges1("en-GB"),
                             onPressedAmerican: () => speakcadges1("en-US"),
                           ),

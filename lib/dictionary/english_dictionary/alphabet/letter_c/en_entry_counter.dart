@@ -307,8 +307,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ڕوویەکی درێژی تەخت کە لەسەری شت دەفرۆشرێت یان کاری بازرگانی لە فرۆشگایەک، بانکێک، ھتد دەکرێت"),
           SentencesRow(
             englishText: "He pushed the money across the counter to me.",
-            kurdishText:
-                "پارەکەی بەسەر مێزەکەدا بۆم پاڵدا.", // counter", please follow LX instructions
+            kurdishText: "پارەکەی بەسەر مێزەکەدا بۆم پاڵدا.",
             onPressedBritish: () => speakcounters1("en-GB"),
             onPressedAmerican: () => speakcounters1("en-US"),
           ),

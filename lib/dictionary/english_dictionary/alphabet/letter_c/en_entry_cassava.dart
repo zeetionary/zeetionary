@@ -175,7 +175,7 @@ class EnglishEntrycassava extends StatelessWidget {
                             englishText:
                                 "During the cooking class, the chef demonstrated how to prepare a delicious stew using cassava as a key ingredient.",
                             kurdishText:
-                                "لە کاتی وانەی چێشت‌لێنانەکەدا، شێفەکە ڕوونی‌کردەوە کە چۆن ژەمێکی بەلەزەت درووست بکرێت بە بەکارھێنانی کساڤە وەک ڕەچەتەی سەرەکی.", // cassava",
+                                "لە کاتی وانەی چێشت‌لێنانەکەدا، شێفەکە ڕوونی‌کردەوە کە چۆن ژەمێکی بەلەزەت درووست بکرێت بە بەکارھێنانی کساڤە وەک ڕەچەتەی سەرەکی.",
                             onPressedBritish: () => speakcassavas1("en-GB"),
                             onPressedAmerican: () => speakcassavas1("en-US"),
                           ),

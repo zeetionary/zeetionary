@@ -313,7 +313,7 @@ class EnglishEntryclean extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) پاک"),
                           SentencesRow(
                             englishText: "Are your hands clean?",
-                            kurdishText: "دەستەکانی پاکن؟", // clean",
+                            kurdishText: "دەستەکانی پاکن؟",
                             onPressedBritish: () => speakcleans1("en-GB"),
                             onPressedAmerican: () => speakcleans1("en-US"),
                           ),

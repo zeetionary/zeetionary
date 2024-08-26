@@ -103,7 +103,7 @@ class EnglishEntrycongruent extends StatelessWidget {
                             englishText:
                                 "The two triangles were congruent, with all sides and angles matching.",
                             kurdishText:
-                                "دوو سێگۆشەکە وەکیەک بوون و لە ھەموو لا و گۆشەکانەوە یەکسان بوون.", // congruent",
+                                "دوو سێگۆشەکە وەکیەک بوون و لە ھەموو لا و گۆشەکانەوە یەکسان بوون.",
                             onPressedBritish: () => speakcongruents1("en-GB"),
                             onPressedAmerican: () => speakcongruents1("en-US"),
                           ),

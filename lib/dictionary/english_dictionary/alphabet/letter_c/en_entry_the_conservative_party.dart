@@ -99,7 +99,7 @@ class EnglishEntrytheconservativeparty extends StatelessWidget {
                             englishText:
                                 "The Conservative Party won the election and formed the new government in 2010.",
                             kurdishText:
-                                "پارتی پارێزگاران ھەڵبژاردنی بردەوە و حکومەتی پێکھێنا لە ساڵی ٢٠١٠.", // the Conservative Party",
+                                "پارتی پارێزگاران ھەڵبژاردنی بردەوە و حکومەتی پێکھێنا لە ساڵی ٢٠١٠.",
                             onPressedBritish: () =>
                                 speaktheConservativePartys1("en-GB"),
                             onPressedAmerican: () =>

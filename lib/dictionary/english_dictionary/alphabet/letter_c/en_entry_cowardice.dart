@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ترس، یان نەبوونی بوێری"),
           SentencesRow(
             englishText: "She was ashamed of her cowardice.",
-            kurdishText:
-                "شەرمەزار بوو بە ترسنۆکییەکەی.", // cowardice", please follow LX instructions
+            kurdishText: "شەرمەزار بوو بە ترسنۆکییەکەی.",
             onPressedBritish: () => speakcowardices1("en-GB"),
             onPressedAmerican: () => speakcowardices1("en-US"),
           ),

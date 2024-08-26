@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە بوێر نییە یان زاتی ئەوەی نییە کە ئەو شتانە بکات کە کەسانی دیکە وا ھەست ناکەن زۆر سەخت بێت"),
           SentencesRow(
             englishText: "You coward! What are you afraid of?",
-            kurdishText:
-                "ترسنۆک، لە چ دەترسیت؟", // coward", please follow LX instructions
+            kurdishText: "ترسنۆک، لە چ دەترسیت؟",
             onPressedBritish: () => speakcowards1("en-GB"),
             onPressedAmerican: () => speakcowards1("en-US"),
           ),

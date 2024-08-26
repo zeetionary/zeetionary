@@ -94,7 +94,7 @@ class EnglishEntryconcentric extends StatelessWidget {
                             englishText:
                                 "The target consisted of concentric circles, each worth different points.",
                             kurdishText:
-                                "ئامانجەکە لە بازنەی ھاوناوەند پێکھاتبوو، ھەر یەکەیان خاڵی جیاوازی لەسەربوو.", // concentric",
+                                "ئامانجەکە لە بازنەی ھاوناوەند پێکھاتبوو، ھەر یەکەیان خاڵی جیاوازی لەسەربوو.",
                             onPressedBritish: () => speakconcentrics1("en-GB"),
                             onPressedAmerican: () => speakconcentrics1("en-US"),
                           ),

@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Many see teaching as a cushy job, but it comes with its challenges.",
             kurdishText:
-                "زۆر کەس مامۆستایەتی بە کارێکی ئاسان دەبینن، بەڵام سەختی خۆی ھەیە.", // cushy", please follow LX instructions
+                "زۆر کەس مامۆستایەتی بە کارێکی ئاسان دەبینن، بەڵام سەختی خۆی ھەیە.",
             onPressedBritish: () => speakcushys1("en-GB"),
             onPressedAmerican: () => speakcushys1("en-US"),
           ),

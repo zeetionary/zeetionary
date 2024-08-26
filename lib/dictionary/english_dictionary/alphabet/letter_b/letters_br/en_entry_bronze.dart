@@ -139,8 +139,7 @@ class EnglishEntrybronze extends StatelessWidget {
                                   "١. (ناو) کانزایەکی سووری قاوەیی باو درووست دەکرێت بە تێکەڵکردنی مس و قەڵای"),
                           SentencesRow(
                             englishText: "The figure was cast in bronze.",
-                            kurdishText:
-                                "پەیکەرەکە لە برۆنز درووست کرابوو.", // bronze" as
+                            kurdishText: "پەیکەرەکە لە برۆنز درووست کرابوو.",
                             onPressedBritish: () => speakbronzes1("en-GB"),
                             onPressedAmerican: () => speakbronzes1("en-US"),
                           ),

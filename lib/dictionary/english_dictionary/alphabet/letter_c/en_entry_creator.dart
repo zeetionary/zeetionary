@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە درووستکار یان داھێنەری شتێکی دیاریکراەو"),
           SentencesRow(
             englishText: "He's the creator of a successful cartoon series.",
-            kurdishText:
-                "درووستکاری زنجیرە کارتۆنێکی سەرکەوتووە.", // creator", please follow LX instructions
+            kurdishText: "درووستکاری زنجیرە کارتۆنێکی سەرکەوتووە.",
             onPressedBritish: () => speakcreators1("en-GB"),
             onPressedAmerican: () => speakcreators1("en-US"),
           ),

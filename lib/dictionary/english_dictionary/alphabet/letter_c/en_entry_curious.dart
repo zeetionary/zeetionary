@@ -283,8 +283,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ھەبوونی حەزێکی زۆر بۆ زانین سەبارەت بە شتێک"),
           SentencesRow(
             englishText: "He is such a curious boy, always asking questions.",
-            kurdishText:
-                "کوڕێکی زۆر زانین‌خوازە و ھەمیشە پرسیار دەکات.", // curious", please follow LX instructions
+            kurdishText: "کوڕێکی زۆر زانین‌خوازە و ھەمیشە پرسیار دەکات.",
             onPressedBritish: () => speakcuriouss1("en-GB"),
             onPressedAmerican: () => speakcuriouss1("en-US"),
           ),

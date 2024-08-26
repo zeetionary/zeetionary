@@ -134,7 +134,7 @@ class EnglishEntryconcession extends StatelessWidget {
                             englishText:
                                 "The firm will be forced to make concessions if it wants to avoid a strike.",
                             kurdishText:
-                                "کۆمپانیاکە ناچار دەبێت مل‌کەچ بکات ئەگەر بیەوێت ڕێگا لە مانگرتنێک بگرێت.", // concession",
+                                "کۆمپانیاکە ناچار دەبێت مل‌کەچ بکات ئەگەر بیەوێت ڕێگا لە مانگرتنێک بگرێت.",
                             onPressedBritish: () => speakconcessions1("en-GB"),
                             onPressedAmerican: () => speakconcessions1("en-US"),
                           ),

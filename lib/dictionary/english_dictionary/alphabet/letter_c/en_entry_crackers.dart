@@ -235,8 +235,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) شێت، دەلوو"),
           SentencesRow(
             englishText: "That noise is driving me crackers.",
-            kurdishText:
-                "ژاوەژاوەکە شێتم دەکات.", // crackers", please follow LX instructions
+            kurdishText: "ژاوەژاوەکە شێتم دەکات.",
             onPressedBritish: () => speakcrackerss1("en-GB"),
             onPressedAmerican: () => speakcrackerss1("en-US"),
           ),

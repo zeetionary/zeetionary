@@ -139,7 +139,7 @@ class EnglishEntryconsume extends StatelessWidget {
                             englishText:
                                 "The electricity industry consumes large amounts of fossil fuels.",
                             kurdishText:
-                                "پیشەسازی کارەبا ڕێژەیەکی زۆر لە سووتەمەنی بەبەردبوو بەکاردێنێت.", // consume",
+                                "پیشەسازی کارەبا ڕێژەیەکی زۆر لە سووتەمەنی بەبەردبوو بەکاردێنێت.",
                             onPressedBritish: () => speakconsumes1("en-GB"),
                             onPressedAmerican: () => speakconsumes1("en-US"),
                           ),

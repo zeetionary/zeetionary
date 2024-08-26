@@ -100,7 +100,7 @@ class EnglishEntryclassy extends StatelessWidget {
                           SentencesRow(
                             englishText: "The car was a classy German make.",
                             kurdishText:
-                                "ئۆتۆمبێلەکە درووستکراوێکی گران‌بەھای ئەڵمانی بوو.", // classy",
+                                "ئۆتۆمبێلەکە درووستکراوێکی گران‌بەھای ئەڵمانی بوو.",
                             onPressedBritish: () => speakclassys1("en-GB"),
                             onPressedAmerican: () => speakclassys1("en-US"),
                           ),

@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The cemetery was surrounded by a row of tall cypress trees.",
             kurdishText:
-                "گۆڕستانەکە دەوردرابوو بە ڕیزێک لە درەختی سایپرسی درێژ.", // cypress", please follow LX instructions
+                "گۆڕستانەکە دەوردرابوو بە ڕیزێک لە درەختی سایپرسی درێژ.",
             onPressedBritish: () => speakcypresss1("en-GB"),
             onPressedAmerican: () => speakcypresss1("en-US"),
           ),

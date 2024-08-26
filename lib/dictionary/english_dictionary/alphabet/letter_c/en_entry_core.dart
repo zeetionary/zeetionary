@@ -176,7 +176,7 @@ class EnglishEntrycore extends StatelessWidget {
                             englishText:
                                 "Dutch paintings form the core of the collection.",
                             kurdishText:
-                                "تابلۆ ھۆڵەندییەکان ناوەندی کۆمەڵەکە پێکدێنن.", // core",
+                                "تابلۆ ھۆڵەندییەکان ناوەندی کۆمەڵەکە پێکدێنن.",
                             onPressedBritish: () => speakcores1("en-GB"),
                             onPressedAmerican: () => speakcores1("en-US"),
                           ),

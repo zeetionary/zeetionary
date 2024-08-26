@@ -180,7 +180,7 @@ class EnglishEntrycatchphrase extends StatelessWidget {
                             englishText:
                                 "What we need now is a catchphrase for the marketing campaign.",
                             kurdishText:
-                                "پێویستیمان بە وێردێکی سەرزمانە بۆ کەمپینی بەبازاڕکردنمان.", // catchphrase",
+                                "پێویستیمان بە وێردێکی سەرزمانە بۆ کەمپینی بەبازاڕکردنمان.",
                             onPressedBritish: () => speakcatchphrases1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcatchphrases1("en-US"),

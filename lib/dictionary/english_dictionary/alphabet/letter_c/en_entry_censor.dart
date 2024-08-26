@@ -180,7 +180,7 @@ class EnglishEntrycensor extends StatelessWidget {
                             englishText:
                                 "Military censors prevented the publication of some details.",
                             kurdishText:
-                                "چاودێرانی سەربازی ڕێگریان لە بڵاوبوونەوەی ھەندێک وردەکاری کرد.", // censor",
+                                "چاودێرانی سەربازی ڕێگریان لە بڵاوبوونەوەی ھەندێک وردەکاری کرد.",
                             onPressedBritish: () => speakcensors1("en-GB"),
                             onPressedAmerican: () => speakcensors1("en-US"),
                           ),

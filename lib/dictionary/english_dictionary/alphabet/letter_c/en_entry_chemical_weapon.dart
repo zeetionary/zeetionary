@@ -91,7 +91,7 @@ class EnglishEntrychemicalweapon extends StatelessWidget {
                             englishText:
                                 "The use of chemical weapons in the conflict violated international law.",
                             kurdishText:
-                                "بەکارھێنانی چەکی کیمیایی لە جەنگەکەدا دژ بە یاسای نێودەوڵەتی بوو.", // chemical weapon",
+                                "بەکارھێنانی چەکی کیمیایی لە جەنگەکەدا دژ بە یاسای نێودەوڵەتی بوو.",
                             onPressedBritish: () =>
                                 speakchemicalweapons1("en-GB"),
                             onPressedAmerican: () =>

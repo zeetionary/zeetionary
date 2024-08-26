@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Everyone should enjoy the right of access to the countryside.",
-            kurdishText:
-                "ھەموان دەبێت مافی چوونە ناو دەشت‌ودەریان ھەبێت.", // countryside", please follow LX instructions
+            kurdishText: "ھەموان دەبێت مافی چوونە ناو دەشت‌ودەریان ھەبێت.",
             onPressedBritish: () => speakcountrysides1("en-GB"),
             onPressedAmerican: () => speakcountrysides1("en-US"),
           ),

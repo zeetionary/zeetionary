@@ -110,7 +110,7 @@ class EnglishEntryconsensus extends StatelessWidget {
                             englishText:
                                 "There is a growing consensus of opinion on this issue.",
                             kurdishText:
-                                "یەکدەنگییەکی زیادبووی بۆچوون ھەیە لەسەر ئەم بابەتە.", // consensus",
+                                "یەکدەنگییەکی زیادبووی بۆچوون ھەیە لەسەر ئەم بابەتە.",
                             onPressedBritish: () => speakconsensuss1("en-GB"),
                             onPressedAmerican: () => speakconsensuss1("en-US"),
                           ),

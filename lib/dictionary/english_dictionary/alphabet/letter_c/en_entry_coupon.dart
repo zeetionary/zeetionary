@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Cut out and return this coupon to claim your free holiday.",
             kurdishText:
-                "ئەم کوپۆنە ببڕە و بیگەڕینەوە بۆ بەدەستھێنانی پشووی بێ‌بەرامبەرت.", // coupon", please follow LX instructions
+                "ئەم کوپۆنە ببڕە و بیگەڕینەوە بۆ بەدەستھێنانی پشووی بێ‌بەرامبەرت.",
             onPressedBritish: () => speakcoupons1("en-GB"),
             onPressedAmerican: () => speakcoupons1("en-US"),
           ),

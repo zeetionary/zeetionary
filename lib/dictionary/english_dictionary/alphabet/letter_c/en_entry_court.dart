@@ -344,8 +344,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) دادگا"),
           SentencesRow(
             englishText: "Her lawyer made a statement outside the court.",
-            kurdishText:
-                "پارێزەرەکەی لێدوانێکی لە دەرەوەی دادگا دا.", // court", please follow LX instructions
+            kurdishText: "پارێزەرەکەی لێدوانێکی لە دەرەوەی دادگا دا.",
             onPressedBritish: () => speakcourts1("en-GB"),
             onPressedAmerican: () => speakcourts1("en-US"),
           ),

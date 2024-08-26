@@ -231,7 +231,7 @@ class EnglishEntrybreathe extends StatelessWidget {
                             englishText:
                                 "He breathed deeply before speaking again.",
                             kurdishText:
-                                "بە قووڵی ھەناسەی دا پێش ئەوەی دووبارە قسەبکاتەوە.", // breathe" as
+                                "بە قووڵی ھەناسەی دا پێش ئەوەی دووبارە قسەبکاتەوە.",
                             onPressedBritish: () => speakbreathes1("en-GB"),
                             onPressedAmerican: () => speakbreathes1("en-US"),
                           ),

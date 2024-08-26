@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The CPU is often referred to as the \"brain\" of the computer.",
             kurdishText:
-                "ڕێکخەری ناوەندی زۆرجار پێی دەگوترێت 'مێشکی' کۆمپیوتەر.", // CPU", please follow LX instructions
+                "ڕێکخەری ناوەندی زۆرجار پێی دەگوترێت 'مێشکی' کۆمپیوتەر.",
             onPressedBritish: () => speakCPUs1("en-GB"),
             onPressedAmerican: () => speakCPUs1("en-US"),
           ),

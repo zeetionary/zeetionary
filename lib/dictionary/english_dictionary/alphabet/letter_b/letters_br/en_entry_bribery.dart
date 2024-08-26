@@ -136,8 +136,7 @@ class EnglishEntrybribery extends StatelessWidget {
                               text: "١. (ناو) پێدان یان وەرگرتنی بەرتیل"),
                           SentencesRow(
                             englishText: "She was arrested on bribery charges.",
-                            kurdishText:
-                                "دەستگیرکرا بە تۆمەتی بەرتیل‌خۆری.", // bribery" as
+                            kurdishText: "دەستگیرکرا بە تۆمەتی بەرتیل‌خۆری.",
                             onPressedBritish: () => speakbriberys1("en-GB"),
                             onPressedAmerican: () => speakbriberys1("en-US"),
                           ),

@@ -325,8 +325,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ڕوودان لە ئێستادا؛ پەیوەندیدار بە ئێستا"),
           SentencesRow(
             englishText: "Oil prices are expected to remain at current levels.",
-            kurdishText:
-                "نرخی نەوت پێشبینی دەکرێت لە ئاستی ئێستادا بمێنێتەوە.", // current", please follow LX instructions
+            kurdishText: "نرخی نەوت پێشبینی دەکرێت لە ئاستی ئێستادا بمێنێتەوە.",
             onPressedBritish: () => speakcurrents1("en-GB"),
             onPressedAmerican: () => speakcurrents1("en-US"),
           ),

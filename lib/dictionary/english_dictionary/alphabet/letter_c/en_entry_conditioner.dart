@@ -95,7 +95,7 @@ class EnglishEntryconditioner extends StatelessWidget {
                             englishText:
                                 "She uses a conditioner to keep her hair soft and tangle-free.",
                             kurdishText:
-                                "خاوکەرەوەیەک بەکاردێنێت بۆ پاراستنی قژی بە خاوی و بێ ئاڵۆسکاوی.", // conditioner",
+                                "خاوکەرەوەیەک بەکاردێنێت بۆ پاراستنی قژی بە خاوی و بێ ئاڵۆسکاوی.",
                             onPressedBritish: () => speakconditioners1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconditioners1("en-US"),

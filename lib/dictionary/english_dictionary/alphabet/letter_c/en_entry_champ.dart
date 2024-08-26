@@ -101,7 +101,7 @@ class EnglishEntrychamp extends StatelessWidget {
                             englishText:
                                 "The horse champed eagerly on the fresh hay.",
                             kurdishText:
-                                "ئەسپەکە کاوێژی دەکرد لە وێنجە تازەکەدا.", // champ",
+                                "ئەسپەکە کاوێژی دەکرد لە وێنجە تازەکەدا.",
                             onPressedBritish: () => speakchamps1("en-GB"),
                             onPressedAmerican: () => speakchamps1("en-US"),
                           ),

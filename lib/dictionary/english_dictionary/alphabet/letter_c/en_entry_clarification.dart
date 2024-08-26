@@ -100,7 +100,7 @@ class EnglishEntryclarification extends StatelessWidget {
                             englishText:
                                 "I am seeking clarification of the regulations.",
                             kurdishText:
-                                "ڕوونکردنەوەم لەسەر ڕێوشوێنەکان دەوێت.", // clarification",
+                                "ڕوونکردنەوەم لەسەر ڕێوشوێنەکان دەوێت.",
                             onPressedBritish: () =>
                                 speakclarifications1("en-GB"),
                             onPressedAmerican: () =>

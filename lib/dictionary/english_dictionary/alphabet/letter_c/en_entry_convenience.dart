@@ -135,7 +135,7 @@ class EnglishEntryconvenience extends StatelessWidget {
                             englishText:
                                 "We have provided seats for the convenience of our customers.",
                             kurdishText:
-                                "جێگامان دابینکردووە بۆ ئاسوودەیی کڕیارانمان.", // convenience",
+                                "جێگامان دابینکردووە بۆ ئاسوودەیی کڕیارانمان.",
                             onPressedBritish: () => speakconveniences1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconveniences1("en-US"),

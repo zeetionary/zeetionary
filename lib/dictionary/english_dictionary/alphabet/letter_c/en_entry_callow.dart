@@ -180,7 +180,7 @@ class EnglishEntrycallow extends StatelessWidget {
                             englishText:
                                 "Mark was just a callow youth of 16 when he arrived in Paris.",
                             kurdishText:
-                                "مارک تەنھا گەنجێکی بێ‌ئەزموونی ١٦ ساڵان بوو کە گەشتە پاریس.", // callow
+                                "مارک تەنھا گەنجێکی بێ‌ئەزموونی ١٦ ساڵان بوو کە گەشتە پاریس",
                             onPressedBritish: () => speakcallows1("en-GB"),
                             onPressedAmerican: () => speakcallows1("en-US"),
                           ),

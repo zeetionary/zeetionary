@@ -251,7 +251,7 @@ class EnglishEntrycolour extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ناو) ڕەنگ"),
                           SentencesRow(
                             englishText: "What's your favourite colour?",
-                            kurdishText: "ڕەنگی دڵخوازت چییە؟", // colour",
+                            kurdishText: "ڕەنگی دڵخوازت چییە؟",
                             onPressedBritish: () => speakcolours1("en-GB"),
                             onPressedAmerican: () => speakcolours1("en-US"),
                           ),

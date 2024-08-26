@@ -176,7 +176,7 @@ class EnglishEntrycarat extends StatelessWidget {
                             englishText:
                                 "The engagement ring featured a stunning diamond of two carats.",
                             kurdishText:
-                                "ئەڵقەی ھاوسەرگیرییەکە پێکھاتبوو لە ئەڵماسێکی دوو قیراتی سەرنجڕاکێش.", // carat",
+                                "ئەڵقەی ھاوسەرگیرییەکە پێکھاتبوو لە ئەڵماسێکی دوو قیراتی سەرنجڕاکێش.",
                             onPressedBritish: () => speakcarats1("en-GB"),
                             onPressedAmerican: () => speakcarats1("en-US"),
                           ),

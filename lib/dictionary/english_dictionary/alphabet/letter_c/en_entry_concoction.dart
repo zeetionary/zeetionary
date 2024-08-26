@@ -94,7 +94,7 @@ class EnglishEntryconcoction extends StatelessWidget {
                             englishText:
                                 "He gave me some of his herbal concoction when I had toothache.",
                             kurdishText:
-                                "ھەندێک لە تێکەڵە ڕووەکییەکانیی داپێم کە ددانێشەم بوو.", // concoction",
+                                "ھەندێک لە تێکەڵە ڕووەکییەکانیی داپێم کە ددانێشەم بوو.",
                             onPressedBritish: () => speakconcoctions1("en-GB"),
                             onPressedAmerican: () => speakconcoctions1("en-US"),
                           ),

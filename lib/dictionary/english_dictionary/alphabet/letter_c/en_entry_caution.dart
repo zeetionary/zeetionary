@@ -184,7 +184,7 @@ class EnglishEntrycaution extends StatelessWidget {
                             englishText:
                                 "Statistics should be treated with caution.",
                             kurdishText:
-                                "ئامارەکان دەبێت بە پارێزەەو وەربگیردرێن.", // caution",
+                                "ئامارەکان دەبێت بە پارێزەەو وەربگیردرێن.",
                             onPressedBritish: () => speakcautions1("en-GB"),
                             onPressedAmerican: () => speakcautions1("en-US"),
                           ),

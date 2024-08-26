@@ -109,7 +109,7 @@ class EnglishEntryconvoy extends StatelessWidget {
                             englishText:
                                 "A United Nations aid convoy loaded with food and medicine finally got through to the besieged town.",
                             kurdishText:
-                                "کاروانێکی یارمەتیدەری پڕ لە خۆراک و دەرمانی نەتەوە یەکگرتووەکان لەکۆتاییدا گەشت بە شارۆچکە گەمارۆدراوەکە.", // convoy",
+                                "کاروانێکی یارمەتیدەری پڕ لە خۆراک و دەرمانی نەتەوە یەکگرتووەکان لەکۆتاییدا گەشت بە شارۆچکە گەمارۆدراوەکە.",
                             onPressedBritish: () => speakconvoys1("en-GB"),
                             onPressedAmerican: () => speakconvoys1("en-US"),
                           ),

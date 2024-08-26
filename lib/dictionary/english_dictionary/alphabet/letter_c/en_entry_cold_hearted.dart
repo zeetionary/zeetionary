@@ -94,7 +94,7 @@ class EnglishEntrycoldhearted extends StatelessWidget {
                             englishText:
                                 "The dictator's cold-hearted policies caused suffering for many.",
                             kurdishText:
-                                "سیاسەتی دڵڕەقانەی دیکتاتۆرەکە بوو بە ھۆی ئازار بۆ زۆر کەس.", // cold-hearted",
+                                "سیاسەتی دڵڕەقانەی دیکتاتۆرەکە بوو بە ھۆی ئازار بۆ زۆر کەس.",
                             onPressedBritish: () => speakcoldhearteds1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcoldhearteds1("en-US"),

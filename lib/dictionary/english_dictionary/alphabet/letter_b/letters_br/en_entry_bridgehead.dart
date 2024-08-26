@@ -139,7 +139,7 @@ class EnglishEntrybridgehead extends StatelessWidget {
                             englishText:
                                 "The advance troops established a bridgehead early in the fighting.",
                             kurdishText:
-                                "ھێزە پێشڕەوەکان سەنگەرێکیان قایمکرد لە سەرەتای جەنگەکەدا.", // bridgehead" as
+                                "ھێزە پێشڕەوەکان سەنگەرێکیان قایمکرد لە سەرەتای جەنگەکەدا.",
                             onPressedBritish: () => speakbridgeheads1("en-GB"),
                             onPressedAmerican: () => speakbridgeheads1("en-US"),
                           ),

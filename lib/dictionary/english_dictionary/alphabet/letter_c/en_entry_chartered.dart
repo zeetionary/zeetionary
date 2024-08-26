@@ -102,7 +102,7 @@ class EnglishEntrychartered extends StatelessWidget {
                             englishText:
                                 "I'm training to be a chartered accountant.",
                             kurdishText:
-                                "ڕاھێنان دەکەم بۆ بوون بە ژمێریارێکی دانپێدانراو.", // chartered",
+                                "ڕاھێنان دەکەم بۆ بوون بە ژمێریارێکی دانپێدانراو.",
                             onPressedBritish: () => speakchartereds1("en-GB"),
                             onPressedAmerican: () => speakchartereds1("en-US"),
                           ),

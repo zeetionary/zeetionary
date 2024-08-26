@@ -5164,61 +5164,61 @@ final Map<String, List<String>> filterItemsByLetter = {
     "dog-eared",
     "doghouse",
     "dog-tired",
-    "dogged", // dogged
-    "doggedly", // doggedly
-    "dogma", // dogma
-    "dogmatic", // dogmatic
-    "dogmatically", // dogmatically
-    "dogsbody", // dogsbody
-    "doldrums", // doldrums
-    "dole", // dole
-    "doleful", // doleful
-    "dolefully", // dolefully
-    "doll", // doll
-    "dollar", // dollar
-    "dollop", // dollop
-    "dolphin", // dolphin
-    "domain", // domain
+    "dogged",
+    "doggedly",
+    "dogma",
+    "dogmatic",
+    "dogmatically",
+    "dogsbody",
+    "doldrums",
+    "dole",
+    "doleful",
+    "dolefully",
+    "doll",
+    "dollar",
+    "dollop",
+    "dolphin",
+    "domain",
     "domain name",
     "dome",
     "domestic",
     "domesticated",
     "domestic science",
-    "dominance", // dominance
-    "dominant", // dominant
-    "dominate", // dominate
-    "domination", // domination
-    "domineering", // domineering
-    "dominion", // dominion
-    "domino", // domino
-    "don", // don
-    "donate", // donate
-    "donation", // donation
-    "done", // done
-    "donkey", // donkey
-    "donor", // donor
-    "doodle", // doodle
-    "doom", // doom
-    "doomed", // doomed
-    "doomsday", // doomsday
-    "door", // door
-    "doorbell", // doorbell
-    "doorstep", // doorstep
-    "doorway", // doorway
-    "dope", // dope
-    "dopey", // dopey
-    "dormant", // dormant
-    "dormitory", // dormitory
-    "dormouse", // dormouse
-    "dosage", // dosage
-    "dose", // dose
-    "doss", // doss
-    "dosshouse", // dosshouse
-    "dossier", // dossier
-    "dot", // dot
-    "dot-com", // dotcom
-    "dotage", // dotage
-    "double", // double
+    "dominance",
+    "dominant",
+    "dominate",
+    "domination",
+    "domineering",
+    "dominion",
+    "domino",
+    "don",
+    "donate",
+    "donation",
+    "done",
+    "donkey",
+    "donor",
+    "doodle",
+    "doom",
+    "doomed",
+    "doomsday",
+    "door",
+    "doorbell",
+    "doorstep",
+    "doorway",
+    "dope",
+    "dopey",
+    "dormant",
+    "dormitory",
+    "dormouse",
+    "dosage",
+    "dose",
+    "doss",
+    "dosshouse",
+    "dossier",
+    "dot",
+    "dot-com",
+    "dotage",
+    "double",
     "double bass",
     "double chin",
     "double-dealing",
@@ -5235,17 +5235,17 @@ final Map<String, List<String>> filterItemsByLetter = {
     "double glazing",
     "double-jointed",
     "double-quick",
-    "doubly", // doubly",
-    "doubt", // doubt",
-    "doubtful", // doubtful",
-    "doubtless", // doubtless",
-    "dough", // dough",
-    "doughnut", // doughnut",
-    "douse", // douse",
-    "dove", // dove",
-    "dovecot", // dovecot",
-    "dovetail", // dovetail",
-    "dowdy", // dowdy",
+    "doubly",
+    "doubt",
+    "doubtful",
+    "doubtless",
+    "dough",
+    "doughnut",
+    "douse",
+    "dove",
+    "dovecot",
+    "dovetail",
+    "dowdy",
     "down", // down,
     "down-and-out",
     "down-to-earth",
@@ -5256,1911 +5256,1911 @@ final Map<String, List<String>> filterItemsByLetter = {
     "downhearted", // english-downhearted
     "downhill", // english-downhill
     "Downing Street",
-    "download", // download
-    "downloadable", // downloadable
-    "downpour", // downpour
-    "downright", // downright
+    "download",
+    "downloadable",
+    "downpour",
+    "downright",
     "downriver",
-    "downs", // downs
-    "downspout", // downspout
+    "downs",
+    "downspout",
     "Down's syndrome",
-    "downstairs", // downstairs
-    "downstream", // downstream
-    "downtown", // downtown
-    "downtrodden", // downtrodden
-    "downward", // downward
-    "downwards", // downwards
-    "dowry", // dowry
-    "doze", // doze
-    "dozy", // dozy
-    "dozen", // dozen
-    "drab", // drab
-    "drabness", // drabness
-    "draft", // draft
-    "draftsman", // draftsman
+    "downstairs",
+    "downstream",
+    "downtown",
+    "downtrodden",
+    "downward",
+    "downwards",
+    "dowry",
+    "doze",
+    "dozy",
+    "dozen",
+    "drab",
+    "drabness",
+    "draft",
+    "draftsman",
     "draftswoman",
-    "drafty", // drafty
-    "drag", // drag
-    "dragon", // dragon
-    "drain", // drain
-    "drainage", // drainage
+    "drafty",
+    "drag",
+    "dragon",
+    "drain",
+    "drainage",
     "drainboard",
     "draining board",
-    "drainpipe", // drainpipe",
-    "drake", // drake",
-    "drama", // drama",
-    "dramatic", // dramatic",
-    "dramatically", // dramatically",
-    "dramatist", // dramatist",
-    "dramatization", // dramatization",
-    "dramatize", // dramatize",
-    "drape", // drape",
-    "drapery", // drapery",
-    "drastic", // drastic",
-    "drastically", // drastically",
-    "draught", // draught
+    "drainpipe",
+    "drake",
+    "drama",
+    "dramatic",
+    "dramatically",
+    "dramatist",
+    "dramatization",
+    "dramatize",
+    "drape",
+    "drapery",
+    "drastic",
+    "drastically",
+    "draught",
     "draughtsman",
     "draughtswoman",
     "draughty",
-    "draw", // draw",
-    "drawback", // drawback",
-    "drawer", // drawer",
-    "drawing", // drawing",
+    "draw",
+    "drawback",
+    "drawer",
+    "drawing",
     "drawing pin",
     "drawing room",
-    "drawl", // drawl
-    "drawn", // drawn
-    "dread", // dread
-    "dreaded", // dreaded
-    "dreadful", // dreadful
-    "dreadfully", // dreadfully
-    "dream", // dream
-    "dreamer", // dreamer
-    "dreamily", // dreamily
-    "dreamless", // dreamless
-    "dreamlike", // dreamlike
-    "dreamy", // dreamy
-    "drearily", // drearily
-    "dreariness", // dreariness
-    "dreary", // dreary
-    "dredge", // dredge
-    "dredger", // dredger
-    "dregs", // dregs
-    "drench", // drench
-    "dress", // dress
-    "dressmaker", // dressmaker
+    "drawl",
+    "drawn",
+    "dread",
+    "dreaded",
+    "dreadful",
+    "dreadfully",
+    "dream",
+    "dreamer",
+    "dreamily",
+    "dreamless",
+    "dreamlike",
+    "dreamy",
+    "drearily",
+    "dreariness",
+    "dreary",
+    "dredge",
+    "dredger",
+    "dregs",
+    "drench",
+    "dress",
+    "dressmaker",
     "dress rehearsal",
-    "dresser", // dresser
-    "dressing", // dressing
+    "dresser",
+    "dressing",
     "dressing gown", // dressing-gown // ffff dressing gown
     "dressing table", // dressing-table // ffff dressing table
-    "dribble", // dribble
+    "dribble",
     "drier",
-    "drift", // drift
-    "drifter", // drifter
-    "drill", // drill
+    "drift",
+    "drifter",
+    "drill",
     "drily",
-    "drink", // drink
-    "drinkable", // drinkable
-    "drinker", // drinker
-    "drip", // drip
+    "drink",
+    "drinkable",
+    "drinker",
+    "drip",
     "drip-dry", // drip-dry // ffff drip-dry
-    "dripping", // dripping
-    "drive", // drive
+    "dripping",
+    "drive",
     "drive-by", // drive-by // ffff drive-by
     "drive-in", // drive-in // ffff drive-in
-    "driver", // driver
+    "driver",
     "driveway",
     "driving licence", // driving-licence // ffff driving licence
     "driving test", // driving-test // ffff driving test
-    "drivel", // drivel
-    "drizzle", // drizzle
-    "drone", // drone
-    "drool", // drool
-    "droop", // droop
-    "drop", // drop
+    "drivel",
+    "drizzle",
+    "drone",
+    "drool",
+    "droop",
+    "drop",
     "drop cloth",
     "drop-down menu", // drop-down-menu // ffff drop-down menu
-    "dropout", // dropout
-    "droppings", // droppings
-    "drought", // drought
-    "drove", // drove
-    "drown", // drown
-    "drowsily", // drowsily
-    "drowsiness", // drowsiness
-    "drowsy", // drowsy
-    "drudge", // drudge
-    "drudgery", // drudgery
-    "drug", // drug
-    "drugstore", // drugstore
-    "drum", // drum
-    "drummer", // drummer
-    "drumstick", // drumstick
-    "drunk", // drunk
-    "drunken", // drunken
-    "drunkenness", // drunkenness
-    "dry", // dry
+    "dropout",
+    "droppings",
+    "drought",
+    "drove",
+    "drown",
+    "drowsily",
+    "drowsiness",
+    "drowsy",
+    "drudge",
+    "drudgery",
+    "drug",
+    "drugstore",
+    "drum",
+    "drummer",
+    "drumstick",
+    "drunk",
+    "drunken",
+    "drunkenness",
+    "dry",
     "dry-clean", // dry-clean // ffff dry-clean
     "dry-cleaner’s",
     "dry-cleaning", // dry-cleaning // ffff dry-cleaning
     "dry dock", // dry-dock // ffff dry dock
-    "dryer", // dryer
-    "dryly", // dryly
-    "dryness", // dryness
+    "dryer",
+    "dryly",
+    "dryness",
     "dry rot", // dry-rot // ffff dry rot
-    "dual", // dual
+    "dual",
     "dual carriageway", // dual-carriageway // فففف dual carriageway
-    "dub", // dub
-    "dubious", // dubious
-    "dubiously", // dubiously
-    "duchess", // duchess
-    "duchy", // duchy
-    "duck", // duck
-    "duckling", // duckling
-    "duct", // duct
-    "dud", // dud
-    "due", // due
-    "duel", // duel
-    "duet", // duet
+    "dub",
+    "dubious",
+    "dubiously",
+    "duchess",
+    "duchy",
+    "duck",
+    "duckling",
+    "duct",
+    "dud",
+    "due",
+    "duel",
+    "duet",
     "duffel coat", // duffel-coat // فففف duffel coat
-    "dugout", // dugout
-    "duke", // duke
-    "dukedom", // dukedom
-    "dull", // dull
-    "dullness", // dullness
-    "dully", // dully
-    "duly", // duly
-    "dumb", // dumb
-    "dumbly", // dumbly
-    "dumbness", // dumbness
-    "dumbfounded", // dumbfounded
-    "dummy", // dummy
+    "dugout",
+    "duke",
+    "dukedom",
+    "dull",
+    "dullness",
+    "dully",
+    "duly",
+    "dumb",
+    "dumbly",
+    "dumbness",
+    "dumbfounded",
+    "dummy",
     "dummy run", // dummy-run // ffff dummy run
-    "dump", // dump
+    "dump",
     "dumper truck", // dumper-truck // فففف dumper truck
-    "dumpling", // dumpling
-    "dumpy", // dumpy
-    "dunce", // dunce
-    "dune", // dune
-    "dung", // dung
-    "dungarees", // dungarees
-    "dungeon", // dungeon
-    "dunk", // dunk
-    "duo", // duo
-    "dupe", // dupe
-    "duplex", // duplex
-    "duplicate", // duplicate
-    "duplication", // duplication
-    "durable", // durable
+    "dumpling",
+    "dumpy",
+    "dunce",
+    "dune",
+    "dung",
+    "dungarees",
+    "dungeon",
+    "dunk",
+    "duo",
+    "dupe",
+    "duplex",
+    "duplicate",
+    "duplication",
+    "durable",
     "durables",
     "durable goods", // durable-goods // ffff durable-goods
-    "duration", // duration
-    "duress", // duress
-    "during", // during
-    "dusk", // dusk
-    "dusky", // dusky
-    "dust", // dust
-    "dustbin", // dustbin
+    "duration",
+    "duress",
+    "during",
+    "dusk",
+    "dusky",
+    "dust",
+    "dustbin",
     "dust bowl", // dust-bowl // فففف dust bowl
-    "dustcart", // dustcart
-    "duster", // duster
+    "dustcart",
+    "duster",
     "dust jacket", // dust-jacket // فففف dust jacket
-    "dustman", // dustman
-    "dustpan", // dustpan
+    "dustman",
+    "dustpan",
     "dust sheet", // dust-sheet // فففف dust sheet
-    "dusty", // dusty
-    "duty", // duty
-    "dutiful", // dutiful
-    "dutifully", // dutifully
+    "dusty",
+    "duty",
+    "dutiful",
+    "dutifully",
     "duty-free", // duty-free // فففف duty-free
-    "duvet", // duvet
+    "duvet",
     "DVD", // dvd // فففف DVD
     "DCT",
-    "dwarf", // dwarf
-    "dwell", // dwell
-    "dweller", // dweller
-    "dwelling", // dwelling
-    "dwindle", // dwindle
-    "dye", // dye
-    "dyed_in_the_wool", // dyedinthewool
-    "dyke", // dyke
-    "dynamic", // dynamic
-    "dynamically", // dynamically
-    "dynamism", // dynamism
-    "dynamite", // dynamite
-    "dynamo", // dynamo
-    "dynasty", // dynasty
-    "dysentery", // dysentery
-    "dyslexia", // dyslexia
+    "dwarf",
+    "dwell",
+    "dweller",
+    "dwelling",
+    "dwindle",
+    "dye",
+    "dyed_in_the_wool",
+    "dyke",
+    "dynamic",
+    "dynamically",
+    "dynamism",
+    "dynamite",
+    "dynamo",
+    "dynasty",
+    "dysentery",
+    "dyslexia",
     "dyslexic", // dyslexic
   ],
   "E": [
-    "e", // e
+    "e",
     "E-number", // enumber", // ffff E-number
     "e-", // etwo", // ffff e-
-    "each", // each
+    "each",
     "each other", // eachother", // فففف each other
-    "eager", // eager
-    "eagerly", // eagerly
-    "eagerness", // eagerness
-    "eagle", // eagle
+    "eager",
+    "eagerly",
+    "eagerness",
+    "eagle",
     "eagle-eyed", // eagleeyed", // فففف eagle-eyed
-    "ear", // ear
-    "earache", // earache
-    "eardrum", // eardrum
-    "earlobe", // earlobe
-    "earring", // earring
-    "earl", // earl
-    "earldom", // earldom
-    "early", // early
+    "ear",
+    "earache",
+    "eardrum",
+    "earlobe",
+    "earring",
+    "earl",
+    "earldom",
+    "early",
     "early warning", // earlywarning", // فففف early warning
-    "earmark", // earmark
-    "earn", // earn
-    "earner", // earner
-    "earnings", // earnings
-    "earnest", // earnest
-    "earnestly", // earnestly
-    "earnestness", // earnestness
-    "earth", // earth
-    "earthly", // earthly
-    "earthquake", // earthquake
-    "earthworm", // earthworm
-    "earthy", // earthy
-    "earthenware", // earthenware
-    "ease", // ease
-    "easel", // easel
-    "east", // east
-    "eastbound", // eastbound
-    "easterly", // easterly
-    "eastern", // eastern
-    "eastward", // eastward
+    "earmark",
+    "earn",
+    "earner",
+    "earnings",
+    "earnest",
+    "earnestly",
+    "earnestness",
+    "earth",
+    "earthly",
+    "earthquake",
+    "earthworm",
+    "earthy",
+    "earthenware",
+    "ease",
+    "easel",
+    "east",
+    "eastbound",
+    "easterly",
+    "eastern",
+    "eastward",
     "eastwards",
     "Easter", // easter", // ffff Easter
-    "easy", // easy
-    "easily", // easily
+    "easy",
+    "easily",
     "easy chair", // easychair", // فففف easy chair
     "easy-going", // easygoing", // فففف easy-going
-    "eat", // eat
-    "eatable", // eatable
-    "eater", // eater
-    "eaves", // eaves
-    "eavesdrop", // eavesdrop
-    "eavesdropper", // eavesdropper
-    "ebb", // ebb
-    "ebony", // ebony
-    "eccentric", // eccentric
-    "eccentricity", // eccentricity
-    "ecclesiastical", // ecclesiastical
-    "echo", // echo
-    "eclair", // eclair
-    "eclipse", // eclipse
+    "eat",
+    "eatable",
+    "eater",
+    "eaves",
+    "eavesdrop",
+    "eavesdropper",
+    "ebb",
+    "ebony",
+    "eccentric",
+    "eccentricity",
+    "ecclesiastical",
+    "echo",
+    "eclair",
+    "eclipse",
     "eco", // eco", // فففف eco-
-    "eco_friendly", // ecofriendly
-    "ecology", // ecology
-    "ecological", // ecological
-    "ecologist", // ecologist
-    "economic", // economic
-    "economical", // economical
-    "economically", // economically
-    "economics", // economics
-    "economist", // economist
-    "economize", // economize
-    "economy", // economy
-    "ecotourism", // ecotourism
-    "ecotourist", // ecotourist
-    "ecstasy", // ecstasy
-    "ecstatic", // ecstatic
-    "ecstatically", // ecstatically
-    "ectopic", // ectopic
-    "eddy", // eddy
-    "edge", // edge
-    "edging", // edging
-    "edgy", // edgy
-    "edible", // edible
-    "edit", // edit
-    "edition", // edition
-    "editor", // editor
-    "editorial", // editorial
-    "educate", // educate
-    "education", // education
-    "educational", // educational
-    "eel", // eel
-    "eerie", // eerie
-    "eerily", // eerily
-    "effect", // effect
-    "effective", // effective
-    "effectively", // effectively
-    "effectiveness", // effectiveness
-    "effectual", // effectual
-    "effeminate", // effeminate
-    "effervescent", // effervescent
-    "effervescence", // effervescence
-    "efficiency", // efficiency
-    "efficient", // efficient
-    "efficiently", // efficiently
-    "effigy", // effigy
-    "effort", // effort
-    "effortless", // effortless
-    "effortlessly", // effortlessly
-    "effrontery", // effrontery
-    "effusive", // effusive
-    "effusively", // effusively
+    "eco_friendly",
+    "ecology",
+    "ecological",
+    "ecologist",
+    "economic",
+    "economical",
+    "economically",
+    "economics",
+    "economist",
+    "economize",
+    "economy",
+    "ecotourism",
+    "ecotourist",
+    "ecstasy",
+    "ecstatic",
+    "ecstatically",
+    "ectopic",
+    "eddy",
+    "edge",
+    "edging",
+    "edgy",
+    "edible",
+    "edit",
+    "edition",
+    "editor",
+    "editorial",
+    "educate",
+    "education",
+    "educational",
+    "eel",
+    "eerie",
+    "eerily",
+    "effect",
+    "effective",
+    "effectively",
+    "effectiveness",
+    "effectual",
+    "effeminate",
+    "effervescent",
+    "effervescence",
+    "efficiency",
+    "efficient",
+    "efficiently",
+    "effigy",
+    "effort",
+    "effortless",
+    "effortlessly",
+    "effrontery",
+    "effusive",
+    "effusively",
     "EFL", // efl", // ffff EFL
     "e.g.", // eg", // فففف e.g.
-    "egg", // egg
+    "egg",
     "egg cup", // eggcup", // فففف egg cup
-    "egghead", // egghead
+    "egghead",
     "eggplant",
-    "ego", // ego
-    "egocentric", // egocentric
-    "egoism", // egoism
-    "egoist", // egoist
+    "ego",
+    "egocentric",
+    "egoism",
+    "egoist",
     "egotism",
     "egotist",
-    "eiderdown", // eiderdown
-    "eight", // eight
-    "eighth", // eighth
-    "eighteen", // eighteen
-    "eighteenth", // eighteenth
-    "eightieth", // eightieth
-    "eighty", // eighty
-    "either", // either
-    "eject", // eject
-    "ejection", // ejection
+    "eiderdown",
+    "eight",
+    "eighth",
+    "eighteen",
+    "eighteenth",
+    "eightieth",
+    "eighty",
+    "either",
+    "eject",
+    "ejection",
     "ejection seat", // ejectionseat", // فففف ejection seat
-    "elaborate", // elaborate
-    "elaborately", // elaborately
-    "elaboration", // elaboration
-    "elapse", // elapse
-    "elastic", // elastic
+    "elaborate",
+    "elaborately",
+    "elaboration",
+    "elapse",
+    "elastic",
     "elastic band",
-    "elasticity", // elasticity
-    "elated", // elated
-    "elation", // elation
-    "elbow", // elbow
+    "elasticity",
+    "elated",
+    "elation",
+    "elbow",
     "elbow grease", // elbowgrease", // فففف elbow grease
     "elbow room", // elbowroom", // فففف elbow room
-    "elder", // elder
+    "elder",
     "elder statesman", // elderstatesman", // فففف elder statesman
-    "elderly", // elderly
-    "eldest", // eldest
-    "elect", // elect
-    "elector", // elector
-    "electoral", // electoral
-    "electorate", // electorate
-    "election", // election
-    "electric", // electric
-    "electrical", // electrical
-    "electrically", // electrically
+    "elderly",
+    "eldest",
+    "elect",
+    "elector",
+    "electoral",
+    "electorate",
+    "election",
+    "electric",
+    "electrical",
+    "electrically",
     "electric chair", // electricchair", // فففف electric chair
     "electric shock", // electricshock", // فففف electric shock
-    "electrician", // electrician
-    "electricity", // electricity
-    "electrify", // electrify
-    "electrocute", // electrocute
-    "electrocution", // electrocution
-    "electrode", // electrode
-    "electromagnetic", // electromagnetic
-    "electron", // electron
-    "electronic", // electronic
-    "electronically", // electronically
-    "electronics", // electronics
-    "elegant", // elegant
-    "elegance", // elegance
-    "elegantly", // elegantly
-    "element", // element
-    "elementary", // elementary
+    "electrician",
+    "electricity",
+    "electrify",
+    "electrocute",
+    "electrocution",
+    "electrode",
+    "electromagnetic",
+    "electron",
+    "electronic",
+    "electronically",
+    "electronics",
+    "elegant",
+    "elegance",
+    "elegantly",
+    "element",
+    "elementary",
     "elementary school", // elementaryschool", // فففف elementary school
-    "elephant", // elephant
-    "elevate", // elevate
-    "elevation", // elevation
+    "elephant",
+    "elevate",
+    "elevation",
     "elevator",
-    "eleven", // eleven
-    "elevenses", // elevenses
-    "eleventh", // eleventh
-    "elf", // elf
-    "elicit", // elicit
-    "eligibility", // eligibility
-    "eligible", // eligible
-    "eliminate", // eliminate
-    "elimination", // elimination
-    "elite", // elite
-    "elitism", // elitism
-    "elitist", // elitist
-    "elk", // elk
-    "ellipse", // ellipse
-    "elliptical", // elliptical
-    "elm", // elm
-    "elocution", // elocution
-    "elongate", // elongate
-    "elope", // elope
-    "elopement", // elopement
-    "eloquence", // eloquence
-    "eloquent", // eloquent
-    "eloquently", // eloquently
-    "else", // else
-    "elsewhere", // elsewhere
+    "eleven",
+    "elevenses",
+    "eleventh",
+    "elf",
+    "elicit",
+    "eligibility",
+    "eligible",
+    "eliminate",
+    "elimination",
+    "elite",
+    "elitism",
+    "elitist",
+    "elk",
+    "ellipse",
+    "elliptical",
+    "elm",
+    "elocution",
+    "elongate",
+    "elope",
+    "elopement",
+    "eloquence",
+    "eloquent",
+    "eloquently",
+    "else",
+    "elsewhere",
     "elt", // elt", // ffff ELT
-    "elucidate", // elucidate
-    "elucidation", // elucidation
-    "elude", // elude
-    "elusive", // elusive
-    "emaciated", // emaciated
-    "emaciation", // emaciation
-    "email", // email
-    "emanate", // emanate
-    "emancipate", // emancipate
-    "emancipation", // emancipation
-    "embalm", // embalm
-    "embankment", // embankment
-    "embargo", // embargo
-    "embark", // embark
-    "embarkation", // embarkation
-    "embarrass", // embarrass
-    "embarrassing", // embarrassing
-    "embarrassingly", // embarrassingly
-    "embarrassment", // embarrassment
-    "embassy", // embassy
-    "embed", // embed
-    "embellish", // embellish
-    "embellishment", // embellishment
-    "ember", // ember
-    "embezzle", // embezzle
-    "embitter", // embitter
-    "emblem", // emblem
-    "embodiment", // embodiment
-    "embody", // embody
-    "emboss", // emboss
-    "embossed", // embossed
-    "embrace", // embrace
-    "embroider", // embroider
-    "embroidery", // embroidery
-    "embryo", // embryo
-    "embryonic", // embryonic
-    "emerald", // emerald
-    "emerge", // emerge
-    "emergence", // emergence
-    "emergent", // emergent
-    "emergency", // emergency
+    "elucidate",
+    "elucidation",
+    "elude",
+    "elusive",
+    "emaciated",
+    "emaciation",
+    "email",
+    "emanate",
+    "emancipate",
+    "emancipation",
+    "embalm",
+    "embankment",
+    "embargo",
+    "embark",
+    "embarkation",
+    "embarrass",
+    "embarrassing",
+    "embarrassingly",
+    "embarrassment",
+    "embassy",
+    "embed",
+    "embellish",
+    "embellishment",
+    "ember",
+    "embezzle",
+    "embitter",
+    "emblem",
+    "embodiment",
+    "embody",
+    "emboss",
+    "embossed",
+    "embrace",
+    "embroider",
+    "embroidery",
+    "embryo",
+    "embryonic",
+    "emerald",
+    "emerge",
+    "emergence",
+    "emergent",
+    "emergency",
     "emergency room", // emergencyroom", // فففف emergency room
-    "emigrant", // emigrant
-    "emigrate", // emigrate
-    "emigration", // emigration
-    "eminent", // eminent
-    "eminence", // eminence
-    "eminently", // eminently
-    "emir", // emir
-    "emirate", // emirate
-    "emit", // emit
-    "emission", // emission
-    "emoticon", // emoticon
-    "emotion", // emotion
-    "emotional", // emotional
-    "emotionally", // emotionally
-    "emotive", // emotive
-    "emperor", // emperor
-    "emphasis", // emphasis
-    "emphasize", // emphasize
-    "emphatic", // emphatic
-    "emphatically", // emphatically
-    "empire", // empire
-    "empirical", // empirical
-    "employ", // employ
-    "employable", // employable
-    "employee", // employee
-    "employer", // employer
-    "employment", // employment
-    "empower", // empower",
-    "empress", // empress
-    "emptiness", // emptiness
-    "empty", // empty
-    "empty-handed", // emptyhanded", //// فففف empty-handed
-    "empty-headed", // emptyheaded", //// فففف empty-headed
-    "emu", // emu
-    "emulate", // emulate
-    "emulation", // emulation
-    "emulsifier", // emulsifier
-    "emulsion", // emulsion
-    "enable", // enable
-    "enabled", // enabled
-    "enamel", // enamel
-    "enamelled", // enamelled
-    "enamoured", // enamoured
-    "enchant", // enchant
-    "enchanted", // enchanted
-    "enchanting", // enchanting
-    "enchantment", // enchantment
-    "encircle", // encircle
-    "enclave", // enclave
-    "enclose", // enclose
-    "enclosure", // enclosure
-    "encode", // encode
-    "encore", // encore
-    "encounter", // encounter
-    "encourage", // encourage
-    "encouragement", // encouragement
-    "encouraging", // encouraging
-    "encroach", // encroach
-    "encyclopedia", // encyclopedia
-    "encyclopedic", // encyclopedic
-    "end", // end
-    "ending", // ending
+    "emigrant",
+    "emigrate",
+    "emigration",
+    "eminent",
+    "eminence",
+    "eminently",
+    "emir",
+    "emirate",
+    "emit",
+    "emission",
+    "emoticon",
+    "emotion",
+    "emotional",
+    "emotionally",
+    "emotive",
+    "emperor",
+    "emphasis",
+    "emphasize",
+    "emphatic",
+    "emphatically",
+    "empire",
+    "empirical",
+    "employ",
+    "employable",
+    "employee",
+    "employer",
+    "employment",
+    "empower",
+    "empress",
+    "emptiness",
+    "empty",
+    "empty-handed",
+    "empty-headed",
+    "emu",
+    "emulate",
+    "emulation",
+    "emulsifier",
+    "emulsion",
+    "enable",
+    "enabled",
+    "enamel",
+    "enamelled",
+    "enamoured",
+    "enchant",
+    "enchanted",
+    "enchanting",
+    "enchantment",
+    "encircle",
+    "enclave",
+    "enclose",
+    "enclosure",
+    "encode",
+    "encore",
+    "encounter",
+    "encourage",
+    "encouragement",
+    "encouraging",
+    "encroach",
+    "encyclopedia",
+    "encyclopedic",
+    "end",
+    "ending",
     "endive",
-    "endless", // endless
-    "endlessly", // endlessly
-    "endanger", // endanger
-    "endearment", // endearment
-    "endeavour", // endeavour
-    "endemic", // endemic
-    "endorse", // endorse
-    "endorsement", // endorsement
-    "endow", // endow
-    "endowment", // endowment
-    "endure", // endure
-    "endurance", // endurance
-    "enduring", // enduring
-    "enemy", // enemy
-    "energy", // energy
-    "energetic", // energetic
-    "energetically", // energetically
-    "enfold", // enfold
-    "enforce", // enforce
-    "enforceable", // enforceable
-    "enforcement", // enforcement
-    "engage", // engage
-    "engaged", // engaged
-    "engagement", // engagement
-    "engaging", // engaging
-    "engine", // engine
-    "engine driver", // enginedriver", //// فففف engine driver
-    "engineer", // engineer
-    "engineering", // engineering
+    "endless",
+    "endlessly",
+    "endanger",
+    "endearment",
+    "endeavour",
+    "endemic",
+    "endorse",
+    "endorsement",
+    "endow",
+    "endowment",
+    "endure",
+    "endurance",
+    "enduring",
+    "enemy",
+    "energy",
+    "energetic",
+    "energetically",
+    "enfold",
+    "enforce",
+    "enforceable",
+    "enforcement",
+    "engage",
+    "engaged",
+    "engagement",
+    "engaging",
+    "engine",
+    "engine driver",
+    "engineer",
+    "engineering",
     "English", // english", //// فففف English
-    "engrave", // engrave
-    "engraver", // engraver
-    "engraving", // engraving
-    "engross", // engross
-    "engulf", // engulf
-    "enhance", // enhance
-    "enhancement", // enhancement
-    "enigma", // enigma
-    "enigmatic", // enigmatic
-    "enigmatically", // enigmatically
-    "enjoy", // enjoy
-    "enjoyable", // enjoyable
-    "enjoyably", // enjoyably
-    "enjoyment", // enjoyment
-    "enlarge", // enlarge
-    "enlargement", // enlargement
-    "enlighten", // enlighten
-    "enlightenment", // enlightenment
-    "enlist", // enlist
-    "enlistment", // enlistment
-    "enormity", // enormity
-    "enormous", // enormous
-    "enormously", // enormously
-    "enough", // enough
-    "enquire", // enquire
-    "enquiring", // enquiring
-    "enquiry", // enquiry
-    "enrage", // enrage
-    "enrich", // enrich
-    "enrichment", // enrichment
-    "enrol", // enrol
-    "enrolment", // enrolment
-    "en route", // enroute", //// فففف en route
-    "ensemble", // ensemble
-    "ensign", // ensign
-    "ensue", // ensue
-    "en suite", // ensuite", //// فففف en suite
-    "ensure", // ensure
-    "entail", // entail
-    "entangled", // entangled
-    "entanglement", // entanglement
-    "enter", // enter
-    "enterprise", // enterprise
-    "enterprising", // enterprising
-    "entertain", // entertain
-    "entertainer", // entertainer
-    "entertaining", // entertaining
-    "entertainment", // entertainment
-    "enthral", // enthral
-    "enthuse", // enthuse
-    "enthusiasm", // enthusiasm
-    "enthusiast", // enthusiast
-    "enthusiastic", // enthusiastic
-    "enthusiastically", // enthusiastically
-    "entice", // entice
-    "enticement", // enticement
-    "entire", // entire
-    "entirely", // entirely
-    "entirety", // entirety
-    "entitle", // entitle
-    "entitlement", // entitlement
-    "entity", // entity
-    "entourage", // entourage
-    "entrance", // entrance
-    "entrant", // entrant
-    "entreat", // entreat
-    "entreaty", // entreaty
-    "entrenched", // entrenched
-    "entrepreneur", // entrepreneur
-    "entrust", // entrust
-    "entry", // entry
-    "enumerate", // enumerate
-    "enunciate", // enunciate
-    "enunciation", // enunciation
-    "envelop", // envelop
-    "envelopment", // envelopment
-    "envelope", // envelope
-    "enviable", // enviable
-    "envious", // envious
-    "enviously", // enviously
-    "environment", // environment
-    "environmental", // environmental
-    "environmentalist", // environmentalist
-    "environmentally", // environmentally
-    "environmentally-friendly", // environmentallyfriendly", //// فففف environmentally-friendly
-    "envisage", // envisage
-    "envoy", // envoy
-    "envy", // envy
-    "enzyme", // enzyme
-    "epaulette", // epaulette
-    "ephemeral", // ephemeral
-    "epic", // epic
-    "epidemic", // epidemic
-    "epilepsy", // epilepsy
-    "epileptic", // epileptic
-    "epilogue", // epilogue
-    "episode", // episode
-    "epitaph", // epitaph
-    "epithet", // epithet
-    "epitome", // epitome
-    "epitomize", // epitomize
-    "epoch", // epoch
-    "equable", // equable
-    "equal", // equal
-    "equality", // equality
-    "equalize", // equalize
-    "equally", // equally
-    "equate", // equate
-    "equation", // equation
-    "equator", // equator
-    "equatorial", // equatorial
-    "equestrian", // equestrian
-    "equilibrium", // equilibrium
-    "equinox", // equinox
-    "equip", // equip
-    "equipment", // equipment
-    "equitable", // equitable
-    "equity", // equity
-    "equivalent", // equivalent
-    "equivocal", // equivocal
-    "equivocate", // equivocate
-    "era", // era
-    "eradicate", // eradicate
-    "eradication", // eradication
-    "erase", // erase
+    "engrave",
+    "engraver",
+    "engraving",
+    "engross",
+    "engulf",
+    "enhance",
+    "enhancement",
+    "enigma",
+    "enigmatic",
+    "enigmatically",
+    "enjoy",
+    "enjoyable",
+    "enjoyably",
+    "enjoyment",
+    "enlarge",
+    "enlargement",
+    "enlighten",
+    "enlightenment",
+    "enlist",
+    "enlistment",
+    "enormity",
+    "enormous",
+    "enormously",
+    "enough",
+    "enquire",
+    "enquiring",
+    "enquiry",
+    "enrage",
+    "enrich",
+    "enrichment",
+    "enrol",
+    "enrolment",
+    "en route",
+    "ensemble",
+    "ensign",
+    "ensue",
+    "en suite",
+    "ensure",
+    "entail",
+    "entangled",
+    "entanglement",
+    "enter",
+    "enterprise",
+    "enterprising",
+    "entertain",
+    "entertainer",
+    "entertaining",
+    "entertainment",
+    "enthral",
+    "enthuse",
+    "enthusiasm",
+    "enthusiast",
+    "enthusiastic",
+    "enthusiastically",
+    "entice",
+    "enticement",
+    "entire",
+    "entirely",
+    "entirety",
+    "entitle",
+    "entitlement",
+    "entity",
+    "entourage",
+    "entrance",
+    "entrant",
+    "entreat",
+    "entreaty",
+    "entrenched",
+    "entrepreneur",
+    "entrust",
+    "entry",
+    "enumerate",
+    "enunciate",
+    "enunciation",
+    "envelop",
+    "envelopment",
+    "envelope",
+    "enviable",
+    "envious",
+    "enviously",
+    "environment",
+    "environmental",
+    "environmentalist",
+    "environmentally",
+    "environmentally-friendly",
+    "envisage",
+    "envoy",
+    "envy",
+    "enzyme",
+    "epaulette",
+    "ephemeral",
+    "epic",
+    "epidemic",
+    "epilepsy",
+    "epileptic",
+    "epilogue",
+    "episode",
+    "epitaph",
+    "epithet",
+    "epitome",
+    "epitomize",
+    "epoch",
+    "equable",
+    "equal",
+    "equality",
+    "equalize",
+    "equally",
+    "equate",
+    "equation",
+    "equator",
+    "equatorial",
+    "equestrian",
+    "equilibrium",
+    "equinox",
+    "equip",
+    "equipment",
+    "equitable",
+    "equity",
+    "equivalent",
+    "equivocal",
+    "equivocate",
+    "era",
+    "eradicate",
+    "eradication",
+    "erase",
     "eraser",
-    "erect", // erect
-    "erection", // erection
-    "erode", // erode
-    "erosion", // erosion
-    "erotic", // erotic
-    "err", // err
-    "errand", // errand
-    "erratic", // erratic
-    "erratically", // erratically
-    "erroneous", // erroneous
-    "error", // error
-    "erudite", // erudite
-    "erupt", // erupt
-    "eruption", // eruption
-    "escalate", // escalate
-    "escalation", // escalation
-    "escalator", // escalator
-    "escapade", // escapade
-    "escape", // escape
-    "escapism", // escapism
-    "escapist", // escapist
-    "escort", // escort
+    "erect",
+    "erection",
+    "erode",
+    "erosion",
+    "erotic",
+    "err",
+    "errand",
+    "erratic",
+    "erratically",
+    "erroneous",
+    "error",
+    "erudite",
+    "erupt",
+    "eruption",
+    "escalate",
+    "escalation",
+    "escalator",
+    "escapade",
+    "escape",
+    "escapism",
+    "escapist",
+    "escort",
     "esophagus",
-    "esoteric", // esoteric
-    "especially", // especially
-    "espionage", // espionage
-    "essay", // essay
-    "essayist", // essayist
-    "essence", // essence
-    "essential", // essential
-    "essentially", // essentially
-    "establish", // establish
-    "establishment", // establishment
-    "estate", // estate
-    "estate agent", // estateagent", //// فففف estate agent
-    "estate car", // estatecar", //// فففف estate car
-    "esteem", // esteem
+    "esoteric",
+    "especially",
+    "espionage",
+    "essay",
+    "essayist",
+    "essence",
+    "essential",
+    "essentially",
+    "establish",
+    "establishment",
+    "estate",
+    "estate agent",
+    "estate car",
+    "esteem",
     "esthetic",
-    "estimate", // estimate
-    "estimation", // estimation
-    "estuary", // estuary
+    "estimate",
+    "estimation",
+    "estuary",
     "etc.", // etc", //// فففف etc.
-    "etch", // etch
-    "etching", // etching
-    "eternal", // eternal
-    "eternally", // eternally
-    "eternity", // eternity
-    "ether", // ether
-    "ethereal", // ethereal
+    "etch",
+    "etching",
+    "eternal",
+    "eternally",
+    "eternity",
+    "ether",
+    "ethereal",
     "Ethernet", // ethernet", //// فففف Ethernet
-    "ethic", // ethic
-    "ethical", // ethical
-    "ethically", // ethically
-    "ethnic", // ethnic
-    "ethnically", // ethnically
-    "etiquette", // etiquette
-    "etymology", // etymology
-    "eucalyptus", // eucalyptus
-    "euphemism", // euphemism
-    "euphemistic", // euphemistic
-    "euphoria", // euphoria
-    "euphoric", // euphoric
-    "euro", // euro
-    "European", // european", //// ffff European
-    "the European Union", // theeuropeanunion", //// ffff the European Union
-    "euthanasia", // euthanasia
-    "evacuate", // evacuate
-    "evacuation", // evacuation
-    "evade", // evade
-    "evaluate", // evaluate
-    "evaluation", // evaluation
-    "evangelical", // evangelical
-    "evangelist", // evangelist
-    "evangelistic", // evangelistic
-    "evaporate", // evaporate
-    "evaporation", // evaporation
-    "evasion", // evasion
-    "evasive", // evasive
-    "evasively", // evasively
-    "eve", // eve
-    "even", // even
-    "even-handed", // evenhanded", //// فففف even-handed
-    "evenly", // evenly
-    "evenness", // evenness
-    "even-tempered", // eventempered", //// فففف even-tempered
-    "evening", // evening
-    "evening dress", // eveningdress", //// ffff evening dress
+    "ethic",
+    "ethical",
+    "ethically",
+    "ethnic",
+    "ethnically",
+    "etiquette",
+    "etymology",
+    "eucalyptus",
+    "euphemism",
+    "euphemistic",
+    "euphoria",
+    "euphoric",
+    "euro",
+    "European",
+    "the European Union",
+    "euthanasia",
+    "evacuate",
+    "evacuation",
+    "evade",
+    "evaluate",
+    "evaluation",
+    "evangelical",
+    "evangelist",
+    "evangelistic",
+    "evaporate",
+    "evaporation",
+    "evasion",
+    "evasive",
+    "evasively",
+    "eve",
+    "even",
+    "even-handed",
+    "evenly",
+    "evenness",
+    "even-tempered",
+    "evening",
+    "evening dress",
     "evening gown",
-    "event", // event
-    "eventful", // eventful
-    "eventual", // eventual
-    "eventuality", // eventuality
-    "eventually", // eventually
-    "ever", // ever
-    "evergreen", // evergreen
-    "everlasting", // everlasting
-    "every", // every
-    "everybody", // everybody
-    "everyday", // everyday
+    "event",
+    "eventful",
+    "eventual",
+    "eventuality",
+    "eventually",
+    "ever",
+    "evergreen",
+    "everlasting",
+    "every",
+    "everybody",
+    "everyday",
     "everyone",
-    "everything", // everything
-    "everywhere", // everywhere
-    "evict", // evict
-    "eviction", // eviction
-    "evidence", // evidence
-    "evident", // evident
-    "evidently", // evidently
-    "evil", // evil
-    "evilly", // evilly
-    "evocative", // evocative
-    "evoke", // evoke
-    "evolution", // evolution
-    "evolve", // evolve
-    "ewe", // ewe
-    "exacerbate", // exacerbate
-    "exact", // exact
-    "exactitude", // exactitude
-    "exactly", // exactly
-    "exactness", // exactness
-    "exaggerate", // exaggerate
-    "exaggeration", // exaggeration
+    "everything",
+    "everywhere",
+    "evict",
+    "eviction",
+    "evidence",
+    "evident",
+    "evidently",
+    "evil",
+    "evilly",
+    "evocative",
+    "evoke",
+    "evolution",
+    "evolve",
+    "ewe",
+    "exacerbate",
+    "exact",
+    "exactitude",
+    "exactly",
+    "exactness",
+    "exaggerate",
+    "exaggeration",
     "exam",
-    "examination", // examination
-    "examine", // examine
-    "examiner", // examiner
-    "example", // example
-    "exasperate", // exasperate
-    "exasperation", // exasperation
-    "excavate", // excavate
-    "excavation", // excavation
-    "excavator", // excavator
-    "exceed", // exceed
-    "exceedingly", // exceedingly
-    "excel", // excel
-    "excellent", // excellent
-    "excellence", // excellence
-    "excellently", // excellently
-    "except", // except
-    "exception", // exception
-    "exceptional", // exceptional
-    "exceptionally", // exceptionally
-    "excerpt", // excerpt
-    "excess", // excess
-    "excessive", // excessive
-    "excessively", // excessively
-    "exchange", // exchange
-    "exchequer", // exchequer
-    "excise", // excise
-    "excitable", // excitable
-    "excite", // excite
-    "excited", // excited
-    "excitedly", // excitedly
-    "excitement", // excitement
-    "exciting", // exciting
-    "exclaim", // exclaim
-    "exclamation", // exclamation
-    "exclamation mark", // exclamationmark", //// فففف exclamation mark
+    "examination",
+    "examine",
+    "examiner",
+    "example",
+    "exasperate",
+    "exasperation",
+    "excavate",
+    "excavation",
+    "excavator",
+    "exceed",
+    "exceedingly",
+    "excel",
+    "excellent",
+    "excellence",
+    "excellently",
+    "except",
+    "exception",
+    "exceptional",
+    "exceptionally",
+    "excerpt",
+    "excess",
+    "excessive",
+    "excessively",
+    "exchange",
+    "exchequer",
+    "excise",
+    "excitable",
+    "excite",
+    "excited",
+    "excitedly",
+    "excitement",
+    "exciting",
+    "exclaim",
+    "exclamation",
+    "exclamation mark",
     "exclamation point",
-    "exclude", // exclude
-    "exclusion", // exclusion
-    "exclusive", // exclusive
-    "exclusively", // exclusively
-    "excommunicate", // excommunicate
-    "excommunication", // excommunication
-    "excrement", // excrement
-    "excrete", // excrete
-    "excruciating", // excruciating
-    "excruciatingly", // excruciatingly
-    "excursion", // excursion
-    "excusable", // excusable
-    "excuse", // excuse
-    "execute", // execute
-    "execution", // execution
-    "executioner", // executioner
-    "executive", // executive
-    "executor", // executor
-    "exemplification", // exemplification
-    "exemplify", // exemplify
-    "exempt", // exempt
-    "exemption", // exemption
-    "exercise", // exercise
-    "exercise book", // exercisebook", //// فففف exercise book
-    "exert", // exert
-    "exertion", // exertion
-    "exhale", // exhale
-    "exhalation", // exhalation
-    "exhaust", // exhaust
-    "exhausted", // exhausted
-    "exhaustion", // exhaustion
-    "exhaustive", // exhaustive
-    "exhibit", // exhibit
-    "exhibitor", // exhibitor
-    "exhibition", // exhibition
-    "exhibitionism", // exhibitionism
-    "exhibitionist", // exhibitionist
-    "exhilarate", // exhilarate
-    "exhilaration", // exhilaration
-    "exhort", // exhort
-    "exhortation", // exhortation
-    "exile", // exile
-    "exist", // exist
-    "existence", // existence
-    "existent", // existent
-    "exit", // exit
-    "exonerate", // exonerate
-    "exoneration", // exoneration
-    "exorbitant", // exorbitant
-    "exorbitantly", // exorbitantly
-    "exorcize", // exorcize
-    "exorcism", // exorcism
-    "exorcist", // exorcist
-    "exotic", // exotic
-    "expand", // expand
-    "expanse", // expanse
-    "expansion", // expansion
-    "expansionism", // expansionism
-    "expansionist", // expansionist
-    "expansive", // expansive
+    "exclude",
+    "exclusion",
+    "exclusive",
+    "exclusively",
+    "excommunicate",
+    "excommunication",
+    "excrement",
+    "excrete",
+    "excruciating",
+    "excruciatingly",
+    "excursion",
+    "excusable",
+    "excuse",
+    "execute",
+    "execution",
+    "executioner",
+    "executive",
+    "executor",
+    "exemplification",
+    "exemplify",
+    "exempt",
+    "exemption",
+    "exercise",
+    "exercise book",
+    "exert",
+    "exertion",
+    "exhale",
+    "exhalation",
+    "exhaust",
+    "exhausted",
+    "exhaustion",
+    "exhaustive",
+    "exhibit",
+    "exhibitor",
+    "exhibition",
+    "exhibitionism",
+    "exhibitionist",
+    "exhilarate",
+    "exhilaration",
+    "exhort",
+    "exhortation",
+    "exile",
+    "exist",
+    "existence",
+    "existent",
+    "exit",
+    "exonerate",
+    "exoneration",
+    "exorbitant",
+    "exorbitantly",
+    "exorcize",
+    "exorcism",
+    "exorcist",
+    "exotic",
+    "expand",
+    "expanse",
+    "expansion",
+    "expansionism",
+    "expansionist",
+    "expansive",
     "expat",
-    "expatriate", // expatriate
-    "expect", // expect
-    "expectancy", // expectancy
-    "expectant", // expectant
-    "expectation", // expectation
-    "expedient", // expedient
-    "expediency", // expediency
-    "expedition", // expedition
-    "expeditionary_force", // expeditionaryforce
-    "expel", // expel
-    "expend", // expend
-    "expendable", // expendable
-    "expenditure", // expenditure
-    "expense", // expense
-    "expensive", // expensive
-    "expensively", // expensively
-    "experience", // experience
-    "experienced", // experienced
-    "experiment", // experiment
-    "experimental", // experimental
-    "experimentation", // experimentation
-    "expert", // expert
-    "expertise", // expertise
-    "expertly", // expertly
+    "expatriate",
+    "expect",
+    "expectancy",
+    "expectant",
+    "expectation",
+    "expedient",
+    "expediency",
+    "expedition",
+    "expeditionary_force",
+    "expel",
+    "expend",
+    "expendable",
+    "expenditure",
+    "expense",
+    "expensive",
+    "expensively",
+    "experience",
+    "experienced",
+    "experiment",
+    "experimental",
+    "experimentation",
+    "expert",
+    "expertise",
+    "expertly",
     "expiration",
-    "expire", // expire
-    "expiry", // expiry
-    "explain", // explain
-    "explanation", // explanation
-    "explanatory", // explanatory
-    "explicit", // explicit
-    "explicitly", // explicitly
-    "explicitness", // explicitness
-    "explode", // explode
-    "exploit", // exploit
-    "exploitation", // exploitation
-    "explore", // explore
-    "exploration", // exploration
-    "exploratory", // exploratory
-    "explorer", // explorer
-    "explosion", // explosion
-    "explosive", // explosive
-    "explosively", // explosively
-    "exponent", // exponent
-    "export", // export
-    "exporter", // exporter
-    "expose", // expose
-    "exposure", // exposure
-    "expound", // expound
-    "express", // express
-    "expressly", // expressly
-    "expression", // expression
-    "expressionless", // expressionless
-    "expressive", // expressive
-    "expressively", // expressively
-    "expressiveness", // expressiveness
+    "expire",
+    "expiry",
+    "explain",
+    "explanation",
+    "explanatory",
+    "explicit",
+    "explicitly",
+    "explicitness",
+    "explode",
+    "exploit",
+    "exploitation",
+    "explore",
+    "exploration",
+    "exploratory",
+    "explorer",
+    "explosion",
+    "explosive",
+    "explosively",
+    "exponent",
+    "export",
+    "exporter",
+    "expose",
+    "exposure",
+    "expound",
+    "express",
+    "expressly",
+    "expression",
+    "expressionless",
+    "expressive",
+    "expressively",
+    "expressiveness",
     "expressway",
-    "expropriate", // expropriate
-    "expulsion", // expulsion
-    "exquisite", // exquisite
-    "exquisitely", // exquisitely
-    "extend", // extend
-    "extension", // extension
-    "extensive", // extensive
-    "extent", // extent
-    "extenuating", // extenuating
-    "exterior", // exterior
-    "exterminate", // exterminate
-    "extermination", // extermination
-    "external", // external
-    "externally", // externally
-    "extinct", // extinct
-    "extinction", // extinction
-    "extinguish", // extinguish
-    "extinguisher", // extinguisher
-    "extol", // extol
-    "extort", // extort
-    "extortion", // extortion
-    "extortionate", // extortionate
-    "extra", // extra
-    "extract", // extract
-    "extraction", // extraction
-    "extracurricular", // extracurricular
-    "extradite", // extradite
-    "extradition", // extradition
-    "extramarital", // extramarital
-    "extraneous", // extraneous
-    "extraordinarily", // extraordinarily
-    "extraordinary", // extraordinary
-    "extrapolate", // extrapolate
-    "extrapolation", // extrapolation
-    "extraterrestrial", // extraterrestrial
-    "extravagance", // extravagance
-    "extravagant", // extravagant
-    "extravagantly", // extravagantly
-    "extravaganza", // extravaganza
-    "extreme", // extreme
-    "extremely", // extremely
+    "expropriate",
+    "expulsion",
+    "exquisite",
+    "exquisitely",
+    "extend",
+    "extension",
+    "extensive",
+    "extent",
+    "extenuating",
+    "exterior",
+    "exterminate",
+    "extermination",
+    "external",
+    "externally",
+    "extinct",
+    "extinction",
+    "extinguish",
+    "extinguisher",
+    "extol",
+    "extort",
+    "extortion",
+    "extortionate",
+    "extra",
+    "extract",
+    "extraction",
+    "extracurricular",
+    "extradite",
+    "extradition",
+    "extramarital",
+    "extraneous",
+    "extraordinarily",
+    "extraordinary",
+    "extrapolate",
+    "extrapolation",
+    "extraterrestrial",
+    "extravagance",
+    "extravagant",
+    "extravagantly",
+    "extravaganza",
+    "extreme",
+    "extremely",
     "extreme sport", // extremesport", ////// فففف extreme sport
-    "extremist", // extremist
-    "extremity", // extremity
-    "extricate", // extricate
-    "extrovert", // extrovert
-    "exuberant", // exuberant
-    "exuberance", // exuberance
-    "exuberantly", // exuberantly
-    "exude", // exude
-    "exult", // exult
-    "exultant", // exultant
-    "exultation", // exultation
-    "eye", // eye
-    "eyeball", // eyeball
+    "extremist",
+    "extremity",
+    "extricate",
+    "extrovert",
+    "exuberant",
+    "exuberance",
+    "exuberantly",
+    "exude",
+    "exult",
+    "exultant",
+    "exultation",
+    "eye",
+    "eyeball",
     "eyebrow",
     "eyelash",
     "eyelid",
     "eye-opener", // eye-opener", ////// ffff eye-opener
-    "eyesight", // eyesight
-    "eyesore", // eyesore
+    "eyesight",
+    "eyesore",
     "eyewitness",
   ],
   "F": [
-    "f", // f",
-    "fable", // fable",
-    "fabled", // fabled",
-    "fabric", // fabric",
-    "fabricate", // fabricate",
-    "fabrication", // fabrication",
-    "fabulous", // fabulous",
-    "fabulously", // fabulously",
-    "facade", // facade",
-    "face", // face",
-    "facecloth", // facecloth",
-    "faceless", // faceless",
-    "facelift", // facelift",
-    "face value", // facevalue", //// فففف face value",
-    "facet", // facet",
-    "facetious", // facetious",
-    "facetiously", // facetiously",
-    "facial", // facial",
-    "facile", // facile",
-    "facilitate", // facilitate",
-    "facility", // facility",
-    "facsimile", // facsimile",
-    "fact", // fact",
-    "faction", // faction",
-    "factor", // factor",
-    "factory", // factory",
-    "factual", // factual",
-    "factually", // factually",
-    "faculty", // faculty",
-    "fade", // fade",
-    "faeces", // faeces",
-    "fag", // fag",
-    "fagged", // fagged",
+    "f",
+    "fable",
+    "fabled",
+    "fabric",
+    "fabricate",
+    "fabrication",
+    "fabulous",
+    "fabulously",
+    "facade",
+    "face",
+    "facecloth",
+    "faceless",
+    "facelift",
+    "face value",
+    "facet",
+    "facetious",
+    "facetiously",
+    "facial",
+    "facile",
+    "facilitate",
+    "facility",
+    "facsimile",
+    "fact",
+    "faction",
+    "factor",
+    "factory",
+    "factual",
+    "factually",
+    "faculty",
+    "fade",
+    "faeces",
+    "fag",
+    "fagged",
     "fagged out",
-    "faggot", // faggot",
+    "faggot",
     "Fahrenheit", // fahrenheit", //// فففف Fahrenheit",
-    "fail", // fail",
-    "failing", // failing",
-    "failure", // failure",
-    "faint", // faint",
-    "faint-hearted", // fainthearted", //// فففف faint-hearted",
-    "faintly", // faintly",
-    "fair", // fair",
-    "fairly", // fairly",
-    "fairness", // fairness",
-    "fair-trade", // fairtrade", //// فففف fair-trade",
-    "fairground", // fairground",
-    "fairy", // fairy",
-    "fairy tale", // fairytale", //// ffff fairy tale",
+    "fail",
+    "failing",
+    "failure",
+    "faint",
+    "faint-hearted",
+    "faintly",
+    "fair",
+    "fairly",
+    "fairness",
+    "fair-trade",
+    "fairground",
+    "fairy",
+    "fairy tale",
     "fairy story",
-    "fait accompli", // faitaccompli", //// فففف fait accompli",
-    "faith", // faith",
-    "faithful", // faithful",
-    "faithfully", // faithfully",
-    "faithfulness", // faithfulness",
-    "faithless", // faithless",
-    "fake", // fake",
-    "falcon", // falcon",
-    "fall", // fall",
-    "fallacy", // fallacy",
-    "fallacious", // fallacious",
-    "fallibility", // fallibility",
-    "fallible", // fallible",
-    "fallout", // fallout",
-    "fallow", // fallow",
-    "false", // false",
-    "false alarm", // falsealarm", //// فففف false alarm",
-    "falsehood", // falsehood",
-    "falsely", // falsely",
-    "false start", // falsestart", //// فففف false start",
-    "falsify", // falsify",
-    "falsification", // falsification",
-    "falsity", // falsity",
-    "falter", // falter",
-    "fame", // fame",
-    "famed", // famed",
-    "familiar", // familiar",
-    "familiarity", // familiarity",
-    "familiarize", // familiarize",
-    "familiarly", // familiarly",
-    "family", // family",
-    "family planning", // familyplanning", //// ffff family planning",
-    "family tree", // familytree", //// فففف family tree",
-    "famine", // famine",
-    "famished", // famished",
-    "famous", // famous",
-    "famously", // famously",
-    "fan", // fan",
-    "fan belt", // fanbelt", //// ffff fan belt",
-    "fanatic", // fanatic",
-    "fanatical", // fanatical",
-    "fanatically", // fanatically",
-    "fanaticism", // fanaticism",
-    "fanciful", // fanciful",
-    "fancifully", // fancifully",
-    "fancy", // fancy",
-    "fancy dress", // fancydress", //// فففف fancy dress",
-    "fanfare", // fanfare",
-    "fang", // fang",
-    "fanny", // fanny",
-    "fantasize", // fantasize",
-    "fantastic", // fantastic",
-    "fantastically", // fantastically",
-    "fantasy", // fantasy",
-    "far", // far",
+    "fait accompli",
+    "faith",
+    "faithful",
+    "faithfully",
+    "faithfulness",
+    "faithless",
+    "fake",
+    "falcon",
+    "fall",
+    "fallacy",
+    "fallacious",
+    "fallibility",
+    "fallible",
+    "fallout",
+    "fallow",
+    "false",
+    "false alarm",
+    "falsehood",
+    "falsely",
+    "false start",
+    "falsify",
+    "falsification",
+    "falsity",
+    "falter",
+    "fame",
+    "famed",
+    "familiar",
+    "familiarity",
+    "familiarize",
+    "familiarly",
+    "family",
+    "family planning",
+    "family tree",
+    "famine",
+    "famished",
+    "famous",
+    "famously",
+    "fan",
+    "fan belt",
+    "fanatic",
+    "fanatical",
+    "fanatically",
+    "fanaticism",
+    "fanciful",
+    "fancifully",
+    "fancy",
+    "fancy dress",
+    "fanfare",
+    "fang",
+    "fanny",
+    "fantasize",
+    "fantastic",
+    "fantastically",
+    "fantasy",
+    "far",
     "far afield",
-    "faraway", // faraway",
-    "far-fetched", // far-fetched", //// فففف far-fetched",
-    "far-off", // far-off", //// فففف far-off",
-    "far-reaching", // far-reaching", //// فففف far-reaching",
-    "far-sighted", // far-sighted", //// فففف far-sighted",
-    "the Far East", // thefareast", //// ffff the Far East",
-    "farce", // farce",
-    "farcical", // farcical",
-    "fare", // fare",
-    "farm", // farm",
-    "farmer", // farmer",
-    "farmer's market", // farmersmarket", //// فففف farmer's market",
-    "farmhand", // farmhand",
-    "farmhouse", // farmhouse",
-    "farmyard", // farmyard",
-    "fart", // fart",
-    "fascinate", // fascinate",
-    "fascinating", // fascinating",
-    "fascination", // fascination",
-    "fascism", // fascism",
-    "fascist", // fascist",
-    "fashion", // fashion",
-    "fashionable", // fashionable",
-    "fast", // fast",
-    "fasten", // fasten",
-    "fastener", // fastener",
-    "fastidious", // fastidious",
-    "fastidiously", // fastidiously",
-    "fat", // fat",
-    "fatness", // fatness",
-    "fatal", // fatal",
-    "fatally", // fatally",
-    "fatalism", // fatalism",
-    "fatalist", // fatalist",
-    "fatality", // fatality",
-    "fate", // fate",
-    "fateful", // fateful",
-    "father", // father",
-    "Father Christmas", // fatherchristmas", //// ffff Father Christmas",
-    "father-in-law", // fatherinlaw", //// فففف father-in-law",
-    "fatherland", // fatherland",
-    "fatherly", // fatherly",
-    "fathom", // fathom",
-    "fathomless", // fathomless",
-    "fatigue", // fatigue",
-    "fatten", // fatten",
-    "fatty", // fatty",
-    "fatuous", // fatuous",
-    "fatuously", // fatuously",
-    "faucet", // faucet",
-    "fault", // fault",
-    "faultless", // faultless",
-    "faultlessly", // faultlessly",
-    "faulty", // faulty",
-    "fauna", // fauna",
-    "faux pas", // fauxpas", //// فففف faux pas",
-    "favour", // favour",
-    "favourable", // favourable",
-    "favourably", // favourably",
-    "favourite", // favourite",
-    "favouritism", // favouritism",
-    "fawn", // fawn",
-    "fax", // fax",
+    "faraway",
+    "far-fetched",
+    "far-off",
+    "far-reaching",
+    "far-sighted",
+    "the Far East",
+    "farce",
+    "farcical",
+    "fare",
+    "farm",
+    "farmer",
+    "farmer's market",
+    "farmhand",
+    "farmhouse",
+    "farmyard",
+    "fart",
+    "fascinate",
+    "fascinating",
+    "fascination",
+    "fascism",
+    "fascist",
+    "fashion",
+    "fashionable",
+    "fast",
+    "fasten",
+    "fastener",
+    "fastidious",
+    "fastidiously",
+    "fat",
+    "fatness",
+    "fatal",
+    "fatally",
+    "fatalism",
+    "fatalist",
+    "fatality",
+    "fate",
+    "fateful",
+    "father",
+    "Father Christmas",
+    "father-in-law",
+    "fatherland",
+    "fatherly",
+    "fathom",
+    "fathomless",
+    "fatigue",
+    "fatten",
+    "fatty",
+    "fatuous",
+    "fatuously",
+    "faucet",
+    "fault",
+    "faultless",
+    "faultlessly",
+    "faulty",
+    "fauna",
+    "faux pas",
+    "favour",
+    "favourable",
+    "favourably",
+    "favourite",
+    "favouritism",
+    "fawn",
+    "fax",
     "FBI", // fbi", //// ffff FBI",
-    "fear", // fear",
-    "fearful", // fearful",
-    "fearfully", // fearfully",
-    "fearless", // fearless",
-    "fearlessly", // fearlessly",
-    "feasible", // feasible",
-    "feasibility", // feasibility",
-    "feast", // feast",
-    "feat", // feat",
-    "feather", // feather",
-    "feathery", // feathery",
-    "feature", // feature",
-    "featureless", // featureless",
-    "February", // february", //// ffff February",
+    "fear",
+    "fearful",
+    "fearfully",
+    "fearless",
+    "fearlessly",
+    "feasible",
+    "feasibility",
+    "feast",
+    "feat",
+    "feather",
+    "feathery",
+    "feature",
+    "featureless",
+    "February",
     "feces",
-    "federal", // federal",
-    "federation", // federation",
-    "fed up", // fedup", //// فففف fed up",
-    "fee", // fee",
-    "feeble", // feeble",
-    "feebly", // feebly",
-    "feed", // feed",
-    "feedback", // feedback",
-    "feeding bottle", // feedingbottle", //// فففف feeding bottle",
-    "feel", // feel",
-    "feeler", // feeler",
-    "feeling", // feeling",
-    "feign", // feeling",
-    "feint", // feint
-    "felicity", // felicity
-    "feline", // feline
-    "fell", // fell
-    "fellow", // fellow
-    "fellowship", // fellowship
-    "felony", // felony
-    "felon", // felon
-    "felt", // felt
-    "felt-tip pen", // felttippen", //// فففف felt-tip pen
-    "female", // female
-    "feminine", // feminine
-    "femininity", // femininity
-    "feminism", // feminism
-    "feminist", // feminist
-    "fen", // fen
-    "fence", // fence
-    "fencing", // fencing
-    "ferment", // ferment
-    "fermentation", // fermentation
-    "fern", // fern
-    "ferocious", // ferocious
-    "ferociously", // ferociously
-    "ferocity", // ferocity
-    "ferret", // ferret
-    "ferry", // ferry
-    "fertile", // fertile
-    "fertility", // fertility
-    "fertilize", // fertilize
-    "fertilization", // fertilization
-    "fertilizer", // fertilizer
-    "fervent", // fervent
-    "fervently", // fervently
-    "fervour", // fervour
-    "fester", // fester
-    "festival", // festival
-    "festive", // festive
-    "festivity", // festivity
-    "fetch", // fetch
-    "fete", // fete
-    "fetish", // fetish
-    "fetter", // fetter
-    "feud", // feud
-    "feudal", // feudal
-    "feudalism", // feudalism
-    "fever", // fever
-    "feverish", // feverish
-    "feverishly", // feverishly
-    "few", // few
-    "fiancé", // fiance", //// فففف fiancé
-    "fiancée", // fiancee", //// فففف fiancée
-    "fiasco", // fiasco
-    "fib", // fib
-    "fibber", // fibber
-    "fiber", // fiber
-    "fiberglass", // fiberglass
-    "fiber optics", // fiberoptics", //// فففف fiber optics
-    "fibrous", // fibrous
-    "fickle", // fickle
-    "fiction", // fiction
-    "fictional", // fictional
-    "fictitious", // fictitious
-    "fiddle", // fiddle
-    "fiddling", // fiddling
-    "fiddly", // fiddly
-    "fidelity", // fidelity
-    "fidget", // fidget
-    "fidgety", // fidgety
-    "field", // field
-    "field marshal", // fieldmarshal", //// ffff field marshal
-    "fielder", // fielder
-    "fiend", // fiend
-    "fiendish", // fiendish
-    "fiendishly", // fiendishly
-    "fierce", // fierce
-    "fiercely", // fiercely
-    "fierceness", // fierceness
-    "fiery", // fiery
-    "fierily", // fierily
-    "fifteen", // fifteen
-    "fifteenth", // fifteenth
-    "fifth", // fifth
-    "fifty", // fifty
-    "fiftieth", // fiftieth
-    "fifty_fifty", // fiftyfifty
-    "fig", // fig
-    "fight", // fight
-    "fighter", // fighter
-    "figment", // figment
-    "figurative", // figurative
-    "figuratively", // figuratively
-    "figure", // figure
-    "figurehead", // figurehead
-    "figure of speech", // figureofspeech", //// فففف figure of speech
-    "filament", // filament
-    "file", // file
-    "filings", // filings
-    "filing cabinet", // filingcabinet", //// فففف filing cabinet
-    "fill", // fill
-    "filler", // filler
-    "filling", // filling
-    "fillet", // fillet
-    "film", // film
-    "film star", // filmstar", //// ffff film star
-    "filter", // filter
-    "filth", // filth
-    "filthy", // filthy
-    "fin", // fin
-    "final", // final
-    "finalist", // finalist
-    "finalize", // finalize
-    "finally", // finally
-    "finale", // finale
-    "finance", // finance
-    "financial", // financial
-    "financially", // financially
-    "financier", // financier
-    "finch", // finch
-    "find", // find
-    "finder", // finder
-    "finding", // finding
-    "fine", // fine
-    "fine art", // fineart", //// فففف fine art
-    "finely", // finely
-    "fineness", // fineness
-    "finery", // finery
-    "finesse", // finesse
-    "finger", // finger
-    "fingernail", // fingernail
-    "fingerprint", // fingerprint
-    "fingertip", // fingertip
-    "finish", // finish
-    "finite", // finite
-    "fir", // fir
-    "fir cone", // fircone", //// فففف fir cone
-    "fire", // fire
-    "fire alarm", // firealarm", //// فففف fire alarm
-    "firearm", // firearm
-    "fire brigade", // firebrigade", //// فففف fire brigade
-    "fire drill", // firedrill", //// فففف fire drill
-    "fire engine", // fireengine", //// فففف fire engine
+    "federal",
+    "federation",
+    "fed up",
+    "fee",
+    "feeble",
+    "feebly",
+    "feed",
+    "feedback",
+    "feeding bottle",
+    "feel",
+    "feeler",
+    "feeling",
+    "feign",
+    "feint",
+    "felicity",
+    "feline",
+    "fell",
+    "fellow",
+    "fellowship",
+    "felony",
+    "felon",
+    "felt",
+    "felt-tip pen",
+    "female",
+    "feminine",
+    "femininity",
+    "feminism",
+    "feminist",
+    "fen",
+    "fence",
+    "fencing",
+    "ferment",
+    "fermentation",
+    "fern",
+    "ferocious",
+    "ferociously",
+    "ferocity",
+    "ferret",
+    "ferry",
+    "fertile",
+    "fertility",
+    "fertilize",
+    "fertilization",
+    "fertilizer",
+    "fervent",
+    "fervently",
+    "fervour",
+    "fester",
+    "festival",
+    "festive",
+    "festivity",
+    "fetch",
+    "fete",
+    "fetish",
+    "fetter",
+    "feud",
+    "feudal",
+    "feudalism",
+    "fever",
+    "feverish",
+    "feverishly",
+    "few",
+    "fiancé",
+    "fiancée",
+    "fiasco",
+    "fib",
+    "fibber",
+    "fiber",
+    "fiberglass",
+    "fiber optics",
+    "fibrous",
+    "fickle",
+    "fiction",
+    "fictional",
+    "fictitious",
+    "fiddle",
+    "fiddling",
+    "fiddly",
+    "fidelity",
+    "fidget",
+    "fidgety",
+    "field",
+    "field marshal",
+    "fielder",
+    "fiend",
+    "fiendish",
+    "fiendishly",
+    "fierce",
+    "fiercely",
+    "fierceness",
+    "fiery",
+    "fierily",
+    "fifteen",
+    "fifteenth",
+    "fifth",
+    "fifty",
+    "fiftieth",
+    "fifty_fifty",
+    "fig",
+    "fight",
+    "fighter",
+    "figment",
+    "figurative",
+    "figuratively",
+    "figure",
+    "figurehead",
+    "figure of speech",
+    "filament",
+    "file",
+    "filings",
+    "filing cabinet",
+    "fill",
+    "filler",
+    "filling",
+    "fillet",
+    "film",
+    "film star",
+    "filter",
+    "filth",
+    "filthy",
+    "fin",
+    "final",
+    "finalist",
+    "finalize",
+    "finally",
+    "finale",
+    "finance",
+    "financial",
+    "financially",
+    "financier",
+    "finch",
+    "find",
+    "finder",
+    "finding",
+    "fine",
+    "fine art",
+    "finely",
+    "fineness",
+    "finery",
+    "finesse",
+    "finger",
+    "fingernail",
+    "fingerprint",
+    "fingertip",
+    "finish",
+    "finite",
+    "fir",
+    "fir cone",
+    "fire",
+    "fire alarm",
+    "firearm",
+    "fire brigade",
+    "fire drill",
+    "fire engine",
     "fire escape", // fireescape", //// fire escape
-    "fire extinguisher", // fireextinguisher", //// فففف fire extinguisher
-    "firefighter", // firefighter
-    "fireguard", // fireguard
-    "fireplace", // fireplace
-    "fireproof", // fireproof
-    "fireside", // fireside
-    "fire station", // firestation", //// فففف fire station
-    "firewood", // firewood
-    "firework", // firework
-    "firing line", // firingline", //// فففف firing line
-    "firing squad", // firingsquad", //// فففف firing squad
-    "firm", // firm
-    "firmly", // firmly
-    "firmness", // firmness
-    "first", // first
-    "first aid", // firstaid", //// فففف first aid
-    "first class", // firstclass", //// ffff first class
-    "first floor", // firstfloor", //// فففف first floor
-    "first-hand", // firsthand", //// فففف first-hand
-    "firstly", // firstly
-    "first name", // firstname", //// فففف first name
-    "the first person", // thefirstperson", //// فففف the first person
-    "first-rate", // firstrate", //// فففف first-rate
-    "fish", // fish
-    "fisherman", // fisherman
-    "fishery", // fishery
-    "fishing", // fishing
-    "fishmonger", // fishmonger
-    "fishy", // fishy
-    "fission", // fission
-    "fissure", // fissure
-    "fist", // fist
-    "fistful", // fistful
-    "fit", // fit
-    "fitted", // fitted
-    "fitful", // fitful
-    "fitfully", // fitfully
-    "fitting", // fitting
-    "five", // five
-    "fiver", // fiver
-    "fix", // fix
-    "fixation", // fixation
-    "fixture", // fixture
-    "fizz", // fizz
-    "fizzy", // fizzy
-    "fizzle", // fizzle
-    "flab", // flab
-    "flabby", // flabby
-    "flabbiness", // flabbiness
-    "flag", // flag
-    "flagship", // flagship
-    "flagon", // flagon
-    "flagrant", // flagrant
-    "flagrantly", // flagrantly
-    "flagstone", // flagstone
-    "flair", // flair
-    "flake", // flake
-    "flaky", // flaky
-    "flamboyant", // flamboyant
-    "flamboyance", // flamboyance
-    "flamboyantly", // flamboyantly
-    "flame", // flame
-    "flaming", // flaming
-    "flamingo", // flamingo
-    "flammable", // flammable
-    "flan", // flan
-    "flank", // flank
-    "flap", // flap
-    "flare", // flare
-    "flare-up", // flareup", //// فففف flare-up
-    "flash", // flash
-    "flashback", // flashback
-    "flashbulb", // flashbulb
-    "flashlight", // flashlight
-    "flashy", // flashy
-    "flashily", // flashily
-    "flask", // flask
-    "flat", // flat
-    "flat-footed", // flatfooted", //// فففف flat-footed
-    "flatten", // flatten
-    "flatter", // flatter
-    "flatterer", // flatterer
-    "flattery", // flattery
-    "flaunt", // flaunt
-    "flautist", // flautist
-    "flavour", // flavour
-    "flavouring", // flavouring
-    "flavourless", // flavourless
-    "flaw", // flaw
-    "flawed", // flawed
-    "flawless", // flawless
-    "flawlessly", // flawlessly
-    "flax", // flax
-    "flaxen", // flaxen
-    "flea", // flea
-    "fleck", // fleck
-    "flee", // flee
-    "fleece", // fleece
-    "fleecy", // fleecy
-    "fleet", // fleet
-    "fleeting", // fleeting
-    "flesh", // flesh
-    "fleshy", // fleshy
-    "flex", // flex
-    "flexible", // flexible
-    "flexibility", // flexibility
-    "flick", // flick
-    "flicker", // flicker
-    "flight", // flight
-    "flight path", // flightpath", //// فففف flight path
-    "flimsy", // flimsy
-    "flimsily", // flimsily
-    "flinch", // flinch
-    "fling", // fling
-    "flint", // flint
-    "flip", // flip
-    "flippancy", // flippancy
-    "flippant", // flippant
-    "flippantly", // flippantly
-    "flipper", // flipper
-    "flirt", // flirt
-    "flirtation", // flirtation
-    "flit", // flit
-    "float", // float
-    "floating", // floating
-    "flock", // flock
-    "flog", // flog
-    "flogging", // flogging
-    "flood", // flood
-    "flood tide", // floodtide", //// فففف flood tide
-    "floodlight", // floodlight
-    "floor", // floor
-    "floorboard", // floorboard
-    "floor show", // floorshow", //// فففف floor show
-    "flop", // flop
-    "floppy", // floppy
-    "floppy disk", // floppydisk", //// ffff floppy disk
-    "flora", // flora
-    "floral", // floral
-    "florid", // florid
-    "florist", // florist
-    "flotation", // flotation
-    "flotilla", // flotilla
-    "flounce", // flounce
-    "flounder", // flounder
-    "flour", // flour
-    "flourish", // flourish
-    "flout", // flout
-    "flow", // flow
-    "flower", // flower
-    "flower bed", // flowerbed", //// فففف flower bed
-    "flowerpot", // flowerpot
-    "flowery", // flowery
-    "flu", // flu
-    "fluctuate", // fluctuate
-    "fluctuation", // fluctuation
-    "fluency", // fluency
-    "fluent", // fluent
-    "fluently", // fluently
-    "fluff", // fluff
-    "fluffy", // fluffy
-    "fluid", // fluid
-    "fluke", // fluke
-    "fluorescent", // fluorescent
-    "fluoride", // fluoride
-    "flurried", // flurried
-    "flurry", // flurry
-    "flush", // flush
-    "flushed", // flushed
-    "fluster", // fluster
-    "flute", // flute
-    "flutter", // flutter
-    "flux", // flux
-    "fly", // fly
-    "flying saucer", // flyingsaucer", //// ffff flying saucer
-    "flying squad", // flyingsquad", //// فففف flying squad
-    "flying visit", // flyingvisit", //// فففف flying visit
-    "flyer", // flyer
-    "flyleaf", // flyleaf
-    "flyover", // flyover
-    "foal", // foal
-    "foam", // foam
-    "focus", // focus
-    "fodder", // fodder
-    "foe", // foe
-    "foetus", // foetus
-    "fog", // fog
-    "fogbound", // fogbound
-    "foggy", // foggy
-    "foghorn", // foghorn
-    "fog lamp", // foglamp", //// فففف fog lamp
-    "foil", // foil
-    "fold", // fold
-    "folder", // folder
-    "foliage", // foliage
-    "folk", // folk
-    "folk dance", // folkdance", //// فففف folk dance
-    "folklore", // folklore
-    "folk music", // folkmusic", //// فففف folk music
-    "folk song", // folksong", //// فففف folk song
-    "follow", // follow
-    "follower", // follower
+    "fire extinguisher",
+    "firefighter",
+    "fireguard",
+    "fireplace",
+    "fireproof",
+    "fireside",
+    "fire station",
+    "firewood",
+    "firework",
+    "firing line",
+    "firing squad",
+    "firm",
+    "firmly",
+    "firmness",
+    "first",
+    "first aid",
+    "first class",
+    "first floor",
+    "first-hand",
+    "firstly",
+    "first name",
+    "the first person",
+    "first-rate",
+    "fish",
+    "fisherman",
+    "fishery",
+    "fishing",
+    "fishmonger",
+    "fishy",
+    "fission",
+    "fissure",
+    "fist",
+    "fistful",
+    "fit",
+    "fitted",
+    "fitful",
+    "fitfully",
+    "fitting",
+    "five",
+    "fiver",
+    "fix",
+    "fixation",
+    "fixture",
+    "fizz",
+    "fizzy",
+    "fizzle",
+    "flab",
+    "flabby",
+    "flabbiness",
+    "flag",
+    "flagship",
+    "flagon",
+    "flagrant",
+    "flagrantly",
+    "flagstone",
+    "flair",
+    "flake",
+    "flaky",
+    "flamboyant",
+    "flamboyance",
+    "flamboyantly",
+    "flame",
+    "flaming",
+    "flamingo",
+    "flammable",
+    "flan",
+    "flank",
+    "flap",
+    "flare",
+    "flare-up",
+    "flash",
+    "flashback",
+    "flashbulb",
+    "flashlight",
+    "flashy",
+    "flashily",
+    "flask",
+    "flat",
+    "flat-footed",
+    "flatten",
+    "flatter",
+    "flatterer",
+    "flattery",
+    "flaunt",
+    "flautist",
+    "flavour",
+    "flavouring",
+    "flavourless",
+    "flaw",
+    "flawed",
+    "flawless",
+    "flawlessly",
+    "flax",
+    "flaxen",
+    "flea",
+    "fleck",
+    "flee",
+    "fleece",
+    "fleecy",
+    "fleet",
+    "fleeting",
+    "flesh",
+    "fleshy",
+    "flex",
+    "flexible",
+    "flexibility",
+    "flick",
+    "flicker",
+    "flight",
+    "flight path",
+    "flimsy",
+    "flimsily",
+    "flinch",
+    "fling",
+    "flint",
+    "flip",
+    "flippancy",
+    "flippant",
+    "flippantly",
+    "flipper",
+    "flirt",
+    "flirtation",
+    "flit",
+    "float",
+    "floating",
+    "flock",
+    "flog",
+    "flogging",
+    "flood",
+    "flood tide",
+    "floodlight",
+    "floor",
+    "floorboard",
+    "floor show",
+    "flop",
+    "floppy",
+    "floppy disk",
+    "flora",
+    "floral",
+    "florid",
+    "florist",
+    "flotation",
+    "flotilla",
+    "flounce",
+    "flounder",
+    "flour",
+    "flourish",
+    "flout",
+    "flow",
+    "flower",
+    "flower bed",
+    "flowerpot",
+    "flowery",
+    "flu",
+    "fluctuate",
+    "fluctuation",
+    "fluency",
+    "fluent",
+    "fluently",
+    "fluff",
+    "fluffy",
+    "fluid",
+    "fluke",
+    "fluorescent",
+    "fluoride",
+    "flurried",
+    "flurry",
+    "flush",
+    "flushed",
+    "fluster",
+    "flute",
+    "flutter",
+    "flux",
+    "fly",
+    "flying saucer",
+    "flying squad",
+    "flying visit",
+    "flyer",
+    "flyleaf",
+    "flyover",
+    "foal",
+    "foam",
+    "focus",
+    "fodder",
+    "foe",
+    "foetus",
+    "fog",
+    "fogbound",
+    "foggy",
+    "foghorn",
+    "fog lamp",
+    "foil",
+    "fold",
+    "folder",
+    "foliage",
+    "folk",
+    "folk dance",
+    "folklore",
+    "folk music",
+    "folk song",
+    "follow",
+    "follower",
     "follow-up", // followup", //// ffff follow-up
-    "following", // following
-    "folly", // folly
-    "fond", // fond
-    "fondly", // fondly
-    "fondness", // fondness
-    "fondle", // fondle
-    "font", // font
-    "food", // food
-    "foodstuff", // foodstuff
-    "fool", // fool
-    "foolhardy", // foolhardy
-    "foolish", // foolish
-    "foolishly", // foolishly
-    "foolishness", // foolishness
-    "foolproof", // foolproof
-    "foot", // foot
-    "foot-and-mouth disease", // footandmouthdisease", //// فففف foot-and-mouth disease
-    "football", // football
-    "footballer", // footballer
-    "football pools", // footballpools", //// فففف football pools
-    "footer", // footer
-    "foothill", // foothill
-    "foothold", // foothold
-    "footnote", // footnote
-    "footpath", // footpath
-    "footprint", // footprint
-    "footstep", // footstep
-    "footwear", // footwear
-    "for", // for
-    "forage", // forage
-    "foray", // foray
-    "forbearance", // forbearance
-    "forbid", // forbid
-    "forbidding", // forbidding
-    "force", // force
-    "forceful", // forceful
-    "forcefully", // forcefully
-    "forceps", // forceps
-    "forcible", // forcible
-    "forcibly", // forcibly
-    "ford", // ford
-    "fore", // fore
-    "forearm", // forearm
-    "forebear", // forebear
-    "foreboding", // foreboding
-    "forecast", // forecast
-    "forecourt", // forecourt
-    "forefather", // forefather
-    "forefinger", // forefinger
-    "forefront", // forefront
-    "foreground", // foreground
-    "forehand", // forehand
-    "forehead", // forehead
-    "foreign", // foreign
-    "foreigner", // foreigner
-    "foreign exchange", // foreignexchange", //// فففف foreign exchange
-    "foreman", // foreman
-    "foremost", // foremost
-    "forensic", // forensic
-    "forerunner", // forerunner
-    "foresee", // foresee
-    "foreseeable", // foreseeable
-    "forest", // forest
-    "forestry", // forestry
-    "forestall", // forestall
-    "foretell", // foretell
-    "forethought", // forethought
-    "forever", // forever
-    "forewarn", // forewarn
-    "foreword", // foreword
-    "forfeit", // forfeit
-    "forge", // forge
-    "forger", // forger
-    "forgery", // forgery
-    "forget", // forget
-    "forgetful", // forgetful
-    "forgivable", // forgivable
-    "forgive", // forgive
-    "forgiveness", // forgiveness
-    "forgiving", // forgiving
-    "forgo", // forgo
-    "fork", // fork
-    "forked", // forked
-    "forklift truck", // forklifttruck", //// فففف forklift truck
-    "forlorn", // forlorn
-    "forlornly", // forlornly
-    "form", // form
-    "formless", // formless
-    "formal", // formal
-    "formality", // formality
-    "formalize", // formalize
-    "formally", // formally
-    "format", // format
-    "formation", // formation
-    "formative", // formative
-    "former", // former
-    "formidable", // formidable
-    "formidably", // formidably
-    "formula", // formula
-    "formulate", // formulate
-    "formulation", // formulation
-    "forsake", // forsake
-    "fort", // fort
-    "forte", // forte
-    "forth", // forth
-    "forthcoming", // forthcoming
-    "fortify", // fortify
-    "fortification", // fortification
-    "fortnight", // fortnight
-    "fortnightly", // fortnightly
-    "fortress", // fortress
-    "fortuitous", // fortuitous
-    "fortunate", // fortunate
-    "fortunately", // fortunately
-    "fortune", // fortune
-    "fortune teller", // fortuneteller", //// فففف fortune teller
-    "forty", // forty
-    "fortieth", // fortieth
-    "forum", // forum
-    "forward", // forward
-    "forwardness", // forwardness
-    "forward-looking", // forwardlooking", //// فففف forward-looking
-    "fossil", // fossil
-    "fossilize", // fossilize
-    "foster", // foster
-    "foul", // foul
-    "foul play", // foulplay", //// فففف foul play
-    "found", // found
-    "foundation", // foundation
-    "founder", // founder
-    "foundry", // foundry
-    "fount", // fount
-    "fountain", // fountain
-    "fountain pen", // fountainpen", //// ffff fountain pen
-    "four", // four
-    "fourth", // fourth
-    "fourteen", // fourteen
-    "fourteenth", // fourteenth
-    "fowl", // fowl
-    "fox", // fox
-    "foyer", // foyer
-    "fractal", // fractal
-    "fraction", // fraction
-    "fractional", // fractional
-    "fracture", // fracture
-    "fragile", // fragile
-    "fragility", // fragility
-    "fragment", // fragment
-    "fragmentary", // fragmentary
-    "fragmentation", // fragmentation
-    "fragrance", // fragrance
-    "fragrant", // fragrant
-    "frail", // frail
-    "frailty", // frailty
-    "frame", // frame
-    "framework", // framework
-    "franchise", // franchise
-    "frank", // frank
-    "frankness", // frankness
-    "frankfurter", // frankfurter
-    "frantic", // frantic
-    "fraternal", // fraternal
-    "fraternally", // fraternally
-    "fraternity", // fraternity
-    "fraternize", // fraternize
-    "fraternization", // fraternization
-    "fraud", // fraud
-    "fraudulent", // fraudulent
-    "fraught", // fraught
-    "fray", // fray
-    "freak", // freak
-    "freakish", // freakish
-    "freckle", // freckle
-    "freckled", // freckled
-    "free", // free
-    "free enterprise", // freeenterprise", //// ffff free enterprise
-    "free-for-all", // freeforall", //// فففف free-for-all
-    "freehand", // freehand
-    "freelance", // freelance
-    "freely", // freely
-    "free radical", // freeradical", //// فففف free radical
-    "free-range", // freerange", //// فففف free-range
-    "free speech", // freespeech", //// فففف free speech
-    "free trade", // freetrade", //// ffff free trade
-    "free will", // freewill", //// ffff free will
-    "freedom", // freedom
-    "freeze", // freeze
-    "freezer", // freezer
-    "freezing point", // freezingpoint", //// فففف freezing point
-    "freight", // freight
-    "freighter", // freighter
+    "following",
+    "folly",
+    "fond",
+    "fondly",
+    "fondness",
+    "fondle",
+    "font",
+    "food",
+    "foodstuff",
+    "fool",
+    "foolhardy",
+    "foolish",
+    "foolishly",
+    "foolishness",
+    "foolproof",
+    "foot",
+    "foot-and-mouth disease",
+    "football",
+    "footballer",
+    "football pools",
+    "footer",
+    "foothill",
+    "foothold",
+    "footnote",
+    "footpath",
+    "footprint",
+    "footstep",
+    "footwear",
+    "for",
+    "forage",
+    "foray",
+    "forbearance",
+    "forbid",
+    "forbidding",
+    "force",
+    "forceful",
+    "forcefully",
+    "forceps",
+    "forcible",
+    "forcibly",
+    "ford",
+    "fore",
+    "forearm",
+    "forebear",
+    "foreboding",
+    "forecast",
+    "forecourt",
+    "forefather",
+    "forefinger",
+    "forefront",
+    "foreground",
+    "forehand",
+    "forehead",
+    "foreign",
+    "foreigner",
+    "foreign exchange",
+    "foreman",
+    "foremost",
+    "forensic",
+    "forerunner",
+    "foresee",
+    "foreseeable",
+    "forest",
+    "forestry",
+    "forestall",
+    "foretell",
+    "forethought",
+    "forever",
+    "forewarn",
+    "foreword",
+    "forfeit",
+    "forge",
+    "forger",
+    "forgery",
+    "forget",
+    "forgetful",
+    "forgivable",
+    "forgive",
+    "forgiveness",
+    "forgiving",
+    "forgo",
+    "fork",
+    "forked",
+    "forklift truck",
+    "forlorn",
+    "forlornly",
+    "form",
+    "formless",
+    "formal",
+    "formality",
+    "formalize",
+    "formally",
+    "format",
+    "formation",
+    "formative",
+    "former",
+    "formidable",
+    "formidably",
+    "formula",
+    "formulate",
+    "formulation",
+    "forsake",
+    "fort",
+    "forte",
+    "forth",
+    "forthcoming",
+    "fortify",
+    "fortification",
+    "fortnight",
+    "fortnightly",
+    "fortress",
+    "fortuitous",
+    "fortunate",
+    "fortunately",
+    "fortune",
+    "fortune teller",
+    "forty",
+    "fortieth",
+    "forum",
+    "forward",
+    "forwardness",
+    "forward-looking",
+    "fossil",
+    "fossilize",
+    "foster",
+    "foul",
+    "foul play",
+    "found",
+    "foundation",
+    "founder",
+    "foundry",
+    "fount",
+    "fountain",
+    "fountain pen",
+    "four",
+    "fourth",
+    "fourteen",
+    "fourteenth",
+    "fowl",
+    "fox",
+    "foyer",
+    "fractal",
+    "fraction",
+    "fractional",
+    "fracture",
+    "fragile",
+    "fragility",
+    "fragment",
+    "fragmentary",
+    "fragmentation",
+    "fragrance",
+    "fragrant",
+    "frail",
+    "frailty",
+    "frame",
+    "framework",
+    "franchise",
+    "frank",
+    "frankness",
+    "frankfurter",
+    "frantic",
+    "fraternal",
+    "fraternally",
+    "fraternity",
+    "fraternize",
+    "fraternization",
+    "fraud",
+    "fraudulent",
+    "fraught",
+    "fray",
+    "freak",
+    "freakish",
+    "freckle",
+    "freckled",
+    "free",
+    "free enterprise",
+    "free-for-all",
+    "freehand",
+    "freelance",
+    "freely",
+    "free radical",
+    "free-range",
+    "free speech",
+    "free trade",
+    "free will",
+    "freedom",
+    "freeze",
+    "freezer",
+    "freezing point",
+    "freight",
+    "freighter",
     "French", // french", //// ffff French
-    "French window", // frenchwindow", //// ffff French window
-    "frenzy", // frenzy
-    "frenzied", // frenzied
-    "frequency", // frequency
-    "frequent", // frequent
-    "frequently", // frequently
-    "fresco", // fresco
-    "fresh", // fresh
-    "freshly", // freshly
-    "freshness", // freshness
-    "freshwater", // freshwater
-    "freshen", // freshen
-    "fret", // fret
-    "fretful", // fretful
-    "fretfully", // fretfully
-    "friar", // friar
-    "friction", // friction
+    "French window",
+    "frenzy",
+    "frenzied",
+    "frequency",
+    "frequent",
+    "frequently",
+    "fresco",
+    "fresh",
+    "freshly",
+    "freshness",
+    "freshwater",
+    "freshen",
+    "fret",
+    "fretful",
+    "fretfully",
+    "friar",
+    "friction",
     "Friday", // friday", //// ffff Friday
-    "fridge", // fridge
-    "friend", // friend
-    "friendless", // friendless
-    "friendly", // friendly
-    "friendliness", // friendliness
-    "friendship", // friendship
-    "frieze", // frieze
-    "frigate", // frigate
-    "fright", // fright
-    "frighten", // frighten
-    "frightened", // frightened
-    "frightening", // frightening
-    "frighteningly", // frighteningly
-    "frightful", // frightful
-    "frightfully", // frightfully
-    "frigid", // frigid
-    "frigidity", // frigidity
-    "frigidly", // frigidly
-    "frill", // frill
-    "frilly", // frilly
-    "fringe", // fringe
-    "frisk", // frisk
-    "frisky", // frisky
-    "fritter", // fritter
-    "frivolous", // frivolous
-    "frivolity", // frivolity
-    "frivolously", // frivolously
-    "frizzy", // frizzy
-    "frog", // frog
-    "frogman", // frogman
-    "frolic", // frolic
-    "from", // from
-    "front", // front
-    "frontage", // frontage
-    "frontal", // frontal
-    "the front line", // thefrontline", //// ffff the front line
-    "front-page", // frontpage", //// فففف front-page
-    "frontier", // frontier
-    "frost", // frost
-    "frostbite", // frostbite
-    "frostbitten", // frostbitten
-    "frosty", // frosty
-    "froth", // froth
-    "frothy", // frothy
-    "frown", // frown
-    "frugal", // frugal
-    "fruit", // fruit
-    "fruitful", // fruitful
-    "fruitless", // fruitless
-    "fruity", // fruity
-    "fruition", // fruition
-    "frustrate", // frustrate
-    "frustrated", // frustrated
-    "frustration", // frustration
-    "fry", // fry
-    "frying pan", // fryingpan", //// فففف frying pan
-    "fuck", // fuck
-    "fuck all", // fuckall", //// فففف fuck all
-    "fucking", // fucking
-    "fudge", // fudge
-    "fuel", // fuel
-    "fuel injection", // fuelinjection", //// فففف fuel injection
-    "fugitive", // fugitive
-    "fulfil", // fulfil
-    "fulfilment", // fulfilment
-    "full", // full
-    "full board", // fullboard", //// ffff full board
-    "full-length", // fulllength", //// فففف full-length
-    "full moon", // fullmoon", //// فففف full moon
-    "fullness", // fullness
-    "full-scale", // fullscale", //// فففف full-scale
+    "fridge",
+    "friend",
+    "friendless",
+    "friendly",
+    "friendliness",
+    "friendship",
+    "frieze",
+    "frigate",
+    "fright",
+    "frighten",
+    "frightened",
+    "frightening",
+    "frighteningly",
+    "frightful",
+    "frightfully",
+    "frigid",
+    "frigidity",
+    "frigidly",
+    "frill",
+    "frilly",
+    "fringe",
+    "frisk",
+    "frisky",
+    "fritter",
+    "frivolous",
+    "frivolity",
+    "frivolously",
+    "frizzy",
+    "frog",
+    "frogman",
+    "frolic",
+    "from",
+    "front",
+    "frontage",
+    "frontal",
+    "the front line",
+    "front-page",
+    "frontier",
+    "frost",
+    "frostbite",
+    "frostbitten",
+    "frosty",
+    "froth",
+    "frothy",
+    "frown",
+    "frugal",
+    "fruit",
+    "fruitful",
+    "fruitless",
+    "fruity",
+    "fruition",
+    "frustrate",
+    "frustrated",
+    "frustration",
+    "fry",
+    "frying pan",
+    "fuck",
+    "fuck all",
+    "fucking",
+    "fudge",
+    "fuel",
+    "fuel injection",
+    "fugitive",
+    "fulfil",
+    "fulfilment",
+    "full",
+    "full board",
+    "full-length",
+    "full moon",
+    "fullness",
+    "full-scale",
     "full stop", // fullstop", //// full stop
-    "full-time", // fulltime", //// فففف full-time
-    "fully", // fully
-    "fumble", // fumble
-    "fume", // fume
-    "fun", // fun
-    "function", // function
-    "functional", // functional
-    "functionality", // functionality
-    "fund", // fund
-    "fundamental", // fundamental
-    "fundamentalism", // fundamentalism
-    "fundamentalist", // fundamentalist
-    "fundamentally", // fundamentally
-    "funeral", // funeral
-    "funeral parlour", // funeralparlour", //// فففف funeral parlour
-    "fungus", // fungus
-    "funnel", // funnel
-    "funny", // funny
-    "funnily", // funnily
-    "funny bone", // funnybone", //// فففف funny bone
-    "fur", // fur
-    "furry", // furry
-    "furious", // furious
-    "furiously", // furiously
-    "furlong", // furlong
-    "furnace", // furnace
-    "furnish", // furnish
-    "furnishings", // furnishings
-    "furniture", // furniture
-    "furrier", // furrier
-    "furrow", // furrow
-    "further", // further
-    "furtherance", // furtherance
-    "further education", // furthereducation", //// فففف further education
-    "furthermore", // furthermore
-    "furthermost", // furthermost
-    "furtive", // furtive
-    "furtively", // furtively
-    "furtiveness", // furtiveness
-    "fury", // fury
-    "fuse", // fuse
-    "fuselage", // fuselage
-    "fusion", // fusion
-    "fuss", // fuss
-    "fussy", // fussy
-    "fussily", // fussily
-    "futile", // futile
-    "futility", // futility
-    "future", // future
-    "futuristic", // futuristic
-    "fuzz", // fuzz
-    "fuzzy", // fuzzy
-    "fuzzily", // fuzzily
-    "fuzziness", // fuzziness",
+    "full-time",
+    "fully",
+    "fumble",
+    "fume",
+    "fun",
+    "function",
+    "functional",
+    "functionality",
+    "fund",
+    "fundamental",
+    "fundamentalism",
+    "fundamentalist",
+    "fundamentally",
+    "funeral",
+    "funeral parlour",
+    "fungus",
+    "funnel",
+    "funny",
+    "funnily",
+    "funny bone",
+    "fur",
+    "furry",
+    "furious",
+    "furiously",
+    "furlong",
+    "furnace",
+    "furnish",
+    "furnishings",
+    "furniture",
+    "furrier",
+    "furrow",
+    "further",
+    "furtherance",
+    "further education",
+    "furthermore",
+    "furthermost",
+    "furtive",
+    "furtively",
+    "furtiveness",
+    "fury",
+    "fuse",
+    "fuselage",
+    "fusion",
+    "fuss",
+    "fussy",
+    "fussily",
+    "futile",
+    "futility",
+    "future",
+    "futuristic",
+    "fuzz",
+    "fuzzy",
+    "fuzzily",
+    "fuzziness",
   ],
   // "pastttt": ["past simple", "past perfect",],
   // "pastttt": ["past simple", "past perfect",],

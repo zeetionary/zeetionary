@@ -102,7 +102,7 @@ class EnglishEntrycoercion extends StatelessWidget {
                             englishText:
                                 "He claimed he had only acted under coercion.",
                             kurdishText:
-                                "بانگەشەی ئەوەی کرد کە تەنھا لە ژێر فشاردا ھەنگاوی نابوو.", // coercion",
+                                "بانگەشەی ئەوەی کرد کە تەنھا لە ژێر فشاردا ھەنگاوی نابوو.",
                             onPressedBritish: () => speakcoercions1("en-GB"),
                             onPressedAmerican: () => speakcoercions1("en-US"),
                           ),

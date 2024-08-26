@@ -95,7 +95,7 @@ class EnglishEntryconclusively extends StatelessWidget {
                             englishText:
                                 "It is impossible to demonstrate/prove conclusively that the factory is responsible for the pollution.",
                             kurdishText:
-                                "ئەستەمە یەکلایی‌کەرەوانە پیشان بدرێت کە کارگەکە بەرپرسە بۆ پیسکردنی ژینگەیی.", // conclusively",
+                                "ئەستەمە یەکلایی‌کەرەوانە پیشان بدرێت کە کارگەکە بەرپرسە بۆ پیسکردنی ژینگەیی.",
                             onPressedBritish: () =>
                                 speakconclusivelys1("en-GB"),
                             onPressedAmerican: () =>

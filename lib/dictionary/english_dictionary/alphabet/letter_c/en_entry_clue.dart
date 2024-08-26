@@ -140,8 +140,7 @@ class EnglishEntryclue extends StatelessWidget {
                                   "١. (ناو) شتێک، بەڵگەیەک، یان زانیارییەک کە یارمەتی پۆلیس دەدات لە چارەسەری تاوانێک"),
                           SentencesRow(
                             englishText: "The burglar left no clues.",
-                            kurdishText:
-                                "دزەکە ھیچ سەرەداوێکی جێنەھێشت.", // clue",
+                            kurdishText: "دزەکە ھیچ سەرەداوێکی جێنەھێشت.",
                             onPressedBritish: () => speakclues1("en-GB"),
                             onPressedAmerican: () => speakclues1("en-US"),
                           ),

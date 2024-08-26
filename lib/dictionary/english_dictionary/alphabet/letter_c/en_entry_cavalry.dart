@@ -179,7 +179,7 @@ class EnglishEntrycavalry extends StatelessWidget {
                             englishText:
                                 "The cavalry charged up the hill to engage the rebels.",
                             kurdishText:
-                                "سوارەکان بە گردکەدا چوونە سەرەوە بۆ ڕووبەڕووبوونەوەی یاخیبووان.", // cavalry",
+                                "سوارەکان بە گردکەدا چوونە سەرەوە بۆ ڕووبەڕووبوونەوەی یاخیبووان.",
                             onPressedBritish: () => speakcavalrys1("en-GB"),
                             onPressedAmerican: () => speakcavalrys1("en-US"),
                           ),

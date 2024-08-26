@@ -179,7 +179,7 @@ class EnglishEntrycaste extends StatelessWidget {
                             englishText:
                                 "He belongs to one of the highest castes.",
                             kurdishText:
-                                "سەر بە یەکێک لە چینە باڵاکانی ھیندۆزییە.", // caste",
+                                "سەر بە یەکێک لە چینە باڵاکانی ھیندۆزییە.",
                             onPressedBritish: () => speakcastes1("en-GB"),
                             onPressedAmerican: () => speakcastes1("en-US"),
                           ),

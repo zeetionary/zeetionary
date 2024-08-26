@@ -106,7 +106,7 @@ class EnglishEntrycheckin extends StatelessWidget {
                             englishText:
                                 "The airline apologizes for long delays at check-ins today.",
                             kurdishText:
-                                "ھێڵە ئاسماننییەکە دوای لێبووردن دەکات بۆ دواکەوتنە درێژخایەنەکان ئەمڕۆ لە خاڵی پشکنینەکە.", // check-in",
+                                "ھێڵە ئاسماننییەکە دوای لێبووردن دەکات بۆ دواکەوتنە درێژخایەنەکان ئەمڕۆ لە خاڵی پشکنینەکە.",
                             onPressedBritish: () => speakcheckins1("en-GB"),
                             onPressedAmerican: () => speakcheckins1("en-US"),
                           ),

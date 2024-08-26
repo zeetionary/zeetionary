@@ -106,8 +106,7 @@ class EnglishEntryclang extends StatelessWidget {
                                   "١. (کردار) درووستکردنی دەنگێکی زرنگانەوەی بەرز وەک ئەوەی کانزایەک لێی بدرێت، یان ئەوەی لە شتێک بدەیت بۆ ئەوەی ئەم دەنگە درووست بکات"),
                           SentencesRow(
                             englishText: "Bells were clanging in the tower.",
-                            kurdishText:
-                                "زەنگەکان لە قوللەکە دەزرنگانەوە.", // clang",
+                            kurdishText: "زەنگەکان لە قوللەکە دەزرنگانەوە.",
                             onPressedBritish: () => speakclangs1("en-GB"),
                             onPressedAmerican: () => speakclangs1("en-US"),
                           ),

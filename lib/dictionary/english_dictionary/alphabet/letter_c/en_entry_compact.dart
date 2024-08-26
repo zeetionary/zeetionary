@@ -157,7 +157,7 @@ class EnglishEntrycompact extends StatelessWidget {
                             englishText:
                                 "The device is small and compact and weighs only 10 grams.",
                             kurdishText:
-                                "ئامێرەکە بچووک و پەستاوتەیە و کێشی تەنھا ١٠ گرامە.", // compact",
+                                "ئامێرەکە بچووک و پەستاوتەیە و کێشی تەنھا ١٠ گرامە.",
                             onPressedBritish: () => speakcompacts1("en-GB"),
                             onPressedAmerican: () => speakcompacts1("en-US"),
                           ),

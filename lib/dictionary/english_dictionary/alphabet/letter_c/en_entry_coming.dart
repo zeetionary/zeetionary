@@ -110,7 +110,7 @@ class EnglishEntrycoming extends StatelessWidget {
                             englishText:
                                 "With the coming of modern technology, many jobs were lost.",
                             kurdishText:
-                                "لەگەڵ ھاتنی تەکنەلۆژیای سەردەم، زۆر کار لەدەستچوون.", // coming",
+                                "لەگەڵ ھاتنی تەکنەلۆژیای سەردەم، زۆر کار لەدەستچوون.",
                             onPressedBritish: () => speakcomings1("en-GB"),
                             onPressedAmerican: () => speakcomings1("en-US"),
                           ),

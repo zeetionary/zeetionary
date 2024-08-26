@@ -182,7 +182,7 @@ class EnglishEntrycapability extends StatelessWidget {
                             englishText:
                                 "She has the capability to become a very fine doctor.",
                             kurdishText:
-                                "توانستی ھەیە ببێت بە دکتۆرێکی زۆر باش.", // capability
+                                "توانستی ھەیە ببێت بە دکتۆرێکی زۆر باش",
                             onPressedBritish: () => speakcapabilitys1("en-GB"),
                             onPressedAmerican: () => speakcapabilitys1("en-US"),
                           ),

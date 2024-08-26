@@ -118,7 +118,7 @@ class EnglishEntrycircular extends StatelessWidget {
                             englishText:
                                 "The crater was two miles across and roughly circular.",
                             kurdishText:
-                                "چاڵەکە دوو میل پانتایی ھەبوو و بەنزیکەیی بازنەیی بوو.", // circular",
+                                "چاڵەکە دوو میل پانتایی ھەبوو و بەنزیکەیی بازنەیی بوو.",
                             onPressedBritish: () => speakcirculars1("en-GB"),
                             onPressedAmerican: () => speakcirculars1("en-US"),
                           ),

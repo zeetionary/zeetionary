@@ -315,8 +315,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ژمارەیەکی زۆر لە خەڵکی کە لە شوێنێک کۆبوونەتەوە"),
           SentencesRow(
             englishText: "He pushed his way through the crowd.",
-            kurdishText:
-                "ڕێگای خۆی بەناو جەماوەرەکەدا کردەوە.", // crowd", please follow LX instructions
+            kurdishText: "ڕێگای خۆی بەناو جەماوەرەکەدا کردەوە.",
             onPressedBritish: () => speakcrowds1("en-GB"),
             onPressedAmerican: () => speakcrowds1("en-US"),
           ),

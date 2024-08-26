@@ -102,7 +102,7 @@ class EnglishEntrycompletion extends StatelessWidget {
                             englishText:
                                 "Satisfactory completion of the course does not ensure you a job.",
                             kurdishText:
-                                "تەواوکردنی گونجاوی کۆرسەکە واتای ئەوە نییە کارێک وەردەگریت.", // completion",
+                                "تەواوکردنی گونجاوی کۆرسەکە واتای ئەوە نییە کارێک وەردەگریت.",
                             onPressedBritish: () => speakcompletions1("en-GB"),
                             onPressedAmerican: () => speakcompletions1("en-US"),
                           ),

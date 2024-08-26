@@ -99,7 +99,7 @@ class EnglishEntrycigar extends StatelessWidget {
                                   "١. (ناو) گەڵای وشکی لوولدراوی تووتن کە خەڵکی وەک جگەرە دەیکێشن بەڵام گەورەترە و کاغەز لە دەوری نەپێچراوە"),
                           SentencesRow(
                             englishText: "He paused and drew on his cigar.",
-                            kurdishText: "وەستا و سیگارێکی دەرھێنا.", // cigar",
+                            kurdishText: "وەستا و سیگارێکی دەرھێنا.",
                             onPressedBritish: () => speakcigars1("en-GB"),
                             onPressedAmerican: () => speakcigars1("en-US"),
                           ),

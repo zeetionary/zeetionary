@@ -601,8 +601,7 @@ class EnglishEntryclear extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She gave me clear and precise directions.",
-                            kurdishText:
-                                "ئاراستەی ڕوون و وردی پێدام.", // clear",
+                            kurdishText: "ئاراستەی ڕوون و وردی پێدام.",
                             onPressedBritish: () => speakclears1("en-GB"),
                             onPressedAmerican: () => speakclears1("en-US"),
                           ),

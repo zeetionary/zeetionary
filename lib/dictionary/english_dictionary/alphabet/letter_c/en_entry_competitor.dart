@@ -123,7 +123,7 @@ class EnglishEntrycompetitor extends StatelessWidget {
                             englishText:
                                 "Over 200 competitors entered the race.",
                             kurdishText:
-                                "زیاتر لە ٢٠٠ ڕکابەر بەژداری پێشبڕکێکەن.", // competitor",
+                                "زیاتر لە ٢٠٠ ڕکابەر بەژداری پێشبڕکێکەن.",
                             onPressedBritish: () => speakcompetitors1("en-GB"),
                             onPressedAmerican: () => speakcompetitors1("en-US"),
                           ),

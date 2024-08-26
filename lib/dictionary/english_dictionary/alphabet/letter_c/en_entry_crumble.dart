@@ -257,8 +257,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) شکان، یان شکاندن بۆ چەند پارچەیەک"),
           SentencesRow(
             englishText: "Rice flour makes the cake less likely to crumble.",
-            kurdishText:
-                "ئاردی برنج وا دەکات کێکەکە ئەگەری کەمتر بێت ورد بێت.", // crumble", please follow LX instructions
+            kurdishText: "ئاردی برنج وا دەکات کێکەکە ئەگەری کەمتر بێت ورد بێت.",
             onPressedBritish: () => speakcrumbles1("en-GB"),
             onPressedAmerican: () => speakcrumbles1("en-US"),
           ),

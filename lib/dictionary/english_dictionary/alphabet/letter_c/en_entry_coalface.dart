@@ -94,7 +94,7 @@ class EnglishEntrycoalface extends StatelessWidget {
                             englishText:
                                 "The miners had to crawl to reach the coalface.",
                             kurdishText:
-                                "کانکارەکان دەبوو بە زەوییەکەدا بخشێن بۆ ئەوەی بگەن بە ڕووی خەڵووزەکە.", // coalface",
+                                "کانکارەکان دەبوو بە زەوییەکەدا بخشێن بۆ ئەوەی بگەن بە ڕووی خەڵووزەکە.",
                             onPressedBritish: () => speakcoalfaces1("en-GB"),
                             onPressedAmerican: () => speakcoalfaces1("en-US"),
                           ),

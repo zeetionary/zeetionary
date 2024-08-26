@@ -180,7 +180,7 @@ class EnglishEntrycapably extends StatelessWidget {
                             englishText:
                                 "He managed the conference very capably.",
                             kurdishText:
-                                "زۆر لێوەشاوانە کۆنفرانسەکەی بەڕێوەبرد.", // capably
+                                "زۆر لێوەشاوانە کۆنفرانسەکەی بەڕێوەبرد",
                             onPressedBritish: () => speakcapablys1("en-GB"),
                             onPressedAmerican: () => speakcapablys1("en-US"),
                           ),

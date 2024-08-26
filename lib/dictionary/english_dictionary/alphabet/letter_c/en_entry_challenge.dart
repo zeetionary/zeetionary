@@ -187,7 +187,7 @@ class EnglishEntrychallenge extends StatelessWidget {
                             englishText:
                                 "The role will be the biggest challenge of his acting career.",
                             kurdishText:
-                                "ڕۆڵەکە دەبێتە قورسترین بەرەنگاریی کاری ھونەریی.", // challenge",
+                                "ڕۆڵەکە دەبێتە قورسترین بەرەنگاریی کاری ھونەریی.",
                             onPressedBritish: () => speakchallenges1("en-GB"),
                             onPressedAmerican: () => speakchallenges1("en-US"),
                           ),

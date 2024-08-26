@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The crew acted courageously in staying with the ship until all the passengers had been taken to safety.",
             kurdishText:
-                "تاقمەکە بوێرانە مامەڵەیان کرد لەگەڵ مانەوە لە کەشتییەکە تاوەکو ھەموو گەشتیارەکان بردرانە سەلامەتی.", // courageously", please follow LX instructions
+                "تاقمەکە بوێرانە مامەڵەیان کرد لەگەڵ مانەوە لە کەشتییەکە تاوەکو ھەموو گەشتیارەکان بردرانە سەلامەتی.",
             onPressedBritish: () => speakcourageouslys1("en-GB"),
             onPressedAmerican: () => speakcourageouslys1("en-US"),
           ),

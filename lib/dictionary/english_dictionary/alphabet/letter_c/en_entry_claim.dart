@@ -301,8 +301,7 @@ class EnglishEntryclaim extends StatelessWidget {
                                   "١. (کردار) وتنی ئەوەی شتێک ڕاستە ئەگەرچی نەسەلمێندراوە و خەڵکی دیکە ڕەنگە باوەڕ نەکەن"),
                           SentencesRow(
                             englishText: "I don't claim to be an expert.",
-                            kurdishText:
-                                "بانگەشەی ئەوە ناکەم پسپۆڕێک بم.", // claim",
+                            kurdishText: "بانگەشەی ئەوە ناکەم پسپۆڕێک بم.",
                             onPressedBritish: () => speakclaims1("en-GB"),
                             onPressedAmerican: () => speakclaims1("en-US"),
                           ),

@@ -94,7 +94,7 @@ class EnglishEntrychemicalwarfare extends StatelessWidget {
                             englishText:
                                 "He denied his country has developed the capability for chemical warfare.",
                             kurdishText:
-                                "نکۆڵی کرد لەوەی وڵاتەکەی توانای شەڕی کیمیایی گەشەپێ‌دابێت.", // chemical warfare",
+                                "نکۆڵی کرد لەوەی وڵاتەکەی توانای شەڕی کیمیایی گەشەپێ‌دابێت.",
                             onPressedBritish: () =>
                                 speakchemicalwarfares1("en-GB"),
                             onPressedAmerican: () =>

@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He glanced cursorily at the letter, then gave it to me.",
             kurdishText:
-                "بە سەرسەرەکی‌یانە چاوی لە نامەکە کرد و دواتر دای بە من.", // cursorily", please follow LX instructions
+                "بە سەرسەرەکی‌یانە چاوی لە نامەکە کرد و دواتر دای بە من.",
             onPressedBritish: () => speakcursorilys1("en-GB"),
             onPressedAmerican: () => speakcursorilys1("en-US"),
           ),

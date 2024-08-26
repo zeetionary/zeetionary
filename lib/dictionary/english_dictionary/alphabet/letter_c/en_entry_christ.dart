@@ -106,7 +106,7 @@ class EnglishEntrychrist extends StatelessWidget {
                             englishText:
                                 "They believe that Christ will come again.",
                             kurdishText:
-                                "باوەڕیان وابوو کە پێغەمبەر عیسا دەگەڕێتەوە.", // Christ",
+                                "باوەڕیان وابوو کە پێغەمبەر عیسا دەگەڕێتەوە.",
                             onPressedBritish: () => speakchrists1("en-GB"),
                             onPressedAmerican: () => speakchrists1("en-US"),
                           ),

@@ -109,7 +109,7 @@ class EnglishEntrycomply extends StatelessWidget {
                             englishText:
                                 "They refused to comply with the UN resolution.",
                             kurdishText:
-                                "ڕەتیانکردەوە پابەندی بڕیاری نەتەوە یەکگرتووەکان بن.", // comply",
+                                "ڕەتیانکردەوە پابەندی بڕیاری نەتەوە یەکگرتووەکان بن.",
                             onPressedBritish: () => speakcomplys1("en-GB"),
                             onPressedAmerican: () => speakcomplys1("en-US"),
                           ),

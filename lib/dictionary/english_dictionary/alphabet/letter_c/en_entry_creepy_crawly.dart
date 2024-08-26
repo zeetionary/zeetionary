@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She screamed when she saw a creepy-crawly on the floor.",
             kurdishText:
-                "کە جووڵەوەرێکی بینی لەسەر زەوییەکە قیژاندی.", // creepy-crawly", please follow LX instructions
+                "کە جووڵەوەرێکی بینی لەسەر زەوییەکە قیژاندی.",
             onPressedBritish: () => speakcreepycrawlys1("en-GB"),
             onPressedAmerican: () => speakcreepycrawlys1("en-US"),
           ),

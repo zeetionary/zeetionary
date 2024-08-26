@@ -139,7 +139,7 @@ class EnglishEntrybrine extends StatelessWidget {
                             englishText:
                                 "Fishermen use brine to preserve their catch during long sea voyages.",
                             kurdishText:
-                                "ماسیگران ئاووخوێ بەکاردێنن بۆ پاراستنی ئەوەی گرتوویانە لە کاتی گەشتی درێژی دەریاییدا.", // brine" as
+                                "ماسیگران ئاووخوێ بەکاردێنن بۆ پاراستنی ئەوەی گرتوویانە لە کاتی گەشتی درێژی دەریاییدا.",
                             onPressedBritish: () => speakbrines1("en-GB"),
                             onPressedAmerican: () => speakbrines1("en-US"),
                           ),

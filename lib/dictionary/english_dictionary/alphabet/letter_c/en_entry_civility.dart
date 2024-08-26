@@ -102,7 +102,7 @@ class EnglishEntrycivility extends StatelessWidget {
                             englishText:
                                 "Staff members are trained to treat customers with civility at all times.",
                             kurdishText:
-                                "ئەندامانی ستافەکە ڕادەھێنرێن کە لە ھەموو کاتێکدا بەڕێزەوە مامەڵە لەگەڵ کڕیاران بکەن.", // civility",
+                                "ئەندامانی ستافەکە ڕادەھێنرێن کە لە ھەموو کاتێکدا بەڕێزەوە مامەڵە لەگەڵ کڕیاران بکەن.",
                             onPressedBritish: () => speakcivilitys1("en-GB"),
                             onPressedAmerican: () => speakcivilitys1("en-US"),
                           ),

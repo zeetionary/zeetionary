@@ -180,7 +180,7 @@ class EnglishEntrycandlestick extends StatelessWidget {
                             englishText:
                                 "The silver candlesticks gleamed on the table.",
                             kurdishText:
-                                "جێ‌مۆمە زیوییەکە لەسەر مێزەکە دەبریسکایەوە.", // candlestick",
+                                "جێ‌مۆمە زیوییەکە لەسەر مێزەکە دەبریسکایەوە.",
                             onPressedBritish: () => speakcandlesticks1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcandlesticks1("en-US"),

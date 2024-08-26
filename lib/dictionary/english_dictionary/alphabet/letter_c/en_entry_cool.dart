@@ -316,7 +316,7 @@ class EnglishEntrycool extends StatelessWidget {
                             englishText:
                                 "Cooler weather is forecast for the weekend.",
                             kurdishText:
-                                "کەشی فێنکتر بۆ کۆتایی ھەفتە پێشبینی دەکرێت.", // cool",
+                                "کەشی فێنکتر بۆ کۆتایی ھەفتە پێشبینی دەکرێت.",
                             onPressedBritish: () => speakcools1("en-GB"),
                             onPressedAmerican: () => speakcools1("en-US"),
                           ),

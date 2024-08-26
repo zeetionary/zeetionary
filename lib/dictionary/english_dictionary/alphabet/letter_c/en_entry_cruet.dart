@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The waiter refilled the salt cruet when it was empty.",
-            kurdishText:
-                "گارسۆنەکە خوێ‌دانەکەی پڕکردەوە کە بەتاڵ بوو.", // cruet", please follow LX instructions
+            kurdishText: "گارسۆنەکە خوێ‌دانەکەی پڕکردەوە کە بەتاڵ بوو.",
             onPressedBritish: () => speakcruets1("en-GB"),
             onPressedAmerican: () => speakcruets1("en-US"),
           ),

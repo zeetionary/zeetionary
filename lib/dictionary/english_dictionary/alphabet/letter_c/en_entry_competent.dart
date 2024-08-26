@@ -120,8 +120,7 @@ class EnglishEntrycompetent extends StatelessWidget {
                               text: "١. (ھاوەڵناو) پێنناسە"),
                           SentencesRow(
                             englishText: "He's very competent in his work.",
-                            kurdishText:
-                                "زۆر لێوەشاوەیە لە کارەکەیدا.", // competent",
+                            kurdishText: "زۆر لێوەشاوەیە لە کارەکەیدا.",
                             onPressedBritish: () => speakcompetents1("en-GB"),
                             onPressedAmerican: () => speakcompetents1("en-US"),
                           ),

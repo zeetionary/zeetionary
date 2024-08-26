@@ -96,7 +96,7 @@ class EnglishEntryconsumergoods extends StatelessWidget {
                             englishText:
                                 "Prices of consumer goods rose by 2.5% last year.",
                             kurdishText:
-                                "نرخی کەلووپەلە بەکارھێنەران ساڵی ڕابردوو بە ڕێژەی ٢,٥٪ بەرزبوویەوە.", // consumer goods",
+                                "نرخی کەلووپەلە بەکارھێنەران ساڵی ڕابردوو بە ڕێژەی ٢,٥٪ بەرزبوویەوە.",
                             onPressedBritish: () =>
                                 speakconsumergoodss1("en-GB"),
                             onPressedAmerican: () =>

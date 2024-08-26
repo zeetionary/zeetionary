@@ -181,7 +181,7 @@ class EnglishEntrycantilever extends StatelessWidget {
                             englishText:
                                 "The architect used a cantilever to extend the balcony.",
                             kurdishText:
-                                "ئەندازیارەکە کانتیلیڤەری بەکارھێنا بۆ درێژکردنەوەی بەرھەیوانەکە.", // cantilever
+                                "ئەندازیارەکە کانتیلیڤەری بەکارھێنا بۆ درێژکردنەوەی بەرھەیوانەکە",
                             onPressedBritish: () => speakcantilevers1("en-GB"),
                             onPressedAmerican: () => speakcantilevers1("en-US"),
                           ),

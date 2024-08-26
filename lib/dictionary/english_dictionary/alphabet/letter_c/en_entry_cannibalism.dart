@@ -181,7 +181,7 @@ class EnglishEntrycannibalism extends StatelessWidget {
                             englishText:
                                 "The paper describes a Stone Age tribe that practised cannibalism.",
                             kurdishText:
-                                "توێژینەوەکە باس لە خێڵێکی چاخی بەردین دەکات کە کاری مرۆڤخۆریان دەکرد.", // cannibalism",
+                                "توێژینەوەکە باس لە خێڵێکی چاخی بەردین دەکات کە کاری مرۆڤخۆریان دەکرد.",
                             onPressedBritish: () => speakcannibalisms1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcannibalisms1("en-US"),

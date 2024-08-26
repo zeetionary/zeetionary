@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The garden was filled with colorful flowers and green creepers.",
-            kurdishText:
-                "باخچەکە پڕ بوو لە گوڵی ڕەنگین و خشۆکی سەوز.", // creeper", please follow LX instructions
+            kurdishText: "باخچەکە پڕ بوو لە گوڵی ڕەنگین و خشۆکی سەوز.",
             onPressedBritish: () => speakcreepers1("en-GB"),
             onPressedAmerican: () => speakcreepers1("en-US"),
           ),

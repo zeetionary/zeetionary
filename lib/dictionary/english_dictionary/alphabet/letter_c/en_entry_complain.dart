@@ -109,7 +109,7 @@ class EnglishEntrycomplain extends StatelessWidget {
                             englishText:
                                 "She never complains, but she's obviously exhausted.",
                             kurdishText:
-                                "ھەرگیز ناڕەزایی دەرنابڕێت، بەڵام ئاشکرایە ماندووە.", // complain",
+                                "ھەرگیز ناڕەزایی دەرنابڕێت، بەڵام ئاشکرایە ماندووە.",
                             onPressedBritish: () => speakcomplains1("en-GB"),
                             onPressedAmerican: () => speakcomplains1("en-US"),
                           ),

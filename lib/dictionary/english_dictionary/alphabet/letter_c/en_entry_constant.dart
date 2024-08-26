@@ -159,7 +159,7 @@ class EnglishEntryconstant extends StatelessWidget {
                               text: "١. (ھاوەڵناو) بەردەوام ڕوودان"),
                           SentencesRow(
                             englishText: "There were constant interruptions.",
-                            kurdishText: "پچڕانی بەردەوام ھەبوو.", // constant",
+                            kurdishText: "پچڕانی بەردەوام ھەبوو.",
                             onPressedBritish: () => speakconstants1("en-GB"),
                             onPressedAmerican: () => speakconstants1("en-US"),
                           ),

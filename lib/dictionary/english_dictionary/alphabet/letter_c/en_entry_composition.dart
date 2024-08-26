@@ -124,7 +124,7 @@ class EnglishEntrycomposition extends StatelessWidget {
                             englishText:
                                 "The overall composition of the Senate was Democrats 57 and Republicans 43.",
                             kurdishText:
-                                "پێکھاتەی گشتی ئەنجوومەنی پیران ٥٧ دیموکرات و ٤٣ کۆماری بوو.", // composition",
+                                "پێکھاتەی گشتی ئەنجوومەنی پیران ٥٧ دیموکرات و ٤٣ کۆماری بوو.",
                             onPressedBritish: () => speakcompositions1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcompositions1("en-US"),

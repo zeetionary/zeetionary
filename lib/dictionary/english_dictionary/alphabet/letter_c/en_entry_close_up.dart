@@ -103,7 +103,7 @@ class EnglishEntrycloseup extends StatelessWidget {
                             englishText:
                                 "It was strange to see her own face in close-up on the screen.",
                             kurdishText:
-                                "نامۆ بوو کە ڕووخساری خۆی لە وێنەی نزیکدا لەسەر شاشەیەک ببینێت.", // close-up",
+                                "نامۆ بوو کە ڕووخساری خۆی لە وێنەی نزیکدا لەسەر شاشەیەک ببینێت.",
                             onPressedBritish: () => speakcloseups1("en-GB"),
                             onPressedAmerican: () => speakcloseups1("en-US"),
                           ),

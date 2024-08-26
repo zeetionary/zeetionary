@@ -97,7 +97,7 @@ class EnglishEntryconcentrationcamp extends StatelessWidget {
                             englishText:
                                 "During World War II, millions of Jews were imprisoned in concentration camps.",
                             kurdishText:
-                                "لە ماوەی جەنگی دووەمی جیھانیدا، ملیۆنان جوو لە ئۆردوگا زۆرەملێیەکاندا زیندانی کران.", // concentration camp",
+                                "لە ماوەی جەنگی دووەمی جیھانیدا، ملیۆنان جوو لە ئۆردوگا زۆرەملێیەکاندا زیندانی کران.",
                             onPressedBritish: () =>
                                 speakconcentrationcamps1("en-GB"),
                             onPressedAmerican: () =>

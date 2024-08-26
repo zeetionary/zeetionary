@@ -115,7 +115,7 @@ class EnglishEntryconquest extends StatelessWidget {
                             englishText:
                                 "He continued to expand his kingdom by conquest.",
                             kurdishText:
-                                "بەردەوام بوو لە فراوانکردنی شانشینەکەی بە داگیرکردن.", // conquest",
+                                "بەردەوام بوو لە فراوانکردنی شانشینەکەی بە داگیرکردن.",
                             onPressedBritish: () => speakconquests1("en-GB"),
                             onPressedAmerican: () => speakconquests1("en-US"),
                           ),

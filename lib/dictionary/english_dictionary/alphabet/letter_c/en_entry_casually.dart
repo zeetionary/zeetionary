@@ -178,8 +178,7 @@ class EnglishEntrycasually extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات کە لەسەرخۆ و ئاسوودەیت"),
                           SentencesRow(
                             englishText: "They chatted casually on the phone.",
-                            kurdishText:
-                                "بە ئاسایی قسەیان دەکرد بە تەلەفۆن.", // casually",
+                            kurdishText: "بە ئاسایی قسەیان دەکرد بە تەلەفۆن.",
                             onPressedBritish: () => speakcasuallys1("en-GB"),
                             onPressedAmerican: () => speakcasuallys1("en-US"),
                           ),

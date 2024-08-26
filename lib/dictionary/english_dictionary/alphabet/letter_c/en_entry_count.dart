@@ -401,8 +401,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) ژماردن بە ڕیزبەندی"),
           SentencesRow(
             englishText: "She can count up to 10 in Italian.",
-            kurdishText:
-                "دەتوانێت تاوەکو ١٠ بە ئیتالی بژمێرێت.", // count", please follow LX instructions
+            kurdishText: "دەتوانێت تاوەکو ١٠ بە ئیتالی بژمێرێت.",
             onPressedBritish: () => speakcounts1("en-GB"),
             onPressedAmerican: () => speakcounts1("en-US"),
           ),

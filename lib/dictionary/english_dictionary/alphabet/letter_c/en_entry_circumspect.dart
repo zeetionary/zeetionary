@@ -93,8 +93,7 @@ class EnglishEntrycircumspect extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He was very circumspect in his financial affairs.",
-                            kurdishText:
-                                "زۆر دووربین بوو لە کارە داراییەکانی.", // circumspect",
+                            kurdishText: "زۆر دووربین بوو لە کارە داراییەکانی.",
                             onPressedBritish: () => speakcircumspects1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcircumspects1("en-US"),

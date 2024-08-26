@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەسێک کە کەسێک کاتێکی زۆری لەگەڵ بەسەر دەبات"),
           SentencesRow(
             englishText: "He was playing cards with his cronies.",
-            kurdishText:
-                "یاری کاردی دەکرد لەگەڵ دۆستە نزیکەکانی.", // crony", please follow LX instructions
+            kurdishText: "یاری کاردی دەکرد لەگەڵ دۆستە نزیکەکانی.",
             onPressedBritish: () => speakcronys1("en-GB"),
             onPressedAmerican: () => speakcronys1("en-US"),
           ),

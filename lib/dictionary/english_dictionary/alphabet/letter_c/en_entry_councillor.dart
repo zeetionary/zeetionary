@@ -228,7 +228,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Talk to your local councillor about the problem.",
             kurdishText:
-                "قسە لەگەڵ ئەندامی ئەنجوومەنەکەت بکە سەبارەت بە کێشەکە.", // councillor", please follow LX instructions
+                "قسە لەگەڵ ئەندامی ئەنجوومەنەکەت بکە سەبارەت بە کێشەکە.",
             onPressedBritish: () => speakcouncillors1("en-GB"),
             onPressedAmerican: () => speakcouncillors1("en-US"),
           ),

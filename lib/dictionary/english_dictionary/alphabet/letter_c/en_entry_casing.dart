@@ -177,7 +177,7 @@ class EnglishEntrycasing extends StatelessWidget {
                             englishText:
                                 "The keyboard has a black plastic casing.",
                             kurdishText:
-                                "کیبۆردەکە بەرگێکی پلاستیکی ڕەشی ھەبوو.", // casing",
+                                "کیبۆردەکە بەرگێکی پلاستیکی ڕەشی ھەبوو.",
                             onPressedBritish: () => speakcasings1("en-GB"),
                             onPressedAmerican: () => speakcasings1("en-US"),
                           ),

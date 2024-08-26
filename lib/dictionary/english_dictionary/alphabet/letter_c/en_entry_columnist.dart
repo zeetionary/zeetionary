@@ -93,8 +93,7 @@ class EnglishEntrycolumnist extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She's a columnist for the New York Times.",
-                            kurdishText:
-                                "ستوون‌نووسێکە بۆ نیویۆرک تایمز.", // columnist",
+                            kurdishText: "ستوون‌نووسێکە بۆ نیویۆرک تایمز.",
                             onPressedBritish: () => speakcolumnists1("en-GB"),
                             onPressedAmerican: () => speakcolumnists1("en-US"),
                           ),

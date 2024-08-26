@@ -95,7 +95,7 @@ class EnglishEntrycornedbeef extends StatelessWidget {
                             englishText:
                                 "Corned beef sandwiches are a popular lunch option in many delis.",
                             kurdishText:
-                                "لەفەی گۆشتی لە قووتووکراو ھەڵبژاردەیەکی باوی خواردنی نیوەڕۆن لە زۆر فرۆشگادا.", // corned beef",
+                                "لەفەی گۆشتی لە قووتووکراو ھەڵبژاردەیەکی باوی خواردنی نیوەڕۆن لە زۆر فرۆشگادا.",
                             onPressedBritish: () => speakcornedbeefs1("en-GB"),
                             onPressedAmerican: () => speakcornedbeefs1("en-US"),
                           ),

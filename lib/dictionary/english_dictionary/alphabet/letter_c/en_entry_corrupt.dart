@@ -292,7 +292,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "It was seen as the only way to overthrow a corrupt regime.",
             kurdishText:
-                "بە تەنھا ڕێگا بینرا بۆ کۆتایی ھێنان بە ڕژێمێکی گەندەڵ.", // corrupt", please follow LX instructions
+                "بە تەنھا ڕێگا بینرا بۆ کۆتایی ھێنان بە ڕژێمێکی گەندەڵ.",
             onPressedBritish: () => speakcorrupts1("en-GB"),
             onPressedAmerican: () => speakcorrupts1("en-US"),
           ),

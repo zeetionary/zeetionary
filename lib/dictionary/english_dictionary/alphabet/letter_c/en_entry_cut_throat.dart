@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The advertising world can be a very cutthroat business.",
             kurdishText:
-                "جیھانی ڕیکلامکردن دەکرێت بازرگانییەکی دوژمنکارانە بێت.", // cut-throat", please follow LX instructions
+                "جیھانی ڕیکلامکردن دەکرێت بازرگانییەکی دوژمنکارانە بێت.",
             onPressedBritish: () => speakcutthroats1("en-GB"),
             onPressedAmerican: () => speakcutthroats1("en-US"),
           ),

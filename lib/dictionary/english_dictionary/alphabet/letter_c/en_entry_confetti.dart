@@ -94,7 +94,7 @@ class EnglishEntryconfetti extends StatelessWidget {
                             englishText:
                                 "Confetti showered down on the newly-weds.",
                             kurdishText:
-                                "پەخشانە دەباریە سەر تازە ھاوسەرەکاندا.", // confetti",
+                                "پەخشانە دەباریە سەر تازە ھاوسەرەکاندا.",
                             onPressedBritish: () => speakconfettis1("en-GB"),
                             onPressedAmerican: () => speakconfettis1("en-US"),
                           ),

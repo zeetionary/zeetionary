@@ -101,7 +101,7 @@ class EnglishEntrycontingency extends StatelessWidget {
                             englishText:
                                 "We must consider all possible contingencies.",
                             kurdishText:
-                                "دەبێت خۆمان بۆ ھەموو ئەگەرەکان ئامادە بکەین.", // contingency",
+                                "دەبێت خۆمان بۆ ھەموو ئەگەرەکان ئامادە بکەین.",
                             onPressedBritish: () => speakcontingencys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontingencys1("en-US"),

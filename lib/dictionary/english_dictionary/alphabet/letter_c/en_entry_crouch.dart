@@ -242,8 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) پێنناسە"),
           SentencesRow(
             englishText: "He crouched down beside her.",
-            kurdishText:
-                "لە تەنیشتیدا نوشتایەوە.", // crouch", please follow LX instructions
+            kurdishText: "لە تەنیشتیدا نوشتایەوە.",
             onPressedBritish: () => speakcrouchs1("en-GB"),
             onPressedAmerican: () => speakcrouchs1("en-US"),
           ),

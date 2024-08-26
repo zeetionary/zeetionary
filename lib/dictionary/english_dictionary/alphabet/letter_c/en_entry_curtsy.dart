@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She gave a curtsy before presenting the flowers to the princess.",
             kurdishText:
-                "خۆدانەواندنێکی ئەنجامدا پێش ئەوەی گوڵەکان بدات بە شازادە خاتوون.", // curtsy", please follow LX instructions
+                "خۆدانەواندنێکی ئەنجامدا پێش ئەوەی گوڵەکان بدات بە شازادە خاتوون.",
             onPressedBritish: () => speakcurtsys1("en-GB"),
             onPressedAmerican: () => speakcurtsys1("en-US"),
           ),

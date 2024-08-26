@@ -130,8 +130,7 @@ class EnglishEntrycomedy extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He moved to Los Angeles to write comedy.",
-                            kurdishText:
-                                "چوو بۆ لۆس ئەنجلس بۆ نووسینی کۆمیدی.", // comedy",
+                            kurdishText: "چوو بۆ لۆس ئەنجلس بۆ نووسینی کۆمیدی.",
                             onPressedBritish: () => speakcomedys1("en-GB"),
                             onPressedAmerican: () => speakcomedys1("en-US"),
                           ),

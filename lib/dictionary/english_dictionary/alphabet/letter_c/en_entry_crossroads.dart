@@ -235,8 +235,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) خاڵی یەکتربڕینی دوو ڕێگا"),
           SentencesRow(
             englishText: "At the next crossroads, turn right.",
-            kurdishText:
-                "لە چوارڕیانی دواتردا بە ڕاستدا پێچ بکەوە.", // crossroads", please follow LX instructions
+            kurdishText: "لە چوارڕیانی دواتردا بە ڕاستدا پێچ بکەوە.",
             onPressedBritish: () => speakcrossroadss1("en-GB"),
             onPressedAmerican: () => speakcrossroadss1("en-US"),
           ),

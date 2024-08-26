@@ -139,7 +139,7 @@ class EnglishEntrybrewery extends StatelessWidget {
                             englishText:
                                 "Visitors enjoyed a brewery tour to learn about the beer-making process.",
                             kurdishText:
-                                "سەردانکەران گەشتێکیان بۆ ناو کارگەی بیرەکە ئەنجامدا بۆ زانین لەسەر پڕۆسەی درووستکردنی بیرە.", // brewery" as
+                                "سەردانکەران گەشتێکیان بۆ ناو کارگەی بیرەکە ئەنجامدا بۆ زانین لەسەر پڕۆسەی درووستکردنی بیرە.",
                             onPressedBritish: () => speakbrewerys1("en-GB"),
                             onPressedAmerican: () => speakbrewerys1("en-US"),
                           ),

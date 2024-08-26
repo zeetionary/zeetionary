@@ -95,7 +95,7 @@ class EnglishEntryconceivably extends StatelessWidget {
                             englishText:
                                 "The disease could conceivably be transferred to humans.",
                             kurdishText:
-                                "نەخۆشییەکە دەشێت بگوازرێتەوە بۆ مرۆڤ.", // conceivably",
+                                "نەخۆشییەکە دەشێت بگوازرێتەوە بۆ مرۆڤ.",
                             onPressedBritish: () => speakconceivablys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconceivablys1("en-US"),

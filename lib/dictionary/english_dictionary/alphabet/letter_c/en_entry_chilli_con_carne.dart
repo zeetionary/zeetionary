@@ -94,7 +94,7 @@ class EnglishEntrychilliconcarne extends StatelessWidget {
                             englishText:
                                 "She cooked a delicious pot of chilli con carne for dinner.",
                             kurdishText:
-                                "مەنجەڵێک بەلەزەت لە چیلی ئامادەکرد بۆ نانی ئێوارە .", // chilli con carne",
+                                "مەنجەڵێک بەلەزەت لە چیلی ئامادەکرد بۆ نانی ئێوارە .",
                             onPressedBritish: () =>
                                 speakchilliconcarnes1("en-GB"),
                             onPressedAmerican: () =>

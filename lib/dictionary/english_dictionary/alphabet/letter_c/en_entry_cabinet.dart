@@ -184,7 +184,7 @@ class EnglishEntrycabinet extends StatelessWidget {
                             englishText:
                                 "The defeat in the vote forced the Cabinet to change its policy on immigration.",
                             kurdishText:
-                                "شکستی دەنگدانەکە وای لە ئەندامانی کابینەکە کرد سیاسەتیان لەسەر کۆچبەری بگۆڕن.", // cabinet
+                                "شکستی دەنگدانەکە وای لە ئەندامانی کابینەکە کرد سیاسەتیان لەسەر کۆچبەری بگۆڕن",
                             onPressedBritish: () => speakcabinets1("en-GB"),
                             onPressedAmerican: () => speakcabinets1("en-US"),
                           ),

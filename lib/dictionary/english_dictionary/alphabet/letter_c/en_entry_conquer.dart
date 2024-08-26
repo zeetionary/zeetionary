@@ -140,7 +140,7 @@ class EnglishEntryconquer extends StatelessWidget {
                             englishText:
                                 "The Normans conquered England in 1066.",
                             kurdishText:
-                                "نۆرمانەکان لە ساڵی ١٠٦٦ ئینگلتەرەیان کۆنترۆڵ کرد.", // conquer",
+                                "نۆرمانەکان لە ساڵی ١٠٦٦ ئینگلتەرەیان کۆنترۆڵ کرد.",
                             onPressedBritish: () => speakconquers1("en-GB"),
                             onPressedAmerican: () => speakconquers1("en-US"),
                           ),

@@ -137,8 +137,7 @@ class EnglishEntrybug extends StatelessWidget {
                               text: "١. (ناو) ھەر مێروویەکی بچووک"),
                           SentencesRow(
                             englishText: "There's a bug crawling up your arm.",
-                            kurdishText:
-                                "مێروویەک لەسەر باڵت ڕێ دەکات.", // bug" as
+                            kurdishText: "مێروویەک لەسەر باڵت ڕێ دەکات.",
                             onPressedBritish: () => speakbugs1("en-GB"),
                             onPressedAmerican: () => speakbugs1("en-US"),
                           ),

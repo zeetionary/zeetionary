@@ -98,7 +98,7 @@ class EnglishEntrycopious extends StatelessWidget {
                               text: "١. (ھاوەڵناو) ڕێژەیەکی زۆر"),
                           SentencesRow(
                             englishText: "I took copious notes.",
-                            kurdishText: "تێبینی زۆرم وەرگرت.", // copious",
+                            kurdishText: "تێبینی زۆرم وەرگرت.",
                             onPressedBritish: () => speakcopiouss1("en-GB"),
                             onPressedAmerican: () => speakcopiouss1("en-US"),
                           ),

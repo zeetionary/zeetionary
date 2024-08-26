@@ -114,8 +114,7 @@ class EnglishEntryconstriction extends StatelessWidget {
                               text: "١. (ناو) توندبوون یان تەسکبوون"),
                           SentencesRow(
                             englishText: "He felt a constriction in his chest.",
-                            kurdishText:
-                                "ھەستی بە توندبوون لە سنگیدا کرد.", // constriction",
+                            kurdishText: "ھەستی بە توندبوون لە سنگیدا کرد.",
                             onPressedBritish: () =>
                                 speakconstrictions1("en-GB"),
                             onPressedAmerican: () =>

@@ -132,7 +132,7 @@ class EnglishEntryclamp extends StatelessWidget {
                             englishText:
                                 "Clamp the two halves together until the glue dries.",
                             kurdishText:
-                                "ھەردوو نیوەکە بە مەنگەنە ببەستە بە یەکەوە تاوەکو چەسپەکە وشکدەبێتەوە.", // clamp",
+                                "ھەردوو نیوەکە بە مەنگەنە ببەستە بە یەکەوە تاوەکو چەسپەکە وشکدەبێتەوە.",
                             onPressedBritish: () => speakclamps1("en-GB"),
                             onPressedAmerican: () => speakclamps1("en-US"),
                           ),

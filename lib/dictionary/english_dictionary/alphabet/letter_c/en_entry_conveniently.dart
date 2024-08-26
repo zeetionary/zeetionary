@@ -119,7 +119,7 @@ class EnglishEntryconveniently extends StatelessWidget {
                             englishText:
                                 "The report can be conveniently divided into three main sections.",
                             kurdishText:
-                                "ڕاپۆرتەکە دەکرێت بە ئاسانی دابەش بکرێت بەسەر سێ بەشی سەرەکیدا.", // conveniently",
+                                "ڕاپۆرتەکە دەکرێت بە ئاسانی دابەش بکرێت بەسەر سێ بەشی سەرەکیدا.",
                             onPressedBritish: () =>
                                 speakconvenientlys1("en-GB"),
                             onPressedAmerican: () =>

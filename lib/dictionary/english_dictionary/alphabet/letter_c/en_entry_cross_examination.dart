@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He broke down under cross-examination and admitted his part in the assault.",
             kurdishText:
-                "لەژێر لێ‌پێچینەوەدا کۆڵی دا و دانی نا بە تێوەگلانی لە ھێرشەکەدا.", // cross-examination", please follow LX instructions
+                "لەژێر لێ‌پێچینەوەدا کۆڵی دا و دانی نا بە تێوەگلانی لە ھێرشەکەدا.",
             onPressedBritish: () => speakcrossexaminations1("en-GB"),
             onPressedAmerican: () => speakcrossexaminations1("en-US"),
           ),

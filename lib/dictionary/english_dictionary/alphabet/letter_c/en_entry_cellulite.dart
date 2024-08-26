@@ -175,7 +175,7 @@ class EnglishEntrycellulite extends StatelessWidget {
                             englishText:
                                 "Having cellulite is normal and doesn't affect your overall health.",
                             kurdishText:
-                                "ھەبوونی خانۆچکە ئاساییە و کاریگەری نییە لەسەر تەندرووستیت بە گشتی.", // cellulite",
+                                "ھەبوونی خانۆچکە ئاساییە و کاریگەری نییە لەسەر تەندرووستیت بە گشتی.",
                             onPressedBritish: () => speakcellulites1("en-GB"),
                             onPressedAmerican: () => speakcellulites1("en-US"),
                           ),

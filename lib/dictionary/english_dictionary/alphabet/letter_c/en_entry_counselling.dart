@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The couple decided to go for relationship counselling.",
             kurdishText:
-                "دوو ئەویندارەکە بڕیاریاندا بچن بۆ ئامۆژگاری پەیوەندی.", // counselling", please follow LX instructions
+                "دوو ئەویندارەکە بڕیاریاندا بچن بۆ ئامۆژگاری پەیوەندی.",
             onPressedBritish: () => speakcounsellings1("en-GB"),
             onPressedAmerican: () => speakcounsellings1("en-US"),
           ),

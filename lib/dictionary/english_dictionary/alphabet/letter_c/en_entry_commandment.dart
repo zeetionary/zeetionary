@@ -103,7 +103,7 @@ class EnglishEntrycommandment extends StatelessWidget {
                             englishText:
                                 "You shall keep the commandments of the Lord your God.",
                             kurdishText:
-                                "دەبێت پابەندی دەستووری خودای گەورەت بیت.", // commandment",
+                                "دەبێت پابەندی دەستووری خودای گەورەت بیت.",
                             onPressedBritish: () => speakcommandments1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcommandments1("en-US"),

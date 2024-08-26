@@ -175,7 +175,7 @@ class EnglishEntrycastanets extends StatelessWidget {
                             englishText:
                                 "In Spanish traditional music, castanets add a lively and distinctive element.",
                             kurdishText:
-                                "لە میوزیکی کەلتووری ئیسپانیادا، چەقەنە بەشێکی بەجۆش و تایبەت زیاد دەکات.", // castanets",
+                                "لە میوزیکی کەلتووری ئیسپانیادا، چەقەنە بەشێکی بەجۆش و تایبەت زیاد دەکات.",
                             onPressedBritish: () => speakcastanetss1("en-GB"),
                             onPressedAmerican: () => speakcastanetss1("en-US"),
                           ),

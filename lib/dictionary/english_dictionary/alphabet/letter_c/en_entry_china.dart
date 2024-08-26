@@ -101,7 +101,7 @@ class EnglishEntrychina extends StatelessWidget {
                             englishText:
                                 "The restaurant served tea in delicate china cups.",
                             kurdishText:
-                                "چێشتخانەکە قوڕی پێشکەش دەکرد لە پێڵای گڵەسپی ناسکدا.", // china",
+                                "چێشتخانەکە قوڕی پێشکەش دەکرد لە پێڵای گڵەسپی ناسکدا.",
                             onPressedBritish: () => speakchinas1("en-GB"),
                             onPressedAmerican: () => speakchinas1("en-US"),
                           ),

@@ -181,7 +181,7 @@ class EnglishEntrycannibal extends StatelessWidget {
                             englishText:
                                 "In the horror movie, a group of friends stumbled upon a cave inhabited by cannibals.",
                             kurdishText:
-                                "لە فیلمە ترسناکەکەدا، ژمارەیەک ھاوڕێ ڕێیان ھەڵدەکەوێتە ئەشکەوتێک کە مرۆڤخۆری تێدایە.", // cannibal
+                                "لە فیلمە ترسناکەکەدا، ژمارەیەک ھاوڕێ ڕێیان ھەڵدەکەوێتە ئەشکەوتێک کە مرۆڤخۆری تێدایە",
                             onPressedBritish: () => speakcannibals1("en-GB"),
                             onPressedAmerican: () => speakcannibals1("en-US"),
                           ),

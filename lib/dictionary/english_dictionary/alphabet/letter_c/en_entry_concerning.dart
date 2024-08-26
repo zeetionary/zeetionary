@@ -102,7 +102,7 @@ class EnglishEntryconcerning extends StatelessWidget {
                             englishText:
                                 "He asked several questions concerning the future of the company.",
                             kurdishText:
-                                "ژمارەیەک پرسیاری سەبارەت بە داھاتووی کۆمپانیاکە کرد.", // concerning",
+                                "ژمارەیەک پرسیاری سەبارەت بە داھاتووی کۆمپانیاکە کرد.",
                             onPressedBritish: () => speakconcernings1("en-GB"),
                             onPressedAmerican: () => speakconcernings1("en-US"),
                           ),

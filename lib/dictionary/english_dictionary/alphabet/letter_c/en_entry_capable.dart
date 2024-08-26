@@ -183,7 +183,7 @@ class EnglishEntrycapable extends StatelessWidget {
                             englishText:
                                 "You are capable of better work than this.",
                             kurdishText:
-                                "توانای کردنی کارێکی باشترت وەک لەمە ھەیە.", // capable
+                                "توانای کردنی کارێکی باشترت وەک لەمە ھەیە",
                             onPressedBritish: () => speakcapables1("en-GB"),
                             onPressedAmerican: () => speakcapables1("en-US"),
                           ),

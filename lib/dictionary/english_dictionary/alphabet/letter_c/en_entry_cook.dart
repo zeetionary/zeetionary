@@ -149,8 +149,7 @@ class EnglishEntrycook extends StatelessWidget {
                                   "١. (کردار) ئامادەکردنی خواردن، بە کوڵاندن یان برژاندن"),
                           SentencesRow(
                             englishText: "Where did you learn to cook?",
-                            kurdishText:
-                                "لە کوێ فێری خواردن لێنان بوویت؟", // cook",
+                            kurdishText: "لە کوێ فێری خواردن لێنان بوویت؟",
                             onPressedBritish: () => speakcooks1("en-GB"),
                             onPressedAmerican: () => speakcooks1("en-US"),
                           ),

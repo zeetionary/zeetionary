@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
           SentencesRow(
             englishText: "There was a creaky old chair in the corner.",
-            kurdishText:
-                "کورسییەکی جیڕنی کۆنە لە سووچەکەدا بوو.", // creaky", please follow LX instructions
+            kurdishText: "کورسییەکی جیڕنی کۆنە لە سووچەکەدا بوو.",
             onPressedBritish: () => speakcreakys1("en-GB"),
             onPressedAmerican: () => speakcreakys1("en-US"),
           ),

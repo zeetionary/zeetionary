@@ -95,7 +95,7 @@ class EnglishEntrychronometer extends StatelessWidget {
                             englishText:
                                 "The ship's captain relied on the chronometer for precise navigation.",
                             kurdishText:
-                                "کاپتنی کەشتییەکە پشتی بە کاتژمێرە درووستەکەی دەبەست بۆ ڕێدۆزی درووست.", // chronometer",
+                                "کاپتنی کەشتییەکە پشتی بە کاتژمێرە درووستەکەی دەبەست بۆ ڕێدۆزی درووست.",
                             onPressedBritish: () => speakchronometers1("en-GB"),
                             onPressedAmerican: () =>
                                 speakchronometers1("en-US"),

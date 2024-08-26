@@ -181,7 +181,7 @@ class EnglishEntrycallus extends StatelessWidget {
                             englishText:
                                 "He had workman's hands which were rough and covered with calluses.",
                             kurdishText:
-                                "دەستی کرێکارانەی ھەبوو کە زبر بوو لەگەڵ پڕ لە ڕەقێنە.", // callus
+                                "دەستی کرێکارانەی ھەبوو کە زبر بوو لەگەڵ پڕ لە ڕەقێنە",
                             onPressedBritish: () => speakcalluss1("en-GB"),
                             onPressedAmerican: () => speakcalluss1("en-US"),
                           ),

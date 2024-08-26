@@ -138,7 +138,7 @@ class EnglishEntrycompliment extends StatelessWidget {
                             englishText:
                                 "It's a great compliment to be asked to do the job.",
                             kurdishText:
-                                "ستایشێکی گەورەیە کە داوات لێ بکرێت کارەکە بکەیت.", // compliment",
+                                "ستایشێکی گەورەیە کە داوات لێ بکرێت کارەکە بکەیت.",
                             onPressedBritish: () => speakcompliments1("en-GB"),
                             onPressedAmerican: () => speakcompliments1("en-US"),
                           ),

@@ -251,8 +251,7 @@ class EnglishEntrybubble extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He blew bubbles into the water through a straw.",
-                            kurdishText:
-                                "بە قەسەبێک بڵقی دەکرد بە ئاوەکەدا.", // bubble" as
+                            kurdishText: "بە قەسەبێک بڵقی دەکرد بە ئاوەکەدا.",
                             onPressedBritish: () => speakbubbles1("en-GB"),
                             onPressedAmerican: () => speakbubbles1("en-US"),
                           ),

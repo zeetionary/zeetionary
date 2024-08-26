@@ -110,7 +110,7 @@ class EnglishEntrycontrivance extends StatelessWidget {
                             englishText:
                                 "The film is spoilt by unrealistic contrivances of plot.",
                             kurdishText:
-                                "فیلمەکە شێوێندراوە بە گێڕانەوەی ناڕاستی ڕووداوەکان.", // contrivance",
+                                "فیلمەکە شێوێندراوە بە گێڕانەوەی ناڕاستی ڕووداوەکان.",
                             onPressedBritish: () => speakcontrivances1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontrivances1("en-US"),

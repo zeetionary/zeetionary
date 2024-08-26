@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Many more business functions will move into cyberspace.",
             kurdishText:
-                "ژمارەیەکی زۆری زیاتر لە کاری بازرگانی دەچنە ناو جیھانی ئینتەرنێت.", // cyberspace", please follow LX instructions
+                "ژمارەیەکی زۆری زیاتر لە کاری بازرگانی دەچنە ناو جیھانی ئینتەرنێت.",
             onPressedBritish: () => speakcyberspaces1("en-GB"),
             onPressedAmerican: () => speakcyberspaces1("en-US"),
           ),

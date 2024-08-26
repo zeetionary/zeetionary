@@ -93,8 +93,7 @@ class EnglishEntrycognac extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Would you like a cognac with your coffee?",
-                            kurdishText:
-                                "حەزت بە کۆنیاکێکە لەگەڵ قاوەکەت؟", // cognac",
+                            kurdishText: "حەزت بە کۆنیاکێکە لەگەڵ قاوەکەت؟",
                             onPressedBritish: () => speakcognacs1("en-GB"),
                             onPressedAmerican: () => speakcognacs1("en-US"),
                           ),

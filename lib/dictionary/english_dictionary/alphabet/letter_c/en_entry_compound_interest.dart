@@ -99,7 +99,7 @@ class EnglishEntrycompoundinterest extends StatelessWidget {
                             englishText:
                                 "Thanks to the power of compound interest, every €1 you invest in your 20s is worth €2 in your 30s and €4 in your 40s.",
                             kurdishText:
-                                "سوپاس بۆ ھێزی سووی ئاوێتە، ھەر یەک یۆرۆ کە لە تەمەنی ٢٠ ـەکانتدا دەیخەیتە سەرمایەوە دەبێت بە ٢ یۆرۆ لە ٣٠ ـیەکانتدا و و ٤ یۆرۆ لە ٤٠ ـەکانتدا.", // compound interest",
+                                "سوپاس بۆ ھێزی سووی ئاوێتە، ھەر یەک یۆرۆ کە لە تەمەنی ٢٠ ـەکانتدا دەیخەیتە سەرمایەوە دەبێت بە ٢ یۆرۆ لە ٣٠ ـیەکانتدا و و ٤ یۆرۆ لە ٤٠ ـەکانتدا.",
                             onPressedBritish: () =>
                                 speakcompoundinterests1("en-GB"),
                             onPressedAmerican: () =>

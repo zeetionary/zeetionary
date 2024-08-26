@@ -147,7 +147,7 @@ class EnglishEntrycomplex extends StatelessWidget {
                             englishText:
                                 "Scientists need a better understanding of the complex interactions that cause hurricanes to intensify.",
                             kurdishText:
-                                "زاناکان پێویستییان بە تێگەشتنی زیاتر ھەیە بۆ تێگەشتن لەو کارلێکە ئاڵۆزانەی کە دەبنە ھۆی بەھێزبوونی گەردەلوولەکان.", // complex",
+                                "زاناکان پێویستییان بە تێگەشتنی زیاتر ھەیە بۆ تێگەشتن لەو کارلێکە ئاڵۆزانەی کە دەبنە ھۆی بەھێزبوونی گەردەلوولەکان.",
                             onPressedBritish: () => speakcomplexs1("en-GB"),
                             onPressedAmerican: () => speakcomplexs1("en-US"),
                           ),

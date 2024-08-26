@@ -140,7 +140,7 @@ class EnglishEntrycontradict extends StatelessWidget {
                             englishText:
                                 "All evening her husband contradicted everything she said.",
                             kurdishText:
-                                "تەواوی ئێوارەکە ھاوسەرەکەی ڕەتی قسەکانی دەکردەوە.", // contradict",
+                                "تەواوی ئێوارەکە ھاوسەرەکەی ڕەتی قسەکانی دەکردەوە.",
                             onPressedBritish: () => speakcontradicts1("en-GB"),
                             onPressedAmerican: () => speakcontradicts1("en-US"),
                           ),

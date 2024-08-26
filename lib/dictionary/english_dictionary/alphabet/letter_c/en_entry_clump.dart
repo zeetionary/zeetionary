@@ -128,7 +128,7 @@ class EnglishEntryclump extends StatelessWidget {
                                   "١. (ناو) ژمارەیەکی کەم لە شت یان خەڵک کە زۆر لە یەکەوە نزیکن، بە تایبەتی دار و ڕووەک"),
                           SentencesRow(
                             englishText: "He tore out a clump of her hair.",
-                            kurdishText: "گورزەیەک لە قژی لێکردەوە.", // clump",
+                            kurdishText: "گورزەیەک لە قژی لێکردەوە.",
                             onPressedBritish: () => speakclumps1("en-GB"),
                             onPressedAmerican: () => speakclumps1("en-US"),
                           ),

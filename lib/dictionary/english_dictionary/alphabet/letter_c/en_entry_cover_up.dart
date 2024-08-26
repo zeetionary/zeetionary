@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Government sources denied there had been a deliberate coverup.",
             kurdishText:
-                "سەرچاوەکای حکومەت ڕەتیانکردەوە داپۆشینێکی بەئەنقەست ھەبێت.", // coverup", please follow LX instructions
+                "سەرچاوەکای حکومەت ڕەتیانکردەوە داپۆشینێکی بەئەنقەست ھەبێت.",
             onPressedBritish: () => speakcoverups1("en-GB"),
             onPressedAmerican: () => speakcoverups1("en-US"),
           ),

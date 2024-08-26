@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Cybersquatting can harm a brand's reputation and lead to confusion among consumers.",
             kurdishText:
-                "داگیرکاری ئینتەرنێتی دەکرێت زیان بگەیەنێت بە ناوبانگی براندێک و ببێتە ھۆکاری شڵەژاوی لەلای کڕیاران.", // cybersquatting", please follow LX instructions
+                "داگیرکاری ئینتەرنێتی دەکرێت زیان بگەیەنێت بە ناوبانگی براندێک و ببێتە ھۆکاری شڵەژاوی لەلای کڕیاران.",
             onPressedBritish: () => speakcybersquattings1("en-GB"),
             onPressedAmerican: () => speakcybersquattings1("en-US"),
           ),

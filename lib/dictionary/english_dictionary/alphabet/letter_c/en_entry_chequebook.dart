@@ -92,7 +92,7 @@ class EnglishEntrychequebook extends StatelessWidget {
                             englishText:
                                 "He always kept his chequebook handy for emergencies.",
                             kurdishText:
-                                "ھەمیشە دەستەچەکەکەی لای خۆی دەھێشت بۆ دۆخی لەناکاو.", // chequebook",
+                                "ھەمیشە دەستەچەکەکەی لای خۆی دەھێشت بۆ دۆخی لەناکاو.",
                             onPressedBritish: () => speakchequebooks1("en-GB"),
                             onPressedAmerican: () => speakchequebooks1("en-US"),
                           ),

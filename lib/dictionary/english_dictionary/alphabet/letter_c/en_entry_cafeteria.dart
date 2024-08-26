@@ -177,7 +177,7 @@ class EnglishEntrycafeteria extends StatelessWidget {
                             englishText:
                                 "Employees have four different salads to choose from for lunch in the company cafeteria.",
                             kurdishText:
-                                "کارمەندان چوار جۆری جیاوازی زەڵاتەیان ھەیە بۆ نانی نیوەڕۆ لە کافتریای کۆمپانیاکە.", // cafeteria
+                                "کارمەندان چوار جۆری جیاوازی زەڵاتەیان ھەیە بۆ نانی نیوەڕۆ لە کافتریای کۆمپانیاکە",
                             onPressedBritish: () => speakcafeterias1("en-GB"),
                             onPressedAmerican: () => speakcafeterias1("en-US"),
                           ),

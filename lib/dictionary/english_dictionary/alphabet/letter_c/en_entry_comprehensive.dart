@@ -131,8 +131,7 @@ class EnglishEntrycomprehensive extends StatelessWidget {
                                   "١. (ھاوەڵناو) گشتگیر؛ لەخۆگرتنی ھەموو یان بە نزیکەیی ھەموو وردەکاری، زانیاری، ھتد"),
                           SentencesRow(
                             englishText: "The list is fairly comprehensive.",
-                            kurdishText:
-                                "لیستەکە تاڕادەیەک گشتگیرە.", // comprehensive",
+                            kurdishText: "لیستەکە تاڕادەیەک گشتگیرە.",
                             onPressedBritish: () =>
                                 speakcomprehensives1("en-GB"),
                             onPressedAmerican: () =>

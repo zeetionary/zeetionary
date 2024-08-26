@@ -107,7 +107,7 @@ class EnglishEntrycongressman extends StatelessWidget {
                             englishText:
                                 "The congressman delivered a speech on the floor of the House of Representatives.",
                             kurdishText:
-                                "کۆنگرێسمانەکە وتارێکی پێشکەشکرد لە ھۆڵی ئەنجوومەنی نوێنەران.", // congressman",
+                                "کۆنگرێسمانەکە وتارێکی پێشکەشکرد لە ھۆڵی ئەنجوومەنی نوێنەران.",
                             onPressedBritish: () => speakcongressmans1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcongressmans1("en-US"),

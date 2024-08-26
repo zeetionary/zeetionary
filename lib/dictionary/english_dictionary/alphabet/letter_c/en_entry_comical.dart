@@ -99,7 +99,7 @@ class EnglishEntrycomical extends StatelessWidget {
                               text: "١. (ھاوەڵناو) پێکەنیناوی"),
                           SentencesRow(
                             englishText: "He is a slightly comical figure.",
-                            kurdishText: "کەسێکی کەمێک گاڵتەجاڕە.", // comical",
+                            kurdishText: "کەسێکی کەمێک گاڵتەجاڕە.",
                             onPressedBritish: () => speakcomicals1("en-GB"),
                             onPressedAmerican: () => speakcomicals1("en-US"),
                           ),

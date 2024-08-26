@@ -179,7 +179,7 @@ class EnglishEntrycartwheel extends StatelessWidget {
                             englishText:
                                 "Kids in the park were attempting cartwheels on the soft grass.",
                             kurdishText:
-                                "منداڵان لە پارکەکە ھەوڵی مەحەلەقیان دەدا لەسەر گژوگیا نەرمەکە.", // cartwheel",
+                                "منداڵان لە پارکەکە ھەوڵی مەحەلەقیان دەدا لەسەر گژوگیا نەرمەکە.",
                             onPressedBritish: () => speakcartwheels1("en-GB"),
                             onPressedAmerican: () => speakcartwheels1("en-US"),
                           ),

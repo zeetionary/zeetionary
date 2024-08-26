@@ -179,7 +179,7 @@ class EnglishEntrycessation extends StatelessWidget {
                             englishText:
                                 "Religious leaders have called for a total cessation of the bombing campaign.",
                             kurdishText:
-                                "ڕابەرە ئاینییەکان داوای وەستانی تەواوی کەمپینی بۆمبارانیان کردووە.", // cessation",
+                                "ڕابەرە ئاینییەکان داوای وەستانی تەواوی کەمپینی بۆمبارانیان کردووە.",
                             onPressedBritish: () => speakcessations1("en-GB"),
                             onPressedAmerican: () => speakcessations1("en-US"),
                           ),

@@ -172,8 +172,7 @@ class EnglishEntrycello extends StatelessWidget {
 ١. (ناو) چەلۆ؛ ئامێرێکی میوزیکی گەورە کە تەلی ھەیە و وەک کەمانچەیەکی گەورە وایە"""),
                           SentencesRow(
                             englishText: "My girlfriend plays the cello.",
-                            kurdishText:
-                                "دۆستە کچەکەم چەلۆ دەژەنێت.", // cello",
+                            kurdishText: "دۆستە کچەکەم چەلۆ دەژەنێت.",
                             onPressedBritish: () => speakcellos1("en-GB"),
                             onPressedAmerican: () => speakcellos1("en-US"),
                           ),

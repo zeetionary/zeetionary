@@ -102,8 +102,7 @@ class EnglishEntrycontravention extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "These actions are in contravention of European law.",
-                            kurdishText:
-                                "ھەنگاوەکان دژ بە یاسای ئەورووپان.", // contravention",
+                            kurdishText: "ھەنگاوەکان دژ بە یاسای ئەورووپان.",
                             onPressedBritish: () =>
                                 speakcontraventions1("en-GB"),
                             onPressedAmerican: () =>

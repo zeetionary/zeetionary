@@ -247,7 +247,7 @@ class EnglishEntryconcern extends StatelessWidget {
                             englishText:
                                 "Don't interfere in what doesn't concern you.",
                             kurdishText:
-                                "خۆت مەگلێنە لە شتێک کە پەیوەندی پێوەت نییە.", // concern",
+                                "خۆت مەگلێنە لە شتێک کە پەیوەندی پێوەت نییە.",
                             onPressedBritish: () => speakconcerns1("en-GB"),
                             onPressedAmerican: () => speakconcerns1("en-US"),
                           ),

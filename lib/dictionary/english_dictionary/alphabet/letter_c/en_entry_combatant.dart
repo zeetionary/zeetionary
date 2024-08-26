@@ -94,7 +94,7 @@ class EnglishEntrycombatant extends StatelessWidget {
                             englishText:
                                 "He was involved in the war, but not as a combatant.",
                             kurdishText:
-                                "لە جەنگەکە بەژداربوو، بەڵام نەک وەک جەنگاوەرێک.", // combatant",
+                                "لە جەنگەکە بەژداربوو، بەڵام نەک وەک جەنگاوەرێک.",
                             onPressedBritish: () => speakcombatants1("en-GB"),
                             onPressedAmerican: () => speakcombatants1("en-US"),
                           ),

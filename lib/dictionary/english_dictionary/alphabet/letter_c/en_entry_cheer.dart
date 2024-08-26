@@ -115,7 +115,7 @@ class EnglishEntrycheer extends StatelessWidget {
                             englishText:
                                 "We all cheered as the team came on to the field.",
                             kurdishText:
-                                "ھەموومان قریواندمان کە تیمەکە ھاتنە ناو مەیدانەکە.", // cheer",
+                                "ھەموومان قریواندمان کە تیمەکە ھاتنە ناو مەیدانەکە.",
                             onPressedBritish: () => speakcheers1("en-GB"),
                             onPressedAmerican: () => speakcheers1("en-US"),
                           ),

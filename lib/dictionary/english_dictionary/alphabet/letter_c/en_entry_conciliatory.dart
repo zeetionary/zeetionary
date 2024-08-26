@@ -92,8 +92,7 @@ class EnglishEntryconciliatory extends StatelessWidget {
                                   "١. (ھاوەڵناو) ھەبوونی کاریگەری ھێورکردنەوەی کەسانی تووڕە"),
                           SentencesRow(
                             englishText: "His tone was quite conciliatory.",
-                            kurdishText:
-                                "تۆنەکەی تەواو ھێورکەرەوە بوو.", // conciliatory",
+                            kurdishText: "تۆنەکەی تەواو ھێورکەرەوە بوو.",
                             onPressedBritish: () =>
                                 speakconciliatorys1("en-GB"),
                             onPressedAmerican: () =>

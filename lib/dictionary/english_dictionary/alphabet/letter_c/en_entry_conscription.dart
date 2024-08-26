@@ -94,7 +94,7 @@ class EnglishEntryconscription extends StatelessWidget {
                             englishText:
                                 "He injured himself to avoid conscription.",
                             kurdishText:
-                                "خۆی بریندار کرد بۆ دووربوون لە سەربازگیری زۆرەملێ.", // conscription",
+                                "خۆی بریندار کرد بۆ دووربوون لە سەربازگیری زۆرەملێ.",
                             onPressedBritish: () =>
                                 speakconscriptions1("en-GB"),
                             onPressedAmerican: () =>

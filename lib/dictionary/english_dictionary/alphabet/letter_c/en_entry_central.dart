@@ -180,7 +180,7 @@ class EnglishEntrycentral extends StatelessWidget {
                             englishText:
                                 "There will be rain later in central and eastern parts of the country.",
                             kurdishText:
-                                "دواتر باران بارین دەبێت لە ناوەڕاست و ڕۆژھەڵاتی وڵاتەکە.", // central",
+                                "دواتر باران بارین دەبێت لە ناوەڕاست و ڕۆژھەڵاتی وڵاتەکە.",
                             onPressedBritish: () => speakcentrals1("en-GB"),
                             onPressedAmerican: () => speakcentrals1("en-US"),
                           ),

@@ -183,7 +183,7 @@ class EnglishEntrycasual extends StatelessWidget {
                             englishText:
                                 "She felt comfortable in casual clothes and wore them most of the time.",
                             kurdishText:
-                                "ھەستی بە ئاسوودەیی دەکرد بە جلی نافەرمییەوە و زۆرجار لەبەری دەکردن.", // casual",
+                                "ھەستی بە ئاسوودەیی دەکرد بە جلی نافەرمییەوە و زۆرجار لەبەری دەکردن.",
                             onPressedBritish: () => speakcasuals1("en-GB"),
                             onPressedAmerican: () => speakcasuals1("en-US"),
                           ),

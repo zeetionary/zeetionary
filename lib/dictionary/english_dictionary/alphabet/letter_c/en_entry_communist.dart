@@ -117,7 +117,7 @@ class EnglishEntrycommunist extends StatelessWidget {
                             englishText:
                                 "Demonstrators denounce the event as Communist propaganda.",
                             kurdishText:
-                                "خۆپیشاندەران سەرکۆنەی بۆنەکەیان وەک پڕوپاگەندەی کۆمیونیزم کرد.", // communist",
+                                "خۆپیشاندەران سەرکۆنەی بۆنەکەیان وەک پڕوپاگەندەی کۆمیونیزم کرد.",
                             onPressedBritish: () => speakcommunists1("en-GB"),
                             onPressedAmerican: () => speakcommunists1("en-US"),
                           ),

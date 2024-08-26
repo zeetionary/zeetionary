@@ -110,7 +110,7 @@ class EnglishEntryconcertina extends StatelessWidget {
                             englishText:
                                 "The concertina's music echoed through the streets.",
                             kurdishText:
-                                "میوزیکی کۆنسێرتیناکە دەنگی دەدایەوە لە شەقامەکاندا.", // concertina",
+                                "میوزیکی کۆنسێرتیناکە دەنگی دەدایەوە لە شەقامەکاندا.",
                             onPressedBritish: () => speakconcertinas1("en-GB"),
                             onPressedAmerican: () => speakconcertinas1("en-US"),
                           ),

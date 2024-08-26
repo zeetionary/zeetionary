@@ -95,7 +95,7 @@ class EnglishEntrycider extends StatelessWidget {
                             englishText:
                                 "The cider was very strong and went straight to our heads.",
                             kurdishText:
-                                "سێواوەکە زۆر بەھێز بوو و ڕاستەوخۆ کاریگەری لەسەر سەرمان کرد.", // cider",
+                                "سێواوەکە زۆر بەھێز بوو و ڕاستەوخۆ کاریگەری لەسەر سەرمان کرد.",
                             onPressedBritish: () => speakciders1("en-GB"),
                             onPressedAmerican: () => speakciders1("en-US"),
                           ),

@@ -188,8 +188,7 @@ class EnglishEntrycoach extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He is a former college football coach.",
-                            kurdishText:
-                                "کۆنە ڕاھێنەرێکی تۆپی پێیە لە کۆلێژ.", // coach",
+                            kurdishText: "کۆنە ڕاھێنەرێکی تۆپی پێیە لە کۆلێژ.",
                             onPressedBritish: () => speakcoachs1("en-GB"),
                             onPressedAmerican: () => speakcoachs1("en-US"),
                           ),

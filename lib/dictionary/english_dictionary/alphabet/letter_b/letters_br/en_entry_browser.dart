@@ -138,7 +138,7 @@ class EnglishEntrybrowser extends StatelessWidget {
                             englishText:
                                 "What do you use as your default browser?",
                             kurdishText:
-                                "چی وەک وێب‌گەڕۆکێکی پێش‌ھەڵبژاردەت (سەرەکی) بەکاردێنیت؟", // browser" as
+                                "چی وەک وێب‌گەڕۆکێکی پێش‌ھەڵبژاردەت (سەرەکی) بەکاردێنیت؟",
                             onPressedBritish: () => speakbrowsers1("en-GB"),
                             onPressedAmerican: () => speakbrowsers1("en-US"),
                           ),

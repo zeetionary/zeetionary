@@ -268,8 +268,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) ڕەخنەگرتن لە کەسێک یان شتێک و پیشاندانی لایەنە خراپەکانی"),
           SentencesRow(
             englishText: "All you ever do is criticize!",
-            kurdishText:
-                "ئەوەی ھەمیشە دەیکەیت ڕەخنەگرتنە.", // criticize", please follow LX instructions
+            kurdishText: "ئەوەی ھەمیشە دەیکەیت ڕەخنەگرتنە.",
             onPressedBritish: () => speakcriticizes1("en-GB"),
             onPressedAmerican: () => speakcriticizes1("en-US"),
           ),

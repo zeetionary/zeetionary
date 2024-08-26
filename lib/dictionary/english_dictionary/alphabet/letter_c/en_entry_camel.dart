@@ -181,7 +181,7 @@ class EnglishEntrycamel extends StatelessWidget {
                             englishText:
                                 "The Bedouins relied on camels for traversing the desert.",
                             kurdishText:
-                                "عەرەبە بیاباننشینەکان پشتیان بە وشتر دەبەست ھاتوچۆ بە بیابانەکەدا.", // camel
+                                "عەرەبە بیاباننشینەکان پشتیان بە وشتر دەبەست ھاتوچۆ بە بیابانەکەدا",
                             onPressedBritish: () => speakcamels1("en-GB"),
                             onPressedAmerican: () => speakcamels1("en-US"),
                           ),

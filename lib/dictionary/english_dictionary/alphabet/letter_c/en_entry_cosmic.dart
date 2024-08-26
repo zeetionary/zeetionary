@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText: "Do you believe in a cosmic plan?",
             kurdishText: "باوەڕت بە پلانی گەردوونی ھەیە؟",
             kurdishNote:
-                "ئەوەی کە درووستبوونی گەردوون تەنھا ڕووداوێک نییە و مەبەستێک لە پشتیەوەی ھەیە", // cosmic", please follow LX instructions
+                "ئەوەی کە درووستبوونی گەردوون تەنھا ڕووداوێک نییە و مەبەستێک لە پشتیەوەی ھەیە",
             onPressedBritish: () => speakcosmics1("en-GB"),
             onPressedAmerican: () => speakcosmics1("en-US"),
           ),

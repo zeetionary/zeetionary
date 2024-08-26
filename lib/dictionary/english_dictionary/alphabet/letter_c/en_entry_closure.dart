@@ -126,7 +126,7 @@ class EnglishEntryclosure extends StatelessWidget {
                             englishText:
                                 "Spending cuts could mean the closure of the village school.",
                             kurdishText:
-                                "کەمکردنەوەی خەرجی دەکرێت ببێتەھۆی داخرانی قوتابخانەی گوندەکە.", // closure",
+                                "کەمکردنەوەی خەرجی دەکرێت ببێتەھۆی داخرانی قوتابخانەی گوندەکە.",
                             onPressedBritish: () => speakclosures1("en-GB"),
                             onPressedAmerican: () => speakclosures1("en-US"),
                           ),

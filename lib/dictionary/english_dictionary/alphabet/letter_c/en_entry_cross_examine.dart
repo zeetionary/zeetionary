@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) لێ‌پێچینەوەی توند لە کەسێک "),
           SentencesRow(
             englishText: "The witness was cross-examined for over two hours.",
-            kurdishText:
-                "شایەتحاڵەکە بۆ سەروو دوو کاتژمێر لێ‌پێچینەوەی لێکرا.", // cross-examine", please follow LX instructions
+            kurdishText: "شایەتحاڵەکە بۆ سەروو دوو کاتژمێر لێ‌پێچینەوەی لێکرا.",
             onPressedBritish: () => speakcrossexamines1("en-GB"),
             onPressedAmerican: () => speakcrossexamines1("en-US"),
           ),

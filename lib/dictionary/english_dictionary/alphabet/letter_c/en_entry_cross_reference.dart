@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The cross references refer you to information in other parts of the dictionary.",
             kurdishText:
-                "نێردەکان دەتنێرن بۆ زانیاری لە بەشەکانی دیکەی فەرھەنگەکە.", // cross-reference", please follow LX instructions
+                "نێردەکان دەتنێرن بۆ زانیاری لە بەشەکانی دیکەی فەرھەنگەکە.",
             onPressedBritish: () => speakcrossreferences1("en-GB"),
             onPressedAmerican: () => speakcrossreferences1("en-US"),
           ),

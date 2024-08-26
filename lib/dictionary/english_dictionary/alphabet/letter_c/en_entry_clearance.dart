@@ -144,8 +144,7 @@ class EnglishEntryclearance extends StatelessWidget {
                               text: "١. (ناو) پڕۆسەی پاککردنەوە"),
                           SentencesRow(
                             englishText: "These coats are on clearance.",
-                            kurdishText:
-                                "ئەم پاڵتاوانە لە پاککردنەوەن.", // clearance",
+                            kurdishText: "ئەم پاڵتاوانە لە پاککردنەوەن.",
                             onPressedBritish: () => speakclearances1("en-GB"),
                             onPressedAmerican: () => speakclearances1("en-US"),
                           ),

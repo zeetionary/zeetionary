@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The reforms marked the successful culmination of a long campaign.",
             kurdishText:
-                "چاکسازییەکان بەرھەمی سەرکەوتووانەی کەمپینێکی درێ بوون.", // culmination", please follow LX instructions
+                "چاکسازییەکان بەرھەمی سەرکەوتووانەی کەمپینێکی درێ بوون.",
             onPressedBritish: () => speakculminations1("en-GB"),
             onPressedAmerican: () => speakculminations1("en-US"),
           ),

@@ -107,7 +107,7 @@ class EnglishEntrychristen extends StatelessWidget {
                                   "١. (کردار) پێدانی ناوێک بە منداڵێک لە کاتی توەفنکردنیدا"),
                           SentencesRow(
                             englishText: "The child was christened Mary.",
-                            kurdishText: "منداڵەکە ناونرا ماری.", // christen",
+                            kurdishText: "منداڵەکە ناونرا ماری.",
                             onPressedBritish: () => speakchristens1("en-GB"),
                             onPressedAmerican: () => speakchristens1("en-US"),
                           ),

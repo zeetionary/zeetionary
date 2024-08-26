@@ -179,7 +179,7 @@ class EnglishEntrycapitalist extends StatelessWidget {
                             englishText:
                                 "She says that the capitalist system has never worked for the poor.",
                             kurdishText:
-                                "دەڵێت کەوا سیستەمی سەرمایەداری ھەرگیز لە قازانجی ھەژاران نەبووە.", // capitalist
+                                "دەڵێت کەوا سیستەمی سەرمایەداری ھەرگیز لە قازانجی ھەژاران نەبووە",
                             onPressedBritish: () => speakcapitalists1("en-GB"),
                             onPressedAmerican: () => speakcapitalists1("en-US"),
                           ),

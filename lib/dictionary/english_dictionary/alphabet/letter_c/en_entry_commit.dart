@@ -223,7 +223,7 @@ class EnglishEntrycommit extends StatelessWidget {
                             englishText:
                                 "Most crimes are committed by young men.",
                             kurdishText:
-                                "زۆرینەی تاوانەکان لەلایەن پیاوانی گەنجەوە دەکرێن.", // commit",
+                                "زۆرینەی تاوانەکان لەلایەن پیاوانی گەنجەوە دەکرێن.",
                             onPressedBritish: () => speakcommits1("en-GB"),
                             onPressedAmerican: () => speakcommits1("en-US"),
                           ),

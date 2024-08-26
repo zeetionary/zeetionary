@@ -111,7 +111,7 @@ class EnglishEntrycongenial extends StatelessWidget {
                             englishText:
                                 "She found him congenial because they shared a love for science and reading.",
                             kurdishText:
-                                "بە لەبەردڵانی بینی چونکە خۆشەویستییەکی ھاوبەشیان بۆ زانست و خوێندنەوە ھەبوو.", // congenial",
+                                "بە لەبەردڵانی بینی چونکە خۆشەویستییەکی ھاوبەشیان بۆ زانست و خوێندنەوە ھەبوو.",
                             onPressedBritish: () => speakcongenials1("en-GB"),
                             onPressedAmerican: () => speakcongenials1("en-US"),
                           ),

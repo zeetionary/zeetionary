@@ -138,7 +138,7 @@ class EnglishEntrybroody extends StatelessWidget {
                             englishText:
                                 "I reached the age of 27 and suddenly started to feel broody.",
                             kurdishText:
-                                "بوومە ٢٧ ساڵ و لەناکاو بە مەراقی منداڵ بووم.", // broody" as
+                                "بوومە ٢٧ ساڵ و لەناکاو بە مەراقی منداڵ بووم.",
                             onPressedBritish: () => speakbroodys1("en-GB"),
                             onPressedAmerican: () => speakbroodys1("en-US"),
                           ),

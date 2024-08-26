@@ -111,7 +111,7 @@ class EnglishEntrycope extends StatelessWidget {
                             englishText:
                                 "I got to the stage where I wasn't coping any more.",
                             kurdishText:
-                                "گەشتم بەو قۆناغەی کە چی دیکە نەمدەتوانی بەرگە بگرم.", // cope",
+                                "گەشتم بەو قۆناغەی کە چی دیکە نەمدەتوانی بەرگە بگرم.",
                             onPressedBritish: () => speakcopes1("en-GB"),
                             onPressedAmerican: () => speakcopes1("en-US"),
                           ),

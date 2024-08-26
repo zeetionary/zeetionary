@@ -95,7 +95,7 @@ class EnglishEntryconstable extends StatelessWidget {
                             englishText:
                                 "The children were taken out of the room by a woman police constable.",
                             kurdishText:
-                                "منداڵەکان لە ژوورەکە بردرانە دەرەوە لەلایەن ژنە پۆلیسێکەوە.", // constable",
+                                "منداڵەکان لە ژوورەکە بردرانە دەرەوە لەلایەن ژنە پۆلیسێکەوە.",
                             onPressedBritish: () => speakconstables1("en-GB"),
                             onPressedAmerican: () => speakconstables1("en-US"),
                           ),

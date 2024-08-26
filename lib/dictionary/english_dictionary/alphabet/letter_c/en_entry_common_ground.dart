@@ -104,7 +104,7 @@ class EnglishEntrycommonground extends StatelessWidget {
                             englishText:
                                 "Despite our disagreements, we have been able to find some common ground.",
                             kurdishText:
-                                "سەرەڕای ناکۆکییەکانمان، توانیومانە خاڵی ھاوبەش بدۆزینەوە لە نێوانماندا.", // common ground",
+                                "سەرەڕای ناکۆکییەکانمان، توانیومانە خاڵی ھاوبەش بدۆزینەوە لە نێوانماندا.",
                             onPressedBritish: () =>
                                 speakcommongrounds1("en-GB"),
                             onPressedAmerican: () =>

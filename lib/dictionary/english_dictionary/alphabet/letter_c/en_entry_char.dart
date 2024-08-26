@@ -106,7 +106,7 @@ class EnglishEntrychar extends StatelessWidget {
                             englishText:
                                 "The char came twice a week to clean the house and do the laundry.",
                             kurdishText:
-                                "ژنە کارەکەرەکە ھەفتەی دووجار دەھات بۆ پاککردنەوەی ماڵەکە و شۆردنی جلەکان.", // char",
+                                "ژنە کارەکەرەکە ھەفتەی دووجار دەھات بۆ پاککردنەوەی ماڵەکە و شۆردنی جلەکان.",
                             onPressedBritish: () => speakchars1("en-GB"),
                             onPressedAmerican: () => speakchars1("en-US"),
                           ),

@@ -186,7 +186,7 @@ class EnglishEntrycable extends StatelessWidget {
                             englishText:
                                 "They're digging up the road to lay cables.",
                             kurdishText:
-                                "ڕێگاکە ھەڵدەکەنن بۆ دانانی کێبڵ.", // cable
+                                "ڕێگاکە ھەڵدەکەنن بۆ دانانی کێبڵ",
                             onPressedBritish: () => speakcables1("en-GB"),
                             onPressedAmerican: () => speakcables1("en-US"),
                           ),

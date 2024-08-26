@@ -95,7 +95,7 @@ class EnglishEntrycorncob extends StatelessWidget {
                             englishText:
                                 "The children used corncobs to feed the chickens on the farm.",
                             kurdishText:
-                                "منداڵەکان ساقەتەی گەنمەشامییان بەکارھێنا بۆ خواردن دان بە مریشکەکانی کێڵگەکە.", // corncob",
+                                "منداڵەکان ساقەتەی گەنمەشامییان بەکارھێنا بۆ خواردن دان بە مریشکەکانی کێڵگەکە.",
                             onPressedBritish: () => speakcorncobs1("en-GB"),
                             onPressedAmerican: () => speakcorncobs1("en-US"),
                           ),

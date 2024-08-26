@@ -94,7 +94,7 @@ class EnglishEntrycockle extends StatelessWidget {
                             englishText:
                                 "Cockle shells are often used in craft projects.",
                             kurdishText:
-                                "سەدەفی کاکڵ زۆرجار بۆ پڕۆژەی دەستڕەنگینی بەکاردێت.", // cockle",
+                                "سەدەفی کاکڵ زۆرجار بۆ پڕۆژەی دەستڕەنگینی بەکاردێت.",
                             onPressedBritish: () => speakcockles1("en-GB"),
                             onPressedAmerican: () => speakcockles1("en-US"),
                           ),

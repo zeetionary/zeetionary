@@ -102,7 +102,7 @@ class EnglishEntryconvertible extends StatelessWidget {
                             englishText:
                                 "The bonds are convertible into ordinary shares.",
                             kurdishText:
-                                "بۆندەکان دەکرێت بگۆڕدرێن بۆ پشکی ئاسایی.", // convertible",
+                                "بۆندەکان دەکرێت بگۆڕدرێن بۆ پشکی ئاسایی.",
                             onPressedBritish: () => speakconvertibles1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconvertibles1("en-US"),

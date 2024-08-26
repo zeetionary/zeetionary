@@ -224,7 +224,7 @@ class EnglishEntrybroken extends StatelessWidget {
                               text: "١. (ھاوەڵناو) شتێک کە شکاوە"),
                           SentencesRow(
                             englishText: "How did this dish get broken?",
-                            kurdishText: "چۆن دەورییەکە شکا؟", // broken" as
+                            kurdishText: "چۆن دەورییەکە شکا؟",
                             onPressedBritish: () => speakbrokens1("en-GB"),
                             onPressedAmerican: () => speakbrokens1("en-US"),
                           ),

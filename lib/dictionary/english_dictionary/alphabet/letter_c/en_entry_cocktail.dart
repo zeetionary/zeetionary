@@ -108,7 +108,7 @@ class EnglishEntrycocktail extends StatelessWidget {
                             englishText:
                                 "We were all in the bar sipping cocktails.",
                             kurdishText:
-                                "ھەموومان لە باڕەکە بووین کۆکتەیلمان ھەڵدەدا.", // cocktail",
+                                "ھەموومان لە باڕەکە بووین کۆکتەیلمان ھەڵدەدا.",
                             onPressedBritish: () => speakcocktails1("en-GB"),
                             onPressedAmerican: () => speakcocktails1("en-US"),
                           ),

@@ -138,8 +138,7 @@ class EnglishEntrybrick extends StatelessWidget {
                                   "١. (ناو) پارچە قوڕی گەرمکراو کە بەکاردێت بۆ درووستنکردنی دیوار، خانوو، ھتد"),
                           SentencesRow(
                             englishText: "The school is built of brick.",
-                            kurdishText:
-                                "قوتابخانەکە لە خشت درووستکراوە.", // brick" as
+                            kurdishText: "قوتابخانەکە لە خشت درووستکراوە.",
                             onPressedBritish: () => speakbricks1("en-GB"),
                             onPressedAmerican: () => speakbricks1("en-US"),
                           ),

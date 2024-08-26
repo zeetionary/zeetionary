@@ -94,7 +94,7 @@ class EnglishEntrychimneystack extends StatelessWidget {
                             englishText:
                                 "The old house had a tall chimney stack that could be seen from a distance.",
                             kurdishText:
-                                "خانووە کۆنەکە دووکەڵ‌کێشێکی بەرزی سەربانی ھەبوو کە لە دوورەوە دەبینرا.", // chimney stack",
+                                "خانووە کۆنەکە دووکەڵ‌کێشێکی بەرزی سەربانی ھەبوو کە لە دوورەوە دەبینرا.",
                             onPressedBritish: () =>
                                 speakchimneystacks1("en-GB"),
                             onPressedAmerican: () =>

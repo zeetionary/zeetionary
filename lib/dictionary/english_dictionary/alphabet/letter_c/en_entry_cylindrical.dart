@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The pillar was cylindrical in shape, providing support for the roof.",
             kurdishText:
-                "دینگەکە لە شێوەدا لوولەک بوو و پشتیوانی سەربانەکەی دەکرد.", // cylindrical", please follow LX instructions
+                "دینگەکە لە شێوەدا لوولەک بوو و پشتیوانی سەربانەکەی دەکرد.",
             onPressedBritish: () => speakcylindricals1("en-GB"),
             onPressedAmerican: () => speakcylindricals1("en-US"),
           ),

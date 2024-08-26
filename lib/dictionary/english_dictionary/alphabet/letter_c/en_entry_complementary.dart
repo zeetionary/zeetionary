@@ -104,7 +104,7 @@ class EnglishEntrycomplementary extends StatelessWidget {
                             englishText:
                                 "The school's approach must be complementary to that of the parents.",
                             kurdishText:
-                                "ڕێبازی قوتابخانە دەبێت تەواوکەر بێت لەگەڵ ئەوانەی دایکان و باوکان.", // complementary",
+                                "ڕێبازی قوتابخانە دەبێت تەواوکەر بێت لەگەڵ ئەوانەی دایکان و باوکان.",
                             onPressedBritish: () =>
                                 speakcomplementarys1("en-GB"),
                             onPressedAmerican: () =>

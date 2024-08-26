@@ -145,8 +145,7 @@ class EnglishEntrychatter extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They chattered away happily for a while.",
-                            kurdishText:
-                                "دڵخۆشانە بۆ ماوەیەک قسەیان کرد.", // chatter",
+                            kurdishText: "دڵخۆشانە بۆ ماوەیەک قسەیان کرد.",
                             onPressedBritish: () => speakchatters1("en-GB"),
                             onPressedAmerican: () => speakchatters1("en-US"),
                           ),

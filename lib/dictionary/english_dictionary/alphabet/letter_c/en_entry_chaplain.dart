@@ -91,7 +91,7 @@ class EnglishEntrychaplain extends StatelessWidget {
                             englishText:
                                 "The prison chaplain conducted religious services and offered guidance to inmates seeking spiritual solace.",
                             kurdishText:
-                                "قەشەی زیندانەکە بۆنەی ئایینی ئەنجامدا و ڕێنوێنی پێشکەش بە ئەو زیندانییانە کرد کە بەدوای دڵنەوایی ڕۆحیدا دەگەڕان.", // chaplain",
+                                "قەشەی زیندانەکە بۆنەی ئایینی ئەنجامدا و ڕێنوێنی پێشکەش بە ئەو زیندانییانە کرد کە بەدوای دڵنەوایی ڕۆحیدا دەگەڕان.",
                             onPressedBritish: () => speakchaplains1("en-GB"),
                             onPressedAmerican: () => speakchaplains1("en-US"),
                           ),

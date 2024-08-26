@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The family gathered at the crematorium to say their final goodbyes.",
-            kurdishText:
-                "خێزانەکە لە سووتانگەکە کۆبوونەوە بۆ کۆتا ماڵئاوایی.", // crematorium", please follow LX instructions
+            kurdishText: "خێزانەکە لە سووتانگەکە کۆبوونەوە بۆ کۆتا ماڵئاوایی.",
             onPressedBritish: () => speakcrematoriums1("en-GB"),
             onPressedAmerican: () => speakcrematoriums1("en-US"),
           ),

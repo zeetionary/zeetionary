@@ -183,7 +183,7 @@ class EnglishEntrycareer extends StatelessWidget {
                             englishText:
                                 "She plans to pursue a career in medicine.",
                             kurdishText:
-                                "پلانی ھەیە کارێکی لە دەرمانسازیدا ھەبێت.", // career",
+                                "پلانی ھەیە کارێکی لە دەرمانسازیدا ھەبێت.",
                             onPressedBritish: () => speakcareers1("en-GB"),
                             onPressedAmerican: () => speakcareers1("en-US"),
                           ),

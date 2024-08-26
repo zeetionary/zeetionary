@@ -94,7 +94,7 @@ class EnglishEntryconsecutively extends StatelessWidget {
                             englishText:
                                 "The plays will be performed consecutively and will last eight hours.",
                             kurdishText:
-                                "شانۆکان بە شێوەیەکی دوابەدوای‌یەک پێشکەش دەکرێن و ھەشت کاتژمێر دەخایەنن.", // consecutively",
+                                "شانۆکان بە شێوەیەکی دوابەدوای‌یەک پێشکەش دەکرێن و ھەشت کاتژمێر دەخایەنن.",
                             onPressedBritish: () =>
                                 speakconsecutivelys1("en-GB"),
                             onPressedAmerican: () =>

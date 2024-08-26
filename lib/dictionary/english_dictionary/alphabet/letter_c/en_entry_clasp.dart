@@ -137,8 +137,7 @@ class EnglishEntryclasp extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They clasped hands (= held each other's hands).",
-                            kurdishText:
-                                "بە توندی دەستی یەکدییان گرت.", // clasp",
+                            kurdishText: "بە توندی دەستی یەکدییان گرت.",
                             onPressedBritish: () => speakclasps1("en-GB"),
                             onPressedAmerican: () => speakclasps1("en-US"),
                           ),

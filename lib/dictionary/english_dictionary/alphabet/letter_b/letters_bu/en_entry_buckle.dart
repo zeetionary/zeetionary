@@ -138,8 +138,7 @@ class EnglishEntrybuckle extends StatelessWidget {
                               text: "١. (کردار) بەستن بە ئاوزوونە"),
                           SentencesRow(
                             englishText: "She buckled her belt.",
-                            kurdishText:
-                                "قایشەکەی بە ئاوەزوونەکە بەست.", // buckle" as
+                            kurdishText: "قایشەکەی بە ئاوەزوونەکە بەست.",
                             onPressedBritish: () => speakbuckles1("en-GB"),
                             onPressedAmerican: () => speakbuckles1("en-US"),
                           ),

@@ -101,7 +101,7 @@ class EnglishEntrycheaply extends StatelessWidget {
                             englishText:
                                 "I'm sure I could buy this more cheaply somewhere else.",
                             kurdishText:
-                                "دڵنیام دەتوانم ئەمە بە ھەرزانتر بکڕم لە شوێنێکی دیکە.", // cheaply",
+                                "دڵنیام دەتوانم ئەمە بە ھەرزانتر بکڕم لە شوێنێکی دیکە.",
                             onPressedBritish: () => speakcheaplys1("en-GB"),
                             onPressedAmerican: () => speakcheaplys1("en-US"),
                           ),

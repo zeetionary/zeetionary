@@ -95,7 +95,7 @@ class EnglishEntryconformity extends StatelessWidget {
                             englishText:
                                 "Governments often invoke patriotism to enforce conformity.",
                             kurdishText:
-                                "حکومەتەکان زۆرجار ھەستی نیشتیمانپەروەری دەورووژێنن بۆ پابەندکردن بە نەریت‌گیری.", // conformity",
+                                "حکومەتەکان زۆرجار ھەستی نیشتیمانپەروەری دەورووژێنن بۆ پابەندکردن بە نەریت‌گیری.",
                             onPressedBritish: () => speakconformitys1("en-GB"),
                             onPressedAmerican: () => speakconformitys1("en-US"),
                           ),

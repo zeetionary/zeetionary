@@ -181,7 +181,7 @@ class EnglishEntrycanyon extends StatelessWidget {
                             englishText:
                                 "Massive rock formations, mountains and deep canyons present splendid our trip.",
                             kurdishText:
-                                "بوونی بەردی گەورە، چیا و دۆڵی قووڵ تایبەتییان دابوو بە گەشتەکەمان.", // canyon
+                                "بوونی بەردی گەورە، چیا و دۆڵی قووڵ تایبەتییان دابوو بە گەشتەکەمان",
                             onPressedBritish: () => speakcanyons1("en-GB"),
                             onPressedAmerican: () => speakcanyons1("en-US"),
                           ),

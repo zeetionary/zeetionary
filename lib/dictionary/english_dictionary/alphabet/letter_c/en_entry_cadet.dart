@@ -181,7 +181,7 @@ class EnglishEntrycadet extends StatelessWidget {
                             englishText:
                                 "The military academy trains up to 2 000 officer cadets each year.",
                             kurdishText:
-                                "ئەکادیمیا سەربازییەکە ھەموو ساڵێک تا ٢٠٠٠ تازەکار ڕاھێنان پێ‌دەکات.", // cadet
+                                "ئەکادیمیا سەربازییەکە ھەموو ساڵێک تا ٢٠٠٠ تازەکار ڕاھێنان پێ‌دەکات",
                             onPressedBritish: () => speakcadets1("en-GB"),
                             onPressedAmerican: () => speakcadets1("en-US"),
                           ),

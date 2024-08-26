@@ -136,8 +136,7 @@ class EnglishEntrybugbear extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Inflation is the government's main bugbear.",
-                            kurdishText:
-                                "ھەڵاوسان دێوەزمەی سەرەکی حکومەتە.", // bugbear" as
+                            kurdishText: "ھەڵاوسان دێوەزمەی سەرەکی حکومەتە.",
                             onPressedBritish: () => speakbugbears1("en-GB"),
                             onPressedAmerican: () => speakbugbears1("en-US"),
                           ),

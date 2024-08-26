@@ -101,7 +101,7 @@ class EnglishEntrycob extends StatelessWidget {
                           SentencesRow(
                             englishText: "Cut the corn kernels from the cob.",
                             kurdishText:
-                                "تۆوەکان لە ساقەتەی گەنمەشامییەکە بکەوە.", // cob",
+                                "تۆوەکان لە ساقەتەی گەنمەشامییەکە بکەوە.",
                             onPressedBritish: () => speakcobs1("en-GB"),
                             onPressedAmerican: () => speakcobs1("en-US"),
                           ),

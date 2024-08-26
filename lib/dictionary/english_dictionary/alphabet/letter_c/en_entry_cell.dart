@@ -178,7 +178,7 @@ class EnglishEntrycell extends StatelessWidget {
                           SentencesRow(
                             englishText: "Cells divide and form new cells.",
                             kurdishText:
-                                "خانەکان دابەش دەبن و خانەی تازە درووست دەکەن.", // cell",
+                                "خانەکان دابەش دەبن و خانەی تازە درووست دەکەن.",
                             onPressedBritish: () => speakcells1("en-GB"),
                             onPressedAmerican: () => speakcells1("en-US"),
                           ),

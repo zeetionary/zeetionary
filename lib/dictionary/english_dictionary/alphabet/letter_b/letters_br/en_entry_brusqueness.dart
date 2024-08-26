@@ -138,8 +138,7 @@ class EnglishEntrybrusqueness extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "New Yorkers have a reputation for brusqueness.",
-                            kurdishText:
-                                "نیویۆرکییەکان ناسراون بۆ پەلەکردن.", // brusqueness" as
+                            kurdishText: "نیویۆرکییەکان ناسراون بۆ پەلەکردن.",
                             onPressedBritish: () => speakbrusquenesss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbrusquenesss1("en-US"),

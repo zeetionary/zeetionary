@@ -95,7 +95,7 @@ class EnglishEntryconfederation extends StatelessWidget {
                             englishText:
                                 "The Confederation of British Industry works to influence government policies that affect businesses.",
                             kurdishText:
-                                "کۆنفێدراسیۆنی پیشەسازی بەریتانیا کاردەکات بۆ کاریگەریدانان لەسەر سیاسەتەکانی حکومەت کە کاریگەری لە بازرگانییەکان دەکەن.", // confederation",
+                                "کۆنفێدراسیۆنی پیشەسازی بەریتانیا کاردەکات بۆ کاریگەریدانان لەسەر سیاسەتەکانی حکومەت کە کاریگەری لە بازرگانییەکان دەکەن.",
                             onPressedBritish: () =>
                                 speakconfederations1("en-GB"),
                             onPressedAmerican: () =>

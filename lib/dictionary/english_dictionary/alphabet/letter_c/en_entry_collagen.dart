@@ -95,7 +95,7 @@ class EnglishEntrycollagen extends StatelessWidget {
                             englishText:
                                 "Collagen implants don't help the blemishes left by chicken pox or acne.",
                             kurdishText:
-                                "داچاندنی کۆلاجین یارمەتیدەر نابێت لە لادانی نیشانەکانی دڕکەمێکوتە و ئاکنی.", // collagen",
+                                "داچاندنی کۆلاجین یارمەتیدەر نابێت لە لادانی نیشانەکانی دڕکەمێکوتە و ئاکنی.",
                             onPressedBritish: () => speakcollagens1("en-GB"),
                             onPressedAmerican: () => speakcollagens1("en-US"),
                           ),

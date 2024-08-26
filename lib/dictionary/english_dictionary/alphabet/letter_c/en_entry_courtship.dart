@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "They married after a short courtship.",
             kurdishText:
-                "ھاوسەرگیرییان کرد لە دوای دەستگیراندارییەکی کورتخایەن.", // courtship", please follow LX instructions
+                "ھاوسەرگیرییان کرد لە دوای دەستگیراندارییەکی کورتخایەن.",
             onPressedBritish: () => speakcourtships1("en-GB"),
             onPressedAmerican: () => speakcourtships1("en-US"),
           ),

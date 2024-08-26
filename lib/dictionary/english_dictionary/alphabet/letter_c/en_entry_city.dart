@@ -138,7 +138,7 @@ class EnglishEntrycity extends StatelessWidget {
                             englishText:
                                 "Parking is difficult in the city centre.",
                             kurdishText:
-                                "وەستانی ئۆتۆمبێل سەختە لە سەنتەری شاردا.", // city",
+                                "وەستانی ئۆتۆمبێل سەختە لە سەنتەری شاردا.",
                             onPressedBritish: () => speakcitys1("en-GB"),
                             onPressedAmerican: () => speakcitys1("en-US"),
                           ),

@@ -141,7 +141,7 @@ class EnglishEntryconventional extends StatelessWidget {
                             englishText:
                                 "She's very conventional in her views.",
                             kurdishText:
-                                "زۆر پابەند بە دەستوورە لە ڕوانگەکانییەوە.", // conventional",
+                                "زۆر پابەند بە دەستوورە لە ڕوانگەکانییەوە.",
                             onPressedBritish: () =>
                                 speakconventionals1("en-GB"),
                             onPressedAmerican: () =>

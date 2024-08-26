@@ -134,7 +134,7 @@ class EnglishEntrycontinent extends StatelessWidget {
                             englishText:
                                 "In some cultures, being continent until marriage is highly valued.",
                             kurdishText:
-                                "لە ھەندێک کەلتووردا، مانەوە بە داوێنپاکی تاوەکو ھاوسەرگیری زۆر نرخدارە.", // continent",
+                                "لە ھەندێک کەلتووردا، مانەوە بە داوێنپاکی تاوەکو ھاوسەرگیری زۆر نرخدارە.",
                             onPressedBritish: () => speakcontinents1("en-GB"),
                             onPressedAmerican: () => speakcontinents1("en-US"),
                           ),

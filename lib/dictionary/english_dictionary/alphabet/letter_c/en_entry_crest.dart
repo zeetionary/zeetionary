@@ -274,8 +274,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بەشی سەرەوەی گردێک یان شەپۆلێک"),
           SentencesRow(
             englishText: "We finally reached the crest of the ridge.",
-            kurdishText:
-                "لە کۆتاییدا تەوقی تەپۆلکەکە.", // crest", please follow LX instructions
+            kurdishText: "لە کۆتاییدا تەوقی تەپۆلکەکە.",
             onPressedBritish: () => speakcrests1("en-GB"),
             onPressedAmerican: () => speakcrests1("en-US"),
           ),

@@ -179,8 +179,7 @@ class EnglishEntrycellphone extends StatelessWidget {
 ١. (ناو) تەلەفۆنێک کە بە ڕادیۆ کاردەکات و دەتوانیت لەگەڵ خۆتدا ھەڵیبگریت"""),
                           SentencesRow(
                             englishText: "I talked to her on my cell phone.",
-                            kurdishText:
-                                "بە موبایلەکەم قسەم لەگەڵ کرد.", // cellphone",
+                            kurdishText: "بە موبایلەکەم قسەم لەگەڵ کرد.",
                             onPressedBritish: () => speakcellphones1("en-GB"),
                             onPressedAmerican: () => speakcellphones1("en-US"),
                           ),

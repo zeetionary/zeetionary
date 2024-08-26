@@ -182,7 +182,7 @@ class EnglishEntrycackle extends StatelessWidget {
                             englishText:
                                 "The hen sitting on the fence started to cackle loudly.",
                             kurdishText:
-                                "مریشکەکە بە دانیشتن لەسەر پەرژینەکە دەستی بە گارەگار کرد.", // cackle
+                                "مریشکەکە بە دانیشتن لەسەر پەرژینەکە دەستی بە گارەگار کرد",
                             onPressedBritish: () => speakcackles1("en-GB"),
                             onPressedAmerican: () => speakcackles1("en-US"),
                           ),

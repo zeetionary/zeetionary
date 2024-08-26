@@ -100,8 +100,7 @@ class EnglishEntryconcave extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The upper surface is slightly concave.",
-                            kurdishText:
-                                "ڕووی سەرەوە کەمێک قوپاوە.", // concave",
+                            kurdishText: "ڕووی سەرەوە کەمێک قوپاوە.",
                             onPressedBritish: () => speakconcaves1("en-GB"),
                             onPressedAmerican: () => speakconcaves1("en-US"),
                           ),

@@ -174,7 +174,7 @@ class EnglishEntrycent extends StatelessWidget {
                             englishText:
                                 "A one-minute phone call to the UK cost 10 cents.",
                             kurdishText:
-                                "یەک خولەک پەیوەندی تەلەفۆنی بۆ شانشینی یەکگرتوو ١٠ سەنتە.", // cent",
+                                "یەک خولەک پەیوەندی تەلەفۆنی بۆ شانشینی یەکگرتوو ١٠ سەنتە.",
                             onPressedBritish: () => speakcents1("en-GB"),
                             onPressedAmerican: () => speakcents1("en-US"),
                           ),

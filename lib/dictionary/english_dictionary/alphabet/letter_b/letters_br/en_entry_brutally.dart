@@ -136,8 +136,7 @@ class EnglishEntrybrutally extends StatelessWidget {
                                   "١. (ھاوەڵکار) بە توندوتیژی و بێ بەزەییانە"),
                           SentencesRow(
                             englishText: "He was brutally assaulted.",
-                            kurdishText:
-                                "بە دڕندانە ھێرشی کرایە سەر.", // brutally" as
+                            kurdishText: "بە دڕندانە ھێرشی کرایە سەر.",
                             onPressedBritish: () => speakbrutallys1("en-GB"),
                             onPressedAmerican: () => speakbrutallys1("en-US"),
                           ),

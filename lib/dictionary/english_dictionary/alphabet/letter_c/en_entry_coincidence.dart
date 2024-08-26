@@ -117,7 +117,7 @@ class EnglishEntrycoincidence extends StatelessWidget {
                             englishText:
                                 "What a coincidence! I wasn't expecting to see you here.",
                             kurdishText:
-                                "چی ڕێککەوتێک! پێشبینی ئەوەم نەدەکرد لێرە بتبینم.", // coincidence",
+                                "چی ڕێککەوتێک! پێشبینی ئەوەم نەدەکرد لێرە بتبینم.",
                             onPressedBritish: () => speakcoincidences1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcoincidences1("en-US"),

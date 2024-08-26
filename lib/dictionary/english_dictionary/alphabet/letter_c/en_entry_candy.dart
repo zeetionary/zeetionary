@@ -179,7 +179,7 @@ class EnglishEntrycandy extends StatelessWidget {
                                   "١. (ناو) شیرینی کە لە شەکر و چکلێت درووست دەکرێت"),
                           SentencesRow(
                             englishText: "Who wants the last piece of candy?",
-                            kurdishText: "کێ کۆتا پارچە شیرینی دەوێت؟", // candy
+                            kurdishText: "کێ کۆتا پارچە شیرینی دەوێت",
                             onPressedBritish: () => speakcandys1("en-GB"),
                             onPressedAmerican: () => speakcandys1("en-US"),
                           ),

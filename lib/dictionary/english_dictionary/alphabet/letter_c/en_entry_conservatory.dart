@@ -104,7 +104,7 @@ class EnglishEntryconservatory extends StatelessWidget {
                             englishText:
                                 "The conservatory provided a cozy spot to relax and enjoy the view of the garden.",
                             kurdishText:
-                                "ژوورە شووشەییەکە شوێنێکی ئاسوودەی دابین دەکرد بۆ حەسانەوە و چێژبینین لە دیمەنی باخچەکە.", // conservatory",
+                                "ژوورە شووشەییەکە شوێنێکی ئاسوودەی دابین دەکرد بۆ حەسانەوە و چێژبینین لە دیمەنی باخچەکە.",
                             onPressedBritish: () =>
                                 speakconservatorys1("en-GB"),
                             onPressedAmerican: () =>

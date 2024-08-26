@@ -415,7 +415,7 @@ class EnglishEntrychange extends StatelessWidget {
                             englishText:
                                 "Rick hasn't changed. He looks exactly the same as he did at school.",
                             kurdishText:
-                                "ڕیک ھیچ نەگۆڕاوە. ڕێک وەک ئەو کاتەیە کە لە قوتابخانە بوو.", // change",
+                                "ڕیک ھیچ نەگۆڕاوە. ڕێک وەک ئەو کاتەیە کە لە قوتابخانە بوو.",
                             onPressedBritish: () => speakchanges1("en-GB"),
                             onPressedAmerican: () => speakchanges1("en-US"),
                           ),

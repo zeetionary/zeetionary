@@ -93,7 +93,7 @@ class EnglishEntrycoconut extends StatelessWidget {
                             englishText:
                                 "She broke open the coconut and drank its sweet milk.",
                             kurdishText:
-                                "گوێزھندییەکەی شکاند و شیرە شیرینەکەی خواردەوە.", // coconut",
+                                "گوێزھندییەکەی شکاند و شیرە شیرینەکەی خواردەوە.",
                             onPressedBritish: () => speakcoconuts1("en-GB"),
                             onPressedAmerican: () => speakcoconuts1("en-US"),
                           ),

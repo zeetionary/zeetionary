@@ -123,7 +123,7 @@ class EnglishEntryconvince extends StatelessWidget {
                             englishText:
                                 "Are the prime minister's assurances enough to convince the public?",
                             kurdishText:
-                                "دڵنیاییەکانی سەرۆک وەزیران بەسن بۆ ڕازیکردنی خەڵکی؟", // convince",
+                                "دڵنیاییەکانی سەرۆک وەزیران بەسن بۆ ڕازیکردنی خەڵکی؟",
                             onPressedBritish: () => speakconvinces1("en-GB"),
                             onPressedAmerican: () => speakconvinces1("en-US"),
                           ),

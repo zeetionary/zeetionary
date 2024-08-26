@@ -117,7 +117,7 @@ class EnglishEntrycommute extends StatelessWidget {
                             englishText:
                                 "She commutes from Oxford to London every day.",
                             kurdishText:
-                                "ھەموو ڕۆژێک لە ئۆکسفۆردەوە ھاتووچۆی لەندەن دەکات.", // commute",
+                                "ھەموو ڕۆژێک لە ئۆکسفۆردەوە ھاتووچۆی لەندەن دەکات.",
                             onPressedBritish: () => speakcommutes1("en-GB"),
                             onPressedAmerican: () => speakcommutes1("en-US"),
                           ),

@@ -109,7 +109,7 @@ class EnglishEntrycoherent extends StatelessWidget {
                             englishText:
                                 "The party's policies were based on prejudice rather than on any coherent ideology.",
                             kurdishText:
-                                "سیاسەتەکانی پارتەکە لەسەر ڕق دامەزرابوون نەک ئایدۆلۆژیایەکی یەکگرتوو.", // coherent",
+                                "سیاسەتەکانی پارتەکە لەسەر ڕق دامەزرابوون نەک ئایدۆلۆژیایەکی یەکگرتوو.",
                             onPressedBritish: () => speakcoherents1("en-GB"),
                             onPressedAmerican: () => speakcoherents1("en-US"),
                           ),

@@ -174,7 +174,7 @@ class EnglishEntrycargo extends StatelessWidget {
                             englishText:
                                 "The port handles cargo from all over Asia.",
                             kurdishText:
-                                "بەندەرەکە باری لە ھەموو ئاسیاوە بۆ دێت.", // cargo",
+                                "بەندەرەکە باری لە ھەموو ئاسیاوە بۆ دێت.",
                             onPressedBritish: () => speakcargos1("en-GB"),
                             onPressedAmerican: () => speakcargos1("en-US"),
                           ),

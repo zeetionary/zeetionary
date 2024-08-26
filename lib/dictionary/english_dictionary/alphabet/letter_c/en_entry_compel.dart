@@ -119,7 +119,7 @@ class EnglishEntrycompel extends StatelessWidget {
                             englishText:
                                 "The law can compel fathers to make regular payments for their children.",
                             kurdishText:
-                                "یاساکە دەکرێت باوکان ناچار بکات کە پارەی ماوە ماوە بدەن بە منداڵەکانیان.", // compel",
+                                "یاساکە دەکرێت باوکان ناچار بکات کە پارەی ماوە ماوە بدەن بە منداڵەکانیان.",
                             onPressedBritish: () => speakcompels1("en-GB"),
                             onPressedAmerican: () => speakcompels1("en-US"),
                           ),

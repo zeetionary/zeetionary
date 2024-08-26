@@ -97,7 +97,7 @@ class EnglishEntrychambermusic extends StatelessWidget {
                             englishText:
                                 "Musicians often gather in informal settings to play chamber music for friends and colleagues.",
                             kurdishText:
-                                "میوزیکژەنان زۆرجار لە شوێنی نافەرمی کۆدەبنەوە بۆ ژەنینی میوزیکی مەجلیسی.", // chamber music",
+                                "میوزیکژەنان زۆرجار لە شوێنی نافەرمی کۆدەبنەوە بۆ ژەنینی میوزیکی مەجلیسی.",
                             onPressedBritish: () =>
                                 speakchambermusics1("en-GB"),
                             onPressedAmerican: () =>

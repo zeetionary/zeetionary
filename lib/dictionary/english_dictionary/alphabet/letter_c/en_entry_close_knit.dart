@@ -95,7 +95,7 @@ class EnglishEntrycloseknit extends StatelessWidget {
                             englishText:
                                 "The community was close-knit, with everyone knowing each other.",
                             kurdishText:
-                                "کۆمەڵگەکە تەباب بوون و ھەموویان یەکدییان دەناسی.", // close-knit",
+                                "کۆمەڵگەکە تەباب بوون و ھەموویان یەکدییان دەناسی.",
                             onPressedBritish: () => speakcloseknits1("en-GB"),
                             onPressedAmerican: () => speakcloseknits1("en-US"),
                           ),

@@ -171,8 +171,7 @@ class EnglishEntryclip extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Here is a clip from her latest movie.",
-                            kurdishText:
-                                "ئەمە کلیپێکە لە کۆتا فیلمی.", // clip",
+                            kurdishText: "ئەمە کلیپێکە لە کۆتا فیلمی.",
                             onPressedBritish: () => speakclips1("en-GB"),
                             onPressedAmerican: () => speakclips1("en-US"),
                           ),

@@ -101,7 +101,7 @@ class EnglishEntrycoma extends StatelessWidget {
                             englishText:
                                 "He fell into a coma after suffering a stroke.",
                             kurdishText:
-                                "کەوتە کۆما لە دوای تووشبوونی بە جەڵدە.", // coma",
+                                "کەوتە کۆما لە دوای تووشبوونی بە جەڵدە.",
                             onPressedBritish: () => speakcomas1("en-GB"),
                             onPressedAmerican: () => speakcomas1("en-US"),
                           ),

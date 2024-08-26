@@ -95,7 +95,7 @@ class EnglishEntrychicory extends StatelessWidget {
                             englishText:
                                 "I like to grill red or white chicory to go with the meat.",
                             kurdishText:
-                                "حەزدەکەم چەقچەقەی سوور و سپی ببرژێنم بۆ خواردن لەگەڵ گۆشتەکە.", // chicory",
+                                "حەزدەکەم چەقچەقەی سوور و سپی ببرژێنم بۆ خواردن لەگەڵ گۆشتەکە.",
                             onPressedBritish: () => speakchicorys1("en-GB"),
                             onPressedAmerican: () => speakchicorys1("en-US"),
                           ),

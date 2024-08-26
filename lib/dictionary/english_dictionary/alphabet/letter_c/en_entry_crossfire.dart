@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The doctor was killed in crossfire as he went to help the wounded.",
             kurdishText:
-                "پزیشکەکە لە گەللەباراندا کوژرا کە چوو یارمەتی بریندارەکە بدات.", // crossfire", please follow LX instructions
+                "پزیشکەکە لە گەللەباراندا کوژرا کە چوو یارمەتی بریندارەکە بدات.",
             onPressedBritish: () => speakcrossfires1("en-GB"),
             onPressedAmerican: () => speakcrossfires1("en-US"),
           ),

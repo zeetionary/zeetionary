@@ -111,7 +111,7 @@ class EnglishEntrycontinuously extends StatelessWidget {
                             englishText:
                                 "He has lived and worked in France almost continuously since 1990.",
                             kurdishText:
-                                "تا ڕادەیەک بەبێ دابڕان لە ساڵی ١٩٩٠ ـەوە لە فەرەنسا ژیاوە و کاری کردووە.", // continuously",
+                                "تا ڕادەیەک بەبێ دابڕان لە ساڵی ١٩٩٠ ـەوە لە فەرەنسا ژیاوە و کاری کردووە.",
                             onPressedBritish: () =>
                                 speakcontinuouslys1("en-GB"),
                             onPressedAmerican: () =>

@@ -95,7 +95,7 @@ class EnglishEntryconformist extends StatelessWidget {
                             englishText:
                                 "In a society that values individuality, being a conformist is often seen as a negative trait.",
                             kurdishText:
-                                "لە کۆمەڵگەیەکدا کە گرنگی بە تاکێتی دەدرێت، بوون بە خۆگونجێنێک وەک نیشانەیەکی نەرێنی دەبینرێت.", // conformist",
+                                "لە کۆمەڵگەیەکدا کە گرنگی بە تاکێتی دەدرێت، بوون بە خۆگونجێنێک وەک نیشانەیەکی نەرێنی دەبینرێت.",
                             onPressedBritish: () => speakconformists1("en-GB"),
                             onPressedAmerican: () => speakconformists1("en-US"),
                           ),

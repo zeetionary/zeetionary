@@ -175,7 +175,7 @@ class EnglishEntrycaustically extends StatelessWidget {
                             englishText:
                                 "The longer the project dragged on, the more caustically his father condemned it.",
                             kurdishText:
-                                "چەندە پڕۆژەکە زۆری خایاندبا، ھێندە توندتر باوکی سەرکۆنەی دەکرد.", // caustically",
+                                "چەندە پڕۆژەکە زۆری خایاندبا، ھێندە توندتر باوکی سەرکۆنەی دەکرد.",
                             onPressedBritish: () => speakcausticallys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcausticallys1("en-US"),

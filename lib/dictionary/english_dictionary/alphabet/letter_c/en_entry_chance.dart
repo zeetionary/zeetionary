@@ -222,7 +222,7 @@ class EnglishEntrychance extends StatelessWidget {
                             englishText:
                                 "Is there any chance of getting tickets for tonight?",
                             kurdishText:
-                                "ھیچ شانسێکی دەستکەوتنی بلیت ھەیە بۆ ئەمشەو؟", // chance",
+                                "ھیچ شانسێکی دەستکەوتنی بلیت ھەیە بۆ ئەمشەو؟",
                             onPressedBritish: () => speakchances1("en-GB"),
                             onPressedAmerican: () => speakchances1("en-US"),
                           ),

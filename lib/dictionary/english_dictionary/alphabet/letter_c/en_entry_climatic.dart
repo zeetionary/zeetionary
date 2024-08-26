@@ -95,7 +95,7 @@ class EnglishEntryclimatic extends StatelessWidget {
                             englishText:
                                 "Some parts of the world seem to be experiencing climatic changes.",
                             kurdishText:
-                                "ھەندێک بەشی جیھان وادەردەکەون کە ڕووبەڕووی گۆڕانی ئاو و ھەوا ببنەوە.", // climatic",
+                                "ھەندێک بەشی جیھان وادەردەکەون کە ڕووبەڕووی گۆڕانی ئاو و ھەوا ببنەوە.",
                             onPressedBritish: () => speakclimatics1("en-GB"),
                             onPressedAmerican: () => speakclimatics1("en-US"),
                           ),

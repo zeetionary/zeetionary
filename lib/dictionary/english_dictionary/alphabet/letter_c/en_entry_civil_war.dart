@@ -102,7 +102,7 @@ class EnglishEntrycivilwar extends StatelessWidget {
                             englishText:
                                 "He fears the violence could spark a civil war.",
                             kurdishText:
-                                "دەترسێت توندوتیژییەکە ملبکێشێت بۆ شەڕی ناوخۆ.", // civil war",
+                                "دەترسێت توندوتیژییەکە ملبکێشێت بۆ شەڕی ناوخۆ.",
                             onPressedBritish: () => speakcivilwars1("en-GB"),
                             onPressedAmerican: () => speakcivilwars1("en-US"),
                           ),

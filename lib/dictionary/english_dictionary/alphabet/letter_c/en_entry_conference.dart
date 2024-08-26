@@ -132,7 +132,7 @@ class EnglishEntryconference extends StatelessWidget {
                             englishText:
                                 "The hotel is used for exhibitions, conferences and social events.",
                             kurdishText:
-                                "ھوتێلەکە بۆ پێشانگا، کۆنفرانس و بۆنەی کۆمەڵایەتی بەکاردێت.", // conference",
+                                "ھوتێلەکە بۆ پێشانگا، کۆنفرانس و بۆنەی کۆمەڵایەتی بەکاردێت.",
                             onPressedBritish: () => speakconferences1("en-GB"),
                             onPressedAmerican: () => speakconferences1("en-US"),
                           ),

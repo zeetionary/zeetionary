@@ -175,7 +175,7 @@ class EnglishEntrycashcrop extends StatelessWidget {
                             englishText:
                                 "Most farmers now produce cash crops such as coffee and tobacco for the export market.",
                             kurdishText:
-                                "زۆر جوتیار لە ئێستادا دانەوێڵەی بۆفرۆش بەرھەمدێنن وەک قاوە و تووتن بۆ بازاڕی ھەناردە.", // cash crop",
+                                "زۆر جوتیار لە ئێستادا دانەوێڵەی بۆفرۆش بەرھەمدێنن وەک قاوە و تووتن بۆ بازاڕی ھەناردە.",
                             onPressedBritish: () => speakcashcrops1("en-GB"),
                             onPressedAmerican: () => speakcashcrops1("en-US"),
                           ),

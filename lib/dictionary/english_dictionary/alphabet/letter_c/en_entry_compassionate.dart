@@ -103,7 +103,7 @@ class EnglishEntrycompassionate extends StatelessWidget {
                             englishText:
                                 "Politicians are not usually regarded as warm or compassionate people.",
                             kurdishText:
-                                "سیاسەتمەداران زۆرجار بە کەسانی گەرموگوڕ و خەم‌خۆر دانانرێن.", // compassionate",
+                                "سیاسەتمەداران زۆرجار بە کەسانی گەرموگوڕ و خەم‌خۆر دانانرێن.",
                             onPressedBritish: () =>
                                 speakcompassionates1("en-GB"),
                             onPressedAmerican: () =>

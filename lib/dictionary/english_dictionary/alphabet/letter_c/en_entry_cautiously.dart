@@ -179,7 +179,7 @@ class EnglishEntrycautiously extends StatelessWidget {
                             englishText:
                                 "She looked cautiously around and then walked away from the house.",
                             kurdishText:
-                                "بە وریاییەوە سەیری دەورووبەری کرد و دواتر ماڵەکەی جێھێشت.", // cautiously",
+                                "بە وریاییەوە سەیری دەورووبەری کرد و دواتر ماڵەکەی جێھێشت.",
                             onPressedBritish: () => speakcautiouslys1("en-GB"),
                             onPressedAmerican: () => speakcautiouslys1("en-US"),
                           ),

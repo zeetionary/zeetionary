@@ -100,8 +100,7 @@ class EnglishEntrycockeyed extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Doesn't that picture look cockeyed to you?",
-                            kurdishText:
-                                "لەبەرچاوت ئەو وێنەیە خواروخێچ نییە؟", // cockeyed",
+                            kurdishText: "لەبەرچاوت ئەو وێنەیە خواروخێچ نییە؟",
                             onPressedBritish: () => speakcockeyeds1("en-GB"),
                             onPressedAmerican: () => speakcockeyeds1("en-US"),
                           ),

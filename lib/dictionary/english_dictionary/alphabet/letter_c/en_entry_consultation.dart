@@ -141,7 +141,7 @@ class EnglishEntryconsultation extends StatelessWidget {
                             englishText:
                                 "The decision was taken after close consultation with local residents.",
                             kurdishText:
-                                "بڕیارەکە درا لە دوای ڕاوێژی نزیک لەگەڵ ھاوڵاتییە خۆجێییەکان.", // consultation",
+                                "بڕیارەکە درا لە دوای ڕاوێژی نزیک لەگەڵ ھاوڵاتییە خۆجێییەکان.",
                             onPressedBritish: () =>
                                 speakconsultations1("en-GB"),
                             onPressedAmerican: () =>

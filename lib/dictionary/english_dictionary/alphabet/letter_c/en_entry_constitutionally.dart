@@ -105,7 +105,7 @@ class EnglishEntryconstitutionally extends StatelessWidget {
                             englishText:
                                 "Freedom of speech is one of the constitutionally guaranteed rights in many countries.",
                             kurdishText:
-                                "ئازادیی ڕادەربڕین یەکێکە لە مافە دەستوورییە دەستەبەرکراوەکان لە زۆر وڵاتدا.", // constitutionally",
+                                "ئازادیی ڕادەربڕین یەکێکە لە مافە دەستوورییە دەستەبەرکراوەکان لە زۆر وڵاتدا.",
                             onPressedBritish: () =>
                                 speakconstitutionallys1("en-GB"),
                             onPressedAmerican: () =>

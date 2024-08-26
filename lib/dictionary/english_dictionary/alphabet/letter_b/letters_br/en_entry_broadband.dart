@@ -135,7 +135,7 @@ class EnglishEntrybroadband extends StatelessWidget {
                             englishText:
                                 "Internet connection via broadband offers many advantages.",
                             kurdishText:
-                                "پەیوەندی ئینتەرنێت لە ڕێگەی بەرینباندەوە سوودی زۆری ھەیە.", // broadband" as
+                                "پەیوەندی ئینتەرنێت لە ڕێگەی بەرینباندەوە سوودی زۆری ھەیە.",
                             onPressedBritish: () => speakbroadbands1("en-GB"),
                             onPressedAmerican: () => speakbroadbands1("en-US"),
                           ),

@@ -133,7 +133,7 @@ class EnglishEntryconstitute extends StatelessWidget {
                             englishText:
                                 "Does such an activity constitute a criminal offence?",
                             kurdishText:
-                                "چالاکی وەھا بە یاساشکاندنی تاوانکاری دادەنرێت؟", // constitute",
+                                "چالاکی وەھا بە یاساشکاندنی تاوانکاری دادەنرێت؟",
                             onPressedBritish: () => speakconstitutes1("en-GB"),
                             onPressedAmerican: () => speakconstitutes1("en-US"),
                           ),

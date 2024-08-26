@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The fact that he cannot see is more than counterbalanced by his heightened perception of sound and touch.",
             kurdishText:
-                "ئەوەی کە ناتوانێت ببیستێت زیاتر لە ئاستی خۆی قەرەبوو بووە بە ھەستی بەرزی دەنگ و دەستلێدان.", // counterbalance", please follow LX instructions
+                "ئەوەی کە ناتوانێت ببیستێت زیاتر لە ئاستی خۆی قەرەبوو بووە بە ھەستی بەرزی دەنگ و دەستلێدان.",
             onPressedBritish: () => speakcounterbalances1("en-GB"),
             onPressedAmerican: () => speakcounterbalances1("en-US"),
           ),

@@ -94,7 +94,7 @@ class EnglishEntrycomposer extends StatelessWidget {
                             englishText:
                                 "Verdi was a prolific composer of operas.",
                             kurdishText:
-                                "ڤێردی ئاوازدانەرێکی پڕکاری ئۆپێرا بوو.", // composer",
+                                "ڤێردی ئاوازدانەرێکی پڕکاری ئۆپێرا بوو.",
                             onPressedBritish: () => speakcomposers1("en-GB"),
                             onPressedAmerican: () => speakcomposers1("en-US"),
                           ),

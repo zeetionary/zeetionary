@@ -103,7 +103,7 @@ class EnglishEntryconspicuously extends StatelessWidget {
                             englishText:
                                 "Women were conspicuously absent from the planning committee (= not present on it, when they should have been).",
                             kurdishText:
-                                "ژنان بەشێوەیەکی بەرچاو بوونیان نییە لە لیژنەی پلاندانانەکە.", // conspicuously",
+                                "ژنان بەشێوەیەکی بەرچاو بوونیان نییە لە لیژنەی پلاندانانەکە.",
                             onPressedBritish: () =>
                                 speakconspicuouslys1("en-GB"),
                             onPressedAmerican: () =>

@@ -102,7 +102,7 @@ class EnglishEntryconsequential extends StatelessWidget {
                             englishText:
                                 "We need to act now to avoid a recession and the consequential damage that would follow.",
                             kurdishText:
-                                "دەبێت ئێستا ھەنگاو بنێین بۆ ڕێگری لە قەیرانێک و زیانی لێوەبووی کە بە دوایدا دێت.", // consequential",
+                                "دەبێت ئێستا ھەنگاو بنێین بۆ ڕێگری لە قەیرانێک و زیانی لێوەبووی کە بە دوایدا دێت.",
                             onPressedBritish: () =>
                                 speakconsequentials1("en-GB"),
                             onPressedAmerican: () =>

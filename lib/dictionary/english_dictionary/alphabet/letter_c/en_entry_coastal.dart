@@ -92,7 +92,7 @@ class EnglishEntrycoastal extends StatelessWidget {
                           SentencesRow(
                             englishText: "She grew up in a small coastal town.",
                             kurdishText:
-                                "لە شارۆچکەیەکی کەناراوی بچووک گەورە بوو.", // coastal",
+                                "لە شارۆچکەیەکی کەناراوی بچووک گەورە بوو.",
                             onPressedBritish: () => speakcoastals1("en-GB"),
                             onPressedAmerican: () => speakcoastals1("en-US"),
                           ),

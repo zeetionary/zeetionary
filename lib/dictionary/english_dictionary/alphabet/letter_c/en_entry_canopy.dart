@@ -182,7 +182,7 @@ class EnglishEntrycanopy extends StatelessWidget {
                             englishText:
                                 "Canopies in medieval times often symbolized wealth and status.",
                             kurdishText:
-                                "ژوورسەر لە سەردەمانی ناوەڕاستدا زۆرجار نیشانەی سامان و پێگە بوون.", // canopy
+                                "ژوورسەر لە سەردەمانی ناوەڕاستدا زۆرجار نیشانەی سامان و پێگە بوون",
                             onPressedBritish: () => speakcanopys1("en-GB"),
                             onPressedAmerican: () => speakcanopys1("en-US"),
                           ),

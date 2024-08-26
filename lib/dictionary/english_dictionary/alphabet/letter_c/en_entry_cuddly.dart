@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She described her son as a cuddly child who loved bedtime stories.",
             kurdishText:
-                "کوڕەکەی وەھا باسکرد کە منداڵێکی ژیکەڵە بوو و حەزی بە چیرۆکی خەوتنان بوو.", // cuddly", please follow LX instructions
+                "کوڕەکەی وەھا باسکرد کە منداڵێکی ژیکەڵە بوو و حەزی بە چیرۆکی خەوتنان بوو.",
             onPressedBritish: () => speakcuddlys1("en-GB"),
             onPressedAmerican: () => speakcuddlys1("en-US"),
           ),

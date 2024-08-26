@@ -101,7 +101,7 @@ class EnglishEntrychaotic extends StatelessWidget {
                             englishText:
                                 "She had a chaotic personal life with a series of broken relationships.",
                             kurdishText:
-                                "ژیانێکی کەسی شپرزەی ھەبوو بە زنجیرەیەک لە پەیوەندی ھەڵوەشاوەوە.", // chaotic",
+                                "ژیانێکی کەسی شپرزەی ھەبوو بە زنجیرەیەک لە پەیوەندی ھەڵوەشاوەوە.",
                             onPressedBritish: () => speakchaotics1("en-GB"),
                             onPressedAmerican: () => speakchaotics1("en-US"),
                           ),

@@ -180,7 +180,7 @@ class EnglishEntrycardboard extends StatelessWidget {
                             englishText:
                                 "The children wanted a piece of cardboard to cut shapes from.",
                             kurdishText:
-                                "منداڵەکان پارچە مقەبایەکیان دەویست بۆ ئەوەی شێوەی لێ درووستبکەن.", // cardboard",
+                                "منداڵەکان پارچە مقەبایەکیان دەویست بۆ ئەوەی شێوەی لێ درووستبکەن.",
                             onPressedBritish: () => speakcardboards1("en-GB"),
                             onPressedAmerican: () => speakcardboards1("en-US"),
                           ),

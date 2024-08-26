@@ -95,7 +95,7 @@ class EnglishEntryclergyman extends StatelessWidget {
                             englishText:
                                 "As a clergyman, he dedicated his life to serving his community.",
                             kurdishText:
-                                "وەک قەشەیەک، ژیانی بۆ خزمەتی کۆمەڵگەکەی تەرخانکرد.", // clergyman",
+                                "وەک قەشەیەک، ژیانی بۆ خزمەتی کۆمەڵگەکەی تەرخانکرد.",
                             onPressedBritish: () => speakclergymans1("en-GB"),
                             onPressedAmerican: () => speakclergymans1("en-US"),
                           ),

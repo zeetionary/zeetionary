@@ -116,7 +116,7 @@ class EnglishEntryclothing extends StatelessWidget {
                             englishText:
                                 "Workers at the factory wear protective clothing.",
                             kurdishText:
-                                "کرێکاران لە کارگەکە جلی پارێزەر دەپۆشن.", // clothing",
+                                "کرێکاران لە کارگەکە جلی پارێزەر دەپۆشن.",
                             onPressedBritish: () => speakclothings1("en-GB"),
                             onPressedAmerican: () => speakclothings1("en-US"),
                           ),

@@ -100,7 +100,7 @@ class EnglishEntryconvex extends StatelessWidget {
                                   "١. (ھاوەڵناو) شێوەیەک کە بەرەو دەرەوە چەماوەتەوە"),
                           SentencesRow(
                             englishText: "The surface is slightly convex.",
-                            kurdishText: "ڕووەکە کەمێک قۆقزە.", // convex",
+                            kurdishText: "ڕووەکە کەمێک قۆقزە.",
                             onPressedBritish: () => speakconvexs1("en-GB"),
                             onPressedAmerican: () => speakconvexs1("en-US"),
                           ),

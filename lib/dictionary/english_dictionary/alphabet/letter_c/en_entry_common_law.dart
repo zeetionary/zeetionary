@@ -103,7 +103,7 @@ class EnglishEntrycommonlaw extends StatelessWidget {
                             englishText:
                                 "She studied common law before specializing in tax law.",
                             kurdishText:
-                                "یاسای نەنووسراوی خوێند پێش ئەوەی شارەزایی لە یاسای باجدا بھێنێت.", // common law",
+                                "یاسای نەنووسراوی خوێند پێش ئەوەی شارەزایی لە یاسای باجدا بھێنێت.",
                             onPressedBritish: () => speakcommonlaws1("en-GB"),
                             onPressedAmerican: () => speakcommonlaws1("en-US"),
                           ),

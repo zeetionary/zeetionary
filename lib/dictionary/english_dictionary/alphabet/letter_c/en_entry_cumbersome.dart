@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The cumbersome package was too heavy for one person to lift.",
-            kurdishText:
-                "پاکێجەکە گەورەکە زۆر قورس بوو کە یەک کەس ھەڵیبگرێت.", // cumbersome", please follow LX instructions
+            kurdishText: "پاکێجەکە گەورەکە زۆر قورس بوو کە یەک کەس ھەڵیبگرێت.",
             onPressedBritish: () => speakcumbersomes1("en-GB"),
             onPressedAmerican: () => speakcumbersomes1("en-US"),
           ),

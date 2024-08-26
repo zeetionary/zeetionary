@@ -95,7 +95,7 @@ class EnglishEntrychassis extends StatelessWidget {
                             englishText:
                                 "The car's lightweight chassis is made from aluminium sheets.",
                             kurdishText:
-                                "چوارچێوە سووکەکەی ئۆتۆمبێلەکە درووستکراوە لە پارچە ئەلەمنیۆم.", // chassis",
+                                "چوارچێوە سووکەکەی ئۆتۆمبێلەکە درووستکراوە لە پارچە ئەلەمنیۆم.",
                             onPressedBritish: () => speakchassiss1("en-GB"),
                             onPressedAmerican: () => speakchassiss1("en-US"),
                           ),

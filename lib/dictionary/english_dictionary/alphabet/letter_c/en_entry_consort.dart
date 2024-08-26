@@ -103,7 +103,7 @@ class EnglishEntryconsort extends StatelessWidget {
                             englishText:
                                 "The Emperor Napoleon III and his consort lived sedately in an apartment in the Tuileries.",
                             kurdishText:
-                                "ئیمپراتۆر ناپلیۆنی سێیەم و ژنەکەی بە ئارامی لە دەستەژوورێک ل تویلرز دەژیان.", // consort",
+                                "ئیمپراتۆر ناپلیۆنی سێیەم و ژنەکەی بە ئارامی لە دەستەژوورێک ل تویلرز دەژیان.",
                             onPressedBritish: () => speakconsorts1("en-GB"),
                             onPressedAmerican: () => speakconsorts1("en-US"),
                           ),

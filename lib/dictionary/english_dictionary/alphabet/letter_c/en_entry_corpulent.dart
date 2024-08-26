@@ -227,8 +227,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) قەڵەو "),
           SentencesRow(
             englishText: "He is a short, somewhat corpulent, man.",
-            kurdishText:
-                "پیاوێکی کورتی کەمێک قەڵەوە (گردەڵە).", // corpulent", please follow LX instructions
+            kurdishText: "پیاوێکی کورتی کەمێک قەڵەوە (گردەڵە).",
             onPressedBritish: () => speakcorpulents1("en-GB"),
             onPressedAmerican: () => speakcorpulents1("en-US"),
           ),

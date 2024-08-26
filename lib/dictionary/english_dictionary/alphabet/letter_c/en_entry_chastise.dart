@@ -103,7 +103,7 @@ class EnglishEntrychastise extends StatelessWidget {
                             englishText:
                                 "Charity organizations have chastised the government for not doing enough to prevent the latest famine in Africa.",
                             kurdishText:
-                                "دەزگا خێرخوازییەکان لۆمەی حکومەتیان کردووە بۆ کەمتەرخەمی لە ڕێگری وشکەساڵی لە ئەفریقا.", // chastise",
+                                "دەزگا خێرخوازییەکان لۆمەی حکومەتیان کردووە بۆ کەمتەرخەمی لە ڕێگری وشکەساڵی لە ئەفریقا.",
                             onPressedBritish: () => speakchastises1("en-GB"),
                             onPressedAmerican: () => speakchastises1("en-US"),
                           ),

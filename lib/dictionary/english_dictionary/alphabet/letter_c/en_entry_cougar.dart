@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Cougars are solitary animals that hunt deer and other small mammals.",
             kurdishText:
-                "گیڤڕ ئاژەڵی دوورەپەرێزن کە ئاسک و شیردەری بچووک ڕاودەکەن.", // cougar", please follow LX instructions
+                "گیڤڕ ئاژەڵی دوورەپەرێزن کە ئاسک و شیردەری بچووک ڕاودەکەن.",
             onPressedBritish: () => speakcougars1("en-GB"),
             onPressedAmerican: () => speakcougars1("en-US"),
           ),

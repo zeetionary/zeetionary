@@ -177,7 +177,7 @@ class EnglishEntrycashew extends StatelessWidget {
                             englishText:
                                 "Cashews add a delightful crunch to salads, enhancing both texture and flavor.",
                             kurdishText:
-                                "کاشیو خرمەخرمێکی خۆش زیاد دەکات بۆزەڵاتە، و ھەم ڕەنگ و ھەم تام خۆش دەکات.", // cashew",
+                                "کاشیو خرمەخرمێکی خۆش زیاد دەکات بۆزەڵاتە، و ھەم ڕەنگ و ھەم تام خۆش دەکات.",
                             onPressedBritish: () => speakcashews1("en-GB"),
                             onPressedAmerican: () => speakcashews1("en-US"),
                           ),

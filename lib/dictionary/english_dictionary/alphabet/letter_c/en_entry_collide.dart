@@ -115,7 +115,7 @@ class EnglishEntrycollide extends StatelessWidget {
                             englishText:
                                 "The car and the van collided head-on in thick fog.",
                             kurdishText:
-                                "ئۆتۆمبێلەکە و ڤانەکە بە پێشدا کێشایان بە یەکدا.", // collide",
+                                "ئۆتۆمبێلەکە و ڤانەکە بە پێشدا کێشایان بە یەکدا.",
                             onPressedBritish: () => speakcollides1("en-GB"),
                             onPressedAmerican: () => speakcollides1("en-US"),
                           ),

@@ -103,7 +103,7 @@ class EnglishEntrychauvinism extends StatelessWidget {
                             englishText:
                                 "The war stimulated an intense national chauvinism.",
                             kurdishText:
-                                "جەنگەکە نیشتمان‌پەرستییەکی نەتەوەییانەی توندی درووستکرد.", // chauvinism",
+                                "جەنگەکە نیشتمان‌پەرستییەکی نەتەوەییانەی توندی درووستکرد.",
                             onPressedBritish: () => speakchauvinisms1("en-GB"),
                             onPressedAmerican: () => speakchauvinisms1("en-US"),
                           ),

@@ -256,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Teachers need to be aware of cultural differences.",
             kurdishText:
-                "مامۆستایان دەبێت ئاگادار بن لە جیاوازییە کەلتوورییەکان.", // cultural", please follow LX instructions
+                "مامۆستایان دەبێت ئاگادار بن لە جیاوازییە کەلتوورییەکان.",
             onPressedBritish: () => speakculturals1("en-GB"),
             onPressedAmerican: () => speakculturals1("en-US"),
           ),

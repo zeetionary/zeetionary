@@ -181,7 +181,7 @@ class EnglishEntrycapitulation extends StatelessWidget {
                             englishText:
                                 "To withdraw the remaining troops would have been a humiliating capitulation.",
                             kurdishText:
-                                "کشاندنەوەی سەربازە ماوەکان دەبوو بەملکەچکردنێکی شەرمھێنەر.", // capitulation",
+                                "کشاندنەوەی سەربازە ماوەکان دەبوو بەملکەچکردنێکی شەرمھێنەر.",
                             onPressedBritish: () =>
                                 speakcapitulations1("en-GB"),
                             onPressedAmerican: () =>

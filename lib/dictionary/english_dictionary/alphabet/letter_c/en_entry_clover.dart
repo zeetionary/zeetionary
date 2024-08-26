@@ -95,7 +95,7 @@ class EnglishEntryclover extends StatelessWidget {
                             englishText:
                                 "Bees are attracted to the flowers of the clover plant.",
                             kurdishText:
-                                "مێشەنگ حەزیان بە گوڵی ڕووەکی سێپەڕەیە.", // clover",
+                                "مێشەنگ حەزیان بە گوڵی ڕووەکی سێپەڕەیە.",
                             onPressedBritish: () => speakclovers1("en-GB"),
                             onPressedAmerican: () => speakclovers1("en-US"),
                           ),

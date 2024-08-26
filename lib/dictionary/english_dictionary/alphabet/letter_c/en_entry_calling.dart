@@ -182,7 +182,7 @@ class EnglishEntrycalling extends StatelessWidget {
                             englishText:
                                 "He realized that his calling was to preach the bible.",
                             kurdishText:
-                                "زانی کە خولیای ئەوە بوو ئینجیل بڵێتەوە.", // calling
+                                "زانی کە خولیای ئەوە بوو ئینجیل بڵێتەوە",
                             onPressedBritish: () => speakcallings1("en-GB"),
                             onPressedAmerican: () => speakcallings1("en-US"),
                           ),

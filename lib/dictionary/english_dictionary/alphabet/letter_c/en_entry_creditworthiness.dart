@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Unpaid medical debts ruined their creditworthiness.",
             kurdishText:
-                "قەرزە پزیشکییە نەدراوەکان متمانەیانی بۆ قەرزکردن لەکەدارکرد.", // creditworthiness", please follow LX instructions
+                "قەرزە پزیشکییە نەدراوەکان متمانەیانی بۆ قەرزکردن لەکەدارکرد.",
             onPressedBritish: () => speakcreditworthinesss1("en-GB"),
             onPressedAmerican: () => speakcreditworthinesss1("en-US"),
           ),

@@ -180,7 +180,7 @@ class EnglishEntrycalmly extends StatelessWidget {
                             englishText:
                                 "She reacted calmly to the news of his death.",
                             kurdishText:
-                                "بەلەسەرخۆییەوە کاردانەوەی ھەبوو بۆ ھەواڵی مردنی.", // calmly
+                                "بەلەسەرخۆییەوە کاردانەوەی ھەبوو بۆ ھەواڵی مردنی",
                             onPressedBritish: () => speakcalmlys1("en-GB"),
                             onPressedAmerican: () => speakcalmlys1("en-US"),
                           ),

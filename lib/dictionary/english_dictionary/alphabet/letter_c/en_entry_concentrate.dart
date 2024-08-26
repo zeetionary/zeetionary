@@ -150,7 +150,7 @@ class EnglishEntryconcentrate extends StatelessWidget {
                             englishText:
                                 "I can't concentrate with all that noise going on.",
                             kurdishText:
-                                "ناتوانم سەرنج بدەم بەو ھەموو دەنگەدەنگەی ھەیە.", // concentrate",
+                                "ناتوانم سەرنج بدەم بەو ھەموو دەنگەدەنگەی ھەیە.",
                             onPressedBritish: () => speakconcentrates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconcentrates1("en-US"),

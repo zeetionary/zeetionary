@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The farmer watched the cows chewing their cud in the barn.",
             kurdishText:
-                "ئاژەڵدارەکە سەیری مانگاکانی دەکرد کە کاوێژیان دەکرد لە ئاخوڕەکەدا.", // cud", please follow LX instructions
+                "ئاژەڵدارەکە سەیری مانگاکانی دەکرد کە کاوێژیان دەکرد لە ئاخوڕەکەدا.",
             onPressedBritish: () => speakcuds1("en-GB"),
             onPressedAmerican: () => speakcuds1("en-US"),
           ),

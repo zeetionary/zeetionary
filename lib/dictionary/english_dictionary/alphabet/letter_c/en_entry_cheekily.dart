@@ -94,7 +94,7 @@ class EnglishEntrycheekily extends StatelessWidget {
                             englishText:
                                 "He cheekily asked for her phone number.",
                             kurdishText:
-                                "بە بێ‌شەرمانە داوای ژمارە تەلەفۆنەکەی کرد.", // cheekily",
+                                "بە بێ‌شەرمانە داوای ژمارە تەلەفۆنەکەی کرد.",
                             onPressedBritish: () => speakcheekilys1("en-GB"),
                             onPressedAmerican: () => speakcheekilys1("en-US"),
                           ),

@@ -92,8 +92,7 @@ class EnglishEntrycontritely extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات زۆر بەداخەوەیت بۆ شتێکی خارپ کە کردووتە"),
                           SentencesRow(
                             englishText: "He contritely admitted his guilt.",
-                            kurdishText:
-                                "بە داخەوە دانی بە تاوانەکەیدا نا.", // contritely",
+                            kurdishText: "بە داخەوە دانی بە تاوانەکەیدا نا.",
                             onPressedBritish: () => speakcontritelys1("en-GB"),
                             onPressedAmerican: () => speakcontritelys1("en-US"),
                           ),

@@ -181,7 +181,7 @@ class EnglishEntrycatapult extends StatelessWidget {
                             englishText:
                                 "He used a catapult made from a tree branch and rubber band to launch acorns at the squirrels.",
                             kurdishText:
-                                "قۆچەقانی بەکارھێنا کە لە لقی درەختێک و لاستیک درووستکرابوو بۆ ھاویشتنی بەڕوو بۆ سمۆرەکە.", // catapult",
+                                "قۆچەقانی بەکارھێنا کە لە لقی درەختێک و لاستیک درووستکرابوو بۆ ھاویشتنی بەڕوو بۆ سمۆرەکە.",
                             onPressedBritish: () => speakcatapults1("en-GB"),
                             onPressedAmerican: () => speakcatapults1("en-US"),
                           ),

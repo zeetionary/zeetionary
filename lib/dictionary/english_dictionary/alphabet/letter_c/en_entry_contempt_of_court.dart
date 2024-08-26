@@ -105,7 +105,7 @@ class EnglishEntrycontemptofcourt extends StatelessWidget {
                             englishText:
                                 "Any person who disregards this order will be in contempt of court.",
                             kurdishText:
-                                "کەسێک کە حساب بۆ ئەم بڕیارە ناکات سووکایەتی بە دادگا کردووە.", // contempt of court",
+                                "کەسێک کە حساب بۆ ئەم بڕیارە ناکات سووکایەتی بە دادگا کردووە.",
                             onPressedBritish: () =>
                                 speakcontemptofcourts1("en-GB"),
                             onPressedAmerican: () =>

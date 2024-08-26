@@ -180,7 +180,7 @@ class EnglishEntrycaustic extends StatelessWidget {
                             englishText:
                                 "Always wear appropriate protective gear when working with caustic substances.",
                             kurdishText:
-                                "ھەمیشە جلی پارێزەری گونجاو لەبەربکە کە لەگەڵ مادەی توێنەر کار دەکەیت.", // caustic",
+                                "ھەمیشە جلی پارێزەری گونجاو لەبەربکە کە لەگەڵ مادەی توێنەر کار دەکەیت.",
                             onPressedBritish: () => speakcaustics1("en-GB"),
                             onPressedAmerican: () => speakcaustics1("en-US"),
                           ),

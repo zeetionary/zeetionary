@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) دیاریکردن، ڕێکخستن، و چاودێری کردنی کەرەستە و کارەکانی مۆزەخانەیەک، پێشانگایەکی ھونەری، ھتد"),
           SentencesRow(
             englishText: "She curated a recent exhibition of Indian artwork.",
-            kurdishText:
-                "پێشانگایەکی تازەگی کاری ھونەری ھیندیی ڕێکخست.", // curate", please follow LX instructions
+            kurdishText: "پێشانگایەکی تازەگی کاری ھونەری ھیندیی ڕێکخست.",
             onPressedBritish: () => speakcurates1("en-GB"),
             onPressedAmerican: () => speakcurates1("en-US"),
           ),

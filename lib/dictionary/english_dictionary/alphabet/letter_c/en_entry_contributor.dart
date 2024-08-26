@@ -116,8 +116,7 @@ class EnglishEntrycontributor extends StatelessWidget {
                                   "١. (ناو) کەسێک کە وتار بۆ گۆڤار، کتێب یان وتارێک دەنووسێت، یان قسە دەکات لە پڕۆگرامێکی تەلەفیزیۆنی یان ڕادیۆیی، یان لە چاوپێکەوتنێک"),
                           SentencesRow(
                             englishText: "I am a contributor to several blogs.",
-                            kurdishText:
-                                "لە ژمارەیەک بلۆگ نووسەرم.", // contributor",
+                            kurdishText: "لە ژمارەیەک بلۆگ نووسەرم.",
                             onPressedBritish: () => speakcontributors1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontributors1("en-US"),

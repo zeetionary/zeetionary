@@ -94,7 +94,7 @@ class EnglishEntryconiferous extends StatelessWidget {
                             englishText:
                                 "The coniferous tree stood tall and green.",
                             kurdishText:
-                                "دارە کۆرنیفەرییەکە بە بەرزی و سەوزی وەستابوو.", // coniferous",
+                                "دارە کۆرنیفەرییەکە بە بەرزی و سەوزی وەستابوو.",
                             onPressedBritish: () => speakconiferouss1("en-GB"),
                             onPressedAmerican: () => speakconiferouss1("en-US"),
                           ),

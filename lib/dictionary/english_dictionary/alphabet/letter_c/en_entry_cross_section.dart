@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The image on the right shows a cross-section of a coronary artery.",
             kurdishText:
-                "وێنەی لای ڕاست پانەبڕگەی خوێنبەرەکانی ناو دڵ پیشان دەدات.", // cross section", please follow LX instructions
+                "وێنەی لای ڕاست پانەبڕگەی خوێنبەرەکانی ناو دڵ پیشان دەدات.",
             onPressedBritish: () => speakcrosssections1("en-GB"),
             onPressedAmerican: () => speakcrosssections1("en-US"),
           ),

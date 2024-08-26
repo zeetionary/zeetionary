@@ -131,8 +131,7 @@ class EnglishEntryconclusion extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He arrived at a different conclusion.",
-                            kurdishText:
-                                "گەشتە دەرەنجامێکی جیاواز.", // conclusion",
+                            kurdishText: "گەشتە دەرەنجامێکی جیاواز.",
                             onPressedBritish: () => speakconclusions1("en-GB"),
                             onPressedAmerican: () => speakconclusions1("en-US"),
                           ),

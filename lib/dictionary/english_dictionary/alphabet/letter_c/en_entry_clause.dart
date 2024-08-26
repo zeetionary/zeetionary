@@ -115,7 +115,7 @@ class EnglishEntryclause extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "It is the object of the verb of the clause.",
-                            kurdishText: "بەرکاری کاری بڕگەکەیە.", // clause",
+                            kurdishText: "بەرکاری کاری بڕگەکەیە.",
                             onPressedBritish: () => speakclauses1("en-GB"),
                             onPressedAmerican: () => speakclauses1("en-US"),
                           ),

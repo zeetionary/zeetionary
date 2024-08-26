@@ -95,7 +95,7 @@ class EnglishEntrycooker extends StatelessWidget {
                             englishText:
                                 "She set the house on fire by leaving a chip pan on the cooker.",
                             kurdishText:
-                                "ئاگری لە خانووەکە بەردا بە جێھێشتنی تاوەیەک لەسەر غازەکە.", // cooker",
+                                "ئاگری لە خانووەکە بەردا بە جێھێشتنی تاوەیەک لەسەر غازەکە.",
                             onPressedBritish: () => speakcookers1("en-GB"),
                             onPressedAmerican: () => speakcookers1("en-US"),
                           ),

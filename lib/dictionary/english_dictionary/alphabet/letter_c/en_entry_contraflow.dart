@@ -95,7 +95,7 @@ class EnglishEntrycontraflow extends StatelessWidget {
                             englishText:
                                 "A contraflow system is in operation on this section of the motorway.",
                             kurdishText:
-                                "سیستەمی ڕووەوساید لە کارایە لەم بەشەی پانەڕێیەکە.", // contraflow",
+                                "سیستەمی ڕووەوساید لە کارایە لەم بەشەی پانەڕێیەکە.",
                             onPressedBritish: () => speakcontraflows1("en-GB"),
                             onPressedAmerican: () => speakcontraflows1("en-US"),
                           ),

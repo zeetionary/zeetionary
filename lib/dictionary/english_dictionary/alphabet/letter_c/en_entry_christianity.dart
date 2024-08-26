@@ -94,7 +94,7 @@ class EnglishEntrychristianity extends StatelessWidget {
                             englishText:
                                 "Christianity spread rapidly in the first century.",
                             kurdishText:
-                                "مەسیحییەت بە خێرایی لە سەدەی یەکدا بڵاوبوویەوە.", // Christianity",
+                                "مەسیحییەت بە خێرایی لە سەدەی یەکدا بڵاوبوویەوە.",
                             onPressedBritish: () =>
                                 speakChristianitys1("en-GB"),
                             onPressedAmerican: () =>

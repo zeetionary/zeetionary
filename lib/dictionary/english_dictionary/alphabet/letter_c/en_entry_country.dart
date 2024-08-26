@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "It's good to meet people from different parts of the country.",
             kurdishText:
-                "شتێکی باشە کە خەڵکی لە بەشە جیاوازەکانی وڵاتەکەوە ببینیت.", // country", please follow LX instructions
+                "شتێکی باشە کە خەڵکی لە بەشە جیاوازەکانی وڵاتەکەوە ببینیت.",
             onPressedBritish: () => speakcountrys1("en-GB"),
             onPressedAmerican: () => speakcountrys1("en-US"),
           ),

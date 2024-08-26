@@ -127,8 +127,7 @@ class EnglishEntrycling extends StatelessWidget {
                               text: "١. (کردار) دەستگرتن بە شتێکەوە بە توندی"),
                           SentencesRow(
                             englishText: "Leaves still clung to the branches.",
-                            kurdishText:
-                                "گەڵا ھێشتا لکاون بە لقەکانەوە.", // cling",
+                            kurdishText: "گەڵا ھێشتا لکاون بە لقەکانەوە.",
                             onPressedBritish: () => speakclings1("en-GB"),
                             onPressedAmerican: () => speakclings1("en-US"),
                           ),

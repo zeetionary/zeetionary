@@ -95,7 +95,7 @@ class EnglishEntrycockney extends StatelessWidget {
                             englishText:
                                 "You won't hear much real cockney spoken unless you go to the East End.",
                             kurdishText:
-                                "گوێت لە قسەکردنی ڕاستی کۆکنی نابێت مەگەر ئەوەی بچیتە ڕۆژھەڵاتی لەندەن.", // cockney",
+                                "گوێت لە قسەکردنی ڕاستی کۆکنی نابێت مەگەر ئەوەی بچیتە ڕۆژھەڵاتی لەندەن.",
                             onPressedBritish: () => speakcockneys1("en-GB"),
                             onPressedAmerican: () => speakcockneys1("en-US"),
                           ),

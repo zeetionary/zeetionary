@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) بەستنی کەلەپچە لە دەستی کەسێک"),
           SentencesRow(
             englishText: "Her hands were handcuffed behind her back.",
-            kurdishText:
-                "دەستەکانی لە پشتەوە کەلەپچە کران.", // handcuff", please follow LX instructions
+            kurdishText: "دەستەکانی لە پشتەوە کەلەپچە کران.",
             onPressedBritish: () => speakhandcuffs1("en-GB"),
             onPressedAmerican: () => speakhandcuffs1("en-US"),
           ),

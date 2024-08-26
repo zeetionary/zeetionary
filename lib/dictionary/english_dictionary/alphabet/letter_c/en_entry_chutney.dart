@@ -94,7 +94,7 @@ class EnglishEntrychutney extends StatelessWidget {
                             englishText:
                                 "Mango chutney is absolutely my favorite.",
                             kurdishText:
-                                "ساسی مانگۆ  بەدڵنیاییەوە ھی دڵخوازی منە.", // chutney",
+                                "ساسی مانگۆ  بەدڵنیاییەوە ھی دڵخوازی منە.",
                             onPressedBritish: () => speakchutneys1("en-GB"),
                             onPressedAmerican: () => speakchutneys1("en-US"),
                           ),

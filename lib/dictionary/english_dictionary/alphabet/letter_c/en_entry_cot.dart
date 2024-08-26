@@ -234,8 +234,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) جێگەی خەوی منداڵ"),
           SentencesRow(
             englishText: "He assembled the cot for the new arrival.",
-            kurdishText:
-                "لانکەکەی بۆ تازبووەکە ئامادەکرد.", // cot", please follow LX instructions
+            kurdishText: "لانکەکەی بۆ تازبووەکە ئامادەکرد.",
             onPressedBritish: () => speakcots1("en-GB"),
             onPressedAmerican: () => speakcots1("en-US"),
           ),

@@ -93,7 +93,7 @@ class EnglishEntrychestofdrawers extends StatelessWidget {
                             englishText:
                                 "We bought a chest of drawers for £200.",
                             kurdishText:
-                                "دۆڵابێکی جلوبەرگمان کڕی بە ٢٠٠ پاوەند.", // chest of drawers",
+                                "دۆڵابێکی جلوبەرگمان کڕی بە ٢٠٠ پاوەند.",
                             onPressedBritish: () =>
                                 speakchestofdrawerss1("en-GB"),
                             onPressedAmerican: () =>

@@ -260,7 +260,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The spider was found hiding in a crate of bananas.",
             kurdishText:
-                "جاڵجاڵۆکەکە دۆزرایەوە کە خۆی لە سنووقێکی مۆزدا شاردبووەوە.", // crate", please follow LX instructions
+                "جاڵجاڵۆکەکە دۆزرایەوە کە خۆی لە سنووقێکی مۆزدا شاردبووەوە.",
             onPressedBritish: () => speakcrates1("en-GB"),
             onPressedAmerican: () => speakcrates1("en-US"),
           ),

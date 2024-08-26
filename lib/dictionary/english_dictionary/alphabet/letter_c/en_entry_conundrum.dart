@@ -103,7 +103,7 @@ class EnglishEntryconundrum extends StatelessWidget {
                             englishText:
                                 "The role of clouds is one of the big conundrums of climatology.",
                             kurdishText:
-                                "ئەرکی ھەورەکان ئاستەنگێکی گەورەی ئاووھەواناسییە.", // conundrum",
+                                "ئەرکی ھەورەکان ئاستەنگێکی گەورەی ئاووھەواناسییە.",
                             onPressedBritish: () => speakconundrums1("en-GB"),
                             onPressedAmerican: () => speakconundrums1("en-US"),
                           ),

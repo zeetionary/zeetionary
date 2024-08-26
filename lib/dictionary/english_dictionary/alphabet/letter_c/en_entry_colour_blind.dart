@@ -101,8 +101,7 @@ class EnglishEntrycolourblind extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Colour-blind women are relatively rare.",
-                            kurdishText:
-                                "ژنی ڕەنگ کوێر تا ڕادەیەک دەگمەنن.", // colour-blind",
+                            kurdishText: "ژنی ڕەنگ کوێر تا ڕادەیەک دەگمەنن.",
                             onPressedBritish: () => speakcolourblinds1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcolourblinds1("en-US"),

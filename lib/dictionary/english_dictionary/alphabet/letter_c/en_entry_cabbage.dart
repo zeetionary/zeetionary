@@ -178,7 +178,7 @@ class EnglishEntrycabbage extends StatelessWidget {
                                   "١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی ھەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"),
                           SentencesRow(
                             englishText: "Do you like cabbage?",
-                            kurdishText: "حەزت لە کەلەرمە؟", // cabbage
+                            kurdishText: "حەزت لە کەلەرمە",
                             onPressedBritish: () => speakcabbages1("en-GB"),
                             onPressedAmerican: () => speakcabbages1("en-US"),
                           ),

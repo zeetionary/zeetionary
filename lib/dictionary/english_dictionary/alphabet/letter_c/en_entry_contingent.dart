@@ -118,8 +118,7 @@ class EnglishEntrycontingent extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The largest contingent was from the United States.",
-                            kurdishText:
-                                "گەورەترین کۆمەڵە لە ئەمریکاوە بوون.", // contingent",
+                            kurdishText: "گەورەترین کۆمەڵە لە ئەمریکاوە بوون.",
                             onPressedBritish: () => speakcontingents1("en-GB"),
                             onPressedAmerican: () => speakcontingents1("en-US"),
                           ),

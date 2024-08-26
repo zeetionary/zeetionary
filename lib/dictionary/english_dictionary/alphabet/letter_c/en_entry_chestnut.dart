@@ -118,7 +118,7 @@ class EnglishEntrychestnut extends StatelessWidget {
                             englishText:
                                 "There is a 200-year-old chestnut tree on the hill.",
                             kurdishText:
-                                "دار شابەڕوویەکی ٢٠٠ ساڵە ھەیە لەسەر گردەکە.", // chestnut",
+                                "دار شابەڕوویەکی ٢٠٠ ساڵە ھەیە لەسەر گردەکە.",
                             onPressedBritish: () => speakchestnuts1("en-GB"),
                             onPressedAmerican: () => speakchestnuts1("en-US"),
                           ),

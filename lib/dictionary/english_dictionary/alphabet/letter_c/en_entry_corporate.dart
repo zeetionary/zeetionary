@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) پەیوەندیدار بە کۆمپانیایەکی گەورەی بازرگانی"),
           SentencesRow(
             englishText: "Their corporate headquarters are in Boston.",
-            kurdishText:
-                "بارەگای کۆمپانیایەکە لە بۆستنە.", // corporate", please follow LX instructions
+            kurdishText: "بارەگای کۆمپانیایەکە لە بۆستنە.",
             onPressedBritish: () => speakcorporates1("en-GB"),
             onPressedAmerican: () => speakcorporates1("en-US"),
           ),

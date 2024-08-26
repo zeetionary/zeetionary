@@ -175,7 +175,7 @@ class EnglishEntrycaterer extends StatelessWidget {
                             englishText:
                                 "They prepare fresh vegetables for restaurants and caterers.",
                             kurdishText:
-                                "میوەی تازە ئامادە دەکەن بۆ چێشتخانە و خۆراک ئامادەکاران.", // caterer",
+                                "میوەی تازە ئامادە دەکەن بۆ چێشتخانە و خۆراک ئامادەکاران.",
                             onPressedBritish: () => speakcaterers1("en-GB"),
                             onPressedAmerican: () => speakcaterers1("en-US"),
                           ),

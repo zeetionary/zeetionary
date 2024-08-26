@@ -94,7 +94,7 @@ class EnglishEntryconjectural extends StatelessWidget {
                             englishText:
                                 "Some of the stages of the earth’s development are purely conjectural.",
                             kurdishText:
-                                "یەکێک لە قۆناغەکانی گەشەی زەوی تەواو گریمانەییە.", // conjectural",
+                                "یەکێک لە قۆناغەکانی گەشەی زەوی تەواو گریمانەییە.",
                             onPressedBritish: () => speakconjecturals1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconjecturals1("en-US"),

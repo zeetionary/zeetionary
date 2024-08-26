@@ -172,7 +172,7 @@ class EnglishEntrycashback extends StatelessWidget {
 ١. (ناو) بڕە پارەیەک کە داوای دەکەیت لە کاتی شت کڕین بە دێبیت کارد، و بڕە پارەکە دەچێتە سەر پسوولەکەت"""),
                           SentencesRow(
                             englishText: "Would you like cashback?",
-                            kurdishText: "کاشباکت دەوێت؟", // cashback",
+                            kurdishText: "کاشباکت دەوێت؟",
                             onPressedBritish: () => speakcashbacks1("en-GB"),
                             onPressedAmerican: () => speakcashbacks1("en-US"),
                           ),

@@ -102,7 +102,7 @@ class EnglishEntrycholesterol extends StatelessWidget {
                             englishText:
                                 "This is the fat that won't raise your cholesterol.",
                             kurdishText:
-                                "ئەمە ئەو چەورییەیە کە ڕێژەی کۆلێسترۆڵت بەرزناکاتەوە.", // cholesterol",
+                                "ئەمە ئەو چەورییەیە کە ڕێژەی کۆلێسترۆڵت بەرزناکاتەوە.",
                             onPressedBritish: () => speakcholesterols1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcholesterols1("en-US"),

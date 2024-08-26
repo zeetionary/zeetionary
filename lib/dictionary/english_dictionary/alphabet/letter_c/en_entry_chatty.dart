@@ -98,7 +98,7 @@ class EnglishEntrychatty extends StatelessWidget {
                               text: "١. (ھاوەڵناو) قسەکردنی زۆر بە ھاوڕێیانە"),
                           SentencesRow(
                             englishText: "You're very chatty today, Alice.",
-                            kurdishText: "ئەمڕۆ زۆربڵێیت، ئالیس.", // chatty",
+                            kurdishText: "ئەمڕۆ زۆربڵێیت، ئالیس.",
                             onPressedBritish: () => speakchattys1("en-GB"),
                             onPressedAmerican: () => speakchattys1("en-US"),
                           ),

@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Red blood corpuscles are responsible for carrying oxygen in the blood.",
             kurdishText:
-                "خڕۆکە سوورەکانی خوێن بەرپرسی گواستنەوەی ئۆکسجینن لە خوێندا.", // corpuscle", please follow LX instructions
+                "خڕۆکە سوورەکانی خوێن بەرپرسی گواستنەوەی ئۆکسجینن لە خوێندا.",
             onPressedBritish: () => speakcorpuscles1("en-GB"),
             onPressedAmerican: () => speakcorpuscles1("en-US"),
           ),

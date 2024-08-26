@@ -94,7 +94,7 @@ class EnglishEntryclearheaded extends StatelessWidget {
                             englishText:
                                 "In business Jane was clear-headed and decisive.",
                             kurdishText:
-                                "لە بڕیارداندا جەین مێشک ساف و بڕیاردەر بوو.", // clear-headed",
+                                "لە بڕیارداندا جەین مێشک ساف و بڕیاردەر بوو.",
                             onPressedBritish: () => speakclearheadeds1("en-GB"),
                             onPressedAmerican: () =>
                                 speakclearheadeds1("en-US"),

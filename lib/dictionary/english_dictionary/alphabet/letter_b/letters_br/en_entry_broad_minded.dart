@@ -140,7 +140,7 @@ class EnglishEntrybroadminded extends StatelessWidget {
                             englishText:
                                 "My grandparents were surprisingly broad-minded.",
                             kurdishText:
-                                "باوانم بە شێوەیەکی چاوەڕواننەکراو بیرفراوان بوون.", // broad-minded" as
+                                "باوانم بە شێوەیەکی چاوەڕواننەکراو بیرفراوان بوون.",
                             onPressedBritish: () => speakbroadmindeds1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbroadmindeds1("en-US"),

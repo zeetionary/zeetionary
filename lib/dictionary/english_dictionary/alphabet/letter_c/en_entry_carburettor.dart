@@ -175,7 +175,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
                             englishText:
                                 "Classic cars still rely on a carburettor for fuel mixing.",
                             kurdishText:
-                                "ئۆتۆمبێلە کۆنەکان ھێشتا پشت بە کاربرێتەر دەبەستن بۆ تێکەڵکردنی سوتەمەنی.", // carburettor",
+                                "ئۆتۆمبێلە کۆنەکان ھێشتا پشت بە کاربرێتەر دەبەستن بۆ تێکەڵکردنی سوتەمەنی.",
                             onPressedBritish: () => speakcarburettors1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcarburettors1("en-US"),

@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئەو جلانەی کە لەلایەن کەسانێکەوە لە شوێنێکی دیاریکراو یان قۆناغێکی دیاریکراوی مێژوودا لەبەردەکرێت"),
           SentencesRow(
             englishText: "She wore a traditional costume of bright pink silk.",
-            kurdishText:
-                "جلێکی نەریتی ئاوریشمی پەمەیی درەوشاوەی لەبەرکرد.", // costume", please follow LX instructions
+            kurdishText: "جلێکی نەریتی ئاوریشمی پەمەیی درەوشاوەی لەبەرکرد.",
             onPressedBritish: () => speakcostumes1("en-GB"),
             onPressedAmerican: () => speakcostumes1("en-US"),
           ),

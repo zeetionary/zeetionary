@@ -95,7 +95,7 @@ class EnglishEntryconceited extends StatelessWidget {
                             englishText:
                                 "It's very conceited of you to assume that your work is always the best.",
                             kurdishText:
-                                "زۆر لە لووت‌بەرزیتە کە وا دابنێیت کارەکەت ھەمیشە باشترینە.", // conceited",
+                                "زۆر لە لووت‌بەرزیتە کە وا دابنێیت کارەکەت ھەمیشە باشترینە.",
                             onPressedBritish: () => speakconceiteds1("en-GB"),
                             onPressedAmerican: () => speakconceiteds1("en-US"),
                           ),

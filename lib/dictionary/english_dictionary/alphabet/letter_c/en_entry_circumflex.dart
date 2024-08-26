@@ -95,7 +95,7 @@ class EnglishEntrycircumflex extends StatelessWidget {
                             englishText:
                                 "The circumflex in Greek is used to mark a long vowel, as in \"πῶς\".",
                             kurdishText:
-                                "چوکڵە لە زمانی یۆنانیدا بەکاردێت بۆ پیشاندانی بزوێنی درێژ بۆ نموونە لە \"πῶς\" ـدا.", // circumflex",
+                                "چوکڵە لە زمانی یۆنانیدا بەکاردێت بۆ پیشاندانی بزوێنی درێژ بۆ نموونە لە \"πῶς\" ـدا.",
                             onPressedBritish: () => speakcircumflexs1("en-GB"),
                             onPressedAmerican: () => speakcircumflexs1("en-US"),
                           ),

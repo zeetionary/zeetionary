@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The corporal oversaw the training of new recruits in the army.",
             kurdishText:
-                "ئەفسەرەکە سەرپەرشتی ڕاھێنانی تازە وەرگیراوانی سوپای دەکرد.", // corporal", please follow LX instructions
+                "ئەفسەرەکە سەرپەرشتی ڕاھێنانی تازە وەرگیراوانی سوپای دەکرد.",
             onPressedBritish: () => speakcorporals1("en-GB"),
             onPressedAmerican: () => speakcorporals1("en-US"),
           ),

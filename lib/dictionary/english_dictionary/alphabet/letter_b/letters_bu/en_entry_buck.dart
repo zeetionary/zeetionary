@@ -136,7 +136,7 @@ class EnglishEntrybuck extends StatelessWidget {
                                   """١. (ھاوەڵناو) دۆلاری ئەمریکی، نیوزلەندی، ئوسترالی، ڕوپێی ھندی، ڕاندی ئەفریقای باشوور"""),
                           SentencesRow(
                             englishText: "They cost ten bucks.",
-                            kurdishText: "بە دە دۆلارن.", // buck" as
+                            kurdishText: "بە دە دۆلارن.",
                             onPressedBritish: () => speakbucks1("en-GB"),
                             onPressedAmerican: () => speakbucks1("en-US"),
                           ),

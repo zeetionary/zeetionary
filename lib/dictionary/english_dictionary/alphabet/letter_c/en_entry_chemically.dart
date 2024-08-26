@@ -103,7 +103,7 @@ class EnglishEntrychemically extends StatelessWidget {
                             englishText:
                                 "The urine samples were frozen until chemically analyzed.",
                             kurdishText:
-                                "سامپڵە میزەکان بەستران تاوەکو بە کیمیاییانە شیکاری بۆ دەکرێت.", // chemically",
+                                "سامپڵە میزەکان بەستران تاوەکو بە کیمیاییانە شیکاری بۆ دەکرێت.",
                             onPressedBritish: () => speakchemicallys1("en-GB"),
                             onPressedAmerican: () => speakchemicallys1("en-US"),
                           ),

@@ -249,8 +249,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) قەرەباڵغ"),
           SentencesRow(
             englishText: "We made our way through the crowded streets.",
-            kurdishText:
-                "ڕێگای خۆمان بە شەقامە جەنجاڵەکاندا کردەوە.", // crowded", please follow LX instructions
+            kurdishText: "ڕێگای خۆمان بە شەقامە جەنجاڵەکاندا کردەوە.",
             onPressedBritish: () => speakcrowdeds1("en-GB"),
             onPressedAmerican: () => speakcrowdeds1("en-US"),
           ),

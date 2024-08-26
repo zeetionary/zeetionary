@@ -178,7 +178,7 @@ class EnglishEntrycastration extends StatelessWidget {
                             englishText:
                                 "Castrations are carried out by a vet.",
                             kurdishText:
-                                "خەساندن لەلایەن پزیشکێکی ئاژەڵانەوە ئەنجام دەدرێت.", // castration",
+                                "خەساندن لەلایەن پزیشکێکی ئاژەڵانەوە ئەنجام دەدرێت.",
                             onPressedBritish: () => speakcastrations1("en-GB"),
                             onPressedAmerican: () => speakcastrations1("en-US"),
                           ),

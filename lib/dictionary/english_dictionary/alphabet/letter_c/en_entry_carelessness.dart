@@ -180,7 +180,7 @@ class EnglishEntrycarelessness extends StatelessWidget {
                             englishText:
                                 "Most of the forest fires this spring were caused by human carelessness.",
                             kurdishText:
-                                "زۆرینەی ئاگری دارستانەکان ئەم بەھارە بەھۆی کەمتەرخەمی مرۆڤەوە بوون.", // carelessness",
+                                "زۆرینەی ئاگری دارستانەکان ئەم بەھارە بەھۆی کەمتەرخەمی مرۆڤەوە بوون.",
                             onPressedBritish: () =>
                                 speakcarelessnesss1("en-GB"),
                             onPressedAmerican: () =>

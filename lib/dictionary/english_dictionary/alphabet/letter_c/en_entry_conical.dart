@@ -92,7 +92,7 @@ class EnglishEntryconical extends StatelessWidget {
                           SentencesRow(
                             englishText: "The party hat was conical in shape.",
                             kurdishText:
-                                "کڵاوی ئاھەنگەکە قووچەکی بوو لە شێوەدا.", // conical",
+                                "کڵاوی ئاھەنگەکە قووچەکی بوو لە شێوەدا.",
                             onPressedBritish: () => speakconicals1("en-GB"),
                             onPressedAmerican: () => speakconicals1("en-US"),
                           ),

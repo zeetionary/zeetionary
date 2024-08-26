@@ -102,7 +102,7 @@ class EnglishEntrycontour extends StatelessWidget {
                             englishText:
                                 "The road follows the natural contours of the coastline.",
                             kurdishText:
-                                "ڕێگاکە بە قەراغە سرووشتییەکانی کەناراوەکەدا دەچێت.", // contour",
+                                "ڕێگاکە بە قەراغە سرووشتییەکانی کەناراوەکەدا دەچێت.",
                             onPressedBritish: () => speakcontours1("en-GB"),
                             onPressedAmerican: () => speakcontours1("en-US"),
                           ),

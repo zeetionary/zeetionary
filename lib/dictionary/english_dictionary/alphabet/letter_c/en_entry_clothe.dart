@@ -109,7 +109,7 @@ class EnglishEntryclothe extends StatelessWidget {
                             englishText:
                                 "They clothe their children in the latest fashions.",
                             kurdishText:
-                                "تازەترین مۆدەکان دەکەنە بەری منداڵەکانیان.", // clothe",
+                                "تازەترین مۆدەکان دەکەنە بەری منداڵەکانیان.",
                             onPressedBritish: () => speakclothes1("en-GB"),
                             onPressedAmerican: () => speakclothes1("en-US"),
                           ),

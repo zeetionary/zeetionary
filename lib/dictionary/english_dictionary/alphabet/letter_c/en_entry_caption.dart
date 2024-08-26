@@ -178,8 +178,7 @@ class EnglishEntrycaption extends StatelessWidget {
                                   "١. (ناو) نووسراوێک کە لە ژێر وێنەیەک، کارتۆنێک، ھتد کە ڕوونکردنەوە دەدەن بەدەستەوە"),
                           SentencesRow(
                             englishText: "He drew cartoons with captions.",
-                            kurdishText:
-                                "وێنەی کارتۆنی دەکێشا بە سەرباسەوە.", // caption
+                            kurdishText: "وێنەی کارتۆنی دەکێشا بە سەرباسەوە",
                             onPressedBritish: () => speakcaptions1("en-GB"),
                             onPressedAmerican: () => speakcaptions1("en-US"),
                           ),

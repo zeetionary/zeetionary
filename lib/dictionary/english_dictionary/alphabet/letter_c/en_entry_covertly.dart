@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەشێوەیەک کە نھێنی و شاراوەیە"),
           SentencesRow(
             englishText: "She watched him covertly in the mirror.",
-            kurdishText:
-                "بەنھێنی لە ئاوێنەکەوە سەیری کرد.", // covertly", please follow LX instructions
+            kurdishText: "بەنھێنی لە ئاوێنەکەوە سەیری کرد.",
             onPressedBritish: () => speakcovertlys1("en-GB"),
             onPressedAmerican: () => speakcovertlys1("en-US"),
           ),

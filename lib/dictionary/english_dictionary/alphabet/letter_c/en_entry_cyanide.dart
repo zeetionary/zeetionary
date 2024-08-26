@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) مادەیەکی کیمیایی تەواو ژەھراوی"),
           SentencesRow(
             englishText: "Inhaling cyanide gas can be lethal.",
-            kurdishText:
-                "ھەڵمژینی گازی سیانید دەکرێت کوشندە بێت.", // cyanide", please follow LX instructions
+            kurdishText: "ھەڵمژینی گازی سیانید دەکرێت کوشندە بێت.",
             onPressedBritish: () => speakcyanides1("en-GB"),
             onPressedAmerican: () => speakcyanides1("en-US"),
           ),

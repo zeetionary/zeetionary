@@ -289,7 +289,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "This month's figures show an increase in violent crime.",
             kurdishText:
-                "ئامارەکانی ئەم مانگە ھەڵکشان لە تاوانی توندوتیژی پیشان دەدەن.", // crime", please follow LX instructions
+                "ئامارەکانی ئەم مانگە ھەڵکشان لە تاوانی توندوتیژی پیشان دەدەن.",
             onPressedBritish: () => speakcrimes1("en-GB"),
             onPressedAmerican: () => speakcrimes1("en-US"),
           ),

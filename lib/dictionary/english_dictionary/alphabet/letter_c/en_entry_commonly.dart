@@ -100,8 +100,7 @@ class EnglishEntrycommonly extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Christopher is commonly known as Kit.",
-                            kurdishText:
-                                "کریستۆفەر بەزۆری بە کیت.", // commonly",
+                            kurdishText: "کریستۆفەر بەزۆری بە کیت.",
                             onPressedBritish: () => speakcommonlys1("en-GB"),
                             onPressedAmerican: () => speakcommonlys1("en-US"),
                           ),

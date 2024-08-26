@@ -120,7 +120,7 @@ class EnglishEntrycock extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ناو) کەڵەشێر"),
                           SentencesRow(
                             englishText: "The cock crowed.",
-                            kurdishText: "کەڵەشێرەکە قووقاندی.", // cock",
+                            kurdishText: "کەڵەشێرەکە قووقاندی.",
                             onPressedBritish: () => speakcocks1("en-GB"),
                             onPressedAmerican: () => speakcocks1("en-US"),
                           ),

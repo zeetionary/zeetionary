@@ -148,7 +148,7 @@ class EnglishEntrycinema extends StatelessWidget {
                             englishText:
                                 "The film has just opened in cinemas across the UK.",
                             kurdishText:
-                                "فیلمەکە تازەگی لە سینەماکانی بەریتانیا دەستی بە نمایش کرد.", // cinema",
+                                "فیلمەکە تازەگی لە سینەماکانی بەریتانیا دەستی بە نمایش کرد.",
                             onPressedBritish: () => speakcinemas1("en-GB"),
                             onPressedAmerican: () => speakcinemas1("en-US"),
                           ),

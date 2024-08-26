@@ -177,8 +177,7 @@ class EnglishEntrycatholic extends StatelessWidget {
                                   "١. (ھاوەڵناو) سەر بەو مەزھەبەی ئایینی مەسیحییەت کە پاپا ڕابەرێتی"),
                           SentencesRow(
                             englishText: "Are they Catholic or Protestant?",
-                            kurdishText:
-                                "کاسۆلیکن یان پڕۆتێستانت؟", // catholic",
+                            kurdishText: "کاسۆلیکن یان پڕۆتێستانت؟",
                             onPressedBritish: () => speakcatholics1("en-GB"),
                             onPressedAmerican: () => speakcatholics1("en-US"),
                           ),

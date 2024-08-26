@@ -94,7 +94,7 @@ class EnglishEntrycogwheel extends StatelessWidget {
                             englishText:
                                 "The machine was driven by a series of cogwheels.",
                             kurdishText:
-                                "ئامێرەکە لەلایەن زنجیرەیەک لە زنجیرکێشەوە دەجوڵێنرا.", // cogwheel",
+                                "ئامێرەکە لەلایەن زنجیرەیەک لە زنجیرکێشەوە دەجوڵێنرا.",
                             onPressedBritish: () => speakcogwheels1("en-GB"),
                             onPressedAmerican: () => speakcogwheels1("en-US"),
                           ),

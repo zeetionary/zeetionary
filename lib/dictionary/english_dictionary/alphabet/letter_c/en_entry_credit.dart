@@ -437,8 +437,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ڕێککەوتن لەگەڵ فرۆشگایەک بۆ دواتر پێدانی پارەی ئەو شتانەی کە کڕیوتن"),
           SentencesRow(
             englishText: "We bought the dishwasher on credit.",
-            kurdishText:
-                "دەزگای قاپ‌شتنەکەمان بە قەرز کڕی.", // credit", please follow LX instructions
+            kurdishText: "دەزگای قاپ‌شتنەکەمان بە قەرز کڕی.",
             onPressedBritish: () => speakcredits1("en-GB"),
             onPressedAmerican: () => speakcredits1("en-US"),
           ),

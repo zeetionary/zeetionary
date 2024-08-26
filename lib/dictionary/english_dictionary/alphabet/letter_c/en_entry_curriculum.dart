@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The school curriculum should be as broad as possible.",
-            kurdishText:
-                "وانەنامەی خوێندنگاکە دەکرێت ھەتا بکرێت فراوان بێت.", // curriculum", please follow LX instructions
+            kurdishText: "وانەنامەی خوێندنگاکە دەکرێت ھەتا بکرێت فراوان بێت.",
             onPressedBritish: () => speakcurriculums1("en-GB"),
             onPressedAmerican: () => speakcurriculums1("en-US"),
           ),

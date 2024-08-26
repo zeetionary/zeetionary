@@ -103,7 +103,7 @@ class EnglishEntrycliche extends StatelessWidget {
                             englishText:
                                 "It has become a cliché to say that Prague is the most beautiful city in Europe.",
                             kurdishText:
-                                "ئەوە بووە بە دەستەوشەی سوواو کە پراگ جوانترین شاری ئەورووپایە.", // cliché",
+                                "ئەوە بووە بە دەستەوشەی سوواو کە پراگ جوانترین شاری ئەورووپایە.",
                             onPressedBritish: () => speakcliches1("en-GB"),
                             onPressedAmerican: () => speakcliches1("en-US"),
                           ),

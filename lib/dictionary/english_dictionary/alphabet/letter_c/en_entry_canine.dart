@@ -182,7 +182,7 @@ class EnglishEntrycanine extends StatelessWidget {
                             englishText:
                                 "The city's canine population (= the number of dogs in the city) has grown dramatically over recent years.",
                             kurdishText:
-                                "دانیشتوانی سەگی شارەکە لە چەند ساڵی ڕابردوودا بەشێوەیەکی بەرچاو زیادی کردووە.", // canine
+                                "دانیشتوانی سەگی شارەکە لە چەند ساڵی ڕابردوودا بەشێوەیەکی بەرچاو زیادی کردووە",
                             onPressedBritish: () => speakcanines1("en-GB"),
                             onPressedAmerican: () => speakcanines1("en-US"),
                           ),

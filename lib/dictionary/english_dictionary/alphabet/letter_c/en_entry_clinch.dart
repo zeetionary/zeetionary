@@ -116,7 +116,7 @@ class EnglishEntryclinch extends StatelessWidget {
                             englishText:
                                 "They clinched a place in the semi-finals.",
                             kurdishText:
-                                "پێگەیەکیان لە نیوەی کۆتایی مسۆگەرکرد.", // clinch",
+                                "پێگەیەکیان لە نیوەی کۆتایی مسۆگەرکرد.",
                             onPressedBritish: () => speakclinchs1("en-GB"),
                             onPressedAmerican: () => speakclinchs1("en-US"),
                           ),

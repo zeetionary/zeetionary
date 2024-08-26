@@ -101,7 +101,7 @@ class EnglishEntryclockwise extends StatelessWidget {
                           SentencesRow(
                             englishText: "Turn the key clockwise.",
                             kurdishText:
-                                "کلیلەکە بە ئاراستەی میلی کاتژمێر بسووڕێنە.", // clockwise",
+                                "کلیلەکە بە ئاراستەی میلی کاتژمێر بسووڕێنە.",
                             onPressedBritish: () => speakclockwises1("en-GB"),
                             onPressedAmerican: () => speakclockwises1("en-US"),
                           ),

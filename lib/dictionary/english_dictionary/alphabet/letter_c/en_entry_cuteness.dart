@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Dogs have more to offer than just cuteness and companionship.",
-            kurdishText:
-                "سەگ زیاتر لە جوانی و ھاوڕێیەتی ھەیە کە بیبەخشێت.", // cuteness", please follow LX instructions
+            kurdishText: "سەگ زیاتر لە جوانی و ھاوڕێیەتی ھەیە کە بیبەخشێت.",
             onPressedBritish: () => speakcutenesss1("en-GB"),
             onPressedAmerican: () => speakcutenesss1("en-US"),
           ),

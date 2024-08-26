@@ -107,8 +107,7 @@ class EnglishEntryconfidential extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Your medical records are strictly confidential (= completely secret).",
-                            kurdishText:
-                                "تۆماری تەندرووستیت تەواو نھێنییە.", // confidential",
+                            kurdishText: "تۆماری تەندرووستیت تەواو نھێنییە.",
                             onPressedBritish: () =>
                                 speakconfidentials1("en-GB"),
                             onPressedAmerican: () =>

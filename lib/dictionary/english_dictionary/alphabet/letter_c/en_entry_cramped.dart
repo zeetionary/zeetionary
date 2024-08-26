@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We have six desks in this room, so we're a little cramped.",
             kurdishText:
-                "شەش کەسین لەم ژوورەدا، بۆیە کەمێک کێشەی تەنگیمان ھەیە.", // cramped", please follow LX instructions
+                "شەش کەسین لەم ژوورەدا، بۆیە کەمێک کێشەی تەنگیمان ھەیە.",
             onPressedBritish: () => speakcrampeds1("en-GB"),
             onPressedAmerican: () => speakcrampeds1("en-US"),
           ),

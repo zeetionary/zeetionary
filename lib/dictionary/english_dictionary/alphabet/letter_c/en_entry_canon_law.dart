@@ -177,7 +177,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
                             englishText:
                                 "The Eastern Orthodox Church follows its unique canon law.",
                             kurdishText:
-                                "کڵێسای ئۆرسۆدۆکسی ڕۆژھەڵات شوێن یاسای کڵێسای تایبەتی خۆی دەکەوێت.", // canon law
+                                "کڵێسای ئۆرسۆدۆکسی ڕۆژھەڵات شوێن یاسای کڵێسای تایبەتی خۆی دەکەوێت.",
                             onPressedBritish: () => speakcanonlaws1("en-GB"),
                             onPressedAmerican: () => speakcanonlaws1("en-US"),
                           ),

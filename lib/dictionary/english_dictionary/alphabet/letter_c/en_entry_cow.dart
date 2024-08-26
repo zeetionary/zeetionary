@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "We had several chickens and a dairy cow on our farm.",
             kurdishText:
-                "ژمارەیەک مریشک و مانگایەکی شیردەرمان ھەبوو لە کێڵگەکەمان.", // cow", please follow LX instructions
+                "ژمارەیەک مریشک و مانگایەکی شیردەرمان ھەبوو لە کێڵگەکەمان.",
             onPressedBritish: () => speakcows1("en-GB"),
             onPressedAmerican: () => speakcows1("en-US"),
           ),

@@ -95,7 +95,7 @@ class EnglishEntryconfectioner extends StatelessWidget {
                             englishText:
                                 "The confectioner prepared a variety of chocolates for the holiday season.",
                             kurdishText:
-                                "شیرینی‌فرۆشەکە ژمارەیەکی جیاواز چکلێتی ئامادەکرد بۆ وەرزی پشوو.", // confectioner",
+                                "شیرینی‌فرۆشەکە ژمارەیەکی جیاواز چکلێتی ئامادەکرد بۆ وەرزی پشوو.",
                             onPressedBritish: () =>
                                 speakconfectioners1("en-GB"),
                             onPressedAmerican: () =>

@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The only sound is the howl of coyote and the whisper of the wind.",
-            kurdishText:
-                "تەنھا دەنگ لوورەی گورگی بچووک و خشەی بایە.", // coyote", please follow LX instructions
+            kurdishText: "تەنھا دەنگ لوورەی گورگی بچووک و خشەی بایە.",
             onPressedBritish: () => speakcoyotes1("en-GB"),
             onPressedAmerican: () => speakcoyotes1("en-US"),
           ),

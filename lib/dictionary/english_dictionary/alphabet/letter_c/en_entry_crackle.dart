@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) درووستکردنی دەنگێک کە وەک دەنگی سووتانی شت لە ئاگردا وایە"),
           SentencesRow(
             englishText: "A log fire crackled in the hearth.",
-            kurdishText:
-                "کۆلکەدارێک قرچەقەرچی کرد لە ئاگردانەکەدا.", // crackle", please follow LX instructions
+            kurdishText: "کۆلکەدارێک قرچەقەرچی کرد لە ئاگردانەکەدا.",
             onPressedBritish: () => speakcrackles1("en-GB"),
             onPressedAmerican: () => speakcrackles1("en-US"),
           ),

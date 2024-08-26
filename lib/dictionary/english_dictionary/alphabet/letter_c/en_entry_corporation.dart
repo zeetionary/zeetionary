@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کۆمپانیایەکی بازرگانی گەورە"),
           SentencesRow(
             englishText: "I hated working for a large corporation.",
-            kurdishText:
-                "ڕقم لە کارکردن بۆ کۆمپانیایەکی بازرگانی گەورە بوو.", // corporation", please follow LX instructions
+            kurdishText: "ڕقم لە کارکردن بۆ کۆمپانیایەکی بازرگانی گەورە بوو.",
             onPressedBritish: () => speakcorporations1("en-GB"),
             onPressedAmerican: () => speakcorporations1("en-US"),
           ),

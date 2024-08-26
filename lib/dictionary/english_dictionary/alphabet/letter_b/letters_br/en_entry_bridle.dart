@@ -139,7 +139,7 @@ class EnglishEntrybridle extends StatelessWidget {
                             englishText:
                                 "She held his stirrup for him while Adam took the bridle.",
                             kurdishText:
-                                "کچەکە ئاوزەنگەکەی بۆ گرتبوو لەکاتێکدا ئادەم ھەوسارەکەی بۆ گرتبوو.", // bridle" as
+                                "کچەکە ئاوزەنگەکەی بۆ گرتبوو لەکاتێکدا ئادەم ھەوسارەکەی بۆ گرتبوو.",
                             onPressedBritish: () => speakbridles1("en-GB"),
                             onPressedAmerican: () => speakbridles1("en-US"),
                           ),

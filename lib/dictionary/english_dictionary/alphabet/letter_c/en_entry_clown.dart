@@ -110,7 +110,7 @@ class EnglishEntryclown extends StatelessWidget {
                             englishText:
                                 "Robert was always the class clown (= he did silly things to make the other students laugh).",
                             kurdishText:
-                                "(بەکارھێنانی خوازراوی) ڕۆبێرت ھەمیشە گاڵتەجاڕی پۆلەکە بوو.", // clown",
+                                "(بەکارھێنانی خوازراوی) ڕۆبێرت ھەمیشە گاڵتەجاڕی پۆلەکە بوو.",
                             onPressedBritish: () => speakclowns1("en-GB"),
                             onPressedAmerican: () => speakclowns1("en-US"),
                           ),

@@ -95,7 +95,7 @@ class EnglishEntrychopstick extends StatelessWidget {
                             englishText:
                                 "The children practiced using chopsticks to eat spaghetti.",
                             kurdishText:
-                                "منداڵەکان پرۆڤەی بەکارھێنانی چیلکەی نان‌خواردنیان دەکرد بۆ خواردنی سپاگێتی.", // chopstick",
+                                "منداڵەکان پرۆڤەی بەکارھێنانی چیلکەی نان‌خواردنیان دەکرد بۆ خواردنی سپاگێتی.",
                             onPressedBritish: () => speakchopsticks1("en-GB"),
                             onPressedAmerican: () => speakchopsticks1("en-US"),
                           ),

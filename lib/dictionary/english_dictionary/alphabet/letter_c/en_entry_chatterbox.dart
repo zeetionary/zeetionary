@@ -94,7 +94,7 @@ class EnglishEntrychatterbox extends StatelessWidget {
                             englishText:
                                 "She hardly said a word until she was two, but now she's a little chatterbox.",
                             kurdishText:
-                                "بە ئاستەنگ وشەیەکی دەگوت تا تەمەنی دوو ساڵی، بەڵام ئێستا ئەڵێی ڕادیۆی شکاوە.", // chatterbox",
+                                "بە ئاستەنگ وشەیەکی دەگوت تا تەمەنی دوو ساڵی، بەڵام ئێستا ئەڵێی ڕادیۆی شکاوە.",
                             onPressedBritish: () => speakchatterboxs1("en-GB"),
                             onPressedAmerican: () => speakchatterboxs1("en-US"),
                           ),

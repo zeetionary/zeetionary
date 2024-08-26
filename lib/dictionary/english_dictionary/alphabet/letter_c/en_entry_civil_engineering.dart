@@ -97,7 +97,7 @@ class EnglishEntrycivilengineering extends StatelessWidget {
                             englishText:
                                 "The civil engineering team worked on the design of the new bridge across the river.",
                             kurdishText:
-                                "تیمی ئەندازیاریی شارستانی کاریان کرد لەسەر دیزاینی پردە نوێیەکە بەسەر ڕووبارەکەدا.", // civil engineering",
+                                "تیمی ئەندازیاریی شارستانی کاریان کرد لەسەر دیزاینی پردە نوێیەکە بەسەر ڕووبارەکەدا.",
                             onPressedBritish: () =>
                                 speakcivilengineerings1("en-GB"),
                             onPressedAmerican: () =>

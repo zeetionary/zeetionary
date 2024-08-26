@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) شارەزایی لە کاری دەستی"),
           SentencesRow(
             englishText: "The jewellery showed exquisite craftsmanship.",
-            kurdishText:
-                "خشڵەکە پیشەگەری بێ‌ھاوتای تێدابوو.", // craftsmanship", please follow LX instructions
+            kurdishText: "خشڵەکە پیشەگەری بێ‌ھاوتای تێدابوو.",
             onPressedBritish: () => speakcraftsmanships1("en-GB"),
             onPressedAmerican: () => speakcraftsmanships1("en-US"),
           ),

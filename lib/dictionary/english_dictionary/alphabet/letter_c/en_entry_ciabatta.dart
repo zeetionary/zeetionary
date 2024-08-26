@@ -97,7 +97,7 @@ class EnglishEntryciabatta extends StatelessWidget {
                             englishText:
                                 "She made a delicious sandwich with ciabatta bread, filled with ham and cheese.",
                             kurdishText:
-                                "لەفەیەکی بەلەزەتی بە نانی چیباتا درووستکرد کە پڕ بوو لە ڕانی بەراز و پەنیر.", // ciabatta",
+                                "لەفەیەکی بەلەزەتی بە نانی چیباتا درووستکرد کە پڕ بوو لە ڕانی بەراز و پەنیر.",
                             onPressedBritish: () => speakciabattas1("en-GB"),
                             onPressedAmerican: () => speakciabattas1("en-US"),
                           ),

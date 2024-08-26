@@ -176,7 +176,7 @@ class EnglishEntrycanonize extends StatelessWidget {
                             englishText:
                                 "Joan of Arc was eventually canonized in 1920.",
                             kurdishText:
-                                "ژان دارک لەکۆتاییدا بە پیرۆز ناسێنرا لە ساڵی ١٩٢٠.", // canonize
+                                "ژان دارک لەکۆتاییدا بە پیرۆز ناسێنرا لە ساڵی ١٩٢٠",
                             onPressedBritish: () => speakcanonizes1("en-GB"),
                             onPressedAmerican: () => speakcanonizes1("en-US"),
                           ),

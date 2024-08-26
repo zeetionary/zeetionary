@@ -95,7 +95,7 @@ class EnglishEntrycommander extends StatelessWidget {
                             englishText:
                                 "General Eisenhower was Supreme Allied Commander in Western Europe.",
                             kurdishText:
-                                "ژەنەراڵ ئایزنھاوەر فەرمانداری باڵای ھاوپەیمانان بوو لە ڕۆژئاوای ئەورووپا.", // commander",
+                                "ژەنەراڵ ئایزنھاوەر فەرمانداری باڵای ھاوپەیمانان بوو لە ڕۆژئاوای ئەورووپا.",
                             onPressedBritish: () => speakcommanders1("en-GB"),
                             onPressedAmerican: () => speakcommanders1("en-US"),
                           ),

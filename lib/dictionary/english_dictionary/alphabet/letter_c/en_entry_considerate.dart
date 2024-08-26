@@ -110,7 +110,7 @@ class EnglishEntryconsiderate extends StatelessWidget {
                             englishText:
                                 "She is always polite and considerate towards her employees.",
                             kurdishText:
-                                "ھەمیشە بەڕێز و میھرەبان بووە بەرامبەر کارمەندەکانی.", // considerate",
+                                "ھەمیشە بەڕێز و میھرەبان بووە بەرامبەر کارمەندەکانی.",
                             onPressedBritish: () => speakconsiderates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsiderates1("en-US"),

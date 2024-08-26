@@ -103,7 +103,7 @@ class EnglishEntryconvincingly extends StatelessWidget {
                             englishText:
                                 "She did talk convincingly about what needed to be done.",
                             kurdishText:
-                                "قایلکەرانە قسەی کرد سەبارەت بەوەی چی دەبێت بکرێت.", // convincingly",
+                                "قایلکەرانە قسەی کرد سەبارەت بەوەی چی دەبێت بکرێت.",
                             onPressedBritish: () =>
                                 speakconvincinglys1("en-GB"),
                             onPressedAmerican: () =>

@@ -279,8 +279,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) گەشتێک بە بەلەم یان کەشتی و سەردانی کردنی شوێنی جیاواز"),
           SentencesRow(
             englishText: "I'd love to go on a round-the-world cruise.",
-            kurdishText:
-                "پێمخۆشە بچمە زەریاگەڕییەک بە دەوری جیھاندا.", // cruise", please follow LX instructions
+            kurdishText: "پێمخۆشە بچمە زەریاگەڕییەک بە دەوری جیھاندا.",
             onPressedBritish: () => speakcruises1("en-GB"),
             onPressedAmerican: () => speakcruises1("en-US"),
           ),

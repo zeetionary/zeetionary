@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) سۆسێکی شیرین کە لە شەکر و شیر و ھێلکە و ئارد درووست دەکرێت"),
           SentencesRow(
             englishText: "Strain the custard to remove lumps.",
-            kurdishText:
-                "کاستەرەکە بپاڵێوە بۆ لادانی تۆپەڵەکانی.", // custard", please follow LX instructions
+            kurdishText: "کاستەرەکە بپاڵێوە بۆ لادانی تۆپەڵەکانی.",
             onPressedBritish: () => speakcustards1("en-GB"),
             onPressedAmerican: () => speakcustards1("en-US"),
           ),

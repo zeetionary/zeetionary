@@ -100,7 +100,7 @@ class EnglishEntryclove extends StatelessWidget {
                           SentencesRow(
                             englishText: "The ham was studded with cloves.",
                             kurdishText:
-                                "گۆشتە بەرازەکە بە مێخەک ڕازێندرابوویەوە.", // clove",
+                                "گۆشتە بەرازەکە بە مێخەک ڕازێندرابوویەوە.",
                             onPressedBritish: () => speakcloves1("en-GB"),
                             onPressedAmerican: () => speakcloves1("en-US"),
                           ),

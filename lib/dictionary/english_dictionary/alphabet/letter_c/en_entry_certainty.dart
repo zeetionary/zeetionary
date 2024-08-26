@@ -179,7 +179,7 @@ class EnglishEntrycertainty extends StatelessWidget {
                             englishText:
                                 "There is no certainty that the president's removal would end the civil war.",
                             kurdishText:
-                                "ھیچ دڵنیایی نییە لەوەی کە لادانی سەرۆک کۆتایی بە شەڕی ناوخۆ بھێنێت.", // certainty",
+                                "ھیچ دڵنیایی نییە لەوەی کە لادانی سەرۆک کۆتایی بە شەڕی ناوخۆ بھێنێت.",
                             onPressedBritish: () => speakcertaintys1("en-GB"),
                             onPressedAmerican: () => speakcertaintys1("en-US"),
                           ),

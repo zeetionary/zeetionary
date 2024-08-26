@@ -100,8 +100,7 @@ class EnglishEntrycompunction extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He had lied to her without compunction.",
-                            kurdishText:
-                                "درۆی لەگەڵ کرد بەبێ ھیچ پەشیمانییەک.", // compunction",
+                            kurdishText: "درۆی لەگەڵ کرد بەبێ ھیچ پەشیمانییەک.",
                             onPressedBritish: () => speakcompunctions1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcompunctions1("en-US"),

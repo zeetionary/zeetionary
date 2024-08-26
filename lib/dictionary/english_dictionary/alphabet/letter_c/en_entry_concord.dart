@@ -94,7 +94,7 @@ class EnglishEntryconcord extends StatelessWidget {
                             englishText:
                                 "The country's foreign policy aims to promote living in concord with neighboring states.",
                             kurdishText:
-                                "سیاسەتی دەرەوەی وڵاتەکە ئامانجییەتی گرنگی بدات بە گونجان بە ئاشتی لەگەڵ وڵاتانی دراوسێدا.", // concord",
+                                "سیاسەتی دەرەوەی وڵاتەکە ئامانجییەتی گرنگی بدات بە گونجان بە ئاشتی لەگەڵ وڵاتانی دراوسێدا.",
                             onPressedBritish: () => speakconcords1("en-GB"),
                             onPressedAmerican: () => speakconcords1("en-US"),
                           ),

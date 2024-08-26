@@ -99,7 +99,7 @@ class EnglishEntrycommune extends StatelessWidget {
                                   "١. (ناو) کۆمەڵێک کەس کە پێکەوە دەژین و ئەرک، کەلوپەل، ھتد ـی ھاوبەشیان ھەیە"),
                           SentencesRow(
                             englishText: "She lives in a commune.",
-                            kurdishText: "لە کمیونێکدا دەژی.", // commune",
+                            kurdishText: "لە کمیونێکدا دەژی.",
                             onPressedBritish: () => speakcommunes1("en-GB"),
                             onPressedAmerican: () => speakcommunes1("en-US"),
                           ),

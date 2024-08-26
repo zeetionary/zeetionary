@@ -124,7 +124,7 @@ class EnglishEntrychaos extends StatelessWidget {
                             englishText:
                                 "Heavy snow has caused total chaos on the roads.",
                             kurdishText:
-                                "بەفربارینی سەخت بووە بەھۆی شپرزەیی تەواو لەسەر ڕێگاکان.", // chaos",
+                                "بەفربارینی سەخت بووە بەھۆی شپرزەیی تەواو لەسەر ڕێگاکان.",
                             onPressedBritish: () => speakchaoss1("en-GB"),
                             onPressedAmerican: () => speakchaoss1("en-US"),
                           ),

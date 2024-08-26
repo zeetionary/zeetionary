@@ -182,7 +182,7 @@ class EnglishEntrycache extends StatelessWidget {
                             englishText:
                                 "The squirrel stored nuts in a cache beneath the tree.",
                             kurdishText:
-                                "سمۆرەکە کاکڵەکەی شاردەوە لە حەشارگەیەک لە ژێر دارەکەدا.", // cache
+                                "سمۆرەکە کاکڵەکەی شاردەوە لە حەشارگەیەک لە ژێر دارەکەدا",
                             onPressedBritish: () => speakcaches1("en-GB"),
                             onPressedAmerican: () => speakcaches1("en-US"),
                           ),

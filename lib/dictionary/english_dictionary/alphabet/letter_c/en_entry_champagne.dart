@@ -91,7 +91,7 @@ class EnglishEntrychampagne extends StatelessWidget {
                             englishText:
                                 "There are a number of fine champagnes (= types of champagne) available at very reasonable prices.",
                             kurdishText:
-                                "ژمارەیەک جۆری جیاوازی شامپەین ھەیە بە نرخی گونجاو.", // champagne",
+                                "ژمارەیەک جۆری جیاوازی شامپەین ھەیە بە نرخی گونجاو.",
                             onPressedBritish: () => speakchampagnes1("en-GB"),
                             onPressedAmerican: () => speakchampagnes1("en-US"),
                           ),

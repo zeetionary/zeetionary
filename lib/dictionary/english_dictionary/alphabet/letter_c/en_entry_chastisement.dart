@@ -103,7 +103,7 @@ class EnglishEntrychastisement extends StatelessWidget {
                             englishText:
                                 "Reasonable chastisement of children was allowed under the law.",
                             kurdishText:
-                                "لێدانی گونجاوی منداڵان ڕێگاپێدراو بوو بەپێی یاسا.", // chastisement",
+                                "لێدانی گونجاوی منداڵان ڕێگاپێدراو بوو بەپێی یاسا.",
                             onPressedBritish: () =>
                                 speakchastisements1("en-GB"),
                             onPressedAmerican: () =>

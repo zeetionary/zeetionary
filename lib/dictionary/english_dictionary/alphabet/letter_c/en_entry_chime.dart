@@ -107,8 +107,7 @@ class EnglishEntrychime extends StatelessWidget {
                                   "١. (کردار) زەنگ لێدان، پیشاندانی کات بە زەنگ لێدان"),
                           SentencesRow(
                             englishText: "I heard the clock chime.",
-                            kurdishText:
-                                "گوێم لە کاتژمێرەکە بوو زەنگی لێدا.", // chime",
+                            kurdishText: "گوێم لە کاتژمێرەکە بوو زەنگی لێدا.",
                             onPressedBritish: () => speakchimes1("en-GB"),
                             onPressedAmerican: () => speakchimes1("en-US"),
                           ),

@@ -118,7 +118,7 @@ class EnglishEntrychink extends StatelessWidget {
                             englishText:
                                 "I peered through a chink in the curtains and saw them all inside.",
                             kurdishText:
-                                "لە کەلێنێکی پەردەکەوە سەیرم کرد و ھەموویانم بینی.", // chink",
+                                "لە کەلێنێکی پەردەکەوە سەیرم کرد و ھەموویانم بینی.",
                             onPressedBritish: () => speakchinks1("en-GB"),
                             onPressedAmerican: () => speakchinks1("en-US"),
                           ),

@@ -96,7 +96,7 @@ class EnglishEntrycoincidentally extends StatelessWidget {
                             englishText:
                                 "Coincidentally, they had both studied in Paris.",
                             kurdishText:
-                                "بە ڕێکەوت، ھەردووکیان لە پاریس خوێندبوویان.", // coincidentally",
+                                "بە ڕێکەوت، ھەردووکیان لە پاریس خوێندبوویان.",
                             onPressedBritish: () =>
                                 speakcoincidentallys1("en-GB"),
                             onPressedAmerican: () =>

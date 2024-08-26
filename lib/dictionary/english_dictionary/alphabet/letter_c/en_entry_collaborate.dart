@@ -110,7 +110,7 @@ class EnglishEntrycollaborate extends StatelessWidget {
                             englishText:
                                 "Researchers around the world are collaborating to develop a new vaccine.",
                             kurdishText:
-                                "توێژەران لە جیھانەوە پێکەوە کار دەکەن بۆ گەشەپێدانی ڤاکسینی تازە.", // collaborate",
+                                "توێژەران لە جیھانەوە پێکەوە کار دەکەن بۆ گەشەپێدانی ڤاکسینی تازە.",
                             onPressedBritish: () => speakcollaborates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcollaborates1("en-US"),

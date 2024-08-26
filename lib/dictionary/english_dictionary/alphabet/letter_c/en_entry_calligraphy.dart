@@ -182,7 +182,7 @@ class EnglishEntrycalligraphy extends StatelessWidget {
                             englishText:
                                 "There's some wonderful calligraphy in these old manuscripts.",
                             kurdishText:
-                                "ھەندێک نووسینی خەتاتی لەم بەڵگەنامە کۆنانە ھەن.", // calligraphy",
+                                "ھەندێک نووسینی خەتاتی لەم بەڵگەنامە کۆنانە ھەن.",
                             onPressedBritish: () => speakcalligraphys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcalligraphys1("en-US"),

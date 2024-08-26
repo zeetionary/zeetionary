@@ -259,8 +259,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) گەرم و ئاسوودە و ئارام"),
           SentencesRow(
             englishText: "I felt warm and cosy sitting by the fire.",
-            kurdishText:
-                "ھەستم بە گەرمی و ئاسوودەیی دەکرد لە نزیک ئاگرەکە.", // cosy", please follow LX instructions
+            kurdishText: "ھەستم بە گەرمی و ئاسوودەیی دەکرد لە نزیک ئاگرەکە.",
             onPressedBritish: () => speakcosys1("en-GB"),
             onPressedAmerican: () => speakcosys1("en-US"),
           ),

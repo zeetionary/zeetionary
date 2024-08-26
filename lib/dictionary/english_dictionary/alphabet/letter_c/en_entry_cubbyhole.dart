@@ -228,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ژوورێکی بچووک"),
           SentencesRow(
             englishText: "My office is a cubbyhole in the basement.",
-            kurdishText:
-                "ئۆفیسەکەم لە ژوورۆچکەیەکی ژێر زەمینەکە دایە.", // cubbyhole", please follow LX instructions
+            kurdishText: "ئۆفیسەکەم لە ژوورۆچکەیەکی ژێر زەمینەکە دایە.",
             onPressedBritish: () => speakcubbyholes1("en-GB"),
             onPressedAmerican: () => speakcubbyholes1("en-US"),
           ),

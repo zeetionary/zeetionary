@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A damaged crankshaft can cause serious engine problems.",
             kurdishText:
-                "میلەنگێکی زیان پێگەشتوو دەکرێت کێشەی گەورە بۆ بزوێنەرەکە درووست بکات.", // crankshaft", please follow LX instructions
+                "میلەنگێکی زیان پێگەشتوو دەکرێت کێشەی گەورە بۆ بزوێنەرەکە درووست بکات.",
             onPressedBritish: () => speakcrankshafts1("en-GB"),
             onPressedAmerican: () => speakcrankshafts1("en-US"),
           ),

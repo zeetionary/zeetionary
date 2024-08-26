@@ -95,7 +95,7 @@ class EnglishEntryconfessional extends StatelessWidget {
                             englishText:
                                 "She went to the confessional to confess her sins and seek forgiveness.",
                             kurdishText:
-                                "چوو بۆ درکانگەکە بۆ داننان بە تاوانەکانیدا و داوای لێخۆشبوون.", // confessional",
+                                "چوو بۆ درکانگەکە بۆ داننان بە تاوانەکانیدا و داوای لێخۆشبوون.",
                             onPressedBritish: () =>
                                 speakconfessionals1("en-GB"),
                             onPressedAmerican: () =>

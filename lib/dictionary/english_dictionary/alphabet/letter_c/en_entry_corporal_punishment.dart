@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Many schools have banned the use of corporal punishment.",
             kurdishText:
-                "زۆر قوتابخانە سزای جەستەییان قەدەغە کردووە.", // corporal punishment", please follow LX instructions
+                "زۆر قوتابخانە سزای جەستەییان قەدەغە کردووە.",
             onPressedBritish: () => speakcorporalpunishments1("en-GB"),
             onPressedAmerican: () => speakcorporalpunishments1("en-US"),
           ),

@@ -93,8 +93,7 @@ class EnglishEntrycommensurate extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Salary will be commensurate with experience.",
-                            kurdishText:
-                                "مووچە ھاوڕێژە دەبێت لەگەڵ ئەزمووندا.", // commensurate",
+                            kurdishText: "مووچە ھاوڕێژە دەبێت لەگەڵ ئەزمووندا.",
                             onPressedBritish: () =>
                                 speakcommensurates1("en-GB"),
                             onPressedAmerican: () =>

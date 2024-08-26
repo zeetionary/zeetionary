@@ -179,7 +179,7 @@ class EnglishEntrycelibate extends StatelessWidget {
                             englishText:
                                 "Some individuals choose to remain celibate for personal reasons, such as focusing on career or academic pursuits.",
                             kurdishText:
-                                "ھەندێک وای ھەڵدەبژێرن کە بە زگوردی بمێننەوە بۆ مەبەستی کەسی، بۆ نموونە بۆ سەرنجدان بە کار خوێندنی ئەکادیمی.", // celibate",
+                                "ھەندێک وای ھەڵدەبژێرن کە بە زگوردی بمێننەوە بۆ مەبەستی کەسی، بۆ نموونە بۆ سەرنجدان بە کار خوێندنی ئەکادیمی.",
                             onPressedBritish: () => speakcelibates1("en-GB"),
                             onPressedAmerican: () => speakcelibates1("en-US"),
                           ),

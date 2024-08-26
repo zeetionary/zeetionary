@@ -116,7 +116,7 @@ class EnglishEntrychant extends StatelessWidget {
                             englishText:
                                 "The crowd broke into chants of ‘Out! Out!’",
                             kurdishText:
-                                "گرووپەکە دەستیان کرد بە درووشمی 'دەرەوە! دەرەوە!'", // chant",
+                                "گرووپەکە دەستیان کرد بە درووشمی 'دەرەوە! دەرەوە!'",
                             onPressedBritish: () => speakchants1("en-GB"),
                             onPressedAmerican: () => speakchants1("en-US"),
                           ),

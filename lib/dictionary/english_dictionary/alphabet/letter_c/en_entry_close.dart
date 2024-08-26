@@ -701,7 +701,7 @@ class EnglishEntryclose extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (کردار) داخستن"),
                           SentencesRow(
                             englishText: "He closed the door firmly.",
-                            kurdishText: "دەرگاکەی بە قایمی گرت.", // close",
+                            kurdishText: "دەرگاکەی بە قایمی گرت.",
                             onPressedBritish: () => speakcloses1("en-GB"),
                             onPressedAmerican: () => speakcloses1("en-US"),
                           ),

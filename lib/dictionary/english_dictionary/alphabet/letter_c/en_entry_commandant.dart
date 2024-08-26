@@ -93,8 +93,7 @@ class EnglishEntrycommandant extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She was appointed as the new commandant.",
-                            kurdishText:
-                                "وەک فەرمانداری تازە دیاریکرا.", // commandant",
+                            kurdishText: "وەک فەرمانداری تازە دیاریکرا.",
                             onPressedBritish: () => speakcommandants1("en-GB"),
                             onPressedAmerican: () => speakcommandants1("en-US"),
                           ),

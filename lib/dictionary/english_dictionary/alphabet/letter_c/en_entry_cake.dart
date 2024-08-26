@@ -178,7 +178,7 @@ class EnglishEntrycake extends StatelessWidget {
                             englishText:
                                 "Everyone cheered as the bride and groom cut the wedding cake.",
                             kurdishText:
-                                "ھەمووان ھاوار و قیژەیان بوو کە بووک و زاوا کێکەکەیان بڕی.", // cake
+                                "ھەمووان ھاوار و قیژەیان بوو کە بووک و زاوا کێکەکەیان بڕی",
                             onPressedBritish: () => speakcakes1("en-GB"),
                             onPressedAmerican: () => speakcakes1("en-US"),
                           ),

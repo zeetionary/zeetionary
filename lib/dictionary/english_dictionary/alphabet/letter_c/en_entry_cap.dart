@@ -181,7 +181,7 @@ class EnglishEntrycap extends StatelessWidget {
                             englishText:
                                 "He wore a cap to help shielding his face from the sun's glare.",
                             kurdishText:
-                                "کڵاوێکی لەسەر کرد بۆ پاراستنی ڕووخساری لە تیشکی خۆر.", // cap
+                                "کڵاوێکی لەسەر کرد بۆ پاراستنی ڕووخساری لە تیشکی خۆر",
                             onPressedBritish: () => speakcaps1("en-GB"),
                             onPressedAmerican: () => speakcaps1("en-US"),
                           ),

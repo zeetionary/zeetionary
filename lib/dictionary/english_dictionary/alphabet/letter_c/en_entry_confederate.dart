@@ -119,7 +119,7 @@ class EnglishEntryconfederate extends StatelessWidget {
                             englishText:
                                 "Rokovssky was his confederate in the assassination plot.",
                             kurdishText:
-                                "ڕۆکۆڤسکی ھاودەستی بوو لە پلانی تیرۆرکردنەکەدا.", // confederate",
+                                "ڕۆکۆڤسکی ھاودەستی بوو لە پلانی تیرۆرکردنەکەدا.",
                             onPressedBritish: () => speakconfederates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconfederates1("en-US"),

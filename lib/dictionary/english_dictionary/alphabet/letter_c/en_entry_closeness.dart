@@ -117,7 +117,7 @@ class EnglishEntrycloseness extends StatelessWidget {
                             englishText:
                                 "Maltese cuisine is influenced by Malta’s physical closeness to Italy.",
                             kurdishText:
-                                "دەستاوی ماڵتایی کاریگەری نزیکییەتی ماڵتای لە ئیتاڵیاوە لەسەرە.", // closeness",
+                                "دەستاوی ماڵتایی کاریگەری نزیکییەتی ماڵتای لە ئیتاڵیاوە لەسەرە.",
                             onPressedBritish: () => speakclosenesss1("en-GB"),
                             onPressedAmerican: () => speakclosenesss1("en-US"),
                           ),

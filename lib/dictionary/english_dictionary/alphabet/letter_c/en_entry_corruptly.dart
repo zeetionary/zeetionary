@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He resigned in February, a day before pleading guilty to corruptly receiving illegal payments.",
             kurdishText:
-                "لە شوبات دەستی لەکارکێشایەوە، ڕۆژێک پێش ئەوەی دانی نا بە گەندەڵانە وەرگرتنی پارەی نایاسایی.", // corruptly", please follow LX instructions
+                "لە شوبات دەستی لەکارکێشایەوە، ڕۆژێک پێش ئەوەی دانی نا بە گەندەڵانە وەرگرتنی پارەی نایاسایی.",
             onPressedBritish: () => speakcorruptlys1("en-GB"),
             onPressedAmerican: () => speakcorruptlys1("en-US"),
           ),

@@ -138,7 +138,7 @@ class EnglishEntrycoin extends StatelessWidget {
                             englishText:
                                 "They flipped a coin to see who should go first.",
                             kurdishText:
-                                "سکەیەکیان ھەڵدا بۆ ئەوەی بزانن کێ یەکەمجار دەچێت.", // coin",
+                                "سکەیەکیان ھەڵدا بۆ ئەوەی بزانن کێ یەکەمجار دەچێت.",
                             onPressedBritish: () => speakcoins1("en-GB"),
                             onPressedAmerican: () => speakcoins1("en-US"),
                           ),

@@ -93,7 +93,7 @@ class EnglishEntrythecivilservice extends StatelessWidget {
                             englishText:
                                 "He had a long career in the civil service.",
                             kurdishText:
-                                "کارێکی دوورودرێژی لە فەرمانگەی حکومی ھەبوو.", // the civil service",
+                                "کارێکی دوورودرێژی لە فەرمانگەی حکومی ھەبوو.",
                             onPressedBritish: () =>
                                 speakthecivilservices1("en-GB"),
                             onPressedAmerican: () =>

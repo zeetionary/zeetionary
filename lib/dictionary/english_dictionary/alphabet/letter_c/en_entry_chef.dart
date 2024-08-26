@@ -94,7 +94,7 @@ class EnglishEntrychef extends StatelessWidget {
                             englishText:
                                 "She used to work as a chef in a big hotel in Johannesburg.",
                             kurdishText:
-                                "جاران وەک شیفێک لە ھوتێلێکی گەورە لە جۆھانسبێرگ کاری دەکرد.", // chef",
+                                "جاران وەک شیفێک لە ھوتێلێکی گەورە لە جۆھانسبێرگ کاری دەکرد.",
                             onPressedBritish: () => speakchefs1("en-GB"),
                             onPressedAmerican: () => speakchefs1("en-US"),
                           ),

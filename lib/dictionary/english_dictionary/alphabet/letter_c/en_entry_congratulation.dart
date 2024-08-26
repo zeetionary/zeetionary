@@ -110,7 +110,7 @@ class EnglishEntrycongratulation extends StatelessWidget {
                             englishText:
                                 "May I be the first to offer my congratulations on your promotion?",
                             kurdishText:
-                                "دەکرێت یەکەم کەس بم پیرۆزباییت لێبکەم بۆ پلە بەرزکردنەوەکەت؟", // congratulation",
+                                "دەکرێت یەکەم کەس بم پیرۆزباییت لێبکەم بۆ پلە بەرزکردنەوەکەت؟",
                             onPressedBritish: () =>
                                 speakcongratulations1("en-GB"),
                             onPressedAmerican: () =>

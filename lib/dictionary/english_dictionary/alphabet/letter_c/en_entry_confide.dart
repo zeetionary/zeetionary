@@ -102,7 +102,7 @@ class EnglishEntryconfide extends StatelessWidget {
                             englishText:
                                 "She confided all her secrets to her best friend.",
                             kurdishText:
-                                "ھەموو نھێنییەکانی بە باشترین ھاوڕێی دەگوت.", // confide",
+                                "ھەموو نھێنییەکانی بە باشترین ھاوڕێی دەگوت.",
                             onPressedBritish: () => speakconfides1("en-GB"),
                             onPressedAmerican: () => speakconfides1("en-US"),
                           ),

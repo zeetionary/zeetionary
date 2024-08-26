@@ -182,7 +182,7 @@ class EnglishEntrycamp extends StatelessWidget {
                                   """١. (ناو) خێوەت یان بینای کاتی کە خەڵکی بە کاتی تێیدا دەژی"""),
                           SentencesRow(
                             englishText: "Let's return to camp.",
-                            kurdishText: "با بگەڕێینەوە کەمپ.", // camp
+                            kurdishText: "با بگەڕێینەوە کەمپ",
                             onPressedBritish: () => speakcamps1("en-GB"),
                             onPressedAmerican: () => speakcamps1("en-US"),
                           ),

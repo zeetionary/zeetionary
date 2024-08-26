@@ -134,7 +134,7 @@ class EnglishEntrybronchitis extends StatelessWidget {
                             englishText:
                                 "He was suffering from chronic bronchitis.",
                             kurdishText:
-                                "تووشی ھەوکردنی درێژخایەنی لقە بۆرییەکانی ھەوای بوو.", // bronchitis" as
+                                "تووشی ھەوکردنی درێژخایەنی لقە بۆرییەکانی ھەوای بوو.",
                             onPressedBritish: () => speakbronchitiss1("en-GB"),
                             onPressedAmerican: () => speakbronchitiss1("en-US"),
                           ),

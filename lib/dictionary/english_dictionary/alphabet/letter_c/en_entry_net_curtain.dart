@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Kim stared through the net curtain into the grey sky.",
             kurdishText:
-                "کیم بە پردە تۆڕەکەدا سەیری ئاسمانە خەڵۆمێشییەکەی کرد.", // net curtain", please follow LX instructions
+                "کیم بە پردە تۆڕەکەدا سەیری ئاسمانە خەڵۆمێشییەکەی کرد.",
             onPressedBritish: () => speaknetcurtains1("en-GB"),
             onPressedAmerican: () => speaknetcurtains1("en-US"),
           ),

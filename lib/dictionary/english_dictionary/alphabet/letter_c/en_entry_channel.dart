@@ -206,8 +206,7 @@ class EnglishEntrychannel extends StatelessWidget {
                               text: "١. (ناو) وێستگەیەکی تەلەفیزیۆنی"),
                           SentencesRow(
                             englishText: "What's on Channel 4 tonight?",
-                            kurdishText:
-                                "ئەمشەو چی لەسەر کەناڵ 4 دەبێت؟", // channel",
+                            kurdishText: "ئەمشەو چی لەسەر کەناڵ 4 دەبێت؟",
                             onPressedBritish: () => speakchannels1("en-GB"),
                             onPressedAmerican: () => speakchannels1("en-US"),
                           ),

@@ -179,7 +179,7 @@ class EnglishEntrycategorical extends StatelessWidget {
                             englishText:
                                 "They gave him a categorical assurance that he would not be hurt.",
                             kurdishText:
-                                "دڵنیایی ڕەھایان پێدا کە ئازاری پێ ناگات.", // categorical",
+                                "دڵنیایی ڕەھایان پێدا کە ئازاری پێ ناگات.",
                             onPressedBritish: () => speakcategoricals1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcategoricals1("en-US"),

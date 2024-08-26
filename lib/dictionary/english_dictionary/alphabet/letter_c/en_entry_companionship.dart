@@ -102,7 +102,7 @@ class EnglishEntrycompanionship extends StatelessWidget {
                             englishText:
                                 "They meet at the club for companionship and advice.",
                             kurdishText:
-                                "لە یانەکە یەکیان بینی بۆ دۆستایەتی و ڕاوێژ.", // companionship",
+                                "لە یانەکە یەکیان بینی بۆ دۆستایەتی و ڕاوێژ.",
                             onPressedBritish: () =>
                                 speakcompanionships1("en-GB"),
                             onPressedAmerican: () =>

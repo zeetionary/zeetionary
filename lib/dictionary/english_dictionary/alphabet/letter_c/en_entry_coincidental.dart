@@ -95,7 +95,7 @@ class EnglishEntrycoincidental extends StatelessWidget {
                             englishText:
                                 "I suppose your presence here today is not entirely coincidental.",
                             kurdishText:
-                                "وای بۆ دەچم بوونت ئەمڕۆ لێرە تەواو ڕێکەوت نییە.", // coincidental",
+                                "وای بۆ دەچم بوونت ئەمڕۆ لێرە تەواو ڕێکەوت نییە.",
                             onPressedBritish: () =>
                                 speakcoincidentals1("en-GB"),
                             onPressedAmerican: () =>

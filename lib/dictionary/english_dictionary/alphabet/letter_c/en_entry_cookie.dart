@@ -100,7 +100,7 @@ class EnglishEntrycookie extends StatelessWidget {
                             englishText:
                                 "If you eat three good meals a day, you shouldn't need to snack on cookies and crisps.",
                             kurdishText:
-                                "ئەگەر سێ ژەم لە ڕۆژێکدا بخۆیت، پێویستت بەوە نییە بسکیت و چبسی پەتاتە بخۆیت.", // cookie",
+                                "ئەگەر سێ ژەم لە ڕۆژێکدا بخۆیت، پێویستت بەوە نییە بسکیت و چبسی پەتاتە بخۆیت.",
                             onPressedBritish: () => speakcookies1("en-GB"),
                             onPressedAmerican: () => speakcookies1("en-US"),
                           ),

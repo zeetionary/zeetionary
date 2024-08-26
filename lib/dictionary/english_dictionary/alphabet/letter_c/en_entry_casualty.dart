@@ -181,7 +181,7 @@ class EnglishEntrycasualty extends StatelessWidget {
                             englishText:
                                 "Our primary objective is reducing road casualties.",
                             kurdishText:
-                                "ئامانجی سەرەکیمان کەمکردنەوەی قوربانیانی ھاتووچۆیە.", // casualty",
+                                "ئامانجی سەرەکیمان کەمکردنەوەی قوربانیانی ھاتووچۆیە.",
                             onPressedBritish: () => speakcasualtys1("en-GB"),
                             onPressedAmerican: () => speakcasualtys1("en-US"),
                           ),

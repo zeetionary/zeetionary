@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There were small plants growing in every nook and cranny of the wall.",
             kurdishText:
-                "ڕووەکی بچووک لە ھەموو کون و کەلەبەردێکی دیوارەکە گەشەیان دەکرد.", // cranny", please follow LX instructions
+                "ڕووەکی بچووک لە ھەموو کون و کەلەبەردێکی دیوارەکە گەشەیان دەکرد.",
             onPressedBritish: () => speakcrannys1("en-GB"),
             onPressedAmerican: () => speakcrannys1("en-US"),
           ),

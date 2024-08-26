@@ -94,7 +94,7 @@ class EnglishEntrychute extends StatelessWidget {
                             englishText:
                                 "The rubbish goes down the chute into a large bin.",
                             kurdishText:
-                                "خاشاکەکە بە خزێنەیەکدا دەچێتە خوارەوە بۆ ناو زباڵەیەکی گەورەتر.", // chute",
+                                "خاشاکەکە بە خزێنەیەکدا دەچێتە خوارەوە بۆ ناو زباڵەیەکی گەورەتر.",
                             onPressedBritish: () => speakchutes1("en-GB"),
                             onPressedAmerican: () => speakchutes1("en-US"),
                           ),

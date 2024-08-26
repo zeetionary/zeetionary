@@ -119,7 +119,7 @@ class EnglishEntryconstraint extends StatelessWidget {
                             englishText:
                                 "This decision will impose serious constraints on all schools.",
                             kurdishText:
-                                "ئەم بڕیارە سنوورداری توند دەسەپێنێت بەسەر ھەموو قوتابخانەکاندا.", // constraint",
+                                "ئەم بڕیارە سنوورداری توند دەسەپێنێت بەسەر ھەموو قوتابخانەکاندا.",
                             onPressedBritish: () => speakconstraints1("en-GB"),
                             onPressedAmerican: () => speakconstraints1("en-US"),
                           ),

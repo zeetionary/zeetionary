@@ -109,8 +109,7 @@ class EnglishEntrycoax extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She coaxed the horse into coming a little closer.",
-                            kurdishText:
-                                "ئەسپەکەی قایلکرد کەمێک نزیک ببێتەوە.", // coax",
+                            kurdishText: "ئەسپەکەی قایلکرد کەمێک نزیک ببێتەوە.",
                             onPressedBritish: () => speakcoaxs1("en-GB"),
                             onPressedAmerican: () => speakcoaxs1("en-US"),
                           ),

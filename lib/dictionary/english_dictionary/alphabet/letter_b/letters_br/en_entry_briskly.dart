@@ -139,7 +139,7 @@ class EnglishEntrybriskly extends StatelessWidget {
                             englishText:
                                 "She walked briskly over to the phone and answered it.",
                             kurdishText:
-                                "بەخێرایی چوو بۆ لای تەلەفۆنەکە و وەڵامی دایەوە.", // briskly" as
+                                "بەخێرایی چوو بۆ لای تەلەفۆنەکە و وەڵامی دایەوە.",
                             onPressedBritish: () => speakbrisklys1("en-GB"),
                             onPressedAmerican: () => speakbrisklys1("en-US"),
                           ),

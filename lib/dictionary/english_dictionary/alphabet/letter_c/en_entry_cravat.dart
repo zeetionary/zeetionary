@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پارچە ئاوریشمێکی پانی کورت کە پیاوان لە ملی دەبەستن و دەیخەنە ژێر ملیوانەوە"),
           SentencesRow(
             englishText: "He wore a cravat with his suit to the formal event.",
-            kurdishText:
-                "ملپێچێکی لەگەڵ قاتەکەی بەست بۆ بۆنە فەرمییەکە.", // cravat", please follow LX instructions
+            kurdishText: "ملپێچێکی لەگەڵ قاتەکەی بەست بۆ بۆنە فەرمییەکە.",
             onPressedBritish: () => speakcravats1("en-GB"),
             onPressedAmerican: () => speakcravats1("en-US"),
           ),

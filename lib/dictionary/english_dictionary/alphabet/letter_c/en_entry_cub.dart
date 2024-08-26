@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) بەچکە ورچ، شێر، ڕێوی، ھتد"),
           SentencesRow(
             englishText: "A mother bear is fiercely protective of her cubs.",
-            kurdishText:
-                "دایکە ورچ زۆر بە توندی پارێزەری بەچکەکانیەتی.", // cub", please follow LX instructions
+            kurdishText: "دایکە ورچ زۆر بە توندی پارێزەری بەچکەکانیەتی.",
             onPressedBritish: () => speakcubs1("en-GB"),
             onPressedAmerican: () => speakcubs1("en-US"),
           ),

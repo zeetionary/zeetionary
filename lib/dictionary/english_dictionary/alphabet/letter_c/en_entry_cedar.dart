@@ -175,7 +175,7 @@ class EnglishEntrycedar extends StatelessWidget {
                             englishText:
                                 "Cedars typically have needle-like leaves, cone-shaped structures, and durable, aromatic wood.",
                             kurdishText:
-                                "درەختی سیدار گەڵای شێوە دەرزی و پەیکەری شێوە قووچەکی و داری خۆگر و بۆن خۆشیان ھەیە.", // cedar",
+                                "درەختی سیدار گەڵای شێوە دەرزی و پەیکەری شێوە قووچەکی و داری خۆگر و بۆن خۆشیان ھەیە.",
                             onPressedBritish: () => speakcedars1("en-GB"),
                             onPressedAmerican: () => speakcedars1("en-US"),
                           ),

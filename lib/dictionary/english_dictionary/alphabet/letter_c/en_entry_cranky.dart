@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She's a member of a group that promotes cranky ideas about food and exercise.",
             kurdishText:
-                "ئەندامی گرووپێکە کە بیرۆکەی نامۆ بڵاودەکاتەوە سەبارەت بە خواردن و ڕاھێنان.", // cranky", please follow LX instructions
+                "ئەندامی گرووپێکە کە بیرۆکەی نامۆ بڵاودەکاتەوە سەبارەت بە خواردن و ڕاھێنان.",
             onPressedBritish: () => speakcrankys1("en-GB"),
             onPressedAmerican: () => speakcrankys1("en-US"),
           ),

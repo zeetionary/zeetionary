@@ -94,7 +94,7 @@ class EnglishEntrycompleteness extends StatelessWidget {
                             englishText:
                                 "For the sake of completeness, all names are given in full.",
                             kurdishText:
-                                "لەبەر تەواوێتی، ھەموو ناوەکانی بە تەواوی دراون.", // completeness",
+                                "لەبەر تەواوێتی، ھەموو ناوەکانی بە تەواوی دراون.",
                             onPressedBritish: () =>
                                 speakcompletenesss1("en-GB"),
                             onPressedAmerican: () =>

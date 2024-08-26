@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Eagles are often seen soaring high above the crags in the mountains.",
             kurdishText:
-                "داڵ زۆرجار دەبینرێن کە لە بەرزی کێوەکانەوە لە چیاکانەوە بەرزدەبنەوە.", // crag", please follow LX instructions
+                "داڵ زۆرجار دەبینرێن کە لە بەرزی کێوەکانەوە لە چیاکانەوە بەرزدەبنەوە.",
             onPressedBritish: () => speakcrags1("en-GB"),
             onPressedAmerican: () => speakcrags1("en-US"),
           ),

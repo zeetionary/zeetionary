@@ -173,7 +173,7 @@ class EnglishEntrycontribution extends StatelessWidget {
                             englishText:
                                 "All contributions will be gratefully received.",
                             kurdishText:
-                                "ھەموو بەخشینێک بە سوپاسەوە وەردەگیرێن.", // contribution",
+                                "ھەموو بەخشینێک بە سوپاسەوە وەردەگیرێن.",
                             onPressedBritish: () =>
                                 speakcontributions1("en-GB"),
                             onPressedAmerican: () =>

@@ -102,7 +102,7 @@ class EnglishEntryconvent extends StatelessWidget {
                             englishText:
                                 "She entered a convent at the age of sixteen.",
                             kurdishText:
-                                "لە تەمەنی شازدە ساڵیدا چووە دەیرێکەوە.", // convent",
+                                "لە تەمەنی شازدە ساڵیدا چووە دەیرێکەوە.",
                             onPressedBritish: () => speakconvents1("en-GB"),
                             onPressedAmerican: () => speakconvents1("en-US"),
                           ),

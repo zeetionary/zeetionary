@@ -185,7 +185,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                             englishText:
                                 "The theatre has a seating capacity of 2 000.",
                             kurdishText:
-                                "ھۆڵی شانۆکە شوێنی دانیشتنی ٢٠٠٠ کەسی ھەیە.", // capacity
+                                "ھۆڵی شانۆکە شوێنی دانیشتنی ٢٠٠٠ کەسی ھەیە",
                             onPressedBritish: () => speakcapacitys1("en-GB"),
                             onPressedAmerican: () => speakcapacitys1("en-US"),
                           ),

@@ -134,7 +134,7 @@ class EnglishEntrybroil extends StatelessWidget {
                             englishText:
                                 "I'll broil the chicken rather than fry it.",
                             kurdishText:
-                                "گۆشتەکە دەبرژێنم لەجیاتی ئەوەی سووری بکەمەوە.", // broil" as
+                                "گۆشتەکە دەبرژێنم لەجیاتی ئەوەی سووری بکەمەوە.",
                             onPressedBritish: () => speakbroils1("en-GB"),
                             onPressedAmerican: () => speakbroils1("en-US"),
                           ),

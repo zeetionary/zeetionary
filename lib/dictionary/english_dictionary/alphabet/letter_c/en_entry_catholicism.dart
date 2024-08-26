@@ -175,7 +175,7 @@ class EnglishEntrycatholicism extends StatelessWidget {
                             englishText:
                                 "Some Catholics have struggled with Catholicism's efforts to come to terms with modernity.",
                             kurdishText:
-                                "ھەندێک کاسۆلیک کێشەیان ھەیە لەگەڵ ھەوڵەکانی کاسۆلیسیزم بۆ خۆگونجاندن لەگەڵ جیھانی سەردەم.", // Catholicism",
+                                "ھەندێک کاسۆلیک کێشەیان ھەیە لەگەڵ ھەوڵەکانی کاسۆلیسیزم بۆ خۆگونجاندن لەگەڵ جیھانی سەردەم.",
                             onPressedBritish: () => speakcatholicisms1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcatholicisms1("en-US"),

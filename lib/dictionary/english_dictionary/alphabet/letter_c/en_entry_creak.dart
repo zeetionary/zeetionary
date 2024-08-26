@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She heard a floorboard creak upstairs.",
             kurdishText:
-                "گوێی لە دەنگی پارچە تەختەیەک بوو کە لە سەرەوەی جەڕەی دەھات.", // creak", please follow LX instructions
+                "گوێی لە دەنگی پارچە تەختەیەک بوو کە لە سەرەوەی جەڕەی دەھات.",
             onPressedBritish: () => speakcreaks1("en-GB"),
             onPressedAmerican: () => speakcreaks1("en-US"),
           ),

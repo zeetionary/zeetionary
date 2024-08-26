@@ -99,8 +99,7 @@ class EnglishEntrycompartment extends StatelessWidget {
                                   "١. (ناو) یەکێک لە بەشە جیاوازەکانی شتێک ھەیەتی بۆ پاراستنی شت تێیدا"),
                           SentencesRow(
                             englishText: "The desk has a secret compartment.",
-                            kurdishText:
-                                "مێزەکە کەرتێکی نھێنی ھەیە.", // compartment",
+                            kurdishText: "مێزەکە کەرتێکی نھێنی ھەیە.",
                             onPressedBritish: () => speakcompartments1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcompartments1("en-US"),

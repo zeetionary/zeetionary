@@ -93,7 +93,7 @@ class EnglishEntrychrome extends StatelessWidget {
                           SentencesRow(
                             englishText: "The car has bright chrome trim.",
                             kurdishText:
-                                "ئۆتۆمبێلەکە ڕازاندنەوەی درەوشاوەی کرۆمی ھەیە.", // chrome",
+                                "ئۆتۆمبێلەکە ڕازاندنەوەی درەوشاوەی کرۆمی ھەیە.",
                             onPressedBritish: () => speakchromes1("en-GB"),
                             onPressedAmerican: () => speakchromes1("en-US"),
                           ),

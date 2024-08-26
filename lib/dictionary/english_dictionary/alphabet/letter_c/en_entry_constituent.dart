@@ -117,8 +117,7 @@ class EnglishEntryconstituent extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She has the full support of her constituents.",
-                            kurdishText:
-                                "پشتگیری تەواوی دەنگدەرەکانی ھەیە.", // constituent",
+                            kurdishText: "پشتگیری تەواوی دەنگدەرەکانی ھەیە.",
                             onPressedBritish: () => speakconstituents1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconstituents1("en-US"),

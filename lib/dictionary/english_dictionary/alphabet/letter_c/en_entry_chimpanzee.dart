@@ -102,7 +102,7 @@ class EnglishEntrychimpanzee extends StatelessWidget {
                             englishText:
                                 "Researchers observed the chimpanzees using tools to crack open nuts.",
                             kurdishText:
-                                "توێژەران سەرنجی شیمپانزییەکانیان دا کە ئامرازیان بەکاردەھێنا بۆ شکاندنی کاکڵدارەکان.", // chimpanzee",
+                                "توێژەران سەرنجی شیمپانزییەکانیان دا کە ئامرازیان بەکاردەھێنا بۆ شکاندنی کاکڵدارەکان.",
                             onPressedBritish: () => speakchimpanzees1("en-GB"),
                             onPressedAmerican: () => speakchimpanzees1("en-US"),
                           ),

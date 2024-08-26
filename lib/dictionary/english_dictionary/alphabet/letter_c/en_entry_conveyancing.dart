@@ -95,7 +95,7 @@ class EnglishEntryconveyancing extends StatelessWidget {
                             englishText:
                                 "When we bought our house, we did our own conveyancing instead of using a lawyer.",
                             kurdishText:
-                                "کە خانووەکەمان کڕی خۆمان کاری ڕاگوێستنمان کرد لە جیاتی گرتنی پارێزەرێک.", // conveyancing",
+                                "کە خانووەکەمان کڕی خۆمان کاری ڕاگوێستنمان کرد لە جیاتی گرتنی پارێزەرێک.",
                             onPressedBritish: () =>
                                 speakconveyancings1("en-GB"),
                             onPressedAmerican: () =>

@@ -110,7 +110,7 @@ class EnglishEntryconditional extends StatelessWidget {
                             englishText:
                                 "Payment is conditional upon delivery of the goods (= if the goods are not delivered, the money will not be paid).",
                             kurdishText:
-                                "پارەدان مەرجدارە لەگەڵ گەشتنی کاڵاکان (کە کاڵاکان گەشتن ئەو کات پارە دەدەیت).", // conditional",
+                                "پارەدان مەرجدارە لەگەڵ گەشتنی کاڵاکان (کە کاڵاکان گەشتن ئەو کات پارە دەدەیت).",
                             onPressedBritish: () => speakconditionals1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconditionals1("en-US"),

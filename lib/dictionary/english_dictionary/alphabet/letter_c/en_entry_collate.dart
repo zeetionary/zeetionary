@@ -102,7 +102,7 @@ class EnglishEntrycollate extends StatelessWidget {
                             englishText:
                                 "He spent hours collating the data for the report.",
                             kurdishText:
-                                "چەندین کاتژمێری بەسەربرد بە کۆکردنەوەی داتا بۆ ڕاپۆرتەکە.", // collate",
+                                "چەندین کاتژمێری بەسەربرد بە کۆکردنەوەی داتا بۆ ڕاپۆرتەکە.",
                             onPressedBritish: () => speakcollates1("en-GB"),
                             onPressedAmerican: () => speakcollates1("en-US"),
                           ),

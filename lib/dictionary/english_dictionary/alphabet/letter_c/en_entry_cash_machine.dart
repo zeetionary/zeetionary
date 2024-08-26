@@ -181,7 +181,7 @@ class EnglishEntrycashmachine extends StatelessWidget {
                             englishText:
                                 "He withdrew £100 from a cash machine.",
                             kurdishText:
-                                "١٠٠ پاوەندی لە دەزگایەکی پارەدەرەوە ڕآکێشا.", // cash machine",
+                                "١٠٠ پاوەندی لە دەزگایەکی پارەدەرەوە ڕآکێشا.",
                             onPressedBritish: () => speakcashmachines1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcashmachines1("en-US"),

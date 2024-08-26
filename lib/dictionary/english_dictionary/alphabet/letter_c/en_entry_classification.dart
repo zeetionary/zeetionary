@@ -111,7 +111,7 @@ class EnglishEntryclassification extends StatelessWidget {
                             englishText:
                                 "Do you understand the system of classification used in science?",
                             kurdishText:
-                                "لەو سیستەمی پۆلێنکردنە تێدەگەیت کە لە زانستدا بەکاردێت.", // classification",
+                                "لەو سیستەمی پۆلێنکردنە تێدەگەیت کە لە زانستدا بەکاردێت.",
                             onPressedBritish: () =>
                                 speakclassifications1("en-GB"),
                             onPressedAmerican: () =>

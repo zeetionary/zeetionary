@@ -102,7 +102,7 @@ class EnglishEntrycontributory extends StatelessWidget {
                             englishText:
                                 "Alcohol is a contributory factor in 10 per cent of all road accidents.",
                             kurdishText:
-                                "مادەی کحولی فاکتەرێکی یارمەتیدەرە لە ١٠ لە سەدی ھەموو ڕووداوەکانی ھاتووچۆ.", // contributory",
+                                "مادەی کحولی فاکتەرێکی یارمەتیدەرە لە ١٠ لە سەدی ھەموو ڕووداوەکانی ھاتووچۆ.",
                             onPressedBritish: () =>
                                 speakcontributorys1("en-GB"),
                             onPressedAmerican: () =>

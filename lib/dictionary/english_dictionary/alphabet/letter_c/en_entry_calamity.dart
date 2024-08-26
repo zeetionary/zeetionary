@@ -181,7 +181,7 @@ class EnglishEntrycalamity extends StatelessWidget {
                             englishText:
                                 "The country suffered a series of calamities during the 1980s.",
                             kurdishText:
-                                "وڵاتەکە تووشی چەند بەڵایەک بوو لە ساڵانی ١٩٨٠ یەکان.", // calamity
+                                "وڵاتەکە تووشی چەند بەڵایەک بوو لە ساڵانی ١٩٨٠ یەکان",
                             onPressedBritish: () => speakcalamitys1("en-GB"),
                             onPressedAmerican: () => speakcalamitys1("en-US"),
                           ),

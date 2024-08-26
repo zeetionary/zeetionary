@@ -185,7 +185,7 @@ class EnglishEntrycontribute extends StatelessWidget {
                                   "١. (کردار) پێدانی شتێک، بەتایبەتی پارە یان کەلووپەل، بۆ بەدەستھێنان یان بەخشین بە شتێک"),
                           SentencesRow(
                             englishText: "Do you wish to contribute?",
-                            kurdishText: "دەتەوێت ببەخشیت؟", // contribute",
+                            kurdishText: "دەتەوێت ببەخشیت؟",
                             onPressedBritish: () => speakcontributes1("en-GB"),
                             onPressedAmerican: () => speakcontributes1("en-US"),
                           ),

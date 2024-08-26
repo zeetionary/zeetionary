@@ -103,7 +103,7 @@ class EnglishEntrycomputation extends StatelessWidget {
                             englishText:
                                 "All the statistical computations were performed by the new software system.",
                             kurdishText:
-                                "ھەموو خەمڵاندنە ئامارییەکان ئەنجامدارن بە سیستەمە نەرمامێرە تازەکە.", // computation",
+                                "ھەموو خەمڵاندنە ئامارییەکان ئەنجامدارن بە سیستەمە نەرمامێرە تازەکە.",
                             onPressedBritish: () => speakcomputations1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcomputations1("en-US"),

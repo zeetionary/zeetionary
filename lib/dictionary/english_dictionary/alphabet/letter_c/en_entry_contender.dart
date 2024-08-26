@@ -103,7 +103,7 @@ class EnglishEntrycontender extends StatelessWidget {
                             englishText:
                                 "Germany last night emerged as a contender to stage next year's event.",
                             kurdishText:
-                                "ئەڵمانیا شەوی ڕابردوو وەک ڕکابەرێک دەرکەوت بۆ ڕێکخستنی بۆنەکەی ساڵی داھاتوو.", // contender",
+                                "ئەڵمانیا شەوی ڕابردوو وەک ڕکابەرێک دەرکەوت بۆ ڕێکخستنی بۆنەکەی ساڵی داھاتوو.",
                             onPressedBritish: () => speakcontenders1("en-GB"),
                             onPressedAmerican: () => speakcontenders1("en-US"),
                           ),

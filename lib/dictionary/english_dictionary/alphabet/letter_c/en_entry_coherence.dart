@@ -95,7 +95,7 @@ class EnglishEntrycoherence extends StatelessWidget {
                             englishText:
                                 "The points you make are fine, but the whole essay lacks coherence.",
                             kurdishText:
-                                "ئەو خاڵانەی ئاماژەیان پێ دەدەیت باشن، بەڵام تەواوی وتارەکە یەکگرتووی نییە.", // coherence",
+                                "ئەو خاڵانەی ئاماژەیان پێ دەدەیت باشن، بەڵام تەواوی وتارەکە یەکگرتووی نییە.",
                             onPressedBritish: () => speakcoherences1("en-GB"),
                             onPressedAmerican: () => speakcoherences1("en-US"),
                           ),

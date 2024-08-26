@@ -260,8 +260,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شتێکی زیندوو، ڕاستی، یان خەیاڵی کە دەتوانێت بجوڵێت"),
           SentencesRow(
             englishText: "Dogs are more social creatures than cats.",
-            kurdishText:
-                "سەگ گیانلەبەری کۆمەڵایەتیترە  وەک لە پشیلە.", // creature", please follow LX instructions
+            kurdishText: "سەگ گیانلەبەری کۆمەڵایەتیترە  وەک لە پشیلە.",
             onPressedBritish: () => speakcreatures1("en-GB"),
             onPressedAmerican: () => speakcreatures1("en-US"),
           ),

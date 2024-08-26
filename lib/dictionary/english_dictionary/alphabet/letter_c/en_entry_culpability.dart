@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The punishment should be proportionate to the gravity of the offence and the degree of culpability of the offender.",
             kurdishText:
-                "سزاکە دەبێت ھاوڕێژە بێت لەگەڵ سەختی تاوانەکە و ئاستی بەرپرسیارییەتی تاوانبارەکە.", // culpability", please follow LX instructions
+                "سزاکە دەبێت ھاوڕێژە بێت لەگەڵ سەختی تاوانەکە و ئاستی بەرپرسیارییەتی تاوانبارەکە.",
             onPressedBritish: () => speakculpabilitys1("en-GB"),
             onPressedAmerican: () => speakculpabilitys1("en-US"),
           ),

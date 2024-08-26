@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە سواری ئەسپێک دەکات و کاری ئەوەیە کە ئاگای لە گاگەلێک بێت لە بەشی ڕۆژئاوای ئەمریکا؛ یان کارەکتەرێکی وا کە لە فیلمێکدا پیشان دەدرێت"),
           SentencesRow(
             englishText: "He was wearing jeans and cowboy boots.",
-            kurdishText:
-                "کابۆ و پووتی گالەوەڕێنی لەبەرکردبوو.", // cowboy", please follow LX instructions
+            kurdishText: "کابۆ و پووتی گالەوەڕێنی لەبەرکردبوو.",
             onPressedBritish: () => speakcowboys1("en-GB"),
             onPressedAmerican: () => speakcowboys1("en-US"),
           ),

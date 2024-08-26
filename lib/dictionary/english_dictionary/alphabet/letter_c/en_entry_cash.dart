@@ -178,7 +178,7 @@ class EnglishEntrycash extends StatelessWidget {
                               text: "١. (ناو) پارەی دراو یان کاغەز"),
                           SentencesRow(
                             englishText: "How much cash do you have on you?",
-                            kurdishText: "چەند پارەت پێیە؟", // cash",
+                            kurdishText: "چەند پارەت پێیە؟",
                             onPressedBritish: () => speakcashs1("en-GB"),
                             onPressedAmerican: () => speakcashs1("en-US"),
                           ),

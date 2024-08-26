@@ -104,7 +104,7 @@ class EnglishEntrycontradictory extends StatelessWidget {
                             englishText:
                                 "The advice I received was often contradictory.",
                             kurdishText:
-                                "ئەو ڕاوێژانەی وەرمدەگرتن زۆرجار پێک‌ناکۆک بوون.", // contradictory",
+                                "ئەو ڕاوێژانەی وەرمدەگرتن زۆرجار پێک‌ناکۆک بوون.",
                             onPressedBritish: () =>
                                 speakcontradictorys1("en-GB"),
                             onPressedAmerican: () =>

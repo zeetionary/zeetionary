@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The plot of the novel stretches credulity to the limit (= it is almost impossible to believe).",
-            kurdishText:
-                "چیرۆکی ڕۆمانەکە خۆشباوەڕی تاوەکو ئەو پەڕی دەبات.", // credulity", please follow LX instructions
+            kurdishText: "چیرۆکی ڕۆمانەکە خۆشباوەڕی تاوەکو ئەو پەڕی دەبات.",
             onPressedBritish: () => speakcredulitys1("en-GB"),
             onPressedAmerican: () => speakcredulitys1("en-US"),
           ),

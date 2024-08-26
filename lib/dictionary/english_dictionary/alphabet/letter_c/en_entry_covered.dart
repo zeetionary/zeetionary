@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ھەبوونی چینێک یان ڕێژەیەک لە شتێک لەسەری"),
           SentencesRow(
             englishText: "His face was covered in blood.",
-            kurdishText:
-                "ڕووخساری بە خوێن داپۆشرابوو.", // covered", please follow LX instructions
+            kurdishText: "ڕووخساری بە خوێن داپۆشرابوو.",
             onPressedBritish: () => speakcovereds1("en-GB"),
             onPressedAmerican: () => speakcovereds1("en-US"),
           ),

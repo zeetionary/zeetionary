@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "After the recent scandal, the government has lost all credibility.",
             kurdishText:
-                "لە دوای ئابڕووچوونی ئەم دواییە، حکومەت ھەموو متمانەیەکی لەدەستداوە.", // credibility", please follow LX instructions
+                "لە دوای ئابڕووچوونی ئەم دواییە، حکومەت ھەموو متمانەیەکی لەدەستداوە.",
             onPressedBritish: () => speakcredibilitys1("en-GB"),
             onPressedAmerican: () => speakcredibilitys1("en-US"),
           ),

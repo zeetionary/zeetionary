@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "These exercises aim to counteract the effects of stress and tension.",
             kurdishText:
-                "ئەم ڕاھێنانانە ئامانجیانە کاریگەری سترێس و ناڕەحەتی کەم بکەنەوە.", // counteract", please follow LX instructions
+                "ئەم ڕاھێنانانە ئامانجیانە کاریگەری سترێس و ناڕەحەتی کەم بکەنەوە.",
             onPressedBritish: () => speakcounteracts1("en-GB"),
             onPressedAmerican: () => speakcounteracts1("en-US"),
           ),

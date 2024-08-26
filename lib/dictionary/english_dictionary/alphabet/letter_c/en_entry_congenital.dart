@@ -117,7 +117,7 @@ class EnglishEntrycongenital extends StatelessWidget {
                             englishText:
                                 "Children born to mothers who smoked were at risk of congenital heart disease.",
                             kurdishText:
-                                "ئەو منداڵانەی کە لەدایک دەبن لەو دایکانەی جگەرەکێشن لە مەترسی نەخۆشی زگماکی دڵن.", // congenital",
+                                "ئەو منداڵانەی کە لەدایک دەبن لەو دایکانەی جگەرەکێشن لە مەترسی نەخۆشی زگماکی دڵن.",
                             onPressedBritish: () => speakcongenitals1("en-GB"),
                             onPressedAmerican: () => speakcongenitals1("en-US"),
                           ),

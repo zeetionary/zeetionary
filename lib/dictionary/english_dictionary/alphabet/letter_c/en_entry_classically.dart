@@ -115,8 +115,7 @@ class EnglishEntryclassically extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەکی سادە و جوان کە خەڵکی ھەمیشە حەزیان لێیە"),
                           SentencesRow(
                             englishText: "Her face is classically beautiful.",
-                            kurdishText:
-                                "ڕووخساری بە شێوەیەکی سادە جوانە.", // classically",
+                            kurdishText: "ڕووخساری بە شێوەیەکی سادە جوانە.",
                             onPressedBritish: () => speakclassicallys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakclassicallys1("en-US"),

@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کێکێکی تەنک و تەختی بازنەیی کە لە تێکەڵەیەک لە ئارد و ھێلکە و شیر درووست دەکرێت و لە ھەردوو لاوە سور دەکرێتەوە، بەزۆری لە ئەمریکا بۆ نانی بەیانی بە گەرمی دەخورێت، لە بەریتانیا یان وەک شیرینی لەگەڵ شەکر و مرەبا و ھتد یان وەک ژەمە خواردنی سەرەکی لەگەڵ گۆشت و پەنیر و ھتد دەخورێت."),
           SentencesRow(
             englishText: "Do you want a sweet pancake or a savoury one?",
-            kurdishText:
-                "شلکێنەیەکی شیرینت دەوێت یان دانەیەکی شۆر؟", // pancake", please follow LX instructions
+            kurdishText: "شلکێنەیەکی شیرینت دەوێت یان دانەیەکی شۆر؟",
             onPressedBritish: () => speakpancakes1("en-GB"),
             onPressedAmerican: () => speakpancakes1("en-US"),
           ),

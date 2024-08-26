@@ -172,7 +172,7 @@ class EnglishEntrycontinuous extends StatelessWidget {
                             englishText:
                                 "Recovery after the accident will be a continuous process that may take several months.",
                             kurdishText:
-                                "چاکبوونەوەی دوای ڕووداوەکە پڕۆسەیەکی بەردەوام دەبێت کە ڕەنگە چەند مانگێکی پێبچێت.", // continuous",
+                                "چاکبوونەوەی دوای ڕووداوەکە پڕۆسەیەکی بەردەوام دەبێت کە ڕەنگە چەند مانگێکی پێبچێت.",
                             onPressedBritish: () => speakcontinuouss1("en-GB"),
                             onPressedAmerican: () => speakcontinuouss1("en-US"),
                           ),

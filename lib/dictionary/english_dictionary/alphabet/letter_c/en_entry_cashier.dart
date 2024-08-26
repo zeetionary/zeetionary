@@ -174,7 +174,7 @@ class EnglishEntrycashier extends StatelessWidget {
                             englishText:
                                 "The cashier greeted each customer warmly.",
                             kurdishText:
-                                "کاشێرەکە بەگەرمی پێشوازی لە ھەموو کڕیارێک کرد.", // cashier",
+                                "کاشێرەکە بەگەرمی پێشوازی لە ھەموو کڕیارێک کرد.",
                             onPressedBritish: () => speakcashiers1("en-GB"),
                             onPressedAmerican: () => speakcashiers1("en-US"),
                           ),

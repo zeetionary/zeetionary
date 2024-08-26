@@ -291,7 +291,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I crept up the stairs, trying not to wake my parents.",
             kurdishText:
-                "بە پلەکانەکاندا بە پێ‌خشکە چوومە سەرەوە و ھەوڵمدا دایک و باوکم ھەڵنەسێنم.", // creep", please follow LX instructions
+                "بە پلەکانەکاندا بە پێ‌خشکە چوومە سەرەوە و ھەوڵمدا دایک و باوکم ھەڵنەسێنم.",
             onPressedBritish: () => speakcreeps1("en-GB"),
             onPressedAmerican: () => speakcreeps1("en-US"),
           ),

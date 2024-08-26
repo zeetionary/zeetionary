@@ -137,8 +137,7 @@ class EnglishEntrybrowbeat extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They were browbeaten into accepting the offer.",
-                            kurdishText:
-                                "بەزۆر ڕازیکران ئۆفەرەکە پەسەند بکەن.", // browbeat" as
+                            kurdishText: "بەزۆر ڕازیکران ئۆفەرەکە پەسەند بکەن.",
                             onPressedBritish: () => speakbrowbeats1("en-GB"),
                             onPressedAmerican: () => speakbrowbeats1("en-US"),
                           ),

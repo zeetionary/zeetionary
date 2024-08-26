@@ -101,7 +101,7 @@ class EnglishEntrycopulate extends StatelessWidget {
                             englishText:
                                 "Birds copulate during mating season to fertilize eggs.",
                             kurdishText:
-                                "باڵندەکان لە دەمی وەرزی جووتبووندا جووت دەبن بۆ پیتاندنی ھێلکە.", // copulate",
+                                "باڵندەکان لە دەمی وەرزی جووتبووندا جووت دەبن بۆ پیتاندنی ھێلکە.",
                             onPressedBritish: () => speakcopulates1("en-GB"),
                             onPressedAmerican: () => speakcopulates1("en-US"),
                           ),

@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) پەیوەندیدار بە چێشتلێنان و خواردن"),
           SentencesRow(
             englishText: "Savour the culinary delights of Mexico.",
-            kurdishText:
-                "تامی خۆشییەکانی خواردنی مەکسیک بکە.", // culinary", please follow LX instructions
+            kurdishText: "تامی خۆشییەکانی خواردنی مەکسیک بکە.",
             onPressedBritish: () => speakculinarys1("en-GB"),
             onPressedAmerican: () => speakculinarys1("en-US"),
           ),

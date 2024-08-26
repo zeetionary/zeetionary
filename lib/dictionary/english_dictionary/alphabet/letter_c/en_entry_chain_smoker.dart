@@ -92,7 +92,7 @@ class EnglishEntrychainsmoker extends StatelessWidget {
                             englishText:
                                 "He used to be a chain-smoker, but he has now given up smoking.",
                             kurdishText:
-                                "پێشووتر ئاڵوودەی جگەرە بوو، بەڵام لە ئێستادا تەرکی کردووە.", // chain-smoker",
+                                "پێشووتر ئاڵوودەی جگەرە بوو، بەڵام لە ئێستادا تەرکی کردووە.",
                             onPressedBritish: () => speakchainsmokers1("en-GB"),
                             onPressedAmerican: () =>
                                 speakchainsmokers1("en-US"),

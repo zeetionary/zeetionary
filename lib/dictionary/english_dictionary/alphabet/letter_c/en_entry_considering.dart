@@ -118,7 +118,7 @@ class EnglishEntryconsidering extends StatelessWidget {
                             englishText:
                                 "Considering the weather, we got here pretty quickly.",
                             kurdishText:
-                                "بە لەبەرچاوگرتنی کەشووھەواکە، زوو گەشتینە ئێرە.", // considering",
+                                "بە لەبەرچاوگرتنی کەشووھەواکە، زوو گەشتینە ئێرە.",
                             onPressedBritish: () => speakconsiderings1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsiderings1("en-US"),

@@ -174,8 +174,7 @@ class EnglishEntrycalmdown extends StatelessWidget {
 ١. (کاری لێکدراو) ئارامبوونەوە؛ دامرکاندنەوە یان ئارامکردنەوەی کەسێک"""),
                           SentencesRow(
                             englishText: "Look, calm down! We'll find her.",
-                            kurdishText:
-                                "سەیرکە، ئارامبەوە! دەیدۆزینەوە.", // calm down
+                            kurdishText: "سەیرکە، ئارامبەوە! دەیدۆزینەوە.",
                             onPressedBritish: () => speakcalmdowns1("en-GB"),
                             onPressedAmerican: () => speakcalmdowns1("en-US"),
                           ),

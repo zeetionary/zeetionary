@@ -324,8 +324,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) پیاڵە بۆ خواردنەوەی چا، قاوە، ھتد"),
           SentencesRow(
             englishText: "He filled the cup with water.",
-            kurdishText:
-                "پیاڵەکەی پڕکرد لە ئاو.", // cup", please follow LX instructions
+            kurdishText: "پیاڵەکەی پڕکرد لە ئاو.",
             onPressedBritish: () => speakcups1("en-GB"),
             onPressedAmerican: () => speakcups1("en-US"),
           ),

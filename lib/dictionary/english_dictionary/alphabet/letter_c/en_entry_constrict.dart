@@ -116,7 +116,7 @@ class EnglishEntryconstrict extends StatelessWidget {
                             englishText:
                                 "Her throat constricted and she swallowed hard.",
                             kurdishText:
-                                "قوڕگی تەسک بووەوە و بە ئاستەنگ شتی قوتدەدا.", // constrict",
+                                "قوڕگی تەسک بووەوە و بە ئاستەنگ شتی قوتدەدا.",
                             onPressedBritish: () => speakconstricts1("en-GB"),
                             onPressedAmerican: () => speakconstricts1("en-US"),
                           ),

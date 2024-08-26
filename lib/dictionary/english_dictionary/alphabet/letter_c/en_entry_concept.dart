@@ -109,8 +109,7 @@ class EnglishEntryconcept extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Culture is a fairly nebulous concept.",
-                            kurdishText:
-                                "کەلتوور چەمکێکی تا ڕادەیەک ناڕوونە.", // concept",
+                            kurdishText: "کەلتوور چەمکێکی تا ڕادەیەک ناڕوونە.",
                             onPressedBritish: () => speakconcepts1("en-GB"),
                             onPressedAmerican: () => speakconcepts1("en-US"),
                           ),

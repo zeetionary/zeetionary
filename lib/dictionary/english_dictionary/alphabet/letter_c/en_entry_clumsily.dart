@@ -118,7 +118,7 @@ class EnglishEntryclumsily extends StatelessWidget {
                             englishText:
                                 "He tripped clumsily on the rug and fell flat on his face.",
                             kurdishText:
-                                "ھەڵەشانە لەسەر مافوورەکە کەوت و ڕاست لەسەر دەم کەوت.", // clumsily",
+                                "ھەڵەشانە لەسەر مافوورەکە کەوت و ڕاست لەسەر دەم کەوت.",
                             onPressedBritish: () => speakclumsilys1("en-GB"),
                             onPressedAmerican: () => speakclumsilys1("en-US"),
                           ),

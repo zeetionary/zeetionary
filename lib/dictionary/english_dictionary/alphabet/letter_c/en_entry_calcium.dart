@@ -177,7 +177,7 @@ class EnglishEntrycalcium extends StatelessWidget {
                             englishText:
                                 "Milk is a rich source of calcium, promoting strong bones and teeth.",
                             kurdishText:
-                                "شیر سەرچاوەیەکی بەھێزی کالسیۆمە کە ئێسک و ددان بەھێز دەکات.", // calcium
+                                "شیر سەرچاوەیەکی بەھێزی کالسیۆمە کە ئێسک و ددان بەھێز دەکات",
                             onPressedBritish: () => speakcalciums1("en-GB"),
                             onPressedAmerican: () => speakcalciums1("en-US"),
                           ),

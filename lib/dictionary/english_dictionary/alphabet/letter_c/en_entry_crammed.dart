@@ -242,8 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پڕ لە خەڵک یان شت"),
           SentencesRow(
             englishText: "All the shelves were crammed with books.",
-            kurdishText:
-                "ھەموو ڕەفەکان بە کتێب پڕ لە کتێب بوون.", // crammed", please follow LX instructions
+            kurdishText: "ھەموو ڕەفەکان بە کتێب پڕ لە کتێب بوون.",
             onPressedBritish: () => speakcrammeds1("en-GB"),
             onPressedAmerican: () => speakcrammeds1("en-US"),
           ),

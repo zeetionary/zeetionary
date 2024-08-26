@@ -147,7 +147,7 @@ class EnglishEntrycondemn extends StatelessWidget {
                             englishText:
                                 "The government issued a statement condemning the killings.",
                             kurdishText:
-                                "حکومەت بەیاننامەیەکی بڵاوکردەوە و کوشتنەکانی ئیدانە کرد.", // condemn",
+                                "حکومەت بەیاننامەیەکی بڵاوکردەوە و کوشتنەکانی ئیدانە کرد.",
                             onPressedBritish: () => speakcondemns1("en-GB"),
                             onPressedAmerican: () => speakcondemns1("en-US"),
                           ),

@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The property will be sold to pay off their creditors.",
-            kurdishText:
-                "زەوییەکە دەفرۆشرێت بۆ دانەوەی قەرزی خاوەن قەرزەکان.", // creditor", please follow LX instructions
+            kurdishText: "زەوییەکە دەفرۆشرێت بۆ دانەوەی قەرزی خاوەن قەرزەکان.",
             onPressedBritish: () => speakcreditors1("en-GB"),
             onPressedAmerican: () => speakcreditors1("en-US"),
           ),

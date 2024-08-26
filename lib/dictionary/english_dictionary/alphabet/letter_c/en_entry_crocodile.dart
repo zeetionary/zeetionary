@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) تیمساح؛ خشۆکێکی گەورە کە پێستێکی ڕەقی ھەیە و لە ناوچە گەرم و شێدارەکانی جیھان لە نزیک ڕووبار و دەریاچەکاندا دەژی؛ پێستی تیمساح کە دەکرێتە چەرم"),
           SentencesRow(
             englishText: "He lost an arm to a crocodile.",
-            kurdishText:
-                "باڵێکی بەھۆی تیمساحەوە لەدەستدا.", // crocodile", please follow LX instructions
+            kurdishText: "باڵێکی بەھۆی تیمساحەوە لەدەستدا.",
             onPressedBritish: () => speakcrocodiles1("en-GB"),
             onPressedAmerican: () => speakcrocodiles1("en-US"),
           ),

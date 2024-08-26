@@ -138,7 +138,7 @@ class EnglishEntrybreathtaking extends StatelessWidget {
                             englishText:
                                 "The scene was one of breathtaking beauty.",
                             kurdishText:
-                                "دیمەنەکە جوانییەکی ناوازەی بوو.", // breathtaking" as
+                                "دیمەنەکە جوانییەکی ناوازەی بوو.",
                             onPressedBritish: () =>
                                 speakbreathtakings1("en-GB"),
                             onPressedAmerican: () =>

@@ -94,7 +94,7 @@ class EnglishEntryclingfilm extends StatelessWidget {
                             englishText:
                                 "I've put some cling film over the salad.",
                             kurdishText:
-                                "ھەندێک بەرگەخۆراکم لە زەڵاتەکە پێچاوە.", // cling film",
+                                "ھەندێک بەرگەخۆراکم لە زەڵاتەکە پێچاوە.",
                             onPressedBritish: () => speakclingfilms1("en-GB"),
                             onPressedAmerican: () => speakclingfilms1("en-US"),
                           ),

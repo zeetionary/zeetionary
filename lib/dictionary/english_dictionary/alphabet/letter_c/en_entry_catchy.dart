@@ -180,7 +180,7 @@ class EnglishEntrycatchy extends StatelessWidget {
                             englishText:
                                 "The best ads attract the internet surfers with snappy graphics and catchy slogans.",
                             kurdishText:
-                                "باشترین ڕیکلامەکان سەرنجی بەکارھێنەرانی ئینتەرنێت ڕادەکێشن بە گرافیکی سەرنجڕاکێش و سلۆگانی خۆش.", // catchy",
+                                "باشترین ڕیکلامەکان سەرنجی بەکارھێنەرانی ئینتەرنێت ڕادەکێشن بە گرافیکی سەرنجڕاکێش و سلۆگانی خۆش.",
                             onPressedBritish: () => speakcatchys1("en-GB"),
                             onPressedAmerican: () => speakcatchys1("en-US"),
                           ),

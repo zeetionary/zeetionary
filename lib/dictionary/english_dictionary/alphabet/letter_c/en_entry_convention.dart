@@ -156,7 +156,7 @@ class EnglishEntryconvention extends StatelessWidget {
                             englishText:
                                 "She is a young woman who enjoys flouting conventions.",
                             kurdishText:
-                                "ژنێکی گەنجە کە حەزی بە شکاندنی نەریتەکانە.", // convention",
+                                "ژنێکی گەنجە کە حەزی بە شکاندنی نەریتەکانە.",
                             onPressedBritish: () => speakconventions1("en-GB"),
                             onPressedAmerican: () => speakconventions1("en-US"),
                           ),

@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The strong smell of creosote filled the air around the factory.",
-            kurdishText:
-                "بۆنی بەھێزی ڕۆنەخەڵووز ھەوای دەوری کارگەکەی تەنیبوو.", // creosote", please follow LX instructions
+            kurdishText: "بۆنی بەھێزی ڕۆنەخەڵووز ھەوای دەوری کارگەکەی تەنیبوو.",
             onPressedBritish: () => speakcreosotes1("en-GB"),
             onPressedAmerican: () => speakcreosotes1("en-US"),
           ),

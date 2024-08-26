@@ -179,8 +179,7 @@ class EnglishEntrycard extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The model of the building was made of card.",
-                            kurdishText:
-                                "نموونەی بیناکە لەسەر کارد کێشرا.", // card",
+                            kurdishText: "نموونەی بیناکە لەسەر کارد کێشرا.",
                             onPressedBritish: () => speakcards1("en-GB"),
                             onPressedAmerican: () => speakcards1("en-US"),
                           ),

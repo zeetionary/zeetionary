@@ -109,7 +109,7 @@ class EnglishEntrycongestion extends StatelessWidget {
                             englishText:
                                 "Parking near the school causes severe traffic congestion.",
                             kurdishText:
-                                "وەستانی ئۆتۆمبێل لە نزیک قوتابخانەکە دەبێتە ھۆی قەرەباڵغی ھاتووچۆی زۆر.", // congestion",
+                                "وەستانی ئۆتۆمبێل لە نزیک قوتابخانەکە دەبێتە ھۆی قەرەباڵغی ھاتووچۆی زۆر.",
                             onPressedBritish: () => speakcongestions1("en-GB"),
                             onPressedAmerican: () => speakcongestions1("en-US"),
                           ),

@@ -102,7 +102,7 @@ class EnglishEntrycinder extends StatelessWidget {
                             englishText:
                                 "The logs had turned into blackened cinders.",
                             kurdishText:
-                                "کۆتلەدارەکان بووبوون بە بزووتی ڕەشەوەبوو.", // cinder",
+                                "کۆتلەدارەکان بووبوون بە بزووتی ڕەشەوەبوو.",
                             onPressedBritish: () => speakcinders1("en-GB"),
                             onPressedAmerican: () => speakcinders1("en-US"),
                           ),

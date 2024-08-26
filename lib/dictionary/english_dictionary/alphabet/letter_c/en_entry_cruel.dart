@@ -258,8 +258,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) دڕندە؛ ھەبوونی حەزی ئازاردانی کەسانی دیکە"),
           SentencesRow(
             englishText: "He was known to be a cruel dictator.",
-            kurdishText:
-                "بە دیکتاتۆرێکی دڕندە ناسرا بوو.", // cruel", please follow LX instructions
+            kurdishText: "بە دیکتاتۆرێکی دڕندە ناسرا بوو.",
             onPressedBritish: () => speakcruels1("en-GB"),
             onPressedAmerican: () => speakcruels1("en-US"),
           ),

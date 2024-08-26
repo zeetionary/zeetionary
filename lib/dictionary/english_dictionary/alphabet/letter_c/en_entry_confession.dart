@@ -130,7 +130,7 @@ class EnglishEntryconfession extends StatelessWidget {
                             englishText:
                                 "After hours of questioning by police, she made a full confession.",
                             kurdishText:
-                                "لە دوای چەندین کاتژمێر لەلایەن پۆلیسەوە، دانپیانانی تەواوی ئەنجمدا.", // confession",
+                                "لە دوای چەندین کاتژمێر لەلایەن پۆلیسەوە، دانپیانانی تەواوی ئەنجمدا.",
                             onPressedBritish: () => speakconfessions1("en-GB"),
                             onPressedAmerican: () => speakconfessions1("en-US"),
                           ),

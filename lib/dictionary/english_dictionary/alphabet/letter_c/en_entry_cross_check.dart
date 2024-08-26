@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) دڵنیایی کردنەوەی ئەوەی کە زانیاری، ئامار، ھتد درووستە بە بەکارھێنانی سیستەم یان بیردۆزی جیاواز"),
           SentencesRow(
             englishText: "Cross-check your answers with a calculator.",
-            kurdishText:
-                "بە ژمێرەرێک دڵنیایی لە وەڵامەکانت بکەوە.", // cross-check", please follow LX instructions
+            kurdishText: "بە ژمێرەرێک دڵنیایی لە وەڵامەکانت بکەوە.",
             onPressedBritish: () => speakcrosschecks1("en-GB"),
             onPressedAmerican: () => speakcrosschecks1("en-US"),
           ),

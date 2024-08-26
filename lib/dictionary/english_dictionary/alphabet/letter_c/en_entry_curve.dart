@@ -288,8 +288,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The pattern was made up of straight lines and curves.",
-            kurdishText:
-                "شێوەکە لە ڕاستەھێڵ و چەماوە پێکھاتبوو.", // curve", please follow LX instructions
+            kurdishText: "شێوەکە لە ڕاستەھێڵ و چەماوە پێکھاتبوو.",
             onPressedBritish: () => speakcurves1("en-GB"),
             onPressedAmerican: () => speakcurves1("en-US"),
           ),

@@ -180,7 +180,7 @@ class EnglishEntrycassette extends StatelessWidget {
                             englishText:
                                 "He inserted the cassette and pressed the 'play' button.",
                             kurdishText:
-                                "کاسێتەکەی خستەسەر و دەستی نا بە دووگمەی play دا.", // cassette",
+                                "کاسێتەکەی خستەسەر و دەستی نا بە دووگمەی play دا.",
                             onPressedBritish: () => speakcassettes1("en-GB"),
                             onPressedAmerican: () => speakcassettes1("en-US"),
                           ),

@@ -92,8 +92,7 @@ class EnglishEntrycleanse extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The wound was then cleansed and dressed.",
-                            kurdishText:
-                                "برینەکە دواتر پاککرایەوە و پێچرا.", // cleanse",
+                            kurdishText: "برینەکە دواتر پاککرایەوە و پێچرا.",
                             onPressedBritish: () => speakcleanses1("en-GB"),
                             onPressedAmerican: () => speakcleanses1("en-US"),
                           ),

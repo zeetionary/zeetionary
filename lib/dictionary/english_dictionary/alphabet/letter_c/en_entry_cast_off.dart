@@ -174,8 +174,7 @@ class EnglishEntrycastoff extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She used to wear her sister’s cast-offs.",
-                            kurdishText:
-                                "جاران جلی کۆنت خوشکەکەی لەبەردەکرد.", // cast-off",
+                            kurdishText: "جاران جلی کۆنت خوشکەکەی لەبەردەکرد.",
                             onPressedBritish: () => speakcastoffs1("en-GB"),
                             onPressedAmerican: () => speakcastoffs1("en-US"),
                           ),

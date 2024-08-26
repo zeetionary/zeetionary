@@ -95,7 +95,7 @@ class EnglishEntryclosedown extends StatelessWidget {
                             englishText:
                                 "The partial government close-down is now in a 20th day.",
                             kurdishText:
-                                "ئیفلیجکردنی بەشێکی حکومەت ئێستا لە ٢٠ـھەمین ڕۆژی دایە.", // close-down",
+                                "ئیفلیجکردنی بەشێکی حکومەت ئێستا لە ٢٠ـھەمین ڕۆژی دایە.",
                             onPressedBritish: () => speakclosedowns1("en-GB"),
                             onPressedAmerican: () => speakclosedowns1("en-US"),
                           ),

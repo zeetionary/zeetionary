@@ -150,8 +150,7 @@ class EnglishEntrychuck extends StatelessWidget {
                               text: "١. (کردار) فڕێدانی شتێک بە کەمتەرخەمانە"),
                           SentencesRow(
                             englishText: "He chucked the paper in a drawer.",
-                            kurdishText:
-                                "پەڕەکەی فڕێدایە چەکمەجەکەوە.", // chuck",
+                            kurdishText: "پەڕەکەی فڕێدایە چەکمەجەکەوە.",
                             onPressedBritish: () => speakchucks1("en-GB"),
                             onPressedAmerican: () => speakchucks1("en-US"),
                           ),

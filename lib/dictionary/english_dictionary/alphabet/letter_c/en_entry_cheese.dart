@@ -118,7 +118,7 @@ class EnglishEntrycheese extends StatelessWidget {
                             englishText:
                                 "Would you like a slice/piece of cheese with your bread?",
                             kurdishText:
-                                "حەزت بە پارچەیەک پەنیرە لەسەر نانەکەت؟", // cheese",
+                                "حەزت بە پارچەیەک پەنیرە لەسەر نانەکەت؟",
                             onPressedBritish: () => speakcheeses1("en-GB"),
                             onPressedAmerican: () => speakcheeses1("en-US"),
                           ),

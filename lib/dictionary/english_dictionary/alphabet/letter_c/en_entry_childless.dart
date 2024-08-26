@@ -94,7 +94,7 @@ class EnglishEntrychildless extends StatelessWidget {
                             englishText:
                                 "Couples who are childless can feel excluded from the rest of society.",
                             kurdishText:
-                                "ئەو خۆشەویستانەی کە بێ‌منداڵن دەکرێت ھەست بە وەلانراوی بکەن لەلایەن بەشەکەی دیکەی کۆمەڵگەوە.", // childless",
+                                "ئەو خۆشەویستانەی کە بێ‌منداڵن دەکرێت ھەست بە وەلانراوی بکەن لەلایەن بەشەکەی دیکەی کۆمەڵگەوە.",
                             onPressedBritish: () => speakchildlesss1("en-GB"),
                             onPressedAmerican: () => speakchildlesss1("en-US"),
                           ),

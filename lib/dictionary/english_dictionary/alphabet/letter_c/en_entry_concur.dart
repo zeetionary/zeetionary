@@ -101,7 +101,7 @@ class EnglishEntryconcur extends StatelessWidget {
                             englishText:
                                 "Historians have concurred with each other in this view.",
                             kurdishText:
-                                "مێژوونووسان لەگەڵ یەکدی کۆکن لەم ڕوانگەوە.", // concur",
+                                "مێژوونووسان لەگەڵ یەکدی کۆکن لەم ڕوانگەوە.",
                             onPressedBritish: () => speakconcurs1("en-GB"),
                             onPressedAmerican: () => speakconcurs1("en-US"),
                           ),

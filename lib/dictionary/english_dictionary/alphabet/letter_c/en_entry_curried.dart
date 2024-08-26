@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) خواردنێک کە لە سۆسێکی تووندا لێنراوە"),
           SentencesRow(
             englishText: "The carrots were delicious curried.",
-            kurdishText:
-                "گێزەرەکان بەلەزەت بە سۆسەوە لێنرابوون.", // curried", please follow LX instructions
+            kurdishText: "گێزەرەکان بەلەزەت بە سۆسەوە لێنرابوون.",
             onPressedBritish: () => speakcurrieds1("en-GB"),
             onPressedAmerican: () => speakcurrieds1("en-US"),
           ),

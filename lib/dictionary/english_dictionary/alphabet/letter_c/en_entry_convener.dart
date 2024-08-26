@@ -95,7 +95,7 @@ class EnglishEntryconvener extends StatelessWidget {
                             englishText:
                                 "He is national convener of the Campaign Against Child Labour.",
                             kurdishText:
-                                "سازدەری نیشتیمانی کەمپینی دژ بە کارکردنی منداڵانە.", // convener",
+                                "سازدەری نیشتیمانی کەمپینی دژ بە کارکردنی منداڵانە.",
                             onPressedBritish: () => speakconveners1("en-GB"),
                             onPressedAmerican: () => speakconveners1("en-US"),
                           ),

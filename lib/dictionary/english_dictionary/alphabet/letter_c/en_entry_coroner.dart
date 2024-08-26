@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە لێکۆڵینەوە لە ھۆکاری مردنی لەناکاو، توندوتیژانە، یان گوماناوی دەکات"),
           SentencesRow(
             englishText: "The coroner issued a burial certificate.",
-            kurdishText:
-                "لێکۆڵەرەکە مۆڵەتی ناشتنی دا.", // coroner", please follow LX instructions
+            kurdishText: "لێکۆڵەرەکە مۆڵەتی ناشتنی دا.",
             onPressedBritish: () => speakcoroners1("en-GB"),
             onPressedAmerican: () => speakcoroners1("en-US"),
           ),

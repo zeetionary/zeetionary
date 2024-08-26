@@ -95,7 +95,7 @@ class EnglishEntrychalet extends StatelessWidget {
                             englishText:
                                 "The family rented a cozy chalet for their winter vacation in the mountains.",
                             kurdishText:
-                                "خێزانەکە کۆخەوارێکی گەرم و نەرمیان بە کرێ گرت بۆ پشووی زستانەیان لە چیاکان.", // chalet",
+                                "خێزانەکە کۆخەوارێکی گەرم و نەرمیان بە کرێ گرت بۆ پشووی زستانەیان لە چیاکان.",
                             onPressedBritish: () => speakchalets1("en-GB"),
                             onPressedAmerican: () => speakchalets1("en-US"),
                           ),

@@ -170,7 +170,7 @@ class EnglishEntrycontrast extends StatelessWidget {
                             englishText:
                                 "The two cities make an interesting contrast.",
                             kurdishText:
-                                "دوو شارەکە بەراوردکردنێکی سەرنجڕاکێش درووست دەکەن.", // contrast",
+                                "دوو شارەکە بەراوردکردنێکی سەرنجڕاکێش درووست دەکەن.",
                             onPressedBritish: () => speakcontrasts1("en-GB"),
                             onPressedAmerican: () => speakcontrasts1("en-US"),
                           ),

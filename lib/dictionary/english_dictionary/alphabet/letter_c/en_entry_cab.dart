@@ -176,7 +176,7 @@ class EnglishEntrycab extends StatelessWidget {
                           SentencesRow(
                             englishText: "I'll call you a cab.",
                             kurdishText:
-                                "پەیوەندی بە تەکسییەکەوە دەکەم بۆت.", // cab
+                                "پەیوەندی بە تەکسییەکەوە دەکەم بۆت",
                             onPressedBritish: () => speakcabs1("en-GB"),
                             onPressedAmerican: () => speakcabs1("en-US"),
                           ),

@@ -95,7 +95,7 @@ class EnglishEntrycollector extends StatelessWidget {
                             englishText:
                                 "His passion for Japanese art drove him to become a respected collector in the art community.",
                             kurdishText:
-                                "حەزی بۆ ژاپۆن گەیاندی بە بوون بە کۆکەرەوەیەکی بەناوبانگی جیھانی ھونەری.", // collector",
+                                "حەزی بۆ ژاپۆن گەیاندی بە بوون بە کۆکەرەوەیەکی بەناوبانگی جیھانی ھونەری.",
                             onPressedBritish: () => speakcollectors1("en-GB"),
                             onPressedAmerican: () => speakcollectors1("en-US"),
                           ),

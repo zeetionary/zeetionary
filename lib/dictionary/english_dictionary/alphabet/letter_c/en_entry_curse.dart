@@ -289,8 +289,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) وشەیەکی ناشرین یان  کە ھەندێک کەس بەکاریدێنن کە تووڕەن"),
           SentencesRow(
             englishText: "He muttered a curse at the other driver.",
-            kurdishText:
-                "جنێوێکی دا بە شۆفێرەکەی دیکە.", // curse", please follow LX instructions
+            kurdishText: "جنێوێکی دا بە شۆفێرەکەی دیکە.",
             onPressedBritish: () => speakcurses1("en-GB"),
             onPressedAmerican: () => speakcurses1("en-US"),
           ),

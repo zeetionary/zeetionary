@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "People gathered to watch the cygnets take their first swim.",
             kurdishText:
-                "خەڵکی کۆبووبوونەوە بۆ سەیری بەچکەقازەکان تا یەکەم مەلەیان بکەن.", // cygnet", please follow LX instructions
+                "خەڵکی کۆبووبوونەوە بۆ سەیری بەچکەقازەکان تا یەکەم مەلەیان بکەن.",
             onPressedBritish: () => speakcygnets1("en-GB"),
             onPressedAmerican: () => speakcygnets1("en-US"),
           ),

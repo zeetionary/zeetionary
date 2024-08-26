@@ -104,7 +104,7 @@ class EnglishEntrycontraceptive extends StatelessWidget {
                             englishText:
                                 "There are several kinds of contraceptive pills available, and they act in slightly different ways.",
                             kurdishText:
-                                "ژمارەیەکی جیاواز لە حەپی دژە دووگیانی بەردەستن، و بەشێوەی کەمێک جیاواز کاردەکەن.", // contraceptive",
+                                "ژمارەیەکی جیاواز لە حەپی دژە دووگیانی بەردەستن، و بەشێوەی کەمێک جیاواز کاردەکەن.",
                             onPressedBritish: () =>
                                 speakcontraceptives1("en-GB"),
                             onPressedAmerican: () =>

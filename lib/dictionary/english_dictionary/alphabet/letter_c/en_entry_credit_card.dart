@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "All major credit cards are accepted at our hotels.",
             kurdishText:
-                "ھەموو کرێدیت کاردە ناسراوەکان لە ھوتێلەکانمان پەسەند دەکرێن.", // credit card", please follow LX instructions
+                "ھەموو کرێدیت کاردە ناسراوەکان لە ھوتێلەکانمان پەسەند دەکرێن.",
             onPressedBritish: () => speakcreditcards1("en-GB"),
             onPressedAmerican: () => speakcreditcards1("en-US"),
           ),

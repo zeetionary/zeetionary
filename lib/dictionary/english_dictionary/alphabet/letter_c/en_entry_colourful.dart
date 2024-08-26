@@ -102,7 +102,7 @@ class EnglishEntrycolourful extends StatelessWidget {
                             englishText:
                                 "The male birds are more colourful than the females.",
                             kurdishText:
-                                "باڵندە نێرەکان ڕەنگینترن لە مێینەکان.", // colourful",
+                                "باڵندە نێرەکان ڕەنگینترن لە مێینەکان.",
                             onPressedBritish: () => speakcolourfuls1("en-GB"),
                             onPressedAmerican: () => speakcolourfuls1("en-US"),
                           ),

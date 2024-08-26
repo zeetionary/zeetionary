@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بەڕێزەوە"),
           SentencesRow(
             englishText: "He's always behaved courteously toward my family.",
-            kurdishText:
-                "ھەمیشە بەڕێزەوە مامەڵەی لەگەڵ خێزانەکەم کردووە.", // courteously", please follow LX instructions
+            kurdishText: "ھەمیشە بەڕێزەوە مامەڵەی لەگەڵ خێزانەکەم کردووە.",
             onPressedBritish: () => speakcourteouslys1("en-GB"),
             onPressedAmerican: () => speakcourteouslys1("en-US"),
           ),

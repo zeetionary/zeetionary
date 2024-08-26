@@ -141,7 +141,7 @@ class EnglishEntrycompound extends StatelessWidget {
                             englishText:
                                 "The air smelled like a compound of diesel and petrol fumes.",
                             kurdishText:
-                                "ھەواکە بۆنی تێکەڵەیەکی گازوایل و دووکەڵی بەنزینی لێدەھات.", // compound",
+                                "ھەواکە بۆنی تێکەڵەیەکی گازوایل و دووکەڵی بەنزینی لێدەھات.",
                             onPressedBritish: () => speakcompounds1("en-GB"),
                             onPressedAmerican: () => speakcompounds1("en-US"),
                           ),

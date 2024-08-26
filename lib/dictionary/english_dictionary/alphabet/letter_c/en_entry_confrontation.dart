@@ -112,7 +112,7 @@ class EnglishEntryconfrontation extends StatelessWidget {
                             englishText:
                                 "She wanted to avoid another confrontation with her father.",
                             kurdishText:
-                                "ویستی دوور بێت لە کێشەیەکی دیکە لەگەڵ باوکیدا.", // confrontation",
+                                "ویستی دوور بێت لە کێشەیەکی دیکە لەگەڵ باوکیدا.",
                             onPressedBritish: () =>
                                 speakconfrontations1("en-GB"),
                             onPressedAmerican: () =>

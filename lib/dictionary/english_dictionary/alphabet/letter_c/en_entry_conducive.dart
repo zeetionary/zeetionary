@@ -103,7 +103,7 @@ class EnglishEntryconducive extends StatelessWidget {
                             englishText:
                                 "Chairs in rows are not as conducive to discussion as chairs arranged in a circle.",
                             kurdishText:
-                                "کورسی ڕیزکراو وەک کورسی بە بازنە دانراو ڕێخۆشکەر نییە بۆ گفتوگۆ.", // conducive",
+                                "کورسی ڕیزکراو وەک کورسی بە بازنە دانراو ڕێخۆشکەر نییە بۆ گفتوگۆ.",
                             onPressedBritish: () => speakconducives1("en-GB"),
                             onPressedAmerican: () => speakconducives1("en-US"),
                           ),

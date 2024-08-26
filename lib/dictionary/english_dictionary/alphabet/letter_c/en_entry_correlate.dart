@@ -268,8 +268,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) پەیوەندی ھەبوون لە نێوان دوو شتدا کە کاریگەری لە یەکدی بکەن"),
           SentencesRow(
             englishText: "The figures do not seem to correlate.",
-            kurdishText:
-                "ئامارەکان پێناچێت پەیوەندیدار بن.", // correlate", please follow LX instructions
+            kurdishText: "ئامارەکان پێناچێت پەیوەندیدار بن.",
             onPressedBritish: () => speakcorrelates1("en-GB"),
             onPressedAmerican: () => speakcorrelates1("en-US"),
           ),

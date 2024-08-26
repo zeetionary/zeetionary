@@ -138,7 +138,7 @@ class EnglishEntrybroom extends StatelessWidget {
                           SentencesRow(
                             englishText: "Grab a broom and let’s clean up.",
                             kurdishText:
-                                "گەسکێک ھەڵبگرە و با دەست بە پاککردنەوە بکەین.", // broom" as
+                                "گەسکێک ھەڵبگرە و با دەست بە پاککردنەوە بکەین.",
                             onPressedBritish: () => speakbrooms1("en-GB"),
                             onPressedAmerican: () => speakbrooms1("en-US"),
                           ),

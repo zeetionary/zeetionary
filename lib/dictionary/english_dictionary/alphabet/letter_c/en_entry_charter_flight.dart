@@ -96,7 +96,7 @@ class EnglishEntrycharterflight extends StatelessWidget {
                             englishText:
                                 "There are many charter flights to Greece operating from British airports.",
                             kurdishText:
-                                "ڕێژەیەکی زۆر فڕۆکەی بەکرێ‌گیراو ھەیە بۆ یۆنان لە فڕۆکەخانەکانی بەریتانیاوە.", // charter flight",
+                                "ڕێژەیەکی زۆر فڕۆکەی بەکرێ‌گیراو ھەیە بۆ یۆنان لە فڕۆکەخانەکانی بەریتانیاوە.",
                             onPressedBritish: () =>
                                 speakcharterflights1("en-GB"),
                             onPressedAmerican: () =>

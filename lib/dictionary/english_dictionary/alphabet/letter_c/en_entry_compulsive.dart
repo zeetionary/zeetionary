@@ -126,7 +126,7 @@ class EnglishEntrycompulsive extends StatelessWidget {
                             englishText:
                                 "His family had been unaware of his compulsive gambling.",
                             kurdishText:
-                                "خێزانەکەی بێ‌ئاگا بووبوون لە قومارە نەبڕاوەکەی.", // compulsive",
+                                "خێزانەکەی بێ‌ئاگا بووبوون لە قومارە نەبڕاوەکەی.",
                             onPressedBritish: () => speakcompulsives1("en-GB"),
                             onPressedAmerican: () => speakcompulsives1("en-US"),
                           ),

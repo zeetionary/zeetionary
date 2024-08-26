@@ -101,7 +101,7 @@ class EnglishEntryclearcut extends StatelessWidget {
                             englishText:
                                 "There is no clear-cut answer to this question.",
                             kurdishText:
-                                "وەڵامێکی ڕوون و ئاشکرا بۆ ئەم پرسیارە نییە.", // clear-cut",
+                                "وەڵامێکی ڕوون و ئاشکرا بۆ ئەم پرسیارە نییە.",
                             onPressedBritish: () => speakclearcuts1("en-GB"),
                             onPressedAmerican: () => speakclearcuts1("en-US"),
                           ),

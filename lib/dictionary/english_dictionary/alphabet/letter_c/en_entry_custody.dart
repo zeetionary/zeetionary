@@ -260,8 +260,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) چاودێری کەسێک یان شتێک"),
           SentencesRow(
             englishText: "Who will have custody of the children?",
-            kurdishText:
-                "کێ چاودێری منداڵەکان دەکات؟", // custody", please follow LX instructions
+            kurdishText: "کێ چاودێری منداڵەکان دەکات؟",
             onPressedBritish: () => speakcustodys1("en-GB"),
             onPressedAmerican: () => speakcustodys1("en-US"),
           ),
@@ -269,8 +268,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The parents were given joint custody of the two children.",
-            kurdishText:
-                "دایک و باوکەکە چاودێری ھاوبەشی منداڵەکانیان پێدرا.", // custody", please follow LX instructions
+            kurdishText: "دایک و باوکەکە چاودێری ھاوبەشی منداڵەکانیان پێدرا.",
             onPressedBritish: () => speakcustodys2("en-GB"),
             onPressedAmerican: () => speakcustodys2("en-US"),
           ),
@@ -278,8 +276,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The divorce court awarded custody to the child's mother.",
-            kurdishText:
-                "دادگای جیابوونەوە مافی چاودێری بە دایکەکە دا.", // custody", please follow LX instructions
+            kurdishText: "دادگای جیابوونەوە مافی چاودێری بە دایکەکە دا.",
             onPressedBritish: () => speakcustodys3("en-GB"),
             onPressedAmerican: () => speakcustodys3("en-US"),
           ),

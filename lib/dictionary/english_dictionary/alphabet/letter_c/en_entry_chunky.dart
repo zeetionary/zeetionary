@@ -110,7 +110,7 @@ class EnglishEntrychunky extends StatelessWidget {
                             englishText:
                                 "She wore a chunky sweater to keep warm in the snow.",
                             kurdishText:
-                                "بلووزێکی قەبەی لەبەرکردبوو بۆ گەرم‌مانەوە لە بەفرەکەدا.", // chunky",
+                                "بلووزێکی قەبەی لەبەرکردبوو بۆ گەرم‌مانەوە لە بەفرەکەدا.",
                             onPressedBritish: () => speakchunkys1("en-GB"),
                             onPressedAmerican: () => speakchunkys1("en-US"),
                           ),

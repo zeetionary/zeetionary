@@ -270,8 +270,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ڕەخنە؛ دەربڕینی ناڕەزایی و لێدوانی نەرێنی سەبارەت بە ھەڵە و خاسیەتە خراپەکانی کەسێک یان شتێک"),
           SentencesRow(
             englishText: "Ben is very sensitive—he just can't take criticism.",
-            kurdishText:
-                "بێن زۆر ھەستیارە، ڕەخنە قبووڵ ناکات.", // criticism", please follow LX instructions
+            kurdishText: "بێن زۆر ھەستیارە، ڕەخنە قبووڵ ناکات.",
             onPressedBritish: () => speakcriticisms1("en-GB"),
             onPressedAmerican: () => speakcriticisms1("en-US"),
           ),

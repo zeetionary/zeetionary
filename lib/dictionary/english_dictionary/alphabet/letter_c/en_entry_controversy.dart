@@ -112,7 +112,7 @@ class EnglishEntrycontroversy extends StatelessWidget {
                             englishText:
                                 "The controversy surrounding his latest movie continues.",
                             kurdishText:
-                                "مشتومڕ سەبارەت بە کۆتا فیلمی بەردەوامە.", // controversy",
+                                "مشتومڕ سەبارەت بە کۆتا فیلمی بەردەوامە.",
                             onPressedBritish: () => speakcontroversys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontroversys1("en-US"),

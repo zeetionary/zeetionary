@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Deep-sea divers carry cylinders of oxygen on their backs.",
             kurdishText:
-                "مەلەوانانی ناو قوڵاییەکان بوتڵە ئۆکسجین لەسەر پشتیان ھەڵدەگرن.", // cylinder", please follow LX instructions
+                "مەلەوانانی ناو قوڵاییەکان بوتڵە ئۆکسجین لەسەر پشتیان ھەڵدەگرن.",
             onPressedBritish: () => speakcylinders1("en-GB"),
             onPressedAmerican: () => speakcylinders1("en-US"),
           ),

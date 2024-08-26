@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The children enjoyed playing croquet on sunny afternoons.",
-            kurdishText:
-                "منداڵەکان چێژیان دەبینی لە نیوەڕوانی خۆرەتاودا.", // croquet", please follow LX instructions
+            kurdishText: "منداڵەکان چێژیان دەبینی لە نیوەڕوانی خۆرەتاودا.",
             onPressedBritish: () => speakcroquets1("en-GB"),
             onPressedAmerican: () => speakcroquets1("en-US"),
           ),

@@ -127,7 +127,7 @@ class EnglishEntrycommentary extends StatelessWidget {
                             englishText:
                                 "Our reporters will give a running commentary (= a continuous one) on the election results as they are announced.",
                             kurdishText:
-                                "پەیامنێرانمان شرۆڤەی بەردەوام لەسەر ئەنجامەکانی ھەڵبژاردن دەدەن کە ڕادەگەیەنرێن.", // commentary",
+                                "پەیامنێرانمان شرۆڤەی بەردەوام لەسەر ئەنجامەکانی ھەڵبژاردن دەدەن کە ڕادەگەیەنرێن.",
                             onPressedBritish: () => speakcommentarys1("en-GB"),
                             onPressedAmerican: () => speakcommentarys1("en-US"),
                           ),

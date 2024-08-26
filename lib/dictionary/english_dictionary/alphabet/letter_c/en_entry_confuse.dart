@@ -140,7 +140,7 @@ class EnglishEntryconfuse extends StatelessWidget {
                             englishText:
                                 "They confused me with conflicting accounts of what happened.",
                             kurdishText:
-                                "سەرلێ‌شێواوم دەکەن بە گێڕانەوەی دژبەیەکی ئەوەی چی ڕوویدا.", // confuse",
+                                "سەرلێ‌شێواوم دەکەن بە گێڕانەوەی دژبەیەکی ئەوەی چی ڕوویدا.",
                             onPressedBritish: () => speakconfuses1("en-GB"),
                             onPressedAmerican: () => speakconfuses1("en-US"),
                           ),

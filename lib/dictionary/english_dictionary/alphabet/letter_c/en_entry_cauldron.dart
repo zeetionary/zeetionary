@@ -179,7 +179,7 @@ class EnglishEntrycauldron extends StatelessWidget {
                             englishText:
                                 "The bubbling cauldron over the campfire filled the air with savory aromas.",
                             kurdishText:
-                                "مەنجەڵی سەر ئاگرەکە کە قوڵتەقوڵی دەکرد کەشەکەی پڕکردبوو لە بۆنی خۆش.", // cauldron",
+                                "مەنجەڵی سەر ئاگرەکە کە قوڵتەقوڵی دەکرد کەشەکەی پڕکردبوو لە بۆنی خۆش.",
                             onPressedBritish: () => speakcauldrons1("en-GB"),
                             onPressedAmerican: () => speakcauldrons1("en-US"),
                           ),

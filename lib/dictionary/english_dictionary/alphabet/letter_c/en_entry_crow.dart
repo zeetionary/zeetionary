@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She woke up to the sound of crows outside her window.",
             kurdishText:
-                "بە دەنگی قەلەڕەش لە دەرەوەی پەنجەرەکەی خەبەری بوویەوە.", // crow", please follow LX instructions
+                "بە دەنگی قەلەڕەش لە دەرەوەی پەنجەرەکەی خەبەری بوویەوە.",
             onPressedBritish: () => speakcrows1("en-GB"),
             onPressedAmerican: () => speakcrows1("en-US"),
           ),

@@ -110,7 +110,7 @@ class EnglishEntryconsolidate extends StatelessWidget {
                             englishText:
                                 "With this new movie he has consolidated his position as the country's leading director.",
                             kurdishText:
-                                "بە فیلمە تازەکەی پێگەی خۆی وەک دەرھێنەری پێشەنگی وڵاتەکە پتەوترکردووە.", // consolidate",
+                                "بە فیلمە تازەکەی پێگەی خۆی وەک دەرھێنەری پێشەنگی وڵاتەکە پتەوترکردووە.",
                             onPressedBritish: () => speakconsolidates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsolidates1("en-US"),

@@ -94,7 +94,7 @@ class EnglishEntrycombustible extends StatelessWidget {
                             englishText:
                                 "Wood and coal are both combustible substances.",
                             kurdishText:
-                                "دار و خەڵووز ھەردووکیان مادەی بسووتن.", // combustible",
+                                "دار و خەڵووز ھەردووکیان مادەی بسووتن.",
                             onPressedBritish: () => speakcombustibles1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcombustibles1("en-US"),

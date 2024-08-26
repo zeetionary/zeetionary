@@ -100,8 +100,7 @@ class EnglishEntrycomposite extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The table was made of composite materials.",
-                            kurdishText:
-                                "مێزەکە لە مادەی تێکەڵاو پێکھاتبوو.", // composite",
+                            kurdishText: "مێزەکە لە مادەی تێکەڵاو پێکھاتبوو.",
                             onPressedBritish: () => speakcomposites1("en-GB"),
                             onPressedAmerican: () => speakcomposites1("en-US"),
                           ),

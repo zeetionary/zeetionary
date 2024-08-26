@@ -259,8 +259,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) پێکھاتوو لە خەڵکی جۆراوجۆر"),
           SentencesRow(
             englishText: "Jamaica is a very cosmopolitan island.",
-            kurdishText:
-                "جامایکا دوورگەیەکی زۆر ھەمەڕەنگە.", // cosmopolitan", please follow LX instructions
+            kurdishText: "جامایکا دوورگەیەکی زۆر ھەمەڕەنگە.",
             onPressedBritish: () => speakcosmopolitans1("en-GB"),
             onPressedAmerican: () => speakcosmopolitans1("en-US"),
           ),

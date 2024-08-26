@@ -263,8 +263,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) جوان و سەرنجڕاکێش"),
           SentencesRow(
             englishText: "She's so cute!",
-            kurdishText:
-                "زۆر دڵڕفێنەرە!", // cute", please follow LX instructions
+            kurdishText: "زۆر دڵڕفێنەرە!",
             onPressedBritish: () => speakcutes1("en-GB"),
             onPressedAmerican: () => speakcutes1("en-US"),
           ),

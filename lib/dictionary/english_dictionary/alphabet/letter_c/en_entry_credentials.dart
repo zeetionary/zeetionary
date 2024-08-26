@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) توانا و ڕاھێنان و ئەزموونی کردنی شتێک"),
           SentencesRow(
             englishText: "She has impeccable credentials as a researcher.",
-            kurdishText:
-                "وەک توێژەر لێووەشایی بێ‌خەوشی ھەیە.", // credentials", please follow LX instructions
+            kurdishText: "وەک توێژەر لێووەشایی بێ‌خەوشی ھەیە.",
             onPressedBritish: () => speakcredentialss1("en-GB"),
             onPressedAmerican: () => speakcredentialss1("en-US"),
           ),

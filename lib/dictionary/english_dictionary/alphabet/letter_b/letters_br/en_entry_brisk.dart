@@ -138,7 +138,7 @@ class EnglishEntrybrisk extends StatelessWidget {
                             englishText:
                                 "Ice-cream vendors were doing a brisk trade (= selling a lot of ice cream).",
                             kurdishText:
-                                "فرۆشیارانی ئایس کریم بازاڕی باشیان ھەبوو.", // brisk" as
+                                "فرۆشیارانی ئایس کریم بازاڕی باشیان ھەبوو.",
                             onPressedBritish: () => speakbrisks1("en-GB"),
                             onPressedAmerican: () => speakbrisks1("en-US"),
                           ),

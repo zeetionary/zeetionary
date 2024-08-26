@@ -137,7 +137,7 @@ class EnglishEntrybroaden extends StatelessWidget {
                               text: "١. (کردار) پانبوون، فراوانبوون"),
                           SentencesRow(
                             englishText: "Her smile broadened.",
-                            kurdishText: "بزەکەی گەورەبوو.", // broaden" as
+                            kurdishText: "بزەکەی گەورەبوو.",
                             onPressedBritish: () => speakbroadens1("en-GB"),
                             onPressedAmerican: () => speakbroadens1("en-US"),
                           ),

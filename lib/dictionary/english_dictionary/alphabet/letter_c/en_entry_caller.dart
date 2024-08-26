@@ -178,7 +178,7 @@ class EnglishEntrycaller extends StatelessWidget {
                                   "١. (ناو) کەسێک کە پەیوەندییەکی تەلەفۆنی ئەنجام دەدات"),
                           SentencesRow(
                             englishText: "The caller hung up.",
-                            kurdishText: "تەلەفۆن‌کەرەکە دایخستەوە.", // caller
+                            kurdishText: "تەلەفۆن‌کەرەکە دایخستەوە",
                             onPressedBritish: () => speakcallers1("en-GB"),
                             onPressedAmerican: () => speakcallers1("en-US"),
                           ),

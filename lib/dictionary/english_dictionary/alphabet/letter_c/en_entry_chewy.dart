@@ -92,7 +92,7 @@ class EnglishEntrychewy extends StatelessWidget {
                                   "١. (ھاوەڵناو) شتێک کە پێویستی بە جوینە پێش ئەوەی قوتبدرێت"),
                           SentencesRow(
                             englishText: "The meat was tasteless and chewy.",
-                            kurdishText: "گۆشتەکە بێ‌تام و جیڕ بوو.", // chewy",
+                            kurdishText: "گۆشتەکە بێ‌تام و جیڕ بوو.",
                             onPressedBritish: () => speakchewys1("en-GB"),
                             onPressedAmerican: () => speakchewys1("en-US"),
                           ),

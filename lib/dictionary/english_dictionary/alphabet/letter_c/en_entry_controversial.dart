@@ -104,7 +104,7 @@ class EnglishEntrycontroversial extends StatelessWidget {
                             englishText:
                                 "A controversial plan to build a new road has met with protests.",
                             kurdishText:
-                                "پلانێکی کێشاوی بۆ درووستکردنی ڕێگایەکی تازە خۆپیشاندانی بە دوادا ھاتووە.", // controversial",
+                                "پلانێکی کێشاوی بۆ درووستکردنی ڕێگایەکی تازە خۆپیشاندانی بە دوادا ھاتووە.",
                             onPressedBritish: () =>
                                 speakcontroversials1("en-GB"),
                             onPressedAmerican: () =>

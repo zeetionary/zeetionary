@@ -181,7 +181,7 @@ class EnglishEntrycalf extends StatelessWidget {
                             englishText:
                                 "She's been unable to play since January because of a torn calf muscle.",
                             kurdishText:
-                                "لە کانوونی دووەمەوە توانای یاریکردنی نییە بەھۆی ماسولکەیەکی پچڕاو لە نەرمەی پووزی.", // calf
+                                "لە کانوونی دووەمەوە توانای یاریکردنی نییە بەھۆی ماسولکەیەکی پچڕاو لە نەرمەی پووزی",
                             onPressedBritish: () => speakcalfs1("en-GB"),
                             onPressedAmerican: () => speakcalfs1("en-US"),
                           ),

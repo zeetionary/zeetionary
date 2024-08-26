@@ -186,7 +186,7 @@ class EnglishEntrycapture extends StatelessWidget {
                             englishText:
                                 "Allied troops captured over 300 enemy soldiers.",
                             kurdishText:
-                                "ھێزەکانی ھاوپەیمانان زیاد لە ٣٠٠ سەربازی دوژمنیان بەدیل گرت.", // capture
+                                "ھێزەکانی ھاوپەیمانان زیاد لە ٣٠٠ سەربازی دوژمنیان بەدیل گرت",
                             onPressedBritish: () => speakcaptures1("en-GB"),
                             onPressedAmerican: () => speakcaptures1("en-US"),
                           ),

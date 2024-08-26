@@ -95,7 +95,7 @@ class EnglishEntrycolonnade extends StatelessWidget {
                             englishText:
                                 "The colonnade provided shade and shelter from the rain.",
                             kurdishText:
-                                "ڕیزەستوونەکە سێبەر و پەناگەی لە بارانەکە دابین دەکرد.", // colonnade",
+                                "ڕیزەستوونەکە سێبەر و پەناگەی لە بارانەکە دابین دەکرد.",
                             onPressedBritish: () => speakcolonnades1("en-GB"),
                             onPressedAmerican: () => speakcolonnades1("en-US"),
                           ),

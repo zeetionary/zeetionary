@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) پارچە گۆشتێکی ئەستوور کە ھێشتا پێشەکەی پێوەیە"),
           SentencesRow(
             englishText: "She ordered a chicken cutlet for dinner.",
-            kurdishText:
-                "داوای پارچە گۆشتێکی مریشکی بۆ نانی ئێوارە.", // cutlet", please follow LX instructions
+            kurdishText: "داوای پارچە گۆشتێکی مریشکی بۆ نانی ئێوارە.",
             onPressedBritish: () => speakcutlets1("en-GB"),
             onPressedAmerican: () => speakcutlets1("en-US"),
           ),

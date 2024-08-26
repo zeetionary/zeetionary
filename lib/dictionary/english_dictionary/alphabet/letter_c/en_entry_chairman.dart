@@ -116,7 +116,7 @@ class EnglishEntrychairman extends StatelessWidget {
                             englishText:
                                 "Sir Herbert took it upon himself to act as chairman.",
                             kurdishText:
-                                "سێر ھێربێرت بەرپرسیاریەتی سەرکۆڕیکردنی خستە ئەستۆی خۆی.", // chairman",
+                                "سێر ھێربێرت بەرپرسیاریەتی سەرکۆڕیکردنی خستە ئەستۆی خۆی.",
                             onPressedBritish: () => speakchairmans1("en-GB"),
                             onPressedAmerican: () => speakchairmans1("en-US"),
                           ),

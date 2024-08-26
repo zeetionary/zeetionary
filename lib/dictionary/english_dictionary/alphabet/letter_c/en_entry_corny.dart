@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I couldn't watch the whole movie - it was just too corny.",
             kurdishText:
-                "نەمتوانی سەیری تەواوی فیلمەکە بکەم، زۆر ھەزاربارە بوو.", // corny", please follow LX instructions
+                "نەمتوانی سەیری تەواوی فیلمەکە بکەم، زۆر ھەزاربارە بوو.",
             onPressedBritish: () => speakcornys1("en-GB"),
             onPressedAmerican: () => speakcornys1("en-US"),
           ),

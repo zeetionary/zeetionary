@@ -96,7 +96,7 @@ class EnglishEntrychancelloroftheexchequer extends StatelessWidget {
                             englishText:
                                 "The Chancellor of the Exchequer presented the annual budget to Parliament.",
                             kurdishText:
-                                "وەزیری دارایی بودجەی ساڵانەی بە پەرلەمان پێشکەشکرد.", // Chancellor of the Exchequer",
+                                "وەزیری دارایی بودجەی ساڵانەی بە پەرلەمان پێشکەشکرد.",
                             onPressedBritish: () =>
                                 speakChancelloroftheExchequers1("en-GB"),
                             onPressedAmerican: () =>

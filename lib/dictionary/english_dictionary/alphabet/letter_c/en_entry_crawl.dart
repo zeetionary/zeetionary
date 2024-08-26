@@ -285,8 +285,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) گاگۆڵکی کردن"),
           SentencesRow(
             englishText: "Our baby is just starting to crawl.",
-            kurdishText:
-                "منداڵەکەمان تازە فێری گاگۆڵکێ بووە.", // crawl", please follow LX instructions
+            kurdishText: "منداڵەکەمان تازە فێری گاگۆڵکێ بووە.",
             onPressedBritish: () => speakcrawls1("en-GB"),
             onPressedAmerican: () => speakcrawls1("en-US"),
           ),

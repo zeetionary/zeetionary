@@ -108,7 +108,7 @@ class EnglishEntrychemist extends StatelessWidget {
                             englishText:
                                 "The chemist was known for his friendly service and helpful advice.",
                             kurdishText:
-                                "دەرماسازەکە ناسرابوو بۆ خزمەتی ھاوڕێیانەی و ڕاوێژی بەسوودی.", // chemist",
+                                "دەرماسازەکە ناسرابوو بۆ خزمەتی ھاوڕێیانەی و ڕاوێژی بەسوودی.",
                             onPressedBritish: () => speakchemists1("en-GB"),
                             onPressedAmerican: () => speakchemists1("en-US"),
                           ),

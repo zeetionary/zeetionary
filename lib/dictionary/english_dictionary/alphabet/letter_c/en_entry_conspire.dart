@@ -123,7 +123,7 @@ class EnglishEntryconspire extends StatelessWidget {
                             englishText:
                                 "They were accused of conspiring against the king.",
                             kurdishText:
-                                "تۆمەتبارکران بە پیلانکگێڕان دژ بە پاشا.", // conspire",
+                                "تۆمەتبارکران بە پیلانکگێڕان دژ بە پاشا.",
                             onPressedBritish: () => speakconspires1("en-GB"),
                             onPressedAmerican: () => speakconspires1("en-US"),
                           ),

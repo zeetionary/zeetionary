@@ -92,8 +92,7 @@ class EnglishEntrycobra extends StatelessWidget {
                                   "١. (ناو) ماری کوبرا؛ مارێکی ژەھراوی کە دەتوانێت پێستی پشتی ملی بڵاوبکاتەوە بۆ ئەوەی خۆی گەورەتر دەربخات. کوبراکان لە ئاسیا و ئەفریقا دەژین."),
                           SentencesRow(
                             englishText: "The cobra's bite is highly venomous.",
-                            kurdishText:
-                                "گازی کوبرا تەواو ژەھراوییە.", // cobra",
+                            kurdishText: "گازی کوبرا تەواو ژەھراوییە.",
                             onPressedBritish: () => speakcobras1("en-GB"),
                             onPressedAmerican: () => speakcobras1("en-US"),
                           ),

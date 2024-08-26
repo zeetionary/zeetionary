@@ -177,7 +177,7 @@ class EnglishEntrycarbonfootprint extends StatelessWidget {
                             englishText:
                                 "Flying is the biggest contribution to my carbon footprint.",
                             kurdishText:
-                                "فڕین گەورەترین ھۆکاری جێ‌پەنجەی کاربۆنی منە.", // carbon footprint",
+                                "فڕین گەورەترین ھۆکاری جێ‌پەنجەی کاربۆنی منە.",
                             onPressedBritish: () =>
                                 speakcarbonfootprints1("en-GB"),
                             onPressedAmerican: () =>

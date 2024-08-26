@@ -103,7 +103,7 @@ class EnglishEntrycommando extends StatelessWidget {
                             englishText:
                                 "He was an experienced commando with 13 years in the Special Forces.",
                             kurdishText:
-                                "کۆماندۆیەک بوو بە ئەزموونی ١٣ لە ھێزە تایبەتەکاندا.", // commando",
+                                "کۆماندۆیەک بوو بە ئەزموونی ١٣ لە ھێزە تایبەتەکاندا.",
                             onPressedBritish: () => speakcommandos1("en-GB"),
                             onPressedAmerican: () => speakcommandos1("en-US"),
                           ),

@@ -187,7 +187,7 @@ class EnglishEntrycabincruiser extends StatelessWidget {
                             englishText:
                                 "The cabin cruiser sailed smoothly across the calm waters.",
                             kurdishText:
-                                "بەلەمەکە بە نەرمی بەسەر ئاوە ھێمنەکەدا دەچوو.", // cabin cruiser",
+                                "بەلەمەکە بە نەرمی بەسەر ئاوە ھێمنەکەدا دەچوو.",
                             onPressedBritish: () =>
                                 speakcabincruisers1("en-GB"),
                             onPressedAmerican: () =>

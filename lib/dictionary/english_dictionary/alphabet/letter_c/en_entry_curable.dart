@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Most skin cancers are curable if treated early.",
             kurdishText:
-                "زۆرینەی شێرپەنجەی پێست لەچارەھاتووە ئەگەر زوو چارەسەر بکرێت.", // curable", please follow LX instructions
+                "زۆرینەی شێرپەنجەی پێست لەچارەھاتووە ئەگەر زوو چارەسەر بکرێت.",
             onPressedBritish: () => speakcurables1("en-GB"),
             onPressedAmerican: () => speakcurables1("en-US"),
           ),

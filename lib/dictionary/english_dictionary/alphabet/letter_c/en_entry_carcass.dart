@@ -178,7 +178,7 @@ class EnglishEntrycarcass extends StatelessWidget {
                             englishText:
                                 "She boiled up the chicken carcass (= the bones of a cooked chicken) to make soup.",
                             kurdishText:
-                                "ئێسک‌وپرووسکی مریشکەکەی کوڵاند بۆ درووستکردنی مەرگە.", // carcass",
+                                "ئێسک‌وپرووسکی مریشکەکەی کوڵاند بۆ درووستکردنی مەرگە.",
                             onPressedBritish: () => speakcarcasss1("en-GB"),
                             onPressedAmerican: () => speakcarcasss1("en-US"),
                           ),

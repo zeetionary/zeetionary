@@ -103,7 +103,7 @@ class EnglishEntrychauvinist extends StatelessWidget {
                             englishText:
                                 "They are uneducated chauvinists who think men rule in society.",
                             kurdishText:
-                                "پیاوسالاری نەخوێندەوارن کە وابیردەکەنەوە پیاو کۆمەڵگە بەڕێوەدەبەن.", // chauvinist",
+                                "پیاوسالاری نەخوێندەوارن کە وابیردەکەنەوە پیاو کۆمەڵگە بەڕێوەدەبەن.",
                             onPressedBritish: () => speakchauvinists1("en-GB"),
                             onPressedAmerican: () => speakchauvinists1("en-US"),
                           ),

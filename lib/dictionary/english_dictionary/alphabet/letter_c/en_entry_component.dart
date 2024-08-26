@@ -122,8 +122,7 @@ class EnglishEntrycomponent extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Nitrogen is the main component of air.",
-                            kurdishText:
-                                "نایترۆجین پێکھێنەری سەرەکی ھەوایە.", // component",
+                            kurdishText: "نایترۆجین پێکھێنەری سەرەکی ھەوایە.",
                             onPressedBritish: () => speakcomponents1("en-GB"),
                             onPressedAmerican: () => speakcomponents1("en-US"),
                           ),

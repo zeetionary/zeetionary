@@ -175,7 +175,7 @@ class EnglishEntrycentenarian extends StatelessWidget {
                             englishText:
                                 "Family gathered to celebrate their centenarian grandfather.",
                             kurdishText:
-                                "خێزانەکە کۆبوونەوە بۆ ئاھەنگگێڕان بۆ باپیرە سەد ساڵەکەیان.", // centenarian",
+                                "خێزانەکە کۆبوونەوە بۆ ئاھەنگگێڕان بۆ باپیرە سەد ساڵەکەیان.",
                             onPressedBritish: () => speakcentenarians1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcentenarians1("en-US"),

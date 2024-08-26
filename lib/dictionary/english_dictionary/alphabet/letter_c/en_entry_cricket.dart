@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "This game marks his comeback to the international cricket scene.",
             kurdishText:
-                "ئەم یارییە گەڕانەوەیەتی بۆ گۆڕەپانی کریکێتی نێودەوڵەتی.", // cricket", please follow LX instructions
+                "ئەم یارییە گەڕانەوەیەتی بۆ گۆڕەپانی کریکێتی نێودەوڵەتی.",
             onPressedBritish: () => speakcrickets1("en-GB"),
             onPressedAmerican: () => speakcrickets1("en-US"),
           ),

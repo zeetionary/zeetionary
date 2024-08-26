@@ -111,7 +111,7 @@ class EnglishEntryconsecration extends StatelessWidget {
                             englishText:
                                 "A large congregation gathered for the consecration of the church.",
                             kurdishText:
-                                "کۆمەڵە خواپەرستێکی زۆر کۆبوونەوە بۆ پیرۆزکردنی کڵێساکە.", // consecration",
+                                "کۆمەڵە خواپەرستێکی زۆر کۆبوونەوە بۆ پیرۆزکردنی کڵێساکە.",
                             onPressedBritish: () =>
                                 speakconsecrations1("en-GB"),
                             onPressedAmerican: () =>

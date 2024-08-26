@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Originally, county boundaries often followed the course of a river.",
             kurdishText:
-                "لە بنەڕەت‌دا، سنووری پارێزگاکان بەپێی ڕێڕەوی ڕووبارەکان دەکێشران.", // county", please follow LX instructions
+                "لە بنەڕەت‌دا، سنووری پارێزگاکان بەپێی ڕێڕەوی ڕووبارەکان دەکێشران.",
             onPressedBritish: () => speakcountys1("en-GB"),
             onPressedAmerican: () => speakcountys1("en-US"),
           ),

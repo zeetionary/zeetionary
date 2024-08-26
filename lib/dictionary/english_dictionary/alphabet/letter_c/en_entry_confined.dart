@@ -101,7 +101,7 @@ class EnglishEntryconfined extends StatelessWidget {
                             englishText:
                                 "It is cruel to keep animals in confined spaces.",
                             kurdishText:
-                                "دڕندەییە ئاژەڵ لە شوێنی قەتیسدا ڕابگریت.", // confined",
+                                "دڕندەییە ئاژەڵ لە شوێنی قەتیسدا ڕابگریت.",
                             onPressedBritish: () => speakconfineds1("en-GB"),
                             onPressedAmerican: () => speakconfineds1("en-US"),
                           ),

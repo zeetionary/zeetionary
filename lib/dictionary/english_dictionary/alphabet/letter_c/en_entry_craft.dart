@@ -277,8 +277,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) چالاکی بەکارھێنانی شارەزاییەکی تایبەت بۆ کاری دەستی"),
           SentencesRow(
             englishText: "Sheep shearing is a highly skilled craft.",
-            kurdishText:
-                "مەقەستکردنی مەڕ پیشەیەکی تەواو شارەزایی‌ویستە.", // craft", please follow LX instructions
+            kurdishText: "مەقەستکردنی مەڕ پیشەیەکی تەواو شارەزایی‌ویستە.",
             onPressedBritish: () => speakcrafts1("en-GB"),
             onPressedAmerican: () => speakcrafts1("en-US"),
           ),

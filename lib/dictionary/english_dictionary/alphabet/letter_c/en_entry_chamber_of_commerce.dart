@@ -97,7 +97,7 @@ class EnglishEntrychamberofcommerce extends StatelessWidget {
                             englishText:
                                 "Members of the chamber of commerce receive discounts on business services and access to resources.",
                             kurdishText:
-                                "ئەندامانی ژووری بازرگانی داشکاندنیان بۆ دەکرێت لە خزمەتگوزارییە بازرگانییەکان و دەستگەشتن بە سەرچاوەکان.", // chamber of commerce",
+                                "ئەندامانی ژووری بازرگانی داشکاندنیان بۆ دەکرێت لە خزمەتگوزارییە بازرگانییەکان و دەستگەشتن بە سەرچاوەکان.",
                             onPressedBritish: () =>
                                 speakchamberofcommerces1("en-GB"),
                             onPressedAmerican: () =>

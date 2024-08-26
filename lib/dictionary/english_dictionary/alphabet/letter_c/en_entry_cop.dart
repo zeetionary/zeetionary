@@ -136,8 +136,7 @@ class EnglishEntrycop extends StatelessWidget {
                               text: "١. (ناو) ئەفسەری پۆلیس"),
                           SentencesRow(
                             englishText: "Somebody call the cops!",
-                            kurdishText:
-                                "کەسێک پەیوەندی بە پۆلیسەوە بکات!", // cop",
+                            kurdishText: "کەسێک پەیوەندی بە پۆلیسەوە بکات!",
                             onPressedBritish: () => speakcops1("en-GB"),
                             onPressedAmerican: () => speakcops1("en-US"),
                           ),

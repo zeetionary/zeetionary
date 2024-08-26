@@ -179,7 +179,7 @@ class EnglishEntryceremonial extends StatelessWidget {
                             englishText:
                                 "The presidency position of Iraq, occupied by a Kurd, is largely ceremonial.",
                             kurdishText:
-                                "پۆستی سەرۆکایەتی عێراق، کە ھی کوردێکە، زیاتر نەریتییە.", // ceremonial",
+                                "پۆستی سەرۆکایەتی عێراق، کە ھی کوردێکە، زیاتر نەریتییە.",
                             onPressedBritish: () => speakceremonials1("en-GB"),
                             onPressedAmerican: () => speakceremonials1("en-US"),
                           ),

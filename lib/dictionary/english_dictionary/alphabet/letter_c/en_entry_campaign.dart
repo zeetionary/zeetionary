@@ -185,7 +185,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                             englishText:
                                 "Today police launched a campaign to reduce road accidents.",
                             kurdishText:
-                                "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی ھاتووچۆ.", // campaign
+                                "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی ھاتووچۆ",
                             onPressedBritish: () => speakcampaigns1("en-GB"),
                             onPressedAmerican: () => speakcampaigns1("en-US"),
                           ),

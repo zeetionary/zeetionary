@@ -251,8 +251,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                               text: "١. (ھاوەڵناو) تەواو زیرەک"),
                           SentencesRow(
                             englishText: "What a brilliant idea!",
-                            kurdishText:
-                                "چی بیرۆکەیەکی بلیمەیانەیە!", // brilliant" as
+                            kurdishText: "چی بیرۆکەیەکی بلیمەیانەیە!",
                             onPressedBritish: () => speakbrilliants1("en-GB"),
                             onPressedAmerican: () => speakbrilliants1("en-US"),
                           ),

@@ -95,7 +95,7 @@ class EnglishEntrychrysanthemum extends StatelessWidget {
                             englishText:
                                 "She picked a bouquet of chrysanthemums to decorate the table.",
                             kurdishText:
-                                "چەپکێک گوڵە داوودی ھەڵگرت بۆ ڕازاندنەوەی مێزەکە.", // chrysanthemum",
+                                "چەپکێک گوڵە داوودی ھەڵگرت بۆ ڕازاندنەوەی مێزەکە.",
                             onPressedBritish: () =>
                                 speakchrysanthemums1("en-GB"),
                             onPressedAmerican: () =>

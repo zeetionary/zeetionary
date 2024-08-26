@@ -102,7 +102,7 @@ class EnglishEntryconveyor extends StatelessWidget {
                             englishText:
                                 "The products are labelled as they pass by on the conveyor.",
                             kurdishText:
-                                "بەرھەمەکان ناویان لێدەدرێت کە لەسەر قایشە گوازەرەوەکەوە تێدەپەڕن.", // conveyor",
+                                "بەرھەمەکان ناویان لێدەدرێت کە لەسەر قایشە گوازەرەوەکەوە تێدەپەڕن.",
                             onPressedBritish: () => speakconveyors1("en-GB"),
                             onPressedAmerican: () => speakconveyors1("en-US"),
                           ),

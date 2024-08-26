@@ -109,7 +109,7 @@ class EnglishEntrycongeal extends StatelessWidget {
                             englishText:
                                 "The cold remains of lunch had congealed on the plate.",
                             kurdishText:
-                                "خواردنی ماوەی ساربووی نیوەڕۆ ڕەقبووبوو بە دەورییەکەوە.", // congeal",
+                                "خواردنی ماوەی ساربووی نیوەڕۆ ڕەقبووبوو بە دەورییەکەوە.",
                             onPressedBritish: () => speakcongeals1("en-GB"),
                             onPressedAmerican: () => speakcongeals1("en-US"),
                           ),

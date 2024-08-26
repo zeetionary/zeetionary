@@ -102,7 +102,7 @@ class EnglishEntrycompulsory extends StatelessWidget {
                             englishText:
                                 "English is a compulsory subject at this level.",
                             kurdishText:
-                                "ئینگلیزی بابەتێکی ناچارییە لەم ئاستەدا .", // compulsory",
+                                "ئینگلیزی بابەتێکی ناچارییە لەم ئاستەدا .",
                             onPressedBritish: () => speakcompulsorys1("en-GB"),
                             onPressedAmerican: () => speakcompulsorys1("en-US"),
                           ),

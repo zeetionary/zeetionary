@@ -125,7 +125,7 @@ class EnglishEntrycomplement extends StatelessWidget {
                             englishText:
                                 "The team needs players who complement each other.",
                             kurdishText:
-                                "تیمەکە پێویستی بە یاریزانانێکە کە تەواوکەری یەکترن.", // complement",
+                                "تیمەکە پێویستی بە یاریزانانێکە کە تەواوکەری یەکترن.",
                             onPressedBritish: () => speakcomplements1("en-GB"),
                             onPressedAmerican: () => speakcomplements1("en-US"),
                           ),

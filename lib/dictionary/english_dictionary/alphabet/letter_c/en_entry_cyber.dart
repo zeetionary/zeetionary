@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The risks posed by cyber criminals are greater than ever before.",
             kurdishText:
-                "ئەو مەترسییەی لەلایەن تاوانبارانی ئینتەرنێتەوە درووست دەکرێن زیاترن لە ھەر کاتێکی دیکە.", // cyber-", please follow LX instructions
+                "ئەو مەترسییەی لەلایەن تاوانبارانی ئینتەرنێتەوە درووست دەکرێن زیاترن لە ھەر کاتێکی دیکە.",
             onPressedBritish: () => speakcybers1("en-GB"),
             onPressedAmerican: () => speakcybers1("en-US"),
           ),

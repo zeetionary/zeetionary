@@ -137,7 +137,7 @@ class EnglishEntrybruise extends StatelessWidget {
                                   "١. (ناو) نیشانەیەکی شین، قاوەیی، یان مۆر لەسەر پێست لە دوای کەوتن یان لێدان"),
                           SentencesRow(
                             englishText: "His legs were covered in bruises.",
-                            kurdishText: "لاقی شینبووبووەوە.", // bruise" as
+                            kurdishText: "لاقی شینبووبووەوە.",
                             onPressedBritish: () => speakbruises1("en-GB"),
                             onPressedAmerican: () => speakbruises1("en-US"),
                           ),

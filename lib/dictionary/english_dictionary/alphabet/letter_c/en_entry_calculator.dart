@@ -181,7 +181,7 @@ class EnglishEntrycalculator extends StatelessWidget {
                             englishText:
                                 "I used the calculator app on my phone.",
                             kurdishText:
-                                "ئەپی ژمێرەرم لەسەر موبایلەکەم بەکارھێنا.", // calculator
+                                "ئەپی ژمێرەرم لەسەر موبایلەکەم بەکارھێنا",
                             onPressedBritish: () => speakcalculators1("en-GB"),
                             onPressedAmerican: () => speakcalculators1("en-US"),
                           ),

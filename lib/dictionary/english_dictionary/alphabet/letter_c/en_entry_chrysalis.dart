@@ -95,7 +95,7 @@ class EnglishEntrychrysalis extends StatelessWidget {
                             englishText:
                                 "Inside the chrysalis, the insect transforms into a butterfly.",
                             kurdishText:
-                                "لەناو قۆزاخەکەدا، مێرووەکە دەبێت بە پەپوولە.", // chrysalis",
+                                "لەناو قۆزاخەکەدا، مێرووەکە دەبێت بە پەپوولە.",
                             onPressedBritish: () => speakchrysaliss1("en-GB"),
                             onPressedAmerican: () => speakchrysaliss1("en-US"),
                           ),

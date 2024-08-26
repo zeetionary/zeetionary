@@ -174,7 +174,7 @@ class EnglishEntrycdrom extends StatelessWidget {
                             englishText:
                                 "The encyclopedia is available on CD-ROM.",
                             kurdishText:
-                                "ئینسایکلۆپیدیا بەردەستە بە سی‌دی-ڕۆم.", // CD-ROM",
+                                "ئینسایکلۆپیدیا بەردەستە بە سی‌دی-ڕۆم.",
                             onPressedBritish: () => speakCDROMs1("en-GB"),
                             onPressedAmerican: () => speakCDROMs1("en-US"),
                           ),

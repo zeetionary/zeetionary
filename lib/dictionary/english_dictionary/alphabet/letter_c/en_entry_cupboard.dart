@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەلوپەلێکی ناوماڵ کە بەکاردێت بۆ ھەڵگرتنی قاپ‌وقاچاخ، کەلوپەل، خواردن، ھتد"),
           SentencesRow(
             englishText: "There's plenty of food in the cupboards.",
-            kurdishText:
-                "خواردنێکی زۆر ھەیە لە کەوانتەرەکەدا.", // cupboard", please follow LX instructions
+            kurdishText: "خواردنێکی زۆر ھەیە لە کەوانتەرەکەدا.",
             onPressedBritish: () => speakcupboards1("en-GB"),
             onPressedAmerican: () => speakcupboards1("en-US"),
           ),

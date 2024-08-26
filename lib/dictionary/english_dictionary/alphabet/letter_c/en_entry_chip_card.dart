@@ -99,7 +99,7 @@ class EnglishEntrychipcard extends StatelessWidget {
                             kurdishText:
                                 "بەشێوەیەکی گشتی کارتی زیرەک سەلامتترە لە کارتی ماگنێتیک.",
                             kurdishNote:
-                                "کارتی ماگنێتیک زانیارییەکانی لەسەر نووسراوە", // chip card",
+                                "کارتی ماگنێتیک زانیارییەکانی لەسەر نووسراوە",
                             onPressedBritish: () => speakchipcards1("en-GB"),
                             onPressedAmerican: () => speakchipcards1("en-US"),
                           ),

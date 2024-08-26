@@ -233,8 +233,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The puma is known for its stealth and agility in hunting.",
-            kurdishText:
-                "گیڤڕ ناسراوە بۆ بێ‌خشپەیی و گورجوگۆڵیی لە ڕاوکردندا.", // puma", please follow LX instructions
+            kurdishText: "گیڤڕ ناسراوە بۆ بێ‌خشپەیی و گورجوگۆڵیی لە ڕاوکردندا.",
             onPressedBritish: () => speakpumas1("en-GB"),
             onPressedAmerican: () => speakpumas1("en-US"),
           ),

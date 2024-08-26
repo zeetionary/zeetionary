@@ -102,7 +102,7 @@ class EnglishEntryconcerted extends StatelessWidget {
                             englishText:
                                 "The richer countries of the world should take concerted action to help the poorer countries.",
                             kurdishText:
-                                "وڵاتە دەوڵەمەندەکانی جیھان دەبێت کرداری ھاوبەش بنێن بۆ یارمەتیدانی وڵاتە ھەژارەکان.", // concerted",
+                                "وڵاتە دەوڵەمەندەکانی جیھان دەبێت کرداری ھاوبەش بنێن بۆ یارمەتیدانی وڵاتە ھەژارەکان.",
                             onPressedBritish: () => speakconcerteds1("en-GB"),
                             onPressedAmerican: () => speakconcerteds1("en-US"),
                           ),

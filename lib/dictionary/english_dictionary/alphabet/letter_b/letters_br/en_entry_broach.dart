@@ -140,7 +140,7 @@ class EnglishEntrybroach extends StatelessWidget {
                             englishText:
                                 "She was dreading having to broach the subject of money to her father.",
                             kurdishText:
-                                "دەترسا لەوەی پێویست بکات بابەتی پارە لای باوکی باس بکات.", // broach" as
+                                "دەترسا لەوەی پێویست بکات بابەتی پارە لای باوکی باس بکات.",
                             onPressedBritish: () => speakbroachs1("en-GB"),
                             onPressedAmerican: () => speakbroachs1("en-US"),
                           ),

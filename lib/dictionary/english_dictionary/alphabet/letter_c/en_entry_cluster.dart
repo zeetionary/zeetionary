@@ -148,7 +148,7 @@ class EnglishEntrycluster extends StatelessWidget {
                             englishText:
                                 "The telescope is focused on a dense cluster of stars at the edge of the galaxy.",
                             kurdishText:
-                                "تەلیسکۆبەکە سەرنجی لەسەر ھێشوویەکی چڕ لە ئەستێرەیە لە کەناری گەلە ئەستێرەکەدا.", // cluster",
+                                "تەلیسکۆبەکە سەرنجی لەسەر ھێشوویەکی چڕ لە ئەستێرەیە لە کەناری گەلە ئەستێرەکەدا.",
                             onPressedBritish: () => speakclusters1("en-GB"),
                             onPressedAmerican: () => speakclusters1("en-US"),
                           ),

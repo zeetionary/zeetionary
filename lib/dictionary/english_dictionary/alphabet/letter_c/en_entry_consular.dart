@@ -95,7 +95,7 @@ class EnglishEntryconsular extends StatelessWidget {
                             englishText:
                                 "Consular officials assist citizens with passport renewal and other consular services.",
                             kurdishText:
-                                "بەرپرسانی کونسوڵخانە یارمەتی ھاوڵاتیان دەدەن بۆ نوێکردنەوەی پاسپۆرت و خزمەتگوزارییەکانی دیکەی کونسوڵخانە.", // consular",
+                                "بەرپرسانی کونسوڵخانە یارمەتی ھاوڵاتیان دەدەن بۆ نوێکردنەوەی پاسپۆرت و خزمەتگوزارییەکانی دیکەی کونسوڵخانە.",
                             onPressedBritish: () => speakconsulars1("en-GB"),
                             onPressedAmerican: () => speakconsulars1("en-US"),
                           ),

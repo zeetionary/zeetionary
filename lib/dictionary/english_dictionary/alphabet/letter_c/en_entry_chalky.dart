@@ -93,8 +93,7 @@ class EnglishEntrychalky extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The soil in this area is very chalky.",
-                            kurdishText:
-                                "زەوی ئەم ناوچەیە زۆر گەچییە.", // chalky",
+                            kurdishText: "زەوی ئەم ناوچەیە زۆر گەچییە.",
                             onPressedBritish: () => speakchalkys1("en-GB"),
                             onPressedAmerican: () => speakchalkys1("en-US"),
                           ),

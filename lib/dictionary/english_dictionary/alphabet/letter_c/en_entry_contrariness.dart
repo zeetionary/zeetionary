@@ -95,7 +95,7 @@ class EnglishEntrycontrariness extends StatelessWidget {
                             englishText:
                                 "The horse's contrariness made it difficult to train.",
                             kurdishText:
-                                "لاساریی ئەسپەکە ڕاھێنانی سەخت کردبوو.", // contrariness",
+                                "لاساریی ئەسپەکە ڕاھێنانی سەخت کردبوو.",
                             onPressedBritish: () =>
                                 speakcontrarinesss1("en-GB"),
                             onPressedAmerican: () =>

@@ -98,8 +98,7 @@ class EnglishEntrychildhood extends StatelessWidget {
                               text: "١. (ناو) ماوەی ژیانی منداڵی"),
                           SentencesRow(
                             englishText: "He spent his childhood in India.",
-                            kurdishText:
-                                "مناڵیی کە ھندستان بەسەربرد.", // childhood",
+                            kurdishText: "مناڵیی کە ھندستان بەسەربرد.",
                             onPressedBritish: () => speakchildhoods1("en-GB"),
                             onPressedAmerican: () => speakchildhoods1("en-US"),
                           ),

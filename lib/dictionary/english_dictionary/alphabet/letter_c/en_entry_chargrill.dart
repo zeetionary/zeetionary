@@ -90,7 +90,7 @@ class EnglishEntrychargrill extends StatelessWidget {
                             englishText:
                                 "We can chargrill a few steaks for dinner.",
                             kurdishText:
-                                "دەتوانین ھەندێک پارچە گۆشت بۆ نانی ئێوارە سووربکەینەوە.", // chargrill",
+                                "دەتوانین ھەندێک پارچە گۆشت بۆ نانی ئێوارە سووربکەینەوە.",
                             onPressedBritish: () => speakchargrills1("en-GB"),
                             onPressedAmerican: () => speakchargrills1("en-US"),
                           ),

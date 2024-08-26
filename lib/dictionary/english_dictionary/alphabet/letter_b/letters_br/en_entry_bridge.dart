@@ -278,7 +278,7 @@ class EnglishEntrybridge extends StatelessWidget {
                             englishText:
                                 "We crossed the bridge over the River Windrush.",
                             kurdishText:
-                                "بەسەر پردەکەی سەر ڕووباری ویندڕەش پەڕینەوە.", // bridge" as
+                                "بەسەر پردەکەی سەر ڕووباری ویندڕەش پەڕینەوە.",
                             onPressedBritish: () => speakbridges1("en-GB"),
                             onPressedAmerican: () => speakbridges1("en-US"),
                           ),

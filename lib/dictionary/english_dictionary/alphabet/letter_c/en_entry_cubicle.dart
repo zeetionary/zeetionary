@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ناوچەیەکی بچووکی ژوورێک کە بە پەردەیەک یان دیوارێکی نزم جیاکراوەتەوە"),
           SentencesRow(
             englishText: "I don’t even know my colleague in the next cubicle.",
-            kurdishText:
-                "تەنانەت ھاوکارەکەم لە ژوورۆچکەی تەنیشت ناناسم.", // cubicle", please follow LX instructions
+            kurdishText: "تەنانەت ھاوکارەکەم لە ژوورۆچکەی تەنیشت ناناسم.",
             onPressedBritish: () => speakcubicles1("en-GB"),
             onPressedAmerican: () => speakcubicles1("en-US"),
           ),

@@ -92,8 +92,7 @@ class EnglishEntrycoastguard extends StatelessWidget {
                                   "١. (ناو) دامەزراوەیەکی فەرمی سوپای ئەمریکا کە ئەرکیان پاراستنی سنوورە ئاوییەکانە بۆ یارمەتیدانی کەشتی و ئەو کەسانەی لە کێشەدان، و ئەو کەسانەی یاسا دەشکێنن؛ ئەندامێکی ئەم ھێزە"),
                           SentencesRow(
                             englishText: "The coastguard was alerted.",
-                            kurdishText:
-                                "کەنارپارێزان ئاگادارکرانەوە.", // coastguard",
+                            kurdishText: "کەنارپارێزان ئاگادارکرانەوە.",
                             onPressedBritish: () => speakcoastguards1("en-GB"),
                             onPressedAmerican: () => speakcoastguards1("en-US"),
                           ),

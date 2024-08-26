@@ -177,7 +177,7 @@ class EnglishEntrycalve extends StatelessWidget {
                               text: "١. (کردار) زانی مانگا بە گوێرەکە"),
                           SentencesRow(
                             englishText: "Four cows calved overnight.",
-                            kurdishText: "چوار مانگا زان ئەمشەو.", // calve
+                            kurdishText: "چوار مانگا زان ئەمشەو",
                             onPressedBritish: () => speakcalves1("en-GB"),
                             onPressedAmerican: () => speakcalves1("en-US"),
                           ),

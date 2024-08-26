@@ -95,7 +95,7 @@ class EnglishEntryconglomerate extends StatelessWidget {
                             englishText:
                                 "He turned the business into a huge media conglomerate.",
                             kurdishText:
-                                "بازرگانییەکی کرد بە گەورەکۆمپانیایەکی میدیایی زەبەلاح.", // conglomerate",
+                                "بازرگانییەکی کرد بە گەورەکۆمپانیایەکی میدیایی زەبەلاح.",
                             onPressedBritish: () =>
                                 speakconglomerates1("en-GB"),
                             onPressedAmerican: () =>

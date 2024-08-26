@@ -117,7 +117,7 @@ class EnglishEntrycompass extends StatelessWidget {
                             englishText:
                                 "A compass shows you which direction is north.",
                             kurdishText:
-                                "قیبلەنمایەک پێت پیشان دەدات باکوور لە کام ئاراستەیە.", // compass",
+                                "قیبلەنمایەک پێت پیشان دەدات باکوور لە کام ئاراستەیە.",
                             onPressedBritish: () => speakcompasss1("en-GB"),
                             onPressedAmerican: () => speakcompasss1("en-US"),
                           ),

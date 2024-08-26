@@ -95,7 +95,7 @@ class EnglishEntryco extends StatelessWidget {
                             englishText:
                                 "The address was Sylvia Mendez, c/o Ann Smith, 12 Glastonbury Lane, Bickerton.",
                             kurdishText:
-                                "ناونیشانەکە سیلڤیا مێندێز، میوانی ئان سمیس، گلاستنبری لەین ١٢، لە بیکەرتن بوو.", // c/o",
+                                "ناونیشانەکە سیلڤیا مێندێز، میوانی ئان سمیس، گلاستنبری لەین ١٢، لە بیکەرتن بوو.",
                             onPressedBritish: () => speakcos1("en-GB"),
                             onPressedAmerican: () => speakcos1("en-US"),
                           ),

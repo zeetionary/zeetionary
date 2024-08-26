@@ -94,7 +94,7 @@ class EnglishEntrycongregate extends StatelessWidget {
                             englishText:
                                 "Young people often congregate in the main square in the evenings.",
                             kurdishText:
-                                "کەسانی گەنج دەتوانن لە گۆڕەپانی سەرەکیدا کۆببنەوە لە ئێواراندا.", // congregate",
+                                "کەسانی گەنج دەتوانن لە گۆڕەپانی سەرەکیدا کۆببنەوە لە ئێواراندا.",
                             onPressedBritish: () => speakcongregates1("en-GB"),
                             onPressedAmerican: () => speakcongregates1("en-US"),
                           ),

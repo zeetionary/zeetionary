@@ -101,8 +101,7 @@ class EnglishEntrycharisma extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The President has great personal charisma.",
-                            kurdishText:
-                                "سەرۆک کاریزمای کەسی گەورەی ھەیە.", // charisma",
+                            kurdishText: "سەرۆک کاریزمای کەسی گەورەی ھەیە.",
                             onPressedBritish: () => speakcharismas1("en-GB"),
                             onPressedAmerican: () => speakcharismas1("en-US"),
                           ),

@@ -137,7 +137,7 @@ class EnglishEntrybubblegum extends StatelessWidget {
                             englishText:
                                 "The children enjoyed the sweet bubblegum.",
                             kurdishText:
-                                "منداڵەکان حەزیان بە بنێشتە شیرینەکە ھەبوو.", // bubblegum" as
+                                "منداڵەکان حەزیان بە بنێشتە شیرینەکە ھەبوو.",
                             onPressedBritish: () => speakbubblegums1("en-GB"),
                             onPressedAmerican: () => speakbubblegums1("en-US"),
                           ),

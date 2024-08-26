@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The Roman soldiers crucified criminals as a form of punishment.",
             kurdishText:
-                "سەربازە ڕۆمەکان تاوانبارانیان وەک جۆرێک لە سزادام لەخاچ دەدا.", // crucify", please follow LX instructions
+                "سەربازە ڕۆمەکان تاوانبارانیان وەک جۆرێک لە سزادام لەخاچ دەدا.",
             onPressedBritish: () => speakcrucifys1("en-GB"),
             onPressedAmerican: () => speakcrucifys1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Claire's curtness made him wonder what he'd done wrong.",
             kurdishText:
-                "بێ‌ڕێزی کلێر وای لێکرد تێڕابمێنێت کە چی بە ھەڵە کردبوو.", // curtness", please follow LX instructions
+                "بێ‌ڕێزی کلێر وای لێکرد تێڕابمێنێت کە چی بە ھەڵە کردبوو.",
             onPressedBritish: () => speakcurtnesss1("en-GB"),
             onPressedAmerican: () => speakcurtnesss1("en-US"),
           ),

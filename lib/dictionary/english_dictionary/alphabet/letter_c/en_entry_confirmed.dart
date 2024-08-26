@@ -103,7 +103,7 @@ class EnglishEntryconfirmed extends StatelessWidget {
                             englishText:
                                 "This chocolate dessert is the ultimate dish for confirmed chocaholics.",
                             kurdishText:
-                                "ئەم شیرینییە چکلێتە خواردنی باشترین خواردنە بۆ یەکلایی‌کراوە بۆ ئاڵوودە بە چکلێتەکان.", // confirmed",
+                                "ئەم شیرینییە چکلێتە خواردنی باشترین خواردنە بۆ یەکلایی‌کراوە بۆ ئاڵوودە بە چکلێتەکان.",
                             onPressedBritish: () => speakconfirmeds1("en-GB"),
                             onPressedAmerican: () => speakconfirmeds1("en-US"),
                           ),

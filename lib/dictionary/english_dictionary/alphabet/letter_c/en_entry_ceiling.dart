@@ -181,7 +181,7 @@ class EnglishEntryceiling extends StatelessWidget {
                             englishText:
                                 "The walls and ceiling were painted white.",
                             kurdishText:
-                                "دیوارەکان و بنبانەکە بە سپی بۆیە کران.", // ceiling",
+                                "دیوارەکان و بنبانەکە بە سپی بۆیە کران.",
                             onPressedBritish: () => speakceilings1("en-GB"),
                             onPressedAmerican: () => speakceilings1("en-US"),
                           ),

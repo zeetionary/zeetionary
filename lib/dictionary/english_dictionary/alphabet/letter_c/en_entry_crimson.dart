@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The artist used crimson to paint the sunset.",
             kurdishText:
-                "ھونەرمەندەکە ڕەنگی سووری خوێنی بەکارھێنا بۆ کێشانی خۆرئاوابوونەکە.", // crimson", please follow LX instructions
+                "ھونەرمەندەکە ڕەنگی سووری خوێنی بەکارھێنا بۆ کێشانی خۆرئاوابوونەکە.",
             onPressedBritish: () => speakcrimsons1("en-GB"),
             onPressedAmerican: () => speakcrimsons1("en-US"),
           ),

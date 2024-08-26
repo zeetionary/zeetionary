@@ -121,8 +121,7 @@ class EnglishEntrycharming extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The cottage is tiny, but it's charming.",
-                            kurdishText:
-                                "کووخەکە بچووکە، بەڵام دڵڕفێنەرە.", // charming",
+                            kurdishText: "کووخەکە بچووکە، بەڵام دڵڕفێنەرە.",
                             onPressedBritish: () => speakcharmings1("en-GB"),
                             onPressedAmerican: () => speakcharmings1("en-US"),
                           ),

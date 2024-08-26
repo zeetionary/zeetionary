@@ -182,7 +182,7 @@ class EnglishEntrycanister extends StatelessWidget {
                             englishText:
                                 "The tea canister slipped from my grasp, and all the tea spilled.",
                             kurdishText:
-                                "قوتووچاییەکە کەوت لە دەستم و ھەموو گەڵا چاییەکە ڕژا.", // canister
+                                "قوتووچاییەکە کەوت لە دەستم و ھەموو گەڵا چاییەکە ڕژا",
                             onPressedBritish: () => speakcanisters1("en-GB"),
                             onPressedAmerican: () => speakcanisters1("en-US"),
                           ),

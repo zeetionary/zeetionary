@@ -141,7 +141,7 @@ class EnglishEntrybridal extends StatelessWidget {
                             englishText:
                                 "She spent the afternoon trying on bridal gowns for her wedding.",
                             kurdishText:
-                                "نیوەڕۆی بەسەربرد بە تاقیکردنەوەی جلە بووکێنییەکانی بۆ ئاھەنگەکە.", // bridal" as
+                                "نیوەڕۆی بەسەربرد بە تاقیکردنەوەی جلە بووکێنییەکانی بۆ ئاھەنگەکە.",
                             onPressedBritish: () => speakbridals1("en-GB"),
                             onPressedAmerican: () => speakbridals1("en-US"),
                           ),

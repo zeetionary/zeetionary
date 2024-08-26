@@ -175,7 +175,7 @@ class EnglishEntrycathedral extends StatelessWidget {
                             englishText:
                                 "I was woken up by the chimes of the cathedral bells.",
                             kurdishText:
-                                "لە خەو ھەستام بە دەنگی زەنگەکانی کڵێسا گەورەکە.", // cathedral",
+                                "لە خەو ھەستام بە دەنگی زەنگەکانی کڵێسا گەورەکە.",
                             onPressedBritish: () => speakcathedrals1("en-GB"),
                             onPressedAmerican: () => speakcathedrals1("en-US"),
                           ),

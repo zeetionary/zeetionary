@@ -218,8 +218,7 @@ class EnglishEntrycloud extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Dark clouds were gathering in the west.",
-                            kurdishText:
-                                "ھەوری ڕەش لە ڕۆژئاوا کۆدەبوونەوە.", // cloud",
+                            kurdishText: "ھەوری ڕەش لە ڕۆژئاوا کۆدەبوونەوە.",
                             onPressedBritish: () => speakclouds1("en-GB"),
                             onPressedAmerican: () => speakclouds1("en-US"),
                           ),

@@ -178,7 +178,7 @@ class EnglishEntrycensure extends StatelessWidget {
                             englishText:
                                 "He could face censure from his colleagues.",
                             kurdishText:
-                                "دەکرێت ڕووبڕووی سەرکۆنە ببێتەوە لە ھاوکارەکانییەوە.", // censure",
+                                "دەکرێت ڕووبڕووی سەرکۆنە ببێتەوە لە ھاوکارەکانییەوە.",
                             onPressedBritish: () => speakcensures1("en-GB"),
                             onPressedAmerican: () => speakcensures1("en-US"),
                           ),

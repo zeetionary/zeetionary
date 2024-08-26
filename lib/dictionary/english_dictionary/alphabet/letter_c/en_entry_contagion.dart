@@ -101,7 +101,7 @@ class EnglishEntrycontagion extends StatelessWidget {
                           SentencesRow(
                             englishText: "There is no risk of contagion.",
                             kurdishText:
-                                "ھیچ مەترسی تووشبوون/بڵاوبوونەوە نییە.", // contagion",
+                                "ھیچ مەترسی تووشبوون/بڵاوبوونەوە نییە.",
                             onPressedBritish: () => speakcontagions1("en-GB"),
                             onPressedAmerican: () => speakcontagions1("en-US"),
                           ),

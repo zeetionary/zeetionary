@@ -174,7 +174,7 @@ class EnglishEntrycavernous extends StatelessWidget {
                             englishText:
                                 "He opened his cavernous mouth and yawned.",
                             kurdishText:
-                                "دەمە ئەشکەوت‌ئاساکەی کردەوە و باوێشکی دا.", // cavernous",
+                                "دەمە ئەشکەوت‌ئاساکەی کردەوە و باوێشکی دا.",
                             onPressedBritish: () => speakcavernouss1("en-GB"),
                             onPressedAmerican: () => speakcavernouss1("en-US"),
                           ),

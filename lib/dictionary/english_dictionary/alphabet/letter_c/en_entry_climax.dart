@@ -117,7 +117,7 @@ class EnglishEntryclimax extends StatelessWidget {
                             englishText:
                                 "Signing the peace agreement was the climax of his political career.",
                             kurdishText:
-                                "واژۆکردنی ڕێککەوتنی ئاشتی ترۆپکی کاری سیاسیی بوو.", // climax",
+                                "واژۆکردنی ڕێککەوتنی ئاشتی ترۆپکی کاری سیاسیی بوو.",
                             onPressedBritish: () => speakclimaxs1("en-GB"),
                             onPressedAmerican: () => speakclimaxs1("en-US"),
                           ),

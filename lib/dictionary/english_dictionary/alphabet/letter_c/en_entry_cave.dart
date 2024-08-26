@@ -178,7 +178,7 @@ class EnglishEntrycave extends StatelessWidget {
                             englishText:
                                 "The area contains vast underground cave systems.",
                             kurdishText:
-                                "ناوچەکە سیستەمی گەورەی ئەشکەوتی ژێرزەوی لەخۆدەگرێت.", // cave",
+                                "ناوچەکە سیستەمی گەورەی ئەشکەوتی ژێرزەوی لەخۆدەگرێت.",
                             onPressedBritish: () => speakcaves1("en-GB"),
                             onPressedAmerican: () => speakcaves1("en-US"),
                           ),

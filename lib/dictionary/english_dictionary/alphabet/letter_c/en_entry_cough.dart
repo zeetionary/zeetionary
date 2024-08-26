@@ -271,8 +271,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) کۆکەکردن"),
           SentencesRow(
             englishText: "I couldn't stop coughing.",
-            kurdishText:
-                "نەمدەتوانی لە کۆکەکردن بوەستم.", // cough", please follow LX instructions
+            kurdishText: "نەمدەتوانی لە کۆکەکردن بوەستم.",
             onPressedBritish: () => speakcoughs1("en-GB"),
             onPressedAmerican: () => speakcoughs1("en-US"),
           ),

@@ -94,7 +94,7 @@ class EnglishEntrycoatofarms extends StatelessWidget {
                             englishText:
                                 "The royal coat of arms is displayed on official documents.",
                             kurdishText:
-                                "دروشمی شاھانەیی لە بەڵگەنامە فەرمییەکان دەدرێت.", // coat of arms",
+                                "دروشمی شاھانەیی لە بەڵگەنامە فەرمییەکان دەدرێت.",
                             onPressedBritish: () => speakcoatofarmss1("en-GB"),
                             onPressedAmerican: () => speakcoatofarmss1("en-US"),
                           ),

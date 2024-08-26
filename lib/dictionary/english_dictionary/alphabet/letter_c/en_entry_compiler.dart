@@ -94,7 +94,7 @@ class EnglishEntrycompiler extends StatelessWidget {
                             englishText:
                                 "The dictionary compiler researched the meanings of words.",
                             kurdishText:
-                                "کۆکەرەوەی فەرھەنگەکە لێکۆڵینەوەی لە واتای وشەکان کرد.", // compiler",
+                                "کۆکەرەوەی فەرھەنگەکە لێکۆڵینەوەی لە واتای وشەکان کرد.",
                             onPressedBritish: () => speakcompilers1("en-GB"),
                             onPressedAmerican: () => speakcompilers1("en-US"),
                           ),

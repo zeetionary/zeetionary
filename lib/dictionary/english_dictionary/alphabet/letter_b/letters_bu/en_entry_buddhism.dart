@@ -139,7 +139,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
                                   "١. (ناو) بودیزم؛ ئاینێکی ھندی کە زۆرێک لە خەڵکی ئاسیا شوێنی دەکەون و پشتی بە وانەکانی سیدارتا گاوتاما بەستووە"),
                           SentencesRow(
                             englishText: "She became interested in Buddhism.",
-                            kurdishText: "حەزی چوو بۆ بودیزم.", // Buddhism" as
+                            kurdishText: "حەزی چوو بۆ بودیزم.",
                             onPressedBritish: () => speakbuddhisms1("en-GB"),
                             onPressedAmerican: () => speakbuddhisms1("en-US"),
                           ),

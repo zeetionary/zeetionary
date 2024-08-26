@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ترسنۆک؛ نەبوونی زاتی کردنی ئەو شتانەی کە کەسانی دیکە بە زۆر گران داینانێن"),
           SentencesRow(
             englishText: "He was too cowardly to give the order.",
-            kurdishText:
-                "زۆر ترسنۆک بوو کە فەرمان بدات.", // cowardly", please follow LX instructions
+            kurdishText: "زۆر ترسنۆک بوو کە فەرمان بدات.",
             onPressedBritish: () => speakcowardlys1("en-GB"),
             onPressedAmerican: () => speakcowardlys1("en-US"),
           ),

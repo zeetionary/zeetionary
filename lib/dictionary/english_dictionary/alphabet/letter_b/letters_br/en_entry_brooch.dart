@@ -139,7 +139,7 @@ class EnglishEntrybrooch extends StatelessWidget {
                             englishText:
                                 "She pinned a large amethyst brooch to her lapel.",
                             kurdishText:
-                                "سەرسنگەیەکی گەورەی ئەمیتیستی بەست بە ملیوانی چاکەتەکەیەوە.", // brooch" as
+                                "سەرسنگەیەکی گەورەی ئەمیتیستی بەست بە ملیوانی چاکەتەکەیەوە.",
                             onPressedBritish: () => speakbroochs1("en-GB"),
                             onPressedAmerican: () => speakbroochs1("en-US"),
                           ),

@@ -124,7 +124,7 @@ class EnglishEntrychemical extends StatelessWidget {
                             englishText:
                                 "The chemical industry produces such things as petrochemicals and drugs.",
                             kurdishText:
-                                "پیشەسازی کیمیایی شتی وەک پیترۆکیمیایی و مادەی ھۆشبەر.", // chemical",
+                                "پیشەسازی کیمیایی شتی وەک پیترۆکیمیایی و مادەی ھۆشبەر.",
                             onPressedBritish: () => speakchemicals1("en-GB"),
                             onPressedAmerican: () => speakchemicals1("en-US"),
                           ),

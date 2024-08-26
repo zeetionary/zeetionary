@@ -154,7 +154,7 @@ class EnglishEntrycollection extends StatelessWidget {
                             englishText:
                                 "He wanted to share his vast art collection with the world.",
                             kurdishText:
-                                "دەیویست کۆکراوەی زەبەلاحی کارە ھونەرییەکانی لەگەڵ جیھان ھاوبەش بکات.", // collection",
+                                "دەیویست کۆکراوەی زەبەلاحی کارە ھونەرییەکانی لەگەڵ جیھان ھاوبەش بکات.",
                             onPressedBritish: () => speakcollections1("en-GB"),
                             onPressedAmerican: () => speakcollections1("en-US"),
                           ),

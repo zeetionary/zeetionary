@@ -216,7 +216,7 @@ class EnglishEntryconfidence extends StatelessWidget {
                             englishText:
                                 "The president's actions hardly inspire confidence.",
                             kurdishText:
-                                "کردارەکانی سەرۆک بە ئەستەم متمانە دەبەخشێت.", // confidence",
+                                "کردارەکانی سەرۆک بە ئەستەم متمانە دەبەخشێت.",
                             onPressedBritish: () => speakconfidences1("en-GB"),
                             onPressedAmerican: () => speakconfidences1("en-US"),
                           ),

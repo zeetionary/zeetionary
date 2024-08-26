@@ -192,8 +192,7 @@ class EnglishEntrycircle extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ناو) بازنە"),
                           SentencesRow(
                             englishText: "Cut out two circles of paper.",
-                            kurdishText:
-                                "دوو بازنەی کاغەزی بازنەیی ببڕە.", // circle",
+                            kurdishText: "دوو بازنەی کاغەزی بازنەیی ببڕە.",
                             onPressedBritish: () => speakcircles1("en-GB"),
                             onPressedAmerican: () => speakcircles1("en-US"),
                           ),

@@ -182,7 +182,7 @@ class EnglishEntrycancer extends StatelessWidget {
                             englishText:
                                 "Most skin cancers are completely curable.",
                             kurdishText:
-                                "زۆرینەی شێرپەنجەی پێست چارەسەر دەکرێن.", // cancer
+                                "زۆرینەی شێرپەنجەی پێست چارەسەر دەکرێن",
                             onPressedBritish: () => speakcancers1("en-GB"),
                             onPressedAmerican: () => speakcancers1("en-US"),
                           ),

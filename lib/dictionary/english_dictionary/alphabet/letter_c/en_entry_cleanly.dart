@@ -109,8 +109,7 @@ class EnglishEntrycleanly extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The boat moved cleanly through the water.",
-                            kurdishText:
-                                "بەلەمەکە بە نەرمی بە دەریاکەدا ڕۆشت.", // cleanly",
+                            kurdishText: "بەلەمەکە بە نەرمی بە دەریاکەدا ڕۆشت.",
                             onPressedBritish: () => speakcleanlys1("en-GB"),
                             onPressedAmerican: () => speakcleanlys1("en-US"),
                           ),

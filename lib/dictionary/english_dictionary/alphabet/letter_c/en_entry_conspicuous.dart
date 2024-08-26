@@ -117,7 +117,7 @@ class EnglishEntryconspicuous extends StatelessWidget {
                             englishText:
                                 "Mary's red hair always made her conspicuous at school.",
                             kurdishText:
-                                "قژە سوورەکەی ماری ھەمیشە ھەمیشە بەرچاوی دەخست لە قوتابخانە.", // conspicuous",
+                                "قژە سوورەکەی ماری ھەمیشە ھەمیشە بەرچاوی دەخست لە قوتابخانە.",
                             onPressedBritish: () => speakconspicuouss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconspicuouss1("en-US"),

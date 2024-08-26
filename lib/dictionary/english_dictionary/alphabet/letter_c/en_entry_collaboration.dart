@@ -118,7 +118,7 @@ class EnglishEntrycollaboration extends StatelessWidget {
                             englishText:
                                 "It was a collaboration that produced extremely useful results.",
                             kurdishText:
-                                "ھاوکارییەک بوو ئەنجامی تەواو بەسوودی بەرھەمھێنا.", // collaboration",
+                                "ھاوکارییەک بوو ئەنجامی تەواو بەسوودی بەرھەمھێنا.",
                             onPressedBritish: () =>
                                 speakcollaborations1("en-GB"),
                             onPressedAmerican: () =>

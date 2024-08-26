@@ -100,7 +100,7 @@ class EnglishEntrycircuitous extends StatelessWidget {
                             englishText:
                                 "He took us on a circuitous route to the hotel.",
                             kurdishText:
-                                "بە ڕێگایەکی پێچاوپێچدا بردمانی بۆ ھوتێلەکە.", // circuitous",
+                                "بە ڕێگایەکی پێچاوپێچدا بردمانی بۆ ھوتێلەکە.",
                             onPressedBritish: () => speakcircuitouss1("en-GB"),
                             onPressedAmerican: () => speakcircuitouss1("en-US"),
                           ),

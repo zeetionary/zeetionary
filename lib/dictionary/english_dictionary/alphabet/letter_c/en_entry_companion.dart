@@ -129,8 +129,7 @@ class EnglishEntrycompanion extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Geoff was my companion on the journey.",
-                            kurdishText:
-                                "جیۆف لە گەشتەکەدا ھاودەمم بوو.", // companion",
+                            kurdishText: "جیۆف لە گەشتەکەدا ھاودەمم بوو.",
                             onPressedBritish: () => speakcompanions1("en-GB"),
                             onPressedAmerican: () => speakcompanions1("en-US"),
                           ),

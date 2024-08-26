@@ -124,7 +124,7 @@ class EnglishEntrycolony extends StatelessWidget {
                             englishText:
                                 "By 1733, the British had set up a total of 13 colonies in North America.",
                             kurdishText:
-                                "تاوەکو ١٧٣٣، بەریتانیا ١٣ کۆلۆنی لە ئەمریکای باکوور بنیات نابوو.", // colony",
+                                "تاوەکو ١٧٣٣، بەریتانیا ١٣ کۆلۆنی لە ئەمریکای باکوور بنیات نابوو.",
                             onPressedBritish: () => speakcolonys1("en-GB"),
                             onPressedAmerican: () => speakcolonys1("en-US"),
                           ),

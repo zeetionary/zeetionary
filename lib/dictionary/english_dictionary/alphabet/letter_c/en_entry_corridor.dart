@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ڕێگایەکی درێژ و باریکی بینایەک کە دەرگای لە ھەردوو لاوە تێدایە بۆ ناو ژووری دیکە"),
           SentencesRow(
             englishText: "His room is along the corridor.",
-            kurdishText:
-                "ژوورەکەی لە داڵانەکەیە.", // corridor", please follow LX instructions
+            kurdishText: "ژوورەکەی لە داڵانەکەیە.",
             onPressedBritish: () => speakcorridors1("en-GB"),
             onPressedAmerican: () => speakcorridors1("en-US"),
           ),

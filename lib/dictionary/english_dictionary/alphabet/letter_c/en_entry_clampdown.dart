@@ -95,7 +95,7 @@ class EnglishEntryclampdown extends StatelessWidget {
                             englishText:
                                 "Following the military coup, there has been a clampdown on press reporting in the capital.",
                             kurdishText:
-                                "لە دوای کودەتا سەربازییەکە، بەربەندێتییەک لەسەر ڕاپۆرتی ھەواڵییەوە لە پایتەختەوە ھەبووە.", // clampdown",
+                                "لە دوای کودەتا سەربازییەکە، بەربەندێتییەک لەسەر ڕاپۆرتی ھەواڵییەوە لە پایتەختەوە ھەبووە.",
                             onPressedBritish: () => speakclampdowns1("en-GB"),
                             onPressedAmerican: () => speakclampdowns1("en-US"),
                           ),

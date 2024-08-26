@@ -101,7 +101,7 @@ class EnglishEntryconsuming extends StatelessWidget {
                             englishText:
                                 "They both had a consuming interest in cricket.",
                             kurdishText:
-                                "ھەردووکیان حەزێکی بەھێزیان بۆ کریکت ھەبوو.", // consuming",
+                                "ھەردووکیان حەزێکی بەھێزیان بۆ کریکت ھەبوو.",
                             onPressedBritish: () => speakconsumings1("en-GB"),
                             onPressedAmerican: () => speakconsumings1("en-US"),
                           ),

@@ -149,7 +149,7 @@ class EnglishEntryconcede extends StatelessWidget {
                             englishText:
                                 "He was forced to concede (that) there might be difficulties.",
                             kurdishText:
-                                "ناچارکرا ئەوە پەسەند بکات کە ڕەنگە سەختی ھەبێت.", // concede",
+                                "ناچارکرا ئەوە پەسەند بکات کە ڕەنگە سەختی ھەبێت.",
                             onPressedBritish: () => speakconcedes1("en-GB"),
                             onPressedAmerican: () => speakconcedes1("en-US"),
                           ),

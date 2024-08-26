@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He always wears a crash helmet when riding his motorcycle.",
             kurdishText:
-                "ھەمیشە کڵاوێکی پارێزەر لەسەر دەکات کە ماتۆڕسواری دەکات.", // crash helmet", please follow LX instructions
+                "ھەمیشە کڵاوێکی پارێزەر لەسەر دەکات کە ماتۆڕسواری دەکات.",
             onPressedBritish: () => speakcrashhelmets1("en-GB"),
             onPressedAmerican: () => speakcrashhelmets1("en-US"),
           ),

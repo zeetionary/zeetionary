@@ -179,7 +179,7 @@ class EnglishEntrycatching extends StatelessWidget {
                             englishText:
                                 "Flu is catching, so stay away from work.",
                             kurdishText:
-                                "ھەڵامەت ڕاگوێزەرە، بۆیە لە کار دووربە.", // catching",
+                                "ھەڵامەت ڕاگوێزەرە، بۆیە لە کار دووربە.",
                             onPressedBritish: () => speakcatchings1("en-GB"),
                             onPressedAmerican: () => speakcatchings1("en-US"),
                           ),

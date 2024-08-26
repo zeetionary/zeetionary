@@ -185,7 +185,7 @@ class EnglishEntrycandour extends StatelessWidget {
                             englishText:
                                 "‘I don't trust him,’ he said in a rare moment of candour.",
                             kurdishText:
-                                "لە ساتێکی تەواو سەرڕاستیدا وتی 'باوەڕی پێ ناکەم'.", // candour
+                                "لە ساتێکی تەواو سەرڕاستیدا وتی 'باوەڕی پێ ناکەم'",
                             onPressedBritish: () => speakcandours1("en-GB"),
                             onPressedAmerican: () => speakcandours1("en-US"),
                           ),

@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "In ancient Rome, crucifixion was a common method of punishment for criminals.",
             kurdishText:
-                "لە ڕۆمای کۆندا، لەخاچدان ڕێگایەکی باوی سزادان بوو بۆ تاوانباران.", // crucifixion", please follow LX instructions
+                "لە ڕۆمای کۆندا، لەخاچدان ڕێگایەکی باوی سزادان بوو بۆ تاوانباران.",
             onPressedBritish: () => speakcrucifixions1("en-GB"),
             onPressedAmerican: () => speakcrucifixions1("en-US"),
           ),

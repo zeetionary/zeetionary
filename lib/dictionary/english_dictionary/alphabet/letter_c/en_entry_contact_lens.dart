@@ -95,7 +95,7 @@ class EnglishEntrycontactlens extends StatelessWidget {
                             englishText:
                                 "I usually wear contact lenses, but I sometimes wear glasses when my eyes are tired.",
                             kurdishText:
-                                "زۆرجار ھاوێنەی چاو دادەنێم، بەڵام ھەندێک جار چاویلکە لەچاودەکەم کە چاوەکانم ماندوون.", // contact lens",
+                                "زۆرجار ھاوێنەی چاو دادەنێم، بەڵام ھەندێک جار چاویلکە لەچاودەکەم کە چاوەکانم ماندوون.",
                             onPressedBritish: () => speakcontactlenss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcontactlenss1("en-US"),

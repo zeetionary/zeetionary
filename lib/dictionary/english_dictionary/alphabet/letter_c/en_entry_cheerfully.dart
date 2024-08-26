@@ -114,7 +114,7 @@ class EnglishEntrycheerfully extends StatelessWidget {
                             englishText:
                                 "She walked down the road, whistling cheerfully.",
                             kurdishText:
-                                "بە ڕێگاکەدا دەچوو و بە دڵخۆشییەوە فیکەی دەکرد.", // cheerfully",
+                                "بە ڕێگاکەدا دەچوو و بە دڵخۆشییەوە فیکەی دەکرد.",
                             onPressedBritish: () => speakcheerfullys1("en-GB"),
                             onPressedAmerican: () => speakcheerfullys1("en-US"),
                           ),

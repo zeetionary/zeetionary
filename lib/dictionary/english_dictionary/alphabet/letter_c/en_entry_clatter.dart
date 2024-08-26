@@ -115,7 +115,7 @@ class EnglishEntryclatter extends StatelessWidget {
                           SentencesRow(
                             englishText: "His boots clattered on the stairs.",
                             kurdishText:
-                                "پوتینەکانی تەقەیان دەھات لەسەر پلەکانەکە.", // clatter",
+                                "پوتینەکانی تەقەیان دەھات لەسەر پلەکانەکە.",
                             onPressedBritish: () => speakclatters1("en-GB"),
                             onPressedAmerican: () => speakclatters1("en-US"),
                           ),

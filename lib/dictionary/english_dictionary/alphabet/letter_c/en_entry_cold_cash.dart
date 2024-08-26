@@ -93,8 +93,7 @@ class EnglishEntrycoldcash extends StatelessWidget {
                           const AlsoEnglishckb(word: "ھەروەھا: hard cash"),
                           SentencesRow(
                             englishText: "He paid for the car with cold cash.",
-                            kurdishText:
-                                "پارەی ئۆتۆمبێلەکەی دا بە پارەی نەقد.", // cold cash",
+                            kurdishText: "پارەی ئۆتۆمبێلەکەی دا بە پارەی نەقد.",
                             onPressedBritish: () => speakcoldcashs1("en-GB"),
                             onPressedAmerican: () => speakcoldcashs1("en-US"),
                           ),

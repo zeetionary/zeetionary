@@ -268,8 +268,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) ئامادەکردن و بەکارھێنانی زەوی بۆ چاندن"),
           SentencesRow(
             englishText: "The land around here has never been cultivated.",
-            kurdishText:
-                "زەوی ئێرە ھەرگیز نەکێڵدراوە.", // cultivate", please follow LX instructions
+            kurdishText: "زەوی ئێرە ھەرگیز نەکێڵدراوە.",
             onPressedBritish: () => speakcultivates1("en-GB"),
             onPressedAmerican: () => speakcultivates1("en-US"),
           ),

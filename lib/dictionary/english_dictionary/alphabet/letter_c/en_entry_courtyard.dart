@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شوێنێکی کراوە کە بەشێکی یان ھەمووی بە بینا دەوردراوە و زۆرجار بەشێکە لە قەڵایەک، خانوویەکی گەورە، ھتد"),
           SentencesRow(
             englishText: "Her bedroom overlooked the courtyard.",
-            kurdishText:
-                "ژووری خەوەکەی دەیڕوانی بەسەر حەوشەکەدا.", // courtyard", please follow LX instructions
+            kurdishText: "ژووری خەوەکەی دەیڕوانی بەسەر حەوشەکەدا.",
             onPressedBritish: () => speakcourtyards1("en-GB"),
             onPressedAmerican: () => speakcourtyards1("en-US"),
           ),

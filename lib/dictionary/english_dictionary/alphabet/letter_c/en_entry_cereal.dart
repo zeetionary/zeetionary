@@ -180,7 +180,7 @@ class EnglishEntrycereal extends StatelessWidget {
                             englishText:
                                 "Cereal crops are among the most cultivated commodities in the agricultural world.",
                             kurdishText:
-                                "بەرھەمە دانەوێڵەییەکان لەناو چێندراوترین بەروبوومەکانن لە جیھانی کشتوکاڵدا.", // cereal",
+                                "بەرھەمە دانەوێڵەییەکان لەناو چێندراوترین بەروبوومەکانن لە جیھانی کشتوکاڵدا.",
                             onPressedBritish: () => speakcereals1("en-GB"),
                             onPressedAmerican: () => speakcereals1("en-US"),
                           ),

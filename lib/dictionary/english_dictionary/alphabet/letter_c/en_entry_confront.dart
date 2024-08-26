@@ -149,7 +149,7 @@ class EnglishEntryconfront extends StatelessWidget {
                             englishText:
                                 "What is to be done about the economic problems confronting the country?",
                             kurdishText:
-                                "چی پێویستە بکرێت سەبارەت بەو کێشەی ئابوورییانەی ڕووبەڕووی وڵاتەکە دەبنەوە؟", // confront",
+                                "چی پێویستە بکرێت سەبارەت بەو کێشەی ئابوورییانەی ڕووبەڕووی وڵاتەکە دەبنەوە؟",
                             onPressedBritish: () => speakconfronts1("en-GB"),
                             onPressedAmerican: () => speakconfronts1("en-US"),
                           ),

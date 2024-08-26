@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A couple of teenagers were kissing and cuddling on the doorstep.",
             kurdishText:
-                "ژمارەیەک گەنج لە بەردەرگاکە ماچ‌ماچێنیان بوو و یەکیان لە ئامێز دەگرت.", // cuddle", please follow LX instructions
+                "ژمارەیەک گەنج لە بەردەرگاکە ماچ‌ماچێنیان بوو و یەکیان لە ئامێز دەگرت.",
             onPressedBritish: () => speakcuddles1("en-GB"),
             onPressedAmerican: () => speakcuddles1("en-US"),
           ),

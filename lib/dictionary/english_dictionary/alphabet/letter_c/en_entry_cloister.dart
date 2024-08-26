@@ -95,7 +95,7 @@ class EnglishEntrycloister extends StatelessWidget {
                             englishText:
                                 "The 12th century church and cloisters remain surprisingly intact.",
                             kurdishText:
-                                "کڵێسا و داڵانەکەی سەدەی ١٢ـیەم بەشێوەیەکی سەرنجڕاکێش بێ‌خەوش ماوەتەوە.", // cloister",
+                                "کڵێسا و داڵانەکەی سەدەی ١٢ـیەم بەشێوەیەکی سەرنجڕاکێش بێ‌خەوش ماوەتەوە.",
                             onPressedBritish: () => speakcloisters1("en-GB"),
                             onPressedAmerican: () => speakcloisters1("en-US"),
                           ),

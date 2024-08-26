@@ -102,7 +102,7 @@ class EnglishEntrycollude extends StatelessWidget {
                             englishText:
                                 "Several people had colluded in the murder.",
                             kurdishText:
-                                "ژمارەیەک کەس لە کووشتنەکەدا پلانیان گێڕا بوو.", // collude",
+                                "ژمارەیەک کەس لە کووشتنەکەدا پلانیان گێڕا بوو.",
                             onPressedBritish: () => speakcolludes1("en-GB"),
                             onPressedAmerican: () => speakcolludes1("en-US"),
                           ),

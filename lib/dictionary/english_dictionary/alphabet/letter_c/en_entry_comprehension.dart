@@ -115,7 +115,7 @@ class EnglishEntrycomprehension extends StatelessWidget {
                             englishText:
                                 "His behaviour was completely beyond comprehension (= impossible to understand).",
                             kurdishText:
-                                "ھەڵسوکەوتی تەواو لە دەرەوەی توانای تێگەشتن بوو.", // comprehension",
+                                "ھەڵسوکەوتی تەواو لە دەرەوەی توانای تێگەشتن بوو.",
                             onPressedBritish: () =>
                                 speakcomprehensions1("en-GB"),
                             onPressedAmerican: () =>

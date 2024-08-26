@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She enjoyed a fresh croissant with her coffee for breakfast.",
-            kurdishText:
-                "کرواسانێکی تازەی خوارد لەگەڵ قاوەکەی بۆ نانی بەیانی.", // croissant", please follow LX instructions
+            kurdishText: "کرواسانێکی تازەی خوارد لەگەڵ قاوەکەی بۆ نانی بەیانی.",
             onPressedBritish: () => speakcroissants1("en-GB"),
             onPressedAmerican: () => speakcroissants1("en-US"),
           ),

@@ -99,7 +99,7 @@ class EnglishEntrycommercialtraveller extends StatelessWidget {
                             englishText:
                                 "She worked as a commercial traveler for a pharmaceutical company.",
                             kurdishText:
-                                "وەک مەندووبێک بۆ کۆمپانیایەکی دەوا و دەرمان کاری دەکرد.", // commercial traveller",
+                                "وەک مەندووبێک بۆ کۆمپانیایەکی دەوا و دەرمان کاری دەکرد.",
                             onPressedBritish: () =>
                                 speakcommercialtravellers1("en-GB"),
                             onPressedAmerican: () =>

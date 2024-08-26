@@ -118,7 +118,7 @@ class EnglishEntryconfirmation extends StatelessWidget {
                             englishText:
                                 "I'm still waiting for confirmation of the test results.",
                             kurdishText:
-                                "ھێشتا چاوەڕێی پشت‌ڕاست‌کردنەوەی ئەنجامی تاقیکردنەوەکانم.", // confirmation",
+                                "ھێشتا چاوەڕێی پشت‌ڕاست‌کردنەوەی ئەنجامی تاقیکردنەوەکانم.",
                             onPressedBritish: () =>
                                 speakconfirmations1("en-GB"),
                             onPressedAmerican: () =>

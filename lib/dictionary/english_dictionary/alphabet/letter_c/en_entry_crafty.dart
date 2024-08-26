@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) زیرەک لە بەدەستھێنانی ئەوەی دەتەوێت، بەتایبەتی بە فێڵ و تەڵەکەبازی"),
           SentencesRow(
             englishText: "He's a crafty old devil.",
-            kurdishText:
-                "شەیتانێکی فێڵاوی بەتەمەنە.", // crafty", please follow LX instructions
+            kurdishText: "شەیتانێکی فێڵاوی بەتەمەنە.",
             onPressedBritish: () => speakcraftys1("en-GB"),
             onPressedAmerican: () => speakcraftys1("en-US"),
           ),

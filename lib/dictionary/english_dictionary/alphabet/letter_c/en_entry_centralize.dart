@@ -179,7 +179,7 @@ class EnglishEntrycentralize extends StatelessWidget {
                             englishText:
                                 "The law centralized control over the banking industry.",
                             kurdishText:
-                                "یاساکە پیشەسازی بانکداری لە ناوەندێکدا چڕکردەوە.", // centralize",
+                                "یاساکە پیشەسازی بانکداری لە ناوەندێکدا چڕکردەوە.",
                             onPressedBritish: () => speakcentralizes1("en-GB"),
                             onPressedAmerican: () => speakcentralizes1("en-US"),
                           ),

@@ -136,8 +136,7 @@ class EnglishEntrybugger extends StatelessWidget {
                                   "١. (ناو) وشەیەک بۆ پیشاندانی تووڕەیی و بێزاری لە کەسێک"),
                           SentencesRow(
                             englishText: "Come here, you little bugger!",
-                            kurdishText:
-                                "وەرە ئێرە قێزەونی بچووک.", // bugger" as
+                            kurdishText: "وەرە ئێرە قێزەونی بچووک.",
                             onPressedBritish: () => speakbuggers1("en-GB"),
                             onPressedAmerican: () => speakbuggers1("en-US"),
                           ),

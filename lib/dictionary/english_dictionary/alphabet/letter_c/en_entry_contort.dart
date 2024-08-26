@@ -99,8 +99,7 @@ class EnglishEntrycontort extends StatelessWidget {
                                   "١. (کردار) گێڕبوون، سوڕدان، یان چەماندنەوەی شتێک بەشێوەیەک شێوەی سرووشتی بگۆڕێت"),
                           SentencesRow(
                             englishText: "His face contorted with anger.",
-                            kurdishText:
-                                "ڕووخساری لە تووڕەییدا خواروخێچ بوو.", // contort",
+                            kurdishText: "ڕووخساری لە تووڕەییدا خواروخێچ بوو.",
                             onPressedBritish: () => speakcontorts1("en-GB"),
                             onPressedAmerican: () => speakcontorts1("en-US"),
                           ),

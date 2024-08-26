@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەسێک کە پارە و کەلوپەل ساختە دەکات"),
           SentencesRow(
             englishText: "The counterfeiters are criminals.",
-            kurdishText:
-                "ساختەکاران تاوانبارن.", // counterfeiter", please follow LX instructions
+            kurdishText: "ساختەکاران تاوانبارن.",
             onPressedBritish: () => speakcounterfeiters1("en-GB"),
             onPressedAmerican: () => speakcounterfeiters1("en-US"),
           ),

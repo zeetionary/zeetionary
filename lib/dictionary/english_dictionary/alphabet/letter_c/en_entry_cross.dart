@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "As soon as traffic slowed down enough to safely cross, I started walking.",
             kurdishText:
-                "کە ھاتووچۆ ھێندە ھێواش بوویەوە کە بە سەلامەتی بپەڕینەوە، دەستم بە ڕێکردن کرد.", // cross", please follow LX instructions
+                "کە ھاتووچۆ ھێندە ھێواش بوویەوە کە بە سەلامەتی بپەڕینەوە، دەستم بە ڕێکردن کرد.",
             onPressedBritish: () => speakcrosss1("en-GB"),
             onPressedAmerican: () => speakcrosss1("en-US"),
           ),

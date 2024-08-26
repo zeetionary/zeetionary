@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She was so credulous that she believed everything she read online.",
             kurdishText:
-                "زۆر خۆش‌باوەڕ بوو کە باوەڕی بە ھەموو شتێک دەکرد کە لەسەر ئینتەرنێت دەیخوێندەوە.", // credulous", please follow LX instructions
+                "زۆر خۆش‌باوەڕ بوو کە باوەڕی بە ھەموو شتێک دەکرد کە لەسەر ئینتەرنێت دەیخوێندەوە.",
             onPressedBritish: () => speakcredulouss1("en-GB"),
             onPressedAmerican: () => speakcredulouss1("en-US"),
           ),

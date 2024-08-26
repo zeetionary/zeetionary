@@ -100,8 +100,7 @@ class EnglishEntrycookery extends StatelessWidget {
                                   "١. (ناو) ھونەر یان چالاکی لێنان و ئامادەکردنی خواردن"),
                           SentencesRow(
                             englishText: "I'm going on a cookery course.",
-                            kurdishText:
-                                "بەژداری کۆرسێکی چێشتلێنان دەکەم.", // cookery",
+                            kurdishText: "بەژداری کۆرسێکی چێشتلێنان دەکەم.",
                             onPressedBritish: () => speakcookerys1("en-GB"),
                             onPressedAmerican: () => speakcookerys1("en-US"),
                           ),

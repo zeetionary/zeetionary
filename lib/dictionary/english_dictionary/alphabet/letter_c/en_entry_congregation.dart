@@ -110,7 +110,7 @@ class EnglishEntrycongregation extends StatelessWidget {
                             englishText:
                                 "The congregation stood to sing the hymn.",
                             kurdishText:
-                                "خواپەرستان وەستان بۆ وتنەوەی سروودە ئایینییەکە.", // congregation",
+                                "خواپەرستان وەستان بۆ وتنەوەی سروودە ئایینییەکە.",
                             onPressedBritish: () =>
                                 speakcongregations1("en-GB"),
                             onPressedAmerican: () =>

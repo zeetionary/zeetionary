@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Certain nouns may be countable in English and uncountable in another language, or vice versa.",
             kurdishText:
-                "ناوی دیاریکراو ھەن کە دەکرێت ژمێردراو بن لە ئینگلیزیدا و نەژمێردراو بن لە زمانێکی دیکەدا، و بە پێچەوانەوە.", // countable", please follow LX instructions
+                "ناوی دیاریکراو ھەن کە دەکرێت ژمێردراو بن لە ئینگلیزیدا و نەژمێردراو بن لە زمانێکی دیکەدا، و بە پێچەوانەوە.",
             onPressedBritish: () => speakcountables1("en-GB"),
             onPressedAmerican: () => speakcountables1("en-US"),
           ),

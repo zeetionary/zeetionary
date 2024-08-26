@@ -102,7 +102,7 @@ class EnglishEntrycompassion extends StatelessWidget {
                             englishText:
                                 "He was filled with overwhelming love and compassion for his wife.",
                             kurdishText:
-                                "پڕبوو لە خۆشەویستی و دڵسۆزی زۆر بۆ ھاوژینەکەی.", // compassion",
+                                "پڕبوو لە خۆشەویستی و دڵسۆزی زۆر بۆ ھاوژینەکەی.",
                             onPressedBritish: () => speakcompassions1("en-GB"),
                             onPressedAmerican: () => speakcompassions1("en-US"),
                           ),

@@ -163,8 +163,7 @@ class EnglishEntrycommunicate extends StatelessWidget {
                                   "١. (کردار) ئاڵوگۆڕی زانیاری، ھەواڵ، بیرۆکە، ھەست و سۆز، ھتد"),
                           SentencesRow(
                             englishText: "We only communicate by email.",
-                            kurdishText:
-                                "تەنھا بە ئیمەیڵ گفتوگۆ دەکەین.", // communicate",
+                            kurdishText: "تەنھا بە ئیمەیڵ گفتوگۆ دەکەین.",
                             onPressedBritish: () => speakcommunicates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcommunicates1("en-US"),

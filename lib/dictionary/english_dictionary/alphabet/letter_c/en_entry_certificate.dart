@@ -181,7 +181,7 @@ class EnglishEntrycertificate extends StatelessWidget {
                             englishText:
                                 "Everyone entering the country needs to show a health certificate.",
                             kurdishText:
-                                "ھەرکەس کە دێتە وڵاتەکەوە دەبێت بڕوانامەی تەندرووستی پیشان بدات.", // certificate",
+                                "ھەرکەس کە دێتە وڵاتەکەوە دەبێت بڕوانامەی تەندرووستی پیشان بدات.",
                             onPressedBritish: () => speakcertificates1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcertificates1("en-US"),

@@ -101,7 +101,7 @@ class EnglishEntrycontrition extends StatelessWidget {
                             englishText:
                                 "He feels no contrition for what he did.",
                             kurdishText:
-                                "ھەست بە ھیچ پەشیمانییەک ناکات بۆ ئەوەی کردی.", // contrition",
+                                "ھەست بە ھیچ پەشیمانییەک ناکات بۆ ئەوەی کردی.",
                             onPressedBritish: () => speakcontritions1("en-GB"),
                             onPressedAmerican: () => speakcontritions1("en-US"),
                           ),

@@ -284,8 +284,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر خراپ"),
           SentencesRow(
             englishText: "The team played crap yesterday.",
-            kurdishText:
-                "تیمەکە دوێنێ زۆر خراپ یاری کرد.", // crap", please follow LX instructions
+            kurdishText: "تیمەکە دوێنێ زۆر خراپ یاری کرد.",
             onPressedBritish: () => speakcraps1("en-GB"),
             onPressedAmerican: () => speakcraps1("en-US"),
           ),

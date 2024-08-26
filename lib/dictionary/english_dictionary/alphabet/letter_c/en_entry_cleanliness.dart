@@ -100,7 +100,7 @@ class EnglishEntrycleanliness extends StatelessWidget {
                             englishText:
                                 "Some people are obsessive about cleanliness.",
                             kurdishText:
-                                "ھەندێک کەس وەسواسن سەبارەت بە پاکوخاوێنی.", // cleanliness",
+                                "ھەندێک کەس وەسواسن سەبارەت بە پاکوخاوێنی.",
                             onPressedBritish: () => speakcleanlinesss1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcleanlinesss1("en-US"),

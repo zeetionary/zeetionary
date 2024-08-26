@@ -92,7 +92,7 @@ class EnglishEntrychatline extends StatelessWidget {
                             englishText:
                                 "He ran up an enormous phone bill by calling chatlines all the time.",
                             kurdishText:
-                                "وەسڵێکی زۆری پەیوەندی تەلەفۆنی بۆ ھاتەوە بەھۆی ھەمیشە پەیوەندی‌کردنی گرووپی.", // chatline",
+                                "وەسڵێکی زۆری پەیوەندی تەلەفۆنی بۆ ھاتەوە بەھۆی ھەمیشە پەیوەندی‌کردنی گرووپی.",
                             onPressedBritish: () => speakchatlines1("en-GB"),
                             onPressedAmerican: () => speakchatlines1("en-US"),
                           ),

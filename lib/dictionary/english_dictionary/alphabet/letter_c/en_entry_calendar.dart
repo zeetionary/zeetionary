@@ -183,7 +183,7 @@ class EnglishEntrycalendar extends StatelessWidget {
                             englishText:
                                 "An old calendar for 2012 was still hanging on the wall of her office.",
                             kurdishText:
-                                "ڕۆژمێرێکی کۆنی ٢٠١٢ ھێشتا لەسەر دیواری ئۆفیسەکەی ھەڵواسرابوو.", // calendar
+                                "ڕۆژمێرێکی کۆنی ٢٠١٢ ھێشتا لەسەر دیواری ئۆفیسەکەی ھەڵواسرابوو",
                             onPressedBritish: () => speakcalendars1("en-GB"),
                             onPressedAmerican: () => speakcalendars1("en-US"),
                           ),

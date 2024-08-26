@@ -139,7 +139,7 @@ class EnglishEntrybroccoli extends StatelessWidget {
                             englishText:
                                 "My son is a picky eater, and the only vegetable he likes is broccoli.",
                             kurdishText:
-                                "منداڵەکەم لە خواردندا بە وڕکە و تەنھا سەوزە حەزی لێیە برۆکلییە.", // broccoli" as
+                                "منداڵەکەم لە خواردندا بە وڕکە و تەنھا سەوزە حەزی لێیە برۆکلییە.",
                             onPressedBritish: () => speakbroccolis1("en-GB"),
                             onPressedAmerican: () => speakbroccolis1("en-US"),
                           ),

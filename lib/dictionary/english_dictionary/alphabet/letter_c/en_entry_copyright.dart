@@ -140,7 +140,7 @@ class EnglishEntrycopyright extends StatelessWidget {
                             englishText:
                                 "Copyright expires seventy years after the death of the author.",
                             kurdishText:
-                                "مافی بڵاوکردنەوە حەفتا ساڵ لە دوای گیان لەدەستدانی نووسەر کۆتایی دێت.", // copyright",
+                                "مافی بڵاوکردنەوە حەفتا ساڵ لە دوای گیان لەدەستدانی نووسەر کۆتایی دێت.",
                             onPressedBritish: () => speakcopyrights1("en-GB"),
                             onPressedAmerican: () => speakcopyrights1("en-US"),
                           ),

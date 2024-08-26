@@ -139,8 +139,7 @@ class EnglishEntrycommend extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She was commended on her handling of the situation.",
-                            kurdishText:
-                                "ستایشکرا بۆ مامەڵەی لەگەڵ دۆخەکە.", // commend",
+                            kurdishText: "ستایشکرا بۆ مامەڵەی لەگەڵ دۆخەکە.",
                             onPressedBritish: () => speakcommends1("en-GB"),
                             onPressedAmerican: () => speakcommends1("en-US"),
                           ),

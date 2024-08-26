@@ -101,7 +101,7 @@ class EnglishEntrycompliance extends StatelessWidget {
                             englishText:
                                 "Safety measures were carried out in compliance with paragraph 6 of the building regulations.",
                             kurdishText:
-                                "ڕێوشوێنی سەلامەتی ئەنجامدرا بە پابەندی بە پەرەگرافی ٦ ـی ڕێساکانی بیناسازی.", // compliance",
+                                "ڕێوشوێنی سەلامەتی ئەنجامدرا بە پابەندی بە پەرەگرافی ٦ ـی ڕێساکانی بیناسازی.",
                             onPressedBritish: () => speakcompliances1("en-GB"),
                             onPressedAmerican: () => speakcompliances1("en-US"),
                           ),

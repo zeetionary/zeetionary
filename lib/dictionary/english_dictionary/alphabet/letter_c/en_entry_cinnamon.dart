@@ -102,7 +102,7 @@ class EnglishEntrycinnamon extends StatelessWidget {
                             englishText:
                                 "Sprinkle the baked apples with a little sugar and cinnamon.",
                             kurdishText:
-                                "کەمێک شەکر و دارچینی بپرژێنە بەسەر سێوە برژێنراوەکەدا.", // cinnamon",
+                                "کەمێک شەکر و دارچینی بپرژێنە بەسەر سێوە برژێنراوەکەدا.",
                             onPressedBritish: () => speakcinnamons1("en-GB"),
                             onPressedAmerican: () => speakcinnamons1("en-US"),
                           ),

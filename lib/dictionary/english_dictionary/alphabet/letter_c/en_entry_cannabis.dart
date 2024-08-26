@@ -182,7 +182,7 @@ class EnglishEntrycannabis extends StatelessWidget {
                             englishText:
                                 "Cannabis has been cultivated for centuries for its versatile applications.",
                             kurdishText:
-                                "گیابەنگ بۆ چەندین سەدەیە چاندراوە بەھۆی بەکارھێنانە جۆراوجۆرەکانی.", // cannabis
+                                "گیابەنگ بۆ چەندین سەدەیە چاندراوە بەھۆی بەکارھێنانە جۆراوجۆرەکانی",
                             onPressedBritish: () => speakcannabiss1("en-GB"),
                             onPressedAmerican: () => speakcannabiss1("en-US"),
                           ),

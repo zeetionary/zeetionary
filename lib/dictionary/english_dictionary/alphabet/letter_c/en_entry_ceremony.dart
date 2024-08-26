@@ -180,7 +180,7 @@ class EnglishEntryceremony extends StatelessWidget {
                             englishText:
                                 "More than 1 000 people attended the ceremony.",
                             kurdishText:
-                                "زیاتر لە ١٠٠٠ کەس بەژداری ڕێوڕەسمەکە بوون.", // ceremony",
+                                "زیاتر لە ١٠٠٠ کەس بەژداری ڕێوڕەسمەکە بوون.",
                             onPressedBritish: () => speakceremonys1("en-GB"),
                             onPressedAmerican: () => speakceremonys1("en-US"),
                           ),

@@ -95,7 +95,7 @@ class EnglishEntrycoldwar extends StatelessWidget {
                             englishText:
                                 "The Cold War dominated international relations for much of the 20th century.",
                             kurdishText:
-                                "جەنگی سارد بابەتی گرنگی پەیوەندییە نێودەوڵەتییەکان بوو بۆ زۆرینەی سەدەی ٢٠ ـەم.", // cold war",
+                                "جەنگی سارد بابەتی گرنگی پەیوەندییە نێودەوڵەتییەکان بوو بۆ زۆرینەی سەدەی ٢٠ ـەم.",
                             onPressedBritish: () => speakcoldwars1("en-GB"),
                             onPressedAmerican: () => speakcoldwars1("en-US"),
                           ),

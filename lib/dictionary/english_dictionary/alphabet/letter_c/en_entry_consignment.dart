@@ -100,8 +100,7 @@ class EnglishEntryconsignment extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "A consignment of medicines is on its way now.",
-                            kurdishText:
-                                "بارە دەرمانێک لە ڕێگایە.", // consignment",
+                            kurdishText: "بارە دەرمانێک لە ڕێگایە.",
                             onPressedBritish: () => speakconsignments1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsignments1("en-US"),

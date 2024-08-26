@@ -98,7 +98,7 @@ class EnglishEntrychilly extends StatelessWidget {
                               text: "١. (ھاوەڵناو) زۆر سارد"),
                           SentencesRow(
                             englishText: "It's chilly today.",
-                            kurdishText: "ئەمڕۆ زۆر ساردە.", // chilly",
+                            kurdishText: "ئەمڕۆ زۆر ساردە.",
                             onPressedBritish: () => speakchillys1("en-GB"),
                             onPressedAmerican: () => speakchillys1("en-US"),
                           ),

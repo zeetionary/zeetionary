@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شوێنێک بۆ چاودێری منداڵان لە کاتێکدا دایک و باوکیان کاری دیکە دەکەن"),
           SentencesRow(
             englishText: "Younger children can be left in the crèche.",
-            kurdishText:
-                "منداڵانی بچووک دەکرێت لە دایەنگەکە جێبھێڵدرێن.", // creche", please follow LX instructions
+            kurdishText: "منداڵانی بچووک دەکرێت لە دایەنگەکە جێبھێڵدرێن.",
             onPressedBritish: () => speakcreches1("en-GB"),
             onPressedAmerican: () => speakcreches1("en-US"),
           ),

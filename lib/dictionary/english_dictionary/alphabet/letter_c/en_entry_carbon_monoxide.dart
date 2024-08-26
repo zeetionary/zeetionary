@@ -180,7 +180,7 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
                             englishText:
                                 "In closed spaces, carbon monoxide can be deadly.",
                             kurdishText:
-                                "لە ژینگەی داخراودا، تاکۆکسیدی کاربۆن دەکرێت کوشندە بێت.", // carbon monoxide",
+                                "لە ژینگەی داخراودا، تاکۆکسیدی کاربۆن دەکرێت کوشندە بێت.",
                             onPressedBritish: () =>
                                 speakcarbonmonoxides1("en-GB"),
                             onPressedAmerican: () =>

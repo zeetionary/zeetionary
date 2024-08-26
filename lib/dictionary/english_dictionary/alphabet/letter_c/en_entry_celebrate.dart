@@ -183,7 +183,7 @@ class EnglishEntrycelebrate extends StatelessWidget {
                             englishText:
                                 "Jake's passed his exams. We're going out to celebrate.",
                             kurdishText:
-                                "جەیک تاقیکردنەوەکەی تێپەڕاند. دەچینە دەرەوە بۆ جەژن‌گێڕان.", // celebrate",
+                                "جەیک تاقیکردنەوەکەی تێپەڕاند. دەچینە دەرەوە بۆ جەژن‌گێڕان.",
                             onPressedBritish: () => speakcelebrates1("en-GB"),
                             onPressedAmerican: () => speakcelebrates1("en-US"),
                           ),

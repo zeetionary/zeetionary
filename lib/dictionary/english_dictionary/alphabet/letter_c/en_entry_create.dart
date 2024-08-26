@@ -306,8 +306,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Scientists disagree about how the universe was created.",
-            kurdishText:
-                "زاناکان ناکۆکن لەسەر ئەوەی گەردوون چۆن درووست بوو.", // create", please follow LX instructions
+            kurdishText: "زاناکان ناکۆکن لەسەر ئەوەی گەردوون چۆن درووست بوو.",
             onPressedBritish: () => speakcreates1("en-GB"),
             onPressedAmerican: () => speakcreates1("en-US"),
           ),

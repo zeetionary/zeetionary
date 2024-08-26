@@ -118,7 +118,7 @@ class EnglishEntrychampionship extends StatelessWidget {
                             englishText:
                                 "He won a silver medal at the European Championships.",
                             kurdishText:
-                                "مەدالیای زیوی بردەوە لە پاڵەوانێتی ئەورووپادا.", // championship",
+                                "مەدالیای زیوی بردەوە لە پاڵەوانێتی ئەورووپادا.",
                             onPressedBritish: () =>
                                 speakchampionships1("en-GB"),
                             onPressedAmerican: () =>

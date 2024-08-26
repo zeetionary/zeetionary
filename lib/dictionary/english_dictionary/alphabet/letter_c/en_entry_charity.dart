@@ -131,7 +131,7 @@ class EnglishEntrycharity extends StatelessWidget {
                             englishText:
                                 "Many charities sent money to help the victims of the famine.",
                             kurdishText:
-                                "زۆر ڕێکخراوی خێرخوازی پارەیان نارد بۆ یارمەتیدانی قوربانیانی وشکەساڵییەکە.", // charity",
+                                "زۆر ڕێکخراوی خێرخوازی پارەیان نارد بۆ یارمەتیدانی قوربانیانی وشکەساڵییەکە.",
                             onPressedBritish: () => speakcharitys1("en-GB"),
                             onPressedAmerican: () => speakcharitys1("en-US"),
                           ),

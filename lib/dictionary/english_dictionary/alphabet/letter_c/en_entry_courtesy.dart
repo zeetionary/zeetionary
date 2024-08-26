@@ -263,8 +263,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ھەڵسوکەوتی جوان کە ڕێز بۆ کەسانی دیکە پیشان دەدات"),
           SentencesRow(
             englishText: "I was treated with the utmost courtesy by the staff.",
-            kurdishText:
-                "بەوپەڕێ ڕێزەوە لەلایەن ستافەوە مامەڵەم لەگەڵ کرا.", // courtesy", please follow LX instructions
+            kurdishText: "بەوپەڕێ ڕێزەوە لەلایەن ستافەوە مامەڵەم لەگەڵ کرا.",
             onPressedBritish: () => speakcourtesys1("en-GB"),
             onPressedAmerican: () => speakcourtesys1("en-US"),
           ),

@@ -111,7 +111,7 @@ class EnglishEntryconveyance extends StatelessWidget {
                             englishText:
                                 "The conveyance of goods by rail is often preferred for long-distance transportation.",
                             kurdishText:
-                                "گواستنەوەی کەلوپەل بە شەمەندەفەر زۆرجار بە باشتر دادەنرێت بۆ گواستنەوەی دوور مەودا.", // conveyance",
+                                "گواستنەوەی کەلوپەل بە شەمەندەفەر زۆرجار بە باشتر دادەنرێت بۆ گواستنەوەی دوور مەودا.",
                             onPressedBritish: () => speakconveyances1("en-GB"),
                             onPressedAmerican: () => speakconveyances1("en-US"),
                           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Slice each courgette down the middle and remove the flesh.",
             kurdishText:
-                "ھەر کوولەکەسەوزەیەک لا ناوەڕاستدا کەرت بکە و ناوەکەی دەربکە.", // courgette", please follow LX instructions
+                "ھەر کوولەکەسەوزەیەک لا ناوەڕاستدا کەرت بکە و ناوەکەی دەربکە.",
             onPressedBritish: () => speakcourgettes1("en-GB"),
             onPressedAmerican: () => speakcourgettes1("en-US"),
           ),

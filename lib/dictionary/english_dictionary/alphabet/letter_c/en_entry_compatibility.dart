@@ -105,7 +105,7 @@ class EnglishEntrycompatibility extends StatelessWidget {
                             englishText:
                                 "The compatibility of brothers and sisters depends on their personalities.",
                             kurdishText:
-                                "پێکەوە گونجانی خوشک و برا دەکەوێتە سەر کەسایەتییان.", // compatibility",
+                                "پێکەوە گونجانی خوشک و برا دەکەوێتە سەر کەسایەتییان.",
                             onPressedBritish: () =>
                                 speakcompatibilitys1("en-GB"),
                             onPressedAmerican: () =>

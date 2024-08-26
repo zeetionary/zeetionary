@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئامێرێکی میوزیکی لە شێوەی دەفرێکی کانزایی خڕدا. بە دارێک لێی دەدرێت یان دوو دانە دەکێشرێت بە یەکدا"),
           SentencesRow(
             englishText: "The piece ends with a cymbal crash.",
-            kurdishText:
-                "بەشەکە بە کێشانی سیمباڵ بە یەکدا کۆتایی دێت.", // cymbal", please follow LX instructions
+            kurdishText: "بەشەکە بە کێشانی سیمباڵ بە یەکدا کۆتایی دێت.",
             onPressedBritish: () => speakcymbals1("en-GB"),
             onPressedAmerican: () => speakcymbals1("en-US"),
           ),

@@ -102,8 +102,7 @@ class EnglishEntrycigarette extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "There were three cigarette butts in the ashtray.",
-                            kurdishText:
-                                "سێ بنەجگەرە لە تەپڵکەکەدا ھەبووون.", // cigarette",
+                            kurdishText: "سێ بنەجگەرە لە تەپڵکەکەدا ھەبووون.",
                             onPressedBritish: () => speakcigarettes1("en-GB"),
                             onPressedAmerican: () => speakcigarettes1("en-US"),
                           ),

@@ -183,7 +183,7 @@ class EnglishEntrycaretaker extends StatelessWidget {
                             englishText:
                                 "The school hired a caretaker to oversee maintenance and cleanliness.",
                             kurdishText:
-                                "خوێندنگەکە چاودێرێکی بە کرێ گرت بۆ سەرپەرشتی ئاگالێ‌بوون و پاکی.", // caretaker",
+                                "خوێندنگەکە چاودێرێکی بە کرێ گرت بۆ سەرپەرشتی ئاگالێ‌بوون و پاکی.",
                             onPressedBritish: () => speakcaretakers1("en-GB"),
                             onPressedAmerican: () => speakcaretakers1("en-US"),
                           ),

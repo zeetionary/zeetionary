@@ -108,7 +108,7 @@ class EnglishEntrycomplimentary extends StatelessWidget {
                             englishText:
                                 "The hotel offers a complimentary breakfast.",
                             kurdishText:
-                                "ھوتێلەکە نانی بەیانی بە خۆڕایی دەدات.", // complimentary",
+                                "ھوتێلەکە نانی بەیانی بە خۆڕایی دەدات.",
                             onPressedBritish: () =>
                                 speakcomplimentarys1("en-GB"),
                             onPressedAmerican: () =>

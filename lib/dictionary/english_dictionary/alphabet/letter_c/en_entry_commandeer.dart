@@ -95,7 +95,7 @@ class EnglishEntrycommandeer extends StatelessWidget {
                             englishText:
                                 "The soldiers had commandeered the farm and the villa five months ago.",
                             kurdishText:
-                                "سەربازەکان کۆنترۆڵی کێڵگە و ڤێلاکەیان پێنج مانگ پێش ئێستا کردبوو.", // commandeer",
+                                "سەربازەکان کۆنترۆڵی کێڵگە و ڤێلاکەیان پێنج مانگ پێش ئێستا کردبوو.",
                             onPressedBritish: () => speakcommandeers1("en-GB"),
                             onPressedAmerican: () => speakcommandeers1("en-US"),
                           ),

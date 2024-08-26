@@ -234,8 +234,8 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The agency specializes in counter-espionage to protect national security.",
             kurdishText:
-                "ئاژانسەکە شارەزایی ھەیە لە پەرچەسیخوڕی بۆ پاراستنی ئاسایشی نیشتیمانی.", // counter-espionage", please follow LX instructions
-            onPressedBritish: () => speakcounterespionages1("en-GB"),
+                "ئاژانسەکە شارەزایی ھەیە لە پەرچەسیخوڕی بۆ پاراستنی ئاسایشی نیشتیمانی.",
+                            onPressedBritish: () => speakcounterespionages1("en-GB"),
             onPressedAmerican: () => speakcounterespionages1("en-US"),
           ),
         ],

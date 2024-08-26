@@ -443,7 +443,7 @@ class EnglishEntrycast extends StatelessWidget {
                                   "١. (کردار) سەیرکردن، پێکەنین، ھتد بە ئاراستەیەکی دیاریکراودا"),
                           SentencesRow(
                             englishText: "I cast an angry look at him.",
-                            kurdishText: "نیگایەکی ڕقاویم لێ‌کرد.", // cast",
+                            kurdishText: "نیگایەکی ڕقاویم لێ‌کرد.",
                             onPressedBritish: () => speakcasts1("en-GB"),
                             onPressedAmerican: () => speakcasts1("en-US"),
                           ),

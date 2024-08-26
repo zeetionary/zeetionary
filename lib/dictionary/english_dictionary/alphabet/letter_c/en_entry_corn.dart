@@ -106,7 +106,7 @@ class EnglishEntrycorn extends StatelessWidget {
                                   "١. (ناو) ھەر ڕووەکێک کە بۆ دەنکەکەی دەڕوێنرێت، بۆ نموونە گەنم؛ دەنکی ئەم ڕووەکانە"),
                           SentencesRow(
                             englishText: "The corn is still green.",
-                            kurdishText: "دەغڵ‌ودانەکە ھێشتا سەوزە.", // corn",
+                            kurdishText: "دەغڵ‌ودانەکە ھێشتا سەوزە.",
                             onPressedBritish: () => speakcorns1("en-GB"),
                             onPressedAmerican: () => speakcorns1("en-US"),
                           ),

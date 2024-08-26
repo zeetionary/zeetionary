@@ -140,7 +140,7 @@ class EnglishEntrybudding extends StatelessWidget {
                             englishText:
                                 "The budding young star is now hot property in Hollywood.",
                             kurdishText:
-                                "ئەستێرە گەنجە تازەپشکووەکە ناوێکی گەرمە لە ھۆڵیھوددا.", // budding" as
+                                "ئەستێرە گەنجە تازەپشکووەکە ناوێکی گەرمە لە ھۆڵیھوددا.",
                             onPressedBritish: () => speakbuddings1("en-GB"),
                             onPressedAmerican: () => speakbuddings1("en-US"),
                           ),

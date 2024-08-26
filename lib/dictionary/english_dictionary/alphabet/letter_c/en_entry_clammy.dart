@@ -92,8 +92,7 @@ class EnglishEntryclammy extends StatelessWidget {
                                   "١. (ھاوەڵناو) کەمێک تەڕ بەشێوەیەک کە بێزراوە"),
                           SentencesRow(
                             englishText: "His skin felt cold and clammy.",
-                            kurdishText:
-                                "پێستی سارد و تەڕولینج بوو.", // clammy",
+                            kurdishText: "پێستی سارد و تەڕولینج بوو.",
                             onPressedBritish: () => speakclammys1("en-GB"),
                             onPressedAmerican: () => speakclammys1("en-US"),
                           ),

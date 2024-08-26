@@ -127,7 +127,7 @@ class EnglishEntryclinic extends StatelessWidget {
                             englishText:
                                 "He was treated at the hospital's eye clinic.",
                             kurdishText:
-                                "لە کلینکی چاوی نەخۆشخانەکە چارەسەرکرا.", // clinic",
+                                "لە کلینکی چاوی نەخۆشخانەکە چارەسەرکرا.",
                             onPressedBritish: () => speakclinics1("en-GB"),
                             onPressedAmerican: () => speakclinics1("en-US"),
                           ),

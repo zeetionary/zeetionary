@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "You must check the correctness of HTML coding manually.",
-            kurdishText:
-                "دەبێت خۆکارانە بۆ درووستی کۆدی HTML بگەڕێیت.", // correctness", please follow LX instructions
+            kurdishText: "دەبێت خۆکارانە بۆ درووستی کۆدی HTML بگەڕێیت.",
             onPressedBritish: () => speakcorrectnesss1("en-GB"),
             onPressedAmerican: () => speakcorrectnesss1("en-US"),
           ),

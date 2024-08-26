@@ -154,7 +154,7 @@ class EnglishEntryconsequence extends StatelessWidget {
                             englishText:
                                 "Remember that actions have consequences.",
                             kurdishText:
-                                "بیرت بێت کردار ئەنجامی ھەیە.", // consequence",
+                                "بیرت بێت کردار ئەنجامی ھەیە.",
                             onPressedBritish: () => speakconsequences1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsequences1("en-US"),

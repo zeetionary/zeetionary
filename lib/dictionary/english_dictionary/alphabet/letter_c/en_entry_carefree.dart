@@ -175,7 +175,7 @@ class EnglishEntrycarefree extends StatelessWidget {
                               text: "١. (ھاوەڵناو) کەسێک کە ئەرک و خەمی نییە"),
                           SentencesRow(
                             englishText: "He looked happy and carefree.",
-                            kurdishText: "جڵخۆش و بێ‌خەم دیارە.", // carefree",
+                            kurdishText: "جڵخۆش و بێ‌خەم دیارە.",
                             onPressedBritish: () => speakcarefrees1("en-GB"),
                             onPressedAmerican: () => speakcarefrees1("en-US"),
                           ),

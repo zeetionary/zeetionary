@@ -117,7 +117,7 @@ class EnglishEntrycontend extends StatelessWidget {
                             englishText:
                                 "I would contend that the minister's thinking is flawed on this point.",
                             kurdishText:
-                                "جەخت لەوە دەکەمەوە بیرکردنەوەی وەزیرەکە شاشە لەم خاڵەدا.", // contend",
+                                "جەخت لەوە دەکەمەوە بیرکردنەوەی وەزیرەکە شاشە لەم خاڵەدا.",
                             onPressedBritish: () => speakcontends1("en-GB"),
                             onPressedAmerican: () => speakcontends1("en-US"),
                           ),

@@ -180,7 +180,7 @@ class EnglishEntrycarpet extends StatelessWidget {
                             englishText:
                                 "He spent the morning laying the new carpet.",
                             kurdishText:
-                                "بەیانییەکەی بەسەر برد بە داخستنی فەرشە تازەکە.", // carpet",
+                                "بەیانییەکەی بەسەر برد بە داخستنی فەرشە تازەکە.",
                             onPressedBritish: () => speakcarpets1("en-GB"),
                             onPressedAmerican: () => speakcarpets1("en-US"),
                           ),

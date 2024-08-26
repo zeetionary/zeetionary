@@ -126,7 +126,7 @@ class EnglishEntryclassify extends StatelessWidget {
                             englishText:
                                 "The books in the library are classified according to subject.",
                             kurdishText:
-                                "کتێبەکانی کتێبخانەکە بەپێی بابەت پۆلێنکراون.", // classify",
+                                "کتێبەکانی کتێبخانەکە بەپێی بابەت پۆلێنکراون.",
                             onPressedBritish: () => speakclassifys1("en-GB"),
                             onPressedAmerican: () => speakclassifys1("en-US"),
                           ),

@@ -100,7 +100,7 @@ class EnglishEntrycivilly extends StatelessWidget {
                                   "١. (ھاوەڵکار) بەشێوەیەکی فەرمی و بەڕێزەوە"),
                           SentencesRow(
                             englishText: "She greeted him civilly.",
-                            kurdishText: "بەڕێزەوە خێراتنی کرد.", // civilly",
+                            kurdishText: "بەڕێزەوە خێراتنی کرد.",
                             onPressedBritish: () => speakcivillys1("en-GB"),
                             onPressedAmerican: () => speakcivillys1("en-US"),
                           ),

@@ -175,7 +175,7 @@ class EnglishEntrycenotaph extends StatelessWidget {
                             englishText:
                                 "The city unveiled a new cenotaph in the town square to honor fallen soldiers.",
                             kurdishText:
-                                "شارەکە شارەکە پەردەی لادا لەسەر مۆنومێنتێکی تازە لە شارۆچکەکە بۆ ڕێزگرتن لە سەربازانی گیان‌بەختکردوو.", // cenotaph",
+                                "شارەکە شارەکە پەردەی لادا لەسەر مۆنومێنتێکی تازە لە شارۆچکەکە بۆ ڕێزگرتن لە سەربازانی گیان‌بەختکردوو.",
                             onPressedBritish: () => speakcenotaphs1("en-GB"),
                             onPressedAmerican: () => speakcenotaphs1("en-US"),
                           ),

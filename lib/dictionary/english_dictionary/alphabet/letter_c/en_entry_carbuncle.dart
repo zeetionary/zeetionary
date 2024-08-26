@@ -178,7 +178,7 @@ class EnglishEntrycarbuncle extends StatelessWidget {
                             englishText:
                                 "The carbuncle on his neck required medical attention due to its size and discomfort.",
                             kurdishText:
-                                "دومەڵی سەر ملی پێویستی بە چاودێری تەندرووستی بوو بەھۆی قەبارە و ناڕەحەتییەکەی.", // carbuncle",
+                                "دومەڵی سەر ملی پێویستی بە چاودێری تەندرووستی بوو بەھۆی قەبارە و ناڕەحەتییەکەی.",
                             onPressedBritish: () => speakcarbuncles1("en-GB"),
                             onPressedAmerican: () => speakcarbuncles1("en-US"),
                           ),

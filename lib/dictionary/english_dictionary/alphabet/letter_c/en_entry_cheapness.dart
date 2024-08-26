@@ -90,7 +90,7 @@ class EnglishEntrycheapness extends StatelessWidget {
                             englishText:
                                 "The relative cheapness of foreign travel means that more people are going abroad than ever before.",
                             kurdishText:
-                                "تاڕادەیەک ھەرزانی گەشت بۆ دەرەوە واتا خەڵکی زیاتر بۆ دەرەوە دەچن زیاتر لە ھەر کاتێکی دیکە.", // cheapness",
+                                "تاڕادەیەک ھەرزانی گەشت بۆ دەرەوە واتا خەڵکی زیاتر بۆ دەرەوە دەچن زیاتر لە ھەر کاتێکی دیکە.",
                             onPressedBritish: () => speakcheapnesss1("en-GB"),
                             onPressedAmerican: () => speakcheapnesss1("en-US"),
                           ),

@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She stopped by the cybercafe to check her email.",
             kurdishText:
-                "لە قاوەخانە کۆمپیوتەرییەکە وەستا بۆ پشکنینی ئیمەیڵەکەی.", // cybercafe", please follow LX instructions
+                "لە قاوەخانە کۆمپیوتەرییەکە وەستا بۆ پشکنینی ئیمەیڵەکەی.",
             onPressedBritish: () => speakcybercafes1("en-GB"),
             onPressedAmerican: () => speakcybercafes1("en-US"),
           ),

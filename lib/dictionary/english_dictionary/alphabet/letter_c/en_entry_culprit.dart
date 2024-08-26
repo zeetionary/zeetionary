@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەسێک کە شتێکی کردووە کە ھەڵە یان نایاساییە"),
           SentencesRow(
             englishText: "The police quickly identified the real culprits.",
-            kurdishText:
-                "پۆلیس بەخێرایی بەرپرسە ڕاستییەکانی دۆزییەوە.", // culprit", please follow LX instructions
+            kurdishText: "پۆلیس بەخێرایی بەرپرسە ڕاستییەکانی دۆزییەوە.",
             onPressedBritish: () => speakculprits1("en-GB"),
             onPressedAmerican: () => speakculprits1("en-US"),
           ),

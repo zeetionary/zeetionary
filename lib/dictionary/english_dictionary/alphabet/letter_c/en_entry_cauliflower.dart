@@ -172,7 +172,7 @@ class EnglishEntrycauliflower extends StatelessWidget {
 ١. (ناو) قەرنابیت؛ سەوزەیەک کە گەڵای سەوزی پێوەیە لە دەوری ناوکێکی سپی لە گوڵ"""),
                           SentencesRow(
                             englishText: "Do you like cauliflower?",
-                            kurdishText: "حەزت بە قەرنابیتە؟", // cauliflower",
+                            kurdishText: "حەزت بە قەرنابیتە؟",
                             onPressedBritish: () => speakcauliflowers1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcauliflowers1("en-US"),

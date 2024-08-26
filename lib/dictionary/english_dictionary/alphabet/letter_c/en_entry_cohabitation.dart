@@ -97,7 +97,7 @@ class EnglishEntrycohabitation extends StatelessWidget {
                             englishText:
                                 "There have been great changes in the patterns of marriage, divorce and cohabitation.",
                             kurdishText:
-                                "گۆڕانکاری زۆر ڕوویداوە لە شێوازی ھاوسەرگیری، جیابوونەوە، و پێکەوەژیان.", // cohabitation",
+                                "گۆڕانکاری زۆر ڕوویداوە لە شێوازی ھاوسەرگیری، جیابوونەوە، و پێکەوەژیان.",
                             onPressedBritish: () =>
                                 speakcohabitations1("en-GB"),
                             onPressedAmerican: () =>

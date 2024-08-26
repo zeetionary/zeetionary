@@ -95,7 +95,7 @@ class EnglishEntrycolloquial extends StatelessWidget {
                             englishText:
                                 "The teacher explained the concept in colloquial terms.",
                             kurdishText:
-                                "مامۆستاکە چەمکی وتە نافەرمییەکانی ڕوونکردەوە.", // colloquial",
+                                "مامۆستاکە چەمکی وتە نافەرمییەکانی ڕوونکردەوە.",
                             onPressedBritish: () => speakcolloquials1("en-GB"),
                             onPressedAmerican: () => speakcolloquials1("en-US"),
                           ),

@@ -141,7 +141,7 @@ class EnglishEntrybrittle extends StatelessWidget {
                           SentencesRow(
                             englishText: "The paint was brittle with age.",
                             kurdishText:
-                                "تابلۆکە بە تێپەڕبوونی کات ناسک بووبوو.", // brittle" as
+                                "تابلۆکە بە تێپەڕبوونی کات ناسک بووبوو.",
                             onPressedBritish: () => speakbrittles1("en-GB"),
                             onPressedAmerican: () => speakbrittles1("en-US"),
                           ),

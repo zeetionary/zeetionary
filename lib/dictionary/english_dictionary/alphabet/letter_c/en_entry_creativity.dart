@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Creativity and originality are more important than technical skill.",
-            kurdishText:
-                "داھێنەری و ڕەسەنێتی گرنگترن لە شارەزایی تەکنیکی.", // creativity", please follow LX instructions
+            kurdishText: "داھێنەری و ڕەسەنێتی گرنگترن لە شارەزایی تەکنیکی.",
             onPressedBritish: () => speakcreativitys1("en-GB"),
             onPressedAmerican: () => speakcreativitys1("en-US"),
           ),

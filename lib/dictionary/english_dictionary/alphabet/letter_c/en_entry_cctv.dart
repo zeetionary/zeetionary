@@ -182,7 +182,7 @@ class EnglishEntrycctv extends StatelessWidget {
                             englishText:
                                 "The whole incident was captured on CCTV.",
                             kurdishText:
-                                "تەواوی ڕووداوەکە لەلایەن کامێرای چاودێرییەوە گیردرا.", // CCTV",
+                                "تەواوی ڕووداوەکە لەلایەن کامێرای چاودێرییەوە گیردرا.",
                             onPressedBritish: () => speakCCTVs1("en-GB"),
                             onPressedAmerican: () => speakCCTVs1("en-US"),
                           ),

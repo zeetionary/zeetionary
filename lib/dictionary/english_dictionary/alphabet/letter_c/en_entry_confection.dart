@@ -102,7 +102,7 @@ class EnglishEntryconfection extends StatelessWidget {
                             englishText:
                                 "Her confections are always as stunning to look at as they are delicious to eat.",
                             kurdishText:
-                                "شیرینییەکانی ھەمیشە سەرنجڕاکێشن بۆ سەیرکردن بەوپێیەی خۆشن بۆ خواردن.", // confection",
+                                "شیرینییەکانی ھەمیشە سەرنجڕاکێشن بۆ سەیرکردن بەوپێیەی خۆشن بۆ خواردن.",
                             onPressedBritish: () => speakconfections1("en-GB"),
                             onPressedAmerican: () => speakconfections1("en-US"),
                           ),

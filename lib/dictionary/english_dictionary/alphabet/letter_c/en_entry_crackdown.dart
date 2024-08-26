@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The government has ordered a crackdown on truancy.",
             kurdishText:
-                "حکومەت بڕیاری ڕێوشوێنی توندی دژ بە خۆدزینەوە لە خوێندن داوە.", // crackdown", please follow LX instructions
+                "حکومەت بڕیاری ڕێوشوێنی توندی دژ بە خۆدزینەوە لە خوێندن داوە.",
             onPressedBritish: () => speakcrackdowns1("en-GB"),
             onPressedAmerican: () => speakcrackdowns1("en-US"),
           ),

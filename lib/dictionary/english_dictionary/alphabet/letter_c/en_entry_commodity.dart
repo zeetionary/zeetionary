@@ -109,8 +109,7 @@ class EnglishEntrycommodity extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Crude oil is the world's most important commodity.",
-                            kurdishText:
-                                "نەوتی خاو گرنگترین بەرھەمی جیھانە.", // commodity",
+                            kurdishText: "نەوتی خاو گرنگترین بەرھەمی جیھانە.",
                             onPressedBritish: () => speakcommoditys1("en-GB"),
                             onPressedAmerican: () => speakcommoditys1("en-US"),
                           ),

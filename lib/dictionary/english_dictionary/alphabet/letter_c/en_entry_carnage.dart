@@ -177,8 +177,7 @@ class EnglishEntrycarnage extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The scene of carnage was indescribable.",
-                            kurdishText:
-                                "دیمەنی کوشت‌وبڕەکە باسنەدەکرا.", // carnage",
+                            kurdishText: "دیمەنی کوشت‌وبڕەکە باسنەدەکرا.",
                             onPressedBritish: () => speakcarnages1("en-GB"),
                             onPressedAmerican: () => speakcarnages1("en-US"),
                           ),

@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakedible(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("edible");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakedible(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("edible");
   }
 
@@ -339,13 +341,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakedibles1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The food at the hotel was barely edible.");
   }
 
   Future<void> speakedibles2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The vegetables were old but still looked edible.");
   }
 

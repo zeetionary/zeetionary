@@ -271,7 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeffortlessly(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("effortlessly");
   }
 
@@ -319,7 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeffortlessly(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("effortlessly");
   }
 
@@ -340,7 +342,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeffortlesslys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "She runs so effortlessly, as if it's the easiest thing in the world.");
   }

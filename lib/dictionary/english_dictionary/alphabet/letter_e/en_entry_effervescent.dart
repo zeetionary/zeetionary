@@ -271,7 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeffervescent(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("effervescent");
   }
 
@@ -319,7 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeffervescent(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("effervescent");
   }
 
@@ -340,7 +342,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeffervescents1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "She's one of those effervescent personalities that you often see hosting TV game shows.");
   }

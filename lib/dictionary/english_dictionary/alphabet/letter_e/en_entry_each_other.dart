@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeachother(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("each other");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeachother(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("each other");
   }
 
@@ -339,19 +341,22 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeachothers1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("They looked at each other and laughed.");
   }
 
   Future<void> speakeachothers2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("We can wear each other's clothes.");
   }
 
   Future<void> speakeachothers3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Don and Susie really loved each other.");
   }
 

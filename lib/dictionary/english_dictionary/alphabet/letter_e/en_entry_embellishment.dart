@@ -271,7 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakembellishment(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("embellishment");
   }
 
@@ -319,7 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakembellishment(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("embellishment");
   }
 
@@ -340,13 +342,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakembellishments1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Good pasta needs very little embellishment.");
   }
 
   Future<void> speakembellishments2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "She's an actress whose beauty needs no Hollywood embellishment.");
   }

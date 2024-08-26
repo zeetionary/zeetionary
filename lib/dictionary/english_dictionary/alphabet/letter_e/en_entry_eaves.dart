@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeaves(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("eaves");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeaves(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("eaves");
   }
 
@@ -339,7 +341,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeavess1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Birds built a nest under the eaves.");
   }
 

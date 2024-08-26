@@ -271,7 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakemirate(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("emirate");
   }
 
@@ -319,7 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakemirate(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("emirate");
   }
 
@@ -347,7 +349,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemirates2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The emirate has its own legal system.");
   }
 

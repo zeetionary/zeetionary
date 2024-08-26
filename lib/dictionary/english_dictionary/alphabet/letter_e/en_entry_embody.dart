@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakembody(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("embody");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakembody(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("embody");
   }
 
@@ -339,7 +341,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakembodys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("These ideals were embodied in the constitution.");
   }
 
@@ -352,7 +355,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakembodys3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("This model embodies many new features.");
   }
 

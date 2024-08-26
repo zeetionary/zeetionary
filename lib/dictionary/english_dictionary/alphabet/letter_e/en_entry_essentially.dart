@@ -24,7 +24,8 @@ class _EnglishEntryessentiallyState extends State<EnglishEntryessentially> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""essentially""");
   }
 
@@ -242,7 +243,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         """There are three essentially different ways of tackling the problem.""");
   }

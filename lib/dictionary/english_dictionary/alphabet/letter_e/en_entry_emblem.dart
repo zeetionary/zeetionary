@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakemblem(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("emblem");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakemblem(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("emblem");
   }
 
@@ -339,13 +341,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemblems1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("A rose is the national emblem of England.");
   }
 
   Future<void> speakemblems2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The dove is an emblem of peace.");
   }
 

@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakemployment(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("employment");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakemployment(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("employment");
   }
 
@@ -339,7 +341,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemployments1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "They are finding it more and more difficult to find employment.");
   }
@@ -353,7 +356,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemployments3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She hoped to secure employment in the IT sector.");
   }
 
@@ -366,14 +370,16 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemployments5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The latest employment figures show a fall in the number of people who are out of work.");
   }
 
   Future<void> speakemployments6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The company's employment practices have been widely criticized.");
   }

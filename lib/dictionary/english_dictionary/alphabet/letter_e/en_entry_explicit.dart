@@ -23,7 +23,8 @@ class _EnglishEntryexplicitState extends State<EnglishEntryexplicit> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""explicit""");
   }
 
@@ -248,7 +249,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         """She made some very explicit references to my personal life.""");
   }
@@ -269,7 +271,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         """The book contains a highly explicit description of torture.""");
   }

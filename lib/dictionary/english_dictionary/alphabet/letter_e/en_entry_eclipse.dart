@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeclipse(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("eclipse");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeclipse(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("eclipse");
   }
 
@@ -339,7 +341,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeclipses1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "On Wednesday there will be a total/partial eclipse of the sun.");
   }
@@ -360,13 +363,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeclipses4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The moon will be totally eclipsed at 12.10 p.m.");
   }
 
   Future<void> speakeclipses5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Though a talented player, he was completely eclipsed by his brother.");
   }

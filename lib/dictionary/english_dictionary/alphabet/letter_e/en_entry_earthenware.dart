@@ -271,7 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakearthenware(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("earthenware");
   }
 
@@ -319,7 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakearthenware(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("earthenware");
   }
 
@@ -340,7 +342,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakearthenwares1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The production of earthenware in Japan goes back many centuries.");
   }

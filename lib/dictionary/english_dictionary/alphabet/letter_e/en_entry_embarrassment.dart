@@ -271,7 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakembarrassment(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("embarrassment");
   }
 
@@ -319,7 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakembarrassment(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("embarrassment");
   }
 
@@ -340,33 +342,38 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakembarrassments1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I nearly died of embarrassment when he said that.");
   }
 
   Future<void> speakembarrassments2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Much to her embarrassment, she realized that everybody had been listening to her singing.");
   }
 
   Future<void> speakembarrassments3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Helen changed the subject to save me the embarrassment of replying.");
   }
 
   Future<void> speakembarrassments4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I felt some embarrassment as we shook hands.");
   }
 
   Future<void> speakembarrassments5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She smiled to hide her slight embarrassment.");
   }
 
@@ -379,14 +386,16 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakembarrassments7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The agreement was made in secret to avoid public embarrassment.");
   }
 
   Future<void> speakembarrassments8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Poor Lucy! He's such an embarrassment to her.");
   }
 

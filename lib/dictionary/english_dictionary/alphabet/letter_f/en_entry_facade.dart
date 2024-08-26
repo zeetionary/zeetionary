@@ -23,7 +23,8 @@ class _EnglishEntryfacadeState extends State<EnglishEntryfacade> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""facade""");
   }
 
@@ -255,7 +256,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""We are fed up with this façade of democracy.""");
   }
 

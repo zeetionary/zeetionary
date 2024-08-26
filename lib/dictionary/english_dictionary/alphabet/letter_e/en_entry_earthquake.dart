@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakearthquake(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("earthquake");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakearthquake(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("earthquake");
   }
 
@@ -339,13 +341,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakearthquakes1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I was asleep when the earthquake struck.");
   }
 
   Future<void> speakearthquakes2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Much of the town was destroyed in the earthquake.");
   }
 
@@ -358,7 +362,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakearthquakes4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The area has not experienced a major earthquake in more than 700 years.");
   }

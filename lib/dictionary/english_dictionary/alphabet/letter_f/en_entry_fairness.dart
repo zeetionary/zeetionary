@@ -23,7 +23,8 @@ class _EnglishEntryfairnessState extends State<EnglishEntryfairness> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""fairness""");
   }
 
@@ -255,7 +256,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""A tan emphasized the fairness of her hair.""");
   }
 

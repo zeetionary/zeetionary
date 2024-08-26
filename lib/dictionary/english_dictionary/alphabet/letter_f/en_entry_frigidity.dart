@@ -78,7 +78,8 @@ A lack of affection or enthusiasm (= coldness, coolness, frigidness, iciness, ch
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""frigidity""");
   }
 
@@ -98,7 +99,8 @@ A lack of affection or enthusiasm (= coldness, coolness, frigidness, iciness, ch
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         """The psychologist believes sexual frigidity is rooted in childhood trauma.""");
   }

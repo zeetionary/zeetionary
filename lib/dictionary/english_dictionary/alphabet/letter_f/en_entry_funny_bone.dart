@@ -76,7 +76,8 @@ Usage: Brit, Cdn (US: crazy bone)
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""funny bone""");
   }
 

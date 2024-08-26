@@ -24,7 +24,8 @@ class _EnglishEntryexcommunicateState extends State<EnglishEntryexcommunicate> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""excommunicate""");
   }
 

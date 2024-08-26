@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeasily(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("easily");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeasily(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("easily");
   }
 
@@ -339,13 +341,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeasilys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The software is easily available.");
   }
 
   Future<void> speakeasilys2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I can easily finish it tonight.");
   }
 
@@ -358,13 +362,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeasilys4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("We won easily by six goals to two.");
   }
 
   Future<void> speakeasilys5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Are you sure you locked the gate? You could easily have forgotten.");
   }
@@ -378,7 +384,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeasilys7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("It's easily the best play I've seen this year.");
   }
 
@@ -391,13 +398,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeasilys9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I get bored easily.");
   }
 
   Future<void> speakeasilys10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("He's easily distracted.");
   }
 

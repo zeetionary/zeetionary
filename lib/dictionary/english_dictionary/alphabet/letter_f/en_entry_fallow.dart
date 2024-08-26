@@ -23,7 +23,8 @@ class _EnglishEntryfallowState extends State<EnglishEntryfallow> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""fallow""");
   }
 
@@ -241,7 +242,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         """After a long fallow period, the author has brought out a new book.""");
   }

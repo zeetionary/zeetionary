@@ -23,7 +23,8 @@ class _EnglishEntryemptyState extends State<EnglishEntryempty> {
 
   Future<void> speakempty(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("empty");
   }
 
@@ -234,37 +235,43 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemptys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I noticed an empty space on the bookshelf.");
   }
 
   Future<void> speakemptys2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I couldn't see any empty seats.");
   }
 
   Future<void> speakemptys3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The theatre was half empty.");
   }
 
   Future<void> speakemptys4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("As it got later, the streets became empty.");
   }
 
   Future<void> speakemptys5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The house had been standing empty for some time.");
   }
 
   Future<void> speakemptys6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The room was empty of furniture.");
   }
 
@@ -284,26 +291,30 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemptys9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Too many empty threats and your child will soon learn to ignore you.");
   }
 
   Future<void> speakemptys10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("They're just empty promises.");
   }
 
   Future<void> speakemptys11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("My life seems empty without you.");
   }
 
   Future<void> speakemptys12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("We all feel very empty now she's gone.");
   }
 
@@ -323,7 +334,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemptys15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("He emptied his glass and asked for a refill.");
   }
 
@@ -336,31 +348,36 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemptys17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She emptied her mind of all thoughts of home.");
   }
 
   Future<void> speakemptys18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The beach gradually emptied of people.");
   }
 
   Future<void> speakemptys19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The streets soon emptied of shoppers.");
   }
 
   Future<void> speakemptys20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The room gradually emptied out.");
   }
 
   Future<void> speakemptys21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("He stepped outside to empty the trash.");
   }
 
@@ -380,20 +397,23 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemptys24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She emptied the water out of the vase.");
   }
 
   Future<void> speakemptys25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Police had instructions to empty the building because of a bomb threat.");
   }
 
   Future<void> speakemptys26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The Rhine empties into the North Sea.");
   }
 

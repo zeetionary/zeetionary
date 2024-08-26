@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakemphatic(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("emphatic");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakemphatic(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("emphatic");
   }
 
@@ -339,14 +341,16 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemphatics1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The minister has issued an emphatic rejection of the accusation.");
   }
 
   Future<void> speakemphatics2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("He was emphatic that he could not work with her.");
   }
 
@@ -359,7 +363,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakemphatics4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Poland reached the final of the championship yesterday with an emphatic 5–0 victory over Italy.");
   }

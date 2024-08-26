@@ -134,7 +134,7 @@ class EnglishEntrybrokenhome extends StatelessWidget {
                           SentencesRow(
                             englishText: "She comes from a broken home.",
                             kurdishText:
-                                "لە خێزانێکی داڕماو گەورەبووە.", // broken home" as
+                                "لە خێزانێکی داڕماو گەورەبووە.",
                             onPressedBritish: () => speakbrokenhomes1("en-GB"),
                             onPressedAmerican: () => speakbrokenhomes1("en-US"),
                           ),

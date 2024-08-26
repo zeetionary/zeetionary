@@ -272,7 +272,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelementaryschool(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("elementary school");
   }
 
@@ -320,7 +321,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelementaryschool(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("elementary school");
   }
 
@@ -341,7 +343,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelementaryschools1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She teaches elementary school in Atlanta.");
   }
 

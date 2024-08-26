@@ -23,7 +23,8 @@ class _EnglishEntryequateState extends State<EnglishEntryequate> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""equate""");
   }
 

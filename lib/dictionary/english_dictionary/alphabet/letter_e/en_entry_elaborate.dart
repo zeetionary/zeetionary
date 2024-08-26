@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelaborate(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("elaborate");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelaborate(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("elaborate");
   }
 
@@ -339,26 +341,30 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelaborates1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She had prepared a very elaborate meal.");
   }
 
   Future<void> speakelaborates2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("It all turned out to be an elaborate hoax.");
   }
 
   Future<void> speakelaborates3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "He said he was resigning but did not elaborate on his reasons.");
   }
 
   Future<void> speakelaborates4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Let me briefly elaborate on this.");
   }
 
@@ -371,7 +377,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelaborates6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "In his plays he takes simple traditional tales and elaborates them.");
   }

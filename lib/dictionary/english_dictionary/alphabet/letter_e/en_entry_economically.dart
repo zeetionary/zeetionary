@@ -271,7 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakeconomically(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("economically");
   }
 
@@ -320,7 +321,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakeconomically(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("economically");
   }
 
@@ -341,7 +343,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeconomicallys1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The factory is no longer economically viable.");
   }
 
@@ -361,13 +364,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeconomicallys4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I'll do the job as economically as possible.");
   }
 
   Future<void> speakeconomicallys5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Learn to express yourself more economically.");
   }
 

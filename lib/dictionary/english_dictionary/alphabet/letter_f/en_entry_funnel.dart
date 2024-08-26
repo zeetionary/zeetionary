@@ -85,13 +85,15 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""funnel""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         """After you grind the coffee, use a funnel to pour it into the jar.""");
   }
@@ -119,7 +121,8 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""Wind was funnelling through the gorge.""");
   }
 

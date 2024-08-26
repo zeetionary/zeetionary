@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakearmark(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("earmark");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakearmark(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("earmark");
   }
 
@@ -339,20 +341,23 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakearmarks1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The money had been earmarked for spending on new school buildings.");
   }
 
   Future<void> speakearmarks2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The factory has been earmarked for closure.");
   }
 
   Future<void> speakearmarks3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She was earmarked early as a possible champion.");
   }
 
@@ -365,7 +370,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakearmarks5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "Federal earmarks for scientific research can be based on political connections and lobbying.");
   }

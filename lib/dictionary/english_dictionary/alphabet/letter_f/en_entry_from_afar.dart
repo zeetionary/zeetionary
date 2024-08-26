@@ -13,13 +13,15 @@ class EnglishEntryafar extends StatelessWidget {
 
   Future<void> speakafar(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("from afar");
   }
 
   Future<void> speakafa2569(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Even from afar the castle was most impressive.");
   }
 

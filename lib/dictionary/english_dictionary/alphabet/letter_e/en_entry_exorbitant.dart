@@ -23,7 +23,8 @@ class _EnglishEntryexorbitantState extends State<EnglishEntryexorbitant> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""exorbitant""");
   }
 

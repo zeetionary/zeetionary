@@ -272,7 +272,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakelectromagnetic(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("electromagnetic");
   }
 
@@ -320,7 +321,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakelectromagnetic(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("electromagnetic");
   }
 
@@ -341,7 +343,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakelectromagnetics1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "An electromagnetic wave is created as a result of the interaction between an electric field and a magnetic field.");
   }

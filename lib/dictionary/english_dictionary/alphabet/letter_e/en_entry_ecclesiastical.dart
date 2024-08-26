@@ -272,7 +272,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakecclesiastical(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("ecclesiastical");
   }
 
@@ -320,7 +321,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakecclesiastical(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("ecclesiastical");
   }
 
@@ -341,13 +343,15 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakecclesiasticals1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The town has many ecclesiastical buildings.");
   }
 
   Future<void> speakecclesiasticals2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("She enjoys reading ecclesiastical history.");
   }
 

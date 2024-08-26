@@ -176,7 +176,7 @@ class EnglishEntrybyelection extends StatelessWidget {
                             englishText:
                                 "She resigned as an MP, triggering a by-election.",
                             kurdishText:
-                                "وەک ئەندام پەرلەمان دەستی لەکارکێشایەوە و ھەڵبژاردنێک بەدوایدا ھات.", // by-election", follow LX strictly
+                                "وەک ئەندام پەرلەمان دەستی لەکارکێشایەوە و ھەڵبژاردنێک بەدوایدا ھات.",
                             onPressedBritish: () => speakbyelections1("en-GB"),
                             onPressedAmerican: () => speakbyelections1("en-US"),
                           ),

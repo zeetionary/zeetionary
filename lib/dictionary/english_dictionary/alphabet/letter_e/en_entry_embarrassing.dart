@@ -271,7 +271,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakembarrassing(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("embarrassing");
   }
 
@@ -319,7 +320,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakembarrassing(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("embarrassing");
   }
 
@@ -347,20 +349,23 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakembarrassings2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "It can be embarrassing for children to tell complete strangers about such incidents.");
   }
 
   Future<void> speakembarrassings3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("It was so embarrassing having to sing in public.");
   }
 
   Future<void> speakembarrassings4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "My mother's presence made the situation even more embarrassing.");
   }
@@ -374,7 +379,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakembarrassings6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The report is likely to prove highly embarrassing to the government.");
   }

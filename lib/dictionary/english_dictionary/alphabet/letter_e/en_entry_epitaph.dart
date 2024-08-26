@@ -23,7 +23,8 @@ class _EnglishEntryepitaphState extends State<EnglishEntryepitaph> {
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""epitaph""");
   }
 

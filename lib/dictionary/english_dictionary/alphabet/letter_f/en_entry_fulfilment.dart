@@ -77,7 +77,8 @@ Usage: N. Amer (elsewhere: fulfilment)
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""fulfilment""");
   }
 
@@ -104,7 +105,8 @@ Usage: N. Amer (elsewhere: fulfilment)
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         """The fulfilment of online orders remains a challenge for many retailers.""");
   }

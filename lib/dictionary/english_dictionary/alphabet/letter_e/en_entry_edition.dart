@@ -270,7 +270,8 @@ class TTSUK extends StatelessWidget {
 
   Future<void> speakedition(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("edition");
   }
 
@@ -318,7 +319,8 @@ class TTSUS extends StatelessWidget {
 
   Future<void> speakedition(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("edition");
   }
 
@@ -339,21 +341,24 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeditions1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The paperback/hardback edition of his book is published in July.");
   }
 
   Future<void> speakeditions2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "The regional editions of the paper contain specific information for that area.");
   }
 
   Future<void> speakeditions3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("The dictionary is now in its tenth edition.");
   }
 
@@ -380,7 +385,8 @@ class KurdishMeaning extends StatelessWidget {
 
   Future<void> speakeditions7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
         "It was originally published in 1836 in an edition of 500 copies.");
   }

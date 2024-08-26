@@ -133,7 +133,7 @@ class EnglishEntrybronzemedal extends StatelessWidget {
                           SentencesRow(
                             englishText: "She won (a) bronze at the Olympics.",
                             kurdishText:
-                                "لە ئۆڵۆمپیاددا خەڵاتی برۆنزی بردەوە.", // bronze medal" as
+                                "لە ئۆڵۆمپیاددا خەڵاتی برۆنزی بردەوە.",
                             onPressedBritish: () => speakbronzemedals1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbronzemedals1("en-US"),

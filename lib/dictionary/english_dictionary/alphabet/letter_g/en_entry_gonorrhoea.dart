@@ -75,7 +75,8 @@ Usage: Brit, Cdn (US: gonorrhea)
 
   Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
-
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""gonorrhoea""");
   }
 

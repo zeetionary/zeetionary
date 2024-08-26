@@ -275,7 +275,7 @@ class EnglishEntrybreast extends StatelessWidget {
                           SentencesRow(
                             englishText: "She put the baby to her breast.",
                             kurdishText:
-                                "منداڵەکەی نا بە مەمکییەوە (شیری پێدا).", // breast" as
+                                "منداڵەکەی نا بە مەمکییەوە (شیری پێدا).",
                             onPressedBritish: () => speakbreasts1("en-GB"),
                             onPressedAmerican: () => speakbreasts1("en-US"),
                           ),

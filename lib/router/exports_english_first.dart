@@ -5028,11 +5028,11 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_hardy.dart' show EnglishEntryhardy
 // en_entry_hardiness.dart' show EnglishEntryhardiness
 // en_entry_hare.dart' show EnglishEntryhare
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hare_brained.dart' show EnglishEntryharebrained //// ffff hare-brained
+// en_entry_harem.dart' show EnglishEntryharem
+// en_entry_hark.dart' show EnglishEntryhark
+// en_entry_harm.dart' show EnglishEntryharm
+// en_entry_harmful.dart' show EnglishEntryharmful
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

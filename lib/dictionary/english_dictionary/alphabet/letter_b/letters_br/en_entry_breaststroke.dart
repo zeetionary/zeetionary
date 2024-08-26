@@ -138,7 +138,7 @@ class EnglishEntrybreaststroke extends StatelessWidget {
                           SentencesRow(
                             englishText: "I can only do the breaststroke.",
                             kurdishText:
-                                "تەنھا دەتوانم بۆقەمەلە بکەم.", // breaststroke" as
+                                "تەنھا دەتوانم بۆقەمەلە بکەم.",
                             onPressedBritish: () =>
                                 speakbreaststrokes1("en-GB"),
                             onPressedAmerican: () =>

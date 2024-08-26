@@ -102,7 +102,7 @@ class EnglishEntryconsequent extends StatelessWidget {
                             englishText:
                                 "The use of harmful chemicals and the consequent damage to the environment is a very serious matter.",
                             kurdishText:
-                                "بەکارھێنانی مادە زیانبەخشەکان و زیانی لێکەوتووی بۆ ژینگە بابەتێکی گرنگە.", // consequent",
+                                "بەکارھێنانی مادە زیانبەخشەکان و زیانی لێکەوتووی بۆ ژینگە بابەتێکی گرنگە.",
                             onPressedBritish: () => speakconsequents1("en-GB"),
                             onPressedAmerican: () => speakconsequents1("en-US"),
                           ),

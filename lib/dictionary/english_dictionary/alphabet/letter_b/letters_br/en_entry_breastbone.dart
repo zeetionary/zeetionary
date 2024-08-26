@@ -139,7 +139,7 @@ class EnglishEntrybreastbone extends StatelessWidget {
                             englishText:
                                 "The surgeon carefully incised the breastbone during the heart surgery.",
                             kurdishText:
-                                "نەشتەرگەرەکە بە وریاییەوە چۆڵەمەی کردەوە لەکاتی نەشتەرگەری دڵیدا.", // breastbone" as
+                                "نەشتەرگەرەکە بە وریاییەوە چۆڵەمەی کردەوە لەکاتی نەشتەرگەری دڵیدا.",
                             onPressedBritish: () => speakbreastbones1("en-GB"),
                             onPressedAmerican: () => speakbreastbones1("en-US"),
                           ),

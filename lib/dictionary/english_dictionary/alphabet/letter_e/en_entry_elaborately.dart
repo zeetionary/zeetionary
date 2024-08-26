@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The company makes elaborately carved wooden chairs.""",
             kurdishText:
-                """کۆمپانیاکە کورسیی وەستایانە داتاشراو درووست دەکات.""", // elaborately
+                """کۆمپانیاکە کورسیی وەستایانە داتاشراو درووست دەکات.""",
             onPressedBritish: () => speakelaboratelys1("en-GB"),
             onPressedAmerican: () => speakelaboratelys1("en-US"),
           ),

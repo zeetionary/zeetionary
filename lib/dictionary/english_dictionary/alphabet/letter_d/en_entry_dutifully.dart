@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We laughed dutifully at all his jokes, even the ones that weren’t funny.""",
             kurdishText:
-                """بەڕێزەوە بە ھەموو نوکتەکانی پێکەنین، تانەنت ئەوانەش کە پێکەنیناوی نەبوون.""", // dutifully
+                """بەڕێزەوە بە ھەموو نوکتەکانی پێکەنین، تانەنت ئەوانەش کە پێکەنیناوی نەبوون.""",
             onPressedBritish: () => speakdutifullys1("en-GB"),
             onPressedAmerican: () => speakdutifullys1("en-US"),
           ),

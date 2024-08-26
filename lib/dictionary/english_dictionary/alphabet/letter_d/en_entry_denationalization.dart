@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The last years of the 20th century were marked by some wide-ranging denationalizations.",
             kurdishText:
-                "کۆتا ساڵەکانی سەدەی ٢٠ ژمارەیەکی بەرچاو لە بە‌کەرتی تایبەت کردنی بەخۆوە بینی.", // denationalization
+                "کۆتا ساڵەکانی سەدەی ٢٠ ژمارەیەکی بەرچاو لە بە‌کەرتی تایبەت کردنی بەخۆوە بینی.",
             onPressedBritish: () => speakdenationalizations1("en-GB"),
             onPressedAmerican: () => speakdenationalizations1("en-US"),
           ),

@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵناو) پیاوێک یان کوڕێک کە ژنانە یان کچانە ڕەفتار دەکات"""),
           SentencesRow(
             englishText: """He's got a very effeminate manner/voice.""",
-            kurdishText: """ھەڵسوکەوتی/دەنگی ژنانەی ھەیە.""", // effeminate
+            kurdishText: """ھەڵسوکەوتی/دەنگی ژنانەی ھەیە.""",
             onPressedBritish: () => speakeffeminates1("en-GB"),
             onPressedAmerican: () => speakeffeminates1("en-US"),
           ),

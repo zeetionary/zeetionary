@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بوارێکی زانست و زانیاری یان چالاکی"),
           SentencesRow(
             englishText: "Financial matters are her domain.",
-            kurdishText: "بابەتی دارایی بوارەکەیەتی.", // domain
+            kurdishText: "بابەتی دارایی بوارەکەیەتی.",
             onPressedBritish: () => speakdomains1("en-GB"),
             onPressedAmerican: () => speakdomains1("en-US"),
           ),

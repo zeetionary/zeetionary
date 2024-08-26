@@ -373,8 +373,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (کردار) واکردنی ئەوەی شتێک بە کارەبا کار  بکات"""),
           SentencesRow(
             englishText: """The railway line was electrified in the 1950s.""",
-            kurdishText:
-                """ھێڵی شەمەندەفەرەکە بە کارەبا کرا لە ساڵی ١٩٥٠.""", // electrify
+            kurdishText: """ھێڵی شەمەندەفەرەکە بە کارەبا کرا لە ساڵی ١٩٥٠.""",
             onPressedBritish: () => speakelectrifys1("en-GB"),
             onPressedAmerican: () => speakelectrifys1("en-US"),
           ),

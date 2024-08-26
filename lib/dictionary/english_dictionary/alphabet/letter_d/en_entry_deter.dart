@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I told him I wasn't interested, but he wasn't deterred.",
-            kurdishText: "گوتم حەزم پێی نییە، بەڵام کۆڵی نەدا.", // deter
+            kurdishText: "گوتم حەزم پێی نییە، بەڵام کۆڵی نەدا.",
             onPressedBritish: () => speakdeters1("en-GB"),
             onPressedAmerican: () => speakdeters1("en-US"),
           ),

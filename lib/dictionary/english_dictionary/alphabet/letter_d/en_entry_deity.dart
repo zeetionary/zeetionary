@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Many animals were seen as the manifestation of a deity.",
-            kurdishText: "زۆر ئاژەڵ لە وێنای خودادا دەبینران.", // deity
+            kurdishText: "زۆر ئاژەڵ لە وێنای خودادا دەبینران.",
             onPressedBritish: () => speakdeitys1("en-GB"),
             onPressedAmerican: () => speakdeitys1("en-US"),
           ),

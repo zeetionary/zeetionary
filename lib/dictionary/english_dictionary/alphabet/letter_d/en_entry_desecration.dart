@@ -248,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Desecration of sacred sites and objects was widespread.",
-            kurdishText:
-                "سوکایەتی بە شوێن و شتە پیرۆزەکان باو بوو.", // desecration
+            kurdishText: "سوکایەتی بە شوێن و شتە پیرۆزەکان باو بوو.",
             onPressedBritish: () => speakdesecrations1("en-GB"),
             onPressedAmerican: () => speakdesecrations1("en-US"),
           ),

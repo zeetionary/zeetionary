@@ -139,7 +139,7 @@ class EnglishEntrybudgerigar extends StatelessWidget {
                             englishText:
                                 "The colorful budgerigar chirped merrily.",
                             kurdishText:
-                                "بەجییە ڕەنگینەکە بەدڵخۆشییەوە جریوەی دەھات.", // budgerigar", follow LX strictly.
+                                "بەجییە ڕەنگینەکە بەدڵخۆشییەوە جریوەی دەھات.",
                             onPressedBritish: () => speakbudgerigars1("en-GB"),
                             onPressedAmerican: () => speakbudgerigars1("en-US"),
                           ),

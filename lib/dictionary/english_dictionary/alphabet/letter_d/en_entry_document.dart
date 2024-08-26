@@ -444,8 +444,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نووسراوێک، کتێبێک، یان فایلێکی فەرمی کە زانیاری لەسەر شتێک دەدات، یان دەکرێت وەک بەڵگە بەکاربێت"),
           SentencesRow(
             englishText: "Please read and sign the attached document.",
-            kurdishText:
-                "تکایە بەڵگەنامە گرێدراوەکە بخوێنەوە و واژۆی بکە.", // document
+            kurdishText: "تکایە بەڵگەنامە گرێدراوەکە بخوێنەوە و واژۆی بکە.",
             onPressedBritish: () => speakdocuments1("en-GB"),
             onPressedAmerican: () => speakdocuments1("en-US"),
           ),

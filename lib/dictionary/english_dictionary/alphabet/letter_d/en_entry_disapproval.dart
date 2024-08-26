@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئەو ھەستەی کە ڕازی نیت بە بیرۆکەیەک، کارێک، یان ڕەفتاری کەسێکت بەدڵ نییە چونکە پێت وایە خراپە، گونجاو نییە یان کاریگەری خراپی لەسەر کەسێکی تر دەبێت"),
           SentencesRow(
             englishText: "He shook his head in disapproval.",
-            kurdishText: "سەری ڕاوەشاند وەک ناڕەزایەتی.", // disapproval
+            kurdishText: "سەری ڕاوەشاند وەک ناڕەزایەتی.",
             onPressedBritish: () => speakdisapprovals1("en-GB"),
             onPressedAmerican: () => speakdisapprovals1("en-US"),
           ),

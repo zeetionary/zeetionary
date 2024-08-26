@@ -258,7 +258,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) منداڵێکی کچ"),
           SentencesRow(
             englishText: "We have two sons and a daughter.",
-            kurdishText: "دوو کوڕ و کچێکمان ھەیە.", // daughter
+            kurdishText: "دوو کوڕ و کچێکمان ھەیە.",
             onPressedBritish: () => speakdaughters1("en-GB"),
             onPressedAmerican: () => speakdaughters1("en-US"),
           ),

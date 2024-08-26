@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The committee was made up of a disparate group of individuals.",
-            kurdishText:
-                "لیژنەکە لە گرووپێکی ھەمەچەشن لە خەڵکی درووست بووبوو.", // disparate
+            kurdishText: "لیژنەکە لە گرووپێکی ھەمەچەشن لە خەڵکی درووست بووبوو.",
             onPressedBritish: () => speakdisparates1("en-GB"),
             onPressedAmerican: () => speakdisparates1("en-US"),
           ),

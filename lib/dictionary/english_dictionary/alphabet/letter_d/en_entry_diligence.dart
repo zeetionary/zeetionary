@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کاری وریایی و ھەوڵی زۆر"),
           SentencesRow(
             englishText: "She shows great diligence in her schoolwork.",
-            kurdishText:
-                "زەحمەتی زۆر پیشان دەدات لە خوێندنی قوتابخانەی.", // diligence
+            kurdishText: "زەحمەتی زۆر پیشان دەدات لە خوێندنی قوتابخانەی.",
             onPressedBritish: () => speakdiligences1("en-GB"),
             onPressedAmerican: () => speakdiligences1("en-US"),
           ),

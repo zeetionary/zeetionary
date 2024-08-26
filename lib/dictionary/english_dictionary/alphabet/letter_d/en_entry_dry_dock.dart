@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ناوچەیەکی بەندەرێک کە دەکرێت ئاوەکەی دەربکرێت بۆ درووستکردن و چاککردنەوەی کەشتی"),
           SentencesRow(
             englishText: "The ship is in dry dock.",
-            kurdishText: "کەشتییەکە لە گۆلاوێکی وشکە.", // dry dock
+            kurdishText: "کەشتییەکە لە گۆلاوێکی وشکە.",
             onPressedBritish: () => speakdrydocks1("en-GB"),
             onPressedAmerican: () => speakdrydocks1("en-US"),
           ),

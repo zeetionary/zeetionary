@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) داشکاندنی بەھای دراوێک"),
           SentencesRow(
             englishText: "The local currency was rapidly devaluing.",
-            kurdishText: "دراوە ناوخۆییەکە بە خێرایی بێ‌بەھا دەبوو.", // devalue
+            kurdishText: "دراوە ناوخۆییەکە بە خێرایی بێ‌بەھا دەبوو.",
             onPressedBritish: () => speakdevalues1("en-GB"),
             onPressedAmerican: () => speakdevalues1("en-US"),
           ),

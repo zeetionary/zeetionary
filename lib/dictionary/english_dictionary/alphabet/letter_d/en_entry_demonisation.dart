@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Media reports fueled the demonization of Japan during the war.",
             kurdishText:
-                "ڕاپۆرتەکانی میدیا بوونە ھۆکاری ناشرینکردنی ژاپۆن لە کاتی جەنگەکەدا.", // demonisation
+                "ڕاپۆرتەکانی میدیا بوونە ھۆکاری ناشرینکردنی ژاپۆن لە کاتی جەنگەکەدا.",
             onPressedBritish: () => speakdemonisations1("en-GB"),
             onPressedAmerican: () => speakdemonisations1("en-US"),
           ),

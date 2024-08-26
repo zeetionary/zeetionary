@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Desktop publishing helped them design the magazine.",
             kurdishText:
-                "بڵاوکردنەوەی کۆمپیوتەری یارمەتیدا لە دیزاین کردنی گۆڤارەکە.", // desktop publishing
+                "بڵاوکردنەوەی کۆمپیوتەری یارمەتیدا لە دیزاین کردنی گۆڤارەکە.",
             onPressedBritish: () => speakdesktoppublishings1("en-GB"),
             onPressedAmerican: () => speakdesktoppublishings1("en-US"),
           ),

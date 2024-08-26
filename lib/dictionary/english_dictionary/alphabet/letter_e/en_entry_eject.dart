@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Police ejected a number of violent protesters from the hall.""",
             kurdishText:
-                """پۆلیس ژمارەیەک خۆپیشاندەری توندووتیژی لە ھۆڵەکە کردە دەرەوە.""", // eject
+                """پۆلیس ژمارەیەک خۆپیشاندەری توندووتیژی لە ھۆڵەکە کردە دەرەوە.""",
             onPressedBritish: () => speakejects1("en-GB"),
             onPressedAmerican: () => speakejects1("en-US"),
           ),

@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """During the 1997 floods the sea broke through the dyke.""",
             kurdishText:
-                """لە کاتی لافاوەکانی ١٩٩٧ دەریاکە بە بەربەستەکەدا تێپەڕی.""", // dyke
+                """لە کاتی لافاوەکانی ١٩٩٧ دەریاکە بە بەربەستەکەدا تێپەڕی.""",
             onPressedBritish: () => speakdykes1("en-GB"),
             onPressedAmerican: () => speakdykes1("en-US"),
           ),

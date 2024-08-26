@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The driving test includes a written and a practical part.",
             kurdishText:
-                "تاقیکردنەوەی شۆفێری بەشێکی نووسراو و یەکێکی کردارەکی لەخۆدەگرێت.", // driving test
+                "تاقیکردنەوەی شۆفێری بەشێکی نووسراو و یەکێکی کردارەکی لەخۆدەگرێت.",
             onPressedBritish: () => speakdrivingtests1("en-GB"),
             onPressedAmerican: () => speakdrivingtests1("en-US"),
           ),

@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە لە ئێستادا چالاک نییە یان گەشە ناکات، بەڵام دەکرێت لە داھاتوودا بیکات"),
           SentencesRow(
             englishText: "During the winter the seeds lie dormant in the soil.",
-            kurdishText:
-                "لە زستاندا تۆوەکان بە ماتی لە خاکەکەدا دەمێننەوە.", // dormant
+            kurdishText: "لە زستاندا تۆوەکان بە ماتی لە خاکەکەدا دەمێننەوە.",
             onPressedBritish: () => speakdormants1("en-GB"),
             onPressedAmerican: () => speakdormants1("en-US"),
           ),

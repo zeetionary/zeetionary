@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئەوەی جێگەی دڵتەنگی و ناخۆشی بێت"),
           SentencesRow(
             englishText: "She hated the dreariness of her everyday life.",
-            kurdishText: "ڕقی لە ناخۆشیی ژیانی ڕۆژانەی بوو.", // dreariness
+            kurdishText: "ڕقی لە ناخۆشیی ژیانی ڕۆژانەی بوو.",
             onPressedBritish: () => speakdrearinesss1("en-GB"),
             onPressedAmerican: () => speakdrearinesss1("en-US"),
           ),

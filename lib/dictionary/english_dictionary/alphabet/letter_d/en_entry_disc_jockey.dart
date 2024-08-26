@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The disc jockey played the latest hits at the party.",
             kurdishText:
-                "دی‌جەییەکە تازەترین گۆرانییە بەناوبانگەکانی لە ئاھەنگەکە لێدا.", // disc jockey
+                "دی‌جەییەکە تازەترین گۆرانییە بەناوبانگەکانی لە ئاھەنگەکە لێدا.",
             onPressedBritish: () => speakdiscjockeys1("en-GB"),
             onPressedAmerican: () => speakdiscjockeys1("en-US"),
           ),

@@ -370,8 +370,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "We're disappointed by these results but we're not downhearted.",
-            kurdishText:
-                "نائومێدین بە ئەنجامەکان بەڵام خەمبار نین.", // downhearted
+            kurdishText: "نائومێدین بە ئەنجامەکان بەڵام خەمبار نین.",
             onPressedBritish: () => speakdownhearteds1("en-GB"),
             onPressedAmerican: () => speakdownhearteds1("en-US"),
           ),

@@ -179,8 +179,7 @@ class EnglishEntrybustle extends StatelessWidget {
                                   "١. (کردار) پەلەپەلکردن و ھاتووچۆ بە ئاراستەیەکدا"),
                           SentencesRow(
                             englishText: "She bustled around in the kitchen.",
-                            kurdishText:
-                                "بە چێشتخانەکەدا جم‌وجۆڵی بوو.", // bustle", follow LX strictly
+                            kurdishText: "بە چێشتخانەکەدا جم‌وجۆڵی بوو.",
                             onPressedBritish: () => speakbustles1("en-GB"),
                             onPressedAmerican: () => speakbustles1("en-US"),
                           ),

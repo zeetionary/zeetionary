@@ -180,7 +180,7 @@ class EnglishEntrybuxom extends StatelessWidget {
                             englishText:
                                 "The Renaissance art often featured buxom women.",
                             kurdishText:
-                                "ھونەری ڕینێسانس زۆرجار ژنانی بەقەڵافەتی لەخۆ دەگرت.", // buxom", follow LX strictly
+                                "ھونەری ڕینێسانس زۆرجار ژنانی بەقەڵافەتی لەخۆ دەگرت.",
                             onPressedBritish: () => speakbuxoms1("en-GB"),
                             onPressedAmerican: () => speakbuxoms1("en-US"),
                           ),

@@ -322,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) دۆزینەوەی شتێک بۆ یەکەمجار"),
           SentencesRow(
             englishText: "Cook is credited with discovering Hawaii.",
-            kurdishText: "کووک بە دۆزەرەوەی ھاوایی دادەنرێت.", // discover
+            kurdishText: "کووک بە دۆزەرەوەی ھاوایی دادەنرێت.",
             onPressedBritish: () => speakdiscovers1("en-GB"),
             onPressedAmerican: () => speakdiscovers1("en-US"),
           ),

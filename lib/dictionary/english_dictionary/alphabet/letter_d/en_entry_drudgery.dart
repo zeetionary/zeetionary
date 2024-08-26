@@ -358,7 +358,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کاری زەحمەت و ناخۆش"),
           SentencesRow(
             englishText: "Cleaning the oven is sheer drudgery.",
-            kurdishText: "پاککردنەوەی فڕنەکە زەحمەتکێشی تەواوە.", // drudgery
+            kurdishText: "پاککردنەوەی فڕنەکە زەحمەتکێشی تەواوە.",
             onPressedBritish: () => speakdrudgerys1("en-GB"),
             onPressedAmerican: () => speakdrudgerys1("en-US"),
           ),

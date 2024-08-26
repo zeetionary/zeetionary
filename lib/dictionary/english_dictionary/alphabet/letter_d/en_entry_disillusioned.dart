@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نائومێد بەھۆی ئەوەی ئەو کەسەی بەھای ھەبوو لات یان ئەو بیرۆکەی باوەڕت پێی بوو بێ بەھا دیارن"),
           SentencesRow(
             englishText: "I soon became disillusioned with the job.",
-            kurdishText: "زوو نائومێد بووم لە کارەکە.", // disillusioned
+            kurdishText: "زوو نائومێد بووم لە کارەکە.",
             onPressedBritish: () => speakdisillusioneds1("en-GB"),
             onPressedAmerican: () => speakdisillusioneds1("en-US"),
           ),

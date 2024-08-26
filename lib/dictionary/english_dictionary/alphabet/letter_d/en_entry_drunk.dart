@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) سەرخۆش"),
           SentencesRow(
             englishText: "They were clearly too drunk to drive.",
-            kurdishText: "بە ئاشکرایی زۆر مەست بوون تا شۆفێری بکەن.", // drunk
+            kurdishText: "بە ئاشکرایی زۆر مەست بوون تا شۆفێری بکەن.",
             onPressedBritish: () => speakdrunks1("en-GB"),
             onPressedAmerican: () => speakdrunks1("en-US"),
           ),

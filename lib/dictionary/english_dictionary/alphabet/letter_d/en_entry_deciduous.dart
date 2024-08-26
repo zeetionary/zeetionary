@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The forest was a mix of evergreen and deciduous trees.",
             kurdishText:
-                "دارستانەکە تێکەڵەیەک لە درەختی ھەمیشە سەوز و گەڵاوەریو بوو.", // deciduous
+                "دارستانەکە تێکەڵەیەک لە درەختی ھەمیشە سەوز و گەڵاوەریو بوو.",
             onPressedBritish: () => speakdeciduouss1("en-GB"),
             onPressedAmerican: () => speakdeciduouss1("en-US"),
           ),

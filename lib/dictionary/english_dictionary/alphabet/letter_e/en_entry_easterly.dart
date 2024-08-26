@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) لە ڕۆژھەڵات یان بەرەو ڕۆژھەڵات"""),
           SentencesRow(
             englishText: """They were travelling in an easterly direction.""",
-            kurdishText: """بە ئاراستەی ڕۆژھەڵات گەشتیان دەکرد.""", // easterly
+            kurdishText: """بە ئاراستەی ڕۆژھەڵات گەشتیان دەکرد.""",
             onPressedBritish: () => speakeasterlys1("en-GB"),
             onPressedAmerican: () => speakeasterlys1("en-US"),
           ),

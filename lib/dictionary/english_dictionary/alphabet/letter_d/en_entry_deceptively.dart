@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The plan seemed deceptively simple (= it seemed simple but was not).",
-            kurdishText: "پلانەکە فیودەرانە سادە دیاربوو.", // deceptively
+            kurdishText: "پلانەکە فیودەرانە سادە دیاربوو.",
             onPressedBritish: () => speakdeceptivelys1("en-GB"),
             onPressedAmerican: () => speakdeceptivelys1("en-US"),
           ),

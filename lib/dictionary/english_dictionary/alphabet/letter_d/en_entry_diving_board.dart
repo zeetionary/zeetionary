@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The diving board creaked under their weight as they prepared to jump.",
             kurdishText:
-                "تەختەی بازدانەکە لەژێریاندا شکا کە ئامادەکارییان دەکرد باز بدەن.", // diving board
+                "تەختەی بازدانەکە لەژێریاندا شکا کە ئامادەکارییان دەکرد باز بدەن.",
             onPressedBritish: () => speakdivingboards1("en-GB"),
             onPressedAmerican: () => speakdivingboards1("en-US"),
           ),

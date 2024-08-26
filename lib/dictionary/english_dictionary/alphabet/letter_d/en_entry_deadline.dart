@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کاتێک کە تێیدا دەبێت شتێک بکرێت"),
           SentencesRow(
             englishText: "I prefer to work to a deadline.",
-            kurdishText: "پێم باشە تاوەکو وادەی دیاریکراو.", // deadline
+            kurdishText: "پێم باشە تاوەکو وادەی دیاریکراو.",
             onPressedBritish: () => speakdeadlines1("en-GB"),
             onPressedAmerican: () => speakdeadlines1("en-US"),
           ),

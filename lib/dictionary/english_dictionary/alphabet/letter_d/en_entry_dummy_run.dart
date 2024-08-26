@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The local elections can be seen as a dummy run for the national election next year.""",
             kurdishText:
-                """ھەڵبژاردنە خۆجێییەکان دەکرێت وەک مەشقێک بۆ ھەڵبژاردنە نیشتیمانییەکانی ساڵی داھاتوو ببیندرێت.""", // dummy run
+                """ھەڵبژاردنە خۆجێییەکان دەکرێت وەک مەشقێک بۆ ھەڵبژاردنە نیشتیمانییەکانی ساڵی داھاتوو ببیندرێت.""",
             onPressedBritish: () => speakdummyruns1("en-GB"),
             onPressedAmerican: () => speakdummyruns1("en-US"),
           ),

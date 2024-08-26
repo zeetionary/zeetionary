@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ھەبوونی خۆشەویستی زۆر بۆ کەسێک/شتێک و پشرگیری کردنی لە ھەموو شتێکدا"),
           SentencesRow(
             englishText: "They are devoted to their children.",
-            kurdishText: "دڵبەستەی منداڵەکانیان بوون.", // devoted
+            kurdishText: "دڵبەستەی منداڵەکانیان بوون.",
             onPressedBritish: () => speakdevoteds1("en-GB"),
             onPressedAmerican: () => speakdevoteds1("en-US"),
           ),

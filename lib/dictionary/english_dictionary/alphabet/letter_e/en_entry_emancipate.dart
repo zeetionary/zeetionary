@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Slaves were not emancipated until 1863 in the United States.""",
-            kurdishText:
-                """کۆیلەکان لە ئەمریکا ئازاد نەکران تاوەکو ١٨٦٣.""", // emancipate
+            kurdishText: """کۆیلەکان لە ئەمریکا ئازاد نەکران تاوەکو ١٨٦٣.""",
             onPressedBritish: () => speakemancipates1("en-GB"),
             onPressedAmerican: () => speakemancipates1("en-US"),
           ),

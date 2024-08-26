@@ -181,7 +181,7 @@ class EnglishEntrybutterfly extends StatelessWidget {
                             englishText:
                                 "She's like a butterfly. She flits in and out of people's lives.",
                             kurdishText:
-                                "وەک پەپوولە وایە. دێتە ژیانی خوڵک و دەچێتە دەرەوە.", // butterfly", follow LX strictly
+                                "وەک پەپوولە وایە. دێتە ژیانی خوڵک و دەچێتە دەرەوە.",
                             onPressedBritish: () => speakbutterflys1("en-GB"),
                             onPressedAmerican: () => speakbutterflys1("en-US"),
                           ),

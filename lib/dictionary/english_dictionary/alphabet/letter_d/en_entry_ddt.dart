@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) مادەیەکی کیمیایی ژەھراوی بۆ کوشتنی مێروو کە زیان بە دانەوێڵە دەگەیەنێت"),
           SentencesRow(
             englishText: "DDT was banned in the United States in 1972.",
-            kurdishText: "دی‌دی‌تی ساڵی ١٩٧٢ لە ئەمریکا قەدەغە کرا.", // DDT
+            kurdishText: "دی‌دی‌تی ساڵی ١٩٧٢ لە ئەمریکا قەدەغە کرا.",
             onPressedBritish: () => speakddts1("en-GB"),
             onPressedAmerican: () => speakddts1("en-US"),
           ),

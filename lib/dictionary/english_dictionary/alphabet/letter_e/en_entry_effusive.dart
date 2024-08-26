@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) پیشاندانی ھەست و سۆزی زۆر"""),
           SentencesRow(
             englishText: """He was effusive in his praise.""",
-            kurdishText: """یەکجار بەسۆز بوو لە ستایشەکەیدا.""", // effusive
+            kurdishText: """یەکجار بەسۆز بوو لە ستایشەکەیدا.""",
             onPressedBritish: () => speakeffusives1("en-GB"),
             onPressedAmerican: () => speakeffusives1("en-US"),
           ),

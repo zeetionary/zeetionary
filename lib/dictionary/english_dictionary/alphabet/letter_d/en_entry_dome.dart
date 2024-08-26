@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The dome of St Paul’s Cathedral is visible from many parts of London.",
             kurdishText:
-                "گومەزی کڵێسای قەشە پاوڵ لە زۆر شێنی لەندەنەوە دەبینرێت.", // dome
+                "گومەزی کڵێسای قەشە پاوڵ لە زۆر شێنی لەندەنەوە دەبینرێت.",
             onPressedBritish: () => speakdomes1("en-GB"),
             onPressedAmerican: () => speakdomes1("en-US"),
           ),

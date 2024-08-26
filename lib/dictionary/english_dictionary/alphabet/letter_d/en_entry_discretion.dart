@@ -269,8 +269,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئازادی یان دەسەڵاتی ئەوەی کە چی بکرێت لە دۆخێکی دیاریکراودا"),
           SentencesRow(
             englishText: "I'll leave it up to you to use your discretion.",
-            kurdishText:
-                "بۆ ئێوەی جێدێڵم کە دەسەڵاتی خۆتان بەکاربھێنن.", // discretion
+            kurdishText: "بۆ ئێوەی جێدێڵم کە دەسەڵاتی خۆتان بەکاربھێنن.",
             onPressedBritish: () => speakdiscretions1("en-GB"),
             onPressedAmerican: () => speakdiscretions1("en-US"),
           ),

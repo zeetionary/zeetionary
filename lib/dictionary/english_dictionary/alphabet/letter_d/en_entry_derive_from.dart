@@ -269,7 +269,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The word ‘politics’ is derived from a Greek word meaning ‘city’.",
             kurdishText:
-                "وشەی 'politics' لە وشەیەکی یۆنانی وەرگیراوە کە واتای 'شار' دەدات.", // derive from
+                "وشەی 'politics' لە وشەیەکی یۆنانی وەرگیراوە کە واتای 'شار' دەدات.",
             onPressedBritish: () => speakderivefroms1("en-GB"),
             onPressedAmerican: () => speakderivefroms1("en-US"),
           ),

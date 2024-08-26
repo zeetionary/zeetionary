@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە دڵنیایی و ئاشکرایی"),
           SentencesRow(
             englishText: "Amy was looking decidedly worried.",
-            kurdishText: "ئەیمی بە ئاشکرایی نیگەران دیار بوو.", // decidedly
+            kurdishText: "ئەیمی بە ئاشکرایی نیگەران دیار بوو.",
             onPressedBritish: () => speakdecidedlys1("en-GB"),
             onPressedAmerican: () => speakdecidedlys1("en-US"),
           ),

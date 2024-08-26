@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Computer skills make you far more employable.""",
             kurdishText:
-                """شارەزایی کۆمپیوتەر زۆر زیاتر لەدامەزران‌ھاتوو ببیت.""", // employable
+                """شارەزایی کۆمپیوتەر زۆر زیاتر لەدامەزران‌ھاتوو ببیت.""",
             onPressedBritish: () => speakemployables1("en-GB"),
             onPressedAmerican: () => speakemployables1("en-US"),
           ),

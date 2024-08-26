@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) نەھێشتنی ئاو لە خواردندا بۆ پاراستنی"),
           SentencesRow(
             englishText: "The machine can dehydrate vegetables quickly.",
-            kurdishText:
-                "ئامێرەکە دەتوانێت بەخێرایی سەوزە وشک بکاتەوە.", // dehydrate
+            kurdishText: "ئامێرەکە دەتوانێت بەخێرایی سەوزە وشک بکاتەوە.",
             onPressedBritish: () => speakdehydrates1("en-GB"),
             onPressedAmerican: () => speakdehydrates1("en-US"),
           ),

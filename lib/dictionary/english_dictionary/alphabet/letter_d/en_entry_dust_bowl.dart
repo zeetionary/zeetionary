@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The Oklahoma Dust Bowl of the 1930s forced people to move west.""",
             kurdishText:
-                """دەشتی تۆزگری ئۆکلاھۆما لە ١٩٣٠ ــیەکاندا خەڵکی ناچارکرد بۆ ڕۆژئاوا بچن.""", // dust bowl
+                """دەشتی تۆزگری ئۆکلاھۆما لە ١٩٣٠ ــیەکاندا خەڵکی ناچارکرد بۆ ڕۆژئاوا بچن.""",
             onPressedBritish: () => speakdustbowls1("en-GB"),
             onPressedAmerican: () => speakdustbowls1("en-US"),
           ),

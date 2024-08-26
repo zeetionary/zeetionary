@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (دیارخەر، جێناو، ھاوەڵکار) بۆ ناوھێنانی ھەموو ئەو کەس و شتانەی سەر بە گرووپێکن، کە یەک بە یەک بیریان لێ دەکەیتەوە"""),
           SentencesRow(
             englishText: """Each answer is worth 20 points.""",
-            kurdishText: """ھەر وەڵامێک ٢٠ نمرەی لەسەرە.""", // each
+            kurdishText: """ھەر وەڵامێک ٢٠ نمرەی لەسەرە.""",
             onPressedBritish: () => speakeachs1("en-GB"),
             onPressedAmerican: () => speakeachs1("en-US"),
           ),

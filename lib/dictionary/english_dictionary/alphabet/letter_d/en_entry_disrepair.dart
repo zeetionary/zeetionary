@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The station quickly fell into disrepair after it was closed.",
-            kurdishText:
-                "وێستگەکە زوو بوو بە وێرانە لە دوای ئەوەی داخرا.", // disrepair
+            kurdishText: "وێستگەکە زوو بوو بە وێرانە لە دوای ئەوەی داخرا.",
             onPressedBritish: () => speakdisrepairs1("en-GB"),
             onPressedAmerican: () => speakdisrepairs1("en-US"),
           ),

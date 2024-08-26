@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There are divergences between the legal systems of the two countries.",
-            kurdishText:
-                "جیاوازی ھەیە لە نێوان سیستەمی یاسایی دوو وڵاتەکەدا.", // divergence
+            kurdishText: "جیاوازی ھەیە لە نێوان سیستەمی یاسایی دوو وڵاتەکەدا.",
             onPressedBritish: () => speakdivergences1("en-GB"),
             onPressedAmerican: () => speakdivergences1("en-US"),
           ),

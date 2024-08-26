@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I put the kettle on and took two cups and saucers down from the dresser.",
             kurdishText:
-                "کترییەکەم خستە سەر و دوو کووپ و ژێرپیاڵەم لە میزی چێشتخانەکە دەرکرد.", // dresser
+                "کترییەکەم خستە سەر و دوو کووپ و ژێرپیاڵەم لە میزی چێشتخانەکە دەرکرد.",
             onPressedBritish: () => speakdressers1("en-GB"),
             onPressedAmerican: () => speakdressers1("en-US"),
           ),

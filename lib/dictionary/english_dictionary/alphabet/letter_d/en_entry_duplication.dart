@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Duplication of certain chromosomes can lead to abnormalities.""",
             kurdishText:
-                """لەبەرگرنەوەی ژمارەیەک کرۆمۆسۆمی دیاریکراو دەکرێت ببێتە ھۆکاری ڕیزپەڕێتی.""", // duplication
+                """لەبەرگرنەوەی ژمارەیەک کرۆمۆسۆمی دیاریکراو دەکرێت ببێتە ھۆکاری ڕیزپەڕێتی.""",
             onPressedBritish: () => speakduplications1("en-GB"),
             onPressedAmerican: () => speakduplications1("en-US"),
           ),

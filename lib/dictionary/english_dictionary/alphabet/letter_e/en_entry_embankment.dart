@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Trees and plants grow along the river embankment.""",
             kurdishText:
-                """درەخت و ڕووەک بە درێژایی دیوارچنی ڕووبارەکە گەشە دەکەن.""", // embankment
+                """درەخت و ڕووەک بە درێژایی دیوارچنی ڕووبارەکە گەشە دەکەن.""",
             onPressedBritish: () => speakembankments1("en-GB"),
             onPressedAmerican: () => speakembankments1("en-US"),
           ),

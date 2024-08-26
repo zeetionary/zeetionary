@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ئامێری وشککەرەوە"),
           SentencesRow(
             englishText: "Don’t put that sweater in the dryer.",
-            kurdishText: "ئەو بلووزە مەخەرە وشککەرەوەکەوە.", // dryer
+            kurdishText: "ئەو بلووزە مەخەرە وشککەرەوەکەوە.",
             onPressedBritish: () => speakdryers1("en-GB"),
             onPressedAmerican: () => speakdryers1("en-US"),
           ),

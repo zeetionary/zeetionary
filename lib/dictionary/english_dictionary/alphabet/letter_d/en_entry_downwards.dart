@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           SentencesRow(
             englishText: "She was lying face downwards on the grass.",
-            kurdishText: "لەسەر دەم ڕوو لە گیاکە پاڵکەوتبوو.", // downwards
+            kurdishText: "لەسەر دەم ڕوو لە گیاکە پاڵکەوتبوو.",
             onPressedBritish: () => speakdownwardss1("en-GB"),
             onPressedAmerican: () => speakdownwardss1("en-US"),
           ),

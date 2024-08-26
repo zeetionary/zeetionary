@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Emigration to Western Europe has been significant.""",
-            kurdishText:
-                """کۆچکردن بۆ ئەورووپای ڕۆژئاوا زۆر بووە.""", // emigration
+            kurdishText: """کۆچکردن بۆ ئەورووپای ڕۆژئاوا زۆر بووە.""",
             onPressedBritish: () => speakemigrations1("en-GB"),
             onPressedAmerican: () => speakemigrations1("en-US"),
           ),

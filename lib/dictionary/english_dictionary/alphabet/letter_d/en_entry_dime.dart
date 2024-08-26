@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) دراوی سکەی ئەمریکا و کەنەدا"),
           SentencesRow(
             englishText: "I gave the boy two dimes to buy himself some candy.",
-            kurdishText:
-                "دوو دایمم دا بە کوڕەکە بۆ کڕینی شیرینی بپ خۆی.", // dime
+            kurdishText: "دوو دایمم دا بە کوڕەکە بۆ کڕینی شیرینی بپ خۆی.",
             onPressedBritish: () => speakdimes1("en-GB"),
             onPressedAmerican: () => speakdimes1("en-US"),
           ),

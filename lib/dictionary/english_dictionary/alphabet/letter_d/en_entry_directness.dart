@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ڕاستی و ڕوونی"),
           SentencesRow(
             englishText: "He presents his case with clarity and directness.",
-            kurdishText:
-                "کەیسەکەی بە ڕوونی و ڕاست و ڕەوانی باس کرد.", // directness
+            kurdishText: "کەیسەکەی بە ڕوونی و ڕاست و ڕەوانی باس کرد.",
             onPressedBritish: () => speakdirectnesss1("en-GB"),
             onPressedAmerican: () => speakdirectnesss1("en-US"),
           ),

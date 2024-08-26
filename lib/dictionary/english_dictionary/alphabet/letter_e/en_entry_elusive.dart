@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Eric, as elusive as ever, was nowhere to be found.""",
-            kurdishText: """ئێریک وەک ھەمیشە تێکەڵ‌پێکەڵ بوو.""", // elusive
+            kurdishText: """ئێریک وەک ھەمیشە تێکەڵ‌پێکەڵ بوو.""",
             onPressedBritish: () => speakelusives1("en-GB"),
             onPressedAmerican: () => speakelusives1("en-US"),
           ),

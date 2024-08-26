@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The EU has issued a new set of directives on pollution.",
             kurdishText:
-                "یەکێتیی ئەورووپا کۆمەڵێکی تازە لە ڕێنمایی لەسەر پیسبوونی ژینگە دەرکردووە.", // directive
+                "یەکێتیی ئەورووپا کۆمەڵێکی تازە لە ڕێنمایی لەسەر پیسبوونی ژینگە دەرکردووە.",
             onPressedBritish: () => speakdirectives1("en-GB"),
             onPressedAmerican: () => speakdirectives1("en-US"),
           ),

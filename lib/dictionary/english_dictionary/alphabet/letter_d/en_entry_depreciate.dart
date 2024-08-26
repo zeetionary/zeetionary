@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "New cars start to depreciate as soon as they are on the road.",
             kurdishText:
-                "ئۆتۆمبێلی تازە دەست بە لەدەستدانی نرخ دەکات ھەرکە دەچێتە سەر شەقام.", // depreciate
+                "ئۆتۆمبێلی تازە دەست بە لەدەستدانی نرخ دەکات ھەرکە دەچێتە سەر شەقام.",
             onPressedBritish: () => speakdepreciates1("en-GB"),
             onPressedAmerican: () => speakdepreciates1("en-US"),
           ),

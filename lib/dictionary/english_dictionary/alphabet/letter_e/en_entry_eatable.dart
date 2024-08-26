@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) کە ھێندە باشە تاوەکو بخوردرێت"""),
           SentencesRow(
             englishText: """The fruit was ripe and eatable.""",
-            kurdishText: """میوەکە گەییو و لەخواردن‌ھاتوو بوو.""", // eatable
+            kurdishText: """میوەکە گەییو و لەخواردن‌ھاتوو بوو.""",
             onPressedBritish: () => speakeatables1("en-GB"),
             onPressedAmerican: () => speakeatables1("en-US"),
           ),

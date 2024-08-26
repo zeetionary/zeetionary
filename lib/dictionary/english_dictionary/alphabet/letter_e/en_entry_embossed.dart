@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵناو) ھەبوونی ڕوویەک کە بە دیزاینی بەرزبوو یان نووسین ڕازێندراوە"""),
           SentencesRow(
             englishText: """He admired the embossed leather wallet.""",
-            kurdishText:
-                """سەرسامی جزدانە چەرمە نەخش‌تێ‌ھەڵسوواوەکە بوو.""", // embossed
+            kurdishText: """سەرسامی جزدانە چەرمە نەخش‌تێ‌ھەڵسوواوەکە بوو.""",
             onPressedBritish: () => speakembosseds1("en-GB"),
             onPressedAmerican: () => speakembosseds1("en-US"),
           ),

@@ -261,8 +261,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) گرووپێک کەس کە نوێنەری دیدەکانی دامەزراوەیەک، وڵاتێک، ھتد"),
           SentencesRow(
             englishText: "A well-known academic will head the delegation.",
-            kurdishText:
-                "لێکۆڵەرێکی ناسراو سەرکردایەتی شاندەکە دەکات.", // delegation
+            kurdishText: "لێکۆڵەرێکی ناسراو سەرکردایەتی شاندەکە دەکات.",
             onPressedBritish: () => speakdelegations1("en-GB"),
             onPressedAmerican: () => speakdelegations1("en-US"),
           ),

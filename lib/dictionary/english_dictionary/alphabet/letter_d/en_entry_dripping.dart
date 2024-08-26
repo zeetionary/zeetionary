@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو تەڕ"),
           SentencesRow(
             englishText: "Her face was dripping with sweat.",
-            kurdishText: "ڕووخساری خوسابوو لە ئارەقەدا.", // dripping
+            kurdishText: "ڕووخساری خوسابوو لە ئارەقەدا.",
             onPressedBritish: () => speakdrippings1("en-GB"),
             onPressedAmerican: () => speakdrippings1("en-US"),
           ),

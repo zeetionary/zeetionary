@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) تەواو خراپ یان بێزارکەر"),
           SentencesRow(
             englishText: "The traffic was diabolical.",
-            kurdishText: "ھاتووچۆ وەڕسکەر بوو.", // diabolical
+            kurdishText: "ھاتووچۆ وەڕسکەر بوو.",
             onPressedBritish: () => speakdiabolicals1("en-GB"),
             onPressedAmerican: () => speakdiabolicals1("en-US"),
           ),

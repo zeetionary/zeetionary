@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە ئەگەری ھەیە زیان بە کەسێک بگەیەنێت یان شتێک لەناو ببات"),
           SentencesRow(
             englishText: "She was standing dangerously close to the fire.",
-            kurdishText:
-                "مەترسی‌دارانە نزیک لە ئاگرەکە وەستاوە.", // dangerously
+            kurdishText: "مەترسی‌دارانە نزیک لە ئاگرەکە وەستاوە.",
             onPressedBritish: () => speakdangerouslys1("en-GB"),
             onPressedAmerican: () => speakdangerouslys1("en-US"),
           ),

@@ -182,7 +182,7 @@ class EnglishEntryburnish extends StatelessWidget {
                             englishText:
                                 "She used a soft cloth to burnish the antique silverware.",
                             kurdishText:
-                                "قوماشێکی نەرمی بەکارھێنا بۆ سافکردنی قاپ‌وقاچاخە زیوییەکان.", // burnish", follow LX strictly
+                                "قوماشێکی نەرمی بەکارھێنا بۆ سافکردنی قاپ‌وقاچاخە زیوییەکان.",
                             onPressedBritish: () => speakburnishs1("en-GB"),
                             onPressedAmerican: () => speakburnishs1("en-US"),
                           ),

@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نمایشکردنی کتێبێک، بۆنەیەک، ھتد لە شانۆ یان فیلمێکدا"),
           SentencesRow(
             englishText: "It's not a documentary; it's a dramatization.",
-            kurdishText: "دۆکیومێنتەری نییە؛ بەشانۆییکردنە.", // dramatization
+            kurdishText: "دۆکیومێنتەری نییە؛ بەشانۆییکردنە.",
             onPressedBritish: () => speakdramatizations1("en-GB"),
             onPressedAmerican: () => speakdramatizations1("en-US"),
           ),

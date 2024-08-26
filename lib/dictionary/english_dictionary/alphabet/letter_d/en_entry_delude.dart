@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) فریودان"),
           SentencesRow(
             englishText: "You poor deluded creature.",
-            kurdishText: "بوونەوەری خەڵەفاوی داماو.", // delude
+            kurdishText: "بوونەوەری خەڵەفاوی داماو.",
             onPressedBritish: () => speakdeludes1("en-GB"),
             onPressedAmerican: () => speakdeludes1("en-US"),
           ),

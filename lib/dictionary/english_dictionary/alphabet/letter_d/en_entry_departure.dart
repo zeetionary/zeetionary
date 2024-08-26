@@ -280,8 +280,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) جێھێشتنی شوێنێک"),
           SentencesRow(
             englishText: "His sudden departure threw the office into chaos.",
-            kurdishText:
-                "جێھێشتنی کەناژاوت ئۆفیسەکەی خستە پاشاگەردانی.", // departure
+            kurdishText: "جێھێشتنی کەناژاوت ئۆفیسەکەی خستە پاشاگەردانی.",
             onPressedBritish: () => speakdepartures1("en-GB"),
             onPressedAmerican: () => speakdepartures1("en-US"),
           ),

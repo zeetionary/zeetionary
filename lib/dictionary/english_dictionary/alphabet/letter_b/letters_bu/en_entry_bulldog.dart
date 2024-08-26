@@ -136,8 +136,7 @@ class EnglishEntrybulldog extends StatelessWidget {
                                   """١. (ناو) سەگێکی بچووک کە لاقی کورتی ھەیە لەگەڵ ڕووخسارێکی وارگۆشە دەکرێت ترسێنەر و بەھێز بێت"""),
                           SentencesRow(
                             englishText: "Courage is inherent in bulldogs.",
-                            kurdishText:
-                                "بوێری بەشێکی سەرەکیی گاسەگە.", // bulldog", follow LX strictly
+                            kurdishText: "بوێری بەشێکی سەرەکیی گاسەگە.",
                             onPressedBritish: () => speakbulldogs1("en-GB"),
                             onPressedAmerican: () => speakbulldogs1("en-US"),
                           ),

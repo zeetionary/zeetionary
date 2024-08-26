@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She spent the evening with her disreputable brother Stefan.",
-            kurdishText:
-                "ئێوارەکەی لەگەڵ برا بێڕێزەکەی ستێفان بەسەر برد.", // disreputable
+            kurdishText: "ئێوارەکەی لەگەڵ برا بێڕێزەکەی ستێفان بەسەر برد.",
             onPressedBritish: () => speakdisreputables1("en-GB"),
             onPressedAmerican: () => speakdisreputables1("en-US"),
           ),

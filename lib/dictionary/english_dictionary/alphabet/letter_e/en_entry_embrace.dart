@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) لە باوەش گرتن"""),
           SentencesRow(
             englishText: """He held her in a warm embrace.""",
-            kurdishText: """باوەشێکی گەرمی پێیدا کرد.""", // embrace
+            kurdishText: """باوەشێکی گەرمی پێیدا کرد.""",
             onPressedBritish: () => speakembraces1("en-GB"),
             onPressedAmerican: () => speakembraces1("en-US"),
           ),

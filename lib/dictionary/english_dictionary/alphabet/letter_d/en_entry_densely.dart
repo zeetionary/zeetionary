@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "England was once a densely wooded country (= a lot of trees grew close together there).",
             kurdishText:
-                "ئینگلتەرە سەردەمانێک وڵاتێکی بەشێوەیەکی چڕ داراوی بوو.", // densely
+                "ئینگلتەرە سەردەمانێک وڵاتێکی بەشێوەیەکی چڕ داراوی بوو.",
             onPressedBritish: () => speakdenselys1("en-GB"),
             onPressedAmerican: () => speakdenselys1("en-US"),
           ),

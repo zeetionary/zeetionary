@@ -389,8 +389,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) ھەستکردن بە بەھا و گرنگی خۆت"""),
           SentencesRow(
             englishText: """He has the biggest ego of anyone I've ever met.""",
-            kurdishText:
-                """خۆخوازیی زۆرترینی ھەیە لە نێو ئەوانەی کە دیومە.""", // ego
+            kurdishText: """خۆخوازیی زۆرترینی ھەیە لە نێو ئەوانەی کە دیومە.""",
             onPressedBritish: () => speakegos1("en-GB"),
             onPressedAmerican: () => speakegos1("en-US"),
           ),

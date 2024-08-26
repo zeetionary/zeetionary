@@ -180,7 +180,7 @@ class EnglishEntryburst extends StatelessWidget {
                             englishText:
                                 "That balloon will burst if you blow it up any more.",
                             kurdishText:
-                                "فودانکەکە دەتەقێت ئەگەر ھەوای زیاتری تێ بکەیت.", // burst", follow LX strictly
+                                "فودانکەکە دەتەقێت ئەگەر ھەوای زیاتری تێ بکەیت.",
                             onPressedBritish: () => speakbursts1("en-GB"),
                             onPressedAmerican: () => speakbursts1("en-US"),
                           ),

@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "You need good manual dexterity to be a dentist.",
             kurdishText:
-                "بۆ بوون بە پزیشکی ددان پێویستیت بە دەس‌ڕاھاتوویی ھەیە.", // dexterity
+                "بۆ بوون بە پزیشکی ددان پێویستیت بە دەس‌ڕاھاتوویی ھەیە.",
             onPressedBritish: () => speakdexteritys1("en-GB"),
             onPressedAmerican: () => speakdexteritys1("en-US"),
           ),

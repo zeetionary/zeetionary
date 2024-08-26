@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Her family disowned her for marrying a foreigner.",
             kurdishText:
-                "خێزانەکەی حاشایان لێکرد بۆ ھاوسەرگیری لەگەڵ بیانییەک.", // disown
+                "خێزانەکەی حاشایان لێکرد بۆ ھاوسەرگیری لەگەڵ بیانییەک.",
             onPressedBritish: () => speakdisowns1("en-GB"),
             onPressedAmerican: () => speakdisowns1("en-US"),
           ),

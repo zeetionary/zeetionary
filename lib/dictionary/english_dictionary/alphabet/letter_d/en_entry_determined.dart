@@ -269,8 +269,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The opposition to her plan made her more determined than ever.",
-            kurdishText:
-                "دژبەری بۆ پلانەکەت زیاتر لە ھەمیشە شێتگیری کرد.", // determined
+            kurdishText: "دژبەری بۆ پلانەکەت زیاتر لە ھەمیشە شێتگیری کرد.",
             onPressedBritish: () => speakdetermineds1("en-GB"),
             onPressedAmerican: () => speakdetermineds1("en-US"),
           ),

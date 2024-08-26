@@ -382,8 +382,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بەرەو سەنتەری شار"),
           SentencesRow(
             englishText: "I work downtown, but I live in the suburbs.",
-            kurdishText:
-                "لە ناوجەرگەی شار کار دەکەم، بەڵام لە لاشاردا دەژیم.", // downtown
+            kurdishText: "لە ناوجەرگەی شار کار دەکەم، بەڵام لە لاشاردا دەژیم.",
             onPressedBritish: () => speakdowntowns1("en-GB"),
             onPressedAmerican: () => speakdowntowns1("en-US"),
           ),

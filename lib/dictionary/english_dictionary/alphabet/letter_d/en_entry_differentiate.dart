@@ -269,8 +269,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) جیاوازی کردنی نێوان دوو شت"),
           SentencesRow(
             englishText: "I can't differentiate one variety from another.",
-            kurdishText:
-                "ناتوانم جۆرێک لە جۆرێکی دیکە جیابکەمەوە.", // differentiate
+            kurdishText: "ناتوانم جۆرێک لە جۆرێکی دیکە جیابکەمەوە.",
             onPressedBritish: () => speakdifferentiates1("en-GB"),
             onPressedAmerican: () => speakdifferentiates1("en-US"),
           ),

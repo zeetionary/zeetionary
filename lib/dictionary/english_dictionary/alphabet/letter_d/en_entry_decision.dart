@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) بڕیارێک کە دەیدەیت"),
           SentencesRow(
             englishText: "I think I've made the right decision.",
-            kurdishText: "پێموایە بڕیارێکی درووستم داوە.", // decision
+            kurdishText: "پێموایە بڕیارێکی درووستم داوە.",
             onPressedBritish: () => speakdecisions1("en-GB"),
             onPressedAmerican: () => speakdecisions1("en-US"),
           ),

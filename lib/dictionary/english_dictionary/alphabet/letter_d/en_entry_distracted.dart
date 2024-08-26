@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە ناتوانێت سەرنج بدات چونکە "),
           SentencesRow(
             englishText: "Luke looked momentarily distracted.",
-            kurdishText: "لیوک بۆ ساتێک سەرلێ‌شێواو دیاربوو.", // distracted
+            kurdishText: "لیوک بۆ ساتێک سەرلێ‌شێواو دیاربوو.",
             onPressedBritish: () => speakdistracteds1("en-GB"),
             onPressedAmerican: () => speakdistracteds1("en-US"),
           ),

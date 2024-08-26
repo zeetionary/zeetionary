@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) قوپاشێک بۆ لێکردنەوەی تۆز لە کەڵووپەلی ناوماڵ"""),
           SentencesRow(
             englishText: """She used his old T-shirt as a duster.""",
-            kurdishText: """فانیلەکەی وەک پەڕۆسڕ.""", // duster
+            kurdishText: """فانیلەکەی وەک پەڕۆسڕ.""",
             onPressedBritish: () => speakdusters1("en-GB"),
             onPressedAmerican: () => speakdusters1("en-US"),
           ),

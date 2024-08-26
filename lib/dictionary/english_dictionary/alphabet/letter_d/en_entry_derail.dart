@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) دەرچوون لەسەر سکە"),
           SentencesRow(
             englishText: "The train derailed and plunged into the river.",
-            kurdishText:
-                "شەمەندەفەرەکە لە سکەکە دەرچوو و کەوتە ناو ڕووبارەکە.", // derail
+            kurdishText: "شەمەندەفەرەکە لە سکەکە دەرچوو و کەوتە ناو ڕووبارەکە.",
             onPressedBritish: () => speakderails1("en-GB"),
             onPressedAmerican: () => speakderails1("en-US"),
           ),

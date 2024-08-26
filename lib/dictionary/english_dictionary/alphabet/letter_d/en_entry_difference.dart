@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Americans and Brits speak the same language, but there are big cultural differences.",
             kurdishText:
-                "ئەمریکی و بەریتانییەکان بە ھەمان زمان قسە دەکەن، بەڵام جیاوازی کەلتووری زۆر ھەیە.", // difference
+                "ئەمریکی و بەریتانییەکان بە ھەمان زمان قسە دەکەن، بەڵام جیاوازی کەلتووری زۆر ھەیە.",
             onPressedBritish: () => speakdifferences1("en-GB"),
             onPressedAmerican: () => speakdifferences1("en-US"),
           ),

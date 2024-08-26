@@ -182,7 +182,7 @@ class EnglishEntrybypass extends StatelessWidget {
                             englishText:
                                 "That stretch of bypass will be finished by January.",
                             kurdishText:
-                                "ڕێفا پشتێنەییەکە تا کانوونی دووەم تەواو دەبێت.", // bypass", follow LX strictly
+                                "ڕێفا پشتێنەییەکە تا کانوونی دووەم تەواو دەبێت.",
                             onPressedBritish: () => speakbypasss1("en-GB"),
                             onPressedAmerican: () => speakbypasss1("en-US"),
                           ),

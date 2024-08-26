@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەشێوەیەک کە جوان یان خۆش نییە"),
           SentencesRow(
             englishText: "The weather was disagreeably hot.",
-            kurdishText: "کەشەکە بەشێوەیەکی نالەبار گەرم بوو.", // disagreeably
+            kurdishText: "کەشەکە بەشێوەیەکی نالەبار گەرم بوو.",
             onPressedBritish: () => speakdisagreeablys1("en-GB"),
             onPressedAmerican: () => speakdisagreeablys1("en-US"),
           ),

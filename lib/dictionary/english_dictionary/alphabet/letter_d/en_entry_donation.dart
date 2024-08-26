@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The work of the charity is funded by voluntary donations.",
             kurdishText:
-                "کاری دامەزراوە خێرخوازییەکە لەلایەن بەخشینی خۆبەخشانەوە بەڕێوەدەچێت.", // donation
+                "کاری دامەزراوە خێرخوازییەکە لەلایەن بەخشینی خۆبەخشانەوە بەڕێوەدەچێت.",
             onPressedBritish: () => speakdonations1("en-GB"),
             onPressedAmerican: () => speakdonations1("en-US"),
           ),

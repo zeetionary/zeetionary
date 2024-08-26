@@ -241,8 +241,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "At the top of the hill I had a brief moment of disorientation.",
-            kurdishText:
-                "لە سەرەوەی گردەکە ساتێک تووشی سەرلێ‌شێواوی بووم.", // disorientation
+            kurdishText: "لە سەرەوەی گردەکە ساتێک تووشی سەرلێ‌شێواوی بووم.",
             onPressedBritish: () => speakdisorientations1("en-GB"),
             onPressedAmerican: () => speakdisorientations1("en-US"),
           ),

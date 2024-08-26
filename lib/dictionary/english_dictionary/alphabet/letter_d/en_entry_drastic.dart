@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The government is threatening to take drastic action.",
-            kurdishText:
-                "حکومەت ھەڕەشەی ئەوە دەکات کە ھەنگاوی توند بنێت.", // drastic
+            kurdishText: "حکومەت ھەڕەشەی ئەوە دەکات کە ھەنگاوی توند بنێت.",
             onPressedBritish: () => speakdrastics1("en-GB"),
             onPressedAmerican: () => speakdrastics1("en-US"),
           ),

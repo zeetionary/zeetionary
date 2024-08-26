@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She is one of the charity's main donors.",
             kurdishText:
-                "یەکێکە لە بەخشەرە سەرەکییەکانی دامەزراوە خێرخوازییەکە.", // donor
+                "یەکێکە لە بەخشەرە سەرەکییەکانی دامەزراوە خێرخوازییەکە.",
             onPressedBritish: () => speakdonors1("en-GB"),
             onPressedAmerican: () => speakdonors1("en-US"),
           ),

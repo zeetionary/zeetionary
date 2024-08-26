@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Young children are usually egocentric because they haven’t learnt other forms of behaviour.""",
             kurdishText:
-                """منداڵانی گەنج بە تەواوی خۆپەرستن چونکە ھێشتا شێوازەکانی دیکەی ڕەفتارکردن فێرنەبوونە.""", // egocentric
+                """منداڵانی گەنج بە تەواوی خۆپەرستن چونکە ھێشتا شێوازەکانی دیکەی ڕەفتارکردن فێرنەبوونە.""",
             onPressedBritish: () => speakegocentrics1("en-GB"),
             onPressedAmerican: () => speakegocentrics1("en-US"),
           ),

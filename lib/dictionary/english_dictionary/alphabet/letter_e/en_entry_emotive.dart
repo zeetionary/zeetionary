@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Animal experimentation is a highly emotive issue.""",
             kurdishText:
-                """لێکۆڵینەوە لەسەر ئاژەڵان بابەتێکی تەواو ھەست‌بزوێنە.""", // emotive
+                """لێکۆڵینەوە لەسەر ئاژەڵان بابەتێکی تەواو ھەست‌بزوێنە.""",
             onPressedBritish: () => speakemotives1("en-GB"),
             onPressedAmerican: () => speakemotives1("en-US"),
           ),

@@ -256,8 +256,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "All three men were charged with conspiracy to defraud.",
-            kurdishText:
-                "ھەر سێ پیاوەکە سزادران بە پیلانگێڕی بۆ ساختەکاری.", // defraud
+            kurdishText: "ھەر سێ پیاوەکە سزادران بە پیلانگێڕی بۆ ساختەکاری.",
             onPressedBritish: () => speakdefrauds1("en-GB"),
             onPressedAmerican: () => speakdefrauds1("en-US"),
           ),

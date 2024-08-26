@@ -306,8 +306,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She suffered from severe depression after losing her job.",
-            kurdishText:
-                "لە دوای لەدەستدانی کارەکەی تووشی خەمۆکی زۆر بوو.", // depression
+            kurdishText: "لە دوای لەدەستدانی کارەکەی تووشی خەمۆکی زۆر بوو.",
             onPressedBritish: () => speakdepressions1("en-GB"),
             onPressedAmerican: () => speakdepressions1("en-US"),
           ),

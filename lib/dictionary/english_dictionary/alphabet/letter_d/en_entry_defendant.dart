@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەسی تۆمەتبار لە دانیشتنی دادگادا"),
           SentencesRow(
             englishText: "Several witnesses gave evidence for the defendant.",
-            kurdishText:
-                "ژمارەیەک شایەتحاڵ گەواھییان بۆ تاوانبارکراوەکە دا.", // defendant
+            kurdishText: "ژمارەیەک شایەتحاڵ گەواھییان بۆ تاوانبارکراوەکە دا.",
             onPressedBritish: () => speakdefendants1("en-GB"),
             onPressedAmerican: () => speakdefendants1("en-US"),
           ),

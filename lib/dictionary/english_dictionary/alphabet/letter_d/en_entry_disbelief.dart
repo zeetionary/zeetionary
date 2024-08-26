@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) نەبوونی توانای باوەڕکردن بە شتێک"),
           SentencesRow(
             englishText: "He stared at me in disbelief.",
-            kurdishText: "بە گومانەوە لێی دەڕوانیم.", // disbelief
+            kurdishText: "بە گومانەوە لێی دەڕوانیم.",
             onPressedBritish: () => speakdisbeliefs1("en-GB"),
             onPressedAmerican: () => speakdisbeliefs1("en-US"),
           ),

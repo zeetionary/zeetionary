@@ -135,7 +135,7 @@ class EnglishEntrybuiltup extends StatelessWidget {
                             englishText:
                                 "City council plans to lower speed limit in built-up areas to 30 km/h.",
                             kurdishText:
-                                "ئەنجوومەنی شارەکە پلانی ھەیە خێرایی دیاریکراو کەم بکاتەوە بۆ ٣٠ کم/کاتژمێرێکدا لە ناوچە ئاوەدانەکە.", // built-up", follow LX strictly
+                                "ئەنجوومەنی شارەکە پلانی ھەیە خێرایی دیاریکراو کەم بکاتەوە بۆ ٣٠ کم/کاتژمێرێکدا لە ناوچە ئاوەدانەکە.",
                             onPressedBritish: () => speakbuiltups1("en-GB"),
                             onPressedAmerican: () => speakbuiltups1("en-US"),
                           ),

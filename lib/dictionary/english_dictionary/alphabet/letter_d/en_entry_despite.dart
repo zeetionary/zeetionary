@@ -264,7 +264,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Her voice was shaking despite all her efforts to control it.",
             kurdishText:
-                "دەنگی دەلەرزی سەرەڕای ھەموو ھەوڵەکانی بۆ کۆنترۆڵکردنی.", // despite
+                "دەنگی دەلەرزی سەرەڕای ھەموو ھەوڵەکانی بۆ کۆنترۆڵکردنی.",
             onPressedBritish: () => speakdespites1("en-GB"),
             onPressedAmerican: () => speakdespites1("en-US"),
           ),

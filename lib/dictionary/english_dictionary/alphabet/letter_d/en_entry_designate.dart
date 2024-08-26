@@ -269,8 +269,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) پێدانی ناوێک یان خاسیەتێک بە کەسێک"),
           SentencesRow(
             englishText: "This area has been designated (as) a National Park.",
-            kurdishText:
-                "ئەم ناوچە وەک پارکی نیشتیمانی ناسێنراوە.", // designate
+            kurdishText: "ئەم ناوچە وەک پارکی نیشتیمانی ناسێنراوە.",
             onPressedBritish: () => speakdesignates1("en-GB"),
             onPressedAmerican: () => speakdesignates1("en-US"),
           ),

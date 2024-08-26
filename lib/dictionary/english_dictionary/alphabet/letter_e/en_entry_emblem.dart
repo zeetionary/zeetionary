@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) دیزاین یان وێنەیەک کە ناسنامەی وڵاتێک یان دامەزراوەیەکە"""),
           SentencesRow(
             englishText: """A rose is the national emblem of England.""",
-            kurdishText: """گوڵ ناسنامەی ئینگلتەرەیە.""", // emblem
+            kurdishText: """گوڵ ناسنامەی ئینگلتەرەیە.""",
             onPressedBritish: () => speakemblems1("en-GB"),
             onPressedAmerican: () => speakemblems1("en-US"),
           ),

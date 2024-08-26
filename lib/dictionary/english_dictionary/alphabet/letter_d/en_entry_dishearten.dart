@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) واکردن لە کەسێک کە ھیوا ورە لەدەست بدات"),
           SentencesRow(
             englishText: "Don't let this defeat dishearten you.",
-            kurdishText: "مەھێڵە ئەم شکستە نائومێدت بکات.", // dishearten
+            kurdishText: "مەھێڵە ئەم شکستە نائومێدت بکات.",
             onPressedBritish: () => speakdisheartens1("en-GB"),
             onPressedAmerican: () => speakdisheartens1("en-US"),
           ),

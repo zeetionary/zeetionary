@@ -365,8 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە چی دیکە بەکارنایەت"),
           SentencesRow(
             englishText: "The party was held in a disused warehouse.",
-            kurdishText:
-                "ئاھەنگەکە لە کۆگایەکی چۆڵ‌کراو ئەنجام درا.", // disused
+            kurdishText: "ئاھەنگەکە لە کۆگایەکی چۆڵ‌کراو ئەنجام درا.",
             onPressedBritish: () => speakdisuseds1("en-GB"),
             onPressedAmerican: () => speakdisuseds1("en-US"),
           ),

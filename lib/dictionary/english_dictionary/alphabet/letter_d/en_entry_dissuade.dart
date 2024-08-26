@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "I tried to dissuade him from giving up his job.",
             kurdishText:
-                "ھەوڵمدا پەشیمانی بکەمەوە لەوەی واز لە کارەکەی بھێنێت.", // dissuade
+                "ھەوڵمدا پەشیمانی بکەمەوە لەوەی واز لە کارەکەی بھێنێت.",
             onPressedBritish: () => speakdissuades1("en-GB"),
             onPressedAmerican: () => speakdissuades1("en-US"),
           ),

@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I couldn't enter the country because I didn't have all the necessary documentation.",
             kurdishText:
-                "نەمتوانی بچمە وڵاتەکەوە چونکە ھەموو بەڵگەنامە پێویستەکانم نەبوو.", // documentation
+                "نەمتوانی بچمە وڵاتەکەوە چونکە ھەموو بەڵگەنامە پێویستەکانم نەبوو.",
             onPressedBritish: () => speakdocumentations1("en-GB"),
             onPressedAmerican: () => speakdocumentations1("en-US"),
           ),

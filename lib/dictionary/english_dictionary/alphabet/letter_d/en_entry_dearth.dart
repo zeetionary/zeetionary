@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There was a dearth of reliable information on the subject.",
-            kurdishText:
-                "کەماسی زانیاری باوەڕپێکراو ھەبوو لەسەر بابەتەکە.", // dearth
+            kurdishText: "کەماسی زانیاری باوەڕپێکراو ھەبوو لەسەر بابەتەکە.",
             onPressedBritish: () => speakdearths1("en-GB"),
             onPressedAmerican: () => speakdearths1("en-US"),
           ),

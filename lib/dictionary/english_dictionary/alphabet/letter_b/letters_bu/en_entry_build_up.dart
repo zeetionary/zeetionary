@@ -141,7 +141,7 @@ class EnglishEntrybuildup extends StatelessWidget {
                             englishText:
                                 "The leak led to a slow build-up of carbon dioxide.",
                             kurdishText:
-                                "قڵشەکە بووە ھۆی کەڵەکەبوونی ھێواشی دووەم ئۆکسیدی کاربۆن.", // build-up", follow LX strictly
+                                "قڵشەکە بووە ھۆی کەڵەکەبوونی ھێواشی دووەم ئۆکسیدی کاربۆن.",
                             onPressedBritish: () => speakbuildups1("en-GB"),
                             onPressedAmerican: () => speakbuildups1("en-US"),
                           ),

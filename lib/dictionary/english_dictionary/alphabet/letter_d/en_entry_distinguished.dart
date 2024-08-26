@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He has had a long and distinguished career in medicine.",
             kurdishText:
-                "ماوەیەکی کارکردنی درێژ و ڕێزلێگیراوی ھەبووە لە پزیشکیدا.", // distinguished
+                "ماوەیەکی کارکردنی درێژ و ڕێزلێگیراوی ھەبووە لە پزیشکیدا.",
             onPressedBritish: () => speakdistinguisheds1("en-GB"),
             onPressedAmerican: () => speakdistinguisheds1("en-US"),
           ),

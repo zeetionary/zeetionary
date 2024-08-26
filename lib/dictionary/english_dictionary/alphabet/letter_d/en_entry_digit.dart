@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ھەر یەک لەو ژمارانەی لە نێوان ١-٩ ـن"),
           SentencesRow(
             englishText: "The number 57 306 contains five digits.",
-            kurdishText: "ژمارە ٥٧٣٠٦ پێنج ڕەنووس لەخۆدەگرێت", // digit
+            kurdishText: "ژمارە ٥٧٣٠٦ پێنج ڕەنووس لەخۆدەگرێت",
             onPressedBritish: () => speakdigits1("en-GB"),
             onPressedAmerican: () => speakdigits1("en-US"),
           ),

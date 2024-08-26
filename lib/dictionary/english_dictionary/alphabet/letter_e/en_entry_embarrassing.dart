@@ -398,8 +398,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """His terrible acting is just embarrassing to watch.""",
-            kurdishText:
-                """نمایشە خراپەکەی جێگەی شەرمە بۆ سەیرکردن.""", // embarrassing
+            kurdishText: """نمایشە خراپەکەی جێگەی شەرمە بۆ سەیرکردن.""",
             onPressedBritish: () => speakembarrassings1("en-GB"),
             onPressedAmerican: () => speakembarrassings1("en-US"),
           ),

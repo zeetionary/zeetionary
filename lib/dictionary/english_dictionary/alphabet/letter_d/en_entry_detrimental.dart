@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زیانبەخش"),
           SentencesRow(
             englishText: "The policy will be detrimental to the peace process.",
-            kurdishText:
-                "سیاسەتەکە دەکرێت زیانبەخش بێت بۆ پڕۆسەی ئاشتی.", // detrimental
+            kurdishText: "سیاسەتەکە دەکرێت زیانبەخش بێت بۆ پڕۆسەی ئاشتی.",
             onPressedBritish: () => speakdetrimentals1("en-GB"),
             onPressedAmerican: () => speakdetrimentals1("en-US"),
           ),

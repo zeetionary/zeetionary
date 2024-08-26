@@ -377,8 +377,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She managed to get exquisite material out of the dullness of her home town.""",
-            kurdishText:
-                """توانی شتی جوان لە ناخۆشی شارەکەیدا بدۆزێتەوە.""", // dullness
+            kurdishText: """توانی شتی جوان لە ناخۆشی شارەکەیدا بدۆزێتەوە.""",
             onPressedBritish: () => speakdullnesss1("en-GB"),
             onPressedAmerican: () => speakdullnesss1("en-US"),
           ),

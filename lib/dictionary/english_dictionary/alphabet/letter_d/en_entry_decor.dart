@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Choosing the furniture and decor for their new home was an exciting project.",
             kurdishText:
-                "ھەڵبژاردنی کەلوپەل و دیکۆری ماڵە تازەکەیان پڕۆژەیەکی بەجۆش بوو.", // decor
+                "ھەڵبژاردنی کەلوپەل و دیکۆری ماڵە تازەکەیان پڕۆژەیەکی بەجۆش بوو.",
             onPressedBritish: () => speakdecors1("en-GB"),
             onPressedAmerican: () => speakdecors1("en-US"),
           ),

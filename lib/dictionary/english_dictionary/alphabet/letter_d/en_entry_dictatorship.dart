@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) دەسەڵاتی دیکتاتۆری"),
           SentencesRow(
             englishText: "The generals established a military dictatorship.",
-            kurdishText:
-                "ژەنەراڵەکە دەسەڵاتێکی دیکتاتۆری درووستکرد.", // dictatorship
+            kurdishText: "ژەنەراڵەکە دەسەڵاتێکی دیکتاتۆری درووستکرد.",
             onPressedBritish: () => speakdictatorships1("en-GB"),
             onPressedAmerican: () => speakdictatorships1("en-US"),
           ),

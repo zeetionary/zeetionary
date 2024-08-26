@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Police are investigating the disappearance of a young woman.",
-            kurdishText:
-                "پۆلیس لێکۆڵینەوە لە ونبوونی ژنێکی گەنج دەکەن.", // disappearance
+            kurdishText: "پۆلیس لێکۆڵینەوە لە ونبوونی ژنێکی گەنج دەکەن.",
             onPressedBritish: () => speakdisappearances1("en-GB"),
             onPressedAmerican: () => speakdisappearances1("en-US"),
           ),

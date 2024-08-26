@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) شارەزا، بەتایبەتی لە بەکارھێنانی دەستدا"),
           SentencesRow(
             englishText: "Baseball players have to be fast and dexterous.",
-            kurdishText:
-                "یاریزانانی بەیسبۆڵ دەبێت خێرا و شارەزا بن.", // dexterous
+            kurdishText: "یاریزانانی بەیسبۆڵ دەبێت خێرا و شارەزا بن.",
             onPressedBritish: () => speakdexterouss1("en-GB"),
             onPressedAmerican: () => speakdexterouss1("en-US"),
           ),

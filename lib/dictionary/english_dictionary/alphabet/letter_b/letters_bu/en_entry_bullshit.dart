@@ -136,8 +136,7 @@ class EnglishEntrybullshit extends StatelessWidget {
                                   "١. (ناو) بیرۆکە، باوەڕ، یان قسە کە پێتوایە گەمژانەیە"),
                           SentencesRow(
                             englishText: "That's just bullshit.",
-                            kurdishText:
-                                "تەواو ھەڵیت‌وپڵیتانەیە.", // bullshit", follow LX strictly
+                            kurdishText: "تەواو ھەڵیت‌وپڵیتانەیە.",
                             onPressedBritish: () => speakbullshits1("en-GB"),
                             onPressedAmerican: () => speakbullshits1("en-US"),
                           ),

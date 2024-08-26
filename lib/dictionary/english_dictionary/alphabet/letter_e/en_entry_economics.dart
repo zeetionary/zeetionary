@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) خوێندنی ئابووری"""),
           SentencesRow(
             englishText: """He studied politics and economics at Yale.""",
-            kurdishText: """سیاسەت و ئابووری لە یەیڵ خوێند.""", // economics
+            kurdishText: """سیاسەت و ئابووری لە یەیڵ خوێند.""",
             onPressedBritish: () => speakeconomicss1("en-GB"),
             onPressedAmerican: () => speakeconomicss1("en-US"),
           ),

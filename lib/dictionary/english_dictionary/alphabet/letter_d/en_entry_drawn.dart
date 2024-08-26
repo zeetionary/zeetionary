@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە باریک و ڕەنگ‌پەڕیو دیارە بەھۆی ئەوەی کە کەسەکە ماندوو، نەخۆش، یان نیگەرانە"),
           SentencesRow(
             englishText: "She looked very pale and drawn.",
-            kurdishText: "ڕەنگ‌پەڕیو و زەردھەڵگەڕاو دیاربوو.", // drawn
+            kurdishText: "ڕەنگ‌پەڕیو و زەردھەڵگەڕاو دیاربوو.",
             onPressedBritish: () => speakdrawns1("en-GB"),
             onPressedAmerican: () => speakdrawns1("en-US"),
           ),

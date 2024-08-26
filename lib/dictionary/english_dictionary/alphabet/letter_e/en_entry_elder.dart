@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Her parents and elder sister stayed behind in Poland when she came to America.""",
             kurdishText:
-                """دایک و باوکی و خوشکە گەورەکەی لە پۆڵەندا مانەوە کە ئەو ھات بۆ ئەمریکا.""", // elder
+                """دایک و باوکی و خوشکە گەورەکەی لە پۆڵەندا مانەوە کە ئەو ھات بۆ ئەمریکا.""",
             onPressedBritish: () => speakelders1("en-GB"),
             onPressedAmerican: () => speakelders1("en-US"),
           ),

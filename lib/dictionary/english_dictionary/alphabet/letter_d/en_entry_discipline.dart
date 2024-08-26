@@ -316,7 +316,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The school has a reputation for high standards of discipline.",
             kurdishText:
-                "قوتابخانەکە ناوبانگی بۆ ستانداردی بەرز ھەیە بۆ تەنێکردن.", // discipline
+                "قوتابخانەکە ناوبانگی بۆ ستانداردی بەرز ھەیە بۆ تەنێکردن.",
             onPressedBritish: () => speakdisciplines1("en-GB"),
             onPressedAmerican: () => speakdisciplines1("en-US"),
           ),

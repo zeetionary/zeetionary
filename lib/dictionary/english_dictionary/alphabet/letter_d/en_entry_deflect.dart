@@ -282,8 +282,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) گۆڕینی ئاراستە"),
           SentencesRow(
             englishText: "The ball deflected off Reid's body into the goal.",
-            kurdishText:
-                "تۆپەکە کێشای بە جەستەی ڕیددا و چووە ناو گۆڵەکە.", // deflect
+            kurdishText: "تۆپەکە کێشای بە جەستەی ڕیددا و چووە ناو گۆڵەکە.",
             onPressedBritish: () => speakdeflects1("en-GB"),
             onPressedAmerican: () => speakdeflects1("en-US"),
           ),

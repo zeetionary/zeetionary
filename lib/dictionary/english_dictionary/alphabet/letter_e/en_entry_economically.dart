@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The factory is no longer economically viable.""",
             kurdishText:
-                """کارگەکە چی دیکە لەلایەنی ئابوورییەوە خۆبژێو نییە.""", // economically
+                """کارگەکە چی دیکە لەلایەنی ئابوورییەوە خۆبژێو نییە.""",
             onPressedBritish: () => speakeconomicallys1("en-GB"),
             onPressedAmerican: () => speakeconomicallys1("en-US"),
           ),

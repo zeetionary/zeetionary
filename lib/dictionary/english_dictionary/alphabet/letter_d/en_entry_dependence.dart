@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دۆخێک کە تێیدا پشت بە کەسێک/شتێک دەبەستیت بۆ ڕزگاربوون یان سەرکەوتن"),
           SentencesRow(
             englishText: "Our relationship was based on mutual dependence.",
-            kurdishText:
-                "پەیوەدیمان پشتی بە پشت‌پێ‌بەستنی ھاوبەش دەبەست.", // dependence
+            kurdishText: "پەیوەدیمان پشتی بە پشت‌پێ‌بەستنی ھاوبەش دەبەست.",
             onPressedBritish: () => speakdependences1("en-GB"),
             onPressedAmerican: () => speakdependences1("en-US"),
           ),

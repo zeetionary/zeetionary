@@ -303,8 +303,7 @@ class EnglishEntryburn extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Fires were burning all over the city.",
-                            kurdishText:
-                                "ئاگر تاوی سەندبوو لە تەواوی شارەکە.", // burn", follow LX strictly
+                            kurdishText: "ئاگر تاوی سەندبوو لە تەواوی شارەکە.",
                             onPressedBritish: () => speakburns1("en-GB"),
                             onPressedAmerican: () => speakburns1("en-US"),
                           ),

@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) وێنەکێشانێکی سادە بە بەکارھێنانی ھێل بۆ ڕوونکردنەوەی ئەوەی شتێک بۆ کوێ دەجوڵێت، چۆن کار دەکات، ھتد"),
           SentencesRow(
             englishText: "The results are shown in diagram 2.",
-            kurdishText: "ئەنجامەکان لە ھێڵکاری ٢ پیشان دەدرێن.", // diagram
+            kurdishText: "ئەنجامەکان لە ھێڵکاری ٢ پیشان دەدرێن.",
             onPressedBritish: () => speakdiagrams1("en-GB"),
             onPressedAmerican: () => speakdiagrams1("en-US"),
           ),

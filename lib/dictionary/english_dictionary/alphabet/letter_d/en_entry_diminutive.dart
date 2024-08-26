@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) زۆر بچووک"),
           SentencesRow(
             englishText: "She was a diminutive figure beside her husband.",
-            kurdishText:
-                "ھەیکەلێکی بچووک بوو لە تەنیشت ھاوسەرەکەی.", // diminutive
+            kurdishText: "ھەیکەلێکی بچووک بوو لە تەنیشت ھاوسەرەکەی.",
             onPressedBritish: () => speakdiminutives1("en-GB"),
             onPressedAmerican: () => speakdiminutives1("en-US"),
           ),

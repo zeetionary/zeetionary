@@ -412,8 +412,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """I nearly died of embarrassment when he said that.""",
-            kurdishText:
-                """خەریک بوو لە شەرمەزاریدا بمرم کە ئەوەی گوت.""", // embarrassment
+            kurdishText: """خەریک بوو لە شەرمەزاریدا بمرم کە ئەوەی گوت.""",
             onPressedBritish: () => speakembarrassments1("en-GB"),
             onPressedAmerican: () => speakembarrassments1("en-US"),
           ),

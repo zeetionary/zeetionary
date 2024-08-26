@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The family left Czechoslovakia in 1968 and emigrated to America.""",
             kurdishText:
-                """خێزانەکە لە ١٩٦٨ چیکۆسلۆڤاکیایان جێھێشت و کۆچیان بۆ ئەمریکا کرد.""", // emigrate
+                """خێزانەکە لە ١٩٦٨ چیکۆسلۆڤاکیایان جێھێشت و کۆچیان بۆ ئەمریکا کرد.""",
             onPressedBritish: () => speakemigrates1("en-GB"),
             onPressedAmerican: () => speakemigrates1("en-US"),
           ),

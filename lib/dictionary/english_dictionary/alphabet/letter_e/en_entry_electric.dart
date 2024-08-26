@@ -395,8 +395,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The wind turbine supplies the farm with electric power.""",
-            kurdishText:
-                """تۆڕباینە بایەکە وزەی کارەبا دەدات بە کێڵگەکە.""", // electric
+            kurdishText: """تۆڕباینە بایەکە وزەی کارەبا دەدات بە کێڵگەکە.""",
             onPressedBritish: () => speakelectrics1("en-GB"),
             onPressedAmerican: () => speakelectrics1("en-US"),
           ),

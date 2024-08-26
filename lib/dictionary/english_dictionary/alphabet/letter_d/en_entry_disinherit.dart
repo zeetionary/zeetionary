@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "He threatened to disinherit his eldest son.",
             kurdishText:
-                "ھەڕەشەی ئەوەی کرد گەورەترین کوڕی لە میراتی بێبەش بکات.", // disinherit
+                "ھەڕەشەی ئەوەی کرد گەورەترین کوڕی لە میراتی بێبەش بکات.",
             onPressedBritish: () => speakdisinherits1("en-GB"),
             onPressedAmerican: () => speakdisinherits1("en-US"),
           ),

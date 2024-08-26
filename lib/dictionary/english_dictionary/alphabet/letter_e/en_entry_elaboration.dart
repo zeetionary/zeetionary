@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The importance of the plan needs no further elaboration.""",
             kurdishText:
-                """گرنگی پلانەکە پێویستیی بە ڕوونکردنەوەی زیاتر نییە.""", // elaboration
+                """گرنگی پلانەکە پێویستیی بە ڕوونکردنەوەی زیاتر نییە.""",
             onPressedBritish: () => speakelaborations1("en-GB"),
             onPressedAmerican: () => speakelaborations1("en-US"),
           ),

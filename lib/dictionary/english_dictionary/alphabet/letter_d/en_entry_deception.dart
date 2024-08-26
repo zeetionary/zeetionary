@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) خەڵەتاندن؛ واکردنی ئەوەی کەسێک باوەڕ بە درۆیەک بکات"),
           SentencesRow(
             englishText: "He was accused of obtaining property by deception.",
-            kurdishText:
-                "تاوانبارکرا بە بەدەستخستنی زەوییەکە بە تەڵەکەبازی.", // deception
+            kurdishText: "تاوانبارکرا بە بەدەستخستنی زەوییەکە بە تەڵەکەبازی.",
             onPressedBritish: () => speakdeceptions1("en-GB"),
             onPressedAmerican: () => speakdeceptions1("en-US"),
           ),

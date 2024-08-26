@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I had time to do a quick edit of my essay before handing it in.""",
             kurdishText:
-                """کاتم ھەبوو دەستکارییەکی خێرای داڕشتنەکەم بکەم پێش ڕادەستکردنی.""", // edit
+                """کاتم ھەبوو دەستکارییەکی خێرای داڕشتنەکەم بکەم پێش ڕادەستکردنی.""",
             onPressedBritish: () => speakedits1("en-GB"),
             onPressedAmerican: () => speakedits1("en-US"),
           ),

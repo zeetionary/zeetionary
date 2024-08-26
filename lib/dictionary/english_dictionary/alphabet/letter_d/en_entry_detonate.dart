@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) تەقانەوە؛ تەقاندنەوەی بۆمبێک"),
           SentencesRow(
             englishText: "Two other bombs failed to detonate.",
-            kurdishText: "دوو بۆمبی دیکە نەتەقینەوە.", // detonate
+            kurdishText: "دوو بۆمبی دیکە نەتەقینەوە.",
             onPressedBritish: () => speakdetonates1("en-GB"),
             onPressedAmerican: () => speakdetonates1("en-US"),
           ),

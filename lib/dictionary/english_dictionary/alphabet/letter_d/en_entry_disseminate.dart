@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) بڵاوکردنەوەی زانیاری، زانست، ھتد بۆ ئەوەی بە زۆرترین کەس بگات"),
           SentencesRow(
             englishText: "Their findings have been widely disseminated.",
-            kurdishText:
-                "دۆزینەوەکانیان بە بەرفراوانی بڵاوکراونەتەوە.", // disseminate
+            kurdishText: "دۆزینەوەکانیان بە بەرفراوانی بڵاوکراونەتەوە.",
             onPressedBritish: () => speakdisseminates1("en-GB"),
             onPressedAmerican: () => speakdisseminates1("en-US"),
           ),

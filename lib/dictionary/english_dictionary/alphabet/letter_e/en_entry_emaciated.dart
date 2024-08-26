@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He was thirty, but looked fifty, with pale skin, hopeless eyes and an emaciated body, covered in sores.""",
             kurdishText:
-                """سی ساڵان بوو، بەڵام لە پەنجا دەچوو بە پێستی ڕەنگ‌پەڕیو، چاوی چاوانی بێ‌ھیوا و جەستەیەکی لەڕ کە بە پڕبوو لە شینبوونەوە.""", // emaciated
+                """سی ساڵان بوو، بەڵام لە پەنجا دەچوو بە پێستی ڕەنگ‌پەڕیو، چاوی چاوانی بێ‌ھیوا و جەستەیەکی لەڕ کە بە پڕبوو لە شینبوونەوە.""",
             onPressedBritish: () => speakemaciateds1("en-GB"),
             onPressedAmerican: () => speakemaciateds1("en-US"),
           ),

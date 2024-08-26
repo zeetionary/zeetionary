@@ -378,8 +378,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The office was established under the previous dynasty.""",
-            kurdishText:
-                """ئۆفیسەکە لەلایەن زنجیرەشای پێشووەوە دامەزرا.""", // dynasty
+            kurdishText: """ئۆفیسەکە لەلایەن زنجیرەشای پێشووەوە دامەزرا.""",
             onPressedBritish: () => speakdynastys1("en-GB"),
             onPressedAmerican: () => speakdynastys1("en-US"),
           ),

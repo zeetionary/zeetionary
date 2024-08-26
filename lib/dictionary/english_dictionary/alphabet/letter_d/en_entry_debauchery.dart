@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The scandal exposed the debauchery and corruption of the political elite.",
             kurdishText:
-                "ئابڕووچوونەکە بەدئاکاری و گەندەڵی سیاسییە باڵاکانی ئاشكرا کرد.", // debauchery
+                "ئابڕووچوونەکە بەدئاکاری و گەندەڵی سیاسییە باڵاکانی ئاشكرا کرد.",
             onPressedBritish: () => speakdebaucherys1("en-GB"),
             onPressedAmerican: () => speakdebaucherys1("en-US"),
           ),

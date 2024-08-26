@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە خەون و بیرۆکە و ھەیە کە نالۆژیکی و ناڕاستین"),
           SentencesRow(
             englishText: "He was a romantic dreamer. a romantic dreamer.",
-            kurdishText: "خەوبینێکی ڕۆمانسی بوو.", // dreamer
+            kurdishText: "خەوبینێکی ڕۆمانسی بوو.",
             onPressedBritish: () => speakdreamers1("en-GB"),
             onPressedAmerican: () => speakdreamers1("en-US"),
           ),

@@ -262,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) باسکردن، ڕوونکردنەوە، یان کێشانی شتێک بە وردەکارییەوە"),
           SentencesRow(
             englishText: "Our objectives need to be precisely delineated.",
-            kurdishText:
-                "ئامانجەکانمان دەبێت بە وردی ڕوونبکرێنەوە.", // delineate
+            kurdishText: "ئامانجەکانمان دەبێت بە وردی ڕوونبکرێنەوە.",
             onPressedBritish: () => speakdelineates1("en-GB"),
             onPressedAmerican: () => speakdelineates1("en-US"),
           ),

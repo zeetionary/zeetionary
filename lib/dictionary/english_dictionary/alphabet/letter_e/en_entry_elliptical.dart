@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """His message was written in a deliberately elliptical style.""",
             kurdishText:
-                """نامەکەی بە ئەنقەست بە ستایلێکی ھاووشەلابراو نووسرابوو.""", // elliptical
+                """نامەکەی بە ئەنقەست بە ستایلێکی ھاووشەلابراو نووسرابوو.""",
             onPressedBritish: () => speakellipticals1("en-GB"),
             onPressedAmerican: () => speakellipticals1("en-US"),
           ),

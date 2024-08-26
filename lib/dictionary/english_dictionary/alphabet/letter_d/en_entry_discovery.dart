@@ -280,7 +280,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Researchers in this field have made some important new discoveries.",
             kurdishText:
-                "لێکۆڵەرانی ئەم بوارە ژمارەیەک دۆزینەوەی تازەی گرنگیان کردووە.", // discovery
+                "لێکۆڵەرانی ئەم بوارە ژمارەیەک دۆزینەوەی تازەی گرنگیان کردووە.",
             onPressedBritish: () => speakdiscoverys1("en-GB"),
             onPressedAmerican: () => speakdiscoverys1("en-US"),
           ),

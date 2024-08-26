@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) پەنجەرە کە دوو پارچە شووشەی ھەیە"),
           SentencesRow(
             englishText: "We’re having double-glazing fitted.",
-            kurdishText: "پەنجەرەی دوو توێ دادەنێین.", // double glazing
+            kurdishText: "پەنجەرەی دوو توێ دادەنێین.",
             onPressedBritish: () => speakdoubleglazings1("en-GB"),
             onPressedAmerican: () => speakdoubleglazings1("en-US"),
           ),

@@ -373,8 +373,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دەکرێت دابەش بکرێت"),
           SentencesRow(
             englishText: "Plants are divisible into three main groups.",
-            kurdishText:
-                "ڕووەکەکان بەسەر سێ گرووپدا دابەش دەکرێن.", // divisible
+            kurdishText: "ڕووەکەکان بەسەر سێ گرووپدا دابەش دەکرێن.",
             onPressedBritish: () => speakdivisibles1("en-GB"),
             onPressedAmerican: () => speakdivisibles1("en-US"),
           ),

@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Marriage to a national gave automatic eligibility for citizenship.""",
             kurdishText:
-                """ھاوسەرگیری لەگەڵ ھاونیشتیمانییەک پێ‌ڕەوایی خۆکارانەی بۆ ناسنامە پێدا.""", // eligibility
+                """ھاوسەرگیری لەگەڵ ھاونیشتیمانییەک پێ‌ڕەوایی خۆکارانەی بۆ ناسنامە پێدا.""",
             onPressedBritish: () => speakeligibilitys1("en-GB"),
             onPressedAmerican: () => speakeligibilitys1("en-US"),
           ),

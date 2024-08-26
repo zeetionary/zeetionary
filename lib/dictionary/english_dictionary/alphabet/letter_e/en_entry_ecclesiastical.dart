@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) پەیوەندیدار بە کڵێسای مەسیحی"""),
           SentencesRow(
             englishText: """The town has many ecclesiastical buildings.""",
-            kurdishText:
-                """شارۆچکەکە ژمارەیەک بینای کڵێسای ھەیە.""", // ecclesiastical
+            kurdishText: """شارۆچکەکە ژمارەیەک بینای کڵێسای ھەیە.""",
             onPressedBritish: () => speakecclesiasticals1("en-GB"),
             onPressedAmerican: () => speakecclesiasticals1("en-US"),
           ),

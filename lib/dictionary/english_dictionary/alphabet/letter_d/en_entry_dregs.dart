@@ -384,8 +384,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I wanted a last drink of coffee, but there were only dregs left.",
-            kurdishText:
-                "کۆتا قومم دەویست بەڵام تەنھا نیشتووەکەی مابوو.", // dregs
+            kurdishText: "کۆتا قومم دەویست بەڵام تەنھا نیشتووەکەی مابوو.",
             onPressedBritish: () => speakdregss1("en-GB"),
             onPressedAmerican: () => speakdregss1("en-US"),
           ),

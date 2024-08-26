@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) پاراستنی کەسێک لە ھێرش"),
           SentencesRow(
             englishText: "The role of the military is to defend the country.",
-            kurdishText: "ئەرکی سوپا بەرگری کردن لە وڵاتە.", // defend
+            kurdishText: "ئەرکی سوپا بەرگری کردن لە وڵاتە.",
             onPressedBritish: () => speakdefends1("en-GB"),
             onPressedAmerican: () => speakdefends1("en-US"),
           ),

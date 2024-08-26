@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He was hoping for some lively political discourse at the meeting.",
             kurdishText:
-                "بەھیوای ژمارەیەک وتووێژی سیاسی بەگوڕ بوو لە چاوپێکەوتنەکە.", // discourse
+                "بەھیوای ژمارەیەک وتووێژی سیاسی بەگوڕ بوو لە چاوپێکەوتنەکە.",
             onPressedBritish: () => speakdiscourses1("en-GB"),
             onPressedAmerican: () => speakdiscourses1("en-US"),
           ),

@@ -358,7 +358,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ژمارەی پلەیی) ھەشتایەم"""),
           SentencesRow(
             englishText: """They finished eightieth out of a hundred.""",
-            kurdishText: """لە کۆی سەد کەس ھەشتایەم بوو.""", // eightieth
+            kurdishText: """لە کۆی سەد کەس ھەشتایەم بوو.""",
             onPressedBritish: () => speakeightieths1("en-GB"),
             onPressedAmerican: () => speakeightieths1("en-US"),
           ),

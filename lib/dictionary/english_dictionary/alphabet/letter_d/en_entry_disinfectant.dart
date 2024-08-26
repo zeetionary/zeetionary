@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Hospitals use strong disinfectants for cleaning.",
             kurdishText:
-                "نەخۆشخانەکان دژە بەکتریای بەھێز بەکاردەھێنن بۆ پاککردنەوە.", // disinfectant
+                "نەخۆشخانەکان دژە بەکتریای بەھێز بەکاردەھێنن بۆ پاککردنەوە.",
             onPressedBritish: () => speakdisinfectants1("en-GB"),
             onPressedAmerican: () => speakdisinfectants1("en-US"),
           ),

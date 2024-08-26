@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A diagrammatic representation of this life cycle is shown in figure 4.1.",
             kurdishText:
-                "ڕوونکردنەوەیەکی ھێڵکارییانەی ئەم سووڕی ژیانە لە شێوەی ٤.١ پیشان دراوە.", // diagrammatic
+                "ڕوونکردنەوەیەکی ھێڵکارییانەی ئەم سووڕی ژیانە لە شێوەی ٤.١ پیشان دراوە.",
             onPressedBritish: () => speakdiagrammatics1("en-GB"),
             onPressedAmerican: () => speakdiagrammatics1("en-US"),
           ),

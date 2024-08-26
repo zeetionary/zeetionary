@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە ڕازی نییە بەو بۆچوونانەی کە بە شێوەیەکی فەرمی یان گشتی پەسەندکراون"),
           SentencesRow(
             englishText: "The dissenters at the meeting were shouted down.",
-            kurdishText:
-                "دژبەران لە چاوپێکەوتنەکە دەنگیان بەسەر بەرزکرا.", // dissenter
+            kurdishText: "دژبەران لە چاوپێکەوتنەکە دەنگیان بەسەر بەرزکرا.",
             onPressedBritish: () => speakdissenters1("en-GB"),
             onPressedAmerican: () => speakdissenters1("en-US"),
           ),

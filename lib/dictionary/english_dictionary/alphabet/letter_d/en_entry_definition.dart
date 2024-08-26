@@ -298,8 +298,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ڕوونکردنەوەی واتای وشەیەک یان زاراوەیەک، بەتایبەتی لە فەرھەنگێکدا"),
           SentencesRow(
             englishText: "The dictionary provides clear, simple definitions.",
-            kurdishText:
-                "فەرھەنگەکە واتای ڕوون و سادە دەدات بەدەستەوە.", // definition
+            kurdishText: "فەرھەنگەکە واتای ڕوون و سادە دەدات بەدەستەوە.",
             onPressedBritish: () => speakdefinitions1("en-GB"),
             onPressedAmerican: () => speakdefinitions1("en-US"),
           ),

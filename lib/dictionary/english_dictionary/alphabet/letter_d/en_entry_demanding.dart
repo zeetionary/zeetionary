@@ -260,7 +260,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە پێویستی بە شارەزایی، ھەوڵ، ھتد ھەیە"),
           SentencesRow(
             englishText: "The work is physically demanding.",
-            kurdishText: "کارەکە لە ڕووی جەستەییەوە سەختە.", // demanding
+            kurdishText: "کارەکە لە ڕووی جەستەییەوە سەختە.",
             onPressedBritish: () => speakdemandings1("en-GB"),
             onPressedAmerican: () => speakdemandings1("en-US"),
           ),

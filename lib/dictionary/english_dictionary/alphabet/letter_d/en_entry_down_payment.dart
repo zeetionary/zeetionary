@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بڕێک پارە کە وەک پێشەکی دەدرێت"),
           SentencesRow(
             englishText: "We are saving for a down payment on a house.",
-            kurdishText:
-                "پارە پاشەکەوت دەکەین بۆ پێشەکی خانوویەک.", // down payment
+            kurdishText: "پارە پاشەکەوت دەکەین بۆ پێشەکی خانوویەک.",
             onPressedBritish: () => speakdownpayments1("en-GB"),
             onPressedAmerican: () => speakdownpayments1("en-US"),
           ),

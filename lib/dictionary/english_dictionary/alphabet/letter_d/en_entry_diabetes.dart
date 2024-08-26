@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نەخۆشییەک کە ڕوودەدات بەھۆی ئەوەی جەستە ناتوانێت ئینسۆلینی پێویست درووست بکات کۆنترۆڵی شەکر لە خوێندا"),
           SentencesRow(
             englishText: "Diabetes is diagnosed with a blood test.",
-            kurdishText: "شەکرە بە پشکنینی خوێن دەردەخرێت.", // diabetes
+            kurdishText: "شەکرە بە پشکنینی خوێن دەردەخرێت.",
             onPressedBritish: () => speakdiabetess1("en-GB"),
             onPressedAmerican: () => speakdiabetess1("en-US"),
           ),

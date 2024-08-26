@@ -258,7 +258,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) خراپبوون"),
           SentencesRow(
             englishText: "Her health degenerated quickly.",
-            kurdishText: "تەندرووستی بە خێرایی تێکچوو.", // degenerate
+            kurdishText: "تەندرووستی بە خێرایی تێکچوو.",
             onPressedBritish: () => speakdegenerates1("en-GB"),
             onPressedAmerican: () => speakdegenerates1("en-US"),
           ),

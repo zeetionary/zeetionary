@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) ژوورێکی تاریکی ژێر زەوی کە وەک زیندانی بەکاردێت"""),
           SentencesRow(
             englishText: """Throw him into the dungeons!""",
-            kurdishText: """فڕێی بدەنە زیندانەکەوە!""", // dungeon
+            kurdishText: """فڕێی بدەنە زیندانەکەوە!""",
             onPressedBritish: () => speakdungeons1("en-GB"),
             onPressedAmerican: () => speakdungeons1("en-US"),
           ),

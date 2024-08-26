@@ -182,7 +182,7 @@ class EnglishEntrybundle extends StatelessWidget {
                             englishText:
                                 "She held her little bundle (= her baby) tightly in her arms.",
                             kurdishText:
-                                "منداڵە بچووکەکەی بە توندی لە باوەش کردبوو.", // bundle", follow LX strictly
+                                "منداڵە بچووکەکەی بە توندی لە باوەش کردبوو.",
                             onPressedBritish: () => speakbundles1("en-GB"),
                             onPressedAmerican: () => speakbundles1("en-US"),
                           ),

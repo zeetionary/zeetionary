@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە ڕەفتاری خراپ و بێڕێزی بۆ کەسانی دیکە پیشان دەدات"),
           SentencesRow(
             englishText: "He didn’t wish to appear discourteous.",
-            kurdishText: "نەیدەویست بە بێ‌ڕەوشتانە دەربکەوێت.", // discourteous
+            kurdishText: "نەیدەویست بە بێ‌ڕەوشتانە دەربکەوێت.",
             onPressedBritish: () => speakdiscourteouss1("en-GB"),
             onPressedAmerican: () => speakdiscourteouss1("en-US"),
           ),

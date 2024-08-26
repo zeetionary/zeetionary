@@ -362,8 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Dissidents were often imprisoned by the security police.",
-            kurdishText:
-                "ڕەخنەگران زۆرجار لەلایەن ئاسایشەوە دەستگیر دەکران.", // dissident
+            kurdishText: "ڕەخنەگران زۆرجار لەلایەن ئاسایشەوە دەستگیر دەکران.",
             onPressedBritish: () => speakdissidents1("en-GB"),
             onPressedAmerican: () => speakdissidents1("en-US"),
           ),

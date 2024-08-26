@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He praised the union's aims but predicted its early demise.",
             kurdishText:
-                "پەسنی ئامانجەکانی سەندیکاکەی دا بەڵام پێشبینی زوو پووکانەوەیی کرد.", // demise
+                "پەسنی ئامانجەکانی سەندیکاکەی دا بەڵام پێشبینی زوو پووکانەوەیی کرد.",
             onPressedBritish: () => speakdemises1("en-GB"),
             onPressedAmerican: () => speakdemises1("en-US"),
           ),

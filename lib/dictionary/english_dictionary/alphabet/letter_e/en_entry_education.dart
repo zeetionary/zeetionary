@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) پڕۆسەی پەروەردە و فێرکردن لە قوتابخانە"""),
           SentencesRow(
             englishText: """She completed her formal education in 2019.""",
-            kurdishText: """ساڵی ٢٠١٩ خوێندنی فەرمیی تەواو کرد.""", // education
+            kurdishText: """ساڵی ٢٠١٩ خوێندنی فەرمیی تەواو کرد.""",
             onPressedBritish: () => speakeducations1("en-GB"),
             onPressedAmerican: () => speakeducations1("en-US"),
           ),

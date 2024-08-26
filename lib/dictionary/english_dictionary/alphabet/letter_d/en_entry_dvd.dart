@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) پەپکێک کە لە سەری زانیاریی زۆر، بەتایبەتی فیلم، دەکرێت ھەڵبگیردرێت"""),
           SentencesRow(
             englishText: """Let's just stay in and watch a DVD.""",
-            kurdishText:
-                """با لە ماڵەوە بمێنینەوە و سەیری دی‌ڤی‌دی بکەین.""", // DVD
+            kurdishText: """با لە ماڵەوە بمێنینەوە و سەیری دی‌ڤی‌دی بکەین.""",
             onPressedBritish: () => speakDVDs1("en-GB"),
             onPressedAmerican: () => speakDVDs1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They set up deckchairs on the beach to enjoy the view of the ocean.",
             kurdishText:
-                "کورسی قەدکراویان دانا لەسەر کەناراوەکە بۆ چێژبینین لە دیمەنی زەریاکە.", // deckchair
+                "کورسی قەدکراویان دانا لەسەر کەناراوەکە بۆ چێژبینین لە دیمەنی زەریاکە.",
             onPressedBritish: () => speakdeckchairs1("en-GB"),
             onPressedAmerican: () => speakdeckchairs1("en-US"),
           ),

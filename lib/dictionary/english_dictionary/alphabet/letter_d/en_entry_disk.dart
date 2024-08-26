@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The information required can then be retrieved from disk.",
             kurdishText:
-                "ئەو زانیارییەی کە پێویستن دەکرێت دواتر لە دیسکەکەوە دەربکرێن.", // disk
+                "ئەو زانیارییەی کە پێویستن دەکرێت دواتر لە دیسکەکەوە دەربکرێن.",
             onPressedBritish: () => speakdisks1("en-GB"),
             onPressedAmerican: () => speakdisks1("en-US"),
           ),

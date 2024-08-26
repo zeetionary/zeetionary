@@ -296,8 +296,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The eye is one of the most delicate organs of the body.",
-            kurdishText:
-                "چاو یەکێکە لە ھەرە ناسکترین ئەندامەکانی جەستە.", // delicate
+            kurdishText: "چاو یەکێکە لە ھەرە ناسکترین ئەندامەکانی جەستە.",
             onPressedBritish: () => speakdelicates1("en-GB"),
             onPressedAmerican: () => speakdelicates1("en-US"),
           ),

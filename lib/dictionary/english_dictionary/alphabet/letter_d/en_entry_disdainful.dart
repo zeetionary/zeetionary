@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She's always been disdainful of people who haven't been to college.",
             kurdishText:
-                "ھەمیشە بەفیزن بووە بەرامبەر بە کەسانەی کە نەچووبوونە کۆلێژ.", // disdainful
+                "ھەمیشە بەفیزن بووە بەرامبەر بە کەسانەی کە نەچووبوونە کۆلێژ.",
             onPressedBritish: () => speakdisdainfuls1("en-GB"),
             onPressedAmerican: () => speakdisdainfuls1("en-US"),
           ),

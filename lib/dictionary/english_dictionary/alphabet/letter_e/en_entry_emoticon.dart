@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) ژمارەیەک سمبولی سەر کیبۆرد کە ھەستێک دەردەبڕن، بۆ نموونە :-) ڕوخسارێکی دڵخۆشە"""),
           SentencesRow(
             englishText: """She replied with a heart emoticon <3.""",
-            kurdishText: """بە ئیمۆتیکنی دڵ <3 وەڵامی دایەوە.""", // emoticon
+            kurdishText: """بە ئیمۆتیکنی دڵ <3 وەڵامی دایەوە.""",
             onPressedBritish: () => speakemoticons1("en-GB"),
             onPressedAmerican: () => speakemoticons1("en-US"),
           ),

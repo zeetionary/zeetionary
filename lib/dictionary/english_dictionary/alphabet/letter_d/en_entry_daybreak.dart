@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئەو کاتەی ڕۆژ کە ڕۆشنایی دەردەکەوێت"),
           SentencesRow(
             englishText: "We left before daybreak.",
-            kurdishText: "پێش خۆرھەڵاتن ڕۆشتین.", // daybreak
+            kurdishText: "پێش خۆرھەڵاتن ڕۆشتین.",
             onPressedBritish: () => speakdaybreaks1("en-GB"),
             onPressedAmerican: () => speakdaybreaks1("en-US"),
           ),

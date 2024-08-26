@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Measures must be taken to protect the world's depleted elephant population.""",
             kurdishText:
-                """دەبێت ھەنگاو بنردرێت بۆ پاراستنی ژمارەی کەمبووی فیل لە جیھاندا.""", // elephant
+                """دەبێت ھەنگاو بنردرێت بۆ پاراستنی ژمارەی کەمبووی فیل لە جیھاندا.""",
             onPressedBritish: () => speakelephants1("en-GB"),
             onPressedAmerican: () => speakelephants1("en-US"),
           ),

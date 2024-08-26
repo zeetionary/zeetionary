@@ -138,7 +138,7 @@ class EnglishEntrybum extends StatelessWidget {
                             englishText:
                                 "They've been sitting on their bums all day, doing nothing.",
                             kurdishText:
-                                "ھەموو ڕۆژەکە لەسەر کنگیان دانیشتوون و ھیچیان نەکردووە.", // bum", follow LX strictly
+                                "ھەموو ڕۆژەکە لەسەر کنگیان دانیشتوون و ھیچیان نەکردووە.",
                             onPressedBritish: () => speakbums1("en-GB"),
                             onPressedAmerican: () => speakbums1("en-US"),
                           ),

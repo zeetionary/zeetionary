@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) پێدانی کارێک بە کەسێک لە بەرامبەر مووچەیەک"""),
           SentencesRow(
             englishText: """How many people does the company employ?""",
-            kurdishText: """کۆمپانیاکە چەند کەسی گرتووە؟""", // employ
+            kurdishText: """کۆمپانیاکە چەند کەسی گرتووە؟""",
             onPressedBritish: () => speakemploys1("en-GB"),
             onPressedAmerican: () => speakemploys1("en-US"),
           ),

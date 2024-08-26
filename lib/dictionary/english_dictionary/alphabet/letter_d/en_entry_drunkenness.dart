@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He fell to his death in a state of extreme drunkenness.",
-            kurdishText:
-                "گەشت بە مردنی لە دۆخی تەواو سەرمەستیدا.", // drunkenness
+            kurdishText: "گەشت بە مردنی لە دۆخی تەواو سەرمەستیدا.",
             onPressedBritish: () => speakdrunkennesss1("en-GB"),
             onPressedAmerican: () => speakdrunkennesss1("en-US"),
           ),

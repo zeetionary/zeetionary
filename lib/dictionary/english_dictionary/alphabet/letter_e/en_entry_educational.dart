@@ -389,8 +389,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) پەیوەندیدار بە پەروەردە و فێرکردن"""),
           SentencesRow(
             englishText: """Are educational standards falling?""",
-            kurdishText:
-                """ستانداردەکانی فێرکردن ڕوو لە دابەزینن؟""", // educational
+            kurdishText: """ستانداردەکانی فێرکردن ڕوو لە دابەزینن؟""",
             onPressedBritish: () => speakeducationals1("en-GB"),
             onPressedAmerican: () => speakeducationals1("en-US"),
           ),

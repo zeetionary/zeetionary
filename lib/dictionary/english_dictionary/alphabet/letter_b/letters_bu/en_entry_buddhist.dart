@@ -135,7 +135,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
                             englishText:
                                 "In Thailand, many embrace the Buddhist faith.",
                             kurdishText:
-                                "لە تایلەندا ژمارەیەکی زۆر شوێنکەوتووی ئایینی بودیزم ھەن.", // Buddhist", follow LX strictly.
+                                "لە تایلەندا ژمارەیەکی زۆر شوێنکەوتووی ئایینی بودیزم ھەن.",
                             onPressedBritish: () => speakbuddhists1("en-GB"),
                             onPressedAmerican: () => speakbuddhists1("en-US"),
                           ),

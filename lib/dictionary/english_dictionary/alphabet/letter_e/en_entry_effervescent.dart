@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She's one of those effervescent personalities that you often see hosting TV game shows.""",
             kurdishText:
-                """یەکێک لەو کەسایەتییە بۆجۆش‌وخرۆشانەیە کە زۆرجار دەیبینیت پێشکەشکاری یاریی تەلەفیزیۆن دەبن.""", // effervescent
+                """یەکێک لەو کەسایەتییە بۆجۆش‌وخرۆشانەیە کە زۆرجار دەیبینیت پێشکەشکاری یاریی تەلەفیزیۆن دەبن.""",
             onPressedBritish: () => speakeffervescents1("en-GB"),
             onPressedAmerican: () => speakeffervescents1("en-US"),
           ),

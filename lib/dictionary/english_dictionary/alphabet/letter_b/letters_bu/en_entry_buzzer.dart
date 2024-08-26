@@ -182,7 +182,7 @@ class EnglishEntrybuzzer extends StatelessWidget {
                             englishText:
                                 "Put your fingers on the buzzer and be ready to answer.",
                             kurdishText:
-                                "دەستتان بخەنە سەر زەنگەکە و ئامادەی وەڵامدانەوە بن.", // buzzer", follow LX strictly
+                                "دەستتان بخەنە سەر زەنگەکە و ئامادەی وەڵامدانەوە بن.",
                             onPressedBritish: () => speakbuzzers1("en-GB"),
                             onPressedAmerican: () => speakbuzzers1("en-US"),
                           ),

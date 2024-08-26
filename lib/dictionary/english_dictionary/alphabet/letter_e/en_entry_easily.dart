@@ -422,7 +422,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵکار) بە ئاسانی"""),
           SentencesRow(
             englishText: """The software is easily available.""",
-            kurdishText: """نەرمامێرەکە بەئاسانی بەردەستە.""", // easily
+            kurdishText: """نەرمامێرەکە بەئاسانی بەردەستە.""",
             onPressedBritish: () => speakeasilys1("en-GB"),
             onPressedAmerican: () => speakeasilys1("en-US"),
           ),

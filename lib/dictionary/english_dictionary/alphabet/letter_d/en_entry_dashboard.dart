@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بەشی پێشەوەی ئۆتۆمبێل لەناوەوە"),
           SentencesRow(
             englishText: "She placed her phone on the dashboard while driving.",
-            kurdishText:
-                "موبایلەکەی دەخستە سەر داشبۆردەکە لەکاتی لێخوڕیندا.", // dashboard
+            kurdishText: "موبایلەکەی دەخستە سەر داشبۆردەکە لەکاتی لێخوڕیندا.",
             onPressedBritish: () => speakdashboards1("en-GB"),
             onPressedAmerican: () => speakdashboards1("en-US"),
           ),

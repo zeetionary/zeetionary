@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) خاوەخاوکردن لە کردنی شتێک یان چونە شوێنێک"),
           SentencesRow(
             englishText: "Stop dawdling! We're going to be late!",
-            kurdishText: "بوەستە لە خاوەخاوکردن! درەنگ دەکەوین!", // dawdle
+            kurdishText: "بوەستە لە خاوەخاوکردن! درەنگ دەکەوین!",
             onPressedBritish: () => speakdawdles1("en-GB"),
             onPressedAmerican: () => speakdawdles1("en-US"),
           ),

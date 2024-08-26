@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We can distil fresh water from seawater by boiling it and collecting the steam.",
             kurdishText:
-                "دەتوانین لە ئاوی دەریا ئاوی پاک بپاڵێوین بە کوڵاندنی و کۆکردنەوەی ھەڵمەکەی.", // distil
+                "دەتوانین لە ئاوی دەریا ئاوی پاک بپاڵێوین بە کوڵاندنی و کۆکردنەوەی ھەڵمەکەی.",
             onPressedBritish: () => speakdistils1("en-GB"),
             onPressedAmerican: () => speakdistils1("en-US"),
           ),

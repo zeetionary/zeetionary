@@ -305,7 +305,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Commuters will face long delays on the roads today.",
             kurdishText:
-                "گەشتیاران ئەمڕۆ ڕووبەڕووی دواکەوتنی زۆر دەبنەوە لەسەر ڕێگاکان.", // delay
+                "گەشتیاران ئەمڕۆ ڕووبەڕووی دواکەوتنی زۆر دەبنەوە لەسەر ڕێگاکان.",
             onPressedBritish: () => speakdelays1("en-GB"),
             onPressedAmerican: () => speakdelays1("en-US"),
           ),

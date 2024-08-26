@@ -248,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The derrick moved large equipment to the construction site.",
-            kurdishText:
-                "کرێنەکە کەرەستەی گەورەی گەیاند بە شوێنی بنیادنانەکە.", // derrick
+            kurdishText: "کرێنەکە کەرەستەی گەورەی گەیاند بە شوێنی بنیادنانەکە.",
             onPressedBritish: () => speakderricks1("en-GB"),
             onPressedAmerican: () => speakderricks1("en-US"),
           ),

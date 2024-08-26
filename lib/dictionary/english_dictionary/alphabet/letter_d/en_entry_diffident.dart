@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) نەبوونی متمانە بە خۆت"),
           SentencesRow(
             englishText: "He was modest and diffident about his own success.",
-            kurdishText:
-                "خاکی و بێ‌شەرم بوو سەبارەت بە سەرکەوتنی خۆی.", // diffident
+            kurdishText: "خاکی و بێ‌شەرم بوو سەبارەت بە سەرکەوتنی خۆی.",
             onPressedBritish: () => speakdiffidents1("en-GB"),
             onPressedAmerican: () => speakdiffidents1("en-US"),
           ),

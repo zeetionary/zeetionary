@@ -250,8 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The skier suffered two disqualifications in two separate events.",
-            kurdishText:
-                "خلیسکەوانەکە لە دوو بۆنەی جیاوازدا دوو جار بێبەشکرا.", // disqualification
+            kurdishText: "خلیسکەوانەکە لە دوو بۆنەی جیاوازدا دوو جار بێبەشکرا.",
             onPressedBritish: () => speakdisqualifications1("en-GB"),
             onPressedAmerican: () => speakdisqualifications1("en-US"),
           ),

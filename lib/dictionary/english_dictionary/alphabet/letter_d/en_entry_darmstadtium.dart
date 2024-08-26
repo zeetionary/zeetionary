@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Darmstadtium is a radioactive element that is produced artificially.",
             kurdishText:
-                "دارمشتادیەم توخمێکی تیشکدەرە و بە دەستکرد درووست دەکرێت.", // darmstadtium
+                "دارمشتادیەم توخمێکی تیشکدەرە و بە دەستکرد درووست دەکرێت.",
             onPressedBritish: () => speakdarmstadtiums1("en-GB"),
             onPressedAmerican: () => speakdarmstadtiums1("en-US"),
           ),

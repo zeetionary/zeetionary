@@ -387,7 +387,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) بوومەلەرزە"""),
           SentencesRow(
             englishText: """I was asleep when the earthquake struck.""",
-            kurdishText: """خەوتبووم کە بوومەلەرزەکە ڕوویدا.""", // earthquake
+            kurdishText: """خەوتبووم کە بوومەلەرزەکە ڕوویدا.""",
             onPressedBritish: () => speakearthquakes1("en-GB"),
             onPressedAmerican: () => speakearthquakes1("en-US"),
           ),

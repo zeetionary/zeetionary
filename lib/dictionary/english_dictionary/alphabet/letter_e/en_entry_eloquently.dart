@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵکار) بەشێوەیەک کە ھەبوونی توانای بەکارھێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی پیشان دەدات"""),
           SentencesRow(
             englishText: """She spoke eloquently on the subject.""",
-            kurdishText:
-                """بە بە ڕەوان‌بێژی لەسەر بابەتەکە دووا.""", // eloquently
+            kurdishText: """بە بە ڕەوان‌بێژی لەسەر بابەتەکە دووا.""",
             onPressedBritish: () => speakeloquentlys1("en-GB"),
             onPressedAmerican: () => speakeloquentlys1("en-US"),
           ),

@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "After a few minutes our eyes got used to the darkness.",
-            kurdishText:
-                "لە دوای چەند خولەکێک چاوەکانمان ڕاھات بە تاریکییەکە.", // darkness
+            kurdishText: "لە دوای چەند خولەکێک چاوەکانمان ڕاھات بە تاریکییەکە.",
             onPressedBritish: () => speakdarknesss1("en-GB"),
             onPressedAmerican: () => speakdarknesss1("en-US"),
           ),

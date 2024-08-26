@@ -287,8 +287,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) بە ستاندارد یان خاسیەتێکی باش"),
           SentencesRow(
             englishText: "Mark did a decent job as a replacement for Turner.",
-            kurdishText:
-                "مارک کارێکی پەسەندی کرد وەک جێگرەوەیەکی تێرنەر.", // decent
+            kurdishText: "مارک کارێکی پەسەندی کرد وەک جێگرەوەیەکی تێرنەر.",
             onPressedBritish: () => speakdecents1("en-GB"),
             onPressedAmerican: () => speakdecents1("en-US"),
           ),

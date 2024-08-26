@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) جۆرە شەکرێکی زبری قاوەیی"),
           SentencesRow(
             englishText: "I sprinkled Demerara sugar on my yogurt.",
-            kurdishText:
-                "شەکری قاوەییم پرژاند بەسەر ماستەکەمدا.", // demerara sugar
+            kurdishText: "شەکری قاوەییم پرژاند بەسەر ماستەکەمدا.",
             onPressedBritish: () => speakdemerarasugars1("en-GB"),
             onPressedAmerican: () => speakdemerarasugars1("en-US"),
           ),

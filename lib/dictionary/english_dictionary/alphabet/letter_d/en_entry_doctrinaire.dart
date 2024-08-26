@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He has a somewhat doctrinaire approach to running the company.",
             kurdishText:
-                "تا ڕادەیەک ڕێگایەکی دەمارگرژی ھەیە بۆ بەڕێوەبردنی کۆمپانیاکە.", // doctrinaire
+                "تا ڕادەیەک ڕێگایەکی دەمارگرژی ھەیە بۆ بەڕێوەبردنی کۆمپانیاکە.",
             onPressedBritish: () => speakdoctrinaires1("en-GB"),
             onPressedAmerican: () => speakdoctrinaires1("en-US"),
           ),

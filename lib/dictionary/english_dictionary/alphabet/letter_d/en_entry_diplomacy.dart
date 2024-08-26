@@ -260,7 +260,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) چالاکی ڕاگرتنی پەیوەندی نێوان دوو وڵات"),
           SentencesRow(
             englishText: "Diplomacy is better than war.",
-            kurdishText: "دئپلۆماسی لە جەنگ باشترە.", // diplomacy
+            kurdishText: "دئپلۆماسی لە جەنگ باشترە.",
             onPressedBritish: () => speakdiplomacys1("en-GB"),
             onPressedAmerican: () => speakdiplomacys1("en-US"),
           ),

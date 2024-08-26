@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Deflation can lead to higher unemployment as businesses earn less.",
             kurdishText:
-                "داکشان دەکرێت ببێتە ھۆی بێکاری زیاتر کە بازرگانییەکان کەمتر قازانج دەکەن.", // deflation
+                "داکشان دەکرێت ببێتە ھۆی بێکاری زیاتر کە بازرگانییەکان کەمتر قازانج دەکەن.",
             onPressedBritish: () => speakdeflations1("en-GB"),
             onPressedAmerican: () => speakdeflations1("en-US"),
           ),

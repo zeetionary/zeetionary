@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The money had been earmarked for spending on new school buildings.""",
             kurdishText:
-                """پارەکە تەرخانکرابوو بۆ خەرجکردنی بۆ بینای قوتابخانەی تازە.""", // earmark
+                """پارەکە تەرخانکرابوو بۆ خەرجکردنی بۆ بینای قوتابخانەی تازە.""",
             onPressedBritish: () => speakearmarks1("en-GB"),
             onPressedAmerican: () => speakearmarks1("en-US"),
           ),

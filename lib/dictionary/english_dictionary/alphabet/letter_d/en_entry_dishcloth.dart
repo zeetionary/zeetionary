@@ -228,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) جلیک بۆ شۆردنی قاپ‌وقاچاغ"),
           SentencesRow(
             englishText: "The dishcloth was damp and ready for use.",
-            kurdishText:
-                "لفکەکە وشک بوو و ئامادەی بەکارھێنان بوو.", // dishcloth
+            kurdishText: "لفکەکە وشک بوو و ئامادەی بەکارھێنان بوو.",
             onPressedBritish: () => speakdishcloths1("en-GB"),
             onPressedAmerican: () => speakdishcloths1("en-US"),
           ),

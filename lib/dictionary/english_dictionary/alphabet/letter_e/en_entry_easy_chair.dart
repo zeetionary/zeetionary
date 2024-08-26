@@ -359,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) کورسییەکی گەورەی ئاسوودەبەخش"""),
           SentencesRow(
             englishText: """The cat loves napping on the easy chair.""",
-            kurdishText:
-                """پشیلەکە حەزی بە خەوە لەسەر کورسییە دەسکدارەکە.""", // easy chair
+            kurdishText: """پشیلەکە حەزی بە خەوە لەسەر کورسییە دەسکدارەکە.""",
             onPressedBritish: () => speakeasychairs1("en-GB"),
             onPressedAmerican: () => speakeasychairs1("en-US"),
           ),

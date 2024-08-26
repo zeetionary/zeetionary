@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """You'll be asked for those documents on embarkation.""",
             kurdishText:
-                """داوای ئەو بەڵگەنامانەت لێدەکرێت لەگەڵ سەرکەوتنەسەر.""", // embarkation
+                """داوای ئەو بەڵگەنامانەت لێدەکرێت لەگەڵ سەرکەوتنەسەر.""",
             onPressedBritish: () => speakembarkations1("en-GB"),
             onPressedAmerican: () => speakembarkations1("en-US"),
           ),

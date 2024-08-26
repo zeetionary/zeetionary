@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نەبوونی ڕێکخستن و ڕێکوپێکی لە دۆخێک یان شوێنێکدا"),
           SentencesRow(
             englishText: "The peace talks broke up in disarray.",
-            kurdishText:
-                "گفتوگۆکانی ئاشتی بە بە شپرزەیی کۆتایی ھات.", // disarray
+            kurdishText: "گفتوگۆکانی ئاشتی بە بە شپرزەیی کۆتایی ھات.",
             onPressedBritish: () => speakdisarrays1("en-GB"),
             onPressedAmerican: () => speakdisarrays1("en-US"),
           ),

@@ -177,8 +177,7 @@ class EnglishEntrybungle extends StatelessWidget {
                               text: "١. (کردار) کردنی شتێک بەخراپی"),
                           SentencesRow(
                             englishText: "They bungled the job.",
-                            kurdishText:
-                                "ئیشەکەیان گوو تێکرد.", // bungle", follow LX strictly
+                            kurdishText: "ئیشەکەیان گوو تێکرد.",
                             onPressedBritish: () => speakbungles1("en-GB"),
                             onPressedAmerican: () => speakbungles1("en-US"),
                           ),

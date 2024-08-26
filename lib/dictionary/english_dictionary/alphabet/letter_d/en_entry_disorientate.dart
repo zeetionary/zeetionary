@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) وا لە کەسێک بکەیت کە نەتوانێت بزانێت لە کوێیە یان بۆ کوێ بچێت"),
           SentencesRow(
             englishText: "The darkness had disorientated him.",
-            kurdishText: "تاریکییەکە گێژی کردبوو.", // disorientate
+            kurdishText: "تاریکییەکە گێژی کردبوو.",
             onPressedBritish: () => speakdisorientates1("en-GB"),
             onPressedAmerican: () => speakdisorientates1("en-US"),
           ),

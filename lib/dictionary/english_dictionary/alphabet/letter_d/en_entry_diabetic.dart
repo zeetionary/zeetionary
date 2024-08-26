@@ -251,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ھەبوون یان پەیوەندیدار بە شەکرە"),
           SentencesRow(
             englishText: "She's diabetic.",
-            kurdishText: "شەکرەیەتی.", // diabetic
+            kurdishText: "شەکرەیەتی.",
             onPressedBritish: () => speakdiabetics1("en-GB"),
             onPressedAmerican: () => speakdiabetics1("en-US"),
           ),

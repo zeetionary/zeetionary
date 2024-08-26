@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The team has had a disappointing start to the season.",
-            kurdishText:
-                "تیمەکە سەرەتایەکی نائومێدکەریان ھەبووە لە وەرزەکەدا.", // disappointing
+            kurdishText: "تیمەکە سەرەتایەکی نائومێدکەریان ھەبووە لە وەرزەکەدا.",
             onPressedBritish: () => speakdisappointings1("en-GB"),
             onPressedAmerican: () => speakdisappointings1("en-US"),
           ),

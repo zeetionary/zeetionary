@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ھەستی ئەوەی لە متمانە بە کەسێک نەکەیت"),
           SentencesRow(
             englishText: "They looked at each other with distrust.",
-            kurdishText: "بە بێ‌متمانەییەوە لە یەکیان دەڕوانی.", // distrust
+            kurdishText: "بە بێ‌متمانەییەوە لە یەکیان دەڕوانی.",
             onPressedBritish: () => speakdistrusts1("en-GB"),
             onPressedAmerican: () => speakdistrusts1("en-US"),
           ),

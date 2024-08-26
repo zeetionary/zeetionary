@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Philosophers did not use to make a distinction between arts and science.",
             kurdishText:
-                "فەیلەسووفان جاران جیاوازییان لە نێوان ھونەر و زانست نە دەکرد.", // distinction
+                "فەیلەسووفان جاران جیاوازییان لە نێوان ھونەر و زانست نە دەکرد.",
             onPressedBritish: () => speakdistinctions1("en-GB"),
             onPressedAmerican: () => speakdistinctions1("en-US"),
           ),

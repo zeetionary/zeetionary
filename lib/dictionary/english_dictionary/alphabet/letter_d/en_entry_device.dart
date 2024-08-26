@@ -336,8 +336,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شتێک یان ئامێرێک کە دیزاین کراوە بۆ ئەنجامدانی کارێکی دیاریکراو"),
           SentencesRow(
             englishText: "The new devices will be installed at US airports.",
-            kurdishText:
-                "ئامێرە تازەکان لە فڕۆکەخانەکانی ئەمریکا دادەنرێن.", // device
+            kurdishText: "ئامێرە تازەکان لە فڕۆکەخانەکانی ئەمریکا دادەنرێن.",
             onPressedBritish: () => speakdevices1("en-GB"),
             onPressedAmerican: () => speakdevices1("en-US"),
           ),

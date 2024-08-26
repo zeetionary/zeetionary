@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) توانای پیشاندانی بڕیاردانی باش سەبارەت بە کوالێتی کەسێک/شتێک"),
           SentencesRow(
             englishText: "He shows great discernment in his choice of friends.",
-            kurdishText:
-                "تێگەشتووی زۆر پیشان دەدات لە ھەڵبژاردنی ھاوڕێکانیدا.", // discernment
+            kurdishText: "تێگەشتووی زۆر پیشان دەدات لە ھەڵبژاردنی ھاوڕێکانیدا.",
             onPressedBritish: () => speakdiscernments1("en-GB"),
             onPressedAmerican: () => speakdiscernments1("en-US"),
           ),

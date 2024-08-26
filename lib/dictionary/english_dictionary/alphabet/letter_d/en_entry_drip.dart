@@ -438,8 +438,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) تکەکردنە خوارەوە بە دڵۆپی بچووک"),
           SentencesRow(
             englishText: "She was hot and sweat dripped into her eyes.",
-            kurdishText:
-                "گەرمای بوو و ئارەقە تکەی کردە ناو چاوانییەوە.", // drip
+            kurdishText: "گەرمای بوو و ئارەقە تکەی کردە ناو چاوانییەوە.",
             onPressedBritish: () => speakdrips1("en-GB"),
             onPressedAmerican: () => speakdrips1("en-US"),
           ),

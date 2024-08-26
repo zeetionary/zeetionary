@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) زۆر کۆن و لە دۆخێکی خراپ"),
           SentencesRow(
             englishText: "I'm feeling old and decrepit.",
-            kurdishText: "ھەست بە پیری و بەساڵاچووی دەکەم.", // decrepit
+            kurdishText: "ھەست بە پیری و بەساڵاچووی دەکەم.",
             onPressedBritish: () => speakdecrepits1("en-GB"),
             onPressedAmerican: () => speakdecrepits1("en-US"),
           ),

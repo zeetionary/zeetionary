@@ -514,7 +514,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) خەوبینین لەکاتی خەودا"),
           SentencesRow(
             englishText: "I had a really weird dream last night.",
-            kurdishText: "شەوی ڕابردوو خەونێکی نامۆم بینی.", // dream
+            kurdishText: "شەوی ڕابردوو خەونێکی نامۆم بینی.",
             onPressedBritish: () => speakdreams1("en-GB"),
             onPressedAmerican: () => speakdreams1("en-US"),
           ),

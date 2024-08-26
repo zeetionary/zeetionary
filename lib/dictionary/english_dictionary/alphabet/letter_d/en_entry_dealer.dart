@@ -251,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە کاری کڕین و فرۆشتنی بەرھەمێکی دیارکراوە"),
           SentencesRow(
             englishText: "He's a dealer in second-hand cars.",
-            kurdishText: "فرۆشیاری ئۆتۆمبێلی دەستی دووە.", // dealer
+            kurdishText: "فرۆشیاری ئۆتۆمبێلی دەستی دووە.",
             onPressedBritish: () => speakdealers1("en-GB"),
             onPressedAmerican: () => speakdealers1("en-US"),
           ),

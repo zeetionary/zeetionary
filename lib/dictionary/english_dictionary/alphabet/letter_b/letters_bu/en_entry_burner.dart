@@ -182,7 +182,7 @@ class EnglishEntryburner extends StatelessWidget {
                             englishText:
                                 "The chef adjusted the burner to simmer the sauce slowly.",
                             kurdishText:
-                                "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بەھێواشی مێروولەکوڵ بێت.", // burner", follow LX strictly
+                                "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بەھێواشی مێروولەکوڵ بێت.",
                             onPressedBritish: () => speakburners1("en-GB"),
                             onPressedAmerican: () => speakburners1("en-US"),
                           ),

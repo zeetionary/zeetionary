@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو، کردار) جووڵەی ھەوا، تۆز، یان ئاو لە بازنەدا؛ دەرکردنی جووڵەیەکی لەم شێوەیە"""),
           SentencesRow(
             englishText: """The water eddied around in a whirlpool.""",
-            kurdishText: """ئاوەکە لە گێژاوێکدا دەسووڕایەوە.""", // eddy
+            kurdishText: """ئاوەکە لە گێژاوێکدا دەسووڕایەوە.""",
             onPressedBritish: () => speakeddys1("en-GB"),
             onPressedAmerican: () => speakeddys1("en-US"),
           ),

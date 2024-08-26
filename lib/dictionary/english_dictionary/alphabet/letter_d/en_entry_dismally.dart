@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەبێ شارەزایی یان سەرکەوتن"),
           SentencesRow(
             englishText: "The party performed dismally in the election.",
-            kurdishText:
-                "پارتەکە شکستخواردووانە لە ھەڵبژاردنەکە دەرچوو.", // dismally
+            kurdishText: "پارتەکە شکستخواردووانە لە ھەڵبژاردنەکە دەرچوو.",
             onPressedBritish: () => speakdismallys1("en-GB"),
             onPressedAmerican: () => speakdismallys1("en-US"),
           ),

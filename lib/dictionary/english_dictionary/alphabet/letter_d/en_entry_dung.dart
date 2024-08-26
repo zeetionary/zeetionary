@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The farmer used dung to fertilize his fields.""",
             kurdishText:
-                """جوتیارەکە پەیینی بەکاردەھێنا بۆ پیتاندنی کێڵگەکانی.""", // dung
+                """جوتیارەکە پەیینی بەکاردەھێنا بۆ پیتاندنی کێڵگەکانی.""",
             onPressedBritish: () => speakdungs1("en-GB"),
             onPressedAmerican: () => speakdungs1("en-US"),
           ),

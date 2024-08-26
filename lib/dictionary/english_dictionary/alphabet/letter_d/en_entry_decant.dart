@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Decant the wine and allow it to stand at room temperature for a couple of hours.",
             kurdishText:
-                "شەرابەکە بڕشە و بھێڵە بۆ چەند کاتژمێرێک لە پلەی گەرمی ژووردا بمێنێتەوە.", // decant
+                "شەرابەکە بڕشە و بھێڵە بۆ چەند کاتژمێرێک لە پلەی گەرمی ژووردا بمێنێتەوە.",
             onPressedBritish: () => speakdecants1("en-GB"),
             onPressedAmerican: () => speakdecants1("en-US"),
           ),

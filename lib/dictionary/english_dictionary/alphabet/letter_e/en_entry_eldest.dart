@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بەتەمەنترین"""),
           SentencesRow(
             englishText: """Tom is my eldest son.""",
-            kurdishText: """تۆم بەتەمەنترین کوڕمە.""", // eldest
+            kurdishText: """تۆم بەتەمەنترین کوڕمە.""",
             onPressedBritish: () => speakeldests1("en-GB"),
             onPressedAmerican: () => speakeldests1("en-US"),
           ),

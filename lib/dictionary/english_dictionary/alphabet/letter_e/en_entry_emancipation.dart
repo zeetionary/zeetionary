@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The country marked its emancipation from colonial rule.""",
             kurdishText:
-                """وڵاتەکە بە بە ڕزگاربوون لە دەسەڵاتی داگیرکاری تێپەڕبوو.""", // emancipation
+                """وڵاتەکە بە بە ڕزگاربوون لە دەسەڵاتی داگیرکاری تێپەڕبوو.""",
             onPressedBritish: () => speakemancipations1("en-GB"),
             onPressedAmerican: () => speakemancipations1("en-US"),
           ),

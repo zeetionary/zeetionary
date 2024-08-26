@@ -181,7 +181,7 @@ class EnglishEntrybystander extends StatelessWidget {
                             englishText:
                                 "Three innocent bystanders were killed in the crossfire.",
                             kurdishText:
-                                "لە تەقەکەدا سێ سەیرکەری بێ‌تاوان کوژران.", // bystander", follow LX strictly
+                                "لە تەقەکەدا سێ سەیرکەری بێ‌تاوان کوژران.",
                             onPressedBritish: () => speakbystanders1("en-GB"),
                             onPressedAmerican: () => speakbystanders1("en-US"),
                           ),

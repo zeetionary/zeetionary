@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The duplex penthouses cover the top two floors of the building.""",
             kurdishText:
-                """دەستەژوورە دوودەستەییەکە دوو بەرزترین نھۆمی بیناکە دەگرن.""", // duplex
+                """دەستەژوورە دوودەستەییەکە دوو بەرزترین نھۆمی بیناکە دەگرن.""",
             onPressedBritish: () => speakduplexs1("en-GB"),
             onPressedAmerican: () => speakduplexs1("en-US"),
           ),

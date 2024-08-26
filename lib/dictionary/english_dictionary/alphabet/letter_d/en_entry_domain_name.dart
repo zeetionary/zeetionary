@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ناوی وێبسایتێک یان ژمارەیەک وێبسایت لەسەر ئینتەرنێت"),
           SentencesRow(
             englishText: "You will need to register a domain name.",
-            kurdishText: "دەبێت ناوی دۆمەینێک تۆمار بکەیت.", // domain name
+            kurdishText: "دەبێت ناوی دۆمەینێک تۆمار بکەیت.",
             onPressedBritish: () => speakdomainnames1("en-GB"),
             onPressedAmerican: () => speakdomainnames1("en-US"),
           ),

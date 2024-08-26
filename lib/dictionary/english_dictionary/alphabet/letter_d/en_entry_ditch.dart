@@ -381,8 +381,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئاوەڕێیەک کە لە تەنیشت ڕێگا یان کێڵگەیەک درووست دەکرێت بۆ گلدانەوەی ئاو"),
           SentencesRow(
             englishText: "The car left the road and ended up in a ditch.",
-            kurdishText:
-                "ئۆتۆمبێلەکە لە ڕێگا دەرچوو و کەوتە ئاوەڕێیەکەوە.", // ditch
+            kurdishText: "ئۆتۆمبێلەکە لە ڕێگا دەرچوو و کەوتە ئاوەڕێیەکەوە.",
             onPressedBritish: () => speakditchs1("en-GB"),
             onPressedAmerican: () => speakditchs1("en-US"),
           ),

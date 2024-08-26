@@ -261,8 +261,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەشێوەی ئەنقست نەک بە ڕێکەوت"),
           SentencesRow(
             englishText: "She's been deliberately ignoring him all day.",
-            kurdishText:
-                "تەواوی ڕۆژەکە بە ئەنقەست پشتگوێی خست.", // deliberately
+            kurdishText: "تەواوی ڕۆژەکە بە ئەنقەست پشتگوێی خست.",
             onPressedBritish: () => speakdeliberatelys1("en-GB"),
             onPressedAmerican: () => speakdeliberatelys1("en-US"),
           ),

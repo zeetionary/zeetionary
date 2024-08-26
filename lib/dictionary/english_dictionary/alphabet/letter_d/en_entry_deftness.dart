@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The device must be used only with the greatest care and deftness of touch.",
             kurdishText:
-                "ئامێرەکە دەبێت بە زۆرترین ئاگایی و دەستلێدانی شارەزایانە مامەڵەی لەگەڵ بکرێت.", // deftness
+                "ئامێرەکە دەبێت بە زۆرترین ئاگایی و دەستلێدانی شارەزایانە مامەڵەی لەگەڵ بکرێت.",
             onPressedBritish: () => speakdeftnesss1("en-GB"),
             onPressedAmerican: () => speakdeftnesss1("en-US"),
           ),

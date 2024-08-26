@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) ئازادکردنی کەسێک/شتێک لەو کەسەی/شتەی کە گرتوویەتی"),
           SentencesRow(
             englishText: "She gently disengaged herself from her sleeping son.",
-            kurdishText:
-                "بە ھێواشی خۆی کردەوە لە کوڕە نووستووەکەی.", // disengage
+            kurdishText: "بە ھێواشی خۆی کردەوە لە کوڕە نووستووەکەی.",
             onPressedBritish: () => speakdisengages1("en-GB"),
             onPressedAmerican: () => speakdisengages1("en-US"),
           ),

@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Our cash reserves are being depleted at an alarming rate.",
             kurdishText:
-                "پارەی کاشی پاشەکەوتکراومان بە ڕێژەیەکی مەترسیدار کەم دەبێتەوە.", // deplete
+                "پارەی کاشی پاشەکەوتکراومان بە ڕێژەیەکی مەترسیدار کەم دەبێتەوە.",
             onPressedBritish: () => speakdepletes1("en-GB"),
             onPressedAmerican: () => speakdepletes1("en-US"),
           ),

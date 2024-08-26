@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He used a special shampoo to help control his dandruff.",
-            kurdishText:
-                "شامپۆیەکی تایبەتی بەکارھێنا بۆ کۆنترۆڵی کڕێژەکەی.", // dandruff
+            kurdishText: "شامپۆیەکی تایبەتی بەکارھێنا بۆ کۆنترۆڵی کڕێژەکەی.",
             onPressedBritish: () => speakdandruffs1("en-GB"),
             onPressedAmerican: () => speakdandruffs1("en-US"),
           ),

@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەو ئاراستەیەی کە ڕووبارێک دەچێت"),
           SentencesRow(
             englishText: "There’s a village about a mile downstream.",
-            kurdishText: "گوندێک ھەیە نزیکەی یەک میل لە خوارەوە.", // downstream
+            kurdishText: "گوندێک ھەیە نزیکەی یەک میل لە خوارەوە.",
             onPressedBritish: () => speakdownstreams1("en-GB"),
             onPressedAmerican: () => speakdownstreams1("en-US"),
           ),

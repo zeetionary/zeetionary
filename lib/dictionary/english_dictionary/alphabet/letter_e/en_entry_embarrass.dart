@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Her questions about my private life embarrassed me.""",
             kurdishText:
-                """پرسیارەکانی سەبارەت بە ژیانی کەسیم خەجاڵەتی کردم.""", // embarrass
+                """پرسیارەکانی سەبارەت بە ژیانی کەسیم خەجاڵەتی کردم.""",
             onPressedBritish: () => speakembarrasss1("en-GB"),
             onPressedAmerican: () => speakembarrasss1("en-US"),
           ),

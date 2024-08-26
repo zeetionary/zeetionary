@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The invitation required a dinner jacket for the dinner.",
             kurdishText:
-                "میھرەجانەکە پێویستی بە چاکەتێکی شێوان بوو بۆ نانی ئێوارە.", // dinner jacket
+                "میھرەجانەکە پێویستی بە چاکەتێکی شێوان بوو بۆ نانی ئێوارە.",
             onPressedBritish: () => speakdinnerjackets1("en-GB"),
             onPressedAmerican: () => speakdinnerjackets1("en-US"),
           ),

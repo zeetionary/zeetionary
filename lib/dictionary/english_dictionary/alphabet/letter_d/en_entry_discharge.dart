@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He was discharged from the army following his injury.",
-            kurdishText: "لە دوای برینداربوونی لە سوپا مۆڵەت درا.", // discharge
+            kurdishText: "لە دوای برینداربوونی لە سوپا مۆڵەت درا.",
             onPressedBritish: () => speakdischarges1("en-GB"),
             onPressedAmerican: () => speakdischarges1("en-US"),
           ),

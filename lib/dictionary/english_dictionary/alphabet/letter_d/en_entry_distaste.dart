@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ھەستی ئەوەی کە کەسێک/شتێک بێزراوە"),
           SentencesRow(
             englishText: "He looked around the filthy room in distaste.",
-            kurdishText: "بە بێزەوە سەیری ژوورە پیسەکەی کرد.", // distaste
+            kurdishText: "بە بێزەوە سەیری ژوورە پیسەکەی کرد.",
             onPressedBritish: () => speakdistastes1("en-GB"),
             onPressedAmerican: () => speakdistastes1("en-US"),
           ),

@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He joined a rebellion to depose the repressive regime.",
-            kurdishText:
-                "پەیوەندی بە شۆڕشێکەوە کرد بۆ لادانی ڕژێمەکە.", // depose
+            kurdishText: "پەیوەندی بە شۆڕشێکەوە کرد بۆ لادانی ڕژێمەکە.",
             onPressedBritish: () => speakdeposes1("en-GB"),
             onPressedAmerican: () => speakdeposes1("en-US"),
           ),

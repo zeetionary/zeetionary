@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) بۆ ھەمیشە زیان گەیاندن بە کەسێک کە ئیتر نەتوانێت بەشێکی جەستەی بەکاربێنێت یان ڕێ بکات"),
           SentencesRow(
             englishText: "He was disabled in a car accident.",
-            kurdishText: "لە پێکدادانێکی ئۆتۆمبێلدا کەم ئەندام بوو.", // disable
+            kurdishText: "لە پێکدادانێکی ئۆتۆمبێلدا کەم ئەندام بوو.",
             onPressedBritish: () => speakdisables1("en-GB"),
             onPressedAmerican: () => speakdisables1("en-US"),
           ),

@@ -374,8 +374,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) لە قۆناغێکی سەرەتای گەشەکردندا"""),
           SentencesRow(
             englishText: """The plan, as yet, only exists in embryonic form.""",
-            kurdishText:
-                """پلانەکە، لە ئێستادا، تەنھا لە شێوەی سەرەتاییە.""", // embryonic
+            kurdishText: """پلانەکە، لە ئێستادا، تەنھا لە شێوەی سەرەتاییە.""",
             onPressedBritish: () => speakembryonics1("en-GB"),
             onPressedAmerican: () => speakembryonics1("en-US"),
           ),

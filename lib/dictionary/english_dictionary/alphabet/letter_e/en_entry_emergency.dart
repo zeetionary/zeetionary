@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """This is a medical emergency needing urgent treatment with antibiotics.""",
             kurdishText:
-                """ئەمە بارێکی لەناکاوی پزیشکییە کە پێویستیی بە چارەسەری بەپەلە ھەیە بە دژە بەکتریا.""", // emergency
+                """ئەمە بارێکی لەناکاوی پزیشکییە کە پێویستیی بە چارەسەری بەپەلە ھەیە بە دژە بەکتریا.""",
             onPressedBritish: () => speakemergencys1("en-GB"),
             onPressedAmerican: () => speakemergencys1("en-US"),
           ),

@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The teacher called him a dunce in front of the class.""",
-            kurdishText: """مامۆستاکە پێی گوت گەمژە لە پۆلەکەدا.""", // dunce
+            kurdishText: """مامۆستاکە پێی گوت گەمژە لە پۆلەکەدا.""",
             onPressedBritish: () => speakdunces1("en-GB"),
             onPressedAmerican: () => speakdunces1("en-US"),
           ),

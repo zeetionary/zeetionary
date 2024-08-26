@@ -256,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "At around 1.00 p.m. we reached our final destination.",
             kurdishText:
-                "لە نزیکەی یەکی دوای نیوەڕۆ گەشتینە کۆتا شوێنی مەبەستمان.", // destination
+                "لە نزیکەی یەکی دوای نیوەڕۆ گەشتینە کۆتا شوێنی مەبەستمان.",
             onPressedBritish: () => speakdestinations1("en-GB"),
             onPressedAmerican: () => speakdestinations1("en-US"),
           ),

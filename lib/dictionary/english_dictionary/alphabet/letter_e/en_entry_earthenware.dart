@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The production of earthenware in Japan goes back many centuries.""",
             kurdishText:
-                """بەرھەمھێننای قاپ‌وکەوچکی گڵێنە لە ژاپۆن بۆ چەندین سەدە دەگەڕێتەوە.""", // earthenware
+                """بەرھەمھێننای قاپ‌وکەوچکی گڵێنە لە ژاپۆن بۆ چەندین سەدە دەگەڕێتەوە.""",
             onPressedBritish: () => speakearthenwares1("en-GB"),
             onPressedAmerican: () => speakearthenwares1("en-US"),
           ),

@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The building suffered extensive damage by fire in 1925.",
             kurdishText:
-                "بیناکە ڕووبەڕووی زیانی زۆر بە ئاگر بوویەوە لە ساڵی ١٩٢٥.", // damage
+                "بیناکە ڕووبەڕووی زیانی زۆر بە ئاگر بوویەوە لە ساڵی ١٩٢٥.",
             onPressedBritish: () => speakdamages1("en-GB"),
             onPressedAmerican: () => speakdamages1("en-US"),
           ),

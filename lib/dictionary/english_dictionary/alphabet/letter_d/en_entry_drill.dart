@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئامێرێک کە بۆ کونکردن بەکاردێت"),
           SentencesRow(
             englishText: "She bored a hole in the tree with a cordless drill.",
-            kurdishText: "کونێکی کردە دارەکە بە دریڵێکی شەحن.", // drill
+            kurdishText: "کونێکی کردە دارەکە بە دریڵێکی شەحن.",
             onPressedBritish: () => speakdrills1("en-GB"),
             onPressedAmerican: () => speakdrills1("en-US"),
           ),

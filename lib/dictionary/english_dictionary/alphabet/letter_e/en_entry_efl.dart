@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Which bookshop has the largest selection of EFL materials?""",
             kurdishText:
-                """چی کتێبفرۆشێک زۆرترین ھەڵبژاردەی بابەتی EFL ــی ھەیە.""", // EFL
+                """چی کتێبفرۆشێک زۆرترین ھەڵبژاردەی بابەتی EFL ــی ھەیە.""",
             onPressedBritish: () => speakEFLs1("en-GB"),
             onPressedAmerican: () => speakEFLs1("en-US"),
           ),

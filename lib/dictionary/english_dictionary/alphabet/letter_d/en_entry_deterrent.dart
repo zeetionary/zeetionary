@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Hopefully his punishment will act as a deterrent to others.",
             kurdishText:
-                "ھیوادارانە سزاکەی وەک ساردکەرەوەیەک دەبێت بۆ ئەوانی دیکە.", // deterrent
+                "ھیوادارانە سزاکەی وەک ساردکەرەوەیەک دەبێت بۆ ئەوانی دیکە.",
             onPressedBritish: () => speakdeterrents1("en-GB"),
             onPressedAmerican: () => speakdeterrents1("en-US"),
           ),

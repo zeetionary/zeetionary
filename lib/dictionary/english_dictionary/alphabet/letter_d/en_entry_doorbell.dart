@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) زەنگی دەرگا"),
           SentencesRow(
             englishText: "He refused to answer the doorbell.",
-            kurdishText: "ڕەتیکردەوە وەڵامی زەنگەکە بداتەوە.", // doorbell
+            kurdishText: "ڕەتیکردەوە وەڵامی زەنگەکە بداتەوە.",
             onPressedBritish: () => speakdoorbells1("en-GB"),
             onPressedAmerican: () => speakdoorbells1("en-US"),
           ),

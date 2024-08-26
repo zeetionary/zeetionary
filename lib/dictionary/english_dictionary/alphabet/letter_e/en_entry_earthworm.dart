@@ -358,8 +358,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) کرمی زەوی"""),
           SentencesRow(
             englishText: """Birds often eat earthworms in the garden.""",
-            kurdishText:
-                """باڵندەکان زۆرجار کرمی زەوی لە باخچەکە دەخۆن.""", // earthworm
+            kurdishText: """باڵندەکان زۆرجار کرمی زەوی لە باخچەکە دەخۆن.""",
             onPressedBritish: () => speakearthworms1("en-GB"),
             onPressedAmerican: () => speakearthworms1("en-US"),
           ),

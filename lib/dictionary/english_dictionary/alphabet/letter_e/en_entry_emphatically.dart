@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵکار) زۆر بە ڕوونی کە قسەکردن بە زەبرەوە لە خۆدەگرێت"""),
           SentencesRow(
             englishText: """She is emphatically opposed to the proposals.""",
-            kurdishText: """پێداگرانە دژ بە پێشنیارەکانە.""", // emphatically
+            kurdishText: """پێداگرانە دژ بە پێشنیارەکانە.""",
             onPressedBritish: () => speakemphaticallys1("en-GB"),
             onPressedAmerican: () => speakemphaticallys1("en-US"),
           ),

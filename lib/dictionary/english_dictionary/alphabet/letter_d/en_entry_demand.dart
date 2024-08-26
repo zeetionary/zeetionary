@@ -424,7 +424,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) داوایەکی بەھێز بۆ شتێک"),
           SentencesRow(
             englishText: "A federal judge rejected their demands.",
-            kurdishText: "دادوەرێکی فیدراڵی داواکانی ڕەتکردنەوە.", // demand
+            kurdishText: "دادوەرێکی فیدراڵی داواکانی ڕەتکردنەوە.",
             onPressedBritish: () => speakdemands1("en-GB"),
             onPressedAmerican: () => speakdemands1("en-US"),
           ),

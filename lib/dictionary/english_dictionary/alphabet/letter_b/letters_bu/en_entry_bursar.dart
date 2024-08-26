@@ -181,7 +181,7 @@ class EnglishEntrybursar extends StatelessWidget {
                             englishText:
                                 "The university's bursar manages student financial accounts and tuition payments.",
                             kurdishText:
-                                "گەنجینەوانی زانکۆکە ھەژماری دارایی خوێندکاران و پێدانی تێچووەکەیان بەڕێوە دەبات.", // bursar", follow LX strictly
+                                "گەنجینەوانی زانکۆکە ھەژماری دارایی خوێندکاران و پێدانی تێچووەکەیان بەڕێوە دەبات.",
                             onPressedBritish: () => speakbursars1("en-GB"),
                             onPressedAmerican: () => speakbursars1("en-US"),
                           ),

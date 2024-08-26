@@ -177,7 +177,7 @@ class EnglishEntrybunion extends StatelessWidget {
                             englishText:
                                 "She experienced difficulty walking due to the pain caused by her bunions.",
                             kurdishText:
-                                "ناڕەحەتی ھەبوو لە ڕێکردندا بەھۆی ئازاری ئاوسانەکانی.", // bunion", follow LX strictly
+                                "ناڕەحەتی ھەبوو لە ڕێکردندا بەھۆی ئازاری ئاوسانەکانی.",
                             onPressedBritish: () => speakbunions1("en-GB"),
                             onPressedAmerican: () => speakbunions1("en-US"),
                           ),

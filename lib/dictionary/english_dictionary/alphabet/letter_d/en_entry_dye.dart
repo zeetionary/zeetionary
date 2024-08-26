@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (کردار) گۆڕینی ڕەنگی شتێک"""),
           SentencesRow(
             englishText: """She dyed her hair blonde.""",
-            kurdishText: """قژی زەرد کرد.""", // dye
+            kurdishText: """قژی زەرد کرد.""",
             onPressedBritish: () => speakdyes1("en-GB"),
             onPressedAmerican: () => speakdyes1("en-US"),
           ),

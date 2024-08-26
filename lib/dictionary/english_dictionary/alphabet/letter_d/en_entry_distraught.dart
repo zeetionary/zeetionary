@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She’s still too distraught to speak about the tragedy.",
             kurdishText:
-                "ھێشتا زۆر سەرلێ‌شێواوە تاوەکو قسە لەسەر تراژیدیاکە بکات.", // distraught
+                "ھێشتا زۆر سەرلێ‌شێواوە تاوەکو قسە لەسەر تراژیدیاکە بکات.",
             onPressedBritish: () => speakdistraughts1("en-GB"),
             onPressedAmerican: () => speakdistraughts1("en-US"),
           ),

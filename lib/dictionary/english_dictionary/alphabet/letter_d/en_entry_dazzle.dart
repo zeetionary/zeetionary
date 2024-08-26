@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) نەبینینی توانای بینین بۆ ماوەیەک بەھۆی ڕۆشناییەکی بەھێزەوە"),
           SentencesRow(
             englishText: "He was momentarily dazzled by the strong sunlight.",
-            kurdishText:
-                "بۆ کەمێک شەوارەی کرد بە تیشکە خۆرە بەھێزەکە.", // dazzle
+            kurdishText: "بۆ کەمێک شەوارەی کرد بە تیشکە خۆرە بەھێزەکە.",
             onPressedBritish: () => speakdazzles1("en-GB"),
             onPressedAmerican: () => speakdazzles1("en-US"),
           ),

@@ -179,8 +179,7 @@ class EnglishEntrybutter extends StatelessWidget {
                                   """١. (ناو) خواردنێکی زەردی نەرم کە بەکاردێت لە خواردن درووستکردندا و بڵاوکردنەوە لەسەر نان"""),
                           SentencesRow(
                             englishText: "Fry the onions in butter.",
-                            kurdishText:
-                                "پیازەکان لە ڕۆندا سووربکەوە.", // butter", follow LX strictly
+                            kurdishText: "پیازەکان لە ڕۆندا سووربکەوە.",
                             onPressedBritish: () => speakbutters1("en-GB"),
                             onPressedAmerican: () => speakbutters1("en-US"),
                           ),

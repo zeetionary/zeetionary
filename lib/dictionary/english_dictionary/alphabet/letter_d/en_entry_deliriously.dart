@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He moaned deliriously and covered his eyes with his arm.",
-            kurdishText:
-                "وڕاویانە باوێشكی دا و چاوەکانی بە باڵی داخست.", // deliriously
+            kurdishText: "وڕاویانە باوێشكی دا و چاوەکانی بە باڵی داخست.",
             onPressedBritish: () => speakdeliriouslys1("en-GB"),
             onPressedAmerican: () => speakdeliriouslys1("en-US"),
           ),

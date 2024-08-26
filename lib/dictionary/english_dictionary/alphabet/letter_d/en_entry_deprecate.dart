@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We deprecate this use of company funds for political purposes.",
             kurdishText:
-                "تەواو دژی بەکارھێنانی پارەی کۆمپانیاین بۆ مەبەستی سیاسی.", // deprecate
+                "تەواو دژی بەکارھێنانی پارەی کۆمپانیاین بۆ مەبەستی سیاسی.",
             onPressedBritish: () => speakdeprecates1("en-GB"),
             onPressedAmerican: () => speakdeprecates1("en-US"),
           ),

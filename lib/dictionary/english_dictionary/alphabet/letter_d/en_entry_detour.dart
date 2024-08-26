@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "We had to make a detour around the flooded fields.",
             kurdishText:
-                "پێویست بوو لاڕێیەک بگرینە بەر بە دەوری کێڵگە ژێرئاوکەوتووەکاندا.", // detour
+                "پێویست بوو لاڕێیەک بگرینە بەر بە دەوری کێڵگە ژێرئاوکەوتووەکاندا.",
             onPressedBritish: () => speakdetours1("en-GB"),
             onPressedAmerican: () => speakdetours1("en-US"),
           ),

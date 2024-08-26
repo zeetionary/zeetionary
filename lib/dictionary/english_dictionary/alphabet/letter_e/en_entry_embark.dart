@@ -374,8 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) چوونە سەر کەشتی یان فڕۆکەیەک بۆ چوونە شوێنێک"""),
           SentencesRow(
             englishText: """The invasion force was ready to embark.""",
-            kurdishText:
-                """ھێزە ھێرشکارەکە ئامادە بوو بۆ بەڕێکەوتن.""", // embark
+            kurdishText: """ھێزە ھێرشکارەکە ئامادە بوو بۆ بەڕێکەوتن.""",
             onPressedBritish: () => speakembarks1("en-GB"),
             onPressedAmerican: () => speakembarks1("en-US"),
           ),

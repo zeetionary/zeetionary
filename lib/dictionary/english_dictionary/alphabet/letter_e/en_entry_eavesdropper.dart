@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Doris mouthed the words, looking towards the door for fear of eavesdroppers.""",
             kurdishText:
-                """دۆریس وشەکانی دەدرکاند و سەیری دەرگاکەی دەکرد لە ترسی گوێ‌ھەڵخەران.""", // eavesdropper
+                """دۆریس وشەکانی دەدرکاند و سەیری دەرگاکەی دەکرد لە ترسی گوێ‌ھەڵخەران.""",
             onPressedBritish: () => speakeavesdroppers1("en-GB"),
             onPressedAmerican: () => speakeavesdroppers1("en-US"),
           ),

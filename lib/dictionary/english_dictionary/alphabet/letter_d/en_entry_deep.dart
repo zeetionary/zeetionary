@@ -489,7 +489,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) قووڵ؛ ھەبوونی مەودایەکی زۆر لە سەرەوە یان ڕووەکەیەوە بۆ خوارەوە"),
           SentencesRow(
             englishText: "The water looks quite deep there.",
-            kurdishText: "ئاوەکە لەوێدا تەواو قووڵ دیارە.", // deep
+            kurdishText: "ئاوەکە لەوێدا تەواو قووڵ دیارە.",
             onPressedBritish: () => speakdeeps1("en-GB"),
             onPressedAmerican: () => speakdeeps1("en-US"),
           ),

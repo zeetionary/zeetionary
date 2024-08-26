@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) تۆپەڵەیەکی بچووک لە ھەویر کە ئامادە دەکرێت و دەخوردرێت لەگەڵ گۆشت یان لەناو شۆربادا"""),
           SentencesRow(
             englishText: """We had lamb stew and dumplings.""",
-            kurdishText: """شۆربای بەرخ و پرپۆڵەمان ھەبوو.""", // dumpling
+            kurdishText: """شۆربای بەرخ و پرپۆڵەمان ھەبوو.""",
             onPressedBritish: () => speakdumplings1("en-GB"),
             onPressedAmerican: () => speakdumplings1("en-US"),
           ),

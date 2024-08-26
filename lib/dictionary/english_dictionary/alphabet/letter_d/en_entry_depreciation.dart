@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The currency suffered steep depreciations in the exchange rate.",
-            kurdishText:
-                "دراوەکە تووشی داشکانی خێرا بوو لە ئاستی ئاڵووگۆڕدا.", // depreciation
+            kurdishText: "دراوەکە تووشی داشکانی خێرا بوو لە ئاستی ئاڵووگۆڕدا.",
             onPressedBritish: () => speakdepreciations1("en-GB"),
             onPressedAmerican: () => speakdepreciations1("en-US"),
           ),

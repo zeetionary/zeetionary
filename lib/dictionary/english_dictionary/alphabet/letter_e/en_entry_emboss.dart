@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) دانانی دیزاینێکی بەرزبوو یان نووسینێک لەسەر شتێک"""),
           SentencesRow(
             englishText: """The hotel's name was embossed on the stationery.""",
-            kurdishText:
-                """ناوی ھوتێلەکە تێھەڵسوابوو لەسەر پەڕاوەکە.""", // emboss
+            kurdishText: """ناوی ھوتێلەکە تێھەڵسوابوو لەسەر پەڕاوەکە.""",
             onPressedBritish: () => speakembosss1("en-GB"),
             onPressedAmerican: () => speakembosss1("en-US"),
           ),

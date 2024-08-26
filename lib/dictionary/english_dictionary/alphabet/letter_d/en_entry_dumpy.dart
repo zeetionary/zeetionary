@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵناو) کورت و قەڵەو"""),
           SentencesRow(
             englishText: """That skirt makes you look dumpy.""",
-            kurdishText: """ئەو تەنوورەیە خڕەڵە دەرت دەخات.""", // dumpy
+            kurdishText: """ئەو تەنوورەیە خڕەڵە دەرت دەخات.""",
             onPressedBritish: () => speakdumpys1("en-GB"),
             onPressedAmerican: () => speakdumpys1("en-US"),
           ),

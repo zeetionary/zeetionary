@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He finished off the painting with a few deft strokes of the brush.",
-            kurdishText:
-                "تابلۆکەی تەواوکرد بە ڕاوەشاندنی شارەزایانەی فڵچەکەی.", // deft
+            kurdishText: "تابلۆکەی تەواوکرد بە ڕاوەشاندنی شارەزایانەی فڵچەکەی.",
             onPressedBritish: () => speakdefts1("en-GB"),
             onPressedAmerican: () => speakdefts1("en-US"),
           ),

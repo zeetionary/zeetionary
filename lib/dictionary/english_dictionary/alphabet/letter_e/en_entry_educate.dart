@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) فێرکردنی کەسێک بۆ ماوەیەک لە قوتابخانە، زانکۆ، ھتد"""),
           SentencesRow(
             englishText: """She was educated in the US.""",
-            kurdishText: """لە ئەمریکا پەروەردە کرا.""", // educate
+            kurdishText: """لە ئەمریکا پەروەردە کرا.""",
             onPressedBritish: () => speakeducates1("en-GB"),
             onPressedAmerican: () => speakeducates1("en-US"),
           ),

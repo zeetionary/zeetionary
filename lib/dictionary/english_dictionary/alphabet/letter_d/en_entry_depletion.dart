@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Increased expenditure has caused a depletion in our funds.",
-            kurdishText:
-                "خەرجی زۆرمان بووە بەھۆی نەمانی بودجەمان.", // depletion
+            kurdishText: "خەرجی زۆرمان بووە بەھۆی نەمانی بودجەمان.",
             onPressedBritish: () => speakdepletions1("en-GB"),
             onPressedAmerican: () => speakdepletions1("en-US"),
           ),

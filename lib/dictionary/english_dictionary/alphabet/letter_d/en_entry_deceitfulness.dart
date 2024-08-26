@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Only he seemed to have recognised Lucy's deceitfulness.",
-            kurdishText:
-                "تەنھا ئەو وادیاربوو کە بە تەڵەکەبازی لوسی زانیبێت.", // deceitfulness
+            kurdishText: "تەنھا ئەو وادیاربوو کە بە تەڵەکەبازی لوسی زانیبێت.",
             onPressedBritish: () => speakdeceitfulnesss1("en-GB"),
             onPressedAmerican: () => speakdeceitfulnesss1("en-US"),
           ),

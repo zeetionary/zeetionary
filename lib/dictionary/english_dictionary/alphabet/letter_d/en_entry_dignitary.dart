@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The Prime Minister will be meeting local dignitaries and visiting places of work.",
             kurdishText:
-                "سەرۆک وەزیران بەرپرسە خۆجێییەکان دەبینێت و سەردانی شوێنەکانی کار دەکات.", // dignitary
+                "سەرۆک وەزیران بەرپرسە خۆجێییەکان دەبینێت و سەردانی شوێنەکانی کار دەکات.",
             onPressedBritish: () => speakdignitarys1("en-GB"),
             onPressedAmerican: () => speakdignitarys1("en-US"),
           ),

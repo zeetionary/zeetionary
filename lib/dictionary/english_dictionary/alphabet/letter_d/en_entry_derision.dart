@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) گاڵتەکردن بە کەسێک وەک ئەوەی گرنگ نەبێت"),
           SentencesRow(
             englishText: "Her speech was greeted with howls of derision.",
-            kurdishText:
-                "وتارەکەی بە قوولەی گاڵتەپێکردن پێشوازی لێکرا.", // derision
+            kurdishText: "وتارەکەی بە قوولەی گاڵتەپێکردن پێشوازی لێکرا.",
             onPressedBritish: () => speakderisions1("en-GB"),
             onPressedAmerican: () => speakderisions1("en-US"),
           ),

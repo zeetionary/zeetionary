@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Many people believe that private education encourages elitism.""",
             kurdishText:
-                """زۆر کەس باوەڕیان وایە خوێندنی تایبەت ھاندەری ھەڵبژاردەگەرییە.""", // elitism
+                """زۆر کەس باوەڕیان وایە خوێندنی تایبەت ھاندەری ھەڵبژاردەگەرییە.""",
             onPressedBritish: () => speakelitisms1("en-GB"),
             onPressedAmerican: () => speakelitisms1("en-US"),
           ),

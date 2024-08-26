@@ -181,7 +181,7 @@ class EnglishEntrybunk extends StatelessWidget {
                             englishText:
                                 "I slept in the bottom bunk of a set of bunk beds.",
                             kurdishText:
-                                "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونھۆمییەکەدا.", // bunk", follow LX strictly
+                                "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونھۆمییەکەدا.",
                             onPressedBritish: () => speakbunks1("en-GB"),
                             onPressedAmerican: () => speakbunks1("en-US"),
                           ),

@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) گۆڕین یان ناشرینکردنی شێوەی سرووشتی شتێک"),
           SentencesRow(
             englishText: "The disease had deformed his spine.",
-            kurdishText: "نەخۆشییەکە بڕبڕەی پشتی شێواندبوو.", // deform
+            kurdishText: "نەخۆشییەکە بڕبڕەی پشتی شێواندبوو.",
             onPressedBritish: () => speakdeforms1("en-GB"),
             onPressedAmerican: () => speakdeforms1("en-US"),
           ),

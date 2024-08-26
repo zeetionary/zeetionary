@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) بەلەمێکی بچووکی سەرکراوە"),
           SentencesRow(
             englishText: "I sailed the dinghy across the bay.",
-            kurdishText: "بەلەمەکەم بە کەنداوەکەدا برد.", // dinghy
+            kurdishText: "بەلەمەکەم بە کەنداوەکەدا برد.",
             onPressedBritish: () => speakdinghys1("en-GB"),
             onPressedAmerican: () => speakdinghys1("en-US"),
           ),

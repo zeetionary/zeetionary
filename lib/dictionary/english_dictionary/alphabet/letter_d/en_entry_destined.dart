@@ -261,7 +261,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He was destined for a military career, like his father before him.",
             kurdishText:
-                "لە چارەی نووسرابوو کاری سەربازی ھەبێت وەک باوکی لە پێش خۆی.", // destined
+                "لە چارەی نووسرابوو کاری سەربازی ھەبێت وەک باوکی لە پێش خۆی.",
             onPressedBritish: () => speakdestineds1("en-GB"),
             onPressedAmerican: () => speakdestineds1("en-US"),
           ),

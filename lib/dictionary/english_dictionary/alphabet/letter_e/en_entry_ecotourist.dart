@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She became an ecotourist to support conservation efforts.""",
             kurdishText:
-                """بوو بە ژینگەگەڕوان بۆ پشتگیری ھەوڵەکانی ژینگەپارێزی.""", // ecotourist
+                """بوو بە ژینگەگەڕوان بۆ پشتگیری ھەوڵەکانی ژینگەپارێزی.""",
             onPressedBritish: () => speakecotourists1("en-GB"),
             onPressedAmerican: () => speakecotourists1("en-US"),
           ),

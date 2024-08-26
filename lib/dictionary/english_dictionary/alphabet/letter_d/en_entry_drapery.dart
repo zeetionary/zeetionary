@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) قوماش کە بە فشی شۆڕبووەتەوە"),
           SentencesRow(
             englishText: "The style is noted for its flowing drapery.",
-            kurdishText: "ستایڵەکە ناسراوە بۆ شۆڕبوونەوەی شەپۆلیی.", // drapery
+            kurdishText: "ستایڵەکە ناسراوە بۆ شۆڕبوونەوەی شەپۆلیی.",
             onPressedBritish: () => speakdraperys1("en-GB"),
             onPressedAmerican: () => speakdraperys1("en-US"),
           ),

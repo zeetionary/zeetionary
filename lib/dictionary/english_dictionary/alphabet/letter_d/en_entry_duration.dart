@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The school was used as a hospital for the duration of the war.""",
             kurdishText:
-                """قوتابخانەکە وەک نەخۆشخانە بەکارھات لە ماوەی جەنگەکەدا.""", // duration
+                """قوتابخانەکە وەک نەخۆشخانە بەکارھات لە ماوەی جەنگەکەدا.""",
             onPressedBritish: () => speakdurations1("en-GB"),
             onPressedAmerican: () => speakdurations1("en-US"),
           ),

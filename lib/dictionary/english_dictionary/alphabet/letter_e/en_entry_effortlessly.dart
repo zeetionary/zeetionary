@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She runs so effortlessly, as if it's the easiest thing in the world.""",
             kurdishText:
-                """زۆر بە ئاسانی ڕادەکات، وەک ئەوەی ئاسانترین شت بێت لە جیھاندا.""", // effortlessly
+                """زۆر بە ئاسانی ڕادەکات، وەک ئەوەی ئاسانترین شت بێت لە جیھاندا.""",
             onPressedBritish: () => speakeffortlesslys1("en-GB"),
             onPressedAmerican: () => speakeffortlesslys1("en-US"),
           ),

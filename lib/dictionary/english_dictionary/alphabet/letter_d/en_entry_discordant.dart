@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Discordant opinions prevail even among good judges.",
             kurdishText:
-                "بۆچوونی جیاواز تەنانەت لە نێوان دادوەرە باشەکانیش سەرھەڵ دەدات.", // discordant
+                "بۆچوونی جیاواز تەنانەت لە نێوان دادوەرە باشەکانیش سەرھەڵ دەدات.",
             onPressedBritish: () => speakdiscordants1("en-GB"),
             onPressedAmerican: () => speakdiscordants1("en-US"),
           ),

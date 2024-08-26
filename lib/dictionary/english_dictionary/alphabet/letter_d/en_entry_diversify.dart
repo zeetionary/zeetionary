@@ -385,8 +385,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Farmers are being encouraged to diversify into new crops.",
-            kurdishText:
-                "جوتیاران ھاندەدرێن بەرھەمەکانیان ھەمەچەشن بکەن.", // diversify
+            kurdishText: "جوتیاران ھاندەدرێن بەرھەمەکانیان ھەمەچەشن بکەن.",
             onPressedBritish: () => speakdiversifys1("en-GB"),
             onPressedAmerican: () => speakdiversifys1("en-US"),
           ),

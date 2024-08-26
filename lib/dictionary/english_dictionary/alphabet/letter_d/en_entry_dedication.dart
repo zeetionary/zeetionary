@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I really admire Gina for her dedication to her family.",
-            kurdishText:
-                "بەڕاستی سەرسامی جینام بۆ خۆتەرخانکردنی بۆ خێزانەکەی.", // dedication
+            kurdishText: "بەڕاستی سەرسامی جینام بۆ خۆتەرخانکردنی بۆ خێزانەکەی.",
             onPressedBritish: () => speakdedications1("en-GB"),
             onPressedAmerican: () => speakdedications1("en-US"),
           ),

@@ -182,7 +182,7 @@ class EnglishEntrybumper extends StatelessWidget {
                             englishText:
                                 "The cars were bumper to bumper on the road to the coast (= so close that their bumpers were nearly touching).",
                             kurdishText:
-                                "ئۆتۆمبێلەکان تەواو لێک نزیک بوون لەسەر ڕێگای چوون بۆ کەنارەکە.", // bumper", follow LX strictly
+                                "ئۆتۆمبێلەکان تەواو لێک نزیک بوون لەسەر ڕێگای چوون بۆ کەنارەکە.",
                             onPressedBritish: () => speakbumpers1("en-GB"),
                             onPressedAmerican: () => speakbumpers1("en-US"),
                           ),

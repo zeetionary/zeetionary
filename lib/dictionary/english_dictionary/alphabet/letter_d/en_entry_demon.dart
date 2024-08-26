@@ -261,7 +261,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The people believed the girl was possessed by demons.",
-            kurdishText: "خەڵکەکە بوەڕیان وابوو کچەکە شەیتانی بووبوو.", // demon
+            kurdishText: "خەڵکەکە بوەڕیان وابوو کچەکە شەیتانی بووبوو.",
             onPressedBritish: () => speakdemons1("en-GB"),
             onPressedAmerican: () => speakdemons1("en-US"),
           ),

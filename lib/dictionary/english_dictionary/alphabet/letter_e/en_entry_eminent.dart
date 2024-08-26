@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The commission consisted of fifteen eminent political figures.""",
             kurdishText:
-                """لیژنەکە لە پازدە کەسایەتیی سیاسی ڕێزلێ‌گیراو پێکھاتبوو.""", // eminent
+                """لیژنەکە لە پازدە کەسایەتیی سیاسی ڕێزلێ‌گیراو پێکھاتبوو.""",
             onPressedBritish: () => speakeminents1("en-GB"),
             onPressedAmerican: () => speakeminents1("en-US"),
           ),

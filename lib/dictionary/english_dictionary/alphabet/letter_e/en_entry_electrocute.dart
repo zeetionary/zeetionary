@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """He was electrocuted in Virginia in 2006 (= punished by being killed in the electric chair).""",
-            kurdishText:
-                """ساڵی ٢٠٠٦ لە ڤیرجینیا کارەبای لێدرا.""", // electrocute
+            kurdishText: """ساڵی ٢٠٠٦ لە ڤیرجینیا کارەبای لێدرا.""",
             onPressedBritish: () => speakelectrocutes1("en-GB"),
             onPressedAmerican: () => speakelectrocutes1("en-US"),
           ),

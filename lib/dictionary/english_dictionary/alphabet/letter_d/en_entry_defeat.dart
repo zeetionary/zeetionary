@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) بردنەوە دژ بە کەسێک لە جەنگ، ڕکابەری، یاری وەرزشی، ھتد"),
           SentencesRow(
             englishText: "He defeated the champion in three sets.",
-            kurdishText: "پاڵەوانەکەی لە سێ قۆناغدا تێکشکاند.", // defeat
+            kurdishText: "پاڵەوانەکەی لە سێ قۆناغدا تێکشکاند.",
             onPressedBritish: () => speakdefeats1("en-GB"),
             onPressedAmerican: () => speakdefeats1("en-US"),
           ),

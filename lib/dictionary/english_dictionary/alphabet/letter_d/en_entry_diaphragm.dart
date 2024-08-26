@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) توێژاڵێک لە ماسولکە لە دەوری گەدە و سنگ کە بۆ کۆنترۆڵی ھەناسەدان بەکاردێت"),
           SentencesRow(
             englishText: "The diaphragm contracts when you inhale.",
-            kurdishText: "ناوپەنچک گرژدەبێتەوە کە ھەناسە دەمژیت.", // diaphragm
+            kurdishText: "ناوپەنچک گرژدەبێتەوە کە ھەناسە دەمژیت.",
             onPressedBritish: () => speakdiaphragms1("en-GB"),
             onPressedAmerican: () => speakdiaphragms1("en-US"),
           ),

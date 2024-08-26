@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """A powerful and corrupt elite has bled this country dry.""",
             kurdishText:
-                """ھەڵبژاردەیەکی گەندەڵ و بەدەسەڵاتی ئەم وڵاتەیان دۆشیوە.""", // elite
+                """ھەڵبژاردەیەکی گەندەڵ و بەدەسەڵاتی ئەم وڵاتەیان دۆشیوە.""",
             onPressedBritish: () => speakelites1("en-GB"),
             onPressedAmerican: () => speakelites1("en-US"),
           ),

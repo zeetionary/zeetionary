@@ -403,8 +403,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The emotional impact of the film is powerful and lasting.""",
-            kurdishText:
-                """کاریگەریی سۆزداری فیلمەکە بەھێز و درێژخایەنە.""", // emotional
+            kurdishText: """کاریگەریی سۆزداری فیلمەکە بەھێز و درێژخایەنە.""",
             onPressedBritish: () => speakemotionals1("en-GB"),
             onPressedAmerican: () => speakemotionals1("en-US"),
           ),

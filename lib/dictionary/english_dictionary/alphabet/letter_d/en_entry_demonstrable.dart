@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There is no demonstrable link between the two events.",
             kurdishText:
-                "ھیچ پەیوەندییەکی بینراو نییە لە نێوان دوو ڕووداوەکەدا.", // demonstrable
+                "ھیچ پەیوەندییەکی بینراو نییە لە نێوان دوو ڕووداوەکەدا.",
             onPressedBritish: () => speakdemonstrables1("en-GB"),
             onPressedAmerican: () => speakdemonstrables1("en-US"),
           ),

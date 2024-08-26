@@ -371,8 +371,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "What points can be raised in defence of this argument?",
-            kurdishText:
-                "چی خاڵێک دەکرێت باس بکرێت بۆ بەرگری لە بۆچوونەکەی؟", // defence
+            kurdishText: "چی خاڵێک دەکرێت باس بکرێت بۆ بەرگری لە بۆچوونەکەی؟",
             onPressedBritish: () => speakdefences1("en-GB"),
             onPressedAmerican: () => speakdefences1("en-US"),
           ),

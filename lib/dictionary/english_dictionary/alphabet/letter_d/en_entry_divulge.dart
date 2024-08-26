@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Police refused to divulge the identity of the suspect.",
             kurdishText:
-                "پۆلیس ڕەتیکردەوە ناسنامەی گومانلێکراوەکە ئاشکرا بکات.", // divulge
+                "پۆلیس ڕەتیکردەوە ناسنامەی گومانلێکراوەکە ئاشکرا بکات.",
             onPressedBritish: () => speakdivulges1("en-GB"),
             onPressedAmerican: () => speakdivulges1("en-US"),
           ),

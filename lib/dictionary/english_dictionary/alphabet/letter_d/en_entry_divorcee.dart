@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She became a divorcee after the marriage ended in a legal separation.",
             kurdishText:
-                "بوو بە بێوەژن لە دوای ئەوەی ھاوسەرگیرییەکە بە جیابوونەوەی فەرمی کۆتایی ھات.", // divorcee
+                "بوو بە بێوەژن لە دوای ئەوەی ھاوسەرگیرییەکە بە جیابوونەوەی فەرمی کۆتایی ھات.",
             onPressedBritish: () => speakdivorcees1("en-GB"),
             onPressedAmerican: () => speakdivorcees1("en-US"),
           ),

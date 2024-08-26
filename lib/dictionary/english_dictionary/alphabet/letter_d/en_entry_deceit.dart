@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ڕەفتاری ناڕاست کە وادەکات کەسێک باوەڕ بە شتێک بکات کە ڕاست نییە"),
           SentencesRow(
             englishText: "He was accused of lies and deceit.",
-            kurdishText: "بە درۆ و تەڵەکەبازی تاوانبار کرا.", // deceit
+            kurdishText: "بە درۆ و تەڵەکەبازی تاوانبار کرا.",
             onPressedBritish: () => speakdeceits1("en-GB"),
             onPressedAmerican: () => speakdeceits1("en-US"),
           ),

@@ -262,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) خاسیەتی شایەنی ئەوەی کە ھەبێت"),
           SentencesRow(
             englishText: "No one questions the desirability of cheaper fares.",
-            kurdishText:
-                "ھیچ کەس گومانی نییە لە باشی کرێی کەمتر.", // desirability
+            kurdishText: "ھیچ کەس گومانی نییە لە باشی کرێی کەمتر.",
             onPressedBritish: () => speakdesirabilitys1("en-GB"),
             onPressedAmerican: () => speakdesirabilitys1("en-US"),
           ),

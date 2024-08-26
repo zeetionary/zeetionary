@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Her actions have brought shame and dishonour on the profession.",
-            kurdishText:
-                "کارەکانی شەرم و ئابڕووچوونی ھێناوە بۆ پیشەکە.", // dishonour
+            kurdishText: "کارەکانی شەرم و ئابڕووچوونی ھێناوە بۆ پیشەکە.",
             onPressedBritish: () => speakdishonours1("en-GB"),
             onPressedAmerican: () => speakdishonours1("en-US"),
           ),

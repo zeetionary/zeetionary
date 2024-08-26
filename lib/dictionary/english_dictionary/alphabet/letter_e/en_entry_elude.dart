@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The two men managed to elude the police for six weeks.""",
             kurdishText:
-                """دوو پیاوەکە توانییان بۆ شەش ھەفتە خۆیان لە پۆلیس بدزنەوە.""", // elude
+                """دوو پیاوەکە توانییان بۆ شەش ھەفتە خۆیان لە پۆلیس بدزنەوە.""",
             onPressedBritish: () => speakeludes1("en-GB"),
             onPressedAmerican: () => speakeludes1("en-US"),
           ),

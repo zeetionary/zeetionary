@@ -353,7 +353,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The Ministry refused to reveal any more details of the attack.",
             kurdishText:
-                "وەزارەتەکە ڕەتیکردەوە ھیچ وردەکارییەکی دیکە ئاشکرا بکات.", // detail
+                "وەزارەتەکە ڕەتیکردەوە ھیچ وردەکارییەکی دیکە ئاشکرا بکات.",
             onPressedBritish: () => speakdetails1("en-GB"),
             onPressedAmerican: () => speakdetails1("en-US"),
           ),

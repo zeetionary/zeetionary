@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) باوەڕنەکردن بەوەی کە شتێک ڕاستە یان کەسێک ڕاستی دەڵێت"),
           SentencesRow(
             englishText: "Why should I disbelieve her story?",
-            kurdishText: "بۆچی دەبێت گومانم لە چیرۆکەکە ھەبێت؟", // disbelieve
+            kurdishText: "بۆچی دەبێت گومانم لە چیرۆکەکە ھەبێت؟",
             onPressedBritish: () => speakdisbelieves1("en-GB"),
             onPressedAmerican: () => speakdisbelieves1("en-US"),
           ),

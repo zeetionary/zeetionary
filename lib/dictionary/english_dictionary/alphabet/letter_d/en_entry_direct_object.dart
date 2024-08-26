@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "In ‘I met him in town’, the word ‘him’ is the direct object.",
             kurdishText:
-                "لە 'I met him in town', وشەی 'him' بەرکاری ڕاستەوخۆیە.", // direct object
+                "لە 'I met him in town', وشەی 'him' بەرکاری ڕاستەوخۆیە.",
             onPressedBritish: () => speakdirectobjects1("en-GB"),
             onPressedAmerican: () => speakdirectobjects1("en-US"),
           ),

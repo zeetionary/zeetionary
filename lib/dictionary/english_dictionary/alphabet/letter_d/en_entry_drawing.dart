@@ -385,8 +385,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The original architectural drawings of the building had been lost.",
-            kurdishText:
-                "وێنە بیناسازییە سەرەتاییەکانی بیناکە ونبووە.", // drawing
+            kurdishText: "وێنە بیناسازییە سەرەتاییەکانی بیناکە ونبووە.",
             onPressedBritish: () => speakdrawings1("en-GB"),
             onPressedAmerican: () => speakdrawings1("en-US"),
           ),

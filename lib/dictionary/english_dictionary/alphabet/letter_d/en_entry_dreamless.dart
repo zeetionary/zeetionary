@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) خەونێک بەبێ خەوبینین؛ خەوێکی ئارام و قووڵ"),
           SentencesRow(
             englishText: "I fell straight into a dreamless sleep.",
-            kurdishText: "ڕێک کەوتمە خەوێکی قووڵەوە.", // dreamless
+            kurdishText: "ڕێک کەوتمە خەوێکی قووڵەوە.",
             onPressedBritish: () => speakdreamlesss1("en-GB"),
             onPressedAmerican: () => speakdreamlesss1("en-US"),
           ),

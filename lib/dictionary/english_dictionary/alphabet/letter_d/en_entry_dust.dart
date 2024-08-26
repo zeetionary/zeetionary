@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """A cloud of dust rose as the truck drove off.""",
             kurdishText:
-                """تۆپەڵە تۆزێک بەرزبوویەوە کە بارھەڵگرەکە دەستی بە ڕۆشتن کرد.""", // dust
+                """تۆپەڵە تۆزێک بەرزبوویەوە کە بارھەڵگرەکە دەستی بە ڕۆشتن کرد.""",
             onPressedBritish: () => speakdusts1("en-GB"),
             onPressedAmerican: () => speakdusts1("en-US"),
           ),

@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) مۆڵەتی شؤفێری"),
           SentencesRow(
             englishText: "I got my driving licence when I was eighteen.",
-            kurdishText:
-                "مۆڵەتی شۆفێریمم وەرگرت کە ھەژدە ساڵان بووم.", // driving licence
+            kurdishText: "مۆڵەتی شۆفێریمم وەرگرت کە ھەژدە ساڵان بووم.",
             onPressedBritish: () => speakdrivinglicences1("en-GB"),
             onPressedAmerican: () => speakdrivinglicences1("en-US"),
           ),

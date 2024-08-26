@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The university offers an ELT certification program.""",
-            kurdishText: """زانکۆکە پڕۆگرامێکی بڕوانامەی ELT ھەیە.""", // ELT
+            kurdishText: """زانکۆکە پڕۆگرامێکی بڕوانامەی ELT ھەیە.""",
             onPressedBritish: () => speakELTs1("en-GB"),
             onPressedAmerican: () => speakELTs1("en-US"),
           ),

@@ -269,8 +269,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) لێکردنەوەی شتێک لە یەکێکی گەورەتر"),
           SentencesRow(
             englishText: "Detach the coupon and return it as soon as possible.",
-            kurdishText:
-                "کوپۆنەکە لێبکەوە ھەرچەندە زوو دەکرێت بیگەڕێنەوە.", // detach
+            kurdishText: "کوپۆنەکە لێبکەوە ھەرچەندە زوو دەکرێت بیگەڕێنەوە.",
             onPressedBritish: () => speakdetachs1("en-GB"),
             onPressedAmerican: () => speakdetachs1("en-US"),
           ),

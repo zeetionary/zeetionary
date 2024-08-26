@@ -138,7 +138,7 @@ class EnglishEntrybudge extends StatelessWidget {
                             englishText:
                                 "She pushed at the door but it wouldn't budge.",
                             kurdishText:
-                                "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد.", // budge", follow LX strictly.
+                                "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد.",
                             onPressedBritish: () => speakbudges1("en-GB"),
                             onPressedAmerican: () => speakbudges1("en-US"),
                           ),

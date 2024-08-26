@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Many people enjoy jellied eels with vinegar and pepper.""",
             kurdishText:
-                """زۆر کەس حەز بە ماراڤی شێوەوڵوڵە دەکەن لەگەڵ سرکە و بیبەر.""", // eel
+                """زۆر کەس حەز بە ماراڤی شێوەوڵوڵە دەکەن لەگەڵ سرکە و بیبەر.""",
             onPressedBritish: () => speakeels1("en-GB"),
             onPressedAmerican: () => speakeels1("en-US"),
           ),

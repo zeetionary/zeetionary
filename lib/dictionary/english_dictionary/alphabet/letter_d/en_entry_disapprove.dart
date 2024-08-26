@@ -255,8 +255,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She wants to be an actress, but her parents disapprove.",
-            kurdishText:
-                "دەیەوێت ببێت بە ئەکتەر، بەڵام دایبابی پەسەندی ناکەن.", // disapprove
+            kurdishText: "دەیەوێت ببێت بە ئەکتەر، بەڵام دایبابی پەسەندی ناکەن.",
             onPressedBritish: () => speakdisapproves1("en-GB"),
             onPressedAmerican: () => speakdisapproves1("en-US"),
           ),

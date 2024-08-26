@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She is a dutiful daughter, always helping her parents.""",
-            kurdishText:
-                """کچێکی گوێڕایەڵە کە ھەمیشە یارمەتی دایبابی دەدات.""", // dutiful
+            kurdishText: """کچێکی گوێڕایەڵە کە ھەمیشە یارمەتی دایبابی دەدات.""",
             onPressedBritish: () => speakdutifuls1("en-GB"),
             onPressedAmerican: () => speakdutifuls1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The artist's paintings captured the decadence of society in the early 20th century.",
             kurdishText:
-                "تابلۆی ھونەرکارەکە پووکانەوەی کۆمەڵگای لە سەرەتای سەدەی ٢٠ ـدا پیشان دەدا.", // decadence
+                "تابلۆی ھونەرکارەکە پووکانەوەی کۆمەڵگای لە سەرەتای سەدەی ٢٠ ـدا پیشان دەدا.",
             onPressedBritish: () => speakdecadences1("en-GB"),
             onPressedAmerican: () => speakdecadences1("en-US"),
           ),

@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ساختەچییانە؛ کە ئامانج لێی خەڵەتاندنی خەڵکی بێت"),
           SentencesRow(
             englishText: "Beware of dishonest traders in the tourist areas.",
-            kurdishText:
-                "ئاگاداری فرۆشیاری ساختەچی بە لە ناوچە گەشتیارییەکان.", // dishonest
+            kurdishText: "ئاگاداری فرۆشیاری ساختەچی بە لە ناوچە گەشتیارییەکان.",
             onPressedBritish: () => speakdishonests1("en-GB"),
             onPressedAmerican: () => speakdishonests1("en-US"),
           ),

@@ -233,8 +233,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The government announced plans for the decimalization of the currency.",
-            kurdishText:
-                "حکومەت ڕایگەیاند پلانی ھەیە بۆ بە دەیانکردنی دراو.", // decimalization
+            kurdishText: "حکومەت ڕایگەیاند پلانی ھەیە بۆ بە دەیانکردنی دراو.",
             onPressedBritish: () => speakdecimalizations1("en-GB"),
             onPressedAmerican: () => speakdecimalizations1("en-US"),
           ),

@@ -269,7 +269,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Her decision to cancel the concert is bound to disappoint her fans.",
             kurdishText:
-                "بڕیارەکەیان بۆ ھەڵوەشاندنەوەی کۆنسێرتەکە بەدڵنیاییەوە ھەوادارانی نائومێد دەکات.", // disappoint
+                "بڕیارەکەیان بۆ ھەڵوەشاندنەوەی کۆنسێرتەکە بەدڵنیاییەوە ھەوادارانی نائومێد دەکات.",
             onPressedBritish: () => speakdisappoints1("en-GB"),
             onPressedAmerican: () => speakdisappoints1("en-US"),
           ),

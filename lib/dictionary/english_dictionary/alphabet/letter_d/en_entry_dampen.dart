@@ -251,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) کەمێک تەڕکردنی شتێک"),
           SentencesRow(
             englishText: "He dampened his hair to make it lie flat.",
-            kurdishText: "قژی تەڕکرد بۆ ئەوەی بە سافی بوەستێت.", // dampen
+            kurdishText: "قژی تەڕکرد بۆ ئەوەی بە سافی بوەستێت.",
             onPressedBritish: () => speakdampens1("en-GB"),
             onPressedAmerican: () => speakdampens1("en-US"),
           ),

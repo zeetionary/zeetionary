@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) جیاواز لەوەی کە زۆرکەس بە ئاسایی یان پەسەند دایدەنێن"),
           SentencesRow(
             englishText: "This is a deviation from the original plan.",
-            kurdishText: "ئەمە لادانێکە لە پلانەکەی سەرەتا.", // deviation
+            kurdishText: "ئەمە لادانێکە لە پلانەکەی سەرەتا.",
             onPressedBritish: () => speakdeviations1("en-GB"),
             onPressedAmerican: () => speakdeviations1("en-US"),
           ),

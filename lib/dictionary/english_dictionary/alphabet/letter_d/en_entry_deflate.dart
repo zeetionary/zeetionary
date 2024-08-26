@@ -256,8 +256,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I accidentally deflated the balloon by pressing on it.",
-            kurdishText:
-                "بە ھەڵە فوودانکەکەم فسکردەوە بە پەستان خستنە سەری.", // deflate
+            kurdishText: "بە ھەڵە فوودانکەکەم فسکردەوە بە پەستان خستنە سەری.",
             onPressedBritish: () => speakdeflates1("en-GB"),
             onPressedAmerican: () => speakdeflates1("en-US"),
           ),

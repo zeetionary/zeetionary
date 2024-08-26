@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "He was always very discreet about his love affairs.",
             kurdishText:
-                "ھەمیشە زۆر قایم‌کار بوو سەبارەت بە پەیوەندییە سۆزدارییەکانی.", // discreet
+                "ھەمیشە زۆر قایم‌کار بوو سەبارەت بە پەیوەندییە سۆزدارییەکانی.",
             onPressedBritish: () => speakdiscreets1("en-GB"),
             onPressedAmerican: () => speakdiscreets1("en-US"),
           ),

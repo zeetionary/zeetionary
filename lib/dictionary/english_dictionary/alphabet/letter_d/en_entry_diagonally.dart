@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Walk diagonally across the field to the far corner and then turn left.",
             kurdishText:
-                "بە کێڵگەکەدا سووچ بۆ سووج بچۆ بۆ سووچە دوورەکە و دواتر بە چەپدا پێچ بکەوە.", // diagonally
+                "بە کێڵگەکەدا سووچ بۆ سووج بچۆ بۆ سووچە دوورەکە و دواتر بە چەپدا پێچ بکەوە.",
             onPressedBritish: () => speakdiagonallys1("en-GB"),
             onPressedAmerican: () => speakdiagonallys1("en-US"),
           ),

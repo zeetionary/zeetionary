@@ -282,7 +282,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە جل، بینا، ھتد دیزاین دەکات بە کێشانی شێوە یان پلان بۆی"),
           SentencesRow(
             englishText: "She's a highly original young designer.",
-            kurdishText: "دیزاینەرێکی گەنجی زۆر ڕەسەنە.", // designer
+            kurdishText: "دیزاینەرێکی گەنجی زۆر ڕەسەنە.",
             onPressedBritish: () => speakdesigners1("en-GB"),
             onPressedAmerican: () => speakdesigners1("en-US"),
           ),

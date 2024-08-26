@@ -182,7 +182,7 @@ class EnglishEntrybureau extends StatelessWidget {
                             englishText:
                                 "There was just enough space for a fold-up bed, washstand and bureau.",
                             kurdishText:
-                                "تەنھا ھێندە شوێن ھەبوو بەشی جێگەیەکی نووستن بکات، لەگەڵ مێزێکی نووسین.", // bureau", follow LX strictly
+                                "تەنھا ھێندە شوێن ھەبوو بەشی جێگەیەکی نووستن بکات، لەگەڵ مێزێکی نووسین.",
                             onPressedBritish: () => speakbureaus1("en-GB"),
                             onPressedAmerican: () => speakbureaus1("en-US"),
                           ),

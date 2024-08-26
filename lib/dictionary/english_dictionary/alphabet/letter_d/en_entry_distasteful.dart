@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The bad language in the film was distasteful and unnecessary.",
-            kurdishText:
-                "زمانی ناشرین لە فیلمەکەدا دزێو و ناپێویست بوو.", // distasteful
+            kurdishText: "زمانی ناشرین لە فیلمەکەدا دزێو و ناپێویست بوو.",
             onPressedBritish: () => speakdistastefuls1("en-GB"),
             onPressedAmerican: () => speakdistastefuls1("en-US"),
           ),

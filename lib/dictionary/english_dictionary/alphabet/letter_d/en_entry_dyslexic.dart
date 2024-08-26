@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The school offers support for dyslexic students.""",
             kurdishText:
-                """قوتابخانەکە یارمەتی پێشکەش بە خوێندکارانی دیسلێکسیک دەکات.""", // dyslexic
+                """قوتابخانەکە یارمەتی پێشکەش بە خوێندکارانی دیسلێکسیک دەکات.""",
             onPressedBritish: () => speakdyslexics1("en-GB"),
             onPressedAmerican: () => speakdyslexics1("en-US"),
           ),

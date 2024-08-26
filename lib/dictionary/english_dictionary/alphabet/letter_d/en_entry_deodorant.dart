@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) مادەیەک کە خەڵکی لە جەستەیان دەدەن بۆ نەھێشتنی بۆنی ناخۆش"),
           SentencesRow(
             englishText: "She uses deodorant every morning.",
-            kurdishText: "ھەموو بەیانییەک بۆنبر بەکاردێنێت.", // deodorant
+            kurdishText: "ھەموو بەیانییەک بۆنبر بەکاردێنێت.",
             onPressedBritish: () => speakdeodorants1("en-GB"),
             onPressedAmerican: () => speakdeodorants1("en-US"),
           ),

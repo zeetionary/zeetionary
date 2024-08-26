@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I leave a light on when I'm out to discourage burglars.",
             kurdishText:
-                "کە لە دەرەوەم ڕۆشناییەک بە کراوەیی دەھێڵمەوە بۆ ساردکردنەوەی دز.", // discourage
+                "کە لە دەرەوەم ڕۆشناییەک بە کراوەیی دەھێڵمەوە بۆ ساردکردنەوەی دز.",
             onPressedBritish: () => speakdiscourages1("en-GB"),
             onPressedAmerican: () => speakdiscourages1("en-US"),
           ),

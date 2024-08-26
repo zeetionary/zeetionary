@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو بەبێ شتێک"),
           SentencesRow(
             englishText: "The land is almost devoid of vegetation.",
-            kurdishText: "زەوییەکە تاڕادەیەک پەتییە لە میوەجات.", // devoid
+            kurdishText: "زەوییەکە تاڕادەیەک پەتییە لە میوەجات.",
             onPressedBritish: () => speakdevoids1("en-GB"),
             onPressedAmerican: () => speakdevoids1("en-US"),
           ),

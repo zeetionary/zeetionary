@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) پەوەندیدار بە کارەبا"""),
           SentencesRow(
             englishText: """I think it's got an electrical fault.""",
-            kurdishText: """پێموایە کێشەیەکی کارەبایی ھەیە.""", // electrical
+            kurdishText: """پێموایە کێشەیەکی کارەبایی ھەیە.""",
             onPressedBritish: () => speakelectricals1("en-GB"),
             onPressedAmerican: () => speakelectricals1("en-US"),
           ),

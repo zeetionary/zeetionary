@@ -297,8 +297,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "You can't be dependent on your parents all your life.",
-            kurdishText:
-                "ناکرێت ھەموو ژیانت پشت بە دایبابت ببەستیت.", // dependent
+            kurdishText: "ناکرێت ھەموو ژیانت پشت بە دایبابت ببەستیت.",
             onPressedBritish: () => speakdependents1("en-GB"),
             onPressedAmerican: () => speakdependents1("en-US"),
           ),

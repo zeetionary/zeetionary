@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) کوشتنی ژمارەیەکی زۆر لە ڕووەک، ئاژەڵ، یان مرۆڤ لە ناوچەیەکی دیاریکراودا"),
           SentencesRow(
             englishText: "The rabbit population was decimated by the disease.",
-            kurdishText:
-                "حەشیمەتی کەروێشکەکان بە نەخۆشییەکە تیاچوون.", // decimate
+            kurdishText: "حەشیمەتی کەروێشکەکان بە نەخۆشییەکە تیاچوون.",
             onPressedBritish: () => speakdecimates1("en-GB"),
             onPressedAmerican: () => speakdecimates1("en-US"),
           ),

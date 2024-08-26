@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The ancient Egyptians would embalm their pharaohs.""",
-            kurdishText:
-                """میسرییە کۆنەکان فیرعەونەکانیان مۆمیایی دەکرد.""", // embalm
+            kurdishText: """میسرییە کۆنەکان فیرعەونەکانیان مۆمیایی دەکرد.""",
             onPressedBritish: () => speakembalms1("en-GB"),
             onPressedAmerican: () => speakembalms1("en-US"),
           ),

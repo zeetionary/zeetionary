@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Voices of dissent began to rise against the authority in the 1950s and 1960s.",
             kurdishText:
-                "دەنگی ناڕەزایەتی دەستیان بە ھەڵبڕین کرد دژ بە دەسەڵات لە ساڵانی ١٩٥٠ ـیەکان و ١٩٦٠ ـەکان.", // dissent
+                "دەنگی ناڕەزایەتی دەستیان بە ھەڵبڕین کرد دژ بە دەسەڵات لە ساڵانی ١٩٥٠ ـیەکان و ١٩٦٠ ـەکان.",
             onPressedBritish: () => speakdissents1("en-GB"),
             onPressedAmerican: () => speakdissents1("en-US"),
           ),

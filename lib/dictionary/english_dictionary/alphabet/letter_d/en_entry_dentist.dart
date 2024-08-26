@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "You should have your teeth checked by a dentist at least twice a year.",
             kurdishText:
-                "بەلایەنی کەمەوە ساڵی دووجار دەبێت پشکنینی ددانت بکەیت لەلای پزیشکێکی ددان.", // dentist
+                "بەلایەنی کەمەوە ساڵی دووجار دەبێت پشکنینی ددانت بکەیت لەلای پزیشکێکی ددان.",
             onPressedBritish: () => speakdentists1("en-GB"),
             onPressedAmerican: () => speakdentists1("en-US"),
           ),

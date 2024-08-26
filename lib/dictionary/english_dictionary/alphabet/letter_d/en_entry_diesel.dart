@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) گازوایل کە وەک سووتەمەنی بەکاردێت لە جیاتی بەنزین"),
           SentencesRow(
             englishText: "The diesel model is slightly more expensive.",
-            kurdishText: "جۆرە گازوایلەکە کەمێک گرانترە.", // diesel
+            kurdishText: "جۆرە گازوایلەکە کەمێک گرانترە.",
             onPressedBritish: () => speakdiesels1("en-GB"),
             onPressedAmerican: () => speakdiesels1("en-US"),
           ),

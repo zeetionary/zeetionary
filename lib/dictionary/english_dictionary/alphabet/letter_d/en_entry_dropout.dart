@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە لە کۆلێژ یان قوتابخانە دەردەچێت پێش تەواوکردنی خوێندنەکەی"),
           SentencesRow(
             englishText: "He was a loner and a dropout.",
-            kurdishText:
-                "کەسێک کە گۆشەگیر و دەرچوو لە قوتابخانە بوو.", // dropout
+            kurdishText: "کەسێک کە گۆشەگیر و دەرچوو لە قوتابخانە بوو.",
             onPressedBritish: () => speakdropouts1("en-GB"),
             onPressedAmerican: () => speakdropouts1("en-US"),
           ),

@@ -336,7 +336,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "When the doors opened, there was a mad dash for seats.",
             kurdishText:
-                "کە دەرگاکان کرانەوە، تێڕژانێکی شێتانە ھەبوو بۆ کورسییەکان.", // dash
+                "کە دەرگاکان کرانەوە، تێڕژانێکی شێتانە ھەبوو بۆ کورسییەکان.",
             onPressedBritish: () => speakdashs1("en-GB"),
             onPressedAmerican: () => speakdashs1("en-US"),
           ),

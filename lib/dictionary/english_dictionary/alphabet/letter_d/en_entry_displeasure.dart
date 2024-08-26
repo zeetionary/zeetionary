@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She made no attempt to hide her displeasure at the prospect.",
-            kurdishText:
-                "ھیچ ھەوڵێکی نەدەدا کە ناڕەحەتی خۆی بە پاشەڕۆ.", // displeasure
+            kurdishText: "ھیچ ھەوڵێکی نەدەدا کە ناڕەحەتی خۆی بە پاشەڕۆ.",
             onPressedBritish: () => speakdispleasures1("en-GB"),
             onPressedAmerican: () => speakdispleasures1("en-US"),
           ),

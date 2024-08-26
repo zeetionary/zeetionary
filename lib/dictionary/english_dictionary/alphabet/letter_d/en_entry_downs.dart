@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دەشتێکی کراوە بە گردی نزمەوە، بەتایبەتی لە باشووری ئینگلتەرە"),
           SentencesRow(
             englishText: "She enjoyed cycling through the South Downs.",
-            kurdishText:
-                "حەزی بە پاسکیلسواری لە دەشتەکانی باشوور بوو.", // downs
+            kurdishText: "حەزی بە پاسکیلسواری لە دەشتەکانی باشوور بوو.",
             onPressedBritish: () => speakdownss1("en-GB"),
             onPressedAmerican: () => speakdownss1("en-US"),
           ),

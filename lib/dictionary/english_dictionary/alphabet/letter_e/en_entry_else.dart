@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵکار) سەرەڕای شتێکی دیکە کە باسکراوە"""),
           SentencesRow(
             englishText: """What else did he say?""",
-            kurdishText: """چی دیکەی گوت؟""", // else
+            kurdishText: """چی دیکەی گوت؟""",
             onPressedBritish: () => speakelses1("en-GB"),
             onPressedAmerican: () => speakelses1("en-US"),
           ),

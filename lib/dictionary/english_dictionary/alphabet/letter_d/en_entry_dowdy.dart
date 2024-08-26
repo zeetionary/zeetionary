@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) بێزارکەر ناشرین"),
           SentencesRow(
             englishText: "I feel dull and dowdy in this outfit.",
-            kurdishText: "لەم جلەدا ھەست بە شڕ و شێواوی دەکەم.", // dowdy
+            kurdishText: "لەم جلەدا ھەست بە شڕ و شێواوی دەکەم.",
             onPressedBritish: () => speakdowdys1("en-GB"),
             onPressedAmerican: () => speakdowdys1("en-US"),
           ),

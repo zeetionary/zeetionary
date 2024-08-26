@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بۆ خواردن دەشێت"""),
           SentencesRow(
             englishText: """The food at the hotel was barely edible.""",
-            kurdishText: """خواردنی ھوتێلەکە بە ئەستەم دەخورا.""", // edible
+            kurdishText: """خواردنی ھوتێلەکە بە ئەستەم دەخورا.""",
             onPressedBritish: () => speakedibles1("en-GB"),
             onPressedAmerican: () => speakedibles1("en-US"),
           ),

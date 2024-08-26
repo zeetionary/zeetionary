@@ -359,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (شێوەی لێکدەر) پەیوەندیدار بە ژینگە"""),
           SentencesRow(
             englishText: """He prefers eco-tourism to support conservation.""",
-            kurdishText:
-                """گەشتیاری ژینگەیی پێ‌باشە بۆ پشتگیری ژینگەپارێزی.""", // eco
+            kurdishText: """گەشتیاری ژینگەیی پێ‌باشە بۆ پشتگیری ژینگەپارێزی.""",
             onPressedBritish: () => speakecos1("en-GB"),
             onPressedAmerican: () => speakecos1("en-US"),
           ),

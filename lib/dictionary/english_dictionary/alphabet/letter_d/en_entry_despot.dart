@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "It is the story of a military coup which brings a brutal despot to power.",
             kurdishText:
-                "چیرۆکی کودەتایەکی سەربازییە کە خوێنڕێژێک دێنێتە سەر دەسەڵات.", // despot
+                "چیرۆکی کودەتایەکی سەربازییە کە خوێنڕێژێک دێنێتە سەر دەسەڵات.",
             onPressedBritish: () => speakdespots1("en-GB"),
             onPressedAmerican: () => speakdespots1("en-US"),
           ),

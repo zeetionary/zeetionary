@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە دڵتەنگ پیشانت دەدات و ئەوەی کە حەز بە ھیچ نەکەیت"),
           SentencesRow(
             englishText: "‘I didn’t get the job,’ he said drearily.",
-            kurdishText: "بە دڵتەنگییەوە گوتی 'کارەکەم پێنەدرا.'", // drearily
+            kurdishText: "بە دڵتەنگییەوە گوتی 'کارەکەم پێنەدرا.'",
             onPressedBritish: () => speakdrearilys1("en-GB"),
             onPressedAmerican: () => speakdrearilys1("en-US"),
           ),

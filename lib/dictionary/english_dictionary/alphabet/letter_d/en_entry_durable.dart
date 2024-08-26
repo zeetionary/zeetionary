@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Painted steel is likely to be less durable than other kinds.""",
             kurdishText:
-                """پۆڵای بۆیەکراو ئەگەری ھەیە کەمتر بەرگەگر بێت وەک لە جۆرەکانی دیکە.""", // durable
+                """پۆڵای بۆیەکراو ئەگەری ھەیە کەمتر بەرگەگر بێت وەک لە جۆرەکانی دیکە.""",
             onPressedBritish: () => speakdurables1("en-GB"),
             onPressedAmerican: () => speakdurables1("en-US"),
           ),

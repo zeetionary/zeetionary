@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بارانی بەھێز کە زۆرجار لەناکاو دەست پێدەکات"),
           SentencesRow(
             englishText: "We got caught in a torrential downpour.",
-            kurdishText: "لە ڕەھێڵەیەکی بەھێز گیرمان خوارد.", // downpour
+            kurdishText: "لە ڕەھێڵەیەکی بەھێز گیرمان خوارد.",
             onPressedBritish: () => speakdownpours1("en-GB"),
             onPressedAmerican: () => speakdownpours1("en-US"),
           ),

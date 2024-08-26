@@ -493,7 +493,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) ئەوەی کە بە ھێواشی و لەسەرخۆیی بەسەر ئاو یان بە ھەوادا بجوڵێیت"),
           SentencesRow(
             englishText: "Clouds drifted across the sky.",
-            kurdishText: "ھەورەکان بە ئاسماندا دەسووڕانەوە.", // drift
+            kurdishText: "ھەورەکان بە ئاسماندا دەسووڕانەوە.",
             onPressedBritish: () => speakdrifts1("en-GB"),
             onPressedAmerican: () => speakdrifts1("en-US"),
           ),

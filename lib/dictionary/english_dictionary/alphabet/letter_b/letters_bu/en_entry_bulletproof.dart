@@ -135,7 +135,7 @@ class EnglishEntrybulletproof extends StatelessWidget {
                             englishText:
                                 "A bulletproof limousine used by the president was on display in the museum.",
                             kurdishText:
-                                "لیمۆزینێکی گوللەنەبڕ کە لەلایەن سەرۆکەوە بەکاردەھات لە نمایشدا بوو لە مۆزەخانە.", // bulletproof", follow LX strictly
+                                "لیمۆزینێکی گوللەنەبڕ کە لەلایەن سەرۆکەوە بەکاردەھات لە نمایشدا بوو لە مۆزەخانە.",
                             onPressedBritish: () => speakbulletproofs1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbulletproofs1("en-US"),

@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "It is a lavish costume drama set in the early twentieth century.",
             kurdishText:
-                "درامایەکی جلوبەرگی گران‌بەھایە کە لە سەدەی بیستەم ڕوودەدات.", // drama
+                "درامایەکی جلوبەرگی گران‌بەھایە کە لە سەدەی بیستەم ڕوودەدات.",
             onPressedBritish: () => speakdramas1("en-GB"),
             onPressedAmerican: () => speakdramas1("en-US"),
           ),

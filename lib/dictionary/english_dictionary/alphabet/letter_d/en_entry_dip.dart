@@ -322,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) بە خێرایی ژەندنی شتێک بە شلەدا و دووبارە دەرکردنی"),
           SentencesRow(
             englishText: "He dipped the brush into the paint.",
-            kurdishText: "فڵچەکەی ژەند بە بۆیەکەدا.", // dip
+            kurdishText: "فڵچەکەی ژەند بە بۆیەکەدا.",
             onPressedBritish: () => speakdips1("en-GB"),
             onPressedAmerican: () => speakdips1("en-US"),
           ),

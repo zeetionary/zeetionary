@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They worked diligently on the task they had been given.",
             kurdishText:
-                "ماندوونەناسانە کاریان لەسەر ئەو ئەرکە دەکرد کە پێیان درابوو.", // diligently
+                "ماندوونەناسانە کاریان لەسەر ئەو ئەرکە دەکرد کە پێیان درابوو.",
             onPressedBritish: () => speakdiligentlys1("en-GB"),
             onPressedAmerican: () => speakdiligentlys1("en-US"),
           ),

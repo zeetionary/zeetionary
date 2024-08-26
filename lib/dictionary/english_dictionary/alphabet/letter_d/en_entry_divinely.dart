@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "He believed he was divinely protected in his escape.",
             kurdishText:
-                "باوەڕی وابوو لەلایەن خوداوە پارێزراو بوو لە ھەڵھاتنەکەیدا.", // divinely
+                "باوەڕی وابوو لەلایەن خوداوە پارێزراو بوو لە ھەڵھاتنەکەیدا.",
             onPressedBritish: () => speakdivinelys1("en-GB"),
             onPressedAmerican: () => speakdivinelys1("en-US"),
           ),

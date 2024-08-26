@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He wandered disconsolately around the town in the pouring rain.",
             kurdishText:
-                "پەرێشانانە بە شارۆچکەکەدا لەبەر بارانە بەلێزمەکە پیاسەی دەکرد.", // disconsolately
+                "پەرێشانانە بە شارۆچکەکەدا لەبەر بارانە بەلێزمەکە پیاسەی دەکرد.",
             onPressedBritish: () => speakdisconsolatelys1("en-GB"),
             onPressedAmerican: () => speakdisconsolatelys1("en-US"),
           ),

@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "It would have been dishonourable of her not to keep her promise.",
-            kurdishText:
-                "جێگای شوورەیی دەبوو بۆی کە بەڵێنەکەی نەپارێزێت.", // dishonourable
+            kurdishText: "جێگای شوورەیی دەبوو بۆی کە بەڵێنەکەی نەپارێزێت.",
             onPressedBritish: () => speakdishonourables1("en-GB"),
             onPressedAmerican: () => speakdishonourables1("en-US"),
           ),

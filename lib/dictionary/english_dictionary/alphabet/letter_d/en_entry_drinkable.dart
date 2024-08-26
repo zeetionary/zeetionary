@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) پاک و سەلامەت بۆ خواردنەوە"),
           SentencesRow(
             englishText: "Is the water drinkable?",
-            kurdishText: "ئاوەکە پاکە؟", // drinkable
+            kurdishText: "ئاوەکە پاکە؟",
             onPressedBritish: () => speakdrinkables1("en-GB"),
             onPressedAmerican: () => speakdrinkables1("en-US"),
           ),

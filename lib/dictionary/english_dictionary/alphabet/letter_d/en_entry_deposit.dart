@@ -306,7 +306,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "They normally ask you to pay £100 (as a) deposit.",
             kurdishText:
-                "بەشێوەیەکی ئاسایی داوادەکەن ١٠٠ پاوەند وەک پێشەکی بدەیت.", // deposit
+                "بەشێوەیەکی ئاسایی داوادەکەن ١٠٠ پاوەند وەک پێشەکی بدەیت.",
             onPressedBritish: () => speakdeposits1("en-GB"),
             onPressedAmerican: () => speakdeposits1("en-US"),
           ),

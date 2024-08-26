@@ -181,7 +181,7 @@ class EnglishEntryburglar extends StatelessWidget {
                             englishText:
                                 "Burglars broke into the gallery and stole dozens of priceless paintings.",
                             kurdishText:
-                                "دزەکان چوونە پێشانگاکەوە ژمارەیەک تابلۆی گرانبەھایان دزی.", // burglar", follow LX strictly
+                                "دزەکان چوونە پێشانگاکەوە ژمارەیەک تابلۆی گرانبەھایان دزی.",
                             onPressedBritish: () => speakburglars1("en-GB"),
                             onPressedAmerican: () => speakburglars1("en-US"),
                           ),

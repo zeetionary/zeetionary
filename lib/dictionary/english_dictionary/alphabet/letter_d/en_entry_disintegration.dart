@@ -250,8 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "These terrorists are trying to bring about a disintegration of the state.",
-            kurdishText:
-                "ئەم تیرۆریستانە ھەوڵی ھەڵوەشاندنەوەی وڵاتەکە دەدەن.", // disintegration
+            kurdishText: "ئەم تیرۆریستانە ھەوڵی ھەڵوەشاندنەوەی وڵاتەکە دەدەن.",
             onPressedBritish: () => speakdisintegrations1("en-GB"),
             onPressedAmerican: () => speakdisintegrations1("en-US"),
           ),

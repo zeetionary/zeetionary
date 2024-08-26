@@ -264,7 +264,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The government has promised to uphold the principles of democracy.",
             kurdishText:
-                "حکومەت بەڵێنی داوە ڕێز لە بنچینەکانی دیموکراسی بگرێت.", // democracy
+                "حکومەت بەڵێنی داوە ڕێز لە بنچینەکانی دیموکراسی بگرێت.",
             onPressedBritish: () => speakdemocracys1("en-GB"),
             onPressedAmerican: () => speakdemocracys1("en-US"),
           ),

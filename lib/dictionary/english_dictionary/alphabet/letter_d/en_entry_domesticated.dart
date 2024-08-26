@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) ئاژەڵێک کە ماڵی کراوە"),
           SentencesRow(
             englishText: "These animals are only partly domesticated.",
-            kurdishText: "ئەم ئاژەڵانە تەنھا کەمێک ماڵی کراون.", // domesticated
+            kurdishText: "ئەم ئاژەڵانە تەنھا کەمێک ماڵی کراون.",
             onPressedBritish: () => speakdomesticateds1("en-GB"),
             onPressedAmerican: () => speakdomesticateds1("en-US"),
           ),

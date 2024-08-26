@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The comedy duo Laurel and Hardy made many classic comedy films.""",
             kurdishText:
-                """دووانەی کۆمیدی ھاردی و لۆرێڵ ژمارەیەک فیلمی کۆمیدیی کلاسیکییان بەرھەمھێنا.""", // duo
+                """دووانەی کۆمیدی ھاردی و لۆرێڵ ژمارەیەک فیلمی کۆمیدیی کلاسیکییان بەرھەمھێنا.""",
             onPressedBritish: () => speakduos1("en-GB"),
             onPressedAmerican: () => speakduos1("en-US"),
           ),

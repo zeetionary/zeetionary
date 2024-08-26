@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The American people have been demoted from citizens to consumers.",
-            kurdishText:
-                "خەڵکی ئەمریکا لە ھاوڵاتییەوە کراون بە بەکارھێنەر.", // demote
+            kurdishText: "خەڵکی ئەمریکا لە ھاوڵاتییەوە کراون بە بەکارھێنەر.",
             onPressedBritish: () => speakdemotes1("en-GB"),
             onPressedAmerican: () => speakdemotes1("en-US"),
           ),

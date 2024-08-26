@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) دیاری کردنی ھۆکاری تەواوی نەخۆشییەک یان کێشەیەک"),
           SentencesRow(
             englishText: "They are waiting for the doctor's diagnosis.",
-            kurdishText: "چاوەڕێی دەستنیشانکردنی پزیشکەکەن.", // diagnosis
+            kurdishText: "چاوەڕێی دەستنیشانکردنی پزیشکەکەن.",
             onPressedBritish: () => speakdiagnosiss1("en-GB"),
             onPressedAmerican: () => speakdiagnosiss1("en-US"),
           ),

@@ -365,8 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵناو) نامۆ و ترسێنەر"""),
           SentencesRow(
             englishText: """I found the silence underwater really eerie.""",
-            kurdishText:
-                """بێ‌دەنگی ژێرئاوەکە تەواو ترسێنەر بوو لام.""", // eerie
+            kurdishText: """بێ‌دەنگی ژێرئاوەکە تەواو ترسێنەر بوو لام.""",
             onPressedBritish: () => speakeeries1("en-GB"),
             onPressedAmerican: () => speakeeries1("en-US"),
           ),

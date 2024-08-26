@@ -177,7 +177,7 @@ class EnglishEntrybureaucrat extends StatelessWidget {
                             englishText:
                                 "It turned out she was one of those faceless bureaucrats who control our lives.",
                             kurdishText:
-                                "دەرچوو ئەو یەکێکە لەو بیرۆکراتە نەناسراوانە کە ژیانمانی کۆنترۆڵ کردووە.", // bureaucrat", follow LX strictly
+                                "دەرچوو ئەو یەکێکە لەو بیرۆکراتە نەناسراوانە کە ژیانمانی کۆنترۆڵ کردووە.",
                             onPressedBritish: () => speakbureaucrats1("en-GB"),
                             onPressedAmerican: () => speakbureaucrats1("en-US"),
                           ),

@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We have seen the violent dispersal of crowds of protesters.",
             kurdishText:
-                "بڵاوەپێکردنی توندوتیژانەی جەماوەرانت خۆپیشاندەرانمان بینیوە.", // dispersal
+                "بڵاوەپێکردنی توندوتیژانەی جەماوەرانت خۆپیشاندەرانمان بینیوە.",
             onPressedBritish: () => speakdispersals1("en-GB"),
             onPressedAmerican: () => speakdispersals1("en-US"),
           ),

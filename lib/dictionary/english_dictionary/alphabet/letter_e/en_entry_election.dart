@@ -436,8 +436,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The prime minister is about to call (= announce) an election.""",
-            kurdishText:
-                """سەرۆک وەزیران نزیکە لە ڕاگەیاندنی ھەڵبژاردن.""", // election
+            kurdishText: """سەرۆک وەزیران نزیکە لە ڕاگەیاندنی ھەڵبژاردن.""",
             onPressedBritish: () => speakelections1("en-GB"),
             onPressedAmerican: () => speakelections1("en-US"),
           ),

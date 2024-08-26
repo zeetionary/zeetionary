@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) ڕێگەدان بەوەی تف لە دەمت بێتە خوارەوە"),
           SentencesRow(
             englishText: "The dog was drooling at the mouth.",
-            kurdishText: "سەگەکە ئاو بە دەمیدا دەھاتە خوارەوە.", // drool
+            kurdishText: "سەگەکە ئاو بە دەمیدا دەھاتە خوارەوە.",
             onPressedBritish: () => speakdrools1("en-GB"),
             onPressedAmerican: () => speakdrools1("en-US"),
           ),

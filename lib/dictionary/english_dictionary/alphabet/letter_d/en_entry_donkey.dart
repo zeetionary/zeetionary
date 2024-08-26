@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The little donkey struggled under its heavy burden.",
             kurdishText:
-                "گوێدرێژە بچووکەکە تەقەڵای بوو بەدەست بارە قورسەکەیەوە.", // donkey
+                "گوێدرێژە بچووکەکە تەقەڵای بوو بەدەست بارە قورسەکەیەوە.",
             onPressedBritish: () => speakdonkeys1("en-GB"),
             onPressedAmerican: () => speakdonkeys1("en-US"),
           ),

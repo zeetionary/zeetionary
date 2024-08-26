@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Two or three embryos are implanted into the woman's body.""",
-            kurdishText:
-                """دوو یان سێ ئاوڵەمە لە لەشی ژنەکە دەچێندرێن.""", // embryo
+            kurdishText: """دوو یان سێ ئاوڵەمە لە لەشی ژنەکە دەچێندرێن.""",
             onPressedBritish: () => speakembryos1("en-GB"),
             onPressedAmerican: () => speakembryos1("en-US"),
           ),

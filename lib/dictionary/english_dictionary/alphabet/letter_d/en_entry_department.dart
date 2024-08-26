@@ -262,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He is a lecturer in the department of psychology at Trinity College.",
-            kurdishText:
-                "وانەبێژە لە بەشی دەروونناسی لە کۆلێژی ترینیتی.", // department
+            kurdishText: "وانەبێژە لە بەشی دەروونناسی لە کۆلێژی ترینیتی.",
             onPressedBritish: () => speakdepartments1("en-GB"),
             onPressedAmerican: () => speakdepartments1("en-US"),
           ),

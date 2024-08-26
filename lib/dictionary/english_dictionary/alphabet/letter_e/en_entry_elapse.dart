@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Many years elapsed before they met again.""",
             kurdishText:
-                """زۆر ساڵان تێپەڕین پێش ئەوەی دووبارە یەکیان بینییەوە.""", // elapse
+                """زۆر ساڵان تێپەڕین پێش ئەوەی دووبارە یەکیان بینییەوە.""",
             onPressedBritish: () => speakelapses1("en-GB"),
             onPressedAmerican: () => speakelapses1("en-US"),
           ),

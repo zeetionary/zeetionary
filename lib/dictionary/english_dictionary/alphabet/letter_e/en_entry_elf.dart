@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """In some stories, elves possess magical abilities and can cast spells or communicate with nature.""",
             kurdishText:
-                """لە ژمارەیەک چیرۆکدا، ئێلفەکان توانای سیحرئاسایان ھەیە و جادوو دەکەن یان قسە لەگەڵ سرووشت دەکەن.""", // elf
+                """لە ژمارەیەک چیرۆکدا، ئێلفەکان توانای سیحرئاسایان ھەیە و جادوو دەکەن یان قسە لەگەڵ سرووشت دەکەن.""",
             onPressedBritish: () => speakelfs1("en-GB"),
             onPressedAmerican: () => speakelfs1("en-US"),
           ),

@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە وا ھەست دەکات ھەموو شتێک دەسووڕێتەوە و ناتوانیت ھاوسەنگی ڕابگریت"),
           SentencesRow(
             englishText: "I looked dizzily over the edge.",
-            kurdishText:
-                "بە سەرگێژخواردوویەوە بەسەر قەراغەکەدا سەیرم کرد.", // dizzily
+            kurdishText: "بە سەرگێژخواردوویەوە بەسەر قەراغەکەدا سەیرم کرد.",
             onPressedBritish: () => speakdizzilys1("en-GB"),
             onPressedAmerican: () => speakdizzilys1("en-US"),
           ),

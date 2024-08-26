@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) ھەستێکی بەھێزی وەک خۆشەویستی، ڕق، تووڕەیی، ھتد"""),
           SentencesRow(
             englishText: """They expressed mixed emotions at the news.""",
-            kurdishText: """ھەستی تێکەڵاوی بۆ ھەواڵەکە دەربڕی.""", // emotion
+            kurdishText: """ھەستی تێکەڵاوی بۆ ھەواڵەکە دەربڕی.""",
             onPressedBritish: () => speakemotions1("en-GB"),
             onPressedAmerican: () => speakemotions1("en-US"),
           ),

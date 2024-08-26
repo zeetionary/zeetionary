@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) جیاکردنەوەی بیرۆکە، مشتومڕ، ھتد کە تێکەڵ بوونە"),
           SentencesRow(
             englishText: "It's not easy to disentangle truth from lies.",
-            kurdishText: "ئاسان نییە ڕاستی لە درۆ جیابکەیتەوە.", // disentangle
+            kurdishText: "ئاسان نییە ڕاستی لە درۆ جیابکەیتەوە.",
             onPressedBritish: () => speakdisentangles1("en-GB"),
             onPressedAmerican: () => speakdisentangles1("en-US"),
           ),

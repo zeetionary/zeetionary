@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There have been several defections from the ruling party.",
-            kurdishText:
-                "ژمارەیەک ھەڵگەڕانەوە لە پارتی دەسەڵاتدار ڕوویداوە.", // defection
+            kurdishText: "ژمارەیەک ھەڵگەڕانەوە لە پارتی دەسەڵاتدار ڕوویداوە.",
             onPressedBritish: () => speakdefections1("en-GB"),
             onPressedAmerican: () => speakdefections1("en-US"),
           ),

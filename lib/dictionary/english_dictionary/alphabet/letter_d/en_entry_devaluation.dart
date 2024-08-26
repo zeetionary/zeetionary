@@ -249,8 +249,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There has been a further small devaluation against the dollar.",
-            kurdishText:
-                "داشکانی بچووکی زیاتر دژ بە دۆلار ڕوویداوە.", // devaluation
+            kurdishText: "داشکانی بچووکی زیاتر دژ بە دۆلار ڕوویداوە.",
             onPressedBritish: () => speakdevaluations1("en-GB"),
             onPressedAmerican: () => speakdevaluations1("en-US"),
           ),

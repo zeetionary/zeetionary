@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بەشێکی کۆمپیوتەر کە پەپکی تێدەخرێت و زانیارییەکانی دەردەکات"),
           SentencesRow(
             englishText: "The disk drive in his computer stopped working.",
-            kurdishText:
-                "پەپکەسووڕێنی کۆمپیوتەرەکەی لە کارکردن وەستا.", // disk drive
+            kurdishText: "پەپکەسووڕێنی کۆمپیوتەرەکەی لە کارکردن وەستا.",
             onPressedBritish: () => speakdiskdrives1("en-GB"),
             onPressedAmerican: () => speakdiskdrives1("en-US"),
           ),

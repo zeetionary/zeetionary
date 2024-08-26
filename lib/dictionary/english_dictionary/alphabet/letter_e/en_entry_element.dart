@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) بەشێکی گرنگی شتێک؛ یەکێک لەو بەشانەی شتێک لێی پێکدێت"""),
           SentencesRow(
             englishText: """There are three important elements to consider.""",
-            kurdishText: """سێ لایەنی گرنگ ھەیە بۆ لەبەرچاوگرتن.""", // element
+            kurdishText: """سێ لایەنی گرنگ ھەیە بۆ لەبەرچاوگرتن.""",
             onPressedBritish: () => speakelements1("en-GB"),
             onPressedAmerican: () => speakelements1("en-US"),
           ),

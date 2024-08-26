@@ -270,8 +270,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She publicly denounced the government's handling of the crisis.",
-            kurdishText:
-                "بە گشتی سەرکۆنەی مامەكەی حکومەتی لەگەڵ کێشەکەدا کرد.", // denounce
+            kurdishText: "بە گشتی سەرکۆنەی مامەكەی حکومەتی لەگەڵ کێشەکەدا کرد.",
             onPressedBritish: () => speakdenounces1("en-GB"),
             onPressedAmerican: () => speakdenounces1("en-US"),
           ),

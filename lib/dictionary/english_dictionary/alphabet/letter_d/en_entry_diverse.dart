@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) زۆر جیاواز لە یەکدی و جۆر جیاواز بن"),
           SentencesRow(
             englishText: "My interests are very diverse.",
-            kurdishText: "حەزەکانم زۆر ھەمەچەشنن.", // diverse
+            kurdishText: "حەزەکانم زۆر ھەمەچەشنن.",
             onPressedBritish: () => speakdiverses1("en-GB"),
             onPressedAmerican: () => speakdiverses1("en-US"),
           ),

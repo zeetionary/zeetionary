@@ -256,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A group of prisoners stood on the roof, defiantly waving banners.",
             kurdishText:
-                "گرووپێک لە زیندانییان لە سەربانەکە وەستبوون و لاسارانە درووشمیان بەرزدەکردەوە.", // defiantly
+                "گرووپێک لە زیندانییان لە سەربانەکە وەستبوون و لاسارانە درووشمیان بەرزدەکردەوە.",
             onPressedBritish: () => speakdefiantlys1("en-GB"),
             onPressedAmerican: () => speakdefiantlys1("en-US"),
           ),

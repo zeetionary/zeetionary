@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک، بەتایبەتی منداڵێک، کە پشت بە کەسێکی دیکە دەبەستێت بۆ خوادن، پارە، ھتد"),
           SentencesRow(
             englishText: "My pension will provide for my dependants.",
-            kurdishText:
-                "مووچە خانەنشینییەکەم بەشی خێزانەکەم دەکات.", // dependant
+            kurdishText: "مووچە خانەنشینییەکەم بەشی خێزانەکەم دەکات.",
             onPressedBritish: () => speakdependants1("en-GB"),
             onPressedAmerican: () => speakdependants1("en-US"),
           ),

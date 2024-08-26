@@ -406,7 +406,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           SentencesRow(
             englishText: "There's a draught in here.",
-            kurdishText: "شنەیەکی فێنکایی لێرە ھەیە.", // draught
+            kurdishText: "شنەیەکی فێنکایی لێرە ھەیە.",
             onPressedBritish: () => speakdraughts1("en-GB"),
             onPressedAmerican: () => speakdraughts1("en-US"),
           ),

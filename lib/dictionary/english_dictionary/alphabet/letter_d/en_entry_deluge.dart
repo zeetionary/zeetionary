@@ -275,8 +275,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "When the snow melts, the mountain stream becomes a deluge.",
-            kurdishText:
-                "کە بەفر دەتوێتەوە، جۆگەی شاخەکە دەبێتە لافاو.", // deluge
+            kurdishText: "کە بەفر دەتوێتەوە، جۆگەی شاخەکە دەبێتە لافاو.",
             onPressedBritish: () => speakdeluges1("en-GB"),
             onPressedAmerican: () => speakdeluges1("en-US"),
           ),

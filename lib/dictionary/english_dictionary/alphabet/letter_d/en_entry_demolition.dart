@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ڕووخاندنی بینایەک"),
           SentencesRow(
             englishText: "The whole row of houses is scheduled for demolition.",
-            kurdishText:
-                "تەواوی ڕیزە ماڵەکان دیاری کراون بۆ ڕووخاندن.", // demolition
+            kurdishText: "تەواوی ڕیزە ماڵەکان دیاری کراون بۆ ڕووخاندن.",
             onPressedBritish: () => speakdemolitions1("en-GB"),
             onPressedAmerican: () => speakdemolitions1("en-US"),
           ),

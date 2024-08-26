@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Although the men fought doggedly on, a sense of hopeless despair engulfed them.",
             kurdishText:
-                "ئەگەرچی پیاوەکان کۆڵنەدەرانە جەنگان، ھەستێکی بێ‌ھیوایی باڵی بەسەریاندا کێشابوو.", // doggedly
+                "ئەگەرچی پیاوەکان کۆڵنەدەرانە جەنگان، ھەستێکی بێ‌ھیوایی باڵی بەسەریاندا کێشابوو.",
             onPressedBritish: () => speakdoggedlys1("en-GB"),
             onPressedAmerican: () => speakdoggedlys1("en-US"),
           ),

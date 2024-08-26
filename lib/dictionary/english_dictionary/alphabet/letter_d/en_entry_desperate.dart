@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) بێ‌ھیوا و ئامادەیی بۆ کردنی ھەر شتێک بەبێ گرنگیدان بە مەترسی"),
           SentencesRow(
             englishText: "The prisoners grew increasingly desperate.",
-            kurdishText: "زیندانییەکان کەم‌کەم ھیوابڕاو بوون.", // desperate
+            kurdishText: "زیندانییەکان کەم‌کەم ھیوابڕاو بوون.",
             onPressedBritish: () => speakdesperates1("en-GB"),
             onPressedAmerican: () => speakdesperates1("en-US"),
           ),

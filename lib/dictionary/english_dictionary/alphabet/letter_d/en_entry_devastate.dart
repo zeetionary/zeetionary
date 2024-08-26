@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The bomb devastated much of the old part of the city.",
-            kurdishText:
-                "بۆمبەکە زۆرینەی بەشی کۆنی شارەکەی وێرانکرد.", // devastate
+            kurdishText: "بۆمبەکە زۆرینەی بەشی کۆنی شارەکەی وێرانکرد.",
             onPressedBritish: () => speakdevastates1("en-GB"),
             onPressedAmerican: () => speakdevastates1("en-US"),
           ),

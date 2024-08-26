@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ھەبوونی ئامادەیی بۆ کردنی شتێک"),
           SentencesRow(
             englishText: "I'm not disposed to argue.",
-            kurdishText: "مەیکی مشتومڕم نییە.", // disposed
+            kurdishText: "مەیکی مشتومڕم نییە.",
             onPressedBritish: () => speakdisposeds1("en-GB"),
             onPressedAmerican: () => speakdisposeds1("en-US"),
           ),

@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خراپ و ناخۆش"),
           SentencesRow(
             englishText: "What dreadful weather!",
-            kurdishText: "چی کەشێکی ناخۆشە!", // dreadful
+            kurdishText: "چی کەشێکی ناخۆشە!",
             onPressedBritish: () => speakdreadfuls1("en-GB"),
             onPressedAmerican: () => speakdreadfuls1("en-US"),
           ),

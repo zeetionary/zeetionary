@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He thought that all women liked children, but she soon disabused him of that idea.",
             kurdishText:
-                "وای بیردەکردەوە کە ھەموو ژنان حەزیان لە منداڵە، بەڵام ئەو ھەر زوو خستییە ھەڵەوە لەسەر ئەو بیرۆکە.", // disabuse
+                "وای بیردەکردەوە کە ھەموو ژنان حەزیان لە منداڵە، بەڵام ئەو ھەر زوو خستییە ھەڵەوە لەسەر ئەو بیرۆکە.",
             onPressedBritish: () => speakdisabuses1("en-GB"),
             onPressedAmerican: () => speakdisabuses1("en-US"),
           ),

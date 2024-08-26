@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There was something very decadent about filling ourselves with so much rich food.",
             kurdishText:
-                "ڕابواردنێکی خۆش ھەبوو لە ھەبوونی زۆری خواردنی دەوڵەمەندانە.", // decadent
+                "ڕابواردنێکی خۆش ھەبوو لە ھەبوونی زۆری خواردنی دەوڵەمەندانە.",
             onPressedBritish: () => speakdecadents1("en-GB"),
             onPressedAmerican: () => speakdecadents1("en-US"),
           ),

@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) گواستنەوەی کەلوپەل، نامە، ھتد لە شوێنێکەوە بۆ یەکێکی دیکە"),
           SentencesRow(
             englishText: "Allow 28 days for delivery.",
-            kurdishText: "چاوەڕێی ٢٨ ڕۆژ بە بۆ گەیاندن.", // delivery
+            kurdishText: "چاوەڕێی ٢٨ ڕۆژ بە بۆ گەیاندن.",
             onPressedBritish: () => speakdeliverys1("en-GB"),
             onPressedAmerican: () => speakdeliverys1("en-US"),
           ),

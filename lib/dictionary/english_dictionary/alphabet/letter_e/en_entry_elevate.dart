@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He elevated many of his friends to powerful positions within the government.""",
             kurdishText:
-                """زۆرێک لە ھاوڕێکانی بەرزکردەوە بۆ پێگەی گرنگ لە حکومەتدا.""", // elevate
+                """زۆرێک لە ھاوڕێکانی بەرزکردەوە بۆ پێگەی گرنگ لە حکومەتدا.""",
             onPressedBritish: () => speakelevates1("en-GB"),
             onPressedAmerican: () => speakelevates1("en-US"),
           ),

@@ -139,8 +139,7 @@ class EnglishEntrybulimia extends StatelessWidget {
 ١. (ناو) نەخۆشییەک دووبارە و دووبارە خواردنی زۆر دەخوات و دواتر خۆی بەزۆر دەڕیشێنێتەوە"""),
                           SentencesRow(
                             englishText: "Feelings of guilt accompany bulimia.",
-                            kurdishText:
-                                "ھەستکردن بە تاوان بەشێکە لە بۆلیمیا.", // bulimia", follow LX strictly
+                            kurdishText: "ھەستکردن بە تاوان بەشێکە لە بۆلیمیا.",
                             onPressedBritish: () => speakbulimias1("en-GB"),
                             onPressedAmerican: () => speakbulimias1("en-US"),
                           ),

@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پڕۆسەی خاوێنکردنەوەی شلەیەک بە ئەوەی بیکەیت بە ھەڵم و دواتر ساردی بکەیتەوە و دڵۆپەکانی کۆبکەیتەوە؛ ئامادەکردن شلەیەک بەو شێوەیە"),
           SentencesRow(
             englishText: "Usually the liquid is extracted by distillation.",
-            kurdishText: "زۆرجار شلەکە بە دڵۆپاندن دەردەکرێت.", // distillation
+            kurdishText: "زۆرجار شلەکە بە دڵۆپاندن دەردەکرێت.",
             onPressedBritish: () => speakdistillations1("en-GB"),
             onPressedAmerican: () => speakdistillations1("en-US"),
           ),

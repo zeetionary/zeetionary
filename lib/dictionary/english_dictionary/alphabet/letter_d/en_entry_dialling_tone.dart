@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He waited for the dialling tone before dialing the number.",
             kurdishText:
-                "چاوەڕێی تۆنی پەیوەندییەکەی کرد پێش ئەوەی پەیوەندی بە ژمارەکە بکات.", // dialling tone
+                "چاوەڕێی تۆنی پەیوەندییەکەی کرد پێش ئەوەی پەیوەندی بە ژمارەکە بکات.",
             onPressedBritish: () => speakdiallingtones1("en-GB"),
             onPressedAmerican: () => speakdiallingtones1("en-US"),
           ),

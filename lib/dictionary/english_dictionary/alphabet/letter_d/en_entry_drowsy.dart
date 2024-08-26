@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ماندوو و ئەوەی بتەوێت بخەویت"),
           SentencesRow(
             englishText: "The tablets may make you feel drowsy.",
-            kurdishText: "حەبەکان ڕەنگە خەواڵووت بکەن.", // drowsy
+            kurdishText: "حەبەکان ڕەنگە خەواڵووت بکەن.",
             onPressedBritish: () => speakdrowsys1("en-GB"),
             onPressedAmerican: () => speakdrowsys1("en-US"),
           ),

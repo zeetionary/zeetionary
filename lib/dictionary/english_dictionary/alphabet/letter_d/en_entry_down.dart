@@ -643,7 +643,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) لە خوارەوە"),
           SentencesRow(
             englishText: "She jumped down off the chair.",
-            kurdishText: "لە کورسییەکە بازی دایە خوارەوە.", // down
+            kurdishText: "لە کورسییەکە بازی دایە خوارەوە.",
             onPressedBritish: () => speakdowns1("en-GB"),
             onPressedAmerican: () => speakdowns1("en-US"),
           ),

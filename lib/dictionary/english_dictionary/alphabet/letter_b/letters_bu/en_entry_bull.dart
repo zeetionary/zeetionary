@@ -140,7 +140,7 @@ class EnglishEntrybull extends StatelessWidget {
                             englishText:
                                 "They did not see the sign by the gate saying 'Beware of the bull'.",
                             kurdishText:
-                                "ئەو نووسراوەیان نەدی لە دەروازەکە کە نووسرابوو 'ئاگاداری نێرەگا بن'.", // bull", follow LX strictly
+                                "ئەو نووسراوەیان نەدی لە دەروازەکە کە نووسرابوو 'ئاگاداری نێرەگا بن'.",
                             onPressedBritish: () => speakbulls1("en-GB"),
                             onPressedAmerican: () => speakbulls1("en-US"),
                           ),

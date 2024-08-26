@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) شوێنێک کە ڕێژەیەکی زۆر لە شتێک کۆگا کراوە"),
           SentencesRow(
             englishText: "There was an explosion at an arms depot.",
-            kurdishText: "تەقینەوەیەک لە عەمارێکی تەقەمەنی ڕوویدا.", // depot
+            kurdishText: "تەقینەوەیەک لە عەمارێکی تەقەمەنی ڕوویدا.",
             onPressedBritish: () => speakdepots1("en-GB"),
             onPressedAmerican: () => speakdepots1("en-US"),
           ),

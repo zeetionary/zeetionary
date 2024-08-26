@@ -269,8 +269,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "It is possible to discern a number of different techniques in her work.",
-            kurdishText:
-                "دەکرێت ژمارەیەک تەکنیک لە کارەکەی بناسرێتەوە.", // discern
+            kurdishText: "دەکرێت ژمارەیەک تەکنیک لە کارەکەی بناسرێتەوە.",
             onPressedBritish: () => speakdiscerns1("en-GB"),
             onPressedAmerican: () => speakdiscerns1("en-US"),
           ),

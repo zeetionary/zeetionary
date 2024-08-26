@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He had never felt such ecstasy as he did that night.""",
             kurdishText:
-                """ھەرگیز ھەستی بە خۆشییەکی وەک ئەوەی ئەو شەوە نەکردبوو.""", // ecstasy
+                """ھەرگیز ھەستی بە خۆشییەکی وەک ئەوەی ئەو شەوە نەکردبوو.""",
             onPressedBritish: () => speakecstasys1("en-GB"),
             onPressedAmerican: () => speakecstasys1("en-US"),
           ),

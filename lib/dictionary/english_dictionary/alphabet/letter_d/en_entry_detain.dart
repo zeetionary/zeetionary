@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) ڕاگرتنی کەسێک لە شوێنێکی فەرمی، وەک بنکەی پۆلیس، زیندان، یان نەخۆشخانە و ڕێگری لە ڕۆشتنیان بکەیت"),
           SentencesRow(
             englishText: "One man has been detained for questioning.",
-            kurdishText: "کەسێک بۆ لێپێچیەوە ڕاگیراوە.", // detain
+            kurdishText: "کەسێک بۆ لێپێچیەوە ڕاگیراوە.",
             onPressedBritish: () => speakdetains1("en-GB"),
             onPressedAmerican: () => speakdetains1("en-US"),
           ),

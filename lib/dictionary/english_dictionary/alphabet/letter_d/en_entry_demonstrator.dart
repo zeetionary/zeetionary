@@ -277,8 +277,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) خۆپیشاندەر؛ کەسێک کە بەژداری گردبوونەوەیەک یان ڕێپێوانێک دەکات، زۆرجار بۆ دەربڕینی دژایەتی یان پشتگیری بۆ شتێک"),
           SentencesRow(
             englishText: "Troops opened fire on the demonstrators.",
-            kurdishText:
-                "ھێزەکان تەقەیان بەسەر خۆپیشاندەراندا کرد.", // demonstrator
+            kurdishText: "ھێزەکان تەقەیان بەسەر خۆپیشاندەراندا کرد.",
             onPressedBritish: () => speakdemonstrators1("en-GB"),
             onPressedAmerican: () => speakdemonstrators1("en-US"),
           ),

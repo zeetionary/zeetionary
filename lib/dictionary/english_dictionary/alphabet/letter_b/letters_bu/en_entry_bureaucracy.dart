@@ -177,7 +177,7 @@ class EnglishEntrybureaucracy extends StatelessWidget {
                             englishText:
                                 "The organization has promised to eliminate unnecessary bureaucracy.",
                             kurdishText:
-                                "دامەزراوەکە بەڵێنی داوە بیرۆکراسیی ناپێویست نەھێڵێت.", // bureaucracy", follow LX strictly
+                                "دامەزراوەکە بەڵێنی داوە بیرۆکراسیی ناپێویست نەھێڵێت.",
                             onPressedBritish: () => speakbureaucracys1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbureaucracys1("en-US"),

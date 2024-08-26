@@ -139,7 +139,7 @@ class EnglishEntrybuffalo extends StatelessWidget {
                             englishText:
                                 "It is common here to see a water buffalo pulling a cart.",
                             kurdishText:
-                                "لێرە بینی گامێشێکی ئاوی کە عارەبانەیەک ڕابکێشێت بەربڵاوە.", // buffalo", follow LX strictly.
+                                "لێرە بینی گامێشێکی ئاوی کە عارەبانەیەک ڕابکێشێت بەربڵاوە.",
                             onPressedBritish: () => speakbuffalos1("en-GB"),
                             onPressedAmerican: () => speakbuffalos1("en-US"),
                           ),

@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دایناسۆر؛ جۆرە خشۆکێک کە ملیۆنان ساڵ پێش ئێستا دەژیان بەڵام ئێستا نزیکەی ٦٥ ملیۆن ساڵ پێش ئێستا لەناوچوون. زۆر جۆری دایناسۆر ھەبوون و ھەندێکیان زۆر گەورە بوون"),
           SentencesRow(
             englishText: "The museum has a huge dinosaur skeleton.",
-            kurdishText:
-                "مۆزەخانەکە ئێسکە پەیکەرێکی گەورەی دایناسۆری ھەیە.", // dinosaur
+            kurdishText: "مۆزەخانەکە ئێسکە پەیکەرێکی گەورەی دایناسۆری ھەیە.",
             onPressedBritish: () => speakdinosaurs1("en-GB"),
             onPressedAmerican: () => speakdinosaurs1("en-US"),
           ),

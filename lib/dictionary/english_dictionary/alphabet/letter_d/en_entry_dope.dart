@@ -403,8 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دەرمانێک کە بەشێوەی نایاسایی بۆ چێژبەخشین بەکاردێت"),
           SentencesRow(
             englishText: "He has admitted smoking dope as a teenager.",
-            kurdishText:
-                "دانی ناوە بە بەکارھێنانی مادەی بێھۆشکەر کە گەنج بوو.", // dope
+            kurdishText: "دانی ناوە بە بەکارھێنانی مادەی بێھۆشکەر کە گەنج بوو.",
             onPressedBritish: () => speakdopes1("en-GB"),
             onPressedAmerican: () => speakdopes1("en-US"),
           ),

@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """He is the embodiment of the young successful businessman.""",
-            kurdishText: """ھێمای بازرگانی گەنجی سەرکەوتووە.""", // embodiment
+            kurdishText: """ھێمای بازرگانی گەنجی سەرکەوتووە.""",
             onPressedBritish: () => speakembodiments1("en-GB"),
             onPressedAmerican: () => speakembodiments1("en-US"),
           ),

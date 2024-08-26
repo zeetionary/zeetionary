@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەوەی کە گوێڕایەڵ نابیت"),
           SentencesRow(
             englishText: "The son disobediently refused to go with his father.",
-            kurdishText:
-                "کوڕەکە لاسارانە ڕەتیکردەوە لەگەڵ باوکیدا بچێت.", // disobediently
+            kurdishText: "کوڕەکە لاسارانە ڕەتیکردەوە لەگەڵ باوکیدا بچێت.",
             onPressedBritish: () => speakdisobedientlys1("en-GB"),
             onPressedAmerican: () => speakdisobedientlys1("en-US"),
           ),

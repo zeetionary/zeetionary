@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Like everyone else, I deplore and condemn this killing.",
             kurdishText:
-                "وەک ھەموانی دیکە، ئەم کوشتنە شەرمەزار و سەرکۆنە دەکەم.", // deplore
+                "وەک ھەموانی دیکە، ئەم کوشتنە شەرمەزار و سەرکۆنە دەکەم.",
             onPressedBritish: () => speakdeplores1("en-GB"),
             onPressedAmerican: () => speakdeplores1("en-US"),
           ),

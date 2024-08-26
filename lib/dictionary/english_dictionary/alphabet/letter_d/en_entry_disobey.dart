@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) پابەند نەبوون بەوەی کەسێک، یاسایەک، فەرمانیک، ھتد دەیڵێت"),
           SentencesRow(
             englishText: "He was punished for disobeying orders.",
-            kurdishText: "سزادرا بۆ پابەند نەبوون بە فەرمانەکان.", // disobey
+            kurdishText: "سزادرا بۆ پابەند نەبوون بە فەرمانەکان.",
             onPressedBritish: () => speakdisobeys1("en-GB"),
             onPressedAmerican: () => speakdisobeys1("en-US"),
           ),

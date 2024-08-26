@@ -284,7 +284,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The union is in dispute with management over working hours.",
             kurdishText:
-                "سەندیکاکە لە مشتومڕدایە لەگەڵ بەڕێوەبەرایەتی سەبارەت بە کاتژمێرەکانی کارکردن.", // dispute
+                "سەندیکاکە لە مشتومڕدایە لەگەڵ بەڕێوەبەرایەتی سەبارەت بە کاتژمێرەکانی کارکردن.",
             onPressedBritish: () => speakdisputes1("en-GB"),
             onPressedAmerican: () => speakdisputes1("en-US"),
           ),

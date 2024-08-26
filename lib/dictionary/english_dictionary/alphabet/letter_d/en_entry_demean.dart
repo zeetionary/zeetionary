@@ -261,7 +261,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I wouldn't demean myself by asking my parents for money.",
             kurdishText:
-                "خۆم کەم ناکەمەوە بە داواکردن لە دایک و باوکم بۆ پارە.", // demean
+                "خۆم کەم ناکەمەوە بە داواکردن لە دایک و باوکم بۆ پارە.",
             onPressedBritish: () => speakdemeans1("en-GB"),
             onPressedAmerican: () => speakdemeans1("en-US"),
           ),

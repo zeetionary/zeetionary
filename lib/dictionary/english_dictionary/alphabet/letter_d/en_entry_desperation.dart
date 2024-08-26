@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ناچاری"),
           SentencesRow(
             englishText: "There was a note of desperation in his voice.",
-            kurdishText: "ئاماژەیەکی ناچاری لە دەنگیدا ھەبوو.", // desperation
+            kurdishText: "ئاماژەیەکی ناچاری لە دەنگیدا ھەبوو.",
             onPressedBritish: () => speakdesperations1("en-GB"),
             onPressedAmerican: () => speakdesperations1("en-US"),
           ),

@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شێوەیەکی زمان کە لە ناوچەیەک قسەی پێ دەکرێت و دەکرێت ڕێزمان، وشە، و گۆکردنی جیاواز بێت لە ھەمان زمان لە شوێنەکانی دیکە"),
           SentencesRow(
             englishText: "All languages and dialects change over time.",
-            kurdishText:
-                "ھەموو زمان و شێوەزارەکان بەپێی کات دەگۆڕێن.", // dialect
+            kurdishText: "ھەموو زمان و شێوەزارەکان بەپێی کات دەگۆڕێن.",
             onPressedBritish: () => speakdialects1("en-GB"),
             onPressedAmerican: () => speakdialects1("en-US"),
           ),

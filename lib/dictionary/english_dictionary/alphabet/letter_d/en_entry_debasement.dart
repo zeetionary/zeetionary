@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەمکردنەوەی بەھا و نرخی شتێک"),
           SentencesRow(
             englishText: "He considered advertising a debasement of his art.",
-            kurdishText:
-                "ڕیکلامی بە کەمکردنەوەی ھونەرەکەی دادەنا.", // debasement
+            kurdishText: "ڕیکلامی بە کەمکردنەوەی ھونەرەکەی دادەنا.",
             onPressedBritish: () => speakdebasements1("en-GB"),
             onPressedAmerican: () => speakdebasements1("en-US"),
           ),

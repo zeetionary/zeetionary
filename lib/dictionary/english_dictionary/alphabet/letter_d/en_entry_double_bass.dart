@@ -359,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) گەورەترین جۆری کەمانچە"),
           SentencesRow(
             englishText: "He learned to play the double bass at a young age.",
-            kurdishText:
-                "لە تەمەنێکی گەنجیدا فێربوو کە کەمانچەی گەورە بژەنێت.", // double bass
+            kurdishText: "لە تەمەنێکی گەنجیدا فێربوو کە کەمانچەی گەورە بژەنێت.",
             onPressedBritish: () => speakdoublebasss1("en-GB"),
             onPressedAmerican: () => speakdoublebasss1("en-US"),
           ),

@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The team felt discouragement after losing the game.",
             kurdishText:
-                "تیمەکە ھەستی بە بێ‌ھیوایی دەکرد لە دوای دۆڕاندنی یارییەکە.", // discouragement
+                "تیمەکە ھەستی بە بێ‌ھیوایی دەکرد لە دوای دۆڕاندنی یارییەکە.",
             onPressedBritish: () => speakdiscouragements1("en-GB"),
             onPressedAmerican: () => speakdiscouragements1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The names of credit card defaulters are referred to credit rating agencies.",
             kurdishText:
-                "ناوی قەرزنەدەرەوەکان دەنێردرێت بۆ ئاژانسە ھەڵسەنگێنەرەکانی قەرزکاران.", // defaulter
+                "ناوی قەرزنەدەرەوەکان دەنێردرێت بۆ ئاژانسە ھەڵسەنگێنەرەکانی قەرزکاران.",
             onPressedBritish: () => speakdefaulters1("en-GB"),
             onPressedAmerican: () => speakdefaulters1("en-US"),
           ),

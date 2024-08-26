@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ڕەفتارکردن بە شەرمەوە بەشێوەیەک کە سەرنج ڕاناکێشێت"),
           SentencesRow(
             englishText: "The demure young lady spoke softly at the gathering.",
-            kurdishText:
-                "ژنە سەنگینە گەنجەکە بە لەسەرخۆیی دوا لە کۆبوونەوەکە.", // demure
+            kurdishText: "ژنە سەنگینە گەنجەکە بە لەسەرخۆیی دوا لە کۆبوونەوەکە.",
             onPressedBritish: () => speakdemures1("en-GB"),
             onPressedAmerican: () => speakdemures1("en-US"),
           ),

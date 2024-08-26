@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I made doubly sure I locked all the doors when I went out.",
             kurdishText:
-                "بە تەواوەتی دڵنیاییم کردەوە کە ھەموو دەرگاکانم گرت کە چوومە دەرەوە.", // doubly
+                "بە تەواوەتی دڵنیاییم کردەوە کە ھەموو دەرگاکانم گرت کە چوومە دەرەوە.",
             onPressedBritish: () => speakdoublys1("en-GB"),
             onPressedAmerican: () => speakdoublys1("en-US"),
           ),

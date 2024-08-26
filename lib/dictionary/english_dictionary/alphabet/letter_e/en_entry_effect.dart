@@ -433,8 +433,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """What are the long-term effects of this treatment?""",
-            kurdishText:
-                """کاریگەرییە درێژخایەنەکانی ئەم چارەسەرە چین؟.""", // effect
+            kurdishText: """کاریگەرییە درێژخایەنەکانی ئەم چارەسەرە چین؟.""",
             onPressedBritish: () => speakeffects1("en-GB"),
             onPressedAmerican: () => speakeffects1("en-US"),
           ),

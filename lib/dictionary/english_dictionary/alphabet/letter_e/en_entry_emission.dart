@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Excess infrared emission was detected around six of these stars.""",
             kurdishText:
-                """دەردانی زیادەی تیشکی ژێرسوور تێبینی کرا لە دەوری شەش لەم ئەستێرانە.""", // emission
+                """دەردانی زیادەی تیشکی ژێرسوور تێبینی کرا لە دەوری شەش لەم ئەستێرانە.""",
             onPressedBritish: () => speakemissions1("en-GB"),
             onPressedAmerican: () => speakemissions1("en-US"),
           ),

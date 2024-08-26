@@ -294,8 +294,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The photos were deliberately taken to discredit the president.",
-            kurdishText:
-                "وێنەکان بە ئەنقەست گیردران بۆ ناوزڕاندنی سەرۆک.", // discredit
+            kurdishText: "وێنەکان بە ئەنقەست گیردران بۆ ناوزڕاندنی سەرۆک.",
             onPressedBritish: () => speakdiscredits1("en-GB"),
             onPressedAmerican: () => speakdiscredits1("en-US"),
           ),

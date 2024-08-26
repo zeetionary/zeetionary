@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) سڕینەوەی ئەو شتانەی کە بەکاریان ناھێنیت بۆ ئەوەی جێگای زیاترت ھەبێت و بە ئاسانی شت بدۆزیتەوە کە پێویستت پێیانە"),
           SentencesRow(
             englishText: "Moving is a good opportunity to declutter.",
-            kurdishText: "شوێن گۆڕین ھەلێکی باشە بۆ پاککردنەوە.", // declutter
+            kurdishText: "شوێن گۆڕین ھەلێکی باشە بۆ پاککردنەوە.",
             onPressedBritish: () => speakdeclutters1("en-GB"),
             onPressedAmerican: () => speakdeclutters1("en-US"),
           ),

@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) سەرزەنشتکردنی کەسێک بە نادادی"),
           SentencesRow(
             englishText: "I didn't intend to denigrate her achievements.",
-            kurdishText:
-                "مەبەستم نەبوو لە سەرکەوتنەکانی کەم بکەمەوە.", // denigrate
+            kurdishText: "مەبەستم نەبوو لە سەرکەوتنەکانی کەم بکەمەوە.",
             onPressedBritish: () => speakdenigrates1("en-GB"),
             onPressedAmerican: () => speakdenigrates1("en-US"),
           ),

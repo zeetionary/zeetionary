@@ -330,7 +330,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) لە نامەیەکدا لە پێش ناوی ئەو کەسە بەکاردێت کە نامەکەی بۆ دەنێریت"),
           SentencesRow(
             englishText: "Dear Mrs Jones",
-            kurdishText: "بەڕێز خاتوو جەونز.", // dear
+            kurdishText: "بەڕێز خاتوو جەونز.",
             onPressedBritish: () => speakdears1("en-GB"),
             onPressedAmerican: () => speakdears1("en-US"),
           ),

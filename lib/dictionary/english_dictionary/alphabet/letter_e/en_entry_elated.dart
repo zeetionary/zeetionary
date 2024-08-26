@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵناو) زۆر دڵخۆش و بەجۆش بەھۆی ئەوەی کە شتێکی باش روویداوە"""),
           SentencesRow(
             englishText: """They were elated at the result.""",
-            kurdishText: """دڵخۆش بوون بە ئەنجامەکە.""", // elated
+            kurdishText: """دڵخۆش بوون بە ئەنجامەکە.""",
             onPressedBritish: () => speakelateds1("en-GB"),
             onPressedAmerican: () => speakelateds1("en-US"),
           ),

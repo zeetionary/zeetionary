@@ -287,7 +287,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) ھەبوونی ناکۆکی و بۆچوونی جیاواز لەسەر شتێک"),
           SentencesRow(
             englishText: "Even friends disagree sometimes.",
-            kurdishText: "تەنانەت ھاوڕێیانیش ھەندێک جار ناکۆکن.", // disagree
+            kurdishText: "تەنانەت ھاوڕێیانیش ھەندێک جار ناکۆکن.",
             onPressedBritish: () => speakdisagrees1("en-GB"),
             onPressedAmerican: () => speakdisagrees1("en-US"),
           ),

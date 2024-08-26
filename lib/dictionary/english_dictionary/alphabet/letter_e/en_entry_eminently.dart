@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵکار) یەکجار، گەلێ"""),
           SentencesRow(
             englishText: """She seems eminently suitable for the job.""",
-            kurdishText: """گەلێ گونجاوە بۆ کارەکە.""", // eminently
+            kurdishText: """گەلێ گونجاوە بۆ کارەکە.""",
             onPressedBritish: () => speakeminentlys1("en-GB"),
             onPressedAmerican: () => speakeminentlys1("en-US"),
           ),

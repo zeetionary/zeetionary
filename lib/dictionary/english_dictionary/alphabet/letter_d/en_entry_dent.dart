@@ -274,8 +274,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The back of the car was badly dented in the collision.",
-            kurdishText:
-                "پشتەوەی ئۆتۆمبێلەکە بەخراپی قوپا لە پێکدادانەکەدا.", // dent
+            kurdishText: "پشتەوەی ئۆتۆمبێلەکە بەخراپی قوپا لە پێکدادانەکەدا.",
             onPressedBritish: () => speakdents1("en-GB"),
             onPressedAmerican: () => speakdents1("en-US"),
           ),

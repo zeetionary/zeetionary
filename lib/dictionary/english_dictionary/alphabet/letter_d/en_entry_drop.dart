@@ -708,7 +708,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) بەربوونەوە بە ڕێکەوت"),
           SentencesRow(
             englishText: "Be careful not to drop that plate.",
-            kurdishText: "وریابە ئەو دەورییە بەرنەدەیتەوە.", // drop
+            kurdishText: "وریابە ئەو دەورییە بەرنەدەیتەوە.",
             onPressedBritish: () => speakdrops1("en-GB"),
             onPressedAmerican: () => speakdrops1("en-US"),
           ),

@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) چەکمەجە کە ھەندێک کەلوپەلی ماڵەوە ھەیەتی و بە ڕاکێشان دەکرێتەوە"),
           SentencesRow(
             englishText: "He pushed the drawer shut with a bang.",
-            kurdishText: "بە زرمەیەک چەکمەجەکەی گرت.", // drawer
+            kurdishText: "بە زرمەیەک چەکمەجەکەی گرت.",
             onPressedBritish: () => speakdrawers1("en-GB"),
             onPressedAmerican: () => speakdrawers1("en-US"),
           ),

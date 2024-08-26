@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He would doubtless disapprove of what Kelly was doing.",
-            kurdishText:
-                "بێ گومان ئەوە پەسەند ناکات کە کێلی دەیکرد.", // doubtless
+            kurdishText: "بێ گومان ئەوە پەسەند ناکات کە کێلی دەیکرد.",
             onPressedBritish: () => speakdoubtlesss1("en-GB"),
             onPressedAmerican: () => speakdoubtlesss1("en-US"),
           ),

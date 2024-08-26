@@ -180,8 +180,7 @@ class EnglishEntrybyword extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The name Chanel became a byword for elegance.",
-                            kurdishText:
-                                "ناوی شانێل بوو بە ھێمای کەشخەیی.", // byword", follow LX strictly
+                            kurdishText: "ناوی شانێل بوو بە ھێمای کەشخەیی.",
                             onPressedBritish: () => speakbywords1("en-GB"),
                             onPressedAmerican: () => speakbywords1("en-US"),
                           ),

@@ -263,8 +263,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She felt a sense of detachment from what was going on.",
-            kurdishText:
-                "ھەستێکی دابڕاوی ھەبوو بۆ ئەوەی کە ڕووی دەدا.", // detachment
+            kurdishText: "ھەستێکی دابڕاوی ھەبوو بۆ ئەوەی کە ڕووی دەدا.",
             onPressedBritish: () => speakdetachments1("en-GB"),
             onPressedAmerican: () => speakdetachments1("en-US"),
           ),

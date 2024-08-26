@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A DNA test confirmed the suspect had been at the scene of the crime.",
             kurdishText:
-                "پشکنینێکی دی‌ئێن‌ئەی ئەوەی دڵنیاکردەوە کە گومانلێکراوەکە لە شوێنی تاوانە بوو.", // DNA
+                "پشکنینێکی دی‌ئێن‌ئەی ئەوەی دڵنیاکردەوە کە گومانلێکراوەکە لە شوێنی تاوانە بوو.",
             onPressedBritish: () => speakDNAs1("en-GB"),
             onPressedAmerican: () => speakDNAs1("en-US"),
           ),

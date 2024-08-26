@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They studied the geographical distribution of the disease.",
             kurdishText:
-                "لێکۆڵینەوەیان لە تەشەنەسەندنی جوگرافیای نەخۆشییەکە کرد.", // distribution
+                "لێکۆڵینەوەیان لە تەشەنەسەندنی جوگرافیای نەخۆشییەکە کرد.",
             onPressedBritish: () => speakdistributions1("en-GB"),
             onPressedAmerican: () => speakdistributions1("en-US"),
           ),

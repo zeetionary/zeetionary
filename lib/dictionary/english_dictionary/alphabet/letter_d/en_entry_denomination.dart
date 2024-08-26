@@ -256,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Christians of all denominations attended the conference.",
             kurdishText:
-                "مەسیحی ھەموو گرووپە جیاوازەکان بەژداری کۆنفرانسەکە بوون.", // denomination
+                "مەسیحی ھەموو گرووپە جیاوازەکان بەژداری کۆنفرانسەکە بوون.",
             onPressedBritish: () => speakdenominations1("en-GB"),
             onPressedAmerican: () => speakdenominations1("en-US"),
           ),

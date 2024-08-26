@@ -255,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The total debits on the account were £2 000 last month.",
             kurdishText:
-                "دێبیتی گشتی لەسەر ھەژمارەکە ٢٠٠٠ پاوەند بوو بۆ مانگی ڕابردوو.", // debit
+                "دێبیتی گشتی لەسەر ھەژمارەکە ٢٠٠٠ پاوەند بوو بۆ مانگی ڕابردوو.",
             onPressedBritish: () => speakdebits1("en-GB"),
             onPressedAmerican: () => speakdebits1("en-US"),
           ),

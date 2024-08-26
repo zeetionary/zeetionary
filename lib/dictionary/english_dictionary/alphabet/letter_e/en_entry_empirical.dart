@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """This theory needs to be backed up with solid empirical data/evidence.""",
             kurdishText:
-                """بیردۆزەکە دەبێت پشتگیری بکرێت بە زانیاری/بەڵگەی بەھێزی تاقی‌کاری‌یانە.""", // empirical
+                """بیردۆزەکە دەبێت پشتگیری بکرێت بە زانیاری/بەڵگەی بەھێزی تاقی‌کاری‌یانە.""",
             onPressedBritish: () => speakempiricals1("en-GB"),
             onPressedAmerican: () => speakempiricals1("en-US"),
           ),

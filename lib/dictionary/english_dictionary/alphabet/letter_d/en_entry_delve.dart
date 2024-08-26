@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She delved in her handbag for a pen.",
             englishNote: "Similar: I grabbed my bag and delved for a pen.",
-            kurdishText: "دەستی خستە ناو جانتاکەی بۆ پێنووسێک.", // delve
+            kurdishText: "دەستی خستە ناو جانتاکەی بۆ پێنووسێک.",
             onPressedBritish: () => speakdelves1("en-GB"),
             onPressedAmerican: () => speakdelves1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Denominational differences can affect worship styles.",
             kurdishText:
-                "جیاوازییەکانی گرووپی ئایینی دەکرێت کاریگەری لە شێوازی نزاکردن بکات.", // denominational
+                "جیاوازییەکانی گرووپی ئایینی دەکرێت کاریگەری لە شێوازی نزاکردن بکات.",
             onPressedBritish: () => speakdenominationals1("en-GB"),
             onPressedAmerican: () => speakdenominationals1("en-US"),
           ),

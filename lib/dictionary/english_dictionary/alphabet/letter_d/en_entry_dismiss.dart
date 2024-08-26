@@ -285,8 +285,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The criticisms were summarily dismissed by the government.",
-            kurdishText:
-                "ڕەخنەکان دەستبەجێ لەلایەن حکومەتەوە ڕەتکرانەوە.", // dismiss
+            kurdishText: "ڕەخنەکان دەستبەجێ لەلایەن حکومەتەوە ڕەتکرانەوە.",
             onPressedBritish: () => speakdismisss1("en-GB"),
             onPressedAmerican: () => speakdismisss1("en-US"),
           ),

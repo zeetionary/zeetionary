@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "His speech dispelled any fears about his health.",
             kurdishText:
-                "وتارەکەی ھەر ترسێکی سەبارەت بە تەندرووستیی دامرکاندەوە/ڕەواندەوە.", // dispel
+                "وتارەکەی ھەر ترسێکی سەبارەت بە تەندرووستیی دامرکاندەوە/ڕەواندەوە.",
             onPressedBritish: () => speakdispels1("en-GB"),
             onPressedAmerican: () => speakdispels1("en-US"),
           ),

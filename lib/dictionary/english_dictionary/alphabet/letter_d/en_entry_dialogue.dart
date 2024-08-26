@@ -264,7 +264,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Learners are asked to listen to three short dialogues.",
             kurdishText:
-                "فێرخوازان داوایان لێدەکرێت گوێ بگرن لە سێ دایەلۆگی کورت.", // dialogue
+                "فێرخوازان داوایان لێدەکرێت گوێ بگرن لە سێ دایەلۆگی کورت.",
             onPressedBritish: () => speakdialogues1("en-GB"),
             onPressedAmerican: () => speakdialogues1("en-US"),
           ),

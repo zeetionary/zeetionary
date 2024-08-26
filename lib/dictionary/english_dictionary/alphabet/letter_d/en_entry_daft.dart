@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) گەوج، زۆرجار بەشێوەیەک کە پێکەنیناوییە"),
           SentencesRow(
             englishText: "Don't be so daft!",
-            kurdishText: "ھێندە گەمژە مەبە!", // daft
+            kurdishText: "ھێندە گەمژە مەبە!",
             onPressedBritish: () => speakdafts1("en-GB"),
             onPressedAmerican: () => speakdafts1("en-US"),
           ),

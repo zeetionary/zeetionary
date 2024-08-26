@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (جێناو) وەک بەرکاری کردارێک بەکاردێت بۆ گوتنی ئەوەی کە ھەر ئەندامێکی گرووپێک شتێک بە ئەوانی دیکە یان بۆیان دەکات"""),
           SentencesRow(
             englishText: """They looked at each other and laughed.""",
-            kurdishText: """سەیری یەکدییان کرد و پێکەنین.""", // each other
+            kurdishText: """سەیری یەکدییان کرد و پێکەنین.""",
             onPressedBritish: () => speakeachothers1("en-GB"),
             onPressedAmerican: () => speakeachothers1("en-US"),
           ),

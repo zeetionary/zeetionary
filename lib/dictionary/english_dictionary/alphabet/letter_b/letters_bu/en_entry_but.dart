@@ -378,7 +378,7 @@ class EnglishEntrybut extends StatelessWidget {
                             englishText:
                                 "I got it wrong. It wasn't the red one but the blue one.",
                             kurdishText:
-                                "بە ھەڵە تێگەشتم. سوورەکە نەبوو بەڵکو شینەکە بوو.", // but", follow LX strictly
+                                "بە ھەڵە تێگەشتم. سوورەکە نەبوو بەڵکو شینەکە بوو.",
                             onPressedBritish: () => speakbuts1("en-GB"),
                             onPressedAmerican: () => speakbuts1("en-US"),
                           ),

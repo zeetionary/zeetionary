@@ -475,7 +475,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Life in a small town could be deadly dull.""",
             kurdishText:
-                """ژیان لە شارۆچکەیەکی بچووکدا دەکرێت تەواو بێزارکەر بێت.""", // dull
+                """ژیان لە شارۆچکەیەکی بچووکدا دەکرێت تەواو بێزارکەر بێت.""",
             onPressedBritish: () => speakdulls1("en-GB"),
             onPressedAmerican: () => speakdulls1("en-US"),
           ),

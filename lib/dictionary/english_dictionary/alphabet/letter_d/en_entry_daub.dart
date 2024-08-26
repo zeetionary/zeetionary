@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The walls of the building were daubed with red paint.",
-            kurdishText: "دیوارەکانی بیناکان بە بۆیە سواخ دران.", // daub
+            kurdishText: "دیوارەکانی بیناکان بە بۆیە سواخ دران.",
             onPressedBritish: () => speakdaubs1("en-GB"),
             onPressedAmerican: () => speakdaubs1("en-US"),
           ),

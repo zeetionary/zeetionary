@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ناسکی"),
           SentencesRow(
             englishText: "Her skin had the delicacy of a flower.",
-            kurdishText: "پێستی ناسکی گوڵێکی بوو.", // delicacy
+            kurdishText: "پێستی ناسکی گوڵێکی بوو.",
             onPressedBritish: () => speakdelicacys1("en-GB"),
             onPressedAmerican: () => speakdelicacys1("en-US"),
           ),

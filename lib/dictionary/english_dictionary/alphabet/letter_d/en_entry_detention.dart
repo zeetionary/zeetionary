@@ -268,7 +268,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They were sentenced to 12 months' detention in a young offender institution.",
             kurdishText:
-                "سزا دران بە ١٢ مانگ لە بەندیدا لە دەزگایەکی تاوانکارانی گەنج.", // detention
+                "سزا دران بە ١٢ مانگ لە بەندیدا لە دەزگایەکی تاوانکارانی گەنج.",
             onPressedBritish: () => speakdetentions1("en-GB"),
             onPressedAmerican: () => speakdetentions1("en-US"),
           ),

@@ -142,7 +142,7 @@ class EnglishEntrybuilding extends StatelessWidget {
                             englishText:
                                 "The architects have presented the design of a new office building.",
                             kurdishText:
-                                "تەلارسازان دیزاینی بینایەکی تازەی ئۆفیسیان پێشکەش کردووە.", // building", follow LX strictly
+                                "تەلارسازان دیزاینی بینایەکی تازەی ئۆفیسیان پێشکەش کردووە.",
                             onPressedBritish: () => speakbuildings1("en-GB"),
                             onPressedAmerican: () => speakbuildings1("en-US"),
                           ),

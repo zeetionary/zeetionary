@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کەسێک کە قەرزارە"),
           SentencesRow(
             englishText: "The debtor struggled to repay the loan.",
-            kurdishText: "قەرزدارەکە تەقەڵای بوو لە دانەوەی قەرزەکە.", // debtor
+            kurdishText: "قەرزدارەکە تەقەڵای بوو لە دانەوەی قەرزەکە.",
             onPressedBritish: () => speakdebtors1("en-GB"),
             onPressedAmerican: () => speakdebtors1("en-US"),
           ),

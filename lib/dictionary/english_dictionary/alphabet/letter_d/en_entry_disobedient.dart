@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) ڕەتکردنەوەی گوێڕایەڵی"),
           SentencesRow(
             englishText: "I was very disobedient to my father.",
-            kurdishText: "زۆر لاسار بووم لەگەڵ باوکم.", // disobedient
+            kurdishText: "زۆر لاسار بووم لەگەڵ باوکم.",
             onPressedBritish: () => speakdisobedients1("en-GB"),
             onPressedAmerican: () => speakdisobedients1("en-US"),
           ),

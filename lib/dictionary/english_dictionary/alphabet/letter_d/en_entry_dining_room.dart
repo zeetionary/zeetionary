@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ژووری نانخواردن"),
           SentencesRow(
             englishText: "The dining room seats up to 60 guests.",
-            kurdishText:
-                "ژووری نانخواردنەکە جێگای تاوەکو ٦٠ کەسی ھەیە.", // dining room
+            kurdishText: "ژووری نانخواردنەکە جێگای تاوەکو ٦٠ کەسی ھەیە.",
             onPressedBritish: () => speakdiningrooms1("en-GB"),
             onPressedAmerican: () => speakdiningrooms1("en-US"),
           ),

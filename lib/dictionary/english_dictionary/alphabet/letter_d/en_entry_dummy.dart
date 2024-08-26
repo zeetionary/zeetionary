@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The dummies in the store windows wore new outfits.""",
             kurdishText:
-                """نموونەکانی پەنجەرەی فرۆشگاکە جلی تازەیان لەبەر بوو.""", // dummy
+                """نموونەکانی پەنجەرەی فرۆشگاکە جلی تازەیان لەبەر بوو.""",
             onPressedBritish: () => speakdummys1("en-GB"),
             onPressedAmerican: () => speakdummys1("en-US"),
           ),

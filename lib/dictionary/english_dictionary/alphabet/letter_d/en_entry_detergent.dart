@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) شلە یان ھاڕاوە کە پیسی پاک دەکاتەوە"),
           SentencesRow(
             englishText: "She added detergent to the washing machine.",
-            kurdishText: "پاککەرەوەی کردە جلشۆرەکەوە.", // detergent
+            kurdishText: "پاککەرەوەی کردە جلشۆرەکەوە.",
             onPressedBritish: () => speakdetergents1("en-GB"),
             onPressedAmerican: () => speakdetergents1("en-US"),
           ),

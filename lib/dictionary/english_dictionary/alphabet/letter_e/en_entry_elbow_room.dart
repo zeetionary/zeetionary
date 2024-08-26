@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The tiny toilet compartment gives you hardly any elbow room.""",
             kurdishText:
-                """ژوورۆچکەی تەوالێتە خنجیلانەکە بە ئەستەم ھیچ دەرفەتی تیاھەڵسوورانی پێ‌دەدایت.""", // elbow room
+                """ژوورۆچکەی تەوالێتە خنجیلانەکە بە ئەستەم ھیچ دەرفەتی تیاھەڵسوورانی پێ‌دەدایت.""",
             onPressedBritish: () => speakelbowrooms1("en-GB"),
             onPressedAmerican: () => speakelbowrooms1("en-US"),
           ),

@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ماوەی ڕۆژ"),
           SentencesRow(
             englishText: "You don't often see this bird in (the) daytime.",
-            kurdishText: "ئەم باڵندە زۆرجار لە ڕۆژدا نابینیت.", // daytime
+            kurdishText: "ئەم باڵندە زۆرجار لە ڕۆژدا نابینیت.",
             onPressedBritish: () => speakdaytimes1("en-GB"),
             onPressedAmerican: () => speakdaytimes1("en-US"),
           ),

@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """In a moment of drunken dumbness, he tried to stand on his head.""",
             kurdishText:
-                """لە ساتێکی گەمژەیی سەرمەستیدا، ھەوڵی دا لەسەر سەری بوەستێت.""", // dumbness
+                """لە ساتێکی گەمژەیی سەرمەستیدا، ھەوڵی دا لەسەر سەری بوەستێت.""",
             onPressedBritish: () => speakdumbnesss1("en-GB"),
             onPressedAmerican: () => speakdumbnesss1("en-US"),
           ),

@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There has been a deterioration in relations between the countries.",
-            kurdishText:
-                "پەیوەندی نێوان دوو وڵاتەکە خراپتربووە.", // deterioration
+            kurdishText: "پەیوەندی نێوان دوو وڵاتەکە خراپتربووە.",
             onPressedBritish: () => speakdeteriorations1("en-GB"),
             onPressedAmerican: () => speakdeteriorations1("en-US"),
           ),

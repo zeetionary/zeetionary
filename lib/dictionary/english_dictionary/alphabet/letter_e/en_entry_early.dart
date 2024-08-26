@@ -529,7 +529,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵناو) سەرەتای شتێک"""),
           SentencesRow(
             englishText: """The project is still in the early stages.""",
-            kurdishText: """پڕۆژەکە ھێشتا لە قۆناغەکانی سەرەتایەتی.""", // early
+            kurdishText: """پڕۆژەکە ھێشتا لە قۆناغەکانی سەرەتایەتی.""",
             onPressedBritish: () => speakearlys1("en-GB"),
             onPressedAmerican: () => speakearlys1("en-US"),
           ),

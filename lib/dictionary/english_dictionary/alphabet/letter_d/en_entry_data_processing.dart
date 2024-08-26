@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The course covers the basics of data-processing methods and tools.",
             kurdishText:
-                "کۆرسەکە سەرەتاکانی ڕێگا و ئامرازەکانی لێکدانەوەی داتا لەخۆدەگرێت.", // data processing
+                "کۆرسەکە سەرەتاکانی ڕێگا و ئامرازەکانی لێکدانەوەی داتا لەخۆدەگرێت.",
             onPressedBritish: () => speakdataprocessings1("en-GB"),
             onPressedAmerican: () => speakdataprocessings1("en-US"),
           ),

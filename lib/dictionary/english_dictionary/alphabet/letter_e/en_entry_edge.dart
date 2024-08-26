@@ -442,7 +442,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) قەراغی شتێک"""),
           SentencesRow(
             englishText: """He stood on the edge of the cliff.""",
-            kurdishText: """لەسەر قەراغی قەدپاڵەکە وەستا.""", // edge
+            kurdishText: """لەسەر قەراغی قەدپاڵەکە وەستا.""",
             onPressedBritish: () => speakedges1("en-GB"),
             onPressedAmerican: () => speakedges1("en-US"),
           ),

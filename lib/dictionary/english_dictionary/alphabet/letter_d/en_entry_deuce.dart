@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) لە یاری تێنسدا کاتێکە کە ھەردوو یاریزانەکە ٤٠ خاڵیان ھەبێت، و لە دوای ئەوە یەکێک دەبێت دوو خاڵ بە دوای یەکدیدا تۆمار بکات  بۆ ئەوەی بباتەوە"),
           SentencesRow(
             englishText: "The match reached deuce in the final set.",
-            kurdishText: "یارییەکە لە کۆتا قۆناغدا گەشت بە دیوس.", // deuce
+            kurdishText: "یارییەکە لە کۆتا قۆناغدا گەشت بە دیوس.",
             onPressedBritish: () => speakdeuces1("en-GB"),
             onPressedAmerican: () => speakdeuces1("en-US"),
           ),

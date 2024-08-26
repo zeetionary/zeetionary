@@ -378,8 +378,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """He was appointed to the emirate after his father's death.""",
-            kurdishText:
-                """پێگەی ئەمیرییەتی پێدرا لە دوای مەرگی باوکی.""", // emirate
+            kurdishText: """پێگەی ئەمیرییەتی پێدرا لە دوای مەرگی باوکی.""",
             onPressedBritish: () => speakemirates1("en-GB"),
             onPressedAmerican: () => speakemirates1("en-US"),
           ),

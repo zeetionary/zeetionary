@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) جۆرە تەزوویەکی کارەبا کە تەنھا بە یەک ئاراستەدا دەچێت"),
           SentencesRow(
             englishText: "Solar panels produce direct current for homes.",
-            kurdishText:
-                "ڕووتەختی خۆری تەزووی ڕاستەوخۆ بۆ ماڵان دابین دەکەن.", // direct current
+            kurdishText: "ڕووتەختی خۆری تەزووی ڕاستەوخۆ بۆ ماڵان دابین دەکەن.",
             onPressedBritish: () => speakdirectcurrents1("en-GB"),
             onPressedAmerican: () => speakdirectcurrents1("en-US"),
           ),

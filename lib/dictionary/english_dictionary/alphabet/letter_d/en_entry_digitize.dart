@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) گۆڕینی زانیاری بۆ دیجیتاڵ بۆ ئەوەی کۆمپیوتەر بتوانێت بیخوێنێتەوە"),
           SentencesRow(
             englishText: "They plan to digitize old photographs.",
-            kurdishText:
-                "پلانیان ھەیە وێنە کۆنەکان بکەن بە دیجیتاڵ.", // digitize
+            kurdishText: "پلانیان ھەیە وێنە کۆنەکان بکەن بە دیجیتاڵ.",
             onPressedBritish: () => speakdigitizes1("en-GB"),
             onPressedAmerican: () => speakdigitizes1("en-US"),
           ),

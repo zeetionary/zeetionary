@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There are times when it is hard not to feel despondent.",
-            kurdishText:
-                "ھەندێک کات ھەیە کە زەحمەتە دڵتەنگ نەبیت.", // despondent
+            kurdishText: "ھەندێک کات ھەیە کە زەحمەتە دڵتەنگ نەبیت.",
             onPressedBritish: () => speakdespondents1("en-GB"),
             onPressedAmerican: () => speakdespondents1("en-US"),
           ),

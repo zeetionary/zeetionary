@@ -182,7 +182,7 @@ class EnglishEntrybungeejumping extends StatelessWidget {
                             englishText:
                                 "Bungee jumping would be a cool experience.",
                             kurdishText:
-                                "خۆھەڵدان لە بەرزاییەوە ئەزموونێکی خۆش دەبێت.", // bungee jumping", follow LX strictly
+                                "خۆھەڵدان لە بەرزاییەوە ئەزموونێکی خۆش دەبێت.",
                             onPressedBritish: () =>
                                 speakbungeejumpings1("en-GB"),
                             onPressedAmerican: () =>

@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I find it hard to work at home because there are too many distractions.",
             kurdishText:
-                "بە سەختی دەزانم لە ماڵەوە کاربکەم چونکە سەرنجبەری زۆر ھەیە.", // distraction
+                "بە سەختی دەزانم لە ماڵەوە کاربکەم چونکە سەرنجبەری زۆر ھەیە.",
             onPressedBritish: () => speakdistractions1("en-GB"),
             onPressedAmerican: () => speakdistractions1("en-US"),
           ),

@@ -312,7 +312,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کارەسات؛ ڕووداوێکی خراپی وەک لافاو یان ئاگر کە خەڵکێکی زۆر دەکوژێت و دەبێتە ھۆکاری زیانی گەورە"),
           SentencesRow(
             englishText: "Thousands died in the disaster.",
-            kurdishText: "ھەزاران لە کارەساتەکە مردن.", // disaster
+            kurdishText: "ھەزاران لە کارەساتەکە مردن.",
             onPressedBritish: () => speakdisasters1("en-GB"),
             onPressedAmerican: () => speakdisasters1("en-US"),
           ),

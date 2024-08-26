@@ -256,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The country celebrated its first democratically elected government.",
             kurdishText:
-                "وڵاتەکە یەکەم حکومەتی دیموکراسییانە ھەڵبژێردراوی بەخۆیەوە بینی.", // democratically
+                "وڵاتەکە یەکەم حکومەتی دیموکراسییانە ھەڵبژێردراوی بەخۆیەوە بینی.",
             onPressedBritish: () => speakdemocraticallys1("en-GB"),
             onPressedAmerican: () => speakdemocraticallys1("en-US"),
           ),

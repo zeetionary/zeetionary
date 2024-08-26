@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دەنگی بەرز و ناخۆش کە بۆ ماوەیەکی درێژ بەردەوام دەبێت"),
           SentencesRow(
             englishText: "The children were making an awful din.",
-            kurdishText: "منداڵەکان قاووقیژی ناخۆشیان دەکرد.", // din
+            kurdishText: "منداڵەکان قاووقیژی ناخۆشیان دەکرد.",
             onPressedBritish: () => speakdins1("en-GB"),
             onPressedAmerican: () => speakdins1("en-US"),
           ),

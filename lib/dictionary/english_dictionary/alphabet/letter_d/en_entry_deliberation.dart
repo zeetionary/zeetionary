@@ -263,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The deliberations of the committee are completely confidential.",
-            kurdishText: "ڕاوێژی لیژنەکە تەواو نھێنییە.", // deliberation
+            kurdishText: "ڕاوێژی لیژنەکە تەواو نھێنییە.",
             onPressedBritish: () => speakdeliberations1("en-GB"),
             onPressedAmerican: () => speakdeliberations1("en-US"),
           ),

@@ -470,8 +470,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) بازدانە ناو ئاو بەشێوەیەک کە سەر و دەستت سەرەتا بچن"),
           SentencesRow(
             englishText: "We dived into the river to cool off.",
-            kurdishText:
-                "خۆمان فڕێدایە ناو ڕووبارەکە تاوەکو فێنک بینەوە.", // dive
+            kurdishText: "خۆمان فڕێدایە ناو ڕووبارەکە تاوەکو فێنک بینەوە.",
             onPressedBritish: () => speakdives1("en-GB"),
             onPressedAmerican: () => speakdives1("en-US"),
           ),

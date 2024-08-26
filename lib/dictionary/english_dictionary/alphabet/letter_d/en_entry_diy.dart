@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کاری کردنی ئیشی ماڵەوە لەلایەن خۆتەوە نەک کەسێک بە کرێ بگریت"),
           SentencesRow(
             englishText: "My brother is a real DIY enthusiast.",
-            kurdishText: "براکەم کەسێکی تامەزرۆی خۆچاک‌کردنەوەیە.", // DIY
+            kurdishText: "براکەم کەسێکی تامەزرۆی خۆچاک‌کردنەوەیە.",
             onPressedBritish: () => speakDIYs1("en-GB"),
             onPressedAmerican: () => speakDIYs1("en-US"),
           ),

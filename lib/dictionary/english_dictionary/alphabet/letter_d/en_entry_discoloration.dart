@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) پڕۆسەی تێکچوونی ڕەنگ"),
           SentencesRow(
             englishText: "Brown discolorations appear on the skin.",
-            kurdishText: "ڕەش‌داگەڕان لەسەر پێست دەردەکەوێت.", // discoloration
+            kurdishText: "ڕەش‌داگەڕان لەسەر پێست دەردەکەوێت.",
             onPressedBritish: () => speakdiscolorations1("en-GB"),
             onPressedAmerican: () => speakdiscolorations1("en-US"),
           ),

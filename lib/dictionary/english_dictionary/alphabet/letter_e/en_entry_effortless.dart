@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) کە پێویستی بە ھەوڵێکی کەمە"""),
           SentencesRow(
             englishText: """He made playing the guitar look effortless.""",
-            kurdishText: """ژەنینی گیتاری ئاسان دەرخست.""", // effortless
+            kurdishText: """ژەنینی گیتاری ئاسان دەرخست.""",
             onPressedBritish: () => speakeffortlesss1("en-GB"),
             onPressedAmerican: () => speakeffortlesss1("en-US"),
           ),

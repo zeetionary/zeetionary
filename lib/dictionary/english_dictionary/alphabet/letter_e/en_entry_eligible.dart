@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The new regulations made a lot of prisoners eligible for early release.""",
             kurdishText:
-                """ڕێسا تازەکان زۆر زیندانی شایستە کرد بۆ ئازادکردنی پێشوەختە.""", // eligible
+                """ڕێسا تازەکان زۆر زیندانی شایستە کرد بۆ ئازادکردنی پێشوەختە.""",
             onPressedBritish: () => speakeligibles1("en-GB"),
             onPressedAmerican: () => speakeligibles1("en-US"),
           ),

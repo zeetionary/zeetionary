@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Above the mountain, eagles circled in soundless flight.""",
             kurdishText:
-                """لە سەروو چیاکانەوە داڵ بە فڕینی بێدەنگ دەسووڕانەوە.""", // eagle
+                """لە سەروو چیاکانەوە داڵ بە فڕینی بێدەنگ دەسووڕانەوە.""",
             onPressedBritish: () => speakeagles1("en-GB"),
             onPressedAmerican: () => speakeagles1("en-US"),
           ),

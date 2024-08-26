@@ -264,7 +264,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The computer program was unable to discriminate between letters and numbers.",
             kurdishText:
-                "پڕۆگرامە کۆمپیوتەرییەکە نەیدەتوانی جیاوازی لە نێوان پیت و ژمارە بکات.", // discriminate
+                "پڕۆگرامە کۆمپیوتەرییەکە نەیدەتوانی جیاوازی لە نێوان پیت و ژمارە بکات.",
             onPressedBritish: () => speakdiscriminates1("en-GB"),
             onPressedAmerican: () => speakdiscriminates1("en-US"),
           ),

@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The building work is creating constant noise, dust and disturbance.",
             kurdishText:
-                "کاری بیناکە ژاوەژاو، تەپ‌وتۆز و بێزاری بەردەوام درووست دەکات.", // disturbance
+                "کاری بیناکە ژاوەژاو، تەپ‌وتۆز و بێزاری بەردەوام درووست دەکات.",
             onPressedBritish: () => speakdisturbances1("en-GB"),
             onPressedAmerican: () => speakdisturbances1("en-US"),
           ),

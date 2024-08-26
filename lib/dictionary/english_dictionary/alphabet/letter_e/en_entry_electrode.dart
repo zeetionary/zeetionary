@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The battery has a positive and a negative electrode.""",
-            kurdishText:
-                """باترییەکە ئێلیکترۆدێکی ئەرێنی و نەرێنی ھەیە.""", // electrode
+            kurdishText: """باترییەکە ئێلیکترۆدێکی ئەرێنی و نەرێنی ھەیە.""",
             onPressedBritish: () => speakelectrodes1("en-GB"),
             onPressedAmerican: () => speakelectrodes1("en-US"),
           ),

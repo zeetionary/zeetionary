@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) گەشەی ھێواشێ شتێک بە شێوەیەک کە بەرەوپێشتر، بەھێزتر، ھتد ببێت"),
           SentencesRow(
             englishText: "This is a perfectly normal stage of development.",
-            kurdishText: "ئەمە قۆناغێکی ئاسایی گەشەکردنە.", // development
+            kurdishText: "ئەمە قۆناغێکی ئاسایی گەشەکردنە.",
             onPressedBritish: () => speakdevelopments1("en-GB"),
             onPressedAmerican: () => speakdevelopments1("en-US"),
           ),

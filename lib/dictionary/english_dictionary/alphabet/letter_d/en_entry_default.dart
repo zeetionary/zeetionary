@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئەوەی کە ڕوودەدات ئەگەر ھیچ گۆڕانکارییەک نەکەیت"),
           SentencesRow(
             englishText: "The default is fifty lines.",
-            kurdishText: "دیفۆڵتەکە پەنجا دێڕە.", // default
+            kurdishText: "دیفۆڵتەکە پەنجا دێڕە.",
             onPressedBritish: () => speakdefaults1("en-GB"),
             onPressedAmerican: () => speakdefaults1("en-US"),
           ),

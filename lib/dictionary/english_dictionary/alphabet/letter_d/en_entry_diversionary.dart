@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Military personnel would be distracted with diversionary moves so others could break into the base.",
             kurdishText:
-                "ئەندامانی سوپا سەرقاڵ دەکرێن بە جوڵەی خاپێەر بۆ ئەوەی ئەوانی دیکە ھەڵبکوتنە سەر بنکەکە.", // diversionary
+                "ئەندامانی سوپا سەرقاڵ دەکرێن بە جوڵەی خاپێەر بۆ ئەوەی ئەوانی دیکە ھەڵبکوتنە سەر بنکەکە.",
             onPressedBritish: () => speakdiversionarys1("en-GB"),
             onPressedAmerican: () => speakdiversionarys1("en-US"),
           ),

@@ -372,8 +372,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) سەرنجڕاکێش و بەسەلیقە"""),
           SentencesRow(
             englishText: """She dresses with casual elegance.""",
-            kurdishText:
-                """بە شۆخ‌وشەنگیی سادەوە جل لەبەر دەکات.""", // elegance
+            kurdishText: """بە شۆخ‌وشەنگیی سادەوە جل لەبەر دەکات.""",
             onPressedBritish: () => speakelegances1("en-GB"),
             onPressedAmerican: () => speakelegances1("en-US"),
           ),

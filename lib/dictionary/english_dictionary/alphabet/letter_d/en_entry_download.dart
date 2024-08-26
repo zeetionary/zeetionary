@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) ھێنانی داتا لە کۆمپیوتەرێکی دیکەوە، زۆرجار بە ئینتەرنێت"),
           SentencesRow(
             englishText: "You can download the app for free.",
-            kurdishText: "دەتوانیت ئەپەکە بێ‌بەرامبەر دابگریت.", // download
+            kurdishText: "دەتوانیت ئەپەکە بێ‌بەرامبەر دابگریت.",
             onPressedBritish: () => speakdownloads1("en-GB"),
             onPressedAmerican: () => speakdownloads1("en-US"),
           ),

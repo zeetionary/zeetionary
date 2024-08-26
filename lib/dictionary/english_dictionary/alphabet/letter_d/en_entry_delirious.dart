@@ -261,8 +261,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) لە دۆخێکی خرۆشاویدا کە ناتوانیت بە ڕوونی بیربکەیتەوە"),
           SentencesRow(
             englishText: "He became delirious and couldn't recognize people.",
-            kurdishText:
-                "کەوتە شاگەشکەوەوە و نەیدەتوانی خەڵکی بناسێتەوە.", // delirious
+            kurdishText: "کەوتە شاگەشکەوەوە و نەیدەتوانی خەڵکی بناسێتەوە.",
             onPressedBritish: () => speakdeliriouss1("en-GB"),
             onPressedAmerican: () => speakdeliriouss1("en-US"),
           ),

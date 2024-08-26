@@ -325,8 +325,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "American English is significantly different from British English.",
-            kurdishText:
-                "ئینگلیزی ئەمریکی تەواو جیاوازە لە ئینگلیزی بەریتانی.", // different
+            kurdishText: "ئینگلیزی ئەمریکی تەواو جیاوازە لە ئینگلیزی بەریتانی.",
             onPressedBritish: () => speakdifferents1("en-GB"),
             onPressedAmerican: () => speakdifferents1("en-US"),
           ),

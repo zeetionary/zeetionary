@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شتێک کە کەسێک دەیکات کە زۆرجار زۆرباش یان خراپە تێیدا"),
           SentencesRow(
             englishText: "She tried to do a good deed every day.",
-            kurdishText: "ھەوڵیدا ھەموو ڕۆژێک کارێکی باش بکات.", // deed
+            kurdishText: "ھەوڵیدا ھەموو ڕۆژێک کارێکی باش بکات.",
             onPressedBritish: () => speakdeeds1("en-GB"),
             onPressedAmerican: () => speakdeeds1("en-US"),
           ),

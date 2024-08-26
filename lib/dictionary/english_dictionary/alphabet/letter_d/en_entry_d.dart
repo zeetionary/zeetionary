@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) چوارەمین پیتی ئەلفوبێی ئینگلیزی"),
           SentencesRow(
             englishText: "‘Dog’ begins with (a) D/‘D’.",
-            kurdishText: "'Dog' بە 'D' دەستپێدەکات.", // d
+            kurdishText: "'Dog' بە 'D' دەستپێدەکات.",
             onPressedBritish: () => speakds1("en-GB"),
             onPressedAmerican: () => speakds1("en-US"),
           ),

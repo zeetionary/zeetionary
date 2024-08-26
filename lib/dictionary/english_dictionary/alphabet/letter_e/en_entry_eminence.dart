@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Few could have predicted that she would reach eminence as a surgeon.""",
             kurdishText:
-                """کەم کەس ئەوەیان پێشبینی دەکرد کە بگات بە پایەی نەشتەرگەرێک.""", // eminence
+                """کەم کەس ئەوەیان پێشبینی دەکرد کە بگات بە پایەی نەشتەرگەرێک.""",
             onPressedBritish: () => speakeminences1("en-GB"),
             onPressedAmerican: () => speakeminences1("en-US"),
           ),

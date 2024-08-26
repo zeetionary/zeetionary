@@ -382,8 +382,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) کردنی شتێک بەبێ بەفیڕۆدان"""),
           SentencesRow(
             englishText: """We offer a fast and efficient service.""",
-            kurdishText:
-                """خزمەتگوزارییەکی خێرا و کارامە پێشکەش دەکەین.""", // efficient
+            kurdishText: """خزمەتگوزارییەکی خێرا و کارامە پێشکەش دەکەین.""",
             onPressedBritish: () => speakefficients1("en-GB"),
             onPressedAmerican: () => speakefficients1("en-US"),
           ),

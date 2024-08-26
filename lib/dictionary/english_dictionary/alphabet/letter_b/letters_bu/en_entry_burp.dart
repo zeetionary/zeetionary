@@ -180,7 +180,7 @@ class EnglishEntryburp extends StatelessWidget {
                             englishText:
                                 "He swigged his drink and burped loudly.",
                             kurdishText:
-                                "قومێکی لە خواردنەوەکەی خواردەوە و قرقێنەیەکی بەرزی دایەوە.", // burp", follow LX strictly
+                                "قومێکی لە خواردنەوەکەی خواردەوە و قرقێنەیەکی بەرزی دایەوە.",
                             onPressedBritish: () => speakburps1("en-GB"),
                             onPressedAmerican: () => speakburps1("en-US"),
                           ),

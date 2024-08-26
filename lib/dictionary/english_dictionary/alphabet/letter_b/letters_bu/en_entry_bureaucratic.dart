@@ -178,7 +178,7 @@ class EnglishEntrybureaucratic extends StatelessWidget {
                             englishText:
                                 "The company was inefficient because it was highly bureaucratic.",
                             kurdishText:
-                                "کۆمپانیاکە کەم‌بەرھەم بوو بەھۆی زۆریی بیرۆکراسی.", // bureaucratic", follow LX strictly
+                                "کۆمپانیاکە کەم‌بەرھەم بوو بەھۆی زۆریی بیرۆکراسی.",
                             onPressedBritish: () =>
                                 speakbureaucratics1("en-GB"),
                             onPressedAmerican: () =>

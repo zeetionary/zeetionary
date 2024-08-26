@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "A disorderly crowd had gathered outside the embassy.",
             kurdishText:
-                "جەماوەرێکی ئاژاوەگێڕ لە دەرەوەی باڵیۆزخانەکە کۆبوونەوە.", // disorderly
+                "جەماوەرێکی ئاژاوەگێڕ لە دەرەوەی باڵیۆزخانەکە کۆبوونەوە.",
             onPressedBritish: () => speakdisorderlys1("en-GB"),
             onPressedAmerican: () => speakdisorderlys1("en-US"),
           ),

@@ -405,8 +405,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """They are finding it more and more difficult to find employment.""",
-            kurdishText:
-                """بە زیاتر و زیاتر سەختی دەبینن کار بدۆزنەوە.""", // employment
+            kurdishText: """بە زیاتر و زیاتر سەختی دەبینن کار بدۆزنەوە.""",
             onPressedBritish: () => speakemployments1("en-GB"),
             onPressedAmerican: () => speakemployments1("en-US"),
           ),

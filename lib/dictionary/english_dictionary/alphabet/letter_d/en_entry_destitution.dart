@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دۆخی نەبوونی پارە، خۆراک، و پێداویستییە سەرەکییەکانی دیکەی ژیان"),
           SentencesRow(
             englishText: "They both died in poverty and destitution.",
-            kurdishText: "ھەردووکیان لە ھەژاری و نەداریدا مردن.", // destitution
+            kurdishText: "ھەردووکیان لە ھەژاری و نەداریدا مردن.",
             onPressedBritish: () => speakdestitutions1("en-GB"),
             onPressedAmerican: () => speakdestitutions1("en-US"),
           ),

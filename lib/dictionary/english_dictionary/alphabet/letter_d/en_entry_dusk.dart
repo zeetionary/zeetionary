@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) کۆتایی ڕۆژ کە ڕۆشنایی تا ڕادەیەک بە تەواوی نەماوە بەڵام ھێشتا تاریک نییە"""),
           SentencesRow(
             englishText: """The street lights go on at dusk.""",
-            kurdishText:
-                """لایتی سەر شەقامەکان دادەگیرسێن لە زەردەپەڕدا.""", // dusk
+            kurdishText: """لایتی سەر شەقامەکان دادەگیرسێن لە زەردەپەڕدا.""",
             onPressedBritish: () => speakdusks1("en-GB"),
             onPressedAmerican: () => speakdusks1("en-US"),
           ),

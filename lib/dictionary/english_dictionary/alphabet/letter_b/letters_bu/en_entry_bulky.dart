@@ -137,8 +137,7 @@ class EnglishEntrybulky extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Bulky items will be collected separately.",
-                            kurdishText:
-                                "شتە زلەکان بە جیایی کۆدەکرێنەوە.", // bulky", follow LX strictly
+                            kurdishText: "شتە زلەکان بە جیایی کۆدەکرێنەوە.",
                             onPressedBritish: () => speakbulkys1("en-GB"),
                             onPressedAmerican: () => speakbulkys1("en-US"),
                           ),

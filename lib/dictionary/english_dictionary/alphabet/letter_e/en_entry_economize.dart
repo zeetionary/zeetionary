@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """You could economize on food by not eating in restaurants all the time.""",
             kurdishText:
-                """دەتوانیت لەلایەنی خواردنەوە دەسپێوەگری بکەیت بەوەی ھەمیشە لە چێشتخانەکان نان نەخۆیت.""", // economize
+                """دەتوانیت لەلایەنی خواردنەوە دەسپێوەگری بکەیت بەوەی ھەمیشە لە چێشتخانەکان نان نەخۆیت.""",
             onPressedBritish: () => speakeconomizes1("en-GB"),
             onPressedAmerican: () => speakeconomizes1("en-US"),
           ),

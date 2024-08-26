@@ -132,8 +132,7 @@ class EnglishEntrybullseye extends StatelessWidget {
 ١. (ناو) ناوەڕاستی ئامانجێک کە تەقەی لێ دەکەیت، یان تیری بۆ داھاوێژیت"""),
                           SentencesRow(
                             englishText: "He scored a bullseye.",
-                            kurdishText:
-                                "لە ناوەڕاستی دا.", // bullseye", follow LX strictly
+                            kurdishText: "لە ناوەڕاستی دا.",
                             onPressedBritish: () => speakbullseyes1("en-GB"),
                             onPressedAmerican: () => speakbullseyes1("en-US"),
                           ),

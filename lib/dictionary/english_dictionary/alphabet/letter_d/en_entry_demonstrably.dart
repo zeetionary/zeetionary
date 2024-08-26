@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە دەکرێت ببینرێت یان بسەلمێندرێت"),
           SentencesRow(
             englishText: "That's demonstrably untrue!",
-            kurdishText: "ئەوە لەسەلماندن‌ھاتووانە ناڕستە!", // demonstrably
+            kurdishText: "ئەوە لەسەلماندن‌ھاتووانە ناڕستە!",
             onPressedBritish: () => speakdemonstrablys1("en-GB"),
             onPressedAmerican: () => speakdemonstrablys1("en-US"),
           ),

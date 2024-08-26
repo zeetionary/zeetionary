@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بە ئاستێکی زۆر کە کاریگەرییەکی لەناکاو، کاریگەر، یان توندوتیژی ھەیە"),
           SentencesRow(
             englishText: "Output has been drastically reduced.",
-            kurdishText:
-                "ڕێژەی بەرھەمھێنان بە ئاستێکی زۆر دابەزیوە.", // drastically
+            kurdishText: "ڕێژەی بەرھەمھێنان بە ئاستێکی زۆر دابەزیوە.",
             onPressedBritish: () => speakdrasticallys1("en-GB"),
             onPressedAmerican: () => speakdrasticallys1("en-US"),
           ),

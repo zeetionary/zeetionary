@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) لە دووری مەودا یان کات"),
           SentencesRow(
             englishText: "He heard, distantly, the sound of the sea.",
-            kurdishText: "لە دوورەوە گوێی لە دەنگی دەریاکە بوو.", // distantly
+            kurdishText: "لە دوورەوە گوێی لە دەنگی دەریاکە بوو.",
             onPressedBritish: () => speakdistantlys1("en-GB"),
             onPressedAmerican: () => speakdistantlys1("en-US"),
           ),

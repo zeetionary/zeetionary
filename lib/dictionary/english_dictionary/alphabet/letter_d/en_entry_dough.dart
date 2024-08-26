@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ھەویر"),
           SentencesRow(
             englishText: "Leave the dough to rise.",
-            kurdishText: "واز لە ھەویرەکە بێنە ھەڵبێت.", // dough
+            kurdishText: "واز لە ھەویرەکە بێنە ھەڵبێت.",
             onPressedBritish: () => speakdoughs1("en-GB"),
             onPressedAmerican: () => speakdoughs1("en-US"),
           ),

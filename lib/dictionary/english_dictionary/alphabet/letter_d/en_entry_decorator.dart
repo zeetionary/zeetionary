@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە کاری بۆیەکردنی دیواری ناوەوەی بینا و دانانی وێنەیە"),
           SentencesRow(
             englishText: "She became a painter and decorator.",
-            kurdishText: "بوو بە وێنەکێش و بۆیەکارێک.", // decorator
+            kurdishText: "بوو بە وێنەکێش و بۆیەکارێک.",
             onPressedBritish: () => speakdecorators1("en-GB"),
             onPressedAmerican: () => speakdecorators1("en-US"),
           ),

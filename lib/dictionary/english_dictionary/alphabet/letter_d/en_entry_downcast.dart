@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) چاو کە سەیری خوارەوە دەکات"),
           SentencesRow(
             englishText: "Eyes downcast, she continued eating.",
-            kurdishText: "بە بەرەوخواری بەردەوام بوو لە خواردن.", // downcast
+            kurdishText: "بە بەرەوخواری بەردەوام بوو لە خواردن.",
             onPressedBritish: () => speakdowncasts1("en-GB"),
             onPressedAmerican: () => speakdowncasts1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The cars blocking the exits could turn this place into a death trap.",
             kurdishText:
-                "ئەو ئۆۆتمبێلانەی کە ڕێگای چوونە دەرەوەیان قەتیس کردووە دەکرێت ئەم شوێنە بکەن بە تەڵەی مەرگ.", // death trap
+                "ئەو ئۆۆتمبێلانەی کە ڕێگای چوونە دەرەوەیان قەتیس کردووە دەکرێت ئەم شوێنە بکەن بە تەڵەی مەرگ.",
             onPressedBritish: () => speakdeathtraps1("en-GB"),
             onPressedAmerican: () => speakdeathtraps1("en-US"),
           ),

@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The Brazilian attack put France's defenders under pressure.",
             kurdishText:
-                "ھێرشی بەرازیل بەرگریکارانی فەرەنسای خستە ژێر پەستانەوە.", // defender
+                "ھێرشی بەرازیل بەرگریکارانی فەرەنسای خستە ژێر پەستانەوە.",
             onPressedBritish: () => speakdefenders1("en-GB"),
             onPressedAmerican: () => speakdefenders1("en-US"),
           ),

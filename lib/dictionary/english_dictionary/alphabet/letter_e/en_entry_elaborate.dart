@@ -397,8 +397,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵناو) زۆر ئاڵۆز پڕ وردەکاری؛ کە بە وریایی ئامادە و ڕێکخراوە"""),
           SentencesRow(
             englishText: """She had prepared a very elaborate meal.""",
-            kurdishText:
-                """ژەمە خواردنێکی زۆر شارەزایانەی ئامادە کردبوو.""", // elaborate
+            kurdishText: """ژەمە خواردنێکی زۆر شارەزایانەی ئامادە کردبوو.""",
             onPressedBritish: () => speakelaborates1("en-GB"),
             onPressedAmerican: () => speakelaborates1("en-US"),
           ),

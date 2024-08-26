@@ -174,8 +174,7 @@ class EnglishEntrybus extends StatelessWidget {
 ١. (ناو) پاس"""),
                           SentencesRow(
                             englishText: "Shall we walk or go by bus?",
-                            kurdishText:
-                                "بە پێ بچین یان بە پاس؟", // bus", follow LX strictly
+                            kurdishText: "بە پێ بچین یان بە پاس؟",
                             onPressedBritish: () => speakbuss1("en-GB"),
                             onPressedAmerican: () => speakbuss1("en-US"),
                           ),

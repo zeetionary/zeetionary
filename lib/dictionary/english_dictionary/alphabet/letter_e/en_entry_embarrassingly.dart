@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵکار) بەشێوەیەک کە تووشی شەرمت دەکات"""),
           SentencesRow(
             englishText: """Embarrassingly, I'd never heard of Rihanna.""",
-            kurdishText:
-                """شەرمھێنەرانە، ھەرگیز لەسەر ڕێھانام نەبیستبوو.""", // embarrassingly
+            kurdishText: """شەرمھێنەرانە، ھەرگیز لەسەر ڕێھانام نەبیستبوو.""",
             onPressedBritish: () => speakembarrassinglys1("en-GB"),
             onPressedAmerican: () => speakembarrassinglys1("en-US"),
           ),

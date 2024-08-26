@@ -255,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The demographics of radio listeners include age and gender.",
             kurdishText:
-                "دیموگرافیکسی گوێگرانی ڕادیۆ تەمەن و ڕەگەزی لەخۆدەگرت.", // demographic
+                "دیموگرافیکسی گوێگرانی ڕادیۆ تەمەن و ڕەگەزی لەخۆدەگرت.",
             onPressedBritish: () => speakdemographics1("en-GB"),
             onPressedAmerican: () => speakdemographics1("en-US"),
           ),

@@ -249,8 +249,8 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Get a low-cost car diagnostic tool to identify the fault.",
             kurdishText:
-                "ئامرازێکی ھەرزانی کێشەدۆزی ئۆتۆمبێل بکڕە بۆ زانینی کێشەکە.", // diagnostic
-            onPressedBritish: () => speakdiagnostics1("en-GB"),
+                "ئامرازێکی ھەرزانی کێشەدۆزی ئۆتۆمبێل بکڕە بۆ زانینی کێشەکە.",
+                            onPressedBritish: () => speakdiagnostics1("en-GB"),
             onPressedAmerican: () => speakdiagnostics1("en-US"),
           ),
           const DividerSentences(),

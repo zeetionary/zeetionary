@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The dashing young officer caught everyone's attention at the ball.",
             kurdishText:
-                "ئەفسەرە گەنجە قۆزەکە سەرنجی ھەموانی ڕاکێشا لە شاییەکە.", // dashing
+                "ئەفسەرە گەنجە قۆزەکە سەرنجی ھەموانی ڕاکێشا لە شاییەکە.",
             onPressedBritish: () => speakdashings1("en-GB"),
             onPressedAmerican: () => speakdashings1("en-US"),
           ),

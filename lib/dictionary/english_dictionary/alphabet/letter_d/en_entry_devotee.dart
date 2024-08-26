@@ -251,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەسێک کە زۆری حەز بە کەسێک/شتێکە"),
           SentencesRow(
             englishText: "He’s been a golf devotee for 25 years.",
-            kurdishText: "بۆ ٢٥ ساڵە ئاشقێکی گۆڵفە.", // devotee
+            kurdishText: "بۆ ٢٥ ساڵە ئاشقێکی گۆڵفە.",
             onPressedBritish: () => speakdevotees1("en-GB"),
             onPressedAmerican: () => speakdevotees1("en-US"),
           ),

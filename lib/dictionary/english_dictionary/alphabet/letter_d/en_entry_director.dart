@@ -269,7 +269,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) یەکێک لە بەرپرسانی کۆمپانیایەک کە کاری بەڕێوەبەری دەکات"),
           SentencesRow(
             englishText: "He's on the board of directors.",
-            kurdishText: "سەر بە دەستەی بەڕێوەبەرایەتی.", // director
+            kurdishText: "سەر بە دەستەی بەڕێوەبەرایەتی.",
             onPressedBritish: () => speakdirectors1("en-GB"),
             onPressedAmerican: () => speakdirectors1("en-US"),
           ),

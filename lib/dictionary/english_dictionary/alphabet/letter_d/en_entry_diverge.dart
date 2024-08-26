@@ -398,7 +398,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) جیابوونەوە و ڕۆشتن بە ئاراستەی جیاوازدا"),
           SentencesRow(
             englishText: "The parallel lines appear to diverge.",
-            kurdishText: "ھێڵە تەریبەکان وادەردەکەون جیادەبنەوە.", // diverge
+            kurdishText: "ھێڵە تەریبەکان وادەردەکەون جیادەبنەوە.",
             onPressedBritish: () => speakdiverges1("en-GB"),
             onPressedAmerican: () => speakdiverges1("en-US"),
           ),

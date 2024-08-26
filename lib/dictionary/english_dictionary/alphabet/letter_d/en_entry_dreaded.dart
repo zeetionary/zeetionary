@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە ترس درووست دەکات"),
           SentencesRow(
             englishText: "The dreaded moment had finally arrived.",
-            kurdishText: "سەتەوەختە ترسێنەرەکە لەکۆتاییدا گەشت.", // dreaded
+            kurdishText: "سەتەوەختە ترسێنەرەکە لەکۆتاییدا گەشت.",
             onPressedBritish: () => speakdreadeds1("en-GB"),
             onPressedAmerican: () => speakdreadeds1("en-US"),
           ),

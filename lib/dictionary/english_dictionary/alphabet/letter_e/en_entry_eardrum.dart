@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """She thought the noise would burst her eardrums.""",
             kurdishText:
-                """وای بیردەکردەوە کە ژاوەژاوەکە پەردەی گوێی دەتەقێنێت.""", // eardrum
+                """وای بیردەکردەوە کە ژاوەژاوەکە پەردەی گوێی دەتەقێنێت.""",
             onPressedBritish: () => speakeardrums1("en-GB"),
             onPressedAmerican: () => speakeardrums1("en-US"),
           ),

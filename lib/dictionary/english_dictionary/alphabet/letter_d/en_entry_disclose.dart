@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The spokesman refused to disclose details of the takeover to the press.",
             kurdishText:
-                "وتەبێژەکە ڕەتیکردەوە کە وردەکارییەکانی شوێنگرتنەوەکە بدات بە ڕۆژنامەنووسان.", // disclose
+                "وتەبێژەکە ڕەتیکردەوە کە وردەکارییەکانی شوێنگرتنەوەکە بدات بە ڕۆژنامەنووسان.",
             onPressedBritish: () => speakdiscloses1("en-GB"),
             onPressedAmerican: () => speakdiscloses1("en-US"),
           ),

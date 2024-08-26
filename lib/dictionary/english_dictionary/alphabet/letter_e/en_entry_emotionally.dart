@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵکار) کە پەیوەندیدارە بە ھەستەکانی خەڵکییەوە"""),
           SentencesRow(
             englishText: """I try not to become emotionally involved.""",
-            kurdishText:
-                """ھەوڵ دەدەم لەلایەنی سۆزداری‌یەوە تێوەنەگلێم.""", // emotionally
+            kurdishText: """ھەوڵ دەدەم لەلایەنی سۆزداری‌یەوە تێوەنەگلێم.""",
             onPressedBritish: () => speakemotionallys1("en-GB"),
             onPressedAmerican: () => speakemotionallys1("en-US"),
           ),

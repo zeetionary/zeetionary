@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The old railway station was in a state of dereliction.",
-            kurdishText:
-                "وێستگە کۆنەکەی شەمەندەفەر لە دۆخی والانراویدا بوو.", // dereliction
+            kurdishText: "وێستگە کۆنەکەی شەمەندەفەر لە دۆخی والانراویدا بوو.",
             onPressedBritish: () => speakderelictions1("en-GB"),
             onPressedAmerican: () => speakderelictions1("en-US"),
           ),

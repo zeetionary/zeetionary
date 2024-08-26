@@ -387,7 +387,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Drizzle the dressing over the salad leaves and toss to coat.",
             kurdishText:
-                "سۆسەکە بڕژێنە بەسەر گەڵاکانی زەڵاتە و تێکی بدە بۆ بڵاوکردنەوەی.", // dressing
+                "سۆسەکە بڕژێنە بەسەر گەڵاکانی زەڵاتە و تێکی بدە بۆ بڵاوکردنەوەی.",
             onPressedBritish: () => speakdressings1("en-GB"),
             onPressedAmerican: () => speakdressings1("en-US"),
           ),

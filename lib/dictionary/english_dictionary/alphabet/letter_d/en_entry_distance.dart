@@ -506,8 +506,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Paul has to drive very long distances as part of his job.",
-            kurdishText:
-                "پاوڵ دەبێت مەودای زۆر ببڕێت وەک بەشێک لە کارەکەی.", // distance
+            kurdishText: "پاوڵ دەبێت مەودای زۆر ببڕێت وەک بەشێک لە کارەکەی.",
             onPressedBritish: () => speakdistances1("en-GB"),
             onPressedAmerican: () => speakdistances1("en-US"),
           ),

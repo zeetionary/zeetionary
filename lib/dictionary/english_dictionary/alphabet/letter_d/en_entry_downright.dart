@@ -382,8 +382,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بۆ جەختکردنەوە لە شتێکی نەرێنی و ناخۆش"),
           SentencesRow(
             englishText: "It's not just stupid—it's downright dangerous.",
-            kurdishText:
-                "ئەوە نییە تەنھا گەمژانە بێت ـ تەواو مەترسیدارە.", // downright
+            kurdishText: "ئەوە نییە تەنھا گەمژانە بێت ـ تەواو مەترسیدارە.",
             onPressedBritish: () => speakdownrights1("en-GB"),
             onPressedAmerican: () => speakdownrights1("en-US"),
           ),

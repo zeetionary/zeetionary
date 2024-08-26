@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پەپکێکی تەختی خڕی قورس کە لە یارییەکی وەرزشیدا فڕێ دەدرێت"),
           SentencesRow(
             englishText: "She hurled the discus across the field.",
-            kurdishText: "پەپکەکەی بە گۆڕەپانەکەدا فڕێدا.", // discus
+            kurdishText: "پەپکەکەی بە گۆڕەپانەکەدا فڕێدا.",
             onPressedBritish: () => speakdiscuss1("en-GB"),
             onPressedAmerican: () => speakdiscuss1("en-US"),
           ),

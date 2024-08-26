@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) لەنگەرگای کەشتی کە تێیاندا چاکدەکرێنەوە یان بارەکانیان سەردەخردرێت یان دادەگیردرێت"),
           SentencesRow(
             englishText: "The ship was in dock.",
-            kurdishText: "کەشتییەکە لە لەنگەرگا بوو.", // dock
+            kurdishText: "کەشتییەکە لە لەنگەرگا بوو.",
             onPressedBritish: () => speakdocks1("en-GB"),
             onPressedAmerican: () => speakdocks1("en-US"),
           ),

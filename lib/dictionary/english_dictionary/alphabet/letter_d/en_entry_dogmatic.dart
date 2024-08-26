@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ھەبوونی ئەو باوەڕەی کە بۆچوونەکانت ڕاستن و کەسانی دیکە دەبێت بەبێ پرسیارکردن یان ڕوونکردنەوە پەسەندی بکەن"),
           SentencesRow(
             englishText: "He was strident and dogmatic in giving his opinions.",
-            kurdishText:
-                "چاونەترس و دەمارگرژ بوو لە بۆچوونەکانیدا.", // dogmatic
+            kurdishText: "چاونەترس و دەمارگرژ بوو لە بۆچوونەکانیدا.",
             onPressedBritish: () => speakdogmatics1("en-GB"),
             onPressedAmerican: () => speakdogmatics1("en-US"),
           ),

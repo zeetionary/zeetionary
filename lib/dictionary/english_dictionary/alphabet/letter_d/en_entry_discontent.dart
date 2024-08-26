@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There are a wide variety of popular discontents which need discussing.",
             kurdishText:
-                "ژمارەیەکی زۆر جیاواز لە ناڕەزایەتی ھەیە کە دەبێت باس بکرێن.", // discontent
+                "ژمارەیەکی زۆر جیاواز لە ناڕەزایەتی ھەیە کە دەبێت باس بکرێن.",
             onPressedBritish: () => speakdiscontents1("en-GB"),
             onPressedAmerican: () => speakdiscontents1("en-US"),
           ),

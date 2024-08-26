@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بانکێک کە سوو دەبەخشێت لەو پارەی تێیدەخرێت و زۆرجار پارەی بۆ ماوەیەکی زۆر تێدا دەھێڵیتەوە"),
           SentencesRow(
             englishText: "He opened a deposit account to save money.",
-            kurdishText:
-                "ھەژمارێکی خەواندنی کردەوە بۆ پاشەکەوتکردنی پارە.", // deposit account
+            kurdishText: "ھەژمارێکی خەواندنی کردەوە بۆ پاشەکەوتکردنی پارە.",
             onPressedBritish: () => speakdepositaccounts1("en-GB"),
             onPressedAmerican: () => speakdepositaccounts1("en-US"),
           ),

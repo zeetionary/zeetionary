@@ -400,7 +400,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I was impressed by the efficiency with which she handled the crisis.""",
             kurdishText:
-                """سەرسام بووم بەو کارامەییەی کە مامەڵەی لەگەڵ کێشەکە کرد.""", // efficiency
+                """سەرسام بووم بەو کارامەییەی کە مامەڵەی لەگەڵ کێشەکە کرد.""",
             onPressedBritish: () => speakefficiencys1("en-GB"),
             onPressedAmerican: () => speakefficiencys1("en-US"),
           ),

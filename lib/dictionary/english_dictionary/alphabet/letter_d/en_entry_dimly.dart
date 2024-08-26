@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I was dimly aware (= only just aware) of the sound of a car in the distance.",
-            kurdishText:
-                "کەمێک ئاگادار بووم لە دەنگی ئۆتۆمبێلێک لە دوورەوە.", // dimly
+            kurdishText: "کەمێک ئاگادار بووم لە دەنگی ئۆتۆمبێلێک لە دوورەوە.",
             onPressedBritish: () => speakdimlys1("en-GB"),
             onPressedAmerican: () => speakdimlys1("en-US"),
           ),

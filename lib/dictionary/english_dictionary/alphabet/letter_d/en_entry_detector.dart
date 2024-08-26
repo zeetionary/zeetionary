@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئامێرێک کە بەکاردێت بۆ ھەستکردن بە شتێک، وەک دووکەڵ، تەقینەوە، ھتد یان گۆڕان لە پەستان یان پلەی گەرمی"),
           SentencesRow(
             englishText: "The smoke detector went off in the kitchen.",
-            kurdishText: "دووکەڵدۆزەکە لە چێشتخانەکە کەوتە کار.", // detector
+            kurdishText: "دووکەڵدۆزەکە لە چێشتخانەکە کەوتە کار.",
             onPressedBritish: () => speakdetectors1("en-GB"),
             onPressedAmerican: () => speakdetectors1("en-US"),
           ),

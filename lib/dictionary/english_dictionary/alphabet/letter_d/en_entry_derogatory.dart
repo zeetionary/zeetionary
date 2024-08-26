@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He made some derogatory comment/remark about her appearance.",
-            kurdishText:
-                "ھەندێک لێدوانی داشکێنەری دا سەبارەت بە ڕواڵەتی.", // derogatory
+            kurdishText: "ھەندێک لێدوانی داشکێنەری دا سەبارەت بە ڕواڵەتی.",
             onPressedBritish: () => speakderogatorys1("en-GB"),
             onPressedAmerican: () => speakderogatorys1("en-US"),
           ),

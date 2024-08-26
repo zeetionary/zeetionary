@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """In the electronics industry, for instance, 5000 jobs are being lost.""",
             kurdishText:
-                """لە پیشەسازیدا زانستی ئێلیکترۆنیکدا، بۆ نموونە، ٥٠٠٠ کار لەدەستچوونە.""", // electronics
+                """لە پیشەسازیدا زانستی ئێلیکترۆنیکدا، بۆ نموونە، ٥٠٠٠ کار لەدەستچوونە.""",
             onPressedBritish: () => speakelectronicss1("en-GB"),
             onPressedAmerican: () => speakelectronicss1("en-US"),
           ),

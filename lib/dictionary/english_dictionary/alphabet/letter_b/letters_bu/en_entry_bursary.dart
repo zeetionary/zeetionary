@@ -177,7 +177,7 @@ class EnglishEntrybursary extends StatelessWidget {
                             englishText:
                                 "The student received a bursary to help cover the costs of tuition and books.",
                             kurdishText:
-                                "خوێندکارەکە بڕە پارەیەکی وەرگرت بۆ یارمەتیدانی لە دابینکردنی خەرجی تێچوو و کتێبەکانی.", // bursary", follow LX strictly
+                                "خوێندکارەکە بڕە پارەیەکی وەرگرت بۆ یارمەتیدانی لە دابینکردنی خەرجی تێچوو و کتێبەکانی.",
                             onPressedBritish: () => speakbursarys1("en-GB"),
                             onPressedAmerican: () => speakbursarys1("en-US"),
                           ),

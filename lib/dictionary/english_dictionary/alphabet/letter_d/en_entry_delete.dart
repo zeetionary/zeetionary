@@ -260,7 +260,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) سڕینەوەی شتێک کە نووسراوە یان چاپکراوە، یان لەسەر کۆمپیوتەرێک کۆگا کراوە"),
           SentencesRow(
             englishText: "Your name has been deleted from the list.",
-            kurdishText: "ناوت لە لیستەکە سڕدراوەتەوە.", // delete
+            kurdishText: "ناوت لە لیستەکە سڕدراوەتەوە.",
             onPressedBritish: () => speakdeletes1("en-GB"),
             onPressedAmerican: () => speakdeletes1("en-US"),
           ),

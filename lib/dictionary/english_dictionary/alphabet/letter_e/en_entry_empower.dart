@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The courts were empowered to impose the death sentence for certain crimes.""",
             kurdishText:
-                """دادگاکان دەسەڵاتیان پێدرا کە سزای مردن بۆ تاوانی دیاریکراو بسەپێنن.""", // empower
+                """دادگاکان دەسەڵاتیان پێدرا کە سزای مردن بۆ تاوانی دیاریکراو بسەپێنن.""",
             onPressedBritish: () => speakempowers1("en-GB"),
             onPressedAmerican: () => speakempowers1("en-US"),
           ),

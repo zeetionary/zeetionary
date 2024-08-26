@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "I could only devote two hours a day to the work.",
             kurdishText:
-                "دەمتوانی تەنھا دوو کاتژمێر لە ڕۆژێکدا تەرخان بکەم بۆ کارەکە.", // devote
+                "دەمتوانی تەنھا دوو کاتژمێر لە ڕۆژێکدا تەرخان بکەم بۆ کارەکە.",
             onPressedBritish: () => speakdevotes1("en-GB"),
             onPressedAmerican: () => speakdevotes1("en-US"),
           ),

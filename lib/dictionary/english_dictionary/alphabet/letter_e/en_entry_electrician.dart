@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We need to call in an electrician to sort out the wiring.""",
             kurdishText:
-                """دەبێت پەیوەندی بە کارەباجییەکەوە بکەین بۆ سازکردنی وایەرەکان.""", // electrician
+                """دەبێت پەیوەندی بە کارەباجییەکەوە بکەین بۆ سازکردنی وایەرەکان.""",
             onPressedBritish: () => speakelectricians1("en-GB"),
             onPressedAmerican: () => speakelectricians1("en-US"),
           ),

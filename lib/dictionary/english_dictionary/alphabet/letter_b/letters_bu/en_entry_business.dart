@@ -364,7 +364,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                             englishText:
                                 "It's been a pleasure to do business with you.",
                             kurdishText:
-                                "مایەی خۆشحاڵی بووە کار لەگەڵ تۆدا بکەم.", // business", follow LX strictly
+                                "مایەی خۆشحاڵی بووە کار لەگەڵ تۆدا بکەم.",
                             onPressedBritish: () => speakbusinesss1("en-GB"),
                             onPressedAmerican: () => speakbusinesss1("en-US"),
                           ),

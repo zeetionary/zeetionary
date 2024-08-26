@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The movie tells the story of a doomed love affair.",
             kurdishText:
-                "فیلمەکە چیرۆکی پەیوەندییەکی خۆشەویستی کارەساتبار باس دەکات.", // doomed
+                "فیلمەکە چیرۆکی پەیوەندییەکی خۆشەویستی کارەساتبار باس دەکات.",
             onPressedBritish: () => speakdoomeds1("en-GB"),
             onPressedAmerican: () => speakdoomeds1("en-US"),
           ),

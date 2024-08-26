@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نەبوونی شتێک کە پێویستتە، بۆ نموونە خواردن. خەو، پارە، ھتد"),
           SentencesRow(
             englishText: "Many of the people suffered severe deprivation.",
-            kurdishText:
-                "زۆرێک لە خەڵکەکە تووشی نەبوونیی زۆر بوون.", // deprivation
+            kurdishText: "زۆرێک لە خەڵکەکە تووشی نەبوونیی زۆر بوون.",
             onPressedBritish: () => speakdeprivations1("en-GB"),
             onPressedAmerican: () => speakdeprivations1("en-US"),
           ),

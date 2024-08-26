@@ -362,8 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I got myself a job as a general office dogsbody on a small magazine.",
-            kurdishText:
-                "کارێکم بۆ خۆم دەستخست وەک نۆکەرێک لە گۆڤارێکی بچووک.", // dogsbody
+            kurdishText: "کارێکم بۆ خۆم دەستخست وەک نۆکەرێک لە گۆڤارێکی بچووک.",
             onPressedBritish: () => speakdogsbodys1("en-GB"),
             onPressedAmerican: () => speakdogsbodys1("en-US"),
           ),

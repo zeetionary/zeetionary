@@ -364,8 +364,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She kept her jewelry in the drawers of her dressing table.",
-            kurdishText:
-                "خشڵەکانی لە چەکمەجەی مێزی خۆڕازاندنەوەکەی ھەڵگرت.", // dressing table
+            kurdishText: "خشڵەکانی لە چەکمەجەی مێزی خۆڕازاندنەوەکەی ھەڵگرت.",
             onPressedBritish: () => speakdressingtables1("en-GB"),
             onPressedAmerican: () => speakdressingtables1("en-US"),
           ),

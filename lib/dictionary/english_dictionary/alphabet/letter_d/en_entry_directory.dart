@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کتێبێک کە بە ئەلفبێ لیستی زانیاری تێدایە، بۆ نموونە وەک ژمارە موبایل یان ناونیشانی خەڵکی"),
           SentencesRow(
             englishText: "I found the company's name in a trade directory.",
-            kurdishText:
-                "ناوی کۆمپانیاکەم دۆزییەوە لە ڕێبەرییەکی پیشەسازیدا.", // directory
+            kurdishText: "ناوی کۆمپانیاکەم دۆزییەوە لە ڕێبەرییەکی پیشەسازیدا.",
             onPressedBritish: () => speakdirectorys1("en-GB"),
             onPressedAmerican: () => speakdirectorys1("en-US"),
           ),

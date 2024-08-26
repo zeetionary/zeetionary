@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """All ecologies on earth are heavily shaped by human activity.""",
             kurdishText:
-                """ھەموو جۆرەکانی ژینگەناسی تەواو کاریگەرن بە چالاکی مرۆڤ.""", // ecology
+                """ھەموو جۆرەکانی ژینگەناسی تەواو کاریگەرن بە چالاکی مرۆڤ.""",
             onPressedBritish: () => speakecologys1("en-GB"),
             onPressedAmerican: () => speakecologys1("en-US"),
           ),

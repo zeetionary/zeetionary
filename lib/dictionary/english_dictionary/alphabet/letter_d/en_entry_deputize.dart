@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Ms Green has asked me to deputize for her at the meeting.",
             kurdishText:
-                "بەڕێز گرین داوای لێکردووم شوێنی پڕبکەمەوە لە کۆبوونەوەکە.", // deputize
+                "بەڕێز گرین داوای لێکردووم شوێنی پڕبکەمەوە لە کۆبوونەوەکە.",
             onPressedBritish: () => speakdeputizes1("en-GB"),
             onPressedAmerican: () => speakdeputizes1("en-US"),
           ),

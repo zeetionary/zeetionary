@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Robinson Crusoe is cast away on a desert island for 28 years.",
             kurdishText:
-                "ڕۆبینسن کروسۆو بۆ ٢٨ ساڵ لەسەر دوورگەیەکی چۆڵ جێھێڵدرا.", // desert island
+                "ڕۆبینسن کروسۆو بۆ ٢٨ ساڵ لەسەر دوورگەیەکی چۆڵ جێھێڵدرا.",
             onPressedBritish: () => speakdesertislands1("en-GB"),
             onPressedAmerican: () => speakdesertislands1("en-US"),
           ),

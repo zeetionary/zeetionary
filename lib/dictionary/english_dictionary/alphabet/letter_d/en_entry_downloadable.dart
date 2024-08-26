@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە دەکرێت لە سیستەمێکی کۆمپیوتەری دیکەوە دابەزێندرێت"),
           SentencesRow(
             englishText: "She saved the downloadable files to her computer.",
-            kurdishText:
-                "فایلە لەداگرتن‌ھاتووەکانی ھەڵگرت لە کۆمپیوتەرەکەی.", // downloadable
+            kurdishText: "فایلە لەداگرتن‌ھاتووەکانی ھەڵگرت لە کۆمپیوتەرەکەی.",
             onPressedBritish: () => speakdownloadables1("en-GB"),
             onPressedAmerican: () => speakdownloadables1("en-US"),
           ),

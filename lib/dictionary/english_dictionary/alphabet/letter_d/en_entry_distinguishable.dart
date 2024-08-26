@@ -371,8 +371,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The male bird is easily distinguishable from the female.",
-            kurdishText:
-                "باڵندە نێرینەکە بە ئاسانی جیادەکرێتەوە لە مێینەکە.", // distinguishable
+            kurdishText: "باڵندە نێرینەکە بە ئاسانی جیادەکرێتەوە لە مێینەکە.",
             onPressedBritish: () => speakdistinguishables1("en-GB"),
             onPressedAmerican: () => speakdistinguishables1("en-US"),
           ),

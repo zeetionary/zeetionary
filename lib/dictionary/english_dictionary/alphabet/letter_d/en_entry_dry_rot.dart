@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دار کە لەناوچووە و کراوە بە ھاڕاوە؛ ھەر کەڕوویەک کە دەبێتە ھۆکاری ئەمە"),
           SentencesRow(
             englishText: "He scraped off the dry rot with a tool.",
-            kurdishText: "دارە ڕزیوەکەی بە ئامرازێک لێکردەوە.", // dry rot
+            kurdishText: "دارە ڕزیوەکەی بە ئامرازێک لێکردەوە.",
             onPressedBritish: () => speakdryrots1("en-GB"),
             onPressedAmerican: () => speakdryrots1("en-US"),
           ),

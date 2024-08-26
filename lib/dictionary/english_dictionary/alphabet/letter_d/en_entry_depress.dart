@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) بێزارکردنی کەسێک"),
           SentencesRow(
             englishText: "Hot weather always depresses me.",
-            kurdishText: "کەشی گەرم ھەمیشە بێزارم دەکات.", // depress
+            kurdishText: "کەشی گەرم ھەمیشە بێزارم دەکات.",
             onPressedBritish: () => speakdepresss1("en-GB"),
             onPressedAmerican: () => speakdepresss1("en-US"),
           ),

@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The discerning customer will recognize this as a high-quality product.",
             kurdishText:
-                "کڕیاری وردبین ئەمە بە بەرھەمێکی کوالێتی بەرز دەبینێت.", // discerning
+                "کڕیاری وردبین ئەمە بە بەرھەمێکی کوالێتی بەرز دەبینێت.",
             onPressedBritish: () => speakdiscernings1("en-GB"),
             onPressedAmerican: () => speakdiscernings1("en-US"),
           ),

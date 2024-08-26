@@ -363,8 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "It is easy to point out dissimilarities between the two cases.",
-            kurdishText:
-                "ئاسانە جیاوازییەکانی نێوان دوو کەیسەکە دەربخرێت.", // dissimilarity
+            kurdishText: "ئاسانە جیاوازییەکانی نێوان دوو کەیسەکە دەربخرێت.",
             onPressedBritish: () => speakdissimilaritys1("en-GB"),
             onPressedAmerican: () => speakdissimilaritys1("en-US"),
           ),

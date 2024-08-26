@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The host of the show did a duet with one of the guests.""",
             kurdishText:
-                """میوانداری نمایشەکە دوێتێکی لەگەڵ یەکێک لە میوانەکان ئەنجامدا.""", // duet
+                """میوانداری نمایشەکە دوێتێکی لەگەڵ یەکێک لە میوانەکان ئەنجامدا.""",
             onPressedBritish: () => speakduets1("en-GB"),
             onPressedAmerican: () => speakduets1("en-US"),
           ),

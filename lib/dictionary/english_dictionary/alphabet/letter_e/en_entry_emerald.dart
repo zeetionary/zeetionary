@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The cat's emerald eyes glowed in the dark.""",
             kurdishText:
-                """چاوە سەوزەکانی پشیلەکە لە تاریکییەکە دەدرەوشانەوە.""", // emerald
+                """چاوە سەوزەکانی پشیلەکە لە تاریکییەکە دەدرەوشانەوە.""",
             onPressedBritish: () => speakemeralds1("en-GB"),
             onPressedAmerican: () => speakemeralds1("en-US"),
           ),

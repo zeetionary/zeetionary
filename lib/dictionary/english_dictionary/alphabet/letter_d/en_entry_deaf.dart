@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کەڕ؛ نەبوونی توانای بیستن"),
           SentencesRow(
             englishText: "She was born deaf.",
-            kurdishText: "بە کەڕی لەدایکبوو.", // deaf
+            kurdishText: "بە کەڕی لەدایکبوو.",
             onPressedBritish: () => speakdeafs1("en-GB"),
             onPressedAmerican: () => speakdeafs1("en-US"),
           ),

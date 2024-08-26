@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە وەک شتێکی دیکە نییە"),
           SentencesRow(
             englishText: "These wines are not dissimilar (= are similar).",
-            kurdishText: "ئەم شەرابانە جیاواز نیین.", // dissimilar
+            kurdishText: "ئەم شەرابانە جیاواز نیین.",
             onPressedBritish: () => speakdissimilars1("en-GB"),
             onPressedAmerican: () => speakdissimilars1("en-US"),
           ),

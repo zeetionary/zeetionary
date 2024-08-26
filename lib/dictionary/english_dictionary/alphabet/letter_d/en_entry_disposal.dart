@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The council is responsible for waste disposal and street cleaning.",
             kurdishText:
-                "ئەنجوومەنەکە بەرپرسە لە فڕێدانی پاشەڕۆ و پاککردنەوەی شەقامەکان.", // disposal
+                "ئەنجوومەنەکە بەرپرسە لە فڕێدانی پاشەڕۆ و پاککردنەوەی شەقامەکان.",
             onPressedBritish: () => speakdisposals1("en-GB"),
             onPressedAmerican: () => speakdisposals1("en-US"),
           ),

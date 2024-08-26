@@ -272,7 +272,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Prices are rising so fast that people can't afford detached houses.",
             kurdishText:
-                "نرخەکان ھێندە خێرا بەرزدەبنەوە کە خەڵکی ناتوانن تێچووی خانووی تەنیاکەوتوو بدەن.", // detached
+                "نرخەکان ھێندە خێرا بەرزدەبنەوە کە خەڵکی ناتوانن تێچووی خانووی تەنیاکەوتوو بدەن.",
             onPressedBritish: () => speakdetacheds1("en-GB"),
             onPressedAmerican: () => speakdetacheds1("en-US"),
           ),

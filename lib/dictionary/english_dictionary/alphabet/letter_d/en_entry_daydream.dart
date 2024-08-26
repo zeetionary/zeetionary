@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She stared out of the window, lost in a daydream.",
             kurdishText:
-                "لە دەرەوەی پەنجەرەکەی دەڕوانی و لە خەیاڵ‌پڵاویدا ونبووبوو.", // daydream
+                "لە دەرەوەی پەنجەرەکەی دەڕوانی و لە خەیاڵ‌پڵاویدا ونبووبوو.",
             onPressedBritish: () => speakdaydreams1("en-GB"),
             onPressedAmerican: () => speakdaydreams1("en-US"),
           ),

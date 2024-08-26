@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (کردار) فێڵکردن لە کەسێک"""),
           SentencesRow(
             englishText: """They soon realized they had been duped.""",
-            kurdishText: """ھەرزوو زانییان خاپێندراون.""", // dupe
+            kurdishText: """ھەرزوو زانییان خاپێندراون.""",
             onPressedBritish: () => speakdupes1("en-GB"),
             onPressedAmerican: () => speakdupes1("en-US"),
           ),

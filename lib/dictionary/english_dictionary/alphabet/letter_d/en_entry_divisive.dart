@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "He believes that unemployment is socially divisive.",
             kurdishText:
-                "باوەڕی وایە کە بێکاری لە ڕووی کۆمەڵایەتییەوە مایەی دووبەرەکییە.", // divisive
+                "باوەڕی وایە کە بێکاری لە ڕووی کۆمەڵایەتییەوە مایەی دووبەرەکییە.",
             onPressedBritish: () => speakdivisives1("en-GB"),
             onPressedAmerican: () => speakdivisives1("en-US"),
           ),

@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بەڵگەنامەیەکی فەرمی کە دەڵێت کەسێک دەبێت بکوژرێت بۆ تاوانێک کە ئەنجامی داوە"),
           SentencesRow(
             englishText: "The president signed the death warrant.",
-            kurdishText: "سەرۆک سزای مەرگەکەی پەسەند کرد.", // death warrant
+            kurdishText: "سەرۆک سزای مەرگەکەی پەسەند کرد.",
             onPressedBritish: () => speakdeathwarrants1("en-GB"),
             onPressedAmerican: () => speakdeathwarrants1("en-US"),
           ),

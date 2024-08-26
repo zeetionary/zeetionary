@@ -277,8 +277,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I discovered something interesting during a family discussion.",
-            kurdishText:
-                "شتێکی سەرنجڕاکێشم دۆزییەوە لە گفتوگۆ خێزانییەکەدا.", // discussion
+            kurdishText: "شتێکی سەرنجڕاکێشم دۆزییەوە لە گفتوگۆ خێزانییەکەدا.",
             onPressedBritish: () => speakdiscussions1("en-GB"),
             onPressedAmerican: () => speakdiscussions1("en-US"),
           ),

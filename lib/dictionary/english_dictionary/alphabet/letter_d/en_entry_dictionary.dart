@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "If you don't know the meaning of a word, look it up in the dictionary.",
-            kurdishText:
-                "ئەگەر واتای وشەیەک نازانیت، لە فەرھەنگەکە بۆی بگەڕێ.", // dictionary
+            kurdishText: "ئەگەر واتای وشەیەک نازانیت، لە فەرھەنگەکە بۆی بگەڕێ.",
             onPressedBritish: () => speakdictionarys1("en-GB"),
             onPressedAmerican: () => speakdictionarys1("en-US"),
           ),

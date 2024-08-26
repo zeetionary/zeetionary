@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Using the right tool can save a lot of elbow grease.""",
             kurdishText:
-                """بەکارھێنانی کەرەستەی گونجاو دەکرێت زۆر ھێزی بازوو بگەڕێنێتەوە.""", // elbow grease
+                """بەکارھێنانی کەرەستەی گونجاو دەکرێت زۆر ھێزی بازوو بگەڕێنێتەوە.""",
             onPressedBritish: () => speakelbowgreases1("en-GB"),
             onPressedAmerican: () => speakelbowgreases1("en-US"),
           ),

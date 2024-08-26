@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئاژەڵێکی بچووک کە وەک مشکە و کلێکی ھەیە کە بە تووک داپۆشراوە"),
           SentencesRow(
             englishText: "He read a book about the habits of the dormouse.",
-            kurdishText:
-                "کتێبێکی خوێندەوە دەربارەی خووەکانی مشکی کلک‌تووکن.", // dormouse
+            kurdishText: "کتێبێکی خوێندەوە دەربارەی خووەکانی مشکی کلک‌تووکن.",
             onPressedBritish: () => speakdormouses1("en-GB"),
             onPressedAmerican: () => speakdormouses1("en-US"),
           ),

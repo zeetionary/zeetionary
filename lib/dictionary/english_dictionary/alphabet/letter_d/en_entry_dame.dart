@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نازناوێک کە دەدرێت بە ژنێک بەھۆی ئەو کارانەی کردوویەتی"),
           SentencesRow(
             englishText: "She was made a Dame in the Queen’s birthday.",
-            kurdishText: "کرا بە دەیم لە ڕۆژی لەدایکبوونی شاژندا.", // dame
+            kurdishText: "کرا بە دەیم لە ڕۆژی لەدایکبوونی شاژندا.",
             onPressedBritish: () => speakdames1("en-GB"),
             onPressedAmerican: () => speakdames1("en-US"),
           ),

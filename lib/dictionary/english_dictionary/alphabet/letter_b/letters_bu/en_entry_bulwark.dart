@@ -140,7 +140,7 @@ class EnglishEntrybulwark extends StatelessWidget {
                             englishText:
                                 "At the time fascism had many supporters in the West, who saw it as a bulwark against communism.",
                             kurdishText:
-                                "لەو کاتەدا فاشیزم زۆر بەرگریکارییان لە ڕۆژئاوا ھەبوو و وەک شوورایەک دژ بە کۆمونیزم دەیانبینی.", // bulwark", follow LX strictly
+                                "لەو کاتەدا فاشیزم زۆر بەرگریکارییان لە ڕۆژئاوا ھەبوو و وەک شوورایەک دژ بە کۆمونیزم دەیانبینی.",
                             onPressedBritish: () => speakbulwarks1("en-GB"),
                             onPressedAmerican: () => speakbulwarks1("en-US"),
                           ),

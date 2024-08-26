@@ -258,7 +258,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو بێزراو"),
           SentencesRow(
             englishText: "The kitchen was in a disgusting state when she left.",
-            kurdishText: "چێشتخانەکە تەواو پیس بوو کە ڕۆشت.", // disgusting
+            kurdishText: "چێشتخانەکە تەواو پیس بوو کە ڕۆشت.",
             onPressedBritish: () => speakdisgustings1("en-GB"),
             onPressedAmerican: () => speakdisgustings1("en-US"),
           ),

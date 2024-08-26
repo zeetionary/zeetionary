@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵکار) بەشێوەیەکی زۆر خرۆشاو سەبارەت بە شتێک کە ڕوودەدات یان شتێک کە دەتەوێت ڕووبدات"""),
           SentencesRow(
             englishText: """They eagerly accepted my offer of hospitality.""",
-            kurdishText:
-                """بەپەرۆشەوە پێشنیاری میواندۆستیمیان پەسەند کرد.""", // eagerly
+            kurdishText: """بەپەرۆشەوە پێشنیاری میواندۆستیمیان پەسەند کرد.""",
             onPressedBritish: () => speakeagerlys1("en-GB"),
             onPressedAmerican: () => speakeagerlys1("en-US"),
           ),

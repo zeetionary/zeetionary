@@ -403,8 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بڕە دەرمانێک کە جارێک یان بە بەردەوامی دەخوردرێت"),
           SentencesRow(
             englishText: "Repeat the dose after 12 hours if necessary.",
-            kurdishText:
-                "ژەمەکە دوای ١٢ کاتژمێر بخۆرەوە ئەگەر پێویست بوو.", // dose
+            kurdishText: "ژەمەکە دوای ١٢ کاتژمێر بخۆرەوە ئەگەر پێویست بوو.",
             onPressedBritish: () => speakdoses1("en-GB"),
             onPressedAmerican: () => speakdoses1("en-US"),
           ),

@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """His speech emphasized the importance of attracting industry to the town.""",
             kurdishText:
-                """وتارەکەی جەختی کردەوە لە ڕاکێشانی پیشەسازی بۆ شارۆچکەکە.""", // emphasize
+                """وتارەکەی جەختی کردەوە لە ڕاکێشانی پیشەسازی بۆ شارۆچکەکە.""",
             onPressedBritish: () => speakemphasizes1("en-GB"),
             onPressedAmerican: () => speakemphasizes1("en-US"),
           ),

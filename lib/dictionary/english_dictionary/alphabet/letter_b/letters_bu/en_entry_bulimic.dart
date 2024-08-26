@@ -136,7 +136,7 @@ class EnglishEntrybulimic extends StatelessWidget {
                             englishText:
                                 "She said she was bulimic up to the age of 36.",
                             kurdishText:
-                                "وتی تووشبووی بولیمیا بوو تا تەمەنی ٣٦ ساڵی.", // bulimic", follow LX strictly
+                                "وتی تووشبووی بولیمیا بوو تا تەمەنی ٣٦ ساڵی.",
                             onPressedBritish: () => speakbulimics1("en-GB"),
                             onPressedAmerican: () => speakbulimics1("en-US"),
                           ),

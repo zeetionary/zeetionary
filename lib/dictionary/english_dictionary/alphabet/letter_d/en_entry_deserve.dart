@@ -256,8 +256,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) شایان بوون"),
           SentencesRow(
             englishText: "You deserve a rest after all that hard work.",
-            kurdishText:
-                "شایانی حەسانەوەیەکی لە دوای ئەو ھەموو کارە سەختە.", // deserve
+            kurdishText: "شایانی حەسانەوەیەکی لە دوای ئەو ھەموو کارە سەختە.",
             onPressedBritish: () => speakdeserves1("en-GB"),
             onPressedAmerican: () => speakdeserves1("en-US"),
           ),

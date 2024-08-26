@@ -180,7 +180,7 @@ class EnglishEntrybutler extends StatelessWidget {
                             englishText:
                                 "The butler announced that dinner was served.",
                             kurdishText:
-                                "سەربەردەستەکە ڕایگەیاند کە نانی ئێوارە ئامادەیە.", // butler", follow LX strictly
+                                "سەربەردەستەکە ڕایگەیاند کە نانی ئێوارە ئامادەیە.",
                             onPressedBritish: () => speakbutlers1("en-GB"),
                             onPressedAmerican: () => speakbutlers1("en-US"),
                           ),

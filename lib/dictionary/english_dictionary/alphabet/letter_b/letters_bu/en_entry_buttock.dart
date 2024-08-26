@@ -179,7 +179,7 @@ class EnglishEntrybuttock extends StatelessWidget {
                             englishText:
                                 "He fell down hard on his right buttock and slid along the path.",
                             kurdishText:
-                                "لەسەر سمتی ڕاستی کەوت و بە ڕێگاکەدا خشا.", // buttock", follow LX strictly
+                                "لەسەر سمتی ڕاستی کەوت و بە ڕێگاکەدا خشا.",
                             onPressedBritish: () => speakbuttocks1("en-GB"),
                             onPressedAmerican: () => speakbuttocks1("en-US"),
                           ),

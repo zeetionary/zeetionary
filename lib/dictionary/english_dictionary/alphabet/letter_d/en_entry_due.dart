@@ -472,7 +472,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The team's success was largely due to her efforts.""",
             kurdishText:
-                """سەرکەوتنی تیمەکە بەشێوەیەکی سەرەکی بەھۆی ھەوڵەکانی ئەو بوو.""", // due
+                """سەرکەوتنی تیمەکە بەشێوەیەکی سەرەکی بەھۆی ھەوڵەکانی ئەو بوو.""",
             onPressedBritish: () => speakdues1("en-GB"),
             onPressedAmerican: () => speakdues1("en-US"),
           ),

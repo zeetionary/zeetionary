@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "This house would have looked daringly modern when it was built.",
             kurdishText:
-                "ئەم خانووە بەشێوەیەکی نامۆ سەردەمیانە دەردەکەوت کە درووستکرا.", // daringly
+                "ئەم خانووە بەشێوەیەکی نامۆ سەردەمیانە دەردەکەوت کە درووستکرا.",
             onPressedBritish: () => speakdaringlys1("en-GB"),
             onPressedAmerican: () => speakdaringlys1("en-US"),
           ),

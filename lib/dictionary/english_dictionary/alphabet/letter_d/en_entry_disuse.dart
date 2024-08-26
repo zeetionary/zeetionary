@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کە شتێک چی دیکە بەکارناھێندرێت"),
           SentencesRow(
             englishText: "The factory fell into disuse twenty years ago.",
-            kurdishText: "کارگەکە ٢٠ ساڵ پێش ئێستا داخرا.", // disuse
+            kurdishText: "کارگەکە ٢٠ ساڵ پێش ئێستا داخرا.",
             onPressedBritish: () => speakdisuses1("en-GB"),
             onPressedAmerican: () => speakdisuses1("en-US"),
           ),

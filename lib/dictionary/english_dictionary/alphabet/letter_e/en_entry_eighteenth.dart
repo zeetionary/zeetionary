@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She celebrated her eighteenth birthday with friends.""",
             kurdishText:
-                """لەگەڵ ھاوڕێیانی ھەژدەیەم ساڵیادی لەدایکبوونی گێڕا.""", // eighteenth
+                """لەگەڵ ھاوڕێیانی ھەژدەیەم ساڵیادی لەدایکبوونی گێڕا.""",
             onPressedBritish: () => speakeighteenths1("en-GB"),
             onPressedAmerican: () => speakeighteenths1("en-US"),
           ),

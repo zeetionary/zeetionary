@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) دواخستنی شتێک تاوەکو کاتێکی دواتر"),
           SentencesRow(
             englishText: "The department deferred the decision for six months.",
-            kurdishText: "بەشەکە بڕیارەکەی بۆ ھەفتەیەک دواخست.", // defer
+            kurdishText: "بەشەکە بڕیارەکەی بۆ ھەفتەیەک دواخست.",
             onPressedBritish: () => speakdefers1("en-GB"),
             onPressedAmerican: () => speakdefers1("en-US"),
           ),

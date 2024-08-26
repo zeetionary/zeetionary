@@ -180,7 +180,7 @@ class EnglishEntryburdensome extends StatelessWidget {
                             englishText:
                                 "The new regulations will be burdensome for small businesses.",
                             kurdishText:
-                                "ڕێسا تازەکان دەکرێت ببنەھۆی بارگرانی بۆ بازرگانییە بچووکەکان.", // burdensome", follow LX strictly
+                                "ڕێسا تازەکان دەکرێت ببنەھۆی بارگرانی بۆ بازرگانییە بچووکەکان.",
                             onPressedBritish: () => speakburdensomes1("en-GB"),
                             onPressedAmerican: () => speakburdensomes1("en-US"),
                           ),

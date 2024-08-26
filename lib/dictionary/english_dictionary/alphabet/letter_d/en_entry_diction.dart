@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "It is very helpful for a language teacher to have good diction.",
-            kurdishText:
-                "زۆرباش دەبێت بۆ مامۆستای زمان کە گۆکردنی باش بێت.", // diction
+            kurdishText: "زۆرباش دەبێت بۆ مامۆستای زمان کە گۆکردنی باش بێت.",
             onPressedBritish: () => speakdictions1("en-GB"),
             onPressedAmerican: () => speakdictions1("en-US"),
           ),

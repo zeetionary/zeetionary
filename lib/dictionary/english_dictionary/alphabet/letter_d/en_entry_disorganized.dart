@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە ڕێکخراو نییە"),
           SentencesRow(
             englishText: "It was a hectic disorganized weekend.",
-            kurdishText: "کۆتاییەکی ھەفتەی جەنجاڵی ناڕێک بوو.", // disorganized
+            kurdishText: "کۆتاییەکی ھەفتەی جەنجاڵی ناڕێک بوو.",
             onPressedBritish: () => speakdisorganizeds1("en-GB"),
             onPressedAmerican: () => speakdisorganizeds1("en-US"),
           ),

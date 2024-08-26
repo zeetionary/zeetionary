@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) نەویستنی ئەوەی لەسەر کەسێک/شتێک بزانیت"),
           SentencesRow(
             englishText: "He was totally uninterested in sport.",
-            kurdishText:
-                "تەواو ناتامەزرۆ دیاربوو سەبارەت بە وەرزش.", // uninterested
+            kurdishText: "تەواو ناتامەزرۆ دیاربوو سەبارەت بە وەرزش.",
             onPressedBritish: () => speakuninteresteds1("en-GB"),
             onPressedAmerican: () => speakuninteresteds1("en-US"),
           ),

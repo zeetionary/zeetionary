@@ -266,7 +266,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پێوەرێک کە پلەی گەرمی، خێرایی، کات، بڕ، ھتد دەخوێنێتەوە"),
           SentencesRow(
             englishText: "Check the tyre pressure on the dial.",
-            kurdishText: "لەسەر پێوەرەکە ھەوای تایەکە بپشکنە.", // dial
+            kurdishText: "لەسەر پێوەرەکە ھەوای تایەکە بپشکنە.",
             onPressedBritish: () => speakdials1("en-GB"),
             onPressedAmerican: () => speakdials1("en-US"),
           ),

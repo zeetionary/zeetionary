@@ -135,8 +135,7 @@ class EnglishEntrybullet extends StatelessWidget {
                           const DefinitionKurdish(text: """١. (ناو) فیشەک"""),
                           SentencesRow(
                             englishText: "There were bullet holes in the door.",
-                            kurdishText:
-                                "کونی فیشەک لە دەرگاکەدا ھەبوو.", // bullet", follow LX strictly
+                            kurdishText: "کونی فیشەک لە دەرگاکەدا ھەبوو.",
                             onPressedBritish: () => speakbullets1("en-GB"),
                             onPressedAmerican: () => speakbullets1("en-US"),
                           ),

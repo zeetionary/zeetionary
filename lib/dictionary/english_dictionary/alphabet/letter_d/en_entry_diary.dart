@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کتێبێک کە دەتوانی ئەزموونی ڕۆژانە، بیرکردنەوەی کەسی، ھتد ـی تێدا بنووسیت"),
           SentencesRow(
             englishText: "Do you keep a diary (= write one regularly)?",
-            kurdishText: "یادنامەت ھەیە؟", // diary
+            kurdishText: "یادنامەت ھەیە؟",
             onPressedBritish: () => speakdiarys1("en-GB"),
             onPressedAmerican: () => speakdiarys1("en-US"),
           ),

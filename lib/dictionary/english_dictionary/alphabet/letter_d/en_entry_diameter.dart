@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The diameter of the tree trunk was more than a metre.",
-            kurdishText: "تیرەی دارەکە زیاتر لە مەترێک بوو.", // diameter
+            kurdishText: "تیرەی دارەکە زیاتر لە مەترێک بوو.",
             onPressedBritish: () => speakdiameters1("en-GB"),
             onPressedAmerican: () => speakdiameters1("en-US"),
           ),

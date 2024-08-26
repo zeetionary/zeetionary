@@ -363,8 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The competition judges were given a very difficult task.",
-            kurdishText:
-                "دادوەرەکانی ڕکابەرییەکە ئەرکێکی زۆر قورسیان پێدرا.", // difficult
+            kurdishText: "دادوەرەکانی ڕکابەرییەکە ئەرکێکی زۆر قورسیان پێدرا.",
             onPressedBritish: () => speakdifficults1("en-GB"),
             onPressedAmerican: () => speakdifficults1("en-US"),
           ),

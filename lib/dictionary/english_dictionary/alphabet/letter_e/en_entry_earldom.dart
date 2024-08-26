@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) لە پێگەیەکی خانەدانی بەرز لە بەریتانیا؛ ئەو خاکەی کە خانەدانێکی بەرز لە بەریتانیا ھەیەتی"""),
           SentencesRow(
             englishText: """He inherited the earldom from his father.""",
-            kurdishText: """ئێرڵایەتی لە باوکییەوە بۆ مایەوە.""", // earldom
+            kurdishText: """ئێرڵایەتی لە باوکییەوە بۆ مایەوە.""",
             onPressedBritish: () => speakearldoms1("en-GB"),
             onPressedAmerican: () => speakearldoms1("en-US"),
           ),

@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) ناردنی کەسێک/شتێک بۆ شوێنێک، بەتایبەتی بۆ مەبەستێکی دیاریکراو"),
           SentencesRow(
             englishText: "Troops have been dispatched to the area.",
-            kurdishText: "ھێز بۆ ناوچەکە نێردراون.", // dispatch
+            kurdishText: "ھێز بۆ ناوچەکە نێردراون.",
             onPressedBritish: () => speakdispatchs1("en-GB"),
             onPressedAmerican: () => speakdispatchs1("en-US"),
           ),

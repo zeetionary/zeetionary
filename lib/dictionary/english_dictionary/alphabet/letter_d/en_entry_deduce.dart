@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) گەڵاڵەکردنی بۆچوونێک لەسەر شتێک بەپشتبەستن بەو زانیارییانەی کە ھەتە"),
           SentencesRow(
             englishText: "We can deduce a lot from what people choose to buy.",
-            kurdishText:
-                "دەتوانیت زۆر شت تێبگەین لەوەی کە خەڵکی دەیکڕن.", // deduce
+            kurdishText: "دەتوانیت زۆر شت تێبگەین لەوەی کە خەڵکی دەیکڕن.",
             onPressedBritish: () => speakdeduces1("en-GB"),
             onPressedAmerican: () => speakdeduces1("en-US"),
           ),

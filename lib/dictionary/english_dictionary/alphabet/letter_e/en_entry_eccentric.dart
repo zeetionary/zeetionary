@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """His behaviour grew increasingly eccentric as time went on.""",
-            kurdishText:
-                """کە کات تێدەپەڕی ڕەفتاری زیاتر نامۆ دەبوو.""", // eccentric
+            kurdishText: """کە کات تێدەپەڕی ڕەفتاری زیاتر نامۆ دەبوو.""",
             onPressedBritish: () => speakeccentrics1("en-GB"),
             onPressedAmerican: () => speakeccentrics1("en-US"),
           ),

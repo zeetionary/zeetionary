@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) لێفەیەک کە پڕە لە پەڕ و دەیدەیت بەسەر خۆتدا بۆ مانەوە بە گەرمی"""),
           SentencesRow(
             englishText: """He flung back the duvet and got out of bed.""",
-            kurdishText: """لێفەکەی ھەڵدایەوە و ھەستایە سەر پێ.""", // duvet
+            kurdishText: """لێفەکەی ھەڵدایەوە و ھەستایە سەر پێ.""",
             onPressedBritish: () => speakduvets1("en-GB"),
             onPressedAmerican: () => speakduvets1("en-US"),
           ),

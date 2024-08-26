@@ -260,8 +260,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ڕقێکی بەھێز بۆ کەسێک/شتێک کە پێتوایە پەسەند نییە، یان بۆ شتێک کە بۆنی، شێوەی، ھتد ناشرینە"),
           SentencesRow(
             englishText: "I can only feel disgust for these criminals.",
-            kurdishText:
-                "تەنھا ھەست بە ڕق دەکەم بۆ ئەم تاوانکارانە.", // disgust
+            kurdishText: "تەنھا ھەست بە ڕق دەکەم بۆ ئەم تاوانکارانە.",
             onPressedBritish: () => speakdisgusts1("en-GB"),
             onPressedAmerican: () => speakdisgusts1("en-US"),
           ),

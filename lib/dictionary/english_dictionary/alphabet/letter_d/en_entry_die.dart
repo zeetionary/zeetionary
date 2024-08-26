@@ -389,8 +389,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) وەستان لە ژیان"),
           SentencesRow(
             englishText: "My father died suddenly at the age of 48.",
-            kurdishText:
-                "باوکم lەناکاو لە تەمەنی ٤٨ ساڵیدا گیانی سپارد.", // die
+            kurdishText: "باوکم lەناکاو لە تەمەنی ٤٨ ساڵیدا گیانی سپارد.",
             onPressedBritish: () => speakdies1("en-GB"),
             onPressedAmerican: () => speakdies1("en-US"),
           ),

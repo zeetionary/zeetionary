@@ -293,7 +293,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) ھەڵکەندن"),
           SentencesRow(
             englishText: "I think I'll do some digging in the garden.",
-            kurdishText: "پێموایە کەمێک ھەڵکەندن لە باخچەکەدا دەکەم.", // dig
+            kurdishText: "پێموایە کەمێک ھەڵکەندن لە باخچەکەدا دەکەم.",
             onPressedBritish: () => speakdigs1("en-GB"),
             onPressedAmerican: () => speakdigs1("en-US"),
           ),

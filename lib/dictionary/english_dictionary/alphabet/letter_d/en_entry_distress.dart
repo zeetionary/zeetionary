@@ -404,8 +404,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ھەستی نیگەرانی یان بێزاری زۆر"),
           SentencesRow(
             englishText: "She sensed his deep emotional distress.",
-            kurdishText:
-                "ھەستی بە دڵتەنگییە قووڵە سۆزدارییەکەی کرد.", // distress
+            kurdishText: "ھەستی بە دڵتەنگییە قووڵە سۆزدارییەکەی کرد.",
             onPressedBritish: () => speakdistresss1("en-GB"),
             onPressedAmerican: () => speakdistresss1("en-US"),
           ),

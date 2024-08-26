@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) کە کەسێک تووشی نیگەرانی، شڵەژاوی، یان شەرمەزاری دەکات"),
           SentencesRow(
             englishText: "His answer rather disconcerted her.",
-            kurdishText: "وەڵامەکەی تا ڕادەیەک نیگەرانی کرد.", // disconcert
+            kurdishText: "وەڵامەکەی تا ڕادەیەک نیگەرانی کرد.",
             onPressedBritish: () => speakdisconcerts1("en-GB"),
             onPressedAmerican: () => speakdisconcerts1("en-US"),
           ),

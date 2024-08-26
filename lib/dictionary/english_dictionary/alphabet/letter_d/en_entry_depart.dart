@@ -260,8 +260,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) جێھێشتنی شوێنێک، بەتایبەتی بۆ دەستپێکردنی گەشتێک"),
           SentencesRow(
             englishText: "Flights for Rome depart from Terminal 3.",
-            kurdishText:
-                "گەشتەکان بۆ ڕۆما لە تێرمیناڵی ٣ ـوە دەستپێدەکەن.", // depart
+            kurdishText: "گەشتەکان بۆ ڕۆما لە تێرمیناڵی ٣ ـوە دەستپێدەکەن.",
             onPressedBritish: () => speakdeparts1("en-GB"),
             onPressedAmerican: () => speakdeparts1("en-US"),
           ),

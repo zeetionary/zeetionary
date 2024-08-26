@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بێئەخلاقی، یان کارێکی لەو شێوەیە"),
           SentencesRow(
             englishText: "People were shocked by the criminal's depravity.",
-            kurdishText: "خەڵکی شۆک بوون بە خراپی تاوانکارەکە.", // depravity
+            kurdishText: "خەڵکی شۆک بوون بە خراپی تاوانکارەکە.",
             onPressedBritish: () => speakdepravitys1("en-GB"),
             onPressedAmerican: () => speakdepravitys1("en-US"),
           ),

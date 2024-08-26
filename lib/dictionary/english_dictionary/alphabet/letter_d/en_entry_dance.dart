@@ -315,7 +315,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) سەما"),
           SentencesRow(
             englishText: "Do you know any other Latin American dances?",
-            kurdishText: "ھیچ سەمایەکی دیکەی ئەمریکای باشووری دەزانی؟", // dance
+            kurdishText: "ھیچ سەمایەکی دیکەی ئەمریکای باشووری دەزانی؟",
             onPressedBritish: () => speakdances1("en-GB"),
             onPressedAmerican: () => speakdances1("en-US"),
           ),

@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We made a short diversion to go and look at the castle.",
             kurdishText:
-                "لادانێکی کورتمان ئەنجامدا بۆ ڕۆشتن و سەیرکردنی قەڵاکە.", // diversion
+                "لادانێکی کورتمان ئەنجامدا بۆ ڕۆشتن و سەیرکردنی قەڵاکە.",
             onPressedBritish: () => speakdiversions1("en-GB"),
             onPressedAmerican: () => speakdiversions1("en-US"),
           ),

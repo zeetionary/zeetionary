@@ -268,7 +268,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The tribesmen used poisoned darts to hunt in the jungle.",
             kurdishText:
-                "پیاوانی تیرەکە دارتی ژەھراوییان بەکاردەھێنا بۆ ڕاوکردن لە جەنگەڵەکە.", // dart
+                "پیاوانی تیرەکە دارتی ژەھراوییان بەکاردەھێنا بۆ ڕاوکردن لە جەنگەڵەکە.",
             onPressedBritish: () => speakdarts1("en-GB"),
             onPressedAmerican: () => speakdarts1("en-US"),
           ),

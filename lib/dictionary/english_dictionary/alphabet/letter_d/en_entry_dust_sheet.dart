@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(word: "ھەروەھا: drop cloth"),
           SentencesRow(
             englishText: """Place dust sheets on valuable furniture.""",
-            kurdishText:
-                """سەرپۆش دابنێ بۆ کەلوپەلی گران‌بەھا.""", // dust sheet
+            kurdishText: """سەرپۆش دابنێ بۆ کەلوپەلی گران‌بەھا.""",
             onPressedBritish: () => speakdustsheets1("en-GB"),
             onPressedAmerican: () => speakdustsheets1("en-US"),
           ),

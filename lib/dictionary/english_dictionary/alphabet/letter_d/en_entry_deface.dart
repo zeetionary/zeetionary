@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) ناشرینکردنی شێوەی شتێک بە تایبەتی بە وێنەکێشان و نووسین لەسەری"),
           SentencesRow(
             englishText: "They were charged with defacing public property.",
-            kurdishText: "تاوانبارکردن بە شێواندنی ماڵی گشتی.", // deface
+            kurdishText: "تاوانبارکردن بە شێواندنی ماڵی گشتی.",
             onPressedBritish: () => speakdefaces1("en-GB"),
             onPressedAmerican: () => speakdefaces1("en-US"),
           ),

@@ -256,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Nuclear testing was resumed in defiance of an international ban.",
             kurdishText:
-                "تاقیکردنەوەی ئەتۆمی بەردەوام بوو بە نافەرمانی قەدەغەی نێودەوڵەتی.", // defiance
+                "تاقیکردنەوەی ئەتۆمی بەردەوام بوو بە نافەرمانی قەدەغەی نێودەوڵەتی.",
             onPressedBritish: () => speakdefiances1("en-GB"),
             onPressedAmerican: () => speakdefiances1("en-US"),
           ),

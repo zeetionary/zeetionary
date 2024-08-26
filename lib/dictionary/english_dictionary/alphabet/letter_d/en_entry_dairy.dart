@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The doctor told me to eat less red meat and dairy.",
             kurdishText:
-                "پزیشکەکە پێی گوتم کە گۆشتی سوور و شیرەمەنی کەمتر بخۆم.", // dairy
+                "پزیشکەکە پێی گوتم کە گۆشتی سوور و شیرەمەنی کەمتر بخۆم.",
             onPressedBritish: () => speakdairys1("en-GB"),
             onPressedAmerican: () => speakdairys1("en-US"),
           ),

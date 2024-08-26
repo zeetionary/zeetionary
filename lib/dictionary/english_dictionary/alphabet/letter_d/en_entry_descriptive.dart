@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The term I used was meant to be purely descriptive (= not judging).",
-            kurdishText:
-                "ئەو وشەیەی بەکارمھێنا تەنھا ناسێنەر بوو.", // descriptive
+            kurdishText: "ئەو وشەیەی بەکارمھێنا تەنھا ناسێنەر بوو.",
             onPressedBritish: () => speakdescriptives1("en-GB"),
             onPressedAmerican: () => speakdescriptives1("en-US"),
           ),

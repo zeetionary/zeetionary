@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The insurance policy covers sudden death or disablement.",
             kurdishText:
-                "ڕێکەوتنی بیمەکە مردنی لەناکاو و کەمئەندامبوون لەخۆدەگرێت.", // disablement
+                "ڕێکەوتنی بیمەکە مردنی لەناکاو و کەمئەندامبوون لەخۆدەگرێت.",
             onPressedBritish: () => speakdisablements1("en-GB"),
             onPressedAmerican: () => speakdisablements1("en-US"),
           ),

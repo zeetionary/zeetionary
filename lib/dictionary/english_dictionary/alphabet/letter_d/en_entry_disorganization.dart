@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The high level of disorganization at the hospital is inexcusable.",
             kurdishText:
-                "ئاستی زۆری بێ‌بەرنامەیی لە نەخۆشخانەکە لەپاساونەھاتووە.", // disorganization
+                "ئاستی زۆری بێ‌بەرنامەیی لە نەخۆشخانەکە لەپاساونەھاتووە.",
             onPressedBritish: () => speakdisorganizations1("en-GB"),
             onPressedAmerican: () => speakdisorganizations1("en-US"),
           ),

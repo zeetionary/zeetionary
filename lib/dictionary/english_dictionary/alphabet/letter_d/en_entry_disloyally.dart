@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "His comment wasn't meant disloyally; it was just a statement of his frustrations.",
             kurdishText:
-                "لێدوانەکەی لە بێوەفایی نەبوو، تەنھا دەربڕینی ناڕەزایەتییەکانی بوو.", // disloyally
+                "لێدوانەکەی لە بێوەفایی نەبوو، تەنھا دەربڕینی ناڕەزایەتییەکانی بوو.",
             onPressedBritish: () => speakdisloyallys1("en-GB"),
             onPressedAmerican: () => speakdisloyallys1("en-US"),
           ),

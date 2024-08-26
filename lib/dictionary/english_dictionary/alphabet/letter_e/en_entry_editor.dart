@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She got a job as a web editor on the local paper.""",
             kurdishText:
-                """کارێکی وەرگرت وەک سەرنووسەری ئینتەرنێتی ڕۆژنامە ناوخۆییەکە.""", // editor
+                """کارێکی وەرگرت وەک سەرنووسەری ئینتەرنێتی ڕۆژنامە ناوخۆییەکە.""",
             onPressedBritish: () => speakeditors1("en-GB"),
             onPressedAmerican: () => speakeditors1("en-US"),
           ),

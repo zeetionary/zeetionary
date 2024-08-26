@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) مردوو"),
           SentencesRow(
             englishText: "His mother is now sadly deceased.",
-            kurdishText: "بەداخەوە دایکی لە ئێستادا مردووە.", // deceased
+            kurdishText: "بەداخەوە دایکی لە ئێستادا مردووە.",
             onPressedBritish: () => speakdeceaseds1("en-GB"),
             onPressedAmerican: () => speakdeceaseds1("en-US"),
           ),

@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) لە نھۆمی خوارتر؛ بەرەو نھۆمی خوارتر"),
           SentencesRow(
             englishText: "I heard someone coming downstairs.",
-            kurdishText: "گوێم لە کەسێک بوو لە خوارەوە دەھات.", // downstairs
+            kurdishText: "گوێم لە کەسێک بوو لە خوارەوە دەھات.",
             onPressedBritish: () => speakdownstairss1("en-GB"),
             onPressedAmerican: () => speakdownstairss1("en-US"),
           ),

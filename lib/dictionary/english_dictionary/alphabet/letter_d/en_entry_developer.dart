@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A local developer is planning to build a supermarket on the site.",
             kurdishText:
-                "وەبەرھێنەرێکی ناوخۆیی پلانی ھەیە سوپەرمارکێتێک لە شوێنەکە درووست بکات.", // developer
+                "وەبەرھێنەرێکی ناوخۆیی پلانی ھەیە سوپەرمارکێتێک لە شوێنەکە درووست بکات.",
             onPressedBritish: () => speakdevelopers1("en-GB"),
             onPressedAmerican: () => speakdevelopers1("en-US"),
           ),

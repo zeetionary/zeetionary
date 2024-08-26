@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) چوارچێوەیەکی دارین کە بۆ گرتنی وێنەیەک بەکاردێت لەکاتێکدا دەکێشرێت"""),
           SentencesRow(
             englishText: """She adjusted the easel to the right height.""",
-            kurdishText: """سێپایەکەی بۆ بەرزییەکی درووست ڕێکخست.""", // easel
+            kurdishText: """سێپایەکەی بۆ بەرزییەکی درووست ڕێکخست.""",
             onPressedBritish: () => speakeasels1("en-GB"),
             onPressedAmerican: () => speakeasels1("en-US"),
           ),

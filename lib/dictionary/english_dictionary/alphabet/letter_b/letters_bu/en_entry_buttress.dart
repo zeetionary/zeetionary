@@ -182,7 +182,7 @@ class EnglishEntrybuttress extends StatelessWidget {
                             englishText:
                                 "It was necessary to strengthen the building with large external buttresses.",
                             kurdishText:
-                                "گرنگ بوو بیناکە بەھێز بکرێت بە پاڵپشتی گەورەی دەرەکی.", // buttress", follow LX strictly
+                                "گرنگ بوو بیناکە بەھێز بکرێت بە پاڵپشتی گەورەی دەرەکی.",
                             onPressedBritish: () => speakbuttresss1("en-GB"),
                             onPressedAmerican: () => speakbuttresss1("en-US"),
                           ),

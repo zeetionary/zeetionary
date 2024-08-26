@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "If the goods are defective you should get a full refund.",
             kurdishText:
-                "ئەگەر کەلوپەلەکان خەوشدار بوون دەبێت گەڕاندنەوەی تەواو وەربگریت.", // defective
+                "ئەگەر کەلوپەلەکان خەوشدار بوون دەبێت گەڕاندنەوەی تەواو وەربگریت.",
             onPressedBritish: () => speakdefectives1("en-GB"),
             onPressedAmerican: () => speakdefectives1("en-US"),
           ),

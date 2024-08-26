@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ماوەی دە ساڵ، بەتایبەتی بە دوای یەکدا"),
           SentencesRow(
             englishText: "The nineties were a decade of rapid advances.",
-            kurdishText: "نەوەدەکان دەیەی پێشکەوتنێکی خێرا بوو.", // decade
+            kurdishText: "نەوەدەکان دەیەی پێشکەوتنێکی خێرا بوو.",
             onPressedBritish: () => speakdecades1("en-GB"),
             onPressedAmerican: () => speakdecades1("en-US"),
           ),

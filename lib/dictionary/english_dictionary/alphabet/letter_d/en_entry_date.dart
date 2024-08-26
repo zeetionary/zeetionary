@@ -423,7 +423,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بەروار؛ ڕۆژێکی دیاریکراوی مانگ"),
           SentencesRow(
             englishText: "Write today's date at the top of the page.",
-            kurdishText: "ڕێکەوتی ئەمڕۆ لە سەرەوەی پەڕەکە بنووسە.", // date
+            kurdishText: "ڕێکەوتی ئەمڕۆ لە سەرەوەی پەڕەکە بنووسە.",
             onPressedBritish: () => speakdates1("en-GB"),
             onPressedAmerican: () => speakdates1("en-US"),
           ),

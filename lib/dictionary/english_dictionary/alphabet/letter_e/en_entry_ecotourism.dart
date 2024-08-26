@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Ecotourism is financing rainforest preservation.""",
             kurdishText:
-                """ژینگەگەڕوانی خەرجی پاراستنی دارستانە باراناوییەکە دەکات.""", // ecotourism
+                """ژینگەگەڕوانی خەرجی پاراستنی دارستانە باراناوییەکە دەکات.""",
             onPressedBritish: () => speakecotourisms1("en-GB"),
             onPressedAmerican: () => speakecotourisms1("en-US"),
           ),

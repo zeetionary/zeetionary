@@ -180,8 +180,7 @@ class EnglishEntrybust extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (کردار) شکاندن"),
                           SentencesRow(
                             englishText: "I bust my camera.",
-                            kurdishText:
-                                "کامێراکەمم شکاند.", // bust", follow LX strictly
+                            kurdishText: "کامێراکەمم شکاند.",
                             onPressedBritish: () => speakbusts1("en-GB"),
                             onPressedAmerican: () => speakbusts1("en-US"),
                           ),

@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She was so tired, her eyelids were beginning to droop.",
-            kurdishText:
-                "زۆر ماندوو بوو کە پێڵووی چاوانی شۆڕبووبوونەوە.", // droop
+            kurdishText: "زۆر ماندوو بوو کە پێڵووی چاوانی شۆڕبووبوونەوە.",
             onPressedBritish: () => speakdroops1("en-GB"),
             onPressedAmerican: () => speakdroops1("en-US"),
           ),

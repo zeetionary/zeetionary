@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "In lists, \"ditto\" (\") is used as a symbol to mean \"the same\" and avoid repeating words.",
             kurdishText:
-                "لە لیستدا دیتۆ وەک سمبولێک بەکاردێت بۆ دووربوون لە دووبارەکردنەوەی وشە.", // ditto
+                "لە لیستدا دیتۆ وەک سمبولێک بەکاردێت بۆ دووربوون لە دووبارەکردنەوەی وشە.",
             onPressedBritish: () => speakdittos1("en-GB"),
             onPressedAmerican: () => speakdittos1("en-US"),
           ),

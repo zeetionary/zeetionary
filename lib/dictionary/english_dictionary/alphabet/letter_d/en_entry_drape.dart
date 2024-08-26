@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) دانانی جلێک یان قوماشێک بەسەر کەسێک/شتێک"),
           SentencesRow(
             englishText: "She had a shawl draped around her shoulders.",
-            kurdishText: "دەسماڵیکی دابوو بەسەر شانیدا.", // drape
+            kurdishText: "دەسماڵیکی دابوو بەسەر شانیدا.",
             onPressedBritish: () => speakdrapes1("en-GB"),
             onPressedAmerican: () => speakdrapes1("en-US"),
           ),

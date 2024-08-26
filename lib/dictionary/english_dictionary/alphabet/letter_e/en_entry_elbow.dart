@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) جومگەی ناوەڕاستی باڵ لە بەشی سەرەوە و خوارەوە کە تێیدا لە ناوەڕاستدا دەچەمێتەوە"""),
           SentencesRow(
             englishText: """She jabbed him with her elbow.""",
-            kurdishText: """بە ئانیشکی پاڵی پێوە نا.""", // elbow
+            kurdishText: """بە ئانیشکی پاڵی پێوە نا.""",
             onPressedBritish: () => speakelbows1("en-GB"),
             onPressedAmerican: () => speakelbows1("en-US"),
           ),

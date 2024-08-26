@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) بەشێوەی فێڵاوی و لەخشتەبەرانە"),
           SentencesRow(
             englishText: "He got rich by devious means.",
-            kurdishText: "بە ڕێگای لەخشتەبەر دەوڵەمەند بوو.", // devious
+            kurdishText: "بە ڕێگای لەخشتەبەر دەوڵەمەند بوو.",
             onPressedBritish: () => speakdeviouss1("en-GB"),
             onPressedAmerican: () => speakdeviouss1("en-US"),
           ),

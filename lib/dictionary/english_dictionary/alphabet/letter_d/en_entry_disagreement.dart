@@ -265,7 +265,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Disagreement arose about exactly how to plan the holiday.",
             kurdishText:
-                "ناکۆکی دەستیپێکرد لەسەر ئەوەی چۆن پلانی پشووەکە دابنرێت.", // disagreement
+                "ناکۆکی دەستیپێکرد لەسەر ئەوەی چۆن پلانی پشووەکە دابنرێت.",
             onPressedBritish: () => speakdisagreements1("en-GB"),
             onPressedAmerican: () => speakdisagreements1("en-US"),
           ),

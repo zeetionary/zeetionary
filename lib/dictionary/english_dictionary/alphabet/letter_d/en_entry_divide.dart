@@ -556,7 +556,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) دابەشکردن"),
           SentencesRow(
             englishText: "The cells began to divide rapidly.",
-            kurdishText: "خانەکان بەخێرایی دەستیان بە دابەشبوون کرد.", // divide
+            kurdishText: "خانەکان بەخێرایی دەستیان بە دابەشبوون کرد.",
             onPressedBritish: () => speakdivides1("en-GB"),
             onPressedAmerican: () => speakdivides1("en-US"),
           ),

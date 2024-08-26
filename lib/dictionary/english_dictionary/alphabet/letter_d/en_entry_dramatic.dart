@@ -408,7 +408,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "There has been a dramatic rise in reported crime.",
             kurdishText:
-                "بەرزبوونەوەیەکی بەرچاو لە ڕێژەی تاوانی ڕاگەیەندراو ڕوویداوە.", // dramatic
+                "بەرزبوونەوەیەکی بەرچاو لە ڕێژەی تاوانی ڕاگەیەندراو ڕوویداوە.",
             onPressedBritish: () => speakdramatics1("en-GB"),
             onPressedAmerican: () => speakdramatics1("en-US"),
           ),

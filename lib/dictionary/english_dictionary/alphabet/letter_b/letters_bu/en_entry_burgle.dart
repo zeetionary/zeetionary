@@ -179,8 +179,7 @@ class EnglishEntryburgle extends StatelessWidget {
 ١. (کردار) چوونە بینایەک بە نایاسایی و بەکارھێنانی ھێز بە مەبەستی دزیکردن"""),
                           SentencesRow(
                             englishText: "The house next door was burgled.",
-                            kurdishText:
-                                "ماڵی دراوسێمان دزی لێکرا.", // burgle", follow LX strictly
+                            kurdishText: "ماڵی دراوسێمان دزی لێکرا.",
                             onPressedBritish: () => speakburgles1("en-GB"),
                             onPressedAmerican: () => speakburgles1("en-US"),
                           ),

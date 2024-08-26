@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The paperback/hardback edition of his book is published in July.""",
             kurdishText:
-                """وەشانی کاغەزی ئەم کتێبە لە تەمموزدا بڵاودەکرێتەوە.""", // edition
+                """وەشانی کاغەزی ئەم کتێبە لە تەمموزدا بڵاودەکرێتەوە.""",
             onPressedBritish: () => speakeditions1("en-GB"),
             onPressedAmerican: () => speakeditions1("en-US"),
           ),

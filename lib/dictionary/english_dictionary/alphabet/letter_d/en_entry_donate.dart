@@ -383,8 +383,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) بەخشینی پارە، کەلوپەل، خواردن، ھتد"),
           SentencesRow(
             englishText: "He donated thousands of pounds to charity.",
-            kurdishText:
-                "ھەزاران پاوەندی بەخشی بە ڕێکخراوی خێرخوازی.", // donate
+            kurdishText: "ھەزاران پاوەندی بەخشی بە ڕێکخراوی خێرخوازی.",
             onPressedBritish: () => speakdonates1("en-GB"),
             onPressedAmerican: () => speakdonates1("en-US"),
           ),

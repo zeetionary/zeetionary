@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The crabs emerge at low tide to look for food.""",
             kurdishText:
-                """قرژاڵەکان لە شەپۆلی نزمدا دەردەکەون بۆ  گەڕان بۆ خواردن.""", // emerge
+                """قرژاڵەکان لە شەپۆلی نزمدا دەردەکەون بۆ  گەڕان بۆ خواردن.""",
             onPressedBritish: () => speakemerges1("en-GB"),
             onPressedAmerican: () => speakemerges1("en-US"),
           ),

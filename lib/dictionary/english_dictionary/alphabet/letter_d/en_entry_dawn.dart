@@ -277,7 +277,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کاتی ڕۆژ کە خۆر ھەڵدێت"),
           SentencesRow(
             englishText: "They start work at dawn.",
-            kurdishText: "لە بەرەبەیاندا دەست بە کار دەکەن.", // dawn
+            kurdishText: "لە بەرەبەیاندا دەست بە کار دەکەن.",
             onPressedBritish: () => speakdawns1("en-GB"),
             onPressedAmerican: () => speakdawns1("en-US"),
           ),

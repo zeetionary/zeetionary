@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We were dozing lazily in the sun when a loud noise woke us.",
             kurdishText:
-                "تەمبەڵانە لە پێش ھەتاوەکە خەوتبووین کە دەنگێکی بەرز خەبەری کردینەوە.", // doze
+                "تەمبەڵانە لە پێش ھەتاوەکە خەوتبووین کە دەنگێکی بەرز خەبەری کردینەوە.",
             onPressedBritish: () => speakdozes1("en-GB"),
             onPressedAmerican: () => speakdozes1("en-US"),
           ),

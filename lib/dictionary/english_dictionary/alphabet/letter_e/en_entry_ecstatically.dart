@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵکار) بەشێوەیەکی دڵخۆشانە و بەجۆش"""),
           SentencesRow(
             englishText: """For a time, we were ecstatically happy.""",
-            kurdishText:
-                """بۆ ماوەیەک، بە تین‌وگوڕەوە دڵخۆش بووین.""", // ecstatically
+            kurdishText: """بۆ ماوەیەک، بە تین‌وگوڕەوە دڵخۆش بووین.""",
             onPressedBritish: () => speakecstaticallys1("en-GB"),
             onPressedAmerican: () => speakecstaticallys1("en-US"),
           ),

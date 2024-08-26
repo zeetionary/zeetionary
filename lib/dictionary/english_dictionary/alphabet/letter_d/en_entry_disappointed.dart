@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The singer has promised to refund any disappointed fans.",
             kurdishText:
-                "گۆرانیبێژەکە بەڵێنی داوە قەرەبووی ھەر ھەوادارێکی نائوومێد بکاتەوە.", // disappointed
+                "گۆرانیبێژەکە بەڵێنی داوە قەرەبووی ھەر ھەوادارێکی نائوومێد بکاتەوە.",
             onPressedBritish: () => speakdisappointeds1("en-GB"),
             onPressedAmerican: () => speakdisappointeds1("en-US"),
           ),

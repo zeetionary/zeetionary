@@ -417,7 +417,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) مادەیەکی نایاسایی بەکاریدەھێنن بۆ کاریگەرییە دەروونی و جەستەییەکانی"),
           SentencesRow(
             englishText: "He does not smoke or take drugs.",
-            kurdishText: "جگەرە و مادەی ھۆشبەر ناکێشێت.", // drug
+            kurdishText: "جگەرە و مادەی ھۆشبەر ناکێشێت.",
             onPressedBritish: () => speakdrugs1("en-GB"),
             onPressedAmerican: () => speakdrugs1("en-US"),
           ),

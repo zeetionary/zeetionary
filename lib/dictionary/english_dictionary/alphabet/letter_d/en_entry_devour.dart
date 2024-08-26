@@ -258,7 +258,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) خواردنی تەواوی شتێک بە خێرایی"),
           SentencesRow(
             englishText: "He devoured half of his burger in one bite.",
-            kurdishText: "نیوەی لەفەکەی بە یەک قەپ ھەڵلووشی.", // devour
+            kurdishText: "نیوەی لەفەکەی بە یەک قەپ ھەڵلووشی.",
             onPressedBritish: () => speakdevours1("en-GB"),
             onPressedAmerican: () => speakdevours1("en-US"),
           ),

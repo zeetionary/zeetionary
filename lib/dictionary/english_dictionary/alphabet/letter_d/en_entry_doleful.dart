@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She had a doleful expression after hearing the sad news.",
             kurdishText:
-                "دەربڕینێکی ماتەم‌باری ھەبوو لە دوای بیستنی ھەواڵە خەمناکە.", // doleful
+                "دەربڕینێکی ماتەم‌باری ھەبوو لە دوای بیستنی ھەواڵە خەمناکە.",
             onPressedBritish: () => speakdolefuls1("en-GB"),
             onPressedAmerican: () => speakdolefuls1("en-US"),
           ),

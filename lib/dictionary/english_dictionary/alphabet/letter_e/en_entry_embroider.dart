@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) چنینی شێوە و وێنە لەسەر جلوبەرگ بۆ جوانکاری"""),
           SentencesRow(
             englishText: """I am embroidering this picture for my mother.""",
-            kurdishText: """ئەم وێنەیە بۆ دایلم دەچنم.""", // embroider
+            kurdishText: """ئەم وێنەیە بۆ دایلم دەچنم.""",
             onPressedBritish: () => speakembroiders1("en-GB"),
             onPressedAmerican: () => speakembroiders1("en-US"),
           ),

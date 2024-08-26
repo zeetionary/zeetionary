@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She checked the docket to ensure the delivery was going to the correct address.",
             kurdishText:
-                "پوختەکەی پشکنی بۆ دڵنیایی کردنەوەی ئەوەی کە گەیاندنەکە بۆ ناونیشانی درووست دەچوو.", // docket
+                "پوختەکەی پشکنی بۆ دڵنیایی کردنەوەی ئەوەی کە گەیاندنەکە بۆ ناونیشانی درووست دەچوو.",
             onPressedBritish: () => speakdockets1("en-GB"),
             onPressedAmerican: () => speakdockets1("en-US"),
           ),

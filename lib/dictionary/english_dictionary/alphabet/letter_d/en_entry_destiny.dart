@@ -269,7 +269,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The destinies of five nations were decided at the peace conference.",
             kurdishText:
-                "چارەنووسی پێنج وڵات لە کۆنفرانسەکەی ئاشتی دیاری دەکران.", // destiny
+                "چارەنووسی پێنج وڵات لە کۆنفرانسەکەی ئاشتی دیاری دەکران.",
             onPressedBritish: () => speakdestinys1("en-GB"),
             onPressedAmerican: () => speakdestinys1("en-US"),
           ),

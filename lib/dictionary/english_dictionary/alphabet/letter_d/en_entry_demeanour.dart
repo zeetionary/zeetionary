@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ڕەفتار و ھەڵسوکەوتی کەسێک"),
           SentencesRow(
             englishText: "He maintained a professional demeanour throughout.",
-            kurdishText:
-                "تەواوی ماوەکە ھەڵسوکەوتی پڕۆفیشناڵانەی پاراست.", // demeanour
+            kurdishText: "تەواوی ماوەکە ھەڵسوکەوتی پڕۆفیشناڵانەی پاراست.",
             onPressedBritish: () => speakdemeanours1("en-GB"),
             onPressedAmerican: () => speakdemeanours1("en-US"),
           ),

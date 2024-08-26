@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The plane disintegrated as it fell into the sea.",
             kurdishText:
-                "فڕۆکەکە پارچەپارچە بوو کە کەوتە ناو دەریاکەوە.", // disintegrate
+                "فڕۆکەکە پارچەپارچە بوو کە کەوتە ناو دەریاکەوە.",
             onPressedBritish: () => speakdisintegrates1("en-GB"),
             onPressedAmerican: () => speakdisintegrates1("en-US"),
           ),

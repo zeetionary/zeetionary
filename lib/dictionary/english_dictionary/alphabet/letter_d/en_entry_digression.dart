@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "After several digressions, he finally got to the point.",
             kurdishText:
-                "لە دوای ژمارەیەک لادان لە باسەکە، لەکۆتاییدا چووە سەر باسەکە.", // digression
+                "لە دوای ژمارەیەک لادان لە باسەکە، لەکۆتاییدا چووە سەر باسەکە.",
             onPressedBritish: () => speakdigressions1("en-GB"),
             onPressedAmerican: () => speakdigressions1("en-US"),
           ),

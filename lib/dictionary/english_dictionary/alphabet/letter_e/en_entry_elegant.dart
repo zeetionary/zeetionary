@@ -386,7 +386,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵناو) سەرنجڕاکێش و جوان"""),
           SentencesRow(
             englishText: """She was tall and elegant.""",
-            kurdishText: """درێژ و شۆخ‌وشەنگ بوو.""", // elegant
+            kurdishText: """درێژ و شۆخ‌وشەنگ بوو.""",
             onPressedBritish: () => speakelegants1("en-GB"),
             onPressedAmerican: () => speakelegants1("en-US"),
           ),

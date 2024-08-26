@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) دانانی سنوورێک بۆ شتێک"),
           SentencesRow(
             englishText: "Plots of land have been demarcated by barbed wire.",
-            kurdishText: "پارچە زەوی بە تەلی دڕکاوی کێشراون.", // demarcate
+            kurdishText: "پارچە زەوی بە تەلی دڕکاوی کێشراون.",
             onPressedBritish: () => speakdemarcates1("en-GB"),
             onPressedAmerican: () => speakdemarcates1("en-US"),
           ),

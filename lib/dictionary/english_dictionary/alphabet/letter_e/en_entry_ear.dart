@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) گوێ"""),
           SentencesRow(
             englishText: """He put his hands over his ears.""",
-            kurdishText: """دەستەکانی خستە سەر گوێی.""", // ear
+            kurdishText: """دەستەکانی خستە سەر گوێی.""",
             onPressedBritish: () => speakears1("en-GB"),
             onPressedAmerican: () => speakears1("en-US"),
           ),

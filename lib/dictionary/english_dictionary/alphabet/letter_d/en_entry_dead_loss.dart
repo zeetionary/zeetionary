@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He may be a very talented designer, but as a manager he's a dead loss.",
             kurdishText:
-                "لەوانەیە دیزاینەرێکی زۆر بەھرەدار بێت، بەڵام وەک بەڕێوەبەرێک زۆر بێ کەڵکە.", // dead loss
+                "لەوانەیە دیزاینەرێکی زۆر بەھرەدار بێت، بەڵام وەک بەڕێوەبەرێک زۆر بێ کەڵکە.",
             onPressedBritish: () => speakdeadlosss1("en-GB"),
             onPressedAmerican: () => speakdeadlosss1("en-US"),
           ),

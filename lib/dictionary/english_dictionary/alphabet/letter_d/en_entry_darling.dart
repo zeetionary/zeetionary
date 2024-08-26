@@ -251,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بۆ ناوھێنانی کەسێک کە خۆشت دەوێت"),
           SentencesRow(
             englishText: "What's the matter, darling?",
-            kurdishText: "چی باسە ئازیزەکەم؟", // darling
+            kurdishText: "چی باسە ئازیزەکەم؟",
             onPressedBritish: () => speakdarlings1("en-GB"),
             onPressedAmerican: () => speakdarlings1("en-US"),
           ),

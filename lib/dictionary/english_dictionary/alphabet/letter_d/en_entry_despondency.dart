@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ھەستی دڵتەنگی و بێ‌ھیوایی"),
           SentencesRow(
             englishText: "Life's not all gloom and despondency.",
-            kurdishText: "ژیان ھەموو پەژارەیی و خەفەتباری نییە.", // despondency
+            kurdishText: "ژیان ھەموو پەژارەیی و خەفەتباری نییە.",
             onPressedBritish: () => speakdespondencys1("en-GB"),
             onPressedAmerican: () => speakdespondencys1("en-US"),
           ),

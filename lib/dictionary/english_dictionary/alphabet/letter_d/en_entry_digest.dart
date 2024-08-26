@@ -298,7 +298,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) ھەرسکردنی خۆراک"),
           SentencesRow(
             englishText: "Humans cannot digest plants such as grass.",
-            kurdishText: "مرۆڤ ناتوانێت ڕووەکی وەک گیا ھەرس بکات.", // digest
+            kurdishText: "مرۆڤ ناتوانێت ڕووەکی وەک گیا ھەرس بکات.",
             onPressedBritish: () => speakdigests1("en-GB"),
             onPressedAmerican: () => speakdigests1("en-US"),
           ),

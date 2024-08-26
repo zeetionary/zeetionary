@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) سەرخۆش یان کە زۆرجار سەرخۆش دەبێت"),
           SentencesRow(
             englishText: "She decided to leave her drunken husband.",
-            kurdishText: "بڕیاریدا ھاوسەرە سەرخۆشەکەی بەجێبھێڵێت.", // drunken
+            kurdishText: "بڕیاریدا ھاوسەرە سەرخۆشەکەی بەجێبھێڵێت.",
             onPressedBritish: () => speakdrunkens1("en-GB"),
             onPressedAmerican: () => speakdrunkens1("en-US"),
           ),

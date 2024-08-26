@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) سەرقاڵکردنی کەسێک"),
           SentencesRow(
             englishText: "You're distracting me from my work.",
-            kurdishText: "لە کارەکەم سەرقاڵم دەکەیت.", // distract
+            kurdishText: "لە کارەکەم سەرقاڵم دەکەیت.",
             onPressedBritish: () => speakdistracts1("en-GB"),
             onPressedAmerican: () => speakdistracts1("en-US"),
           ),

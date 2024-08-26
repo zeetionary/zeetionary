@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) یانەیەک، ئاھەنگێک، یان بۆنەیەک کە تێیدا خەڵکی سەما لەگەڵ میوزیک دەکەن"),
           SentencesRow(
             englishText: "Are you going to the Christmas disco?",
-            kurdishText: "دەچیت بۆ سەمای کریسمس؟", // disco
+            kurdishText: "دەچیت بۆ سەمای کریسمس؟",
             onPressedBritish: () => speakdiscos1("en-GB"),
             onPressedAmerican: () => speakdiscos1("en-US"),
           ),

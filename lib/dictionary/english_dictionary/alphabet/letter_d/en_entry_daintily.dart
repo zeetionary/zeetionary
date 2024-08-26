@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەوریاییەوە کە ڕەفتاری باش پیشان دەدات"),
           SentencesRow(
             englishText: "She blew her nose as daintily as possible.",
-            kurdishText: "ھەتا توانی بە وریایی لووتی پاککردەوە.", // daintily
+            kurdishText: "ھەتا توانی بە وریایی لووتی پاککردەوە.",
             onPressedBritish: () => speakdaintilys1("en-GB"),
             onPressedAmerican: () => speakdaintilys1("en-US"),
           ),

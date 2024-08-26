@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵکار) بەبێ قسەکردن"""),
           SentencesRow(
             englishText: """She stared dumbly into space.""",
-            kurdishText: """بێ‌دەنگانە لە دەورووبەری دەڕوانی.""", // dumbly
+            kurdishText: """بێ‌دەنگانە لە دەورووبەری دەڕوانی.""",
             onPressedBritish: () => speakdumblys1("en-GB"),
             onPressedAmerican: () => speakdumblys1("en-US"),
           ),

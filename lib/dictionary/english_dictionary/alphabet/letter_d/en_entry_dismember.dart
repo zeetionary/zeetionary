@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) پارچەپارچەکردنی لاشەی کەسێک یان ئاژەڵێک"),
           SentencesRow(
             englishText: "Police say the body had been dismembered.",
-            kurdishText: "پۆلیس دەڵێن لاشەکە پارچەپارچە کرابوو.", // dismember
+            kurdishText: "پۆلیس دەڵێن لاشەکە پارچەپارچە کرابوو.",
             onPressedBritish: () => speakdismembers1("en-GB"),
             onPressedAmerican: () => speakdismembers1("en-US"),
           ),

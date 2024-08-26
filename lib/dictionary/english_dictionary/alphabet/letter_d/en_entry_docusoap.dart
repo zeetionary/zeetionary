@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Have you seen the new docusoap about driving instructors?",
             kurdishText:
-                "ئەو دۆکیوسەوپەت تازەت بینیوە لەسەر ڕێنماییکارانی شۆفێری؟", // docusoap
+                "ئەو دۆکیوسەوپەت تازەت بینیوە لەسەر ڕێنماییکارانی شۆفێری؟",
             onPressedBritish: () => speakdocusoaps1("en-GB"),
             onPressedAmerican: () => speakdocusoaps1("en-US"),
           ),

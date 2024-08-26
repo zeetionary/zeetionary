@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "His behaviour was seen as another act of disobedience.",
-            kurdishText:
-                "ھەڵسوکەوتەکەی وەک کارێکی دیکەی لاساری بینرا.", // disobedience
+            kurdishText: "ھەڵسوکەوتەکەی وەک کارێکی دیکەی لاساری بینرا.",
             onPressedBritish: () => speakdisobediences1("en-GB"),
             onPressedAmerican: () => speakdisobediences1("en-US"),
           ),

@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The sky began to darken as the storm approached.",
             kurdishText:
-                "ئاسمان دەستی بە تاریک بوون کرد کە زریانەکە نزیک بوویەوە.", // darken
+                "ئاسمان دەستی بە تاریک بوون کرد کە زریانەکە نزیک بوویەوە.",
             onPressedBritish: () => speakdarkens1("en-GB"),
             onPressedAmerican: () => speakdarkens1("en-US"),
           ),

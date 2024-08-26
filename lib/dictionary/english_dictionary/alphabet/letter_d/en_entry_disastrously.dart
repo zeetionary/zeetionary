@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "How could everything go so disastrously wrong?",
             kurdishText:
-                "چۆن کرا کە ھەموو شتێک ئاوا کارەساتبارانە بە ھەڵە ڕووبدات؟", // disastrously
+                "چۆن کرا کە ھەموو شتێک ئاوا کارەساتبارانە بە ھەڵە ڕووبدات؟",
             onPressedBritish: () => speakdisastrouslys1("en-GB"),
             onPressedAmerican: () => speakdisastrouslys1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The newspaper denies any intention to defame the senator’s reputation.",
             kurdishText:
-                "ڕۆژنامەکە نکۆڵی لە ھەر نیازێک بۆ ناوزڕاندنی ناوبانگی سیناتۆرەکە دەکات.", // defame
+                "ڕۆژنامەکە نکۆڵی لە ھەر نیازێک بۆ ناوزڕاندنی ناوبانگی سیناتۆرەکە دەکات.",
             onPressedBritish: () => speakdefames1("en-GB"),
             onPressedAmerican: () => speakdefames1("en-US"),
           ),

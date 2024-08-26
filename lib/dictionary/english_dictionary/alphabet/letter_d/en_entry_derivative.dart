@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) وشەیەک یان شتێک کە لە شتێکی دیکەوە وەرگیردراوە"),
           SentencesRow(
             englishText: "‘Happiness’ is a derivative of ‘happy’.",
-            kurdishText: "‘Happiness’ داڕێژراوێکی ‘happy’ ـە.", // derivative
+            kurdishText: "‘Happiness’ داڕێژراوێکی ‘happy’ ـە.",
             onPressedBritish: () => speakderivatives1("en-GB"),
             onPressedAmerican: () => speakderivatives1("en-US"),
           ),

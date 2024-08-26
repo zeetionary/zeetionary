@@ -261,8 +261,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "A very high temperature often denotes a serious illness.",
-            kurdishText:
-                "بوونی تایەکی زۆر زۆرجار ئاماژەیە بە نەخۆشییەکی سەخت.", // denote
+            kurdishText: "بوونی تایەکی زۆر زۆرجار ئاماژەیە بە نەخۆشییەکی سەخت.",
             onPressedBritish: () => speakdenotes1("en-GB"),
             onPressedAmerican: () => speakdenotes1("en-US"),
           ),

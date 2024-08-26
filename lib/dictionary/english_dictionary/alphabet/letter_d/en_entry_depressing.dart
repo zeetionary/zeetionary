@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دڵتەنگت دەکات"),
           SentencesRow(
             englishText: "Looking for a job these days can be very depressing.",
-            kurdishText:
-                "لەم ڕۆژانەدا گەڕان بۆ کار دەکرێت زۆر خەماوی بێت.", // depressing
+            kurdishText: "لەم ڕۆژانەدا گەڕان بۆ کار دەکرێت زۆر خەماوی بێت.",
             onPressedBritish: () => speakdepressings1("en-GB"),
             onPressedAmerican: () => speakdepressings1("en-US"),
           ),

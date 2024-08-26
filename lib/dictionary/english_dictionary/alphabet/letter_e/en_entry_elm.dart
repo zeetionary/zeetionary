@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) دارێکی بەرز کە گەڵای فراوانی ھەیە"""),
           SentencesRow(
             englishText: """The avenue was planted with elm.""",
-            kurdishText: """شەقامەکە داری ئێلمی لێ چێندرابوو.""", // elm
+            kurdishText: """شەقامەکە داری ئێلمی لێ چێندرابوو.""",
             onPressedBritish: () => speakelms1("en-GB"),
             onPressedAmerican: () => speakelms1("en-US"),
           ),

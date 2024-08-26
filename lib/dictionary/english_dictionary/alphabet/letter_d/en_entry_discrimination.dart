@@ -287,8 +287,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) جیاکاری لە نێوان خەڵکی یان گرووپێک بە دادپەروەری کەمترەوە"),
           SentencesRow(
             englishText: "They alleged discrimination by the authorities.",
-            kurdishText:
-                "بانگەشەی جیاکاریان لەلایەن بەرپرسانەوە کرد.", // discrimination
+            kurdishText: "بانگەشەی جیاکاریان لەلایەن بەرپرسانەوە کرد.",
             onPressedBritish: () => speakdiscriminations1("en-GB"),
             onPressedAmerican: () => speakdiscriminations1("en-US"),
           ),

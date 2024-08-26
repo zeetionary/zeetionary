@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The first street we tried turned out to be a dead end.",
             kurdishText:
-                "یەکەم شەقام کە تاقیمان کردەوە وادەرکەوت کە بن‌بەستێک بێت.", // dead end
+                "یەکەم شەقام کە تاقیمان کردەوە وادەرکەوت کە بن‌بەستێک بێت.",
             onPressedBritish: () => speakdeadends1("en-GB"),
             onPressedAmerican: () => speakdeadends1("en-US"),
           ),

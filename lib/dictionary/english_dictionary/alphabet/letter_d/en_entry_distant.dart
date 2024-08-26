@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The time we spent together is now a distant memory.",
             kurdishText:
-                "ئەو کاتەی کە پێکەوە بەسەرمان برد ئێستا یادەوەرییەکی دوورە.", // distant
+                "ئەو کاتەی کە پێکەوە بەسەرمان برد ئێستا یادەوەرییەکی دوورە.",
             onPressedBritish: () => speakdistants1("en-GB"),
             onPressedAmerican: () => speakdistants1("en-US"),
           ),

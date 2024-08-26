@@ -285,7 +285,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەبێ وەستان یان گۆڕینی ئاراستە"),
           SentencesRow(
             englishText: "The path leads directly to the river.",
-            kurdishText: "ڕێگاکە ڕاستەوخۆ بۆ ڕووبارەکە دەچێت.", // directly
+            kurdishText: "ڕێگاکە ڕاستەوخۆ بۆ ڕووبارەکە دەچێت.",
             onPressedBritish: () => speakdirectlys1("en-GB"),
             onPressedAmerican: () => speakdirectlys1("en-US"),
           ),

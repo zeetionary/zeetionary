@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Most students here are studying for a qualification at diploma level.",
             kurdishText:
-                "زۆرینەی خوێندکارانی ئێرە بۆ بڕوانامەیەک دەخوێنن لە ئاستی دیپلۆما.", // diploma
+                "زۆرینەی خوێندکارانی ئێرە بۆ بڕوانامەیەک دەخوێنن لە ئاستی دیپلۆما.",
             onPressedBritish: () => speakdiplomas1("en-GB"),
             onPressedAmerican: () => speakdiplomas1("en-US"),
           ),

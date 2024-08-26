@@ -405,7 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە بە ئاسانی یان ڕوونی دەبینرێت یان دەبیسترێت"),
           SentencesRow(
             englishText: "There was a distinct smell of gas.",
-            kurdishText: "بۆنێکی ئاشکرای گاس ھەبوو.", // distinct
+            kurdishText: "بۆنێکی ئاشکرای گاس ھەبوو.",
             onPressedBritish: () => speakdistincts1("en-GB"),
             onPressedAmerican: () => speakdistincts1("en-US"),
           ),

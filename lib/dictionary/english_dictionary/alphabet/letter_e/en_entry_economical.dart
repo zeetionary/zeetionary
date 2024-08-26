@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """It would be more economical to buy the bigger size.""",
-            kurdishText: """باشتر دەبێت قەبارە گەورەکە بکڕین.""", // economical
+            kurdishText: """باشتر دەبێت قەبارە گەورەکە بکڕین.""",
             onPressedBritish: () => speakeconomicals1("en-GB"),
             onPressedAmerican: () => speakeconomicals1("en-US"),
           ),

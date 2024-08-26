@@ -362,8 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The town had a whisky distillery that is 40 years old.",
-            kurdishText:
-                "شارۆچکەکە کارگەیەکی ویسکی ھەیە کە ٤٠ ساڵ کۆنە.", // distillery
+            kurdishText: "شارۆچکەکە کارگەیەکی ویسکی ھەیە کە ٤٠ ساڵ کۆنە.",
             onPressedBritish: () => speakdistillerys1("en-GB"),
             onPressedAmerican: () => speakdistillerys1("en-US"),
           ),

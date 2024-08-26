@@ -138,7 +138,7 @@ class EnglishEntrybulldozer extends StatelessWidget {
                             englishText:
                                 "They used a bulldozer to level the ground.",
                             kurdishText:
-                                "خاکماڵێکیان بەکارھێنا بۆ ڕاماڵینی زەوییەکە.", // bulldozer", follow LX strictly
+                                "خاکماڵێکیان بەکارھێنا بۆ ڕاماڵینی زەوییەکە.",
                             onPressedBritish: () => speakbulldozers1("en-GB"),
                             onPressedAmerican: () => speakbulldozers1("en-US"),
                           ),

@@ -180,8 +180,7 @@ class EnglishEntrybusinesslike extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Their relationship remained strictly businesslike.",
-                            kurdishText:
-                                "پەیوەندییا زۆر بە پڕۆفیشناڵی مایەوە.", // businesslike", follow LX strictly
+                            kurdishText: "پەیوەندییا زۆر بە پڕۆفیشناڵی مایەوە.",
                             onPressedBritish: () =>
                                 speakbusinesslikes1("en-GB"),
                             onPressedAmerican: () =>

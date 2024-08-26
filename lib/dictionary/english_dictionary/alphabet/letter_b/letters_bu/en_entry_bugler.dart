@@ -137,7 +137,7 @@ class EnglishEntrybugler extends StatelessWidget {
                           SentencesRow(
                             englishText: "A bugler sounded the wake-up call.",
                             kurdishText:
-                                "شەیپوورژەنێک زوڕنای لە خەوھەستانی لێدا.", // bugler", follow LX strictly
+                                "شەیپوورژەنێک زوڕنای لە خەوھەستانی لێدا.",
                             onPressedBritish: () => speakbuglers1("en-GB"),
                             onPressedAmerican: () => speakbuglers1("en-US"),
                           ),

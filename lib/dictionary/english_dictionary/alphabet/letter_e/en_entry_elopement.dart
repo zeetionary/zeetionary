@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """News of their elopement did not spread until the following morning.""",
             kurdishText:
-                """ھەواڵی ھەڵھاتنەکەیان تاوەکو بەیانی دواتر بڵاونەبوویەوە.""", // elopement
+                """ھەواڵی ھەڵھاتنەکەیان تاوەکو بەیانی دواتر بڵاونەبوویەوە.""",
             onPressedBritish: () => speakelopements1("en-GB"),
             onPressedAmerican: () => speakelopements1("en-US"),
           ),

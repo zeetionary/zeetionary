@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Parents are advised to have their children immunized against diphtheria.",
             kurdishText:
-                "دایبابان ئامۆژگاری دەکرێن منداڵەکانیان دژ بە پێران بکوتن.", // diphtheria
+                "دایبابان ئامۆژگاری دەکرێن منداڵەکانیان دژ بە پێران بکوتن.",
             onPressedBritish: () => speakdiphtherias1("en-GB"),
             onPressedAmerican: () => speakdiphtherias1("en-US"),
           ),

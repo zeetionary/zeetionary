@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شێوازێکی قسەکردن کە تێیدا دەنگە نەبزوێنەکان درێژ دەکرێنەوە و وشەکان بە ڕوونی جیاناکرێنەوە"),
           SentencesRow(
             englishText: "She spoke in a slow southern drawl.",
-            kurdishText: "بە گۆکردنێکی ھێواشی باشوورییەوە قسەی دەکرد.", // drawl
+            kurdishText: "بە گۆکردنێکی ھێواشی باشوورییەوە قسەی دەکرد.",
             onPressedBritish: () => speakdrawls1("en-GB"),
             onPressedAmerican: () => speakdrawls1("en-US"),
           ),

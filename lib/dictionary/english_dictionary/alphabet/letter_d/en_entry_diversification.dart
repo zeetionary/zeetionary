@@ -371,8 +371,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "For the company, it's a sensible diversification of their product range.",
-            kurdishText:
-                "بۆ کۆمپانیاکە جۆراوجۆرکردنی ئاقڵانەی بەرھەمەکانیانە.", // diversification
+            kurdishText: "بۆ کۆمپانیاکە جۆراوجۆرکردنی ئاقڵانەی بەرھەمەکانیانە.",
             onPressedBritish: () => speakdiversifications1("en-GB"),
             onPressedAmerican: () => speakdiversifications1("en-US"),
           ),

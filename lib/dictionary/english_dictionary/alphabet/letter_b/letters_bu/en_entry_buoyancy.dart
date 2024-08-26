@@ -183,7 +183,7 @@ class EnglishEntrybuoyancy extends StatelessWidget {
                             englishText:
                                 "There is continued buoyancy in the property market.",
                             kurdishText:
-                                "گەشەسەندنی بەردەوام ھەیە لە بازاڕی خانووبەرە.", // buoyancy", follow LX strictly
+                                "گەشەسەندنی بەردەوام ھەیە لە بازاڕی خانووبەرە.",
                             onPressedBritish: () => speakbuoyancys1("en-GB"),
                             onPressedAmerican: () => speakbuoyancys1("en-US"),
                           ),

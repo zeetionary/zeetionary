@@ -259,7 +259,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) چاککردنەوەی کونێک لە پارچەیەکدا بە دوورینەوە"),
           SentencesRow(
             englishText: "She still darns the holes in her socks.",
-            kurdishText: "ھێشتا کونەکانی گۆرەوییەکانی دەدوورێتەوە.", // darn
+            kurdishText: "ھێشتا کونەکانی گۆرەوییەکانی دەدوورێتەوە.",
             onPressedBritish: () => speakdarns1("en-GB"),
             onPressedAmerican: () => speakdarns1("en-US"),
           ),

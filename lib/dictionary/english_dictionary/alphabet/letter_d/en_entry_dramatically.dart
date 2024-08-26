@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بە لەناکاو و ئاستێکی بەرز، زۆرجار کە جێگەی سەرسوڕمانە"),
           SentencesRow(
             englishText: "Prices have fallen dramatically.",
-            kurdishText: "نرخەکان بە شێوەیەکی بەرچاو دابەزیون.", // dramatically
+            kurdishText: "نرخەکان بە شێوەیەکی بەرچاو دابەزیون.",
             onPressedBritish: () => speakdramaticallys1("en-GB"),
             onPressedAmerican: () => speakdramaticallys1("en-US"),
           ),

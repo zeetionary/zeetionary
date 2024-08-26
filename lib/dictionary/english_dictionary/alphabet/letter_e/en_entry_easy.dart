@@ -484,7 +484,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵناو) ئاسان"""),
           SentencesRow(
             englishText: """Reaching the summit is no easy task.""",
-            kurdishText: """گەشتن بە لوتکەکە ئەرکێکی ئاسان نییە.""", // easy
+            kurdishText: """گەشتن بە لوتکەکە ئەرکێکی ئاسان نییە.""",
             onPressedBritish: () => speakeasys1("en-GB"),
             onPressedAmerican: () => speakeasys1("en-US"),
           ),

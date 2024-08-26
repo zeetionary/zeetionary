@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The government decided to denationalize the railway system.",
             kurdishText:
-                "حکومەت بڕیاری دا سیستەمی شەمەندەفەر بدات بە کەرتی تایبەت.", // denationalize
+                "حکومەت بڕیاری دا سیستەمی شەمەندەفەر بدات بە کەرتی تایبەت.",
             onPressedBritish: () => speakdenationalizes1("en-GB"),
             onPressedAmerican: () => speakdenationalizes1("en-US"),
           ),

@@ -374,8 +374,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "We were caught in the storm and got drenched to the skin.",
-            kurdishText:
-                "کەوتینە ناو زریانەکە و تا سەر پێستمان خووساین.", // drench
+            kurdishText: "کەوتینە ناو زریانەکە و تا سەر پێستمان خووساین.",
             onPressedBritish: () => speakdrenchs1("en-GB"),
             onPressedAmerican: () => speakdrenchs1("en-US"),
           ),

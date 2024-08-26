@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) تەواو جیاواز"),
           SentencesRow(
             englishText: "We hold diametrically opposed views.",
-            kurdishText: "دیدی تەواو دژبەیەکمان ھەیە.", // diametrically
+            kurdishText: "دیدی تەواو دژبەیەکمان ھەیە.",
             onPressedBritish: () => speakdiametricallys1("en-GB"),
             onPressedAmerican: () => speakdiametricallys1("en-US"),
           ),

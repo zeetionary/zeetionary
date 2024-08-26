@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She took a domestic science class to learn cooking basics.",
             kurdishText:
-                "بەژداری وانەیەکی زانستی ماڵداری کرد بۆ فێربوونی بنچینەکانی خواردن لێنان.", // domestic science
+                "بەژداری وانەیەکی زانستی ماڵداری کرد بۆ فێربوونی بنچینەکانی خواردن لێنان.",
             onPressedBritish: () => speakdomesticsciences1("en-GB"),
             onPressedAmerican: () => speakdomesticsciences1("en-US"),
           ),

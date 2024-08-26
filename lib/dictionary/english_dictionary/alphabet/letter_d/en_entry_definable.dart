@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) بە واتایەکەوە کە دەکرێت بناسرێت"),
           SentencesRow(
             englishText: "Neither of those terms is easily definable.",
-            kurdishText:
-                "ھیچ یەک لەو دەستەواژانە بە ئاسانی پێناسە ناکرێت.", // definable
+            kurdishText: "ھیچ یەک لەو دەستەواژانە بە ئاسانی پێناسە ناکرێت.",
             onPressedBritish: () => speakdefinables1("en-GB"),
             onPressedAmerican: () => speakdefinables1("en-US"),
           ),

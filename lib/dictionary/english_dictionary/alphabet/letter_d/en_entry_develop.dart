@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "From birth to age 5, a child's brain develops rapidly.",
             kurdishText:
-                "لە لەدایکبوونەوە تاوەکو پێنج ساڵی مێشکی منداڵ بە خێرایی بەرەوپێش دەچێت.", // develop
+                "لە لەدایکبوونەوە تاوەکو پێنج ساڵی مێشکی منداڵ بە خێرایی بەرەوپێش دەچێت.",
             onPressedBritish: () => speakdevelops1("en-GB"),
             onPressedAmerican: () => speakdevelops1("en-US"),
           ),

@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەسێک کە بەبێ مۆڵەت لە سوپا ھەڵھاتووە"),
           SentencesRow(
             englishText: "He was convicted of hiding deserters.",
-            kurdishText: "تاوانبارکرا بە شاردنەوەی ھەڵھاتووان.", // deserter
+            kurdishText: "تاوانبارکرا بە شاردنەوەی ھەڵھاتووان.",
             onPressedBritish: () => speakdeserters1("en-GB"),
             onPressedAmerican: () => speakdeserters1("en-US"),
           ),

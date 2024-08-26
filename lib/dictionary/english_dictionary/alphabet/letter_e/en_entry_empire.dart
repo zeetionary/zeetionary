@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """These invasions almost led to the collapse of the Roman Empire.""",
             kurdishText:
-                """ئەم داگیرکارییانە خەریک بوو ببن بە ھۆکاری ڕووخانی ئیمپراتۆرییەتی ڕۆم.""", // empire
+                """ئەم داگیرکارییانە خەریک بوو ببن بە ھۆکاری ڕووخانی ئیمپراتۆرییەتی ڕۆم.""",
             onPressedBritish: () => speakempires1("en-GB"),
             onPressedAmerican: () => speakempires1("en-US"),
           ),

@@ -304,8 +304,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کاری لێکدراو) پشتبەستن بە کەسێک/شتێک و ھەبوونی متمانە پێیان"),
           SentencesRow(
             englishText: "He was the sort of person you could depend on.",
-            kurdishText:
-                "ئەو جۆرە کەسانە بوو کە دەتتوانی پشتی پێ ببەستیت.", // depend on
+            kurdishText: "ئەو جۆرە کەسانە بوو کە دەتتوانی پشتی پێ ببەستیت.",
             onPressedBritish: () => speakdependons1("en-GB"),
             onPressedAmerican: () => speakdependons1("en-US"),
           ),

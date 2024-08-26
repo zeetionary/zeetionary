@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Only 60 per cent of the electorate voted in the last election.""",
             kurdishText:
-                """تەنھا ٦٠ لە سەدی دەنگدەران لە ھەڵبژاردنی پێشوو دەنگیان دا.""", // electorate
+                """تەنھا ٦٠ لە سەدی دەنگدەران لە ھەڵبژاردنی پێشوو دەنگیان دا.""",
             onPressedBritish: () => speakelectorates1("en-GB"),
             onPressedAmerican: () => speakelectorates1("en-US"),
           ),

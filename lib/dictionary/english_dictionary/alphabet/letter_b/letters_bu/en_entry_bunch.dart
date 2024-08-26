@@ -180,8 +180,7 @@ class EnglishEntrybunch extends StatelessWidget {
                                   "١. (ناو) ژمارەیەک شتی ھەمان جۆر کە پێکەوە گرێدراون یان پێکەوە گەشە دەکەن"),
                           SentencesRow(
                             englishText: "She bought me a bunch of flowers.",
-                            kurdishText:
-                                "دەستە گوڵێکی بۆ کڕیم.", // bunch", follow LX strictly
+                            kurdishText: "دەستە گوڵێکی بۆ کڕیم.",
                             onPressedBritish: () => speakbunchs1("en-GB"),
                             onPressedAmerican: () => speakbunchs1("en-US"),
                           ),

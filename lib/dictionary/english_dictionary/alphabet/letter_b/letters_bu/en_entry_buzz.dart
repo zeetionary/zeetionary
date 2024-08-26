@@ -186,7 +186,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                             englishText:
                                 "Bees buzzed lazily among the flowers.",
                             kurdishText:
-                                "ھەنگ بەھێواشی گیزەیان دەھات لەناو گوڵەکاندا.", // buzz", follow LX strictly
+                                "ھەنگ بەھێواشی گیزەیان دەھات لەناو گوڵەکاندا.",
                             onPressedBritish: () => speakbuzzs1("en-GB"),
                             onPressedAmerican: () => speakbuzzs1("en-US"),
                           ),

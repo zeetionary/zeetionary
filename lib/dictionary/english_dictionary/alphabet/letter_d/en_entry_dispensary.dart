@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Patients get their medicines from the hospital's dispensary.",
             kurdishText:
-                "نەخۆشان دەرمانەکانیان لە دەرمانخانەی نەخۆشخانەکە وەردەگرن.", // dispensary
+                "نەخۆشان دەرمانەکانیان لە دەرمانخانەی نەخۆشخانەکە وەردەگرن.",
             onPressedBritish: () => speakdispensarys1("en-GB"),
             onPressedAmerican: () => speakdispensarys1("en-US"),
           ),

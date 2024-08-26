@@ -371,8 +371,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """A garden changes dynamically with the seasons and over time.""",
-            kurdishText:
-                """باخچە چالاکانە لەگەڵ وەرزەکان و کاتدا.""", // dynamically
+            kurdishText: """باخچە چالاکانە لەگەڵ وەرزەکان و کاتدا.""",
             onPressedBritish: () => speakdynamicallys1("en-GB"),
             onPressedAmerican: () => speakdynamicallys1("en-US"),
           ),

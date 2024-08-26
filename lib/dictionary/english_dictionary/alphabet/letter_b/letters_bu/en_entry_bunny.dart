@@ -177,7 +177,7 @@ class EnglishEntrybunny extends StatelessWidget {
                             englishText:
                                 "The children giggled with delight as they spotted a fluffy bunny in the garden.",
                             kurdishText:
-                                "منداڵەکان شاگەشکەبوو بوون لە خۆشیدا کە کەروێشکێکیان لە باخچەکەدا بینی.", // bunny", follow LX strictly
+                                "منداڵەکان شاگەشکەبوو بوون لە خۆشیدا کە کەروێشکێکیان لە باخچەکەدا بینی.",
                             onPressedBritish: () => speakbunnys1("en-GB"),
                             onPressedAmerican: () => speakbunnys1("en-US"),
                           ),

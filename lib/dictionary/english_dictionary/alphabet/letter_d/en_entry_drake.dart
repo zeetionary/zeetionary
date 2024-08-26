@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The children fed the drake pieces of bread by the lake.",
             kurdishText:
-                "منداڵەکان لای دەریاچەکە پارچە نانیان دەدا بە سۆنە نێرەکە.", // drake
+                "منداڵەکان لای دەریاچەکە پارچە نانیان دەدا بە سۆنە نێرەکە.",
             onPressedBritish: () => speakdrakes1("en-GB"),
             onPressedAmerican: () => speakdrakes1("en-US"),
           ),

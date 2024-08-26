@@ -256,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The country suffered at the hands of a series of military dictators.",
             kurdishText:
-                "وڵاتەکە ناڵاندی بەدەست زنجیرەیەک لە دیکتاتۆری سەربازییەوە.", // dictator
+                "وڵاتەکە ناڵاندی بەدەست زنجیرەیەک لە دیکتاتۆری سەربازییەوە.",
             onPressedBritish: () => speakdictators1("en-GB"),
             onPressedAmerican: () => speakdictators1("en-US"),
           ),

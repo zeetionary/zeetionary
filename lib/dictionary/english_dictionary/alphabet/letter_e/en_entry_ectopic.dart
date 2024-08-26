@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """This results in formation of ectopic bone around the hip.""",
             kurdishText:
-                """ئەمە دەبێت ھۆکاری درووستبوونی ئێسکی جێگۆڕاو لە نزیکی سمت.""", // ectopic
+                """ئەمە دەبێت ھۆکاری درووستبوونی ئێسکی جێگۆڕاو لە نزیکی سمت.""",
             onPressedBritish: () => speakectopics1("en-GB"),
             onPressedAmerican: () => speakectopics1("en-US"),
           ),

@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) یەکەمین دەرکەوتنی نمایشکارێک یان یاریزانێکی وەرزشی"),
           SentencesRow(
             englishText: "He will make his debut for the first team this week.",
-            kurdishText:
-                "ئەم ھەفتەیە یەکەم دەرکەوتنی بۆ تیمەکە دەبێت.", // debut
+            kurdishText: "ئەم ھەفتەیە یەکەم دەرکەوتنی بۆ تیمەکە دەبێت.",
             onPressedBritish: () => speakdebuts1("en-GB"),
             onPressedAmerican: () => speakdebuts1("en-US"),
           ),

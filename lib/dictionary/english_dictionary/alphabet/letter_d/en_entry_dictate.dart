@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "They are in no position to dictate terms (= tell other people what to do).",
-            kurdishText: "لە ھیچ دۆخێکدا نین کە مەرج بسەپێنن.", // dictate
+            kurdishText: "لە ھیچ دۆخێکدا نین کە مەرج بسەپێنن.",
             onPressedBritish: () => speakdictates1("en-GB"),
             onPressedAmerican: () => speakdictates1("en-US"),
           ),

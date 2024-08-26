@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "As the divisional commander, he was responsible for the welfare and readiness of his troops.",
             kurdishText:
-                "وەک فەرماندەی یەکەکە بەرپرسی تەندرووستی و ئامادەیی سەربازەکانی بوو.", // divisional
+                "وەک فەرماندەی یەکەکە بەرپرسی تەندرووستی و ئامادەیی سەربازەکانی بوو.",
             onPressedBritish: () => speakdivisionals1("en-GB"),
             onPressedAmerican: () => speakdivisionals1("en-US"),
           ),

@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She was a dogged advocate of the struggle against injustice.",
-            kurdishText:
-                "بەرھەڵستکارێکی کۆڵنەدەری ھەوڵدان دژ بە نادادی بوو.", // dogged
+            kurdishText: "بەرھەڵستکارێکی کۆڵنەدەری ھەوڵدان دژ بە نادادی بوو.",
             onPressedBritish: () => speakdoggeds1("en-GB"),
             onPressedAmerican: () => speakdoggeds1("en-US"),
           ),

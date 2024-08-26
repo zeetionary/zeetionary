@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) گۆڕینی شوێنی ئێسکێک لە جومگەیەکدا"),
           SentencesRow(
             englishText: "He dislocated his shoulder in the accident.",
-            kurdishText: "لە ڕووداوەکەدا شانی لەجێ‌چوو.", // dislocate
+            kurdishText: "لە ڕووداوەکەدا شانی لەجێ‌چوو.",
             onPressedBritish: () => speakdislocates1("en-GB"),
             onPressedAmerican: () => speakdislocates1("en-US"),
           ),

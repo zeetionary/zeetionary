@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) مردن بە نوقمبوون لە ئاودا"),
           SentencesRow(
             englishText: "Two children drowned after falling into the river.",
-            kurdishText: "دوو منداڵ خنکان لە دوای کەوتنە ئاوەکەوە.", // drown
+            kurdishText: "دوو منداڵ خنکان لە دوای کەوتنە ئاوەکەوە.",
             onPressedBritish: () => speakdrowns1("en-GB"),
             onPressedAmerican: () => speakdrowns1("en-US"),
           ),

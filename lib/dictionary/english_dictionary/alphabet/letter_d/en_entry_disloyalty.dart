@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She felt guilty of disloyalty to her dead husband.",
             kurdishText:
-                "ھەستی بە توانی بێ‌وەفایی دەکرد بەرامبەر ھاوژینە کۆچکردووەکەی.", // disloyalty
+                "ھەستی بە توانی بێ‌وەفایی دەکرد بەرامبەر ھاوژینە کۆچکردووەکەی.",
             onPressedBritish: () => speakdisloyaltys1("en-GB"),
             onPressedAmerican: () => speakdisloyaltys1("en-US"),
           ),

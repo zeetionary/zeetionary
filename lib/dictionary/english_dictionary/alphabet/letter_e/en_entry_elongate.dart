@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The acid causes the cells to elongate by increasing the uptake of water.""",
             kurdishText:
-                """ترشەڵۆکەکە دەبێتە ھۆکاری ئەوەی کە خانەکان درێژببنەوە بە زیادکردنی ھەڵمژینی ئاو.""", // elongate
+                """ترشەڵۆکەکە دەبێتە ھۆکاری ئەوەی کە خانەکان درێژببنەوە بە زیادکردنی ھەڵمژینی ئاو.""",
             onPressedBritish: () => speakelongates1("en-GB"),
             onPressedAmerican: () => speakelongates1("en-US"),
           ),

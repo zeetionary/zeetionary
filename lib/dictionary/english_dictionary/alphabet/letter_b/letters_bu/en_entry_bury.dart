@@ -179,8 +179,7 @@ class EnglishEntrybury extends StatelessWidget {
                               text: "١. (کردار) ناشتنی کەسێکی مردوو"),
                           SentencesRow(
                             englishText: "They killed her and buried her body.",
-                            kurdishText:
-                                "کوشتیان و لاشەکەیان ناشت.", // bury", follow LX strictly
+                            kurdishText: "کوشتیان و لاشەکەیان ناشت.",
                             onPressedBritish: () => speakburys1("en-GB"),
                             onPressedAmerican: () => speakburys1("en-US"),
                           ),

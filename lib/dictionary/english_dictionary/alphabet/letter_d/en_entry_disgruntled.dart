@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I left feeling disgruntled at the way I'd been treated.",
             kurdishText:
-                "ڕۆشتم بەوەی ھەستم بە وەڕەزی دەکرد بە شێوەیەی کە مامەڵەم لەگەڵ کرا.", // disgruntled
+                "ڕۆشتم بەوەی ھەستم بە وەڕەزی دەکرد بە شێوەیەی کە مامەڵەم لەگەڵ کرا.",
             onPressedBritish: () => speakdisgruntleds1("en-GB"),
             onPressedAmerican: () => speakdisgruntleds1("en-US"),
           ),

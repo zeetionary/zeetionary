@@ -251,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) خۆتەرخانکردن بۆ کارێک یان چالاکییەک"),
           SentencesRow(
             englishText: "She dedicates herself to her work.",
-            kurdishText: "خۆی بۆ کارەکەی تەرخان دەکات.", // dedicate
+            kurdishText: "خۆی بۆ کارەکەی تەرخان دەکات.",
             onPressedBritish: () => speakdedicates1("en-GB"),
             onPressedAmerican: () => speakdedicates1("en-US"),
           ),

@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The tests are designed to detect the disease early.",
             kurdishText:
-                "پشکنینەکان دیزاین کراون کە زوو تێبینی نەخۆشییەکە بکەن.", // detect
+                "پشکنینەکان دیزاین کراون کە زوو تێبینی نەخۆشییەکە بکەن.",
             onPressedBritish: () => speakdetects1("en-GB"),
             onPressedAmerican: () => speakdetects1("en-US"),
           ),

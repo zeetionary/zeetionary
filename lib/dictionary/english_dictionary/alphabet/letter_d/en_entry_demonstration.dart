@@ -295,7 +295,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) گردبوونەوە یان ڕێپێوان بۆ پشتیوانی یان دژایەتی شتێک"),
           SentencesRow(
             englishText: "Police dispersed the demonstration.",
-            kurdishText: "پۆلیس بڵاوەی بە خۆپیشاندانەکە کرد.", // demonstration
+            kurdishText: "پۆلیس بڵاوەی بە خۆپیشاندانەکە کرد.",
             onPressedBritish: () => speakdemonstrations1("en-GB"),
             onPressedAmerican: () => speakdemonstrations1("en-US"),
           ),

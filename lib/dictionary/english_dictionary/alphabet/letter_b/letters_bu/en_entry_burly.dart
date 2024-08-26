@@ -180,7 +180,7 @@ class EnglishEntryburly extends StatelessWidget {
                             englishText:
                                 "The burly construction worker effortlessly lifted the heavy beam into place.",
                             kurdishText:
-                                "کرێکارە کەتەکە بە ئاسانی کاریتەکەی خستە شوێنی خۆی.", // burly", follow LX strictly
+                                "کرێکارە کەتەکە بە ئاسانی کاریتەکەی خستە شوێنی خۆی.",
                             onPressedBritish: () => speakburlys1("en-GB"),
                             onPressedAmerican: () => speakburlys1("en-US"),
                           ),

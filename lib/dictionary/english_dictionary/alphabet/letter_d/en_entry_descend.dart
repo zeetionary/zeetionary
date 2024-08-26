@@ -264,7 +264,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) دابەزین؛ ڕۆشتن لە بەرزییەوە بۆ نزمی"),
           SentencesRow(
             englishText: "The plane began to descend.",
-            kurdishText: "فڕۆکەکە دەستی بە دابەزین کرد.", // descend
+            kurdishText: "فڕۆکەکە دەستی بە دابەزین کرد.",
             onPressedBritish: () => speakdescends1("en-GB"),
             onPressedAmerican: () => speakdescends1("en-US"),
           ),

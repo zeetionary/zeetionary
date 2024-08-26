@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She longed to be out of the cold, drab little office.",
             kurdishText:
-                "بەتاسە بوو کە لە ئۆفیسە بچووکە ناخۆش و ساردەکەی دەردەچێت.", // drab
+                "بەتاسە بوو کە لە ئۆفیسە بچووکە ناخۆش و ساردەکەی دەردەچێت.",
             onPressedBritish: () => speakdrabs1("en-GB"),
             onPressedAmerican: () => speakdrabs1("en-US"),
           ),

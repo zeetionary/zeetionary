@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئاراستەی گشتی جوڵەی کەسێک یان شتێک"),
           SentencesRow(
             englishText: "They headed in the direction of the village.",
-            kurdishText: "بە ئاراستەی گوندەکە چوون.", // direction
+            kurdishText: "بە ئاراستەی گوندەکە چوون.",
             onPressedBritish: () => speakdirections1("en-GB"),
             onPressedAmerican: () => speakdirections1("en-US"),
           ),

@@ -182,7 +182,7 @@ class EnglishEntrybuzzard extends StatelessWidget {
                             englishText:
                                 "High above the forest, a buzzard circles in search of its prey.",
                             kurdishText:
-                                "لە بەرزی دارستانەکەوە باشوویەک دەسووڕێتەوە بە دوای نێچیرەکەیدا.", // buzzard", follow LX strictly
+                                "لە بەرزی دارستانەکەوە باشوویەک دەسووڕێتەوە بە دوای نێچیرەکەیدا.",
                             onPressedBritish: () => speakbuzzards1("en-GB"),
                             onPressedAmerican: () => speakbuzzards1("en-US"),
                           ),

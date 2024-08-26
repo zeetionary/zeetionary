@@ -308,8 +308,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پیس"),
           SentencesRow(
             englishText: "My thumb had left a dirty mark on the paper.",
-            kurdishText:
-                "پەنجەم نیشانەیەکی پیسی لەسەر پەڕەکە جێھێشتبوو.", // dirty
+            kurdishText: "پەنجەم نیشانەیەکی پیسی لەسەر پەڕەکە جێھێشتبوو.",
             onPressedBritish: () => speakdirtys1("en-GB"),
             onPressedAmerican: () => speakdirtys1("en-US"),
           ),

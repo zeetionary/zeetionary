@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) پێنجەم پیتی ئەلفوبێ"""),
           SentencesRow(
             englishText: """‘Egg’ begins with (an) E/‘E’.""",
-            kurdishText: """وشەی 'Egg' بە 'E' دەست پێدەکات.""", // e
+            kurdishText: """وشەی 'Egg' بە 'E' دەست پێدەکات.""",
             onPressedBritish: () => speakes1("en-GB"),
             onPressedAmerican: () => speakes1("en-US"),
           ),

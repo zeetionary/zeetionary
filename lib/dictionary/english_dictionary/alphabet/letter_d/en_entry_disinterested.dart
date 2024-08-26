@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ئەوەی کە کاریگەر نییە بە ھەستی کەسی، یان ئەوەی کە ڕەنگە ھەندێک سوودی ھەبێت بۆت"),
           SentencesRow(
             englishText: "Her advice appeared to be disinterested.",
-            kurdishText: "ڕاوێژەکەی وادەرکەوت کە پاکانە بێت.", // disinterested
+            kurdishText: "ڕاوێژەکەی وادەرکەوت کە پاکانە بێت.",
             onPressedBritish: () => speakdisinteresteds1("en-GB"),
             onPressedAmerican: () => speakdisinteresteds1("en-US"),
           ),

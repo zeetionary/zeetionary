@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بە وریایی بۆ ئەوەی شتێک بە نھێنی بھێڵیتەوە یان دوور بکەویتەوە لە دروستکردنی کێشە بۆ کەسێک یان ئەوەی شەرمەزاری بکەیت"),
           SentencesRow(
             englishText: "She coughed discreetly to announce her presence.",
-            kurdishText:
-                "بە وریاییەوە کۆکەی کرد بۆ ڕاگەیاندنی ھاتنی.", // discreetly
+            kurdishText: "بە وریاییەوە کۆکەی کرد بۆ ڕاگەیاندنی ھاتنی.",
             onPressedBritish: () => speakdiscreetlys1("en-GB"),
             onPressedAmerican: () => speakdiscreetlys1("en-US"),
           ),

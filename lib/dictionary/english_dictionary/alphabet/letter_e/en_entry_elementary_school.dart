@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """She teaches elementary school in Atlanta.""",
             kurdishText:
-                """لە ئەتلانتا لە قوتابخانەی سەرەتایی وانە دەڵێتەوە.""", // elementary school
+                """لە ئەتلانتا لە قوتابخانەی سەرەتایی وانە دەڵێتەوە.""",
             onPressedBritish: () => speakelementaryschools1("en-GB"),
             onPressedAmerican: () => speakelementaryschools1("en-US"),
           ),

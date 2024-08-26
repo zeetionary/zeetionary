@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Working for that company, I was little more than a drudge.",
             kurdishText:
-                "کارکردن بۆ ئەو کۆمپانیایە کەمێک لە سەروو کوڵەمەرگی بوو.", // drudge
+                "کارکردن بۆ ئەو کۆمپانیایە کەمێک لە سەروو کوڵەمەرگی بوو.",
             onPressedBritish: () => speakdrudges1("en-GB"),
             onPressedAmerican: () => speakdrudges1("en-US"),
           ),

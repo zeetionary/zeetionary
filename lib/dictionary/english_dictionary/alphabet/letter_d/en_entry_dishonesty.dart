@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Five polie officers were dismissed for dishonesty and misconduct.",
-            kurdishText:
-                "پێنج پۆلیس دەرکران بۆ ناڕاستی و کاری ھەڵە.", // dishonesty
+            kurdishText: "پێنج پۆلیس دەرکران بۆ ناڕاستی و کاری ھەڵە.",
             onPressedBritish: () => speakdishonestys1("en-GB"),
             onPressedAmerican: () => speakdishonestys1("en-US"),
           ),

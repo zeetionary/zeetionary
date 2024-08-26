@@ -308,7 +308,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) حەزنەکردن لە شتێک"),
           SentencesRow(
             englishText: "Why do you dislike him so much?",
-            kurdishText: "بۆچی ھێندە ڕقت لێیەتی؟", // dislike
+            kurdishText: "بۆچی ھێندە ڕقت لێیەتی؟",
             onPressedBritish: () => speakdislikes1("en-GB"),
             onPressedAmerican: () => speakdislikes1("en-US"),
           ),

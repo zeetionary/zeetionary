@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) بڕیارێکی فەرمی کە بازرگانی لەگەڵ وڵاتێک دەوەستێنێت"""),
           SentencesRow(
             englishText: """We knew the arms embargo was being broken.""",
-            kurdishText: """دەمانزانی کە گەمارۆکان دەشکێندرێن.""", // embargo
+            kurdishText: """دەمانزانی کە گەمارۆکان دەشکێندرێن.""",
             onPressedBritish: () => speakembargos1("en-GB"),
             onPressedAmerican: () => speakembargos1("en-US"),
           ),

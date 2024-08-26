@@ -267,8 +267,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) زیادبوونی شتێک، بۆ نموونە ھەستێک"),
           SentencesRow(
             englishText: "Their friendship soon deepened into love.",
-            kurdishText:
-                "ھاوڕێیەتییەکەیان زوو قووڵبوویەوە بۆ خۆشەویستی.", // deepen
+            kurdishText: "ھاوڕێیەتییەکەیان زوو قووڵبوویەوە بۆ خۆشەویستی.",
             onPressedBritish: () => speakdeepens1("en-GB"),
             onPressedAmerican: () => speakdeepens1("en-US"),
           ),

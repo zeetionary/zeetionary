@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) بەدزییەوە گوێگرتن لەوەی کەسانی دیکە دەیڵێن"""),
           SentencesRow(
             englishText: """We caught him eavesdropping outside the window.""",
-            kurdishText:
-                """گرتمان کە لە دەرەوەی پەنجەرەکەوە گوێی دەگرت.""", // eavesdrop
+            kurdishText: """گرتمان کە لە دەرەوەی پەنجەرەکەوە گوێی دەگرت.""",
             onPressedBritish: () => speakeavesdrops1("en-GB"),
             onPressedAmerican: () => speakeavesdrops1("en-US"),
           ),

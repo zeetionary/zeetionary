@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """They climbed the dune to get a better view of the desert.""",
             kurdishText:
-                """بەسەر گردەلمەکەدا سەرکەوتن بۆ ھەبوونی دیمەنێکی باشتری بیابانەکە.""", // dune
+                """بەسەر گردەلمەکەدا سەرکەوتن بۆ ھەبوونی دیمەنێکی باشتری بیابانەکە.""",
             onPressedBritish: () => speakdunes1("en-GB"),
             onPressedAmerican: () => speakdunes1("en-US"),
           ),

@@ -387,7 +387,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I get my food delivered from the supermarket to save time.",
             kurdishText:
-                "بۆ گەڕاندنەوەی کات خواردنەکەم لە سوپەرمارکێتەکەوە بۆ دەنێردرێت.", // deliver
+                "بۆ گەڕاندنەوەی کات خواردنەکەم لە سوپەرمارکێتەکەوە بۆ دەنێردرێت.",
             onPressedBritish: () => speakdelivers1("en-GB"),
             onPressedAmerican: () => speakdelivers1("en-US"),
           ),

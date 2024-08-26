@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They deceitfully made big promises that they now cannot keep.",
             kurdishText:
-                "فێڵاوییانە بەڵێنی قەبەیان دا کە ئێستا ناتوانن بیپارێزن.", // deceitfully
+                "فێڵاوییانە بەڵێنی قەبەیان دا کە ئێستا ناتوانن بیپارێزن.",
             onPressedBritish: () => speakdeceitfullys1("en-GB"),
             onPressedAmerican: () => speakdeceitfullys1("en-US"),
           ),

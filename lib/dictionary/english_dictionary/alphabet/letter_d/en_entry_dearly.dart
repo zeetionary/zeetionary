@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر"),
           SentencesRow(
             englishText: "She loves him dearly.",
-            kurdishText: "زۆرم خۆشدەوێت.", // dearly
+            kurdishText: "زۆرم خۆشدەوێت.",
             onPressedBritish: () => speakdearlys1("en-GB"),
             onPressedAmerican: () => speakdearlys1("en-US"),
           ),

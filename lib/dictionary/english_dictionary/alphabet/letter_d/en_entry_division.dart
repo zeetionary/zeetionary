@@ -476,7 +476,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "he organism begins as a single cell and grows by cell division.",
             kurdishText:
-                "گیانلەبەرەکە بە یەک خانە دەست پێدەکات و بە دابەشبوونی خانە گەشي دەکات.", // division
+                "گیانلەبەرەکە بە یەک خانە دەست پێدەکات و بە دابەشبوونی خانە گەشي دەکات.",
             onPressedBritish: () => speakdivisions1("en-GB"),
             onPressedAmerican: () => speakdivisions1("en-US"),
           ),

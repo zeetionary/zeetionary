@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) بچووک بوون، لاوازبوون، ھتد"),
           SentencesRow(
             englishText: "The world's resources are rapidly diminishing.",
-            kurdishText: "سەرچاوەکانی جی‌ان بە خێرایی کەم دەکەن.", // diminish
+            kurdishText: "سەرچاوەکانی جی‌ان بە خێرایی کەم دەکەن.",
             onPressedBritish: () => speakdiminishs1("en-GB"),
             onPressedAmerican: () => speakdiminishs1("en-US"),
           ),

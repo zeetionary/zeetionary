@@ -362,8 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """I had always admired the intense earnestness of his character.""",
-            kurdishText:
-                """ھەمیشە سەرسامی بەتینیی کەسایەتیی بووم.""", // earnestness
+            kurdishText: """ھەمیشە سەرسامی بەتینیی کەسایەتیی بووم.""",
             onPressedBritish: () => speakearnestnesss1("en-GB"),
             onPressedAmerican: () => speakearnestnesss1("en-US"),
           ),

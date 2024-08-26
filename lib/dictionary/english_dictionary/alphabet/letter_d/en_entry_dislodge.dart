@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) دەرکردنی شتێک لە شوێنی یاسایی خۆی"),
           SentencesRow(
             englishText: "The wind dislodged one or two tiles from the roof.",
-            kurdishText:
-                "بایەکە یەک یان دوو تەنکەخشتی لەسەر بانەکە لێکردەوە.", // dislodge
+            kurdishText: "بایەکە یەک یان دوو تەنکەخشتی لەسەر بانەکە لێکردەوە.",
             onPressedBritish: () => speakdislodges1("en-GB"),
             onPressedAmerican: () => speakdislodges1("en-US"),
           ),

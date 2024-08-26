@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The police decoyed the suspect into a trap by posing as buyers.",
             kurdishText:
-                "پۆلیس گومانلێکراوەکەی فریودایە ناو تەڵەیەکەوە بە خۆپیشاندان وەک کڕیار.", // decoy
+                "پۆلیس گومانلێکراوەکەی فریودایە ناو تەڵەیەکەوە بە خۆپیشاندان وەک کڕیار.",
             onPressedBritish: () => speakdecoys1("en-GB"),
             onPressedAmerican: () => speakdecoys1("en-US"),
           ),

@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە تەواو نیگەرانت دەکات چونکە کەسێک ئازار دەچێژێت"),
           SentencesRow(
             englishText: "It was a very distressing documentary.",
-            kurdishText: "دۆکیمێنتارییەکی زۆر بە ئازار بوو.", // distressing
+            kurdishText: "دۆکیمێنتارییەکی زۆر بە ئازار بوو.",
             onPressedBritish: () => speakdistressings1("en-GB"),
             onPressedAmerican: () => speakdistressings1("en-US"),
           ),

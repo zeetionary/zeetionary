@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (کردار) وێناکردن یان دەربڕینی بیرۆکە یان خاسیەتێک"""),
           SentencesRow(
             englishText: """These ideals were embodied in the constitution.""",
-            kurdishText: """ئەم بیرۆکانە لە دەستووردا جێکرانەوە.""", // embody
+            kurdishText: """ئەم بیرۆکانە لە دەستووردا جێکرانەوە.""",
             onPressedBritish: () => speakembodys1("en-GB"),
             onPressedAmerican: () => speakembodys1("en-US"),
           ),

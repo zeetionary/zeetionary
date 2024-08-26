@@ -248,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "These latest measures should help to defuse the situation.",
-            kurdishText:
-                "ئەم ھەنگاوانەی کۆتایی دەبێت دۆخەکە ھێوردبکەنەوە.", // defuse
+            kurdishText: "ئەم ھەنگاوانەی کۆتایی دەبێت دۆخەکە ھێوردبکەنەوە.",
             onPressedBritish: () => speakdefuses1("en-GB"),
             onPressedAmerican: () => speakdefuses1("en-US"),
           ),

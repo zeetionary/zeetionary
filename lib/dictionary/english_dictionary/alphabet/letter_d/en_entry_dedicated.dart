@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ھەوڵدانی زۆر بۆ شتێک چونکە زۆر گرنگە بۆت"),
           SentencesRow(
             englishText: "She is dedicated to her job.",
-            kurdishText: "بە پەرۆشە بۆ کارەکەی.", // dedicated
+            kurdishText: "بە پەرۆشە بۆ کارەکەی.",
             onPressedBritish: () => speakdedicateds1("en-GB"),
             onPressedAmerican: () => speakdedicateds1("en-US"),
           ),

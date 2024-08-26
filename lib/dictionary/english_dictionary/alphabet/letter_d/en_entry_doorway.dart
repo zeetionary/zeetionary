@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She stood in the doorway for a moment before going in.",
-            kurdishText:
-                "بۆ ساتێک لە دەرگاکەدا وەستا پێش ئەوەی بچێتە ژوورەوە.", // doorway
+            kurdishText: "بۆ ساتێک لە دەرگاکەدا وەستا پێش ئەوەی بچێتە ژوورەوە.",
             onPressedBritish: () => speakdoorways1("en-GB"),
             onPressedAmerican: () => speakdoorways1("en-US"),
           ),

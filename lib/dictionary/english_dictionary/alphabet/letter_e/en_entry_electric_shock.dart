@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) تەزووی کارەبایی لەناکاو کە بە جەستەدا تێدەپەڕێت و دەبێتە ھۆکاری ئازار یان ھەندێک جار مەرگ"""),
           SentencesRow(
             englishText: """I got an electric shock from that light switch.""",
-            kurdishText:
-                """کارەبا گرتمی لەو سویچی ڕۆشناییە.""", // electric shock
+            kurdishText: """کارەبا گرتمی لەو سویچی ڕۆشناییە.""",
             onPressedBritish: () => speakelectricshocks1("en-GB"),
             onPressedAmerican: () => speakelectricshocks1("en-US"),
           ),

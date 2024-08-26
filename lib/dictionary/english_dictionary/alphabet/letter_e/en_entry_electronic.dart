@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Airline passengers no longer have to turn off all electronic devices while on the plane.""",
             kurdishText:
-                """گەشتیارانی فڕۆکەکان چی دیکە پێویست ناکات ئامێرەکانیان بکوژێننەوە لەسەر فڕۆکە.""", // electronic
+                """گەشتیارانی فڕۆکەکان چی دیکە پێویست ناکات ئامێرەکانیان بکوژێننەوە لەسەر فڕۆکە.""",
             onPressedBritish: () => speakelectronics1("en-GB"),
             onPressedAmerican: () => speakelectronics1("en-US"),
           ),

@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پیسایی باڵندە و ئاژەڵ، بەتایبەتی ئەوانەی کە بچووکن"),
           SentencesRow(
             englishText: "We found mouse droppings in the garage.",
-            kurdishText: "پیسایی مشکمان لە گەراجەکە دۆزییەوە.", // droppings
+            kurdishText: "پیسایی مشکمان لە گەراجەکە دۆزییەوە.",
             onPressedBritish: () => speakdroppingss1("en-GB"),
             onPressedAmerican: () => speakdroppingss1("en-US"),
           ),

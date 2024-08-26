@@ -362,8 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She removed the dust jacket before reading the book.""",
-            kurdishText:
-                """پێش خوێندنەوەی کتێبەکە ڕووپۆشەکەی لێکردەوە.""", // dust jacket
+            kurdishText: """پێش خوێندنەوەی کتێبەکە ڕووپۆشەکەی لێکردەوە.""",
             onPressedBritish: () => speakdustjackets1("en-GB"),
             onPressedAmerican: () => speakdustjackets1("en-US"),
           ),

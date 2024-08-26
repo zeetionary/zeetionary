@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) سەگێک کە لاشە و گوێی درێژ و لاقی کورت ھەیە"),
           SentencesRow(
             englishText: "Dachshunds are known for their playful nature.",
-            kurdishText:
-                "پێ‌کوڵەکان ناسراون بۆ سرووشتی ھاروھاجییان.", // dachshund
+            kurdishText: "پێ‌کوڵەکان ناسراون بۆ سرووشتی ھاروھاجییان.",
             onPressedBritish: () => speakdachshunds1("en-GB"),
             onPressedAmerican: () => speakdachshunds1("en-US"),
           ),

@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ھەستکردن بەوەی ھەموو شتێک دەسووڕێتەوە و ناتوانیت ھاوسەنگی ڕابگریت"),
           SentencesRow(
             englishText: "Climbing so high made me feel dizzy.",
-            kurdishText: "سەرکەوتنی ھێندە بەرز وای لێکردم گێژبخۆم.", // dizzy
+            kurdishText: "سەرکەوتنی ھێندە بەرز وای لێکردم گێژبخۆم.",
             onPressedBritish: () => speakdizzys1("en-GB"),
             onPressedAmerican: () => speakdizzys1("en-US"),
           ),

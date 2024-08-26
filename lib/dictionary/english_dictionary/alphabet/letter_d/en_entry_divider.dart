@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Portable sound-absorbent room dividers allow the area to be sectioned to suit your requirements.",
             kurdishText:
-                "دابەشکاری دژە دەنگی ھەڵگرتەنی ڕێگا دەدەن ناوچەکە بەش‌بەش بکرێت بۆ ئەوەی لەگەڵ پێویستییەکانت بگونجێت.", // divider
+                "دابەشکاری دژە دەنگی ھەڵگرتەنی ڕێگا دەدەن ناوچەکە بەش‌بەش بکرێت بۆ ئەوەی لەگەڵ پێویستییەکانت بگونجێت.",
             onPressedBritish: () => speakdividers1("en-GB"),
             onPressedAmerican: () => speakdividers1("en-US"),
           ),

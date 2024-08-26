@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "It took a while for his eyes to adjust to the dimness.",
-            kurdishText:
-                "کەمێکی پێچوو تاوەکو چاوەکانی بە کزییەکە ڕابێت.", // dimness
+            kurdishText: "کەمێکی پێچوو تاوەکو چاوەکانی بە کزییەکە ڕابێت.",
             onPressedBritish: () => speakdimnesss1("en-GB"),
             onPressedAmerican: () => speakdimnesss1("en-US"),
           ),

@@ -249,8 +249,7 @@ class KurdishMeaning extends StatelessWidget {
                 "His shot took a deflection off a defender and finished in the net.",
             englishNote:
                 "Similar: His shot took a deflection and sailed into the net.",
-            kurdishText:
-                "لێدانەکەی کێشای بە بەرگریکارەکەدا و چووە ناو تۆڕەکە.", // deflection
+            kurdishText: "لێدانەکەی کێشای بە بەرگریکارەکەدا و چووە ناو تۆڕەکە.",
             onPressedBritish: () => speakdeflections1("en-GB"),
             onPressedAmerican: () => speakdeflections1("en-US"),
           ),

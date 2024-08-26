@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The document was duly signed by the inspector.""",
             kurdishText:
-                """بەڵگەنامەکە بە درووستی لەلایەن پشکنەرەکەوە واژۆکرا.""", // duly
+                """بەڵگەنامەکە بە درووستی لەلایەن پشکنەرەکەوە واژۆکرا.""",
             onPressedBritish: () => speakdulys1("en-GB"),
             onPressedAmerican: () => speakdulys1("en-US"),
           ),

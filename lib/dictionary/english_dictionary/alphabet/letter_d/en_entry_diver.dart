@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە لەژێر ئاودا مەلە دەکات بە بەکارھێنانی کەرەستەی تایبەت، زۆرجار وەک وەرزش یان وەک پیشەیەک"),
           SentencesRow(
             englishText: "He was a diver on a North Sea oil rig.",
-            kurdishText:
-                "مەلەوانێکی سەر سەکۆی نەوتی دەریای باکوور بوو.", // diver
+            kurdishText: "مەلەوانێکی سەر سەکۆی نەوتی دەریای باکوور بوو.",
             onPressedBritish: () => speakdivers1("en-GB"),
             onPressedAmerican: () => speakdivers1("en-US"),
           ),

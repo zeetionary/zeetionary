@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I did not mean to be disrespectful to the memory of those who died.",
             kurdishText:
-                "نەمدەویست بێڕێز بم بەرامبەر یادەوەری ئەوانەی کە مردن.", // disrespectful
+                "نەمدەویست بێڕێز بم بەرامبەر یادەوەری ئەوانەی کە مردن.",
             onPressedBritish: () => speakdisrespectfuls1("en-GB"),
             onPressedAmerican: () => speakdisrespectfuls1("en-US"),
           ),

@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She has caused a storm by calling into question one of the central dogmas of the Church.",
             kurdishText:
-                "ھەرای ناوەتەوە بە وەستانەوە دژی یەکێک لە باوەڕە بنچینەییەکانی کڵێسا.", // dogma
+                "ھەرای ناوەتەوە بە وەستانەوە دژی یەکێک لە باوەڕە بنچینەییەکانی کڵێسا.",
             onPressedBritish: () => speakdogmas1("en-GB"),
             onPressedAmerican: () => speakdogmas1("en-US"),
           ),

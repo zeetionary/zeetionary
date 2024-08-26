@@ -137,7 +137,7 @@ class EnglishEntrybuddy extends StatelessWidget {
                           SentencesRow(
                             englishText: "We were good buddies.",
                             kurdishText:
-                                "دۆستی نزیکی یەکدی بووین.", // buddy", follow LX strictly.
+                                "دۆستی نزیکی یەکدی بووین.",
                             onPressedBritish: () => speakbuddys1("en-GB"),
                             onPressedAmerican: () => speakbuddys1("en-US"),
                           ),

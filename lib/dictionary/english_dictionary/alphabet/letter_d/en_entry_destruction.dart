@@ -264,7 +264,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The central argument is that capitalism sows the seeds of its own destruction (= creates the forces that destroy it).",
             kurdishText:
-                "مشتومڕی سەرەکی ئەوەی سەرمایەداری ئەو تۆوانە دەچێنێت ک لەناوی دەبەن.", // destruction
+                "مشتومڕی سەرەکی ئەوەی سەرمایەداری ئەو تۆوانە دەچێنێت ک لەناوی دەبەن.",
             onPressedBritish: () => speakdestructions1("en-GB"),
             onPressedAmerican: () => speakdestructions1("en-US"),
           ),

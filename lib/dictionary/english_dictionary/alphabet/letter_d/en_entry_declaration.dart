@@ -290,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The declaration asked governments to consider introducing new environmental taxes.",
             kurdishText:
-                "بەیاننامەکە داوای لە حکومەتەکان کرد کە باجی ژینگەیی تازە لەبەرچاو بگرن.", // declaration
+                "بەیاننامەکە داوای لە حکومەتەکان کرد کە باجی ژینگەیی تازە لەبەرچاو بگرن.",
             onPressedBritish: () => speakdeclarations1("en-GB"),
             onPressedAmerican: () => speakdeclarations1("en-US"),
           ),

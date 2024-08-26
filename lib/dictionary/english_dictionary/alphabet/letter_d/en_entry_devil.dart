@@ -281,7 +281,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "His strong left-wing views make him the devil incarnate to more extreme Conservatives.",
             kurdishText:
-                "دیدە بەھێزە چەپڕەوەکانی لەلای ڕاستڕەوە توندەکان دەیکات بە شەیتان.", // devil
+                "دیدە بەھێزە چەپڕەوەکانی لەلای ڕاستڕەوە توندەکان دەیکات بە شەیتان.",
             onPressedBritish: () => speakdevils1("en-GB"),
             onPressedAmerican: () => speakdevils1("en-US"),
           ),

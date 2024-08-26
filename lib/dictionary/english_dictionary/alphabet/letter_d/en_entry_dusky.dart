@@ -374,8 +374,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) کە زۆر ڕۆشن نییە؛ کە ڕەنگی تاریکە"""),
           SentencesRow(
             englishText: """Her skin turned a dusky gold in the sun.""",
-            kurdishText:
-                """پێستی بوو بە ئاڵتوونی تاریک لەبەر خۆرەکەدا.""", // dusky
+            kurdishText: """پێستی بوو بە ئاڵتوونی تاریک لەبەر خۆرەکەدا.""",
             onPressedBritish: () => speakduskys1("en-GB"),
             onPressedAmerican: () => speakduskys1("en-US"),
           ),

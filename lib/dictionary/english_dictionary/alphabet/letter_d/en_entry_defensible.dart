@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Are these measures either morally or legally defensible?",
             kurdishText:
-                "ئایا ئەم ھەنگاوانە چی لەلایەنی ئەخلاقی یان یاسایی لەبەرگری‌ھاتوون؟", // defensible
+                "ئایا ئەم ھەنگاوانە چی لەلایەنی ئەخلاقی یان یاسایی لەبەرگری‌ھاتوون؟",
             onPressedBritish: () => speakdefensibles1("en-GB"),
             onPressedAmerican: () => speakdefensibles1("en-US"),
           ),

@@ -279,7 +279,7 @@ class EnglishEntrybudget extends StatelessWidget {
                             englishText:
                                 "Many families struggle to balance the household budget.",
                             kurdishText:
-                                "زۆر خێزان تەقەڵایانە ھاوسەنگی ڕابگرن لە بودجەی خێزانەکانیاندا.", // budget", follow LX strictly.
+                                "زۆر خێزان تەقەڵایانە ھاوسەنگی ڕابگرن لە بودجەی خێزانەکانیاندا.",
                             onPressedBritish: () => speakbudgets1("en-GB"),
                             onPressedAmerican: () => speakbudgets1("en-US"),
                           ),

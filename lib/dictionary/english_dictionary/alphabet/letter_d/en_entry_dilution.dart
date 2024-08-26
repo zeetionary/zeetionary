@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) لاوازکردنی شلەیەک بە زیادکردنی ئاو یان شلەیەکی دیکە بۆی"),
           SentencesRow(
             englishText: "The drug's effectiveness is decreased by dilution.",
-            kurdishText:
-                "کاریگەری دەرمانەکە کەم دەبێتەوە بە تراواندنی.", // dilution
+            kurdishText: "کاریگەری دەرمانەکە کەم دەبێتەوە بە تراواندنی.",
             onPressedBritish: () => speakdilutions1("en-GB"),
             onPressedAmerican: () => speakdilutions1("en-US"),
           ),

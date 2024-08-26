@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "To avoid dampness, air the room regularly.",
             kurdishText:
-                "بۆ دووربوون لە شێداری، زوو زوو ھەواگۆڕکێ بدە بە ژوورەکە.", // dampness
+                "بۆ دووربوون لە شێداری، زوو زوو ھەواگۆڕکێ بدە بە ژوورەکە.",
             onPressedBritish: () => speakdampnesss1("en-GB"),
             onPressedAmerican: () => speakdampnesss1("en-US"),
           ),

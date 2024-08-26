@@ -178,8 +178,7 @@ class EnglishEntrybuyer extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Have you found a buyer for your house?",
-                            kurdishText:
-                                "کڕیارێکت بۆ خانووەکەت دۆزیوەتەوە.", // buyer", follow LX strictly
+                            kurdishText: "کڕیارێکت بۆ خانووەکەت دۆزیوەتەوە.",
                             onPressedBritish: () => speakbuyers1("en-GB"),
                             onPressedAmerican: () => speakbuyers1("en-US"),
                           ),

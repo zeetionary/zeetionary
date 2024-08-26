@@ -263,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Teenage delinquents often skip school and cause trouble.",
             kurdishText:
-                "ھەرزەکارە سەرەڕۆکان زۆرجار ناچنە قوتابخانە و کێشە درووست دەکەن.", // delinquent
+                "ھەرزەکارە سەرەڕۆکان زۆرجار ناچنە قوتابخانە و کێشە درووست دەکەن.",
             onPressedBritish: () => speakdelinquents1("en-GB"),
             onPressedAmerican: () => speakdelinquents1("en-US"),
           ),

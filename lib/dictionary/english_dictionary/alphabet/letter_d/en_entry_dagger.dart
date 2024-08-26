@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) چەقۆیەکی بچووکی تیژ کە وەک چەک بەکاردێت"),
           SentencesRow(
             englishText: "Each man was armed with both sword and dagger.",
-            kurdishText:
-                "ھەموو پیاوێک بە شمشێرێک و خەنجەرێک چەکدار بوو.", // dagger
+            kurdishText: "ھەموو پیاوێک بە شمشێرێک و خەنجەرێک چەکدار بوو.",
             onPressedBritish: () => speakdaggers1("en-GB"),
             onPressedAmerican: () => speakdaggers1("en-US"),
           ),

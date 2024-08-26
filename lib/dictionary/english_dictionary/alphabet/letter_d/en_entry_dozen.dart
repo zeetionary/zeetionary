@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو، دیارخەر) ١٢ دانە لە شتێک"),
           SentencesRow(
             englishText: "Give me a dozen, please.",
-            kurdishText: "تکایە دەرزەنێکم پێبدە.", // dozen
+            kurdishText: "تکایە دەرزەنێکم پێبدە.",
             onPressedBritish: () => speakdozens1("en-GB"),
             onPressedAmerican: () => speakdozens1("en-US"),
           ),

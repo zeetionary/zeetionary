@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەرەو خوارەوەی گردێک؛ بە ئاراستەیەک کە بۆ خوارەوە دەچێت"),
           SentencesRow(
             englishText: "It's so much easier running downhill!",
-            kurdishText: "زۆر ئاسانترە بۆ خوارەوەی گردەکە ڕابکەیت!", // downhill
+            kurdishText: "زۆر ئاسانترە بۆ خوارەوەی گردەکە ڕابکەیت!",
             onPressedBritish: () => speakdownhills1("en-GB"),
             onPressedAmerican: () => speakdownhills1("en-US"),
           ),

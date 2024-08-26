@@ -298,8 +298,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The children squealed with delight when they saw the puppy.",
-            kurdishText:
-                "منداڵەکان لە خۆشیدا قیژاندیان کە توولەکەیان بینی.", // delight
+            kurdishText: "منداڵەکان لە خۆشیدا قیژاندیان کە توولەکەیان بینی.",
             onPressedBritish: () => speakdelights1("en-GB"),
             onPressedAmerican: () => speakdelights1("en-US"),
           ),

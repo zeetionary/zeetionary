@@ -255,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The paint can be diluted with water to make a lighter shade.",
             kurdishText:
-                "بۆیەکە دەکرێت بە تراو بکرێت بۆ درووستکردنی ڕەنگێکی کاڵتر.", // dilute
+                "بۆیەکە دەکرێت بە تراو بکرێت بۆ درووستکردنی ڕەنگێکی کاڵتر.",
             onPressedBritish: () => speakdilutes1("en-GB"),
             onPressedAmerican: () => speakdilutes1("en-US"),
           ),

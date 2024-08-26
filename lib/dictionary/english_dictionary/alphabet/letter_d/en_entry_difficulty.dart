@@ -305,7 +305,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They encountered numerous difficulties while making the film.",
             kurdishText:
-                "تووشی ژمارەیەک سەختی بوو لە کاتی بەرھەمھێنانی فیلمەکە.", // difficulty
+                "تووشی ژمارەیەک سەختی بوو لە کاتی بەرھەمھێنانی فیلمەکە.",
             onPressedBritish: () => speakdifficultys1("en-GB"),
             onPressedAmerican: () => speakdifficultys1("en-US"),
           ),

@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Queen Victoria had been on the throne for 60 years and her diamond jubilee was being celebrated.",
             kurdishText:
-                "شاژن ڤیکتۆریا بۆ ٦٠ ساڵ بووبوو لەسەر تەخت بوو و یادی شەستەمین ساڵیاد پیرۆز دەکرا.", // diamond jubilee
+                "شاژن ڤیکتۆریا بۆ ٦٠ ساڵ بووبوو لەسەر تەخت بوو و یادی شەستەمین ساڵیاد پیرۆز دەکرا.",
             onPressedBritish: () => speakdiamondjubilees1("en-GB"),
             onPressedAmerican: () => speakdiamondjubilees1("en-US"),
           ),

@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A new system has been devised to control traffic in the city.",
             kurdishText:
-                "سیستەمێکی تازە داڕێژراوە بۆ کۆنترۆڵکردنی ھاتووچۆ لە شارەکەدا.", // devise
+                "سیستەمێکی تازە داڕێژراوە بۆ کۆنترۆڵکردنی ھاتووچۆ لە شارەکەدا.",
             onPressedBritish: () => speakdevises1("en-GB"),
             onPressedAmerican: () => speakdevises1("en-US"),
           ),

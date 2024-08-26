@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەمێک خواردن، کە زۆرجار لە کەوچکێکەوە دەکەوێتە خوارەوە"),
           SentencesRow(
             englishText: "She enjoyed a dollop of honey in her tea.",
-            kurdishText: "حەزی بە نەختێک ھەنگوین بوو لە چاکەیدا.", // dollop
+            kurdishText: "حەزی بە نەختێک ھەنگوین بوو لە چاکەیدا.",
             onPressedBritish: () => speakdollops1("en-GB"),
             onPressedAmerican: () => speakdollops1("en-US"),
           ),

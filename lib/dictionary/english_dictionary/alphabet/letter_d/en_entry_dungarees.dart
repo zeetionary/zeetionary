@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(word: "ھەروەھا: overalls، bib overalls"),
           SentencesRow(
             englishText: """His dungarees were covered in grease.""",
-            kurdishText:
-                """شەڵواری بەرسینگ‌دارەکەی لە گریس تەندرابوو.""", // dungarees
+            kurdishText: """شەڵواری بەرسینگ‌دارەکەی لە گریس تەندرابوو.""",
             onPressedBritish: () => speakdungareess1("en-GB"),
             onPressedAmerican: () => speakdungareess1("en-US"),
           ),

@@ -141,7 +141,7 @@ class EnglishEntrybuffer extends StatelessWidget {
                             englishText:
                                 "She often had to act as a buffer between father and son.",
                             kurdishText:
-                                "زۆرجار دەبوو وەک نێوەندگیر لەنێوان باوک و کوڕدا ڕۆڵ ببینێت.", // buffer", follow LX strictly.
+                                "زۆرجار دەبوو وەک نێوەندگیر لەنێوان باوک و کوڕدا ڕۆڵ ببینێت.",
                             onPressedBritish: () => speakbuffers1("en-GB"),
                             onPressedAmerican: () => speakbuffers1("en-US"),
                           ),

@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئەو ھەستەی کە بە شتێک ڕازی یان دڵخۆش نیت"),
           SentencesRow(
             englishText: "Pay cuts have led to widespread dissatisfaction.",
-            kurdishText:
-                "کەمکردنەوەی مووچە بووە بە ھۆکاری ناڕەزایی بەرفراوان.", // dissatisfaction
+            kurdishText: "کەمکردنەوەی مووچە بووە بە ھۆکاری ناڕەزایی بەرفراوان.",
             onPressedBritish: () => speakdissatisfactions1("en-GB"),
             onPressedAmerican: () => speakdissatisfactions1("en-US"),
           ),

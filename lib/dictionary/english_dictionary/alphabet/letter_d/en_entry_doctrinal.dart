@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The church issued a doctrinal statement on its core beliefs.",
             kurdishText:
-                "کڵێساکە لێدوانێکی ڕێبازەکانی بڵاوکردەوە لەسەر باوەڕە بنچینەییەکانی.", // doctrinal
+                "کڵێساکە لێدوانێکی ڕێبازەکانی بڵاوکردەوە لەسەر باوەڕە بنچینەییەکانی.",
             onPressedBritish: () => speakdoctrinals1("en-GB"),
             onPressedAmerican: () => speakdoctrinals1("en-US"),
           ),

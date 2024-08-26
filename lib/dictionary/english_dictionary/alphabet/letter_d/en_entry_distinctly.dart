@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە بە ئاسانی یان ڕوونی دەبیسترێت، دەبینرێت، ھەستی پێدەکرێت، ھتد"),
           SentencesRow(
             englishText: "I distinctly heard someone calling me.",
-            kurdishText: "بە ڕوونی گوێم لە کەسێک بوو بانگی کردم.", // distinctly
+            kurdishText: "بە ڕوونی گوێم لە کەسێک بوو بانگی کردم.",
             onPressedBritish: () => speakdistinctlys1("en-GB"),
             onPressedAmerican: () => speakdistinctlys1("en-US"),
           ),

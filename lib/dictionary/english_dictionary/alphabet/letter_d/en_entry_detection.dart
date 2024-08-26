@@ -251,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) پڕۆسەی دۆزینەوە یان تێبینی کردنی شتێک"),
           SentencesRow(
             englishText: "Many problems escape detection.",
-            kurdishText: "زۆر کێشە ھەست پێ ناکرێن.", // detection
+            kurdishText: "زۆر کێشە ھەست پێ ناکرێن.",
             onPressedBritish: () => speakdetections1("en-GB"),
             onPressedAmerican: () => speakdetections1("en-US"),
           ),

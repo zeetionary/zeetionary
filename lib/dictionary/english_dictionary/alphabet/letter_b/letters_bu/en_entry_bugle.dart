@@ -139,7 +139,7 @@ class EnglishEntrybugle extends StatelessWidget {
                             englishText:
                                 "As the sun set, the bugle called the troops back to the barracks.",
                             kurdishText:
-                                "کە خۆر ئاوابوو، زوڕناکە لێدرا بۆ ئەوەی سەربازەکان بگەڕێنەوە سەربازگەکان.", // bugle", follow LX strictly
+                                "کە خۆر ئاوابوو، زوڕناکە لێدرا بۆ ئەوەی سەربازەکان بگەڕێنەوە سەربازگەکان.",
                             onPressedBritish: () => speakbugles1("en-GB"),
                             onPressedAmerican: () => speakbugles1("en-US"),
                           ),

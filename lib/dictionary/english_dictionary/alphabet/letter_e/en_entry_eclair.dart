@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) کێکێکی درێژ کە بە ھەویری شل درووست دەکرێت و ناوەکەی پڕ دەکرێت لە کرێم چکلێت لە بانی دادەندرێت"""),
           SentencesRow(
             englishText: """She enjoyed a chocolate eclair with her coffee.""",
-            kurdishText: """کێکێکی درێژی چکلێتی لەگەڵ قاوە خوارد.""", // eclair
+            kurdishText: """کێکێکی درێژی چکلێتی لەگەڵ قاوە خوارد.""",
             onPressedBritish: () => speakeclairs1("en-GB"),
             onPressedAmerican: () => speakeclairs1("en-US"),
           ),

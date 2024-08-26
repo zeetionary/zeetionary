@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Some fans seem to regard the players as divine beings.",
             kurdishText:
-                "ھەندێک ھەوادار وادیارن کە یاریزانەکان وەک بوونی خودایی دادەنێت.", // divine
+                "ھەندێک ھەوادار وادیارن کە یاریزانەکان وەک بوونی خودایی دادەنێت.",
             onPressedBritish: () => speakdivines1("en-GB"),
             onPressedAmerican: () => speakdivines1("en-US"),
           ),

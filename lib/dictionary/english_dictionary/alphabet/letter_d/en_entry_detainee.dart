@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The detainee can make a formal complaint after release.",
             kurdishText:
-                "زیندانییەکە دەتوانێت سکاڵایەکی فەرمی پێشکەش بکات لە دوای ئازادبوونی.", // detainee
+                "زیندانییەکە دەتوانێت سکاڵایەکی فەرمی پێشکەش بکات لە دوای ئازادبوونی.",
             onPressedBritish: () => speakdetainees1("en-GB"),
             onPressedAmerican: () => speakdetainees1("en-US"),
           ),

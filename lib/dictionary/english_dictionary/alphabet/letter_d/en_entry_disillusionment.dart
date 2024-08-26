@@ -242,8 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There is widespread disillusionment with the present government.",
-            kurdishText:
-                "نائومێدی زۆر بەم حکومەتەی ئێستا ھەیە.", // disillusionment
+            kurdishText: "نائومێدی زۆر بەم حکومەتەی ئێستا ھەیە.",
             onPressedBritish: () => speakdisillusionments1("en-GB"),
             onPressedAmerican: () => speakdisillusionments1("en-US"),
           ),

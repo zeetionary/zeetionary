@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """It is the tomb of Emperor Qin Shi Huang, emperor of China.""",
             kurdishText:
-                """ئەوە گۆڕی ئیمپراتۆر چین شی ھوانگە، ئیپراتۆری چین.""", // emperor
+                """ئەوە گۆڕی ئیمپراتۆر چین شی ھوانگە، ئیپراتۆری چین.""",
             onPressedBritish: () => speakemperors1("en-GB"),
             onPressedAmerican: () => speakemperors1("en-US"),
           ),

@@ -268,8 +268,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) نائومێدی"),
           SentencesRow(
             englishText: "Book early for the show to avoid disappointment.",
-            kurdishText:
-                "زوو بلیت بکڕە بۆ نمایشەکە بۆ دووربوون لە نائومێدی.", // disappointment
+            kurdishText: "زوو بلیت بکڕە بۆ نمایشەکە بۆ دووربوون لە نائومێدی.",
             onPressedBritish: () => speakdisappointments1("en-GB"),
             onPressedAmerican: () => speakdisappointments1("en-US"),
           ),

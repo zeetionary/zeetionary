@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I'm sorry to disturb you, but can I talk to you for a moment?",
             kurdishText:
-                "ببوورە کە بێزارت دەکەم، بەڵام دەتوانم بۆ ساتێک لەگەڵت بدوێم.", // disturb
+                "ببوورە کە بێزارت دەکەم، بەڵام دەتوانم بۆ ساتێک لەگەڵت بدوێم.",
             onPressedBritish: () => speakdisturbs1("en-GB"),
             onPressedAmerican: () => speakdisturbs1("en-US"),
           ),

@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵکار) بەشێوەیەک کە سەرنجڕاکێشە"""),
           SentencesRow(
             englishText: """He leaned elegantly against the door.""",
-            kurdishText: """شەدەلارانە پاڵی دا بە دەرگاکەوە.""", // elegantly
+            kurdishText: """شەدەلارانە پاڵی دا بە دەرگاکەوە.""",
             onPressedBritish: () => speakelegantlys1("en-GB"),
             onPressedAmerican: () => speakelegantlys1("en-US"),
           ),

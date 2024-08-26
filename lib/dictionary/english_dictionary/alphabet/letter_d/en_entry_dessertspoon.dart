@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کەوچکێکی قەبارە مامناوەند"),
           SentencesRow(
             englishText: "She ate the salad with a dessertspoon.",
-            kurdishText: "بە کەوچکی چێشتخۆر زەڵاتەکەی خوارد.", // dessertspoon
+            kurdishText: "بە کەوچکی چێشتخۆر زەڵاتەکەی خوارد.",
             onPressedBritish: () => speakdessertspoons1("en-GB"),
             onPressedAmerican: () => speakdessertspoons1("en-US"),
           ),

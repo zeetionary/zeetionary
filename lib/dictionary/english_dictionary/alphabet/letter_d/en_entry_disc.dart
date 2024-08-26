@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) شتێکی تەختی باریکی خڕ"),
           SentencesRow(
             englishText: "He wears an identity disc around his neck.",
-            kurdishText: "پەپکێکی ناسنامە لە ملی دەبەستێت.", // disc
+            kurdishText: "پەپکێکی ناسنامە لە ملی دەبەستێت.",
             onPressedBritish: () => speakdiscs1("en-GB"),
             onPressedAmerican: () => speakdiscs1("en-US"),
           ),

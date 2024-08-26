@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) سەندنی چەک لە کەسێک"),
           SentencesRow(
             englishText: "Most of the rebels were captured and disarmed.",
-            kurdishText: "زۆرێک لە یاخییەکان گیران و چەککران.", // disarm
+            kurdishText: "زۆرێک لە یاخییەکان گیران و چەککران.",
             onPressedBritish: () => speakdisarms1("en-GB"),
             onPressedAmerican: () => speakdisarms1("en-US"),
           ),

@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Farmers are facing ruin after two years of severe drought.",
             kurdishText:
-                "جوتیاران ڕووبەڕووی ئافات بوونە دوای دوو ساڵ لە وشکەساڵی سەخت.", // drought
+                "جوتیاران ڕووبەڕووی ئافات بوونە دوای دوو ساڵ لە وشکەساڵی سەخت.",
             onPressedBritish: () => speakdroughts1("en-GB"),
             onPressedAmerican: () => speakdroughts1("en-US"),
           ),

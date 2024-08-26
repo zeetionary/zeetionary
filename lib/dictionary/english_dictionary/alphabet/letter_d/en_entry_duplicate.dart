@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Please keep the duplicated form and send us the original.""",
             kurdishText:
-                """تکایە دانە لەبەرگیراوەکە ببە و ڕەسەنەکەمان بدەوە.""", // duplicate
+                """تکایە دانە لەبەرگیراوەکە ببە و ڕەسەنەکەمان بدەوە.""",
             onPressedBritish: () => speakduplicates1("en-GB"),
             onPressedAmerican: () => speakduplicates1("en-US"),
           ),

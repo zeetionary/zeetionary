@@ -462,7 +462,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) ھەوڵێک بۆ کردنی شتێک، بەتایبەتی کە کردنی سەختە"""),
           SentencesRow(
             englishText: """The project was a team effort.""",
-            kurdishText: """پڕۆژەکە ھەوڵی تیمێک بوو.""", // effort
+            kurdishText: """پڕۆژەکە ھەوڵی تیمێک بوو.""",
             onPressedBritish: () => speakefforts1("en-GB"),
             onPressedAmerican: () => speakefforts1("en-US"),
           ),

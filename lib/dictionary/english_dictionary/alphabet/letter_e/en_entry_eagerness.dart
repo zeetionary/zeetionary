@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """I couldn't hide my eagerness to get back home.""",
             kurdishText:
-                """نەمدەتوانی تامەزرۆییم بۆ گەڕانەوە بۆ ماڵەوە بشارمەوە.""", // eagerness
+                """نەمدەتوانی تامەزرۆییم بۆ گەڕانەوە بۆ ماڵەوە بشارمەوە.""",
             onPressedBritish: () => speakeagernesss1("en-GB"),
             onPressedAmerican: () => speakeagernesss1("en-US"),
           ),

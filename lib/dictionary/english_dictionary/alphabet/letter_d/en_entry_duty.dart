@@ -464,7 +464,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) شتێک کە پێتوایە دەبێت بیکەیت چونکە پێتوایە بەرپرسیاریەتی ئەخلاقی یان یان یاساییتە"""),
           SentencesRow(
             englishText: """It is my duty to report it to the police.""",
-            kurdishText: """ئەوە ئەرکمە کە کە بە پۆلیسی بڵێم.""", // duty
+            kurdishText: """ئەوە ئەرکمە کە کە بە پۆلیسی بڵێم.""",
             onPressedBritish: () => speakdutys1("en-GB"),
             onPressedAmerican: () => speakdutys1("en-US"),
           ),

@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) پیشاندانی ھەوڵ و ماندووبوون لە پیشە و کاردا"),
           SentencesRow(
             englishText: "Leo is very diligent in/about his work.",
-            kurdishText: "لیۆ زۆر ڕەنج‌کێشە لە کارەکەیدا.", // diligent
+            kurdishText: "لیۆ زۆر ڕەنج‌کێشە لە کارەکەیدا.",
             onPressedBritish: () => speakdiligents1("en-GB"),
             onPressedAmerican: () => speakdiligents1("en-US"),
           ),

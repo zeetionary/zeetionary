@@ -297,7 +297,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ھەر مادەیەک کە شتێک پیس دەکات، بۆ نموونە تۆز، خۆڵ، قوڕ"),
           SentencesRow(
             englishText: "His clothes were covered in dirt.",
-            kurdishText: "جلەکانی لە پیسی نرابوون.", // dirt
+            kurdishText: "جلەکانی لە پیسی نرابوون.",
             onPressedBritish: () => speakdirts1("en-GB"),
             onPressedAmerican: () => speakdirts1("en-US"),
           ),

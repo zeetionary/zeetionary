@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Anything that stands in the way of the dissemination of knowledge is a real problem.",
             kurdishText:
-                "ھەر شتێک کە لە ڕێگای بڵاوبوونەوەی زانست دەوەستێت کێشەیەکی ڕاستەقینەیە.", // dissemination
+                "ھەر شتێک کە لە ڕێگای بڵاوبوونەوەی زانست دەوەستێت کێشەیەکی ڕاستەقینەیە.",
             onPressedBritish: () => speakdisseminations1("en-GB"),
             onPressedAmerican: () => speakdisseminations1("en-US"),
           ),

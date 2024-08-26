@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) ئازاری ناو گوێ"""),
           SentencesRow(
             englishText: """She went to the doctor for her earache.""",
-            kurdishText: """سەردانی پزیشکی کرد بۆ ئازاری گوێی.""", // earache
+            kurdishText: """سەردانی پزیشکی کرد بۆ ئازاری گوێی.""",
             onPressedBritish: () => speakearaches1("en-GB"),
             onPressedAmerican: () => speakearaches1("en-US"),
           ),

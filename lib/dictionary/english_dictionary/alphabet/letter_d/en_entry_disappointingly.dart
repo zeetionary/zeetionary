@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەشێوەیەک کە نائومێدت دەکات"),
           SentencesRow(
             englishText: "The room was disappointingly small.",
-            kurdishText: "ژوورەکە نائومێدکەرانە بچووک بوو.", // disappointingly
+            kurdishText: "ژوورەکە نائومێدکەرانە بچووک بوو.",
             onPressedBritish: () => speakdisappointinglys1("en-GB"),
             onPressedAmerican: () => speakdisappointinglys1("en-US"),
           ),

@@ -572,7 +572,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "This door allows direct access from the kitchen to the garage.",
             kurdishText:
-                "ئەم دەرگایە ڕێگای ڕاستەوخۆ لە چێشتخانەکە بۆ گەراجەکە دابین دەکات.", // direct
+                "ئەم دەرگایە ڕێگای ڕاستەوخۆ لە چێشتخانەکە بۆ گەراجەکە دابین دەکات.",
             onPressedBritish: () => speakdirects1("en-GB"),
             onPressedAmerican: () => speakdirects1("en-US"),
           ),

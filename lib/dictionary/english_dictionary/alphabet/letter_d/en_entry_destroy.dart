@@ -290,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) تەواو شکاندن یان لەناوبردنی شتێک کە چی دیکە بەکار نایەت"),
           SentencesRow(
             englishText: "The building was completely destroyed by fire.",
-            kurdishText: "بیناکە تەواو وێران بوو بە ئاگرەکە.", // destroy
+            kurdishText: "بیناکە تەواو وێران بوو بە ئاگرەکە.",
             onPressedBritish: () => speakdestroys1("en-GB"),
             onPressedAmerican: () => speakdestroys1("en-US"),
           ),

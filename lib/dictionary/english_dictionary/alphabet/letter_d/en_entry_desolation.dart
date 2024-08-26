@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Her death left him with a terrible sense of desolation.",
-            kurdishText:
-                "مردنەکەی خستییە ھەستێکی خراپی تاسەبارییەوە.", // desolation
+            kurdishText: "مردنەکەی خستییە ھەستێکی خراپی تاسەبارییەوە.",
             onPressedBritish: () => speakdesolations1("en-GB"),
             onPressedAmerican: () => speakdesolations1("en-US"),
           ),

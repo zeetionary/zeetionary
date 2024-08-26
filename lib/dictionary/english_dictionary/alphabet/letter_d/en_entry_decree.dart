@@ -271,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "In an emergency decree, the government banned all rallies.",
             kurdishText:
-                "لە دەستووری باری نائاساییدا، حکومەت ھەموو ڕێپێوانێکی قەدەغە کرد.", // decree
+                "لە دەستووری باری نائاساییدا، حکومەت ھەموو ڕێپێوانێکی قەدەغە کرد.",
             onPressedBritish: () => speakdecrees1("en-GB"),
             onPressedAmerican: () => speakdecrees1("en-US"),
           ),

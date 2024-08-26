@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "They were able to decipher the French military codes.",
-            kurdishText: "توانیان کۆدەکانی سوپای فەرەنسا بشکێنن.", // decipher
+            kurdishText: "توانیان کۆدەکانی سوپای فەرەنسا بشکێنن.",
             onPressedBritish: () => speakdeciphers1("en-GB"),
             onPressedAmerican: () => speakdeciphers1("en-US"),
           ),

@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She was very thin, almost to the point of emaciation.""",
-            kurdishText: """زۆر لاوازبوو، تا ئاستی سستی.""", // emaciation
+            kurdishText: """زۆر لاوازبوو، تا ئاستی سستی.""",
             onPressedBritish: () => speakemaciations1("en-GB"),
             onPressedAmerican: () => speakemaciations1("en-US"),
           ),

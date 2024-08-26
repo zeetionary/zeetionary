@@ -249,8 +249,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "It was hard to draw clear lines of demarcation between work and leisure.",
-            kurdishText:
-                "سەخت بوو ھێڵێکی جیاکەرەوە لە نێوان کار و دەس‌بەتاڵی.", // demarcation
+            kurdishText: "سەخت بوو ھێڵێکی جیاکەرەوە لە نێوان کار و دەس‌بەتاڵی.",
             onPressedBritish: () => speakdemarcations1("en-GB"),
             onPressedAmerican: () => speakdemarcations1("en-US"),
           ),

@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The dean was highly respected for his wisdom and leadership.",
             kurdishText:
-                "قەشە باڵاکە تەواو ڕێزلێگیراو بوو بۆ ژیریی و سەرکردایەتیی.", // dean
+                "قەشە باڵاکە تەواو ڕێزلێگیراو بوو بۆ ژیریی و سەرکردایەتیی.",
             onPressedBritish: () => speakdeans1("en-GB"),
             onPressedAmerican: () => speakdeans1("en-US"),
           ),

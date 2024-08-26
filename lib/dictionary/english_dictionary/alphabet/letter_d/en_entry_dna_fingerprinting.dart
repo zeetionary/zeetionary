@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Scientists use DNA fingerprinting in wildlife studies to track animal populations.",
             kurdishText:
-                "زاناکان پەنجەمۆرھەڵگرتنی دی‌ئێن‌ئەی بەکاردێنن بۆ ئاگابوون لە دانیشتوانی ئاژەڵان.", // DNA fingerprinting
+                "زاناکان پەنجەمۆرھەڵگرتنی دی‌ئێن‌ئەی بەکاردێنن بۆ ئاگابوون لە دانیشتوانی ئاژەڵان.",
             onPressedBritish: () => speakDNAfingerprintings1("en-GB"),
             onPressedAmerican: () => speakDNAfingerprintings1("en-US"),
           ),

@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Classes in elocution helped him reduce his accent.""",
             kurdishText:
-                """وانەی ھونەری وتاردان یارمەتیدا ئەکسێنتەکەی کەم بکاتەوە.""", // elocution
+                """وانەی ھونەری وتاردان یارمەتیدا ئەکسێنتەکەی کەم بکاتەوە.""",
             onPressedBritish: () => speakelocutions1("en-GB"),
             onPressedAmerican: () => speakelocutions1("en-US"),
           ),

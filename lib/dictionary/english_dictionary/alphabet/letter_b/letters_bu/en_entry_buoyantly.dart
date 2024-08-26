@@ -182,7 +182,7 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                             englishText:
                                 "They were sailing swiftly and buoyantly on long waves.",
                             kurdishText:
-                                "بە چووستی و سەراوکەوتانە مەلەیان دەکرد لەسەر شەپۆلە بەرزەکان.", // buoyantly", follow LX strictly
+                                "بە چووستی و سەراوکەوتانە مەلەیان دەکرد لەسەر شەپۆلە بەرزەکان.",
                             onPressedBritish: () => speakbuoyantlys1("en-GB"),
                             onPressedAmerican: () => speakbuoyantlys1("en-US"),
                           ),

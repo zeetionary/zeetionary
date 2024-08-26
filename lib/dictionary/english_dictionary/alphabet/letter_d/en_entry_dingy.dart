@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تاریک و پیس"),
           SentencesRow(
             englishText: "The kitchen was rather dingy.",
-            kurdishText: "چێشتخانەکە تاریک و پیس بوو.", // dingy
+            kurdishText: "چێشتخانەکە تاریک و پیس بوو.",
             onPressedBritish: () => speakdingys1("en-GB"),
             onPressedAmerican: () => speakdingys1("en-US"),
           ),

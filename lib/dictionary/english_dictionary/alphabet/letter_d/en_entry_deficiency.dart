@@ -258,8 +258,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) نەبوونی بڕی پێویست لە شتێک"),
           SentencesRow(
             englishText: "Vitamin deficiency in the diet can cause illness.",
-            kurdishText:
-                "کەمی ڤیتامین لە خۆراکدا دەکرێت ببێتە ھۆکاری نەخۆشی.", // deficiency
+            kurdishText: "کەمی ڤیتامین لە خۆراکدا دەکرێت ببێتە ھۆکاری نەخۆشی.",
             onPressedBritish: () => speakdeficiencys1("en-GB"),
             onPressedAmerican: () => speakdeficiencys1("en-US"),
           ),

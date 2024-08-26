@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """They discussed social, economic and political issues.""",
             kurdishText:
-                """باسی بابەتە کۆمەڵایەتی، ئابووری و سیاسییەکانیان کرد.""", // economic
+                """باسی بابەتە کۆمەڵایەتی، ئابووری و سیاسییەکانیان کرد.""",
             onPressedBritish: () => speakeconomics1("en-GB"),
             onPressedAmerican: () => speakeconomics1("en-US"),
           ),

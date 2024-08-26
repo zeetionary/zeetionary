@@ -506,7 +506,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) بەتاڵکردنی شتێک بە دەرکردنی ئاوەکەی"),
           SentencesRow(
             englishText: "The marshes have been drained.",
-            kurdishText: "زۆنگاوەکان بەتاڵ بوونە.", // drain
+            kurdishText: "زۆنگاوەکان بەتاڵ بوونە.",
             onPressedBritish: () => speakdrains1("en-GB"),
             onPressedAmerican: () => speakdrains1("en-US"),
           ),

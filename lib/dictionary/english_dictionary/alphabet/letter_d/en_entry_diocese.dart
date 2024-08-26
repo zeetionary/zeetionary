@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ناوچەیەک کە قەشەیەکی باڵا تێیدا دەسەڵاتی ھەیە"),
           SentencesRow(
             englishText: "There are fifty churches in the diocese.",
-            kurdishText: "چل کڵێسا لە قەڵەمڕەوی قەشە باڵاکەدا ھەیە.", // diocese
+            kurdishText: "چل کڵێسا لە قەڵەمڕەوی قەشە باڵاکەدا ھەیە.",
             onPressedBritish: () => speakdioceses1("en-GB"),
             onPressedAmerican: () => speakdioceses1("en-US"),
           ),

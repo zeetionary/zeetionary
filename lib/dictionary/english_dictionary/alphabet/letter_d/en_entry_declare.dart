@@ -334,7 +334,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Germany declared war on France on 1 August 1914.",
             kurdishText:
-                "ئەڵمانیا لە ١ ـی ئابی ١٩١٤ جەنگی دژ بە فەرەنسا ڕاگەیاند.", // declare
+                "ئەڵمانیا لە ١ ـی ئابی ١٩١٤ جەنگی دژ بە فەرەنسا ڕاگەیاند.",
             onPressedBritish: () => speakdeclares1("en-GB"),
             onPressedAmerican: () => speakdeclares1("en-US"),
           ),

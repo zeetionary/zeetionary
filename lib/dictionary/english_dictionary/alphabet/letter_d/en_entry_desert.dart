@@ -297,7 +297,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بیابان؛ ناوچەیەکی گەورە کە ئاو و ڕووەکی لێ نییە یان کەمی لێیە"),
           SentencesRow(
             englishText: "Somalia is mostly desert.",
-            kurdishText: "وڵاتی سۆماڵ زۆری بیابانە.", // desert
+            kurdishText: "وڵاتی سۆماڵ زۆری بیابانە.",
             onPressedBritish: () => speakdeserts1("en-GB"),
             onPressedAmerican: () => speakdeserts1("en-US"),
           ),

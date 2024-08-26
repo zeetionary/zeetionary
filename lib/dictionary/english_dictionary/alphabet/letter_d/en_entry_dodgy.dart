@@ -392,7 +392,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He made a lot of money, using some very dodgy methods.",
             kurdishText:
-                "پارەیەکی زۆری پەیدا کرد بە چەند ڕێگایەکی زۆر تەڵەکەبازانە.", // dodgy
+                "پارەیەکی زۆری پەیدا کرد بە چەند ڕێگایەکی زۆر تەڵەکەبازانە.",
             onPressedBritish: () => speakdodgys1("en-GB"),
             onPressedAmerican: () => speakdodgys1("en-US"),
           ),

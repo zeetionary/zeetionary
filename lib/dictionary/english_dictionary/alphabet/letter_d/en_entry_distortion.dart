@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "When you project the photographs onto a surface, some distortion of the image may occur.",
             kurdishText:
-                "کە وێنەیەک دەخەیتە سەر ڕوویەک، ھەندێک شێوان لە وێنەکە ڕەنگە ڕووبدات.", // distortion
+                "کە وێنەیەک دەخەیتە سەر ڕوویەک، ھەندێک شێوان لە وێنەکە ڕەنگە ڕووبدات.",
             onPressedBritish: () => speakdistortions1("en-GB"),
             onPressedAmerican: () => speakdistortions1("en-US"),
           ),

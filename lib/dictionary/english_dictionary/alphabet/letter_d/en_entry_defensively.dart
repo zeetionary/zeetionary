@@ -255,8 +255,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە وای پیشان دەدات وا ھەست دەکەیت سەرزەنشت دەکرێیت"),
           SentencesRow(
             englishText: "‘I couldn't help it,’ he said defensively.",
-            kurdishText:
-                "بە خۆپارێزانە گوتی 'نەمدەتوانی ھیچ بکەم'.", // defensively
+            kurdishText: "بە خۆپارێزانە گوتی 'نەمدەتوانی ھیچ بکەم'.",
             onPressedBritish: () => speakdefensivelys1("en-GB"),
             onPressedAmerican: () => speakdefensivelys1("en-US"),
           ),

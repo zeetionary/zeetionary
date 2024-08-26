@@ -182,7 +182,7 @@ class EnglishEntrybush extends StatelessWidget {
                             englishText:
                                 "She was hiding in the bushes at the side of the lane.",
                             kurdishText:
-                                "لە قەراغ ڕێگاکەدا لەناو دەوەنەکەدا خۆی حەشاردابوو.", // bush", follow LX strictly
+                                "لە قەراغ ڕێگاکەدا لەناو دەوەنەکەدا خۆی حەشاردابوو.",
                             onPressedBritish: () => speakbushs1("en-GB"),
                             onPressedAmerican: () => speakbushs1("en-US"),
                           ),

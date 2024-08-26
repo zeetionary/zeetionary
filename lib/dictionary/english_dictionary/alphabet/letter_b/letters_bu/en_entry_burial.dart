@@ -180,7 +180,7 @@ class EnglishEntryburial extends StatelessWidget {
                           SentencesRow(
                             englishText: "Her body was sent home for burial.",
                             kurdishText:
-                                "لاشەکەی نێردرایەوە ماڵەوە/وڵاتی خۆی بۆ ناشتن.", // burial", follow LX strictly
+                                "لاشەکەی نێردرایەوە ماڵەوە/وڵاتی خۆی بۆ ناشتن.",
                             onPressedBritish: () => speakburials1("en-GB"),
                             onPressedAmerican: () => speakburials1("en-US"),
                           ),

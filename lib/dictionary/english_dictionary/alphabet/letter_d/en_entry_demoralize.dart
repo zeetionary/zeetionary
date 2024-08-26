@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) دابەزاندنی ورەی کەسێک"),
           SentencesRow(
             englishText: "Constant criticism is enough to demoralize anybody.",
-            kurdishText:
-                "لۆمەی بەردەوام بەسە بۆ دابەزاندنی ورەی ھەر کەسێک.", // demoralize
+            kurdishText: "لۆمەی بەردەوام بەسە بۆ دابەزاندنی ورەی ھەر کەسێک.",
             onPressedBritish: () => speakdemoralizes1("en-GB"),
             onPressedAmerican: () => speakdemoralizes1("en-US"),
           ),

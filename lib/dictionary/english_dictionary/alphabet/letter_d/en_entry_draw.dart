@@ -726,7 +726,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) کێشانی وێنەیەکی شتێک بە پێنووس یان تەباشیر"),
           SentencesRow(
             englishText: "You draw beautifully.",
-            kurdishText: "جوان وێنە دەکێشیت.", // draw
+            kurdishText: "جوان وێنە دەکێشیت.",
             onPressedBritish: () => speakdraws1("en-GB"),
             onPressedAmerican: () => speakdraws1("en-US"),
           ),

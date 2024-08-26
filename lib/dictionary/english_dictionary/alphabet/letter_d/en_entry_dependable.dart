@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە دەتوانرێت پشتی پێ ببەسترێت"),
           SentencesRow(
             englishText: "She is loyal and totally dependable.",
-            kurdishText: "بەوەفا و تەواو پشت‌پێ‌بەستراوە.", // dependable
+            kurdishText: "بەوەفا و تەواو پشت‌پێ‌بەستراوە.",
             onPressedBritish: () => speakdependables1("en-GB"),
             onPressedAmerican: () => speakdependables1("en-US"),
           ),

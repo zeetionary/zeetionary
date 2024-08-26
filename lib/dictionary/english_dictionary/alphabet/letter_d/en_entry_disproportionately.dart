@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The lower-paid spend a disproportionately large amount of their earnings on food.",
             kurdishText:
-                "کەسانی کەم دەرامەت ڕێژەیەکی نامەرامبەرانە زۆر لە خواردندا خەرج دەکەن.", // disproportionately
+                "کەسانی کەم دەرامەت ڕێژەیەکی نامەرامبەرانە زۆر لە خواردندا خەرج دەکەن.",
             onPressedBritish: () => speakdisproportionatelys1("en-GB"),
             onPressedAmerican: () => speakdisproportionatelys1("en-US"),
           ),

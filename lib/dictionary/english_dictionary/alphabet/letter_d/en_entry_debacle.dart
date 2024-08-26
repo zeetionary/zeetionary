@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He should take responsibility for the debacle and resign.",
             kurdishText:
-                "دەبێت بەرپرسیاریەتی بۆ مەینەتییەکە ھەڵبگرێت و دەست لەکاربکێشێتەوە.", // debacle
+                "دەبێت بەرپرسیاریەتی بۆ مەینەتییەکە ھەڵبگرێت و دەست لەکاربکێشێتەوە.",
             onPressedBritish: () => speakdebacles1("en-GB"),
             onPressedAmerican: () => speakdebacles1("en-US"),
           ),

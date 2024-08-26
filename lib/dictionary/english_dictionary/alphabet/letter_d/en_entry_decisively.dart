@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەشێوەیەک کە بۆ داھاتووی شتێک گرنگە"),
           SentencesRow(
             englishText: "At Waterloo Napoleon was decisively defeated.",
-            kurdishText:
-                "لە جەنگی واتەرلۆ ناپۆلیۆن بە سەختی بەزێندرا.", // decisively
+            kurdishText: "لە جەنگی واتەرلۆ ناپۆلیۆن بە سەختی بەزێندرا.",
             onPressedBritish: () => speakdecisivelys1("en-GB"),
             onPressedAmerican: () => speakdecisivelys1("en-US"),
           ),

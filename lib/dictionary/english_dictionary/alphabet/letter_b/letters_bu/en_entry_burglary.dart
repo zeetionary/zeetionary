@@ -182,7 +182,7 @@ class EnglishEntryburglary extends StatelessWidget {
                             englishText:
                                 "The youth was charged with three counts of burglary.",
                             kurdishText:
-                                "ھەرزەکارەکە بە سێ بابەتی دزیکردن تاوانبارکرا.", // burglary", follow LX strictly
+                                "ھەرزەکارەکە بە سێ بابەتی دزیکردن تاوانبارکرا.",
                             onPressedBritish: () => speakburglarys1("en-GB"),
                             onPressedAmerican: () => speakburglarys1("en-US"),
                           ),

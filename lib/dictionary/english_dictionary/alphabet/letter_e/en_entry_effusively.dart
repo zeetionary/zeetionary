@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She spoke effusively about the candidate's personal charisma and abilities.""",
             kurdishText:
-                """بە ھەست و سۆزەوە قسەی دەکرد سەبارەت بە کاریزما و توانا کەسییەکانی بەربژێرەکە.""", // effusively
+                """بە ھەست و سۆزەوە قسەی دەکرد سەبارەت بە کاریزما و توانا کەسییەکانی بەربژێرەکە.""",
             onPressedBritish: () => speakeffusivelys1("en-GB"),
             onPressedAmerican: () => speakeffusivelys1("en-US"),
           ),

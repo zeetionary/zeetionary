@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A lot of people were dispossessed of their homes during the civil war.",
             kurdishText:
-                "زۆر کەس بێخاوەن کران لە ماڵەکانیان لە کاتی شەڕە ناوخۆییەکە.", // dispossess
+                "زۆر کەس بێخاوەن کران لە ماڵەکانیان لە کاتی شەڕە ناوخۆییەکە.",
             onPressedBritish: () => speakdispossesss1("en-GB"),
             onPressedAmerican: () => speakdispossesss1("en-US"),
           ),

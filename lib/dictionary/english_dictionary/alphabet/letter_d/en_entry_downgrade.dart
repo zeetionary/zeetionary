@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She's been downgraded from principal to vice-principal.",
-            kurdishText: "لە بەڕێوەبەرەوە کرا بە جێگری بەڕێوەبەر.", // downgrade
+            kurdishText: "لە بەڕێوەبەرەوە کرا بە جێگری بەڕێوەبەر.",
             onPressedBritish: () => speakdowngrades1("en-GB"),
             onPressedAmerican: () => speakdowngrades1("en-US"),
           ),

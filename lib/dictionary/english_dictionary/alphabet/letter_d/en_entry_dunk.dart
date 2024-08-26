@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She sat reading a magazine, dunking cookies in her coffee.""",
             kurdishText:
-                """دانیشتبوو گۆڤارێکی دەخوێندەوە و بسکیتی دەژەند بە قاوەکەیدا.""", // dunk
+                """دانیشتبوو گۆڤارێکی دەخوێندەوە و بسکیتی دەژەند بە قاوەکەیدا.""",
             onPressedBritish: () => speakdunks1("en-GB"),
             onPressedAmerican: () => speakdunks1("en-US"),
           ),

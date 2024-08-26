@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) ڕژاندنە دەرەوەی شتێک بە ڕێژەیەکی زۆر"),
           SentencesRow(
             englishText: "The pipe disgorges sewage into the sea.",
-            kurdishText: "بۆرییەکە ئاوەرۆ فڕێ دەداتە ناو دەریاکە.", // disgorge
+            kurdishText: "بۆرییەکە ئاوەرۆ فڕێ دەداتە ناو دەریاکە.",
             onPressedBritish: () => speakdisgorges1("en-GB"),
             onPressedAmerican: () => speakdisgorges1("en-US"),
           ),

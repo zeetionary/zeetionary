@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵکار) بە گومانەوە"""),
           SentencesRow(
             englishText: """Helen looked at him dubiously.""",
-            kurdishText: """ھێلین بەگومانەوە سەیری دەکرد.""", // dubiously
+            kurdishText: """ھێلین بەگومانەوە سەیری دەکرد.""",
             onPressedBritish: () => speakdubiouslys1("en-GB"),
             onPressedAmerican: () => speakdubiouslys1("en-US"),
           ),

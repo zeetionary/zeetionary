@@ -430,7 +430,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Her footsteps echoed in the empty room.""",
             kurdishText:
-                """ھەنگاوەکانی دەنگیان دەدایەوە لە ژوورە بەتاڵەکەدا.""", // echo
+                """ھەنگاوەکانی دەنگیان دەدایەوە لە ژوورە بەتاڵەکەدا.""",
             onPressedBritish: () => speakechos1("en-GB"),
             onPressedAmerican: () => speakechos1("en-US"),
           ),

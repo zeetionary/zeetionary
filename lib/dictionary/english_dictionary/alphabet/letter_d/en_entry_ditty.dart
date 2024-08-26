@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "It reminds me of a little ditty my grandad used to sing.",
             kurdishText:
-                "کورتە گۆرانییەکم بیردێنێتەوە کە باپیرەم جاران دەیگوت.", // ditty
+                "کورتە گۆرانییەکم بیردێنێتەوە کە باپیرەم جاران دەیگوت.",
             onPressedBritish: () => speakdittys1("en-GB"),
             onPressedAmerican: () => speakdittys1("en-US"),
           ),

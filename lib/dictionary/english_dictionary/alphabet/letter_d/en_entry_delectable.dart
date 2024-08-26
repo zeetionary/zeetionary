@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تەواو خۆش و بەلەزەت"),
           SentencesRow(
             englishText: "The delectable smell of fresh bread filled the room.",
-            kurdishText: "بۆنی خۆشی نانی تازە ژوورەکەی پڕکرد.", // delectable
+            kurdishText: "بۆنی خۆشی نانی تازە ژوورەکەی پڕکرد.",
             onPressedBritish: () => speakdelectables1("en-GB"),
             onPressedAmerican: () => speakdelectables1("en-US"),
           ),

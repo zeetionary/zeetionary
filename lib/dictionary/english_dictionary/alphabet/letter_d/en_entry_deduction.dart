@@ -264,8 +264,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He arrived at the solution by a simple process of deduction.",
-            kurdishText:
-                "گەشت بە چارەسەر بە پڕۆسەیەکی سادە لە گەڵاڵەکردن.", // deduction
+            kurdishText: "گەشت بە چارەسەر بە پڕۆسەیەکی سادە لە گەڵاڵەکردن.",
             onPressedBritish: () => speakdeductions1("en-GB"),
             onPressedAmerican: () => speakdeductions1("en-US"),
           ),

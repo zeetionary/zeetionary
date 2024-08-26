@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "I've been nearly demented with worry about you.",
             kurdishText:
-                "بە نزیکەیی سەرلێشێواو بوومە بە نیگەرانی سەبارەت بە تۆ.", // demented
+                "بە نزیکەیی سەرلێشێواو بوومە بە نیگەرانی سەبارەت بە تۆ.",
             onPressedBritish: () => speakdementeds1("en-GB"),
             onPressedAmerican: () => speakdementeds1("en-US"),
           ),

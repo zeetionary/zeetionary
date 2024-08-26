@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He was caught driving the wrong way down the dual carriageway.",
             kurdishText:
-                "گیردرا کە بە سایدی ھەڵەدا دەچوو لە پانەڕێ دوو سایدەکە.", // dual carriageway
+                "گیردرا کە بە سایدی ھەڵەدا دەچوو لە پانەڕێ دوو سایدەکە.",
             onPressedBritish: () => speakdualcarriageways1("en-GB"),
             onPressedAmerican: () => speakdualcarriageways1("en-US"),
           ),

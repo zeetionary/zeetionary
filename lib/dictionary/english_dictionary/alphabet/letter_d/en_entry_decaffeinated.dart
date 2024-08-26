@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The cafe offers a variety of decaffeinated drinks for those who prefer to avoid caffeine.",
             kurdishText:
-                "قاوەخانەکە ژمارەیەک خواردنەوەی بێ کافینی ھەیە بۆ ژمارەیەک لەو کەسانەی کە وایان پێ باشە کە لە کافین دوور بن.", // decaffeinated
+                "قاوەخانەکە ژمارەیەک خواردنەوەی بێ کافینی ھەیە بۆ ژمارەیەک لەو کەسانەی کە وایان پێ باشە کە لە کافین دوور بن.",
             onPressedBritish: () => speakdecaffeinateds1("en-GB"),
             onPressedAmerican: () => speakdecaffeinateds1("en-US"),
           ),

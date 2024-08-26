@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) کەسێک کە باوەڕی بە سیستەمی دیموکراسی ھەیە"),
           SentencesRow(
             englishText: "She is a democrat who believes in equal rights.",
-            kurdishText:
-                "دیموکراتێکە کە باوەڕی بە مافی یەکسان ھەیە.", // democrat
+            kurdishText: "دیموکراتێکە کە باوەڕی بە مافی یەکسان ھەیە.",
             onPressedBritish: () => speakdemocrats1("en-GB"),
             onPressedAmerican: () => speakdemocrats1("en-US"),
           ),

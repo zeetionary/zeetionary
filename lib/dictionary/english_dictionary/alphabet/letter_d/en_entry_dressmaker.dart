@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە جلی ژنان درووست دەکات، بە تایبەتی وەک پیشەیەک"),
           SentencesRow(
             englishText: "The dressmaker sewed a beautiful wedding gown.",
-            kurdishText:
-                "بەرگ‌درووەکە جلێکی جوانی بووکێنی دووری.", // dressmaker
+            kurdishText: "بەرگ‌درووەکە جلێکی جوانی بووکێنی دووری.",
             onPressedBritish: () => speakdressmakers1("en-GB"),
             onPressedAmerican: () => speakdressmakers1("en-US"),
           ),

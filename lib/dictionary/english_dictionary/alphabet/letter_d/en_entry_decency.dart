@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ھەڵسوکەوتی بەڕێزانە کە لەگەڵ ستانداردە ئەخلاقییەکان یەکدەگرێتەوە و ڕێز بۆ کەسانی دیکە پیشان دەدات"),
           SentencesRow(
             englishText: "Her behaviour showed a total lack of common decency.",
-            kurdishText:
-                "ڕەفتارەکەی بە تەواوی نەبوونی ئەدەبی پیشاندا.", // decency
+            kurdishText: "ڕەفتارەکەی بە تەواوی نەبوونی ئەدەبی پیشاندا.",
             onPressedBritish: () => speakdecencys1("en-GB"),
             onPressedAmerican: () => speakdecencys1("en-US"),
           ),

@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "You could talk until doomsday (= for a very long time), but they will never change their minds.",
             kurdishText:
-                "دەتوانیت تاوەکو ڕۆژی دوایی قسە بکەیت بەڵام ھەرگیز بیردکردنەوەیان ناگۆڕن.", // doomsday
+                "دەتوانیت تاوەکو ڕۆژی دوایی قسە بکەیت بەڵام ھەرگیز بیردکردنەوەیان ناگۆڕن.",
             onPressedBritish: () => speakdoomsdays1("en-GB"),
             onPressedAmerican: () => speakdoomsdays1("en-US"),
           ),

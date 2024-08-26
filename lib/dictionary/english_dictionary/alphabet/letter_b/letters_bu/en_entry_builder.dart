@@ -139,7 +139,7 @@ class EnglishEntrybuilder extends StatelessWidget {
                             englishText:
                                 "We got a local builder to do the work for us.",
                             kurdishText:
-                                "بیناچییەکی ناوخۆییمان دەستکەوتووە تا کارەکەمان بۆ بکات.", // builder", follow LX strictly
+                                "بیناچییەکی ناوخۆییمان دەستکەوتووە تا کارەکەمان بۆ بکات.",
                             onPressedBritish: () => speakbuilders1("en-GB"),
                             onPressedAmerican: () => speakbuilders1("en-US"),
                           ),

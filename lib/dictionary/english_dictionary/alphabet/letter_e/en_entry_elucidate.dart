@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) ڕوونکردنەوەی شتێک بەوەی بە ڕوونتر باسی بکەیت"""),
           SentencesRow(
             englishText: """He elucidated a point of grammar.""",
-            kurdishText: """خاڵێکی ڕێزمانی ڕوونکردەوە.""", // elucidate
+            kurdishText: """خاڵێکی ڕێزمانی ڕوونکردەوە.""",
             onPressedBritish: () => speakelucidates1("en-GB"),
             onPressedAmerican: () => speakelucidates1("en-US"),
           ),

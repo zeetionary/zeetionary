@@ -432,7 +432,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The US is unable to meet its domestic demand for steel in any given year.",
             kurdishText:
-                "ئەمریکا ناتوانێت خواستی لەسەر پۆڵا لە ھیچ ساڵێکدا پڕبکاتەوە.", // domestic
+                "ئەمریکا ناتوانێت خواستی لەسەر پۆڵا لە ھیچ ساڵێکدا پڕبکاتەوە.",
             onPressedBritish: () => speakdomestics1("en-GB"),
             onPressedAmerican: () => speakdomestics1("en-US"),
           ),

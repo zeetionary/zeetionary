@@ -229,7 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کوالێتییەکی باش وەک لە ئاسایی"),
           SentencesRow(
             englishText: "The deluxe edition is bound in leather.",
-            kurdishText: "چاپە تایبەتەکە لە چەرم نراوە.", // deluxe
+            kurdishText: "چاپە تایبەتەکە لە چەرم نراوە.",
             onPressedBritish: () => speakdeluxes1("en-GB"),
             onPressedAmerican: () => speakdeluxes1("en-US"),
           ),

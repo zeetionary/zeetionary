@@ -255,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "I could see no way of resolving this moral dilemma.",
             kurdishText:
-                "نەمدەتوانی ھیچ ڕێگایەکی چارەسەری ئەم ئاستەنگە ئەخلاقییە ببینم.", // dilemma
+                "نەمدەتوانی ھیچ ڕێگایەکی چارەسەری ئەم ئاستەنگە ئەخلاقییە ببینم.",
             onPressedBritish: () => speakdilemmas1("en-GB"),
             onPressedAmerican: () => speakdilemmas1("en-US"),
           ),

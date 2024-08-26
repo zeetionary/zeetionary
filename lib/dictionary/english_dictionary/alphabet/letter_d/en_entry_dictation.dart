@@ -251,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) قسەکردن یان خوێندنەوە بۆ ئەوەی کەسێک قسەکانت بنووسێتەوە یان تۆمار بکرێت"),
           SentencesRow(
             englishText: "Her secretary is very good at taking dictation.",
-            kurdishText: "سکرتێرەکەی زۆرباشە لە نووسینەوە.", // dictation
+            kurdishText: "سکرتێرەکەی زۆرباشە لە نووسینەوە.",
             onPressedBritish: () => speakdictations1("en-GB"),
             onPressedAmerican: () => speakdictations1("en-US"),
           ),

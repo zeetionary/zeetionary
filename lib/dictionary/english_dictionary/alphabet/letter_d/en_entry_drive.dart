@@ -649,7 +649,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) لێخوڕینی ئۆتۆمبێلێک"),
           SentencesRow(
             englishText: "Don't drive so fast!",
-            kurdishText: "‌ھێندە خێرا لێمەخوڕە!", // drive
+            kurdishText: "‌ھێندە خێرا لێمەخوڕە!",
             onPressedBritish: () => speakdrives1("en-GB"),
             onPressedAmerican: () => speakdrives1("en-US"),
           ),

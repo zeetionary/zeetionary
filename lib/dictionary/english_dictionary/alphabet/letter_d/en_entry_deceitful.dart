@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The government were accused of being hypocritical and deceitful.",
-            kurdishText:
-                "حکومەت بە دووڕووی و تەڵەکەبازی تاوانبارکرا.", // deceitful
+            kurdishText: "حکومەت بە دووڕووی و تەڵەکەبازی تاوانبارکرا.",
             onPressedBritish: () => speakdeceitfuls1("en-GB"),
             onPressedAmerican: () => speakdeceitfuls1("en-US"),
           ),

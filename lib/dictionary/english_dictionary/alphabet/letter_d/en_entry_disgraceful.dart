@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) زۆر خراپ و پەسەند نەکراو؛ کە خەڵکی دەبێت شەرمی لێ بکەن"),
           SentencesRow(
             englishText: "His behaviour was absolutely disgraceful!",
-            kurdishText: "ھەڵسوکەوتی تەواو شەرمھێنەر بوو.", // disgraceful
+            kurdishText: "ھەڵسوکەوتی تەواو شەرمھێنەر بوو.",
             onPressedBritish: () => speakdisgracefuls1("en-GB"),
             onPressedAmerican: () => speakdisgracefuls1("en-US"),
           ),

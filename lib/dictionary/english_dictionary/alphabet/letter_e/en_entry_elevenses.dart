@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Elevenses helps keep you going until lunchtime.""",
             kurdishText:
-                """قاوەڵتوون یارمەتیدەرت دەبن تاوەکو نانی نیوەڕۆ بڕ بکەیت.""", // elevenses
+                """قاوەڵتوون یارمەتیدەرت دەبن تاوەکو نانی نیوەڕۆ بڕ بکەیت.""",
             onPressedBritish: () => speakelevensess1("en-GB"),
             onPressedAmerican: () => speakelevensess1("en-US"),
           ),

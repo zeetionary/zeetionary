@@ -314,7 +314,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) قسەکردن لەسەر شتێک لەگەڵ کەسێک، بەتایبەتی بۆ بڕیاردان "),
           SentencesRow(
             englishText: "Have you discussed the problem with anyone?",
-            kurdishText: "کێشەکەت لەگەڵ ھیچ کەس باس کردووە؟", // discuss
+            kurdishText: "کێشەکەت لەگەڵ ھیچ کەس باس کردووە؟",
             onPressedBritish: () => speakdiscusss1("en-GB"),
             onPressedAmerican: () => speakdiscusss1("en-US"),
           ),

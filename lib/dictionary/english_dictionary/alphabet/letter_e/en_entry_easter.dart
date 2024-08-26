@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Many people attend an Easter service at their local church.""",
             kurdishText:
-                """زۆرکەس بەژداری بۆنەی ئیستەر دەکەن لە کڵێسای ناوخۆییان.""", // Easter
+                """زۆرکەس بەژداری بۆنەی ئیستەر دەکەن لە کڵێسای ناوخۆییان.""",
             onPressedBritish: () => speakEasters1("en-GB"),
             onPressedAmerican: () => speakEasters1("en-US"),
           ),

@@ -262,8 +262,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Her health deteriorated rapidly, and she died shortly afterwards.",
-            kurdishText:
-                "تەندرووستی بە خێرایی خراپتر بوو و کەمێک دواتر مرد.", // deteriorate
+            kurdishText: "تەندرووستی بە خێرایی خراپتر بوو و کەمێک دواتر مرد.",
             onPressedBritish: () => speakdeteriorates1("en-GB"),
             onPressedAmerican: () => speakdeteriorates1("en-US"),
           ),

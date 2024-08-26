@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """85 per cent of city dwellers breathe heavily polluted air.""",
-            kurdishText:
-                """٨٥ لە سەدی شارنشینان ھەوای تەواو پیس ھەڵدەمژن.""", // dweller
+            kurdishText: """٨٥ لە سەدی شارنشینان ھەوای تەواو پیس ھەڵدەمژن.""",
             onPressedBritish: () => speakdwellers1("en-GB"),
             onPressedAmerican: () => speakdwellers1("en-US"),
           ),

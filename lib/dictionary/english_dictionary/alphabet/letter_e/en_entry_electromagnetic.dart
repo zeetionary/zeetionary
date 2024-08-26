@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """An electromagnetic wave is created as a result of the interaction between an electric field and a magnetic field.""",
             kurdishText:
-                """شەپۆلی کارۆموگناتیسی بەرھەم دێت لە ئەنجامی بەرکەوتنی نێوان بواری کارەبایی و بواری موگناتیسی.""", // electromagnetic
+                """شەپۆلی کارۆموگناتیسی بەرھەم دێت لە ئەنجامی بەرکەوتنی نێوان بواری کارەبایی و بواری موگناتیسی.""",
             onPressedBritish: () => speakelectromagnetics1("en-GB"),
             onPressedAmerican: () => speakelectromagnetics1("en-US"),
           ),

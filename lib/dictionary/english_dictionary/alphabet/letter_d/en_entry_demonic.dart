@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "This was a society in which demonic possession was greatly feared.",
             kurdishText:
-                "ئەمە کۆمەڵگایەک بوو کە شەیتانی بوون زۆر تێیدا تۆقێنەر بوو.", // demonic
+                "ئەمە کۆمەڵگایەک بوو کە شەیتانی بوون زۆر تێیدا تۆقێنەر بوو.",
             onPressedBritish: () => speakdemonics1("en-GB"),
             onPressedAmerican: () => speakdemonics1("en-US"),
           ),

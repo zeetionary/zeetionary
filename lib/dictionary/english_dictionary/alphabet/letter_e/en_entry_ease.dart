@@ -457,7 +457,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) ئاسانی"""),
           SentencesRow(
             englishText: """He passed the exam with ease.""",
-            kurdishText: """تاقیکردنەوەکەی بە ئاسانی تێپەڕاند.""", // ease
+            kurdishText: """تاقیکردنەوەکەی بە ئاسانی تێپەڕاند.""",
             onPressedBritish: () => speakeases1("en-GB"),
             onPressedAmerican: () => speakeases1("en-US"),
           ),

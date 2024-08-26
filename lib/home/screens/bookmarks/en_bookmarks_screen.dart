@@ -5543,8 +5543,8 @@ class _EnglishfavouritesScreenState
       "dress rehearsal": "/bookmarks-screen/dress-rehearsal",
       "dresser": "/bookmarks-screen/dresser",
       "dressing": "/bookmarks-screen/dressing",
-      "dressing gown": "/bookmarks-screen/dressing-gown", // ffff dressing gown
-      "dressing table": "/bookmarks-screen/dressing-table", // ffff dressing table
+      "dressing gown": "/bookmarks-screen/dressing-gown",
+      "dressing table": "/bookmarks-screen/dressing-table",
       "dribble": "/bookmarks-screen/dribble",
       "drift": "/bookmarks-screen/drift",
       "drifter": "/bookmarks-screen/drifter",
@@ -5553,21 +5553,21 @@ class _EnglishfavouritesScreenState
       "drinkable": "/bookmarks-screen/drinkable",
       "drinker": "/bookmarks-screen/drinker",
       "drip": "/bookmarks-screen/drip",
-      "drip-dry": "/bookmarks-screen/drip-dry", // ffff drip-dry
+      "drip-dry": "/bookmarks-screen/drip-dry",
       "dripping": "/bookmarks-screen/dripping",
       "drive": "/bookmarks-screen/drive",
-      "drive-by": "/bookmarks-screen/drive-by", // ffff drive-by
-      "drive-in": "/bookmarks-screen/drive-in", // ffff drive-in
+      "drive-by": "/bookmarks-screen/drive-by",
+      "drive-in": "/bookmarks-screen/drive-in",
       "driver": "/bookmarks-screen/driver",
-      "driving licence": "/bookmarks-screen/driving-licence", // ffff driving licence
-      "driving test": "/bookmarks-screen/driving-test", // ffff driving test
+      "driving licence": "/bookmarks-screen/driving-licence",
+      "driving test": "/bookmarks-screen/driving-test",
       "drivel": "/bookmarks-screen/drivel",
       "drizzle": "/bookmarks-screen/drizzle",
       "drone": "/bookmarks-screen/drone",
       "drool": "/bookmarks-screen/drool",
       "droop": "/bookmarks-screen/droop",
       "drop": "/bookmarks-screen/drop",
-      "drop-down menu": "/bookmarks-screen/drop-down-menu", // ffff drop-down menu
+      "drop-down menu": "/bookmarks-screen/drop-down-menu",
       "dropout": "/bookmarks-screen/dropout",
       "droppings": "/bookmarks-screen/droppings",
       "drought": "/bookmarks-screen/drought",
@@ -5587,15 +5587,15 @@ class _EnglishfavouritesScreenState
       "drunken": "/bookmarks-screen/drunken",
       "drunkenness": "/bookmarks-screen/drunkenness",
       "dry": "/bookmarks-screen/dry",
-      "dry-clean": "/bookmarks-screen/dry-clean", // ffff dry-clean
-      "dry-cleaning": "/bookmarks-screen/dry-cleaning", // ffff dry-cleaning
-      "dry dock": "/bookmarks-screen/dry-dock", // ffff dry dock
+      "dry-clean": "/bookmarks-screen/dry-clean",
+      "dry-cleaning": "/bookmarks-screen/dry-cleaning",
+      "dry dock": "/bookmarks-screen/dry-dock",
       "dryer": "/bookmarks-screen/dryer",
       "dryly": "/bookmarks-screen/dryly",
       "dryness": "/bookmarks-screen/dryness",
-      "dry rot": "/bookmarks-screen/dry-rot", // ffff dry rot
+      "dry rot": "/bookmarks-screen/dry-rot",
       "dual": "/bookmarks-screen/dual",
-      "dual carriageway": "/bookmarks-screen/dual-carriageway", // فففف dual carriageway
+      "dual carriageway": "/bookmarks-screen/dual-carriageway",
       "dub": "/bookmarks-screen/dub",
       "driveway": "/bookmarks-screen/drive",
       "dry-cleaner’s": "/bookmarks-screen/cleaners",
@@ -5616,7 +5616,7 @@ class _EnglishfavouritesScreenState
       "due": "/bookmarks-screen/due",
       "duel": "/bookmarks-screen/duel",
       "duet": "/bookmarks-screen/duet",
-      "duffel coat": "/bookmarks-screen/duffel-coat", // فففف duffel coat
+      "duffel coat": "/bookmarks-screen/duffel-coat",
       "dugout": "/bookmarks-screen/dugout",
       "duke": "/bookmarks-screen/duke",
       "dukedom": "/bookmarks-screen/dukedom",
@@ -5629,9 +5629,9 @@ class _EnglishfavouritesScreenState
       "dumbness": "/bookmarks-screen/dumbness",
       "dumbfounded": "/bookmarks-screen/dumbfounded",
       "dummy": "/bookmarks-screen/dummy",
-      "dummy run": "/bookmarks-screen/dummy-run", // ffff dummy run
+      "dummy run": "/bookmarks-screen/dummy-run",
       "dump": "/bookmarks-screen/dump",
-      "dumper truck": "/bookmarks-screen/dumper-truck", // فففف dumper truck
+      "dumper truck": "/bookmarks-screen/dumper-truck",
       "dumpling": "/bookmarks-screen/dumpling",
       "dumpy": "/bookmarks-screen/dumpy",
       "dunce": "/bookmarks-screen/dunce",
@@ -5646,7 +5646,7 @@ class _EnglishfavouritesScreenState
       "duplicate": "/bookmarks-screen/duplicate",
       "duplication": "/bookmarks-screen/duplication",
       "durable": "/bookmarks-screen/durable",
-      "durable goods": "/bookmarks-screen/durable-goods", // ffff durable-goods
+      "durable goods": "/bookmarks-screen/durable-goods",
       "duration": "/bookmarks-screen/duration",
       "duress": "/bookmarks-screen/duress",
       "during": "/bookmarks-screen/during",
@@ -5656,18 +5656,18 @@ class _EnglishfavouritesScreenState
       "dusky": "/bookmarks-screen/dusky",
       "dust": "/bookmarks-screen/dust",
       "dustbin": "/bookmarks-screen/dustbin",
-      "dust bowl": "/bookmarks-screen/dust-bowl", // فففف dust bowl
+      "dust bowl": "/bookmarks-screen/dust-bowl",
       "dustcart": "/bookmarks-screen/dustcart",
       "duster": "/bookmarks-screen/duster",
-      "dust jacket": "/bookmarks-screen/dust-jacket", // فففف dust jacket
+      "dust jacket": "/bookmarks-screen/dust-jacket",
       "dustman": "/bookmarks-screen/dustman",
       "dustpan": "/bookmarks-screen/dustpan",
-      "dust sheet": "/bookmarks-screen/dust-sheet", // فففف dust sheet
+      "dust sheet": "/bookmarks-screen/dust-sheet",
       "dusty": "/bookmarks-screen/dusty",
       "duty": "/bookmarks-screen/duty",
       "dutiful": "/bookmarks-screen/dutiful",
       "dutifully": "/bookmarks-screen/dutifully",
-      "duty-free": "/bookmarks-screen/duty-free", // فففف duty-free
+      "duty-free": "/bookmarks-screen/duty-free",
       "duvet": "/bookmarks-screen/duvet",
       "DVD": "/bookmarks-screen/dvd", // فففف DVD
       "DCT": "/bookmarks-screen/deep-vein-thrombosis",
@@ -5690,15 +5690,15 @@ class _EnglishfavouritesScreenState
       "dyslexia": "/bookmarks-screen/dyslexia",
       "dyslexic": "/bookmarks-screen/dyslexic",
       "e": "/bookmarks-screen/e",
-      "e-number": "/bookmarks-screen/enumber", // ffff E-number
+      "e-number": "/bookmarks-screen/enumber",
       "e-": "/bookmarks-screen/e-two", // ffff e-
       "each": "/bookmarks-screen/each",
-      "each other": "/bookmarks-screen/each-other", // فففف each other
+      "each other": "/bookmarks-screen/each-other",
       "eager": "/bookmarks-screen/eager",
       "eagerly": "/bookmarks-screen/eagerly",
       "eagerness": "/bookmarks-screen/eagerness",
       "eagle": "/bookmarks-screen/eagle",
-      "eagle-eyed": "/bookmarks-screen/eagle-eyed", // فففف eagle-eyed
+      "eagle-eyed": "/bookmarks-screen/eagle-eyed",
       "ear": "/bookmarks-screen/ear",
       "earache": "/bookmarks-screen/earache",
       "eardrum": "/bookmarks-screen/eardrum",
@@ -5707,7 +5707,7 @@ class _EnglishfavouritesScreenState
       "earl": "/bookmarks-screen/earl",
       "earldom": "/bookmarks-screen/earldom",
       "early": "/bookmarks-screen/early",
-      "early warning": "/bookmarks-screen/early-warning", // فففف early warning
+      "early warning": "/bookmarks-screen/early-warning",
       "earmark": "/bookmarks-screen/earmark",
       "earn": "/bookmarks-screen/earn",
       "earner": "/bookmarks-screen/earner",
@@ -5728,11 +5728,11 @@ class _EnglishfavouritesScreenState
       "easterly": "/bookmarks-screen/easterly",
       "eastern": "/bookmarks-screen/eastern",
       "eastward": "/bookmarks-screen/eastward",
-      "Easter": "/bookmarks-screen/easter", // ffff Easter
+      "Easter": "/bookmarks-screen/easter",
       "easy": "/bookmarks-screen/easy",
       "easily": "/bookmarks-screen/easily",
-      "easy chair": "/bookmarks-screen/easy-chair", // فففف easy chair
-      "easy-going": "/bookmarks-screen/easy-going", // فففف easy-going
+      "easy chair": "/bookmarks-screen/easy-chair",
+      "easy-going": "/bookmarks-screen/easy-going",
       "eat": "/bookmarks-screen/eat",
       "eatable": "/bookmarks-screen/eatable",
       "eater": "/bookmarks-screen/eater",
@@ -5798,10 +5798,10 @@ class _EnglishfavouritesScreenState
       "effrontery": "/bookmarks-screen/effrontery",
       "effusive": "/bookmarks-screen/effusive",
       "effusively": "/bookmarks-screen/effusively",
-      "EFL": "/bookmarks-screen/efl", // ffff EFL
+      "EFL": "/bookmarks-screen/efl",
       "e.g.": "/bookmarks-screen/eg", // فففف e.g.
       "egg": "/bookmarks-screen/egg",
-      "egg cup": "/bookmarks-screen/egg-cup", // فففف egg cup
+      "egg cup": "/bookmarks-screen/egg-cup",
       "egghead": "/bookmarks-screen/egghead",
       "ego": "/bookmarks-screen/ego",
       "egocentric": "/bookmarks-screen/egocentric",
@@ -5817,7 +5817,7 @@ class _EnglishfavouritesScreenState
       "either": "/bookmarks-screen/either",
       "eject": "/bookmarks-screen/eject",
       "ejection": "/bookmarks-screen/ejection",
-      "ejection seat": "/bookmarks-screen/ejection-seat", // فففف ejection seat
+      "ejection seat": "/bookmarks-screen/ejection-seat",
       "elaborate": "/bookmarks-screen/elaborate",
       "elaborately": "/bookmarks-screen/elaborately",
       "elaboration": "/bookmarks-screen/elaboration",
@@ -5827,10 +5827,10 @@ class _EnglishfavouritesScreenState
       "elated": "/bookmarks-screen/elated",
       "elation": "/bookmarks-screen/elation",
       "elbow": "/bookmarks-screen/elbow",
-      "elbow grease": "/bookmarks-screen/elbow-grease", // فففف elbow grease
-      "elbow_room": "/bookmarks-screen/elbowroom", // فففف elbow room
+      "elbow grease": "/bookmarks-screen/elbow-grease",
+      "elbow_room": "/bookmarks-screen/elbowroom",
       "elder": "/bookmarks-screen/elder",
-      "elder statesman": "/bookmarks-screen/elder-statesman", // فففف elder statesman
+      "elder statesman": "/bookmarks-screen/elder-statesman",
       "elderly": "/bookmarks-screen/elderly",
       "eldest": "/bookmarks-screen/eldest",
       "elect": "/bookmarks-screen/elect",
@@ -5841,8 +5841,8 @@ class _EnglishfavouritesScreenState
       "electric": "/bookmarks-screen/electric",
       "electrical": "/bookmarks-screen/electrical",
       "electrically": "/bookmarks-screen/electrically",
-      "electric chair": "/bookmarks-screen/electric-chair", // فففف electric chair
-      "electric shock": "/bookmarks-screen/electric-shock", // فففف electric shock
+      "electric chair": "/bookmarks-screen/electric-chair",
+      "electric shock": "/bookmarks-screen/electric-shock",
       "electrician": "/bookmarks-screen/electrician",
       "electricity": "/bookmarks-screen/electricity",
       "electrify": "/bookmarks-screen/electrify",
@@ -5859,7 +5859,7 @@ class _EnglishfavouritesScreenState
       "elegantly": "/bookmarks-screen/elegantly",
       "element": "/bookmarks-screen/element",
       "elementary": "/bookmarks-screen/elementary",
-      "elementary school": "/bookmarks-screen/elementaryschool", // فففف elementary school
+      "elementary school": "/bookmarks-screen/elementaryschool",
       "elephant": "/bookmarks-screen/elephant",
       "elevate": "/bookmarks-screen/elevate",
       "elevation": "/bookmarks-screen/elevation",
@@ -5888,7 +5888,7 @@ class _EnglishfavouritesScreenState
       "eloquently": "/bookmarks-screen/eloquently",
       "else": "/bookmarks-screen/else",
       "elsewhere": "/bookmarks-screen/elsewhere",
-      "ELT": "/bookmarks-screen/elt", // ffff ELT
+      "ELT": "/bookmarks-screen/elt",
       "elucidate": "/bookmarks-screen/elucidate",
       "elucidation": "/bookmarks-screen/elucidation",
       "elude": "/bookmarks-screen/elude",
@@ -5930,7 +5930,7 @@ class _EnglishfavouritesScreenState
       "emergence": "/bookmarks-screen/emergence",
       "emergent": "/bookmarks-screen/emergent",
       "emergency": "/bookmarks-screen/emergency",
-      "emergency room": "/bookmarks-screen/emergencyroom", // فففف emergency room
+      "emergency room": "/bookmarks-screen/emergencyroom",
       "emigrant": "/bookmarks-screen/emigrant",
       "emigrate": "/bookmarks-screen/emigrate",
       "emigration": "/bookmarks-screen/emigration",

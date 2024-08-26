@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) خاڵ"),
           SentencesRow(
             englishText: "There are dots above the letters i and j.",
-            kurdishText: "خاڵ ھەیە لەسەر پیتەکانی i و j.", // dot
+            kurdishText: "خاڵ ھەیە لەسەر پیتەکانی i و j.",
             onPressedBritish: () => speakdots1("en-GB"),
             onPressedAmerican: () => speakdots1("en-US"),
           ),

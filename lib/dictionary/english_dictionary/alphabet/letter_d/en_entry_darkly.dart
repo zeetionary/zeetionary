@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بەشێوەیەکی ھەڕەشەئامێز یان ناخۆش"),
           SentencesRow(
             englishText: "He hinted darkly that all was not well.",
-            kurdishText:
-                "خەمگینانە ئاماژەی دا کە ھەموو شتێک باش نییە.", // darkly
+            kurdishText: "خەمگینانە ئاماژەی دا کە ھەموو شتێک باش نییە.",
             onPressedBritish: () => speakdarklys1("en-GB"),
             onPressedAmerican: () => speakdarklys1("en-US"),
           ),

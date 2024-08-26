@@ -269,7 +269,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئەندازە لە بۆشاییدا، بۆ نموونە ئەوەی کە شتێک چەندە بەرز، فراوان، یان درێژە"),
           SentencesRow(
             englishText: "We measured the dimensions of the kitchen.",
-            kurdishText: "ئەندازەی چێشتخانەکەمان پێوا.", // dimension
+            kurdishText: "ئەندازەی چێشتخانەکەمان پێوا.",
             onPressedBritish: () => speakdimensions1("en-GB"),
             onPressedAmerican: () => speakdimensions1("en-US"),
           ),

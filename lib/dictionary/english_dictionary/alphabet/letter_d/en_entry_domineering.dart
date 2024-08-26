@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ئەوەی کە ھەوڵ بدەیت بەسەر کەسانی دیکەدا زاڵ بیت"),
           SentencesRow(
             englishText: "He was brought up by a cold and domineering father.",
-            kurdishText:
-                "لەلایەن باوکێکی ساردوسڕ و زۆردارەوە گەورە کرا.", // domineering
+            kurdishText: "لەلایەن باوکێکی ساردوسڕ و زۆردارەوە گەورە کرا.",
             onPressedBritish: () => speakdomineerings1("en-GB"),
             onPressedAmerican: () => speakdomineerings1("en-US"),
           ),

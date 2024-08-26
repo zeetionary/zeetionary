@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Regional accents may alter the diphthong in \"fire\".",
-            kurdishText:
-                "ئەکسێنتە ھەرێمییەکان ڕەنگە دووبزوێنەی 'fire' بگۆڕن.", // diphthong
+            kurdishText: "ئەکسێنتە ھەرێمییەکان ڕەنگە دووبزوێنەی 'fire' بگۆڕن.",
             onPressedBritish: () => speakdiphthongs1("en-GB"),
             onPressedAmerican: () => speakdiphthongs1("en-US"),
           ),

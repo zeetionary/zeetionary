@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) وێرانبوون یان زیانی گەورە"),
           SentencesRow(
             englishText: "The bomb caused widespread devastation.",
-            kurdishText:
-                "بۆمبەکە بوو بە ھۆکاری وێرانبوونی گەورە.", // devastation
+            kurdishText: "بۆمبەکە بوو بە ھۆکاری وێرانبوونی گەورە.",
             onPressedBritish: () => speakdevastations1("en-GB"),
             onPressedAmerican: () => speakdevastations1("en-US"),
           ),

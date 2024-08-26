@@ -183,7 +183,7 @@ class EnglishEntrybutcher extends StatelessWidget {
                             englishText:
                                 "Every morning, the butcher displays fresh cuts in the shop.",
                             kurdishText:
-                                "ھەموو بەیانییەک قەسابەکە گۆشتی تازە ھەڵدەواسێت لە قەسابخانەکە.", // butcher", follow LX strictly
+                                "ھەموو بەیانییەک قەسابەکە گۆشتی تازە ھەڵدەواسێت لە قەسابخانەکە.",
                             onPressedBritish: () => speakbutchers1("en-GB"),
                             onPressedAmerican: () => speakbutchers1("en-US"),
                           ),

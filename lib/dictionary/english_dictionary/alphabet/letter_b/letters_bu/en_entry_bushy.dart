@@ -180,7 +180,7 @@ class EnglishEntrybushy extends StatelessWidget {
                             englishText:
                                 "He was short and stocky, with thick bushy eyebrows.",
                             kurdishText:
-                                "کورتەباڵا و خڕوخۆڵ بوو لەگەڵ ھەبوونی برۆی ئەستووری پڕدا.", // bushy", follow LX strictly
+                                "کورتەباڵا و خڕوخۆڵ بوو لەگەڵ ھەبوونی برۆی ئەستووری پڕدا.",
                             onPressedBritish: () => speakbushys1("en-GB"),
                             onPressedAmerican: () => speakbushys1("en-US"),
                           ),

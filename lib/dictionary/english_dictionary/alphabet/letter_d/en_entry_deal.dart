@@ -296,7 +296,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) پێدانی کارد بە یاریزانان لە یاری کارددا"),
           SentencesRow(
             englishText: "Whose turn is it to deal?",
-            kurdishText: "نۆرەی کێیە کارد دابەش بکات؟", // deal
+            kurdishText: "نۆرەی کێیە کارد دابەش بکات؟",
             onPressedBritish: () => speakdeals1("en-GB"),
             onPressedAmerican: () => speakdeals1("en-US"),
           ),

@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) پەیوەندی نێوان بەرھەمھێنان، بازرگانی، و پارەی بەردەست لە وڵات یان ھەرێمێک"""),
           SentencesRow(
             englishText: """The economy is in recession.""",
-            kurdishText: """ئابووری لە قەیراندایە.""", // economy
+            kurdishText: """ئابووری لە قەیراندایە.""",
             onPressedBritish: () => speakeconomys1("en-GB"),
             onPressedAmerican: () => speakeconomys1("en-US"),
           ),

@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """During the reign of Charles I there was a flood of emigrants to North America.""",
             kurdishText:
-                """لە ماوەی دەسەڵاتداریی چارڵسی یەکەمدا کۆچبەرێکی زۆر بۆ ئەمریکا ھەبوون.""", // emigrant
+                """لە ماوەی دەسەڵاتداریی چارڵسی یەکەمدا کۆچبەرێکی زۆر بۆ ئەمریکا ھەبوون.""",
             onPressedBritish: () => speakemigrants1("en-GB"),
             onPressedAmerican: () => speakemigrants1("en-US"),
           ),

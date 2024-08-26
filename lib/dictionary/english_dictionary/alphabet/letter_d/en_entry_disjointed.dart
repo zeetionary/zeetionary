@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The novel suffers from a disjointed plot and insignificant characters.",
             kurdishText:
-                "ڕۆمانەکە کێشەی داڕشتنی بێ‌سەروبەری ھەیە لەگەڵ کارەکتەری ناگرنگ.", // disjointed
+                "ڕۆمانەکە کێشەی داڕشتنی بێ‌سەروبەری ھەیە لەگەڵ کارەکتەری ناگرنگ.",
             onPressedBritish: () => speakdisjointeds1("en-GB"),
             onPressedAmerican: () => speakdisjointeds1("en-US"),
           ),

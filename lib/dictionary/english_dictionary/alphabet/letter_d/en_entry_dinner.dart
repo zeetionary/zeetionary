@@ -293,7 +293,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نانی سەرەکیی ڕۆژ کە لە ناوەڕاستی ڕۆژەکە یان ئێوارە دەخورێت"),
           SentencesRow(
             englishText: "It's time for dinner.",
-            kurdishText: "کاتی شێوە.", // dinner
+            kurdishText: "کاتی شێوە.",
             onPressedBritish: () => speakdinners1("en-GB"),
             onPressedAmerican: () => speakdinners1("en-US"),
           ),

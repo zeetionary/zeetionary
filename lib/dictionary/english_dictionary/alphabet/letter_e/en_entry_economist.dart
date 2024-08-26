@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Many economists are predicting the economy will improve.""",
             kurdishText:
-                """زۆر ئابووریناس پێشبینی ئەوە دەکەن کە ئابووری بەھێز دەبێت.""", // economist
+                """زۆر ئابووریناس پێشبینی ئەوە دەکەن کە ئابووری بەھێز دەبێت.""",
             onPressedBritish: () => speakeconomists1("en-GB"),
             onPressedAmerican: () => speakeconomists1("en-US"),
           ),

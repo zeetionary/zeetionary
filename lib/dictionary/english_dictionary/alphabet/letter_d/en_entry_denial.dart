@@ -276,8 +276,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The terrorists issued a denial of responsibility for the attack.",
-            kurdishText:
-                "تیرۆریستەکان نکۆڵییان بەرامبەر بە ھێرشەکە ڕاگەیاند.", // denial
+            kurdishText: "تیرۆریستەکان نکۆڵییان بەرامبەر بە ھێرشەکە ڕاگەیاند.",
             onPressedBritish: () => speakdenials1("en-GB"),
             onPressedAmerican: () => speakdenials1("en-US"),
           ),

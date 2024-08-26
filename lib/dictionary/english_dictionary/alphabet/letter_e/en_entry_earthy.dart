@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵناو) پەیوەندیدار بە جەستە، سێکس، ھتد بەشێوەیەکی کراوە و ڕاستەوخۆ کە ھەندێک کەس ڕەنگە بێ‌شەرمی یان جێگەی شەرمی ببینن """),
           SentencesRow(
             englishText: """She has an earthy sense of humour.""",
-            kurdishText: """حەزی بێ‌شەرمانەی گاڵتەوگەپی ھەیە.""", // earthy
+            kurdishText: """حەزی بێ‌شەرمانەی گاڵتەوگەپی ھەیە.""",
             onPressedBritish: () => speakearthys1("en-GB"),
             onPressedAmerican: () => speakearthys1("en-US"),
           ),

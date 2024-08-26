@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ھەندێک لە چەوری لە ژێر چەناگەی کەسێک کە وەک چەناگەیەکی دیکە دەردەکەوێت"),
           SentencesRow(
             englishText: "He exercises to reduce his double chin.",
-            kurdishText:
-                "ڕاھێنان دەکات بۆ کەمکردنەوەی بەرچێڵەی.", // double chin
+            kurdishText: "ڕاھێنان دەکات بۆ کەمکردنەوەی بەرچێڵەی.",
             onPressedBritish: () => speakdoublechins1("en-GB"),
             onPressedAmerican: () => speakdoublechins1("en-US"),
           ),

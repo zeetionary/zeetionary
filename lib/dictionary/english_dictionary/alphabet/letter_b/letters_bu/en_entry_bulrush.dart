@@ -137,7 +137,7 @@ class EnglishEntrybulrush extends StatelessWidget {
                             englishText:
                                 "Frogs hid among the bulrush in the pond.",
                             kurdishText:
-                                "بۆق لە پشتەوەی قامیشەکان لە زۆنگاوەکەدا خۆیان شاردبووەوە.", // bulrush", follow LX strictly
+                                "بۆق لە پشتەوەی قامیشەکان لە زۆنگاوەکەدا خۆیان شاردبووەوە.",
                             onPressedBritish: () => speakbulrushs1("en-GB"),
                             onPressedAmerican: () => speakbulrushs1("en-US"),
                           ),

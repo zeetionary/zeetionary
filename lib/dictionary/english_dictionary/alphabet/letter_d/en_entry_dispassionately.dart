@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The case needs to be examined dispassionately at a public inquiry.",
             kurdishText:
-                "کەیسەکە دەبێت لە لێکۆڵینەوەیەکی گشتیدا لێکۆڵینەوەی لێ بکرێت.", // dispassionately
+                "کەیسەکە دەبێت لە لێکۆڵینەوەیەکی گشتیدا لێکۆڵینەوەی لێ بکرێت.",
             onPressedBritish: () => speakdispassionatelys1("en-GB"),
             onPressedAmerican: () => speakdispassionatelys1("en-US"),
           ),

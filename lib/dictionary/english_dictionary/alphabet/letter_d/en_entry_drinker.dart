@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She claimed advertisers were targeting underage drinkers.",
             kurdishText:
-                "بانگەشەی ئەوەی دەکرد کە خاوەن ڕیکلامەکان ئارەقخۆرانی ھەرزەکاریان بە ئامانج دەگرت.", // drinker
+                "بانگەشەی ئەوەی دەکرد کە خاوەن ڕیکلامەکان ئارەقخۆرانی ھەرزەکاریان بە ئامانج دەگرت.",
             onPressedBritish: () => speakdrinkers1("en-GB"),
             onPressedAmerican: () => speakdrinkers1("en-US"),
           ),

@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) چڕی"),
           SentencesRow(
             englishText: "The population density in this city is very high.",
-            kurdishText: "چڕی دانیشتووان لەم شارە بەرزە.", // density
+            kurdishText: "چڕی دانیشتووان لەم شارە بەرزە.",
             onPressedBritish: () => speakdensitys1("en-GB"),
             onPressedAmerican: () => speakdensitys1("en-US"),
           ),

@@ -255,8 +255,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە پەیوەست نییە بە کەس و شتانی دەورووبەرییەوە"),
           SentencesRow(
             englishText: "I felt disconnected from the world around me.",
-            kurdishText:
-                "ھەستم بە دابڕاوی لە جیھانی دەورووبەرم دەکرد.", // disconnected
+            kurdishText: "ھەستم بە دابڕاوی لە جیھانی دەورووبەرم دەکرد.",
             onPressedBritish: () => speakdisconnecteds1("en-GB"),
             onPressedAmerican: () => speakdisconnecteds1("en-US"),
           ),

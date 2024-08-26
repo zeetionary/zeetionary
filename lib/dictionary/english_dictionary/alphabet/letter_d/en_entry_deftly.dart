@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) بە جوڵەی خێرا و شارەزایانە"),
           SentencesRow(
             englishText: "I threw her a towel which she deftly caught.",
-            kurdishText:
-                "خاولییەکم بۆ ھاویشت کە شارەزایانە گرتییەوە.", // deftly
+            kurdishText: "خاولییەکم بۆ ھاویشت کە شارەزایانە گرتییەوە.",
             onPressedBritish: () => speakdeftlys1("en-GB"),
             onPressedAmerican: () => speakdeftlys1("en-US"),
           ),

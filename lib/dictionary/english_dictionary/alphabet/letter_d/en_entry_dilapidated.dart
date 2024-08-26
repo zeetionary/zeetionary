@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The old house was in a somewhat dilapidated condition.",
-            kurdishText:
-                "خانووە کۆنەکە لە دۆخێکی تاڕادەیەک شەق‌وشڕدا بوو.", // dilapidated
+            kurdishText: "خانووە کۆنەکە لە دۆخێکی تاڕادەیەک شەق‌وشڕدا بوو.",
             onPressedBritish: () => speakdilapidateds1("en-GB"),
             onPressedAmerican: () => speakdilapidateds1("en-US"),
           ),

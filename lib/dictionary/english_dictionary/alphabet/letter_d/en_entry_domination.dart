@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The movie was about a group of robots set on world domination (= control of all countries).",
             kurdishText:
-                "فیلمەکە لەسەر ژمارەیەک ڕۆبۆت بوو کە ئامانجیان بوو جیھان کۆنترۆڵ بکەن.", // domination
+                "فیلمەکە لەسەر ژمارەیەک ڕۆبۆت بوو کە ئامانجیان بوو جیھان کۆنترۆڵ بکەن.",
             onPressedBritish: () => speakdominations1("en-GB"),
             onPressedAmerican: () => speakdominations1("en-US"),
           ),

@@ -177,7 +177,7 @@ class EnglishEntrybungalow extends StatelessWidget {
                             englishText:
                                 "There were small, white bungalows dotted over the hillside.",
                             kurdishText:
-                                "خانووی یەک نھۆمی بچووکی سپی بەسەر گردەکە دیاربوون.", // bungalow", follow LX strictly
+                                "خانووی یەک نھۆمی بچووکی سپی بەسەر گردەکە دیاربوون.",
                             onPressedBritish: () => speakbungalows1("en-GB"),
                             onPressedAmerican: () => speakbungalows1("en-US"),
                           ),

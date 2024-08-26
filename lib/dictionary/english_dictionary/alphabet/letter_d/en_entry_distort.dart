@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) گۆڕینی شێوە، ڕووکەش، یان دەنگی شتێک بەشێوەیەک کە نەناسرێتەوە"),
           SentencesRow(
             englishText: "The loudspeaker seemed to distort his voice.",
-            kurdishText: "بڵندگۆکە وادیاربوو کە دەنگی بشێوێنێت.", // distort
+            kurdishText: "بڵندگۆکە وادیاربوو کە دەنگی بشێوێنێت.",
             onPressedBritish: () => speakdistorts1("en-GB"),
             onPressedAmerican: () => speakdistorts1("en-US"),
           ),

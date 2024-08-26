@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The wide disparity between rich and poor was highlighted.",
-            kurdishText:
-                "جیاوازی نێوان دەوڵەمەند و ھەژار تیشكی خرایەسەر.", // disparity
+            kurdishText: "جیاوازی نێوان دەوڵەمەند و ھەژار تیشكی خرایەسەر.",
             onPressedBritish: () => speakdisparitys1("en-GB"),
             onPressedAmerican: () => speakdisparitys1("en-US"),
           ),

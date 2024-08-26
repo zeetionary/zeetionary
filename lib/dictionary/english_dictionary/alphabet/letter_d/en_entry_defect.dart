@@ -290,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Goods with slight defects are sold at half price.",
             kurdishText:
-                "ئەو کەلوپەلانەی کە کەمێک خەوشییان تێدایە بە نیوە نرخ دەفرۆشرێن.", // defect
+                "ئەو کەلوپەلانەی کە کەمێک خەوشییان تێدایە بە نیوە نرخ دەفرۆشرێن.",
             onPressedBritish: () => speakdefects1("en-GB"),
             onPressedAmerican: () => speakdefects1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The world champion was dethroned by a young Swedish challenger.",
             kurdishText:
-                "پاڵەوانە جیھانییەکە لەلایەن ڕکابەرێکی سویدییەوە شکستی پێھێنرا.", // dethrone
+                "پاڵەوانە جیھانییەکە لەلایەن ڕکابەرێکی سویدییەوە شکستی پێھێنرا.",
             onPressedBritish: () => speakdethrones1("en-GB"),
             onPressedAmerican: () => speakdethrones1("en-US"),
           ),

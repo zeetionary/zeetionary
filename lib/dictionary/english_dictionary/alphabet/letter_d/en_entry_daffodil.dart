@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The daffodil's vibrant yellow petals are a symbol of rebirth and new beginnings.",
             kurdishText:
-                "پەڕەی گەشی زەردی نێرگز سمبولی دووبارە ژیانەوە و سەرەتایەکی تازەیە.", // daffodil
+                "پەڕەی گەشی زەردی نێرگز سمبولی دووبارە ژیانەوە و سەرەتایەکی تازەیە.",
             onPressedBritish: () => speakdaffodils1("en-GB"),
             onPressedAmerican: () => speakdaffodils1("en-US"),
           ),

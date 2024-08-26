@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The tourists saw a school of dolphins near the shore.",
             kurdishText:
-                "گەشتیارەکان ژمارەیەک دۆڵفینیان لە نزیک کەنارەکە بینی.", // dolphin
+                "گەشتیارەکان ژمارەیەک دۆڵفینیان لە نزیک کەنارەکە بینی.",
             onPressedBritish: () => speakdolphins1("en-GB"),
             onPressedAmerican: () => speakdolphins1("en-US"),
           ),

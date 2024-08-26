@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) دۆخی نەبوونی توانای بیستن"),
           SentencesRow(
             englishText: "Measles can cause deafness and blindness.",
-            kurdishText:
-                "سووڕێژە دەکرێت ببێتە ھۆکاری کەڕی و کوێری.", // deafness
+            kurdishText: "سووڕێژە دەکرێت ببێتە ھۆکاری کەڕی و کوێری.",
             onPressedBritish: () => speakdeafnesss1("en-GB"),
             onPressedAmerican: () => speakdeafnesss1("en-US"),
           ),

@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She was trapped in a downward spiral (= continuous increase) of personal unhappiness.",
             kurdishText:
-                "لە گێژەڵووکەیەکی ڕوولە داشکانی نەھامەتیی کەسیدا گیری کردبوو.", // downward
+                "لە گێژەڵووکەیەکی ڕوولە داشکانی نەھامەتیی کەسیدا گیری کردبوو.",
             onPressedBritish: () => speakdownwards1("en-GB"),
             onPressedAmerican: () => speakdownwards1("en-US"),
           ),

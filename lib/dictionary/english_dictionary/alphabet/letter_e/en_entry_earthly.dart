@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She often spoke about the sorrows of this earthly life.""",
             kurdishText:
-                """زۆرجار باسی لە نەھامەتییەکان ژیانی ئەم سەر زەوییە دەکرد.""", // earthly
+                """زۆرجار باسی لە نەھامەتییەکان ژیانی ئەم سەر زەوییە دەکرد.""",
             onPressedBritish: () => speakearthlys1("en-GB"),
             onPressedAmerican: () => speakearthlys1("en-US"),
           ),

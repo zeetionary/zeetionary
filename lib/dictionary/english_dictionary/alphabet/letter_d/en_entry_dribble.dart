@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(word: "ھەروەھا: drool"),
           SentencesRow(
             englishText: "Babies dribble constantly.",
-            kurdishText: "منداڵان بەردەوام تف دەردەدەن.", // dribble
+            kurdishText: "منداڵان بەردەوام تف دەردەدەن.",
             onPressedBritish: () => speakdribbles1("en-GB"),
             onPressedAmerican: () => speakdribbles1("en-US"),
           ),

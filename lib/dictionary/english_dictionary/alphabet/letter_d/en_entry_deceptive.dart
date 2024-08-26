@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Appearances can often be deceptive (= things are not always what they seem to be).",
-            kurdishText: "ڕووکەش زۆرجار دەکرێت چەاشەکار بێت.", // deceptive
+            kurdishText: "ڕووکەش زۆرجار دەکرێت چەاشەکار بێت.",
             onPressedBritish: () => speakdeceptives1("en-GB"),
             onPressedAmerican: () => speakdeceptives1("en-US"),
           ),

@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) شلەی خواردنەوە"),
           SentencesRow(
             englishText: "Can I have a drink?",
-            kurdishText: "خواردنەوەیەکم پێ دەدەیت؟", // drink
+            kurdishText: "خواردنەوەیەکم پێ دەدەیت؟",
             onPressedBritish: () => speakdrinks1("en-GB"),
             onPressedAmerican: () => speakdrinks1("en-US"),
           ),

@@ -260,8 +260,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) بیرنەکردنەوە لە شتێک"),
           SentencesRow(
             englishText: "The board completely disregarded my recommendations.",
-            kurdishText:
-                "دەستەکە بە تەواوی پێشنیارەکانمی پشتگوێخست.", // disregard
+            kurdishText: "دەستەکە بە تەواوی پێشنیارەکانمی پشتگوێخست.",
             onPressedBritish: () => speakdisregards1("en-GB"),
             onPressedAmerican: () => speakdisregards1("en-US"),
           ),

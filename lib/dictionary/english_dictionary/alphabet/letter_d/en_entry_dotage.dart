@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئەو ماوەی ژیان کە پیر بوویت و ناتوانیت بە ڕوونی بیر بکەیتەوە"),
           SentencesRow(
             englishText: "I need you to look after me in my dotage.",
-            kurdishText: "ئەوەم لێت دەوێت ئاگات لێم بێت لە پیرییمدا.", // dotage
+            kurdishText: "ئەوەم لێت دەوێت ئاگات لێم بێت لە پیرییمدا.",
             onPressedBritish: () => speakdotages1("en-GB"),
             onPressedAmerican: () => speakdotages1("en-US"),
           ),

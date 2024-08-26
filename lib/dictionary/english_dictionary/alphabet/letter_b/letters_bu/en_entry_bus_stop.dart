@@ -178,7 +178,7 @@ class EnglishEntrybusstop extends StatelessWidget {
                           SentencesRow(
                             englishText: "I was waiting at the bus stop.",
                             kurdishText:
-                                "لە وێستگەی پاسەکە چاوەڕێ بووم.", // bus stop", follow LX strictly
+                                "لە وێستگەی پاسەکە چاوەڕێ بووم.",
                             onPressedBritish: () => speakbusstops1("en-GB"),
                             onPressedAmerican: () => speakbusstops1("en-US"),
                           ),

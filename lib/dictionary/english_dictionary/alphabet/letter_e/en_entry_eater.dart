@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) کەسێک یان ئاژەڵێک کە شتێکی دیاریکراو دەخوات یان بەشێوەیەکی دیاریکراو دەیخوات"""),
           SentencesRow(
             englishText: """He's a big eater (= he eats a lot).""",
-            kurdishText: """بخۆرێکی گەورەیە.""", // eater
+            kurdishText: """بخۆرێکی گەورەیە.""",
             onPressedBritish: () => speakeaters1("en-GB"),
             onPressedAmerican: () => speakeaters1("en-US"),
           ),

@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There are plenty of activities at the resort for the less daring.",
             kurdishText:
-                "ژمارەیەکی زۆر چالاکی ھەیە لە سەیرانگاکە بۆ کەسانی کەم بوێر.", // daring
+                "ژمارەیەکی زۆر چالاکی ھەیە لە سەیرانگاکە بۆ کەسانی کەم بوێر.",
             onPressedBritish: () => speakdarings1("en-GB"),
             onPressedAmerican: () => speakdarings1("en-US"),
           ),

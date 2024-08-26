@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "After he had spoken, a deathly silence/hush fell on the room.",
             kurdishText:
-                "لە دوای ئەوەی قسەی کرد، بێدەنگییەکی تەواو باڵی بەسەر ژوورەکەدا پۆشی.", // deathly
+                "لە دوای ئەوەی قسەی کرد، بێدەنگییەکی تەواو باڵی بەسەر ژوورەکەدا پۆشی.",
             onPressedBritish: () => speakdeathlys1("en-GB"),
             onPressedAmerican: () => speakdeathlys1("en-US"),
           ),

@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) ھەبوونی بۆچوونێکی دیاریکراو لەسەر کەسێک/شتێک"),
           SentencesRow(
             englishText: "The evening was deemed a great success.",
-            kurdishText: "ئێوارەکە بە سەرکەوتنێکی گەورە دانرا.", // deem
+            kurdishText: "ئێوارەکە بە سەرکەوتنێکی گەورە دانرا.",
             onPressedBritish: () => speakdeems1("en-GB"),
             onPressedAmerican: () => speakdeems1("en-US"),
           ),

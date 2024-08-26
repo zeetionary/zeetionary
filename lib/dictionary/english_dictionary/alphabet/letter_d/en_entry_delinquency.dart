@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The boys drift into minor delinquencies while hanging around the streets.",
             kurdishText:
-                "کوڕەکان تێکەڵ بوون بە سەرەڕۆیی بچووک لە کاتی سووڕانەوە بە شەقامەکاندا.", // delinquency
+                "کوڕەکان تێکەڵ بوون بە سەرەڕۆیی بچووک لە کاتی سووڕانەوە بە شەقامەکاندا.",
             onPressedBritish: () => speakdelinquencys1("en-GB"),
             onPressedAmerican: () => speakdelinquencys1("en-US"),
           ),

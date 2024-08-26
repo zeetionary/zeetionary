@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دۆخێک کە بەشێکی جەستە بەشێوەی سرووشتی گەشەی نەکردووە یان شێوەی ئاسایی نییە"),
           SentencesRow(
             englishText: "The baby was born with a spinal deformity.",
-            kurdishText:
-                "منداڵەکە بە ناڕێکی بڕبڕەی پشتەوە لەدایکبوو.", // deformity
+            kurdishText: "منداڵەکە بە ناڕێکی بڕبڕەی پشتەوە لەدایکبوو.",
             onPressedBritish: () => speakdeformitys1("en-GB"),
             onPressedAmerican: () => speakdeformitys1("en-US"),
           ),

@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There were some interesting interviews in the documentary.",
             kurdishText:
-                "ژمارەیەک چاوپێکەوتنی سەرنجڕاکێش لە دۆکیومێنتەرییەکە ھەبوون.", // documentary
+                "ژمارەیەک چاوپێکەوتنی سەرنجڕاکێش لە دۆکیومێنتەرییەکە ھەبوون.",
             onPressedBritish: () => speakdocumentarys1("en-GB"),
             onPressedAmerican: () => speakdocumentarys1("en-US"),
           ),

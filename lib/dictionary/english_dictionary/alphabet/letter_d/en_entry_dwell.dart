@@ -374,8 +374,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (کردار) ژیانکردن لە شوێنێک"""),
           SentencesRow(
             englishText: """He dwelt in a ruined cottage on the hillside.""",
-            kurdishText:
-                """لە کوخێکی وێرانە لە بناری تەپۆلکەکە دەژیا.""", // dwell
+            kurdishText: """لە کوخێکی وێرانە لە بناری تەپۆلکەکە دەژیا.""",
             onPressedBritish: () => speakdwells1("en-GB"),
             onPressedAmerican: () => speakdwells1("en-US"),
           ),

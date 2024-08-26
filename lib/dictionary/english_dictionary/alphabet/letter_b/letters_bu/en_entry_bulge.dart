@@ -138,8 +138,7 @@ class EnglishEntrybulge extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Her pockets were bulging with presents.",
-                            kurdishText:
-                                "گیرفانەکانی تەقیبوون لە دیاریدا.", // bulge", follow LX strictly
+                            kurdishText: "گیرفانەکانی تەقیبوون لە دیاریدا.",
                             onPressedBritish: () => speakbulges1("en-GB"),
                             onPressedAmerican: () => speakbulges1("en-US"),
                           ),

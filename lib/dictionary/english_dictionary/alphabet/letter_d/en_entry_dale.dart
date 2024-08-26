@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "We're going walking in the Yorkshire Dales this summer.",
-            kurdishText:
-                "ئەم ھاوینە دەچین بۆ گەڕان لە دۆڵەکانی یۆرکشێر.", // dale
+            kurdishText: "ئەم ھاوینە دەچین بۆ گەڕان لە دۆڵەکانی یۆرکشێر.",
             onPressedBritish: () => speakdales1("en-GB"),
             onPressedAmerican: () => speakdales1("en-US"),
           ),

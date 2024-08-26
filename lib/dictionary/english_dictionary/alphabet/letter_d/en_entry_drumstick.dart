@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) چیلکەیەک کە بۆ دەھۆڵ لێدان بەکاردێت"),
           SentencesRow(
             englishText: "He broke his drumstick during the performance.",
-            kurdishText: "لە کاتی نمایشەکەدا دەھۆڵ‌کوتەکەی شکاند.", // drumstick
+            kurdishText: "لە کاتی نمایشەکەدا دەھۆڵ‌کوتەکەی شکاند.",
             onPressedBritish: () => speakdrumsticks1("en-GB"),
             onPressedAmerican: () => speakdrumsticks1("en-US"),
           ),

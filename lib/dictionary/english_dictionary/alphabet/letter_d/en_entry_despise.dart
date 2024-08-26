@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) ڕق‌لێبوون و نەبوونی ھیچ ڕێزێک بۆ کەسێک/شتێک"),
           SentencesRow(
             englishText: "She despised gossip in any form.",
-            kurdishText: "ڕقی لە قسەوقسەڵۆکە بە ھەموو جۆرێک.", // despise
+            kurdishText: "ڕقی لە قسەوقسەڵۆکە بە ھەموو جۆرێک.",
             onPressedBritish: () => speakdespises1("en-GB"),
             onPressedAmerican: () => speakdespises1("en-US"),
           ),

@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە دەبێتە ھۆکاری دڵتەنگی، یان دڵتەنگی پیشان دەدات"),
           SentencesRow(
             englishText: "Christmas will be dismal without the children.",
-            kurdishText: "کریسمس بەبێ منداڵان پەژارەبار دەبێت.", // dismal
+            kurdishText: "کریسمس بەبێ منداڵان پەژارەبار دەبێت.",
             onPressedBritish: () => speakdismals1("en-GB"),
             onPressedAmerican: () => speakdismals1("en-US"),
           ),

@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە توانای ھەیە بڕیار لە کوالێتی شتێک بدات"),
           SentencesRow(
             englishText: "Modern audiences have become more discriminating.",
-            kurdishText:
-                "گوێگرانی ئەمڕۆ زیاتر بەسەرنج بوونە.", // discriminating
+            kurdishText: "گوێگرانی ئەمڕۆ زیاتر بەسەرنج بوونە.",
             onPressedBritish: () => speakdiscriminatings1("en-GB"),
             onPressedAmerican: () => speakdiscriminatings1("en-US"),
           ),

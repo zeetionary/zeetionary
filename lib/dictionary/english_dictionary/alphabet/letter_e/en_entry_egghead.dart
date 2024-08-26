@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) کەسێکی زۆر زیرەک کە تەنھا حەزی بە خوێندنەوەیە"""),
           SentencesRow(
             englishText: """The egghead won the academic competition easily.""",
-            kurdishText:
-                """بیریارەکە بە ئاسانی کێبڕکێ ئەکادیمییەکەی بردەوە.""", // egghead
+            kurdishText: """بیریارەکە بە ئاسانی کێبڕکێ ئەکادیمییەکەی بردەوە.""",
             onPressedBritish: () => speakeggheads1("en-GB"),
             onPressedAmerican: () => speakeggheads1("en-US"),
           ),

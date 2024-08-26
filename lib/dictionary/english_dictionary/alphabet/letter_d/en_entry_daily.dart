@@ -286,8 +286,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە ھەموو ڕۆژێک ڕوودەدات"),
           SentencesRow(
             englishText: "Many people still read a daily newspaper.",
-            kurdishText:
-                "زۆر کەس ھێشتا ڕۆژنامەیەکی ڕۆژانە دەخوێننەوە.", // daily
+            kurdishText: "زۆر کەس ھێشتا ڕۆژنامەیەکی ڕۆژانە دەخوێننەوە.",
             onPressedBritish: () => speakdailys1("en-GB"),
             onPressedAmerican: () => speakdailys1("en-US"),
           ),

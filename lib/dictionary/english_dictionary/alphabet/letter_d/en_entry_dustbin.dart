@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) زبڵدانێکی گەورە کە بانێکی ھەیە و زۆرجار لە دەرەوەی ماڵەوە دادەندرێت"""),
           SentencesRow(
             englishText: """How regularly are the dustbins emptied?""",
-            kurdishText: """چەند زوو زبڵدانەکان بەتاڵ دەکرێنەوە؟""", // dustbin
+            kurdishText: """چەند زوو زبڵدانەکان بەتاڵ دەکرێنەوە؟""",
             onPressedBritish: () => speakdustbins1("en-GB"),
             onPressedAmerican: () => speakdustbins1("en-US"),
           ),

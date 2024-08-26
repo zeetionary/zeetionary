@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """His egoism prevented him from really loving anyone but himself.""",
             kurdishText:
-                """خوبەزل‌زانییەکەی ڕێگای لێ دەگرت لەوەی ھیچ کەسی دیکەی خۆشبوێت جگە لە خۆی.""", // egoism
+                """خوبەزل‌زانییەکەی ڕێگای لێ دەگرت لەوەی ھیچ کەسی دیکەی خۆشبوێت جگە لە خۆی.""",
             onPressedBritish: () => speakegoisms1("en-GB"),
             onPressedAmerican: () => speakegoisms1("en-US"),
           ),

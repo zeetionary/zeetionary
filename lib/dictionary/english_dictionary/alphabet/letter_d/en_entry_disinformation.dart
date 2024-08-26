@@ -241,8 +241,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The government launched a campaign of propaganda and disinformation.",
-            kurdishText:
-                "حکومەت کەمپینێکی پڕوپاگەندە و چەواشەکاری دەستپێکرد.", // disinformation
+            kurdishText: "حکومەت کەمپینێکی پڕوپاگەندە و چەواشەکاری دەستپێکرد.",
             onPressedBritish: () => speakdisinformations1("en-GB"),
             onPressedAmerican: () => speakdisinformations1("en-US"),
           ),

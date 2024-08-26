@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خراپ"),
           SentencesRow(
             englishText: "The acting was deplorable.",
-            kurdishText: "نمایشەکە زۆر خراپ بوو.", // deplorable
+            kurdishText: "نمایشەکە زۆر خراپ بوو.",
             onPressedBritish: () => speakdeplorables1("en-GB"),
             onPressedAmerican: () => speakdeplorables1("en-US"),
           ),

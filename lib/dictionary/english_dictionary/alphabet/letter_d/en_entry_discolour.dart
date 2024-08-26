@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) تێکدانی ڕەنگی شتێک"),
           SentencesRow(
             englishText: "Plastic tends to discolour with age.",
-            kurdishText:
-                "پلاستیک مەیلی ھەیە لەگەڵ تەمەندا ڕەنگی تێکبچێت.", // discolour
+            kurdishText: "پلاستیک مەیلی ھەیە لەگەڵ تەمەندا ڕەنگی تێکبچێت.",
             onPressedBritish: () => speakdiscolours1("en-GB"),
             onPressedAmerican: () => speakdiscolours1("en-US"),
           ),

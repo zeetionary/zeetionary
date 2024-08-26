@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دۆخێکی دەروونی کە تێیدا کەسێک دەخرۆشێت و ناتوانێت بە ڕوونی بیربکاتەوە یان قسە بکات"),
           SentencesRow(
             englishText: "He mumbled in delirium all night.",
-            kurdishText:
-                "تەواوی شەوەکە لە وڕاوەدا مینگەمینگی دەکرد.", // delirium
+            kurdishText: "تەواوی شەوەکە لە وڕاوەدا مینگەمینگی دەکرد.",
             onPressedBritish: () => speakdeliriums1("en-GB"),
             onPressedAmerican: () => speakdeliriums1("en-US"),
           ),

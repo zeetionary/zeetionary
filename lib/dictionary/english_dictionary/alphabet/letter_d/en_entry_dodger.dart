@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The politician was criticized for being a dodger, never giving clear answers.",
             kurdishText:
-                "سیاسەتوانەکە وەک تەڵەکەبازێک سەرزەنشت کرا کە ھەرگیز وەڵامی ڕوونی نەدەدا.", // dodger
+                "سیاسەتوانەکە وەک تەڵەکەبازێک سەرزەنشت کرا کە ھەرگیز وەڵامی ڕوونی نەدەدا.",
             onPressedBritish: () => speakdodgers1("en-GB"),
             onPressedAmerican: () => speakdodgers1("en-US"),
           ),

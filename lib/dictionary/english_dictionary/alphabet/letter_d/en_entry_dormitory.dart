@@ -363,8 +363,7 @@ class KurdishMeaning extends StatelessWidget {
                   "ھەروەھا: ئەمریکی: dorm, residence hall ـ بەریتانی: hall of residence, hall"),
           SentencesRow(
             englishText: "She shared a dormitory with three other students.",
-            kurdishText:
-                "ژوورێکی داخلی ھەبوو لەگەڵ سێ خوێندکاری دیکە.", // dormitory
+            kurdishText: "ژوورێکی داخلی ھەبوو لەگەڵ سێ خوێندکاری دیکە.",
             onPressedBritish: () => speakdormitorys1("en-GB"),
             onPressedAmerican: () => speakdormitorys1("en-US"),
           ),

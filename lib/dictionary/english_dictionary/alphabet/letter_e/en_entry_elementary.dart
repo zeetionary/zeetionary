@@ -389,8 +389,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) قۆناغەکانی سەرەتای کۆرسێکی خوێندن"""),
           SentencesRow(
             englishText: """I'm taking classes in elementary Italian.""",
-            kurdishText:
-                """وانەی سەرەتایی زمانی ئیتالی دەخوێنم.""", // elementary
+            kurdishText: """وانەی سەرەتایی زمانی ئیتالی دەخوێنم.""",
             onPressedBritish: () => speakelementarys1("en-GB"),
             onPressedAmerican: () => speakelementarys1("en-US"),
           ),

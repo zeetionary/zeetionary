@@ -373,8 +373,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵکار) کە کەسێک بە گاڵتەی شاراوەوە قسە دەکات"),
           SentencesRow(
             englishText: "Thanks for the warning, Tachi said dryly.",
-            kurdishText:
-                "تاچی بە تیزەوە گوتی سوپاس بۆ ئاگادارکردنەوەکە.", // dryly
+            kurdishText: "تاچی بە تیزەوە گوتی سوپاس بۆ ئاگادارکردنەوەکە.",
             onPressedBritish: () => speakdrylys1("en-GB"),
             onPressedAmerican: () => speakdrylys1("en-US"),
           ),

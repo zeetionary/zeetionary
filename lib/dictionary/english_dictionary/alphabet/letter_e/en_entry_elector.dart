@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Not all the registered electors actually voted.""",
             kurdishText:
-                """ھەموو دەنگدەرانی تۆمارکراو نەبوون کە لە ڕاستیدا دەنگیان دا.""", // elector
+                """ھەموو دەنگدەرانی تۆمارکراو نەبوون کە لە ڕاستیدا دەنگیان دا.""",
             onPressedBritish: () => speakelectors1("en-GB"),
             onPressedAmerican: () => speakelectors1("en-US"),
           ),

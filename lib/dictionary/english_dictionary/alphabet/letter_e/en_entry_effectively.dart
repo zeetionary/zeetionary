@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The company must reduce costs to compete effectively.""",
             kurdishText:
-                """کۆمپانیاکە دەبێت خەرجی کەمبکاتەوە بۆ ئەوەی کاریگەرانە ڕکابەری بکات.""", // effectively
+                """کۆمپانیاکە دەبێت خەرجی کەمبکاتەوە بۆ ئەوەی کاریگەرانە ڕکابەری بکات.""",
             onPressedBritish: () => speakeffectivelys1("en-GB"),
             onPressedAmerican: () => speakeffectivelys1("en-US"),
           ),

@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) دەرچوونی شەمەندەفەر لەسەر سکەکەی"),
           SentencesRow(
             englishText: "The number of train derailments has risen.",
-            kurdishText:
-                "ژمارەی لە‌سکەدەرچوونی شەمەندەفەر زیادی کردووە.", // derailment
+            kurdishText: "ژمارەی لە‌سکەدەرچوونی شەمەندەفەر زیادی کردووە.",
             onPressedBritish: () => speakderailments1("en-GB"),
             onPressedAmerican: () => speakderailments1("en-US"),
           ),

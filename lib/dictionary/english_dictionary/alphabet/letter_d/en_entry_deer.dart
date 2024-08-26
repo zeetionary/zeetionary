@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئاژەڵێک کە لاقی درێژی ھەیە و گیا، گەڵا، ھتد دەخوات"),
           SentencesRow(
             englishText: "The park is home to a large herd of deer.",
-            kurdishText: "پارکەکە لانەی گرووپێکی گەورە لە ئاسکە.", // deer
+            kurdishText: "پارکەکە لانەی گرووپێکی گەورە لە ئاسکە.",
             onPressedBritish: () => speakdeers1("en-GB"),
             onPressedAmerican: () => speakdeers1("en-US"),
           ),

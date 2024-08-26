@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He believed that he would be condemned to eternal damnation for what he had done.",
             kurdishText:
-                "باوەڕی وابوو بۆ ھەمیشەیی بەر لەعنەتی دۆزەخ دەکەوێت بۆ ئەوەی کردوویەتی.", // damnation
+                "باوەڕی وابوو بۆ ھەمیشەیی بەر لەعنەتی دۆزەخ دەکەوێت بۆ ئەوەی کردوویەتی.",
             onPressedBritish: () => speakdamnations1("en-GB"),
             onPressedAmerican: () => speakdamnations1("en-US"),
           ),

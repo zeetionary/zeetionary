@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He was one of the key architects of Scottish devolution.",
-            kurdishText:
-                "یەکێک لە ئەندازیارانی لامەرکەزی بوو لە سکۆتلەندا.", // devolution
+            kurdishText: "یەکێک لە ئەندازیارانی لامەرکەزی بوو لە سکۆتلەندا.",
             onPressedBritish: () => speakdevolutions1("en-GB"),
             onPressedAmerican: () => speakdevolutions1("en-US"),
           ),

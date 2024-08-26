@@ -265,7 +265,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ھەستی لەدەستدانی ھەموو ھیوایەک"),
           SentencesRow(
             englishText: "She uttered a cry of despair.",
-            kurdishText: "ھاوارێکی بێ‌ھیوایی کرد.", // despair
+            kurdishText: "ھاوارێکی بێ‌ھیوایی کرد.",
             onPressedBritish: () => speakdespairs1("en-GB"),
             onPressedAmerican: () => speakdespairs1("en-US"),
           ),

@@ -277,7 +277,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The speech was a deliberate attempt to embarrass the government.",
             kurdishText:
-                "وتارەکە ھەوڵێکی بە ئەنقەست بوو بۆ شەرمەزارکردنی حکومەت.", // deliberate
+                "وتارەکە ھەوڵێکی بە ئەنقەست بوو بۆ شەرمەزارکردنی حکومەت.",
             onPressedBritish: () => speakdeliberates1("en-GB"),
             onPressedAmerican: () => speakdeliberates1("en-US"),
           ),

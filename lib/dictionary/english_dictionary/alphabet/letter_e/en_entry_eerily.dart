@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵکار) بەشێوەیەکی نامۆ یان ترسێنەر"""),
           SentencesRow(
             englishText: """The streets are eerily quiet here at night.""",
-            kurdishText: """شەقامەکان ترسینەرانە چۆڵن لە شەودا.""", // eerily
+            kurdishText: """شەقامەکان ترسینەرانە چۆڵن لە شەودا.""",
             onPressedBritish: () => speakeerilys1("en-GB"),
             onPressedAmerican: () => speakeerilys1("en-US"),
           ),

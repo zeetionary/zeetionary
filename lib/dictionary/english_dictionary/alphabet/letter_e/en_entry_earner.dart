@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The survey revealed that top earners in the country tended to be men.""",
             kurdishText:
-                """ڕاپرسییەکە دەریخست کە زۆرترین بەدەست‌ھێنەران وا باوبوو پیاوان بن.""", // earner
+                """ڕاپرسییەکە دەریخست کە زۆرترین بەدەست‌ھێنەران وا باوبوو پیاوان بن.""",
             onPressedBritish: () => speakearners1("en-GB"),
             onPressedAmerican: () => speakearners1("en-US"),
           ),

@@ -398,8 +398,7 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(word: "ھەروەھا: duck"),
           SentencesRow(
             englishText: "He ran across the road, dodging the traffic.",
-            kurdishText:
-                "بە شەقامەکەدا ڕایکرد و خۆی لە ھاتووچۆ پاراست.", // dodge
+            kurdishText: "بە شەقامەکەدا ڕایکرد و خۆی لە ھاتووچۆ پاراست.",
             onPressedBritish: () => speakdodges1("en-GB"),
             onPressedAmerican: () => speakdodges1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The department store downtown has three floors.",
             kurdishText:
-                "فرۆشگاکەی ناوجەرگەی شار سێ نھۆمی ھەیە.", // department store
+                "فرۆشگاکەی ناوجەرگەی شار سێ نھۆمی ھەیە.",
             onPressedBritish: () => speakdepartmentstores1("en-GB"),
             onPressedAmerican: () => speakdepartmentstores1("en-US"),
           ),

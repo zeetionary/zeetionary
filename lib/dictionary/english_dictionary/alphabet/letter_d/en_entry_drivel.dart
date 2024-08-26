@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "How can you watch that drivel on TV?",
             kurdishText:
-                "چۆن دەتوانیت سەیری ئەو فڵتەفڵتە لەسەر تەلەفیزیۆن بکەیت؟", // drivel
+                "چۆن دەتوانیت سەیری ئەو فڵتەفڵتە لەسەر تەلەفیزیۆن بکەیت؟",
             onPressedBritish: () => speakdrivels1("en-GB"),
             onPressedAmerican: () => speakdrivels1("en-US"),
           ),

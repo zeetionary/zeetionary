@@ -373,8 +373,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کۆنترۆڵ"),
           SentencesRow(
             englishText: "Man has dominion over the natural world.",
-            kurdishText:
-                "مرۆڤ کۆنترۆڵی بەسەر ژیانی سرووشتیدا ھەیە.", // dominion
+            kurdishText: "مرۆڤ کۆنترۆڵی بەسەر ژیانی سرووشتیدا ھەیە.",
             onPressedBritish: () => speakdominions1("en-GB"),
             onPressedAmerican: () => speakdominions1("en-US"),
           ),

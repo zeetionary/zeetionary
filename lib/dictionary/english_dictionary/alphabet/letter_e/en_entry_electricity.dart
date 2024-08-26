@@ -384,7 +384,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The wind farm will generate enough electricity for some 30 000 homes.""",
             kurdishText:
-                """وێستگە باییەکە کارەبای پێویست بۆ ٣٠٠٠٠ ماڵ بەرھەم دەھێنێت.""", // electricity
+                """وێستگە باییەکە کارەبای پێویست بۆ ٣٠٠٠٠ ماڵ بەرھەم دەھێنێت.""",
             onPressedBritish: () => speakelectricitys1("en-GB"),
             onPressedAmerican: () => speakelectricitys1("en-US"),
           ),

@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) تاریکی و پیسی"),
           SentencesRow(
             englishText: "The dinginess of the windows blocked out sunlight.",
-            kurdishText:
-                "تەڵخی پەنجەرەکان ڕێگای گرتبوو لە تیشكی خۆر .", // dinginess
+            kurdishText: "تەڵخی پەنجەرەکان ڕێگای گرتبوو لە تیشكی خۆر .",
             onPressedBritish: () => speakdinginesss1("en-GB"),
             onPressedAmerican: () => speakdinginesss1("en-US"),
           ),

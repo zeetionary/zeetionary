@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He built a sturdy doghouse for his dog to protect it from the weather.",
             kurdishText:
-                "کۆڵەیەکی قایمی بۆ سەگەکەی درووستکرد بۆ پاراستنی لە کەشوھەوا.", // doghouse
+                "کۆڵەیەکی قایمی بۆ سەگەکەی درووستکرد بۆ پاراستنی لە کەشوھەوا.",
             onPressedBritish: () => speakdoghouses1("en-GB"),
             onPressedAmerican: () => speakdoghouses1("en-US"),
           ),

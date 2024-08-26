@@ -304,8 +304,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) بەدڵنیایی؛ بەبێ ئەگەری گۆڕان"),
           SentencesRow(
             englishText: "Can you give me a definite answer by tomorrow?",
-            kurdishText:
-                "دەتوانیت تاوەکو سبەی وەڵامێکی دڵنیایم پێ بدەیت؟", // definite
+            kurdishText: "دەتوانیت تاوەکو سبەی وەڵامێکی دڵنیایم پێ بدەیت؟",
             onPressedBritish: () => speakdefinites1("en-GB"),
             onPressedAmerican: () => speakdefinites1("en-US"),
           ),

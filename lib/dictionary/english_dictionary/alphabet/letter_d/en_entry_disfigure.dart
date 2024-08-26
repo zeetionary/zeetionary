@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) شێواندنی شێوەی کەسێک، شتێک، یان شوێنێک"),
           SentencesRow(
             englishText: "Her face was disfigured by a long red scar.",
-            kurdishText: "ڕووخساری شێوا بە برینێکی درێژی سوور.", // disfigure
+            kurdishText: "ڕووخساری شێوا بە برینێکی درێژی سوور.",
             onPressedBritish: () => speakdisfigures1("en-GB"),
             onPressedAmerican: () => speakdisfigures1("en-US"),
           ),

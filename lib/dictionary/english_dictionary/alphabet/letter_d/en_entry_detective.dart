@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Several objects were taken away by detectives from the anti-terrorist squad.",
             kurdishText:
-                "ژمارەیەک شت لە تیمی دژە تیرۆرەوە لەلایەن لێکۆڵەرەوانەوە بردران.", // detective
+                "ژمارەیەک شت لە تیمی دژە تیرۆرەوە لەلایەن لێکۆڵەرەوانەوە بردران.",
             onPressedBritish: () => speakdetectives1("en-GB"),
             onPressedAmerican: () => speakdetectives1("en-US"),
           ),

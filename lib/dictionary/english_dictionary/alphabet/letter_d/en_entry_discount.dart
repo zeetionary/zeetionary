@@ -299,7 +299,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Spend over £50 and receive a 15 per cent discount.",
             kurdishText:
-                "زیاتر لە ٥٠ پاوەند خەرج بکە ١٥ لە سەد داشکاندن وەربگرە.", // discount
+                "زیاتر لە ٥٠ پاوەند خەرج بکە ١٥ لە سەد داشکاندن وەربگرە.",
             onPressedBritish: () => speakdiscounts1("en-GB"),
             onPressedAmerican: () => speakdiscounts1("en-US"),
           ),

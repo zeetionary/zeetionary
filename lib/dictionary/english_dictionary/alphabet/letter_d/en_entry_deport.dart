@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) دەرکردنی کەسێک لە وڵاتێک، بەزۆری بەھۆی ئەوەی یاسای شکاندووە یان مافی مانەوەی لە وڵاتەکە نییە"),
           SentencesRow(
             englishText: "He was convicted of drug offences and deported.",
-            kurdishText:
-                "تاوانبارکرا بە تاوانی مادەی ھۆشبەر و دیپۆرت کرایەوە.", // deport
+            kurdishText: "تاوانبارکرا بە تاوانی مادەی ھۆشبەر و دیپۆرت کرایەوە.",
             onPressedBritish: () => speakdeports1("en-GB"),
             onPressedAmerican: () => speakdeports1("en-US"),
           ),

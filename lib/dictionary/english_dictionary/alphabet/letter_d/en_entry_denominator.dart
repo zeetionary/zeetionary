@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ژمارەی ژێرەوەی کەرتێک، بۆ نموونە ٤ لە ¾"),
           SentencesRow(
             englishText: "To add fractions, the denominator must be the same.",
-            kurdishText:
-                "بۆ کۆکردنەوەی کەرت، ژێرە مەرجە وەک یەک بن.", // denominator
+            kurdishText: "بۆ کۆکردنەوەی کەرت، ژێرە مەرجە وەک یەک بن.",
             onPressedBritish: () => speakdenominators1("en-GB"),
             onPressedAmerican: () => speakdenominators1("en-US"),
           ),

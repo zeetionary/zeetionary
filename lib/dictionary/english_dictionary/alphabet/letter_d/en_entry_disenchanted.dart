@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He was becoming disenchanted with his job as a lawyer.",
-            kurdishText: "بێزار لە کارەکەی وەک پارێزەر.", // disenchanted
+            kurdishText: "بێزار لە کارەکەی وەک پارێزەر.",
             onPressedBritish: () => speakdisenchanteds1("en-GB"),
             onPressedAmerican: () => speakdisenchanteds1("en-US"),
           ),

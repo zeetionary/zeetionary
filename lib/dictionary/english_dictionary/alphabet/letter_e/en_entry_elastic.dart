@@ -387,7 +387,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """This skirt needs some new elastic in the waist.""",
             kurdishText:
-                """تەنوورەکەدا لە کەمەردا پێویستیی بە ھەندێک لە لاستیک ھەیە.""", // elastic
+                """تەنوورەکەدا لە کەمەردا پێویستیی بە ھەندێک لە لاستیک ھەیە.""",
             onPressedBritish: () => speakelastics1("en-GB"),
             onPressedAmerican: () => speakelastics1("en-US"),
           ),

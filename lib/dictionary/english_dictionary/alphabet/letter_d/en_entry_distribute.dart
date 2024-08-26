@@ -419,7 +419,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) پێدانی شت بە ژمارەیەکی زۆر لە خەڵکی"),
           SentencesRow(
             englishText: "The leaflets have been widely distributed.",
-            kurdishText: "نامیلکەکان بە بەرفراوانی دابەشکراون.", // distribute
+            kurdishText: "نامیلکەکان بە بەرفراوانی دابەشکراون.",
             onPressedBritish: () => speakdistributes1("en-GB"),
             onPressedAmerican: () => speakdistributes1("en-US"),
           ),

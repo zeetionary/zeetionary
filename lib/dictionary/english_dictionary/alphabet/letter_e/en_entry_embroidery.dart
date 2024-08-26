@@ -374,8 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) شێوە و وێنەی جیاواز کە دەچندرێن لەسەر جل بە دەزووی ڕەنگ جیاواز؛ جلێک کە بەم شێوەیە ڕازێندراوەتەوە"""),
           SentencesRow(
             englishText: """Let me show you Pat's embroideries.""",
-            kurdishText:
-                """ڕێگام بدە گوڵ‌چنیی پاتت پێ پیشان بدەم.""", // embroidery
+            kurdishText: """ڕێگام بدە گوڵ‌چنیی پاتت پێ پیشان بدەم.""",
             onPressedBritish: () => speakembroiderys1("en-GB"),
             onPressedAmerican: () => speakembroiderys1("en-US"),
           ),

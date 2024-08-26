@@ -269,7 +269,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) شێوەیەکی دڵنیاییکردنەوەی ئەوەی کە شتێک ڕاستە و ھیچ گومانی لەسەر نییە"),
           SentencesRow(
             englishText: "I definitely remember sending the letter.",
-            kurdishText: "بەدڵنیاییەوە ناردنی نامەکەم بیر دێت.", // definitely
+            kurdishText: "بەدڵنیاییەوە ناردنی نامەکەم بیر دێت.",
             onPressedBritish: () => speakdefinitelys1("en-GB"),
             onPressedAmerican: () => speakdefinitelys1("en-US"),
           ),

@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کەمێک تەڕ، سارد، یان ناخۆش"),
           SentencesRow(
             englishText: "It was a small place with a dank smell.",
-            kurdishText: "شوێنێکی بچووک بوو بە بۆنێکی ناخۆشەوە.", // dank
+            kurdishText: "شوێنێکی بچووک بوو بە بۆنێکی ناخۆشەوە.",
             onPressedBritish: () => speakdanks1("en-GB"),
             onPressedAmerican: () => speakdanks1("en-US"),
           ),

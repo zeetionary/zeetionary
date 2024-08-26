@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) خاسیەتە سرووشتییەکانی کەسایەتی کەسێک"),
           SentencesRow(
             englishText: "These dogs show a very sociable disposition.",
-            kurdishText:
-                "ئەم سەگانە خووی زۆر کۆمەڵایەتی پیشان دەدەن.", // disposition
+            kurdishText: "ئەم سەگانە خووی زۆر کۆمەڵایەتی پیشان دەدەن.",
             onPressedBritish: () => speakdispositions1("en-GB"),
             onPressedAmerican: () => speakdispositions1("en-US"),
           ),

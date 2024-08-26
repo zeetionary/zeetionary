@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "It is highly debatable whether conditions have improved for low-income families.",
             kurdishText:
-                "ئەوە تەواو جێگای مشتومڕە کە ئایا دۆخی خێزانە کەم دەرامەتەکان .", // debatable
+                "ئەوە تەواو جێگای مشتومڕە کە ئایا دۆخی خێزانە کەم دەرامەتەکان .",
             onPressedBritish: () => speakdebatables1("en-GB"),
             onPressedAmerican: () => speakdebatables1("en-US"),
           ),

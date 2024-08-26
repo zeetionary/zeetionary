@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Most of the president's supporters believed his ejection from office was illegal.""",
             kurdishText:
-                """زۆرێک لە لایەنگیرانی سەرۆکەکە پێیان وایە دەرکردنی لە پێگەکە نایاسایی بوو.""", // ejection
+                """زۆرێک لە لایەنگیرانی سەرۆکەکە پێیان وایە دەرکردنی لە پێگەکە نایاسایی بوو.""",
             onPressedBritish: () => speakejections1("en-GB"),
             onPressedAmerican: () => speakejections1("en-US"),
           ),

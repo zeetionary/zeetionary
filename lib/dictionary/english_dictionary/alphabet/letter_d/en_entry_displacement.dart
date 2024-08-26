@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The recent famine in these parts has caused the displacement of tens of thousands of people.",
             kurdishText:
-                "قەیرانەکەی ئەم ماوە لەم ناوچانە بووە بە ھۆکاری ئاوارەبوونی ھەزاران کەس.", // displacement
+                "قەیرانەکەی ئەم ماوە لەم ناوچانە بووە بە ھۆکاری ئاوارەبوونی ھەزاران کەس.",
             onPressedBritish: () => speakdisplacements1("en-GB"),
             onPressedAmerican: () => speakdisplacements1("en-US"),
           ),

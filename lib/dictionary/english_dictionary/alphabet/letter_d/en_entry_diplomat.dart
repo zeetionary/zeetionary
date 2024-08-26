@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "A Western diplomat in Islamabad confirmed the news.",
             kurdishText:
-                "دیپلۆماتێکی ڕۆژئاوایی لە ئیسلام ئاباد ھەواڵەکەی پشتڕاست کردەوە.", // diplomat
+                "دیپلۆماتێکی ڕۆژئاوایی لە ئیسلام ئاباد ھەواڵەکەی پشتڕاست کردەوە.",
             onPressedBritish: () => speakdiplomats1("en-GB"),
             onPressedAmerican: () => speakdiplomats1("en-US"),
           ),

@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The women wore veils in deference to the customs of the country.",
-            kurdishText:
-                "ژنەکان لەچکیان پۆشی وەک ڕێزێک بۆ نەریتەکانی وڵاتەکە.", // deference
+            kurdishText: "ژنەکان لەچکیان پۆشی وەک ڕێزێک بۆ نەریتەکانی وڵاتەکە.",
             onPressedBritish: () => speakdeferences1("en-GB"),
             onPressedAmerican: () => speakdeferences1("en-US"),
           ),

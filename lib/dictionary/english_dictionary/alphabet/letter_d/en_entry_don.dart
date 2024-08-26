@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She aspired to become an Oxford don and teach at the university.",
             kurdishText:
-                "خەونی بەوەوە دەبینی کە ببێت بە مامۆستای ئۆکسفۆرد و لە زانکۆکە وانە بڵێتەوە.", // don
+                "خەونی بەوەوە دەبینی کە ببێت بە مامۆستای ئۆکسفۆرد و لە زانکۆکە وانە بڵێتەوە.",
             onPressedBritish: () => speakdons1("en-GB"),
             onPressedAmerican: () => speakdons1("en-US"),
           ),

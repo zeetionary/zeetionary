@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Every afternoon they went to the park to feed the ducks.""",
             kurdishText:
-                """ھەموو ئێوارانێک دەچوون بۆ پارکەکە بۆ خواردندان بە مراوییەکان.""", // duck
+                """ھەموو ئێوارانێک دەچوون بۆ پارکەکە بۆ خواردندان بە مراوییەکان.""",
             onPressedBritish: () => speakducks1("en-GB"),
             onPressedAmerican: () => speakducks1("en-US"),
           ),

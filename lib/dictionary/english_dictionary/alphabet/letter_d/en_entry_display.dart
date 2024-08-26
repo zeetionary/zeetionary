@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The exhibition gives local artists an opportunity to display their work.",
             kurdishText:
-                "پێشانگاکە ھەلێک بە ھونەرمەندە خۆجێییەکان دەدات کە کارەکانیان نمایش بکەن.", // display
+                "پێشانگاکە ھەلێک بە ھونەرمەندە خۆجێییەکان دەدات کە کارەکانیان نمایش بکەن.",
             onPressedBritish: () => speakdisplays1("en-GB"),
             onPressedAmerican: () => speakdisplays1("en-US"),
           ),

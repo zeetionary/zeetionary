@@ -135,7 +135,7 @@ class EnglishEntrybulletpoint extends StatelessWidget {
                             englishText:
                                 "Please see the first and second bullet points on the first page.",
                             kurdishText:
-                                "تکایە سەیری خاڵەکانی یەکەم و دووەم بکە لە پەڕەی یەکەم.", // bullet point", follow LX strictly
+                                "تکایە سەیری خاڵەکانی یەکەم و دووەم بکە لە پەڕەی یەکەم.",
                             onPressedBritish: () => speakbulletpoints1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbulletpoints1("en-US"),

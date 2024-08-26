@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The pilot was saved by the ejector seat.""",
             kurdishText:
-                """فڕۆکەوانەکە بەھۆی کورسییە ھاوێژەرەکەوە ڕزگاری بوو.""", // ejection seat
+                """فڕۆکەوانەکە بەھۆی کورسییە ھاوێژەرەکەوە ڕزگاری بوو.""",
             onPressedBritish: () => speakejectionseats1("en-GB"),
             onPressedAmerican: () => speakejectionseats1("en-US"),
           ),

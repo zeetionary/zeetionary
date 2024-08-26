@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Several of the asylum seekers now face deportation.",
             kurdishText:
-                "ژمارەیەک لە داواکارانی پەناگە ئێستا ڕووبەڕووی دیپۆرتکردنەوە دەبنەوە.", // deportation
+                "ژمارەیەک لە داواکارانی پەناگە ئێستا ڕووبەڕووی دیپۆرتکردنەوە دەبنەوە.",
             onPressedBritish: () => speakdeportations1("en-GB"),
             onPressedAmerican: () => speakdeportations1("en-US"),
           ),

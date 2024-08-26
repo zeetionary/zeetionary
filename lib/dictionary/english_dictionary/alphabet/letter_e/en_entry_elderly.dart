@@ -374,8 +374,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """They were reunited at last with their elderly relatives.""",
-            kurdishText:
-                """لە کۆتاییدا شادبوونەوە بە خزمە بەتەمەنەکانیان.""", // elderly
+            kurdishText: """لە کۆتاییدا شادبوونەوە بە خزمە بەتەمەنەکانیان.""",
             onPressedBritish: () => speakelderlys1("en-GB"),
             onPressedAmerican: () => speakelderlys1("en-US"),
           ),

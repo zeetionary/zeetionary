@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) دەرکردن لە کۆی گشتی"),
           SentencesRow(
             englishText: "Ten points will be deducted for a wrong answer.",
-            kurdishText: "دە خاڵ کەم دەکرێتەوە بۆ وەڵامێکی ھەڵە.", // deduct
+            kurdishText: "دە خاڵ کەم دەکرێتەوە بۆ وەڵامێکی ھەڵە.",
             onPressedBritish: () => speakdeducts1("en-GB"),
             onPressedAmerican: () => speakdeducts1("en-US"),
           ),

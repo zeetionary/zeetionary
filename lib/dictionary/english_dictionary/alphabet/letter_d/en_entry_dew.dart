@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دڵۆپەی بچووکی ئاو کە لە شەودا لەسەر زەوی درووست دەبێت"),
           SentencesRow(
             englishText: "The grass was wet with early morning dew.",
-            kurdishText: "گیاکە تەڕ بوو بە ئاونگی بەرەبەیان.", // dew
+            kurdishText: "گیاکە تەڕ بوو بە ئاونگی بەرەبەیان.",
             onPressedBritish: () => speakdews1("en-GB"),
             onPressedAmerican: () => speakdews1("en-US"),
           ),

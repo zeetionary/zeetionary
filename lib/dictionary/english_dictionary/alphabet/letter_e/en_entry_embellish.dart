@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The ceiling was embellished with flowers and leaves.""",
-            kurdishText:
-                """بنبانەکە بە گوڵ و گەڵا ڕازێندرابوویەوە.""", // embellish
+            kurdishText: """بنبانەکە بە گوڵ و گەڵا ڕازێندرابوویەوە.""",
             onPressedBritish: () => speakembellishs1("en-GB"),
             onPressedAmerican: () => speakembellishs1("en-US"),
           ),

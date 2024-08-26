@@ -269,8 +269,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Follow the link below for a more detailed description.",
-            kurdishText:
-                "لە بەستەرەکەی خوارەوە بڕوانە بۆ ڕوون‌کردنەوەی وردتر.", // description
+            kurdishText: "لە بەستەرەکەی خوارەوە بڕوانە بۆ ڕوون‌کردنەوەی وردتر.",
             onPressedBritish: () => speakdescriptions1("en-GB"),
             onPressedAmerican: () => speakdescriptions1("en-US"),
           ),

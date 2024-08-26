@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) تەنێکی زۆر بچووک کە باری کارەبایی نەرێنی ھەیە و لە ھەموو ئەتۆمێکدا ھەیە"""),
           SentencesRow(
             englishText: """An electron orbits the nucleus of an atom.""",
-            kurdishText:
-                """ئەلیکترۆن بە دەوری ناوکی ئەتۆمدا دەسووڕێتەوە.""", // electron
+            kurdishText: """ئەلیکترۆن بە دەوری ناوکی ئەتۆمدا دەسووڕێتەوە.""",
             onPressedBritish: () => speakelectrons1("en-GB"),
             onPressedAmerican: () => speakelectrons1("en-US"),
           ),

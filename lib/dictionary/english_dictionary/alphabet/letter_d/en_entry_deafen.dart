@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) نەھێشتنی توانای بیستنی کەسێک بۆ ماوەیەکی کاتی یان ھەمیشەیی"),
           SentencesRow(
             englishText: "The noise of the siren was deafening her.",
-            kurdishText: "ژاوەژاوی سایرنەکە کەڕی دەکرد.", // deafen
+            kurdishText: "ژاوەژاوی سایرنەکە کەڕی دەکرد.",
             onPressedBritish: () => speakdeafens1("en-GB"),
             onPressedAmerican: () => speakdeafens1("en-US"),
           ),

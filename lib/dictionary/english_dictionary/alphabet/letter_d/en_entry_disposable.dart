@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Use disposable gloves when cleaning the bathroom.",
             kurdishText:
-                "دەستکێشی یەکجارە بەکاربھێنە لاکاتی پاککردنەوەی گەرماوەکە.", // disposable
+                "دەستکێشی یەکجارە بەکاربھێنە لاکاتی پاککردنەوەی گەرماوەکە.",
             onPressedBritish: () => speakdisposables1("en-GB"),
             onPressedAmerican: () => speakdisposables1("en-US"),
           ),

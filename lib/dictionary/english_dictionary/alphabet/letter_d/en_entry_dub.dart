@@ -377,8 +377,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She was dubbed by the newspapers \"the Angel of Death\".",
-            kurdishText:
-                """لەلایەن ڕۆژنامەکەوە پێی گوترا "فریشتەی مەرگ".""", // dub
+            kurdishText: """لەلایەن ڕۆژنامەکەوە پێی گوترا "فریشتەی مەرگ".""",
             onPressedBritish: () => speakdubs1("en-GB"),
             onPressedAmerican: () => speakdubs1("en-US"),
           ),

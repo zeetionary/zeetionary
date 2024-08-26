@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He was strongly disinclined to believe anything that she said.",
             kurdishText:
-                "تەواو بێ‌مەیل بوو لە باوەڕکردن بە ھەر شتێک کە دەیگوت.", // disinclined
+                "تەواو بێ‌مەیل بوو لە باوەڕکردن بە ھەر شتێک کە دەیگوت.",
             onPressedBritish: () => speakdisinclineds1("en-GB"),
             onPressedAmerican: () => speakdisinclineds1("en-US"),
           ),

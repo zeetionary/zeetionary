@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The sex scandal finally led to his downfall.",
             kurdishText:
-                "ئابڕووچوونە سێکسییەکە لە  کۆتایی داڕووخانیی لێکەوتەوە.", // downfall
+                "ئابڕووچوونە سێکسییەکە لە  کۆتایی داڕووخانیی لێکەوتەوە.",
             onPressedBritish: () => speakdownfalls1("en-GB"),
             onPressedAmerican: () => speakdownfalls1("en-US"),
           ),

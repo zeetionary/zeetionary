@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) لاواز؛ کە توانای بەرگری لە خۆی نییە"),
           SentencesRow(
             englishText: "The village is defenceless against attack.",
-            kurdishText: "گوندەکە لاوازە دژ بە ھێرش.", // defenceless
+            kurdishText: "گوندەکە لاوازە دژ بە ھێرش.",
             onPressedBritish: () => speakdefencelesss1("en-GB"),
             onPressedAmerican: () => speakdefencelesss1("en-US"),
           ),

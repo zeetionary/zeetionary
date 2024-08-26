@@ -440,8 +440,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) فڕێدانی شتێک کە ناتەوێت، بە تایبەتی لە شوێنێکدا کە نەگونجاوە"""),
           SentencesRow(
             englishText: """Too much toxic waste is being dumped at sea.""",
-            kurdishText:
-                """زۆر پاشماوەی ژەھراوی فڕێدەدرێتە دەریاکانەوە.""", // dump
+            kurdishText: """زۆر پاشماوەی ژەھراوی فڕێدەدرێتە دەریاکانەوە.""",
             onPressedBritish: () => speakdumps1("en-GB"),
             onPressedAmerican: () => speakdumps1("en-US"),
           ),

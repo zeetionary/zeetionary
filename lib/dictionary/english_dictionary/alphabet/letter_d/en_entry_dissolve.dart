@@ -431,7 +431,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) توانەوە"),
           SentencesRow(
             englishText: "Salt dissolves in water.",
-            kurdishText: "خوێ لە ئاودا دەتوێتەوە.", // dissolve
+            kurdishText: "خوێ لە ئاودا دەتوێتەوە.",
             onPressedBritish: () => speakdissolves1("en-GB"),
             onPressedAmerican: () => speakdissolves1("en-US"),
           ),

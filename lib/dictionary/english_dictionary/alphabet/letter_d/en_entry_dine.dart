@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "We dined with my parents at a restaurant in town.",
             kurdishText:
-                "لەگەڵ دایبابم لە چێشتخانەیەکی شارۆچکەکە شێومان خوارد.", // dine
+                "لەگەڵ دایبابم لە چێشتخانەیەکی شارۆچکەکە شێومان خوارد.",
             onPressedBritish: () => speakdines1("en-GB"),
             onPressedAmerican: () => speakdines1("en-US"),
           ),

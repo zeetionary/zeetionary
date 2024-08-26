@@ -283,8 +283,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "We collected publicly available data over a 10-day period.",
-            kurdishText:
-                "داتای ماوەی ١٠ ڕۆژی بەردەستی گشتیمان کۆکردەوە.", // data
+            kurdishText: "داتای ماوەی ١٠ ڕۆژی بەردەستی گشتیمان کۆکردەوە.",
             onPressedBritish: () => speakdatas1("en-GB"),
             onPressedAmerican: () => speakdatas1("en-US"),
           ),

@@ -313,7 +313,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) لەبەرچاو نەمان"),
           SentencesRow(
             englishText: "With that, Matt promptly disappeared.",
-            kurdishText: "لەگەڵ ئەوەی، مات لەناکو دیارنەما.", // disappear
+            kurdishText: "لەگەڵ ئەوەی، مات لەناکو دیارنەما.",
             onPressedBritish: () => speakdisappears1("en-GB"),
             onPressedAmerican: () => speakdisappears1("en-US"),
           ),

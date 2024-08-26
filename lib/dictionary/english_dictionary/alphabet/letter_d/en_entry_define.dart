@@ -283,7 +283,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) ڕوونکردنەوەی واتای وشە یان زاراوەیەک"),
           SentencesRow(
             englishText: "The term ‘normal’ is difficult to define.",
-            kurdishText: "وشەی 'normal' گرانە پێناسە بکرێت.", // define
+            kurdishText: "وشەی 'normal' گرانە پێناسە بکرێت.",
             onPressedBritish: () => speakdefines1("en-GB"),
             onPressedAmerican: () => speakdefines1("en-US"),
           ),

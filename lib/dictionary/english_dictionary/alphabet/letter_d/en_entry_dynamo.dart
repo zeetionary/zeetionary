@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """A dynamo on a bicycle will power a pair of lights while the wheels are going around.""",
             kurdishText:
-                """دینەمۆی پاسکیلێک جووتێک لایت دەخاتە کار کە ویلەکان دەسووڕێنەوە.""", // dynamo
+                """دینەمۆی پاسکیلێک جووتێک لایت دەخاتە کار کە ویلەکان دەسووڕێنەوە.""",
             onPressedBritish: () => speakdynamos1("en-GB"),
             onPressedAmerican: () => speakdynamos1("en-US"),
           ),

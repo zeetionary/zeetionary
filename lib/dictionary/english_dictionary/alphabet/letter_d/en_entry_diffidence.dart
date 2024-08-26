@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She overcame her natural diffidence and spoke with great frankness.",
             kurdishText:
-                "زاڵبوو بەسەر باوەڕبەخۆنەبووی سرووشتییدا و بە سەرڕاستی زۆرەوە قسەی دەکرد.", // diffidence
+                "زاڵبوو بەسەر باوەڕبەخۆنەبووی سرووشتییدا و بە سەرڕاستی زۆرەوە قسەی دەکرد.",
             onPressedBritish: () => speakdiffidences1("en-GB"),
             onPressedAmerican: () => speakdiffidences1("en-US"),
           ),

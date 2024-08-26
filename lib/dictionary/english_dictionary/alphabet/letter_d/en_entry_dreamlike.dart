@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) وەک ئەوەی لە خەونێکدا بوونی ھەبێت یان ڕووبدات"),
           SentencesRow(
             englishText: "The place has an almost dreamlike quality.",
-            kurdishText:
-                "شوێنەکە خاسیەتێکی تاڕادەیەک خەون‌ئاسای ھەبوو.", // dreamlike
+            kurdishText: "شوێنەکە خاسیەتێکی تاڕادەیەک خەون‌ئاسای ھەبوو.",
             onPressedBritish: () => speakdreamlikes1("en-GB"),
             onPressedAmerican: () => speakdreamlikes1("en-US"),
           ),

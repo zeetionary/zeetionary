@@ -261,7 +261,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "In 19th century England, infectious diseases were the principal cause of death.",
             kurdishText:
-                "لە سەدەی ١٩ ـی ئینگلتەرەدا، نەخۆشییە گواستراوەکان ھۆکاری سەرەکیی مردن بوون.", // disease
+                "لە سەدەی ١٩ ـی ئینگلتەرەدا، نەخۆشییە گواستراوەکان ھۆکاری سەرەکیی مردن بوون.",
             onPressedBritish: () => speakdiseases1("en-GB"),
             onPressedAmerican: () => speakdiseases1("en-US"),
           ),

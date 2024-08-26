@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بنەچەی شتێک، بەتایبەتی وشەیەک"),
           SentencesRow(
             englishText: "Does anyone know the derivation of the word “OK”?",
-            kurdishText: "ھیچ کەس بنەچەی وشەی 'OK' دەزانێت؟", // derivation
+            kurdishText: "ھیچ کەس بنەچەی وشەی 'OK' دەزانێت؟",
             onPressedBritish: () => speakderivations1("en-GB"),
             onPressedAmerican: () => speakderivations1("en-US"),
           ),

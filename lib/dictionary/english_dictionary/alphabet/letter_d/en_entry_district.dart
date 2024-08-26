@@ -405,8 +405,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ناوچەیەکی وڵاتێک یان شارۆچکەیەک کە تایبەتمەندی تەیبەتی ھەیە"),
           SentencesRow(
             englishText: "Every city has its central business district.",
-            kurdishText:
-                "ھەموو شارێک مەڵبەندی ناوەندی بازرگانی خۆی ھەیە.", // district
+            kurdishText: "ھەموو شارێک مەڵبەندی ناوەندی بازرگانی خۆی ھەیە.",
             onPressedBritish: () => speakdistricts1("en-GB"),
             onPressedAmerican: () => speakdistricts1("en-US"),
           ),

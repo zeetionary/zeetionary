@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بڕێک لە دەرمان کە بە بەردەوامی دەخوردرێت، و ئەوەی چەندە دەخوردرێت"),
           SentencesRow(
             englishText: "Do not exceed the recommended dosage.",
-            kurdishText: "ڕادەی پێشنیارکراو تێمەپەڕێنە.", // dosage
+            kurdishText: "ڕادەی پێشنیارکراو تێمەپەڕێنە.",
             onPressedBritish: () => speakdosages1("en-GB"),
             onPressedAmerican: () => speakdosages1("en-US"),
           ),

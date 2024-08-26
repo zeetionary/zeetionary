@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """He had the effrontery to accuse me of lying!""",
             kurdishText:
-                """بێ‌ئابڕوویی ئەوەی ھەبوو کە بە درۆکردن تاوانبارم بکات.""", // effrontery
+                """بێ‌ئابڕوویی ئەوەی ھەبوو کە بە درۆکردن تاوانبارم بکات.""",
             onPressedBritish: () => speakeffronterys1("en-GB"),
             onPressedAmerican: () => speakeffronterys1("en-US"),
           ),

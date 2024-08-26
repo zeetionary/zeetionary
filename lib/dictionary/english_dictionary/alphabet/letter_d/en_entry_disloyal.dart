@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە بەوەفا نییت بەرامبەر ھاوڕێکانت، خێزانت، وڵاتەکەت، ھتد"),
           SentencesRow(
             englishText: "He was accused of being disloyal to the government.",
-            kurdishText:
-                "تاوانبارکرا بەوەی ناپاک بووە بەرامبەر بە حکومەت.", // disloyal
+            kurdishText: "تاوانبارکرا بەوەی ناپاک بووە بەرامبەر بە حکومەت.",
             onPressedBritish: () => speakdisloyals1("en-GB"),
             onPressedAmerican: () => speakdisloyals1("en-US"),
           ),

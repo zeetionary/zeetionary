@@ -391,8 +391,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The queen was jealous of Snow White and the Seven Dwarfs.""",
-            kurdishText:
-                """شاژن بەخیل بوو بە بەفرەسپی و حەوت کورتەباڵاکە.""", // dwarf
+            kurdishText: """شاژن بەخیل بوو بە بەفرەسپی و حەوت کورتەباڵاکە.""",
             onPressedBritish: () => speakdwarfs1("en-GB"),
             onPressedAmerican: () => speakdwarfs1("en-US"),
           ),

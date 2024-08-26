@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The two scientists have followed divergent paths since the 1990s.",
             kurdishText:
-                "دوو زاناکە بە ڕێگای جیاوازدا ڕۆشتوون لە ١٩٩٠ ـەکانەوە.", // divergent
+                "دوو زاناکە بە ڕێگای جیاوازدا ڕۆشتوون لە ١٩٩٠ ـەکانەوە.",
             onPressedBritish: () => speakdivergents1("en-GB"),
             onPressedAmerican: () => speakdivergents1("en-US"),
           ),

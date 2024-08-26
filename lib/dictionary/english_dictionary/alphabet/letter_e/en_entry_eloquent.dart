@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی"""),
           SentencesRow(
             englishText: """He grew very eloquent on the subject.""",
-            kurdishText: """زۆر زمان‌پاراو بوو لەسەر بابەتەکە.""", // eloquent
+            kurdishText: """زۆر زمان‌پاراو بوو لەسەر بابەتەکە.""",
             onPressedBritish: () => speakeloquents1("en-GB"),
             onPressedAmerican: () => speakeloquents1("en-US"),
           ),

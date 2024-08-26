@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Demonstrators succeeded in disrupting the meeting.",
             kurdishText:
-                "خۆپیشاندەران سەرکەوتوو بوون لە ڕێگری لە چاوپێکەوتنەکە.", // disrupt
+                "خۆپیشاندەران سەرکەوتوو بوون لە ڕێگری لە چاوپێکەوتنەکە.",
             onPressedBritish: () => speakdisrupts1("en-GB"),
             onPressedAmerican: () => speakdisrupts1("en-US"),
           ),

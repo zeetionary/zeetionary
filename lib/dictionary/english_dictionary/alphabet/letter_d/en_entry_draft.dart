@@ -420,7 +420,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نووسراوێک کە ھێشتا ئامادەی بڵاوکردنەوە نییە نییە و دەستکاری دیکەی دەوێت"),
           SentencesRow(
             englishText: "This is only the first draft of my speech.",
-            kurdishText: "ئەمە تەنھا یەکەم بەرنووسی وتارەکەمە.", // draft
+            kurdishText: "ئەمە تەنھا یەکەم بەرنووسی وتارەکەمە.",
             onPressedBritish: () => speakdrafts1("en-GB"),
             onPressedAmerican: () => speakdrafts1("en-US"),
           ),

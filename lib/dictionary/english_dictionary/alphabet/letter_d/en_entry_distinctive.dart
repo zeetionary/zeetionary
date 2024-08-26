@@ -371,8 +371,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The male bird has distinctive white markings on its head.",
-            kurdishText:
-                "باڵندە نێرینەکە خاڵی جیاکەرەوەی سپی ھەیە لەسەر سەری.", // distinctive
+            kurdishText: "باڵندە نێرینەکە خاڵی جیاکەرەوەی سپی ھەیە لەسەر سەری.",
             onPressedBritish: () => speakdistinctives1("en-GB"),
             onPressedAmerican: () => speakdistinctives1("en-US"),
           ),

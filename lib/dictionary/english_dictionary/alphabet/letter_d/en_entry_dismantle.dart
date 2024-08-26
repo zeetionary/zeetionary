@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "I had to dismantle the engine in order to repair it.",
             kurdishText:
-                "پێویست بوو بزوێنەرەکە ھەڵبوەشێنمەوە بۆ ئەوەی چاکی بکەمەوە.", // dismantle
+                "پێویست بوو بزوێنەرەکە ھەڵبوەشێنمەوە بۆ ئەوەی چاکی بکەمەوە.",
             onPressedBritish: () => speakdismantles1("en-GB"),
             onPressedAmerican: () => speakdismantles1("en-US"),
           ),

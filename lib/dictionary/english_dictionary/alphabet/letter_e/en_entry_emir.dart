@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """As a senior advisor, he has a degree of influence over the emir.""",
             kurdishText:
-                """وەک ڕاوێژکارێکی باڵا، ھەندێک کاریگەری لەسەر ئەمیرەکە ھەیە.""", // emir
+                """وەک ڕاوێژکارێکی باڵا، ھەندێک کاریگەری لەسەر ئەمیرەکە ھەیە.""",
             onPressedBritish: () => speakemirs1("en-GB"),
             onPressedAmerican: () => speakemirs1("en-US"),
           ),

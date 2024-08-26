@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) گۆڕینی کۆدێکی نووسراو بۆ زمانی ئاسایی"),
           SentencesRow(
             englishText: "I was involved in decoding enemy documents.",
-            kurdishText:
-                "بەژداربووم لە ئاشکراکردنی بەڵگەنامەکانی دوژمنان.", // decode
+            kurdishText: "بەژداربووم لە ئاشکراکردنی بەڵگەنامەکانی دوژمنان.",
             onPressedBritish: () => speakdecodes1("en-GB"),
             onPressedAmerican: () => speakdecodes1("en-US"),
           ),

@@ -260,7 +260,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "When he died, his family was left completely destitute.",
-            kurdishText: "کە مرد، خێزانەکەی تەواو ھەژار مایەوە.", // destitute
+            kurdishText: "کە مرد، خێزانەکەی تەواو ھەژار مایەوە.",
             onPressedBritish: () => speakdestitutes1("en-GB"),
             onPressedAmerican: () => speakdestitutes1("en-US"),
           ),

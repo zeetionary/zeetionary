@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The metric system decimalizes measurements for ease of use.",
             kurdishText:
-                "سیستەمی مەتری پێوانەکان دەگۆڕێتە سەر کەرتی دەیی بۆ ئاسانی بەکارھێنان.", // decimalize
+                "سیستەمی مەتری پێوانەکان دەگۆڕێتە سەر کەرتی دەیی بۆ ئاسانی بەکارھێنان.",
             onPressedBritish: () => speakdecimalizes1("en-GB"),
             onPressedAmerican: () => speakdecimalizes1("en-US"),
           ),

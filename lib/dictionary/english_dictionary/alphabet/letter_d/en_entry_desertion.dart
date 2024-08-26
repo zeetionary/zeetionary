@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) جێھێشتنی سوپا بەبێ مۆڵەت"),
           SentencesRow(
             englishText: "The army was badly affected by desertions.",
-            kurdishText: "سوپاکە خراپ کاریگەر بوو بە ھەڵھاتن.", // desertion
+            kurdishText: "سوپاکە خراپ کاریگەر بوو بە ھەڵھاتن.",
             onPressedBritish: () => speakdesertions1("en-GB"),
             onPressedAmerican: () => speakdesertions1("en-US"),
           ),

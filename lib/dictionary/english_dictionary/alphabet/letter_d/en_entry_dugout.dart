@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The dugouts were soon filled with mud that came up to the soldiers' ankles.""",
             kurdishText:
-                """ڕەھۆڵەکان زوو پڕبوون لە قوڕاو کە تاوەکو لاقی سەربازەکان ھاتن.""", // dugout
+                """ڕەھۆڵەکان زوو پڕبوون لە قوڕاو کە تاوەکو لاقی سەربازەکان ھاتن.""",
             onPressedBritish: () => speakdugouts1("en-GB"),
             onPressedAmerican: () => speakdugouts1("en-US"),
           ),

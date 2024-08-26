@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) نەبوونی بەشی پێویست لە شتێک"),
           SentencesRow(
             englishText: "Their food is deficient in iron.",
-            kurdishText: "خواردنەوەکەیان کەمی ئاسنی ھەیە.", // deficient
+            kurdishText: "خواردنەوەکەیان کەمی ئاسنی ھەیە.",
             onPressedBritish: () => speakdeficients1("en-GB"),
             onPressedAmerican: () => speakdeficients1("en-US"),
           ),

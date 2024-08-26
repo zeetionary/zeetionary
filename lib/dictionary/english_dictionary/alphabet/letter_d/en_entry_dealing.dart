@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) چالاکی بازرگانی"),
           SentencesRow(
             englishText: "I knew nothing of his business dealings.",
-            kurdishText:
-                "ھیچم لەسەر چالاکییە بازرگانییەکانی نەدەزانی.", // dealing
+            kurdishText: "ھیچم لەسەر چالاکییە بازرگانییەکانی نەدەزانی.",
             onPressedBritish: () => speakdealings1("en-GB"),
             onPressedAmerican: () => speakdealings1("en-US"),
           ),

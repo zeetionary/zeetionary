@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Credit cards eliminate the need to carry a lot of cash.""",
             kurdishText:
-                """کرێدیت کارد ئەو پێویستییە ناھێڵن کە ڕێژەیەکی زۆر کاش ھەڵبگریت.""", // eliminate
+                """کرێدیت کارد ئەو پێویستییە ناھێڵن کە ڕێژەیەکی زۆر کاش ھەڵبگریت.""",
             onPressedBritish: () => speakeliminates1("en-GB"),
             onPressedAmerican: () => speakeliminates1("en-US"),
           ),

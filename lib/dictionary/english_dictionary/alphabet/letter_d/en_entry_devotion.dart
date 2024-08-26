@@ -283,8 +283,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) خۆشەویستی، پشتیوانی، یان چاودێری زۆر بۆ کەسێک/شتێک"),
           SentencesRow(
             englishText: "His devotion to his wife and family is touching.",
-            kurdishText:
-                "خۆبەخشینەکەی بە ژن و خێزانەکەی کارتێ‌کەرە.", // devotion
+            kurdishText: "خۆبەخشینەکەی بە ژن و خێزانەکەی کارتێ‌کەرە.",
             onPressedBritish: () => speakdevotions1("en-GB"),
             onPressedAmerican: () => speakdevotions1("en-US"),
           ),

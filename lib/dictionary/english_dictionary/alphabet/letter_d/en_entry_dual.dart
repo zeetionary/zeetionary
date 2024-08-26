@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She has dual nationality (= is a citizen of two different countries).",
-            kurdishText: "دوو ڕەگەزنامەی ھەیە.", // dual
+            kurdishText: "دوو ڕەگەزنامەی ھەیە.",
             onPressedBritish: () => speakduals1("en-GB"),
             onPressedAmerican: () => speakduals1("en-US"),
           ),

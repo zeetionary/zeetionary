@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The definitive version of the text is ready to be published.",
-            kurdishText:
-                "کۆتا وەشانی ئەم نووسینە ئامادەیە بۆ بڵاوکردنەوە.", // definitive
+            kurdishText: "کۆتا وەشانی ئەم نووسینە ئامادەیە بۆ بڵاوکردنەوە.",
             onPressedBritish: () => speakdefinitives1("en-GB"),
             onPressedAmerican: () => speakdefinitives1("en-US"),
           ),

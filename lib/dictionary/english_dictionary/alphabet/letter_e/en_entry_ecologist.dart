@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The ecologist studied the rainforest's biodiversity.""",
             kurdishText:
-                """ژینگەناسەکە لێکۆڵینەوەی لە ھەمەچەشنیی دارستانە باراناوییەکە دەکرد.""", // ecologist
+                """ژینگەناسەکە لێکۆڵینەوەی لە ھەمەچەشنیی دارستانە باراناوییەکە دەکرد.""",
             onPressedBritish: () => speakecologists1("en-GB"),
             onPressedAmerican: () => speakecologists1("en-US"),
           ),

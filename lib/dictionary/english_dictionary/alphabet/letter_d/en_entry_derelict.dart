@@ -258,7 +258,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە چۆڵکراوە و لە دۆخێکی خراپدایە"),
           SentencesRow(
             englishText: "The canal has been derelict for many years.",
-            kurdishText: "کەناڵەکە بۆ چەندین ساڵ دەبێت بێ‌خاوەنە.", // derelict
+            kurdishText: "کەناڵەکە بۆ چەندین ساڵ دەبێت بێ‌خاوەنە.",
             onPressedBritish: () => speakderelicts1("en-GB"),
             onPressedAmerican: () => speakderelicts1("en-US"),
           ),

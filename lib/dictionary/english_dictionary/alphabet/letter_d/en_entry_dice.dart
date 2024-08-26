@@ -255,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "You decide who’s going to start by throwing the dice.",
             kurdishText:
-                "بڕیار لەسەر ئەوە دەدەیت کە کێ دەست بە یارییەکە بکات بە فڕێدانی زارەکە.", // dice
+                "بڕیار لەسەر ئەوە دەدەیت کە کێ دەست بە یارییەکە بکات بە فڕێدانی زارەکە.",
             onPressedBritish: () => speakdices1("en-GB"),
             onPressedAmerican: () => speakdices1("en-US"),
           ),

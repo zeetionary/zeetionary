@@ -179,8 +179,7 @@ class EnglishEntrybutchery extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "When are they going to put an end to this butchery?",
-                            kurdishText:
-                                "کەی کۆتایی بەم خوێنڕێژییە دێنن؟", // butchery", follow LX strictly
+                            kurdishText: "کەی کۆتایی بەم خوێنڕێژییە دێنن؟",
                             onPressedBritish: () => speakbutcherys1("en-GB"),
                             onPressedAmerican: () => speakbutcherys1("en-US"),
                           ),

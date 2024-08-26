@@ -177,8 +177,7 @@ class EnglishEntrybye extends StatelessWidget {
                               text: "١. (سەرسوڕمان) بۆ ماڵاوایی کردن"),
                           SentencesRow(
                             englishText: "Bye! See you next week.",
-                            kurdishText:
-                                "بای! ھەفتەی داھاتوو دەتبینمەوە.", // bye", follow LX strictly
+                            kurdishText: "بای! ھەفتەی داھاتوو دەتبینمەوە.",
                             onPressedBritish: () => speakbyes1("en-GB"),
                             onPressedAmerican: () => speakbyes1("en-US"),
                           ),

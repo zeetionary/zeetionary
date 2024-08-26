@@ -180,7 +180,7 @@ class EnglishEntrybuttercup extends StatelessWidget {
                             englishText:
                                 "Children enjoy picking buttercups in spring.",
                             kurdishText:
-                                "منداڵان حەزیان لە چنینی گوڵە مێلاقەیە لە بەھاردا.", // buttercup", follow LX strictly
+                                "منداڵان حەزیان لە چنینی گوڵە مێلاقەیە لە بەھاردا.",
                             onPressedBritish: () => speakbuttercups1("en-GB"),
                             onPressedAmerican: () => speakbuttercups1("en-US"),
                           ),

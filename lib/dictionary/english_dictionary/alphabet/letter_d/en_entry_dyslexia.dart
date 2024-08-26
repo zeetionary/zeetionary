@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) دۆخێک کە کاریگەری لەسەر مێشک دەبێت کە کێشە درووست دەکات بۆ خوێندنەوە و نووسین، بەڵام کاریگەریی لەسەر زیرەکی نابێت"""),
           SentencesRow(
             englishText: """Many successful people have dyslexia.""",
-            kurdishText:
-                """زۆر لە کەسانی سەرکەوتوو دیسلێکسیایان ھەیە.""", // dyslexia
+            kurdishText: """زۆر لە کەسانی سەرکەوتوو دیسلێکسیایان ھەیە.""",
             onPressedBritish: () => speakdyslexias1("en-GB"),
             onPressedAmerican: () => speakdyslexias1("en-US"),
           ),

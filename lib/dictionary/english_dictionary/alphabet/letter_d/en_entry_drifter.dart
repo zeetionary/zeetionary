@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە لە کارێکەوە بۆ کارێکی دیکە، یان شوێنێک بۆ شوێنێکی دیکە دەچێت بەبێ ئامانجێکی دیاریکراو"),
           SentencesRow(
             englishText: "As a young man he had been a romantic and a drifter.",
-            kurdishText:
-                "وەک پیاوێکی گەنج ئاشق و سەرلێ‌شێواوێک بوو.", // drifter
+            kurdishText: "وەک پیاوێکی گەنج ئاشق و سەرلێ‌شێواوێک بوو.",
             onPressedBritish: () => speakdrifters1("en-GB"),
             onPressedAmerican: () => speakdrifters1("en-US"),
           ),

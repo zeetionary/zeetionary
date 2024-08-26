@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دڵۆپە ئاوێک کە شەوان درووست دەبێت؛ دڵۆپەی شلەیەک"),
           SentencesRow(
             englishText: "The flower petals were covered in dewdrops.",
-            kurdishText: "پەڕەی گوڵەکان بە تنۆکە شەونم داپۆشرابوون.", // dewdrop
+            kurdishText: "پەڕەی گوڵەکان بە تنۆکە شەونم داپۆشرابوون.",
             onPressedBritish: () => speakdewdrops1("en-GB"),
             onPressedAmerican: () => speakdewdrops1("en-US"),
           ),

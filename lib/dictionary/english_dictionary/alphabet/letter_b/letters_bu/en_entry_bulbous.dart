@@ -136,8 +136,7 @@ class EnglishEntrybulbous extends StatelessWidget {
                                   """١. (ناو) لە شێوەی سەلکە ڕووەکێکدا؛ خڕ و قەڵەو بەشێوەیەکی ناشرین"""),
                           SentencesRow(
                             englishText: "He had a huge, bulbous nose.",
-                            kurdishText:
-                                "لووتێکی گەورەی سەلک‌ئاسا بوو.", // bulbous", follow LX strictly
+                            kurdishText: "لووتێکی گەورەی سەلک‌ئاسا بوو.",
                             onPressedBritish: () => speakbulbouss1("en-GB"),
                             onPressedAmerican: () => speakbulbouss1("en-US"),
                           ),

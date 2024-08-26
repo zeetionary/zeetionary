@@ -180,7 +180,7 @@ class EnglishEntrybutt extends StatelessWidget {
                           SentencesRow(
                             englishText: "The goat butted the door to open it.",
                             kurdishText:
-                                "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە.", // butt", follow LX strictly
+                                "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە.",
                             onPressedBritish: () => speakbutts1("en-GB"),
                             onPressedAmerican: () => speakbutts1("en-US"),
                           ),

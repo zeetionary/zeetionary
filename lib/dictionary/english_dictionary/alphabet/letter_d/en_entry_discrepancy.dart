@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "What are the reasons for the discrepancy between girls' and boys' performance in school?",
             kurdishText:
-                "ھۆکارەکان چییە بۆ جیاوازیی نێوان ئاستی کچان و کوڕان و لە قوتابخانە؟", // discrepancy
+                "ھۆکارەکان چییە بۆ جیاوازیی نێوان ئاستی کچان و کوڕان و لە قوتابخانە؟",
             onPressedBritish: () => speakdiscrepancys1("en-GB"),
             onPressedAmerican: () => speakdiscrepancys1("en-US"),
           ),

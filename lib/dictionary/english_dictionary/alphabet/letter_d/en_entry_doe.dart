@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The doe and her fawn grazed peacefully in the meadow.",
             kurdishText:
-                "ئاسکەمێوەکە و بەچکەکەی بە بێ‌دەنگی لە مێرگەکە دەلەوەڕان.", // doe
+                "ئاسکەمێوەکە و بەچکەکەی بە بێ‌دەنگی لە مێرگەکە دەلەوەڕان.",
             onPressedBritish: () => speakdoes1("en-GB"),
             onPressedAmerican: () => speakdoes1("en-US"),
           ),

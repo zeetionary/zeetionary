@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "It is a powerful story written by a great dramatist.",
             kurdishText:
-                "چیرۆکێکی بەھێزە کە لەلایەن شانۆنووسێکی مەزنەوە نووسراوە.", // dramatist
+                "چیرۆکێکی بەھێزە کە لەلایەن شانۆنووسێکی مەزنەوە نووسراوە.",
             onPressedBritish: () => speakdramatists1("en-GB"),
             onPressedAmerican: () => speakdramatists1("en-US"),
           ),

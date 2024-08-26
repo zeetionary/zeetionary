@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She placed the wet dishes on the draining board to dry.",
             kurdishText:
-                "قاپ‌وقاچاغە تەڕەکەی لەسەر ئاوەچۆڕگەکە دانا بۆ وشکبوونەوە.", // draining board
+                "قاپ‌وقاچاغە تەڕەکەی لەسەر ئاوەچۆڕگەکە دانا بۆ وشکبوونەوە.",
             onPressedBritish: () => speakdrainingboards1("en-GB"),
             onPressedAmerican: () => speakdrainingboards1("en-US"),
           ),

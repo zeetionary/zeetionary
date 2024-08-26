@@ -268,7 +268,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) پاراستنی کەسێک/شتێک دژ بە ھێرش"),
           SentencesRow(
             englishText: "These are purely defensive measures.",
-            kurdishText: "ئەمانە تەنھا ھەنگاوی خۆپارێزین.", // defensive
+            kurdishText: "ئەمانە تەنھا ھەنگاوی خۆپارێزین.",
             onPressedBritish: () => speakdefensives1("en-GB"),
             onPressedAmerican: () => speakdefensives1("en-US"),
           ),

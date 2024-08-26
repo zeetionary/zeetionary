@@ -183,7 +183,7 @@ class EnglishEntrybuoy extends StatelessWidget {
                             englishText:
                                 "A series of buoys marked the underwater cable route to prevent accidental damage by boats.",
                             kurdishText:
-                                "ژمارەیەک تۆپەی سەراوکەوتە شوێنی کێبڵە ژێر دەریاییەکانیان دەستنیشان دەکرد بۆ ڕێگری لە زیانی بەڕێکەوت لەلایەن بەلەمەکانەوە.", // buoy", follow LX strictly
+                                "ژمارەیەک تۆپەی سەراوکەوتە شوێنی کێبڵە ژێر دەریاییەکانیان دەستنیشان دەکرد بۆ ڕێگری لە زیانی بەڕێکەوت لەلایەن بەلەمەکانەوە.",
                             onPressedBritish: () => speakbuoys1("en-GB"),
                             onPressedAmerican: () => speakbuoys1("en-US"),
                           ),

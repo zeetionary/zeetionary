@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Emergency teams are still clearing the debris from the plane crash.",
             kurdishText:
-                "تیمەکانی فریاگوزاری ھێشتا پاشماوەی تێکشکانی فڕۆکەکە پاکدەکەنەوە.", // debris
+                "تیمەکانی فریاگوزاری ھێشتا پاشماوەی تێکشکانی فڕۆکەکە پاکدەکەنەوە.",
             onPressedBritish: () => speakdebriss1("en-GB"),
             onPressedAmerican: () => speakdebriss1("en-US"),
           ),

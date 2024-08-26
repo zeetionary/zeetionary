@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Climate was a decisive factor in establishing where the tournament should be held.",
             kurdishText:
-                "ئاووھەوا فاکتەرێکی یەکلاکەرەوە بوو لە بڕیردانی ئەوەی لە کوێ پێشبڕکێیەکە ڕێکبخرێت.", // decisive
+                "ئاووھەوا فاکتەرێکی یەکلاکەرەوە بوو لە بڕیردانی ئەوەی لە کوێ پێشبڕکێیەکە ڕێکبخرێت.",
             onPressedBritish: () => speakdecisives1("en-GB"),
             onPressedAmerican: () => speakdecisives1("en-US"),
           ),

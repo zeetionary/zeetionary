@@ -138,7 +138,7 @@ class EnglishEntrybulldoze extends StatelessWidget {
                             englishText:
                                 "The trees are being bulldozed to make way for a new factory.",
                             kurdishText:
-                                "دارەکان خاکماڵ دەکرێن بۆ درووستکردنی ڕێگا بۆ کارگەیەکی تازە.", // bulldoze", follow LX strictly
+                                "دارەکان خاکماڵ دەکرێن بۆ درووستکردنی ڕێگا بۆ کارگەیەکی تازە.",
                             onPressedBritish: () => speakbulldozes1("en-GB"),
                             onPressedAmerican: () => speakbulldozes1("en-US"),
                           ),

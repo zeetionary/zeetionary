@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) مەترسی"),
           SentencesRow(
             englishText: "Danger! Keep Out!",
-            kurdishText: "مەترسی! خۆت بپارێزە!", // danger
+            kurdishText: "مەترسی! خۆت بپارێزە!",
             onPressedBritish: () => speakdangers1("en-GB"),
             onPressedAmerican: () => speakdangers1("en-US"),
           ),

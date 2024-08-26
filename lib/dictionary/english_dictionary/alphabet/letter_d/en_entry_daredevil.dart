@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Despite the risks, the daredevil was determined to break the record.",
             kurdishText:
-                "سەرەڕای مەترسییەکان، سەرکێشەکە سوور بوو لەسەر ئەوەی ڕیکۆردەکە بشکێنێت.", // daredevil
+                "سەرەڕای مەترسییەکان، سەرکێشەکە سوور بوو لەسەر ئەوەی ڕیکۆردەکە بشکێنێت.",
             onPressedBritish: () => speakdaredevils1("en-GB"),
             onPressedAmerican: () => speakdaredevils1("en-US"),
           ),

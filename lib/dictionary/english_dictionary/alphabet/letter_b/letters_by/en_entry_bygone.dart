@@ -179,8 +179,7 @@ class EnglishEntrybygone extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The horse and cart belongs to a bygone era.",
-                            kurdishText:
-                                "ئەسپ و عارەبانە سەر بە سەردەمی کۆنە.", // bygone", follow LX strictly
+                            kurdishText: "ئەسپ و عارەبانە سەر بە سەردەمی کۆنە.",
                             onPressedBritish: () => speakbygones1("en-GB"),
                             onPressedAmerican: () => speakbygones1("en-US"),
                           ),

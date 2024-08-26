@@ -506,7 +506,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The sack is too heavy to lift—you’ll have to drag it.",
             kurdishText:
-                "فەردەکە زۆر قوورسە تا بەرزی بکەیتەوە ـ دەبێت ڕایبکێشیت.", // drag
+                "فەردەکە زۆر قوورسە تا بەرزی بکەیتەوە ـ دەبێت ڕایبکێشیت.",
             onPressedBritish: () => speakdrags1("en-GB"),
             onPressedAmerican: () => speakdrags1("en-US"),
           ),

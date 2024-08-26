@@ -359,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئەوەی ماندوێتییت ھەیە و دەتەوێت بخەویت"),
           SentencesRow(
             englishText: "The drugs tend to cause drowsiness.",
-            kurdishText:
-                "دەرمانەکان زۆرجار دەبنە ھۆکاری خەواڵووی.", // drowsiness
+            kurdishText: "دەرمانەکان زۆرجار دەبنە ھۆکاری خەواڵووی.",
             onPressedBritish: () => speakdrowsinesss1("en-GB"),
             onPressedAmerican: () => speakdrowsinesss1("en-US"),
           ),

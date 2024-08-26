@@ -248,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The bishop made an angry denunciation of the government's policies.",
-            kurdishText:
-                "قەشەکە سەرکۆنەی توندی سیاسەتەکانی حکومەتی کرد.", // denunciation
+            kurdishText: "قەشەکە سەرکۆنەی توندی سیاسەتەکانی حکومەتی کرد.",
             onPressedBritish: () => speakdenunciations1("en-GB"),
             onPressedAmerican: () => speakdenunciations1("en-US"),
           ),

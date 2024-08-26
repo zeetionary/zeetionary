@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The damson tree in their garden yielded a bountiful harvest this year.",
-            kurdishText:
-                "دار ھەڵووژەی باخچەکەیان ئەمساڵ بەرھەمی زۆری ھێنا.", // damson
+            kurdishText: "دار ھەڵووژەی باخچەکەیان ئەمساڵ بەرھەمی زۆری ھێنا.",
             onPressedBritish: () => speakdamsons1("en-GB"),
             onPressedAmerican: () => speakdamsons1("en-US"),
           ),

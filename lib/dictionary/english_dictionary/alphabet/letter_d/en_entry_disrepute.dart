@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The players' behaviour on the field is likely to bring the game into disrepute.",
             kurdishText:
-                "ڕەفتاری یاریزانەکان ئەگەری ھەیە لە ڕێزی یارییەکە کەم بکاتەوە.", // disrepute
+                "ڕەفتاری یاریزانەکان ئەگەری ھەیە لە ڕێزی یارییەکە کەم بکاتەوە.",
             onPressedBritish: () => speakdisreputes1("en-GB"),
             onPressedAmerican: () => speakdisreputes1("en-US"),
           ),

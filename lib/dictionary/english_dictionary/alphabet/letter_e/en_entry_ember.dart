@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) پارچە دارێک کە ئاگری پێوە نییە بەڵام ھێشتا سوور و گەرمە"""),
           SentencesRow(
             englishText: """Only the embers of the fire remained.""",
-            kurdishText: """تەنھا پۆڵووی ئاگرەکە مایەوە.""", // ember
+            kurdishText: """تەنھا پۆڵووی ئاگرەکە مایەوە.""",
             onPressedBritish: () => speakembers1("en-GB"),
             onPressedAmerican: () => speakembers1("en-US"),
           ),

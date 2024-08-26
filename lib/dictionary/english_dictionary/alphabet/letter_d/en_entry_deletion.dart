@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) سڕینەوەی شتێک کە نووسراوە یان چاپکراوە، یان کە لەسەر کۆمپیوتەرێک کۆگا کراوە؛ شتێک کە سڕدراوەتەوە"),
           SentencesRow(
             englishText: "He made several deletions to the manuscript.",
-            kurdishText:
-                "ژمارەیەک سڕینەوەی لە بەڵگەنامەکە ئەنجامدا.", // deletion
+            kurdishText: "ژمارەیەک سڕینەوەی لە بەڵگەنامەکە ئەنجامدا.",
             onPressedBritish: () => speakdeletions1("en-GB"),
             onPressedAmerican: () => speakdeletions1("en-US"),
           ),

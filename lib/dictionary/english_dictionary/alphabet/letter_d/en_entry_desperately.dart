@@ -250,8 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بە ناچاری"),
           SentencesRow(
             englishText: "She looked desperately around for a weapon.",
-            kurdishText:
-                "باناچاری سەیری دورووبەری دەکرد بۆ چەکێک.", // desperately
+            kurdishText: "باناچاری سەیری دورووبەری دەکرد بۆ چەکێک.",
             onPressedBritish: () => speakdesperatelys1("en-GB"),
             onPressedAmerican: () => speakdesperatelys1("en-US"),
           ),

@@ -381,8 +381,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """There are extra flights to Colorado during the winter.""",
-            kurdishText:
-                """گەشتی زیاتر ھەن بۆ کۆلۆرادۆ لە ماوەی زستاندا.""", // during
+            kurdishText: """گەشتی زیاتر ھەن بۆ کۆلۆرادۆ لە ماوەی زستاندا.""",
             onPressedBritish: () => speakdurings1("en-GB"),
             onPressedAmerican: () => speakdurings1("en-US"),
           ),

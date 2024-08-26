@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە لاشە و دەروونی کەسێک لاواز دەکات"),
           SentencesRow(
             englishText: "She found the heat debilitating.",
-            kurdishText: "گەرمییەکەی بە لاوازکەر دەبینی.", // debilitating
+            kurdishText: "گەرمییەکەی بە لاوازکەر دەبینی.",
             onPressedBritish: () => speakdebilitatings1("en-GB"),
             onPressedAmerican: () => speakdebilitatings1("en-US"),
           ),

@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The mayor agreed to receive a deputation of local residents.",
             kurdishText:
-                "سەرۆک شارەوانییەکە پێشوازیی لە شاندێکی ھاوڵاتییە خۆجێیەکان کرد.", // deputation
+                "سەرۆک شارەوانییەکە پێشوازیی لە شاندێکی ھاوڵاتییە خۆجێیەکان کرد.",
             onPressedBritish: () => speakdeputations1("en-GB"),
             onPressedAmerican: () => speakdeputations1("en-US"),
           ),

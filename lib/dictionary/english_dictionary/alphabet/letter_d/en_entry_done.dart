@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە تەواو بووە"),
           SentencesRow(
             englishText: "When you're done, perhaps I can say something.",
-            kurdishText: "کە تەواو بووین، ڕەنگە بتوانم شتێک بڵێم.", // done
+            kurdishText: "کە تەواو بووین، ڕەنگە بتوانم شتێک بڵێم.",
             onPressedBritish: () => speakdones1("en-GB"),
             onPressedAmerican: () => speakdones1("en-US"),
           ),

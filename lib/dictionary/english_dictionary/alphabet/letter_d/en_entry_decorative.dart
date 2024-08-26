@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە ڕازێندراوەتەوە، یان مەبەست لێی ئەوەیە ڕازاوە بێت"),
           SentencesRow(
             englishText: "The mirror is functional yet decorative.",
-            kurdishText:
-                "ئاوێنەکە ئەرکەکەی بەجێدێنێت و لەگەڵیدا ڕازاوەشە.", // decorative
+            kurdishText: "ئاوێنەکە ئەرکەکەی بەجێدێنێت و لەگەڵیدا ڕازاوەشە.",
             onPressedBritish: () => speakdecoratives1("en-GB"),
             onPressedAmerican: () => speakdecoratives1("en-US"),
           ),

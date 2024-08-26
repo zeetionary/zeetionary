@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "His decapitated body was found floating in a canal.",
             kurdishText:
-                "لاشە سەربڕدراوەکەی دۆزرایەوە کە سەرئاوکەوتبوو لە کەناڵەکەدا.", // decapitate
+                "لاشە سەربڕدراوەکەی دۆزرایەوە کە سەرئاوکەوتبوو لە کەناڵەکەدا.",
             onPressedBritish: () => speakdecapitates1("en-GB"),
             onPressedAmerican: () => speakdecapitates1("en-US"),
           ),

@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The metal container began to emit a clicking sound.""",
             kurdishText:
-                """کاسە پۆڵایینەکە دەستیکرد بە درووستکردنی دەنگێکی تیکەتیک.""", // emit
+                """کاسە پۆڵایینەکە دەستیکرد بە درووستکردنی دەنگێکی تیکەتیک.""",
             onPressedBritish: () => speakemits1("en-GB"),
             onPressedAmerican: () => speakemits1("en-US"),
           ),

@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She needed a special dispensation to remarry.",
             kurdishText:
-                "پێویستی بە مۆڵەتێکی تایبەت بوو بۆ دووبارە پێکھێنانی ھاوسەرگیری.", // dispensation
+                "پێویستی بە مۆڵەتێکی تایبەت بوو بۆ دووبارە پێکھێنانی ھاوسەرگیری.",
             onPressedBritish: () => speakdispensations1("en-GB"),
             onPressedAmerican: () => speakdispensations1("en-US"),
           ),

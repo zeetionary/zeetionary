@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ناوزڕاندن یان لەکەدارکردن بە گوتنی شتی خراپ یان ناڕاست لەسەر کەسێک"),
           SentencesRow(
             englishText: "The company sued for defamation.",
-            kurdishText: "کۆمپانیاکە سکاڵای بۆ ناوزڕاندن کرد.", // defamation
+            kurdishText: "کۆمپانیاکە سکاڵای بۆ ناوزڕاندن کرد.",
             onPressedBritish: () => speakdefamations1("en-GB"),
             onPressedAmerican: () => speakdefamations1("en-US"),
           ),

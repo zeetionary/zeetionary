@@ -266,8 +266,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 " I was the only person on deck at that time of night.",
-            kurdishText:
-                "تەنھا کەس بووم لەسەر پشتی کەشتییەکە لەو کاتەی شەودا.", // deck
+            kurdishText: "تەنھا کەس بووم لەسەر پشتی کەشتییەکە لەو کاتەی شەودا.",
             onPressedBritish: () => speakdecks1("en-GB"),
             onPressedAmerican: () => speakdecks1("en-US"),
           ),

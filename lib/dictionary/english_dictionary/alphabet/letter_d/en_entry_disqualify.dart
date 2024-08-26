@@ -248,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He was disqualified from the competition for using drugs.",
-            kurdishText:
-                "لە پێشبڕکێیەکە بێبەشکرا بەھۆی بەکارھێنانی دەرمان.", // disqualify
+            kurdishText: "لە پێشبڕکێیەکە بێبەشکرا بەھۆی بەکارھێنانی دەرمان.",
             onPressedBritish: () => speakdisqualifys1("en-GB"),
             onPressedAmerican: () => speakdisqualifys1("en-US"),
           ),

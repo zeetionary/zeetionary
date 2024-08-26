@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) ھەڕەشە و ھێز کە کە وا لە کەسێک دەکات شتێک بکات"""),
           SentencesRow(
             englishText: """He signed the confession under duress.""",
-            kurdishText: """دانپێدانانەکەی لەژێر ھەڕەشەدا واژۆکرد.""", // duress
+            kurdishText: """دانپێدانانەکەی لەژێر ھەڕەشەدا واژۆکرد.""",
             onPressedBritish: () => speakduresss1("en-GB"),
             onPressedAmerican: () => speakduresss1("en-US"),
           ),

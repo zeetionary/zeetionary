@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) دوودڵبوون لەوەی چی دەکەیت چونکە ناتوانیت بڕیار بدەیت"),
           SentencesRow(
             englishText: "Stop dithering and get on with it.",
-            kurdishText: "واز لە دوودڵی بێنە و دەستی پێبکە.", // dither
+            kurdishText: "واز لە دوودڵی بێنە و دەستی پێبکە.",
             onPressedBritish: () => speakdithers1("en-GB"),
             onPressedAmerican: () => speakdithers1("en-US"),
           ),

@@ -256,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر دژوار"),
           SentencesRow(
             englishText: "They were living in dire poverty.",
-            kurdishText: "لە ھەژاریی دژواردا دەژیان.", // dire
+            kurdishText: "لە ھەژاریی دژواردا دەژیان.",
             onPressedBritish: () => speakdires1("en-GB"),
             onPressedAmerican: () => speakdires1("en-US"),
           ),

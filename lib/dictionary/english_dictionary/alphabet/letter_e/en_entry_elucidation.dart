@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Their objectives and methods require further elucidation.""",
-            kurdishText:
-                """ئامانج و ڕێگاکان پێویستییان بە ڕوونکردنەوەیە.""", // elucidation
+            kurdishText: """ئامانج و ڕێگاکان پێویستییان بە ڕوونکردنەوەیە.""",
             onPressedBritish: () => speakelucidations1("en-GB"),
             onPressedAmerican: () => speakelucidations1("en-US"),
           ),

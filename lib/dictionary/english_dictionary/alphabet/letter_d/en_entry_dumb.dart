@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵناو) گەمژە"""),
           SentencesRow(
             englishText: """That was a pretty dumb thing to do.""",
-            kurdishText: """شتێکی گەمژانە بوو بیکەیت.""", // dumb
+            kurdishText: """شتێکی گەمژانە بوو بیکەیت.""",
             onPressedBritish: () => speakdumbs1("en-GB"),
             onPressedAmerican: () => speakdumbs1("en-US"),
           ),

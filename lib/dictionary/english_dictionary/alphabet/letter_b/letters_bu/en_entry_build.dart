@@ -274,8 +274,7 @@ class EnglishEntrybuild extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They have permission to build 200 new homes.",
-                            kurdishText:
-                                "مۆڵەتی درووستکردنی ٢٠٠ ماڵیان ھەیە.", // build", follow LX strictly
+                            kurdishText: "مۆڵەتی درووستکردنی ٢٠٠ ماڵیان ھەیە.",
                             onPressedBritish: () => speakbuilds1("en-GB"),
                             onPressedAmerican: () => speakbuilds1("en-US"),
                           ),

@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) خەواڵووانە؛ بەشێوەیەک کە ماندوو دیاریت و دەتەوێت بخەویت"),
           SentencesRow(
             englishText: "She yawned drowsily.",
-            kurdishText: "خەواڵووانە باوێشکی دا.", // drowsily
+            kurdishText: "خەواڵووانە باوێشکی دا.",
             onPressedBritish: () => speakdrowsilys1("en-GB"),
             onPressedAmerican: () => speakdrowsilys1("en-US"),
           ),

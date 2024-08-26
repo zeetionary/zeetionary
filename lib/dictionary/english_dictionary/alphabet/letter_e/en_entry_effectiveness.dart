@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """They don't have information yet to evaluate the effectiveness of those programmes.""",
             kurdishText:
-                """ھێشتا زانیارییان نییە تاوەکو کاریگەری ئەو پڕۆگرامانە ھەڵبسەنگێنن.""", // effectiveness
+                """ھێشتا زانیارییان نییە تاوەکو کاریگەری ئەو پڕۆگرامانە ھەڵبسەنگێنن.""",
             onPressedBritish: () => speakeffectivenesss1("en-GB"),
             onPressedAmerican: () => speakeffectivenesss1("en-US"),
           ),

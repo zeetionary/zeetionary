@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) گۆشتی نەرمی خوارەوەی گوێ"""),
           SentencesRow(
             englishText: """She pierced her earlobe for earrings.""",
-            kurdishText: """نەرمێنەی گوێی بۆ گوارە کون کرد.""", // earlobe
+            kurdishText: """نەرمێنەی گوێی بۆ گوارە کون کرد.""",
             onPressedBritish: () => speakearlobes1("en-GB"),
             onPressedAmerican: () => speakearlobes1("en-US"),
           ),

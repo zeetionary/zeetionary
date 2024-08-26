@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He was an O'Conor and a direct descendant of the last High King of Ireland.",
             kurdishText:
-                "سەر بە ئۆکۆنەر بوو و نەوەی ڕاستەوخۆی کۆتا پاشای ئێرلەندا بوو.", // descendant
+                "سەر بە ئۆکۆنەر بوو و نەوەی ڕاستەوخۆی کۆتا پاشای ئێرلەندا بوو.",
             onPressedBritish: () => speakdescendants1("en-GB"),
             onPressedAmerican: () => speakdescendants1("en-US"),
           ),

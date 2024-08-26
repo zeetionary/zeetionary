@@ -241,8 +241,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The deal will not be disadvantageous to your company.",
-            kurdishText:
-                "ڕێکەوتنەکە زیانبەخش نابێت بۆ کۆمپانیاکەت.", // disadvantageous
+            kurdishText: "ڕێکەوتنەکە زیانبەخش نابێت بۆ کۆمپانیاکەت.",
             onPressedBritish: () => speakdisadvantageouss1("en-GB"),
             onPressedAmerican: () => speakdisadvantageouss1("en-US"),
           ),

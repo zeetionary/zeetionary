@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ڕەفتاری بێڕێزانە"),
           SentencesRow(
             englishText: "They felt they had been treated with discourtesy.",
-            kurdishText:
-                "وایان ھەست دەکرد بە بێڕێزی مامەڵەیان لەگەڵ کراوە.", // discourtesy
+            kurdishText: "وایان ھەست دەکرد بە بێڕێزی مامەڵەیان لەگەڵ کراوە.",
             onPressedBritish: () => speakdiscourtesys1("en-GB"),
             onPressedAmerican: () => speakdiscourtesys1("en-US"),
           ),

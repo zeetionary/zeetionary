@@ -369,8 +369,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک یان کۆمپانیایەک کە کەلوپەل بەسەر فرۆشگا، ھتد ــدا دابەش دەکات"),
           SentencesRow(
             englishText: "They are Japan's largest software distributor.",
-            kurdishText:
-                "گەورەترین دابەشکاری نەرمامێرن لە ژاپۆن.", // distributor
+            kurdishText: "گەورەترین دابەشکاری نەرمامێرن لە ژاپۆن.",
             onPressedBritish: () => speakdistributors1("en-GB"),
             onPressedAmerican: () => speakdistributors1("en-US"),
           ),

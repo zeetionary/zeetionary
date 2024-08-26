@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "It's the unrelieved drabness of big industrial cities that depresses me.",
             kurdishText:
-                "ئەوە ناخۆشی بەردەوامی شارە پیشەسازییە گەورەکانە کە بێزارم دەکات.", // drabness
+                "ئەوە ناخۆشی بەردەوامی شارە پیشەسازییە گەورەکانە کە بێزارم دەکات.",
             onPressedBritish: () => speakdrabnesss1("en-GB"),
             onPressedAmerican: () => speakdrabnesss1("en-US"),
           ),

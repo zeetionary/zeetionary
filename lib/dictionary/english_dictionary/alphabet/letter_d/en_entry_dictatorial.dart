@@ -255,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He still remembers the dictatorial reign of Stalin's last years.",
             kurdishText:
-                "ھێشتا کۆتا ساڵەکانی ماوەی دیکتاتۆریەتیی ستالینی لەبیرە.", // dictatorial
+                "ھێشتا کۆتا ساڵەکانی ماوەی دیکتاتۆریەتیی ستالینی لەبیرە.",
             onPressedBritish: () => speakdictatorials1("en-GB"),
             onPressedAmerican: () => speakdictatorials1("en-US"),
           ),

@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Throughout his trial he maintained a dignified silence.",
-            kurdishText:
-                "بەدرێژایی دادگاییەکەی بێدەنگییەکی بەشەوکەتی ڕاگرت.", // dignified
+            kurdishText: "بەدرێژایی دادگاییەکەی بێدەنگییەکی بەشەوکەتی ڕاگرت.",
             onPressedBritish: () => speakdignifieds1("en-GB"),
             onPressedAmerican: () => speakdignifieds1("en-US"),
           ),

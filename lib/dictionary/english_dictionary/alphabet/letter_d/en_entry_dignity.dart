@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ھەڵسوکەوتی لەسەرخۆ و جدی کە شایەنی ڕێزە"),
           SentencesRow(
             englishText: "She accepted the criticism with dignity.",
-            kurdishText: "ڕەخنەکەی بە شکۆوە وەرگرت.", // dignity
+            kurdishText: "ڕەخنەکەی بە شکۆوە وەرگرت.",
             onPressedBritish: () => speakdignitys1("en-GB"),
             onPressedAmerican: () => speakdignitys1("en-US"),
           ),

@@ -254,8 +254,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پارچە کانزایەک کە کۆنترۆڵی تینی ئاگرێک دەکات بە ڕێگەدان بە ھەوای زۆر یان کەم"),
           SentencesRow(
             englishText: "Some fireplaces have no need for a damper.",
-            kurdishText:
-                "ھەندێک ئاگردان پێویستیان بە دەمەوانەی ھەوا نییە.", // damper
+            kurdishText: "ھەندێک ئاگردان پێویستیان بە دەمەوانەی ھەوا نییە.",
             onPressedBritish: () => speakdampers1("en-GB"),
             onPressedAmerican: () => speakdampers1("en-US"),
           ),

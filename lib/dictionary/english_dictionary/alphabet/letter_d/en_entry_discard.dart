@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) فڕێدانی شتێک کە چی دیکە ناتەوێت"),
           SentencesRow(
             englishText: "The room was littered with discarded newspapers.",
-            kurdishText: "ژوورەکە شپرزە بوو بە ڕۆژنامەی فڕێدراو.", // discard
+            kurdishText: "ژوورەکە شپرزە بوو بە ڕۆژنامەی فڕێدراو.",
             onPressedBritish: () => speakdiscards1("en-GB"),
             onPressedAmerican: () => speakdiscards1("en-US"),
           ),

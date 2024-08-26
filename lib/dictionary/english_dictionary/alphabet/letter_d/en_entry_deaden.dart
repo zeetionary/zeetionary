@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کپکردنی دەنگ، ھەست، ھتد"),
           SentencesRow(
             englishText: "He was given drugs to deaden the pain.",
-            kurdishText: "دەرمانی پێدرا بۆ کوشتنی ئازارەکە.", // deaden
+            kurdishText: "دەرمانی پێدرا بۆ کوشتنی ئازارەکە.",
             onPressedBritish: () => speakdeadens1("en-GB"),
             onPressedAmerican: () => speakdeadens1("en-US"),
           ),

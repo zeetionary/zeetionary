@@ -893,7 +893,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) بۆ باسکردنی ئەو شتانەی کە دەیکەیت بەڵام ناتەوێت بە ناو باسیان بکەیت یان لەسەریان نازانیت"),
           SentencesRow(
             englishText: "What are you doing this evening?",
-            kurdishText: "ئەم ئێوارەیە چی دەکەیت؟", // do
+            kurdishText: "ئەم ئێوارەیە چی دەکەیت؟",
             onPressedBritish: () => speakdos1("en-GB"),
             onPressedAmerican: () => speakdos1("en-US"),
           ),

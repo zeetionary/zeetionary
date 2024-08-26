@@ -378,8 +378,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He tried to dissociate himself from the party's more extreme views.",
-            kurdishText:
-                "ھەوڵیدا خۆی لە دیدە توندەکانی پارتەکە دووربخاتەوە.", // dissociate
+            kurdishText: "ھەوڵیدا خۆی لە دیدە توندەکانی پارتەکە دووربخاتەوە.",
             onPressedBritish: () => speakdissociates1("en-GB"),
             onPressedAmerican: () => speakdissociates1("en-US"),
           ),

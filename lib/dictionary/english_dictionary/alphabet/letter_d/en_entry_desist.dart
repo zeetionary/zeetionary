@@ -242,8 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) وەستان لە کردنی شتێک"),
           SentencesRow(
             englishText: "They agreed to desist from the bombing campaign.",
-            kurdishText:
-                "ڕازی بوون بە وەستاندنی کەمپینی بۆمبارانەکە.", // desist
+            kurdishText: "ڕازی بوون بە وەستاندنی کەمپینی بۆمبارانەکە.",
             onPressedBritish: () => speakdesists1("en-GB"),
             onPressedAmerican: () => speakdesists1("en-US"),
           ),

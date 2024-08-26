@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Years of caring for her ageing parents had embittered her.""",
             kurdishText:
-                """چەندین ساڵ لە چاودێری کردنی دایبابە بەساڵاچووەکەی تاڵی پێ چەشتبوو.""", // embitter
+                """چەندین ساڵ لە چاودێری کردنی دایبابە بەساڵاچووەکەی تاڵی پێ چەشتبوو.""",
             onPressedBritish: () => speakembitters1("en-GB"),
             onPressedAmerican: () => speakembitters1("en-US"),
           ),

@@ -358,8 +358,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) زۆر بە خەمبارانە"),
           SentencesRow(
             englishText: "She stared dolefully out of the window.",
-            kurdishText:
-                "خەمبارانە لە پەنجەرەکەوە سەیری دەرەوەی دەکرد.", // dolefully
+            kurdishText: "خەمبارانە لە پەنجەرەکەوە سەیری دەرەوەی دەکرد.",
             onPressedBritish: () => speakdolefullys1("en-GB"),
             onPressedAmerican: () => speakdolefullys1("en-US"),
           ),

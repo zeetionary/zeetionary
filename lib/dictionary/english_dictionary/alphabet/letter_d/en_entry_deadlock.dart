@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The strike appeared to have reached deadlock.",
             englishNote: "American: The strike has reached a deadlock.",
-            kurdishText:
-                "مانگرتنەکە وا دەردەکەوێت کە گەشتبێت بە بن‌بەست.", // deadlock
+            kurdishText: "مانگرتنەکە وا دەردەکەوێت کە گەشتبێت بە بن‌بەست.",
             onPressedBritish: () => speakdeadlocks1("en-GB"),
             onPressedAmerican: () => speakdeadlocks1("en-US"),
           ),

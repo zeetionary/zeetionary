@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We know some people with disabilities may require additional support to participate.",
             kurdishText:
-                "دەزانین ھەندێک کەسی کەمئەندام ڕەنگە پێویستیان بە پشتگیری زیاتر بێت بۆ بەژداری.", // disability
+                "دەزانین ھەندێک کەسی کەمئەندام ڕەنگە پێویستیان بە پشتگیری زیاتر بێت بۆ بەژداری.",
             onPressedBritish: () => speakdisabilitys1("en-GB"),
             onPressedAmerican: () => speakdisabilitys1("en-US"),
           ),

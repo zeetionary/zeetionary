@@ -257,8 +257,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) بەبێ خواردن، خۆراک، ھتد کە گرنگن"),
           SentencesRow(
             englishText: "He had a deprived childhood in a London slum.",
-            kurdishText:
-                "منداڵییەکی ھەژاری ھەبوو لە ھەژاراوایەکی لەندەن.", // deprived
+            kurdishText: "منداڵییەکی ھەژاری ھەبوو لە ھەژاراوایەکی لەندەن.",
             onPressedBritish: () => speakdepriveds1("en-GB"),
             onPressedAmerican: () => speakdepriveds1("en-US"),
           ),

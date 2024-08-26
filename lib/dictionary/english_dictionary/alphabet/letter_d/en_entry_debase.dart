@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) کەمکردنەوەی ڕێز و شکۆی کەسێک یان شتێک"),
           SentencesRow(
             englishText: "Sport is being debased by commercial sponsorship.",
-            kurdishText: "وەرزش بە ڕیکلامی بازرگانی شكۆی دەشکێندرێت.", // debase
+            kurdishText: "وەرزش بە ڕیکلامی بازرگانی شكۆی دەشکێندرێت.",
             onPressedBritish: () => speakdebases1("en-GB"),
             onPressedAmerican: () => speakdebases1("en-US"),
           ),

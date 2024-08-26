@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) پێدانی شتێک بە خەڵکی"),
           SentencesRow(
             englishText: "The machine dispenses a range of drinks and snacks.",
-            kurdishText:
-                "ئامێرەکە ژمارەیەک لە خواردنەوە و سووکە خۆراک دەدات.", // dispense
+            kurdishText: "ئامێرەکە ژمارەیەک لە خواردنەوە و سووکە خۆراک دەدات.",
             onPressedBritish: () => speakdispenses1("en-GB"),
             onPressedAmerican: () => speakdispenses1("en-US"),
           ),

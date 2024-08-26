@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) لێکۆڵینەوەی پزیشکیانەی دەم و ددان؛ کاری پزیشكی ددان"),
           SentencesRow(
             englishText: "Where did Dr. Yee study dentistry?",
-            kurdishText: "دکتۆر یی لە کوێ دانسازی خوێند؟", // dentistry
+            kurdishText: "دکتۆر یی لە کوێ دانسازی خوێند؟",
             onPressedBritish: () => speakdentistrys1("en-GB"),
             onPressedAmerican: () => speakdentistrys1("en-US"),
           ),

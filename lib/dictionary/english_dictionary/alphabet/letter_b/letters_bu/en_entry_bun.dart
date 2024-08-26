@@ -180,8 +180,7 @@ class EnglishEntrybun extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She enjoyed a cinnamon bun with her coffee.",
-                            kurdishText:
-                                "کێکێکی سینمنی خوارد لەگەڵ قاوەکەیدا.", // bun", follow LX strictly
+                            kurdishText: "کێکێکی سینمنی خوارد لەگەڵ قاوەکەیدا.",
                             onPressedBritish: () => speakbuns1("en-GB"),
                             onPressedAmerican: () => speakbuns1("en-US"),
                           ),

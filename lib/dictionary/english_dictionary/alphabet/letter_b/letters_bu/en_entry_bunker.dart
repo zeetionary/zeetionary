@@ -183,7 +183,7 @@ class EnglishEntrybunker extends StatelessWidget {
                             englishText:
                                 "The military strategically positioned bunkers along the border for defensive purposes.",
                             kurdishText:
-                                "سوپا بەشێوەیەکی ستراتیژی پەناگەی دانا بەدرێژایی سنوورەکە بۆ مەبەستی بەرگری.", // bunker", follow LX strictly
+                                "سوپا بەشێوەیەکی ستراتیژی پەناگەی دانا بەدرێژایی سنوورەکە بۆ مەبەستی بەرگری.",
                             onPressedBritish: () => speakbunkers1("en-GB"),
                             onPressedAmerican: () => speakbunkers1("en-US"),
                           ),

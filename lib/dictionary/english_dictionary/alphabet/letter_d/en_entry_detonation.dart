@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Underground nuclear detonations are believed to have been carried out.",
-            kurdishText:
-                "باوەڕ وایە تەقینەوەی ئەتۆمی ژێرزەوی ئەنجام درابن.", // detonation
+            kurdishText: "باوەڕ وایە تەقینەوەی ئەتۆمی ژێرزەوی ئەنجام درابن.",
             onPressedBritish: () => speakdetonations1("en-GB"),
             onPressedAmerican: () => speakdetonations1("en-US"),
           ),

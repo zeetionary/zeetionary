@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ھەستی ئەوەی ھەموو شتێک دەسووڕێتەوە ناتوانیت ھاوسەنگی ڕابگریت"),
           SentencesRow(
             englishText: "He complained of headaches and dizziness.",
-            kurdishText: "بە دەست دەرێشە و سەرەگێژە دەیناڵاند.", // dizziness
+            kurdishText: "بە دەست دەرێشە و سەرەگێژە دەیناڵاند.",
             onPressedBritish: () => speakdizzinesss1("en-GB"),
             onPressedAmerican: () => speakdizzinesss1("en-US"),
           ),

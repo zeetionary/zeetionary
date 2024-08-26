@@ -260,8 +260,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) تەواوی ئەو بڕەی جیاوازەی کە ھەیە کاتێک پارەی خەرجکراو زیاترە لە قازانجکراو لە ماوەیەکی دیاریکراودا"),
           SentencesRow(
             englishText: "We are facing a substantial trade deficit.",
-            kurdishText:
-                "ڕووبەڕووی کورتھێنانێکی گەورەی پیشەسازی بووینە.", // deficit
+            kurdishText: "ڕووبەڕووی کورتھێنانێکی گەورەی پیشەسازی بووینە.",
             onPressedBritish: () => speakdeficits1("en-GB"),
             onPressedAmerican: () => speakdeficits1("en-US"),
           ),

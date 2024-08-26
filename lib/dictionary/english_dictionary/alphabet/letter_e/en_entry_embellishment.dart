@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) شتی جوانکاری و ڕازاندنەوە"""),
           SentencesRow(
             englishText: """Good pasta needs very little embellishment.""",
-            kurdishText:
-                """پاستای باش پێویستیی بە ڕازاندنەوەی کەم ھەیە.""", // embellishment
+            kurdishText: """پاستای باش پێویستیی بە ڕازاندنەوەی کەم ھەیە.""",
             onPressedBritish: () => speakembellishments1("en-GB"),
             onPressedAmerican: () => speakembellishments1("en-US"),
           ),

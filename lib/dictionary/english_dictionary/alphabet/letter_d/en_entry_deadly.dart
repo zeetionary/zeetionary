@@ -297,7 +297,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کوشندە؛ کە مردنی لێدەکەوێتەوە ئان ئەگەری ھەیە"),
           SentencesRow(
             englishText: "He was charged with possession of a deadly weapon.",
-            kurdishText: "تاوانبارکرا بە ھەڵگرتنی چەکی کوشندە.", // deadly
+            kurdishText: "تاوانبارکرا بە ھەڵگرتنی چەکی کوشندە.",
             onPressedBritish: () => speakdeadlys1("en-GB"),
             onPressedAmerican: () => speakdeadlys1("en-US"),
           ),

@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The city has several dosshouses for people in need.",
             kurdishText:
-                "شارەکە ژمارەیەک ھوتێلی جێ‌پەنای ھەیە بۆ کەسانی نەدار.", // dosshouse
+                "شارەکە ژمارەیەک ھوتێلی جێ‌پەنای ھەیە بۆ کەسانی نەدار.",
             onPressedBritish: () => speakdosshouses1("en-GB"),
             onPressedAmerican: () => speakdosshouses1("en-US"),
           ),

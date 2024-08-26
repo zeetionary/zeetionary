@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) لێدان لە شتێک بە ھێواشی، زۆرجار بۆ چەند جارێک"),
           SentencesRow(
             englishText: "He dabbed at the cut with his handkerchief.",
-            kurdishText: "بە پەنجەی دەیکێشا بە دەستەسڕەکەدا.", // dab
+            kurdishText: "بە پەنجەی دەیکێشا بە دەستەسڕەکەدا.",
             onPressedBritish: () => speakdabs1("en-GB"),
             onPressedAmerican: () => speakdabs1("en-US"),
           ),

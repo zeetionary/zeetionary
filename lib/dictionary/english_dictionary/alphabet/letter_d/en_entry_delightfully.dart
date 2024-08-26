@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The hotel is delightfully situated on the edge of the lake.",
             kurdishText:
-                "ھوتێلەکە بە شێوەیەکی خۆش کەتووەتە سەر قەراغی دەریاچەیەک.", // delightfully
+                "ھوتێلەکە بە شێوەیەکی خۆش کەتووەتە سەر قەراغی دەریاچەیەک.",
             onPressedBritish: () => speakdelightfullys1("en-GB"),
             onPressedAmerican: () => speakdelightfullys1("en-US"),
           ),

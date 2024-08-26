@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵکار) بەڕشتی و جدی"""),
           SentencesRow(
             englishText: """He gazed earnestly into my eyes.""",
-            kurdishText: """لە دڵەوە ڕوانی لە چاوانم.""", // earnestly
+            kurdishText: """لە دڵەوە ڕوانی لە چاوانم.""",
             onPressedBritish: () => speakearnestlys1("en-GB"),
             onPressedAmerican: () => speakearnestlys1("en-US"),
           ),

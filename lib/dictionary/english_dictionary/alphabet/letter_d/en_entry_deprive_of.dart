@@ -248,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "They were imprisoned and deprived of their basic rights.",
-            kurdishText:
-                "زیندانی کران و لە مافە سەرەتاییەکان بێبەش کران.", // deprive of
+            kurdishText: "زیندانی کران و لە مافە سەرەتاییەکان بێبەش کران.",
             onPressedBritish: () => speakdepriveofs1("en-GB"),
             onPressedAmerican: () => speakdepriveofs1("en-US"),
           ),

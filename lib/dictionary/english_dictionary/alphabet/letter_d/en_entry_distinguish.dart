@@ -441,7 +441,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "At what age are children able to distinguish between right and wrong?",
             kurdishText:
-                "لە چی تەمەنێکدا منداڵان فێردەبن جیاوازی لە نێوان ڕاست و ھەڵەدا بکەن؟", // distinguish
+                "لە چی تەمەنێکدا منداڵان فێردەبن جیاوازی لە نێوان ڕاست و ھەڵەدا بکەن؟",
             onPressedBritish: () => speakdistinguishs1("en-GB"),
             onPressedAmerican: () => speakdistinguishs1("en-US"),
           ),

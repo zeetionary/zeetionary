@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) پاککردنەوەی شتێک بە مادەیەک کە بەکتریا دەکوژێت"),
           SentencesRow(
             englishText: "They disinfect the doorknobs every day.",
-            kurdishText: "ھەموو ڕۆژێک قوڵفی دەرگاکان پاکدەکەنەوە.", // disinfect
+            kurdishText: "ھەموو ڕۆژێک قوڵفی دەرگاکان پاکدەکەنەوە.",
             onPressedBritish: () => speakdisinfects1("en-GB"),
             onPressedAmerican: () => speakdisinfects1("en-US"),
           ),

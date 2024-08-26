@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The dustpan was full, so she emptied it into a rubbish bag.""",
             kurdishText:
-                """خۆڵ‌ماڵەکە پڕبوو، بۆیە بەتاڵی کردە ناو کیسەیەکی زباڵەوە.""", // dustpan
+                """خۆڵ‌ماڵەکە پڕبوو، بۆیە بەتاڵی کردە ناو کیسەیەکی زباڵەوە.""",
             onPressedBritish: () => speakdustpans1("en-GB"),
             onPressedAmerican: () => speakdustpans1("en-US"),
           ),

@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The Civil War was not distinctively modern at all.",
             kurdishText:
-                "جەنگی ناوخۆیی ئەمریکا بەھیچ شێوەیەک سەردەمیانە نەبوو.", // distinctively
+                "جەنگی ناوخۆیی ئەمریکا بەھیچ شێوەیەک سەردەمیانە نەبوو.",
             onPressedBritish: () => speakdistinctivelys1("en-GB"),
             onPressedAmerican: () => speakdistinctivelys1("en-US"),
           ),

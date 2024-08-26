@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "First, disconnect the boiler from the water mains.",
             kurdishText:
-                "سەرەتا، بۆیلەرەکە لێبکەوە لە بەشە سەرەکییەکانی ئاوەکە.", // disconnect
+                "سەرەتا، بۆیلەرەکە لێبکەوە لە بەشە سەرەکییەکانی ئاوەکە.",
             onPressedBritish: () => speakdisconnects1("en-GB"),
             onPressedAmerican: () => speakdisconnects1("en-US"),
           ),

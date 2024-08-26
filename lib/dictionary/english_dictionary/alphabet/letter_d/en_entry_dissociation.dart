@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The work finds a fairly complete dissociation between learning and sleep.",
             kurdishText:
-                "لێکۆڵینەوەکە نەبوونی تەواوی پەیوەندی لە نێوان فێربوون و خەودا پیشان دەدات.", // dissociation
+                "لێکۆڵینەوەکە نەبوونی تەواوی پەیوەندی لە نێوان فێربوون و خەودا پیشان دەدات.",
             onPressedBritish: () => speakdissociations1("en-GB"),
             onPressedAmerican: () => speakdissociations1("en-US"),
           ),

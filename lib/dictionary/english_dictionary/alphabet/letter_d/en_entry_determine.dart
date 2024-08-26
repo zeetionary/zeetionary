@@ -315,7 +315,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "An inquiry was set up to determine the cause of the accident.",
             kurdishText:
-                "لێکۆڵینەوەیەک دەستپێکرا بۆ دیاریکردنی ھۆکاری ڕووداوەکە.", // determine
+                "لێکۆڵینەوەیەک دەستپێکرا بۆ دیاریکردنی ھۆکاری ڕووداوەکە.",
             onPressedBritish: () => speakdetermines1("en-GB"),
             onPressedAmerican: () => speakdetermines1("en-US"),
           ),

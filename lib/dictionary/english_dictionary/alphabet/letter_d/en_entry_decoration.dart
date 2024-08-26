@@ -274,8 +274,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شتێک کە وا لە شتێک دەکات جوان دەربکەوێت لە بۆنەی تایبەتدا"),
           SentencesRow(
             englishText: "Halloween decorations hung from every corner.",
-            kurdishText:
-                "ڕازاندنەوەی ھاڵۆوین لە ھەموو سوچێک شۆڕبووبوونەوە.", // decoration
+            kurdishText: "ڕازاندنەوەی ھاڵۆوین لە ھەموو سوچێک شۆڕبووبوونەوە.",
             onPressedBritish: () => speakdecorations1("en-GB"),
             onPressedAmerican: () => speakdecorations1("en-US"),
           ),

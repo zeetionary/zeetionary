@@ -251,8 +251,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) شۆڕبوونەوە"),
           SentencesRow(
             englishText: "A single light bulb dangled from the ceiling.",
-            kurdishText:
-                "تاکە گڵۆپێکی ڕۆشنایی لە بنابنەکەی شۆڕبووبووەوە.", // dangle
+            kurdishText: "تاکە گڵۆپێکی ڕۆشنایی لە بنابنەکەی شۆڕبووبووەوە.",
             onPressedBritish: () => speakdangles1("en-GB"),
             onPressedAmerican: () => speakdangles1("en-US"),
           ),

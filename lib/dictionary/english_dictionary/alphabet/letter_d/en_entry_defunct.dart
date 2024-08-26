@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He wrote many articles for the now sadly defunct newspaper, the Daily Correspondent.",
             kurdishText:
-                "زۆر وتاری نووسی بۆ ڕۆژنامەی دەیکی کۆڕیسپۆندنت کە ئێستا بەداخەوە نەماوە.", // defunct
+                "زۆر وتاری نووسی بۆ ڕۆژنامەی دەیکی کۆڕیسپۆندنت کە ئێستا بەداخەوە نەماوە.",
             onPressedBritish: () => speakdefuncts1("en-GB"),
             onPressedAmerican: () => speakdefuncts1("en-US"),
           ),

@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئەوەی کە ھەست دڵتەنگی و بێزاری بکەیت"),
           SentencesRow(
             englishText: "He's been in the doldrums ever since she left him.",
-            kurdishText: "لە کەساسیدایە لەوەتەی کچەکە جێیھێشتووە.", // doldrums
+            kurdishText: "لە کەساسیدایە لەوەتەی کچەکە جێیھێشتووە.",
             onPressedBritish: () => speakdoldrumss1("en-GB"),
             onPressedAmerican: () => speakdoldrumss1("en-US"),
           ),

@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ژوورێک لە خانوویەکی گەورە کە تێیدا خەڵکی دەحەسێنەوە و میوانەکان خزمەت دەکرێن"),
           SentencesRow(
             englishText: "The drawing room had a grand piano in the corner.",
-            kurdishText:
-                "ژووری میوانییەکە پیانۆیەکی گەورەی لە سووچێکدا ھەبوو.", // drawing room
+            kurdishText: "ژووری میوانییەکە پیانۆیەکی گەورەی لە سووچێکدا ھەبوو.",
             onPressedBritish: () => speakdrawingrooms1("en-GB"),
             onPressedAmerican: () => speakdrawingrooms1("en-US"),
           ),

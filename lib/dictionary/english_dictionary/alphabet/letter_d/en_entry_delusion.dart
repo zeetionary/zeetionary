@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Don't go getting delusions of grandeur (= a belief that you are more important than you actually are).",
-            kurdishText: "خەیاڵاوی مەبە سەبارەت بە سەنگی خۆت.", // delusion
+            kurdishText: "خەیاڵاوی مەبە سەبارەت بە سەنگی خۆت.",
             onPressedBritish: () => speakdelusions1("en-GB"),
             onPressedAmerican: () => speakdelusions1("en-US"),
           ),

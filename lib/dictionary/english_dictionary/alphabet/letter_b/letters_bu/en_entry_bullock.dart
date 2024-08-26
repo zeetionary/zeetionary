@@ -138,7 +138,7 @@ class EnglishEntrybullock extends StatelessWidget {
                             englishText:
                                 "Farmers use bullocks for plowing fields.",
                             kurdishText:
-                                "جوتیاران گوێرەکەی یەختە بەکاردێنن بۆ کێڵانی کێڵگە.", // bullock", follow LX strictly
+                                "جوتیاران گوێرەکەی یەختە بەکاردێنن بۆ کێڵانی کێڵگە.",
                             onPressedBritish: () => speakbullocks1("en-GB"),
                             onPressedAmerican: () => speakbullocks1("en-US"),
                           ),

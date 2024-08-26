@@ -251,8 +251,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە جێگری سەرکردەیەک، بەڕێوەبەری قوتابخانە، بەڕێوەبەری بازرگانییەک، ھتد ـە"),
           SentencesRow(
             englishText: "I'm acting as deputy till the manager returns.",
-            kurdishText:
-                "وەک جێگر کار دەکەم تاوەکو بەڕێوەبەر دەگەڕێتەوە.", // deputy
+            kurdishText: "وەک جێگر کار دەکەم تاوەکو بەڕێوەبەر دەگەڕێتەوە.",
             onPressedBritish: () => speakdeputys1("en-GB"),
             onPressedAmerican: () => speakdeputys1("en-US"),
           ),

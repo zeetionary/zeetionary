@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) لەدەستدانی ڕێز و پەسەندبوون لای کەسانی دیکە بەھۆی خراۆی ڕەفتار"),
           SentencesRow(
             englishText: "Her behaviour has brought disgrace on her family.",
-            kurdishText: "ھەڵسوکەوتی شەرمی ھێناوە بۆ خانەوادەکەی.", // disgrace
+            kurdishText: "ھەڵسوکەوتی شەرمی ھێناوە بۆ خانەوادەکەی.",
             onPressedBritish: () => speakdisgraces1("en-GB"),
             onPressedAmerican: () => speakdisgraces1("en-US"),
           ),

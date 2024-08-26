@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He was deeply committed to political doctrines of social equality.",
             kurdishText:
-                "بە قووڵی پابەند بوو بە بیروباوەڕ سیاسییەکانی یەکسانی کۆمەڵایەتی.", // doctrine
+                "بە قووڵی پابەند بوو بە بیروباوەڕ سیاسییەکانی یەکسانی کۆمەڵایەتی.",
             onPressedBritish: () => speakdoctrines1("en-GB"),
             onPressedAmerican: () => speakdoctrines1("en-US"),
           ),

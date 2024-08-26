@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە دەکرێت لێی دەربکرێت"),
           SentencesRow(
             englishText: "These costs are deductible from profits.",
-            kurdishText: "ئەو تێچووانە لە قازانج دەردەکرێن.", // deductible
+            kurdishText: "ئەو تێچووانە لە قازانج دەردەکرێن.",
             onPressedBritish: () => speakdeductibles1("en-GB"),
             onPressedAmerican: () => speakdeductibles1("en-US"),
           ),

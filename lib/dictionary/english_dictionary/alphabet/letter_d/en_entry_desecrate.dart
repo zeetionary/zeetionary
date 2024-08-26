@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) زیان گەیاندن بە شتێکی پیرۆز یان بێڕێزیکردن کردن پێی"),
           SentencesRow(
             englishText: "It's a crime to desecrate the country's flag.",
-            kurdishText: "تاوانە سوکایەتی بە ئاڵای وڵاتەکە بکەیت.", // desecrate
+            kurdishText: "تاوانە سوکایەتی بە ئاڵای وڵاتەکە بکەیت.",
             onPressedBritish: () => speakdesecrates1("en-GB"),
             onPressedAmerican: () => speakdesecrates1("en-US"),
           ),

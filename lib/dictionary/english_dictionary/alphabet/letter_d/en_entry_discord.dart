@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) ناکۆکی"),
           SentencesRow(
             englishText: "A note of discord surfaced during the proceedings.",
-            kurdishText:
-                "خاڵێکی ناکۆکی درووست بوو لە کاتی بەرەوپێشچوونەکاندا.", // discord
+            kurdishText: "خاڵێکی ناکۆکی درووست بوو لە کاتی بەرەوپێشچوونەکاندا.",
             onPressedBritish: () => speakdiscords1("en-GB"),
             onPressedAmerican: () => speakdiscords1("en-US"),
           ),

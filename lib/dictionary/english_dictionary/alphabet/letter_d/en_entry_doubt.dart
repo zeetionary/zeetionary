@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "New evidence has cast doubt on the guilt of the man jailed for the crime.",
             kurdishText:
-                "ھیچ بەڵگەیەک گومانی نەخستووەتە سەر تاوانباری ئەو پیاوەی بۆ تاوانەکە دەستگیرکراوە.", // doubt
+                "ھیچ بەڵگەیەک گومانی نەخستووەتە سەر تاوانباری ئەو پیاوەی بۆ تاوانەکە دەستگیرکراوە.",
             onPressedBritish: () => speakdoubts1("en-GB"),
             onPressedAmerican: () => speakdoubts1("en-US"),
           ),

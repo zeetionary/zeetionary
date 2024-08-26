@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "They emerged from the church into the bright daylight.",
-            kurdishText: "لە کڵێساوە دەرچوونە بەر تیشکە ڕۆشنەکە.", // daylight
+            kurdishText: "لە کڵێساوە دەرچوونە بەر تیشکە ڕۆشنەکە.",
             onPressedBritish: () => speakdaylights1("en-GB"),
             onPressedAmerican: () => speakdaylights1("en-US"),
           ),

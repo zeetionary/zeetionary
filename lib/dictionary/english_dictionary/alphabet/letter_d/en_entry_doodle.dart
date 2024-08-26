@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) شێوەیەک، ھێڵێک، ھتد کە کێشاوتە کاتێک بیرت لە شتی دیکە کردووەتەوە"),
           SentencesRow(
             englishText: "The paper was covered in doodles.",
-            kurdishText: "پەڕەکە بە ھێڵ‌ھێڵ داپۆشرابوو.", // doodle
+            kurdishText: "پەڕەکە بە ھێڵ‌ھێڵ داپۆشرابوو.",
             onPressedBritish: () => speakdoodles1("en-GB"),
             onPressedAmerican: () => speakdoodles1("en-US"),
           ),

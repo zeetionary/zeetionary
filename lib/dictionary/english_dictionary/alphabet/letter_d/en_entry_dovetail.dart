@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) کە دوو شت پێکەوە جووت دەبن"),
           SentencesRow(
             englishText: "My plans dovetailed nicely with hers.",
-            kurdishText:
-                "پلانەکانم باش لەگەڵ ئەوانەی ئەو ڕێککەوتن.", // dovetail
+            kurdishText: "پلانەکانم باش لەگەڵ ئەوانەی ئەو ڕێککەوتن.",
             onPressedBritish: () => speakdovetails1("en-GB"),
             onPressedAmerican: () => speakdovetails1("en-US"),
           ),

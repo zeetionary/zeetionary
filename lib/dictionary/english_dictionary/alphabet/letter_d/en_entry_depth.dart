@@ -324,7 +324,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) دووری لە سەرەوە بۆ خوارەوەی شتێک"),
           SentencesRow(
             englishText: "What's the depth of the water here?",
-            kurdishText: "قووڵی ئاوەکە لێرە چەندە؟", // depth
+            kurdishText: "قووڵی ئاوەکە لێرە چەندە؟",
             onPressedBritish: () => speakdepths1("en-GB"),
             onPressedAmerican: () => speakdepths1("en-US"),
           ),

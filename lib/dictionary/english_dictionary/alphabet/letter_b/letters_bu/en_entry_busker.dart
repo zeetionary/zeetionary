@@ -181,7 +181,7 @@ class EnglishEntrybusker extends StatelessWidget {
                             englishText:
                                 "A busker was playing violin on the train platform.",
                             kurdishText:
-                                "میوزیکژەنێکی گەڕۆک کەمانچەی دەژەنی لەسەر سەکۆی شەمەندەفەرەکە.", // busker", follow LX strictly
+                                "میوزیکژەنێکی گەڕۆک کەمانچەی دەژەنی لەسەر سەکۆی شەمەندەفەرەکە.",
                             onPressedBritish: () => speakbuskers1("en-GB"),
                             onPressedAmerican: () => speakbuskers1("en-US"),
                           ),

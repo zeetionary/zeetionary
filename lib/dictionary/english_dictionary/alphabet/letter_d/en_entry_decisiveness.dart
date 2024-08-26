@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) توانای بڕیاردان بە خێرایی و وریاییەوە"),
           SentencesRow(
             englishText: "All her decisiveness disappeared when she met Mark.",
-            kurdishText: "ھەموو سووربوونی نەما کە مارکی بینی.", // decisiveness
+            kurdishText: "ھەموو سووربوونی نەما کە مارکی بینی.",
             onPressedBritish: () => speakdecisivenesss1("en-GB"),
             onPressedAmerican: () => speakdecisivenesss1("en-US"),
           ),

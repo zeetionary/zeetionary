@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) جیاوازبوون لە شتێک؛ کردنی شتێک جیاواز لە ئاسایی یان ئەوەی پێشبینی کراوە"),
           SentencesRow(
             englishText: "He never deviated from his original plan.",
-            kurdishText: "ھەرگیز لە پلانەکەی سەرەتای لاینەدا.", // deviate
+            kurdishText: "ھەرگیز لە پلانەکەی سەرەتای لاینەدا.",
             onPressedBritish: () => speakdeviates1("en-GB"),
             onPressedAmerican: () => speakdeviates1("en-US"),
           ),

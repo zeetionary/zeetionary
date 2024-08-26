@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "They offered us a derisory £50 a week.",
             kurdishText:
-                "٥٠ پاوەند گاڵتەجاڕانەیان بۆ ھەفتەیەکیان پێمان پێشکەس کرد.", // derisory
+                "٥٠ پاوەند گاڵتەجاڕانەیان بۆ ھەفتەیەکیان پێمان پێشکەس کرد.",
             onPressedBritish: () => speakderisorys1("en-GB"),
             onPressedAmerican: () => speakderisorys1("en-US"),
           ),

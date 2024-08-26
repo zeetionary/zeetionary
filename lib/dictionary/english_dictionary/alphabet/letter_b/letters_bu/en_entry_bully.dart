@@ -137,8 +137,7 @@ class EnglishEntrybully extends StatelessWidget {
                                   "١. (ناو) کەسێک کە ھێز و دەسەڵات بەکاردێنێت ترساندن و ئازاردانی کەسانی تر"),
                           SentencesRow(
                             englishText: "Leave him alone, you big bully!",
-                            kurdishText:
-                                "وازی لێبێنە، کەڵەگای زل.", // bully", follow LX strictly
+                            kurdishText: "وازی لێبێنە، کەڵەگای زل.",
                             onPressedBritish: () => speakbullys1("en-GB"),
                             onPressedAmerican: () => speakbullys1("en-US"),
                           ),

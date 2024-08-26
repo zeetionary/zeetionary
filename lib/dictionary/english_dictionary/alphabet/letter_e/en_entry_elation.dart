@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She felt a great sense of elation as she started on the journey.""",
             kurdishText:
-                """ھەستی بە شادییەکی زۆر کرد کە گەشتەکەی دەست پێکرد.""", // elation
+                """ھەستی بە شادییەکی زۆر کرد کە گەشتەکەی دەست پێکرد.""",
             onPressedBritish: () => speakelations1("en-GB"),
             onPressedAmerican: () => speakelations1("en-US"),
           ),

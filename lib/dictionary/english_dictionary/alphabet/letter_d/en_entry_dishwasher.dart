@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئامێرێک کە قاپ‌وقاچاغ دەشوات"),
           SentencesRow(
             englishText: "Are these glasses dishwasher safe?",
-            kurdishText: "ئەم گڵاسانە ئاساییە بخرێنە قاپشۆرەوە؟", // dishwasher
+            kurdishText: "ئەم گڵاسانە ئاساییە بخرێنە قاپشۆرەوە؟",
             onPressedBritish: () => speakdishwashers1("en-GB"),
             onPressedAmerican: () => speakdishwashers1("en-US"),
           ),

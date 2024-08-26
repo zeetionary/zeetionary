@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """People buy durable goods for long-term use.""",
             kurdishText:
-                """خەڵکی کەلووپەلە قایمەکان دەکڕن بۆ بەکارھێنانی درێژخایەن.""", // durable goods
+                """خەڵکی کەلووپەلە قایمەکان دەکڕن بۆ بەکارھێنانی درێژخایەن.""",
             onPressedBritish: () => speakdurablegoodss1("en-GB"),
             onPressedAmerican: () => speakdurablegoodss1("en-US"),
           ),

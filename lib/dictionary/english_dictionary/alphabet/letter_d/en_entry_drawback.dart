@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(word: "ھەروەھا: disadvantage, snag"),
           SentencesRow(
             englishText: "The main drawback to it is the cost.",
-            kurdishText: "عەیبەی سەرەکیی تێچووەکەیەتی.", // drawback
+            kurdishText: "عەیبەی سەرەکیی تێچووەکەیەتی.",
             onPressedBritish: () => speakdrawbacks1("en-GB"),
             onPressedAmerican: () => speakdrawbacks1("en-US"),
           ),

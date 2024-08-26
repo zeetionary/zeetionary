@@ -357,7 +357,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) بەوریایی بیرکردنەوە سەبارەت بە ھەموو ئەو ھەڵبژاردانەی بەردەستن و ھەڵبژاردنی یەکێکیان"),
           SentencesRow(
             englishText: "It's up to you to decide.",
-            kurdishText: "بەدەست تۆیە بڕیار بدەیت.", // decide
+            kurdishText: "بەدەست تۆیە بڕیار بدەیت.",
             onPressedBritish: () => speakdecides1("en-GB"),
             onPressedAmerican: () => speakdecides1("en-US"),
           ),

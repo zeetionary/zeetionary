@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The city upgraded its drainage system to prevent flooding.",
-            kurdishText:
-                "شارەکە سیستەمی ئاوەڕۆی باشترکرد بۆ ڕێگری لە لافاو.", // drainage
+            kurdishText: "شارەکە سیستەمی ئاوەڕۆی باشترکرد بۆ ڕێگری لە لافاو.",
             onPressedBritish: () => speakdrainages1("en-GB"),
             onPressedAmerican: () => speakdrainages1("en-US"),
           ),

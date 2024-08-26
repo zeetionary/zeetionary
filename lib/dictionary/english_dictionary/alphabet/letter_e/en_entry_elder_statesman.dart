@@ -363,8 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """He is one of the medical profession's elder statesmen.""",
-            kurdishText:
-                """بە یەکێک لە سەردارانی پیشەی پزیشکی دادەندرێت.""", // elder statesman
+            kurdishText: """بە یەکێک لە سەردارانی پیشەی پزیشکی دادەندرێت.""",
             onPressedBritish: () => speakelderstatesmans1("en-GB"),
             onPressedAmerican: () => speakelderstatesmans1("en-US"),
           ),

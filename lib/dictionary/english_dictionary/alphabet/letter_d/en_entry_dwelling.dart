@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The development will consist of 66 dwellings and a number of offices.""",
-            kurdishText:
-                """پڕۆژەکە لە ٦٦ یەکە و ژمارەیەک ئۆفیس پێکدێت.""", // dwelling
+            kurdishText: """پڕۆژەکە لە ٦٦ یەکە و ژمارەیەک ئۆفیس پێکدێت.""",
             onPressedBritish: () => speakdwellings1("en-GB"),
             onPressedAmerican: () => speakdwellings1("en-US"),
           ),

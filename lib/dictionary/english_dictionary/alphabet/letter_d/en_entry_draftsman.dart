@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The draftsman created blueprints for the new building.",
-            kurdishText: "نەخشەکێشەکە نەخشەی بینا تازەکەی دانا.", // draftsman
+            kurdishText: "نەخشەکێشەکە نەخشەی بینا تازەکەی دانا.",
             onPressedBritish: () => speakdraftsmans1("en-GB"),
             onPressedAmerican: () => speakdraftsmans1("en-US"),
           ),

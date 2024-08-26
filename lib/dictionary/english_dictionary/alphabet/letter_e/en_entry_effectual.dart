@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """They wish to promote a real and effectual understanding between the two countries.""",
             kurdishText:
-                """دەیانەوێت تێگەشتنی ڕاستی و کاریگەر لە نێوان دوو وڵاتەکە درووست بکەن.""", // effectual
+                """دەیانەوێت تێگەشتنی ڕاستی و کاریگەر لە نێوان دوو وڵاتەکە درووست بکەن.""",
             onPressedBritish: () => speakeffectuals1("en-GB"),
             onPressedAmerican: () => speakeffectuals1("en-US"),
           ),

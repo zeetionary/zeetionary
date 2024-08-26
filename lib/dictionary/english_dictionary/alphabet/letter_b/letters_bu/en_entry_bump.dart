@@ -275,7 +275,7 @@ class EnglishEntrybump extends StatelessWidget {
                           SentencesRow(
                             englishText: "In the dark I bumped into a chair.",
                             kurdishText:
-                                "لە تاریکییەکەدا خۆم کێشا بە کورسییەکدا.", // bump", follow LX strictly
+                                "لە تاریکییەکەدا خۆم کێشا بە کورسییەکدا.",
                             onPressedBritish: () => speakbumps1("en-GB"),
                             onPressedAmerican: () => speakbumps1("en-US"),
                           ),

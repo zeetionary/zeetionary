@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Lowering interest rates could have disastrous consequences for the economy.",
             kurdishText:
-                "کەمکردنەوەی ڕێژەی سوو دەکرا لێکەوتەی کارەساتباری ھەبا بۆ ئابووری.", // disastrous
+                "کەمکردنەوەی ڕێژەی سوو دەکرا لێکەوتەی کارەساتباری ھەبا بۆ ئابووری.",
             onPressedBritish: () => speakdisastrouss1("en-GB"),
             onPressedAmerican: () => speakdisastrouss1("en-US"),
           ),

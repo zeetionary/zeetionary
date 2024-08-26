@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The film crew got some breathtaking footage from their drone.",
             kurdishText:
-                "تیمی وێنەگرییەکە ژمارەیەک دیمەنی ناوازەیان بە درۆنەکەیان گرت.", // drone
+                "تیمی وێنەگرییەکە ژمارەیەک دیمەنی ناوازەیان بە درۆنەکەیان گرت.",
             onPressedBritish: () => speakdrones1("en-GB"),
             onPressedAmerican: () => speakdrones1("en-US"),
           ),

@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەی فێڵبازانە کە ئامانج لێی خەڵەتاندنی خەڵکییە"),
           SentencesRow(
             englishText: "He was accused of dishonestly obtaining property.",
-            kurdishText:
-                "تاوانبارکرا بەوەی بە فێڵبازانە زەوی بەدەستھێناوە.", // dishonestly
+            kurdishText: "تاوانبارکرا بەوەی بە فێڵبازانە زەوی بەدەستھێناوە.",
             onPressedBritish: () => speakdishonestlys1("en-GB"),
             onPressedAmerican: () => speakdishonestlys1("en-US"),
           ),

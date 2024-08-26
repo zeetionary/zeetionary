@@ -179,7 +179,7 @@ class EnglishEntrybuttonhole extends StatelessWidget {
                             englishText:
                                 "His jacket had a perfectly aligned buttonhole.",
                             kurdishText:
-                                "چاکەتەکەی کونەدوگمەی تەواو بەرامبەری ھەبوو.", // buttonhole", follow LX strictly
+                                "چاکەتەکەی کونەدوگمەی تەواو بەرامبەری ھەبوو.",
                             onPressedBritish: () => speakbuttonholes1("en-GB"),
                             onPressedAmerican: () => speakbuttonholes1("en-US"),
                           ),

@@ -231,8 +231,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) فرۆشگایەک کە پەنیر و گۆشتی لێنراو و خواردنی دیکەی تایبەتی وڵاتانی دیکە دەفرۆشێت"),
           SentencesRow(
             englishText: "This can be found in most delicatessens.",
-            kurdishText:
-                "ئەمە دەکرێت لە زۆر فرۆشگا ببینرێتەوە.", // delicatessen
+            kurdishText: "ئەمە دەکرێت لە زۆر فرۆشگا ببینرێتەوە.",
             onPressedBritish: () => speakdelicatessens1("en-GB"),
             onPressedAmerican: () => speakdelicatessens1("en-US"),
           ),

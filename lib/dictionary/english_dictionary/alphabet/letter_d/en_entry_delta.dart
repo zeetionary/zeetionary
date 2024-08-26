@@ -255,8 +255,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Delta is written as Δ in uppercase and δ in lowercase.",
-            kurdishText:
-                "دەلتا بە شێوەی گەورە بە Δ دەنووسرێت بە بچووکیش بە δ.", // delta
+            kurdishText: "دەلتا بە شێوەی گەورە بە Δ دەنووسرێت بە بچووکیش بە δ.",
             onPressedBritish: () => speakdeltas1("en-GB"),
             onPressedAmerican: () => speakdeltas1("en-US"),
           ),

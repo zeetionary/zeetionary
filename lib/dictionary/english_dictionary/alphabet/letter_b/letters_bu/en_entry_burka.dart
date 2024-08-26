@@ -178,7 +178,7 @@ class EnglishEntryburka extends StatelessWidget {
                             englishText:
                                 "The burka is often associated with cultural and religious practices.",
                             kurdishText:
-                                "بورقە زۆرجار دەبەسترێتەوە بە ئادابی ئایینی و کەلتوورییەوە.", // burka", follow LX strictly
+                                "بورقە زۆرجار دەبەسترێتەوە بە ئادابی ئایینی و کەلتوورییەوە.",
                             onPressedBritish: () => speakburkas1("en-GB"),
                             onPressedAmerican: () => speakburkas1("en-US"),
                           ),

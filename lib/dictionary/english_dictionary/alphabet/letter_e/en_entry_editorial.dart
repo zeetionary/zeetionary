@@ -386,7 +386,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Some debates in Parliament are shown live and are outside editorial control.""",
             kurdishText:
-                """ھەندێک دیبەیتی پەرلەمان بە ڕاستەوخۆ پیشان دەدرێن و لە دەرەوەی دەسەڵاتی سەرنووسەرانن.""", // editorial
+                """ھەندێک دیبەیتی پەرلەمان بە ڕاستەوخۆ پیشان دەدرێن و لە دەرەوەی دەسەڵاتی سەرنووسەرانن.""",
             onPressedBritish: () => speakeditorials1("en-GB"),
             onPressedAmerican: () => speakeditorials1("en-US"),
           ),

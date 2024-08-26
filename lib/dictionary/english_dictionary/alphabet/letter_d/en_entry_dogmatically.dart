@@ -363,8 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I am not by any means dogmatically opposed to these products.",
-            kurdishText:
-                "من بە ھیچ شێوەیەک دەمارگرژانە دژ بەم بەرھەمانە نیم.", // dogmatically
+            kurdishText: "من بە ھیچ شێوەیەک دەمارگرژانە دژ بەم بەرھەمانە نیم.",
             onPressedBritish: () => speakdogmaticallys1("en-GB"),
             onPressedAmerican: () => speakdogmaticallys1("en-US"),
           ),

@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) پیشاندانی ئەوەی کە شتێک ھەڵەیە"),
           SentencesRow(
             englishText: "The theory has now been disproved.",
-            kurdishText: "بیردۆزەکە لە ئێستادا بە ھەڵە خراوە.", // disprove
+            kurdishText: "بیردۆزەکە لە ئێستادا بە ھەڵە خراوە.",
             onPressedBritish: () => speakdisproves1("en-GB"),
             onPressedAmerican: () => speakdisproves1("en-US"),
           ),

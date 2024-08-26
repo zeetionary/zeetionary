@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە کەسێک/شتێک بە سووکی یان بێ‌بەھا پیشان دەدات"),
           SentencesRow(
             englishText: "She was rather disparaging about her boss.",
-            kurdishText: "شکێنەر بوو بەرامبەر سەرپەرشتیارەکەی.", // disparaging
+            kurdishText: "شکێنەر بوو بەرامبەر سەرپەرشتیارەکەی.",
             onPressedBritish: () => speakdisparagings1("en-GB"),
             onPressedAmerican: () => speakdisparagings1("en-US"),
           ),

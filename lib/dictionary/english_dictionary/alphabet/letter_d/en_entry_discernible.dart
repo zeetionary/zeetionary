@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There is often no discernible difference between rival brands.",
             kurdishText:
-                "زۆرجار ھیچ جیاوازی ھەستپێکراو نییە لە نێوان براندە ڕکابەرەکاندا.", // discernible
+                "زۆرجار ھیچ جیاوازی ھەستپێکراو نییە لە نێوان براندە ڕکابەرەکاندا.",
             onPressedBritish: () => speakdiscernibles1("en-GB"),
             onPressedAmerican: () => speakdiscernibles1("en-US"),
           ),

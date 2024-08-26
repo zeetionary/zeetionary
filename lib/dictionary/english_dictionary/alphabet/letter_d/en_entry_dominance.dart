@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The party's dominance in Scotland was being challenged for the first time.",
             kurdishText:
-                "بۆ یەکەمین جار ھەژموونی پارتەکە لە سکۆتلەندا دەخرایە مەترسییەوە.", // dominance
+                "بۆ یەکەمین جار ھەژموونی پارتەکە لە سکۆتلەندا دەخرایە مەترسییەوە.",
             onPressedBritish: () => speakdominances1("en-GB"),
             onPressedAmerican: () => speakdominances1("en-US"),
           ),

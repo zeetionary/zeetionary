@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پێگەی سەرپەرشتی چالاکییەک، بەشێک، یان دامەزراوەیەک"),
           SentencesRow(
             englishText: "His directorship has come under fierce attack.",
-            kurdishText:
-                "بەڕێوەبەرێتییەکەی تووشی ھێرشی توند بووبوو.", // directorship
+            kurdishText: "بەڕێوەبەرێتییەکەی تووشی ھێرشی توند بووبوو.",
             onPressedBritish: () => speakdirectorships1("en-GB"),
             onPressedAmerican: () => speakdirectorships1("en-US"),
           ),

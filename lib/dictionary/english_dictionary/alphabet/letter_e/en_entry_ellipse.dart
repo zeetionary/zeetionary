@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) شێوە ھێلکەییەک کە وەک بازنەیەک وایە کە لە دوو لای بەرامبەرەوە پەستێندرابێت"""),
           SentencesRow(
             englishText: """The planet's orbit is an ellipse.""",
-            kurdishText: """خولگەی ھەسارەکە ھێلکەییە.""", // ellipse
+            kurdishText: """خولگەی ھەسارەکە ھێلکەییە.""",
             onPressedBritish: () => speakellipses1("en-GB"),
             onPressedAmerican: () => speakellipses1("en-US"),
           ),

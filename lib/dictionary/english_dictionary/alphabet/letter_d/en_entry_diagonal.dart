@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) ھێڵێک کە نە ستوونی و نە ئاسۆییە، بۆ نموونە یەکێک کە دوو گۆشەی بەرانبەری چوارگۆشەیەک بگەیەنێت بە یەکدی"),
           SentencesRow(
             englishText: "The book has a diagonal black stripe on the cover.",
-            kurdishText:
-                "کتێبەکە ھێڵێکی چەپ‌وڕاستی ھەیە لەسەر بەرگەکەی.", // diagonal
+            kurdishText: "کتێبەکە ھێڵێکی چەپ‌وڕاستی ھەیە لەسەر بەرگەکەی.",
             onPressedBritish: () => speakdiagonals1("en-GB"),
             onPressedAmerican: () => speakdiagonals1("en-US"),
           ),

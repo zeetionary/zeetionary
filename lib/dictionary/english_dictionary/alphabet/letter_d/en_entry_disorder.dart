@@ -289,7 +289,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دۆخێک یان نەخۆشییەک کە کاریگەری لەسەر شێوازی کارکردنی بەشێکی جەستە دەبێت"),
           SentencesRow(
             englishText: "He was diagnosed with an anxiety disorder.",
-            kurdishText: "بەوە ناسێنرا کە کێشەی خەمۆکی ھەیە.", // disorder
+            kurdishText: "بەوە ناسێنرا کە کێشەی خەمۆکی ھەیە.",
             onPressedBritish: () => speakdisorders1("en-GB"),
             onPressedAmerican: () => speakdisorders1("en-US"),
           ),

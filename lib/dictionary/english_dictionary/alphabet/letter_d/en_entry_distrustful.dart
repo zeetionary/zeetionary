@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) نەبوونی ئامادەیی بۆ باوەڕکردن بە شتێک/کەسێک"),
           SentencesRow(
             englishText: "He has always been distrustful of authority.",
-            kurdishText: "ھەمیشە بێ متمانە بووە بە دەسەڵات.", // distrustful
+            kurdishText: "ھەمیشە بێ متمانە بووە بە دەسەڵات.",
             onPressedBritish: () => speakdistrustfuls1("en-GB"),
             onPressedAmerican: () => speakdistrustfuls1("en-US"),
           ),

@@ -271,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ھێندە زیرەک و بوێر کە شتێک بکەیت"),
           SentencesRow(
             englishText: "She said it as loudly as she dared.",
-            kurdishText: "ھەتا توانی بە بەرزی گوتی.", // dare
+            kurdishText: "ھەتا توانی بە بەرزی گوتی.",
             onPressedBritish: () => speakdares1("en-GB"),
             onPressedAmerican: () => speakdares1("en-US"),
           ),

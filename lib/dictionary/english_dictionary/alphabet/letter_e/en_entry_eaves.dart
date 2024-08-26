@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Birds built a nest under the eaves.""",
             kurdishText:
-                """باڵندەکان لەژێر سەرەسوانەکە ھێلانەیەکیان درووستکرد لە پاسارەکە.""", // eaves
+                """باڵندەکان لەژێر سەرەسوانەکە ھێلانەیەکیان درووستکرد لە پاسارەکە.""",
             onPressedBritish: () => speakeavess1("en-GB"),
             onPressedAmerican: () => speakeavess1("en-US"),
           ),

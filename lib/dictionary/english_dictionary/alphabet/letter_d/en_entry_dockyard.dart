@@ -362,8 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The dockyard was filled with ships undergoing repairs.",
-            kurdishText:
-                "سازگەی کەشتییەکان پڕبوو لە کەشتی کە چاکدەکرانەوە.", // dockyard
+            kurdishText: "سازگەی کەشتییەکان پڕبوو لە کەشتی کە چاکدەکرانەوە.",
             onPressedBritish: () => speakdockyards1("en-GB"),
             onPressedAmerican: () => speakdockyards1("en-US"),
           ),

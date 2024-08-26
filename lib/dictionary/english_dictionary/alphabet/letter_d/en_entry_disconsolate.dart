@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The disconsolate players left for home without a trophy.",
-            kurdishText:
-                "یاریزانە دڵپڕەکان چوونەوە ماڵەوە بەبێ خەڵات.", // disconsolate
+            kurdishText: "یاریزانە دڵپڕەکان چوونەوە ماڵەوە بەبێ خەڵات.",
             onPressedBritish: () => speakdisconsolates1("en-GB"),
             onPressedAmerican: () => speakdisconsolates1("en-US"),
           ),

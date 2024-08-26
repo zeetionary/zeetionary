@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) شەڕی نێوان دوو کەس بە چەک (زۆرجار شمشێر) کە ناکۆکییان ھەیە، بەتایبەتی لەسەر بابەتی ئابڕوو"""),
           SentencesRow(
             englishText: """He fought a duel with the prince.""",
-            kurdishText: """شەڕێکی لەگەڵ شازەکە کرد.""", // duel
+            kurdishText: """شەڕێکی لەگەڵ شازەکە کرد.""",
             onPressedBritish: () => speakduels1("en-GB"),
             onPressedAmerican: () => speakduels1("en-US"),
           ),

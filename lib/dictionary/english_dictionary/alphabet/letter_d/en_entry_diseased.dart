@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Farmers were dumping or burying the diseased carcasses.",
             kurdishText:
-                "جوتیاران کەلاکە نەخۆشکەوتووەکان فڕێدەدا یان دەیانناشتن.", // diseased
+                "جوتیاران کەلاکە نەخۆشکەوتووەکان فڕێدەدا یان دەیانناشتن.",
             onPressedBritish: () => speakdiseaseds1("en-GB"),
             onPressedAmerican: () => speakdiseaseds1("en-US"),
           ),

@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) نەتوانینی قسەکردن بەھۆی سەرسامی"""),
           SentencesRow(
             englishText: """The news left her dumbfounded.""",
-            kurdishText: """ھەواڵەکە بە حەپەساوی ھێشتییەوە.""", // dumbfounded
+            kurdishText: """ھەواڵەکە بە حەپەساوی ھێشتییەوە.""",
             onPressedBritish: () => speakdumbfoundeds1("en-GB"),
             onPressedAmerican: () => speakdumbfoundeds1("en-US"),
           ),

@@ -363,8 +363,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She used a drawing pin to hang the poster on the wall.",
-            kurdishText:
-                "پۆنزی بەکارھێنا بۆ بەستنی پۆستەرەکە بە دیوارەکەوە.", // drawing pin
+            kurdishText: "پۆنزی بەکارھێنا بۆ بەستنی پۆستەرەکە بە دیوارەکەوە.",
             onPressedBritish: () => speakdrawingpins1("en-GB"),
             onPressedAmerican: () => speakdrawingpins1("en-US"),
           ),

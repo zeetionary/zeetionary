@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Since the elections there has been a greater emphasis on education.""",
             kurdishText:
-                """لەوەتەی ھەڵبژاردنەکانەوە گرنگییەکی تایبەت بە پەروەردە دراوە.""", // emphasis
+                """لەوەتەی ھەڵبژاردنەکانەوە گرنگییەکی تایبەت بە پەروەردە دراوە.""",
             onPressedBritish: () => speakemphasiss1("en-GB"),
             onPressedAmerican: () => speakemphasiss1("en-US"),
           ),

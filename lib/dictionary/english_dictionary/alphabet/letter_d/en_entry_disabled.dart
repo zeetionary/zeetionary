@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "My sister is learning disabled (= she has a learning disability).",
-            kurdishText: "خوشکەکەم کەمئەندامی لە فێربووندا ھەیە.", // disabled
+            kurdishText: "خوشکەکەم کەمئەندامی لە فێربووندا ھەیە.",
             onPressedBritish: () => speakdisableds1("en-GB"),
             onPressedAmerican: () => speakdisableds1("en-US"),
           ),

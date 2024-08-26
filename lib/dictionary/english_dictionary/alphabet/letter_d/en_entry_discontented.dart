@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He felt discontented with the way his life had turned out.",
             kurdishText:
-                "ھەستی بە ناڕەزامەندی دەکرد بەو ئاقارەی ژیانی پێیدا دەچوو.", // discontented
+                "ھەستی بە ناڕەزامەندی دەکرد بەو ئاقارەی ژیانی پێیدا دەچوو.",
             onPressedBritish: () => speakdiscontenteds1("en-GB"),
             onPressedAmerican: () => speakdiscontenteds1("en-US"),
           ),

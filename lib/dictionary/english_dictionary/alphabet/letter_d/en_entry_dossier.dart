@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ژمارەیەک بەڵگەنامە کە زانیاری لەسەر کەسێک، ڕووداوێ، یان بابەتێکی لەخۆدەگرێت"),
           SentencesRow(
             englishText: "We have a dossier on him.",
-            kurdishText: "دۆسیەیەکمان لەسەری ھەیە.", // dossier
+            kurdishText: "دۆسیەیەکمان لەسەری ھەیە.",
             onPressedBritish: () => speakdossiers1("en-GB"),
             onPressedAmerican: () => speakdossiers1("en-US"),
           ),

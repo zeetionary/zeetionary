@@ -140,7 +140,7 @@ class EnglishEntrybuff extends StatelessWidget {
                             englishText:
                                 "They were a group of computer buffs who used to meet every Thursday evening.",
                             kurdishText:
-                                "ژمارەیەک تامەزرۆی کۆمپیوتەر ھەبوون کە ھەموو شەوانی پێنجشەممەیەک یەکیان دەدی.", // buff", follow LX strictly.
+                                "ژمارەیەک تامەزرۆی کۆمپیوتەر ھەبوون کە ھەموو شەوانی پێنجشەممەیەک یەکیان دەدی.",
                             onPressedBritish: () => speakbuffs1("en-GB"),
                             onPressedAmerican: () => speakbuffs1("en-US"),
                           ),

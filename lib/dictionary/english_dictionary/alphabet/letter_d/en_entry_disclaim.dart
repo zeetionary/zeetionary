@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The rebels disclaimed all responsibility for the explosion.",
             kurdishText:
-                "یاخیبووەکان نکۆڵییان لە ھەر بەرپرسیاریەتییەک بۆ تەقینەوەکە کرد.", // disclaim
+                "یاخیبووەکان نکۆڵییان لە ھەر بەرپرسیاریەتییەک بۆ تەقینەوەکە کرد.",
             onPressedBritish: () => speakdisclaims1("en-GB"),
             onPressedAmerican: () => speakdisclaims1("en-US"),
           ),

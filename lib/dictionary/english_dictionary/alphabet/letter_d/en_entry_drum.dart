@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دەھۆڵ؛ ئامێرێکی میوزیکی کە لە چوارچێوەیەکی خڕی ناوبۆش پێکھاتووە و بە دوو چیلکە لێی دەدەیت"),
           SentencesRow(
             englishText: "I used to play drums in a band.",
-            kurdishText: "جاران دەھۆڵم لێدەدا لە باندێکدا.", // drum
+            kurdishText: "جاران دەھۆڵم لێدەدا لە باندێکدا.",
             onPressedBritish: () => speakdrums1("en-GB"),
             onPressedAmerican: () => speakdrums1("en-US"),
           ),

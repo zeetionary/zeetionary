@@ -298,8 +298,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I loved the Japanese diet of rice, vegetables and fish.",
-            kurdishText:
-                "حەزم بە خۆراکی ژاپۆنی برنج، سەوزە و ماسی بوو.", // diet
+            kurdishText: "حەزم بە خۆراکی ژاپۆنی برنج، سەوزە و ماسی بوو.",
             onPressedBritish: () => speakdiets1("en-GB"),
             onPressedAmerican: () => speakdiets1("en-US"),
           ),

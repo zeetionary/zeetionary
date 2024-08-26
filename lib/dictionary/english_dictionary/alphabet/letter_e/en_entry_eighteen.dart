@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """You are allowed to vote at eighteen (= when you are 18 years old).""",
-            kurdishText: """لە ١٨ ساڵی ڕێگەپێدراوی دەنگ بدەیت.""", // eighteen
+            kurdishText: """لە ١٨ ساڵی ڕێگەپێدراوی دەنگ بدەیت.""",
             onPressedBritish: () => speakeighteens1("en-GB"),
             onPressedAmerican: () => speakeighteens1("en-US"),
           ),

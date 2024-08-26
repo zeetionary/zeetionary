@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Demographers predict that 20–30% of this cohort of women will remain childless.",
             kurdishText:
-                "حەشیمەت‌ناسان پێشبینی ئەوە دەکەن کە ٢٠-٣٠٪ ـی ئەم گرووپە لە ژنان بێ منداڵ دەمێننەوە.", // demographer
+                "حەشیمەت‌ناسان پێشبینی ئەوە دەکەن کە ٢٠-٣٠٪ ـی ئەم گرووپە لە ژنان بێ منداڵ دەمێننەوە.",
             onPressedBritish: () => speakdemographers1("en-GB"),
             onPressedAmerican: () => speakdemographers1("en-US"),
           ),

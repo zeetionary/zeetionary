@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئامێرێک کە بەکاردێت بۆ ئەوەی تەقینەوەیەک بتەقێنێتەوە"),
           SentencesRow(
             englishText: "The detonator set off the dynamite in the mine.",
-            kurdishText:
-                "تقێنەرەوەکە داینەمایتی لە کانەکە تەقاندەوە.", // detonator
+            kurdishText: "تقێنەرەوەکە داینەمایتی لە کانەکە تەقاندەوە.",
             onPressedBritish: () => speakdetonators1("en-GB"),
             onPressedAmerican: () => speakdetonators1("en-US"),
           ),

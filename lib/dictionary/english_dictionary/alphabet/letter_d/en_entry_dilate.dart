@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) گەورەبوون، فراوانبوون، یان زیاتر کرانەوە"),
           SentencesRow(
             englishText: "Her eyes dilated with fear.",
-            kurdishText: "چاوەکانی لە ترسدا گەورە بوون.", // dilate
+            kurdishText: "چاوەکانی لە ترسدا گەورە بوون.",
             onPressedBritish: () => speakdilates1("en-GB"),
             onPressedAmerican: () => speakdilates1("en-US"),
           ),

@@ -399,7 +399,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The basic design of the car is very similar to that of earlier models.",
             kurdishText:
-                "دیزاینی سەرەکیی ئۆتۆمبێلەکە زۆر لێکچووە لەگەڵ مۆدێلەکانی پێشتردا.", // design
+                "دیزاینی سەرەکیی ئۆتۆمبێلەکە زۆر لێکچووە لەگەڵ مۆدێلەکانی پێشتردا.",
             onPressedBritish: () => speakdesigns1("en-GB"),
             onPressedAmerican: () => speakdesigns1("en-US"),
           ),

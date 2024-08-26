@@ -398,7 +398,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) وشکێتی"),
           SentencesRow(
             englishText: "The medicine may cause dryness of the mouth.",
-            kurdishText: "دەرمانەکە ڕەنگە ببێتە ھۆکاری وشکێتی دەم.", // dryness
+            kurdishText: "دەرمانەکە ڕەنگە ببێتە ھۆکاری وشکێتی دەم.",
             onPressedBritish: () => speakdrynesss1("en-GB"),
             onPressedAmerican: () => speakdrynesss1("en-US"),
           ),

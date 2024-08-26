@@ -241,7 +241,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Traditional surgical approaches to spinal pain involve open dissection of soft tissue and bone.",
             kurdishText:
-                "ڕێگا کۆنەکانی نەشتەرگەری توێکاری کردنەوەی شانەی نەرم و ئێسک لە خۆدەگرێت.", // dissection
+                "ڕێگا کۆنەکانی نەشتەرگەری توێکاری کردنەوەی شانەی نەرم و ئێسک لە خۆدەگرێت.",
             onPressedBritish: () => speakdissections1("en-GB"),
             onPressedAmerican: () => speakdissections1("en-US"),
           ),

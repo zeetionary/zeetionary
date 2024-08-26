@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "A demilitarized zone has been created on the border between the warring countries.",
             kurdishText:
-                "ناوچەیەکی لەچەک‌داماڵدراو درووستکراوە لە نێوان دوو وڵاتە دژبەرەکەدا.", // demilitarize
+                "ناوچەیەکی لەچەک‌داماڵدراو درووستکراوە لە نێوان دوو وڵاتە دژبەرەکەدا.",
             onPressedBritish: () => speakdemilitarizes1("en-GB"),
             onPressedAmerican: () => speakdemilitarizes1("en-US"),
           ),

@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) لەسەرخۆ و ئەوەی کە ئاسانە کۆنترۆڵ بکرێت"),
           SentencesRow(
             englishText: "The animal looked remarkably docile.",
-            kurdishText: "ئاژەڵەکە تەواو دەستەمۆ دیاربوو.", // docile
+            kurdishText: "ئاژەڵەکە تەواو دەستەمۆ دیاربوو.",
             onPressedBritish: () => speakdociles1("en-GB"),
             onPressedAmerican: () => speakdociles1("en-US"),
           ),

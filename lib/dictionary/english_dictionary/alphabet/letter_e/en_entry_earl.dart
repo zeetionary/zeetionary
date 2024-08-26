@@ -366,8 +366,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) خانەدانێکی پلە بەرزێکی بەریتانی"""),
           SentencesRow(
             englishText: """The Earl of Essex led troops in battle.""",
-            kurdishText:
-                """ئێرڵی ئێسێکس ڕابەرایەتی ھێزەکانی کرد لە جەنگدا.""", // earl
+            kurdishText: """ئێرڵی ئێسێکس ڕابەرایەتی ھێزەکانی کرد لە جەنگدا.""",
             onPressedBritish: () => speakearls1("en-GB"),
             onPressedAmerican: () => speakearls1("en-US"),
           ),

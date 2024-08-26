@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "I'm sorry to disillusion you, but pregnancy is not always wonderful - I was sick every day for six months.",
             kurdishText:
-                "بەداخەوەم کە لە خەیاڵ دەردێنم، بەڵام دووگیانی ھەموو کات خۆش نییە ـ من بۆ شەش مانگ ھەموو ڕۆژێک نەخۆش بووم.", // disillusion
+                "بەداخەوەم کە لە خەیاڵ دەردێنم، بەڵام دووگیانی ھەموو کات خۆش نییە ـ من بۆ شەش مانگ ھەموو ڕۆژێک نەخۆش بووم.",
             onPressedBritish: () => speakdisillusions1("en-GB"),
             onPressedAmerican: () => speakdisillusions1("en-US"),
           ),

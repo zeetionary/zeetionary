@@ -257,8 +257,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) نەبوونی ڕێز بۆ خەڵکی/شت"),
           SentencesRow(
             englishText: "No disrespect intended. It was just a joke.",
-            kurdishText:
-                "ھیچ مەبەستم لە بێڕیزی نەبوو. تەنھا گاڵتەیەک بوو.", // disrespect
+            kurdishText: "ھیچ مەبەستم لە بێڕیزی نەبوو. تەنھا گاڵتەیەک بوو.",
             onPressedBritish: () => speakdisrespects1("en-GB"),
             onPressedAmerican: () => speakdisrespects1("en-US"),
           ),

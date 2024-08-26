@@ -229,8 +229,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) واگۆنێکی شەمەندەفەر کە خواردنی تێدا دەخورێت"),
           SentencesRow(
             englishText: "He sat by the window in the dining car.",
-            kurdishText:
-                "لە واگۆنی نان‌خواردنەکە لە تەنیشت پەنجەرەکە دانیشت.", // dining car
+            kurdishText: "لە واگۆنی نان‌خواردنەکە لە تەنیشت پەنجەرەکە دانیشت.",
             onPressedBritish: () => speakdiningcars1("en-GB"),
             onPressedAmerican: () => speakdiningcars1("en-US"),
           ),

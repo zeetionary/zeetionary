@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) شیبوونەوە بە سرووشتی لە دوای مەرگ"),
           SentencesRow(
             englishText: "The garden was dank with decomposing vegetation.",
-            kurdishText: "باخچەکە شێدار بوو بە ڕووەکی شیبووەوە.", // decompose
+            kurdishText: "باخچەکە شێدار بوو بە ڕووەکی شیبووەوە.",
             onPressedBritish: () => speakdecomposes1("en-GB"),
             onPressedAmerican: () => speakdecomposes1("en-US"),
           ),

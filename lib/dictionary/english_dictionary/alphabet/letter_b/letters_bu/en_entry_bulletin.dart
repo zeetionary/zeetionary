@@ -141,7 +141,7 @@ class EnglishEntrybulletin extends StatelessWidget {
                             englishText:
                                 "The story led the television news bulletins that evening.",
                             kurdishText:
-                                "ھەواڵەکە ئەو شەوە سەردێڕی کورتە ھەواڵی تەلەفیزیۆنی بوو.", // bulletin", follow LX strictly
+                                "ھەواڵەکە ئەو شەوە سەردێڕی کورتە ھەواڵی تەلەفیزیۆنی بوو.",
                             onPressedBritish: () => speakbulletins1("en-GB"),
                             onPressedAmerican: () => speakbulletins1("en-US"),
                           ),

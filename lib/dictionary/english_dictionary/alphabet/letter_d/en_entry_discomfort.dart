@@ -280,8 +280,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "You will experience some minor discomfort during the treatment.",
-            kurdishText:
-                "لە کاتی چارەسەرەکەدا کەمێک ھەست بە ناڕەحەتی دەکەیت.", // discomfort
+            kurdishText: "لە کاتی چارەسەرەکەدا کەمێک ھەست بە ناڕەحەتی دەکەیت.",
             onPressedBritish: () => speakdiscomforts1("en-GB"),
             onPressedAmerican: () => speakdiscomforts1("en-US"),
           ),

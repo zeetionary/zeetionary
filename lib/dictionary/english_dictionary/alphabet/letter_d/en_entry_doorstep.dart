@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The police turned up on their doorstep at 3 o'clock this morning.",
-            kurdishText:
-                "کاتژمێر ٣ ــی ئەم بەیانییە پۆلیس ھاتنە پێش دەرگایان.", // doorstep
+            kurdishText: "کاتژمێر ٣ ــی ئەم بەیانییە پۆلیس ھاتنە پێش دەرگایان.",
             onPressedBritish: () => speakdoorsteps1("en-GB"),
             onPressedAmerican: () => speakdoorsteps1("en-US"),
           ),

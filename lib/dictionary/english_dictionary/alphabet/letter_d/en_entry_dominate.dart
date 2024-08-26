@@ -427,7 +427,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She always says a lot in meetings, but she doesn't dominate.",
             kurdishText:
-                "ھەمیشە زۆر دەڵێت لە چاوپێکەوتنەکاندا، بەڵام قۆرخیان ناکات.", // dominate
+                "ھەمیشە زۆر دەڵێت لە چاوپێکەوتنەکاندا، بەڵام قۆرخیان ناکات.",
             onPressedBritish: () => speakdominates1("en-GB"),
             onPressedAmerican: () => speakdominates1("en-US"),
           ),

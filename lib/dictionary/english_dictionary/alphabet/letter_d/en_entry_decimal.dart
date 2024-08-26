@@ -264,8 +264,7 @@ class KurdishMeaning extends StatelessWidget {
                   "٢. (ناو) ڕێژەیەک (ژمارەیەکی کەمتر لە یەک) کە بە فاریزەیەک پیشاندەدرێت لەگەڵ ژمارەی دیکە بەدوایدا"),
           SentencesRow(
             englishText: "Three fifths expressed as a decimal is 0.6.",
-            kurdishText:
-                "سێ لە پێنج بە کەرتی دەیی بە ٠,٦ دەردەبڕدرێت.", // decimal
+            kurdishText: "سێ لە پێنج بە کەرتی دەیی بە ٠,٦ دەردەبڕدرێت.",
             onPressedBritish: () => speakdecimals1("en-GB"),
             onPressedAmerican: () => speakdecimals1("en-US"),
           ),

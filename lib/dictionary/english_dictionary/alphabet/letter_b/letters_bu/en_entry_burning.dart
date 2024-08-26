@@ -182,7 +182,7 @@ class EnglishEntryburning extends StatelessWidget {
                             englishText:
                                 "He's always had a burning ambition to start his own business.",
                             kurdishText:
-                                "ھەمیشە خولیایەکی زۆری ھەبوو کە بازرگانیی خۆی دەستپێ بکات.", // burning", follow LX strictly
+                                "ھەمیشە خولیایەکی زۆری ھەبوو کە بازرگانیی خۆی دەستپێ بکات.",
                             onPressedBritish: () => speakburnings1("en-GB"),
                             onPressedAmerican: () => speakburnings1("en-US"),
                           ),

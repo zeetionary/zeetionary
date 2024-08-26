@@ -319,7 +319,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "New research convincingly demonstrates that age-related memory loss is not inevitable.",
             kurdishText:
-                "توێژینەوەی تازە قایلکارانە ئەوە پیشان دەدات کە لەبیرچوونەوەی پەیوەندیدار بە تەمەن ڕێگەلێ‌نەگیردراوە.", // demonstrate
+                "توێژینەوەی تازە قایلکارانە ئەوە پیشان دەدات کە لەبیرچوونەوەی پەیوەندیدار بە تەمەن ڕێگەلێ‌نەگیردراوە.",
             onPressedBritish: () => speakdemonstrates1("en-GB"),
             onPressedAmerican: () => speakdemonstrates1("en-US"),
           ),

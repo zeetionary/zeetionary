@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "It was a downtrodden nation during centuries of foreign occupation.",
             kurdishText:
-                "نەتەوەیەکی چەوسێنراو بوو لە ماوەی چەندین سەدە لە داگیرکاریی بیانی.", // downtrodden
+                "نەتەوەیەکی چەوسێنراو بوو لە ماوەی چەندین سەدە لە داگیرکاریی بیانی.",
             onPressedBritish: () => speakdowntroddens1("en-GB"),
             onPressedAmerican: () => speakdowntroddens1("en-US"),
           ),

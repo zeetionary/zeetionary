@@ -271,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "These figures include digital downloads in addition to retail sales.",
             kurdishText:
-                "ئەم ئامارانە دابەزاندنی دیخیتاڵی پیشان دەدەن لەگەڵ فرۆشی فرۆشگادا.", // digital
+                "ئەم ئامارانە دابەزاندنی دیخیتاڵی پیشان دەدەن لەگەڵ فرۆشی فرۆشگادا.",
             onPressedBritish: () => speakdigitals1("en-GB"),
             onPressedAmerican: () => speakdigitals1("en-US"),
           ),

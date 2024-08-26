@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The data is all processed electronically these days.""",
             kurdishText:
-                """داتا ئەم ڕۆژانە ھەمووی بە شێوەیەکی ئێلیکترۆنیکی کاری پێدەکرێت.""", // electronically
+                """داتا ئەم ڕۆژانە ھەمووی بە شێوەیەکی ئێلیکترۆنیکی کاری پێدەکرێت.""",
             onPressedBritish: () => speakelectronicallys1("en-GB"),
             onPressedAmerican: () => speakelectronicallys1("en-US"),
           ),

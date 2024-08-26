@@ -233,8 +233,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) داوایەک لە بانکەکەت کە ڕێگا بدات بە کەسێک یان دامەزراوەیەک کە پارە لە ھەژمارەکەت دەربکات لە کاتێکی دیاریکراودا، بۆ نموونە بۆ کڕینی خزمەتگوزارییەک بە مانگانە"),
           SentencesRow(
             englishText: "We pay all our bills by direct debit.",
-            kurdishText:
-                "پارەی تەواوی پسووڵەکانمان دەدەین بە پێدانی ڕاستەوخۆ.", // direct debit
+            kurdishText: "پارەی تەواوی پسووڵەکانمان دەدەین بە پێدانی ڕاستەوخۆ.",
             onPressedBritish: () => speakdirectdebits1("en-GB"),
             onPressedAmerican: () => speakdirectdebits1("en-US"),
           ),

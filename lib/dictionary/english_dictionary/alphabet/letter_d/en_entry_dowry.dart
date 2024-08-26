@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "His family hoped that his bride would bring a large dowry.",
             kurdishText:
-                "خێزانەکەی بەھیوابوون کە بووکەکە مارەییەکی زۆر بھێنێت.", // dowry
+                "خێزانەکەی بەھیوابوون کە بووکەکە مارەییەکی زۆر بھێنێت.",
             onPressedBritish: () => speakdowrys1("en-GB"),
             onPressedAmerican: () => speakdowrys1("en-US"),
           ),

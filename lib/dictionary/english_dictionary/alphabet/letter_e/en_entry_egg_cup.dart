@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) کوپێکی بچووک بۆ ھەڵگرتنی ھێلکەیەکی کوڵاو کە دەیخۆیت"""),
           SentencesRow(
             englishText: """She placed the boiled egg in the egg cup.""",
-            kurdishText: """ھێلکە کوڵاوەکەی خستە سەر جێ‌ھێلکەکە.""", // egg cup
+            kurdishText: """ھێلکە کوڵاوەکەی خستە سەر جێ‌ھێلکەکە.""",
             onPressedBritish: () => speakeggcups1("en-GB"),
             onPressedAmerican: () => speakeggcups1("en-US"),
           ),

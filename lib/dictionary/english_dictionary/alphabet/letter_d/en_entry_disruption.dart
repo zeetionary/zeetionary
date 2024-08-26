@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) دۆخێک کە سەختە شتێک بەشێوەی ئاسایی بەردەوام بێت"),
           SentencesRow(
             englishText: "The strike caused serious disruptions.",
-            kurdishText:
-                "مانگرتنەکە بوو بە ھۆکاری پەککەوتنی توند.", // disruption
+            kurdishText: "مانگرتنەکە بوو بە ھۆکاری پەککەوتنی توند.",
             onPressedBritish: () => speakdisruptions1("en-GB"),
             onPressedAmerican: () => speakdisruptions1("en-US"),
           ),

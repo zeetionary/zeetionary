@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """This album captures the dynamism of contemporary British jazz.""",
             kurdishText:
-                """ئەم ئەلبوومە جم‌وجۆڵی میوزیکی سەردەمی جاز لە بەریتانیا پیشان دەدات.""", // dynamism
+                """ئەم ئەلبوومە جم‌وجۆڵی میوزیکی سەردەمی جاز لە بەریتانیا پیشان دەدات.""",
             onPressedBritish: () => speakdynamisms1("en-GB"),
             onPressedAmerican: () => speakdynamisms1("en-US"),
           ),

@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Scientists study the island's emergence from the sea for clues about Earth's history.""",
             kurdishText:
-                """زاناکان لێکۆڵینەوە لە دەرکەوتنی دوورگەکە لە دەریاوە دەکەن بۆ سەرەداو سەبارەت بە مژووی زەوی.""", // emergence
+                """زاناکان لێکۆڵینەوە لە دەرکەوتنی دوورگەکە لە دەریاوە دەکەن بۆ سەرەداو سەبارەت بە مژووی زەوی.""",
             onPressedBritish: () => speakemergences1("en-GB"),
             onPressedAmerican: () => speakemergences1("en-US"),
           ),

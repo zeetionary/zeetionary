@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Dockers play a crucial role in the loading and unloading of ships.",
             kurdishText:
-                "کرێکارانی لەنگەرگا ڕۆڵێکی گرنگ دەبینن لە بارکردن و بەتاڵکردنی کەشتییەکان.", // docker
+                "کرێکارانی لەنگەرگا ڕۆڵێکی گرنگ دەبینن لە بارکردن و بەتاڵکردنی کەشتییەکان.",
             onPressedBritish: () => speakdockers1("en-GB"),
             onPressedAmerican: () => speakdockers1("en-US"),
           ),

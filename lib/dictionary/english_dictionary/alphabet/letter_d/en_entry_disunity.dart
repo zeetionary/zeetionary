@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Disunity among opposition groups will prevent real change from happening.",
             kurdishText:
-                "ناتەبایی لە نێوان گرووپەکانی ئۆپۆزسیۆن ڕێگا دەگرێت لەوەی گۆڕانی ڕاستەقینە ڕووبدات.", // disunity
+                "ناتەبایی لە نێوان گرووپەکانی ئۆپۆزسیۆن ڕێگا دەگرێت لەوەی گۆڕانی ڕاستەقینە ڕووبدات.",
             onPressedBritish: () => speakdisunitys1("en-GB"),
             onPressedAmerican: () => speakdisunitys1("en-US"),
           ),

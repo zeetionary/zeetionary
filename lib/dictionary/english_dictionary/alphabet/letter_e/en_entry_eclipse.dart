@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """On Wednesday there will be a total/partial eclipse of the sun.""",
             kurdishText:
-                """ڕۆژی چوارشەممە گیرانی تەواوەتی/بەشیکی خۆر ڕوودەدات.""", // eclipse
+                """ڕۆژی چوارشەممە گیرانی تەواوەتی/بەشیکی خۆر ڕوودەدات.""",
             onPressedBritish: () => speakeclipses1("en-GB"),
             onPressedAmerican: () => speakeclipses1("en-US"),
           ),

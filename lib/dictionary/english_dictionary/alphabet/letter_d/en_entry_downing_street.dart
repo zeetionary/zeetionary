@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Downing Street issued a statement late last night.",
             kurdishText:
-                "حکومەت (ـی بەریتانیا) درەنگانی شەوی ڕابردوو بەیاننامەیەکی دەرکرد.", // Downing Street
+                "حکومەت (ـی بەریتانیا) درەنگانی شەوی ڕابردوو بەیاننامەیەکی دەرکرد.",
             onPressedBritish: () => speakDowningstreets1("en-GB"),
             onPressedAmerican: () => speakDowningstreets1("en-US"),
           ),

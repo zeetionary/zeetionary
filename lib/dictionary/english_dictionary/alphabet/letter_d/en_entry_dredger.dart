@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بەلەمێک یان ئامێرێک کە بەکاردێت بۆ دەرکردنی قوڕ لە بنکی ئاوێک بۆ ئەوەی قووڵتر یان فراوانتری بکت"),
           SentencesRow(
             englishText: "The dredger cleared silt from the riverbed.",
-            kurdishText:
-                "قوڕدەرکەرەکە لتەکەی لە بنکی دەریایەکە پاککردەوە.", // dredger
+            kurdishText: "قوڕدەرکەرەکە لتەکەی لە بنکی دەریایەکە پاککردەوە.",
             onPressedBritish: () => speakdredgers1("en-GB"),
             onPressedAmerican: () => speakdredgers1("en-US"),
           ),

@@ -247,8 +247,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە ئەو شتانە نییە کە دەکرێت لە ژیان سەرکەوتوویان بکات، بۆ نموونە خوێندن و پارە"),
           SentencesRow(
             englishText: "These social groups remain disadvantaged.",
-            kurdishText:
-                "ئەم گرووپە کۆمەڵایەتیانە بە بەش‌بڕاوی ماونەتەوە.", // disadvantaged
+            kurdishText: "ئەم گرووپە کۆمەڵایەتیانە بە بەش‌بڕاوی ماونەتەوە.",
             onPressedBritish: () => speakdisadvantageds1("en-GB"),
             onPressedAmerican: () => speakdisadvantageds1("en-US"),
           ),

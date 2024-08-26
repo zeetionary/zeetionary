@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) پیشاندانی کەسێک/شتێک بە شێوەیەکی دیاریکراو بە وشە یان وێنە"),
           SentencesRow(
             englishText: "They object to the movie's depiction of gay people.",
-            kurdishText: "دژ بە وێناکردنی فیلمەکەن بۆ کەسانی گەی.", // depiction
+            kurdishText: "دژ بە وێناکردنی فیلمەکەن بۆ کەسانی گەی.",
             onPressedBritish: () => speakdepictions1("en-GB"),
             onPressedAmerican: () => speakdepictions1("en-US"),
           ),

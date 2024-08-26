@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The system can be connected to virtually any type of electrically controlled device.""",
             kurdishText:
-                """سیستەمەکە دەکرێت پەیوەست بکرێت بە نزیکەیی ھەموو جۆرە ئامێرێکی کۆنترۆڵکراو بەکارەبا.""", // electrically
+                """سیستەمەکە دەکرێت پەیوەست بکرێت بە نزیکەیی ھەموو جۆرە ئامێرێکی کۆنترۆڵکراو بەکارەبا.""",
             onPressedBritish: () => speakelectricallys1("en-GB"),
             onPressedAmerican: () => speakelectricallys1("en-US"),
           ),

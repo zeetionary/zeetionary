@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """There are only eight of these rare animals left.""",
             kurdishText:
-                """تەنھا ھەشت دانە لەم ئاژەڵانە دەگمەنانە ماونەتەوە.""", // eight
+                """تەنھا ھەشت دانە لەم ئاژەڵانە دەگمەنانە ماونەتەوە.""",
             onPressedBritish: () => speakeights1("en-GB"),
             onPressedAmerican: () => speakeights1("en-US"),
           ),

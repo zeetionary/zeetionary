@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The test is used to diagnose a variety of diseases.",
             kurdishText:
-                "پشکنینەکە بەکاردێت بۆ دیاری کردنی ژمارەیەک لە نەخۆشی.", // diagnose
+                "پشکنینەکە بەکاردێت بۆ دیاری کردنی ژمارەیەک لە نەخۆشی.",
             onPressedBritish: () => speakdiagnoses1("en-GB"),
             onPressedAmerican: () => speakdiagnoses1("en-US"),
           ),

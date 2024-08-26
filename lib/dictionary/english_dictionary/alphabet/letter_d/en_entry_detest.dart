@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) ڕقبوون لە کەسێک/شتێک بەزۆری"),
           SentencesRow(
             englishText: "They absolutely detest each other.",
-            kurdishText: "تەواو ڕقیان لە یەکدی بوو.", // detest
+            kurdishText: "تەواو ڕقیان لە یەکدی بوو.",
             onPressedBritish: () => speakdetests1("en-GB"),
             onPressedAmerican: () => speakdetests1("en-US"),
           ),

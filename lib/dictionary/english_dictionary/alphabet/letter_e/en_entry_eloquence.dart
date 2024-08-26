@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) توانای بەکارھێنانی زمان و دەربڕینی بۆچوونەکانت بەباشی"""),
           SentencesRow(
             englishText: """She was renowned for her eloquence and beauty.""",
-            kurdishText:
-                """بۆ جوانی و ڕەوانبێژییەکەی بەناوبانگ بوو.""", // eloquence
+            kurdishText: """بۆ جوانی و ڕەوانبێژییەکەی بەناوبانگ بوو.""",
             onPressedBritish: () => speakeloquences1("en-GB"),
             onPressedAmerican: () => speakeloquences1("en-US"),
           ),

@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The handles of medical instruments used to be made of ebony.""",
             kurdishText:
-                """دەسکی ئامرازە پزیشکییەکانی پزیشکی جاران لە ڕەشەدار درووست دەکران.""", // ebony
+                """دەسکی ئامرازە پزیشکییەکانی پزیشکی جاران لە ڕەشەدار درووست دەکران.""",
             onPressedBritish: () => speakebonys1("en-GB"),
             onPressedAmerican: () => speakebonys1("en-US"),
           ),

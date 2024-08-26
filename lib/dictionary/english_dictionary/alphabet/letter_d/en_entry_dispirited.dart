@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) نەبوونی ھیوا  خۆش‌وخرۆشی"),
           SentencesRow(
             englishText: "She looked tired and dispirited.",
-            kurdishText: "ماندوو و بێ‌ھیوا دیاربوو.", // dispirited
+            kurdishText: "ماندوو و بێ‌ھیوا دیاربوو.",
             onPressedBritish: () => speakdispiriteds1("en-GB"),
             onPressedAmerican: () => speakdispiriteds1("en-US"),
           ),

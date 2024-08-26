@@ -376,7 +376,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Two of the fireworks in the box were duds.""",
             kurdishText:
-                """دووان لە یارییە ئاگرینەکان لە سندووقەکە بەکارنەھاتوو بوون.""", // dud
+                """دووان لە یارییە ئاگرینەکان لە سندووقەکە بەکارنەھاتوو بوون.""",
             onPressedBritish: () => speakduds1("en-GB"),
             onPressedAmerican: () => speakduds1("en-US"),
           ),

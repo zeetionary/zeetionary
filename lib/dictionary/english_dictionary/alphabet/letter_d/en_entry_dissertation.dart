@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نووسراوێکی درێژ لەسەر بابەتێکی دیاریکراو، بەتایبەتی یەکێک کە بۆ بڕوانامەی زانکۆ نووسراوە"),
           SentencesRow(
             englishText: "He wrote his Master's dissertation on rats.",
-            kurdishText: "تێزی ماستەرەکەی لەسەر جرج نووسی.", // dissertation
+            kurdishText: "تێزی ماستەرەکەی لەسەر جرج نووسی.",
             onPressedBritish: () => speakdissertations1("en-GB"),
             onPressedAmerican: () => speakdissertations1("en-US"),
           ),

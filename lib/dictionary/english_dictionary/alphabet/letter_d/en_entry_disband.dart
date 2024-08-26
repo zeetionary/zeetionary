@@ -236,8 +236,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) ڕێگری لە کەسێک/شتێک کە وەک گرووپێک کار بکات"),
           SentencesRow(
             englishText: "They set about disbanding the terrorist groups.",
-            kurdishText:
-                "دەستیان بە ھەڵوەشاندنەوەی گرووپە تیرۆریستییەکان کرد.", // disband
+            kurdishText: "دەستیان بە ھەڵوەشاندنەوەی گرووپە تیرۆریستییەکان کرد.",
             onPressedBritish: () => speakdisbands1("en-GB"),
             onPressedAmerican: () => speakdisbands1("en-US"),
           ),

@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Her dewy skin has the look of a woman 20 years younger.",
             kurdishText:
-                "پێستە ڕەونەقدارەکەی شێوەی ژنێکی ٢٠ ساڵ گەنجتری پێدەدا.", // dewy
+                "پێستە ڕەونەقدارەکەی شێوەی ژنێکی ٢٠ ساڵ گەنجتری پێدەدا.",
             onPressedBritish: () => speakdewys1("en-GB"),
             onPressedAmerican: () => speakdewys1("en-US"),
           ),

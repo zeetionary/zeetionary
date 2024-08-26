@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She is a talented musician but is content to just dabble.",
             kurdishText:
-                "میوزیکژەنێکی بەھرەدارە، بەڵام ڕازییە بەوەی تەنھا بەختی تاقی بکاتەوە.", // dabble
+                "میوزیکژەنێکی بەھرەدارە، بەڵام ڕازییە بەوەی تەنھا بەختی تاقی بکاتەوە.",
             onPressedBritish: () => speakdabbles1("en-GB"),
             onPressedAmerican: () => speakdabbles1("en-US"),
           ),

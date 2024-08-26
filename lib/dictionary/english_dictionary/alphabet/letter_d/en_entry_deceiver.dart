@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "It could be difficult to detect a lie, especially from a well-practised deceiver.",
             kurdishText:
-                "دەکرێت سەخت بێت ھەست بە درۆیەک بکەیت، بە تایبەتی لە تەڵەکەبازێکی باش ڕاھاتووەوە.", // deceiver
+                "دەکرێت سەخت بێت ھەست بە درۆیەک بکەیت، بە تایبەتی لە تەڵەکەبازێکی باش ڕاھاتووەوە.",
             onPressedBritish: () => speakdeceivers1("en-GB"),
             onPressedAmerican: () => speakdeceivers1("en-US"),
           ),

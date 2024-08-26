@@ -448,8 +448,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (دیارخەر، جێناو) یەکێک لە کۆی دوو شت، یان ئەوەی دیکەیان؛ گرنگ نییە کامیان"""),
           SentencesRow(
             englishText: """You can park on either side of the street.""",
-            kurdishText:
-                """دەتوانیت لە ھەر لایەکی شەقامەکە بوەستیت.""", // either
+            kurdishText: """دەتوانیت لە ھەر لایەکی شەقامەکە بوەستیت.""",
             onPressedBritish: () => speakeithers1("en-GB"),
             onPressedAmerican: () => speakeithers1("en-US"),
           ),

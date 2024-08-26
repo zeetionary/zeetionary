@@ -398,7 +398,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دراوی ئەمریکا، کەنەدا، ئوسترالیا، و ژمارەیەک وڵاتی دیکە"),
           SentencesRow(
             englishText: "You will be paid in American dollars.",
-            kurdishText: "بە دۆلاری ئەمریکی پارەکەت وەردەگریت.", // dollar
+            kurdishText: "بە دۆلاری ئەمریکی پارەکەت وەردەگریت.",
             onPressedBritish: () => speakdollars1("en-GB"),
             onPressedAmerican: () => speakdollars1("en-US"),
           ),

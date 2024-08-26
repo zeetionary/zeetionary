@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) چۆڵ‌وھۆڵ"),
           SentencesRow(
             englishText: "The house stands desolate and empty.",
-            kurdishText: "خانووەکە چۆڵ‌وھۆڵ و بەتاڵە.", // desolate
+            kurdishText: "خانووەکە چۆڵ‌وھۆڵ و بەتاڵە.",
             onPressedBritish: () => speakdesolates1("en-GB"),
             onPressedAmerican: () => speakdesolates1("en-US"),
           ),

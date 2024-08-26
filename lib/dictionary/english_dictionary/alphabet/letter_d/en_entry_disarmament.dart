@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) چەکداماڵینی وڵاتێک؛ ئەوەی کە وڵاتێک دەستبەرداری سوپاکەی یان ژمارەی چەکەکانی بێت، بەتایبەتی چەکی ئەتۆمی"),
           SentencesRow(
             englishText: "They campaigned for nuclear disarmament.",
-            kurdishText: "پشتگیری داماڵینی ئەتۆمیان دەکرد.", // disarmament
+            kurdishText: "پشتگیری داماڵینی ئەتۆمیان دەکرد.",
             onPressedBritish: () => speakdisarmaments1("en-GB"),
             onPressedAmerican: () => speakdisarmaments1("en-US"),
           ),

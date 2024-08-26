@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) زیان گەیاندن بە شێوەی کەسێک، شتێک، یان شوێنێک"),
           SentencesRow(
             englishText: "He suffered permanent disfigurement in the fire.",
-            kurdishText:
-                "لە ئاگرەکەدا تووشی شێوانی ھەمیشەیی بوو.", // disfigurement
+            kurdishText: "لە ئاگرەکەدا تووشی شێوانی ھەمیشەیی بوو.",
             onPressedBritish: () => speakdisfigurements1("en-GB"),
             onPressedAmerican: () => speakdisfigurements1("en-US"),
           ),

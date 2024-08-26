@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Border guards should not treat tourists so discourteously.",
             kurdishText:
-                "پاسەوانانی سنووری نابێت بێڕێزانە مامەڵە لەگەڵ گەشتیاران بکەن.", // discourteously
+                "پاسەوانانی سنووری نابێت بێڕێزانە مامەڵە لەگەڵ گەشتیاران بکەن.",
             onPressedBritish: () => speakdiscourteouslys1("en-GB"),
             onPressedAmerican: () => speakdiscourteouslys1("en-US"),
           ),

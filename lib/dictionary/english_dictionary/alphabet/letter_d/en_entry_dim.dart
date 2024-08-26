@@ -322,7 +322,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە ڕۆشن نییە"),
           SentencesRow(
             englishText: "This light is too dim to read by.",
-            kurdishText: "ئەم ڕۆشناییە زۆر کزە کە لە پاڵیدا بخوێنیتەوە.", // dim
+            kurdishText: "ئەم ڕۆشناییە زۆر کزە کە لە پاڵیدا بخوێنیتەوە.",
             onPressedBritish: () => speakdims1("en-GB"),
             onPressedAmerican: () => speakdims1("en-US"),
           ),

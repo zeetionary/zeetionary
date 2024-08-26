@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) نائاسوودە بەھۆی ئەوەی ھەوای سارد پێیدا دەچێت"),
           SentencesRow(
             englishText: "She shivered in the draughty old house.",
-            kurdishText: "لە خانووە کۆنە باگرتووەکەدا دەلەرزی.", // drafty
+            kurdishText: "لە خانووە کۆنە باگرتووەکەدا دەلەرزی.",
             onPressedBritish: () => speakdraftys1("en-GB"),
             onPressedAmerican: () => speakdraftys1("en-US"),
           ),

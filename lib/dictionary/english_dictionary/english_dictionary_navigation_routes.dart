@@ -5415,8 +5415,8 @@ final Map<String, String> wordRoutes = {
   "dryness": "/english-dryness",
   "dry rot": "/english-dry-rot", // ffff dry rot
   "dual": "/english-dual",
-  "dual carriageway": "/english-dual-carriageway", // فففف dual carriageway
-  "dub": "/english-dub",
+  "dual carriageway": "/english-dual-carriageway",
+      "dub": "/english-dub",
   "driveway": "/english-drive",
   "dry-cleaner’s": "/english-cleaners",
   "drier": "/english-dryer",
@@ -5436,8 +5436,8 @@ final Map<String, String> wordRoutes = {
   "due": "/english-due",
   "duel": "/english-duel",
   "duet": "/english-duet",
-  "duffel coat": "/english-duffel-coat", // فففف duffel coat
-  "dugout": "/english-dugout",
+  "duffel coat": "/english-duffel-coat",
+      "dugout": "/english-dugout",
   "duke": "/english-duke",
   "dukedom": "/english-dukedom",
   "dull": "/english-dull",
@@ -5451,8 +5451,8 @@ final Map<String, String> wordRoutes = {
   "dummy": "/english-dummy",
   "dummy run": "/english-dummy-run", // ffff dummy run
   "dump": "/english-dump",
-  "dumper truck": "/english-dumper-truck", // فففف dumper truck
-  "dumpling": "/english-dumpling",
+  "dumper truck": "/english-dumper-truck",
+      "dumpling": "/english-dumpling",
   "dumpy": "/english-dumpy",
   "dunce": "/english-dunce",
   "dune": "/english-dune",
@@ -5476,14 +5476,14 @@ final Map<String, String> wordRoutes = {
   "dusky": "/english-dusky",
   "dust": "/english-dust",
   "dustbin": "/english-dustbin",
-  "dust bowl": "/english-dust-bowl", // فففف dust bowl
-  "dustcart": "/english-dustcart",
+  "dust bowl": "/english-dust-bowl",
+      "dustcart": "/english-dustcart",
   "duster": "/english-duster",
-  "dust jacket": "/english-dust-jacket", // فففف dust jacket
-  "dustman": "/english-dustman",
+  "dust jacket": "/english-dust-jacket",
+      "dustman": "/english-dustman",
   "dustpan": "/english-dustpan",
-  "dust sheet": "/english-dust-sheet", // فففف dust sheet
-  "dusty": "/english-dusty",
+  "dust sheet": "/english-dust-sheet",
+      "dusty": "/english-dusty",
   "duty": "/english-duty",
   "dutiful": "/english-dutiful",
   "dutifully": "/english-dutifully",
@@ -5513,8 +5513,8 @@ final Map<String, String> wordRoutes = {
   "e-number": "/english-enumber", // ffff E-number
   "e-": "/english-e-two", // ffff e-
   "each": "/english-each",
-  "each other": "/english-each-other", // فففف each other
-  "eager": "/english-eager",
+  "each other": "/english-each-other",
+      "eager": "/english-eager",
   "eagerly": "/english-eagerly",
   "eagerness": "/english-eagerness",
   "eagle": "/english-eagle",
@@ -5527,8 +5527,8 @@ final Map<String, String> wordRoutes = {
   "earl": "/english-earl",
   "earldom": "/english-earldom",
   "early": "/english-early",
-  "early warning": "/english-early-warning", // فففف early warning
-  "earmark": "/english-earmark",
+  "early warning": "/english-early-warning",
+      "earmark": "/english-earmark",
   "earn": "/english-earn",
   "earner": "/english-earner",
   "earnings": "/english-earnings",
@@ -5548,11 +5548,11 @@ final Map<String, String> wordRoutes = {
   "easterly": "/english-easterly",
   "eastern": "/english-eastern",
   "eastward": "/english-eastward",
-  "Easter": "/english-easter", // ffff Easter
-  "easy": "/english-easy",
+  "Easter": "/english-easter",
+      "easy": "/english-easy",
   "easily": "/english-easily",
-  "easy chair": "/english-easy-chair", // فففف easy chair
-  "easy-going": "/english-easy-going", // فففف easy-going
+  "easy chair": "/english-easy-chair",
+      "easy-going": "/english-easy-going", // فففف easy-going
   "eat": "/english-eat",
   "eatable": "/english-eatable",
   "eater": "/english-eater",
@@ -5618,11 +5618,11 @@ final Map<String, String> wordRoutes = {
   "effrontery": "/english-effrontery",
   "effusive": "/english-effusive",
   "effusively": "/english-effusively",
-  "EFL": "/english-efl", // ffff EFL
-  "e.g.": "/english-eg", // فففف e.g.
+  "EFL": "/english-efl",
+      "e.g.": "/english-eg", // فففف e.g.
   "egg": "/english-egg",
-  "egg cup": "/english-egg-cup", // فففف egg cup
-  "egghead": "/english-egghead",
+  "egg cup": "/english-egg-cup",
+      "egghead": "/english-egghead",
   "ego": "/english-ego",
   "egocentric": "/english-egocentric",
   "egoism": "/english-egoism",
@@ -5637,8 +5637,8 @@ final Map<String, String> wordRoutes = {
   "either": "/english-either",
   "eject": "/english-eject",
   "ejection": "/english-ejection",
-  "ejection seat": "/english-ejection-seat", // فففف ejection seat
-  "elaborate": "/english-elaborate",
+  "ejection seat": "/english-ejection-seat",
+      "elaborate": "/english-elaborate",
   "elaborately": "/english-elaborately",
   "elaboration": "/english-elaboration",
   "elapse": "/english-elapse",
@@ -5647,11 +5647,11 @@ final Map<String, String> wordRoutes = {
   "elated": "/english-elated",
   "elation": "/english-elation",
   "elbow": "/english-elbow",
-  "elbow grease": "/english-elbow-grease", // فففف elbow grease
-  "elbow_room": "/english-elbowroom", // فففف elbow room
-  "elder": "/english-elder",
-  "elder statesman": "/english-elder-statesman", // فففف elder statesman
-  "elderly": "/english-elderly",
+  "elbow grease": "/english-elbow-grease",
+      "elbow_room": "/english-elbowroom",
+      "elder": "/english-elder",
+  "elder statesman": "/english-elder-statesman",
+      "elderly": "/english-elderly",
   "eldest": "/english-eldest",
   "elect": "/english-elect",
   "elector": "/english-elector",
@@ -5661,9 +5661,9 @@ final Map<String, String> wordRoutes = {
   "electric": "/english-electric",
   "electrical": "/english-electrical",
   "electrically": "/english-electrically",
-  "electric chair": "/english-electric-chair", // فففف electric chair
-  "electric shock": "/english-electric-shock", // فففف electric shock
-  "electrician": "/english-electrician",
+  "electric chair": "/english-electric-chair",
+      "electric shock": "/english-electric-shock",
+      "electrician": "/english-electrician",
   "electricity": "/english-electricity",
   "electrify": "/english-electrify",
   "electrocute": "/english-electrocute",
@@ -5679,8 +5679,8 @@ final Map<String, String> wordRoutes = {
   "elegantly": "/english-elegantly",
   "element": "/english-element",
   "elementary": "/english-elementary",
-  "elementary school": "/english-elementaryschool", // فففف elementary school
-  "elephant": "/english-elephant",
+  "elementary school": "/english-elementaryschool",
+      "elephant": "/english-elephant",
   "elevate": "/english-elevate",
   "elevation": "/english-elevation",
   "eleven": "/english-eleven",
@@ -5708,8 +5708,8 @@ final Map<String, String> wordRoutes = {
   "eloquently": "/english-eloquently",
   "else": "/english-else",
   "elsewhere": "/english-elsewhere",
-  "ELT": "/english-elt", // ffff ELT
-  "elucidate": "/english-elucidate",
+  "ELT": "/english-elt",
+      "elucidate": "/english-elucidate",
   "elucidation": "/english-elucidation",
   "elude": "/english-elude",
   "elusive": "/english-elusive",
@@ -5750,8 +5750,8 @@ final Map<String, String> wordRoutes = {
   "emergence": "/english-emergence",
   "emergent": "/english-emergent",
   "emergency": "/english-emergency",
-  "emergency room": "/english-emergencyroom", // فففف emergency room
-  "emigrant": "/english-emigrant",
+  "emergency room": "/english-emergencyroom",
+      "emigrant": "/english-emigrant",
   "emigrate": "/english-emigrate",
   "emigration": "/english-emigration",
   "eminent": "/english-eminent",

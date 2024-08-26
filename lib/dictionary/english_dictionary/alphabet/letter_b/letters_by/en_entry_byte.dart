@@ -176,7 +176,7 @@ class EnglishEntrybyte extends StatelessWidget {
                             englishText:
                                 "One kilobyte equals to 1024 bytes of information.",
                             kurdishText:
-                                "یەک کیلۆبایت یەکسانە بە ١٠٢٤ بایتی زانیاری.", // byte", follow LX strictly
+                                "یەک کیلۆبایت یەکسانە بە ١٠٢٤ بایتی زانیاری.",
                             onPressedBritish: () => speakbytes1("en-GB"),
                             onPressedAmerican: () => speakbytes1("en-US"),
                           ),

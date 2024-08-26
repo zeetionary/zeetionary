@@ -137,7 +137,7 @@ class EnglishEntrybumblebee extends StatelessWidget {
                           SentencesRow(
                             englishText: "Children often draw cute bumblebees.",
                             kurdishText:
-                                "منداڵان زۆرجار وێنەی ھەنگەزلەی جوان دەکێشن.", // bumblebee", follow LX strictly
+                                "منداڵان زۆرجار وێنەی ھەنگەزلەی جوان دەکێشن.",
                             onPressedBritish: () => speakbumblebees1("en-GB"),
                             onPressedAmerican: () => speakbumblebees1("en-US"),
                           ),

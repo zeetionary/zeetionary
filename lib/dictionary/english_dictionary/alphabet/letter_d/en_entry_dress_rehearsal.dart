@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The director watched the dress rehearsal carefully.",
             kurdishText:
-                "دەرھێنەرەکە بە وریاییەوە سەیری دوامەشقی دەکرد.", // dress rehearsal
+                "دەرھێنەرەکە بە وریاییەوە سەیری دوامەشقی دەکرد.",
             onPressedBritish: () => speakdressrehearsals1("en-GB"),
             onPressedAmerican: () => speakdressrehearsals1("en-US"),
           ),

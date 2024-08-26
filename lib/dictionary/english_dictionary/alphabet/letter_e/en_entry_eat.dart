@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (کردار) خواردن"""),
           SentencesRow(
             englishText: """I was too nervous to eat.""",
-            kurdishText: """زۆر شڵەژاو بووم کە بخۆم.""", // eat
+            kurdishText: """زۆر شڵەژاو بووم کە بخۆم.""",
             onPressedBritish: () => speakeats1("en-GB"),
             onPressedAmerican: () => speakeats1("en-US"),
           ),

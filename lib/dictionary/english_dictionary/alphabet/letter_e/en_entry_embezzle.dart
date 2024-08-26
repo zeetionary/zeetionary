@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He was found guilty of embezzling £150 000 of public funds.""",
             kurdishText:
-                """بە تاوانباری دزینی ١٥٠٠٠٠ پاوەندی پارەی گشتی دانرا.""", // embezzle
+                """بە تاوانباری دزینی ١٥٠٠٠٠ پاوەندی پارەی گشتی دانرا.""",
             onPressedBritish: () => speakembezzles1("en-GB"),
             onPressedAmerican: () => speakembezzles1("en-US"),
           ),

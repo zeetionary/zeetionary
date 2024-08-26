@@ -241,8 +241,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "It was decided to discontinue the treatment after three months.",
-            kurdishText:
-                "لە دوای سێ مانگ بڕیار درا دەرمانەکە بوەستێنرێت.", // discontinue
+            kurdishText: "لە دوای سێ مانگ بڕیار درا دەرمانەکە بوەستێنرێت.",
             onPressedBritish: () => speakdiscontinues1("en-GB"),
             onPressedAmerican: () => speakdiscontinues1("en-US"),
           ),

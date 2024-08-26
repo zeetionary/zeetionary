@@ -362,8 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He plays a dissipated American writer living in Europe.",
-            kurdishText:
-                "ڕۆڵی نووسەرێکی ئەمریکی دەبینێت کە لە ئەورووپا دەژی.", // dissipated
+            kurdishText: "ڕۆڵی نووسەرێکی ئەمریکی دەبینێت کە لە ئەورووپا دەژی.",
             onPressedBritish: () => speakdissipateds1("en-GB"),
             onPressedAmerican: () => speakdissipateds1("en-US"),
           ),

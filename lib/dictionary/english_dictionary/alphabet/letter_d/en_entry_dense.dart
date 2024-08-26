@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) چڕ؛ کە شتی زۆری تێدایە و نێوانیان کەمە"),
           SentencesRow(
             englishText: "The forest is quite dense at that point.",
-            kurdishText: "دارستانەکەدا لەو خاڵەدا تەواو چڕە.", // dense
+            kurdishText: "دارستانەکەدا لەو خاڵەدا تەواو چڕە.",
             onPressedBritish: () => speakdenses1("en-GB"),
             onPressedAmerican: () => speakdenses1("en-US"),
           ),

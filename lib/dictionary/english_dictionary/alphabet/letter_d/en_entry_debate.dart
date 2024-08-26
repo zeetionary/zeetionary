@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The minister opened the debate (= was the first to speak).",
-            kurdishText: "وەزیرەکە دیبەیتەکەی دەستپێکرد.", // debate
+            kurdishText: "وەزیرەکە دیبەیتەکەی دەستپێکرد.",
             onPressedBritish: () => speakdebates1("en-GB"),
             onPressedAmerican: () => speakdebates1("en-US"),
           ),

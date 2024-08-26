@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The south-east has the highest diversity of freshwater fish in the country.",
             kurdishText:
-                "باشووری ڕۆژھەڵات بەرزترین ئاستی فرەڕەنگی ھەیە لە وڵاتەکەدا بۆ ماسی ئاوی سازگار.", // diversity
+                "باشووری ڕۆژھەڵات بەرزترین ئاستی فرەڕەنگی ھەیە لە وڵاتەکەدا بۆ ماسی ئاوی سازگار.",
             onPressedBritish: () => speakdiversitys1("en-GB"),
             onPressedAmerican: () => speakdiversitys1("en-US"),
           ),

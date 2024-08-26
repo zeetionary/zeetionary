@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) کوژاندنەوەی ئاگر یان ڕۆشنایی"),
           SentencesRow(
             englishText: "He doused the flames with a fire extinguisher.",
-            kurdishText: "بڵێسەکانی بە ئاگر کوژێنەرەوەیەک کوژاندەوە.", // douse
+            kurdishText: "بڵێسەکانی بە ئاگر کوژێنەرەوەیەک کوژاندەوە.",
             onPressedBritish: () => speakdouses1("en-GB"),
             onPressedAmerican: () => speakdouses1("en-US"),
           ),

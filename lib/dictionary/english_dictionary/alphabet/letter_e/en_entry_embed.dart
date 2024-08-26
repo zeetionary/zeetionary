@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """These attitudes are deeply embedded in our society (= felt very strongly and difficult to change).""",
             kurdishText:
-                """(بەکارھێنانی خوازراوی) ئەم ڕەفتارانە تەواو ڕۆچوونە لە کۆمەڵگاکەماندا.""", // embed
+                """(بەکارھێنانی خوازراوی) ئەم ڕەفتارانە تەواو ڕۆچوونە لە کۆمەڵگاکەماندا.""",
             onPressedBritish: () => speakembeds1("en-GB"),
             onPressedAmerican: () => speakembeds1("en-US"),
           ),

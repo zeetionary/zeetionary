@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵکار) بەشی پێویست باش"),
           SentencesRow(
             englishText: "The team performed decently.",
-            kurdishText: "تیمەکە ئاستێکی شایستەیان پێشکەش کرد.", // decently
+            kurdishText: "تیمەکە ئاستێکی شایستەیان پێشکەش کرد.",
             onPressedBritish: () => speakdecentlys1("en-GB"),
             onPressedAmerican: () => speakdecentlys1("en-US"),
           ),

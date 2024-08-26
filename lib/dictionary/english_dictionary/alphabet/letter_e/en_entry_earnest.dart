@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Despite her earnest efforts, she could not find a job.""",
             kurdishText:
-                """سەرەڕای ھەوڵە بەڕستەکانی، نەیتوانی کارێک بدۆزێتەوە.""", // earnest
+                """سەرەڕای ھەوڵە بەڕستەکانی، نەیتوانی کارێک بدۆزێتەوە.""",
             onPressedBritish: () => speakearnests1("en-GB"),
             onPressedAmerican: () => speakearnests1("en-US"),
           ),

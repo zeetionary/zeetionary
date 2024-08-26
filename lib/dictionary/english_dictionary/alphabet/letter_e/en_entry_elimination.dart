@@ -376,8 +376,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) سڕینەوە یان بە تەواوی ڕزگاربوون لە شتێک"""),
           SentencesRow(
             englishText: """The elimination of disease took 5 months.""",
-            kurdishText:
-                """لەناوبردنی نەخۆشییەکە پێنج مانگی پێچوو.""", // elimination
+            kurdishText: """لەناوبردنی نەخۆشییەکە پێنج مانگی پێچوو.""",
             onPressedBritish: () => speakeliminations1("en-GB"),
             onPressedAmerican: () => speakeliminations1("en-US"),
           ),

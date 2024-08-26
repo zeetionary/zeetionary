@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) بۆرییەک کە تێیدا شلە، گاس، کارەبا، یان وایەری تەلەفۆن، ھتد پێیدا تێدەپەڕێت"""),
           SentencesRow(
             englishText: """Air flows through the ventilation ducts.""",
-            kurdishText: """ھەوا بە بۆری ھەناسەدان تێپەڕدەبێت.""", // duct
+            kurdishText: """ھەوا بە بۆری ھەناسەدان تێپەڕدەبێت.""",
             onPressedBritish: () => speakducts1("en-GB"),
             onPressedAmerican: () => speakducts1("en-US"),
           ),

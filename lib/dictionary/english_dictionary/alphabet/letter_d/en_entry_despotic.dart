@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "A handful of corrupt and despotic leaders make the decisions.",
-            kurdishText:
-                "ژمارەیەک سەرکردەی خوێنڕێژ و گەندەڵ بڕیارەکان دەدەن.", // despotic
+            kurdishText: "ژمارەیەک سەرکردەی خوێنڕێژ و گەندەڵ بڕیارەکان دەدەن.",
             onPressedBritish: () => speakdespotics1("en-GB"),
             onPressedAmerican: () => speakdespotics1("en-US"),
           ),

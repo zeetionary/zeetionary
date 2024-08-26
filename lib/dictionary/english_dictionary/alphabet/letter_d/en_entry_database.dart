@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) داتای ڕێکخراو لەسەر کۆمپیوتەرێک کە دەکرێت سەیر بکرێت و بە شێوازی جیاواز بەکاربھێندرێت"),
           SentencesRow(
             englishText: "The database is updated monthly.",
-            kurdishText: "داتابەیسەکە مانگاکە تازە دەکرێتەوە.", // database
+            kurdishText: "داتابەیسەکە مانگاکە تازە دەکرێتەوە.",
             onPressedBritish: () => speakdatabases1("en-GB"),
             onPressedAmerican: () => speakdatabases1("en-US"),
           ),

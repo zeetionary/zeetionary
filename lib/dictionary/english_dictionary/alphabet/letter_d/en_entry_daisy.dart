@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The children picked daisies from the field to make a bouquet.",
             kurdishText:
-                "منداڵەکان لە کێڵگەکە گوڵە داودییان لێدەکردەوە بۆ درووستکردنی چەپکێک.", // daisy
+                "منداڵەکان لە کێڵگەکە گوڵە داودییان لێدەکردەوە بۆ درووستکردنی چەپکێک.",
             onPressedBritish: () => speakdaisys1("en-GB"),
             onPressedAmerican: () => speakdaisys1("en-US"),
           ),

@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """You need to be an egotist to succeed in politics.""",
-            kurdishText:
-                """دەبێت خۆپەرست بیت بۆ سەرکەوتن لە سیاسەتدا.""", // egoist
+            kurdishText: """دەبێت خۆپەرست بیت بۆ سەرکەوتن لە سیاسەتدا.""",
             onPressedBritish: () => speakegoists1("en-GB"),
             onPressedAmerican: () => speakegoists1("en-US"),
           ),

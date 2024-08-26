@@ -367,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Six people were drowned; five died from electrocution.""",
-            kurdishText:
-                """شەش کەس نوقمبوون؛ پێنج بە کارەباگرتن مردن.""", // electrocution
+            kurdishText: """شەش کەس نوقمبوون؛ پێنج بە کارەباگرتن مردن.""",
             onPressedBritish: () => speakelectrocutions1("en-GB"),
             onPressedAmerican: () => speakelectrocutions1("en-US"),
           ),

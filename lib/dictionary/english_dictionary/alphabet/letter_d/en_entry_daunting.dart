@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She has the daunting task of cooking for 20 people every day.",
-            kurdishText:
-                "ئەرکی ترسێنەری چێشتلێنانی ڕۆژانەی بۆ ٢٠ کەس ھەیە.", // daunting
+            kurdishText: "ئەرکی ترسێنەری چێشتلێنانی ڕۆژانەی بۆ ٢٠ کەس ھەیە.",
             onPressedBritish: () => speakdauntings1("en-GB"),
             onPressedAmerican: () => speakdauntings1("en-US"),
           ),

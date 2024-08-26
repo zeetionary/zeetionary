@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) مردن یان کوژرانی کەسێک"),
           SentencesRow(
             englishText: "It is believed she died a violent death.",
-            kurdishText: "باوەڕ وایە بە کوشتنێکی دڕندانە مرد.", // death
+            kurdishText: "باوەڕ وایە بە کوشتنێکی دڕندانە مرد.",
             onPressedBritish: () => speakdeaths1("en-GB"),
             onPressedAmerican: () => speakdeaths1("en-US"),
           ),

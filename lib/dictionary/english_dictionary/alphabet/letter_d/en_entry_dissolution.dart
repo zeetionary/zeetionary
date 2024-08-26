@@ -372,7 +372,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The company was set up following the dissolution of the Soviet Union.",
             kurdishText:
-                "کۆمپانیاکە درووستکرا لە دوای ھەڵوەشانەوەی یەکێتیی سۆڤیەت.", // dissolution
+                "کۆمپانیاکە درووستکرا لە دوای ھەڵوەشانەوەی یەکێتیی سۆڤیەت.",
             onPressedBritish: () => speakdissolutions1("en-GB"),
             onPressedAmerican: () => speakdissolutions1("en-US"),
           ),

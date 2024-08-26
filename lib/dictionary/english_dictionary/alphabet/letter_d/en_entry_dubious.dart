@@ -374,8 +374,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) ھەبوونی گومان سەبارەت بە شتێک"""),
           SentencesRow(
             englishText: """I was rather dubious about the whole idea.""",
-            kurdishText:
-                """کەمێک گوماناوی بووم سەبارەت بە تەواوی پلانەکە.""", // dubious
+            kurdishText: """کەمێک گوماناوی بووم سەبارەت بە تەواوی پلانەکە.""",
             onPressedBritish: () => speakdubiouss1("en-GB"),
             onPressedAmerican: () => speakdubiouss1("en-US"),
           ),

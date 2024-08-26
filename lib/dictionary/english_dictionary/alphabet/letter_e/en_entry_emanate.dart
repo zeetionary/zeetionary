@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (کردار) بەرھەمھێنان یان پیشاندانی شتێک"""),
           SentencesRow(
             englishText: """He emanates power and confidence.""",
-            kurdishText: """ھێز و متمانەی لێ دەبارێت.""", // emanate
+            kurdishText: """ھێز و متمانەی لێ دەبارێت.""",
             onPressedBritish: () => speakemanates1("en-GB"),
             onPressedAmerican: () => speakemanates1("en-US"),
           ),

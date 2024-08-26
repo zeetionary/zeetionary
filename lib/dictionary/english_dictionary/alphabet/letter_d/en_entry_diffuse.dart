@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) بڵاوبووەوە بە ناوچەیەکی زۆردا"),
           SentencesRow(
             englishText: "The company has become large and diffuse.",
-            kurdishText: "کۆمپانیاکە گەورە و پەرش بووە.", // diffuse
+            kurdishText: "کۆمپانیاکە گەورە و پەرش بووە.",
             onPressedBritish: () => speakdiffuses1("en-GB"),
             onPressedAmerican: () => speakdiffuses1("en-US"),
           ),

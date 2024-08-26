@@ -255,8 +255,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Many victims of burglary feel their homes have been defiled.",
-            kurdishText:
-                "زۆرێک لە قوربانیانی دزی وا ھەست ماڵەکانیان پیسکراون.", // defile
+            kurdishText: "زۆرێک لە قوربانیانی دزی وا ھەست ماڵەکانیان پیسکراون.",
             onPressedBritish: () => speakdefiles1("en-GB"),
             onPressedAmerican: () => speakdefiles1("en-US"),
           ),

@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) داپۆشەرێکی گەرم و نەرمی سەر جێخەو کە پڕە لە پەڕە و زۆرجار لەسەر پێخەفێک یان بەتانی دادەندرێت"""),
           SentencesRow(
             englishText: """She snuggled beneath the eiderdown.""",
-            kurdishText: """خۆی ھەكدایە ژێر لێفەکەی.""", // eiderdown
+            kurdishText: """خۆی ھەكدایە ژێر لێفەکەی.""",
             onPressedBritish: () => speakeiderdowns1("en-GB"),
             onPressedAmerican: () => speakeiderdowns1("en-US"),
           ),

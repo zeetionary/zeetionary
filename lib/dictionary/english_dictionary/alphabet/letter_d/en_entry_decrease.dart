@@ -300,8 +300,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Donations have decreased significantly over the past few years.",
-            kurdishText:
-                "بەخشین لە چەند ساڵی ڕابردوودا کەمی کردووە.", // decrease
+            kurdishText: "بەخشین لە چەند ساڵی ڕابردوودا کەمی کردووە.",
             onPressedBritish: () => speakdecreases1("en-GB"),
             onPressedAmerican: () => speakdecreases1("en-US"),
           ),

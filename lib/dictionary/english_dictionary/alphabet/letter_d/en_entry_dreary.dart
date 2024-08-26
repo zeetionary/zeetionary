@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە دڵتەنگت دەکات و ئەوەی حەزت بە ھیچ نەبێت"),
           SentencesRow(
             englishText: "She had spent another dreary day in the office.",
-            kurdishText: "ڕۆژێکی دیکەی ناخۆشی لە ئۆفیسەکە بەسەر برد.", // dreary
+            kurdishText: "ڕۆژێکی دیکەی ناخۆشی لە ئۆفیسەکە بەسەر برد.",
             onPressedBritish: () => speakdrearys1("en-GB"),
             onPressedAmerican: () => speakdrearys1("en-US"),
           ),

@@ -236,7 +236,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) یەکەی پێوانی بەرزی دەنگ"),
           SentencesRow(
             englishText: "Noise from the disco reached 110 decibels.",
-            kurdishText: "ژاوەژاو لە دیسکۆیەکەوە گەشتە ١١٠ دێسبڵ.", // decibel
+            kurdishText: "ژاوەژاو لە دیسکۆیەکەوە گەشتە ١١٠ دێسبڵ.",
             onPressedBritish: () => speakdecibels1("en-GB"),
             onPressedAmerican: () => speakdecibels1("en-US"),
           ),

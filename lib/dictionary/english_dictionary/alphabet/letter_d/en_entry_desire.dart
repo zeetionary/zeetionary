@@ -322,8 +322,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) حەزێکی زۆر بۆ ھەبوون یان کردنی شتێک"),
           SentencesRow(
             englishText: "He had enough money to satisfy all his desires.",
-            kurdishText:
-                "ھێندە پارەی ھەبوو کە ھەموو ئاواتەکانی بەدیبێنێت.", // desire
+            kurdishText: "ھێندە پارەی ھەبوو کە ھەموو ئاواتەکانی بەدیبێنێت.",
             onPressedBritish: () => speakdesires1("en-GB"),
             onPressedAmerican: () => speakdesires1("en-US"),
           ),

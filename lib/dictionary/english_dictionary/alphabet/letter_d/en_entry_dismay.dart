@@ -244,8 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ھەستێکی ناخۆش کە دەتبێت کاتێک شتێکی ناخۆشت بەسەردێت"),
           SentencesRow(
             englishText: "She could not hide her dismay at the result.",
-            kurdishText:
-                "نەیدەتوانی ناڕەحەتیی بە ئەنجامەکە بشارێتەوە.", // dismay
+            kurdishText: "نەیدەتوانی ناڕەحەتیی بە ئەنجامەکە بشارێتەوە.",
             onPressedBritish: () => speakdismays1("en-GB"),
             onPressedAmerican: () => speakdismays1("en-US"),
           ),

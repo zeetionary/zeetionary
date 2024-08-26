@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "I pressed the button to demist the front windows.",
             kurdishText:
-                "پەنجەم نا بە دووگمەکەدا بۆ سڕینەوەی ھەڵمی جامەکانی پێشەوە.", // demist
+                "پەنجەم نا بە دووگمەکەدا بۆ سڕینەوەی ھەڵمی جامەکانی پێشەوە.",
             onPressedBritish: () => speakdemists1("en-GB"),
             onPressedAmerican: () => speakdemists1("en-US"),
           ),

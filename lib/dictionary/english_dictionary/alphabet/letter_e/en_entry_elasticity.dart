@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """As you get older, the skin loses its natural elasticity.""",
             kurdishText:
-                """کە دەچیت بە تەمەندا، پێست نەرمییەتیی سرووشتیی لەدەست دەدات.""", // elasticity
+                """کە دەچیت بە تەمەندا، پێست نەرمییەتیی سرووشتیی لەدەست دەدات.""",
             onPressedBritish: () => speakelasticitys1("en-GB"),
             onPressedAmerican: () => speakelasticitys1("en-US"),
           ),

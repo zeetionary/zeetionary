@@ -269,8 +269,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He fought the illness with courage and determination.",
-            kurdishText:
-                "بە بوێری و ویستی بەھێزەوە دژی نەخۆشییەکە وەستایەوە.", // determination
+            kurdishText: "بە بوێری و ویستی بەھێزەوە دژی نەخۆشییەکە وەستایەوە.",
             onPressedBritish: () => speakdeterminations1("en-GB"),
             onPressedAmerican: () => speakdeterminations1("en-US"),
           ),

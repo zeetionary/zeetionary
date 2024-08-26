@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Voters will elect a new president on 30 March next year.""",
             kurdishText:
-                """دەنگدەران سەرۆکێکی تازە ھەڵدەبژێرن لە ٣٠ ـی ئاداری ساڵی داھاتوو.""", // elect
+                """دەنگدەران سەرۆکێکی تازە ھەڵدەبژێرن لە ٣٠ ـی ئاداری ساڵی داھاتوو.""",
             onPressedBritish: () => speakelects1("en-GB"),
             onPressedAmerican: () => speakelects1("en-US"),
           ),

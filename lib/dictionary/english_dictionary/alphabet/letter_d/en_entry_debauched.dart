@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "His debauched lifestyle eventually led to his downfall.",
             kurdishText:
-                "شێوازە ژیانە بەدئاکارەکەی لەکۆتاییدا بە کەوتنی گەیاند.", // debauched
+                "شێوازە ژیانە بەدئاکارەکەی لەکۆتاییدا بە کەوتنی گەیاند.",
             onPressedBritish: () => speakdebaucheds1("en-GB"),
             onPressedAmerican: () => speakdebaucheds1("en-US"),
           ),

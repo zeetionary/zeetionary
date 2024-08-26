@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """They used five tons of dynamite to blow up the rock.""",
             kurdishText:
-                """پێنج تەن دینامیتیان بەکارھێنا بۆ تەقاندنەوەی بەردەکە.""", // dynamite
+                """پێنج تەن دینامیتیان بەکارھێنا بۆ تەقاندنەوەی بەردەکە.""",
             onPressedBritish: () => speakdynamites1("en-GB"),
             onPressedAmerican: () => speakdynamites1("en-US"),
           ),

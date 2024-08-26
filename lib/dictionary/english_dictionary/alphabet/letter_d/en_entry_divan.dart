@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) جێخەوێک کە ژێرێکی ئەستوور و دۆشەکەیەکی ھەیە"),
           SentencesRow(
             englishText: "We slept on a double divan.",
-            kurdishText: "لەسەر دیوانێکی دوو کەسی نووستین.", // divan
+            kurdishText: "لەسەر دیوانێکی دوو کەسی نووستین.",
             onPressedBritish: () => speakdivans1("en-GB"),
             onPressedAmerican: () => speakdivans1("en-US"),
           ),

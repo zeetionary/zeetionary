@@ -5533,8 +5533,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "dress rehearsal": "/history-screen/dress-rehearsal",
       "dresser": "/history-screen/dresser",
       "dressing": "/history-screen/dressing",
-      "dressing gown": "/history-screen/dressing-gown", // ffff dressing gown
-      "dressing table": "/history-screen/dressing-table", // ffff dressing table
+      "dressing gown": "/history-screen/dressing-gown",
+      "dressing table": "/history-screen/dressing-table",
       "dribble": "/history-screen/dribble",
       "drift": "/history-screen/drift",
       "drifter": "/history-screen/drifter",
@@ -5543,15 +5543,15 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "drinkable": "/history-screen/drinkable",
       "drinker": "/history-screen/drinker",
       "drip": "/history-screen/drip",
-      "drip-dry": "/history-screen/drip-dry", // ffff drip-dry
+      "drip-dry": "/history-screen/drip-dry",
       "dripping": "/history-screen/dripping",
       "drive": "/history-screen/drive",
-      "drive-by": "/history-screen/drive-by", // ffff drive-by
-      "drive-in": "/history-screen/drive-in", // ffff drive-in
+      "drive-by": "/history-screen/drive-by",
+      "drive-in": "/history-screen/drive-in",
       "driver": "/history-screen/driver",
       "driving licence":
-          "/history-screen/driving-licence", // ffff driving licence
-      "driving test": "/history-screen/driving-test", // ffff driving test
+          "/history-screen/driving-licence",
+      "driving test": "/history-screen/driving-test",
       "drivel": "/history-screen/drivel",
       "drizzle": "/history-screen/drizzle",
       "drone": "/history-screen/drone",
@@ -5578,13 +5578,13 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "drunken": "/history-screen/drunken",
       "drunkenness": "/history-screen/drunkenness",
       "dry": "/history-screen/dry",
-      "dry-clean": "/history-screen/dry-clean", // ffff dry-clean
-      "dry-cleaning": "/history-screen/dry-cleaning", // ffff dry-cleaning
-      "dry dock": "/history-screen/dry-dock", // ffff dry dock
+      "dry-clean": "/history-screen/dry-clean",
+      "dry-cleaning": "/history-screen/dry-cleaning",
+      "dry dock": "/history-screen/dry-dock",
       "dryer": "/history-screen/dryer",
       "dryly": "/history-screen/dryly",
       "dryness": "/history-screen/dryness",
-      "dry rot": "/history-screen/dry-rot", // ffff dry rot
+      "dry rot": "/history-screen/dry-rot",
       "dual": "/history-screen/dual",
       "dual carriageway":
           "/history-screen/dual-carriageway", // فففف dual carriageway
@@ -5621,7 +5621,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "dumbness": "/history-screen/dumbness",
       "dumbfounded": "/history-screen/dumbfounded",
       "dummy": "/history-screen/dummy",
-      "dummy run": "/history-screen/dummy-run", // ffff dummy run
+      "dummy run": "/history-screen/dummy-run",
       "dump": "/history-screen/dump",
       "dumper truck": "/history-screen/dumper-truck", // فففف dumper truck
       "dumpling": "/history-screen/dumpling",
@@ -5638,7 +5638,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "duplicate": "/history-screen/duplicate",
       "duplication": "/history-screen/duplication",
       "durable": "/history-screen/durable",
-      "durable goods": "/history-screen/durable-goods", // ffff durable-goods
+      "durable goods": "/history-screen/durable-goods",
       "duration": "/history-screen/duration",
       "duress": "/history-screen/duress",
       "during": "/history-screen/during",
@@ -5682,7 +5682,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "dyslexia": "/history-screen/dyslexia",
       "dyslexic": "/history-screen/dyslexic",
       "e": "/history-screen/e",
-      "e-number": "/history-screen/enumber", // ffff E-number
+      "e-number": "/history-screen/enumber",
       "e-": "/history-screen/e-two", // ffff e-
       "each": "/history-screen/each",
       "each other": "/history-screen/each-other", // فففف each other
@@ -5720,7 +5720,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "easterly": "/history-screen/easterly",
       "eastern": "/history-screen/eastern",
       "eastward": "/history-screen/eastward",
-      "Easter": "/history-screen/easter", // ffff Easter
+      "Easter": "/history-screen/easter",
       "easy": "/history-screen/easy",
       "easily": "/history-screen/easily",
       "easy chair": "/history-screen/easy-chair", // فففف easy chair
@@ -5790,7 +5790,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "effrontery": "/history-screen/effrontery",
       "effusive": "/history-screen/effusive",
       "effusively": "/history-screen/effusively",
-      "EFL": "/history-screen/efl", // ffff EFL
+      "EFL": "/history-screen/efl",
       "e.g.": "/history-screen/eg", // فففف e.g.
       "egg": "/history-screen/egg",
       "egg cup": "/history-screen/egg-cup", // فففف egg cup
@@ -5882,7 +5882,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "eloquently": "/history-screen/eloquently",
       "else": "/history-screen/else",
       "elsewhere": "/history-screen/elsewhere",
-      "ELT": "/history-screen/elt", // ffff ELT
+      "ELT": "/history-screen/elt",
       "elucidate": "/history-screen/elucidate",
       "elucidation": "/history-screen/elucidation",
       "elude": "/history-screen/elude",

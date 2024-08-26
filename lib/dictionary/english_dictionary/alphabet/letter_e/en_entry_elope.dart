@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) ھەڵھاتن لەگەڵ کەسێک بۆ ئەوەی بە نھێنی ھاوسەرگیری لەگەڵ بکەیت لەگەڵی"""),
           SentencesRow(
             englishText: """She eloped with an Army officer.""",
-            kurdishText: """لەگەڵ ئەفسەرێکی سوپا ھەڵھات.""", // elope
+            kurdishText: """لەگەڵ ئەفسەرێکی سوپا ھەڵھات.""",
             onPressedBritish: () => speakelopes1("en-GB"),
             onPressedAmerican: () => speakelopes1("en-US"),
           ),

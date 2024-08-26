@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She is eager for (= wants very much to get) her parents' approval.""",
-            kurdishText:
-                """زۆر تامەزرۆیە بۆ ڕازیبووونی دایک و باوکی.""", // eager
+            kurdishText: """زۆر تامەزرۆیە بۆ ڕازیبووونی دایک و باوکی.""",
             onPressedBritish: () => speakeagers1("en-GB"),
             onPressedAmerican: () => speakeagers1("en-US"),
           ),

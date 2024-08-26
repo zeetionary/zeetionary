@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """They're one of the largest employers in the area.""",
-            kurdishText:
-                """یەکێک لە گەورەترین خاوەن‌کارەکانن لە ناوچەکەدا.""", // employer
+            kurdishText: """یەکێک لە گەورەترین خاوەن‌کارەکانن لە ناوچەکەدا.""",
             onPressedBritish: () => speakemployers1("en-GB"),
             onPressedAmerican: () => speakemployers1("en-US"),
           ),

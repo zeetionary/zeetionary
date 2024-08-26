@@ -188,7 +188,7 @@ class EnglishEntrybusinessman extends StatelessWidget {
                             englishText:
                                 "He was a successful businessman before becoming a writer.",
                             kurdishText:
-                                "بازتگانێکی سەرکەوتوو بوو پێش ئەوەی ببێت بە نووسەر.", // businessman", follow LX strictly
+                                "بازتگانێکی سەرکەوتوو بوو پێش ئەوەی ببێت بە نووسەر.",
                             onPressedBritish: () => speakbusinessmans1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbusinessmans1("en-US"),

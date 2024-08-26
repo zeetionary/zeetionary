@@ -384,7 +384,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """His elevation to the presidency of the new republic was generally popular.""",
             kurdishText:
-                """بەرزکردنەوەی بۆ سەرۆکایەتی کۆمارە تازەکە بە گشتی پەسندکراو بوو.""", // elevation
+                """بەرزکردنەوەی بۆ سەرۆکایەتی کۆمارە تازەکە بە گشتی پەسندکراو بوو.""",
             onPressedBritish: () => speakelevations1("en-GB"),
             onPressedAmerican: () => speakelevations1("en-US"),
           ),

@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The artist spent hours on the delicately carved chair.",
             kurdishText:
-                "ھونەرکارەکە چەندین کاتژمێری بەسەر برد بە کورسییە بەوریایی داتاشراوەکەوە.", // delicately
+                "ھونەرکارەکە چەندین کاتژمێری بەسەر برد بە کورسییە بەوریایی داتاشراوەکەوە.",
             onPressedBritish: () => speakdelicatelys1("en-GB"),
             onPressedAmerican: () => speakdelicatelys1("en-US"),
           ),

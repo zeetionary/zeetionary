@@ -252,8 +252,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) پیشاندانی وێنەی کەسێک/شتێک لە وێنەیەکدا"),
           SentencesRow(
             englishText: "The artist had depicted her lying on a bed.",
-            kurdishText:
-                "ھونەرکارەکە وێنای کرد بەوەی لەسەر جێخەوێک ڕاکشاوە.", // depict
+            kurdishText: "ھونەرکارەکە وێنای کرد بەوەی لەسەر جێخەوێک ڕاکشاوە.",
             onPressedBritish: () => speakdepicts1("en-GB"),
             onPressedAmerican: () => speakdepicts1("en-US"),
           ),

@@ -248,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "He suffered a dislocation of the shoulder during the football game.",
-            kurdishText:
-                "تووشی لەجێ‌چوونی شان بوو لە کاتی یاری تۆپی‌پێیەکە.", // dislocation
+            kurdishText: "تووشی لەجێ‌چوونی شان بوو لە کاتی یاری تۆپی‌پێیەکە.",
             onPressedBritish: () => speakdislocations1("en-GB"),
             onPressedAmerican: () => speakdislocations1("en-US"),
           ),

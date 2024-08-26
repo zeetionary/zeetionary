@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Cedar wood with its outstanding dimensional stability is resistant to warping.",
             kurdishText:
-                "داری سیدار بە جێگیری ناوازەی ئەندازەیی خۆڕاگر بە چەمانەوە.", // dimensional
+                "داری سیدار بە جێگیری ناوازەی ئەندازەیی خۆڕاگر بە چەمانەوە.",
             onPressedBritish: () => speakdimensionals1("en-GB"),
             onPressedAmerican: () => speakdimensionals1("en-US"),
           ),

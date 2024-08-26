@@ -263,8 +263,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The war demonstrated the destructive power of modern weapons.",
-            kurdishText:
-                "جەنگەکە ھێزی وێرانکەری چەکی سەردەمیانەی پیشاندا.", // destructive
+            kurdishText: "جەنگەکە ھێزی وێرانکەری چەکی سەردەمیانەی پیشاندا.",
             onPressedBritish: () => speakdestructives1("en-GB"),
             onPressedAmerican: () => speakdestructives1("en-US"),
           ),

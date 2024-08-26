@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "If she deigns to reply to my letter, I'll be extremely surprised.",
             kurdishText:
-                "ئەگەر ئەزیەتی ئەوە بکێشێت وەڵامی نامەکەم بداتەوە تەواو سەرسام دەبم.", // deign
+                "ئەگەر ئەزیەتی ئەوە بکێشێت وەڵامی نامەکەم بداتەوە تەواو سەرسام دەبم.",
             onPressedBritish: () => speakdeigns1("en-GB"),
             onPressedAmerican: () => speakdeigns1("en-US"),
           ),

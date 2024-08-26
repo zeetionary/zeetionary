@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) ھەسارەکەمان؛ ھەسارەی زەوی"""),
           SentencesRow(
             englishText: """The earth revolves around the sun.""",
-            kurdishText: """زەوی بە دەوری خۆردا دەخولێتەوە.""", // earth
+            kurdishText: """زەوی بە دەوری خۆردا دەخولێتەوە.""",
             onPressedBritish: () => speakearths1("en-GB"),
             onPressedAmerican: () => speakearths1("en-US"),
           ),

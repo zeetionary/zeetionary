@@ -182,7 +182,7 @@ class EnglishEntrybuoyant extends StatelessWidget {
                             englishText:
                                 "The relatively buoyant housing market has kept consumers confident enough to spend.",
                             kurdishText:
-                                "بازاڕی خانووبەرەی تاڕادەیەک جێگیر کڕیاران بە متمانەوە ڕاگرتووە بۆ ئەوەی پارەی تێدا خەرج بکەن.", // buoyant", follow LX strictly
+                                "بازاڕی خانووبەرەی تاڕادەیەک جێگیر کڕیاران بە متمانەوە ڕاگرتووە بۆ ئەوەی پارەی تێدا خەرج بکەن.",
                             onPressedBritish: () => speakbuoyants1("en-GB"),
                             onPressedAmerican: () => speakbuoyants1("en-US"),
                           ),

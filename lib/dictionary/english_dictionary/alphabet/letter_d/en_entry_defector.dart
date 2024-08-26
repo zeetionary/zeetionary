@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She was one of many Communist Party defectors.",
             kurdishText:
-                "یەکێک بوو لە ژمارەیەکی زۆر لە ھەڵھاتووەکانی پارتی کۆمیونیست.", // defector
+                "یەکێک بوو لە ژمارەیەکی زۆر لە ھەڵھاتووەکانی پارتی کۆمیونیست.",
             onPressedBritish: () => speakdefectors1("en-GB"),
             onPressedAmerican: () => speakdefectors1("en-US"),
           ),

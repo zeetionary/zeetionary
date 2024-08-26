@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I will be on vacation for a week in November, with no access to email.""",
             kurdishText:
-                """تشرینی دووەم بۆ ھەفتەیەک لە گەشت دەبم، بەبێت دەستگەشتن بە ئیمەیڵ.""", // email
+                """تشرینی دووەم بۆ ھەفتەیەک لە گەشت دەبم، بەبێت دەستگەشتن بە ئیمەیڵ.""",
             onPressedBritish: () => speakemails1("en-GB"),
             onPressedAmerican: () => speakemails1("en-US"),
           ),

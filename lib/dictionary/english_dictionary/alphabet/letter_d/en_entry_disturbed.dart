@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) کە لە ڕووی دەروونییەوە نەخۆشە، بەتایبەتی بەھۆی ئەزموونی خراپ و ناخۆش"),
           SentencesRow(
             englishText: "His behaviour is deeply disturbed.",
-            kurdishText: "ھەڵسوکەوتی بە تەواوی ناتەواوە.", // disturbed
+            kurdishText: "ھەڵسوکەوتی بە تەواوی ناتەواوە.",
             onPressedBritish: () => speakdisturbeds1("en-GB"),
             onPressedAmerican: () => speakdisturbeds1("en-US"),
           ),

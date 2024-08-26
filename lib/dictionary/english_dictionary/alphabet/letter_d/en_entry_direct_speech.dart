@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) قسەی ڕاستەوخۆی کەسێک"),
           SentencesRow(
             englishText: "Only direct speech should go inside inverted commas.",
-            kurdishText:
-                "تەنھا قسەی ڕاستەوخۆ دەبێت لەناو کۆمای ھەڵگەڕاوە بێت.", // direct speech
+            kurdishText: "تەنھا قسەی ڕاستەوخۆ دەبێت لەناو کۆمای ھەڵگەڕاوە بێت.",
             onPressedBritish: () => speakdirectspeechs1("en-GB"),
             onPressedAmerican: () => speakdirectspeechs1("en-US"),
           ),

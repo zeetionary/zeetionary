@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Attempts are being made to settle the dispute by diplomatic means.",
-            kurdishText:
-                "ھەوڵ دەدرێت کێشەکە بە ڕێگای دیپلۆماسی چارەسەر بکرێت.", // diplomatic
+            kurdishText: "ھەوڵ دەدرێت کێشەکە بە ڕێگای دیپلۆماسی چارەسەر بکرێت.",
             onPressedBritish: () => speakdiplomatics1("en-GB"),
             onPressedAmerican: () => speakdiplomatics1("en-US"),
           ),

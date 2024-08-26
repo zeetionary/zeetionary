@@ -250,8 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) ئاشکرا و ڕوون"),
           SentencesRow(
             englishText: "She had a decided advantage over her opponent.",
-            kurdishText:
-                "لەپێشینەییەکی ئاشكرای بەسەر ڕکابەرەکەیدا ھەبوو.", // decided
+            kurdishText: "لەپێشینەییەکی ئاشكرای بەسەر ڕکابەرەکەیدا ھەبوو.",
             onPressedBritish: () => speakdecideds1("en-GB"),
             onPressedAmerican: () => speakdecideds1("en-US"),
           ),

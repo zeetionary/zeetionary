@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بۆکسێک کە لەسەر کۆمپیوتەرێک دەردەکەوێت و لە بەکارھێنەر دەپرسێت کە دواتر چی دەکات یان یان زانیاری بدات"),
           SentencesRow(
             englishText: "Select an option from the dialog box.",
-            kurdishText:
-                "ھەڵبژاردەیەک لە سندووقی دیالۆگەکە ھەڵبژێرە.", // dialogue box
+            kurdishText: "ھەڵبژاردەیەک لە سندووقی دیالۆگەکە ھەڵبژێرە.",
             onPressedBritish: () => speakdialogueboxs1("en-GB"),
             onPressedAmerican: () => speakdialogueboxs1("en-US"),
           ),

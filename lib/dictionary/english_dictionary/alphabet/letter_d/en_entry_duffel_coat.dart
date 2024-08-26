@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """He wore a duffel coat in the cold weather.""",
             kurdishText:
-                """قەمسەڵەیەکی فەرووداری لە کەشە ساردەکەدا لەبەر کرد.""", // duffel coat
+                """قەمسەڵەیەکی فەرووداری لە کەشە ساردەکەدا لەبەر کرد.""",
             onPressedBritish: () => speakduffelcoats1("en-GB"),
             onPressedAmerican: () => speakduffelcoats1("en-US"),
           ),

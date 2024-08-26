@@ -358,7 +358,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کۆتر"),
           SentencesRow(
             englishText: "A dove cooed softly.",
-            kurdishText: "کۆترێک بە لەسەرخۆیی گمەگمی دەکرد.", // dove
+            kurdishText: "کۆترێک بە لەسەرخۆیی گمەگمی دەکرد.",
             onPressedBritish: () => speakdoves1("en-GB"),
             onPressedAmerican: () => speakdoves1("en-US"),
           ),

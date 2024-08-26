@@ -244,7 +244,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نەبوونی توانای ڕەفتارکردن و بیرکردنەوە بەشێوەی ئاسایی"),
           SentencesRow(
             englishText: "At first I thought he was deranged.",
-            kurdishText: "لە سەرەتادا وام ھەستکرد تێکچووە.", // deranged
+            kurdishText: "لە سەرەتادا وام ھەستکرد تێکچووە.",
             onPressedBritish: () => speakderangeds1("en-GB"),
             onPressedAmerican: () => speakderangeds1("en-US"),
           ),

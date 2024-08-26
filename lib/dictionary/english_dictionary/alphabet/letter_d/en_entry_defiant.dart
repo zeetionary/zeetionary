@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ڕەتکردنەوەی ئەوەی پابەندی کەسێک/شتێک بیت"),
           SentencesRow(
             englishText: "She had suddenly turned into a defiant teenager.",
-            kurdishText: "لەناکاو بووبوو بە گەنجێکی لاسار.", // defiant
+            kurdishText: "لەناکاو بووبوو بە گەنجێکی لاسار.",
             onPressedBritish: () => speakdefiants1("en-GB"),
             onPressedAmerican: () => speakdefiants1("en-US"),
           ),

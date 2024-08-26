@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "People were leaving the countryside in droves to look for work in the cities.",
             kurdishText:
-                "خەڵکی بە ژمارەیەکی زۆر دەشتەکانیان جێدەھێشت بۆ گەڕان بۆ کار لە شارەکان.", // drove
+                "خەڵکی بە ژمارەیەکی زۆر دەشتەکانیان جێدەھێشت بۆ گەڕان بۆ کار لە شارەکان.",
             onPressedBritish: () => speakdroves1("en-GB"),
             onPressedAmerican: () => speakdroves1("en-US"),
           ),

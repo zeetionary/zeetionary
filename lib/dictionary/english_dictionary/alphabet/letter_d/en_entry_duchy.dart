@@ -360,8 +360,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) ناوچەیەک کە پیاوێک یان ژنێک تێیدا دەسەڵاتی ھەیە کە وەک میر یان بەگ وایە"""),
           SentencesRow(
             englishText: """The Duchy of Cornwall was established in 1337.""",
-            kurdishText:
-                """دیوک‌نشینی کۆرنوۆڵ لە ساڵی ١٣٣٧ دامەزرا.""", // duchy
+            kurdishText: """دیوک‌نشینی کۆرنوۆڵ لە ساڵی ١٣٣٧ دامەزرا.""",
             onPressedBritish: () => speakduchys1("en-GB"),
             onPressedAmerican: () => speakduchys1("en-US"),
           ),

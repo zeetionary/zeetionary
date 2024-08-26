@@ -487,7 +487,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) جلێک کە یەک دەستەیە و شۆڕدەبێتەوە تاوەکو لاوەکان"),
           SentencesRow(
             englishText: "I appeared in a slinky satin dress.",
-            kurdishText: "بە عەزیەیەکی پێوەچەسپی نەرمەوە دەرکەوتم.", // dress
+            kurdishText: "بە عەزیەیەکی پێوەچەسپی نەرمەوە دەرکەوتم.",
             onPressedBritish: () => speakdresss1("en-GB"),
             onPressedAmerican: () => speakdresss1("en-US"),
           ),

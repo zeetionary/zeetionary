@@ -383,7 +383,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She had a sense of impending doom (= felt that something very bad was going to happen).",
-            kurdishText: "ھەستێکی بۆ کارەساتێکی بەپەلە ھەبوو.", // doom
+            kurdishText: "ھەستێکی بۆ کارەساتێکی بەپەلە ھەبوو.",
             onPressedBritish: () => speakdooms1("en-GB"),
             onPressedAmerican: () => speakdooms1("en-US"),
           ),

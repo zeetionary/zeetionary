@@ -242,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) چاڵێکو بچووک لەسەر ڕووخسار"),
           SentencesRow(
             englishText: "He has a little round dimple in one cheek.",
-            kurdishText: "لەسەر گۆنایەکی چاڵێکی خڕی ھەیە.", // dimple
+            kurdishText: "لەسەر گۆنایەکی چاڵێکی خڕی ھەیە.",
             onPressedBritish: () => speakdimples1("en-GB"),
             onPressedAmerican: () => speakdimples1("en-US"),
           ),

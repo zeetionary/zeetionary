@@ -340,7 +340,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Water freezes at 32 degrees Fahrenheit (32°F) or zero/nought degrees Celsius (0°C).",
             kurdishText:
-                "ئاو لە پلەی ٣٢ پلەی فەھرنایت یان سفری سیلیزی دەیبەستێت.", // degree
+                "ئاو لە پلەی ٣٢ پلەی فەھرنایت یان سفری سیلیزی دەیبەستێت.",
             onPressedBritish: () => speakdegrees1("en-GB"),
             onPressedAmerican: () => speakdegrees1("en-US"),
           ),

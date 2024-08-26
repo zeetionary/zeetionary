@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) تاریک"),
           SentencesRow(
             englishText: "What time does it get dark in summer?",
-            kurdishText: "کاتژمێر چەند لە ھاویندا تاریک دادێت؟", // dark
+            kurdishText: "کاتژمێر چەند لە ھاویندا تاریک دادێت؟",
             onPressedBritish: () => speakdarks1("en-GB"),
             onPressedAmerican: () => speakdarks1("en-US"),
           ),

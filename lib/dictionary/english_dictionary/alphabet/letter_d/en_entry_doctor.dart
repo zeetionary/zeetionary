@@ -474,7 +474,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کەسێک کە شارەزایی لە زانستی پزیشكی ھەیە و کاری چارەسەری نەخۆشە"),
           SentencesRow(
             englishText: "You'd better see a doctor about that cough.",
-            kurdishText: "باشترە پزیشکێک ببینیت سەبارەت بەو کۆکەیە.", // doctor
+            kurdishText: "باشترە پزیشکێک ببینیت سەبارەت بەو کۆکەیە.",
             onPressedBritish: () => speakdoctors1("en-GB"),
             onPressedAmerican: () => speakdoctors1("en-US"),
           ),

@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە بێزت دێنێتەوە"),
           SentencesRow(
             englishText: "I was disgusted at/by the sight.",
-            kurdishText: "بێزم ھاتەوە بە دیمەنەکە.", // disgusted
+            kurdishText: "بێزم ھاتەوە بە دیمەنەکە.",
             onPressedBritish: () => speakdisgusteds1("en-GB"),
             onPressedAmerican: () => speakdisgusteds1("en-US"),
           ),

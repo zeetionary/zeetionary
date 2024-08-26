@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "She watched the doves return to the dovecot at dusk.",
             kurdishText:
-                "سەیری کۆترەکانی کرد کە گەڕانەوە بۆ کونەکۆترەکە لە ڕۆژئاوابووندا.", // dovecot
+                "سەیری کۆترەکانی کرد کە گەڕانەوە بۆ کونەکۆترەکە لە ڕۆژئاوابووندا.",
             onPressedBritish: () => speakdovecots1("en-GB"),
             onPressedAmerican: () => speakdovecots1("en-US"),
           ),

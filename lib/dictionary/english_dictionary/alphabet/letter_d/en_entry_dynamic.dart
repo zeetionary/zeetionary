@@ -407,7 +407,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵناو) کەسێکی کە ھێزی زۆر و کەسایەتی بەھێزی ھەیە"""),
           SentencesRow(
             englishText: """She has a dynamic personality.""",
-            kurdishText: """کەسایەتییەکی پڕوزەی ھەیە.""", // dynamic
+            kurdishText: """کەسایەتییەکی پڕوزەی ھەیە.""",
             onPressedBritish: () => speakdynamics1("en-GB"),
             onPressedAmerican: () => speakdynamics1("en-US"),
           ),

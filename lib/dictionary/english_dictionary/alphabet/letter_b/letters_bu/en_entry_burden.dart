@@ -186,7 +186,7 @@ class EnglishEntryburden extends StatelessWidget {
                             englishText:
                                 "The main burden of caring for old people falls on the state.",
                             kurdishText:
-                                "بارگرانیی سەرەکیی چاودێری کەسانی بەتەمەن دەکەوێتە سەر حکومەت.", // burden", follow LX strictly
+                                "بارگرانیی سەرەکیی چاودێری کەسانی بەتەمەن دەکەوێتە سەر حکومەت.",
                             onPressedBritish: () => speakburdens1("en-GB"),
                             onPressedAmerican: () => speakburdens1("en-US"),
                           ),

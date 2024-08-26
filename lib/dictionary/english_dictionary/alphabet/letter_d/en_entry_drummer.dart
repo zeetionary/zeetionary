@@ -358,8 +358,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کەسێک کە دەھۆڵ لێدەدا"),
           SentencesRow(
             englishText: "She hired a talented drummer for her new album.",
-            kurdishText:
-                "دەھۆڵلێدەرێکی تازەی گرت بۆ ئەلبوومە تازەکەی.", // drummer
+            kurdishText: "دەھۆڵلێدەرێکی تازەی گرت بۆ ئەلبوومە تازەکەی.",
             onPressedBritish: () => speakdrummers1("en-GB"),
             onPressedAmerican: () => speakdrummers1("en-US"),
           ),

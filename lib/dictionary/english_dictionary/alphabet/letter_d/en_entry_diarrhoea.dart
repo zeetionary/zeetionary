@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نەخۆشییەک کە دەبێت ھۆکاری زووکردنی پیسایی و شێوەکەی دەگۆڕێت بۆ شلە"),
           SentencesRow(
             englishText: "Symptoms include diarrhoea and vomiting.",
-            kurdishText: "نیشانەکان زگچوون و ڕشانەوە لەخۆدەگرن.", // diarrhoea
+            kurdishText: "نیشانەکان زگچوون و ڕشانەوە لەخۆدەگرن.",
             onPressedBritish: () => speakdiarrhoeas1("en-GB"),
             onPressedAmerican: () => speakdiarrhoeas1("en-US"),
           ),

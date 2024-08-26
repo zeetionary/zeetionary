@@ -405,8 +405,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Aspirin is a simple but highly effective treatment.""",
-            kurdishText:
-                """ئەسپرین چارەسەرێکی سادە بەڵام تەواو کاریگەرە.""", // effective
+            kurdishText: """ئەسپرین چارەسەرێکی سادە بەڵام تەواو کاریگەرە.""",
             onPressedBritish: () => speakeffectives1("en-GB"),
             onPressedAmerican: () => speakeffectives1("en-US"),
           ),

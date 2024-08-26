@@ -247,7 +247,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Pregnant women don't have to pay dental charges under the current health system.",
             kurdishText:
-                "ژنانی دووگیان پێویست ناکات تێچووی ددان بدەن بەپێی ئەم سیستەمە تەندرووستیەی ئێستا.", // dental
+                "ژنانی دووگیان پێویست ناکات تێچووی ددان بدەن بەپێی ئەم سیستەمە تەندرووستیەی ئێستا.",
             onPressedBritish: () => speakdentals1("en-GB"),
             onPressedAmerican: () => speakdentals1("en-US"),
           ),

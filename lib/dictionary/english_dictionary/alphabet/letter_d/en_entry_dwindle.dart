@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Support for the party has dwindled away to nothing.""",
-            kurdishText:
-                """پشتگیری بۆ پارتەکە کەمبووە تا ئاستی نەمان.""", // dwindle
+            kurdishText: """پشتگیری بۆ پارتەکە کەمبووە تا ئاستی نەمان.""",
             onPressedBritish: () => speakdwindles1("en-GB"),
             onPressedAmerican: () => speakdwindles1("en-US"),
           ),

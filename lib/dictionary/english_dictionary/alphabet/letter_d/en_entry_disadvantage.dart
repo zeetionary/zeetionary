@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Some pension plans may disadvantage women.",
             kurdishText:
-                "ھەندێک پلانی مووچەی خانەشینی ڕەنگە زیان بە ژنان بگەیەنێت.", // disadvantage
+                "ھەندێک پلانی مووچەی خانەشینی ڕەنگە زیان بە ژنان بگەیەنێت.",
             onPressedBritish: () => speakdisadvantages1("en-GB"),
             onPressedAmerican: () => speakdisadvantages1("en-US"),
           ),

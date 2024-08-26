@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بۆرییەک کە ئاوی پیس لە شوێنێکەوە دەگوازێتەوە"),
           SentencesRow(
             englishText: "He fixed the broken drainpipe to stop the leaking.",
-            kurdishText:
-                "ئاوەڕۆ شکاوەکەی چاککردن بۆ ڕێگری لە دزەکردنەکە.", // drainpipe
+            kurdishText: "ئاوەڕۆ شکاوەکەی چاککردن بۆ ڕێگری لە دزەکردنەکە.",
             onPressedBritish: () => speakdrainpipes1("en-GB"),
             onPressedAmerican: () => speakdrainpipes1("en-US"),
           ),

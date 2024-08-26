@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The agencies are using the money to promote emergent technologies.""",
             kurdishText:
-                """ئاژانسەکان پارەکە بەکاردەھێنن بۆ پەرەپێدانی تەکنەلۆژیای تازەدەرکەوتوو.""", // emergent
+                """ئاژانسەکان پارەکە بەکاردەھێنن بۆ پەرەپێدانی تەکنەلۆژیای تازەدەرکەوتوو.""",
             onPressedBritish: () => speakemergents1("en-GB"),
             onPressedAmerican: () => speakemergents1("en-US"),
           ),

@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "To divide by ten, move the decimal point one place to the left.",
             kurdishText:
-                "بۆ دابەشکردن بەسەر دەدا، فاریزەی دەیان یەک یەکە بۆ لای چەپ بێنە.", // decimal point
+                "بۆ دابەشکردن بەسەر دەدا، فاریزەی دەیان یەک یەکە بۆ لای چەپ بێنە.",
             onPressedBritish: () => speakdecimalpoints1("en-GB"),
             onPressedAmerican: () => speakdecimalpoints1("en-US"),
           ),

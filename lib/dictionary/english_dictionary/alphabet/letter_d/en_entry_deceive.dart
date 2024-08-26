@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) واکردن لە کەسێک کە باوەڕ بە شتێک بکات کە ڕاست نییە"),
           SentencesRow(
             englishText: "Her husband had been deceiving her for years.",
-            kurdishText: "ھاوسەرەکەی چەندین ساڵە دەیخەڵەتێنێت.", // deceive
+            kurdishText: "ھاوسەرەکەی چەندین ساڵە دەیخەڵەتێنێت.",
             onPressedBritish: () => speakdeceives1("en-GB"),
             onPressedAmerican: () => speakdeceives1("en-US"),
           ),

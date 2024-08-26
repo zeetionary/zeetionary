@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "There is considerable public disquiet about the safety of the new trains.",
             kurdishText:
-                "نیگەرانی زۆری خەڵکی ھەیە سەبارەت بە سەلامەتی شەمەندەفەرە تازەکان.", // disquiet
+                "نیگەرانی زۆری خەڵکی ھەیە سەبارەت بە سەلامەتی شەمەندەفەرە تازەکان.",
             onPressedBritish: () => speakdisquiets1("en-GB"),
             onPressedAmerican: () => speakdisquiets1("en-US"),
           ),

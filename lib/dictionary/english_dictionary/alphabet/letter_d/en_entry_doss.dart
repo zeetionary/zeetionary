@@ -382,7 +382,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) خەوتن لە شوێنێک، بەتایبەت شوێنێکی ناخۆش و نائاسوودە کە جێخەوێکی باشی نییە"),
           SentencesRow(
             englishText: "You can doss down on my floor.",
-            kurdishText: "دەتوانیت لەسەر زەوییەکەم بخەویت.", // doss
+            kurdishText: "دەتوانیت لەسەر زەوییەکەم بخەویت.",
             onPressedBritish: () => speakdosss1("en-GB"),
             onPressedAmerican: () => speakdosss1("en-US"),
           ),

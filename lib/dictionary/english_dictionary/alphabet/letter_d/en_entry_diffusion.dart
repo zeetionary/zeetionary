@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Powerful global institutions drive the diffusion of new technologies.",
             kurdishText:
-                "دامەزراوە جیھانییە بەھێزەکان ڕابەرایەتی بڵاوبوونەوەی تەکنەلۆژیای تازە دەکەن.", // diffusion
+                "دامەزراوە جیھانییە بەھێزەکان ڕابەرایەتی بڵاوبوونەوەی تەکنەلۆژیای تازە دەکەن.",
             onPressedBritish: () => speakdiffusions1("en-GB"),
             onPressedAmerican: () => speakdiffusions1("en-US"),
           ),

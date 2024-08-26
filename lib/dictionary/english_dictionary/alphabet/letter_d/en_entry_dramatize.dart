@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Jane Austen’s ‘Emma’ was dramatized on television recently.",
             kurdishText:
-                "بەرھەمی 'Emma' ــی جەین ئۆستن تازەگی کرا بە شانۆ لەسەر تەلەفیزیۆن.", // dramatize
+                "بەرھەمی 'Emma' ــی جەین ئۆستن تازەگی کرا بە شانۆ لەسەر تەلەفیزیۆن.",
             onPressedBritish: () => speakdramatizes1("en-GB"),
             onPressedAmerican: () => speakdramatizes1("en-US"),
           ),

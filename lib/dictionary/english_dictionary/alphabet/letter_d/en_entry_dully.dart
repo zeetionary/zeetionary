@@ -375,7 +375,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ھاوەڵکار) بەشێوەیەک کە ھەست، تێگەشتن، و حەز پیشان نادات"""),
           SentencesRow(
             englishText: """‘I suppose so,’ she said dully.""",
-            kurdishText: """بە بێ‌تاقەتی‌یەوە گوتی 'پێموایە.'""", // dully
+            kurdishText: """بە بێ‌تاقەتی‌یەوە گوتی 'پێموایە.'""",
             onPressedBritish: () => speakdullys1("en-GB"),
             onPressedAmerican: () => speakdullys1("en-US"),
           ),

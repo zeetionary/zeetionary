@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کۆنەباو؛ پەیوەندیدار بە ڕابردوو"),
           SentencesRow(
             englishText: "These ideas seem a bit dated now.",
-            kurdishText: "ئەم باوەڕانە کەمێک کۆنەباو دەردەکەون ئێستا.", // dated
+            kurdishText: "ئەم باوەڕانە کەمێک کۆنەباو دەردەکەون ئێستا.",
             onPressedBritish: () => speakdateds1("en-GB"),
             onPressedAmerican: () => speakdateds1("en-US"),
           ),

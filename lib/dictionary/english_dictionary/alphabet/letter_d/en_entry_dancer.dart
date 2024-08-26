@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) کەسێک کە سەما دەکات"),
           SentencesRow(
             englishText: "She's a fantastic dancer.",
-            kurdishText: "سەماکارێکی ناوازەیە.", // dancer
+            kurdishText: "سەماکارێکی ناوازەیە.",
             onPressedBritish: () => speakdancers1("en-GB"),
             onPressedAmerican: () => speakdancers1("en-US"),
           ),

@@ -362,8 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(word: "ھەروەھا: casualty"),
           SentencesRow(
             englishText: """She had to be rushed to the emergency room.""",
-            kurdishText:
-                """دەبوو ببردرێت بۆ بەشی فریاگوزاری خێرا.""", // emergency room
+            kurdishText: """دەبوو ببردرێت بۆ بەشی فریاگوزاری خێرا.""",
             onPressedBritish: () => speakemergencyrooms1("en-GB"),
             onPressedAmerican: () => speakemergencyrooms1("en-US"),
           ),

@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) یەکەم کەس کە شتێک یان شوێنیک دەدۆزێتەوە"),
           SentencesRow(
             englishText: "They were the discoverers of the structure of DNA.",
-            kurdishText: "دۆزەرەوەی پێکھاتەی دی‌ئێن‌ئەی بوون.", // discoverer
+            kurdishText: "دۆزەرەوەی پێکھاتەی دی‌ئێن‌ئەی بوون.",
             onPressedBritish: () => speakdiscoverers1("en-GB"),
             onPressedAmerican: () => speakdiscoverers1("en-US"),
           ),

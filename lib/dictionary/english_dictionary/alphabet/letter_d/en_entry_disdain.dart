@@ -259,7 +259,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئەو ھەستەی کە کەسێک/شتێک ھێندە باش نییە کە شایەنی ڕێز بێت"),
           SentencesRow(
             englishText: "She treated him with disdain.",
-            kurdishText: "بە بی‌ڕێزییەوە مامەڵەی لەگەڵ دەکرد.", // disdain
+            kurdishText: "بە بی‌ڕێزییەوە مامەڵەی لەگەڵ دەکرد.",
             onPressedBritish: () => speakdisdains1("en-GB"),
             onPressedAmerican: () => speakdisdains1("en-US"),
           ),

@@ -139,7 +139,7 @@ class EnglishEntrybulk extends StatelessWidget {
                             englishText:
                                 "The bulk of the population lives in cities.",
                             kurdishText:
-                                "زۆرینەی دانیشتوانەکە لە شارەکان دەژین.", // bulk", follow LX strictly
+                                "زۆرینەی دانیشتوانەکە لە شارەکان دەژین.",
                             onPressedBritish: () => speakbulks1("en-GB"),
                             onPressedAmerican: () => speakbulks1("en-US"),
                           ),

@@ -182,7 +182,7 @@ class EnglishEntrybyproduct extends StatelessWidget {
                             englishText:
                                 "When burnt, plastic produces dangerous by-products.",
                             kurdishText:
-                                "کە دەسووتێنرێت، پلاستیک لابەرھەمی مەترسیدار درووست دەکات.", // by-product", follow LX strictly
+                                "کە دەسووتێنرێت، پلاستیک لابەرھەمی مەترسیدار درووست دەکات.",
                             onPressedBritish: () => speakbyproducts1("en-GB"),
                             onPressedAmerican: () => speakbyproducts1("en-US"),
                           ),

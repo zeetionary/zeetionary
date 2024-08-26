@@ -369,7 +369,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He attached a leash to the dog collar before taking his dog for a walk.",
             kurdishText:
-                "پەتێکی بەست لە قەڵاتەی سەگەکە پێش ئەوەی بیبات بۆ پیاسەیەک.", // dog collar
+                "پەتێکی بەست لە قەڵاتەی سەگەکە پێش ئەوەی بیبات بۆ پیاسەیەک.",
             onPressedBritish: () => speakdogcollars1("en-GB"),
             onPressedAmerican: () => speakdogcollars1("en-US"),
           ),

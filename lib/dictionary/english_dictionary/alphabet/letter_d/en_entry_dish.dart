@@ -299,7 +299,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) دەوری خواردن"),
           SentencesRow(
             englishText: "Bake in a shallow dish for 45 mins.",
-            kurdishText: "بۆ ٤٥ خولەک بیبرژێنە لە دەورییەکی کەم‌قووڵ.", // dish
+            kurdishText: "بۆ ٤٥ خولەک بیبرژێنە لە دەورییەکی کەم‌قووڵ.",
             onPressedBritish: () => speakdishs1("en-GB"),
             onPressedAmerican: () => speakdishs1("en-US"),
           ),

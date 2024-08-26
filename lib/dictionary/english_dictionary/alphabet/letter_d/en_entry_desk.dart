@@ -273,8 +273,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) مێزێک کە لە کاتی نووسین، خوێندنەوە، کارکردن، ھتد بەکاردێت"),
           SentencesRow(
             englishText: "I spend all day sitting at a desk.",
-            kurdishText:
-                "تەواوی ڕۆژەکەم بەسەر برد بە دانیشتن لای مێزەکە.", // desk
+            kurdishText: "تەواوی ڕۆژەکەم بەسەر برد بە دانیشتن لای مێزەکە.",
             onPressedBritish: () => speakdesks1("en-GB"),
             onPressedAmerican: () => speakdesks1("en-US"),
           ),

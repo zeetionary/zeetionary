@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The people of the dukedom respected their ruler.""",
             kurdishText:
-                """خەڵکی دیوک‌نشینەکە ڕێزی دەسەڵاتدارەکەیانیان دەگرت.""", // dukedom
+                """خەڵکی دیوک‌نشینەکە ڕێزی دەسەڵاتدارەکەیانیان دەگرت.""",
             onPressedBritish: () => speakdukedoms1("en-GB"),
             onPressedAmerican: () => speakdukedoms1("en-US"),
           ),

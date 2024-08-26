@@ -422,8 +422,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (کردار) وەرگرتنی پارە بۆ ئەو کارەی دەیکەیت"""),
           SentencesRow(
             englishText: """He earns about £40 000 a year.""",
-            kurdishText:
-                """نزیکەی ٤٠٠٠٠ پاوەند لە ساڵێکدا قازانج دەکات.""", // earn
+            kurdishText: """نزیکەی ٤٠٠٠٠ پاوەند لە ساڵێکدا قازانج دەکات.""",
             onPressedBritish: () => speakearns1("en-GB"),
             onPressedAmerican: () => speakearns1("en-US"),
           ),

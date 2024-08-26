@@ -136,7 +136,7 @@ class EnglishEntrybuildingsociety extends StatelessWidget {
                             englishText:
                                 "She opened an account at the building society.",
                             kurdishText:
-                                "ھەژمارێکی لە ڕێکخراوی خانووبەرە کردەوە.", // building society", follow LX strictly
+                                "ھەژمارێکی لە ڕێکخراوی خانووبەرە کردەوە.",
                             onPressedBritish: () =>
                                 speakbuildingsocietys1("en-GB"),
                             onPressedAmerican: () =>

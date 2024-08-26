@@ -265,8 +265,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە حەز دەکەیت ھەتبێت یان بیکەیت"),
           SentencesRow(
             englishText: "Such measures are desirable, if not essential.",
-            kurdishText:
-                "ھەنگاوی وەھا خواستراون ئەگەر سەرەکیش نەبن.", // desirable
+            kurdishText: "ھەنگاوی وەھا خواستراون ئەگەر سەرەکیش نەبن.",
             onPressedBritish: () => speakdesirables1("en-GB"),
             onPressedAmerican: () => speakdesirables1("en-US"),
           ),

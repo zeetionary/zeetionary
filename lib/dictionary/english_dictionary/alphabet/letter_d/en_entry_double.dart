@@ -506,7 +506,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "I ordered a double espresso (= two standard amounts in one cup).",
-            kurdishText: "داوای ئێسپرێسۆیەکی دەبڵم کرد.", // double
+            kurdishText: "داوای ئێسپرێسۆیەکی دەبڵم کرد.",
             onPressedBritish: () => speakdoubles1("en-GB"),
             onPressedAmerican: () => speakdoubles1("en-US"),
           ),

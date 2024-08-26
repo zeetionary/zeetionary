@@ -366,8 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ژمارە) ژمارە ٨٠"""),
           SentencesRow(
             englishText: """They've invited eighty (guests) to the wedding.""",
-            kurdishText:
-                """ھەشتا میوانیان بانگھێشتی ھاسەرگیرییەکە کردووە.""", // eighty
+            kurdishText: """ھەشتا میوانیان بانگھێشتی ھاسەرگیرییەکە کردووە.""",
             onPressedBritish: () => speakeightys1("en-GB"),
             onPressedAmerican: () => speakeightys1("en-US"),
           ),

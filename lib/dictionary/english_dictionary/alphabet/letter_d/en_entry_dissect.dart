@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) توێکاریکردنی تەرمی مردوویەک"),
           SentencesRow(
             englishText: "The biology students had to dissect a rat.",
-            kurdishText:
-                "خوێنداکارانی زیندەناسی دەبوو جرجێک توێکاری بکەن.", // dissect
+            kurdishText: "خوێنداکارانی زیندەناسی دەبوو جرجێک توێکاری بکەن.",
             onPressedBritish: () => speakdissects1("en-GB"),
             onPressedAmerican: () => speakdissects1("en-US"),
           ),

@@ -368,8 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) وەک ئەوەی کە بیر لە شتی دیکە بکەیتەوە بێ ئاگا بیت لەوەی چی لە دەورووبەرت ڕوودەدات"),
           SentencesRow(
             englishText: "He gazed dreamily out of the window.",
-            kurdishText:
-                "خەیاڵاوی‌یانە لە دەرەوەی پەنجەرەکەی دەڕوانی.", // dreamily
+            kurdishText: "خەیاڵاوی‌یانە لە دەرەوەی پەنجەرەکەی دەڕوانی.",
             onPressedBritish: () => speakdreamilys1("en-GB"),
             onPressedAmerican: () => speakdreamilys1("en-US"),
           ),

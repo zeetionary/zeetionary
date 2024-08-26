@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) ئۆتۆمبێلێکی بارھەڵگر کە شتی تێ دەخرێت و دەکرێت گڵابەکەی بەرز بکاتەوە بۆ ڕشتنی"""),
           SentencesRow(
             englishText: """He worked as a dumper truck driver.""",
-            kurdishText: """وەک شۆفێری گڵابە کاری دەکرد.""", // dumper truck
+            kurdishText: """وەک شۆفێری گڵابە کاری دەکرد.""",
             onPressedBritish: () => speakdumpertrucks1("en-GB"),
             onPressedAmerican: () => speakdumpertrucks1("en-US"),
           ),

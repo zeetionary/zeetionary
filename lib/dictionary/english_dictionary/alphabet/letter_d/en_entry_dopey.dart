@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) گەمژە"),
           SentencesRow(
             englishText: "He's nice, but a bit dopey.",
-            kurdishText: "کەسێکی باشە، بەڵام کەمێک گەمژەیە.", // dopey
+            kurdishText: "کەسێکی باشە، بەڵام کەمێک گەمژەیە.",
             onPressedBritish: () => speakdopeys1("en-GB"),
             onPressedAmerican: () => speakdopeys1("en-US"),
           ),

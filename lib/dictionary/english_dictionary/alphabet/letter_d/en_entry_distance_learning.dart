@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "I got my degree through a distance learning program.",
             kurdishText:
-                "بڕوانامەکەی لە ڕێگەی پڕۆگرامێکی خوێندنی ئۆنلاینەوە بەدەستھێنا.", // distance learning
+                "بڕوانامەکەی لە ڕێگەی پڕۆگرامێکی خوێندنی ئۆنلاینەوە بەدەستھێنا.",
             onPressedBritish: () => speakdistancelearnings1("en-GB"),
             onPressedAmerican: () => speakdistancelearnings1("en-US"),
           ),

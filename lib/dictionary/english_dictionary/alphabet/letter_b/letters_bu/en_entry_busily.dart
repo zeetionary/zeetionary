@@ -180,7 +180,7 @@ class EnglishEntrybusily extends StatelessWidget {
                             englishText:
                                 "He was busily engaged repairing his bike.",
                             kurdishText:
-                                "بێ‌وچان خەریک بوو بە چاککردنەوەی پاسکیلەکەی.", // busily", follow LX strictly
+                                "بێ‌وچان خەریک بوو بە چاککردنەوەی پاسکیلەکەی.",
                             onPressedBritish: () => speakbusilys1("en-GB"),
                             onPressedAmerican: () => speakbusilys1("en-US"),
                           ),

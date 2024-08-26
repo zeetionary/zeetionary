@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The minister has issued an emphatic rejection of the accusation.""",
             kurdishText:
-                """وەزیرەکە ڕەتکردنەوەی بەھێزی تۆمەتەکەی ڕاگەیاندووە.""", // emphatic
+                """وەزیرەکە ڕەتکردنەوەی بەھێزی تۆمەتەکەی ڕاگەیاندووە.""",
             onPressedBritish: () => speakemphatics1("en-GB"),
             onPressedAmerican: () => speakemphatics1("en-US"),
           ),

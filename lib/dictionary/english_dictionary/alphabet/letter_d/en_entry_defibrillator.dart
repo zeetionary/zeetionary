@@ -234,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "We have installed portable defibrillators in public buildings.",
             kurdishText:
-                "شۆکی کارەبایی لەگوێزانەوەھاتوومان لە بینا گشتییەکان داناوە.", // defibrillator
+                "شۆکی کارەبایی لەگوێزانەوەھاتوومان لە بینا گشتییەکان داناوە.",
             onPressedBritish: () => speakdefibrillators1("en-GB"),
             onPressedAmerican: () => speakdefibrillators1("en-US"),
           ),

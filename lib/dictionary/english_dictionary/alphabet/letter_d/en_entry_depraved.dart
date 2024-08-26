@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) کە لە ڕووی ئەخلاقییەوە خراپە"),
           SentencesRow(
             englishText: "This is the work of a depraved mind.",
-            kurdishText: "ئەمە کاری کەسێکی بێ‌ئەخلاقە.", // depraved
+            kurdishText: "ئەمە کاری کەسێکی بێ‌ئەخلاقە.",
             onPressedBritish: () => speakdepraveds1("en-GB"),
             onPressedAmerican: () => speakdepraveds1("en-US"),
           ),

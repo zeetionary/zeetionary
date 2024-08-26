@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The children took turns blowing the dandelion clock (= the mass of white threads to which the seeds are attached).",
             kurdishText:
-                "منداڵەکان نۆرەیان گرتبوو بۆ ئەوەی فوو لە پشیلەپاییزەکە بکەن.", // dandelion
+                "منداڵەکان نۆرەیان گرتبوو بۆ ئەوەی فوو لە پشیلەپاییزەکە بکەن.",
             onPressedBritish: () => speakdandelions1("en-GB"),
             onPressedAmerican: () => speakdandelions1("en-US"),
           ),

@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Resources must be used efficiently to avoid waste.""",
             kurdishText:
-                """سەرچاوەان دەبێت بە لێوەشاوەیی بەکاربێن بۆ دووربوون کە بەفیڕۆدان.""", // efficiently
+                """سەرچاوەان دەبێت بە لێوەشاوەیی بەکاربێن بۆ دووربوون کە بەفیڕۆدان.""",
             onPressedBritish: () => speakefficientlys1("en-GB"),
             onPressedAmerican: () => speakefficientlys1("en-US"),
           ),

@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "They're dredging the harbour so that larger ships can use it.",
             kurdishText:
-                "بەندەرەکە قووڵتر دەکەن بۆ ئەوەی کەشتی گەورەتر بتوانن بەکاریبھێنن.", // dredge
+                "بەندەرەکە قووڵتر دەکەن بۆ ئەوەی کەشتی گەورەتر بتوانن بەکاریبھێنن.",
             onPressedBritish: () => speakdredges1("en-GB"),
             onPressedAmerican: () => speakdredges1("en-US"),
           ),

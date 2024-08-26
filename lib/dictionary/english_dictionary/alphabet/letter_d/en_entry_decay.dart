@@ -268,7 +268,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) لەناوچوون بە ھۆکاری سرووشتی یان نەبوونی گرنگی‌پێدان"),
           SentencesRow(
             englishText: "The landlord had let the building fall into decay.",
-            kurdishText: "خاوەنەکە ھێشتی بیناکە دابڕزێت.", // decay
+            kurdishText: "خاوەنەکە ھێشتی بیناکە دابڕزێت.",
             onPressedBritish: () => speakdecays1("en-GB"),
             onPressedAmerican: () => speakdecays1("en-US"),
           ),

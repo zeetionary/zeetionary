@@ -255,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Gradually factory workers have been displaced by machines.",
             kurdishText:
-                "کەم کەم کرێکارانی کارگەکان لەلایەن ئامێرەوە شوێنیان گیردراوەتەوە.", // displace
+                "کەم کەم کرێکارانی کارگەکان لەلایەن ئامێرەوە شوێنیان گیردراوەتەوە.",
             onPressedBritish: () => speakdisplaces1("en-GB"),
             onPressedAmerican: () => speakdisplaces1("en-US"),
           ),

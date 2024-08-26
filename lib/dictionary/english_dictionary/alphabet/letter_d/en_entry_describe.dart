@@ -265,7 +265,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The next section describes our findings in detail.",
             kurdishText:
-                "بەشی دواتر تەواوی دۆزینەوەکانمان بە وردەکارییەوە دەناسێنێت.", // describe
+                "بەشی دواتر تەواوی دۆزینەوەکانمان بە وردەکارییەوە دەناسێنێت.",
             onPressedBritish: () => speakdescribes1("en-GB"),
             onPressedAmerican: () => speakdescribes1("en-US"),
           ),

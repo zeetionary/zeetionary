@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Some people are more demonstrative than others.",
             kurdishText:
-                "ھەندێک کەس زیاتر ھەستەکانیان دەردەخەن وەک لەوانی دیکە.", // demonstrative
+                "ھەندێک کەس زیاتر ھەستەکانیان دەردەخەن وەک لەوانی دیکە.",
             onPressedBritish: () => speakdemonstratives1("en-GB"),
             onPressedAmerican: () => speakdemonstratives1("en-US"),
           ),

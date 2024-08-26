@@ -245,8 +245,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە دڵتەنگی و بێ‌ھیوایی پیشان دەدات"),
           SentencesRow(
             englishText: "She sat despondently, saying nothing.",
-            kurdishText:
-                "بە پەژارەوە دانیشتبوو و ھیچی نەدەگوت.", // despondently
+            kurdishText: "بە پەژارەوە دانیشتبوو و ھیچی نەدەگوت.",
             onPressedBritish: () => speakdespondentlys1("en-GB"),
             onPressedAmerican: () => speakdespondentlys1("en-US"),
           ),

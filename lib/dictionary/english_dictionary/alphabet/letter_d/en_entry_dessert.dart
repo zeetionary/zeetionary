@@ -245,7 +245,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) خواردنی شیرین کە لە دوای ژەمێک دەخورێت"),
           SentencesRow(
             englishText: "What's for dessert?",
-            kurdishText: "چی بۆ شیرینی ھەیە؟", // dessert
+            kurdishText: "چی بۆ شیرینی ھەیە؟",
             onPressedBritish: () => speakdesserts1("en-GB"),
             onPressedAmerican: () => speakdesserts1("en-US"),
           ),

@@ -138,7 +138,7 @@ class EnglishEntrybullion extends StatelessWidget {
                             englishText:
                                 "Investors often purchase gold bullion.",
                             kurdishText:
-                                "سەرمایەداران زۆرجار پارچە ئاڵتوون دەکڕن.", // bullion", follow LX strictly
+                                "سەرمایەداران زۆرجار پارچە ئاڵتوون دەکڕن.",
                             onPressedBritish: () => speakbullions1("en-GB"),
                             onPressedAmerican: () => speakbullions1("en-US"),
                           ),

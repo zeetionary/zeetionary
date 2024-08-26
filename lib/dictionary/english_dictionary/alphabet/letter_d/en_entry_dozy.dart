@@ -374,7 +374,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) خەواڵوو، وەک ئەوەی خەریک بێت بخەویت"),
           SentencesRow(
             englishText: "I’m feeling a bit dozy.",
-            kurdishText: "کەمێک ھەست بە خەواڵووی دەکەم.", // dozy
+            kurdishText: "کەمێک ھەست بە خەواڵووی دەکەم.",
             onPressedBritish: () => speakdozys1("en-GB"),
             onPressedAmerican: () => speakdozys1("en-US"),
           ),

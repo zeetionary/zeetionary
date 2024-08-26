@@ -139,7 +139,7 @@ class EnglishEntrybuiltin extends StatelessWidget {
                             englishText:
                                 "Both bedrooms have built-in wardrobes.",
                             kurdishText:
-                                "ھەردوو ژووری نووستنەکە دۆڵابی جلوبەرگی خۆیان ھەیە.", // built-in", follow LX strictly
+                                "ھەردوو ژووری نووستنەکە دۆڵابی جلوبەرگی خۆیان ھەیە.",
                             onPressedBritish: () => speakbuiltins1("en-GB"),
                             onPressedAmerican: () => speakbuiltins1("en-US"),
                           ),

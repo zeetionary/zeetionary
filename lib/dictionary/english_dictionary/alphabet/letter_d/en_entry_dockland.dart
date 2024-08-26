@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Hundreds of millions of pounds are needed to redevelop large areas of derelict dockland.",
             kurdishText:
-                "سەدان ملیۆن پاوەند پێویستن بۆ دووبارە گەشەپێدانەوەی ناوچە گەورەکانی شوێنی پشتگوێخراوی لەنگەرخستن.", // dockland
+                "سەدان ملیۆن پاوەند پێویستن بۆ دووبارە گەشەپێدانەوەی ناوچە گەورەکانی شوێنی پشتگوێخراوی لەنگەرخستن.",
             onPressedBritish: () => speakdocklands1("en-GB"),
             onPressedAmerican: () => speakdocklands1("en-US"),
           ),

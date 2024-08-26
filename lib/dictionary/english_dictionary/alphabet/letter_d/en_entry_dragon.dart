@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The knight fought the dragon to rescue the princess.",
             kurdishText:
-                "سوارچاکەکە دژ بە ئەژدیھاکە جەنگا بۆ ڕزگارکردنی شازادە خاتوونەکە.", // dragon
+                "سوارچاکەکە دژ بە ئەژدیھاکە جەنگا بۆ ڕزگارکردنی شازادە خاتوونەکە.",
             onPressedBritish: () => speakdragons1("en-GB"),
             onPressedAmerican: () => speakdragons1("en-US"),
           ),

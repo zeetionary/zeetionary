@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) داکشانی ئاو؛ ئەو ماوەیەی کە ئاستی دەریا دادەبەزێت و دووردەکەوێتەوە لە وشکانی"""),
           SentencesRow(
             englishText: """They left port on the ebb tide.""",
-            kurdishText: """لەگەڵ داشکانەکەدا بەندەرەکەیان جێھێشت.""", // ebb
+            kurdishText: """لەگەڵ داشکانەکەدا بەندەرەکەیان جێھێشت.""",
             onPressedBritish: () => speakebbs1("en-GB"),
             onPressedAmerican: () => speakebbs1("en-US"),
           ),

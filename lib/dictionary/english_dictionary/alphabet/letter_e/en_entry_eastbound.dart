@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """A flight eastbound causes more severe jetlag than flying west.""",
             kurdishText:
-                """گەشتێک بۆ ڕۆژھەڵات زیاتر دەبێتە ھۆی ماندوویی فڕینی توند وەک لە گەشتێک بۆ ڕۆژئاوا.""", // eastbound
+                """گەشتێک بۆ ڕۆژھەڵات زیاتر دەبێتە ھۆی ماندوویی فڕینی توند وەک لە گەشتێک بۆ ڕۆژئاوا.""",
             onPressedBritish: () => speakeastbounds1("en-GB"),
             onPressedAmerican: () => speakeastbounds1("en-US"),
           ),

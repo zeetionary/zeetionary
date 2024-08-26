@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "How can you be a Christian and dispute the divinity of Jesus?",
             kurdishText:
-                "چۆن دەکرێت مەسیحی بیت و ناکۆک بیت لەگەڵ خودایەتی عیسای مەسیح؟", // divinity
+                "چۆن دەکرێت مەسیحی بیت و ناکۆک بیت لەگەڵ خودایەتی عیسای مەسیح؟",
             onPressedBritish: () => speakdivinitys1("en-GB"),
             onPressedAmerican: () => speakdivinitys1("en-US"),
           ),

@@ -439,8 +439,7 @@ class EnglishEntryby extends StatelessWidget {
                                   "١. (ئامراز) بۆ پیشاندانی ئەوەی چۆن یان بە چی شێوەیەک شتێک دەکرێت"),
                           SentencesRow(
                             englishText: "The house is heated by gas.",
-                            kurdishText:
-                                "خانووەکە بە گاز گەرمدەکرێتەوە.", // by", follow LX strictly
+                            kurdishText: "خانووەکە بە گاز گەرمدەکرێتەوە.",
                             onPressedBritish: () => speakbys1("en-GB"),
                             onPressedAmerican: () => speakbys1("en-US"),
                           ),

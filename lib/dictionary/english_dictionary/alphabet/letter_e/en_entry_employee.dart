@@ -373,8 +373,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) کەسێک کە بۆ کەسێکی دیکە کار دەکات"""),
           SentencesRow(
             englishText: """The firm has over 500 employees.""",
-            kurdishText:
-                """کۆمپانیاکە زیاتر لە ٥٠٠ کارمەندی ھەیە.""", // employee
+            kurdishText: """کۆمپانیاکە زیاتر لە ٥٠٠ کارمەندی ھەیە.""",
             onPressedBritish: () => speakemployees1("en-GB"),
             onPressedAmerican: () => speakemployees1("en-US"),
           ),

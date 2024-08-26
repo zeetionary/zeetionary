@@ -387,7 +387,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Investors will still pay tax on their foreign share dividends.",
             kurdishText:
-                "سەرمایەداران ھێشتا دەبێت باج بدەن لەسەر پارەی وەرگیراو لە پشکی بیانی.", // dividend
+                "سەرمایەداران ھێشتا دەبێت باج بدەن لەسەر پارەی وەرگیراو لە پشکی بیانی.",
             onPressedBritish: () => speakdividends1("en-GB"),
             onPressedAmerican: () => speakdividends1("en-US"),
           ),

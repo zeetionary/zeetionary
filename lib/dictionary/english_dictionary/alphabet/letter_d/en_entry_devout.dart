@@ -230,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) پابەندی تەواو بە ئایینێک"),
           SentencesRow(
             englishText: "She is a devout Christian who attends church daily.",
-            kurdishText:
-                "مەسیحییەکی لەخواترسە کە ھەموو ڕۆژێک دەچێتە کڵێسا.", // devout
+            kurdishText: "مەسیحییەکی لەخواترسە کە ھەموو ڕۆژێک دەچێتە کڵێسا.",
             onPressedBritish: () => speakdevouts1("en-GB"),
             onPressedAmerican: () => speakdevouts1("en-US"),
           ),

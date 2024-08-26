@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The firm has achieved a dominant position in the world market.",
             kurdishText:
-                "کۆمپانیاکە پێگەیەکی بەھێزی بەدەستھێناوە لە بازاڕی جیھاندا.", // dominant
+                "کۆمپانیاکە پێگەیەکی بەھێزی بەدەستھێناوە لە بازاڕی جیھاندا.",
             onPressedBritish: () => speakdominants1("en-GB"),
             onPressedAmerican: () => speakdominants1("en-US"),
           ),

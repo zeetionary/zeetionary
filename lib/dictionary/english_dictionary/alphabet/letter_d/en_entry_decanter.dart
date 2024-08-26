@@ -232,8 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The waiter brought a decanter of red wine to the table.",
-            kurdishText:
-                "گارسۆنەکە تۆنگەمەییەکی ھێنا بۆ سەر مێزەکە.", // decanter
+            kurdishText: "گارسۆنەکە تۆنگەمەییەکی ھێنا بۆ سەر مێزەکە.",
             onPressedBritish: () => speakdecanters1("en-GB"),
             onPressedAmerican: () => speakdecanters1("en-US"),
           ),

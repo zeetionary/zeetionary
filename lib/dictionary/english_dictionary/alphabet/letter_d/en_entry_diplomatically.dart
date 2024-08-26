@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە بەڕێوەبردنی پەیوەندیی نێوان دوو وڵات"),
           SentencesRow(
             englishText: "The country remained diplomatically isolated.",
-            kurdishText:
-                "وڵاتەکە لەلایەنی دیپلۆماسییەوە گۆشەگیر مایەوە.", // diplomatically
+            kurdishText: "وڵاتەکە لەلایەنی دیپلۆماسییەوە گۆشەگیر مایەوە.",
             onPressedBritish: () => speakdiplomaticallys1("en-GB"),
             onPressedAmerican: () => speakdiplomaticallys1("en-US"),
           ),

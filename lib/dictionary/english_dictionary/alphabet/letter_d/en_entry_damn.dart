@@ -337,7 +337,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (سەرسوڕمان) وشەیەکی جنێودان کە خەڵکی بەکاریدێنن کە تووڕەن"),
           SentencesRow(
             englishText: "Oh damn! I forgot he was coming.",
-            kurdishText: "ئاھ نەفرەت! بیرم چوو ئەو دێت.", // damn
+            kurdishText: "ئاھ نەفرەت! بیرم چوو ئەو دێت.",
             onPressedBritish: () => speakdamns1("en-GB"),
             onPressedAmerican: () => speakdamns1("en-US"),
           ),

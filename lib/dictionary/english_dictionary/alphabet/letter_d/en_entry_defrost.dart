@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) گەرمکردن بۆ ئەوەی چی دیکە بەستوو نەبێت"),
           SentencesRow(
             englishText: "It will take about four hours to defrost.",
-            kurdishText:
-                "نزیکەی چوار کاتژمێری دەوێت تاوەکو بتوێتەوە.", // defrost
+            kurdishText: "نزیکەی چوار کاتژمێری دەوێت تاوەکو بتوێتەوە.",
             onPressedBritish: () => speakdefrosts1("en-GB"),
             onPressedAmerican: () => speakdefrosts1("en-US"),
           ),

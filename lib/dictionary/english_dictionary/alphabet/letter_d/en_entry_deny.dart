@@ -299,8 +299,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (کردار) وتنی ئەوەی شتێک ڕاست نییە"),
           SentencesRow(
             englishText: "He has denied any involvement in the incident.",
-            kurdishText:
-                "نکۆڵی لە ھەموو تێوەگلانێک لە ڕووداوەکە کردووە.", // deny
+            kurdishText: "نکۆڵی لە ھەموو تێوەگلانێک لە ڕووداوەکە کردووە.",
             onPressedBritish: () => speakdenys1("en-GB"),
             onPressedAmerican: () => speakdenys1("en-US"),
           ),

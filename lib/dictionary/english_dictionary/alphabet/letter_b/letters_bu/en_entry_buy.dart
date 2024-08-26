@@ -178,8 +178,7 @@ class EnglishEntrybuy extends StatelessWidget {
 ١. (کردار) کڕین، سەندن"""),
                           SentencesRow(
                             englishText: "Where did you buy that dress?",
-                            kurdishText:
-                                "ئەو جلەت لە کوێ کڕی؟", // buy", follow LX strictly
+                            kurdishText: "ئەو جلەت لە کوێ کڕی؟",
                             onPressedBritish: () => speakbuys1("en-GB"),
                             onPressedAmerican: () => speakbuys1("en-US"),
                           ),

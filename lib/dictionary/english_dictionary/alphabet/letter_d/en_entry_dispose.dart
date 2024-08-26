@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The visitors disposed themselves in a circle round the statue.",
             kurdishText:
-                "سەردانکاران بە بازنەیەکی بە دەوری پەیکەرەکەدا خۆیان ڕێکخست.", // dispose
+                "سەردانکاران بە بازنەیەکی بە دەوری پەیکەرەکەدا خۆیان ڕێکخست.",
             onPressedBritish: () => speakdisposes1("en-GB"),
             onPressedAmerican: () => speakdisposes1("en-US"),
           ),

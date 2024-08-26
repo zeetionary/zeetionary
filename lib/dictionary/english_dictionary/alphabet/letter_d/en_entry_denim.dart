@@ -230,7 +230,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) جلێکی بەھێزی لۆکەیی کە زۆرجار ڕەنگی شینە بۆ درووستکردنی جل بەکاردێت، بەتایبەتی پانتۆڵ؛ جلێک کە لەم قوماشە درووستکراوە"),
           SentencesRow(
             englishText: "He's usually in denims.",
-            kurdishText: "زۆرجار کابۆ لەبەر دەکات.", // denim
+            kurdishText: "زۆرجار کابۆ لەبەر دەکات.",
             onPressedBritish: () => speakdenims1("en-GB"),
             onPressedAmerican: () => speakdenims1("en-US"),
           ),

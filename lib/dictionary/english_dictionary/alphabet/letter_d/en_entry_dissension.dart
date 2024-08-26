@@ -238,8 +238,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) مشتومڕی نێوان خەڵکی یان لە گرووپێک"),
           SentencesRow(
             englishText: "These issues caused bitter dissension in the party.",
-            kurdishText:
-                "ئەم بابەتانە بوونە ھۆکاری گفتووگۆی توند لە پارتەکە.", // dissension
+            kurdishText: "ئەم بابەتانە بوونە ھۆکاری گفتووگۆی توند لە پارتەکە.",
             onPressedBritish: () => speakdissensions1("en-GB"),
             onPressedAmerican: () => speakdissensions1("en-US"),
           ),

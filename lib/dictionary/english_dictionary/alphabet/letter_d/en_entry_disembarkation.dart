@@ -239,8 +239,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دابەزین لە وەسیلەیەکی گواستنەوە، بەتایبەتی کەشتی یان فڕۆکە، لە کۆتایی گەشتێکدا"),
           SentencesRow(
             englishText: "Please assemble on the deck for disembarkation.",
-            kurdishText:
-                "تکایە لەسەر پشتی کەشتییەکە کۆببنەوە بۆ دابەزین.", // disembarkation
+            kurdishText: "تکایە لەسەر پشتی کەشتییەکە کۆببنەوە بۆ دابەزین.",
             onPressedBritish: () => speakdisembarkations1("en-GB"),
             onPressedAmerican: () => speakdisembarkations1("en-US"),
           ),

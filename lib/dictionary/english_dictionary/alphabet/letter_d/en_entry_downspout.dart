@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(word: "ھەروەھا: drainpipe"),
           SentencesRow(
             englishText: "The rainwater flowed quickly through the downspout.",
-            kurdishText:
-                "ئاوی بارانەکە بەخێرایی بە ئاوەڕۆکەدا دەچوو.", // downspout
+            kurdishText: "ئاوی بارانەکە بەخێرایی بە ئاوەڕۆکەدا دەچوو.",
             onPressedBritish: () => speakdownspouts1("en-GB"),
             onPressedAmerican: () => speakdownspouts1("en-US"),
           ),

@@ -182,7 +182,7 @@ class EnglishEntryburrow extends StatelessWidget {
                             englishText:
                                 "Rabbits had burrowed under the fence.",
                             kurdishText:
-                                "کەروێشک بە ژێر پەرژینەکەدا تونێلیان کەندبوو.", // burrow", follow LX strictly
+                                "کەروێشک بە ژێر پەرژینەکەدا تونێلیان کەندبوو.",
                             onPressedBritish: () => speakburrows1("en-GB"),
                             onPressedAmerican: () => speakburrows1("en-US"),
                           ),

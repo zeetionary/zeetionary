@@ -242,8 +242,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There are a disproportionate number of girls in the class.",
-            kurdishText:
-                "ژمارەیەکی ناھاوڕێژە لە کچان لە پۆلەکەدان.", // disproportionate
+            kurdishText: "ژمارەیەکی ناھاوڕێژە لە کچان لە پۆلەکەدان.",
             onPressedBritish: () => speakdisproportionates1("en-GB"),
             onPressedAmerican: () => speakdisproportionates1("en-US"),
           ),

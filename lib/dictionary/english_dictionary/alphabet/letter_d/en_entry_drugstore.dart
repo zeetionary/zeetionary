@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) فرۆشگایەک کە دەرمان و ھەروەھا شتی دیکەی وەک بەرھەمی جوانکاری دەفرۆشێت"),
           SentencesRow(
             englishText: "I bought these sunglasses at the drugstore.",
-            kurdishText: "ئەم چاویلکەیەم لە دەرمانخانەکە کڕی.", // drugstore
+            kurdishText: "ئەم چاویلکەیەم لە دەرمانخانەکە کڕی.",
             onPressedBritish: () => speakdrugstores1("en-GB"),
             onPressedAmerican: () => speakdrugstores1("en-US"),
           ),

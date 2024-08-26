@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) شتێک کە قەراغی شتێک پێکدێێت"""),
           SentencesRow(
             englishText: """The carpet's edging was starting to fray.""",
-            kurdishText: """ڕیشکی ڕایەخەکە خەریک بوو شیدەبووەوە.""", // edging
+            kurdishText: """ڕیشکی ڕایەخەکە خەریک بوو شیدەبووەوە.""",
             onPressedBritish: () => speakedgings1("en-GB"),
             onPressedAmerican: () => speakedgings1("en-US"),
           ),

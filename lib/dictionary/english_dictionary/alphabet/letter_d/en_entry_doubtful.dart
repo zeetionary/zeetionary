@@ -404,7 +404,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ھەبوونی گومان؛ نەبوونی دڵنیایی"),
           SentencesRow(
             englishText: "Rose was doubtful about the whole idea.",
-            kurdishText: "ڕۆز گومانی ھەبوو لەسەر تەواوی بیرۆکەکە.", // doubtful
+            kurdishText: "ڕۆز گومانی ھەبوو لەسەر تەواوی بیرۆکەکە.",
             onPressedBritish: () => speakdoubtfuls1("en-GB"),
             onPressedAmerican: () => speakdoubtfuls1("en-US"),
           ),

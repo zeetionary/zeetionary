@@ -145,7 +145,7 @@ class EnglishEntrybulb extends StatelessWidget {
                             englishText:
                                 "Can you remove the bulb and replace it with an energy-efficient one?",
                             kurdishText:
-                                "دەتوانیت گڵۆپەکە لابدەیت و لەگەڵ دانەیەکی تر بیگۆڕیتەوە کە وزەی کەمتر بوێت؟", // bulb", follow LX strictly
+                                "دەتوانیت گڵۆپەکە لابدەیت و لەگەڵ دانەیەکی تر بیگۆڕیتەوە کە وزەی کەمتر بوێت؟",
                             onPressedBritish: () => speakbulbs1("en-GB"),
                             onPressedAmerican: () => speakbulbs1("en-US"),
                           ),

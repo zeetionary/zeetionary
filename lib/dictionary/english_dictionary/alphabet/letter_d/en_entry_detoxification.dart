@@ -258,8 +258,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The center specializes in detoxification for addicts.",
-            kurdishText:
-                "سەنتەرەکە شارەزایی ھەیە لە پاککردنەوەی ئاڵوودەبوان.", // detoxification
+            kurdishText: "سەنتەرەکە شارەزایی ھەیە لە پاککردنەوەی ئاڵوودەبوان.",
             onPressedBritish: () => speakdetoxifications1("en-GB"),
             onPressedAmerican: () => speakdetoxifications1("en-US"),
           ),

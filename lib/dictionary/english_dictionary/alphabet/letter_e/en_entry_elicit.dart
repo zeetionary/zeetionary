@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (کردار) وەرگرتنی زانیاری یان کاردانەوە لە کەسێک، زۆرجار بە سەختی"""),
           SentencesRow(
             englishText: """I could elicit no response from him.""",
-            kurdishText: """نەمتوانی ھیچ وەڵامێکی لێ دەرکێشم.""", // elicit
+            kurdishText: """نەمتوانی ھیچ وەڵامێکی لێ دەرکێشم.""",
             onPressedBritish: () => speakelicits1("en-GB"),
             onPressedAmerican: () => speakelicits1("en-US"),
           ),

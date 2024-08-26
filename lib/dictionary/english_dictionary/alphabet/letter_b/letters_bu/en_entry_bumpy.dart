@@ -181,7 +181,7 @@ class EnglishEntrybumpy extends StatelessWidget {
                             englishText:
                                 "The road was getting bumpier and we had to hold on to our seats.",
                             kurdishText:
-                                "ڕێگاکە پڕچاڵ‌وچۆڵ دەبوو و دەبوو دەست بگرین بە کۆشینەکانمانەوە.", // bumpy", follow LX strictly
+                                "ڕێگاکە پڕچاڵ‌وچۆڵ دەبوو و دەبوو دەست بگرین بە کۆشینەکانمانەوە.",
                             onPressedBritish: () => speakbumpys1("en-GB"),
                             onPressedAmerican: () => speakbumpys1("en-US"),
                           ),

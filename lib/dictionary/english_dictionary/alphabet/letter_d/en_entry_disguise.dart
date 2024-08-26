@@ -307,7 +307,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) گۆڕینی شێوەت بۆ ئەوەی نەناسرێیتەوە"),
           SentencesRow(
             englishText: "The hijackers were heavily disguised.",
-            kurdishText: "ڕفێنەرەکان تەواو خۆیان گۆڕیبوو.", // disguise
+            kurdishText: "ڕفێنەرەکان تەواو خۆیان گۆڕیبوو.",
             onPressedBritish: () => speakdisguises1("en-GB"),
             onPressedAmerican: () => speakdisguises1("en-US"),
           ),

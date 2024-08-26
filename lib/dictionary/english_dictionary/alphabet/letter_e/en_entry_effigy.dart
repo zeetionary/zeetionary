@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Crowds marched through the streets carrying burning effigies of the president.""",
             kurdishText:
-                """جەماوەرەکە بە شەقامەکاندا ڕێپێوانیان بوو بە ھەڵگرتنی بووکەڵەی ئاگرتێبەردراوی سەرۆکەوە.""", // effigy
+                """جەماوەرەکە بە شەقامەکاندا ڕێپێوانیان بوو بە ھەڵگرتنی بووکەڵەی ئاگرتێبەردراوی سەرۆکەوە.""",
             onPressedBritish: () => speakeffigys1("en-GB"),
             onPressedAmerican: () => speakeffigys1("en-US"),
           ),

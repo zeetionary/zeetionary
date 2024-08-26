@@ -373,8 +373,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵکار)لە یان بۆ شوێنی دیکە"""),
           SentencesRow(
             englishText: """Dissatisfied customers will look elsewhere.""",
-            kurdishText:
-                """کڕیارە ناڕازییەکان بۆ شوێنی دیکە دەگەڕێن.""", // elsewhere
+            kurdishText: """کڕیارە ناڕازییەکان بۆ شوێنی دیکە دەگەڕێن.""",
             onPressedBritish: () => speakelsewheres1("en-GB"),
             onPressedAmerican: () => speakelsewheres1("en-US"),
           ),

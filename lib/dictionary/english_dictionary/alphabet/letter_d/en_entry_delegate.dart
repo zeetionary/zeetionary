@@ -283,8 +283,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) نوێنەر؛ کەسێک کە ھەڵبژێردراوە بۆ ئەوەی نوێنەرایەتی بۆچوونەکانی گرووپێک بکات و بڕیار لە جێگایان بدات"),
           SentencesRow(
             englishText: "Congress delegates rejected the proposals.",
-            kurdishText:
-                "نوێنەرانی کۆنگرێس پێشنیارەکانیان ڕەتکردەوە.", // delegate
+            kurdishText: "نوێنەرانی کۆنگرێس پێشنیارەکانیان ڕەتکردەوە.",
             onPressedBritish: () => speakdelegates1("en-GB"),
             onPressedAmerican: () => speakdelegates1("en-US"),
           ),

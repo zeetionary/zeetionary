@@ -363,7 +363,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Dysentery often spreads through contaminated water.""",
             kurdishText:
-                """زگەشۆرە خوێنی زۆرجار بەھۆی ئاوی پیس دەگوازرێتەوە.""", // dysentery
+                """زگەشۆرە خوێنی زۆرجار بەھۆی ئاوی پیس دەگوازرێتەوە.""",
             onPressedBritish: () => speakdysenterys1("en-GB"),
             onPressedAmerican: () => speakdysenterys1("en-US"),
           ),

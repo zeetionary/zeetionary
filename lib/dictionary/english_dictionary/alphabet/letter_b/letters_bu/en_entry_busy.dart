@@ -179,8 +179,7 @@ class EnglishEntrybusy extends StatelessWidget {
                           const DefinitionKurdish(text: "١. (ھاوەڵناو) سەرقاڵ"),
                           SentencesRow(
                             englishText: "Are you busy tonight?",
-                            kurdishText:
-                                "ئەمشەو سەرقاڵیت؟", // busy", follow LX strictly
+                            kurdishText: "ئەمشەو سەرقاڵیت؟",
                             onPressedBritish: () => speakbusys1("en-GB"),
                             onPressedAmerican: () => speakbusys1("en-US"),
                           ),

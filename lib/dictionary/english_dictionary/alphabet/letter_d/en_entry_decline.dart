@@ -297,8 +297,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) کەمبوون، بچووکبوون، لاوازبوون، ھتد"),
           SentencesRow(
             englishText: "Support for the party continues to decline.",
-            kurdishText:
-                "پشتیوانی بۆ پارتەکە بەردەوامە لە لاوازبوون.", // decline
+            kurdishText: "پشتیوانی بۆ پارتەکە بەردەوامە لە لاوازبوون.",
             onPressedBritish: () => speakdeclines1("en-GB"),
             onPressedAmerican: () => speakdeclines1("en-US"),
           ),

@@ -281,7 +281,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) مەترسیدار یان زیانبەخش"),
           SentencesRow(
             englishText: "The situation is extremely dangerous.",
-            kurdishText: "دۆخەکە تەواو مەترسیدارە.", // dangerous
+            kurdishText: "دۆخەکە تەواو مەترسیدارە.",
             onPressedBritish: () => speakdangerouss1("en-GB"),
             onPressedAmerican: () => speakdangerouss1("en-US"),
           ),

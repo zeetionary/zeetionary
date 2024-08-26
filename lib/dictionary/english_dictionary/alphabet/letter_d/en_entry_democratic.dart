@@ -284,8 +284,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) پەیوەندیدار بە دیموکراسی؛ کە لەلایەن نوێنەرانی ھەڵبژێردراوەوە بەڕێوەدەبردرێت"),
           SentencesRow(
             englishText: "Exercise your democratic right to vote.",
-            kurdishText:
-                "مافی دیموکراسییانەی دەنگدانت بەکاربھێنە.", // democratic
+            kurdishText: "مافی دیموکراسییانەی دەنگدانت بەکاربھێنە.",
             onPressedBritish: () => speakdemocratics1("en-GB"),
             onPressedAmerican: () => speakdemocratics1("en-US"),
           ),

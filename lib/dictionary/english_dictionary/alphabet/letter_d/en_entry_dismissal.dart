@@ -271,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The dismissals followed the resignation of the chairman.",
             kurdishText:
-                "دەرکردنەکان لەدوای دەستلەکارکێشانەوە بەڕێوەبەرەکە ڕوویاندا.", // dismissal
+                "دەرکردنەکان لەدوای دەستلەکارکێشانەوە بەڕێوەبەرەکە ڕوویاندا.",
             onPressedBritish: () => speakdismissals1("en-GB"),
             onPressedAmerican: () => speakdismissals1("en-US"),
           ),

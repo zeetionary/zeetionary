@@ -375,8 +375,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """As a teacher, she had a reputation for eccentricity.""",
-            kurdishText:
-                """وەک مامۆستایەک ناوبانگی ھەبوو بۆ نائاسایێتی.""", // eccentricity
+            kurdishText: """وەک مامۆستایەک ناوبانگی ھەبوو بۆ نائاسایێتی.""",
             onPressedBritish: () => speakeccentricitys1("en-GB"),
             onPressedAmerican: () => speakeccentricitys1("en-US"),
           ),

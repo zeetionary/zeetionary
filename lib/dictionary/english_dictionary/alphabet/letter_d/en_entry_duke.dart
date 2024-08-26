@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) پیاوێکی خانەدان لە بەرزترین پلە، یان دەسەڵاتداری دەوڵەتێکی بچووک"""),
           SentencesRow(
             englishText: """They claim to be descendants of a French duke.""",
-            kurdishText: """بانگەشەی ئەوە دەکەن نەوەی میرێک بن.""", // duke
+            kurdishText: """بانگەشەی ئەوە دەکەن نەوەی میرێک بن.""",
             onPressedBritish: () => speakdukes1("en-GB"),
             onPressedAmerican: () => speakdukes1("en-US"),
           ),

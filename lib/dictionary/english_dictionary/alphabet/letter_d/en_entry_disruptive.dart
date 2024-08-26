@@ -248,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She had a disruptive influence on the rest of the class.",
-            kurdishText:
-                "کاریگەری تێکدەری لەسەر ئەوانەی دیکە پۆلەکە ھەبوو.", // disruptive
+            kurdishText: "کاریگەری تێکدەری لەسەر ئەوانەی دیکە پۆلەکە ھەبوو.",
             onPressedBritish: () => speakdisruptives1("en-GB"),
             onPressedAmerican: () => speakdisruptives1("en-US"),
           ),

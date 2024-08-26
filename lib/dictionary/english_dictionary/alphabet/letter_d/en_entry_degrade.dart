@@ -253,8 +253,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) مامەڵەکردن لەگەڵ کەسێک کە ئەوە پیشان دەدات کە نرخی نییە یان شایەنی ڕێز نییە"),
           SentencesRow(
             englishText: "This poster is offensive and degrades women.",
-            kurdishText:
-                "ئەم پۆستەرە بێ‌ڕێزانەیە و سوکایەتی بە ژنان دەکات.", // degrade
+            kurdishText: "ئەم پۆستەرە بێ‌ڕێزانەیە و سوکایەتی بە ژنان دەکات.",
             onPressedBritish: () => speakdegrades1("en-GB"),
             onPressedAmerican: () => speakdegrades1("en-US"),
           ),

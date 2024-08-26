@@ -233,7 +233,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "In all the media hysteria, there was one journalist whose comments were dispassionate.",
             kurdishText:
-                "لەو ھەموو شاگەشکەیەی میدیادا، ڕۆژنامەنووسێک ھەبوو لێدوانەکانی بێ‌لایەنانە بوو.", // dispassionate
+                "لەو ھەموو شاگەشکەیەی میدیادا، ڕۆژنامەنووسێک ھەبوو لێدوانەکانی بێ‌لایەنانە بوو.",
             onPressedBritish: () => speakdispassionates1("en-GB"),
             onPressedAmerican: () => speakdispassionates1("en-US"),
           ),

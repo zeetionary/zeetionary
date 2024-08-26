@@ -243,7 +243,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) دوازدەیەم و کۆتا مانگی ساڵ"),
           SentencesRow(
             englishText: "She was born in December.",
-            kurdishText: "لە کانوونی یەکەمدا لەدایکبوو.", // December
+            kurdishText: "لە کانوونی یەکەمدا لەدایکبوو.",
             onPressedBritish: () => speakDecembers1("en-GB"),
             onPressedAmerican: () => speakDecembers1("en-US"),
           ),

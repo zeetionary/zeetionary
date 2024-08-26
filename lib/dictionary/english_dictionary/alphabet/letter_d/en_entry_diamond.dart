@@ -252,7 +252,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She was wearing her diamonds (= jewellery with diamonds in it).",
-            kurdishText: "ئەڵماسەکانی بەستبوو.", // diamond
+            kurdishText: "ئەڵماسەکانی بەستبوو.",
             onPressedBritish: () => speakdiamonds1("en-GB"),
             onPressedAmerican: () => speakdiamonds1("en-US"),
           ),

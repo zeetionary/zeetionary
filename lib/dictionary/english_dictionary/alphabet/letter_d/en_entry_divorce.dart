@@ -432,7 +432,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) بە فەرمی کۆتایی ھێنان بە ھاوسەرگیرییەک"),
           SentencesRow(
             englishText: "The marriage ended in divorce.",
-            kurdishText: "ھاوسەرگیرییەکە بە جیابوونەوە کۆتایی ھات.", // divorce
+            kurdishText: "ھاوسەرگیرییەکە بە جیابوونەوە کۆتایی ھات.",
             onPressedBritish: () => speakdivorces1("en-GB"),
             onPressedAmerican: () => speakdivorces1("en-US"),
           ),

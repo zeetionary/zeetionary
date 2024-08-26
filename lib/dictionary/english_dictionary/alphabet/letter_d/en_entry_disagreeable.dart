@@ -246,8 +246,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کە خۆش نییە"),
           SentencesRow(
             englishText: "He had the disagreeable job of identifying the body.",
-            kurdishText:
-                "کاری ناخۆشی ناسینەوەی تەرمەکەی ھەبوو.", // disagreeable
+            kurdishText: "کاری ناخۆشی ناسینەوەی تەرمەکەی ھەبوو.",
             onPressedBritish: () => speakdisagreeables1("en-GB"),
             onPressedAmerican: () => speakdisagreeables1("en-US"),
           ),

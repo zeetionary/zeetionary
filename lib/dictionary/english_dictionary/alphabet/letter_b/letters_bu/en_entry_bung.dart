@@ -180,8 +180,7 @@ class EnglishEntrybung extends StatelessWidget {
                                   "١. (کردار) دانان یان فڕێدانی شتێک بۆ شوێنێک بەخێرایی و کەمتەرخەمییەوە"),
                           SentencesRow(
                             englishText: "Bung this in the bin, can you?",
-                            kurdishText:
-                                "ئەتوانیت ئەمە فڕێ بدەیتە زباڵەکەوە؟", // bung", follow LX strictly
+                            kurdishText: "ئەتوانیت ئەمە فڕێ بدەیتە زباڵەکەوە؟",
                             onPressedBritish: () => speakbungs1("en-GB"),
                             onPressedAmerican: () => speakbungs1("en-US"),
                           ),

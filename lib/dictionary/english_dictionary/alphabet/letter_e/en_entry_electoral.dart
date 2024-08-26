@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The committee endorses electoral reforms for fairer elections.""",
             kurdishText:
-                """لیژنەکە پشتگیری چاکسازی ھەڵبژاردن دەکات بۆ ھەڵبژاردنی دادەپەروەرانەتر.""", // electoral
+                """لیژنەکە پشتگیری چاکسازی ھەڵبژاردن دەکات بۆ ھەڵبژاردنی دادەپەروەرانەتر.""",
             onPressedBritish: () => speakelectorals1("en-GB"),
             onPressedAmerican: () => speakelectorals1("en-US"),
           ),

@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The sensors provide early warning of the approach of enemy troops.""",
             kurdishText:
-                """ھەستەوەرەکان ئاماژەی سەرەتایی نزیکبوونەوەی ھێزەکانی دوژمنیان دابەدەستەوە.""", // early warning
+                """ھەستەوەرەکان ئاماژەی سەرەتایی نزیکبوونەوەی ھێزەکانی دوژمنیان دابەدەستەوە.""",
             onPressedBritish: () => speakearlywarnings1("en-GB"),
             onPressedAmerican: () => speakearlywarnings1("en-US"),
           ),

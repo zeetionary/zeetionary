@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "If you are dissatisfied with our service, please contact our customer service department.",
             kurdishText:
-                "ئەگەر ناڕازیت بە خزمەتەکەمان، تکایە پەیوەندی بە بەشی خزمەتگوزاری بەژداربووان بکە.", // dissatisfied
+                "ئەگەر ناڕازیت بە خزمەتەکەمان، تکایە پەیوەندی بە بەشی خزمەتگوزاری بەژداربووان بکە.",
             onPressedBritish: () => speakdissatisfieds1("en-GB"),
             onPressedAmerican: () => speakdissatisfieds1("en-US"),
           ),

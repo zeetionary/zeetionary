@@ -390,8 +390,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She is claiming compensation for loss of earnings.""",
-            kurdishText:
-                """داوای قەرەبوو دەکات بۆ لەدەستچوونی قازانجی.""", // earnings
+            kurdishText: """داوای قەرەبوو دەکات بۆ لەدەستچوونی قازانجی.""",
             onPressedBritish: () => speakearningss1("en-GB"),
             onPressedAmerican: () => speakearningss1("en-US"),
           ),

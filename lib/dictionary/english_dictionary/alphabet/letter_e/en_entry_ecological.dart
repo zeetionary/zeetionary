@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We risk upsetting the ecological balance of the area.""",
             kurdishText:
-                """مەترسی تێکدانی ھاوسەنگی ژینگەیی ناوچەکە درووست دەکەین.""", // ecological
+                """مەترسی تێکدانی ھاوسەنگی ژینگەیی ناوچەکە درووست دەکەین.""",
             onPressedBritish: () => speakecologicals1("en-GB"),
             onPressedAmerican: () => speakecologicals1("en-US"),
           ),

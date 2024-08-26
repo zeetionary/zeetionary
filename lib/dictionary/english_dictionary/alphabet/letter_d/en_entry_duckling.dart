@@ -359,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) بەچکەمراوی؛ گۆشتی بەچکەمراوی"""),
           SentencesRow(
             englishText: """The children watched the duckling hatch.""",
-            kurdishText:
-                """منداڵەکان سەیری بەچکەمراوییەکەیان کرد کە ھەڵھات.""", // duckling
+            kurdishText: """منداڵەکان سەیری بەچکەمراوییەکەیان کرد کە ھەڵھات.""",
             onPressedBritish: () => speakducklings1("en-GB"),
             onPressedAmerican: () => speakducklings1("en-US"),
           ),

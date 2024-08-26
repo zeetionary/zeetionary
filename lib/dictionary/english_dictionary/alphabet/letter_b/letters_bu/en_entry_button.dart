@@ -183,7 +183,7 @@ class EnglishEntrybutton extends StatelessWidget {
                             englishText:
                                 "One of the buttons on his jacket was missing.",
                             kurdishText:
-                                "یەکێک لە دووگمەکانی چاکەتەکەی دیار نەبوو.", // button", follow LX strictly
+                                "یەکێک لە دووگمەکانی چاکەتەکەی دیار نەبوو.",
                             onPressedBritish: () => speakbuttons1("en-GB"),
                             onPressedAmerican: () => speakbuttons1("en-US"),
                           ),

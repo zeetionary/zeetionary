@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵناو) دیاربوونی بەو شێوەیەی کە بیر لە شتی دیکە دەکەیتەوە و ئاگات لێ نییە چی لە دەورووبەرت ڕوودەدات"),
           SentencesRow(
             englishText: "She had a dreamy look in her eyes.",
-            kurdishText: "نیگایەکی خەیاڵاوی لە چاوەکانیدا بوو.", // dreamy
+            kurdishText: "نیگایەکی خەیاڵاوی لە چاوەکانیدا بوو.",
             onPressedBritish: () => speakdreamys1("en-GB"),
             onPressedAmerican: () => speakdreamys1("en-US"),
           ),

@@ -359,8 +359,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) دۆمینە یان یاریی دۆمینە"),
           SentencesRow(
             englishText: "She placed a domino on the table, starting the game.",
-            kurdishText:
-                "دۆمینەیەکی خستە سەر تەختەکە و یارییەکەی دەستپێکرد.", // domino
+            kurdishText: "دۆمینەیەکی خستە سەر تەختەکە و یارییەکەی دەستپێکرد.",
             onPressedBritish: () => speakdominos1("en-GB"),
             onPressedAmerican: () => speakdominos1("en-US"),
           ),

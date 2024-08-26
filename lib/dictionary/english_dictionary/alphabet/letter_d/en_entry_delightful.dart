@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر خۆش، باش"),
           SentencesRow(
             englishText: "It was a delightful little village.",
-            kurdishText: "گوندێکی بچووکی خۆش بوو.", // delightful
+            kurdishText: "گوندێکی بچووکی خۆش بوو.",
             onPressedBritish: () => speakdelightfuls1("en-GB"),
             onPressedAmerican: () => speakdelightfuls1("en-US"),
           ),

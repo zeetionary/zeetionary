@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The bank will need full disclosure of your financial situation and assets.",
             kurdishText:
-                "بانکەکە پێویستی بە خستنەوەڕووی تەواوی دۆخی داراییت و سامانەکەت.", // disclosure
+                "بانکەکە پێویستی بە خستنەوەڕووی تەواوی دۆخی داراییت و سامانەکەت.",
             onPressedBritish: () => speakdisclosures1("en-GB"),
             onPressedAmerican: () => speakdisclosures1("en-US"),
           ),

@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "He commanded them to go out and make disciples of all nations.",
             kurdishText:
-                "فەرمانی پێکردن بچن و مرید لە ھەموو نەتەوەکانەوە باوەڕ پێ‌بھێنن.", // disciple
+                "فەرمانی پێکردن بچن و مرید لە ھەموو نەتەوەکانەوە باوەڕ پێ‌بھێنن.",
             onPressedBritish: () => speakdisciples1("en-GB"),
             onPressedAmerican: () => speakdisciples1("en-US"),
           ),

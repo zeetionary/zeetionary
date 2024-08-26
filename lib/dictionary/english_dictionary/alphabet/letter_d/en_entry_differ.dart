@@ -267,8 +267,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "French differs from English in this respect.",
             englishNote: "Similar: French and English differ in this respect.",
-            kurdishText:
-                "زمانی فەرەنسی جیاوازە لە ئینگلیزی لەم لایەنەوە.", // differ
+            kurdishText: "زمانی فەرەنسی جیاوازە لە ئینگلیزی لەم لایەنەوە.",
             onPressedBritish: () => speakdiffers1("en-GB"),
             onPressedAmerican: () => speakdiffers1("en-US"),
           ),

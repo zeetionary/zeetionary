@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: "١. (ناو) شۆفێری ئۆتۆمبێل"),
           SentencesRow(
             englishText: "She climbed into the driver's seat.",
-            kurdishText: "چووە کۆشنی شۆفێری.", // driver
+            kurdishText: "چووە کۆشنی شۆفێری.",
             onPressedBritish: () => speakdrivers1("en-GB"),
             onPressedAmerican: () => speakdrivers1("en-US"),
           ),

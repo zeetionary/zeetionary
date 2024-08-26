@@ -5474,12 +5474,12 @@ final List<String> allWordsEnglish = [
   "E-number",
   "e-",
   "each", 
-  "each other", // فففف each other
+  "each other",
   "eager", 
   "eagerly", 
   "eagerness", 
   "eagle", 
-  "eagle-eyed", // فففف eagle-eyed
+  "eagle-eyed", // eagle-eyed
   "ear", 
   "earache", 
   "eardrum", 
@@ -5488,7 +5488,7 @@ final List<String> allWordsEnglish = [
   "earl", 
   "earldom", 
   "early", 
-  "early warning", // فففف early warning
+  "early warning",
   "earmark", 
   "earn", 
   "earner", 
@@ -5513,8 +5513,8 @@ final List<String> allWordsEnglish = [
   "Easter",
   "easy", 
   "easily", 
-  "easy chair", // فففف easy chair
-  "easy-going", // فففف easy-going
+  "easy chair",
+  "easy-going", // easy-going
   "eat", 
   "eatable", 
   "eater", 
@@ -5529,7 +5529,7 @@ final List<String> allWordsEnglish = [
   "echo", 
   "eclair", 
   "eclipse", 
-  "eco", // فففف eco-
+  "eco", // eco-
   "eco_friendly", 
   "ecology", 
   "ecological", 
@@ -5602,7 +5602,7 @@ final List<String> allWordsEnglish = [
   "either", 
   "eject", 
   "ejection", 
-  "ejection seat", // فففف ejection seat
+  "ejection seat",
   "elaborate", 
   "elaborately", 
   "elaboration", 
@@ -5613,10 +5613,10 @@ final List<String> allWordsEnglish = [
   "elated", 
   "elation", 
   "elbow", 
-  "elbow grease", // فففف elbow grease
-  "elbow room", // فففف elbow room
+  "elbow grease",
+  "elbow room",
   "elder", 
-  "elder statesman", // فففف elder statesman
+  "elder statesman",
   "elderly", 
   "eldest", 
   "elect", 
@@ -5627,8 +5627,8 @@ final List<String> allWordsEnglish = [
   "electric", 
   "electrical", 
   "electrically", 
-  "electric chair", // فففف electric chair
-  "electric shock", // فففف electric shock
+  "electric chair",
+  "electric shock",
   "electrician", 
   "electricity", 
   "electrify", 
@@ -5645,7 +5645,7 @@ final List<String> allWordsEnglish = [
   "elegantly", 
   "element", 
   "elementary", 
-  "elementary school", // فففف elementary school
+  "elementary school",
   "elephant", 
   "elevate", 
   "elevation", 
@@ -5717,7 +5717,7 @@ final List<String> allWordsEnglish = [
   "emergence", 
   "emergent", 
   "emergency", 
-  "emergency room", // فففف emergency room
+  "emergency room",
   "emigrant", 
   "emigrate", 
   "emigration", 
@@ -6023,7 +6023,7 @@ final List<String> allWordsEnglish = [
   "evenness", 
   "even-tempered", //// فففف even-tempered
   "evening", 
-  "evening dress", // evening dress
+  "evening dress",
   "evening gown",
   "event", 
   "eventful", 
@@ -6542,7 +6542,7 @@ final List<String> allWordsEnglish = [
   "fidget", 
   "fidgety", 
   "field", 
-  "field marshal", // field marshal
+  "field marshal",
   "fielder", 
   "fiend", 
   "fiendish", 
@@ -6576,7 +6576,7 @@ final List<String> allWordsEnglish = [
   "filling", 
   "fillet", 
   "film", 
-  "film star", // film star
+  "film star",
   "filter", 
   "filth", 
   "filthy", 
@@ -6631,7 +6631,7 @@ final List<String> allWordsEnglish = [
   "firmness", 
   "first", 
   "first aid", //// فففف first aid
-  "first class", // first class
+  "first class",
   "first floor", //// فففف first floor
   "first-hand", //// فففف first-hand
   "firstly", 
@@ -6751,7 +6751,7 @@ final List<String> allWordsEnglish = [
   "floor show", //// فففف floor show
   "flop", 
   "floppy", 
-  "floppy disk", // floppy disk
+  "floppy disk",
   "flora", 
   "floral", 
   "florid", 
@@ -6789,7 +6789,7 @@ final List<String> allWordsEnglish = [
   "flutter", 
   "flux", 
   "fly", 
-  "flying saucer", // flying saucer
+  "flying saucer",
   "flying squad", //// فففف flying squad
   "flying visit", //// فففف flying visit
   "flyer", 
@@ -6951,7 +6951,7 @@ final List<String> allWordsEnglish = [
   "foundry", 
   "fount", 
   "fountain", 
-  "fountain pen", // fountain pen
+  "fountain pen",
   "four", 
   "fourth", 
   "fourteen", 
@@ -6993,7 +6993,7 @@ final List<String> allWordsEnglish = [
   "freckle", 
   "freckled", 
   "free", 
-  "free enterprise", // free enterprise
+  "free enterprise",
   "free-for-all", //// فففف free-for-all
   "freehand", 
   "freelance", 
@@ -7001,8 +7001,8 @@ final List<String> allWordsEnglish = [
   "free radical", //// فففف free radical
   "free-range", //// فففف free-range
   "free speech", //// فففف free speech
-  "free trade", // free trade
-  "free will", // free will
+  "free trade",
+  "free will",
   "freedom", 
   "freeze", 
   "freezer", 
@@ -7010,7 +7010,7 @@ final List<String> allWordsEnglish = [
   "freight", 
   "freighter", 
   "French", // French
-  "French window", // French window
+  "French window",
   "frenzy", 
   "frenzied", 
   "frequency", 
@@ -7094,7 +7094,7 @@ final List<String> allWordsEnglish = [
   "fulfil", 
   "fulfilment", 
   "full", 
-  "full board", // full board
+  "full board",
   "full-length", //// فففف full-length
   "full moon", //// فففف full moon
   "fullness", 

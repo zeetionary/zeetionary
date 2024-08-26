@@ -240,7 +240,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "Survivors waited for the rescue boats, dazed and frightened.",
             kurdishText:
-                "ڕزگاربووان چاوەڕێی بەلەمە ڕزگارکەرەکان بوو بە واق‌وڕماوی و ترساوییەوە.", // dazed
+                "ڕزگاربووان چاوەڕێی بەلەمە ڕزگارکەرەکان بوو بە واق‌وڕماوی و ترساوییەوە.",
             onPressedBritish: () => speakdazeds1("en-GB"),
             onPressedAmerican: () => speakdazeds1("en-US"),
           ),

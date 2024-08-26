@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) ناردنی سەرباز یان چەک بۆ شوێنێک کە ئامادەی جەنگن"),
           SentencesRow(
             englishText: "2 000 troops were deployed in the area.",
-            kurdishText: "٢٠٠٠ سەرباز لە ناوچەکە بڵاوەیان پێکرا.", // deploy
+            kurdishText: "٢٠٠٠ سەرباز لە ناوچەکە بڵاوەیان پێکرا.",
             onPressedBritish: () => speakdeploys1("en-GB"),
             onPressedAmerican: () => speakdeploys1("en-US"),
           ),

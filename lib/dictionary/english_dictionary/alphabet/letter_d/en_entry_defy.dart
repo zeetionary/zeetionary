@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) ڕەتکردنەوەی ئەوەی گوێڕایەڵ بیت یان ڕێز بگریت لە کەسێکی دەسەڵاتدار، یاسایەک، ھتد"),
           SentencesRow(
             englishText: "I wouldn't have dared to defy my teachers.",
-            kurdishText: "بوێری ئەوەم نەدەکرد بێگوێی مامۆستاکانم بکەم.", // defy
+            kurdishText: "بوێری ئەوەم نەدەکرد بێگوێی مامۆستاکانم بکەم.",
             onPressedBritish: () => speakdefys1("en-GB"),
             onPressedAmerican: () => speakdefys1("en-US"),
           ),

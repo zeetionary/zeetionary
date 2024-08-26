@@ -436,8 +436,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) ھێلکەیەک کە بێچووی تێدایە"""),
           SentencesRow(
             englishText: """The female sits on the eggs until they hatch.""",
-            kurdishText:
-                """مێینەکە لەسەر ھێلکەکان کڕدەکەوێت تاوەکو ھەڵدێن.""", // egg
+            kurdishText: """مێینەکە لەسەر ھێلکەکان کڕدەکەوێت تاوەکو ھەڵدێن.""",
             onPressedBritish: () => speakeggs1("en-GB"),
             onPressedAmerican: () => speakeggs1("en-US"),
           ),

@@ -377,7 +377,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We used to be friendly with some people who worked at the Swedish Embassy.""",
             kurdishText:
-                """جاران ھاوڕێ بووین لەگەڵ ھەندێک کەس کە لەگەڵ شاندی سوید کاریان دەکرد.""", // embassy
+                """جاران ھاوڕێ بووین لەگەڵ ھەندێک کەس کە لەگەڵ شاندی سوید کاریان دەکرد.""",
             onPressedBritish: () => speakembassys1("en-GB"),
             onPressedAmerican: () => speakembassys1("en-US"),
           ),

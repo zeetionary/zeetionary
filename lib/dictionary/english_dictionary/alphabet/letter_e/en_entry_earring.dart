@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She was wearing a diamond necklace with matching earrings.""",
             kurdishText:
-                """ملوانکەیەکی ئەڵماسی دەبەست لەگەڵ گوارەی لێکچوو لەگەڵی.""", // earring
+                """ملوانکەیەکی ئەڵماسی دەبەست لەگەڵ گوارەی لێکچوو لەگەڵی.""",
             onPressedBritish: () => speakearrings1("en-GB"),
             onPressedAmerican: () => speakearrings1("en-US"),
           ),

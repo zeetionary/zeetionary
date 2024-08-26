@@ -138,8 +138,7 @@ class EnglishEntrybuffet extends StatelessWidget {
                                   "١. (ناو) ژەمە خواردنێک کە خەڵکئ لەسەر مێزێک خواردنی خۆیان تێ‌دەکەن و لە شوێنێکی تردا دەیخۆن"),
                           SentencesRow(
                             englishText: "Breakfast is served buffet style.",
-                            kurdishText:
-                                "نانی بەیانی بەشێوەی بووفە دەخورێت.", // buffet", follow LX strictly.
+                            kurdishText: "نانی بەیانی بەشێوەی بووفە دەخورێت.",
                             onPressedBritish: () => speakbuffets1("en-GB"),
                             onPressedAmerican: () => speakbuffets1("en-US"),
                           ),

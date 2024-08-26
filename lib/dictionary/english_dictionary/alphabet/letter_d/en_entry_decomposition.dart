@@ -240,8 +240,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "The corpse was in an advanced stage of decomposition.",
-            kurdishText:
-                "تەرمەکە لە قۆناغی خێرای ھەڵوەشانەوە بوو.", // decomposition
+            kurdishText: "تەرمەکە لە قۆناغی خێرای ھەڵوەشانەوە بوو.",
             onPressedBritish: () => speakdecompositions1("en-GB"),
             onPressedAmerican: () => speakdecompositions1("en-US"),
           ),

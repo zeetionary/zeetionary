@@ -239,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "She was a small, dainty child, unlike her sister who was large and had big feet.",
             kurdishText:
-                "منداڵێکی بچووکی چکۆڵە بوو، بە پێچەوانەی خوشکەکەی کە گەورە بوو و پێی گەورەی ھەبوو.", // dainty
+                "منداڵێکی بچووکی چکۆڵە بوو، بە پێچەوانەی خوشکەکەی کە گەورە بوو و پێی گەورەی ھەبوو.",
             onPressedBritish: () => speakdaintys1("en-GB"),
             onPressedAmerican: () => speakdaintys1("en-US"),
           ),

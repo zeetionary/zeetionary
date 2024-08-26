@@ -232,7 +232,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Deaf-mutes often use sign language to communicate.",
             kurdishText:
-                "کەسانی کەڕ و لاڵ زۆرجار زمانی جەستە بەکاردێنن بۆ گفتوگۆ.", // deaf mute
+                "کەسانی کەڕ و لاڵ زۆرجار زمانی جەستە بەکاردێنن بۆ گفتوگۆ.",
             onPressedBritish: () => speakdeafmutes1("en-GB"),
             onPressedAmerican: () => speakdeafmutes1("en-US"),
           ),

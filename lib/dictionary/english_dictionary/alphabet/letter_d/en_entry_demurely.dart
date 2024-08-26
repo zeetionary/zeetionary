@@ -231,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ھاوەڵکار) بە بێ‌دەنگی و جدی بەبێ ئەوەی سەرنج ڕابکێشێت"),
           SentencesRow(
             englishText: "She sat with her hands folded demurely in her lap.",
-            kurdishText: "دانیشت و دەستەکانی بە مەندی خستە کۆشی.", // demurely
+            kurdishText: "دانیشت و دەستەکانی بە مەندی خستە کۆشی.",
             onPressedBritish: () => speakdemurelys1("en-GB"),
             onPressedAmerican: () => speakdemurelys1("en-US"),
           ),

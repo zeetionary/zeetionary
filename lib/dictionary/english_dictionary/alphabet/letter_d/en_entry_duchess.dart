@@ -361,8 +361,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) ژنی کەسێک کە وەک میر یان بەگ وایە؛ ژنێک کە خۆی لە پۆستێکە کە وەک میر یان بەگ وایە"""),
           SentencesRow(
             englishText: """The Duchess of York attended the royal event.""",
-            kurdishText:
-                """دەچسی یۆرک بەژداریی لە بۆنە شاھانەییەکە کرد.""", // duchess
+            kurdishText: """دەچسی یۆرک بەژداریی لە بۆنە شاھانەییەکە کرد.""",
             onPressedBritish: () => speakduchesss1("en-GB"),
             onPressedAmerican: () => speakduchesss1("en-US"),
           ),

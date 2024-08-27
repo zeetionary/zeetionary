@@ -72,11 +72,13 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
       filteredSentences = allSentences.where((sentence) {
         final english = sentence['english'].toString().toLowerCase();
         final french = sentence['french'].toString().toLowerCase();
+        final keywords = sentence['keywords'].toString().toLowerCase();
 
         if (!uniqueEnglishSentences.contains(english)) {
           uniqueEnglishSentences.add(english);
           return english.contains(query.toLowerCase()) ||
-              french.contains(query.toLowerCase());
+              french.contains(query.toLowerCase()) ||
+              keywords.contains(query.toLowerCase());
         } else {
           return false;
         }

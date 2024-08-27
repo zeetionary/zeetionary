@@ -27,7 +27,8 @@ class SentenceDatabase {
     if (!dbExists) {
       // If the database does not exist, copy it from the assets
       ByteData data = await rootBundle.load(join('assets', fileName));
-      List<int> bytes = data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
+      List<int> bytes =
+          data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
 
       // Write the copied database to the local path
       await File(path).writeAsBytes(bytes, flush: true);
@@ -50,7 +51,10 @@ class SentenceDatabase {
     return sentences.where((sentence) {
       final english = sentence['english'].toString().toLowerCase();
       final french = sentence['french'].toString().toLowerCase();
-      return english.contains(keyword.toLowerCase()) || french.contains(keyword.toLowerCase());
+      final keywords = sentence['keywords'].toString().toLowerCase();
+      return english.contains(keyword.toLowerCase()) ||
+          french.contains(keyword.toLowerCase()) ||
+          keywords.contains(keyword.toLowerCase());
     }).toList();
   }
 

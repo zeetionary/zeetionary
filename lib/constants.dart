@@ -3407,7 +3407,8 @@ class DatabaseUtils {
     return allSentences.where((sentence) {
       final english = sentence['english'].toString().toLowerCase();
       final french = sentence['french'].toString().toLowerCase();
-      return english.contains(keyword) || french.contains(keyword);
+      final keywords = sentence['keywords'].toString().toLowerCase();
+      return english.contains(keyword) || french.contains(keyword) || keywords.contains(keyword);
     }).toList();
   }
 

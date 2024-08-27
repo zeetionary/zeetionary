@@ -153,14 +153,14 @@ ${englishMeaningConst.text}
                   ],
                 ),
               ),
-              SingleChildScrollView(
+              const SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
-                    const KurdishVocabulary(text: """
+                    DividerDefinition(),
+                    KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(
+                    DefinitionKurdish(
                         text:
                             """١. (ناو) تێکەڵەیەک لە شیر و کرێم کە لە چا و قاوەدا بەکاردێت"""),
 //                     SentencesRow(

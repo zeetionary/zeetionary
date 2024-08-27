@@ -77,7 +77,7 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
 
   Database? _database;
   List<Map<String, dynamic>> _sentences = [];
-  final String keywordKurdish = 'خۆش'; // The keyword to search for
+  final String keywordKurdish = 'بۆنەکە'; // The keyword to search for
 
   // @override
   // void initState() {
@@ -95,19 +95,15 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
 
     final results = await _database!.query(
       'sentences',
-      where: 'sentence LIKE ?',
-      whereArgs: ['%$query%'],
+      // where: 'keywords LIKE ?',
+      // whereArgs: ['%$query%'],
+      where: 'sentence LIKE ? OR keywords LIKE ?',
+      whereArgs: ['%$query%', '%$query%'],
     );
 
     setState(() {
       _sentences = results;
     });
-
-    // if (results.isEmpty) {
-    //   print("No results found for '$query'");
-    // } else {
-    //   print("Found ${results.length} sentences for '$query'");
-    // }
   }
 
   Widget _highlightedText(
@@ -146,7 +142,8 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
               color: Theme.of(context).primaryColor,
               fontSize: textSize + 2,
             ),
-          ),        ],
+          ),
+        ],
       ),
     );
   }

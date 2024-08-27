@@ -454,7 +454,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                   child: ConstantContainer(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(
-                        vertical: 60.0,
+                        vertical: 63.0,
                         horizontal: 18,
                       ),
                       child: Text(

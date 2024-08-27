@@ -115,8 +115,10 @@ class _KurdishSentencesScreenState
 
     final results = await _database!.query(
       'sentences',
-      where: 'sentence LIKE ?',
-      whereArgs: ['%$normalizedQuery%'],
+      // where: 'sentence LIKE ?',
+      // whereArgs: ['%$normalizedQuery%'],
+      where: 'sentence LIKE ? OR keywords LIKE ?',
+      whereArgs: ['%$normalizedQuery%', '%$normalizedQuery%'],
     );
 
     setState(() {

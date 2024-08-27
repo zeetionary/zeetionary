@@ -259,18 +259,15 @@ class _KurdishSentencesScreenState
                   itemBuilder: (context, index) {
                     return Padding(
                       padding: const EdgeInsets.only(right: 25.0),
-                      child: Align(
-                        alignment: Alignment.topRight,
-                        child: Directionality(
-                          textDirection: TextDirection.rtl,
-                          child: Align(
-                            alignment: Alignment.topRight,
-                            child: _highlightedText(
-                              _sentences[index]['sentence'],
-                              _controller.text,
-                              ref,
-                              context,
-                            ),
+                      child: Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Align(
+                          alignment: Alignment.topRight,
+                          child: _highlightedText(
+                            _sentences[index]['sentence'],
+                            _controller.text,
+                            ref,
+                            context,
                           ),
                         ),
                       ),

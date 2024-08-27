@@ -77,7 +77,7 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
 
   Database? _database;
   List<Map<String, dynamic>> _sentences = [];
-  final String keywordKurdish = 'بۆنەکە'; // The keyword to search for
+  final String keywordKurdish = 'بەیانی'; // The keyword to search for
 
   // @override
   // void initState() {

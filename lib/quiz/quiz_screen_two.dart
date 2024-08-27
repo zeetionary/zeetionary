@@ -347,7 +347,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
             ),
           ),
           content: Text(
-            "Are you sure you want to clear of your points?",
+            "Are you sure you want to clear your points?",
             style: TextStyle(
               fontSize: textSize + 1,
             ),
@@ -429,6 +429,20 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                                 fontSize: textSize + 1,
                               ),
                             ),
+                            ElevatedButton(
+                              style: ButtonStyle(
+                                backgroundColor: WidgetStatePropertyAll(
+                                    Theme.of(context).scaffoldBackgroundColor),
+                              ),
+                              onPressed: _confirmReset,
+                              child: Text(
+                                'Clear points',
+                                style: TextStyle(
+                                  color: Theme.of(context).primaryColor,
+                                  fontSize: textSize + 1,
+                                ),
+                              ),
+                            ),
                           ],
                         ),
                       ),
@@ -440,7 +454,7 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                   child: ConstantContainer(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(
-                        vertical: 35.0,
+                        vertical: 60.0,
                         horizontal: 18,
                       ),
                       child: Text(
@@ -506,21 +520,11 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
           ],
         ),
       ),
-      floatingActionButton: ConstantContainer(
-        child: CustomFloatingActionButton(
-          onPressed: _confirmReset,
-        ),
-        // child: FloatingActionButton(
-        //   onPressed: _confirmReset,
-        //   backgroundColor: Colors.black,
-        //   child: Icon(
-        //     Icons.refresh,
-        //     size: textSize,
-        //     color: Colors.white,
-        //   ),
-        //   // color: Theme.of(context).primaryColor.withOpacity(0.9),),
-        // ),
-      ),
+      // floatingActionButton: ConstantContainer(
+      //   child: CustomFloatingActionButton(
+      //     onPressed: _confirmReset,
+      //   ),
+      // ),
     );
   }
 

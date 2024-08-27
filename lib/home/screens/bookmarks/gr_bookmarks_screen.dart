@@ -130,7 +130,7 @@ class _GrammmarfavouritesScreenState
               child: Text(
                 'No',
                 style: TextStyle(
-                  fontSize: textSize,
+                  fontSize: textSize - 2,
                   color: Theme.of(context).primaryColor,
                 ),
               ),
@@ -143,7 +143,7 @@ class _GrammmarfavouritesScreenState
               child: Text(
                 'Yes',
                 style: TextStyle(
-                  fontSize: textSize,
+                  fontSize: textSize - 2,
                   color: Colors.red,
                 ),
               ),

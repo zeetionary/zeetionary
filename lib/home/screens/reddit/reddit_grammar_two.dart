@@ -168,17 +168,7 @@ class _RedditGrammarTwoState extends ConsumerState<RedditGrammarTwo> {
                   child: Padding(
                     padding: const EdgeInsets.only(
                         top: 6, left: 6.0, right: 10, bottom: 6),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10.0),
-                        color:
-                            Theme.of(context).highlightColor.withOpacity(0.08),
-                        border: Border.all(
-                          color:
-                              Theme.of(context).primaryColor.withOpacity(0.3),
-                          width: 1.0,
-                        ),
-                      ),
+                    child: ConstantContainer(
                       child: Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
@@ -219,20 +209,7 @@ class _RedditGrammarTwoState extends ConsumerState<RedditGrammarTwo> {
                       return Padding(
                         padding: const EdgeInsets.only(
                             top: 6, left: 6.0, right: 10, bottom: 6),
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: Theme.of(context)
-                                .primaryColor
-                                .withOpacity(0.01),
-                            border: Border.all(
-                              color: Theme.of(context)
-                                  .primaryColor
-                                  .withOpacity(0.5),
-                              width: 1.0,
-                            ),
-                            borderRadius:
-                                const BorderRadius.all(Radius.circular(8.0)),
-                          ),
+                        child: ConstantContainer(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [

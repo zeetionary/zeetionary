@@ -130,7 +130,7 @@ class _EnglishfavouritesScreenState
               child: Text(
                 'No',
                 style: TextStyle(
-                  fontSize: textSize,
+                  fontSize: textSize - 2,
                   color: Theme.of(context).primaryColor,
                 ),
               ),
@@ -143,7 +143,7 @@ class _EnglishfavouritesScreenState
               child: Text(
                 'Yes',
                 style: TextStyle(
-                  fontSize: textSize,
+                  fontSize: textSize - 2,
                   color: Colors.red,
                 ),
               ),
@@ -2933,7 +2933,8 @@ class _EnglishfavouritesScreenState
       "chancy": "/bookmarks-screen/chancy",
       "chancel": "/bookmarks-screen/chancel",
       "chancellor": "/bookmarks-screen/chancellor",
-      "Chancellor of the Exchequer": "/bookmarks-screen/chancellor-of-the-exchequer",
+      "Chancellor of the Exchequer":
+          "/bookmarks-screen/chancellor-of-the-exchequer",
       "chandelier": "/bookmarks-screen/chandelier",
       "change": "/bookmarks-screen/change",
       "changeable": "/bookmarks-screen/changeable",
@@ -4237,7 +4238,8 @@ class _EnglishfavouritesScreenState
       "cress": "/bookmarks-screen/cress",
       "crest": "/bookmarks-screen/crest",
       "crestfallen": "/bookmarks-screen/crestfallen",
-      "Creutzfeldt-Jakob disease": "/bookmarks-screen/creutzfeldt-jakob-disease",
+      "Creutzfeldt-Jakob disease":
+          "/bookmarks-screen/creutzfeldt-jakob-disease",
       "crevasse": "/bookmarks-screen/crevasse",
       "crevice": "/bookmarks-screen/crevice",
       "crew": "/bookmarks-screen/crew",
@@ -6232,7 +6234,8 @@ class _EnglishfavouritesScreenState
       "even-handed": "/bookmarks-screen/even-handed", //// فففف even-handed
       "evenly": "/bookmarks-screen/evenly",
       "evenness": "/bookmarks-screen/evenness",
-      "even-tempered": "/bookmarks-screen/even-tempered", //// فففف even-tempered
+      "even-tempered":
+          "/bookmarks-screen/even-tempered", //// فففف even-tempered
       "evening": "/bookmarks-screen/evening",
       "evening dress": "/bookmarks-screen/eveningdress", //// ffff evening dress
       "event": "/bookmarks-screen/event",
@@ -6301,7 +6304,8 @@ class _EnglishfavouritesScreenState
       "exciting": "/bookmarks-screen/exciting",
       "exclaim": "/bookmarks-screen/exclaim",
       "exclamation": "/bookmarks-screen/exclamation",
-      "exclamation mark": "/bookmarks-screen/exclamationmark", //// فففف exclamation mark
+      "exclamation mark":
+          "/bookmarks-screen/exclamationmark", //// فففف exclamation mark
       "exclude": "/bookmarks-screen/exclude",
       "exclusion": "/bookmarks-screen/exclusion",
       "exclusive": "/bookmarks-screen/exclusive",
@@ -6476,7 +6480,8 @@ class _EnglishfavouritesScreenState
       "extravaganza": "/bookmarks-screen/extravaganza",
       "extreme": "/bookmarks-screen/extreme",
       "extremely": "/bookmarks-screen/extremely",
-      "extreme sport": "/bookmarks-screen/extremesport", ////// فففف extreme sport",
+      "extreme sport":
+          "/bookmarks-screen/extremesport", ////// فففف extreme sport",
       "extremist": "/bookmarks-screen/extremist",
       "extremity": "/bookmarks-screen/extremity",
       "extricate": "/bookmarks-screen/extricate",
@@ -6533,7 +6538,8 @@ class _EnglishfavouritesScreenState
       "failing": "/bookmarks-screen/failing",
       "failure": "/bookmarks-screen/failure",
       "faint": "/bookmarks-screen/faint",
-      "faint-hearted": "/bookmarks-screen/fainthearted", //// فففف faint-hearted",
+      "faint-hearted":
+          "/bookmarks-screen/fainthearted", //// فففف faint-hearted",
       "faintly": "/bookmarks-screen/faintly",
       "fair": "/bookmarks-screen/fair",
       "fairly": "/bookmarks-screen/fairly",
@@ -6542,7 +6548,8 @@ class _EnglishfavouritesScreenState
       "fairground": "/bookmarks-screen/fairground",
       "fairy": "/bookmarks-screen/fairy",
       "fairy tale": "/bookmarks-screen/fairytale", //// ffff fairy tale",
-      "fait accompli": "/bookmarks-screen/faitaccompli", //// فففف fait accompli",
+      "fait accompli":
+          "/bookmarks-screen/faitaccompli", //// فففف fait accompli",
       "faith": "/bookmarks-screen/faith",
       "faithful": "/bookmarks-screen/faithful",
       "faithfully": "/bookmarks-screen/faithfully",
@@ -6573,7 +6580,8 @@ class _EnglishfavouritesScreenState
       "familiarize": "/bookmarks-screen/familiarize",
       "familiarly": "/bookmarks-screen/familiarly",
       "family": "/bookmarks-screen/family",
-      "family planning": "/bookmarks-screen/familyplanning", //// ffff family planning",
+      "family planning":
+          "/bookmarks-screen/familyplanning", //// ffff family planning",
       "family tree": "/bookmarks-screen/familytree", //// فففف family tree",
       "famine": "/bookmarks-screen/famine",
       "famished": "/bookmarks-screen/famished",
@@ -6608,7 +6616,8 @@ class _EnglishfavouritesScreenState
       "fare": "/bookmarks-screen/fare",
       "farm": "/bookmarks-screen/farm",
       "farmer": "/bookmarks-screen/farmer",
-      "farmer's market": "/bookmarks-screen/farmersmarket", //// فففف farmer's market",
+      "farmer's market":
+          "/bookmarks-screen/farmersmarket", //// فففف farmer's market",
       "farmhand": "/bookmarks-screen/farmhand",
       "farmhouse": "/bookmarks-screen/farmhouse",
       "farmyard": "/bookmarks-screen/farmyard",
@@ -6635,8 +6644,10 @@ class _EnglishfavouritesScreenState
       "fate": "/bookmarks-screen/fate",
       "fateful": "/bookmarks-screen/fateful",
       "father": "/bookmarks-screen/father",
-      "Father Christmas": "/bookmarks-screen/fatherchristmas", //// ffff Father Christmas",
-      "father-in-law": "/bookmarks-screen/fatherinlaw", //// فففف father-in-law",
+      "Father Christmas":
+          "/bookmarks-screen/fatherchristmas", //// ffff Father Christmas",
+      "father-in-law":
+          "/bookmarks-screen/fatherinlaw", //// فففف father-in-law",
       "fatherland": "/bookmarks-screen/fatherland",
       "fatherly": "/bookmarks-screen/fatherly",
       "fathom": "/bookmarks-screen/fathom",
@@ -6683,7 +6694,8 @@ class _EnglishfavouritesScreenState
       "feebly": "/bookmarks-screen/feebly",
       "feed": "/bookmarks-screen/feed",
       "feedback": "/bookmarks-screen/feedback",
-      "feeding bottle": "/bookmarks-screen/feedingbottle", //// فففف feeding bottle",
+      "feeding bottle":
+          "/bookmarks-screen/feedingbottle", //// فففف feeding bottle",
       "feel": "/bookmarks-screen/feel",
       "feeler": "/bookmarks-screen/feeler",
       "feeling": "/bookmarks-screen/feeling",
@@ -6757,7 +6769,8 @@ class _EnglishfavouritesScreenState
       "fidget": "/bookmarks-screen/fidget",
       "fidgety": "/bookmarks-screen/fidgety",
       "field": "/bookmarks-screen/field",
-      "field marshal": "/bookmarks-screen/fieldmarshal", //// ffff field marshal",
+      "field marshal":
+          "/bookmarks-screen/fieldmarshal", //// ffff field marshal",
       "fielder": "/bookmarks-screen/fielder",
       "fiend": "/bookmarks-screen/fiend",
       "fiendish": "/bookmarks-screen/fiendish",
@@ -6781,11 +6794,13 @@ class _EnglishfavouritesScreenState
       "figuratively": "/bookmarks-screen/figuratively",
       "figure": "/bookmarks-screen/figure",
       "figurehead": "/bookmarks-screen/figurehead",
-      "figure of speech": "/bookmarks-screen/figureofspeech", //// فففف figure of speech",
+      "figure of speech":
+          "/bookmarks-screen/figureofspeech", //// فففف figure of speech",
       "filament": "/bookmarks-screen/filament",
       "file": "/bookmarks-screen/file",
       "filings": "/bookmarks-screen/filings",
-      "filing cabinet": "/bookmarks-screen/filingcabinet", //// فففف filing cabinet",
+      "filing cabinet":
+          "/bookmarks-screen/filingcabinet", //// فففف filing cabinet",
       "fill": "/bookmarks-screen/fill",
       "filler": "/bookmarks-screen/filler",
       "filling": "/bookmarks-screen/filling",
@@ -6852,7 +6867,8 @@ class _EnglishfavouritesScreenState
       "first-hand": "/bookmarks-screen/first-hand", //// فففف first-hand",
       "firstly": "/bookmarks-screen/firstly",
       "first name": "/bookmarks-screen/firstname", //// فففف first name",
-      "the first person": "/bookmarks-screen/thefirstperson", //// فففف the first person",
+      "the first person":
+          "/bookmarks-screen/thefirstperson", //// فففف the first person",
       "first-rate": "/bookmarks-screen/first-rate", //// فففف first-rate",
       "fish": "/bookmarks-screen/fish",
       "fisherman": "/bookmarks-screen/fisherman",
@@ -7005,7 +7021,8 @@ class _EnglishfavouritesScreenState
       "flutter": "/bookmarks-screen/flutter",
       "flux": "/bookmarks-screen/flux",
       "fly": "/bookmarks-screen/fly",
-      "flying saucer": "/bookmarks-screen/flyingsaucer", //// ffff flying saucer",
+      "flying saucer":
+          "/bookmarks-screen/flyingsaucer", //// ffff flying saucer",
       "flying squad": "/bookmarks-screen/flyingsquad", //// فففف flying squad",
       "flying visit": "/bookmarks-screen/flyingvisit", //// فففف flying visit",
       "flyer": "/bookmarks-screen/flyer",
@@ -7054,7 +7071,8 @@ class _EnglishfavouritesScreenState
           "/bookmarks-screen/foot-and-mouthdisease", //// فففف foot-and-mouth disease",
       "football": "/bookmarks-screen/football",
       "footballer": "/bookmarks-screen/footballer",
-      "football pools": "/bookmarks-screen/footballpools", //// فففف football pools",
+      "football pools":
+          "/bookmarks-screen/footballpools", //// فففف football pools",
       "footer": "/bookmarks-screen/footer",
       "foothill": "/bookmarks-screen/foothill",
       "foothold": "/bookmarks-screen/foothold",
@@ -7090,7 +7108,8 @@ class _EnglishfavouritesScreenState
       "forehead": "/bookmarks-screen/forehead",
       "foreign": "/bookmarks-screen/foreign",
       "foreigner": "/bookmarks-screen/foreigner",
-      "foreign exchange": "/bookmarks-screen/foreignexchange", //// فففف foreign exchange",
+      "foreign exchange":
+          "/bookmarks-screen/foreignexchange", //// فففف foreign exchange",
       "foreman": "/bookmarks-screen/foreman",
       "foremost": "/bookmarks-screen/foremost",
       "forensic": "/bookmarks-screen/forensic",
@@ -7118,7 +7137,8 @@ class _EnglishfavouritesScreenState
       "forgo": "/bookmarks-screen/forgo",
       "fork": "/bookmarks-screen/fork",
       "forked": "/bookmarks-screen/forked",
-      "forklift truck": "/bookmarks-screen/forklifttruck", //// فففف forklift truck",
+      "forklift truck":
+          "/bookmarks-screen/forklifttruck", //// فففف forklift truck",
       "forlorn": "/bookmarks-screen/forlorn",
       "forlornly": "/bookmarks-screen/forlornly",
       "form": "/bookmarks-screen/form",
@@ -7150,13 +7170,15 @@ class _EnglishfavouritesScreenState
       "fortunate": "/bookmarks-screen/fortunate",
       "fortunately": "/bookmarks-screen/fortunately",
       "fortune": "/bookmarks-screen/fortune",
-      "fortune teller": "/bookmarks-screen/fortuneteller", //// فففف fortune teller",
+      "fortune teller":
+          "/bookmarks-screen/fortuneteller", //// فففف fortune teller",
       "forty": "/bookmarks-screen/forty",
       "fortieth": "/bookmarks-screen/fortieth",
       "forum": "/bookmarks-screen/forum",
       "forward": "/bookmarks-screen/forward",
       "forwardness": "/bookmarks-screen/forwardness",
-      "forward-looking": "/bookmarks-screen/forward-looking", //// فففف forward-looking",
+      "forward-looking":
+          "/bookmarks-screen/forward-looking", //// فففف forward-looking",
       "fossil": "/bookmarks-screen/fossil",
       "fossilize": "/bookmarks-screen/fossilize",
       "foster": "/bookmarks-screen/foster",
@@ -7210,7 +7232,8 @@ class _EnglishfavouritesScreenState
       "freckle": "/bookmarks-screen/freckle",
       "freckled": "/bookmarks-screen/freckled",
       "free": "/bookmarks-screen/free",
-      "free enterprise": "/bookmarks-screen/freeenterprise", //// ffff free enterprise",
+      "free enterprise":
+          "/bookmarks-screen/freeenterprise", //// ffff free enterprise",
       "free-for-all": "/bookmarks-screen/free-for-all", //// فففف free-for-all",
       "freehand": "/bookmarks-screen/freehand",
       "freelance": "/bookmarks-screen/freelance",
@@ -7223,11 +7246,13 @@ class _EnglishfavouritesScreenState
       "freedom": "/bookmarks-screen/freedom",
       "freeze": "/bookmarks-screen/freeze",
       "freezer": "/bookmarks-screen/freezer",
-      "freezing point": "/bookmarks-screen/freezingpoint", //// فففف freezing point",
+      "freezing point":
+          "/bookmarks-screen/freezingpoint", //// فففف freezing point",
       "freight": "/bookmarks-screen/freight",
       "freighter": "/bookmarks-screen/freighter",
       "French": "/bookmarks-screen/french", //// ffff French",
-      "French window": "/bookmarks-screen/frenchwindow", //// ffff French window",
+      "French window":
+          "/bookmarks-screen/frenchwindow", //// ffff French window",
       "frenzy": "/bookmarks-screen/frenzy",
       "frenzied": "/bookmarks-screen/frenzied",
       "frequency": "/bookmarks-screen/frequency",
@@ -7280,7 +7305,8 @@ class _EnglishfavouritesScreenState
       "front": "/bookmarks-screen/front",
       "frontage": "/bookmarks-screen/frontage",
       "frontal": "/bookmarks-screen/frontal",
-      "the front line": "/bookmarks-screen/thefrontline", //// ffff the front line",
+      "the front line":
+          "/bookmarks-screen/thefrontline", //// ffff the front line",
       "front-page": "/bookmarks-screen/front-page", //// فففف front-page",
       "frontier": "/bookmarks-screen/frontier",
       "frost": "/bookmarks-screen/frost",
@@ -7306,7 +7332,8 @@ class _EnglishfavouritesScreenState
       "fucking": "/bookmarks-screen/fucking",
       "fudge": "/bookmarks-screen/fudge",
       "fuel": "/bookmarks-screen/fuel",
-      "fuel injection": "/bookmarks-screen/fuelinjection", //// فففف fuel injection",
+      "fuel injection":
+          "/bookmarks-screen/fuelinjection", //// فففف fuel injection",
       "fugitive": "/bookmarks-screen/fugitive",
       "fulfil": "/bookmarks-screen/fulfil",
       "fulfilment": "/bookmarks-screen/fulfilment",
@@ -7331,7 +7358,8 @@ class _EnglishfavouritesScreenState
       "fundamentalist": "/bookmarks-screen/fundamentalist",
       "fundamentally": "/bookmarks-screen/fundamentally",
       "funeral": "/bookmarks-screen/funeral",
-      "funeral parlour": "/bookmarks-screen/funeralparlour", //// فففف funeral parlour",
+      "funeral parlour":
+          "/bookmarks-screen/funeralparlour", //// فففف funeral parlour",
       "fungus": "/bookmarks-screen/fungus",
       "funnel": "/bookmarks-screen/funnel",
       "funny": "/bookmarks-screen/funny",
@@ -7427,7 +7455,8 @@ class _EnglishfavouritesScreenState
       "garbage": "/bookmarks-screen/garbage",
       "garbled": "/bookmarks-screen/garbled",
       "garden": "/bookmarks-screen/garden",
-      "garden centre": "/bookmarks-screen/gardencentre", //// فففف garden centre",
+      "garden centre":
+          "/bookmarks-screen/gardencentre", //// فففف garden centre",
       "gardener": "/bookmarks-screen/gardener",
       "gardening": "/bookmarks-screen/gardening",
       "garden party": "/bookmarks-screen/gardenparty", //// فففف garden party",
@@ -7498,12 +7527,14 @@ class _EnglishfavouritesScreenState
       "genealogy": "/bookmarks-screen/genealogy",
       "genealogical": "/bookmarks-screen/genealogical",
       "general": "/bookmarks-screen/general",
-      "general election": "/bookmarks-screen/generalelection", //// فففف general election",
+      "general election":
+          "/bookmarks-screen/generalelection", //// فففف general election",
       "generality": "/bookmarks-screen/generality",
       "generally": "/bookmarks-screen/generally",
       "general practitioner":
           "/bookmarks-screen/generalpractitioner", //// فففف general practitioner",
-      "general strike": "/bookmarks-screen/generalstrike", //// فففف general strike",
+      "general strike":
+          "/bookmarks-screen/generalstrike", //// فففف general strike",
       "generalize": "/bookmarks-screen/generalize",
       "generalization": "/bookmarks-screen/generalization",
       "generate": "/bookmarks-screen/generate",
@@ -7568,7 +7599,8 @@ class _EnglishfavouritesScreenState
       "getaway": "/bookmarks-screen/getaway",
       "get-together": "/bookmarks-screen/get-together", //// فففف get-together",
       "get-up": "/bookmarks-screen/getup", //// ffff get-up",
-      "get-up-and-go": "/bookmarks-screen/get-up-and-go", //// ffff get-up-and-go",
+      "get-up-and-go":
+          "/bookmarks-screen/get-up-and-go", //// ffff get-up-and-go",
       "geyser": "/bookmarks-screen/geyser",
       "ghastly": "/bookmarks-screen/ghastly",
       "ghetto": "/bookmarks-screen/ghetto",
@@ -7653,7 +7685,8 @@ class _EnglishfavouritesScreenState
       "gloatingly": "/bookmarks-screen/gloatingly",
       "global": "/bookmarks-screen/global",
       "globally": "/bookmarks-screen/globally",
-      "global warming": "/bookmarks-screen/globalwarming", //// فففف global warming",
+      "global warming":
+          "/bookmarks-screen/globalwarming", //// فففف global warming",
       "globalize": "/bookmarks-screen/globalize",
       "globalization": "/bookmarks-screen/globalization",
       "globe": "/bookmarks-screen/globe",
@@ -7721,20 +7754,25 @@ class _EnglishfavouritesScreenState
       "gold rush": "/bookmarks-screen/goldrush", //// فففف gold rush",
       "goldsmith": "/bookmarks-screen/goldsmith",
       "golden": "/bookmarks-screen/golden",
-      "golden handshake": "/bookmarks-screen/goldenhandshake", //// ffff golden handshake",
-      "golden jubilee": "/bookmarks-screen/goldenjubilee", //// فففف golden jubilee",
+      "golden handshake":
+          "/bookmarks-screen/goldenhandshake", //// ffff golden handshake",
+      "golden jubilee":
+          "/bookmarks-screen/goldenjubilee", //// فففف golden jubilee",
       "golden rule": "/bookmarks-screen/goldenrule", //// golden rule",
       "golf": "/bookmarks-screen/golf",
       "golfer": "/bookmarks-screen/golfer",
       "gong": "/bookmarks-screen/gong",
       "gonorrhoea": "/bookmarks-screen/gonorrhoea",
       "good": "/bookmarks-screen/good",
-      "good-for-nothing": "/bookmarks-screen/good-for-nothing", //// ffff good-for-nothing",
-      "good-humoured": "/bookmarks-screen/good-humoured", //// فففف good-humoured",
+      "good-for-nothing":
+          "/bookmarks-screen/good-for-nothing", //// ffff good-for-nothing",
+      "good-humoured":
+          "/bookmarks-screen/good-humoured", //// فففف good-humoured",
       "good-looking": "/bookmarks-screen/good-looking", //// فففف good-looking",
       "good-natured": "/bookmarks-screen/good-natured", //// فففف good-natured",
       "good sense": "/bookmarks-screen/goodsense", //// فففف good sense",
-      "good-tempered": "/bookmarks-screen/good-tempered", //// فففف good-tempered",
+      "good-tempered":
+          "/bookmarks-screen/good-tempered", //// فففف good-tempered",
       "goodbye": "/bookmarks-screen/goodbye",
       "goodness": "/bookmarks-screen/goodness",
       "goods": "/bookmarks-screen/goods",
@@ -7803,7 +7841,8 @@ class _EnglishfavouritesScreenState
       "granite": "/bookmarks-screen/granite",
       "granny flat": "/bookmarks-screen/grannyflat", //// ffff granny flat",
       "grant": "/bookmarks-screen/grant",
-      "granulated sugar": "/bookmarks-screen/granulatedsugar", //// فففف granulated sugar",
+      "granulated sugar":
+          "/bookmarks-screen/granulatedsugar", //// فففف granulated sugar",
       "granule": "/bookmarks-screen/granule",
       "grape": "/bookmarks-screen/grape",
       "grapefruit": "/bookmarks-screen/grapefruit",
@@ -7846,7 +7885,8 @@ class _EnglishfavouritesScreenState
       "greasy": "/bookmarks-screen/greasy",
       "greasily": "/bookmarks-screen/greasily",
       "great": "/bookmarks-screen/great",
-      "Great Britain": "/bookmarks-screen/greatbritain", //// ffff Great Britain",
+      "Great Britain":
+          "/bookmarks-screen/greatbritain", //// ffff Great Britain",
       "greatly": "/bookmarks-screen/greatly",
       "greatness": "/bookmarks-screen/greatness",
       "greed": "/bookmarks-screen/greed",
@@ -7855,12 +7895,14 @@ class _EnglishfavouritesScreenState
       "green": "/bookmarks-screen/green",
       "green bean": "/bookmarks-screen/greenbean", //// فففف green bean",
       "green belt": "/bookmarks-screen/greenbelt", //// فففف green belt",
-      "green fingers": "/bookmarks-screen/greenfingers", //// فففف green fingers",
+      "green fingers":
+          "/bookmarks-screen/greenfingers", //// فففف green fingers",
       "greengrocer": "/bookmarks-screen/greengrocer",
       "greenhouse": "/bookmarks-screen/greenhouse",
       "greenhouse effect":
           "/bookmarks-screen/greenhouseeffect", //// فففف greenhouse effect",
-      "greenhouse gas": "/bookmarks-screen/greenhousegas", //// فففف greenhouse gas",
+      "greenhouse gas":
+          "/bookmarks-screen/greenhousegas", //// فففف greenhouse gas",
       "greenness": "/bookmarks-screen/greenness",
       "greenery": "/bookmarks-screen/greenery",
       "greet": "/bookmarks-screen/greet",
@@ -7950,7 +7992,8 @@ class _EnglishfavouritesScreenState
       "guffaw": "/bookmarks-screen/guffaw",
       "guidance": "/bookmarks-screen/guidance",
       "guide": "/bookmarks-screen/guide",
-      "guidedmissile": "/bookmarks-screen/guidedmissile", //// ffff guided missile",
+      "guidedmissile":
+          "/bookmarks-screen/guidedmissile", //// ffff guided missile",
       "guideline": "/bookmarks-screen/guideline",
       "guild": "/bookmarks-screen/guild",
       "guile": "/bookmarks-screen/guile",
@@ -7986,7 +8029,8 @@ class _EnglishfavouritesScreenState
       "gust": "/bookmarks-screen/gust",
       "gut": "/bookmarks-screen/gut",
       "gutter": "/bookmarks-screen/gutter",
-      "the gutter press": "/bookmarks-screen/thegutterpress", //// فففف the gutter press",
+      "the gutter press":
+          "/bookmarks-screen/thegutterpress", //// فففف the gutter press",
       "guy": "/bookmarks-screen/guy",
       "guzzle": "/bookmarks-screen/guzzle",
       "gym": "/bookmarks-screen/gym",

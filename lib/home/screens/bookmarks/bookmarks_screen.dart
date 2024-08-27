@@ -51,47 +51,37 @@ class CustomTabBarBookmarks extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     // final currentTheme = ref.watch(themeNotifierProvider);
-    final textSize = ref.watch(textSizeProvider) + 40;
+    // final textSize = ref.watch(textSizeProvider) + 40;
 
-    return Container(
-      height: textSize - 8,
-      decoration: BoxDecoration(
-        border: Border.all(
-          color: Theme.of(context).primaryColor.withOpacity(0.3),
-          width: 1.0,
-        ),
-        borderRadius: BorderRadius.circular(15.0),
-      ),
-      child: TabBar(
-        isScrollable: false,
-        tabs: tabs,
-        indicator: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.25),
-              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.45),
-              // Colors.red.shade800.withOpacity(0.09),
-              // Colors.red.shade800.withOpacity(0.07),
-              // Theme.of(context).primaryColor.withOpacity(0.08),
-              // Theme.of(context).primaryColor.withOpacity(0.05),
-            ],
-          ),
-          // color: Theme.of(context).primaryColor.withOpacity(0.1),
-          borderRadius: const BorderRadius.only(
-            topLeft: Radius.circular(12.0),
-            bottomRight: Radius.circular(12.0),
-          ),
-          border: Border.all(
-            color: Theme.of(context).primaryColor.withOpacity(0.18),
-            width: 1.0,
-            style: BorderStyle.solid,
-          ),
-        ),
-        indicatorSize: TabBarIndicatorSize.tab,
-        indicatorPadding: const EdgeInsets.all(4.0),
-      ),
+    return TabBar(
+      isScrollable: false,
+      tabs: tabs,
+      // indicator: BoxDecoration(
+      //   gradient: LinearGradient(
+      //     begin: Alignment.topLeft,
+      //     end: Alignment.bottomRight,
+      //     colors: [
+      //       Theme.of(context).scaffoldBackgroundColor.withOpacity(0.25),
+      //       Theme.of(context).scaffoldBackgroundColor.withOpacity(0.45),
+      //       // Colors.red.shade800.withOpacity(0.09),
+      //       // Colors.red.shade800.withOpacity(0.07),
+      //       // Theme.of(context).primaryColor.withOpacity(0.08),
+      //       // Theme.of(context).primaryColor.withOpacity(0.05),
+      //     ],
+      //   ),
+      //   // color: Theme.of(context).primaryColor.withOpacity(0.1),
+      //   borderRadius: const BorderRadius.only(
+      //     topLeft: Radius.circular(12.0),
+      //     bottomRight: Radius.circular(12.0),
+      //   ),
+      //   border: Border.all(
+      //     color: Theme.of(context).primaryColor.withOpacity(0.18),
+      //     width: 1.0,
+      //     style: BorderStyle.solid,
+      //   ),
+      // ),
+      // indicatorSize: TabBarIndicatorSize.tab,
+      // indicatorPadding: const EdgeInsets.all(4.0),
     );
   }
 }

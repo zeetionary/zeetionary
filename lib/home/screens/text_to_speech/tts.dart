@@ -51,23 +51,12 @@ class _TTSPageState extends ConsumerState<TTSPage> {
             const SizedBox(height: 16),
             Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Theme.of(context).scaffoldBackgroundColor,
-                  border: Border.all(color: Theme.of(context).primaryColor),
-                  borderRadius: BorderRadius.circular(8),
-                ),
+              child: ConstantContainer(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     IconButton(
-                      icon: Container(
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                              color: Theme.of(context).primaryColor,
-                              width: 1.0),
-                        ),
+                      icon: ConstantContainer(
                         padding: const EdgeInsets.all(6.0),
                         child: Icon(
                           Icons.clear,
@@ -112,13 +101,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
                       //         size: 15.0,
                       //       )),
                       IconButton(
-                        icon: Container(
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            border: Border.all(
-                                color: Theme.of(context).primaryColor,
-                                width: 1.0),
-                          ),
+                        icon: ConstantContainer(
                           padding: const EdgeInsets.all(6.0),
                           child: Icon(
                             Icons.pause,
@@ -141,15 +124,7 @@ class _TTSPageState extends ConsumerState<TTSPage> {
             const SizedBox(height: 2),
             Padding(
               padding: const EdgeInsets.only(bottom: 16, left: 16, right: 16),
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Theme.of(context).scaffoldBackgroundColor,
-                  // color: Theme.of(context).scaffoldBackgroundColor,
-                  border: Border.all(
-                    color: Theme.of(context).primaryColor,
-                  ),
-                  borderRadius: BorderRadius.circular(8),
-                ),
+              child: ConstantContainer(
                 constraints: BoxConstraints(
                   maxHeight: MediaQuery.of(context).size.height * 0.7,
                   minHeight: MediaQuery.of(context).size.height * 0.4,
@@ -189,9 +164,9 @@ class CustomIconButtonBritishTTS extends ConsumerWidget {
       icon: Container(
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          border: Border.all(color: Colors.blue, width: 1.0),
+          border: Border.all(color: Colors.blue, width: 0.5),
         ),
-        padding: const EdgeInsets.all(6.0),
+        padding: const EdgeInsets.all(5.0),
         child: Icon(
           Icons.record_voice_over,
           color: Colors.blue,
@@ -220,9 +195,9 @@ class CustomIconButtonAmericanTTS extends ConsumerWidget {
         decoration: BoxDecoration(
           shape: BoxShape.circle,
           border: Border.all(
-              color: const Color.fromARGB(182, 255, 0, 0), width: 1.0),
+              color: const Color.fromARGB(182, 255, 0, 0), width: 0.5),
         ),
-        padding: const EdgeInsets.all(6.0),
+        padding: const EdgeInsets.all(5.0),
         child: Icon(
           Icons.record_voice_over,
           color: const Color.fromARGB(182, 255, 0, 0),

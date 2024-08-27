@@ -133,26 +133,26 @@ class _KurdishFavouritesScreenState
             TextButton(
               onPressed: () {
                 Navigator.of(context)
-                    .pop(false); // Dismiss the dialog and return false
+                    .pop(true); // Dismiss the dialog and return true
               },
               child: Text(
-                'نەخێر',
+                'بەڵێ',
                 style: TextStyle(
-                  fontSize: textSize,
-                  color: Theme.of(context).primaryColor,
+                  fontSize: textSize - 2,
+                  color: Colors.red,
                 ),
               ),
             ),
             TextButton(
               onPressed: () {
                 Navigator.of(context)
-                    .pop(true); // Dismiss the dialog and return true
+                    .pop(false); // Dismiss the dialog and return false
               },
               child: Text(
-                'بەڵێ',
+                'نەخێر',
                 style: TextStyle(
-                  fontSize: textSize,
-                  color: Colors.red,
+                  fontSize: textSize - 2,
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
             ),

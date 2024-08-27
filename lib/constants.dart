@@ -211,17 +211,26 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
 class ConstantContainer extends StatelessWidget {
   final Widget child;
   final EdgeInsetsGeometry? padding; // Optional padding for the Container
+  final double? height; // Optional height for the Container
+  final double? width; // Optional width for the Container
+  final BoxConstraints? constraints; // Optional constraints for the Container
 
   const ConstantContainer({
     super.key,
     required this.child,
     this.padding,
+    this.height,
+    this.width,
+    this.constraints,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: padding, // Apply the padding if provided
+      height: height, // Apply the height if provided
+      width: width, // Apply the width if provided
+      constraints: constraints, // Apply the constraints if provided
       decoration: BoxDecoration(
         border: Border.all(
           color: Theme.of(context).primaryColor.withOpacity(0.3),
@@ -233,6 +242,7 @@ class ConstantContainer extends StatelessWidget {
     );
   }
 }
+
 
 
 class YouTubeScroller extends StatefulWidget {

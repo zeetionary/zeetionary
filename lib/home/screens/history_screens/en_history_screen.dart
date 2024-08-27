@@ -54,7 +54,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
               child: Text(
                 'No',
                 style: TextStyle(
-                  fontSize: textSize,
+                  fontSize: textSize - 2,
                   color: Theme.of(context).primaryColor,
                 ),
               ),
@@ -66,7 +66,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
               child: Text(
                 'Yes',
                 style: TextStyle(
-                  fontSize: textSize,
+                  fontSize: textSize - 2,
                   color: Colors.red,
                 ),
               ),

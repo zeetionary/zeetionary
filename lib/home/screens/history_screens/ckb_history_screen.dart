@@ -43,25 +43,25 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
           actions: <Widget>[
             TextButton(
               onPressed: () {
-                Navigator.of(context).pop(false);
-              },
-              child: Text(
-                'نەخێر',
-                style: TextStyle(
-                  fontSize: textSize,
-                  color: Theme.of(context).primaryColor,
-                ),
-              ),
-            ),
-            TextButton(
-              onPressed: () {
                 Navigator.of(context).pop(true);
               },
               child: Text(
                 'بەڵێ',
                 style: TextStyle(
-                  fontSize: textSize,
+                  fontSize: textSize - 2,
                   color: Colors.red,
+                ),
+              ),
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop(false);
+              },
+              child: Text(
+                'نەخێر',
+                style: TextStyle(
+                  fontSize: textSize - 2,
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
             ),
@@ -207,10 +207,10 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
           //   ),
           // ),
           floatingActionButton: CustomFloatingActionButton(
-          onPressed: () {
+            onPressed: () {
               clearKurdishHistory(context);
             },
-        ),
+          ),
           floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
         ),
       ),

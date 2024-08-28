@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhaunch haunch
-WORD_WEB haunch haunch haunch
-haʊʊʊʊʊʊʊ4
+- Noun: haunch (Derived forms: haunches)
+1. The hip and buttock and upper thigh in human beings
+ 
+2. The loin and leg of a quadruped
 """,
   );
-// 188888880002200
 
   final String keyword = "haunch";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +87,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She patted the horse's glossy black haunch.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He purchased a haunch of venison from the local butcher.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -943,8 +941,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """haunch""",
                       // alsoEnglishWord: "also: haunch",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hɔːntʃ/""",
+                      americanText: """IpaUS: /hɔːntʃ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -985,23 +983,22 @@ haʊʊʊʊʊʊʊ4
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سمت، کڵۆت، پاشەڵ، کنگ، کەفەڵ،	(گۆشت) ڕان
 """),
 // With short examples define "haunch", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) بەشی سەرەوەی لاق و سمت؛ ئەم بەشەی ئاژەڵێک کە چوار لاقی هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She patted the horse's glossy black haunch.""",
+                      kurdishText: """کێشای بە سمتی ڕەش و بریقەداری ئەسپەکەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) گۆشتی لاقی دواوەی ئەسپێک لەگەڵ بەشێک لە نزیکی کلکی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He purchased a haunch of venison from the local butcher.""",
+                      kurdishText: """ڕانی ئاسکێکی کڕی لە قەسابخانە لۆکاڵییەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2135,19 +2132,18 @@ haʊʊʊʊʊʊʊ4
 }
 
 // 188888880002200
-const String _videoIdend = '';
-const double _startSecondsend = 000000000000000000000000000;
-const String _videoIdone = '';
-const double _startSecondsone = 000000000000000000000000000;
-const String _videoIdtwo = '';
-const double _startSecondstwo = 000000000000000000000000000;
-const String _videoIdthree = '';
-const double _startSecondsthree = 000000000000000000000000000;
-const String _videoIdfour = '';
-const double _startSecondsfour = 000000000000000000000000000;
-const String _videoIdfive = '';
-const double _startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+const String _videoIdend = 'https://youtu.be/sfJxmorY4DY?t=';
+const double _startSecondsend = 00000000000000000000000000060;
+const String _videoIdone = 'https://youtu.be/EnTrExZo46U?t=';
+const double _startSecondsone = 000000000000000000000000000127;
+const String _videoIdtwo = 'https://youtu.be/f5XhEdGzQOc?t=';
+const double _startSecondstwo = 0000000000000000000000000001052;
+const String _videoIdthree = 'https://youtu.be/MFPjygCuYrE?t=';
+const double _startSecondsthree = 000000000000000000000000000346;
+const String _videoIdfour = 'https://youtu.be/OWPj3DG68SQ?t=';
+const double _startSecondsfour = 000000000000000000000000000523;
+const String _videoIdfive = 'https://youtu.be/FxtnJjdNhMQ?t=';
+const double _startSecondsfive = 000000000000000000000000000902;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -212,11 +212,11 @@ class _KurdishSentencesScreenState
         alignment: Alignment.topRight,
         child: Directionality(
           textDirection: TextDirection.rtl,
-          child: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: SizedBox(
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              children: [
+                SizedBox(
                   height: 60,
                   child: TextField(
                     controller: _searchController,
@@ -253,49 +253,49 @@ class _KurdishSentencesScreenState
                     onChanged: (value) => filterSentences(value),
                   ),
                 ),
-              ),
-              Expanded(
-                child: ListView.separated(
-                  separatorBuilder: (BuildContext context, int index) {
-                    return const ListViewSeparator();
-                  },
-                  itemCount: filteredKurdishSentences.length,
-                  itemBuilder: (context, index) {
-                    final sentence = filteredKurdishSentences[index];
-                    return Column(
-                      children: [
-                        // const Divider(),
-                        Row(
-                          children: [
-                            Expanded(
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  children: [
-                                    Directionality(
-                                      textDirection: TextDirection.rtl,
-                                      child: Align(
-                                        alignment: Alignment.topRight,
-                                        child: Text(
-                                          sentence['sentence'].toString(),
-                                          style: TextStyle(
-                                            fontSize: textSize,
+                Expanded(
+                  child: ListView.separated(
+                    separatorBuilder: (BuildContext context, int index) {
+                      return const ListViewSeparator();
+                    },
+                    itemCount: filteredKurdishSentences.length,
+                    itemBuilder: (context, index) {
+                      final sentence = filteredKurdishSentences[index];
+                      return Column(
+                        children: [
+                          // const Divider(),
+                          Row(
+                            children: [
+                              Expanded(
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Column(
+                                    children: [
+                                      Directionality(
+                                        textDirection: TextDirection.rtl,
+                                        child: Align(
+                                          alignment: Alignment.topRight,
+                                          child: Text(
+                                            sentence['sentence'].toString(),
+                                            style: TextStyle(
+                                              fontSize: textSize,
+                                            ),
                                           ),
                                         ),
                                       ),
-                                    ),
-                                  ],
+                                    ],
+                                  ),
                                 ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ],
-                    );
-                  },
+                            ],
+                          ),
+                        ],
+                      );
+                    },
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
@@ -309,4 +309,3 @@ class _KurdishSentencesScreenState
     super.dispose();
   }
 }
-

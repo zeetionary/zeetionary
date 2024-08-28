@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhaulage haulage
-WORD_WEB haulage haulage haulage
-haʊʊʊʊʊʊʊ4
+- Noun: haulage (Derived forms: haulages)
+1. The act of drawing or hauling something (- draw, haul)
+"the haulage up the hill went very slowly";
 """,
   );
-// 188888880002200
 
   final String keyword = "haulage";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""How much is haulage?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -943,8 +940,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """haulage""",
                       // alsoEnglishWord: "also: haulage",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhɔːlɪdʒ/""",
+                      americanText: """IpaUS: /ˈhɔːlɪdʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -985,14 +982,15 @@ haʊʊʊʊʊʊʊ4
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕاگوێستن، گوێزانەوە، گواستنەوە، بردن
 """),
 // With short examples define "haulage", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کاری گواستنەوەی کەلووپەل بە ڕێگا یان شەمەندەفەر؛ ئەو پارەیەی بۆ ئەمە وەردەگیرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """How much is haulage?""",
+                      kurdishText: """کرێ گواستنەوە چەندە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2135,19 +2133,18 @@ haʊʊʊʊʊʊʊ4
 }
 
 // 188888880002200
-const String _videoIdend = '';
-const double _startSecondsend = 000000000000000000000000000;
-const String _videoIdone = '';
-const double _startSecondsone = 000000000000000000000000000;
-const String _videoIdtwo = '';
-const double _startSecondstwo = 000000000000000000000000000;
-const String _videoIdthree = '';
-const double _startSecondsthree = 000000000000000000000000000;
-const String _videoIdfour = '';
-const double _startSecondsfour = 000000000000000000000000000;
-const String _videoIdfive = '';
-const double _startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+const String _videoIdend = 'https://youtu.be/YXFWrSVtAuY?t=';
+const double _startSecondsend = 000000000000000000000000000303;
+const String _videoIdone = 'https://youtu.be/0SFcWZx3L4g?t=';
+const double _startSecondsone = 000000000000000000000000000467;
+const String _videoIdtwo = 'https://youtu.be/wX9i3D7Scrk?t=';
+const double _startSecondstwo = 000000000000000000000000000349;
+const String _videoIdthree = 'https://youtu.be/9TfZwuseaj8?t=';
+const double _startSecondsthree = 000000000000000000000000000348;
+const String _videoIdfour = 'https://youtu.be/TNm7FJ2FA_c?t=';
+const double _startSecondsfour = 000000000000000000000000000438;
+const String _videoIdfive = 'https://youtu.be/TFA1wQgND3M?t=';
+const double _startSecondsfive = 000000000000000000000000000615;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

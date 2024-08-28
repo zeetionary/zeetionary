@@ -220,11 +220,11 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
             )
           : null,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: SizedBox(
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            SizedBox(
               height: 60,
               child: TextField(
                 controller: _searchController,
@@ -261,96 +261,96 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
                 onChanged: (value) => filterSentences(value),
               ),
             ),
-          ),
-          Expanded(
-            child: ListView.separated(
-              separatorBuilder: (BuildContext context, int index) {
-                return const ListViewSeparator();
-              },
-              itemCount: filteredSentences.length,
-              itemBuilder: (context, index) {
-                final sentence = filteredSentences[index];
-                return Column(
-                  children: [
-                    // const Divider(),
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              children: [
-                                Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    sentence['english'].toString(),
-                                    style: TextStyle(
-                                      fontSize: textSize,
-                                    ),
-                                  ),
-                                ),
-                                Directionality(
-                                  textDirection: TextDirection.rtl,
-                                  child: Align(
-                                    alignment: Alignment.topRight,
+            Expanded(
+              child: ListView.separated(
+                separatorBuilder: (BuildContext context, int index) {
+                  return const ListViewSeparator();
+                },
+                itemCount: filteredSentences.length,
+                itemBuilder: (context, index) {
+                  final sentence = filteredSentences[index];
+                  return Column(
+                    children: [
+                      // const Divider(),
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                children: [
+                                  Align(
+                                    alignment: Alignment.topLeft,
                                     child: Text(
-                                      sentence['french'].toString(),
+                                      sentence['english'].toString(),
                                       style: TextStyle(
                                         fontSize: textSize,
                                       ),
                                     ),
                                   ),
-                                ),
-                              ],
+                                  Directionality(
+                                    textDirection: TextDirection.rtl,
+                                    child: Align(
+                                      alignment: Alignment.topRight,
+                                      child: Text(
+                                        sentence['french'].toString(),
+                                        style: TextStyle(
+                                          fontSize: textSize,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
-                        ),
-                        Column(
-                          children: [
-                            CustomIconButtonBritish(
-                              onPressed: () =>
-                                  speakEnglish(sentence['english'], "en-GB"),
-                            ),
-                            CustomIconButtonAmerican(
-                              onPressed: () =>
-                                  speakEnglish(sentence['english'], "en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                    // ListTile(
-                    //   title: Text(
-                    //     sentence['english'].toString(),
-                    //     style: TextStyle(
-                    //       fontSize: textSize,
-                    //     ),
-                    //   ),
-                    //   subtitle: Directionality(
-                    //       textDirection: TextDirection.rtl,
-                    //       child: Text(
-                    //         sentence['french'].toString(),
-                    //         style: TextStyle(
-                    //           fontSize: textSize,
-                    //         ),
-                    //       ),
-                    //       ),
-                    //   trailing: Row(
-                    //     mainAxisSize: MainAxisSize.min,
-                    //     children: [
-                    //       CustomIconButtonBritish(
-                    //         onPressed: () =>
-                    //             speakEnglish(sentence['english'], "en-GB"),
-                    //       ),
-                    //     ],
-                    //   ),
-                    // ),
-                  ],
-                );
-              },
+                          Column(
+                            children: [
+                              CustomIconButtonBritish(
+                                onPressed: () =>
+                                    speakEnglish(sentence['english'], "en-GB"),
+                              ),
+                              CustomIconButtonAmerican(
+                                onPressed: () =>
+                                    speakEnglish(sentence['english'], "en-US"),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                      // ListTile(
+                      //   title: Text(
+                      //     sentence['english'].toString(),
+                      //     style: TextStyle(
+                      //       fontSize: textSize,
+                      //     ),
+                      //   ),
+                      //   subtitle: Directionality(
+                      //       textDirection: TextDirection.rtl,
+                      //       child: Text(
+                      //         sentence['french'].toString(),
+                      //         style: TextStyle(
+                      //           fontSize: textSize,
+                      //         ),
+                      //       ),
+                      //       ),
+                      //   trailing: Row(
+                      //     mainAxisSize: MainAxisSize.min,
+                      //     children: [
+                      //       CustomIconButtonBritish(
+                      //         onPressed: () =>
+                      //             speakEnglish(sentence['english'], "en-GB"),
+                      //       ),
+                      //     ],
+                      //   ),
+                      // ),
+                    ],
+                  );
+                },
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

@@ -5070,8 +5070,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_haul.dart' show EnglishEntryhaul
 // en_entry_haulage.dart' show EnglishEntryhaulage
 // en_entry_haunch.dart' show EnglishEntryhaunch
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_haunt.dart' show EnglishEntryhaunt
+// en_entry_have.dart' show EnglishEntryhave
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

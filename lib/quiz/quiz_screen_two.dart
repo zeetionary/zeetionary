@@ -391,133 +391,154 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
     final textSize = ref.watch(textSizeProvider);
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Row(
-              mainAxisSize: MainAxisSize.max,
-              children: [
-                Expanded(
-                  child: Align(
-                    alignment: Alignment.topLeft,
-                    child: ConstantContainer(
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              'Total: ${correctAnswers + wrongAnswers}',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontSize: textSize + 1,
-                              ),
-                            ),
-                            Text(
-                              'Correct: $correctAnswers',
-                              style: TextStyle(
-                                color: Colors.green,
-                                fontSize: textSize + 1,
-                              ),
-                            ),
-                            Text(
-                              'Wrong: $wrongAnswers',
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontSize: textSize + 1,
-                              ),
-                            ),
-                            ElevatedButton(
-                              style: ButtonStyle(
-                                backgroundColor: WidgetStatePropertyAll(
-                                    Theme.of(context).scaffoldBackgroundColor),
-                              ),
-                              onPressed: _confirmReset,
-                              child: Text(
-                                'Clear points',
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Row(
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  Expanded(
+                    child: Align(
+                      alignment: Alignment.topLeft,
+                      child: ConstantContainer(
+                        constraints: BoxConstraints(
+                          maxHeight: MediaQuery.of(context).size.height * 0.2,
+                          minHeight: MediaQuery.of(context).size.height * 0.2,
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Total: ${correctAnswers + wrongAnswers}',
                                 style: TextStyle(
-                                  color: Theme.of(context).primaryColor,
+                                  color: Colors.red,
                                   fontSize: textSize + 1,
                                 ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: Alignment.topRight,
-                  child: ConstantContainer(
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                        vertical: 63.0,
-                        horizontal: 18,
-                      ),
-                      child: Text(
-                        '$_timeRemaining',
-                        style: TextStyle(
-                          fontSize: textSize + 1,
-                          color: Colors.red,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 20.0),
-            ConstantContainer(
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 20.0),
-                      child: Text(
-                        questions[currentQuestionIndex].question,
-                        style: TextStyle(
-                          color: Theme.of(context).primaryColor,
-                          fontSize: textSize + 3,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
-                    ),
-                    const SizedBox(height: 20.0),
-                    for (var option in questions[currentQuestionIndex].options)
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 10.0),
-                        child: ConstantContainer(
-                          child: ElevatedButton(
-                            onPressed: timerEnded
-                                ? null
-                                : () => _confirmAnswer(option),
-                            style: ElevatedButton.styleFrom(
-                              // backgroundColor: Colors.blue,
-                              backgroundColor: Theme.of(context)
-                                  .primaryColor
-                                  .withOpacity(0.05),
-                            ),
-                            child: Text(
-                              option,
-                              style: TextStyle(
-                                color: Theme.of(context).primaryColor,
-                                fontSize: textSize + 2,
-                                // backgroundColor: Theme.of(context).primaryColor,
+                              Text(
+                                'Correct: $correctAnswers',
+                                style: TextStyle(
+                                  color: Colors.green,
+                                  fontSize: textSize + 1,
+                                ),
                               ),
+                              Text(
+                                'Wrong: $wrongAnswers',
+                                style: TextStyle(
+                                  color: Colors.red,
+                                  fontSize: textSize + 1,
+                                ),
+                              ),
+                              ElevatedButton(
+                                style: ButtonStyle(
+                                  backgroundColor: WidgetStatePropertyAll(
+                                      Theme.of(context)
+                                          .scaffoldBackgroundColor),
+                                ),
+                                onPressed: _confirmReset,
+                                child: Text(
+                                  'Clear points',
+                                  style: TextStyle(
+                                    color: Theme.of(context).primaryColor,
+                                    fontSize: textSize + 1,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Align(
+                    alignment: Alignment.topRight,
+                    child: ConstantContainer(
+                      constraints: BoxConstraints(
+                        maxHeight: MediaQuery.of(context).size.height * 0.2,
+                        minHeight: MediaQuery.of(context).size.height * 0.2,
+                      ),
+                      child: Center(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          child: Text(
+                            '$_timeRemaining',
+                            style: TextStyle(
+                              fontSize: textSize + 1,
+                              color: Colors.red,
                             ),
                           ),
                         ),
                       ),
-                  ],
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 20.0),
+              ConstantContainer(
+                constraints: BoxConstraints(
+                  maxHeight: MediaQuery.of(context).size.height * 0.6,
+                  minHeight: MediaQuery.of(context).size.height * 0.6,
+                ),
+                child: SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(5.0),
+                        child: Text(
+                          questions[currentQuestionIndex].question,
+                          style: TextStyle(
+                            color: Theme.of(context).primaryColor,
+                            fontSize: textSize + 3,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ),
+                      const SizedBox(height: 20.0),
+                      for (var option
+                          in questions[currentQuestionIndex].options)
+                        SingleChildScrollView(
+                          child: Padding(
+                            padding: const EdgeInsets.all(18.0),
+                            child: ElevatedButton(
+                              onPressed: timerEnded
+                                  ? null
+                                  : () => _confirmAnswer(option),
+                              style: ElevatedButton.styleFrom(
+                                shadowColor: Theme.of(context).highlightColor,
+                                // backgroundColor: Colors.blue,
+                                // foregroundColor: Theme.of(context).primaryColor,
+                                backgroundColor:
+                                    Theme.of(context).scaffoldBackgroundColor,
+                              ),
+                              child: Text(
+                                option,
+                                style: TextStyle(
+                                  // backgroundColor: Theme.of(context)
+                                  //     .primaryColor
+                                  //     .withOpacity(0.1),
+                                  color: Theme.of(context).primaryColor,
+                                  fontSize: textSize + 2,
+                                  // backgroundColor: Theme.of(context).primaryColor,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                    ],
+                  ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
       // floatingActionButton: ConstantContainer(

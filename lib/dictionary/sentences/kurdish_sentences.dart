@@ -1,80 +1,96 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:path/path.dart';
-// import 'package:path_provider/path_provider.dart';
-import 'package:sqflite/sqflite.dart';
-import 'dart:io';
-
 import 'package:zeetionary/constants.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
+// import 'package:zeetionary/main.dart';
+// import 'package:sqflite/sqflite.dart';
+// import 'package:path/path.dart';
+import 'dart:io';
+import 'package:flutter/services.dart';
+import 'package:path/path.dart';
+import 'package:sqflite/sqflite.dart';
+import 'package:path_provider/path_provider.dart';
 
-Future<List<Map<String, dynamic>>> searchSentences(
-    Database db, String query) async {
-  return await db.query(
-    'sentences',
-    where: 'sentence LIKE ?',
-    whereArgs: ['%$query%'],
-  );
+Future<void> initializeKurdishDatabase() async {
+  SharedPreferences prefs = await SharedPreferences.getInstance();
+  bool? isInstalled = prefs.getBool('isKurdishDatabaseInstalled');
+
+  if (isInstalled == null || !isInstalled) {
+    // Copy database from assets to the local path
+    Directory documentsDirectory = await getApplicationDocumentsDirectory();
+    String path = join(documentsDirectory.path, 'kurdish_sentences.db');
+
+    ByteData data =
+        await rootBundle.load(join('assets', 'kurdish_sentences.db'));
+    List<int> bytes =
+        data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
+
+    await File(path).writeAsBytes(bytes, flush: true);
+
+    // Set the flag that the database is installed
+    await prefs.setBool('isKurdishDatabaseInstalled', true);
+  }
 }
 
-// Future<Database> initializeDatabase() async {
-//   var databasesPath = await getDatabasesPath();
-//   var path = join(databasesPath, "kurdish_sentences.db");
+class KurdishSentenceDatabase {
+  static final KurdishSentenceDatabase instance =
+      KurdishSentenceDatabase._init();
+  static Database? _database;
+  List<Map<String, dynamic>> sentences = [];
 
-//   // Force delete the existing database to ensure we use the one in assets
-//   if (await databaseExists(path)) {
-//     await deleteDatabase(path);
-//     print("Deleted existing database in documents directory.");
-//   }
+  KurdishSentenceDatabase._init();
 
-//   // Copy from assets
-//   try {
-//     ByteData data = await rootBundle.load('assets/kurdish_sentences.db');
-//     List<int> bytes = data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
+  Future<Database> get database async {
+    if (_database != null) return _database!;
+    _database = await _initDB('kurdish_sentences.db');
+    return _database!;
+  }
 
-//     await File(path).writeAsBytes(bytes, flush: true);
-//     print("Database copied to documents directory.");
-//   } catch (e) {
-//     print("Error copying database: $e");
-//   }
+  Future<Database> _initDB(String fileName) async {
+    Directory documentsDirectory = await getApplicationDocumentsDirectory();
+    String path = join(documentsDirectory.path, fileName);
 
-//   return await openDatabase(path);
-// }
+    // Check if the database exists
+    bool dbExists = await databaseExists(path);
 
-// Function to initialize and copy the database if needed
-Future<Database> initializeDatabase() async {
-  var databasesPath = await getDatabasesPath();
-  var path = join(databasesPath, "kurdish_sentences.db");
-
-  // Check if the database exists
-  var exists = await databaseExists(path);
-
-  if (!exists) {
-    // Copy from assets
-    try {
-      ByteData data = await rootBundle.load('assets/kurdish_sentences.db');
+    if (!dbExists) {
+      // If the database does not exist, copy it from the assets
+      ByteData data = await rootBundle.load(join('assets', fileName));
       List<int> bytes =
           data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
 
+      // Write the copied database to the local path
       await File(path).writeAsBytes(bytes, flush: true);
-      print("Database copied to documents directory.");
-    } catch (e) {
-      print("Error copying database: $e");
     }
-  } else {
-    print("Database already exists in documents directory.");
+
+    return await openDatabase(path);
   }
 
-  return await openDatabase(path);
+  Future<void> initialize() async {
+    await fetchSentences();
+  }
+
+  Future<void> fetchSentences() async {
+    final db = await instance.database;
+    final data = await db.query('sentences');
+    sentences = data;
+  }
+
+  List<Map<String, dynamic>> filterSentencesByKeywords(String keyword) {
+    return sentences.where((sentence) {
+      final kurdish = sentence['sentence'].toString().toLowerCase();
+      final keywords = sentence['keywords'].toString().toLowerCase();
+      return kurdish.contains(keyword.toLowerCase()) ||
+          keywords.contains(keyword.toLowerCase());
+    }).toList();
+  }
+
+  Future close() async {
+    final db = await instance.database;
+    db.close();
+  }
 }
-
-// class KurdishSentencesScreen extends StatefulWidget {
-//   @override
-//   _KurdishSentencesScreenState createState() => _KurdishSentencesScreenState();
-// }
-
-// class _KurdishSentencesScreenState extends State<KurdishSentencesScreen> {
 
 class KurdishSentencesScreen extends ConsumerStatefulWidget {
   const KurdishSentencesScreen({super.key});
@@ -88,125 +104,122 @@ class _KurdishSentencesScreenState
     extends ConsumerState<KurdishSentencesScreen> {
   _KurdishSentencesScreenState();
 
-  Database? _database;
-  List<Map<String, dynamic>> _sentences = [];
-  final TextEditingController _controller = TextEditingController();
+  final TextEditingController _searchController = TextEditingController();
+  final ScrollController _scrollController = ScrollController();
+  List<Map<String, dynamic>> filteredKurdishSentences = [];
+  List<Map<String, dynamic>> allKurdishSentences = [];
+  bool _isKurdishDatabaseInstalled = false;
+  bool _showFab = false;
 
   @override
   void initState() {
     super.initState();
-    _initializeDb();
+    checkDatabaseStatus();
+    _scrollController.addListener(_scrollListener);
   }
 
-  void _initializeDb() async {
-    _database = await initializeDatabase();
-    _search(''); // Load all sentences initially
-  }
-
-  String normalizeKurdishH(String input) {
-    return input.replaceAll('ه', 'ھ');
-    // return input.replaceAll('\u200c', '');
-  }
-
-  void _search(String query) async {
-    if (_database == null) return;
-
-    String normalizedQuery = normalizeKurdishH(query);
-
-    final results = await _database!.query(
-      'sentences',
-      // where: 'sentence LIKE ?',
-      // whereArgs: ['%$normalizedQuery%'],
-      where: 'sentence LIKE ? OR keywords LIKE ?',
-      whereArgs: ['%$normalizedQuery%', '%$normalizedQuery%'],
-    );
+  Future<void> checkDatabaseStatus() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    bool? isInstalled = prefs.getBool('isKurdishDatabaseInstalled');
 
     setState(() {
-      _sentences = results;
+      _isKurdishDatabaseInstalled = isInstalled ?? false;
     });
 
-    if (results.isEmpty) {
-      print("No results found for '$normalizedQuery'");
+    if (_isKurdishDatabaseInstalled) {
+      await fetchallKurdishSentences();
     } else {
-      print("Found ${results.length} sentences for '$normalizedQuery'");
+      await initializeKurdishDatabase();
+      await fetchallKurdishSentences();
+      setState(() {
+        _isKurdishDatabaseInstalled = true;
+      });
+      await prefs.setBool('isKurdishDatabaseInstalled', true);
     }
   }
 
-  Widget _highlightedText(
-      String sentence, String query, WidgetRef ref, BuildContext context) {
-    final textSize = ref.watch(textSizeProvider);
-    String normalizedSentence = normalizeKurdishH(sentence);
-    String normalizedQuery = normalizeKurdishH(query);
+  Future<void> fetchallKurdishSentences() async {
+    final database = KurdishSentenceDatabase.instance;
+    await database.initialize();
+    setState(() {
+      allKurdishSentences = database.sentences;
+    });
+    filterSentences("");
+  }
 
-    int startIndex = normalizedSentence.indexOf(normalizedQuery);
-    if (startIndex == -1) {
-      return Text(sentence);
+  void filterSentences(String query) {
+    final Set<String> uniqueEnglishSentences = {};
+
+    setState(() {
+      filteredKurdishSentences = allKurdishSentences.where((sentence) {
+        final kurdish = sentence['sentence'].toString().toLowerCase();
+        final keywords = sentence['keywords'].toString().toLowerCase();
+
+        if (!uniqueEnglishSentences.contains(kurdish)) {
+          uniqueEnglishSentences.add(kurdish);
+          return kurdish.contains(query.toLowerCase()) ||
+              keywords.contains(query.toLowerCase());
+        } else {
+          return false;
+        }
+      }).toList();
+    });
+  }
+
+  void _scrollListener() {
+    if (_scrollController.offset >= 200) {
+      setState(() {
+        _showFab = true;
+      });
+    } else {
+      setState(() {
+        _showFab = false;
+      });
     }
-
-    String beforeMatch = sentence.substring(0, startIndex);
-    String match = sentence.substring(startIndex, startIndex + query.length);
-    String afterMatch = sentence.substring(startIndex + query.length);
-
-    return RichText(
-      text: TextSpan(
-        children: [
-          TextSpan(
-            text: beforeMatch,
-            style: TextStyle(
-              color: Theme.of(context).primaryColor,
-              fontSize: textSize + 5,
-            ),
-          ),
-          TextSpan(
-            text: match,
-            style: TextStyle(
-              color: Theme.of(context).highlightColor,
-              fontWeight: FontWeight.bold,
-              fontSize: textSize + 5,
-            ),
-          ),
-          TextSpan(
-            text: afterMatch,
-            style: TextStyle(
-              color: Theme.of(context).primaryColor,
-              fontSize: textSize + 5,
-            ),
-          ),
-        ],
-      ),
-    );
   }
 
   @override
-  // Widget build(BuildContext context, WidgetRef ref) {
-
   Widget build(BuildContext context) {
-    final textSize = ref.watch(textSizeProvider);
-
+    final textSize = ref.watch(textSizeProvider) + 1;
     return Scaffold(
+      floatingActionButton: _showFab
+          ? FloatingActionButton(
+              onPressed: () {
+                _scrollController.animateTo(
+                  0,
+                  duration: const Duration(milliseconds: 300),
+                  curve: Curves.easeInOut,
+                );
+              },
+              backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+              elevation: 0,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(16.0),
+                side: BorderSide(
+                  color: Theme.of(context).primaryColor.withOpacity(0.003),
+                  width: 0.2,
+                ),
+              ),
+              child: Icon(
+                Icons.arrow_upward,
+                size: textSize + 2,
+                color: Theme.of(context).primaryColor.withOpacity(0.6),
+              ),
+            )
+          : null,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: Align(
         alignment: Alignment.topRight,
         child: Directionality(
           textDirection: TextDirection.rtl,
           child: Column(
             children: [
-              // TextField(
-              //   controller: _controller,
-              //   decoration: const InputDecoration(
-              //     prefixIcon: Icon(Icons.search),
-              //     hintText: 'گەڕان بۆ ڕستە',
-              //     border: OutlineInputBorder(),
-              //   ),
-              //   onChanged: (query) => _search(query),
-              // ),
-
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: SizedBox(
                   height: 60,
                   child: TextField(
-                    // cursorColor: Colors.red,
-                    controller: _controller,
+                    controller: _searchController,
                     decoration: InputDecoration(
                       focusedBorder: OutlineInputBorder(
                         borderSide: BorderSide(
@@ -223,30 +236,21 @@ class _KurdishSentencesScreenState
                       //   ),
                       // ),
                       border: const OutlineInputBorder(),
-                      // fillColor: Colors.red,
-                      // iconColor: Colors.red,
-                      // focusColor: Colors.red,
-                      // hoverColor: Colors.red,
-                      // prefixIconColor: Colors.red,
-                      // suffixIconColor: Colors.red,
-                      hintText: 'گەڕان بۆ ڕستە',
+                      // labelText: "Search",
+                      hintText: "گەڕان بۆ ڕستە...",
                       hintStyle: TextStyle(fontSize: textSize),
-                      prefixIcon: const Icon(Icons.search),
-                      suffixIcon: _controller.text.isNotEmpty
+                      prefixIcon: Icon(Icons.search, size: textSize + 5),
+                      suffixIcon: _searchController.text.isNotEmpty
                           ? IconButton(
                               icon: const Icon(Icons.clear),
                               onPressed: () {
-                                _controller.clear();
-                                _search(''); // Clear the search results
+                                _searchController.clear();
+                                filterSentences("");
                               },
                             )
                           : null,
                     ),
-                    onChanged: (query) {
-                      setState(
-                          () {}); // Trigger a rebuild to show/hide the clear button
-                      _search(query);
-                    },
+                    onChanged: (value) => filterSentences(value),
                   ),
                 ),
               ),
@@ -255,22 +259,38 @@ class _KurdishSentencesScreenState
                   separatorBuilder: (BuildContext context, int index) {
                     return const ListViewSeparator();
                   },
-                  itemCount: _sentences.length,
+                  itemCount: filteredKurdishSentences.length,
                   itemBuilder: (context, index) {
-                    return Padding(
-                      padding: const EdgeInsets.only(right: 25.0),
-                      child: Directionality(
-                        textDirection: TextDirection.rtl,
-                        child: Align(
-                          alignment: Alignment.topRight,
-                          child: _highlightedText(
-                            _sentences[index]['sentence'],
-                            _controller.text,
-                            ref,
-                            context,
-                          ),
+                    final sentence = filteredKurdishSentences[index];
+                    return Column(
+                      children: [
+                        // const Divider(),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: [
+                                    Directionality(
+                                      textDirection: TextDirection.rtl,
+                                      child: Align(
+                                        alignment: Alignment.topRight,
+                                        child: Text(
+                                          sentence['sentence'].toString(),
+                                          style: TextStyle(
+                                            fontSize: textSize,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
-                      ),
+                      ],
                     );
                   },
                 ),
@@ -281,4 +301,12 @@ class _KurdishSentencesScreenState
       ),
     );
   }
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    _scrollController.dispose();
+    super.dispose();
+  }
 }
+

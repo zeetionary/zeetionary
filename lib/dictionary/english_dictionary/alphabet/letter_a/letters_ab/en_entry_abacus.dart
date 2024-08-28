@@ -66,6 +66,7 @@ ${englishMeaningConst.text}
     super.initState();
     flutterTts = FlutterTts();
     flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
     fetchSentences();
   }
 

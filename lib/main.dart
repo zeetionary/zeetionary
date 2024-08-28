@@ -1,21 +1,23 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:zeetionary/theme/pallete.dart';
 import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 import 'firebase_options.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/firebase/core/common/error_text.dart';
 import 'package:zeetionary/firebase/core/common/loader.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/router/aa_router_main.dart';
-import 'package:path/path.dart';
+import 'package:zeetionary/dictionary/sentences/sentences_page.dart';
+import 'package:zeetionary/dictionary/sentences/kurdish_sentences.dart';
+
+// import 'dart:io';
+// import 'package:path/path.dart';
+// import 'package:path_provider/path_provider.dart';
+// import 'package:shared_preferences/shared_preferences.dart';
 
 // import 'package:zeetionary/dictionary/database_sentences.dart';
 // import 'package:flutter/material.dart';
@@ -116,32 +118,13 @@ Future<void> main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   await initializeDatabase();
+  await initializeKurdishDatabase();
 
   runApp(
     const ProviderScope(
       child: MyApp(),
     ),
   );
-}
-
-Future<void> initializeDatabase() async {
-  SharedPreferences prefs = await SharedPreferences.getInstance();
-  bool? isInstalled = prefs.getBool('isDatabaseInstalled');
-
-  if (isInstalled == null || !isInstalled) {
-    // Copy database from assets to the local path
-    Directory documentsDirectory = await getApplicationDocumentsDirectory();
-    String path = join(documentsDirectory.path, 'sentences.db');
-
-    ByteData data = await rootBundle.load(join('assets', 'sentences.db'));
-    List<int> bytes =
-        data.buffer.asUint8List(data.offsetInBytes, data.lengthInBytes);
-
-    await File(path).writeAsBytes(bytes, flush: true);
-
-    // Set the flag that the database is installed
-    await prefs.setBool('isDatabaseInstalled', true);
-  }
 }
 
 class MyApp extends ConsumerStatefulWidget {

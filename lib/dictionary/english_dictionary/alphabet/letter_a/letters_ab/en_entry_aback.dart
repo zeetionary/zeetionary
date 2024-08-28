@@ -3,9 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
-import 'package:sqflite/sqflite.dart';
-import 'package:zeetionary/dictionary/sentences/kurdish_sentences.dart';
-import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
 // one quotations
 // Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("\w*00"\);\s*\}
@@ -59,106 +56,8 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
     flutterTts.setLanguage("en-GB");
     flutterTts.setLanguage("en-US");
     fetchSentences();
-    _initializeDb();
+    fetchKurdishSentences();
   }
-
-  /// Kurdish sentence
-  /// Kurdish sentence
-  /// Kurdish sentence
-  /// Kurdish sentence
-  /// Kurdish sentence
-  /// Kurdish sentence
-  ///
-  ///
-  ///
-  ///
-  ///
-  ///
-
-  Database? _database;
-  List<Map<String, dynamic>> _sentences = [];
-  final String keywordKurdish = 'بەیانی'; // The keyword to search for
-
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   _initializeDb();
-  // }
-
-  void _initializeDb() async {
-    _database = await initializeDatabase();
-    _searchWithKeyword(keywordKurdish); // Load sentences with the keyword
-  }
-
-  void _searchWithKeyword(String query) async {
-    if (_database == null) return;
-
-    final results = await _database!.query(
-      'sentences',
-      // where: 'keywords LIKE ?',
-      // whereArgs: ['%$query%'],
-      where: 'sentence LIKE ? OR keywords LIKE ?',
-      whereArgs: ['%$query%', '%$query%'],
-    );
-
-    setState(() {
-      _sentences = results;
-    });
-  }
-
-  Widget _highlightedText(
-      String sentence, String query, WidgetRef ref, BuildContext context) {
-    final textSize = ref.watch(textSizeProvider);
-    int startIndex = sentence.indexOf(query);
-    if (startIndex == -1) {
-      return Text(sentence);
-    }
-
-    String beforeMatch = sentence.substring(0, startIndex);
-    String match = sentence.substring(startIndex, startIndex + query.length);
-    String afterMatch = sentence.substring(startIndex + query.length);
-
-    return RichText(
-      text: TextSpan(
-        children: [
-          TextSpan(
-            text: beforeMatch,
-            style: TextStyle(
-              color: Theme.of(context).primaryColor,
-              fontSize: textSize + 2,
-            ),
-          ),
-          TextSpan(
-            text: match,
-            style: TextStyle(
-              color: Theme.of(context).highlightColor,
-              fontWeight: FontWeight.bold,
-              fontSize: textSize + 2,
-            ),
-          ),
-          TextSpan(
-            text: afterMatch,
-            style: TextStyle(
-              color: Theme.of(context).primaryColor,
-              fontSize: textSize + 2,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  ///
-  ///
-  ///
-  ///
-  ///
-  /// Kurdish sentence
-  /// Kurdish sentence
-  /// Kurdish sentence
-  /// Kurdish sentence
-  /// Kurdish sentence
-  /// Kurdish sentence
 
   // Future<void> _initDatabase() async {
   //   await SentenceDatabase.instance.initialize();
@@ -212,6 +111,17 @@ Adverb: aback
         await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
     setState(() {
       filteredSentences = sentences;
+    });
+  }
+
+  final String kurdishkeyword = "هێنان";
+  List<Map<String, dynamic>> filteredKurdishSentences = [];
+
+  Future<void> fetchKurdishSentences() async {
+    final kurdishsentences = await KurdishDatabaseUtils.instance
+        .fetchfilteredKurdishSentences(keyword: kurdishkeyword);
+    setState(() {
+      filteredKurdishSentences = kurdishsentences;
     });
   }
 
@@ -350,92 +260,26 @@ Adverb: aback
               ),
               Consumer(
                 builder: (context, ref, child) {
-                  return Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Align(
-                      alignment: Alignment.topRight,
-                      child: Directionality(
-                        textDirection: TextDirection.rtl,
-                        child: Column(
-                          children: [
-                            Expanded(
-                              child: ListView.separated(
-                                separatorBuilder:
-                                    (BuildContext context, int index) {
-                                  return const Divider(
-                                      color: Colors.grey, thickness: 1);
-                                },
-                                itemCount: _sentences.length,
-                                itemBuilder: (context, index) {
-                                  return Directionality(
-                                    textDirection: TextDirection.rtl,
-                                    child: Align(
-                                      alignment: Alignment.topRight,
-                                      child: _highlightedText(
-                                        _sentences[index]['sentence'],
-                                        keywordKurdish,
-                                        ref,
-                                        context,
-                                      ),
-                                    ),
-                                  );
-                                },
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                  );
+                  if (filteredKurdishSentences.isEmpty) {
+                    return const NoSentencesFromKurdishDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredKurdishSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredKurdishSentences[index];
+                        final showDivider =
+                            filteredKurdishSentences.length > 1 &&
+                                index != filteredKurdishSentences.length - 1;
+                        return KurdishCustomSentenceWidget(
+                          kurdishText: sentence['sentence'].toString(),
+                          keyword: kurdishkeyword,
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
                 },
               ),
-              // Consumer(
-              //   builder: (context, ref, child) {
-              //     if (filteredSentences.isEmpty) {
-              //       return const NoSentencesFromDatabase();
-              //     } else {
-              //       return Padding(
-              //         padding: const EdgeInsets.all(8.0),
-              //         child: Align(
-              //           alignment: Alignment.topRight,
-              //           child: Directionality(
-              //             textDirection: TextDirection.rtl,
-              //             child: Column(
-              //               children: [
-              //                 Expanded(
-              //                   child: ListView.separated(
-              //                     separatorBuilder:
-              //                         (BuildContext context, int index) {
-              //                       return const Divider(
-              //                           color: Colors.grey, thickness: 1);
-              //                     },
-              //                     itemCount: _sentences.length,
-              //                     itemBuilder: (context, index) {
-              //                       return Align(
-              //                         alignment: Alignment.topRight,
-              //                         child: Directionality(
-              //                           textDirection: TextDirection.rtl,
-              //                           child: ListTile(
-              //                             title: _highlightedText(
-              //                               _sentences[index]['sentence'],
-              //                               keywordKurdish,
-              //                               ref,
-              //                               context,
-              //                             ),
-              //                           ),
-              //                         ),
-              //                       );
-              //                     },
-              //                   ),
-              //                 ),
-              //               ],
-              //             ),
-              //           ),
-              //         ),
-              //       );
-              //     }
-              //   },
-              // ),
               const YouTubeScroller(
                 children: [
                   YoutubeEmbeddedone(),

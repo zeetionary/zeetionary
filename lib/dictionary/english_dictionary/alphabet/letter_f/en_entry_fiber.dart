@@ -141,10 +141,7 @@ Usage: US (elsewhere: fibre)
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -157,7 +154,6 @@ Usage: US (elsewhere: fibre)
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),

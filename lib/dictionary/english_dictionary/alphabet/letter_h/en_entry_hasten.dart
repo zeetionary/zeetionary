@@ -101,7 +101,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""News of the scandal certainly hastened his departure from office.""");
+    await flutterTts.speak(
+        """News of the scandal certainly hastened his departure from office.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -939,10 +940,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -955,7 +953,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -993,24 +990,33 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "hasten", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) کردن یان گوتنی شتێک بەبێ دواکەوتن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) کردن یان گوتنی شتێک بەبێ دواکەوتن"""),
                     SentencesRow(
-                      englishText: """She saw his frown and hastened to explain.""",
-                      kurdishText: """ڕووگرژییەکەیی بینی پەلەی کرد لە ڕوونکردنەوە.""",
+                      englishText:
+                          """She saw his frown and hastened to explain.""",
+                      kurdishText:
+                          """ڕووگرژییەکەیی بینی پەلەی کرد لە ڕوونکردنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) ئەوەی وەها بکەیت شتێک زووتر یان خێراتر ڕووبدات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) ئەوەی وەها بکەیت شتێک زووتر یان خێراتر ڕووبدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """News of the scandal certainly hastened his departure from office.""",
-                      kurdishText: """هەواڵی ئابڕووچوونەکە بە دڵنیاییەوە دەرچوونی لە ئۆفیسەکە خێراتر کرد.""",
+                      englishText:
+                          """News of the scandal certainly hastened his departure from office.""",
+                      kurdishText:
+                          """هەواڵی ئابڕووچوونەکە بە دڵنیاییەوە دەرچوونی لە ئۆفیسەکە خێراتر کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (کردار) چوونە شوێنێک بە خێرایی"""),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) چوونە شوێنێک بە خێرایی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: hurry"),
                     SentencesRow(
                       englishText: """We hastened back to Rome.""",

@@ -135,10 +135,7 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -151,7 +148,6 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),

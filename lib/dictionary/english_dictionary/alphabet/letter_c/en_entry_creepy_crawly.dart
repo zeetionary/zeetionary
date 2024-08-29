@@ -23,14 +23,10 @@ class _EnglishEntrycreepycrawlyState extends State<EnglishEntrycreepycrawly> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -232,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She screamed when she saw a creepy-crawly on the floor.",
-            kurdishText:
-                "کە جووڵەوەرێکی بینی لەسەر زەوییەکە قیژاندی.",
+            kurdishText: "کە جووڵەوەرێکی بینی لەسەر زەوییەکە قیژاندی.",
             onPressedBritish: () => speakcreepycrawlys1("en-GB"),
             onPressedAmerican: () => speakcreepycrawlys1("en-US"),
           ),

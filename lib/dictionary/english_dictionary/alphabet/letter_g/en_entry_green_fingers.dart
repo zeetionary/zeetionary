@@ -10,7 +10,8 @@ class EnglishEntrygreenfingers extends StatefulWidget {
   const EnglishEntrygreenfingers({super.key});
 
   @override
-  State<EnglishEntrygreenfingers> createState() => _EnglishEntrygreenfingersState();
+  State<EnglishEntrygreenfingers> createState() =>
+      _EnglishEntrygreenfingersState();
 }
 
 class _EnglishEntrygreenfingersState extends State<EnglishEntrygreenfingers> {
@@ -98,10 +99,7 @@ Usage: Brit (N. Amer: green thumb)
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -114,7 +112,6 @@ Usage: Brit (N. Amer: green thumb)
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -151,9 +148,12 @@ Usage: Brit (N. Amer: green thumb)
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ناو) شارەزایی لە چاندن و گەشەپێدانی ڕووەک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شارەزایی لە چاندن و گەشەپێدانی ڕووەک"""),
                     SentencesRow(
-                      englishText: """She has green fingers and a beautiful garden.""",
+                      englishText:
+                          """She has green fingers and a beautiful garden.""",
                       kurdishText: """دەست ڕەنگینە و باخچەیەکی جوانی ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),

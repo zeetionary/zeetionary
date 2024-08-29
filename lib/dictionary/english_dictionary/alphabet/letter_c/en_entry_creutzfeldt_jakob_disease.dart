@@ -24,14 +24,10 @@ class _EnglishEntrycreutzfeldtjakobdiseaseState
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -234,8 +230,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "There is no cure for Creutzfeldt-Jakob disease, and it is always fatal.",
-            kurdishText:
-                "ھیچ چارەسەرێک بۆ CJD نییە و ھەمیشە کوشندەیە.",
+            kurdishText: "ھیچ چارەسەرێک بۆ CJD نییە و ھەمیشە کوشندەیە.",
             onPressedBritish: () => speakcreutzfeldtjakobdiseases1("en-GB"),
             onPressedAmerican: () => speakcreutzfeldtjakobdiseases1("en-US"),
           ),

@@ -37,10 +37,7 @@ class _EnglishEntryfamiliarlyState extends State<EnglishEntryfamiliarly> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -53,7 +50,6 @@ class _EnglishEntryfamiliarlyState extends State<EnglishEntryfamiliarly> {
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),

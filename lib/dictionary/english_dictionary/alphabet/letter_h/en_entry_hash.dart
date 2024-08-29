@@ -941,10 +941,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -957,7 +954,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -994,30 +990,34 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ناو) خواردنێک کە لە گۆشت و پەتاتەی وردکراو درووست دەکرێت و تێکەڵ دەکرێن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) خواردنێک کە لە گۆشت و پەتاتەی وردکراو درووست دەکرێت و تێکەڵ دەکرێن"""),
                     SentencesRow(
-                      englishText: """She loves making eggs and hash on weekends.""",
-                      kurdishText: """حەز دەکات کۆتایی هەفتە هێلکە و هاش بکات.""",
+                      englishText:
+                          """She loves making eggs and hash on weekends.""",
+                      kurdishText:
+                          """حەز دەکات کۆتایی هەفتە هێلکە و هاش بکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     CustomRichText(
-                    textBeforeLink: "٢. بڕوانە لە ",
-                    linkText: "hashish",
-                    textAfterLink: "",
-                    onTap: () {
-                    Routemaster.of(context).push("/english-hash/hashish");
-                    },
+                      textBeforeLink: "٢. بڕوانە لە ",
+                      linkText: "hashish",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context).push("/english-hash/hashish");
+                      },
                     ),
                     const DividerDefinition(),
                     CustomRichText(
-                    textBeforeLink: "٣. بڕوانە لە ",
-                    linkText: "hashtag",
-                    textAfterLink: "",
-                    onTap: () {
-                    Routemaster.of(context).push("/english-hash/hashtag");
-                    },
+                      textBeforeLink: "٣. بڕوانە لە ",
+                      linkText: "hashtag",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context).push("/english-hash/hashtag");
+                      },
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),

@@ -102,7 +102,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""It grieved him that he could do nothing to help her.""");
+    await flutterTts
+        .speak("""It grieved him that he could do nothing to help her.""");
   }
 
   @override
@@ -114,10 +115,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -130,7 +128,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -167,10 +164,14 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (کردار) ھەستکردن بە نیگەرانی و خەمباری، بە تایبەتی بەھۆی ئەوەی کەسێک مردووە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) ھەستکردن بە نیگەرانی و خەمباری، بە تایبەتی بەھۆی ئەوەی کەسێک مردووە"""),
                     SentencesRow(
-                      englishText: """They are still grieving for their dead child.""",
-                      kurdishText: """ھێشتا شیوەنی مردنی منداڵە کۆچکردووەکەیان دەگێڕن.""",
+                      englishText:
+                          """They are still grieving for their dead child.""",
+                      kurdishText:
+                          """ھێشتا شیوەنی مردنی منداڵە کۆچکردووەکەیان دەگێڕن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -182,11 +183,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) کە وات لێدەکات ھەست بە نیگەرانیی زۆر بکەیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) کە وات لێدەکات ھەست بە نیگەرانیی زۆر بکەیت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: pain"),
                     SentencesRow(
-                      englishText: """It grieved him that he could do nothing to help her.""",
-                      kurdishText: """ئەوە ئازاری دەدا کە نەیدەتونی ھیچ بکات بۆ یارمەتیدانی.""",
+                      englishText:
+                          """It grieved him that he could do nothing to help her.""",
+                      kurdishText:
+                          """ئەوە ئازاری دەدا کە نەیدەتونی ھیچ بکات بۆ یارمەتیدانی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

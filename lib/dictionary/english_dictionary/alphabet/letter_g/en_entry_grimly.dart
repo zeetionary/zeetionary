@@ -86,7 +86,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""His assessment of the war is grimly pessimistic.""");
+    await flutterTts
+        .speak("""His assessment of the war is grimly pessimistic.""");
   }
 
   @override
@@ -98,10 +99,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -114,7 +112,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -151,10 +148,13 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە شێوەیەک کە جدی دیارە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە شێوەیەک کە جدی دیارە"""),
                     SentencesRow(
-                      englishText: """His assessment of the war is grimly pessimistic.""",
-                      kurdishText: """ھەڵسەنگاندنی بۆ جەنگەکە بە جدییەوە ڕەشبینانەیە.""",
+                      englishText:
+                          """His assessment of the war is grimly pessimistic.""",
+                      kurdishText:
+                          """ھەڵسەنگاندنی بۆ جەنگەکە بە جدییەوە ڕەشبینانەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

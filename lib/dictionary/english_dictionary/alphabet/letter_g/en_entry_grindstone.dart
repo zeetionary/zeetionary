@@ -98,10 +98,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -114,7 +111,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -151,10 +147,13 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەرداش،	چەرخ یان بەردی چەقۆتیژکردن، چەرخ، ھەسان، بەراڤ، زبرە
 """),
-                    const DefinitionKurdish(text: """١. (ناو) بەردێکی خڕ کە وەک ویل سووڕ دەدرێت و بەکاردێت بۆ تیژکردنی چەقۆ و کەرەستەی دیکە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەردێکی خڕ کە وەک ویل سووڕ دەدرێت و بەکاردێت بۆ تیژکردنی چەقۆ و کەرەستەی دیکە"""),
                     SentencesRow(
                       englishText: """The grindstone spun as he worked.""",
-                      kurdishText: """بەردە چەرخەکە دەسووڕایەوە کە ئەو کاری کرد.""",
+                      kurdishText:
+                          """بەردە چەرخەکە دەسووڕایەوە کە ئەو کاری کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

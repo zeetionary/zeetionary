@@ -23,14 +23,10 @@ class _EnglishEntrycounterattackState extends State<EnglishEntrycounterattack> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -250,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                 "Armed forces launched a counter-attack against the rebels.",
             kurdishText:
                 "ھێزە سەربازییەکان پەرچەھێرشێکیان دژ بە یاخیبووان ئەنجامدا.",
-                            onPressedBritish: () => speakcounterattacks1("en-GB"),
+            onPressedBritish: () => speakcounterattacks1("en-GB"),
             onPressedAmerican: () => speakcounterattacks1("en-US"),
           ),
           const DividerSentences(),

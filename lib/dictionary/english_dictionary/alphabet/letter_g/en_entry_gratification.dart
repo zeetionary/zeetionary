@@ -10,7 +10,8 @@ class EnglishEntrygratification extends StatefulWidget {
   const EnglishEntrygratification({super.key});
 
   @override
-  State<EnglishEntrygratification> createState() => _EnglishEntrygratificationState();
+  State<EnglishEntrygratification> createState() =>
+      _EnglishEntrygratificationState();
 }
 
 class _EnglishEntrygratificationState extends State<EnglishEntrygratification> {
@@ -88,14 +89,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A feed will usually provide instant gratification to a crying baby.""");
+    await flutterTts.speak(
+        """A feed will usually provide instant gratification to a crying baby.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Much to my gratification, my work got a special mention in her speech.""");
+    await flutterTts.speak(
+        """Much to my gratification, my work got a special mention in her speech.""");
   }
 
   @override
@@ -107,10 +110,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -123,7 +123,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -160,18 +159,24 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێ‌خۆشبوون، قایلی، ڕازی‌بوون، خۆشی، لەزەت
 """),
-                    const DefinitionKurdish(text: """١. (ناو) ئەوەی کە دڵخۆش بیت بەھۆی ئەوەی شتەکان بەو شێوەیە ڕوودەدەن کە دەتەوێت یان ئارەزووەکانت بەدی دێن """),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە دڵخۆش بیت بەھۆی ئەوەی شتەکان بەو شێوەیە ڕوودەدەن کە دەتەوێت یان ئارەزووەکانت بەدی دێن """),
                     const AlsoEnglishckb(word: "ھەروەھا: satisfaction"),
                     SentencesRow(
-                      englishText: """A feed will usually provide instant gratification to a crying baby.""",
-                      kurdishText: """شیرپێدان زۆرجار خۆشی دەستبەجێ دەدات بە منداڵی گریاو.""",
+                      englishText:
+                          """A feed will usually provide instant gratification to a crying baby.""",
+                      kurdishText:
+                          """شیرپێدان زۆرجار خۆشی دەستبەجێ دەدات بە منداڵی گریاو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Much to my gratification, my work got a special mention in her speech.""",
-                      kurdishText: """بە جێگای دڵخۆشیم، کارەکەم باسکردنێکی تایبەتی پێدرا لە وتارەکەیدا.""",
+                      englishText:
+                          """Much to my gratification, my work got a special mention in her speech.""",
+                      kurdishText:
+                          """بە جێگای دڵخۆشیم، کارەکەم باسکردنێکی تایبەتی پێدرا لە وتارەکەیدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

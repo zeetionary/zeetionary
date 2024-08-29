@@ -22,14 +22,10 @@ class _EnglishEntrycrowsnestState extends State<EnglishEntrycrowsnest> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -232,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "From the crow's nest, the lookout could see far out to sea.",
-            kurdishText:
-                "لە چاوێرگەکەوە، چاودێرەکە دوور بە دەریاکەدا ببینێت.",
+            kurdishText: "لە چاوێرگەکەوە، چاودێرەکە دوور بە دەریاکەدا ببینێت.",
             onPressedBritish: () => speakcrowsnests1("en-GB"),
             onPressedAmerican: () => speakcrowsnests1("en-US"),
           ),

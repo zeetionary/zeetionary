@@ -22,14 +22,10 @@ class _EnglishEntrydentistState extends State<EnglishEntrydentist> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -223,7 +219,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("I hate going to the dentist.");
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

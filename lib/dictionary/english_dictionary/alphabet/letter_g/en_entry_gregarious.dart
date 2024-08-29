@@ -110,10 +110,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -126,7 +123,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -163,7 +159,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خوێن‌گەرم، ڕووخۆشی تێکەڵی خەڵک،	مێگەل‌ژی، ژیانی بەکۆمەڵ، دەستەیی، ژیانی مێگەلی، بۆڵ‌بۆڵ، بۆڵی، ھێشووھێشوو، ھێشوویی
 """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) حەزکردن لە تێکەڵبوون لەگەڵ خەڵکی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) حەزکردن لە تێکەڵبوون لەگەڵ خەڵکی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: sociable"),
                     SentencesRow(
                       englishText: """She’s very outgoing and gregarious.""",

@@ -103,7 +103,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Perhaps I was too hasty in rejecting his offer.""");
+    await flutterTts
+        .speak("""Perhaps I was too hasty in rejecting his offer.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -934,10 +935,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -950,7 +948,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -988,12 +985,14 @@ ${englishMeaningConst.text}
 کوردی: بێ‌تاقەت، بەپەلە، تاوسەندوو، بەتاو، بەلەسە، بە لەزوبەز، خێرا، دەست‌وبرد، بەپڕتاو، زووکراو، بێ‌بیرلێ‌کردنەوە
 """),
 // With short examples define "hasty", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە خێرایی"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە خێرایی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: hurried"),
                     SentencesRow(
                       englishText: """We made a hasty departure.""",
                       kurdishText: """ڕۆشتنێکی خێرامان ئەنجامدا.""",
-                      englishNote: """This means we left quickly and without much preparation.""",
+                      englishNote:
+                          """This means we left quickly and without much preparation.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,11 +1006,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵکار) بە خێرایی و بەبێ بیرکردنەوەی زۆر"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە خێرایی و بەبێ بیرکردنەوەی زۆر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Perhaps I was too hasty in rejecting his offer.""",
-                      kurdishText: """ئەگەری هەیە زۆر خێرا بووبم لە ڕەتکردنەوەی ئۆفەرەکەی.""",
+                      englishText:
+                          """Perhaps I was too hasty in rejecting his offer.""",
+                      kurdishText:
+                          """ئەگەری هەیە زۆر خێرا بووبم لە ڕەتکردنەوەی ئۆفەرەکەی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

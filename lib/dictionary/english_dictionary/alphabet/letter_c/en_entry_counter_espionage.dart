@@ -24,14 +24,10 @@ class _EnglishEntrycounterespionageState
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -235,7 +231,7 @@ class KurdishMeaning extends StatelessWidget {
                 "The agency specializes in counter-espionage to protect national security.",
             kurdishText:
                 "ئاژانسەکە شارەزایی ھەیە لە پەرچەسیخوڕی بۆ پاراستنی ئاسایشی نیشتیمانی.",
-                            onPressedBritish: () => speakcounterespionages1("en-GB"),
+            onPressedBritish: () => speakcounterespionages1("en-GB"),
             onPressedAmerican: () => speakcounterespionages1("en-US"),
           ),
         ],

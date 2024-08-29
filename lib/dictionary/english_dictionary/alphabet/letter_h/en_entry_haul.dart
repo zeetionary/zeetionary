@@ -135,14 +135,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A number of suspects have been hauled in for questioning.""");
+    await flutterTts
+        .speak("""A number of suspects have been hauled in for questioning.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The thieves got away with a record haul of £25 million.""");
+    await flutterTts
+        .speak("""The thieves got away with a record haul of £25 million.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -945,10 +947,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -961,7 +960,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -999,7 +997,9 @@ ${englishMeaningConst.text}
 کوردی: کێشان، ڕاکێشان، ڕاکێش‌کردن،	ماوە، مەودا
 """),
 // With short examples define "haul", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) ڕاکێشانی کەسێک/شتێک بە هەوڵی زۆر"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) ڕاکێشانی کەسێک/شتێک بە هەوڵی زۆر"""),
                     SentencesRow(
                       englishText: """The wagons were hauled by horses.""",
                       kurdishText: """عەرابەکان بە ئەسپ ڕادەکێشران.""",
@@ -1011,12 +1011,15 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The car was hauled out of the river.""",
-                      kurdishText: """ئۆتۆمبێلەکە لە ڕووبارەکە ڕاکێشرایە دەرەوە.""",
+                      kurdishText:
+                          """ئۆتۆمبێلەکە لە ڕووبارەکە ڕاکێشرایە دەرەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) بە هێواشی جووڵان بەرەو شوێنێک بە هەوڵێکی زۆر"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) بە هێواشی جووڵان بەرەو شوێنێک بە هەوڵێکی زۆر"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She hauled herself out of bed.""",
@@ -1034,7 +1037,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (کردار) زۆرکردن لە کەسێک کە بچێتە شوێنێک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) زۆرکردن لە کەسێک کە بچێتە شوێنێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He was hauled off to jail.""",
@@ -1046,35 +1051,47 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A number of suspects have been hauled in for questioning.""",
-                      kurdishText: """ژمارەیەک گومان‌لێکراو ڕاپێچکراون بۆ لێکۆڵینەوە.""",
+                      englishText:
+                          """A number of suspects have been hauled in for questioning.""",
+                      kurdishText:
+                          """ژمارەیەک گومان‌لێکراو ڕاپێچکراون بۆ لێکۆڵینەوە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (ناو) ڕێژەیەکی زۆر لە شتێک کە دزراوە یان نایاساییە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) ڕێژەیەکی زۆر لە شتێک کە دزراوە یان نایاساییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The thieves got away with a record haul of £25 million.""",
-                      kurdishText: """دزەکان بە بڕێکی مێژووی ٢٥ ملیۆن پاوەندی گیران.""",
+                      englishText:
+                          """The thieves got away with a record haul of £25 million.""",
+                      kurdishText:
+                          """دزەکان بە بڕێکی مێژووی ٢٥ ملیۆن پاوەندی گیران.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (ناو) ڕێژەیەکی زۆر لە خاڵ، گۆڵ، هتد"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ناو) ڕێژەیەکی زۆر لە خاڵ، گۆڵ، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """His haul of 40 goals in a season is a record.""",
+                      englishText:
+                          """His haul of 40 goals in a season is a record.""",
                       kurdishText: """ڕێژەی ٤٠ گۆڵی لە وەرزێکدا مێژووییە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (ناو) ئەو ماوەیەی لە گەشتێکی دیاریکراو دەپێورێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (ناو) ئەو ماوەیەی لە گەشتێکی دیاریکراو دەپێورێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They began the long slow haul to the summit.""",
-                      kurdishText: """دەستیان بە هەڵکشانی هێواش بۆ لوتکەکە کرد.""",
+                      englishText:
+                          """They began the long slow haul to the summit.""",
+                      kurdishText:
+                          """دەستیان بە هەڵکشانی هێواش بۆ لوتکەکە کرد.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -1082,13 +1099,16 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Our camp is only a short haul from here.""",
-                      kurdishText: """کەمپەکەمان تەنها ڕێگایەکی کورت لێرەوە دوورە.""",
+                      englishText:
+                          """Our camp is only a short haul from here.""",
+                      kurdishText:
+                          """کەمپەکەمان تەنها ڕێگایەکی کورت لێرەوە دوورە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (ناو) بڕێک ماسی کە بە یەک جار دەگیرێن"""),
+                    const DefinitionKurdish(
+                        text: """٧. (ناو) بڕێک ماسی کە بە یەک جار دەگیرێن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The fishermen had a good haul.""",
@@ -1097,11 +1117,13 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٨. (ناو) ڕاکێشانێکی توند"""),
+                    const DefinitionKurdish(
+                        text: """٨. (ناو) ڕاکێشانێکی توند"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """When I shout, give a haul on the rope.""",
-                      kurdishText: """کە هاوار دەکەم. ڕاکێشانێکی توند بە حەبلەکە بدەن.""",
+                      kurdishText:
+                          """کە هاوار دەکەم. ڕاکێشانێکی توند بە حەبلەکە بدەن.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),

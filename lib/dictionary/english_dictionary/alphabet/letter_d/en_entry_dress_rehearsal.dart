@@ -30,14 +30,10 @@ class _EnglishEntrydressrehearsalState
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -371,8 +367,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کۆتا خۆئامادەکردن بۆ شانۆیەک لە ھۆڵی شانۆ، بە بەکارھێنانی ئەو جل و ئامدەکارییەی کە لە نمایشە ڕاستییەکەدا دەبێت"),
           SentencesRow(
             englishText: "The director watched the dress rehearsal carefully.",
-            kurdishText:
-                "دەرھێنەرەکە بە وریاییەوە سەیری دوامەشقی دەکرد.",
+            kurdishText: "دەرھێنەرەکە بە وریاییەوە سەیری دوامەشقی دەکرد.",
             onPressedBritish: () => speakdressrehearsals1("en-GB"),
             onPressedAmerican: () => speakdressrehearsals1("en-US"),
           ),

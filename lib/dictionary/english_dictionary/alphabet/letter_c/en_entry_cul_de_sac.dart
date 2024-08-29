@@ -22,14 +22,10 @@ class _EnglishEntryculdesacState extends State<EnglishEntryculdesac> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -237,8 +233,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) شەقامێک کە لە لایەکەوە داخراوە"),
           SentencesRow(
             englishText: "We live in a quiet cul-de-sac.",
-            kurdishText:
-                "لەسەر شەقامێکی یەکسەرە دەژین.",
+            kurdishText: "لەسەر شەقامێکی یەکسەرە دەژین.",
             onPressedBritish: () => speakculdesacs1("en-GB"),
             onPressedAmerican: () => speakculdesacs1("en-US"),
           ),

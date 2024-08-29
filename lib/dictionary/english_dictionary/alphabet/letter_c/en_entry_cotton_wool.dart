@@ -22,14 +22,10 @@ class _EnglishEntrycottonwoolState extends State<EnglishEntrycottonwool> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -231,8 +227,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "She used cotton wool to apply the ointment to the wound.",
-            kurdishText:
-                "لۆکەی بەکارھێنا بۆ لێدانی مەڵھەمەکە لە برینەکە.",
+            kurdishText: "لۆکەی بەکارھێنا بۆ لێدانی مەڵھەمەکە لە برینەکە.",
             onPressedBritish: () => speakcottonwools1("en-GB"),
             onPressedAmerican: () => speakcottonwools1("en-US"),
           ),

@@ -23,14 +23,10 @@ class _EnglishEntrydegradationState extends State<EnglishEntrydegradation> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -248,7 +244,8 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) دۆخێک کە تێیدا کەسێک وای لێ دەکرێت ھەموو ڕێز و بەھایەکی لەدەست بدات"),
           SentencesRow(
             englishText: "Prisoners face degradation through harsh treatment.",
-            kurdishText: "زیندانییەکان ڕووبەڕووی سووکایەتی دەبنەوە بە مامەڵەی توند لەگەڵیان.",
+            kurdishText:
+                "زیندانییەکان ڕووبەڕووی سووکایەتی دەبنەوە بە مامەڵەی توند لەگەڵیان.",
             onPressedBritish: () => speakdegradations1("en-GB"),
             onPressedAmerican: () => speakdegradations1("en-US"),
           ),

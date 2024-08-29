@@ -22,14 +22,10 @@ class _EnglishEntrycornetState extends State<EnglishEntrycornet> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -238,8 +234,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئامێرێکی میوزیکی کە وەک زوڕنا"),
           SentencesRow(
             englishText: "She learned to play the cornet in her school band.",
-            kurdishText:
-                "فێری ژەنینی کۆرنێت بوو لە باندی قوتابخانەکەیەوە.",
+            kurdishText: "فێری ژەنینی کۆرنێت بوو لە باندی قوتابخانەکەیەوە.",
             onPressedBritish: () => speakcornets1("en-GB"),
             onPressedAmerican: () => speakcornets1("en-US"),
           ),

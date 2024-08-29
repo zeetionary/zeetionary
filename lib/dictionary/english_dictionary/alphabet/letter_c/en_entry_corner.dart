@@ -22,14 +22,10 @@ class _EnglishEntrycornerState extends State<EnglishEntrycorner> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -406,8 +402,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بەشێکی شتێک کە دوو خاڵ یان ھێڵ تێیدا بە یەکدی دەگەن"),
           SentencesRow(
             englishText: "I hit my knee on the corner of the table.",
-            kurdishText:
-                "لاقم کێشا بە سووچی مێزەکەدا.",
+            kurdishText: "لاقم کێشا بە سووچی مێزەکەدا.",
             onPressedBritish: () => speakcorners1("en-GB"),
             onPressedAmerican: () => speakcorners1("en-US"),
           ),

@@ -102,7 +102,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The graph shows how house prices have risen since the 1980s.""");
+    await flutterTts.speak(
+        """The graph shows how house prices have risen since the 1980s.""");
   }
 
   @override
@@ -114,10 +115,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -130,7 +128,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -168,7 +165,9 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "graph", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ھێلکارییەک کە ھێڵێک یان یان زیاتری تێدایە و پیشانی دەدات چۆن ژمارەیەک ژمارە پەیوەندیدارن بە یەکەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ھێلکارییەک کە ھێڵێک یان یان زیاتری تێدایە و پیشانی دەدات چۆن ژمارەیەک ژمارە پەیوەندیدارن بە یەکەوە"""),
                     SentencesRow(
                       englishText: """Plot a graph of height against age.""",
                       kurdishText: """ھیڵکارییەکی بەرزی دژ بە تەمەن بکێشە.""",
@@ -177,8 +176,10 @@ ${englishMeaningConst.text}
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The graph shows how house prices have risen since the 1980s.""",
-                      kurdishText: """گرافەکە ئەوە پیشان دەدات چۆن نرخی خانوو لە ١٩٨٠ ـیەکانەوە بەرزبووەتەوە.""",
+                      englishText:
+                          """The graph shows how house prices have risen since the 1980s.""",
+                      kurdishText:
+                          """گرافەکە ئەوە پیشان دەدات چۆن نرخی خانوو لە ١٩٨٠ ـیەکانەوە بەرزبووەتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

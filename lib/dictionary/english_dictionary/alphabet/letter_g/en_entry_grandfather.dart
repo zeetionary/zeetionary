@@ -10,7 +10,8 @@ class EnglishEntrygrandfather extends StatefulWidget {
   const EnglishEntrygrandfather({super.key});
 
   @override
-  State<EnglishEntrygrandfather> createState() => _EnglishEntrygrandfatherState();
+  State<EnglishEntrygrandfather> createState() =>
+      _EnglishEntrygrandfatherState();
 }
 
 class _EnglishEntrygrandfatherState extends State<EnglishEntrygrandfather> {
@@ -96,7 +97,8 @@ Usage: N. Amer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Her grandfather on her mother's side was Italian.""");
+    await flutterTts
+        .speak("""Her grandfather on her mother's side was Italian.""");
   }
 
   @override
@@ -108,10 +110,7 @@ Usage: N. Amer
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -124,7 +123,6 @@ Usage: N. Amer
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -161,16 +159,19 @@ Usage: N. Amer
                     const KurdishVocabulary(text: """
 کوردی: بابەگەورە، باوکەگەورە، باپیر
 """),
-                    const DefinitionKurdish(text: """١. (ناو) باوکی دایکت یان باوکت"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) باوکی دایکت یان باوکت"""),
                     SentencesRow(
-                      englishText: """The firm had been founded by his grandfather.""",
+                      englishText:
+                          """The firm had been founded by his grandfather.""",
                       kurdishText: """کۆمپانیاکە لەلایەن باپیری دامەزرابوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Her grandfather on her mother's side was Italian.""",
+                      englishText:
+                          """Her grandfather on her mother's side was Italian.""",
                       kurdishText: """باپیری لە دایکییەوە ئیتالی بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),

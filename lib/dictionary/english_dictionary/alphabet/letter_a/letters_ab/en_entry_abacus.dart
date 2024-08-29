@@ -99,14 +99,12 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: "abacus",
+                      // alsoEnglishWord: "also: abacus",
                       britshText: "IpaUK: /ˈæbəkəs/",
                       americanText: "IpaUS: /ˈæbəkəs/",
                       onPressedBritish: () => speakabacus("en-GB"),
@@ -114,7 +112,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),

@@ -103,10 +103,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -119,7 +116,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -157,10 +153,14 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "grandstand", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) جێگای سەرەکی تەماشاکارانی بۆنەیەکی وەرزشی کە باشترین دیمەنی ھەیە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) جێگای سەرەکی تەماشاکارانی بۆنەیەکی وەرزشی کە باشترین دیمەنی ھەیە"""),
                     SentencesRow(
-                      englishText: """The game was played to a packed grandstand.""",
-                      kurdishText: """یارییەکە ئەنجام درا لە پێش سەکۆیەکی پڕ لە بینەر.""",
+                      englishText:
+                          """The game was played to a packed grandstand.""",
+                      kurdishText:
+                          """یارییەکە ئەنجام درا لە پێش سەکۆیەکی پڕ لە بینەر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

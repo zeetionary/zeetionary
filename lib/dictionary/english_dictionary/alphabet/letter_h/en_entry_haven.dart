@@ -87,7 +87,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The hotel is a haven of peace and tranquillity.""");
+    await flutterTts
+        .speak("""The hotel is a haven of peace and tranquillity.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -932,10 +933,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -948,7 +946,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -986,9 +983,12 @@ ${englishMeaningConst.text}
 کوردی: پەناگە، پەنا، جێ‌پەنا، لانە، پەرێز، داڵدە،	بەندەرگا، بەندەر، لەنگەرگا، بەندەری چکۆلە
 """),
 // With short examples define "haven", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شوێنێک کە سەلامەتە و خەڵکی و ئاژەڵ تێیدا پارێزراون"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شوێنێک کە سەلامەتە و خەڵکی و ئاژەڵ تێیدا پارێزراون"""),
                     SentencesRow(
-                      englishText: """The hotel is a haven of peace and tranquillity.""",
+                      englishText:
+                          """The hotel is a haven of peace and tranquillity.""",
                       kurdishText: """هۆتێلەکە شوێنێکی ئارام و هێمنە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
@@ -997,8 +997,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The river banks are a haven for wildlife.""",
-                      kurdishText: """کەنارەکانی ڕووبارەکە پەناگەی ئاژەڵی کێوین.""",
+                      englishText:
+                          """The river banks are a haven for wildlife.""",
+                      kurdishText:
+                          """کەنارەکانی ڕووبارەکە پەناگەی ئاژەڵی کێوین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

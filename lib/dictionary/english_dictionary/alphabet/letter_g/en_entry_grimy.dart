@@ -99,10 +99,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -115,7 +112,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -155,7 +151,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) چڵکن"""),
                     const AlsoEnglishckb(word: "ھەروەھا: dirty"),
                     SentencesRow(
-                      englishText: """His clothes were grimy and bloodstained.""",
+                      englishText:
+                          """His clothes were grimy and bloodstained.""",
                       kurdishText: """جلەکانی چڵکن و خوێناوی بوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),

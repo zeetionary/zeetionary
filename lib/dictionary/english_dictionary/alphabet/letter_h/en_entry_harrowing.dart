@@ -100,7 +100,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""You've had a harrowing experience and a lucky escape.""");
+    await flutterTts
+        .speak("""You've had a harrowing experience and a lucky escape.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -931,10 +932,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -947,7 +945,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -985,7 +982,9 @@ ${englishMeaningConst.text}
 کوردی: جەرگبڕ، ناخۆش، تاڵ، دڵتەزێن، بەسوێ
 """),
 // With short examples define "harrowing", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە زۆر بێزارت دەکات بەهۆی ئەوەی زۆر ترساویت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە زۆر بێزارت دەکات بەهۆی ئەوەی زۆر ترساویت"""),
                     SentencesRow(
                       englishText: """The book makes harrowing reading.""",
                       kurdishText: """کتێبەکە خوێندنەوە تاڵ دەکات.""",
@@ -996,7 +995,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The whole thing was very harrowing for her.""",
+                      englishText:
+                          """The whole thing was very harrowing for her.""",
                       kurdishText: """تەواوی شتەکە جەرگبڕ بوو بۆی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
@@ -1005,8 +1005,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """You've had a harrowing experience and a lucky escape.""",
-                      kurdishText: """ئەزموونێکی جەرگبڕ و ڕزگاربوونێکی بەبەختانەت هەبوو.""",
+                      englishText:
+                          """You've had a harrowing experience and a lucky escape.""",
+                      kurdishText:
+                          """ئەزموونێکی جەرگبڕ و ڕزگاربوونێکی بەبەختانەت هەبوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

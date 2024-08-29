@@ -138,35 +138,40 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The gallery had its grand opening on 18 January.""");
+    await flutterTts
+        .speak("""The gallery had its grand opening on 18 January.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""New Yorkers built their city on a grand scale.""");
+    await flutterTts
+        .speak("""New Yorkers built their city on a grand scale.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The film won the grand prize at the Berlin Film Festival.""");
+    await flutterTts
+        .speak("""The film won the grand prize at the Berlin Film Festival.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Tomorrow is the grand final with just 12 contestants left from the hundreds who entered.""");
+    await flutterTts.speak(
+        """Tomorrow is the grand final with just 12 contestants left from the hundreds who entered.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They're all Lord or Lady somebody, but they're not at all grand.""");
+    await flutterTts.speak(
+        """They're all Lord or Lady somebody, but they're not at all grand.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
@@ -199,10 +204,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -215,7 +217,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -252,77 +253,97 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گەورە، مەزن، کەڵنگ، بەشکۆ، شکۆمەند،	زۆرچاک، یەکجار باش،	ھەرەگەورە، گەورە،	سەرەکی، گرنگ، بەرکەفتی،	گشت، ھەموو،	بەرین، بەربڵاو،	خۆپێ‌زلانە،	(ماف) ڕشت
 """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) سەرنجڕاکێش و گەورە یان گرنگ"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) سەرنجڕاکێش و گەورە یان گرنگ"""),
                     SentencesRow(
                       englishText: """It's not a very grand house.""",
                       kurdishText: """خانوویەکی زۆر گەورە نییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The wedding was a very grand occasion.""",
-                      kurdishText: """ئاھەنگە ھاوسەرگیرییەکە بۆنەیەکی زۆر بەشکۆ بوو.""",
+                      kurdishText:
+                          """ئاھەنگە ھاوسەرگیرییەکە بۆنەیەکی زۆر بەشکۆ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The Palace of Versailles is very grand.""",
+                      englishText:
+                          """The Palace of Versailles is very grand.""",
                       kurdishText: """کۆشكی ڤێرسای زۆر بەشکۆیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) لە ناوی بینا، ھتد ــی سەرنجڕاکێش یان زۆر گەورە بەکاردێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) لە ناوی بینا، ھتد ــی سەرنجڕاکێش یان زۆر گەورە بەکاردێت"""),
                     SentencesRow(
                       englishText: """We stayed at the Grand Hotel.""",
                       kurdishText: """لە ھوتێلە گەورەکە ماینەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
-
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە پێویستی بە ھەوڵ، پارە، و کاتی زۆر ھەیە بۆ سەرکەوتن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە پێویستی بە ھەوڵ، پارە، و کاتی زۆر ھەیە بۆ سەرکەوتن"""),
                     SentencesRow(
-                      englishText: """The gallery had its grand opening on 18 January.""",
-                      kurdishText: """پێشانگاکە کرانەوە شکۆدارەکەی لە ١٨ ــی کانوونی دووەم.""",
+                      englishText:
+                          """The gallery had its grand opening on 18 January.""",
+                      kurdishText:
+                          """پێشانگاکە کرانەوە شکۆدارەکەی لە ١٨ ــی کانوونی دووەم.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """New Yorkers built their city on a grand scale.""",
-                      kurdishText: """نیویۆرکییەکان شارەکەیان لەسەر ئاستێکی مەزن درووست کرد.""",
+                      englishText:
+                          """New Yorkers built their city on a grand scale.""",
+                      kurdishText:
+                          """نیویۆرکییەکان شارەکەیان لەسەر ئاستێکی مەزن درووست کرد.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (ھاوەڵناو) بەکاردێت بۆ باسکردنی شتێک کە گرنگترین یان گەورەترینە لەناو جۆرەکەی خۆیدا"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ھاوەڵناو) بەکاردێت بۆ باسکردنی شتێک کە گرنگترین یان گەورەترینە لەناو جۆرەکەی خۆیدا"""),
                     SentencesRow(
-                      englishText: """The film won the grand prize at the Berlin Film Festival.""",
-                      kurdishText: """فیلمەکە باڵاترین خەڵاتی فیستیڤاڵی فیلمی بەرلینی بردەوە.""",
+                      englishText:
+                          """The film won the grand prize at the Berlin Film Festival.""",
+                      kurdishText:
+                          """فیلمەکە باڵاترین خەڵاتی فیستیڤاڵی فیلمی بەرلینی بردەوە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Tomorrow is the grand final with just 12 contestants left from the hundreds who entered.""",
-                      kurdishText: """سبەی یاری گرنگی کۆتاییە بە تەنھا ١٢ ڕکابەر لە کۆی ئەو سەدان کەسەی بەژدارییان کرد.""",
+                      englishText:
+                          """Tomorrow is the grand final with just 12 contestants left from the hundreds who entered.""",
+                      kurdishText:
+                          """سبەی یاری گرنگی کۆتاییە بە تەنھا ١٢ ڕکابەر لە کۆی ئەو سەدان کەسەی بەژدارییان کرد.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (ھاوەڵناو) ڕەفتارکردن بە شکۆوە بەھۆی ئەوەی سەر بە ئاستی باڵان"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (ھاوەڵناو) ڕەفتارکردن بە شکۆوە بەھۆی ئەوەی سەر بە ئاستی باڵان"""),
                     SentencesRow(
-                      englishText: """They're all Lord or Lady somebody, but they're not at all grand.""",
-                      kurdishText: """ھەموویان فڵان بەڕێز یان خاتوونن، بەڵام کەسانی زۆر گرنگ نین.""",
+                      englishText:
+                          """They're all Lord or Lady somebody, but they're not at all grand.""",
+                      kurdishText:
+                          """ھەموویان فڵان بەڕێز یان خاتوونن، بەڵام کەسانی زۆر گرنگ نین.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (ھاوەڵناو) کە زۆر باش یان نایاب دەبێت"""),
+                    const DefinitionKurdish(
+                        text: """٦. (ھاوەڵناو) کە زۆر باش یان نایاب دەبێت"""),
                     SentencesRow(
                       englishText: """Thanks. That'll be grand!""",
                       kurdishText: """سوپاس. ئەوە نایاب دەبێت!""",
@@ -331,13 +352,16 @@ ${englishMeaningConst.text}
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Fred did a grand job of painting the house.""",
-                      kurdishText: """فرێد ئیشێکی نایابی کردنی لە بۆیەکردنی خانووەکە.""",
+                      englishText:
+                          """Fred did a grand job of painting the house.""",
+                      kurdishText:
+                          """فرێد ئیشێکی نایابی کردنی لە بۆیەکردنی خانووەکە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (ناو) ١٠٠٠ پاوەند یان دۆلار"""),
+                    const DefinitionKurdish(
+                        text: """٧. (ناو) ١٠٠٠ پاوەند یان دۆلار"""),
                     SentencesRow(
                       englishText: """It'll cost you five grand!""",
                       kurdishText: """ئەوە پێنج ھەزار دەکەوێت لەسەرت!""",

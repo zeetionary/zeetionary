@@ -92,7 +92,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Green belt development is carefully regulated.""");
+    await flutterTts
+        .speak("""Green belt development is carefully regulated.""");
   }
 
   @override
@@ -104,10 +105,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -120,7 +118,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -158,17 +155,22 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "green belt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ناوچەیەکی کراوە بە دەوری شارێکدا کە تێیدا کۆنترۆڵی توند ھەیە لەسەر بنیاتنانی نیشتەجێبوون"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ناوچەیەکی کراوە بە دەوری شارێکدا کە تێیدا کۆنترۆڵی توند ھەیە لەسەر بنیاتنانی نیشتەجێبوون"""),
                     SentencesRow(
-                      englishText: """New roads are cutting into the green belt.""",
+                      englishText:
+                          """New roads are cutting into the green belt.""",
                       kurdishText: """ڕێگای تازە بە پشتێنەی شاردا تێدەپەڕن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Green belt development is carefully regulated.""",
-                      kurdishText: """بنیاتنان لە پشتێنەی شار بە وریاییەوە ڕێکدەخرێت.""",
+                      englishText:
+                          """Green belt development is carefully regulated.""",
+                      kurdishText:
+                          """بنیاتنان لە پشتێنەی شار بە وریاییەوە ڕێکدەخرێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

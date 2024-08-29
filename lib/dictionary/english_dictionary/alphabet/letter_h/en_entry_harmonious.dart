@@ -93,14 +93,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""There is a harmonious alliance between management and workers in the company.""");
+    await flutterTts.speak(
+        """There is a harmonious alliance between management and workers in the company.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""All the buildings on the campus are architecturally harmonious.""");
+    await flutterTts.speak(
+        """All the buildings on the campus are architecturally harmonious.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -938,10 +940,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -954,7 +953,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -992,19 +990,27 @@ ${englishMeaningConst.text}
 کوردی: ڕێک‌وپێک، لێک‌هاتوو، پێک‌خواردوو، پێکەوەگونجاو، پێکەوەکارکردوو، ڕێک‌کەوتوو، یەک‌کەوتوو، کۆک، سازاو، گونجاو، هاوگونجاو
 """),
 // With short examples define "harmonious", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) بە دۆستانە و ئاشتییانە؛ بەبێ مشتومڕ"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) بە دۆستانە و ئاشتییانە؛ بەبێ مشتومڕ"""),
                     SentencesRow(
-                      englishText: """There is a harmonious alliance between management and workers in the company.""",
-                      kurdishText: """یەکگرتووی ڕێک‌وپێک هەیە لە نێوان بەڕێوەبەرایەتی و کۆمپانیاکە.""",
+                      englishText:
+                          """There is a harmonious alliance between management and workers in the company.""",
+                      kurdishText:
+                          """یەکگرتووی ڕێک‌وپێک هەیە لە نێوان بەڕێوەبەرایەتی و کۆمپانیاکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە بە شێوەیەک ڕێکخراون کە پێکەوە دەگونجێن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە بە شێوەیەک ڕێکخراون کە پێکەوە دەگونجێن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """All the buildings on the campus are architecturally harmonious.""",
-                      kurdishText: """هەموو بیناکانی سەر کامپەکە لە ڕووی تەلارسازییەوە پێکەوەگونجاون.""",
+                      englishText:
+                          """All the buildings on the campus are architecturally harmonious.""",
+                      kurdishText:
+                          """هەموو بیناکانی سەر کامپەکە لە ڕووی تەلارسازییەوە پێکەوەگونجاون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

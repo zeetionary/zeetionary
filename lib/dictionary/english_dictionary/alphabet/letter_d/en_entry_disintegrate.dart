@@ -23,14 +23,10 @@ class _EnglishEntrydisintegrateState extends State<EnglishEntrydisintegrate> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -253,8 +249,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (کردار) پارچەپارچەبوون و لەناوچوون"),
           SentencesRow(
             englishText: "The plane disintegrated as it fell into the sea.",
-            kurdishText:
-                "فڕۆکەکە پارچەپارچە بوو کە کەوتە ناو دەریاکەوە.",
+            kurdishText: "فڕۆکەکە پارچەپارچە بوو کە کەوتە ناو دەریاکەوە.",
             onPressedBritish: () => speakdisintegrates1("en-GB"),
             onPressedAmerican: () => speakdisintegrates1("en-US"),
           ),

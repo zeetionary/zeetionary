@@ -22,14 +22,10 @@ class _EnglishEntrycrackerState extends State<EnglishEntrycracker> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -238,8 +234,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) بسکیتێکی باریکی وشک کە زۆرجار شۆرە و لەگەڵ پەنیردا دەخورێت"),
           SentencesRow(
             englishText: "We were offered cheese and crackers with our drinks.",
-            kurdishText:
-                "لەگەڵ خواردنەوەکانمان بسکیتی سوێرمان پێدرا.",
+            kurdishText: "لەگەڵ خواردنەوەکانمان بسکیتی سوێرمان پێدرا.",
             onPressedBritish: () => speakcrackers1("en-GB"),
             onPressedAmerican: () => speakcrackers1("en-US"),
           ),

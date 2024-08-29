@@ -94,7 +94,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He purchased a haunch of venison from the local butcher.""");
+    await flutterTts
+        .speak("""He purchased a haunch of venison from the local butcher.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -932,10 +933,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -948,7 +946,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -986,19 +983,27 @@ ${englishMeaningConst.text}
 کوردی: سمت، کڵۆت، پاشەڵ، کنگ، کەفەڵ،	(گۆشت) ڕان
 """),
 // With short examples define "haunch", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) بەشی سەرەوەی لاق و سمت؛ ئەم بەشەی ئاژەڵێک کە چوار لاقی هەیە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەشی سەرەوەی لاق و سمت؛ ئەم بەشەی ئاژەڵێک کە چوار لاقی هەیە"""),
                     SentencesRow(
-                      englishText: """She patted the horse's glossy black haunch.""",
-                      kurdishText: """کێشای بە سمتی ڕەش و بریقەداری ئەسپەکەدا.""",
+                      englishText:
+                          """She patted the horse's glossy black haunch.""",
+                      kurdishText:
+                          """کێشای بە سمتی ڕەش و بریقەداری ئەسپەکەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) گۆشتی لاقی دواوەی ئەسپێک لەگەڵ بەشێک لە نزیکی کلکی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) گۆشتی لاقی دواوەی ئەسپێک لەگەڵ بەشێک لە نزیکی کلکی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He purchased a haunch of venison from the local butcher.""",
-                      kurdishText: """ڕانی ئاسکێکی کڕی لە قەسابخانە لۆکاڵییەکە.""",
+                      englishText:
+                          """He purchased a haunch of venison from the local butcher.""",
+                      kurdishText:
+                          """ڕانی ئاسکێکی کڕی لە قەسابخانە لۆکاڵییەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

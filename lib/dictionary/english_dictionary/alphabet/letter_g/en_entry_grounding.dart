@@ -100,10 +100,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -116,7 +113,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -153,7 +149,8 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ناو) فێرکردنی بنچینەکانی بابەتێک"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) فێرکردنی بنچینەکانی بابەتێک"""),
                     SentencesRow(
                       englishText: """He has a good grounding in grammar.""",
                       kurdishText: """تێگەشتنی بنچینەیی باشی ڕێزمانی ھەبوو.""",

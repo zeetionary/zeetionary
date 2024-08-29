@@ -108,10 +108,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -124,7 +121,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -162,7 +158,9 @@ ${englishMeaningConst.text}
 کوردی: بە سەختی، بە توندی، سەخت، زۆر خراپ یا شپرزە
 """),
 // With short examples define "gravely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە جدی و گرنگی؛ بەوەی کە وات لێ دەکات نیگەران بیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە جدی و گرنگی؛ بەوەی کە وات لێ دەکات نیگەران بیت"""),
                     SentencesRow(
                       englishText: """She is gravely ill.""",
                       kurdishText: """بە جدی نەخۆشە.""",

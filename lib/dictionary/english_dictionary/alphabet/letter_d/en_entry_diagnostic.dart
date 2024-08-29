@@ -22,14 +22,10 @@ class _EnglishEntrydiagnosticState extends State<EnglishEntrydiagnostic> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -250,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
                 "Get a low-cost car diagnostic tool to identify the fault.",
             kurdishText:
                 "ئامرازێکی ھەرزانی کێشەدۆزی ئۆتۆمبێل بکڕە بۆ زانینی کێشەکە.",
-                            onPressedBritish: () => speakdiagnostics1("en-GB"),
+            onPressedBritish: () => speakdiagnostics1("en-GB"),
             onPressedAmerican: () => speakdiagnostics1("en-US"),
           ),
           const DividerSentences(),

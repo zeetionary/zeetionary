@@ -89,14 +89,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Keep plants healthy by regularly removing any dust and grime from their leaves.""");
+    await flutterTts.speak(
+        """Keep plants healthy by regularly removing any dust and grime from their leaves.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Over the years, the painting has become covered in a thick layer of grime""");
+    await flutterTts.speak(
+        """Over the years, the painting has become covered in a thick layer of grime""");
   }
 
   @override
@@ -108,10 +110,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -124,7 +123,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -161,18 +159,24 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پیسی، چڵکنی، ڕەشی، دوکەڵاوی‌بوون
 """),
-                    const DefinitionKurdish(text: """١. (ناو) پیسی کە لەسەر ڕووی شتێک درووست دەبێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پیسی کە لەسەر ڕووی شتێک درووست دەبێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: dirt"),
                     SentencesRow(
-                      englishText: """Keep plants healthy by regularly removing any dust and grime from their leaves.""",
-                      kurdishText: """ڕووەکەکان بە تەندرووست بھێڵەوە بەوەی بەردەوام ھەر تۆز و چڵکێک لەسەری بسڕیتەوە.""",
+                      englishText:
+                          """Keep plants healthy by regularly removing any dust and grime from their leaves.""",
+                      kurdishText:
+                          """ڕووەکەکان بە تەندرووست بھێڵەوە بەوەی بەردەوام ھەر تۆز و چڵکێک لەسەری بسڕیتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Over the years, the painting has become covered in a thick layer of grime""",
-                      kurdishText: """بە تێپەڕبوونی کات، تابلۆکە داپۆشرابوو بە چینێکی ئەستوور لە چڵک.""",
+                      englishText:
+                          """Over the years, the painting has become covered in a thick layer of grime""",
+                      kurdishText:
+                          """بە تێپەڕبوونی کات، تابلۆکە داپۆشرابوو بە چینێکی ئەستوور لە چڵک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

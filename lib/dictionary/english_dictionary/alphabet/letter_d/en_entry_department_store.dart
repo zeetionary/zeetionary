@@ -24,14 +24,10 @@ class _EnglishEntrydepartmentstoreState
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -232,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) فرۆشگایەکی گەورە کە بەسەر چەندین بەشدا دابەش بووە"),
           SentencesRow(
             englishText: "The department store downtown has three floors.",
-            kurdishText:
-                "فرۆشگاکەی ناوجەرگەی شار سێ نھۆمی ھەیە.",
+            kurdishText: "فرۆشگاکەی ناوجەرگەی شار سێ نھۆمی ھەیە.",
             onPressedBritish: () => speakdepartmentstores1("en-GB"),
             onPressedAmerican: () => speakdepartmentstores1("en-US"),
           ),

@@ -113,10 +113,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -129,7 +126,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -166,7 +162,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئامادەکاری، کارە سەرەتایی‌یەکان، بنەڕەت، بنگەھـ
 """),
-                    const DefinitionKurdish(text: """١. (ناو) کاری ئامادەکاری بۆ شتێک کە دواتر ڕوودەات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کاری ئامادەکاری بۆ شتێک کە دواتر ڕوودەات"""),
                     SentencesRow(
                       englishText:
                           """Officials are laying the groundwork for a summit conference of world leaders.""",

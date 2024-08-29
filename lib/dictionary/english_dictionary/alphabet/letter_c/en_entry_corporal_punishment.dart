@@ -24,14 +24,10 @@ class _EnglishEntrycorporalpunishmentState
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -232,8 +228,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "Many schools have banned the use of corporal punishment.",
-            kurdishText:
-                "زۆر قوتابخانە سزای جەستەییان قەدەغە کردووە.",
+            kurdishText: "زۆر قوتابخانە سزای جەستەییان قەدەغە کردووە.",
             onPressedBritish: () => speakcorporalpunishments1("en-GB"),
             onPressedAmerican: () => speakcorporalpunishments1("en-US"),
           ),

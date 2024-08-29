@@ -97,7 +97,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Passers-by grappled with the man after the attack.""");
+    await flutterTts
+        .speak("""Passers-by grappled with the man after the attack.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -111,14 +112,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The new government has yet to grapple with the problem of air pollution.""");
+    await flutterTts.speak(
+        """The new government has yet to grapple with the problem of air pollution.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was grappling to find an answer to his question.""");
+    await flutterTts
+        .speak("""I was grappling to find an answer to his question.""");
   }
 
   @override
@@ -130,10 +133,7 @@ ${englishMeaningConst.text}
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
@@ -183,32 +182,43 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (کردار) گرتنی کەسێک/شتێک بە توندی و ڕووبەڕووبوونەوە یان وەستانەوە دژی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) گرتنی کەسێک/شتێک بە توندی و ڕووبەڕووبوونەوە یان وەستانەوە دژی"""),
                     SentencesRow(
-                      englishText: """Passers-by grappled with the man after the attack.""",
-                      kurdishText: """ڕێبواران ڕووبەڕووی پیاوەکە بوونەوە لە دوای ھێرشەکە.""",
+                      englishText:
+                          """Passers-by grappled with the man after the attack.""",
+                      kurdishText:
+                          """ڕێبواران ڕووبەڕووی پیاوەکە بوونەوە لە دوای ھێرشەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They managed to grapple him to the ground.""",
+                      englishText:
+                          """They managed to grapple him to the ground.""",
                       kurdishText: """توانییان بیکێشن بە زەویدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) ھەوڵدان بە سەختی بۆ دۆزینەوەی چارەسەری کێشەیەک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) ھەوڵدان بە سەختی بۆ دۆزینەوەی چارەسەری کێشەیەک"""),
                     SentencesRow(
-                      englishText: """The new government has yet to grapple with the problem of air pollution.""",
-                      kurdishText: """حکومەتە تازەکە ھێشتا تەقەڵایەتی لەگەڵ کێشەی پیسبوونی ھەوا.""",
+                      englishText:
+                          """The new government has yet to grapple with the problem of air pollution.""",
+                      kurdishText:
+                          """حکومەتە تازەکە ھێشتا تەقەڵایەتی لەگەڵ کێشەی پیسبوونی ھەوا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was grappling to find an answer to his question.""",
-                      kurdishText: """تەقەڵام بوو بۆ دۆزینەوەی وەڵامی پرسیارەکەی.""",
+                      englishText:
+                          """I was grappling to find an answer to his question.""",
+                      kurdishText:
+                          """تەقەڵام بوو بۆ دۆزینەوەی وەڵامی پرسیارەکەی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

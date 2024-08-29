@@ -395,95 +395,14 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Row(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  Expanded(
-                    child: Align(
-                      alignment: Alignment.topLeft,
-                      child: ConstantContainer(
-                        constraints: BoxConstraints(
-                          maxHeight: MediaQuery.of(context).size.height * 0.2,
-                          minHeight: MediaQuery.of(context).size.height * 0.2,
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'Total: ${correctAnswers + wrongAnswers}',
-                                style: TextStyle(
-                                  color: Colors.red,
-                                  fontSize: textSize + 1,
-                                ),
-                              ),
-                              Text(
-                                'Correct: $correctAnswers',
-                                style: TextStyle(
-                                  color: Colors.green,
-                                  fontSize: textSize + 1,
-                                ),
-                              ),
-                              Text(
-                                'Wrong: $wrongAnswers',
-                                style: TextStyle(
-                                  color: Colors.red,
-                                  fontSize: textSize + 1,
-                                ),
-                              ),
-                              ElevatedButton(
-                                style: ButtonStyle(
-                                  backgroundColor: WidgetStatePropertyAll(
-                                      Theme.of(context)
-                                          .scaffoldBackgroundColor),
-                                ),
-                                onPressed: _confirmReset,
-                                child: Text(
-                                  'Clear points',
-                                  style: TextStyle(
-                                    color: Theme.of(context).primaryColor,
-                                    fontSize: textSize + 1,
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Align(
-                    alignment: Alignment.topRight,
-                    child: ConstantContainer(
-                      constraints: BoxConstraints(
-                        maxHeight: MediaQuery.of(context).size.height * 0.2,
-                        minHeight: MediaQuery.of(context).size.height * 0.2,
-                      ),
-                      child: Center(
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 20),
-                          child: Text(
-                            '$_timeRemaining',
-                            style: TextStyle(
-                              fontSize: textSize + 1,
-                              color: Colors.red,
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 20.0),
               ConstantContainer(
+                // height: double.infinity,
                 constraints: BoxConstraints(
-                  maxHeight: MediaQuery.of(context).size.height * 0.6,
+                  maxHeight: double.infinity,
+                  // maxHeight: MediaQuery.of(context).size.height * 0.6,
                   minHeight: MediaQuery.of(context).size.height * 0.6,
                 ),
                 child: SingleChildScrollView(
@@ -536,6 +455,95 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                     ],
                   ),
                 ),
+              ),
+              const SizedBox(height: 20.0),
+              Row(
+                mainAxisSize: MainAxisSize.max,
+                // mainAxisAlignment: MainAxisAlignment.spaceAround,
+                // crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Expanded(
+                    child: Align(
+                      alignment: Alignment.topLeft,
+                      child: ConstantContainer(
+                        height: double.infinity,
+                        constraints: BoxConstraints(
+                          maxHeight: MediaQuery.of(context).size.height * 0.25,
+                          minHeight: MediaQuery.of(context).size.height * 0.2,
+                          // maxWidth: double.infinity,
+                          // maxHeight: MediaQuery.of(context).size.height * 0.2,
+                          // minHeight: MediaQuery.of(context).size.height * 0.2,
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                'Total: ${correctAnswers + wrongAnswers}',
+                                style: TextStyle(
+                                  color: Colors.red,
+                                  fontSize: textSize - 1,
+                                ),
+                              ),
+                              Text(
+                                'Correct: $correctAnswers',
+                                style: TextStyle(
+                                  color: Colors.green,
+                                  fontSize: textSize - 1,
+                                ),
+                              ),
+                              Text(
+                                'Wrong: $wrongAnswers',
+                                style: TextStyle(
+                                  color: Colors.red,
+                                  fontSize: textSize - 1,
+                                ),
+                              ),
+                              ElevatedButton(
+                                style: ButtonStyle(
+                                  backgroundColor: WidgetStatePropertyAll(
+                                      Theme.of(context)
+                                          .scaffoldBackgroundColor),
+                                ),
+                                onPressed: _confirmReset,
+                                child: Text(
+                                  'Clear points',
+                                  style: TextStyle(
+                                    color: Theme.of(context).primaryColor,
+                                    fontSize: textSize - 2,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Align(
+                    alignment: Alignment.topRight,
+                    child: ConstantContainer(
+                      constraints: BoxConstraints(
+                        maxHeight: MediaQuery.of(context).size.height * 0.25,
+                        minHeight: MediaQuery.of(context).size.height * 0.2,
+                      ),
+                      child: Center(
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
+                          child: Text(
+                            '$_timeRemaining',
+                            style: TextStyle(
+                              fontSize: textSize + 1,
+                              color: Colors.red,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),

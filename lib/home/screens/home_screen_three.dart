@@ -172,217 +172,210 @@ class MyDrawer extends StatelessWidget {
       child: ListTileTheme(
         textColor: Colors.blueAccent,
         iconColor: Colors.white,
-        child: Container(
-          constraints: BoxConstraints(
-            maxHeight: MediaQuery.of(context).size.height * 5,
-            // minHeight: MediaQuery.of(context).size.height * 0.8,
-          ),
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Column(
-                children: [
-                  Container(
-                    width: 150.0,
-                    height: 150.0,
-                    margin: const EdgeInsets.only(
-                      top: 50.0,
-                      bottom: 33.0,
-                    ),
-                    clipBehavior: Clip.antiAlias,
-                    padding: const EdgeInsets.all(1.0),
-                    decoration: BoxDecoration(
-                      color: Theme.of(context).primaryColor.withOpacity(0.01),
-                      borderRadius: BorderRadius.circular(55.0),
-                      border: Border.all(
-                        color: Theme.of(context).primaryColor.withOpacity(0.02),
-                        width: 1.0,
-                      ),
-                    ),
-                    child: Image.asset(
-                      'assets/images/google.png',
+        child: Column(
+          // mainAxisSize: MainAxisSize.max,
+          children: [
+            Column(
+              children: [
+                Container(
+                  width: 150.0,
+                  height: 130.0,
+                  margin: const EdgeInsets.only(
+                    top: 50.0,
+                    bottom: 33.0,
+                  ),
+                  clipBehavior: Clip.antiAlias,
+                  padding: const EdgeInsets.all(1.0),
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).primaryColor.withOpacity(0.01),
+                    borderRadius: BorderRadius.circular(55.0),
+                    border: Border.all(
+                      color: Theme.of(context).primaryColor.withOpacity(0.02),
+                      width: 1.0,
                     ),
                   ),
-                ],
-              ),
-              const Divider(),
-              // ListTile(
-              //   title: Text(
-              //     "Grammar",
-              //     style: TextStyle(
-              //       fontSize: 16.0,
-              //       color: Theme.of(context).primaryColor,
-              //     ),
-              //   ),
-              //   leading: Icon(
-              //     Icons.question_answer,
-              //     color: Theme.of(context).primaryColor,
-              //   ),
-              //   onTap: () {
-              //     Routemaster.of(context).push('/grammar-screen');
-              //   },
-              // ),
-              SizedBox(
-                height: 480,
-                child: SingleChildScrollView(
-                  child: Column(
-                    children: [
-                      const SizedBox(
-                        height: 5,
-                      ),
-                      ListTile(
-                        title: Text(
-                          "Q & A",
-                          style: TextStyle(
-                            fontSize: textSize + 3,
-                            color: Theme.of(context).primaryColor,
-                          ),
-                        ),
-                        leading: Icon(
-                          Icons.quiz,
-                          color: Theme.of(context).primaryColor,
-                        ),
-                        onTap: () {
-                          Routemaster.of(context).push('/english-subreddit');
-                        },
-                      ),
-                      const SizedBox(
-                        height: 5,
-                      ),
-                      // ListTile(
-                      //   title: Text(
-                      //     "Sentences",
-                      //     style: TextStyle(
-                      //       fontSize: textSize + 3,
-                      //       color: Theme.of(context).primaryColor,
-                      //     ),
-                      //   ),
-                      //   leading: Icon(
-                      //     Icons.search,
-                      //     color: Theme.of(context).primaryColor,
-                      //   ),
-                      //   onTap: () {
-                      //     Routemaster.of(context).push('/english-sentences-page');
-                      //   },
-                      // ),
-                      // const SizedBox(
-                      //   height: 5,
-                      // ),
-                      ListTile(
-                        title: Text(
-                          "Quiz",
-                          style: TextStyle(
-                            fontSize: textSize + 3,
-                            color: Theme.of(context).primaryColor,
-                          ),
-                        ),
-                        leading: Icon(
-                          Icons.quiz,
-                          color: Theme.of(context).primaryColor,
-                        ),
-                        onTap: () {
-                          Routemaster.of(context).push('/quiz-screen');
-                        },
-                      ),
-                      const SizedBox(
-                        height: 5,
-                      ),
-                      ListTile(
-                        title: Text(
-                          "TTS",
-                          style: TextStyle(
-                            fontSize: textSize + 3,
-                            color: Theme.of(context).primaryColor,
-                          ),
-                        ),
-                        leading: Icon(
-                          Icons.volume_up,
-                          color: Theme.of(context).primaryColor,
-                        ),
-                        onTap: () {
-                          Routemaster.of(context).push('/tts-screen');
-                        },
-                      ),
-                      ListTile(
-                        title: Text(
-                          "Irregular verbs",
-                          style: TextStyle(
-                            fontSize: textSize + 3,
-                            color: Theme.of(context).primaryColor,
-                          ),
-                        ),
-                        leading: Icon(
-                          Icons.volume_up,
-                          color: Theme.of(context).primaryColor,
-                        ),
-                        onTap: () {
-                          Routemaster.of(context)
-                              .push('/irregular-verbs-screen');
-                        },
-                      ),
-                    ],
+                  child: Image.asset(
+                    'assets/images/google.png',
                   ),
                 ),
-              ),
-              const Spacer(),
-              ListTile(
-                title: Text(
-                  "Settings",
-                  style: TextStyle(
-                    fontSize: textSize + 3,
-                    color: Theme.of(context).primaryColor,
-                  ),
+              ],
+            ),
+            const Divider(),
+            // ListTile(
+            //   title: Text(
+            //     "Grammar",
+            //     style: TextStyle(
+            //       fontSize: 16.0,
+            //       color: Theme.of(context).primaryColor,
+            //     ),
+            //   ),
+            //   leading: Icon(
+            //     Icons.question_answer,
+            //     color: Theme.of(context).primaryColor,
+            //   ),
+            //   onTap: () {
+            //     Routemaster.of(context).push('/grammar-screen');
+            //   },
+            // ),
+            SizedBox(
+              height: 480,
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    ListTile(
+                      title: Text(
+                        "Q & A",
+                        style: TextStyle(
+                          fontSize: textSize + 3,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                      ),
+                      leading: Icon(
+                        Icons.quiz,
+                        color: Theme.of(context).primaryColor,
+                      ),
+                      onTap: () {
+                        Routemaster.of(context).push('/english-subreddit');
+                      },
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    // ListTile(
+                    //   title: Text(
+                    //     "Sentences",
+                    //     style: TextStyle(
+                    //       fontSize: textSize + 3,
+                    //       color: Theme.of(context).primaryColor,
+                    //     ),
+                    //   ),
+                    //   leading: Icon(
+                    //     Icons.search,
+                    //     color: Theme.of(context).primaryColor,
+                    //   ),
+                    //   onTap: () {
+                    //     Routemaster.of(context).push('/english-sentences-page');
+                    //   },
+                    // ),
+                    // const SizedBox(
+                    //   height: 5,
+                    // ),
+                    ListTile(
+                      title: Text(
+                        "Quiz",
+                        style: TextStyle(
+                          fontSize: textSize + 3,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                      ),
+                      leading: Icon(
+                        Icons.quiz,
+                        color: Theme.of(context).primaryColor,
+                      ),
+                      onTap: () {
+                        Routemaster.of(context).push('/quiz-screen');
+                      },
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    ListTile(
+                      title: Text(
+                        "TTS",
+                        style: TextStyle(
+                          fontSize: textSize + 3,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                      ),
+                      leading: Icon(
+                        Icons.volume_up,
+                        color: Theme.of(context).primaryColor,
+                      ),
+                      onTap: () {
+                        Routemaster.of(context).push('/tts-screen');
+                      },
+                    ),
+                    ListTile(
+                      title: Text(
+                        "Irregular verbs",
+                        style: TextStyle(
+                          fontSize: textSize + 3,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                      ),
+                      leading: Icon(
+                        Icons.volume_up,
+                        color: Theme.of(context).primaryColor,
+                      ),
+                      onTap: () {
+                        Routemaster.of(context).push('/irregular-verbs-screen');
+                      },
+                    ),
+                  ],
                 ),
-                leading: Icon(
-                  Icons.settings,
+              ),
+            ),
+            const Spacer(),
+            ListTile(
+              title: Text(
+                "Settings",
+                style: TextStyle(
+                  fontSize: textSize + 3,
                   color: Theme.of(context).primaryColor,
                 ),
-                onTap: () {
-                  Routemaster.of(context).push('/settings-screen');
-                },
               ),
-              // ListTile(
-              //   title: Text(
-              //     'Log out',
-              //     style: TextStyle(
-              //       fontSize: textSize + 3,
-              //       color: Pallete.redColor,
-              //     ),
-              //   ),
-              //   leading: Icon(
-              //     Icons.logout,
-              //     color: Pallete.redColor,
-              //   ),
-              //   onTap: () => logOut(ref),
-              // ),
-              // Add more ListTile widgets as needed
-              DefaultTextStyle(
-                style: const TextStyle(
-                  fontSize: 12,
-                  color: Colors.white54,
+              leading: Icon(
+                Icons.settings,
+                color: Theme.of(context).primaryColor,
+              ),
+              onTap: () {
+                Routemaster.of(context).push('/settings-screen');
+              },
+            ),
+            // ListTile(
+            //   title: Text(
+            //     'Log out',
+            //     style: TextStyle(
+            //       fontSize: textSize + 3,
+            //       color: Pallete.redColor,
+            //     ),
+            //   ),
+            //   leading: Icon(
+            //     Icons.logout,
+            //     color: Pallete.redColor,
+            //   ),
+            //   onTap: () => logOut(ref),
+            // ),
+            // Add more ListTile widgets as needed
+            DefaultTextStyle(
+              style: const TextStyle(
+                fontSize: 12,
+                color: Colors.white54,
+              ),
+              child: Container(
+                margin: const EdgeInsets.symmetric(
+                  vertical: 16.0,
                 ),
-                child: Container(
-                  margin: const EdgeInsets.symmetric(
-                    vertical: 16.0,
-                  ),
-                  child: Text(
-                    "Dictionary",
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Theme.of(context).primaryColor.withOpacity(0.3),
-                    ),
+                child: Text(
+                  "Dictionary",
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: Theme.of(context).primaryColor.withOpacity(0.3),
                   ),
                 ),
               ),
-              // const Divider(),
-              // Switch.adaptive(
-              //   value: ref.watch(themeNotifierProvider.notifier).mode ==
-              //       ThemeMode.dark,
-              //   onChanged: (val) => toggleTheme(ref),
-              // ),
-              // const SizedBox(height: 20),
-            ],
-          ),
+            ),
+            // const Divider(),
+            // Switch.adaptive(
+            //   value: ref.watch(themeNotifierProvider.notifier).mode ==
+            //       ThemeMode.dark,
+            //   onChanged: (val) => toggleTheme(ref),
+            // ),
+            // const SizedBox(height: 20),
+          ],
         ),
       ),
     );

@@ -211,6 +211,7 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
 class ConstantContainer extends StatelessWidget {
   final Widget child;
   final EdgeInsetsGeometry? padding; // Optional padding for the Container
+  final EdgeInsetsGeometry? margin; // Optional margin for the Container
   final double? height; // Optional height for the Container
   final double? width; // Optional width for the Container
   final BoxConstraints? constraints; // Optional constraints for the Container
@@ -219,6 +220,7 @@ class ConstantContainer extends StatelessWidget {
     super.key,
     required this.child,
     this.padding,
+    this.margin,
     this.height,
     this.width,
     this.constraints,
@@ -228,6 +230,7 @@ class ConstantContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: padding, // Apply the padding if provided
+      margin: margin, // Apply the margin if provided
       height: height, // Apply the height if provided
       width: width, // Apply the width if provided
       constraints: constraints, // Apply the constraints if provided
@@ -1216,6 +1219,31 @@ class ListViewSeparator extends StatelessWidget {
 
 // // decoration and animation https://chat.openai.com/c/34cd41ff-6232-4eb7-9c26-e00b688e867b
 
+class CustomSliverAppBar extends StatelessWidget {
+  final double expandedHeight;
+  final Widget flexibleSpace;
+  final PreferredSizeWidget bottom;
+
+  const CustomSliverAppBar({
+    super.key,
+    required this.flexibleSpace,
+    required this.bottom,
+    this.expandedHeight = 220.0,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SliverAppBar(
+      pinned: true,
+      floating: true,
+      expandedHeight: expandedHeight,
+      automaticallyImplyLeading: false,
+      flexibleSpace: flexibleSpace,
+      bottom: bottom,
+    );
+  }
+}
+
 class EntryPageColumn extends StatelessWidget {
   final String word;
   final String? alsoEnglishWord;
@@ -1584,7 +1612,7 @@ class KurdishVocabulary extends ConsumerWidget {
               Padding(
                 padding: const EdgeInsets.only(
                   left: 1,
-                  right: 28,
+                  right: 12,
                 ),
                 child: GestureDetector(
                   // Wrap Text with GestureDetector
@@ -1703,103 +1731,47 @@ class _VocabularyExpansionTileState
 
   @override
   Widget build(BuildContext context) {
-    // final currentTheme = ref.watch(themeNotifierProvider);
     final textSize = ref.watch(textSizeProvider);
-    return Container(
-      // height: 45, // adds black and yellow lines
-      // margin: const EdgeInsets.all(1.0),
-      decoration: _isExpanded
-          // ? BoxDecoration(
-          //     color: Theme.of(context)
-          //         .scaffoldBackgroundColor
-          //         .withOpacity(0.000000002),
-          //     border: Border.all(
-          //       color: Theme.of(context)
-          //           .scaffoldBackgroundColor
-          //           .withOpacity(0.000000002),
-          //       width: 1.0,
-          //     ),
-          //   )
-          ? null
-          // ? BoxDecoration(
-          //     border: Border.all(
-          //       color: Theme.of(context).primaryColor.withOpacity(0.2),
-          //       // color: Colors.blue.withOpacity(0.9),
-          //       width: 1.0,
-          //     ),
-          //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-          //   )
-          // : BoxDecoration(
-          //     border: Border.all(
-          //       color: Theme.of(context).primaryColor.withOpacity(0.2),
-          //       // color: Colors.blue.withOpacity(0.9),
-          //       width: 1.0,
-          //     ),
-          //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-          //   ),
-          : null, // or nothing
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: [
-          InkWell(
-            onTap: () {
-              setState(() {
-                _isExpanded = !_isExpanded;
-              });
-            },
-            child: ListTile(
-              title: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  // _isExpanded
-                  //     ? Icon(
-                  //         Icons.arrow_drop_up,
-                  //         color: Colors.blue,
-                  //       )
-                  //     : Icon(Icons.arrow_drop_down),
-                  Icon(
-                    _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
-                    size: textSize + 1,
+    return Column(
+      children: [
+        InkWell(
+          onTap: () {
+            setState(() {
+              _isExpanded = !_isExpanded;
+            });
+          },
+          child: ListTile(
+            contentPadding: EdgeInsets.zero,
+            title: Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Icon(
+                  _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
+                  size: textSize + 1,
+                  color: Theme.of(context).highlightColor.withOpacity(0.9),
+                ),
+                const SizedBox(
+                  width: 8,
+                ),
+                Text(
+                  VocabularyExpansionTile.defaultTitle,
+                  textDirection: TextDirection.rtl,
+                  textAlign: TextAlign.right,
+                  style: TextStyle(
+                    fontSize: textSize + 1,
                     color: Theme.of(context).highlightColor.withOpacity(0.9),
                   ),
-                  Row(
-                    children: [
-                      Text(
-                        VocabularyExpansionTile.defaultTitle,
-                        textDirection: TextDirection.rtl,
-                        style: TextStyle(
-                          fontSize: textSize + 1, // Adjust the font size
-                          // fontWeight: FontWeight.bold, // Adjust the font weight
-                          color:
-                              Theme.of(context).highlightColor.withOpacity(0.9),
-                          // color: currentTheme
-                          //     .primaryColor, // Adjust the text color
-                        ),
-                      ),
-                      const SizedBox(
-                        width: 6,
-                      ),
-                      Icon(
-                        Icons.touch_app_outlined,
-                        color:
-                            Theme.of(context).highlightColor.withOpacity(0.9),
-                        // color: Colors.blue.withOpacity(0.9),
-                        // color: Theme.of(context).primaryColor.withOpacity(0.3),
-                        size: textSize + 5,
-                      ),
-                    ],
-                  ),
-                ],
-              ),
+                ),
+              ],
             ),
           ),
-          if (_isExpanded)
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: widget.children,
-            ),
-        ],
-      ),
+        ),
+        if (_isExpanded)
+          Column(
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: widget.children,
+          ),
+      ],
     );
   }
 }

@@ -281,10 +281,10 @@ class TagsPanel extends StatelessWidget {
           child: Column(
             children: [
               Directionality(
-                textDirection: TextDirection.rtl,
+                textDirection: TextDirection.ltr,
                 child: Text(
                   'Learn from Anglophones',
-                  textAlign: TextAlign.right,
+                  textAlign: TextAlign.left,
                   style: TextStyle(
                     color: Theme.of(context).highlightColor,
                     fontSize: textSize + 4,

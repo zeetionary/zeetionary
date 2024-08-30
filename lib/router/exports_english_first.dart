@@ -5075,20 +5075,20 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_haven.dart' show EnglishEntryhaven
 // en_entry_have_to.dart' show EnglishEntryhaveto //// ffff have to
 // en_entry_havoc.dart' show EnglishEntryhavoc
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hawk.dart' show EnglishEntryhawk
+// en_entry_hay.dart' show EnglishEntryhay
+// en_entry_hay_fever.dart' show EnglishEntryhayfever //// hay fever
+// en_entry_haystack.dart' show EnglishEntryhaystack
+// en_entry_hazard.dart' show EnglishEntryhazard
+// en_entry_hazardous.dart' show EnglishEntryhazardous
+// en_entry_haze.dart' show EnglishEntryhaze
+// en_entry_hazel.dart' show EnglishEntryhazel
+// en_entry_hazy.dart' show EnglishEntryhazy
+// en_entry_hazily.dart' show EnglishEntryhazily
+// en_entry_haziness.dart' show EnglishEntryhaziness
+// en_entry_he.dart' show EnglishEntryhe
+// en_entry_head.dart' show EnglishEntryhead
+// en_entry_headache.dart' show EnglishEntryheadache
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

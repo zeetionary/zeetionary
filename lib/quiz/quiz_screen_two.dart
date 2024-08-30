@@ -154,8 +154,11 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                     const SizedBox(height: 10),
                     Text(
                       "\"$selectedAnswer\"",
-                      style: const TextStyle(
-                          fontSize: 18.0, fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.bold,
+                        color: Theme.of(context).highlightColor,
+                      ),
                     ),
                     const SizedBox(height: 20),
                     Row(
@@ -401,8 +404,8 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
               ConstantContainer(
                 // height: double.infinity,
                 constraints: BoxConstraints(
-                  maxHeight: double.infinity,
-                  // maxHeight: MediaQuery.of(context).size.height * 0.6,
+                  // maxHeight: double.infinity,
+                  maxHeight: MediaQuery.of(context).size.height * 0.6,
                   minHeight: MediaQuery.of(context).size.height * 0.6,
                 ),
                 child: SingleChildScrollView(

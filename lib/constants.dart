@@ -1734,35 +1734,38 @@ class _VocabularyExpansionTileState
     final textSize = ref.watch(textSizeProvider);
     return Column(
       children: [
-        InkWell(
-          onTap: () {
-            setState(() {
-              _isExpanded = !_isExpanded;
-            });
-          },
-          child: ListTile(
-            contentPadding: EdgeInsets.zero,
-            title: Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                Icon(
-                  _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
-                  size: textSize + 1,
-                  color: Theme.of(context).highlightColor.withOpacity(0.9),
-                ),
-                const SizedBox(
-                  width: 8,
-                ),
-                Text(
-                  VocabularyExpansionTile.defaultTitle,
-                  textDirection: TextDirection.rtl,
-                  textAlign: TextAlign.right,
-                  style: TextStyle(
-                    fontSize: textSize + 1,
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: InkWell(
+            onTap: () {
+              setState(() {
+                _isExpanded = !_isExpanded;
+              });
+            },
+            child: ListTile(
+              contentPadding: EdgeInsets.zero,
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Icon(
+                    _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
+                    size: textSize + 1,
                     color: Theme.of(context).highlightColor.withOpacity(0.9),
                   ),
-                ),
-              ],
+                  const SizedBox(
+                    width: 8,
+                  ),
+                  Text(
+                    VocabularyExpansionTile.defaultTitle,
+                    textDirection: TextDirection.rtl,
+                    textAlign: TextAlign.right,
+                    style: TextStyle(
+                      fontSize: textSize + 1,
+                      color: Theme.of(context).highlightColor.withOpacity(0.9),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ),

@@ -552,7 +552,7 @@ final loggedOutRoute = RouteMap(routes: {
   "/grammar-screen": (_) => _blP(const GrammarScreen()),
   "/english-sentences-page": (_) => _blP(const SentencesPage()),
   "/settings-screen": (_) => _blP(const SettingsPage()),
-  // '/quiz-screen': (_) => _blP(const QuizScreen()),
+  '/quiz-screen': (_) => _blP(const QuizScreen()),
   '/irregular-verbs-screen': (_) => _blP(const IrregularVerbsScreen()),
 // '/quiz-screen': (_) => _blP(const QuizScreen(currentTheme: ThemeData.light())),
 // English dictionary starts here

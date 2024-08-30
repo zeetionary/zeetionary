@@ -344,7 +344,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("He cut himself shaving.0");
+    await flutterTts.speak("Shall I cut you a piece of cake?");
   }
 
   Future<void> speakcuts21(String languageCode) async {
@@ -417,8 +417,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("Sometimes people experiencing distress cut themselves.0");
+    await flutterTts.speak("The price has been cut from €250 to €175.");
   }
 
   Future<void> speakcuts31(String languageCode) async {
@@ -492,7 +491,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("She had fallen and cut her head open.0");
+    await flutterTts.speak("The movie was a cut by John Green.");
   }
 
   Future<void> speakcuts41(String languageCode) async {
@@ -563,7 +562,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("She picked up the knife and cut into the meat.0");
+    await flutterTts.speak("She got a bad cut over her right eye.");
   }
 
   Future<void> speakcuts51(String languageCode) async {
@@ -638,7 +637,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("You need a powerful saw to cut through metal.0");
+    await flutterTts.speak("By the time the organizers have had their cut, there won't be much left.");
   }
 
   Future<void> speakcuts61(String languageCode) async {
@@ -670,27 +669,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("Sirloin is the most expensive cut of beef.");
-  }
-
-  Future<void> speakcuts70(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("The bus was cut in two by the train.0");
-  }
-
-  Future<void> speakcuts80(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("Now cut the tomatoes in half.0");
-  }
-
-  Future<void> speakcuts90(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("He cut the loaf into thick slices.0");
   }
 
   @override

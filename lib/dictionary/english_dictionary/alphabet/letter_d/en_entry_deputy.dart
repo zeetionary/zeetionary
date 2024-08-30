@@ -226,13 +226,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("23 women were among the 77 deputies elected.");
   }
 
-  Future<void> speakdeputys20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("She was appointed deputy head of the school.0");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

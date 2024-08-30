@@ -219,13 +219,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("Sugar is the destroyer of healthy teeth.");
   }
 
-  Future<void> speakdestroyers20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("Sugar is the destroyer of healthy teeth.0");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

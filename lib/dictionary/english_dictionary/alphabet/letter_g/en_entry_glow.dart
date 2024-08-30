@@ -351,7 +351,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The fresh air had brought a healthy glow to her cheeks.""",
                       kurdishText:
-                          """ھەوا پاکەکە تووشی سوورھەڵگەڕانی گۆناکانیی کردبوو.""",
+                          """ھەوا پاکەکە سوورھەڵگەڕانی تەندرووستی دابوو بە گۆناکانی.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),

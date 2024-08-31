@@ -231,7 +231,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە لە نزیکی کەسێک/شتێکە؛ کە لە شوێنێکە ئاسان بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I always keep a Biro handy for taking notes during lectures.""",
@@ -259,7 +258,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە توانای بەکارهێنانی دەستەکانت یان ئامێرت هەیە بۆ کار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Lucy is quite handy with a drill!""",
                       kurdishText: """لووسی تەواو شارەزایە لە دریلدا.""",

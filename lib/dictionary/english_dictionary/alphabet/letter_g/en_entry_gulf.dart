@@ -163,9 +163,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gulf", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەنداوی فارس/عەرەب"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Tensions in the Gulf can affect global oil prices.""",
@@ -194,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) جیاوازی زۆر لە شێوازی ژیان، بیرکردنەوە، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The gulf between rich and poor is enormous.""",

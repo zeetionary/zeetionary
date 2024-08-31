@@ -153,9 +153,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "handheld", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە هێندە بچووکە هەڵبگیرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Handheld cameras can be used for street photography.""",

@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) فیشەک تەقاندن؛ دەنگی تەقە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I heard the sound of gunshots out in the street.""",

@@ -151,9 +151,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "handiwork", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە لە لایەن کەس یان گرووپێکی دیاریکراو، بە تایبەتی کە خراپە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This looks like the handiwork of an arsonist.""",

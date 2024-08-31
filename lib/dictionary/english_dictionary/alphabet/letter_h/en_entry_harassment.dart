@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) هێرشی بەردەوام بۆ سەر دووژمن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Guerrilla harassment can be a powerful tool for weakening enemy forces.""",

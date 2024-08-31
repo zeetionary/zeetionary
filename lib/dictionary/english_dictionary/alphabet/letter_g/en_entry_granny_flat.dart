@@ -145,9 +145,9 @@ Usage: Brit
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: 
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ژمارەیەک ژووڕ کە زۆرجار سەر بە خانووی خزمێکە و کەسێکی بەتەمەن تێیدا دەژی"""),

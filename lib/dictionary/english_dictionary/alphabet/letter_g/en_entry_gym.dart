@@ -166,9 +166,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gym", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شوێنێکی تایبەت بۆ ڕاهێنانی جەستەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I work out at the gym most days.""",
                       kurdishText:
@@ -205,7 +204,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ڕاهێنانی جەستەیی لە جیمدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I don't enjoy gym.""",
                       kurdishText: """حەزم بە ڕاهێنانی جیم نییە.""",

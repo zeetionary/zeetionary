@@ -170,9 +170,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "handsomely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە ڕێژەیەکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Their strategy paid off handsomely.""",
                       kurdishText: """ستراتژییەکەیان زۆر قازانجی بوو.""",

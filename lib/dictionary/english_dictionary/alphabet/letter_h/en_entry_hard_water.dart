@@ -143,9 +143,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئاوێک کە تێیدا هایدرۆجین گۆڕدراوەتەوە بە دیوتێریەم، و وادەکات دیوتێریەم بئۆکسێت. ئەم ئاوە لە وێستگەی ئەتۆمیدا بەکاردێت"""),

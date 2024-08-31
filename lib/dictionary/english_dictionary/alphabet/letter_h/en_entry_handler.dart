@@ -165,9 +165,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "handler", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە شت هەڵدەگرێت و مامەڵەی لەگەڵ دەکات وەک بەشێک لە کارەکەی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Baggage handlers load and unload luggage from airplanes.""",
@@ -197,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە ڕاوێژ بە کەسێکی گرنگ دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The president's handlers are telling him to pull out of the talks.""",

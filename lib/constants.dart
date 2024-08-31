@@ -673,6 +673,7 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
 const defaultYoutubePlayerParams = YoutubePlayerParams(
   enableCaption: true,
   captionLanguage: 'en',
+  showFullscreenButton: true,
   showControls: false,
   strictRelatedVideos: true,
 );

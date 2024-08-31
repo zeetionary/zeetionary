@@ -181,9 +181,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەزگایەکی سەرپەڕاندن کە لە فەرەنسا دامەزرا و بۆ سەرپەڕاندنی تاوانباران بەکاردەهات"""),

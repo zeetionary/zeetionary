@@ -5125,21 +5125,21 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_heartfelt.dart' show EnglishEntryheartfelt
 // en_entry_heartless.dart' show EnglishEntryheartless
 // en_entry_heartlessly.dart' show EnglishEntryheartlessly
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_heart_rending.dart' show EnglishEntryheartrending //// ffff heart-rending
+// en_entry_heart_to_heart.dart' show EnglishEntryhearttoheart //// فففف heart-to-heart
+// en_entry_hearten.dart' show EnglishEntryhearten
+// en_entry_hearth.dart' show EnglishEntryhearth
+// en_entry_hearty.dart' show EnglishEntryhearty
+// en_entry_heartily.dart' show EnglishEntryheartily
+// en_entry_heat.dart' show EnglishEntryheat
+// en_entry_heatwave.dart' show EnglishEntryheatwave
+// en_entry_heated.dart' show EnglishEntryheated
+// en_entry_heater.dart' show EnglishEntryheater
+// en_entry_heating.dart' show EnglishEntryheating
+// en_entry_heath.dart' show EnglishEntryheath
+// en_entry_heathen.dart' show EnglishEntryheathen
+// en_entry_heather.dart' show EnglishEntryheather
+// en_entry_heave.dart' show EnglishEntryheave
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

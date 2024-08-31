@@ -223,7 +223,6 @@ Usage: Brit, Cdn (US: harbor)
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) شاردنەوەی کەسێک کە لە پۆلیس هەڵدێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Police believe someone must be harbouring the killer.""",
@@ -236,7 +235,6 @@ Usage: Brit, Cdn (US: harbor)
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) هەڵگرتنی هەست و بیرکردنەوە لە مێشکتدا بۆ ماوەیەکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She began to harbour doubts about the decision.""",
@@ -257,7 +255,6 @@ Usage: Brit, Cdn (US: harbor)
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) لەخۆگرتنی شتێک و ڕێگادان بە گەشەی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Your smartphone can harbour many germs.""",

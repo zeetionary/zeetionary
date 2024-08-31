@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە دەبیسترێت یان دەبیندرێت کە لەوێ نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Was the figure real or just a hallucination?""",

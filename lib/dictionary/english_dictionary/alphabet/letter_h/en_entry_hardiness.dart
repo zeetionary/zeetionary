@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی ڕووەکێک بتوانێت لە دەرەوە لە زستاندا بژی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Many places used this tree almost exclusively, for their hardiness and classic beauty.""",

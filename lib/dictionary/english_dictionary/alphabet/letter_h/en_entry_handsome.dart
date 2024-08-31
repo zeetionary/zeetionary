@@ -311,7 +311,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ژنێکی جوان، بە تایبەتی کە جەستەی بەهێزی هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The tall, handsome woman caught everyone's attention.""",
@@ -323,7 +322,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە جوانە بۆ سەیرکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bride and groom made a handsome couple.""",
@@ -334,7 +332,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) گەورە لە بڕ یان ڕێژە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They sold the house two years later at a handsome profit.""",
@@ -347,7 +344,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) بە دەسکراوەیی؛ بەوەی کە گرنگی نادەیت بەوەی چەند دەبەخشیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She paid him a handsome compliment.""",
                       kurdishText: """پەسنێکی زۆری پێدا.""",

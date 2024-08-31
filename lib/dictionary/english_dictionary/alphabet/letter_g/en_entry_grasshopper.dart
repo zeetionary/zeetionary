@@ -146,9 +146,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مێروویەک کە لاقەکانی پشتەوەی زۆر درێژن و دەتوانێت بازی بەرز بدات، و دەنگ بە لاقەکانی درووست دەکات"""),

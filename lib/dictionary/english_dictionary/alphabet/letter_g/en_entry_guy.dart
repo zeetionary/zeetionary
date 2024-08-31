@@ -223,7 +223,6 @@ Usage: UK
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) گرووپێک کە لە هەر ڕەگەزێک پێکدێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Come on, you guys, let's get going!""",
                       kurdishText: """یەڵا، هاوڕێیان، با بڕۆین.""",

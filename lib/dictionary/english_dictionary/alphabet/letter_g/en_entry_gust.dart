@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) دەربڕینی لەناکاوی هەست و سۆز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her joke triggered a gust of laughter from the group.""",
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) کە بایەک لەناکاو هەڵدەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The wind gusted through the branches.""",
                       kurdishText: """بایەکە هەڵیکردە سەر لقەکان.""",

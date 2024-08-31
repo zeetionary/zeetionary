@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) کە لەناکاو ڕێژەیەکی زۆر شلە فیشقە بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The tanker was gushing oil.""",
                       kurdishText: """تەنکەرەکە نەوتی لێدەچوو.""",
@@ -213,7 +212,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ڕێژەیەکی زۆر شلە کە لە شوێنێکەوە دەچێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Showers with pumps are more expensive, but they deliver a really powerful gush of water.""",

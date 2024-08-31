@@ -153,9 +153,9 @@ Noun: H (Derived forms: Hs)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "h", please follow LX instructions
                     const DefinitionKurdish(
                         text:

@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) دانانی کەلەپچە لە دەستی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her hands were handcuffed behind her back.""",

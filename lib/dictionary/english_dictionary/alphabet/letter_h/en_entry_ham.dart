@@ -174,9 +174,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "ham", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) گۆشتی بەشی سەرەوەی لاقی بەراز"""),
@@ -198,7 +198,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە وەک حەز نەک پیشە وێستگەی ڕادیۆ بەڕێوە دەبات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A radio ham picked up their signal and called the coastguard.""",
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەکتەرێک کە زۆر خراپە، بە تایبەتی بەهۆی زیادەڕۆیی لە پیشاندانی هەستەکانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His critics wrote him off as a ham actor.""",

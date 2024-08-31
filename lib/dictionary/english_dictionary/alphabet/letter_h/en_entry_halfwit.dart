@@ -146,9 +146,9 @@ Usage: informal
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(text: """١. (ناو) کەسێکی گەمژە"""),
                     SentencesRow(
                       englishText: """Don't be such a halfwit!""",

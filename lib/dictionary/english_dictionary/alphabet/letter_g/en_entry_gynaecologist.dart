@@ -145,9 +145,9 @@ Usage: Brit, Cdn (US: gynecologist)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "gynaecologist", please follow LX instructions
                     const DefinitionKurdish(
                         text:

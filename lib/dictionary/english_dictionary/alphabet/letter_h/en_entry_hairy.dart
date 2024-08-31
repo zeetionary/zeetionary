@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) مەترسیدار و بەجۆشهێنەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Driving on icy roads can be pretty hairy.""",

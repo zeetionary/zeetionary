@@ -326,7 +326,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) گەیاندنی زیان یان بریندارکردنی کەسێک، یان گەیاندنی زیان بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He would never harm anyone.""",
                       kurdishText: """هەرگیز زیان بە کەس ناگەیەنێت.""",

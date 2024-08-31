@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەڵقەیەک لە ڕووناکی کە لە دەوری مانگ یان خۆر دەبینرێت لە کاتی مانگگیران یان خۆرگیران"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The halo around the moon was a beautiful sight.""",

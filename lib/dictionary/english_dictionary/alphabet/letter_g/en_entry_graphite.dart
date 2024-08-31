@@ -144,9 +144,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەکی نائەندامی نەرمی ڕەش کە لە درووستکردنی پێنووس، چەورکردنی ئامێر، و وێستگە ئەتۆمییەکان بەکاردێت"""),

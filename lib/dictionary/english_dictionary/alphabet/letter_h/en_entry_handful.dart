@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ژمارەیەکی کەم لە خەڵکی یان شت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Only a handful of people came.""",
                       kurdishText: """تەنها ژمارەیەکی کەم لە خەڵک هاتن.""",
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک یان ئاژەڵێک کە سەختە کۆنترۆڵ بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her children can be a real handful.""",
                       kurdishText: """منداڵەکانی دەکرێت هاروهاجی تەواو بن.""",

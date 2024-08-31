@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بڕە پارەیەک کە دەدرێت بە کۆمپانیا یان دامەزراوەیەک لەلایەن حکومەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The company is currently thriving thanks to a £70 000 government handout.""",
@@ -210,7 +209,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) بەڵگەنامەیەک کە بێ‌بەرامبەر دەدرێت بە خەڵکی و تێیدا بانگەشە بۆ بۆنەیەک، باوەڕێکی سیاسی، هتد دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """More information can be found in the handout.""",

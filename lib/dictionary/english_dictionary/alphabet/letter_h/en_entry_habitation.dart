@@ -1000,7 +1000,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) شوێنێک کە خەڵکی لێی دەژین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The road serves the scattered habitations along the coast.""",

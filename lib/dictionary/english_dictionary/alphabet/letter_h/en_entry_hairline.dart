@@ -154,9 +154,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) قەراغی قژی کەسێک، بە تایبەتی لە پێشەوە"""),
@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) درز یان هێڵێکی زۆر باریک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Harry suffered a hairline fracture of his right ankle.""",

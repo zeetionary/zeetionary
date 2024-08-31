@@ -155,9 +155,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ژنانی پیاوێکی دەوڵەمەند، بە تایبەتی لە هەندێک کۆمەڵگای موسڵماندا لە ڕابردوودا"""),
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بەشی جیاکراوەی خانوویەکی کۆنی موسڵمانان کە ژنان تێیدا دەژین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The harem was strictly guarded.""",
                       kurdishText: """حەڕەمەکە بە تەندی پاسەوانی دەکرێت.""",

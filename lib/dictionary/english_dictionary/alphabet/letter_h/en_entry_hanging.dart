@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پارچەیەکی گەورە کە دەدرێت بە دیوارێک یان جێخەوێکدا بۆ جوانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The house had marble columns and silk hangings.""",

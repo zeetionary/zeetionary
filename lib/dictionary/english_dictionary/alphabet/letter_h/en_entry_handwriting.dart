@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) شێوازی دەستنووسی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His handwriting is illegible.""",
                       kurdishText: """دەست‌وخەتی ناخوێندریتەوە.""",

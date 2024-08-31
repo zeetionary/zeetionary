@@ -978,9 +978,9 @@ Usage: Brit, Cdn (US: hemophilia)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دۆخێکی تەندرووستی کە دەبێتە هۆکاری لەدەستچوونی خوێنی زۆر تەنانەت بە برینێکی بچووک بەهۆی ئەوەی خوێن کڵۆ درووست ناکات، و زۆرجار تەنها تووشی پیاوان دەبێت"""),

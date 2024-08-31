@@ -150,9 +150,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە وایەرێکی چەماوە کە لە ناوەڕاستدا چەماوەتەوە و ژنان بەکاری دەهێنن بۆ ڕاگرتنی قژیان"""),

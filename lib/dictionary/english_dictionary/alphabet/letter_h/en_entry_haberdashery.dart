@@ -983,9 +983,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێک کە کەرەستەی بچووکی دروومان دەفرۆشێت، بۆ نموونە دەرزی، بەکرە، دوگمە، هتد"""),
@@ -999,7 +999,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) جلی پیاوان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The haberdashery industry has evolved with fashion trends.""",

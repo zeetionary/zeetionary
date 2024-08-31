@@ -213,7 +213,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵکار) بە ئامادەییەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'll happily help, if I can.""",
                       kurdishText:
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵکار) بە گونجاوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This suggestion did not fit very happily with our existing plans.""",

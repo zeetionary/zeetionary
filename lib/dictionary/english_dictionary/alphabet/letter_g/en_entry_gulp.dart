@@ -218,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەنجامدانی جووڵەی قوتدان بەبێ ئەوەی هیچ بخۆیت، زۆرجار بەهۆی ترس یان سەرسوڕمان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She gulped nervously before trying to answer.""",
@@ -230,7 +229,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) هەناسەدان بە خێرایی و قووڵی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Keith swam to the surface and gulped for air.""",
@@ -242,7 +240,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) بڕێک لە شتێک کە قووتی دەدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He took a gulp of coffee.""",
                       kurdishText: """قومێک قاوەی خواردەوە.""",
@@ -260,7 +257,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) هەڵمژین یان قوتدانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He drank the glass of juice in one gulp.""",

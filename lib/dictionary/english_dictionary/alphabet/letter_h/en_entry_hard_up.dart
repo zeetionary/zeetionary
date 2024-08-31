@@ -161,9 +161,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "hard up", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) نەبوونی هیچ شتێکی سەرنجڕاکێش بۆ کردن، قسەکردن لەسەری، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The newspapers must be hard up for news if they’ve got to publish stories like that (= they must have very little real news).""",

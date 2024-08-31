@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شانەکانی جلێک کە پشت و شان داناپۆشێت و لە دەوری مل دەبەسترێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was dressed in a halter top and shorts.""",

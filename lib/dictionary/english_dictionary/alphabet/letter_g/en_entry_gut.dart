@@ -272,7 +272,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەندامەکانی دەورووبەری گەدە، بە تایبەتی لە ئاژەڵدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'll only cook fish if the guts have been removed.""",
@@ -303,7 +302,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) بوێری و توانای هزری بۆ کردنی شتێکی سەخت و ناخۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He doesn't have the guts to walk away from a well-paid job.""",
@@ -325,7 +323,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ئەو شوێنەی کە باوەڕ وایە هەستی سرووشتیتی تێدایە و وەهات لێ دەکات بە شێوەیەکی دیاریکراو بیر بکەیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I had a feeling in my guts that something was wrong.""",
@@ -337,7 +334,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) گرنگترین بەشی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Understanding the guts of the problem is crucial for solving it.""",
@@ -350,7 +346,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) لەناوبردنی بەشی ناوەوەی بینایەک یان ژوورێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hotel was completely gutted by fire last year.""",
@@ -363,7 +358,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) دەرکردنی بەشی ناوەوەی ماسییەک یان ئاژەڵێک و ئامادەکردنی بۆ لێنان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fish was already cleaned and gutted.""",

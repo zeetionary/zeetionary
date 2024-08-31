@@ -153,9 +153,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: 
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەردێکی خۆڵەمێشی سەخت کە بۆ بیناسازی بەکاردێت"""),

@@ -998,7 +998,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەشێوەیەک کە بێزارکەرە یان سەختە بوەستێندرێت، زۆرجار بەهۆی ئەوەی بووە بە خوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We are in an era where politicians habitually lie about everything.""",

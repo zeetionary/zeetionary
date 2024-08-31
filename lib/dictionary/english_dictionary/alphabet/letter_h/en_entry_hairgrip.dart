@@ -144,9 +144,9 @@ Usage: UK (=bobby pin)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     const AlsoEnglishckb(
                         word: "ھەروەھا: grip، یان ئینگلیزیی ئەمریکی bobby pin"),

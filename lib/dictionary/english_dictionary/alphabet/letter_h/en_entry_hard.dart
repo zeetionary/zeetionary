@@ -519,9 +519,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence2("en-GB"),
                               onPressedAmerican: () => speaksentence2("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵکار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -531,9 +528,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence3("en-GB"),
                               onPressedAmerican: () => speaksentence3("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵکار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -543,9 +537,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence4("en-GB"),
                               onPressedAmerican: () => speaksentence4("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵکار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -554,9 +545,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence5("en-GB"),
                               onPressedAmerican: () => speaksentence5("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵکار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -566,9 +554,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence6("en-GB"),
                               onPressedAmerican: () => speaksentence6("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵکار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -578,9 +563,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence7("en-GB"),
                               onPressedAmerican: () => speaksentence7("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵکار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -590,9 +572,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence8("en-GB"),
                               onPressedAmerican: () => speaksentence8("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ھاوەڵکار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText: """I found the exam quite hard.""",
@@ -633,7 +612,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە پێویستی بە هەوڵ و وزەی جەستەیی یان دەروونی هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This is the hardest part of my job.""",
                       kurdishText: """ئەمە سەختترین بەشی کارەکەمە.""",
@@ -660,7 +638,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) پێدانی هێز و وزەی زۆر بە چالاکییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's a very hard worker.""",
                       kurdishText: """کرێکارێکی زۆر زەحمەت‌کێشە.""",
@@ -679,7 +656,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) پکە بە هێز و وزەی زۆرەوە دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He gave the door a good hard kick.""",
                       kurdishText: """لەقەیەکی توندی لە دەرگاکە دا.""",
@@ -690,7 +666,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ھاوەڵناو) سەخت و توند کە بە ئاسان ناچەمێتەوە یان ناشکێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Wait for the concrete to go hard.""",
                       kurdishText: """چاوەڕێ ببە کۆنکریتەکە ڕەق ببێت.""",
@@ -708,7 +683,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ھاوەڵناو) کە هەست و سۆز پیشان نادات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """My father was a hard man.""",
                       kurdishText: """باوکم پیاوێکی توند بوو.""",
@@ -754,7 +728,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ھاوەڵناو) کە بەدڵنیاییەوە ڕاستە و پشت بە بەڵگەی درووست دەبەستێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Is there any hard evidence either way?""",
                       kurdishText:
@@ -774,7 +747,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (ھاوەڵناو) کەشووهەوای زۆر سەخت و دژوار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It had been a hard winter.""",
                       kurdishText: """زستانێکی زۆر سەخت بووە.""",
@@ -784,7 +756,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ھاوەڵکار) بە هەوڵ و سەختی زۆرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You must try harder.""",
                       kurdishText: """دەبێت باشتر هەوڵ بدەیت.""",
@@ -844,7 +815,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (ھاوەڵکار) بە هەوڵی زۆرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't hit it so hard!""",
                       kurdishText: """زۆر توند لێی مەدە!""",
@@ -863,7 +833,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ھاوەڵکار) بەوریایی و تەواوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We thought long and hard before deciding to move house.""",
@@ -884,7 +853,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٤. (ھاوەڵکار) زۆر یان بۆ ماوەیەکی درێژ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It was raining hard when we set off.""",
                       kurdishText: """بە ڕژدی باران دەباری کە ڕۆشتین.""",

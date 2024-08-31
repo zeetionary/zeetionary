@@ -154,9 +154,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "guinea pig", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کەسێک کە لە تاقیکردنەوەی پزیشکی یان تاقیکردنەوەی تر بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Students in fifty schools are to act as guinea pigs for these new teaching methods.""",

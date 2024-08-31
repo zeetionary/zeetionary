@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە سریشێ پێوەیە یان لینجە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The sauce became gummy as it cooled.""",
                       kurdishText: """سۆسەکە لینج بوو کە ساردبوویەوە.""",

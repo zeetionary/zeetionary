@@ -225,7 +225,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) بنێشت؛ شتێکە کە دەیجویت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was admonished for chewing gum in class.""",
@@ -252,7 +251,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) جۆرە سڕێشێکە بەکاردێت بۆ بەستنی شتی سووک بە یەکەوە، بۆ نموونە کاغەز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She removed the gum from her fingers.""",
                       kurdishText: """سرێشەکەی لە پەنجەکانی کردەوە.""",
@@ -263,7 +261,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) مادەیەک کە لە هەندێک دارەوە بەرهەم دێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The gum was collected from the tree bark.""",
@@ -274,7 +271,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) پێکەوەبەستن بە سڕێش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A large address label was gummed to the package.""",

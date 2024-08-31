@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو کەلوپەلانەی لە ماڵەوە یان باخچە بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He works weekends at the hardware shop.""",

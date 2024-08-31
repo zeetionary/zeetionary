@@ -152,9 +152,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئاژەڵێک کە وەک مشکێکی گەورە وایە و گۆنای گەورەی هەیە بۆ هەڵگرتنی خواردن"""),

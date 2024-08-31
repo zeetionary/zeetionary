@@ -1000,7 +1000,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە بۆ تەندرووستی باشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You should eat healthily.""",
                       kurdishText: """دەبێت تەندرووستانە نان بخۆیت.""",
@@ -1011,7 +1010,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بە شێوەیەک کە پیشانی دەدات لە تەندرووستی باشیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His skin shone healthily.""",
                       kurdishText: """پێستی بە تەندرووستانە دەگەشایەوە.""",
@@ -1022,7 +1020,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵکار) بە شێوەیەک کە ئاساییە و جێگای تێگەشتنە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The relationship developed and matured healthily.""",
@@ -1035,7 +1032,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵکار) بە شێوەیەک کە کە سەرکەوتووە و باش کار دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The economy grew healthily.""",
                       kurdishText: """ئابووری تەندرووستانە گەشەی کرد.""",

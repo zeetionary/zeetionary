@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە ئاسانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He handily defeated his challengers.""",
                       kurdishText: """بە ئاسانی ڕکابەرەکانی تێکشکاند.""",

@@ -238,9 +238,9 @@ Usage: archaic
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "halt", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) وەستان"""),
                     SentencesRow(
@@ -297,7 +297,6 @@ Usage: archaic
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) وەستاندنی جووڵە یان بەرەوپێشچوونی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Work came to a halt when the machine broke down.""",

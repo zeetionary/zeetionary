@@ -231,7 +231,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی کردنی شتێک بۆ کەسێک سەخت بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Smaller parties are seriously handicapped by the electoral system.""",

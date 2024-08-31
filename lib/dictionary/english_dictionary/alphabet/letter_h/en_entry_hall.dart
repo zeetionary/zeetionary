@@ -228,7 +228,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) بینا یان ژوورێکی گەورە بۆ چاوپێکەوتنی گشتی، نانخواردن، کۆنسێرت، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There are three dining halls on campus.""",

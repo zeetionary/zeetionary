@@ -154,9 +154,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گۆشتی مانگا کە کراوە بە پارچەی بچووک لە شێوەی بازنەیی تەختدا و دەبرژێندرێت، و زۆرجار بە لوولەیی پێشکەش دەکرێت"""),

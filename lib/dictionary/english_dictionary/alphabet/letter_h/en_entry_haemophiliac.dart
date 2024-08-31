@@ -980,9 +980,9 @@ Usage: Brit, Cdn (US: hemophiliac)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DividerDefinition(),
                     CustomRichText(
                       textBeforeLink: "١. کەسێک کە تووشبووی ",

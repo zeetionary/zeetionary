@@ -160,9 +160,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "hang-up", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) سەختییەک کە دەبێتە هۆکاری دواکەوتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It is best to fix hangups as soon as they occur.""",

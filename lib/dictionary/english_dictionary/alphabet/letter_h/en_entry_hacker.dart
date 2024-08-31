@@ -985,9 +985,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە دەچێتە ناو زانیاریی کۆمپیوتەری کەسێکی دیکە بەبێ مۆڵەت"""),
@@ -1003,7 +1003,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە بە شارەزایی و جۆش‌وخرۆشییەوە پڕۆگرامی کۆمپیوتەری دەنووسێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The software is so complicated that only experienced hackers can use it.""",

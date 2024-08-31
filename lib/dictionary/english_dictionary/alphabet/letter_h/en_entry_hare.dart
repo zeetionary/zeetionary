@@ -164,9 +164,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەروێشکی کێوی؛ ئاژەڵێکە وەک کەروێشکی گەورە کە قاچی دواوەی زۆر بەهێزە و دەتوانێت زۆر خێرا ڕابکات"""),
@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ڕاکردن یان چوونە شوێنێک زۆر بەخێرایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He hared away down the street.""",
                       kurdishText: """بە شەقامەکەدا خێرا چوو.""",

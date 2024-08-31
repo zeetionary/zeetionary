@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە دەتوانێت لە دەرەوە لە زستاندا بژی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Parsley is hardy and can be grown outdoors from the spring.""",

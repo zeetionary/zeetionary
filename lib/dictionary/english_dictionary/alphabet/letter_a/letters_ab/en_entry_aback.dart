@@ -4,14 +4,23 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// one quotations
+// removes un-needed tts methods with one quotations
 // Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("\w*00"\);\s*\}
 
-// three quotations
+// removes un-needed tts methods with three quotations
 // Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("""\w*00"""\);\s*\}
 
-// three quotations with new lines break ^\s*
+// removes un-needed tts methods with three quotations with new lines break ^\s*
 // ^\s*Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("""\w*00"""\);\s*\}
+
+// removes all un-needed definitions with sentences
+// ^\s*const DividerDefinition\(\),\s*const DefinitionKurdish\(text: """ژممر\. \([^)]+\) پننسە"""\),\s*const DividerSentences\(\),\s*SentencesRow\(\s*englishText: """[^"]*00""",\s*kurdishText: """[^"]*""",\s*onPressedBritish: \(\) => [^,]+,\s*onPressedAmerican: \(\) => [^,]+,\s*\),
+
+// removes all un-needed definitions
+// ^\s*const DividerDefinition\(\),\s+const DefinitionKurdish\(text: """ژممر\. \([^)]+\) پننسە"""\),
+
+// removes all un-needed definitions in expansion panels
+// ^\s*const DividerDefinition\(\),\s+const DefinitionKurdish\(\s+text: """ژممر\. \([^)]+\) پننسە"""\),
 
 // removes definitions dont use this
 // ^\s*const DividerDefinition\(\),\s*const DefinitionKurdish\(text: """[^"]* \([^"]*\) [^"]*"""\),

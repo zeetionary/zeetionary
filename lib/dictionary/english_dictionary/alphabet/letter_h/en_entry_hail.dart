@@ -236,7 +236,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئاماژەکردن بۆ تەکسی یان پاس بۆ وەستان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She hailed a taxi on the busy street.""",
                       kurdishText:
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) بانگکردنی کەسێک بۆ گوتنی سڵاو یان ڕاکێشانی سەرنجی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A voice hailed us from the other side of the street.""",
@@ -259,7 +257,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (کردار) تەرزە بارین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It's hailing!""",
                       kurdishText: """تەرزە دەبارێت.""",
@@ -268,7 +265,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٥. (ناو) تەرزە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We drove through hail and snow.""",
                       kurdishText: """بە تەرزە و بەفرەکەدا شۆفێریمان کرد.""",
@@ -279,7 +275,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ڕێژەیەکی زۆر لە شتێک کە ئاراستەی کەسێک دەکرێت بۆ زیان گەیاندن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The soldiers faced a deadly hail of arrows from the enemy.""",

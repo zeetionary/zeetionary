@@ -155,9 +155,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "harangue", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) وتارێکی درێژ و توند کە ڕەخنە لە کەسێک/شتێک دەگریت یان دەتەوێت خەڵکی ڕازی بکەیت شتێک بکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The team was given the usual half-time harangue by the manager.""",

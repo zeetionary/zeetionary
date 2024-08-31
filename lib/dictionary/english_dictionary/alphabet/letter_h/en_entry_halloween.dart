@@ -144,9 +144,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕۆژی ٣١ ــی تشرینی یەکەم کە جاران وەها باوەڕ بوو کە مردووان لە گۆڕەکانیان دێنە دەرەوە و ئێستا لە ئەمریکا، کەنەدا، و بەریتانیا منداڵان یادی دەکەنەوە بە لەبەرکردنی جلی ترسناک"""),

@@ -156,9 +156,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کوڵاو تاوەکو ئەوەی کە ناوەکەی توند بووە """),
@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کە هەستی زۆر پیشان نادا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The detective was hard-boiled and fearless.""",

@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەو شتانەی بە دەست درووستکراون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The huge market is noted for superb local food specialities and handicrafts.""",

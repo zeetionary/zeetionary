@@ -161,9 +161,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "haircut", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) شێوەی بڕینی قژی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """What do you think of my new haircut?""",
                       kurdishText: """بۆچوونت چییە لەسەر ستایڵی قژم؟""",

@@ -143,9 +143,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خواردنێکی سکۆتلەندی کە وەک سۆسجێکی خڕی گەورە وایە و درووستکراوە لە دڵ، سییەکان، و جەرگی لەتکراوی مەڕ، و لەگەڵ گیا، هتد تێکەڵ دەکرێت و لە کیسێکدا دەکوڵێندرێت کە زۆرجار لە گەدەی مەڕ درووستکراوە"""),

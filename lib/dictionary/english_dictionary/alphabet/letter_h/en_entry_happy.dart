@@ -354,7 +354,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە دەبێتە هۆکاری دڵخۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She had a very happy life.""",
                       kurdishText: """ژیانێکی زۆر خۆشی هەبوو.""",
@@ -388,7 +387,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) خواستنی هیوای بۆنەیەکی خۆش بۆ کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Happy Birthday!""",
                       kurdishText: """ڕۆژی لە دایکبوونت پیرۆز!""",
@@ -406,7 +404,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) ڕازی بەوەی شتێک باشە یان درووستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I don't know what you've done, but the boss isn't happy.""",
@@ -441,7 +438,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) ڕازی یان دڵخۆش بە کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """People seemed quite happy to help.""",
                       kurdishText:

@@ -209,9 +209,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "harden", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ڕەق یان توند بوون"""),
@@ -233,7 +233,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) کە دەنگت یان ڕووخسارت جدی دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her face hardened into an expression of hatred.""",
@@ -254,7 +253,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) کە هەڵسوکەوت یان هەستی توند یان جدی دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Public attitudes to the strike have hardened.""",
@@ -277,7 +275,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ئەوەی کەسێک توند بکەیت بەوەی زۆر کاریگەر نەبێت بە دۆخی سەخت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Joe sounded different, hardened by the war.""",

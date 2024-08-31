@@ -192,9 +192,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "halfway", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) لە نیوەی نێوان دوو خاڵ"""),
@@ -216,7 +216,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) لە ماوەی نێوان دوو خاڵدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's about halfway between London and Bristol.""",
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بەشێکی ماوەی کردن یان بەدەستهێنانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This only goes halfway to explaining what really happened.""",
@@ -247,7 +245,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵکار) تا ڕادەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Any halfway decent map will give you that information.""",

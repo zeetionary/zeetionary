@@ -229,7 +229,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ئەوەی شتێکی نایاساییت کردبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He pleaded guilty to murder.""",
                       kurdishText: """دانی نا بە تاوانباری بۆ کوشتن.""",

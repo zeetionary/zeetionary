@@ -984,9 +984,9 @@ Usage: Brit, Cdn (US: hemorrhage)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "haemorrhage", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -1012,7 +1012,6 @@ Usage: Brit, Cdn (US: hemorrhage)
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) لەدەستدانی زۆری پارە، خەڵک. هتد لە وڵاتێک، گرووپێک، یان دامەزراوەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The newspaper sold its websites in a bid to stem the haemorrhage of cash from the business.""",

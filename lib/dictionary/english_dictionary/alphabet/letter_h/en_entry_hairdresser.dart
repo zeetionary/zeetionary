@@ -152,9 +152,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "hairdresser", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە کاری بڕین و داهێنانی قژە"""),
@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شوێنێک کە لێی دەتوانیت قژت ببڕیت و دایبهێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I spent the morning in the hairdresser's.""",

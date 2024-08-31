@@ -158,9 +158,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // \b(guru)(s|ed|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە پسپۆڕ یان زۆر شارەزایە لە بوارێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Jean-Paul Sartre was the guru of post-war French philosophy.""",

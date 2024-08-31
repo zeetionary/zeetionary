@@ -188,7 +188,6 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) شوێنێکی خۆش و بەجۆشهێنەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Ask Caroline - she knows all the happening clubs in town.""",

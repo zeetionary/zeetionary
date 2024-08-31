@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێک کە جلی پیاوان دەفرۆشێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The haberdasher stocked a variety of brands.""",

@@ -146,9 +146,9 @@ Usage: Brit, Cdn (US: groveling)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "grovelling", please follow LX instructions
                     const DefinitionKurdish(
                         text:

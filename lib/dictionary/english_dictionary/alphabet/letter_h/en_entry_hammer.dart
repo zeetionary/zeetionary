@@ -288,7 +288,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) بەشێکی پیانۆ کە لە تەلەکان دەدات بۆ درووستکردنی دەنگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hammers in a piano are arranged in rows.""",
@@ -299,7 +298,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) لێدان بە چەکوش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I could hear somebody hammering next door.""",
@@ -344,7 +342,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) لێدان لە تۆپێک بە توندی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He hammered the ball into the net.""",
                       kurdishText: """تۆپەکەی بە توندی خستە ناو تۆڕەکەوە.""",
@@ -354,7 +351,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) شکستهێنان زۆر بە ئاسانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Our team was hammered 5–1.""",
                       kurdishText: """تیمەکان ٥-١ گۆڵباران کرا.""",
@@ -364,7 +360,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) هەبوونی کاریگەری زۆر خراپ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Eastern provinces were brutally hammered by the weekend flooding.""",

@@ -1002,7 +1002,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کارێک کە زۆرجار بە شێوەیەک دەکرێت کە سەختە بوەستێندرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Is habitual drunkenness considered to be grounds for divorce?""",

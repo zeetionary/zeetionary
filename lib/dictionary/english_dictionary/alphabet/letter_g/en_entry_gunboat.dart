@@ -143,9 +143,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // \b(gunboat)(s|ed|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:

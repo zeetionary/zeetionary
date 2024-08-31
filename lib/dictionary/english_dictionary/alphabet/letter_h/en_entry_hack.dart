@@ -1024,9 +1024,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text: """١. (کردار) لێدان و بڕینی کەسێک/شتێک"""),
                     SentencesRow(
@@ -1059,7 +1059,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) لێدان لە شتێک بە توندی و بەبێ کۆنترۆڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He hacked the ball away.""",
                       kurdishText: """بە لەقە تۆپەکەی دوورخستەوە.""",
@@ -1070,7 +1069,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) چوونە ناو زانیاری سیستەمی کۆمپیوتەری کەسێکەوە بەبێ مۆڵەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He hacked into the bank's computer.""",
                       kurdishText: """کۆمپیوتەری بانکەکەی هاک کرد.""",
@@ -1088,7 +1086,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) کارکردن بە نافەرمی و زۆرجار خێرایی لەگەڵ خەڵکی بۆ درووستکردنی پڕۆگرامێک لەگەڵ خەڵکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We spent the morning hacking around with HTML and building web pages.""",
@@ -1101,7 +1098,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ئەوەی لە دۆخێکی دیاریکراو ڕزگار بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Lots of people leave this job because they can't hack it.""",
@@ -1114,7 +1110,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) نووسەرێک، بە تایبەتی لە ڕۆژنامەیەک، کە کاری کوالێتی نزم دەکات و پارەی زۆری پێنادرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hack's writing was predictable and boring.""",
@@ -1127,7 +1122,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) کەسێک کە کاری سەخت و ناخۆش بۆ دامەزراوەیەک دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The party hack distributed leaflets door-to-door.""",
@@ -1140,7 +1134,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) ئەسپێکی ئاسایی، یان یەکێک کە دەکریت بە کرێ بگیردرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hack pulled the cart through the town.""",
@@ -1151,7 +1144,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٩. (ناو) تەکسی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The hack driver knew the city well.""",
                       kurdishText:
@@ -1163,7 +1155,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ناو) لێدان لە شتێک، بە تایبەتی بە ئامرازێکی بڕین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I was sure he was going to take a hack at us.""",
@@ -1176,7 +1167,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (ناو) ڕێگایەکی کردنی شتێک بە شێوەیەکی باشتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Why not try these genius food hacks to save time?""",

@@ -214,7 +214,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) سەبەتەیەکی گەورە کە سەری هەیە، بە تایبەتی کە خواردنی تێدەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The lucky winner will receive a hamper crammed full of local produce.""",

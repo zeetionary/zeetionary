@@ -371,7 +371,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) گرتن، جوڵاندن، یان دەستدان لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Our cat hates being handled.""",
                       kurdishText: """پشیلەکەمان ڕقی لێیە دەستی لێبدرێت.""",
@@ -400,7 +399,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) کۆنترۆڵکردنی پێڕۆیەک، ئاژەڵێک، ئامرازێک، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's a difficult horse to handle.""",
                       kurdishText: """ئەسپێکی سەختە بۆ کۆنترۆڵکردن.""",
@@ -420,7 +418,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ئەوەی پێڕۆیەک ئاسان یان سەخت بێت بۆ کۆنترۆڵکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The car handles well in any weather.""",
                       kurdishText:
@@ -431,7 +428,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) کڕین یان فرۆشتنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were arrested for handling stolen goods.""",
@@ -444,7 +440,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ئەو بەشەی شتێک کە دەیگریت بۆ کردنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She turned the handle and opened the door.""",
@@ -464,7 +459,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) ئەو بەشەی شتێک کە دەیگریت بۆ ئەوەی بیگریت بە دەستەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The handle's broken off this jug.""",
                       kurdishText: """دەسکەکە لەم سووراحییە لێبووەتەوە.""",
@@ -483,7 +477,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) هەبوونی ئەو ژمارەیە یان جۆرەی دەسک کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The long handle of the spoon kept my hands away from the hot soup.""",

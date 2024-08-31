@@ -156,9 +156,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "hangover", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) هەستێک، نەریتێک، بیرۆکەیەک، هتد کە لە ڕابردووەوە ماوەتەوە و چی دیکە گونجاو یان کرداری نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The present political system is a hangover from the colonial era.""",

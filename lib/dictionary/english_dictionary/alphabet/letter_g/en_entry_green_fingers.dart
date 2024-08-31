@@ -145,9 +145,9 @@ Usage: Brit (N. Amer: green thumb)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شارەزایی لە چاندن و گەشەپێدانی ڕووەک"""),

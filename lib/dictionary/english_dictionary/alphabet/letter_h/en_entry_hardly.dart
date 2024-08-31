@@ -262,7 +262,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) لە نێوان can یان could و کاری سەرەکی بەکاردێت بۆ گوتنی ئەوەی شتێک سەختە بۆ کردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I could hardly believe it when I read the letter.""",
@@ -283,7 +282,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک ئەگەر یان هۆکاری کەمە یان کەسێکە جێگای پێکەنینە بۆ گوتن یان کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He is hardly likely to admit he was wrong.""",
@@ -313,7 +311,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک تازە ڕوویداوە، دەستی پێکردووە، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We can't stop for coffee now, we've hardly started.""",

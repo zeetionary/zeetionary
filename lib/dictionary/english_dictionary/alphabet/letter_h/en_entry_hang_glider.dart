@@ -153,9 +153,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێک کە وەک کۆلارە وایە و خەڵکی پێی دەفڕن"""),
@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێک کە بە هانگلایدەر دەفڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Hang-gliders must be experienced and knowledgeable.""",

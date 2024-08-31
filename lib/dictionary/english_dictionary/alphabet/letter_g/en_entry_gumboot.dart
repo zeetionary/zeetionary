@@ -144,9 +144,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جزمە؛ پێڵاوێک کە لە لاستیک درووستکراوە و زۆرجار تاوەکو ئەژنۆ بەرز دەبێتەوە بۆ ڕێگری لە تەڕبوون  """),

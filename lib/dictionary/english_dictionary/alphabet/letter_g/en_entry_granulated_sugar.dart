@@ -146,9 +146,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: 
+// """),
 // With short examples define "granulated sugar", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شەکری سپی لە شێوەی دەنکی ورد"""),

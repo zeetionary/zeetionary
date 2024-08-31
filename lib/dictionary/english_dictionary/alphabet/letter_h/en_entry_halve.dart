@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) کردن بە دوو بەشەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The potatoes will cook more quickly if you halve them before you put them in the oven.""",

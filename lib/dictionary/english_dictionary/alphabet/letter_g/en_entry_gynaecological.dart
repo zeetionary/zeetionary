@@ -148,9 +148,9 @@ Usage: Brit, Cdn (US: gynecological)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە توێژینەوە و چارەسەری زانستییانەی دۆخ و نەخۆشییەکانی ژنان"""),

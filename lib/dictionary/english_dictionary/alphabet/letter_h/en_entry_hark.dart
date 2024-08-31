@@ -145,9 +145,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "hark", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) بۆ گوتن بە کەسێک کە گوێ بگرێت"""),

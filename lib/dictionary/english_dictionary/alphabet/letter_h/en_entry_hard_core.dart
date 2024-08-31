@@ -168,9 +168,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "hard core", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) هەبوونی باوەڕێکی نەگۆڕ"""),
@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە کاری سێکسی و پۆرنۆگرافی بەشێوەی توندوتیژی پیشان دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They sell hard-core pornography.""",
                       kurdishText: """بەرهەمی پۆرنۆگرافی توندوتیژی دەفرۆشن.""",
@@ -197,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) گرووپیکی سەرەکی بچووک کە باوەڕیان ناگۆڕن و چالاکترینن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A hard core of drivers ignore(s) the law.""",

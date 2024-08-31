@@ -208,7 +208,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) دەنگی منداڵ کە دڵخۆشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The baby gurgled happily.""",
                       kurdishText: """منداڵەکە بە خۆشییەوە گڕووگاڵی بوو.""",
@@ -219,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) دەنگی خوڕەی ئاو کە خێرا بە شوێنێکی تەسکدا دەچێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The water emptied with a gurgle.""",
                       kurdishText: """ئاوەکە بە خوڕەخوڕ بەتاڵ بوو.""",
@@ -229,7 +227,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) دەنگی گڕوگاڵی منداڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The baby gave a little gurgle of laughter.""",

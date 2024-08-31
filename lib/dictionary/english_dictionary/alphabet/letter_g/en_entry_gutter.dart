@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئاوەڕۆی قەراغ ڕێگا کە لێیەوە ئاو دەچێتە ناو زێرابەکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The city crews cleared the gutters after the heavy storm to prevent flooding.""",
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) دۆخی کۆمەڵایەتی خراپ یان ستانداردی نزمی ئەخلاقی کە هەندێک جار دەبەسترێتەوە بە نزمترین ئاستی کۆمەڵگا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She rose from the gutter to become a great star.""",

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryheave extends StatefulWidget {
-  const EnglishEntryheave({super.key});
+class EnglishEntryheel extends StatefulWidget {
+  const EnglishEntryheel({super.key});
 
   @override
-  State<EnglishEntryheave> createState() => _EnglishEntryheaveState();
+  State<EnglishEntryheel> createState() => _EnglishEntryheelState();
 }
 
-class _EnglishEntryheaveState extends State<EnglishEntryheave> {
+class _EnglishEntryheelState extends State<EnglishEntryheel> {
   @override
   void initState() {
     super.initState();
@@ -53,44 +53,38 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: heave (Derived forms: heaved, heaving, heaves)
-1. Utter a sound, as with obvious effort
-"She heaved a deep sigh when she saw the list of things to do"
+- Noun: heel (Derived forms: heels)
+1. The bottom of a shoe or boot; the back part of a shoe or boot that touches the ground and provides elevation
  
-2. Throw with great effort
+2. The back part of the human foot
  
-3. Rise and move, as in waves or billows (- billow, surge)
-"The army heaved forward";
+3. [informal] Someone who is morally reprehensible (- cad [archaic], bounder [Brit, archaic], blackguard, dog [informal], hound)
+"you dirty heel";
  
-4. Lift or elevate (- heave up, heft, heft up)
+4. One of the crusty ends of a loaf of bread
  
-5. Move or cause to move in a specified way, direction, or position
+5. The lower end of a ship's mast
  
-6. Breathe noisily, as when one is exhausted (- pant, puff, gasp)
- 
-7. Bend out of shape, as under pressure or from heat (- buckle, warp)
- 
-8. Make an unsuccessful effort to vomit; strain to vomit (- gag, retch)
+6. (golf) the part of the clubhead where it joins the shaft
 
-- Noun: heave (Derived forms: heaves)
-1. An upward movement (especially a rhythmical rising and falling) (- heaving)
-"the heave of waves on a rough sea";
+- Verb: heel (Derived forms: heeled, heels, heeling)
+1. Put a new heel on (- reheel)
+"heel shoes";
  
-2. (geology) a horizontal dislocation
+2. Tilt to one side (- list)
+"The balloon heeled over"; "the wind made the vessel heel";
  
-3. The act of lifting something with great effort (- heaving)
+3. Follow at the heels of a person
  
-4. An involuntary spasm of ineffectual vomiting (- retch)
-"a bad case of the heaves";
+4. (dance) perform with the heels
+"heel that dance"
  
-5. The act of raising something (- lift, raise)
- 
-6. Throwing something heavy (with great effort) (- heaving)
-"he gave it a mighty heave";
+5. (golf) strike with the heel of the club
+"heel a golf ball"
 """,
   );
 
-  final String keyword = "heave";
+  final String keyword = "heel";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -110,64 +104,66 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""heave""");
+    await flutterTts.speak("""heel""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We all heaved on the rope.""");
+    await flutterTts
+        .speak("""Apply the cream to dry, cracked heels before bed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He heaved the bag up into the truck.""");
+    await flutterTts.speak(
+        """Despite severe pain from a badly bruised heel, he ran the race of his life.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I gripped his arm and heaved him to his feet.""");
+    await flutterTts.speak("""The officer clicked his heels and walked out.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The boat heaved beneath them.""");
+    await flutterTts.speak("""She caught her heel and tripped on the step.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Her shoulders heaved with laughter.""");
+    await flutterTts.speak("""She wore high-heeled shoes to the party.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We all heaved a sigh of relief.""");
+    await flutterTts.speak("""She doesn't often wear heels.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The thought of it makes me heave.""");
+    await flutterTts
+        .speak("""The boots were heeled to make them more durable.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""With a mighty heave he lifted the sack onto the truck.""");
+    await flutterTts.speak("""The boat heeled over in the strong wind.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -967,10 +963,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """heave""",
-                      // alsoEnglishWord: "also: heave",
-                      britshText: """IpaUK: /hiːv/""",
-                      americanText: """IpaUS: /hiːv/""",
+                      word: """heel""",
+                      // alsoEnglishWord: "also: heel",
+                      britshText: """IpaUK: /hiːl/""",
+                      americanText: """IpaUS: /hiːl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1010,15 +1006,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: لێنەوین، بەرزکردنەوە، هەڵکێشان،	خستن، هاویشتن، تووڕهەڵدان، حەودان،	تەکان، گوڕم،	(دەریا) شەپۆلاوی‌بوون،	جێگۆڕکێی ڕەگ یان چینەکانی زەوی
+کوردی: پاژنەی پێ، پانیە، لەپان،	پاژنەی پێڵاو یان کەوش، گوهن،	پاژنەی گۆرەوی،	مرۆی شەڕانی و سەربەگۆنگەڵ،	پشت(ی) سم، پش‌سم،	لاق یا پێی دواوە (هی گیانەوەر)، پاژنە
 """),
-// With short examples define "heave", please follow LX instructions
+// With short examples define "heel", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) بەرزکردنەوە، ڕاکێشان، یان فڕێدانی کەسێک/شتێکی زۆر قورس بە هیزی زۆرەوە"""),
+                            """١. (ناو) بەشی پشتەوەی پێ لە خوارەوە کە خڕە؛ ئەو بەشەی گۆرەوی کە ئەم بەشە دادەپۆشێت"""),
                     SentencesRow(
-                      englishText: """We all heaved on the rope.""",
-                      kurdishText: """هەموومان حەبلەکەمان ڕاکێشا.""",
+                      englishText:
+                          """Apply the cream to dry, cracked heels before bed.""",
+                      kurdishText:
+                          """کرێمەکە بدە بەسەر پاژنە پێی وشک و قڵیشاو پێش خەوتن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1026,72 +1024,81 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He heaved the bag up into the truck.""",
-                      kurdishText: """جانتاکەی بەرزکردەوە سەر بارهەڵگرەکە.""",
+                      englishText:
+                          """Despite severe pain from a badly bruised heel, he ran the race of his life.""",
+                      kurdishText:
+                          """سەرەڕای ئازاری سەختی پاژنە پێی شینبووەوە، بەژداری لە پێشبڕکێی ژیانیدا کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) پاژنەی پێڵاو کە دەکەوێتە بەشی دواوە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The officer clicked his heels and walked out.""",
+                      kurdishText:
+                          """ئەفسەرەکە پاژنەی پێڵاوەکەی دا بە زەویدا و چووە دەرەوە.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """I gripped his arm and heaved him to his feet.""",
-                      kurdishText: """باڵیم گرت و بەرزم کردەوە سەر پێیەکانی.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (کردار) بەرزبوونەوە و دانیشتن بە جووڵەی توند و بەهێزەوە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The boat heaved beneath them.""",
-                      kurdishText: """بەلەمەکە لە ژێریاندا نقەی دەهات.""",
+                          """She caught her heel and tripped on the step.""",
+                      kurdishText:
+                          """پاژنەی پێڵاوەکەی گیر بوو و لەسەر پلەکانەکە پیی هەڵکەوت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
-                    // const DividerDefinition(),
-                    // const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    // const DividerSentences(),
-                    // SentencesRow(
-                    //   englishText: """Her shoulders heaved with laughter.""",
-                    //   kurdishText: """رستە_رستە_رستە__رستە.""",
-                    //   onPressedBritish: () => speaksentence5("en-GB"),
-                    //   onPressedAmerican: () => speaksentence5("en-US"),
-                    // ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (کردار) دەرکردنی دەنگێک بە هێواشی و هەوڵدانەوە"""),
+                            """٣. (ناو) هەبوونی ئەو جۆرە پاژنەیەی کە باسکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We all heaved a sigh of relief.""",
-                      kurdishText: """هەموومان ئاهێکی ئاسوودەییمان هەڵکێشا.""",
+                      englishText:
+                          """She wore high-heeled shoes to the party.""",
+                      kurdishText: """پێڵاوی بنبەرزی لە پێ کرد بۆ ئاهەنگەکە.""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) جووتێک پێڵاوی باژنە بەرز"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """She doesn't often wear heels.""",
+                      kurdishText:
+                          """بەو جۆرە نییە زۆرجار بنبەرز لە پێ بکات.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٤. (کردار) هەبوونی ئەو هەستەی کە پێش ڕشانەوە دەتبێت"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: retch"),
+                        text: """٥. (کردار) چاککردنەوەی پاژنەی پێڵاوێک، هتد"""),
+                    const DividerSentences(),
                     SentencesRow(
-                      englishText: """The thought of it makes me heave.""",
-                      kurdishText: """بیرکردنەوە لێی هێڵنجم بۆ دێنێت.""",
+                      englishText:
+                          """The boots were heeled to make them more durable.""",
+                      kurdishText:
+                          """پووتەکان پاژنەکەیان چاککرایەوە بۆ ئەوەی زیاتر بەرگەگر.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٥. (ناو) بەرزکردنەوە، ڕاکێشان، یان فڕێدان"""),
+                        text: """٦. (کردار) پاڵکەوتن بە لایەکدا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """With a mighty heave he lifted the sack onto the truck.""",
+                          """The boat heeled over in the strong wind.""",
                       kurdishText:
-                          """بە بەرزکردنەوەیەکی بەهێزەوە کیسەکەی بەرزکردە سەر بارهەڵگرەکە.""",
+                          """بەلەمەکە کەوت بە لادا لەبەر بایە بەهێزەکە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -2171,18 +2178,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/tSzlgybdkFA?t=';
-const double _startSecondsend = 000000000000000000000000000394;
-const String _videoIdone = 'https://youtu.be/f8euUepDo5w?t=';
-const double _startSecondsone = 000000000000000000000000000382;
-const String _videoIdtwo = 'https://youtu.be/R6gZoAzAhCg?t=';
-const double _startSecondstwo = 000000000000000000000000000281;
-const String _videoIdthree = 'https://youtu.be/0_KhihMIOG8?t=';
-const double _startSecondsthree = 000000000000000000000000000113;
-const String _videoIdfour = 'https://youtu.be/TZANFlvsXv4?t=';
-const double _startSecondsfour = 000000000000000000000000000294;
-const String _videoIdfive = 'https://youtu.be/x9RiG0jINsw?t=';
-const double _startSecondsfive = 000000000000000000000000000589;
+const String _videoIdend = 'https://youtu.be/sWn_Gqzz4gE?t=';
+const double _startSecondsend = 0000000000000000000000000008;
+const String _videoIdone = 'https://youtu.be/mSoHZtyA-9g';
+const double _startSecondsone = 0;
+const String _videoIdtwo = 'https://youtu.be/U1VFnNMKPtg?t=';
+const double _startSecondstwo = 33;
+const String _videoIdthree = 'https://youtu.be/tLD-OUkYtk4?t=';
+const double _startSecondsthree = 0000000000000000000000000001036;
+const String _videoIdfour = 'https://youtu.be/MGO4_8YRKro?t=';
+const double _startSecondsfour = 000000000000000000000000000300;
+const String _videoIdfive = 'https://youtu.be/544DTGHIBM0?t=';
+const double _startSecondsfive = 000000000000000000000000000392;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

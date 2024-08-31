@@ -246,33 +246,52 @@ class ConstantContainer extends StatelessWidget {
   }
 }
 
-class YouTubeScroller extends StatefulWidget {
+// class YouTubeScroller extends StatefulWidget {
+//   final List<Widget> children;
+
+//   const YouTubeScroller({super.key, required this.children});
+
+//   @override
+//   State<YouTubeScroller> createState() => _YouTubeScrollerState();
+// }
+
+// class _YouTubeScrollerState extends State<YouTubeScroller> {
+
+class YouTubeScroller extends ConsumerStatefulWidget {
   final List<Widget> children;
 
+  // const YouTubeScroller({super.key});
   const YouTubeScroller({super.key, required this.children});
 
+  // invalid use of private API
+
   @override
-  State<YouTubeScroller> createState() => _YouTubeScrollerState();
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _YouTubeScrollerState();
 }
 
-class _YouTubeScrollerState extends State<YouTubeScroller> {
+class _YouTubeScrollerState extends ConsumerState<YouTubeScroller> {
+  _YouTubeScrollerState();
+
   int _selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider);
     return Stack(
       children: [
         widget.children[_selectedIndex],
         Positioned(
           bottom: 16,
-          left: 16,
-          right: 16,
-          child: Container(
-            padding: const EdgeInsets.all(8.0),
-            decoration: BoxDecoration(
-              border: Border.all(color: Colors.grey),
-              borderRadius: BorderRadius.circular(8.0),
-            ),
+          left: 4,
+          right: 4,
+          child: ConstantContainer(
+            padding: const EdgeInsets.symmetric(vertical: 12.0),
+            // decoration: BoxDecoration(
+            //   border: Border.all(color: Colors.grey),
+            //   borderRadius: BorderRadius.circular(8.0),
+            // ),
             child: Row(
               children: [
                 if (_selectedIndex > 0)
@@ -282,10 +301,12 @@ class _YouTubeScrollerState extends State<YouTubeScroller> {
                         _selectedIndex--;
                       });
                     },
-                    child: const Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 8.0),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8.0),
                       child: Icon(Icons.chevron_left,
-                          color: Colors.blue, size: 38),
+                          color:
+                              Theme.of(context).primaryColor.withOpacity(0.5),
+                          size: textSize + 22),
                     ),
                   ),
                 Expanded(
@@ -307,18 +328,33 @@ class _YouTubeScrollerState extends State<YouTubeScroller> {
                                   const EdgeInsets.symmetric(horizontal: 4.0),
                               padding: const EdgeInsets.all(8.0),
                               decoration: BoxDecoration(
-                                color: _selectedIndex == index
-                                    ? Colors.blue
-                                    : Colors.transparent,
+                                // color: _selectedIndex == index
+                                //     ? Theme.of(context).primaryColor
+                                //     // ? Colors.blue
+                                //     : Colors.transparent,
                                 border: Border.all(
                                   // color: Colors.grey,
-                                  width: 1.0,
+                                  color: _selectedIndex == index
+                                      ? Theme.of(context).primaryColor
+                                      // ? Colors.blue
+                                      : Colors.transparent,
+                                  width: 0.5,
                                 ),
                                 shape: BoxShape.circle,
                               ),
                               child: Text(
                                 '${index + 1}',
-                                style: const TextStyle(fontSize: 16),
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: _selectedIndex == index
+                                      ? Theme.of(context)
+                                          .primaryColor
+                                          .withOpacity(0.7)
+                                      // ? Colors.blue
+                                      : Theme.of(context)
+                                          .primaryColor
+                                          .withOpacity(0.5),
+                                ),
                               ),
                             ),
                           );
@@ -334,10 +370,12 @@ class _YouTubeScrollerState extends State<YouTubeScroller> {
                         _selectedIndex++;
                       });
                     },
-                    child: const Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 8.0),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8.0),
                       child: Icon(Icons.chevron_right,
-                          color: Colors.blue, size: 38),
+                          color:
+                              Theme.of(context).primaryColor.withOpacity(0.5),
+                          size: textSize + 22),
                     ),
                   ),
               ],
@@ -683,6 +721,7 @@ YoutubePlayerParams getDefaultYoutubePlayerParams() {
   return const YoutubePlayerParams(
     enableCaption: true,
     captionLanguage: 'en',
+    showFullscreenButton: true,
     showControls: false,
     strictRelatedVideos: true,
   );
@@ -1736,7 +1775,7 @@ class _VocabularyExpansionTileState
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(12.0),
           child: InkWell(
             onTap: () {
               setState(() {

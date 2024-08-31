@@ -993,7 +993,7 @@ ${englishMeaningConst.text}
                             """١. (ناو) دارێکی بچووک کە میوەیەکی کاکڵدار هەیە و دەخورێت"""),
                     SentencesRow(
                       englishText: """The hazel tree grew in the backyard.""",
-                      kurdishText: """دار کەلوزەکە لە حەوشەکە گەشەی کرد.""",
+                      kurdishText: """دار کەستانەکە لە حەوشەکە گەشەی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

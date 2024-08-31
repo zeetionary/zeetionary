@@ -156,7 +156,7 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
 
   void _startTimer() async {
     for (var i = 0; i < shuffledWords.length; i++) {
-      await Future.delayed(const Duration(milliseconds: 1100), () {
+      await Future.delayed(const Duration(milliseconds: 3000), () {
         setState(() {
           // _shuffleCurrentIndex = i;
         });

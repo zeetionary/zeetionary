@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryheave extends StatefulWidget {
-  const EnglishEntryheave({super.key});
+class EnglishEntryhelm extends StatefulWidget {
+  const EnglishEntryhelm({super.key});
 
   @override
-  State<EnglishEntryheave> createState() => _EnglishEntryheaveState();
+  State<EnglishEntryhelm> createState() => _EnglishEntryhelmState();
 }
 
-class _EnglishEntryheaveState extends State<EnglishEntryheave> {
+class _EnglishEntryhelmState extends State<EnglishEntryhelm> {
   @override
   void initState() {
     super.initState();
@@ -53,44 +53,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: heave (Derived forms: heaved, heaving, heaves)
-1. Utter a sound, as with obvious effort
-"She heaved a deep sigh when she saw the list of things to do"
+- Noun: helm (Derived forms: helms)
+1. Steering mechanism for a vessel; a mechanical device by which a vessel is steered
  
-2. Throw with great effort
- 
-3. Rise and move, as in waves or billows (- billow, surge)
-"The army heaved forward";
- 
-4. Lift or elevate (- heave up, heft, heft up)
- 
-5. Move or cause to move in a specified way, direction, or position
- 
-6. Breathe noisily, as when one is exhausted (- pant, puff, gasp)
- 
-7. Bend out of shape, as under pressure or from heat (- buckle, warp)
- 
-8. Make an unsuccessful effort to vomit; strain to vomit (- gag, retch)
+2. (figurative) a position of leadership
+"the President is at the helm of the Ship of State"
 
-- Noun: heave (Derived forms: heaves)
-1. An upward movement (especially a rhythmical rising and falling) (- heaving)
-"the heave of waves on a rough sea";
+- Verb: helm (Derived forms: helms, helming, helmed)
+1. Be at or take the helm of
+"helm the ship"
  
-2. (geology) a horizontal dislocation
- 
-3. The act of lifting something with great effort (- heaving)
- 
-4. An involuntary spasm of ineffectual vomiting (- retch)
-"a bad case of the heaves";
- 
-5. The act of raising something (- lift, raise)
- 
-6. Throwing something heavy (with great effort) (- heaving)
-"he gave it a mighty heave";
+2. Lead (an organization) or direct
+"he helmed a snack food company"
 """,
   );
 
-  final String keyword = "heave";
+  final String keyword = "helm";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -110,64 +88,68 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""heave""");
+    await flutterTts.speak("""helm""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We all heaved on the rope.""");
+    await flutterTts
+        .speak("""Who was at the helm when the collision occurred?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He heaved the bag up into the truck.""");
+    await flutterTts
+        .speak("""She helmed a business that brought in £300,000 a month.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I gripped his arm and heaved him to his feet.""");
+    await flutterTts
+        .speak("""She has already helmed a couple of fantastic short films.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The boat heaved beneath them.""");
+    await flutterTts.speak(
+        """He will be helming several upcoming episodes of the series.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Her shoulders heaved with laughter.""");
+    await flutterTts.speak(
+        """The key to becoming a good skipper is being able to sail and helm a boat.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We all heaved a sigh of relief.""");
+    await flutterTts.speak("""speaksentence600""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The thought of it makes me heave.""");
+    await flutterTts.speak("""speaksentence700""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""With a mighty heave he lifted the sack onto the truck.""");
+    await flutterTts.speak("""speaksentence800""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -967,10 +949,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """heave""",
-                      // alsoEnglishWord: "also: heave",
-                      britshText: """IpaUK: /hiːv/""",
-                      americanText: """IpaUS: /hiːv/""",
+                      word: """helm""",
+                      // alsoEnglishWord: "also: helm",
+                      britshText: """IpaUK: /helm/""",
+                      americanText: """IpaUS: /helm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1010,88 +992,92 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: لێنەوین، بەرزکردنەوە، هەڵکێشان،	خستن، هاویشتن، تووڕهەڵدان، حەودان،	تەکان، گوڕم،	(دەریا) شەپۆلاوی‌بوون،	جێگۆڕکێی ڕەگ یان چینەکانی زەوی
+کوردی: 
 """),
-// With short examples define "heave", please follow LX instructions
+// With short examples define "helm", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) بەرزکردنەوە، ڕاکێشان، یان فڕێدانی کەسێک/شتێکی زۆر قورس بە هیزی زۆرەوە"""),
+                            """١. (ناو) دەسکێک یان ویلێک کە کۆنترۆڵی ئاراستەی بەلەم یان کەشتی دەکات"""),
                     SentencesRow(
-                      englishText: """We all heaved on the rope.""",
-                      kurdishText: """هەموومان حەبلەکەمان ڕاکێشا.""",
+                      englishText:
+                          """Who was at the helm when the collision occurred?""",
+                      kurdishText:
+                          """کێ لای سووکانەکە بوو کە پێکدادانەکە ڕوویدا؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) بەڕێوەبردنی دامەزراوەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He heaved the bag up into the truck.""",
-                      kurdishText: """جانتاکەی بەرزکردەوە سەر بارهەڵگرەکە.""",
+                      englishText:
+                          """She helmed a business that brought in £300,000 a month.""",
+                      kurdishText:
+                          """بازرگانییەکی بەڕێوە دەبرد کە ٣٠٠٠٠٠ پاوەند لە مانگێکدا قازانجی دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) دەرهێنانی فیلم یان پڕۆگرامێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """I gripped his arm and heaved him to his feet.""",
-                      kurdishText: """باڵیم گرت و بەرزم کردەوە سەر پێیەکانی.""",
+                          """She has already helmed a couple of fantastic short films.""",
+                      kurdishText:
+                          """پێشوەختە ژمارەیەک کورتە فیلمی ناوازەی دەرهێناوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (کردار) بەرزبوونەوە و دانیشتن بە جووڵەی توند و بەهێزەوە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The boat heaved beneath them.""",
-                      kurdishText: """بەلەمەکە لە ژێریاندا نقەی دەهات.""",
+                      englishText:
+                          """He will be helming several upcoming episodes of the series.""",
+                      kurdishText:
+                          """ژمارەیەک ئەڵقەی داهاتووی زنجیرەکە دەردەهێنێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
-                    // const DividerDefinition(),
-                    // const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    // const DividerSentences(),
-                    // SentencesRow(
-                    //   englishText: """Her shoulders heaved with laughter.""",
-                    //   kurdishText: """رستە_رستە_رستە__رستە.""",
-                    //   onPressedBritish: () => speaksentence5("en-GB"),
-                    //   onPressedAmerican: () => speaksentence5("en-US"),
-                    // ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (کردار) دەرکردنی دەنگێک بە هێواشی و هەوڵدانەوە"""),
+                            """٤. (کردار) کۆنترۆڵکردنی ئاراستەی بەلەم یان کەشتییەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We all heaved a sigh of relief.""",
-                      kurdishText: """هەموومان ئاهێکی ئاسوودەییمان هەڵکێشا.""",
+                      englishText:
+                          """The key to becoming a good skipper is being able to sail and helm a boat.""",
+                      kurdishText:
+                          """کلیلی بوون بە کاپتن ئەوەیە بتوانی چارۆکە و سووکانی بەلەمێک کۆنترۆڵ بکەیت.""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """speaksentence600""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٤. (کردار) هەبوونی ئەو هەستەی کە پێش ڕشانەوە دەتبێت"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: retch"),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
                     SentencesRow(
-                      englishText: """The thought of it makes me heave.""",
-                      kurdishText: """بیرکردنەوە لێی هێڵنجم بۆ دێنێت.""",
+                      englishText: """speaksentence700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٥. (ناو) بەرزکردنەوە، ڕاکێشان، یان فڕێدان"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """With a mighty heave he lifted the sack onto the truck.""",
-                      kurdishText:
-                          """بە بەرزکردنەوەیەکی بەهێزەوە کیسەکەی بەرزکردە سەر بارهەڵگرەکە.""",
+                      englishText: """speaksentence800""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -2171,18 +2157,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/tSzlgybdkFA?t=';
-const double _startSecondsend = 000000000000000000000000000394;
-const String _videoIdone = 'https://youtu.be/f8euUepDo5w?t=';
-const double _startSecondsone = 000000000000000000000000000382;
-const String _videoIdtwo = 'https://youtu.be/R6gZoAzAhCg?t=';
-const double _startSecondstwo = 000000000000000000000000000281;
-const String _videoIdthree = 'https://youtu.be/0_KhihMIOG8?t=';
-const double _startSecondsthree = 000000000000000000000000000113;
-const String _videoIdfour = 'https://youtu.be/TZANFlvsXv4?t=';
-const double _startSecondsfour = 000000000000000000000000000294;
-const String _videoIdfive = 'https://youtu.be/x9RiG0jINsw?t=';
-const double _startSecondsfive = 000000000000000000000000000589;
+const String _videoIdend = 'https://youtu.be/b1reY72ktEc?t=';
+const double _startSecondsend = 000000000000000000000000000890;
+const String _videoIdone = 'https://youtu.be/l6PlMpncVuc?t=';
+const double _startSecondsone = 00000000000000000000000000070;
+const String _videoIdtwo = 'https://youtu.be/_rBO8neWw04?t=';
+const double _startSecondstwo = 000000000000000000000000000449;
+const String _videoIdthree = 'https://youtu.be/4Nr1AgIfajI?t=';
+const double _startSecondsthree = 0000000000000000000000000001283;
+const String _videoIdfour = 'https://youtu.be/eaQfEP45LEs?t=';
+const double _startSecondsfour = 000000000000000000000000000144;
+const String _videoIdfive = 'https://youtu.be/JKFvCjItGDg?t=';
+const double _startSecondsfive = 00000000000000000000000000022;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

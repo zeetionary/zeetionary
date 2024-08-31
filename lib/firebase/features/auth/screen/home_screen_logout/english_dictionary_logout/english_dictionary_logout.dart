@@ -98,7 +98,7 @@ class _DictionaryScreenEnglishLogoutState
 
   void _startTimer() async {
     for (var i = 0; i < shuffledWordsLogout.length; i++) {
-      await Future.delayed(const Duration(milliseconds: 1100), () {
+      await Future.delayed(const Duration(milliseconds: 3000), () {
         setState(() {
           _shuffleCurrentIndex = i;
         });

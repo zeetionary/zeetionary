@@ -217,7 +217,7 @@ class _DictionaryScreenEnglishState
 
   void _startTimer() async {
     for (var i = 0; i < shuffledWords.length; i++) {
-      await Future.delayed(const Duration(milliseconds: 1100), () {
+      await Future.delayed(const Duration(milliseconds: 3000), () {
         setState(() {
           _shuffleCurrentIndex = i;
         });
@@ -478,20 +478,20 @@ class _DictionaryScreenEnglishState
                 onChanged: filterResults,
                 decoration: InputDecoration(
                   focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Theme.of(context)
-                              .highlightColor, // Set your desired color here
-                          width: 2.0, // Set the border width
-                        ),
-                      ),
-                      // enabledBorder: OutlineInputBorder(
-                      //   borderSide: BorderSide(
-                      //     color: Theme.of(context)
-                      //         .highlightColor, // The color of the border when not focused
-                      //     width: 2.0,
-                      //   ),
-                      // ),
-                      border: const OutlineInputBorder(),
+                    borderSide: BorderSide(
+                      color: Theme.of(context)
+                          .highlightColor, // Set your desired color here
+                      width: 2.0, // Set the border width
+                    ),
+                  ),
+                  // enabledBorder: OutlineInputBorder(
+                  //   borderSide: BorderSide(
+                  //     color: Theme.of(context)
+                  //         .highlightColor, // The color of the border when not focused
+                  //     width: 2.0,
+                  //   ),
+                  // ),
+                  border: const OutlineInputBorder(),
 
                   hintText: shuffledWords.isEmpty
                       ? ''

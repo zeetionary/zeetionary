@@ -405,8 +405,8 @@ class _QuizScreenState extends ConsumerState<QuizScreen> {
                 // height: double.infinity,
                 constraints: BoxConstraints(
                   // maxHeight: double.infinity,
-                  maxHeight: MediaQuery.of(context).size.height * 0.6,
-                  minHeight: MediaQuery.of(context).size.height * 0.6,
+                  maxHeight: MediaQuery.of(context).size.height * 0.55,
+                  minHeight: MediaQuery.of(context).size.height * 0.55,
                 ),
                 child: SingleChildScrollView(
                   child: Column(

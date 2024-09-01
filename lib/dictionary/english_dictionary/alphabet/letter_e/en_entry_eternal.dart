@@ -310,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The two heroes swore eternal friendship.""",
             kurdishText:
-                """دوو ھاوڕێیەکە سوێندی ھاوڕێیەتیی ھەمیشەییان خوارد.""",
+                """دوو پاڵەوانەکە سوێندی ھاوڕێیەتیی ھەمیشەییان خوارد.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),

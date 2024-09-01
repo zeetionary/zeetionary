@@ -221,14 +221,6 @@ class KurdishMeaning extends StatelessWidget {
         "He deplored the fact that these criminals were treated by many as heroes and martyrs.");
   }
 
-  Future<void> speakdeplores20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        "He deplored the fact that these criminals were treated by many as heroes and martyrs.0");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

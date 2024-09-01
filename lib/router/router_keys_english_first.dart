@@ -12692,7 +12692,7 @@ Map<String, PageBuilder> getRoutesEnglishFirst() {
   // "/english-hash/hashish": (_) => _blP(const EnglishEntryhashish()),
   // "/english-hash/hashtag": (_) => _blP(const EnglishEntryhashtag()),
   // "/english-hatch/hatchway": (_) => _blP(const EnglishEntryhatchway()),
-  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-hemp/cannabis": (_) => _blP(const EnglishEntrycannabis()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),

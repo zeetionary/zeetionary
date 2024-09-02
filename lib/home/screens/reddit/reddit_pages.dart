@@ -699,17 +699,21 @@ class RedditComments extends ConsumerWidget {
                                               speakAmerican(data['body']),
                                         ),
                                         IconButton(
-                                          icon: Container(
-                                            decoration: BoxDecoration(
-                                              shape: BoxShape.circle,
-                                              border: Border.all(
-                                                  color: Colors.blue,
-                                                  width: 1.0),
-                                            ),
+                                          icon: ConstantContainer(
+                                            // decoration: BoxDecoration(
+                                            //   shape: BoxShape.circle,
+                                            //   border: Border.all(
+                                            //       color: Theme.of(context)
+                                            //           .primaryColor,
+                                            //       // color: Colors.blue,
+                                            //       width: 1.0),
+                                            // ),
                                             padding: const EdgeInsets.all(6.0),
                                             child: Icon(
                                               Icons.pause,
-                                              color: Colors.blue,
+                                              color: Theme.of(context)
+                                                  .primaryColor,
+                                              // color: Colors.blue,
                                               size: textSize - 3,
                                             ),
                                           ),

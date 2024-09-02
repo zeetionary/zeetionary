@@ -144,7 +144,6 @@ A member of the people living in Australia when Europeans arrived (= Aborigine, 
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -162,7 +161,6 @@ A member of the people living in Australia when Europeans arrived (= Aborigine, 
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (مرۆڤ، ڕووەک یان گیانەوەر) ڕەسەن، بوومی، خۆجێیی، ناوچەیی، خۆماڵی، سەرەتانشین، دانیشتووانی ڕەسەنی ئەوسترالیا، 
 """),

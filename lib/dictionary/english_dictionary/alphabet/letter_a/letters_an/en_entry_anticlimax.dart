@@ -144,7 +144,6 @@ class EnglishEntryanticlimax extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: داکەوتن، داشکان، شۆڕبوونەوە، داچوون، ھاتنەخوارێ، لێژبوونەوە، ڕووداو، قۆناخ یان ئەنجامێ کە بە شێوەیەکی بەرچاو لە گرنگایەتی چاوەڕوان‌کراوی کەم‌تر دەبێتەوە، کەوتنان، داکەوتن، داشکان (وەک لە داستان و چیرۆکەکان‌دا، وەک "ژنەکەم مرد، ماڵەکەمیان برد و سەگەکەشم گوم بوو.")، ناھومێدی، دڵساردی
 """),
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

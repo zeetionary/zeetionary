@@ -517,7 +517,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -532,7 +531,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: زۆر، زەبر، توندوتیژی، زەبروزەنگ، جەور، زۆرەملی، سەنگی، نھێم، ھێز، ستین، قەوەت، شیان، تابشت،	دەسەڵات (قانوونی)،	کردەوەی جەستەیی توندوتیژانە،	توندی،	(فیزیک) ھێز،	(سەربازی) ھێز، ھێزەکان، کردەوەی سەربازی،	(لێداون یان بەڵگەھێنانەوە) تۆکمەیی، بڕایی، پێز، ھێز،	ھێزی سروشتی،	پۆلیس، ھێزی پۆلیس،	ھۆکاری دیاری‌کەر، ھۆکاری کاریگەر،	گروپ، دەستە، کۆمەڵە،	کارتێ‌کردن، شوێن‌دانان، کاریگەری، گرنگایەتی، باندۆر،	پێوەری بەھێزی با، ھێزەکان، ھێزە چەکدارەکان، سەربازەکان و چەک‌وچۆڵ
 """),

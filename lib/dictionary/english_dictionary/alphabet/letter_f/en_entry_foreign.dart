@@ -201,7 +201,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دەرەکی، دەروەیی، دەرەوە،	لە دەرەوەی وڵات، ھەٌڵکەوتوو لە دەرەوەی وڵات (خۆ)،	بێگانە، بیانی، لایدە، نەناس، لاوەکی، غەوارە، غەیرە، نائاشنا، ناشناس، نائاسایی،	بێگانە، بیانی، لە لایەن دەزگای پاراستنەوە وەک بەشێکی خۆ ناناسرێتەوە
 """),

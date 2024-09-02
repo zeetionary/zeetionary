@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -189,7 +188,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: تێشکان، سەرنەکەوتوویی، نامرادی، خەفەکراوی، کپ‌کراوی، دامرکاوی، دامراوی، ناھومێدی، دڵساردی، سەرکوێری، بێ‌ھیوایی، دەس‌شکاوی، داماوی، بێ‌دەسەڵاتی، بەیدەسی،	پووچەڵ‌کردنەوە، لەکارخستن، نەزۆکاندن، لە کاریگەری خستن،	بێ‌بەشی، بێ‌بەری،	ناقایلی، پێخۆش‌نەبوون، ناڕەزایەتی،	ڕق‌ھەستاوی، ناڕەحەتی
 """),

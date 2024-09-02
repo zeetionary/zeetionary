@@ -233,7 +233,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: درگا، سەر، زمانە (گیرفان، بەرگ و ھتد)،	دەنگی شەقەشەق، شەق‌وکوت،	فلەپ، پەردەباڵ، باڵۆچکەی زیادی جووڵۆک، باڵەجووڵە، شەقەباڵ، دەربیجەی باڵ (بەشێ لە باڵی فڕۆکە بۆ کۆنتڕۆڵی بەرز یان نەوی‌بووەنەوەی بەکاردێ)،	پەشۆکان، گێژی، سەرسامی، باری نیگەرانی، ھەژان، ورووژان،	(میز، فڕۆکە) لا، باڵ، بەشی ھەڵواسراوی میز(ی قەدکراو)
 """),

@@ -145,7 +145,6 @@ class EnglishEntryarmchair extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کورسی دەسک‌دار، سەندەڵی لادار، دوور لە کردەوە، نەکردەنی، ناکرداری، ناکردەوەیی، فشە
 """),
@@ -259,7 +258,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

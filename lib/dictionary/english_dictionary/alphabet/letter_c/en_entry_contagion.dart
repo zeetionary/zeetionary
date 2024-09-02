@@ -91,7 +91,6 @@ class EnglishEntrycontagion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گرتنەوە، داگرتن، تووش‌بوون، تەشەنە(کردن)، بڵاوبوونەوە، تەنینەوە،	نەخۆشی بگرەوە، پەتا، درم، ئاھۆ،	بڵاوبوونەوە، تەنینەوە
 """),
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

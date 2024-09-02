@@ -97,7 +97,6 @@ class EnglishEntrycoloured extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕەنگی، نەخشین، بە ڕەنگی، ـرەنگ، باو، ئاماڵ‌ـ، مەیلەوـ
 """),
@@ -231,7 +230,6 @@ Usage: Brit, Cdn, offensive (US: colored)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

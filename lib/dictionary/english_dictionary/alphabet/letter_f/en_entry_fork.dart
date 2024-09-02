@@ -222,7 +222,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -237,7 +236,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: چنگاڵ، چەتاڵ، ملێبۆک،	شەن، شەنە، ھەسک، درگان، گۆ، کارێج، تەبور، ملێب، قەلەپیسک، ھیرگووش، سێ‌دەندەک، پەنجە، پەنجەقازی (ئامێری کشت‌وکاڵ)،	دوڕیانە، دووڕێیانە،	(لق)لێبوونەوە، پەل‌لێبوونەوە،	دوولقانە، دووفلیقانە، دووحاچە، دوولکانە (دووچەرخە)،	بنی ڕان، گەڵ، ناوگەڵ، خەرک
 """),

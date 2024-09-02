@@ -133,7 +133,6 @@ class EnglishEntrybollard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کۆڵەکەڕاگرە، ڕاگرە، کۆڵەکەی مەھار یان ڕاگرتن، ڕاگیرە، بەستنگای تەنافەکان (کەشتی)، کۆڵەکەمەترسی، کۆڵەکەی مەترسی
 """),
@@ -251,7 +250,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

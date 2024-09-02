@@ -100,7 +100,6 @@ class EnglishEntryconjecture extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: وازانین، وادانان، مەزندە، گۆترە، گومان، بۆچوون، ڕاوێژ، گریمانەکردن
 """),
@@ -236,7 +235,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

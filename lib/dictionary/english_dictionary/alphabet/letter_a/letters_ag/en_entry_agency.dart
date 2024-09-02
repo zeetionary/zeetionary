@@ -99,7 +99,6 @@ class EnglishEntryagency extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئاژانس، دەزگا، کارگێڕی، نووسینگەی کارداری، لق، نوێنەرایەتی، بەڕێوەبەری نوێنەرایەتی، یارمەتی، نێوگژیوانی، ناوبەری، دەڵاڵی، ناوبژێتی، بەشی کارگێڕی، بەشی بەڕێوەبەری، کار
 """),
@@ -218,7 +217,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

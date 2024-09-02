@@ -140,7 +140,6 @@ class EnglishEntryangst extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (لە ئاڵمانی‌یەوە بە واتای "ترس.") نگەرانی، ترس، دەروون‌تەنگی، ئارام‌لێ‌ھەڵگیراوی، دڵەڕاوکێ، ناڕەحەتی (بەتایبەت لە ڕەوش و بارودۆخی جیھان‌دا)
 """),
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

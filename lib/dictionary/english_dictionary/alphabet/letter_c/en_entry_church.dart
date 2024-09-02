@@ -163,7 +163,6 @@ class EnglishEntrychurch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کلێسە، کلیسا،	ڕێ‌وڕەسمی کلێسەیی یان دینی، خواپەرستیم،	دین، ئایینزا،	کۆمەڵی دینی کریستیەنەکان، گروپی ئایین‌گەری
 """),
@@ -401,7 +400,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

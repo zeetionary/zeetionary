@@ -135,7 +135,6 @@ class EnglishEntrybastard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (مناڵ) زۆڵ یا حەرام‌زادە، مرۆڤی زۆڵ، حەرام‌زا، بیژوو، بیژی، پیچ، زۆڵ‌زادە، ناڕەوا؛ دوڕڕە، تێکەڵ، ناڕەسەن، ساختە، درۆ، درۆزنە، قەڵب، قەحبەدایک، دایک‌کوونی، دایک‌جندە، خاوەنی شێوە یان بارستەیەکی نائاسایی، نالەبار، بەدقەوارە
 """),
@@ -274,7 +273,6 @@ Usage: vulgar
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

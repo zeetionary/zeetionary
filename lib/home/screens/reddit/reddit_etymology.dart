@@ -222,25 +222,25 @@ class _RedditEtymologyState extends ConsumerState<RedditEtymology> {
                                     post['title'],
                                     style: TextStyle(fontSize: textSize + 2),
                                   ),
-                                  subtitle: post['thumbnail'] != null &&
-                                          post['thumbnail'] != '' &&
-                                          post['thumbnail'] != 'self'
-                                      ? Padding(
-                                          padding: const EdgeInsets.only(
-                                              top: 20.0,
-                                              left: 6.0,
-                                              right: 6.0,
-                                              bottom: 6.0),
-                                          child: ClipRRect(
-                                            borderRadius:
-                                                BorderRadius.circular(18.0),
-                                            child: Image.network(
-                                              post['thumbnail'],
-                                              fit: BoxFit.cover,
-                                            ),
-                                          ),
-                                        )
-                                      : null,
+                                  // subtitle: post['thumbnail'] != null &&
+                                  //         post['thumbnail'] != '' &&
+                                  //         post['thumbnail'] != 'self'
+                                  //     ? Padding(
+                                  //         padding: const EdgeInsets.only(
+                                  //             top: 20.0,
+                                  //             left: 6.0,
+                                  //             right: 6.0,
+                                  //             bottom: 6.0),
+                                  //         child: ClipRRect(
+                                  //           borderRadius:
+                                  //               BorderRadius.circular(18.0),
+                                  //           child: Image.network(
+                                  //             post['thumbnail'],
+                                  //             fit: BoxFit.cover,
+                                  //           ),
+                                  //         ),
+                                  //       )
+                                  //     : null,
                                   onTap: () {
                                     Routemaster.of(context).push(
                                         '/english-subreddit/reddit-etymology/post/${post['id']}');

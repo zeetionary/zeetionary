@@ -145,7 +145,6 @@ class EnglishEntryarmoured extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زرێ‌دار، زرێیی، زرێپۆشی
 """),
@@ -246,7 +245,6 @@ Usage: Brit, Cdn (US: armored)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

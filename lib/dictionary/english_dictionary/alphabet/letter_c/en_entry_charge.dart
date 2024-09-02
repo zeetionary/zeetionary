@@ -424,7 +424,6 @@ class EnglishEntrycharge extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گوناھبارکردن، تاوانباری، گومانبارکردن، تۆمەت، شەڵتاخ، بوختان، چەفتە، نرخ، بایی، قیمەت، حەق، حەق‌دەس، مز، کرێ، مەزاخ، خەرج، تێچوون،	سەرپەرشتی، سەرپەرستی، چاودێری، سەخبیری، چاوبەسەری، سەرنج، بەرپرسایەتی،	کۆنتڕۆڵ، مەھار، دەست‌بەسەراگرتن،	قەرز،	ئەرک، پەیور،	ھێرش، گوژمە، پەلامار،	دەستوور، فەرمان،	(چەک) تەقەک، پێتەق، خەرج،	(ئێلیکتریسیتی) بارگ، بارگە، بار
 """),
@@ -1169,7 +1168,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

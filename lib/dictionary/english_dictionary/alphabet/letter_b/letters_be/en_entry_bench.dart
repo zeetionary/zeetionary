@@ -136,7 +136,6 @@ class EnglishEntrybench extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: میز، قەنەفە، کورسی، تەخت، سەکۆ، تەختە، میز یان مێزی کار، تەختە یان میزی کار، دادگەر، دادوەر، دادپرس، دادگا، دەستەی دادگەران (دادوەران)، کورسی دادگایی، کارگە، دەزگا
 """),
@@ -312,7 +311,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

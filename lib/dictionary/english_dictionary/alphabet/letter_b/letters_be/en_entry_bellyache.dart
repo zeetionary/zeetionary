@@ -134,7 +134,6 @@ class EnglishEntrybellyache extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ژانەسگ، سکاڵا، بۆڵەبۆڵ، پرتەوبۆڵە، خوتەخوت
 """),
@@ -254,7 +253,6 @@ Usage: informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

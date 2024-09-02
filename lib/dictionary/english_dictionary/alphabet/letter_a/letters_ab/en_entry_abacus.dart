@@ -129,7 +129,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -273,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: چۆتکە، چرت، چۆرتکە (بە خۆی ڕووسی‌یە)، ژمێرکە، چۆرت، ئەژمێر (چوارچێوەی مووروودار بۆ ژمارەکاری)
 """),

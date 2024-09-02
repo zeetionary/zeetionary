@@ -92,7 +92,6 @@ class EnglishEntryaerial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئاریەڵ، ھەوایی، حەوایی، بایی، ئاسمانی، فڕینی، سەربە فڕین، بڵیند، خەیاڵی، ھیچ، پڕوپووچ، بێ‌بنچینە، سووک، (بەشێ لە گیا یان ڕووەک) لە سەرووی عەرزەوە شین دەبێ
 """),
@@ -210,7 +209,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

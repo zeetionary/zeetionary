@@ -115,7 +115,6 @@ class EnglishEntrycord extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: 	تەناف، گوریس، دوژ، وەریس، ڕێسمان، چەلا، کەندر، شریت، پەت، پەتک، بەن، دەزوو، پێبەست،	میل، ڕێڕێی پارچە،	ئەندازەیەکی دارینە بە 128 پێ یان فووتی سێ‌جاوە (یان 3.62 میتری سێ‌جاوە)،	بەستەر، پەتک، تاڵ، ژێ،	تاڵ، ژێ (قوڕگ)،	سیم، تەل، تێل، تاڵ، وایەر (تێل، کارەبا)
 """),
@@ -273,7 +272,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

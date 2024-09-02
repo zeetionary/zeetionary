@@ -172,7 +172,6 @@ class EnglishEntrycanon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: قانوون، زاگۆن، زاکوون، ڕێسا، بنەڕەت، بنەما، بنچینە، قانوونی کلێسە یان شەرع، قەشە (ئەندامی کلێسەی کاتێدراڵ)، قانوونی کلێسە یان شەرع، کتێبە ڕەسەن یان قانوونی‌یەکان (ئەو کتێبانەی کەوا لە لایەن کلێسەوە پەسند کراون)، پێودانگ، پێوەر، کێشانە، پێوانە، شوێنەوار یان نووسراوە باوەڕپێکراو یان ڕەسەنەکان (ھی نووسەرێ)، داب و نەریت
 """),
@@ -310,7 +309,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

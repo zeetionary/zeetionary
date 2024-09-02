@@ -98,7 +98,6 @@ class EnglishEntryagony extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئەشکەنجە، ئازار، ڕەنج، ئێش، مەینەتی، بەڵا، ژان، دەرد، سوێ، گیانەڵا، ئاویلکە، ھەوزینگ، حەول، ھەوڵ، تەقەلا
 """),
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

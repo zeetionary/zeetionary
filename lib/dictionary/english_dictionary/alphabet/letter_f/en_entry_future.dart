@@ -252,7 +252,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -267,7 +266,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: داھاتوو، دادێ، وادێ، پاشەڕۆژ، پاشین، دواڕۆژ،	ڕووداوەکانی داھاتوو،	ھیوای سەرکەوتوویی،	(ڕێزمان) سەردەمی داھاتوو،	داھاتوو، دوایی، دواتر، پاش‌تر، دوا، پاشین
 """),

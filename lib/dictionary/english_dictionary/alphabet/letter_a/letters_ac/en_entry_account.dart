@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەژمار، حساب، لیستی حیساب، قازانج، خێر، کەڵک، مەفا، سوود، بەھرە، سوود، بەھرە، باس‌کردن، لێدوان، لێکدانەوە، گێڕانەوە، تیشک خستنەسەر، ڕوون‌کردنەوە، ھۆ، سەرنج، ئاوڕلێدانەوە
 """),

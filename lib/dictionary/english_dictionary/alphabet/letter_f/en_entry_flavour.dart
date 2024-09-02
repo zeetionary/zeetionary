@@ -196,7 +196,6 @@ Usage: Brit, Cdn (US: flavor)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -211,7 +210,6 @@ Usage: Brit, Cdn (US: flavor)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: تام، چێژ، مەزە،	بەھارات، کاری، ھەزوێلە،	کەش، تایبەتمەندی، تام‌وبۆ، سەنگ‌وڕەنگ، ڕەنگ‌وبۆ
 """),

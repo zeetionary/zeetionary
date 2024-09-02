@@ -99,7 +99,6 @@ class EnglishEntryalmond extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بادەم، بایەم، بەھیڤ، کاکڵە بادام، چوالە، ناوکە بادام، درەخت یان داربادەم
 """),
@@ -197,7 +196,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

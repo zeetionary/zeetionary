@@ -133,7 +133,6 @@ class EnglishEntrybird extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: باڵدار، باڵندە، فڕندە، پەلەوەر، مەل، مرۆ، بنیادەم، پیاو، کچ، کەنیشک
 """),
@@ -277,7 +276,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

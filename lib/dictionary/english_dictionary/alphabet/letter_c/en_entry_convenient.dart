@@ -145,7 +145,6 @@ class EnglishEntryconvenient extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئاسان، سانا، ئاسوودە، ڕاحەت، حەساوە، لە ئاسایش‌دا، بەقازانج، بەسوود، لەبار، کارخۆش، گونجاو
 """),
@@ -326,7 +325,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

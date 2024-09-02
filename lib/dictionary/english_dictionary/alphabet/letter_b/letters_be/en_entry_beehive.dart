@@ -134,7 +134,6 @@ class EnglishEntrybeehive extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کەلوو، کەندوو، کەنوو، پلوورە، خڵێف، کوورە، کوورەھەنگ، ھەنگ‌دان، ھەنگەژاڵ، کاریتان، ھوویسیر، ھوویسیل (لە شووڵ تەنراو)، کەنوویی (جۆرێ شێوازی قژی ژنان، باوی شەستەکان)
 """),
@@ -256,7 +255,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

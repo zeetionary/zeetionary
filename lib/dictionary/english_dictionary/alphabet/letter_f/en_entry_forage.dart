@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -172,7 +171,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: تفاق، ئالیک، واشە، ئاڵف، ئاژو، کاوگیا، کاووێنجە،	لەدواگەڕان، (بە شوێن‌دا)خولانەوە، گەڕان، سووڕانەوە
 """),

@@ -129,7 +129,6 @@ class EnglishEntrybull extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: جوانەگا، وەرزا، وەرزە، جەل، بەرجووت، کەڵ، کەڵەگا، نێرەگا، نێرەفیل، نێرەنەھەنگ (گیانەوەرە زلەکانی تریش)، (ڕەمەکی) پاسەبان، پۆلیس، ئاژان
 """),
@@ -301,7 +300,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

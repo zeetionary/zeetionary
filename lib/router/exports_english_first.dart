@@ -5234,14 +5234,14 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_hesitation.dart' show EnglishEntryhesitation
 // en_entry_heterogeneous.dart' show EnglishEntryheterogeneous
 // en_entry_heterosexual.dart' show EnglishEntryheterosexual
-// en_entry_het_up.dart' show EnglishEntryhetup //// فففف het up
+// en_entry_het_up.dart' show EnglishEntryhetup //// فففف het up 
 // en_entry_heyday.dart' show EnglishEntryheyday
 // en_entry_hi.dart' show EnglishEntryhi
 // en_entry_hiatus.dart' show EnglishEntryhiatus
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hibernate.dart' show EnglishEntryhibernate
+// en_entry_hibernation.dart' show EnglishEntryhibernation
+// en_entry_hiccup.dart' show EnglishEntryhiccup
+// en_entry_hide.dart' show EnglishEntryhide
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

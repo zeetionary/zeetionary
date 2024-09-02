@@ -100,7 +100,6 @@ class EnglishEntryadmissible extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: جێی‌پەسند، وەرگیراو، پەسندکراو، پەسند، جێی‌باوەڕ، ڕەوا، ڕێ‌پێدراو، بەجێ، دادگاپەسند
 """),
@@ -199,7 +198,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -285,7 +285,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -300,7 +299,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پلە، نمرە، چین، ئەندازە، چینە، توێژ،	پلەی سەربازی،	قۆناخ،	ڕادە، پایە، تەراز، ئاست،	پۆل، ساڵی خوێندن، نمرە، نیشە،	جۆر، چەشن، ئاوا
 """),

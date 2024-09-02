@@ -86,14 +86,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The gadget helpfully points out what you are doing wrong.""");
+    await flutterTts
+        .speak("""The gadget helpfully points out what you are doing wrong.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She helpfully suggested that I try the local library.""");
+    await flutterTts
+        .speak("""She helpfully suggested that I try the local library.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -961,7 +963,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -976,25 +977,32 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دڵسۆزانە، بەسوودانە، بەکارهاتووانە
 """),
 // With short examples define "helpfully", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە شێوەیەک کە کە دۆخێکی دیاریکراو باش دەکات و بەسوودە بۆی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە کە دۆخێکی دیاریکراو باش دەکات و بەسوودە بۆی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: usefully"),
                     SentencesRow(
-                      englishText: """The gadget helpfully points out what you are doing wrong.""",
-                      kurdishText: """ئامێرەکە بە شێوەیەکی بەسوود پیشانی دەدات کە چی بە هەڵە دەکەیت.""",
+                      englishText:
+                          """The gadget helpfully points out what you are doing wrong.""",
+                      kurdishText:
+                          """ئامێرەکە بە شێوەیەکی بەسوود پیشانی دەدات کە چی بە هەڵە دەکەیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵکار) بە شێوەیەک کە پیشانی دەدات ئامادەیت بۆ یارمەتی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە پیشانی دەدات ئامادەیت بۆ یارمەتی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She helpfully suggested that I try the local library.""",
-                      kurdishText: """بە یارمەتیدۆستانە پێشنیاری کرد لە بچمە کتێبخانە لۆکاڵییەکە.""",
+                      englishText:
+                          """She helpfully suggested that I try the local library.""",
+                      kurdishText:
+                          """بە یارمەتیدۆستانە پێشنیاری کرد لە بچمە کتێبخانە لۆکاڵییەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

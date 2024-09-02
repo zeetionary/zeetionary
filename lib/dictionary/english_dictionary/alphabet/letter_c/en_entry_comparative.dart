@@ -114,7 +114,6 @@ class EnglishEntrycomparative extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (ڕێزمان) بەراوردکاری‌یانە،	بەریەک‌دەرانە، بەراوردکارانە، بەراوردی،	ڕێژەیی،	بەراورد،	(ڕێزمان، ئاوەڵناو یان ئاوەڵکار) بەراورد، بەراورددەربڕ
 """),
@@ -275,7 +274,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

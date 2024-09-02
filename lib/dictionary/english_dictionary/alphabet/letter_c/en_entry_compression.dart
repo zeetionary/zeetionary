@@ -92,7 +92,6 @@ class EnglishEntrycompression extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پەستان، داگرتن، پەستاوتن، پەسواندن، داتەپاندن، گوشاردان، گڤاشتن، گوشین، پاڵیەک‌نان، داشێلان، پەسێوراوی، داتەپیوی، داشێلاوی،	گوشار، پەستان،	کورتی، پوختی
 """),
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

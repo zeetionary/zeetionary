@@ -252,7 +252,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: گیرکردن، پێوەبوون، تووش‌بوون، گیر، قۆرت، گرێ، تێوەگلان، دوچاربوون، ئاڵاوی، گێچەڵ، مایەی تووش‌بوون یان گیر، تێوەگلێنە، (سەربازی) تۆڕی تێلبەند، تێلبەندان، لەمپەری ئاسن‌دڕک
 """),
@@ -329,7 +328,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

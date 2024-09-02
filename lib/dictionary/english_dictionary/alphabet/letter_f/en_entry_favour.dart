@@ -389,7 +389,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: چاکە، باشە، پیاوەتی، خاسی، سایە، قنجی،	پشتیوانی، لایەنگری،	جیاوازی‌دانان،	یارمەتی، دەس‌گرتن، دڵسۆزی، ئاوڕدانەوە، لالێدانەوە،	خۆشەویستی،	قازانج، سوود، بەھرە، مەفا،	جیاوازی، فەرق،	نیشانە، دروشم
 """),
@@ -657,7 +656,6 @@ Usage: Brit, Cdn (US: favor)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

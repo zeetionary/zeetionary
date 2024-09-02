@@ -135,7 +135,6 @@ class EnglishEntrybiological extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زیندەناسی‌یانە، سەربە زیندەوەرناسی، زیندەوەری، (باوان یان مناڵێ) بە ڕێگای خوێنەوە پێوەندی‌یان ھەیە، سروشتی
 """),
@@ -289,7 +288,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

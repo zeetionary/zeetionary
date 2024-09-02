@@ -321,7 +321,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: دەربڕین، وتن، ھێنانەسەرزمان، ڕوون‌کردنەوە، باس‌کردن،	حاڵەت، دۆخ، قیافە، حاڵەتی ڕوخسار،	زاراوە، وشە، پەیڤ، لاڕستە، دەستەوشە
 """),
@@ -498,7 +497,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

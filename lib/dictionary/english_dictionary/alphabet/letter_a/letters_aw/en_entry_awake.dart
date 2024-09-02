@@ -135,7 +135,6 @@ class EnglishEntryawake extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەستاو، بەخەبەر، نەخەوتوو، نەنووستوو، ھۆشیار، ئاگادار، (بە)ئاگا
 """),
@@ -266,7 +265,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

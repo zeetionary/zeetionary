@@ -98,7 +98,6 @@ class EnglishEntrychime extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زەنگ، گەڕناڵ، چام، زرنگە، دەنگی زەنگ، زڕە،	دستەزەنگ (کلێسە)،	پێکھاتن، سازان، گونجان، ڕێک‌کەوتن، لھەڤ‌ھاتن
 """),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

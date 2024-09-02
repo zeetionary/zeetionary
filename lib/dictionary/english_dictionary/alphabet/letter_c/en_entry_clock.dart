@@ -162,7 +162,6 @@ class EnglishEntryclock extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کات‌ژمێر، سەعات (بێجگەلە دەستی)،	کات، وەخت و زەمان،	تاکسی‌میتر،	خێرایی‌پێوی ماشین،	سەرەخڕی تۆوداری کوڵکنی شەلەمکەرە
 """),
@@ -394,7 +393,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -132,7 +132,6 @@ class EnglishEntryblonde extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: قژکاڵ (ژن)، ڕەنگی قژی کاڵ، پرچ‌زەر(د)
 """),
@@ -270,7 +269,6 @@ A light greyish yellow to near white (= blond)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

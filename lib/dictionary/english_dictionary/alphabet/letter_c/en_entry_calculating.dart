@@ -169,7 +169,6 @@ class EnglishEntrycalculating extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زیرەک، وریا، (باش)لێکدەرەوە، زرینگ
 """),
@@ -179,8 +178,7 @@ class EnglishEntrycalculating extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "I never realized you could be so calculating.",
-                            kurdishText:
-                                "ھەرگیز نەمزانی دەکرا ھێندە زرنگ بیت.",
+                            kurdishText: "ھەرگیز نەمزانی دەکرا ھێندە زرنگ بیت.",
                             onPressedBritish: () => speakcalculatings1("en-GB"),
                             onPressedAmerican: () =>
                                 speakcalculatings1("en-US"),
@@ -274,7 +272,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

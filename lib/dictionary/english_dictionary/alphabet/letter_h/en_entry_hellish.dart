@@ -964,7 +964,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -979,12 +978,12 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دۆژەیی، شیاوی دۆزەخ، جەهەنمی،	شەیتانی، خراپ، پیس،	ناخۆش، بێزاوی
 """),
 // With short examples define "hellish", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) تەواو نەخۆش"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) تەواو نەخۆش"""),
                     SentencesRow(
                       englishText: """His school days were hellish.""",
                       kurdishText: """ڕۆژانی قوتابخانەی تەواو دۆزەخ بوون.""",

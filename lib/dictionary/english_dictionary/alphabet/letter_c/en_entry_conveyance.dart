@@ -100,7 +100,6 @@ class EnglishEntryconveyance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گواستنەوە، ڕاگوێستن، گوێزانەوە، ڕاکێشان، کێشان، بردن، ناردن، شاندن، ھەڵگرتن، گەیاندن،	ڕاگوێزە، ئۆتۆمبێل،	(ماف) بەنێوکردن، ڕاگوێستن،	قەباڵەی بەناوکردن یان ڕاگوێستن، تاپۆ، ڕاگوێستن‌نامە
 """),
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

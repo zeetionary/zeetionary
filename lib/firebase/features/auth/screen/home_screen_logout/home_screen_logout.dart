@@ -98,6 +98,26 @@ class _HomeScreenThreeLogoutState extends ConsumerState<HomeScreenThreeLogout> {
                 },
               ),
             ),
+            actions: [
+              IconButton(
+                icon: Icon(
+                  Icons.history,
+                  size: textSize + 7,
+                ),
+                onPressed: () {
+                  Routemaster.of(context).push('/history-screen');
+                },
+              ),
+              IconButton(
+                icon: Icon(
+                  Icons.favorite_border,
+                  size: textSize + 7,
+                ),
+                onPressed: () {
+                  Routemaster.of(context).push('/bookmarks-screen');
+                },
+              ),
+            ],
           ),
         ),
         body: _widgetOptions[_selectedIndex],
@@ -249,6 +269,22 @@ class MyDrawerLogout extends StatelessWidget {
                 ),
               ),
               const Spacer(),
+              // ListTile(
+              //   title: Text(
+              //     "Settings",
+              //     style: TextStyle(
+              //       fontSize: textSize + 3,
+              //       color: Theme.of(context).primaryColor,
+              //     ),
+              //   ),
+              //   leading: Icon(
+              //     Icons.settings,
+              //     color: Theme.of(context).primaryColor,
+              //   ),
+              //   onTap: () {
+              //     Routemaster.of(context).push('/settings-screen');
+              //   },
+              // ),
               DefaultTextStyle(
                 style: const TextStyle(
                   fontSize: 12,

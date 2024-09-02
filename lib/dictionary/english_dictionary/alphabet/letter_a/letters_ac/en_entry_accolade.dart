@@ -128,7 +128,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -147,7 +146,6 @@ ${englishMeaningConst.text}
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پیاھەڵوتن، پەسن(دان)، ڕێ‌وڕەسمی پێدانی پلەوپایەی شۆڕەسواری (کە لەودا سووک شمشێر بەسەر شانا دەھێنرێ)
 """),

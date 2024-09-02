@@ -99,7 +99,6 @@ class EnglishEntryambassador extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: باڵوێز، باڵیۆز، نێردە، نێردراو، نوێنەری دەسەڵات‌پێدراو یان دەسەڵات‌بەدەست
 """),
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

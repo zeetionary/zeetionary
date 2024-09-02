@@ -92,7 +92,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Your account of the accident does not agree with hers.""");
+    await flutterTts
+        .speak("""Your account of the accident does not agree with hers.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -960,7 +961,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -975,12 +975,12 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: هی ئەو، ـی ئەو، ـەکەی
 """),
 // With short examples define "hers", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (جێناو) کە هی ژنێک/کچێکە"""),
+                    const DefinitionKurdish(
+                        text: """١. (جێناو) کە هی ژنێک/کچێکە"""),
                     SentencesRow(
                       englishText: """The choice was hers.""",
                       kurdishText: """بڕیارەکە هی ئەو بوو.""",
@@ -991,10 +991,11 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Your account of the accident does not agree with hers.""",
+                      englishText:
+                          """Your account of the accident does not agree with hers.""",
                       kurdishText:
-                                "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو.",
-                            onPressedBritish: () => speaksentence2("en-GB"),
+                          "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو.",
+                      onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),

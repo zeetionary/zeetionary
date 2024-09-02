@@ -137,7 +137,6 @@ class EnglishEntryballet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەما یان ھەڵپەڕکێی بالی، باڵی، باڵە، بالە، تیپ یا کۆڕی باڵی، میوزیکی باڵی
 """),
@@ -262,7 +261,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

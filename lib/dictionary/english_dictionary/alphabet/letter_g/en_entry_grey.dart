@@ -247,7 +247,6 @@ Usage: Brit, Cdn (US: gray)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -262,7 +261,6 @@ Usage: Brit, Cdn (US: gray)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بۆر، فیلی، شینکی، قوڕقوشمی، خۆڵەمێشی، سوربی، (قژ) بۆز، سپی(تێکەوتوو)، (کەسێ) قژبۆر، مووبۆر، گەورە، ماش‌وبرنجی، مووبۆز،	پیرانە،	کۆن، قەدیمی،	دڵساردکەرەوە، ناھومێدکەر،	(ڕوخسار) ڕەنگ‌بزرکاو، زەردھەڵگەڕاو،	(ھەوا) ھەوری، لێڵ، تاریک،	ماندووکەر، عاجزکەر، وەڕەزکەر، دڵتەنگ‌کەر، ھیچ،	ئاسایی، بێ‌ناونیشان، بێ‌نێو،	(ڕەنگ) توند، تۆخ
 """),

@@ -166,7 +166,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -181,7 +180,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ڕۆیشتن، ڕۆیین، ڕەوت، ڕەوندەیی، ڕەوان،	خێرایی ڕەوت یان ڕۆیشتن،	گۆڕانی بەردەوام، ناجێگیری، دۆخی ناچەسپیو،	(پزشکی) ڕژان، دەردان،	زگچوون، ڕەوانی، زگەشۆرە،	دەرپەڕین، ڕەوندەیی، ڕۆیین، ڕەوت، لێشاو، شلی، شلەیی، ڕژۆکی، شلکەرەوە، شلەک، مەتریاڵێ کە یارمەتی شل‌بوونەوەی کانزاکان دەکا، توێنە"""),
 // With short examples define "flux", please follow LX instructions

@@ -128,7 +128,6 @@ class EnglishEntrybreathtaking extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەرسووڕھێنەر، ورووژێنەر، سەرسام‌کەر، ھەژێنەر، سەیر، بێ‌ھاوتا
 """),
@@ -137,8 +136,7 @@ class EnglishEntrybreathtaking extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The scene was one of breathtaking beauty.",
-                            kurdishText:
-                                "دیمەنەکە جوانییەکی ناوازەی بوو.",
+                            kurdishText: "دیمەنەکە جوانییەکی ناوازەی بوو.",
                             onPressedBritish: () =>
                                 speakbreathtakings1("en-GB"),
                             onPressedAmerican: () =>
@@ -246,7 +244,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

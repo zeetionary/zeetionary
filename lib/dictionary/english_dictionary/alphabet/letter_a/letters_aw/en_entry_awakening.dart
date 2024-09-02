@@ -136,7 +136,6 @@ class EnglishEntryawakening extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەخەبەری، ئاگاداری، بەئاگابوون، ئاگایی، بزووتنەوە، بزاوت، جووڵانەوە
 """),
@@ -249,7 +248,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -175,8 +175,7 @@ class EnglishEntrycab extends StatelessWidget {
 ١. (ناو) تەکسی"""),
                           SentencesRow(
                             englishText: "I'll call you a cab.",
-                            kurdishText:
-                                "پەیوەندی بە تەکسییەکەوە دەکەم بۆت",
+                            kurdishText: "پەیوەندی بە تەکسییەکەوە دەکەم بۆت",
                             onPressedBritish: () => speakcabs1("en-GB"),
                             onPressedAmerican: () => speakcabs1("en-US"),
                           ),
@@ -319,7 +318,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

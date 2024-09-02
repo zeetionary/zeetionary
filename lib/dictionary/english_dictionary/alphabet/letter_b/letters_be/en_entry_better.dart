@@ -301,7 +301,6 @@ class EnglishEntrybetter extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: باش‌تر، چاتر، چاک‌تر، زۆرتر، زۆرینەی، زۆربەی، پتر، زیاتر، زێتر، گەورەتر، گرێوکار، گرێوباز، مەرج‌بەست، (شت یان مرۆ) باشتر، چاکتر، سەرتری، بەسەرداشکانەوە
 """),
@@ -622,7 +621,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

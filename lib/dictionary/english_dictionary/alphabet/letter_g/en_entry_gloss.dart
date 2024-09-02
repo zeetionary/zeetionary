@@ -184,7 +184,6 @@ Verb: gloss (derived forms: glosses, glossed, glossing)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -199,7 +198,6 @@ Verb: gloss (derived forms: glosses, glossed, glossing)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بریقە، درەوشانەوە، ورشە، بریقانەوە، بریسکانەوە، ڕواڵەت، ڕووکەش، ڕواڵەتی ھەڵفریوێنەر، خۆش‌ڕواڵەت، ڕەنگی ڕۆنی
 """),

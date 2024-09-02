@@ -172,7 +172,6 @@ class EnglishEntrybunker extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خەڵووزدان، عەمباری سووتەمەنی یان خەڵووز (لە کەشتی‌دا)، پەناگە (ژێرزەمینی)، شوێنی ھەڵگرتن، عەمبار، کۆگە، قوڵکە، چاڵ (بە زیخ پڕ کراوەتەوە، لە یاری گۆڵف‌دا)، (میلیتاری) بوودڕی تەقەمەنی
 """),
@@ -318,7 +317,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

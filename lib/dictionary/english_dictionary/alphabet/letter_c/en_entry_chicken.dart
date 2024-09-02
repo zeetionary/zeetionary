@@ -148,7 +148,6 @@ class EnglishEntrychicken extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: مریشک، جووجە، زڤان، جووچک، باڕۆکە،	کەڵەشێر، کەڵەباب،	گۆشتی باڕۆکە یا مریشک یان کەڵەشێر،	ترسنۆک، حیز، بێ‌غیرەت
 """),
@@ -352,7 +351,6 @@ Usage: informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

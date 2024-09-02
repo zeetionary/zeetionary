@@ -790,7 +790,6 @@ Usage: N. Amer
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -805,7 +804,6 @@ Usage: N. Amer
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: باش، چاک، قەنج، خاس،	چەلەنگ، خۆش، وەش، شیرین،	دڵسۆز، دەسگر، بەدەم‌خەڵکەوەبوو،	گونجاو، لەبار، شیاو،	بەسوود، بەقازانج، بەکەڵک،	بەڕەوشت، ڕەفتارباش،	ساغ، سڵامەت، ساخلەم،	جێی‌متمانە، جێی‌باوەڕ، بەنرخ، بەبایەخ، باوەڕپێکراو، لێ‌ڕابینراو،	باش، دروست، ڕاست،	شارەزا، کارامە، سەردەرچوو، بەتوانا، کارزان،	زۆر، کەمێ زۆر،	(جل‌وبەرگ) تازە، خاوێن، نەو،	ناقەڵب، ئەسڵ، ڕەسەن، ڕاستەقینە، تەواو، ڕەبەق،	شیرپاک، پاک، گەورەپیاو،	بەجێ، ژیرانە،	چاکە، باشە، کاری چاکە، خێر،	کردەوەی باشە،	باشی، چاکی،	قازانج، سوود، بەرژەوەندی،	خەڵکی باش، چاکەکاران، خێرخوازان،	شتی چاک
 """),

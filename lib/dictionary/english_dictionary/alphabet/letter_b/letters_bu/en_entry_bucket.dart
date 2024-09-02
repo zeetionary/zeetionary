@@ -131,7 +131,6 @@ class EnglishEntrybucket extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەتڵ، مەڕدۆش، مانگادۆش، دۆڵ، دۆلکە، دۆڵکە، دۆڵچە، ئاڤدانک، پەقرەچ
 """),
@@ -300,7 +299,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

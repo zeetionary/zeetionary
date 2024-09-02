@@ -365,7 +365,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: بەقەدیەک، بەرامبەر، یەکسان، چوون، ھاوجووت، ھاوئاست، ھاوئەندازە، یەک‌ئەندازە، سەک‌سەنگ، ھاوسەنگ، ھاوشان، ھاوپلە،	ھاوتا،	ژمارەی بەرامبەر، بڕی بەرامبەر
 """),
@@ -596,7 +595,6 @@ Verb: equal (derived forms: equalled, equaling, equaled, equalling, equals)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

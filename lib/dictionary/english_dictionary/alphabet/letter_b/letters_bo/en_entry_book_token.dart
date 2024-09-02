@@ -131,7 +131,6 @@ class EnglishEntrybooktoken extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: توکێنی کتێب، کۆپین یان کۆپۆنی کتێب
 """),
@@ -235,7 +234,6 @@ Usage: Brit
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -171,7 +171,6 @@ class EnglishEntrybuoyant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەرئاوکەوتە، سواراو، سووک، مەلەون، سەراوک، سەرکەوتە، لە سەرەوە ڕایدەگرێ، سەرخەرە، سەرئاوخەرە، سەرەوەبەرە، شاد، بەکەیف، بەگوڕ، گەشبین، بەرچاوڕوون، (بازار و ئابووری) ڕوولەسەرێ، ڕوو لە زۆری
 """),
@@ -299,7 +298,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

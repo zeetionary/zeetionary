@@ -135,7 +135,6 @@ class EnglishEntrybeaver extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەگاو، مەیکێ ئاڤێ، پێستە یان کەوڵی سەگاو، فەروەی سەگاو، کڵاوێ لە پێستەی سەگاو
 """),
@@ -282,7 +281,6 @@ Usage: informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

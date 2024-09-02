@@ -214,7 +214,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: جوانی، چەلەنگی، شۆخی، ڕندی، ڕێک‌وپێکی، ئەندام‌ڕێکی، لەنجە، لەنجەولار، لەخت‌ولار، ناسکی، ئەدا، ئان،	سەنگینی، قورسی، مەندی،	ئەدەب، ڕەوشت، ماریفەت،	چاکە، باشی، پیاوەتی، سایە، یارمەتی، ڕەحمەت، خۆشەویستی، بەزەیی، ڕەحمەت یا بەزەیی خودا، خواپێداوە،	نیاز،	دەرفەت، فرسەند، دەلیڤە،	(پێش و پاش نان) شوکرانەبژێری، جەنابی بەڕێز، ھەڵس‌وکەوت، ڕەفتار، ئاکار
 """),

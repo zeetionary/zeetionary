@@ -138,7 +138,6 @@ class EnglishEntryamphibious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دووژینە، وشکاوەکی، وشکاوی، (کرداری لەشکری) زەمینی-دەریایی، وشکانی-ئاوی
 """),
@@ -269,7 +268,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

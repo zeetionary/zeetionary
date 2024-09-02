@@ -102,7 +102,6 @@ class EnglishEntrycompactness extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گردوکۆیی، پەسراوی، پەستێوراوی، پەستاوتەیی، داگیراوی، ترنجاوی
 """),
@@ -231,7 +230,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

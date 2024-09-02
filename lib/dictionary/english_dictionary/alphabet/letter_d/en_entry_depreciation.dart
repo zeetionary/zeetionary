@@ -219,7 +219,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: داشکانی نرخ و بایی، کەم‌بوونەوە یان ھاتنەخوارەوەی قیمەت، نرخ‌کەم‌بوونەوە، بەھاداشکان، دابەزینی بایی (پارە)،	سووک‌کردن، بێ‌نرخ‌کردن، بێ‌بایەخ‌کردن، داشکاندن، تڕۆکردن، بەھیچ‌دانان
 """),
@@ -291,7 +290,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

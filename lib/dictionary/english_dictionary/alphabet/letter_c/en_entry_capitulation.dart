@@ -171,7 +171,6 @@ class EnglishEntrycapitulation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (پەیمان‌نامە) بەدەستەوەدان، ڕادەست(کردن، بە مەرجەوە)، کورتە، تایبەت‌مافی بیانی، پەیمان‌نامە
 """),
@@ -295,7 +294,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

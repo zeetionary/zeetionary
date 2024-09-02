@@ -135,7 +135,6 @@ class EnglishEntrybeak extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دەنووک، نوکل، شەند، نیکل، نووک، لمۆز، پۆز یان لووتی قەڵانگی، لووت‌زل، لووتکەی کەشتی
 """),
@@ -155,7 +154,8 @@ class EnglishEntrybeak extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "He'd be handsome if it wasn't for that huge beak of his.",
-                            kurdishText: "جوان دەبوو ئەگەر ئەو لمۆزە زلەی نەبوایە.",
+                            kurdishText:
+                                "جوان دەبوو ئەگەر ئەو لمۆزە زلەی نەبوایە.",
                             onPressedBritish: () => speakbeaks2("en-GB"),
                             onPressedAmerican: () => speakbeaks2("en-US"),
                           ),
@@ -274,7 +274,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

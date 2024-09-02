@@ -989,7 +989,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -1004,7 +1003,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پاژنەی پێ، پانیە، لەپان،	پاژنەی پێڵاو یان کەوش، گوهن،	پاژنەی گۆرەوی،	مرۆی شەڕانی و سەربەگۆنگەڵ،	پشت(ی) سم، پش‌سم،	لاق یا پێی دواوە (هی گیانەوەر)، پاژنە
 """),

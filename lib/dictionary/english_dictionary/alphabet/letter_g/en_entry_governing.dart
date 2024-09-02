@@ -138,7 +138,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -153,7 +152,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ھەبوونی دەسەڵات، ھێز و مافی بەڕێوەبردن، حکومەت، میری، بەڕێوەبەرایەتی، ڕێڤەبەری،	فەرمان‌گێڕ، دەسەڵات‌گێڕ، دەسەڵات‌دار، فەرمان‌ڕەوا، حوکم‌دار، حوکم‌ڕان
 """),

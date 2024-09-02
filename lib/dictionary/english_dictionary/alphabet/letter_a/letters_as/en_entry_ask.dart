@@ -179,7 +179,6 @@ class EnglishEntryask extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پرسین، داخوازی کردن، ویستن، تکا کردن، داوای لێبوردن
 """),
@@ -388,7 +387,6 @@ Noun: ask (derived forms: asks)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

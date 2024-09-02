@@ -162,7 +162,6 @@ class EnglishEntryclip extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گیرە، گیرگە، بەست، تەوقە،	دەرزی، گوڵی سەرسنگ،	خەشاب، بڕینەوە، ھەڵپاچین، پەڕتاوتن، کورت‌کردنەوە،	بەربرینگ (ئەو بڕە خوری‌یەی کە بە جارێ بڕدراوەتەوە)،	زللە، شەپڵاخە،	مشت،	تیکە، بڕشت، بڕگە (فیلم)،	ھەنگاو یا جووڵەی توند و خێرا، ڕاتڵەکان
 """),
@@ -399,7 +398,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

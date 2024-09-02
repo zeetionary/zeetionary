@@ -134,7 +134,6 @@ class EnglishEntryblot extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لکە، لەکە، پەڵە، نەنگ، پینە، نێوزڕاوی، پەڵە جەوھەر، کەم‌وکوڕی، عەیب، خەوش، گەرد، (زیندەکیمیا) لەکە، پەڵە
 """),
@@ -282,7 +281,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

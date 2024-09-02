@@ -398,7 +398,6 @@ Noun: full (derived forms: fullerfulls)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -413,7 +412,6 @@ Noun: full (derived forms: fullerfulls)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پڕ، تژی، سەرڕێژ، لێوڕێژ، قەڵاپرچن، دارماڵ، کەلالە، زەبەند،	خڕیلانە، قەڵەو، گۆشتن، خروخۆڵ،	تەواو، ڕەبەق،	دوورودرێژ، تێروتەسەل، تێروپڕ، چڕوپڕ،	گیراو، سەرقاڵ، پڕکار، دەس‌گیراو، خەریک،	تێر، نەبرسی،	تۆخ، توند، پڕڕەنگ،	(جل‌وبەرگ) ھەراو، فش،	زرینگاوە، گڕ، پڕزرینگە،	(مانگ) پڕ، (مانگی) شەوی چاردە، ھەلاب
 """),

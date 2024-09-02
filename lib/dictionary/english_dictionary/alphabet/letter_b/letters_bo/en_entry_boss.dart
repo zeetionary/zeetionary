@@ -131,7 +131,6 @@ class EnglishEntryboss extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەرۆک، گەورە، سەرکار، سەرکرێکار، بەڕێوەبەر، ساحەب‌کار، سەرپەرشت، (لە بانگ‌کردن‌دا) بەڕێز، جەناب
 """),
@@ -304,7 +303,6 @@ Usage: N. Amer, informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

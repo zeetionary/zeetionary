@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -175,7 +174,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ناسک، زووشکاو، قرپ، قرچ، ڕێزەڵۆک، ھەڵپەڕیو، لەشکان‌ھاتوو، بشکێن،	ھەستیار، ناسک،	لاواز، سست، فشە، بێ‌ھێز،	نەشە، خومار
 """),

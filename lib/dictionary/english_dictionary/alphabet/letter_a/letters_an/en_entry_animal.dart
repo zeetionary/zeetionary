@@ -136,7 +136,6 @@ class EnglishEntryanimal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گیان‌لەبەر، ڕۆح‌لەبەر، ئاژەڵ، گیانەوەر، گیان‌دار، ژین‌دار، جانەوەر، زیندەوەر، بوونەوەر، گیانەوەری چوارپێ، مرۆڤی دڕندە، گیانەوەری، لەشی، جەستەیی، تەنانی
 """),
@@ -310,7 +309,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -672,7 +672,6 @@ Noun: find (derived forms: finds)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -687,7 +686,6 @@ Noun: find (derived forms: finds)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دۆزینەوە، دیتنەوە، پەیداکردن، دۆزمان،	(شتێکی) دۆزراوە، دیتراوە، دۆزەوە، دۆزە
 """),

@@ -128,7 +128,6 @@ class EnglishEntrybudge extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بزاوتن، جووڵان، تەکان دان
 """),
@@ -137,8 +136,7 @@ class EnglishEntrybudge extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "She pushed at the door but it wouldn't budge.",
-                            kurdishText:
-                                "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد.",
+                            kurdishText: "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد.",
                             onPressedBritish: () => speakbudges1("en-GB"),
                             onPressedAmerican: () => speakbudges1("en-US"),
                           ),
@@ -260,7 +258,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -236,7 +236,6 @@ derived forms: fooling, fools, fooled)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -251,7 +250,6 @@ derived forms: fooling, fools, fooled)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: مرۆی گەوج و کەر،	تەڵخەک، گاڵتەجاڕ
 """),

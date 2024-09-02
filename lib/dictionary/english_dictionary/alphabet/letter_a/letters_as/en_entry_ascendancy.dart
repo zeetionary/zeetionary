@@ -148,7 +148,6 @@ class EnglishEntryascendancy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەردەستی، باڵادەستی، دەسەڵات‌داری، باوسەندوویی، سەرکەوتوویی، زاڵی، بەسەرداشکانەوە، سەرتری، دەس‌ڕۆیشتوویی
 """),
@@ -274,7 +273,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

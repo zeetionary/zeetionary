@@ -128,7 +128,6 @@ class EnglishEntrybroth extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سوپی تراو، ئاووگۆشت، شۆرباوگۆشت، گۆشتاو، مەرگە (شۆربای مریشک)
 """),
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -100,7 +100,6 @@ class EnglishEntryconditional extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: مەرجی، مەرج‌دار، بەرمەرج، بەشەرت، پێبەند، بەند,	ناڕوون، نادیار، نامەعلووم،	(ڕێزمان) مەرجی، مەرج‌دەربڕ، گەرینی، گومان‌داری، ھەکانی، ڕستە یان دەستەوشەی مەرجی، قاڵبی مەرجی یان مەرج‌دەربڕ
 """),
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

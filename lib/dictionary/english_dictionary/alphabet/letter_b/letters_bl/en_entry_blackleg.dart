@@ -132,7 +132,6 @@ class EnglishEntryblackleg extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: مانبڕ، مانشکێن، درێژەبەکاردەر، ماندڕ، پاڕەشە (جۆرێ نەخۆشی ماڵات، لاقیان ڕەش دادەگەڕا، بەھۆی بەکتریایێکی خاکی)
 """),
@@ -242,7 +241,6 @@ Usage: Brit
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

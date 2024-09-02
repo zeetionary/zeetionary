@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: نەخۆشی پەتایی، نەخۆشی درمی، درم، پەتا، کولک، پەژیک،	بڵاوبوونەوە، تەنینەوە، باوبوون، بەبڕەوی، پەتائاسا، پەتایی، درم‌ئاسا
 """),
@@ -382,7 +381,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

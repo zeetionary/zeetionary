@@ -39,12 +39,7 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
       // centerTitle: true,
       scrolledUnderElevation: 0,
       title: const ZeetionaryAppbarStyle(),
-      leading: IconButton(
-        icon: const Icon(Icons.arrow_back),
-        onPressed: () {
-          Routemaster.of(context).pop();
-        },
-      ),
+      leading: const BackIconOfAppbar(),
     );
   }
 
@@ -52,6 +47,30 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   Size get preferredSize => const Size.fromHeight(_defaultHeight);
 
   static const double _defaultHeight = 60.0;
+}
+
+class BackIconOfAppbar extends ConsumerWidget {
+  const BackIconOfAppbar({
+    super.key,
+  });
+
+  @override
+  // Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider);
+    return IconButton(
+      icon: Icon(
+        // Icons.chevron_left,
+        Icons.arrow_back,
+        size: textSize + 13,
+      ),
+      // icon: const Icon(Icons.arrow_back),
+      onPressed: () {
+        Routemaster.of(context).pop();
+      },
+    );
+  }
 }
 
 // class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
@@ -236,6 +255,7 @@ class ConstantContainer extends StatelessWidget {
       constraints: constraints, // Apply the constraints if provided
       decoration: BoxDecoration(
         border: Border.all(
+          // color: Colors.red,
           color: Theme.of(context).primaryColor.withOpacity(0.3),
           width: 1.0,
         ),
@@ -335,7 +355,9 @@ class _YouTubeScrollerState extends ConsumerState<YouTubeScroller> {
                                 border: Border.all(
                                   // color: Colors.grey,
                                   color: _selectedIndex == index
-                                      ? Theme.of(context).primaryColor
+                                      ? Theme.of(context)
+                                          .primaryColor
+                                          .withOpacity(0.7)
                                       // ? Colors.blue
                                       : Colors.transparent,
                                   width: 0.5,
@@ -349,11 +371,11 @@ class _YouTubeScrollerState extends ConsumerState<YouTubeScroller> {
                                   color: _selectedIndex == index
                                       ? Theme.of(context)
                                           .primaryColor
-                                          .withOpacity(0.7)
+                                          .withOpacity(0.6)
                                       // ? Colors.blue
                                       : Theme.of(context)
                                           .primaryColor
-                                          .withOpacity(0.5),
+                                          .withOpacity(0.4),
                                 ),
                               ),
                             ),
@@ -541,7 +563,6 @@ class YouTubeContainerDesignNew extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const DividerDefinition(),
         Container(
           margin: const EdgeInsets.only(top: 50.0, left: 15, right: 15),
           padding: const EdgeInsets.all(4.0),
@@ -660,7 +681,6 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        const DividerDefinition(),
         Container(
           margin: const EdgeInsets.only(top: 50.0, left: 15, right: 15),
           padding: const EdgeInsets.all(4.0),
@@ -771,24 +791,23 @@ class YouTubeVideosContainer extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: [
-          const DividerDefinition(),
-          Container(
+          ConstantContainer(
             margin: const EdgeInsets.only(top: 55.0, left: 4, right: 4),
             padding: const EdgeInsets.all(4.0),
-            decoration: BoxDecoration(
-              boxShadow: [
-                BoxShadow(
-                  color: Theme.of(context).primaryColor.withOpacity(0.06),
-                  offset: const Offset(0, 4),
-                  blurRadius: 8,
-                ),
-              ],
-              border: Border.all(
-                color: Theme.of(context).primaryColor.withOpacity(0.1),
-                width: 2.0,
-              ),
-              borderRadius: BorderRadius.circular(15.0),
-            ),
+            // decoration: BoxDecoration(
+            //   boxShadow: [
+            //     BoxShadow(
+            //       color: Theme.of(context).primaryColor.withOpacity(0.06),
+            //       offset: const Offset(0, 4),
+            //       blurRadius: 8,
+            //     ),
+            //   ],
+            //   border: Border.all(
+            //     color: Theme.of(context).primaryColor.withOpacity(0.1),
+            //     width: 2.0,
+            //   ),
+            //   borderRadius: BorderRadius.circular(15.0),
+            // ),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(12.0),
               child: YoutubePlayer(
@@ -863,24 +882,23 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: [
-          const DividerDefinition(),
-          Container(
+          ConstantContainer(
             margin: const EdgeInsets.only(top: 55.0, left: 4, right: 4),
             padding: const EdgeInsets.all(4.0),
-            decoration: BoxDecoration(
-              boxShadow: [
-                BoxShadow(
-                  color: Theme.of(context).primaryColor.withOpacity(0.06),
-                  offset: const Offset(0, 4),
-                  blurRadius: 8,
-                ),
-              ],
-              border: Border.all(
-                color: Theme.of(context).primaryColor.withOpacity(0.1),
-                width: 2.0,
-              ),
-              borderRadius: BorderRadius.circular(15.0),
-            ),
+            // decoration: BoxDecoration(
+            //   boxShadow: [
+            //     BoxShadow(
+            //       color: Theme.of(context).primaryColor.withOpacity(0.06),
+            //       offset: const Offset(0, 4),
+            //       blurRadius: 8,
+            //     ),
+            //   ],
+            //   border: Border.all(
+            //     color: Theme.of(context).primaryColor.withOpacity(0.1),
+            //     width: 2.0,
+            //   ),
+            //   borderRadius: BorderRadius.circular(15.0),
+            // ),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(12.0),
               child: YoutubePlayer(
@@ -940,97 +958,13 @@ class CustomTabBarSliver extends StatelessWidget
       ),
       child: TabBar(
         tabs: tabs.map((tab) => Tab(icon: tab)).toList(),
+        // indicatorColor: Colors.red,
       ),
     );
   }
 
   @override
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
-}
-
-class CustomTabBar extends ConsumerWidget {
-  final List<Widget> tabs;
-
-  const CustomTabBar({super.key, required this.tabs});
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    // final currentTheme = ref.watch(themeNotifierProvider);
-    final textSize = ref.watch(textSizeProvider) + 20;
-
-    return Container(
-      height: textSize,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(12.0),
-        // boxShadow: [
-        //   BoxShadow(
-        //     color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
-        //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.1),
-        //     blurRadius: 4.0,
-        //   ),
-        // ],
-        // gradient: LinearGradient(
-        //   begin: Alignment.topLeft,
-        //   end: Alignment.bottomRight,
-        //   colors: [
-        //     Theme.of(context).primaryColor.withOpacity(0.06),
-        //     Theme.of(context).primaryColor.withOpacity(0.06),
-        //     // Theme.of(context).primaryColor.withOpacity(0.08),
-        //     // Theme.of(context).primaryColor.withOpacity(0.05),
-        //   ],
-        // ),
-        border: Border.all(
-          color: Theme.of(context).primaryColor.withOpacity(0.08),
-          width: 1.0,
-          style: BorderStyle.solid,
-        ),
-      ),
-      child: TabBar(
-        isScrollable: false,
-        tabs: tabs,
-        indicator: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [
-              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.25),
-              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.45),
-              // Colors.red.shade800.withOpacity(0.09),
-              // Colors.red.shade800.withOpacity(0.07),
-              // Theme.of(context).primaryColor.withOpacity(0.08),
-              // Theme.of(context).primaryColor.withOpacity(0.05),
-            ],
-          ),
-          // color: Theme.of(context).primaryColor.withOpacity(0.1),
-          borderRadius: const BorderRadius.only(
-            topLeft: Radius.circular(12.0),
-            bottomRight: Radius.circular(12.0),
-          ),
-          border: Border.all(
-            color: Theme.of(context).primaryColor.withOpacity(0.18),
-            width: 1.0,
-            style: BorderStyle.solid,
-          ),
-        ),
-        // decoration: BoxDecoration(
-        //   color: Colors.blue.shade800.withOpacity(0.1),
-        //   // color: Colors.blue.withOpacity(
-        //   //     0.05), // Replace with your desired background color
-        //   borderRadius: const BorderRadius.only(
-        //     topLeft: Radius.circular(12.0),
-        //     bottomRight: Radius.circular(12.0),
-        //   ),
-        //   border: Border.all(
-        //     color: Theme.of(context).primaryColor.withOpacity(0.5),
-        //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
-        //     width: 2.0,
-        //   ),
-        // ),
-        indicatorSize: TabBarIndicatorSize.tab,
-        indicatorPadding: const EdgeInsets.all(4.0),
-      ),
-    );
-  }
 }
 
 // class CustomTabBar extends ConsumerWidget {
@@ -1151,36 +1085,44 @@ class UkIconForTab extends ConsumerWidget {
   }
 }
 
-class DividerDefinition extends StatelessWidget {
+class DividerDefinition extends ConsumerWidget {
   const DividerDefinition({
     super.key,
   });
 
   @override
-  Widget build(BuildContext context) {
+  // Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    // final textSize = ref.watch(textSizeProvider);
     return Center(
       child: SizedBox(
         width: MediaQuery.of(context).size.width / 1,
-        child: const Divider(
-          thickness: 2,
+        child: Divider(
+          thickness: 1,
+          color: Theme.of(context).dividerColor.withOpacity(0.7),
         ),
       ),
     );
   }
 }
 
-class DividerSentences extends StatelessWidget {
+class DividerSentences extends ConsumerWidget {
   const DividerSentences({
     super.key,
   });
 
   @override
-  Widget build(BuildContext context) {
+  // Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    // final textSize = ref.watch(textSizeProvider);
     return Center(
       child: SizedBox(
-        width: MediaQuery.of(context).size.width / 3,
-        child: const Divider(
+        width: MediaQuery.of(context).size.width / 1,
+        child: Divider(
           thickness: 1,
+          color: Theme.of(context).dividerColor.withOpacity(0.15),
         ),
       ),
     );
@@ -1268,7 +1210,7 @@ class CustomSliverAppBar extends StatelessWidget {
     super.key,
     required this.flexibleSpace,
     required this.bottom,
-    this.expandedHeight = 220.0,
+    this.expandedHeight = 240.0,
   });
 
   @override
@@ -1280,6 +1222,138 @@ class CustomSliverAppBar extends StatelessWidget {
       automaticallyImplyLeading: false,
       flexibleSpace: flexibleSpace,
       bottom: bottom,
+    );
+  }
+}
+
+class CustomTabBarNew extends ConsumerWidget implements PreferredSizeWidget {
+  final List<Widget> tabs;
+
+  const CustomTabBarNew({
+    super.key,
+    required this.tabs,
+  });
+
+  @override
+  // Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    // final textSize = ref.watch(textSizeProvider) + 20;
+    return TabBar(
+      indicatorColor: Theme.of(context).primaryColor.withOpacity(0.2),
+      // indicatorColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.5),
+      // indicatorColor: Colors.red,
+      tabs: tabs,
+    );
+  }
+
+  @override
+  Size get preferredSize => const Size.fromHeight(48.0);
+}
+
+class CustomTabBarNoPrefferedSize extends ConsumerWidget {
+  final List<Widget> tabs;
+
+  const CustomTabBarNoPrefferedSize({
+    super.key,
+    required this.tabs,
+  });
+
+  @override
+  // Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    // final textSize = ref.watch(textSizeProvider) + 20;
+    return TabBar(
+      indicatorColor: Theme.of(context).primaryColor.withOpacity(0.2),
+      // indicatorColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.5),
+      // indicatorColor: Colors.red,
+      tabs: tabs,
+    );
+  }
+}
+
+class CustomTabBar extends ConsumerWidget {
+  final List<Widget> tabs;
+
+  const CustomTabBar({super.key, required this.tabs});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider) + 20;
+
+    return Container(
+      height: textSize,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12.0),
+        // boxShadow: [
+        //   BoxShadow(
+        //     color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
+        //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.1),
+        //     blurRadius: 4.0,
+        //   ),
+        // ],
+        // gradient: LinearGradient(
+        //   begin: Alignment.topLeft,
+        //   end: Alignment.bottomRight,
+        //   colors: [
+        //     Theme.of(context).primaryColor.withOpacity(0.06),
+        //     Theme.of(context).primaryColor.withOpacity(0.06),
+        //     // Theme.of(context).primaryColor.withOpacity(0.08),
+        //     // Theme.of(context).primaryColor.withOpacity(0.05),
+        //   ],
+        // ),
+        border: Border.all(
+          color: Theme.of(context).primaryColor.withOpacity(0.08),
+          width: 1.0,
+          style: BorderStyle.solid,
+        ),
+      ),
+      child: TabBar(
+        isScrollable: false,
+        tabs: tabs,
+        indicator: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.25),
+              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.45),
+              // Colors.red.shade800.withOpacity(0.09),
+              // Colors.red.shade800.withOpacity(0.07),
+              // Theme.of(context).primaryColor.withOpacity(0.08),
+              // Theme.of(context).primaryColor.withOpacity(0.05),
+            ],
+          ),
+          // color: Theme.of(context).primaryColor.withOpacity(0.1),
+          borderRadius: const BorderRadius.only(
+            topLeft: Radius.circular(12.0),
+            bottomRight: Radius.circular(12.0),
+          ),
+          border: Border.all(
+            color: Theme.of(context).primaryColor.withOpacity(0.18),
+            width: 1.0,
+            style: BorderStyle.solid,
+          ),
+        ),
+        // decoration: BoxDecoration(
+        //   color: Colors.blue.shade800.withOpacity(0.1),
+        //   // color: Colors.blue.withOpacity(
+        //   //     0.05), // Replace with your desired background color
+        //   borderRadius: const BorderRadius.only(
+        //     topLeft: Radius.circular(12.0),
+        //     bottomRight: Radius.circular(12.0),
+        //   ),
+        //   border: Border.all(
+        //     color: Theme.of(context).primaryColor.withOpacity(0.5),
+        //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
+        //     width: 2.0,
+        //   ),
+        // ),
+        indicatorSize: TabBarIndicatorSize.tab,
+        indicatorPadding: const EdgeInsets.all(4.0),
+      ),
     );
   }
 }
@@ -1355,7 +1429,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
     _controller = AnimationController(
       vsync: this,
       duration:
-          const Duration(milliseconds: 1000), // Adjust the duration as needed
+          const Duration(milliseconds: 100), // Adjust the duration as needed
     )..forward();
   }
 
@@ -1375,37 +1449,38 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
     return Expanded(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 6.0),
-        child: Container(
+        // child: Container(
+        child: ConstantContainer(
           margin: const EdgeInsets.only(left: 4.0, right: 4.0),
           // height: 30,
-          decoration: BoxDecoration(
-            // color: Theme.of(context).primaryColor.withOpacity(0.01),
-            // gradient: LinearGradient(
-            //   begin: Alignment.topLeft,
-            //   end: Alignment.bottomRight,
-            //   colors: [
-            //     Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
-            //     Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
-            //     // Theme.of(context).primaryColor.withOpacity(0.05),
-            //     // Theme.of(context).primaryColor.withOpacity(0.09),
-            //     // Colors.red.shade800.withOpacity(0.09),
-            //     // Colors.red.shade800.withOpacity(0.07),
-            //     // Theme.of(context).primaryColor.withOpacity(0.08),
-            //     // Theme.of(context).primaryColor.withOpacity(0.05),
-            //   ],
-            // ),
-            borderRadius: const BorderRadius.only(
-              topLeft: Radius.circular(12.0),
-              bottomRight: Radius.circular(12.0),
-            ),
-            border: Border.all(
-              color: Theme.of(context).highlightColor.withOpacity(0.2),
-              // color: Theme.of(context).primaryColor.withOpacity(0.18),
-              // color: Colors.blue.withOpacity(0.3),
-              width: 1.0,
-              style: BorderStyle.solid,
-            ),
-          ),
+          // decoration: BoxDecoration(
+          //   // color: Theme.of(context).primaryColor.withOpacity(0.01),
+          //   // gradient: LinearGradient(
+          //   //   begin: Alignment.topLeft,
+          //   //   end: Alignment.bottomRight,
+          //   //   colors: [
+          //   //     Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
+          //   //     Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
+          //   //     // Theme.of(context).primaryColor.withOpacity(0.05),
+          //   //     // Theme.of(context).primaryColor.withOpacity(0.09),
+          //   //     // Colors.red.shade800.withOpacity(0.09),
+          //   //     // Colors.red.shade800.withOpacity(0.07),
+          //   //     // Theme.of(context).primaryColor.withOpacity(0.08),
+          //   //     // Theme.of(context).primaryColor.withOpacity(0.05),
+          //   //   ],
+          //   // ),
+          //   borderRadius: const BorderRadius.only(
+          //     topLeft: Radius.circular(12.0),
+          //     bottomRight: Radius.circular(12.0),
+          //   ),
+          //   border: Border.all(
+          //     color: Theme.of(context).highlightColor.withOpacity(0.2),
+          //     // color: Theme.of(context).primaryColor.withOpacity(0.18),
+          //     // color: Colors.blue.withOpacity(0.3),
+          //     width: 1.0,
+          //     style: BorderStyle.solid,
+          //   ),
+          // ),
           // decoration: BoxDecoration(
           //   color: Colors.blue.shade800.withOpacity(0.1),
           //   // color: Colors.blue.withOpacity(
@@ -1790,7 +1865,8 @@ class _VocabularyExpansionTileState
                   Icon(
                     _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
                     size: textSize + 1,
-                    color: Theme.of(context).highlightColor.withOpacity(0.9),
+                    color: Theme.of(context).primaryColor.withOpacity(0.7),
+                    // color: Theme.of(context).highlightColor.withOpacity(0.9),
                   ),
                   const SizedBox(
                     width: 8,
@@ -1801,7 +1877,8 @@ class _VocabularyExpansionTileState
                     textAlign: TextAlign.right,
                     style: TextStyle(
                       fontSize: textSize + 1,
-                      color: Theme.of(context).highlightColor.withOpacity(0.9),
+                      color: Theme.of(context).primaryColor.withOpacity(0.7),
+                      // color: Theme.of(context).highlightColor.withOpacity(0.9),
                     ),
                   ),
                 ],
@@ -2793,24 +2870,24 @@ class _EnglishButtonTTSState extends ConsumerState<EnglishButtonTTS>
       child: Padding(
         padding: const EdgeInsets.only(
             left: 10.0, right: 10.0, top: 18.0, bottom: 18.0),
-        child: Container(
+        child: ConstantContainer(
           height: textSize + 28,
-          decoration: BoxDecoration(
-            // color: Theme.of(context).primaryColor.withOpacity(0.04),
-            border: Border.all(
-              color: Theme.of(context).primaryColor.withOpacity(0.2),
-              width: 1.0, // Adjust the border width
-            ),
-            // boxShadow: [
-            //   BoxShadow(
-            //     color: Theme.of(context).primaryColor.withOpacity(0.2),
-            //     spreadRadius: 2,
-            //     blurRadius: 4,
-            //     offset: Offset(0, 2), // Add a subtle shadow
-            //   ),
-            // ],
-            borderRadius: BorderRadius.circular(51.0),
-          ),
+          // decoration: BoxDecoration(
+          //   // color: Theme.of(context).primaryColor.withOpacity(0.04),
+          //   border: Border.all(
+          //     color: Theme.of(context).primaryColor.withOpacity(0.2),
+          //     width: 1.0, // Adjust the border width
+          //   ),
+          //   // boxShadow: [
+          //   //   BoxShadow(
+          //   //     color: Theme.of(context).primaryColor.withOpacity(0.2),
+          //   //     spreadRadius: 2,
+          //   //     blurRadius: 4,
+          //   //     offset: Offset(0, 2), // Add a subtle shadow
+          //   //   ),
+          //   // ],
+          //   borderRadius: BorderRadius.circular(51.0),
+          // ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -3066,32 +3143,32 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
   Widget build(BuildContext context) {
     // final currentTheme = ref.watch(themeNotifierProvider);
     final textSize = ref.watch(textSizeProvider);
-    return Container(
+    return ConstantContainer(
       // height: 45, // adds black and yellow lines
       margin: const EdgeInsets.all(12.0),
-      decoration: _isExpanded
-          ? BoxDecoration(
-              color: Theme.of(context).highlightColor.withOpacity(0.04),
-              // color: Theme.of(context).primaryColor.withOpacity(0.01),
-              border: Border.all(
-                // color: Theme.of(context).primaryColor.withOpacity(0.18),
-                color: Theme.of(context).highlightColor.withOpacity(0.2),
-                // color: Colors.blue.withOpacity(0.9),
-                width: 1.0,
-              ),
-              borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-            )
-          : BoxDecoration(
-              color: Theme.of(context).highlightColor.withOpacity(0.04),
-              // color: Theme.of(context).primaryColor.withOpacity(0.01),
-              border: Border.all(
-                color: Theme.of(context).highlightColor.withOpacity(0.2),
-                // color: Colors.blue.withOpacity(0.9),
-                width: 1.0,
-              ),
-              borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-            ),
-      // : null, // or nothing
+      // decoration: _isExpanded
+      //     ? BoxDecoration(
+      //         color: Theme.of(context).highlightColor.withOpacity(0.04),
+      //         // color: Theme.of(context).primaryColor.withOpacity(0.01),
+      //         border: Border.all(
+      //           // color: Theme.of(context).primaryColor.withOpacity(0.18),
+      //           color: Theme.of(context).highlightColor.withOpacity(0.2),
+      //           // color: Colors.blue.withOpacity(0.9),
+      //           width: 1.0,
+      //         ),
+      //         borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+      //       )
+      //     : BoxDecoration(
+      //         color: Theme.of(context).highlightColor.withOpacity(0.04),
+      //         // color: Theme.of(context).primaryColor.withOpacity(0.01),
+      //         border: Border.all(
+      //           color: Theme.of(context).highlightColor.withOpacity(0.2),
+      //           // color: Colors.blue.withOpacity(0.9),
+      //           width: 1.0,
+      //         ),
+      //         borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+      //       ),
+      // // : null, // or nothing
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
@@ -3144,8 +3221,15 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
           ),
           if (_isExpanded)
             Column(
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: widget.children,
+              children: [
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: widget.children,
+                ),
+                const SizedBox(
+                  height: 20,
+                ),
+              ],
             ),
         ],
       ),

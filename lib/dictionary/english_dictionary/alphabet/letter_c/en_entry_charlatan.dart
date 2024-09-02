@@ -84,7 +84,6 @@ class EnglishEntrycharlatan extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چاوبەست، تەڵەکەباز، دەسبڕ،	دوکتۆری درۆزن، پزشکەدرۆزنە یان دەسبڕ 
 """),
@@ -188,7 +187,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -937,7 +937,8 @@ ${englishMeaningConst.text}
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """hen party""",
-                      alsoEnglishWord: "also American English: bachelorette party",
+                      alsoEnglishWord:
+                          "also American English: bachelorette party",
                       britshText: """IpaUK: /ˈhen pɑːti/""",
                       americanText: """IpaUS: /ˈhen pɑːrti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
@@ -962,7 +963,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -977,11 +977,12 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ناو) ئاهەنگێک کە ژنێک هەیەتی لەگەڵ هاوڕێکانی پێش هاوسەرگیری"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئاهەنگێک کە ژنێک هەیەتی لەگەڵ هاوڕێکانی پێش هاوسەرگیری"""),
                     SentencesRow(
                       englishText: """Are you going to Michelle's hen party?""",
                       kurdishText: """دەچیت بۆ میوانیی ژنانەی میشێل؟""",

@@ -135,7 +135,6 @@ class EnglishEntrybeacon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چرای دەریایی، ڕووناکی یان چرای ڕێنوێنی، تروکەشەوق، چرای تروکەیی (لە فڕۆکەخانە)، نیشانەی ئاگر (بۆ ڕێنوێنی یان وریاکردنەوە)، مەشخەڵ، چرای پەڕینەوەی پیادە، تیشکی ڕووناکی، وێسگەی ڕادیۆیی
 """),
@@ -271,7 +270,6 @@ Noun: beacon (derived forms: beacons)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

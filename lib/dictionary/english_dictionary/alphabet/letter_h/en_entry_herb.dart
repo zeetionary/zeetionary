@@ -94,7 +94,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The shop sells a large range of herbs and spices.""");
+    await flutterTts
+        .speak("""The shop sells a large range of herbs and spices.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -962,7 +963,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -977,15 +977,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: گژوگیا، گیا، ڕووەک،	گیا بۆ دەرمان، ڕووەکی دەرمانی،	گیای هەزوێلە
 """),
 // With short examples define "herb", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ڕووەکێک کە گەڵاکانی، گوڵەکانی، یان تۆوەکانی بەکاردێت بۆ زیادکردنی تام بۆ خواردن، چارەسەری پزیشکی، یان بۆ بۆنەکەی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ڕووەکێک کە گەڵاکانی، گوڵەکانی، یان تۆوەکانی بەکاردێت بۆ زیادکردنی تام بۆ خواردن، چارەسەری پزیشکی، یان بۆ بۆنەکەی"""),
                     SentencesRow(
                       englishText: """Add a teaspoonful of mixed herbs.""",
-                      kurdishText: """یەک کەوچک چا لە ڕووەکی دەرمانی زیاد بکە.""",
+                      kurdishText:
+                          """یەک کەوچک چا لە ڕووەکی دەرمانی زیاد بکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -993,8 +995,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The shop sells a large range of herbs and spices.""",
-                      kurdishText: """فرۆشگاکە ڕێژەیەکی زۆر لە گیا دەرمانی و توونی دەفرۆشێت.""",
+                      englishText:
+                          """The shop sells a large range of herbs and spices.""",
+                      kurdishText:
+                          """فرۆشگاکە ڕێژەیەکی زۆر لە گیا دەرمانی و توونی دەفرۆشێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -130,7 +130,6 @@ class EnglishEntrybravado extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بوێری، خۆھەڵکێشی، فڕوفیشاڵ کردن، لاف‌لێدان، خۆ بە ئازا نیشان‌دان
 """),
@@ -233,7 +232,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

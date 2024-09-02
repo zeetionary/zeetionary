@@ -169,7 +169,6 @@ class EnglishEntrycattle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گاڕان، ڕەشەوڵاغ، گاگەل، مێگەڵە وڵاخ، ناخر، پاتاڵ، ئاژەڵ، دەوڵەت
 """),
@@ -283,7 +282,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

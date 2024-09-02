@@ -425,7 +425,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -440,7 +439,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دابەستن، گیرکردن، چەسپاندن،	سەرێشە، گێچەڵ، تەنگ‌وچەڵەمە، گرفتاری، گۆڵمەز، دەردەسەر،	پەیداکردن یان دۆزینەوەی بارودۆخ، دیاری‌کردنی ھەل‌ومەرج (کەشتی، فڕۆکە و ھتد)، ڕەوش، ھەل‌ومەرج، بارودۆخ،	(ھەڵبژاردن) فرت‌وفێڵ، دەسکاری، گزەکاری،	کردنەڕەگ، دەرزی‌لێدان (نافەرمی، بەنگ)
 """),

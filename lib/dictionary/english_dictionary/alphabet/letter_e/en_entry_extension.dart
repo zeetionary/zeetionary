@@ -333,7 +333,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: کشان، کشانەوە، کێشمان، پەل‌ھاویشتن، کشاندن، کێشان، ڕاھێڵان، فراوان‌بوون، پەرەسەندن، گەورەبوونەوە،	بەرینایی، بەربڵاوی، فراوانی،	درێژکردنەوە، تازەکردنەوە، ماوەخستنەسەر، ماوەی درێژکردنەوە،	خستنەڕوو، ڕانان، پیشان‌دان، خستنەبەرچاو،	گشتاندن،	پاشکۆ، بەشی سەرخستە، پارچەی لکاو، بەشی زیادکراو یان سەرخراو، پاشکۆ
 """),
@@ -543,7 +542,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: ناخۆیی، نابوویی، نابوومی، لاوە، بیانی، ناخۆماڵی، بێگانە،	سەیر، نائاسایی،	جوان، ڕەنگین، سەرنج‌ڕاکێش،	وشەی بیانی یان تێھاتوو
 """),
@@ -322,7 +321,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

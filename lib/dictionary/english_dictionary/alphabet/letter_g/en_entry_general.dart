@@ -260,7 +260,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -275,7 +274,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: گشتی، ھەمەکی، ھەموو، خەڵک، خەڵکی ڕەمەکی، جەماوەر، تێکڕا، گشت، گشتگیر، گشتگرەوە، نابەرتەسک، ھەمووگر، سەراپاگیر، سەرتاسەری، سەرانسەری، ھەمەلایەنە، گشت‌لایەنە،	ھەمیشەیی،	ئاسایی، عەدەتی،	(لە لێکدانا) سەرـ، ـگشتی، سەرۆک، سەرۆکی گشتی، فەرماندەر، سەرکردە
 """),

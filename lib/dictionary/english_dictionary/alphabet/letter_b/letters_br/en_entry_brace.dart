@@ -246,7 +246,6 @@ class EnglishEntrybrace extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەست، بەند، پێکبەست، ھەڵپێکە، لێک‌ھەڵپێک، لێکبەست، تەناف یان گوریسی بادەوە، مەھار، ڕاگرە، ڕاگیرە، پاڵپشت، ئاکۆلاد، برۆنیشان، جووت، مۆت، دوانە، (لە شکستەبەندی‌دا) میل، میلە، (ددان‌سازی) تێل، سیم، وایەر، دۆخین، بەنەخوێ، بەنەشەڵوار، بەند یان بەستی شەڵوار
 """),
@@ -495,7 +494,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

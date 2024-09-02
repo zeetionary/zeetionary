@@ -269,7 +269,6 @@ Usage: Brit, Cdn (US: hemorrhoid)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -284,7 +283,6 @@ Usage: Brit, Cdn (US: hemorrhoid)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: مایەسیری، بێوەسیری، باوەسیری
 """),

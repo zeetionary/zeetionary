@@ -201,7 +201,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بەخت، شانس، چارەنووس، فاڵ، قسمەت،	خۆش‌بەختی، بەختیاری، بەختەوەری،	سەرکەوتن، ڕووداو، ڕێکەوت، پێش‌ھات، 	سامان، دەوڵەت، ماڵ، دارایی، پارەیەکی زۆر، لۆدە پارەیێ
 """),

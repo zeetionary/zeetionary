@@ -86,7 +86,6 @@ class EnglishEntryconcentrationcamp extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کەمپی کاری زۆرەملی یا بێگاری، سەربازگەی گرتن، ئۆردوگای زۆرەملێ
 """),
@@ -194,7 +193,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

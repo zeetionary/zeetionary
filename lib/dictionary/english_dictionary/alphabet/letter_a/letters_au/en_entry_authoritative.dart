@@ -149,7 +149,6 @@ class EnglishEntryauthoritative extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەدەسەڵات، دەس‌ڕۆیشتوو، بەھێز، بەسام، دەستووردەرانە، زۆردارانە، دیکتاتۆڕی، فەرمی، جێی‌باوەڕ، باوەڕپێکراو، پشت‌پێبەستراو، لێ‌ڕابینراو
 """),
@@ -270,7 +269,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

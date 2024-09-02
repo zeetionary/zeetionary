@@ -90,7 +90,6 @@ class EnglishEntrycoffer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سنووق، مجری، یەغدان، خەزێنە، گەنجینە، سەرمایە، سامان،	دراونامە، بودجە
 """),
@@ -206,7 +205,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

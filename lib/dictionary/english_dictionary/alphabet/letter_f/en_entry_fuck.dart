@@ -189,7 +189,6 @@ Usage: vulgar
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -204,7 +203,6 @@ Usage: vulgar
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
 // کوردی: گایین، نیاندن، قوز، خەمشە، کوز
 // """),

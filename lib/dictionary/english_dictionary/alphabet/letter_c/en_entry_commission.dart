@@ -193,7 +193,6 @@ class EnglishEntrycommission extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پێ‌سپاردن،	ئەرک، کار، پەیور، بەڵێنی، دەربەندی،	کار پێ‌سپاردن، ڕاسپاردەیی، ڕاسپێری، فەرمانبەری،	بریکاری، نوێنەرایەتی،	بەرپرسایەتی، دەسەڵات،	لیژنە، لێژنە،	دەڵاڵی، دەڵاڵانە، کارانە، دەسبایی، دەس‌بوھا، کۆمیسیۆن، کۆمسیۆن،	(گوناھـ)کردن، دەس‌تیابوون،	بڕیار، دەستوور، فەرمان،	پۆست یا پلەوپایەی سەربازی
 """),
@@ -489,7 +488,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

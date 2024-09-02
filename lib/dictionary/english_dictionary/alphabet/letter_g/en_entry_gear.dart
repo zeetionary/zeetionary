@@ -271,7 +271,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -286,7 +285,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: گێڕ، گیر، چەرخ یان پێچکەی ددانەدار،	دەزگا، ئامێر، ئامراز، ھەجەت،	بەرگ، شمەک،	میزان‌کردنی میکانیزمی گێڕ،	(خوازە) لێوەشاوەیی، لێھاتوویی،	چالاکی، خێرایی، جم‌وجۆڵ، دەرمانی ناقانوونی
 """),

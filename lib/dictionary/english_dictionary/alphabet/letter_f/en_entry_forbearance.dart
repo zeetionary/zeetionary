@@ -138,7 +138,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -153,7 +152,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پشوودرێژی، سنگ‌فراوانی، لەسەرەخۆیی، سەبر، خودداری، خۆڕاگرتن، دەربردن، تاقەت‌ھێنان، ھەڵکردن، بەرگەگرتن، خۆگرتن، خۆگیری،	چاوپۆشی، لێبوردەیی
 """),

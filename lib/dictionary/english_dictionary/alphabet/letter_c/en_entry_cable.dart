@@ -175,7 +175,6 @@ class EnglishEntrycable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سیمپۆش، وایەرپۆش، شاوایەر، شاتێل، کابل، وایێر، وایەر، تێل، تەل، تەنافی تێلی، گوریس، گشتەک، تەناف، کەندر، زنجیر، برووسکە، تێلێگراف
 """),
@@ -185,8 +184,7 @@ class EnglishEntrycable extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "They're digging up the road to lay cables.",
-                            kurdishText:
-                                "ڕێگاکە ھەڵدەکەنن بۆ دانانی کێبڵ",
+                            kurdishText: "ڕێگاکە ھەڵدەکەنن بۆ دانانی کێبڵ",
                             onPressedBritish: () => speakcables1("en-GB"),
                             onPressedAmerican: () => speakcables1("en-US"),
                           ),
@@ -314,7 +312,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

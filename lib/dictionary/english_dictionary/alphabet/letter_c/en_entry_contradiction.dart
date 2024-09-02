@@ -107,7 +107,6 @@ class EnglishEntrycontradiction extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پێکدژی، ھاوناکۆکی، یەک‌نەگرتنەوە، ھاودژی، دژبەیەک‌بوون، دژایەتی، دژبەری، پۆزبەری، بەرھەڵستی، ناکۆکی، جیاوازی،	پێشێل‌کردن، شکاندن،	ڕەت‌کردنەوە، بەرپەرچ(دانەوە)، لە ڕوودا وەرگەڕانەوە، نەلێکردن، نکۆڵی (لێکردن)، حاشا (لێکردن)، بەدرۆخستنەوە، ڕەددانەوە،	دژی، پێچەوانەی
 """),
@@ -255,7 +254,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

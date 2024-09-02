@@ -172,7 +172,6 @@ class EnglishEntrycane extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لەوەن، قامیش، چیت، ژاژ، نەی، نەیجە، حەسیر، گۆچان، داردەست، تووڵ، شووڵ، دار، خامە، شووڵک، قامیشی شەکر
 """),
@@ -317,7 +316,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -90,7 +90,6 @@ class EnglishEntrychewinggum extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: جۆرێ چەقە،	بنێشت، جاچکە، وێژەن
 """),
@@ -98,8 +97,7 @@ class EnglishEntrychewinggum extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Would you like a piece/stick of chewing gum?",
-                            kurdishText:
-                                "حەزت بە کەمێک لە بنێشت ھەیە؟",
+                            kurdishText: "حەزت بە کەمێک لە بنێشت ھەیە؟",
                             onPressedBritish: () => speakchewinggums1("en-GB"),
                             onPressedAmerican: () => speakchewinggums1("en-US"),
                           ),
@@ -200,7 +198,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

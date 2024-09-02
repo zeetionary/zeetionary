@@ -477,7 +477,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -492,7 +491,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: سەخت، ڕەق، توند، گوژم، مکۆم، پتەو، تۆکمە، ڕەختە،	دژوار، سەخت، هەڵەت، گران، چەتوون، تێگەیشتن‌سەخت،	بەزەبروزەنگ، توندوتیژ،	(کرێکار) زەحمەت‌کێش، بەکار،	بەڕشت، توند،	(هەوا) سەخت، ناخۆش،	پڕزەحمەت، پڕئەرک، ڕەنجاوی، سەخت، گران، قورس، بەهێز، (شەوق) تیژ
 """),

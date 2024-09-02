@@ -107,7 +107,6 @@ class EnglishEntrychampionship extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پێشبڕکێ قارەمانی یان پاڵەوانی‌یەکان، پاڵەوانی، قارەمانی، پۆست یان پلەوپایەی قارمانێتی، پلەی پاڵەوانێتی، پشتیوانی، بەرگری، لەسەرکردنەوە، پشتگیری، داکۆکی
 """),
@@ -253,7 +252,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

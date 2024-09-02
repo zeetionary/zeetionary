@@ -132,7 +132,8 @@
 //   @override
 //   Widget build(BuildContext context) {
 //     return DefaultTabController(
-//       length: 3, //       child: Scaffold(
+//       length: 3,
+//       child: Scaffold(
 //         appBar: const ZeetionaryAppbar(),
 //         body: Padding(
 //           padding:

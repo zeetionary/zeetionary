@@ -146,7 +146,6 @@ class EnglishEntryarchaeology extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: شوێنەوارناسی، باستان‌ناسی، کۆنەوارناسی، باستانەوانی
 """),
@@ -248,7 +247,6 @@ The branch of anthropology that studies prehistoric people and their cultures th
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

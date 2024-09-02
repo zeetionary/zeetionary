@@ -104,7 +104,6 @@ class EnglishEntrydamp extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تەڕ، شێ‌دار، تەڕەشۆ، ئاوتێزاو، نم‌دار، خاو، کزر، ھیت،	(خوازە) ساردوسڕ، سارد،	شێ، تەڕی، خاوی، کزری،	ھەوای تەڕوتووش
 """),
@@ -324,7 +323,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

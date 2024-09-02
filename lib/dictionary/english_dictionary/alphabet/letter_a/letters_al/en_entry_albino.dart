@@ -99,7 +99,6 @@ class EnglishEntryalbino extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زاڵ، کەور، ئەلبینۆ: گیانەوەر یان کەسێ کە پیگمێنتی لە پێست، موو و چاوەکانی‌دا نییە (و زۆرتر پەمەیین)
 """),
@@ -213,7 +212,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -961,7 +961,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -976,12 +975,12 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پڕجم‌وجۆڵ، پڕکار، نەسرەوتوو، سەرنەپەرژاو، بێ‌دەس‌پەڕژ، هەڵسووڕ
 """),
 // With short examples define "hectic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پڕ لە چالاکی"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) پڕ لە چالاکی"""),
                     SentencesRow(
                       englishText: """Today was too hectic for me.""",
                       kurdishText: """ئەمڕۆ سۆر جەنجاڵی بوو بۆم.""",

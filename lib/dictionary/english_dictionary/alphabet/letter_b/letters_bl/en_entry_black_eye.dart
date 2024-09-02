@@ -132,7 +132,6 @@ class EnglishEntryblackeye extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چاوی ڕەش، شینایی دەوری چاو، ڕووڕەشی، ناوزڕاوی، نەنگ، بێ‌ئابڕوویی
 """),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -179,7 +178,6 @@ ${englishMeaningConst.text}
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: توانایی، تواناداری، خورتی، زۆخ، وزە، بنگە، بار، یارا، پەک، لێوەشاوەیی، شیاوێتی، بەکارھاتوویی، لێھاتوویی، جەوھەر، بەھرەمەندی، بەھرە
 """),

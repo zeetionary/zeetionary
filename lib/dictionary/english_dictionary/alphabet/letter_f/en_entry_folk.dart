@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -205,7 +204,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: خەڵک، گەل، جەماوەر، دەستە، کۆمەڵ،	خەڵکی ڕەمەکی، خەڵکی ئاسایی، خزم، کەس‌وکار، دایک و باوک،	خەڵک، خوجێیی، ناوچەیی، نەریتی، ڕەمەکی، گەلی، گەلێری
 """),

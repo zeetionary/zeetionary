@@ -91,7 +91,6 @@ class EnglishEntrychequered extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پڕ (لە) ھەورازونشێو، پڕکەندولەند،	خانەخانە، شەترەنجی
 """),
@@ -211,7 +210,6 @@ Usage: Brit, Cdn (US: checkered)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

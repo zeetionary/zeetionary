@@ -169,7 +169,6 @@ class EnglishEntrybuttercup extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گوڵە مێلاقە، ڕەبەنۆک، بووک، گوڵ‌ماس، جوونگ، گوڵەبەھارە، باتینۆک 
 """),
@@ -272,7 +271,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

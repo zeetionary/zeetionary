@@ -105,7 +105,6 @@ class EnglishEntrychairman extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەرۆک، سەرکۆڕ، سەرۆکی کۆبوونەوە، سەرۆکی لیژنە، سەرلیژنە، سەرلێژنە، سەرۆکی کۆمیتە
 """),
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

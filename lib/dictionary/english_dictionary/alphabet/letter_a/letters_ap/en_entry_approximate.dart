@@ -143,7 +143,6 @@ class EnglishEntryapproximate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تەقریبی، پتردروست، نزیک بە، تا ئەندازەیێ (زۆر)، نزیکەی، نزیک کردن، بەراورد کردن، مەزەندە کردن
 """),
@@ -293,7 +292,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

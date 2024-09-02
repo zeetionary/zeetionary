@@ -106,7 +106,6 @@ class EnglishEntrycompass extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لادۆز(ە)، پوسڵە، قیبلەنوێن، قیبلەنما،	پەڕگار، پەرگاڵ، پڕگار، جەغزینگ، بازنەکێش،	پانتایی، بەرینە، ڕاخستە، بوار، مەڵبەند، دەنگەوار؛ سنوور، سەرحەد، تخوب،	توانست، توانایی، ھێز
 """),
@@ -259,7 +258,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

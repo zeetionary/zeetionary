@@ -83,7 +83,6 @@ class EnglishEntryconfetti extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پەخشانە، پووڵەکەکاغز، زریقەوبریقە، کاغزەوەشان، کاغزپەخشانە
 """),
@@ -187,7 +186,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

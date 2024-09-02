@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -179,7 +178,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: گشت، ناتایبەتی، گشتی، گشتگرەوە، ھەمەکی، بۆ ھەموو، بۆ گشت، تێکڕایی،	ناوی گشت(ی)، گشتەنێو،	(زیندەناسی) سەربە ڕەگەز یان توخم، توخمی، ڕەگەزی
 """),

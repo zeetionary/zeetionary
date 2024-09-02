@@ -115,7 +115,6 @@ class EnglishEntryaffinity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەستراوی، پێوەستایەتی، پشت‌پێ‌بەستوویی، خۆبەستەیی، سەربەدی‌یەتی، پاشکۆیی، پێوەبەندایەتی، دیبەندایەتی، لێکچوویی، لێک‌نزیکی، وەکھەڤی، نزیکی، وەکیەکی، پێوەندی، تێکەڵی، خزمایەتی ژن‌ومێردایەتی، ئەوینداری، مەیل، (کیمیا) ھۆگرێتی، ڕاکێشان، ڕاکێشەرێتی
 """),
@@ -249,7 +248,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

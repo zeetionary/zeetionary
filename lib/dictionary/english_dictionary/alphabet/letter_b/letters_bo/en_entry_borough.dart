@@ -133,7 +133,6 @@ class EnglishEntryborough extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ناوچە، مەڵبەند (لە دابەشاندنی شاردا)، بارێ (ھەر یەک لە پێنج ناوچە
 """),
@@ -247,7 +246,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

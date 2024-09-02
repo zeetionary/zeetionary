@@ -160,7 +160,6 @@ class EnglishEntrychief extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەرۆک، سەرەک، پایەبەرزترین، گەورە، سەر، کەڵان، میر،	سەرۆکی ھۆز، کەڵانتەر، سەرخێڵ، سەرھۆز، سەرتیرە،	ڕێبەر، فەرماندەر، فەرماندار، سالار، سەردار، سەرکردە،	بەڕێز، کاکە (لە بانگ‌کردن‌دا)، ـگشتی، سەرـ (لە لێکدان‌دا)، گرنگ، گرنگ‌ترین، سەرەکی، بنەڕەتی، بنچینەیی، بنگەھی
 """),
@@ -398,7 +397,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

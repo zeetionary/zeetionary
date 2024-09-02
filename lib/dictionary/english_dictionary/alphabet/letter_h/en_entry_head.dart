@@ -1100,7 +1100,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -1115,7 +1114,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: سەر، کەلە، کەللە، سەلک، مێشک،	نافەرمی سەرێشە، ژانەسەر،	سەروو، ژوور، بان، لەسەرووی، لەژوور، پێش، لەپێش، نووک،	ئەقڵ، فام، ئاوەز، خەیاڵ‌کردنەوە، بیر، هزر، تێگەیشتن، توانایی، بەهرە،	بابەت، بارە، باس، مژار، ڕێبەران، سەران،	سەرۆک، بەڕێوەبەر، بەڕێوەبەری خوێندنگا یان دەزگایێ، گەورە، سەرپەرشت، ڕێبەر، سالار، سەردار، سەروەر، سەرگەورە،	کەس، یەکێ، دانە،	(ئاژەڵ) سەر، ژمارە،	پێشی کەشتی، سەر یان پێشەوەی کەشتی، سەرک، لووتکە،	سەردێڕ، بەش، پشک، پارچە،	(ڕووبار) بەشی سەروو، کەف،	(ڤیدیۆ و هتد) هێد،	(زمانەوانی) ناوک
 """),

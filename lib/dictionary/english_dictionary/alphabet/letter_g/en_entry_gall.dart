@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -187,7 +186,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: زەرداو، زراو، کرانتی، توورەکەی زراو، کیسەی زراو، زیەڵگ، شت و نێوەرۆکی نێو کیسەی زراو،	توورەکەی زراوی گیانەوەر،	(قسە) ناخۆشی، ڕەقی، تاڵی،	ڕووداری، بێ‌شەرمی، بێ‌حەیایی، جدەو، دڵ‌وجەرگ، زراو، ئازایەتی، غیرەت، بوێری،	عەیب، عار، لکە، داماڵکان، پشتەڕێژ، ڕووشان، پێست ڕۆیشتن، برین،	(ھەل)ئاوسان یان ماسینی دار و ڕووەک
 """),

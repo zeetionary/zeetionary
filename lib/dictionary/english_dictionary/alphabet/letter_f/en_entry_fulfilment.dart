@@ -150,7 +150,6 @@ Usage: N. Amer (elsewhere: fulfilment)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -165,7 +164,6 @@ Usage: N. Amer (elsewhere: fulfilment)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: کردن، جێبەجێ‌کردن، بەدێھاتن، ڕاپەڕاندن، پیادەکردن، بەجێ‌ھێنان،	قایل‌بوون، پێخۆش‌بوون، خۆشحاڵی، ڕازی‌بوون
 """),

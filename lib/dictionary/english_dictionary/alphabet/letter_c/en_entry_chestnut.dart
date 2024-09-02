@@ -107,7 +107,6 @@ class EnglishEntrychestnut extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: شابەڕوو، شەمبەلووت، درەختی شابەڕوو، کەستانە، لە داری شابەڕوو، داری شابەڕوو،	ڕەنگی بەڕوویی یان خورمایی،	ئەسپی کوێت، سوورکوێت، ئەسپی شێ، کەرەندە، ئاڵە،	قسەی ھیچەکە یان بێ‌تام، گاڵتە یان جۆکی کۆن
 """),
@@ -259,7 +258,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

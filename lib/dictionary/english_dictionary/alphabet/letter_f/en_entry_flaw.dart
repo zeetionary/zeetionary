@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -185,7 +184,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ناتەواوی، عەیب، خەوش،	(شووشە، چینکۆ و ھتد) موو، چڕژ، چڕژاوی، قەڵەشێوی، درز،	خاڵی لاوازی، کەم‌وکووڕی، ناتەواوی، شکستی، عەیب، ئیراد،	ھەڵە، لێ‌ھەڵقڵیشان، خەتا
 """),

@@ -98,7 +98,6 @@ class EnglishEntrycleaner extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کارەکەر، خاوێن‌کەرەوە،	دەزگای خاوێن‌کردنەوە، دەزگای سڕین یان خاوێن‌کردنەوەی ماڵ،	مەتریاڵ یان کەرەسەی خاوێن‌کردنەوە،	شوێنی بەرگ یان پارچە شتن، شۆرگە،	(لە لێکدان‌دا) ـشۆر، ـسڕ، ـخاوێن‌کەرەوە
 """),
@@ -226,7 +225,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

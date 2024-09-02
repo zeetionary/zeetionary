@@ -92,7 +92,6 @@ class EnglishEntryconvolution extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چرچ‌ولۆچی، لاسەرلایی، پێچ‌وپەنا، قەف‌وپێچ، قەد، پێچ، کۆل، لوول، لۆچ، چاڵی‌وچۆڵی (مێشک)، پێچ‌خواردوویی، بادراوی، لوول‌دراوی، پێچ‌دراوی، ئاڵقەدراوی، ئاڵقە، قەف،	پێچەڵاوپێچی، ئاڵۆزی، دژواری، گرانی
 """),
@@ -217,7 +216,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

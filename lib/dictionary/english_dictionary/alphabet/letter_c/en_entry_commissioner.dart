@@ -90,7 +90,6 @@ class EnglishEntrycommissioner extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئەندامی لیژنە، کۆمسیار،	نوێنەر،	کاربەدەست (گشتی) یان فەرمانبەری پایەبەرز
 """),
@@ -213,7 +212,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

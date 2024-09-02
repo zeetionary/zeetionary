@@ -279,7 +279,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -294,7 +293,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: گرتن، گیر، دەس‌لێ‌گیرکردن، ھیزی گرتن، توانایی گرتن، گرۆکی، گیرایی،	جێگای دەست، جێ‌دەس،	دەسەڵات، دەس‌بەسەراگرتن، ھێز، کۆنتڕۆڵ،	تێگەیشتن، پێ‌پێبردن، پێزانین،	گیرە، مەنگەنە، گیرگە، بەست، دەسک، قوڵف، دەسگیرە، دەزگیرە،	چنگ، مشت،	دەرزی قژ،	ساک، جانتا، گلەیی، شکات، لاری، گازندە، سکاڵا، دەربڕینی ناڕەزایەتی
 """),

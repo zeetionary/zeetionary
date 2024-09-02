@@ -126,29 +126,75 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
         bottomNavigationBar: NavigationBar(
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           shadowColor: Theme.of(context).primaryColor,
-          indicatorColor: Theme.of(context).primaryColor.withOpacity(0.2),
-          surfaceTintColor: Theme.of(context).primaryColor.withOpacity(0.1),
+          indicatorColor: Theme.of(context).primaryColor.withOpacity(0.1),
+          surfaceTintColor:
+              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.1),
           selectedIndex: _selectedIndex,
           onDestinationSelected: _onItemTapped,
           destinations: <NavigationDestination>[
             NavigationDestination(
-              icon: Icon(Icons.book, size: textSize + 10),
+              selectedIcon: Icon(
+                Icons.book,
+                size: textSize + 11,
+                color: Theme.of(context).primaryColor,
+              ),
+              icon: Icon(
+                Icons.book,
+                size: textSize + 8,
+                color: Theme.of(context).primaryColor,
+              ),
               label: 'English',
             ),
             NavigationDestination(
-              icon: Icon(Icons.bookmark, size: textSize + 10),
+              selectedIcon: Icon(
+                Icons.bookmark_outlined,
+                size: textSize + 11,
+                color: Theme.of(context).primaryColor,
+              ),
+              icon: Icon(
+                Icons.bookmark,
+                size: textSize + 8,
+                color: Theme.of(context).primaryColor,
+              ),
               label: 'کوردی',
             ),
             NavigationDestination(
-              icon: Icon(Icons.search, size: textSize + 10),
+              selectedIcon: Icon(
+                Icons.search_outlined,
+                size: textSize + 11,
+                color: Theme.of(context).primaryColor,
+              ),
+              icon: Icon(
+                Icons.search,
+                size: textSize + 8,
+                color: Theme.of(context).primaryColor,
+              ),
               label: 'Sentences',
             ),
             NavigationDestination(
-              icon: Icon(Icons.search, size: textSize + 10),
+              selectedIcon: Icon(
+                Icons.search_outlined,
+                size: textSize + 11,
+                color: Theme.of(context).primaryColor,
+              ),
+              icon: Icon(
+                Icons.search,
+                size: textSize + 8,
+                color: Theme.of(context).primaryColor,
+              ),
               label: 'ڕستە',
             ),
             NavigationDestination(
-              icon: Icon(Icons.school, size: textSize + 10),
+              selectedIcon: Icon(
+                Icons.school_outlined,
+                size: textSize + 11,
+                color: Theme.of(context).primaryColor,
+              ),
+              icon: Icon(
+                Icons.school,
+                size: textSize + 8,
+                color: Theme.of(context).primaryColor,
+              ),
               label: 'Grammar',
             ),
           ],

@@ -133,7 +133,6 @@ class EnglishEntryblood extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خوێن، خێن، ھوون، ڕەسەن، نژاد، ڕەگەز، ڕەچەڵەک، بنەچەک، جوانی شۆخ‌وشەنگ، خوو
 """),
@@ -297,7 +296,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

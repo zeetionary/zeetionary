@@ -222,7 +222,6 @@ class EnglishEntryblaze extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گڕ، گڵ، گڵپە، کڵپە، بڵێسە، سۆڵە، زمانە، سنجر، نێرگە، ئاگر، ئاور، ئاورگرتن، ئاورتێبەربوون، سووتمان، سووتان، داگیرسان، ھەڵبوون، سوورەوەبوون، ھەڵچوون، بریقەدانەوە، تیشک‌دانەوە، درەوشانەوە، چروسان، شەوق‌دانەوە، ورشانەوە، ڕووناکی، شەوق
 """),
@@ -441,7 +440,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

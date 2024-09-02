@@ -84,7 +84,6 @@ class EnglishEntrychameleon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (گیانەوەرناسی) زەردەقۆڕە، تێڕتێڕە، ڕۆژپەرست، خۆرپەرست، کەرپەسە
 """),
@@ -193,7 +192,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -281,7 +281,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -296,7 +295,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پێ، پا (لە خوارووی قولاپەوە)،	ژێر، خوارەوە، خوارترین بەش، داوێن، پێ، بنار، بن، بنک،	خوارووی گۆرەوی، بنەوەی گۆرەوەی،	بنەما، پایە (لە ھەڵبەستی ئینگلیسی‌دا)،	ھەنگاو، گاڤ، شەقاو،	پیادە، سپای پیادە،	فووت، پێ
 """),

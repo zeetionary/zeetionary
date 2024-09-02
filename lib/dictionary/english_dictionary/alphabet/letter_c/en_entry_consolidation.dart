@@ -93,7 +93,6 @@ class EnglishEntryconsolidation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پتەوی، تۆکمەیی، داکوتان، چەسپاندن، بەھێزکردن، پێزداری، جێگیرکردن، تۆکماندن، پتەواندن، سەقام‌گیرکردن، توندکردن،	لێکدان، یەک‌خستن، تێک‌خستن، تێک‌ھەڵکێشان، کردنەیەک، یەک‌گرتن، بوونەیەک، یەک‌بوون
 """),
@@ -219,7 +218,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

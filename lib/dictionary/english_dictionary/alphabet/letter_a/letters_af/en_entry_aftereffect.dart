@@ -100,7 +100,6 @@ class EnglishEntryaftereffect extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (زۆرتر کۆ) نیشانەکانی دواتر، پاشە(ئە)نجام، کاریگەری پاشین یان دواتر، پاش‌نیشانە (وەک ھی دەرمان، نەخۆشی و ھتد)
 """),
@@ -200,7 +199,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

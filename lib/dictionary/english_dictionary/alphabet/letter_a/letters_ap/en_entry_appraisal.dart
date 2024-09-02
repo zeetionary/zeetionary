@@ -144,7 +144,6 @@ class EnglishEntryappraisal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: نرخاندن، ھەڵسەنگاندن، مەزندە، قەبڵاندن، لێکدانەوە، بۆچوون
 """),
@@ -265,7 +264,6 @@ The classification of someone or something with respect to its worth (= assessme
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

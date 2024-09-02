@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -212,7 +211,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: تووڕھەڵدان، ھاویشتن، فڕێدان،	فلینگ (جۆرێ سەما و ھەڵپەڕکێی توندی سکاتلەندی)،	ماوەی ڕابواردن، سەروبەندی خۆشی، سەردەمی ڕادان،	پێوەندی سێکسی ناڕەوا، تێکەڵی دڵدارانە
 """),

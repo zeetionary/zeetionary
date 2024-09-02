@@ -91,7 +91,6 @@ class EnglishEntrychimney extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دووکەڵ‌کێش، لووجن، بوغاری، ڕۆژینگ، قۆڵەدووکەڵ، لوولەدووکەڵ، باکێش، باجە، کونەباجە،	کونی پیاھەڵچوون یان سەرکەوتن، دووڵەک‌کێش یان بوغاری بەردین (لە شاخەوانی‌دا)،	شووشە چرا، شووشە لامپا، قۆڵ یان لوولەی چرا یان لامپا
 """),
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

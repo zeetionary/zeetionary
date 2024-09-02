@@ -132,7 +132,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -151,7 +150,6 @@ ${englishMeaningConst.text}
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئەکر، گاوەخان (= یەکەی پێوانی زەوی، بەرامبەر بە ٤.٨٤ یاردی چوارگۆشە و ٤.٠٥٠ میتری چوارگۆشە یان ٠.٤٠٥ ھێکتار
 """),

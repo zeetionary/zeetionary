@@ -154,7 +154,6 @@ class EnglishEntryangle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گۆشە، سووچ، کونجیک، موور، قولینچک، گوونیا، بۆچوون، ڕوانگە، دید و بۆچوون، نێرین، دیتن
 """),
@@ -367,7 +366,6 @@ Noun: angle (derived forms: angles)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

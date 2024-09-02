@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: مرۆی دەمارگرژ یان تونڕەو، مرۆی پەڕگر,	لایەنگر (دەمارگرژ، بەتایبەت دین یان ڕامیاری)، دەمارگرژ، دەمارگیر، تونڕەو، پەڕگر، چەقبەستوو، دەمارگرژانە
 """),
@@ -347,7 +346,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

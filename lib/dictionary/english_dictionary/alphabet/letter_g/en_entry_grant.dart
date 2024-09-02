@@ -229,7 +229,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دەسندە، پێدان، بەخشین،	بورس، یارمەتی حکومەتی، یارمەتی بێ‌دانەوە یان پیاوەتی‌یانە، یارمەتی، کۆمەک، پیتاک،	(زەوی‌وزار) بەنێوکردن
 """),

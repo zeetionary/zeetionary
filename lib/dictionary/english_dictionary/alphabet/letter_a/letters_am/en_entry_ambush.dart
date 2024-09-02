@@ -98,7 +98,6 @@ class EnglishEntryambush extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بۆسە، داو، پارێز، کەسان یان سەربازانی بۆسەنشین، ھێرشی کت‌وپڕ یان خافڵگیرانە، ھێرشی بۆسەیی
 """),
@@ -214,7 +213,6 @@ Noun: ambush (derived forms: ambushed, ambushes, ambushing)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

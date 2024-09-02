@@ -173,7 +173,6 @@ class EnglishEntrycamp extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: وارگە، چادرگا، کەمپ، ھۆبە، زۆم، بارەگا، ھەوارگە، لەشکرگا، ڕێباز، گروپ، دەستە، حیزب، خێوەت، چادر
 """),
@@ -419,7 +418,6 @@ Usage: informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

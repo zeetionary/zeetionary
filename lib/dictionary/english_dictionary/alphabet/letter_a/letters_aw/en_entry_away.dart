@@ -134,7 +134,6 @@ class EnglishEntryaway extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دوور، دوور لە، لە دوور، یەکبینە، بێ‌وچان، یەکسەر، لەسەریەک، بێ‌پسانەوە، کەم‌کەم، بەرەبەرە، ناوەناوە، وردەوردە، ئەولاتر، ئەوبەر، ئەولا، بۆ لایەکی تر، زۆر، گەلێک، نائامادە، نەھاتوو، لێرەنەبوو، لە دەرەوەی، تەنیشت، شوێنێ، جێیێ. جیا، جیا لە، لە یاریگا یان وەرزشگای نەیار
 """),
@@ -338,7 +337,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

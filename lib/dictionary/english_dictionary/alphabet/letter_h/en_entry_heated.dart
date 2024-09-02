@@ -96,14 +96,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The Prime Minister was involved in a heated exchange with Opposition MPs.""");
+    await flutterTts.speak(
+        """The Prime Minister was involved in a heated exchange with Opposition MPs.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""These plants should be kept in a well-heated room.""");
+    await flutterTts
+        .speak("""These plants should be kept in a well-heated room.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -964,7 +966,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -979,12 +980,12 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بەتین، گەرم، بەگوڕ، گەرم‌وگوڕ، بەتاو، لەجۆش، تاوسەندوو، داگیرساو،	تووڕە، ڕق‌هەستاو،	ورووژاو،	گەرم‌بوو
 """),
 // With short examples define "heated", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پڕ لە تووڕەیی و جۆش‌وخرۆشی"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) پڕ لە تووڕەیی و جۆش‌وخرۆشی"""),
                     SentencesRow(
                       englishText: """She became very heated.""",
                       kurdishText: """زۆر بەجۆش بوو.""",
@@ -993,17 +994,22 @@ ${englishMeaningConst.text}
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The Prime Minister was involved in a heated exchange with Opposition MPs.""",
-                      kurdishText: """سەرۆک وەزیران کەوتە مشتومڕێکی گەرم لەگەڵ ئەندام پەرلەمانانی ئۆپۆزسیۆن.""",
+                      englishText:
+                          """The Prime Minister was involved in a heated exchange with Opposition MPs.""",
+                      kurdishText:
+                          """سەرۆک وەزیران کەوتە مشتومڕێکی گەرم لەگەڵ ئەندام پەرلەمانانی ئۆپۆزسیۆن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە گەرمکراوەتەوە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە گەرمکراوەتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """These plants should be kept in a well-heated room.""",
-                      kurdishText: """ئەم ڕووەکانە دەبێت لە ژوورێکی باش گەرمکراو بپارێزرێن.""",
+                      englishText:
+                          """These plants should be kept in a well-heated room.""",
+                      kurdishText:
+                          """ئەم ڕووەکانە دەبێت لە ژوورێکی باش گەرمکراو بپارێزرێن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

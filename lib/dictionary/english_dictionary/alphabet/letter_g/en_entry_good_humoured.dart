@@ -127,7 +127,6 @@ Usage: Brit, Cdn (US: good-humored)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -142,7 +141,6 @@ Usage: Brit, Cdn (US: good-humored)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: شاد، بەنەشە، خۆشحاڵ، گەش، ڕووشیرین، دڵگەرم، دڵشاد، دڵخۆش، بەکەیف، بەدەماخ، بەگوڕ، تامەزرۆ، بەپەرۆش، خۆش
 """),

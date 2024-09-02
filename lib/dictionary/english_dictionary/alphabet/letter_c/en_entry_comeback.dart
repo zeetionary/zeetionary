@@ -99,7 +99,6 @@ class EnglishEntrycomeback extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گەڕانەوە (بۆ دۆخی سەرکەوتووانەی جاران)، پاش‌داچوون،	(نافەیمی) وەڵامی توند یا گرژ
 """),
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

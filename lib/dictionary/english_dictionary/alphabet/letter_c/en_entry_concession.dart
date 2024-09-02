@@ -123,7 +123,6 @@ class EnglishEntryconcession extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پێدان، بەدەستەوەدان، سپاردن،	ئیمتیاز، تایبەت‌ماف،	پەسندکردن، قەبووڵ(کردن)، خۆبەدەستەوەدان، مل‌نان، مل‌دان، مل‌کەچکردن،	سازان، گونجان، ڕێک‌کەوتن،	(لێ)داشکاندن، کەم‌کردنەوە، مایەدانان، لێدەرکردن، لێ‌فڕێدان،	ئیمتیاز یان مافی بەکارھێنان 
 """),
@@ -288,7 +287,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

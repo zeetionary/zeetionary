@@ -136,7 +136,6 @@ class EnglishEntrycondemn extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: مەحکووم کردن، ڕیسوا بوون، لە قاودان، سەرکۆنە کردن، سەرشۆڕ کردن، ئیدانە کردن
 """),
@@ -326,7 +325,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

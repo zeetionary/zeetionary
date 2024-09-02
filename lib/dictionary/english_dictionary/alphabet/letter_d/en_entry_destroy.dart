@@ -277,7 +277,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: خراپ کردن، خاپوور کردن، وێران کردن، بەفیڕۆ دان، کوشتن، تەرت‌وتونا کردن، کاول کردن، داڕماندن، لابردن
 """),
@@ -412,7 +411,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

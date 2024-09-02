@@ -91,7 +91,6 @@ class EnglishEntrycordon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھێڵ یان ڕیزی پۆلیس، بازنەی پۆلیس، سەرباز و ھتد، ئاڵقەی پۆلیس، ئاڵقە(بەندان)ی گەماڕۆ
 """),
@@ -214,7 +213,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

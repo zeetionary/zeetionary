@@ -135,7 +135,6 @@ class EnglishEntrybooster extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەھێزکەر، ھێزدەر، دەزگای زۆرکردنی ھێز یا ڤۆڵتاژ، لایەنگر، ئالیگر، پشتیوان، کوتان یان دەرزی‌لێدانی بەھێزکەر یا توانایی‌پێدەر
 """),
@@ -285,7 +284,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

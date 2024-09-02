@@ -141,7 +141,6 @@ Usage: Brit (N. Amer: two weeks)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -156,7 +155,6 @@ Usage: Brit (N. Amer: two weeks)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),

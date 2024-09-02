@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -168,7 +167,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ڕەشەبا، بای توند، بای قایم، هەڵکردنی بای توند یان ڕەشەبا،	ڕەهێڵە، ڕێژنە، بارینی بە خوڕەم،	(ئاور، دووکەڵ و هتد) گڕکێشان، کڵپەکردن،	(خوازە) هەڵچوون، تەقینەوەی هەست و سۆز
 """),

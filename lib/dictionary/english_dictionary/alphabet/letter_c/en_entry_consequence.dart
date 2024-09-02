@@ -144,7 +144,6 @@ class EnglishEntryconsequence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئەنجام، ئاکام، پێئاژۆ،	گرنگایەتی،	پلەوپایەی بەرز، پایەبەرزی، دەرەنجامەکان، ئاکامەکان
 """),
@@ -153,8 +152,7 @@ class EnglishEntryconsequence extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Remember that actions have consequences.",
-                            kurdishText:
-                                "بیرت بێت کردار ئەنجامی ھەیە.",
+                            kurdishText: "بیرت بێت کردار ئەنجامی ھەیە.",
                             onPressedBritish: () => speakconsequences1("en-GB"),
                             onPressedAmerican: () =>
                                 speakconsequences1("en-US"),
@@ -332,7 +330,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

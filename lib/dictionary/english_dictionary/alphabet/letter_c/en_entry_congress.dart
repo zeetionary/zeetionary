@@ -122,7 +122,6 @@ class EnglishEntrycongress extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کۆنگرێس، کۆنگرە، کۆمان، کۆبوونەوە، کۆمبین، جڤین، کۆڕ، دانیشتن،	ئەنجومەن (قانوون‌دانان)،	دیدار، یەکتربینین، سەردان
 """),
@@ -280,7 +279,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

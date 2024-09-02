@@ -322,7 +322,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: ئاشنا، ناسیاو، ڕووکراوە، ئاگادار، بەڵەد، شارەزا،	ناسراو، ھۆگر، ڕاھاتوو، ئاسایی، نزیک، گەرم‌وگوڕ، نافەرمی، دۆستانە، خۆمانە،	ماڵی، خانەکی،	ئاشنا، شناس، ناسیاو، دۆست، نزیک
 """),
@@ -505,7 +504,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

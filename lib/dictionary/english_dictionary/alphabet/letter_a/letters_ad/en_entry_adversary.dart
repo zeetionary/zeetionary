@@ -100,7 +100,6 @@ class EnglishEntryadversary extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دوژمن، نەیار، ھەڤرک، گاڤبەر، ناحەز، ڕقەبەر، دژبەر، دژەون، بەرھەڵست، ڕکەبەر
 """),
@@ -196,7 +195,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

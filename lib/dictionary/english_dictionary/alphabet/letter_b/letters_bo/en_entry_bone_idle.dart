@@ -132,7 +132,6 @@ class EnglishEntryboneidle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تەمەڵ، کارنەکەر، تەڕاڵ، ترال، خوێڕی، کەتوەر، بێکارە، نەکرکار، کنگ‌گران، گێرەنەکەر، مەرشۆ، لەش‌گران، کەم‌جم‌وجۆڵ، تەپ، تەپلۆس، تەوەزەل، ھێواش، (خاو)وخلیچک
 """),
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

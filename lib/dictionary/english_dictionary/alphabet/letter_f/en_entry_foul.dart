@@ -266,7 +266,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -281,7 +280,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بۆگەن، گەنیو، گنخاو، ناخۆش، خراپ، پیس، چەپەڵ، گڵاو، گەمار،	(ھەوا) ناخۆش، ناسازگار، پڕبا و بارانی، خراپ،	قەبە، ناحەز، ناشیرین، کرێت، ناشایست،	پیس، بێ‌بەزەیی، چەپەڵ،	ھەرزە، پڕ لە قسەی ساردوسووک،	(وەرزش) نادادپەروەرانە، ناپیاوانە، دوور لە ڕێسای وەرزشی،	(دەریاوانی، تەناف و ھتد) لێک‌ئاڵاو، ئاڵۆسکاو، تێک‌گیراو، شێواو،	(قۆڵەکوورە و ھتد) گیراو، بەرگیراو
 """),

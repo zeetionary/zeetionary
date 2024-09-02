@@ -176,7 +176,6 @@ class EnglishEntrycandidate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پاڵێوراو، بەرئەندام، بەربژار، بەربژێر، ناولێنراو، شتێکی گونجاو یان باش
 """),
@@ -350,7 +349,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

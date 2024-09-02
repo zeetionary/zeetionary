@@ -104,7 +104,6 @@ class EnglishEntrycheer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دەربڕینی کوڵ‌وکۆ، ھاندان، قریوە، ھای گیان، ھاوار و قیژەی خۆشی،	شادی، خۆشحاڵی، دڵگەرمی، ورە
 """),
@@ -253,7 +252,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

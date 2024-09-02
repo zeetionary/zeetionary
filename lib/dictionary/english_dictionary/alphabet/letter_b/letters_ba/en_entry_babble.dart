@@ -135,7 +135,6 @@ class EnglishEntrybabble extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چەنەدان، زۆربڵێیی، چەقەسرۆیی، خوڕڕە، گڕوگاڵ، گاڵ‌وبۆغ، فڵتە، قسەی ھیچەکە، دەنگ‌وھەرا، ھەراھەرا، قاڵمەقاڵم
 """),
@@ -294,7 +293,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -99,7 +99,6 @@ class EnglishEntryclown extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گاڵتەچی، گاڵتەجاڕ، گەپچاڕ کۆستەبابی، تیزەزارۆک، قەشمەر، وشکەڕن، تەڵخەک
 """),
@@ -232,7 +231,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

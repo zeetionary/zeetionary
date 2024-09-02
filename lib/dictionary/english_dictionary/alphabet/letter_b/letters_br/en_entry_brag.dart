@@ -130,7 +130,6 @@ class EnglishEntrybrag extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: حەیت‌وحووت، ھاڕەوگیفە، لاف‌وگاف، لافاندن، فڕوفیشاڵ(کردن)، فیز، خۆھەڵکێش، لەخۆفشین
 """),
@@ -251,7 +250,6 @@ Usage: N. Amer, informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

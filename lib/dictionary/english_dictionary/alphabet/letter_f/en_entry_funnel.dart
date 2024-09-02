@@ -165,7 +165,6 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -180,7 +179,6 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ڕەحەتی، سەرتلیک، ماستیرگ، بەتو، کۆڤک
 """),

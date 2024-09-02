@@ -298,7 +298,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: سەیر،	خەیاڵی، ئەندێشەیی، پڕوپووچ،	دوور لە ڕاستی، ناکرداری،	لۆدە، کۆما، یەکجار زۆر (پارە)،	یەکجار گەورە، بێ‌داد، نائاسایی، سەراسا
 """),
@@ -443,7 +442,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

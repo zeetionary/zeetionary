@@ -92,7 +92,6 @@ class EnglishEntrycivility extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕەوشت، تۆرە، ماریفەت، ڕێز، حورمەت، ھەڵس‌وکەوتی بە ڕێزەوە،	شارستانیەت
 """),
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

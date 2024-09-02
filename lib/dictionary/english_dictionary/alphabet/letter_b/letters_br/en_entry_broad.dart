@@ -297,7 +297,6 @@ class EnglishEntrybroad extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پان، بەرین، بەپانایی، بەبەرینی، فراوان، گەورە، کەشنار، بەربڵاو، بەرفرەھـ، ھەراو، لیبڕاڵ، ئازاد، ڕۆشن، کراوە، تێگەیشتوو، شل‌گرتوو، ئاسان‌گیر، سنگ‌فراوان، نادەمارگرژ، تۆلێرانت، گشتی، گەلەمپەری، نەبەوردەکاری، بەتەواوەتی، دیار، بەرچاو، ئاشکرا، خۆیا خەست (زۆر تایبەتمەندی زاراوەیەکی ناوچەیی پێوە دیار بێ)، بێ‌ڕەوشتانە، پیس، لەماریفەت‌بەدوور، (لە ئەمریکا، نافەرمی) ژن، بەشی پان، پانایی، بەرینایی
 """),
@@ -578,7 +577,6 @@ Usage: slang
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -100,7 +100,6 @@ class EnglishEntryadherent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لایەنگر، پشتیوان، دەستە، شوێن‌کەوتوو، خۆپێوەبەستوو، پێوەنووساو، بەئەمەگ، دڵسۆز، شوێن‌کەوتوو، دواکەوتە، مرید، پاشبڕۆ
 """),
@@ -200,7 +199,6 @@ Someone who believes and helps to spread the doctrine of another (= disciple)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

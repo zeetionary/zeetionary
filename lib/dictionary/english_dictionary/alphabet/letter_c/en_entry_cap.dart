@@ -170,7 +170,6 @@ class EnglishEntrycap extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کڵاو، جۆرێ کڵاو بە یان بێ شەپکە، تەقیلە، تەپڵە، کڵاوی شانازی یان زانکۆیی، دەزگا، دیافڕاگم (ژنان)، سەر، درگا، کڵاوە، قەپاخ، سەرپۆش، سەرقاپ، تۆقتۆقە، کڵاوە، بەشی سەرووی تەختی، کارگ یان، کڵاوە: تاج یان ڕووپۆشی دەستکرد بۆ ددانێ، زۆرترین، زۆرینە، ئەوپەڕ، ھەرەسەروو، دوایین ڕادە، (وەک خەرج و بار)، نیشانەی ∩، ئاماژە بە ھاوبڕی، دوو کۆمەڵە یان دەستە، (زۆرتر لە بریتانیا) جۆیێ کڵاو کە دەبەخشرێتە ئەندامانی تیپێکی وەرزشی، بەتایبەت تیپێکی نیشتمانی، ھێشووە گەردێ 
 """),
@@ -305,7 +304,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

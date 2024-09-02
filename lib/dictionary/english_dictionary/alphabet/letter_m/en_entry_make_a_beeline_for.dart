@@ -137,7 +137,6 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھێلی ڕاستەوخۆ، ھێڵی یەکسەر، یەکسەرە چوون بە دوای (کەس یان شتێ)
 """),
@@ -296,7 +295,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

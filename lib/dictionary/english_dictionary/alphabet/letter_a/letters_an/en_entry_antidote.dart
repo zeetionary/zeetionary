@@ -141,7 +141,6 @@ class EnglishEntryantidote extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ژاربەر، دژەژار، ژارڕەوێن، دژی ژار، ژارکوژ، دەرمان، دەرمانەژار، نۆژداروو، خەم‌ڕەوێن، شتێ کە کاریگەری ناخۆشی کەم دەکاتەوە
 """),
@@ -241,7 +240,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

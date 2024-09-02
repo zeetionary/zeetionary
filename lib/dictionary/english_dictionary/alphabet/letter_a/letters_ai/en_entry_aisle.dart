@@ -100,7 +100,6 @@ class EnglishEntryaisle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: جێڕەو، ڕێڕەو (لەنێوان کورسی‌یەکان لە کلیسا، شانۆ، شەمەندەفەر و فڕۆکە، یان ڕەفەکانی سوپەرمارکێت...)، تەنیشت، کەنار
 """),
@@ -200,7 +199,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

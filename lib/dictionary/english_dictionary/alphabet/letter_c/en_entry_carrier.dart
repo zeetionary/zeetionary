@@ -171,7 +171,6 @@ class EnglishEntrycarrier extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەڵگر، کۆڵکێش، کۆمپانی گوێزانەوە، ناوکۆیی ڕاگوێستن، ڕاگوێزەر (نەخۆشی)، نامەبەر، ـھەڵگر، ـبەر، کەشتی فڕۆکەھەڵگر، (دووچەرخە) پاشتەرک، (ئۆتۆمبێل) باربەست، باربەند، کەل‌وپەل‌ھەڵگر
 """),
@@ -333,7 +332,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

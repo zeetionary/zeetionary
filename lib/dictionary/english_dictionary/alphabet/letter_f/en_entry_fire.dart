@@ -479,7 +479,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -494,7 +493,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ئاگر، ئاور،	ئاورگرتن، سووتان، سووتمان، ئاوری ماڵ‌وێران‌کەر، گرتن، ئاورتێ‌بەربوون،	(سەربازی) خستن، تەقاندن،	کوورە،	تین‌وگوڕ، داگیرسان، بەپەرۆشی، خرۆش، تامەزرۆیی
 """),

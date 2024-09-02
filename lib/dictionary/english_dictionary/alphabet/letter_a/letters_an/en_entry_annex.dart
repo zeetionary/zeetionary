@@ -142,7 +142,6 @@ class EnglishEntryannex extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: داگیرکردن، لاخانوو(بەرە)، دەستەی لا(پاڵ)، لادەستە، خانووبەرەی سەرخستە یان لکاو، خانووبەرەی سەرخراو (نووساوە بە خانووبەرەی سەرەکی)، پاشکۆ، سەرخستە
 """),
@@ -258,7 +257,6 @@ Verb: annex (derived forms: annexed, annexes, annexing)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

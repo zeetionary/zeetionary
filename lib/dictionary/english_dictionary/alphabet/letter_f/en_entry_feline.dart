@@ -136,7 +136,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -151,7 +150,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: (گیانەوەرناسی) تیرەپشیلە، پشیلە یان گیانەوەرێکی تر لە خێزانی پشیلە، پشیلەئاسا، پشیلەیی، کتکی، شێوەپشیلە
 """),

@@ -86,7 +86,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Their diet mainly comprised herbaceous plants.""");
+    await flutterTts
+        .speak("""Their diet mainly comprised herbaceous plants.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -961,7 +962,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -976,15 +976,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
 // With short examples define "herbaceous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) پەیوەندیدار بەو گیایانەی کە قەدی نەرمیان هەیە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پەیوەندیدار بەو گیایانەی کە قەدی نەرمیان هەیە"""),
                     SentencesRow(
-                      englishText: """Their diet mainly comprised herbaceous plants.""",
-                      kurdishText: """خواردنیان بە شێوەی سەرەکی لە گیا نەرمەکان پێکدێت.""",
+                      englishText:
+                          """Their diet mainly comprised herbaceous plants.""",
+                      kurdishText:
+                          """خواردنیان بە شێوەی سەرەکی لە گیا نەرمەکان پێکدێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

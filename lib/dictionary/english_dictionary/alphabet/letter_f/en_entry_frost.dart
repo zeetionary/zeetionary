@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -185,7 +184,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: سەھۆڵ‌بەندان، بەستەڵەک، شەختەبەندان، قۆناخی سەھۆڵ‌بەندان، سەردەمی بەستەڵەک،	سەھۆڵ،	زوقم، ئەڵماسە، سیخوار، قەل، شەڵتە، خووس، خویز، ئاڵشت، زەمەگولیلک، سووخ،	شەختەبەند، جەبەرە، تۆف‌وبەند، نەختە، سەرمای توند یان سەغڵەت،	بنەوەی سیفر، ژێر سیفر،	(زمانی خەڵک) بەزین، تێ‌شکان
 """),

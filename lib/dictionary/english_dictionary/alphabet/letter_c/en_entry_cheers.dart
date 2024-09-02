@@ -97,7 +97,6 @@ class EnglishEntrycheers extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خوات لەگەڵ،	بە خۆشی، بە سڵامەتی (لە خواردنەوەدا)،	سپاس، دەس‌خۆش، دەست خۆش بێ
 """),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

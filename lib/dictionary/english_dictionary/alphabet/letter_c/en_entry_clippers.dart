@@ -84,7 +84,6 @@ class EnglishEntryclippers extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: نینۆکبڕ، نینۆکگیر،	دەزگا یان ئۆتۆمبێلی سەرکورت‌کردنەوە، ئۆتۆمبێلی سەر،	مقەستی ھەڵپاچین،	برینگ
 """),
@@ -195,7 +194,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

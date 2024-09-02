@@ -100,7 +100,6 @@ class EnglishEntryagitator extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: شاڵاوکار، ھەڵمەتیار، ڕاگەیێنەر، ھاندەر، بزوێنەر، ئاژاوەگێڕ، پشێوی‌نەرەوە، ئاگرنەرەوە، شارشێوێن، (ئامێر) شڵەقێنە(ر)
 """),
@@ -198,7 +197,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

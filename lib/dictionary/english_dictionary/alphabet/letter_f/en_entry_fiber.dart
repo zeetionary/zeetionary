@@ -171,7 +171,6 @@ Usage: US (elsewhere: fibre)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -186,7 +185,6 @@ Usage: US (elsewhere: fibre)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ڕیشاڵ، بەن، دەزوو، داو، تاڵ، فیبر
 """),

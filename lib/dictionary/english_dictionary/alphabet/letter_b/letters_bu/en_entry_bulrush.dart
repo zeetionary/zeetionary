@@ -127,7 +127,6 @@ class EnglishEntrybulrush extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: قامیش، چیت، ژاژ، لەقەل، لەبان، لەوەن، جگەن، سێسوو؟، گیاحەسیر، پیزاڵ، پیزڵ
 """),
@@ -231,7 +230,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

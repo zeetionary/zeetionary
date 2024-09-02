@@ -121,7 +121,6 @@ class EnglishEntrycheek extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کوڵمە، گۆنا، گووپ، ڕوومەت،	سمت، پاشڵ،	ڕووشڕی، بێ‌حەیایی، ڕوو 
 """),
@@ -283,7 +282,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

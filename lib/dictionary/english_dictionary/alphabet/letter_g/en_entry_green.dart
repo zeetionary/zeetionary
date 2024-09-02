@@ -272,7 +272,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -287,7 +286,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: سەوز، کەسک، شین، سەرسەوز، سەوزایی، شینایی، سەوزەڵانی، شیناوەرد،	(میوە) کاڵ، شین، نەگەییو، فەریک، کاڵ‌وکرچ،	ناسک، تورت،	(دار) تەڕ، وشکەوەنەبوو، خاو،	چاونەکراوە، تازەکار، کەم‌ئەزموون، خاو، مناڵ، ناپوخت،	سادە، ساویلکە،	ڕەنگ‌بزرکاو، زەرد، ڕەنگ‌نەخۆش،	کاڵ، کەم‌ڕەنگ،	یەکجار بەخیل، چاوپێ‌ھەڵنەھاتوو،	سەربە ژینگەپارێزی، لایەنگری ژینگەپارێز، ژینگەپارێز، بەرگی سەوز، جل‌وبەرگی سەوز،	سەوزەڵانی، سەوزایی، شینایی، شیناوەرد، مێرگ، شوێنی سەوز
 """),

@@ -103,7 +103,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""It is a hereditary title, so Mark Howard will become Sir Mark Howard on his father's death.""");
+    await flutterTts.speak(
+        """It is a hereditary title, so Mark Howard will become Sir Mark Howard on his father's death.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -964,7 +965,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -979,12 +979,13 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
 // With short examples define "hereditary", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە لە دایک و باوکەوە بۆ منداڵ دەگوازرێتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە دایک و باوکەوە بۆ منداڵ دەگوازرێتەوە"""),
                     SentencesRow(
                       englishText: """Hair loss is often hereditary.""",
                       kurdishText: """قژوەرین زۆرجار بۆماوەییە.""",
@@ -1001,11 +1002,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە لە ڕووی یاساییەوە لە دایک و باوکەوە دەگوازرێتەوە بۆ منداڵ"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە لە ڕووی یاساییەوە لە دایک و باوکەوە دەگوازرێتەوە بۆ منداڵ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """It is a hereditary title, so Mark Howard will become Sir Mark Howard on his father's death.""",
-                      kurdishText: """نازناوێکی بۆماوەییە، بۆیە مارک هاوارد دەبێت بە سێر مارک هاوارد لەگەڵ مردنی باوکی.""",
+                      englishText:
+                          """It is a hereditary title, so Mark Howard will become Sir Mark Howard on his father's death.""",
+                      kurdishText:
+                          """نازناوێکی بۆماوەییە، بۆیە مارک هاوارد دەبێت بە سێر مارک هاوارد لەگەڵ مردنی باوکی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

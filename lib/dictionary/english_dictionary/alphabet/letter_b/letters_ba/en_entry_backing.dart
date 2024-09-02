@@ -135,7 +135,6 @@ class EnglishEntrybacking extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پشتیوانی، داکۆکی، پشتگیری، پشتیوانی ماڵی یان دارایی، دەس‌گرتن، دەسگیری، یارمەتی، کۆڕ یان کۆمەڵی پشتیوانان، یارمەتیدەران، دەستە، (میوزیک) ھاوڕێ، لەگەڵ، بەر
 """),
@@ -265,7 +264,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

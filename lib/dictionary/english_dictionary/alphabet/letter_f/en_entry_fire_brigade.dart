@@ -128,7 +128,6 @@ haʊʊʊʊʊʊʊ4
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -143,7 +142,6 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),

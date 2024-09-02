@@ -184,7 +184,6 @@ class EnglishEntrybelt extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کەمەر، پشتێن، کەمەرە، پشتێنە، قایشی کەمەر، کەمەربەند (وەک نیشانەی پایە یان دەسکەوتێ، لە جۆدۆ، کاراتە و یان وەرزشی وا)، بەست، قایش، سیرمە، تەسمە (ھی دەزگا و ئۆتۆمبێل)، کەنار، باریکایی، باریکە، ناوچە، مەڵبەند، دەڤەر، پیاکێشان یان لێدانی قورس
 """),
@@ -397,7 +396,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

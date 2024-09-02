@@ -145,7 +145,6 @@ class EnglishEntryantisocial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دژی داب‌ونەریتی کۆمەڵ و مایەی ھەراسانی خەڵکانی تر، دژەکۆمەڵ، دژی کۆمەڵ(گا)، دژی بەرژەوەندی کۆمەڵ(گا)، ناکۆمەڵایەتی، دوژمنی کۆمەڵ، گۆشەگیر، لاتەریک، دوورەپەرێز
 """),
@@ -264,7 +263,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

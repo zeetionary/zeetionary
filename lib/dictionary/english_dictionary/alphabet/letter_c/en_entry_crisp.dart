@@ -285,7 +285,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: چین‌دار، ئوتوکراو، قەدکراو، دەق‌دراو،	ناسک، قرپ، قرچ، تورت، وشک،	برژاو،	تازە، تەڕوتازە (میوە و سەوزە)،	کورتە،	سارد و وشک (ھەوا)،	بڕا، شێلگیر، بەبڕشت، پتەو، یەکلایی‌کەرەوە،	(قژ) فڕ، لوول،	(وێنە یان پلانێ) شەق، ڕوون، دیار، ئاشکرا
 """),
@@ -465,7 +464,6 @@ Usage: Brit (N. Amer: potato chip)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

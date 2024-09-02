@@ -138,7 +138,6 @@ class EnglishEntrybackground extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پاش‌خان، تەخت(ـار)، پشتار، زەمینە، پێشینە، ڕابووری، ڕەوش، بارودۆخ، ھەل‌ومەرج، کاودان، وردەکاری، (کۆمپیوتەر) بەک‌گرەوند، (کەسێ) لایەن ئەزموون و پەروەردە (و بارودۆخ یان ھەل‌ومەرجی کۆمەڵایەتی)ی کەسێ، پێشینە
 """),
@@ -311,7 +310,6 @@ Noun: background (derived forms: backgrounds)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

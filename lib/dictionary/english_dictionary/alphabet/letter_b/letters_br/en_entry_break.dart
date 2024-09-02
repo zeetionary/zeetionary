@@ -575,7 +575,6 @@ class EnglishEntrybreak extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: شکاوی، شکان، شکست، وردوخاشی، قڵیش، کون، شەبەق، درز، دابڕاوی، پساوی، پسان، پچڕان، ھەڵوێستە، ھەڵوەستە، پشوو، وچان، ورنگ، پێندان، پشووی خوێندن، گۆھارتن، گۆڕان، گۆڕانی ناکاو، دەرچوون، دەربازبوون، ھەڵاتن، چانس، ھەل، دەرفەت، دەلیڤە
 """),
@@ -1528,7 +1527,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

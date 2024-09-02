@@ -98,7 +98,6 @@ class EnglishEntryallergy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئالێرژی، ھەستیاری، پێ‌نەکەوتن، پێ‌نەکەوتوویی، دڵ‌ھەڵکەوتن، پێ‌نەکەوتە، بێزاری، بێزلێ‌ھاتنەوە، قین‌لێ‌بوون
 """),
@@ -201,7 +200,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

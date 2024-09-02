@@ -637,7 +637,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("By the time the organizers have had their cut, there won't be much left.");
+    await flutterTts.speak(
+        "By the time the organizers have had their cut, there won't be much left.");
   }
 
   Future<void> speakcuts61(String languageCode) async {
@@ -676,7 +677,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: بڕین، دابڕین، بڕیار، بڕشت،	پارچە، کوت، بڕ، پل، لەت،	بەش، کەرت، پشک،	کون (بە شتێکی تیژ تێ‌کرابێ)،	برین، زام، ڕێش،	کەم‌بوونەوە، داکشان، ھاتنەخوارەوە، دابەزین،	سانسۆر، لابردن، قرتاندن، پەڕاندن،	لێدان، پیاکێشان،	بڕگە، بەر، بڕشت، تراش، بڕاو، لەت‌کراوە، قرتاو،	تاشراو، ھەڵکەنراو، داتاشراو،	ورد، لەت‌لەت، تیکەتیکە، پارچەپارچە،	کەمەوبوو، داشکاو 5خەساو، خەسێنراو، یەختەکراو،	بڕگەبڕگە، ددانەددانە،	کورتەوەکراو، قرتێنراو، پەڕێنراو، لابراو
 """),
@@ -1861,7 +1861,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

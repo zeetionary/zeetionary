@@ -144,7 +144,6 @@ A lack of affection or enthusiasm (= coldness, coolness, frigidness, iciness, ch
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -159,7 +158,6 @@ A lack of affection or enthusiasm (= coldness, coolness, frigidness, iciness, ch
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ساردی، بەستەڵەکی، شەختەبەندی، بەستن،	وشکی، ساردوسڕی،	ساردمەزاجی، ساردوسڕی ژن
 """),

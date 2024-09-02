@@ -107,7 +107,6 @@ class EnglishEntryconversion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گۆڕین، گۆڕان،	سەروبن‌کردن، ھەڵگێڕانەوە، ئاوەژووکردنەوە،	گۆڕینی دین یان ئایین، دین‌گۆڕی، ھەڵگەڕانەوە، بادانەوە، گۆڕینی بیروباوەڕ
 """),
@@ -258,7 +257,6 @@ An event that results in a transformation (= transition, changeover)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

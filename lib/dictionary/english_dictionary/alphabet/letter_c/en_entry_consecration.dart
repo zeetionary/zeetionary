@@ -100,7 +100,6 @@ class EnglishEntryconsecration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تەرخان‌کردن، تەرخان‌کراوی، تایبەتی‌دان، تەرخان‌دان،	پیرزۆی، پیرۆزاندن، ئایینی‌کردن
 """),
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

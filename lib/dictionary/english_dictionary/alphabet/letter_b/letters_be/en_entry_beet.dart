@@ -133,7 +133,6 @@ class EnglishEntrybeet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (گیانەوەرناسی) چۆننەر، چەوەندەر، چۆننەری شەکر یان قەند، ڕەگ یان بنجی چۆننەر، سەلکەچەوەندەر، سەلکەبزووت
 """),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

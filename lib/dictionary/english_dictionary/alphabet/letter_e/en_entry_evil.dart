@@ -328,7 +328,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: شەیتانی، پیس، ناجسن، بەدڕەسەن، دژ، خراپ، خوێڕی،	(یەکجار) ناخۆش (بۆن)،	ناشیرین، ناحەز، خراپ، بەوەی، بەزیان، موزیڕ،	بێ‌ودم، نگریس، بەدشوم، بێ‌فەڕ،	خراپی، دژی، شتە خراپەکان، پیسی، بەدڕەسەنی، خراپ،	بەڵا، نەھامەتی، مەینەتی، کارەسات،	زیان، زەڕ، زەرەر، وەی،	دەرد، نەخۆشی
 """),
@@ -512,7 +511,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

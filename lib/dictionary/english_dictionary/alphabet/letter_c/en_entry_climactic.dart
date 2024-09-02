@@ -90,7 +90,6 @@ class EnglishEntryclimactic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لووتکەگیر، لە ئەوپەڕدا، بە لووتکە یان ئەوپەڕ گەیشتوو، یەکجار ورووژێنەر، گرنگ‌ترین، لووتکەیی
 """),
@@ -203,7 +202,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

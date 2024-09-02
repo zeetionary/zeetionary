@@ -264,7 +264,6 @@ Adjective: further
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -279,7 +278,6 @@ Adjective: further
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دوورتر،	زۆرتر، پتر، زیاتر،	دیسان، دی، تر،	(لە) پێش‌تر،	لە دەرەوەی،	سەرەڕای ئەوەش، سەرباری ئەوەش، زێدەباری،	ھەروەھا
 """),

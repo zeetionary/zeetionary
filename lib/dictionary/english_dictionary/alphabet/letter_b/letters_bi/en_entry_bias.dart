@@ -138,7 +138,6 @@ class EnglishEntrybias extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دەمارگرژی، لایەنگری، ئالی‌گری، بەلاداکێشی، لاگیری، لاگرتن، یەک‌بەرایەتی، ویست، داشکانەوە، لاربوونەوە، ڕاکێشک، تێندێنسی، ئارەزوو، توانایی، ئامادەیی، لار، خوار، قیل‌وقاچ، چەپ‌وڕاست، کەش‌وتووش، قیچەڵفاچ
 """),
@@ -324,7 +323,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -89,15 +89,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""After a five-month hiatus, the talks resumed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The company expects to resume production of the vehicle again after a two-month hiatus.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -965,7 +965,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -980,16 +979,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
 // With short examples define "hiatus", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ماوەیەک لە نەبوونی چالاکی کە هیچ ڕوونادات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """After a five-month hiatus, the talks resumed.""",
+                      kurdishText:
+                          """لە دوای پێنج مانگ لە دابڕان، گفتوگۆکان دەستیان پێکردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -997,8 +998,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The company expects to resume production of the vehicle again after a two-month hiatus.""",
+                      kurdishText:
+                          """کۆمپانیاکە چاوەڕێی ئەوە دەکات بەرهەمهێنانی ئۆتۆمبێل بەردەوامی پێبدات لە دوای دوو مانگ لە ناچالاکی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2132,19 +2135,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = '';
-const double _startSecondsend = 000000000000000000000000000;
-const String _videoIdone = '';
-const double _startSecondsone = 000000000000000000000000000;
-const String _videoIdtwo = '';
-const double _startSecondstwo = 000000000000000000000000000;
-const String _videoIdthree = '';
-const double _startSecondsthree = 000000000000000000000000000;
-const String _videoIdfour = '';
-const double _startSecondsfour = 000000000000000000000000000;
-const String _videoIdfive = '';
-const double _startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+const String _videoIdend = 'https://youtu.be/OgFcz6klaeg?t=';
+const double _startSecondsend = 00000000000000000000000000016;
+const String _videoIdone = 'https://youtu.be/PLDFgKzWy3o?t=';
+const double _startSecondsone = 00000000000000000000000000028;
+const String _videoIdtwo = 'https://youtu.be/MITeeIbCatY?t=';
+const double _startSecondstwo = 000000000000000000000000000773;
+const String _videoIdthree = 'https://youtu.be/ziLWkhO93lI?t=';
+const double _startSecondsthree = 00000000000000000000000000082;
+const String _videoIdfour = 'https://youtu.be/NQZ5BfdjDv0?t=';
+const double _startSecondsfour = 000000000000000000000000000377;
+const String _videoIdfive = 'https://youtu.be/bOR8c2z3sSk?t=';
+const double _startSecondsfive = 00000000000000000000000000083;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

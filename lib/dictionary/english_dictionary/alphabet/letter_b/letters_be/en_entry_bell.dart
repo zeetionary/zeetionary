@@ -134,7 +134,6 @@ class EnglishEntrybell extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زەنگ، گەرناڵ، زلزەنگ، ژام، چام، دەنگەدەنگ، دەنگی زەنگ، زڕە، زەنگوڵە، تۆپەگوڵ، کاسەگوڵ، ھەر شتێکی زەنگ‌ئاسا
 """),
@@ -295,7 +294,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

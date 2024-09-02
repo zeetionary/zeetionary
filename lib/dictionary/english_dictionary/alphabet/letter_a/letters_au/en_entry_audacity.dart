@@ -148,7 +148,6 @@ class EnglishEntryaudacity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: نەترسی، ئازایەتی، بێ‌باکی، چاونەترسی، مەترسی‌کاری، ، ڕووشەیی، ڕووداری، ڕووھەڵمالراوی، بێ‌شەرمی
 """),
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

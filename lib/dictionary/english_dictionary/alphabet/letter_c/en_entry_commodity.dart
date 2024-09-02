@@ -99,7 +99,6 @@ class EnglishEntrycommodity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کەل‌وپەل، کاڵا، کوتاڵ، بابەت، شمەک، ماڵ، جنس، بەرھەم، بەروبۆ، شت‌ومەک، شت، کەل‌وپەل، شت‌ومەک، ویستەمەنی
 """),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

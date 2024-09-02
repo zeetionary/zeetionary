@@ -98,7 +98,6 @@ class EnglishEntryagile extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چالاک، گورج، ھەڵسووڕ، چاپک، مەزبووت، گورج‌وگۆڵ، توندوتۆڵ، زرنگ، زیرەک، زووبیرکەرەوە
 """),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

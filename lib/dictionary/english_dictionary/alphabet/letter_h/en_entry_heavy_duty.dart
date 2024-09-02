@@ -86,7 +86,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The heavy-duty carpet is perfect for office spaces.""");
+    await flutterTts
+        .speak("""The heavy-duty carpet is perfect for office spaces.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -961,7 +962,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -976,24 +976,28 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
 // With short examples define "heavy-duty", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بە ئاسانی زیانی پێ ناگات"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە بە ئاسانی زیانی پێ ناگات"""),
                     SentencesRow(
-                      englishText: """The heavy-duty carpet is perfect for office spaces.""",
+                      englishText:
+                          """The heavy-duty carpet is perfect for office spaces.""",
                       kurdishText: """ڕایەخە پتەوەکە زۆرباشە بۆ جێگای ئۆفیس.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) زۆر توند و زۆر لە بڕدا"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) زۆر توند و زۆر لە بڕدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I think you need some heavy-duty advice.""",
-                      kurdishText: """پێموایە پێویستیت بە هەندێک ڕاوێژی باش هەیە.""",
+                      englishText:
+                          """I think you need some heavy-duty advice.""",
+                      kurdishText:
+                          """پێموایە پێویستیت بە هەندێک ڕاوێژی باش هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

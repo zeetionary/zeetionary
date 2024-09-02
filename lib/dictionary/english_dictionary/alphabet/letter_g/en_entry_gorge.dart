@@ -141,7 +141,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -156,7 +155,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: تەنگەڵان، دەربەند، تەنگ، گەلی، گاز، گازەدووک، شێو و دۆڵی قووڵ (زۆرجار ئاویشی پیادەڕوا)،	تەنگەڕێ، ڕێگای تەسک، دەرتەنگ، دەربەند،	گەروو، قوڕگ، ئاوەخۆرە،	(بیناسازی) ڕێڕەوی باریکی پشتەوە (لە سەنگەربەندی)،	شتی ناو گەدە یان مێعدە،	بەرد یان ئێسکی تیژکراو بۆ ڕاوەماسی
 """),

@@ -83,7 +83,6 @@ class EnglishEntrycontemptible extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سووک، چروک، نزم، گەڕۆڵ، پەست، چەپەڵ، ھیچ‌وپووچ، شایانی سووکی‌پێکردن
 """),
@@ -188,7 +187,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

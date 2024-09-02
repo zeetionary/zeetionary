@@ -549,7 +549,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -564,7 +563,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: باش، گونجاو، بەجێ، پێکەوتوو،	لێوەشاو، بەبەرژەوەند،	ساغ، سڵامەت،	(بریتانیا و نافەرمی) سەرنج‌ڕاکێش (لەباری سێکسی‌یەوە)، لێھاتن، فێ، گەشکە (نەخۆشی)،	بوورانەوە، لەسەرخۆچوون، بێھۆشی،	ڕق‌ھەستاوی، تووڕەیی،	لێھاتن، تەقینەوە، پیران، خش‌بردنەوە، پێکەنینی بێ‌ئیختیار
 """),

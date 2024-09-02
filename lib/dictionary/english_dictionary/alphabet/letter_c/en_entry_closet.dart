@@ -97,7 +97,6 @@ class EnglishEntrycloset extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کومێد، دۆڵاب (دیواری)، گەنجینە،	پاشخان، خەڵوەتی،	ژوورۆچکە، دیوی چکۆلە، دیوۆچکە،	کۆن دەستاو، نھێنی، سەربەستە، لە بنەوە، پەنامەکی
 """),
@@ -232,7 +231,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

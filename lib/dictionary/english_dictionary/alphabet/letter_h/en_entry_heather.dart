@@ -962,7 +962,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -977,14 +976,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ناو) ڕووەکێکی نزمی بچووک دەشتەکی کە گوڵی مۆر، پەمەیی، یان سپی دەگرێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ڕووەکێکی نزمی بچووک دەشتەکی کە گوڵی مۆر، پەمەیی، یان سپی دەگرێت"""),
                     SentencesRow(
-                      englishText: """The hills were covered in blooming heather.""",
-                      kurdishText: """گردەکان بە گوڵ‌ئەرخەوانی چرۆکردوو داپۆشرابوون.""",
+                      englishText:
+                          """The hills were covered in blooming heather.""",
+                      kurdishText:
+                          """گردەکان بە گوڵ‌ئەرخەوانی چرۆکردوو داپۆشرابوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

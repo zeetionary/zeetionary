@@ -209,7 +209,6 @@ class EnglishEntrybar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: میلە، میل، پشکۆڵ، شیشە، ئەستوون، پارچە، تیکە، گۆڵە، نەردە، شمشێرە، تووڵک، قاڵب (سابوون)، قوڵت، کەستەک، قورسە، داڕشتە (زێڕ)، باریکە، شریت، باریکایی، تیشک، تیرێژ، لیزگ، پڕشنگ، ھێڵ، ئێلێمێنت (کارەبا)، ڕێگرتن، نەھێشتن، بەربەندی، بەربەست، لەمپەر، کۆسپ، کێشە، (میوزیک) خانە، مەودای میوزیک، مەی‌خانە، دەکە، بوتکە، کافە، جێگای تاوانبار، شوێنی تایبەتی زیندانی لە دادگادا، دادگا، (جوگرافیا) بەستاو، یەکەی پەستان، بێجگەلە، جگە، ژبلی، مەگەر ئەوەی کە
 """),
@@ -516,7 +515,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

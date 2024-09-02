@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: زێڕ،	پارە، پووڵ؛ ماڵ، دارایی، سامان،	(پێشبڕکێ) میداڵی زێڕ،	ڕەنگی زەرد،	(دروس‌کراو) زێڕکرد، زێڕکار،	زێڕین، لە زێڕ،	زەرد، (ڕەنگ) زێڕین
 """),

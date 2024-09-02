@@ -99,7 +99,6 @@ class EnglishEntryconvulsion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گەشکە، گرژی، کرژبوون، ماسوولەکەڕەقێ،	(خوازە) شێوان، شڵەژان، ئاژاوە، شڵەقان،	پیران، پێکەنینی ژان‌پێکەر و وڵک‌بڕ یان لەسەریەک
 """),
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

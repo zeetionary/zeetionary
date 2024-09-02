@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -176,7 +175,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: زەوی، گۆی زەوی،	جیھان، جەھان،	گۆ یان تۆپی جوگرافیایی،	گۆ،	شووشەی خڕ بۆ ڕاگرتنی ماسی،	(توێکاری) گۆی چاو
 """),

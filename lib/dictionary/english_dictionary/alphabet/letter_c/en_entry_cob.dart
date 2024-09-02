@@ -91,7 +91,6 @@ class EnglishEntrycob extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: قازی نێر، قووی نێر،	ئەسپی پێکوڵ،	نانی خڕ،	فندق،	ساقەتە یان لاسکی گەنمەشامی
 """),
@@ -213,7 +212,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

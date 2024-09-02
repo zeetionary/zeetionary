@@ -134,7 +134,6 @@ class EnglishEntrybass extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: باس، گڕ، بەم، بۆڕ، گۆڕانی‌بێژی ئەو دەنگە، دەنگی گڕ یان باس، ئامێری گڕدەنگ، ماسی دڕکاوی، ماسی‌یەدڕکە، گورگی دەریایی
 """),
@@ -294,7 +293,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

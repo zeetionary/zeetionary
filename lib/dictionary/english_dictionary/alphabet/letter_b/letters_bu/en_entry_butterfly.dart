@@ -170,7 +170,6 @@ class EnglishEntrybutterfly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پەپوولە (ی ڕۆژگەڕ، لەچاو پەپوولەی شەوگەڕ moth)، پەرینانگ، پەروانە، پەلپەلیسک، پەرپەرک، تەیرۆک، نمنمۆک، دڵەتەپە، دڵەکوتێ، دڵەڕاوکێ
 """),
@@ -292,7 +291,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

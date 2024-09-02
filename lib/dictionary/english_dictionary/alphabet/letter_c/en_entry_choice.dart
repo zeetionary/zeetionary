@@ -239,7 +239,6 @@ class EnglishEntrychoice extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەڵبژاردن، سەرپشک‌بوون،	مافی ھەڵبژاردن،	پەسندکردن، دەس‌لەسەردانان، سەرپشکی،	جۆراوجۆری،	ڕێگاچارە،	ھەڵبژاردە، دەستەبژێر، بەرپەسند، پەسندکراو، سەرتۆپ، یەکجارباش،	ورد
 """),
@@ -604,7 +603,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

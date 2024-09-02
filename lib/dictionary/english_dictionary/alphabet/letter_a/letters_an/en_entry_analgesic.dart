@@ -139,7 +139,6 @@ class EnglishEntryanalgesic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ژان‌بڕ، ژان‌شکێن، دامرکێن، مەڵھەمی ژان‌بڕ، مەرھەمی دامرکێنەر
 """),
@@ -253,7 +252,6 @@ Noun: analgesic (derived forms: analgesics)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

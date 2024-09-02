@@ -137,7 +137,6 @@ class EnglishEntryangel extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: فریشتە، مەلایەکەت، کۆینی بەرینی ئینگلتەرە، پەیام یان سیگناڵێکی ڕوونەوەنەبووی ڕادارێ، کەسێکی یەکجار جوان یان باش، ڕووپەری، فریشتە
 """),
@@ -273,7 +272,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

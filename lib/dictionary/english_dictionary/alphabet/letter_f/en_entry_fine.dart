@@ -414,7 +414,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -429,7 +428,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: باش، خاس، چاک، زۆر باش، خۆش، جوان، ڕند، چەلەنگ،	(ھەوا) خۆرکەوتوو، خۆروبان، تاووبان، نابارانی، ساو، ڕوون،	بەکەیف، بەدەماخ، لەش‌ساغ، ساغ،	ناسک،	گونجاو، باش،	ورد، ئاردەبێژ، نەرم،	باریک، ناسک، نەرم، ئاوەڕێس، موویین،	(دەرزی و ھتد) تیژ، نووک‌تیژ،	پەتی، ناتێکەڵ، پوخت، پاڵێوراو،	تەواو، بەس،	خراپ، شپرزە،	(نووسراوە و وتار) تەق‌وڕەق، جەریمە، زیانە، بژێرە
 """),

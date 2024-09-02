@@ -99,7 +99,6 @@ class EnglishEntryadherence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لایەنگری، پشتیوانی، وەفاداری، دڵسۆزی، دەربەستێتی، پێبەندی، پێگرتن، پەیگرتن، خۆبەستەیی، شوێن‌کەوتن، خۆپێوەبەستن، دواکەوتەیی، پیانووسان، پیالکان، پێکانووسان، پیاچەسپان، پێوەچەسپان، گرتن
 """),
@@ -199,7 +198,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

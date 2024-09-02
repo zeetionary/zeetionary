@@ -140,7 +140,6 @@ class EnglishEntryanatomy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئاناتۆمی، توێکاری، یەکاڵاکردنەوە، توێ‌توێ‌کردن، دارەڕا، چوارچێوە، پێکھاتە، داروبار، لەش، جەستە، تاوتوێ(کردن)، لێکدانەوە، شی‌کردنەوە، پێکھاتە یان داڕشتەی پێچەڵاوپێچ
 """),
@@ -280,7 +279,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

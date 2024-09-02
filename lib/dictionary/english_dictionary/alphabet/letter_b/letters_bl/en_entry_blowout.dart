@@ -133,7 +133,6 @@ class EnglishEntryblowout extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تەقینی پێچکە یان تایە، کون‌بوونێ تایە، پەنچەری، سووتان یان دەرپەڕینی فیوز، فیشقە، ھەڵچوون، کوفارە (چاڵە نەوت یان گاز)، میوانی‌یەکی گەورە یان بۆنەیەکی کۆمەڵایەتی، سەرکەوتنی ئاسان
 """),
@@ -272,7 +271,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

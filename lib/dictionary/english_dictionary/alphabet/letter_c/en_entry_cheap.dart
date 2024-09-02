@@ -180,7 +180,6 @@ class EnglishEntrycheap extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەرزان، کەڵەپوور، مەلاخۆرە، ھەرزان‌بایی، بازاڕی، ڕەشۆکی، کەمبایی، خۆڕایی، مفت، تاڵانی، ئاشاخە، گەن‌وگوو، ئایەخ، قرپۆک، ھیچ، بێ‌نرخ، بەکارنەھاتوو، خراپ، ناکەس، سووک، چروک، گناس، ھەرزە، ناحەز، ناشیرین،	بێ‌ڕەوشتانە، بێ‌ڕێزانە،	ڕژد، بەرچاوتەنگ، لەچەر،	دووڕوو، ڕووبین
 """),
@@ -425,7 +424,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: ھۆگر، بەتاسە، تامەزرۆ، سەوداسەر، شەیدا، دڵبەستە، دڵ‌تێچوو
 """),
@@ -495,7 +494,6 @@ Usage: Brit, Cdn (US: enamored)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

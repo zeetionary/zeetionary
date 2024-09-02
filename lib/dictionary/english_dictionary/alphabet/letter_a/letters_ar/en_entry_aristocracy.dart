@@ -145,7 +145,6 @@ class EnglishEntryaristocracy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەرچین‌سالاری، حکومەتی چینی ئەریستۆکرات یان گەورەزادەکان، (چینی) گەوران یا ئەشراف، خانەزادەکان، خانەدانەکان، ھەڵبژاردەکان
 """),
@@ -251,7 +250,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

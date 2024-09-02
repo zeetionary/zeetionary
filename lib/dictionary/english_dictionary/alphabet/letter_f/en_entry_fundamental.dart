@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -198,7 +197,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بنچینەیی، بنەمایی، بنەڕەتی، ناوەندی، بنگەھی، بناخەیی، ڕیشەیی، گرنگ، سەرەکی، بەرکەفتی، سەرەتایی، ئامادەکاری،	پێویست، پێدڤی،	گەوھەری، زاتی، خودایی، خۆماکی، کرۆکی، بنەماکان، بنچینەکان، بنچینان، ماکان noun بەشی بنەڕەتی، پشکی بنگەھی
 """),

@@ -128,7 +128,6 @@ Noun: abduction (derived forms: abductions)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -146,7 +145,6 @@ Noun: abduction (derived forms: abductions)
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: فڕاندن یان ڕفاندنی مرۆڤ، ھەڵگرتن، مرۆدزی
 """),

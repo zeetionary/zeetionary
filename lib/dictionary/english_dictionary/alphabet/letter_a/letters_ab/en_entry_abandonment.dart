@@ -133,7 +133,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -151,7 +150,6 @@ ${englishMeaningConst.text}
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەجێ‌ھێشتن، تەنیاخستنەوە، تەنیامانەوە، وەلانان، پشت(لێ)ھەڵکردن، چۆڵ‌کردن، تەرک‌کردن، چاوپۆشین، وازلێ‌ھێنان، بەنیوەچڵی‌ھێشتنەوە، دەس(لێ)ھەڵگرتن، تەواونەکردن، ناتەواوھێشتنەوە، دەس(ت)ڕاگرتن، لێ‌گەڕان، دەس(ت)لێ‌بەردان، دەست‌بەرداری، دەس(ت)کێشانەوە
 """),

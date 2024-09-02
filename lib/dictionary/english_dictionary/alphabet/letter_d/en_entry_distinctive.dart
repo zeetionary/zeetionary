@@ -357,7 +357,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: جیاواز، فەرق‌ھەبوو، جودا، جیا، دیار، جیاکەرەوە، دیاری‌کەر، جیاکار،	تایبەتی، پیشان‌دەر، دەرخەر 
 """),
@@ -438,7 +437,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

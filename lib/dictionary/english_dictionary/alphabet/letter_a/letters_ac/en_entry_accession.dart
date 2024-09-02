@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -171,7 +170,6 @@ ${englishMeaningConst.text}
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دانیشتن، لەسەر تەخت دانیشتن، پێگەیشتن، گەیشتن (بە پۆست، سەروکایەتی یان ڕێبەراتی وڵاتی)، بەرزبوونەوە، بوونە کاربەدەست، بەدەس‌ھێنان، دەس‌خستن، گیرخستن، بە دەس‌گرتن، پێگەیشتن، خستنەسەر، پێوەنان، خستنەپاڵ، دانەدەم، پێوەنراو، زیادکراو، شتی زیادکراو یان سەرخراو
 """),

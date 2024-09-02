@@ -131,7 +131,6 @@ class EnglishEntrycompetence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: توانایی، تواناداری، شیاوبوون، ڕایە، لێھاتوویی، سەردەرچوویی، زانایی، لێزانی، لێوەشاوەیی، شارەزایی، وەستایەتی
 """),
@@ -294,7 +293,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -132,7 +132,6 @@ class EnglishEntrybonafide extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕاست، دروست، بێ‌فروفێڵ، بێ‌گەرد، بێ‌خەوش، ڕاستەقینە، ڕەسەن، قانوونی، ڕاستینە
 """),
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

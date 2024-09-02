@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: واتاڵێڵ، تەژمە، دووواتادار، بەپێچ‌وپەنا، ناڕوون، نادیار، گێژکەر، بەھەڵەدابەر، ناڕۆشن،	جێی‌پرسیار، گومان‌لەسەر، گوماناوی، جێی‌شک
 """),
@@ -348,7 +347,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

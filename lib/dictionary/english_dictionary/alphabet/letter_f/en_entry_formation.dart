@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -178,7 +177,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پێکھێنان، گووران، دروس‌بوون، چێ‌بوون، ڕسکان، بن‌گیری، بن‌گیربوون، دامەزران، دامەزراندن، پێکھاتن، بنیات‌نان، دروست‌کردن، پێکەوەنان، ڕۆنان، داڕشتن، سازدانم	شێوە، بیچم،	ڕێکخستن،	(زەوی‌ناسی) چین‌چین‌بوون، چین‌بەندی، چینێتی
 """),

@@ -138,7 +138,6 @@ Noun: ad (derived forms: ads)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -157,7 +156,6 @@ Noun: ad (derived forms: ads)
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (لاتین) زایینی، دوای زایین، پاش‌زایین، بانگەواز، دانەزانین، ئاگاداری
 """),

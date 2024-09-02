@@ -135,7 +135,6 @@ class EnglishEntrybedding extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پێخەف، نوێن، جێ‌ونوێن، جێگاوبان، بناخە، ھیم، بنەڕەت، پەیین و پاڵ، کاوکۆت و پەیین کە دەیکەن بە تێولەوە تا ئاژەڵەکان لەسەری بخەون، پێگە، چینی خواروو یان ژێرەوە
 """),
@@ -255,7 +254,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

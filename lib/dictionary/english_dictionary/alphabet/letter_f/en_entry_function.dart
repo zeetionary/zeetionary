@@ -243,7 +243,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -258,7 +257,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ئەرک، پەیور، کار، کاری تایبەت، تایبەت‌کار، پیشە، فرمان، کردار، کردەوە، کارکرد(ن)،	مەبەست، ئامانج،	ئەنجام، پێئاژۆ، ئاکام،	چالاکی،	پلەوپایە،	ئاھەنگ، ڕێ‌وڕەسم، سووران،	(بیرکاری) فانکشن،	(کامپیوتێر) کردار
 """),

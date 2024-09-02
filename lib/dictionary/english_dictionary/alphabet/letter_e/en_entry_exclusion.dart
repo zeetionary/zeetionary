@@ -266,7 +266,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: ڕێ(گە)نەدان، نەھێشتن، پێش‌گرتن، بەرگرتن، بەرگیری، ڕێ‌لێ‌گرتن، لەدەرەوە ڕاگرتن،	ڕێ‌گرتن لە ھاتنەژوورەوە، قەدەغەکردن، دەرکردن، وەدەرنان، دەرپەڕاندن، پەڕکردن، پاتراندن، خستنەدەرەوە،	بێ‌بەری، بێ‌بەشی، بێ‌بەش‌کردن، بێ‌بەری‌کردن،	ھەڵاواردن، ئاوارتە،	لابردن،	لەبەرچاونەگرتن، گوێ‌پێ‌نەدان
 """),
@@ -370,7 +369,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

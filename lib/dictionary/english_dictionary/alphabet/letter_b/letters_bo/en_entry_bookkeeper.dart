@@ -131,7 +131,6 @@ class EnglishEntrybookkeeper extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: حساب‌ڕاگر، ھەژمارنووس، ھەژمارڕاگر، حساب‌نووس، سەرحیساب
 """),
@@ -232,7 +231,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

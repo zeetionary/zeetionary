@@ -170,7 +170,6 @@ class EnglishEntrycalamity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەڵا، ئاسیو، تەڵەزگە، تەوەرە، کارەسات، ناخوشی، نەھاتی، فەتارەت، ماڵ‌وێرانی، وەیشوومە، مەینەتی، کڵۆڵی، قوڕبەسەری 
 """),
@@ -274,7 +273,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

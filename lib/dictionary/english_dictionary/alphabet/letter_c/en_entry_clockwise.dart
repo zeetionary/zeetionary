@@ -91,7 +91,6 @@ class EnglishEntryclockwise extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەعات‌سووڕ، میل‌سووڕ، لە لای یان بە لای سووڕانی میلی کات‌ژمێر، ڕاست‌سووڕ
 """),
@@ -207,7 +206,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

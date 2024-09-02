@@ -107,7 +107,6 @@ class EnglishEntrycoincidence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەڵکەوت، ڕێکەوت، پێکەوەڕوودان، پێکەوەقەومان، بەیەکەوەڕوودان، ھاوڕووداوی، جووت‌بوون،	یەک‌گرتنەوە، جۆربوون، گونجان، کۆکی، سازان، ڕێک‌کەوتن، یەک‌کەوتن،	لێکچوون، وەک‌یەکی، دەقاودەقی، یەکسانی، ھاوشێوەیی
 """),
@@ -250,7 +249,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

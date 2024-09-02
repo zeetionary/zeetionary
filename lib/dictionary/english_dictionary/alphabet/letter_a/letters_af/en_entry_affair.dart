@@ -131,7 +131,6 @@ class EnglishEntryaffair extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کار، کردە، شت، کاروبار (کۆ)، پرس، دۆز، بابەت، مژار، بوویەر، ڕووداو، کاروباری بازرگانی یان دارایی، پێوەندی سێکسی، دڵداری، حەزلێ‌کردوویی، تێکەڵ‌بوونی ژن و پیاوێ
 """),
@@ -266,7 +265,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

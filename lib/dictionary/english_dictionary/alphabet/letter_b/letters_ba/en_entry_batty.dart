@@ -133,7 +133,6 @@ class EnglishEntrybatty extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دێوانە، شێت، شێتانە، کەم عەقڵ، گەوج، حەپە
 """),
@@ -240,7 +239,6 @@ Usage: slang
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

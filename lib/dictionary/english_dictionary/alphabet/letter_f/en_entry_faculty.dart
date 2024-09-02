@@ -285,7 +285,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: توانایی، بەھرە، توانست، تواناداری، لێھاتوویی، لێوەشاوەیی، ئامادەیی، توانایی ھۆشی یان جەستەیی، توانستی بیری یان مێنتاڵ، ھێزی مێنتاڵ
 """),
@@ -414,7 +413,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -292,7 +292,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: دوژمن، ناحەز، گاڤبەر، نەیار،	دوژمنی چەک‌دار، ھێزی سەربازی ڕکەبەر یان دژ،	کەشتی، فڕۆکە و ھتد ھی دوژمن،	نەتەوە یان وڵاتێکی دوژمن،	ھاووڵاتی‌یێکی وڵاتێکی دوژمن،	شتێکی بەزیان یان خراپ
 """),
@@ -432,7 +431,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

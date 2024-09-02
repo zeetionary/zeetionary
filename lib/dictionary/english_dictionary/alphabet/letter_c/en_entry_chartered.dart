@@ -91,7 +91,6 @@ class EnglishEntrychartered extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕێدراو،	لێوەشاو،	خاوەن دەستوورنامە، دەستوورنامەدار،	بەکرێ‌دراو بۆ مەبەستێکی تایبەتی (فڕۆکە، کەشتی یان بەلەمێ)
 """),
@@ -208,7 +207,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

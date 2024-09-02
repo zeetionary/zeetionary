@@ -135,7 +135,6 @@ class EnglishEntrybaulk extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بیناسازی، دار) دەستەک، ڕاژە، نیرگ، بەستە، باریکایی نەکێڵراو، کۆسپ، لەمپەر، قۆرت
 """),
@@ -276,7 +275,6 @@ Usage: Brit (N. Amer: balk)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

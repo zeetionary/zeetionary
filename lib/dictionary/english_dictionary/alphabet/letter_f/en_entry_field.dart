@@ -363,7 +363,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -378,7 +377,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: کێڵگە، مەزرا، مووچە، ھێگا، لەوەڕگە، یورت، جێ‌لەوەڕ، چایەر،	مەیدان، گۆڕەپان، مەڵبەند، بوار، پانتایی، زەمینە، ڕاخستە، وار،	ناوە، ناوچە، ئارا، دەڤەر،	جێگا، جێ، شوێن،	مەودا،	یاریگە، دەشت، مەیدان (وەرزش)،	تیمە بەشداری‌کردووەکان، پێشبڕکێ‌دەرەکان،	شەڕگە، مەیدان یا گۆڕەپانی شەڕ، ناوچەی کرداری شەڕی،	بوار، زەمینە، وار،	بواری خوێندن،	ھەتەر، بڕ،	کاری کرداری،	مەیدانی کار،	بواری یان مەیدانی مەگناتیسی،	دەستەی ڕاو،	بابەت یان چالاکی تایبەتی
 """),

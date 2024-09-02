@@ -105,7 +105,6 @@ class EnglishEntrychant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: درووشم،	ھەوا، بەستە، بەند، ستران، گۆرانی، (لە دین‌دا یان بۆ کلێسە) سرود، مناجات
 """),
@@ -249,7 +248,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

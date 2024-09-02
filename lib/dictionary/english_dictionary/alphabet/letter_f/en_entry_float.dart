@@ -291,7 +291,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -306,7 +305,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: سەراوکەوتە، مەلەون، سەرکەوتە، سواراو،	پشتێنەی ڕزگاری، ئاڵقەی مەلێ (بۆ فێرکردن)،	گۆی کۆنتڕۆڵی تێڕژانی ئاو، نەوت و ھتد بۆ نێو تانکی،	چوارپێچکە، ھەرزاڵە یان سەکۆی پێچکەدار، عەڕابە (لە کەرنەڤاڵ و ئاھەنگی سەرشەقام)،	خەمازە، چێوپەمە (سەرئاو)، تۆپەوانەی ڕاوەماسی،	ڕیزە چرای پێشەوەی شانۆ،	ماڵە،	کارتیخ، بڕبەند،	وردەپارە، قۆشە، وردەپووڵ
 """),

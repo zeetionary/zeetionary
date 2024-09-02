@@ -237,7 +237,6 @@ class EnglishEntryconcern extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بابەتی پێخۆش‌بوو، باسی بابەتی (دڵ)، بابەت یان پرسی جێی سەرنج،	ھۆگری، دڵبەستەیی،	دەخڵ، پێوەندی، بەر،	سەرنج، ئاگاداری، ئاگالێ‌بوون، چاوبەسەرەوەبوون،	نیگەرانی، دڵەڕاوکێ، دڵ‌لەدوایی، ناڕەحەتی، مایەی نگەرانی،	کار و کاسپی، کار، ئەرک، پەیور،	بەرپرسایەتی،	کۆمپانیا، نێوکۆیی،	دامەزراوە کارداری یان پیشەسازی،	بەش، پشک
 """),
@@ -553,7 +552,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

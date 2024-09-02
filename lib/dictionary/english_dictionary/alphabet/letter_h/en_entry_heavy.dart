@@ -202,21 +202,24 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The bottles of wine made the bag even heavier.""");
+    await flutterTts
+        .speak("""The bottles of wine made the bag even heavier.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""There was heavy fighting in the capital last night.""");
+    await flutterTts
+        .speak("""There was heavy fighting in the capital last night.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The British suffered heavy losses in the battle.""");
+    await flutterTts
+        .speak("""The British suffered heavy losses in the battle.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -230,7 +233,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He was known as a heavy drinker among his friends.""");
+    await flutterTts
+        .speak("""He was known as a heavy drinker among his friends.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
@@ -244,7 +248,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The heavy curtains kept the room dark during the day.""");
+    await flutterTts
+        .speak("""The heavy curtains kept the room dark during the day.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
@@ -272,7 +277,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Heavy lorries transport goods across long distances.""");
+    await flutterTts
+        .speak("""Heavy lorries transport goods across long distances.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
@@ -286,35 +292,40 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A gardener comes in to do the heavy work for me.""");
+    await flutterTts
+        .speak("""A gardener comes in to do the heavy work for me.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The heavy blow to the car caused extensive damage.""");
+    await flutterTts
+        .speak("""The heavy blow to the car caused extensive damage.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Avoid heavy foods that are difficult to digest.""");
+    await flutterTts
+        .speak("""Avoid heavy foods that are difficult to digest.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The heavy infantry advanced to the front lines with armored suits.""");
+    await flutterTts.speak(
+        """The heavy infantry advanced to the front lines with armored suits.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""After running up the stairs, she was experiencing heavy breathing.""");
+    await flutterTts.speak(
+        """After running up the stairs, she was experiencing heavy breathing.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
@@ -349,7 +360,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""This whole coastline is battered by heavy seas.""");
+    await flutterTts
+        .speak("""This whole coastline is battered by heavy seas.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
@@ -363,7 +375,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He lunged at the minister, but was soon pulled to the ground by a couple of heavies.""");
+    await flutterTts.speak(
+        """He lunged at the minister, but was soon pulled to the ground by a couple of heavies.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
@@ -1049,7 +1062,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -1064,12 +1076,12 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: قورس، گران،	سەخت، چەتوون،	خەمبار، مات، کز، دڵتەنگ،	پڕکار، دەس‌نەپەرژاو، خەریک،	ناخۆش، وەڕسکەر، ماندووکەر،	(هەوا) ناخۆش، بۆق، بۆگەن،	قورس، درەنگ‌هەرس،	زۆر، یەکجار، زەعف،	توند، ڕەق،	(هەور) تاریک و هەوری، لێڵ،	چڕ، خەست،	سەختگر، توندگر،	خەواڵوو، چاوبەخەو،	(دەریا) شەپۆلاوی، ئاڵۆز،	بەڕشت،	بێزاوی،	مەترسی‌دار،	هەڕەشاوی، هەڕەشەیی‌یانە،	ئەستوور، قورس‌تر لە ئاسایی،	زگپڕ، ئاوس، دووگیان،	(لەشکری) چەک‌قورس،	هەڵنەهاتوو
 """),
 // With short examples define "heavy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) قورس؛ هەبوونی کێشی زۆر"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) قورس؛ هەبوونی کێشی زۆر"""),
                     SentencesRow(
                       englishText: """My brother is much heavier than me.""",
                       kurdishText: """براکەم زۆر قورسترە لە من.""",
@@ -1089,7 +1101,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """How heavy is it (= how much does it weigh)?""",
+                      englishText:
+                          """How heavy is it (= how much does it weigh)?""",
                       kurdishText: """چەند قورسە؟""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
@@ -1099,7 +1112,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Many young people today are too heavy.""",
-                      kurdishText: """زۆر کەسی گەنج ئێستا زۆر قورسن (= قەڵەون).""",
+                      kurdishText:
+                          """زۆر کەسی گەنج ئێستا زۆر قورسن (= قەڵەون).""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1107,17 +1121,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The bottles of wine made the bag even heavier.""",
-                      kurdishText: """بوتڵە شەرابەکان وایان کرد کە جانتاکە قورستر بێت.""",
+                      englishText:
+                          """The bottles of wine made the bag even heavier.""",
+                      kurdishText:
+                          """بوتڵە شەرابەکان وایان کرد کە جانتاکە قورستر بێت.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) زیاتر یان خراپتر لە کاتی ئاسایی لە بڕ، ئاست، هتد"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) زیاتر یان خراپتر لە کاتی ئاسایی لە بڕ، ئاست، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """There was heavy fighting in the capital last night.""",
-                      kurdishText: """شەوی ڕابردوو شەڕی سەخت هەبوو لە پایتەخت.""",
+                      englishText:
+                          """There was heavy fighting in the capital last night.""",
+                      kurdishText:
+                          """شەوی ڕابردوو شەڕی سەخت هەبوو لە پایتەخت.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1125,8 +1145,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The British suffered heavy losses in the battle.""",
-                      kurdishText: """بەریتانییەکان زیانی سەختیان پێگەشت لە شەڕەکەدا.""",
+                      englishText:
+                          """The British suffered heavy losses in the battle.""",
+                      kurdishText:
+                          """بەریتانییەکان زیانی سەختیان پێگەشت لە شەڕەکەدا.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1134,25 +1156,33 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The penalty for speeding can be a heavy fine.""",
-                      kurdishText: """سزای تیژڕەوی دەکرێت بژێرەیەکی سەخت بێت.""",
+                      englishText:
+                          """The penalty for speeding can be a heavy fine.""",
+                      kurdishText:
+                          """سزای تیژڕەوی دەکرێت بژێرەیەکی سەخت بێت.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کردنی ئەو شتەی باسکراوە بە ئاستێکی زیاتر"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کردنی ئەو شتەی باسکراوە بە ئاستێکی زیاتر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was known as a heavy drinker among his friends.""",
-                      kurdishText: """لەناو هاوڕێکانی وەک ئارەقخۆرێکی سەخت ناسراو بوو.""",
+                      englishText:
+                          """He was known as a heavy drinker among his friends.""",
+                      kurdishText:
+                          """لەناو هاوڕێکانی وەک ئارەقخۆرێکی سەخت ناسراو بوو.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (ھاوەڵناو) گەورە و سەخت"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ھاوەڵناو) گەورە و سەخت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was tall and strong, with heavy features.""",
+                      englishText:
+                          """He was tall and strong, with heavy features.""",
                       kurdishText: """درێژ و بەهێز بوو بە خاسیەتی پتەوەوە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
@@ -1161,16 +1191,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """٥. (ھاوەڵناو) ئەستوور"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The heavy curtains kept the room dark during the day.""",
-                      kurdishText: """پەردە ئەستوورەکان ژوورەکەیان بە تاریکی هێشتەوە لە ڕۆژدا.""",
+                      englishText:
+                          """The heavy curtains kept the room dark during the day.""",
+                      kurdishText:
+                          """پەردە ئەستوورەکان ژوورەکەیان بە تاریکی هێشتەوە لە ڕۆژدا.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (ھاوەڵناو) پڕ لە شتێک؛ ئەوەی شتێکت تێدا بێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (ھاوەڵناو) پڕ لە شتێک؛ ئەوەی شتێکت تێدا بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The air was heavy with the scent of flowers.""",
+                      englishText:
+                          """The air was heavy with the scent of flowers.""",
                       kurdishText: """هەواکە پڕ لە بۆنی گوڵ بوو.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
@@ -1194,16 +1229,21 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (ھاوەڵناو) گەورە و بەهێز"""),
+                    const DefinitionKurdish(
+                        text: """٧. (ھاوەڵناو) گەورە و بەهێز"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Heavy lorries transport goods across long distances.""",
-                      kurdishText: """لۆری گەورە کەلووپەل بە مەودای دووردا دەگوازنەوە.""",
+                      englishText:
+                          """Heavy lorries transport goods across long distances.""",
+                      kurdishText:
+                          """لۆری گەورە کەلووپەل بە مەودای دووردا دەگوازنەوە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٨. (ھاوەڵناو) سەرقاڵ؛ کە کاری زۆر لەخۆدەگرێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٨. (ھاوەڵناو) سەرقاڵ؛ کە کاری زۆر لەخۆدەگرێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She'd had a heavy day.""",
@@ -1212,56 +1252,76 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٩. (ھاوەڵناو) کاری سەخت کە پێویستی بە هیزی زۆر هەیە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٩. (ھاوەڵناو) کاری سەخت کە پێویستی بە هیزی زۆر هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A gardener comes in to do the heavy work for me.""",
-                      kurdishText: """باخەوانێک دێت بۆ کردنی کارە سەختەکە بۆم.""",
+                      englishText:
+                          """A gardener comes in to do the heavy work for me.""",
+                      kurdishText:
+                          """باخەوانێک دێت بۆ کردنی کارە سەختەکە بۆم.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٠. (ھاوەڵناو) کە بە هێزی زۆرەوە دەکەوێت یان بەر شتێک دەکەوێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٠. (ھاوەڵناو) کە بە هێزی زۆرەوە دەکەوێت یان بەر شتێک دەکەوێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The heavy blow to the car caused extensive damage.""",
-                      kurdishText: """بەرکەوتنی بەهێز بە ئۆتۆمبێلەکە بوو بە هۆکاری زیانی زۆر.""",
+                      englishText:
+                          """The heavy blow to the car caused extensive damage.""",
+                      kurdishText:
+                          """بەرکەوتنی بەهێز بە ئۆتۆمبێلەکە بوو بە هۆکاری زیانی زۆر.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١١. (ھاوەڵناو) زۆری لە ڕێژەدا"""),
+                    const DefinitionKurdish(
+                        text: """١١. (ھاوەڵناو) زۆری لە ڕێژەدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Avoid heavy foods that are difficult to digest.""",
-                      kurdishText: """دوور بە لە خواردنی قورس کە سەختن بۆ هەرس.""",
+                      englishText:
+                          """Avoid heavy foods that are difficult to digest.""",
+                      kurdishText:
+                          """دوور بە لە خواردنی قورس کە سەختن بۆ هەرس.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٢. (ھاوەڵناو) سەرباز کە چەکی قورسی پێیە"""),
+                    const DefinitionKurdish(
+                        text: """١٢. (ھاوەڵناو) سەرباز کە چەکی قورسی پێیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The heavy infantry advanced to the front lines with armored suits.""",
-                      kurdishText: """هێزە پیادە پڕچەکەکان بە جلی قەڵغاندار بەرەو هێڵەکانی پێشەوە پێشڕەوییان کرد.""",
+                      englishText:
+                          """The heavy infantry advanced to the front lines with armored suits.""",
+                      kurdishText:
+                          """هێزە پیادە پڕچەکەکان بە جلی قەڵغاندار بەرەو هێڵەکانی پێشەوە پێشڕەوییان کرد.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٣. (ھاوەڵناو) دەنگی بەرز و گڕ"""),
+                    const DefinitionKurdish(
+                        text: """١٣. (ھاوەڵناو) دەنگی بەرز و گڕ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """After running up the stairs, she was experiencing heavy breathing.""",
-                      kurdishText: """دوای ئەوەی بە پلەکانەکاندا ڕای کردە سەرەوە، تووشی هەناسەدانی قووڵ بوو.""",
+                      englishText:
+                          """After running up the stairs, she was experiencing heavy breathing.""",
+                      kurdishText:
+                          """دوای ئەوەی بە پلەکانەکاندا ڕای کردە سەرەوە، تووشی هەناسەدانی قووڵ بوو.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٤. (ھاوەڵناو) کە ڕێژەیەکی زۆر لە شتێک بەکاردێنێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٤. (ھاوەڵناو) کە ڕێژەیەکی زۆر لە شتێک بەکاردێنێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Older cars are heavy on gas.""",
-                      kurdishText: """ئۆتۆمبێلە کۆنەکان زیاتر گاز سەرف دەکەن.""",
+                      kurdishText:
+                          """ئۆتۆمبێلە کۆنەکان زیاتر گاز سەرف دەکەن.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -1275,12 +1335,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٥. (ھاوەڵناو) کە سەختە بۆ تێگەشتن یان چێژ لێ بینین"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٥. (ھاوەڵناو) کە سەختە بۆ تێگەشتن یان چێژ لێ بینین"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """We found the play very heavy.""",
                       kurdishText: """شانۆکە زۆر ئاڵۆز بوو.""",
-                      englishNote: """This means that the play was difficult to enjoy or understand, possibly because it was serious, slow, or emotionally intense.""",
+                      englishNote:
+                          """This means that the play was difficult to enjoy or understand, possibly because it was serious, slow, or emotionally intense.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
@@ -1294,29 +1357,39 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٦. (ھاوەڵناو) مەترسیدار بەهۆی شەپۆلی گەورە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٦. (ھاوەڵناو) مەترسیدار بەهۆی شەپۆلی گەورە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """This whole coastline is battered by heavy seas.""",
-                      kurdishText: """تەواوی کەنارەکە بەر شەپۆلی توند دەکەوێت.""",
+                      englishText:
+                          """This whole coastline is battered by heavy seas.""",
+                      kurdishText:
+                          """تەواوی کەنارەکە بەر شەپۆلی توند دەکەوێت.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٧. (ھاوەڵناو) گەرم و بەبێ هەوای پاک"""),
+                    const DefinitionKurdish(
+                        text: """١٧. (ھاوەڵناو) گەرم و بەبێ هەوای پاک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """It's very heavy—I think there'll be a storm.""",
+                      englishText:
+                          """It's very heavy—I think there'll be a storm.""",
                       kurdishText: """زۆر بۆقە ـ پێموایە زریانێک دەبێت.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٨. (ناو) پیاوێکی بەهێز کە کاری پاراستنی کەسێک یان شوێنێکە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٨. (ناو) پیاوێکی بەهێز کە کاری پاراستنی کەسێک یان شوێنێکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He lunged at the minister, but was soon pulled to the ground by a couple of heavies.""",
-                      kurdishText: """خۆی بۆ وەزیرەکە فڕێدا، بەڵام هەرزوو خرایە سەر زەوی لەلایەن ژمارەیەک پیاوی زەبەلاحەوە.""",
+                      englishText:
+                          """He lunged at the minister, but was soon pulled to the ground by a couple of heavies.""",
+                      kurdishText:
+                          """خۆی بۆ وەزیرەکە فڕێدا، بەڵام هەرزوو خرایە سەر زەوی لەلایەن ژمارەیەک پیاوی زەبەلاحەوە.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),

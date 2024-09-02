@@ -435,7 +435,6 @@ class EnglishEntrycatch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گرتن، گیرخستن، چنگ‌پێوەگرتن، دەس‌لێ‌گیرکردن، گیرکردن، قولاپ، گیرگە، گیرە، چەفت، قوفڵ، ڕاو، بەرەڕاو، کێشە، گرفتاری، گیر، گێرەوکێشە، درووشم، وشەی بەرچاو، مەتەڵ
 """),
@@ -1114,7 +1113,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

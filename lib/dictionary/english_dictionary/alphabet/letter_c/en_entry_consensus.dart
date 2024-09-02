@@ -99,7 +99,6 @@ class EnglishEntryconsensus extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕێک‌کەوتن، یەک‌کەوتن، پێک‌ھاتن، ھاودەنگی، ھاوبیری، قایل‌بوون، یەکڕایی،	ڕەزامەندی، پێخۆش‌بوون،	بۆچوون بەکۆمەڵ، بۆچوونی گشتی، ڕای زۆربە، بۆچوونی زۆرینە
 """),
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

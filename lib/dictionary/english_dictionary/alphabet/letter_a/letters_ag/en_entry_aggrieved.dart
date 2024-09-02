@@ -100,7 +100,6 @@ class EnglishEntryaggrieved extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چەوسێنراو، زۆرلێ‌کراو، زوڵم‌لێ‌کراو، ماف‌خوراو، جەوردیتوو، ڕەنج‌کێشاو، ڕەنجێنراو، کوێرەوەری‌دیتوو، بەخەم، خەمین، ناڕەحەت، دەسەوئەژنۆ
 """),
@@ -201,7 +200,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

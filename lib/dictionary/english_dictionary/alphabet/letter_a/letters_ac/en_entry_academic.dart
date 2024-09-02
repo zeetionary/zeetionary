@@ -170,7 +170,6 @@ An educator who works at a college or university (= academician, faculty member)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -189,7 +188,6 @@ An educator who works at a college or university (= academician, faculty member)
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئاکادێمیک، پەروەردەیی، سەربە خوێندن، فێرکاری‌یانە، تیۆریک، بیردۆزی، ناکرداری، زانستی
 """),

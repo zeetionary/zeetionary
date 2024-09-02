@@ -133,7 +133,6 @@ class EnglishEntrybark extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: واقەواق، وەڕە، گەف، قروسکەقروسک، سەگوەڕ، حەپەحەپ، گرمە یان قریوەی چەک و تفەنگ، نەعرەتە، (تۆ)تەڵاش، توێخڵی دار، قالشت، تۆک، توێکڵی دار، پێستی دار، خەڵەف
 """),
@@ -304,7 +303,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

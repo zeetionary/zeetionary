@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دانەوێڵە، پەتڵە، دڕکەدو، دغڵ، دەغڵ‌ودان، وشکەدان، وردەدان، دانوو، دەنک، دان، تۆو، توو،	جۆیێ، بڕێ، بڕێکی زۆر کەم،	(دار) بار یان دۆخی ڕەگ، باری ڕەگە، باری ڕیشاڵ،	(بەرد) ڕەگە، دەمار، چین،	ڕەنگ(جێگیر یان کاڵەوەنەبوو)، خۆڕەنگ،	(خوازە) سروشت، بار، دۆخ، وەزع،	ناڕێکی یان زبر و چرچی دیوی دەرەوەی چەرم،	گەنم، گەنمە، دەنک
 """),

@@ -329,7 +329,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: (فیزیک) وزە،	ھێز، تابشت، توانایی، وزە، گوڕ، گوژم، توانست، شیان، ستین، تیھن،	چالاکی، ھەڵسووڕی، پشت‌گەرمی، جم‌وجۆڵ،	شێلگیری، بەڕشتی
 """),
@@ -504,7 +503,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

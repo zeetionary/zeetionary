@@ -246,7 +246,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -261,7 +260,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: گڕ، بڵێسە، سۆڵە، پڕیشکە، گڵپە، گرپە (وەک ھی چۆڵەچرا)،	ڕووناکی، شەوق، گەشانەوە، بریسکانەوە، ڕۆشنایی،	چرا یان نیشانەی دەریایی،	شەوق‌ھاوێژ،	پانەوەبوون، فش‌بوونەوە، چەترھەڵپێچان (داوێن)،	تووڕەی لەناکاو،	(سەربازی) فشفشە، ڕۆشنە، شەڵواری دەلینگ‌ھەراو
 """),

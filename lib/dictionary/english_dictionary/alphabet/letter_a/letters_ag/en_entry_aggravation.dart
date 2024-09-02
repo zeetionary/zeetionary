@@ -100,7 +100,6 @@ class EnglishEntryaggravation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خراپ‌تربوون، لێ‌پێس‌کردن، شپرزەیی، تووڕەیی، ڕق‌ھەستاوی، ورووژاندن، تین‌دان، ئارۆزان، تووڕەکردن، مایە یان ھۆکاری خراپترکردن
 """),
@@ -212,7 +211,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

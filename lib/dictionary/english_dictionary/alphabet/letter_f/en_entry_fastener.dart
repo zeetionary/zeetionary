@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: قولاپ، بەند، بەست، دەسک، دەسەگیرە، گیرە، ئەشکنجە،	دوگمە، لێکبەست، لێک‌ھەڵپێک، پێکبەست، داخە(ڕ)، ئاغزۆنە، پزیم، قازان‌قوفڵی، قرتێنە، دەرزی (سنجاغ)، دەرزی بەرکوژە،	زنجیر
 """),
@@ -310,7 +309,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

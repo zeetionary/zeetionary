@@ -136,7 +136,6 @@ class EnglishEntryclearance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خاوێن‌کردنەوە، سڕینەوە، پاکتاو، پاک‌کردنەوە،	دەس‌پێوەنان (کەل‌وپەل)،	مەودای ئازاد، مەودای پاراستن، مەودای پێویست، ماوەی پێویست، جێگا، مەودای تیاھەڵسووڕان،	(ھاتووچۆ)، ڕێدان، ڕێگەدانی فەرمی، دەستوور (پێدان)،	کۆسپ‌لابردن یان ڕاپەڕاندن،	(تۆپێن و ھاکی) لێدان، (تێ)ھەڵدان
 """),
@@ -318,7 +317,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

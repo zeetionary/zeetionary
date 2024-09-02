@@ -134,7 +134,6 @@ class EnglishEntryblight extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەڵا، نەگبەتی، ئازار، ئافەت، فەوتان، تیاچوون، نەخۆشی کە تووشی گژوگیا بێت، بۆنموونە: دۆ(و)کە، شۆکە، سۆتەکە، شەتە، ھاڕیە، تڕتڕە، ژەنگ‌وژار، تەم (ھی گیا لەبەر نەخۆشی)، کەنەسمە، کەڵە،
 """),
@@ -267,7 +266,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

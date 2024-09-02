@@ -106,7 +106,6 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: نەخۆشی ئالزایمێر، ئەلزەھایمەر، نەخۆشی لەبیرچوونەوە
 """),
@@ -206,7 +205,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -514,5 +512,3 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 // end
-
-

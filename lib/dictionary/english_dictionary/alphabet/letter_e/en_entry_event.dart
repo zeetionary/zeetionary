@@ -330,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: ڕووداو، بوویەر، بەسەرھات، سەرھات، سەربورد، قەوماو، قەومین، پێشھات، ڕوودان،	ئاکام، ئەنجام،	پێشبڕکێ
 """),
@@ -509,7 +508,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

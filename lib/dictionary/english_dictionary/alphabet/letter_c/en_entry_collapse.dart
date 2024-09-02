@@ -197,7 +197,6 @@ class EnglishEntrycollapse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕووخان، داڕووخان، کەوتن، داتەپین، تێک‌تەپین، تیاچوون، لەنێوچوون، ھەرەس‌ھێنان، ڕمان، داڕمان، ھەڕەمین، لێک‌ھەڵوەشان، تێشکان، بەزین،	پێچوون، کزبوون، داچوون،	کەم‌بوونەوەی کت‌وپڕی نرخ،	(جوگڕافی) تلیسانەوە 
 """),
@@ -482,7 +481,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

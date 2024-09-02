@@ -99,7 +99,6 @@ class EnglishEntryadaptation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گونجان، ساز، سازان، داھاتن، ڕێک‌کەوتن، گۆڕان، دەق‌پێدان، ڕێک‌خستن، گونجاندن، داھێنان، سازاندن، لواندن، لوواندن
 """),
@@ -212,7 +211,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -353,7 +353,6 @@ class EnglishEntrybusiness extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کار، پیشە، شوول، خەبات، ئیش، کردە، کار و کاسپی، سەودا، مەعامەلە، کڕین و فرۆش، سەوداگەری، کارداری، بازرگانی، ڕێکخراوەی کارداری یان بازرگانی (وەکوو کۆمپانی، دووکان، فرۆشگە یان کارخانە (کارگە)، دام‌ودەزگای کاری، شوێنی کار، دامەزراوەی کارداری، بابەت، مژار، پرس، شت، پرسگرێک، کێشە، دەردەسەر، دۆز، پەیور، ئەرک، ئەندازە (قەبارە) و ڕێژەی فرۆشتن و کڕین، کاری سەخت و گران
 """),
@@ -745,7 +744,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

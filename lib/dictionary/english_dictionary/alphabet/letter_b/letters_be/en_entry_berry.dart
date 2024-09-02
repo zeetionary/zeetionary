@@ -133,7 +133,6 @@ class EnglishEntryberry extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: توو، نێوک، ناوک، کاکڵ، دەنک، دان، میوە یان بەری توویی یان بۆڵی، گەرای ماسی
 """),
@@ -247,7 +246,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

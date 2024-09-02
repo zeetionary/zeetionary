@@ -92,7 +92,6 @@ class EnglishEntrycontretemps extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕووداوی جەرگبڕ یا ناخۆش، کۆست، بوویەری دڵتەزێن، قەومینی تاڵ، جیاوازی، کێشمەکێش، ناکۆکی
 """),
@@ -208,7 +207,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

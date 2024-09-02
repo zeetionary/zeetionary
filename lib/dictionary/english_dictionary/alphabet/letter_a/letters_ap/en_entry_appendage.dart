@@ -146,7 +146,6 @@ class EnglishEntryappendage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پاشکۆ، لکاند، پاڵخستە، سەرخستە، زیادی، زیادە، (زیندەناسی) ئەندام یان بەشێکی پاشکۆ یان زیادی
 """),
@@ -263,7 +262,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

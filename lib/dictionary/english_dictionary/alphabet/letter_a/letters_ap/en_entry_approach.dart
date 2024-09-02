@@ -204,7 +204,6 @@ class EnglishEntryapproach extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بۆچوون، دیتن، نێرین، تێ‌ڕوانین، ھەڵس‌وکەوت، شێوەی جووڵانەوە، شێوە، ڕێک، شێواز، بار، ڕێگا، ڕێ، ڕێگای چوونەنێو، ئامێر، کەرەسە، لێکچوون، ھاوشێوەیی، دەس‌ڕاگەیشتن، گەیشتن، نزیک‌بوونەوە، نزیکی، نزیک‌کەوتن، قەرەکەوتن، توخن‌کەوتن، داوا، داخوازی، پێشنیار
 """),
@@ -475,7 +474,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

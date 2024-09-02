@@ -90,7 +90,6 @@ class EnglishEntrychasm extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کەلەبەر، کەلێن، کەندڕ، کەنداڵ، کەندەڵان، کەنەڵان،	جیاوازی زۆر، ناکۆکی، ناخۆشی یەکجار، کەلێن، کەلەبەر
 """),
@@ -205,7 +204,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

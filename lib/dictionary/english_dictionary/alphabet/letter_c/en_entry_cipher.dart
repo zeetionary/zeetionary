@@ -115,7 +115,6 @@ class EnglishEntrycipher extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: نیشانە، ھێما، ڕەمز، پەرلە، شفرە، پەیامی کۆدی،	ژمارە (لە 1ەوە تا 9)، ھیچ، سیفر،	مرۆ یا شتی ناگرنگ و نزم، ھیچەکە
 """),
@@ -274,7 +273,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

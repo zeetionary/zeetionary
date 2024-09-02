@@ -83,7 +83,6 @@ class EnglishEntrythecivilservice extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: فەرمانگەی حکومی، ڕێکخراوە شارستانی‌یەکان،	بەڕێوەبەرایەتی یا کارگێڕی‌یە شارستانی‌یەکان،	کاربەدەستەکان، فەرمانبەرانی سیڤیل
 """),
@@ -188,7 +187,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

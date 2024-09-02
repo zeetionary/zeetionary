@@ -99,7 +99,6 @@ class EnglishEntryaltar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: مێحراب، مێراو، مێحراو، مێھراو، مێھراوە، پێش‌نوێژگە، کوشتنگە، قوربانیگا، جێ‌قوربانی، گۆڕیگە
 """),
@@ -198,7 +197,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

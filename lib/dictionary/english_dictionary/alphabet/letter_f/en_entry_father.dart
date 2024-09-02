@@ -366,7 +366,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: باوک، پیەر، باو، باڤ، باوگ،	دامەزرێنەر، بناخەدانەر، بنیات‌نەر، پێشەنگ،	باوکی ئایینی، قەشە،	ڕیش‌سپی، پیر،	پارێزەر، چاوبەسەر، باو و باپیران، باب و کال، پێشینیان، خوداوەند، خوا
 """),
@@ -605,7 +604,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

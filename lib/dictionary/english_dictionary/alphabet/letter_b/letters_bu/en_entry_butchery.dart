@@ -170,7 +170,6 @@ class EnglishEntrybutchery extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: قەسابی، قەساب‌خانە، قەسابی، گۆشت‌فرۆشی، دووکانی قەسابی، کوشتن، کوشت‌وبڕین، کوشت و کوشتار، قەڵت‌وبڕ، توندوتیژی، کۆمەڵ‌کوژی، کۆکوژی، خوێن‌ڕشتن
 """),
@@ -287,7 +286,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

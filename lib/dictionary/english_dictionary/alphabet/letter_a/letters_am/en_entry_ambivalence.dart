@@ -100,7 +100,6 @@ class EnglishEntryambivalence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دوودڵی، دڕدۆنگی، ڕاڕایی‌بوون، تاوتاوی، ناکۆکی، یەک‌نەگرتنەوە، دژایەتی، (کیمیا) دووھاوھێزی، (دەروون‌ناسی) دوولایەنێتی، دوولا(یەنە)گەری
 """),
@@ -198,7 +197,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

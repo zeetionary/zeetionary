@@ -99,7 +99,6 @@ class EnglishEntryadjectival extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەربە ئاوەڵ‌ناو، ئاوەڵ‌ناوی، ڕەنگدێری
 """),
@@ -195,7 +194,6 @@ Of or relating to or functioning as an adjective (= adjective)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

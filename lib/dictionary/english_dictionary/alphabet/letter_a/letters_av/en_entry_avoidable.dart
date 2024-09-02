@@ -135,7 +135,6 @@ class EnglishEntryavoidable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دەتوانرێ دووری لێ‌کرێ، دووری لێ‌دەکرێ، شیاوی خۆ(لێ)لادان، شیاوی پرینگانەوە، لەتەکینەوەھاتوو
 """),
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

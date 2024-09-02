@@ -169,7 +169,6 @@ class EnglishEntrycellular extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خانەیی، سەربە ژوورە، سەربە خانە یان سلول، کون‌کون، کونیلەدار، دیودیو، ژوورژوور، خانەخانە
 """),
@@ -293,7 +292,6 @@ Usage: N. Amer
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -169,7 +169,6 @@ class EnglishEntrybusstop extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: وێسگەی پاس، وێستگەی پاس، ئێسگەی پاس، وێزگەی پاس
 """),
@@ -177,8 +176,7 @@ class EnglishEntrybusstop extends StatelessWidget {
                               text: "١. (ھاوەڵناو) پێنناسە"),
                           SentencesRow(
                             englishText: "I was waiting at the bus stop.",
-                            kurdishText:
-                                "لە وێستگەی پاسەکە چاوەڕێ بووم.",
+                            kurdishText: "لە وێستگەی پاسەکە چاوەڕێ بووم.",
                             onPressedBritish: () => speakbusstops1("en-GB"),
                             onPressedAmerican: () => speakbusstops1("en-US"),
                           ),
@@ -279,7 +277,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

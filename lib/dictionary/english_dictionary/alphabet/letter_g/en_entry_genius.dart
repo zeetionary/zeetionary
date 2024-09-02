@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -208,7 +207,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ھەڵکەوتەیی، ھۆشی لەرادەبەدەر، توانایی، توانایی داھێنەرانە، بەھرە،	ھەڵکەوتوو، بلیمەت، شارەزایی یان تواناییەکی تایبەتی، شارەزا، پسپۆڕ،	تایبەتمەندی، ڕەوشت،	فریشتە یان گیانی پارێزەر
 """),

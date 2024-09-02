@@ -92,7 +92,6 @@ class EnglishEntrycircumstantial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تێروتەسەل، چڕوپڕ، ورد، پڕ لە وردەکاری، دوورودرێژ،	لاوەکی، ناگرنگ، ڕێکەوتی، پێوەندی‌دار بەڵام نە بنەڕەتی
 """),
@@ -215,7 +214,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

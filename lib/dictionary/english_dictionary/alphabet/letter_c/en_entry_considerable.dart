@@ -99,7 +99,6 @@ class EnglishEntryconsiderable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گرنگ، بەرچاو، شیاوی بایەخ‌پێدان، بەبایەخ، شایانی تێبینی، جێی سەرنج،	زۆر و زەبەن، گەلێ، زۆر، گەورە 
 """),
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

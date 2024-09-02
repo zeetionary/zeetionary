@@ -145,7 +145,6 @@ class EnglishEntryash extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خۆڵەمێش، خۆڵەکەوە، بووڕ، مۆر، سووتوو، پەلەموور، پەلەخۆر
 """),
@@ -286,7 +285,6 @@ Noun: ash (derived forms: ashes)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

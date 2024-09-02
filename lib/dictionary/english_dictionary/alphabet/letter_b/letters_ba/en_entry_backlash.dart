@@ -135,7 +135,6 @@ class EnglishEntrybacklash extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کاردانەوە(توند)، بەرپەرچ‌دانەوە (لە لایەن ژمارەیێکی زۆری خەڵکەوە)، گەڕانەوە، ئاڵۆسکان، تێک‌ئاڵان، لێک‌ئاڵان
 """),
@@ -241,7 +240,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

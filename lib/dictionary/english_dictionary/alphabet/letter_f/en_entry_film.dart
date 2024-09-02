@@ -265,7 +265,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -280,7 +279,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ناسکەبەرگە، توێژ، توێژاڵ، گەرداڵ، پەردە، ڕووپۆشی ناسک، پەردەی ناسک،	فیلم (وێنەگری)،	فیلم، توێژە، فلیم (سینەمایی)، ئاڵقەی فیلم،	لێڵایی چاو،	ھەودا، داو، ڕیشاڵ، تاڵ،	(films) کاری سینەما، سینەماکاری، سینەماگەری، پیشەسازی سینەما
 """),

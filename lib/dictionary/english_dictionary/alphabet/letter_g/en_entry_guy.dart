@@ -168,7 +168,6 @@ Usage: UK
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -183,7 +182,6 @@ Usage: UK
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: کابرا، پیاو، ئینسان، بنیادەم، مرۆ، هەڤاڵان، دەستە ڕفێق، دەستەی هاوەڵان
 """),

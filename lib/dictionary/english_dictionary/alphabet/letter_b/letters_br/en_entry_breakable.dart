@@ -129,7 +129,6 @@ class EnglishEntrybreakable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لەشکان‌ھاتوو، شکستەنی، شکەنی، ئاسان‌شکاو، قرچ، قرپ، زووشکاو، شتە زووشکاوەکان یان شکستەنی‌یەکان، شکستەمەنی
 """),
@@ -237,7 +236,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -170,7 +170,6 @@ class EnglishEntrycaricature extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کاریکاتۆڕ، وێنەی گاڵتەجاڕ، کاریکاتۆڕکێشی، ھونەری کاریکاتۆر
 """),
@@ -323,7 +322,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -83,7 +83,6 @@ class EnglishEntryclappedout extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: داشقەشکاو، قوڕازە، چەپەرەشڕ، شڕ
 """),
@@ -185,7 +184,6 @@ Usage: Brit, informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

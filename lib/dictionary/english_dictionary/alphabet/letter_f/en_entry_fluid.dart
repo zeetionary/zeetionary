@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -178,7 +177,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ڕەوندە، ڕژۆک، شل، شلە، ئاوەکی، ڕەوان،	نەرم، نەچەسپیو، بگۆڕ، لەگۆڕان‌ھاتوو، ناسەقامگیر، ناجێگیر، شلە، شل، ڕژۆک
 """),

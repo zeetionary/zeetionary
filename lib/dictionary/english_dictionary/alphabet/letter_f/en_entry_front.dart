@@ -416,7 +416,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -431,7 +430,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پێش، پێشەوە، بەردەم، بەرەوە، بەریان، بەشی پێشەوە، بەر، سەرەتا، دەسپێک،	ڕوو، ئاست،	لەپ، بەر (دەست)،	ڕێزی پێشەوە، ڕیزی ھەوەڵ،	(خانووبەرە) ڕووکار، لا، بەر(ێکی خانووبەرە)،	(ڕۆژنامە) لاپەڕەی یەکەم،	پێشەوەی جل‌وبەرگ،	لێوار یان گوێی دەریا یان دەریاچە، گوێ‌چەم، دەم ڕووبار، کەنار، ڕۆخ،	ڕێگای کەناری یان دەم‌ئاو،	شەقامی کەناری یان دەم‌ئاو،	بەرە، ئەنی، ئەنی شەڕ، بەرەی شەڕ، پێشانی، ھێڵی پێشەوەی بەرە،	بەرەی ھەوا،	(ماشێن) کورسی یان سەندەڵی پێشەوە،	مەڵبەند، بوار، ئاقار، بواری چالاکی،	ڕواڵەت، ڕووی دەرەوە،	پێشەوە، بەری، سەرەتا، دەسپێک،	(دیمەن) ڕووناک، ڕۆشن،	(دەنگ‌ناسی) پێشەوە، پێشوو
 """),

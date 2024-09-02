@@ -130,7 +130,6 @@ class EnglishEntrybrass extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زەرد، برنج، کالان، کەل‌وپەل یان شت‌ومەکی لە زەرد، ئامێرە زەردەکان، پارە، پووڵ، ڕووداری، بێ‌شەرمی
 """),
@@ -259,7 +258,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

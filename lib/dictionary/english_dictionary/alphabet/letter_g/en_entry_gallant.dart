@@ -148,7 +148,6 @@ Usage: archaic
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -163,7 +162,6 @@ Usage: archaic
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: قارەمان، ئازاد، نەبەز، ئازا، شێرکرۆژ، دلێر، نەبەرد، کۆڵنەدەر،	(وەکوو کەشتی) بەشکۆ، جوان، شایانە،	(بەتایبەت سەبارەت بە ژنان) بەڕەوشت، ڕەوشت‌زان، بەڕەوشتانە، لە ڕووی ڕەوشتەوە
 """),

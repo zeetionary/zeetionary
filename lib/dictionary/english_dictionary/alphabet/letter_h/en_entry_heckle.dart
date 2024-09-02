@@ -91,7 +91,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He was booed and heckled throughout his speech.""");
+    await flutterTts
+        .speak("""He was booed and heckled throughout his speech.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -966,7 +967,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -981,16 +981,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
 // With short examples define "heckle", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) وەستاندنی وتاربێژێک بەوەی پرسیار بکەیت یان قسەی توند بکەیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) وەستاندنی وتاربێژێک بەوەی پرسیار بکەیت یان قسەی توند بکەیت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: barrack"),
                     SentencesRow(
-                      englishText: """He was booed and heckled throughout his speech.""",
-                      kurdishText: """لە ماوەی وتارەکەیدا هاواری لێکرا و پچڕێندرا.""",
+                      englishText:
+                          """He was booed and heckled throughout his speech.""",
+                      kurdishText:
+                          """لە ماوەی وتارەکەیدا هاواری لێکرا و پچڕێندرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

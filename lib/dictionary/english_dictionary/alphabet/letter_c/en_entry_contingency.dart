@@ -90,7 +90,6 @@ class EnglishEntrycontingency extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕێککەوتن، ڕوودان، ھەڵکەوتن، پێش‌ھاتن، ڕووداو،	لەوانەیی‌بوون، ڕەنگەیی، شیمانە، شیان، ئەگەر، ڕێ‌تێچوون،	ئەگەری ڕوودان یان ڕوونەدان،	(فەلسەفە) نەبوونی پێویستی
 """),
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

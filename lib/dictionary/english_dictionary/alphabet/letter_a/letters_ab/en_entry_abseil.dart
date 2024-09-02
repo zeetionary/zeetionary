@@ -128,7 +128,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -143,7 +142,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const DefinitionKurdish(text: """
 ١. (کردار و ناو) ھاتنەخوارە بە تەناف‌دا (لە ھەڵدێرەوە) بە بەکارھێنانی پێیەکانت بۆ دوورخستنەوەی جەستەت لە ھەڵدێرەکە"""),
                     SentencesRow(

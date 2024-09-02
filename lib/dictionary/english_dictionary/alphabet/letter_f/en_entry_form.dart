@@ -615,7 +615,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -630,7 +629,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: وشە، شێوگ، پەیڤ،	بیچم، نموود، ڕوو، شێوە، تاپۆ، ڕوخسار،	شت،	چوارچێوە، قاڵب، داڕێژگە، بۆتە، داڕێژگ،	جۆر، چەشن، ئاوا، ڕەنگ،	شێواز، شێوە، ڕێگا،	ڕواڵەت، ڕووکەش،	ڕەسم، نەریت، باو، کەڤنەشۆپ،	داب‌ودەستوور،	کردەوە، کار، کردە،	ڕێکخستن، شێوەی کار، جووڵانەوە،	ئامادەیی، سازبوون، تەیاری،	پرسیارنامە، داخوازی‌نامە،	ڕەوش، دۆخ، بارودۆخ، کاودان، دەست‌ودار،	ڕێژە، شێوگ، دەمکات،	تەخت، میز (بێ‌پشتی)،	پۆل، ساڵ،	(بریتانیا) کون، بوودڕ، کولانە، لان (ھی کەروێشک)،	دڵ‌ودەروون، ورە،	(نافەرمی، بریتانیا) پێشینە، ڕابووری
 """),

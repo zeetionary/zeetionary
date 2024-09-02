@@ -91,7 +91,6 @@ class EnglishEntryconveyor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئۆتۆمبێل، ڕاگوێزەر،	(ماف) بەنێوکەر، ڕاگوێزەر،	قایش یا تەسمەی ڕاگوێستن، بەندی ڕاگوێستن
 """),
@@ -208,7 +207,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

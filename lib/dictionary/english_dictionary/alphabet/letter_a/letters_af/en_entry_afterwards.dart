@@ -99,7 +99,6 @@ class EnglishEntryafterwards extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پاشان، دوایی، ئەمجار، دوا، لە پاشا، دوای ئەوە
 """),
@@ -195,7 +194,6 @@ Happening at a time subsequent to a reference time (= subsequently, later, after
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

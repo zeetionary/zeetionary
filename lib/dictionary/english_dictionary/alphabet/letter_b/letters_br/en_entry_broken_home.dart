@@ -133,8 +133,7 @@ class EnglishEntrybrokenhome extends StatelessWidget {
 ١. (ناو) خێزانی لێک‌ھەڵوەشاو؛ خێزانێک کە دایک و باوکەکەی جیابوونەتەوە یان بە جیایی دەژین"""),
                           SentencesRow(
                             englishText: "She comes from a broken home.",
-                            kurdishText:
-                                "لە خێزانێکی داڕماو گەورەبووە.",
+                            kurdishText: "لە خێزانێکی داڕماو گەورەبووە.",
                             onPressedBritish: () => speakbrokenhomes1("en-GB"),
                             onPressedAmerican: () => speakbrokenhomes1("en-US"),
                           ),
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

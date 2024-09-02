@@ -149,7 +149,6 @@ class EnglishEntrychop extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پیاکێشان، لێدان، تەکان، ڕاتڵەکان، جووڵانی توند و ناکاو،	لەتە گۆشت (مەڕ و بەراز)، گۆشتی پەراسوو،	مۆر، مۆری فەرمی، مۆری ستاندارد، ناوی کارداری، دروشمی کارداری، دروشمی بازرگانی،	داخستن،	جۆر، چەشن، ئاوا
 """),
@@ -376,7 +375,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

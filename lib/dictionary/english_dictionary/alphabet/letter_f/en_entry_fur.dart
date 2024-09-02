@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -187,7 +186,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: خوری، تووک، موو، تیسک، کوڵکە،	پێستە، کەوڵ، کورک، فەروە، پارچەی لە کوڵک یان تووک،	(کتری، لوولە و ھتد) بەڵخ، سۆنە، بار،	(زمان) پەلاسی دەم، بار
 """),

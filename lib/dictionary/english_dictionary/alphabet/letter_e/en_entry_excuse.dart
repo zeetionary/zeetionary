@@ -414,7 +414,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: بیانوو، بۆنە، بەھانە، بیانک، پەڵپ، ھەواڵە بە گەواڵە، دەساوێز، بیانووی ژیرانە،	لێبوردن‌خوازی
 """),
@@ -714,7 +713,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

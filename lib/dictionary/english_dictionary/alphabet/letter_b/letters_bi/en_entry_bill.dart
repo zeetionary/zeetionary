@@ -296,7 +296,6 @@ class EnglishEntrybill extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لیست، ڕیزک، فاکتۆر، لیستە، پوستێر، پلاکارد، بەرنامە، ئاگاداری، سەرنجە، تێبینی، دانەزانین، ھایداری، جاڕ، بڵاوک، داخویانی، بەرنووس، پێش‌نووس، پارەی کاغزی، بیل (بەرات، سفتە یان حەواڵە)، دەستوورنامە، بڕوانامە
 """),
@@ -571,7 +570,6 @@ Usage: Brit, informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

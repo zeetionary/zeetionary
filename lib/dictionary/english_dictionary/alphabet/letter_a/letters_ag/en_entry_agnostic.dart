@@ -100,7 +100,6 @@ class EnglishEntryagnostic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: نازانم‌بێژ، نازانم‌باوەڕ (= کەسێ کە پێی‌وایە ھیچ شتێ ناتوانرێ دەربارەی بوون یان سروشتی خوداوە (یان دوایین ھۆ) بزانرێ (و لە زانینیش نایەن) بێجگەلە شتە مادی‌یەکان)
 """),
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

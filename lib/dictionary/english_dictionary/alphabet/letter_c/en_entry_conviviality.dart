@@ -83,7 +83,6 @@ class EnglishEntryconviviality extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دۆستایەتی، بەزم‌وڕەزم، بەزم، گەرم وگوڕی، لەدڵەوەنزیکی
 """),
@@ -191,7 +190,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

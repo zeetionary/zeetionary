@@ -139,7 +139,6 @@ class EnglishEntryamplifier extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (دەزگا) دەنگ‌پێدەر، ئەمپلیفایەر
 """),
@@ -242,7 +241,6 @@ Electronic equipment that increases strength of signals passing through it (= am
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

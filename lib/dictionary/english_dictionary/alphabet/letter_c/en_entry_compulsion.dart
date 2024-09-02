@@ -113,7 +113,6 @@ class EnglishEntrycompulsion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زۆر، سەنگی، ھەڵپێچان، پشتەملە، پشتەملێ، تەنگەتاو، جەور، ناچارکردن، زۆرەملێ، زۆری، زۆردارەکی، بەدەس خۆنەبوو
 """),
@@ -263,7 +262,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

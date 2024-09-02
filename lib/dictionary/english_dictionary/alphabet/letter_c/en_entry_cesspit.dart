@@ -174,7 +174,6 @@ class EnglishEntrycesspit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چاڵە مستەڕا، چاڵەپیساو، چاڵپیس، شوێنی گەنیو یان پیس، مەکۆی خراپە، جێی پیس
 """),
@@ -290,7 +289,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

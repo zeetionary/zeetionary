@@ -138,7 +138,6 @@ class EnglishEntryblankcheque extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چەکی سپی، دەسەڵاتی ڕەبەق، ڕەھا، یان تەواو
 """),
@@ -260,7 +259,6 @@ Usage: Brit, Cdn (US: blank check)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

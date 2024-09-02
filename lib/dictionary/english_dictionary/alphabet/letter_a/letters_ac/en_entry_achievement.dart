@@ -138,7 +138,6 @@ Noun: achievement (derived forms: achievements)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -157,7 +156,6 @@ Noun: achievement (derived forms: achievements)
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەرھەم، دەسکەوت، دەست‌پێ‌ڕاگەیشتن، پێشکەوتن، پێشوەچوون، جێبەجێ‌بوون، بەدیھاتن
 """),

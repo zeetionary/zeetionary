@@ -303,7 +303,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: کۆمەڵ، کۆمەڵە، دەستە، کۆڕ، جەماعەت، گەلە، گیڤالە،	گەل، خەڵک، جەماوەر، خەڵکی ڕەمەکی،	ئاپۆرە، چڕەبەندان، جمە، گوردەم، قەرەباڵغی، تێ‌ڕژاوی، گانەگۆڵ، جەنجاڵ، شلوقایی،	بینەران،	ژمارەیەکی زور، گەلێک،	کۆما، لۆدە، کۆڵێ
 """),
@@ -570,7 +569,6 @@ A large number of things or people considered together
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

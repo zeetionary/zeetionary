@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -159,7 +158,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) وەھا پیشاندانی ئەوەی کە ھەستێکی دیاریکراوت ھەیە یان نەخۆشیت، ماندوویت، ھتد"""),

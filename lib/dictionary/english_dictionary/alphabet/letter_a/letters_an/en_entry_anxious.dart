@@ -142,7 +142,6 @@ class EnglishEntryanxious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بێ‌ئۆقرە، ئارام‌لێ‌ھەڵگیراو، ناڕەحەت، بەخەتەرە، بژاڵ، پڕدڵەڕاوکێ، پەرێشان، نیگەران، بەتەنگەوە، تامەزرۆ، بەتین، بەپەرۆش
 """),
@@ -279,7 +278,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

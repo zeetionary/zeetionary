@@ -171,7 +171,6 @@ class EnglishEntryclutch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گرتن، دەس یان چنگ لێ‌گیرکردن، گیرخستن، بەرنەدان،	چنگ،	باوەش، حمێز، ئامێز،	کڵاچ، پێدالی کڵاچ (ئۆتۆمبێل)، دەس‌بەسەراگرتن، کۆنتڕۆڵ، مەھار، ھێز، دەسەڵات، جووچکە پێکەوەبووەکان، جووچکە پێکەوە سەرجووقاندووەکان،	ڕاوکە، ڕامکە،	دەستە، کۆمەڵە، کۆما، لۆدە، کۆگا، ڕان، مێگەڵ، ڕەوە
 """),
@@ -415,7 +414,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

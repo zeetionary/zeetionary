@@ -85,7 +85,6 @@ class EnglishEntryconflagration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئاورگرتن، سووتان، سووتمان، ئاوری گەورە، ئاگربەربوونەوە، شەوەتین (ماڵ‌وێران‌کەر)
 """),
@@ -191,7 +190,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

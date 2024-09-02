@@ -92,14 +92,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We suspect they are trying to hide something, hence the need for an independent inquiry.""");
+    await flutterTts.speak(
+        """We suspect they are trying to hide something, hence the need for an independent inquiry.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""His mother was Italian, hence his name - Luca.""");
+    await flutterTts
+        .speak("""His mother was Italian, hence his name - Luca.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -967,7 +969,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -982,15 +983,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
 // کوردی: لە ئێستاوە، لە ئەلئانەوە، لەمەوبەدوا، لەبەر ئەوە، لێرەوە
 // """),
 // With short examples define "hence", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بۆ ئەم هۆکارە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بۆ ئەم هۆکارە"""),
                     SentencesRow(
-                      englishText: """We suspect they are trying to hide something, hence the need for an independent inquiry.""",
-                      kurdishText: """گومان دەکەین هەوڵ دەدەن شتێک بشارنەوە، بۆ ئەم هۆکارەش پێویستی بۆ لێکۆڵینەوەیەکی سەربەخۆ.""",
+                      englishText:
+                          """We suspect they are trying to hide something, hence the need for an independent inquiry.""",
+                      kurdishText:
+                          """گومان دەکەین هەوڵ دەدەن شتێک بشارنەوە، بۆ ئەم هۆکارەش پێویستی بۆ لێکۆڵینەوەیەکی سەربەخۆ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -998,8 +1001,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """His mother was Italian, hence his name - Luca.""",
-                      kurdishText: """دایکی ئیتالییە، بۆ ئەم هۆکارەش ناوەکەی ـ لوکا.""",
+                      englishText:
+                          """His mother was Italian, hence his name - Luca.""",
+                      kurdishText:
+                          """دایکی ئیتالییە، بۆ ئەم هۆکارەش ناوەکەی ـ لوکا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

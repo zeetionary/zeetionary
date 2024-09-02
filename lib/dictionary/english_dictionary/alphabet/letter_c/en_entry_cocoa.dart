@@ -90,7 +90,6 @@ class EnglishEntrycocoa extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کاکاو،	ھاڕاوەی کاکاو،	دار کاکاو،	شیر کاکاو،	ئارەق یان خواردنەوەی کاکاو،	پیاڵەی کاکاو
 """),
@@ -208,7 +207,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

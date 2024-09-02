@@ -134,7 +134,6 @@ class EnglishEntrybedraggled extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: شێواو، ئاڵۆزاو، شپرزە، پیس، قوڕاوی
 """),
@@ -243,7 +242,6 @@ In deplorable condition (= broken-down, derelict, dilapidated, ramshackle, tatte
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

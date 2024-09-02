@@ -113,7 +113,6 @@ class EnglishEntryclamour extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەراوھوریا، ھاتوھاوار، زەنازەنا، غەڵبەغەڵب، دەنگەدەنگ، قاڵەقاڵ، سڕمەسڕم، قیژە، قاووقیژ
 """),
@@ -274,7 +273,6 @@ Usage: Brit, Cdn (US: clamor) (= blare, blaring, cacophony, clamor [US], din)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

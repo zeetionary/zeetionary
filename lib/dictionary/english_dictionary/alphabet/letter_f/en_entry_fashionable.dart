@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: ڕۆژبابەت، باوی ڕۆژ، ڕۆژباو،	مۆدپەرست، مۆدباز، داب‌پەرست،	باودار، باو، بڕەومەند، بڕەودار،	لەسەرزمان، لە ئارادا
 """),
@@ -391,7 +390,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

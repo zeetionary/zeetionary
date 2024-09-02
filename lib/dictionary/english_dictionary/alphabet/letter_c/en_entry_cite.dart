@@ -128,7 +128,6 @@ class EnglishEntrycite extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ناوبردن، ناوھێنان، خوێندنەوە، گوتن
 """),
@@ -312,7 +311,6 @@ Verb: cite (derived forms: cited, cites, citing)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

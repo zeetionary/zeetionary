@@ -317,7 +317,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: ئازیز، خۆشەویست، لەبەردڵان، ژیکەڵە، دەلال، جوان، نازدار،	(لە نامەدا) خۆشەویست، بەڕێز، ئازیز، ھێژا، گران، گرانبایی، زۆربڕ،	مرۆی ژیکەڵە، لەبەردڵان،	(لە بانگ‌کردن‌دا) گیانەکەم! دنیاودینەکەم! خۆشەویستەکەم! ئازیزەکەم! کەس‌وکارەکەم! گیانی‌گیان! ئاخ! بەزیادم نەکرد! ئەح!
 """),
@@ -528,7 +527,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

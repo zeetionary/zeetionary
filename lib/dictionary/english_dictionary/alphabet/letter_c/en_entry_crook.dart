@@ -268,7 +268,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: گۆچان، داردەست،	پێچ، لاری، دانووشتاوی، قەد، خواری، کەچایی، کەچی، خواروخێچی، چەماوی،	قولاپ،	دز، چەتە،	نەخۆش،	تاوان‌کار، گوناەکار،	دەسبڕ
 """),
@@ -413,7 +412,6 @@ Usage: Austral, NZ, informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

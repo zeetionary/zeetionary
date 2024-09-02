@@ -286,7 +286,6 @@ class EnglishEntryboy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پس، کوڕ، لاو، بەچە، کوڕیژگە، مناڵکار، کوڕەکان، شاگرد، بەردەست، نۆکەر، شا، تەح، ئاخ، وەی، پیاح
 """),
@@ -583,7 +582,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

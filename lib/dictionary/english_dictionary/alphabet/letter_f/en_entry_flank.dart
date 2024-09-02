@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -178,7 +177,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: کەلەکە، خاڵێگە، پووتەگا، تەنیشت، برک، لاقەد، لاپاڵ، قەبرغە، نیڤ‌تەنگ (لەش)،	گۆشتی کەلەکە، تەڕاف،	لا، تەنیشت (خانوو)،	(سەربازی) باڵ، قۆڵ، باسک
 """),

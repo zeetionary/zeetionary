@@ -378,7 +378,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: نان، خۆراک، چێشت، ژەم، جەم، وەختی نان(خواردن)،	تفاق، ئالیک، کاوجۆ، ئاڵف،	لەوەڕین، چەرین
 """),
@@ -656,7 +655,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

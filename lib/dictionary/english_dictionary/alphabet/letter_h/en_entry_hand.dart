@@ -408,7 +408,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -423,7 +422,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دەست، دەس،	پانایی دەست، لەپ یان بەری دەس،	(سەعات و هتد) میل، دەسک،	یارمەتی، کۆمەک،	کرێکار، کارکەر،	ئەندامی دەستەی کارکەرانی کەشتی، مەلەوان،	شارەزایی، مامۆستایی، وەستایی،	بەشداری، دەس‌تیابوون، دەس‌تێوەردان، خۆتێکەڵ‌کردن،	خەت، دەس‌نووس، دەس‌وخەت،	(بەتایبەت ژن‌ومێردایەتی) بەڵێنی، بڕیار، گفت، پەیمان،	دەسەڵات، کۆنتڕۆڵ، دەس‌ڕۆیشتوویی، هێز،	سەرچاوە، چاڤکانی، ژێدەر،	یەکەی پێوان، بەرامبەر بە ٤ ئینچ (١٦/١٠ سانتی‌میتر)،	لا، دەست، ئالی،	چەپڵە، دەس‌بەیەکادان،	(پەڕێن) دەست، یاریزان، کایەچی،	(دەس)لێکدانەوە، تەوقە،	چەپڵە
 """),

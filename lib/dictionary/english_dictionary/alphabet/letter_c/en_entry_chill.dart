@@ -161,7 +161,6 @@ class EnglishEntrychill extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تەز، تەزوو، تەشق، سەقەم، سەرما(وسۆڵە)، لەرز، لەرزوتا، چەق‌وچۆ، مووچڕک، ترس‌ولەرز، سەرمابوون، باپەڕی، چایمان،	سارد، نادڵسۆز، سڕ،	ترسێنەر 
 """),
@@ -395,7 +394,6 @@ Usage: informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

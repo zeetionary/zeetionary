@@ -104,7 +104,6 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کۆنتڕۆڵ‌وانی فڕین یان نیشتنەوە
 """),
@@ -202,7 +201,6 @@ a person who is responsible for remotely monitoring and directing the movements 
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -128,7 +128,6 @@ Noun: acreage (derived forms: acreages)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -147,7 +146,6 @@ Noun: acreage (derived forms: acreages)
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئەکرپێوی، پێوانی ڕووبەر بەپێی ئەکر یان گاوەخان
 """),

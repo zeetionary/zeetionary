@@ -975,7 +975,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -990,7 +989,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بە سەر، بە کەللە، بە سەرەوە ڕۆیشتن،	بەپەلە، بەپڕتاو، هەڵەشانە، سەرچڵانە، بێ‌بیرلێ‌کردنەوە، توند
 """),

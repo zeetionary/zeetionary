@@ -99,7 +99,6 @@ class EnglishEntryallegiance extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: وەفاداری، دڵسۆزی، بەئەمەکی، پشتیوانی، داژداری، لایەنگری، ئالیگری، داکۆکی، پەیمان، بەڵێن، سۆز، گفت، لایەنگر، پشتیوان
 """),
@@ -199,7 +198,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

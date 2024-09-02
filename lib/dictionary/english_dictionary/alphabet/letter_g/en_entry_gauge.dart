@@ -220,7 +220,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ئەندازە، نمرە،	ئەستوورایی، قاڵندی،	(چەک) کالیبر،	میل، پلە،	دەزگای پێوان یان ئەندازەگرتن، ئەندازە، ئامێری پێوان،	(لە لێکدانا) ـپێو،	(ڕێگای ئاسن) مەودای نێوان دوو ڕەیل، پانایی ڕێگای ئاسن،	پێودانگ، پێوانە، پێوەر،	(دەریاوانی و کۆن) ھەڵ‌ومەرجی کەشتی باگەڕ سەبارەت بە با
 """),

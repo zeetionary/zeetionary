@@ -190,7 +190,6 @@ Noun: foil (derived forms: foils)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -205,7 +204,6 @@ Noun: foil (derived forms: foils)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: جێ‌پێ یان شەقڵ و بۆنی گیانەوەر،	بەربەست، کۆسپ، تێشکان، بەزین، تەختەکانزا، تەبەقەکانزا، پەڕەکانزا،	ڕەنگی پشت ئاوێنە،	کاغەزی ئاڵومینیۆم،	لایەنی بەرامبەر، خاڵی بەرامبەر،	(بیناسازی) گەڵا، پەڕە، چەماوی گەڵائاسا،	زێواوی پشت ئاوێنە، ڕەنگەزیوینەی پشتەوەی ئاوێنە
 """),

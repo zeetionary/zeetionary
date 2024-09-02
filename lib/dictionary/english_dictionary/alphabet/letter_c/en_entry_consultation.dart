@@ -130,7 +130,6 @@ class EnglishEntryconsultation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕاوێژکاری، ڕاوێژگەری، شیرەت، شێور، پرس‌وڕا،	کۆبوونەوەی پزشکە پسپۆڕەکان (بۆ ڕاوێژ و چارەسەری)،	کۆبوونەوەی ڕاوێژکاری،	کۆبوونەوەی فەرمی،	پیاچوونەوە 
 """),
@@ -316,7 +315,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -133,7 +133,6 @@ class EnglishEntrybluster extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گژە، گڤە، گژەگژ (دەنگی بای توند)، بای توند یان سەخت، شات‌وشووت، ھاڕەوگیفە، خۆھەڵکێشان، فڕوفیشاڵ، ھەڕەشە، گڤەلێ‌کردن، ھەڕەشە و گوڕەشە
 """),
@@ -274,7 +273,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

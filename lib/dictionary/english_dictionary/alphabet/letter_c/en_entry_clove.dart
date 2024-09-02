@@ -90,7 +90,6 @@ class EnglishEntryclove extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: داری مێخەک،	گەردە یان ھاڕاوەی مێخەک،	گوڵی وشکەوەبووی داری مێخەک، دەنک، دانە، قاش
 """),
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -280,7 +280,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -295,7 +294,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: نۆبەداری، کێشک، پاس، ئاگاداری، ئاگالێ‌بوون، پاراستن، چاودێری، زێرەڤانی، نۆبەدار، پاسەوان، کێشک‌چی، کێشک‌گر، ئاگاوان، پارێزەر،	زیندانەوان، نۆبەداری زیندان،	بەرپرسی شەمەندەفەر،	قەڵغان، مەتاڵ، پارێزە، پارێزەر، ئامێر یان وەسیلەی پاراستن
 """),

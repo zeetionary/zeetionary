@@ -266,7 +266,6 @@ class EnglishEntrybump extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پێک‌کەوتن، لێک‌کەوتن (سووک)، لێدان، مشت، چەپۆکە، پەنەمان، ماس، ماسین، ھەڵماسین، ھەڵتۆقان، دەرپەڕیوی، ھەڵتۆقیوی، چاڵی‌وچۆڵی، ناڕێکی، تەکان یان جووڵەی کت‌وپڕ (لە فڕۆکەدا)، دەنگی بامب، لەناکاو، لەپڕێکدا، کت‌وپڕانە
 """),
@@ -522,7 +521,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

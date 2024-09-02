@@ -129,7 +129,6 @@ class EnglishEntryclumsy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەڵەشە، لەرزۆک، دەس‌خاو، دەس‌گران، تەپ، تەپلۆس، داوەشاو، دەس‌سست، سست‌وپەلەشت، سستەپەلە، خاو، خرس، کنگ‌گران، خاووخلیچک،	ناشی، ناشارەزا، زلحۆ، پەڵحە،	(زلەو)نالەبار، زل، ناقۆڵا، ناجۆر، قەبە، بارناخۆش، کارناخۆش
 """),
@@ -305,7 +304,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

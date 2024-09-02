@@ -417,7 +417,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -432,7 +431,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ڕەنووس، ژمارە، ھێژمار،	بڕ (پارە)،	بایی، نرخ،	شێوە، بیچم،	کۆتەڵ، پەیکەر،	خوازە، فیگۆر، ڕاگوێست، خواستەمەنی،	خستنەڕوو، پیشان‌دان (مرۆڤ یان گیانەوەرێ)،	وێنە،	نیشانە، ھێما، کینایە،	ھێڵکاری، دیاگرام،	نەخش،	شێوەی ئەندازەیی،	قیافە، قەدوباڵا، بەژن‌وباڵا، ھەیکەل، باڵا،	کەسایەتی،	مرۆ، بنیادم، پیاو، کابرا، کەس،	(سکی، یاری سەرسەھۆڵ و ھتد) کار، جووڵە یان زنجیرە بزاوتێ،	(موسیقا) بڕگە، گۆشە،	(ویژە) ھونەر، ژمێرە، حیساب
 """),

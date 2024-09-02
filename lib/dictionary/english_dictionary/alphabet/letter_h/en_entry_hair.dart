@@ -257,7 +257,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -272,7 +271,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: قژ، تووک، پرچ، گێس، زولف، موو،	قژەکان، موو، مووەکان، تووک، تووک،	تووکی سەر،	چڵ، تاڵ،	کوڵک،	بڕێکی کەم، مەودایێکی کەم، کەم‌دوور
 """),

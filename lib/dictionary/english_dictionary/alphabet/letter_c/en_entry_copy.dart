@@ -227,7 +227,6 @@ class EnglishEntrycopy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کۆپی، ڕوونووس، نوسخە، لێ‌ھەڵگیراوە، ڕایش، ڕووە، ڕووگیراوە، فۆتۆکۆپی،	(کتێب) دانە، بەرگ، نوسخە،	(ڕۆژنامە) دانە، ژمارە، دەنک، دانە،	بابەت، مژار، نڤیسار (ڕۆژنامە و کۆڤار)،	ئاگاداری
 """),
@@ -543,7 +542,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -136,7 +136,6 @@ class EnglishEntryboiling extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: یەکجار گەرم، سووتێنەر، پیشێنەر، پڕووکێنەر، داغ، جۆش‌سەندوو، ھەڵچوو، ورووژاو، خرۆشاو
 """),
@@ -252,7 +251,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

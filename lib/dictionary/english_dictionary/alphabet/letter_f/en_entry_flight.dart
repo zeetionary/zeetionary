@@ -299,7 +299,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -314,7 +313,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: فڕین، ھێڵی فڕین، فڕینەڕێ، ڕێڕەوی فڕین،	فڕۆکە، باڵافڕ،	پەڕین، باڵ‌گرتنەوە، بازدان،	کۆچ، ڕۆیشتن،	(بۆ ئاسمان) گەشت، گەڕان،	سکادڕان، یەکە، یەکینە،	ڕێڕەوی ھەڵدان، ڕێگا، ڕێگای ھاویشتن،	پۆلەفڕێ، پۆل یان دەستەی پەلەوەر و مێرووە کۆچەرەکان، پۆلە باڵندەی گەرمێن و کوێستان‌کردوو،	زنجیرە، ڕیز،	ڕۆیشتن، تێپەڕین،	پلیکان، ڕیزەپلیکان،	(کلکی) تیر
 """),

@@ -101,7 +101,6 @@ class EnglishEntryfarafield extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لە دەشت، دوور، دوور لە، لە دوورەوە، لە ڕێگای دوورەوە، دوورەدەست، چەپەک، دوور لە نیشتیمان
 """),
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -129,15 +129,13 @@ class EnglishEntrybuddy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کاکە، دۆست، ھاوڕێ، ھەڤاڵ
 """),
                           const DefinitionKurdish(text: "١. (ناو) ھاوڕێ"),
                           SentencesRow(
                             englishText: "We were good buddies.",
-                            kurdishText:
-                                "دۆستی نزیکی یەکدی بووین.",
+                            kurdishText: "دۆستی نزیکی یەکدی بووین.",
                             onPressedBritish: () => speakbuddys1("en-GB"),
                             onPressedAmerican: () => speakbuddys1("en-US"),
                           ),
@@ -275,7 +273,6 @@ Usage: informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

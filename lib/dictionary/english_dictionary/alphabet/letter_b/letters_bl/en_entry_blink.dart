@@ -131,7 +131,6 @@ class EnglishEntryblink extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تروکە، ترپاندن، تروکەتروک، زریوەزریو، چاوەتروسکێ، چاولێکنان، تروکەی چاو
 """),
@@ -279,7 +278,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

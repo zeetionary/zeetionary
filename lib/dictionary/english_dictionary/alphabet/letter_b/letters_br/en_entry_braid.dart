@@ -131,7 +131,6 @@ class EnglishEntrybraid extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پەلکە، شریت، باریکە، پەلکەڕەنگینە، بەنۆکە، قەیتان، پەلک، پەراوێز، زنجیرە، گوڵاباتون، سەردروو
 """),
@@ -269,7 +268,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

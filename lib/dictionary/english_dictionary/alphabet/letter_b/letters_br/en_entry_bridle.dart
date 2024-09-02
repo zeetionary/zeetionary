@@ -128,7 +128,6 @@ class EnglishEntrybridle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لەغاو، ھەوسار، پاڵەنگ، لیاڤۆک، دەڤگەم، دەسەجڵەو، بزمک، ڕێشمە، سەرکەللە، گوریس و کابلی مەھار یان ڕاگرتنی کەشتی
 """),
@@ -266,7 +265,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

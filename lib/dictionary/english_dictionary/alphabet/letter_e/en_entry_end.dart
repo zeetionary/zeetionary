@@ -515,7 +515,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: کۆتایی، دوایی، ئەنجام، دووماھی، پەڕ، ئاخر، ئاکام، بن، کنگ(ە)، قنچک، بێخ،	سەر، نووک،	دوایی‌یەکان، کۆتایی‌یەکان،	لا، لایەن،	مەرگ، ئەجەل،	مەبەست، ئەنجام، ئامانج،	بەش، پارچە، پشک،	نیوەی یاریگە،	پاشماوە، بەرماوە
 """),
@@ -1058,7 +1057,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

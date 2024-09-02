@@ -132,8 +132,7 @@ class EnglishEntrybronzemedal extends StatelessWidget {
 ١. (ناو) نیشان یان میداڵی مەفرەخ؛ خەڵاتێکە بۆ کەسی سێیەم لە پێشبڕکێیەکدا)"""),
                           SentencesRow(
                             englishText: "She won (a) bronze at the Olympics.",
-                            kurdishText:
-                                "لە ئۆڵۆمپیاددا خەڵاتی برۆنزی بردەوە.",
+                            kurdishText: "لە ئۆڵۆمپیاددا خەڵاتی برۆنزی بردەوە.",
                             onPressedBritish: () => speakbronzemedals1("en-GB"),
                             onPressedAmerican: () =>
                                 speakbronzemedals1("en-US"),
@@ -226,7 +225,6 @@ A trophy made of bronze (or having the appearance of bronze) that is usually awa
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

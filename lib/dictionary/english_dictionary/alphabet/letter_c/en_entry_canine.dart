@@ -172,7 +172,6 @@ class EnglishEntrycanine extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لەسەگ‌چوو، شێوەسەگ، سەگسار، سەگ‌تیرە، سەگی، سەربە سەگ، ددانی پێشەوە، کەڵپە، کەڵبە 
 """),
@@ -303,7 +302,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

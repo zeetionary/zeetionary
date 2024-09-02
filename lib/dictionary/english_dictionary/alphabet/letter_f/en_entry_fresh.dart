@@ -320,7 +320,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -335,7 +334,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: تازە، نەو، نوێ، تەڕ، تەڕوتازە، تەڕوبڕ، ئاودار، گەش‌وتازە، گوڵ‌بەدەم،	خاوێن، تەمیز، (چێشت و ئاو) تازەلێنراو، نەماوە، تازە، کۆن نییە، نابەیات،	(ئاو) شیرین، خۆش، نەسوێر، سووک،	فێنک، سارد،	(با) توند، بەقەوەت،	بەکەیف، خۆشحاڵ، بەگوڕ، بەتین،	ڕوودار، بێ‌حەیا، بێ‌شەرم،	تازەکار، خاو، نۆکار، سەرەتا، دەسپێک، ھەوەڵ
 """),

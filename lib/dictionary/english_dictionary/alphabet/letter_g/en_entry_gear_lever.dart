@@ -128,7 +128,6 @@ Usage: Brit, Cdn (US: gearshift)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -143,7 +142,6 @@ Usage: Brit, Cdn (US: gearshift)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دەسکەگێڕ، دەسکی گێڕ، دەندەمیل، میل‌دەندە، دەسکەدەندە
 """),

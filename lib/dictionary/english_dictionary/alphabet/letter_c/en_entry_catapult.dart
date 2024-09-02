@@ -170,7 +170,6 @@ class EnglishEntrycatapult extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دارلاسیق، قۆچەقانی، کەفکانی، بەرەقانی، قاڵماسک، چەکچەکی، کەھنیک، قۆزک، مەنجەنیک، ھێلکال، ھێلکان، بەردھاوێژ، دەزگای خستن، ھەڵدەرە
 """),
@@ -308,7 +307,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

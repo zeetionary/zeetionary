@@ -132,7 +132,6 @@ class EnglishEntrybossy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زۆردار، ملھوڕ، کەڵەگا، دیکتاتۆڕ، دەسەڵات‌خواز، سەردەست، باڵادەست
 """),
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

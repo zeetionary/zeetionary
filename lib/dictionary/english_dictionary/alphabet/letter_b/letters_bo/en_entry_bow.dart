@@ -270,7 +270,6 @@ class EnglishEntrybow extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کەوان، کەمە، کەوانە (نێوان دوو سەری کەوان: ماڵ)، دەنووکە، ئاڕشە، ژێژەنە(ک)، نووشتانەوە، چەمانەوە، چەمینەوە، نووچ، گرێ قوڵفە یان خزیو، پاپیۆن، پەلکەزێڕینە، کۆلکەزێڕینە، کەسک‌وسۆر، بۆنووشتانەوە، داھاتنەو بە نیشانەی ڕێز، کڕنۆش
 """),
@@ -519,7 +518,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

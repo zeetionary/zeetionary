@@ -266,7 +266,6 @@ class EnglishEntrybottle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: شووشە، بوتڵ، شووشەی شیر، شیری وشک، شیری مانگا (لە بەرامبەر شیری دایک‌دا)، خواردنەوەی ئەڵکۆڵ، ئارەق، خواردنەوە، دڵ‌وجەرگ، وێران، کەپسوول یان لوولەکی گاز، پڕشووشەیێ، شووشەبەر
 """),
@@ -464,7 +463,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

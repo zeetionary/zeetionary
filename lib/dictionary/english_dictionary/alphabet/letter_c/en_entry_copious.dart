@@ -90,7 +90,6 @@ class EnglishEntrycopious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زۆر فرە، زۆروزەبەن، زەعف، یەکجار، زەبەن، بێ‌ھەژمار، لێشاو، فراوان، گەلێک،	پڕکار، پڕنووس (نووسەر)، بەرھەم‌زۆر،	بەربڵاو، فراوان، بەرفرەھ
 """),
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

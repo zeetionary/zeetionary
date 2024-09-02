@@ -92,7 +92,6 @@ class EnglishEntryconditioning extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ڕاھێنان، فێرکردن،	(دەروون‌ناسی) مەرجی‌کردن، فێرکردن، مەرجاندن،	گونجاندن، سازاندن، دەق‌پێدان، دەقاندن، لواندن
 """),
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

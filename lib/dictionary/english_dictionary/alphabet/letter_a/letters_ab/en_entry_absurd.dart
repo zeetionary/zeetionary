@@ -141,7 +141,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -160,7 +159,6 @@ ${englishMeaningConst.text}
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ناژیرانە، بێ‌ئەقڵانە، پڕوپووچ، بێجێ، نالۆژیکی، گاڵتەجاڕ، پێکەنیناوی، بێ‌واتا، بێ‌مانا، نەشیاو، ھیچ‌وپووچ، گەوجانە، پووچەکە، 
 """),

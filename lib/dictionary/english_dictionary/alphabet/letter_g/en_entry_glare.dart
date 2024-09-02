@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -199,7 +198,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: شەوق یان تیشکی ناخۆش و چاوھەڵنەھاتوو، شەوقی تیژ یان زەق، درەوشانەوە، گەشانەوە، بریقانەوە، ورشە، بریقە، ڕۆشنایی یان تیشکی تیژ و زۆر
 """),

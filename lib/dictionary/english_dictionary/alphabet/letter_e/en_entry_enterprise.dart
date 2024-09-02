@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: کار، کردەوە، کردە، دەس‌تێدان،	مەترسی‌کاری، وێران، بێ‌باکی، دڵ‌وجەرگ، دڵ، نەترسی، غیرەت، کردەوەی نەترسانە، کاری گرنگ یان پڕمەترسی،	پڕۆژەکاری، چالاکی کارداری،	(کاری) دووبەختەکی، مەترسی،	کار و کاسپی، سەودا،	کۆمپانی، نێوکۆیی، دامەزرە، دەزگا
 """),
@@ -383,7 +382,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

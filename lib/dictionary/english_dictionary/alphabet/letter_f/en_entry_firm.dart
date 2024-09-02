@@ -304,7 +304,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -319,7 +318,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پتەو، تۆکمە، قایم (نە زۆر و نە کەم)، جێگیر، بەھێز، سەخت، نەلەق، پێ‌بەجێ، سەقامگیر، چەقیو، ڕەق، توند، ڕۆنەچوو، دانەدەر،	بەڕشت، شێلگر، (لەسەر)سوور، بڕا، پتەو، بەبڕیار،	یەکلایی‌کەرەوە، لێبڕاوانە،	بەوەفا، بەئەمەگ، یەکلایی،	پتەو، بەبیروباوەڕ، تۆکمە،	لێ‌ڕابینراو، باوەڕپێکراو، بەڵگەنامەیی، جێ‌متمانە،	تەواو، ڕەبەق،	سەقامگیر، جێگیر (پارە، دراو و ھتد)، پتەو، تۆکمە، یەکلایی‌کەرەوانە، لێبڕاوانە
 """),

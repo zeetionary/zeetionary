@@ -91,7 +91,6 @@ class EnglishEntrycinder extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەرەبزووت، بزووت، خەڵووزی یان داری سەرەبزووت،	کۆزەر، کۆزەرە، خڵتە (تواندنەوەی کانزا)،	سکڵ، پەنگر، پشکۆ، خۆڵەمێش، بوور، ژیلەمۆ
 """),
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

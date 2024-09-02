@@ -135,7 +135,6 @@ class EnglishEntrybale extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گورزە، تا، تایە، بەستە، مۆچ، بەستەک، تۆپ، کۆما، لۆدە، کۆگا، کوا، بەڵا، ڕەنج، بەدبەختی، ئاپۆر، نەھامەتی، مەینەتی
 """),
@@ -266,7 +265,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

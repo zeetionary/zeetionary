@@ -964,7 +964,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -979,16 +978,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: سەرنج(پێدان)، وردبوونەوە، بەهێندگرتن، لالێدانەوە، گوێ‌پێدان، بەتەنگەوەبوون، بەخەم‌بوون، گوێ‌لێ‌ڕاگرتن
 """),
 // With short examples define "heed", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) پێدانی سەرنجی تایبەت بە ڕاوێژ و ئاگاداریی کەسێک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) پێدانی سەرنجی تایبەت بە ڕاوێژ و ئاگاداریی کەسێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: notice"),
                     SentencesRow(
-                      englishText: """They failed to heed the lessons of history.""",
-                      kurdishText: """شکستیان هێنا پەند لە وانەکانی مێژوو وەربگرن.""",
+                      englishText:
+                          """They failed to heed the lessons of history.""",
+                      kurdishText:
+                          """شکستیان هێنا پەند لە وانەکانی مێژوو وەربگرن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -997,7 +999,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """If only they had heeded his warnings!""",
-                      kurdishText: """ئەگەر تەنها گوێیان بە ئاگادارییەکانیان بدابا!""",
+                      kurdishText:
+                          """ئەگەر تەنها گوێیان بە ئاگادارییەکانیان بدابا!""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

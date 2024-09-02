@@ -252,7 +252,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: داوا، داخوازی، پاڕانەوە، تکا،	ھان‌دان، تین‌دان،	ڕاسپاردن، ئامۆژگاری‌کردن، نەسێحەت، شیرەت‌کردن،	ناچارکردن، پێکردن (بە ئامۆژگاری)، پێداگرتن، سووربوون
 """),
@@ -332,7 +331,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

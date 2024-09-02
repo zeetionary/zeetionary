@@ -100,7 +100,6 @@ class EnglishEntryagonized extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ئازارچێشتوو، مەینەت‌بار، ئازاردیتوو، مەینەتی‌دیتوو، مەینەتی‌بەسەرھاتوو، دەردچێشتوو، ناڕەحەتی‌دیتوو، بەژان، بەسوێ، بەئێش
 """),
@@ -198,7 +197,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

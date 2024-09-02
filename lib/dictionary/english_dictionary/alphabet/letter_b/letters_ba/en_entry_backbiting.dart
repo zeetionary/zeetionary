@@ -135,7 +135,6 @@ class EnglishEntrybackbiting extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: غەیبەت، قسەی پاشملە، زەم، غەیبەت کردن
 """),
@@ -234,7 +233,6 @@ Noun: backbiting (derived forms: backbitings)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

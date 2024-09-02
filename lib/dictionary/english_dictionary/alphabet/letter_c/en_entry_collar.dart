@@ -113,7 +113,6 @@ class EnglishEntrycollar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: یەخە، پێسیر، گوجو، دۆرک، بەرۆک، بەرکۆژە، ملشۆ، ملەوان، ملیوان،	ملڤان، قەڵاتە، قەڵانگ، ملوێنک، گوێرەوسار، ڕست، زۆڵ، کەڵێن، تەوق، تۆق،	گۆشتی مل،	بەست، ئاڵقە، بەند، لێک‌ھەڵپێک، دەوربەست
 """),
@@ -289,7 +288,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

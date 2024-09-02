@@ -107,7 +107,6 @@ class EnglishEntrycoalition extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھاوبەندی، ھەڤال‌بەندی، ھاوپەیمانی، ھاوپەیمانی کاتی (نێوان پارتە سیاسی‌یەکان بە مەبەستی دامەزراندنی حکومەتێ)،	حکومەتی ھاوبەندی،	تێک‌ھەڵکێشان، کردنەیەک
 """),
@@ -253,7 +252,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

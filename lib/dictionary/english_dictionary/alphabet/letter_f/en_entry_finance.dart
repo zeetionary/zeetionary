@@ -253,7 +253,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -268,7 +267,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بەڕێوەبەرایەتی (کاروباری) دارایی،	توانایی ماڵی یان دارایی، پارە، سەرمایە،	بودجە، دابین‌کردنی بودجە،	دارایی،	سەرمایەنانەوە، دابین‌کردنی سەرمایە،	پاەرەدان، پارەبەقەرزدان، سەرچاوە دارایی‌یەکان، دارایی، دەسمایە
 """),

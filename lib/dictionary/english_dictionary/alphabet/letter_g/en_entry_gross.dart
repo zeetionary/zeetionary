@@ -214,7 +214,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: تێکڕای، سەرجەم،	(زۆر) قەڵەو، گمتە، زلە، ناقۆڵا، ناھەموار، ناتەرز، قەبە، نالەبار، زەلام،	لەڕەوشت بەدوور، خراپ، ناحەز، ناشیرین، عەیب، ھەرزانە، بێ‌شەرمانە، ئاشکرا، دیار، بەرچاو،	زبر، (تەن)درشت،	توند، ڕەق،	پەسندنەکراو، لەپاساونەھاتوو، نەبەخشراو،	ناپوختە، ناپەتی، تێکەڵ،	(ڕووەک) چڕ، پڕ، بەیەکاداو،	(چێشت) توند
 """),

@@ -174,7 +174,6 @@ class EnglishEntrybackward extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پشتەوە، دواوە، بۆ دواوە، بەرەوپاش، بەرەودوا، خاو، تەمەڵ، دواکەوتوو، پاش‌کەوتوو، کەم‌ڕوو، شەرمێون، بۆ پشتەوە، بۆ دواوە، بەرەو پشتەوە، بەرەو دواوە، بەرەوپاش، بەرەودوا، ڕوو لە پشتەوە، بەرەو خراپی، ئاوەژوو، سەرەونخوون، پشتەوپاش، پێچەوانە، پاشەوپاش، پشتاوپشت، لە ئاخرەوە، لە دواوە
 """),
@@ -378,7 +377,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

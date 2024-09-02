@@ -285,7 +285,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: کەم‌بوونەوە، داشکان، ھاتنەخوارێ، داچوون، داکەوتن، داقنین، تیاچوون، نەمان، نزمەوەبوون، فاق‌دان، فشەڵ‌ھێنان، پاش‌داچوون، دانەدواوە، لێژبوونەوە، داخزان، دابەزین، پووکانەوە، پووچانەوە
 """),
@@ -451,7 +450,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

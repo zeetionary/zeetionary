@@ -146,7 +146,6 @@ class EnglishEntryapathetic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کەمتەرخەم، نادەربەست، بێ‌دەربەست، دڵسارد، ساردوسڕ، دڵ‌مردوو، بێ‌تاقەت، خەمسار، ناھومێد، بێ‌ھیوا، بێ‌ھەست
 """),
@@ -249,7 +248,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

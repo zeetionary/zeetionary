@@ -121,7 +121,6 @@ class EnglishEntrycharity extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خۆشەویستی، دڵسۆزی، دڵ‌گەورەیی، دڵ‌فراوانی، پشوودرێژی، سنگ‌فراوانی، لێبوردەیی،	چاکەکاری، دەسگرتن، خێرەومەندی، خێرخوازی، خێر، خێرات،	یارمەتی، کۆمەک،	ڕێکخراوە یان دامەزراوەی خێرخوازی 
 """),
@@ -280,7 +279,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

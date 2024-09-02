@@ -115,7 +115,6 @@ class EnglishEntrycontraction extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: چوونەیەک، ھاتنەیەک، ھاوکێشی، یەک‌ترکێشی، چرچ‌ھەڵاتن، کرژبوون، ھەڵقرچان، کۆبوونەوە، کۆوەبوون، وێکھاتن، چکۆلەبوونەوە، تێک‌ترنجان، ھەڵقرچاندن، کرژاندن، وێکھێنان،	کورتە، وشەی کورتەوەکراو، تێک‌ھەڵکێشراو، شێوەی کورتەوەبووی وشەیێ،	ژانەبوون، ژان‌وبرک، ژان‌وژۆ (مناڵ‌بوون)،	بێ‌بازاڕی، کەسادی،	(نەخۆشی) تووش‌بوون، دوچاربوون، گرتن، پیاپێ‌کران
 """),
@@ -275,7 +274,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

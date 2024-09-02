@@ -227,7 +227,6 @@ class EnglishEntrybind extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەند، پێوەندی، تێکەڵی، کێشە، گێچەڵ، جەنجاڵی، دەردی‌سەری، بارودۆخی ئاڵۆز
 """),
@@ -458,7 +457,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

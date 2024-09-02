@@ -134,7 +134,6 @@ class EnglishEntrybenevolence extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: نیازباشی، چاکەکاری، خێرخوازی، کردەوەی خێرخوازانە، کاری چاکە، پیتاک، باربۆ، یارمەتی، کۆمەک
 """),
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

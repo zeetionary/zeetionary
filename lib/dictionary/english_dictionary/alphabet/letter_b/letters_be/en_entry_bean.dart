@@ -133,7 +133,6 @@ class EnglishEntrybean extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پاقلە، لوبیا، فاسۆلیا، ڕووەکی لوبیا، سەر، مێشک، دەماخ، مەژی
 """),
@@ -281,7 +280,6 @@ Usage: N. Amer, informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

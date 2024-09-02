@@ -225,7 +225,6 @@ class EnglishEntrybowl extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کاسە، یەخنی‌کێش، جام، بایە، قاپ، کاشی، دەفر، پیاڵە، تاس، قووڵایی، چاڵایی (کەوچک)، ئامفی‌تیاتر، ستادیۆم (بۆ ڕووداوی وەرزشی یان میوزیکی)، (جوگرافیا) گۆلاوی سروشتی، بۆڵینگ، تۆپی (دارین) بۆلینگ
 """),
@@ -429,7 +428,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

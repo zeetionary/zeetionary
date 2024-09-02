@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -217,7 +216,6 @@ ${englishMeaningConst.text}
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لەسەر، لەژوور، لەبان، لە ئاسمان، لەسەرووی، لەژوور سیفر، باڵا، ژوورسەر، بەژوور، بان‌سەر، ژوورتر، بان‌تر، زۆرتر لە، پتر لە، زیاتر لە، گەورەتر، پێش‌تر، سەروو، سەرتر (کتێب و نووسراوە)
 """),

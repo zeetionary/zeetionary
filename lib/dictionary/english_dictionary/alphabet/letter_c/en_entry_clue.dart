@@ -131,7 +131,6 @@ class EnglishEntryclue extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سەرەداو، سەرەپەت، سەرەتا، سەرەتاڵ، سەرڕستە، سۆراغ، زانیاری، ئاگاداری، ھەواڵ،	نیشانە، شەقڵ
 """),
@@ -302,7 +301,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

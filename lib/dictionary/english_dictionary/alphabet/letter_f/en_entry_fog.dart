@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -193,7 +192,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: (تەم‌و)مژ، دوومان، مۆران، تومان، چەمان، تەم،	دووکەڵ، دوومان،	ھەور،	(وێنە) سووتان، تاریک‌ھاتن،	تاریکی، لێڵی، ناڕۆشنی،	پەشۆکان، سەرلێ‌شێوان، شڵەژان
 """),

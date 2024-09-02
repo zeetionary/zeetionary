@@ -306,7 +306,6 @@ class EnglishEntryclean extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پاک، خاوێن، تەمیز، بێ‌زیان، بێ‌پەڵە، پاقژ،	بێ‌لکە، بێ‌پەڵە،	تازە، نەو، نوێ،	سپی، نەنووسراو، بێ‌نیشان، بەکارنەھێنراو (کاغز)،	بەڕەوشتانە، بەئابڕووانە، ناھەرزانە،	دیار، ئاشکرا، ڕۆشن، ڕوون،	حەڵاڵ، حەڵاڵ گۆشت،	ڕێک‌وپێک، سادە، ساف، تەخت، لووس، ڕێک، تەکوز،	قانوونی،	دادپەروەرانە، جوامێرانە، پیاوانە،	بێ‌فڕوفێڵ، بێ‌خەوش، بێ‌گەرد، بێ‌ھەڵە، باش، پاک، بێ‌گوناھـ، بێ‌سووچ،	وەستایانە، شارەزایانە،	تەواو، ڕەبەق،	بێ‌تیشکدانەوەی ڕادیۆئەکتیڤ یان کەم‌بەرھەم‌ھێنەری تیشکە چالاکەکان (ڕادیۆئەکتیڤ یان چەک‌وچۆڵی ناوکی)،	لەبار، گونجاو،	بەبۆن و بەرام، بۆن‌خۆش، بەتام، بەتەواوەتی، تەواو، پاکی، خاوێنی، تەمیزی، پاقژی، خاوێن‌کردنەوە، سڕین، تەمیزکردن
 """),
@@ -826,7 +825,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

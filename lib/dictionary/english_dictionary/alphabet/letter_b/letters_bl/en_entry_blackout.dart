@@ -134,7 +134,6 @@ class EnglishEntryblackout extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تاریکی، چراکوژانەوە، لە ھۆش‌چوون یان لەبیرچوونەوەی کاتی، سانسۆڕ
 """),
@@ -286,7 +285,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -100,7 +100,6 @@ class EnglishEntryconjunction extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (ڕێزمان) پیت یان تیپی پێوەندی، پیتی پێکەوەبەست(ن) یان بەستنەوە، پیتی لێکدەر، وشەلێکدەر،	یەکخستن، دانەدەم، تێک‌ھەڵکێشان، لێکدان، یەک‌گرتن، خستنەسەر، پێک‌بەستراوی، پێکەوبەستراوی، پێک‌بەستی، پێوەست‌بوون، 	(ئەستێرەوانی) جووت‌بوون،	ھاوکاتی، ھاوشوێنی 
 """),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

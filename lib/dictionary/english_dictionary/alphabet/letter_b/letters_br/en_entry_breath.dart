@@ -284,15 +284,13 @@ class EnglishEntrybreath extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەناسە، بین، پشوو، دەم، فوو، مڵەما، نەز، شنە، سریوە، نیشانە، شەقڵ، شوێن، دەم، سات
 """),
                           const DefinitionKurdish(text: "١. (ناو) ھەناسە"),
                           SentencesRow(
                             englishText: "His breath smelt of garlic.",
-                            kurdishText:
-                                "ھەناسەی بۆنی سیری دەدا.",
+                            kurdishText: "ھەناسەی بۆنی سیری دەدا.",
                             onPressedBritish: () => speakbreaths1("en-GB"),
                             onPressedAmerican: () => speakbreaths1("en-US"),
                           ),
@@ -536,7 +534,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

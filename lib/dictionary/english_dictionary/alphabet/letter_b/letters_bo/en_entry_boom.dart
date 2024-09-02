@@ -149,7 +149,6 @@ class EnglishEntryboom extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زۆربوونی کت‌وپڕ، بووژانەوە، تۆقینەوە، سەروبەند یان قۆناخی گەشە(کردن)، ھەڵدان، ئاوەدانی، گەشەونەشە، زرمە، زرم، گرمە، نەڕە، قۆڕە، قیڕە
 """),
@@ -356,7 +355,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

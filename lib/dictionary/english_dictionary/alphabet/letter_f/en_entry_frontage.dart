@@ -137,7 +137,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -152,7 +151,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: لا، بەر، ڕووکار، پانایی پێشەوەی خانووبەرە، پێشەخانوو، لای پێشەوەی خانوو،	ڕوو،	دیمەن،	گوێ، پاڵ، کەنار، دەم
 """),

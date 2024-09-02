@@ -138,7 +138,6 @@ class EnglishEntryankle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: قولەپێ، قولاپە، قولەپا، گوێزینگ، گۆزینک، قول
 """),
@@ -250,7 +249,6 @@ Usage: N. Amer, informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

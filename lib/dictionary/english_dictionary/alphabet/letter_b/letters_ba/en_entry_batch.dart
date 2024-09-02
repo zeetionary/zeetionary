@@ -135,7 +135,6 @@ class EnglishEntrybatch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تەنوورێ، چین، دەستەوار، بەر، بەرھەمی یەکجار لێ‌نیشتن (نان، کەیک و ھتد)، بەرەلێ‌نیشتن، تیپ، کۆمەڵ، دەستە، گروپە
 """),
@@ -265,7 +264,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -163,7 +163,6 @@ Usage: informal
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -178,7 +177,6 @@ Usage: informal
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دڵسۆز، دڵنەرم، بەبەزەیی، دڵنەوا،	گەورە، لە ڕووی گەورەیی یان پیاوەتی‌یەوە، بەسەرکەرەوە،	(خودا) دڵوڤان، بەدەھندە، بەڕەحم،	بەڕەوشتانە،	شایانە، بەشکۆ
 """),

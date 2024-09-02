@@ -234,7 +234,6 @@ Inspiring awe, admiration or wonder (= amazing, awesome, awful [archaic], awing,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

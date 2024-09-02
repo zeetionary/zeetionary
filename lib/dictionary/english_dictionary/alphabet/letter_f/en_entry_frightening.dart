@@ -144,7 +144,6 @@ The act of inspiring with fear (= terrorization, terrorisation [Brit])
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -159,7 +158,6 @@ The act of inspiring with fear (= terrorization, terrorisation [Brit])
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ترسێنەر، ترسناک، جێی‌ترس، تۆقێنەر
 """),

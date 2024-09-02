@@ -163,7 +163,6 @@ class EnglishEntrychat extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گاڵتەوگەپ، دەمەتەقێ، دووان، شۆخی، قسە، ئاخافتن، وت‌ووێژ یا قسەی دۆستانە،	چەنەدان، چەقەسرۆیی
 """),
@@ -388,7 +387,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

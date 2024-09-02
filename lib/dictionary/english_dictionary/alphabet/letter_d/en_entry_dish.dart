@@ -288,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: قاپ، دەوری، کاسە، جام، بایە،	چێشت، نان، خۆراک،	ئانتێنی کاسەیی، سێڵ یان ساج،	نافەرمی تیکە، جەرگ، لەبار، سێکسی،	(تکنیکی) قاپ، جام، قاپ‌وکەوچک، قاپ‌وقاچاخ، ھێربار، حاجەت
 """),
@@ -469,7 +468,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

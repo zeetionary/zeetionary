@@ -99,7 +99,6 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کاپ‌بۆردی وشک‌کەرەوەی جل، دۆڵابی بەرگ وشک‌کەرەوە، دۆڵابی بەرگ وشک‌کردنەوە
 """),
@@ -199,7 +198,6 @@ Usage: UK
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

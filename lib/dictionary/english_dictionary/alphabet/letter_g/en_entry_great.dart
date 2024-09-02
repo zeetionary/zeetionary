@@ -468,7 +468,7 @@ ${englishMeaningConst.text}
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
@@ -485,7 +485,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -500,7 +499,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: مەزن، گەورە، گەپ، زلە، زەلام،	گرنگ،	زۆر، فرە، زەبەند، گەلێک،	چاک، باش، قەنج، یەکجار باش، زۆر چاک، بێ‌ھاوتا،	بەکەیف، دڵخۆش،	شارەزا، سەرەندەرکردوو،	خۆش، بەتاسە، تامەزرۆ، بەپەرۆش
 """),

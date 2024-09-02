@@ -196,7 +196,6 @@ class EnglishEntrybitter extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: تاڵ، توند، تیژ، ناخۆش،  ناخۆش و زۆرسارد (ھەوا)، ڕق‌ھەستاو، تووڕە، ناڕەحەت، ئاوجۆی تاڵ، بیرەی خەست، سەختی، کوێرەوەری، کڵۆڵی، مەینەتی، بەدبەختی
 """),
@@ -412,7 +411,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

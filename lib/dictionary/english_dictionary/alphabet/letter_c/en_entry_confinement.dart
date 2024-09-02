@@ -99,7 +99,6 @@ class EnglishEntryconfinement extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زیندان، گرتووخانە، بەندی‌خانە، حەپس،	گلدانەوە، دەس‌بەسەری، ڕاگرتن، گێڕانەوە، گرتن،	مناڵ‌بوون،	دیاری‌کردن، دەس‌نیشان‌کردن،	سنووداری، بەرتەنگی
 """),
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

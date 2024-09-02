@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -1008,7 +1007,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: لێنەوین، بەرزکردنەوە، هەڵکێشان،	خستن، هاویشتن، تووڕهەڵدان، حەودان،	تەکان، گوڕم،	(دەریا) شەپۆلاوی‌بوون،	جێگۆڕکێی ڕەگ یان چینەکانی زەوی
 """),

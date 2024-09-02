@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -189,7 +188,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
 // کوردی: تووز، چووز، پەیوەند، متوربە، پەیوەست،	جێگای متوربە، فتروونە، پەیوەستگا،	نەمام، چووز، خەڵف، قەڵەمە،	ڕووەکی متوربەکراو، پارتی‌بازی،	بەرتیل، بەرتیل‌خۆری، دزی، دەسکیسی، کاری گران یا سەخت، کردوکۆش، ھەوڵ، چنگەکڕێ، کڕناوکڕن
 // """),

@@ -706,7 +706,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -721,7 +720,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ئازاد، سەرازا، سەربەست، سەربەخۆ، سەربەستانە، ئازادانە، بەردراو، بەڕەڵا، نەبەسراو، پەت‌نەکراو، بەربەڕەڵا، شل، ڕەھا،	تەرخان، بەخشراو، جەبە(کراو)،	(لە لێکدانا) بێـ، بەتاڵە لە، خاڵی لە،	خۆڕایی، بێ‌پارە، مفت، بەلاش،	کراوە، دانەخراو، ئاواڵە،	بەدەس‌ودڵ، دڵاوا، بەدەھندە،	ڕەوا، ڕێگەدراو، کۆنتڕۆڵ‌نەکراو،	(کورسی) بەتاڵ، نەگیراو، خاڵی،	(کیمیا) لەگەڵ توخمی تر لێک‌نەدراوە،	قسەلەڕوو،	بێکار، بێ‌ئیش، دەس‌بەتاڵ، ئازاد،	بە خۆڕایی، بەلاش، بێ‌مز،	ئازادانە، سەربەستانە
 """),

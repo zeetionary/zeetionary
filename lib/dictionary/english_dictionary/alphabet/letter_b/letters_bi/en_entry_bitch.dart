@@ -134,7 +134,6 @@ class EnglishEntrybitch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دێڵ، دێڵەسەگ، مێ یان دێڵی گورگ، ڕێوی، سمۆری ئاوی، سکاڵا، پرتەوبۆڵە، کێشەنەرەوە، بێ‌حەیا، ژنی ھەرزە و لەش‌فرۆش، سەڵیتە
 """),
@@ -301,7 +300,6 @@ Usage: informal
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

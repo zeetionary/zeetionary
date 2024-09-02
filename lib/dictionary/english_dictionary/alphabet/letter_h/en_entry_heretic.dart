@@ -87,14 +87,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""When he began to enunciate his views, Friedman was largely considered a heretic.""");
+    await flutterTts.speak(
+        """When he began to enunciate his views, Friedman was largely considered a heretic.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They learned how Catholics persecuted heretics in the Middle Ages.""");
+    await flutterTts.speak(
+        """They learned how Catholics persecuted heretics in the Middle Ages.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -962,7 +964,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -977,15 +978,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بیدعەت‌دانەر، لەدین‌لادەر، لەئایین‌لاداو، جیاباوەڕ، هەڵگەڕاوە، جیابیر، جودابیر
 """),
 // With short examples define "heretic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) کەسێک کە باوەڕی بە شتانێک هەیە کە جیاوازە لە باوەڕی ئایینی یان باوەڕی زۆرینە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە باوەڕی بە شتانێک هەیە کە جیاوازە لە باوەڕی ئایینی یان باوەڕی زۆرینە"""),
                     SentencesRow(
-                      englishText: """When he began to enunciate his views, Friedman was largely considered a heretic.""",
-                      kurdishText: """کە جەختی لە دیدەکانی کردەوە، فریدمان بە زۆری بە جیاخواز دانرا.""",
+                      englishText:
+                          """When he began to enunciate his views, Friedman was largely considered a heretic.""",
+                      kurdishText:
+                          """کە جەختی لە دیدەکانی کردەوە، فریدمان بە زۆری بە جیاخواز دانرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -993,8 +997,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They learned how Catholics persecuted heretics in the Middle Ages.""",
-                      kurdishText: """فێربوون لەسەر ئەوەی چۆن کاسۆلیکەکان لەدین‌لادەرەکانیان سەرکوت دەکرد لە سەدەکانی ناوەڕاست.""",
+                      englishText:
+                          """They learned how Catholics persecuted heretics in the Middle Ages.""",
+                      kurdishText:
+                          """فێربوون لەسەر ئەوەی چۆن کاسۆلیکەکان لەدین‌لادەرەکانیان سەرکوت دەکرد لە سەدەکانی ناوەڕاست.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

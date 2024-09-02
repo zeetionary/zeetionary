@@ -136,7 +136,6 @@ class EnglishEntryban extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەربەندێتی، نەلێ‌کردن، ڕێگرتن، نەھێشتن، قەدەخە، بەربەنداندن، قەدەخاندن، قەدەخەکردن، تەکفیر، ڕتان، لەعنەت
 """),
@@ -291,7 +290,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

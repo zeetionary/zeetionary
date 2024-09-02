@@ -444,7 +444,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: مردوو، گیان‌دەرچوو، نازیندوو، بێ‌گیان، بێ‌جان، بێ‌ڕۆح، تیاچوو، مردوو،	لەباوکەوتوو، کۆن،	(گژوگیا و ھتد) وشک، وشک‌ھەڵگەڕاو،	کوژاوە، دامردوو، داکوژاو، دامرکاو، ناچالاک،	وەڕەس‌کەر، عاجزکەر، ناخۆش، دڵتەنگ،	بێ‌جم‌وجۆڵ، بێ‌چالاکی، کڕ، مات، سرەوتوو، داکوژاو،	بەکارھێنراو، لەکارکراو،	تەواوبوو، دوایی‌پێ‌ھاتوو،	تەواو، دروست، ڕەبەق،	تەزیو، سڕ، کەسیرە(کەوتوو)، ھەڵوەریو،	ماندوو، شەکەت، ھیلاک، لەکارکەوتوو، پەک‌کەوتوو، خراپ‌بوو،	(دەنگ) گیراو، نووساو، دەرنەھاتوو،	(ڕەنگ) سارد، ناگەش، ناڕۆشن، تەڵخ، مات،	گیراو، بەستراو،	ڕاستەوخۆ، سەرڕاست، ڕاست،	کت‌وپڕ، لە ناکاو.	بە تەواوەتی، بە گشتی،	بنیادەمی مردوو، مەیت،	بێ‌دەنگی
 """),
@@ -835,7 +834,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

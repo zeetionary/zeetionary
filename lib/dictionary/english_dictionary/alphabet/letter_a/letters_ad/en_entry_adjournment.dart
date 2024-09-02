@@ -99,7 +99,6 @@ class EnglishEntryadjournment extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دواخستن، پاش‌خستن، خستنەدواوە، ڕاگرتن، ڕاوێستاندن (بۆ ماوەیێ)، پشوو، وچان، ماوەی پشوو
 """),
@@ -198,7 +197,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

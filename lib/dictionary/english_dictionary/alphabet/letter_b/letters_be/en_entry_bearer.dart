@@ -135,7 +135,6 @@ class EnglishEntrybearer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھەڵگر، گەیێنەر، گەیەنەر، خاوەن، خودان، پەیام‌گەیێن، ڕاسپاردە، نامەبەر، بارھەڵگر، داری بەبەر یان بەردار، ئادان
 """),
@@ -284,7 +283,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

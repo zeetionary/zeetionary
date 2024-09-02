@@ -342,7 +342,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: زیادی، سەربار، ناپێویست، زیاد، زۆرتر لە ئاسایی، لە ڕادەبەدەر، لە ئەندازبەدەر، یەکجار زۆر، یەکجار، سەرەڕای، سەرباری، لەگەڵ ئەوەش‌دا
 """),
@@ -554,7 +553,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -139,7 +139,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -154,7 +153,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: چین،	پەراوێزی چین‌چین یان چین‌دار،	(گیانەوەرناسی، ڕووەک‌ناسی) ڕیشکۆ، ڕیشوو،	(frills) شت‌ومەکی جوانی، شتی دێدی‌وبۆدی، گێزوگوڵنگ، دیکۆڕ،	زریقەوبریقە، ئالاوواڵا
 """),

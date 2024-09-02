@@ -19,7 +19,7 @@ class BookmarksScreen extends StatelessWidget {
           padding: EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
           child: Column(
             children: [
-              CustomTabBarBookmarks(
+              CustomTabBarNoPrefferedSize(
                 tabs: [
                   UkIconForBookmarksTab(),
                   KurdIconForBookmarksTab(),

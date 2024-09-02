@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: زەوی‌وزار، مڵک، زەوی، خاک، زەمین،	شارۆچکە (پێشکەوتوو)،	میرات، کەلەپوور،	دارایی، ماڵ، سامان، ھەیەونییە،	پلەوپایە، پۆست، پێگە،	دۆخ، ڕەوش، کاودان، بارودۆخ،	گروپی سیاسی یان ڕامیاری،	چێنی کومەڵایەتی
 """),
@@ -367,7 +366,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

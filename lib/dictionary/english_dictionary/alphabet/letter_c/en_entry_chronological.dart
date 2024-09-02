@@ -92,7 +92,6 @@ class EnglishEntrychronological extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کاتی، ڕێکخراو، بەڕیز (ڕووداوەکان)، بەڕیزرێکخراو، بەڕیزدانراو، زنجیرەمەند لەباری میژوویی‌یەوە، بەپێی ڕیزبەندی کات و زەمان
 """),
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

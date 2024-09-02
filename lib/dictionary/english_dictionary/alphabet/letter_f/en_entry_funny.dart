@@ -232,7 +232,6 @@ Noun: funny (derived forms: funnies)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -247,7 +246,6 @@ Noun: funny (derived forms: funnies)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: پێکەنینی، پێکەنیناوی، خۆش، قۆڕ، بەزم،	سەیر، سەمەرە،	نەخۆش، ناساز،	نیوەشێت، گێژ، حەپۆل،	گوماناوی، گومان‌لەسەر، جێی‌شک
 """),

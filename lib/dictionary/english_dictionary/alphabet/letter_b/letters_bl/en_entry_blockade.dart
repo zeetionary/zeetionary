@@ -134,7 +134,6 @@ class EnglishEntryblockade extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گەماڕۆ، دەوردان، ئابڵۆقە (دەریا)، ھێزی گەماڕۆدان، نەھێشتنی چوونەنێو و دەرەوەچوون، لەمپەر، بەربەست، کۆسپ، ڕێبەند
 """),
@@ -289,7 +288,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -260,7 +260,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -275,7 +274,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: گاز،	ھەڵم،	گازی بێھۆش‌کەر، گازی سڕکەر،	گازی ژاراوی،	(لەئەمریکا) بێنزین، بەنزین، قسەی قۆڕ، فڵتە، لاف،	باوبژ، تڕوتس، بای ناوزگ
 """),

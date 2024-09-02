@@ -139,7 +139,6 @@ class EnglishEntryanaesthetic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: دەرمانی بێ‌ھۆشی یان بێ‌ھەستی یان سڕی، بێ‌ھۆش‌داڕوو، بەنگ، بەنج، بێ‌ھۆش‌کەر
 """),
@@ -248,7 +247,6 @@ Usage: Brit, Cdn (US: anesthetic)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

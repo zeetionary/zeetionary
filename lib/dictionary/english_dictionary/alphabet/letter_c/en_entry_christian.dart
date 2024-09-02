@@ -105,7 +105,6 @@ class EnglishEntrychristian extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: کریستیەن، دیانی، فەلە، مەسیحی، عیسایی، خرستیان، خریستیان،	سەربە مەسیحی‌یەکان یا مەسیحیەت،	مرۆڤانە،	کەسێکی دیانی یان مەسیحی،	مرۆڤی بەڕێز و باش، پیاوچاک
 """),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -121,7 +121,6 @@ class EnglishEntryclamp extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گیرە، مەنگەنە، تەوەرە،	بەست، بەند، بۆڕ،	(لە چەرخی درومان‌دا) دەرزی‌گیر، کۆما، لۆدە، کۆگا
 """),
@@ -289,7 +288,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

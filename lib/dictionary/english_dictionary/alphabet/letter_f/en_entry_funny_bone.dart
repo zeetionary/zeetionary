@@ -127,7 +127,6 @@ Usage: Brit, Cdn (US: crazy bone)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -142,7 +141,6 @@ Usage: Brit, Cdn (US: crazy bone)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ئێسکی ئانیشک، کنگە ئانیشک
 """),

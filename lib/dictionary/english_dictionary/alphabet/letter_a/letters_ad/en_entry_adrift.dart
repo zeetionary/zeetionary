@@ -98,7 +98,6 @@ class EnglishEntryadrift extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: سواراو، سەراوکەوتە، ئازاد، بەڕەڵا، وێڵ، لەسەرئاو، نەبەسراو، بێ‌ئامانج، بێ‌مەبەست، وەک تەختەی سەرئاو، بەدەم شەپۆلەوە، سەرلێ‌شێواو، کۆنتڕۆڵ‌نەکراو، بێ‌مەھار
 """),
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

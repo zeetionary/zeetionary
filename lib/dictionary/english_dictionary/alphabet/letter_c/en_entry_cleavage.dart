@@ -100,7 +100,6 @@ class EnglishEntrycleavage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: داقڵیشاندن، داتڵیشاندن،	تڵیش، قەڵەش، قڵیش، شەق، درز، کەلێن، کەلەبەر،	دابەش‌بوون،	دووبەرەکی، جیاوازی، ناکۆکی،	درز یا قڵیشی مەمک یا سینگ (ژنان)
 """),
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

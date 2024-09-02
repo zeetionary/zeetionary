@@ -127,7 +127,6 @@ Usage: US (elsewhere: fibreglass)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -142,7 +141,6 @@ Usage: US (elsewhere: fibreglass)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ڕیشاڵی شوشە، پەشمی شیشە
 """),

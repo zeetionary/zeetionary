@@ -10,7 +10,8 @@ class EnglishEntryheterosexual extends StatefulWidget {
   const EnglishEntryheterosexual({super.key});
 
   @override
-  State<EnglishEntryheterosexual> createState() => _EnglishEntryheterosexualState();
+  State<EnglishEntryheterosexual> createState() =>
+      _EnglishEntryheterosexualState();
 }
 
 class _EnglishEntryheterosexualState extends State<EnglishEntryheterosexual> {
@@ -88,21 +89,24 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The study only included participants who were heterosexual.""");
+    await flutterTts.speak(
+        """The study only included participants who were heterosexual.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Divorce rates are increasing steadily among heterosexual couples.""");
+    await flutterTts.speak(
+        """Divorce rates are increasing steadily among heterosexual couples.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Heterosexuals account for nearly half of all new HIV infections.""");
+    await flutterTts.speak(
+        """Heterosexuals account for nearly half of all new HIV infections.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -963,7 +967,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -978,15 +981,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
 // With short examples define "heterosexual", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کەسێک کە لە ڕووی سێکسییەوە دەورووژێت بە ڕەگەزەکانی دیکە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کەسێک کە لە ڕووی سێکسییەوە دەورووژێت بە ڕەگەزەکانی دیکە"""),
                     SentencesRow(
-                      englishText: """The study only included participants who were heterosexual.""",
-                      kurdishText: """توێژینەوەکە تەنها ئەو بەژداربووانەی لەخۆگرت کە جیاڕەگەزخوازن.""",
+                      englishText:
+                          """The study only included participants who were heterosexual.""",
+                      kurdishText:
+                          """توێژینەوەکە تەنها ئەو بەژداربووانەی لەخۆگرت کە جیاڕەگەزخوازن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -994,17 +1000,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Divorce rates are increasing steadily among heterosexual couples.""",
-                      kurdishText: """ڕێژەی جیابوونەوە بە شێوەیەکی بەردەوام لە نێوان هاوسەرە جیاڕەگەزخوازەکاندا بەرز دەبێتەوە.""",
+                      englishText:
+                          """Divorce rates are increasing steadily among heterosexual couples.""",
+                      kurdishText:
+                          """ڕێژەی جیابوونەوە بە شێوەیەکی بەردەوام لە نێوان هاوسەرە جیاڕەگەزخوازەکاندا بەرز دەبێتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) کەسێک کە جیاڕەگەزخوازە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) کەسێک کە جیاڕەگەزخوازە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Heterosexuals account for nearly half of all new HIV infections.""",
-                      kurdishText: """جیاڕەگەزخوازان پێکهێنەری نزیکەی نیوەی هەموو تووشبوونەکان بە ئێچ‌ئای‌ڤین.""",
+                      englishText:
+                          """Heterosexuals account for nearly half of all new HIV infections.""",
+                      kurdishText:
+                          """جیاڕەگەزخوازان پێکهێنەری نزیکەی نیوەی هەموو تووشبوونەکان بە ئێچ‌ئای‌ڤین.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

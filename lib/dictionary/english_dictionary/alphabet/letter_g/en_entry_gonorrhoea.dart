@@ -126,7 +126,6 @@ Usage: Brit, Cdn (US: gonorrhea)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -141,7 +140,6 @@ Usage: Brit, Cdn (US: gonorrhea)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: سووزەنەک، تۆمەڕژێ، ئاوەڕژێ
 """),

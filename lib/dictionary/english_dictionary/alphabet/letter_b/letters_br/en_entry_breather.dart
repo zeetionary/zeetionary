@@ -128,7 +128,6 @@ class EnglishEntrybreather extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پشوو، وچان، سانەوە، شەکەت‌دەرکردن، ھەناسەکێش، بین‌کێش، گەڕان، ھەواخۆری
 """),
@@ -136,8 +135,7 @@ class EnglishEntrybreather extends StatelessWidget {
                               text: "١. (ھاوەڵناو) پشوویەکی کورت بۆ حاسەناوە"),
                           SentencesRow(
                             englishText: "Tell me when you need a breather.",
-                            kurdishText:
-                                "پێم بڵێ کە پێویستت بە حەسانەوە بوو.",
+                            kurdishText: "پێم بڵێ کە پێویستت بە حەسانەوە بوو.",
                             onPressedBritish: () => speakbreathers1("en-GB"),
                             onPressedAmerican: () => speakbreathers1("en-US"),
                           ),
@@ -240,7 +238,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

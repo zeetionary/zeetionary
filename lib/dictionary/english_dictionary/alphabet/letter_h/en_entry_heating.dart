@@ -963,7 +963,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -978,12 +977,13 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: سیستمی گەرمی‌پێدان، دابین‌کردنی گەرمی
 """),
 // With short examples define "heating", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) پڕۆسەی دابینکردنی گەرمی بۆ ژوورێک یان بینایەک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پڕۆسەی دابینکردنی گەرمی بۆ ژوورێک یان بینایەک"""),
                     SentencesRow(
                       englishText: """Who turned the heating off?""",
                       kurdishText: """چی گەرمییەکەی کوژاندەوە؟""",

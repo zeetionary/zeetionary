@@ -963,7 +963,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -978,7 +977,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: یاریدەدەر، یارمەتیدەر، یاریەدەر، یار، بازگورد، دەسگر، ئاریکار، ئالیکار، هاریکار، کۆمەک، دەستە، دڵسۆز،	بەردەس، کڵفەت، کارکەر
 """),

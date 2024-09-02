@@ -411,7 +411,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -426,7 +425,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دەستەخانوو، دەستەدیو، باڵاخانە، تەخت، ڕێک، گۆڕ، ڕاست، پان،	وەڕەسکەر، ناخۆش، عاجزکەر، شەکەتکەر،	(ڕاوێژ) سارد،	بێ‌بازاڕی، بێ‌بڕەو، خەوتوو، کەساد،	دەمەوڕوو، لەسەرزگ،	(نرخ) نەگۆڕ، دیاری‌کراو، چەسپیو، بڕاوەتەوە، جێگیر،	وەڕەس، ناڕەحەت، جاڕز، بەتاڵ، خاڵی (باتری)،	پەنچەر، کەم‌با، بێ‌با، کون،	بێ‌کەف، بێ‌گاز،	(بنی پێ) تەخت، ڕێک،	(موسیقا) نزمۆک،	مات، نەدرەوشاوە، تاریک (ڕەنگ)،	(وێنەکێشی) تەخت،	ڕێک‌وڕاست، ڕەپ‌وڕاست،	(کەوش) تەخت، بێ‌پاژنە
 """),

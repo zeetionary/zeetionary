@@ -260,7 +260,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -275,7 +274,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: قاپ، چێوە، باڵشمە، چوارچێوە،	لەش، لاشە، چوارچێوە، بەدەنە،	(ماشێن، فڕۆکە و ھتد) شاسی، چێوە،	قیافە، ھەیکەڵ، جەستە، پەیکەر،	پێکھاتە، داڕشتە، ڕێکخستە، قاڵب، چوارچێوە،	دیمەن،	وێنە، تاکەوێنە، دیمەن (سینەما، تەلەفزیۆن و وێنەگری)،	داربەست، چێوبەست،	قەفەسە، بێرکم،	خانووبەرە، دەزگا،	دەزگا،	(زمانەوانی) چوارچێوە، چێوە،	(چەرخ) چوارچێوە، لاشە،	(تەون) دار، داروبار
 """),

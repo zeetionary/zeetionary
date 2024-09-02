@@ -171,7 +171,6 @@ class EnglishEntrycancer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: شێرپەنچە، قرژانگ، قرژاڵە، بەڵای گشتی، بەڵا، پەتا، سەرەتان، تەوەرە، کارەسات، تەڵەزگە
 """),
@@ -351,7 +350,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

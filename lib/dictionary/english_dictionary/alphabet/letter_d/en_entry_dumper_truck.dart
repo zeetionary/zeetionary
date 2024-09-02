@@ -348,7 +348,6 @@ class KurdishMeaning extends StatelessWidget {
     return SingleChildScrollView(
       child: CustomColumnWidget(
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: ئۆتۆمبێلی بارھەڵڕێژ، بارکێش یان لۆری (بار)ھەڵڕێژ، بارکێشی ڕۆکەر، لۆری، گڵابە
 """),
@@ -417,7 +416,6 @@ Usage: Brit (N. Amer: dump truck)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

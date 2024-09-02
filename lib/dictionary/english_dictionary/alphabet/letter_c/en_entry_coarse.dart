@@ -99,7 +99,6 @@ class EnglishEntrycoarse extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زبرە، زبر، زوور، ئاژین، درشت، گزم، زیق، گرناڵ، گرنجاوی، گەرووز، نەلووس،	ناشیرین، ناحەز، عەیب، جڵف، ھەرزە، بێ‌ماریفەت، بێ‌ڕەوشت، بێ‌ڕەوشتانە،	توند، توندوتیژ،	ناخۆش
 """),
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

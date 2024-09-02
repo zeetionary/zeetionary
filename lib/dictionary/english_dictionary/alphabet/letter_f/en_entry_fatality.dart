@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: مەرگ، نەمان، مردن، تیاچوون، مردنی ناسروشتی، کوشندەیی،	چارەنووس، چارەنڤیس،	بەڵا، ماڵ‌وێرانی، بەدبەختی، نەھامەتی، مەینەتی، کارەسات،	کاریگەری کوشندە
 """),
@@ -362,7 +361,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

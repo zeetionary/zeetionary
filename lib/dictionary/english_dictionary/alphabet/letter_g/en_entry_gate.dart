@@ -231,7 +231,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دەروازە، درگا(ی گەورە)، دەرکە، درگای حەوشە،	ژوورگە، ڕێگا، ڕێی چوونەژوورەوە،	(بەنداو) زمانە، دەروازە،	شوێنی ھاتنەدەر و چوونەژوورەوە،	ژمارەی سەیرکەران یان چاولێکەران
 """),

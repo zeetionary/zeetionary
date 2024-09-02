@@ -92,7 +92,6 @@ class EnglishEntryconundrum extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: مامک، مەتەڵ، لیچار،	گرفتی سەخت، ئاستەنگی، گیروگرفت، گیروگرفت یان پرسی چارەنەکراو (بێ‌چارەسەر)، کێشەی ئاڵۆز
 """),
@@ -208,7 +207,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

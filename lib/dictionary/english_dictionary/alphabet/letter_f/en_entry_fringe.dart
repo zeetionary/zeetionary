@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -218,7 +217,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ڕیشۆڵە، ڕیشوو، ڕیشکۆ، گوڵینگ، شۆڕابە، جاغ، ساچاخ،	پژ، پەراوێز، کەنار، دەور، گێزوگوڵنگ، زێوار، لێوار، پەراوێز یان لێواری جوانی،	بەشی پەراوێزی یان دەرەوەی شتێ،	چین،	(جۆرێ شێوازی قژ) پەرچەم،	شتی زیادی یان لاوەکی،	(وەک واتابەند یان ئاوەڵناوێ) نائاسایی، نافەرمی
 """),

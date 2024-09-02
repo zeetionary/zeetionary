@@ -108,7 +108,6 @@ class EnglishEntrycharitable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خێرەومەند، چاکەکار، خێرخواز،	دڵسۆز، دەسگر، دڵ‌گەورە، پشوودرێژ، سنگ‌فراوان، لێبوردە، ھەڵکردە، بەدەھەندە، بەدڵ‌ودەروون،	کۆمەڵ یان ڕێکخراوەیەکی خێرخوازی، کۆمەڵ یان ڕێکخراوەی یارمەتی 
 """),
@@ -251,7 +250,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

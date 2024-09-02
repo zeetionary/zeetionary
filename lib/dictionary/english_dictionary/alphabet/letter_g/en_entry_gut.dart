@@ -228,7 +228,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: ڕیخۆڵە، ڕۆڤی،	زگ، گەدە، ورگ، کرش،	دەزووی تەقەڵ (برین‌کاری) تەقەڵی نەشتەرگەری،	ژێ (وەکوو بۆ ڤیۆڵین)،	دەربەندی تەنگ، تەنگەڵان، تەنگە، دەرتەنگ،	کۆڵان یان گوزەری تەنگ، هەناو، پزۆر، گورگان‌خواردوو، گرنگ‌ترین بەشی شتێک،	وێران، نەترسی، ئازایەتی، بەغیرەتی،	مرۆی زگەڕۆ
 """),

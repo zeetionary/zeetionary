@@ -983,7 +983,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -998,7 +997,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: خوو، پیشە، عادەت،	دەستوور، ڕەوشت، هەڵس‌وکەوتی هەمیشەیی، سان، داب، کەڤنەشۆپ، ڕێ‌وشوێن،	گیرۆدەیی، ئالوودەیی، فێربوون،	عابا، باڵاپۆش، خەرقە
 """),

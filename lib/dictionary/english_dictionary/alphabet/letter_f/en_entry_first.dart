@@ -361,7 +361,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -376,7 +375,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: یەکەمین، ھەوەڵین، سەرەتاترین، دەسپێک، یەکەم، ھەوەڵ،	لەپێشەوە، پێش‌تر، لە سەرەتادا،	یەکەمین جار، بۆ ھەوەڵین یان یەکەمین جار،	پێش، بەری، لەوەپێش، لەپێش‌ھەموو، بەر لە گشت، بەر لە ھەرشتێ،	سەرەتا، دەسپێک، بەرایی، پێشەنگ، سەرکێش، سەرجەلە،	(گێڕ) یەک.	یەکەم کەس،	پلەی یەک، نمرەی یەک
 """),

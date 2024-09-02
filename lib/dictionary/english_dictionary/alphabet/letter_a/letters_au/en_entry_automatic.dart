@@ -145,7 +145,6 @@ class EnglishEntryautomatic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خۆکار، ئۆتۆماتیک، میکانیکی، ئۆتۆمبێلی، ئینستینکتیڤ، خۆنەویست، خۆکردوو، ناخودئاگا، خۆبەخۆ، لەخۆوە،	چەکی خۆکار یان ئۆتۆماتیک،	ئۆتۆمبێل بە ترانسمیشنی (گێڕ) خۆکارەوە
 """),
@@ -319,7 +318,6 @@ Self-loading rifle capable of automatic fire
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

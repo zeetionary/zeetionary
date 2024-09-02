@@ -978,7 +978,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -993,7 +992,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دۆژە، دۆزەخ، جەهەنم،	قومارخانە،	زیندان، بەندی‌خانە،	شوێن یان بارودۆخێکی پر لە ئازار و ئەشکەنجە و مەینەتی،	مایەی ئازار و ئەشکەنجە و مەینەتی،	هێز و دەسەڵاتی شەیتان،	شوێن یان زێدی مردووان، جیهانی مردووان،	ئاژاوە، پشێوی، ئاڵۆزی، پاشاگەردانی، گەڕەلاوژە، شێواوی،	گوناهـ، سووچ، تاوان
 """),

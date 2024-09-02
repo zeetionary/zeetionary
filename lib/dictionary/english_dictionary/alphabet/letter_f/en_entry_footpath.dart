@@ -134,7 +134,6 @@ Noun: footpath (derived forms: footpaths)
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -149,7 +148,6 @@ Noun: footpath (derived forms: footpaths)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: کوێرەڕێ، باریکەڕێ، پێڕێ، پاڕێ، ڕێگای پیاڕۆیشتن، پیادەڕێ
 """),

@@ -168,7 +168,6 @@ class EnglishEntrycatalyst extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھۆکاری ھاندەر یان تاودەر، تاودەرە، فاکتێری تاودەر، مەتریاڵی ھاندەر، ھاندەرە، تاودەرە، کەسێ یان شتێ کە دەبێتە ھۆ و مایەی گۆڕان
 """),
@@ -285,7 +284,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

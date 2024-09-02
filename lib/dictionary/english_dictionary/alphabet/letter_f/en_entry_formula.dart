@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -176,7 +175,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: شێوگ، فۆرمۆل، چارە، ڕێگا، ڕێگاچارە،	شێواز، دەستوور، دەستووری کار،	کڵیشە،	دەستووری گرتنەوە،	خوراکی ئامادەی مناڵ، شیری وشک،	(پێشبڕکێی ماشێن لێخوڕین) دەستە، پۆل
 """),

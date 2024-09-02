@@ -336,7 +336,6 @@ class KurdishMeaning extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
           const KurdishVocabulary(text: """
 کوردی: دیم، دەم‌وچاو، ڕوخسار، بیچم، قیافە، دیمە، شێوە،	تایبەتمەندی، لایەنی دیار، ڕەوشت، درووڤ، خەسڵەت، جیاکەرەوە، چۆنیەتی،	وتاری تایبەتی و گرنگ،	فیلمی درێژ، فیلمی سەرەکی،	بەرنامەی تایبەتی یان گرنگ (تەلەفزیۆن، ڕادیۆ و ھتد)،	نیشانەی تایبەت،	بەشی سەرەکی، بابەتی سەرەکی یان تایبەتی،	(وەک ئاوەڵناو) سەرەکی
 """),
@@ -545,7 +544,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -990,7 +990,6 @@ Usage: N. Amer, informal
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -1005,7 +1004,6 @@ Usage: N. Amer, informal
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: توند، گڕ، نووساو، زەق، زبر، ناخۆش،	توندوتیژ، توند، چەتوون، سەخت، گران، قورس،	بێ‌بەزەیی، ڕەشکوژ، زەبربەدەس، دڵڕەق، دڕ، سەختگر، توندگر، سەختگرانە، بێ‌بەزەیی‌یانە
 """),

@@ -134,7 +134,6 @@ class EnglishEntrybat extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لێدەردەسک، دەسکی لێدان، ڕاکێت، (پینگ پۆنگ)، پیاکێشان، لێدان (سەخت)، دار، گۆچان، شەک
 """),
@@ -293,7 +292,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

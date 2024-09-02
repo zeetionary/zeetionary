@@ -195,7 +195,6 @@ Phrasal verb: allude to (derived forms: alluding to, alludes to, alluded to)
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

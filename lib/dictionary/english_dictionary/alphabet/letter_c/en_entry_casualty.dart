@@ -170,7 +170,6 @@ class EnglishEntrycasualty extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: قوربانی، بریندار و کوژراو، پێکراوان، ئەنگاوتە، بەشی فریاکەوتن، بەشی تەنگەتاوی یان بەشی ڕووداوەکان
 """),
@@ -322,7 +321,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

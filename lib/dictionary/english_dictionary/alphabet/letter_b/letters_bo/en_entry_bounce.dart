@@ -268,7 +268,6 @@ class EnglishEntrybounce extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: گەڕانەوە، زڤرین، باز یان پەڕینی کت‌وپڕ، قەڵبەز، ھەڵبەزینەوە، ھەڵپەڕوداپەڕ، ھەڵبەزودابەز، چالاکی، جم‌وجۆڵ، بەکەیفی، سەرخۆشی، بەگوڕی، سەرشادی، بەپەرۆشی، لێدانی بەھێز و کت‌وپڕ
 """),
@@ -535,7 +534,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

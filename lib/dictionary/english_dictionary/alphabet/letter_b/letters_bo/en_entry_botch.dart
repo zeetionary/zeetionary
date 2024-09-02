@@ -131,7 +131,6 @@ class EnglishEntrybotch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەفشە سەریەک‌خستن، کاری تڕەکەڵەک یان سەرسەرەکی، کاری خراپ‌کراو، گەندەڵکاری، گووکاری، کەڵەک‌شەیتان، تێڕیان، گووتێکردن، خراپ‌کردن، کارپیسی
 """),
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

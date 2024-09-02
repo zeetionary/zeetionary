@@ -127,7 +127,6 @@ class EnglishEntrybugger extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: نێرباز، کەسێکی ھیچ یان قێزەون، بارگین
 """),
@@ -318,7 +317,6 @@ Usage: vulgar (=pain in the ass) (= blast, bother [Brit], botheration, bummer [i
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

@@ -90,7 +90,6 @@ class EnglishEntryconductor extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەڕێوەبەر، کارگێڕ، ھەڵسووڕێنەر،	ڕێبەر، سەرتیپی ئۆرکێسترا،	گەیێنەر،	شاگردشۆفیر، شۆفیریار، بلیت‌چی، بلیت‌کۆکەرەوە،	سەرۆک یان بەرپرسی شەمەندەفەر
 """),
@@ -210,7 +209,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

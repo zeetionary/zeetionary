@@ -444,7 +444,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -459,7 +458,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: زەوی، زەمین،	خاک، گڵ،	عەرز، سەرعەرز، وشکانی، ڕووی عەرز،	مەودا،	ناوچە، دەڤەر،	بنکی دەریا، تەرکی زەریا،	بنەڕەت، بنچینە، بناخە،	تەخت، تەختایی، زەمینە،	پارچە زەویێ بۆ مەبەستێکی تایبەتی،	بوار، مەڵبەند، پانتایی، ئاقار،	ڕەوش، بارودۆخ،	بابەت، مژار،	ھۆ، مایە، سۆنگە، پاساو، بەڵگە،	جێگا، ڤار، جێ، شوێن،	خڵتە، بن، نیشتوو، تڵتە، پەگر،	خاک، زەمین، مەیدان، گۆڕەپان، ھۆیەکان، بەڵگەگان،	حەوشە، باخچە، باغچە، دەوروبەر (خاک و باخانە)ی خانووبەرە،	خڵتە یان تڵپەی قاوە، بنی قاوە،	وایەری زەمین
 """),

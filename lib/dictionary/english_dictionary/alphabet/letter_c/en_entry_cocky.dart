@@ -92,7 +92,6 @@ class EnglishEntrycocky extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: زۆردڵنیا، تەواو خاترجەم،	لەخۆبایی، لەخۆڕازی
 """),
@@ -210,7 +209,6 @@ Usage: Austral
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

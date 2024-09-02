@@ -146,7 +146,6 @@ class EnglishEntryattraction extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: (فیزیک) ڕاکێشان، کێش، کێشان، ڕاکێش‌کردن، سەرنج‌ڕاکێشی، باڵکێشی، دڵبەستەیی، دڵتێچوون، سەوداسەری، دڵڕفێنی
 """),
@@ -322,7 +321,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

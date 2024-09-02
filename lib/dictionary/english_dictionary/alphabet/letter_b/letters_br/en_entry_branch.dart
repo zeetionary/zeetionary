@@ -247,7 +247,6 @@ class EnglishEntrybranch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: لک، لق، تا، لپ، فاق، تاقیشک، قەڵبە، لەژگ، نیھال، قیت، گلم، شاخ(ە)، لک، لق، بەش، پشک، کەرت
 """),
@@ -468,7 +467,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

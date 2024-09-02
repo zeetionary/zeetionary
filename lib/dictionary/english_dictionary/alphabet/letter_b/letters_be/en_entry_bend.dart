@@ -150,7 +150,6 @@ class EnglishEntrybend extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: خواروخێچی، پێچ، گەڕ، چەم، چەماوی، خواری، ئەژنۆیی، چەمانەوە، خواربوونەوە، نووچ، داھاتنەوە، نووشتانەوە، گرێی مەلەوانی
 """),
@@ -373,7 +372,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

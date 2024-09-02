@@ -108,7 +108,6 @@ class EnglishEntryconservation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: پاراستن، ئاگالێ‌بوون، ڕاگرتن، پاراستنی ژینگەی سروشتی یان سەرچاوە سروشتی‌یەکان، ژینگەپارێزی،	(فیزیک) پاراستن، مانەوە،	دەس‌پێوەگرتن، دەسگیرۆیی
 """),
@@ -256,7 +255,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

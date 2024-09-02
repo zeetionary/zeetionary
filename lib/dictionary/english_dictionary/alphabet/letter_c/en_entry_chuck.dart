@@ -142,7 +142,6 @@ class EnglishEntrychuck extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: باوانەکەم، گیانەکەم، کوڕە، گیرە یان قولاپێ بۆ ڕاگرتنی مەتە لە دەزگایێ‌دا، گیرە، مەھار،	گۆشتی سەرشان یان سەردەس (وڵاخ)
 """),
@@ -349,7 +348,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

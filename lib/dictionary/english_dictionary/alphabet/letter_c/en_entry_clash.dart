@@ -197,7 +197,6 @@ class EnglishEntryclash extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بەریەک‌کەوتن، لێک‌کەوتن، لێک‌دران، پێک‌کەوتن، تێک‌ھەڵچوون، ڕووبەڕووبوونەوە، بەگژیەک‌داچوون،	مشت‌ومڕ، جوڕڕە، مشەرعێن، شەڕەقسە، دەمەقڕە،	شەڕ، شەڕوکێشە، ململانێ، پێک‌ھەڵپڕژان، پێکادان، ئامبازئاوقەی یەک‌بوون، کێشمەکێش،	دژایەتی، دژبەری، جیاوازی، ناکۆکی، ناڕەزایەتی،	ھاوکاتی، ھەڤدەمی، پێکەوەروودان،	ناسازی،	(دەنگ) زرنگە، چەکەچەک، شەقەشەق، تەق‌وکوت، دەنگی لێک‌کەوتن یا شکان
 """),
@@ -479,7 +478,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

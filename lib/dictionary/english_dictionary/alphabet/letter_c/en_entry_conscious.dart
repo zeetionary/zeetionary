@@ -150,7 +150,6 @@ class EnglishEntryconscious extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: ھۆشیار، ئاگادار، خەبەردار، بەسەرنج، وریا، بەئاگا، خۆئاگا، وریا،	بەمەبەست، ئەنقەست، خۆکردوو،	بیریار، ھزرمەند،	ھەستیار،	شەرمێون، پەشۆکاو، تاساو
 """),
@@ -349,7 +348,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

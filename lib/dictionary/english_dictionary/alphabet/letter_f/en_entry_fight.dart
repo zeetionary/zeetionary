@@ -561,7 +561,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -576,7 +575,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: شەڕ، جەنگ،	خەبات، بەرخۆدان، ئاوقابوون، بەرەنگاری، بەگژداچوون، توانایی بەرەنگاربوونەوە، ورە، توانایی شەڕ، وزەی شەڕ، لەڕووڕاوێستان، ململانێ، مشت‌ومڕ، قڕە، کێشە، پێکادان، بەربوونەیەک، لێک‌سرەواندن، ئامبازی‌یەک‌بوون،	پێشبڕکێم	پێشبڕکێ بۆکس یان شەڕەمشت
 """),

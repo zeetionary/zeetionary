@@ -180,7 +180,7 @@ Adverb: aback
                   ),
                 ),
                 automaticallyImplyLeading: false,
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
@@ -198,7 +198,6 @@ Adverb: aback
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -216,7 +215,7 @@ Adverb: aback
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
+                          // const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: داچڵەکین، ھەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
 """),

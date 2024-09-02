@@ -201,7 +201,6 @@ ${englishMeaningConst.text}
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const DividerDefinition(),
                     EnglishButtonTTS(
                       onBritishPressed: (languageCode) =>
                           startSpeaking(languageCode, englishMeaningConst),
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: دڵسۆز، دڵنەرم، بەڕوحم، بەڕەحم، بەبەزەیی، مێھرەوان،	بەئابڕوو، بەوەج، خانەدان، بەگزادە،	ئاگادار، تێبین،	ناتوندوتیژ، ئارام، ھێمن، ھێدی، لەسەرەخۆ، نیان،	(ھەوا، تێمپراچێر، لێژایی و ھتد) فێنک، مام‌ناوەندی، سازگار، نەرم، نیان، خۆش،	(دەنگ) ناسک، نەرم
 """),

@@ -128,7 +128,6 @@ class EnglishEntrybreaststroke extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: بۆقەمەلێ، بۆقەمەلە
 """),
@@ -137,8 +136,7 @@ class EnglishEntrybreaststroke extends StatelessWidget {
                                   "١. (ناو) جۆرە مەلەیەک کە لەسەر سنگت دەیکەیت، دەستەکان و قاچەکانت بۆ دوور لە جەستەت دەجوڵێنیت و دواتر بە بازنەیەک بەرەو جەستەت"),
                           SentencesRow(
                             englishText: "I can only do the breaststroke.",
-                            kurdishText:
-                                "تەنھا دەتوانم بۆقەمەلە بکەم.",
+                            kurdishText: "تەنھا دەتوانم بۆقەمەلە بکەم.",
                             onPressedBritish: () =>
                                 speakbreaststrokes1("en-GB"),
                             onPressedAmerican: () =>
@@ -235,7 +233,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

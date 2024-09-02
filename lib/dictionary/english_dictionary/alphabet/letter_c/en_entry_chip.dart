@@ -170,7 +170,6 @@ class EnglishEntrychip extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const KurdishVocabulary(text: """
 کوردی: وردە، لەت، کەل، کوت، خاکە، ورکە، بڕکە، بڕە، قەڵت، بڕگە، تەفشک، قاشوولە، کرتێن، تەڵاش، قاش،	تەڵەزمە یان تەڵاشە (ئێلیکتڕۆنیک)،	لێوپەڕیوی، لێوقرنجاوی، کەل
 """),
@@ -424,7 +423,6 @@ ${englishMeaningConst.text}
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const DividerDefinition(),
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),

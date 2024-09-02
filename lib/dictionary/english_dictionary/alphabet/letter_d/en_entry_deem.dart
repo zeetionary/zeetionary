@@ -26,7 +26,7 @@ class _EnglishEntrydeemState extends State<EnglishEntrydeem> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

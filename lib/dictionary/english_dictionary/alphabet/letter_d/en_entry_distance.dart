@@ -32,7 +32,7 @@ class _EnglishEntrydistanceState extends State<EnglishEntrydistance> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

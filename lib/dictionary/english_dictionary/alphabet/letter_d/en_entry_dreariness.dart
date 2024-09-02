@@ -32,7 +32,7 @@ class _EnglishEntrydrearinessState extends State<EnglishEntrydreariness> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

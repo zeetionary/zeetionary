@@ -27,7 +27,7 @@ class _EnglishEntrycounsellingState extends State<EnglishEntrycounselling> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

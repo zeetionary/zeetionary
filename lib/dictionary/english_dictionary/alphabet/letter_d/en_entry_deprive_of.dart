@@ -26,7 +26,7 @@ class _EnglishEntrydepriveofState extends State<EnglishEntrydepriveof> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

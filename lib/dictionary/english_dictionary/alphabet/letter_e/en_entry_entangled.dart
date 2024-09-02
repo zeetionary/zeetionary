@@ -50,7 +50,7 @@ class _EnglishEntryentangledState extends State<EnglishEntryentangled> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

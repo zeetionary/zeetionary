@@ -26,7 +26,7 @@ class _EnglishEntrydeafnessState extends State<EnglishEntrydeafness> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

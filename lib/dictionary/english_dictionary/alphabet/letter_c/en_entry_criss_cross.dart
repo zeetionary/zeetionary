@@ -26,7 +26,7 @@ class _EnglishEntrycrisscrossState extends State<EnglishEntrycrisscross> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -26,7 +26,7 @@ class _EnglishEntrycrumpleState extends State<EnglishEntrycrumple> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryepochState extends State<EnglishEntryepoch> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

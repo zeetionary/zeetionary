@@ -32,7 +32,7 @@ class _EnglishEntrydressmakerState extends State<EnglishEntrydressmaker> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

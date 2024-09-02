@@ -50,7 +50,7 @@ class _EnglishEntryfauxpasState extends State<EnglishEntryfauxpas> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

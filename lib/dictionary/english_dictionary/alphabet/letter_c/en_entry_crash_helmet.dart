@@ -27,7 +27,7 @@ class _EnglishEntrycrashhelmetState extends State<EnglishEntrycrashhelmet> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryencircleState extends State<EnglishEntryencircle> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

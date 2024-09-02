@@ -153,7 +153,7 @@ An educator who works at a college or university (= academician, faculty member)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

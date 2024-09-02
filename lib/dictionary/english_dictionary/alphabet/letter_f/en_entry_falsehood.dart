@@ -50,7 +50,7 @@ class _EnglishEntryfalsehoodState extends State<EnglishEntryfalsehood> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

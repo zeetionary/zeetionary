@@ -52,7 +52,7 @@ class _EnglishEntrytheeuropeanunionState
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

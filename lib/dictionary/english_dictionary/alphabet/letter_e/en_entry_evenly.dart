@@ -50,7 +50,7 @@ class _EnglishEntryevenlyState extends State<EnglishEntryevenly> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

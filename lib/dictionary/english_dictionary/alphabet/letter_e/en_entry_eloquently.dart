@@ -32,7 +32,7 @@ class _EnglishEntryeloquentlyState extends State<EnglishEntryeloquently> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

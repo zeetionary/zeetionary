@@ -50,7 +50,7 @@ class _EnglishEntryfawnState extends State<EnglishEntryfawn> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

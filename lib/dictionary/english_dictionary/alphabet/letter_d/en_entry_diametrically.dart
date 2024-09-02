@@ -27,7 +27,7 @@ class _EnglishEntrydiametricallyState extends State<EnglishEntrydiametrically> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

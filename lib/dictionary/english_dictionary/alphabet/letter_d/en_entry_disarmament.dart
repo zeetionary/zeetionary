@@ -27,7 +27,7 @@ class _EnglishEntrydisarmamentState extends State<EnglishEntrydisarmament> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

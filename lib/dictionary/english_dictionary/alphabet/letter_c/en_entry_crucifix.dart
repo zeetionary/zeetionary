@@ -26,7 +26,7 @@ class _EnglishEntrycrucifixState extends State<EnglishEntrycrucifix> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

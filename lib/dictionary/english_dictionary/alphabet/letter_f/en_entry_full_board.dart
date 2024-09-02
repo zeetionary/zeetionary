@@ -109,7 +109,7 @@ Usage: Brit, Cdn (US: American plan)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryensuiteState extends State<EnglishEntryensuite> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

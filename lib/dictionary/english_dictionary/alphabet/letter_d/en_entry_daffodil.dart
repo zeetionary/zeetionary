@@ -26,7 +26,7 @@ class _EnglishEntrydaffodilState extends State<EnglishEntrydaffodil> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryextinguishState extends State<EnglishEntryextinguish> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

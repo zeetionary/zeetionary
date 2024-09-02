@@ -32,7 +32,7 @@ class _EnglishEntrydrizzleState extends State<EnglishEntrydrizzle> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

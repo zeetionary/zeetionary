@@ -50,7 +50,7 @@ class _EnglishEntryexorcismState extends State<EnglishEntryexorcism> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

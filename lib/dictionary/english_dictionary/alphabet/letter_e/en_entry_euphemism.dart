@@ -50,7 +50,7 @@ class _EnglishEntryeuphemismState extends State<EnglishEntryeuphemism> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

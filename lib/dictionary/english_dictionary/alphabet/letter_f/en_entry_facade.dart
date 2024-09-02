@@ -50,7 +50,7 @@ class _EnglishEntryfacadeState extends State<EnglishEntryfacade> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

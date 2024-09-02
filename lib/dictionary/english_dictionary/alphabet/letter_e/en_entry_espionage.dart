@@ -50,7 +50,7 @@ class _EnglishEntryespionageState extends State<EnglishEntryespionage> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

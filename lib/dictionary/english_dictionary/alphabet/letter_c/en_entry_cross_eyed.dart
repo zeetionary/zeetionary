@@ -26,7 +26,7 @@ class _EnglishEntrycrosseyedState extends State<EnglishEntrycrosseyed> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryexpectancyState extends State<EnglishEntryexpectancy> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

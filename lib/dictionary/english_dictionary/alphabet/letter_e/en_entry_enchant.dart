@@ -50,7 +50,7 @@ class _EnglishEntryenchantState extends State<EnglishEntryenchant> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

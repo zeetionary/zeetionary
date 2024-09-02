@@ -26,7 +26,7 @@ class _EnglishEntrycorrosiveState extends State<EnglishEntrycorrosive> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

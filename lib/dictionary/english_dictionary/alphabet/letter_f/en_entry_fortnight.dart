@@ -124,7 +124,7 @@ Usage: Brit (N. Amer: two weeks)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

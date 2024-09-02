@@ -26,7 +26,7 @@ class _EnglishEntrycrocodileState extends State<EnglishEntrycrocodile> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

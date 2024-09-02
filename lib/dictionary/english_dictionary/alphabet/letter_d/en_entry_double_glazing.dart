@@ -33,7 +33,7 @@ class _EnglishEntrydoubleglazingState extends State<EnglishEntrydoubleglazing> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

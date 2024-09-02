@@ -33,7 +33,7 @@ class _EnglishEntrydrainpipeState extends State<EnglishEntrydrainpipe> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

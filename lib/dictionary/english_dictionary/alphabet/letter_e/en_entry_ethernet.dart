@@ -50,7 +50,7 @@ class _EnglishEntryethernetState extends State<EnglishEntryethernet> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

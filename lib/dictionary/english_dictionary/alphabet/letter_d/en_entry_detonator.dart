@@ -26,7 +26,7 @@ class _EnglishEntrydetonatorState extends State<EnglishEntrydetonator> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryeventfulState extends State<EnglishEntryeventful> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

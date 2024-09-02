@@ -50,7 +50,7 @@ class _EnglishEntryevangelistState extends State<EnglishEntryevangelist> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

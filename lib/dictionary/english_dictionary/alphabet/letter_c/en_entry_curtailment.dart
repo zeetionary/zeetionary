@@ -27,7 +27,7 @@ class _EnglishEntrycurtailmentState extends State<EnglishEntrycurtailment> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

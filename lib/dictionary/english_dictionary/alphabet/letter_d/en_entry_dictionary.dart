@@ -26,7 +26,7 @@ class _EnglishEntrydictionaryState extends State<EnglishEntrydictionary> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

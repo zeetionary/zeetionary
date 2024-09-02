@@ -50,7 +50,7 @@ class _EnglishEntryendemicState extends State<EnglishEntryendemic> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

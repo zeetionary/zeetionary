@@ -26,7 +26,7 @@ class _EnglishEntrycrustaceanState extends State<EnglishEntrycrustacean> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

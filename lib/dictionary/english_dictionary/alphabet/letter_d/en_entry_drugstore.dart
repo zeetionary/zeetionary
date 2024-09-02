@@ -32,7 +32,7 @@ class _EnglishEntrydrugstoreState extends State<EnglishEntrydrugstore> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

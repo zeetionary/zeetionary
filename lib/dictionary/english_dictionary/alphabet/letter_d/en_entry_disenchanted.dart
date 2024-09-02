@@ -27,7 +27,7 @@ class _EnglishEntrydisenchantedState extends State<EnglishEntrydisenchanted> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

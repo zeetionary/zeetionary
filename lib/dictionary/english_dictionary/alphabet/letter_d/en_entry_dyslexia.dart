@@ -32,7 +32,7 @@ class _EnglishEntrydyslexiaState extends State<EnglishEntrydyslexia> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

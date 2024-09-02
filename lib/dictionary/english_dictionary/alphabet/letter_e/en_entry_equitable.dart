@@ -50,7 +50,7 @@ class _EnglishEntryequitableState extends State<EnglishEntryequitable> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

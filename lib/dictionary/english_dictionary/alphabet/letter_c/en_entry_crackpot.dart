@@ -26,7 +26,7 @@ class _EnglishEntrycrackpotState extends State<EnglishEntrycrackpot> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

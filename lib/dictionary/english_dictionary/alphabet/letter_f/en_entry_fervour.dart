@@ -120,7 +120,7 @@ Usage: Brit, Cdn (US: fervor)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -27,7 +27,7 @@ class _EnglishEntrycounterfeitState extends State<EnglishEntrycounterfeit> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

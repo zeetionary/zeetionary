@@ -32,7 +32,7 @@ class _EnglishEntrydoorbellState extends State<EnglishEntrydoorbell> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

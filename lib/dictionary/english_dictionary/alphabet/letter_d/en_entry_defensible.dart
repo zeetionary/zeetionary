@@ -26,7 +26,7 @@ class _EnglishEntrydefensibleState extends State<EnglishEntrydefensible> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

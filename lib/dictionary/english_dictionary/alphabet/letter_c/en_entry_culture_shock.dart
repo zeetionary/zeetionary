@@ -27,7 +27,7 @@ class _EnglishEntrycultureshockState extends State<EnglishEntrycultureshock> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

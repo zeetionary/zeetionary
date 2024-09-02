@@ -32,7 +32,7 @@ class _EnglishEntrydrawbackState extends State<EnglishEntrydrawback> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -26,7 +26,7 @@ class _EnglishEntrydilemmaState extends State<EnglishEntrydilemma> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

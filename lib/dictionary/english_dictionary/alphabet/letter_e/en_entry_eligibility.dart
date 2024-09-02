@@ -33,7 +33,7 @@ class _EnglishEntryeligibilityState extends State<EnglishEntryeligibility> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -32,7 +32,7 @@ class _EnglishEntrydoorstepState extends State<EnglishEntrydoorstep> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

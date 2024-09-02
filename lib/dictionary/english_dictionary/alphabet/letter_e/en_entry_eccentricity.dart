@@ -33,7 +33,7 @@ class _EnglishEntryeccentricityState extends State<EnglishEntryeccentricity> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

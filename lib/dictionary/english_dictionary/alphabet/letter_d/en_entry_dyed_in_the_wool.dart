@@ -33,7 +33,7 @@ class _EnglishEntrydyedinthewoolState extends State<EnglishEntrydyedinthewool> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

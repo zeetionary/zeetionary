@@ -27,7 +27,7 @@ class _EnglishEntrydecompositionState extends State<EnglishEntrydecomposition> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

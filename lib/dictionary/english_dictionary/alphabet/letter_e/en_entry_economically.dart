@@ -33,7 +33,7 @@ class _EnglishEntryeconomicallyState extends State<EnglishEntryeconomically> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

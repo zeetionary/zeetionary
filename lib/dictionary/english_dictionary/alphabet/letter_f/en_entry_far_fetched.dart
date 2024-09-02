@@ -50,7 +50,7 @@ class _EnglishEntryfarfetchedState extends State<EnglishEntryfarfetched> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

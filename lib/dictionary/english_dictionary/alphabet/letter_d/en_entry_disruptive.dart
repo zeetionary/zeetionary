@@ -26,7 +26,7 @@ class _EnglishEntrydisruptiveState extends State<EnglishEntrydisruptive> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

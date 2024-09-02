@@ -50,7 +50,7 @@ class _EnglishEntryfabricState extends State<EnglishEntryfabric> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

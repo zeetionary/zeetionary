@@ -50,7 +50,7 @@ class _EnglishEntryephemeralState extends State<EnglishEntryephemeral> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

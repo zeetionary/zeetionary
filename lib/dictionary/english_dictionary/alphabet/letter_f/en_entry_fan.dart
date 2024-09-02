@@ -50,7 +50,7 @@ class _EnglishEntryfanState extends State<EnglishEntryfan> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

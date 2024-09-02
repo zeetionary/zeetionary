@@ -32,7 +32,7 @@ class _EnglishEntryemphasizeState extends State<EnglishEntryemphasize> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

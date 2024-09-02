@@ -26,7 +26,7 @@ class _EnglishEntrycrossbreedState extends State<EnglishEntrycrossbreed> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

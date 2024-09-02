@@ -27,7 +27,7 @@ class _EnglishEntrydictatorialState extends State<EnglishEntrydictatorial> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

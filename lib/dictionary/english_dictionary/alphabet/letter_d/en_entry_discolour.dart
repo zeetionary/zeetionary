@@ -26,7 +26,7 @@ class _EnglishEntrydiscolourState extends State<EnglishEntrydiscolour> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

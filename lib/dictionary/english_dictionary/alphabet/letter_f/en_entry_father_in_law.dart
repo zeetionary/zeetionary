@@ -51,7 +51,7 @@ class _EnglishEntryfatherinlawState extends State<EnglishEntryfatherinlaw> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

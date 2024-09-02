@@ -133,7 +133,7 @@ Usage: N. Amer (elsewhere: fulfilment)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

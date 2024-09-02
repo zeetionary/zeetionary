@@ -111,7 +111,7 @@ Usage: Brit, Cdn (US: funeral parlor)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

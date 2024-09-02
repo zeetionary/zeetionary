@@ -27,7 +27,7 @@ class _EnglishEntrydarmstadtiumState extends State<EnglishEntrydarmstadtium> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

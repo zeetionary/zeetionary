@@ -27,7 +27,7 @@ class _EnglishEntrydelinquencyState extends State<EnglishEntrydelinquency> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

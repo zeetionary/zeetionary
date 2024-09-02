@@ -32,7 +32,7 @@ class _EnglishEntryearnestlyState extends State<EnglishEntryearnestly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

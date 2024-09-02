@@ -26,7 +26,7 @@ class _EnglishEntrycreditcardState extends State<EnglishEntrycreditcard> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

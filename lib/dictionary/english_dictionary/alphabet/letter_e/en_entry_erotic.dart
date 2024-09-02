@@ -50,7 +50,7 @@ class _EnglishEntryeroticState extends State<EnglishEntryerotic> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

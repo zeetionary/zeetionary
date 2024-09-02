@@ -26,7 +26,7 @@ class _EnglishEntrydiningroomState extends State<EnglishEntrydiningroom> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

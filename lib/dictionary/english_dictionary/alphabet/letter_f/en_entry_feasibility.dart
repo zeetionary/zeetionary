@@ -51,7 +51,7 @@ class _EnglishEntryfeasibilityState extends State<EnglishEntryfeasibility> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

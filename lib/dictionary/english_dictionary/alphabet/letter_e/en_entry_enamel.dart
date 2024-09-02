@@ -50,7 +50,7 @@ class _EnglishEntryenamelState extends State<EnglishEntryenamel> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

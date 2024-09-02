@@ -51,7 +51,7 @@ class _EnglishEntryenforceableState extends State<EnglishEntryenforceable> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

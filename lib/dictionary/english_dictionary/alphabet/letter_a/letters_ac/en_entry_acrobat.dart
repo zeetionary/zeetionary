@@ -102,7 +102,7 @@ An athlete who performs acts requiring skill and agility and coordination
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

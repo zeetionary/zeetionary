@@ -50,7 +50,7 @@ class _EnglishEntryfacelessState extends State<EnglishEntryfaceless> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

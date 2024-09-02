@@ -50,7 +50,7 @@ class _EnglishEntryepauletteState extends State<EnglishEntryepaulette> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

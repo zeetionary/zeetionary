@@ -50,7 +50,7 @@ class _EnglishEntryesotericState extends State<EnglishEntryesoteric> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -33,7 +33,7 @@ class _EnglishEntryelectronicsState extends State<EnglishEntryelectronics> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

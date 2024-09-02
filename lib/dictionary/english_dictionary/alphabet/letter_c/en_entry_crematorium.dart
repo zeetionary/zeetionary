@@ -27,7 +27,7 @@ class _EnglishEntrycrematoriumState extends State<EnglishEntrycrematorium> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

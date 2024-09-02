@@ -27,7 +27,7 @@ class _EnglishEntrycrucifixionState extends State<EnglishEntrycrucifixion> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

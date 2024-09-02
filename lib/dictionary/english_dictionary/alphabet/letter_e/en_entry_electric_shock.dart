@@ -33,7 +33,7 @@ class _EnglishEntryelectricshockState extends State<EnglishEntryelectricshock> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

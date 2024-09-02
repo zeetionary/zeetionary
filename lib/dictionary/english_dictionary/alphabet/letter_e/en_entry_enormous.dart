@@ -50,7 +50,7 @@ class _EnglishEntryenormousState extends State<EnglishEntryenormous> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

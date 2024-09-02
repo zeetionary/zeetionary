@@ -26,7 +26,7 @@ class _EnglishEntrycraftsmanState extends State<EnglishEntrycraftsman> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

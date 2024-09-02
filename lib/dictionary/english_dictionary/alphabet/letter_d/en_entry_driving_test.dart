@@ -33,7 +33,7 @@ class _EnglishEntrydrivingtestState extends State<EnglishEntrydrivingtest> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryentrenchedState extends State<EnglishEntryentrenched> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

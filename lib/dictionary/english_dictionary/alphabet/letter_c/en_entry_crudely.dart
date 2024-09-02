@@ -26,7 +26,7 @@ class _EnglishEntrycrudelyState extends State<EnglishEntrycrudely> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -27,7 +27,7 @@ class _EnglishEntrydenominatorState extends State<EnglishEntrydenominator> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

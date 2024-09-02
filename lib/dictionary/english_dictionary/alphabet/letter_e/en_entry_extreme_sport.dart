@@ -51,7 +51,7 @@ class _EnglishEntryextremesportState extends State<EnglishEntryextremesport> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

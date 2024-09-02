@@ -26,7 +26,7 @@ class _EnglishEntrydiplomaState extends State<EnglishEntrydiploma> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

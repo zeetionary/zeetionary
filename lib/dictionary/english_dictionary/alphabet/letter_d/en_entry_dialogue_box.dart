@@ -27,7 +27,7 @@ class _EnglishEntrydialogueboxState extends State<EnglishEntrydialoguebox> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

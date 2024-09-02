@@ -50,7 +50,7 @@ class _EnglishEntryepitaphState extends State<EnglishEntryepitaph> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

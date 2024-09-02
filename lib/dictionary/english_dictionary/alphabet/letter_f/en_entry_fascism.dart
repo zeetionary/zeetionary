@@ -50,7 +50,7 @@ class _EnglishEntryfascismState extends State<EnglishEntryfascism> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

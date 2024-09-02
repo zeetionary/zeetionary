@@ -26,7 +26,7 @@ class _EnglishEntrycrackdownState extends State<EnglishEntrycrackdown> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

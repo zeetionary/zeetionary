@@ -50,7 +50,7 @@ class _EnglishEntryemulateState extends State<EnglishEntryemulate> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

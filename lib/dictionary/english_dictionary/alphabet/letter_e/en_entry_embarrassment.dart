@@ -33,7 +33,7 @@ class _EnglishEntryembarrassmentState extends State<EnglishEntryembarrassment> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

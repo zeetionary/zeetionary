@@ -50,7 +50,7 @@ class _EnglishEntryenunciateState extends State<EnglishEntryenunciate> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

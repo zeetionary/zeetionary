@@ -26,7 +26,7 @@ class _EnglishEntrydefaulterState extends State<EnglishEntrydefaulter> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

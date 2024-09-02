@@ -50,7 +50,7 @@ class _EnglishEntryenclosureState extends State<EnglishEntryenclosure> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

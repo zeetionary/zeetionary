@@ -33,7 +33,7 @@ class _EnglishEntrydocumentaryState extends State<EnglishEntrydocumentary> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

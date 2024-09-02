@@ -32,7 +32,7 @@ class _EnglishEntrydrowsyState extends State<EnglishEntrydrowsy> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

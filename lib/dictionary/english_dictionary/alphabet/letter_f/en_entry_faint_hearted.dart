@@ -51,7 +51,7 @@ class _EnglishEntryfaintheartedState extends State<EnglishEntryfainthearted> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

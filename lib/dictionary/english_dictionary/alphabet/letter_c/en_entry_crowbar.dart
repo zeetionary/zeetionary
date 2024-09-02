@@ -26,7 +26,7 @@ class _EnglishEntrycrowbarState extends State<EnglishEntrycrowbar> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

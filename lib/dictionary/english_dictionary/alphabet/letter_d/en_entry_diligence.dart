@@ -26,7 +26,7 @@ class _EnglishEntrydiligenceState extends State<EnglishEntrydiligence> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

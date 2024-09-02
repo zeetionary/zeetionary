@@ -26,7 +26,7 @@ class _EnglishEntrycubbyholeState extends State<EnglishEntrycubbyhole> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

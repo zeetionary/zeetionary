@@ -26,7 +26,7 @@ class _EnglishEntrydetrimentState extends State<EnglishEntrydetriment> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

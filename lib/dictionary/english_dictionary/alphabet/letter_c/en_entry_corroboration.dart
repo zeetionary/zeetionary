@@ -27,7 +27,7 @@ class _EnglishEntrycorroborationState extends State<EnglishEntrycorroboration> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

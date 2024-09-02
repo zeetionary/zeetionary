@@ -26,7 +26,7 @@ class _EnglishEntrydigitizeState extends State<EnglishEntrydigitize> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

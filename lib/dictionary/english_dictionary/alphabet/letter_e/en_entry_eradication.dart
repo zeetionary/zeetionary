@@ -51,7 +51,7 @@ class _EnglishEntryeradicationState extends State<EnglishEntryeradication> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

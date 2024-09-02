@@ -26,7 +26,7 @@ class _EnglishEntrycorpulentState extends State<EnglishEntrycorpulent> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

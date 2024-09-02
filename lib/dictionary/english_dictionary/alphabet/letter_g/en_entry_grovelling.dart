@@ -113,7 +113,7 @@ Usage: Brit, Cdn (US: groveling)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

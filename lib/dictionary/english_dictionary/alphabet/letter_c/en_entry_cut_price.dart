@@ -26,7 +26,7 @@ class _EnglishEntrycutpriceState extends State<EnglishEntrycutprice> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

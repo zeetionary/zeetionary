@@ -26,7 +26,7 @@ class _EnglishEntrycyberspaceState extends State<EnglishEntrycyberspace> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

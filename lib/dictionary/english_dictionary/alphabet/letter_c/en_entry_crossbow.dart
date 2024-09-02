@@ -26,7 +26,7 @@ class _EnglishEntrycrossbowState extends State<EnglishEntrycrossbow> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

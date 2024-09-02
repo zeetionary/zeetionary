@@ -26,7 +26,7 @@ class _EnglishEntrydiagonalState extends State<EnglishEntrydiagonal> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

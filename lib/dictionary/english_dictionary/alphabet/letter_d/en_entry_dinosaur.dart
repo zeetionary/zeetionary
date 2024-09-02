@@ -26,7 +26,7 @@ class _EnglishEntrydinosaurState extends State<EnglishEntrydinosaur> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

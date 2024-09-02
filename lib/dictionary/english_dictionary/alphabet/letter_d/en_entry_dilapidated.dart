@@ -27,7 +27,7 @@ class _EnglishEntrydilapidatedState extends State<EnglishEntrydilapidated> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

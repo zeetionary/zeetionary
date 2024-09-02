@@ -26,7 +26,7 @@ class _EnglishEntrydignitaryState extends State<EnglishEntrydignitary> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

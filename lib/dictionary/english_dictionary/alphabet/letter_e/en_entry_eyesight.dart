@@ -50,7 +50,7 @@ class _EnglishEntryeyesightState extends State<EnglishEntryeyesight> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

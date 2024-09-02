@@ -50,7 +50,7 @@ class _EnglishEntryepitomizeState extends State<EnglishEntryepitomize> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

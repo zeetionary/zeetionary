@@ -27,7 +27,7 @@ class _EnglishEntrydeductibleState extends State<EnglishEntrydeductible> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

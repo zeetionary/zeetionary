@@ -51,7 +51,7 @@ class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

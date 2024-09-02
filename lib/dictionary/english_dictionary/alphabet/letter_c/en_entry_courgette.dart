@@ -26,7 +26,7 @@ class _EnglishEntrycourgetteState extends State<EnglishEntrycourgette> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

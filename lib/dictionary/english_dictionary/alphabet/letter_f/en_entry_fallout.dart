@@ -50,7 +50,7 @@ class _EnglishEntryfalloutState extends State<EnglishEntryfallout> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

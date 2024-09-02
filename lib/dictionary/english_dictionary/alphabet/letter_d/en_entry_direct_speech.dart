@@ -27,7 +27,7 @@ class _EnglishEntrydirectspeechState extends State<EnglishEntrydirectspeech> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

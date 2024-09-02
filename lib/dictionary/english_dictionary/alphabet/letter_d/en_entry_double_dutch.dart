@@ -33,7 +33,7 @@ class _EnglishEntrydoubledutchState extends State<EnglishEntrydoubledutch> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

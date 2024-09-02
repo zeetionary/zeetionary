@@ -50,7 +50,7 @@ class _EnglishEntryevennessState extends State<EnglishEntryevenness> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

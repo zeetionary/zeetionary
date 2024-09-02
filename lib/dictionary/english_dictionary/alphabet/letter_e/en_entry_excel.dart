@@ -50,7 +50,7 @@ class _EnglishEntryexcelState extends State<EnglishEntryexcel> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

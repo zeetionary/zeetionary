@@ -52,7 +52,7 @@ class _EnglishEntryexercisebookState extends State<EnglishEntryexercisebook> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -27,7 +27,7 @@ class _EnglishEntrydemonstrativeState extends State<EnglishEntrydemonstrative> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

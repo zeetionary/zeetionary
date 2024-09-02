@@ -50,7 +50,7 @@ class _EnglishEntryescalateState extends State<EnglishEntryescalate> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

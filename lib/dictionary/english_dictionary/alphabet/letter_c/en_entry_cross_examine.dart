@@ -27,7 +27,7 @@ class _EnglishEntrycrossexamineState extends State<EnglishEntrycrossexamine> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

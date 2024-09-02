@@ -26,7 +26,7 @@ class _EnglishEntrycrevasseState extends State<EnglishEntrycrevasse> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

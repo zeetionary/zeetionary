@@ -52,7 +52,7 @@ class _EnglishEntryexasperationState extends State<EnglishEntryexasperation> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

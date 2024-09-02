@@ -33,7 +33,7 @@ class _EnglishEntrydoublejointedState extends State<EnglishEntrydoublejointed> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

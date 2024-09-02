@@ -50,7 +50,7 @@ class _EnglishEntryepidemicState extends State<EnglishEntryepidemic> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

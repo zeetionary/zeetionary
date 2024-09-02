@@ -26,7 +26,7 @@ class _EnglishEntrydemocraticState extends State<EnglishEntrydemocratic> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

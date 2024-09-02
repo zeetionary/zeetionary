@@ -32,7 +32,7 @@ class _EnglishEntrydistilleryState extends State<EnglishEntrydistillery> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

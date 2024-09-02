@@ -32,7 +32,7 @@ class _EnglishEntrydivorceeState extends State<EnglishEntrydivorcee> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

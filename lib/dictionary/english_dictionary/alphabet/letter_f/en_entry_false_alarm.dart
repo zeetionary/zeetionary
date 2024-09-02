@@ -50,7 +50,7 @@ class _EnglishEntryfalsealarmState extends State<EnglishEntryfalsealarm> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

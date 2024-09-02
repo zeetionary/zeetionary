@@ -26,7 +26,7 @@ class _EnglishEntrydisciplineState extends State<EnglishEntrydiscipline> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

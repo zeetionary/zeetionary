@@ -32,7 +32,7 @@ class _EnglishEntryelectrodeState extends State<EnglishEntryelectrode> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

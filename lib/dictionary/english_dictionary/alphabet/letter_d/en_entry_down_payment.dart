@@ -33,7 +33,7 @@ class _EnglishEntrydownpaymentState extends State<EnglishEntrydownpayment> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

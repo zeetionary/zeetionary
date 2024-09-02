@@ -50,7 +50,7 @@ class _EnglishEntryenormityState extends State<EnglishEntryenormity> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

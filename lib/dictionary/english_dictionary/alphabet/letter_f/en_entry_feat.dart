@@ -50,7 +50,7 @@ class _EnglishEntryfeatState extends State<EnglishEntryfeat> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

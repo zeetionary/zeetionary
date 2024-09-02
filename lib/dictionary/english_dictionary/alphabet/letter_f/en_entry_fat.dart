@@ -50,7 +50,7 @@ class _EnglishEntryfatState extends State<EnglishEntryfat> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

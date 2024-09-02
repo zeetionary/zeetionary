@@ -51,7 +51,7 @@ class _EnglishEntryextraditionState extends State<EnglishEntryextradition> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

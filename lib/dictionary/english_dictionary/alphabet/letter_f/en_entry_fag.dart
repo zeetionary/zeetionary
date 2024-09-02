@@ -51,7 +51,7 @@ class _EnglishEntryfagState extends State<EnglishEntryfag> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

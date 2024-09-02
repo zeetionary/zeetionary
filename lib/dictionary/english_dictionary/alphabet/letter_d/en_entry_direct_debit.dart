@@ -27,7 +27,7 @@ class _EnglishEntrydirectdebitState extends State<EnglishEntrydirectdebit> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

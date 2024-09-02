@@ -32,7 +32,7 @@ class _EnglishEntryemaciatedState extends State<EnglishEntryemaciated> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

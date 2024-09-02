@@ -50,7 +50,7 @@ class _EnglishEntryenzymeState extends State<EnglishEntryenzyme> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

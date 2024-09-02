@@ -50,7 +50,7 @@ class _EnglishEntryengravingState extends State<EnglishEntryengraving> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

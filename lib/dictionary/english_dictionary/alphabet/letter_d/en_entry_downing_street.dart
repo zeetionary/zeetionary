@@ -33,7 +33,7 @@ class _EnglishEntrydowningstreetState extends State<EnglishEntrydowningstreet> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

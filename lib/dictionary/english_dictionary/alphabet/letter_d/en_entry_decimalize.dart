@@ -26,7 +26,7 @@ class _EnglishEntrydecimalizeState extends State<EnglishEntrydecimalize> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

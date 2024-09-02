@@ -26,7 +26,7 @@ class _EnglishEntrydestroyerState extends State<EnglishEntrydestroyer> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

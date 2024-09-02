@@ -33,7 +33,7 @@ class _EnglishEntryelectricchairState extends State<EnglishEntryelectricchair> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -26,7 +26,7 @@ class _EnglishEntrydiscjockeyState extends State<EnglishEntrydiscjockey> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

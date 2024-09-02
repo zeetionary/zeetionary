@@ -32,7 +32,7 @@ class _EnglishEntryeagleeyedState extends State<EnglishEntryeagleeyed> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

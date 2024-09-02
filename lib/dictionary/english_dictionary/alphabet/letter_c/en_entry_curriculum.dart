@@ -26,7 +26,7 @@ class _EnglishEntrycurriculumState extends State<EnglishEntrycurriculum> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

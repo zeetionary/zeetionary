@@ -26,7 +26,7 @@ class _EnglishEntrydiagnosticState extends State<EnglishEntrydiagnostic> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

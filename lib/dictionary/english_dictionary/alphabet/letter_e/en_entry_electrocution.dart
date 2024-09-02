@@ -33,7 +33,7 @@ class _EnglishEntryelectrocutionState extends State<EnglishEntryelectrocution> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

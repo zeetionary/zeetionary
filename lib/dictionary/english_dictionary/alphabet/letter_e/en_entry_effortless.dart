@@ -32,7 +32,7 @@ class _EnglishEntryeffortlessState extends State<EnglishEntryeffortless> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

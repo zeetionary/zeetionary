@@ -27,7 +27,7 @@ class _EnglishEntrydecimalpointState extends State<EnglishEntrydecimalpoint> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

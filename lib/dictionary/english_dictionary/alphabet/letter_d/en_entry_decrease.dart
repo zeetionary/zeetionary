@@ -26,7 +26,7 @@ class _EnglishEntrydecreaseState extends State<EnglishEntrydecrease> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

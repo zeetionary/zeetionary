@@ -51,7 +51,7 @@ class _EnglishEntryfarreachingState extends State<EnglishEntryfarreaching> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

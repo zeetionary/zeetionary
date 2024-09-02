@@ -26,7 +26,7 @@ class _EnglishEntrydewdropState extends State<EnglishEntrydewdrop> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

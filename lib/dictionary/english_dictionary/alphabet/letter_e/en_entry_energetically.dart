@@ -51,7 +51,7 @@ class _EnglishEntryenergeticallyState extends State<EnglishEntryenergetically> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

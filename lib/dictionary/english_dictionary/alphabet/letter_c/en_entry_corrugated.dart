@@ -26,7 +26,7 @@ class _EnglishEntrycorrugatedState extends State<EnglishEntrycorrugated> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

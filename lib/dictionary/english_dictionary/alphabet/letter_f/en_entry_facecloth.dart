@@ -51,7 +51,7 @@ class _EnglishEntryfaceclothState extends State<EnglishEntryfacecloth> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

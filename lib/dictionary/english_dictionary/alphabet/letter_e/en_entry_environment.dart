@@ -51,7 +51,7 @@ class _EnglishEntryenvironmentState extends State<EnglishEntryenvironment> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

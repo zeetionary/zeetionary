@@ -252,7 +252,7 @@ Usage: Brit, Cdn (US: hemorrhoid)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

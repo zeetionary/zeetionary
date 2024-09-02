@@ -51,7 +51,7 @@ class _EnglishEntryenamelledState extends State<EnglishEntryenamelled> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

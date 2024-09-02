@@ -33,7 +33,7 @@ class _EnglishEntryelbowgreaseState extends State<EnglishEntryelbowgrease> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

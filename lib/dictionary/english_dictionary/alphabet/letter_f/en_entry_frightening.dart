@@ -127,7 +127,7 @@ The act of inspiring with fear (= terrorization, terrorisation [Brit])
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

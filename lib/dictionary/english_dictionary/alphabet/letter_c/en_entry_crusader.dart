@@ -26,7 +26,7 @@ class _EnglishEntrycrusaderState extends State<EnglishEntrycrusader> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

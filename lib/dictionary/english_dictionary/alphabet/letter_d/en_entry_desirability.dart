@@ -27,7 +27,7 @@ class _EnglishEntrydesirabilityState extends State<EnglishEntrydesirability> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

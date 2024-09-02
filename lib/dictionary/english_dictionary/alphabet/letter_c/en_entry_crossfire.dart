@@ -26,7 +26,7 @@ class _EnglishEntrycrossfireState extends State<EnglishEntrycrossfire> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

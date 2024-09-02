@@ -115,7 +115,7 @@ Usage: Brit, Cdn (US: gynecological)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

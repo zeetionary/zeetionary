@@ -50,7 +50,7 @@ class _EnglishEntryfamineState extends State<EnglishEntryfamine> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

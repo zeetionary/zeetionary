@@ -27,7 +27,7 @@ class _EnglishEntrydiscernibleState extends State<EnglishEntrydiscernible> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

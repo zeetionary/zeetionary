@@ -26,7 +26,7 @@ class _EnglishEntrydeliriumState extends State<EnglishEntrydelirium> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

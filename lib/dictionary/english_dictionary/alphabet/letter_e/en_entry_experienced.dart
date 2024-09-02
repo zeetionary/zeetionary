@@ -51,7 +51,7 @@ class _EnglishEntryexperiencedState extends State<EnglishEntryexperienced> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

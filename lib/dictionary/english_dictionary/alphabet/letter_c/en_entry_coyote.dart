@@ -26,7 +26,7 @@ class _EnglishEntrycoyoteState extends State<EnglishEntrycoyote> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

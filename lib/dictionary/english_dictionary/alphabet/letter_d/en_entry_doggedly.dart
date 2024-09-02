@@ -32,7 +32,7 @@ class _EnglishEntrydoggedlyState extends State<EnglishEntrydoggedly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

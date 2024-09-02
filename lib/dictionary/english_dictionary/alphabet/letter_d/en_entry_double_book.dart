@@ -32,7 +32,7 @@ class _EnglishEntrydoublebookState extends State<EnglishEntrydoublebook> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

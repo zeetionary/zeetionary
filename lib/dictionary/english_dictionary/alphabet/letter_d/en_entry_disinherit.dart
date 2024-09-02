@@ -26,7 +26,7 @@ class _EnglishEntrydisinheritState extends State<EnglishEntrydisinherit> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

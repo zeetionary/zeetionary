@@ -32,7 +32,7 @@ class _EnglishEntrydizzilyState extends State<EnglishEntrydizzily> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

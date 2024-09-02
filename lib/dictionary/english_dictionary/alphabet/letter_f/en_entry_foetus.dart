@@ -119,7 +119,7 @@ Usage: Brit, Cdn (US: fetus)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

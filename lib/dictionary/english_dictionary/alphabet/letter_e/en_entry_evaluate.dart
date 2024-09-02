@@ -50,7 +50,7 @@ class _EnglishEntryevaluateState extends State<EnglishEntryevaluate> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

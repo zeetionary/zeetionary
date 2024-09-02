@@ -50,7 +50,7 @@ class _EnglishEntryfailureState extends State<EnglishEntryfailure> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -26,7 +26,7 @@ class _EnglishEntrydiscipleState extends State<EnglishEntrydisciple> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

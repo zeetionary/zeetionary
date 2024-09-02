@@ -26,7 +26,7 @@ class _EnglishEntrycourtesyState extends State<EnglishEntrycourtesy> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -32,7 +32,7 @@ class _EnglishEntryduffelcoatState extends State<EnglishEntryduffelcoat> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

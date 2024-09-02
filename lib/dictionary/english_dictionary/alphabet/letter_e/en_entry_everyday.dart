@@ -50,7 +50,7 @@ class _EnglishEntryeverydayState extends State<EnglishEntryeveryday> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

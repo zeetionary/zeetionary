@@ -111,7 +111,7 @@ Usage: Brit, Cdn (US: gearshift)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

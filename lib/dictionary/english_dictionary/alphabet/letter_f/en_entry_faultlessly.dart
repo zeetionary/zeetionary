@@ -51,7 +51,7 @@ class _EnglishEntryfaultlesslyState extends State<EnglishEntryfaultlessly> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -27,7 +27,7 @@ class _EnglishEntrydecaffeinatedState extends State<EnglishEntrydecaffeinated> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

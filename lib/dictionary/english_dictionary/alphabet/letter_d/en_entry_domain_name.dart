@@ -32,7 +32,7 @@ class _EnglishEntrydomainnameState extends State<EnglishEntrydomainname> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

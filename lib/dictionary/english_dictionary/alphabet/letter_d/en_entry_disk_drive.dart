@@ -26,7 +26,7 @@ class _EnglishEntrydiskdriveState extends State<EnglishEntrydiskdrive> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

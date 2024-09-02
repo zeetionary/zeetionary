@@ -26,7 +26,7 @@ class _EnglishEntrydisgraceState extends State<EnglishEntrydisgrace> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

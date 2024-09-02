@@ -50,7 +50,7 @@ class _EnglishEntryfarmhandState extends State<EnglishEntryfarmhand> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

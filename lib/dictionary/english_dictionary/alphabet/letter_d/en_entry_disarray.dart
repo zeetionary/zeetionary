@@ -26,7 +26,7 @@ class _EnglishEntrydisarrayState extends State<EnglishEntrydisarray> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

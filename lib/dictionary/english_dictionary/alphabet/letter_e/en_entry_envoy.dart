@@ -50,7 +50,7 @@ class _EnglishEntryenvoyState extends State<EnglishEntryenvoy> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -27,7 +27,7 @@ class _EnglishEntrydemerarasugarState extends State<EnglishEntrydemerarasugar> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

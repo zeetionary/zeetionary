@@ -26,7 +26,7 @@ class _EnglishEntrydeceasedState extends State<EnglishEntrydeceased> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

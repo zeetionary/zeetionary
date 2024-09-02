@@ -50,7 +50,7 @@ class _EnglishEntryfaggedState extends State<EnglishEntryfagged> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -33,7 +33,7 @@ class _EnglishEntrydowntroddenState extends State<EnglishEntrydowntrodden> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

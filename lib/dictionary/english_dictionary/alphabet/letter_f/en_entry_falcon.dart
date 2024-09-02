@@ -50,7 +50,7 @@ class _EnglishEntryfalconState extends State<EnglishEntryfalcon> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

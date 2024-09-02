@@ -32,7 +32,7 @@ class _EnglishEntrydrudgeState extends State<EnglishEntrydrudge> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

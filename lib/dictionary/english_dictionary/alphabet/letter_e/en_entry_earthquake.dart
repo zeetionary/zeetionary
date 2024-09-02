@@ -32,7 +32,7 @@ class _EnglishEntryearthquakeState extends State<EnglishEntryearthquake> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

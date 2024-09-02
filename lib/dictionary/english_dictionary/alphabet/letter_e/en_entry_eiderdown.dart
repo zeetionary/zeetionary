@@ -32,7 +32,7 @@ class _EnglishEntryeiderdownState extends State<EnglishEntryeiderdown> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

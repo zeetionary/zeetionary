@@ -26,7 +26,7 @@ class _EnglishEntrydirectoryState extends State<EnglishEntrydirectory> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

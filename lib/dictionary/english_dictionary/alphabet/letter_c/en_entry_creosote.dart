@@ -26,7 +26,7 @@ class _EnglishEntrycreosoteState extends State<EnglishEntrycreosote> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

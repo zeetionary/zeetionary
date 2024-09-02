@@ -26,7 +26,7 @@ class _EnglishEntrydeprecateState extends State<EnglishEntrydeprecate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

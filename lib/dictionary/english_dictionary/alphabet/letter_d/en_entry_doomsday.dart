@@ -32,7 +32,7 @@ class _EnglishEntrydoomsdayState extends State<EnglishEntrydoomsday> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

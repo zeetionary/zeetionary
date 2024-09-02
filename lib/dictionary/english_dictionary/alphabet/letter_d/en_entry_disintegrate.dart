@@ -27,7 +27,7 @@ class _EnglishEntrydisintegrateState extends State<EnglishEntrydisintegrate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

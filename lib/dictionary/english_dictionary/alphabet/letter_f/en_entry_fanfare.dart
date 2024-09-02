@@ -50,7 +50,7 @@ class _EnglishEntryfanfareState extends State<EnglishEntryfanfare> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -33,7 +33,7 @@ class _EnglishEntrydrawingroomState extends State<EnglishEntrydrawingroom> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -33,7 +33,7 @@ class _EnglishEntrydoubleedgedState extends State<EnglishEntrydoubleedged> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

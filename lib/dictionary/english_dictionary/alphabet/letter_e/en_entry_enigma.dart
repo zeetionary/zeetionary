@@ -50,7 +50,7 @@ class _EnglishEntryenigmaState extends State<EnglishEntryenigma> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

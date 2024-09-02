@@ -26,7 +26,7 @@ class _EnglishEntrydiscourageState extends State<EnglishEntrydiscourage> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

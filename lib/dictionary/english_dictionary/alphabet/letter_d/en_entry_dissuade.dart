@@ -32,7 +32,7 @@ class _EnglishEntrydissuadeState extends State<EnglishEntrydissuade> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

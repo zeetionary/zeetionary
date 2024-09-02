@@ -50,7 +50,7 @@ class _EnglishEntryenvelopeState extends State<EnglishEntryenvelope> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

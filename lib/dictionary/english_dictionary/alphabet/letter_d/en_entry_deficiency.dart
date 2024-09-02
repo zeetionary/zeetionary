@@ -26,7 +26,7 @@ class _EnglishEntrydeficiencyState extends State<EnglishEntrydeficiency> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

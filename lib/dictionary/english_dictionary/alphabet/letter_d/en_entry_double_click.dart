@@ -33,7 +33,7 @@ class _EnglishEntrydoubleclickState extends State<EnglishEntrydoubleclick> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

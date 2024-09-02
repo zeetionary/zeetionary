@@ -50,7 +50,7 @@ class _EnglishEntryfallacyState extends State<EnglishEntryfallacy> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

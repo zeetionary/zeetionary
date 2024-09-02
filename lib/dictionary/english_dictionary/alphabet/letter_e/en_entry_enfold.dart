@@ -50,7 +50,7 @@ class _EnglishEntryenfoldState extends State<EnglishEntryenfold> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -33,7 +33,7 @@ class _EnglishEntrydramatizationState extends State<EnglishEntrydramatization> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

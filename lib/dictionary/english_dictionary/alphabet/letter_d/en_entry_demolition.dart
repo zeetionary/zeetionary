@@ -26,7 +26,7 @@ class _EnglishEntrydemolitionState extends State<EnglishEntrydemolition> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -112,7 +112,7 @@ Usage: Brit, Cdn (US: gynecologist)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

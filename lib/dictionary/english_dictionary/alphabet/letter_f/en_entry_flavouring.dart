@@ -109,7 +109,7 @@ Usage: Brit, Cdn (US: flavoring)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

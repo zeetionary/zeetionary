@@ -51,7 +51,7 @@ class _EnglishEntryexterminateState extends State<EnglishEntryexterminate> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

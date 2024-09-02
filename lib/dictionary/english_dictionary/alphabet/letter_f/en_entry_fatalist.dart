@@ -50,7 +50,7 @@ class _EnglishEntryfatalistState extends State<EnglishEntryfatalist> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

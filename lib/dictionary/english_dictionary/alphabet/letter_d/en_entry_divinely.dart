@@ -32,7 +32,7 @@ class _EnglishEntrydivinelyState extends State<EnglishEntrydivinely> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

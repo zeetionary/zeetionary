@@ -110,7 +110,7 @@ Usage: Brit, Cdn (US: good-humored)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

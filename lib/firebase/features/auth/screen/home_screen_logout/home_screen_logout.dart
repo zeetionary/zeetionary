@@ -122,19 +122,53 @@ class _HomeScreenThreeLogoutState extends ConsumerState<HomeScreenThreeLogout> {
         ),
         body: _widgetOptions[_selectedIndex],
         bottomNavigationBar: NavigationBar(
+          // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+          // shadowColor: Theme.of(context).primaryColor,
+          // indicatorColor: Theme.of(context).primaryColor.withOpacity(0.2),
+          // surfaceTintColor: Theme.of(context).primaryColor.withOpacity(0.1),
+          // selectedIndex: _selectedIndex,
+          // onDestinationSelected: _onItemTapped,
+          // destinations: <NavigationDestination>[
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           shadowColor: Theme.of(context).primaryColor,
-          indicatorColor: Theme.of(context).primaryColor.withOpacity(0.2),
-          surfaceTintColor: Theme.of(context).primaryColor.withOpacity(0.1),
+          indicatorColor: Theme.of(context).primaryColor.withOpacity(0.1),
+          surfaceTintColor:
+              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.1),
           selectedIndex: _selectedIndex,
           onDestinationSelected: _onItemTapped,
           destinations: <NavigationDestination>[
+            // NavigationDestination(
+            //   icon: Icon(Icons.book, size: textSize + 10),
+            //   label: 'English',
+            // ),
+            // NavigationDestination(
+            //   icon: Icon(Icons.bookmark, size: textSize + 10),
+            //   label: 'کوردی',
+            // ),
             NavigationDestination(
-              icon: Icon(Icons.book, size: textSize + 10),
+              selectedIcon: Icon(
+                Icons.book,
+                size: textSize + 11,
+                color: Theme.of(context).primaryColor,
+              ),
+              icon: Icon(
+                Icons.book,
+                size: textSize + 8,
+                color: Theme.of(context).primaryColor,
+              ),
               label: 'English',
             ),
             NavigationDestination(
-              icon: Icon(Icons.bookmark, size: textSize + 10),
+              selectedIcon: Icon(
+                Icons.bookmark_outlined,
+                size: textSize + 11,
+                color: Theme.of(context).primaryColor,
+              ),
+              icon: Icon(
+                Icons.bookmark,
+                size: textSize + 8,
+                color: Theme.of(context).primaryColor,
+              ),
               label: 'کوردی',
             ),
             // NavigationDestination(
@@ -142,9 +176,14 @@ class _HomeScreenThreeLogoutState extends ConsumerState<HomeScreenThreeLogout> {
             //   label: 'Grammar',
             // ),
             NavigationDestination(
+              selectedIcon: Icon(
+                Icons.login,
+                size: textSize + 11,
+                color: Colors.red,
+              ),
               icon: Icon(
                 Icons.login,
-                size: textSize + 10,
+                size: textSize + 8,
                 color: Colors.red,
               ),
               label: 'Log in',

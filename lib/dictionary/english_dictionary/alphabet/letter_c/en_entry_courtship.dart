@@ -26,7 +26,7 @@ class _EnglishEntrycourtshipState extends State<EnglishEntrycourtship> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -120,7 +120,7 @@ Usage: Brit, Cdn (US: grueling)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

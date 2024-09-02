@@ -26,7 +26,7 @@ class _EnglishEntrycosmeticState extends State<EnglishEntrycosmetic> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

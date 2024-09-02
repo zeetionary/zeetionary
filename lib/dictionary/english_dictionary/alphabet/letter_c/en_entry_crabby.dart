@@ -26,7 +26,7 @@ class _EnglishEntrycrabbyState extends State<EnglishEntrycrabby> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

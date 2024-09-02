@@ -32,7 +32,7 @@ class _EnglishEntrydoughnutState extends State<EnglishEntrydoughnut> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryetymologyState extends State<EnglishEntryetymology> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

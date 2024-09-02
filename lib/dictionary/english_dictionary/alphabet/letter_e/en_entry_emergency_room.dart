@@ -33,7 +33,7 @@ class _EnglishEntryemergencyroomState extends State<EnglishEntryemergencyroom> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

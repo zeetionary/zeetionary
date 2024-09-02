@@ -27,7 +27,7 @@ class _EnglishEntryuninterestedState extends State<EnglishEntryuninterested> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

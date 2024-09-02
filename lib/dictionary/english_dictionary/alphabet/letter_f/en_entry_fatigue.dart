@@ -50,7 +50,7 @@ class _EnglishEntryfatigueState extends State<EnglishEntryfatigue> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

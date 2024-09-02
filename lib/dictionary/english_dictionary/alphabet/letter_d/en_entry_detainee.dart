@@ -26,7 +26,7 @@ class _EnglishEntrydetaineeState extends State<EnglishEntrydetainee> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

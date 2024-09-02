@@ -26,7 +26,7 @@ class _EnglishEntrydifficultyState extends State<EnglishEntrydifficulty> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

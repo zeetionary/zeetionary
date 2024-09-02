@@ -32,7 +32,7 @@ class _EnglishEntrydivisibleState extends State<EnglishEntrydivisible> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

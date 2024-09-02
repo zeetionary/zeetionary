@@ -26,7 +26,7 @@ class _EnglishEntrydemurelyState extends State<EnglishEntrydemurely> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

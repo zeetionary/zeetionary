@@ -50,7 +50,7 @@ class _EnglishEntryfeedbackState extends State<EnglishEntryfeedback> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

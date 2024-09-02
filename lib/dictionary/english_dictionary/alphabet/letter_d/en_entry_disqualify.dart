@@ -26,7 +26,7 @@ class _EnglishEntrydisqualifyState extends State<EnglishEntrydisqualify> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

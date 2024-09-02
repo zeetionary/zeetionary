@@ -26,7 +26,7 @@ class _EnglishEntrydaytimeState extends State<EnglishEntrydaytime> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -51,7 +51,7 @@ class _EnglishEntryexclamationState extends State<EnglishEntryexclamation> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

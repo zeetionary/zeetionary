@@ -27,7 +27,7 @@ class _EnglishEntrydiagrammaticState extends State<EnglishEntrydiagrammatic> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

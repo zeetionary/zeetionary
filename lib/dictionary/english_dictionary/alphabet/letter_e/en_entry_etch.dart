@@ -50,7 +50,7 @@ class _EnglishEntryetchState extends State<EnglishEntryetch> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

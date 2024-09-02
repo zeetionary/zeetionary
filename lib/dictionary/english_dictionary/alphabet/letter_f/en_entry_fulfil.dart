@@ -188,7 +188,7 @@ Usage: Brit, Cdn (US: fulfill)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

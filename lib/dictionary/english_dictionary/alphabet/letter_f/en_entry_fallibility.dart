@@ -51,7 +51,7 @@ class _EnglishEntryfallibilityState extends State<EnglishEntryfallibility> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

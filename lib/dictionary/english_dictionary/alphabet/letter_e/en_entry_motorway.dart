@@ -50,7 +50,7 @@ class _EnglishEntrymotorwayState extends State<EnglishEntrymotorway> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryengulfState extends State<EnglishEntryengulf> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

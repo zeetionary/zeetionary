@@ -27,7 +27,7 @@ class _EnglishEntrydevaluationState extends State<EnglishEntrydevaluation> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

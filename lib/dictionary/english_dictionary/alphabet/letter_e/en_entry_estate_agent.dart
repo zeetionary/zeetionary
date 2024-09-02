@@ -51,7 +51,7 @@ class _EnglishEntryestateagentState extends State<EnglishEntryestateagent> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

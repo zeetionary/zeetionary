@@ -26,7 +26,7 @@ class _EnglishEntrydatabaseState extends State<EnglishEntrydatabase> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryfeatheryState extends State<EnglishEntryfeathery> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

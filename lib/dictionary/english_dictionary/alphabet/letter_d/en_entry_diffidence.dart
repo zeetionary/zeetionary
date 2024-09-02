@@ -26,7 +26,7 @@ class _EnglishEntrydiffidenceState extends State<EnglishEntrydiffidence> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

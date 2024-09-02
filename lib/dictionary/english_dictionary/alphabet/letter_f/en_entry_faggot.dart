@@ -50,7 +50,7 @@ class _EnglishEntryfaggotState extends State<EnglishEntryfaggot> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -27,7 +27,7 @@ class _EnglishEntrydinnerjacketState extends State<EnglishEntrydinnerjacket> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

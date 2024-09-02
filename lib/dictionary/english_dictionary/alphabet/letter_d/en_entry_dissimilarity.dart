@@ -33,7 +33,7 @@ class _EnglishEntrydissimilarityState extends State<EnglishEntrydissimilarity> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

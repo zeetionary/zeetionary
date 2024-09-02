@@ -32,7 +32,7 @@ class _EnglishEntrydistraughtState extends State<EnglishEntrydistraught> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

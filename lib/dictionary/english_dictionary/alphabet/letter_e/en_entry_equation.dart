@@ -50,7 +50,7 @@ class _EnglishEntryequationState extends State<EnglishEntryequation> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

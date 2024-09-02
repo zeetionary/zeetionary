@@ -27,7 +27,7 @@ class _EnglishEntrydisparagingState extends State<EnglishEntrydisparaging> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

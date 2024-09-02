@@ -51,7 +51,7 @@ class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

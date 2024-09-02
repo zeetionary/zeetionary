@@ -26,7 +26,7 @@ class _EnglishEntrycrosspieceState extends State<EnglishEntrycrosspiece> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

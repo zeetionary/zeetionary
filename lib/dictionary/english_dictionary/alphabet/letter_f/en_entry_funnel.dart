@@ -148,7 +148,7 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

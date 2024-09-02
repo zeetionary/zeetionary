@@ -32,7 +32,7 @@ class _EnglishEntryelectrifyState extends State<EnglishEntryelectrify> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

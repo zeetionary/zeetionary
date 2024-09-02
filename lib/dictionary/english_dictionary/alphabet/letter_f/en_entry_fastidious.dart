@@ -50,7 +50,7 @@ class _EnglishEntryfastidiousState extends State<EnglishEntryfastidious> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

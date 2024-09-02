@@ -110,7 +110,7 @@ Usage: N. Amer (elsewhere: petrol)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

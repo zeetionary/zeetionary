@@ -27,7 +27,7 @@ class _EnglishEntrydifferentiateState extends State<EnglishEntrydifferentiate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

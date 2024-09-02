@@ -50,7 +50,7 @@ class _EnglishEntryenrouteState extends State<EnglishEntryenroute> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

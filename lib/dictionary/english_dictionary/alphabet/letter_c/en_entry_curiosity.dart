@@ -26,7 +26,7 @@ class _EnglishEntrycuriosityState extends State<EnglishEntrycuriosity> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -26,7 +26,7 @@ class _EnglishEntrycuckooState extends State<EnglishEntrycuckoo> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

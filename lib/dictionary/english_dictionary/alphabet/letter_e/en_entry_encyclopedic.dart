@@ -52,7 +52,7 @@ class _EnglishEntryencyclopedicState extends State<EnglishEntryencyclopedic> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryeucalyptusState extends State<EnglishEntryeucalyptus> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -33,7 +33,7 @@ class _EnglishEntrydoubledeckerState extends State<EnglishEntrydoubledecker> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

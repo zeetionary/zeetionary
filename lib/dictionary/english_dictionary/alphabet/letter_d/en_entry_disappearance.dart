@@ -27,7 +27,7 @@ class _EnglishEntrydisappearanceState extends State<EnglishEntrydisappearance> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

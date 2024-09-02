@@ -50,7 +50,7 @@ class _EnglishEntryevadeState extends State<EnglishEntryevade> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

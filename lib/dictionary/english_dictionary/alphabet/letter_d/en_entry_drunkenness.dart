@@ -33,7 +33,7 @@ class _EnglishEntrydrunkennessState extends State<EnglishEntrydrunkenness> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

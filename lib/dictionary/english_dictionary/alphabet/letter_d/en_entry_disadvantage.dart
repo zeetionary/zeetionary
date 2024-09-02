@@ -27,7 +27,7 @@ class _EnglishEntrydisadvantageState extends State<EnglishEntrydisadvantage> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

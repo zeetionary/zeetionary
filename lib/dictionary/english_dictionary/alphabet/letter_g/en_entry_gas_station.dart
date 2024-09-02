@@ -109,7 +109,7 @@ Usage: N. Amer (elsewhere: petrol station)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

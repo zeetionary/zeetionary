@@ -50,7 +50,7 @@ class _EnglishEntryfarawayState extends State<EnglishEntryfaraway> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

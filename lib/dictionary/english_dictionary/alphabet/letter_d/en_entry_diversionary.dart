@@ -33,7 +33,7 @@ class _EnglishEntrydiversionaryState extends State<EnglishEntrydiversionary> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

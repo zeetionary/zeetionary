@@ -32,7 +32,7 @@ class _EnglishEntrydormitoryState extends State<EnglishEntrydormitory> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

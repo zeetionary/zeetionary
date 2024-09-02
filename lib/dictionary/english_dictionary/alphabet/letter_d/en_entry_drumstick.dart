@@ -32,7 +32,7 @@ class _EnglishEntrydrumstickState extends State<EnglishEntrydrumstick> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

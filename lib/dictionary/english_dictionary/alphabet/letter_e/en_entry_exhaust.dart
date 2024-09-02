@@ -50,7 +50,7 @@ class _EnglishEntryexhaustState extends State<EnglishEntryexhaust> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

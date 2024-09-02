@@ -33,7 +33,7 @@ class _EnglishEntryecofriendlyState extends State<EnglishEntryecofriendly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

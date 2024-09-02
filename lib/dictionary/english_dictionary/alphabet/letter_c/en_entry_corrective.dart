@@ -26,7 +26,7 @@ class _EnglishEntrycorrectiveState extends State<EnglishEntrycorrective> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

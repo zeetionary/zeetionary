@@ -50,7 +50,7 @@ class _EnglishEntryfebruaryState extends State<EnglishEntryfebruary> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

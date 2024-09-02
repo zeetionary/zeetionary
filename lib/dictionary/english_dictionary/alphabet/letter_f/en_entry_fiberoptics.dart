@@ -111,7 +111,7 @@ Usage: US (elsewhere: fibreoptics)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

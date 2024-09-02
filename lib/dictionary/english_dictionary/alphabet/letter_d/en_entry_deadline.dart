@@ -26,7 +26,7 @@ class _EnglishEntrydeadlineState extends State<EnglishEntrydeadline> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

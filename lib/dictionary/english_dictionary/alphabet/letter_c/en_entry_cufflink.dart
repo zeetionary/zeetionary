@@ -26,7 +26,7 @@ class _EnglishEntrycufflinkState extends State<EnglishEntrycufflink> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

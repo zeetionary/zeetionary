@@ -32,7 +32,7 @@ class _EnglishEntrydreamlikeState extends State<EnglishEntrydreamlike> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

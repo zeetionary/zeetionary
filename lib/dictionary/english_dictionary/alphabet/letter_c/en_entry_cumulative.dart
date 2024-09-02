@@ -26,7 +26,7 @@ class _EnglishEntrycumulativeState extends State<EnglishEntrycumulative> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

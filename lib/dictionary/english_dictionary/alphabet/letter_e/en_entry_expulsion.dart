@@ -50,7 +50,7 @@ class _EnglishEntryexpulsionState extends State<EnglishEntryexpulsion> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

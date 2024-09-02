@@ -26,7 +26,7 @@ class _EnglishEntrycrescendoState extends State<EnglishEntrycrescendo> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

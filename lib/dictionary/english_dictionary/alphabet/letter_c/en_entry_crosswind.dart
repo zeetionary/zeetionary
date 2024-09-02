@@ -26,7 +26,7 @@ class _EnglishEntrycrosswindState extends State<EnglishEntrycrosswind> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

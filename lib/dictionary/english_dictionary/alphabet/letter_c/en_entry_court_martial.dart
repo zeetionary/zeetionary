@@ -27,7 +27,7 @@ class _EnglishEntrycourtmartialState extends State<EnglishEntrycourtmartial> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

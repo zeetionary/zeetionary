@@ -951,7 +951,7 @@ Usage: Brit, Cdn (US: hemorrhage)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

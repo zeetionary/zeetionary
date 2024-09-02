@@ -26,7 +26,7 @@ class _EnglishEntrydaydreamState extends State<EnglishEntrydaydream> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

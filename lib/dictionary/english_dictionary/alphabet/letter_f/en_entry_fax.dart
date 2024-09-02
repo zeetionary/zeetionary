@@ -50,7 +50,7 @@ class _EnglishEntryfaxState extends State<EnglishEntryfax> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

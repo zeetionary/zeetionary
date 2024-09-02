@@ -50,7 +50,7 @@ class _EnglishEntryensignState extends State<EnglishEntryensign> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

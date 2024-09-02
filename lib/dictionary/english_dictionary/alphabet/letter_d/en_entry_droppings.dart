@@ -32,7 +32,7 @@ class _EnglishEntrydroppingsState extends State<EnglishEntrydroppings> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

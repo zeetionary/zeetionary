@@ -27,7 +27,7 @@ class _EnglishEntrydisconnectedState extends State<EnglishEntrydisconnected> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

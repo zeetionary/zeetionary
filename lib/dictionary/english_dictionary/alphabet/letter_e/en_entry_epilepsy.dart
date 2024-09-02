@@ -50,7 +50,7 @@ class _EnglishEntryepilepsyState extends State<EnglishEntryepilepsy> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

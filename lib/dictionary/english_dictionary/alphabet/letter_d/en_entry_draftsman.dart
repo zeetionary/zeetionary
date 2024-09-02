@@ -32,7 +32,7 @@ class _EnglishEntrydraftsmanState extends State<EnglishEntrydraftsman> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

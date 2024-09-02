@@ -50,7 +50,7 @@ class _EnglishEntryevacuationState extends State<EnglishEntryevacuation> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

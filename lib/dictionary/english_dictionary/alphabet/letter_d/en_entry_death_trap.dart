@@ -26,7 +26,7 @@ class _EnglishEntrydeathtrapState extends State<EnglishEntrydeathtrap> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

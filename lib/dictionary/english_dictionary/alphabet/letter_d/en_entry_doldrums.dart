@@ -32,7 +32,7 @@ class _EnglishEntrydoldrumsState extends State<EnglishEntrydoldrums> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

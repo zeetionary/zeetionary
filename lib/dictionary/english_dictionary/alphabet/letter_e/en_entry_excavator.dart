@@ -50,7 +50,7 @@ class _EnglishEntryexcavatorState extends State<EnglishEntryexcavator> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

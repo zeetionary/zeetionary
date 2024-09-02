@@ -32,7 +32,7 @@ class _EnglishEntrydogsbodyState extends State<EnglishEntrydogsbody> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

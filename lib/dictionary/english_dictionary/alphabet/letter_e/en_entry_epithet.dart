@@ -50,7 +50,7 @@ class _EnglishEntryepithetState extends State<EnglishEntryepithet> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

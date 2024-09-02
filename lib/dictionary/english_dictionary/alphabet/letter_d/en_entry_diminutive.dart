@@ -26,7 +26,7 @@ class _EnglishEntrydiminutiveState extends State<EnglishEntrydiminutive> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

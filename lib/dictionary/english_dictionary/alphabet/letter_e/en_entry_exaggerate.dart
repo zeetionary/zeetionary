@@ -50,7 +50,7 @@ class _EnglishEntryexaggerateState extends State<EnglishEntryexaggerate> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

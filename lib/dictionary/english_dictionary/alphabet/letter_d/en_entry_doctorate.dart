@@ -32,7 +32,7 @@ class _EnglishEntrydoctorateState extends State<EnglishEntrydoctorate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

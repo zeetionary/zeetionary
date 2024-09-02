@@ -50,7 +50,7 @@ class _EnglishEntryexhalationState extends State<EnglishEntryexhalation> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

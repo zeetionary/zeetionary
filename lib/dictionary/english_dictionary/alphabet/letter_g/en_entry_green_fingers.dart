@@ -112,7 +112,7 @@ Usage: Brit (N. Amer: green thumb)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

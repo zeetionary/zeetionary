@@ -51,7 +51,7 @@ class _EnglishEntryextramaritalState extends State<EnglishEntryextramarital> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

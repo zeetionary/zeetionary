@@ -51,7 +51,7 @@ class _EnglishEntryexpectationState extends State<EnglishEntryexpectation> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

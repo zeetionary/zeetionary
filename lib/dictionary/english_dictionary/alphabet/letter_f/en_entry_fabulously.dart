@@ -50,7 +50,7 @@ class _EnglishEntryfabulouslyState extends State<EnglishEntryfabulously> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

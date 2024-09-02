@@ -51,7 +51,7 @@ class _EnglishEntryfarmersmarketState extends State<EnglishEntryfarmersmarket> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

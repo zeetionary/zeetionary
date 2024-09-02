@@ -26,7 +26,7 @@ class _EnglishEntrycrockeryState extends State<EnglishEntrycrockery> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

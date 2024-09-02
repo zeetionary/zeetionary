@@ -51,7 +51,7 @@ class _EnglishEntryextrapolateState extends State<EnglishEntryextrapolate> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

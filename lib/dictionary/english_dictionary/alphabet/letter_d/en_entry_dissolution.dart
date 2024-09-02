@@ -33,7 +33,7 @@ class _EnglishEntrydissolutionState extends State<EnglishEntrydissolution> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

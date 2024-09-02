@@ -26,7 +26,7 @@ class _EnglishEntrydisgorgeState extends State<EnglishEntrydisgorge> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

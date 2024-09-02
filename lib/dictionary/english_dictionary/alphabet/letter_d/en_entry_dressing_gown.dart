@@ -34,7 +34,7 @@ class _EnglishEntrydressinggownState extends State<EnglishEntrydressinggown> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

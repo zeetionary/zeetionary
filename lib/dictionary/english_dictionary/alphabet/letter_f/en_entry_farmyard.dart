@@ -50,7 +50,7 @@ class _EnglishEntryfarmyardState extends State<EnglishEntryfarmyard> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

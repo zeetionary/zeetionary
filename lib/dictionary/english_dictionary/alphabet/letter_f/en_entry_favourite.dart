@@ -50,7 +50,7 @@ class _EnglishEntryfavouriteState extends State<EnglishEntryfavourite> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

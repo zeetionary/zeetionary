@@ -33,7 +33,7 @@ class _EnglishEntrydistastefulState extends State<EnglishEntrydistasteful> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

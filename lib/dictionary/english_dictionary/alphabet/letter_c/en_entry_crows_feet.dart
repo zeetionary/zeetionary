@@ -26,7 +26,7 @@ class _EnglishEntrycrowsfeetState extends State<EnglishEntrycrowsfeet> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

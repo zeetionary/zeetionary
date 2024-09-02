@@ -27,7 +27,7 @@ class _EnglishEntrydeprivationState extends State<EnglishEntrydeprivation> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

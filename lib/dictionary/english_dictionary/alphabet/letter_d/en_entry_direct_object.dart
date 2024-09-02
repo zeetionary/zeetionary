@@ -27,7 +27,7 @@ class _EnglishEntrydirectobjectState extends State<EnglishEntrydirectobject> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

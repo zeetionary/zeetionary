@@ -51,7 +51,7 @@ class _EnglishEntryerraticallyState extends State<EnglishEntryerratically> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

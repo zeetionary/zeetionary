@@ -50,7 +50,7 @@ class _EnglishEntryfbiState extends State<EnglishEntryfbi> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

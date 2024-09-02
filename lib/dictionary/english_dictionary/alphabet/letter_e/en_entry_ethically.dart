@@ -50,7 +50,7 @@ class _EnglishEntryethicallyState extends State<EnglishEntryethically> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

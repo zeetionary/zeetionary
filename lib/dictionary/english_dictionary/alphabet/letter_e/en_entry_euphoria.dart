@@ -50,7 +50,7 @@ class _EnglishEntryeuphoriaState extends State<EnglishEntryeuphoria> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

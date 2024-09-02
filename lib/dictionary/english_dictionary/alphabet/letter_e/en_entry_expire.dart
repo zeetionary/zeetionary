@@ -50,7 +50,7 @@ class _EnglishEntryexpireState extends State<EnglishEntryexpire> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

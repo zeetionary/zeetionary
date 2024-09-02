@@ -50,7 +50,7 @@ class _EnglishEntryepitomeState extends State<EnglishEntryepitome> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

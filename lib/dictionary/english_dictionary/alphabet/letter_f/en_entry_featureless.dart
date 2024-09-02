@@ -51,7 +51,7 @@ class _EnglishEntryfeaturelessState extends State<EnglishEntryfeatureless> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

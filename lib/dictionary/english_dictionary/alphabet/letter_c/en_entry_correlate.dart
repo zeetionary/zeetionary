@@ -26,7 +26,7 @@ class _EnglishEntrycorrelateState extends State<EnglishEntrycorrelate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -32,7 +32,7 @@ class _EnglishEntryeffeminateState extends State<EnglishEntryeffeminate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

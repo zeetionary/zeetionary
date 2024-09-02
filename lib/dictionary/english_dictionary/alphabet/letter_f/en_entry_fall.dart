@@ -51,7 +51,7 @@ class _EnglishEntryfallState extends State<EnglishEntryfall> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

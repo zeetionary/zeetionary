@@ -26,7 +26,7 @@ class _EnglishEntrydiaphragmState extends State<EnglishEntrydiaphragm> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

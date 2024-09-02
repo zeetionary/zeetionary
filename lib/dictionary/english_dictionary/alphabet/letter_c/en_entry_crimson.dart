@@ -26,7 +26,7 @@ class _EnglishEntrycrimsonState extends State<EnglishEntrycrimson> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

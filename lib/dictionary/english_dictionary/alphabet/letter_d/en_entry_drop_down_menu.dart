@@ -33,7 +33,7 @@ class _EnglishEntrydropdownmenuState extends State<EnglishEntrydropdownmenu> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -51,7 +51,7 @@ class _EnglishEntryexhibitionismState extends State<EnglishEntryexhibitionism> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

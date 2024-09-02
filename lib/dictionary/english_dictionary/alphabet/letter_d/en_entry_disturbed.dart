@@ -32,7 +32,7 @@ class _EnglishEntrydisturbedState extends State<EnglishEntrydisturbed> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -51,7 +51,7 @@ class _EnglishEntryfacetiouslyState extends State<EnglishEntryfacetiously> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

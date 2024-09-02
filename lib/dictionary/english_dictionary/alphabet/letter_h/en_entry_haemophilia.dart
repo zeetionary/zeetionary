@@ -945,7 +945,7 @@ Usage: Brit, Cdn (US: hemophilia)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -27,7 +27,7 @@ class _EnglishEntrydefencelessState extends State<EnglishEntrydefenceless> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

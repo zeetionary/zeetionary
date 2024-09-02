@@ -33,7 +33,7 @@ class _EnglishEntrydowntoearthState extends State<EnglishEntrydowntoearth> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

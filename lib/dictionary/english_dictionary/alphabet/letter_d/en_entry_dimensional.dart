@@ -27,7 +27,7 @@ class _EnglishEntrydimensionalState extends State<EnglishEntrydimensional> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

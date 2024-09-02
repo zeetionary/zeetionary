@@ -26,7 +26,7 @@ class _EnglishEntrydishwasherState extends State<EnglishEntrydishwasher> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -51,7 +51,7 @@ class _EnglishEntryexcruciatingState extends State<EnglishEntryexcruciating> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

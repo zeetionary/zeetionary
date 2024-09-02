@@ -32,7 +32,7 @@ class _EnglishEntrydownandoutState extends State<EnglishEntrydownandout> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryengageState extends State<EnglishEntryengage> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

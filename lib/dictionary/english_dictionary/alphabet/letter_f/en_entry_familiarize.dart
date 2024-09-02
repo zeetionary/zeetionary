@@ -51,7 +51,7 @@ class _EnglishEntryfamiliarizeState extends State<EnglishEntryfamiliarize> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

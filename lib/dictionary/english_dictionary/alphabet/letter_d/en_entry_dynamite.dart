@@ -32,7 +32,7 @@ class _EnglishEntrydynamiteState extends State<EnglishEntrydynamite> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -127,7 +127,7 @@ A member of the people living in Australia when Europeans arrived (= Aborigine, 
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

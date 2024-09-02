@@ -26,7 +26,7 @@ class _EnglishEntrydiningcarState extends State<EnglishEntrydiningcar> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

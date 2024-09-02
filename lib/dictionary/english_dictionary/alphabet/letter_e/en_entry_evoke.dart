@@ -50,7 +50,7 @@ class _EnglishEntryevokeState extends State<EnglishEntryevoke> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

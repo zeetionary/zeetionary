@@ -32,7 +32,7 @@ class _EnglishEntrydustsheetState extends State<EnglishEntrydustsheet> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

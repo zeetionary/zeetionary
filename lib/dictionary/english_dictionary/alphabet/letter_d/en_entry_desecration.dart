@@ -27,7 +27,7 @@ class _EnglishEntrydesecrationState extends State<EnglishEntrydesecration> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

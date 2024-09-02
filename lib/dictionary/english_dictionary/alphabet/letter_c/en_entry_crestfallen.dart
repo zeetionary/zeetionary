@@ -27,7 +27,7 @@ class _EnglishEntrycrestfallenState extends State<EnglishEntrycrestfallen> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

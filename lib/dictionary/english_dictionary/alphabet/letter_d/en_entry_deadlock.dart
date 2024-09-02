@@ -26,7 +26,7 @@ class _EnglishEntrydeadlockState extends State<EnglishEntrydeadlock> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

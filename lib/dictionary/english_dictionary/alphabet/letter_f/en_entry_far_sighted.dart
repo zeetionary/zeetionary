@@ -50,7 +50,7 @@ class _EnglishEntryfarsightedState extends State<EnglishEntryfarsighted> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -26,7 +26,7 @@ class _EnglishEntrydecrepitState extends State<EnglishEntrydecrepit> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

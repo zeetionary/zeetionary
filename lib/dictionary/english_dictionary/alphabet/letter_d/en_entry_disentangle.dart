@@ -27,7 +27,7 @@ class _EnglishEntrydisentangleState extends State<EnglishEntrydisentangle> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

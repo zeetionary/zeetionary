@@ -51,7 +51,7 @@ class _EnglishEntryencyclopediaState extends State<EnglishEntryencyclopedia> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

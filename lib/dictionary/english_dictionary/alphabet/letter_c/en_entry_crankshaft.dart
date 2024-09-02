@@ -26,7 +26,7 @@ class _EnglishEntrycrankshaftState extends State<EnglishEntrycrankshaft> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -947,7 +947,7 @@ Usage: Brit, Cdn (US: hemophiliac)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

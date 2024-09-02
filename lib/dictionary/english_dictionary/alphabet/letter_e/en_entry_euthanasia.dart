@@ -50,7 +50,7 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -26,7 +26,7 @@ class _EnglishEntrynetcurtainState extends State<EnglishEntrynetcurtain> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

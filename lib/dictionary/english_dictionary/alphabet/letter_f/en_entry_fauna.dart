@@ -50,7 +50,7 @@ class _EnglishEntryfaunaState extends State<EnglishEntryfauna> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

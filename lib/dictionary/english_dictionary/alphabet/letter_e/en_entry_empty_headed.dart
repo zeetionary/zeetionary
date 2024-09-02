@@ -51,7 +51,7 @@ class _EnglishEntryemptyheadedState extends State<EnglishEntryemptyheaded> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

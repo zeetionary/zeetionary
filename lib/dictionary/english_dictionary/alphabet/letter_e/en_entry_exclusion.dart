@@ -50,7 +50,7 @@ class _EnglishEntryexclusionState extends State<EnglishEntryexclusion> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

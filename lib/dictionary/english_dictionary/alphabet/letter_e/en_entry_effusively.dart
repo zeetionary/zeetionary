@@ -32,7 +32,7 @@ class _EnglishEntryeffusivelyState extends State<EnglishEntryeffusively> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

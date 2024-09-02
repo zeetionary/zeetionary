@@ -27,7 +27,7 @@ class _EnglishEntrydesertislandState extends State<EnglishEntrydesertisland> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -26,7 +26,7 @@ class _EnglishEntrydiffusionState extends State<EnglishEntrydiffusion> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

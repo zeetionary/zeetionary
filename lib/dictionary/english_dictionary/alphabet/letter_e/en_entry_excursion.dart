@@ -50,7 +50,7 @@ class _EnglishEntryexcursionState extends State<EnglishEntryexcursion> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

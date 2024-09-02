@@ -27,7 +27,7 @@ class _EnglishEntrycredibilityState extends State<EnglishEntrycredibility> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

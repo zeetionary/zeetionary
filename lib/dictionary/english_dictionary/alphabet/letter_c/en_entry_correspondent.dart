@@ -27,7 +27,7 @@ class _EnglishEntrycorrespondentState extends State<EnglishEntrycorrespondent> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

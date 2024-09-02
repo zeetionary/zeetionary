@@ -51,7 +51,7 @@ class _EnglishEntryfabricationState extends State<EnglishEntryfabrication> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

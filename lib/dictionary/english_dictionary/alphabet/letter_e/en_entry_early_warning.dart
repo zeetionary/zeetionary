@@ -33,7 +33,7 @@ class _EnglishEntryearlywarningState extends State<EnglishEntryearlywarning> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

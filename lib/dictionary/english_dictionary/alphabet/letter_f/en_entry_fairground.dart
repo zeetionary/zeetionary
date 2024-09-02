@@ -50,7 +50,7 @@ class _EnglishEntryfairgroundState extends State<EnglishEntryfairground> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

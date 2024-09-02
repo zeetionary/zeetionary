@@ -32,7 +32,7 @@ class _EnglishEntrydummyrunState extends State<EnglishEntrydummyrun> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

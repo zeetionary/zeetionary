@@ -32,7 +32,7 @@ class _EnglishEntrydrivebyState extends State<EnglishEntrydriveby> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

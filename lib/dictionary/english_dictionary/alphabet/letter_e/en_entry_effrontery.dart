@@ -32,7 +32,7 @@ class _EnglishEntryeffronteryState extends State<EnglishEntryeffrontery> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -50,7 +50,7 @@ class _EnglishEntryestuaryState extends State<EnglishEntryestuary> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

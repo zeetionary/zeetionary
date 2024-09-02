@@ -26,7 +26,7 @@ class _EnglishEntrydeclutterState extends State<EnglishEntrydeclutter> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

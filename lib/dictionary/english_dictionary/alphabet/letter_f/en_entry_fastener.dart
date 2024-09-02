@@ -50,7 +50,7 @@ class _EnglishEntryfastenerState extends State<EnglishEntryfastener> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

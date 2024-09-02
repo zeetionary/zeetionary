@@ -50,7 +50,7 @@ class _EnglishEntryexcitableState extends State<EnglishEntryexcitable> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

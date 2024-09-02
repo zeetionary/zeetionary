@@ -33,7 +33,7 @@ class _EnglishEntrydoubledealingState extends State<EnglishEntrydoubledealing> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

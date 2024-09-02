@@ -26,7 +26,7 @@ class _EnglishEntrydisclosureState extends State<EnglishEntrydisclosure> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -32,7 +32,7 @@ class _EnglishEntrydrawingpinState extends State<EnglishEntrydrawingpin> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

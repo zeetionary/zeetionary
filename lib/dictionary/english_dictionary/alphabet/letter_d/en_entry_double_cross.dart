@@ -33,7 +33,7 @@ class _EnglishEntrydoublecrossState extends State<EnglishEntrydoublecross> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

@@ -26,7 +26,7 @@ class _EnglishEntryhandcuffsState extends State<EnglishEntryhandcuffs> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

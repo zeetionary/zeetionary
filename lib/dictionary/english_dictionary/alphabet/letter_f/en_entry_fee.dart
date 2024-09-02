@@ -50,7 +50,7 @@ class _EnglishEntryfeeState extends State<EnglishEntryfee> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

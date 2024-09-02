@@ -51,7 +51,7 @@ class _EnglishEntryfacsimileState extends State<EnglishEntryfacsimile> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

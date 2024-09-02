@@ -32,7 +32,7 @@ class _EnglishEntryeavesdropState extends State<EnglishEntryeavesdrop> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

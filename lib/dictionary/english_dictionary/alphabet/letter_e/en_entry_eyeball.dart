@@ -50,7 +50,7 @@ class _EnglishEntryeyeballState extends State<EnglishEntryeyeball> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

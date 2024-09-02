@@ -167,7 +167,7 @@ Verb: gloss (derived forms: glosses, glossed, glossing)
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

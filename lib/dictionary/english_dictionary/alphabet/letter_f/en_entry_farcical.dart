@@ -50,7 +50,7 @@ class _EnglishEntryfarcicalState extends State<EnglishEntryfarcical> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

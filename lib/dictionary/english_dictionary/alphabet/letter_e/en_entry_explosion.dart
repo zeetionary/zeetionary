@@ -50,7 +50,7 @@ class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

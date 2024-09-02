@@ -127,7 +127,7 @@ A lack of affection or enthusiasm (= coldness, coolness, frigidness, iciness, ch
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

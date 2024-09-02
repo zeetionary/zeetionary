@@ -50,7 +50,7 @@ class _EnglishEntrynotebookState extends State<EnglishEntrynotebook> {
                     ),
                   ),
                 ),
-                bottom: const TabBar(
+                bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

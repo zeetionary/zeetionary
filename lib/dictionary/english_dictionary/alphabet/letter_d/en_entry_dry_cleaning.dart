@@ -33,7 +33,7 @@ class _EnglishEntrydrycleaningState extends State<EnglishEntrydrycleaning> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

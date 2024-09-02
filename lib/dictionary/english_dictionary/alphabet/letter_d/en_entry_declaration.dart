@@ -27,7 +27,7 @@ class _EnglishEntrydeclarationState extends State<EnglishEntrydeclaration> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

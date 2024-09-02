@@ -26,7 +26,7 @@ class _EnglishEntrydiabolicalState extends State<EnglishEntrydiabolical> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: EntryAndIPA(),
                 ),
-                bottom: TabBar(
+                bottom: CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

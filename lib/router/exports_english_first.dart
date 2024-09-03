@@ -5242,15 +5242,15 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_hibernation.dart' show EnglishEntryhibernation
 // en_entry_hiccup.dart' show EnglishEntryhiccup
 // en_entry_hide.dart' show EnglishEntryhide
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hideaway.dart' show EnglishEntryhideaway
+// en_entry_hideout.dart' show EnglishEntryhideout
+// en_entry_hiding_place.dart' show EnglishEntryhidingplace //// فففف hiding place
+// en_entry_hideous.dart' show EnglishEntryhideous
+// en_entry_hideously.dart' show EnglishEntryhideously
+// en_entry_hiding.dart' show EnglishEntryhiding
+// en_entry_hierarchy.dart' show EnglishEntryhierarchy
+// en_entry_hi_fi.dart' show EnglishEntryhifi //// ffff hi-fi
+// en_entry_high.dart' show EnglishEntryhigh
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

@@ -319,7 +319,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێکی بێزارکەر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She thought her neighbor was an old fart.""",
             kurdishText:
@@ -329,7 +328,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) تڕدانەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He tried not to fart during the exam.""",
             kurdishText: """ھەوڵی دا تڕ نەداتەوە لە ماوەی تاقیکردنەوەکە.""",

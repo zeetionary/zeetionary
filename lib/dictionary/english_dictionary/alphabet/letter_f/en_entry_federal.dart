@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) پەیوەندیدار بە حکومەتێکی نیشتیمانی نەک خۆجێیی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """New federal regulations have been introduced.""",
             kurdishText: """ڕێسای تازەی فیدراڵی دانراون.""",

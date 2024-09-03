@@ -266,7 +266,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەشێوەیەک کە کەسێک حەز ناکات شتەکان شپرزە یان شێواو بن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Henry was fastidiously clean by the standards of the age.""",

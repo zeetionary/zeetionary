@@ -287,7 +287,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) پێکھاتەی سەرەکیی کۆمەڵگایەک، دامەزراوەیەک، ھتد کە وا دەکات سەرکەوتوو بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The government's policies have destroyed the social fabric.""",
@@ -300,7 +299,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) پێکھاتەی سەرەکیی بینایەک، وەک دیوارەکان، زەوییەکەی، و بنبانەکەی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The city retains much of its historic fabric.""",
             kurdishText: """شارەکە زۆرێک لە پێکھاتە سەرەکییەکانیی پاراستووە.""",

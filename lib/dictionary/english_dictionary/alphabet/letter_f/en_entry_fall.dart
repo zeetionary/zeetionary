@@ -788,7 +788,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) لەناکاو کەوتن بە زەویدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She slipped on the ice and fell.""",
             kurdishText: """لەسەر سەھۆڵەکە خلیسکا و کەوت.""",
@@ -843,7 +842,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) کەمبوون لە بڕ، ژمارە، یان ھێز"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Prices continued to fall on the stock market today.""",
@@ -893,7 +891,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) بوون بە شتێک یان چوونە دۆخێکەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He had fallen asleep on the sofa.""",
             kurdishText: """لەسەر قەنەفەکە خەوی لێ‌کەوتبوو.""",
@@ -982,7 +979,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) شۆڕبوونەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Her hair fell over her shoulders in a mass of curls.""",
@@ -993,7 +989,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (کردار) لێژبوونەوە بەرەوخوارەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The land falls away sharply towards the river.""",
             kurdishText: """زەوییەکە بە توندی لێژ دەبێتەوە بەرەو ڕووبارەکە.""",
@@ -1003,7 +998,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (کردار) شکستھێنان یان دەستگیرکران"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The coup failed but the government fell shortly afterwards.""",
@@ -1021,7 +1015,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٨. (کردار) مردن لە جەنگدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The town built a memorial to those who fell in the two world wars.""",
@@ -1033,7 +1026,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (کردار) ھاتن بەخێرایی و لەناکاو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """A sudden silence fell.""",
             kurdishText: """بێ‌دەنگییەکی لەناکاو درووست بوو.""",
@@ -1050,7 +1042,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """١٠. (کردار) ڕوودان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """My birthday falls on a Monday this year.""",
             kurdishText: """ڕۆژی لەدایکبوونم ئەمساڵ دووشەممە دەبێت.""",
@@ -1061,7 +1052,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١١. (کردار) جوڵان یان ھاتن لە ئاراستە یان شوێنێکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Which syllable does the stress fall on?""",
             kurdishText: """زەبرەکە دەکەوێتە سەر کام بڕگە؟""",
@@ -1080,7 +1070,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٢. (کردار) ئەوەی سەر بە گرووپێک، چینێک، یان ناوچەیەکی بەرپرسیاریەتی بیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """This case falls outside my jurisdiction.""",
             kurdishText: """ئەمە لە دەرەوەی دەسەڵاتی منە.""",
@@ -1098,7 +1087,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """١٣. (ناو) کەوتن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I had a bad fall and broke my arm.""",
             kurdishText: """کەوتنێکی خراپم کرد و باڵمم شکاند.""",
@@ -1124,7 +1112,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٤. (ناو) بڕێک لە بەفر، باران، بەرد، ھتد کە باریوە یان کەوتووە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Roads were blocked due to a heavy fall of snow.""",
             kurdishText:
@@ -1152,7 +1139,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """١٦. (ناو) کەمبوون لە ژمارە، ئەندازە، ئاست، یان ڕێژە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Share prices suffered a slight fall yesterday.""",
             kurdishText: """نرخی پشکەکان دوێنێ تووشی کەمێک دابەزین بوون.""",
@@ -1181,7 +1167,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٧. (ناو) لەدەستدانی ھێز یان سەرکەوتنی سیاسی، ئابووری، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The scandal undoubtedly contributed to his fall from power.""",
@@ -1212,7 +1197,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٨. (ناو) دۆخێک کە کەسێک، دامەزراوەیەک، ھتد ڕێزی دەدۆڕێنێت بەھۆی ئەوەی کارێکی خراپی کردووە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """His diary charts his fall from grace.""",
             kurdishText: """یادنامەکەی نەمانی ڕێزی تۆمار دەکات.""",

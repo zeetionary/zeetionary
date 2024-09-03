@@ -266,7 +266,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) گۆڕانکاری کردن لە بینایەک یان شوێنێک بۆ ئەوەی جوانتر دەربکەوێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The town has recently been given a facelift.""",
             kurdishText: """شارۆچکەکە تازەگی نۆژەنکراوەتەوە.""",

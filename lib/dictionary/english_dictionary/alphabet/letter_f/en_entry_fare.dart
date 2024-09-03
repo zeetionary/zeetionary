@@ -348,7 +348,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) نەفەری تەکسییەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The taxi driver picked up a fare at the station.""",
             kurdishText: """شۆفێری تاکسییەکە نەفەرێکی ھەڵگرت لە وێستگەکە.""",
@@ -358,7 +357,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) ژمارەیەک خواردنی جۆرێکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The restaurant provides good traditional fare.""",
             kurdishText: """چێشتخانەکە خواردنی خۆشی خۆماڵی پێشکەش دەکات.""",
@@ -369,7 +367,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) سەرکەوتن یان شکستھێنان لە دۆخێکی دیاریکراودا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The party fared very badly in the last election.""",
             kurdishText: """پارتەکە زۆر خراپ دەرکەوت.""",

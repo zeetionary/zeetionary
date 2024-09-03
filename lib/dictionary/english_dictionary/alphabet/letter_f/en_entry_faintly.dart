@@ -291,7 +291,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵکار) بە ئاستێکی کەم"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He looked faintly embarrassed.""",
             kurdishText: """کەمێک شەرمەزار بوو.""",
@@ -308,7 +307,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵکار) کە بە تامەزرۆیی نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She smiled faintly.""",
             kurdishText: """بە سووکی پێکەنی.""",

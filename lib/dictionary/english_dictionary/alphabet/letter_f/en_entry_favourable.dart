@@ -281,7 +281,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە باشە و بۆچوونی باشی خەڵکی لەسەرت پیشان دەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The performance drew a lot of favourable comments from reviewers.""",
@@ -292,7 +291,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵناو) دەربڕینی ڕازیبوون"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Their demands received a favourable response.""",
             kurdishText: """داواکانیان وەڵامی ئەرێنی بەدەستھێنا.""",
@@ -302,7 +300,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) کە گونجاوە بۆ شتێک و دەکرێت بەسوود بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """An area with a favourable climate will inevitably be richer than one without.""",

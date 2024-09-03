@@ -178,6 +178,14 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                             onPressed: _isLoading
                                 ? null
                                 : () => _loadPosts(loadMore: true),
+                            style: ButtonStyle(
+                              backgroundColor: WidgetStatePropertyAll(
+                                Theme.of(context).scaffoldBackgroundColor,
+                              ),
+                              shadowColor: WidgetStatePropertyAll(
+                                Theme.of(context).scaffoldBackgroundColor,
+                              ),
+                            ),
                             child: _isLoading
                                 ? const CircularProgressIndicator()
                                 : Text(
@@ -286,7 +294,7 @@ class TagsPanel extends StatelessWidget {
                   'Learn from Anglophones',
                   textAlign: TextAlign.left,
                   style: TextStyle(
-                    color: Theme.of(context).highlightColor,
+                    color: Theme.of(context).primaryColor,
                     fontSize: textSize + 4,
                   ),
                 ),
@@ -301,6 +309,14 @@ class TagsPanel extends StatelessWidget {
                         Routemaster.of(context)
                             .push('/english-subreddit/reddit-discussion');
                       },
+                      style: ButtonStyle(
+                        backgroundColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                        shadowColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                      ),
                       child: Text(
                         'English Discussion',
                         style: TextStyle(
@@ -315,6 +331,14 @@ class TagsPanel extends StatelessWidget {
                         Routemaster.of(context)
                             .push('/english-subreddit/reddit-grammar');
                       },
+                      style: ButtonStyle(
+                        backgroundColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                        shadowColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                      ),
                       child: Text(
                         'EFL Grammar',
                         style: TextStyle(
@@ -329,6 +353,14 @@ class TagsPanel extends StatelessWidget {
                         Routemaster.of(context)
                             .push('/english-subreddit/reddit-grammar-two');
                       },
+                      style: ButtonStyle(
+                        backgroundColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                        shadowColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                      ),
                       child: Text(
                         'Native Grammar',
                         style: TextStyle(
@@ -343,6 +375,14 @@ class TagsPanel extends StatelessWidget {
                         Routemaster.of(context)
                             .push('/english-subreddit/reddit-vocabulary-two');
                       },
+                      style: ButtonStyle(
+                        backgroundColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                        shadowColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                      ),
                       child: Text(
                         'Vocabulary',
                         style: TextStyle(
@@ -357,6 +397,14 @@ class TagsPanel extends StatelessWidget {
                         Routemaster.of(context)
                             .push('/english-subreddit/reddit-vocabulary-three');
                       },
+                      style: ButtonStyle(
+                        backgroundColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                        shadowColor: WidgetStatePropertyAll(
+                          Theme.of(context).scaffoldBackgroundColor,
+                        ),
+                      ),
                       child: Text(
                         'Advanced vocabulary',
                         style: TextStyle(

@@ -480,7 +480,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شتی ڕاستی نەک درووستکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The story is based on fact.""",
             kurdishText: """چیرۆکەکە پشتی بە ڕاستی بەستووە.""",
@@ -513,7 +512,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) بۆ ئاماژەکردن بە دۆخێکی دیاریکراو کە بوونی ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We don't hide the fact that we've made mistakes.""",
             kurdishText: """ئەو ڕاستییە ناشارینەوە کە ھەڵەمان کردووە.""",

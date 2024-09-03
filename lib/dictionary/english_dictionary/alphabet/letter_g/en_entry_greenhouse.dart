@@ -152,7 +152,7 @@ ${englishMeaningConst.text}
 // With short examples define "greenhouse", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) خانوویەکی شووشەیی بۆ بەخێوکردنی ڕووەک"""),
+                            """١. (ناو) خانوویەکی شووشەیی بۆ چاندنی ڕووەک"""),
                     SentencesRow(
                       englishText:
                           """She grows a lot of tomatoes in her greenhouse.""",

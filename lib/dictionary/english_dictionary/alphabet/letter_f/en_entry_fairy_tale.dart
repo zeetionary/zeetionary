@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) چیرۆکێک کە کەسێک دەیڵێت و ڕاست نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Now tell me the truth: I don't want any more of your fairy stories.""",
@@ -292,7 +291,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) ھاوشێوەی چیرۆکی منداڵان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Life doesn't always have a fairy-tale ending.""",
             kurdishText: """ژیان ھەمیشە کۆتایی وەک بەسەرھاتی منداڵانی نییە.""",

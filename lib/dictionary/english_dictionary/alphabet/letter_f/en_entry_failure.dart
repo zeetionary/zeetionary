@@ -429,7 +429,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) کەسێک یان شتێک کە شکستی خواردووە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """A team learns from experience, both successes and failures.""",
@@ -449,7 +448,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) نەکردنی شتێک، بەتایبەتی کە پێشبینیت لێ دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """His confession followed repeated failures to appear in court.""",
@@ -480,7 +478,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ئەوەی کە بە درووستی یان بەشێوەی پێشبینی کراو کار نەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Production has been hampered by mechanical failure.""",
@@ -519,7 +516,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) دۆخێک کە تێیدا بازرگانییەک دەوەستێت بەھۆی ئەوەی سەرکەوتوو نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """There has been an alarming increase in business failures.""",
@@ -540,7 +536,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) دۆخێک کە تێیدا بەروبووم بەباشی گەشە ناکەن و خۆراک بەرھەم ناھێنن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Bad weather has resulted in crop failure.""",
             kurdishText:

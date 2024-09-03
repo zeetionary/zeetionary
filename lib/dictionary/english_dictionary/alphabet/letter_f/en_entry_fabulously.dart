@@ -276,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بە ڕێژەیەکی ئێجگار زۆر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They were fabulously successful.""",
             kurdishText: """ئێجگار زۆر سەرکەتوو بوون.""",

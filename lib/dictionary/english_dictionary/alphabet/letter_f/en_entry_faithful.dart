@@ -314,7 +314,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ئەو کەسانەی کە باوەڕیان بە ئایینێک ھەیە؛ باوەڕدارانی سەرسەختی پارتێکی سیاسی کە باوەڕی خۆیان ناگۆڕن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The president will keep the support of the party faithful.""",
@@ -325,7 +324,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) کە پەیوەندیی سێکسی لەگەڵ کەسی دیکە نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He had remained entirely faithful to his wife.""",
             kurdishText: """تەواو وەفادار مایەوە بۆ ژنەکەی.""",
@@ -335,7 +333,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) کە ڕاست و درووستە؛ کە ھیچی نەگۆڕیوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The film is quite faithful to the original novel.""",

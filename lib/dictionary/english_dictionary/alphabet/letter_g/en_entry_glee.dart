@@ -160,7 +160,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She couldn't disguise her glee at their embarrassment.""",
                       kurdishText:
-                          """نەیدەتوانی نەیدەتوانی دڵخۆشی خۆی بە خەجاڵەتبوونیان بشارێتەوە.""",
+                          """نەیدەتوانی دڵخۆشی خۆی بە خەجاڵەتبوونیان بشارێتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

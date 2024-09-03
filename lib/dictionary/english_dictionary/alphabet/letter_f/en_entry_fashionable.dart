@@ -318,7 +318,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە کەسانی دەوڵەمەند و مۆدپەرست سەردانی دەکەن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She lives in a very fashionable part of London.""",
             kurdishText: """لە بەشێکی زۆر مۆدپەرستی لەندەندا دەژیا.""",

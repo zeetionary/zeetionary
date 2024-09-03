@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەشێوەیەک کە کاریگەر نییە؛ کە ھەوڵ و وزەی تێدا نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He protested feebly, but was ignored.""",
             kurdishText: """بە کزی‌یەوە ناڕەزایی دەربڕی، بەڵام پشتگوێ خرا.""",

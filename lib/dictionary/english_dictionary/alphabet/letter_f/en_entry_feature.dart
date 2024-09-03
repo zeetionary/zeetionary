@@ -398,7 +398,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) بەشێکی ڕووخساری کەسێک، بۆ نموونە چاو، لووت، یان دەم"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Her eyes are her most striking feature.""",
             kurdishText: """چاوەکانی سەرنجڕاکێشترین بەشن.""",
@@ -416,7 +415,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) وتار یان پڕۆگرامێکی تایبەت سەبارەت بە کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """In today's programme we have a special feature on education.""",
@@ -436,7 +434,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) ھەبوون وەک تایبەتمەندییەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The film features Cary Grant as a professor.""",
             kurdishText: """فیلمەکە کاری گرانت وەک پڕۆفیسۆرێک لەخۆدەگرێت.""",
@@ -455,7 +452,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) ھەبوونی بەشێکی گرنگ لە شتێکدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Several local musicians featured on the album.""",
             kurdishText: """ژمارەیەک میوزیکژەنی لۆکالی لە ئەلبوومەکەدا بوون.""",

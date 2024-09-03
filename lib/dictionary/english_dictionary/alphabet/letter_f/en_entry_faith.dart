@@ -369,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) باوەڕی بەھێزی ئایینی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He started questioning his faith in God.""",
             kurdishText: """دەستی کرد بە بنیاتنانەوەی باوەڕی بە خودا.""",
@@ -393,7 +392,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) ئایینێکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The children are learning to understand people of different faiths.""",
@@ -422,7 +420,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) خواستی کردنی شتێکی خراپ یان باش"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They handed over the weapons as a gesture of good faith.""",

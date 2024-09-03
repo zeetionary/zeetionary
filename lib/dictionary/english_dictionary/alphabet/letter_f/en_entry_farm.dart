@@ -389,7 +389,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) بەکارھێنانی زەوی بۆ چاندنی بەرووبوم یان بەخێوکردنی ئاژەڵ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The family has farmed in Kent for over two hundred years.""",

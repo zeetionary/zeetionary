@@ -363,7 +363,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شوێنێک، زۆرجار ژمارەیەک بینا، کە بۆ مەبەستێکی تایبەت بەکاردێن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """A doctor visited the facility and found deplorable conditions.""",
@@ -393,7 +392,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) تایبەتمەندییەکی تایبەتی ئامێرێک، خزمەتگوزارییەک، ھتد کە توانای پێدەدات شتێکی زیاتر بکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The device has a facility for storing any sound you like.""",
@@ -406,7 +404,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) توانای سرووشتی بۆ فێربوون یان کردنی ھەر شتێک کە دەتەوێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She has a facility for languages.""",
             kurdishText: """شارەزایی بۆ زمان ھەیە.""",

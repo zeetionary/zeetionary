@@ -747,7 +747,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) دەربڕینی ڕووخساری کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I could tell by his face it hadn't gone well.""",
             kurdishText:
@@ -810,7 +809,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) کەسێک لەو جۆرەی کە باسکراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She looked around for a familiar face.""",
             kurdishText: """سەیری دەرووبەری کرد بۆ کەسێکی ناسیاو.""",
@@ -843,7 +841,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) ھەبوونی ئەو جۆرە ڕووخسارەی کە باسکراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The sad-faced woman held a photograph.""",
             kurdishText: """ژنە ڕوو خەمگینەکە وێنەیەکی ھەڵگرتبوو.""",
@@ -852,7 +849,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ناو) لا یان ڕووی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """A steep path zigzags down the cliff face.""",
             kurdishText:
@@ -883,7 +879,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (ناو) ڕووی پێشەوەی کاتژمێرێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She preferred a watch face with Roman numerals.""",
             kurdishText:
@@ -893,7 +888,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٧. (ناو) خاسیەتی تایبەتی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """This discovery changed the whole face of science.""",
@@ -906,7 +900,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (ناو) لایەنێکی دیاریکراوی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He has become the public face of the company.""",
             kurdishText: """بووە بە ڕووخساری گشتی کۆمپانیاکە.""",
@@ -918,7 +911,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (کردار) وەستان بەشێوەیەک ڕووت لە کەسێک/شتێک بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She turned and faced him.""",
             kurdishText: """سووڕایەوە و ڕووی تێکرد.""",
@@ -974,7 +966,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٠. (کردار) ڕووبەڕووبوونەوەی دۆخێک و مامەڵەکردن لەگەڵی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We are facing a financial crisis.""",
             kurdishText: """ڕووبەڕووێ قەیرانی دارایی دەبینەوە.""",
@@ -1009,7 +1000,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١١. (کردار) پەسەندکردنی ئەوەی دۆخێکی دیاریکراو بوونی ھەیە، ئەگەرچی پێت خۆش نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It's time to face reality—we failed.""",
             kurdishText:
@@ -1044,7 +1034,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٢. (کردار) نەبوونی ئامادەیی مامەڵەکردن لەگەڵ شتێک یان کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I just can't face work today.""",
             kurdishText: """ئەمڕۆ ناتوانم بچمە کار.""",
@@ -1076,7 +1065,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٣. (کردار) قسەکردن یان مامەڵە لەگەڵ کەسێک ئەگەرچی ناخۆشە یان  سەختە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """How can I face Tom? He'll be so disappointed.""",
             kurdishText:

@@ -300,7 +300,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) قسەکردن، ڕێکردن، یان ڕەفتارکردن بەشێوەیەک کە ئەوە پیشان دەدات کە متمانەت نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """His voice faltered as he began his speech.""",
             kurdishText: """دەنگی تەتەڵەی دەکرد کە دەستی بە گوتارەکەی کرد.""",

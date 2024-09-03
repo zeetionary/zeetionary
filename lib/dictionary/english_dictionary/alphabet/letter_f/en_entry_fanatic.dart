@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێکی توندڕەو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The group was led by religious fanatics.""",
             kurdishText:
@@ -280,7 +279,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) کەسێک کە ھەوادارێکی گەورەی شتێکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He is a football fanatic who never misses a game.""",

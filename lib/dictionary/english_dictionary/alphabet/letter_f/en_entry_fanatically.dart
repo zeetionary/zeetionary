@@ -267,7 +267,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵکار) بە تامەزرۆوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The band has a fanatically loyal following.""",
             kurdishText: """باندەکە شوێنکەوتوویەکی ھۆگرانە وەفاداری ھەیە.""",

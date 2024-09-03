@@ -282,7 +282,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شێوازێکی ھەڵەی بیرکردنەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He detected the fallacy of her argument.""",
             kurdishText: """نادرووستی مشتومڕەکەی بەدی کرد.""",

@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) دید و کاری توندڕەوانە کە دەیەوێت وا لە کەسانی دیکە بکات بە ھەمان شێوە بیر بکەنەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They claimed the smoking ban amounted to health fascism.""",

@@ -446,7 +446,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """٢. (ناو) مراوییەکی مێینە"""),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) گۆشتی مراوی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Slice the duck breast and serve.""",
             kurdishText: """سنگی مراوییەکە قاژ بکە و دابەشی بکە.""",

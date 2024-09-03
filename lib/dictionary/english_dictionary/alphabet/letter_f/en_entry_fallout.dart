@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەنجامی خراپی دۆخێک یان کارێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The political fallout of the revelations has been immense.""",

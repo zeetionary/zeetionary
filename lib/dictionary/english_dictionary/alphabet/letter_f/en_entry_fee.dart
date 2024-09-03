@@ -317,7 +317,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) بڕە پارەیەک کە دەیدەیت بۆ چوونە ناو دامەزراوەیەک یان بۆ کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """There is no entrance fee to the gallery.""",
             kurdishText: """ھیچ کرێی چوونەژوورەوە بۆ پێشانگاکە نییە.""",

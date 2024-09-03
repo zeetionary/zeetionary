@@ -276,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) پەیوەندیدار یان بە بەکارھێنانی فەھرەنایت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It was 80°F in the shade.""",
             kurdishText: """لە سێبەرەکەدا ٨٠ پلەی فەھرەنایت بوو.""",

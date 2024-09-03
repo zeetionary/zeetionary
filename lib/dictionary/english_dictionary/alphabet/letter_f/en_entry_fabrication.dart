@@ -268,7 +268,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) درووستکردنی بەرھەم لە ژمارەیەک مادەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """All wafer fabrication at San Jose will transfer to the Minneapolis plant.""",

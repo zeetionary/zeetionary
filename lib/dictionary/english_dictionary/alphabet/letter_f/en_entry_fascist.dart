@@ -299,7 +299,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە پشتگیری فاشیزم دەکات؛ کەسێک کە ڕاستڕەوە لە سیاسەتدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He was labeled a fascist for his extreme views.""",
             kurdishText: """وەک فاشیستێک ناسرا بۆ باوەرە توندەکانی.""",

@@ -482,7 +482,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ھەستەکانی کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He hates talking about his feelings.""",
             kurdishText: """ڕقی لێیە قسە لەسەر ھەستەکانی بکات.""",
@@ -516,7 +515,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) ھەست و سۆزی بەھێز"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Feeling runs deep (= people feel strongly) on this issue.""",
@@ -536,7 +534,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) ھەڵوێست یان بۆچوون لەسەر شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The general feeling was against the decision.""",
             kurdishText: """بۆچوونی گشتی دژ بە بڕیارەکە بوو.""",
@@ -580,7 +577,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) ئەو تێگەشتن یان باوەڕەی کە شتێکی دیاریکراو ڕاستە یان دۆخێکی دیاریکراو ئەگەری ھەیە ڕووبدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Our feeling tells us that this will work.""",
             kurdishText: """ھەستم پێم دەڵێت کە ئەمە سەردەگرێت.""",
@@ -613,7 +609,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ناو) بەزەیی یان خۆشەویستی بۆ کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He never told her his feelings.""",
             kurdishText: """ھەرگیز ھەستەکانی دەرنەبڕی.""",
@@ -653,7 +648,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ناو) توانای ھەستکردنی جەستەیی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I've lost all feeling in my legs.""",
             kurdishText: """ھەموو ھەستکردنێکم لە لاقەکانمدا لەدەست داوە.""",
@@ -688,7 +682,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (ناو) توانای تێگەشتن لە شتێک یان کردنی شتێک بەشێوەیەکی ئاقڵانە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He played the piano with great feeling.""",
             kurdishText: """بە تێگەشتنی زۆرەوە پیانۆکەی ژەند.""",
@@ -704,7 +697,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٩. (ناو) کەشی شوێنێک، دۆخێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The house had a feeling of neglect about it.""",
             kurdishText: """خانووەکە کەشی پشتگوێخراوی پێوە دیاربوو.""",

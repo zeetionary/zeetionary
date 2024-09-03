@@ -300,7 +300,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) یەکەیەکی پێوانی قووڵی ئاو کە یەکسانە بە ٦ پێ یان ١,٨ مەتر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The ship sank in 20 fathoms.""",
             kurdishText: """کەشتییەکە لە قووڵی ٢٠ فازمدا نوقم بوو.""",

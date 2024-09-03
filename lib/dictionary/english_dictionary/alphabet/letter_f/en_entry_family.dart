@@ -547,7 +547,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) یەک یان ھەردوو دایباب، منداڵەکانیان، و خزمەکانیان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """All our family came to Grandad's eightieth birthday party.""",
@@ -598,7 +597,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) تەواوی خزمانی یەکدی، لە نێوانیاندا ئەوانەشی ئێستا مردوون"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Some families have farmed in this area for hundreds of years.""",
@@ -635,7 +633,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) منداڵەکانی کەسێک یان دوو کەس، بەتایبەتی گەنجەکانیان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They have a large family.""",
             kurdishText: """خێزانێکی گەورەیان ھەیە.""",
@@ -677,7 +674,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) گرووپێک کە ئاژەڵ، ڕووەک، ھتد ـی بەسەردا دابەش دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Lions belong to the cat family.""",
             kurdishText: """شێر سەر بە خێزانی پشیلەیە.""",
@@ -694,7 +690,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) ژمارەیەک زمانی پەیوەندیدار بە یەکدی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """English belongs to the Germanic family of languages.""",
@@ -706,7 +701,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ھاوەڵناو) پەیوەندیدار بە خێزان، یان خێزانێکی تایبەت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The job was starting to affect his family life.""",
             kurdishText:
@@ -737,7 +731,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٧. (ھاوەڵناو) کە ھی خێزانێکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They had to sell the family home.""",
             kurdishText: """پێویست بوو خانووی خێزانەکە بفرۆشن.""",

@@ -290,7 +290,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) شاڵواری فلانڵ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Traditionally, white flannels are worn when playing cricket.""",
@@ -303,7 +302,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ئەو وشانەی کە واتای زۆریان نییە و ئەوە بە کەسێک ناڵێ کە دەیەوێت بیزانێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """OK, cut the flannel and tell me what you really want!""",

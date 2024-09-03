@@ -347,7 +347,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) بەستنی شتێک بەشێوەیەک کە نەکرێتەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Fasten the gates securely so that they do not blow open.""",
@@ -365,7 +364,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) جێگیرکردنی شتێک لە جێگەیەکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """A gold locket was fastened around Eleanor's neck.""",
@@ -376,7 +374,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) بەستنی شتێک بە شتێکی دیکەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She fastened the rope to a tree.""",
             kurdishText: """حەبلەکەی بەست بە دارێکەوە.""",
@@ -387,7 +384,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) گرتنی کەسێک/شتێک بە دەستت، ددانت، ھتد؛ ئەوەی کە دەستت، ددانت، ھتد ئەمە بکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The dog fastened its teeth in his leg.""",
             kurdishText: """سەگەکە ددانی لە لاقی گیرکرد.""",
@@ -404,7 +400,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (کردار) سەیرکردنی کەسێک بۆ ماوەیەکی درێژ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He fastened his gaze on her face.""",
             kurdishText: """نیگای خستە سەر ڕووخساری.""",

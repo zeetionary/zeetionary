@@ -275,7 +275,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) زۆر خراپ و ترسێنەر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They had a fearful argument last night.""",
             kurdishText: """ئەو شەوە مشتومڕێکی زۆر خراپیان ھەبوو.""",

@@ -545,7 +545,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بۆ باسکردنی دووری دوو شوێن لە یەکەوە، یان مەودایەک کە گەشتی پێدا کراوە یان گەشتی بۆ دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """How far is it to your house from here?""",
             kurdishText: """لێرەوە بۆ ماڵەکەت چەندە دوورە؟""",
@@ -584,7 +583,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵکار) کاتێکی دووڕی ئێستا؛ بۆ باسکردنی بەشی زۆری کاتێکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """To answer that question we need to go further back in time.""",
@@ -619,7 +617,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ھاوەڵکار) بە ئاستێکی زۆر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """That's a far better idea.""",
             kurdishText: """ئەوە بیرۆکەیەکی زۆر باشترە.""",
@@ -666,7 +663,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ھاوەڵکار) بۆ باسکردنی ئاستی ئەوەی شتێک ڕاستە یان دەکرێت بکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """How far can we trust him?""",
             kurdishText: """چەند دەتوانین متمانەی پێ‌بکەین؟""",
@@ -693,7 +689,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ھاوەڵکار) بۆ گوتنی ئەوەی چەندە کار کراوە لە کردن یان بەدەستھێنانی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """How far have you got with that report?""",
             kurdishText: """چەندت لەو ڕاپۆرتە تەواو کردووە؟""",
@@ -719,7 +714,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ھاوەڵناو) بە دووریەکی زیاتر لە تۆ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I saw her on the far side of the road.""",
             kurdishText: """لەسەر لا دوورەکەی ڕێگاکە دیم.""",
@@ -737,7 +731,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (ھاوەڵناو) لە دوورترین خاڵەوە لە ئاراستەیەکی دیاریکراوەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Who is that on the far left of the photograph?""",
             kurdishText: """ئەوە کێیە لە ئەوپەڕی چەپی وێنەکەوە؟""",

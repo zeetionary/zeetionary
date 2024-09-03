@@ -268,7 +268,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەوەی کەسێک پەیوەندیی سێکسی لەگەڵ کەسی دیکە نەبێت جگە لە ژنەکەی، ھاوسەرەکەی، یان ھاوبەشی ژیانی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She had doubts about his faithfulness.""",
             kurdishText: """ھیچ گومانی لە وەفادارییەکەی نەبوو.""",

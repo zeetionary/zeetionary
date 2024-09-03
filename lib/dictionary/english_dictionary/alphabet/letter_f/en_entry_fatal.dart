@@ -337,7 +337,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە دەبێتە ھۆکاری کارەسات یان شکست"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Any delay would be fatal.""",
             kurdishText: """ھەر دواکەوتنیک کارەساتبار دەبێت.""",

@@ -346,7 +346,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ھەڵگرتنی ناونیشانێکی سەر ئینتەرنێت بۆ ئەوەی بە ئاسانی بیدۆزیتەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The ‘Favourites’ tab lets you access places you've favourited.""",
@@ -358,7 +357,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە زیاتر لە شتی دیکە حەزت لێی ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It's one of my favourite movies.""",
             kurdishText: """یەکێکە لە فیلمە دڵخوازەکانی.""",
@@ -383,7 +381,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) کەسێک/شتێک کە زیاتر لە ھاوشێوەکانی حەزت لێیەتی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Which one's your favourite?""",
             kurdishText: """کامە دڵخوازتە؟""",
@@ -409,7 +406,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) کەسێک کە زیاتر حەزلێکراوە و باشتر مامەڵەی لەگەڵ دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Parents should never have favourites.""",
             kurdishText: """دایبابان نابێت ھەرگیز ھەڵبژاردەیان ھەبێت.""",
@@ -428,7 +424,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) تۆماری بەشێکی ئەپێک یان ناونیشانی وێبسایتێک کە وادەکات بەزووی بیدۆزیتەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Add the website as a favourite.""",
             kurdishText: """وێبسایتەکە وەک دڵخوازێک زیاد بکە.""",
@@ -439,7 +434,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (ناو) ئەسپیک، ڕاکەرێک، ھتد کە چاوەڕوان دەکرێت بباتەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The Spanish are the favourites to win.""",
             kurdishText: """ئیسپانییەکان پێشبینیکراوی بردنەوەن.""",
@@ -450,7 +444,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (ناو) کەسێک کە زیاترین پێشبینی دەکرێت کارێک یان پێگەیەک وەربگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She's the favourite for the job.""",
             kurdishText: """پێشبینیکراوی کارەکەیە.""",

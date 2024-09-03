@@ -324,7 +324,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ژمارەیەک کە بە تەواوی دابەش دەبێت بەسەر یەکێکی دیکەدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """1, 2, 3, 4, 6 and 12 are the factors of 12.""",
             kurdishText: """١، ٢، ٣، ٤، ٦، و ١٢ فاکتەری ١٢ ــن.""",
@@ -335,7 +334,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ئەو ڕێژەیەی کە بە پێی ئەوە شتێک زیاد یان کەم دەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The real wage of the average worker has increased by a factor of over ten in the last 70 years.""",

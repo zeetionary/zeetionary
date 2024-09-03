@@ -301,7 +301,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ماوەی جەژنی ئایینی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They celebrated a Muslim feast day with family.""",
             kurdishText: """لەگەڵ خێزان ڕۆژی جەژنی موسڵمانانیان گێڕا.""",
@@ -311,7 +310,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) شتێک یان بۆنەیەک کە خۆشی دێنێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The evening was a real feast for music lovers.""",
             kurdishText:
@@ -322,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) خواردنی ژەمێکی گەورە بە خۆشیی زۆرەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We sat in the yard feasting on barbecued chicken and beer.""",

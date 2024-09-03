@@ -389,7 +389,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) زانینی شتێک بەباشی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """You will soon become familiar with the different activities.""",
@@ -419,7 +418,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) زۆر مافەرمی، ھەندێک جار بەشێوەیەک کە ناخۆشە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """You seem to be on very familiar terms with your tutor.""",

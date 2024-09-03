@@ -404,7 +404,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە سرووشتی نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She wore false eyelashes for the party.""",
             kurdishText: """برژانگی دەستکردی بەست بۆ ئاھەنگەکە.""",
@@ -415,7 +414,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) کە ساختەیە و بەکاردێت بۆ خەڵەتاندنی خەڵکی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He had been travelling with a false passport.""",
             kurdishText: """بە پاسپۆرتی ساختەوە گەشتی دەکرد.""",
@@ -426,7 +424,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) ھەڵە و ناڕاست، بەھۆی ئەوەی پشتی بە شتی ناڕاست بەستووە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They didn't want to raise any false hopes, but they believed her husband had escaped capture.""",
@@ -456,7 +453,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ھاوەڵناو) کە ڕاستەقینە یان لە دڵەوە نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Helen's voice sounded slightly false.""",
             kurdishText: """دەنگی ھێلین دەستکرد دیاربوو.""",

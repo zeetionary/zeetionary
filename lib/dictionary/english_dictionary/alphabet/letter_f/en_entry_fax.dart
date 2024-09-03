@@ -290,7 +290,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) سیستەمی ناردنی بەڵگەنامە بە ھێڵەکانی موبایل یان ئینتەرنێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """In those days we often sent documents by fax.""",
             kurdishText:
@@ -302,7 +301,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) نامەیەک یان بەڵگەنامەیەک کە بەم سیستەمە نێردراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """You can still send faxes via email.""",
             kurdishText: """ھێستا دەتوانیت نامەی بەڵگەبەرە بە ئیمەیڵ بنێریت.""",
@@ -313,7 +311,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) ناردنی نامەیەک، بەلگەنامەیەک، ھتد بەم سیستەمە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Could you fax me the latest version?""",
             kurdishText: """دەتوانیت کۆتا وەشانم بۆ بنێریت؟""",

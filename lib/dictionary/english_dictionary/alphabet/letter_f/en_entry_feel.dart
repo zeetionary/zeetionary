@@ -808,7 +808,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ئاگاداربوون لە شتێک بەھۆی ئەوەی کە کاریگەری لەسەرت ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I could feel the warm sun on my back.""",
             kurdishText: """ھەستم بۆ خۆرە گەرمەکە لەسەر پشتم دەکرد.""",
@@ -895,7 +894,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) ئاگاداربوون لە شتێک ئەگەرچی ناتوانیت بیبینیت، بیبیستیت، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They all feel pressure from managers to make a sale.""",
@@ -922,7 +920,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) کە ھەست یان تێگەشتنێکی تایبەتت پێدەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """This situation doesn't feel right.""",
             kurdishText: """ئەم دۆخە درووست دەرناکەوێت.""",
@@ -988,7 +985,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) ھەبوونی تایبەتمەندییەک کە پێی دەزانیت بە دەستلێدان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The water feels warm.""",
             kurdishText: """ئاوەکە گەرمە.""",
@@ -1012,7 +1008,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) دەستھێنان بەسەر شتێک بۆ ئەوەی بزانیت چۆنە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Can you feel the bump on my head?""",
             kurdishText: """دەتوانیت ھەست بە ھەڵئاوسانەکەی سەرم بکەیت؟""",
@@ -1029,7 +1024,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Feel how rough this is.""",
-            kurdishText: """دەستی لێبدە بزانە ئەمە چەند زبرە.""",
+            kurdishText: """دەستی لێبدە چەند زبرە.""",
             onPressedBritish: () => speaksentence39("en-GB"),
             onPressedAmerican: () => speaksentence39("en-US"),
           ),
@@ -1037,7 +1032,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (کردار) باوەڕکردن بە شتێک؛ ھەبوونی بۆچوونێکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We've always felt this was our home.""",
             kurdishText: """ھەمیشە وامان ھەستکردووە ئەمە نیشتیمانمانە.""",
@@ -1151,7 +1145,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (کردار) ئەزموونکردنی کاریگەری یان ئەنجامەکانی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He feels the cold a lot.""",
             kurdishText: """زۆر ھەست بە سەرماکە دەکات.""",
@@ -1199,7 +1192,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (کردار) گەڕان بۆ شتیک بە دەستت، قاچت، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She felt in her bag and pulled out a pen.""",
             kurdishText: """لە جانتاکەی گەرا و پێنووسێکی دەرکرد.""",
@@ -1225,7 +1217,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٠. (ناو) ئەو ھەستەی ھەتە کاتێک دەست لە شتێک دەدەیت یان دەستت لێ دەدرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """You can tell it's silk by the feel.""",
             kurdishText: """دەوانیت بڵێیت ئاوریشمە بە دەست لێدانی.""",
@@ -1241,7 +1232,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """١١. (ناو) ھەستکردن یان دەستلێدان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I had a feel of the material.""",
             kurdishText: """دەستم لە مادەکە دا.""",
@@ -1252,7 +1242,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٢. (ناو) ئەو کەشەی کە شوێنێک، دۆخێک، ھتد درووستی دەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It's a big city but it has the feel of a small town.""",

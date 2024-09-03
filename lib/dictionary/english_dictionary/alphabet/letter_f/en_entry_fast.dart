@@ -455,7 +455,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە لە ماوەیەکی خێرا یان بەبێ دواکەوتن ڕوودەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We can guarantee a fast response time.""",
             kurdishText:
@@ -489,7 +488,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) ھەبوونی توانای کردنی شتێک بەخێرایی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Are you a fast reader with the ability to retain the key points?""",
@@ -510,7 +508,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) کە ڕێگا بە جووڵەی خێرا دەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It's a very fast road and people do not realize what speed they are doing.""",
@@ -542,7 +539,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (ھاوەڵکار) بەخێرایی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Don't drive so fast!""",
             kurdishText: """ھێندە خێرا لێ‌مەخوڕە.""",
@@ -580,7 +576,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ھاوەڵکار) لە ماوەیەکی کەم؛ بەبێ دواکەوتن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Children grow up so fast these days.""",
             kurdishText: """ئەم ڕۆژانە منداڵان زۆر زوو گەورە دەبن.""",
@@ -605,7 +600,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (ھاوەڵکار) کردنی ئەو شتەی باسکراوە بەخێرایی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Farmers prefer fast-growing crops for quick harvests.""",
@@ -623,7 +617,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٩. (ھاوەڵکار) بە تەواوی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The boat was stuck fast (= unable to move) in the mud.""",
@@ -641,7 +634,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """١٠. (کردار) ڕۆژوو گرتن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Muslims fast during Ramadan.""",
             kurdishText: """موسڵمانان لە ڕەمەزاندا ڕۆژوو دەگرن.""",
@@ -658,7 +650,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """١١. (ناو) ڕۆژوو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """All members of the religious community keep these fasts.""",

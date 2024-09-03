@@ -281,7 +281,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەوەی کە نەخۆشییەک دەبێتە ھۆی مردن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Different forms of cancer have different fatality rates.""",

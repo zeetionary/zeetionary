@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) شتێک کە ناخۆشە بۆ کردن و ماندووت دەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It's too much of a fag to go out.""",
             kurdishText: """زۆر زەحمەتە بچمە دەرەوە.""",

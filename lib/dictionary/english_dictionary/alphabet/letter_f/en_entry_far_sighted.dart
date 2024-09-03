@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) زیاتر شتی دوور ببینیت و نەتوانیت ئەو شتانەی لە نزیکتن بە ڕوونی ببینی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I'm so farsighted, I can't read the newspaper without my glasses.""",

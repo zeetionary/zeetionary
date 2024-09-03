@@ -596,7 +596,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) کەوتن لە تاقیکردنەوەیەک؛ کەواندنی کەسێک لە تاقیکردنەوەیەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """What will you do if you fail?""",
             kurdishText: """چی دەکەیت ئەگەر بکەویت؟""",
@@ -627,7 +626,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) نەکردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """People failed to recognize her talent.""",
             kurdishText: """خەڵکی نەیان توانی بەھرەکەی ھەست پێ بکەن.""",
@@ -682,7 +680,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (کردار) وەستان لە کارکردن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The brakes on my bike failed half way down the hill.""",
@@ -734,7 +731,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) لاواز بوون"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Her eyesight is failing.""",
             kurdishText: """بینایی ئەو لاواز دەبێت.""",
@@ -752,7 +748,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) نائومێدکردنی کەسێک؛ نەتوانینی یارمەتیدان لە کاتی پێویستدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """When he lost his job, he felt he had failed his family.""",
@@ -781,7 +776,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (کردار) کە بەشی پێویست نییە لە کاتێکدا کە پێویستە یان پێشبینی دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The crops failed again last summer.""",
             kurdishText: """دانەوێڵەکان دووبارە کەم بوون ھاوینی ڕابردوو.""",
@@ -798,7 +792,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (کردار) نەبوونی توانای بەردەوامی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Several banks failed during the recession.""",
             kurdishText: """ژمارەیەک بانک مایەپووچ بوون لە کاتی قەیرانەکە.""",
@@ -817,7 +810,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (ناو) ئەنجامی کەوتن لە تاقیکردنەوەدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I got three passes and one fail.""",
             kurdishText: """سێ دەرچووە و یەک کەوتنم ھێنا.""",
@@ -827,7 +819,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """١٠. (ناو) ھەڵە یان شکست لە کردنی شتێکدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """My pancakes were an epic fail (= completely unsuccessful).""",

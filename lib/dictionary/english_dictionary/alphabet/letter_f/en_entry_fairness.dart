@@ -295,7 +295,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کاڵی ڕەنگی پێست یان قژ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """A tan emphasized the fairness of her hair.""",
             kurdishText: """ڕەنگێکی زەردی مەیلەو قاوەیی کاڵیی قژی دەردەخست.""",

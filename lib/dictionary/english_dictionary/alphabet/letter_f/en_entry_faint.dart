@@ -360,7 +360,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) زۆر بچووک؛ کە دەکرێت ڕووبدات بەڵام ئەگەری کەمە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """There is still a faint hope that she may be cured.""",
@@ -378,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە بە تامەزرۆیی نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She gave me a faint smile of recognition.""",
             kurdishText: """سووکە بزەیەکی بۆم کرد وەک ئەوەی لەبیریبێم.""",
@@ -389,7 +387,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) کە ھەست بە لاوازی و شەکەتی دەکەیت و ڕەنگە لەھۆش بچیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She suddenly felt faint.""",
             kurdishText: """لەناکاو ھەستی بە لاوازی کرد.""",
@@ -405,7 +402,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) لەھۆش چوون"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Suddenly the woman in front of me fainted.""",
             kurdishText: """لەناکاو ژنەکەی پێشەوەم لەھۆش خۆی چوو.""",
@@ -421,7 +417,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (ناو) ئەوەی لەھۆش بچیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He fell to the ground in a dead faint.""",
             kurdishText: """کەوتە سەر زەوی بە لەھۆش چوونێکی تەواو.""",

@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەشێوەیەک کە بۆ شتێک باشە و وادەکات بەسوود یان سەرکەوتوو بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """These figures compare favourably with last year's.""",

@@ -337,7 +337,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) خەیاڵکردنی شتێک؛ خەیاڵی کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """This is a work of fantasy.""",
             kurdishText: """ئەمە کاری خەیاڵە.""",
@@ -362,7 +361,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) چیرۆکێکی خەیاڵی کە لە جیھانێکی ناڕاستیدا ڕوودەدات و شتی ناڕاستی وەک دڕندە، پەری، سیحر، ھتد ـی تێدایە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She wrote a series of fantasy novels filled with wizards, witches and dragons.""",

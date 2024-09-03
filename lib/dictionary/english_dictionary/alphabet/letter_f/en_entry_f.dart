@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) نمرەی خوێندکارێک کە ئاماژەیە بەوەی کە زۆر خراپە و کەوتووە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He got an F in chemistry.""",
             kurdishText: """لە کیمیا زۆر خراپەی ھێنا.""",

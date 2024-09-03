@@ -340,7 +340,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) زۆر گەورە؛ گەورەتر لەوەی پێشبینیکراو بوو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The response to our appeal was fantastic.""",
             kurdishText: """وەڵامی تکاکەمان نایاب بوو.""",
@@ -357,7 +356,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە نامۆیە و زۆر خەیاڵ پیشان دەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He drew fantastic animals with two heads and large wings.""",
@@ -369,7 +367,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) کە ناکرێت ئەنجام بدرێت یان باوەڕی پێ بکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It may sound rather fantastic, but it's the truth.""",

@@ -285,7 +285,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) تەواو تامەزرۆ سەبارەت بە شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She's fanatical about healthy eating.""",
             kurdishText: """تەواو ھۆگرە بە خواردنی تەندرووست.""",

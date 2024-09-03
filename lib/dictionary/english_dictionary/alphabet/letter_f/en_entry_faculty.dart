@@ -308,7 +308,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) تەواوی مامۆستاکانی فاکەڵتییەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He has been a faculty member for 20 years.""",
             kurdishText: """بۆ ٢٠ ساڵە ئەندامی فاکەڵتییەکەیە.""",
@@ -330,7 +329,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ئەو توانا جەستەیی و مێشکییانەی کە کەسێک لەگەڵ لەدایکبووندا ھەیەتی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She retained her mental faculties (= the ability to think and understand) until the day she died.""",
@@ -349,7 +347,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) توانایەکی دیاریکراو بۆ کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He had a faculty for seeing his own mistakes.""",
             kurdishText: """توانستی بینینی ھەڵەکانی خۆی ھەبوو.""",

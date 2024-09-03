@@ -262,7 +262,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێکی قەڵەو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She was teased in school for being a fatty.""",
             kurdishText:

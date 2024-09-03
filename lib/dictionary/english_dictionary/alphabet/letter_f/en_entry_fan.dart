@@ -391,7 +391,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) پانکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """There was no air conditioning, just a ceiling fan turning slowly.""",
@@ -404,7 +403,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) باوەشێن؛ شتێک کە لە دەستت ڕایدەگریت و ڕایدەوەشێنیت بۆ درووستکردنی ھەواگۆڕکی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Fans are still used by many Spanish women during their hot summer as a means of keeping cool.""",
@@ -417,7 +415,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) فێنککردنەوەی کەسێک بە ڕاوەشاندنی دەستت، باوەشێنێک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """A warm breeze fanned her cheeks.""",
             kurdishText: """شنەیەکی گەورم دای بە گۆناکانیدا.""",
@@ -435,7 +432,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) گەشکردنەوەی ئاگرێک بە باوەشێنکردنی یان ھەواکردن پێیدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Fanned by a westerly wind, the fire spread rapidly through the city.""",

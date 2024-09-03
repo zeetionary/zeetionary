@@ -279,7 +279,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە حەزناکات شطەکان شپرزە یان شێواو بن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The child seemed fastidious about getting her fingers dirty.""",

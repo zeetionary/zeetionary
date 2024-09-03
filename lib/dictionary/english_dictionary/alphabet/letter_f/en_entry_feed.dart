@@ -423,7 +423,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) خواردنی میوە و خواردن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The bears feed voraciously in summer and store energy as fat.""",
@@ -435,7 +434,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) دابینکردنی خواردن بە کەسێک یان گرووپێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They have a large family to feed.""",
             kurdishText: """خێزانێکی گەورەیان ھەیە بیژیەنن.""",
@@ -468,7 +466,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) پێدانی مادەی تایبەت بە ڕووەک بۆ گەشەکردن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Feed the plants once a week.""",
             kurdishText: """ڕووەکەکان ھەفتەی جارێک خزمەت بکە.""",
@@ -478,7 +475,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) پێدانی ڕاوێژ، زانیاری، ھتد بە کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We are constantly fed gossip and speculation by the media.""",
@@ -492,7 +488,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (کردار) دابینکردنی سەرچاوەیەک بۆ کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The lake is fed by a river.""",
             kurdishText: """دەریاچەکە ڕووبارێکی تێدەڕژێت.""",
@@ -512,7 +507,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (کردار) خستنە یان ئاخنینە ناو ئامێرێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He fed the machine with coins.""",
             kurdishText: """پارەی سکەی خستە ئامێرەکەوە.""",
@@ -529,7 +523,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٨. (ناو) شیر بۆ منداڵی بچووک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The baby had a feed an hour ago, so she can't be hungry.""",
@@ -541,7 +534,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (ناو) خواردن و مادە کە دەدرێت بە ئاژەڵ یان ڕووەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They stocked up on winter feed for the horses.""",
             kurdishText: """ئالیکی زستانیان بۆ ئەسپەکان ھەڵگرت.""",
@@ -552,7 +544,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٠. (ناو) مادەیەک کە دەدرێت بە ئامێرێک؛ ئەو شتەی کە ئەم مادەیە دەدات بە ئامیرەکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The printer has an automatic paper feed.""",
             kurdishText: """پرینتەرەکە فیدێکی خۆکارانەی پەڕەی ھەیە.""",
@@ -561,7 +552,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """١١. (ناو) ژەمە خواردنێکی گەورە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They needed a bath and a good feed.""",
             kurdishText: """پێویستیان بە خۆشۆردنێک و خواردنێکی باش بوو.""",

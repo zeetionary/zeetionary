@@ -203,7 +203,10 @@ class _IrregularVerbsScreenState extends ConsumerState<IrregularVerbsScreen>
                   DataColumn(
                     label: Text(
                       'کوردی',
-                      style: TextStyle(fontSize: textSize),
+                      // textDirection: TextDirection.rtl,
+                      style: TextStyle(
+                        fontSize: textSize,
+                      ),
                     ),
                   ),
                 ],

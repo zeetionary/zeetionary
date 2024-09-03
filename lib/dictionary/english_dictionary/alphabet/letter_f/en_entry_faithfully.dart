@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەشێوەیەک کە دەتوانیت پشتی پێ ببەستیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She promised faithfully not to tell anyone my secret.""",

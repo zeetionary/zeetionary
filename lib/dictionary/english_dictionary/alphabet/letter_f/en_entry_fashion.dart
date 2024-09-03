@@ -385,7 +385,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) کاری کڕین و فرۆشتنی جلی تازە مۆدێل"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They all want to work in fashion.""",
             kurdishText: """ھەموویان دەیانەوێت لە فاشندا کار بکەن.""",
@@ -404,7 +403,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) شێوازێکی تازەی ڕەفتارکردن، کردنی چالاکییەک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """This theory, though recent, is more than a passing fashion.""",
@@ -435,7 +433,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) درووستکردن یان کێشانی شێوەی شتێک، بەتایبەتی بە دەست"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She fashioned the clay into a pot.""",
             kurdishText: """قوڕەکەی کرد بە مەنجەڵێک.""",

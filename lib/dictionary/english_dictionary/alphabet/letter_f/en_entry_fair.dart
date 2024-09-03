@@ -494,7 +494,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) مامەڵەکردن لەگەڵ ھەموان بە یەکسانی و بەپێی یاساکان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They are fair and decent employers.""",
             kurdishText: """خاوەن‌کاری دادپەروەر و باشن.""",
@@ -543,7 +542,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵناو) ڕەنگی کاڵ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Kate had dark hair and fair skin.""",
             kurdishText: """کەیت قژی ڕەش و پێستی کاڵی ھەبوو.""",
@@ -569,7 +567,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) کە لە بڕ، قەبارە، یان ژمارەدا تەواو زۆرە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """A fair number of people came along.""",
             kurdishText: """ژمارەیەکی زۆر خەڵک ھاتن.""",
@@ -594,7 +591,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ھاوەڵناو) تەواو باش"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """There's a fair chance that we might win this time.""",
@@ -627,7 +623,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵناو) کە ڕۆشنایە و باران نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The day was set fair with the spring sun shining down.""",
@@ -640,7 +635,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (ھاوەڵناو) بایەک کە زۆر بەھێز نییە و بە ئاراستەی درووستدا دەچێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They set sail with the first fair wind.""",
             kurdishText: """دەستیان بە گەشت کرد لەگەڵ یەکەم بای درووستدا.""",
@@ -651,7 +645,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (ھاوەڵکار) بەپێی یاسا؛ کە بە درووست و پەسەندکراو دادەنرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Come on, you two, fight fair!""",
             kurdishText: """ھێی، ئەو دووانەتان، دادپەروەرانە بجەنگن.""",
@@ -670,7 +663,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٩. (ھاوەڵناو) جۆرە چێژبینینێک لە کێڵگەیەک یان پارکێک کە تێیدا ئاژەڵی کێڵگە و بەرھەمەکانیان بەژداری دەکەن و ڕکابەری دەکەن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We all went south for the state fair.""",
             kurdishText: """ھەموومان چووین بۆ باشوور بۆ نمایشی ویلایەتەکە.""",
@@ -690,7 +682,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١١. (ناو) بۆنەیەک تێیدا خەڵکی کاڵاکانیان نمایش دەکەن و دەیان فرۆشن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I bought it at a local craft fair.""",
             kurdishText: """لە مەزادێکی کاری دەستی کڕیم.""",

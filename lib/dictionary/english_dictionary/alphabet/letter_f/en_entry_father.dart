@@ -483,7 +483,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) باپیرانی کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Traditions from the land of our fathers are still alive.""",
@@ -495,7 +494,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) یەکەم کەس کە شتێک بناسێنێت، بۆ نموونە یەکەم شێوازی بیرکردنەوەی شتێک یان کردنەوەی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Henry Moore is considered to be the father of modern British sculpture.""",
@@ -507,7 +505,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) مەسیحییەکان بۆ بانگکردنی خودا بەکاری دەھێنن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Father, forgive us.""",
             kurdishText: """خوایە بمان بەخشە.""",
@@ -518,7 +515,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) ئەوەی کە ببیت بە باوکی منداڵێک بەوەی کە ژنێک دووگیان بکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He claims to have fathered over 20 children.""",
             kurdishText: """بانگەشەی ئەوە دەکات کە ٢٠ منداڵی ھەبووبێت.""",

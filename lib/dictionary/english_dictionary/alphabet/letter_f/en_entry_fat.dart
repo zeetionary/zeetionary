@@ -333,7 +333,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) گۆشت کە چەوری زۆر لەخۆدەگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Fat bacon adds rich flavor to dishes.""",
             kurdishText: """گۆشتی بەرازی چەور تام بۆ خواردن زیاد دەکات.""",
@@ -343,7 +342,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە ئەستوور یان فراوانە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He passed me a fat envelope full of money.""",
             kurdishText: """بەرگەنامەیەکی ئەستووری پێمدا پڕ لە پارە.""",
@@ -352,7 +350,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ھاوەڵناو) بەڕێژەیەکی زۆر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He gave me a nice fat cheque.""",
             kurdishText: """چەکێکی قەبەی باشی پێمدا.""",
@@ -361,7 +358,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ناو) چەوری ژێر پێست"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Exercise helps you burn off excess fat.""",
             kurdishText: """ڕاھێنان یارمەتیت دەدات چەوری زیادە بسوتێنیت.""",
@@ -386,7 +382,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) ڕۆن یان زەیتی خواردن درووستکردن کە لە ئاژەڵ یان ڕووەک بەدەست دێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Remove the turkey from the pan and drain off the excess fat.""",
@@ -399,7 +394,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (ناو) ڕۆن و زەیت کە وەک بەشێک لە خۆراکی کەسێک باسی دەکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Stick to foods that are low in fat.""",
             kurdishText: """ئەو خواردنانە بخۆ کە چەورییان کەمە.""",

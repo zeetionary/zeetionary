@@ -283,7 +283,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) درووستکردن لە ژمارەیەک مادەی جیاواز"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The company fabricates and sells steel.""",
             kurdishText: """کۆمپانیاکە پۆڵا درووست دەکات و دەیفرۆشێت.""",

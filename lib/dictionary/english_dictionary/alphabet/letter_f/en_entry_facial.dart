@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) چارەسەرێکی جوانکاری کە ڕووخسار پاکدەکاتەوە بە کرێم و ساوینی ھێواش"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Beauty treatments range from an eyelash tint at £8 to a deep cleansing facial costing £80.""",

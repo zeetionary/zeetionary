@@ -270,7 +270,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئاسکێکی بچووکتر لە یەک ساڵ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She saw a fawn with its mother.""",
             kurdishText: """بەچکە ئاسکێکی لەگەڵ دایکەکەی بینی.""",
@@ -280,7 +279,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) ڕەنگی زەردی مەیلەو قاوەیی ڕۆشن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They painted the baby's room fawn.""",
             kurdishText: """بە قاوەیی ئاماڵ‌زەرد ژووری منداڵەکەیان بۆیە کرد.""",

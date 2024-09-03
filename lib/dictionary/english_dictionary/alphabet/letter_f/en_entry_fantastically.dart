@@ -277,7 +277,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بە ئاستێکی ئێجگار زۆر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They're fantastically rich.""",
             kurdishText: """ئێجگار زۆر دەوڵەمەندن.""",
@@ -293,7 +292,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵکار) زۆر بە نامۆیی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It was a fantastically shaped piece of stone.""",
             kurdishText: """پارچە بەردێکی نامۆیانە ھەڵکۆڵراو بوو.""",

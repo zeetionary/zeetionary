@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ژمارەیەک گرووپ و سەندیکای بازرگانی کە پێکەوە دامەزراوەیەکیان درووستکردووە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The trade union federation has called for a national strike.""",

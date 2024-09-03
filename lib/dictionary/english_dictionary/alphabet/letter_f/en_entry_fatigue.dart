@@ -318,7 +318,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەوەی کە چی دیکە نەتەوێت شتێک بکەیت بەھۆی ئەوەی زۆرت لێ کردووە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Launching too many charity appeals risks bringing on compassion fatigue.""",
@@ -333,7 +332,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) لاوازبوونی دار یان کانزا بەھۆی بەردەوام ڕاکێشان یان چەماندنەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The wing of the plane showed signs of metal fatigue.""",

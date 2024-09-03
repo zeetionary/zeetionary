@@ -392,7 +392,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) ئەوەی حەزت بە کەسێک بێت لە ڕووی سێکسییەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I think she fancies me.""",
             kurdishText: """پێموایە دڵی پێمەوەیە.""",
@@ -403,7 +402,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) بیرکردنەوەی ئەوەی کە زۆر سەرنجڕاکێش، زیرەک، یان ناسراوی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He started to chat to me and I could tell that he really fancied himself.""",
@@ -416,7 +414,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) ئەوەی کە خۆت بە شتێکی دیاریکراو بزانیت کە زۆرجار وا نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She fancies herself (as) a serious actress.""",
             kurdishText: """خۆی وەک خانمە ئەکتەرێکی گرنگ دەبینی.""",
@@ -436,7 +433,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) بۆ پیشاندانی ئەوەی کە سەرسام یان شۆکیت بە شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Fancy! She's never been in a plane before.""",
             kurdishText: """جوانە! پێشووتر ھەرگیز لە فڕۆکە نەبووە.""",
@@ -454,7 +450,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) بیرکردنەوەی ئەوەی کە شتێک دەباتەوە یان سەرکەوتوو دەبێت لە شتێکدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Which horse do you fancy in the next race?""",
             kurdishText: """مەرج لەسەر کام ئەسپ دەکەیت لە پێشبڕکێی داھاتوو؟""",
@@ -465,7 +460,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (ھاوەڵناو) کە تەواو ئاڵۆزە، بەتایبەتی کە پێویست نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They added a lot of fancy footwork to the dance.""",
             kurdishText: """زۆر جوڵەی ئاڵۆزی پێیان بۆ سەماکە زیاد کرد.""",
@@ -483,7 +477,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (ھاوەڵناو) بە ڕێژەیەکی زۆر لە ڕازاندنەوە و ڕەنگی درەوشاوە، بەتایبەتی بۆ شتی بچووک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I wanted a simple black dress, nothing fancy.""",
             kurdishText: """جلێکی سادەی ڕەشم دەویست، ھیچی بە زریقەوبریقە نا.""",
@@ -494,7 +487,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٩. (ھاوەڵناو) گران‌بەھا یان پەیوەندیدار بە شێوازێکی گران‌بەھای ژیان‌کردن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Don't come back with any fancy ideas.""",
             kurdishText: """بە بیرکردنەوەی دەوڵەمەندانەوە مەیەرەوە.""",
@@ -503,7 +495,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """١٠. (ناو) شتێک کە خەیاڵی دەکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He laughed at his night-time fancies in the morning.""",

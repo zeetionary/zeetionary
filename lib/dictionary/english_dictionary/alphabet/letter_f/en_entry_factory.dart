@@ -308,7 +308,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک یان دامەزراوەیەک کە بەردەوام شتێکی دیاریکراو بەرھەم دەھێنێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """These universities are becoming degree factories, with no sense of what higher learning is really about.""",

@@ -266,7 +266,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) شتێک کە ڕاست نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It is an offence to deliberately publish a serious falsehood.""",

@@ -268,7 +268,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ماوەیەک کە ھیچ درووست ناکرێت یان بەرھەم نایەت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """After a long fallow period, the author has brought out a new book.""",

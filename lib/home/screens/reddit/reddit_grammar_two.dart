@@ -193,6 +193,14 @@ class _RedditGrammarTwoState extends ConsumerState<RedditGrammarTwo> {
                             onPressed: _isLoading
                                 ? null
                                 : () => _loadPosts(loadMore: true),
+                            style: ButtonStyle(
+                              backgroundColor: WidgetStatePropertyAll(
+                                Theme.of(context).scaffoldBackgroundColor,
+                              ),
+                              shadowColor: WidgetStatePropertyAll(
+                                Theme.of(context).scaffoldBackgroundColor,
+                              ),
+                            ),
                             child: _isLoading
                                 ? const CircularProgressIndicator()
                                 : Text(

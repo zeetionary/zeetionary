@@ -441,7 +441,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) لایەنی خراپ یان لاوازی کەسایەتی کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He's proud of his children and blind to their faults.""",
@@ -475,7 +474,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) شتێک کە ھەڵەیە یان تەواو نییە؛ کێشەیەک کە لە ئامێرێکدا ھەیە و وادەکات بە باشی کار نەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The fire was caused by an electrical fault.""",
             kurdishText: """ئاگرەکە بەھۆی ھەڵەیەکی کارەبایی کەوتەوە.""",
@@ -527,7 +525,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) دۆزینەوەی ھەڵەیەک یان لاوازییەک لە کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Her colleagues could not fault her dedication to the job.""",

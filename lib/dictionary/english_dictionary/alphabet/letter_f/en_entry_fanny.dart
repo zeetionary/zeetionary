@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) لە ئینگلیزیی ئەمریکی واتا سمت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She slipped and landed on her fanny.""",
             kurdishText: """خلیسکا و لەسەر سمتی گیرسایەوە.""",

@@ -297,7 +297,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەوەی کە سەرسام ببیت بە شتێک """),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The girls listened in fascination as the story unfolded.""",

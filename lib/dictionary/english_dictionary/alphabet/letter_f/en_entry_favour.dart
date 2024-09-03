@@ -444,7 +444,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) پەسەندکردن یان پشتگیری شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The suggestion to close the road has found favour with (= been supported by) local people.""",
@@ -497,7 +496,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) لایەنگیری؛ ئەوەی باش مامەڵە لەگەڵ کەسانێک بەشێوەیەک کە نادادییە بەرامبەر کەسانی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """As an examiner, she showed no favour to any candidate.""",
@@ -508,7 +506,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) بە باشتر زانینی شتێک لە شتێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Many countries favour a presidential system of government.""",
@@ -544,7 +541,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) لایەنگیری کردن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The treaty seems to favour the US.""",
             kurdishText:
@@ -572,7 +568,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) دابینکردنی ژینگەی گونجاو بۆ گرووپێک، کەسێک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The warm climate favours many types of tropical plants.""",

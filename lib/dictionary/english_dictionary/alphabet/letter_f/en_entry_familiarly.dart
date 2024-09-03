@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەشێویەک کە ناسراوە لای خەڵکی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The film keeps its focus on the characters we now know so familiarly.""",

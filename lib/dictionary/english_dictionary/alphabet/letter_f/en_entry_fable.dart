@@ -283,7 +283,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) قسە یان گێڕانەوەیەک کە ڕاست نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """His story about meeting a dragon is just a fable.""",

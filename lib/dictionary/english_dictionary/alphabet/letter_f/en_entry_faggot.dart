@@ -282,7 +282,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ژمارەیەک چیلکە دار کە پێکەوە دەبەسترێن و لەسەر ئاگر دەسوتێندرێن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They used a faggot to start the fire.""",
             kurdishText:

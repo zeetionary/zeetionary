@@ -292,7 +292,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) کەم‌کەم نەمان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The laughter faded away.""",
             kurdishText: """پێکەنینەکە دامرکایەوە.""",

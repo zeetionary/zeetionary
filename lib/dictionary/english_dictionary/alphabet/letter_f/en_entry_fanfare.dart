@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) باس و چالاکی زۆری میدیا سەبارەت بە کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The product was launched amid much fanfare worldwide.""",

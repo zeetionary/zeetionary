@@ -338,7 +338,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە وەھا درووستکراوە تا وەک شتێکی دیکە بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We sprayed fake snow over the trees to make it look like winter.""",
@@ -349,7 +348,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) شتێکی ساختە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """All the paintings proved to be fakes.""",
             kurdishText: """ھەموو تابلۆکان وەھا دەرکەوتن کە ساختە بن.""",
@@ -369,7 +367,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) ساختەکردنی شتێک بۆ ئەوەی وەک شتێکی دیکە دەربکەوێت، بەتایبەتی بۆ خەڵەتاندنی کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She faked her mother's signature on the document.""",
@@ -389,7 +386,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) واپیشاندانی ئەوەی کە ھەست، نەخۆشییەک، ھتد ـی تایبەتت ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She's not really sick—she's just faking it.""",
             kurdishText: """لە ڕاستیدا نەخۆش نییە ـ تەنھا ساختەی دەکات.""",

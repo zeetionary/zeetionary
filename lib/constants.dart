@@ -304,10 +304,10 @@ class _YouTubeScrollerState extends ConsumerState<YouTubeScroller> {
         widget.children[_selectedIndex],
         Positioned(
           bottom: 16,
-          left: 4,
-          right: 4,
+          left: 6,
+          right: 6,
           child: ConstantContainer(
-            padding: const EdgeInsets.symmetric(vertical: 12.0),
+            padding: const EdgeInsets.symmetric(vertical: 15.0),
             // decoration: BoxDecoration(
             //   border: Border.all(color: Colors.grey),
             //   borderRadius: BorderRadius.circular(8.0),

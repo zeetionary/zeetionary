@@ -518,7 +518,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) نیگەرانی سەبارەت بە سەلامەتی کەسێک یان ئەوەی شتێکی خراپ ڕەنگە ڕووبدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The doctor's report confirmed our worst fears.""",
             kurdishText:
@@ -546,7 +545,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) ترسان لە کەسێک/شتێک یان ترساندن لە کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """All his employees fear him.""",
             kurdishText: """تەواوی کارمەندەکانی لێی دەترسن.""",
@@ -592,7 +590,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) ھەستکردن بەوەی شتێکی خراپ ڕەنگە ڕوویدا بێت یان ڕەنگە ڕووبدات لە داھاتوودا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She has been missing for three days now and police are beginning to fear the worst (= think that she is dead).""",
@@ -638,7 +635,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) بۆ گوتن بە کەسێک کە شتێکی خراپ ڕەنگە ڕوویدا بێت یان درووست بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They are unlikely to get here on time, I fear.""",
             kurdishText:

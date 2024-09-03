@@ -322,7 +322,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) شکستخواردوو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """More support is needed to improve failing schools.""",
@@ -333,7 +332,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە ڕوو لە لاوازییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """His last months in office were marred by failing health.""",
@@ -346,7 +344,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ئامراز) بەکاردێت بۆ پێشنیارکردنی شتێک ئەگەر ئەوەی سەرەتا گوتراوە نەکرێت ڕووبدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Ask a friend to recommend a doctor or, failing that, ask for a list in your local library.""",

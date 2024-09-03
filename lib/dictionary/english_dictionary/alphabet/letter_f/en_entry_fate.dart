@@ -375,7 +375,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو ھێزەی کە باوەڕ وایە ھەموو شتێک کۆنترۆڵ دەکات و ناگۆڕێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Fate was kind to me that day.""",
             kurdishText: """ئەو ڕۆژە چارەنووس لەگەڵم میھرەبان بوو.""",

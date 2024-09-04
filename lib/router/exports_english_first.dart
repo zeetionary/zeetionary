@@ -5251,20 +5251,20 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_hierarchy.dart' show EnglishEntryhierarchy
 // en_entry_hi_fi.dart' show EnglishEntryhifi //// ffff hi-fi
 // en_entry_high.dart' show EnglishEntryhigh
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_highbrow.dart' show EnglishEntryhighbrow
+// en_entry_high_class.dart' show EnglishEntryhighclass //// فففف high-class
+// en_entry_high_commissioner.dart' show EnglishEntryhighcommissioner //// ffff High Commissioner
+// en_entry_high_court.dart' show EnglishEntryhighcourt //// فففف high court
+// en_entry_higher_education.dart' show EnglishEntryhighereducation //// ffff higher education
+// en_entry_high_flyer.dart' show EnglishEntryhighflyer //// فففف high-flyer
+// en_entry_high_grade.dart' show EnglishEntryhighgrade //// فففف high-grade
+// en_entry_high_handed.dart' show EnglishEntryhighhanded //// فففف high-handed
+// en_entry_high_jump.dart' show EnglishEntryhighjump //// فففف high jump
+// en_entry_highland.dart' show EnglishEntryhighland
+// en_entry_high_level.dart' show EnglishEntryhighlevel //// high-level
+// en_entry_highlife.dart' show EnglishEntryhighlife
+// en_entry_high_minded.dart' show EnglishEntryhighminded //// فففف high-minded
+// en_entry_high_powered.dart' show EnglishEntryhighpowered //// فففف high-powered
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

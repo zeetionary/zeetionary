@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhighpowered extends StatefulWidget {
-  const EnglishEntryhighpowered({super.key});
+class EnglishEntryhighstreet extends StatefulWidget {
+  const EnglishEntryhighstreet({super.key});
 
   @override
-  State<EnglishEntryhighpowered> createState() => _EnglishEntryhighpoweredState();
+  State<EnglishEntryhighstreet> createState() => _EnglishEntryhighstreetState();
 }
 
-class _EnglishEntryhighpoweredState extends State<EnglishEntryhighpowered> {
+class _EnglishEntryhighstreetState extends State<EnglishEntryhighstreet> {
   @override
   void initState() {
     super.initState();
@@ -53,16 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: high-powered
-1. Vigorously energetic or forceful (- high-octane, high-power, high-voltage, high-energy)
-"high-powered executives";
- 
-2. (used of microscopes) capable of a high degree of magnification
-"a high-powered microscope"
+- Noun: high street (Derived forms: high streets)
+Usage: Brit (N. Amer: main street)
+1. Street that serves as a principal thoroughfare for traffic in a town (- main street)
 """,
   );
 
-  final String keyword = "high-powered";
+  final String keyword = "high street";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,35 +79,36 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""high-powered""");
+    await flutterTts.speak("""high street""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He is now an extremely high-powered executive.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He has a very high-powered job and a hectic schedule.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I had to attend some quite high-powered meetings at Central Office.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He bought a high-powered car that can go from 0 to 60 in seconds.""");
+    await flutterTts.speak("""speaksentence400""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -938,10 +936,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """high-powered""",
-                      // alsoEnglishWord: "also: high-powered",
-                      britshText: """IpaUK: /ˌhaɪ ˈpaʊəd/""",
-                      americanText: """IpaUS: /ˌhaɪ ˈpaʊərd/""",
+                      word: """high street""",
+                      // alsoEnglishWord: "also: high street",
+                      britshText: """IpaUK: /ˈhaɪ striːt/""",
+                      americanText: """IpaUS: /ˈhaɪ striːt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -981,20 +979,21 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "high-powered", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) هەبوونی کاریگەری و دەسەڵاتی زۆر"""),
+// With short examples define "high street", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """He is now an extremely high-powered executive.""",
-                      kurdishText: """ئێستا بەڕێوەبەرێکی تەواو بەدەسەڵاتە.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) گرنگ؛ بە ئەرکی زۆرەوە"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He has a very high-powered job and a hectic schedule.""",
-                      kurdishText: """کارێکی زۆر گرنگی هەیە بە بەرپرسیاریەتیی زۆرەوە.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1002,17 +1001,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I had to attend some quite high-powered meetings at Central Office.""",
-                      kurdishText: """پێویست بوو سەردانی ژمارەیەک کۆبوونەوەی گرنگ بکەم لە ئۆفیسی ناوەندی.""",
+                      englishText: """speaksentence300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) زۆر بەهێز"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He bought a high-powered car that can go from 0 to 60 in seconds.""",
-                      kurdishText: """ئۆتۆمبێلێکی بەهێزی کڕی کە لە ٠ ــەوە بۆ ٦٠ دەچێت لە چەند چرکەیەک.""",
+                      englishText: """speaksentence400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -2128,18 +2127,19 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/roCX0AfBseQ?t=';
-const double _startSecondsend = 00000000000000000000000000086;
-const String _videoIdone = 'https://youtu.be/Mf4wwXM2o_M?t=';
-const double _startSecondsone = 000000000000000000000000000514;
-const String _videoIdtwo = 'https://youtu.be/jJx-f_VZK2c?t=';
-const double _startSecondstwo = 000000000000000000000000000354;
-const String _videoIdthree = 'https://youtu.be/qtlPTE-UmY4?t=';
-const double _startSecondsthree = 000000000000000000000000000356;
-const String _videoIdfour = 'https://youtu.be/dcnPK1HYSqQ?t=';
-const double _startSecondsfour = 000000000000000000000000000691;
-const String _videoIdfive = 'https://youtu.be/npeCDLsyJwE?t=';
-const double _startSecondsfive = 000000000000000000000000000928;
+const String _videoIdend = '';
+const double _startSecondsend = 000000000000000000000000000;
+const String _videoIdone = '';
+const double _startSecondsone = 000000000000000000000000000;
+const String _videoIdtwo = '';
+const double _startSecondstwo = 000000000000000000000000000;
+const String _videoIdthree = '';
+const double _startSecondsthree = 000000000000000000000000000;
+const String _videoIdfour = '';
+const double _startSecondsfour = 000000000000000000000000000;
+const String _videoIdfive = '';
+const double _startSecondsfive = 000000000000000000000000000;
+// ssssssssssssssssssssssgggggggg55555
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

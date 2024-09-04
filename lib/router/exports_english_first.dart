@@ -5265,14 +5265,14 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_highlife.dart' show EnglishEntryhighlife
 // en_entry_high_minded.dart' show EnglishEntryhighminded //// فففف high-minded
 // en_entry_high_powered.dart' show EnglishEntryhighpowered //// فففف high-powered
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_high_profile.dart' show EnglishEntryhighprofile //// فففف high-profile
+// en_entry_high_rise.dart' show EnglishEntryhighrise //// فففف high-rise
+// en_entry_high_school.dart' show EnglishEntryhighschool //// فففف high school
+// en_entry_the_high_seas.dart' show EnglishEntrythehighseas //// ffff the high seas
+// en_entry_high_season.dart' show EnglishEntryhighseason //// فففف high season
+// en_entry_high_spirited.dart' show EnglishEntryhighspirited //// فففف high-spirited
+// en_entry_high_spot.dart' show EnglishEntryhighspot //// فففف high spot
+// en_entry_high_street.dart' show EnglishEntryhighstreet //// فففف high street
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

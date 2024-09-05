@@ -5273,9 +5273,9 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_g/en_en
 // en_entry_high_spirited.dart' show EnglishEntryhighspirited //// فففف high-spirited
 // en_entry_high_spot.dart' show EnglishEntryhighspot //// فففف high spot
 // en_entry_high_street.dart' show EnglishEntryhighstreet //// فففف high street
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_high_tea.dart' show EnglishEntryhightea //// فففف high tea
+// en_entry_high_tech.dart' show EnglishEntryhightech //// فففف high-tech
+// en_entry_high_technology.dart' show EnglishEntryhightechnology //// فففف high technology
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

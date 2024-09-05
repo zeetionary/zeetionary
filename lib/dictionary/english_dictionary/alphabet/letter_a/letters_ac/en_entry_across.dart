@@ -161,8 +161,8 @@ ${englishMeaningConst.text}
                     child: EntryPageColumn(
                       word: """across""",
                       // alsoEnglishWord: "also: across",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /əˈkrɒs/""",
+                      americanText: """IpaUS: /əˈkrɔːs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

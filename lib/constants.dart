@@ -153,80 +153,6 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
   }
 }
 
-// class YouTubeScroller extends StatefulWidget {
-//   final List<Widget> children;
-
-//   const YouTubeScroller({Key? key, required this.children}) : super(key: key);
-
-//   // @override // invalid use of private API
-//   // _YouTubeScrollerState createState() => _YouTubeScrollerState();
-
-//   @override
-//   State<YouTubeScroller> createState() => _YouTubeScrollerState();
-// }
-
-// class _YouTubeScrollerState extends State<YouTubeScroller> {
-//   int _currentIndex = 0;
-
-//   void _nextPage() {
-//     setState(() {
-//       if (_currentIndex < widget.children.length - 1) {
-//         _currentIndex++;
-//       }
-//     });
-//   }
-
-//   void _previousPage() {
-//     setState(() {
-//       if (_currentIndex > 0) {
-//         _currentIndex--;
-//       }
-//     });
-//   }
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Column(
-//       children: [
-//         Expanded(
-//           child: IndexedStack(
-//             index: _currentIndex,
-//             children: widget.children.asMap().entries.map((entry) {
-//               int idx = entry.key;
-//               Widget child = entry.value;
-
-//               // Only return the child widget if it matches the current index
-//               return idx == _currentIndex
-//                   ? Container(
-//                       key: ValueKey<int>(
-//                           _currentIndex), // Ensure state is not preserved
-//                       child: child,
-//                     )
-//                   : const SizedBox.shrink();
-//             }).toList(),
-//           ),
-//         ),
-//         Row(
-//           mainAxisAlignment: MainAxisAlignment.center,
-//           children: [
-//             if (_currentIndex > 0)
-//               IconButton(
-//                 icon: const Icon(Icons.arrow_back),
-//                 onPressed: _previousPage,
-//               ),
-//             const SizedBox(width: 140),
-//             if (_currentIndex < widget.children.length - 1)
-//               IconButton(
-//                 icon: const Icon(Icons.arrow_forward),
-//                 onPressed: _nextPage,
-//               ),
-//           ],
-//         ),
-//       ],
-//     );
-//   }
-// }
-
 class ConstantContainer extends StatelessWidget {
   final Widget child;
   final EdgeInsetsGeometry? padding; // Optional padding for the Container
@@ -262,6 +188,43 @@ class ConstantContainer extends StatelessWidget {
         borderRadius: BorderRadius.circular(15.0),
       ),
       child: child,
+    );
+  }
+}
+class YoutubeEmbeddingWidget extends StatelessWidget {
+  final String videoId;
+  final double startSeconds;
+
+  const YoutubeEmbeddingWidget({
+    super.key,
+    required this.videoId,
+    required this.startSeconds,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
+      videoId: videoId,
+      startSeconds: startSeconds,
+      autoPlay: true,
+      params: const YoutubePlayerParams(
+        enableCaption: true,
+        captionLanguage: 'en',
+        showControls: false,
+        strictRelatedVideos: true,
+      ),
+    );
+
+    void reloadVideo() {
+      controller.loadVideoById(
+        videoId: videoId,
+        startSeconds: startSeconds,
+      );
+    }
+
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -408,6 +371,81 @@ class _YouTubeScrollerState extends ConsumerState<YouTubeScroller> {
     );
   }
 }
+
+
+// class YouTubeScroller extends StatefulWidget {
+//   final List<Widget> children;
+
+//   const YouTubeScroller({Key? key, required this.children}) : super(key: key);
+
+//   // @override // invalid use of private API
+//   // _YouTubeScrollerState createState() => _YouTubeScrollerState();
+
+//   @override
+//   State<YouTubeScroller> createState() => _YouTubeScrollerState();
+// }
+
+// class _YouTubeScrollerState extends State<YouTubeScroller> {
+//   int _currentIndex = 0;
+
+//   void _nextPage() {
+//     setState(() {
+//       if (_currentIndex < widget.children.length - 1) {
+//         _currentIndex++;
+//       }
+//     });
+//   }
+
+//   void _previousPage() {
+//     setState(() {
+//       if (_currentIndex > 0) {
+//         _currentIndex--;
+//       }
+//     });
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Column(
+//       children: [
+//         Expanded(
+//           child: IndexedStack(
+//             index: _currentIndex,
+//             children: widget.children.asMap().entries.map((entry) {
+//               int idx = entry.key;
+//               Widget child = entry.value;
+
+//               // Only return the child widget if it matches the current index
+//               return idx == _currentIndex
+//                   ? Container(
+//                       key: ValueKey<int>(
+//                           _currentIndex), // Ensure state is not preserved
+//                       child: child,
+//                     )
+//                   : const SizedBox.shrink();
+//             }).toList(),
+//           ),
+//         ),
+//         Row(
+//           mainAxisAlignment: MainAxisAlignment.center,
+//           children: [
+//             if (_currentIndex > 0)
+//               IconButton(
+//                 icon: const Icon(Icons.arrow_back),
+//                 onPressed: _previousPage,
+//               ),
+//             const SizedBox(width: 140),
+//             if (_currentIndex < widget.children.length - 1)
+//               IconButton(
+//                 icon: const Icon(Icons.arrow_forward),
+//                 onPressed: _nextPage,
+//               ),
+//           ],
+//         ),
+//       ],
+//     );
+//   }
+// }
 
 // class YouTubeScroller extends StatefulWidget {
 //   final List<Widget> children;

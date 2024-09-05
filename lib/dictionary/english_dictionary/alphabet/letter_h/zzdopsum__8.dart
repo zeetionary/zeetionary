@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhighstreet extends StatefulWidget {
-  const EnglishEntryhighstreet({super.key});
+class EnglishEntrydopsum1 extends StatefulWidget {
+  const EnglishEntrydopsum1({super.key});
 
   @override
-  State<EnglishEntryhighstreet> createState() => _EnglishEntryhighstreetState();
+  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
 }
 
-class _EnglishEntryhighstreetState extends State<EnglishEntryhighstreet> {
+class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: high street (Derived forms: high streets)
-Usage: Brit (N. Amer: main street)
-1. Street that serves as a principal thoroughfare for traffic in a town (- main street)
+
+EnglishEntrydopsum1 dopsum1
+WORD_WEB dopsum1 dopsum1 dopsum1
+haʊʊʊʊʊʊʊ4
 """,
   );
+// 188888880002200
 
-  final String keyword = "high street";
+  final String keyword = "dopsum1";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,28 +80,29 @@ Usage: Brit (N. Amer: main street)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""high street""");
+    await flutterTts.speak("""dopsum1""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""There are several banks in the high street.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The best shops are on the high street.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Sales on the UK high street are in decline.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -924,6 +926,21 @@ Usage: Brit (N. Amer: main street)
 
   @override
   Widget build(BuildContext context) {
+
+    // 188888880002200
+    const String videoIdend = '';
+    const double startSecondsend = 000000000000000000000000000;
+    const String videoIdone = '';
+    const double startSecondsone = 000000000000000000000000000;
+    const String videoIdtwo = '';
+    const double startSecondstwo = 000000000000000000000000000;
+    const String videoIdthree = '';
+    const double startSecondsthree = 000000000000000000000000000;
+    const String videoIdfour = '';
+    const double startSecondsfour = 000000000000000000000000000;
+    const String videoIdfive = '';
+    const double startSecondsfive = 000000000000000000000000000;
+
     return DefaultTabController(
       length: 4,
       child: Scaffold(
@@ -935,10 +952,10 @@ Usage: Brit (N. Amer: main street)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """high street""",
-                      // alsoEnglishWord: "also: high street",
-                      britshText: """IpaUK: /ˈhaɪ striːt/""",
-                      americanText: """IpaUS: /ˈhaɪ striːt/""",
+                      word: """dopsum1""",
+                      // alsoEnglishWord: "also: dopsum1",
+                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
+                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -978,11 +995,12 @@ Usage: Brit (N. Amer: main street)
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "high street", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شەقامی سەرەکی شارێک کە زۆرینەی فرۆشگا، بانک، هتد ــی تێدایە"""),
+// With short examples define "dopsum1", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """There are several banks in the high street.""",
-                      kurdishText: """ژمارەیەک بانک لەسەر شەقامە سەرەکییەکەیە.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -990,17 +1008,17 @@ Usage: Brit (N. Amer: main street)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The best shops are on the high street.""",
-                      kurdishText: """باشترین فرۆشگاکان لەسەر شەقامی سەرەکین.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) ئەو فرۆشگا و بازرگانییانەی کە خزمەتی خەڵکی گشتی دەکەن"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Sales on the UK high street are in decline.""",
-                      kurdishText: """ڕێژەی فرۆشی فرۆشگا گشتییەکان لە کەمیدایە.""",
+                      englishText: """speaksentence300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2092,204 +2110,42 @@ Usage: Brit (N. Amer: main street)
               ),
               const YouTubeScroller(
                 children: [
-                  YoutubeEmbeddedone(),
-                  YoutubeEmbeddedtwo(),
-                  YoutubeEmbeddedthree(),
-                  YoutubeEmbeddedfour(),
-                  YoutubeEmbeddedfive(),
-                  // YoutubeEmbeddedsix(),
-                  // YoutubeEmbeddedseven(),
-                  // YoutubeEmbeddedeight(),
-                  // YoutubeEmbeddednine(),
-                  // YoutubeEmbeddedten(),
-                  // YoutubeEmbeddedeleven(),
-                  // YoutubeEmbeddedtwelve(),
-                  // YoutubeEmbeddedthirteen(),
-                  // YoutubeEmbeddeddfourteen(),
-                  // YoutubeEmbeddedfifteen(),
-                  // YoutubeEmbeddeddsixteen(),
-                  // YoutubeEmbeddeddseventeen(),
-                  // YoutubeEmbeddeddeighteen(),
-                  // YoutubeEmbeddeddnineteen(),
-                  // YoutubeEmbeddedtwenty(),
-                  // YoutubeEmbeddedmulti(),
-                  YoutubeEmbeddedend(),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdend),
+                    videoId: videoIdend,
+                    startSeconds: startSecondsend,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdone),
+                    videoId: videoIdone,
+                    startSeconds: startSecondsone,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdtwo),
+                    videoId: videoIdtwo,
+                    startSeconds: startSecondstwo,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdthree),
+                    videoId: videoIdthree,
+                    startSeconds: startSecondsthree,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfour),
+                    videoId: videoIdfour,
+                    startSeconds: startSecondsfour,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfive),
+                    videoId: videoIdfive,
+                    startSeconds: startSecondsfive,
+                  ),
                 ],
               ),
             ],
           ),
         ),
       ),
-    );
-  }
-}
-
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/lEgPVrSZa6w?t=';
-const double _startSecondsend = 000000000000000000000000000268;
-const String _videoIdone = 'https://youtu.be/bITz9yQPjy8?t=';
-const double _startSecondsone = 0000000000000000000000000001025;
-const String _videoIdtwo = 'https://youtu.be/HvWavE-yeGE?t=';
-const double _startSecondstwo = 000000000000000000000000000501;
-const String _videoIdthree = 'https://youtu.be/JcgGiHZoWBc?t=';
-const double _startSecondsthree = 000000000000000000000000000121;
-const String _videoIdfour = 'https://youtu.be/XxnLmD9y_uY?t=';
-const double _startSecondsfour = 000000000000000000000000000168;
-const String _videoIdfive = 'https://youtu.be/jKNKLBAcvLE?t=';
-const double _startSecondsfive = 000000000000000000000000000400;
-
-class YoutubeEmbeddedend extends StatelessWidget {
-  const YoutubeEmbeddedend({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdend,
-      startSeconds: _startSecondsend,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdend,
-        startSeconds: _startSecondsend,
-      );
-    }
-
-    return YouTubeVideosScaffoldEnd(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedone extends StatelessWidget {
-  const YoutubeEmbeddedone({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdone,
-      startSeconds: _startSecondsone,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdone,
-        startSeconds: _startSecondsone,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  const YoutubeEmbeddedtwo({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdtwo,
-      startSeconds: _startSecondstwo,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdtwo,
-        startSeconds: _startSecondstwo,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  const YoutubeEmbeddedthree({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdthree,
-      startSeconds: _startSecondsthree,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdthree,
-        startSeconds: _startSecondsthree,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  const YoutubeEmbeddedfour({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdfour,
-      startSeconds: _startSecondsfour,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdfour,
-        startSeconds: _startSecondsfour,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  const YoutubeEmbeddedfive({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdfive,
-      startSeconds: _startSecondsfive,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdfive,
-        startSeconds: _startSecondsfive,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
     );
   }
 }

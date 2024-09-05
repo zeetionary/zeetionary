@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 // removes un-needed tts methods with one quotations
@@ -155,7 +154,20 @@ Adverb: aback
 
   @override
   Widget build(BuildContext context) {
-    // Widget build(BuildContext context, WidgetRef ref) {
+    
+    const String videoIdend = 'NU4MgeOb-cc';
+    const double startSecondsend = 771;
+    const String videoIdone = '4VSx2E7WE50';
+    const double startSecondsone = 224;
+    const String videoIdtwo = 'Y4E8qEDi_xg';
+    const double startSecondstwo = 29;
+    const String videoIdthree = 'xzZH151_wXo';
+    const double startSecondsthree = 717;
+    const String videoIdfour = 'GzRw4l3JIbk';
+    const double startSecondsfour = 670;
+    const String videoIdfive = 'BHnqRoEXu5o';
+    const double startSecondsfive = 210;
+
     return DefaultTabController(
       length: 5,
       child: Scaffold(
@@ -290,28 +302,36 @@ Adverb: aback
               ),
               const YouTubeScroller(
                 children: [
-                  YoutubeEmbeddedone(),
-                  YoutubeEmbeddedtwo(),
-                  // YoutubeEmbeddedthree(),
-                  // YoutubeEmbeddedfour(),
-                  // YoutubeEmbeddedfive(),
-                  // YoutubeEmbeddedsix(),
-                  // YoutubeEmbeddedseven(),
-                  // YoutubeEmbeddedeight(),
-                  // YoutubeEmbeddednine(),
-                  // YoutubeEmbeddedten(),
-                  // YoutubeEmbeddedeleven(),
-                  // YoutubeEmbeddedtwelve(),
-                  // YoutubeEmbeddedthirteen(),
-                  // YoutubeEmbeddeddfourteen(),
-                  // YoutubeEmbeddedfifteen(),
-                  // YoutubeEmbeddeddsixteen(),
-                  // YoutubeEmbeddeddseventeen(),
-                  // YoutubeEmbeddeddeighteen(),
-                  // YoutubeEmbeddeddnineteen(),
-                  // YoutubeEmbeddedtwenty(),
-                  // YoutubeEmbeddedmulti(),
-                  YoutubeEmbeddedend(),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdend),
+                    videoId: videoIdend,
+                    startSeconds: startSecondsend,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdone),
+                    videoId: videoIdone,
+                    startSeconds: startSecondsone,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdtwo),
+                    videoId: videoIdtwo,
+                    startSeconds: startSecondstwo,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdthree),
+                    videoId: videoIdthree,
+                    startSeconds: startSecondsthree,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfour),
+                    videoId: videoIdfour,
+                    startSeconds: startSecondsfour,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfive),
+                    videoId: videoIdfive,
+                    startSeconds: startSecondsfive,
+                  ),
                 ],
               ),
             ],
@@ -321,101 +341,3 @@ Adverb: aback
     );
   }
 }
-
-const String _videoIdend = 'AwodL8z2EtE';
-const double _startSecondsend = 1373;
-const String _videoIdone = '4VSx2E7WE50';
-const double _startSecondsone = 224;
-const String _videoIdtwo = 'Y4E8qEDi_xg';
-const double _startSecondstwo = 29;
-
-class YoutubeEmbeddedend extends StatelessWidget {
-  const YoutubeEmbeddedend({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdend,
-      startSeconds: _startSecondsend,
-      autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdend,
-        startSeconds: _startSecondsend,
-      );
-    }
-
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainerEnd(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedone extends StatelessWidget {
-  const YoutubeEmbeddedone({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdone,
-      startSeconds: _startSecondsone,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdone,
-        startSeconds: _startSecondsone,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  const YoutubeEmbeddedtwo({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdtwo,
-      startSeconds: _startSecondstwo,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdtwo,
-        startSeconds: _startSecondstwo,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-// end WORD_WEB

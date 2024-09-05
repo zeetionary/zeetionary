@@ -7855,7 +7855,7 @@ final List<String> allWordsEnglish = [
   // "headmistress",
   // "bachelorette party",
   // "henceforward",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "hi-tech",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",

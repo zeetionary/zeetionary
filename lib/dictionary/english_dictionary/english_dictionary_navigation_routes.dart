@@ -7910,7 +7910,7 @@ final Map<String, String> wordRoutes = {
   "headmistress": "/english-headmaster",
   "bachelorette party": "/english-henparty",
   "henceforward": "/english-henceforth",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "hi-tech": "/english-high-tech",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhighstreet extends StatefulWidget {
-  const EnglishEntryhighstreet({super.key});
+class EnglishEntryhightech extends StatefulWidget {
+  const EnglishEntryhightech({super.key});
 
   @override
-  State<EnglishEntryhighstreet> createState() => _EnglishEntryhighstreetState();
+  State<EnglishEntryhightech> createState() => _EnglishEntryhightechState();
 }
 
-class _EnglishEntryhighstreetState extends State<EnglishEntryhighstreet> {
+class _EnglishEntryhightechState extends State<EnglishEntryhightech> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: high street (Derived forms: high streets)
-Usage: Brit (N. Amer: main street)
-1. Street that serves as a principal thoroughfare for traffic in a town (- main street)
+- Adjective: high-tech
+1. Resembling or making use of highly advanced technology or devices (- hi-tech)
+"The concept of high-tech organizations is not well defined";
 """,
   );
 
-  final String keyword = "high street";
+  final String keyword = "high-tech";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,28 +79,30 @@ Usage: Brit (N. Amer: main street)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""high street""");
+    await flutterTts.speak("""high-tech""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""There are several banks in the high street.""");
+    await flutterTts
+        .speak("""High-tech industries are growing fast in Silicon Valley.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The best shops are on the high street.""");
+    await flutterTts
+        .speak("""They bought a high-tech table for their living room.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Sales on the UK high street are in decline.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -935,10 +937,10 @@ Usage: Brit (N. Amer: main street)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """high street""",
-                      // alsoEnglishWord: "also: high street",
-                      britshText: """IpaUK: /ˈhaɪ striːt/""",
-                      americanText: """IpaUS: /ˈhaɪ striːt/""",
+                      word: """high-tech""",
+                      alsoEnglishWord: "also: hi-tech",
+                      britshText: """IpaUK: /ˌhaɪ ˈtek/""",
+                      americanText: """IpaUS: /ˌhaɪ ˈtek/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -978,29 +980,37 @@ Usage: Brit (N. Amer: main street)
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "high street", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شەقامی سەرەکی شارێک کە زۆرینەی فرۆشگا، بانک، هتد ــی تێدایە"""),
+// With short examples define "high-tech", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) بەکارهێنانی تازەترین جۆری ئامێر"""),
                     SentencesRow(
-                      englishText: """There are several banks in the high street.""",
-                      kurdishText: """ژمارەیەک بانک لەسەر شەقامە سەرەکییەکەیە.""",
+                      englishText:
+                          """High-tech industries are growing fast in Silicon Valley.""",
+                      kurdishText:
+                          """پیشەسازیی تەکنەلۆژیا پێشکەوتووەکان خێرا گەشە دەکەن لە سیلیکن ڤاڵی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە زۆر سەردەمییانەیە لە شێوەدا"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """They bought a high-tech table for their living room.""",
+                      kurdishText:
+                          """مێزێکی مۆدێرنیان کڕی بۆ ژووری میوانیان.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The best shops are on the high street.""",
-                      kurdishText: """باشترین فرۆشگاکان لەسەر شەقامی سەرەکین.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) ئەو فرۆشگا و بازرگانییانەی کە خزمەتی خەڵکی گشتی دەکەن"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Sales on the UK high street are in decline.""",
-                      kurdishText: """ڕێژەی فرۆشی فرۆشگا گشتییەکان لە کەمیدایە.""",
+                      englishText: """speaksentence300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2125,18 +2135,18 @@ Usage: Brit (N. Amer: main street)
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/lEgPVrSZa6w?t=';
-const double _startSecondsend = 000000000000000000000000000268;
-const String _videoIdone = 'https://youtu.be/bITz9yQPjy8?t=';
-const double _startSecondsone = 0000000000000000000000000001025;
-const String _videoIdtwo = 'https://youtu.be/HvWavE-yeGE?t=';
-const double _startSecondstwo = 000000000000000000000000000501;
-const String _videoIdthree = 'https://youtu.be/JcgGiHZoWBc?t=';
-const double _startSecondsthree = 000000000000000000000000000121;
-const String _videoIdfour = 'https://youtu.be/XxnLmD9y_uY?t=';
-const double _startSecondsfour = 000000000000000000000000000168;
-const String _videoIdfive = 'https://youtu.be/jKNKLBAcvLE?t=';
-const double _startSecondsfive = 000000000000000000000000000400;
+const String _videoIdend = 'https://youtu.be/8FpPSMIB4uA?t=';
+const double _startSecondsend = 0000000000000000000000000001471;
+const String _videoIdone = 'https://youtu.be/05gCLHlpzTU?t=';
+const double _startSecondsone = 000000000000000000000000000839;
+const String _videoIdtwo = 'https://youtu.be/9yjZpBq1XBE?t=';
+const double _startSecondstwo = 0000000000000000000000000002367;
+const String _videoIdthree = 'https://youtu.be/NQWkNXr2ujI?t=';
+const double _startSecondsthree = 000000000000000000000000000113;
+const String _videoIdfour = 'https://youtu.be/Am1lDj2mUVY?t=';
+const double _startSecondsfour = 000000000000000000000000000603;
+const String _videoIdfive = 'https://youtu.be/BuX6-lvUwd0?t=';
+const double _startSecondsfive = 000000000000000000000000000149;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

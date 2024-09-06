@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "Gaelic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زمانیکی کێڵتیکی کە لە ھەندێک ناوچەی ڕۆژئاوای سکۆتلەندا قسەی پێ دەکریت و زمانێکی فەرمی سکۆتلەندایە"""),

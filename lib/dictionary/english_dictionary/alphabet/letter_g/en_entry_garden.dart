@@ -219,7 +219,6 @@ Usage: Brit
                     const KurdishVocabulary(text: """
 کوردی: باخ، باخچە، باغ و باغات،	حەسار، حەوشە،	ناوچەی بەپیت، دەڤەری بەبڕشت
 """),
-// With short examples define "garden", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) باخچەی ماڵ کە تێیدا گوڵ، سەوزە، میوە، ھتد دەچێنیت """),

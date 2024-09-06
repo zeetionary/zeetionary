@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێکھێنەرانە، دامەزرێنەر، پێکھێنەر،	دیاری‌کەر،	کاریگەر (درێژخایەن)
 """),
-// With short examples define "formative", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە کاریگەریی زۆری ھەیە بەسەر گەشەی شتێک یان کەسایەتی کەسێک"""),

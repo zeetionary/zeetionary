@@ -297,7 +297,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێشاوبەستنی ئاو،	فشار یان تەوژمی زۆری ئاو، ئاوتێگرتن، فیشقە،	سوورەوەبوون، سوورھەڵگەڕان،	ھەڵچوون،	ھەڕەت، تاف، جەنگە، سەرەتا، دەسپێک،	ھەڵدانی تازەی گەڵا، گوڵ و میوە
 """),
-// With short examples define "flush", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) سووربوونەوە، بەتایبەتی بەھۆی شەرمەزاری، ئەوەی کە گەرماتە، یان تووڕەی"""),

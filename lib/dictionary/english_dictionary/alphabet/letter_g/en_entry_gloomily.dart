@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gloomily", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە دڵتەنگی و بێ‌ھیوایی"""),
                     SentencesRow(
@@ -233,7 +232,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'BTOuXNhVLkI';
 const double _startSecondsend = 226;
 const String _videoIdone = 'TewAbpe8RAg';

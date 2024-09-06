@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زێڕین، زێڕئاسا، درەوشاوە
 """),
-// With short examples define "golden", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە لە زێڕ درووستکراوە"""),
                     SentencesRow(
@@ -272,7 +271,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'qWAagS_MANg';
 const double _startSecondsend = 1109;
 const String _videoIdone = 'h4CyhQqAPpk';

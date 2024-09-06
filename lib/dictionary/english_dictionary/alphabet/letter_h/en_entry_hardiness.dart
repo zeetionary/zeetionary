@@ -156,10 +156,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەردەوامی، خۆڕاگری، خۆگیری، گیان‌سەختی، خاراوی، پڕتاقەتی،	بێ‌شەرمی،	نەترسی، ئازایەتی
 """),
-// With short examples define "hardiness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەوەی کە شتێک بەهێز بێت و بتوانێت بەسەر دۆخ و کەشووهەوای سەختدا سەربکەوێت"""),
+                            """١. (ناو) ئەوەی کە شتێک بەھێز بێت و بتوانێت بەسەر دۆخ و کەشووھەوای سەختدا سەربکەوێت"""),
                     SentencesRow(
                       englishText:
                           """The people here are known for their hardiness and courage.""",
@@ -176,7 +175,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Many places used this tree almost exclusively, for their hardiness and classic beauty.""",
                       kurdishText:
-                          """زۆر شوێن ئەم دارە بە تایبەتی بەکاردەهێنن بەتیابەتی بۆ خۆگری و جوانییە کلاسیکییەکەی.""",
+                          """زۆر شوێن ئەم دارە بە تایبەتی بەکاردەھێنن بەتیابەتی بۆ خۆگری و جوانییە کلاسیکییەکەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -247,19 +246,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Y3HfSrEo1ZI?t=';
-const double _startSecondsend = 000000000000000000000000000274;
-const String _videoIdone = 'https://youtu.be/DTElmUuOAk4?t=';
-const double _startSecondsone = 000000000000000000000000000221;
-const String _videoIdtwo = 'https://youtu.be/pLQuIuokP6Q?t=';
-const double _startSecondstwo = 000000000000000000000000000713;
-const String _videoIdthree = 'https://youtu.be/RduiV2ZFnwQ?t=';
-const double _startSecondsthree = 0000000000000000000000000005409;
-const String _videoIdfour = 'https://youtu.be/zwTc5929U5g?t=';
-const double _startSecondsfour = 000000000000000000000000000266;
-const String _videoIdfive = 'https://youtu.be/DZRIzGMr4jE?t=';
-const double _startSecondsfive = 000000000000000000000000000386;
+const String _videoIdend = 'Y3HfSrEo1ZI';
+const double _startSecondsend = 274;
+const String _videoIdone = 'DTElmUuOAk4';
+const double _startSecondsone = 221;
+const String _videoIdtwo = 'pLQuIuokP6Q';
+const double _startSecondstwo = 713;
+const String _videoIdthree = 'RduiV2ZFnwQ';
+const double _startSecondsthree = 5409;
+const String _videoIdfour = 'zwTc5929U5g';
+const double _startSecondsfour = 266;
+const String _videoIdfive = 'DZRIzGMr4jE';
+const double _startSecondsfive = 386;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

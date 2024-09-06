@@ -151,7 +151,6 @@ Usage: informal
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "geeky", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە کەسێک کە زیرەکە، بەڵام بێزارکەرە، ئەو جلانە لەبەر دەکات کە باو نین، و نازانێت لە دۆخی کۆمەڵایەتیدا ڕەفتار بکات، ھتد"""),

@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gourmet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خواردن و خواردنەوەیەک کە زۆرجار کوالێتی بەرزە و گران‌بەھایە"""),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'a7wC2M0b5u0';
 const double _startSecondsend = 494;
 const String _videoIdone = 'ENWDU_RkUb8';

@@ -239,7 +239,6 @@ Usage: archaic
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "halt", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) وەستان"""),
                     SentencesRow(
                       englishText:
@@ -314,7 +313,7 @@ Usage: archaic
                       englishText:
                           """Strikes have led to a halt in production.""",
                       kurdishText:
-                          """مانگرتن بووە بە هۆکاری وەستان لە بەرهەمهێنان.""",
+                          """مانگرتن بووە بە ھۆکاری وەستان لە بەرھەمھێنان.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -394,19 +393,18 @@ Usage: archaic
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/tsxmyL7TUJg?t=';
-const double _startSecondsend = 0000000000000000000000000001506;
-const String _videoIdone = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondsone = 000000000000000000000000000805;
-const String _videoIdtwo = 'https://youtu.be/Xzv84ZdtlE0?t=';
-const double _startSecondstwo = 0000000000000000000000000001833;
-const String _videoIdthree = 'https://youtu.be/IM31fgkxn2I?t=';
-const double _startSecondsthree = 000000000000000000000000000489;
-const String _videoIdfour = 'https://youtu.be/ZT3X1fYFViE?t=';
-const double _startSecondsfour = 000000000000000000000000000271;
-const String _videoIdfive = 'https://youtu.be/Sa-oXDAnD_Q?t=';
-const double _startSecondsfive = 000000000000000000000000000474;
+const String _videoIdend = 'tsxmyL7TUJg';
+const double _startSecondsend = 1506;
+const String _videoIdone = 'sV6uuMAnJUE';
+const double _startSecondsone = 805;
+const String _videoIdtwo = 'Xzv84ZdtlE0';
+const double _startSecondstwo = 1833;
+const String _videoIdthree = 'IM31fgkxn2I';
+const double _startSecondsthree = 489;
+const String _videoIdfour = 'ZT3X1fYFViE';
+const double _startSecondsfour = 271;
+const String _videoIdfive = 'Sa-oXDAnD_Q';
+const double _startSecondsfive = 474;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

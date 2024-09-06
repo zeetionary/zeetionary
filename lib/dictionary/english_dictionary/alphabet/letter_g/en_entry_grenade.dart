@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەنارۆک، نارنجۆک
 """),
-// With short examples define "grenade", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بۆمبێکی بچووک کە دەکرێت بە دەست یان لە چەکێکەوە بھاوێژرێت"""),
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '-L7o6HtX8Vg';
 const double _startSecondsend = 667;
 const String _videoIdone = 'hS2emKDlGmE';

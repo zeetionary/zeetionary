@@ -255,21 +255,20 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گومان، بۆچوون، مەزندە، ڕاوێژ، پێ‌وابوون، خەیاڵ، مەرەسە
 """),
-// With short examples define "guess", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) هەوڵدان بۆ وەڵامدانەوە یان بیرکردنەوە لە شتێک بەبێ دڵنیایی"""),
+                            """١. (ناو) ھەوڵدان بۆ وەڵامدانەوە یان بیرکردنەوە لە شتێک بەبێ دڵنیایی"""),
                     SentencesRow(
                       englishText:
                           """I don't really know. I'm just guessing.""",
-                      kurdishText: """لە ڕاستیدا نازانم. تەنها گومان دەکەم.""",
+                      kurdishText: """لە ڕاستیدا نازانم. تەنھا گومان دەکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He guessed wrong.""",
-                      kurdishText: """بە هەڵە داینا.""",
+                      kurdishText: """بە ھەڵە داینا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -284,7 +283,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) دۆزینەوەی وەڵامی ڕاست بۆ پرسیارێک یان ڕاستییەک بەبێ زانینی هەموو ڕاستییەکان"""),
+                            """٢. (کردار) دۆزینەوەی وەڵامی ڕاست بۆ پرسیارێک یان ڕاستییەک بەبێ زانینی ھەموو ڕاستییەکان"""),
                     SentencesRow(
                       englishText: """She guessed the answer straight away.""",
                       kurdishText: """ڕاستەوخۆ پێشبینی وەڵامە ڕاستەکەی کرد.""",
@@ -312,7 +311,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (کردار) بەکاردێت بۆ گوتنی ئەوەی شتێکی جێی سەرنجڕاکێش یان بەجۆشهێهەر دەڵێیت"""),
+                            """٣. (کردار) بەکاردێت بۆ گوتنی ئەوەی شتێکی جێی سەرنجڕاکێش یان بەجۆشھێھەر دەڵێیت"""),
                     SentencesRow(
                       englishText: """Guess what! He's asked me out!""",
                       kurdishText: """بڵێ چی! داوای ژووانێکی لێکردم!""",
@@ -322,7 +321,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Guess who I've just seen!""",
-                      kurdishText: """بڵێ کێم دیوە هەر ئێستا!""",
+                      kurdishText: """بڵێ کێم دیوە ھەر ئێستا!""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -341,14 +340,14 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """I guess I'm just lucky.""",
                       kurdishText:
-                          """وای مەزەندە دەکەم تەنها ئەوەیە بە بەختم.""",
+                          """وای مەزەندە دەکەم تەنھا ئەوەیە بە بەختم.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (ناو) هەوڵدان بۆ وەڵامێکی ڕاست یان دەربڕینی بۆچوونێک کە دڵنیا نیت ئایا ڕاستیت"""),
+                            """٥. (ناو) ھەوڵدان بۆ وەڵامێکی ڕاست یان دەربڕینی بۆچوونێک کە دڵنیا نیت ئایا ڕاستیت"""),
                     SentencesRow(
                       englishText: """Go on! Have a guess!""",
                       kurdishText: """بەردەوام بە! مەزەندەی بکە!""",
@@ -369,7 +368,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """But this is clearly just a wild guess (= not sensible or accurate) at what his motives could have been.""",
                       kurdishText:
-                          """بەڵام ئەمە تەنها مەزەندەیەکی سەرسەرەکییە بۆ ئەوەی کە پاڵنەرەکانی دەبوو چیبان.""",
+                          """بەڵام ئەمە تەنھا مەزەندەیەکی سەرسەرەکییە بۆ ئەوەی کە پاڵنەرەکانی دەبوو چیبان.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -378,7 +377,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They might be here by 3—but that's just a rough guess (= not exact).""",
                       kurdishText:
-                          """لەوانەیە نزیکەی ٣ لێرە بن ـ بەڵام ئەوە تەنها مەزەندەیەکی نزیکە.""",
+                          """لەوانەیە نزیکەی ٣ لێرە بن ـ بەڵام ئەوە تەنھا مەزەندەیەکی نزیکە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -449,19 +448,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/a_TSR_v07m0?t=';
-const double _startSecondsend = 000000000000000000000000000754;
-const String _videoIdone = 'https://youtu.be/hS2x1zl4rn0?t=';
-const double _startSecondsone = 000000000000000000000000000730;
-const String _videoIdtwo = 'https://youtu.be/_Z0ZQT0FttM?t=';
-const double _startSecondstwo = 0000000000000000000000000001836;
-const String _videoIdthree = 'https://youtu.be/khOUvmOQExc?t=';
-const double _startSecondsthree = 0000000000000000000000000004;
-const String _videoIdfour = 'https://youtu.be/XZVHmRvfDHM?t=';
-const double _startSecondsfour = 00000000000000000000000000024;
-const String _videoIdfive = 'https://youtu.be/wizgxRBfVTY?t=';
-const double _startSecondsfive = 00000000000000000000000000032;
+const String _videoIdend = 'a_TSR_v07m0';
+const double _startSecondsend = 754;
+const String _videoIdone = 'hS2x1zl4rn0';
+const double _startSecondsone = 730;
+const String _videoIdtwo = '_Z0ZQT0FttM';
+const double _startSecondstwo = 1836;
+const String _videoIdthree = 'khOUvmOQExc';
+const double _startSecondsthree = 4;
+const String _videoIdfour = 'XZVHmRvfDHM';
+const double _startSecondsfour = 24;
+const String _videoIdfive = 'wizgxRBfVTY';
+const double _startSecondsfive = 32;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

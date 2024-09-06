@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تاساو، سەرسام، پەشۆکاو، عەبەسراو، سەرسام
 """),
-// With short examples define "flurried", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) شڵەژاو و سەرلێشێواو، بە تایبەتی بەھۆی ئەوەی شتی زۆر ھەیە بیکەیت"""),

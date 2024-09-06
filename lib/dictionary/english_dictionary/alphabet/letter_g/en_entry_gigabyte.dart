@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gigabyte", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یەکەیەکی زانیاریی کۆمپیوتەر کە لە ١,٠٠٠,٠٠٠,٠٠٠ بایت پێکھاتووە"""),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '8FpPSMIB4uA';
 const double _startSecondsend = 184;
 const String _videoIdone = '4U2ZxO7b8iM';

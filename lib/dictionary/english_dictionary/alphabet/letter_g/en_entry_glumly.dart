@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "glumly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە دڵتەنگی و بێ‌دەنگییەوە"""),
                     SentencesRow(
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'leTvQPc_kdA';
 const double _startSecondsend = 635;
 const String _videoIdone = 'dvCa20_OQss';

@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "forewarn", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئاگادارکردنەوەی کەسێک سەبارەت بە شتێکی خراپ پێش ئەوەی ڕووبدات"""),

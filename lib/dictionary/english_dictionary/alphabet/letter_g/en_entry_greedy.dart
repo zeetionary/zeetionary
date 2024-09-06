@@ -166,7 +166,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چڵێس، نەوسن، چاوچنۆک، زگەڕۆ، ، زگەڕۆ، زگ‌بەردەرەوە فارزک
 """),
-// With short examples define "greedy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ویستنی پارە، دەسەڵات، خواردن، ھتد ــی زیاتر وەک لەوەی پێویستتە"""),
@@ -262,7 +261,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'gjySnrspD7E';
 const double _startSecondsend = 269;
 const String _videoIdone = 'mncCR3wehF8';

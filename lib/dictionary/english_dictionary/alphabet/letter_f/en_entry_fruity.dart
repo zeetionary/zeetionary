@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: میوەئاسا، میوەیی، میوەتیابوو، بە تامی میوەوە،	(شۆخی، چیرۆک و ھتد) ھەرزە، ناحەز، ناشیرین، پیس،	(پێکەنین) لە قووڵایی دڵەوە، لە دڵەوە،	کاریگەر
 """),
-// With short examples define "fruity", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە بۆن یان تامی میوەی ھەیە"""),
                     SentencesRow(

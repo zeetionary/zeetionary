@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناتەواوی، عەیب، خەوش،	(شووشە، چینکۆ و ھتد) موو، چڕژ، چڕژاوی، قەڵەشێوی، درز،	خاڵی لاوازی، کەم‌وکووڕی، ناتەواوی، شکستی، عەیب، ئیراد،	ھەڵە، لێ‌ھەڵقڵیشان، خەتا
 """),
-// With short examples define "flaw", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەڵەی شتێک کە واتای ئەوەیە ھەڵەی تێدایە یان باش کار ناکات"""),

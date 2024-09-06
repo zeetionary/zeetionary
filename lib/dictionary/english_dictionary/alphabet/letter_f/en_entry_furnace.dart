@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کوورە، توون، کوانوو، گوڵخەن، کوڵخان،	جەھەنم، توون، شوێنێکی یەکجار گەرم، کوورەی تاقی‌کردنەوە
 """),
-// With short examples define "furnace", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێکی داخراو کە تێێدا کانزا یان شووشەی تێدا گەرم دەکرێت لە پلەی گەرمیی زۆر بەرزدا"""),

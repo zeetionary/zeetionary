@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕەوت، ڕەت‌ورۆیین، ڕەوشت، ڕێوەچوون، ڕۆیشت، شێوەی ڕۆیشتن، لارولەنجە 
 """),
-// With short examples define "gait", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شێوازێک لە ڕێکردن یان ڕاکردن"""),
                     SentencesRow(

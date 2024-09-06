@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شکان، شکاوی، شکست، شکستە، درزبردن، قەڵەشین، قڵیشان، قڵیشاوی
 """),
-// With short examples define "fracture", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شکانی ئێسک یان مادەی ڕەقی دیکە"""),
                     SentencesRow(

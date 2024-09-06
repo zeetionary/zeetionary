@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خواناس، دیندار، بەدین، خودابین، بەئیمان، لەخوداترس، پارێزگار
 """),
-// With short examples define "godly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) ھەبوونی ژیانێکی باوەڕدارانە"""),
                     SentencesRow(
@@ -225,7 +224,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'YlQn51TCCpo';
 const double _startSecondsend = 145;
 const String _videoIdone = 'G3LZ-Jh2L6E';

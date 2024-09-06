@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێش‌خان، پێشەوە، بەشی پێشەوەی دیمەن، وێنەیێ و ھتد، نزیک‌ترین بەش لە بینەرەوە،	(خوازە) جێگای سەرنج،	دیارترین شوێن
 """),
-// With short examples define "foreground", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشی پێشەوەی دیمەنێک، وێنەیەک، ھتد کە سەیری دەکەیت"""),

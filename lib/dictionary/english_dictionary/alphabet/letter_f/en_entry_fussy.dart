@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نگەران، بەدڵەڕاوکێ، قیژەون لەسەر شتی ھیچەکە، ھەژیو، زووتووڕە، جینگزی،	(دیزاین، بەرگ و ھتد) بەزریقەوبڕیقە، ئاڵاوواڵا، ڕازاوە، بریقەدار،	پڕدێدی‌وبۆدی، پڕتڕوتەوێڵ
 """),
-// With short examples define "fussy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) زۆر نیگەران سەبارەت بەوەی شتەکان ڕێک بەو شێوەیە بن کە دەتەوێت"""),

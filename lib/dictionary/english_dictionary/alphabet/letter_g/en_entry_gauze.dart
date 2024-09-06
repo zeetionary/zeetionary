@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: برین‌پێچ، برنجۆک، برینجۆک،	تۆڕ، پارچەی تۆڕی
 """),
-// With short examples define "gauze", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جۆرە قوماشێکی سووک کە دەتوانیت بە ناویدا ببینیت"""),

@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کرۆژە، کڕکڕاگە، نەرمەی ئێسک، چەق
 """),
-// With short examples define "gristle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەکی سەخت لە گۆشتدا کە ناخۆشە بۆ خواردن"""),
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'eqAcVASDZ3g';
 const double _startSecondsend = 87;
 const String _videoIdone = '21igfoUrRCg';

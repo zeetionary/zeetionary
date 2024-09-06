@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لە ڕووی گەورەیی‌یەوە، بەبەزەیی‌یانە، دڵسۆزانە
 """),
-// With short examples define "graciously", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە بەڕێزانە و میھرەبانانەیە"""),
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '5R65skWdg7Y';
 const double _startSecondsend = 3151;
 const String _videoIdone = 'JNpKUp5FTeY';

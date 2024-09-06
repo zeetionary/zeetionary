@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: لیاو، لێیۆو، لێ‌وو، مینا، ڕەنگ، لۆعاب، ڕووکەشی شووشەیی، مەتریاڵی شووشەپۆشین،	ڕۆنە ورشنە،	ئاستی ورشن یان بریقەدار
 // """),
-// With short examples define "glaze", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) کە کەسێک ماندوو یان بێزار دەرکەوێت"""),
@@ -294,7 +293,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'n4bucphC9r4';
 const double _startSecondsend = 323;
 const String _videoIdone = 'vzKuobmi3iI';

@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پردۆکە، تەختەپەڕینەوە، تەختەپرد، پردە، پردۆکە،	ڕێڕەو، تێپەڕگە، گوزەر، پاساژ
 """),
-// With short examples define "gangway", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕێگای نێوان ڕیزە کورسییەکانی ھۆڵی شانۆ، فڕۆکە، ھتد"""),

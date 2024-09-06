@@ -146,11 +146,10 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: فێڵ، تەڵەکە، فریو، هەڵفریواندن، فێڵ‌وتەڵەکە، درۆ و دەلەسە، دەسبڕی
+کوردی: فێڵ، تەڵەکە، فریو، ھەڵفریواندن، فێڵ‌وتەڵەکە، درۆ و دەلەسە، دەسبڕی
 """),
-// With short examples define "guile", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) بەکارهێنانی فێڵ"""),
+                        text: """١. (ناو) بەکارھێنانی فێڵ"""),
                     const AlsoEnglishckb(word: "ھەروەھا: deceit"),
                     SentencesRow(
                       englishText:
@@ -226,19 +225,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/G0Cj6tGnaK8?t=';
-const double _startSecondsend = 0000000000000000000000000001276;
-const String _videoIdone = 'https://youtu.be/p-L0WIQsi5o?t=';
-const double _startSecondsone = 0000000000000000000000000001511;
-const String _videoIdtwo = 'https://youtu.be/ae3DMlXcybg?t=';
-const double _startSecondstwo = 000000000000000000000000000300;
-const String _videoIdthree = 'https://youtu.be/j4IHEWOWwcs?t=';
-const double _startSecondsthree = 000000000000000000000000000735;
-const String _videoIdfour = 'https://youtu.be/C_o7hIRH3jE?t=';
-const double _startSecondsfour = 000000000000000000000000000365;
-const String _videoIdfive = 'https://youtu.be/mmfItRGmUGs?t=';
-const double _startSecondsfive = 000000000000000000000000000167;
+const String _videoIdend = 'G0Cj6tGnaK8';
+const double _startSecondsend = 1276;
+const String _videoIdone = 'p-L0WIQsi5o';
+const double _startSecondsone = 1511;
+const String _videoIdtwo = 'ae3DMlXcybg';
+const double _startSecondstwo = 300;
+const String _videoIdthree = 'j4IHEWOWwcs';
+const double _startSecondsthree = 735;
+const String _videoIdfour = 'C_o7hIRH3jE';
+const double _startSecondsfour = 365;
+const String _videoIdfive = 'mmfItRGmUGs';
+const double _startSecondsfive = 167;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

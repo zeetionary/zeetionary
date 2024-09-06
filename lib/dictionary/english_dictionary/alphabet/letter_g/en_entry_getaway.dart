@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەڵاتن، دەرچوون، دەربازبوون، ڕەڤیان، ڕاکردن
 """),
-// With short examples define "getaway", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ھەڵھاتن لە دۆخێکی سەخت"""),
                     SentencesRow(
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'fpf0dbF0CFk';
 const double _startSecondsend = 5;
 const String _videoIdone = '1Gxrwh4zGPg';

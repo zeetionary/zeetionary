@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە گەورەیی، بە شکۆوە، بە شێوەیێکی بەشکۆ، بەشکۆیانە، شکۆمەندانە
 """),
-// With short examples define "grandly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) کە شێوە، ئەندازە، یان ستایڵی بە شێوەیەکی گرنگ یان سەرنجڕاکێشە"""),
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'WJBA1bidwis';
 const double _startSecondsend = 346;
 const String _videoIdone = 'hmpBODRtwfw';

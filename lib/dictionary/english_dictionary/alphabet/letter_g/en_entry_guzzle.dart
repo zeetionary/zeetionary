@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "guzzle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خواردنەوەی شتێک (لە بەریتانیا خواردنیش) بە خێرایی و بە ڕێژەیەکی زۆر"""),
@@ -161,7 +160,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The kids seem to be guzzling soft drinks all day.""",
                       kurdishText:
-                          """منداڵەکان وەها دەردەکەون کە تەواوی ڕۆژەکە خواردنەوە هەڵبدەن.""",
+                          """منداڵەکان وەھا دەردەکەون کە تەواوی ڕۆژەکە خواردنەوە ھەڵبدەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -169,7 +168,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """My car guzzles fuel.""",
                       kurdishText:
-                          """(خوازراوی) ئۆتۆمبێلەکەم بەنزین هەڵئەلووشێت (= زۆر دەخوات).""",
+                          """(خوازراوی) ئۆتۆمبێلەکەم بەنزین ھەڵئەلووشێت (= زۆر دەخوات).""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -240,19 +239,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/2HfovmFhjok?t=';
-const double _startSecondsend = 000000000000000000000000000564;
-const String _videoIdone = 'https://youtu.be/0yv6smozK9M?t=';
-const double _startSecondsone = 000000000000000000000000000410;
-const String _videoIdtwo = 'https://youtu.be/UtMM_2uXfAg?t=';
-const double _startSecondstwo = 000000000000000000000000000246;
-const String _videoIdthree = 'https://youtu.be/WWiW64zlYuw?t=';
-const double _startSecondsthree = 000000000000000000000000000653;
-const String _videoIdfour = 'https://youtu.be/_SmZpuF13o4?t=';
-const double _startSecondsfour = 00000000000000000000000000039;
-const String _videoIdfive = 'https://youtu.be/7FNWR0WJZZg?t=';
-const double _startSecondsfive = 00000000000000000000000000023;
+const String _videoIdend = '2HfovmFhjok';
+const double _startSecondsend = 564;
+const String _videoIdone = '0yv6smozK9M';
+const double _startSecondsone = 410;
+const String _videoIdtwo = 'UtMM_2uXfAg';
+const double _startSecondstwo = 246;
+const String _videoIdthree = 'WWiW64zlYuw';
+const double _startSecondsthree = 653;
+const String _videoIdfour = '_SmZpuF13o4';
+const double _startSecondsfour = 39;
+const String _videoIdfive = '7FNWR0WJZZg';
+const double _startSecondsfive = 23;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

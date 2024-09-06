@@ -208,7 +208,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مرۆی سەیر، مرۆی نائاسایی،	گیانەوەر یان ڕووەکی سەیر و نائاسایی،	لایەنگر، کوشتەومردە، سەوداسەر، بۆمردوو،	ڕووداوی نائاسایی، ڕووداوی چاوەڕوان‌نەکراو،	کار یان کردەوەی نائاسایی،	بێزوو، کەڵکەڵە، ئارەزوو، مەراق، ھەوەس، نگە،	تاوتاوی، ڕاڕایی، وازی‌وازێتی
 """),
-// With short examples define "freak", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە حەزێکی زۆری بۆ شتێک ھەیە"""),
                     SentencesRow(

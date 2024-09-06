@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێک‌ھەڵوەشان، لێک‌بوونەوە، لێک‌ترازان، جیابوونەوە، لێک‌دابڕان، پچڕپچڕبوون، پارچەپارچەبوون، پل‌پل‌کردن، پچڕپچڕبوون، بەش‌بەش‌بوون، پەرچقین
 """),
-// With short examples define "fragmentation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شکان یان دابەشبوون بۆ بەشی بچووکتر"""),

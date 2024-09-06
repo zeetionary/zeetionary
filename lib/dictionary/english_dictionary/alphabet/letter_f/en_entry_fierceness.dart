@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھاری، دڕی، دڕندەیی،	توندوتیژی، توندی
 """),
-// With short examples define "fierceness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە تووڕە یان دڕ بیت بەشێوەیەک کە ترسێنەرە"""),

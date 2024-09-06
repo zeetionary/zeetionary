@@ -221,7 +221,6 @@ Usage: Brit, Cdn (US: gonorrhea)
   }
 }
 
-// 188888880002200
 const String _videoIdend = '7_ViD7qdano';
 const double _startSecondsend = 474;
 const String _videoIdone = '-W4uWnwLVQM';

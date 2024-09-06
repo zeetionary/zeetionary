@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەبڕشت، بەپیت، بڕشت‌دار، بەبەرھەم، بەبڕ، بەبەر، مایەدار، بەمایە، خورت، زۆربڕ، زەنوێر، بەرەکەت‌دار، ئادان،	پیتێنراو (تۆو)، چاک‌کراو،	داھێنەر،	شین‌بوو، ڕووەک، ڕووەندە، سەوزبوو،	بەزەو، زایا، بزێ
 """),
-// With short examples define "fertile", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) زەوییکە کە ڕووەک باش گەشەی تێدا دەکات"""),

@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کێچ، چێچ
 """),
-// With short examples define "flea", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مێروویەکی زۆر بچووک کە باز دەدات و باڵی نییە، و گاز لە ئاژەڵ و مرۆڤ دەگرێت و خوێن دەمژێت"""),

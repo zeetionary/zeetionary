@@ -153,9 +153,8 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: کەل‌وپەلی کۆمپیوتەر، هاردوێر، ڕەقامێر، ڕەقەواڵە، ڕەقەنگ، ڕەقوێر
+کوردی: کەل‌وپەلی کۆمپیوتەر، ھاردوێر، ڕەقامێر، ڕەقەواڵە، ڕەقەنگ، ڕەقوێر
 """),
-// With short examples define "hardware", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئامێر و بەشەکانی کۆمپیوتەر یان کەلوپەلی کارەبایی"""),
@@ -174,7 +173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He works weekends at the hardware shop.""",
                       kurdishText:
-                          """کۆتایی هەفتە لە فرۆشگای ڕەقامێرەکە کاردەکات.""",
+                          """کۆتایی ھەفتە لە فرۆشگای ڕەقامێرەکە کاردەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -245,19 +244,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/p4VxERfTHgU?t=';
-const double _startSecondsend = 0000000000000000000000000003;
-const String _videoIdone = 'https://youtu.be/aPprQUQljHE';
+const String _videoIdend = 'p4VxERfTHgU';
+const double _startSecondsend = 3;
+const String _videoIdone = 'aPprQUQljHE';
 const double _startSecondsone = 0;
-const String _videoIdtwo = 'https://youtu.be/tR7HuqZXQ3I';
+const String _videoIdtwo = 'tR7HuqZXQ3I';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/fCoXWfBATKA';
+const String _videoIdthree = 'fCoXWfBATKA';
 const double _startSecondsthree = 0;
-const String _videoIdfour = 'https://youtu.be/sI1SLHEC98I?t=';
-const double _startSecondsfour = 000000000000000000000000000101;
-const String _videoIdfive = 'https://youtu.be/9asUvqb0MsY?t=';
-const double _startSecondsfive = 00000000000000000000000000099;
+const String _videoIdfour = 'sI1SLHEC98I';
+const double _startSecondsfour = 101;
+const String _videoIdfive = '9asUvqb0MsY';
+const double _startSecondsfive = 99;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

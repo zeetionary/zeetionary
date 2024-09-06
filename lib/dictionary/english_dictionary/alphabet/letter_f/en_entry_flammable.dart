@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گڕکێش، ئاگرگرتوو، زووگرتوو، لەگڕگرتن‌ھاتوو، لەداگیرسان‌ھاتوو، بە ئاسانی ئاور دەگرێ
 """),
-// With short examples define "flammable", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە بە ئاسانی ئاگر دەگرێت"""),
                     SentencesRow(

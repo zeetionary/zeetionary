@@ -181,7 +181,7 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """٢. (ناو) خواردن"""),
                     SentencesRow(
                       englishText: """He packed some grub for the trip.""",
-                      kurdishText: """هەندێک خواردنی بۆ گەشتەکە پێچایەوە.""",
+                      kurdishText: """ھەندێک خواردنی بۆ گەشتەکە پێچایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -262,19 +262,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/u3dEuGBUd7w?t=';
-const double _startSecondsend = 000000000000000000000000000165;
-const String _videoIdone = 'https://youtu.be/NZz1y64wC04?t=';
-const double _startSecondsone = 00000000000000000000000000035;
-const String _videoIdtwo = 'https://youtu.be/idWpZ63isMo?t=';
-const double _startSecondstwo = 000000000000000000000000000460;
-const String _videoIdthree = 'https://youtu.be/biXxMLcKa2g?t=';
-const double _startSecondsthree = 000000000000000000000000000351;
-const String _videoIdfour = 'https://youtu.be/jltLSczolzM?t=';
-const double _startSecondsfour = 000000000000000000000000000403;
-const String _videoIdfive = 'https://youtu.be/BztMgcNgobk?t=';
-const double _startSecondsfive = 000000000000000000000000000133;
+const String _videoIdend = 'u3dEuGBUd7w';
+const double _startSecondsend = 165;
+const String _videoIdone = 'NZz1y64wC04';
+const double _startSecondsone = 35;
+const String _videoIdtwo = 'idWpZ63isMo';
+const double _startSecondstwo = 460;
+const String _videoIdthree = 'biXxMLcKa2g';
+const double _startSecondsthree = 351;
+const String _videoIdfour = 'jltLSczolzM';
+const double _startSecondsfour = 403;
+const String _videoIdfive = 'BztMgcNgobk';
+const double _startSecondsfive = 133;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

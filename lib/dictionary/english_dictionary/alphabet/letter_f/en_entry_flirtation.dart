@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەیف، حاڵ، لاس، پێوەندی سێکسی، دڵداری، ئەوین‌بازی،	کریشمە، نازونووز، ئەدا
 """),
-// With short examples define "flirtation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ماوەیەکی کورت کە کەسێک حەزی بە شتێکە"""),

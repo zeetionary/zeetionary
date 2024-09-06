@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەڵکەوتەیی، ھۆشی لەرادەبەدەر، توانایی، توانایی داھێنەرانە، بەھرە،	ھەڵکەوتوو، بلیمەت، شارەزایی یان تواناییەکی تایبەتی، شارەزا، پسپۆڕ،	تایبەتمەندی، ڕەوشت،	فریشتە یان گیانی پارێزەر
 """),
-// With short examples define "genius", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) توانای ھونەری، زیرەکی، یان شارەزایی زۆر"""),
@@ -358,7 +357,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'BxWw8AO4ZmI';
 const double _startSecondsend = 410;
 const String _videoIdone = 'y1sF6ZeASU0';

@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کڵپەکردن، درەوشانەوە،	زریقەوبریقە، ئاڵوواڵا،	(خۆ)وانیشان‌دان، خۆنواندن
 """),
-// With short examples define "flamboyance", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی جیاواز و بەجۆشھێنەر بەشێوەیەک کە سەرنج ڕادەکێشێت"""),

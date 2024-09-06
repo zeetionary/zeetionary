@@ -146,7 +146,6 @@ Usage: Brit, Cdn (US: gynecologist)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gynaecologist", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پزیشکێک کە لێکۆڵینەوە لە نەخۆشییەکانی ژنان دەکات و چارەسەریان دەکات"""),
@@ -224,19 +223,18 @@ Usage: Brit, Cdn (US: gynecologist)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/raSeaAeryWE?t=';
-const double _startSecondsend = 0000000000000000000000000002110;
-const String _videoIdone = 'https://youtu.be/-fUDIucr2eo?t=';
-const double _startSecondsone = 00000000000000000000000000098;
-const String _videoIdtwo = 'https://youtu.be/YkgOalM0cqA?t=';
-const double _startSecondstwo = 000000000000000000000000000486;
-const String _videoIdthree = 'https://youtu.be/wiMqAbHc8I8?t=';
-const double _startSecondsthree = 0000000000000000000000000002;
-const String _videoIdfour = 'https://youtu.be/kAy5tyOz_9A?t=';
-const double _startSecondsfour = 00000000000000000000000000036;
-const String _videoIdfive = 'https://youtu.be/gcYRpOIUElU?t=';
-const double _startSecondsfive = 000000000000000000000000000487;
+const String _videoIdend = 'raSeaAeryWE';
+const double _startSecondsend = 2110;
+const String _videoIdone = '-fUDIucr2eo';
+const double _startSecondsone = 98;
+const String _videoIdtwo = 'YkgOalM0cqA';
+const double _startSecondstwo = 486;
+const String _videoIdthree = 'wiMqAbHc8I8';
+const double _startSecondsthree = 2;
+const String _videoIdfour = 'kAy5tyOz_9A';
+const double _startSecondsfour = 36;
+const String _videoIdfive = 'gcYRpOIUElU';
+const double _startSecondsfive = 487;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

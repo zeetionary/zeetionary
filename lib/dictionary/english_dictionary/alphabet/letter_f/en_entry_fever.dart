@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تێ، تاوتێ، تا، نۆبەتی،	خرۆش، جۆش‌وخرۆش، تین‌وتاو، تاوتێ، تاووجۆش، ورووژان، ئارام‌لێ‌ھەڵگیراوی، ھەژان، کڵپەسەندن، شاگەشکەیی، ھەڵچوون
 """),
-// With short examples define "fever", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دۆخێکی تەندرووستی کە تێیدا کەسێک پلەی گەرمیی بەرزە"""),

@@ -371,7 +371,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕۆیین، ڕەوین، سووڕان، لێشاو، خوڕ، ڕەوت، تێ‌ڕژان، ڕژان،	قسە، وتە، پەیڤ،	کشانی ئاو،	بێ‌نوێژی، حەیز، عوزر،	زۆری، فرەیی، زەبەندی،	لێشاو، شەپۆل، لافاو،	ڕەوانی
 """),
-// With short examples define "flow", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جووڵەی بەردەوام و نەگۆڕی شتێک بە یەک ئاراستەدا"""),

@@ -198,10 +198,9 @@ Usage: Brit, Cdn (US: harbor)
                     const KurdishVocabulary(text: """
 کوردی: لەنگەرگا، بەندەرگا، تابگە
 """),
-// With short examples define "harbour", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ناوچەیەکی ئاوی لە نزیک کەنارەوە کە بە دیواری بەهیز پارێزراوە و کەشتی تێیدا دەوەستێت"""),
+                            """١. (ناو) ناوچەیەکی ئاوی لە نزیک کەنارەوە کە بە دیواری بەھیز پارێزراوە و کەشتی تێیدا دەوەستێت"""),
                     SentencesRow(
                       englishText:
                           """Several boats lay at anchor in the harbour.""",
@@ -220,7 +219,7 @@ Usage: Brit, Cdn (US: harbor)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) شاردنەوەی کەسێک کە لە پۆلیس هەڵدێت"""),
+                            """٢. (کردار) شاردنەوەی کەسێک کە لە پۆلیس ھەڵدێت"""),
                     SentencesRow(
                       englishText:
                           """Police believe someone must be harbouring the killer.""",
@@ -232,12 +231,12 @@ Usage: Brit, Cdn (US: harbor)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (کردار) هەڵگرتنی هەست و بیرکردنەوە لە مێشکتدا بۆ ماوەیەکی زۆر"""),
+                            """٣. (کردار) ھەڵگرتنی ھەست و بیرکردنەوە لە مێشکتدا بۆ ماوەیەکی زۆر"""),
                     SentencesRow(
                       englishText:
                           """She began to harbour doubts about the decision.""",
                       kurdishText:
-                          """دەستیکرد بە هەبوونی گومان لەسەر بڕیارەکە.""",
+                          """دەستیکرد بە ھەبوونی گومان لەسەر بڕیارەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -245,7 +244,7 @@ Usage: Brit, Cdn (US: harbor)
                     SentencesRow(
                       englishText:
                           """He still harboured doubts about her honesty.""",
-                      kurdishText: """هێشتا گومانی هەبوو لەسەر ڕاستگۆییەکەی.""",
+                      kurdishText: """ھێشتا گومانی ھەبوو لەسەر ڕاستگۆییەکەی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -328,19 +327,18 @@ Usage: Brit, Cdn (US: harbor)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Vau_CD8NmUY?t=';
-const double _startSecondsend = 00000000000000000000000000015;
-const String _videoIdone = 'https://youtu.be/FiuCGN2RArU';
+const String _videoIdend = 'Vau_CD8NmUY';
+const double _startSecondsend = 15;
+const String _videoIdone = 'FiuCGN2RArU';
 const double _startSecondsone = 0;
-const String _videoIdtwo = 'https://youtu.be/MfBbSRFEtj0?t=';
-const double _startSecondstwo = 000000000000000000000000000223;
-const String _videoIdthree = 'https://youtu.be/PX5PPxUegnk?t=';
-const double _startSecondsthree = 000000000000000000000000000230;
-const String _videoIdfour = 'https://youtu.be/g4Ik7GO4yi8?t=';
-const double _startSecondsfour = 00000000000000000000000000031;
-const String _videoIdfive = 'https://youtu.be/84IqsoJ_58Y?t=';
-const double _startSecondsfive = 00000000000000000000000000024;
+const String _videoIdtwo = 'MfBbSRFEtj0';
+const double _startSecondstwo = 223;
+const String _videoIdthree = 'PX5PPxUegnk';
+const double _startSecondsthree = 230;
+const String _videoIdfour = 'g4Ik7GO4yi8';
+const double _startSecondsfour = 31;
+const String _videoIdfive = '84IqsoJ_58Y';
+const double _startSecondsfive = 24;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

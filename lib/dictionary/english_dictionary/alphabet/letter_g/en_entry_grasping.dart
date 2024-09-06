@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ماڵ‌پەرست، بەتەماح، چاونەزێڕ، ڕژد، پارەپەرست
 """),
-// With short examples define "grasping", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە ھەمیشە ھەوڵ بدەیت پارە، دەسەڵات، ھتد بۆ خۆت کۆبکەیتەوە"""),
@@ -232,7 +231,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'cpriXP451ys';
 const double _startSecondsend = 281;
 const String _videoIdone = 'Jo8jlfVZ194';

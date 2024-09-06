@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                   children: [
                     const KurdishVocabulary(text: """
 کوردی: ڕۆیشتن، ڕۆیین، ڕەوت، ڕەوندەیی، ڕەوان،	خێرایی ڕەوت یان ڕۆیشتن،	گۆڕانی بەردەوام، ناجێگیری، دۆخی ناچەسپیو،	(پزشکی) ڕژان، دەردان،	زگچوون، ڕەوانی، زگەشۆرە،	دەرپەڕین، ڕەوندەیی، ڕۆیین، ڕەوت، لێشاو، شلی، شلەیی، ڕژۆکی، شلکەرەوە، شلەک، مەتریاڵێ کە یارمەتی شل‌بوونەوەی کانزاکان دەکا، توێنە"""),
-// With short examples define "flux", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) جووڵە و گۆڕانی بەردەوام"""),
                     SentencesRow(

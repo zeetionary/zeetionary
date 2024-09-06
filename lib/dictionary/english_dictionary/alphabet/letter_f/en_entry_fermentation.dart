@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترشاندن، ترشان، ھەڵھاتن
 """),
-// With short examples define "fermentation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پڕۆسەی گۆڕانی کیمیای کە بە خومرە یان بەکتریا ڕوودەدات"""),

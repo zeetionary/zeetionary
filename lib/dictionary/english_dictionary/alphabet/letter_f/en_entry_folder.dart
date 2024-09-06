@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فولدێر، جێ‌تۆمارە، تۆمارەدان، کاغەزدان
 """),
-// With short examples define "folder", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێک کە لە بەرگی پلاستیکی جیڕ درووستکراوە و بۆ پاراستنی کاغەز بەکاردێت کە نەبەستراون بە یەکەوە"""),

@@ -153,10 +153,9 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gymnastics", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕاهێنانی جەستەیی، زۆرجار بە کەرەستەی تایبەت، کە هێز و توانای جەستە بۆ جوڵان و چەمانەوە پیشان دەدەن و گەشەی پێدەدەن"""),
+                            """١. (ناو) ڕاھێنانی جەستەیی، زۆرجار بە کەرەستەی تایبەت، کە ھێز و توانای جەستە بۆ جوڵان و چەمانەوە پیشان دەدەن و گەشەی پێدەدەن"""),
                     SentencesRow(
                       englishText: """She does gymnastics at school.""",
                       kurdishText: """لە قوتابخانە جیمناستیکس دەکات.""",
@@ -239,19 +238,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/RHFFDiFkVVQ?t=';
-const double _startSecondsend = 0000000000000000000000000004;
-const String _videoIdone = 'https://youtu.be/9bLNQVcN_IM?t=';
-const double _startSecondsone = 00000000000000000000000000015;
-const String _videoIdtwo = 'https://youtu.be/kl6O1zwjpO0';
+const String _videoIdend = 'RHFFDiFkVVQ';
+const double _startSecondsend = 4;
+const String _videoIdone = '9bLNQVcN_IM';
+const double _startSecondsone = 15;
+const String _videoIdtwo = 'kl6O1zwjpO0';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/CQL-6XWlCfU?t=';
-const double _startSecondsthree = 00000000000000000000000000022;
-const String _videoIdfour = 'https://youtu.be/SZw3-hkuC0Y?t=';
-const double _startSecondsfour = 000000000000000000000000000219;
-const String _videoIdfive = 'https://youtu.be/mKv_CQuQKKQ?t=';
-const double _startSecondsfive = 000000000000000000000000000320;
+const String _videoIdthree = 'CQL-6XWlCfU';
+const double _startSecondsthree = 22;
+const String _videoIdfour = 'SZw3-hkuC0Y';
+const double _startSecondsfour = 219;
+const String _videoIdfive = 'mKv_CQuQKKQ';
+const double _startSecondsfive = 320;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

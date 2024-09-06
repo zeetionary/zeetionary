@@ -154,7 +154,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """You will need to supply a hard copy version of all files.""",
                       kurdishText:
-                          """دەبێت کۆپی چاپکراوی هەموو فایلەکان دابین بکەیت.""",
+                          """دەبێت کۆپی چاپکراوی ھەموو فایلەکان دابین بکەیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -225,19 +225,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/sYJkmRcx8xQ?t=';
-const double _startSecondsend = 000000000000000000000000000272;
-const String _videoIdone = 'https://youtu.be/LJNtfyq3TDE?t=';
-const double _startSecondsone = 0000000000000000000000000001265;
-const String _videoIdtwo = 'https://youtu.be/5JYqTSSH6IA?t=';
-const double _startSecondstwo = 000000000000000000000000000146;
-const String _videoIdthree = 'https://youtu.be/Aoo9l_w2pq4?t=';
-const double _startSecondsthree = 0000000000000000000000000002340;
-const String _videoIdfour = 'https://youtu.be/JSD9gYgVuvE?t=';
-const double _startSecondsfour = 000000000000000000000000000492;
-const String _videoIdfive = 'https://youtu.be/Pfz-_WxGu3Y?t=';
-const double _startSecondsfive = 0000000000000000000000000002565;
+const String _videoIdend = 'sYJkmRcx8xQ';
+const double _startSecondsend = 272;
+const String _videoIdone = 'LJNtfyq3TDE';
+const double _startSecondsone = 1265;
+const String _videoIdtwo = '5JYqTSSH6IA';
+const double _startSecondstwo = 146;
+const String _videoIdthree = 'Aoo9l_w2pq4';
+const double _startSecondsthree = 2340;
+const String _videoIdfour = 'JSD9gYgVuvE';
+const double _startSecondsfour = 492;
+const String _videoIdfive = 'Pfz-_WxGu3Y';
+const double _startSecondsfive = 2565;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

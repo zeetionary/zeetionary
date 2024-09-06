@@ -150,7 +150,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """The handyman fixed the leaky faucet.""",
                       kurdishText:
-                          """بەهرەوەرەکە بەلووعە دڵۆپەکردووەکەی چاککردەوە.""",
+                          """بەھرەوەرەکە بەلووعە دڵۆپەکردووەکەی چاککردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -221,18 +221,17 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/ejFccNmL15g?t=';
-const double _startSecondsend = 000000000000000000000000000805;
-const String _videoIdone = 'https://youtu.be/_mqP7kd1H_Y?t=';
-const double _startSecondsone = 000000000000000000000000000453;
-const String _videoIdtwo = 'https://youtu.be/MJFyzG0ES5g?t=';
-const double _startSecondstwo = 00000000000000000000000000035;
-const String _videoIdthree = 'https://youtu.be/rPs7yGfjlVk?t=';
-const double _startSecondsthree = 000000000000000000000000000136;
-const String _videoIdfour = 'https://youtu.be/jGrp_qIoGFM?t=';
-const double _startSecondsfour = 0000000000000000000000000001076;
-const String _videoIdfive = 'https://youtu.be/II0hXVCsUsw?t=';
+const String _videoIdend = 'ejFccNmL15g';
+const double _startSecondsend = 805;
+const String _videoIdone = '_mqP7kd1H_Y';
+const double _startSecondsone = 453;
+const String _videoIdtwo = 'MJFyzG0ES5g';
+const double _startSecondstwo = 35;
+const String _videoIdthree = 'rPs7yGfjlVk';
+const double _startSecondsthree = 136;
+const String _videoIdfour = 'jGrp_qIoGFM';
+const double _startSecondsfour = 1076;
+const String _videoIdfive = 'II0hXVCsUsw';
 const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {

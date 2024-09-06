@@ -152,7 +152,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She apprenticed with a master gunsmith to learn the trade.""",
                       kurdishText:
-                          """بوو بە شاگردی چەکسازێک بۆ فێربوونی بەهرەکە.""",
+                          """بوو بە شاگردی چەکسازێک بۆ فێربوونی بەھرەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -223,19 +223,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/4O0qkpf5O0A?t=';
-const double _startSecondsend = 000000000000000000000000000246;
-const String _videoIdone = 'https://youtu.be/JqGCFfOhd-M?t=';
-const double _startSecondsone = 000000000000000000000000000433;
-const String _videoIdtwo = 'https://youtu.be/g_3AoDf7CeE?t=';
-const double _startSecondstwo = 000000000000000000000000000263;
-const String _videoIdthree = 'https://youtu.be/upzWztulGkM?t=';
-const double _startSecondsthree = 0000000000000000000000000001296;
-const String _videoIdfour = 'https://youtu.be/S4DaYEruykw?t=';
-const double _startSecondsfour = 0000000000000000000000000007;
-const String _videoIdfive = 'https://youtu.be/9PmCuJU6w0g?t=';
-const double _startSecondsfive = 00000000000000000000000000028;
+const String _videoIdend = '4O0qkpf5O0A';
+const double _startSecondsend = 246;
+const String _videoIdone = 'JqGCFfOhd-M';
+const double _startSecondsone = 433;
+const String _videoIdtwo = 'g_3AoDf7CeE';
+const double _startSecondstwo = 263;
+const String _videoIdthree = 'upzWztulGkM';
+const double _startSecondsthree = 1296;
+const String _videoIdfour = 'S4DaYEruykw';
+const double _startSecondsfour = 7;
+const String _videoIdfive = '9PmCuJU6w0g';
+const double _startSecondsfive = 28;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

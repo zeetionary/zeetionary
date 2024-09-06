@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دووربینی، بەمشووری، داھاتووبینی، داھاتووزانی، پێشبینی، دوابینی
 """),
-// With short examples define "forethought", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بیرکردنەوەی وریاییانە بۆ دڵنیایی ئەوەی شتەکان سەرکەتوو دەبن لە داھاتوودا"""),

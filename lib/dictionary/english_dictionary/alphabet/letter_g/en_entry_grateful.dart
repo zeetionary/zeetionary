@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سپاس‌کار، سپاس‌بێژ، سپاس‌بژێر، منەت‌بار، منەت‌دار، بەسفەت، باوەفا، نمەک‌ناس، مەمنوون،	خۆش
 """),
-// With short examples define "grateful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) سوپاسگوزار بەھۆی ئەوەی کەسێک میھرەبان بووە لەگەڵت یان یارمەتی داویت"""),
@@ -333,7 +332,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hS2x1zl4rn0';
 const double _startSecondsend = 220;
 const String _videoIdone = '_wNsZEqpKUA';

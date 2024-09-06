@@ -161,11 +161,10 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەختەوەری، بەختیاری، شادی، خۆشی، خۆش‌حاڵی، پێ‌خۆشبوون
 """),
-// With short examples define "happiness", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) دڵخۆشی"""),
                     SentencesRow(
                       englishText: """Fame did not bring her happiness.""",
-                      kurdishText: """ناوبانگ دڵخۆشی بۆی نەهێنا.""",
+                      kurdishText: """ناوبانگ دڵخۆشی بۆی نەھێنا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -255,19 +254,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/hS2x1zl4rn0?t=';
-const double _startSecondsend = 000000000000000000000000000298;
-const String _videoIdone = 'https://youtu.be/UuGpm01SPcA?t=';
-const double _startSecondsone = 00000000000000000000000000026;
-const String _videoIdtwo = 'https://youtu.be/lsFPbgK1v9I?t=';
-const double _startSecondstwo = 000000000000000000000000000405;
-const String _videoIdthree = 'https://youtu.be/-cPdImejxEQ?t=';
-const double _startSecondsthree = 000000000000000000000000000107;
-const String _videoIdfour = 'https://youtu.be/L81XWiDgmTk?t=';
-const double _startSecondsfour = 0000000000000000000000000002;
-const String _videoIdfive = 'https://youtu.be/xfkONdNK96w?t=';
-const double _startSecondsfive = 00000000000000000000000000085;
+const String _videoIdend = 'hS2x1zl4rn0';
+const double _startSecondsend = 298;
+const String _videoIdone = 'UuGpm01SPcA';
+const double _startSecondsone = 26;
+const String _videoIdtwo = 'lsFPbgK1v9I';
+const double _startSecondstwo = 405;
+const String _videoIdthree = '-cPdImejxEQ';
+const double _startSecondsthree = 107;
+const String _videoIdfour = 'L81XWiDgmTk';
+const double _startSecondsfour = 2;
+const String _videoIdfive = 'xfkONdNK96w';
+const double _startSecondsfive = 85;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

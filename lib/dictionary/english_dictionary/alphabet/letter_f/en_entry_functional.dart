@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئەرکی، فرمانی، پەیوری، کارەکی، کاری، کردەوەیی، کرداری، کارکردی،	بەسوود، بەقازانج، بەکەڵک،	کاریگەر، کارا،	بەکارھاتوو، کارپێکراو، ساغ
 """),
-// With short examples define "functional", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بۆ بەکارھێنان و سوود بینینە؛ کە ڕازاندنەوەی کەمە"""),

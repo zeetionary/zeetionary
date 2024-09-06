@@ -1004,7 +1004,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "get", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) وەرگرتنی شتێک؛ ئەوەی شتێکت پێ بگات"""),
@@ -2096,7 +2095,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '21Z4RIOFhMA';
 const double _startSecondsend = 407;
 const String _videoIdone = 'Vtos9gw1HJI';

@@ -160,7 +160,6 @@ Usage: vulgar
                     const KurdishVocabulary(text: """
 کوردی: گوو، گڵاو، بەزیادنەبوو، پیسە
 """),
-// With short examples define "fucking", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو، ھاوەڵکار) جنێوێک کە بەکاردێت بۆ جەختکردنەوە"""),

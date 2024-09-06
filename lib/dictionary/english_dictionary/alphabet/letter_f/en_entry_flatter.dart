@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flatter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) گوتنی شتی جوان لەسەر کەسێک، زۆرجار کە لە دڵەوە نییە و بۆ ئەوەیە کارێکت بۆ بکات یان دڵخۆشی بکەیت"""),

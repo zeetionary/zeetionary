@@ -144,7 +144,6 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی: ئاخ، خوایە، ئەی خوایە، تیاح، پەح
 """),
-// With short examples define "gosh", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (سەرسوڕمان) کاتێک کەسێک سەرسامە یان شۆکە"""),
@@ -222,7 +221,6 @@ Usage: informal
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_wNsZEqpKUA';
 const double _startSecondsend = 89;
 const String _videoIdone = 'e09xig209cQ';

@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەڕەوشتانە، بەئابڕووانە
 """),
-// With short examples define "gentlemanly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زۆر باشە ڕەفتار دەکات و ھەڵسوکەوتی زۆر باشە"""),
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'MOJ9gBQkZsE';
 const double _startSecondsend = 486;
 const String _videoIdone = 'odtAJ2kPdqc';

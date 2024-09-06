@@ -165,7 +165,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نژادە، بۆھێڵ، ژێن
 """),
-// With short examples define "gene", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یەکەیەکی ناو خانە کە خاسیەتێکی دیاریکراو کۆنترۆڵ دەکات لە شتێکی زیندوو کە لە دایبابەوە گوازراوەتەوە"""),

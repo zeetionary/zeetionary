@@ -176,7 +176,6 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی:	ڕم(ب)ی ڕاوەماسی،	نێزە، ڕم، نەیزە
 """),
-// With short examples define "gig", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نمایشێکی میوزیکژەنان یان کەسێکی کۆمیدی"""),
@@ -284,7 +283,6 @@ Usage: informal
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'rRymSi8SmqA';
 const double _startSecondsend = 614;
 const String _videoIdone = '544DTGHIBM0';

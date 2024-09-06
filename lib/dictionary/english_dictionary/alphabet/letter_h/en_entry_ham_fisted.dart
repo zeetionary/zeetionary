@@ -149,7 +149,7 @@ ${englishMeaningConst.text}
 // With short examples define "ham-fisted", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) بێ‌ئەزموون لە بەکارهێنانی دەست یان مامەڵەکردن لەگەڵ خەڵکی"""),
+                            """١. (ھاوەڵناو) بێ‌ئەزموون لە بەکارھێنانی دەست یان مامەڵەکردن لەگەڵ خەڵکی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: clumsy"),
                     SentencesRow(
                       englishText:
@@ -226,19 +226,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/QqFnn_spo4c?t=';
-const double _startSecondsend = 000000000000000000000000000257;
-const String _videoIdone = 'https://youtu.be/Vg78SItDCjo?t=';
-const double _startSecondsone = 000000000000000000000000000783;
-const String _videoIdtwo = 'https://youtu.be/GO5P3fLTwA0?t=';
-const double _startSecondstwo = 000000000000000000000000000213;
-const String _videoIdthree = 'https://youtu.be/-BLAUhBl0nA?t=';
-const double _startSecondsthree = 000000000000000000000000000893;
-const String _videoIdfour = 'https://youtu.be/oEDfiQ5Mkk4?t=';
-const double _startSecondsfour = 0000000000000000000000000003594;
-const String _videoIdfive = 'https://youtu.be/Hhkw5kSx4D4?t=';
-const double _startSecondsfive = 000000000000000000000000000546;
+const String _videoIdend = 'QqFnn_spo4c';
+const double _startSecondsend = 257;
+const String _videoIdone = 'Vg78SItDCjo';
+const double _startSecondsone = 783;
+const String _videoIdtwo = 'GO5P3fLTwA0';
+const double _startSecondstwo = 213;
+const String _videoIdthree = '-BLAUhBl0nA';
+const double _startSecondsthree = 893;
+const String _videoIdfour = 'oEDfiQ5Mkk4';
+const double _startSecondsfour = 3594;
+const String _videoIdfive = 'Hhkw5kSx4D4';
+const double _startSecondsfive = 546;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -322,7 +322,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سێڵاو، لافاو، شیپ، لەھی، لێمشت،	ئاوکشان، ئاوھەستان، ڕابوونی ئاو،	ھەڵڕشتنی فرمێسک یان ھەست و سۆز،	(خوازە) سێڵاو، لافاو، لێشاو، ڕەھێڵە
 """),
-// With short examples define "flood", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕێژەیەکی زۆر ئاو کە کۆبووەتەوە لە شوێنێک کە زۆرجار وشکە"""),

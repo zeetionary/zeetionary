@@ -338,7 +338,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لە بیر کردن، لە یاد کردن، فەرامۆش کردن
 """),
-// With short examples define "forget", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) لەبیرکردنی شتێک کە دەبێت بیکەیت، یان ھێنان یان کڕینی شتێک کە دەبێت بیھێنیت یان بیکڕیت"""),

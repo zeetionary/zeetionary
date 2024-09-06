@@ -321,7 +321,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نیو، نیوە، نیڤ، لا،	ژمارەی دوویەک ½، ژمارەی نیو،	تیکێتی نیوەبایی، بلیتی لانرخ
 """),
-// With short examples define "half", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) نیوە"""),
                     SentencesRow(
                       englishText:
@@ -341,7 +340,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """The second half of the book is more exciting.""",
                               kurdishText:
-                                  """نیوەی دووەمی کتێبەکە بەجۆشهێنەرترە.""",
+                                  """نیوەی دووەمی کتێبەکە بەجۆشھێنەرترە.""",
                               onPressedBritish: () => speaksentence2("en-GB"),
                               onPressedAmerican: () => speaksentence2("en-US"),
                             ),
@@ -414,11 +413,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) هەر یەک لەو دوو ماوەیەی کە یارییەکی وەرزشی، کۆنسێرتێک، هتد بەسەریدا دابەشکراوە"""),
+                            """٢. (ناو) ھەر یەک لەو دوو ماوەیەی کە یارییەکی وەرزشی، کۆنسێرتێک، ھتد بەسەریدا دابەشکراوە"""),
                     SentencesRow(
                       englishText:
                           """No goals were scored in the first half.""",
-                      kurdishText: """هیچ گۆڵێک لە گێمی یەکەمدا تۆمار نەکرا.""",
+                      kurdishText: """ھیچ گۆڵێک لە گێمی یەکەمدا تۆمار نەکرا.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -433,7 +432,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We had a few chances to score in both halves.""",
                       kurdishText:
-                          """ژمارەیەک شانسمان هەبوو بۆ گۆڵ تۆمارکردن لە گێمی دووەمدا.""",
+                          """ژمارەیەک شانسمان ھەبوو بۆ گۆڵ تۆمارکردن لە گێمی دووەمدا.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -455,13 +454,13 @@ ${englishMeaningConst.text}
                     ),
                     SentencesRow(
                       englishText: """Half of the money was mine.""",
-                      kurdishText: """نیوەی پارەکە هی من بوو.""",
+                      kurdishText: """نیوەی پارەکە ھی من بوو.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
                     SentencesRow(
                       englishText: """He has a half share in the company.""",
-                      kurdishText: """نیوەی پشکی کۆمپانیاکەی هەیە.""",
+                      kurdishText: """نیوەی پشکی کۆمپانیاکەی ھەیە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -471,7 +470,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Half the time you don't even listen to what I say.""",
-                      kurdishText: """زۆرینەی کاتەکە هەر گوێ ناگریت.""",
+                      kurdishText: """زۆرینەی کاتەکە ھەر گوێ ناگریت.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -479,12 +478,12 @@ ${englishMeaningConst.text}
                       englishText:
                           """Half the fun of gardening is never knowing exactly what's going to come up.""",
                       kurdishText:
-                          """زۆرینەی خۆشی باخداری هەرگیز نەزانینی ئەوەیە کە چی دێتە بەرهەم.""",
+                          """زۆرینەی خۆشی باخداری ھەرگیز نەزانینی ئەوەیە کە چی دێتە بەرھەم.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (هاوەڵکار) بە نیوە"""),
+                    const DefinitionKurdish(text: """٥. (ھاوەڵکار) بە نیوە"""),
                     SentencesRow(
                       englishText: """The glass was half full.""",
                       kurdishText: """گڵاسەکە نیوەی پڕ بوو.""",
@@ -493,28 +492,28 @@ ${englishMeaningConst.text}
                     ),
                     SentencesRow(
                       englishText: """The hall was half empty.""",
-                      kurdishText: """هۆڵەکە نیوەی بەتاڵ بوو.""",
+                      kurdishText: """ھۆڵەکە نیوەی بەتاڵ بوو.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٦. (هاوەڵکار) تا ئاستێک"""),
+                        text: """٦. (ھاوەڵکار) تا ئاستێک"""),
                     SentencesRow(
                       englishText: """The chicken was only half cooked.""",
-                      kurdishText: """مریشکەکە تەنها بەشێکی لێنرابوو.""",
+                      kurdishText: """مریشکەکە تەنھا بەشێکی لێنرابوو.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
                     SentencesRow(
                       englishText: """I was still half asleep.""",
-                      kurdishText: """هێشتا هەندێک خەوت بووم.""",
+                      kurdishText: """ھێشتا ھەندێک خەوت بووم.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     SentencesRow(
                       englishText: """I'm half inclined to agree.""",
-                      kurdishText: """هەندێک مەیلی ئەوەم هەیە ڕازی ببم.""",
+                      kurdishText: """ھەندێک مەیلی ئەوەم ھەیە ڕازی ببم.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -585,19 +584,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
-const double _startSecondsend = 000000000000000000000000000703;
-const String _videoIdone = 'https://youtu.be/hS2x1zl4rn0?t=';
-const double _startSecondsone = 0000000000000000000000000001307;
-const String _videoIdtwo = 'https://youtu.be/e09xig209cQ?t=';
-const double _startSecondstwo = 00000000000000000000000000047;
-const String _videoIdthree = 'https://youtu.be/BNRItz1Ngt0?t=';
-const double _startSecondsthree = 0000000000000000000000000006;
-const String _videoIdfour = 'https://youtu.be/dfuPBC-v5NE?t=';
-const double _startSecondsfour = 0000000000000000000000000001254;
-const String _videoIdfive = 'https://youtu.be/xfVJZS7LuJ4?t=';
-const double _startSecondsfive = 000000000000000000000000000175;
+const String _videoIdend = 'VrKW58MS12g';
+const double _startSecondsend = 703;
+const String _videoIdone = 'hS2x1zl4rn0';
+const double _startSecondsone = 1307;
+const String _videoIdtwo = 'e09xig209cQ';
+const double _startSecondstwo = 47;
+const String _videoIdthree = 'BNRItz1Ngt0';
+const double _startSecondsthree = 6;
+const String _videoIdfour = 'dfuPBC-v5NE';
+const double _startSecondsfour = 1254;
+const String _videoIdfive = 'xfVJZS7LuJ4';
+const double _startSecondsfive = 175;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -242,7 +242,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕابواردن، سەرقاڵی،	خۆشی، وەشی، کەیف،	گاڵتەجاڕی، تیتاڵ‌بازی، قۆشمەیی، کایە، ھاروھاجی، شلوقی، شەیتانی،	مایەی ڕابواردن یان سەرقاڵی، مایەی پێکەنین، پێکەنینی، گاڵتەجاڕ
 """),
-// With short examples define "fun", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی کە چێژ و خۆشی لە خۆت ببینیت"""),
                     SentencesRow(

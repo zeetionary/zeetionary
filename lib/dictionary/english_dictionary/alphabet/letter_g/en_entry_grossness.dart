@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌ڕەوشتی، بێ‌ماریفەتی، بێ‌ئەدەبی،	زلەیی، گمتەیی، ناھەمواری، ناقۆڵایی، نالەباری
 """),
-// With short examples define "grossness", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی شتێک قێزەون بێت"""),
                     SentencesRow(
@@ -261,7 +260,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '-o9a8YZXPUY';
 const double _startSecondsend = 618;
 const String _videoIdone = 'KV-SUOpW408';

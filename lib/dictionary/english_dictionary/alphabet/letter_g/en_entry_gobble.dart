@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gobble", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) خواردنی شتێک زۆر بە خێرایی"""),
                     SentencesRow(
@@ -253,7 +252,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '60FM9WjkXtA';
 const double _startSecondsend = 525;
 const String _videoIdone = 'Bl8zFdubKeM';

@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "geography", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بریتییە لە توویژینەوەی زانستی لە ڕووی زەوی، تایبەتمەندییە فیزیکییەکانی، دابەشبوونەکانی، بەرھەمەکانی، دانیشتوانی، ھتد"""),
@@ -356,7 +355,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'bGqvimnOTeg';
 const double _startSecondsend = 41;
 const String _videoIdone = 'zqllxbPWKNI';

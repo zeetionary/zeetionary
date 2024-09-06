@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گشتاندن، تێکڕایی‌کردن، دەرکردنی بڕیارێکی گشتی، ئەنجامی گشتی
 """),
-// With short examples define "generalization", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) قسەیەک کە پشتی تەنھا بە چەند ڕاستی یان نموونەیەک بەستووە؛ ئەوەی کە قسەیەکی وەھا بکەیت"""),

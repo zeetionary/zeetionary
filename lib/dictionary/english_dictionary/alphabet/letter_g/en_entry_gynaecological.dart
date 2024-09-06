@@ -156,7 +156,7 @@ Usage: Brit, Cdn (US: gynecological)
                       englishText:
                           """There are many gynaecological conditions that affect women.""",
                       kurdishText:
-                          """زۆر دۆخی گینۆلۆژییانە هەن کە کاریگەری لە ژنان دەکەن.""",
+                          """زۆر دۆخی گینۆلۆژییانە ھەن کە کاریگەری لە ژنان دەکەن.""",
                       englishNote:
                           "This means there are many different health problems that can affect a woman's reproductive system. These problems can be different, and they can cause different kinds of issues for women.",
                       onPressedBritish: () => speaksentence1("en-GB"),
@@ -229,19 +229,18 @@ Usage: Brit, Cdn (US: gynecological)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/L9PGsXv7RGU?t=';
-const double _startSecondsend = 000000000000000000000000000355;
-const String _videoIdone = 'https://youtu.be/2bV82zZZIys?t=';
-const double _startSecondsone = 000000000000000000000000000292;
-const String _videoIdtwo = 'https://youtu.be/IC4L_l3SJhI?t=';
-const double _startSecondstwo = 000000000000000000000000000706;
-const String _videoIdthree = 'https://youtu.be/u0unwbfOrnk?t=';
-const double _startSecondsthree = 000000000000000000000000000416;
-const String _videoIdfour = 'https://youtu.be/jbwWz0cwxd8?t=';
-const double _startSecondsfour = 0000000000000000000000000001477;
-const String _videoIdfive = 'https://youtu.be/NT79BF70mkQ?t=';
-const double _startSecondsfive = 000000000000000000000000000487;
+const String _videoIdend = 'L9PGsXv7RGU';
+const double _startSecondsend = 355;
+const String _videoIdone = '2bV82zZZIys';
+const double _startSecondsone = 292;
+const String _videoIdtwo = 'IC4L_l3SJhI';
+const double _startSecondstwo = 706;
+const String _videoIdthree = 'u0unwbfOrnk';
+const double _startSecondsthree = 416;
+const String _videoIdfour = 'jbwWz0cwxd8';
+const double _startSecondsfour = 1477;
+const String _videoIdfive = 'NT79BF70mkQ';
+const double _startSecondsfive = 487;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

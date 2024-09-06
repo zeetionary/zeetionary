@@ -258,7 +258,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قەد، تا، (دا)نووشتاوی، گنج‌تێکەوتن، قەدکراوی، سەرگێڕ، ھۆڵ، شەوگا، ئاخڵە،	دەستەی شوێنکەوتووان، کۆمەڵی بڕواداران
 """),
-// With short examples define "fold", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) چەمانەوەی شتێک بە شیوەیەک لایەکی بکەوێت بەسەر لایەکی تری"""),

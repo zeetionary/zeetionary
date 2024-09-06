@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەڕەوشت، بەماریفەت، نەجیم، نەجیب، ڕۆشنبیر، بەوەج، بەڕێز، ڕەفتارجوان، ڕووخۆش،	بەئابڕووانە، بەڕەوشتانە،	سەربە چینی سەرەوەی کۆمەڵ، فڕسوار، پۆشتەوپەرداخ
 """),
-// With short examples define "genteel", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە سەر بە چینی باڵایە، یان وەھای پیشان دەدات"""),
@@ -255,7 +254,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QTA8j5wSTx4';
 const double _startSecondsend = 235;
 const String _videoIdone = 'H5yvhP-9mik';

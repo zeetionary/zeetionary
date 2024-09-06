@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نگەرانی، دڵ‌لەدوایی، دڵەخورپە، دڵەڕاوکێ
 """),
-// With short examples define "fret", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ئەوەی نیگەران و دڵتەنگ بیت و ئاسوودە نەبیت"""),

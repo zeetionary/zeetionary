@@ -215,7 +215,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چوارناڵە، تەقڵەکوت، چارگاڤی، ترەختان، غار، لنگار، لنگدان،	پەلە، تاو، پڕتاو، ھەشتاو، لەز،	شەقاوی خێرا و توند
 """),
-// With short examples define "gallop", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) کە ئەسپێک یان ئاژەڵێک ڕا دەکات و ھەر چوار پێی لەگەڵ ھەر شەقاوێک لە زەوی بەرز دەبێتەوە"""),

@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gingham", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) قوماشێکی کەتانی کە سپییە و شێوەی ڕەنگداری تێدایە"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'HxRUuGqqMG4';
 const double _startSecondsend = 416;
 const String _videoIdone = 'kUE2fPLOUxo';

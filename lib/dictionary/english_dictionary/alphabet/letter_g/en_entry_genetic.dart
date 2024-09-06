@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەربە بۆماوە، بۆماوەیی یان ژێنێتیک،	نژادەیی، سەربە بۆھێڵەکان، سەربە ژێنەکان
 """),
-// With short examples define "genetic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە بۆھێڵەکان یان زانستی لێکۆڵینەوە لە بۆھێڵەکان"""),
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'qsYUDM15T8U';
 const double _startSecondsend = 208;
 const String _videoIdone = 'GIJ_olY4BnE';

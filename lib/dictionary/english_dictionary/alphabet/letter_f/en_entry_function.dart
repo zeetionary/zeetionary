@@ -260,7 +260,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئەرک، پەیور، کار، کاری تایبەت، تایبەت‌کار، پیشە، فرمان، کردار، کردەوە، کارکرد(ن)،	مەبەست، ئامانج،	ئەنجام، پێئاژۆ، ئاکام،	چالاکی،	پلەوپایە،	ئاھەنگ، ڕێ‌وڕەسم، سووران،	(بیرکاری) فانکشن،	(کامپیوتێر) کردار
 """),
-// With short examples define "function", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەرکی کەسێک یان شتێک"""),
                     SentencesRow(

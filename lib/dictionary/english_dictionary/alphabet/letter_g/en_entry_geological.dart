@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زەوی‌ناسی‌یانە، سەربە زەوی‌ناسی
 """),
-// With short examples define "geological", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) پەیوەندیدار بە زانستی لێکۆڵینەوە لە پێکھاتەی زەوی، لە نێوانیاندا بنەچە و مێژووی ئەو بەرد و خۆڵەی کە زەوی پێکدەھێنن"""),
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'twAP3buj9Og';
 const double _startSecondsend = 1469;
 const String _videoIdone = 'hGLY5MAAFO4';

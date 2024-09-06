@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گەورە، بەسەنگ‌وڕەنگ، مەزن، بەدەبدەبە، بەشکۆ
 """),
-// With short examples define "grandiose", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زۆر سەرنجڕاکێشە بەڵام زۆر گەورە، ئاڵۆز، گرانبەھا، ھتد ـــە تاوەکو بکرێت بە کردار"""),
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tXjHb5QmDV0';
 const double _startSecondsend = 1141;
 const String _videoIdone = 'KZbzIf_C6Y4';

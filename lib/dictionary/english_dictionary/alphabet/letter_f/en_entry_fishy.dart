@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ماسی‌ئاسا، پێوەندی بە ماسی‌یەوە ھەیە (بۆن و بەرام)، پڕماسی،	گوماناوی، گومان‌لەسەر، جێی‌شک
 """),
-// With short examples define "fishy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە وەھا دەردەکەوێت ھەڵە، نایاسایی، یان فێڵبازانە بێت"""),

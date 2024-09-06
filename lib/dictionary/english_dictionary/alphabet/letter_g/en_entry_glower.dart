@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "glower", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی سەیری کەسێک بکەیت بە تووڕەیی و توندی"""),
@@ -275,7 +274,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'TWVbZ0WQ3s8';
 const double _startSecondsend = 171;
 const String _videoIdone = 'zqkf2U5jcE0';

@@ -176,7 +176,7 @@ class EnglishEntrycaress extends StatelessWidget {
                               text:
                                   "١. (کردار) دەستھێنان بە شتێک یان کەسێکدا، بە تایبەتی بۆ پیشاندانی خۆشەویستی یان حەزی جەستەیی"),
                           AlsoEnglishckblink(
-                            textBeforeLink: "هەروەها: ",
+                            textBeforeLink: "ھەروەھا: ",
                             linkText: "fondle",
                             textAfterLink: ".",
                             onTap: () {

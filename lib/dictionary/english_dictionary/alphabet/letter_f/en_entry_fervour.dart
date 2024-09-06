@@ -154,7 +154,6 @@ Usage: Brit, Cdn (US: fervor)
                     const KurdishVocabulary(text: """
 کوردی: تین، گەرم‌وگوڕی، کەف‌وکوڵ، تاوتین، شەوق، بەپەرۆشی، تامەزرۆیی
 """),
-// With short examples define "fervour", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ھەستی زۆر بەھێز سەبارەت بە شتێک"""),
                     SentencesRow(

@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "harass", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) بێزارکردنی کەسێک بەوەی فشاری زۆر بخەیتە سەری یان شتێک بکەیت کە پێیان ناخۆشە"""),
@@ -190,7 +189,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She claims she has been sexually harassed at work.""",
                       kurdishText:
-                          """بانگەشەی ئەوە دەکات لەسەر کار لە ڕووی سێکسییەوە هەراسان کراوە.""",
+                          """بانگەشەی ئەوە دەکات لەسەر کار لە ڕووی سێکسییەوە ھەراسان کراوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -199,19 +198,19 @@ ${englishMeaningConst.text}
                       englishText:
                           """He told her that if she continued to harass him, he would call the police.""",
                       kurdishText:
-                          """پێی گوت ئەگەر بەردەوام بێت لەوەی هەراسانی بکات پەیوەندی بە پۆلیسەوە دەکات.""",
+                          """پێی گوت ئەگەر بەردەوام بێت لەوەی ھەراسانی بکات پەیوەندی بە پۆلیسەوە دەکات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (کردار) بەردەوام هێرشکردنە سەر دووژمن"""),
+                        text: """٢. (کردار) بەردەوام ھێرشکردنە سەر دووژمن"""),
                     const AlsoEnglishckb(word: "ھەروەھا: harry"),
                     SentencesRow(
                       englishText:
                           """Our convoys are being continually harassed by enemy submarines.""",
                       kurdishText:
-                          """کاروانەکانمان بەردەوام لەلایەن ژێردەریاکانی دوژمنانەوە هەراسان دەکرێن.""",
+                          """کاروانەکانمان بەردەوام لەلایەن ژێردەریاکانی دوژمنانەوە ھەراسان دەکرێن.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -282,19 +281,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/WDetHC86Dgo?t=';
-const double _startSecondsend = 00000000000000000000000000057;
-const String _videoIdone = 'https://youtu.be/nYRefC7E9gU?t=';
-const double _startSecondsone = 000000000000000000000000000372;
-const String _videoIdtwo = 'https://youtu.be/1Gxrwh4zGPg?t=';
-const double _startSecondstwo = 000000000000000000000000000155;
-const String _videoIdthree = 'https://youtu.be/9r5P1z4OWWo?t=';
-const double _startSecondsthree = 000000000000000000000000000221;
-const String _videoIdfour = 'https://youtu.be/KIgNGLKS2Is?t=';
-const double _startSecondsfour = 00000000000000000000000000019;
-const String _videoIdfive = 'https://youtu.be/I5iQEd8PRPA?t=';
-const double _startSecondsfive = 0000000000000000000000000001224;
+const String _videoIdend = 'WDetHC86Dgo';
+const double _startSecondsend = 57;
+const String _videoIdone = 'nYRefC7E9gU';
+const double _startSecondsone = 372;
+const String _videoIdtwo = '1Gxrwh4zGPg';
+const double _startSecondstwo = 155;
+const String _videoIdthree = '9r5P1z4OWWo';
+const double _startSecondsthree = 221;
+const String _videoIdfour = 'KIgNGLKS2Is';
+const double _startSecondsfour = 19;
+const String _videoIdfive = 'I5iQEd8PRPA';
+const double _startSecondsfive = 1224;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

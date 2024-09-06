@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سنوور، تخوب، سەرحەد،	(خوازە) سنوور، سەرحەد، ڕادە، سنوورەکان
 """),
-// With short examples define "frontier", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سنووری نێوان دوو وڵات؛ ناوچەکانی سەر سنوور"""),

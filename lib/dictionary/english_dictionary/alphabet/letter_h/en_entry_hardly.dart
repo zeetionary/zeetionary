@@ -222,14 +222,13 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: بە زەحمەت، بە سەختی، بە دەگمەن، هیچ، کەم، نە ئەوندە
+کوردی: بە زەحمەت، بە سەختی، بە دەگمەن، ھیچ، کەم، نە ئەوندە
 """),
-// With short examples define "hardly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) کە نزیکە لە سفر"""),
                     SentencesRow(
                       englishText: """There's hardly any tea left.""",
-                      kurdishText: """بە ئاستەنگ هیچ چایەک ماوەتەوە.""",
+                      kurdishText: """بە ئاستەنگ ھیچ چایەک ماوەتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -279,12 +278,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک ئەگەر یان هۆکاری کەمە یان کەسێکە جێگای پێکەنینە بۆ گوتن یان کردنی شتێک"""),
+                            """٣. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک ئەگەر یان ھۆکاری کەمە یان کەسێکە جێگای پێکەنینە بۆ گوتن یان کردنی شتێک"""),
                     SentencesRow(
                       englishText:
                           """He is hardly likely to admit he was wrong.""",
                       kurdishText:
-                          """بە زحمەت ئەگەری بوو دانی پێدا بنێت کە هەڵە بوو.""",
+                          """بە زحمەت ئەگەری بوو دانی پێدا بنێت کە ھەڵە بوو.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -308,12 +307,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک تازە ڕوویداوە، دەستی پێکردووە، هتد"""),
+                            """٤. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک تازە ڕوویداوە، دەستی پێکردووە، ھتد"""),
                     SentencesRow(
                       englishText:
                           """We can't stop for coffee now, we've hardly started.""",
                       kurdishText:
-                          """ناتوانین ئێستا بۆ قاوە بوەستین، هەر ئێستا دەستمان پێکردووە.""",
+                          """ناتوانین ئێستا بۆ قاوە بوەستین، ھەر ئێستا دەستمان پێکردووە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -393,19 +392,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/4J0xFUyz1nw?t=';
-const double _startSecondsend = 000000000000000000000000000103;
-const String _videoIdone = 'https://youtu.be/GcdB5bFwio4?t=';
-const double _startSecondsone = 000000000000000000000000000520;
-const String _videoIdtwo = 'https://youtu.be/r5cqa9V0mUo?t=';
-const double _startSecondstwo = 000000000000000000000000000911;
-const String _videoIdthree = 'https://youtu.be/4zAkoXyhrdI?t=';
-const double _startSecondsthree = 00000000000000000000000000095;
-const String _videoIdfour = 'https://youtu.be/A0N9YF2jfiw?t=';
-const double _startSecondsfour = 00000000000000000000000000035;
-const String _videoIdfive = 'https://youtu.be/QaG_Ld89wVI?t=';
-const double _startSecondsfive = 0000000000000000000000000004;
+const String _videoIdend = '4J0xFUyz1nw';
+const double _startSecondsend = 103;
+const String _videoIdone = 'GcdB5bFwio4';
+const double _startSecondsone = 520;
+const String _videoIdtwo = 'r5cqa9V0mUo';
+const double _startSecondstwo = 911;
+const String _videoIdthree = '4zAkoXyhrdI';
+const double _startSecondsthree = 95;
+const String _videoIdfour = 'A0N9YF2jfiw';
+const double _startSecondsfour = 35;
+const String _videoIdfive = 'QaG_Ld89wVI';
+const double _startSecondsfive = 4;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

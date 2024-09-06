@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کوڵکەئاسا، کوڵکەیی، پرزەئاسا،	لێڵ، تەماوی، تەژمە، شلوێ، تاریک، نادیار، نەڕوون، ناڕۆشن
 """),
-// With short examples define "fuzzy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە موو یان فەرووی نەرم و کورت داپۆشراوە"""),

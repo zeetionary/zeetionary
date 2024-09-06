@@ -151,7 +151,7 @@ ${englishMeaningConst.text}
                             """١. (ناو) وەرزشی فڕین بە شتێک کە وەک کۆلارە وایە و بە دەستت کۆنترۆڵی دەکەیت"""),
                     SentencesRow(
                       englishText: """She's taken up hang-gliding.""",
-                      kurdishText: """دەستی بە هانگلایدن کردووە.""",
+                      kurdishText: """دەستی بە ھانگلایدن کردووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -222,19 +222,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/qM5jGnu1oTw?t=';
-const double _startSecondsend = 000000000000000000000000000121;
-const String _videoIdone = 'https://youtu.be/u2S-IE9AVWI?t=';
-const double _startSecondsone = 000000000000000000000000000568;
-const String _videoIdtwo = 'https://youtu.be/GBbdpK9z-Tc?t=';
-const double _startSecondstwo = 00000000000000000000000000019;
-const String _videoIdthree = 'https://youtu.be/CXKuI8857nE?t=';
+const String _videoIdend = 'qM5jGnu1oTw';
+const double _startSecondsend = 121;
+const String _videoIdone = 'u2S-IE9AVWI';
+const double _startSecondsone = 568;
+const String _videoIdtwo = 'GBbdpK9z-Tc';
+const double _startSecondstwo = 19;
+const String _videoIdthree = 'CXKuI8857nE';
 const double _startSecondsthree = 0;
-const String _videoIdfour = 'https://youtu.be/e3YYPrmiuQs?t=';
-const double _startSecondsfour = 00000000000000000000000000021;
-const String _videoIdfive = 'https://youtu.be/ujMNwg8T7-U?t=';
-const double _startSecondsfive = 00000000000000000000000000027;
+const String _videoIdfour = 'e3YYPrmiuQs';
+const double _startSecondsfour = 21;
+const String _videoIdfive = 'ujMNwg8T7-U';
+const double _startSecondsfive = 27;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەکەیف، بەدەماخ، گەش، خۆشحاڵ، سرک، بەنەشە، بزێو، چالاک
 """),
-// With short examples define "frisky", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پڕ لە وزە؛ کە دەیەوێت یاری بکات"""),

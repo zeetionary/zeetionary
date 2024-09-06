@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەردەستێ، بەردە چەخماخ، بەردی چەرخ
 """),
-// With short examples define "flint", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەردێکی خۆڵەمێشی زۆر سەخت کە پڕیشکەیەکی ئاگر درووست دەکات کە دەدرێت بە پۆڵادا"""),

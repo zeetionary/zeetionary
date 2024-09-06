@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گشتی‌بوون، گشتێتی، دەربڕینی بەگشتی، ھەمەلایەنی، گشت‌لایەنی، زۆرداگرتن،	زۆرینە، پڕانی،	بەشی سەرەکی
 """),
-// With short examples define "generality", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) باسکردن بە گشتی نەک بە چوونە ناو وردەکاری"""),

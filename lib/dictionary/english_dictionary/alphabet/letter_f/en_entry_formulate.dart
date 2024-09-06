@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "formulate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) درووستکردن یان ئامادەکردنی شتێک بە وریایی بەوەی سەرنجی تەواو بدەیت بە وردەکاری"""),

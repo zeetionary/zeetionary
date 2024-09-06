@@ -231,7 +231,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جوانی، چەلەنگی، شۆخی، ڕندی، ڕێک‌وپێکی، ئەندام‌ڕێکی، لەنجە، لەنجەولار، لەخت‌ولار، ناسکی، ئەدا، ئان،	سەنگینی، قورسی، مەندی،	ئەدەب، ڕەوشت، ماریفەت،	چاکە، باشی، پیاوەتی، سایە، یارمەتی، ڕەحمەت، خۆشەویستی، بەزەیی، ڕەحمەت یا بەزەیی خودا، خواپێداوە،	نیاز،	دەرفەت، فرسەند، دەلیڤە،	(پێش و پاش نان) شوکرانەبژێری، جەنابی بەڕێز، ھەڵس‌وکەوت، ڕەفتار، ئاکار
 """),
-// With short examples define "grace", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شێوەی جووڵان بە نەرم‌ونیانی و جوانی"""),
@@ -395,7 +394,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_spuxXnul0U';
 const double _startSecondsend = 1289;
 const String _videoIdone = 'tsxmyL7TUJg';

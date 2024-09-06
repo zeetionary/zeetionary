@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەزریقەوبریقە، بەدەبدەبە، بەئاڵاوواڵا، بریقەدار، سەیروسەمەرە، درەوشاوە، زەق، ورشن، ڕەنگاوڕەنگ
 """),
-// With short examples define "flamboyant", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کەسێک یان ڕەفتارکردنی کە جیاواز و بەجۆشھێنەرە و زۆرجار سەرنج ڕادەکێشێت"""),

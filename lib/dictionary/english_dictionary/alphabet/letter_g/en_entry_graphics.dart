@@ -166,7 +166,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "graphics", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دیزاین، وێنە، و وێنەکێشان، بە تایبەتی لە بەرھەمھێنانی کتێب، گۆڤار، وێبسایت، ھتد"""),
@@ -266,7 +265,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '3oYG157BIK0';
 const double _startSecondsend = 67;
 const String _videoIdone = 'TRZqE6H-dww';

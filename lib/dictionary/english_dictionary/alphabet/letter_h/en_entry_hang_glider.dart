@@ -160,18 +160,18 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The hang-glider soared through the sky.""",
-                      kurdishText: """هانگلایدەرەکە بە ئاسماندا دەفڕی.""",
+                      kurdishText: """ھانگلایدەرەکە بە ئاسماندا دەفڕی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) کەسێک کە بە هانگلایدەر دەفڕێت"""),
+                        text: """٢. (ناو) کەسێک کە بە ھانگلایدەر دەفڕێت"""),
                     SentencesRow(
                       englishText:
                           """Hang-gliders must be experienced and knowledgeable.""",
                       kurdishText:
-                          """هانگلایدەرەکان دەبێت بەئەزموون و شارەزا بن.""",
+                          """ھانگلایدەرەکان دەبێت بەئەزموون و شارەزا بن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -242,19 +242,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/mUy7TenHKoQ?t=';
-const double _startSecondsend = 000000000000000000000000000187;
-const String _videoIdone = 'https://youtu.be/wluh0U2wZuY?t=';
-const double _startSecondsone = 0000000000000000000000000001111;
-const String _videoIdtwo = 'https://youtu.be/kDVNNf3_THg?t=';
-const double _startSecondstwo = 000000000000000000000000000246;
-const String _videoIdthree = 'https://youtu.be/zLeKK_eWDjo?t=';
-const double _startSecondsthree = 000000000000000000000000000651;
-const String _videoIdfour = 'https://youtu.be/XP5k3ZzPf_0?t=';
-const double _startSecondsfour = 0000000000000000000000000001145;
-const String _videoIdfive = 'https://youtu.be/GBbdpK9z-Tc?t=';
-const double _startSecondsfive = 000000000000000000000000000311;
+const String _videoIdend = 'mUy7TenHKoQ';
+const double _startSecondsend = 187;
+const String _videoIdone = 'wluh0U2wZuY';
+const double _startSecondsone = 1111;
+const String _videoIdtwo = 'kDVNNf3_THg';
+const double _startSecondstwo = 246;
+const String _videoIdthree = 'zLeKK_eWDjo';
+const double _startSecondsthree = 651;
+const String _videoIdfour = 'XP5k3ZzPf_0';
+const double _startSecondsfour = 1145;
+const String _videoIdfive = 'GBbdpK9z-Tc';
+const double _startSecondsfive = 311;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

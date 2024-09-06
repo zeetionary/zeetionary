@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕاستەقینەیی، ڕاست‌بوون، دروستی، ڕەسەنایەتی، باوەڕپێکراوی،	سەرڕاستی، دەسپاکی، شیرپاکی
 """),
-// With short examples define "genuineness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی شتێک ڕاستی بێت و ھەمان ئەو شتە بێت کە دەردەکەوێت"""),
@@ -241,7 +240,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Cbyc7mscFlA';
 const double _startSecondsend = 258;
 const String _videoIdone = 'oDiT0tPXrIE';

@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نیازباشی، نیازپاکی، ویستی باش
 """),
-// With short examples define "goodwill", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەستی ھاوڕێیەتی و یارمەتی‌دۆستی بەرامبەر کەسان و وڵاتانی دیکە"""),
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'nGrB-5ieeMU';
 const double _startSecondsend = 27;
 const String _videoIdone = 'wJa5Ch0O4BI';

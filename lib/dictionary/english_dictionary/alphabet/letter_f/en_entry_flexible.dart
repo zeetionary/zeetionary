@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نەرم، جیڕ، لەداھاتنەوەھاتوو، داھاتوو، بگۆڕ، لەگۆڕان‌ھاتوو، دەچەمێتەوە، دادێتەوە، دەنووشتێتەوە
 """),
-// With short examples define "flexible", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە دەتوانێت بگۆڕێت بۆ گونجان لەگەڵ دۆخی نوێ"""),

@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grandstand", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جێگای سەرەکی تەماشاکارانی بۆنەیەکی وەرزشی کە باشترین دیمەنی ھەیە"""),
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tYrdMjVXyNg';
 const double _startSecondsend = 1377;
 const String _videoIdone = 'cztw76aM-18';

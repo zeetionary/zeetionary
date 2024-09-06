@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کاکێشکەیی، کاگێشکەیی، گەلەستێرەیی، سەربە کۆئەستێرە (بەتایبەت کاکێشانی ڕێگای شیری)،	یەکجار زۆر، لەژمارنەھاتوو، بێ‌ئەنداز، زەبەلاح، یەکجار گەورە، فیلەتەن
 """),
-// With short examples define "galactic", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) پەیوەندیدار بە گەلە ئەستێرە"""),
                     SentencesRow(

@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕووپامایی، ڕیایی‌بازی، ڕواڵەت، زمان‌لووسی، نەرمەبڕی، کلکەسووتێ
 """),
-// With short examples define "flattery", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ستایشی ناڕاست، زۆرجار بۆ بەدەستھێنانی شتێک"""),

@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: زمان‌چەوری، زمان‌لووسی، زمان‌ڕەوانی
 // """),
-// With short examples define "glibness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە بە بەکارھێنانی وشەی زیرەکانەیە، بەڵام کە زۆر بیری لێ‌نەکراوەتەوە و لە دڵەوە نییە؛ ئەوەی باوەڕبەخۆبوونت زۆر بێت، بەڵام سادە بیت بە بێ بیرکردنەوەی قووڵ"""),
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QtFybK9n1EM';
 const double _startSecondsend = 1076;
 const String _videoIdone = 'JXTZSi6q3xE';

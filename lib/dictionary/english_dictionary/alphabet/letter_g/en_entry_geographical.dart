@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "geographical", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە شێوازی درووستبوونی تایبەتمەندییەکانی فیزیکییەکانی شوێنێک"""),
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tCqwT2MqLxI';
 const double _startSecondsend = 1481;
 const String _videoIdone = 'H1KP4ztKK0A';

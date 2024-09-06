@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خۆش‌حاڵانە، لە ڕووی خۆشی‌یەوە، بە خۆشی‌یەوە،	بە شێوەیەکی گونجاو یان بەڕێ‌وجێ
 """),
-// With short examples define "happily", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە دڵخۆشییەوە"""),
                     SentencesRow(
@@ -194,7 +193,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """And they all lived happily ever after (= used as the end of a fairy tale).""",
                       kurdishText:
-                          """و دواتر هەموویان بۆ خۆیان بە دڵخۆشییەوە بۆ هەمیشەیی ژیان.""",
+                          """و دواتر ھەموویان بۆ خۆیان بە دڵخۆشییەوە بۆ ھەمیشەیی ژیان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -204,7 +203,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: fortunately"),
                     SentencesRow(
                       englishText: """Happily, the damage was only slight.""",
-                      kurdishText: """خۆشبەختانە، زیانەکە تەنها کەمێک بوو.""",
+                      kurdishText: """خۆشبەختانە، زیانەکە تەنھا کەمێک بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -296,19 +295,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/NQWkNXr2ujI?t=';
-const double _startSecondsend = 000000000000000000000000000169;
-const String _videoIdone = 'https://youtu.be/Tc_HhuikGCc?t=';
-const double _startSecondsone = 000000000000000000000000000349;
-const String _videoIdtwo = 'https://youtu.be/kbCah6yhYRs?t=';
-const double _startSecondstwo = 000000000000000000000000000759;
-const String _videoIdthree = 'https://youtu.be/a7wC2M0b5u0?t=';
-const double _startSecondsthree = 0000000000000000000000000001599;
-const String _videoIdfour = 'https://youtu.be/XXhc5UTxv5I?t=';
-const double _startSecondsfour = 000000000000000000000000000472;
-const String _videoIdfive = 'https://youtu.be/V1ChKoHwH3U?t=';
-const double _startSecondsfive = 000000000000000000000000000185;
+const String _videoIdend = 'NQWkNXr2ujI';
+const double _startSecondsend = 169;
+const String _videoIdone = 'Tc_HhuikGCc';
+const double _startSecondsone = 349;
+const String _videoIdtwo = 'kbCah6yhYRs';
+const double _startSecondstwo = 759;
+const String _videoIdthree = 'a7wC2M0b5u0';
+const double _startSecondsthree = 1599;
+const String _videoIdfour = 'XXhc5UTxv5I';
+const double _startSecondsfour = 472;
+const String _videoIdfive = 'V1ChKoHwH3U';
+const double _startSecondsfive = 185;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

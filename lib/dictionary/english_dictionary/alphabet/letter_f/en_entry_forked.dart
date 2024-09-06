@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چنگاڵ‌ئاسا، چەتاڵ‌ئاسا،	دوولقانە، لقاوی، لک‌لک، چەڵەمەیی، لق‌لق، دووفلیقانە، دوولکانە، دوولکە، دوولپە، دووفاق، دووپەل، دووشاخە، داقڵیشاو، داتڵیشاو، لق‌لێوەبوو، پەل‌ھاویشتوو
 """),
-// With short examples define "forked", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە لایەکی بۆ دوو بەش دابەش بووە وەک پیتی Y"""),

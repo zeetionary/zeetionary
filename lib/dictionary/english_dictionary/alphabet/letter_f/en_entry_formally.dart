@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە شێوەیەکی فەرمی،	بە شێوەیەکی ڕواڵەتی یان ڕووکەشی
 """),
-// With short examples define "formally", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە گونجاوە بۆ بۆنەی گرنگ یان فەرمی"""),

@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gardening", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کارکردن لە باخچە، بە تایبەتی بۆ چێژبینین"""),

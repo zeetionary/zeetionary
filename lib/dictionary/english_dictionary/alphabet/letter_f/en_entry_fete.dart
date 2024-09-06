@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕێوڕەسم، ئاھەنگ، جەژن، جێژن گرتن
 """),
-// With short examples define "fete", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئاھەنگێکی دەرەکی کە تێیدا خەڵکی دەتوانن یاری بکەن بۆ بۆردنەوەی خەڵات، کڕینی خواردن و خواردنەوە، ھتد، زۆرجار بۆ کۆکردنەوەی پارە بۆ مەبەستێکی تایبەت"""),

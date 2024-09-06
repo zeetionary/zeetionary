@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵڕفێن، سەرنج‌ڕاکێش، ئەفسووناوی، تەلەسماوی، جوان
 """),
-// With short examples define "glamorous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بەتایبەتی جوان و بەجۆش، و جیاواز لە شت و کەسی ئاسایی"""),
@@ -237,7 +236,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '8hAdOYDoo4c';
 const double _startSecondsend = 149;
 const String _videoIdone = 'ewLpXw6uN28';

@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "foghorn", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئامێرێک کە کەشتی ئاگادار دەکاتەوە لە تەمدا"""),

@@ -166,7 +166,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خەت، دەس‌وخەت، شێوەی نووسین، دەس‌نووس، بەدەس‌نووسراوە
 """),
-// With short examples define "handwriting", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نووسینێک کە بە پێنووس کراوە نەک بە کۆمپیوتەر"""),
@@ -261,19 +260,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Jb78vPHlrlw?t=';
-const double _startSecondsend = 000000000000000000000000000187;
-const String _videoIdone = 'https://youtu.be/lSzqsNDxpUM?t=';
-const double _startSecondsone = 000000000000000000000000000125;
-const String _videoIdtwo = 'https://youtu.be/InhrqqYXDmw?t=';
-const double _startSecondstwo = 00000000000000000000000000031;
-const String _videoIdthree = 'https://youtu.be/IicXuqTcFNw?t=';
-const double _startSecondsthree = 00000000000000000000000000011;
-const String _videoIdfour = 'https://youtu.be/o0qRk-4_8AE';
+const String _videoIdend = 'Jb78vPHlrlw';
+const double _startSecondsend = 187;
+const String _videoIdone = 'lSzqsNDxpUM';
+const double _startSecondsone = 125;
+const String _videoIdtwo = 'InhrqqYXDmw';
+const double _startSecondstwo = 31;
+const String _videoIdthree = 'IicXuqTcFNw';
+const double _startSecondsthree = 11;
+const String _videoIdfour = 'o0qRk-4_8AE';
 const double _startSecondsfour = 0;
-const String _videoIdfive = 'https://youtu.be/A_ftLsL6vYY?t=';
-const double _startSecondsfive = 000000000000000000000000000184;
+const String _videoIdfive = 'A_ftLsL6vYY';
+const double _startSecondsfive = 184;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

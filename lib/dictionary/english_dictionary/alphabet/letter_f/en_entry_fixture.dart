@@ -165,7 +165,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جێگیرکردن، چەسپاندن، کەل‌وپەلی جێگیری نێوماڵ،	ڕێکەوتی دیاری‌کراوی پێشبڕکێ،	توخمی جێگیر یان ھەمیشەیی، مرۆی ھەمیشەداکوتاو، مرۆی چەق‌بەستوو یان تەکان‌نەخواردوو، برابەش
 """),
-// With short examples define "fixture", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یارییەکی وەرزشی کە کات و شوێنەکەی ڕێکخراوە"""),

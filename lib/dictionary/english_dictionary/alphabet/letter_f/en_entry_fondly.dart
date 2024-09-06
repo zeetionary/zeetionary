@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە خۆشەویستی‌یەوە، تامەزرۆیانە، لە ڕووی تامەزرۆیی‌یەوە
 """),
-// With short examples define "fondly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە خۆشەویستی پیشان دەدات"""),

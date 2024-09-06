@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gesticulate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) بەکارھێنانی دەست و باڵت بۆ ئەوەی سەرنجی کەسێک ڕابکێشیت یان کەسێک تێبگەیەنیت لەوەی دەیڵێیت"""),
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'aOgaa7FcwUg';
 const double _startSecondsend = 95;
 const String _videoIdone = 'ikAfrKf5A8I';

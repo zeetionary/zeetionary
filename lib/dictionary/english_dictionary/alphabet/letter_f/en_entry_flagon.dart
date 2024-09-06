@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مەیخۆرک، مەیخۆری، تۆنگە مەی، تۆنگە، دەبە، کووپەمەی، کووپەبەرە
 """),
-// With short examples define "flagon", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بوتڵێکی گەورە لە تێیدا شەراب دەفرۆشرێت یان دەخورێتەوە"""),

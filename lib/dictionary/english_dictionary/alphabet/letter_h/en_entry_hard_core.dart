@@ -171,12 +171,12 @@ ${englishMeaningConst.text}
 // """),
 // With short examples define "hard core", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ھاوەڵناو) هەبوونی باوەڕێکی نەگۆڕ"""),
+                        text: """١. (ھاوەڵناو) ھەبوونی باوەڕێکی نەگۆڕ"""),
                     SentencesRow(
                       englishText:
                           """The hard-core party members refused to compromise on their values.""",
                       kurdishText:
-                          """ئەندامە کەللەڕەقەکانی پارتەکە ڕەتیان کردەوە دانوستان بکەن لەسەر بەهاکانیان.""",
+                          """ئەندامە کەللەڕەقەکانی پارتەکە ڕەتیان کردەوە دانوستان بکەن لەسەر بەھاکانیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -186,7 +186,7 @@ ${englishMeaningConst.text}
                             """٢. (ھاوەڵناو) کە کاری سێکسی و پۆرنۆگرافی بەشێوەی توندوتیژی پیشان دەدات"""),
                     SentencesRow(
                       englishText: """They sell hard-core pornography.""",
-                      kurdishText: """بەرهەمی پۆرنۆگرافی توندوتیژی دەفرۆشن.""",
+                      kurdishText: """بەرھەمی پۆرنۆگرافی توندوتیژی دەفرۆشن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -269,19 +269,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/IZ_SFbaysHk?t=';
-const double _startSecondsend = 00000000000000000000000000025;
-const String _videoIdone = 'https://youtu.be/wMxKbkWrvDc?t=';
-const double _startSecondsone = 000000000000000000000000000236;
-const String _videoIdtwo = 'https://youtu.be/F8Thuw3qPGw?t=';
-const double _startSecondstwo = 000000000000000000000000000578;
-const String _videoIdthree = 'https://youtu.be/72HFPTaQ4os?t=';
-const double _startSecondsthree = 000000000000000000000000000514;
-const String _videoIdfour = 'https://youtu.be/_k29OMTEPnc?t=';
-const double _startSecondsfour = 0000000000000000000000000001953;
-const String _videoIdfive = 'https://youtu.be/CCrtZwF2C-8?t=';
-const double _startSecondsfive = 000000000000000000000000000327;
+const String _videoIdend = 'IZ_SFbaysHk';
+const double _startSecondsend = 25;
+const String _videoIdone = 'wMxKbkWrvDc';
+const double _startSecondsone = 236;
+const String _videoIdtwo = 'F8Thuw3qPGw';
+const double _startSecondstwo = 578;
+const String _videoIdthree = '72HFPTaQ4os';
+const double _startSecondsthree = 514;
+const String _videoIdfour = '_k29OMTEPnc';
+const double _startSecondsfour = 1953;
+const String _videoIdfive = 'CCrtZwF2C-8';
+const double _startSecondsfive = 327;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

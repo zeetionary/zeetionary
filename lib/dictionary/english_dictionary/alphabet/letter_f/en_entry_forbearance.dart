@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پشوودرێژی، سنگ‌فراوانی، لەسەرەخۆیی، سەبر، خودداری، خۆڕاگرتن، دەربردن، تاقەت‌ھێنان، ھەڵکردن، بەرگەگرتن، خۆگرتن، خۆگیری،	چاوپۆشی، لێبوردەیی
 """),
-// With short examples define "forbearance", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) میھرەبانی و پشوودرێژی بەرامبەر کەسانی دیکە"""),

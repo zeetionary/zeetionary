@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌سوودی، بێ‌ئەنجامی، بێ‌ئاکامی، بێ‌بەرھەمی، بێ‌واتایی، بێ‌بەھرەیی، ھیچی، بێھوودەیی، لەخۆڕایی‌بوون، بێ‌کەڵکی، بەکارنەھاتوویی، نەزۆکی
 """),
-// With short examples define "futility", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە ھیچ ھۆکارێک نەبێت بۆ کردنی شتێک بەھۆی ئەوەی ئەگەری سەرکەتن نییە"""),

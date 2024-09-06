@@ -152,12 +152,12 @@ ${englishMeaningConst.text}
 // """),
 // With short examples define "hard-line", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) سیاسەت یان هەڵوێستێکی توند"""),
+                        text: """١. (ناو) سیاسەت یان ھەڵوێستێکی توند"""),
                     SentencesRow(
                       englishText:
                           """The government took a hard line on the strike.""",
                       kurdishText:
-                          """حکومەت هەڵوێستی توندی گرتەبەر دژ بە مانگرتنەکە.""",
+                          """حکومەت ھەڵوێستی توندی گرتەبەر دژ بە مانگرتنەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -228,19 +228,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/9yjZpBq1XBE?t=';
-const double _startSecondsend = 0000000000000000000000000004426;
-const String _videoIdone = 'https://youtu.be/-7bIDbaU_zQ?t=';
-const double _startSecondsone = 0000000000000000000000000001141;
-const String _videoIdtwo = 'https://youtu.be/KhBxCx11eck?t=';
-const double _startSecondstwo = 000000000000000000000000000314;
-const String _videoIdthree = 'https://youtu.be/iHCzGvaMAug?t=';
-const double _startSecondsthree = 000000000000000000000000000592;
-const String _videoIdfour = 'https://youtu.be/flmkQZvN_g8?t=';
-const double _startSecondsfour = 000000000000000000000000000684;
-const String _videoIdfive = 'https://youtu.be/71oijrYHNoE?t=';
-const double _startSecondsfive = 000000000000000000000000000506;
+const String _videoIdend = '9yjZpBq1XBE';
+const double _startSecondsend = 4426;
+const String _videoIdone = '-7bIDbaU_zQ';
+const double _startSecondsone = 1141;
+const String _videoIdtwo = 'KhBxCx11eck';
+const double _startSecondstwo = 314;
+const String _videoIdthree = 'iHCzGvaMAug';
+const double _startSecondsthree = 592;
+const String _videoIdfour = 'flmkQZvN_g8';
+const double _startSecondsfour = 684;
+const String _videoIdfive = '71oijrYHNoE';
+const double _startSecondsfive = 506;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خودایانە، خوائاسا، خوایی، ئاسمانی
 """),
-// With short examples define "godlike", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) وەک خودا یان ھەبوونی خاسیەتی خودا"""),
@@ -226,7 +225,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'H6NUzanLUd4';
 const double _startSecondsend = 503;
 const String _videoIdone = 'Hzv8E3z1nx8';

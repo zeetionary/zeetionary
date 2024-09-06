@@ -165,11 +165,11 @@ ${englishMeaningConst.text}
 // With short examples define "hard up", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) هەبوونی پارەیەکی کەم، بە تایبەتی بۆ ماوەیەکی کەم"""),
+                            """١. (ھاوەڵناو) ھەبوونی پارەیەکی کەم، بە تایبەتی بۆ ماوەیەکی کەم"""),
                     SentencesRow(
                       englishText:
                           """They’re not really as hard up as they say they are.""",
-                      kurdishText: """هێندە دەستکورت نین وەک ئەوەی دەیڵێن.""",
+                      kurdishText: """ھێندە دەستکورت نین وەک ئەوەی دەیڵێن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -178,19 +178,19 @@ ${englishMeaningConst.text}
                       englishText:
                           """I was so hard up I couldn't afford the price of a cup of coffee.""",
                       kurdishText:
-                          """هێندە دەستکورت بووم پارەی کوپێک قاوەم نەبوو.""",
+                          """ھێندە دەستکورت بووم پارەی کوپێک قاوەم نەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) نەبوونی هیچ شتێکی سەرنجڕاکێش بۆ کردن، قسەکردن لەسەری، هتد"""),
+                            """٢. (ھاوەڵناو) نەبوونی ھیچ شتێکی سەرنجڕاکێش بۆ کردن، قسەکردن لەسەری، ھتد"""),
                     SentencesRow(
                       englishText:
                           """The newspapers must be hard up for news if they’ve got to publish stories like that (= they must have very little real news).""",
                       kurdishText:
-                          """ڕۆژنامەکان دەبێت وێڵی هەواڵ بن کە گەشتوون بە بڵاوکردنەوەی چیرۆکی وەها.""",
+                          """ڕۆژنامەکان دەبێت وێڵی ھەواڵ بن کە گەشتوون بە بڵاوکردنەوەی چیرۆکی وەھا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -261,19 +261,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/vojsscI61Sk?t=';
-const double _startSecondsend = 000000000000000000000000000108;
-const String _videoIdone = 'https://youtu.be/3u2FauOIPh8?t=';
-const double _startSecondsone = 000000000000000000000000000142;
-const String _videoIdtwo = 'https://youtu.be/Y346900i9qE?t=';
-const double _startSecondstwo = 000000000000000000000000000525;
-const String _videoIdthree = 'https://youtu.be/8ZKzx1C4-DY?t=';
-const double _startSecondsthree = 00000000000000000000000000064;
-const String _videoIdfour = 'https://youtu.be/bLi0thKmv5s?t=';
-const double _startSecondsfour = 0000000000000000000000000001394;
-const String _videoIdfive = 'https://youtu.be/u39NVFitKIs?t=';
-const double _startSecondsfive = 000000000000000000000000000463;
+const String _videoIdend = 'vojsscI61Sk';
+const double _startSecondsend = 108;
+const String _videoIdone = '3u2FauOIPh8';
+const double _startSecondsone = 142;
+const String _videoIdtwo = 'Y346900i9qE';
+const double _startSecondstwo = 525;
+const String _videoIdthree = '8ZKzx1C4-DY';
+const double _startSecondsthree = 64;
+const String _videoIdfour = 'bLi0thKmv5s';
+const double _startSecondsfour = 1394;
+const String _videoIdfive = 'u39NVFitKIs';
+const double _startSecondsfive = 463;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

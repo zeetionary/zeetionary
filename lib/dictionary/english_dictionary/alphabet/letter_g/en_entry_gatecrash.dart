@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gatecrash", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) چوونە ئاھەنگێک کە بانگھێشت نەکراوی بۆی"""),

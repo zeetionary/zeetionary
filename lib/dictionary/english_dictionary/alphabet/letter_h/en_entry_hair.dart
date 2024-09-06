@@ -274,7 +274,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قژ، تووک، پرچ، گێس، زولف، موو،	قژەکان، موو، مووەکان، تووک، تووک،	تووکی سەر،	چڵ، تاڵ،	کوڵک،	بڕێکی کەم، مەودایێکی کەم، کەم‌دوور
 """),
-// With short examples define "hair", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) قژی مرۆڤ"""),
                     SentencesRow(
                       englishText: """She often wears her hair loose.""",
@@ -290,7 +289,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """I'll be down in a minute. I'm doing (= brushing, arranging, etc.) my hair.""",
                               kurdishText:
-                                  """خولەکێکی دیکە لە خوارەوە دەبم، قژم دائەهێنم.""",
+                                  """خولەکێکی دیکە لە خوارەوە دەبم، قژم دائەھێنم.""",
                               onPressedBritish: () => speaksentence2("en-GB"),
                               onPressedAmerican: () => speaksentence2("en-US"),
                             ),
@@ -322,7 +321,7 @@ ${englishMeaningConst.text}
                             const DividerSentences(),
                             SentencesRow(
                               englishText: """She had beautiful auburn hair.""",
-                              kurdishText: """قژێکی جوانی خورمایی هەبوو.""",
+                              kurdishText: """قژێکی جوانی خورمایی ھەبوو.""",
                               onPressedBritish: () => speaksentence6("en-GB"),
                               onPressedAmerican: () => speaksentence6("en-US"),
                             ),
@@ -337,7 +336,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText:
                                   """She had shoulder-length black hair.""",
-                              kurdishText: """قژێکی ڕەشی تاسەر شانی هەبوو.""",
+                              kurdishText: """قژێکی ڕەشی تاسەر شانی ھەبوو.""",
                               onPressedBritish: () => speaksentence8("en-GB"),
                               onPressedAmerican: () => speaksentence8("en-US"),
                             ),
@@ -346,7 +345,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """I don't like the way she's arranged her hair, do you?""",
                               kurdishText:
-                                  """حەزم بەو شێوەیە نییە کە قژی داهێناوە، ئەی تۆ؟""",
+                                  """حەزم بەو شێوەیە نییە کە قژی داھێناوە، ئەی تۆ؟""",
                               onPressedBritish: () => speaksentence9("en-GB"),
                               onPressedAmerican: () => speaksentence9("en-US"),
                             ),
@@ -355,7 +354,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Her only hair accessory was a headband.""",
                               kurdishText:
-                                  """تەنها جوانکاریی قژی سەرپێچێک بوو.""",
+                                  """تەنھا جوانکاریی قژی سەرپێچێک بوو.""",
                               onPressedBritish: () => speaksentence10("en-GB"),
                               onPressedAmerican: () => speaksentence10("en-US"),
                             ),
@@ -388,7 +387,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Some cultures associate facial hair with masculinity.""",
                       kurdishText:
-                          """هەندێک کەلتوور مووی ڕووخسار دەبەستنەوە بە پیاوەتی.""",
+                          """ھەندێک کەلتوور مووی ڕووخسار دەبەستنەوە بە پیاوەتی.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -417,7 +416,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٤. (ناو) هەبوونی ئەو جۆرە قژەی کە باسکراوە"""),
+                        text: """٤. (ناو) ھەبوونی ئەو جۆرە قژەی کە باسکراوە"""),
                     SentencesRow(
                       englishText:
                           """The long-haired model was the center of attention.""",
@@ -492,19 +491,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/pBYV8JmALVo?t=';
-const double _startSecondsend = 00000000000000000000000000042;
-const String _videoIdone = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondsone = 000000000000000000000000000423;
-const String _videoIdtwo = 'https://youtu.be/LdsahiLW9yk?t=';
+const String _videoIdend = 'pBYV8JmALVo';
+const double _startSecondsend = 42;
+const String _videoIdone = 'hTqtGJwsJVE';
+const double _startSecondsone = 423;
+const String _videoIdtwo = 'LdsahiLW9yk';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/47MNn4bsmSw?t=';
-const double _startSecondsthree = 0000000000000000000000000004371;
-const String _videoIdfour = 'https://youtu.be/lrNcx2D_FZI?t=';
-const double _startSecondsfour = 00000000000000000000000000062;
-const String _videoIdfive = 'https://youtu.be/5pXU5xUiSmc?t=';
-const double _startSecondsfive = 00000000000000000000000000091;
+const String _videoIdthree = '47MNn4bsmSw';
+const double _startSecondsthree = 4371;
+const String _videoIdfour = 'lrNcx2D_FZI';
+const double _startSecondsfour = 62;
+const String _videoIdfive = '5pXU5xUiSmc';
+const double _startSecondsfive = 91;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

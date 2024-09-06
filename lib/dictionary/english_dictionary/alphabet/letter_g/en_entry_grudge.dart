@@ -186,20 +186,19 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کینە، ڕق، قین، بوغز، دوژمنایەتی، ئیرەیی، ڕقەبەرایەتی،	دڵ‌ئێشان، دڵ‌شکان
 """),
-// With short examples define "grudge", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕق دژ بە کەسێک بەهۆی ئەوەی لە ڕابردوودا شتێکی خراپی دژت کردووە"""),
+                            """١. (ناو) ڕق دژ بە کەسێک بەھۆی ئەوەی لە ڕابردوودا شتێکی خراپی دژت کردووە"""),
                     SentencesRow(
                       englishText: """He has a grudge against the world.""",
-                      kurdishText: """ڕقی دژ بە دونیا هەیە.""",
+                      kurdishText: """ڕقی دژ بە دونیا ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I bear him no grudge.""",
-                      kurdishText: """هیچ بوغزم دژی نییە.""",
+                      kurdishText: """ھیچ بوغزم دژی نییە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -217,7 +216,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: begrudge"),
                     SentencesRow(
                       englishText: """I grudge having to pay so much tax.""",
-                      kurdishText: """ڕقم لە پێدانی باجی هێندە زۆرە.""",
+                      kurdishText: """ڕقم لە پێدانی باجی ھێندە زۆرە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -233,7 +232,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (کردار) بیرکردنەوە بەو شێوەیەی کە کەسێک شایەنی ئەوە نییە شتێکی هەبێت"""),
+                            """٣. (کردار) بیرکردنەوە بەو شێوەیەی کە کەسێک شایەنی ئەوە نییە شتێکی ھەبێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: begrudge"),
                     SentencesRow(
                       englishText:
@@ -310,19 +309,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/LAOoF2gyQaA?t=';
-const double _startSecondsend = 000000000000000000000000000362;
-const String _videoIdone = 'https://youtu.be/55XJ1ObZKaM?t=';
-const double _startSecondsone = 0000000000000000000000000001141;
-const String _videoIdtwo = 'https://youtu.be/FYVvE4tr2BI?t=';
-const double _startSecondstwo = 00000000000000000000000000092;
-const String _videoIdthree = 'https://youtu.be/1jm3K9cm3vI?t=';
-const double _startSecondsthree = 000000000000000000000000000917;
-const String _videoIdfour = 'https://youtu.be/YuNLNeIorJw?t=';
-const double _startSecondsfour = 000000000000000000000000000186;
-const String _videoIdfive = 'https://youtu.be/runjda4La_4?t=';
-const double _startSecondsfive = 000000000000000000000000000847;
+const String _videoIdend = 'LAOoF2gyQaA';
+const double _startSecondsend = 362;
+const String _videoIdone = '55XJ1ObZKaM';
+const double _startSecondsone = 1141;
+const String _videoIdtwo = 'FYVvE4tr2BI';
+const double _startSecondstwo = 92;
+const String _videoIdthree = '1jm3K9cm3vI';
+const double _startSecondsthree = 917;
+const String _videoIdfour = 'YuNLNeIorJw';
+const double _startSecondsfour = 186;
+const String _videoIdfive = 'runjda4La_4';
+const double _startSecondsfive = 847;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

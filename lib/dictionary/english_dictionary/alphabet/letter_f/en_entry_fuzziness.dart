@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێڵی، تاریکی، ماتی، نەڕوونی، ناڕۆشنی
 """),
-// With short examples define "fuzziness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە لە شێوە یان دەنگ ڕوون نەبێت"""),

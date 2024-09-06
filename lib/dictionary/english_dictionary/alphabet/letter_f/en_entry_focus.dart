@@ -403,7 +403,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تیشکۆ، ناوەند، خڕگە،	میزان‌کردن یان ڕێکخستنی مەودا،	ناوەندی چالاکی، جێی سەرنج، چەق، مایەی سەرنج، ناوەندی سەرنج‌پێدان
 """),
-// With short examples define "focus", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) تیشک یان سەرنج خستنە سەر شتێک، دۆخێک، بابەتێک، یان کەسێک"""),

@@ -2281,7 +2281,6 @@ American English: 7 into 15 doesn’t go.""",
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 15;
 const String _videoIdone = 'e_04ZrNroTo';

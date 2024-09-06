@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەڵفڕ،	فڕۆکەوان،	دووبەختەکی، قومار،	جاڕ، ئاگاداری، ڕاگەیاندن،	تونڕەو، گورج، خۆشبەز (مرۆ، گیانەوەر، ماشێن و ھتد)،	بازدان، پەڕین، لووربوون،	مرۆی بەرزەفڕ
 """),
-// With short examples define "flyer", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە فڕۆکەیەکی بچووک دەفڕێنێت؛ کەسێک کە لە زەوییەوە شتێک لە ئاسمان کۆنترۆڵ دەکات، بۆ نموونە کۆلارەیەک یان فڕۆکەی بێ‌فرۆکەوان"""),

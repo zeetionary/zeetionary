@@ -184,7 +184,7 @@ ${englishMeaningConst.text}
 // """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دەزگایەکی سەرپەڕاندن کە لە فەرەنسا دامەزرا و بۆ سەرپەڕاندنی تاوانباران بەکاردەهات"""),
+                            """١. (ناو) دەزگایەکی سەرپەڕاندن کە لە فەرەنسا دامەزرا و بۆ سەرپەڕاندنی تاوانباران بەکاردەھات"""),
                     SentencesRow(
                       englishText:
                           """He was sent to the guillotine in January 1793.""",
@@ -302,19 +302,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/d_fHun8jj2g?t=';
-const double _startSecondsend = 00000000000000000000000000091;
-const String _videoIdone = 'https://youtu.be/dEte_7rmPIY?t=';
-const double _startSecondsone = 00000000000000000000000000090;
-const String _videoIdtwo = 'https://youtu.be/at-xZA5U1ps?t=';
-const double _startSecondstwo = 000000000000000000000000000724;
-const String _videoIdthree = 'https://youtu.be/tx2GBzbeyHc?t=';
-const double _startSecondsthree = 000000000000000000000000000238;
-const String _videoIdfour = 'https://youtu.be/77wLyhKm1mg?t=';
-const double _startSecondsfour = 000000000000000000000000000270;
-const String _videoIdfive = 'https://youtu.be/OnP8WDkRIZs?t=';
-const double _startSecondsfive = 00000000000000000000000000090;
+const String _videoIdend = 'd_fHun8jj2g';
+const double _startSecondsend = 91;
+const String _videoIdone = 'dEte_7rmPIY';
+const double _startSecondsone = 90;
+const String _videoIdtwo = 'at-xZA5U1ps';
+const double _startSecondstwo = 724;
+const String _videoIdthree = 'tx2GBzbeyHc';
+const double _startSecondsthree = 238;
+const String _videoIdfour = '77wLyhKm1mg';
+const double _startSecondsfour = 270;
+const String _videoIdfive = 'OnP8WDkRIZs';
+const double _startSecondsfive = 90;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

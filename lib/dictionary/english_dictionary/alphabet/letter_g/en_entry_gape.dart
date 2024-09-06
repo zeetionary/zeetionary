@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چاو زەق‌کردنەوە، چاوئەبڵەق‌بوون، چاوداپچڕین، چاودەرپەڕین، چاوتێ‌بڕین، واقمان، دەم‌داچەقاندن،	باوێشک، ئاژاژک، ئازووشک
 """),
-// With short examples define "gape", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سەیرکردنی کەسێک/شتێک بەھۆی ئەوەی کە سەرسامیت"""),

@@ -198,7 +198,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەمیشە، بۆ ھەمیشە، ھەتاھەتا، تاسەر، بۆ ھەتاھەتا، ھەتاھەتایە، بۆ یەکجاری، لەسەریەک، پەیتاپەیتا، یەکبینە، شەوڕۆژ، ماوەیەکی یەکجار زۆر
 """),
-// With short examples define "forever", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بۆ گوتنی ئەوەی دۆخێکی دیاریکراو بۆ ھەمیشەیی بووبی دەبێت"""),

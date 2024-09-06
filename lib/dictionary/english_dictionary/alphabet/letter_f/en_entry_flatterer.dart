@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نەرمەبڕ، ڕووپاما، ڕیایی‌باز، زمان‌لووس، زمان‌چەور
 """),
-// With short examples define "flatterer", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە شتی جوان لەسەر کەسێک دەڵێت، زۆرجار کە لە دڵەوە نییە و بۆ ئەوەیە کارێکی بۆ بکەیت یان دڵخۆشی بکەیت"""),

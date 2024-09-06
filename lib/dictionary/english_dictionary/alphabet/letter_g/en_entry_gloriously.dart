@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gloriously", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە شایەنی سەرکەوتنی زۆرە، یان سەرکەوتنی زۆر دەھێنێت و کەسێک بەناوبانگ دەکات"""),
@@ -278,7 +277,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Solb9uA-tgQ';
 const double _startSecondsend = 713;
 const String _videoIdone = 'hrGBYpcz-oQ';

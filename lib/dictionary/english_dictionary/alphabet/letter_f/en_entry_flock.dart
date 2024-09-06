@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مێگەڵ، ڕان، گۆتاڵ، ڕەوە، ڕەمە، کەرک، جۆل، ڕەوانە، جەلە، گەلە، پۆل،	دەستە، کۆمەڵە،	شوێن‌کەوتووان، پەیڕەوان، مریدان (بەتایبەت کلیسەڕەوانی کریستانیەت)، گڵۆڵە خوری، تۆپەخوری، تۆپەڵەخوری یا لۆکە، گڵۆڵە لۆکە، تۆپەموو، گڵۆڵە تووک یان موو
 """),
-// With short examples define "flock", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گرووپێک لە مەڕ، بزن، یان باڵندەی ھەمان جۆر"""),

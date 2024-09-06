@@ -199,7 +199,7 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: قوت‌دان، لرف‌دان، هەڵقوڕاندن، هەڵمەقوت، لرف، قوت، ڵەپان، قوم، فڕ،	تیکەی گەورە، برمە
+کوردی: قوت‌دان، لرف‌دان، ھەڵقوڕاندن، ھەڵمەقوت، لرف، قوت، ڵەپان، قوم، فڕ،	تیکەی گەورە، برمە
 """),
                     const DefinitionKurdish(
                         text:
@@ -208,30 +208,30 @@ ${englishMeaningConst.text}
                       englishText:
                           """He gulped down the rest of his tea and went out.""",
                       kurdishText:
-                          """بەشە ماوەکەی چاییەکەی هەڵقوڕاند و چووە دەرەوە.""",
+                          """بەشە ماوەکەی چاییەکەی ھەڵقوڕاند و چووە دەرەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) ئەنجامدانی جووڵەی قوتدان بەبێ ئەوەی هیچ بخۆیت، زۆرجار بەهۆی ترس یان سەرسوڕمان"""),
+                            """٢. (کردار) ئەنجامدانی جووڵەی قوتدان بەبێ ئەوەی ھیچ بخۆیت، زۆرجار بەھۆی ترس یان سەرسوڕمان"""),
                     SentencesRow(
                       englishText:
                           """She gulped nervously before trying to answer.""",
                       kurdishText:
-                          """بە شڵەژاوییەوە هەنسکی دەدا پێش ئەوەی وەڵام بداتەوە.""",
+                          """بە شڵەژاوییەوە ھەنسکی دەدا پێش ئەوەی وەڵام بداتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (کردار) هەناسەدان بە خێرایی و قووڵی"""),
+                        text: """٣. (کردار) ھەناسەدان بە خێرایی و قووڵی"""),
                     SentencesRow(
                       englishText:
                           """Keith swam to the surface and gulped for air.""",
                       kurdishText:
-                          """کیس هاتە سەر ڕووێ ئاوەکە هەناسەبڕکێی بوو بۆ هەوا.""",
+                          """کیس ھاتە سەر ڕووێ ئاوەکە ھەناسەبڕکێی بوو بۆ ھەوا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -254,7 +254,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٥. (ناو) هەڵمژین یان قوتدانی شتێک"""),
+                        text: """٥. (ناو) ھەڵمژین یان قوتدانی شتێک"""),
                     SentencesRow(
                       englishText:
                           """He drank the glass of juice in one gulp.""",
@@ -338,19 +338,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/oHSehKtDyoI?t=';
-const double _startSecondsend = 00000000000000000000000000068;
-const String _videoIdone = 'https://youtu.be/xkYved-ucGg?t=';
-const double _startSecondsone = 000000000000000000000000000495;
-const String _videoIdtwo = 'https://youtu.be/6i9UUvxhAlY?t=';
-const double _startSecondstwo = 000000000000000000000000000155;
-const String _videoIdthree = 'https://youtu.be/DOiyPENvJ1k?t=';
-const double _startSecondsthree = 000000000000000000000000000361;
-const String _videoIdfour = 'https://youtu.be/oHLMla-75QA?t=';
-const double _startSecondsfour = 000000000000000000000000000183;
-const String _videoIdfive = 'https://youtu.be/JflCmAWVbEY?t=';
-const double _startSecondsfive = 000000000000000000000000000605;
+const String _videoIdend = 'oHSehKtDyoI';
+const double _startSecondsend = 68;
+const String _videoIdone = 'xkYved-ucGg';
+const double _startSecondsone = 495;
+const String _videoIdtwo = '6i9UUvxhAlY';
+const double _startSecondstwo = 155;
+const String _videoIdthree = 'DOiyPENvJ1k';
+const double _startSecondsthree = 361;
+const String _videoIdfour = 'oHLMla-75QA';
+const double _startSecondsfour = 183;
+const String _videoIdfive = 'JflCmAWVbEY';
+const double _startSecondsfive = 605;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

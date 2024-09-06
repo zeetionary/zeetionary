@@ -267,8 +267,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەلێن، کەلەبەر، کەل، کەلایی، کەلاش، شەبەق، قەڵەش، دەلاقە، ڕەخنە، کون، باخۆر، بابوێر، جیاوازی، جیایی، جیابوونەوە، پسان، دابڕان، پچڕان،	مەودا، دووری،	(خوازە) بۆشایی، ڤالاھی
 """),
-
-// With short examples define "gap", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بۆشاییەک کە دەبێت شتێکی تێدا بێت بەڵام تێیدا نییە"""),

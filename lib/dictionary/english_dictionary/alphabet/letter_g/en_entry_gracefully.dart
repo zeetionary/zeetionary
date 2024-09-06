@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە مەندی، مەندانە، قورسانە، بەڕەوشتانە
 """),
-// With short examples define "gracefully", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک بە جوانی و لەسەرخۆیی دەجووڵێت"""),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 547;
 const String _videoIdone = 'Wao0_uB4Zw4';

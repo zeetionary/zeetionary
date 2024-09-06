@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پیتاندن، بەپێز کردن، بەرھەمدار کردن
 """),
-// With short examples define "fertilize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) دانانی ھەڵاڵە لەسەر ڕووەکێک بۆ ئەوەی تۆو درووست ببێت؛ تێکەڵبوونی سپێرم لەگەڵ ھێلکە بۆ ئەوەی منداڵ درووست ببێت"""),

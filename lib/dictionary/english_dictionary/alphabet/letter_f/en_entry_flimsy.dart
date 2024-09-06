@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناسک، تەنک، ڕوون، ڕۆشن (پارچە)،	نابەردەوام، لەق، بەکارنەھاتوو، بەرگەنەگر، لۆق، ناقایم، نەرم، ناسک، قرچ، بازاڕی، خراپ، ڕێزەڵۆک،	سست، بێ‌ھێز، بێجێ، ناژیرانە،	کاغزی ناسک
 """),
-// With short examples define "flimsy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە خراپ درووستکراوە و گونجاو نییە بۆ ئەو مەبەستەی بەکاردێت"""),

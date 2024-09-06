@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: باپیران، بابەگەورە، پێشینان
 """),
-// With short examples define "forefather", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک لە خێزانەکەت کە ماوەیەکی زۆر پێش ئێستا ژیاوە، بە تایبەتی پیاوێک"""),

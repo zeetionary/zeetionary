@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grille", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارێزەرێکی ئاسنین یان تەلی کە لە پێش پەنجەرە، دەرگا، ئامێرێک، ھتد دانراوە بۆ پاراستن"""),
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'XDVkqrB-Pj8';
 const double _startSecondsend = 14;
 const String _videoIdone = 'N_2QFPkluCg';

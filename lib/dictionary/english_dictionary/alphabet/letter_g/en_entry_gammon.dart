@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕانە بەرازی خوێ‌کراو (یا برژاو)، ڕانی بەراز
 """),
-// With short examples define "gammon", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گۆشتی لاقی پشتەوە یان لایەکانی بەرازە و بە دووکەڵ و خوێ پارێزراوە"""),

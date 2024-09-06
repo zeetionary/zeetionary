@@ -159,10 +159,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەسرە، دەستەسڕ، پەڕۆ، دەسرەی مل
 """),
-// With short examples define "handkerchief", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) پارچە جل یان کاغەزێک کە بەکاری دەێنیت بۆ پاککردنەوەی لووت، دەم، هتد"""),
+                            """١. (ناو) پارچە جل یان کاغەزێک کە بەکاری دەێنیت بۆ پاککردنەوەی لووت، دەم، ھتد"""),
                     SentencesRow(
                       englishText:
                           """He blew his nose on a dirty handkerchief.""",
@@ -253,19 +252,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/ki4Fbctwnjs?t=';
-const double _startSecondsend = 000000000000000000000000000423;
-const String _videoIdone = 'https://youtu.be/4l8M3dQlUwg?t=';
-const double _startSecondsone = 0000000000000000000000000001103;
-const String _videoIdtwo = 'https://youtu.be/E0WT1HtB-Sc?t=';
-const double _startSecondstwo = 000000000000000000000000000244;
-const String _videoIdthree = 'https://youtu.be/YFxNtBC4k7g?t=';
-const double _startSecondsthree = 0000000000000000000000000001166;
-const String _videoIdfour = 'https://youtu.be/aqKm-tYHlwM?t=';
-const double _startSecondsfour = 000000000000000000000000000848;
-const String _videoIdfive = 'https://youtu.be/KIzqSTEC5kU?t=';
-const double _startSecondsfive = 000000000000000000000000000561;
+const String _videoIdend = 'ki4Fbctwnjs';
+const double _startSecondsend = 423;
+const String _videoIdone = '4l8M3dQlUwg';
+const double _startSecondsone = 1103;
+const String _videoIdtwo = 'E0WT1HtB-Sc';
+const double _startSecondstwo = 244;
+const String _videoIdthree = 'YFxNtBC4k7g';
+const double _startSecondsthree = 1166;
+const String _videoIdfour = 'aqKm-tYHlwM';
+const double _startSecondsfour = 848;
+const String _videoIdfive = 'KIzqSTEC5kU';
+const double _startSecondsfive = 561;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

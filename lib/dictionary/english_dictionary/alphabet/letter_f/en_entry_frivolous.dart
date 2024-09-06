@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌ئەقڵ، کەم‌ئەقڵ، سووک، سەرچڵ، ھەڵەشە، گەوجانە، بێھوودە، سەرسەرەکی، فشە، لەخۆڕایی، بێ‌نرخ، بێ‌بایەخ، ھیچەکە
 """),
-// With short examples define "frivolous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) گەمژانە یان پێکەنیناوی، بە تایبەتی لە دۆخێک کە نەگونجاوە"""),

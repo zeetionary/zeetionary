@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەڵەک، کەشتی، گەمی، کەڵەس 
 """),
-// With short examples define "ferry", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەلەم یان کەشتییەک کە خەڵکی یان کەلوپەل بە ڕووبار یان بەشێکی تەسکی دەریادا ھەڵدەگرێت"""),

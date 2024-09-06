@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: داھاتوو، زووھاتوو،	لەبەردەس، ئامادە، دەس‌پێ‌ڕاگەیشتوو،	(پیخۆشە) ھاوکاری بکا
 """),
-// With short examples define "forthcoming", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زوو بڵاودەکرێتەوە، ڕوودەدات، ھتد"""),

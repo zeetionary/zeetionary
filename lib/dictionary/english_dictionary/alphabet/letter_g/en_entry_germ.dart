@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جێرم، میکڕۆب،	تۆوکە، تۆو، چەقەرە، کورس،	بنەما، بنەڕەت، ماک، سەرەتاگە، دەسپێک
 """),
-// With short examples define "germ", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زیندەوەرێکی زۆر بچووک کە دەکرێت ببێتە ھۆکاری ھەوکردن و نەخۆشی"""),
@@ -291,7 +290,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'X3TAROotFfM';
 const double _startSecondsend = 804;
 const String _videoIdone = 'Ku-ForS6G3I';

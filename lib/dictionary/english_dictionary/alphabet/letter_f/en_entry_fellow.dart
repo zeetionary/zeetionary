@@ -216,7 +216,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کوڕ، پس،	پیاو، مێر، بنیادەم، کابرا، یارۆ،	ڕفێق، دۆست، ھەواڵ، ھاوڕێ،	شەریک،	ـھاو (لە لێکدانا)،	ئەندام
 """),
-// With short examples define "fellow", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە ھاوشێوەی تۆیە بۆ جۆریک"""),
                     SentencesRow(

@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرنج‌ڕاکێشی، ئەفسووناوی‌بوون، دڵڕفێنی، جوانی، تەفرەدەری، زریقەوبریقە
 """),
-// With short examples define "glamour", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خاسیەتی جوان و باش کە وا دەکات شتێک، کەسێک، یان شوێنیک تایبەت دەربکەوێت، زۆرجار بەھۆی سامان یان پێگە"""),
@@ -262,7 +261,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'FX1eWKGGOrY';
 const double _startSecondsend = 41;
 const String _videoIdone = 'lDeFSOUHdH4';

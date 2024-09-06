@@ -261,7 +261,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەمێ، بڕێ، نە زۆر، ژمارەیێکی کەم، ھێندێ، چەند، ژمارەیێ، دەگمەن، کەم
 """),
-// With short examples define "few", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (دیارخەر، ھاوەڵناو) لەگەڵ ناوی کۆ و کرداری کۆ بەکاردێت بۆ گوتنی ڕێژەیەکی کەم یان ھەندێک"""),

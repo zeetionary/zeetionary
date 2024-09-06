@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گرێ‌گرێ، بەگرێ، گرێدار، پێچاوی،	پیناوی
 """),
-// With short examples define "gnarled", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) دارێکی سەخت و لوول‌بوو"""),
                     SentencesRow(
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Z0SzIkheaFg';
 const double _startSecondsend = 756;
 const String _videoIdone = 'M73XCOzZAU0';

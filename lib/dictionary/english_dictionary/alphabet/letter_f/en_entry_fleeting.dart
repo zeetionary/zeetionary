@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کورتماوە، کەم‌خایەن، تیژپەڕ، زووبەسەرچوو، نابەردەوام، زووڕەو، سەردەمی، لەنێوچوو
 """),
-// With short examples define "fleeting", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بۆ ماوەیەکی کەم بەردەوام دەبێت"""),

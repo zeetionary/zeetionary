@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fundamentalist", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە باوەڕی وایە ئەوەی لە کتێبە ئاینییەکان نووسراوە ھەمووی درووستن"""),

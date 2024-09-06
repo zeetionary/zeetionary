@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دۆزەرەوە، پەیداکەر، ـدۆز
 """),
-// With short examples define "finder", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە شتێک دۆدەزێتەوە"""),
                     SentencesRow(

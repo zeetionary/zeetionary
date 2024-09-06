@@ -255,7 +255,7 @@ class BodyOfGoodmorning extends StatelessWidget {
             englishText:
                 """Same here. Already checked a few emails, so I'm feeling <red>productive</red>.""",
             kurdishText:
-                """منیش. پێشوەختە سەیری چەند ئیمەیڵێکم کرد، بۆیە هەست دەکەم شتێکم بەدەستهێناوە.""",
+                """منیش. پێشوەختە سەیری چەند ئیمەیڵێکم کرد، بۆیە ھەست دەکەم شتێکم بەدەستھێناوە.""",
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),
@@ -270,7 +270,7 @@ class BodyOfGoodmorning extends StatelessWidget {
           CustomConversationsLeft(
             englishText:
                 """Nice! Any big <red>tasks</red> on your plate today?""",
-            kurdishText: """باشە! هیچ ئەرکێک ئەمڕۆ لە هەگبەتدایە؟""",
+            kurdishText: """باشە! ھیچ ئەرکێک ئەمڕۆ لە ھەگبەتدایە؟""",
             englishTags: {
               'red': StyledTextTag(
                 style: const TextStyle(color: Colors.red),

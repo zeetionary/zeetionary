@@ -288,7 +288,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گێڕ، گیر، چەرخ یان پێچکەی ددانەدار،	دەزگا، ئامێر، ئامراز، ھەجەت،	بەرگ، شمەک،	میزان‌کردنی میکانیزمی گێڕ،	(خوازە) لێوەشاوەیی، لێھاتوویی،	چالاکی، خێرایی، جم‌وجۆڵ، دەرمانی ناقانوونی
 """),
-// With short examples define "gear", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشێکی پێڕۆیەک کە پەیوەندیی نێوان خێرایی بزوێنەر یان پایدانی پاسکیل لەگەڵ خێرایی ویلەکان دەگۆڕێت"""),

@@ -167,10 +167,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مەینەتی، سەختی، ئەرک، زەحمەت، دەرد و ڕەنج، کوێرەوەری، بارودۆخی مەینەتاوی یان سەخت، تەنگانە، دەس‌تەنگی
 """),
-// With short examples define "hardship", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخێک کە سەخت و ناخۆشە بەهی ئەوەی بەشی پێویست پارە، جل، خواردن، هتد ـــت نییە"""),
+                            """١. (ناو) دۆخێک کە سەخت و ناخۆشە بەھی ئەوەی بەشی پێویست پارە، جل، خواردن، ھتد ـــت نییە"""),
                     SentencesRow(
                       englishText:
                           """People suffered many hardships during that long winter.""",
@@ -184,7 +183,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """In times of economic hardship, firms cut back on training.""",
                       kurdishText:
-                          """لە کاتی زەحمەتی ئابووریدا، کۆمپانیاکان کەمتر ڕاهێنان دەکەن.""",
+                          """لە کاتی زەحمەتی ئابووریدا، کۆمپانیاکان کەمتر ڕاھێنان دەکەن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -262,19 +261,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/lsbcN9-jU1Y?t=';
-const double _startSecondsend = 000000000000000000000000000784;
-const String _videoIdone = 'https://youtu.be/VVsdb90aOmA?t=';
-const double _startSecondsone = 0000000000000000000000000001884;
-const String _videoIdtwo = 'https://youtu.be/Y5F_ha7d-PI?t=';
-const double _startSecondstwo = 00000000000000000000000000020;
-const String _videoIdthree = 'https://youtu.be/e-or_D-qNqM?t=';
-const double _startSecondsthree = 000000000000000000000000000127;
-const String _videoIdfour = 'https://youtu.be/Jsym-0cv7CU?t=';
-const double _startSecondsfour = 000000000000000000000000000330;
-const String _videoIdfive = 'https://youtu.be/-obKX-mqjXQ?t=';
-const double _startSecondsfive = 0000000000000000000000000001938;
+const String _videoIdend = 'lsbcN9-jU1Y';
+const double _startSecondsend = 784;
+const String _videoIdone = 'VVsdb90aOmA';
+const double _startSecondsone = 1884;
+const String _videoIdtwo = 'Y5F_ha7d-PI';
+const double _startSecondstwo = 20;
+const String _videoIdthree = 'e-or_D-qNqM';
+const double _startSecondsthree = 127;
+const String _videoIdfour = 'Jsym-0cv7CU';
+const double _startSecondsfour = 330;
+const String _videoIdfive = '-obKX-mqjXQ';
+const double _startSecondsfive = 1938;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

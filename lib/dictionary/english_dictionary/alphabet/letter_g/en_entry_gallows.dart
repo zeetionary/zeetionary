@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قەنارە، سێدارە، دار، دارەمەرگ
 """),
-// With short examples define "gallows", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) چوارچێوەیەک کە لەسەر خەڵکی دەکوژرێن بە ھەڵواسین"""),

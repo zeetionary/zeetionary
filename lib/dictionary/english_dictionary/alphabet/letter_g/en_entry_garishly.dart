@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە شێوەیەکی زەق، بە زریقە و بریقەوە
 """),
-// With short examples define "garishly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەکی زۆر درەوشاوە و ناشرین"""),

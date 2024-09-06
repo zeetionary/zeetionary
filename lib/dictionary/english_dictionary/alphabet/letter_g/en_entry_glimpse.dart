@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کورتە چاولێ‌کردن، چاوپیاخشاندن، چاوپیاگێڕان، سەرنجی کورت،	بۆچوون
 """),
-// With short examples define "glimpse", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بینینی کەسێک/شتێک بۆ ماوەیەکی زۆر کەم بە شێوەیەک کە بە تەواوی نایبینی"""),
@@ -351,7 +350,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'VS6tnF31zr4';
 const double _startSecondsend = 987;
 const String _videoIdone = '9VsDP584zyQ';

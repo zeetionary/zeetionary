@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پتەوکردن، سەنگەردانان، قایم‌کاری، توندکردن،	پتەوی، تۆکمەیی، بەھێزکردن، پێزدارکردن، قەڵا، شوورە، خەنەک، کەندەک، خەندەک (بە مەبەستی بەرگری یان پاراستن)
 """),
-// With short examples define "fortification", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوورایەک، جێگایەکی چەک، ھتد کە درووستکراوە بۆ بەرگری لە شوێنێک دژ بە ھێرش"""),

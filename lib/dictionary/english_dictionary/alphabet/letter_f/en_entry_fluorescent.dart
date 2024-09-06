@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fluorescent", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە ڕووناکی درەوشاوە درووست دەکات بە جۆرێک لە مادەی تیشکدەر"""),

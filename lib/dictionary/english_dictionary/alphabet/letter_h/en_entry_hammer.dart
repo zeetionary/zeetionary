@@ -248,7 +248,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چەکوش، موورە، مەردان، چەکوچ
 """),
-// With short examples define "hammer", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) چەکووش"""),
                     SentencesRow(
                       englishText:
@@ -269,7 +268,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She took a hammer and knocked a hole in the wall.""",
                       kurdishText:
-                          """چەکووشەکەی هێنا و کونێکی کردە دیوارەکە.""",
+                          """چەکووشەکەی ھێنا و کونێکی کردە دیوارەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -326,7 +325,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Someone was hammering at the door.""",
                       kurdishText:
-                          """کەسێک دەرگاکەی هێنابوویە خوار (= زۆر لێی دەدا).""",
+                          """کەسێک دەرگاکەی ھێنابوویە خوار (= زۆر لێی دەدا).""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -348,7 +347,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٧. (کردار) شکستهێنان زۆر بە ئاسانی"""),
+                        text: """٧. (کردار) شکستھێنان زۆر بە ئاسانی"""),
                     SentencesRow(
                       englishText: """Our team was hammered 5–1.""",
                       kurdishText: """تیمەکان ٥-١ گۆڵباران کرا.""",
@@ -357,12 +356,12 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٨. (کردار) هەبوونی کاریگەری زۆر خراپ"""),
+                        text: """٨. (کردار) ھەبوونی کاریگەری زۆر خراپ"""),
                     SentencesRow(
                       englishText:
                           """Eastern provinces were brutally hammered by the weekend flooding.""",
                       kurdishText:
-                          """پارێزگاکانی ڕۆژهەڵات زۆر خراپ کاریگەر بوون بە لافاوەکە.""",
+                          """پارێزگاکانی ڕۆژھەڵات زۆر خراپ کاریگەر بوون بە لافاوەکە.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -433,18 +432,17 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/NFtQOxjWfaA?t=';
-const double _startSecondsend = 000000000000000000000000000314;
-const String _videoIdone = 'https://youtu.be/rPe4yziWiOg?t=';
-const double _startSecondsone = 000000000000000000000000000661;
-const String _videoIdtwo = 'https://youtu.be/h0IPcqF2q9U?t=';
-const double _startSecondstwo = 000000000000000000000000000829;
-const String _videoIdthree = 'https://youtu.be/lGSOWwUvJiU?t=';
-const double _startSecondsthree = 000000000000000000000000000421;
-const String _videoIdfour = 'https://youtu.be/UkHGF2opK8k?t=';
-const double _startSecondsfour = 00000000000000000000000000059;
-const String _videoIdfive = 'https://youtu.be/-ZF63-Ozmns';
+const String _videoIdend = 'NFtQOxjWfaA';
+const double _startSecondsend = 314;
+const String _videoIdone = 'rPe4yziWiOg';
+const double _startSecondsone = 661;
+const String _videoIdtwo = 'h0IPcqF2q9U';
+const double _startSecondstwo = 829;
+const String _videoIdthree = 'lGSOWwUvJiU';
+const double _startSecondsthree = 421;
+const String _videoIdfour = 'UkHGF2opK8k';
+const double _startSecondsfour = 59;
+const String _videoIdfive = '-ZF63-Ozmns';
 const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {

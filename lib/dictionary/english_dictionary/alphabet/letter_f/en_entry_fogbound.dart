@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: لەبەر مژ پەککەوتوو، مژگیر، گیرکردوو لەبەر مژ
 // """),
-// With short examples define "fogbound", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بەھۆی تەمەوە ناتوانێت کار بکات"""),

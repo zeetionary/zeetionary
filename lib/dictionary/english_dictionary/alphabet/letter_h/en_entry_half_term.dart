@@ -166,7 +166,7 @@ Usage: Brit
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """It’s the half-term break next week.""",
-                      kurdishText: """هەفتەی داهاتوو پشووی نێوان وەرزەکانە.""",
+                      kurdishText: """ھەفتەی داھاتوو پشووی نێوان وەرزەکانە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -237,19 +237,18 @@ Usage: Brit
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/OEqlIFcYsMU?t=';
-const double _startSecondsend = 000000000000000000000000000691;
-const String _videoIdone = 'https://youtu.be/3xxHqPIk0r4?t=';
-const double _startSecondsone = 000000000000000000000000000256;
-const String _videoIdtwo = 'https://youtu.be/yhDZM3yTOvI';
+const String _videoIdend = 'OEqlIFcYsMU';
+const double _startSecondsend = 691;
+const String _videoIdone = '3xxHqPIk0r4';
+const double _startSecondsone = 256;
+const String _videoIdtwo = 'yhDZM3yTOvI';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/760cYII1U7E?t=';
-const double _startSecondsthree = 000000000000000000000000000419;
-const String _videoIdfour = 'https://youtu.be/UDbNjc0hU40?t=';
-const double _startSecondsfour = 000000000000000000000000000121;
-const String _videoIdfive = 'https://youtu.be/MJXiSzW62U0?t=';
-const double _startSecondsfive = 000000000000000000000000000793;
+const String _videoIdthree = '760cYII1U7E';
+const double _startSecondsthree = 419;
+const String _videoIdfour = 'UDbNjc0hU40';
+const double _startSecondsfour = 121;
+const String _videoIdfive = 'MJXiSzW62U0';
+const double _startSecondsfive = 793;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

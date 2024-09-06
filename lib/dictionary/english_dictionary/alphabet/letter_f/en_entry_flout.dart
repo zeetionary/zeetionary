@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flout", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەوەی کە پابەندی شتێک نەبیت و بیشکێنیت"""),

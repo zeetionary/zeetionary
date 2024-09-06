@@ -162,7 +162,7 @@ ${englishMeaningConst.text}
 // \b(guru)(s|ed|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) مامۆستا یان ڕێبەر لە ئایینی هیندو یان سیک"""),
+                            """١. (ناو) مامۆستا یان ڕێبەر لە ئایینی ھیندو یان سیک"""),
                     SentencesRow(
                       englishText:
                           """Devotees gather to listen to the guru's wisdom.""",
@@ -249,19 +249,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/DMCgve6PAOI?t=';
-const double _startSecondsend = 000000000000000000000000000302;
-const String _videoIdone = 'https://youtu.be/Rva-H5k1gz0';
+const String _videoIdend = 'DMCgve6PAOI';
+const double _startSecondsend = 302;
+const String _videoIdone = 'Rva-H5k1gz0';
 const double _startSecondsone = 0;
-const String _videoIdtwo = 'https://youtu.be/lNkP_vfNWUU?t=';
-const double _startSecondstwo = 00000000000000000000000000010;
-const String _videoIdthree = 'https://youtu.be/ykbhn_PKge4?t=';
-const double _startSecondsthree = 000000000000000000000000000104;
-const String _videoIdfour = 'https://youtu.be/_AiZwcHtg2U?t=';
-const double _startSecondsfour = 00000000000000000000000000053;
-const String _videoIdfive = 'https://youtu.be/s3B-qp3U5G0?t=';
-const double _startSecondsfive = 00000000000000000000000000022;
+const String _videoIdtwo = 'lNkP_vfNWUU';
+const double _startSecondstwo = 10;
+const String _videoIdthree = 'ykbhn_PKge4';
+const double _startSecondsthree = 104;
+const String _videoIdfour = '_AiZwcHtg2U';
+const double _startSecondsfour = 53;
+const String _videoIdfive = 's3B-qp3U5G0';
+const double _startSecondsfive = 22;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

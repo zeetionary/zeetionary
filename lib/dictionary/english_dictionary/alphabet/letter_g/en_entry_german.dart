@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەربە ئەڵمانیا، ئەڵمان، ئەڵمانیایی،	زمانی ئەڵمانیایی، ئەڵمانی،	خەڵکی ئەڵمانیا
 """),
-// With short examples define "German", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە وڵاتی ئەڵمانیا"""),
@@ -260,7 +259,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QLq6GEiHqR8';
 const double _startSecondsend = 2151;
 const String _videoIdone = 'XnbCSboujF4';

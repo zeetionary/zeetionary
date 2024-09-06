@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گەوران، گەورەزادەکان، خانەدانان، ئەو خەڵکەی کە سەربە چینی باڵان، خەڵکانی بەرێز
 """),
-// With short examples define "gentry", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسانی سەر بە چینێکی کۆمەڵایەتی بەرز"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '8i1ZC7TBa8Y';
 const double _startSecondsend = 1253;
 const String _videoIdone = 'hax2be-DlhY';

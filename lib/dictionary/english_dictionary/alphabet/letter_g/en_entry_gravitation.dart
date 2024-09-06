@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gravitation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھێزێک کە وا دەکات تەنەکان بۆ یەکتر بچن"""),
@@ -232,7 +231,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QcUey-DVYjk';
 const double _startSecondsend = 1311;
 const String _videoIdone = 'wJa5Ch0O4BI';

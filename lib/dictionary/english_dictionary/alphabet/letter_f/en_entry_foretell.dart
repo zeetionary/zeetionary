@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "foretell", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) زانین یان پێشبینی کردنی ئەوەی چی ڕوودەدات لە داھاتوو، بە تایبەتی بە ھەبوونی ھێزی ئەفسووناوی"""),

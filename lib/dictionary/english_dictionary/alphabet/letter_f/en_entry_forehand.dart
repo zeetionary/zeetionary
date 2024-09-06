@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "forehand", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شێوازی لێدانی تۆپ لە تێنسدا کە ناولەپ ڕووی لە تۆپەکەیە"""),

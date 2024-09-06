@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (زەوی‌ناسی) جۆم، تڵیش، کەنداڵ، قڵیش، درز،	کەنداڵ، قڵیشە،	قڵیش، قەڵەشت،	کێشە، دژایەتی، جیاوازی، ناتەبایی، ناسازی، من‌وتۆیی، کەلێن، کەلەبەر، دووبەرەکایەتی، دابەش‌بوون
 """),
-// With short examples define "fissure", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) قڵیشێکی گەورە لە شتێک، بەتایبەتی لە زەویدا"""),

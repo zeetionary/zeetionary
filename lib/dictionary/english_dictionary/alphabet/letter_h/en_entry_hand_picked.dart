@@ -143,17 +143,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: هەڵبژاردە، دەستەبژێر
+کوردی: ھەڵبژاردە، دەستەبژێر
 """),
 // With short examples define "hand-picked", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە بە وریاییەوە بۆ مەبەستێک هەڵبژێردراوە"""),
+                            """١. (ھاوەڵناو) کە بە وریاییەوە بۆ مەبەستێک ھەڵبژێردراوە"""),
                     SentencesRow(
                       englishText:
                           """The 35-year-old Australian citizen was hand picked for the post.""",
                       kurdishText:
-                          """هاوڵاتییە ٣٥ ساڵانە ئوسترالییەکە دەستەبژێر بوو بۆ پێگەکە.""",
+                          """ھاوڵاتییە ٣٥ ساڵانە ئوسترالییەکە دەستەبژێر بوو بۆ پێگەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -224,19 +224,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/CgjOzZ0EE9Y?t=';
-const double _startSecondsend = 000000000000000000000000000141;
-const String _videoIdone = 'https://youtu.be/QINII0eeJxc?t=';
-const double _startSecondsone = 00000000000000000000000000081;
-const String _videoIdtwo = 'https://youtu.be/Z03BX5IEoZI?t=';
-const double _startSecondstwo = 00000000000000000000000000051;
-const String _videoIdthree = 'https://youtu.be/ElQdUHSXkME?t=';
-const double _startSecondsthree = 000000000000000000000000000306;
-const String _videoIdfour = 'https://youtu.be/V10mnsWiu7M?t=';
-const double _startSecondsfour = 00000000000000000000000000062;
-const String _videoIdfive = 'https://youtu.be/BMbQUdyKTRM?t=';
-const double _startSecondsfive = 00000000000000000000000000060;
+const String _videoIdend = 'CgjOzZ0EE9Y';
+const double _startSecondsend = 141;
+const String _videoIdone = 'QINII0eeJxc';
+const double _startSecondsone = 81;
+const String _videoIdtwo = 'Z03BX5IEoZI';
+const double _startSecondstwo = 51;
+const String _videoIdthree = 'ElQdUHSXkME';
+const double _startSecondsthree = 306;
+const String _videoIdfour = 'V10mnsWiu7M';
+const double _startSecondsfour = 62;
+const String _videoIdfive = 'BMbQUdyKTRM';
+const double _startSecondsfive = 60;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

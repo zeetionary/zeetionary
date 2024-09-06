@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جێی‌باوەڕ، ھەڵەھەڵنەگر، بێ‌ھەڵە، لێ‌ڕابینراو،	سادە، ئاسان
 """),
-// With short examples define "foolproof", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زۆر بە باشی و ئاسانی دیزاین کراوە بەشێوەیەک کە ئەگەری ئەوە نەبێت ھەڵە بکەیت لە بەکارھێنانی یان شکست بھێنیت"""),

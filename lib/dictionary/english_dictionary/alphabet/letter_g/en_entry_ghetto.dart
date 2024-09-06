@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "ghetto", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناوچەیەکی ھەژارنشین کە ژمارەیەک خەڵکی دیاریکراو دابڕاو لە خەڵکە سەرەکییەکە تێیدا دەژین"""),
@@ -247,7 +246,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '-RjJtO51ykY';
 const double _startSecondsend = 755;
 const String _videoIdone = 'jJJ7YTt_C4M';

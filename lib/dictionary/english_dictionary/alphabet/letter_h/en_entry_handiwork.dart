@@ -152,10 +152,9 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "handiwork", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەو کارەی دەیکەیت یان کارێک کە کردووتە، بە تایبەتی بە شارەزایی هونەری"""),
+                            """١. (ناو) ئەو کارەی دەیکەیت یان کارێک کە کردووتە، بە تایبەتی بە شارەزایی ھونەری"""),
                     SentencesRow(
                       englishText: """We admired her exquisite handiwork.""",
                       kurdishText: """سەرسام بووین بە شارەزایی ناوازەی.""",
@@ -240,19 +239,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/dzRNswfny3A?t=';
-const double _startSecondsend = 000000000000000000000000000783;
-const String _videoIdone = 'https://youtu.be/Y_N0AxCzVLg?t=';
-const double _startSecondsone = 000000000000000000000000000957;
-const String _videoIdtwo = 'https://youtu.be/-Gyk5SRSNWA?t=';
-const double _startSecondstwo = 000000000000000000000000000208;
-const String _videoIdthree = 'https://youtu.be/xSEeu2kzs0w?t=';
-const double _startSecondsthree = 000000000000000000000000000234;
-const String _videoIdfour = 'https://youtu.be/H640jO_n1AQ?t=';
-const double _startSecondsfour = 000000000000000000000000000258;
-const String _videoIdfive = 'https://youtu.be/TsdpcbQ3nX0?t=';
-const double _startSecondsfive = 000000000000000000000000000135;
+const String _videoIdend = 'dzRNswfny3A';
+const double _startSecondsend = 783;
+const String _videoIdone = 'Y_N0AxCzVLg';
+const double _startSecondsone = 957;
+const String _videoIdtwo = '-Gyk5SRSNWA';
+const double _startSecondstwo = 208;
+const String _videoIdthree = 'xSEeu2kzs0w';
+const double _startSecondsthree = 234;
+const String _videoIdfour = 'H640jO_n1AQ';
+const double _startSecondsfour = 258;
+const String _videoIdfive = 'TsdpcbQ3nX0';
+const double _startSecondsfive = 135;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

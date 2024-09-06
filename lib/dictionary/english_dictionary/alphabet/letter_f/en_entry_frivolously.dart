@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "frivolously", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە گەمژانە یان پێکەنیناوییە، بە تایبەتی لە دۆخێک کە نەگونجاوە"""),

@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خۆشحاڵ‌کەر، قایلکەر، مایەی پێ‌خۆشبوون، مایەی خۆشی
 """),
-// With short examples define "gratifying", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە خۆشیت پێ دەدات"""),
                     SentencesRow(
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'HgbxUMx3JWA';
 const double _startSecondsend = 244;
 const String _videoIdone = 'lGSOWwUvJiU';

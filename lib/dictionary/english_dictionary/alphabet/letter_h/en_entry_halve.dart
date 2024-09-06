@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دوو لەت کردن، نیوە کردن
 """),
-// With short examples define "halve", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) کەمبوون بۆ نیوە"""),
                     SentencesRow(
@@ -254,19 +253,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/oghoRsE1rDw?t=';
-const double _startSecondsend = 0000000000000000000000000001227;
-const String _videoIdone = 'https://youtu.be/MP_nWuLYpJw?t=';
-const double _startSecondsone = 00000000000000000000000000048;
-const String _videoIdtwo = 'https://youtu.be/wxm8jTzU_8o?t=';
-const double _startSecondstwo = 00000000000000000000000000045;
-const String _videoIdthree = 'https://youtu.be/72eq0zeUH3A?t=';
-const double _startSecondsthree = 0000000000000000000000000002131;
-const String _videoIdfour = 'https://youtu.be/SkKjQhCTP54?t=';
-const double _startSecondsfour = 00000000000000000000000000078;
-const String _videoIdfive = 'https://youtu.be/9dnN82DsQ2k?t=';
-const double _startSecondsfive = 000000000000000000000000000649;
+const String _videoIdend = 'oghoRsE1rDw';
+const double _startSecondsend = 1227;
+const String _videoIdone = 'MP_nWuLYpJw';
+const double _startSecondsone = 48;
+const String _videoIdtwo = 'wxm8jTzU_8o';
+const double _startSecondstwo = 45;
+const String _videoIdthree = '72eq0zeUH3A';
+const double _startSecondsthree = 2131;
+const String _videoIdfour = 'SkKjQhCTP54';
+const double _startSecondsfour = 78;
+const String _videoIdfive = '9dnN82DsQ2k';
+const double _startSecondsfive = 649;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

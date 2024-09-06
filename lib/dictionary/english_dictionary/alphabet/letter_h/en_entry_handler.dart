@@ -166,22 +166,21 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "handler", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەسێک ئاژەڵ کۆنترۆڵ دەکات و ڕاهێنانی پێدەکات، بە تایبەتی سەگ"""),
+                            """١. (ناو) کەسێک ئاژەڵ کۆنترۆڵ دەکات و ڕاھێنانی پێدەکات، بە تایبەتی سەگ"""),
                     SentencesRow(
                       englishText:
                           """The police brought in dog handlers to join the hunt for the attacker.""",
                       kurdishText:
-                          """پۆلیس ڕاهێنەری سەگیان هێنا بۆ بەژداری لە گەڕان بۆ هێرشکارەکە.""",
+                          """پۆلیس ڕاھێنەری سەگیان ھێنا بۆ بەژداری لە گەڕان بۆ ھێرشکارەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) کەسێک کە شت هەڵدەگرێت و مامەڵەی لەگەڵ دەکات وەک بەشێک لە کارەکەی"""),
+                            """٢. (ناو) کەسێک کە شت ھەڵدەگرێت و مامەڵەی لەگەڵ دەکات وەک بەشێک لە کارەکەی"""),
                     SentencesRow(
                       englishText:
                           """Baggage handlers load and unload luggage from airplanes.""",
@@ -269,19 +268,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/sAiTuitN5b8?t=';
-const double _startSecondsend = 00000000000000000000000000076;
-const String _videoIdone = 'https://youtu.be/7ziWrneMYss?t=';
-const double _startSecondsone = 000000000000000000000000000661;
-const String _videoIdtwo = 'https://youtu.be/qSmyimnMOBo?t=';
-const double _startSecondstwo = 0000000000000000000000000003772;
-const String _videoIdthree = 'https://youtu.be/OuOkS2tm89k?t=';
-const double _startSecondsthree = 00000000000000000000000000098;
-const String _videoIdfour = 'https://youtu.be/knjliFs3gR8?t=';
-const double _startSecondsfour = 000000000000000000000000000263;
-const String _videoIdfive = 'https://youtu.be/qSmyimnMOBo?t=';
-const double _startSecondsfive = 0000000000000000000000000003771;
+const String _videoIdend = 'sAiTuitN5b8';
+const double _startSecondsend = 76;
+const String _videoIdone = '7ziWrneMYss';
+const double _startSecondsone = 661;
+const String _videoIdtwo = 'qSmyimnMOBo';
+const double _startSecondstwo = 3772;
+const String _videoIdthree = 'OuOkS2tm89k';
+const double _startSecondsthree = 98;
+const String _videoIdfour = 'knjliFs3gR8';
+const double _startSecondsfour = 263;
+const String _videoIdfive = 'qSmyimnMOBo';
+const double _startSecondsfive = 3771;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

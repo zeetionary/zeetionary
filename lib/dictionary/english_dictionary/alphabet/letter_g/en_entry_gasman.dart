@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gasman", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە دەچێتە ماڵان بۆ دانانی کەرەستەی گاز و پشکنینیان"""),

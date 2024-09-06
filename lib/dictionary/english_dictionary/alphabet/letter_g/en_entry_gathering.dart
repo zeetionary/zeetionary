@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کۆبوونەوە، کۆمبین، جڤین، کۆڕ، خڕبوونەوە،	(زانیاری) خڕکردنەوە، کۆکردنەوە،	ڕوولەپەرە، ڕوولەزۆری، تاوسەند
 """),
-// With short examples define "gathering", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کۆبوونەوەی خەڵکی بۆ ھۆکارێکی دیاریکراو"""),

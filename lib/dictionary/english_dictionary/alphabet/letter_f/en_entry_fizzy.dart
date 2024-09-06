@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: ھەڵچوو و گازدار
 // """),
-// With short examples define "fizzy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە کەفی گازی تێدایە"""),
                     SentencesRow(

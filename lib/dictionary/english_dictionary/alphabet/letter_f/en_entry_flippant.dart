@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: شۆخی‌یانە، گاڵتەجاڕانە،	زمان‌لووس، زمان‌چەور،	سووک، چروک،	سەرچڵانە، سەرسەرەکی‌یانە
 // """),
-// With short examples define "flippant", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە شتێک بە جدی نابینیت، یان بەو شێوەیەی کە کەسانی دیکە چاوەڕێ دەکەن"""),

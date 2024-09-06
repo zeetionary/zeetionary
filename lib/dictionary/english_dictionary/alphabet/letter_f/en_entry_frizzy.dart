@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لوول، فڕ، ئازڵکاو
 """),
-// With short examples define "frizzy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) قژێک کە ڕێکخراو و ساف نییە بەڵکو تێکچووە و لوولە"""),

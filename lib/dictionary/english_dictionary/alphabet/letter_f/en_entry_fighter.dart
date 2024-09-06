@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شەڕکەر، شەڕڤان، شەڕوان،	خەباتکار،	نەیار، ھەڤرک، بەرچەپ،	شەڕەمشتکار، بۆکسۆر،	فڕۆکەی شەڕکەر
 """),
-// With short examples define "fighter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) فڕۆکەیەکی خێرای جەنگی کە دیزاین کراوە ھێرش بکاتە سەر فڕۆکەی دیکە"""),

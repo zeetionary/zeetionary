@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: بەھەڵکەوت، بەڕێکەوت، خۆوشانسی، شانسی، پێشبینی‌نەکراو، ڕێگاڕەوی، ڕاگوزەری،	پیرۆز، باش
 // """),
-// With short examples define "fortuitous", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە بە شانس ڕوودەدات"""),
                     SentencesRow(

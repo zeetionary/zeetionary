@@ -90,146 +90,6 @@ Usage: Brit, Cdn (US: hemorrhoid)
     await flutterTts.speak("""Haemorrhoids can cause itching and bleeding.""");
   }
 
-  Future<void> speaksentence101(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10100""");
-  }
-
-  Future<void> speaksentence102(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10200""");
-  }
-
-  Future<void> speaksentence103(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10300""");
-  }
-
-  Future<void> speaksentence104(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10400""");
-  }
-
-  Future<void> speaksentence105(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10500""");
-  }
-
-  Future<void> speaksentence106(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10600""");
-  }
-
-  Future<void> speaksentence107(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10700""");
-  }
-
-  Future<void> speaksentence108(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10800""");
-  }
-
-  Future<void> speaksentence109(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10900""");
-  }
-
-  Future<void> speaksentence110(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11000""");
-  }
-
-  Future<void> speaksentence111(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11100""");
-  }
-
-  Future<void> speaksentence112(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11200""");
-  }
-
-  Future<void> speaksentence113(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11300""");
-  }
-
-  Future<void> speaksentence114(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11400""");
-  }
-
-  Future<void> speaksentence115(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11500""");
-  }
-
-  Future<void> speaksentence116(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11600""");
-  }
-
-  Future<void> speaksentence117(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11700""");
-  }
-
-  Future<void> speaksentence118(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11800""");
-  }
-
-  Future<void> speaksentence119(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11900""");
-  }
-
-  Future<void> speaksentence120(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_12000""");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -293,7 +153,7 @@ Usage: Brit, Cdn (US: hemorrhoid)
                       englishText:
                           """Haemorrhoids can cause itching and bleeding.""",
                       kurdishText:
-                          """مایەسیری دەکرێت ببێتە هۆکاری خوران و خوێنبەربوون.""",
+                          """مایەسیری دەکرێت ببێتە ھۆکاری خوران و خوێنبەربوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -364,19 +224,18 @@ Usage: Brit, Cdn (US: hemorrhoid)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/6cAzY_yaP5Y?t=';
-const double _startSecondsend = 0000000000000000000000000001314;
-const String _videoIdone = 'https://youtu.be/KTlf9OASKjk?t=';
-const double _startSecondsone = 000000000000000000000000000607;
-const String _videoIdtwo = 'https://youtu.be/4I-FfNsRz4g?t=';
-const double _startSecondstwo = 000000000000000000000000000233;
-const String _videoIdthree = 'https://youtu.be/vOtGPrEsizE?t=';
-const double _startSecondsthree = 000000000000000000000000000192;
-const String _videoIdfour = 'https://youtu.be/mx6mhz5cqjU?t=';
-const double _startSecondsfour = 000000000000000000000000000156;
-const String _videoIdfive = 'https://youtu.be/LppFJkjSEp8?t=';
-const double _startSecondsfive = 000000000000000000000000000625;
+const String _videoIdend = '6cAzY_yaP5Y';
+const double _startSecondsend = 1314;
+const String _videoIdone = 'KTlf9OASKjk';
+const double _startSecondsone = 607;
+const String _videoIdtwo = '4I-FfNsRz4g';
+const double _startSecondstwo = 233;
+const String _videoIdthree = 'vOtGPrEsizE';
+const double _startSecondsthree = 192;
+const String _videoIdfour = 'mx6mhz5cqjU';
+const double _startSecondsfour = 156;
+const String _videoIdfive = 'LppFJkjSEp8';
+const double _startSecondsfive = 625;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

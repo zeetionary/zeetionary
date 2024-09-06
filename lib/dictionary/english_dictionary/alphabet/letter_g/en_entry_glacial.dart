@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "glacial", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە سەردەمی سەھۆڵبەندان"""),
@@ -278,7 +277,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'LXkO4HdQXdo';
 const double _startSecondsend = 158;
 const String _videoIdone = '5d6SEQQbwtU';

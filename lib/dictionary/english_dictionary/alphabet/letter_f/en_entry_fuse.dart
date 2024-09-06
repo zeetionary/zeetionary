@@ -216,7 +216,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەزووبڕ، دەرپەڕێنە، فیوز،	تێزکە، تێسکە،	پڵیتە (بۆمب و تەقەمەنی)،	جێ‌پێ یان شەقڵ یان شوێنی گیانەوەر
 """),
-// With short examples define "fuse", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) وایەرێک یان ئامرازێکی بچووک کە لەناو ئامێرێکی کارەباییە و دەشکێت و جووڵەی کارەبا دەوەستێنێت کە جووڵەی کارەباکە زۆر بەھێزە"""),

@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕەفتار یان ھەڵس‌وکەوتی شێتانە، شێت‌بوون (بۆ ساتێ)،	ورووژانی توند یان توندوتیژانە
 """),
-// With short examples define "frenzy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دۆخی شلۆقی و توندوتیژی کە لە ژێر کۆنترۆڵدا نییە"""),

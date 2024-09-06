@@ -158,10 +158,9 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "guitar", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئامێرێکی میوزیکی کە زۆرجار شەش تەلی هەیە"""),
+                            """١. (ناو) ئامێرێکی میوزیکی کە زۆرجار شەش تەلی ھەیە"""),
                     SentencesRow(
                       englishText: """Do you play the guitar?""",
                       kurdishText: """گیتار دەژەنیت؟""",
@@ -251,18 +250,17 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/2_phBUYlbds?t=';
-const double _startSecondsend = 0000000000000000000000000005;
-const String _videoIdone = 'https://youtu.be/omcNGrnt7Sg?t=';
-const double _startSecondsone = 0000000000000000000000000003227;
-const String _videoIdtwo = 'https://youtu.be/7si11pQ5mgw?t=';
-const double _startSecondstwo = 0000000000000000000000000007;
-const String _videoIdthree = 'https://youtu.be/2fch6wJNuxE?t=';
-const double _startSecondsthree = 000000000000000000000000000102;
-const String _videoIdfour = 'https://youtu.be/abPjtpNzO5U?t=';
-const double _startSecondsfour = 00000000000000000000000000077;
-const String _videoIdfive = 'https://youtu.be/fpfyF4gx3jw?t=';
+const String _videoIdend = '2_phBUYlbds';
+const double _startSecondsend = 5;
+const String _videoIdone = 'omcNGrnt7Sg';
+const double _startSecondsone = 3227;
+const String _videoIdtwo = '7si11pQ5mgw';
+const double _startSecondstwo = 7;
+const String _videoIdthree = '2fch6wJNuxE';
+const double _startSecondsthree = 102;
+const String _videoIdfour = 'abPjtpNzO5U';
+const double _startSecondsfour = 77;
+const String _videoIdfive = 'fpfyF4gx3jw';
 const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {

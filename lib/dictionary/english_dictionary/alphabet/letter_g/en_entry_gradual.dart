@@ -165,7 +165,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: وردەوردە، بەرەبەرە،	(لێژێ) نەرم، کەم، سووک،	گێڕانەوە، سەندنەوە
 """),
-// With short examples define "gradual", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە ھێواشی و بە ماوەیەکی درێژ ڕوودەدات"""),
@@ -261,7 +260,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'h0IPcqF2q9U';
 const double _startSecondsend = 468;
 const String _videoIdone = 'LfR4QfmwTAc';

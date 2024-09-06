@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕووترشانە، ڕووناخۆشانە، بەدخووانە، بە مڕۆمۆچەوە
 """),
-// With short examples define "grumpily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە بێزاریت یان لە دۆخێکی خراپیت"""),
@@ -223,19 +222,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/BTOuXNhVLkI?t=';
-const double _startSecondsend = 000000000000000000000000000402;
-const String _videoIdone = 'https://youtu.be/DgA1q0hJBRA?t=';
-const double _startSecondsone = 0000000000000000000000000004;
-const String _videoIdtwo = 'https://youtu.be/EzLgDtODXlo?t=';
-const double _startSecondstwo = 0000000000000000000000000001370;
-const String _videoIdthree = 'https://youtu.be/XLRWgeGbT_w?t=';
-const double _startSecondsthree = 000000000000000000000000000231;
-const String _videoIdfour = 'https://youtu.be/13Qvurwu6t4?t=';
-const double _startSecondsfour = 000000000000000000000000000463;
-const String _videoIdfive = 'https://youtu.be/36t5eEYyQow?t=';
-const double _startSecondsfive = 00000000000000000000000000055;
+const String _videoIdend = 'BTOuXNhVLkI';
+const double _startSecondsend = 402;
+const String _videoIdone = 'DgA1q0hJBRA';
+const double _startSecondsone = 4;
+const String _videoIdtwo = 'EzLgDtODXlo';
+const double _startSecondstwo = 1370;
+const String _videoIdthree = 'XLRWgeGbT_w';
+const double _startSecondsthree = 231;
+const String _videoIdfour = '13Qvurwu6t4';
+const double _startSecondsfour = 463;
+const String _videoIdfive = '36t5eEYyQow';
+const double _startSecondsfive = 55;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرمابردوویی، سەرمابردن، سەرمالێدان، تەزیوی، سڕی
 """),
-// With short examples define "frostbite", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دۆخێکی تەندرووستی کە تێیدا ژمارەیەک بەشی جەستە، لە نێوانیاندا پەنجەکان، زیانیان پێدەگات لە ئەنجامی سەرمای تەواو سارد"""),

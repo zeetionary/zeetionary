@@ -231,7 +231,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تێکڕای، سەرجەم،	(زۆر) قەڵەو، گمتە، زلە، ناقۆڵا، ناھەموار، ناتەرز، قەبە، نالەبار، زەلام،	لەڕەوشت بەدوور، خراپ، ناحەز، ناشیرین، عەیب، ھەرزانە، بێ‌شەرمانە، ئاشکرا، دیار، بەرچاو،	زبر، (تەن)درشت،	توند، ڕەق،	پەسندنەکراو، لەپاساونەھاتوو، نەبەخشراو،	ناپوختە، ناپەتی، تێکەڵ،	(ڕووەک) چڕ، پڕ، بەیەکاداو،	(چێشت) توند
 """),
-// With short examples define "gross", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ئەوەی کە سەرجەمی شتێک بێت پێش ئەوەی ھیچی لێ دەربکرێت"""),
@@ -391,7 +390,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_spuxXnul0U';
 const double _startSecondsend = 224;
 const String _videoIdone = 'BxWw8AO4ZmI';

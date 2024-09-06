@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: درود، سڵاو، چاک‌وخۆشی، سڵاو، درود، چاک‌وخۆشی، پیرۆزبایی، چاوڕۆشنی
 """),
-// With short examples define "greeting", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێک کە دەیکەیت بۆ خێراتن‌کردن یان سڵاوکردن لە کەسێک"""),
@@ -273,7 +272,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'D0x2dgpBDzc';
 const double _startSecondsend = 619;
 const String _videoIdone = '3GNjbAACqIY';

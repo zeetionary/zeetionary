@@ -147,12 +147,12 @@ ${englishMeaningConst.text}
 // """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕۆژی ٣١ ــی تشرینی یەکەم کە جاران وەها باوەڕ بوو کە مردووان لە گۆڕەکانیان دێنە دەرەوە و ئێستا لە ئەمریکا، کەنەدا، و بەریتانیا منداڵان یادی دەکەنەوە بە لەبەرکردنی جلی ترسناک"""),
+                            """١. (ناو) ڕۆژی ٣١ ــی تشرینی یەکەم کە جاران وەھا باوەڕ بوو کە مردووان لە گۆڕەکانیان دێنە دەرەوە و ئێستا لە ئەمریکا، کەنەدا، و بەریتانیا منداڵان یادی دەکەنەوە بە لەبەرکردنی جلی ترسناک"""),
                     SentencesRow(
                       englishText:
                           """Halloween is a popular holiday for children and adults.""",
                       kurdishText:
-                          """هاڵۆوین پشوویەکی بەناوبانگی منداڵان و پێگەشتووانە.""",
+                          """ھاڵۆوین پشوویەکی بەناوبانگی منداڵان و پێگەشتووانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -223,19 +223,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/fg8Cpl5PIRE?t=';
-const double _startSecondsend = 00000000000000000000000000037;
-const String _videoIdone = 'https://youtu.be/b0yONlMjxjs?t=';
-const double _startSecondsone = 00000000000000000000000000017;
-const String _videoIdtwo = 'https://youtu.be/yOsPrnRnTpk?t=';
-const double _startSecondstwo = 00000000000000000000000000055;
-const String _videoIdthree = 'https://youtu.be/zRXEcG-Oujk?t=';
-const double _startSecondsthree = 00000000000000000000000000096;
-const String _videoIdfour = 'https://youtu.be/mcZdTvOqmvI?t=';
-const double _startSecondsfour = 000000000000000000000000000960;
-const String _videoIdfive = 'https://youtu.be/0buEATF5M0A?t=';
-const double _startSecondsfive = 000000000000000000000000000310;
+const String _videoIdend = 'fg8Cpl5PIRE';
+const double _startSecondsend = 37;
+const String _videoIdone = 'b0yONlMjxjs';
+const double _startSecondsone = 17;
+const String _videoIdtwo = 'yOsPrnRnTpk';
+const double _startSecondstwo = 55;
+const String _videoIdthree = 'zRXEcG-Oujk';
+const double _startSecondsthree = 96;
+const String _videoIdfour = 'mcZdTvOqmvI';
+const double _startSecondsfour = 960;
+const String _videoIdfive = '0buEATF5M0A';
+const double _startSecondsfive = 310;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

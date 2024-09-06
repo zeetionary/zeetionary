@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێژ، سەرەوخواری، ڕادەی لێژی، ئاستی لێژایی
 """),
-// With short examples define "gradient", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) لێژایی لەسەر ڕێگا یان سکەی شەمەندەفەر"""),
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'SEZu7K5tGxw';
 const double _startSecondsend = 123;
 const String _videoIdone = 'TUfyUUauuoY';

@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕەندە، ڕەننە، کوشتەرا
 """),
-// With short examples define "grater", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەلوپەلێکی چێشتخانە کە بۆ وردکردنی خواردن بۆ بەشی زۆر بچووک بەکاردێت"""),
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'yeY60u1ocEU';
 const double _startSecondsend = 66;
 const String _videoIdone = '03IZk0AZaCk';

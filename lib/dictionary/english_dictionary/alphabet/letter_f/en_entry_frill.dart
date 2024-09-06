@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چین،	پەراوێزی چین‌چین یان چین‌دار،	(گیانەوەرناسی، ڕووەک‌ناسی) ڕیشکۆ، ڕیشوو،	(frills) شت‌ومەکی جوانی، شتی دێدی‌وبۆدی، گێزوگوڵنگ، دیکۆڕ،	زریقەوبریقە، ئالاوواڵا
 """),
-// With short examples define "frill", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) قوماشێکی تەسک کە قەدی زۆری تێدایە و بەستراوە بە قەراغی جلێک، پەردەیەک، ھتد بۆ جوانی"""),

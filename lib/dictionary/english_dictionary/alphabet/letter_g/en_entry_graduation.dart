@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەرچوون، لە خوێندن‌بوونەوە، چراغ‌بوون
 """),
-// With short examples define "graduation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەدەستھێنانی بڕوانامەی زانکۆ، یان تەواوکردنی خوێندنی ئامادەیی لە ئەمریکا"""),
@@ -259,7 +258,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'raSeaAeryWE';
 const double _startSecondsend = 289;
 const String _videoIdone = 'BNPPMs9CvDQ';

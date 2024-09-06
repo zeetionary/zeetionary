@@ -160,10 +160,9 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی: پیس، گڵاو، چەپەڵ، گەمار، چڵکن، ناحەز، ناشیرین، ناشایست
 """),
-// With short examples define "grubby", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کەمێک پیس بەهۆی ئەوەی نەشۆراوە یان پاکنەکراوە"""),
+                            """١. (ھاوەڵناو) کەمێک پیس بەھۆی ئەوەی نەشۆراوە یان پاکنەکراوە"""),
                     SentencesRow(
                       englishText: """My hands are a bit grubby.""",
                       kurdishText: """دەستەکانم کەمێک پیسن.""",
@@ -173,12 +172,12 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) ناخۆش بەهۆی ئەوەی چالاکی لەخۆ دەگرێت کە ئەخلاقی یان ڕاستگۆییانە نییە"""),
+                            """٢. (ھاوەڵناو) ناخۆش بەھۆی ئەوەی چالاکی لەخۆ دەگرێت کە ئەخلاقی یان ڕاستگۆییانە نییە"""),
                     SentencesRow(
                       englishText:
                           """She sees the business of making money as just grubby opportunism.""",
                       kurdishText:
-                          """کاری پارە پەیداکردن تەنها بە هەلقۆزتنەوەی چەپەڵانە دەبینێت.""",
+                          """کاری پارە پەیداکردن تەنھا بە ھەلقۆزتنەوەی چەپەڵانە دەبینێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -249,19 +248,18 @@ Usage: informal
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Tfb99MZlqKY?t=';
-const double _startSecondsend = 0000000000000000000000000001157;
-const String _videoIdone = 'https://youtu.be/qOY8F_ngNWI?t=';
-const double _startSecondsone = 000000000000000000000000000326;
-const String _videoIdtwo = 'https://youtu.be/oWVaIefXaBs?t=';
-const double _startSecondstwo = 000000000000000000000000000535;
-const String _videoIdthree = 'https://youtu.be/tCqwT2MqLxI?t=';
-const double _startSecondsthree = 000000000000000000000000000745;
-const String _videoIdfour = 'https://youtu.be/D6V85qfsu3g?t=';
-const double _startSecondsfour = 0000000000000000000000000001793;
-const String _videoIdfive = 'https://youtu.be/y9nBhv0lq1s?t=';
-const double _startSecondsfive = 00000000000000000000000000090;
+const String _videoIdend = 'Tfb99MZlqKY';
+const double _startSecondsend = 1157;
+const String _videoIdone = 'qOY8F_ngNWI';
+const double _startSecondsone = 326;
+const String _videoIdtwo = 'oWVaIefXaBs';
+const double _startSecondstwo = 535;
+const String _videoIdthree = 'tCqwT2MqLxI';
+const double _startSecondsthree = 745;
+const String _videoIdfour = 'D6V85qfsu3g';
+const double _startSecondsfour = 1793;
+const String _videoIdfive = 'y9nBhv0lq1s';
+const double _startSecondsfive = 90;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

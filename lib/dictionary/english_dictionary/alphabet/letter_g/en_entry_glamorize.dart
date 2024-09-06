@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "glamorize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەوەی شتێک بە جوان پیشان بدەیت، بە تایبەتی کە ناشرینە"""),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hzs4TLZySnQ';
 const double _startSecondsend = 140;
 const String _videoIdone = 'Kxp4BRlh9KQ';

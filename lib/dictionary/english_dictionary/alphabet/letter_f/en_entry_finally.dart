@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئاخر، پاشجار، ئاقیبەت، ئاخرسەر، لە کۆتایی‌دا، سەرەنجام
 """),
-// With short examples define "finally", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) لە دوای ماوەیەکی زۆر، بەتایبەتی لە دوای سەختی"""),

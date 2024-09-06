@@ -159,7 +159,6 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی: مرۆی گەوج و کەر، خەرەفاو و گێل، پەخمە
 """),
-// With short examples define "geek", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە زیرەکە، بەڵام بێزارکەرە، ئەو جلانە لەبەر دەکات کە باو نین، و نازانێت لە دۆخی کۆمەڵایەتیدا ڕەفتار بکات، ھتد"""),

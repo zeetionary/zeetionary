@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (شەترەنج) قوربانی،	جووڵانەوە یان ڕۆیشتنی لێکەوەدراو، زنجیرە بزاوت و جووڵانەوەیەکی داڕێژراو،	دەسپێکی قسە یان دوان
 """),
-// With short examples define "gambit", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێک کە کەسێک دەیکات، یان شتێک کە کەسێک دەیڵێت لە سەرەتای دۆخێک یان گفتوگۆیەک، کە ئامانج لێی ئەوەیە سوودی پێ بگەیەنێت"""),

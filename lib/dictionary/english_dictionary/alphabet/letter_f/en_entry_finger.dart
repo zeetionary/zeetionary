@@ -242,7 +242,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قامک، تلی، پەنجە، کلک، پیلک
 """),
-// With short examples define "finger", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پەنجەی دەست؛ ئەو بەشەی دەستکێش کە پەنجە دادەپۆشێت"""),

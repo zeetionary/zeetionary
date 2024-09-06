@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "guerrilla", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەندامێکی گرووپێکی بچووک لە چەکدار کە فەرمی نین و شەڕ دژ بە سوپایەکی فەرمی دەکەن، زۆرجار بۆ گۆڕی حکومەت"""),
@@ -169,7 +168,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Seven soldiers and two guerrillas were killed after an attack on a border post.""",
                       kurdishText:
-                          """حەوت سەرباز و دوو گەریلا کوژران لە دوای هێرش بۆ سەر خاڵێکی سنووری.""",
+                          """حەوت سەرباز و دوو گەریلا کوژران لە دوای ھێرش بۆ سەر خاڵێکی سنووری.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -261,19 +260,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/7EnWiGYT1g4?t=';
-const double _startSecondsend = 00000000000000000000000000047;
-const String _videoIdone = 'https://youtu.be/ZWBw2l1PnJE?t=';
-const double _startSecondsone = 000000000000000000000000000270;
-const String _videoIdtwo = 'https://youtu.be/myevSTkmGFw?t=';
-const double _startSecondstwo = 00000000000000000000000000023;
-const String _videoIdthree = 'https://youtu.be/4rH-6ojrXv0?t=';
-const double _startSecondsthree = 0000000000000000000000000003767;
-const String _videoIdfour = 'https://youtu.be/mY3SEMTROas?t=';
-const double _startSecondsfour = 000000000000000000000000000349;
-const String _videoIdfive = 'https://youtu.be/hRSGxw2AQnk?t=';
-const double _startSecondsfive = 000000000000000000000000000793;
+const String _videoIdend = '7EnWiGYT1g4';
+const double _startSecondsend = 47;
+const String _videoIdone = 'ZWBw2l1PnJE';
+const double _startSecondsone = 270;
+const String _videoIdtwo = 'myevSTkmGFw';
+const double _startSecondstwo = 23;
+const String _videoIdthree = '4rH-6ojrXv0';
+const double _startSecondsthree = 3767;
+const String _videoIdfour = 'mY3SEMTROas';
+const double _startSecondsfour = 349;
+const String _videoIdfive = 'hRSGxw2AQnk';
+const double _startSecondsfive = 793;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

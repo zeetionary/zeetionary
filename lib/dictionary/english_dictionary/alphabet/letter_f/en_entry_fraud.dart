@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کڵاولەسەرنان، دەسبڕی، فێڵ‌لێ‌کردن، گزی، تەڵەکە، ھەڵفریواندن، فریو، فریودان، لەخشتەبردن،	دەسبڕ، گوێبڕ، گزەون، فێڵباز
 """),
-// With short examples define "fraud", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تاوانی فێڵکردن بۆ دەستکەوتنی پارە یان کەلوپەل"""),

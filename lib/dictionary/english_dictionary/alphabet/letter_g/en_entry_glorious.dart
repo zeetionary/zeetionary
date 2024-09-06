@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەشکۆ گەورە، مەزن، شکۆدار، سەربەرز، شانازی‌یانە، سەربەرزانە،	جوان، خۆش،	(ھەوا) خۆش، خۆرکەوتوو، تاووبان، گەرم،	زۆر چاک، یەکجار باش
 """),
-// With short examples define "glorious", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە شایەنی سەرکەوتنی زۆرە، یان سەرکەوتنی زۆر دەھێنێت و کەسێک بەناوبانگ دەکات"""),
@@ -300,7 +299,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QLq6GEiHqR8';
 const double _startSecondsend = 143;
 const String _videoIdone = 'ewLpXw6uN28';

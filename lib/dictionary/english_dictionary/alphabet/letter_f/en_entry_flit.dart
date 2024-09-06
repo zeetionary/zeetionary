@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خۆدزینەوە، ھەڵاتن، بە دزی‌یەوە کۆچ کردن
 """),
-// With short examples define "flit", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) رۆشتن بە ھێواشی و خێرایی لە شوێنێکەوە بۆ یەکێکی دیکە"""),

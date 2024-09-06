@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خەساندن، پووچەڵ کردن، بێ ھیوا کردن
 """),
-// With short examples define "frustrate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) واکردنی ئەوەی کەسێک ھەست بە بێزاری یان بێ‌ئۆقرەیی بکات چونکە ناتوانێت ئەوە بکات کە دەیەوێت"""),

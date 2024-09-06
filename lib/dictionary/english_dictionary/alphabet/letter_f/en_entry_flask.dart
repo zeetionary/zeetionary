@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شووشەی تاقیگە،	کەمۆڵە، ساردوگەرم، فلاسک،	شووشە
 """),
-// With short examples define "flask", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شووشەیەک کە سەرەکەی تەسکە و لە تاقیگەی زانستی بۆ تێکەڵکردنی مادەی کیمیایی جیاواز بەکاردێت"""),

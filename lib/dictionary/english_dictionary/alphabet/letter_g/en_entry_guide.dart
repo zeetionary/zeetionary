@@ -314,7 +314,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕێبەر، بەڕێبەر، ڕێنوێن، ڕێ‌پیشاندەر، بەڵەد، ڕێزان، بەڕێدابەر، بەدرەقە،	ڕاوێژکار، شیرەتڤان،	کتێبی ڕێنوێنی، ڕێبەرنامە، کتێبی ڕێبواران
 """),
-// With short examples define "guide", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە ڕێنوێنی کەسانی دیکە، بە تایبەتی گەشتیاران، دەکات"""),
@@ -343,14 +342,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """His elder sister had been his guide, counsellor and friend.""",
                       kurdishText:
-                          """خوشکە گەورەکەی ڕێبەر، ڕاوێژکار، و هاوڕێی بوو.""",
+                          """خوشکە گەورەکەی ڕێبەر، ڕاوێژکار، و ھاوڕێی بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) کتێبێک، گۆڤارێک، ئەپێک، هتد کە زانیاری، ڕێنمایی، و یارمەتیت پێدەدات لەسەر شتێک"""),
+                            """٣. (ناو) کتێبێک، گۆڤارێک، ئەپێک، ھتد کە زانیاری، ڕێنمایی، و یارمەتیت پێدەدات لەسەر شتێک"""),
                     SentencesRow(
                       englishText:
                           """The book contains a quick reference guide to essential grammar at the back.""",
@@ -394,7 +393,7 @@ ${englishMeaningConst.text}
                             """٥. (ناو) شتێک کە لە بڕیاردان یارمەتیدەر دەبێت"""),
                     SentencesRow(
                       englishText: """I let my feelings be my guide.""",
-                      kurdishText: """ڕێگام دا هەستەکانم ڕێنیشاندەرم بن.""",
+                      kurdishText: """ڕێگام دا ھەستەکانم ڕێنیشاندەرم بن.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -412,7 +411,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """It should only be used as an approximate guide.""",
                       kurdishText:
-                          """دەبێت تەنها وەک بەرچاوڕوونییەکی نزیککراوە بەکاربێت.""",
+                          """دەبێت تەنھا وەک بەرچاوڕوونییەکی نزیککراوە بەکاربێت.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -449,7 +448,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """He was always guided by his religious beliefs.""",
-                      kurdishText: """هەمیشە بە باوەڕە ئایینییەکانی دەژیا.""",
+                      kurdishText: """ھەمیشە بە باوەڕە ئایینییەکانی دەژیا.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -470,7 +469,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Olson does a good job guiding the reader through the complex issues involved.""",
                       kurdishText:
-                          """ئۆلسن کارێکی ناوازە دەکات لە ڕوونکردنەوەی ئەو بابەتە ئاڵۆزانەی کە هەن بۆ خوێنەر.""",
+                          """ئۆلسن کارێکی ناوازە دەکات لە ڕوونکردنەوەی ئەو بابەتە ئاڵۆزانەی کە ھەن بۆ خوێنەر.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -575,19 +574,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
-const double _startSecondsend = 0000000000000000000000000001349;
-const String _videoIdone = 'https://youtu.be/ozsgl_sLnHQ?t=';
-const double _startSecondsone = 0000000000000000000000000001461;
-const String _videoIdtwo = 'https://youtu.be/DesEUpFgGrQ?t=';
-const double _startSecondstwo = 0000000000000000000000000002;
-const String _videoIdthree = 'https://youtu.be/D8gJTUTb_os?t=';
-const double _startSecondsthree = 000000000000000000000000000275;
-const String _videoIdfour = 'https://youtu.be/4zAkoXyhrdI?t=';
-const double _startSecondsfour = 000000000000000000000000000236;
-const String _videoIdfive = 'https://youtu.be/0rBEQjXg7Ak?t=';
-const double _startSecondsfive = 000000000000000000000000000181;
+const String _videoIdend = 'VrKW58MS12g';
+const double _startSecondsend = 1349;
+const String _videoIdone = 'ozsgl_sLnHQ';
+const double _startSecondsone = 1461;
+const String _videoIdtwo = 'DesEUpFgGrQ';
+const double _startSecondstwo = 2;
+const String _videoIdthree = 'D8gJTUTb_os';
+const double _startSecondsthree = 275;
+const String _videoIdfour = '4zAkoXyhrdI';
+const double _startSecondsfour = 236;
+const String _videoIdfive = '0rBEQjXg7Ak';
+const double _startSecondsfive = 181;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

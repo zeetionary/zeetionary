@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مووبژبوونەوە، موو قرژبوون، مووگرژی، قژھەستان، پەڕەمریشکە، وردەزیپکە، دەنکەدەنکەبوونی پێست
 """),
-// With short examples define "goosebumps", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە دەنکە دەنکی بچووک خاڵ لەسەر پێست دەردەکەوێت بەھۆی ئەوەی کە سەرماتە، ترساویت، یان بەجۆشیت"""),
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '21Z4RIOFhMA';
 const double _startSecondsend = 48;
 const String _videoIdone = 'PkUg89kLLBE';

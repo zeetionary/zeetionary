@@ -163,7 +163,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Guinea pigs need a covered area with bedding where they can shelter.""",
                       kurdishText:
-                          """گینی پیگ پێویستی بە ناوچەی داخراو هەیە بە جێخەوەوە کە تێیدا دەتوانن بمێننەوە.""",
+                          """گینی پیگ پێویستی بە ناوچەی داخراو ھەیە بە جێخەوەوە کە تێیدا دەتوانن بمێننەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -175,7 +175,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Students in fifty schools are to act as guinea pigs for these new teaching methods.""",
                       kurdishText:
-                          """قوتابیانی پەنجا قوتابخانە دەبنە بەشێک لە تاقیکردنەوەیەکی گرنگ بۆ هەڵسەنگاندنی ئەم ڕێگا نوێیانەی فێرکردن.""",
+                          """قوتابیانی پەنجا قوتابخانە دەبنە بەشێک لە تاقیکردنەوەیەکی گرنگ بۆ ھەڵسەنگاندنی ئەم ڕێگا نوێیانەی فێرکردن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -246,19 +246,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/YkmlPaGui5k?t=';
-const double _startSecondsend = 0000000000000000000000000001878;
-const String _videoIdone = 'https://youtu.be/A0sM6xVAY-A?t=';
-const double _startSecondsone = 000000000000000000000000000100;
-const String _videoIdtwo = 'https://youtu.be/8jb7XZ40pHo?t=';
-const double _startSecondstwo = 000000000000000000000000000574;
-const String _videoIdthree = 'https://youtu.be/p5ZMBc-Crn8?t=';
-const double _startSecondsthree = 000000000000000000000000000485;
-const String _videoIdfour = 'https://youtu.be/-7UzyXO-mzk?t=';
-const double _startSecondsfour = 000000000000000000000000000108;
-const String _videoIdfive = 'https://youtu.be/lB52Llbw_BQ?t=';
-const double _startSecondsfive = 00000000000000000000000000021;
+const String _videoIdend = 'YkmlPaGui5k';
+const double _startSecondsend = 1878;
+const String _videoIdone = 'A0sM6xVAY-A';
+const double _startSecondsone = 100;
+const String _videoIdtwo = '8jb7XZ40pHo';
+const double _startSecondstwo = 574;
+const String _videoIdthree = 'p5ZMBc-Crn8';
+const double _startSecondsthree = 485;
+const String _videoIdfour = '-7UzyXO-mzk';
+const double _startSecondsfour = 108;
+const String _videoIdfive = 'lB52Llbw_BQ';
+const double _startSecondsfive = 21;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

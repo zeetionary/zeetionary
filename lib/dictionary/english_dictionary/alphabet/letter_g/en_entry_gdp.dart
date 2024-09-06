@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "GDP", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تێکڕای بەرھەمی ناوخۆیی؛ تەواوی ئەو کەلووپەل و خزمەتگوزارییانەی کە لە ساڵێکدا لە لایەن وڵاتێکەوە بەرھەم ھاتوون"""),

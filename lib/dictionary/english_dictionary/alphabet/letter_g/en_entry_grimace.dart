@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: دەمەلاسکە، ئەدا، لاسایی، ئەدا و ئەتوار،	مۆن، گرژ، مڕومۆچ
 // """),
-// With short examples define "grimace", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەنجامدانێکی دەربڕینێکی ناشرین بە ڕووخسارت بۆ پیشاندانی ئازار، حەز نەکردن لە شتێک، ھتد"""),
@@ -260,7 +259,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'NA3z2_nFxtw';
 const double _startSecondsend = 227;
 const String _videoIdone = 'VPYhem4GRGY';

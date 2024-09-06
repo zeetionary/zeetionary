@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: یەکجار، بە شێوەیێکی بەرچاو، بە سامەوە، بە ئەندێشەوە، بە شێوەیەکی سەخت
 """),
-// With short examples define "formidably", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە شتێک وات لێ دەکا ھەست بە ترس و ڕێز بکەیت بەھۆی ئەوەی کە ناوازە یان بەھێزە، یان بەھۆی ئەوەی سەخت دیارە"""),

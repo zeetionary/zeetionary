@@ -298,7 +298,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خۆش، شاد، خۆش‌حاڵ، دڵ‌خۆش، دڵ‌فەرێح، بەکەیف، کەیف‌خۆش، ڕازی، قایل، پێ‌خۆشبوو،	بەختەوەر، چاوڕۆشن، بەبەخت، بەختیار،	پیرۆز، مەبارەک،	بەڕێ‌وجێ، بەجێ، گونجاو
 """),
-// With short examples define "happy", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) دڵخۆش"""),
                     SentencesRow(
                       englishText: """You don't look very happy today.""",
@@ -309,14 +308,14 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He always seemed happy enough.""",
-                      kurdishText: """هەمیشە بەشی پێویست دڵخۆش دیار بوو.""",
+                      kurdishText: """ھەمیشە بەشی پێویست دڵخۆش دیار بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I've never felt so happy.""",
-                      kurdishText: """هەرگیز هێندە دڵخۆش نەبوومە.""",
+                      kurdishText: """ھەرگیز ھێندە دڵخۆش نەبوومە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -351,10 +350,10 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ھاوەڵناو) کە دەبێتە هۆکاری دڵخۆشی"""),
+                        text: """٢. (ھاوەڵناو) کە دەبێتە ھۆکاری دڵخۆشی"""),
                     SentencesRow(
                       englishText: """She had a very happy life.""",
-                      kurdishText: """ژیانێکی زۆر خۆشی هەبوو.""",
+                      kurdishText: """ژیانێکی زۆر خۆشی ھەبوو.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -362,14 +361,14 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """I have many happy memories from that time.""",
-                      kurdishText: """زۆر یادەوەری خۆشی ئەو کاتەم هەیە.""",
+                      kurdishText: """زۆر یادەوەری خۆشی ئەو کاتەم ھەیە.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The story has a happy ending.""",
-                      kurdishText: """چیرۆکەکە کۆتاییەکی خۆشی هەیە.""",
+                      kurdishText: """چیرۆکەکە کۆتاییەکی خۆشی ھەیە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -384,7 +383,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) خواستنی هیوای بۆنەیەکی خۆش بۆ کەسێک"""),
+                            """٣. (ناو) خواستنی ھیوای بۆنەیەکی خۆش بۆ کەسێک"""),
                     SentencesRow(
                       englishText: """Happy Birthday!""",
                       kurdishText: """ڕۆژی لە دایکبوونت پیرۆز!""",
@@ -413,7 +412,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I said I'd go just to keep him happy.""",
-                      kurdishText: """گوتم دەچم تەنها بۆ ئەوەی دڵخۆشێ بکەم.""",
+                      kurdishText: """گوتم دەچم تەنھا بۆ ئەوەی دڵخۆشێ بکەم.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -429,7 +428,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """If there's anything you're not happy about, come and ask.""",
                       kurdishText:
-                          """ئەگەر هەر شتێک هەیە پێی دڵخۆش نیت، وەرە و بپرسە.""",
+                          """ئەگەر ھەر شتێک ھەیە پێی دڵخۆش نیت، وەرە و بپرسە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -456,7 +455,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We'd be only too happy to accept your invitation.""",
                       kurdishText:
-                          """زۆر دڵخۆش دەبین بانگهێشتەکەت پەسەند بکەین.""",
+                          """زۆر دڵخۆش دەبین بانگھێشتەکەت پەسەند بکەین.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
@@ -467,7 +466,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """By a happy coincidence, we arrived at exactly the same time.""",
                       kurdishText:
-                          """بە ڕێکەوتێکی بەبەختانە، ڕێک لە هەمان کاتدا گەشتین.""",
+                          """بە ڕێکەوتێکی بەبەختانە، ڕێک لە ھەمان کاتدا گەشتین.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -538,19 +537,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
-const double _startSecondsend = 000000000000000000000000000423;
-const String _videoIdone = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondsone = 000000000000000000000000000434;
-const String _videoIdtwo = 'https://youtu.be/hS2x1zl4rn0?t=';
-const double _startSecondstwo = 000000000000000000000000000169;
-const String _videoIdthree = 'https://youtu.be/HDntl7yzzVI?t=';
-const double _startSecondsthree = 0000000000000000000000000001787;
-const String _videoIdfour = 'https://youtu.be/wizgxRBfVTY?t=';
-const double _startSecondsfour = 00000000000000000000000000097;
-const String _videoIdfive = 'https://youtu.be/DPZzrlFCD_I?t=';
-const double _startSecondsfive = 000000000000000000000000000289;
+const String _videoIdend = 'VrKW58MS12g';
+const double _startSecondsend = 423;
+const String _videoIdone = 'hTqtGJwsJVE';
+const double _startSecondsone = 434;
+const String _videoIdtwo = 'hS2x1zl4rn0';
+const double _startSecondstwo = 169;
+const String _videoIdthree = 'HDntl7yzzVI';
+const double _startSecondsthree = 1787;
+const String _videoIdfour = 'wizgxRBfVTY';
+const double _startSecondsfour = 97;
+const String _videoIdfive = 'DPZzrlFCD_I';
+const double _startSecondsfive = 289;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

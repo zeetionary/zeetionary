@@ -213,7 +213,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دانەوێڵە، پەتڵە، دڕکەدو، دغڵ، دەغڵ‌ودان، وشکەدان، وردەدان، دانوو، دەنک، دان، تۆو، توو،	جۆیێ، بڕێ، بڕێکی زۆر کەم،	(دار) بار یان دۆخی ڕەگ، باری ڕەگە، باری ڕیشاڵ،	(بەرد) ڕەگە، دەمار، چین،	ڕەنگ(جێگیر یان کاڵەوەنەبوو)، خۆڕەنگ،	(خوازە) سروشت، بار، دۆخ، وەزع،	ناڕێکی یان زبر و چرچی دیوی دەرەوەی چەرم،	گەنم، گەنمە، دەنک
 """),
-// With short examples define "grain", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەنکە تۆوی ھەندێک خواردنی وەک گەنم، برنج، ھتد"""),
@@ -341,7 +340,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Op7Ii3ikfSk';
 const double _startSecondsend = 0;
 const String _videoIdone = '0dtBjqIu5W8';

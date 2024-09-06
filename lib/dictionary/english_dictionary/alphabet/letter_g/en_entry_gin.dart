@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەڵە، داو، تەپکە،	چیکەنە، جیکەنە
 """),
-// With short examples define "gin", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەکی کحوولی کە کە لە گەنم درووستکراوە و تووی مۆری بۆ زیادکراوە؛ گڵاسێک لەم خواردنەوەیە"""),
@@ -233,7 +232,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tsxmyL7TUJg';
 const double _startSecondsend = 183;
 const String _videoIdone = 'qg2nGY1aqlg';

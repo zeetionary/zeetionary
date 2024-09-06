@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "glossary", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لیستێک کە ژمارەیەک وشەی تەکنیکی و تایبەتی تێدایە و واتاکانیان ڕوون دەکاتەوە"""),
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'ersq3x0xFM4';
 const double _startSecondsend = 553;
 const String _videoIdone = 'uq4Vi8PyBFM';

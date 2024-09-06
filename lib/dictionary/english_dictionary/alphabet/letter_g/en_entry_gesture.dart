@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرودەست ڕاتڵەکاندن، سەرودەس‌لەقاندن، دەست‌تەکان‌دان، پەلەفرتە، پەلەفرتکە، خۆتەکان‌دان، ھێما، ئاماژە، نیشانە
 """),
-// With short examples define "gesture", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جووڵەیەک کە بە دەست، سەرت، یان ڕووخسارت دەیکەیت کە واتایەکی دیاریکراوی ھەیە"""),
@@ -313,7 +312,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'dtp6b76pMak';
 const double _startSecondsend = 1992;
 const String _videoIdone = '8FpPSMIB4uA';

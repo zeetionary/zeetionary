@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کێشانەوەی دیواری، دیوارکێشی، لەسەردیوار کێشانەوە، دیوارنەخشێنی
 """),
-// With short examples define "fresco", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) وێنەیەک کە لەسەر دیوارێک دەکێشرێت لە کاتێکدا ھێشتا پلاستەری سەر دیوارەکە تەڕە"""),

@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لۆ، ھەودا، داو، دەزوو، دەزوولە، تاڵ، چڵ،	سیم، وایەر، تاڵ، ڕیشاڵە، ڕشتە
 """),
-// With short examples define "filament", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) وایەرێکی باریک لە گڵۆپێکدا کە ڕووناکی درووست دەکات کاتێک ڕووناکی پێیدا دەچێت"""),

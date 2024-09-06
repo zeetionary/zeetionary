@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پیسی، دژوێنی، چڵک، چەپەڵی، گەماری، ناخاوێنی، چڵکنی،	جنێو، قسەی ساردوسووک، قسەی ھەرزانە،	ناشیرینی، ناحەزی، ھەرزەیی
 """),
-// With short examples define "filth", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ھەر مادەیەکی پیسی قێزەون"""),
                     SentencesRow(

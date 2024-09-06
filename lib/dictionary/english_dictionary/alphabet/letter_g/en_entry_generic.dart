@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گشت، ناتایبەتی، گشتی، گشتگرەوە، ھەمەکی، بۆ ھەموو، بۆ گشت، تێکڕایی،	ناوی گشت(ی)، گشتەنێو،	(زیندەناسی) سەربە ڕەگەز یان توخم، توخمی، ڕەگەزی
 """),
-// With short examples define "generic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە تەواوی گرووپێک لە شت ھەیەتی یان پەیوەندیدارن پێوەی"""),
@@ -296,7 +295,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'JCcl--4PhF4';
 const double _startSecondsend = 722;
 const String _videoIdone = 'QRpDIdPFUXg';

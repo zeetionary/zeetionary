@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێچوو، ڕەقەڵ، مردەڵە، کزەڵۆک، بنێس، لاواز،	وشک‌وبرنگ، بێ‌ئاو، قاقڕ، ڕووت، چۆڵگە، کەلاوە
 """),
-// With short examples define "gaunt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کەسێکی زۆر لاواز، زۆرجار بەھۆی نەخۆشی، کەم‌خۆراکی، یان نیگەرانی"""),

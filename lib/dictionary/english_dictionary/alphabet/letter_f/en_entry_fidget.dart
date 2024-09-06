@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مرۆی ئارام‌لێ‌ھەڵگیراو، ژان‌کردوو، حەجمین‌لێ‌بڕاو، بزێو، بەجرت‌وفرت، جرپن، جرت‌وفرت، جرپەجرپ، پەلەپڕووزێ، پەلەپڕووزە، پەلەفرتێ، پەلەفرتە، ژان‌کردوویی، ئارام‌لێھەڵگیراوی
 """),
-// With short examples define "fidget", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەوەی بەردەوام دەستت، لاقت، یان پێت بجووڵێنیت بەھۆی ئەوەی شڵەژاویت، بێزاریت، ھتد"""),

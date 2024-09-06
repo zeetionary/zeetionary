@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قارەمانی، نەبەزی، دلێری، نەبەردی، نەبەردایەتی، شێرکرۆژی، کۆڵنەدەری، ئازایەتی،	(پیاو بۆ ژن) سەرنج‌ڕاکێشی، شۆخ‌وشەنگی،	ڕەوشت، تۆرە، ماریفەت
 """),
-// With short examples define "gallantry", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بوێری، بە تایبەتی لە جەنگدا"""),
                     SentencesRow(

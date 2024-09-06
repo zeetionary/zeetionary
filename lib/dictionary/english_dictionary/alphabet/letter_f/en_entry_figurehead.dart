@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "figurehead", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە لە ئاستی باڵایە لە وڵات یان دامەزراوەیەک بەڵام ھیچ دەسەڵاتی نییە"""),

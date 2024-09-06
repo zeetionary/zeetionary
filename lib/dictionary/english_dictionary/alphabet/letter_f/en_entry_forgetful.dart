@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لەبیربەرەوە، فەرامۆش‌کار، کەمیاد، کەم‌ھۆش، بێ‌بیر،	کەمتەرخەم، گوێ‌پێنەدەر، نادرەبەست، بێ‌خەیاڵ
 """),
-// With short examples define "forgetful", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە زوو شتی بیردەچێت"""),
                     SentencesRow(

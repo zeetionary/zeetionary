@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جینۆساید، کۆمەڵ‌کوژی، کۆکوژی، تەڤکوژی، قڕکردنی گشتی، کۆمەڵ‌قڕان
 """),
-// With short examples define "genocide", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کوشتنی بە کۆمەڵی نەتەوەیەکی دیاریکراو یان گرووپێکی ئیتنیکی بە ئامانجی لەناوبردن"""),
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'kBdfcR-8hEY';
 const double _startSecondsend = 216;
 const String _videoIdone = '05MFLsdM35U';

@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "financial", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) پەیوەندیدار بە پارە و دارایی"""),
                     SentencesRow(

@@ -146,12 +146,11 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕووترش، مۆن، مڕومۆچ، گرژ، ڕووناخۆش، بەدخوو، تووڕە، ڕووتاڵ
 """),
-// With short examples define "grumpy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە ئاسان تووڕە دەبێت"""),
                     SentencesRow(
                       englishText: """Why are you so grumpy today?""",
-                      kurdishText: """بۆ ئەمڕۆ هێندە ڕووترشیت؟""",
+                      kurdishText: """بۆ ئەمڕۆ ھێندە ڕووترشیت؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -222,19 +221,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/-UKaaEvH7uI?t=';
-const double _startSecondsend = 000000000000000000000000000426;
-const String _videoIdone = 'https://youtu.be/WWEGWathsPc';
+const String _videoIdend = '-UKaaEvH7uI';
+const double _startSecondsend = 426;
+const String _videoIdone = 'WWEGWathsPc';
 const double _startSecondsone = 0;
-const String _videoIdtwo = 'https://youtu.be/4hG9wI5-_Lc?t=';
-const double _startSecondstwo = 000000000000000000000000000285;
-const String _videoIdthree = 'https://youtu.be/Nfl9KgjWpiw?t=';
-const double _startSecondsthree = 000000000000000000000000000308;
-const String _videoIdfour = 'https://youtu.be/6BTJ7feX0aQ?t=';
-const double _startSecondsfour = 00000000000000000000000000072;
-const String _videoIdfive = 'https://youtu.be/FnBniAE2wiE?t=';
-const double _startSecondsfive = 000000000000000000000000000493;
+const String _videoIdtwo = '4hG9wI5-_Lc';
+const double _startSecondstwo = 285;
+const String _videoIdthree = 'Nfl9KgjWpiw';
+const double _startSecondsthree = 308;
+const String _videoIdfour = '6BTJ7feX0aQ';
+const double _startSecondsfour = 72;
+const String _videoIdfive = 'FnBniAE2wiE';
+const double _startSecondsfive = 493;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

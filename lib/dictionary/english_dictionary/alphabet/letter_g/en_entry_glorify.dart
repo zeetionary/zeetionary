@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: شکۆدارکردن، ڕێز لێگرتن، بەرز نرخاندن
 // """),
-// With short examples define "glorify", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەوەی شتێک بە باشتر یان گرنگتر پیشان بدرێت وەک لەوەی لە ڕاستیدا وایە"""),
@@ -283,7 +282,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'DEDAjw9Ljrw';
 const double _startSecondsend = 338;
 const String _videoIdone = 'P-SEulc_5vE';

@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قارەمانانە، کۆڵنەدەرانە، نەبەردانە، نەبەزانە
 """),
-// With short examples define "gallantly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بوێرانە؛ پاڵەوانانە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: heroically"),

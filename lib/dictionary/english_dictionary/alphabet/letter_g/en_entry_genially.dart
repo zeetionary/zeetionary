@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕووخۆشانە، بە ڕووخۆشی‌یەوە
 """),
-// With short examples define "genially", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە دۆستانە و دڵخۆش"""),
                     const AlsoEnglishckb(word: "ھەروەھا: affably"),
@@ -236,7 +235,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '-nmNaja6K5k';
 const double _startSecondsend = 376;
 const String _videoIdone = '6_z_lUNPDE8';

@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەستێنەر، جێ‌سەھۆڵ، بەستنگە، فریزەر
 """),
-// With short examples define "freezer", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ئامێرێکی گەورەی کارەبایی کە دەتوانیت خواردنی تێدا ھەڵبگریت بۆ ئەوەی بە بەستووی بمێنێتەوە"""),

@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەسەوانە، دەسکێش (لە زرێ یان کانزا)، دەسکێشی قۆڵچاخی، دەسەوانەی ئاسنین
 """),
-// With short examples define "gauntlet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەستکێشی ئاسنی کە وەک بەشێک لە جلی سەربازی بەکاردەھات لە سەدەکانی ناوەڕاست؛ دەستکێشێکی کە دەست و مەچەک دەپارێزێت"""),

@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: (کولین) ئاورگ، ئاگردان، مەنقەڵ، ناوگۆڕک، کوورە، کوورەی دیواری،	ڕەندە، کوشتەرا،	تۆڕ، پەنجێرە،	زیندان، بەندی‌خانە،	دەنگی لێک‌کەوتن، زرنگەزرنگ
 // """),
-// With short examples define "grate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچەیەکی ئاسنین کە لە ئاگردانێک دارەکە ڕادەگرێت"""),
@@ -339,7 +338,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '7j5ul4XBjAI';
 const double _startSecondsend = 23;
 const String _videoIdone = 'hQT7PN4Tzsg';

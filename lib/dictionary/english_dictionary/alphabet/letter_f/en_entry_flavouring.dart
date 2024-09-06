@@ -143,7 +143,6 @@ Usage: Brit, Cdn (US: flavoring)
                     const KurdishVocabulary(text: """
 کوردی: بەھارات، کاری، ھەزوێلە، بۆن(یا تام)خۆشکەر
 """),
-// With short examples define "flavouring", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەک کە دەکرێتە خواردن یان خواردنەوە بۆ پێدانی تام"""),

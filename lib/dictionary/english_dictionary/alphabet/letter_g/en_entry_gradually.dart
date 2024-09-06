@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: وردەوردە، بە شێنەیی، وردە وردە
 """),
-// With short examples define "gradually", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە ھێواشە و بە ماوەیەکی درێژ ڕوودەدات"""),
@@ -253,7 +252,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'ewLpXw6uN28';
 const double _startSecondsend = 1519;
 const String _videoIdone = 'kGg44zdgHYM';

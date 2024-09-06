@@ -164,17 +164,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: خۆف‌کردن، خۆفاوی، وەهم‌کردن، خەیاڵ‌بردنەوە، هەلوەسە، خەیاڵ، شپەستانی، هەڵەی هەست، بیربڵای، خەیاڵاوی، 
+کوردی: خۆف‌کردن، خۆفاوی، وەھم‌کردن، خەیاڵ‌بردنەوە، ھەلوەسە، خەیاڵ، شپەستانی، ھەڵەی ھەست، بیربڵای، خەیاڵاوی، 
 """),
-// With short examples define "hallucination", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەوەی کە وادیار بێت شتێک دەبیستیت یان گوێت لێی دەبێت بەبێ ئەوەی لە ڕاستیدا وابێت، بە تایبەتی بەهۆی نەخۆشی، یان مادەی هۆشبەر"""),
+                            """١. (ناو) ئەوەی کە وادیار بێت شتێک دەبیستیت یان گوێت لێی دەبێت بەبێ ئەوەی لە ڕاستیدا وابێت، بە تایبەتی بەھۆی نەخۆشی، یان مادەی ھۆشبەر"""),
                     SentencesRow(
                       englishText:
                           """High temperatures can cause hallucination.""",
                       kurdishText:
-                          """پلەی گەرمی بەرز دەکرێت ببێتە هۆکاری خەیاڵاوی.""",
+                          """پلەی گەرمی بەرز دەکرێت ببێتە ھۆکاری خەیاڵاوی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -183,7 +182,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She was admitted to hospital suffering from hallucinations.""",
                       kurdishText:
-                          """بردرا بۆ نەخۆشخانە بەهۆی ئەوەی خۆفاوی بووبوو.""",
+                          """بردرا بۆ نەخۆشخانە بەھۆی ئەوەی خۆفاوی بووبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -265,19 +264,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/8eq2vGEEbB4?t=';
-const double _startSecondsend = 000000000000000000000000000175;
-const String _videoIdone = 'https://youtu.be/HgbxUMx3JWA?t=';
-const double _startSecondsone = 00000000000000000000000000059;
-const String _videoIdtwo = 'https://youtu.be/S3ksC_8jGuc?t=';
-const double _startSecondstwo = 000000000000000000000000000369;
-const String _videoIdthree = 'https://youtu.be/Sbp_EeBk-As?t=';
-const double _startSecondsthree = 000000000000000000000000000345;
-const String _videoIdfour = 'https://youtu.be/y4DTW4B3Sjs?t=';
-const double _startSecondsfour = 0000000000000000000000000001243;
-const String _videoIdfive = 'https://youtu.be/n7WH7A2v7OU?t=';
-const double _startSecondsfive = 000000000000000000000000000183;
+const String _videoIdend = '8eq2vGEEbB4';
+const double _startSecondsend = 175;
+const String _videoIdone = 'HgbxUMx3JWA';
+const double _startSecondsone = 59;
+const String _videoIdtwo = 'S3ksC_8jGuc';
+const double _startSecondstwo = 369;
+const String _videoIdthree = 'Sbp_EeBk-As';
+const double _startSecondsthree = 345;
+const String _videoIdfour = 'y4DTW4B3Sjs';
+const double _startSecondsfour = 1243;
+const String _videoIdfive = 'n7WH7A2v7OU';
+const double _startSecondsfive = 183;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

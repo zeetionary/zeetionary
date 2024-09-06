@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەسبڕ، گوێبڕ، فریودەرانە، لەخشتەبەرانە،	ساختە، درۆ، قەڵب،	ناڕەوا، حەرام
 """),
-// With short examples define "fraudulent", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە ئامانج لێی فێڵکردنە لە کەسێک"""),

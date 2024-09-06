@@ -144,12 +144,11 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "hailstorm", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) زریانێک کە تەرزەی لەگەڵە"""),
                     SentencesRow(
                       englishText: """Hailstorms are more common in summer.""",
-                      kurdishText: """باوبۆرانی بەتەرزە لە هاویندا باون.""",
+                      kurdishText: """باوبۆرانی بەتەرزە لە ھاویندا باون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -220,19 +219,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/r9PPgAvXkEY?t=';
-const double _startSecondsend = 000000000000000000000000000608;
-const String _videoIdone = 'https://youtu.be/UvjSXBqQe4A?t=';
-const double _startSecondsone = 000000000000000000000000000463;
-const String _videoIdtwo = 'https://youtu.be/IctC0Quf8zc?t=';
-const double _startSecondstwo = 00000000000000000000000000010;
-const String _videoIdthree = 'https://youtu.be/c4WRit8P6SE?t=';
-const double _startSecondsthree = 000000000000000000000000000366;
-const String _videoIdfour = 'https://youtu.be/uhZW4Rofa3Y?t=';
-const double _startSecondsfour = 000000000000000000000000000604;
-const String _videoIdfive = 'https://youtu.be/tcS12SsftMs?t=';
-const double _startSecondsfive = 00000000000000000000000000066;
+const String _videoIdend = 'r9PPgAvXkEY';
+const double _startSecondsend = 608;
+const String _videoIdone = 'UvjSXBqQe4A';
+const double _startSecondsone = 463;
+const String _videoIdtwo = 'IctC0Quf8zc';
+const double _startSecondstwo = 10;
+const String _videoIdthree = 'c4WRit8P6SE';
+const double _startSecondsthree = 366;
+const String _videoIdfour = 'uhZW4Rofa3Y';
+const double _startSecondsfour = 604;
+const String _videoIdfive = 'tcS12SsftMs';
+const double _startSecondsfive = 66;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

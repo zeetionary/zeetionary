@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پتەوانە، قایم، شێلگیرانە، لێبڕاوانە
 """),
-// With short examples define "firmly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بەشێوەیەکی بەھێز و نەگۆڕ"""),
                     SentencesRow(

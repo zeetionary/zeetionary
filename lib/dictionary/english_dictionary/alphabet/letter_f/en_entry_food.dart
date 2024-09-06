@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خۆراک، چێشت، نان، پفە (بە زمانی مناڵان)، خواردەمەنی
 """),
-// With short examples define "food", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەو شتانەی خەڵکی دەیانخۆن"""),
                     SentencesRow(

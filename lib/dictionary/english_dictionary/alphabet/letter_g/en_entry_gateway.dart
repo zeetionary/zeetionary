@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەروازە، دەرکە، درگا،	ڕێگا، ژوورگە، گوزەر، ڕێڕەو،	کلیل، ڕێگای گەیشتن بە، مایەی بەدەس‌ھێنانی شتێ
 """),
-// With short examples define "gateway", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کرانەوەیەک لە دیوارێک یان پەرژینێک کە دەکرێت بە دەرگایەک بگیرێت"""),

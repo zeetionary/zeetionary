@@ -151,7 +151,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Hardboard is a durable and affordable building material.""",
                       kurdishText:
-                          """تەختەڕەق مادەیەکی بەرگەگرتوو و هەرزانە.""",
+                          """تەختەڕەق مادەیەکی بەرگەگرتوو و ھەرزانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -222,19 +222,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/MoO2nhdfnVU?t=';
-const double _startSecondsend = 000000000000000000000000000811;
-const String _videoIdone = 'https://youtu.be/U2BB2Jwt9v8?t=';
-const double _startSecondsone = 00000000000000000000000000010;
-const String _videoIdtwo = 'https://youtu.be/53rtu1wmoAc?t=';
-const double _startSecondstwo = 0000000000000000000000000001318;
-const String _videoIdthree = 'https://youtu.be/PcrTKmO6ttA?t=';
-const double _startSecondsthree = 000000000000000000000000000398;
-const String _videoIdfour = 'https://youtu.be/c_Zipc9MGmo?t=';
-const double _startSecondsfour = 0000000000000000000000000001173;
-const String _videoIdfive = 'https://youtu.be/kjZ3q5vuomk?t=';
-const double _startSecondsfive = 000000000000000000000000000174;
+const String _videoIdend = 'MoO2nhdfnVU';
+const double _startSecondsend = 811;
+const String _videoIdone = 'U2BB2Jwt9v8';
+const double _startSecondsone = 10;
+const String _videoIdtwo = '53rtu1wmoAc';
+const double _startSecondstwo = 1318;
+const String _videoIdthree = 'PcrTKmO6ttA';
+const double _startSecondsthree = 398;
+const String _videoIdfour = 'c_Zipc9MGmo';
+const double _startSecondsfour = 1173;
+const String _videoIdfive = 'kjZ3q5vuomk';
+const double _startSecondsfive = 174;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

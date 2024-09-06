@@ -277,7 +277,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گاز،	ھەڵم،	گازی بێھۆش‌کەر، گازی سڕکەر،	گازی ژاراوی،	(لەئەمریکا) بێنزین، بەنزین، قسەی قۆڕ، فڵتە، لاف،	باوبژ، تڕوتس، بای ناوزگ
 """),
-// With short examples define "gas", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەک کە ڕەق یان شل نییە، بۆ نموونە ئۆکسجین و ھایدرۆجین"""),

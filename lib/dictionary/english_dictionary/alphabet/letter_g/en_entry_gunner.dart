@@ -146,7 +146,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) سەربازێک کە ڕاهێنانی لەسەر چەکی گەورە پێکراوە یان لە تۆپخانەیە"""),
+                            """١. (ناو) سەربازێک کە ڕاھێنانی لەسەر چەکی گەورە پێکراوە یان لە تۆپخانەیە"""),
                     SentencesRow(
                       englishText: """The tank’s gunner fired at the enemy.""",
                       kurdishText: """تۆپاوێژی دەبابەکە تەقەی لە دوژمن کرد.""",
@@ -220,19 +220,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/yHC0mmU-RNI?t=';
-const double _startSecondsend = 000000000000000000000000000199;
-const String _videoIdone = 'https://youtu.be/4Nr1AgIfajI?t=';
-const double _startSecondsone = 000000000000000000000000000433;
-const String _videoIdtwo = 'https://youtu.be/9bPIaHg11mI?t=';
-const double _startSecondstwo = 000000000000000000000000000761;
-const String _videoIdthree = 'https://youtu.be/qW_ThmMnZI0?t=';
-const double _startSecondsthree = 000000000000000000000000000343;
-const String _videoIdfour = 'https://youtu.be/4mjvZrLnlCg?t=';
-const double _startSecondsfour = 0000000000000000000000000001012;
-const String _videoIdfive = 'https://youtu.be/k_LjfwrMr9I?t=';
-const double _startSecondsfive = 00000000000000000000000000039;
+const String _videoIdend = 'yHC0mmU-RNI';
+const double _startSecondsend = 199;
+const String _videoIdone = '4Nr1AgIfajI';
+const double _startSecondsone = 433;
+const String _videoIdtwo = '9bPIaHg11mI';
+const double _startSecondstwo = 761;
+const String _videoIdthree = 'qW_ThmMnZI0';
+const double _startSecondsthree = 343;
+const String _videoIdfour = '4mjvZrLnlCg';
+const double _startSecondsfour = 1012;
+const String _videoIdfive = 'k_LjfwrMr9I';
+const double _startSecondsfive = 39;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

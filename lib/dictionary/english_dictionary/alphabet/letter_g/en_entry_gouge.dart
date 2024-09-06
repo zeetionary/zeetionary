@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gouge", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) کونکردن یان بڕینی شتێک بە شتێکی تیژ"""),
@@ -305,7 +304,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'EmT0i0xG6zg';
 const double _startSecondsend = 2821;
 const String _videoIdone = 'cmSphKD18uo';

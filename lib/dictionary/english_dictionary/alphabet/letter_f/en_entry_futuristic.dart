@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: داھاتووگەری‌یانە، داھاتووخوازی‌یانە
 """),
-// With short examples define "futuristic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) سەردەمییانە وەک ئەوەی سەر بە داھاتوو بێت"""),

@@ -187,9 +187,8 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: دەربڕینی ناڕەزایەتی، گلەیی، گازندە، گلەیی و گناشت، کزەونزە، ئاهـ و ناڵە، سکاڵا،	بۆڵەبۆڵ، خوتەخوت، پرتەوبۆڵە،	گرمە، گرماندن، شریخە،	قۆڕەی زگ، قۆڕەقۆڕە،	مزەمز، نووکەنووک، کورکەکورک
+کوردی: دەربڕینی ناڕەزایەتی، گلەیی، گازندە، گلەیی و گناشت، کزەونزە، ئاھـ و ناڵە، سکاڵا،	بۆڵەبۆڵ، خوتەخوت، پرتەوبۆڵە،	گرمە، گرماندن، شریخە،	قۆڕەی زگ، قۆڕەقۆڕە،	مزەمز، نووکەنووک، کورکەکورک
 """),
-// With short examples define "grumble", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ناڕەزایی دەربڕین لەسەر شتێک، بە تایبەتی کە زۆر گرنگ نییە"""),
@@ -197,7 +196,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She's always grumbling to me about how badly she's treated at work.""",
                       kurdishText:
-                          """هەمیشە بۆڵەیەتی لام کە چەندە لەسەر کار خراپ مامەڵەی لەگەڵ دەکرێت.""",
+                          """ھەمیشە بۆڵەیەتی لام کە چەندە لەسەر کار خراپ مامەڵەی لەگەڵ دەکرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -215,7 +214,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: rumble"),
                     SentencesRow(
                       englishText: """Thunder grumbled in the distance.""",
-                      kurdishText: """چەخماخە لە دوورەوە گرمەی دەهات.""",
+                      kurdishText: """چەخماخە لە دوورەوە گرمەی دەھات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -226,7 +225,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Her mother had a grumble at her for not tidying up the mess.""",
                       kurdishText:
-                          """دایکی ناڕەزایی هەبوو لێی بەوەی شپرزەییەکەی پاکنەدەکردەوە.""",
+                          """دایکی ناڕەزایی ھەبوو لێی بەوەی شپرزەییەکەی پاکنەدەکردەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -237,7 +236,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """There was a distant grumble of thunder.""",
-                      kurdishText: """گرمەیەکی دووری چەخماخە دەهات.""",
+                      kurdishText: """گرمەیەکی دووری چەخماخە دەھات.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -308,19 +307,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/BviMoX3EtWc?t=';
-const double _startSecondsend = 000000000000000000000000000141;
-const String _videoIdone = 'https://youtu.be/4AOcWV-pvPQ?t=';
-const double _startSecondsone = 000000000000000000000000000140;
-const String _videoIdtwo = 'https://youtu.be/UZwXCr2BorQ?t=';
-const double _startSecondstwo = 00000000000000000000000000084;
-const String _videoIdthree = 'https://youtu.be/U7BNCEpR4Jo?t=';
-const double _startSecondsthree = 000000000000000000000000000527;
-const String _videoIdfour = 'https://youtu.be/rNVLslEGLV4?t=';
-const double _startSecondsfour = 000000000000000000000000000179;
-const String _videoIdfive = 'https://youtu.be/15NZsol35Dg?t=';
-const double _startSecondsfive = 000000000000000000000000000178;
+const String _videoIdend = 'BviMoX3EtWc';
+const double _startSecondsend = 141;
+const String _videoIdone = '4AOcWV-pvPQ';
+const double _startSecondsone = 140;
+const String _videoIdtwo = 'UZwXCr2BorQ';
+const double _startSecondstwo = 84;
+const String _videoIdthree = 'U7BNCEpR4Jo';
+const double _startSecondsthree = 527;
+const String _videoIdfour = 'rNVLslEGLV4';
+const double _startSecondsfour = 179;
+const String _videoIdfive = '15NZsol35Dg';
+const double _startSecondsfive = 178;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

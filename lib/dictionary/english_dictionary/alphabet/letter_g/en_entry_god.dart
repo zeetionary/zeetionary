@@ -231,7 +231,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کردگار، خودا، خواوەند، خوا، خودێ، حەق، گیانی گیانان، بینایی چاوان، خێو، یەزدان، ئیزەد
 """),
-// With short examples define "god", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خودای ئایینەکانی مەسیحی، ئیسلام، و جوودایزم کە دەپەرسترێت و باوەڕ وایە گەردوونی درووست کردووە"""),
@@ -400,7 +399,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '21Z4RIOFhMA';
 const double _startSecondsend = 33;
 const String _videoIdone = 'cLmCJKT5ssw';

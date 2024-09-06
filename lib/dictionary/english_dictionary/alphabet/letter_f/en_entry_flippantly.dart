@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flippantly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە شتێک بە جدی نابینیت، یان بەو شێوەیەی کە کەسانی دیکە چاوەڕێ دەکەن"""),

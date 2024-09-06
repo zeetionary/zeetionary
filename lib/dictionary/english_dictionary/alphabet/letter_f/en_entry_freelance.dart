@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئازاد، دانەمەزراو، سەربەخۆ
 """),
-// With short examples define "freelance", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە پارە قازانج دەکەیت بەوەی کارەکەت دەفرۆشیت بە ژمارەیەک دامەزراوە نەک کارمەندی یەک دامەزراوە بیت"""),

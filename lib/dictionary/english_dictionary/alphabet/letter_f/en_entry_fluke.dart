@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەخت، چانس، شانس، ناوچاوان، خۆش‌بەختی
 """),
-// With short examples define "fluke", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێکی نامۆ یان بەبەخت کە بە ڕێکەوت ڕوودەدات"""),

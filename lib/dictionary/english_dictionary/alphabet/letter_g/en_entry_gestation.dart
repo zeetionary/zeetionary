@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سکپڕی، دووگیانی، سەروبەندی دووگیانی، ماوەی سکپڕی
 """),
-// With short examples define "gestation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ماوەی گەشەکردنی کۆرپەلە لەناو لەشی دایک"""),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'z1cOvH1_vKc';
 const double _startSecondsend = 433;
 const String _videoIdone = '6eyPPxywET0';

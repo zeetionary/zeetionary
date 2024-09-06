@@ -144,12 +144,11 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئارەزوو، نگە، ئیشتیا، بێزوو، مەگیرانی، خولیا، کەڵکەڵە
 """),
-// With short examples define "hankering", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) حەزی زۆر"""),
                     SentencesRow(
                       englishText:
                           """I’ve always had a hankering to go to China.""",
-                      kurdishText: """هەمیشە حەزێکم هەبووە بچم بۆ چین.""",
+                      kurdishText: """ھەمیشە حەزێکم ھەبووە بچم بۆ چین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -220,19 +219,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/jltLSczolzM?t=';
-const double _startSecondsend = 000000000000000000000000000302;
-const String _videoIdone = 'https://youtu.be/-XwHQxXpt_k?t=';
-const double _startSecondsone = 000000000000000000000000000430;
-const String _videoIdtwo = 'https://youtu.be/XLr-ljPTfFs?t=';
-const double _startSecondstwo = 000000000000000000000000000432;
-const String _videoIdthree = 'https://youtu.be/oGDGvCgiTZY?t=';
-const double _startSecondsthree = 000000000000000000000000000104;
-const String _videoIdfour = 'https://youtu.be/dAY7k0DPIuU?t=';
-const double _startSecondsfour = 000000000000000000000000000197;
-const String _videoIdfive = 'https://youtu.be/bWLGTB0coec?t=';
-const double _startSecondsfive = 000000000000000000000000000233;
+const String _videoIdend = 'jltLSczolzM';
+const double _startSecondsend = 302;
+const String _videoIdone = '-XwHQxXpt_k';
+const double _startSecondsone = 430;
+const String _videoIdtwo = 'XLr-ljPTfFs';
+const double _startSecondstwo = 432;
+const String _videoIdthree = 'oGDGvCgiTZY';
+const double _startSecondsthree = 104;
+const String _videoIdfour = 'dAY7k0DPIuU';
+const double _startSecondsfour = 197;
+const String _videoIdfive = 'bWLGTB0coec';
+const double _startSecondsfive = 233;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

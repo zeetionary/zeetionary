@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "galvanize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) وا لە کەسێک بکەیت کارێک بکات بەوەی سەرسامیان بکەیت یان بیھێنیتە جۆش"""),

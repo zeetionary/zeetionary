@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڕندانە، دڕانە، پەلاماردەرانە،	بە توندی
 """),
-// With short examples define "ferociously", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشێوەیەک کە زۆر توندوتیژانە یان دڕە"""),

@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەرپێچ، درزگیرە، درزگر، درزبێن، درزبەند، واشەر،	بادەوەبەست، بایەوان‌بێن، بادەوەبەند، چارۆکەبەست، چارۆکەبەند
 """),
-// With short examples define "gasket", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە واشێرێک کە دەخرێتە نێوان دوو پارچە ئاسن"""),

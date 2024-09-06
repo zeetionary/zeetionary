@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چاوپۆشیکردن لە، لێبوردن لە، دەستبەرداربوون لە
 """),
-// With short examples define "forgo", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەوەی بڕیار بدەیت دەستبەرداری ھەبوون یان کردنی شتێک ببیت"""),

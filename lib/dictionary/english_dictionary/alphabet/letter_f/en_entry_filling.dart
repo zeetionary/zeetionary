@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پڕکردنەوەی ددان،	ددانی پڕکردنەوە،	ددانی پڕەوەکراو،	پواز، کون‌گرە، نێواخن، ناو، پڕکەرە، نێوبەرە
 """),
-// With short examples define "filling", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بڕێک مادە کە بۆ پڕکردنەوەی ددان بەکاردێت"""),

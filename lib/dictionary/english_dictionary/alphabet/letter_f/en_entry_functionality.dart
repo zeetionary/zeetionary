@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "functionality", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە شتێک زۆر گونجاو بێت بۆ ئەو مەبەستەی کە درووستکراوە بۆی"""),

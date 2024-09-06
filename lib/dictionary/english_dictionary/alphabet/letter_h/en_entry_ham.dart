@@ -175,12 +175,11 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "ham", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) گۆشتی بەشی سەرەوەی لاقی بەراز"""),
                     SentencesRow(
                       englishText: """The hams were cooked whole.""",
-                      kurdishText: """ڕانە بەرازەکە هەمووی ئامادە بوو.""",
+                      kurdishText: """ڕانە بەرازەکە ھەمووی ئامادە بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -188,7 +187,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Would you like another slice of ham?""",
                       kurdishText:
-                          """حەزت بە پارچەیەکی دیکە ڕانە بەراز هەیە؟.""",
+                          """حەزت بە پارچەیەکی دیکە ڕانە بەراز ھەیە؟.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -207,12 +206,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) ئەکتەرێک کە زۆر خراپە، بە تایبەتی بەهۆی زیادەڕۆیی لە پیشاندانی هەستەکانی"""),
+                            """٣. (ناو) ئەکتەرێک کە زۆر خراپە، بە تایبەتی بەھۆی زیادەڕۆیی لە پیشاندانی ھەستەکانی"""),
                     SentencesRow(
                       englishText:
                           """His critics wrote him off as a ham actor.""",
                       kurdishText:
-                          """ڕەخنەگرەکانی وەک نمایشکارێکی بێ‌ئەزموون ناویان هێنا.""",
+                          """ڕەخنەگرەکانی وەک نمایشکارێکی بێ‌ئەزموون ناویان ھێنا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -283,19 +282,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/s3B-qp3U5G0?t=';
-const double _startSecondsend = 00000000000000000000000000040;
-const String _videoIdone = 'https://youtu.be/vo8HZ6cMsO4?t=';
-const double _startSecondsone = 000000000000000000000000000126;
-const String _videoIdtwo = 'https://youtu.be/qWAagS_MANg?t=';
-const double _startSecondstwo = 000000000000000000000000000812;
-const String _videoIdthree = 'https://youtu.be/syH0oN_B4g0?t=';
-const double _startSecondsthree = 000000000000000000000000000484;
-const String _videoIdfour = 'https://youtu.be/kkGFgzHmTCg?t=';
-const double _startSecondsfour = 0000000000000000000000000006;
-const String _videoIdfive = 'https://youtu.be/sntUvhsLGvs?t=';
-const double _startSecondsfive = 0000000000000000000000000007;
+const String _videoIdend = 's3B-qp3U5G0';
+const double _startSecondsend = 40;
+const String _videoIdone = 'vo8HZ6cMsO4';
+const double _startSecondsone = 126;
+const String _videoIdtwo = 'qWAagS_MANg';
+const double _startSecondstwo = 812;
+const String _videoIdthree = 'syH0oN_B4g0';
+const double _startSecondsthree = 484;
+const String _videoIdfour = 'kkGFgzHmTCg';
+const double _startSecondsfour = 6;
+const String _videoIdfive = 'sntUvhsLGvs';
+const double _startSecondsfive = 7;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

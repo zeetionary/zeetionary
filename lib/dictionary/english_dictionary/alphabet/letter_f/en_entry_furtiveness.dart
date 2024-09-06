@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شاراوەیی‌بوون، پەنامەکی‌بوون، دزی‌یەوەبوون
 """),
-// With short examples define "furtiveness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕەفتارکردن کە ئەوە پیشان دەدات کە دەتەوێت شتێک بە نھێنی بھێڵیتەوە و ماتەوێت ببیندرێیت"""),

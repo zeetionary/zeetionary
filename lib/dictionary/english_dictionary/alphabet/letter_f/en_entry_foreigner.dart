@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەرەکی، بیانی، بێگانە، نەناس
 """),
-// With short examples define "foreigner", please follow LX instructions
                     const DefinitionKurdish(
                       text: """١. (ناو) کەسێک کە خەڵکی وڵاتێکی دیکەیە""",
                       note:

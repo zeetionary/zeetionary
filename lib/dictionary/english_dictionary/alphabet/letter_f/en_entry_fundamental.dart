@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بنچینەیی، بنەمایی، بنەڕەتی، ناوەندی، بنگەھی، بناخەیی، ڕیشەیی، گرنگ، سەرەکی، بەرکەفتی، سەرەتایی، ئامادەکاری،	پێویست، پێدڤی،	گەوھەری، زاتی، خودایی، خۆماکی، کرۆکی، بنەماکان، بنچینەکان، بنچینان، ماکان noun بەشی بنەڕەتی، پشکی بنگەھی
 """),
-// With short examples define "fundamental", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زۆر گرنگە و کاریگەری لە شتە ھەرە گرنگەکان دەکات"""),

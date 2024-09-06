@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پچڕپچڕ، بەش‌بەش، لێک‌بڵاو، پرش‌وبڵاو، پەراش‌بەپەراش، تیکەتیکە، لەت‌لەت، لەت‌وکوت، بەشی، کوت‌کوت، ناتەواو، جیاجیا، شکاو، وردکراو، وردوخاش، ناپێوەندی‌دار، نەبەسەریەکەوە، لێک‌بڵاو
 """),
-// With short examples define "fragmentary", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە لە پارچە و بەشی ناتەواو درووست بووە"""),

@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵاوایی، بەخشندەیی، بەدەھندەیی، بەرچاوتێری، دەس‌کراوەیی،	لێبوردەیی،	جوامێری، دڵ‌گەورەیی، پیاوەتی، مرۆیی
 """),
-// With short examples define "generosity", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ئەوەی کە بەخشەر بیت بە کەسانی دیکە"""),
@@ -237,7 +236,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'SzwEzpec7CA';
 const double _startSecondsend = 947;
 const String _videoIdone = 'DG8rPBlbOrY';

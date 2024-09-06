@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: باوەڕ، ڕێباز
 """),
-// With short examples define "gospel", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یەکێک لەو چوار کتێبەی ئینجیل لەسەر ژیان و ئامۆژگارییەکانی عیسای مەسیح؛ ژیان و ئامۆژگارییەکانی عیسای مەسیح بەپێی ئەوەی لە ئینجیلدا باسکراوە"""),
@@ -266,7 +265,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'FYVvE4tr2BI';
 const double _startSecondsend = 543;
 const String _videoIdone = 'wJa5Ch0O4BI';

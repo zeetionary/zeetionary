@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شیربازی، شمشێرەوانی
 """),
-// With short examples define "fencing", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) وەرزشی شەڕکردن بە شمشێری درێژی باریک"""),

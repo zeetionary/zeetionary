@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تاق‌وتەنیا، بێ‌کەس،	لێ‌قەوماو، خەم‌بار، خەفەت‌بار، لێوبەبار، ناھومێد، بێچارە، پەرێشان، داماو،	بەجێ‌ھێڵراو، کەلاوە، وێرانە، کاولە، وازلێ‌ھێنراو، چۆڵ(کراو)،	بێ‌ئەنجام، بێھوودە
 """),
-// With short examples define "forlorn", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە تەنھا و دڵتەنگ دەردەکەوێت"""),
                     SentencesRow(

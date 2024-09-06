@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەڵیت‌وپڵیت، قسە قۆڕ و ھیچەکە، فڵتەفڵت، چەقەچەق، بڵمەبڵم
 """),
-// With short examples define "gibberish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) وشە کە ھیچ واتای نییە یان ئەستەمە بۆ تێگەشتن"""),
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'uKgaVlMN7IY';
 const double _startSecondsend = 417;
 const String _videoIdone = 'XXhc5UTxv5I';

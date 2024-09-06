@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "groundsheet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچەکی گەورە کە ڕێگا نادات ئاو بێتە ژوورەوە و لەسەر زەوی ناو کەپرێک دادەنرێت"""),
@@ -225,7 +224,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 't1BHeMz6_2E';
 const double _startSecondsend = 523;
 const String _videoIdone = 'zVpciPkBSgM';

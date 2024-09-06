@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پەڵە، لکە، خاڵ، پن، پنک،	ڕێزە، بڕێ، کەمۆچکە
 """),
-// With short examples define "fleck", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناوچەیەکی بچووک کە ڕەنگێکی دیاریکراوی ھەیە"""),

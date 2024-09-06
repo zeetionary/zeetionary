@@ -171,10 +171,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خێر، یارمەتی، کۆمەک، پیتاک،	بڵاونامە، پەڕ، ئاگاداری، داخویانی
 """),
-// With short examples define "handout", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) خواردن، پارە، یان جل کە دەدرێت بە کەسێک کە هەژارە"""),
+                            """١. (ناو) خواردن، پارە، یان جل کە دەدرێت بە کەسێک کە ھەژارە"""),
                     SentencesRow(
                       englishText:
                           """I don't want to be dependent on handouts.""",
@@ -187,7 +186,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """All those eligible will receive a cash handout.""",
                       kurdishText:
-                          """هەموو ئەو کەسانەی شایستەن کۆمەکی دارایی وەردەگرن.""",
+                          """ھەموو ئەو کەسانەی شایستەن کۆمەکی دارایی وەردەگرن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -199,14 +198,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """The company is currently thriving thanks to a £70 000 government handout.""",
                       kurdishText:
-                          """کۆمپانیاکە لە ئێستادا دەبووژێتەوە بەهۆی کۆمەکێکی ٧٠٠٠٠ پاوەندی حکومەت.""",
+                          """کۆمپانیاکە لە ئێستادا دەبووژێتەوە بەھۆی کۆمەکێکی ٧٠٠٠٠ پاوەندی حکومەت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) بەڵگەنامەیەک کە بێ‌بەرامبەر دەدرێت بە خەڵکی و تێیدا بانگەشە بۆ بۆنەیەک، باوەڕێکی سیاسی، هتد دەکرێت"""),
+                            """٣. (ناو) بەڵگەنامەیەک کە بێ‌بەرامبەر دەدرێت بە خەڵکی و تێیدا بانگەشە بۆ بۆنەیەک، باوەڕێکی سیاسی، ھتد دەکرێت"""),
                     SentencesRow(
                       englishText:
                           """More information can be found in the handout.""",
@@ -281,19 +280,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
-const double _startSecondsend = 0000000000000000000000000001108;
-const String _videoIdone = 'https://youtu.be/HAnw168huqA?t=';
-const double _startSecondsone = 000000000000000000000000000477;
-const String _videoIdtwo = 'https://youtu.be/NNnIGh9g6fA?t=';
-const double _startSecondstwo = 0000000000000000000000000002665;
-const String _videoIdthree = 'https://youtu.be/QRhw7X-ZhKk?t=';
-const double _startSecondsthree = 000000000000000000000000000737;
-const String _videoIdfour = 'https://youtu.be/eXaIpTj3vOs?t=';
-const double _startSecondsfour = 000000000000000000000000000525;
-const String _videoIdfive = 'https://youtu.be/nvwAX8IHxmY?t=';
-const double _startSecondsfive = 000000000000000000000000000559;
+const String _videoIdend = 'hFZFjoX2cGg';
+const double _startSecondsend = 1108;
+const String _videoIdone = 'HAnw168huqA';
+const double _startSecondsone = 477;
+const String _videoIdtwo = 'NNnIGh9g6fA';
+const double _startSecondstwo = 2665;
+const String _videoIdthree = 'QRhw7X-ZhKk';
+const double _startSecondsthree = 737;
+const String _videoIdfour = 'eXaIpTj3vOs';
+const double _startSecondsfour = 525;
+const String _videoIdfive = 'nvwAX8IHxmY';
+const double _startSecondsfive = 559;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

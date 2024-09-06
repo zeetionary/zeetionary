@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئانفولانزا، ھەڵامەت، ئاھۆ
 """),
-// With short examples define "flu", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نەخۆشییەکی توند کە بەھۆی توند کە بەھۆی ڤایرۆسەوە تووشی دەبیت و دەبێتە ھۆکاری پلەی گەرمی بەرز و ئازاری زۆر و لاوازی"""),

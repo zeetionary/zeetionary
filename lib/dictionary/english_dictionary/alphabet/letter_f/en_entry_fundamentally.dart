@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fundamentally", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) کە ھەموو لایەنێکەوە کە گرنگ بێت"""),

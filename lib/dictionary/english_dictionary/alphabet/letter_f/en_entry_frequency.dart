@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فراوانی، زۆری، فرەھی،	دووبارەبوونەوە، زۆرڕوودان، زۆرقەومان، چەندبارەبوونەوە، چەندپاتەیی،	(فیزیک) لەرە، لەرینەوە،	(ڕادیۆ) شەپۆل
 """),
-// With short examples define "frequency", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئاستی ڕوودان یان دووبارەبوونەوەی شتێک"""),

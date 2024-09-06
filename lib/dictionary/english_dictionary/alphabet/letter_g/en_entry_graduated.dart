@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 	بەرەبەرەیی، وردەوردە،	پلێنراو، چینەکراو، پلەپلەکراو، ئەندازێنراو، پلەبەندی‌کراو، چین‌چین‌کراو، پێوەرەکراو
 """),
-// With short examples define "graduated", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە دابەشکراوە بەسەر گرووپ یان ئاستدا"""),
@@ -225,7 +224,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'g_Dkr6RexQg';
 const double _startSecondsend = 401;
 const String _videoIdone = 'eAkx_6kaOE8';

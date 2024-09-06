@@ -169,17 +169,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: جیڕ، بەرگەگر، بەهێز، خۆگرتوو، کارگیر، گیان‌سەخت، بەگیر، قایم، بەتاقەت، نەترس، بەدڵ، بەجەرگ، ئازا، بەغیرەت، (ڕووەک) بەرگەگر، خۆگیر، بەکێش، بەتاقەت، خۆگر
+کوردی: جیڕ، بەرگەگر، بەھێز، خۆگرتوو، کارگیر، گیان‌سەخت، بەگیر، قایم، بەتاقەت، نەترس، بەدڵ، بەجەرگ، ئازا، بەغیرەت، (ڕووەک) بەرگەگر، خۆگیر، بەکێش، بەتاقەت، خۆگر
 """),
-// With short examples define "hardy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە بەهێزە و دەتوانێت بەسەر دۆخ و کەشووهەوای سەختدا سەربکەوێت"""),
+                            """١. (ھاوەڵناو) کە بەھێزە و دەتوانێت بەسەر دۆخ و کەشووھەوای سەختدا سەربکەوێت"""),
                     SentencesRow(
                       englishText:
                           """These hardy mountain folk seem to thrive on the cold.""",
                       kurdishText:
-                          """ئەم خەڵکە شاخاوییە بەهێزە وادیارن لە سەرماکەدا ڕزگاریان ببێت.""",
+                          """ئەم خەڵکە شاخاوییە بەھێزە وادیارن لە سەرماکەدا ڕزگاریان ببێت.""",
                       englishNote:
                           """This means these resilient mountain people appear to do well and be comfortable in cold conditions.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
@@ -190,7 +189,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """A few hardy souls had turned out to watch the hockey game.""",
                       kurdishText:
-                          """چەند کەسێکی جەربەزە هاتبوونە دەرەوە بۆ سەیرکردنی یارییە هۆکییەکە.""",
+                          """چەند کەسێکی جەربەزە ھاتبوونە دەرەوە بۆ سەیرکردنی یارییە ھۆکییەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -202,7 +201,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Parsley is hardy and can be grown outdoors from the spring.""",
                       kurdishText:
-                          """مەعدەنووس خۆگرە و دەکرێت لە بەهارەوە لە دەرەوە بچێندرێت.""",
+                          """مەعدەنووس خۆگرە و دەکرێت لە بەھارەوە لە دەرەوە بچێندرێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -273,19 +272,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/PLSNKJzY0Og?t=';
-const double _startSecondsend = 000000000000000000000000000681;
-const String _videoIdone = 'https://youtu.be/ylZOg_HyG_0?t=';
-const double _startSecondsone = 000000000000000000000000000291;
-const String _videoIdtwo = 'https://youtu.be/6NYhhRXSOmo?t=';
-const double _startSecondstwo = 00000000000000000000000000053;
-const String _videoIdthree = 'https://youtu.be/0OiRAh6L77Y?t=';
-const double _startSecondsthree = 000000000000000000000000000364;
-const String _videoIdfour = 'https://youtu.be/1pyl60igQy8?t=';
-const double _startSecondsfour = 000000000000000000000000000224;
-const String _videoIdfive = 'https://youtu.be/B9CIScOsDQg?t=';
-const double _startSecondsfive = 00000000000000000000000000093;
+const String _videoIdend = 'PLSNKJzY0Og';
+const double _startSecondsend = 681;
+const String _videoIdone = 'ylZOg_HyG_0';
+const double _startSecondsone = 291;
+const String _videoIdtwo = '6NYhhRXSOmo';
+const double _startSecondstwo = 53;
+const String _videoIdthree = '0OiRAh6L77Y';
+const double _startSecondsthree = 364;
+const String _videoIdfour = '1pyl60igQy8';
+const double _startSecondsfour = 224;
+const String _videoIdfive = 'B9CIScOsDQg';
+const double _startSecondsfive = 93;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

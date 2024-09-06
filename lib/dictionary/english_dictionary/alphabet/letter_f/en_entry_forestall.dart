@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "forestall", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) وەستاندنی ڕوودانی شتێک یان کەسێک لەوەی شتێک بکات"""),

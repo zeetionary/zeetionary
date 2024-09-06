@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کز، ڕەقەڵ، سست، لاواز، بێ‌ھێز، بێ‌بنگە، بێ‌ڕەگ،	زووشکاو، ناسک، تورت، ھەڵپەڕیو،	کەم، پرزۆڵ، کەموسکە
 """),
-// With short examples define "frail", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە لە ڕووی جەستەییەوە لاواز و باریکە"""),

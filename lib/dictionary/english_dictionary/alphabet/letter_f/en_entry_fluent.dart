@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕەوان، زمان‌ڕەوان، زمان‌پاراو، دەم‌پاراو، زمان‌ڕان،	ئاسان، سانا، سادە،	ڕەوان
 """),
-// With short examples define "fluent", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ھەبوونی توانای قسەکردن، خوێندنەوە، و نووسین بە زمانێک، بە تایبەتی زمانی بیانی، بە باشی"""),

@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرمابردوو، تەزیو، سڕ، کەسیرە(کەوتوو)
 """),
-// With short examples define "frostbitten", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بەشيکانی جەستە زیانیان پێگەشتووە بەھۆی سەرمای زۆر ساردەوە"""),

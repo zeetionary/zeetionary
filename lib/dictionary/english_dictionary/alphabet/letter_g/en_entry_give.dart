@@ -716,7 +716,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جیڕی، پێدان، کەژی، جیری، نەرمی، جیرئاسایی، کێش‌ھاتوویی
 """),
-// With short examples define "give", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) پێدانی شتێک بە کەسێک بۆ ئەوەی سەیری بکات، بەکاری بھێنێت، یان ماوەیەک لای بێت"""),
@@ -1381,7 +1380,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 106;
 const String _videoIdone = 'lVoGZiL-kns';

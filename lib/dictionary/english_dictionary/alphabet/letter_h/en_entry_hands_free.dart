@@ -146,7 +146,7 @@ ${englishMeaningConst.text}
 // """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە بەبێ بەکارهێنانی دەست دەکرێت"""),
+                            """١. (ھاوەڵناو) کە بەبێ بەکارھێنانی دەست دەکرێت"""),
                     SentencesRow(
                       englishText:
                           """Hands-free calling is safer while driving.""",
@@ -222,19 +222,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
-const double _startSecondsend = 000000000000000000000000000549;
-const String _videoIdone = 'https://youtu.be/D_Y18GEjfNY?t=';
-const double _startSecondsone = 000000000000000000000000000397;
-const String _videoIdtwo = 'https://youtu.be/G8UELR5KWk8?t=';
-const double _startSecondstwo = 000000000000000000000000000458;
-const String _videoIdthree = 'https://youtu.be/PEH4E3_ZbEg?t=';
-const double _startSecondsthree = 000000000000000000000000000119;
-const String _videoIdfour = 'https://youtu.be/q1oO5H8Gfr8?t=';
-const double _startSecondsfour = 000000000000000000000000000406;
-const String _videoIdfive = 'https://youtu.be/b2keggxa0cY?t=';
-const double _startSecondsfive = 000000000000000000000000000359;
+const String _videoIdend = 'hFZFjoX2cGg';
+const double _startSecondsend = 549;
+const String _videoIdone = 'D_Y18GEjfNY';
+const double _startSecondsone = 397;
+const String _videoIdtwo = 'G8UELR5KWk8';
+const double _startSecondstwo = 458;
+const String _videoIdthree = 'PEH4E3_ZbEg';
+const double _startSecondsthree = 119;
+const String _videoIdfour = 'q1oO5H8Gfr8';
+const double _startSecondsfour = 406;
+const String _videoIdfive = 'b2keggxa0cY';
+const double _startSecondsfive = 359;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

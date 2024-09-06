@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دۆستایەتی، ھەڤاڵەتی، دۆستانی، سەروسەخت، ڕفێقایەتی،	پێوەندی یان تێکەڵی دۆستانە
 """),
-// With short examples define "friendship", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) پەیوەندیی ھاوڕێیەتی"""),
                     SentencesRow(

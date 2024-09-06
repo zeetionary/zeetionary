@@ -166,7 +166,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گرژی، ڕووتاڵی، ڕووگرژی، مۆن‌بوونەوە، مۆڕبوونەوە، ڕووترشی، ناوچەوان‌گرژی
 """),
-// With short examples define "frown", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەنجامدانی دەربڕینێکی تووڕەیی، نیگەرانی، یان ئەوەی جدی بیت بەوەی برۆیەکانت لە یەکدی نزیک بکەیتەوە و لۆچی لەسەر لەسەر تەوێڵت دەرکەوێت"""),

@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لەخۆوە، ھەڕەمەکی، لەخۆڕایی، بێ‌ھۆ، بێجێ
 """),
-// With short examples define "gratuitous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە بێ ھۆکار یان مەبەستی دیاریکراو دەکرێت و زۆرجار کاریگەری زیانبەخشی ھەیە"""),
@@ -231,7 +230,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '8HEfIJlcFbs';
 const double _startSecondsend = 260;
 const String _videoIdone = 'Eu46puWv7ts';

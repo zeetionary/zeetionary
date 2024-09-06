@@ -222,7 +222,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئاسنگەری، دووکانی ئاسنگەری،	کوورەی ئاسنگەری
 """),
-// With short examples define "forge", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ھەوڵدانی زۆر بۆ ئەوەی وا بکەیت شتێک سەرکەوتوو بێت یان بەردەوام بێت"""),

@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گەورەیی، مەزنی، مەزناھی، شکۆ، فەڕ، ئەندێش، ھەیبەت، سام،	باوەڕ، بایەخ،	دەس‌ڕۆیشتوویی، گرنگی
 """),
-// With short examples define "grandeur", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە سەرنجڕاکێش و مەزن بێت لە شێوەدا"""),
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'JHjXwicEwQo';
 const double _startSecondsend = 256;
 const String _videoIdone = 'JN3KPFbWCy8';

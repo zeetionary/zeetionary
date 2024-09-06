@@ -166,7 +166,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flirt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ڕەفتارکردن لەگەڵ کەسێک کە لە ڕووی سێکسییەوە بە ورووژێنەر دەیبینیت بەبێ ئەوەی بتەوێت پەیوەندیت ھەبێت"""),

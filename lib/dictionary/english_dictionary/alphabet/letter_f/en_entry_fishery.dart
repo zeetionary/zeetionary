@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: ڕاوگەماسی (زۆرتر بە کۆ دێ)، جێگای ڕاوەماسی یان ماسی‌گیری
 // """),
-// With short examples define "fishery", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشێکی دەریا یان ڕووبارێک کە ماسی بە ڕێژەیەکی زۆر دەگیرێت"""),

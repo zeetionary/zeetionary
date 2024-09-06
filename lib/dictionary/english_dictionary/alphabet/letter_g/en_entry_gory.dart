@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شەڵاڵی خوێن (مەییو)، خوێناوی، خەڵتانی خوێن، پڕتوندوتیژ، قەباحەت
 """),
-// With short examples define "gory", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە خوێن و تومدووتیژی زۆر لەخۆ دەگرێت"""),
@@ -241,7 +240,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'NFtQOxjWfaA';
 const double _startSecondsend = 7;
 const String _videoIdone = 'PXsZntwnArQ';

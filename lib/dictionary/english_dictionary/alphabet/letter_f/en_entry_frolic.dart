@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شادی، خۆشی، بەکەیفی، شەیتانی، قۆشمەیی، شلوقی، ھەڵبەز و دابەز، تەقڵەدەو، فڕک‌وھۆڕ
 """),
-// With short examples define "frolic", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) یاری کردن بە دڵخۆشییەوە"""),
                     SentencesRow(

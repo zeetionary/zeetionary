@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵشادی، ھەستی سەرکەوتووانە،	چاوتێ‌بڕین
 """),
-// With short examples define "gloat", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پیشاندانی ئەوەی دڵخۆشیت بە سەرکەوتنی خۆت یان بە شکستی کەسێکی دیکە"""),
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'sV6uuMAnJUE';
 const double _startSecondsend = 950;
 const String _videoIdone = 'qg2nGY1aqlg';

@@ -207,9 +207,8 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: پووک، هاروو، سرێش، چەسپ، کەتیرە، جەوی،	جیوە، هەنگوژە، ژوی،	بنێشت، جاچکە، جاچک
+کوردی: پووک، ھاروو، سرێش، چەسپ، کەتیرە، جەوی،	جیوە، ھەنگوژە، ژوی،	بنێشت، جاچکە، جاچک
 """),
-// With short examples define "gum", please follow LX instructions
 // \b(gum)(s|ed|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
@@ -258,11 +257,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) مادەیەک کە لە هەندێک دارەوە بەرهەم دێت"""),
+                            """٤. (ناو) مادەیەک کە لە ھەندێک دارەوە بەرھەم دێت"""),
                     SentencesRow(
                       englishText:
                           """The gum was collected from the tree bark.""",
-                      kurdishText: """هەنگوژەکە لە توێکڵی دارەکە کۆکرایەوە.""",
+                      kurdishText: """ھەنگوژەکە لە توێکڵی دارەکە کۆکرایەوە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -344,18 +343,17 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/ylZOg_HyG_0?t=';
-const double _startSecondsend = 000000000000000000000000000163;
-const String _videoIdone = 'https://youtu.be/hTqtGJwsJVE?t=';
+const String _videoIdend = 'ylZOg_HyG_0';
+const double _startSecondsend = 163;
+const String _videoIdone = 'hTqtGJwsJVE';
 const double _startSecondsone = 3082;
-const String _videoIdtwo = 'https://youtu.be/kB7glmtGprs';
+const String _videoIdtwo = 'kB7glmtGprs';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/x29jZh_hxzM?t=';
-const double _startSecondsthree = 00000000000000000000000000010;
-const String _videoIdfour = 'https://youtu.be/-Tk4v_t0-vk?t=';
-const double _startSecondsfour = 0000000000000000000000000004;
-const String _videoIdfive = 'https://youtu.be/GinPND_pGb4';
+const String _videoIdthree = 'x29jZh_hxzM';
+const double _startSecondsthree = 10;
+const String _videoIdfour = '-Tk4v_t0-vk';
+const double _startSecondsfour = 4;
+const String _videoIdfive = 'GinPND_pGb4';
 const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵسۆزانە، بە نەرمی، نەرم، بە ئەسپایی، بە ئارامی، ئارام، بە وریایی‌یەوە
 """),
-// With short examples define "gently", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە ئارامی و لەسەرەخۆیی، نەک بە توندی و بەھێزی"""),
@@ -306,7 +305,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'qWAagS_MANg';
 const double _startSecondsend = 929;
 const String _videoIdone = '2fOWFfpLYW0';

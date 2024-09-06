@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: باخەوان، باغەوان، ڕەزەوان، ڕەزەڤان
 """),
-// With short examples define "gardener", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە کاری چاودێری کردنی باخچە دەکات"""),

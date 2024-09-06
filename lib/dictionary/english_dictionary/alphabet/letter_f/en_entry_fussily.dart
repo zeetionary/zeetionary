@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە نیگەرانی و دڵەڕاوکێ‌وە
 """),
-// With short examples define "fussily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە زۆری نیگەرانی و گرنگیدانەوە بەو شتانەی کە گرنگ نین"""),

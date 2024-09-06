@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئەنجام، ئاکام، پێئاژۆ، بەرگرتن، بەرھێنەری، پڕبەری، بەرھێنان،	جێبەجێ‌بوون، بەدی‌ھاتن
 """),
-// With short examples define "fruition", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سەرکەوتنی پلان، پڕۆسە، یان چالاکییەک"""),

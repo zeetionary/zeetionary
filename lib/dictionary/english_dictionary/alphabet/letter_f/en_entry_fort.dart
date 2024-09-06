@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قەڵا، دز، قەڵا و شوورە، سپاخانە، بەرگری‌خانە
 """),
-// With short examples define "fort", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بینا یان ژمارەیەک بینا بۆ بەرگری لە ناوچەیەک دژ بە ھێرش"""),

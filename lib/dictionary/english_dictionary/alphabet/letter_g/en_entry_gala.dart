@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سوور، ئاھەنگ، مێھرەگان، فێستیڤاڵ،	پێشبڕکی
 """),
-// With short examples define "gala", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئاھەنگێکی گشتی کە ئاھەنگێڕان و چێژبەخشینی تێدایە"""),

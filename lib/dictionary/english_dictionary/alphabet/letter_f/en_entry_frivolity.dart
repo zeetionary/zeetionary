@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌ئەقڵی، سەرچڵی، سووکی، گەوجی، گەمژەیی، بێھوودەیی
 """),
-// With short examples define "frivolity", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕەفتار کە گەمژانە یان پێکەنیناوی، بە تایبەتی لە دۆخێک کە نەگونجاوە"""),

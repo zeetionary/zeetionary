@@ -149,17 +149,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: لە هەڵقوڵین‌دا، هەڵقوڵیو، لە کفەدا، ڕوولە هەڵچوون، لە فیشقە(کردن)دا،	بەگوڕ، بەجۆش، بەتاو، بەتین
+کوردی: لە ھەڵقوڵین‌دا، ھەڵقوڵیو، لە کفەدا، ڕوولە ھەڵچوون، لە فیشقە(کردن)دا،	بەگوڕ، بەجۆش، بەتاو، بەتین
 """),
-// With short examples define "gushing", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) دەربڕینی جۆش‌وخرۆشی، هەستو و سۆز، و ستایشی زۆر کە لە دڵەوە نییە"""),
+                            """١. (ھاوەڵناو) دەربڕینی جۆش‌وخرۆشی، ھەستو و سۆز، و ستایشی زۆر کە لە دڵەوە نییە"""),
                     SentencesRow(
                       englishText:
                           """She gave an embarrassingly gushing acceptance speech.""",
                       kurdishText:
-                          """وتارێکی پەسەندکردنی شەرمهێنەرانە بەجۆشی پێشکەش کرد.""",
+                          """وتارێکی پەسەندکردنی شەرمھێنەرانە بەجۆشی پێشکەش کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -230,19 +229,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/vIz9lgLjZtY?t=';
-const double _startSecondsend = 000000000000000000000000000380;
-const String _videoIdone = 'https://youtu.be/Zp1llyrjiNE?t=';
-const double _startSecondsone = 000000000000000000000000000925;
-const String _videoIdtwo = 'https://youtu.be/Q4hcisnPQMU?t=';
-const double _startSecondstwo = 000000000000000000000000000344;
-const String _videoIdthree = 'https://youtu.be/VW3__b41Q9I?t=';
-const double _startSecondsthree = 0000000000000000000000000001029;
-const String _videoIdfour = 'https://youtu.be/RGiZtld9ssc?t=';
-const double _startSecondsfour = 0000000000000000000000000001169;
-const String _videoIdfive = 'https://youtu.be/BOKCNUqbpH0?t=';
-const double _startSecondsfive = 0000000000000000000000000005461;
+const String _videoIdend = 'vIz9lgLjZtY';
+const double _startSecondsend = 380;
+const String _videoIdone = 'Zp1llyrjiNE';
+const double _startSecondsone = 925;
+const String _videoIdtwo = 'Q4hcisnPQMU';
+const double _startSecondstwo = 344;
+const String _videoIdthree = 'VW3__b41Q9I';
+const double _startSecondsthree = 1029;
+const String _videoIdfour = 'RGiZtld9ssc';
+const double _startSecondsfour = 1169;
+const String _videoIdfive = 'BOKCNUqbpH0';
+const double _startSecondsfive = 5461;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

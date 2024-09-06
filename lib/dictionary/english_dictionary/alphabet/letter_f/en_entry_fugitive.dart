@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەڵاتوو، ڕاکردوو،	دەربەدەر، مشەخت، ھەڵوەدا، تەرە، پەڕەوازە،	نابەردەوام، کورت‌خایەن، کورت‌ماوە، تیژپەڕ، زووبەسەرچوو، سەردەمی، ساتی، کاتی،	مرۆی ھەڵاتوو،	پەنابەر، کۆچەر، پەناخواز
 """),
-// With short examples define "fugitive", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە ھەڵھاتووە و دەیەوێت نەگیردرێت"""),

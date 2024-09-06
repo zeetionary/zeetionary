@@ -314,7 +314,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 	دەستەبەری، دابینی، کەفالەت، زەمانەت،	دەستەبەرنامە، زەمانەت‌نامە،	دەستەبەرکردن،	دەستەبەر، زامن، کەفیل،	بارمتە، سپاردە،	بەڵێنی
 """),
-// With short examples define "guarantee", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) بەڵێندانی ئەوەی شتێک بکەیت؛ بەڵێن دانی ئەوەی شتێک ڕوودەدات"""),
@@ -340,7 +339,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We cannot guarantee (that) our flights will never be delayed.""",
                       kurdishText:
-                          """ناتوانین دڵنیایی ئەوە بکەین کە گەشتەکانمان هەرگیز دوا ناکەون.""",
+                          """ناتوانین دڵنیایی ئەوە بکەین کە گەشتەکانمان ھەرگیز دوا ناکەون.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -356,12 +355,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) پێدانی نووسراوێک بۆ ئەوەی کە بەرهەمێک بێ‌بەرامبەر چاکدەکەیتەوە یان دەیگۆڕیتەوە ئەگەر خراپ ببێت"""),
+                            """٢. (کردار) پێدانی نووسراوێک بۆ ئەوەی کە بەرھەمێک بێ‌بەرامبەر چاکدەکەیتەوە یان دەیگۆڕیتەوە ئەگەر خراپ ببێت"""),
                     SentencesRow(
                       englishText:
                           """All our electrical goods are fully guaranteed.""",
                       kurdishText:
-                          """هەموو کەلووپەلە کارەباییەکانمان تەواو گەرەنتییان هەیە.""",
+                          """ھەموو کەلووپەلە کارەباییەکانمان تەواو گەرەنتییان ھەیە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -392,7 +391,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """The outcome is by no means guaranteed.""",
                       kurdishText:
-                          """دەرەنجامەکە بە هیچ شێوەیەک گەرەنتی نەکراوە.""",
+                          """دەرەنجامەکە بە ھیچ شێوەیەک گەرەنتی نەکراوە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -426,7 +425,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He gave me a guarantee that it would never happen again.""",
                       kurdishText:
-                          """بەڵێنی ئەوەی پێدام کە هەرگیز دووبارە ڕووناداتەوە.""",
+                          """بەڵێنی ئەوەی پێدام کە ھەرگیز دووبارە ڕووناداتەوە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -435,7 +434,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The demonstrators were demanding guarantees for fair elections.""",
                       kurdishText:
-                          """خۆپیشاندەرەکان داوای دڵنیایی هەڵبژاردنی ئازادیان دەکرد.""",
+                          """خۆپیشاندەرەکان داوای دڵنیایی ھەڵبژاردنی ئازادیان دەکرد.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -443,14 +442,14 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """We didn't get any firm guarantee of a loan.""",
-                      kurdishText: """هیچ بەڵێنی مسۆگەری قەرزێکمان وەرنەگرت.""",
+                      kurdishText: """ھیچ بەڵێنی مسۆگەری قەرزێکمان وەرنەگرت.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (ناو) بەڵێنی نووسراوی کۆمپانیایەک کە بەرهەمێک بێ‌بەرامبەر چاکدەکاتەوە یان دەیگۆڕێتەوە ئەگەر خراپ ببێت"""),
+                            """٧. (ناو) بەڵێنی نووسراوی کۆمپانیایەک کە بەرھەمێک بێ‌بەرامبەر چاکدەکاتەوە یان دەیگۆڕێتەوە ئەگەر خراپ ببێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: warranty"),
                     SentencesRow(
                       englishText:
@@ -471,7 +470,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The watch is still under guarantee.""",
-                      kurdishText: """کاتژمێرەکە هێشتا (کاتی) گەرەنتی ماوە.""",
+                      kurdishText: """کاتژمێرەکە ھێشتا (کاتی) گەرەنتی ماوە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -483,7 +482,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Career success is no guarantee of happiness.""",
                       kurdishText:
-                          """سەرکەوتن لە کاردا هیچ گەرەنتی سەرکەوتن نییە.""",
+                          """سەرکەوتن لە کاردا ھیچ گەرەنتی سەرکەوتن نییە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -492,7 +491,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Arriving early is no guarantee of getting a place.""",
                       kurdishText:
-                          """زوو گەشتن هیچ مسۆگەری نابێت بۆ هەبوونی شوێنێکی باش.""",
+                          """زوو گەشتن ھیچ مسۆگەری نابێت بۆ ھەبوونی شوێنێکی باش.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -500,14 +499,14 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """There's no guarantee that she'll come (= she may not come).""",
-                      kurdishText: """هیچ مسۆگەرییەک نییە کە دێت.""",
+                      kurdishText: """ھیچ مسۆگەرییەک نییە کە دێت.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٩. (ناو) پارە یان شتێکی گران‌بەها کە بەڵێن دەدەیت بیدەیت بە بانکێک"""),
+                            """٩. (ناو) پارە یان شتێکی گران‌بەھا کە بەڵێن دەدەیت بیدەیت بە بانکێک"""),
                     SentencesRow(
                       englishText:
                           """We had to offer our house as a guarantee when getting the loan.""",
@@ -595,19 +594,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/hS2x1zl4rn0?t=';
-const double _startSecondsend = 000000000000000000000000000728;
-const String _videoIdone = 'https://youtu.be/zqllxbPWKNI?t=';
+const String _videoIdend = 'hS2x1zl4rn0';
+const double _startSecondsend = 728;
+const String _videoIdone = 'zqllxbPWKNI';
 const double _startSecondsone = 0;
-const String _videoIdtwo = 'https://youtu.be/DWmGArQBtFI?t=';
-const double _startSecondstwo = 000000000000000000000000000134;
-const String _videoIdthree = 'https://youtu.be/NLw53N3zz1Y?t=';
-const double _startSecondsthree = 00000000000000000000000000037;
-const String _videoIdfour = 'https://youtu.be/U6M-YT5kkio?t=';
-const double _startSecondsfour = 00000000000000000000000000054;
-const String _videoIdfive = 'https://youtu.be/RjDtShxr9Uc?t=';
-const double _startSecondsfive = 0000000000000000000000000001549;
+const String _videoIdtwo = 'DWmGArQBtFI';
+const double _startSecondstwo = 134;
+const String _videoIdthree = 'NLw53N3zz1Y';
+const double _startSecondsthree = 37;
+const String _videoIdfour = 'U6M-YT5kkio';
+const double _startSecondsfour = 54;
+const String _videoIdfive = 'RjDtShxr9Uc';
+const double _startSecondsfive = 1549;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

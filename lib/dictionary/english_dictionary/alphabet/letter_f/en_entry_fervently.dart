@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تامەزرۆیانە،	بە توندی
 """),
-// With short examples define "fervently", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە ھەستی بەھێز و لە دڵەوەیە سەبارەت بە شتێک """),

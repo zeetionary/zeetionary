@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێکەنینی، گاڵتەجاڕ، قەشمەری، سەیر، سەیروسەمەرە،	ناژیرانە، باوەڕپێنەکراو، ناحەز، کرێت، ناخۆش
 """),
-// With short examples define "grotesque", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) نامۆ بەشێوەیەک کە ناخۆش یان بێ‌ڕێزانەیە"""),
@@ -249,7 +248,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'y4DTW4B3Sjs';
 const double _startSecondsend = 337;
 const String _videoIdone = 'kBdfcR-8hEY';

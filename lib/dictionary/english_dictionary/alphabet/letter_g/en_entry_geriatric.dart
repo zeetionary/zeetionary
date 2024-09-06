@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "geriatric", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە ئەو بەشەی پزیشکی کە گرنگی بە چاودێری و نەخۆشی کەسانی پیر دەدات"""),
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'ShMRAN78598';
 const double _startSecondsend = 1067;
 const String _videoIdone = 'Zad6v8ZHzdg';

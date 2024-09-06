@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جێ‌پێ، ھەنگاوگە، جێگای پێ لەسەرنان،	(خوازە) جێگای لێ‌ڕابینراو، ھەل‌ومەرجی باش
 """),
-// With short examples define "foothold", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێک کە دەتوانیت پێتی لێ گیربکەیت لە کاتی سەرکەوتندا"""),

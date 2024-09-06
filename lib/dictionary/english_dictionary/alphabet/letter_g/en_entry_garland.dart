@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تاجەگوڵینە، جەلە، گوڵبەست، گوڵبەند
 """),
-// With short examples define "garland", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەستەیەک گوڵ یان گەڵا کە دەکرێتە مل یان لەسەر دەکرێت، یان بە بنبانی ژوورێکدا شۆڕدەکرێتەوە"""),

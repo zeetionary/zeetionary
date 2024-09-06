@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چەسپ، سرێش، کەتیرە، ھێلم، دەباش، دەبووش، غری
 """),
-// With short examples define "glue", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەک کە دەنووسێت بە شتەوە و پێکەوەیان دەلکێنێت"""),
@@ -274,7 +273,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '19v2oBBEz-4';
 const double _startSecondsend = 15;
 const String _videoIdone = '1a0EL1gibdU';

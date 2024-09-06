@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شێلاق‌لێدان، شێلاق‌وەشێنی،	لێدان، دارکاری، کوتەک‌کاری
 """),
-// With short examples define "flogging", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سزایەک کە کەسێک لێی دەدرێت بە جەڵد"""),

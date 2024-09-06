@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: کووز(ک)، شوێن، شەقار، کانیشکاف، ناودڵە، ناوەدڵە، پلووسک(ە)، دۆڵ(ک)، کەندەک، دێراوە، دێراوکە، چاڵک، خان، (درگا و پەنجێرە) ڕەیل،	خوو، ڕۆتین، پیشە، عادەت، ژیانی ئاسایی
 // """),
-// With short examples define "groove", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بڕینێکی باریک لە ڕووی شتێکی سەخت"""),
                     SentencesRow(
@@ -239,7 +238,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Fa13JKGG0ds';
 const double _startSecondsend = 400;
 const String _videoIdone = 'hS2x1zl4rn0';

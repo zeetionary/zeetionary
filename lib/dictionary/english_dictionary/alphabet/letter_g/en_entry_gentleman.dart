@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گەورەپیاو، پیاوی باش، پیاوی ماقووڵ،	جوامێری، مەردایەتی
 """),
-// With short examples define "gentleman", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پیاوێکی بەڕێز و ڕۆشنبیر کە ھەمیشە ھەڵسوکەوتی زۆر باشە"""),
@@ -319,7 +318,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'LXrWIFYdtCE';
 const double _startSecondsend = 468;
 const String _videoIdone = 'NpBPm0b9deQ';

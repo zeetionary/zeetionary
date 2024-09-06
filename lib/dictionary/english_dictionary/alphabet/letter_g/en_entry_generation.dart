@@ -261,7 +261,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەرھەم‌ھێنان، پێکھێنان، پەیداکردن، دروست‌کردن،	زاوزێ، پەیداکردن، وەچەخستنەوە،	وەچە، بەرە، پشت، نفش، نەوە، دەڤل
 """),
-// With short examples define "generation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نەوە؛ ھەموو ئەو کەسانەی کە لە ماوەیەکدا لە دایکبوونە"""),
@@ -472,7 +471,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tXjHb5QmDV0';
 const double _startSecondsend = 1138;
 const String _videoIdone = 'kXShLPXfWZA';

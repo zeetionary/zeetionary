@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەشتی‌گەل، کەشتیمەنی، گەلەکەشتی، دەستەکەشتی
 """),
-// With short examples define "fleet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ژمارەیەک کەشتی جەنگی کە یەک کەس سەرپەرشتیان دەکات"""),

@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڤیۆڵۆن، کەمان،	تەڵەکەبازی، فێڵ‌وتەڵەکە، فرت‌وفێڵ، گزەونی
 """),
-// With short examples define "fiddle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) دەستدان لە شتێک بە دەستت و جوڵاندنی، بەتایبەتی کە بێزاریت یان شڵەژاویت"""),

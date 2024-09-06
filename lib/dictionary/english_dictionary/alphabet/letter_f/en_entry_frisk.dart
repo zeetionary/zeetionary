@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پشکنین، گیان‌گەڕان،	ھەڵبەزودابەز، ھەڵپەڕوداپەڕ، فڕک‌وھۆڕ، قوەتەقشقەنە
 """),
-// With short examples define "frisk", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) گەڕان بۆ چەک، مادەی ھۆشبەر، ھتد بەوەی دەست بھێنیت بە لاشەی کەسێکدا"""),

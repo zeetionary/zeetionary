@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێڕەو، پیادەڕۆ، پیادھڕێ
 """),
-// With short examples define "footer", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نووسراوێک کە لە بەشی خوارەوەی ھەموو پەڕەیەک دەردەکەوێت کە لە کۆمپیوتەرێک چاپکراوە"""),

@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "GNP", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بەھای تەواوی ئەو کەلووپەل و خزمەتگوزارییانەی لەلایەن ھاوڵاتیانی وڵاتێکەوە بەرھەمھێندراوە، چی لە ناوخۆ یان یان دەرەوەی وڵات"""),
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'IPffjpXKcFk';
 const double _startSecondsend = 191;
 const String _videoIdone = 'P7_aKYU95jk';

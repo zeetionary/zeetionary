@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فۆلکلۆر، زارگوتن، کەلەپوور
 """),
-// With short examples define "folklore", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) نەریت و چیرۆکی کۆمەڵگا یان وڵاتێک"""),
                     SentencesRow(

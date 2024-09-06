@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gymnast", please follow LX instructions
                     const DividerDefinition(),
                     CustomRichText(
                       textBeforeLink: "١. کەسێک کە کاری ",
@@ -169,7 +168,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Young gymnasts have to train for up to five hours a day.""",
                       kurdishText:
-                          """جیمناستە گەنجەکان دەبێت بۆ سەروو پێنج کاتژمێر لە ڕۆژێکدا ڕاهێنان بکەن.""",
+                          """جیمناستە گەنجەکان دەبێت بۆ سەروو پێنج کاتژمێر لە ڕۆژێکدا ڕاھێنان بکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -177,7 +176,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """He swung down from the tree like a gymnast.""",
-                      kurdishText: """وەک جیمناستێک لە دارەکە هاتە خوارەوە.""",
+                      kurdishText: """وەک جیمناستێک لە دارەکە ھاتە خوارەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -248,19 +247,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/wNZ2K3z-uoQ?t=';
-const double _startSecondsend = 00000000000000000000000000057;
-const String _videoIdone = 'https://youtu.be/9bLNQVcN_IM';
+const String _videoIdend = 'wNZ2K3z-uoQ';
+const double _startSecondsend = 57;
+const String _videoIdone = '9bLNQVcN_IM';
 const double _startSecondsone = 0;
-const String _videoIdtwo = 'https://youtu.be/RnyK-boMINE';
+const String _videoIdtwo = 'RnyK-boMINE';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/zHX0H7FAym0?t=';
-const double _startSecondsthree = 000000000000000000000000000234;
-const String _videoIdfour = 'https://youtu.be/i1Ke14lne9M?t=';
-const double _startSecondsfour = 000000000000000000000000000194;
-const String _videoIdfive = 'https://youtu.be/prdJbeyyPo0?t=';
-const double _startSecondsfive = 00000000000000000000000000057;
+const String _videoIdthree = 'zHX0H7FAym0';
+const double _startSecondsthree = 234;
+const String _videoIdfour = 'i1Ke14lne9M';
+const double _startSecondsfour = 194;
+const String _videoIdfive = 'prdJbeyyPo0';
+const double _startSecondsfive = 57;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

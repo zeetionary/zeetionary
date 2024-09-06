@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flippancy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی شتێک بە جدی نابینیت، یان بەو شێوەیەی کە کەسانی دیکە چاوەڕێ دەکەن"""),

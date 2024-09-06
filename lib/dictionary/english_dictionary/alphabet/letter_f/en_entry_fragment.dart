@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەش، پشک، پارچە، پار، کوت، بڕشت، تەڵەزم، لەت، قل، پەنچک، پرزۆڵ؛ بەشێکی ناتەواو یان دابڕاو
 """),
-// With short examples define "fragment", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشێکی کە لە شتێکی گەورەتر لێبووەتەوە"""),

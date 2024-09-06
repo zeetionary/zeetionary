@@ -248,7 +248,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەروازە، درگا(ی گەورە)، دەرکە، درگای حەوشە،	ژوورگە، ڕێگا، ڕێی چوونەژوورەوە،	(بەنداو) زمانە، دەروازە،	شوێنی ھاتنەدەر و چوونەژوورەوە،	ژمارەی سەیرکەران یان چاولێکەران
 """),
-// With short examples define "gate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەرگای پەرژینێک یان دەروازەی دیواری دەرەوەی بینایەک"""),

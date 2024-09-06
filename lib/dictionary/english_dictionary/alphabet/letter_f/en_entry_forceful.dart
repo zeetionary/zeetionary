@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پتەو، بەھێز، تۆکمە،	بەزەبر، بەھێز، کاریگەر، کاری، چالاک،	بڕا، یەکلایی‌کەرەوە، توند، سەخت،	زۆرەملی، بەزۆری
 """),
-// With short examples define "forceful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) دەربڕینی بۆچوون بە بەھێزی و ڕوونی بە شێوەیەک کە کەسانی دیکە ڕازی دەکات باوەڕ بکەن"""),

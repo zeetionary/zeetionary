@@ -273,7 +273,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دوایین، کۆتایی، ئەنجامی، ئاخر، ئاخری، دوایی، ھەرەدوایی،	یەکلایی‌کەرەوە، بێ‌چەندوچۆن، بێ‌ئەوملاوئەولا،	دواپێشبڕکێ
 """),
-// With short examples define "final", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە کۆتا دانەیە یان کۆتا جار ڕوودەدات"""),

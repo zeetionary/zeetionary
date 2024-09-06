@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترسێنەر، تۆقێنەر، یەکجار خراپ، بێزاوی، ناخۆش، قەبە، گەورە، زلە،	نەخۆش، ناساز،	خەمبار، لێوبەبار، ڕەنگ‌زەرد، ڕەنگ‌مردوو،	تارمایی‌ئاسا
 """),
-// With short examples define "ghastly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) زۆر ترسناک یان ناخۆش، بەھۆی ئەوەی مردن، ئازار، ھتد لەخۆدەگرێت"""),
@@ -309,7 +308,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'S-4rhjO6xYg';
 const double _startSecondsend = 198;
 const String _videoIdone = '8eq2vGEEbB4';

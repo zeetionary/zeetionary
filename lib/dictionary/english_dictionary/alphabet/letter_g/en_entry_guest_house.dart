@@ -147,7 +147,7 @@ ${englishMeaningConst.text}
 // """),
 // With short examples define "guest house", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) میوانخانە؛ هوتێلێکی بچووک"""),
+                        text: """١. (ناو) میوانخانە؛ ھوتێلێکی بچووک"""),
                     SentencesRow(
                       englishText:
                           """It is a comfortable family-run guest house near the beach.""",
@@ -223,19 +223,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/YLmDE_JYUNU?t=';
-const double _startSecondsend = 000000000000000000000000000168;
-const String _videoIdone = 'https://youtu.be/n50DZvVAulM?t=';
-const double _startSecondsone = 000000000000000000000000000554;
-const String _videoIdtwo = 'https://youtu.be/knjliFs3gR8?t=';
-const double _startSecondstwo = 000000000000000000000000000377;
-const String _videoIdthree = 'https://youtu.be/wlbO-DyxwYA?t=';
-const double _startSecondsthree = 000000000000000000000000000552;
-const String _videoIdfour = 'https://youtu.be/nQEOK8I-Czc?t=';
-const double _startSecondsfour = 00000000000000000000000000039;
-const String _videoIdfive = 'https://youtu.be/X1ncuW-bLsw?t=';
-const double _startSecondsfive = 000000000000000000000000000909;
+const String _videoIdend = 'YLmDE_JYUNU';
+const double _startSecondsend = 168;
+const String _videoIdone = 'n50DZvVAulM';
+const double _startSecondsone = 554;
+const String _videoIdtwo = 'knjliFs3gR8';
+const double _startSecondstwo = 377;
+const String _videoIdthree = 'wlbO-DyxwYA';
+const double _startSecondsthree = 552;
+const String _videoIdfour = 'nQEOK8I-Czc';
+const double _startSecondsfour = 39;
+const String _videoIdfive = 'X1ncuW-bLsw';
+const double _startSecondsfive = 909;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "giraffe", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئاژەڵێکی ئەفریقی درێژ کە مل و لاقی درێژی ھەیە"""),
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '2WMOOA2ZM0w';
 const double _startSecondsend = 94;
 const String _videoIdone = 'MlQJ3saQ66I';

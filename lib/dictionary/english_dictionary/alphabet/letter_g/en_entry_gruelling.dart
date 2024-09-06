@@ -152,9 +152,8 @@ Usage: Brit, Cdn (US: grueling)
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: سەخت، گران، دژوار، قورس، چەتوون، ئاسێ، ڕیشەدەرهێن، پڕئەرک، زەحمەتاوی، ساحەب‌ماندوو
+کوردی: سەخت، گران، دژوار، قورس، چەتوون، ئاسێ، ڕیشەدەرھێن، پڕئەرک، زەحمەتاوی، ساحەب‌ماندوو
 """),
-// With short examples define "gruelling", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زۆر سەختە و وات لێ دەکات زۆر ماندوو بیت"""),
@@ -241,19 +240,18 @@ Usage: Brit, Cdn (US: grueling)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/y-E_n0q0ttI?t=';
-const double _startSecondsend = 000000000000000000000000000756;
-const String _videoIdone = 'https://youtu.be/MgSgkNiEQuA?t=';
-const double _startSecondsone = 000000000000000000000000000404;
-const String _videoIdtwo = 'https://youtu.be/K6R_eFCcVfM?t=';
-const double _startSecondstwo = 000000000000000000000000000416;
-const String _videoIdthree = 'https://youtu.be/G6A_7KS-eOY?t=';
-const double _startSecondsthree = 000000000000000000000000000264;
-const String _videoIdfour = 'https://youtu.be/1cod1XavsnA?t=';
-const double _startSecondsfour = 000000000000000000000000000239;
-const String _videoIdfive = 'https://youtu.be/gE82LsvGujI?t=';
-const double _startSecondsfive = 000000000000000000000000000910;
+const String _videoIdend = 'y-E_n0q0ttI';
+const double _startSecondsend = 756;
+const String _videoIdone = 'MgSgkNiEQuA';
+const double _startSecondsone = 404;
+const String _videoIdtwo = 'K6R_eFCcVfM';
+const double _startSecondstwo = 416;
+const String _videoIdthree = 'G6A_7KS-eOY';
+const double _startSecondsthree = 264;
+const String _videoIdfour = '1cod1XavsnA';
+const double _startSecondsfour = 239;
+const String _videoIdfive = 'gE82LsvGujI';
+const double _startSecondsfive = 910;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

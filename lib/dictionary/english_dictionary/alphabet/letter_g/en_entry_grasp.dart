@@ -265,7 +265,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گرتن، گیرلێ‌ھێنان، گیر، چنگ‌لێ‌گیرکردن،	چنگ، مشت،	دەسەڵات، کۆنتڕۆڵ، زاڵی،	پێ‌پێبردن، تێگەیشتن، سەرلێ‌دەرکردن، سەرەندەرکردن، پێ‌زانین،	دەس‌پێ‌ڕاگەیشتن
 """),
-// With short examples define "grasp", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) گرتنی شتێک/کەسێک بە توندی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: grip"),
@@ -468,7 +467,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'dqcSk-EDrRo';
 const double _startSecondsend = 437;
 const String _videoIdone = 'W2hRTTTpmr8';

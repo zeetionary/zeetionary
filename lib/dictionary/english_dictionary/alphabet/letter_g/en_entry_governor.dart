@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ستان‌وان، ستانەوان، پارێزگار،	دەسەڵات‌دار، حاکم، حوکم‌ڕان
 """),
-// With short examples define "governor", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە حکومڕانی ھەرێم یان وڵاتێکە کە لەلایەن وڵاتێکی دیکەوە بەڕێوە دەبرێت"""),
@@ -298,7 +297,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'toVfvRhWbj8';
 const double _startSecondsend = 655;
 const String _videoIdone = 'QLq6GEiHqR8';

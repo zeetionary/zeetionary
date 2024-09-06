@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئارام‌لێ‌ھەڵگیراو، بزێو، نەسرەوتوو، بێ‌وەقرە، بێ‌سرەوت، ژان‌کردوو، حەجمین‌لێ‌بڕاو، بەجرت‌وفرت، جرپن، بەپەلەپڕووزەکەوتوو
 """),
-// With short examples define "fidgety", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کەسێک کە ناوانێت لە شوێنێک دابنیشێت، زۆرجار بەھۆی شڵەژاوی یان بێزاری"""),

@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flashily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە سەرنج ڕادەکێشێت بە لەبەرکردنی جلی گران‌بەھا یان بەوەی کە درەوشاوەیە، گران‌بەھایە، گەورەیە، ھتد"""),

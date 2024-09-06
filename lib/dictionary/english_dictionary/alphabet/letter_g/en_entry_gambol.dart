@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەڵبەزودابەز، ھەڵبزۆق، ھەڵپەڕوداپەڕ، قلەسەما
 """),
-// With short examples define "gambol", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ڕاکردن و بازدان بە دڵخۆشییەوە"""),
                     SentencesRow(

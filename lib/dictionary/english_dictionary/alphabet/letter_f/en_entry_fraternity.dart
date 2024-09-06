@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: برایەتی، برادەری، دۆستایەتی،	کۆڕ، کۆمەڵە (ڕێکخراو بۆ مەبەستێکی ھاوبەش)،	یەکێتی
 """),
-// With short examples define "fraternity", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گرووپێک کەس کە ھەمان کار، بەرژەوەندی و باوەڕیان ھەیە"""),

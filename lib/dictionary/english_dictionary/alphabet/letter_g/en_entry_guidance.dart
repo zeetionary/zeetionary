@@ -166,7 +166,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕێنوێنی، بەڕێبەری، ڕێبەری، ڕێ‌نیشان‌دان،	پرس‌وڕا، ڕاوێژ(کاری)، شیرەت،	ئاراستەکردن، بەرێدابردن، ڕێبەرایەتی، ڕێبەری، ڕێبەری‌کردن
 """),
-// With short examples define "guidance", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یارمەتی و ڕێنمایی کە بە کەسێک دەدرێت، بە تایبەتی لەلایەن کەسێکەوە کە ئەزموونی زیاترە"""),
@@ -174,7 +173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Activities all take place under the guidance of an experienced tutor.""",
                       kurdishText:
-                          """چالاکییەکانی هەموو لە ژێر ڕێنمایی فێرکارێکی بە ئەزموون دەبن.""",
+                          """چالاکییەکانی ھەموو لە ژێر ڕێنمایی فێرکارێکی بە ئەزموون دەبن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -183,7 +182,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The helpline was set up for young people in need of guidance and support.""",
                       kurdishText:
-                          """هێڵە فریاگوزارییەکە درووستکرا بۆ ئەو کەسانەی کە پێویستییان بە ڕێنمایی و پشتگیرییە.""",
+                          """ھێڵە فریاگوزارییەکە درووستکرا بۆ ئەو کەسانەی کە پێویستییان بە ڕێنمایی و پشتگیرییە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -263,19 +262,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Mx8JkGHaGUI?t=';
-const double _startSecondsend = 00000000000000000000000000035;
-const String _videoIdone = 'https://youtu.be/544DTGHIBM0?t=';
-const double _startSecondsone = 000000000000000000000000000355;
-const String _videoIdtwo = 'https://youtu.be/HAnw168huqA?t=';
-const double _startSecondstwo = 0000000000000000000000000003471;
-const String _videoIdthree = 'https://youtu.be/q7JDYiLz9Mo?t=';
-const double _startSecondsthree = 0000000000000000000000000009;
-const String _videoIdfour = 'https://youtu.be/wJa5Ch0O4BI?t=';
-const double _startSecondsfour = 0000000000000000000000000006051;
-const String _videoIdfive = 'https://youtu.be/iDNZGw6uWZg?t=';
-const double _startSecondsfive = 000000000000000000000000000501;
+const String _videoIdend = 'Mx8JkGHaGUI';
+const double _startSecondsend = 35;
+const String _videoIdone = '544DTGHIBM0';
+const double _startSecondsone = 355;
+const String _videoIdtwo = 'HAnw168huqA';
+const double _startSecondstwo = 3471;
+const String _videoIdthree = 'q7JDYiLz9Mo';
+const double _startSecondsthree = 9;
+const String _videoIdfour = 'wJa5Ch0O4BI';
+const double _startSecondsfour = 6051;
+const String _videoIdfive = 'iDNZGw6uWZg';
+const double _startSecondsfive = 501;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

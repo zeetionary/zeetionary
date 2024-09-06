@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تۆپێن، تۆپی‌پێ، گۆڵانێ، گۆگاپێ، تۆپی تۆپێن،	کێشە، گێچەڵ، گرفت، جوڕڕە
 """),
-// With short examples define "football", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تۆپی پێ؛ یارییەک کە لە دوو تیمی ١١ یاریزانی پێکدێت و ھەر تیمێک ھەوڵ دەدات تۆپەکە بخاتە گۆڵی تیمەکەی دیکە"""),

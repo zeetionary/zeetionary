@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: توند، بە توندی،	گڕگرتووانە
 """),
-// With short examples define "fierily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە ڕەنگی سووری ڕۆشنی وەک ئاگر"""),

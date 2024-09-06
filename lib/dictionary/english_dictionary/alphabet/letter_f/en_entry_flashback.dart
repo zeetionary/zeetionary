@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فلاشباک، گەڕانەوە بۆ ڕابردوو، بۆ دواوە گەڕانەوە، پاش‌گەڕانەوە، دیمەنی بۆ پاشەوەچوو، پاش‌چوونەوە
 """),
-// With short examples define "flashback", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشێکی فیلمێک، شانۆیەک، ھتد کە دیمەنێک پیشان دەدات کە پێش کاتی چیرۆکە سەرەکییەکە ڕوویداوە"""),

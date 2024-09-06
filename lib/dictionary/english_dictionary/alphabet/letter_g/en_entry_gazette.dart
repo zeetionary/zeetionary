@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕۆژنامەی فەرمی، ڕۆژنامە
 """),
-// With short examples define "gazette", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕۆژنامەی دامەزراوەیەک کە زانیاری گرنگ کەخۆدەگرێت لەسەر ئەو بڕیارانەی کە دراون، یان ئەو کەسانەی کە بە کرێ گیردراون؛ ھەندێک ڕۆژنامە لە ناوەکانیان بەکاری دەھێنن"""),

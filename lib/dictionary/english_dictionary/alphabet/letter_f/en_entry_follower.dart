@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مرید، شاگرد، دواکەوتوو، شوێن‌کەوتوو، تەک‌کەوتوو، پەیڕەو، دواڕەو، لایەنگر، پشتیوان
 """),
-// With short examples define "follower", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە شوێن کەسێک یان باوەڕێک دەکەوێت"""),

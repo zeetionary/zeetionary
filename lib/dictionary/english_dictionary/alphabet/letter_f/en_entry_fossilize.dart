@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fossilize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) واکردنی ئەوەی ئاژەڵێک یان ڕووەکێکی مردوو ببێت بە بەرد"""),

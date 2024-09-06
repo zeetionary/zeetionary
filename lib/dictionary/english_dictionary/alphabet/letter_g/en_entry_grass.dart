@@ -219,7 +219,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گیا، چیمەن، سەوزەگیا، چیم، بژوێن، زەمەن، چرگ، چەولیک، جێ‌لەوەڕ، مێرگ، گیاجاڕ
 """),
-// With short examples define "grass", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕووەکێکی باوی دەشتەکی کە گەڵای باریکی ھەیە و قەدەکەی مانگا، ئەسپ، مەڕ، ھتد دەخورێت؛ ھەر جۆرە گیایەکی وەھا"""),
@@ -353,7 +352,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'HUsIcK1a4B0';
 const double _startSecondsend = 271;
 const String _videoIdone = '-GlJFVTzEsI';

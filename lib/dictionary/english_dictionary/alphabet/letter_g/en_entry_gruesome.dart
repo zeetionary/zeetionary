@@ -148,7 +148,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) زۆر ترسناک و تۆقێنەر بەهۆی ئەوەی پەیوەندیدارە بە برین و مردن"""),
+                            """١. (ھاوەڵناو) زۆر ترسناک و تۆقێنەر بەھۆی ئەوەی پەیوەندیدارە بە برین و مردن"""),
                     SentencesRow(
                       englishText:
                           """The website was full of gruesome pictures of dead bodies.""",
@@ -224,19 +224,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/m0gZ0TfZq3U?t=';
-const double _startSecondsend = 000000000000000000000000000610;
-const String _videoIdone = 'https://youtu.be/YkmlPaGui5k?t=';
-const double _startSecondsone = 000000000000000000000000000306;
-const String _videoIdtwo = 'https://youtu.be/8eq2vGEEbB4?t=';
-const double _startSecondstwo = 000000000000000000000000000256;
-const String _videoIdthree = 'https://youtu.be/qg2nGY1aqlg?t=';
-const double _startSecondsthree = 000000000000000000000000000824;
-const String _videoIdfour = 'https://youtu.be/wrsUbwKGuko?t=';
-const double _startSecondsfour = 0000000000000000000000000001669;
-const String _videoIdfive = 'https://youtu.be/KZbzIf_C6Y4?t=';
-const double _startSecondsfive = 000000000000000000000000000554;
+const String _videoIdend = 'm0gZ0TfZq3U';
+const double _startSecondsend = 610;
+const String _videoIdone = 'YkmlPaGui5k';
+const double _startSecondsone = 306;
+const String _videoIdtwo = '8eq2vGEEbB4';
+const double _startSecondstwo = 256;
+const String _videoIdthree = 'qg2nGY1aqlg';
+const double _startSecondsthree = 824;
+const String _videoIdfour = 'wrsUbwKGuko';
+const double _startSecondsfour = 1669;
+const String _videoIdfive = 'KZbzIf_C6Y4';
+const double _startSecondsfive = 554;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

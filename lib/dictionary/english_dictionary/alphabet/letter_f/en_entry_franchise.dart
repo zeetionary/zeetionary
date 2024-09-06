@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مافی دەنگ‌دان،	مافی ھەڵبژاردن،	دەستوورنامە،	نوێنەرایەتی (فرۆشتن)، بریکاری،	تایبەت‌ماف، مافی تایبەتی، ئازادی، ئیمتیاز،	(وەرزش) تیمی پیشەیی، ھیوای تیم
 """),
-// With short examples define "franchise", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مۆڵەتی فەرمیی کۆمپانیایەک بە کەسێک کە دەیەوێت بەرھەمەکانی لە شوێنێکی دیاریکراودا بفرۆشێت"""),

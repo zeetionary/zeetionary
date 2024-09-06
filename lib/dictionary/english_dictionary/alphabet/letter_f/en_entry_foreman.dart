@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرکار، سەرکرێکار، سەرپاڵە، سەرکاریگەر
 """),
-// With short examples define "foreman", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کرێکارێکی پیاو کە سەرپەرشتی کرێکارەکانی دیکە دەکات لە کارگەیەک یان بینایەک"""),

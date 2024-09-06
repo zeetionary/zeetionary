@@ -4071,8 +4071,6 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cudgel.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cue.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cuff.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_handcuffs.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_handcuff.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cufflink.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cuisine.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cul_de_sac.dart';

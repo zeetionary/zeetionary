@@ -230,7 +230,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دوایی، دواتر، پاش‌تر، ـتر، ـدی، ژێرەوە، خوارەوە، بنەوە،	بای یەک‌کەوتوو، بای ڕاستەوانە، بە دوای، لە پاش، لە دوای، لە ئەنجامی، دوابەدوای، ل دووڤ، مریدان، شاگردان، دواکەوتووان، شوێنکەوتووان، پەیڕەوان، تەککەوتووان، لایەنگران، پشتیوانان
 """),
-// With short examples define "following", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە دواتر باس دەکرێت"""),
                     SentencesRow(

@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕەچەڵەک‌ناسی‌یانە، سەربە ڕەچەڵەک‌ناسی
 """),
-// With short examples define "genealogical", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە لێکۆڵینەوە لە مێژووی خێزانی، بە تایبەتی باوانی کەسێکی دیاریکراو"""),

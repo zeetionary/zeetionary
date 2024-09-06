@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gland", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەندامێکی جەستە کە شتێک بەرھەم دەھێنێت بۆ بەکارھێنان"""),
@@ -234,7 +233,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'U3fiNLR1SeQ';
 const double _startSecondsend = 0;
 const String _videoIdone = 'e5qRPcuKijQ';

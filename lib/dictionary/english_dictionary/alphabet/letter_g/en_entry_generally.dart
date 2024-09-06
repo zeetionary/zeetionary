@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەگشتی، بە تەواوەتی، زۆرتر
 """),
-// With short examples define "generally", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) لە لایەن زۆرینەی خەڵکی؛ بۆ زۆرینەی خەڵکی"""),

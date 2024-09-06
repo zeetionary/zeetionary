@@ -228,7 +228,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پاڵێوک، پاڵێونە، پاڵوێنە، پاڵێوکە، پارزنۆک، دابێژە، ئاوپاڵێو
 """),
-// With short examples define "filter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئامێرێک کە کاغەز، خۆڵ، مادەی کیمیایی، ھتد لەخۆدەگرێت و شلە یان گاز بەناویدا تێدەپەڕێت بۆ سڕینەوەی ھەر مادەیەکی نەویستراو"""),

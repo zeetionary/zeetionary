@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gleefully", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) دڵخۆشانە، بە تایبەتی بەھۆی ئەوەی شتێکی باشت کردووە یان شتێکی خراپ بەسەر کەسێک ھاتووە"""),
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'WtAoc3_1Ido';
 const double _startSecondsend = 636;
 const String _videoIdone = '_fnhy5xO9vQ';

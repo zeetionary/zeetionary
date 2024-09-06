@@ -151,7 +151,7 @@ Usage: Brit
 // \b(the gutter press)(s|ed|es|ing)?\b(?=[.!?]?)
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەو ڕۆژنامانەی کە زیاتر چیرۆکی ژیانی خەڵک پۆست دەکەن وەک لە هەواڵی گرنگ"""),
+                            """١. (ناو) ئەو ڕۆژنامانەی کە زیاتر چیرۆکی ژیانی خەڵک پۆست دەکەن وەک لە ھەواڵی گرنگ"""),
                     SentencesRow(
                       englishText:
                           """The gutter press thrives on celebrity gossip and fabricated scandals.""",
@@ -227,19 +227,18 @@ Usage: Brit
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/NpqrlU--h4s?t=';
-const double _startSecondsend = 000000000000000000000000000522;
-const String _videoIdone = 'https://youtu.be/WzoTrzKehRI?t=';
-const double _startSecondsone = 0000000000000000000000000001024;
-const String _videoIdtwo = 'https://youtu.be/ziXldwf0sMc?t=';
-const double _startSecondstwo = 000000000000000000000000000162;
-const String _videoIdthree = 'https://youtu.be/tRzoJ-4iyk4?t=';
-const double _startSecondsthree = 000000000000000000000000000543;
-const String _videoIdfour = 'https://youtu.be/r49H2xtSXSc?t=';
-const double _startSecondsfour = 0000000000000000000000000004339;
-const String _videoIdfive = 'https://youtu.be/P_qy_38vFCQ?t=';
-const double _startSecondsfive = 0000000000000000000000000006155;
+const String _videoIdend = 'NpqrlU--h4s';
+const double _startSecondsend = 522;
+const String _videoIdone = 'WzoTrzKehRI';
+const double _startSecondsone = 1024;
+const String _videoIdtwo = 'ziXldwf0sMc';
+const double _startSecondstwo = 162;
+const String _videoIdthree = 'tRzoJ-4iyk4';
+const double _startSecondsthree = 543;
+const String _videoIdfour = 'r49H2xtSXSc';
+const double _startSecondsfour = 4339;
+const String _videoIdfive = 'P_qy_38vFCQ';
+const double _startSecondsfive = 6155;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

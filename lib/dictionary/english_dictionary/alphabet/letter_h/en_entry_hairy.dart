@@ -155,23 +155,22 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تووکن، پڕتووک، تووکاوی، تیسکن، موواوی، قژن، کوڵکن، تووک‌ئاسا، مووئاسا
 """),
-// With short examples define "hairy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە قژ و مووی زۆری پێوەیە"""),
                     SentencesRow(
                       englishText: """Many men have a hairy chest.""",
-                      kurdishText: """زۆر پیاو سنگی تووکنیان هەیە.""",
+                      kurdishText: """زۆر پیاو سنگی تووکنیان ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ھاوەڵناو) مەترسیدار و بەجۆشهێنەر"""),
+                        text: """٢. (ھاوەڵناو) مەترسیدار و بەجۆشھێنەر"""),
                     SentencesRow(
                       englishText:
                           """Driving on icy roads can be pretty hairy.""",
                       kurdishText:
-                          """شۆفێری لەسەر ڕێگای سەهۆڵاوی دەکرێت تەواو مەترسیدار بێت.""",
+                          """شۆفێری لەسەر ڕێگای سەھۆڵاوی دەکرێت تەواو مەترسیدار بێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -242,19 +241,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/XG8b7WhANNA?t=';
-const double _startSecondsend = 00000000000000000000000000056;
-const String _videoIdone = 'https://youtu.be/q9RMyg80KfU?t=';
-const double _startSecondsone = 000000000000000000000000000347;
-const String _videoIdtwo = 'https://youtu.be/Ihoys69G56U?t=';
-const double _startSecondstwo = 000000000000000000000000000509;
-const String _videoIdthree = 'https://youtu.be/lsbcN9-jU1Y?t=';
-const double _startSecondsthree = 0000000000000000000000000001177;
-const String _videoIdfour = 'https://youtu.be/SiUotSKZUtM?t=';
-const double _startSecondsfour = 000000000000000000000000000461;
-const String _videoIdfive = 'https://youtu.be/Sv_hGITmNuo?t=';
-const double _startSecondsfive = 00000000000000000000000000072;
+const String _videoIdend = 'XG8b7WhANNA';
+const double _startSecondsend = 56;
+const String _videoIdone = 'q9RMyg80KfU';
+const double _startSecondsone = 347;
+const String _videoIdtwo = 'Ihoys69G56U';
+const double _startSecondstwo = 509;
+const String _videoIdthree = 'lsbcN9-jU1Y';
+const double _startSecondsthree = 1177;
+const String _videoIdfour = 'SiUotSKZUtM';
+const double _startSecondsfour = 461;
+const String _videoIdfive = 'Sv_hGITmNuo';
+const double _startSecondsfive = 72;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

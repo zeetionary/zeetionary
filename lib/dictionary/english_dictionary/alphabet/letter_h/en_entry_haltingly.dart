@@ -153,10 +153,9 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "haltingly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە زووزوو دەوەستێت و دەست پێدەکات، بە تایبەتی بەهۆی ئەوەی دڵنیا نیت یان متمانەت کەمە"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە زووزوو دەوەستێت و دەست پێدەکات، بە تایبەتی بەھۆی ئەوەی دڵنیا نیت یان متمانەت کەمە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: hesitantly"),
                     SentencesRow(
                       englishText: """She walks haltingly toward him.""",
@@ -240,19 +239,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/zWbv1wm71gs?t=';
-const double _startSecondsend = 000000000000000000000000000957;
-const String _videoIdone = 'https://youtu.be/AIwecx6ZgJk?t=';
-const double _startSecondsone = 000000000000000000000000000435;
-const String _videoIdtwo = 'https://youtu.be/A2M41XiIhlA?t=';
-const double _startSecondstwo = 000000000000000000000000000403;
-const String _videoIdthree = 'https://youtu.be/qPuhGlsrOOQ?t=';
-const double _startSecondsthree = 000000000000000000000000000711;
-const String _videoIdfour = 'https://youtu.be/umYzr-jUIww?t=';
-const double _startSecondsfour = 0000000000000000000000000001623;
-const String _videoIdfive = 'https://youtu.be/9yqPpzdUirU?t=';
-const double _startSecondsfive = 0000000000000000000000000005896;
+const String _videoIdend = 'zWbv1wm71gs';
+const double _startSecondsend = 957;
+const String _videoIdone = 'AIwecx6ZgJk';
+const double _startSecondsone = 435;
+const String _videoIdtwo = 'A2M41XiIhlA';
+const double _startSecondstwo = 403;
+const String _videoIdthree = 'qPuhGlsrOOQ';
+const double _startSecondsthree = 711;
+const String _videoIdfour = 'umYzr-jUIww';
+const double _startSecondsfour = 1623;
+const String _videoIdfive = '9yqPpzdUirU';
+const double _startSecondsfive = 5896;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

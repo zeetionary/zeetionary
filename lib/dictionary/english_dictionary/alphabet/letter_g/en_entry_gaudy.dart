@@ -149,7 +149,6 @@ Usage: Brit
                     const KurdishVocabulary(text: """
 کوردی: بەزریقەوبریقە، ورشن، زەق، بەئاڵاوواڵا، سەیر، بریقەدار
 """),
-// With short examples define "gaudy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زۆر ڕەنگینە بەشێوەیەک کە جوان نییە"""),

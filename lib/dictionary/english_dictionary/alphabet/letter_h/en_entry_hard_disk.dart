@@ -153,7 +153,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The records will be stored on the computer's hard disk.""",
                       kurdishText:
-                          """تۆمارەکان لەسەر پەپکەڕەقەی کۆمپیوتەرەکە هەڵدەگیرێن.""",
+                          """تۆمارەکان لەسەر پەپکەڕەقەی کۆمپیوتەرەکە ھەڵدەگیرێن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -224,19 +224,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/d86ws7mQYIg?t=';
-const double _startSecondsend = 000000000000000000000000000897;
-const String _videoIdone = 'https://youtu.be/gO-V8E9MIBg?t=';
-const double _startSecondsone = 0000000000000000000000000001105;
-const String _videoIdtwo = 'https://youtu.be/AvXXkB2jic0?t=';
-const double _startSecondstwo = 0000000000000000000000000001166;
-const String _videoIdthree = 'https://youtu.be/Ia-UEYYR44s?t=';
-const double _startSecondsthree = 00000000000000000000000000021219;
-const String _videoIdfour = 'https://youtu.be/8rxssVFeKr8?t=';
-const double _startSecondsfour = 000000000000000000000000000342;
-const String _videoIdfive = 'https://youtu.be/hn3me6w_dE8?t=';
-const double _startSecondsfive = 00000000000000000000000000098;
+const String _videoIdend = 'd86ws7mQYIg';
+const double _startSecondsend = 897;
+const String _videoIdone = 'gO-V8E9MIBg';
+const double _startSecondsone = 1105;
+const String _videoIdtwo = 'AvXXkB2jic0';
+const double _startSecondstwo = 1166;
+const String _videoIdthree = 'Ia-UEYYR44s';
+const double _startSecondsthree = 21219;
+const String _videoIdfour = '8rxssVFeKr8';
+const double _startSecondsfour = 342;
+const String _videoIdfive = 'hn3me6w_dE8';
+const double _startSecondsfive = 98;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

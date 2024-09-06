@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کاڕێژ، گاراج، ڕاگرتنگە، شوێنی چاک‌کردنەوە
 """),
-// With short examples define "garage", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بینایەک بۆ ڕاگرتنی ئۆتۆمبێل تێیدا"""),
                     SentencesRow(

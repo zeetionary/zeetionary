@@ -156,7 +156,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەسێک کە لە فرۆشگایەک کار دەکات کە کەرەستەی بچووکی دروومان دەفرۆشێت، بۆ نموونە دەرزی، بەکرە، دوگمە، هتد؛ فرۆشگایەک کە ئەم شتانە دەفرۆشێت"""),
+                            """١. (ناو) کەسێک کە لە فرۆشگایەک کار دەکات کە کەرەستەی بچووکی دروومان دەفرۆشێت، بۆ نموونە دەرزی، بەکرە، دوگمە، ھتد؛ فرۆشگایەک کە ئەم شتانە دەفرۆشێت"""),
                     SentencesRow(
                       englishText:
                           """He bought a new tie from the haberdasher.""",
@@ -172,7 +172,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The haberdasher stocked a variety of brands.""",
                       kurdishText:
-                          """جلفرۆشەکە ژمارەیەک براندی جیاوازی هەبوو.""",
+                          """جلفرۆشەکە ژمارەیەک براندی جیاوازی ھەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -243,19 +243,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Ok4ZW9cNupc?t=';
-const double _startSecondsend = 0000000000000000000000000006214;
-const String _videoIdone = 'https://youtu.be/DMCgve6PAOI?t=';
-const double _startSecondsone = 000000000000000000000000000359;
-const String _videoIdtwo = 'https://youtu.be/aGOV5R7M1Js?t=';
-const double _startSecondstwo = 0000000000000000000000000003067;
-const String _videoIdthree = 'https://youtu.be/5g8vbTne6Iw?t=';
-const double _startSecondsthree = 000000000000000000000000000870;
-const String _videoIdfour = 'https://youtu.be/9I4woKy-_50?t=';
-const double _startSecondsfour = 00000000000000000000000000058;
-const String _videoIdfive = 'https://youtu.be/SVBVnp7_csY?t=';
-const double _startSecondsfive = 000000000000000000000000000739;
+const String _videoIdend = 'Ok4ZW9cNupc';
+const double _startSecondsend = 6214;
+const String _videoIdone = 'DMCgve6PAOI';
+const double _startSecondsone = 359;
+const String _videoIdtwo = 'aGOV5R7M1Js';
+const double _startSecondstwo = 3067;
+const String _videoIdthree = '5g8vbTne6Iw';
+const double _startSecondsthree = 870;
+const String _videoIdfour = '9I4woKy-_50';
+const double _startSecondsfour = 58;
+const String _videoIdfive = 'SVBVnp7_csY';
+const double _startSecondsfive = 739;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

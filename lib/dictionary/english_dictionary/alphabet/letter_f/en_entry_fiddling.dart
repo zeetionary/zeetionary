@@ -145,7 +145,6 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی: ھیچەکە، ناگرنگ، قۆڕ، بێ‌بایەخ،	بێ‌فایدە، بێ‌کەڵک، ئایەخ
 """),
-// With short examples define "fiddling", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بچووکە و گرنگ نییە و زۆرجار بێزارکەرە"""),

@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شکۆ، فەڕ، گەورەیی، مەزنی، شانازی، ئەوڕەنگ، سەربەرزی، سەربڵیندی، ناوودەنگ، نێوبەدەرەوەیی، (کتێبی پیرۆز) پەسن، شوکرانەبژێری، سپاس، پەرستن، پیاھەڵدان
 """),
-// With short examples define "glory", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سەرکەوتنی گەورە کە پیاھەڵدان و شانازی دەھێنێت بۆ کەسێک لەگەڵ ناوبانگی زۆر"""),
@@ -353,7 +352,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QLq6GEiHqR8';
 const double _startSecondsend = 1255;
 const String _videoIdone = 'mY3SEMTROas';

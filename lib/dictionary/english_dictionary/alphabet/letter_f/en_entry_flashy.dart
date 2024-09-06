@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەزریقەوبریقە، بریقەدار
 """),
-// With short examples define "flashy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە سەرنج ڕادەکێشێت بەوەی گەورە، درەوشاوە، گران‌بەھا، ھتد ـە"""),

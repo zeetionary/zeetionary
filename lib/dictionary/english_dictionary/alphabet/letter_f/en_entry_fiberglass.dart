@@ -144,7 +144,6 @@ Usage: US (elsewhere: fibreglass)
                     const KurdishVocabulary(text: """
 کوردی: ڕیشاڵی شوشە، پەشمی شیشە
 """),
-// With short examples define "fiberglass", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەکی سووکی بەھێز کە لە ڕیشاڵی شووشەیی و پلاستیک درووست دەکرێت و بەکاردێت بۆ درووستکردنی بەلەم، ھتد"""),

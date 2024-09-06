@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چاوتێبڕین، چاوزەق‌کردنەوە، چاوئەبڵەق‌بوون، چاوداپچڕین، چاودەرپەڕین، واقمان
 """),
-// With short examples define "gaze", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) سەیرکردنی کەسێک بێ جووڵە بۆ ماوەیەکی زۆر، بەھۆی ئەوەی کە سەرسامیت یان ئەوەی بیرت لای شتێکی دیکە"""),

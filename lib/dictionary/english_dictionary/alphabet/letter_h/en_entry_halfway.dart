@@ -193,12 +193,11 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "halfway", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) لە نیوەی نێوان دوو خاڵ"""),
                     SentencesRow(
                       englishText: """I got the ball on the halfway line.""",
-                      kurdishText: """تۆپەکەم لە هێڵی ناوەڕاست گرت.""",
+                      kurdishText: """تۆپەکەم لە ھێڵی ناوەڕاست گرت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -231,12 +230,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵکار) بەشێکی ماوەی کردن یان بەدەستهێنانی شتێک"""),
+                            """٣. (ھاوەڵکار) بەشێکی ماوەی کردن یان بەدەستھێنانی شتێک"""),
                     SentencesRow(
                       englishText:
                           """This only goes halfway to explaining what really happened.""",
                       kurdishText:
-                          """ئەمە تەنها بەشێک دەبێت لەوەی چی ڕوودەدات.""",
+                          """ئەمە تەنھا بەشێک دەبێت لەوەی چی ڕوودەدات.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -247,7 +246,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Any halfway decent map will give you that information.""",
                       kurdishText:
-                          """هەر نەخشەیەکی کەمێک باش ئەو زانیارییەت پێدەدات.""",
+                          """ھەر نەخشەیەکی کەمێک باش ئەو زانیارییەت پێدەدات.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -318,19 +317,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/8HEfIJlcFbs?t=';
-const double _startSecondsend = 000000000000000000000000000498;
-const String _videoIdone = 'https://youtu.be/sSdMX8AWurI?t=';
-const double _startSecondsone = 000000000000000000000000000950;
-const String _videoIdtwo = 'https://youtu.be/99i-Uo7rIpw?t=';
-const double _startSecondstwo = 000000000000000000000000000750;
-const String _videoIdthree = 'https://youtu.be/PxKp7_lASKI?t=';
-const double _startSecondsthree = 00000000000000000000000000059;
-const String _videoIdfour = 'https://youtu.be/XlHzvTEstz8?t=';
-const double _startSecondsfour = 000000000000000000000000000123;
-const String _videoIdfive = 'https://youtu.be/b2lDdwxNWto?t=';
-const double _startSecondsfive = 000000000000000000000000000188;
+const String _videoIdend = '8HEfIJlcFbs';
+const double _startSecondsend = 498;
+const String _videoIdone = 'sSdMX8AWurI';
+const double _startSecondsone = 950;
+const String _videoIdtwo = '99i-Uo7rIpw';
+const double _startSecondstwo = 750;
+const String _videoIdthree = 'PxKp7_lASKI';
+const double _startSecondsthree = 59;
+const String _videoIdfour = 'XlHzvTEstz8';
+const double _startSecondsfour = 123;
+const String _videoIdfive = 'b2lDdwxNWto';
+const double _startSecondsfive = 188;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

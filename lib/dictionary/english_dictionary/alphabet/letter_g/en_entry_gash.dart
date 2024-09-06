@@ -165,7 +165,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gash", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بڕینێکی گەورە لەسەر ڕووی شتێک، بە تایبەتی ڕووخساری کەسێک"""),

@@ -145,14 +145,14 @@ Usage: UK (=bobby pin)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پارچە کانزایەکی بچووکی باریک کە قژی پێ دەبەسترێت"""),
                     const AlsoEnglishckb(
                         word: "ھەروەھا: grip، یان ئینگلیزیی ئەمریکی bobby pin"),
                     SentencesRow(
                       englishText:
                           """She used a hairgrip to secure her ponytail.""",
                       kurdishText:
-                          """ماشەیەکی بەکارهێنا بۆ ڕاگرتنی پەلکەکەی.""",
+                          """ماشەیەکی بەکارھێنا بۆ ڕاگرتنی پەلکەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -223,19 +223,18 @@ Usage: UK (=bobby pin)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/dGp0771vy6A?t=';
-const double _startSecondsend = 000000000000000000000000000269;
-const String _videoIdone = 'https://youtu.be/onQz-zEV5yY?t=';
-const double _startSecondsone = 000000000000000000000000000340;
-const String _videoIdtwo = 'https://youtu.be/m8MuJ8sPQoE?t=';
-const double _startSecondstwo = 00000000000000000000000000089;
-const String _videoIdthree = 'https://youtu.be/IKOVNtA2D4Q?t=';
-const double _startSecondsthree = 000000000000000000000000000685;
-const String _videoIdfour = 'https://youtu.be/HRpyA1E7H3I?t=';
-const double _startSecondsfour = 000000000000000000000000000780;
-const String _videoIdfive = 'https://youtu.be/HAnmRjGcWSM?t=';
-const double _startSecondsfive = 000000000000000000000000000392;
+const String _videoIdend = 'dGp0771vy6A';
+const double _startSecondsend = 269;
+const String _videoIdone = 'onQz-zEV5yY';
+const double _startSecondsone = 340;
+const String _videoIdtwo = 'm8MuJ8sPQoE';
+const double _startSecondstwo = 89;
+const String _videoIdthree = 'IKOVNtA2D4Q';
+const double _startSecondsthree = 685;
+const String _videoIdfour = 'HRpyA1E7H3I';
+const double _startSecondsfour = 780;
+const String _videoIdfive = 'HAnmRjGcWSM';
+const double _startSecondsfive = 392;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -144,7 +144,6 @@ Usage: Brit, informal
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gawp", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ڕوانین لە کەسێک بە بێ‌ڕێزی یان گەمژانە"""),

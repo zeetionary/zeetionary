@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کوڵکن، تووکن، موواوی، پەڕپۆش، داپۆشراو لە پەڕ، پەڕزۆر،	ماسیو، باتێکراو، ناسک و سووک، پفەڵ، نەرم‌وسووک، ڕیق‌وفیق
 """),
-// With short examples define "fluffy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە تووک یان پەڕی زۆر نەرم داپۆشراوە"""),

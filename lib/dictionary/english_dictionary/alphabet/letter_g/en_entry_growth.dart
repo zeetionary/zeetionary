@@ -229,12 +229,11 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: هەڵدان، گەورەبوون، گەشە، هەراش‌بوون،	هەڵدانی ئابووری، گەشەی ئابووری،	شین‌بوون، سەوزبوون، هاتنەعەمەل،	زۆربوون، بەرزبوونەوە، چوونەسەرێ،	پێشڤەچوون، چوونەپێش، پێشکەوتن،	باوسەندن، پەرەسەندن،	زیادەگۆشت، دمەڵ، کوان، لوو،	کێڵان، چاندن، داچەندن، چەقاندن،	ڕووەک، گیا
+کوردی: ھەڵدان، گەورەبوون، گەشە، ھەراش‌بوون،	ھەڵدانی ئابووری، گەشەی ئابووری،	شین‌بوون، سەوزبوون، ھاتنەعەمەل،	زۆربوون، بەرزبوونەوە، چوونەسەرێ،	پێشڤەچوون، چوونەپێش، پێشکەوتن،	باوسەندن، پەرەسەندن،	زیادەگۆشت، دمەڵ، کوان، لوو،	کێڵان، چاندن، داچەندن، چەقاندن،	ڕووەک، گیا
 """),
-// With short examples define "growth", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) پڕۆسەی گەشەی جەستەیی، دەروونی، یان هەست و سۆزی کەسێک، ئاژەڵێک، یان ڕووەک"""),
+                            """١. (ناو) پڕۆسەی گەشەی جەستەیی، دەروونی، یان ھەست و سۆزی کەسێک، ئاژەڵێک، یان ڕووەک"""),
                     SentencesRow(
                       englishText:
                           """Lack of water will stunt the plant's growth.""",
@@ -249,7 +248,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Remove dead leaves to encourage new growth.""",
                       kurdishText:
-                          """گەڵا مردووەکان لێبکەرەوە بۆ هاندانی گەشەی تازە.""",
+                          """گەڵا مردووەکان لێبکەرەوە بۆ ھاندانی گەشەی تازە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -265,7 +264,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Lack of food had stunted his growth.""",
-                      kurdishText: """کەمخۆراکی گەشەیی هێواش کردووە.""",
+                      kurdishText: """کەمخۆراکی گەشەیی ھێواش کردووە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -276,7 +275,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The report links population growth with rural poverty.""",
                       kurdishText:
-                          """ڕاپۆرتەکە گەشەی دانیشتوان بە هەژاریی گوندەکانەوە دەبەستێتەوە.""",
+                          """ڕاپۆرتەکە گەشەی دانیشتوان بە ھەژاریی گوندەکانەوە دەبەستێتەوە.""",
                       englishNote:
                           """This means the report suggests a connection between the increase in population and the poverty experienced in rural areas. The growth in population is related to or associated with higher levels of poverty in those regions.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
@@ -287,7 +286,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """His book describes the growth of nationalism in Germany before the Second World War.""",
                       kurdishText:
-                          """کتێبەکەی باس لە گەشەی نەتەوەپەرستی لە ئەڵمانیا دەکات پێش دووەم جەنگی جیهانی.""",
+                          """کتێبەکەی باس لە گەشەی نەتەوەپەرستی لە ئەڵمانیا دەکات پێش دووەم جەنگی جیھانی.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -296,7 +295,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There was a rapid growth in the numbers of private cars.""",
                       kurdishText:
-                          """بەرزبوونەوەیەکی خێرا هەبوو لە زۆربوونی ئۆتۆمبێلی تایبەتدا.""",
+                          """بەرزبوونەوەیەکی خێرا ھەبوو لە زۆربوونی ئۆتۆمبێلی تایبەتدا.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -323,10 +322,10 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) تۆپەڵێک خانە کە بەهۆی نەخۆشییەوە درووست بووە"""),
+                            """٤. (ناو) تۆپەڵێک خانە کە بەھۆی نەخۆشییەوە درووست بووە"""),
                     SentencesRow(
                       englishText: """He had a cancerous growth on his lung.""",
-                      kurdishText: """لوویەکی شێرپەنجەیی هەبوو لە سنگیدا.""",
+                      kurdishText: """لوویەکی شێرپەنجەیی ھەبوو لە سنگیدا.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -397,19 +396,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/t6fIp7mMJ90?t=';
-const double _startSecondsend = 000000000000000000000000000282;
-const String _videoIdone = 'https://youtu.be/o9zCgPtsups?t=';
-const double _startSecondsone = 000000000000000000000000000273;
-const String _videoIdtwo = 'https://youtu.be/55XJ1ObZKaM?t=';
-const double _startSecondstwo = 000000000000000000000000000750;
-const String _videoIdthree = 'https://youtu.be/58XEfDtU0Z4?t=';
-const double _startSecondsthree = 0000000000000000000000000001378;
-const String _videoIdfour = 'https://youtu.be/Pon4Zux5MaQ?t=';
-const double _startSecondsfour = 000000000000000000000000000804;
-const String _videoIdfive = 'https://youtu.be/mRj1RKh4xyY?t=';
-const double _startSecondsfive = 000000000000000000000000000279;
+const String _videoIdend = 't6fIp7mMJ90';
+const double _startSecondsend = 282;
+const String _videoIdone = 'o9zCgPtsups';
+const double _startSecondsone = 273;
+const String _videoIdtwo = '55XJ1ObZKaM';
+const double _startSecondstwo = 750;
+const String _videoIdthree = '58XEfDtU0Z4';
+const double _startSecondsthree = 1378;
+const String _videoIdfour = 'Pon4Zux5MaQ';
+const double _startSecondsfour = 804;
+const String _videoIdfive = 'mRj1RKh4xyY';
+const double _startSecondsfive = 279;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -165,7 +165,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: غەڕغەڕە، گەرووشۆری، ئاو لەدەم وەردان،	گیراوەی غەڕغەڕە، دەمشۆرە
 """),
-// With short examples define "gargle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) شۆردنی دەم و قوڕگت بەوەی شلەیەک بخەیتە ناوی و ڕایبوەشێنیت ، و دواتر بیتفێنیتەوە"""),

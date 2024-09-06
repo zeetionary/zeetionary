@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flan", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کێکێک کە پڕە لە ھێلکە، پەنیر، میوە، ھتد"""),

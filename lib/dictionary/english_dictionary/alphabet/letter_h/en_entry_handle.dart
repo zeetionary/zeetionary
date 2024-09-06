@@ -299,12 +299,11 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: دەس(ـتـ)ک، هەنگڵ، قوڵف، دەسەگیرە، قڵف، کلک، چنگە، کولپەک (وەک هی کووپە)، کەرگە، دەسکەلووجە، کلکە، مشتە، جێ‌دەس،	بیانوو، پەڵپ، دەساوێز،	سەرناو، تایتڵ، نێو
+کوردی: دەس(ـتـ)ک، ھەنگڵ، قوڵف، دەسەگیرە، قڵف، کلک، چنگە، کولپەک (وەک ھی کووپە)، کەرگە، دەسکەلووجە، کلکە، مشتە، جێ‌دەس،	بیانوو، پەڵپ، دەساوێز،	سەرناو، تایتڵ، نێو
 """),
-// With short examples define "handle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) مامەڵەکردن لەگەڵ کەسێک، کارێک، دۆخێک، یان هەست‌وسۆزێک"""),
+                            """١. (کردار) مامەڵەکردن لەگەڵ کەسێک، کارێک، دۆخێک، یان ھەست‌وسۆزێک"""),
                     SentencesRow(
                       englishText:
                           """A new man was appointed to handle the crisis.""",
@@ -352,7 +351,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """We all have to learn to handle stress.""",
                       kurdishText:
-                          """هەموومان دەبێت فێربین مامەڵە لەگەڵ سترێس بکەین.""",
+                          """ھەموومان دەبێت فێربین مامەڵە لەگەڵ سترێس بکەین.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -396,7 +395,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (کردار) کۆنترۆڵکردنی پێڕۆیەک، ئاژەڵێک، ئامرازێک، هتد"""),
+                            """٣. (کردار) کۆنترۆڵکردنی پێڕۆیەک، ئاژەڵێک، ئامرازێک، ھتد"""),
                     SentencesRow(
                       englishText: """She's a difficult horse to handle.""",
                       kurdishText: """ئەسپێکی سەختە بۆ کۆنترۆڵکردن.""",
@@ -408,7 +407,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I wasn't sure if I could handle such a powerful car.""",
                       kurdishText:
-                          """دڵنیانەبوم کە بتوانم ئۆۆتمبێلێکی وەها بەهێز کۆنترۆڵ بکەم.""",
+                          """دڵنیانەبوم کە بتوانم ئۆۆتمبێلێکی وەھا بەھێز کۆنترۆڵ بکەم.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -419,7 +418,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """The car handles well in any weather.""",
                       kurdishText:
-                          """ئۆتۆمبێلەکە باش کار دەکات لە هەر کەشووهەوایەک.""",
+                          """ئۆتۆمبێلەکە باش کار دەکات لە ھەر کەشووھەوایەک.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -467,14 +466,14 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """I picked it up and the handle broke off.""",
-                      kurdishText: """هەڵمگرت و دەسکەکەی شکا.""",
+                      kurdishText: """ھەڵمگرت و دەسکەکەی شکا.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٨. (ناو) هەبوونی ئەو ژمارەیە یان جۆرەی دەسک کە باسکراوە"""),
+                            """٨. (ناو) ھەبوونی ئەو ژمارەیە یان جۆرەی دەسک کە باسکراوە"""),
                     SentencesRow(
                       englishText:
                           """The long handle of the spoon kept my hands away from the hot soup.""",
@@ -550,19 +549,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/70d22_haOiU?t=';
-const double _startSecondsend = 000000000000000000000000000198;
-const String _videoIdone = 'https://youtu.be/gngPQ771Ahk?t=';
-const double _startSecondsone = 0000000000000000000000000003811;
-const String _videoIdtwo = 'https://youtu.be/ozsgl_sLnHQ?t=';
-const double _startSecondstwo = 000000000000000000000000000530;
-const String _videoIdthree = 'https://youtu.be/LPWU5UTy920?t=';
-const double _startSecondsthree = 000000000000000000000000000864;
-const String _videoIdfour = 'https://youtu.be/UwM8km0ALbo?t=';
-const double _startSecondsfour = 00000000000000000000000000018;
-const String _videoIdfive = 'https://youtu.be/_I0N-w7QEHc?t=';
-const double _startSecondsfive = 000000000000000000000000000200;
+const String _videoIdend = '70d22_haOiU';
+const double _startSecondsend = 198;
+const String _videoIdone = 'gngPQ771Ahk';
+const double _startSecondsone = 3811;
+const String _videoIdtwo = 'ozsgl_sLnHQ';
+const double _startSecondstwo = 530;
+const String _videoIdthree = 'LPWU5UTy920';
+const double _startSecondsthree = 864;
+const String _videoIdfour = 'UwM8km0ALbo';
+const double _startSecondsfour = 18;
+const String _videoIdfive = '_I0N-w7QEHc';
+const double _startSecondsfive = 200;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

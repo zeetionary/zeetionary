@@ -246,7 +246,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەسندە، پێدان، بەخشین،	بورس، یارمەتی حکومەتی، یارمەتی بێ‌دانەوە یان پیاوەتی‌یانە، یارمەتی، کۆمەک، پیتاک،	(زەوی‌وزار) بەنێوکردن
 """),
-// With short examples define "grant", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ڕازیبوون بە پێدانی ئەوە بە کەسێک کە داوای دەکات"""),
@@ -404,7 +403,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_spuxXnul0U';
 const double _startSecondsend = 78;
 const String _videoIdone = 'QLq6GEiHqR8';

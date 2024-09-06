@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھێرشی کت‌وپڕ، پارێز، پەلامار، تەپ‌دانەسەر،	چەپاو، ڕاوڕووت، تاڵان
 """),
-// With short examples define "foray", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەوڵدان بۆ کارکردن لە چالاکییەک یان پیشەیەکی تازە"""),

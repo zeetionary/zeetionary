@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "feudal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پەیوەندیدار بە سیستەمی دەرەبەگایەتی ئەورووپا کە تێیدا خەڵکی زەوییان لەلایەن کەسێکی خانەدانەوە پێدەدرا و لە بەرامبەردا دەبوو شەڕی بۆ بکەن"""),

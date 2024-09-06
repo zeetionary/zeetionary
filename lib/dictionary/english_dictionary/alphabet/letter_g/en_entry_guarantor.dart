@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (ماف) دەستەبەر، کەفیل، زامن
 """),
-// With short examples define "guarantor", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە دەبێتە بەرپرس بۆ کەسێکی دیکە یان بۆ دڵنیایی کردنی ئەوەی شتێک ڕوودەدات یان دەکرێت"""),
@@ -224,19 +223,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/LGgZuv7kUQg?t=';
-const double _startSecondsend = 000000000000000000000000000185;
-const String _videoIdone = 'https://youtu.be/fHEsGKZm4C8?t=';
-const double _startSecondsone = 0000000000000000000000000008;
-const String _videoIdtwo = 'https://youtu.be/c7tgsUv3UlU?t=';
-const double _startSecondstwo = 000000000000000000000000000718;
-const String _videoIdthree = 'https://youtu.be/wznD7uCEcLk?t=';
-const double _startSecondsthree = 000000000000000000000000000126;
-const String _videoIdfour = 'https://youtu.be/3J06af5xHD0?t=';
-const double _startSecondsfour = 000000000000000000000000000437;
-const String _videoIdfive = 'https://youtu.be/zEDWwqrhcEk?t=';
-const double _startSecondsfive = 000000000000000000000000000395;
+const String _videoIdend = 'LGgZuv7kUQg';
+const double _startSecondsend = 185;
+const String _videoIdone = 'fHEsGKZm4C8';
+const double _startSecondsone = 8;
+const String _videoIdtwo = 'c7tgsUv3UlU';
+const double _startSecondstwo = 718;
+const String _videoIdthree = 'wznD7uCEcLk';
+const double _startSecondsthree = 126;
+const String _videoIdfour = '3J06af5xHD0';
+const double _startSecondsfour = 437;
+const String _videoIdfive = 'zEDWwqrhcEk';
+const double _startSecondsfive = 395;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

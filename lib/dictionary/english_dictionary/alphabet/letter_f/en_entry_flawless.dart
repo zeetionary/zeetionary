@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌خەوش، بێ‌گەرد، بێ‌عەیب، تەواو
 """),
-// With short examples define "flawless", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) بەبێ کێشە و عەیب"""),
                     SentencesRow(

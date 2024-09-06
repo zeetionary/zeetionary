@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جوان، دڵڕفێن، سەرنج‌ڕاکێش،	بەشکۆ، بەتەنتەنە، بەکەشخە،	بەئاڵاوواڵا، ڕەنگاوڕەنگ، ڕازاوە، بەزریقەوبریقە، بریقاوی
 """),
-// With short examples define "gorgeous", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) زۆر جوان و سەرنجڕاکێش"""),
                     const AlsoEnglishckb(word: "ھەروەھا: lovely"),
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'rEdl2Uetpvo';
 const double _startSecondsend = 186;
 const String _videoIdone = 'AwhBTrzzqeg';

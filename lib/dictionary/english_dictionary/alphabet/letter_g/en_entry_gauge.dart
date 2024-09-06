@@ -237,7 +237,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئەندازە، نمرە،	ئەستوورایی، قاڵندی،	(چەک) کالیبر،	میل، پلە،	دەزگای پێوان یان ئەندازەگرتن، ئەندازە، ئامێری پێوان،	(لە لێکدانا) ـپێو،	(ڕێگای ئاسن) مەودای نێوان دوو ڕەیل، پانایی ڕێگای ئاسن،	پێودانگ، پێوانە، پێوەر،	(دەریاوانی و کۆن) ھەڵ‌ومەرجی کەشتی باگەڕ سەبارەت بە با
 """),
-// With short examples define "gauge", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئامێرێک بۆ پێوانی شتێک"""),
                     SentencesRow(

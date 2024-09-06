@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (بیرکاری) کەرتی، پارەیی،	کەم، بەش‌بەش، ھێندەکی، ڕێزە، ھیچەکە، ئایەخ، ناگرنگ
 """),
-// With short examples define "fractional", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) زۆر بچووک؛ کە گرنگ نییە"""),
                     SentencesRow(

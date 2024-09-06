@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شوێنی دڵتەنگ، جەھەنم، چۆڵگە، کەلاوە، وێرانە
 """),
-// With short examples define "godforsaken", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) شوێنێکی بێزارکەر و ناخۆش"""),
                     SentencesRow(
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'SUDEB4Ui_g8';
 const double _startSecondsend = 449;
 const String _videoIdone = 'YRhqMWUH2Ig';

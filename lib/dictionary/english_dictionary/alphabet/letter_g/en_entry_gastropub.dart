@@ -144,7 +144,6 @@ Usage: Brit
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gastropub", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێک کە خواردنی خۆش پێشکەش دەکات، و مادەی کحوولی و خواردنەوەی دیکەشی ھەیە"""),

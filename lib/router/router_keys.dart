@@ -4075,8 +4075,6 @@
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cudgel.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cue.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cuff.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_handcuffs.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_handcuff.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cufflink.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cuisine.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cul_de_sac.dart';
@@ -8996,7 +8994,7 @@
 //   "/english-cudgel": (_) => _blP(const EnglishEntrycudgel()),
 //   "/english-cue": (_) => _blP(const EnglishEntrycue()),
 //   "/english-cuff": (_) => _blP(const EnglishEntrycuff()),
-//   "/english-cuff/handcuffs": (_) => _blP(const EnglishEntryhandcuffs()),
+//   "/english-cuff/handcuff": (_) => _blP(const EnglishEntryhandcuff()),
 //   "/english-handcuffs": (_) => _blP(const EnglishEntryhandcuffs()),
 //   "/english-handcuff": (_) => _blP(const EnglishEntryhandcuff()),
 //   "/english-cufflink": (_) => _blP(const EnglishEntrycufflink()),

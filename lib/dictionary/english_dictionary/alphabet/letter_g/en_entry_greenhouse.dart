@@ -149,10 +149,8 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "greenhouse", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) خانوویەکی شووشەیی بۆ چاندنی ڕووەک"""),
+                        text: """١. (ناو) خانوویەکی شووشەیی بۆ چاندنی ڕووەک"""),
                     SentencesRow(
                       englishText:
                           """She grows a lot of tomatoes in her greenhouse.""",
@@ -228,7 +226,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'j916XwC5VPM';
 const double _startSecondsend = 11;
 const String _videoIdone = 'ldWZsn8Kyns';

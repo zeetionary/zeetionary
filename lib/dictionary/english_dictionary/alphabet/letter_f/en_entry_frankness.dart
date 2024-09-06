@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌پەردەیی، لەڕوو دانەمان، ڕەپ‌وڕاستی، قسەلەڕوویی، ڕاشکاوی
 """),
-// With short examples define "frankness", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی ڕاشکاو بیت لەوەی دەیڵێیت"""),
                     SentencesRow(

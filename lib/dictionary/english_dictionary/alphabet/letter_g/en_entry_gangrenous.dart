@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gangrenous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە بەشێکی جەستە کە دادەدڕزێت بەھۆی بەھۆی ئەوەی خوێنی بۆ ناچێت"""),

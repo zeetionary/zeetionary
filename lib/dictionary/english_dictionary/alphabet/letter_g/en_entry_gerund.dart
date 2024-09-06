@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gerund", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناوێک کە درووست بووە بە کردارێک کە ing وەرگرتووە، بۆ نموونە travelling"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'FJP7VbIc3Wc';
 const double _startSecondsend = 548;
 const String _videoIdone = 'Y8pIidfrSG4';

@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌شەرم، بێ‌حەیا، ڕووڕەش، ناحەز، ناشیرین، ئابڕووبەرە، ناوزڕێن، قەبە، ھەرزە، بێ‌شەرمانە
 """),
-// With short examples define "flagrant", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە شۆکت دەکات چونکە زۆر بە ئاشکرایی دەکرێت ھیچ ڕێز بۆ خەڵک، یاسا، ھتد دانانێت"""),

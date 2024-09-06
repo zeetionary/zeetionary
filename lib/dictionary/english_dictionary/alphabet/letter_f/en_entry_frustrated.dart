@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تێشکاو، سەرنەکەوتوو، خەفەکراو، کپ‌کراو، کپێنراو، دامرکاو، دامراو، سەرنەگرتوو، نامراد، داماو، بێ‌ئەنجام(ماو)، سەرکوێر، ناھومێد، دڵسارد، باڵشکاو، دەس‌شکاو
 """),
-// With short examples define "frustrated", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ھەستی بە بێزاری یان بێ‌ئۆقرەیی چونکە ناتوانێت ئەوە بکەیت کە دەتەوێت"""),

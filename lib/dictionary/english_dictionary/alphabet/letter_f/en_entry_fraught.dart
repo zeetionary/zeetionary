@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پڕ لە، سەرڕێژ لە، تژی لە، دارماڵی،	نیگەران، دڵ‌لەدوا، نگەران‌کەر
 """),
-// With short examples define "fraught", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) پڕ لە شتێکی ناخۆش"""),
                     SentencesRow(

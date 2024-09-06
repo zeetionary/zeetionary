@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "harden", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ڕەق یان توند بوون"""),
                     SentencesRow(
@@ -250,12 +249,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (کردار) کە هەڵسوکەوت یان هەستی توند یان جدی دەبێت"""),
+                            """٣. (کردار) کە ھەڵسوکەوت یان ھەستی توند یان جدی دەبێت"""),
                     SentencesRow(
                       englishText:
                           """Public attitudes to the strike have hardened.""",
                       kurdishText:
-                          """هەڵوێستی خەڵکی دژ بە مانگرتنەکە توند بووە.""",
+                          """ھەڵوێستی خەڵکی دژ بە مانگرتنەکە توند بووە.""",
                       englishNote:
                           "This means people have become less supportive and more critical of the strike.",
                       onPressedBritish: () => speaksentence5("en-GB"),
@@ -356,19 +355,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/s3B-qp3U5G0?t=';
-const double _startSecondsend = 0000000000000000000000000001291;
-const String _videoIdone = 'https://youtu.be/qWAagS_MANg?t=';
-const double _startSecondsone = 00000000000000000000000000022;
-const String _videoIdtwo = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondstwo = 000000000000000000000000000274;
-const String _videoIdthree = 'https://youtu.be/xVQxvthAcLU?t=';
-const double _startSecondsthree = 000000000000000000000000000986;
-const String _videoIdfour = 'https://youtu.be/0ST4_hmop9Y?t=';
-const double _startSecondsfour = 0000000000000000000000000001346;
-const String _videoIdfive = 'https://youtu.be/-PSgBCQpEt8?t=';
-const double _startSecondsfive = 000000000000000000000000000510;
+const String _videoIdend = 's3B-qp3U5G0';
+const double _startSecondsend = 1291;
+const String _videoIdone = 'qWAagS_MANg';
+const double _startSecondsone = 22;
+const String _videoIdtwo = 'sV6uuMAnJUE';
+const double _startSecondstwo = 274;
+const String _videoIdthree = 'xVQxvthAcLU';
+const double _startSecondsthree = 986;
+const String _videoIdfour = '0ST4_hmop9Y';
+const double _startSecondsfour = 1346;
+const String _videoIdfive = '-PSgBCQpEt8';
+const double _startSecondsfive = 510;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

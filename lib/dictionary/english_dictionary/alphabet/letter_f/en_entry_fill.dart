@@ -403,7 +403,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fill", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) پڕکردنی شتێکی لە شتێکی دیکە"""),
                     SentencesRow(

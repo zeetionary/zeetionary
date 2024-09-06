@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گازگە، گازگا، کارگەی گاز، کارگەی بەرھەم‌ھێنانی گاز
 """),
-// With short examples define "gasworks", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کارگەی بەرھەمھێنانی گاز"""),
                     SentencesRow(

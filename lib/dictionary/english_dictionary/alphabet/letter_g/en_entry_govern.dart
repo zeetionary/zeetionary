@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: حکومەت کردن، حوکمڕانی کردن
 """),
-// With short examples define "govern", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) بەڕێوەبردنی وڵاتێک یان خەڵکەکەی بەوەی بەرپرسی دانانی یاسا، ڕێکخستنی خزمەتگوزارییە گشتییەکان، ھتد بیت"""),
@@ -302,7 +301,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'zqllxbPWKNI';
 const double _startSecondsend = 1018;
 const String _videoIdone = '0jltioeaEyY';

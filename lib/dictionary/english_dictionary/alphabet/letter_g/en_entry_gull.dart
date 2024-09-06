@@ -152,10 +152,9 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gull", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) باڵندەیەکی ئاوی کە باڵی گەورەی هەیە و زۆرجار پەڕەکانی سپی، خۆڵەمێشی، یان ڕەشە"""),
+                            """١. (ناو) باڵندەیەکی ئاوی کە باڵی گەورەی ھەیە و زۆرجار پەڕەکانی سپی، خۆڵەمێشی، یان ڕەشە"""),
                     SentencesRow(
                       englishText:
                           """Hundreds of gulls were circling overhead.""",
@@ -230,19 +229,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/1J3jJtprXzc?t=';
-const double _startSecondsend = 00000000000000000000000000066;
-const String _videoIdone = 'https://youtu.be/zF8Jl2oBf5I?t=';
-const double _startSecondsone = 0000000000000000000000000003;
-const String _videoIdtwo = 'https://youtu.be/v8JiaY4ZCyA?t=';
-const double _startSecondstwo = 000000000000000000000000000159;
-const String _videoIdthree = 'https://youtu.be/iFgnvCB40rY?t=';
-const double _startSecondsthree = 000000000000000000000000000175;
-const String _videoIdfour = 'https://youtu.be/rdgXEV-ZjUU?t=';
-const double _startSecondsfour = 000000000000000000000000000189;
-const String _videoIdfive = 'https://youtu.be/fRqUVT61cI4?t=';
-const double _startSecondsfive = 000000000000000000000000000611;
+const String _videoIdend = '1J3jJtprXzc';
+const double _startSecondsend = 66;
+const String _videoIdone = 'zF8Jl2oBf5I';
+const double _startSecondsone = 3;
+const String _videoIdtwo = 'v8JiaY4ZCyA';
+const double _startSecondstwo = 159;
+const String _videoIdthree = 'iFgnvCB40rY';
+const double _startSecondsthree = 175;
+const String _videoIdfour = 'rdgXEV-ZjUU';
+const double _startSecondsfour = 189;
+const String _videoIdfive = 'fRqUVT61cI4';
+const double _startSecondsfive = 611;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

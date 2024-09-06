@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: میوانی بانگێشتن‌نەکراو، مفتەخۆر، سەیرکەری بێ‌بلیت یان بەدزی‌یەوە
 """),
-// With short examples define "gatecrasher", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە دەچێتە ئاھەنگێک یان بۆنەیەکی کۆمەڵایەتی بەبێ ئەوەی بانگھێشت کرابێت"""),

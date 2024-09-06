@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تارمایی‌ئاسا، شێوەتارمایی، ڕۆح‌ئاسا، شێوەسەھویر، وەکوو تارمایی، خەیاڵی،	ترسناک، تۆقێنەر
 """),
-// With short examples define "ghostly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە لە خێو دەکات"""),
                     SentencesRow(
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'SEZu7K5tGxw';
 const double _startSecondsend = 256;
 const String _videoIdone = 'Mx8JkGHaGUI';

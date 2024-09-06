@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نائاسایی، سەیر، عاجباتی، سەیروسەمەرە
 """),
-// With short examples define "freakish", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) زۆر نامۆ و پێشبینی‌نەکراو"""),
                     SentencesRow(

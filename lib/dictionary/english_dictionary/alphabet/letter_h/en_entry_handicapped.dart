@@ -156,12 +156,11 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: پەککەوتە، نوقسان، سەقەت، عەیب‌دار،	دواکەوتوو، کەم‌هۆش
+کوردی: پەککەوتە، نوقسان، سەقەت، عەیب‌دار،	دواکەوتوو، کەم‌ھۆش
 """),
-// With short examples define "handicapped", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) هەبوونی دۆخێکی هەمیشەیی جەستەیی یان دەروونی کە وا دەکات سەخت بێت بۆ کەسێک کە ئەو شتانە بکات کەوا کەسانی دیکە دەتوانن بیکەن"""),
+                            """١. (ھاوەڵناو) ھەبوونی دۆخێکی ھەمیشەیی جەستەیی یان دەروونی کە وا دەکات سەخت بێت بۆ کەسێک کە ئەو شتانە بکات کەوا کەسانی دیکە دەتوانن بیکەن"""),
                     SentencesRow(
                       englishText:
                           """The accident left him physically handicapped.""",
@@ -244,19 +243,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/OwAL5TetOdI?t=';
-const double _startSecondsend = 000000000000000000000000000222;
-const String _videoIdone = 'https://youtu.be/YpbZxsMDmrQ?t=';
-const double _startSecondsone = 0000000000000000000000000001045;
-const String _videoIdtwo = 'https://youtu.be/CiRBQ3frG6U?t=';
-const double _startSecondstwo = 000000000000000000000000000557;
-const String _videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-const double _startSecondsthree = 000000000000000000000000000504;
-const String _videoIdfour = 'https://youtu.be/IRFKFexoBdc';
+const String _videoIdend = 'OwAL5TetOdI';
+const double _startSecondsend = 222;
+const String _videoIdone = 'YpbZxsMDmrQ';
+const double _startSecondsone = 1045;
+const String _videoIdtwo = 'CiRBQ3frG6U';
+const double _startSecondstwo = 557;
+const String _videoIdthree = 'DZTTdYCBqqg';
+const double _startSecondsthree = 504;
+const String _videoIdfour = 'IRFKFexoBdc';
 const double _startSecondsfour = 0;
-const String _videoIdfive = 'https://youtu.be/lESBZWZ4lpI?t=';
-const double _startSecondsfive = 000000000000000000000000000146;
+const String _videoIdfive = 'lESBZWZ4lpI';
+const double _startSecondsfive = 146;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

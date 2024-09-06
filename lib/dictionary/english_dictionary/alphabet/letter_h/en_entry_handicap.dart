@@ -189,12 +189,11 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: گرفت، کێشە، عەیب، شکستی، ئاستەنگ، پەککەوتوویی لەشی یان هۆشی
+کوردی: گرفت، کێشە، عەیب، شکستی، ئاستەنگ، پەککەوتوویی لەشی یان ھۆشی
 """),
-// With short examples define "handicap", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخێکی هەمیشەیی جەستەیی یان دەروونی کە وا دەکات سەخت بێت بۆ کەسێک کە ئەو شتانە بکات کەوا کەسانی دیکە دەتوانن بیکەن"""),
+                            """١. (ناو) دۆخێکی ھەمیشەیی جەستەیی یان دەروونی کە وا دەکات سەخت بێت بۆ کەسێک کە ئەو شتانە بکات کەوا کەسانی دیکە دەتوانن بیکەن"""),
                     SentencesRow(
                       englishText:
                           """She was born with what was then called a handicap.""",
@@ -212,7 +211,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Not speaking the language proved to be a bigger handicap than I'd imagined.""",
                       kurdishText:
-                          """نەتوانینی قسەکردن بە زمانەکە وەها دەرکەوت کە کۆسپێکی گەورەتر بێت وەک ئەوەی کە خەیاڵم کردبوو.""",
+                          """نەتوانینی قسەکردن بە زمانەکە وەھا دەرکەوت کە کۆسپێکی گەورەتر بێت وەک ئەوەی کە خەیاڵم کردبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -221,7 +220,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """In a job like this, lack of experience is no real handicap.""",
                       kurdishText:
-                          """لە کارێکی وەهادا، نەبوونی ئەزموون کۆسپێکی تەواو نییە.""",
+                          """لە کارێکی وەھادا، نەبوونی ئەزموون کۆسپێکی تەواو نییە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -233,7 +232,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Smaller parties are seriously handicapped by the electoral system.""",
                       kurdishText:
-                          """پارتە بچووکەکان بە ڕژدی کۆسپیان دەکەوێتە پێش بەهۆی سیستەمی هەڵبژاردنەکە.""",
+                          """پارتە بچووکەکان بە ڕژدی کۆسپیان دەکەوێتە پێش بەھۆی سیستەمی ھەڵبژاردنەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -242,7 +241,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The team was handicapped by the loss of their key striker early in the game.""",
                       kurdishText:
-                          """تیمەکە ئیفلیج بوو بە لەدەستدانی هێرشبەری سەرەکیی لە سەرەتای یارییەکەدا.""",
+                          """تیمەکە ئیفلیج بوو بە لەدەستدانی ھێرشبەری سەرەکیی لە سەرەتای یارییەکەدا.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -313,19 +312,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/zo3FFYMyFTc?t=';
-const double _startSecondsend = 000000000000000000000000000232;
-const String _videoIdone = 'https://youtu.be/35lBQ7aKfYk?t=';
-const double _startSecondsone = 00000000000000000000000000089;
-const String _videoIdtwo = 'https://youtu.be/Epg9Q9I2tXQ';
+const String _videoIdend = 'zo3FFYMyFTc';
+const double _startSecondsend = 232;
+const String _videoIdone = '35lBQ7aKfYk';
+const double _startSecondsone = 89;
+const String _videoIdtwo = 'Epg9Q9I2tXQ';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/MB7NppIF55k?t=';
-const double _startSecondsthree = 000000000000000000000000000934;
-const String _videoIdfour = 'https://youtu.be/GXetFtdVmOo?t=';
-const double _startSecondsfour = 000000000000000000000000000542;
-const String _videoIdfive = 'https://youtu.be/TDJfNgGcbTI?t=';
-const double _startSecondsfive = 000000000000000000000000000719;
+const String _videoIdthree = 'MB7NppIF55k';
+const double _startSecondsthree = 934;
+const String _videoIdfour = 'GXetFtdVmOo';
+const double _startSecondsfour = 542;
+const String _videoIdfive = 'TDJfNgGcbTI';
+const double _startSecondsfive = 719;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

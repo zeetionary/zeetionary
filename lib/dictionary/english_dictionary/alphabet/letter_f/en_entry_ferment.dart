@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "ferment", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) تێپەڕبوون بە گۆڕانی کیمیایی بەھۆی کاری خومرە یان بەکتریا، زۆرجار کە شەکر بۆ مادەی کحوولی دەگۆڕێت؛ گۆڕینی شت بەم شێوەیە"""),

@@ -213,7 +213,6 @@ Usage: Brit, Cdn (US: flavor)
                     const KurdishVocabulary(text: """
 کوردی: تام، چێژ، مەزە،	بەھارات، کاری، ھەزوێلە،	کەش، تایبەتمەندی، تام‌وبۆ، سەنگ‌وڕەنگ، ڕەنگ‌وبۆ
 """),
-// With short examples define "flavour", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) تامی خواردن یان خواردنەوە"""),
                     SentencesRow(

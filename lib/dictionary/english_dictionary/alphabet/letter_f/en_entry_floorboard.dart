@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "floorboard", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە تەختەیەکی درێژ لە زەوییەتی دارین"""),

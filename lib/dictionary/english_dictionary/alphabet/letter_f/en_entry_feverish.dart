@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تادار، تێ‌دار، تێ‌لێھاتوو، تاگرتوو،	ورووژاو، شاگەشکە، ئارام‌لێھەڵگیراو، نائارام، بێ‌ئۆقرە، بێ‌حەجمان، بێ‌تاقەت، نگەران، دڵ‌لەدوا
 """),
-// With short examples define "feverish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ھەبوونی ھەستی بەھێزی جۆش‌وخرۆشی یان نیگەرانی"""),

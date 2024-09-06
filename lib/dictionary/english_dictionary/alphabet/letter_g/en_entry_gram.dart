@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gram", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یەکەی پێوانی کێش. ١٠٠٠ گرام ھەیە لە یەک کیلۆگرامدا"""),
@@ -236,7 +235,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'zyyibay7Jzg';
 const double _startSecondsend = 15;
 const String _videoIdone = 'wjYLKhaeKL0';

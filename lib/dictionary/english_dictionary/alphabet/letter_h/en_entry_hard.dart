@@ -492,16 +492,15 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: سەخت، ڕەق، توند، گوژم، مکۆم، پتەو، تۆکمە، ڕەختە،	دژوار، سەخت، هەڵەت، گران، چەتوون، تێگەیشتن‌سەخت،	بەزەبروزەنگ، توندوتیژ،	(کرێکار) زەحمەت‌کێش، بەکار،	بەڕشت، توند،	(هەوا) سەخت، ناخۆش،	پڕزەحمەت، پڕئەرک، ڕەنجاوی، سەخت، گران، قورس، بەهێز، (شەوق) تیژ
+کوردی: سەخت، ڕەق، توند، گوژم، مکۆم، پتەو، تۆکمە، ڕەختە،	دژوار، سەخت، ھەڵەت، گران، چەتوون، تێگەیشتن‌سەخت،	بەزەبروزەنگ، توندوتیژ،	(کرێکار) زەحمەت‌کێش، بەکار،	بەڕشت، توند،	(ھەوا) سەخت، ناخۆش،	پڕزەحمەت، پڕئەرک، ڕەنجاوی، سەخت، گران، قورس، بەھێز، (شەوق) تیژ
 """),
-// With short examples define "hard", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) سەخت بۆ کردن، تێگەشتن، یان وەڵامدانەوە"""),
                     SentencesRow(
                       englishText:
                           """It is hard to believe that she's only nine.""",
-                      kurdishText: """سەختە باوەڕ بکەیت کە تەنها نۆ ساڵانە.""",
+                      kurdishText: """سەختە باوەڕ بکەیت کە تەنھا نۆ ساڵانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -513,7 +512,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """It's getting harder and harder to earn enough to pay the rent.""",
                               kurdishText:
-                                  """بەدەستهێنانی پارەی پێویست بۆ دانی کرێ سەختتر و سەختتر دەبێت.""",
+                                  """بەدەستھێنانی پارەی پێویست بۆ دانی کرێ سەختتر و سەختتر دەبێت.""",
                               onPressedBritish: () => speaksentence2("en-GB"),
                               onPressedAmerican: () => speaksentence2("en-US"),
                             ),
@@ -522,7 +521,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """I find his attitude very hard to take (= difficult to accept).""",
                               kurdishText:
-                                  """هەڵسوکەوتی زۆر بە سەخت بۆ وەرگرتن دەبینم.""",
+                                  """ھەڵسوکەوتی زۆر بە سەخت بۆ وەرگرتن دەبینم.""",
                               onPressedBritish: () => speaksentence3("en-GB"),
                               onPressedAmerican: () => speaksentence3("en-US"),
                             ),
@@ -531,7 +530,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Houses like this are extremely hard to find.""",
                               kurdishText:
-                                  """خانووی وەها تەواو سەختن بۆ دۆزینەوە.""",
+                                  """خانووی وەھا تەواو سەختن بۆ دۆزینەوە.""",
                               onPressedBritish: () => speaksentence4("en-GB"),
                               onPressedAmerican: () => speaksentence4("en-US"),
                             ),
@@ -557,7 +556,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """It must be hard for her, bringing up four children on her own.""",
                               kurdishText:
-                                  """دەبێت سەخت بێت بۆی کە چوار منداڵ گەورە بکات خۆی بە تەنها.""",
+                                  """دەبێت سەخت بێت بۆی کە چوار منداڵ گەورە بکات خۆی بە تەنھا.""",
                               onPressedBritish: () => speaksentence7("en-GB"),
                               onPressedAmerican: () => speaksentence7("en-US"),
                             ),
@@ -566,7 +565,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """It's hard for old people to change their ways.""",
                               kurdishText:
-                                  """سەختە بۆ کەسانی بەتەمەن هەڵسوکەوتیان بگۆڕن.""",
+                                  """سەختە بۆ کەسانی بەتەمەن ھەڵسوکەوتیان بگۆڕن.""",
                               onPressedBritish: () => speaksentence8("en-GB"),
                               onPressedAmerican: () => speaksentence8("en-US"),
                             ),
@@ -574,7 +573,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText: """I found the exam quite hard.""",
                               kurdishText:
-                                  """تاقیکردنەوەکە تەواو گران هاتە بەرچاوم.""",
+                                  """تاقیکردنەوەکە تەواو گران ھاتە بەرچاوم.""",
                               onPressedBritish: () => speaksentence9("en-GB"),
                               onPressedAmerican: () => speaksentence9("en-US"),
                             ),
@@ -588,7 +587,7 @@ ${englishMeaningConst.text}
                     const AlsoEnglishckb(word: "ھەروەھا: tough"),
                     SentencesRow(
                       englishText: """She's had a hard life.""",
-                      kurdishText: """ژیانێکی سەختی هەبووە.""",
+                      kurdishText: """ژیانێکی سەختی ھەبووە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -609,7 +608,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵناو) کە پێویستی بە هەوڵ و وزەی جەستەیی یان دەروونی هەیە"""),
+                            """٣. (ھاوەڵناو) کە پێویستی بە ھەوڵ و وزەی جەستەیی یان دەروونی ھەیە"""),
                     SentencesRow(
                       englishText: """This is the hardest part of my job.""",
                       kurdishText: """ئەمە سەختترین بەشی کارەکەمە.""",
@@ -621,21 +620,21 @@ ${englishMeaningConst.text}
                       englishText:
                           """It was one of the hardest things I ever did.""",
                       kurdishText:
-                          """یەکێک لە سەختترین ئەو شتانە بوو کە هەرگیز کردم.""",
+                          """یەکێک لە سەختترین ئەو شتانە بوو کە ھەرگیز کردم.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I've had a long hard day.""",
-                      kurdishText: """ڕۆژێکی درێژی سەختم هەبووە.""",
+                      kurdishText: """ڕۆژێکی درێژی سەختم ھەبووە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ھاوەڵناو) پێدانی هێز و وزەی زۆر بە چالاکییەک"""),
+                            """٤. (ھاوەڵناو) پێدانی ھێز و وزەی زۆر بە چالاکییەک"""),
                     SentencesRow(
                       englishText: """She's a very hard worker.""",
                       kurdishText: """کرێکارێکی زۆر زەحمەت‌کێشە.""",
@@ -653,7 +652,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (ھاوەڵناو) پکە بە هێز و وزەی زۆرەوە دەکرێت"""),
+                            """٥. (ھاوەڵناو) پکە بە ھێز و وزەی زۆرەوە دەکرێت"""),
                     SentencesRow(
                       englishText: """He gave the door a good hard kick.""",
                       kurdishText: """لەقەیەکی توندی لە دەرگاکە دا.""",
@@ -680,7 +679,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٧. (ھاوەڵناو) کە هەست و سۆز پیشان نادات"""),
+                        text: """٧. (ھاوەڵناو) کە ھەست و سۆز پیشان نادات"""),
                     SentencesRow(
                       englishText: """My father was a hard man.""",
                       kurdishText: """باوکم پیاوێکی توند بوو.""",
@@ -729,7 +728,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Is there any hard evidence either way?""",
                       kurdishText:
-                          """بە هەر جۆرێک بێت هیچ بەڵگەیەکی حاشاهەڵنەگر هەیە؟""",
+                          """بە ھەر جۆرێک بێت ھیچ بەڵگەیەکی حاشاھەڵنەگر ھەیە؟""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
@@ -738,13 +737,13 @@ ${englishMeaningConst.text}
                       englishText:
                           """The newspaper story is based on hard facts.""",
                       kurdishText:
-                          """چیرۆکی ڕۆژنامەکە پشت بە ڕاستی حاشاهەڵنەگر دەبەستێت.""",
+                          """چیرۆکی ڕۆژنامەکە پشت بە ڕاستی حاشاھەڵنەگر دەبەستێت.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """١٠. (ھاوەڵناو) کەشووهەوای زۆر سەخت و دژوار"""),
+                        text: """١٠. (ھاوەڵناو) کەشووھەوای زۆر سەخت و دژوار"""),
                     SentencesRow(
                       englishText: """It had been a hard winter.""",
                       kurdishText: """زستانێکی زۆر سەخت بووە.""",
@@ -753,10 +752,10 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """١١. (ھاوەڵکار) بە هەوڵ و سەختی زۆرەوە"""),
+                        text: """١١. (ھاوەڵکار) بە ھەوڵ و سەختی زۆرەوە"""),
                     SentencesRow(
                       englishText: """You must try harder.""",
-                      kurdishText: """دەبێت باشتر هەوڵ بدەیت.""",
+                      kurdishText: """دەبێت باشتر ھەوڵ بدەیت.""",
                       onPressedBritish: () => speaksentence29("en-GB"),
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
@@ -765,7 +764,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He was still breathing hard after his run.""",
                       kurdishText:
-                          """هێشتا بە سەختی هەناسەی دەدا لە دوای ڕاکردنەکەی.""",
+                          """ھێشتا بە سەختی ھەناسەی دەدا لە دوای ڕاکردنەکەی.""",
                       onPressedBritish: () => speaksentence30("en-GB"),
                       onPressedAmerican: () => speaksentence30("en-US"),
                     ),
@@ -774,7 +773,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """You shouldn't train too hard—be careful about injuries.""",
                       kurdishText:
-                          """نابێت وەها بە سەختی ڕاهێنان بکەیت ـ ئاگاداری برین ببە.""",
+                          """نابێت وەھا بە سەختی ڕاھێنان بکەیت ـ ئاگاداری برین ببە.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
@@ -789,7 +788,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """She trained hard twice a day.""",
                       kurdishText:
-                          """دووجار لە ڕۆژێکدا بە سەختی ڕاهێنانی دەکرد.""",
+                          """دووجار لە ڕۆژێکدا بە سەختی ڕاھێنانی دەکرد.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
@@ -797,7 +796,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Our victory was hard won (= won with great difficulty).""",
-                      kurdishText: """سەرکەوتنەکەمان بە سەختی بەدەستهێنرا.""",
+                      kurdishText: """سەرکەوتنەکەمان بە سەختی بەدەستھێنرا.""",
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
@@ -812,7 +811,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """١٢. (ھاوەڵکار) بە هەوڵی زۆرەوە"""),
+                        text: """١٢. (ھاوەڵکار) بە ھەوڵی زۆرەوە"""),
                     SentencesRow(
                       englishText: """Don't hit it so hard!""",
                       kurdishText: """زۆر توند لێی مەدە!""",
@@ -824,7 +823,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Small businesses have been hit hard/hard hit by the recession.""",
                       kurdishText:
-                          """(خوازراوی) بزنسە بچووکەکان خراپ زیانیان پێگەشتووە بەهۆی قەیرانەکەوە.""",
+                          """(خوازراوی) بزنسە بچووکەکان خراپ زیانیان پێگەشتووە بەھۆی قەیرانەکەوە.""",
                       onPressedBritish: () => speaksentence37("en-GB"),
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
@@ -924,19 +923,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/rPe4yziWiOg?t=';
-const double _startSecondsend = 000000000000000000000000000715;
-const String _videoIdone = 'https://youtu.be/gngPQ771Ahk?t=';
-const double _startSecondsone = 000000000000000000000000000870;
-const String _videoIdtwo = 'https://youtu.be/khOUvmOQExc?t=';
-const double _startSecondstwo = 00000000000000000000000000034;
-const String _videoIdthree = 'https://youtu.be/HDntl7yzzVI?t=';
-const double _startSecondsthree = 000000000000000000000000000528;
-const String _videoIdfour = 'https://youtu.be/hS2x1zl4rn0?t=467';
-const double _startSecondsfour = 000000000000000000000000000;
-const String _videoIdfive = 'https://youtu.be/iAnlaR398hs?t=';
-const double _startSecondsfive = 00000000000000000000000000031;
+const String _videoIdend = 'rPe4yziWiOg';
+const double _startSecondsend = 715;
+const String _videoIdone = 'gngPQ771Ahk';
+const double _startSecondsone = 870;
+const String _videoIdtwo = 'khOUvmOQExc';
+const double _startSecondstwo = 34;
+const String _videoIdthree = 'HDntl7yzzVI';
+const double _startSecondsthree = 528;
+const String _videoIdfour = 'hS2x1zl4rn0';
+const double _startSecondsfour = 467;
+const String _videoIdfive = 'iAnlaR398hs';
+const double _startSecondsfive = 31;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

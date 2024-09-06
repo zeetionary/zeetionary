@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gateau", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کێکێکی گەورە کە پڕ دەکرێت لە کرێم و زۆرجار میوە، کاکڵدار، ھتد لەسەری دادەنرێت"""),

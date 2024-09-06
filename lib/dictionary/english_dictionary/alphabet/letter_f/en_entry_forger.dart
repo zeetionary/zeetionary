@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ساختەچی، ساختەکار، گزیکار
 """),
-// With short examples define "forger", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە شت ساختە دەکات بۆ کاری خەلەتاندن"""),

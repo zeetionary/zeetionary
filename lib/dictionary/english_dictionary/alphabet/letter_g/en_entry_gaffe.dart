@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەڵەی گەورە، لێ‌داقڵیشان، لێ‌ھەڵقڵیشان، شاشی، چەوتی
 """),
-// With short examples define "gaffe", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەڵەیەک کە کەسێک لە دەرەوە یان بۆنەیەکی کۆمەڵایەتیدا دەیکات، بە تایبەتی شتێک کە جێگەی شەرمەزارییە"""),

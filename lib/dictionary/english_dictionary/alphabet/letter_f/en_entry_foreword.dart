@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێشەکی، پێش‌وتە، کورتە پێشەکی
 """),
-// With short examples define "foreword", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناساندنێکی کورت لە سەرەتای کتێبێک، زۆرجار کە کەسێک دەینووسێت کە خودی نووسەرەکە نییە"""),

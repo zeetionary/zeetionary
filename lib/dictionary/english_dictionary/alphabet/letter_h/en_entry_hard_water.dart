@@ -146,7 +146,7 @@ ${englishMeaningConst.text}
 // """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئاوێک کە تێیدا هایدرۆجین گۆڕدراوەتەوە بە دیوتێریەم، و وادەکات دیوتێریەم بئۆکسێت. ئەم ئاوە لە وێستگەی ئەتۆمیدا بەکاردێت"""),
+                            """١. (ناو) ئاوێک کە تێیدا ھایدرۆجین گۆڕدراوەتەوە بە دیوتێریەم، و وادەکات دیوتێریەم بئۆکسێت. ئەم ئاوە لە وێستگەی ئەتۆمیدا بەکاردێت"""),
                     SentencesRow(
                       englishText:
                           """She noticed hard water buildup on the faucet.""",
@@ -222,19 +222,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Ll6-eGDpimU?t=';
-const double _startSecondsend = 000000000000000000000000000380;
-const String _videoIdone = 'https://youtu.be/_rBO8neWw04?t=';
-const double _startSecondsone = 0000000000000000000000000001544;
-const String _videoIdtwo = 'https://youtu.be/jHP942Livy0?t=';
-const double _startSecondstwo = 0000000000000000000000000001084;
-const String _videoIdthree = 'https://youtu.be/OyRmml3FkCc?t=';
-const double _startSecondsthree = 000000000000000000000000000158;
-const String _videoIdfour = 'https://youtu.be/jDQg_eygIhk?t=';
-const double _startSecondsfour = 000000000000000000000000000144;
-const String _videoIdfive = 'https://youtu.be/OcdS2Qkfd_I?t=';
-const double _startSecondsfive = 000000000000000000000000000338;
+const String _videoIdend = 'Ll6-eGDpimU';
+const double _startSecondsend = 380;
+const String _videoIdone = '_rBO8neWw04';
+const double _startSecondsone = 1544;
+const String _videoIdtwo = 'jHP942Livy0';
+const double _startSecondstwo = 1084;
+const String _videoIdthree = 'OyRmml3FkCc';
+const double _startSecondsthree = 158;
+const String _videoIdfour = 'jDQg_eygIhk';
+const double _startSecondsfour = 144;
+const String _videoIdfive = 'OcdS2Qkfd_I';
+const double _startSecondsfive = 338;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

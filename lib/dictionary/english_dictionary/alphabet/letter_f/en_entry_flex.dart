@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flex", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) چەماندنەوەی لاق، باڵ، ھتد، یان گرژکردنی ماسوولکە"""),

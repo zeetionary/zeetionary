@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناتەواو، نیوەچڵ، عەیب‌دار، خەوش‌دار، بەگەرد،	ھەڵە، شاشی
 """),
-// With short examples define "flawed", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە تەواو نییە؛ کە ھەڵە یان خەوشییەکی تیایە"""),

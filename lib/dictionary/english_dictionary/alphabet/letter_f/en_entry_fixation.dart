@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵبەستەیی، دڵ‌تێچوون، خۆشەویستی زۆر، خولیا، کەڵکەڵە
 """),
-// With short examples define "fixation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) حەزێکی زۆر بۆ شتێک کە نامۆیە یان بێ‌ھۆکارە"""),

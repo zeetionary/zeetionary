@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕازاوە، پرنەخش‌ونیگار، ڕەنگاوڕەنگ،	سوورھەڵگەڕاو، سوور، سوورەوەبوو
 """),
-// With short examples define "florid", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) بەشێوەی سرووشتی سوور"""),
                     SentencesRow(

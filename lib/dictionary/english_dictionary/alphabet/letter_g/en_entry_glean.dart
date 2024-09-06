@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "glean", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) بەدەستھێنانی زانیاری، ھتد، زۆرجار بە سەختی و لە شوێنی جیاوازەوە"""),
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Sbp_EeBk-As';
 const double _startSecondsend = 1095;
 const String _videoIdone = 'CiHUcQG7bH4';

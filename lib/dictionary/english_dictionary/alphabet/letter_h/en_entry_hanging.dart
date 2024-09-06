@@ -164,15 +164,14 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: لەسێدارەدان، هەڵواسین، بەپەتەوەکردن، خنکاندن
+کوردی: لەسێدارەدان، ھەڵواسین، بەپەتەوەکردن، خنکاندن
 """),
-// With short examples define "hanging", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) لەسێدارەدان"""),
                     SentencesRow(
                       englishText:
                           """Hanging was abolished in the UK in 1969.""",
                       kurdishText:
-                          """ساڵی ١٩٦٩ لەسێدارەدان لە بەریتانیا کۆتایی پێهێندرا.""",
+                          """ساڵی ١٩٦٩ لەسێدارەدان لە بەریتانیا کۆتایی پێھێندرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -264,19 +263,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/F1qV2nEfklQ?t=';
-const double _startSecondsend = 00000000000000000000000000012;
-const String _videoIdone = 'https://youtu.be/G5Oi8T3vP_E?t=';
-const double _startSecondsone = 000000000000000000000000000122;
-const String _videoIdtwo = 'https://youtu.be/Uz-SJC_HKwU?t=';
-const double _startSecondstwo = 000000000000000000000000000179;
-const String _videoIdthree = 'https://youtu.be/Ly2YA87DnUk?t=';
-const double _startSecondsthree = 000000000000000000000000000734;
-const String _videoIdfour = 'https://youtu.be/E2xNlzsnPCQ?t=';
-const double _startSecondsfour = 00000000000000000000000000048;
-const String _videoIdfive = 'https://youtu.be/G8UELR5KWk8?t=';
-const double _startSecondsfive = 000000000000000000000000000466;
+const String _videoIdend = 'F1qV2nEfklQ';
+const double _startSecondsend = 12;
+const String _videoIdone = 'G5Oi8T3vP_E';
+const double _startSecondsone = 122;
+const String _videoIdtwo = 'Uz-SJC_HKwU';
+const double _startSecondstwo = 179;
+const String _videoIdthree = 'Ly2YA87DnUk';
+const double _startSecondsthree = 734;
+const String _videoIdfour = 'E2xNlzsnPCQ';
+const double _startSecondsfour = 48;
+const String _videoIdfive = 'G8UELR5KWk8';
+const double _startSecondsfive = 466;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

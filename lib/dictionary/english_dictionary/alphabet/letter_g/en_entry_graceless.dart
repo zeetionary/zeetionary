@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 	بێ‌ڕەوشت، بێ‌ڕێزانە، ناحەز، بێ‌تۆرە، دوور لە ڕەوشت، بێ‌شەرمانە، بێ‌ئەدەبانە، بێ‌ڕەوشتانە،	یەک‌نەگر(ەوە)، ناحەز، جوان نییە، نەگونجاو، ناڕێک
 """),
-// With short examples define "graceless", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) نەزانینی ئەوەی بەڕێز و ڕووخۆش بیت لەگەڵ کەسانی دیکە"""),
@@ -282,7 +281,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Ae1tSWWPNrQ';
 const double _startSecondsend = 149;
 const String _videoIdone = 'Lx_ORMhpmoU';

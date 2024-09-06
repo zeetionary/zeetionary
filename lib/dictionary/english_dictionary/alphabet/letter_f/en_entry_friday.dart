@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەینی، ڕۆژی ھەینی، جومعە
 """),
-// With short examples define "Friday", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕۆژی ھەفتە کە دەکەوێتە نێوان پێنجشەممە و شەممە"""),

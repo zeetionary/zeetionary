@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "handlebar", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) دەسکی پاسکیل یان ماتۆڕسکیل"""),
                     SentencesRow(
@@ -223,19 +222,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/4I-p8vjQ95s?t=';
-const double _startSecondsend = 000000000000000000000000000957;
-const String _videoIdone = 'https://youtu.be/OoJsPvmFixU?t=';
-const double _startSecondsone = 0000000000000000000000000003302;
-const String _videoIdtwo = 'https://youtu.be/ilj8fZroRw0?t=';
-const double _startSecondstwo = 0000000000000000000000000006506;
-const String _videoIdthree = 'https://youtu.be/EQdeHNWf-0I?t=';
-const double _startSecondsthree = 00000000000000000000000000041;
-const String _videoIdfour = 'https://youtu.be/v_0DB3gBM3Y?t=';
-const double _startSecondsfour = 000000000000000000000000000352;
-const String _videoIdfive = 'https://youtu.be/-Gyk5SRSNWA?t=';
-const double _startSecondsfive = 000000000000000000000000000109;
+const String _videoIdend = '4I-p8vjQ95s';
+const double _startSecondsend = 957;
+const String _videoIdone = 'OoJsPvmFixU';
+const double _startSecondsone = 3302;
+const String _videoIdtwo = 'ilj8fZroRw0';
+const double _startSecondstwo = 6506;
+const String _videoIdthree = 'EQdeHNWf-0I';
+const double _startSecondsthree = 41;
+const String _videoIdfour = 'v_0DB3gBM3Y';
+const double _startSecondsfour = 352;
+const String _videoIdfive = '-Gyk5SRSNWA';
+const double _startSecondsfive = 109;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

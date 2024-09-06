@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خواپێداو، بەخت‌ڕووتێکردوو، بەختەوەر، بەبەخت، بەھرەوەر، ناوچاوان‌ھێناو،	مەبارەک، خێران‌دار، بارەدار، پیرۆز، باش
 """),
-// With short examples define "fortunate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە قازانجێک، ھەلێک، بەختێکی باش، ھتد دەھێنێت بۆ کەسێک"""),

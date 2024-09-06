@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "graph", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھێلکارییەک کە ھێڵێک یان یان زیاتری تێدایە و پیشانی دەدات چۆن ژمارەیەک ژمارە پەیوەندیدارن بە یەکەوە"""),
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'V_TulH374hw';
 const double _startSecondsend = 56;
 const String _videoIdone = 'GowxEMHTeh0';

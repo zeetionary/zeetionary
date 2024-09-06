@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌شەرمانە، ھەرزانە، بە ئاشکرایی، بێ‌پەردە
 """),
-// With short examples define "flagrantly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) زۆر بە ئاشكرایی و بەبێ ڕێزگرتنی خەڵکی یان یاسا"""),

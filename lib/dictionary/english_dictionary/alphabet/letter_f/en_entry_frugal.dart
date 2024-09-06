@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەس‌پێوەگر، دەس‌گیرۆ، کەم‌خەرج، دەس‌پێوەگرانە
 """),
-// With short examples define "frugal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بەکارھێنانی پارە بەو ڕێژەیەی کە پێویستە"""),

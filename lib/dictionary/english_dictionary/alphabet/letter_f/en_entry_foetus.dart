@@ -153,7 +153,6 @@ Usage: Brit, Cdn (US: fetus)
                     const KurdishVocabulary(text: """
 کوردی: ئاوەڵمە، ئاولەمە، ئاوڵەمە، کۆرپەلە
 """),
-// With short examples define "foetus", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کۆرپەلەی مرۆڤ یان ئاژەڵ، بە تایبەتی ھەشت ھەفتە لە دوای پیتاندن"""),

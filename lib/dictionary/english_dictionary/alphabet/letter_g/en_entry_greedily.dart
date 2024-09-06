@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نەوسنانە، بە چڵێسی، چڵێسانە
 """),
-// With short examples define "greedily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک پارە، دەسەڵات، خواردن، ھتد ــی زیاترت دەوێت وەک لەوەی پێویستتە"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '8y58X14nYcM';
 const double _startSecondsend = 726;
 const String _videoIdone = '6EuzOQOnX2A';

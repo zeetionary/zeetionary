@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: لاڕەشە، تیراوێ، خۆرە، مەرگ یان داڕزانی شوێنی شانەیێکی نەرم
 // """),
-// With short examples define "gangrene", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) داڕزانی بەشێکی جەستە بەھۆی ئەوەی خوێنی بۆ ناچێت"""),

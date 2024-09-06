@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شاد، خۆش، دڵشاد
 """),
-// With short examples define "festive", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە تایبەتە بە بۆنەیەکی تایبەت یان ئاھەنگگێڕان"""),

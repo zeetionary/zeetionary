@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناسک، ورد،	زۆر، بە ھەرەباشی
 """),
-// With short examples define "finely", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بۆ بەشی زۆر بچووک"""),
                     SentencesRow(

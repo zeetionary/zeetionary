@@ -194,11 +194,10 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: بەکەڵک، بەقازانج، بەکارهاتوو، ئاسوودە، خۆش‌دەس، بارخۆش، کارخۆش، دەس‌خۆش، لەبەردەس، دەردەس، حازربەدەست، دەس‌پێڕاگەیشتوو، نزیک،	شارەزا، وەستا، سەردەرچوو، دەس‌ڕاهاتوو
+کوردی: بەکەڵک، بەقازانج، بەکارھاتوو، ئاسوودە، خۆش‌دەس، بارخۆش، کارخۆش، دەس‌خۆش، لەبەردەس، دەردەس، حازربەدەست، دەس‌پێڕاگەیشتوو، نزیک،	شارەزا، وەستا، سەردەرچوو، دەس‌ڕاھاتوو
 """),
-// With short examples define "handy", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) کە ئاسانە بۆ کردن یان بەکارهێنان"""),
+                        text: """١. (ناو) کە ئاسانە بۆ کردن یان بەکارھێنان"""),
                     const AlsoEnglishckb(word: "ھەروەھا: useful"),
                     SentencesRow(
                       englishText:
@@ -212,7 +211,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The arrangement was handy for both of us.""",
-                      kurdishText: """ڕێکخستنەکە بۆ هەردووکمان بەسوود بوو.""",
+                      kurdishText: """ڕێکخستنەکە بۆ ھەردووکمان بەسوود بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -241,7 +240,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Always keep a first-aid kit handy.""",
                       kurdishText:
-                          """هەمیشە کەلوپەلی فریاگوزاری سەرەتایی لە نزیک بهێڵەوە.""",
+                          """ھەمیشە کەلوپەلی فریاگوزاری سەرەتایی لە نزیک بھێڵەوە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -255,7 +254,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵناو) کە توانای بەکارهێنانی دەستەکانت یان ئامێرت هەیە بۆ کار"""),
+                            """٣. (ھاوەڵناو) کە توانای بەکارھێنانی دەستەکانت یان ئامێرت ھەیە بۆ کار"""),
                     SentencesRow(
                       englishText: """Lucy is quite handy with a drill!""",
                       kurdishText: """لووسی تەواو شارەزایە لە دریلدا.""",
@@ -329,19 +328,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/x6btmJSRueE?t=';
-const double _startSecondsend = 000000000000000000000000000341;
-const String _videoIdone = 'https://youtu.be/wMmy2MlH55U?t=';
-const double _startSecondsone = 000000000000000000000000000522;
-const String _videoIdtwo = 'https://youtu.be/8eq2vGEEbB4?t=';
-const double _startSecondstwo = 00000000000000000000000000057;
-const String _videoIdthree = 'https://youtu.be/Fr-qagv7ig0?t=';
-const double _startSecondsthree = 000000000000000000000000000785;
-const String _videoIdfour = 'https://youtu.be/V3NGBo2M1Ps?t=';
-const double _startSecondsfour = 000000000000000000000000000308;
-const String _videoIdfive = 'https://youtu.be/LqU9CdPs6ek?t=';
-const double _startSecondsfive = 000000000000000000000000000464;
+const String _videoIdend = 'x6btmJSRueE';
+const double _startSecondsend = 341;
+const String _videoIdone = 'wMmy2MlH55U';
+const double _startSecondsone = 522;
+const String _videoIdtwo = '8eq2vGEEbB4';
+const double _startSecondstwo = 57;
+const String _videoIdthree = 'Fr-qagv7ig0';
+const double _startSecondsthree = 785;
+const String _videoIdfour = 'V3NGBo2M1Ps';
+const double _startSecondsfour = 308;
+const String _videoIdfive = 'LqU9CdPs6ek';
+const double _startSecondsfive = 464;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

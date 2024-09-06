@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌پلان، بێ‌مەبەست، شپرزە، ناڕێک(وپێک)، (باش)ڕێک‌نەخراو، تێکەولێکە، شێواو، ئاڵۆز
 """),
-// With short examples define "haphazard", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە ڕێکخراو نییە"""),
                     SentencesRow(
@@ -248,19 +247,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/9yjZpBq1XBE?t=';
-const double _startSecondsend = 000000000000000000000000000854;
-const String _videoIdone = 'https://youtu.be/tCqwT2MqLxI?t=';
-const double _startSecondsone = 000000000000000000000000000320;
-const String _videoIdtwo = 'https://youtu.be/udDv4IHOhDo?t=';
-const double _startSecondstwo = 000000000000000000000000000301;
-const String _videoIdthree = 'https://youtu.be/kgRb2fSt8fs?t=';
-const double _startSecondsthree = 000000000000000000000000000138;
-const String _videoIdfour = 'https://youtu.be/1_Z7gICP0DU?t=';
-const double _startSecondsfour = 0000000000000000000000000001701;
-const String _videoIdfive = 'https://youtu.be/FqfopuQJtY8?t=';
-const double _startSecondsfive = 000000000000000000000000000348;
+const String _videoIdend = '9yjZpBq1XBE';
+const double _startSecondsend = 854;
+const String _videoIdone = 'tCqwT2MqLxI';
+const double _startSecondsone = 320;
+const String _videoIdtwo = 'udDv4IHOhDo';
+const double _startSecondstwo = 301;
+const String _videoIdthree = 'kgRb2fSt8fs';
+const double _startSecondsthree = 138;
+const String _videoIdfour = '1_Z7gICP0DU';
+const double _startSecondsfour = 1701;
+const String _videoIdfive = 'FqfopuQJtY8';
+const double _startSecondsfive = 348;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

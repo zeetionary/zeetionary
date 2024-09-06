@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خەڵکی ڕەمەکی، خەڵکی ئاسایی، جەماوەر
 """),
-// With short examples define "grassroots", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسانی ئاسایی کۆمەڵگە یان دامەزراوەیەک، نەک ئەو کەسانەی بڕیار دەدەن"""),
@@ -225,7 +224,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'aSAVPnyQ0bw';
 const double _startSecondsend = 695;
 const String _videoIdone = 'lI-SfXmeHhY';

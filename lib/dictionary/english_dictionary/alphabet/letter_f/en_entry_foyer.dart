@@ -150,7 +150,6 @@ Type of: room
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "foyer", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) چۆڵاییەکی گەورە لە شوێنی ژوورەوەی بینایەک کە خەڵکی یەک دەبینن یان چاوەڕێ دەکەن"""),

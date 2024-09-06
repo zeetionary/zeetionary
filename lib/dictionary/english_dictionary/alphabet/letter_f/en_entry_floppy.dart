@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نەرم، شل، شەوێق، شۆڕ، شل‌وشەوێق، شل‌وشۆڕ، داکەوتوو، ئاوێزان، داچۆڕاو
 """),
-// With short examples define "floppy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە بە فشی شۆڕبووە"""),
                     SentencesRow(

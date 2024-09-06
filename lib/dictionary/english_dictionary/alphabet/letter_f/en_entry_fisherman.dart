@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ماسی‌گر، ماسی‌گیر، ماسی‌یەوان، تۆڕەوان
 """),
-// With short examples define "fisherman", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە ماسی دەگرێت"""),
                     SentencesRow(

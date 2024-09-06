@@ -145,14 +145,13 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: داری جەنگەڵی، سەختەدار، داری سەخت
 """),
-// With short examples define "hardwood", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) تەختەی ڕەقی قورس"""),
                     SentencesRow(
                       englishText:
                           """Environmentalists called for an end to the trade in tropical hardwoods.""",
                       kurdishText:
-                          """ژینگەدۆستان داوای کۆتایی هێنان بە پیشەسازی سەختەداری خولگەییان کرد.""",
+                          """ژینگەدۆستان داوای کۆتایی ھێنان بە پیشەسازی سەختەداری خولگەییان کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -223,18 +222,17 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/EsMhiGBho0s';
+const String _videoIdend = 'EsMhiGBho0s';
 const double _startSecondsend = 0;
-const String _videoIdone = 'https://youtu.be/pJsrRSR0_9w?t=';
-const double _startSecondsone = 0000000000000000000000000005;
-const String _videoIdtwo = 'https://youtu.be/odVAT-BqS1E?t=';
-const double _startSecondstwo = 0000000000000000000000000001;
-const String _videoIdthree = 'https://youtu.be/CTTTm4zT9uM?t=';
-const double _startSecondsthree = 0000000000000000000000000003;
-const String _videoIdfour = 'https://youtu.be/jfXuuDFNP5U?t=';
-const double _startSecondsfour = 000000000000000000000000000316;
-const String _videoIdfive = 'https://youtu.be/4Tj9b9wvp_g';
+const String _videoIdone = 'pJsrRSR0_9w';
+const double _startSecondsone = 5;
+const String _videoIdtwo = 'odVAT-BqS1E';
+const double _startSecondstwo = 1;
+const String _videoIdthree = 'CTTTm4zT9uM';
+const double _startSecondsthree = 3;
+const String _videoIdfour = 'jfXuuDFNP5U';
+const double _startSecondsfour = 316;
+const String _videoIdfive = '4Tj9b9wvp_g';
 const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {

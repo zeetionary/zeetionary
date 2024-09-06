@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵسۆزی، دڵوڤانی، دڵنەرمی، بەبەزەیێتی،	بەدەھندەیی،	گەورەیی
 """),
-// With short examples define "graciousness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی میھرەبان، بەڕێز، و دەستکراوە بیت"""),
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '6p0qaIHMNK0';
 const double _startSecondsend = 454;
 const String _videoIdone = 'NCeu5Wy-oVI';

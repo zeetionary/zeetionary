@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نەسووتاو، ئاورنەگر، دژەئاگر
 """),
-// With short examples define "fireproof", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە توانای بەرگەگرتنی دژ بە گەرمی زۆر ھەیە بەبێ ئەوەی زیانی پێ بگات"""),

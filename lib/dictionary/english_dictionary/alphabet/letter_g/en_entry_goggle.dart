@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "goggle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) سەیرکردنی شتێک، بە تایبەتی بەھۆی ئەوەی سەرسامیت"""),
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'FPAk81X3tTY';
 const double _startSecondsend = 1170;
 const String _videoIdone = 'dqcSk-EDrRo';

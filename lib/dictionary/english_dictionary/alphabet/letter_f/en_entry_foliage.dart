@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پەل‌وپۆ(پ)، پژوباڵ، چڵ‌وگەڵا، گەڵا
 """),
-// With short examples define "foliage", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) گەڵای دار یان ڕووەکێک؛ لق و گەڵا"""),
                     SentencesRow(

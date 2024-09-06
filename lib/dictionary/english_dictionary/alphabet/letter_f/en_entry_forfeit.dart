@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سزایانە، زیان، تاوان، ھەڵانە، جەریمە، پێ‌بژاردن،	لەکیس‌چوون، لەدەس‌دان، لەدەس‌چوون،	دەس‌بەسەراگرتن، لێ‌سەندن،	نرخ، بەھا، لەکیس‌چوو، لەدەس‌دراو، لەدەس‌چوو،	دەس‌بەسەراگیراو
 """),
-// With short examples define "forfeit", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) لە دەستدانی شتێک یان ئەوەی شتێکت لێ بسەندرێت بەھۆی ئەوەی کارێکی ھەڵەت کردووە"""),

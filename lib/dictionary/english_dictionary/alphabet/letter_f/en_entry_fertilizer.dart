@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پەیین، گوێبڕە، پەیینک، پیتێنە
 """),
-// With short examples define "fertilizer", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەک کە بۆ زەوی زیاد دەکرێت بۆ ئەوەی ڕووەک خێرا تێیدا گەشە بکات"""),

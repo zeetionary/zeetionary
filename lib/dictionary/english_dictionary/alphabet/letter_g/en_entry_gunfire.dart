@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەقاندن، تەقەکردن، گوللەخستن، تیرخستن، تفەنگ‌پێوەنان
 """),
-// With short examples define "gunfire", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) تەقاندنی فیشەکی بەردەوام"""),
                     SentencesRow(
@@ -253,19 +252,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/zqllxbPWKNI?t=';
-const double _startSecondsend = 0000000000000000000000000001749;
-const String _videoIdone = 'https://youtu.be/_0RTH57v66I?t=';
-const double _startSecondsone = 000000000000000000000000000752;
-const String _videoIdtwo = 'https://youtu.be/05gCLHlpzTU?t=';
-const double _startSecondstwo = 000000000000000000000000000599;
-const String _videoIdthree = 'https://youtu.be/5pgxzPoxv4w?t=';
-const double _startSecondsthree = 00000000000000000000000000073;
-const String _videoIdfour = 'https://youtu.be/qtlPTE-UmY4?t=';
-const double _startSecondsfour = 000000000000000000000000000155;
-const String _videoIdfive = 'https://youtu.be/BHnqRoEXu5o?t=';
-const double _startSecondsfive = 000000000000000000000000000285;
+const String _videoIdend = 'zqllxbPWKNI';
+const double _startSecondsend = 1749;
+const String _videoIdone = '_0RTH57v66I';
+const double _startSecondsone = 752;
+const String _videoIdtwo = '05gCLHlpzTU';
+const double _startSecondstwo = 599;
+const String _videoIdthree = '5pgxzPoxv4w';
+const double _startSecondsthree = 73;
+const String _videoIdfour = 'qtlPTE-UmY4';
+const double _startSecondsfour = 155;
+const String _videoIdfive = 'BHnqRoEXu5o';
+const double _startSecondsfive = 285;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

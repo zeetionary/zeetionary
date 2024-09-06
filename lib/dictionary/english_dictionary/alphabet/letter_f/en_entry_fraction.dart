@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەش، پشک، پار، لەت، پارچە،	وردە، کەم، ڕێزە، ھێند،	(بیرکاری) کەرت، ژمارەی پارەیی
 """),
-// With short examples define "fraction", please follow LX instructions
                     const DefinitionKurdish(
                       text: """١. (ناو) بەشێک یان بڕێکی بچووکی شتێک""",
                       note:

@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەرھەم‌ھێنەر، دروسکەر، داھێنەر
 """),
-// With short examples define "generative", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە دەتوانێت شتێک بەرھەم بھێنێت"""),

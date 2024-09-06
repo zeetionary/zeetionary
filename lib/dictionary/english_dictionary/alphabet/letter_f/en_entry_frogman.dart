@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مەلەوان، بۆقەپیاو، ناخەوان
 """),
-// With short examples define "frogman", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە لەژێر ئاودا کار دەکات و جلێکی لاستیکی و بۆقەپێ و کەرەستەی تایبەت بۆ ھەناسەدان بەکار دەھێنێت"""),

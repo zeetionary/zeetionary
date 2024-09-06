@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەڵبەستن، ساختەکاری، گزی، فرت‌وفێڵ
 """),
-// With short examples define "forgery", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کاری ساختەکردنی پارە، بەڵگەنامە، ھتد بۆ مەبەستی ساختەکاری؛ شتێک کە ساختە کراو"""),

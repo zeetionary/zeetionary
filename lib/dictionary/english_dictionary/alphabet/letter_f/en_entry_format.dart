@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕێکخستن،	ئەندازە، شێوە، بارستایی،	(کامپیوتێر) فۆڕمەت
 """),
-// With short examples define "format", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕێکخستن، پلان، دیزاین، ھتد ـی گشتی شتێک"""),

@@ -223,7 +223,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گڕ، زمانە، بڵێسە، گوڕی، سۆڵە، ئالاڤ، تڵە، لیسک، نێڵ، کڵپە،	درەوشانەوە، بریقەدانەوە، ڕۆشنایی، ڕووناکی، تیشک، تیرۆژ، شەوق،	ڕەنگی شاد یان گەش، ڕەنگی ڕۆشن
 """),
-// With short examples define "flame", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کڵپەی گەرمی گازی سووتاو کە لە شتێکەوە دێت کە گڕی گرتووە"""),

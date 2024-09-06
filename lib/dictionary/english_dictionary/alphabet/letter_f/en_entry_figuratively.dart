@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە شێوەیەکی خوازەیی، بە شێوەی خوازە
 """),
-// With short examples define "figuratively", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە زمان بە شێوەیەک بەکاردێت کە جیاوازە لە بەکارھێنانی ئاسایی. بۆ نموونە گوتنی ئەوەی 'لە تووڕەییدا تەقییەوە"""),

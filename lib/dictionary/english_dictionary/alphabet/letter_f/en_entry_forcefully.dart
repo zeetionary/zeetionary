@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە ھێزەوە،	توند، بە توندی
 """),
-// With short examples define "forcefully", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە بەھێزی و ڕوونی کە کەسانی دیکە باوەڕ بکەن"""),

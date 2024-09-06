@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شەوقاوێژ، ڕووناکی‌تێگرە، ڕووناکی‌دێر
 """),
-// With short examples define "floodlight", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گڵۆپێکی گەورە کە بەکاردێت بۆ ڕووناککردنەوەی یاریگای وەرزشی، ھۆڵی شانۆ، یان دەرەوەی بینا"""),

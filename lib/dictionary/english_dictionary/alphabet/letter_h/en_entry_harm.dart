@@ -254,7 +254,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئازار، عەزیەت، وەزەنگ، ئێش، برین، زیان، زرار، زەڕ، کەتن، وەی، مەرە، زەرەر، خەسار
 """),
-// With short examples define "harm", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) برین و زیان کە لەلایەن شتێکەوە درووست دەبێت"""),
@@ -262,7 +261,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He would never frighten anyone or cause them any harm.""",
                       kurdishText:
-                          """هەرگیز کەس ناتۆقێنێت یان ئەوەی ئازاریان بدات.""",
+                          """ھەرگیز کەس ناتۆقێنێت یان ئەوەی ئازاریان بدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -280,7 +279,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He may look fierce, but he means no harm.""",
                       kurdishText:
-                          """ڕەنگە توند دیار بێت، بەڵام هیچ مەبەستی زیانی نییە.""",
+                          """ڕەنگە توند دیار بێت، بەڵام ھیچ مەبەستی زیانی نییە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -307,7 +306,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """No definite harm to human health has been determined.""",
                       kurdishText:
-                          """هیچ زیانێکی دڵنیایی بۆ تەندرووستی مرۆڤ دیاری نەکراوە.""",
+                          """ھیچ زیانێکی دڵنیایی بۆ تەندرووستی مرۆڤ دیاری نەکراوە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -326,7 +325,7 @@ ${englishMeaningConst.text}
                             """٢. (کردار) گەیاندنی زیان یان بریندارکردنی کەسێک، یان گەیاندنی زیان بە شتێک"""),
                     SentencesRow(
                       englishText: """He would never harm anyone.""",
-                      kurdishText: """هەرگیز زیان بە کەس ناگەیەنێت.""",
+                      kurdishText: """ھەرگیز زیان بە کەس ناگەیەنێت.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -343,7 +342,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Rising oil prices could harm the global economy.""",
                       kurdishText:
-                          """بەرزبوونەوەی نرخی نەوت دەکرێت زیان بە ئابووریی جیهان بگەیەنێت.""",
+                          """بەرزبوونەوەی نرخی نەوت دەکرێت زیان بە ئابووریی جیھان بگەیەنێت.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -352,7 +351,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Misusing drugs in pregnancy can seriously harm your baby.""",
                       kurdishText:
-                          """هەڵە بەکارهێنانی دەرمان لەکاتی دووگیانی دەکرێت بە توندی زیان بە کۆرپەلە بگەیەنێت.""",
+                          """ھەڵە بەکارھێنانی دەرمان لەکاتی دووگیانی دەکرێت بە توندی زیان بە کۆرپەلە بگەیەنێت.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -361,7 +360,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """These revelations will harm her chances of winning the election.""",
                       kurdishText:
-                          """ئەم ئاشکرابوونانە زیان بە شانسی بردنەوەی هەڵبژاردنی دەگەیەنێت.""",
+                          """ئەم ئاشکرابوونانە زیان بە شانسی بردنەوەی ھەڵبژاردنی دەگەیەنێت.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -450,19 +449,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Mx8JkGHaGUI?t=';
-const double _startSecondsend = 00000000000000000000000000014;
-const String _videoIdone = 'https://youtu.be/CaaJyRvvaq8?t=';
-const double _startSecondsone = 000000000000000000000000000535;
-const String _videoIdtwo = 'https://youtu.be/qjqh9UVfNNk?t=';
-const double _startSecondstwo = 000000000000000000000000000728;
-const String _videoIdthree = 'https://youtu.be/hOUGNGWmN0k?t=';
-const double _startSecondsthree = 000000000000000000000000000305;
-const String _videoIdfour = 'https://youtu.be/TRGHIN2PGIA?t=';
-const double _startSecondsfour = 000000000000000000000000000255;
-const String _videoIdfive = 'https://youtu.be/0SeM5eqlNVg?t=';
-const double _startSecondsfive = 00000000000000000000000000026;
+const String _videoIdend = 'Mx8JkGHaGUI';
+const double _startSecondsend = 14;
+const String _videoIdone = 'CaaJyRvvaq8';
+const double _startSecondsone = 535;
+const String _videoIdtwo = 'qjqh9UVfNNk';
+const double _startSecondstwo = 728;
+const String _videoIdthree = 'hOUGNGWmN0k';
+const double _startSecondsthree = 305;
+const String _videoIdfour = 'TRGHIN2PGIA';
+const double _startSecondsfour = 255;
+const String _videoIdfive = '0SeM5eqlNVg';
+const double _startSecondsfive = 26;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -162,9 +162,8 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: تەنگ‌پێ‌هەڵچنین، هەراسان‌کردن، هەراس(پێ‌هەڵگرتن)، ڕیشەدەرهێنان، سەرخستنەسەر، سەرکردنەسەر، زۆربۆهێنان
+کوردی: تەنگ‌پێ‌ھەڵچنین، ھەراسان‌کردن، ھەراس(پێ‌ھەڵگرتن)، ڕیشەدەرھێنان، سەرخستنەسەر، سەرکردنەسەر، زۆربۆھێنان
 """),
-// With short examples define "harassment", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بێزارکردنی کەسێک بەوەی فشاری زۆر بخەیتە سەری یان شتێک بکەیت کە پێیان ناخۆشە"""),
@@ -172,7 +171,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The law can now protect people from harassment.""",
                       kurdishText:
-                          """یاساکە لە ئێستادا دەکرێت خەڵکی لە هەراسانکردن بپارێزێت.""",
+                          """یاساکە لە ئێستادا دەکرێت خەڵکی لە ھەراسانکردن بپارێزێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -181,18 +180,18 @@ ${englishMeaningConst.text}
                       englishText:
                           """The alleged harassment took place over two years.""",
                       kurdishText:
-                          """هەراسانکردنە بانگەشە بۆکراوەکە زیاتر لە دوو ساڵ پێش ئێستا ڕوویدا.""",
+                          """ھەراسانکردنە بانگەشە بۆکراوەکە زیاتر لە دوو ساڵ پێش ئێستا ڕوویدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) هێرشی بەردەوام بۆ سەر دووژمن"""),
+                        text: """٢. (ناو) ھێرشی بەردەوام بۆ سەر دووژمن"""),
                     SentencesRow(
                       englishText:
                           """Guerrilla harassment can be a powerful tool for weakening enemy forces.""",
                       kurdishText:
-                          """هێرشی گەریلایی دەکرێت ڕێگایەکی بەهێز بێت بۆ لاوازکردنی هێزەکانی دوژمن.""",
+                          """ھێرشی گەریلایی دەکرێت ڕێگایەکی بەھێز بێت بۆ لاوازکردنی ھێزەکانی دوژمن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -263,19 +262,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/xoYS_j7uEAk?t=';
-const double _startSecondsend = 000000000000000000000000000585;
-const String _videoIdone = 'https://youtu.be/THIGSnMP3io?t=';
-const double _startSecondsone = 0000000000000000000000000006;
-const String _videoIdtwo = 'https://youtu.be/SOq05_6w0ig?t=';
-const double _startSecondstwo = 000000000000000000000000000737;
-const String _videoIdthree = 'https://youtu.be/EDx5OFOiQ-I?t=';
-const double _startSecondsthree = 000000000000000000000000000971;
-const String _videoIdfour = 'https://youtu.be/EmT0i0xG6zg?t=';
-const double _startSecondsfour = 000000000000000000000000000840;
-const String _videoIdfive = 'https://youtu.be/tMAqL2K-Xxg?t=';
-const double _startSecondsfive = 00000000000000000000000000030;
+const String _videoIdend = 'xoYS_j7uEAk';
+const double _startSecondsend = 585;
+const String _videoIdone = 'THIGSnMP3io';
+const double _startSecondsone = 6;
+const String _videoIdtwo = 'SOq05_6w0ig';
+const double _startSecondstwo = 737;
+const String _videoIdthree = 'EDx5OFOiQ-I';
+const double _startSecondsthree = 971;
+const String _videoIdfour = 'EmT0i0xG6zg';
+const double _startSecondsfour = 840;
+const String _videoIdfive = 'tMAqL2K-Xxg';
+const double _startSecondsfive = 30;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

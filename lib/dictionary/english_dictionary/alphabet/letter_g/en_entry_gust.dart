@@ -168,9 +168,8 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: ڕەشەبا، بای توند، بای قایم، هەڵکردنی بای توند یان ڕەشەبا،	ڕەهێڵە، ڕێژنە، بارینی بە خوڕەم،	(ئاور، دووکەڵ و هتد) گڕکێشان، کڵپەکردن،	(خوازە) هەڵچوون، تەقینەوەی هەست و سۆز
+کوردی: ڕەشەبا، بای توند، بای قایم، ھەڵکردنی بای توند یان ڕەشەبا،	ڕەھێڵە، ڕێژنە، بارینی بە خوڕەم،	(ئاور، دووکەڵ و ھتد) گڕکێشان، کڵپەکردن،	(خوازە) ھەڵچوون، تەقینەوەی ھەست و سۆز
 """),
-// With short examples define "gust", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زیادبوونی لەناکاوی بڕ یان خێرایی با"""),
@@ -183,13 +182,13 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The wind was blowing in gusts.""",
-                      kurdishText: """بایەکە بە گژەگژ هەڵی دەکرد.""",
+                      kurdishText: """بایەکە بە گژەگژ ھەڵی دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) دەربڕینی لەناکاوی هەست و سۆز"""),
+                        text: """٢. (ناو) دەربڕینی لەناکاوی ھەست و سۆز"""),
                     SentencesRow(
                       englishText:
                           """Her joke triggered a gust of laughter from the group.""",
@@ -200,10 +199,10 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (کردار) کە بایەک لەناکاو هەڵدەکات"""),
+                        text: """٣. (کردار) کە بایەک لەناکاو ھەڵدەکات"""),
                     SentencesRow(
                       englishText: """The wind gusted through the branches.""",
-                      kurdishText: """بایەکە هەڵیکردە سەر لقەکان.""",
+                      kurdishText: """بایەکە ھەڵیکردە سەر لقەکان.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -274,19 +273,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/pFEB0chiuJA?t=';
-const double _startSecondsend = 000000000000000000000000000482;
-const String _videoIdone = 'https://youtu.be/LXhLlWQtdt0?t=';
-const double _startSecondsone = 0000000000000000000000000001078;
-const String _videoIdtwo = 'https://youtu.be/bcdEFos9YQQ?t=';
-const double _startSecondstwo = 0000000000000000000000000001733;
-const String _videoIdthree = 'https://youtu.be/SUc87t6yIF8?t=';
-const double _startSecondsthree = 0000000000000000000000000003171;
-const String _videoIdfour = 'https://youtu.be/hxP-TJQZjQY?t=';
-const double _startSecondsfour = 000000000000000000000000000160;
-const String _videoIdfive = 'https://youtu.be/zJ5rFV5b9Xs?t=';
-const double _startSecondsfive = 000000000000000000000000000142;
+const String _videoIdend = 'pFEB0chiuJA';
+const double _startSecondsend = 482;
+const String _videoIdone = 'LXhLlWQtdt0';
+const double _startSecondsone = 1078;
+const String _videoIdtwo = 'bcdEFos9YQQ';
+const double _startSecondstwo = 1733;
+const String _videoIdthree = 'SUc87t6yIF8';
+const double _startSecondsthree = 3171;
+const String _videoIdfour = 'hxP-TJQZjQY';
+const double _startSecondsfour = 160;
+const String _videoIdfive = 'zJ5rFV5b9Xs';
+const double _startSecondsfive = 142;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵەتەپێ، دڵەخورپە، دڵەکوتێ، نگەرانی، دڵ‌لەدوایی، لەدڵ‌چەقین، پێشزانی،	بۆقڕاندن، نگریس، نەگریس، بێ‌ودم، بێ‌فەڕ، بەدشووم
 """),
-// With short examples define "foreboding", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەستێکی بەھێز کە شتێکی خراپ ڕوودەدات"""),

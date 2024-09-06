@@ -166,7 +166,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەفرخەرە، یەخچاڵ 
 """),
-// With short examples define "fridge", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئامێرێکی کارەبایی کە خواردنی تێدەخرێت بۆ مانەوەی بە تازەیی و ساردی"""),

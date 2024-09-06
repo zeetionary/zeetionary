@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بنچینەخوازی، بنەماگەری، بنچینەگەری، بنچینەباوەڕی
 """),
-// With short examples define "fundamentalism", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جۆرێک لە ئایین، بە تایبەتی لە ئیسلام یان پڕۆتێستانی مەسیحی، کە باوەڕی وایە ھەموو شتێک کە لە نووسراوە پیرۆزەکان نووسراون تەواو ڕاستن"""),

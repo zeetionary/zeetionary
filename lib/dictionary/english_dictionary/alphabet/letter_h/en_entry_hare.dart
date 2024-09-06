@@ -167,7 +167,7 @@ ${englishMeaningConst.text}
 // """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەروێشکی کێوی؛ ئاژەڵێکە وەک کەروێشکی گەورە کە قاچی دواوەی زۆر بەهێزە و دەتوانێت زۆر خێرا ڕابکات"""),
+                            """١. (ناو) کەروێشکی کێوی؛ ئاژەڵێکە وەک کەروێشکی گەورە کە قاچی دواوەی زۆر بەھێزە و دەتوانێت زۆر خێرا ڕابکات"""),
                     SentencesRow(
                       englishText: """The hare darted across the field.""",
                       kurdishText:
@@ -261,19 +261,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/bG2fLJMqQC8?t=';
-const double _startSecondsend = 000000000000000000000000000126;
-const String _videoIdone = 'https://youtu.be/WF8iaqRqI60?t=';
-const double _startSecondsone = 00000000000000000000000000012;
-const String _videoIdtwo = 'https://youtu.be/mwXxs6pCvnE?t=';
-const double _startSecondstwo = 00000000000000000000000000036;
-const String _videoIdthree = 'https://youtu.be/DAVMyZmXXhg?t=';
-const double _startSecondsthree = 0000000000000000000000000009;
-const String _videoIdfour = 'https://youtu.be/ZzdV_HM95RQ?t=';
-const double _startSecondsfour = 000000000000000000000000000819;
-const String _videoIdfive = 'https://youtu.be/7XBu3gHPVrM?t=';
-const double _startSecondsfive = 000000000000000000000000000521;
+const String _videoIdend = 'bG2fLJMqQC8';
+const double _startSecondsend = 126;
+const String _videoIdone = 'WF8iaqRqI60';
+const double _startSecondsone = 12;
+const String _videoIdtwo = 'mwXxs6pCvnE';
+const double _startSecondstwo = 36;
+const String _videoIdthree = 'DAVMyZmXXhg';
+const double _startSecondsthree = 9;
+const String _videoIdfour = 'ZzdV_HM95RQ';
+const double _startSecondsfour = 819;
+const String _videoIdfive = '7XBu3gHPVrM';
+const double _startSecondsfive = 521;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

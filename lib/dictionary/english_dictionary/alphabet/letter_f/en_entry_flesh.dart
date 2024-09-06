@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گۆشت، گۆشتی میوە، نێرک،	توێژ، ڕووکار، ڕوو،	لەش، جەستە، تەن،	حەز و ویستی دەروون،	بوونەوەرەکان
 """),
-// With short examples define "flesh", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەی نەرمی نێوان پێست و ئێسکی جەستەی ئاژەڵ و مرۆڤ"""),

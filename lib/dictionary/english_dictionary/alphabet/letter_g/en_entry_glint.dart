@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: درەوشانەوە، بریقانەوە، تروسکە، بروسکە،	کورتە چاولێ‌کردن، چاوپیاخشاندن، چاوپیاگێڕان
 """),
-// With short examples define "glint", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) بەرھەمھێنانی فلاشی ڕۆشنایی درەوشاوە و بچووک"""),
@@ -308,7 +307,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_2LApgOJe5k';
 const double _startSecondsend = 517;
 const String _videoIdone = '4kEil-H7490';

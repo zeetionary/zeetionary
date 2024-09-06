@@ -218,7 +218,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵسۆز، دڵنەرم، بەڕوحم، بەڕەحم، بەبەزەیی، مێھرەوان،	بەئابڕوو، بەوەج، خانەدان، بەگزادە،	ئاگادار، تێبین،	ناتوندوتیژ، ئارام، ھێمن، ھێدی، لەسەرەخۆ، نیان،	(ھەوا، تێمپراچێر، لێژایی و ھتد) فێنک، مام‌ناوەندی، سازگار، نەرم، نیان، خۆش،	(دەنگ) ناسک، نەرم
 """),
-// With short examples define "gentle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ھێمن و میھرەبان؛ کردنی شت بە ئارامی و وریایی"""),
@@ -351,7 +350,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '4J0xFUyz1nw';
 const double _startSecondsend = 108;
 const String _videoIdone = 'HDntl7yzzVI';

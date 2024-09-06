@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خڕۆکە,	تکە، تنۆک، دڵۆپ,	گۆی چکۆلانە، گۆیژە، تۆپی بچووک
 """),
-// With short examples define "globule", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) قەترە یان تۆپەڵێکی شلەی زۆر بچووک، یان ھی شتێکی تواوە"""),
@@ -220,7 +219,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'oU7ZHbtJ0Ho';
 const double _startSecondsend = 297;
 const String _videoIdone = 'D8tPkb98Fkk';

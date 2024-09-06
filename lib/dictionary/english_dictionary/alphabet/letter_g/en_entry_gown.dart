@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کراسی ژنانە، قەسری،	کەوا، عەبا، جبە، باڵاپۆش
 """),
-// With short examples define "gown", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جلێکی ژنانە، بە تایبەتی دانەیەکی درێژ بۆ بۆنەی تایبەت"""),
@@ -270,7 +269,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'kaf4p10SiWY';
 const double _startSecondsend = 0;
 const String _videoIdone = 'HDntl7yzzVI';

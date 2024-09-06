@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "ghostwriter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە کتێبێک، ھتد دەنووسێت بۆ کەسێکی دیکە کە دواتر بە ناوی خۆیەوە بڵاوی دەکاتەوە"""),
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'nn8zfDv3EbA';
 const double _startSecondsend = 319;
 const String _videoIdone = 'QDkLaDDJhG8';

@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کلو، کولو، گولیچ، پشک، دەنک (بەفر)،	توێژاڵ، توێ، گەرداڵ، تەڵاشە، تەڵەزم، تیکە، توێخ، ناسکە، توێکڵ،	پووڵەکە،	مرۆی شێت،	گڵۆڵە خوری
 """),
-// With short examples define "flake", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێکی باریک کە لە شتێکی دیکە لێبووەتەوە"""),

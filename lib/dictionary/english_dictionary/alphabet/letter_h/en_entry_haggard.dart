@@ -147,10 +147,9 @@ ${englishMeaningConst.text}
                   children: [
                     const KurdishVocabulary(text: """
 کوردی: تێکچوو، ماندوو، شەکەت، قوپاو، پەککەوتوو، چاوبەقووڵاچوو، زەردوکز"""),
-// With short examples define "haggard", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە زۆر ماندوو دیارە بەهۆی نەخۆشییەوە"""),
+                            """١. (ھاوەڵناو) کە زۆر ماندوو دیارە بەھۆی نەخۆشییەوە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: drawn"),
                     SentencesRow(
                       englishText: """He looked pale and haggard.""",
@@ -225,19 +224,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Sxdk_q7AdTo?t=';
-const double _startSecondsend = 000000000000000000000000000611;
-const String _videoIdone = 'https://youtu.be/Gtjfvcqw0pI?t=';
-const double _startSecondsone = 000000000000000000000000000537;
-const String _videoIdtwo = 'https://youtu.be/HZq_HjKCRB4?t=';
-const double _startSecondstwo = 000000000000000000000000000348;
-const String _videoIdthree = 'https://youtu.be/hfMsvYROjpM?t=';
-const double _startSecondsthree = 0000000000000000000000000001022;
-const String _videoIdfour = 'https://youtu.be/VL0cscPoPiw?t=';
-const double _startSecondsfour = 0000000000000000000000000001626;
-const String _videoIdfive = 'https://youtu.be/KqfcpNrcGb0?t=';
-const double _startSecondsfive = 000000000000000000000000000955;
+const String _videoIdend = 'Sxdk_q7AdTo';
+const double _startSecondsend = 611;
+const String _videoIdone = 'Gtjfvcqw0pI';
+const double _startSecondsone = 537;
+const String _videoIdtwo = 'HZq_HjKCRB4';
+const double _startSecondstwo = 348;
+const String _videoIdthree = 'hfMsvYROjpM';
+const double _startSecondsthree = 1022;
+const String _videoIdfour = 'VL0cscPoPiw';
+const double _startSecondsfour = 1626;
+const String _videoIdfive = 'KqfcpNrcGb0';
+const double _startSecondsfive = 955;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -229,13 +229,12 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "guest", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) میوان"""),
                     SentencesRow(
                       englishText:
                           """They only use the dining room when they have guests.""",
                       kurdishText:
-                          """ژووڕی نان خواردنەکە بەکاردێنن تەنها کاتێک میوانیان هەیە.""",
+                          """ژووڕی نان خواردنەکە بەکاردێنن تەنھا کاتێک میوانیان ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -243,7 +242,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """She had invited six guests to dinner.""",
                       kurdishText:
-                          """شەش میوانی بۆ نانی ئێوارە بانگ هێشت کردبوو.""",
+                          """شەش میوانی بۆ نانی ئێوارە بانگ ھێشت کردبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -252,14 +251,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """There were more than 100 wedding guests.""",
                       kurdishText:
-                          """زیاتر لە ١٠٠ میوانی ئاهەنگە هاوسەرگیرییەکە هەبوون.""",
+                          """زیاتر لە ١٠٠ میوانی ئاھەنگە ھاوسەرگیرییەکە ھەبوون.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I went to the party as Helen's guest.""",
-                      kurdishText: """وەک میوانی هێلین چوومە ئاهەنگەکە.""",
+                      kurdishText: """وەک میوانی ھێلین چوومە ئاھەنگەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -273,10 +272,10 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) کەسێک کە لە هوتێلێک، هتد دەمێنێتەوە"""),
+                            """٢. (ناو) کەسێک کە لە ھوتێلێک، ھتد دەمێنێتەوە"""),
                     SentencesRow(
                       englishText: """We have accommodation for 500 guests.""",
-                      kurdishText: """جێگای ٥٠٠ میوانمان هەیە.""",
+                      kurdishText: """جێگای ٥٠٠ میوانمان ھەیە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -308,14 +307,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """Guest artists from all over Europe will take part in the concert.""",
                       kurdishText:
-                          """هونەرمەندی میوان لە هەموو ئەورووپاوە بەژداری لەم کۆنسێرتە دەکەن.""",
+                          """ھونەرمەندی میوان لە ھەموو ئەورووپاوە بەژداری لەم کۆنسێرتە دەکەن.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (ناو) کەسێک کە بانگهێشت کراوە بۆ شوێنێک یان دامەزراوەیەکی دیاریکراو، یان بۆ قسەکردن لە چاوپێکەوتنێک"""),
+                            """٥. (ناو) کەسێک کە بانگھێشت کراوە بۆ شوێنێک یان دامەزراوەیەکی دیاریکراو، یان بۆ قسەکردن لە چاوپێکەوتنێک"""),
                     SentencesRow(
                       englishText:
                           """The scientists are here as guests of our government.""",
@@ -326,7 +325,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٦. (کردار) بەژداری کردن وەک یاریزان یان نمایشکارێکی سەردانکار یان کاتی لە پڕۆگرامێک، کۆنسێرتێک، یارییەک، هتد"""),
+                            """٦. (کردار) بەژداری کردن وەک یاریزان یان نمایشکارێکی سەردانکار یان کاتی لە پڕۆگرامێک، کۆنسێرتێک، یارییەک، ھتد"""),
                     SentencesRow(
                       englishText:
                           """He guested for Leeds United on Saturday.""",
@@ -401,19 +400,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/4J0xFUyz1nw?t=';
-const double _startSecondsend = 000000000000000000000000000562;
-const String _videoIdone = 'https://youtu.be/HDntl7yzzVI?t=';
-const double _startSecondsone = 000000000000000000000000000719;
-const String _videoIdtwo = 'https://youtu.be/0OXjCR3Uu0A';
+const String _videoIdend = '4J0xFUyz1nw';
+const double _startSecondsend = 562;
+const String _videoIdone = 'HDntl7yzzVI';
+const double _startSecondsone = 719;
+const String _videoIdtwo = '0OXjCR3Uu0A';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/F5T2-u5WJH8?t=';
-const double _startSecondsthree = 000000000000000000000000000157;
-const String _videoIdfour = 'https://youtu.be/2TUGZ1VQDss?t=';
-const double _startSecondsfour = 00000000000000000000000000099;
-const String _videoIdfive = 'https://youtu.be/OjRc9Ghorp8?t=';
-const double _startSecondsfive = 00000000000000000000000000088;
+const String _videoIdthree = 'F5T2-u5WJH8';
+const double _startSecondsthree = 157;
+const String _videoIdfour = '2TUGZ1VQDss';
+const double _startSecondsfour = 99;
+const String _videoIdfive = 'OjRc9Ghorp8';
+const double _startSecondsfive = 88;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

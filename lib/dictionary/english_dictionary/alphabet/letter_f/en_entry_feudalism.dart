@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فیوداڵیزم، دەرەبەگایەتی، سیستم یان ڕێکخستەی فیوداڵی، خان‌خانی
 """),
-// With short examples define "feudalism", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سیستەمی دەرەبەگایەتی ئەورووپا کە تێیدا خەڵکی زەوییان لەلایەن کەسێکی خانەدانەوە پێدەدرا و لە بەرامبەردا دەبوو شەڕی بۆ بکەن"""),

@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fondle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) دەستھێنان بە شتێک، بە تایبەتی بە لایەنی سێکسی"""),

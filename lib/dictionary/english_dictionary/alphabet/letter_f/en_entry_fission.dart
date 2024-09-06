@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: داتڵیشان، داقڵیشان، کەرت‌بوون،	کەرت‌بوونی خانەیی، دابەش‌بوونی خانەیی
 """),
-// With short examples define "fission", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جیاکردنەوەی ناوکی ئەتۆم کە وادەکات ھێزێکی زۆر دەربکرێت"""),

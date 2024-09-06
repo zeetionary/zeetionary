@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سووڕان، خولان، خولانەوە، چەرخین، دەورلێدان، گەڕان، چەرخ‌خواردن، گردوخول، سووڕخواردن، چەرخ
 """),
-// With short examples define "gyration", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) سووڕانەوە بە بازنەیی"""),
                     SentencesRow(
@@ -243,19 +242,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/m4-MLaa4nCs?t=';
-const double _startSecondsend = 0000000000000000000000000005;
-const String _videoIdone = 'https://youtu.be/W6_H2JsOkF4?t=';
-const double _startSecondsone = 000000000000000000000000000385;
-const String _videoIdtwo = 'https://youtu.be/x76c8m7WwNE?t=';
-const double _startSecondstwo = 000000000000000000000000000902;
-const String _videoIdthree = 'https://youtu.be/D5AxmTjzZ3c?t=';
-const double _startSecondsthree = 000000000000000000000000000116;
-const String _videoIdfour = 'https://youtu.be/W6_H2JsOkF4?t=';
-const double _startSecondsfour = 000000000000000000000000000385;
-const String _videoIdfive = 'https://youtu.be/xuU_U2-C7MQ?t=';
-const double _startSecondsfive = 000000000000000000000000000445;
+const String _videoIdend = 'm4-MLaa4nCs';
+const double _startSecondsend = 5;
+const String _videoIdone = 'W6_H2JsOkF4';
+const double _startSecondsone = 385;
+const String _videoIdtwo = 'x76c8m7WwNE';
+const double _startSecondstwo = 902;
+const String _videoIdthree = 'D5AxmTjzZ3c';
+const double _startSecondsthree = 116;
+const String _videoIdfour = 'W6_H2JsOkF4';
+const double _startSecondsfour = 385;
+const String _videoIdfive = 'xuU_U2-C7MQ';
+const double _startSecondsfive = 445;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

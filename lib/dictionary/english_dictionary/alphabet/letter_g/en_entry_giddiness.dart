@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرگێژە، سەرەگێژە، تاس
 """),
-// With short examples define "giddiness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەستی ئەوەی ھەموو شتێک دەسووڕێتەوە ناتوانیت ھاوسەنگی ڕابگریت"""),
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '6521a_4tUYA';
 const double _startSecondsend = 495;
 const String _videoIdone = 'iT1l8Dcjb1Y';

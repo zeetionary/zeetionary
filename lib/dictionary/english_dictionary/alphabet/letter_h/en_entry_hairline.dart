@@ -162,13 +162,13 @@ ${englishMeaningConst.text}
                       englishText:
                           """Many men experience a receding hairline as they age.""",
                       kurdishText:
-                          """زۆربەی پیاوان کاتێک تەمەنیان بەرەو سەرەوە دەچێت، هێڵی قژیان دەکشێتەوە.""",
+                          """زۆربەی پیاوان کاتێک تەمەنیان بەرەو سەرەوە دەچێت، ھێڵی قژیان دەکشێتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) درز یان هێڵێکی زۆر باریک"""),
+                        text: """٢. (ناو) درز یان ھێڵێکی زۆر باریک"""),
                     SentencesRow(
                       englishText:
                           """Harry suffered a hairline fracture of his right ankle.""",
@@ -244,19 +244,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/ithpKqYOvd0?t=';
-const double _startSecondsend = 000000000000000000000000000387;
-const String _videoIdone = 'https://youtu.be/XMCZEJVlyRY?t=';
-const double _startSecondsone = 000000000000000000000000000317;
-const String _videoIdtwo = 'https://youtu.be/Y_N0AxCzVLg?t=';
-const double _startSecondstwo = 000000000000000000000000000772;
-const String _videoIdthree = 'https://youtu.be/Wao0_uB4Zw4?t=';
-const double _startSecondsthree = 00000000000000000000000000087;
-const String _videoIdfour = 'https://youtu.be/PcUnoFCxmsw?t=';
-const double _startSecondsfour = 000000000000000000000000000346;
-const String _videoIdfive = 'https://youtu.be/DMRMWLwvAGA?t=';
-const double _startSecondsfive = 000000000000000000000000000347;
+const String _videoIdend = 'ithpKqYOvd0';
+const double _startSecondsend = 387;
+const String _videoIdone = 'XMCZEJVlyRY';
+const double _startSecondsone = 317;
+const String _videoIdtwo = 'Y_N0AxCzVLg';
+const double _startSecondstwo = 772;
+const String _videoIdthree = 'Wao0_uB4Zw4';
+const double _startSecondsthree = 87;
+const String _videoIdfour = 'PcUnoFCxmsw';
+const double _startSecondsfour = 346;
+const String _videoIdfive = 'DMRMWLwvAGA';
+const double _startSecondsfive = 347;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

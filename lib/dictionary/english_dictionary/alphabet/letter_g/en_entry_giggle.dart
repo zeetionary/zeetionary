@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قاقا، حیلکە، پێکەنینی سەریەک، پیران، خش‌بردنەوە، حیلکەحیلک
 """),
-// With short examples define "giggle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) پێکەنین بە بە شێوەیەکی گێلانە بەھۆی ئەوەی شەرمەزار یان شڵەژاویت، یان پێتوایە شتێک پێکەنیناوییە"""),
@@ -301,7 +300,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'PqpCeiYycVM';
 const double _startSecondsend = 939;
 const String _videoIdone = 'Wiy8icSKKQs';

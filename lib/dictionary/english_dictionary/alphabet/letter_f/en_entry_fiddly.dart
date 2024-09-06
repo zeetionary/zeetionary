@@ -151,7 +151,6 @@ Usage: Brit, informal
                     const KurdishVocabulary(text: """
 کوردی: سەخت، گران، دژوار، پڕئەرک، پڕزەحمەت
 """),
-// With short examples define "fiddly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە سەختە بکرێت یان بەکاربێت بەھۆی ئەوەی شتی بچووکی تێدایە"""),

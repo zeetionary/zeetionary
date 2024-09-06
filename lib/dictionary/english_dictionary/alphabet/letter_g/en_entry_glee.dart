@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵخۆشی، شادی، بەکەیفی، سەرخۆشی، خۆشحاڵی
 """),
-// With short examples define "glee", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەستی دڵخۆشی، بە تایبەتی بەھۆی ئەوەی شتێکی باشت کردووە یان شتێکی خراپ بەسەر کەسێک ھاتووە"""),
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'XeJ2vOHaATg';
 const double _startSecondsend = 2732;
 const String _videoIdone = 'hTqtGJwsJVE';

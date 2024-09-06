@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زۆربڵە، چەنەدرێژ، چەنەباز، چەقەسرۆ، زۆروەڕ، چەنەھەراش، لەوچە، سازنگە
 """),
-// With short examples define "garrulous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کەسێک کە قسە زۆر دەکات، بە تایبەتی لەسەر شتێ بی‌سوود"""),

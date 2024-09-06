@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کوڵکە، پرزە، پڕوشە، موو، تووک، پەڕی نەرم، نەرمەپەڕ، نەرمەتووک،	شتی ئایەخ و ناگرنگ، شتی ھیچەکە یان سەرسەرەکی،	ھەڵە، لێ‌ھەڵقڵیشان
 """),
-// With short examples define "fluff", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچەی بچووک لە خوری، لۆکە، ھتد کە لەسەر جل و ڕووی دیکە کۆدەبنەوە"""),

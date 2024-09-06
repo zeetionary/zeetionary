@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: داڕێژگەری، کارخانەی داڕشتن،	شووشەگەری، کارخانەی شووشە
 """),
-// With short examples define "foundry", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کارگەیەک کە تێیدا شووشە یان کانزا دەتوێندرێتەوە و دەکرێت بە شتی جیاواز"""),

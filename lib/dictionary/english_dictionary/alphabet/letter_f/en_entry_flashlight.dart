@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flashlight", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لایتێکی کارەبایی کە لەگەڵ خۆت ھەڵی دەگریت"""),

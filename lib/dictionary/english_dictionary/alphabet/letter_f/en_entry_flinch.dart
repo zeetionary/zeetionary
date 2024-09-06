@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flinch", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەنجامدانی جووڵەیەکی لەناکاو بە ڕووخسار یان جەستەت بەھۆی ترس، ئازار، یان سەرسامی"""),

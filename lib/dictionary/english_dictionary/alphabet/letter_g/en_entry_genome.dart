@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "genome", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەستەیەکی تەواوی بۆھێڵ لە خانەیەک یان شتێکی زیندوو"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'KT18KJouHWg';
 const double _startSecondsend = 335;
 const String _videoIdone = 'NNnIGh9g6fA';

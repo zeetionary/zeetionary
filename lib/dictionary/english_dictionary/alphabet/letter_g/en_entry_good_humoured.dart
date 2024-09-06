@@ -222,7 +222,6 @@ Usage: Brit, Cdn (US: good-humored)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'iDVxOg_R0rc';
 const double _startSecondsend = 427;
 const String _videoIdone = 'mUYrsA4sJeE';

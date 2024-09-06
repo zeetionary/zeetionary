@@ -167,10 +167,9 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gym", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ژوور یان هۆڵێک بۆ ئەنجامدانی ڕاهێنانی جەستەیی"""),
+                            """١. (ناو) ژوور یان ھۆڵێک بۆ ئەنجامدانی ڕاھێنانی جەستەیی"""),
                     SentencesRow(
                       englishText:
                           """The school has recently built a new gym.""",
@@ -182,11 +181,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) شوێنێکی تایبەت بۆ ڕاهێنانی جەستەیی"""),
+                            """٢. (ناو) شوێنێکی تایبەت بۆ ڕاھێنانی جەستەیی"""),
                     SentencesRow(
                       englishText: """I work out at the gym most days.""",
                       kurdishText:
-                          """زۆرینەی ڕۆژەکان لە جیمەکە ڕاهێنان دەکەم.""",
+                          """زۆرینەی ڕۆژەکان لە جیمەکە ڕاھێنان دەکەم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -201,10 +200,10 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (ناو) ڕاهێنانی جەستەیی لە جیمدا"""),
+                        text: """٣. (ناو) ڕاھێنانی جەستەیی لە جیمدا"""),
                     SentencesRow(
                       englishText: """I don't enjoy gym.""",
-                      kurdishText: """حەزم بە ڕاهێنانی جیم نییە.""",
+                      kurdishText: """حەزم بە ڕاھێنانی جیم نییە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -275,19 +274,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/VwPGtn9qJZ4?t=';
-const double _startSecondsend = 000000000000000000000000000912;
-const String _videoIdone = 'https://youtu.be/PdrbNKXMzvg?t=';
-const double _startSecondsone = 000000000000000000000000000143;
-const String _videoIdtwo = 'https://youtu.be/M64qgf5IcR8?t=';
-const double _startSecondstwo = 00000000000000000000000000010;
-const String _videoIdthree = 'https://youtu.be/U_cPRsC7d9A?t=';
-const double _startSecondsthree = 00000000000000000000000000094;
-const String _videoIdfour = 'https://youtu.be/lOx0Ow_hCsU?t=';
+const String _videoIdend = 'VwPGtn9qJZ4';
+const double _startSecondsend = 912;
+const String _videoIdone = 'PdrbNKXMzvg';
+const double _startSecondsone = 143;
+const String _videoIdtwo = 'M64qgf5IcR8';
+const double _startSecondstwo = 10;
+const String _videoIdthree = 'U_cPRsC7d9A';
+const double _startSecondsthree = 94;
+const String _videoIdfour = 'lOx0Ow_hCsU';
 const double _startSecondsfour = 0;
-const String _videoIdfive = 'https://youtu.be/m3OdHm7nuAM?t=';
-const double _startSecondsfive = 00000000000000000000000000057;
+const String _videoIdfive = 'm3OdHm7nuAM';
+const double _startSecondsfive = 57;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

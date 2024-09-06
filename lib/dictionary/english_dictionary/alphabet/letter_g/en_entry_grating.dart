@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناخۆش، قیژە و ھەرای ناخۆش، کەڕکەر
 """),
-// With short examples define "grating", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە ئاسنێکی گەورە کە بەکاردێت بۆ بەستنی پەنجەرەیەک، دەرگایەک، چاڵێکی گەورەی مەنھۆڵ، ھتد"""),
@@ -251,7 +250,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '9yjZpBq1XBE';
 const double _startSecondsend = 510;
 const String _videoIdone = 'j3o6RLBehlc';

@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تاریک، لێڵ، مات کەم‌شەوق،	ناڕەحەت، مەیوس، دڵتەنگ، خەمبار، ناھومێد، دڵسارد،	دڵتەنگ(کەر)، ناڕەحەت‌کەر
 """),
-// With short examples define "gloomy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بە نزیکەیی تاریک، یان ئەوەی باش ڕۆشن نییە و بێزارت دەکات"""),
@@ -260,7 +259,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_wNsZEqpKUA';
 const double _startSecondsend = 1190;
 const String _videoIdone = 'nMwQWrzAYSU';

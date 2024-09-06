@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پوختە، کاکڵ، کرۆک، نیویشک، خاڵی سەرەکی، سەربابەت
 """),
-// With short examples define "gist", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) واتای سەرەکی یان گشتی شتێک"""),
                     SentencesRow(
@@ -259,7 +258,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'HDntl7yzzVI';
 const double _startSecondsend = 1816;
 const String _videoIdone = 'oD9BaNAH-eE';

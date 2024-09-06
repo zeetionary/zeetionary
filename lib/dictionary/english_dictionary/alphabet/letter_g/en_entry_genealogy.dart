@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕەچەڵەک‌ناسی، بنەچەک‌ناسی،	ڕەگەزنامە، ڕەچەڵەک‌نامە،	ڕەچەڵەک، بنەچەک، خێزان
 """),
-// With short examples define "genealogy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لێکۆڵینەوە لە مێژووی خێزانی، بە تایبەتی ئەوەی کە باوانی کەسێکی دیاریکراو کێ بوونە"""),

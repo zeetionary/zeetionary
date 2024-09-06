@@ -165,7 +165,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھاتنی با، ھەڵکردنی با (ناکاو)،	بادەوە،	بارین، بارشت،	پەشۆکاوی، سەرسامی، تاسان، شڵەژان، فڕک‌وھۆڕ، فڕکەفڕک، جرپ‌وھۆڕ
 """),
-// With short examples define "flurry", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ماوەیەک کە چالاکی، حەز. جۆش‌وخرۆشی، ھتد ـی زۆر ھەیە لە کاتێکی کەمدا"""),

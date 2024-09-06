@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕاھێنراو، پەروەردەکراو، ئامادە
 """),
-// With short examples define "groomed", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بۆ باسکردنی شێوازی چاودێری کەسێک لە جلوبەرگ و قژی"""),
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QlUQ0nRQ8oU';
 const double _startSecondsend = 418;
 const String _videoIdone = 'frPXtNrs_N4';

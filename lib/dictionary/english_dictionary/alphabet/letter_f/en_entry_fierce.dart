@@ -208,7 +208,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تووڕە، توندوتیژ، ڕق‌ھەستاو، بێ‌بەزەیی، دڕ، دڕندە، بۆھاتوو، یانی‌گر، ھار، ھۆڤ،	توند، سەخت، گەرم قورس، بێ‌ئەمان، بەھێز،	بێ‌ڕەحم، بێ‌بەزەیی، زۆردار
 """),
-// With short examples define "fierce", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) تووڕە و توند بە شێوەیەک کە ترسێنەرە"""),

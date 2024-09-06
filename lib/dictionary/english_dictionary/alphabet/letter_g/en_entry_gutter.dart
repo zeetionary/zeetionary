@@ -183,9 +183,8 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: پلووسک، ئاوەڕۆ، پلوور، سوول، سوولاڤ، پلورە، لووساوک، ئاوی سەربان، تۆڕی پلووسکەکان، پلووسکەمەنی،	(پاڵ شەقام) قاناو، گەنکاوڕەو، هەژاری، تەنەکەنشینی، گەڕەکی هەژارنشین، خوارشار
+کوردی: پلووسک، ئاوەڕۆ، پلوور، سوول، سوولاڤ، پلورە، لووساوک، ئاوی سەربان، تۆڕی پلووسکەکان، پلووسکەمەنی،	(پاڵ شەقام) قاناو، گەنکاوڕەو، ھەژاری، تەنەکەنشینی، گەڕەکی ھەژارنشین، خوارشار
 """),
-// With short examples define "gutter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئاوەڕۆی خوار قەراغی سەربانی بینایەک"""),
@@ -205,19 +204,19 @@ ${englishMeaningConst.text}
                       englishText:
                           """The city crews cleared the gutters after the heavy storm to prevent flooding.""",
                       kurdishText:
-                          """کرێکارانی شارەکە ئاوەڕۆکانیان پاککردەوە لە دوای زریانە بەهێزەکە بۆ ڕێگری لە لافاو.""",
+                          """کرێکارانی شارەکە ئاوەڕۆکانیان پاککردەوە لە دوای زریانە بەھێزەکە بۆ ڕێگری لە لافاو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) دۆخی کۆمەڵایەتی خراپ یان ستانداردی نزمی ئەخلاقی کە هەندێک جار دەبەسترێتەوە بە نزمترین ئاستی کۆمەڵگا"""),
+                            """٣. (ناو) دۆخی کۆمەڵایەتی خراپ یان ستانداردی نزمی ئەخلاقی کە ھەندێک جار دەبەسترێتەوە بە نزمترین ئاستی کۆمەڵگا"""),
                     SentencesRow(
                       englishText:
                           """She rose from the gutter to become a great star.""",
                       kurdishText:
-                          """لە هەژارییەوە گەورە بوو بۆ بوون بە ئەستێرەیەکی گەورە.""",
+                          """لە ھەژارییەوە گەورە بوو بۆ بوون بە ئەستێرەیەکی گەورە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -288,19 +287,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/EHJNGdFll4o?t=';
-const double _startSecondsend = 000000000000000000000000000184;
-const String _videoIdone = 'https://youtu.be/XKqWnOtbSr8?t=';
-const double _startSecondsone = 00000000000000000000000000067;
-const String _videoIdtwo = 'https://youtu.be/y4DTW4B3Sjs?t=';
-const double _startSecondstwo = 000000000000000000000000000501;
-const String _videoIdthree = 'https://youtu.be/Ir3eJ1t13fk?t=';
-const double _startSecondsthree = 0000000000000000000000000002718;
-const String _videoIdfour = 'https://youtu.be/iZbala54uzk?t=';
-const double _startSecondsfour = 00000000000000000000000000089;
-const String _videoIdfive = 'https://youtu.be/rhzgUq-lDVU?t=';
-const double _startSecondsfive = 000000000000000000000000000633;
+const String _videoIdend = 'EHJNGdFll4o';
+const double _startSecondsend = 184;
+const String _videoIdone = 'XKqWnOtbSr8';
+const double _startSecondsone = 67;
+const String _videoIdtwo = 'y4DTW4B3Sjs';
+const double _startSecondstwo = 501;
+const String _videoIdthree = 'Ir3eJ1t13fk';
+const double _startSecondsthree = 2718;
+const String _videoIdfour = 'iZbala54uzk';
+const double _startSecondsfour = 89;
+const String _videoIdfive = 'rhzgUq-lDVU';
+const double _startSecondsfive = 633;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

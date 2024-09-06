@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gauntness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لاوازی کەسێک، زۆرجار بەھۆی نەخۆشی، کەم‌خۆراکی، یان نیگەرانی"""),

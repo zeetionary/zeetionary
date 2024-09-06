@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: تووز، چووز، پەیوەند، متوربە، پەیوەست،	جێگای متوربە، فتروونە، پەیوەستگا،	نەمام، چووز، خەڵف، قەڵەمە،	ڕووەکی متوربەکراو، پارتی‌بازی،	بەرتیل، بەرتیل‌خۆری، دزی، دەسکیسی، کاری گران یا سەخت، کردوکۆش، ھەوڵ، چنگەکڕێ، کڕناوکڕن
 // """),
-// With short examples define "graft", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچەیەک کە لە ڕووەکێک کراوەتەوە و دەدرێت لە یەکێکی دیکە بۆ ئەوەی لەوێ گەشە بکات؛ پڕۆسەی لێکردنەوەی پێست، ئێسک، ھتد لە بەشێکی جەستە و دانانی لە بەشێکی دیکە کە زیانی پێگەشتووە؛ پڕۆسەی کردنی ئەمە"""),
@@ -324,7 +323,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'HZryl5nJr00';
 const double _startSecondsend = 908;
 const String _videoIdone = 'HZryl5nJr00';

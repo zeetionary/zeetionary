@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕوو، ڕوخسار، بە چاو دادانەوە، پێنازین
 """),
-// With short examples define "flaunt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) پیشاندانی شتێک کە شانازی پێوە دەکەیت بە کەسانی دیکە بۆ ئەوەی سەرسامیان بکەیت"""),

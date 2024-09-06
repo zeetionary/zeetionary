@@ -188,16 +188,15 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: هۆڵ، هاڵ، ساڵۆن، تالار، دیوان‌خانە، دانیشتگە،	(ماڵ) داڵان، هاڵ، ناوماڵ، ڕێڕەو
+کوردی: ھۆڵ، ھاڵ، ساڵۆن، تالار، دیوان‌خانە، دانیشتگە،	(ماڵ) داڵان، ھاڵ، ناوماڵ، ڕێڕەو
 """),
-// With short examples define "hall", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بۆشاییەک یان ڕێڕەوێک لە دەرگای سەرەکی بینایەک"""),
                     SentencesRow(
                       englishText:
                           """Her brother was standing in the front hall.""",
-                      kurdishText: """براکەی لە هۆڵی پێشەوە وەستابوو.""",
+                      kurdishText: """براکەی لە ھۆڵی پێشەوە وەستابوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -206,14 +205,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """She ran into the hall and up the stairs.""",
                       kurdishText:
-                          """ڕایکرد هۆڵەکە بە پلەکانەکەدا چووە سەرەوە.""",
+                          """ڕایکرد ھۆڵەکە بە پلەکانەکەدا چووە سەرەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ڕێڕەوی بینایەک کە لە هەردوو لایەوە ژووڕی تێدایە"""),
+                            """٢. (ناو) ڕێڕەوی بینایەک کە لە ھەردوو لایەوە ژووڕی تێدایە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: corridor"),
                     SentencesRow(
                       englishText:
@@ -225,11 +224,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) بینا یان ژوورێکی گەورە بۆ چاوپێکەوتنی گشتی، نانخواردن، کۆنسێرت، هتد"""),
+                            """٣. (ناو) بینا یان ژوورێکی گەورە بۆ چاوپێکەوتنی گشتی، نانخواردن، کۆنسێرت، ھتد"""),
                     SentencesRow(
                       englishText:
                           """There are three dining halls on campus.""",
-                      kurdishText: """سێ هۆڵی نانخواردن هەیە لە کەمپەکە.""",
+                      kurdishText: """سێ ھۆڵی نانخواردن ھەیە لە کەمپەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -238,7 +237,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """next meeting is in the hall on Tuesday.""",
                       kurdishText:
-                          """چاوپێکەوتنی دواتر لە هۆڵەکەیە لە ڕۆژی سێشەممە.""",
+                          """چاوپێکەوتنی دواتر لە ھۆڵەکەیە لە ڕۆژی سێشەممە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -318,19 +317,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/QtrRtGC3G_I?t=';
-const double _startSecondsend = 0000000000000000000000000008;
-const String _videoIdone = 'https://youtu.be/Kirup-Nzw3o?t=';
-const double _startSecondsone = 000000000000000000000000000330;
-const String _videoIdtwo = 'https://youtu.be/XiL74IuPv00?t=';
-const double _startSecondstwo = 00000000000000000000000000021;
-const String _videoIdthree = 'https://youtu.be/nFSxxnt_D5k?t=';
-const double _startSecondsthree = 00000000000000000000000000091;
-const String _videoIdfour = 'https://youtu.be/Y_vP8nNpUFM?t=';
-const double _startSecondsfour = 000000000000000000000000000174;
-const String _videoIdfive = 'https://youtu.be/dcNseWGe4UU?t=';
-const double _startSecondsfive = 000000000000000000000000000104;
+const String _videoIdend = 'QtrRtGC3G_I';
+const double _startSecondsend = 8;
+const String _videoIdone = 'Kirup-Nzw3o';
+const double _startSecondsone = 330;
+const String _videoIdtwo = 'XiL74IuPv00';
+const double _startSecondstwo = 21;
+const String _videoIdthree = 'nFSxxnt_D5k';
+const double _startSecondsthree = 91;
+const String _videoIdfour = 'Y_vP8nNpUFM';
+const double _startSecondsfour = 174;
+const String _videoIdfive = 'dcNseWGe4UU';
+const double _startSecondsfive = 104;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

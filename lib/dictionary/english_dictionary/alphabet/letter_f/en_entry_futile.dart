@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌ئەنجام، بێ‌ئاکام، بێ‌بەرھەم، بێ‌سەروبن، ھیچ، بێ‌بەھرە، بێ‌سوود، بێھوودە، لەخۆڕایی، بێ‌کەڵک، بەکارنەھاتوو، نەزۆک
 """),
-// With short examples define "futile", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بێ‌سوودە چونکە ھیچ ئەگەری سەرکەوتنی نییە"""),

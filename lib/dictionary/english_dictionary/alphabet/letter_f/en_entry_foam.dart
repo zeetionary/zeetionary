@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەف، سەرکەف، سەرکوڵ، دەوژن،	ھەور، ئەبر
 """),
-// With short examples define "foam", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەکی لاستیکی سووک کە کونی زۆری تێدایە و بۆ درووستکردنی جێگای دانیشتن، پێخەف، ھتد بەکاردێت"""),

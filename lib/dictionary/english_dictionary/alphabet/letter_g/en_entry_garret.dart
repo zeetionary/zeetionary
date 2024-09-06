@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: ژووری ژێرخەبەنگ، ژووری ژێرمیچ، دیوی ژێر(سەر)بان
 // """),
-// With short examples define "garret", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ژوورێک، زۆرجار کە تاریک و ناخۆشە، لە سەرەوەی خانوویەک"""),

@@ -144,7 +144,6 @@ Usage: archaic
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flashbulb", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گڵۆپێکی کارەبایی بچووک کە دەکرێت بلکێندرێت بە کامێرایەکەوە"""),

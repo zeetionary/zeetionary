@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دنیاگەڕ، جیھان‌گەڕ، گەڕوان، گەڕیدە
 """),
-// With short examples define "globetrotter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە گەشت بە زۆر ولاتی جیھاندا دەکات"""),
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'JsxYsqZKYSw';
 const double _startSecondsend = 231;
 const String _videoIdone = '_X7i1ALXh8E';

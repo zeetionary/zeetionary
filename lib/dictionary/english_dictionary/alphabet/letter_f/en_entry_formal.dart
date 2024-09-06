@@ -244,7 +244,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فەرمی،	بەپێی یاساوڕێسا، ڕێسامەند،	ڕواڵەتی، ڕووکەشی،	نێوی، ناوی،	ڕێک، ڕێک‌وپێک،	ئاشکرا، دیار،	ئەندازەیی لە شێوەدا
 """),
-// With short examples define "formal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) فەرمی؛ کە گونجاوە بۆ بۆنەی فەرمی و گرنگ"""),

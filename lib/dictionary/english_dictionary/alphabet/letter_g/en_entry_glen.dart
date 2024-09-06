@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دۆڵی تەنگ، قووڵەشیو، تەسکەدەرە، شیو یان دۆڵی تەنگ و قووڵ
 """),
-// With short examples define "glen", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دۆڵێکی تەسکی قووڵ، بە تایبەتی لە سکۆتلەندا یان ئێرلەندا"""),
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '58XEfDtU0Z4';
 const double _startSecondsend = 591;
 const String _videoIdone = 'bmzE3f-5bQY';

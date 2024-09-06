@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تێ‌شکان، سەرنەکەوتن،	فیز، قرچە
 """),
-// With short examples define "fizzle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) دەنگێکی وەک سسسس لە کاتی ئامادەبوونی خواردن"""),

@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەزگا، ئامێر، ئامراز، ئامێر یان دەزگایێکی میکانیکی، کەرەسە، ھەجەت
 """),
-// With short examples define "gadget", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئامراز یان ئامێرێکی بچووک کە شتێکی بەسوود دەکات"""),

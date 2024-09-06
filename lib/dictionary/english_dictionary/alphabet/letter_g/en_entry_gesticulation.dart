@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرودەست ڕاتڵەکاندن، دەست‌تەکان‌دان، پەلەفرتە، پەلەفرتکە، خۆتەکان‌دان
 """),
-// With short examples define "gesticulation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەکارھێنانی دەست و باڵت بۆ ئەوەی سەرنجی کەسێک ڕابکێشیت یان کەسێک تێبگەیەنیت لەوەی دەیڵێیت"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'FKbXqE81W2s';
 const double _startSecondsend = 142;
 const String _videoIdone = 'wK7TiA9qmuU';

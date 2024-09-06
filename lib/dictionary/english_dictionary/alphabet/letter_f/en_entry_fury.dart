@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: توورەیی زۆر، ورووژاوی، ھەژیوی، ئاڵۆزاوی،	توندوتیژی، سەختی،	شێتی
 """),
-// With short examples define "fury", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تووڕەیی زۆر کە زۆرجار ڕەفتاری توندی لێدەکەوێتەوە"""),

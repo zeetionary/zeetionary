@@ -168,7 +168,7 @@ Usage: Austral, NZ, informal
 // """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) باڵندەیەک کە جەستەی قەڵەوە و پەڕ لەسەر لاقی هەیە، و خەڵکی بۆ وەرزش یان گۆشتەکەی تەقەی لێ دەکەن؛ گۆشتی ئەم باڵندە"""),
+                            """١. (ناو) باڵندەیەک کە جەستەی قەڵەوە و پەڕ لەسەر لاقی ھەیە، و خەڵکی بۆ وەرزش یان گۆشتەکەی تەقەی لێ دەکەن؛ گۆشتی ئەم باڵندە"""),
                     SentencesRow(
                       englishText: """He saw a pair of grouse on his hike.""",
                       kurdishText:
@@ -193,7 +193,7 @@ Usage: Austral, NZ, informal
                       englishText:
                           """She's always grousing about how she's been treated by the management.""",
                       kurdishText:
-                          """هەمیشە ناڕەزایی دەردەبڕێت لەسەر ئەوەی چۆن مامەڵەی لەگەڵ کراوە.""",
+                          """ھەمیشە ناڕەزایی دەردەبڕێت لەسەر ئەوەی چۆن مامەڵەی لەگەڵ کراوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -264,19 +264,18 @@ Usage: Austral, NZ, informal
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/ammbKPg0aqw?t=';
-const double _startSecondsend = 000000000000000000000000000427;
-const String _videoIdone = 'https://youtu.be/9dnN82DsQ2k?t=';
-const double _startSecondsone = 000000000000000000000000000397;
-const String _videoIdtwo = 'https://youtu.be/V-0UCEWtLa0?t=';
-const double _startSecondstwo = 000000000000000000000000000751;
-const String _videoIdthree = 'https://youtu.be/IVUjJpk0qWc?t=';
-const double _startSecondsthree = 0000000000000000000000000001628;
-const String _videoIdfour = 'https://youtu.be/HpRQx020GDE?t=';
-const double _startSecondsfour = 000000000000000000000000000435;
-const String _videoIdfive = 'https://youtu.be/y-E_n0q0ttI?t=';
-const double _startSecondsfive = 000000000000000000000000000376;
+const String _videoIdend = 'ammbKPg0aqw';
+const double _startSecondsend = 427;
+const String _videoIdone = '9dnN82DsQ2k';
+const double _startSecondsone = 397;
+const String _videoIdtwo = 'V-0UCEWtLa0';
+const double _startSecondstwo = 751;
+const String _videoIdthree = 'IVUjJpk0qWc';
+const double _startSecondsthree = 1628;
+const String _videoIdfour = 'HpRQx020GDE';
+const double _startSecondsfour = 435;
+const String _videoIdfive = 'y-E_n0q0ttI';
+const double _startSecondsfive = 376;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

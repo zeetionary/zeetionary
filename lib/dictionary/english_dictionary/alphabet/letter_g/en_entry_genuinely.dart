@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لە ڕاستی‌دا، بە ڕاستی، لە ڕووی سەرڕاستی‌یەوە، بێ ڕیا
 """),
-// With short examples define "genuinely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە ڕاستی؛ کە بەو شێوەیەیە کە دەردەکەوێت"""),
@@ -258,7 +257,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'nRafaCcfrcI';
 const double _startSecondsend = 265;
 const String _videoIdone = 'QLq6GEiHqR8';

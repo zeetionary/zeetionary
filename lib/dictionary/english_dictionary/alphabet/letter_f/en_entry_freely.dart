@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئازادانە، ئازاد، بە سەربەستی،	بەخۆڕایی، بەلاش،	بە دڵاوایی، بەدەھندانەوە
 """),
-// With short examples define "freely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە ئازادی؛ بەبێ ئەوەی کۆنترۆڵ کرابێت"""),

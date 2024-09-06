@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەستەوسان، بەیدەس، بێ‌سەروزمان، گێژ، ناپوخت، ناشارەزا، نەفام، بێ‌ئەقڵ، گەوج، گەلحۆ
 """),
-// With short examples define "gauche", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) شەرمن و نائاسوودە لە مامەڵەکردن لەگەڵ خەڵکی و زۆرجار شتێکی ھەڵە بکەیت یان بڵێیت"""),

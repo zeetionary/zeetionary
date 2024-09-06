@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "graffiti", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) وێنەکێشان یان نووسین لەسەر دیوار، ھتد ــی شوێنێکی گشتی"""),
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_GFkHA5EZdE';
 const double _startSecondsend = 383;
 const String _videoIdone = 'quj5iMhPRyA';

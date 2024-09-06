@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: توند، بە توندی
 """),
-// With short examples define "fiercely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە ھەستی توندی تێدایە؛ کە چالاکی و شێلگیری تێدایە"""),

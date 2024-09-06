@@ -243,12 +243,11 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: ڕیخۆڵە، ڕۆڤی،	زگ، گەدە، ورگ، کرش،	دەزووی تەقەڵ (برین‌کاری) تەقەڵی نەشتەرگەری،	ژێ (وەکوو بۆ ڤیۆڵین)،	دەربەندی تەنگ، تەنگەڵان، تەنگە، دەرتەنگ،	کۆڵان یان گوزەری تەنگ، هەناو، پزۆر، گورگان‌خواردوو، گرنگ‌ترین بەشی شتێک،	وێران، نەترسی، ئازایەتی، بەغیرەتی،	مرۆی زگەڕۆ
+کوردی: ڕیخۆڵە، ڕۆڤی،	زگ، گەدە، ورگ، کرش،	دەزووی تەقەڵ (برین‌کاری) تەقەڵی نەشتەرگەری،	ژێ (وەکوو بۆ ڤیۆڵین)،	دەربەندی تەنگ، تەنگەڵان، تەنگە، دەرتەنگ،	کۆڵان یان گوزەری تەنگ، ھەناو، پزۆر، گورگان‌خواردوو، گرنگ‌ترین بەشی شتێک،	وێران، نەترسی، ئازایەتی، بەغیرەتی،	مرۆی زگەڕۆ
 """),
-// With short examples define "gut", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕێڕەوی خۆراک کە لێیەوە خۆراک تێدەپەڕێت کە گەدە جێدەهێڵێت"""),
+                            """١. (ناو) ڕێڕەوی خۆراک کە لێیەوە خۆراک تێدەپەڕێت کە گەدە جێدەھێڵێت"""),
                     SentencesRow(
                       englishText:
                           """It can take up to 72 hours for food to pass through the gut.""",
@@ -262,7 +261,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I had a terrible pain in my guts after eating too much.""",
                       kurdishText:
-                          """ئازارم هەبوو لە ڕیخۆڵەمدا لە دوای خواردنی زۆر.""",
+                          """ئازارم ھەبوو لە ڕیخۆڵەمدا لە دوای خواردنی زۆر.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -274,7 +273,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I'll only cook fish if the guts have been removed.""",
                       kurdishText:
-                          """ماسی لێ دەنێم تەنها ئەگەر ناوسکەکەی دەرکرابێت.""",
+                          """ماسی لێ دەنێم تەنھا ئەگەر ناوسکەکەی دەرکرابێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -299,7 +298,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) بوێری و توانای هزری بۆ کردنی شتێکی سەخت و ناخۆش"""),
+                            """٤. (ناو) بوێری و توانای ھزری بۆ کردنی شتێکی سەخت و ناخۆش"""),
                     SentencesRow(
                       englishText:
                           """He doesn't have the guts to walk away from a well-paid job.""",
@@ -313,19 +312,19 @@ ${englishMeaningConst.text}
                       englishText:
                           """She had the guts to stand up to the school bully.""",
                       kurdishText:
-                          """بوێری ئەوەی هەبوو دژ بە وەیگێڕێکی قوتابخانە بوەستێتەوە.""",
+                          """بوێری ئەوەی ھەبوو دژ بە وەیگێڕێکی قوتابخانە بوەستێتەوە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (ناو) ئەو شوێنەی کە باوەڕ وایە هەستی سرووشتیتی تێدایە و وەهات لێ دەکات بە شێوەیەکی دیاریکراو بیر بکەیتەوە"""),
+                            """٥. (ناو) ئەو شوێنەی کە باوەڕ وایە ھەستی سرووشتیتی تێدایە و وەھات لێ دەکات بە شێوەیەکی دیاریکراو بیر بکەیتەوە"""),
                     SentencesRow(
                       englishText:
                           """I had a feeling in my guts that something was wrong.""",
                       kurdishText:
-                          """هەستێکم هەبوو لە هەناومدا کە شتێک هەڵەیە.""",
+                          """ھەستێکم ھەبوو لە ھەناومدا کە شتێک ھەڵەیە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -336,7 +335,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Understanding the guts of the problem is crucial for solving it.""",
                       kurdishText:
-                          """تێگەیشتن لە هەناوی کێشەکە گرنگە بۆ چارەسەری.""",
+                          """تێگەیشتن لە ھەناوی کێشەکە گرنگە بۆ چارەسەری.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -348,7 +347,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The hotel was completely gutted by fire last year.""",
                       kurdishText:
-                          """هوتێلەکە ساڵی ڕابردوو تەواو بە ئاگر لەناوچوو.""",
+                          """ھوتێلەکە ساڵی ڕابردوو تەواو بە ئاگر لەناوچوو.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -360,13 +359,13 @@ ${englishMeaningConst.text}
                       englishText:
                           """The fish was already cleaned and gutted.""",
                       kurdishText:
-                          """ماسییەکە پێشتر پاککرابوویەوە و ڕیخۆڵەکانی دەرهێنرابوون.""",
+                          """ماسییەکە پێشتر پاککرابوویەوە و ڕیخۆڵەکانی دەرھێنرابوون.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     // skipped_meaning
                     // const DividerDefinition(),
-                    // const DefinitionKurdish(text: """٩. (هاوەڵناو) کە پشتی بە هەست و سۆز بەستووە نەک بیرکردنەوە"""),
+                    // const DefinitionKurdish(text: """٩. (ھاوەڵناو) کە پشتی بە ھەست و سۆز بەستووە نەک بیرکردنەوە"""),
                     // const DividerSentences(),
                     // SentencesRow(
                     //   englishText: """You have to work on gut instinct.""",
@@ -441,19 +440,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/j1BfO7VlIw4?t=';
-const double _startSecondsend = 000000000000000000000000000565;
-const String _videoIdone = 'https://youtu.be/MGO4_8YRKro?t=';
-const double _startSecondsone = 000000000000000000000000000423;
-const String _videoIdtwo = 'https://youtu.be/544DTGHIBM0?t=';
-const double _startSecondstwo = 000000000000000000000000000717;
-const String _videoIdthree = 'https://youtu.be/55XJ1ObZKaM?t=';
-const double _startSecondsthree = 000000000000000000000000000240;
-const String _videoIdfour = 'https://youtu.be/raSeaAeryWE?t=';
-const double _startSecondsfour = 0000000000000000000000000001747;
-const String _videoIdfive = 'https://youtu.be/Gv4Af83KFrE?t=';
-const double _startSecondsfive = 0000000000000000000000000001181;
+const String _videoIdend = 'j1BfO7VlIw4';
+const double _startSecondsend = 565;
+const String _videoIdone = 'MGO4_8YRKro';
+const double _startSecondsone = 423;
+const String _videoIdtwo = '544DTGHIBM0';
+const double _startSecondstwo = 717;
+const String _videoIdthree = '55XJ1ObZKaM';
+const double _startSecondsthree = 240;
+const String _videoIdfour = 'raSeaAeryWE';
+const double _startSecondsfour = 1747;
+const String _videoIdfive = 'Gv4Af83KFrE';
+const double _startSecondsfive = 1181;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

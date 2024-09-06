@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناڵە، نقە، نرکە، نزوولە، نووزە، ھاوار، ئاھـ، ئاھـ و ناڵە، ھاڕژە
 """),
-// With short examples define "groan", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) دەرکردنی دەنگێکی درێژی قووڵ بەھۆی ئەوەی کە بێزاریت، ناڕەحەتیت، لە ئازاریت، یان دڵخۆشیت"""),
@@ -310,7 +309,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_iMKYMHoQ6w';
 const double _startSecondsend = 880;
 const String _videoIdone = 'gK3qZmJCAX8';

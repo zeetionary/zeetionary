@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێشەنگ، پێشدار، ڕچەشکێن، سەرکێش،	پێشەکی،	نیشانە، بەرژەنگ
 """),
-// With short examples define "forerunner", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک یان شتێک کە پێش شتێکی ھاوشێوە ھەبووە و کاریگەریی ھەبووە؛ ئاماژەی ئەوەی چی ڕوودەدات"""),

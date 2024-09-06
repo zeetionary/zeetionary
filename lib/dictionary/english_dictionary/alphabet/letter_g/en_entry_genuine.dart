@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕاستەقینە، ڕاست، ڕەسەن، واقعی،	باوەڕپێکراو، نادەسکرد، بێ‌فروفێڵ، بێ‌قەلەودەلە، دروسکار، سەرڕاست، دەسپاک، شیرپاک، ڕاست، دروست
 """),
-// With short examples define "genuine", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ڕاست؛ کە ھەمان ئەو شتەیە کە دەیبینیت"""),
@@ -299,7 +298,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hS2x1zl4rn0';
 const double _startSecondsend = 312;
 const String _videoIdone = 'lex6USTugUU';

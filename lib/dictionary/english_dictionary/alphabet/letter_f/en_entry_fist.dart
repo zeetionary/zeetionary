@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مشت، مست، دنگ
 """),
-// With short examples define "fist", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەست کە بە توندی داخراوە و پەنجەکان ڕوو لە ناولەپن"""),

@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەشی دوایی، ئەنجامە، فیناڵی (موسیقا و دراما)،	کۆتایی، دوایی، ئاخر
 """),
-// With short examples define "finale", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کۆتا بەشی میوزیکێک یان پڕۆگرامێک"""),
                     SentencesRow(

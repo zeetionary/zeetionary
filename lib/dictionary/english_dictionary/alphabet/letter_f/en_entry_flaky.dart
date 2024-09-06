@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: توێ‌توێ، توێخ‌توێخ، توێژاڵ‌توێژاڵ، توێژاڵاوی، توێ‌توێ‌بوو، دەنک‌دەنک، کولوکولو
 """),
-// With short examples define "flaky", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بۆ بەشی بچووک دەشکێت یان لێ دەبێتەوە"""),

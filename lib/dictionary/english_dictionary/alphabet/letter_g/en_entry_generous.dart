@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵاوا، بەدەھندە، (بەر)چاوتێر، دەس‌کراوە، نانبدە، چاوتێرانە، دڵاوایانە،	لێبوردە، بەخشندە،	دڵگەورە، پیاوچاک، گەورە، جوامێر،	زۆر، زەبەن
 """),
-// With short examples define "generous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە شت دەبەخشێت بە دەستکراوەیی"""),
@@ -359,7 +358,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'e09xig209cQ';
 const double _startSecondsend = 401;
 const String _videoIdone = 'h4CyhQqAPpk';

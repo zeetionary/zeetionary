@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gimmick", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێک کە گرنگ نییە و بەکاردێت بۆ ڕاکێشانی سەرنجی خەڵکی، بە تایبەتی بۆ ئەوەی شتێک بکڕن"""),
@@ -239,7 +238,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'waZyyWnNJ_Y';
 const double _startSecondsend = 66;
 const String _videoIdone = '9hvjBi4PKWA';

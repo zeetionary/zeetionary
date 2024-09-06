@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەزریقەوبریقە، بریقاوی، بەئاڵاوواڵا، ڕەنگاوڕەنگ، ھەزار ڕەنگ،	(ڕەنگ، بەرگ، شەوق و ھتد) زەق، توند، تیژ
 """),
-// With short examples define "garish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زۆر درەوشاوەیە بەشێوەیەکی ناشرین"""),

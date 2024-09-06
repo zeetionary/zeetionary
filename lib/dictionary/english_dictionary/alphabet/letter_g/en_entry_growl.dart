@@ -168,9 +168,8 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: دەنگی مڕە، نەڕە، گرمە، شریخە، هەڵشاخان، بۆڵە، پرتە
+کوردی: دەنگی مڕە، نەڕە، گرمە، شریخە، ھەڵشاخان، بۆڵە، پرتە
 """),
-// With short examples define "growl", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) نەڕاندنی ئاژەڵ"""),
                     SentencesRow(
@@ -182,7 +181,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Her stomach was growling with hunger.""",
-                      kurdishText: """(خوازراوی) گەددەی قۆڕەی دەهات.""",
+                      kurdishText: """(خوازراوی) گەددەی قۆڕەی دەھات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -274,19 +273,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/5R65skWdg7Y?t=';
-const double _startSecondsend = 0000000000000000000000000001821;
-const String _videoIdone = 'https://youtu.be/JTB5T5aldNo?t=';
-const double _startSecondsone = 00000000000000000000000000046;
-const String _videoIdtwo = 'https://youtu.be/YuXYKx5uPcQ?t=';
-const double _startSecondstwo = 00000000000000000000000000036;
-const String _videoIdthree = 'https://youtu.be/NMkLGZSrLto?t=';
-const double _startSecondsthree = 000000000000000000000000000545;
-const String _videoIdfour = 'https://youtu.be/XAiyb29Xy3w?t=';
-const double _startSecondsfour = 000000000000000000000000000732;
-const String _videoIdfive = 'https://youtu.be/VdLQC2b5Wkg?t=';
-const double _startSecondsfive = 000000000000000000000000000119;
+const String _videoIdend = '5R65skWdg7Y';
+const double _startSecondsend = 1821;
+const String _videoIdone = 'JTB5T5aldNo';
+const double _startSecondsone = 46;
+const String _videoIdtwo = 'YuXYKx5uPcQ';
+const double _startSecondstwo = 36;
+const String _videoIdthree = 'NMkLGZSrLto';
+const double _startSecondsthree = 545;
+const String _videoIdfour = 'XAiyb29Xy3w';
+const double _startSecondsfour = 732;
+const String _videoIdfive = 'VdLQC2b5Wkg';
+const double _startSecondsfive = 119;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

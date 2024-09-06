@@ -258,7 +258,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جووڵەی توند، بزاوتی توند، تەکان،	لەرینەوە، لەرزین (دەنگ)،	شەکە، شەکانەوە، ڕاتڵەکان،	لێدان، ترپە (دڵ)،	ورووژان، دڵەتەپێ، پەشۆکان، سەرسامی،	فڕ، فڕکە، فڕک‌وھۆڕ، جم‌وجۆڵ،	باڵەتەپێ، باڵەفڕێ، باڵ‌لێدان، فڕەفڕ
 """),
-// With short examples define "flutter", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) جووڵان بە ھێواشی و خێرایی"""),
                     SentencesRow(

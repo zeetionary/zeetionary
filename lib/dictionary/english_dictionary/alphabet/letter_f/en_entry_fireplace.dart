@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کوورەی دیواری، ئاگردان، کوانوو، کوانگ، کۆماج، کولین
 """),
-// With short examples define "fireplace", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئاگردانێک لە ژوورێکدا بۆ گەرمکردنەوە"""),

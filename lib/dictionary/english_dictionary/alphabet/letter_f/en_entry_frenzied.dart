@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "frenzied", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە شلۆقاوی و توندوتیژی کۆنترۆڵ نەکراو لەخۆ دەگرێت"""),

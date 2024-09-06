@@ -359,10 +359,9 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grow", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) زیادبوون لە قەبارە، ژمارە، هێز، یان کوالێتی"""),
+                            """١. (کردار) زیادبوون لە قەبارە، ژمارە، ھێز، یان کوالێتی"""),
                     SentencesRow(
                       englishText:
                           """The sector is growing at a phenomenal rate.""",
@@ -428,7 +427,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText:
                                   """She is growing in confidence all the time.""",
-                              kurdishText: """هەموو کات ورەی زیاد دەکات.""",
+                              kurdishText: """ھەموو کات ورەی زیاد دەکات.""",
                               onPressedBritish: () => speaksentence8("en-GB"),
                               onPressedAmerican: () => speaksentence8("en-US"),
                             ),
@@ -446,7 +445,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """That number will grow to two billion users in 2025.""",
                               kurdishText:
-                                  """ئەو ژمارە زیاد دەکات بۆ دوو ملیار بەکارهێنەر لە ٢٠٢٥.""",
+                                  """ئەو ژمارە زیاد دەکات بۆ دوو ملیار بەکارھێنەر لە ٢٠٢٥.""",
                               onPressedBritish: () => speaksentence10("en-GB"),
                               onPressedAmerican: () => speaksentence10("en-US"),
                             ),
@@ -481,7 +480,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The region is too dry for plants to grow.""",
                       kurdishText:
-                          """هەرێمەکە زۆر وشکە بۆ ڕووەک گەشەی لێ بکات.""",
+                          """ھەرێمەکە زۆر وشکە بۆ ڕووەک گەشەی لێ بکات.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -539,7 +538,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (کردار) دەستکردن بەوەی خاسیەتێک یان هەستێکت هەبێت لە ماوەیەکی دیاریکراودا"""),
+                            """٥. (کردار) دەستکردن بەوەی خاسیەتێک یان ھەستێکت ھەبێت لە ماوەیەکی دیاریکراودا"""),
                     SentencesRow(
                       englishText: """He had grown old and fat.""",
                       kurdishText: """پیر و قەڵەو بووبوو.""",
@@ -550,7 +549,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """My eyes soon grew accustomed to the darkness.""",
-                      kurdishText: """چاوەکانم زوو ڕاهات بە تاریکییەکە.""",
+                      kurdishText: """چاوەکانم زوو ڕاھات بە تاریکییەکە.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -559,7 +558,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Mark and Jenny were growing closer every day.""",
                       kurdishText:
-                          """مارک و جێنی هەموو ڕۆژ زیاتر هۆگری یەکدی دەبوونەوە.""",
+                          """مارک و جێنی ھەموو ڕۆژ زیاتر ھۆگری یەکدی دەبوونەوە.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -594,7 +593,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He grew to understand her reasons for leaving.""",
                       kurdishText:
-                          """دەستی کرد بە تێگەشتن لە هۆکارەکانی بۆ ڕۆشتن.""",
+                          """دەستی کرد بە تێگەشتن لە ھۆکارەکانی بۆ ڕۆشتن.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
@@ -605,7 +604,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """She continues to grow as an artist.""",
                       kurdishText:
-                          """بەردەوامە لەوەی وەک هونەرمەندێک باشتر ببێت.""",
+                          """بەردەوامە لەوەی وەک ھونەرمەندێک باشتر ببێت.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
@@ -676,19 +675,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/gngPQ771Ahk?t=';
-const double _startSecondsend = 0000000000000000000000000002308;
-const String _videoIdone = 'https://youtu.be/Vt83zQdunBo?t=';
-const double _startSecondsone = 00000000000000000000000000054;
-const String _videoIdtwo = 'https://youtu.be/VZxoeXOT1i0';
+const String _videoIdend = 'gngPQ771Ahk';
+const double _startSecondsend = 2308;
+const String _videoIdone = 'Vt83zQdunBo';
+const double _startSecondsone = 54;
+const String _videoIdtwo = 'VZxoeXOT1i0';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/DkSMrI86NWk?t=';
-const double _startSecondsthree = 000000000000000000000000000126;
-const String _videoIdfour = 'https://youtu.be/U1KGRnWjllg?t=';
-const double _startSecondsfour = 000000000000000000000000000620;
-const String _videoIdfive = 'https://youtu.be/1tUfxNIlnqY?t=';
-const double _startSecondsfive = 00000000000000000000000000024;
+const String _videoIdthree = 'DkSMrI86NWk';
+const double _startSecondsthree = 126;
+const String _videoIdfour = 'U1KGRnWjllg';
+const double _startSecondsfour = 620;
+const String _videoIdfive = '1tUfxNIlnqY';
+const double _startSecondsfive = 24;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

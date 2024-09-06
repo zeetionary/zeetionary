@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پیتاندن، مایەدارکردن، چاک‌کردن، پیتێنەپێوەکردن، کودپێوەکردن، پەییناندن، پەیین‌تێکردن
 """),
-// With short examples define "fertilization", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پڕۆسەی دانانی ھەڵاڵە لەسەر ڕووەکێک بۆ ئەوەی تۆو درووست ببێت؛ پڕۆسەی تێکەڵبوونی سپێرم لەگەڵ ھێلکە بۆ ئەوەی منداڵ درووست ببێت"""),

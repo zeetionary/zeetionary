@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "glibly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە بە بەکارھێنانی وشەی زیرەکانەیە، بەڵام کە زۆر بیری لێ‌نەکراوەتەوە و لە دڵەوە نییە؛ ئەوەی بە باوەڕبەخۆبوونەوە بێت، بەڵام بە سادەیی و بە بێ بیرکردنەوەی قووڵ"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'CHjVz6nHh7Y';
 const double _startSecondsend = 4305;
 const String _videoIdone = '2MuJdA5q6bc';

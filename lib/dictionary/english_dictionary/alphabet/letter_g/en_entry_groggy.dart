@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مەست، لاکەوتە، کەیل، سەرخۆش،	بێ‌ھێز، تێکچوو، پێچوو، کز، لاواز،	لەق، شل‌وشەوێق
 """),
-// With short examples define "groggy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) لاواز و نەبوونی توانای بیرکردنەوە یان جووڵان"""),
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'GkgXRyScubI';
 const double _startSecondsend = 801;
 const String _videoIdone = 'Is1IWMPNqh4';

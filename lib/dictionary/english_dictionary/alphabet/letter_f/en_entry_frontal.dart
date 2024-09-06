@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێشینە، لە پێشەوە، لە بەرەوە، پێشوەیی،	بەرەیی، سەربە بەرە (ھەوا)،	سەربە ناوچاوان، تەوێڵی
 """),
-// With short examples define "frontal", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) پەیوەندیدار بە پێشەوەی شتێک"""),
                     SentencesRow(

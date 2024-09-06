@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناڕەحەت، بەدخوو، ناجسن، کەساس، بێ‌ئارام، ئارام‌لێ‌ھەڵگیراو،	دەم‌بەگلەیی، بەگلەیی‌وگناشت
 """),
-// With short examples define "fretful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ڕەفتارکردن بە شێوەیەک کە نیگەران و نائاسوودەیت"""),

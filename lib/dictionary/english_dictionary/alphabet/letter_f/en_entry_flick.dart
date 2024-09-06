@@ -254,7 +254,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەکانی ناکاو، ڕاتڵەکاندن،	لێدانی توند و کت‌وپڕ، پەلەپیتکە، پیلکە، پتە
 """),
-// With short examples define "flick", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) لێدان لە شتێک بە سووکی و ھێزی لەناکاوی زۆر"""),

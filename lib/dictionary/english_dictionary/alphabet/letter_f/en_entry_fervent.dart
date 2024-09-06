@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەپەرۆش، بەتین، بەتاو، گەرم‌وگور، لەشەوق، لەجۆش، بەگوڕ، تامەزرۆ، گەرم‌وگوڕانە،	توندوتیژ، توند، بەھێز، سەخت
 """),
-// With short examples define "fervent", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ھەبوونی ھەستی بەھێز سەبارەت بە شتێک"""),

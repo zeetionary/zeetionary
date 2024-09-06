@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fractal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) چەمانەوەیەک یان شێوەیەک کە یەکێکی بچووکتری ھاوشێوەی تێدایە کە ڕێک ھەمان شێوەی ھەیە"""),

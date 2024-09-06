@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "geometric", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە ئەو بەشەی بیرکاری کە گرنگی دەدات بە پێوان پەیوەندیی ھێڵەکان، گۆشەکان، ڕووەکان، و شێوە فرە ڕەھەندییەکان"""),
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '0zXfDafyyao';
 const double _startSecondsend = 902;
 const String _videoIdone = 'qQ01eLt_bxo';

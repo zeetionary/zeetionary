@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فیشقاو، کوفارە، کوڵ‌کوڵە، پیت، فیچقە،	سەرچاوە، کانی،	سەرچاوە، چاڤکانی، ژێدەر، ئاخێزگە، ماک، بنەما
 """),
-// With short examples define "fountain", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێک کە لێیەوە ئاو دەکرێت بە حەوادا بە پەمپ، و بەکاردێت بۆ جوانکای لە باخچە و پاکر"""),

@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دێو، شەیتان،	ڕۆحی خراپ(کار)، ڕۆحی گڵاو یان پیس،	بنیادەمی پیس، خوێڕی، گڵاو،	مرۆی بێ‌بەزەیی، دڵڕەق، زاڵم، شێتی...، کوشتەی...، مردووی...، گیرۆدە
 """),
-// With short examples define "fiend", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێکی دڕندە یان بێزارکەر"""),
                     SentencesRow(

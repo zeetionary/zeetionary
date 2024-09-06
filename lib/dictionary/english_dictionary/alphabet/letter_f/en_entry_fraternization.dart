@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: برایەتی، دۆستایەتی، ھەڵس‌وکەوت بە شێوازی دۆستانە
 """),
-// With short examples define "fraternization", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕەفتاری دۆستانە، بە تایبەتی کە نابێت بەو شێوەیە بیت"""),

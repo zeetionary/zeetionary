@@ -161,7 +161,6 @@ A lack of affection or enthusiasm (= coldness, coolness, frigidness, iciness, ch
                     const KurdishVocabulary(text: """
 کوردی: ساردی، بەستەڵەکی، شەختەبەندی، بەستن،	وشکی، ساردوسڕی،	ساردمەزاجی، ساردوسڕی ژن
 """),
-// With short examples define "frigidity", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نەبوونی ھەر ھەستێکی خۆشی یان دۆستایەتی"""),

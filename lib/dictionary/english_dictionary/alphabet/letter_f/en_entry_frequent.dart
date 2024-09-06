@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زۆر، فرەھـ، فرە، فراوان، لەسەریەک، زووزوو، پەیتاپەیتا،	دووبارەوەبوو، پەستایی، چەندبارەوەبوو، ، چەندپاتە، زۆرڕووداو، پڕڕووداو، زۆرقەوماو،	ئاسایی، باو، ھەمیشەیی
 """),
-// With short examples define "frequent", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە زوو زوو ڕوودەدات"""),
                     SentencesRow(

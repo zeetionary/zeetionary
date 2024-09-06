@@ -271,12 +271,11 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "happen", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ڕوودان، بە تایبەتی بەبێ پلان"""),
                     SentencesRow(
                       englishText: """You'll never guess what's happened!""",
-                      kurdishText: """هەرگیز بیرت بۆی ناچێت چی ڕوویدا.""",
+                      kurdishText: """ھەرگیز بیرت بۆی ناچێت چی ڕوویدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -288,7 +287,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Accidents like this happen all the time.""",
                               kurdishText:
-                                  """ڕووداوی وەها هەموو کات ڕوودەدەن.""",
+                                  """ڕووداوی وەھا ھەموو کات ڕوودەدەن.""",
                               onPressedBritish: () => speaksentence2("en-GB"),
                               onPressedAmerican: () => speaksentence2("en-US"),
                             ),
@@ -297,7 +296,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """The most recent incident happened only a week ago.""",
                               kurdishText:
-                                  """تازەترین هەوڵ تەنها هەفتەیەک پێش ئێستا ڕوویدا.""",
+                                  """تازەترین ھەوڵ تەنھا ھەفتەیەک پێش ئێستا ڕوویدا.""",
                               onPressedBritish: () => speaksentence3("en-GB"),
                               onPressedAmerican: () => speaksentence3("en-US"),
                             ),
@@ -322,7 +321,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Let's see what happens next week.""",
                               kurdishText:
-                                  """با ببینین هەفتەی داهاتوو چی ڕوودەدا.""",
+                                  """با ببینین ھەفتەی داھاتوو چی ڕوودەدا.""",
                               onPressedBritish: () => speaksentence6("en-GB"),
                               onPressedAmerican: () => speaksentence6("en-US"),
                             ),
@@ -330,7 +329,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText:
                                   """I'll be there whatever happens.""",
-                              kurdishText: """لەگەڵت دەبم هەرچی ڕووبدات.""",
+                              kurdishText: """لەگەڵت دەبم ھەرچی ڕووبدات.""",
                               onPressedBritish: () => speaksentence7("en-GB"),
                               onPressedAmerican: () => speaksentence7("en-US"),
                             ),
@@ -348,7 +347,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Is this really happening or is it a dream?""",
                               kurdishText:
-                                  """هەر بە ڕاستی ڕوودەدات یان خەوێکە؟""",
+                                  """ھەر بە ڕاستی ڕوودەدات یان خەوێکە؟""",
                               onPressedBritish: () => speaksentence9("en-GB"),
                               onPressedAmerican: () => speaksentence9("en-US"),
                             ),
@@ -357,7 +356,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """This would never happen in real life.""",
                               kurdishText:
-                                  """ئەوە لە ژیانی ڕاستەقینەد ا هەرگیز ڕوونادات.""",
+                                  """ئەوە لە ژیانی ڕاستەقینەد ا ھەرگیز ڕوونادات.""",
                               onPressedBritish: () => speaksentence10("en-GB"),
                               onPressedAmerican: () => speaksentence10("en-US"),
                             ),
@@ -372,7 +371,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She pressed the button but nothing happened.""",
                       kurdishText:
-                          """پەنجەی نا بە دووگمەکەدا بەڵام هیچ ڕووینەدا.""",
+                          """پەنجەی نا بە دووگمەکەدا بەڵام ھیچ ڕووینەدا.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -381,7 +380,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """What happens if nobody comes to the party?""",
                       kurdishText:
-                          """چی ڕوودەدات ئەگەر کەس نەیەتە ئاهەنگەکە؟""",
+                          """چی ڕوودەدات ئەگەر کەس نەیەتە ئاھەنگەکە؟""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -389,7 +388,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Just plug it in and see what happens.""",
                       kurdishText:
-                          """تەنها پلاکەکەی پێوە بکە و ببینە چی ڕوودەدات.""",
+                          """تەنھا پلاکەکەی پێوە بکە و ببینە چی ڕوودەدات.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -407,7 +406,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """You don't happen to know his name, do you?""",
-                      kurdishText: """وەها ڕێکەوت نابێت ناوی بزانیت، وایە؟""",
+                      kurdishText: """وەھا ڕێکەوت نابێت ناوی بزانیت، وایە؟""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -422,7 +421,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The door happened to be unlocked.""",
-                      kurdishText: """دەرگاکە وەها ڕێککەوت قوفڵ نەبێت.""",
+                      kurdishText: """دەرگاکە وەھا ڕێککەوت قوفڵ نەبێت.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -493,19 +492,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
-const double _startSecondsend = 000000000000000000000000000934;
-const String _videoIdone = 'https://youtu.be/hS2x1zl4rn0?t=';
-const double _startSecondsone = 000000000000000000000000000555;
-const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondstwo = 000000000000000000000000000293;
-const String _videoIdthree = 'https://youtu.be/XZVHmRvfDHM?t=';
-const double _startSecondsthree = 000000000000000000000000000131;
-const String _videoIdfour = 'https://youtu.be/wizgxRBfVTY?t=';
-const double _startSecondsfour = 000000000000000000000000000171;
-const String _videoIdfive = 'https://youtu.be/ARERGvMzhmc?t=';
-const double _startSecondsfive = 000000000000000000000000000141;
+const String _videoIdend = 'hFZFjoX2cGg';
+const double _startSecondsend = 934;
+const String _videoIdone = 'hS2x1zl4rn0';
+const double _startSecondsone = 555;
+const String _videoIdtwo = 'hTqtGJwsJVE';
+const double _startSecondstwo = 293;
+const String _videoIdthree = 'XZVHmRvfDHM';
+const double _startSecondsthree = 131;
+const String _videoIdfour = 'wizgxRBfVTY';
+const double _startSecondsfour = 171;
+const String _videoIdfive = 'ARERGvMzhmc';
+const double _startSecondsfive = 141;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

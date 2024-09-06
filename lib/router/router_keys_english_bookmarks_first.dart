@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
+//
+//
+//
+//
+
 import 'package:zeetionary/router/exports_english_first.dart';
 
 //
@@ -4071,8 +4076,6 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cudgel.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cue.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cuff.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_handcuffs.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_handcuff.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cufflink.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cuisine.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cul_de_sac.dart';
@@ -8993,9 +8996,6 @@ Map<String, PageBuilder> getRoutesEnglishBookmarksFirst() {
   "/bookmarks-screen/cudgel": (_) => _blP(const EnglishEntrycudgel()),
   "/bookmarks-screen/cue": (_) => _blP(const EnglishEntrycue()),
   "/bookmarks-screen/cuff": (_) => _blP(const EnglishEntrycuff()),
-  "/bookmarks-screen/cuff/handcuffs": (_) => _blP(const EnglishEntryhandcuffs()),
-  "/bookmarks-screen/handcuffs": (_) => _blP(const EnglishEntryhandcuffs()),
-  "/bookmarks-screen/handcuff": (_) => _blP(const EnglishEntryhandcuff()),
   "/bookmarks-screen/cufflink": (_) => _blP(const EnglishEntrycufflink()),
   "/bookmarks-screen/cuisine": (_) => _blP(const EnglishEntrycuisine()),
   "/bookmarks-screen/cul-de-sac": (_) => _blP(const EnglishEntryculdesac()),
@@ -12669,6 +12669,10 @@ Map<String, PageBuilder> getRoutesEnglishBookmarksFirst() {
   "/bookmarks-screen/gypsy": (_) => _blP(const EnglishEntrygypsy()),
   "/bookmarks-screen/gyrate": (_) => _blP(const EnglishEntrygyrate()),
   "/bookmarks-screen/gyration": (_) => _blP(const EnglishEntrygyration()),
+
+
+
+  "/bookmarks-screen/handcuff": (_) => _blP(const EnglishEntryhandcuff()),
   // "/bookmarks-screen/DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/bookmarks-screen/DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/bookmarks-screen/DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),

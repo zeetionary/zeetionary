@@ -147,7 +147,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە ھێواشی، ھێواش، ئارام، لەسەرخۆ، بە پارێزەوە، ئاگادارانە
 """),
-// With short examples define "gingerly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە وریایی، چونکە دەترسیت زیانت پێ بگات، دەنگێک درووست بکەیت. ھتد"""),
@@ -226,7 +225,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'GDwOi7HpHtQ';
 const double _startSecondsend = 222;
 const String _videoIdone = '0vZvPtI5Uk8';

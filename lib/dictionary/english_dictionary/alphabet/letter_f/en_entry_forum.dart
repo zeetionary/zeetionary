@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شوێنی ڕاگۆڕینەوە، بیرگە، لێداونگە،	گۆڕەپان، بازاڕ،	دادگا،	ڕاگۆڕینەوە
 """),
-// With short examples define "forum", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بۆنە یان ڕێگایەک کە خەڵکی لێیەوە دەتوانن بۆچوونەکانیان بگۆڕنەوە"""),

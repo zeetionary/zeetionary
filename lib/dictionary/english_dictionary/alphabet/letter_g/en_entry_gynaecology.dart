@@ -154,7 +154,7 @@ Usage: Brit, Cdn (US: gynecology)
                       englishText:
                           """Advances in gynaecology have improved women's health outcomes.""",
                       kurdishText:
-                          """پێشکەوتنەکان لە بواری نەخۆشییەکانی ژنان باشتربوونی بەرچاوی لە تەندروستی ژناندا بەدیهێناوە..""",
+                          """پێشکەوتنەکان لە بواری نەخۆشییەکانی ژنان باشتربوونی بەرچاوی لە تەندروستی ژناندا بەدیھێناوە..""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -225,19 +225,18 @@ Usage: Brit, Cdn (US: gynecology)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/gcYRpOIUElU?t=';
-const double _startSecondsend = 000000000000000000000000000957;
-const String _videoIdone = 'https://youtu.be/IfYRzxeMdGs?t=';
-const double _startSecondsone = 00000000000000000000000000016;
-const String _videoIdtwo = 'https://youtu.be/Q3nDfku5ibA?t=';
-const double _startSecondstwo = 000000000000000000000000000385;
-const String _videoIdthree = 'https://youtu.be/BbW-a7ZVGag?t=';
-const double _startSecondsthree = 000000000000000000000000000486;
-const String _videoIdfour = 'https://youtu.be/186OYMYd3q4?t=';
-const double _startSecondsfour = 000000000000000000000000000501;
-const String _videoIdfive = 'https://youtu.be/zjB5Jakytyc?t=';
-const double _startSecondsfive = 000000000000000000000000000108;
+const String _videoIdend = 'gcYRpOIUElU';
+const double _startSecondsend = 957;
+const String _videoIdone = 'IfYRzxeMdGs';
+const double _startSecondsone = 16;
+const String _videoIdtwo = 'Q3nDfku5ibA';
+const double _startSecondstwo = 385;
+const String _videoIdthree = 'BbW-a7ZVGag';
+const double _startSecondsthree = 486;
+const String _videoIdfour = '186OYMYd3q4';
+const double _startSecondsfour = 501;
+const String _videoIdfive = 'zjB5Jakytyc';
+const double _startSecondsfive = 108;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

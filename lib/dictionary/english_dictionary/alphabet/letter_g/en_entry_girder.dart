@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کاریتە، شاتیر، تەژ، نیرگە، شێلمان، بالار
 """),
-// With short examples define "girder", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە ئاسنێکی درێژ کە بەکاردێت بۆ بنیاتنانی پرد یان چوارچێوەی بینای بەرز"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Ky1c6d7v0pQ';
 const double _startSecondsend = 1420;
 const String _videoIdone = 'F4o2L9f2e54';

@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grope", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ھەوڵدان بۆ دۆزینەوەی شتێک کە نایبینیت بە دەستەکانت"""),
@@ -290,7 +289,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'h_OeMVcol1g';
 const double _startSecondsend = 1343;
 const String _videoIdone = 'rbrL40XHlPQ';

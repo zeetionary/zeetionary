@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕاخستن، خەملاندن، پۆشتە کردن، تەیار کردن
 """),
-// With short examples define "furnish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) دانانی کەلوپەلی ناوماڵ لە ژوورێک، خانوویەک، ھتد"""),

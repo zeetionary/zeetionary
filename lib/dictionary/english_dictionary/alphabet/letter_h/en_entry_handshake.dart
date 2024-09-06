@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەس‌لێکدانەوە، تەوقە، دەس‌ومشتاخ، (کاری) دەس‌دانەوە
 """),
-// With short examples define "handshake", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕاوەشاندنی دەستی کەسێک بە دەستت، زۆرجار لە کاتی سڵاو یان خوداحافیزی دەکرێت"""),
@@ -187,7 +186,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He had a firm handshake.""",
-                      kurdishText: """تەوقەیەکی توندی هەبوو.""",
+                      kurdishText: """تەوقەیەکی توندی ھەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -280,19 +279,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/iuOYz8zt9J4?t=';
-const double _startSecondsend = 000000000000000000000000000735;
-const String _videoIdone = 'https://youtu.be/0ST4_hmop9Y?t=';
-const double _startSecondsone = 000000000000000000000000000893;
-const String _videoIdtwo = 'https://youtu.be/CvjoXdC-WkM?t=';
-const double _startSecondstwo = 000000000000000000000000000625;
-const String _videoIdthree = 'https://youtu.be/H3fUn4le238?t=';
-const double _startSecondsthree = 00000000000000000000000000024;
-const String _videoIdfour = 'https://youtu.be/piYf4gDthjY?t=';
-const double _startSecondsfour = 000000000000000000000000000306;
-const String _videoIdfive = 'https://youtu.be/60I84LHc_ug?t=';
-const double _startSecondsfive = 00000000000000000000000000033;
+const String _videoIdend = 'iuOYz8zt9J4';
+const double _startSecondsend = 735;
+const String _videoIdone = '0ST4_hmop9Y';
+const double _startSecondsone = 893;
+const String _videoIdtwo = 'CvjoXdC-WkM';
+const double _startSecondstwo = 625;
+const String _videoIdthree = 'H3fUn4le238';
+const double _startSecondsthree = 24;
+const String _videoIdfour = 'piYf4gDthjY';
+const double _startSecondsfour = 306;
+const String _videoIdfive = '60I84LHc_ug';
+const double _startSecondsfive = 33;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

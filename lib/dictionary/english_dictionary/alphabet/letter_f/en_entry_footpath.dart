@@ -151,7 +151,6 @@ Noun: footpath (derived forms: footpaths)
                     const KurdishVocabulary(text: """
 کوردی: کوێرەڕێ، باریکەڕێ، پێڕێ، پاڕێ، ڕێگای پیاڕۆیشتن، پیادەڕێ
 """),
-// With short examples define "footpath", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕێگایەک بۆ ئەوەی خەڵکی بەسەریدا بچن، بە تایبەتی لە دەشتدا"""),

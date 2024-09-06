@@ -191,17 +191,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: گوناهکار، گوناهبار، تاوانبار، خەتابار، تاوانکار،	تووشی گوناەهاتوو،	گوناهکارانە، تاوانبارانە، گوناهاوی،	(ویژدان) ناڕەحەت
+کوردی: گوناھکار، گوناھبار، تاوانبار، خەتابار، تاوانکار،	تووشی گوناەھاتوو،	گوناھکارانە، تاوانبارانە، گوناھاوی،	(ویژدان) ناڕەحەت
 """),
-// With short examples define "guilty", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) هەستکردن بە تاوان بۆ ئەوەی شتێکی هەڵەت کردووە"""),
+                            """١. (ھاوەڵناو) ھەستکردن بە تاوان بۆ ئەوەی شتێکی ھەڵەت کردووە"""),
                     SentencesRow(
                       englishText:
                           """Matt and Chrissy both looked equally guilty.""",
                       kurdishText:
-                          """مات و کریسی هەردووکیان وەک یەکدی گوناهکار دەردەکەوتن.""",
+                          """مات و کریسی ھەردووکیان وەک یەکدی گوناھکار دەردەکەوتن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -209,7 +208,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """John had a guilty look on his face.""",
                       kurdishText:
-                          """جۆن دەربڕینێکی تاوانکارانەی هەبوو لەسەر ڕووخساری.""",
+                          """جۆن دەربڕینێکی تاوانکارانەی ھەبوو لەسەر ڕووخساری.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -254,7 +253,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We've all been guilty of selfishness at some time in our lives.""",
                       kurdishText:
-                          """هەموومان تاوانباری خۆپەرستی بووینە لە ساتێکی ژیانماندا.""",
+                          """ھەموومان تاوانباری خۆپەرستی بووینە لە ساتێکی ژیانماندا.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -325,19 +324,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/ewLpXw6uN28?t=';
-const double _startSecondsend = 0000000000000000000000000001170;
-const String _videoIdone = 'https://youtu.be/ii50SWTJSoA?t=';
-const double _startSecondsone = 000000000000000000000000000149;
-const String _videoIdtwo = 'https://youtu.be/_45zjnjrFOA?t=';
-const double _startSecondstwo = 000000000000000000000000000248;
-const String _videoIdthree = 'https://youtu.be/raSeaAeryWE?t=';
-const double _startSecondsthree = 0000000000000000000000000002409;
-const String _videoIdfour = 'https://youtu.be/QyL9P1ccy-w?t=';
-const double _startSecondsfour = 00000000000000000000000000059;
-const String _videoIdfive = 'https://youtu.be/q8HRGiUeZwc?t=';
-const double _startSecondsfive = 00000000000000000000000000044;
+const String _videoIdend = 'ewLpXw6uN28';
+const double _startSecondsend = 1170;
+const String _videoIdone = 'ii50SWTJSoA';
+const double _startSecondsone = 149;
+const String _videoIdtwo = '_45zjnjrFOA';
+const double _startSecondstwo = 248;
+const String _videoIdthree = 'raSeaAeryWE';
+const double _startSecondsthree = 2409;
+const String _videoIdfour = 'QyL9P1ccy-w';
+const double _startSecondsfour = 59;
+const String _videoIdfive = 'q8HRGiUeZwc';
+const double _startSecondsfive = 44;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

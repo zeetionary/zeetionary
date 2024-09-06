@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئەزبۆلە، بەھارات، دەرمانک، خۆشکە، ھەزوێلە، ڕازاندنەوە، خەمڵاندن، سازکردن، بەدەورداھاتن، جوان‌کردن
 """),
-// With short examples define "garnish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ڕازاندنەوەی خواردنێک بە کەمێک لە خواردنێکی دیکە"""),

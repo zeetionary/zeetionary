@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: یاریی ئاگرین، تۆق‌تۆقێن، ئاگرەخۆشە، گڕەمەشقەڵان، دەمەرقاچان، گڕگڕان، ماتاو، ئایرەکڵێ
 """),
-// With short examples define "firework", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێکی بچووک کە مادەی تەقەمەنی تێدایە و دەنگی گەورە و ڕەنگی درەوشاوە درووست دەکات"""),

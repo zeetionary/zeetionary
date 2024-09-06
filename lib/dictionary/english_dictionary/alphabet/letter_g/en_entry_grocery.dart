@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grocery", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) فرۆشگایەک کە سەوزە و شتی ماڵەوە دەفرۆشێت. لە ئەمریکا ھەمان واتای سوپەرمارکێتی ھەیە"""),
@@ -247,7 +246,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'k3aAl92_VDE';
 const double _startSecondsend = 51;
 const String _videoIdone = 'gngPQ771Ahk';

@@ -158,7 +158,7 @@ ${englishMeaningConst.text}
 // With short examples define "hard-pressed", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) هەبوونی کێشەی زۆر، بە تایبەتی کاری زۆر لەگەڵ کات یان پارەی کەم"""),
+                            """١. (ھاوەڵناو) ھەبوونی کێشەی زۆر، بە تایبەتی کاری زۆر لەگەڵ کات یان پارەی کەم"""),
                     SentencesRow(
                       englishText:
                           """The latest education reforms have put extra pressure on teachers who are already hard-pressed.""",
@@ -245,19 +245,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/-BeTq99LqUo?t=';
-const double _startSecondsend = 0000000000000000000000000001064;
-const String _videoIdone = 'https://youtu.be/5R65skWdg7Y?t=';
-const double _startSecondsone = 0000000000000000000000000003255;
-const String _videoIdtwo = 'https://youtu.be/15D_LWIguL8?t=';
-const double _startSecondstwo = 000000000000000000000000000901;
-const String _videoIdthree = 'https://youtu.be/ARgT2XmHN2E?t=';
-const double _startSecondsthree = 000000000000000000000000000247;
-const String _videoIdfour = 'https://youtu.be/E2rtQFAibEA?t=';
-const double _startSecondsfour = 0000000000000000000000000004289;
-const String _videoIdfive = 'https://youtu.be/tYrdMjVXyNg?t=';
-const double _startSecondsfive = 0000000000000000000000000004124;
+const String _videoIdend = '-BeTq99LqUo';
+const double _startSecondsend = 1064;
+const String _videoIdone = '5R65skWdg7Y';
+const double _startSecondsone = 3255;
+const String _videoIdtwo = '15D_LWIguL8';
+const double _startSecondstwo = 901;
+const String _videoIdthree = 'ARgT2XmHN2E';
+const double _startSecondsthree = 247;
+const String _videoIdfour = 'E2rtQFAibEA';
+const double _startSecondsfour = 4289;
+const String _videoIdfive = 'tYrdMjVXyNg';
+const double _startSecondsfive = 4124;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

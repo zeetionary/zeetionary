@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فڕۆکەی بێ‌بزوێنە یا بێ‌مۆتۆڕ، فڕۆکەی چارۆکەدار، خزۆکە
 """),
-// With short examples define "glider", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) فڕۆکەیەکی سووک کە بە بێ بزوێنەر دەفڕێت"""),
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 't93UCj1hzu8';
 const double _startSecondsend = 1190;
 const String _videoIdone = 'xCX5evgP-5E';

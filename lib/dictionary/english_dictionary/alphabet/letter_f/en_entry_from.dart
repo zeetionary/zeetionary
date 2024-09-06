@@ -346,7 +346,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لە، ژ،	لە ڕووی،	لە لایەن، لە کن، ژ ئالییێ، لەوەتای،	لەو دەمەی، ماوە بە...،	لە مەودای،	لەبەرامبەر، لە ھەمبەر،	بەھۆی لەبەر، ژبەر، بەپێی، بە ڕەچاوکردنی، بە سەرنج‌دان بەو (شتە)
 """),
-// With short examples define "from", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ئامراز) بۆ گوتنی ئەوەی کەسێک/شتێک لە کوێوە دەست پێدەکات"""),

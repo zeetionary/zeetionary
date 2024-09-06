@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گونجاو، لێوەشاو، پێکەوتوو،	ئەندازە، پڕبەپێست، تەواو، پڕبەبەر، پڕ
 """),
-// With short examples define "fitted", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە درووست کراوە بۆ ئەوەی لە شوێنێکدا بگونجێت"""),

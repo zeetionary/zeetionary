@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "germinate", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) کە تۆوێک دەست دەکات بە گەشە"""),
                     SentencesRow(
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'j_Of36XVHng';
 const double _startSecondsend = 174;
 const String _videoIdone = 'cApVVuuqLFY';

@@ -1692,7 +1692,6 @@ Usage: N. Amer
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'XZVHmRvfDHM';
 const double _startSecondsend = 25;
 const String _videoIdone = 'hTqtGJwsJVE';

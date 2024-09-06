@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "GPS", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سیستەمێکە کە پەخش لە مانگی دەستکردەکانەوە دەنێردرێت بۆ ئامێرێکی تایبەت، بەکاردێت بۆ نیشاندانی شوێنی کەسێک یان شتێک لەسەر زەوی بە شێوەیەکی زۆر ورد"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '82tcHq84KTU';
 const double _startSecondsend = 41;
 const String _videoIdone = 'ObRYNKXwzrs';

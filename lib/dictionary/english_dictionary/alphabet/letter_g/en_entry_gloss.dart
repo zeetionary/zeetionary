@@ -201,7 +201,6 @@ Verb: gloss (derived forms: glosses, glossed, glossing)
                     const KurdishVocabulary(text: """
 کوردی: بریقە، درەوشانەوە، ورشە، بریقانەوە، بریسکانەوە، ڕواڵەت، ڕووکەش، ڕواڵەتی ھەڵفریوێنەر، خۆش‌ڕواڵەت، ڕەنگی ڕۆنی
 """),
-// With short examples define "gloss", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) درەوشانەوەی سەر ڕوویەکی لووس؛ مادەیەک کە بریقانەوە زیاد دەکات"""),
@@ -340,7 +339,6 @@ Verb: gloss (derived forms: glosses, glossed, glossing)
   }
 }
 
-// 188888880002200
 const String _videoIdend = '9K_CZizKdVs';
 const double _startSecondsend = 758;
 const String _videoIdone = '57htei0Xw1E';

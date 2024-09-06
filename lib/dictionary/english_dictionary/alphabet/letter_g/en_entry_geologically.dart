@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "geologically", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە زانستی لێکۆڵینەوە لە پێکھاتەی زەوی، لە نێوانیاندا بنەچە و مێژووی ئەو بەرد و خۆڵەی کە زەوی پێکدەھێنن؛ بە شێوەیەک کە پەیوەندیدارە بە بنەچە و مێژووی بەرد و خۆڵی ناوچەیەکی دیاریکراو"""),
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'DqF-gEPcgPo';
 const double _startSecondsend = 929;
 const String _videoIdone = '-SL9KRvzVmo';

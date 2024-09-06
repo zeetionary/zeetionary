@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕۆحی مردوو، تارمایی، خێو، سەھویر، سوێس، تیبا، سێتاڤ، ماچێتر،	کەم، نەختێ، چکێ، بڕێ
 """),
-// With short examples define "ghost", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گیانی کەسێکی مردوو کە کەسێکی زیندوو باوەڕی وایە دەتوانێت بیبینێت یان بیبیستێت"""),
@@ -345,7 +344,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'a_TSR_v07m0';
 const double _startSecondsend = 636;
 const String _videoIdone = '9TugA_z5vQE';

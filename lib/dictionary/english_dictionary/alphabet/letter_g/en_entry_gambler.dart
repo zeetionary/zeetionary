@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قومارچی، قومارباز، قومارگەر
 """),
-// With short examples define "gambler", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە قومار دەکات"""),
                     SentencesRow(

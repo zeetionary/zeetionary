@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (ئەسپ) کەژوو، کەژک، تەنگ، (قایشی) قەیاسە،	دەور، دەوری کەمەر، تەنگە، ئەندازەی کەمەر، دەوری زگ، دەوری پشتێنە،	پێوانی دەور، ئەندازەی دەور
 """),
-// With short examples define "girth", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پێوان بە دەوری شتێکدا، بە تایبەتی پشتی کەسێک"""),
@@ -272,7 +271,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'xVQxvthAcLU';
 const double _startSecondsend = 374;
 const String _videoIdone = 'm6kcANnAJSo';

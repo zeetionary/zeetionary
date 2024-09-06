@@ -146,7 +146,6 @@ Usage: Brit, informal
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gazump", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەوەی کە خانووەکەت بە کەسێک نەفرۆشیت کە لەگەڵی ڕێکەوتنت کردووە، بەڵکو بە کەسێکی بفرۆشیت کە نرخێکی بەرزتری داوە"""),

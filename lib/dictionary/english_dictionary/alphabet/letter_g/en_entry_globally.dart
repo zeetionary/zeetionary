@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە شێوەیەکی جیھانی، بە گشتی
 """),
-// With short examples define "globally", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە کە ھەموو جیھان دەگرێتەوە یان کاریگەری دەبێت لێی"""),
@@ -279,7 +278,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'V1PABydQ668';
 const double _startSecondsend = 344;
 const String _videoIdone = 'TfaMLqEh1qM';

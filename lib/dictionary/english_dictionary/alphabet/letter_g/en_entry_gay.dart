@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھاوڕەگەزخواز،	شاد، سەرخۆش، خۆشحاڵ، بەگوڕ، بەکەیف، ڕووبەپێکەنین، بەدەماخ،	بێ‌فکر، بێ‌خەیاڵ، بێ‌خەم، بەفشەگرتوو،	زریقەوبریقە، بەئاڵاواڵا، زەڕقی
 """),
-// With short examples define "gay", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کەسێک، بە تایبەتی پیاوێک، کە حەزی کەسانی ھەمان ڕەگەزی خۆی ھەیە"""),

@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شێوگ، فۆرمۆل، چارە، ڕێگا، ڕێگاچارە،	شێواز، دەستوور، دەستووری کار،	کڵیشە،	دەستووری گرتنەوە،	خوراکی ئامادەی مناڵ، شیری وشک،	(پێشبڕکێی ماشێن لێخوڕین) دەستە، پۆل
 """),
-// With short examples define "formula", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھاوکێشەیەکی بیرکاری؛ ژمارەیەک پیت، ژمارە، ین سمبول کە یاسایەک پیشان دەدەن"""),

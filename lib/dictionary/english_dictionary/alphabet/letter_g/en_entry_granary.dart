@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: عەماری دەغڵ‌ودان، سایلۆی گەنم، شوێنی گەنم تیاھەڵگرتن
 """),
-// With short examples define "granary", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بینایەک کە تێیدا گەنم کۆگا دەکرێت"""),
                     SentencesRow(
@@ -220,7 +219,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'eQzeHYI3Q7Q';
 const double _startSecondsend = 385;
 const String _videoIdone = 'XvPaiDX_3JM';

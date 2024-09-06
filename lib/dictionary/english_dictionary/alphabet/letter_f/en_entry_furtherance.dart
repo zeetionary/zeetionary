@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێشوەچوون، چوونەپێش، پێشوەبردن، پێشڤەچوون،	بەدی‌ھێنان، بەجێ‌ھێنان،	پشتیوانی، لایەنگری،	پێشکەوتن،	بەھێزکردن، پێزاندن، یارمەتی
 """),
-// With short examples define "furtherance", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پڕۆسەی بەرەوپێشبردن یان پێشخستنی شتێک"""),

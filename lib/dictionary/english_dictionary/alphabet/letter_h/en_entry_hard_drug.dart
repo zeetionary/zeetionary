@@ -146,10 +146,10 @@ ${englishMeaningConst.text}
 // """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) مادەیەکی نایاسایی بەهێزی وەک هیرۆین"""),
+                            """١. (ناو) مادەیەکی نایاسایی بەھێزی وەک ھیرۆین"""),
                     SentencesRow(
                       englishText: """Cocaine is a hard drug.""",
-                      kurdishText: """کۆکایین مادەیەکی هۆشبەرە.""",
+                      kurdishText: """کۆکایین مادەیەکی ھۆشبەرە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -220,19 +220,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/SwQhKFMxmDY?t=';
-const double _startSecondsend = 000000000000000000000000000399;
-const String _videoIdone = 'https://youtu.be/Kf9N5AWprG8?t=';
-const double _startSecondsone = 000000000000000000000000000228;
-const String _videoIdtwo = 'https://youtu.be/rgI_LzXvU-A?t=';
-const double _startSecondstwo = 000000000000000000000000000126;
-const String _videoIdthree = 'https://youtu.be/1DAShTKp1xY?t=';
-const double _startSecondsthree = 000000000000000000000000000199;
-const String _videoIdfour = 'https://youtu.be/anDy97Q8qwI?t=';
-const double _startSecondsfour = 000000000000000000000000000335;
-const String _videoIdfive = 'https://youtu.be/ronquUhy0xE?t=';
-const double _startSecondsfive = 00000000000000000000000000054;
+const String _videoIdend = 'SwQhKFMxmDY';
+const double _startSecondsend = 399;
+const String _videoIdone = 'Kf9N5AWprG8';
+const double _startSecondsone = 228;
+const String _videoIdtwo = 'rgI_LzXvU-A';
+const double _startSecondstwo = 126;
+const String _videoIdthree = '1DAShTKp1xY';
+const double _startSecondsthree = 199;
+const String _videoIdfour = 'anDy97Q8qwI';
+const double _startSecondsfour = 335;
+const String _videoIdfive = 'ronquUhy0xE';
+const double _startSecondsfive = 54;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

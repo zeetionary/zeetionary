@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: مووئاسایی، تووک‌ئاسایی، لە قژچوویی
 // """),
-// With short examples define "hairiness", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی شتێک بە موو داپۆشرابێت"""),
                     SentencesRow(
@@ -223,19 +222,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/R319_g4KAJ8?t=';
-const double _startSecondsend = 000000000000000000000000000144;
-const String _videoIdone = 'https://youtu.be/gBhw8aresGg?t=';
-const double _startSecondsone = 000000000000000000000000000244;
-const String _videoIdtwo = 'https://youtu.be/cj3hg5I3j-E?t=';
-const double _startSecondstwo = 000000000000000000000000000541;
-const String _videoIdthree = 'https://youtu.be/HaUF0BCwnyk?t=';
-const double _startSecondsthree = 000000000000000000000000000956;
-const String _videoIdfour = 'https://youtu.be/WM_RcR2EOms?t=';
-const double _startSecondsfour = 000000000000000000000000000705;
-const String _videoIdfive = 'https://youtu.be/lwYxXrZfzA4?t=';
-const double _startSecondsfive = 000000000000000000000000000603;
+const String _videoIdend = 'R319_g4KAJ8';
+const double _startSecondsend = 144;
+const String _videoIdone = 'gBhw8aresGg';
+const double _startSecondsone = 244;
+const String _videoIdtwo = 'cj3hg5I3j-E';
+const double _startSecondstwo = 541;
+const String _videoIdthree = 'HaUF0BCwnyk';
+const double _startSecondsthree = 956;
+const String _videoIdfour = 'WM_RcR2EOms';
+const double _startSecondsfour = 705;
+const String _videoIdfive = 'lwYxXrZfzA4';
+const double _startSecondsfive = 603;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

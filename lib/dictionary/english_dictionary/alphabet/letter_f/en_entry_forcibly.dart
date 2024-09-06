@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە زۆری، زۆەملی، بە زۆرەملی،	بە توندی، بە سەختی
 """),
-// With short examples define "forcibly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە لەخۆگرتنی ھێزی جەستەیی تێدایە"""),

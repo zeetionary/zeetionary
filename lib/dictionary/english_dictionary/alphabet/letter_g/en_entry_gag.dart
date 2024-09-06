@@ -215,7 +215,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەمبێن، دەمبەست، دەم‌تەپێن،	شەویلکەگر، شەویلکەبەند، دەم‌ڕاگرە،	بەرتەنگی، بەرگیری، دەمبەستان، تەنگژە، نوکتە، گاڵتە، شیرین‌کاری،	فێڵ، کەڵەک
 """),
-// With short examples define "gag", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە قوماشێک کە دەخرێتە دەم یان دەبەسترێت لە دەم بۆ ڕێگری لە قسەکردنی کەسێک"""),

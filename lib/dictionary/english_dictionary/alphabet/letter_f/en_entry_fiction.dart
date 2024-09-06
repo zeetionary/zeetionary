@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چیرۆک، داستان، چیرۆکی خەیاڵی، ھەڵبەستەچیرۆک، ڕازە، چیرۆکەخەیاڵ،	ئەندێشە، درۆ، قسەی بێ‌بنچینە، خەیاڵ،	وێژەی خەیاڵی یان چیرۆکی،	واخۆدەرخستن، واخۆنیشان‌دان، درۆ
 """),
-// With short examples define "fiction", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەدەبی خەیاڵی؛ جۆرێک لە وێژە کە باس لە کەس و ڕووداوی خەیاڵی دەکات"""),

@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: باوکەگەورە یا دایکەگەورە، باوان
 """),
-// With short examples define "grandparent", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) دایک یان باوکی دایکت یان باوکت"""),
                     SentencesRow(
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_wNsZEqpKUA';
 const double _startSecondsend = 929;
 const String _videoIdone = '2RtC3Cb5PN8';

@@ -123,6 +123,14 @@ ${englishMeaningConst.text}
     await flutterTts.speak("""He was handcuffed to a policeman.""");
   }
 
+  Future<void> speakhandcuffss2(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts
+        .speak("The prisoners wore handcuffs and iron chains on their legs.");
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -179,7 +187,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەلەپچە، دەزبێن، دەسبەس، دەسبێن
 """),
-// With short examples define "handcuff", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) کەلەپچە"""),
                     SentencesRow(
                       englishText: """She was led away in handcuffs.""",
@@ -205,6 +212,15 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    const DividerSentences(),
+          SentencesRow(
+            englishText:
+                "The prisoners wore handcuffs and iron chains on their legs.",
+            kurdishText:
+                "زیندانییەکان کەلەپچە و زنجیری ئاسنینیان لە قاچیان بەسترابوو.",
+            onPressedBritish: () => speakhandcuffss2("en-GB"),
+            onPressedAmerican: () => speakhandcuffss2("en-US"),
+          ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) دانانی کەلەپچە لە دەستی کەسێک"""),
@@ -289,19 +305,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/CE5o4JoyMkE?t=';
-const double _startSecondsend = 000000000000000000000000000192;
-const String _videoIdone = 'https://youtu.be/EngkJ_xOk6s?t=';
-const double _startSecondsone = 00000000000000000000000000093;
-const String _videoIdtwo = 'https://youtu.be/FgT3GCsJteA?t=';
-const double _startSecondstwo = 000000000000000000000000000972;
-const String _videoIdthree = 'https://youtu.be/prDkd60WzmU?t=';
-const double _startSecondsthree = 00000000000000000000000000019;
-const String _videoIdfour = 'https://youtu.be/41HS3vihqBY?t=';
-const double _startSecondsfour = 00000000000000000000000000018;
-const String _videoIdfive = 'https://youtu.be/XER6VM1tTJc?t=';
-const double _startSecondsfive = 00000000000000000000000000097;
+const String _videoIdend = 'CE5o4JoyMkE';
+const double _startSecondsend = 192;
+const String _videoIdone = 'EngkJ_xOk6s';
+const double _startSecondsone = 93;
+const String _videoIdtwo = 'FgT3GCsJteA';
+const double _startSecondstwo = 972;
+const String _videoIdthree = 'prDkd60WzmU';
+const double _startSecondsthree = 19;
+const String _videoIdfour = '41HS3vihqBY';
+const double _startSecondsfour = 18;
+const String _videoIdfive = 'XER6VM1tTJc';
+const double _startSecondsfive = 97;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

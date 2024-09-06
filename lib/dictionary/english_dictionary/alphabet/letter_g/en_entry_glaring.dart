@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (ڕۆشنایی) تیژ، زۆر ڕۆشن، گەش، زەق، پڕشەوق،	تووڕە، ڕق‌ھەستاو،	بەرچاو، زەق، دیار، ئاشکرا
 """),
-// With short examples define "glaring", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) شتێکی خراپ کە بە ئاسانی دەبیندرێت"""),
@@ -257,7 +256,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'MqyJZsGFZ3M';
 const double _startSecondsend = 148;
 const String _videoIdone = '_3mZLMx5spM';

@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فۆرمۆلەکردن، فۆرمۆلاندن، گەڵاڵەکردن، گەڵاڵەبەندی، شێوگاندن، دانان، ڕێکخستن، داڕشتن،	خستنەڕوو،	شێوازی دەربڕین، ڕاوێژ
 """),
-// With short examples define "formulation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) درووستکردن یان ئامادەکردنی شتێک بە وریایی بەوەی سەرنجی تەواو بدەیت بە وردەکاری"""),

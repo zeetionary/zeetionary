@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پڕگوڵ، گوڵاوی، داپۆشراو بە گوڵ،	بۆنخۆش، بەبۆن و بەرام،	بە گوڵ‌ڕازاو یان جوان‌کراو، گوڵبەند،	ئاڵۆز و گران، وێژەیی، سەخت
 """),
-// With short examples define "flowery", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە گوڵ داپۆشراوە یان نەخشێنراوە"""),

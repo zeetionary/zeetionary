@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە سپاسەوە، سپاس‌کارانە
 """),
-// With short examples define "gratefully", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە سوپاسگوزاری پیشان دەدات بەھۆی ئەوەی کەسێک میھرەبان بووە لەگەڵت یان یارمەتی داویت"""),
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'ivfspJOAtBI';
 const double _startSecondsend = 623;
 const String _videoIdone = 'bmsmTQNPkSY';

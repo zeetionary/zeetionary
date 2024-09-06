@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەبوونی دەسەڵات، ھێز و مافی بەڕێوەبردن، حکومەت، میری، بەڕێوەبەرایەتی، ڕێڤەبەری،	فەرمان‌گێڕ، دەسەڵات‌گێڕ، دەسەڵات‌دار، فەرمان‌ڕەوا، حوکم‌دار، حوکم‌ڕان
 """),
-// With short examples define "governing", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ئەوەی کە ماف یان دەسەڵاتی بەڕێوەبردنی شتێکت ھەبێت"""),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'ewLpXw6uN28';
 const double _startSecondsend = 953;
 const String _videoIdone = 'Unzc731iCUY';

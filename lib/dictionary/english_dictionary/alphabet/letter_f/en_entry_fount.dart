@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرچاوە، چاڤکانی، ژێدەر، ئاخێزگە، ماک، بنەما،	کانی، سەرچاوە،	کوفارە، فیشقاو، پیت
 """),
-// With short examples define "fount", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شوێنێک کە سەرچاوەی شتێکە"""),
                     SentencesRow(

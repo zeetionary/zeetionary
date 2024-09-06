@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەوەفایی، وەفاداری، سفەت، پێبەندی، پێزانی، یەکلایی، بەئەمەکی،	پەیمان‌ڕاستی، بەڵێن‌ڕاستی، ڕاستی، دروستی، سەرڕاستی، ساغی،	ڕاستی، دروستی
 """),
-// With short examples define "fidelity", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی وەفادار بیت بۆ کەسێک/شتێک"""),
                     SentencesRow(

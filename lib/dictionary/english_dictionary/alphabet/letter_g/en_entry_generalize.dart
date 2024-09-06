@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "generalize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) بەکارھێنانی کۆمەڵە ڕاستی و تێگەشتنێک بۆ درووستکردنی بۆچوونێک کە بە پەیوەندیدار بە دۆخێکی دیکە دادەنرێت"""),

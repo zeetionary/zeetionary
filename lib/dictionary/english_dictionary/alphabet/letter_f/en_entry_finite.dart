@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سنووردار، دوادار، بەرتەسک، دیاری‌کراو، ڕادەمەند
 """),
-// With short examples define "finite", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە کۆتایی یان سنووری ھەیە"""),
                     SentencesRow(

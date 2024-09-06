@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەربازگە، سەربازخانە، سپاخانە،	سەربازانی نێو سەربازگە، کەسانێ نێو سەربازخانە
 """),
-// With short examples define "garrison", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ژمارەیەک سەرباز کە لە شارۆچکە یان قەڵایەک دەژین بۆ بەرگری لێی؛ ئەو شوێنەی کە ئەم سەربازانە لێین"""),

@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەوش، پێڵاو، پێپۆش، پاپۆش
 """),
-// With short examples define "footwear", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەو شتانەی کە لە پێ دەکرێن"""),
                     SentencesRow(

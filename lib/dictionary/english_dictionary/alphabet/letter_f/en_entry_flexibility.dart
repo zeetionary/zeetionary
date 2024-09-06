@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نەرمی، لەداھاتنەوەھاتوویی، داھاتوویی، جیری، بگۆڕی، لەگۆڕان‌ھاتوویی
 """),
-// With short examples define "flexibility", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) توانای گۆڕان بۆ گونجان لەگەڵ دۆخی تازە"""),

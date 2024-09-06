@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خوانێردە، خواپێداوە
 """),
-// With short examples define "godsend", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) شتێکی باشی چاوەڕواننەکراو کە ڕوودەدات و یارمەتی کەسێک/شتێک دەدات لە کاتێکدا کە پێویستیی بە یارمەتی ھەیە"""),
@@ -239,7 +238,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'CURLWPCxe-c';
 const double _startSecondsend = 298;
 const String _videoIdone = 'PYsE5K9Vgns';

@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەرێتی، گەوجێتی، بێ‌ئەقڵی، کاری گەوجانە، کردەوەی گەوجانە، قسەی گەوجانە،	خانووبەرەی بەشکۆ و گران، خانووی شایانە، دەزگا
 """),
-// With short examples define "folly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خراپی بڕیاردان؛ کردنی شتێکی گەمژانە"""),

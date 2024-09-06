@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جێ پێ، شوێنی پێ، پێ‌شوێن، شەقڵی پێ
 """),
-// With short examples define "footprint", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نیشانەی پێی کەسێک یان ئاژەڵێک کە لەسەر ڕێگایەک جێ دەمێنێت"""),

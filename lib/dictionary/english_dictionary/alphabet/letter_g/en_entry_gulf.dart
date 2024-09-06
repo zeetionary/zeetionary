@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gulf", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناوچەیەکی ئاوی گەورە کە بەشێکی بە خاک دەوردراوە"""),
@@ -183,19 +182,19 @@ ${englishMeaningConst.text}
                       englishText:
                           """Tensions in the Gulf can affect global oil prices.""",
                       kurdishText:
-                          """ئاڵۆزی لە کەنداوی فارس دەکرێت کاریگەری لە نرخی جیهانی نەوت هەبێت.""",
+                          """ئاڵۆزی لە کەنداوی فارس دەکرێت کاریگەری لە نرخی جیھانی نەوت ھەبێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) جیاوازی زۆر لە شێوازی ژیان، بیرکردنەوە، هتد"""),
+                            """٣. (ناو) جیاوازی زۆر لە شێوازی ژیان، بیرکردنەوە، ھتد"""),
                     SentencesRow(
                       englishText:
                           """The gulf between rich and poor is enormous.""",
                       kurdishText:
-                          """جیاوازیی نێوان دەوڵەمەند و هەژار زەبەلاحە.""",
+                          """جیاوازیی نێوان دەوڵەمەند و ھەژار زەبەلاحە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -266,19 +265,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/UvjSXBqQe4A?t=';
-const double _startSecondsend = 00000000000000000000000000041;
-const String _videoIdone = 'https://youtu.be/Uhh_An7FGek?t=';
-const double _startSecondsone = 000000000000000000000000000203;
-const String _videoIdtwo = 'https://youtu.be/cykdSb7xqI4?t=';
-const double _startSecondstwo = 00000000000000000000000000017;
-const String _videoIdthree = 'https://youtu.be/l0MF_AdmPLY?t=';
-const double _startSecondsthree = 000000000000000000000000000432;
-const String _videoIdfour = 'https://youtu.be/895AKrvz_AI?t=';
-const double _startSecondsfour = 000000000000000000000000000171;
-const String _videoIdfive = 'https://youtu.be/aoXJfuPaFF8?t=';
-const double _startSecondsfive = 00000000000000000000000000067;
+const String _videoIdend = 'UvjSXBqQe4A';
+const double _startSecondsend = 41;
+const String _videoIdone = 'Uhh_An7FGek';
+const double _startSecondsone = 203;
+const String _videoIdtwo = 'cykdSb7xqI4';
+const double _startSecondstwo = 17;
+const String _videoIdthree = 'l0MF_AdmPLY';
+const double _startSecondsthree = 432;
+const String _videoIdfour = '895AKrvz_AI';
+const double _startSecondsfour = 171;
+const String _videoIdfive = 'aoXJfuPaFF8';
+const double _startSecondsfive = 67;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

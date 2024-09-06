@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: وردی، وردەکاری، وردبوونەوە، ناسک‌کاری، شارەزایی،	باشی، خاسی،	زیرەکی
 """),
-// With short examples define "finesse", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شارەزایی زۆر لە مامەڵەرکردن لەگەڵ خەڵکی یان دۆخێک"""),

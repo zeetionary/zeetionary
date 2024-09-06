@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "genital", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە ئەندامی زاوزێی مرۆڤ و ئاژەڵ کە دەکەوێتە دەرەوەی جەستە"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'WDetHC86Dgo';
 const double _startSecondsend = 129;
 const String _videoIdone = '092PIJKKgFo';

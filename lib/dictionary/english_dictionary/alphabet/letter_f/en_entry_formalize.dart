@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەفەرمی کردن، ڕەسمی کردن
 """),
-// With short examples define "formalize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەوەی کە ڕێکخستنێک، پلانێک، یان پەیوەندییەک بکەیت بە شتێکی فەرمی"""),

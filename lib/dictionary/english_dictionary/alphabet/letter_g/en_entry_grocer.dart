@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەقاڵ، خواردەمەنی‌فرۆش
 """),
-// With short examples define "grocer", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە لە فرۆشگایەک کار دەکات کە میوە و شتی ماڵەوە دەفرۆشێت؛ فرۆشگایەکی وەھا"""),
@@ -222,7 +221,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'cee6883w2Nk';
 const double _startSecondsend = 194;
 const String _videoIdone = 'YrMGIqecu0Y';

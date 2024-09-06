@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "forbid", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) فەرمانکردن بە کەسێک کە شتێک نەکات"""),

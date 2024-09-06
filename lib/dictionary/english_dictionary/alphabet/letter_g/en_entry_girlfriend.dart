@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "girlfriend", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کچێک یان ژنێک کە کەسێک پەیوەندیی ڕۆمانسی لەگەڵی ھەیە"""),
@@ -255,7 +254,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'HDntl7yzzVI';
 const double _startSecondsend = 208;
 const String _videoIdone = 'Cqbleas1mmo';

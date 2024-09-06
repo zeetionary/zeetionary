@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زۆر ناخۆش، ترسناک، یەکجار خراپ، لەرادەبەدەر
 """),
-// With short examples define "frightful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بۆ گوتنی ئەوەی شتێک چەندە خراپە"""),

@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زمان‌باز، زمان‌چەور، زمان‌لووس،	دەم‌پاراو، زمان‌ڕەوان،	بێ‌ناوەرۆک، سەرسەرەکی
 """),
-// With short examples define "glib", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بەکارھێنانی وشەی زیرەکانە، بەڵام کە زۆر بیری لێ‌نەکراوەتەوە و لە دڵەوە نییە؛ ئەوەی بە باوەڕبەخۆبوون بێت، بەڵام بە سادەیی و بە بێ بیرکردنەوەی قووڵ"""),
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Sbp_EeBk-As';
 const double _startSecondsend = 871;
 const String _videoIdone = 'NpBPm0b9deQ';

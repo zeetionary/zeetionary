@@ -191,6 +191,7 @@ class ConstantContainer extends StatelessWidget {
     );
   }
 }
+
 class YoutubeEmbeddingWidget extends StatelessWidget {
   final String videoId;
   final double startSeconds;
@@ -371,7 +372,6 @@ class _YouTubeScrollerState extends ConsumerState<YouTubeScroller> {
     );
   }
 }
-
 
 // class YouTubeScroller extends StatefulWidget {
 //   final List<Widget> children;
@@ -3796,7 +3796,7 @@ class NoSentencesFromKurdishDatabase extends StatelessWidget {
             EmptyPageIcon(
               text: '',
             ),
-            Text('هیچ ڕستەیەک لە داتابەیس نەدۆزرایەوە'),
+            Text('ھیچ ڕستەیەک لە داتابەیس نەدۆزرایەوە'),
           ],
         ),
       ),

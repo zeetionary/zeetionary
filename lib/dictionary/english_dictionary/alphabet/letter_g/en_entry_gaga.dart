@@ -160,7 +160,6 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی: خەڵەفاو، جوڕیاو،	دڵبەستە، شێت
 """),
-// With short examples define "gaga", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) شڵەژاو و ئەوەی بە درووستی بیر نەکەیتەوە"""),

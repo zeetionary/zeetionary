@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەسکاری‌کراو، شێوێنراو، چەواشەکراو، شێواو، ئاڵۆز، تێکەولێکە، لێ‌تێنەگەیشتوو
 """),
-// With short examples define "garbled", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە شێوەیەک دەگوترێت سەر لە بیسەر دەشێوێنێت"""),

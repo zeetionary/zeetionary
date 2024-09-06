@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grotesquely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەکی ھەڵە و نادادپەروەرانە؛ بە شێوەیەکی سەیر کە ناخۆش یان بێ‌ڕێزانەیە"""),
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'YwOMc-4OEWg';
 const double _startSecondsend = 401;
 const String _videoIdone = 'E2rtQFAibEA';

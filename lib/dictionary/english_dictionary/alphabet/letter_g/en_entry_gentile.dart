@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gentile", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە جوولەکە نییە"""),
                     SentencesRow(
@@ -250,7 +249,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'zUbod5t_2oM';
 const double _startSecondsend = 926;
 const String _videoIdone = 'XeJ2vOHaATg';

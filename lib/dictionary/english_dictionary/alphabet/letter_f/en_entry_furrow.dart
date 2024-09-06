@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھێڵ، کووز، خیچ، خەت، گڤاند، لوژنا (کیلەفڕ: ھێڵی جووتی لێک‌دوور)،	(ناوچاوان) گنجی، لۆچی، چرچی،	کەردوو، دێراو، بۆ،	زەوی کێڵراوە، شێوەرد، شێوبڕاو، کێڵگە،	ڕێڕەوی کەشتی، ڕێگای کەشتی
 """),
-// With short examples define "furrow", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھێڵێکی درێژ لە زەویدا، بە تایبەتی کە بە کێڵان درووست بووە بۆ ناشتنی تۆو تێیدا بەکاردێت"""),

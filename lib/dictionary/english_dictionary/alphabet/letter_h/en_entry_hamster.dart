@@ -155,12 +155,12 @@ ${englishMeaningConst.text}
 // """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئاژەڵێک کە وەک مشکێکی گەورە وایە و گۆنای گەورەی هەیە بۆ هەڵگرتنی خواردن"""),
+                            """١. (ناو) ئاژەڵێک کە وەک مشکێکی گەورە وایە و گۆنای گەورەی ھەیە بۆ ھەڵگرتنی خواردن"""),
                     SentencesRow(
                       englishText:
                           """Hamsters are omnivores and eat a variety of foods.""",
                       kurdishText:
-                          """هامستەر هەمەچەشنەخۆرن و ژمارەیەکی جیاواز لە خواردن دەخۆن.""",
+                          """ھامستەر ھەمەچەشنەخۆرن و ژمارەیەکی جیاواز لە خواردن دەخۆن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -169,7 +169,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The Syrian hamster is the most common pet hamster.""",
                       kurdishText:
-                          """هامستەری سووری بەناوبانگترین هامستەری ماڵییە.""",
+                          """ھامستەری سووری بەناوبانگترین ھامستەری ماڵییە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -240,19 +240,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/xckVgRWC8GY?t=';
-const double _startSecondsend = 000000000000000000000000000195;
-const String _videoIdone = 'https://youtu.be/9TdBmkO5I3A?t=';
-const double _startSecondsone = 00000000000000000000000000025;
-const String _videoIdtwo = 'https://youtu.be/kv9Fzg_NHE0?t=';
-const double _startSecondstwo = 00000000000000000000000000031;
-const String _videoIdthree = 'https://youtu.be/zbPdwl08TW4?t=';
-const double _startSecondsthree = 00000000000000000000000000016;
-const String _videoIdfour = 'https://youtu.be/WGepq3hU2CQ?t=';
-const double _startSecondsfour = 000000000000000000000000000139;
-const String _videoIdfive = 'https://youtu.be/3OkoXTRW28k?t=';
-const double _startSecondsfive = 00000000000000000000000000078;
+const String _videoIdend = 'xckVgRWC8GY';
+const double _startSecondsend = 195;
+const String _videoIdone = '9TdBmkO5I3A';
+const double _startSecondsone = 25;
+const String _videoIdtwo = 'kv9Fzg_NHE0';
+const double _startSecondstwo = 31;
+const String _videoIdthree = 'zbPdwl08TW4';
+const double _startSecondsthree = 16;
+const String _videoIdfour = 'WGepq3hU2CQ';
+const double _startSecondsfour = 139;
+const String _videoIdfive = '3OkoXTRW28k';
+const double _startSecondsfive = 78;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

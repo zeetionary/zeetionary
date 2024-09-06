@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پەنجەمۆر، شوێن‌پەنجە، جێ‌پەنجە، جێ‌قامک، تەپل
 """),
-// With short examples define "fingerprint", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پەنجەمۆر؛ نیشانەیەک کە سەری پەنجەی کەسێک درووستی دەکات و زۆرجار لەلایەن پۆلیس بەکاردێت بۆ ناسینەوەی تاوانباران"""),

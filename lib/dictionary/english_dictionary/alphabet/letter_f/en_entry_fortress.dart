@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: برج، قەڵا، شوورە، قەڵا و شوورە
 """),
-// With short examples define "fortress", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بینایەک یان شوێنیک کە بەھێز کراوە دژ بە ھێرش"""),

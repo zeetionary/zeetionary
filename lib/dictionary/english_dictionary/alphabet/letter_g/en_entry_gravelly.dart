@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چەوڕێژ، زیخڕێژ(کراو)، چەوار، پڕچەو، پڕزیخ، زیخاوی
 """),
-// With short examples define "gravelly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە وردە بەردی لەسەر ڕژاوە؛ کە وەک زیخ وایە"""),
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'zg3bdspvIiQ';
 const double _startSecondsend = 42;
 const String _videoIdone = 'ZoZT8-HqI64';

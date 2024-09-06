@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بۆق، بەق، قربۆق
 """),
-// With short examples define "frog", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بۆق؛ ئاژەڵێکی پێست لووس کە لەسەر وشکانی و ئاودا دەژی، کلکی نییە، و لاقی دواوەی زۆر درێژە بۆ بازدان"""),

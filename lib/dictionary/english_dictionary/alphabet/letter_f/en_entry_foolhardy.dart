@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 	ھەڵەشە، سەرچڵ،	گەوج، گەوجانە، کەرانە
 """),
-// With short examples define "foolhardy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە مەترسی ناپێویست لەخۆدەگرێت"""),

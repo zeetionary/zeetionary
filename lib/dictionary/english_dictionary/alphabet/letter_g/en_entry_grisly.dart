@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترسناک، ترسێنەر
 """),
-// With short examples define "grisly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) تەواو ناخۆش و ترسناک"""),
                     SentencesRow(
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'j9h2-ZVDLB8';
 const double _startSecondsend = 1023;
 const String _videoIdone = 'lDeFSOUHdH4';

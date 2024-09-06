@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دوژمنایەتی، ململانێ، جوڕە، کێشە، خوون‌داری، قڕە، قینەبەرایەتی
 """),
-// With short examples define "feud", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مشتومڕی توند لە نێوان دوو کەس یان گرووپ کە بۆ ماوەیەکی زۆر بەردەوام دەبێت"""),

@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پەشۆکان، دەس‌تێکەڵ‌بوون، سەرسام‌بوون
 """),
-// With short examples define "fluster", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) شڵەژاندن یان سەرلێشێواندنی کەسێک، بەتایبەتی بەوەی کاری زۆریان پێبدەیت بۆ کردن یان پەلەپەل بکەیت"""),

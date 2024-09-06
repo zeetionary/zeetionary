@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fetish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە کەسێک کاتێکی زۆر بەسەر دەبات بە کردن یان بیرکردنەوە لە شتێکی تایبەت، یان وەھا بیردەکاتەوە کە گرنگ ترە لەوەی لە ڕاستیدا ھەیە"""),

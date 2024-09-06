@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پچڕپچڕ، جارجار، جارناجار، تاوتاو، ناوەناوە، ناڕێک، نابەردەوام، لێھاتەیی، بگرەوبەردە
 """),
-// With short examples define "fitful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بۆ ماوەی کەم کەم ڕوودەدات نەک بە بەردەوامی"""),

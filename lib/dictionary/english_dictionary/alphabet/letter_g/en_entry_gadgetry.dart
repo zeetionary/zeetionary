@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەزگا، کەل‌وپەل، شت‌ومەک، کەرەسەمەنی
 """),
-// With short examples define "gadgetry", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کۆمەڵەیەک لە ئامراز و ئامێری سەردەمییانە"""),

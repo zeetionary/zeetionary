@@ -201,17 +201,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: گوناهـ، سووچ، خەتا، تاوان، بەزە، ئۆباڵ،قەباحەت،	درێخی،	تاوانبارێتی، گوناهبارێتی
+کوردی: گوناھـ، سووچ، خەتا، تاوان، بەزە، ئۆباڵ،قەباحەت،	درێخی،	تاوانبارێتی، گوناھبارێتی
 """),
-// With short examples define "guilt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) هەستی تاوانباری؛ هەستی ئەوەی کە شتێکی هەڵەت کردووە"""),
+                            """١. (ناو) ھەستی تاوانباری؛ ھەستی ئەوەی کە شتێکی ھەڵەت کردووە"""),
                     SentencesRow(
                       englishText:
                           """Many survivors were left with a sense of guilt.""",
                       kurdishText:
-                          """زۆر قوربانی تووشی هەستی تاوانباری بوون.""",
+                          """زۆر قوربانی تووشی ھەستی تاوانباری بوون.""",
                       englishNote:
                           """This sentence suggests that many of the survivors experienced feelings of guilt, possibly due to surviving a situation where others did not or for some actions they took during the event.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
@@ -222,7 +221,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He had no feelings of guilt over what he had done.""",
                       kurdishText:
-                          """هیچ هەستی تاوانباری نەبوو بۆ ئەوەی کردبووی.""",
+                          """ھیچ ھەستی تاوانباری نەبوو بۆ ئەوەی کردبووی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -231,7 +230,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She had feelings of guilt about leaving her children and going to work.""",
                       kurdishText:
-                          """هەستی تاوانباریی هەبوو بۆ جێهێشتنی منداڵەکانی و چوونە سەر کار.""",
+                          """ھەستی تاوانباریی ھەبوو بۆ جێھێشتنی منداڵەکانی و چوونە سەر کار.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -240,7 +239,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I knew that the next day I would be consumed with guilt.""",
                       kurdishText:
-                          """دەمزانی ڕۆژی دواتر پڕ لە هەستی گوناه دەبم.""",
+                          """دەمزانی ڕۆژی دواتر پڕ لە ھەستی گوناھ دەبم.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -276,12 +275,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) لۆمە و بەرپرسیاریەتی بۆ شتێکی هەڵە کە کراوە یان ڕووی داوە"""),
+                            """٣. (ناو) لۆمە و بەرپرسیاریەتی بۆ شتێکی ھەڵە کە کراوە یان ڕووی داوە"""),
                     SentencesRow(
                       englishText:
                           """There is no doubt as to where the guilt lies.""",
                       kurdishText:
-                          """هیچ گومانێک نییە کە خەتاکە لە کوێیە (= ئاشکرایە).""",
+                          """ھیچ گومانێک نییە کە خەتاکە لە کوێیە (= ئاشکرایە).""",
                       englishNote:
                           """This sentence means that it is clear who is responsible or at fault for something. There is no uncertainty about who should be blamed.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
@@ -354,19 +353,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/_b93ZLw_Ra8?t=';
-const double _startSecondsend = 000000000000000000000000000624;
-const String _videoIdone = 'https://youtu.be/ARERGvMzhmc?t=';
-const double _startSecondsone = 000000000000000000000000000747;
-const String _videoIdtwo = 'https://youtu.be/QY7BWZ_aSc4?t=';
-const double _startSecondstwo = 0000000000000000000000000007;
-const String _videoIdthree = 'https://youtu.be/KmL0zZg0Zyo?t=';
-const double _startSecondsthree = 000000000000000000000000000136;
-const String _videoIdfour = 'https://youtu.be/tU8aYj9d6TI?t=';
-const double _startSecondsfour = 00000000000000000000000000090;
-const String _videoIdfive = 'https://youtu.be/QaG_Ld89wVI?t=';
-const double _startSecondsfive = 000000000000000000000000000367;
+const String _videoIdend = '_b93ZLw_Ra8';
+const double _startSecondsend = 624;
+const String _videoIdone = 'ARERGvMzhmc';
+const double _startSecondsone = 747;
+const String _videoIdtwo = 'QY7BWZ_aSc4';
+const double _startSecondstwo = 7;
+const String _videoIdthree = 'KmL0zZg0Zyo';
+const double _startSecondsthree = 136;
+const String _videoIdfour = 'tU8aYj9d6TI';
+const double _startSecondsfour = 90;
+const String _videoIdfive = 'QaG_Ld89wVI';
+const double _startSecondsfive = 367;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

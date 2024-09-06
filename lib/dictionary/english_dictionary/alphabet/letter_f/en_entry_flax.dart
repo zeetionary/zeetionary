@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     KurdishVocabulary(text: """
 کوردی: (ڕووەک‌ناسی) گوش، گیاکەتان، کەتان، بەزەرەک، لۆکەکێوی، گیاھەڵاوە
 """),
-// With short examples define "flax", please follow LX instructions
                     DefinitionKurdish(
                         text:
                             """١. (ناو) ڕوەکێکی گوڵ شین کە بۆ قەدەکەی و تۆوەکەی دەچێندرێت، یان بۆ ئەو دەزووەی لێی درووست دەکرێت"""),

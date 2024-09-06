@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "festival", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ژمارەیەک نمایشی میوزیکی، شانۆ، فیلم، ھتد کە زۆرجار ساڵی جارێک لە ھەمان شوێن ڕێکدەخرێت"""),

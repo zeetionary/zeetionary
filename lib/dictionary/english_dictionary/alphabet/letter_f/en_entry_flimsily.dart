@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە سستی، بێ‌ھێزانە
 """),
-// With short examples define "flimsily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە زۆر بەھێز نییە بۆ ئەو مەبەستەی درووستکراوە"""),

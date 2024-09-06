@@ -238,7 +238,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جوان، شۆخ، دڵڕفێن، ئێسک‌سووک، ڕەزاسووک، (پیاو) جوان‌چاک، شۆخ‌وشەنگ، قیافەڕێک، (ژن) بەژن‌ڕێک، ڕێک‌وپێک، جوان‌چاک
 """),
-// With short examples define "handsome", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) پیاوێکی قۆز"""),
                     const AlsoEnglishckb(word: "ھەروەھا: good-looking"),
@@ -246,7 +245,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He had an interesting and rather handsome face.""",
                       kurdishText:
-                          """ڕووخسارێکی سەرنجڕاکێشی تا ڕادەیەک قۆزی هەبوو.""",
+                          """ڕووخسارێکی سەرنجڕاکێشی تا ڕادەیەک قۆزی ھەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -308,12 +307,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) ژنێکی جوان، بە تایبەتی کە جەستەی بەهێزی هەیە"""),
+                            """٢. (ھاوەڵناو) ژنێکی جوان، بە تایبەتی کە جەستەی بەھێزی ھەیە"""),
                     SentencesRow(
                       englishText:
                           """The tall, handsome woman caught everyone's attention.""",
                       kurdishText:
-                          """ژنە بەژن‌ڕێکە بەرزەکە سەرنجی هەموانی ڕاکێشا.""",
+                          """ژنە بەژن‌ڕێکە بەرزەکە سەرنجی ھەموانی ڕاکێشا.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -424,19 +423,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/LAOoF2gyQaA?t=';
-const double _startSecondsend = 00000000000000000000000000098;
-const String _videoIdone = 'https://youtu.be/ewLpXw6uN28?t=';
-const double _startSecondsone = 000000000000000000000000000308;
-const String _videoIdtwo = 'https://youtu.be/1aHVa2jT3n4?t=';
-const double _startSecondstwo = 000000000000000000000000000119;
-const String _videoIdthree = 'https://youtu.be/mp_w0xZ9XFg?t=';
-const double _startSecondsthree = 000000000000000000000000000174;
-const String _videoIdfour = 'https://youtu.be/4YKmTA3HV9g?t=';
-const double _startSecondsfour = 000000000000000000000000000110;
-const String _videoIdfive = 'https://youtu.be/OjsQ78t_0_M?t=';
-const double _startSecondsfive = 00000000000000000000000000091;
+const String _videoIdend = 'LAOoF2gyQaA';
+const double _startSecondsend = 98;
+const String _videoIdone = 'ewLpXw6uN28';
+const double _startSecondsone = 308;
+const String _videoIdtwo = '1aHVa2jT3n4';
+const double _startSecondstwo = 119;
+const String _videoIdthree = 'mp_w0xZ9XFg';
+const double _startSecondsthree = 174;
+const String _videoIdfour = '4YKmTA3HV9g';
+const double _startSecondsfour = 110;
+const String _videoIdfive = 'OjsQ78t_0_M';
+const double _startSecondsfive = 91;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

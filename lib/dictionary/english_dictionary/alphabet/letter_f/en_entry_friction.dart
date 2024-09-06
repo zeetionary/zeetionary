@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێک‌خشان، خشان، لێک‌خستن،	کێشە، ململانێ، جیاوازی بیروڕا
 """),
-// With short examples define "friction", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خشانی شتێک بە شتێکی دیکەدا؛ ئەو ھێزەی کە وا دەکات شتێک بخشێت بە ڕووی شتێکی دیکەدا یان بەناو شلە یان گاز تێپەڕێت"""),

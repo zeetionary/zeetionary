@@ -152,7 +152,6 @@ Usage: UK
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "giro", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سیستەمێکی بانکی کە لە ئەورووپا بەکاردێت بۆ گواستنەوەی پارە لە ھەژمارێکەوە بۆ یەکێکی دیکە بە کۆمپیوتەرێکی ناوەندی"""),
@@ -240,7 +239,6 @@ Usage: UK
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'mRc8QgXG-8k';
 const double _startSecondsend = 79;
 const String _videoIdone = '0MlMmxfsfgU';

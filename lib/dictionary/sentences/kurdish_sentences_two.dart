@@ -104,7 +104,7 @@ class _KurdishSentencesScreenState
   }
 
   String normalizeKurdishH(String input) {
-    return input.replaceAll('ه', 'ھ');
+    return input.replaceAll('ھ', 'ھ');
     // return input.replaceAll('\u200c', '');
   }
 

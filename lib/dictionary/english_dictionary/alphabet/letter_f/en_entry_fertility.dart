@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەبڕشتی، بڕشت، بەبەری، بەبەرھەمی، بەپیتی، مایەداری، ئیروو، زۆربڕی، خورتی، زەنوێری، ئادانی،	داھێنەری، داھێنەرێتی، داھێنان،	بەزەوی، زایا
 """),
-// With short examples define "fertility", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تایبەتمەندیی زەوی کە بەرھەم باش تێیدا گەشە بکات"""),

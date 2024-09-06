@@ -152,12 +152,12 @@ ${englishMeaningConst.text}
 // With short examples define "hard currency", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) پارەیەک کە بە ئاسانی دەگۆڕدرێتەوە بە پارەی وڵاتانی دیکە بەهۆی ئەوەی نرخی جێگیرە"""),
+                            """١. (ناو) پارەیەک کە بە ئاسانی دەگۆڕدرێتەوە بە پارەی وڵاتانی دیکە بەھۆی ئەوەی نرخی جێگیرە"""),
                     SentencesRow(
                       englishText:
                           """Trade was halted because of a hard currency shortage on the island.""",
                       kurdishText:
-                          """بازرگانی ڕاگیردرا بەهۆی کەمی دراوی جێگیر لەسەر دوورگەکە.""",
+                          """بازرگانی ڕاگیردرا بەھۆی کەمی دراوی جێگیر لەسەر دوورگەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -228,19 +228,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/0hDuOkY__dk?t=';
-const double _startSecondsend = 000000000000000000000000000246;
-const String _videoIdone = 'https://youtu.be/v9i6xElR9Xo?t=';
-const double _startSecondsone = 0000000000000000000000000001173;
-const String _videoIdtwo = 'https://youtu.be/KUx-qixH96U?t=';
-const double _startSecondstwo = 000000000000000000000000000215;
-const String _videoIdthree = 'https://youtu.be/AwfspVJSVwk?t=';
-const double _startSecondsthree = 0000000000000000000000000001007;
-const String _videoIdfour = 'https://youtu.be/FCwxNt00gV0?t=';
-const double _startSecondsfour = 000000000000000000000000000673;
-const String _videoIdfive = 'https://youtu.be/D3r2xE6Kv88?t=';
-const double _startSecondsfive = 00000000000000000000000000070;
+const String _videoIdend = '0hDuOkY__dk';
+const double _startSecondsend = 246;
+const String _videoIdone = 'v9i6xElR9Xo';
+const double _startSecondsone = 1173;
+const String _videoIdtwo = 'KUx-qixH96U';
+const double _startSecondstwo = 215;
+const String _videoIdthree = 'AwfspVJSVwk';
+const double _startSecondsthree = 1007;
+const String _videoIdfour = 'FCwxNt00gV0';
+const double _startSecondsfour = 673;
+const String _videoIdfive = 'D3r2xE6Kv88';
+const double _startSecondsfive = 70;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

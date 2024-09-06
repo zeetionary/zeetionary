@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grudgingly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە بە نابەدڵییەوە دەکرێت یان دەدرێت"""),
@@ -224,19 +223,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/tg_J3SNoYAc?t=';
-const double _startSecondsend = 000000000000000000000000000574;
-const String _videoIdone = 'https://youtu.be/23dArPpXgCM?t=';
-const double _startSecondsone = 0000000000000000000000000007286;
-const String _videoIdtwo = 'https://youtu.be/ACwutOXamrw?t=';
-const double _startSecondstwo = 000000000000000000000000000327;
-const String _videoIdthree = 'https://youtu.be/8rJw4BgPs4w?t=';
-const double _startSecondsthree = 000000000000000000000000000547;
-const String _videoIdfour = 'https://youtu.be/8h2h3HNTnIc?t=';
-const double _startSecondsfour = 0000000000000000000000000001071;
-const String _videoIdfive = 'https://youtu.be/MmdsU1Vxg5I?t=';
-const double _startSecondsfive = 000000000000000000000000000908;
+const String _videoIdend = 'tg_J3SNoYAc';
+const double _startSecondsend = 574;
+const String _videoIdone = '23dArPpXgCM';
+const double _startSecondsone = 7286;
+const String _videoIdtwo = 'ACwutOXamrw';
+const double _startSecondstwo = 327;
+const String _videoIdthree = '8rJw4BgPs4w';
+const double _startSecondsthree = 547;
+const String _videoIdfour = '8h2h3HNTnIc';
+const double _startSecondsfour = 1071;
+const String _videoIdfive = 'MmdsU1Vxg5I';
+const double _startSecondsfive = 908;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

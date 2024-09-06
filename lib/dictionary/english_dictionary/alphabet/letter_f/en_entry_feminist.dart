@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "feminist", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە باوەڕی بەوە ھەیە کە ژنان دەبێت ھەمان ھەل و مافی پیاوانیان ھەبێت"""),

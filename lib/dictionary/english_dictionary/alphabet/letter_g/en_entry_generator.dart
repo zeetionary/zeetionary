@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەرھەم‌ھێنە، پێکھێنەر، کۆمپانی دەزگای بەرھەم‌ھێنانی وزەی ئێلیکتریسیتە، داینەمۆ
 """),
-// With short examples define "generator", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئامێرێک کە کارەبا بەرھەم دەھێنێت"""),
                     SentencesRow(

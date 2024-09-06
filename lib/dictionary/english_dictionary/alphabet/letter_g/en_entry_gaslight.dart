@@ -155,7 +155,6 @@ Usage: informal
                     const KurdishVocabulary(text: """
 کوردی: شەوق یان ڕۆشنایی گاز،	چرا یان گڵۆپی گازی، چراگاز
 """),
-// With short examples define "gaslight", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕووناکی درووست بوو لە ئەنجامی سووتانی گاز؛ گڵۆپێک کە بەم شێوەیە کار دەکات"""),

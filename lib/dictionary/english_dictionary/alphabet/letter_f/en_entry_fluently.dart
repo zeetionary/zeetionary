@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fluently", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) ئەوەی بە ئاسانی و باش بتوانیت قسەکردن، خوێندنەوە، و نووسینت ئەنجام بدەیت بە زمانێک، بە تایبەتی زمانی بیانی """),

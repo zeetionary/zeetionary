@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flounder", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) تەقەڵادانی ئەوەی چی بڵێیت یان بکەیت، یان چۆن بەردەوام بیت لەگەڵ شتێک"""),

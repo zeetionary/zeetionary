@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (کێشراو) بەدەست، دەستی، بێ‌شت، بێ‌کەرەسە، بێ‌ئامێر
 """),
-// With short examples define "freehand", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە دەکێشرێت بەبێ ڕاستە یان ئامێری دیکە"""),

@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەڕوو، تەم، کارگ، کوارگ، قارچک
 """),
-// With short examples define "fungus", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زیندەوەرێک کە وەک ڕووەکی بێ گەڵا، گوڵ، یان ڕەنگی سەوزییە، و زۆرجار لەسەر ڕووەک و مادەی شیبووەوە گەشە دەکات"""),

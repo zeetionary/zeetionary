@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پیس، چڵکن، چەپەڵ، دژوێن، گواوی،	ناشیرین، ناحەز، ھەرزانە،	یەکجار، لەڕادەبەدەر
 """),
-// With short examples define "filthy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) زۆر پیس و ناشرین"""),
                     SentencesRow(

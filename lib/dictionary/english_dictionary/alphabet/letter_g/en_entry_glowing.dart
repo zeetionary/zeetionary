@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: سوورەوەبوو، داگیرساو، برووسکەدار، درەوشاوە، بریقەدار، بەتین‌وگوڕ، ورووژێنەر، بەتاو، بەخرۆش، بەتین
 // """),
-// With short examples define "glowing", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە پەسن و ستایش دەدات"""),
                     SentencesRow(
@@ -239,7 +238,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'GcdB5bFwio4';
 const double _startSecondsend = 157;
 const String _videoIdone = 'CXvG2CBJ3SE';

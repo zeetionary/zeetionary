@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناجێگیر، ناسەقامگیر، زووزووگۆڕاو، نابەردەوام، تاوتاو، بگۆڕ،	ڕاڕا، وازی‌وازی، حول‌حولی
 """),
-// With short examples define "fickle", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە زوو و لەناکاو دەگۆڕێت"""),
                     SentencesRow(

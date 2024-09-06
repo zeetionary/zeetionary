@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەدزی‌یەوە، لەبنەوە، پەنامەکی، بەنھێنی، نھێنی‌یانە، نەتەنی، شاراوە،	جێی‌گومان، گوماناوی، جێگای شک
 """),
-// With short examples define "furtive", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ڕەفتارکردن بە شێوەیەک کە دەتەوێت شتێک بە نھێنی بھێڵیتەوە و ماتەوێت ببیندرێیت"""),

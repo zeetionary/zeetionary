@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زێڕکەش، زێڕکفت، زێڕپۆش،	ئاوی زێڕ، زێڕاو، ڕووکێشی زێڕین
 """),
-// With short examples define "gilt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) چینێکی تەنک لە ئاڵتوون یان شتێکی وەک ئاڵتوون کە بۆ ڕازاندنەوە بەکاردێت لەسەر ڕوویەک"""),
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'F7AL8LR9BxY';
 const double _startSecondsend = 823;
 const String _videoIdone = '0RA_B5p2JYg';

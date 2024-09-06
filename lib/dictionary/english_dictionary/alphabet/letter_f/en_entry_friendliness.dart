@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خۆشەویستی، دۆستایەتی، ھەڤاڵەتی، برایەتی، دڵسۆزی
 """),
-// With short examples define "friendliness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕەفتاری دۆستانە لەگەڵ کەسێک کە حەزت پێیەتی یان دەتەوێت یارمەتی بدەیت"""),

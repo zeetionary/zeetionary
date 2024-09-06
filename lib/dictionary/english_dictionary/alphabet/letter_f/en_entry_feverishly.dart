@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئارام‌لێھەڵگیراوانە، بە تاو، حەجمین‌لێ‌بڕاوانە
 """),
-// With short examples define "feverishly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە ھەستی جۆش‌وخرۆشی و نیگەرانی بەھێز پیشان دەدات"""),

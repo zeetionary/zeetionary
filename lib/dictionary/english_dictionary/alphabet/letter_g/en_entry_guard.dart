@@ -297,10 +297,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نۆبەداری، کێشک، پاس، ئاگاداری، ئاگالێ‌بوون، پاراستن، چاودێری، زێرەڤانی، نۆبەدار، پاسەوان، کێشک‌چی، کێشک‌گر، ئاگاوان، پارێزەر،	زیندانەوان، نۆبەداری زیندان،	بەرپرسی شەمەندەفەر،	قەڵغان، مەتاڵ، پارێزە، پارێزەر، ئامێر یان وەسیلەی پاراستن
 """),
-// With short examples define "guard", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) پاسەوانێک کە ئاگای لە شوێنێک دەبێت یان ڕێگری لە هەڵهاتنی زیندانی دەکات"""),
+                            """١. (ناو) پاسەوانێک کە ئاگای لە شوێنێک دەبێت یان ڕێگری لە ھەڵھاتنی زیندانی دەکات"""),
                     SentencesRow(
                       englishText:
                           """The building is protected by armed guards.""",
@@ -323,7 +322,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Guards had been posted all around the TV studio.""",
                       kurdishText:
-                          """پاسەوان لە دەوری هەموو ستودیۆی تەلەفیزیۆنەکە دانرا بوون.""",
+                          """پاسەوان لە دەوری ھەموو ستودیۆی تەلەفیزیۆنەکە دانرا بوون.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -335,7 +334,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The escaped prisoner was brought back under armed guard.""",
                       kurdishText:
-                          """زیندانییە هەڵهاتووەکە بە چاودێری پاسەوانی چەکدار هێندرایەوە.""",
+                          """زیندانییە ھەڵھاتووەکە بە چاودێری پاسەوانی چەکدار ھێندرایەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -347,7 +346,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """The terrorist was kept under police guard.""",
                               kurdishText:
-                                  """تیرۆریستەکە لە ژێر چاودێری پۆلیس هێڵدرایەوە.""",
+                                  """تیرۆریستەکە لە ژێر چاودێری پۆلیس ھێڵدرایەوە.""",
                               onPressedBritish: () => speaksentence5("en-GB"),
                               onPressedAmerican: () => speaksentence5("en-US"),
                             ),
@@ -373,7 +372,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """The suspects were kept under police guard.""",
                               kurdishText:
-                                  """گومان لێکراوەکان لەژێر چاودێری پۆلیس هێڵدرانەوە.""",
+                                  """گومان لێکراوەکان لەژێر چاودێری پۆلیس ھێڵدرانەوە.""",
                               onPressedBritish: () => speaksentence8("en-GB"),
                               onPressedAmerican: () => speaksentence8("en-US"),
                             ),
@@ -389,7 +388,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The president always travels with an armed guard.""",
                       kurdishText:
-                          """سەرۆک هەمیشە لەگەڵ پاسەوانی چەکدار گەشت دەکات.""",
+                          """سەرۆک ھەمیشە لەگەڵ پاسەوانی چەکدار گەشت دەکات.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -401,7 +400,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """All players wear helmets and face guards.""",
                       kurdishText:
-                          """هەموو یاریزانەکان کڵاو لەسەر دەکەن و قەڵغانی ڕووخسار دەبەستن.""",
+                          """ھەموو یاریزانەکان کڵاو لەسەر دەکەن و قەڵغانی ڕووخسار دەبەستن.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -536,19 +535,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/NZ74oFctP_g?t=';
-const double _startSecondsend = 000000000000000000000000000127;
-const String _videoIdone = 'https://youtu.be/55XJ1ObZKaM?t=';
-const double _startSecondsone = 000000000000000000000000000431;
-const String _videoIdtwo = 'https://youtu.be/ewLpXw6uN28?t=';
-const double _startSecondstwo = 0000000000000000000000000001445;
-const String _videoIdthree = 'https://youtu.be/2TUGZ1VQDss?t=';
-const double _startSecondsthree = 000000000000000000000000000384;
-const String _videoIdfour = 'https://youtu.be/XiL74IuPv00?t=';
-const double _startSecondsfour = 000000000000000000000000000129;
-const String _videoIdfive = 'https://youtu.be/uSW5zEWY15c?t=';
-const double _startSecondsfive = 00000000000000000000000000042;
+const String _videoIdend = 'NZ74oFctP_g';
+const double _startSecondsend = 127;
+const String _videoIdone = '55XJ1ObZKaM';
+const double _startSecondsone = 431;
+const String _videoIdtwo = 'ewLpXw6uN28';
+const double _startSecondstwo = 1445;
+const String _videoIdthree = '2TUGZ1VQDss';
+const double _startSecondsthree = 384;
+const String _videoIdfour = 'XiL74IuPv00';
+const double _startSecondsfour = 129;
+const String _videoIdfive = 'uSW5zEWY15c';
+const double _startSecondsfive = 42;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

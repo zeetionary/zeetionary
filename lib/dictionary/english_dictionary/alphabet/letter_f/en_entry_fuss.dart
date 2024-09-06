@@ -212,7 +212,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زەنازەنا، دەنگ‌وھەرا، جەنجاڵی، ھەڵا، گوڕەوبڕە، تەقەوڕەقە، گوڕەونەڕە، نەڕەنەڕ، بگرەوبەردە، چەقەوھەرا، گوڕەوبڕە، سڕمەسڕم، قاوقیژە، شلوقایی، ورووژاوی، ئاڵۆزایی، نگەرانی، دڵەڕاوکێ،	ناڕەزایەتی
 """),
-// With short examples define "fuss", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جۆش‌وخرۆشی، چالاکی، یان نیگەرانی بێ‌ھۆکار"""),

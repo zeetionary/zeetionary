@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لەقلۆقی، درێژ و کز، حووج
 """),
-// With short examples define "gangling", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) درێژ و باریک، و ئەوەی کە بە ئاسایی ناچێت بە ڕێگادا"""),

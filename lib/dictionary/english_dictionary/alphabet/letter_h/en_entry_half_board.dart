@@ -149,12 +149,12 @@ Usage: Brit, Cdn (US: modified American plan)
 // With short examples define "half board", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) جۆرێک مانەوە لە هوتێل کە نانی بەیانی و ئێوارەی لەگەڵە"""),
+                            """١. (ناو) جۆرێک مانەوە لە ھوتێل کە نانی بەیانی و ئێوارەی لەگەڵە"""),
                     SentencesRow(
                       englishText:
                           """Expect to pay about £350 for a week's half board in a three-star hotel.""",
                       kurdishText:
-                          """پێشبینی ئەوە بکە کە ٣٥٠ پاوەند بدەیت بۆ مانەوە بە خواردنەوە لە هوتێلێکی سێ ئەستێرە.""",
+                          """پێشبینی ئەوە بکە کە ٣٥٠ پاوەند بدەیت بۆ مانەوە بە خواردنەوە لە ھوتێلێکی سێ ئەستێرە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -225,19 +225,18 @@ Usage: Brit, Cdn (US: modified American plan)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/tDEh-x0uilY?t=';
-const double _startSecondsend = 000000000000000000000000000492;
-const String _videoIdone = 'https://youtu.be/EqzE3QOJwBw?t=';
-const double _startSecondsone = 0000000000000000000000000001075;
-const String _videoIdtwo = 'https://youtu.be/yX3-ZqmK-dI?t=';
-const double _startSecondstwo = 000000000000000000000000000467;
-const String _videoIdthree = 'https://youtu.be/PkuB3uY-Z7Q?t=';
-const double _startSecondsthree = 000000000000000000000000000109;
-const String _videoIdfour = 'https://youtu.be/CXKoCMVqM9s?t=';
-const double _startSecondsfour = 0000000000000000000000000001613;
-const String _videoIdfive = 'https://youtu.be/QHY5lQNYA6k?t=';
-const double _startSecondsfive = 000000000000000000000000000309;
+const String _videoIdend = 'tDEh-x0uilY';
+const double _startSecondsend = 492;
+const String _videoIdone = 'EqzE3QOJwBw';
+const double _startSecondsone = 1075;
+const String _videoIdtwo = 'yX3-ZqmK-dI';
+const double _startSecondstwo = 467;
+const String _videoIdthree = 'PkuB3uY-Z7Q';
+const double _startSecondsthree = 109;
+const String _videoIdfour = 'CXKoCMVqM9s';
+const double _startSecondsfour = 1613;
+const String _videoIdfive = 'QHY5lQNYA6k';
+const double _startSecondsfive = 309;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

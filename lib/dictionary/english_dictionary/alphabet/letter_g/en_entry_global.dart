@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جیھانی، گەلەمپەری، گشتی، ھەمەلایەنە، گشت‌گرەوە،	خڕ، خرۆک، گۆئاسا، خڕۆکەئاسا
 """),
-// With short examples define "global", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە ھەموو جیھان دەگرێتەوە یان کاریگەری دەبێت لێی"""),
@@ -319,7 +318,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'F5pgG1M_h_U';
 const double _startSecondsend = 70;
 const String _videoIdone = '-cPdImejxEQ';

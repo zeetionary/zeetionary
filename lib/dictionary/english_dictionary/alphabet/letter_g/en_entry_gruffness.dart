@@ -147,12 +147,11 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گڕی، گیراوی، نووساوی،	قسەتڕنی، قسەڕەقی
 """),
-// With short examples define "gruffness", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) زمان‌ڕەقی یان دەنگ گڕی"""),
                     SentencesRow(
                       englishText: """He has a reputation for gruffness.""",
-                      kurdishText: """ناوبانگی هەیە بۆ زمان‌زبری.""",
+                      kurdishText: """ناوبانگی ھەیە بۆ زمان‌زبری.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -223,19 +222,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/mMbWyaCpF9g?t=';
-const double _startSecondsend = 000000000000000000000000000340;
-const String _videoIdone = 'https://youtu.be/8V1ulNRFz04';
+const String _videoIdend = 'mMbWyaCpF9g';
+const double _startSecondsend = 340;
+const String _videoIdone = '8V1ulNRFz04';
 const double _startSecondsone = 0;
-const String _videoIdtwo = 'https://youtu.be/i8dRp2oQL8U?t=';
-const double _startSecondstwo = 000000000000000000000000000709;
-const String _videoIdthree = 'https://youtu.be/ab7qyYYyMAQ?t=';
-const double _startSecondsthree = 000000000000000000000000000174;
-const String _videoIdfour = 'https://youtu.be/vWhlV3llt3c?t=';
-const double _startSecondsfour = 0000000000000000000000000001354;
-const String _videoIdfive = 'https://youtu.be/EAIlvGKZOhA?t=';
-const double _startSecondsfive = 0000000000000000000000000002180;
+const String _videoIdtwo = 'i8dRp2oQL8U';
+const double _startSecondstwo = 709;
+const String _videoIdthree = 'ab7qyYYyMAQ';
+const double _startSecondsthree = 174;
+const String _videoIdfour = 'vWhlV3llt3c';
+const double _startSecondsfour = 1354;
+const String _videoIdfive = 'EAIlvGKZOhA';
+const double _startSecondsfive = 2180;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

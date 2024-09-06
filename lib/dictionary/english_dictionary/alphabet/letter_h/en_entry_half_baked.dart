@@ -156,7 +156,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The government has come up with a half-baked scheme for training teachers on the job.""",
                       kurdishText:
-                          """حکومەت پلانێکی نیوەچڵی داناوە بۆ ڕاهێانی مامۆستایان لەسەر کار.""",
+                          """حکومەت پلانێکی نیوەچڵی داناوە بۆ ڕاھێانی مامۆستایان لەسەر کار.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -227,19 +227,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/lex6USTugUU?t=';
-const double _startSecondsend = 00000000000000000000000000012;
-const String _videoIdone = 'https://youtu.be/rRTp8yOxTg4?t=';
-const double _startSecondsone = 000000000000000000000000000943;
-const String _videoIdtwo = 'https://youtu.be/FyMWRcVTGAI?t=';
-const double _startSecondstwo = 00000000000000000000000000051;
-const String _videoIdthree = 'https://youtu.be/CjiKlLE3NuI?t=';
-const double _startSecondsthree = 000000000000000000000000000439;
-const String _videoIdfour = 'https://youtu.be/VV83UpkOyR8?t=';
-const double _startSecondsfour = 000000000000000000000000000376;
-const String _videoIdfive = 'https://youtu.be/tPeOW3nLEws?t=';
-const double _startSecondsfive = 000000000000000000000000000827;
+const String _videoIdend = 'lex6USTugUU';
+const double _startSecondsend = 12;
+const String _videoIdone = 'rRTp8yOxTg4';
+const double _startSecondsone = 943;
+const String _videoIdtwo = 'FyMWRcVTGAI';
+const double _startSecondstwo = 51;
+const String _videoIdthree = 'CjiKlLE3NuI';
+const double _startSecondsthree = 439;
+const String _videoIdfour = 'VV83UpkOyR8';
+const double _startSecondsfour = 376;
+const String _videoIdfive = 'tPeOW3nLEws';
+const double _startSecondsfive = 827;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

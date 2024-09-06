@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "filings", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) وردەی کانزا یان مادە کە لە شتێکئ گەورەتر کراوەتەوە بە بڕبەند یان بە لووسکردن/زبرکردن"""),

@@ -157,20 +157,19 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "hangover", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) سەرێشە و هەستی ناخۆش کە دەتبێت ڕۆژێک دوای خواردنەوەی زۆر"""),
+                            """١. (ناو) سەرێشە و ھەستی ناخۆش کە دەتبێت ڕۆژێک دوای خواردنەوەی زۆر"""),
                     SentencesRow(
                       englishText: """She woke up with a terrible hangover.""",
-                      kurdishText: """لە خەو هەستا بە سەرێشەیەکی زۆرەوە.""",
+                      kurdishText: """لە خەو ھەستا بە سەرێشەیەکی زۆرەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) هەستێک، نەریتێک، بیرۆکەیەک، هتد کە لە ڕابردووەوە ماوەتەوە و چی دیکە گونجاو یان کرداری نییە"""),
+                            """٢. (ناو) ھەستێک، نەریتێک، بیرۆکەیەک، ھتد کە لە ڕابردووەوە ماوەتەوە و چی دیکە گونجاو یان کرداری نییە"""),
                     SentencesRow(
                       englishText:
                           """The present political system is a hangover from the colonial era.""",
@@ -246,19 +245,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/qWAagS_MANg?t=';
-const double _startSecondsend = 00000000000000000000000000075;
-const String _videoIdone = 'https://youtu.be/_iz5_DuY_II?t=';
-const double _startSecondsone = 00000000000000000000000000081;
-const String _videoIdtwo = 'https://youtu.be/3cxHwQl9pNM?t=';
-const double _startSecondstwo = 00000000000000000000000000037;
-const String _videoIdthree = 'https://youtu.be/hllf45NK-KA?t=';
-const double _startSecondsthree = 000000000000000000000000000813;
-const String _videoIdfour = 'https://youtu.be/2EVFYstVuVk?t=';
-const double _startSecondsfour = 00000000000000000000000000078;
-const String _videoIdfive = 'https://youtu.be/73iY6R_3nts?t=';
-const double _startSecondsfive = 00000000000000000000000000048;
+const String _videoIdend = 'qWAagS_MANg';
+const double _startSecondsend = 75;
+const String _videoIdone = '_iz5_DuY_II';
+const double _startSecondsone = 81;
+const String _videoIdtwo = '3cxHwQl9pNM';
+const double _startSecondstwo = 37;
+const String _videoIdthree = 'hllf45NK-KA';
+const double _startSecondsthree = 813;
+const String _videoIdfour = '2EVFYstVuVk';
+const double _startSecondsfour = 78;
+const String _videoIdfive = '73iY6R_3nts';
+const double _startSecondsfive = 48;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

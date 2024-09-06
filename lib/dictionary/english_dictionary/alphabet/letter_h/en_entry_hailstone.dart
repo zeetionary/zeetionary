@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "hailstone", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تۆپەڵێکی بچووک لە بەفر کە وەک باران دەبارێت"""),
@@ -224,19 +223,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/tQmFVcD-Mbo?t=';
-const double _startSecondsend = 000000000000000000000000000847;
-const String _videoIdone = 'https://youtu.be/zv5UvtkZi10?t=';
-const double _startSecondsone = 000000000000000000000000000220;
-const String _videoIdtwo = 'https://youtu.be/Oca-qcU5zoQ';
+const String _videoIdend = 'tQmFVcD-Mbo';
+const double _startSecondsend = 847;
+const String _videoIdone = 'zv5UvtkZi10';
+const double _startSecondsone = 220;
+const String _videoIdtwo = 'Oca-qcU5zoQ';
 const double _startSecondstwo = 0;
-const String _videoIdthree = 'https://youtu.be/bw7uZVIqV9U?t=';
-const double _startSecondsthree = 000000000000000000000000000332;
-const String _videoIdfour = 'https://youtu.be/x8ZKo66JFek?t=';
-const double _startSecondsfour = 000000000000000000000000000100;
-const String _videoIdfive = 'https://youtu.be/CqnCxxtS2II?t=';
-const double _startSecondsfive = 00000000000000000000000000014;
+const String _videoIdthree = 'bw7uZVIqV9U';
+const double _startSecondsthree = 332;
+const String _videoIdfour = 'x8ZKo66JFek';
+const double _startSecondsfour = 100;
+const String _videoIdfive = 'CqnCxxtS2II';
+const double _startSecondsfive = 14;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

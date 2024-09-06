@@ -106,7 +106,7 @@ class EnglishEntryconvulsion extends StatelessWidget {
                               text:
                                   "١. (ناو) لەرزینی لەناکاوی جەستە کە کۆنترۆڵ ناکرێت"),
                           AlsoEnglishckblink(
-                            textBeforeLink: "هەروەها: ",
+                            textBeforeLink: "ھەروەھا: ",
                             linkText: "fit",
                             textAfterLink: ".",
                             onTap: () {

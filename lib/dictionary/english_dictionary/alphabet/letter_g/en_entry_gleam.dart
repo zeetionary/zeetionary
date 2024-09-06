@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زەردە، شەوقی کەم، ڕۆشنایی کز، کزەڕووناکی، تروسکە، بروسکە، ئارنگ، زریوە، بریقە، دروەشانەوە، ورشە، زرتە، گەشانەوە، بریقانەوە، بریسکانەوە،	تروسکە، چەخماخە
 """),
-// With short examples define "gleam", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) درەوشانەوە بە ڕووناکییەکی کزی ڕوون"""),
@@ -367,7 +366,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '5zvnFM2BXqY';
 const double _startSecondsend = 391;
 const String _videoIdone = 'kawym8ZwhwA';

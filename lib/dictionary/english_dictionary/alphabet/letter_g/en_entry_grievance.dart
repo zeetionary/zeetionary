@@ -165,7 +165,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سکاڵا، گازندە، گلەیی، ناڵە، دەردی دڵ، شکات،	ناڕەزایی
 """),
-// With short examples define "grievance", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێک کە پێتوایە نادادپەروەرانەیە و دژی دەوەستیت"""),
@@ -262,7 +261,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'pLwHTqU2r_Y';
 const double _startSecondsend = 47;
 const String _videoIdone = 'tZktTdGHaJY';

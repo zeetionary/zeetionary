@@ -177,16 +177,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەبەتە، سەوەتە، قرتاڵە، زەمبیل، زەنبیل،	سەبەتە یان قرتاڵەی جلی چڵکن
 """),
-// With short examples define "hamper", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕێگرتن لە کەسێک لەوەی بە ئاسانی شتێک بکات یان بەدەستی بهێنێت"""),
+                            """١. (ناو) ڕێگرتن لە کەسێک لەوەی بە ئاسانی شتێک بکات یان بەدەستی بھێنێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: hinder"),
                     SentencesRow(
                       englishText:
                           """High winds hampered the rescue attempt.""",
                       kurdishText:
-                          """بای بەهێز ئەرقەلەی بۆ هەوڵی ڕزگارکردنەکە درووستکرد.""",
+                          """بای بەھێز ئەرقەلەی بۆ ھەوڵی ڕزگارکردنەکە درووستکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -204,19 +203,19 @@ ${englishMeaningConst.text}
                       englishText:
                           """Our efforts were severely hampered by a lack of money.""",
                       kurdishText:
-                          """هەوڵەکانمان تەواو ئاستەنگیان تێکەوت بەهۆی کەمی پارەوە.""",
+                          """ھەوڵەکانمان تەواو ئاستەنگیان تێکەوت بەھۆی کەمی پارەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) سەبەتەیەکی گەورە کە سەری هەیە، بە تایبەتی کە خواردنی تێدەکەیت"""),
+                            """٢. (ناو) سەبەتەیەکی گەورە کە سەری ھەیە، بە تایبەتی کە خواردنی تێدەکەیت"""),
                     SentencesRow(
                       englishText:
                           """The lucky winner will receive a hamper crammed full of local produce.""",
                       kurdishText:
-                          """براوە بەبەختەکە سەبەتەیەک پڕ لە بەرهەمی خۆماڵی وەردەگرێت.""",
+                          """براوە بەبەختەکە سەبەتەیەک پڕ لە بەرھەمی خۆماڵی وەردەگرێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -287,19 +286,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/QJtsA46evT8';
+const String _videoIdend = 'QJtsA46evT8';
 const double _startSecondsend = 0;
-const String _videoIdone = 'https://youtu.be/uCM0Tvp6Dko?t=';
-const double _startSecondsone = 0000000000000000000000000006;
-const String _videoIdtwo = 'https://youtu.be/LQ8JOsc3-wU?t=';
-const double _startSecondstwo = 000000000000000000000000000220;
-const String _videoIdthree = 'https://youtu.be/72m0cK423-Q?t=';
-const double _startSecondsthree = 000000000000000000000000000773;
-const String _videoIdfour = 'https://youtu.be/3BQerHn0yy4?t=';
-const double _startSecondsfour = 000000000000000000000000000215;
-const String _videoIdfive = 'https://youtu.be/K0OtGIPRcAs?t=';
-const double _startSecondsfive = 0000000000000000000000000001588;
+const String _videoIdone = 'uCM0Tvp6Dko';
+const double _startSecondsone = 6;
+const String _videoIdtwo = 'LQ8JOsc3-wU';
+const double _startSecondstwo = 220;
+const String _videoIdthree = '72m0cK423-Q';
+const double _startSecondsthree = 773;
+const String _videoIdfour = '3BQerHn0yy4';
+const double _startSecondsfour = 215;
+const String _videoIdfive = 'K0OtGIPRcAs';
+const double _startSecondsfive = 1588;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

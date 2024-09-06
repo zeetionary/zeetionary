@@ -220,7 +220,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: برین، داماڵکان، ڕووشان،	لەوەڕین
 """),
-// With short examples define "graze", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) کە ئاژەڵ سەوزەگیای ناو کێڵگە و دەشت‌ودەر دەخوات"""),
@@ -378,7 +377,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hS2emKDlGmE';
 const double _startSecondsend = 1294;
 const String _videoIdone = 'K4jIAdAUjHc';

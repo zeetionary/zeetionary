@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قورسایی، قورسی، گرانی،	ڕاکێشان، کێشی زەوی،	ڕادە یان پلەی کێشان،	مەندی، قورسی، سەنگینی،	گرنگی،	سەختی، بەڕشت‌بوون
 """),
-// With short examples define "gravity", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھێزی کێشکردنی زەوی، یان ئەو ھێزەی لە بۆشایی ئاسماندا شتەکان ڕادەکێشێت"""),
@@ -317,7 +316,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tMKXbLBgkEc';
 const double _startSecondsend = 41;
 const String _videoIdone = 'g-7ZWPCWv0U';

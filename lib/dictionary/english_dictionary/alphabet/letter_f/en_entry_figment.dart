@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خەیاڵ، ئەندێشە، خۆف، گومان
 """),
-// With short examples define "figment", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێک کە کەسێک خەیاڵی کردووە و لە ڕاستیدا بوونی نییە"""),

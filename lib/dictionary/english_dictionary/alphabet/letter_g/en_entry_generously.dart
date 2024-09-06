@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زۆر، گەلێ،	دڵاوایانە، بەخشندانە، بەرچاوتێرانە، دەس‌کراوانە
 """),
-// With short examples define "generously", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە ئەوە پیشان دەدات کە کەسێک ئامادەی بەخشینە"""),
@@ -255,7 +254,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'D_Y18GEjfNY';
 const double _startSecondsend = 291;
 const String _videoIdone = 'ndqjxhi7uZs';

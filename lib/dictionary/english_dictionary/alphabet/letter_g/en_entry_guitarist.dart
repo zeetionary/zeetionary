@@ -144,7 +144,7 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کەسێک کە گیتار دەژەنێت"""),
                     SentencesRow(
                       englishText:
                           """The guitarist strummed a beautiful melody.""",
@@ -219,19 +219,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/93A1ryc-WW0?t=';
-const double _startSecondsend = 000000000000000000000000000509;
-const String _videoIdone = 'https://youtu.be/-yE8SYzZ6Eo?t=';
-const double _startSecondsone = 000000000000000000000000000263;
-const String _videoIdtwo = 'https://youtu.be/hSNWkRw53Jo?t=';
-const double _startSecondstwo = 0000000000000000000000000009937;
-const String _videoIdthree = 'https://youtu.be/2pCRplUQVMI?t=';
-const double _startSecondsthree = 000000000000000000000000000388;
-const String _videoIdfour = 'https://youtu.be/UEmSjDuTxyc?t=';
-const double _startSecondsfour = 00000000000000000000000000019;
-const String _videoIdfive = 'https://youtu.be/cGyj9M05LxA?t=';
-const double _startSecondsfive = 000000000000000000000000000580;
+const String _videoIdend = '93A1ryc-WW0';
+const double _startSecondsend = 509;
+const String _videoIdone = '-yE8SYzZ6Eo';
+const double _startSecondsone = 263;
+const String _videoIdtwo = 'hSNWkRw53Jo';
+const double _startSecondstwo = 9937;
+const String _videoIdthree = '2pCRplUQVMI';
+const double _startSecondsthree = 388;
+const String _videoIdfour = 'UEmSjDuTxyc';
+const double _startSecondsfour = 19;
+const String _videoIdfive = 'cGyj9M05LxA';
+const double _startSecondsfive = 580;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

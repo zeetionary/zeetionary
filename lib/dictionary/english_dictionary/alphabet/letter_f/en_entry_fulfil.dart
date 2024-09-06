@@ -222,7 +222,6 @@ Usage: Brit, Cdn (US: fulfill)
                     const KurdishVocabulary(text: """
 کوردی: بەجێھێنان، کامڵ کردن، پڕ کردن، تەواو کردن
 """),
-// With short examples define "fulfil", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) بەدەستھێنانی ئەوەی کە دەتویست"""),
                     SentencesRow(

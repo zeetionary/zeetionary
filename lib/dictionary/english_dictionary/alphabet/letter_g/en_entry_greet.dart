@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "greet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) گوتنی سڵاو بە کەسێک یان ئەوەی خێراتنی بکەیت"""),
@@ -313,7 +312,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tXjHb5QmDV0';
 const double _startSecondsend = 1061;
 const String _videoIdone = 'fxVMqaViVaA';

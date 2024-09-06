@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بریقەدارانە، بە شێوەیەکی بریقەدار، بە ئاڵاوواڵاوە
 """),
-// With short examples define "flamboyantly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە جیاواز و بەجۆشھێنەرە و سەرنج ڕادەکێشێت"""),

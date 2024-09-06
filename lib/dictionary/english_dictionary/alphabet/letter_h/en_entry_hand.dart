@@ -423,15 +423,14 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: دەست، دەس،	پانایی دەست، لەپ یان بەری دەس،	(سەعات و هتد) میل، دەسک،	یارمەتی، کۆمەک،	کرێکار، کارکەر،	ئەندامی دەستەی کارکەرانی کەشتی، مەلەوان،	شارەزایی، مامۆستایی، وەستایی،	بەشداری، دەس‌تیابوون، دەس‌تێوەردان، خۆتێکەڵ‌کردن،	خەت، دەس‌نووس، دەس‌وخەت،	(بەتایبەت ژن‌ومێردایەتی) بەڵێنی، بڕیار، گفت، پەیمان،	دەسەڵات، کۆنتڕۆڵ، دەس‌ڕۆیشتوویی، هێز،	سەرچاوە، چاڤکانی، ژێدەر،	یەکەی پێوان، بەرامبەر بە ٤ ئینچ (١٦/١٠ سانتی‌میتر)،	لا، دەست، ئالی،	چەپڵە، دەس‌بەیەکادان،	(پەڕێن) دەست، یاریزان، کایەچی،	(دەس)لێکدانەوە، تەوقە،	چەپڵە
+کوردی: دەست، دەس،	پانایی دەست، لەپ یان بەری دەس،	(سەعات و ھتد) میل، دەسک،	یارمەتی، کۆمەک،	کرێکار، کارکەر،	ئەندامی دەستەی کارکەرانی کەشتی، مەلەوان،	شارەزایی، مامۆستایی، وەستایی،	بەشداری، دەس‌تیابوون، دەس‌تێوەردان، خۆتێکەڵ‌کردن،	خەت، دەس‌نووس، دەس‌وخەت،	(بەتایبەت ژن‌ومێردایەتی) بەڵێنی، بڕیار، گفت، پەیمان،	دەسەڵات، کۆنتڕۆڵ، دەس‌ڕۆیشتوویی، ھێز،	سەرچاوە، چاڤکانی، ژێدەر،	یەکەی پێوان، بەرامبەر بە ٤ ئینچ (١٦/١٠ سانتی‌میتر)،	لا، دەست، ئالی،	چەپڵە، دەس‌بەیەکادان،	(پەڕێن) دەست، یاریزان، کایەچی،	(دەس)لێکدانەوە، تەوقە،	چەپڵە
 """),
-// With short examples define "hand", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) دەست"""),
                     SentencesRow(
                       englishText:
                           """Keep both hands on the steering wheel at all times.""",
                       kurdishText:
-                          """هەردەم هەردوو دەستت لەسەر سووکانەکە بهێڵەوە.""",
+                          """ھەردەم ھەردوو دەستت لەسەر سووکانەکە بھێڵەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -529,7 +528,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText:
                                   """He killed the snake with his bare hands (= using only his hands).""",
-                              kurdishText: """مارەکەی کوشت تەنها بە دەستی.""",
+                              kurdishText: """مارەکەی کوشت تەنھا بە دەستی.""",
                               onPressedBritish: () => speaksentence12("en-GB"),
                               onPressedAmerican: () => speaksentence12("en-US"),
                             ),
@@ -538,7 +537,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Beth grasped the rope with both hands.""",
                               kurdishText:
-                                  """بێس بە هەردوو دەستی حەبلەکەی توند گرتبوو.""",
+                                  """بێس بە ھەردوو دەستی حەبلەکەی توند گرتبوو.""",
                               onPressedBritish: () => speaksentence13("en-GB"),
                               onPressedAmerican: () => speaksentence13("en-US"),
                             ),
@@ -576,12 +575,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) بەکارهێنانی دەست یان ژمارەی ئەو دەستانەی کە باسکراوە"""),
+                            """٢. (ناو) بەکارھێنانی دەست یان ژمارەی ئەو دەستانەی کە باسکراوە"""),
                     SentencesRow(
                       englishText:
                           """The one-handed catch was a testament to the player's skill.""",
                       kurdishText:
-                          """گرتنە یەک دەستییەکە شاهیدی بوو بۆ شارەزایی یاریزانەکە.""",
+                          """گرتنە یەک دەستییەکە شاھیدی بوو بۆ شارەزایی یاریزانەکە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -601,7 +600,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The neighbours are always willing to lend a hand.""",
                       kurdishText:
-                          """دراوسێیەکان هەمیشە ئامادەن یارمەتی پێشکەش بکەن.""",
+                          """دراوسێیەکان ھەمیشە ئامادەن یارمەتی پێشکەش بکەن.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -631,7 +630,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """This appointment was an attempt to strengthen her hand in policy discussions.""",
                       kurdishText:
-                          """ئەم دیاریکردنە هەوڵێک بوو بۆ بەهێزکردنی ڕۆڵی لە گەنگەشەی سیاسەتەکاندا.""",
+                          """ئەم دیاریکردنە ھەوڵێک بوو بۆ بەھێزکردنی ڕۆڵی لە گەنگەشەی سیاسەتەکاندا.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -671,7 +670,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """All hands on deck!""",
                       kurdishText:
-                          """هەموو دەریاوانەکان بۆ سەر ڕووی کەشتییەکە.""",
+                          """ھەموو دەریاوانەکان بۆ سەر ڕووی کەشتییەکە.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
@@ -799,19 +798,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/2GsK5feFt1U?t=';
-const double _startSecondsend = 000000000000000000000000000185;
-const String _videoIdone = 'https://youtu.be/xkYved-ucGg?t=';
-const double _startSecondsone = 0000000000000000000000000001523;
-const String _videoIdtwo = 'https://youtu.be/zmEv7vTOQGE?t=';
-const double _startSecondstwo = 000000000000000000000000000354;
-const String _videoIdthree = 'https://youtu.be/lrNcx2D_FZI?t=';
-const double _startSecondsthree = 0000000000000000000000000002;
-const String _videoIdfour = 'https://youtu.be/2TUGZ1VQDss?t=';
-const double _startSecondsfour = 000000000000000000000000000273;
-const String _videoIdfive = 'https://youtu.be/dfuPBC-v5NE?t=';
-const double _startSecondsfive = 0000000000000000000000000001212;
+const String _videoIdend = '2GsK5feFt1U';
+const double _startSecondsend = 185;
+const String _videoIdone = 'xkYved-ucGg';
+const double _startSecondsone = 1523;
+const String _videoIdtwo = 'zmEv7vTOQGE';
+const double _startSecondstwo = 354;
+const String _videoIdthree = 'lrNcx2D_FZI';
+const double _startSecondsthree = 2;
+const String _videoIdfour = '2TUGZ1VQDss';
+const double _startSecondsfour = 273;
+const String _videoIdfive = 'dfuPBC-v5NE';
+const double _startSecondsfive = 1212;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

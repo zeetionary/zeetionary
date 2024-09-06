@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گازی، گازئاسا، شێوەگاز
 """),
-// With short examples define "gaseous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە وەک گازە یان لە گاز پێکھاتووە"""),

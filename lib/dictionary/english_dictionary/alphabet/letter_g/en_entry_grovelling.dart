@@ -147,7 +147,6 @@ Usage: Brit, Cdn (US: groveling)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grovelling", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بە پیشاندانی ڕێزی زۆرەوە بۆ کەسێک کە گرنگترە لە تۆ یان دەتوانێت شتێکت پێ بدات لە دەتەوێت"""),
@@ -226,19 +225,18 @@ Usage: Brit, Cdn (US: groveling)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/dGj32rH-ROY?t=';
-const double _startSecondsend = 0000000000000000000000000001446;
-const String _videoIdone = 'https://youtu.be/HZfr5s5RNw8?t=';
-const double _startSecondsone = 000000000000000000000000000101;
-const String _videoIdtwo = 'https://youtu.be/-XgFpFEUFy8?t=';
-const double _startSecondstwo = 000000000000000000000000000622;
-const String _videoIdthree = 'https://youtu.be/tCntoXWS9Fo?t=';
-const double _startSecondsthree = 000000000000000000000000000232;
-const String _videoIdfour = 'https://youtu.be/T4UDX1G1zss?t=';
-const double _startSecondsfour = 000000000000000000000000000898;
-const String _videoIdfive = 'https://youtu.be/ca1IuXAuYIc?t=';
-const double _startSecondsfive = 000000000000000000000000000170;
+const String _videoIdend = 'dGj32rH-ROY';
+const double _startSecondsend = 1446;
+const String _videoIdone = 'HZfr5s5RNw8';
+const double _startSecondsone = 101;
+const String _videoIdtwo = '-XgFpFEUFy8';
+const double _startSecondstwo = 622;
+const String _videoIdthree = 'tCntoXWS9Fo';
+const double _startSecondsthree = 232;
+const String _videoIdfour = 'T4UDX1G1zss';
+const double _startSecondsfour = 898;
+const String _videoIdfive = 'ca1IuXAuYIc';
+const double _startSecondsfive = 170;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

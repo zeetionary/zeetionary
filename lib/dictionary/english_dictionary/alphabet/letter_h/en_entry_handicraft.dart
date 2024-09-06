@@ -153,9 +153,8 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: هونەری دەستی، پیشەسازی دەستی، پیشەدەستی، دەس‌ڕەنگینی
+کوردی: ھونەری دەستی، پیشەسازی دەستی، پیشەدەستی، دەس‌ڕەنگینی
 """),
-// With short examples define "handicraft", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) چالاکی درووستکردنی شتی جوانی دەستی"""),
@@ -245,19 +244,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/1zINzDBXxjw?t=';
-const double _startSecondsend = 000000000000000000000000000866;
-const String _videoIdone = 'https://youtu.be/kz_HcIb6EfY?t=';
-const double _startSecondsone = 000000000000000000000000000399;
-const String _videoIdtwo = 'https://youtu.be/1o9aZuuGdWI?t=';
-const double _startSecondstwo = 000000000000000000000000000229;
-const String _videoIdthree = 'https://youtu.be/akoNcDKCr-o?t=';
-const double _startSecondsthree = 000000000000000000000000000477;
-const String _videoIdfour = 'https://youtu.be/g83Fu0R2GGM?t=';
-const double _startSecondsfour = 000000000000000000000000000118;
-const String _videoIdfive = 'https://youtu.be/ymjWeQhic0s?t=';
-const double _startSecondsfive = 000000000000000000000000000504;
+const String _videoIdend = '1zINzDBXxjw';
+const double _startSecondsend = 866;
+const String _videoIdone = 'kz_HcIb6EfY';
+const double _startSecondsone = 399;
+const String _videoIdtwo = '1o9aZuuGdWI';
+const double _startSecondstwo = 229;
+const String _videoIdthree = 'akoNcDKCr-o';
+const double _startSecondsthree = 477;
+const String _videoIdfour = 'g83Fu0R2GGM';
+const double _startSecondsfour = 118;
+const String _videoIdfive = 'ymjWeQhic0s';
+const double _startSecondsfive = 504;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

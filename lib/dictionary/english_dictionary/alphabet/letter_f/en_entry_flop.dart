@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەنگی تەقە، دەنگی تڵپە، دەنگی شڵپە،	تێشکان، سەرنەکەوتن، فشەڵ‌ھێنان (کتێب، شانۆ و ھتد)،	گۆڕانی کت‌وپڕ
 """),
-// With short examples define "flop", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) پاڵکەوتن یان دانیشتن بە توندی بەھۆی ئەوەی زۆر ماندوویت"""),

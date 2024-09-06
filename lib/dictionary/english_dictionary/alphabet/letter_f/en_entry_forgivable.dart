@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شیاوی لێ‌خۆشبوون، شیاوی چاپۆشی، لەبەخشین‌ھاتوو، لەبوردن‌ھاتوو، ھیچ نییە، دەبەخشرێ
 """),
-// With short examples define "forgivable", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە دەکرێت لێی خۆش بیت"""),
                     SentencesRow(

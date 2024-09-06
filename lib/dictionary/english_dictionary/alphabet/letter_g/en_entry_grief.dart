@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خەم، پەژارە، ناڕەحەتی، خەفەت، کەسەر، کۆڤان،	مایەی خەم و ناڕەحەتی
 """),
-// With short examples define "grief", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەستێکی زۆر ناخۆش، بە تایبەتی کە کەسێک دەمرێت"""),
@@ -297,7 +296,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Mx8JkGHaGUI';
 const double _startSecondsend = 529;
 const String _videoIdone = 'R_fZjGm2OrM';

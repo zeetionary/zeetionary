@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gymnastic", please follow LX instructions
                     const DividerDefinition(),
                     CustomRichText(
                       textBeforeLink: "١. پەیوەندیدار بە ",
@@ -236,19 +235,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/mAxvK2aGtQU?t=';
-const double _startSecondsend = 00000000000000000000000000044;
-const String _videoIdone = 'https://youtu.be/GLXoSXOTVJg?t=';
-const double _startSecondsone = 00000000000000000000000000099;
-const String _videoIdtwo = 'https://youtu.be/d3qOoYZppaQ?t=';
-const double _startSecondstwo = 00000000000000000000000000025;
-const String _videoIdthree = 'https://youtu.be/xC7qKMDKS0c?t=';
-const double _startSecondsthree = 000000000000000000000000000128;
-const String _videoIdfour = 'https://youtu.be/Y7IooT-CLnk?t=';
-const double _startSecondsfour = 000000000000000000000000000819;
-const String _videoIdfive = 'https://youtu.be/-_fqzg8PNgY?t=';
-const double _startSecondsfive = 000000000000000000000000000641;
+const String _videoIdend = 'mAxvK2aGtQU';
+const double _startSecondsend = 44;
+const String _videoIdone = 'GLXoSXOTVJg';
+const double _startSecondsone = 99;
+const String _videoIdtwo = 'd3qOoYZppaQ';
+const double _startSecondstwo = 25;
+const String _videoIdthree = 'xC7qKMDKS0c';
+const double _startSecondsthree = 128;
+const String _videoIdfour = 'Y7IooT-CLnk';
+const double _startSecondsfour = 819;
+const String _videoIdfive = '-_fqzg8PNgY';
+const double _startSecondsfive = 641;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

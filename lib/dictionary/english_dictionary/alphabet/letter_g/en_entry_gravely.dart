@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە سەختی، بە توندی، سەخت، زۆر خراپ یا شپرزە
 """),
-// With short examples define "gravely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە جدی و گرنگی؛ بەوەی کە وات لێ دەکات نیگەران بیت"""),
@@ -239,7 +238,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Sbp_EeBk-As';
 const double _startSecondsend = 1446;
 const String _videoIdone = 'zJU_Bp-Yp1c';

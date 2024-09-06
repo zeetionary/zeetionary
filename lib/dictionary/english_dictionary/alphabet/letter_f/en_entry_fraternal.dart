@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fraternal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە پەیوەندیی ئەو کەسانەی کە ھەمان بەرژەوەندی و بیرکردنەوەیان ھەیە"""),

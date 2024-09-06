@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زیخ، خیز، چەو، وردەبەرد، ورکەبەرد
 """),
-// With short examples define "gravel", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) وردە بەرد کە دەکرێت بەسەر ڕێگایەکدا"""),
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'cgOITABvj5g';
 const double _startSecondsend = 207;
 const String _videoIdone = 'aJSD8XV3qzE';

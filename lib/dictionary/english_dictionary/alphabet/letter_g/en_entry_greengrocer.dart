@@ -241,7 +241,6 @@ Usage: Brit, Cdn
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'PqYNDnw5gxY';
 const double _startSecondsend = 837;
 const String _videoIdone = 'J06H6AC6OtE';

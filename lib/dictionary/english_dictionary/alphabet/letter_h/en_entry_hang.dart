@@ -310,29 +310,28 @@ Usage: informal
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: هەڵواسران، شێوەی هەڵواسران، دالەقان، شۆڕبوونەوە، داهێڵران، ئاوێزان‌بوون،	سەرەوخواری، سەرەوژێری، لێژ
+کوردی: ھەڵواسران، شێوەی ھەڵواسران، دالەقان، شۆڕبوونەوە، داھێڵران، ئاوێزان‌بوون،	سەرەوخواری، سەرەوژێری، لێژ
 """),
-// With short examples define "hang", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) هەڵواسین"""),
+                    const DefinitionKurdish(text: """١. (کردار) ھەڵواسین"""),
                     SentencesRow(
                       englishText:
                           """Activists hung a banner from the roof of the building.""",
                       kurdishText:
-                          """چالاکوانان درووشمێکیان هەڵواسی بە سەربانی بیناکەوە.""",
+                          """چالاکوانان درووشمێکیان ھەڵواسی بە سەربانی بیناکەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Shall I hang your coat up?""",
-                      kurdishText: """پاڵتۆوەکەت هەڵبواسم؟""",
+                      kurdishText: """پاڵتۆوەکەت ھەڵبواسم؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Have you hung out the washing?""",
-                      kurdishText: """جلە شۆراوەکانت هەڵواسیوە؟""",
+                      kurdishText: """جلە شۆراوەکانت ھەڵواسیوە؟""",
                       englishNote:
                           """American English: Have you hung the wash?""",
                       onPressedBritish: () => speaksentence3("en-GB"),
@@ -343,7 +342,7 @@ Usage: informal
                       englishText:
                           """His school bag was still hanging on the back of the door.""",
                       kurdishText:
-                          """جانتای قوتابخانەی هێشتا لە پشتەی دەرگاکە هەڵواسرابوو.""",
+                          """جانتای قوتابخانەی ھێشتا لە پشتەی دەرگاکە ھەڵواسرابوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -394,10 +393,10 @@ Usage: informal
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٤. (کردار) کووشتن بە هەڵواسین"""),
+                        text: """٤. (کردار) کووشتن بە ھەڵواسین"""),
                     SentencesRow(
                       englishText: """She had tried to hang herself.""",
-                      kurdishText: """هەوڵیدا بوو خۆی هەڵبواسێت.""",
+                      kurdishText: """ھەوڵیدا بوو خۆی ھەڵبواسێت.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -405,7 +404,7 @@ Usage: informal
                     SentencesRow(
                       englishText:
                           """At that time you could hang for stealing.""",
-                      kurdishText: """لەو کاتەدا دەکرا بۆ دزین هەڵبواسرێیت.""",
+                      kurdishText: """لەو کاتەدا دەکرا بۆ دزین ھەڵبواسرێیت.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -421,19 +420,19 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٦. (کردار) هەڵواسین بە قولاپێکەوە لەسەر دیوارێک"""),
+                            """٦. (کردار) ھەڵواسین بە قولاپێکەوە لەسەر دیوارێک"""),
                     SentencesRow(
                       englishText:
                           """We hung her portrait above the fireplace.""",
                       kurdishText:
-                          """پۆرترەیتەکەیمانی لەسەر ئاگردانەکە هەڵواسی.""",
+                          """پۆرترەیتەکەیمانی لەسەر ئاگردانەکە ھەڵواسی.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (کردار) ڕازاندنەوەی شوێنێک بە هەڵواسینی وێنە، هتد لەسەر دیوار"""),
+                            """٧. (کردار) ڕازاندنەوەی شوێنێک بە ھەڵواسینی وێنە، ھتد لەسەر دیوار"""),
                     SentencesRow(
                       englishText: """The rooms were hung with tapestries.""",
                       kurdishText:
@@ -443,7 +442,7 @@ Usage: informal
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٨. (کردار) مانەوە لە هەوادا"""),
+                        text: """٨. (کردار) مانەوە لە ھەوادا"""),
                     SentencesRow(
                       englishText: """Smoke hung in the air above the city.""",
                       kurdishText: """دووکەڵ سەرەوەی شارەکەی داپۆشیبوو.""",
@@ -453,7 +452,7 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٩. (کردار) شێوازی جووڵان یان شۆڕبوونەوەی پارچە جلێک، هتد"""),
+                            """٩. (کردار) شێوازی جووڵان یان شۆڕبوونەوەی پارچە جلێک، ھتد"""),
                     SentencesRow(
                       englishText:
                           """That coat fits you so well - the hang is perfect.""",
@@ -529,19 +528,18 @@ Usage: informal
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/HDntl7yzzVI?t=';
-const double _startSecondsend = 000000000000000000000000000559;
-const String _videoIdone = 'https://youtu.be/rPe4yziWiOg?t=';
-const double _startSecondsone = 000000000000000000000000000863;
-const String _videoIdtwo = 'https://youtu.be/gngPQ771Ahk?t=';
-const double _startSecondstwo = 000000000000000000000000000855;
-const String _videoIdthree = 'https://youtu.be/sDmeXdC3myg?t=';
-const double _startSecondsthree = 000000000000000000000000000465;
-const String _videoIdfour = 'https://youtu.be/EdQxtsTwHHs?t=';
-const double _startSecondsfour = 00000000000000000000000000055;
-const String _videoIdfive = 'https://youtu.be/CvjoXdC-WkM?t=';
-const double _startSecondsfive = 000000000000000000000000000468;
+const String _videoIdend = 'HDntl7yzzVI';
+const double _startSecondsend = 559;
+const String _videoIdone = 'rPe4yziWiOg';
+const double _startSecondsone = 863;
+const String _videoIdtwo = 'gngPQ771Ahk';
+const double _startSecondstwo = 855;
+const String _videoIdthree = 'sDmeXdC3myg';
+const double _startSecondsthree = 465;
+const String _videoIdfour = 'EdQxtsTwHHs';
+const double _startSecondsfour = 55;
+const String _videoIdfive = 'CvjoXdC-WkM';
+const double _startSecondsfive = 468;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

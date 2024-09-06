@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شل، شل‌وشۆڕ، شەوێق، پفەڵ، نەرم، نەبەگە، خۆنەگرتوو، شۆڕەوەبوو، داکەوتوو،	(کەسایەتی) سست، بەیدەس،	زگزل، گمتە
 """),
-// With short examples define "flabby", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە چەوری شلی نەرم داپۆشراوە"""),

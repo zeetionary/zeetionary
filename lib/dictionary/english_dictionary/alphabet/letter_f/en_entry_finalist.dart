@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "finalist", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە بەژداری لە یاریی کۆتایی یارییەک یان پێشبڕکێیەک دەکات، چی بە تەنھا یان وەک تیمێک"""),

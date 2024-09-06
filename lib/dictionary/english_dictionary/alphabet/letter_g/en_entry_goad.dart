@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "goad", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەوەی بەردەوام کەسێک/شتێک بێزار بکەیت تاوەکو کاردانەوەی دەبێت"""),
@@ -285,7 +284,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'lsbcN9-jU1Y';
 const double _startSecondsend = 946;
 const String _videoIdone = 'Q-nWA0WeF98';

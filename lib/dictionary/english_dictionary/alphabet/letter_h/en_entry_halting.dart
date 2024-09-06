@@ -154,10 +154,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دوودڵ، دڕدۆنگ، بەشک، بەگومان، دووشک
 """),
-// With short examples define "halting", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە زووزوو دەوەستێت و دەست پێدەکات، بە تایبەتی بەهۆی ئەوەی دڵنیا نیت یان متمانەت کەمە"""),
+                            """١. (ھاوەڵناو) کە زووزوو دەوەستێت و دەست پێدەکات، بە تایبەتی بەھۆی ئەوەی دڵنیا نیت یان متمانەت کەمە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: hesitant"),
                     SentencesRow(
                       englishText: """We carried on a halting conversation.""",
@@ -170,7 +169,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The driver spoke only very halting English.""",
                       kurdishText:
-                          """شۆفێرەکە بە تەنها ئینگلیزییەکی پچڕپچڕەوە قسەی دەکرد.""",
+                          """شۆفێرەکە بە تەنھا ئینگلیزییەکی پچڕپچڕەوە قسەی دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -241,19 +240,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/SsuWS6yE478?t=';
-const double _startSecondsend = 0000000000000000000000000001018;
-const String _videoIdone = 'https://youtu.be/TsvrUr-fmLw?t=';
-const double _startSecondsone = 00000000000000000000000000077;
-const String _videoIdtwo = 'https://youtu.be/HL7DEkXV_60?t=';
-const double _startSecondstwo = 00000000000000000000000000044;
-const String _videoIdthree = 'https://youtu.be/cDofhN-RJqg?t=';
-const double _startSecondsthree = 000000000000000000000000000348;
-const String _videoIdfour = 'https://youtu.be/QjSN2AK8I3k?t=';
-const double _startSecondsfour = 0000000000000000000000000001526;
-const String _videoIdfive = 'https://youtu.be/8YoxH_6hRDM?t=';
-const double _startSecondsfive = 000000000000000000000000000191;
+const String _videoIdend = 'SsuWS6yE478';
+const double _startSecondsend = 1018;
+const String _videoIdone = 'TsvrUr-fmLw';
+const double _startSecondsone = 77;
+const String _videoIdtwo = 'HL7DEkXV_60';
+const double _startSecondstwo = 44;
+const String _videoIdthree = 'cDofhN-RJqg';
+const double _startSecondsthree = 348;
+const String _videoIdfour = 'QjSN2AK8I3k';
+const double _startSecondsfour = 1526;
+const String _videoIdfive = '8YoxH_6hRDM';
+const double _startSecondsfive = 191;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

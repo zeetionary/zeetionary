@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پچڕپچڕانە، جارناجارێ
 """),
-// With short examples define "fitfully", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە بۆ ماوە ماوەی کەمە نەک بە بەردەوامی"""),

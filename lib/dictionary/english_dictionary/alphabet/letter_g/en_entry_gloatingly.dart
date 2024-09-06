@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gloatingly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە دڵخۆشیت بە سەرکەوتنی خۆت یان بە شکستی کەسێکی دیکە"""),
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'X1Zd-8duews';
 const double _startSecondsend = 484;
 const String _videoIdone = 'W-t-uhVesQg';

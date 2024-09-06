@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بۆماوەیی‌یانە، لەباری بۆماوەیی یا ژێنێتیکی‌یەوە
 """),
-// With short examples define "genetically", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە بۆھێڵەکان یان زانستی لێکۆڵینەوە لە بۆھێڵەکان"""),
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '0pAz6LTdTrw';
 const double _startSecondsend = 467;
 const String _videoIdone = 'HmtdGWoDMHE';

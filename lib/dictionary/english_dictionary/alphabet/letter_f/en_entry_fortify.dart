@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قەوی کردن، قایم کردن، بەھێز کردن، پتەو کردن
 """),
-// With short examples define "fortify", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) واکردنی ئەوەی شوێنێک بەرگەی ھێرش بگرێت، بە تایبەتی بە بنیاتنانی شوورا"""),

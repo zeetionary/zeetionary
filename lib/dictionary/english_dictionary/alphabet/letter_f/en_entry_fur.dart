@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خوری، تووک، موو، تیسک، کوڵکە،	پێستە، کەوڵ، کورک، فەروە، پارچەی لە کوڵک یان تووک،	(کتری، لوولە و ھتد) بەڵخ، سۆنە، بار،	(زمان) پەلاسی دەم، بار
 """),
-// With short examples define "fur", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تووکی نەرم کە لەسەر جەستەی ژمارەیەک گیانلەبەر درووست دەبێت"""),

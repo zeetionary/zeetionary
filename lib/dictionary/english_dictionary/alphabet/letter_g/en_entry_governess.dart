@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "governess", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ژنێک کە مامۆستای تایبەتی منداڵانی خێزانێکە و لەگەڵیان دەژی"""),
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'RhI8NrHparM';
 const double _startSecondsend = 383;
 const String _videoIdone = 'lAK9hIyLEUw';

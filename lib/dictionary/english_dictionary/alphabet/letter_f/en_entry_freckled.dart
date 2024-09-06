@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شڵ، پڵ، خاڵاوی
 """),
-// With short examples define "freckled", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەبوونی خاڵی قاوەیی لەسەر پێست کە ڕەش دەبنەوە لە دوای چوونە بەر خۆر"""),

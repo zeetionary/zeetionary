@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fluency", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی توانای قسەکردن، خوێندنەوە، و نووسینت ھەبێت بە زمانێک، بە تایبەتی زمانی بیانی، بە باشی"""),

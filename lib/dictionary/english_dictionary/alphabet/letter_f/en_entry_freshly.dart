@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تازە، بە تازەیی، بە تازەگی
 """),
-// With short examples define "freshly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) شتێک کە تازە درووستکراوە، ئامادەکراوە، ھتد"""),

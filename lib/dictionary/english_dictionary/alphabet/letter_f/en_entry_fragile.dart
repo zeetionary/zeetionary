@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناسک، زووشکاو، قرپ، قرچ، ڕێزەڵۆک، ھەڵپەڕیو، لەشکان‌ھاتوو، بشکێن،	ھەستیار، ناسک،	لاواز، سست، فشە، بێ‌ھێز،	نەشە، خومار
 """),
-// With short examples define "fragile", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە ئاسانی دەشکێت یان زیانی پێدەگات"""),

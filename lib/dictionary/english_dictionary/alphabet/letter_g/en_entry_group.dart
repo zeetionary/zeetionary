@@ -315,7 +315,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """A group of us are going to the theatre this evening.""",
-                      kurdishText: """گرووپێکمان ئەمشەو دەچین بۆ هۆڵی شانۆ.""",
+                      kurdishText: """گرووپێکمان ئەمشەو دەچین بۆ ھۆڵی شانۆ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -581,7 +581,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hS2x1zl4rn0';
 const double _startSecondsend = 1177;
 const String _videoIdone = '47MNn4bsmSw';

@@ -144,7 +144,7 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: چڵپەخۆر، کاسەلێس، زگەڕۆ، چڵێس، زگهانک، چڵکاوخۆر، نۆکەر
+کوردی: چڵپەخۆر، کاسەلێس، زگەڕۆ، چڵێس، زگھانک، چڵکاوخۆر، نۆکەر
 """),
 // With short examples define "hanger-on", please follow LX instructions
                     const DefinitionKurdish(
@@ -225,19 +225,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/32S6zMOx-Y0?t=';
-const double _startSecondsend = 00000000000000000000000000055;
-const String _videoIdone = 'https://youtu.be/xDyPSKLy5E4?t=';
-const double _startSecondsone = 0000000000000000000000000005565;
-const String _videoIdtwo = 'https://youtu.be/kKDXmWFVN-g?t=';
-const double _startSecondstwo = 000000000000000000000000000115;
-const String _videoIdthree = 'https://youtu.be/3-yfZn5iYJE?t=';
-const double _startSecondsthree = 000000000000000000000000000384;
-const String _videoIdfour = 'https://youtu.be/kLw__LA0JgM?t=';
-const double _startSecondsfour = 000000000000000000000000000542;
-const String _videoIdfive = 'https://youtu.be/tFvU0bFcpNk?t=';
-const double _startSecondsfive = 000000000000000000000000000589;
+const String _videoIdend = '32S6zMOx-Y0';
+const double _startSecondsend = 55;
+const String _videoIdone = 'xDyPSKLy5E4';
+const double _startSecondsone = 5565;
+const String _videoIdtwo = 'kKDXmWFVN-g';
+const double _startSecondstwo = 115;
+const String _videoIdthree = '3-yfZn5iYJE';
+const double _startSecondsthree = 384;
+const String _videoIdfour = 'kLw__LA0JgM';
+const double _startSecondsfour = 542;
+const String _videoIdfive = 'tFvU0bFcpNk';
+const double _startSecondsfive = 589;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

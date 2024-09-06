@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەسەکوتێ، پەلەکوتە، دەس(پیا)گێڕان (بە گیرفانا)
 """),
-// With short examples define "fumble", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) بەکارھێنانی دەست بە شێوەیەک کە جێگیر یان بە وریایی نییە کە شتێک دەکەیت یان بۆ شتێک دەگەڕێیت"""),

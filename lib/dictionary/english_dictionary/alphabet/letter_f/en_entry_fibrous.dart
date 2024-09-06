@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕیشاڵاوی، ڕیشاڵی، شێوەڕیشاڵ، ڕیشاڵ‌ئاسا
 """),
-// With short examples define "fibrous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە لە ڕیشاڵ درووستکراوە؛ کە شێوەی وەک ڕیشاڵە"""),

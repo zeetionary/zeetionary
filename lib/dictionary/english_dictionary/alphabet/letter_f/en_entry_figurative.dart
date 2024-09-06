@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "figurative", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە زمان بە شێوەیەک بەکاردێت کە جیاوازە لە بەکارھێنانی ئاسایی. بۆ نموونە گوتنی ئەوەی 'لە تووڕەییدا تەقییەوە'"""),

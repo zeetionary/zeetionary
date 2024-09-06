@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کوڵکن، تووکاوی، موواوی، فەروەئاسا، کەوڵ‌ئاسا، لەکەوڵ‌چوو،	بارگرتوو، بارھێناو، باراوی
 """),
-// With short examples define "furry", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە بە فەروو داپۆشراوە"""),
                     SentencesRow(

@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەکەیف، شاد، دڵخۆش، بەدەماخ، سەرخۆش، خۆشحاڵ، گەش
 """),
-// With short examples define "gleeful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) دڵخۆش، بە تایبەتی بەھۆی ئەوەی شتێکی باشت کردووە یان شتێکی خراپ بەسەر کەسێک ھاتووە"""),
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'ndHOav52t7k';
 const double _startSecondsend = 70;
 const String _videoIdone = 'i_ppflSR-ww';

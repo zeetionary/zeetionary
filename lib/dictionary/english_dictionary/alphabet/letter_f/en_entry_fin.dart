@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پوولەکە، باڵ، باڵە،	پەڕە، پەڕەکە
 """),
-// With short examples define "fin", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشێکی باریکی تەخت کە لە لەشی ماسییەوە دەردەچێت و بۆ مەلەکردن و ھاوسەنگی بەکاردێت"""),

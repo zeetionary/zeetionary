@@ -154,10 +154,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە ئاسانی، نزیک، لە نزیک، لەبەر دەس
 """),
-// With short examples define "handily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە ئاسانە بۆ بەکارهێنان"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئاسانە بۆ بەکارھێنان"""),
                     SentencesRow(
                       englishText:
                           """We're handily placed for the train station.""",
@@ -242,19 +241,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/DTvS9lvRxZ8?t=';
-const double _startSecondsend = 00000000000000000000000000031;
-const String _videoIdone = 'https://youtu.be/rr2XfL_df3o?t=';
-const double _startSecondsone = 0000000000000000000000000001026;
-const String _videoIdtwo = 'https://youtu.be/dp4nWm59esI?t=';
-const double _startSecondstwo = 000000000000000000000000000309;
-const String _videoIdthree = 'https://youtu.be/H6NUzanLUd4?t=';
-const double _startSecondsthree = 000000000000000000000000000313;
-const String _videoIdfour = 'https://youtu.be/DPMiWwqX4wI?t=';
-const double _startSecondsfour = 000000000000000000000000000861;
-const String _videoIdfive = 'https://youtu.be/wSNYgHiB-N4?t=';
-const double _startSecondsfive = 000000000000000000000000000483;
+const String _videoIdend = 'DTvS9lvRxZ8';
+const double _startSecondsend = 31;
+const String _videoIdone = 'rr2XfL_df3o';
+const double _startSecondsone = 1026;
+const String _videoIdtwo = 'dp4nWm59esI';
+const double _startSecondstwo = 309;
+const String _videoIdthree = 'H6NUzanLUd4';
+const double _startSecondsthree = 313;
+const String _videoIdfour = 'DPMiWwqX4wI';
+const double _startSecondsfour = 861;
+const String _videoIdfive = 'wSNYgHiB-N4';
+const double _startSecondsfive = 483;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فەرمی‌بوون، ڕەسمی‌بوون، فەرمێتی،	ڕووکەشێتی، ڕواڵەتیێتی، ڕواڵەتی‌بوون، داب‌ودەستوور، دێدی‌وبۆدی، ھۆرتەوبەرە، ڕێ‌وڕەسم
 """),
-// With short examples define "formality", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێک کە دەبێت بیکەیت وەک بەشێکی فەرمی پڕۆسەیەکی یاسایی، بابەتێکی کۆمەڵایەتی، ھتد"""),

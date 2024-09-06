@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تێشکانی تەواو، سەرنەگرتنی یەکجاری، ئاشبەتاڵ، نشوستی، مایەی ئابڕووچوون
 """),
-// With short examples define "fiasco", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شتێک کە سەرکەوتوو نابێت، بەشێوەیەک کە خەڵکی شەرمەزار دەکات"""),

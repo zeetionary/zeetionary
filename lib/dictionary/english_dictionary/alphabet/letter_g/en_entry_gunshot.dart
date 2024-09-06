@@ -160,9 +160,8 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: گوللە، تیر، بەرک،	تەقە، گوللەخستن، گوللەتەقاندن، تیرخستن،	تیراوێژ، ماوەبڕ، هەتەر
+کوردی: گوللە، تیر، بەرک،	تەقە، گوللەخستن، گوللەتەقاندن، تیرخستن،	تیراوێژ، ماوەبڕ، ھەتەر
 """),
-// With short examples define "gunshot", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو فیشەکانەی کە لە چەکێکەوە دەتەقێندرێن"""),
@@ -260,19 +259,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/NFtQOxjWfaA?t=';
-const double _startSecondsend = 000000000000000000000000000279;
-const String _videoIdone = 'https://youtu.be/BDh46oosdms?t=';
-const double _startSecondsone = 00000000000000000000000000093;
-const String _videoIdtwo = 'https://youtu.be/Sh2tWaYElCc?t=';
-const double _startSecondstwo = 0000000000000000000000000001149;
-const String _videoIdthree = 'https://youtu.be/OP7l1n_8Lh4?t=';
-const double _startSecondsthree = 000000000000000000000000000125;
-const String _videoIdfour = 'https://youtu.be/8zpMXObd7oo?t=';
-const double _startSecondsfour = 000000000000000000000000000537;
-const String _videoIdfive = 'https://youtu.be/YZkXDuKto_Y?t=';
-const double _startSecondsfive = 000000000000000000000000000718;
+const String _videoIdend = 'NFtQOxjWfaA';
+const double _startSecondsend = 279;
+const String _videoIdone = 'BDh46oosdms';
+const double _startSecondsone = 93;
+const String _videoIdtwo = 'Sh2tWaYElCc';
+const double _startSecondstwo = 1149;
+const String _videoIdthree = 'OP7l1n_8Lh4';
+const double _startSecondsthree = 125;
+const String _videoIdfour = '8zpMXObd7oo';
+const double _startSecondsfour = 537;
+const String _videoIdfive = 'YZkXDuKto_Y';
+const double _startSecondsfive = 718;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

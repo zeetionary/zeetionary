@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕێ‌وڕەسمی ناشتن، ئاھەنگی بەخاک‌سپاردن،	ئاھەنگی سووتاندنی مردوو، تەرم‌سووتان،	تەرم‌نێژان
 """),
-// With short examples define "funeral", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مەراسیمێک کە تێیدا کەسێکی مردوو دەنێژرێت یان دەسووتێنرێت"""),

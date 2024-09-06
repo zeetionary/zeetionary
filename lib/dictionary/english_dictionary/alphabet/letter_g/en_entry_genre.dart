@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (ھونەر، موسیقا، وێژە و ھتد) جۆر، چەشن، شێواز، شێوە، ئاوا (تایبەتی)، ژانر
 """),
-// With short examples define "genre", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جۆرێکی دیاریکراو لە میوزیک، ھونەر، وێژە، یان فیلم کە دەیناسیتەوە بەھۆی تایبەتمەندییەکانی"""),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_wNsZEqpKUA';
 const double _startSecondsend = 221;
 const String _videoIdone = '_GFkHA5EZdE';

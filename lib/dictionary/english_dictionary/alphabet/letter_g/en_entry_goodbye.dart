@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ماڵاوایی، خوداحافیزی، خاترخوازی، خوا ئاگادارت بێ، خوات لەگەڵ، بە خێر چن، بە خودام سپاردن، خوا ئاگادارتان بێ
 """),
-// With short examples define "goodbye", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (سەرسوڕمان، ناو) خوداحافیزی"""),
                     SentencesRow(
@@ -280,7 +279,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_GFkHA5EZdE';
 const double _startSecondsend = 401;
 const String _videoIdone = 'Oq61TxejZ5g';

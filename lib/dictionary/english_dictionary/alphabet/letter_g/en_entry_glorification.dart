@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شکۆپێدان، گەورەکردنەوە، بەگرنگ‌تردانان، ڕێزلێنان، تاریف‌دان، پیاھەڵدان، پەسن‌دان، شکۆ، گەورەیی،	سەربەرزی، سەربڵیندی
 """),
-// With short examples define "glorification", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی شتێک بە باشتر یان گرنگتر پیشان بدرێت وەک لەوەی لە ڕاستیدا وایە"""),
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '1Y0F7zZ_Ws0';
 const double _startSecondsend = 1123;
 const String _videoIdone = 'tnhafitWzrg';

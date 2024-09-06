@@ -163,14 +163,13 @@ Usage: informal
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: ڕووداو، بوویەر، بەسەرهات، قەومین، پێشکەفتی
+کوردی: ڕووداو، بوویەر، بەسەرھات، قەومین، پێشکەفتی
 """),
-// With short examples define "happening", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ڕووداوێک"""),
                     SentencesRow(
                       englishText:
                           """There have been strange happenings here lately.""",
-                      kurdishText: """ئەم ماوەیە ڕووداوی نامۆ لێرە هەبووە.""",
+                      kurdishText: """ئەم ماوەیە ڕووداوی نامۆ لێرە ھەبووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -185,12 +184,12 @@ Usage: informal
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ھاوەڵناو) شوێنێکی خۆش و بەجۆشهێنەر"""),
+                        text: """٢. (ھاوەڵناو) شوێنێکی خۆش و بەجۆشھێنەر"""),
                     SentencesRow(
                       englishText:
                           """Ask Caroline - she knows all the happening clubs in town.""",
                       kurdishText:
-                          """لە کارۆلین بپرسە ـ هەموو یانە خۆشەکانی شار دەزانێت.""",
+                          """لە کارۆلین بپرسە ـ ھەموو یانە خۆشەکانی شار دەزانێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -261,19 +260,18 @@ Usage: informal
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/AMN9Ek4qec0?t=';
-const double _startSecondsend = 0000000000000000000000000001402;
-const String _videoIdone = 'https://youtu.be/GkgXRyScubI?t=';
-const double _startSecondsone = 000000000000000000000000000120;
-const String _videoIdtwo = 'https://youtu.be/n0CT8zrw6lw?t=';
-const double _startSecondstwo = 000000000000000000000000000136;
-const String _videoIdthree = 'https://youtu.be/QqPUd0eI5yw?t=';
-const double _startSecondsthree = 000000000000000000000000000292;
-const String _videoIdfour = 'https://youtu.be/XAcjj16GMR4?t=';
-const double _startSecondsfour = 00000000000000000000000000058;
-const String _videoIdfive = 'https://youtu.be/NRQ9yXxTCfk?t=';
-const double _startSecondsfive = 000000000000000000000000000700;
+const String _videoIdend = 'AMN9Ek4qec0';
+const double _startSecondsend = 1402;
+const String _videoIdone = 'GkgXRyScubI';
+const double _startSecondsone = 120;
+const String _videoIdtwo = 'n0CT8zrw6lw';
+const double _startSecondstwo = 136;
+const String _videoIdthree = 'QqPUd0eI5yw';
+const double _startSecondsthree = 292;
+const String _videoIdfour = 'XAcjj16GMR4';
+const double _startSecondsfour = 58;
+const String _videoIdfive = 'NRQ9yXxTCfk';
+const double _startSecondsfive = 700;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

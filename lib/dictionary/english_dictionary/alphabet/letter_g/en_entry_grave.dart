@@ -404,7 +404,6 @@ Usage: archaic
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'VS6tnF31zr4';
 const double _startSecondsend = 91;
 const String _videoIdone = 'nGrB-5ieeMU';

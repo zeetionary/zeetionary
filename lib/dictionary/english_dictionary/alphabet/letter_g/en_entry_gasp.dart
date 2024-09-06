@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نقەنق، نق‌وھۆڕ، نیخەنیخ، ھانکەھانک، ھەناسەبڕکێ
 """),
-// With short examples define "gasp", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ھەناسەدانێکی قووڵ بە دەم، بە تایبەتی کە سەرسامیت بە شتێک"""),

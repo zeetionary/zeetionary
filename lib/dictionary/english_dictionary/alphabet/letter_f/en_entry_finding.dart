@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دۆزینەوە، دیتنەوە،	دۆزراوە، دێتراوە، دۆزە
 """),
-// With short examples define "finding", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زانیاری کە لە ڕێگەی توێژینەوەوە دەدۆزرێتەوە"""),

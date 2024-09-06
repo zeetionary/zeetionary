@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گەورەیی، مەزنی،	گرنگی،	زۆری
 """),
-// With short examples define "greatness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە پێگە و کاریگەریی زۆرت ھەبێت"""),
@@ -260,7 +259,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'WYW1g6u9M5I';
 const double _startSecondsend = 152;
 const String _videoIdone = 'mY3SEMTROas';

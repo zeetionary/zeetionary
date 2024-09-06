@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ژن بوون، ژنایەتی، ژنێتی، مێیینەتی، ھەڵس‌وکەوتی ژنانە
 """),
-// With short examples define "femininity", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە ژن بیت؛ ئەو خاسیەتانەی کە بە ھی ژنان دانرێت"""),

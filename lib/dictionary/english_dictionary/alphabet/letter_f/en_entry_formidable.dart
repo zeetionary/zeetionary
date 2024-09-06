@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترسێنەر، تۆقێنەر، ورەبەر، نگران‌کەر، بەسام، بەھەیبەت، بەئەندێش،	سەخت، گران، دژوار، زەحمەت، چەتوون،	(دوژمن) بەھێز، تۆکمە، لەشکان‌نەھاتوو، سەرسەخت،	(قەرز) قورس، زۆر
 """),
-// With short examples define "formidable", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) شتێک، کەسێک، یان دۆخێک کە ترس و ڕێزت بۆی ھەیە بەھۆی ئەوەی کە ناوازە یان بەھێزن، یان بەھۆی ئەوەی سەخت دیارن"""),

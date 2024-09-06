@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چڵک، چڵکن کردن، بۆگەن بوون
 """),
-// With short examples define "fester", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) کە برینێک چڵک دەکات و بەکتریا دەگرێت"""),

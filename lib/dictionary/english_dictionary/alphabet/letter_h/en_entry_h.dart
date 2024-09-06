@@ -154,10 +154,9 @@ Noun: H (Derived forms: Hs)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "h", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) هەشتەم پیتی ئەلفوبێی زمانی ئینگلیزی"""),
+                            """١. (ناو) ھەشتەم پیتی ئەلفوبێی زمانی ئینگلیزی"""),
                     SentencesRow(
                       englishText: """‘Hat’ begins with (an) H/‘H’.""",
                       kurdishText: """‘Hat’ بە H/‘H’ دەست پێدەکات.""",
@@ -231,19 +230,18 @@ Noun: H (Derived forms: Hs)
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/Kirup-Nzw3o?t=';
+const String _videoIdend = 'Kirup-Nzw3o';
 const double _startSecondsend = 352;
-const String _videoIdone = 'https://youtu.be/xY3Z8acE8ew?t=';
-const double _startSecondsone = 00000000000000000000000000030;
-const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondstwo = 000000000000000000000000000810;
-const String _videoIdthree = 'https://youtu.be/RIQDmnIJZv8?t=';
-const double _startSecondsthree = 00000000000000000000000000025;
-const String _videoIdfour = 'https://youtu.be/vnSAV2uWHPw?t=';
-const double _startSecondsfour = 000000000000000000000000000142;
-const String _videoIdfive = 'https://youtu.be/Gv4Af83KFrE?t=';
-const double _startSecondsfive = 0000000000000000000000000001128;
+const String _videoIdone = 'xY3Z8acE8ew';
+const double _startSecondsone = 30;
+const String _videoIdtwo = 'hTqtGJwsJVE';
+const double _startSecondstwo = 810;
+const String _videoIdthree = 'RIQDmnIJZv8';
+const double _startSecondsthree = 25;
+const String _videoIdfour = 'vnSAV2uWHPw';
+const double _startSecondsfour = 142;
+const String _videoIdfive = 'Gv4Af83KFrE';
+const double _startSecondsfive = 1128;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

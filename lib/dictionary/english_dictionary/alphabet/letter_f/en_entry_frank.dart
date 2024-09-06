@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قسەلەڕوو، بێ‌ڕوودەربایستی، بێ‌ڕیا، کڵاودڕاو، لەڕوودانەماو، بێ‌پەردە، ڕێک‌وڕاست، سەرڕاستانە، بێ‌قەلەودەلە، بێ‌گرێ و قۆرت
 """),
-// With short examples define "frank", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) گوتنی ئەوەی کە دەتەوێت، کە ھەندێک جار کەسانی دیکە ڕەنگە حەزیان لێی نەبێت"""),

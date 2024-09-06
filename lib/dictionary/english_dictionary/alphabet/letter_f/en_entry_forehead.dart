@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناوچاوان، تەختی ناوچاوان، تەوێڵ، ئەنی، ھانیە، نۆتک
 """),
-// With short examples define "forehead", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناوچاوان؛ بەشی ڕووخسار لە سەرەوەی چاوەکان"""),

@@ -167,7 +167,6 @@ Usage: N. Amer (elsewhere: fulfilment)
                     const KurdishVocabulary(text: """
 کوردی: کردن، جێبەجێ‌کردن، بەدێھاتن، ڕاپەڕاندن، پیادەکردن، بەجێ‌ھێنان،	قایل‌بوون، پێخۆش‌بوون، خۆشحاڵی، ڕازی‌بوون
 """),
-// With short examples define "fulfilment", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کردنی ئەوەی کە بەھیوا بوویت بۆی"""),
                     SentencesRow(

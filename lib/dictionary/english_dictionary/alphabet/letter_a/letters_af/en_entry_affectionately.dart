@@ -107,7 +107,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                               text:
                                   """١. (ھاوەڵکار) بەشێوەیەک کە سۆز و خۆشەویستی پیشان دەدات"""),
                           AlsoEnglishckblink(
-                            textBeforeLink: "هەروەها: ",
+                            textBeforeLink: "ھەروەھا: ",
                             linkText: "fondly",
                             textAfterLink: ".",
                             onTap: () {

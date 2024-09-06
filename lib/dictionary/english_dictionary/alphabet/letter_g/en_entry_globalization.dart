@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەجیھانی‌کردن، بەجیھانی‌بوون
 """),
-// With short examples define "globalization", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە کەلتوور و سیستەمە ئابوورییە جیاوازەکان لە سەرانسەری جیھاندا خەریکە بەیەکەوە دەبەسترێنەوە و دەبن بە لێکچووی یەکدی بەھۆی کاریگەری کۆمپانیا گەورە فرەنەتەوەییەکان و باشتربوونی پەیوەندیکردن"""),
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'wGSOMKSRjkc';
 const double _startSecondsend = 1438;
 const String _videoIdone = 'b1JlYZQG3lI';

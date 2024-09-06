@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەربە خێر، خێردەرەوە، بەمووچە، بەکەڵک، پڕمەفا، بەداھات، پڕبەھرە، بەسوود، بەقازانج
 """),
-// With short examples define "gainful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بۆ باسکردنی کارێکی بەسوود کە پارەت پێ دەدرێط بۆی"""),

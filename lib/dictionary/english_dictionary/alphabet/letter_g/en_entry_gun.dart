@@ -259,12 +259,11 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چەک، تفەنگ
 """),
-// With short examples define "gun", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) چەکێک کە فیشەک دەتەقێنێت"""),
                     SentencesRow(
                       englishText: """I have never fired a gun in my life.""",
-                      kurdishText: """هەرگیز فیشەکم نەتەقاندووە لە ژیانمدا.""",
+                      kurdishText: """ھەرگیز فیشەکم نەتەقاندووە لە ژیانمدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -284,7 +283,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Should police officers carry guns?""",
                               kurdishText:
-                                  """ئەفسەرانی پۆلیس دەبێت چەک هەڵبگرن؟""",
+                                  """ئەفسەرانی پۆلیس دەبێت چەک ھەڵبگرن؟""",
                               onPressedBritish: () => speaksentence3("en-GB"),
                               onPressedAmerican: () => speaksentence3("en-US"),
                             ),
@@ -293,7 +292,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Anti-aircraft guns opened fire as the bombers flew overhead.""",
                               kurdishText:
-                                  """چەکە دژە فڕۆکەکان دەستیان بە تەقە کرد کە بۆمبهاوێژەکان لەسەرەوە دەفڕین.""",
+                                  """چەکە دژە فڕۆکەکان دەستیان بە تەقە کرد کە بۆمبھاوێژەکان لەسەرەوە دەفڕین.""",
                               onPressedBritish: () => speaksentence4("en-GB"),
                               onPressedAmerican: () => speaksentence4("en-US"),
                             ),
@@ -332,7 +331,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """The attacker held a gun to the hostage’s head.""",
                               kurdishText:
-                                  """هێرشکارەکە چەکێکی لەسەر سەری بارمتەکە دانابوو.""",
+                                  """ھێرشکارەکە چەکێکی لەسەر سەری بارمتەکە دانابوو.""",
                               onPressedBritish: () => speaksentence9("en-GB"),
                               onPressedAmerican: () => speaksentence9("en-US"),
                             ),
@@ -340,7 +339,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText:
                                   """The British police do not carry guns.""",
-                              kurdishText: """پۆلیسی بەریتانیا چەک هەڵناگرن.""",
+                              kurdishText: """پۆلیسی بەریتانیا چەک ھەڵناگرن.""",
                               onPressedBritish: () => speaksentence10("en-GB"),
                               onPressedAmerican: () => speaksentence10("en-US"),
                             ),
@@ -355,7 +354,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """He used a spray gun to paint the car.""",
                       kurdishText:
-                          """سپرەی ڕێژێکی بەکارهێنا بۆ بۆیەکردنی ئۆتۆمبێلەکە.""",
+                          """سپرەی ڕێژێکی بەکارھێنا بۆ بۆیەکردنی ئۆتۆمبێلەکە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -461,19 +460,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/CiTS3dcYicw?t=';
-const double _startSecondsend = 00000000000000000000000000079;
-const String _videoIdone = 'https://youtu.be/mFYiD8NfrMI?t=';
-const double _startSecondsone = 00000000000000000000000000029;
-const String _videoIdtwo = 'https://youtu.be/Byx_9EMMo1Y?t=';
-const double _startSecondstwo = 000000000000000000000000000227;
-const String _videoIdthree = 'https://youtu.be/AtiMqeDmo1M?t=';
-const double _startSecondsthree = 000000000000000000000000000153;
-const String _videoIdfour = 'https://youtu.be/O7UdNsU2LB8?t=';
-const double _startSecondsfour = 00000000000000000000000000011;
-const String _videoIdfive = 'https://youtu.be/gwZuUxeBYV8?t=';
-const double _startSecondsfive = 000000000000000000000000000819;
+const String _videoIdend = 'CiTS3dcYicw';
+const double _startSecondsend = 79;
+const String _videoIdone = 'mFYiD8NfrMI';
+const double _startSecondsone = 29;
+const String _videoIdtwo = 'Byx_9EMMo1Y';
+const double _startSecondstwo = 227;
+const String _videoIdthree = 'AtiMqeDmo1M';
+const double _startSecondsthree = 153;
+const String _videoIdfour = 'O7UdNsU2LB8';
+const double _startSecondsfour = 11;
+const String _videoIdfive = 'gwZuUxeBYV8';
+const double _startSecondsfive = 819;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

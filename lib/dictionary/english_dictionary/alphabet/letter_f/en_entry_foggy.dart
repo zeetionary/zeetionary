@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مژاوی، تەماوی،	تاریک، لێڵ، ناڕۆشن، نامەعلووم، نائاشکراو شلوێ،	شێواو، تێکەولێکە، شڵەژاو
 """),
-// With short examples define "foggy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کە بەھۆی تەمەوە ڕوون نییە"""),
                     SentencesRow(

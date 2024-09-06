@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "forensic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە تاقیکردنەوەی زانستی کە پۆلیس لە لێکۆڵینەوەی تاواندا بەکاری دەھێنێت"""),

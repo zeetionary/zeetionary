@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەنگاو، گاڤ، پێنگاڤ، شەقاو،	جێ‌پا، شوێن‌پێ
 """),
-// With short examples define "footstep", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەنگ یان شوێن‌پێ ھەر کاتێک پێ دەنێیت بە زەویدا"""),

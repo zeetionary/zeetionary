@@ -147,10 +147,10 @@ ${englishMeaningConst.text}
 // کوردی:
 // """),
                     const DefinitionKurdish(
-                        text: """١. (ھاوەڵناو) کە گرنگی بە داهاتوو نادات"""),
+                        text: """١. (ھاوەڵناو) کە گرنگی بە داھاتوو نادات"""),
                     SentencesRow(
                       englishText: """She had a happy-go-lucky personality.""",
-                      kurdishText: """کەسایەتییەکی خاترجەمانەی هەبوو.""",
+                      kurdishText: """کەسایەتییەکی خاترجەمانەی ھەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -221,19 +221,18 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
-const String _videoIdend = 'https://youtu.be/aHzeP7V01do?t=';
-const double _startSecondsend = 00000000000000000000000000026;
-const String _videoIdone = 'https://youtu.be/AS9-ITLhQxo?t=';
-const double _startSecondsone = 000000000000000000000000000552;
-const String _videoIdtwo = 'https://youtu.be/fKewkAww5Ko?t=';
-const double _startSecondstwo = 000000000000000000000000000300;
-const String _videoIdthree = 'https://youtu.be/U6OhuqD4w1k?t=';
-const double _startSecondsthree = 000000000000000000000000000514;
-const String _videoIdfour = 'https://youtu.be/3x6DjeJNd64?t=';
-const double _startSecondsfour = 000000000000000000000000000416;
-const String _videoIdfive = 'https://youtu.be/eFReTj2KsM0?t=';
-const double _startSecondsfive = 000000000000000000000000000745;
+const String _videoIdend = 'aHzeP7V01do';
+const double _startSecondsend = 26;
+const String _videoIdone = 'AS9-ITLhQxo';
+const double _startSecondsone = 552;
+const String _videoIdtwo = 'fKewkAww5Ko';
+const double _startSecondstwo = 300;
+const String _videoIdthree = 'U6OhuqD4w1k';
+const double _startSecondsthree = 514;
+const String _videoIdfour = '3x6DjeJNd64';
+const double _startSecondsfour = 416;
+const String _videoIdfive = 'eFReTj2KsM0';
+const double _startSecondsfive = 745;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

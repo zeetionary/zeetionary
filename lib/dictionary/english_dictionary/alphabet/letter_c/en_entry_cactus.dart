@@ -179,7 +179,7 @@ class EnglishEntrycactus extends StatelessWidget {
                             englishText:
                                 "Spectacular giant cacti stand on the hillside.",
                             kurdishText:
-                                "گوڵەخەپلەی گەورەی ناوازە لەسەر گردەکەن",
+                                "گوڵەخەپلەی گەورەی ناوازە لەسەر لاپاڵی گردەکەن",
                             onPressedBritish: () => speakcactuss1("en-GB"),
                             onPressedAmerican: () => speakcactuss1("en-US"),
                           ),

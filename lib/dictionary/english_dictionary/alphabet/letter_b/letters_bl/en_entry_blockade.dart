@@ -165,7 +165,7 @@ class EnglishEntryblockade extends StatelessWidget {
                             englishText:
                                 "The police set up blockades on highways leading out of the city.",
                             kurdishText:
-                                "پۆلیس بەربەستی دانا لەو ڕێگایانەی بۆ دەرەوەی شارەکە دەچوون.",
+                                "پۆلیس بەربەستی دانا لەو شاڕێیانەی بۆ دەرەوەی شارەکە دەچوون.",
                             onPressedBritish: () => speakblockades3("en-GB"),
                             onPressedAmerican: () => speakblockades3("en-US"),
                           ),

@@ -140,7 +140,7 @@ class EnglishEntryblowout extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "The tire had a blowout on the highway.",
-                            kurdishText: "تایەیەکی تەقی لەسەر ڕێگاکە.",
+                            kurdishText: "تایەیەکی تەقی لەسەر شاڕێگاکە.",
                             onPressedBritish: () => speakblowouts1("en-GB"),
                             onPressedAmerican: () => speakblowouts1("en-US"),
                           ),

@@ -8171,7 +8171,6 @@ final List<String> allWordsEnglish = [
 
 
   // "bobby pin",
-  // "bobby pin",
   // "broiler",
   // "corona",
   // "grandad",
@@ -8243,7 +8242,7 @@ final List<String> allWordsEnglish = [
   // "bachelorette party",
   // "henceforward",
   // "hi-tech",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "high strung",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",

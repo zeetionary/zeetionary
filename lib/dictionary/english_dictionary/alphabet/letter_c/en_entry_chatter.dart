@@ -219,7 +219,7 @@ class EnglishEntrychatter extends StatelessWidget {
                             englishText:
                                 "As they waited for help to arrive, the lost hikers could hear the chatter of teeth in the darkness.",
                             kurdishText:
-                                "کە واستابوون بۆ گەشتنی یارمەتی، شاخەوانە ونبووەکان گوێیان لە کڕەی ددان بوو لە تاریکییەکەدا.",
+                                "کە واستابوون بۆ گەشتنی یارمەتی، پیاسەکارە ونبووەکان گوێیان لە کڕەی ددان بوو لە تاریکییەکەدا.",
                             onPressedBritish: () => speakchatters8("en-GB"),
                             onPressedAmerican: () => speakchatters8("en-US"),
                           ),

@@ -162,7 +162,7 @@ class EnglishEntrybleak extends StatelessWidget {
                             englishText:
                                 "With no shelter in sight, the hikers faced a bleak night in the mountains as temperatures dropped.",
                             kurdishText:
-                                "بەوەی ھیچ پەناگەیەک دیار نەبوو، شاخەوانان ڕووبەڕووی شەوێکی سەرماوسۆڵە بوونەوە کە پلەی گەرمی دادەبەزی.",
+                                "بەوەی ھیچ پەناگەیەک دیار نەبوو، پیاسەکاران ڕووبەڕووی شەوێکی سەرماوسۆڵە بوونەوە کە پلەی گەرمی دادەبەزی.",
                             onPressedBritish: () => speakbleaks3("en-GB"),
                             onPressedAmerican: () => speakbleaks3("en-US"),
                           ),

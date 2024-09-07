@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The hikers followed a rocky defile that wound through the mountains.",
             kurdishText:
-                "شاخەوانان بە تەنگەڵانێکی بەرداویدا چوون کە بە دەوری شاخەکاندا دەچوو.",
+                "پیاسەکاران بە تەنگەڵانێکی بەرداویدا چوون کە بە دەوری شاخەکاندا دەچوو.",
             onPressedBritish: () => speakdefiles3("en-GB"),
             onPressedAmerican: () => speakdefiles3("en-US"),
           ),

@@ -5307,27 +5307,27 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hint.dart' show EnglishEntryhint;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hip.dart' show EnglishEntryhip;
 
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hippie.dart' show EnglishEntryhippie
+// en_entry_hippo.dart' show EnglishEntryhippo
+// en_entry_hippopotamus.dart' show EnglishEntryhippopotamus
+// en_entry_hire.dart' show EnglishEntryhire
+// en_entry_hire_purchase.dart' show EnglishEntryhirepurchase //////// hire purchase
+// en_entry_his.dart' show EnglishEntryhis
+// en_entry_hiss.dart' show EnglishEntryhiss
+// en_entry_historian.dart' show EnglishEntryhistorian
+// en_entry_historic.dart' show EnglishEntryhistoric
+// en_entry_historical.dart' show EnglishEntryhistorical
+// en_entry_historically.dart' show EnglishEntryhistorically
+// en_entry_history.dart' show EnglishEntryhistory
+// en_entry_hit.dart' show EnglishEntryhit
+// en_entry_hit_and_run.dart' show EnglishEntryhitandrun //////// hit-and-run
+// en_entry_hitman.dart' show EnglishEntryhitman
+// en_entry_hitch.dart' show EnglishEntryhitch
+// en_entry_hitchhike.dart' show EnglishEntryhitchhike
+// en_entry_hitchhiker.dart' show EnglishEntryhitchhiker
+// en_entry_hitherto.dart' show EnglishEntryhitherto
+// en_entry_hiv.dart' show EnglishEntryhiv //////// HIV
+// en_entry_hive.dart' show EnglishEntryhive
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

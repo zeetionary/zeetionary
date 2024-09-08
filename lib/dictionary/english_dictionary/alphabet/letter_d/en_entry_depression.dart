@@ -280,13 +280,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("Rainwater collects in shallow depressions on the ground.");
   }
 
-  Future<void> speakdepressions20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("He had a family history of depression.0");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

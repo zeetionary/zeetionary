@@ -135,7 +135,6 @@ class EnglishEntrybegrudge extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ناڕەحەت بوون بەوەی کەسێک شتێکی ھەیە چونکە پێت‌وایە شایەنی نییە"""),
                           const AlsoEnglishckb(word: "ھەروەھا: grudge"),

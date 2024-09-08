@@ -132,7 +132,6 @@ class EnglishEntryboating extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەلەم‌سواری؛ بەکارھێنانی بەلەمێک بۆ خۆشی"""),
                           SentencesRow(

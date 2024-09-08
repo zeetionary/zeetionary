@@ -167,7 +167,6 @@ class EnglishEntrycdrom extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جۆرە سی‌دییەک کە لەگەڵ کۆمپیوتەر بەکاردێت و زانیاری و دەنگ و وێنە لەسەری تەنھا دەخوێندرێتەوە و نانووسرێت لەلایەن کۆمپیوتەرەکەوە """),
                           SentencesRow(

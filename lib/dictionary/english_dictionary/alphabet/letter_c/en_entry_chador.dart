@@ -169,7 +169,6 @@ class EnglishEntrychador extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چارشێو؛ پارچە جلێکی گەورە کە ژنان دەیپۆشن بەشێوەیەک تەنھا ڕووخساریان دیارە، و بەتایبەتی لەلایەن ژنانی موسڵمانەوە لەبەردەکرێت"""),
                           SentencesRow(

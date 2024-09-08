@@ -145,7 +145,6 @@ class EnglishEntryapprovingly extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بە شێوەیەک کە شتێکت پێ پەسەندە یان ڕازی پێیت"""),
                           SentencesRow(

@@ -99,7 +99,6 @@ class EnglishEntryconsiderate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: بەئاگا، بیرفراوان، تێبین، بەسەرنج، دڵی خەڵک ڕادەگرێ، لە ڕووی سەرنجەوە، نیشانەی سەرنج
 // """),

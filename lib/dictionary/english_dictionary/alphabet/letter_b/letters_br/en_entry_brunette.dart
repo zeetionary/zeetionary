@@ -127,7 +127,6 @@ class EnglishEntrybrunette extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژنێکی سپی پێستی کە قژێکی قاوەیی تاریکی ھەیە"""),
                           SentencesRow(

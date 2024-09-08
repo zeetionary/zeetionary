@@ -135,7 +135,6 @@ class EnglishEntrybacon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گۆشتی پشت یان تەنیشتەکانی بەراز بەشێوەی قاژ قاژ"""),
                           SentencesRow(

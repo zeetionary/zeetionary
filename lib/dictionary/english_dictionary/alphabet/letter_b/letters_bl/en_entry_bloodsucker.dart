@@ -132,7 +132,6 @@ class EnglishEntrybloodsucker extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئاژەڵێک یان مێروویەک کە خوێنی ئاژەڵانی تر دەمژێت"""),
                           SentencesRow(

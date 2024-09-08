@@ -142,7 +142,6 @@ class EnglishEntryapply extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) پێشکەشکردنی داواکارییەک، زۆرجار بە نووسین، بۆ کارێک، قەرزێک، مۆڵەتی کردنی شتێک، یان جێگایەک لە زانکۆ"""),
                           SentencesRow(

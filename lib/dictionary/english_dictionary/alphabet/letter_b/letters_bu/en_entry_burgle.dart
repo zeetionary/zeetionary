@@ -174,7 +174,6 @@ class EnglishEntryburgle extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) چوونە بینایەک بە نایاسایی و بەکارھێنانی ھێز بە مەبەستی دزیکردن"""),
                           SentencesRow(

@@ -171,7 +171,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) کەمکردنەوەی فرۆشی بەرھەمێک لەلایەن کۆمپانیایەکەوە بە ناساندنی بەرھەمێکی دیکەی لێکچوو"""),
                           SentencesRow(

@@ -127,7 +127,6 @@ class EnglishEntrybronchial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بەو بۆڕیچکانەی کە لە قوڕگەوە ھەوا دەگوازنەوە بۆ سنگ"""),
                           SentencesRow(

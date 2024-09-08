@@ -148,7 +148,6 @@ class EnglishEntryartery extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) خوێنبەر؛ مولوولەی خوێن کە خوێن لە لەشەوە دەگوازنەوە بۆ بەشەکانی تری جەستە"""),
                           SentencesRow(

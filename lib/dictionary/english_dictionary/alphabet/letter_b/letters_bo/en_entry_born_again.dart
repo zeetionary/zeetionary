@@ -131,7 +131,6 @@ class EnglishEntrybornagain extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کەسێک کە باوەڕی توندی بە مەسیحییەتی ئینجیلی ھێناوە، بەتایبەتی لە دوای ئەزموونێکی ڕۆحی"""),
                           SentencesRow(

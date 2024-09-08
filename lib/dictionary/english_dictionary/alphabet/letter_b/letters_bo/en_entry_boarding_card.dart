@@ -131,7 +131,6 @@ class EnglishEntryboardingcard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کارتی سواربوون ناو فڕۆکە یان کەشتی)"""),
                           SentencesRow(

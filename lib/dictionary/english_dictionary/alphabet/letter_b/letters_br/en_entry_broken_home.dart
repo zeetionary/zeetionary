@@ -128,7 +128,6 @@ class EnglishEntrybrokenhome extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خێزانی لێک‌ھەڵوەشاو؛ خێزانێک کە دایک و باوکەکەی جیابوونەتەوە یان بە جیایی دەژین"""),
                           SentencesRow(

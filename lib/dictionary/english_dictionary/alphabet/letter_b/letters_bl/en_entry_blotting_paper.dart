@@ -134,7 +134,6 @@ class EnglishEntryblottingpaper extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کاغەزی ئەستووری نەرم کە دەدرێت بەسەر کاغەزێکدا کە تازەگی لەسەری نووسراوە بۆ وشککردنەوەی مەرەکەبەکە"""),
                           SentencesRow(

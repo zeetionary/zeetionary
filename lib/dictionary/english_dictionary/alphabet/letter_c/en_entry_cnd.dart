@@ -89,31 +89,6 @@ class EnglishEntrycnd extends StatelessWidget {
                           DefinitionKurdish(
                               text:
                                   "١. (کورتکراوە) کورتکراوە بۆ Campaign for Nuclear Disarmament؛ ڕێکخراوێکی بەریتانی کە ئامانجی ئەوەیە وڵاتان قایل بکات دەستبەرداری چەکی ئەتۆمی بن"),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Column(
-                          //         children: [
-                          //           ExampleSentenceEnglish(
-                          //               text:
-                          //                   "// speakCNDs111111111111111111111111111111111"),
-                          //           ExampleSentenceKurdish(
-                          //               text: "رستە_رستە_رستە_رستە."),
-                          //         ],
-                          //       ),
-                          //     ),
-                          //     const CustomSizedBoxForTTS(),                           //     Column(
-                          //       children: [
-                          //         CustomIconButtonBritish(
-                          //           onPressed: () => speakCNDs1("en-GB"),
-                          //         ),
-                          //         CustomIconButtonAmerican(
-                          //           onPressed: () => speakCNDs1("en-US"),
-                          //         ),
-                          //       ],
-                          //     ),
-                          //   ],
-                          // ),
                         ],
                       ),
                     ),

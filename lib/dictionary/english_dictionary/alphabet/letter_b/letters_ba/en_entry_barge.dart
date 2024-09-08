@@ -133,7 +133,6 @@ class EnglishEntrybarge extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەلەمێکی گەورە کە ڕووەکەی فلاتە و بەکاردێت بۆ ھەڵگرتنی کەلوپەل یان گەشتکردن لەسەری"""),
                           SentencesRow(

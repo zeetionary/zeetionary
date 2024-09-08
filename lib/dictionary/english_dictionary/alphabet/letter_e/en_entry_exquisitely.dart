@@ -282,7 +282,7 @@ class KurdishMeaning extends StatelessWidget {
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speaksentence300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   kurdishText: """رستە_رستە_رستە__رستە.""",
           //   onPressedBritish: () => speaksentence3("en-GB"),
           //   onPressedAmerican: () => speaksentence3("en-US"),
           // ),

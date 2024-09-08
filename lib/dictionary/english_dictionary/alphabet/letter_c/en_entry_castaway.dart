@@ -168,7 +168,6 @@ class EnglishEntrycastaway extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە کەشتییەکەی تێکشکاوە و مەلەی کردووە بۆ شوێنێکی دوورەپەرێز، بەزۆری بۆ دوورگەیەک"""),
                           SentencesRow(

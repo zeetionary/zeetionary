@@ -148,7 +148,6 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئێرۆماسێراپیست؛ کەسێک کە شارەزایی ھەیە لە بەکارھێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەھێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان
  """),

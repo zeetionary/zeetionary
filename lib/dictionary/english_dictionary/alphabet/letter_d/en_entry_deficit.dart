@@ -259,23 +259,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeficits1("en-GB"),
             onPressedAmerican: () => speakdeficits1("en-US"),
           ),
-          // "speakdeficits2          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdeficits2("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdeficits2("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
           const DividerSentences(),
           SentencesRow(
             englishText:

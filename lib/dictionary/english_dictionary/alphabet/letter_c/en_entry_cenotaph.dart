@@ -168,7 +168,6 @@ class EnglishEntrycenotaph extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مۆنومێنتێک کە درووستکراوە بۆ یادھێنانەوەی ئەو سەربازانەی کە لە شوێنی دیکە نێژراون"""),
                           SentencesRow(

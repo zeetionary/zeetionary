@@ -135,7 +135,6 @@ class EnglishEntrybillowy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) شتێک کە گەورە و نەرم دەردەکەوێت، یان ھەوای تێدایە"""),
                           SentencesRow(

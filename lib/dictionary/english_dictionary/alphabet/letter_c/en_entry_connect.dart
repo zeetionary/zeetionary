@@ -427,7 +427,7 @@ class EnglishEntryconnect extends StatelessWidget {
                           // text:
                           // "The blow connected and she felt a surge of pain."),
                           // ExampleSentenceKurdish(
-                          // text: "رستە_رستە_رستە_رستە."),
+                          // text: "رستە_رستە_رستە__رستە."),
                           // ],
                           // ),
                           // ),

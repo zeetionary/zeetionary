@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) جەختکردنەوە لە شتێک، یان وای لێ بکەیت ئاسانتر ببینرێت"""),
                           SentencesRow(

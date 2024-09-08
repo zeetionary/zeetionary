@@ -130,7 +130,6 @@ class EnglishEntrybowling extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بۆوڵینگ؛ یارییەکە کە یاریزانان تۆپ خلۆردەکەنەوە بەرەو کۆمەڵە شتێکی وەستاو کە شێوەیان وەک بوتڵ وان و ھەوڵ دەدات ھەتا بکرێت زیاتریان لێ بکەوێنێت"""),
                           SentencesRow(

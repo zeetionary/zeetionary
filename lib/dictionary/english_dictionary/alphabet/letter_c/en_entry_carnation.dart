@@ -167,7 +167,6 @@ class EnglishEntrycarnation extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گوڵێکی سپی، پەمەیی، سوور، یان زەرد کە زۆرجار وەک جوانکاری لە بۆنەی فەرمیدا دەبەسترێت"""),
                           SentencesRow(

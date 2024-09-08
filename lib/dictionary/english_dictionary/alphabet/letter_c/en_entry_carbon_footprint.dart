@@ -170,7 +170,6 @@ class EnglishEntrycarbonfootprint extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەو ڕێژە لە دوانۆکسیدی کاربۆن کە کەسێک یان کۆمپانیایەک دەیکاتە بەرگەھەواوە"""),
                           SentencesRow(

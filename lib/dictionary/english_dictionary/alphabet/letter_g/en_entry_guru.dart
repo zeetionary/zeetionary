@@ -178,7 +178,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Jean-Paul Sartre was the guru of post-war French philosophy.""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      kurdishText: """ژان پۆڵ ساتێرە پسپۆڕی فەلسەفەی فەرەنسای پاش جەنگ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

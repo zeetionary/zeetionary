@@ -132,7 +132,6 @@ class EnglishEntryblancmange extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شیرینییەک کە شێوەی لە جەلی دەچێت و بە شیر درووست دەکرێت لەگەڵ میوەدا کە تامی پێدەدا"""),
                           SentencesRow(

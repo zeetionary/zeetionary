@@ -169,7 +169,6 @@ class EnglishEntrycarp extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ماسییەک کە لە ئاوی سازگاردا دەژی و دەخوردرێت"""),
                           SentencesRow(

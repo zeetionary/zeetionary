@@ -168,7 +168,6 @@ class EnglishEntrycastanets extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چەقەنە، چاروە؛ ئامێرێکی میوزیکی کە لە دوو پارچە تەختەی بچووک پێکدێت و دەیان کێشیت بە یەکدا بۆ درووستکردنی دەنگ"""),
                           SentencesRow(

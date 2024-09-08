@@ -92,7 +92,6 @@ class EnglishEntryam extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) یەکێک لە ڕێگا باوەکانی گواستنەوەی دەنگی ڕادیۆیی"""),
                           SentencesRow(

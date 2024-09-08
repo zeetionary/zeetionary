@@ -138,7 +138,6 @@ class EnglishEntrybogey extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شتێک کە دەبێتە ھۆی ترس"""),
                           SentencesRow(
@@ -182,7 +181,7 @@ class EnglishEntrybogey extends StatelessWidget {
                           // text:
                           // "speak3s111111111111111111111111111111111"),
                           // ExampleSentenceKurdish(
-                          // text: "رستە_رستە_رستە_رستە."),
+                          // text: "رستە_رستە_رستە__رستە."),
                           // const CustomSizedBoxForTTS(),
                           // CustomIconButtonBritish(
                           // onPressed: () => speak("en-GB"),

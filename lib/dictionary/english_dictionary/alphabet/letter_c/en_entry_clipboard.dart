@@ -112,8 +112,9 @@ class EnglishEntryclipboard extends StatelessWidget {
                                   "٢. (ناو) بەشێکی کۆمپیوتەر کە تێیدا زانیاری بۆ ماوەیەکی کاتی ھەڵدەگیرێت کە لە شوێنێکەوە بۆ یەکێکی دیکە دەیگوازیتەوە"),
                           SentencesRow(
                             englishText:
-                                "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە.",
-                            kurdishText: "رستە_رستە_رستە_رستە.",
+                                "Use the clipboard to copy and paste information from websites.",
+                            kurdishText:
+                                "کلیپبۆردەکە بەکاربێنە بۆ کۆپی و لکاندنی زانیاری لە وێبسایتەوە..",
                             onPressedBritish: () => speakclipboards2("en-GB"),
                             onPressedAmerican: () => speakclipboards2("en-US"),
                           ),

@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کرداری لێکدراو) کاتێک شتێک ڕێژەیەکی زۆر لە شتێکی تێدایە"""),
                           SentencesRow(

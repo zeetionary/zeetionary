@@ -167,7 +167,6 @@ class EnglishEntrycasino extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) قومارخانە، کازینۆ؛ بینایەکی گشتی یان ژوورێک کە خەڵکی تێیدا یاری قومار دەکەن بۆ پارە"""),
                           SentencesRow(

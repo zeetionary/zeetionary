@@ -170,7 +170,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە پشتگیری بۆ کەسێک یان پارتێکی سیاسی کۆدەکاتەوە، بە پەیوەندی کردن یان گەڕانی مەیدانی"""),
                           SentencesRow(

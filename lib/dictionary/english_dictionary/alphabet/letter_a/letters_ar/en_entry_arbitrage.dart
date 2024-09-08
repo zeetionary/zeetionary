@@ -148,7 +148,6 @@ class EnglishEntryarbitrage extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کڕینی شتێک لە شوێنێک و فرۆشتنی لە شوێنێکی تر کە نرخەکەی بەرزترە"""),
                           SentencesRow(

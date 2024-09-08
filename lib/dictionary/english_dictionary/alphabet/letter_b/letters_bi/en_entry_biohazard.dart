@@ -134,7 +134,6 @@ class EnglishEntrybiohazard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شتێک، بۆ نموونە نەخۆشییەک یان مادەیەکی کیمیایی، کە دەکرێت زیان بە خەڵکی یان ئاژەڵان بگەیەنێت"""),
                           SentencesRow(

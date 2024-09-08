@@ -135,7 +135,6 @@ class EnglishEntrybiblical extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە ئینجیل، کتێبی پیرۆزی ئایینی مەسیحییەت"""),
                           SentencesRow(

@@ -236,23 +236,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeficients1("en-GB"),
             onPressedAmerican: () => speakdeficients1("en-US"),
           ),
-          // "speakdeficients2          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdeficients2("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdeficients2("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە بەپێی پێویست باش نییە"),

@@ -91,7 +91,6 @@ class EnglishEntrycontroller extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: بەڕێوەبەری (کاروباری) دارایی، چاودێری خەرج‌وبار،	دەزگای میزان(کردن)، مەھارە، میزانە(ک)، تەرازێنە
 // """),

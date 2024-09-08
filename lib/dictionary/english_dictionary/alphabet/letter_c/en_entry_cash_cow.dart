@@ -168,7 +168,6 @@ class EnglishEntrycashcow extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەشێکی بازرگانییەک کە بەردەوام پارە پەیدا دەکات و پارە بۆ بەشەکانی دیکەی بازرگانییەکە دابین دەکات"""),
                           SentencesRow(

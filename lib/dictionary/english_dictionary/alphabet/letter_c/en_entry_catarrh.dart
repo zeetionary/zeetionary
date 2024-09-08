@@ -167,7 +167,6 @@ class EnglishEntrycatarrh extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شلەی خەست کە لە لووت و دەمدا درووست دەبێت، بۆ نموونە لەکاتی ھەڵامەت"""),
                           SentencesRow(

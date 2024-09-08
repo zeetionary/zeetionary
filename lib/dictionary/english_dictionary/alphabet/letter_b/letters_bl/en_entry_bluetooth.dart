@@ -131,7 +131,6 @@ class EnglishEntrybluetooth extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تەکنەلۆژیایەکی ڕادیۆیی کە ڕێگە دەدات موبایل و کۆمپیوتەر و ئامێری ئەلیکترۆنی دیکە لە مەودایەکی نزیک لە یەکدی پێکەوە لە پەیوەندیدا بن بەبێ بەکارھێنانی وایەر"""),
                           SentencesRow(

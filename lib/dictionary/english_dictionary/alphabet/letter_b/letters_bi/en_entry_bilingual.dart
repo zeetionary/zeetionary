@@ -133,7 +133,6 @@ class EnglishEntrybilingual extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ھەبوونی توانای قسەکردن بە دوو زمان وەک یەک بە باشی"""),
                           SentencesRow(

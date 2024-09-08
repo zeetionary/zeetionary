@@ -139,7 +139,6 @@ class EnglishEntryampup extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) زیادکردنی دەنگی میوزیک کە لە بڵیندگۆیەکەوە لێدەدرێت"""),
                           SentencesRow(

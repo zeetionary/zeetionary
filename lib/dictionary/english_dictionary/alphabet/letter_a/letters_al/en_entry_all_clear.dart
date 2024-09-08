@@ -100,7 +100,6 @@ class EnglishEntryallclear extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئاماژەیەک بۆ ئەوەی شوێنێک چی تر مەترسیدار نییە"""),
                           SentencesRow(

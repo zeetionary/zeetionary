@@ -147,7 +147,6 @@ Adverb: abominably
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەکی زۆر خراپ"""),
                           SentencesRow(

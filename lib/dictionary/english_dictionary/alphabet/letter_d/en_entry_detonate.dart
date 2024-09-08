@@ -261,13 +261,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: "speakdetonates300",
-            kurdishText: "رستە_رستە_رستە_رستە.",
-            onPressedBritish: () => speakdetonates3("en-GB"),
-            onPressedAmerican: () => speakdetonates3("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
             englishText: "The bomb detonated unexpectedly.",
             kurdishText: "بۆمبەکە لەناکاو تەقییەوە.",
             onPressedBritish: () => speakdetonates4("en-GB"),

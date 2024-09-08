@@ -272,7 +272,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The researchers then measured brain activity in two groups of healthy subjects.""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      kurdishText: """توێژەران دواتر کۆڵیانەوە لە چالاکی مێشکی دوو گرووپ لە کەسانی تەندرووست.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

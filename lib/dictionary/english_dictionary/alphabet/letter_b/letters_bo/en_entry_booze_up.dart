@@ -132,7 +132,6 @@ class EnglishEntryboozeup extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بۆنەیەک کە خەڵکی تێیدا ڕێژەیەکی زۆر خواردنەوە دەخۆنەوە"""),
                           SentencesRow(

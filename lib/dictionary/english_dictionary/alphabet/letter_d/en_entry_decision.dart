@@ -324,7 +324,7 @@ class KurdishMeaning extends StatelessWidget {
                   SentencesRow(
                     englishText:
                         "We finally reached a decision (= decided after some difficulty).",
-                    kurdishText: "رستە_رستە_رستە_رستە.",
+                    kurdishText: "لە کۆتاییدا گەشتین بە بڕیارێک.",
                     onPressedBritish: () => speakdecisions5("en-GB"),
                     onPressedAmerican: () => speakdecisions5("en-US"),
                   ),

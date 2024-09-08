@@ -106,7 +106,6 @@ class EnglishEntrychorus extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: کۆرس، ھاوچڕە، دەستەی گۆرانی، پێکەوەبێژان، کۆڕبێژان،	موسیقای کۆڕ،	گۆرانی پێکەوە یان بەکۆمەڵ، کۆڕبێژی، دەستەی سەماکەر و گۆرانی‌بێژان (شۆی موزیکاڵ)،	سەربەند،	ھاوار (پێکەوە، بۆ دەربڕینی پێخۆش‌بوون یا پێخۆش‌نەبوون)،	بێژەر، گێڕەوە، داستان‌بێژ، چیرۆک‌بێژ
 // """),

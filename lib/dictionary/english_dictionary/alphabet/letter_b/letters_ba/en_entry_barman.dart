@@ -135,7 +135,6 @@ class EnglishEntrybarman extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پیاوێک کە لە باڕێک کاردەکات"""),
                           SentencesRow(

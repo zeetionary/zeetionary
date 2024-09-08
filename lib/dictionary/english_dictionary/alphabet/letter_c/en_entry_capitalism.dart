@@ -171,7 +171,6 @@ class EnglishEntrycapitalism extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سەرمایەداری؛ سیستەمێکی حکومڕانی ئابووری کە تێیدا پیشەسازی و بازرگانیی وڵاتێک کۆنترۆڵکراوە و بەڕێوە دەبردرێت بۆ قازانج لەلایەن خاوەنەکانیانەوە وەک لە حکومەت"""),
                           SentencesRow(

@@ -113,7 +113,6 @@ class EnglishEntryaheadof extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئامراز) کات یان شوێنی لەپێش"""),
                           SentencesRow(

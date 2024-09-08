@@ -164,7 +164,6 @@ class EnglishEntrymakeamends extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) کردنی شتێک بۆ کەسێک بۆ پیشاندانی پەشیمانی"""),
                           Row(

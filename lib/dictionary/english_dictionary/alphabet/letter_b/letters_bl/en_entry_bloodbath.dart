@@ -133,7 +133,6 @@ class EnglishEntrybloodbath extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک بە دڕندەیی دەکوژرێن"""),
                           SentencesRow(

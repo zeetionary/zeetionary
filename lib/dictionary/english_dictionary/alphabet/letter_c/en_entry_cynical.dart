@@ -280,7 +280,7 @@ class KurdishMeaning extends StatelessWidget {
           // text:
           // "Cynical fouls by defenders with no intention of playing the ball were the reason referees were asked to get tough in the first place."),
           // ExampleSentenceKurdish(
-          // text: "رستە_رستە_رستە_رستە."),
+          // text: "رستە_رستە_رستە__رستە."),
           // ],
           // ),
           // ),

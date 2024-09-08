@@ -135,7 +135,6 @@ class EnglishEntrybadminton extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یارییەکە کە وەک تێنسە و لەلایەن دوو یان چوار کەسەوە دەکرێت. یاریزانان لە تۆپێک دەدەن کە پەڕدارە بە دەسکێک بەسەر تۆڕێکی بەرزدا"""),
                           SentencesRow(

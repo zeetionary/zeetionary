@@ -171,7 +171,6 @@ class EnglishEntrycake extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خواردنێکی شیرین کە لە تێکەڵەیەک لە ئارد، ھێلکە، کەرە، شەکر، ھتد دروست دەکرێت و لە فڕندا دەبرژێنرێت. کێک بە شێوە و قەبارەی جۆراوجۆر دروست دەکرێت و زۆرجار دەڕازێنرێتەوە"""),
                           SentencesRow(

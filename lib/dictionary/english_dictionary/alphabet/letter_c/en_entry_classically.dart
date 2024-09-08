@@ -169,7 +169,7 @@ class EnglishEntryclassically extends StatelessWidget {
                           // text:
                           // "speakclassicallys500"),
                           // ExampleSentenceKurdish(
-                          // text: "رستە_رستە_رستە_رستە."),
+                          // text: "رستە_رستە_رستە__رستە."),
                           // ],
                           // ),
                           // ),

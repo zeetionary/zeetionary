@@ -168,7 +168,6 @@ class EnglishEntrycathode extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەلیکترۆدی ئامێرێکی کارەبایی کە تێیدا کەمبوونەوە ڕوودەدات؛ ئەلیکترۆدی نێگەتیڤ لە خانەیەکی ئەلیکترۆلیکی، و ئەلیکترۆدی پۆزەتیڤ لە باترییەک"""),
                           SentencesRow(

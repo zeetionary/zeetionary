@@ -147,7 +147,6 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) دەرمانێک کە درووست‌کراوە بۆ ڕێگری لە ڤایرۆسی وەک ئێچ-ئای-ڤی کە دەبێتەھۆی ئایدز"""),
                           SentencesRow(

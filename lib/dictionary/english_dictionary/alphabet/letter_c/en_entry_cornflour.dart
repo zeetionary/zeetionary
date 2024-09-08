@@ -91,7 +91,6 @@ class EnglishEntrycornflour extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: ئارد، ئاردی گەنمەشامی،	ئاردی برنج، ئاردەبرنج
 // """),

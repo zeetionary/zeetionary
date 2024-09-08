@@ -127,7 +127,6 @@ class EnglishEntrybriefs extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شۆرتی ژێرەوەی پیاوان و ژنان"""),
                           SentencesRow(

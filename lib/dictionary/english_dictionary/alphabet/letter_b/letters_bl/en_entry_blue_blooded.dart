@@ -132,7 +132,6 @@ class EnglishEntryblueblooded extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کەسانی پلە باڵا و خانەدان"""),
                           SentencesRow(

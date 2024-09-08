@@ -134,7 +134,6 @@ class EnglishEntrybaptize extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ئەنجامدانی ڕێوڕەسمی تەوفن (بۆنەیەک لە ئایینی مەسیحیدا کە تێیدا چەند دڵۆپە ئاوێک لەسەر کەسێک دەکرێت بۆ خێراتنکردنیان بۆ ناو کڵێسای مەسیحی، و زۆر جار بەپێدانی ناوێک ئەگەر منداڵ بێت)"""),
                           SentencesRow(

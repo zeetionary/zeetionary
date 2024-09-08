@@ -168,7 +168,6 @@ class EnglishEntrycathedral extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کڵێسای سەرەکیی ناوچەیەک کە لەژێر چاودێری قەشەیەکی باڵایە"""),
                           SentencesRow(

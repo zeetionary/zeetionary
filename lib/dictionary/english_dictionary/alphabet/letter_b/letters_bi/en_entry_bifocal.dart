@@ -134,7 +134,6 @@ class EnglishEntrybifocal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) چاویلکەی دووتیشکۆ کە ھەر ھاوێنەیەکی لە دوو بەش پێکھاتووە. بەشی سەرەوە بۆ بینینی شتی دوورە و بەشی خوارەوەش بۆ بینینی شتی نزیکە"""),
                           SentencesRow(

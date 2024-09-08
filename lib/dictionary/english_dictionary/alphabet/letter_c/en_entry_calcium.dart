@@ -170,7 +170,6 @@ class EnglishEntrycalcium extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کالسیۆم؛ مادەیەکی کیمیاییە کە لە لەشی مرۆڤدا لە ددان و ئێسکدا ھەیە"""),
                           SentencesRow(

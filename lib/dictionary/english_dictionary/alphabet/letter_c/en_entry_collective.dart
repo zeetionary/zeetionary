@@ -140,64 +140,6 @@ class EnglishEntrycollective extends StatelessWidget {
                             onPressedBritish: () => speakcollectives3("en-GB"),
                             onPressedAmerican: () => speakcollectives3("en-US"),
                           ),
-                          // const DividerDefinition(),
-                          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) بۆ ئاماژەکردن بە تەواوی ئەندامانی گرووپێک"),
-                          // Row(
-                          // children: [
-                          // const Expanded(
-                          // child: Column(
-                          // children: [
-                          // ExampleSentenceEnglish(
-                          // text:
-                          // "The collective name for mast, boom and sails on a boat is the ‘rig’."),
-                          // ExampleSentenceKurdish(
-                          // text: "رستە_رستە_رستە_رستە."),
-                          // ],
-                          // ),
-                          // ),
-                          // const CustomSizedBoxForTTS(),
-                          // Column(
-                          // children: [
-                          // CustomIconButtonBritish(
-                          // onPressed: () => speakcollectives4("en-GB"),
-                          // ),
-                          // CustomIconButtonAmerican(
-                          // onPressed: () => speakcollectives4("en-US"),
-                          // ),
-                          // ],
-                          // ),
-                          // ],
-                          // ),
-                          // skipped_meaning
-                          // const DividerDefinition(),
-                          // const DefinitionKurdish(
-                          //     text: "٢. (ناو) کۆمەڵە کەسێک کە خاوەنداری بازرگانییەک یان کێڵگەیەک دەکەن و بەڕێوەی دەبەن"),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Column(
-                          //         children: [
-                          //           ExampleSentenceEnglish(
-                          //               text:
-                          //                   "speakcollectives500"),
-                          //           ExampleSentenceKurdish(
-                          //               text: "رستە_رستە_رستە_رستە."),
-                          //         ],
-                          //       ),
-                          //     ),
-                          //     const CustomSizedBoxForTTS(),
-                          //     Column(
-                          //       children: [
-                          //         CustomIconButtonBritish(
-                          //           onPressed: () => speakcollectives5("en-GB"),
-                          //         ),
-                          //         CustomIconButtonAmerican(
-                          //           onPressed: () => speakcollectives5("en-US"),
-                          //         ),
-                          //       ],
-                          //     ),
-                          //   ],
-                          // ),
                         ],
                       ),
                     ),

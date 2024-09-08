@@ -164,7 +164,6 @@ class EnglishEntryamethyst extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئەمیتیست؛ بەردێکی بەنرخی وەنەوشەیی، کە لە دروستکردنی خشڵی جوانکاریدا بەکاردەھێنرێت"""),
                           SentencesRow(

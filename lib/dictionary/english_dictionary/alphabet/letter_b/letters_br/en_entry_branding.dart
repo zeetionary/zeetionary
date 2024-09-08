@@ -130,7 +130,6 @@ class EnglishEntrybranding extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چالاکی درووستکردنی ناو یان وێنا بۆ شتێک بۆ کەلوپەل یان خزمەتگوزاری بۆ ئەوەی سەرنج ڕابکێشێت و خەڵکی بیکڕن"""),
                           SentencesRow(

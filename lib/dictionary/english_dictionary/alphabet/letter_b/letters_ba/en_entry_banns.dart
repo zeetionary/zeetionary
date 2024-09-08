@@ -134,7 +134,6 @@ class EnglishEntrybanns extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕاگەیاندنی فەرمی کڵێسا کە دوو کەس ھاوسەرگیری دەکەن"""),
                           SentencesRow(

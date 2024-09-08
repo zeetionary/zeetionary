@@ -133,7 +133,6 @@ class EnglishEntrybluesky extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) لەخۆگرتنی بیرۆکەی سەرنجڕاکێش و تازە بۆ شتانێک کە ھێشتا ناکرێن"""),
                           SentencesRow(

@@ -167,7 +167,6 @@ class EnglishEntrycelery extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەرەوز؛ سەوزەیەک کە قەدێکی سوەزی درێژی ھەیە و بە کاڵی دەخورێت"""),
                           SentencesRow(

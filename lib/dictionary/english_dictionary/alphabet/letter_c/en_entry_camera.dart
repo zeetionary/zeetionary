@@ -169,7 +169,6 @@ class EnglishEntrycamera extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کامێرا؛ ئامرازێک کە بەکاردێت بۆ گرتنی وێنە، وێنەی جوڵاو، یان وێنەی تەلەفیزیۆنی. کامێرا دەکرێت سەربەخۆ بێت یان بەشێک بێت لە ئامێرێکی دیکە"""),
                           SentencesRow(

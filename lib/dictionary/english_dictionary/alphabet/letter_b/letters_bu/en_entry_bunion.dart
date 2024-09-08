@@ -170,7 +170,6 @@ class EnglishEntrybunion extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئاوسانێکی بە ئازار لەسەر ]ێ، زۆرجار لە پەنجە گەورە"""),
                           SentencesRow(

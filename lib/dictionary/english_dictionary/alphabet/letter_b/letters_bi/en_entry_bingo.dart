@@ -133,7 +133,6 @@ class EnglishEntrybingo extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بینگۆ؛ یارییەک کە تێیدا خەڵات دەبەیتەوە ئەگەر بە شانس ژمارە بڵێیت و لەگەڵ ژمارەی سەر کاردێک یەکبگرێتەوە"""),
                           SentencesRow(

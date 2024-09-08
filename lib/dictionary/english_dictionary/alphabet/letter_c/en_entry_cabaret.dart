@@ -170,7 +170,6 @@ class EnglishEntrycabaret extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گۆرانی گوتن و سەما کە شەوانە لە چێشتخانەکاندا یان یانەکاندا دەکرێت"""),
                           SentencesRow(

@@ -168,7 +168,6 @@ class EnglishEntrycastoff extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شتانێک، بە تایبەتی جلوبەرگ، کە چێ دیکە ناتەوێت"""),
                           SentencesRow(

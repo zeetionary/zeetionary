@@ -5276,37 +5276,37 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_high_tech.dart' show EnglishEntryhightech; //// فففف high-tech;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_high_technology.dart' show EnglishEntryhightechnology; //// فففف high technology;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_high_tension.dart' show EnglishEntryhightension; //// ffff high-tension
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_highway.dart' show EnglishEntryhighway;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_highwayman.dart' show EnglishEntryhighwayman;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_highlight.dart' show EnglishEntryhighlight;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_highly.dart' show EnglishEntryhighly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_highly_strung.dart' show EnglishEntryhighlystrung; //////// highly_strung;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_highness.dart' show EnglishEntryhighness; //////// Highness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hijab.dart' show EnglishEntryhijab;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hijack.dart' show EnglishEntryhijack;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hijacker.dart' show EnglishEntryhijacker;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hike.dart' show EnglishEntryhike;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hiker.dart' show EnglishEntryhiker;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hilarious.dart' show EnglishEntryhilarious;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hilariously.dart' show EnglishEntryhilariously;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hilarity.dart' show EnglishEntryhilarity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hill.dart' show EnglishEntryhill;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hillside.dart' show EnglishEntryhillside;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hilltop.dart' show EnglishEntryhilltop;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hilt.dart' show EnglishEntryhilt;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_him.dart' show EnglishEntryhim;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_himself.dart' show EnglishEntryhimself;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hind.dart' show EnglishEntryhind;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hindquarters.dart' show EnglishEntryhindquarters;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hinder.dart' show EnglishEntryhinder;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hindrance.dart' show EnglishEntryhindrance;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hindsight.dart' show EnglishEntryhindsight;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hindu.dart' show EnglishEntryhindu; //////// Hindu;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hinduism.dart' show EnglishEntryhinduism; //////// Hinduism;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hinge.dart' show EnglishEntryhinge;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hint.dart' show EnglishEntryhint;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hip.dart' show EnglishEntryhip;
 
-// en_entry_highway.dart' show EnglishEntryhighway
-// en_entry_highwayman.dart' show EnglishEntryhighwayman
-// en_entry_highlight.dart' show EnglishEntryhighlight
-// en_entry_highly.dart' show EnglishEntryhighly
-// en_entry_highly_strung.dart' show EnglishEntryhighlystrung //////// highly_strung
-// en_entry_highness.dart' show EnglishEntryhighness //////// Highness
-// en_entry_hijab.dart' show EnglishEntryhijab
-// en_entry_hijack.dart' show EnglishEntryhijack
-// en_entry_hijacker.dart' show EnglishEntryhijacker
-// en_entry_hike.dart' show EnglishEntryhike
-// en_entry_hiker.dart' show EnglishEntryhiker
-// en_entry_hilarious.dart' show EnglishEntryhilarious
-// en_entry_hilariously.dart' show EnglishEntryhilariously
-// en_entry_hilarity.dart' show EnglishEntryhilarity
-// en_entry_hill.dart' show EnglishEntryhill
-// en_entry_hillside.dart' show EnglishEntryhillside
-// en_entry_hilltop.dart' show EnglishEntryhilltop
-// en_entry_hilt.dart' show EnglishEntryhilt
-// en_entry_him.dart' show EnglishEntryhim
-// en_entry_himself.dart' show EnglishEntryhimself
-// en_entry_hind.dart' show EnglishEntryhind
-// en_entry_hindquarters.dart' show EnglishEntryhindquarters
-// en_entry_hinder.dart' show EnglishEntryhinder
-// en_entry_hindrance.dart' show EnglishEntryhindrance
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

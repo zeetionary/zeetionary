@@ -107,7 +107,6 @@ class EnglishEntrycompress extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: کۆمپرێس، ڕەوێنە(ڕە)، خاوکەرەوە، خاولەی تەڕ
 // """),

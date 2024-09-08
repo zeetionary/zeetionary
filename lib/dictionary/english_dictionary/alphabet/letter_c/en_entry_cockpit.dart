@@ -84,7 +84,6 @@ class EnglishEntrycockpit extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: کابین، ژووری فڕۆکەوان، ژووری دەستەی فڕۆکەوانی یان کەشتی ئاسمانی
 // 2	جێگای شۆفیر (ئۆتۆمبێلی پێشبڕکێ)

@@ -168,7 +168,6 @@ class EnglishEntrycarbonoffset extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕێگایەک بۆ کۆمپانیایەک یان کەسێک کە قەرەبووی ئەو دووەم ئۆکسیدی کاربۆنە بکاتەوە کە دەیکاتە بەرگەھەواوە بە پارەدان بە کۆمپانیایەک بۆ ناشتنی دار لە جیاتیدا"""),
                           SentencesRow(

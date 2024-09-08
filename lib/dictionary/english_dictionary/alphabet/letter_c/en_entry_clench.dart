@@ -105,7 +105,6 @@ class EnglishEntryclench extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: پەرچ (سەری بزمار)،	ئاوقە، ئامباز، ھەڕا،	باوەش‌پیاکردن
 // """),

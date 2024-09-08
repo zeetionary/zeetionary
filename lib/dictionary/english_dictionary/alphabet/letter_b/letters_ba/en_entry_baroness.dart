@@ -135,7 +135,6 @@ class EnglishEntrybaroness extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ژنێک کە لە ناو گەورەزادەکاندا لە نزمترین ئاستە"""),
                           SentencesRow(

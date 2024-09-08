@@ -168,7 +168,6 @@ class EnglishEntrycardigan extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کراسی خوری؛ چاکەتێک کە لە خوری درووستکراوە بەڵام بە دووگمە دەبەسترێت"""),
                           SentencesRow(

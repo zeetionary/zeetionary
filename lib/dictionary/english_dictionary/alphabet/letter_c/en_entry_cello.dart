@@ -167,7 +167,6 @@ class EnglishEntrycello extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چەلۆ؛ ئامێرێکی میوزیکی گەورە کە تەلی ھەیە و وەک کەمانچەیەکی گەورە وایە"""),
                           SentencesRow(

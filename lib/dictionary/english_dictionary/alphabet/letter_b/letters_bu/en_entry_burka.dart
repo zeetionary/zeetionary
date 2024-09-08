@@ -171,7 +171,6 @@ class EnglishEntryburka extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بورقە؛ پارچە جلێکی فش و درێژ کە تەواوی جەستە دادەپۆشێت، بە سەر و ڕووخساریشەوە، لە لایەن ژمارەیەک ئافرەتی موسڵمانەوە دەپۆشرێت"""),
                           SentencesRow(

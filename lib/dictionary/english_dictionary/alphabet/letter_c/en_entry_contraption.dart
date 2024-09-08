@@ -83,7 +83,6 @@ class EnglishEntrycontraption extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: دەزگا یان ئۆتۆمبێلی سەیر (و سەمەرە)، کەڵەکەتڕێ
 // """),

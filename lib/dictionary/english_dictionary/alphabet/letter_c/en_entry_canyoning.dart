@@ -170,7 +170,6 @@ class EnglishEntrycanyoning extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) وەرزشێک کە بریتییە لە شوێنکەوتنی ڕووبارێکی خێرا کە بە دۆڵێکی قووڵ و تەسکدا تێدەپەڕێت، بە بەکارھێنانی ژمارەیەک ڕێگا کە بریتین لە سەرکەوتن، چوونەخوارەوە بەسەر لێوارە بەرزەکاندا بە بەکارھێنانی پەت، و مەلەکردن :"""),
                           SentencesRow(

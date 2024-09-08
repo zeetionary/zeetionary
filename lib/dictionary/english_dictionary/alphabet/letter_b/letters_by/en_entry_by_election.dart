@@ -169,7 +169,6 @@ class EnglishEntrybyelection extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەڵبژاردنێک بۆ ئەندامێکی تازەی پەرلەمان بۆ شوێنگرتنەوەی یەکێک کە مردووە یان دەستی لەکارکێشاوەتەوە"""),
                           SentencesRow(

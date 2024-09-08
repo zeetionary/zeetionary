@@ -85,7 +85,6 @@ class EnglishEntryconsumergoods extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: کەل‌وپەلی بەکارھێنراو یا لەکارکردەنی یا مەسرەفی
 // """),

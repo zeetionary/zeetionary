@@ -84,7 +84,6 @@ class EnglishEntrychampagne extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جۆرێکی مەی کە سپی درەوشاوەیە و لە ھەرێمی شامپەینی فەرەنسا بەرھەم دێت"""),
                           SentencesRow(

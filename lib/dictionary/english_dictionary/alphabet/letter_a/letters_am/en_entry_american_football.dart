@@ -85,7 +85,6 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یارییەک کە لەلایەن دوو تیمی ١١ کەسی دەکرێت بە تۆپێکی ھێلکەیی کە یاریزانان ھەوڵ دەدەن تێی ھەڵبدەن، بیھاوێژن، یان ھەڵیبگرن، و بیخەنە ھێڵی تیمی بەرامبەر"""),
                           SentencesRow(

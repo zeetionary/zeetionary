@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ناو) ئەو پارەیەی کە حکومەت بە کەسانی بێکاری دەدات"),
           SentencesRow(
             englishText: "He's been on the dole (= without a job) for a year.",
-            kurdishText: "رستە_رستە_رستە_رستە.",
+            kurdishText: "بۆ ساڵێک دەبێت بێ‌کارە.",
             onPressedBritish: () => speakdoles1("en-GB"),
             onPressedAmerican: () => speakdoles1("en-US"),
           ),

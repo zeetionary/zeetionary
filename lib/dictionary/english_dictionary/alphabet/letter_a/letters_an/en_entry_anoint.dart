@@ -140,7 +140,6 @@ class EnglishEntryanoint extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) دانانی ڕۆن یان ئاو لەسەر سەر یان جەستەی کەسێک وەک بەشێک لە ڕێوڕەسمێکی ئاینی"""),
                           SentencesRow(

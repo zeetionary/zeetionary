@@ -168,7 +168,6 @@ class EnglishEntrycassava extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ڕووەکێکی خولگەیی کە لقی زۆر و ڕیشکی درێژی ھەیە و دەکرێت بخوردرێت، یان ڕەگەکەی کە دەکرێت بکوڵێندرێت، ببرژێندرێت، یان بکرێت بە ئارد"""),
                           SentencesRow(

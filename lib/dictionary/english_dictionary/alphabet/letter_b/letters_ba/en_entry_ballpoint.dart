@@ -134,7 +134,6 @@ class EnglishEntryballpoint extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پێنووسێک کە تۆپێکی ئاسنینی بچووک بە نوکەکەیەوەیە کە مڕەکەب دەڕێژێت"""),
                           SentencesRow(

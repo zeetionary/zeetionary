@@ -127,7 +127,6 @@ class EnglishEntrybronchitis extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نەخۆشی کە تووشی ئەو بۆڕیچکانە دەبن کە لە قوڕگەوە بۆ سنگ دەچن و دەبێتە ھۆی ئاوساوی و کۆکە و ھەناسەتەنگی"""),
                           SentencesRow(

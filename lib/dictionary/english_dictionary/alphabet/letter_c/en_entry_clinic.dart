@@ -111,7 +111,6 @@ class EnglishEntryclinic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: نەخۆش‌خانەی تایبەتی، کلینیک
 // 2	پزشک یان نۆژدار یان نۆژدارانی کلینیک

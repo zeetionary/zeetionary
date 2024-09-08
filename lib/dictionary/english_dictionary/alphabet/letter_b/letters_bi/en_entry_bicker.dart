@@ -134,7 +134,6 @@ class EnglishEntrybicker extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) مشتومڕ لەسەر ئەو شتانەی کە گرنگ نیین"""),
                           SentencesRow(

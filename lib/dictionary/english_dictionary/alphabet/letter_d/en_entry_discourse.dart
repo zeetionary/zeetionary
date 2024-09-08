@@ -233,55 +233,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscourses1("en-US"),
           ),
           // skipped_meaning
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ناو) بەکارھێنانی زمان بۆ گفتوگۆ بە قسە یان نووسین"),
-          // // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // "speakdiscourses3          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdiscourses3("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdiscourses3("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // discourses4discourses4
-          // discourses5discourses5
-          // discourses6discourses6
-          // discourses7discourses7
-          // discourses8discourses8
-          // discourses9discourses9
-          // discourses_10discourses10
-          // discourses11discourses11
-          // discourses12discourses12
-          // discourses13discourses13
-          // discourses14discourses14
-          // discourses15discourses15
-          // discourses16discourses16
-          // discourses17discourses17
-          // discourses18discourses18
-          // discourses19discourses19
-          // discourses_20discourses20
-          // discourses21discourses21
         ],
       ),
     );

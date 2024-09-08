@@ -92,7 +92,6 @@ class EnglishEntrychainreaction extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گۆڕانێکی کیمیایی یان ناوەکی کە جۆرە بەرھەم یان گۆڕانێکی دیکە درووست دەکات کە بەرھەم و گۆڕانی دیکە درووست دەکەن"""),
                           SentencesRow(

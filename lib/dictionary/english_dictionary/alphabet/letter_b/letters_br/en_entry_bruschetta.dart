@@ -128,7 +128,6 @@ class EnglishEntrybruschetta extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خواردنێکی ئیتالییە کە لە نانێکی گەرم پێکھاتووە کە ڕۆنی زەیتوون و پارچەی بچووکی تەماتەی پێوەیە لەگەڵ کەرە، سەوزە، گۆشت، ھتد"""),
                           SentencesRow(

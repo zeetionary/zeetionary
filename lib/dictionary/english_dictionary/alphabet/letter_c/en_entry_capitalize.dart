@@ -171,7 +171,6 @@ class EnglishEntrycapitalize extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) نووسینی پیتێک، یان یەکەم پیتی وشەیەک، بە پیتی گەورە"""),
                           SentencesRow(
@@ -193,7 +192,7 @@ class EnglishEntrycapitalize extends StatelessWidget {
                           // text:
                           // "One option would be to capitalize part of your pension."),
                           // ExampleSentenceKurdish(
-                          // text: "رستە_رستە_رستە_رستە."),
+                          // text: "رستە_رستە_رستە__رستە."),
                           // ],
                           // ),
                           // ),

@@ -167,7 +167,6 @@ class EnglishEntrycarbon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مادەیەکی کیمیایی کە لە ھەموو شتێکی زیندوودا ھەیە و لەشێوەی بێ‌خەوشیدا لە ئەڵماس و گرافیتدا ھەیە"""),
                           SentencesRow(

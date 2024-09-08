@@ -134,7 +134,6 @@ class EnglishEntrybearable extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کەسێک/شتێک کە دەتوانیت بەرگەی بگریت و مامەڵەی لەگەڵ بکەیت"""),
                           SentencesRow(

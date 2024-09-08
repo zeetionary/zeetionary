@@ -127,7 +127,6 @@ class EnglishEntrybroil extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) برژاندنی گۆشت و ماسی لەسەر ئاگر یان بە شیش"""),
                           SentencesRow(

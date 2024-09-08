@@ -170,7 +170,6 @@ class EnglishEntrycafeteria extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چێشتخانەیەک کە خواردن ھەڵدەبژێریت و پارەکەی دەدەیت پێش ئەوەی بیبەیت بۆ سەر مێزێک"""),
                           SentencesRow(

@@ -83,7 +83,6 @@ class EnglishEntrychargrill extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامادەکردنی گۆشت، ماسی، ھتد لەسەر ئاگرێکی زۆر گەرم بەشێوەیەک کەمێک بسووتێت"""),
                           SentencesRow(

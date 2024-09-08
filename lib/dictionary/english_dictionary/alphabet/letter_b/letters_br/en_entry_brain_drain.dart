@@ -130,7 +130,6 @@ class EnglishEntrybraindrain extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کۆچی کەسانی زیرەک و شارەزا بۆ وڵاتێکی تر کە تێیدا دەتوانن باشتر بژین و داھاتیان باشتر بێت"""),
                           SentencesRow(

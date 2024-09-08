@@ -100,7 +100,6 @@ class EnglishEntryaids extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نەخۆشییەکی کوشندە کە لە ڕێگەی ڤایرۆسی ئێچ ئای ڤییەوە لە کەسێک بۆ کەسێکی تر دەگوازرێتەوە و دەبێتەھۆی لاوازی جەستە بەرامبەر نەخۆشی"""),
                           SentencesRow(

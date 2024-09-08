@@ -149,7 +149,6 @@ class EnglishEntryleadastray extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئیدیەم) وا لە کەسێک بکەیت کاری ھەڵە بکات"""),
                           SentencesRow(

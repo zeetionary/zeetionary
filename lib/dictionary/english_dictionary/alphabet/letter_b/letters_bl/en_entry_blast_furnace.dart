@@ -132,7 +132,6 @@ class EnglishEntryblastfurnace extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کوورەیەکی گەورە کە تێیدا بەرد کە ئاسنی تێدایە گەرم دەکرێت و کاردانەوەی دەبێت لەگەڵ بەردی کلس و کاربۆن بۆ درووستکردنی ئاسن"""),
                           SentencesRow(

@@ -168,7 +168,6 @@ class EnglishEntrycaviar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھێلکەی ھەندێک ماسی، بە تایبەتی ستێرجن، کە لە خوێدادەپاێزرێن و دەخوردرێن وەک خواردنێکی زۆر تایبەت و گران‌بەھا"""),
                           SentencesRow(

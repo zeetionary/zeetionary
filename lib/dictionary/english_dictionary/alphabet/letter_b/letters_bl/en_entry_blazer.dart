@@ -131,7 +131,6 @@ class EnglishEntryblazer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چاکەتێک کە ڕەنگەکەی جیاوازە لە ڕەنگی پانتۆڵ یان تەنوورەکەیکە لەگەڵی لەبەر دەکرێت"""),
                           SentencesRow(

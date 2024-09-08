@@ -159,7 +159,6 @@ class EnglishEntryconvert extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: نوێ‌دین، نۆدین، نۆئایین، نۆباوەڕ
 // """),

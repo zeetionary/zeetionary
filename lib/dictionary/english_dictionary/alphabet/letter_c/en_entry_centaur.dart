@@ -168,7 +168,6 @@ class EnglishEntrycentaur extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سێنتار، مرۆسپ؛ لە چیرۆکی کۆنی یۆنانییەکاندا گیانلەبەرێک بوو کە سەر، باڵ، و بەشی سەرەوەی لەشی مرۆڤی ھەبوو لەسەر جەستە و لاقی ئەسپ"""),
                           SentencesRow(

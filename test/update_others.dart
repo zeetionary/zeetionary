@@ -52,10 +52,8 @@
 
 //   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
 //     text: """
-
+// IpaUK
 // EnglishEntrydopsum1 dopsum1
-// WORD_WEB dopsum1 dopsum1 dopsum1
-// haʊʊʊʊʊʊʊ4
 // """,
 //   );
 // // 188888880002200
@@ -86,19 +84,9 @@
 //   @override
 //   Widget build(BuildContext context) {
 
-//     // 188888880002200
-//     const String videoIdend = '';
-//     const double startSecondsend = 000000000000000000000000000;
-//     const String videoIdone = '';
-//     const double startSecondsone = 000000000000000000000000000;
-//     const String videoIdtwo = '';
-//     const double startSecondstwo = 000000000000000000000000000;
-//     const String videoIdthree = '';
-//     const double startSecondsthree = 000000000000000000000000000;
-//     const String videoIdfour = '';
-//     const double startSecondsfour = 000000000000000000000000000;
-//     const String videoIdfive = '';
-//     const double startSecondsfive = 000000000000000000000000000;
+//     const String videoId = '';
+//     const double startSeconds = 000000000000000000000000000;
+// EnglishMeaning(),
 
 //     return DefaultTabController(
 //       length: 4,
@@ -230,5 +218,20 @@
 // // end WORD_WEB
 
 
-// // ZeetionaryAppbar(),
-// //         body: Padding(
+
+
+
+
+
+
+//     text: """
+
+
+// // // // ZeetionaryAppbar(),
+// // // //         body: Padding(
+
+// // // import 'package:flutter/material.dart';
+// // // import 'package:flutter_tts/flutter_tts.dart';
+// // // import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+// // // import 'package:zeetionary/constants.dart';
+

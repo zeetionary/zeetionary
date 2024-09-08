@@ -134,7 +134,6 @@ class EnglishEntrybillet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شوێنێکی کاتی کە سەرباز بۆ ماوەیەکی کاتی تێیدا دەمێنێتەوە"""),
                           SentencesRow(

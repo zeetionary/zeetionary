@@ -167,7 +167,6 @@ class EnglishEntrycashier extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک لە بانکێک، فرۆشگایەک، ھوتێلێک، ھتد کە پارە وەردەگرێت و زیادەکەی دەداتەوە"""),
                           SentencesRow(

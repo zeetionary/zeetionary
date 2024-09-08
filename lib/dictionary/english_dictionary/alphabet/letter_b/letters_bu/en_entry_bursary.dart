@@ -170,7 +170,6 @@ class EnglishEntrybursary extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بڕە پارەیەک کە دەدرێت بە کەسێک بۆ ئەوەی پێی بخوێنن لە زانکۆ"""),
                           SentencesRow(

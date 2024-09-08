@@ -170,7 +170,6 @@ class EnglishEntrycarbootsale extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مەزاتکردنێک کە خەڵکی ئەو شتانەی کە نایانەوێت لەسەر مێز یان پشتەوەی ئۆتۆمبێلەکانیان دادەنێن بۆ فرۆشتن"""),
                           SentencesRow(

@@ -133,7 +133,6 @@ class EnglishEntrybikini extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) جلێک کە دوو بەشی بچووکە و بۆ مەلەکردن و ڕاکشان لەپێش خۆردا بەکاردێت"""),
                           SentencesRow(

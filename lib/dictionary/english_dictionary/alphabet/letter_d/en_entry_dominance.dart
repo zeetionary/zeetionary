@@ -379,43 +379,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdominances2("en-GB"),
             onPressedAmerican: () => speakdominances2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ناو) پێنناسە"),
-          // "speakdominances3          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdominances3("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdominances3("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // dominances4dominances4
-          // dominances5dominances5
-          // dominances6dominances6
-          // dominances7dominances7
-          // dominances8dominances8
-          // dominances9dominances9
-          // dominances_10dominances10
-          // dominances11dominances11
-          // dominances12dominances12
-          // dominances13dominances13
-          // dominances14dominances14
-          // dominances15dominances15
-          // dominances16dominances16
-          // dominances17dominances17
-          // dominances18dominances18
-          // dominances19dominances19
-          // dominances_20dominances20
-          // dominances21dominances21
         ],
       ),
     );

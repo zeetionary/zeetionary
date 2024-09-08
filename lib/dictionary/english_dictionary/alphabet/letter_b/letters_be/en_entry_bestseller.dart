@@ -133,7 +133,6 @@ class EnglishEntrybestseller extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەرھەمێک، بەزۆری کتێبێک، کە فرۆشێکی زۆری ھەبوو"""),
                           SentencesRow(

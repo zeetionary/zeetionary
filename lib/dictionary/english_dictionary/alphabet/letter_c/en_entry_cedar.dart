@@ -168,7 +168,6 @@ class EnglishEntrycedar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) درەختێکی ھەمیشە سەوزی بەرز کە لق و پۆپی بڵاوی ھەیە، یان داری ئەم درەختە کە بەکاردێت و بۆنێکی خۆشی ھەیە"""),
                           SentencesRow(

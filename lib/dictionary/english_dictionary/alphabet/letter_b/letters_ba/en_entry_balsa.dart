@@ -135,7 +135,6 @@ class EnglishEntrybalsa extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تەختەی داتی بالسا کە زۆر نەرمە و بە ئاسانی دەبڕدرێت، ھەندێک جار بۆ درووستکردنی نموونەی کاری ئەندازیاری"""),
                           SentencesRow(

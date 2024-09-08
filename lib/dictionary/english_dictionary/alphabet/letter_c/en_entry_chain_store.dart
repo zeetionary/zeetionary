@@ -83,7 +83,6 @@ class EnglishEntrychainstore extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) فرۆشگایەک کە یەکێکە لە زنجیرە فرۆشگایەک کە لەلایەن یەک کۆمپانیاوە خاوەنداری دەکرێت"""),
                           SentencesRow(

@@ -131,7 +131,6 @@ class EnglishEntrybluecollar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پەیوەندیدار بە کارمەندێک کە لە شوێنێک کارێک بکات کە پێویستی بە ھێزی جەستەیی ھەبێت وەک لەوەی کاری ئۆفیس (نووسین و کۆمپیوتەر) بکات"""),
                           SentencesRow(

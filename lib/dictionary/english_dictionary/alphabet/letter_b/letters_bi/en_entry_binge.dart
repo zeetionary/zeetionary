@@ -133,7 +133,6 @@ class EnglishEntrybinge extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ماوەیەکی کەم کە تێیدا کەسێک شتێک زۆردەکات، بۆ نموونە خواردن یان خواردنەوە"""),
                           SentencesRow(

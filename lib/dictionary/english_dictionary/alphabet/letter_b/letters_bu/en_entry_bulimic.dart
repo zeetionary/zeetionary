@@ -129,7 +129,6 @@ class EnglishEntrybulimic extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە تووشبووی بولیمیایە (نەخۆشییەک دووبارە و دووبارە خواردنی زۆر دەخوات و دواتر خۆی بەزۆر دەڕیشێنێتەوە) """),
                           SentencesRow(

@@ -135,7 +135,6 @@ class EnglishEntrybanjo extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بانجۆ؛ ئامێرێکی میوزیکە وەک گیتار، لە دەسکێکی درێژ پێکھاتووە و بەشی خوارەوەی خڕە، و چوار تەڵ یان زیاتری پێوەیە"""),
                           SentencesRow(

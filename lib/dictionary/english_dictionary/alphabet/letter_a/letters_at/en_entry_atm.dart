@@ -149,7 +149,6 @@ class EnglishEntryatm extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەزگایەک کە لە دەرەوەی بانکێک یان فرۆشگایەکە کە لە ڕێگەیەوە دەتوانی پارە ڕابکێشیت لە ھەژمارە بانکییەکەت"""),
                           SentencesRow(

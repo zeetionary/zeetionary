@@ -146,7 +146,6 @@ class EnglishEntryaqualung extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەسگایەک کە کەسێک لەسەر پشتیان دەیبەستن بۆ ھەناسەدان لەژێر ئاودا"""),
                           SentencesRow(

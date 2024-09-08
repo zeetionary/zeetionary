@@ -127,7 +127,6 @@ class EnglishEntrybronzemedal extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) نیشان یان میداڵی مەفرەخ؛ خەڵاتێکە بۆ کەسی سێیەم لە پێشبڕکێیەکدا)"""),
                           SentencesRow(

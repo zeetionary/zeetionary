@@ -1122,7 +1122,7 @@ class KurdishMeaning extends StatelessWidget {
                                 text:
                                     "A penalty cost United the game (= meant that they did not win the game)."),
                             ExampleSentenceKurdish(
-                                text: "رستە_رستە_رستە_رستە."),
+                                text: "لێدانێکی سزا یارییەکەی دا بە دەستەوە بۆ یونایتید."),
                           ],
                         ),
                       ),

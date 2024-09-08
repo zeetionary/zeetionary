@@ -132,7 +132,6 @@ class EnglishEntrybowtie extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بۆینباخێکی پیاوانە کە لە ملدا دەبەسترێت و شۆڕنابێتەوە"""),
                           SentencesRow(

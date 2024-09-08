@@ -170,7 +170,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سیستەمی یاسا فەرمییەکان و شێوازی ئەنجامدانی ئەو کارانەی حکومەتێک یان دامەزراوەیەک ھەیەتی، بەتایبەتی کاتێک ئەمە زۆر ئاڵۆزە"""),
                           SentencesRow(

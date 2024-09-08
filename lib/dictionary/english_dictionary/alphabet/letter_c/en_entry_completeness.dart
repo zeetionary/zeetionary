@@ -84,7 +84,6 @@ class EnglishEntrycompleteness extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: تەواوێتی، تەواوبوویی
 // """),
@@ -110,7 +109,7 @@ class EnglishEntrycompleteness extends StatelessWidget {
                           // text:
                           // "speakcompletenesss200"),
                           // ExampleSentenceKurdish(
-                          // text: "رستە_رستە_رستە_رستە."),
+                          // text: "رستە_رستە_رستە__رستە."),
                           // ],
                           // ),
                           // ),

@@ -135,7 +135,6 @@ class EnglishEntrybicentennial extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ساڵێک یان ڕۆژێک کە ٢٠٠ ساڵ تێپەڕیوە بەسەر ڕووداوێکدا"""),
                           SentencesRow(

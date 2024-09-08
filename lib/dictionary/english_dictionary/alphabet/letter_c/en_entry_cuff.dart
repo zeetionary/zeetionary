@@ -271,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               DefinitionKurdishLink(
-                text: "٢. بڕوانە لە hand cuffs",
+                text: "٢. بڕوانە لە handcuff",
                 links: [
                   LinkInfo(
                     start: 12,
@@ -282,7 +282,7 @@ class KurdishMeaning extends StatelessWidget {
                   ),
                 ],
                 onTap: () {
-                  Routemaster.of(context).push("/english-crutch/crotch");
+                  Routemaster.of(context).push("/english-cuff/handcuff");
                 },
               ),
             ],

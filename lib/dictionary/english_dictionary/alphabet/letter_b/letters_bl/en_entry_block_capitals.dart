@@ -138,7 +138,6 @@ class EnglishEntryblockcapitals extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) شێوازێکی نووسین کە تێیدا ھەر پیتێک بە پیتی گەورە و بە ڕوونی و جیایی دەنووسرێت"""),
                           SentencesRow(

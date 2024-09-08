@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە کاردەکات بۆ گۆڕانی سیاسی یان کۆمەڵایەتی، بەتایبەت وەک ئەندامی ڕێکخراوێک کە ئامانجی دیاریکراوی ھەیە"""),
                           SentencesRow(

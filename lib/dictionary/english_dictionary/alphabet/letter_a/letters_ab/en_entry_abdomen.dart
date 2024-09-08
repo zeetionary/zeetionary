@@ -145,12 +145,8 @@ ${englishMeaningConst.text}
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
-//           const KurdishVocabulary(text: """
-// کوردی:
-// """),
                           const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) پێنناسە"),
+                              text: "١. (ناو) گەددە"),
                           SentencesRow(
                             englishText:
                                 "// speakabdomens111111111111111111111111111111111",

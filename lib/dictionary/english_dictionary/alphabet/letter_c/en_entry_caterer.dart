@@ -168,7 +168,6 @@ class EnglishEntrycaterer extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک یان کۆمپانیایەک کە خواردن و خواردنەوە ئامادە دەکات بۆ کۆبوونەوەیەکی بازرگانی یان بۆنەیەکی تایبەتی وەک ئاھەنگی ھاوسەرگیری"""),
                           SentencesRow(

@@ -132,7 +132,6 @@ class EnglishEntrybudgerigar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) باڵندەیەکی بچووک کە وەک تووتی وایە و لە قەفەزدا ڕادەگیرێت وەک باڵندەی ماڵی """),
                           SentencesRow(

@@ -106,7 +106,6 @@ class EnglishEntrycontinental extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: وشکاری، وشکانەیی، کیشوەری، سەربە وشکار یا کیشوەر
 // """),

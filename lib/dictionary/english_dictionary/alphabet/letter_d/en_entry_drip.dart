@@ -525,40 +525,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrips11("en-GB"),
             onPressedAmerican: () => speakdrips11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٧. (ناو) پێنناسە"),
-          // // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          // "speakdrips12          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdrips12("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdrips12("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // drips13drips13
-          // drips14drips14
-          // drips15drips15
-          // drips16drips16
-          // drips17drips17
-          // drips18drips18
-          // drips19drips19
-          // drips_20drips20
-          // drips21drips21
         ],
       ),
     );

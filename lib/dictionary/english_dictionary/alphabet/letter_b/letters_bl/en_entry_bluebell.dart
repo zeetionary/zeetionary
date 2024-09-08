@@ -131,7 +131,6 @@ class EnglishEntrybluebell extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گوڵێک کە لە باخچەدا یان بە سرووشتی دەڕوێت و قەدێکی کورتی ھەیە و گوڵی بچووکی شین و سپی دەگرێت کە لە شێوەی زەنگدان"""),
                           SentencesRow(

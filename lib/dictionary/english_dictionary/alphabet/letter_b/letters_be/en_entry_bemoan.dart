@@ -134,7 +134,6 @@ class EnglishEntrybemoan extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ناڕەزایی دەربڕین لەسەر شتێک، یان وتنی ئەوەی دڵخۆش نیت بە شتێک"""),
                           SentencesRow(

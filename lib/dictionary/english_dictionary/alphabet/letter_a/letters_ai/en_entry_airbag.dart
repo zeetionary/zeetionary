@@ -100,7 +100,6 @@ class EnglishEntryairbag extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ئامێرێکە لە ئۆتۆمبێلدا کە پڕ دەبێت لە ھەوا بۆ پاراستنی شۆفێرەکە لە کاتی پێکداداندا"""),
                           SentencesRow(

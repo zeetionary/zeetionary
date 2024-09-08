@@ -132,7 +132,6 @@ class EnglishEntryboobyprize extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خەڵاتێک کە وەک گاڵتە دەدرێت بە کەسێک کە پلەی کۆتایی دەبێت لە پێشبڕکێیەک"""),
                           SentencesRow(

@@ -143,7 +143,6 @@ class EnglishEntryappreciate extends StatelessWidget {
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) قەدرزانینی شتێک"""),
                           SentencesRow(

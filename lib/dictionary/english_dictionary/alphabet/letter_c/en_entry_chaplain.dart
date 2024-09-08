@@ -84,7 +84,6 @@ class EnglishEntrychaplain extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) قەشەیەک کە بەرپرسە بۆ پێداویستە ئاینییەکانی ئەو کەسانەی لە زیندان، نەخۆشخانە، ھتد لە سوپادا"""),
                           SentencesRow(

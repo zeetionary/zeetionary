@@ -169,7 +169,6 @@ class EnglishEntrycentralheating extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سیستەمێکی گەرمکەرەوە کە گەرمی لە یەک شوێنەوە وەردەگرێت و دواتر بە ژوورێکدا بڵاوی دەکاتەوە بە لوولەدا"""),
                           SentencesRow(

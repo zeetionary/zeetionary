@@ -170,7 +170,6 @@ class EnglishEntrycanvas extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) مادەیەکی سەختی بەھێز کە بەکاردێت بۆ درووستکردنی خێوەت، چارۆکە، ھتد و لەلایەن ھونەرکارانەوە بۆ کێشانی وێنە لەسەری"""),
                           SentencesRow(

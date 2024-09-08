@@ -169,7 +169,6 @@ class EnglishEntrycc extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کورتکراوە) کورتکراو بۆ carbon copy (to)؛ لە نامە و ئیمەیڵی بازرگانیدا بەکاردێت بۆ وتنی ئەوەی کۆپییەک دەنێردرێت بۆ کەسێکی دیکە"""),
                           SentencesRow(

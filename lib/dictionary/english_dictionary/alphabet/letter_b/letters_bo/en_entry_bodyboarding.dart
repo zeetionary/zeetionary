@@ -131,7 +131,6 @@ class EnglishEntrybodyboarding extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) وەرزش یان چالاکی مەلەکردن لەسەر یەکێک لە جۆرەکانی تەختەی شەپۆل‌سواری"""),
                           SentencesRow(

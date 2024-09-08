@@ -140,7 +140,6 @@ class EnglishEntryanesthetist extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پسپۆڕی بێ‌ھۆشی، کەسێک کە شارەزایی لە بەنج‌کردن ھەیە"""),
                           SentencesRow(

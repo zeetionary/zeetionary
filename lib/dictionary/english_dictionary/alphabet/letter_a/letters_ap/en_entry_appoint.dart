@@ -145,7 +145,6 @@ class EnglishEntryappoint extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) دیاریکردنی کەسێک بۆ کارێک یان بەرپرسیاریەتییەک"""),
                           SentencesRow(

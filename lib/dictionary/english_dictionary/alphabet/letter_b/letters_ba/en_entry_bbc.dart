@@ -133,7 +133,6 @@ class EnglishEntrybbc extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دامەزراوەیەکی نیشتیمانی کە پڕۆگرامی تەلەفیزیۆنی و ڕادیۆیی پەخشدەکات و لەلایەن خەڵکەوە پارەی بۆ دەدرێت وەک لە ڕیکلامکردن"""),
                           SentencesRow(

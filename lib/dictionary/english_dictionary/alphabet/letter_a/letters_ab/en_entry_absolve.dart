@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) بە فەرمی پاککردنەوەی کەسێک لە تۆمەت"""),
                           SentencesRow(

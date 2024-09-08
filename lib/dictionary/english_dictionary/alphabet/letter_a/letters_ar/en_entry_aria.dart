@@ -146,7 +146,6 @@ class EnglishEntryaria extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پارچە میوزیکێک کە لەلایەن یەک کەسەوە لە ئۆپێرایەک دەوترێت"""),
                           SentencesRow(

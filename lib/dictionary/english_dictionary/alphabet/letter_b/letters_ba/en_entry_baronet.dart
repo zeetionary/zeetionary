@@ -134,7 +134,6 @@ class EnglishEntrybaronet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) گەورەزادەیەک کە نزمترین نازناوی ھەیە لە شانشینی یەکگرتوو کە دەتوانرێت لە باوکەوە بۆ کوڕ بگوازرێتەوە. نازناوی Sir بەکاردێنن"""),
                           SentencesRow(

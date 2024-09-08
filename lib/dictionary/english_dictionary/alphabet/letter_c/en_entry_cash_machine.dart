@@ -174,7 +174,6 @@ class EnglishEntrycashmachine extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) دەزگایەک لە دەرەوەی فرۆشگایەک یان بانکێک کە لە ڕێگەیەوە پارە ڕادەکێشیت لە کارتی بانکییەوە"""),
                           SentencesRow(

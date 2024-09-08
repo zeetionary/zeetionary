@@ -127,7 +127,6 @@ class EnglishEntrybullseye extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ناوەڕاستی ئامانجێک کە تەقەی لێ دەکەیت، یان تیری بۆ داھاوێژیت"""),
                           SentencesRow(

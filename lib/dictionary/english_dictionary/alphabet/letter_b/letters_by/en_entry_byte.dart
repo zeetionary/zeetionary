@@ -169,7 +169,6 @@ class EnglishEntrybyte extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بایت؛ یەکەیەکی زانیارییە کە لە کۆمپیوتەرێکدا کۆگاکراو و یەکسانە بە ٨ بیت. مەمۆری کۆمپیوتەر بە بایت دەپێورێت"""),
                           SentencesRow(

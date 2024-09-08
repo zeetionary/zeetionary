@@ -172,7 +172,6 @@ class EnglishEntrycfc extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کلۆرۆفلۆرۆکاربۆن؛ جۆرە گازێک کە پێشتر لەو بەرھەمانەدا بەکاردەھات کە شلەیان لە پەستانی بەرزدا تێدایە، و زانراوە کە زیانبەخشە بپ چینی ئۆزۆن"""),
                           SentencesRow(

@@ -132,7 +132,6 @@ class EnglishEntryboardingschool extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خوێندنگەیەک کە خوێندکار دەتوانێت تێیدا بمێنێتەوە لە ماوەی وەرزی خوێندن"""),
                           SentencesRow(

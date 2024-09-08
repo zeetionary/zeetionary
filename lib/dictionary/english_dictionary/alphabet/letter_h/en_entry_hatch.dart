@@ -266,7 +266,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The female must find a warm place to hatch her eggs.""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      kurdishText: """مێینەکە دەبێت شوێنێکی گەرم بدۆزێتەوە بۆ هەڵهێننانی هێلکەکانی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

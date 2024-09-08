@@ -169,7 +169,6 @@ class EnglishEntrycanonize extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ناساندن کەسێک وەک پیرۆز لەلایەن پاپای ئایینی مەسیحییەتەوە بەھۆی شێوازی ژیانی یان مردنی"""),
                           SentencesRow(

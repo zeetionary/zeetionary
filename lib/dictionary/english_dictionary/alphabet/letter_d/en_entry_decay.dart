@@ -319,7 +319,7 @@ class KurdishMeaning extends StatelessWidget {
           // ExampleSentenceEnglish(
           // text:
           // "speakdecays7ExampleSentenceKurdish(
-          // text: "رستە_رستە_رستە_رستە."),
+          // text: "رستە_رستە_رستە__رستە."),
           // ],
           // ),
           // ),

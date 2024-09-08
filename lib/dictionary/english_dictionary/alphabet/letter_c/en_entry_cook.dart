@@ -216,7 +216,7 @@ class EnglishEntrycook extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "Who was the cook (= who cooked the food)?",
-                            kurdishText: "رستە_رستە_رستە_رستە.",
+                            kurdishText: "کێ چێشتلێنەر بوو؟",
                             onPressedBritish: () => speakcooks8("en-GB"),
                             onPressedAmerican: () => speakcooks8("en-US"),
                           ),

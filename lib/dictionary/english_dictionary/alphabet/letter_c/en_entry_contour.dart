@@ -92,7 +92,6 @@ class EnglishEntrycontour extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: کانتۆر، بیچم، شێوە، ڕوخسار، پلان
 // """),

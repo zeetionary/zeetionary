@@ -261,7 +261,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: "Cut the meat into cubes.",
-            kurdishText: "رستە_رستە_رستە_رستە.",
+            kurdishText: "گۆشتەکە بە شێوەی خشتەک ببڕە.",
             onPressedBritish: () => speakcubes2("en-GB"),
             onPressedAmerican: () => speakcubes2("en-US"),
           ),

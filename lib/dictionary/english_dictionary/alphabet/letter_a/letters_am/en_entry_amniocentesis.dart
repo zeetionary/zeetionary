@@ -166,7 +166,6 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) ئەمنیۆسێنتێسیس؛ تاقی‌کردنەوەیەکی پزیشکی بۆ ژنانی سکپڕ، بەمەبەستی دیاریکردنی بوونی نەخۆشییەکی تایبەتی یا کێشەیەکی تەندرووستی لە ئاوەڵمەدا"""),
                           SentencesRow(

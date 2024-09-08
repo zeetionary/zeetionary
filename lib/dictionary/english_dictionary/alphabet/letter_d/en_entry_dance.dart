@@ -412,7 +412,7 @@ class KurdishMeaning extends StatelessWidget {
           // text:
           // "The words danced before her tired eyes."),
           // ExampleSentenceKurdish(
-          // text: "رستە_رستە_رستە_رستە."),
+          // text: "رستە_رستە_رستە__رستە."),
           // ],
           // ),
           // ),

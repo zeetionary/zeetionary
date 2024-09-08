@@ -105,7 +105,6 @@ class EnglishEntryafford extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) ھەبوونی پارەی پێویست"""),
                           SentencesRow(

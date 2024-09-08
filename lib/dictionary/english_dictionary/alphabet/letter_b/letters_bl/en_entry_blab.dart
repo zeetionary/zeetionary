@@ -131,7 +131,6 @@ class EnglishEntryblab extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) وتنی زانیاری بە کەسێک کە دەبێت بە نھێنی بھێڵدرێتەوە، زۆرجار لەکاتی قسەزۆری"""),
                           SentencesRow(

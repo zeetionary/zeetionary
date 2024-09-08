@@ -167,7 +167,6 @@ class EnglishEntrycauseway extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەرزەڕێ؛ ڕێگایەکی بەرز بەسەر ئاو یان زەوی تەڕدا"""),
                           SentencesRow(

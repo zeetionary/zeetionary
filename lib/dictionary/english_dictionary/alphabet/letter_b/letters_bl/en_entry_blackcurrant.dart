@@ -132,7 +132,6 @@ class EnglishEntryblackcurrant extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) روویەکی ڕەشی بچووکە کە کە بە گورزە لە باخێکدا گەشە دەکات و دەخورێت"""),
                           SentencesRow(

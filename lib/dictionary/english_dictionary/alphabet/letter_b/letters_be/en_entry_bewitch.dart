@@ -134,7 +134,6 @@ class EnglishEntrybewitch extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کردار) سەرسامکردنی کەسێک بە ئاستێک کە ھۆش و بیری دەبەیت"""),
                           SentencesRow(

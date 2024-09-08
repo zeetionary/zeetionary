@@ -128,7 +128,6 @@ class EnglishEntrybreathalyser extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەناسەپێو، ئەڵکۆڵ‌پێو؛ دەزگایەکی پۆلیس کە ڕێژەی کحول لە ھەناسەی شۆفێرێکدا دەپێوێت"""),
                           SentencesRow(

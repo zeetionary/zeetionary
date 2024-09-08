@@ -132,7 +132,6 @@ class EnglishEntryblowbyblow extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پێدانی وردەکاری تەواوی ئەوەی چی ڕوویداوە بە ڕیزبەندی"""),
                           SentencesRow(

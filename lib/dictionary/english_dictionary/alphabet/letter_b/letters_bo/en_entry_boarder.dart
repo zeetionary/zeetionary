@@ -133,7 +133,6 @@ class EnglishEntryboarder extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) منداڵێک کە لە قوتابخانە دەژی و لە کاتی پشووەکاندا دەگەڕێتەوە ماڵەوە"""),
                           SentencesRow(

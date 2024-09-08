@@ -92,18 +92,18 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    // 188888880002200
-    const String videoIdend = 'E2rtQFAibEA?t=';
+    
+    const String videoIdend = 'E2rtQFAibEA';
     const double startSecondsend = 10965;
-    const String videoIdone = 'HQKy1KJpSVc?t=';
+    const String videoIdone = 'HQKy1KJpSVc';
     const double startSecondsone = 2252;
-    const String videoIdtwo = '0Vw1iYAc-sE?t=';
+    const String videoIdtwo = '0Vw1iYAc-sE';
     const double startSecondstwo = 1382;
-    const String videoIdthree = 'VifTDgd13Bw?t=';
+    const String videoIdthree = 'VifTDgd13Bw';
     const double startSecondsthree = 99;
-    const String videoIdfour = 'rgs3jX91tC0?t=';
+    const String videoIdfour = 'rgs3jX91tC0';
     const double startSecondsfour = 394;
-    const String videoIdfive = 'CgAOirqrrtM?t=';
+    const String videoIdfive = 'CgAOirqrrtM';
     const double startSecondsfive = 470;
 
     return DefaultTabController(

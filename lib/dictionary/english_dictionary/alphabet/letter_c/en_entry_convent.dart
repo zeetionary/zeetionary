@@ -91,7 +91,6 @@ class EnglishEntryconvent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: دەیر (بەتایبەت ھی ژنە ڕەبەنەکان)،	دەیرنشینەکان، (دەستە) ڕەبەنەکانی دەیر، کۆمەڵی ڕەبەنان،	کۆبوونەوە، کۆم‌جڤین، جڤین، خڕبوونەوە، کۆمەڵە
 // """),

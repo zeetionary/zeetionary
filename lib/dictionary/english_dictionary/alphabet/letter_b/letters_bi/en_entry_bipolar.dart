@@ -140,7 +140,6 @@ class EnglishEntrybipolar extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە تووشبووی دووجەمسەرییە (نەخۆشییەکی دەروونی کە تێیدا کەسێک ماوەیەک ھەست بە بێزاری زۆر دەکات و ماوەیەک ھەست بە چالاکی و جۆش و خرۆشی زۆردەکات بە وزەیەکی زۆرەوە)"""),
                           SentencesRow(

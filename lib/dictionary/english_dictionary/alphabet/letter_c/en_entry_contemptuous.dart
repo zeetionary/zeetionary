@@ -90,7 +90,6 @@ class EnglishEntrycontemptuous extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: سووکی‌پێکەر، ئابڕووبەرە، بێزار، بێزراو، سووکانە، سووکایەتی‌یانە
 // """),

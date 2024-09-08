@@ -169,7 +169,6 @@ class EnglishEntrycashmere extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پارچە یان کوتاڵی کەشمیر/کشمیر؛ کوتاڵێکی نەرم و باشە کە لە مووی بزن درووست دەکرێت و جلی گران‌بەھای لێ درووست دەکرێت"""),
                           SentencesRow(

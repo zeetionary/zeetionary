@@ -134,7 +134,6 @@ class EnglishEntrybidding extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کرداری پێشنیازکردنی بڕە پارەیەک بە تایبەتی لە زیادکردنی ئاشکرادا """),
                           SentencesRow(

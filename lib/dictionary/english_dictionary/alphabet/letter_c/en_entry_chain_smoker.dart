@@ -85,7 +85,6 @@ class EnglishEntrychainsmoker extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە یەک لە دوای یەک جگەرە دەکێشێت"""),
                           SentencesRow(

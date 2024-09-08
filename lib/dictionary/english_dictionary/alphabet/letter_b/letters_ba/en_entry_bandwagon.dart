@@ -135,7 +135,6 @@ class EnglishEntrybandwagon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چالاکییەک کە خەڵکی زیاتر و زیاتر تێیدا بەژدار دەبن"""),
                           SentencesRow(

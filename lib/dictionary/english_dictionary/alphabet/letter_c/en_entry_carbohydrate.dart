@@ -169,7 +169,6 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) کاربۆھایدرات، ھایدراتی کاربۆن؛ مادەیەک بۆ نموونە شەکر و نیشاستە کە لە کاربۆن و ھایدرۆجین و ئۆکسجین پێکھاتووە. کاربۆھایدراتی خواردن وزە و گەرمی بە لەش دەبەخشێت"""),
                           SentencesRow(

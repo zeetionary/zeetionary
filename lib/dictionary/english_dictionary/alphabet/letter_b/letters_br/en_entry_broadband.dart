@@ -128,7 +128,6 @@ class EnglishEntrybroadband extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بەرینباند؛ سیستەمێکی پەیوەست بوون بە ئینتەرنێتەوە کە خێرایە"""),
                           SentencesRow(

@@ -147,7 +147,6 @@ class EnglishEntryarugula extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سەوزەیەک کە گەڵای درێژ و بۆنی تیژی ھەیە و ھایە بە تەنھا لەناو زەڵاتەدا دەخورێت"""),
                           SentencesRow(

@@ -174,7 +174,6 @@ class EnglishEntrycellphone extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) تەلەفۆنێک کە بە ڕادیۆ کاردەکات و دەتوانیت لەگەڵ خۆتدا ھەڵیبگریت"""),
                           SentencesRow(

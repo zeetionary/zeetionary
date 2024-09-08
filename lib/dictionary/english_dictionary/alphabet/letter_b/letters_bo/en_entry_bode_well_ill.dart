@@ -133,7 +133,6 @@ class EnglishEntrybodewellill extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئیدیەم) بوون بە ئاماژەیەکی باش یان خراپ"""),
                           SentencesRow(

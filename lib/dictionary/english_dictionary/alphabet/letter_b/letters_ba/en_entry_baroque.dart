@@ -135,7 +135,6 @@ class EnglishEntrybaroque extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ستایلی ناوازە و پڕ لە ڕازاندنەوەی بیناسازی و ھونەر و میوزیکی ئەورووپی لە سەدەکانی ١٧ و ١٨ """),
                           SentencesRow(

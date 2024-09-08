@@ -136,7 +136,6 @@ class EnglishEntrybecauseof extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ئامراز) بەکاردێت لە پێش ناوێک یان گرێی ناوی بۆ وتنی ئەوەی کەسێک/شتێک ھۆکارە بۆ شتێک"""),
                           SentencesRow(

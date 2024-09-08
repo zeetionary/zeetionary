@@ -90,7 +90,6 @@ class EnglishEntryclientele extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: مشتەری‌یەکان، ھاتووچۆکەران، مشتەریە ھەمیشەیی‌یەکان (ھی دووکان، فرۆشگا، خواردنگە، ڕێکخراوە و ھتد)
 // """),

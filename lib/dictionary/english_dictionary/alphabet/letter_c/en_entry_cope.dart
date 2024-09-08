@@ -100,7 +100,6 @@ class EnglishEntrycope extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: جبەی قەشە یان سەرقەشە
 // """),

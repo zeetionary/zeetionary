@@ -90,7 +90,6 @@ class EnglishEntrychilli extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: "١. (ناو) بیبەرەتوونە"),
                           SentencesRow(
                             englishText: "Add 2 chopped red chillies.",

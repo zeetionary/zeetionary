@@ -91,38 +91,12 @@ class EnglishEntrycocoon extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی:
 // """),
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) داپۆشەرێک کە ھەندێک مێروو بە دەوری خۆیاندا لە شێوەی دەزوودا درووستی دەکەن لە کاتی گەشەکردنیان و بوون بە پێگەشتوو"),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Column(
-                          //         children: [
-                          //           ExampleSentenceEnglish(
-                          //               text:
-                          //                   "// speakcocoons111111111111111111111111111111111"),
-                          //           ExampleSentenceKurdish(
-                          //               text: "رستە_رستە_رستە_رستە."),
-                          //         ],
-                          //       ),
-                          //     ),
-                          //     const CustomSizedBoxForTTS(),                           //     Column(
-                          //       children: [
-                          //         CustomIconButtonBritish(
-                          //           onPressed: () => speakcocoons1("en-GB"),
-                          //         ),
-                          //         CustomIconButtonAmerican(
-                          //           onPressed: () => speakcocoons1("en-US"),
-                          //         ),
-                          //       ],
-                          //     ),
-                          //   ],
-                          // ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) شوێنێکی ئارام و پارێزراو"),

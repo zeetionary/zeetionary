@@ -135,7 +135,6 @@ class EnglishEntrybishopric extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەبوونی پلەی قەشەی باڵا، یان ناوچەیەک کە قەشەیەکی باڵای ھەیە"""),
                           SentencesRow(

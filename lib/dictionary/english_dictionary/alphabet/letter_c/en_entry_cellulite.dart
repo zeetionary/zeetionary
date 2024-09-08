@@ -168,7 +168,6 @@ class EnglishEntrycellulite extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) چەوری ژێر پێست کە وادەکات پێست ساف و لووس دەرنەکەوێت"""),
                           SentencesRow(

@@ -238,23 +238,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefectors1("en-GB"),
             onPressedAmerican: () => speakdefectors1("en-US"),
           ),
-          // "speakdefectors2          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdefectors2("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdefectors2("en-US"),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -264,24 +247,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefectors3("en-GB"),
             onPressedAmerican: () => speakdefectors3("en-US"),
           ),
-          // defectors4defectors4
-          // defectors5defectors5
-          // defectors6defectors6
-          // defectors7defectors7
-          // defectors8defectors8
-          // defectors9defectors9
-          // defectors10defectors10
-          // defectors11defectors11
-          // defectors12defectors12
-          // defectors13defectors13
-          // defectors14defectors14
-          // defectors15defectors15
-          // defectors16defectors16
-          // defectors17defectors17
-          // defectors18defectors18
-          // defectors19defectors19
-          // defectors20defectors20
-          // defectors21defectors21
         ],
       ),
     );

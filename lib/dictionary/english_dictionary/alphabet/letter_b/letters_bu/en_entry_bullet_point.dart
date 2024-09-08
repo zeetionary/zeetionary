@@ -128,7 +128,6 @@ class EnglishEntrybulletpoint extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) خاڵێکە کە دەکرێت بازنە، سێگۆشە، یان چوارگۆشە بێت لە نووسیندا لە پێش ڕستەیەک دادەنرێت وەک ئاماژە بەوەی کە گرنگە"""),
                           SentencesRow(

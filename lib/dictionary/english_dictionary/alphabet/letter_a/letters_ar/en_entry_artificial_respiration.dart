@@ -152,7 +152,6 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) پڕۆسەی یارمەتیدانی کەسێک کە لە ھەناسەدان کەوتووە دووبارە ھەناسە بداتەوە، زۆرجار بە پێدانی ھەوا پێیان لە ڕێگەی دەم یان لووتەوە، یان بە بەکارھێنانی ئامێری تایبەت"""),
                           SentencesRow(

@@ -134,7 +134,6 @@ class EnglishEntrybigotry extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ھەبوون یان دەربڕینی باوەڕ و بۆچوون کە توند و نابەجێن"""),
                           SentencesRow(

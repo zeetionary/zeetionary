@@ -91,7 +91,6 @@ class EnglishEntryconjure extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: بانگ کردن، داوا کردن، جادوو کردن، سیحر کردن
 // """),

@@ -132,7 +132,6 @@ class EnglishEntrybookstall extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) مێزێک یان فرۆشگایەک کە پێشەوەی کراوەیە و کتێب و گۆڤار و ڕۆژنامە دەفرۆشێت"""),
                           SentencesRow(

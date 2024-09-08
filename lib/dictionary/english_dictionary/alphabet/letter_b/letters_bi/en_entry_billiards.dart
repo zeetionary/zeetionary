@@ -134,7 +134,6 @@ class EnglishEntrybilliards extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) بیلیارد؛ یارییەک کە لەلایەن دوو کەسەوە دەکرێت لەسەر مێزێک کە بە قوماشی نەرم داپۆشراوە، و دارێک بەکاردێنن بۆ لێدان لە تۆپ و کێشانیان بە یەکدا بۆ ئەوەی بیانخەنە ناو چاڵەکانەوە کە لە دەوری مێزەکەن"""),
                           SentencesRow(

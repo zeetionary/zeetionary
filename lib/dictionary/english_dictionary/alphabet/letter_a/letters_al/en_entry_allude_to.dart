@@ -100,7 +100,6 @@ class EnglishEntryalludeto extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) ئاماژەکردن بۆ شتێک؛ باسکردنی شتێک بە ناڕاستەوخۆ"""),
                           SentencesRow(

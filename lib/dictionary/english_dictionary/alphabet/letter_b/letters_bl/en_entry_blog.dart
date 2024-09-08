@@ -137,7 +137,6 @@ class EnglishEntryblog extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) وێبسایتێک کە تێیدا کەسێک یان کەسانێک کە نوێنەری دامەزراوەیەک دەکەن بە بەردەوامی دەنووسن دەربارەی دوایین پێشھاتەکان یان شتێک کە حەزیان پێیەتی، زۆرجار بە وێنە و ڤیدیۆ بۆ وێبسایتەکانی تر کە حەزیان پێیە"""),
                           SentencesRow(

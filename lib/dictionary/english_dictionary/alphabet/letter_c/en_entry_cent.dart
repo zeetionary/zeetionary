@@ -167,7 +167,6 @@ class EnglishEntrycent extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) یەکەیەکی دراو کە ١٪ی دراوی سەرەکییە لە زۆر وڵاتدا، بۆ نموونە لە ئەمریکا و بۆ دراوی یۆرۆ"""),
                           SentencesRow(

@@ -83,7 +83,6 @@ class EnglishEntrycoalface extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: ڕەگەی خەڵووز، چین یان توێی خەڵووز
 // """),

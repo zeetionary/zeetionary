@@ -123,7 +123,6 @@ class EnglishEntrycoordinate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
 //                           const KurdishVocabulary(text: """
 // کوردی: (ڕێزمان) ھاوپلە،	(بیرکاری) کۆئۆردینیت،	(کیمیا) کۆئۆردینیت،	ھاوتەراز، ھاوسەنگ، ھاوپلە، ھاوڕێک، ھاوپایە، ھاڕێک، کۆئۆردینیت، دەست
 // """),

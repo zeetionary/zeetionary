@@ -134,7 +134,6 @@ class EnglishEntrybiro extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) ناوی براندێکە کە پێنووسێکی پلاستیکی درووست دەکات کە تۆپێکی ئاسنینی بچووک بە نوکەکەیەوەیە کە مڕەکەب دەڕێژێت؛ وشەکە بۆ ناوی پێنووسێکی بەکاردێت"""),
                           SentencesRow(

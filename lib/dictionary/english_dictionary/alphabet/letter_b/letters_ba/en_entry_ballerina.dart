@@ -135,7 +135,6 @@ class EnglishEntryballerina extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ١. (ناو) سەماکارێکی بالێ (جۆرە سەمایەک کە جووڵەکان چیرۆکێک دەگێڕنەوە یان بیرۆکەیەک دەردەبڕن)"""),
                           SentencesRow(

@@ -271,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
           // ExampleSentenceEnglish(
           // text:
           // "speakcrudes2ExampleSentenceKurdish(
-          // text: "رستە_رستە_رستە_رستە."),
+          // text: "رستە_رستە_رستە__رستە."),
           // ],
           // ),
           // ),

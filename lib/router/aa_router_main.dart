@@ -24,10 +24,13 @@ import 'package:zeetionary/home/screens/home_screen_three.dart';
 
 //
 //
-import 'package:zeetionary/router/router_keys_english_first.dart';
-import 'package:zeetionary/router/router_keys_english_history_first.dart';
-import 'package:zeetionary/router/router_keys_english_bookmarks_first.dart';
+
+import 'package:zeetionary/router/router_keys_english_one.dart';
+import 'package:zeetionary/router/router_keys_english_two.dart';
+import 'package:zeetionary/router/router_keys_history_english_one.dart';
+import 'package:zeetionary/router/router_keys_bookmarks_english_one.dart';
 import 'package:zeetionary/router/router_keys_grammar.dart';
+
 //
 //
 
@@ -47,9 +50,10 @@ final loggedOutRoute = RouteMap(routes: allRoutesLogout);
 final Map<String, PageBuilder> allRoutesLogout = {
   ...getRoutesMainLogout(),
   ...getRoutesMainTwo(),
-  ...getRoutesEnglishFirst(),
-  ...getRoutesEnglishHistoryFirst(),
-  ...getRoutesEnglishBookmarksFirst(),
+  ...getRoutesEnglishOne(),
+  ...getRoutesEnglishTwo(),
+  ...getRoutesEnglishHistoryOne(),
+  ...getRoutesEnglishBookmarksOne(),
   ...getRoutesConversations(),
   // ...getRoutes(),
   // ...getRoutes(),
@@ -69,10 +73,17 @@ final loggedInRoute = RouteMap(routes: allRoutes);
 final Map<String, PageBuilder> allRoutes = {
   ...getRoutesMain(),
   ...getRoutesMainTwo(),
-  ...getRoutesEnglishFirst(),
-  ...getRoutesEnglishHistoryFirst(),
-  ...getRoutesEnglishBookmarksFirst(),
+  ...getRoutesEnglishOne(),
+  ...getRoutesEnglishTwo(),
+  ...getRoutesEnglishHistoryOne(),
+  ...getRoutesEnglishBookmarksOne(),
   ...getRoutesConversations(),
+  // ...getRoutes(),
+  // ...getRoutes(),
+  // ...getRoutes(),
+  // ...getRoutes(),
+  // ...getRoutes(),
+  // ...getRoutes(),
   // ...getRoutes(),
   // ...getRoutes(),
   // ...getRoutes(),

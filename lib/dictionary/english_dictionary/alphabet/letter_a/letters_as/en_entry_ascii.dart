@@ -7,15 +7,15 @@ import 'package:zeetionary/constants.dart';
 
 // Define the word "ASCII" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryASCII - replace speakAscii
+// replace EnglishEntryascii - replace speakAscii
 
 // replace ASCII - /ˈæski/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryASCII extends StatelessWidget {
+class EnglishEntryascii extends StatelessWidget {
   // blank divider
-  EnglishEntryASCII({super.key});
+  EnglishEntryascii({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 

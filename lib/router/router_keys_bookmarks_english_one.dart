@@ -16,9 +16,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 
 MaterialPage _blP(Widget child) => MaterialPage(child: child);
 
-Map<String, PageBuilder> getRoutesEnglishBookmarksFirst() {
+Map<String, PageBuilder> getRoutesEnglishBookmarksOne() {
   return {
-  "/bookmarks-screen/a": (_) => _blP(const EnglishEntrya()),
-  "/bookmarks-screen/aback": (_) => _blP(const EnglishEntryaback()),
+    "/bookmarks-screen/a": (_) => _blP(const EnglishEntrya()),
+    "/bookmarks-screen/aback": (_) => _blP(const EnglishEntryaback()),
   };
 }

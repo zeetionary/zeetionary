@@ -336,6 +336,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I keep my private papers hidden.""",
                       kurdishText:
@@ -343,6 +344,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The car was hidden down a narrow alley.""",
@@ -351,6 +353,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The gold was hidden in a secret cavity.""",
@@ -358,6 +361,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Most of the year the insects are hidden in rock crevices.""",
@@ -366,6 +370,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I found it hidden in the back of a cupboard.""",
@@ -374,6 +379,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The money was hidden under the floorboards.""",
@@ -392,12 +398,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I hid under the bed.""",
                       kurdishText: """لە ژێر جێ‌خەوەکە خۆم حەشاردا .""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We hid from our attackers in an empty house.""",
@@ -406,6 +414,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She hides herself away in her office all day.""",
@@ -414,12 +423,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She wanted to run away and hide.""",
                       kurdishText: """ویستی ڕابکات و خۆی بشارێتەوە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He quickly hid behind a large plant.""",
                       kurdishText:
@@ -437,12 +448,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The house was hidden by trees.""",
                       kurdishText: """خانووەکە لە پشت دار شاردرابوویەوە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """No amount of make-up could hide her age.""",
@@ -464,6 +477,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """What amazes me is how long she managed to hide it from us.""",
@@ -472,6 +486,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She could not hide her amusement at the way he was dancing.""",
@@ -480,12 +495,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He turned away to hide his blushes.""",
                       kurdishText: "ڕووی وەرگێڕا بۆ شاردنەوەی سوورھەڵگەڕانی.",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His voice betrayed the worry he was trying to hide.""",
@@ -494,6 +511,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He wore a hat to hide his baldness.""",
                       kurdishText:

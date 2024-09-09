@@ -167,6 +167,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was wearing a hideous yellow dress.""",

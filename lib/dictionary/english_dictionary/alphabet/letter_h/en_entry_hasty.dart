@@ -174,6 +174,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The army beat a hasty retreat.""",
                       kurdishText: """سوپا کشانەوەیەکی خێرای ئەنجامدا.""",

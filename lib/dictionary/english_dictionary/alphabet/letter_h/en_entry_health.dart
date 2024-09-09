@@ -328,6 +328,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Rest and exercise restored her health.""",
                       kurdishText:
@@ -335,6 +336,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You need to maintain your physical and mental health.""",

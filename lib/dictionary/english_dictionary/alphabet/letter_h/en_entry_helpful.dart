@@ -228,6 +228,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A dictionary of antonyms is a helpful tool for understanding opposites in a language.""",
@@ -236,6 +237,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The chemist was known for his friendly service and helpful advice.""",
@@ -244,6 +246,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It is very helpful for a language teacher to have good diction.""",
@@ -252,12 +255,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She gave some helpful advice.""",
                       kurdishText: """ھەندێک ڕاوێژی بەسوودی بەخشی.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Left-handed scissors are a helpful tool for left-handed children.""",

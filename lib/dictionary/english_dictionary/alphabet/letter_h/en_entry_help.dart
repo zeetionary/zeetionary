@@ -708,6 +708,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It helped being able to talk about it.""",
                       kurdishText:
@@ -715,6 +716,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The money raised will help towards (= partly pay for) the cost of organizing the championships.""",
@@ -723,6 +725,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The student received a bursary to help cover the costs of tuition and books.""",
@@ -731,6 +734,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He buses tables to help finance his tuition.""",
@@ -739,6 +743,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Television helps to relieve the boredom of the long winter evenings.""",
@@ -747,6 +752,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The movie helped boost her screen career.""",
@@ -755,6 +761,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The rear-view mirror helps to reduce blind spots on both sides of the car.""",
@@ -763,6 +770,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """More police officers out on the beat may help to cut crime.""",
@@ -781,12 +789,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I helped her across the road.""",
                       kurdishText: """بە پەڕینەوەی ڕێگاکەدا یارمەتییم دا.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She helped the man out of the car.""",
                       kurdishText:
@@ -805,6 +815,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Can I help you to some more salad?""",
                       kurdishText: """ھەندێک زەڵاتەی دیکەت پێ بدەم؟""",
@@ -831,18 +842,21 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence30("en-GB"),
                       onPressedAmerican: () => speaksentence30("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The offer of help came too late.""",
                       kurdishText: """پێشنیاری یارمەتی زۆر درەنگ گەشت.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Do you need any help with that?""",
                       kurdishText: """پێویستیت بە ھیچ یارمەتی ھەیە لەوەدا؟""",
                       onPressedBritish: () => speaksentence32("en-GB"),
                       onPressedAmerican: () => speaksentence32("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I know that this is a bad time to ask for help.""",
@@ -851,18 +865,21 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't be afraid to ask for help.""",
                       kurdishText: "مەترسە لە داواکردن بۆ یارمەتی.",
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'd appreciate some help.""",
                       kurdishText: "پێزانینم دەبێ بۆ ھەندێک یارمەتی.",
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The government appealed to the British people for help.""",
@@ -871,18 +888,21 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence36("en-GB"),
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She called out to her father for help.""",
                       kurdishText: "ھاواری بۆباوکی کرد بۆ یارمەتی.",
                       onPressedBritish: () => speaksentence37("en-GB"),
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She called out to her father for help.""",
                       kurdishText: """دەتوانم ھیچ یارمەتیت بدەم؟""",
                       onPressedBritish: () => speaksentence38("en-GB"),
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """With help from a parent, a child can do simple cooking.""",
@@ -900,18 +920,21 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence40("en-GB"),
                       onPressedAmerican: () => speaksentence40("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I heard a cry for help.""",
                       kurdishText: """گوێم لە ھاوار بۆ یارمەتی بوو.""",
                       onPressedBritish: () => speaksentence41("en-GB"),
                       onPressedAmerican: () => speaksentence41("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He ran to get help.""",
                       kurdishText: """ڕایکرد بۆ ھێنانی یارمەتی.""",
                       onPressedBritish: () => speaksentence42("en-GB"),
                       onPressedAmerican: () => speaksentence42("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I opened the window and called for help.""",
@@ -930,6 +953,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence44("en-GB"),
                       onPressedAmerican: () => speaksentence44("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The organization offers practical help in dealing with paperwork.""",
@@ -938,6 +962,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence45("en-GB"),
                       onPressedAmerican: () => speaksentence45("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The charity provides emergency help for refugees.""",
@@ -965,6 +990,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence48("en-GB"),
                       onPressedAmerican: () => speaksentence48("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Was the information I gave you any help?""",
@@ -973,6 +999,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence49("en-GB"),
                       onPressedAmerican: () => speaksentence49("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Just shouting at him isn't going to be a lot of help.""",
@@ -991,12 +1018,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence51("en-GB"),
                       onPressedAmerican: () => speaksentence51("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Your advice was a big help.""",
                       kurdishText: """ئامۆژگاریت سوودی زۆری ھەبوو.""",
                       onPressedBritish: () => speaksentence52("en-GB"),
                       onPressedAmerican: () => speaksentence52("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's been a big help to her father.""",
                       kurdishText: """یارمەتییەکی گەورە بووە بۆ باوکی.""",

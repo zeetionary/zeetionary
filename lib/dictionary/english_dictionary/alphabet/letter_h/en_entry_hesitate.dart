@@ -188,12 +188,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She hesitated before replying.""",
                       kurdishText: """وا دیاربوو کە دوودڵ بیت بۆ چرکەیەک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I didn't hesitate for a moment about taking the job.""",
@@ -214,6 +216,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Don't hesitate to drop me an email or give me a call.""",

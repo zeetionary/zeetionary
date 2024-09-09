@@ -245,6 +245,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The eggs are about to hatch.""",
                       kurdishText: """چەندی پێدەچێت ھێلکەکان بترووکێن؟""",
@@ -281,6 +282,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Rebel MPs are hatching a secret plot to oust the prime minister.""",

@@ -443,12 +443,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: "He tried to push the heavy door open.",
                       kurdishText: """ھەوڵی دا دەرگا قورسەکە بکاتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """How heavy is it (= how much does it weigh)?""",
@@ -456,6 +458,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Many young people today are too heavy.""",
                       kurdishText:
@@ -463,6 +466,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bottles of wine made the bag even heavier.""",
@@ -483,6 +487,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The British suffered heavy losses in the battle.""",
@@ -491,6 +496,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The penalty for speeding can be a heavy fine.""",
@@ -542,12 +548,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His voice was heavy with sarcasm.""",
                       kurdishText: """دەنگی پڕ لە گاڵتە بوو.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was heavy with child (= pregnant).""",
                       kurdishText: """دووگیان بوو.""",
@@ -643,6 +651,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't go so heavy on the garlic.""",
                       kurdishText: """ھێندە زۆرخۆری سیر مەبە.""",
@@ -661,6 +670,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The discussion got a little heavy.""",
                       kurdishText: """مشتومڕەکە کەمێک توند بوو.""",

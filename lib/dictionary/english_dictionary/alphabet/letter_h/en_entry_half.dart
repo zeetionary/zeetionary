@@ -421,6 +421,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She played well in the second half of the match.""",
@@ -428,6 +429,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We had a few chances to score in both halves.""",
@@ -446,18 +448,21 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Half (of) the fruit was bad.""",
                       kurdishText: """نیوەی میوەکە خراپ بوو.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Half of the money was mine.""",
                       kurdishText: """نیوەی پارەکە ھی من بوو.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He has a half share in the company.""",
                       kurdishText: """نیوەی پشکی کۆمپانیاکەی ھەیە.""",
@@ -474,6 +479,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Half the fun of gardening is never knowing exactly what's going to come up.""",
@@ -490,6 +496,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The hall was half empty.""",
                       kurdishText: """ھۆڵەکە نیوەی بەتاڵ بوو.""",
@@ -505,12 +512,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I was still half asleep.""",
                       kurdishText: """ھێشتا ھەندێک خەوت بووم.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm half inclined to agree.""",
                       kurdishText: """ھەندێک مەیلی ئەوەم ھەیە ڕازی ببم.""",

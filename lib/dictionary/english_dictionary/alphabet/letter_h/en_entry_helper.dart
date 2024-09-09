@@ -165,6 +165,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We rely on volunteer helpers.""",
                       kurdishText: """پشت بە یارمەتیدەری خۆبەخش دەبەستن.""",

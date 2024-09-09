@@ -171,6 +171,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He flew helicopters during the Gulf War.""",
@@ -179,6 +180,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Helicopters buzzed overhead.""",
                       kurdishText: """ھەلیکۆپتەر لە سەرەوە فڕەیان دەھات.""",

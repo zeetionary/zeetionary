@@ -170,12 +170,14 @@ Usage: informal
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hi guys!""",
                       kurdishText: """سڵاو ھاوڕێیان!""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hi, there! How're you doing?""",
                       kurdishText: """سڵاو لە تۆ! چۆنی؟""",

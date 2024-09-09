@@ -235,6 +235,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were threatened with spending eternity in hell.""",
@@ -243,6 +244,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Lava poured out of the volcano, glowing like the fires of hell.""",
@@ -261,18 +263,21 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The last three months have been hell.""",
                       kurdishText: """سێ مانگی ڕابردوو دەبێت دۆزەخ بووبن.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her parents made her life hell.""",
                       kurdishText: """دایبابی ژیانییان کرد بە دۆزەخ.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Being totally alone is my idea of hell on earth.""",
@@ -291,6 +296,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """What the hell do you think you are doing?""",
@@ -298,6 +304,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I can't really afford it, but, what the hell (= it doesn't matter), I'll get it anyway.""",

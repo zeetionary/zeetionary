@@ -191,12 +191,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Please give her my regards.""",
                       kurdishText: """تکایە ڕێزمی پێ بگەیەنە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The manager will be free soon—you can wait for her here.""",
@@ -205,6 +207,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """That must be her now.""",
                       kurdishText: """ئەوە ئێستا دەبێت ئەو بێت.""",
@@ -221,6 +224,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She broke her leg skiing.""",
                       kurdishText: """قاچی خۆی شکاند لە کاتی بەفرەخلیسکێ.""",

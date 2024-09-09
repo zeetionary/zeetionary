@@ -308,24 +308,28 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Please state your height and weight.""",
                       kurdishText: """تکایە بەرزی و کێشت بنووسە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She is the same height as her sister.""",
                       kurdishText: """ھەمان بەرزیی خوشکەکەی ھەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It is almost two metres in height.""",
                       kurdishText: """بە نزیکەیی دوو مەترە لە بەرزیدا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You can adjust the height of the chair.""",
@@ -333,6 +337,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The plant can reach a height of over six feet.""",
@@ -341,6 +346,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The table is available in several different heights.""",
@@ -359,6 +365,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His height sometimes makes it difficult to find clothes that fit.""",
@@ -376,6 +383,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The plane flew at a height of 3 000 metres.""",
@@ -383,6 +391,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The stone was dropped from a great height.""",
@@ -391,6 +400,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Bring your hands to shoulder height.""",
                       kurdishText: """دەستەکانت بھێنە بەرزی شانت.""",
@@ -407,6 +417,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We looked out over the city from the heights of Edinburgh Castle.""",
@@ -425,6 +436,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She is still at the height of her powers.""",
@@ -432,6 +444,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I wouldn't go there in the height of summer.""",
@@ -448,6 +461,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He didn’t know it was possible to reach such heights of happiness.""",

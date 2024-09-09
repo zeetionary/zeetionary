@@ -1496,6 +1496,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence44("en-GB"),
                       onPressedAmerican: () => speaksentence44("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I have to go shopping this afternoon.""",
                       kurdishText: """ئەم دوا نیوەڕۆیە دەبێت بچمە بازاڕکردن.""",
@@ -1878,6 +1879,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence82("en-GB"),
                       onPressedAmerican: () => speaksentence82("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """7 into 15 won’t go.""",
                       kurdishText: """٧ نییە لە ١٥ ــدا.""",

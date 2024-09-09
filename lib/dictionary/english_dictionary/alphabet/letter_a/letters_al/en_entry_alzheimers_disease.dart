@@ -61,10 +61,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "Alzheimer's diseaseeeeeeeeeeeeeeeeeeeeeeeee"),
-                            // divvviiider
+                            EntryTitle(word: "Alzheimer's disease"),
                           ],
                         ),
                         Row(

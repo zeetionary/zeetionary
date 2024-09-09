@@ -365,6 +365,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Jane herself was at the meeting.""",
                       kurdishText: """جەین خۆی لە چاوپێکەوتنەکە بوو.""",

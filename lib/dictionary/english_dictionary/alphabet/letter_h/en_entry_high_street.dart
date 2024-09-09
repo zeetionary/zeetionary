@@ -171,6 +171,7 @@ Usage: Brit (N. Amer: main street)
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The best shops are on the high street.""",
                       kurdishText:

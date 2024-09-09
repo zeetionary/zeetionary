@@ -570,6 +570,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I hate to say it, but I don't think their marriage will last.""",
@@ -587,6 +588,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He cast himself as the innocent victim of a hate campaign.""",
@@ -595,6 +597,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was full of hate for the people who had betrayed her.""",

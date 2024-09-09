@@ -40,29 +40,29 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
     show EnglishEntryhiv;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hive.dart'
     show EnglishEntryhive;
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hms.dart' show EnglishEntryhms //////// HMS
+// en_entry_hoard.dart' show EnglishEntryhoard
+// en_entry_hoarding.dart' show EnglishEntryhoarding
+// en_entry_hoarse.dart' show EnglishEntryhoarse
+// en_entry_hoarsely.dart' show EnglishEntryhoarsely
+// en_entry_hoarseness.dart' show EnglishEntryhoarseness
+// en_entry_hoax.dart' show EnglishEntryhoax
+// en_entry_hob.dart' show EnglishEntryhob
+// en_entry_hobble.dart' show EnglishEntryhobble
+// en_entry_hobby.dart' show EnglishEntryhobby
+// en_entry_hockey.dart' show EnglishEntryhockey
+// en_entry_hod.dart' show EnglishEntryhod
+// en_entry_hoe.dart' show EnglishEntryhoe
+// en_entry_hog.dart' show EnglishEntryhog
+// en_entry_hogmanay.dart' show EnglishEntryhogmanay //////// Hogmanay
+// en_entry_hoist.dart' show EnglishEntryhoist
+// en_entry_hold.dart' show EnglishEntryhold
+// en_entry_hold_up.dart' show EnglishEntryholdup //////// hold-up
+// en_entry_holdall.dart' show EnglishEntryholdall
+// en_entry_holder.dart' show EnglishEntryholder
+// en_entry_holding.dart' show EnglishEntryholding
+// en_entry_hole.dart' show EnglishEntryhole
+// en_entry_holiday.dart' show EnglishEntryholiday
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

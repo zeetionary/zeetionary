@@ -182,6 +182,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He joined the party in 1966 and quickly moved up the hierarchy.""",
@@ -190,6 +191,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She is above me in the hierarchy.""",
                       kurdishText: """لە پلەبەندییەکەدا لە سەروو منە.""",

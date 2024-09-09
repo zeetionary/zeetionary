@@ -149,7 +149,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """I can't stand living in this godforsaken hole.""",
-                      kurdishText: """بەرگەی ژیان لەم چاڵە وێرانەیە ناگرم.""",
+                      kurdishText: """بەرگەی ژیان لەم جێگا وێرانەیە ناگرم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -529,6 +529,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The house has a high wall all the way round it.""",
@@ -537,6 +538,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He has a round face with a high forehead.""",
@@ -554,6 +556,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's only a low wall—about a metre high.""",
@@ -561,6 +564,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The grass was waist-high.""",
                       kurdishText: """گیایەکە تا ناوقەد بەرز بوو.""",
@@ -594,6 +598,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A high proportion of our staff are female.""",
@@ -601,12 +606,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A high degree of accuracy is needed.""",
                       kurdishText: """ئاستێکی بەرزی درووستی پێویستە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The cost in terms of human life was high.""",
@@ -614,18 +621,21 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The tree blew over in the high winds.""",
                       kurdishText: """دارەکە تێکشکا لە بای بەھێزدا.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The tree blew over in the high winds.""",
                       kurdishText: """دارەکە کەوت لە بایە بەھێزەکاندا.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We had high hopes for the business (= we believed it would be successful).""",
@@ -633,6 +643,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Unemployment remained high for several years.""",
@@ -662,6 +673,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The case was referred to a higher court.""",
@@ -678,6 +690,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """At the moment, the euro is high against the dollar, which makes for a good exchange rate.""",
@@ -686,6 +699,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The high dollar is still a major problem for importers.""",
@@ -728,6 +742,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You seem to have a high opinion of yourself!""",
@@ -745,6 +760,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """That note is definitely too high for me.""",
@@ -792,12 +808,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence32("en-GB"),
                       onPressedAmerican: () => speaksentence32("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I can't jump any higher.""",
                       kurdishText: """ناتوانم چیتر بەرزتر باز بدەم.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His desk was piled high with papers.""",
                       kurdishText:
@@ -805,6 +823,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A plane flew high above.""",
                       kurdishText: """فڕۆکەیەک بەرز لە سەرەوەوە فڕی.""",
@@ -823,6 +842,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence36("en-GB"),
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They buy shares low and sell them high.""",
@@ -840,6 +860,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence38("en-GB"),
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's aiming high (= hoping to be very successful) in her exams.""",
@@ -857,6 +878,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence40("en-GB"),
                       onPressedAmerican: () => speaksentence40("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Profits reached an all-time high last year.""",
@@ -865,6 +887,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence41("en-GB"),
                       onPressedAmerican: () => speaksentence41("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Oil prices hit a high of £70 a barrel yesterday.""",

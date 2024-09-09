@@ -160,6 +160,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The job gets a bit hectic at times.""",
                       kurdishText: """کارەکە ھەندێک جار پڕجم‌وجۆڵ دەبێت.""",

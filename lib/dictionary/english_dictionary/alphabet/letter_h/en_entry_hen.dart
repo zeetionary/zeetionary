@@ -189,18 +189,21 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """My hens have stopped laying.""",
                       kurdishText: """مریشکەکانم لە ھێلکەکردن وەستاون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The hen laid three beautiful eggs.""",
                       kurdishText: """مریشکەکە سێ ھێلکەی جوانی کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hens pecked hopefully at the dusty floor.""",

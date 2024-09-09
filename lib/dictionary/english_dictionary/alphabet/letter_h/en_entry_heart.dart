@@ -468,12 +468,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Have you no heart?""",
                       kurdishText: """ھیچ دڵت ھەیە؟""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He returned with a heavy heart (= sad).""",
@@ -502,6 +504,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Let's get to the heart of the matter.""",
                       kurdishText: """با بچینە سەر کرۆکی بابەتەکە.""",
@@ -519,6 +522,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The demonstrators will march through the heart of the capital.""",

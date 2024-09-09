@@ -225,12 +225,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Did she have to pay a fine?""",
                       kurdishText: """پێویست بوو بژێرە بدات؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You don't have to knock—just walk in.""",
                       kurdishText:
@@ -238,12 +240,14 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I haven't got to leave till seven.""",
                       kurdishText: """نابێت بچم تاوەکو حەوت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Do you have to go?""",
                       kurdishText: """پێویستە بچیت؟""",
@@ -263,6 +267,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You've got to try this recipe—it's delicious.""",
@@ -283,6 +288,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This war has got to end soon.""",
                       kurdishText: """ئەم جەنگە دەبێت زوو تەواو ببێت.""",

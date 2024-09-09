@@ -287,24 +287,28 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Put the box here.""",
                       kurdishText: """سندووقەکە بخە ئێرە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Click here for more details.""",
                       kurdishText: """گرتە لێرە بکە بۆ وردەکاریی زیاتر.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Let's get out of here.""",
                       kurdishText: """با ئێرە جیبھێڵین.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Come over here.""",
                       kurdishText: """وەرە ئێرە.""",
@@ -321,6 +325,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Here's a dish that is simple and quick to make.""",
@@ -329,18 +334,21 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Here is your opportunity.""",
                       kurdishText: """ئەمە ھەلی تۆیە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Here comes the bus.""",
                       kurdishText: """ئەوە پاسەکە دێت.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I can't find my keys. Oh, here they are.""",
@@ -349,6 +357,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Here we are (= we've arrived).""",
                       kurdishText: """گەشتین.""",
@@ -406,6 +415,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Here, have another piece of cake.""",
                       kurdishText: """بگرە، پارچە کێکێکی دیکە بخۆ.""",

@@ -163,6 +163,7 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We’ve had a hellish time lately.""",
                       kurdishText: """ئەم ماوەیە کاتێکی زۆر ناخۆشمان ھەبووە.""",

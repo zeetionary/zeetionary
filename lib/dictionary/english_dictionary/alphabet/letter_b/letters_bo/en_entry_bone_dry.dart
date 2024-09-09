@@ -12,9 +12,7 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrybonedry extends StatelessWidget {
-// blank divider
   EnglishEntrybonedry({super.key});
-// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbonedry(String languageCode) async {

@@ -14,9 +14,7 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrybirthday extends StatelessWidget {
-// blank divider
   EnglishEntrybirthday({super.key});
-// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbirthday(String languageCode) async {

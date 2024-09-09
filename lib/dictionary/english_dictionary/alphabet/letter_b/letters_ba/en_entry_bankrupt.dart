@@ -14,9 +14,7 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrybankrupt extends StatelessWidget {
-// blank divider
   EnglishEntrybankrupt({super.key});
-// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbankrupt(String languageCode) async {

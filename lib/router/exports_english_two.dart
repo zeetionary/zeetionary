@@ -7,7 +7,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hire.dart'
     show EnglishEntryhire;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hire_purchase.dart'
-    show EnglishEntryhirepurchase; //////// hire purchase;
+    show EnglishEntryhirepurchase;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_his.dart'
     show EnglishEntryhis;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hiss.dart'
@@ -25,7 +25,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hit.dart'
     show EnglishEntryhit;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hit_and_run.dart'
-    show EnglishEntryhitandrun; //////// hit-and-run;
+    show EnglishEntryhitandrun;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hitman.dart'
     show EnglishEntryhitman;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hitch.dart'
@@ -37,7 +37,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hitherto.dart'
     show EnglishEntryhitherto;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hiv.dart'
-    show EnglishEntryhiv; //////// HIV;
+    show EnglishEntryhiv;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_entry_hive.dart'
     show EnglishEntryhive;
 // en_entry_.dart' show EnglishEntry

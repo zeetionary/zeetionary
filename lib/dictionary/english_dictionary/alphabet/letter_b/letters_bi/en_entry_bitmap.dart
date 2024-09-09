@@ -12,9 +12,7 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrybitmap extends StatelessWidget {
-// blank divider
   EnglishEntrybitmap({super.key});
-// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbitmap(String languageCode) async {

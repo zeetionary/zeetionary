@@ -14,9 +14,7 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrybecauseof extends StatelessWidget {
-// blank divider
   EnglishEntrybecauseof({super.key});
-// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbecauseof(String languageCode) async {

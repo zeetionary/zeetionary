@@ -14,9 +14,7 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrybiodegradable extends StatelessWidget {
-// blank divider
   EnglishEntrybiodegradable({super.key});
-// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbiodegradable(String languageCode) async {

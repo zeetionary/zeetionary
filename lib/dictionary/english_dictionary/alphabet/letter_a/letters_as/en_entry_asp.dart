@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "asp" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryasp - replace speakAsp
-
-// replace asp - /æsp/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryasp extends StatelessWidget {
-  // blank divider
   EnglishEntryasp({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakasp(String languageCode) async {

@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "author" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace author - replace EnglishEntryauthor
-
-// replace speakAuthor - /ˈɔːθə(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryauthor extends StatelessWidget {
-  // blank divider
   EnglishEntryauthor({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakauthor(String languageCode) async {

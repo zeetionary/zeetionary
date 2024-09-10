@@ -3,16 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace EnglishEntryanvil - replace speakAnvil
-
-// replace anvil - /ˈænvɪl/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryanvil extends StatelessWidget {
-  // blank divider
   EnglishEntryanvil({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakanvil(String languageCode) async {

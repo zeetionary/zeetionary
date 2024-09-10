@@ -3,20 +3,14 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // artificial intelligence
-
-// replace EnglishEntryartificialintelligence - replace speakArtificialintelligence
 
 // replace artificial intelligence - /ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryartificialintelligence extends StatelessWidget {
-  // blank divider
   EnglishEntryartificialintelligence({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakartificialintelligence(String languageCode) async {

@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "backstroke" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace backstroke - replace EnglishEntrybackstroke
-
-// replace speakBackstroke - /ˈbækstrəʊk/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntrybackstroke extends StatelessWidget {
-  // blank divider
   EnglishEntrybackstroke({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakb3(String languageCode) async {

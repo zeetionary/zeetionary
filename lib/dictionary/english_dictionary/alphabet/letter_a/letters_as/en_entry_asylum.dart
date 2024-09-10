@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "asylum" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryasylum - replace speakAsylum
-
-// replace asylum - /əˈsaɪləm/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryasylum extends StatelessWidget {
-  // blank divider
   EnglishEntryasylum({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakasylum(String languageCode) async {

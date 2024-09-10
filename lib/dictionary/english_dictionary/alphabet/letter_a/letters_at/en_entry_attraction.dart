@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "attraction" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace attraction - replace EnglishEntryattraction
-
-// replace speakAttraction - /əˈtrækʃn/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryattraction extends StatelessWidget {
-  // blank divider
   EnglishEntryattraction({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakattraction(String languageCode) async {

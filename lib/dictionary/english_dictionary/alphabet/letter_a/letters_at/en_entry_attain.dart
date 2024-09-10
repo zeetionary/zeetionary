@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "attain" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace attain - replace EnglishEntryattain
-
-// replace speakAttain - /əˈteɪn/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryattain extends StatelessWidget {
-  // blank divider
   EnglishEntryattain({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakattain(String languageCode) async {

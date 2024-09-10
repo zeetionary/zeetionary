@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "astride" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryastride - replace speakAstride
-
-// replace astride - /əˈstraɪd/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryastride extends StatelessWidget {
-  // blank divider
   EnglishEntryastride({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakastride(String languageCode) async {

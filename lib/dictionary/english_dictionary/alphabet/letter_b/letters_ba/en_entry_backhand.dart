@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "backhand" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace backhand - replace EnglishEntrybackhand
-
-// replace speakBackhand - /ˈbækhænd/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntrybackhand extends StatelessWidget {
-  // blank divider
   EnglishEntrybackhand({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakb3(String languageCode) async {

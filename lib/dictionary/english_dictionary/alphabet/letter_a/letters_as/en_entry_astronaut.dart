@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "astronaut" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryastronaut - replace speakAstronaut
-
-// replace astronaut - /ˈæstrənɔːt/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryastronaut extends StatelessWidget {
-  // blank divider
   EnglishEntryastronaut({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakastronaut(String languageCode) async {

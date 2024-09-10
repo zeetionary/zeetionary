@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "astuteness" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryastuteness - replace speakAstuteness
-
-// replace astuteness - /əˈstjuːtnəs/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryastuteness extends StatelessWidget {
-  // blank divider
   EnglishEntryastuteness({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakastuteness(String languageCode) async {

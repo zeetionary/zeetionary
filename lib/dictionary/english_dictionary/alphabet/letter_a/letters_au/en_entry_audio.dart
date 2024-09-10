@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "audio" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace audio - replace EnglishEntryaudio
-
-// replace speakAudio - /ˈɔːdiəʊ/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryaudio extends StatelessWidget {
-  // blank divider
   EnglishEntryaudio({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaudio(String languageCode) async {

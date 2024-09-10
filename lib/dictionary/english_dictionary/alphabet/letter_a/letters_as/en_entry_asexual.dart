@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "asexual" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryasexual - replace speakAsexual
-
-// replace asexual - /ˌeɪˈsekʃuəl/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryasexual extends StatelessWidget {
-  // blank divider
   EnglishEntryasexual({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakasexual(String languageCode) async {

@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "avalanche" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace avalanche - replace EnglishEntryavalanche
-
-// replace speakAvalanche - /ˈævəlɑːnʃ/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryavalanche extends StatelessWidget {
-  // blank divider
   EnglishEntryavalanche({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakavalanche(String languageCode) async {

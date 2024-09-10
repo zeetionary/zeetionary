@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "award" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace award - replace EnglishEntryaward
-
-// replace speakAward - /əˈwɔːd/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryaward extends StatelessWidget {
-  // blank divider
   EnglishEntryaward({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaward(String languageCode) async {

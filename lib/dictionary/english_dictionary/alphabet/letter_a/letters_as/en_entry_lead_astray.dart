@@ -3,20 +3,14 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "lead astray" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryleadastray - replace speakAeadastray
 
 // replace lead astray - /liːd əˈstreɪ/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryleadastray extends StatelessWidget {
-  // blank divider
   EnglishEntryleadastray({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaeadastray(String languageCode) async {

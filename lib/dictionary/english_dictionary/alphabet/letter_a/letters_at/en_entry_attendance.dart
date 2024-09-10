@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "attendance" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace attendance - replace EnglishEntryattendance
-
-// replace speakAttendance - /əˈtendəns/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryattendance extends StatelessWidget {
-  // blank divider
   EnglishEntryattendance({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakattendance(String languageCode) async {

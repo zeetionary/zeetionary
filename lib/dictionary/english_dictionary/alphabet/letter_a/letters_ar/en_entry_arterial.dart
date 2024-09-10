@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // arterial
-
-// replace EnglishEntryarterial - replace speakArterial
-
-// replace arterial - /ɑːˈtɪəriəl/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryarterial extends StatelessWidget {
-  // blank divider
   EnglishEntryarterial({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarterial(String languageCode) async {

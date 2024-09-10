@@ -3,16 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace EnglishEntryantiquity - replace speakAntiquity
-
-// replace antiquity - /ænˈtɪkwəti/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryantiquity extends StatelessWidget {
-  // blank divider
   EnglishEntryantiquity({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakantiquity(String languageCode) async {

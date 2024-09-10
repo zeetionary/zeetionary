@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "backup" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace backup - replace EnglishEntrybackup
-
-// replace speakBackup - /ˈbækʌp/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntrybackup extends StatelessWidget {
-  // blank divider
   EnglishEntrybackup({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbackup(String languageCode) async {

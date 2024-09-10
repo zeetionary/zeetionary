@@ -6,9 +6,7 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrycirculate extends StatelessWidget {
-  // blank divider
   EnglishEntrycirculate({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcirculate(String languageCode) async {

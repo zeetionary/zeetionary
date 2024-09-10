@@ -3,20 +3,14 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "assembly line" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryassemblyline - replace speakAssemblyline
 
 // replace assembly line - /əˈsembli laɪn/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryassemblyline extends StatelessWidget {
-  // blank divider
   EnglishEntryassemblyline({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakassemblyline(String languageCode) async {

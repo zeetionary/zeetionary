@@ -3,20 +3,14 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "azure" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace azure - replace EnglishEntryazure
 
 // replace speakAzure - /ˈæʒə(r)/, /ˈæzjʊə(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryazure extends StatelessWidget {
-  // blank divider
   EnglishEntryazure({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakazure(String languageCode) async {

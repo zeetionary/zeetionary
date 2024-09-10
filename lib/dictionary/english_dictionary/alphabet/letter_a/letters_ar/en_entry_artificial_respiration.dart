@@ -3,20 +3,14 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // artificial respiration
-
-// replace EnglishEntryartificialrespiration - replace speakArtificialrespiration
 
 // replace artificial respiration - /ˌɑːtɪfɪʃl respəˈreɪʃn/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryartificialrespiration extends StatelessWidget {
-  // blank divider
   EnglishEntryartificialrespiration({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakartificialrespiration(String languageCode) async {

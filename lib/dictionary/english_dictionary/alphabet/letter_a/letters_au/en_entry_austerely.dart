@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "austerely" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace austerely - replace EnglishEntryausterely
-
 // replace speakAusterely - /ɒˈstɪəli/, /ɔːˈstɪəli/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryausterely extends StatelessWidget {
-  // blank divider
   EnglishEntryausterely({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakausterely(String languageCode) async {

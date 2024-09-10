@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // articulation
-
-// replace EnglishEntryarticulation - replace speakArticulation
-
-// replace articulation - /ɑːˌtɪkjuˈleɪʃn/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryarticulation extends StatelessWidget {
-  // blank divider
   EnglishEntryarticulation({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarticulation(String languageCode) async {

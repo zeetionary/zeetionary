@@ -6,9 +6,7 @@ import 'package:zeetionary/constants.dart';
 enum TtsState { playing }
 
 class EnglishEntrycolloquialism extends StatelessWidget {
-  // blank divider
   EnglishEntrycolloquialism({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcolloquialism(String languageCode) async {

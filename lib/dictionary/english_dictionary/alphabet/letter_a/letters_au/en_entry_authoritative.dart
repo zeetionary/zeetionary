@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "authoritative" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace authoritative - replace EnglishEntryauthoritative
-
-// replace speakAuthoritative - /ɔːˈθɒrətətɪv/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryauthoritative extends StatelessWidget {
-  // blank divider
   EnglishEntryauthoritative({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakauthoritative(String languageCode) async {

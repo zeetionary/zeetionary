@@ -3,16 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace EnglishEntryAdopsum - replace speakApartfrom
-
 // replace apart from - /əˈpɑːt frəm/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryapartfrom extends StatelessWidget {
-  // blank divider
   EnglishEntryapartfrom({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakapartfrom(String languageCode) async {

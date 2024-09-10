@@ -3,18 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// replace EnglishEntryAdopsum - replace speakArabicnumeral
-
 // replace Arabic numeral - /ˌærəbɪk ˈnjuːmərəl/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryarabicnumeral extends StatelessWidget {
-  // blank divider
   EnglishEntryarabicnumeral({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarabicnumeral(String languageCode) async {

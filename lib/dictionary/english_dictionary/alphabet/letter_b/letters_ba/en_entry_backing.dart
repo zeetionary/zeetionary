@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "backing" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace backing - replace EnglishEntrybacking
-
-// replace speakBacking - /ˈbækɪŋ/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntrybacking extends StatelessWidget {
-  // blank divider
   EnglishEntrybacking({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbacking(String languageCode) async {

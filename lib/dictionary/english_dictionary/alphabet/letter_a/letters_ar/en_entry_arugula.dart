@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // arugula
-
-// replace EnglishEntryarugula - replace speakArugula
-
-// replace arugula - /əˈruːɡjʊlə/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryarugula extends StatelessWidget {
-  // blank divider
   EnglishEntryarugula({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarugula(String languageCode) async {

@@ -3,20 +3,14 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "atomic bomb" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryatomicbomb - replace speakAtomicbomb
 
 // replace atomic bomb - /əˌtɒmɪk ˈbɒm/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryatomicbomb extends StatelessWidget {
-  // blank divider
   EnglishEntryatomicbomb({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakatomicbomb(String languageCode) async {

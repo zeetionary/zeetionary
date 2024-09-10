@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "authority" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace authority - replace EnglishEntryauthority
-
-// replace speakAuthority - /ɔːˈθɒrəti/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryauthority extends StatelessWidget {
-  // blank divider
   EnglishEntryauthority({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakauthority(String languageCode) async {

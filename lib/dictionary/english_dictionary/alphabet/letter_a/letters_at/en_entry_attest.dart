@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "attest" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace attest - replace EnglishEntryattest
-
-// replace speakAttest - /əˈtest/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryattest extends StatelessWidget {
-  // blank divider
   EnglishEntryattest({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakattest(String languageCode) async {

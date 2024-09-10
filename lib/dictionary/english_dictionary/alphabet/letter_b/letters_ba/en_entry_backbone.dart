@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "backbone" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace backbone - replace EnglishEntrybackbone
-
-// replace speakBackbone - /ˈbækbəʊn/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntrybackbone extends StatelessWidget {
-  // blank divider
   EnglishEntrybackbone({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakb3(String languageCode) async {

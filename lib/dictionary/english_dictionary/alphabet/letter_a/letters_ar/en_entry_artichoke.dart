@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // artichoke
-
-// replace EnglishEntryartichoke - replace speakArtichoke
-
-// replace artichoke - /ˈɑːtɪtʃəʊk/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryartichoke extends StatelessWidget {
-  // blank divider
   EnglishEntryartichoke({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakartichoke(String languageCode) async {

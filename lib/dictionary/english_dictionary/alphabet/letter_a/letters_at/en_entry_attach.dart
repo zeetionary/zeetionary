@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "attach" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryattach - replace speakAttach
-
-// replace attach - /əˈtætʃ/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryattach extends StatelessWidget {
-  // blank divider
   EnglishEntryattach({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakattach(String languageCode) async {

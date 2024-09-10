@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "authentically" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace authentically - replace EnglishEntryauthentically
-
-// replace speakAuthentically - /ɔːˈθentɪkli/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryauthentically extends StatelessWidget {
-  // blank divider
   EnglishEntryauthentically({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakauthentically(String languageCode) async {

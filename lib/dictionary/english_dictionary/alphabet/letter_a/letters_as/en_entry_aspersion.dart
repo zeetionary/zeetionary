@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "aspersion" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryaspersion - replace speakAspersion
-
-// replace aspersion - /əˈspɜːʃnz/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryaspersion extends StatelessWidget {
-  // blank divider
   EnglishEntryaspersion({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaspersion(String languageCode) async {

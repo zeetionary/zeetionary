@@ -3,18 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// replace EnglishEntryAdopsum - replace speakArbitration
-
-// replace arbitration - /ˌɑːbɪˈtreɪʃn/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryarbitration extends StatelessWidget {
-  // blank divider
   EnglishEntryarbitration({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarbitration(String languageCode) async {

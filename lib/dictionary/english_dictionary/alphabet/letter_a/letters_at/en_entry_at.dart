@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "at" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryat - replace speakAt
-
 // replace at - /ət/, strong form  /æt/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryat extends StatelessWidget {
-  // blank divider
   EnglishEntryat({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakat(String languageCode) async {

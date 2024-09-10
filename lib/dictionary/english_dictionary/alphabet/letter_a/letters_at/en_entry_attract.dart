@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "attract" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace attract - replace EnglishEntryattract
-
-// replace speakAttract - /əˈtrækt/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryattract extends StatelessWidget {
-  // blank divider
   EnglishEntryattract({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakattract(String languageCode) async {

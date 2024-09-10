@@ -3,18 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// replace EnglishEntryAdopsum - replace speakAppendicitis
-
-// replace appendicitis - /əˌpendəˈsaɪtɪs/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryappendicitis extends StatelessWidget {
-  // blank divider
   EnglishEntryappendicitis({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakappendicitis(String languageCode) async {

@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "astronomer" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryastronomer - replace speakAstronomer
-
-// replace astronomer - /əˈstrɒnəmə(r)/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryastronomer extends StatelessWidget {
-  // blank divider
   EnglishEntryastronomer({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakastronomer(String languageCode) async {

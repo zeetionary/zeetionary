@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "ascendancy" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryascendancy - replace speakAscendancy
-
-// replace ascendancy - /əˈsendənsi/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryascendancy extends StatelessWidget {
-  // blank divider
   EnglishEntryascendancy({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakascendancy(String languageCode) async {

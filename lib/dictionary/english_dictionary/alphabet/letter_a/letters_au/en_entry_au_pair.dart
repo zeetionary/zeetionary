@@ -3,20 +3,14 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "au pair" and provide three example sentences for each meaning. Use Merriam Webster style.
 
 // replace au pair - replace EnglishEntryaupair
 
-// replace speakAupair - /ˌəʊ ˈpeə(r)/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryaupair extends StatelessWidget {
-  // blank divider
   EnglishEntryaupair({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaupair(String languageCode) async {

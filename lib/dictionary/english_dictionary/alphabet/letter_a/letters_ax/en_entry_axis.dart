@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "axis" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
-
-// replace axis - replace EnglishEntryaxis
-
-// replace speakAxis - /ˈæksɪs/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryaxis extends StatelessWidget {
-  // blank divider
   EnglishEntryaxis({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaxis(String languageCode) async {

@@ -3,16 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace EnglishEntryantisocial - replace speakAntisocial
-
-// replace antisocial - /ˌæntiˈsəʊʃl/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryantisocial extends StatelessWidget {
-  // blank divider
   EnglishEntryantisocial({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakantisocial(String languageCode) async {

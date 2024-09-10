@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "astrology" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryastrology - replace speakAstrology
-
-// replace astrology - /əˈstrɒlədʒi/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryastrology extends StatelessWidget {
-  // blank divider
   EnglishEntryastrology({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakastrology(String languageCode) async {

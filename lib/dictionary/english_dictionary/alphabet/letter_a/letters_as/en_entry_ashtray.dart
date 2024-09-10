@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "ashtray" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryashtray - replace speakAshtray
-
-// replace ashtray - /ˈæʃtreɪ/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryashtray extends StatelessWidget {
-  // blank divider
   EnglishEntryashtray({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakashtray(String languageCode) async {

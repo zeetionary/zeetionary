@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "atrociously" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryatrociously - replace speakAtrociously
-
-// replace atrociously - /əˈtrəʊʃəsli/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryatrociously extends StatelessWidget {
-  // blank divider
   EnglishEntryatrociously({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakatrociously(String languageCode) async {

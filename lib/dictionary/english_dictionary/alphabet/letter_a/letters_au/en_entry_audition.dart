@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "audition" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace audition - replace EnglishEntryaudition
-
-// replace speakAudition - /ɔːˈdɪʃn/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryaudition extends StatelessWidget {
-  // blank divider
   EnglishEntryaudition({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaudition(String languageCode) async {

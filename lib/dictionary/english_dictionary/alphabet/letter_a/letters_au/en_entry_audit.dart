@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "audit" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace audit - replace EnglishEntryaudit
-
-// replace speakAudit - /ˈɔːdɪt/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryaudit extends StatelessWidget {
-  // blank divider
   EnglishEntryaudit({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaudit(String languageCode) async {

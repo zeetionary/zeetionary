@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "asset" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryasset - replace speakAsset
-
-// replace asset - /ˈæset/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryasset extends StatelessWidget {
-  // blank divider
   EnglishEntryasset({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakasset(String languageCode) async {

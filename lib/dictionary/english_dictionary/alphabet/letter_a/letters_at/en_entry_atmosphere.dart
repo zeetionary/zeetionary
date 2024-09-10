@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "atmosphere" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryatmosphere - replace speakAtmosphere
-
-// replace atmosphere - /ˈætməsfɪə(r)/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryatmosphere extends StatelessWidget {
-  // blank divider
   EnglishEntryatmosphere({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakatmosphere(String languageCode) async {

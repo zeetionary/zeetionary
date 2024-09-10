@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "aspirate" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryaspirate - replace speakAspirate
-
-// replace aspirate - /ˈæspərət/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryaspirate extends StatelessWidget {
-  // blank divider
   EnglishEntryaspirate({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaspirate(String languageCode) async {

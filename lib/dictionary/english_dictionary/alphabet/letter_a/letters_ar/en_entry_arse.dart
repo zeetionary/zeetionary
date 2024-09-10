@@ -3,20 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // arse
-
-// replace EnglishEntryarse - replace speakArse
-
-// replace arse - /ɑːs/ - find WORD_WEB
 
 enum TtsState { playing }
 
 class EnglishEntryarse extends StatelessWidget {
-  // blank divider
   EnglishEntryarse({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarse(String languageCode) async {

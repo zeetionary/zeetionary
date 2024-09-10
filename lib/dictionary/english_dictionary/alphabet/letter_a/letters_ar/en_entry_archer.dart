@@ -3,18 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// replace EnglishEntryAdopsum - replace speakArcher
-
-// replace archer - /ˈɑːtʃə(r)/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryarcher extends StatelessWidget {
-  // blank divider
   EnglishEntryarcher({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarcher(String languageCode) async {

@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "asbestos" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryasbestos - replace speakAsbestos
-
-// replace asbestos - /æsˈbestɒs/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryasbestos extends StatelessWidget {
-  // blank divider
   EnglishEntryasbestos({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakasbestos(String languageCode) async {

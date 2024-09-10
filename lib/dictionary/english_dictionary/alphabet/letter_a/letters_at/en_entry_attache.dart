@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "attaché" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryattache - replace speakAttache
-
-// replace attaché - /əˈtæʃeɪ/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryattache extends StatelessWidget {
-  // blank divider
   EnglishEntryattache({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakattache(String languageCode) async {

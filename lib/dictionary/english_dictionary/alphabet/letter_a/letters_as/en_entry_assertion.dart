@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "assertion" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryassertion - replace speakAssertion
-
-// replace assertion - /əˈsɜːʃn/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryassertion extends StatelessWidget {
-  // blank divider
   EnglishEntryassertion({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakassertion(String languageCode) async {

@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "attacker" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace attacker - replace EnglishEntryattacker
-
-// replace speakAttacker - /əˈtækə(r)/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryattacker extends StatelessWidget {
-  // blank divider
   EnglishEntryattacker({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakattacker(String languageCode) async {

@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "aspiration" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryaspiration - replace speakAspiration
-
-// replace aspiration - /ˌæspəˈreɪʃn/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryaspiration extends StatelessWidget {
-  // blank divider
   EnglishEntryaspiration({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaspiration(String languageCode) async {

@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "asleep" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryasleep - replace speakAsleep
-
-// replace asleep - /əˈsliːp/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryasleep extends StatelessWidget {
-  // blank divider
   EnglishEntryasleep({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakasleep(String languageCode) async {

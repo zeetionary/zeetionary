@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "auditorium" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace auditorium - replace EnglishEntryauditorium
-
-// replace speakAuditorium - /ˌɔːdɪˈtɔːriəm/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryauditorium extends StatelessWidget {
-  // blank divider
   EnglishEntryauditorium({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakauditorium(String languageCode) async {

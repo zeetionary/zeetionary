@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "assist" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryassist - replace speakAssist
-
-// replace assist - /əˈsɪst/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryassist extends StatelessWidget {
-  // blank divider
   EnglishEntryassist({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakassist(String languageCode) async {

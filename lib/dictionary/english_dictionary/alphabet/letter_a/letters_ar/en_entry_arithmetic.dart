@@ -3,18 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// replace EnglishEntryAdopsummm - replace speakArithmetic
-
-// replace arithmetic - /əˈrɪθmətɪk/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryarithmetic extends StatelessWidget {
-  // blank divider
   EnglishEntryarithmetic({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarithmetic(String languageCode) async {

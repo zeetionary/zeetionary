@@ -3,8 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 // Define the word "blowout" and for each meaning provide five example sentences that consist of 10-words or less. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
 
 // replace blowout - /ˈbləʊaʊt/

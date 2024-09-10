@@ -3,18 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// replace EnglishEntryAdopsummm - replace speakAristocratic
-
-// replace aristocratic - /ˌærɪstəˈkrætɪk/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryaristocratic extends StatelessWidget {
-  // blank divider
   EnglishEntryaristocratic({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaristocratic(String languageCode) async {

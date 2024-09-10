@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "asphyxiation" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryasphyxiation - replace speakAsphyxiation
-
-// replace asphyxiation - /əsˌfɪksiˈeɪʃn/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryasphyxiation extends StatelessWidget {
-  // blank divider
   EnglishEntryasphyxiation({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakasphyxiation(String languageCode) async {

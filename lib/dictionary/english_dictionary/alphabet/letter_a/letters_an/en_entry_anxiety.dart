@@ -3,16 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace EnglishEntryanxiety - replace speakAnxiety
-
-// replace anxiety - /æŋˈzaɪəti/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryanxiety extends StatelessWidget {
-  // blank divider
   EnglishEntryanxiety({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakanxiety(String languageCode) async {

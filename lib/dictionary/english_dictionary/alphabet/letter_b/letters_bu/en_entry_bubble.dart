@@ -3,8 +3,6 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
 enum TtsState { playing }
 
 class EnglishEntrybubble extends StatelessWidget {

@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "assess" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryassess - replace speakAssess
-
-// replace assess - /əˈses/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryassess extends StatelessWidget {
-  // blank divider
   EnglishEntryassess({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakassess(String languageCode) async {

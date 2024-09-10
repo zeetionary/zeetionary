@@ -3,20 +3,10 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
-
-// Define the word "ass" and provide three example sentences for each meaning. Use Merriam Webster style.
-
-// replace EnglishEntryass - replace speakAss
-
-// replace ass - /æs/ - find WORD_WEB
-
 enum TtsState { playing }
 
 class EnglishEntryass extends StatelessWidget {
-  // blank divider
   EnglishEntryass({super.key});
-  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakass(String languageCode) async {

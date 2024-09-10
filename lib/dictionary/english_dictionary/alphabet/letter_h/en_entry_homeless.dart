@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryhomeless extends StatefulWidget {
+  const EnglishEntryhomeless({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryhomeless> createState() => _EnglishEntryhomelessState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryhomelessState extends State<EnglishEntryhomeless> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Adjective: homeless
+1. Without nationality or citizenship (- stateless)
+"homeless persons";
+ 
+2. Physically or spiritually homeless or deprived of security (- dispossessed, roofless)
+"made a living out of shepherding homeless people from one country to another";
+
+- Noun: homeless
+1. Someone unfortunate without housing (- homeless person)
+"a homeless was found murdered in Central Park";
+ 
+2. Poor people who unfortunately do not have a home to live in
+"the homeless became a problem in the large cities"
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "homeless";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,35 +88,35 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""homeless""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts.speak("""Court documents say that she and her children are chronically homeless.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She spoke with feeling about the plight of homeless people.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He heartlessly ignored the homeless man's plea for help.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The homeless sometimes have to sleep in the streets.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -923,19 +933,20 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/Bnju9eUUuxo?t=';
+    const double startSecondsend = 00000000000000000000000000089;
+    const String videoIdone = 'https://youtu.be/tUR9UIscLGU?t=';
+    const double startSecondsone = 0000000000000000000000000001841;
+    const String videoIdtwo = 'https://youtu.be/4brSh0g4uK8?t=';
+    const double startSecondstwo = 000000000000000000000000000399;
+    const String videoIdthree = 'https://youtu.be/G1LnTOaZtO4?t=';
+    const double startSecondsthree = 000000000000000000000000000114;
+    const String videoIdfour = 'https://youtu.be/01ZCGoXm2NU?t=';
+    const double startSecondsfour = 00000000000000000000000000040;
+    const String videoIdfive = 'https://youtu.be/YMbWE-4u7w8?t=';
+    const double startSecondsfive = 000000000000000000000000000661;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +959,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """homeless""",
+                      // alsoEnglishWord: "also: homeless",
+                      britshText: """IpaUK: /ˈhəʊmləs/""",
+                      americanText: """IpaUS: /ˈhəʊmləs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -989,20 +1000,44 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌ماڵ‌وحاڵ، ئاوارە، دەربەدەر، پەڕیوە
 """),
-// With short examples define "hitchhike", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
+                      englishText: """Court documents say that she and her children are chronically homeless.""",
                       kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
-                      onPressedBritish: () => speaksentence1("en-GB"),
+                                "بەڵگەنامەکانی دادگا ئەوە پیشان کە ژنەکە و منداڵەکانی بۆ ماوەیەکی درێژ بێ‌لانە بوون.",
+                            onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """She spoke with feeling about the plight of homeless people.""",
+                      kurdishText:
+                """بە سۆزەوە قسەی دەکرد سەبارەت بە دۆخی چەرمەسەریی کەسانی بێ‌لانە.""",
+            onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """He heartlessly ignored the homeless man's plea for help.""",
+                      kurdishText:
+                          """بێ‌بەزەیی‌یانە پاڕانەوەی پیاوە بێ‌لانەکەی پشتگوێ خست بۆ یارمەتی.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) ئەو کەسانەی کە ماڵیان نییە بۆ ژیان"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """The homeless sometimes have to sleep in the streets.""",
+                      kurdishText: """دەربەدەران هەندێکجار دەبێت لەسەر شەقامەکان بنوون.""",
+                      onPressedBritish: () => speaksentence4("en-GB"),
+                      onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                   ],
                 ),

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryholster extends StatefulWidget {
+  const EnglishEntryholster({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryholster> createState() => _EnglishEntryholsterState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryholsterState extends State<EnglishEntryholster> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Noun: holster (Derived forms: holsters)
+1. A sheath (usually leather) for carrying a handgun
+ 
+2. A belt with loops or slots for carrying small hand tools
+
+- Verb: holster (Derived forms: holstered, holstering, holsters)
+1. (of a gun) put in a holster
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "holster";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +82,21 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""holster""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts.speak("""The officer pulled his gun from his holster.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He holstered his gun and walked away.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -924,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/oBcxuzdP3rs?t=';
+    const double startSecondsend = 000000000000000000000000000158;
+    const String videoIdone = 'https://youtu.be/fGMCjELDyUY?t=';
+    const double startSecondsone = 0000000000000000000000000001693;
+    const String videoIdtwo = 'https://youtu.be/CjiKlLE3NuI?t=';
+    const double startSecondstwo = 000000000000000000000000000861;
+    const String videoIdthree = 'https://youtu.be/PhQksV8fbKw?t=';
+    const double startSecondsthree = 0000000000000000000000000001943;
+    const String videoIdfour = 'https://youtu.be/KDthN45L57Q?t=';
+    const double startSecondsfour = 000000000000000000000000000548;
+    const String videoIdfive = 'https://youtu.be/lQHXTJtzVk0?t=';
+    const double startSecondsfive = 000000000000000000000000000103;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """holster""",
+                      // alsoEnglishWord: "also: holster",
+                      britshText: """IpaUK: /ˈhəʊlstə(r)/""",
+                      americanText: """IpaUS: /ˈhəʊlstər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -989,20 +993,28 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: جێ‌دەمانچە، بەرگەدەمانچە
 """),
-// With short examples define "hitchhike", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                            """١. (ناو) بەرگی دەمانچە کە بە پشتێنێکەوە دەبەسترێت"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
+                      englishText:
+                          """The officer pulled his gun from his holster.""",
                       kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                          """ئەفسەرەکە دەمانچەکەی لە بەرگەکەی دەرهێنا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) دانانی دەمانچە لە بەرگەکەی"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """He holstered his gun and walked away.""",
+                      kurdishText: """چەکەکەیی خستە بەرگەکەی و ڕۆشت.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                   ],
                 ),

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryhomage extends StatefulWidget {
+  const EnglishEntryhomage({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryhomage> createState() => _EnglishEntryhomageState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryhomageState extends State<EnglishEntryhomage> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Noun: homage (Derived forms: homages)
+1. Respectful deference (- court)
+"pay homage to the emperor";
+ 
+2. An artistic work imitating another in a flattering style
+ 
+3. (historical) the formal oath of a vassal to honour his or her lord's rights
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "homage";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +82,21 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""homage""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts.speak("""The kings of France paid homage to no one.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""They stood in silent homage around the grave.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -924,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/FX1eWKGGOrY?t=';
+    const double startSecondsend = 000000000000000000000000000407;
+    const String videoIdone = 'https://youtu.be/L1kYZHnHS0E?t=';
+    const double startSecondsone = 0000000000000000000000000001528;
+    const String videoIdtwo = 'https://youtu.be/ShMRAN78598?t=';
+    const double startSecondstwo = 0000000000000000000000000001042;
+    const String videoIdthree = 'https://youtu.be/C1oxhniG_Fc?t=';
+    const double startSecondsthree = 000000000000000000000000000837;
+    const String videoIdfour = 'https://youtu.be/29DjvorzUGg?t=';
+    const double startSecondsfour = 000000000000000000000000000373;
+    const String videoIdfive = 'https://youtu.be/_9rucsh5brg?t=';
+    const double startSecondsfive = 000000000000000000000000000377;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """homage""",
+                      // alsoEnglishWord: "also: homage",
+                      britshText: """IpaUK: /ˈhɒmɪdʒ/, /ɒˈmɑːʒ/""",
+                      americanText: """IpaUS: /ˈhɑːmɪdʒ/, /əʊˈmɑːʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,18 +995,28 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hitchhike", please follow LX instructions
+// With short examples define "homage", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                            """١. (ناو) شتێک کە دەگوترێت یان دەکرێت بۆ پیشاندانی ڕێز بۆ کەسێک"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
+                      englishText:
+                          """The kings of France paid homage to no one.""",
                       kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                          """شاکانی فەرەنسا ڕێزیان بۆ کەس پیشان نەدەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """They stood in silent homage around the grave.""",
+                      kurdishText:
+                          """بە بێدەنگی و بە ڕێزەوە لە دەوری گۆڕەکە وەستان.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                   ],
                 ),

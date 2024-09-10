@@ -830,8 +830,8 @@ class YouTubeVideosContainer extends StatelessWidget {
       child: Column(
         children: [
           ConstantContainer(
-            margin: const EdgeInsets.only(top: 55.0, left: 4, right: 4),
-            padding: const EdgeInsets.all(4.0),
+            margin: const EdgeInsets.only(top: 55.0, left: 6, right: 6),
+            padding: const EdgeInsets.all(6.0),
             // decoration: BoxDecoration(
             //   boxShadow: [
             //     BoxShadow(
@@ -921,8 +921,8 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
       child: Column(
         children: [
           ConstantContainer(
-            margin: const EdgeInsets.only(top: 55.0, left: 4, right: 4),
-            padding: const EdgeInsets.all(4.0),
+            margin: const EdgeInsets.only(top: 55.0, left: 6, right: 6),
+            padding: const EdgeInsets.all(6.0),
             // decoration: BoxDecoration(
             //   boxShadow: [
             //     BoxShadow(

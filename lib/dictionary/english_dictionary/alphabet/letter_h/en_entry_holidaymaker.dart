@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryholidaymaker extends StatefulWidget {
+  const EnglishEntryholidaymaker({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryholidaymaker> createState() =>
+      _EnglishEntryholidaymakerState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryholidaymakerState extends State<EnglishEntryholidaymaker> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Noun: holidaymaker (Derived forms: holidaymakers)
+Usage: Brit, Cdn (US: vacationist)
+1. Someone on vacation; someone who is devoting time to pleasure or relaxation rather than to work (- vacationer [N. Amer], vacationist [N. Amer], grockle [UK, informal])
+ 
+2. Someone who travels for pleasure (- tourist, tourer, vacationist [N. Amer])
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "holidaymaker";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,14 +81,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""holidaymaker""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts
+        .speak("""The plane was packed with Dutch holidaymakers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -924,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/bByJdUw8KtE?t=';
+    const double startSecondsend = 000000000000000000000000000518;
+    const String videoIdone = 'https://youtu.be/RQ1nY51txoA?t=';
+    const double startSecondsone = 000000000000000000000000000339;
+    const String videoIdtwo = 'https://youtu.be/lPOYV_O21GM?t=';
+    const double startSecondstwo = 000000000000000000000000000424;
+    const String videoIdthree = 'https://youtu.be/lSII7Hs8p5Y?t=';
+    const double startSecondsthree = 000000000000000000000000000229;
+    const String videoIdfour = 'https://youtu.be/WRUa1JQylQc?t=';
+    const double startSecondsfour = 000000000000000000000000000817;
+    const String videoIdfive = 'https://youtu.be/gFUGzVblMss?t=';
+    const double startSecondsfive = 000000000000000000000000000225;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +952,11 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """holidaymaker""",
+                      // alsoEnglishWord: "also: holidaymaker",
+                      britshText:
+                          """IpaUK: /ˈhɒlədeɪmeɪkə(r)/,  /ˈhɒlədimeɪkə(r)/""",
+                      americanText: """IpaUS: /ˈhɑːlədeɪmeɪkər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -989,18 +994,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕێبوار، شاران‌گەڕ، توریست، گەڕوان
 """),
-// With short examples define "hitchhike", please follow LX instructions
+// With short examples define "holidaymaker", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                            """١. (ناو) کەسێک کە بۆ گەشت و پشوو سەردانی شوێنێک دەکات"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
-                      kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                      englishText:
+                          """The plane was packed with Dutch holidaymakers.""",
+                      kurdishText: """فڕۆکەکە پڕبوو لە گەشتیارانی هۆڵەندی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

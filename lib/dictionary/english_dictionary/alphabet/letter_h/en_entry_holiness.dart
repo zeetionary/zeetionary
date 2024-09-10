@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryholiness extends StatefulWidget {
+  const EnglishEntryholiness({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryholiness> createState() => _EnglishEntryholinessState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryholinessState extends State<EnglishEntryholiness> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Noun: holiness (Derived forms: holinesses)
+1. The quality of being holy (- sanctity, sanctitude)
+"violate the holiness of the church";
+
+- Noun: Holiness (Derived forms: Holinesses)
+1. (Your Holiness or His Holiness) title used to address to the pope and other senior religious leaders
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "holiness";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +81,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""holiness""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts.speak(
+        """This temple is a place of great holiness for the religion's followers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Yes, Your Holiness.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -924,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/Cln0J87vulU?t=';
+    const double startSecondsend = 000000000000000000000000000129;
+    const String videoIdone = 'https://youtu.be/QMlI778Jhsg?t=';
+    const double startSecondsone = 000000000000000000000000000642;
+    const String videoIdtwo = 'https://youtu.be/2MZZrDA-I4M?t=';
+    const double startSecondstwo = 000000000000000000000000000224;
+    const String videoIdthree = 'https://youtu.be/LUhbZdvtzcw?t=';
+    const double startSecondsthree = 000000000000000000000000000117;
+    const String videoIdfour = 'https://youtu.be/1C3iFrC-dRw?t=';
+    const double startSecondsfour = 000000000000000000000000000803;
+    const String videoIdfive = 'https://youtu.be/2J1i8Qi5e6I?t=';
+    const double startSecondsfive = 000000000000000000000000000987;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """holiness""",
+                      // alsoEnglishWord: "also: holiness",
+                      britshText: """IpaUK: /ˈhəʊlinəs/""",
+                      americanText: """IpaUS: /ˈhəʊlinəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -989,20 +993,28 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پاکی، پیرۆزی، پیرۆزێتی، پاکژی، پارێزگاری
 """),
-// With short examples define "hitchhike", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+// With short examples define "holiness", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) پیرۆزی"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
+                      englishText:
+                          """This temple is a place of great holiness for the religion's followers.""",
                       kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                          """ئەم پەرستگایە جێگای پیرۆزی زۆرە بۆ شوێنکەوتووانی ئایینەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) نازناوێک کە بەکاردێت لە کاتی قسەکردن لەگەڵ کەسێکی ئایینی گرنگ"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """Yes, Your Holiness.""",
+                      kurdishText: """بەڵی، خاوەن پایە.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                   ],
                 ),

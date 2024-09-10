@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryhomeeconomics extends StatefulWidget {
+  const EnglishEntryhomeeconomics({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryhomeeconomics> createState() =>
+      _EnglishEntryhomeeconomicsState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryhomeeconomicsState extends State<EnglishEntryhomeeconomics> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Noun: home economics
+1. Theory and practice of homemaking (- home ec, domestic science, household arts)
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "home economics";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,14 +78,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""home economics""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts
+        .speak("""She took a course in home economics at school.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -924,18 +925,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/8WQ5MsroXxE?t=';
+    const double startSecondsend = 00000000000000000000000000030;
+    const String videoIdone = 'https://youtu.be/WAJAp8l6rXs?t=';
+    const double startSecondsone = 000000000000000000000000000192;
+    const String videoIdtwo = 'https://youtu.be/uv7Xa40DzkM?t=';
+    const double startSecondstwo = 00000000000000000000000000046;
+    const String videoIdthree = 'https://youtu.be/VYdsDOZfYAE?t=';
+    const double startSecondsthree = 000000000000000000000000000410;
+    const String videoIdfour = 'https://youtu.be/IlTp6wRkXuY?t=';
+    const double startSecondsfour = 000000000000000000000000000502;
+    const String videoIdfive = 'https://youtu.be/E9fnMXK_AAQ?t=';
+    const double startSecondsfive = 00000000000000000000000000080;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +949,12 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """home economics""",
+                      // alsoEnglishWord: "also: home economics",
+                      britshText:
+                          """IpaUK: /ˌhəʊm ˌiːkəˈnɒmɪks/, /ˌhəʊm ˌekəˈnɒmɪks/""",
+                      americanText:
+                          """IpaUS: /ˌhəʊm ˌiːkəˈnɑːmɪks/, /ˌhəʊm ˌekəˈnɑːmɪks/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -989,18 +992,15 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ماڵداری، بنەوانی
 """),
-// With short examples define "hitchhike", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                            """١. (ناو) چێشتلێنان و شارەزاییەکانی دیکە کە بۆ بەڕێوەبردنی ماڵەوە پێویستن و لە قوتابخانە دەگوترێنەوە"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
-                      kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                      englishText:
+                          """She took a course in home economics at school.""",
+                      kurdishText: """کۆرسێکی ماڵداریی وەرگرت لە قوتابخانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

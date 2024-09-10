@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryholly extends StatefulWidget {
+  const EnglishEntryholly({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryholly> createState() => _EnglishEntryhollyState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryhollyState extends State<EnglishEntryholly> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Noun: holly (Derived forms: hollies)
+1. Any tree or shrub of the genus Ilex having red berries and shiny evergreen leaves with prickly edges
+
+- Noun: Holly 
+1. United States rock star (1936-1959)
+(- Buddy Holly, Charles Hardin Holley)
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "holly";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,14 +81,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""holly""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts.speak("""We decorated the house with holly.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -924,18 +927,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/NDf6hg2HS3w?t=';
+    const double startSecondsend = 00000000000000000000000000076;
+    const String videoIdone = 'https://youtu.be/5o3KtecMN4Y?t=';
+    const double startSecondsone = 000000000000000000000000000383;
+    const String videoIdtwo = 'https://youtu.be/6MHepIWVzIo?t=';
+    const double startSecondstwo = 0000000000000000000000000001278;
+    const String videoIdthree = 'https://youtu.be/9ZZQX1MJjp0?t=';
+    const double startSecondsthree = 00000000000000000000000000088;
+    const String videoIdfour = 'https://youtu.be/IisS64k9RM4?t=';
+    const double startSecondsfour = 000000000000000000000000000352;
+    const String videoIdfive = 'https://youtu.be/opXFR6ab214?t=';
+    const double startSecondsfive = 000000000000000000000000000734;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +951,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """holly""",
+                      // alsoEnglishWord: "also: holly",
+                      britshText: """IpaUK: /ˈhɒli/""",
+                      americanText: """IpaUS: /ˈhɑːli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,16 +994,12 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hitchhike", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                            """١. (ناو) دارێکی هەمیشە سەوزی بچووک کە گەڵای درەوشاوەی سەختی نووک تیژی هەیە لەگەڵ میوەی سووری خڕی بچوک و زۆرجار وەک داری کریسمس بەکاردێت"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
-                      kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                      englishText: """We decorated the house with holly.""",
+                      kurdishText: """خانووەکەمان بە هۆڵی ڕازاندەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

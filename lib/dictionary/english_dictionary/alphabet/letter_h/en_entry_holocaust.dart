@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryholocaust extends StatefulWidget {
+  const EnglishEntryholocaust({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryholocaust> createState() => _EnglishEntryholocaustState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryholocaustState extends State<EnglishEntryholocaust> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Noun: holocaust (Derived forms: holocausts)
+1. An act of mass destruction and loss of life (especially in war or by fire)
+"a nuclear holocaust"
+ 
+2. A religious animal sacrifice that is completely consumed by fire
+
+- Noun: Holocaust
+1. The mass murder of Jews under the German Nazi regime from 1941 until 1945 (- final solution)
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "holocaust";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +83,23 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""holocaust""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts
+        .speak("""The 20th century was ripped apart by holocausts.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Her grandparents were killed during the Holocaust.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -924,18 +931,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/GzxxYUgiUNM';
+    const double startSecondsend = 0;
+    const String videoIdone = 'https://youtu.be/q86QWx7uACI?t=';
+    const double startSecondsone = 0000000000000000000000000001412;
+    const String videoIdtwo = 'https://youtu.be/Be8T8izLcyI?t=';
+    const double startSecondstwo = 00000000000000000000000000015;
+    const String videoIdthree = 'https://youtu.be/dT9AIobgLrw';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/xjh0L2Km_cs';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/3e8-Xr2SPY4?t=';
+    const double startSecondsfive = 00000000000000000000000000024;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +955,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """holocaust""",
+                      // alsoEnglishWord: "also: holocaust",
+                      britshText: """IpaUK: /ˈhɒləkɔːst/""",
+                      americanText: """IpaUS: /ˈhəʊləkɔːst/,  /ˈhɑːləkɔːst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,18 +998,28 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hitchhike", please follow LX instructions
+// With short examples define "holocaust", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                            """١. (ناو) دۆخێک کە تێیدا زۆر شت لەناودەچن و زۆر کەس دەکوژرێن بەهۆی جەنگ یان ئاگر"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
-                      kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                      englishText:
+                          """The 20th century was ripped apart by holocausts.""",
+                      kurdishText: """سەدەی نۆزدە وێرانکرا بە کۆمەڵکوژی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کوشتنی ملیۆنان جوو لەلایەن نازییەکانەوە لە پێش و ماوەی دووەم جەنگی جیهانی"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """Her grandparents were killed during the Holocaust.""",
+                      kurdishText: """باوانی لە کاتی هۆڵۆکۆست کوژران.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                   ],
                 ),

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryhomeland extends StatefulWidget {
+  const EnglishEntryhomeland({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryhomeland> createState() => _EnglishEntryhomelandState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryhomelandState extends State<EnglishEntryhomeland> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Noun: homeland (Derived forms: homelands)
+1. The country where you were born (- fatherland, motherland, mother country, country of origin, native land)
+ 
+2. [S.Africa] (historical) a territory set aside for black inhabitants of Southern Africa as part of the policy of apartheid (- bantustan [S.Africa])
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "homeland";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,42 +79,45 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""homeland""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts
+        .speak("""Many refugees have been forced to flee their homeland.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """They had long planned to visit the family's ancestral homeland in the Philippines.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Seeing the flag waving always feels like the call of my homeland.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""They craved to return to their homeland.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""She still hankered for her homeland.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -924,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsend = 000000000000000000000000000499;
+    const String videoIdone = 'https://youtu.be/FQ4hvLqNfqo?t=';
+    const double startSecondsone = 000000000000000000000000000873;
+    const String videoIdtwo = 'https://youtu.be/iZbala54uzk?t=';
+    const double startSecondstwo = 000000000000000000000000000509;
+    const String videoIdthree = 'https://youtu.be/4XlZHweHEtc?t=';
+    const double startSecondsthree = 0000000000000000000000000001164;
+    const String videoIdfour = 'https://youtu.be/5d6SEQQbwtU?t=';
+    const double startSecondsfour = 000000000000000000000000000580;
+    const String videoIdfive = 'https://youtu.be/NVH7JewfgJg?t=';
+    const double startSecondsfive = 000000000000000000000000000332;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """homeland""",
+                      // alsoEnglishWord: "also: homeland",
+                      britshText: """IpaUK: /ˈhəʊmlænd/""",
+                      americanText: """IpaUS: /ˈhəʊmlænd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -989,20 +993,59 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نیشتمان، وڵاتی باوباپیران، وڵات، زێد
 """),
-// With short examples define "hitchhike", please follow LX instructions
+// With short examples define "homeland", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                        text: """١. (ناو) ئەو وڵاتەی کەسێک تێیدا لەدایکبوو"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
+                      englishText:
+                          """Many refugees have been forced to flee their homeland.""",
                       kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                          """زۆر پەنابەر ناچار کراون کە نیشتیمانی خۆیان جێبهێڵن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """They had long planned to visit the family's ancestral homeland in the Philippines.""",
+                      kurdishText:
+                          "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو.",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """Seeing the flag waving always feels like the call of my homeland.""",
+                      kurdishText:
+                          "بینینی شەکانەوەی ئاڵاکە خۆشەویستیی نیشتیمانم بیردێنێتەوە.",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """They craved to return to their homeland.""",
+                      kurdishText: "بە ھیوابوون بگەڕێنەوە بۆ نیشتیمانیان.",
+                      onPressedBritish: () => speaksentence4("en-GB"),
+                      onPressedAmerican: () => speaksentence4("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """She still hankered for her homeland.""",
+                      kurdishText: """ھێشتا بە تاسەی نیشتیمانەکەی بوو.""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                   ],
                 ),

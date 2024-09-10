@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryhomegrown extends StatefulWidget {
+  const EnglishEntryhomegrown({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryhomegrown> createState() => _EnglishEntryhomegrownState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryhomegrownState extends State<EnglishEntryhomegrown> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Adjective: home-grown
+1. Grown or originating in a particular place
+"stands selling home-grown fruits and vegetables"
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "home-grown";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,28 +78,30 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""home-grown""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts
+        .speak("""She enjoys eating home-grown tomatoes from her garden.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The team has a wealth of home-grown talent.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The show gives home-grown musical talent the chance to show what they can do.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -924,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/rdICAzaaTtc?t=';
+    const double startSecondsend = 000000000000000000000000000466;
+    const String videoIdone = 'https://youtu.be/A2EyZ8EViHQ?t=';
+    const double startSecondsone = 000000000000000000000000000644;
+    const String videoIdtwo = 'https://youtu.be/Lg-nUy2DalM?t=';
+    const double startSecondstwo = 0000000000000000000000000001535;
+    const String videoIdthree = 'https://youtu.be/A5tGUi1Twuc?t=';
+    const double startSecondsthree = 000000000000000000000000000209;
+    const String videoIdfour = 'https://youtu.be/qrbFXkI4RzU?t=';
+    const double startSecondsfour = 000000000000000000000000000357;
+    const String videoIdfive = 'https://youtu.be/xa8BYZrSTxY?t=';
+    const double startSecondsfive = 000000000000000000000000000233;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """home-grown""",
+                      // alsoEnglishWord: "also: home-grown",
+                      britshText: """IpaUK: /ˌhəʊm ˈɡrəʊn/""",
+                      americanText: """IpaUS: /ˌhəʊm ˈɡrəʊn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,18 +993,40 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hitchhike", please follow LX instructions
+// With short examples define "home-grown", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                        text: """١. (ناو) کە لە باخچەی کەسێک خۆی چێندراوە"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
+                      englishText:
+                          """She enjoys eating home-grown tomatoes from her garden.""",
                       kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                          """چێژ دەبینێت لە خواردنی تەماتەی ماڵی باخچەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە لە وڵات، شار، شارۆچکە، هتد ــی خۆت درووستکراوە، لەدایکبووە، پەروەردە کراوە، یان ڕاهێنراوە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The team has a wealth of home-grown talent.""",
+                      kurdishText:
+                          """تیمەکە ڕێژەیەکی زۆر لە بەهرەی خۆماڵی هەیە.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The show gives home-grown musical talent the chance to show what they can do.""",
+                      kurdishText:
+                          """نمایشەکە هەل دەدات بە بەهرەدارانی میوزیکی خۆماڵی بۆ پیشاندانی ئەوەی دەتوانن بیکەن.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                   ],
                 ),

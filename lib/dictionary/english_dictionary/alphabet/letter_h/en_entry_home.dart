@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhit extends StatefulWidget {
-  const EnglishEntryhit({super.key});
+class EnglishEntryhome extends StatefulWidget {
+  const EnglishEntryhome({super.key});
 
   @override
-  State<EnglishEntryhit> createState() => _EnglishEntryhitState();
+  State<EnglishEntryhome> createState() => _EnglishEntryhomeState();
 }
 
-class _EnglishEntryhitState extends State<EnglishEntryhit> {
+class _EnglishEntryhomeState extends State<EnglishEntryhome> {
   @override
   void initState() {
     super.initState();
@@ -52,74 +52,62 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hit (Derived forms: hit, hits, hitting)
-1. Cause to move by striking
-"hit a ball"
+- Noun: home (Derived forms: homes)
+1. Where you live at a particular time (- place)
+"deliver the package to my home"; "he doesn't have a home to go to";
  
-2. Come into sudden contact with (- strike, impinge on, run into, collide with, impact)
-"The car hit a tree";
+2. Housing that someone is living in (- dwelling, domicile, abode, habitation, dwelling house, domicil [rare])
+"they raise money to provide homes for the homeless";
  
-3. Deal a blow to, either with the hand or with an instrument
-"He hit her hard in the face"
+3. The country, state or city where you live
+"Canadian tariffs enabled United States lumber companies to raise prices at home"; "his home is New Jersey"
  
-4. Be at the destination after some time, either real or abstract; come to a given position (- reach, make, attain, arrive at, gain)
-"We hit Detroit by noon"; "I have to hit the MAC machine before the weekend starts";
+4. (baseball) base consisting of a rubber slab where the batter stands; it must be touched by a base runner in order to score (- home plate, home base, plate)
+"he ruled that the runner failed to touch home";
  
-5. Affect or afflict suddenly, usually adversely (- strike)
-"We were hit by really bad weather";
+5. The place where you are stationed and from which missions start and end (- base)
  
-6. Strike with a missile from a weapon (- shoot, pip)
+6. Place where something began and flourished
+"the United States is the home of basketball"
  
-7. Encounter by chance (- stumble)
-"I hit across a long-lost cousin last night in a restaurant";
+7. An environment offering affection and security
+"home is where the heart is"; "he grew up in a good Christian home"; "there's no place like home"
  
-8. Cause to experience suddenly (- strike, come to)
-"An interesting idea hit her";
+8. A social unit living together (- family, household, house, ménage)
+"the teacher asked how many people made up his home";
  
-9. Make a strategic, offensive, assault against an enemy, opponent, or a target (- strike)
-"The Germans hit Poland on Sept. 1, 1939";
- 
-10. Kill intentionally and with premeditation (- murder, slay [literary], dispatch, bump off [informal], off [N. Amer, informal], polish off [informal], remove, croak)
-"The mafia boss ordered his enemies hit";
- 
-11. Drive something violently into a location (- strike)
-"he hit his fist on the table";
- 
-12. Get to a certain state, level, or point in time (- reach, attain)
-"The thermometer hit 100 degrees";
- 
-13. Produce by manipulating keys or strings of musical instruments (- strike)
-"The pianist hits a middle C";
- 
-14. Strike the intended target or goal
- 
-15. Pay unsolicited and usually unwanted sexual attention to
-"He tries to hit on women in bars"
+9. An institution where people are cared for (- nursing home, rest home)
+"a home for the elderly";
 
-- Noun: hit (Derived forms: hits)
-1. (baseball) when a batter strikes a picthed ball into fair territory and arrives safely on base (without an error or a fielder's choice being made by the defence)
-"he came all the way around on Williams' hit"
+- Adverb: home
+1. At or to or in the direction of one's home or family
+"He stays home on weekends"; "after the game the children brought friends home for supper"; "I'll be home tomorrow"; "came riding home in style"; "I hope you will come home for Christmas"; "I'll take her home"; "don't forget to write home"
  
-2. The act of contacting one thing with another (- hitting, striking)
-"after three misses she finally got a hit";
+2. On or to the point aimed at
+"the arrow struck home"
  
-3. A conspicuous success (- smash, smasher [informal], strike, bang [informal], sizzler [informal])
-"that song was his first hit and marked the beginning of his career";
+3. To the fullest extent; to the heart
+"drove the nail home"; "drove his point home"; "his comments hit home"
+
+- Adjective: home
+1. (sport) used of your own ground
+"a home game"
  
-4. (physics) a brief event in which two or more bodies come together (- collision)
-"the hit of the particles resulted in an exchange of energy and a change of direction";
+2. Inside the country (- interior, internal, national)
+"the British Home Office has broader responsibilities than the United States Department of the Interior";
  
-5. A dose of a narcotic drug
+3. Relating to or being where one lives or where one's roots are
+"my home town"
+
+- Verb: home (Derived forms: homes, homed, homing)
+1. Provide with, or send to, a home
  
-6. A murder carried out by an underworld syndicate
-"it has all the earmarks of a Mafia hit"
- 
-7. A connection made via the internet to another website
-"WordNet gets many hits from users worldwide"
+2. Return home accurately from a long distance
+"homing pigeons"
 """,
   );
 
-  final String keyword = "hit";
+  final String keyword = "home";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -139,144 +127,146 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hit""");
+    await flutterTts.speak("""home""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was afraid he was going to hit me.""");
+    await flutterTts.speak("""Old people prefer to stay in their own homes.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She hit him with her umbrella.""");
+    await flutterTts
+        .speak("""His children were upset when he sold the family home.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Someone hit him in the face.""");
+    await flutterTts
+        .speak("""While travelling she missed the comforts of home.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He hit the nail on the head with the hammer.""");
+    await flutterTts.speak("""She leaves home at 7 every day.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He hit her with a stick.""");
+    await flutterTts.speak("""I'll call you from home later.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He hit her with a stick.""");
+    await flutterTts.speak("""We are not far from my home now.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She didn't hit me very hard.""");
+    await flutterTts.speak("""He didn't leave home until he was 24.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The boy was hit by a speeding car.""");
+    await flutterTts
+        .speak("""He used to spend the summer painting at his country home.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The bus hit the bridge.""");
+    await flutterTts.speak("""Let's go home—I'm tired.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The boat hit against an object under the surface of the water.""");
+    await flutterTts.speak("""He'd always dreamed of owning his own home.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""A taxi almost hit him as he was crossing the street.""");
+    await flutterTts.speak("""Buying a home can be a complicated business.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The town was hit by bombs again last night.""");
+    await flutterTts
+        .speak("""A lot of new homes are being built on the edge of town.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He was hit by a sniper.""");
+    await flutterTts.speak(
+        """The number of homes sold in January fell by 13% on the previous month.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Not all the bullets hit their targets.""");
+    await flutterTts
+        .speak("""Private home ownership is increasing faster than ever.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""The grenade will explode as soon as it hits the ground.""");
+    await flutterTts.speak("""We bought a holiday home in France.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He was hit directly in the back.""");
+    await flutterTts.speak("""I often think about my friends back home.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""I hit the ball too hard and it went out of the court.""");
+    await flutterTts.speak("""Jane left England and made Greece her home.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We've hit our ball over the fence!""");
+    await flutterTts.speak("""Jamaica is home to over two million people.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Hit the brakes!""");
+    await flutterTts.speak("""She came from a violent home.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
@@ -284,72 +274,75 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""He picked up the phone and hit several buttons.""");
+        .speak("""They wanted to give the boy a secure and loving home.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I accidentally hit the wrong key.""");
+    await flutterTts.speak(
+        """He had always wanted a real home with a wife and children.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""The tax increases will certainly hit the poor.""");
+    await flutterTts.speak("""She had never had a stable home life.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""His death didn't really hit me at first.""");
+    await flutterTts
+        .speak("""We have to provide a good home for the children.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A tornado hit on Tuesday night.""");
+    await flutterTts.speak("""She has lived in a home since she was six.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""Rural areas have been worst hit by the strike.""");
+    await flutterTts.speak(
+        """She had to move to a residential care home when her health deteriorated.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Spain was one of the hardest hit countries.""");
+    await flutterTts.speak(
+        """My grandmother moved into an old people's home two years ago.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""It hit him very hard when Rosie left.""");
+    await flutterTts.speak("""Volunteers clean the cats' home every day.""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We hit the enemy when they least expected it.""");
+    await flutterTts
+        .speak("""This region is the home of many species of wild flower.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The President hits town tomorrow.""");
+    await flutterTts.speak("""The tiger's home is in the jungle.""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
@@ -357,7 +350,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""Follow this footpath and you'll eventually hit the road.""");
+        .speak("""The hill is the legendary home of King Arthur.""");
   }
 
   Future<void> speaksentence31(String languageCode) async {
@@ -365,67 +358,66 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""Traffic was heavy when they hit the main road.""");
+        .speak("""We haven't found a home for all our books yet.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""It'll be two hours before we hit the border.""");
+    await flutterTts.speak(
+        """Many visit Greece, the home of democracy, to see historic sites.""");
   }
 
   Future<void> speaksentence33(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Temperatures hit 40° yesterday.""");
+    await flutterTts.speak("""Come on, it's time to go home.""");
   }
 
   Future<void> speaksentence34(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""He had managed to hit his sales target this month.""");
+    await flutterTts.speak("""What time did you get home last night?""");
   }
 
   Future<void> speaksentence35(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We seem to have hit a problem.""");
+    await flutterTts
+        .speak("""She was so relieved that he had come home safely.""");
   }
 
   Future<void> speaksentence36(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""Everything was going well but then we hit trouble.""");
+    await flutterTts.speak("""He could not return home until 1989.""");
   }
 
   Future<void> speaksentence37(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The idea hit me like a tornado.""");
+    await flutterTts
+        .speak("""After a month, they went back home to America.""");
   }
 
   Future<void> speaksentence38(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """I couldn't remember where I'd seen him before, and then it suddenly hit me.""");
+    await flutterTts.speak("""I like to stay home in the evenings.""");
   }
 
   Future<void> speaksentence39(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """That's when it really hit me that we were in deep trouble.""");
+    await flutterTts.speak("""He drove the ball home from 15 metres.""");
   }
 
   Future<void> speaksentence40(String languageCode) async {
@@ -433,86 +425,89 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""Her shocking autobiography is about to hit the streets.""");
+        .speak("""We offer customers a free home delivery service.""");
   }
 
   Future<void> speaksentence41(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Give it a good hit.""");
+    await flutterTts
+        .speak("""Try calling me on my home number after six o'clock.""");
   }
 
   Future<void> speaksentence42(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He made the winning hit.""");
+    await flutterTts
+        .speak("""The course is suitable for classroom or home study.""");
   }
 
   Future<void> speaksentence43(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""One of the tanks took a direct hit.""");
+    await flutterTts.speak("""She missed her mother's home cooking.""");
   }
 
   Future<void> speaksentence44(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The aircraft suffered seven hits in the raid.""");
+    await flutterTts.speak("""This computer is marketed for home use.""");
   }
 
   Future<void> speaksentence45(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Enemy planes scored a hit on a supply ship.""");
+    await flutterTts.speak(
+        """The newspaper gives priority to home news over international news.""");
   }
 
   Future<void> speaksentence46(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Her new series is a smash hit.""");
+    await flutterTts
+        .speak("""Rangers were playing in front of their home crowd.""");
   }
 
   Future<void> speaksentence47(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The film scored a major international hit.""");
+    await flutterTts
+        .speak("""Rangers were playing in front of their home crowd.""");
   }
 
   Future<void> speaksentence48(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She played all her old hits.""");
+    await flutterTts.speak("""speaksentence4800""");
   }
 
   Future<void> speaksentence49(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """They are about to release an album of their greatest hits.""");
+    await flutterTts.speak("""speaksentence4900""");
   }
 
   Future<void> speaksentence50(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""Our website is getting a lot of hits from the USA.""");
+    await flutterTts.speak("""speaksentence_5000""");
   }
 
   Future<void> speaksentence51(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The search generated 1 848 hits.""");
+    await flutterTts.speak("""speaksentence5100""");
   }
 
   Future<void> speaksentence52(String languageCode) async {
@@ -1001,18 +996,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/3YltYCrPZos?t=';
-    const double startSecondsend = 000000000000000000000000000164;
-    const String videoIdone = 'https://youtu.be/R_fZjGm2OrM?t=';
-    const double startSecondsone = 000000000000000000000000000281;
-    const String videoIdtwo = 'https://youtu.be/HDntl7yzzVI?t=';
-    const double startSecondstwo = 0000000000000000000000000001765;
-    const String videoIdthree = 'https://youtu.be/o9zCgPtsups?t=';
-    const double startSecondsthree = 000000000000000000000000000125;
-    const String videoIdfour = 'https://youtu.be/wizgxRBfVTY?t=';
-    const double startSecondsfour = 00000000000000000000000000037;
-    const String videoIdfive = 'https://youtu.be/MPS2fwRMFgM?t=';
-    const double startSecondsfive = 000000000000000000000000000119;
+    const String videoIdend = 'https://youtu.be/21Z4RIOFhMA?t=';
+    const double startSecondsend = 000000000000000000000000000621;
+    const String videoIdone = 'https://youtu.be/hFZFjoX2cGg?t=';
+    const double startSecondsone = 00000000000000000000000000019;
+    const String videoIdtwo = 'https://youtu.be/FHJ3CMWnVxY?t=';
+    const double startSecondstwo = 00000000000000000000000000057;
+    const String videoIdthree = 'https://youtu.be/hTqtGJwsJVE?t=';
+    const double startSecondsthree = 0000000000000000000000000001317;
+    const String videoIdfour = 'https://youtu.be/ARERGvMzhmc?t=';
+    const double startSecondsfour = 000000000000000000000000000823;
+    const String videoIdfive = 'https://youtu.be/_4WxoTeaMZM?t=';
+    const double startSecondsfive = 00000000000000000000000000036;
 
     return DefaultTabController(
       length: 4,
@@ -1025,10 +1020,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hit""",
-                      // alsoEnglishWord: "also: hit",
-                      britshText: """IpaUK: /hɪt/""",
-                      americanText: """IpaUS: /hɪt/""",
+                      word: """home""",
+                      // alsoEnglishWord: "also: home",
+                      britshText: """IpaUK: /həʊm/""",
+                      americanText: """IpaUS: /həʊm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1066,544 +1061,534 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: لێدان، پیاکێشان، گورز،	لێکەوتن، پێکا، ئەنگاوتن، لێدان، لێکدان، پێکادان، پێکاکێشان،	سەرکەوتن،	کاری سەرکەوتووانە،	کوشتن،	لێدانی تۆپ (لە بەیسبۆڵ‌دا)،	تانە، تەشەر، پلار، توانج
+کوردی: ماڵ، یانە،	خێزان، ماڵبات،	نیشتمان، وڵات، زێد،	سەرچاوە، لانکە، بنەما، ژێدەر، ئاخێزگە، جێ، ژیوارگە، بوو، جێوار، ژینار، ژینگە، بنەجێ، جێی سروشتی،	(لە کایەدا) شار
 """),
-// With short examples define "hit", please follow LX instructions
-                    const DefinitionKurdish(
-                        text: """١. (کردار) لێدان لە کەسێک/شتێک"""),
+// With short examples define "home", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) ماڵ"""),
                     SentencesRow(
-                      englishText: """I was afraid he was going to hit me.""",
-                      kurdishText: """دەترسام کە لێمبدا.""",
+                      englishText:
+                          """Old people prefer to stay in their own homes.""",
+                      kurdishText:
+                          """کەسانی بەتەمەن پێیان باشترە لە ماڵەکانی خۆیان بمێننەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """She hit him with her umbrella.""",
-                      kurdishText: """بە چەترەکەی لێیدا.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
+                    Column(
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText:
+                                  """His children were upset when he sold the family home.""",
+                              kurdishText:
+                                  """منداڵەکانی بیزار بوون کە خانووی خێزانەکەیانی فرۆشت.""",
+                              onPressedBritish: () => speaksentence2("en-GB"),
+                              onPressedAmerican: () => speaksentence2("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (هاوەڵناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """While travelling she missed the comforts of home.""",
+                              kurdishText:
+                                  """لە کاتی گەشتدا بیری ئاسوودەیی ماڵی دەکرد.""",
+                              onPressedBritish: () => speaksentence3("en-GB"),
+                              onPressedAmerican: () => speaksentence3("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (هاوەڵناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """She leaves home at 7 every day.""",
+                              kurdishText:
+                                  """هەموو بەیانییەک لە ٧ ماڵەوە جێدێڵێت.""",
+                              onPressedBritish: () => speaksentence4("en-GB"),
+                              onPressedAmerican: () => speaksentence4("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (هاوەڵناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """I'll call you from home later.""",
+                              kurdishText:
+                                  """دواتر لە ماڵەوەوە پەیوەندیت پێوە دەکەم.""",
+                              onPressedBritish: () => speaksentence5("en-GB"),
+                              onPressedAmerican: () => speaksentence5("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (هاوەڵناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """We are not far from my home now.""",
+                              kurdishText: """ئێستا لە ماڵەوەم دوور نین.""",
+                              onPressedBritish: () => speaksentence6("en-GB"),
+                              onPressedAmerican: () => speaksentence6("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (هاوەڵناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """He didn't leave home until he was 24.""",
+                              kurdishText:
+                                  """ماڵەوەی جێنەهێشت تاوەکو ٢٤ ساڵان بوو.""",
+                              onPressedBritish: () => speaksentence7("en-GB"),
+                              onPressedAmerican: () => speaksentence7("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (هاوەڵناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """He used to spend the summer painting at his country home.""",
+                              kurdishText:
+                                  """جاران هاوینی بەسەر دەبرد بە نیگارکێشان لە ماڵە دەشتییەکەی.""",
+                              onPressedBritish: () => speaksentence8("en-GB"),
+                              onPressedAmerican: () => speaksentence8("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (هاوەڵناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """Let's go home—I'm tired.""",
+                              kurdishText: """با بچینە ماڵەوە ـ ماندووم.""",
+                              onPressedBritish: () => speaksentence9("en-GB"),
+                              onPressedAmerican: () => speaksentence9("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Someone hit him in the face.""",
-                      kurdishText: """کەسێک کێشای بە ڕووخساریدا.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) خانوویەک یان فلاتێک کە وەک سامانێکی فرۆشتن بیری لێدەکەیتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """He hit the nail on the head with the hammer.""",
-                      kurdishText: """کێشای بە سەری بزمارەکەدا بە چەکوشەکە.""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
-                      onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """He hit her with a stick.""",
-                      kurdishText: """بە دارێک لێیدا.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
-                      onPressedAmerican: () => speaksentence5("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """He hit her with a stick.""",
-                      kurdishText: """زۆر تووڕە بووم کە دەمویست لێی بدەم.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """She didn't hit me very hard.""",
-                      kurdishText: """زۆر توند لێی نەدام.""",
-                      onPressedBritish: () => speaksentence7("en-GB"),
-                      onPressedAmerican: () => speaksentence7("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) پێداکێشان"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The boy was hit by a speeding car.""",
-                      kurdishText: """ئۆتۆمبێلێکی تیژڕەو کێشای بە کوڕەکەدا.""",
-                      onPressedBritish: () => speaksentence8("en-GB"),
-                      onPressedAmerican: () => speaksentence8("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The bus hit the bridge.""",
-                      kurdishText: """پاسەکە کێشای بە پردێکدا.""",
-                      onPressedBritish: () => speaksentence9("en-GB"),
-                      onPressedAmerican: () => speaksentence9("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """The boat hit against an object under the surface of the water.""",
+                          """He'd always dreamed of owning his own home.""",
                       kurdishText:
-                          """بەلەمەکە کێشای بە شتێکدا لە ژێر ڕووی ئاوەکەدا.""",
+                          """هەمیشە خەونی بەوەوە دیوە کە ماڵی خۆی هەبێت.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """A taxi almost hit him as he was crossing the street.""",
+                          """Buying a home can be a complicated business.""",
                       kurdishText:
-                          """تەکسییەک خەریک بوو بکێشێت پێیدا کە لە شەقامەکە دەپەڕییەوە.""",
+                          """کڕینی خانوویەک دەکرێت بابەتێکی ئاڵۆز بێت.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٣. (کردار) بەرکەوتنی فیشەک، بۆمب، هتد"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The town was hit by bombs again last night.""",
+                          """A lot of new homes are being built on the edge of town.""",
                       kurdishText:
-                          """شارۆچکەکە دووبارە بەر بۆمب کەوتەوە شەوی ڕابردوو.""",
+                          """زۆر خانووی تازە بنیات دەنرێن لە قەراغی شار.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was hit by a sniper.""",
-                      kurdishText: """لەلایەن نیشان شکێنێکەوە لێی درا.""",
+                      englishText:
+                          """The number of homes sold in January fell by 13% on the previous month.""",
+                      kurdishText:
+                          """ژمارەی ئەو خانووانەی کە لە کانوونی دووەم فرۆشران ١٣٪ دابەزی بەراورد بە مانگی ڕابردوو.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Not all the bullets hit their targets.""",
+                      englishText:
+                          """Private home ownership is increasing faster than ever.""",
                       kurdishText:
-                          """ئەوە نەبوو هەموو فیشەکەکان لە ئامانجەکە بدەن.""",
+                          """خاوەندارێتی ماڵی تایبەتی زیاتر لە هەر کاتێکی دیکە زیاد دەکات.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The grenade will explode as soon as it hits the ground.""",
-                      kurdishText:
-                          """نارنجۆکەکە دەتەقێتەوە هەرکە بەر زەوی دەکەوێت.""",
+                      englishText: """We bought a holiday home in France.""",
+                      kurdishText: """خانوویەکی پشوودانمان کڕی لە فەرەنسا.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) ئەو شوێنەی کە لێی لەدایکبوویت و هەست دەکەیت بەشێکیت لێی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was hit directly in the back.""",
-                      kurdishText: """لە پشتیدا لێی درا.""",
+                      englishText:
+                          """I often think about my friends back home.""",
+                      kurdishText:
+                          """زۆرجار بیر لە دۆستەکانم لە نیشتیمان دەکەم.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٥. (کردار) لێدان لە تۆپێک بە دارێک"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """I hit the ball too hard and it went out of the court.""",
+                          """Jane left England and made Greece her home.""",
                       kurdishText:
-                          """هێندە زۆر لە دارەکەم دا کە لە گۆڕەپانەکە چووە دەرەوە.""",
+                          """جەین ئیگلاندی جێهێشت و یۆنانی کرد بە هەوارگەی.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We've hit our ball over the fence!""",
+                      englishText:
+                          """Jamaica is home to over two million people.""",
                       kurdishText:
-                          """تۆپەکەمانمان بەسەر پەرژینەکەدا کردە دەرەوە!""",
+                          """جامایکا نیشتیمانی سەروو دوو ملیۆن کەسە.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٦. (کردار) پەنجەنان بە شتێک، بۆ نموونە دوگمەیەک، بۆ بەکارخستنی ئامێرێک، هتد"""),
+                        text: """٤. (ناو) خێزانێک کە پێکەوە دەژین"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Hit the brakes!""",
-                      kurdishText: """پێ بنێ برێکدا!""",
+                      englishText: """She came from a violent home.""",
+                      kurdishText: """سەر بە خێزانێکی توندووتیژە.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """He picked up the phone and hit several buttons.""",
+                          """They wanted to give the boy a secure and loving home.""",
                       kurdishText:
-                          """موبایلەکەی هەڵگرت و پەنجەی نا بە ژمارەیەک دوگمەدا.""",
+                          """دەیانویست خێزانێکی ئارام و خۆشەویست بدەن بە کوڕەکە.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I accidentally hit the wrong key.""",
-                      kurdishText: """بەڕێکەوت پەنجەم نا بە دوگمەی هەڵەدا.""",
+                      englishText:
+                          """He had always wanted a real home with a wife and children.""",
+                      kurdishText:
+                          """هەمیشە خێزانێکی ڕاستەقینەی ویستووە لەگەڵ ژن و منداڵدا.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٧. (کردار) هەبوونی کاریگەرییەکی خراپ لەسەر کەسێک/شتێک"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The tax increases will certainly hit the poor.""",
-                      kurdishText:
-                          """زیادبوونەکەی باج بەدڵنیاییەوە کاریگەری لە هەژاران دەکات.""",
+                      englishText: """She had never had a stable home life.""",
+                      kurdishText: """هەرگیز ژیانێکی خێزانیی جێگیری نەبووە.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """His death didn't really hit me at first.""",
+                          """We have to provide a good home for the children.""",
                       kurdishText:
-                          """مردنی یەکەمجار لە ڕاستیدا کاریگەری لێم نەکرد.""",
+                          """دەبێت خێزانێکی گونجاو بدەین بە منداڵەکان.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (ناو) شوێنێک بۆ ئەو کەسانەی کە ناتوانن چاودێری خۆیان بکەن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A tornado hit on Tuesday night.""",
-                      kurdishText: """تۆڕنادۆیەک شەوی سێشەممە هەڵی کرد.""",
+                      englishText:
+                          """She has lived in a home since she was six.""",
+                      kurdishText:
+                          """لە خانەی بەخێوکاران ژیاوە لەوەتەی شەش ساڵان بووە.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """Rural areas have been worst hit by the strike.""",
+                          """She had to move to a residential care home when her health deteriorated.""",
                       kurdishText:
-                          """ناوچەکە گوندنشینەکان بە خراپترین بەرکەوتوون بە مانگرتنەکە.""",
+                          """پێویست بوو بچێتە خانەیەکی چاودێری نیشتەجێبوون کە تەندرووستی خراپتر بوو.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """Spain was one of the hardest hit countries.""",
+                          """My grandmother moved into an old people's home two years ago.""",
                       kurdishText:
-                          """ئیسپانیا یەکێک لە وڵاتە هەرە خراپ بەرکەوتووەکان بوو.""",
+                          """باوانم دوو ساڵ پێش ئێستا چوونە خانەیەکی بەساڵاچووان.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (ناو) شوێنێک کە تێیدا ئەو ئاژەڵە ماڵییانە چاودێری دەکرێن کە خاوەنیان نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """It hit him very hard when Rosie left.""",
+                      englishText:
+                          """Volunteers clean the cats' home every day.""",
                       kurdishText:
-                          """زۆر خراپ کاریگەریی لێی کرد کە ڕۆزی چوو.""",
+                          """خۆبەخشان هەموو ڕۆژێک لانەی پشیلەکان پاکدەکەنەوە.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٨. (کردار) هێرشکردنە سەر کەسێک/شتێک"""),
+                        text: """٧. (ناو) شوێنی ژیانی ڕووەک یان ئاژەڵێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """We hit the enemy when they least expected it.""",
+                          """This region is the home of many species of wild flower.""",
                       kurdishText:
-                          """هێرشمان کردە سەر دوژمن لەو کاتەی کەمترین پێشبینییان دەکرد.""",
+                          """هەرێمەکە شوێنی ژیانی زۆر جۆر لە گوڵی دەشتییە.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٩. (کردار) گەشتنە شوێنێک"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The President hits town tomorrow.""",
-                      kurdishText: """سەرۆک سبەی دەگاتە شارۆچکەکە.""",
+                      englishText: """The tiger's home is in the jungle.""",
+                      kurdishText: """شوێنی ژیانی بەور جەنگەڵەکانە.""",
                       onPressedBritish: () => speaksentence29("en-GB"),
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """Follow this footpath and you'll eventually hit the road.""",
-                      kurdishText:
-                          """شوێن ئەم ڕێگا کوێرەڕێیە بکەوە و لە کۆتاییدا دەگەیت بە ڕێگاکە.""",
+                          """The hill is the legendary home of King Arthur.""",
+                      kurdishText: """گردەکە نیشتیمانی ئەفسانەیی شا ئارسەرە.""",
                       onPressedBritish: () => speaksentence30("en-GB"),
                       onPressedAmerican: () => speaksentence30("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٨. (ناو) شوێنی پاراستنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """Traffic was heavy when they hit the main road.""",
+                          """We haven't found a home for all our books yet.""",
                       kurdishText:
-                          """هاتووچۆ قەرەباڵغ کە گەشتن بە ڕێگا سەرەکییەکە.""",
+                          """هێشتا جێگایەکمان بۆ هەموو کتێبەکانمان نەدۆزیوەتەوە.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٩. (ناو) شوێنێک کە بۆ یەکەمجار شتێکی لێ دۆزراوەتەوە، درووستکراوە، یان داهێنراوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """It'll be two hours before we hit the border.""",
+                          """Many visit Greece, the home of democracy, to see historic sites.""",
                       kurdishText:
-                          """دوو کاتژمێری پێدەچێت پێش ئەوەی بگەین بە سنوورەکە.""",
+                          """زۆر کەس سەردانی یۆنانی لانکەی دیموکراسی دەکەن بۆ بینینی شوێنەوارە مێژووییەکان.""",
                       onPressedBritish: () => speaksentence32("en-GB"),
                       onPressedAmerican: () => speaksentence32("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """١٠. (کردار) گەشتنە ئاستێکی دیاریکراو"""),
+                        text: """١٠. (هاوەڵکار) بەرەو ماڵەوە؛ لە ماڵەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Temperatures hit 40° yesterday.""",
-                      kurdishText: """پلەی گەرمی گەشت بە ٤٠ پلە دوێنێ.""",
+                      englishText: """Come on, it's time to go home.""",
+                      kurdishText: """یەڵڵا، کاتی چوونە ماڵەوەیە.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """He had managed to hit his sales target this month.""",
-                      kurdishText:
-                          """توانیبووی ئەم مانگە بگات بە ئامانجی فرۆشی.""",
+                      englishText: """What time did you get home last night?""",
+                      kurdishText: """شەوی ڕابردوو کەی گەشتیتە ماڵەوە؟""",
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """١١. (کردار) ئەزموونکردنی شتێکی سەخت یان ناخۆش"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We seem to have hit a problem.""",
-                      kurdishText: """وادیارە کێشەیەکمان تووشبووە.""",
+                      englishText:
+                          """She was so relieved that he had come home safely.""",
+                      kurdishText:
+                          """زۆر حەوایەوە کە بە سەلامەتی گەشتەوە ماڵەوە.""",
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Everything was going well but then we hit trouble.""",
+                      englishText: """He could not return home until 1989.""",
                       kurdishText:
-                          """هەموو شت باش دەچوو بەڕێوە، بەڵام دواتر بەر کێشە کەوتین.""",
+                          """نەیتوانی بگەڕێتەوە نیشتیمانی تاوەکو ١٩٨٩.""",
                       onPressedBritish: () => speaksentence36("en-GB"),
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """١٢. (کردار) لەناکاو هاتن بە مێشکدا"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The idea hit me like a tornado.""",
-                      kurdishText: """بیرۆکەکە وەک تۆرنادۆ هات بۆم.""",
+                      englishText:
+                          """After a month, they went back home to America.""",
+                      kurdishText:
+                          """دوای مانگێک، گەڕانەوە بۆ ماڵەوە لە ئەمریکا.""",
                       onPressedBritish: () => speaksentence37("en-GB"),
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """I couldn't remember where I'd seen him before, and then it suddenly hit me.""",
-                      kurdishText:
-                          """بیرم نەدەکەوتەوە لە کوێ پێشتر دیبووم، و لەناکاو دواتر هات بۆم.""",
+                      englishText: """I like to stay home in the evenings.""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence38("en-GB"),
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١١. (هاوەڵکار) بۆ شوێنی درووست"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """That's when it really hit me that we were in deep trouble.""",
+                          """He drove the ball home (= scored a goal) from 15 metres.""",
                       kurdishText:
-                          """ئەوە ئەو کات بوو کە بە ڕاستی تێگەشتم کە لە کێشەی قووڵ بووین.""",
+                          """لە دووری ١٥ مەترەوە تۆپەکەی خستە جێی خۆی.""",
                       onPressedBritish: () => speaksentence39("en-GB"),
                       onPressedAmerican: () => speaksentence39("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """١٣. (کردار) ئەوەی بە بەرفراوانی بەردەست بێت بۆ فرۆشتن"""),
+                        text: """١٢. (هاوەڵناو) پەیوەندیدار بە ماڵەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """Her shocking autobiography is about to hit the streets.""",
-                      kurdishText: """خودژیاننامەکەی خەریکە بێتە بازاڕەکان.""",
+                          """We offer customers a free home delivery service.""",
+                      kurdishText:
+                          """خزمەتگوزاری گەیاندنی بێ‌بەرامبەر پێشکەش بە کڕیارانمان دەکەین.""",
                       onPressedBritish: () => speaksentence40("en-GB"),
                       onPressedAmerican: () => speaksentence40("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """١٤. (ناو) لێدان لە شتێک بە دەست یان بە شتێک"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Give it a good hit.""",
-                      kurdishText: """لێدانێکی باشی بکە.""",
+                      englishText:
+                          """Try calling me on my home number after six o'clock.""",
+                      kurdishText:
+                          """هەوڵ بدە پەیوەندیم پێوە بکەیت بە ژمارەی ماڵەوەم لە دوای شەش.""",
                       onPressedBritish: () => speaksentence41("en-GB"),
                       onPressedAmerican: () => speaksentence41("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He made the winning hit.""",
-                      kurdishText: """لێدانی بردنەوەی ئەنجام دا.""",
+                      englishText:
+                          """The course is suitable for classroom or home study.""",
+                      kurdishText:
+                          """کۆرسەکە گونجاوە بۆ پۆل یان خوێندنی ماڵەوە.""",
                       onPressedBritish: () => speaksentence42("en-GB"),
                       onPressedAmerican: () => speaksentence42("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٥. (ناو) ئەوەی کە شتێک کە فڕێدراوە لە شتێک بدات"""),
+                            """١٣. (هاوەڵناو) کە لە ماڵەوە درووستکراوە یان بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """One of the tanks took a direct hit.""",
-                      kurdishText:
-                          """یەکێک لە تانکەکان لێدانێکی ڕاستەوخۆی بەرکەوت.""",
+                      englishText: """She missed her mother's home cooking.""",
+                      kurdishText: """بیری خواردنی ماڵەوەی دایکیی دەکرد.""",
                       onPressedBritish: () => speaksentence43("en-GB"),
                       onPressedAmerican: () => speaksentence43("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The aircraft suffered seven hits in the raid.""",
+                          """This computer is marketed for home use.""",
                       kurdishText:
-                          """فڕۆکەکە حەوت لێدانی بەرکەوت لە هێرشەکەدا.""",
+                          """کۆمپیوتەرەکە بۆ بەکارهێنانی ماڵەوە بازاڕکردنی بۆ دەکرێت.""",
                       onPressedBritish: () => speaksentence44("en-GB"),
                       onPressedAmerican: () => speaksentence44("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """١٤. (هاوەڵناو) پەیوەندیدار بە وڵاتی خۆت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: domestic"),
                     SentencesRow(
                       englishText:
-                          """Enemy planes scored a hit on a supply ship.""",
+                          """The newspaper gives priority to home news over international news.""",
                       kurdishText:
-                          """فڕۆکەی دوژمن دایان لە کەشتییەکی ئازووقە.""",
+                          """ڕۆژنامەکە پێشینەیی دەدات بە هەواڵی ناوخۆیی وەک لە جیهانی.""",
                       onPressedBritish: () => speaksentence45("en-GB"),
                       onPressedAmerican: () => speaksentence45("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """١٦. (ناو) کەسێک یان شتێک کە زۆر بەناوبانگە"""),
+                        text:
+                            """١٥. (هاوەڵناو) پەیوەندیدار بە یاریگای تیمێک خۆی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Her new series is a smash hit.""",
-                      kurdishText: """زنجیرە تازەکەی زۆر بەناوبانگە.""",
+                      englishText:
+                          """Rangers were playing in front of their home crowd.""",
+                      kurdishText:
+                          """تیمی ڕێنجەرز لە پێش هەوادارانی خۆیان یارییان دەکرد.""",
                       onPressedBritish: () => speaksentence46("en-GB"),
                       onPressedAmerican: () => speaksentence46("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (هاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The film scored a major international hit.""",
+                          """Rangers were playing in front of their home crowd.""",
                       kurdishText:
-                          """فیلمەکە بوو بە سەرکەوتنێکی نێودەوڵەتی گەورە.""",
+                          """تیمێکی سەختن بۆ بەزاندن لەسەر یاریگای خۆیان.""",
                       onPressedBritish: () => speaksentence47("en-GB"),
                       onPressedAmerican: () => speaksentence47("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """١٧. (ناو) تۆمار یان گۆرانییەکی سەرکەوتووی پۆپ"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """She played all her old hits.""",
-                      kurdishText:
-                          """هەموو گۆرانییە بەناوبانگە کۆنەکانیی گوتەوە.""",
-                      onPressedBritish: () => speaksentence48("en-GB"),
-                      onPressedAmerican: () => speaksentence48("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """They are about to release an album of their greatest hits.""",
-                      kurdishText:
-                          """خەریکن ئەلبوومێکی بەناوبانگترین گۆرانییەکانیان بڵاودەکەنەوە.""",
-                      onPressedBritish: () => speaksentence49("en-GB"),
-                      onPressedAmerican: () => speaksentence49("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """١٨. (ناو) ئەوەی کە پەڕەیەکی ئینتەرنێت سەردان دەکرێت یان فایلێک دادەبەزێندرێت"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """Our website is getting a lot of hits from the USA.""",
-                      kurdishText:
-                          """وێبسایتەکەمان سەردانی زۆر دەکرێت لە ئەمریکاوە.""",
-                      onPressedBritish: () => speaksentence50("en-GB"),
-                      onPressedAmerican: () => speaksentence50("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """١٩. (ناو) ئەوەی کە زانیارییەک بدۆزیتەوە کە لەگەڵ گەڕانێکی سەر ئینتەرنێت دەگونجێت"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The search generated 1 848 hits.""",
-                      kurdishText: """گەڕانەکە 1848 ئەنجامی دۆزییەوە.""",
-                      onPressedBritish: () => speaksentence51("en-GB"),
-                      onPressedAmerican: () => speaksentence51("en-US"),
                     ),
                   ],
                 ),

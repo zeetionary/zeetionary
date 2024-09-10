@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryhollow extends StatefulWidget {
+  const EnglishEntryhollow({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryhollow> createState() => _EnglishEntryhollowState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryhollowState extends State<EnglishEntryhollow> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,38 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Adjective: hollow (Derived forms: hollowest, hollower)
+1. Not solid; having a space, gap or cavity
+"a hollow wall"; "a hollow tree"; "hollow cheeks"; "his face became gaunter and more hollow with each year"
+ 
+2. As if echoing in a hollow space
+"the hollow sound of footsteps in the empty ballroom"
+ 
+3. Devoid of significance or force (- empty, vacuous)
+"a hollow victory";
+ 
+4. Lacking in substance or character
+"a hollow person"
+
+- Noun: hollow (Derived forms: hollows)
+1. A cavity or space in something
+"hunger had caused the hollows in their cheeks"
+ 
+2. A small valley between mountains (- holler [informal])
+"he built himself a cabin in a hollow high up in the Appalachians";
+ 
+3. A depression hollowed out of solid matter (- hole)
+
+- Verb: hollow (Derived forms: hollowing, hollows, hollowed)
+1. Remove the inner part or the core of (- excavate, dig)
+"the mining company wants to hollow the hillside";
+ 
+2. Remove the interior of (- hollow out, core out)
+"hollow out a tree trunk";
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "hollow";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,105 +103,110 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""hollow""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts.speak("""The tree trunk was hollow inside.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I felt hollow from lack of food.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""I tapped the tin and it sounded hollow.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""He was an elderly man with hollow cheeks.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""The children had pale skin and hollow eyes.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""This tree trunk sounds hollow.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""She gave a slightly hollow laugh.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""I've had enough of their hollow promises.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak(
+        """He won something of a hollow victory when his opponent was forced to withdraw with a serious injury.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""The wheelbarrow got stuck in a hollow.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts
+        .speak("""She noticed the slight hollows under his cheekbones.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts
+        .speak("""The village lay secluded in a hollow of the hills.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1300""");
+    await flutterTts.speak(
+        """The squirrel disappeared into a hollow at the base of the tree.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts
+        .speak("""The stairs have been hollowed by centuries of use.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
@@ -924,18 +954,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/wir7jmefyec?t=';
+    const double startSecondsend = 000000000000000000000000000117;
+    const String videoIdone = 'https://youtu.be/xVQxvthAcLU?t=';
+    const double startSecondsone = 0000000000000000000000000001312;
+    const String videoIdtwo = 'https://youtu.be/qjqh9UVfNNk?t=';
+    const double startSecondstwo = 000000000000000000000000000863;
+    const String videoIdthree = 'https://youtu.be/Pon4Zux5MaQ?t=';
+    const double startSecondsthree = 000000000000000000000000000732;
+    const String videoIdfour = 'https://youtu.be/4VTOplLl2BM?t=';
+    const double startSecondsfour = 0000000000000000000000000001856;
+    const String videoIdfive = 'https://youtu.be/XXhc5UTxv5I?t=';
+    const double startSecondsfive = 0000000000000000000000000001614;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +978,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """hollow""",
+                      // alsoEnglishWord: "also: hollow",
+                      britshText: """IpaUK: /ˈhɒləʊ/""",
+                      americanText: """IpaUS: /ˈhɑːləʊ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -989,20 +1019,157 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هوڵۆڵ، کلۆر، نێوبەتاڵ، ناوخاڵی، خلۆخە، پووچەڵ، پووچەک، بۆش، پووک، واڵا، ڤالا،	ڕوچوو، داکەوتوو، بەچاڵاچوو، بەقووڵاچوو، قووڵ، چاڵ،	درۆ، بێ‌بایەخ، فشە، بێ‌نرخ، ناڕاستەقینە، هیچ‌وپووچ، هیچ، قووڵی، چاڵی، قووڵایی، قوڵکە، دۆڵ، شیو، بوودڕ، چاڵ
 """),
-// With short examples define "hitchhike", please follow LX instructions
+// With short examples define "hollow", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                            """١. (ناو) هەبوونی چاڵ یان بۆشاییەک لە ناوەوە"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
-                      kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                      englishText: """The tree trunk was hollow inside.""",
+                      kurdishText: """قەدی دارەکە چاڵ بوو لەناوەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """I felt hollow from lack of food.""",
+                      kurdishText:
+                          """هەستم بە بەتاڵی دەکرد بەهۆی کەمی خواردنەوە.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """I tapped the tin and it sounded hollow.""",
+                      kurdishText: """کێشام بە قوتووەکەدا و بەتاڵ دیار بوو.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) بەشی چاڵی جەستە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """He was an elderly man with hollow cheeks.""",
+                      kurdishText: """پیاوێکی بەتەمەن بوو بە گۆنای چاڵەوە.""",
+                      onPressedBritish: () => speaksentence4("en-GB"),
+                      onPressedAmerican: () => speaksentence4("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The children had pale skin and hollow eyes.""",
+                      kurdishText:
+                          """منداڵەکان پێستی ڕەنگپەڕیو و چاوی قووڵیان هەبوو.""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) کە دەنگێک دەردەکات وەک ئەوەی کە دەکێشیت بە شتێکی بەتاڵدا"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """This tree trunk sounds hollow.""",
+                      kurdishText: """قەدی دارەکە بەتاڵ دیارە.""",
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) کە لە دڵەوە نییە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """She gave a slightly hollow laugh.""",
+                      kurdishText: """پێکەنینێکی کەمێک درۆی کرد.""",
+                      onPressedBritish: () => speaksentence7("en-GB"),
+                      onPressedAmerican: () => speaksentence7("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """I've had enough of their hollow promises.""",
+                      kurdishText:
+                          """بەشی پێویست لە بەڵینە بەتاڵەکانیانم دیوە.""",
+                      onPressedBritish: () => speaksentence8("en-GB"),
+                      onPressedAmerican: () => speaksentence8("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٥. (ناو) کە بەهای ڕاستەقینەی نییە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """He won something of a hollow victory when his opponent was forced to withdraw with a serious injury.""",
+                      kurdishText:
+                          """بردنەوەیەکی تاڕادەیەک بێ‌بایەخی بردەوە کە ڕکابەرەکەی پێویست بوو بکشێتەوە بەهۆی پێکانێکی توندەوە.""",
+                      onPressedBritish: () => speaksentence9("en-GB"),
+                      onPressedAmerican: () => speaksentence9("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """٦. (ناو) چاڵ"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """The wheelbarrow got stuck in a hollow.""",
+                      kurdishText: """عەڕابەکە چەقی لە چاڵێکدا.""",
+                      onPressedBritish: () => speaksentence10("en-GB"),
+                      onPressedAmerican: () => speaksentence10("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """She noticed the slight hollows under his cheekbones.""",
+                      kurdishText: """تێبینی چالە بچووکەکانی سەرگۆنایی کرد.""",
+                      onPressedBritish: () => speaksentence11("en-GB"),
+                      onPressedAmerican: () => speaksentence11("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The village lay secluded in a hollow of the hills (= a small valley).""",
+                      kurdishText:
+                          """گوندەکە دابڕاو هەڵکەوتووە لە چاڵایی کردەکاندا.""",
+                      onPressedBritish: () => speaksentence12("en-GB"),
+                      onPressedAmerican: () => speaksentence12("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٧. (ناو) بۆشاییەکی بەتاڵ یان چاڵ لە شتێکدا"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The squirrel disappeared into a hollow at the base of the tree.""",
+                      kurdishText:
+                          """سمۆرەکە ونبووە ناو چاڵێک لە بنی دارەکە.""",
+                      onPressedBritish: () => speaksentence13("en-GB"),
+                      onPressedAmerican: () => speaksentence13("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٨. (کردار) چاڵکردنە ناو شتێک"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The stairs have been hollowed by centuries of use.""",
+                      kurdishText:
+                          """پلەکانەکان چاڵبوونە بە چەندین سەدە لە بەکارهێنان.""",
+                      onPressedBritish: () => speaksentence14("en-GB"),
+                      onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                   ],
                 ),

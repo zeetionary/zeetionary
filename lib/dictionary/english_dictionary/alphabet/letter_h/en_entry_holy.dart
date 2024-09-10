@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhitchhike extends StatefulWidget {
-  const EnglishEntryhitchhike({super.key});
+class EnglishEntryholy extends StatefulWidget {
+  const EnglishEntryholy({super.key});
 
   @override
-  State<EnglishEntryhitchhike> createState() => _EnglishEntryhitchhikeState();
+  State<EnglishEntryholy> createState() => _EnglishEntryholyState();
 }
 
-class _EnglishEntryhitchhikeState extends State<EnglishEntryhitchhike> {
+class _EnglishEntryholyState extends State<EnglishEntryholy> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: hitchhike (Derived forms: hitchhiked, hitchhikes, hitchhiking)
-1. Travel by getting free rides from motorists (- hitch, thumb)
-"You can, of course, hitchhike anywhere that there are cars and traffic";
+- Adjective: holy (Derived forms: holier, holiest)
+1. Belonging to, derived from or associated with a divine power
+
+- Noun: holy (Derived forms: holies)
+1. A sacred place of pilgrimage (- holy place, sanctum)
 """,
   );
 
-  final String keyword = "hitchhike";
+  final String keyword = "holy";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,49 +80,51 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hitchhike""");
+    await flutterTts.speak("""holy""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They hitchhiked around Europe.""");
+    await flutterTts.speak(
+        """For a believer, these words have an almost holy significance.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The place is considered holy by the people who live there.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He sprinkled her with holy water.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""He tries to live a holy life.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""They are good and holy people.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""Holy cow! What was that?""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -924,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=';
-    const double startSecondsend = 0000000000000000000000000002619;
-    const String videoIdone = 'https://youtu.be/ilj8fZroRw0?t=';
-    const double startSecondsone = 0000000000000000000000000005050;
-    const String videoIdtwo = 'https://youtu.be/zUbod5t_2oM?t=';
-    const double startSecondstwo = 000000000000000000000000000231;
-    const String videoIdthree = 'https://youtu.be/DZTTdYCBqqg?t=';
-    const double startSecondsthree = 000000000000000000000000000996;
-    const String videoIdfour = 'https://youtu.be/K7ssW8_QHj0?t=';
-    const double startSecondsfour = 0000000000000000000000000001228;
-    const String videoIdfive = 'https://youtu.be/myM5SY1mHoA?t=';
-    const double startSecondsfive = 000000000000000000000000000985;
+    const String videoIdend = 'https://youtu.be/hS2x1zl4rn0?t=';
+    const double startSecondsend = 0000000000000000000000000001142;
+    const String videoIdone = 'https://youtu.be/G-Wn48geCJ8?t=';
+    const double startSecondsone = 00000000000000000000000000042;
+    const String videoIdtwo = 'https://youtu.be/omcNGrnt7Sg?t=';
+    const double startSecondstwo = 0000000000000000000000000003858;
+    const String videoIdthree = 'https://youtu.be/CvjoXdC-WkM?t=';
+    const double startSecondsthree = 000000000000000000000000000438;
+    const String videoIdfour = 'https://youtu.be/eMgFyMUFELA?t=';
+    const double startSecondsfour = 000000000000000000000000000133;
+    const String videoIdfive = 'https://youtu.be/Hq_SYzstXag?t=';
+    const double startSecondsfive = 00000000000000000000000000074;
 
     return DefaultTabController(
       length: 4,
@@ -948,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hitchhike""",
-                      // alsoEnglishWord: "also: hitchhike",
-                      britshText: """IpaUK: /ˈhɪtʃhaɪk/""",
-                      americanText: """IpaUS: /ˈhɪtʃhaɪk/""",
+                      word: """holy""",
+                      // alsoEnglishWord: "also: holy",
+                      britshText: """IpaUK: /ˈhəʊli/""",
+                      americanText: """IpaUS: /ˈhəʊli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -989,20 +993,70 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پیرۆز، خودایی، دینی، پاک، پاکژ، پارێزگار، بەدین، لەخواترس
 """),
-// With short examples define "hitchhike", please follow LX instructions
+// With short examples define "holy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) وەستان لە قەراغی شەقام بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بتگەیەنێت بە شوێنێک"""),
+                            """١. (ھاوەڵناو) پەیوەندیدار بە خودا یان ئایینێکی دیاریکراو"""),
                     SentencesRow(
-                      englishText: """They hitchhiked around Europe.""",
+                      englishText:
+                          """For a believer, these words have an almost holy significance.""",
                       kurdishText:
-                          """بە ئەورووپادا دەگەڕان دەست‌ڕاگرتن لە ئۆتۆمبێل.""",
-                      englishNote:
-                          """This means they traveled across Europe by getting free rides from passing cars or trucks.""",
+                          """بۆ باوەڕدارێک ئەم قسانە تا ڕادەیەک گرنگی پیرۆزیان هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The place is considered holy by the people who live there.""",
+                      kurdishText:
+                          """جێگاکە بە پیرۆز دادەنرێت لەلایەن ئەو خەڵکەی لێی دەژین.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """He sprinkled her with holy water.""",
+                      kurdishText: """ئاوی پیرۆزی پێیدا پرژاند.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) باش لەلایەنی ئەخلاقی و ئایینییەوە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """He tries to live a holy life.""",
+                      kurdishText: """هەوڵ دەدات ژیانێکی پیرۆزانە بژی.""",
+                      onPressedBritish: () => speaksentence4("en-GB"),
+                      onPressedAmerican: () => speaksentence4("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """They are good and holy people.""",
+                      kurdishText: """کەسانی باش و پیرۆزن.""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) بۆ گوتنی ئەوەی سەرسام، ترساو، هتد ــیت"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """Holy cow! What was that?""",
+                      kurdishText: """وای خودا! ئەوە چی بوو؟""",
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                   ],
                 ),

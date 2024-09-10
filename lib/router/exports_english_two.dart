@@ -63,21 +63,21 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 // en_entry_holding.dart' show EnglishEntryholding
 // en_entry_hole.dart' show EnglishEntryhole
 // en_entry_holiday.dart' show EnglishEntryholiday
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_holidaymaker.dart' show EnglishEntryholidaymaker
+// en_entry_holiness.dart' show EnglishEntryholiness
+// en_entry_hollow.dart' show EnglishEntryhollow
+// en_entry_holly.dart' show EnglishEntryholly
+// en_entry_holocaust.dart' show EnglishEntryholocaust
+// en_entry_holster.dart' show EnglishEntryholster
+// en_entry_holy.dart' show EnglishEntryholy
+// en_entry_the_holy_spirit.dart' show EnglishEntrytheholyspirit //////// the Holy Spirit
+// en_entry_homage.dart' show EnglishEntryhomage
+// en_entry_home.dart' show EnglishEntryhome
+// en_entry_home_economics.dart' show EnglishEntryhomeeconomics //////// home economics
+// en_entry_home_grown.dart' show EnglishEntryhomegrown //////// home-grown
+// en_entry_home_help.dart' show EnglishEntryhomehelp //////// home help
+// en_entry_homeland.dart' show EnglishEntryhomeland
+// en_entry_homeless.dart' show EnglishEntryhomeless
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

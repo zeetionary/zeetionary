@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhonourably extends StatefulWidget {
-  const EnglishEntryhonourably({super.key});
+class EnglishEntryhorrific extends StatefulWidget {
+  const EnglishEntryhorrific({super.key});
 
   @override
-  State<EnglishEntryhonourably> createState() => _EnglishEntryhonourablyState();
+  State<EnglishEntryhorrific> createState() => _EnglishEntryhorrificState();
 }
 
-class _EnglishEntryhonourablyState extends State<EnglishEntryhonourably> {
+class _EnglishEntryhorrificState extends State<EnglishEntryhorrific> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: honourably
-Usage: Brit, Cdn (US: honorably)
-1. In an honourable manner (- honorably [US], uprightly)
-"he acted honourably";
+- Adjective: horrific
+1. Grossly offensive to decency or morality; causing horror (- hideous, horrid, outrageous)
+"horrific conditions in the mining industry";
  
-2. With honour (- honorably [US])
-"he was honourably discharged after many years of service";
+2. Causing fear, dread or terror (- awful, dire, direful, dread, dreaded, dreadful, fearful, fearsome, frightening, horrendous, terrible)
+"the horrific war";
 """,
   );
 
-  final String keyword = "honourably";
+  final String keyword = "horrific";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,21 +81,21 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""honourably""");
+    await flutterTts.speak("""horrific""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I wanted us to behave honourably, truthfully.""");
+    await flutterTts.speak("""Her injuries were horrific.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Millions served honourably in the war.""");
+    await flutterTts.speak("""She’s been through a horrific ordeal.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -104,7 +103,7 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """He was honourably discharged from the army on medical grounds.""");
+        """Rob is quick to dismiss the notion that his trip was horrific.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -929,18 +928,18 @@ Usage: Brit, Cdn (US: honorably)
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/7Byk_PmVKqM?t=';
-    const double startSecondsend = 000000000000000000000000000534;
-    const String videoIdone = 'https://youtu.be/5gOH7Mb1FUo?t=';
-    const double startSecondsone = 0000000000000000000000000001310;
-    const String videoIdtwo = 'https://youtu.be/6CZ0Q6jw4Z4?t=';
-    const double startSecondstwo = 0000000000000000000000000006245;
-    const String videoIdthree = 'https://youtu.be/Xt1G_6cSnO8?t=';
-    const double startSecondsthree = 0000000000000000000000000001009;
-    const String videoIdfour = 'https://youtu.be/XcrGQ0npuCw?t=';
-    const double startSecondsfour = 000000000000000000000000000189;
-    const String videoIdfive = 'https://youtu.be/Y4HSRtlJAM8?t=';
-    const double startSecondsfive = 0000000000000000000000000001587;
+    const String videoIdend = 'https://youtu.be/-HyHZsa79LU?t=';
+    const double startSecondsend = 000000000000000000000000000426;
+    const String videoIdone = 'https://youtu.be/WOgKIlvjlQ8?t=';
+    const double startSecondsone = 000000000000000000000000000107;
+    const String videoIdtwo = 'https://youtu.be/sV6uuMAnJUE?t=';
+    const double startSecondstwo = 000000000000000000000000000792;
+    const String videoIdthree = 'https://youtu.be/1KgSp94nCZw?t=';
+    const double startSecondsthree = 000000000000000000000000000124;
+    const String videoIdfour = 'https://youtu.be/lDeFSOUHdH4?t=';
+    const double startSecondsfour = 000000000000000000000000000329;
+    const String videoIdfive = 'https://youtu.be/CURLWPCxe-c?t=';
+    const double startSecondsfive = 000000000000000000000000000103;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +952,10 @@ Usage: Brit, Cdn (US: honorably)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """honourably""",
-                      // alsoEnglishWord: "also: honourably",
-                      britshText: """IpaUK: /ˈɒnərəbli/""",
-                      americanText: """IpaUS: /ˈɑːnərəbli/""",
+                      word: """horrific""",
+                      // alsoEnglishWord: "also: horrific",
+                      britshText: """IpaUK: /həˈrɪfɪk/""",
+                      americanText: """IpaUS: /həˈrɪfɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,17 +993,16 @@ Usage: Brit, Cdn (US: honorably)
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: بەڕێزانە، بەئابڕووانە، لە ڕووی ڕێزەوە
+کوردی: ترسناک، ترسێنەر، ناخۆش، شپرزە، سامناک
 """),
-// With short examples define "honourably", please follow LX instructions
+// With short examples define "horrific", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە شایەنی ڕێز و ستایشە"""),
+                            """١. (ھاوەڵناو) کە تەواو خراپە و تووشی شۆکت دەکات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: horrifying"),
                     SentencesRow(
-                      englishText:
-                          """I wanted us to behave honourably, truthfully.""",
-                      kurdishText:
-                          """دەمویست بە بەڕێزانە ڕەفتار بکەم، ڕاستی بێت.""",
+                      englishText: """Her injuries were horrific.""",
+                      kurdishText: """برینەکانی سامناک بوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1012,22 +1010,20 @@ Usage: Brit, Cdn (US: honorably)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Millions served honourably in the war.""",
-                      kurdishText:
-                          """ملیۆنان بە شانازییەوە خزمەتیان کرد لە جەنگەکە.""",
+                      englishText: """She’s been through a horrific ordeal.""",
+                      kurdishText: """بە دۆخێکی زۆر ترسناک تێپەڕیوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵکار) بە شێوەیەک کە ڕێگا بە کەسێک دەدات ناوی باشی و ڕێزی کەسانی دیکە بپارێزێت"""),
-                    const DividerSentences(),
+                        text: """٢. (ھاوەڵناو) زۆر خراپ و ناخۆش"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: horrendous"),
                     SentencesRow(
                       englishText:
-                          """He was honourably discharged from the army on medical grounds.""",
+                          """Rob is quick to dismiss the notion that his trip was horrific.""",
                       kurdishText:
-                          """بە هۆکاری تەندرووستی بە شکۆوە لە سوپا مۆڵەت درا.""",
+                          "ڕۆب خێرایە لەوەی ئەو دیدە بەلابخات کە گەشتەکەی خراپ بوو.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

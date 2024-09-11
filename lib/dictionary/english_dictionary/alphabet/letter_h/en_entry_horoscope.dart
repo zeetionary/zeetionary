@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhonourably extends StatefulWidget {
-  const EnglishEntryhonourably({super.key});
+class EnglishEntryhoroscope extends StatefulWidget {
+  const EnglishEntryhoroscope({super.key});
 
   @override
-  State<EnglishEntryhonourably> createState() => _EnglishEntryhonourablyState();
+  State<EnglishEntryhoroscope> createState() => _EnglishEntryhoroscopeState();
 }
 
-class _EnglishEntryhonourablyState extends State<EnglishEntryhonourably> {
+class _EnglishEntryhoroscopeState extends State<EnglishEntryhoroscope> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: honourably
-Usage: Brit, Cdn (US: honorably)
-1. In an honourable manner (- honorably [US], uprightly)
-"he acted honourably";
+- Noun: horoscope (Derived forms: horoscopes)
+1. A prediction of someone's future based on the relative positions of the planets
  
-2. With honour (- honorably [US])
-"he was honourably discharged after many years of service";
+2. A diagram of the positions of the planets and signs of the zodiac at a particular time and place
 """,
   );
 
-  final String keyword = "honourably";
+  final String keyword = "horoscope";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,21 +79,22 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""honourably""");
+    await flutterTts.speak("""horoscope""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I wanted us to behave honourably, truthfully.""");
+    await flutterTts.speak("""Do you believe in horoscopes?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Millions served honourably in the war.""");
+    await flutterTts.speak(
+        """To cast someone's horoscope, you need to know their date and exact time of birth.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -104,7 +102,7 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """He was honourably discharged from the army on medical grounds.""");
+        """He likes to talk about his astrological sign, which is Leo, and reads his horoscope every day.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -929,18 +927,18 @@ Usage: Brit, Cdn (US: honorably)
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/7Byk_PmVKqM?t=';
-    const double startSecondsend = 000000000000000000000000000534;
-    const String videoIdone = 'https://youtu.be/5gOH7Mb1FUo?t=';
-    const double startSecondsone = 0000000000000000000000000001310;
-    const String videoIdtwo = 'https://youtu.be/6CZ0Q6jw4Z4?t=';
-    const double startSecondstwo = 0000000000000000000000000006245;
-    const String videoIdthree = 'https://youtu.be/Xt1G_6cSnO8?t=';
-    const double startSecondsthree = 0000000000000000000000000001009;
-    const String videoIdfour = 'https://youtu.be/XcrGQ0npuCw?t=';
-    const double startSecondsfour = 000000000000000000000000000189;
-    const String videoIdfive = 'https://youtu.be/Y4HSRtlJAM8?t=';
-    const double startSecondsfive = 0000000000000000000000000001587;
+    const String videoIdend = 'https://youtu.be/xXvgT-AgLAo?t=';
+    const double startSecondsend = 00000000000000000000000000053;
+    const String videoIdone = 'https://youtu.be/HGsjNOOaRXg?t=';
+    const double startSecondsone = 000000000000000000000000000174;
+    const String videoIdtwo = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondstwo = 0000000000000000000000000006073;
+    const String videoIdthree = 'https://youtu.be/1n2nPRxAOss?t=';
+    const double startSecondsthree = 0000000000000000000000000001244;
+    const String videoIdfour = 'https://youtu.be/LEip8nKp5SI?t=';
+    const double startSecondsfour = 000000000000000000000000000194;
+    const String videoIdfive = 'https://youtu.be/fRcPn3mJSyY?t=';
+    const double startSecondsfive = 0000000000000000000000000001321;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +951,10 @@ Usage: Brit, Cdn (US: honorably)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """honourably""",
-                      // alsoEnglishWord: "also: honourably",
-                      britshText: """IpaUK: /ˈɒnərəbli/""",
-                      americanText: """IpaUS: /ˈɑːnərəbli/""",
+                      word: """horoscope""",
+                      // alsoEnglishWord: "also: horoscope",
+                      britshText: """IpaUK: /ˈhɒrəskəʊp/""",
+                      americanText: """IpaUS: /ˈhɔːrəskəʊp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,17 +992,15 @@ Usage: Brit, Cdn (US: honorably)
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: بەڕێزانە، بەئابڕووانە، لە ڕووی ڕێزەوە
+کوردی: 
 """),
-// With short examples define "honourably", please follow LX instructions
+// With short examples define "horoscope", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە شایەنی ڕێز و ستایشە"""),
+                            """١. (ناو) پێشبینیکردنی چارەنووسی کەسێک بە پشت بەستن بە شوێنی ئەستێرە و ئەستێرەکان کە ئەو کەسە لەدایکبوو"""),
                     SentencesRow(
-                      englishText:
-                          """I wanted us to behave honourably, truthfully.""",
-                      kurdishText:
-                          """دەمویست بە بەڕێزانە ڕەفتار بکەم، ڕاستی بێت.""",
+                      englishText: """Do you believe in horoscopes?""",
+                      kurdishText: """باوەڕت بە ئەستێرەخوێنی هەیە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1012,22 +1008,21 @@ Usage: Brit, Cdn (US: honorably)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Millions served honourably in the war.""",
+                      englishText:
+                          """To cast someone's horoscope, you need to know their date and exact time of birth.""",
                       kurdishText:
-                          """ملیۆنان بە شانازییەوە خزمەتیان کرد لە جەنگەکە.""",
+                          """بۆ زانینی چارەنووسی کەسێک، دەبێت بەروار و کاتی تەواوی لەدایکبوونی بزانی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵکار) بە شێوەیەک کە ڕێگا بە کەسێک دەدات ناوی باشی و ڕێزی کەسانی دیکە بپارێزێت"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """He was honourably discharged from the army on medical grounds.""",
+                          """He likes to talk about his astrological sign, which is Leo, and reads his horoscope every day.""",
                       kurdishText:
-                          """بە هۆکاری تەندرووستی بە شکۆوە لە سوپا مۆڵەت درا.""",
+                          "حەزئەکات قسە لەسەر ھێما فەلەکناسییەکەی بکات کە بورجی لیۆیە، و ھەموو ڕۆژێک پێشبینییەکانی دەخوێنێتەوە.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

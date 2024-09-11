@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhonourably extends StatefulWidget {
-  const EnglishEntryhonourably({super.key});
+class EnglishEntryhopeful extends StatefulWidget {
+  const EnglishEntryhopeful({super.key});
 
   @override
-  State<EnglishEntryhonourably> createState() => _EnglishEntryhonourablyState();
+  State<EnglishEntryhopeful> createState() => _EnglishEntryhopefulState();
 }
 
-class _EnglishEntryhonourablyState extends State<EnglishEntryhonourably> {
+class _EnglishEntryhopefulState extends State<EnglishEntryhopeful> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: honourably
-Usage: Brit, Cdn (US: honorably)
-1. In an honourable manner (- honorably [US], uprightly)
-"he acted honourably";
+- Adjective: hopeful
+1. Having or manifesting hope
+"a line of people hopeful of obtaining tickets"; "found a hopeful way of attacking the problem"
  
-2. With honour (- honorably [US])
-"he was honourably discharged after many years of service";
+2. Likely to turn out well in the future (- bright, promising)
+"a hopeful new singer on Broadway";
+
+- Noun: hopeful (Derived forms: hopefuls)
+1. An ambitious and aspiring young person (- aspirant, aspirer, wannabe, wannabee)
+"two executive hopefuls joined the firm";
 """,
   );
 
-  final String keyword = "honourably";
+  final String keyword = "hopeful";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,43 +85,45 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""honourably""");
+    await flutterTts.speak("""hopeful""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I wanted us to behave honourably, truthfully.""");
+    await flutterTts.speak(
+        """I feel hopeful that we'll find a suitable house very soon.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Millions served honourably in the war.""");
+    await flutterTts.speak(
+        """He is not very hopeful about the outcome of the interview.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """He was honourably discharged from the army on medical grounds.""");
+    await flutterTts.speak("""She is hopeful of returning to work soon.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""She gave him a hopeful smile before the interview.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""The latest trade figures are a hopeful sign.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -929,18 +934,18 @@ Usage: Brit, Cdn (US: honorably)
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/7Byk_PmVKqM?t=';
-    const double startSecondsend = 000000000000000000000000000534;
-    const String videoIdone = 'https://youtu.be/5gOH7Mb1FUo?t=';
-    const double startSecondsone = 0000000000000000000000000001310;
-    const String videoIdtwo = 'https://youtu.be/6CZ0Q6jw4Z4?t=';
-    const double startSecondstwo = 0000000000000000000000000006245;
-    const String videoIdthree = 'https://youtu.be/Xt1G_6cSnO8?t=';
-    const double startSecondsthree = 0000000000000000000000000001009;
-    const String videoIdfour = 'https://youtu.be/XcrGQ0npuCw?t=';
-    const double startSecondsfour = 000000000000000000000000000189;
-    const String videoIdfive = 'https://youtu.be/Y4HSRtlJAM8?t=';
-    const double startSecondsfive = 0000000000000000000000000001587;
+    const String videoIdend = 'https://youtu.be/X7flefV8tec?t=';
+    const double startSecondsend = 000000000000000000000000000150;
+    const String videoIdone = 'https://youtu.be/X25WPtneYwA?t=';
+    const double startSecondsone = 000000000000000000000000000146;
+    const String videoIdtwo = 'https://youtu.be/xvGiQpNotmU?t=';
+    const double startSecondstwo = 000000000000000000000000000270;
+    const String videoIdthree = 'https://youtu.be/55XJ1ObZKaM?t=';
+    const double startSecondsthree = 00000000000000000000000000098;
+    const String videoIdfour = 'https://youtu.be/AwhBTrzzqeg?t=';
+    const double startSecondsfour = 000000000000000000000000000205;
+    const String videoIdfive = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsfive = 000000000000000000000000000892;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +958,10 @@ Usage: Brit, Cdn (US: honorably)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """honourably""",
-                      // alsoEnglishWord: "also: honourably",
-                      britshText: """IpaUK: /ˈɒnərəbli/""",
-                      americanText: """IpaUS: /ˈɑːnərəbli/""",
+                      word: """hopeful""",
+                      // alsoEnglishWord: "also: hopeful",
+                      britshText: """IpaUK: /ˈhəʊpfl/""",
+                      americanText: """IpaUS: /ˈhəʊpfl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,17 +999,18 @@ Usage: Brit, Cdn (US: honorably)
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: بەڕێزانە، بەئابڕووانە، لە ڕووی ڕێزەوە
+کوردی: هیوادار، تەماوەر، هومێدەوار، پڕهیوا، بەتەما، ئاواتەخواز، هێڤی‌خاز، هیوادەر، ورەپێدەر
 """),
-// With short examples define "honourably", please follow LX instructions
+// With short examples define "hopeful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە شایەنی ڕێز و ستایشە"""),
+                            """١. (ھاوەڵناو) هەبوونی باوەڕی ئەوەی کە ئەوەی دەتەوێت ڕوودەدات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: optimistic"),
                     SentencesRow(
                       englishText:
-                          """I wanted us to behave honourably, truthfully.""",
+                          """I feel hopeful that we'll find a suitable house very soon.""",
                       kurdishText:
-                          """دەمویست بە بەڕێزانە ڕەفتار بکەم، ڕاستی بێت.""",
+                          """بەهیوام کە زوو خانوویەکی گونجاو دەدۆزینەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1012,40 +1018,45 @@ Usage: Brit, Cdn (US: honorably)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Millions served honourably in the war.""",
+                      englishText:
+                          """He is not very hopeful about the outcome of the interview.""",
                       kurdishText:
-                          """ملیۆنان بە شانازییەوە خزمەتیان کرد لە جەنگەکە.""",
+                          """زۆر هومێدەوار نییە بە ئەنجامی چاوپێکەوتنەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵکار) بە شێوەیەک کە ڕێگا بە کەسێک دەدات ناوی باشی و ڕێزی کەسانی دیکە بپارێزێت"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """He was honourably discharged from the army on medical grounds.""",
-                      kurdishText:
-                          """بە هۆکاری تەندرووستی بە شکۆوە لە سوپا مۆڵەت درا.""",
+                          """She is hopeful of returning to work soon.""",
+                      kurdishText: """بەهیوای زوو گەڕانەوەیە بۆ کار.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە هیوا پیشان دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She gave him a hopeful smile before the interview.""",
+                      kurdishText:
+                          """پێش چاوپێکەوتنەکە بزەیەکی هیوابەخشی پێدا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە وات لێدەکات باوەڕ بکەیت شتێک کە دەتەوێت ڕوودەدات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: promising"),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The latest trade figures are a hopeful sign.""",
+                      kurdishText:
+                          """تازەترین ئامارەکانی بازرگانی ئاماژەیەکی هیوابەخشن.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

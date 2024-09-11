@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhonourably extends StatefulWidget {
-  const EnglishEntryhonourably({super.key});
+class EnglishEntryhooked extends StatefulWidget {
+  const EnglishEntryhooked({super.key});
 
   @override
-  State<EnglishEntryhonourably> createState() => _EnglishEntryhonourablyState();
+  State<EnglishEntryhooked> createState() => _EnglishEntryhookedState();
 }
 
-class _EnglishEntryhonourablyState extends State<EnglishEntryhonourably> {
+class _EnglishEntryhookedState extends State<EnglishEntryhooked> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +52,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: honourably
-Usage: Brit, Cdn (US: honorably)
-1. In an honourable manner (- honorably [US], uprightly)
-"he acted honourably";
+- Adjective: hooked
+1. Curved down like an eagle's beak (- aquiline)
+"When you take the unique shape of Swarovski's hooked crystal beads and drill them on top, you have an amazingly striking pendant";
  
-2. With honour (- honorably [US])
-"he was honourably discharged after many years of service";
+2. [informal] Addicted to a drug (- dependent, drug-addicted, strung-out)
+ 
+3. Having or resembling a hook (especially in the ability to grasp and hold) (- hooklike)
+"hooked thorns";
+ 
+4. [informal] Obsessed with or addicted to
+"hooked on the latest detective series"
 """,
   );
 
-  final String keyword = "honourably";
+  final String keyword = "hooked";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,21 +86,22 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""honourably""");
+    await flutterTts.speak("""hooked""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I wanted us to behave honourably, truthfully.""");
+    await flutterTts
+        .speak("""The eagle has a strong, hooked beak for hunting.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Millions served honourably in the war.""");
+    await flutterTts.speak("""She's completely hooked on TV.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -104,14 +109,14 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """He was honourably discharged from the army on medical grounds.""");
+        """People who are truly hooked will go to any lengths to satisfy their craving for the drug.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""I was hooked after two episodes.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -929,18 +934,18 @@ Usage: Brit, Cdn (US: honorably)
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/7Byk_PmVKqM?t=';
-    const double startSecondsend = 000000000000000000000000000534;
-    const String videoIdone = 'https://youtu.be/5gOH7Mb1FUo?t=';
-    const double startSecondsone = 0000000000000000000000000001310;
-    const String videoIdtwo = 'https://youtu.be/6CZ0Q6jw4Z4?t=';
-    const double startSecondstwo = 0000000000000000000000000006245;
-    const String videoIdthree = 'https://youtu.be/Xt1G_6cSnO8?t=';
-    const double startSecondsthree = 0000000000000000000000000001009;
-    const String videoIdfour = 'https://youtu.be/XcrGQ0npuCw?t=';
-    const double startSecondsfour = 000000000000000000000000000189;
-    const String videoIdfive = 'https://youtu.be/Y4HSRtlJAM8?t=';
-    const double startSecondsfive = 0000000000000000000000000001587;
+    const String videoIdend = 'https://youtu.be/OXhEBfK3Njc?t=';
+    const double startSecondsend = 0000000000000000000000000001077;
+    const String videoIdone = 'https://youtu.be/BiKBP2cEvHk?t=';
+    const double startSecondsone = 000000000000000000000000000700;
+    const String videoIdtwo = 'https://youtu.be/378zVUpeopY?t=';
+    const double startSecondstwo = 0000000000000000000000000002583;
+    const String videoIdthree = 'https://youtu.be/iYvWssvg1YU?t=';
+    const double startSecondsthree = 000000000000000000000000000126;
+    const String videoIdfour = 'https://youtu.be/-XtG6GjIB3Y?t=';
+    const double startSecondsfour = 000000000000000000000000000252;
+    const String videoIdfive = 'https://youtu.be/Nfr2BERLZBY?t=';
+    const double startSecondsfive = 00000000000000000000000000051;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +958,10 @@ Usage: Brit, Cdn (US: honorably)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """honourably""",
-                      // alsoEnglishWord: "also: honourably",
-                      britshText: """IpaUK: /ˈɒnərəbli/""",
-                      americanText: """IpaUS: /ˈɑːnərəbli/""",
+                      word: """hooked""",
+                      // alsoEnglishWord: "also: hooked",
+                      britshText: """IpaUK: /hʊkt/""",
+                      americanText: """IpaUS: /hʊkt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,49 +999,48 @@ Usage: Brit, Cdn (US: honorably)
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: بەڕێزانە، بەئابڕووانە، لە ڕووی ڕێزەوە
+کوردی: چنگاڵ‌ئاسا، قولاپ‌ئاسا، سەرچەماو، قولاپی، قولاپدار،	گیرۆدە، ئالوودە، فێر،	کوشتەومردە، شێت‌وشەیدا، دڵبەستە
 """),
-// With short examples define "honourably", please follow LX instructions
+// With short examples define "hooked", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە شایەنی ڕێز و ستایشە"""),
+                        text: """١. (ھاوەڵناو) کە وەک قولاپ چەماوەتەوە"""),
                     SentencesRow(
                       englishText:
-                          """I wanted us to behave honourably, truthfully.""",
+                          """The eagle has a strong, hooked beak for hunting.""",
                       kurdishText:
-                          """دەمویست بە بەڕێزانە ڕەفتار بکەم، ڕاستی بێت.""",
+                          """داڵ دەنووکێکی بەهێزی چەماوەی هەیە بۆ ڕاوکردن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) هەبوونی پێویستی بە شتێک کە خراپە بۆت، بە تایبەتی مادەی هۆشبەر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Millions served honourably in the war.""",
-                      kurdishText:
-                          """ملیۆنان بە شانازییەوە خزمەتیان کرد لە جەنگەکە.""",
+                      englishText: """She's completely hooked on TV.""",
+                      kurdishText: """تەواو گیرۆدەی تەلەفیزیۆنە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵکار) بە شێوەیەک کە ڕێگا بە کەسێک دەدات ناوی باشی و ڕێزی کەسانی دیکە بپارێزێت"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """He was honourably discharged from the army on medical grounds.""",
+                          """People who are truly hooked will go to any lengths to satisfy their craving for the drug.""",
                       kurdishText:
-                          """بە هۆکاری تەندرووستی بە شکۆوە لە سوپا مۆڵەت درا.""",
+                          """ئەو کەسانەی کە ئاڵوودەن هەموو شت دەکەن بۆ تێرکردنی حەزیان بۆ مادەی هۆشبەر.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) هەبوونی حەزێکی زۆر بۆ شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I was hooked after two episodes.""",
+                      kurdishText: """لە دوای دوو ئەڵقە دڵبەستە بووم.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

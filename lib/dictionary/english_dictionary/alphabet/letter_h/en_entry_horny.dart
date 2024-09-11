@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhonourably extends StatefulWidget {
-  const EnglishEntryhonourably({super.key});
+class EnglishEntryhorny extends StatefulWidget {
+  const EnglishEntryhorny({super.key});
 
   @override
-  State<EnglishEntryhonourably> createState() => _EnglishEntryhonourablyState();
+  State<EnglishEntryhorny> createState() => _EnglishEntryhornyState();
 }
 
-class _EnglishEntryhonourablyState extends State<EnglishEntryhonourably> {
+class _EnglishEntryhornyState extends State<EnglishEntryhorny> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: honourably
-Usage: Brit, Cdn (US: honorably)
-1. In an honourable manner (- honorably [US], uprightly)
-"he acted honourably";
+- Adjective: horny (Derived forms: horniest, hornier)
+1. [vulgar] Feeling great sexual desire (- aroused, steamy, turned on)
+"feeling horny";
  
-2. With honour (- honorably [US])
-"he was honourably discharged after many years of service";
+2. Having horns or hornlike projections
+"horny coral"; "horny (or horned) frog"
+ 
+3. Made of horn (or of a substance resembling horn) (- corneous, hornlike)
+"A venomous African snake has a horny projection above his head";
 """,
   );
 
-  final String keyword = "honourably";
+  final String keyword = "horny";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,36 +84,37 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""honourably""");
+    await flutterTts.speak("""horny""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I wanted us to behave honourably, truthfully.""");
+    await flutterTts
+        .speak("""She'd had a couple of drinks and was feeling horny.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Millions served honourably in the war.""");
+    await flutterTts.speak("""You look horny in that skirt.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """He was honourably discharged from the army on medical grounds.""");
+    await flutterTts.speak("""Birds have horny beaks.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""His horny hands were evidence of his daily hard work.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -929,18 +932,18 @@ Usage: Brit, Cdn (US: honorably)
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/7Byk_PmVKqM?t=';
-    const double startSecondsend = 000000000000000000000000000534;
-    const String videoIdone = 'https://youtu.be/5gOH7Mb1FUo?t=';
-    const double startSecondsone = 0000000000000000000000000001310;
-    const String videoIdtwo = 'https://youtu.be/6CZ0Q6jw4Z4?t=';
-    const double startSecondstwo = 0000000000000000000000000006245;
-    const String videoIdthree = 'https://youtu.be/Xt1G_6cSnO8?t=';
-    const double startSecondsthree = 0000000000000000000000000001009;
-    const String videoIdfour = 'https://youtu.be/XcrGQ0npuCw?t=';
-    const double startSecondsfour = 000000000000000000000000000189;
-    const String videoIdfive = 'https://youtu.be/Y4HSRtlJAM8?t=';
-    const double startSecondsfive = 0000000000000000000000000001587;
+    const String videoIdend = 'https://youtu.be/tHTTQIjLRzw?t=';
+    const double startSecondsend = 000000000000000000000000000109;
+    const String videoIdone = 'https://youtu.be/yxzbKjSACSU?t=';
+    const double startSecondsone = 000000000000000000000000000233;
+    const String videoIdtwo = 'https://youtu.be/rPs7yGfjlVk?t=';
+    const double startSecondstwo = 00000000000000000000000000021;
+    const String videoIdthree = 'https://youtu.be/HGG6sIgbjr0?t=';
+    const double startSecondsthree = 000000000000000000000000000151;
+    const String videoIdfour = 'https://youtu.be/y1sF6ZeASU0?t=';
+    const double startSecondsfour = 0000000000000000000000000001045;
+    const String videoIdfive = 'https://youtu.be/Cqbleas1mmo?t=';
+    const double startSecondsfive = 0000000000000000000000000001129;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +956,10 @@ Usage: Brit, Cdn (US: honorably)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """honourably""",
-                      // alsoEnglishWord: "also: honourably",
-                      britshText: """IpaUK: /ˈɒnərəbli/""",
-                      americanText: """IpaUS: /ˈɑːnərəbli/""",
+                      word: """horny""",
+                      // alsoEnglishWord: "also: horny",
+                      britshText: """IpaUK: /ˈhɔːni/""",
+                      americanText: """IpaUS: /ˈhɔːrni/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,49 +997,50 @@ Usage: Brit, Cdn (US: honorably)
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: بەڕێزانە، بەئابڕووانە، لە ڕووی ڕێزەوە
+کوردی: شاخی، لەشاخ(دروس‌کراو)، شاخ‌ئاسا، لەشاخ‌چوو، شێوەشاخ، شاخدار،	ڕەق، سەخت، زبر، ڕەقیتەبەستوو، پیناوی،	حەشەری، حەککەیی، ڕەپ‌کردوو، زۆربزواو
 """),
-// With short examples define "honourably", please follow LX instructions
+// With short examples define "horny", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە شایەنی ڕێز و ستایشە"""),
+                        text: """١. (ھاوەڵناو) ورووژاو لە ڕووی سێکسییەوە"""),
                     SentencesRow(
                       englishText:
-                          """I wanted us to behave honourably, truthfully.""",
+                          """She'd had a couple of drinks and was feeling horny.""",
                       kurdishText:
-                          """دەمویست بە بەڕێزانە ڕەفتار بکەم، ڕاستی بێت.""",
+                          """هەندێکی خواردبوویەوە و هەستی بە ورووژاوی دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) سەرنجڕاکێش لەلایەنی سێکسییەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Millions served honourably in the war.""",
-                      kurdishText:
-                          """ملیۆنان بە شانازییەوە خزمەتیان کرد لە جەنگەکە.""",
+                      englishText: """You look horny in that skirt.""",
+                      kurdishText: """بەو تەنوورەیەوە سەرنجڕاکێش دیاریت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵکار) بە شێوەیەک کە ڕێگا بە کەسێک دەدات ناوی باشی و ڕێزی کەسانی دیکە بپارێزێت"""),
+                            """٣. (ھاوەڵناو) کە لە مادەی سەختی وەک شاخ درووستکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """He was honourably discharged from the army on medical grounds.""",
-                      kurdishText:
-                          """بە هۆکاری تەندرووستی بە شکۆوە لە سوپا مۆڵەت درا.""",
+                      englishText: """Birds have horny beaks.""",
+                      kurdishText: """باڵندە دەنووکی سەختی هەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ھاوەڵناو) سەخت و زبر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His horny hands were evidence of his daily hard work.""",
+                      kurdishText:
+                          """دەستە زبرەکانی بەڵگەی کاری سەختی ڕۆژانە بوون.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

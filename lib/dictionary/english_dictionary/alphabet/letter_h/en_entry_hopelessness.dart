@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhonourably extends StatefulWidget {
-  const EnglishEntryhonourably({super.key});
+class EnglishEntryhopelessness extends StatefulWidget {
+  const EnglishEntryhopelessness({super.key});
 
   @override
-  State<EnglishEntryhonourably> createState() => _EnglishEntryhonourablyState();
+  State<EnglishEntryhopelessness> createState() =>
+      _EnglishEntryhopelessnessState();
 }
 
-class _EnglishEntryhonourablyState extends State<EnglishEntryhonourably> {
+class _EnglishEntryhopelessnessState extends State<EnglishEntryhopelessness> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: honourably
-Usage: Brit, Cdn (US: honorably)
-1. In an honourable manner (- honorably [US], uprightly)
-"he acted honourably";
- 
-2. With honour (- honorably [US])
-"he was honourably discharged after many years of service";
+- Noun: hopelessness
+1. The despair you feel when you have abandoned hope of comfort or success
+"the voicelessness of those who live in situations of hopelessness"
 """,
   );
 
-  final String keyword = "honourably";
+  final String keyword = "hopelessness";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,21 +79,23 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""honourably""");
+    await flutterTts.speak("""hopelessness""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I wanted us to behave honourably, truthfully.""");
+    await flutterTts.speak(
+        """Utter hopelessness about your future is one symptom of depression.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Millions served honourably in the war.""");
+    await flutterTts
+        .speak("""I find the hopelessness of the situation very depressing.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -104,7 +103,7 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """He was honourably discharged from the army on medical grounds.""");
+        """His hopelessness at remembering names meant that he had to look them up in his book.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -929,18 +928,18 @@ Usage: Brit, Cdn (US: honorably)
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/7Byk_PmVKqM?t=';
-    const double startSecondsend = 000000000000000000000000000534;
-    const String videoIdone = 'https://youtu.be/5gOH7Mb1FUo?t=';
-    const double startSecondsone = 0000000000000000000000000001310;
-    const String videoIdtwo = 'https://youtu.be/6CZ0Q6jw4Z4?t=';
-    const double startSecondstwo = 0000000000000000000000000006245;
-    const String videoIdthree = 'https://youtu.be/Xt1G_6cSnO8?t=';
-    const double startSecondsthree = 0000000000000000000000000001009;
-    const String videoIdfour = 'https://youtu.be/XcrGQ0npuCw?t=';
-    const double startSecondsfour = 000000000000000000000000000189;
-    const String videoIdfive = 'https://youtu.be/Y4HSRtlJAM8?t=';
-    const double startSecondsfive = 0000000000000000000000000001587;
+    const String videoIdend = 'https://youtu.be/q8HRGiUeZwc?t=';
+    const double startSecondsend = 000000000000000000000000000120;
+    const String videoIdone = 'https://youtu.be/7eM7pb5M5DU?t=';
+    const double startSecondsone = 000000000000000000000000000876;
+    const String videoIdtwo = 'https://youtu.be/9mgwZASlFvw?t=';
+    const double startSecondstwo = 0000000000000000000000000001178;
+    const String videoIdthree = 'https://youtu.be/gPHdypbzUU8?t=';
+    const double startSecondsthree = 0000000000000000000000000003;
+    const String videoIdfour = 'https://youtu.be/wGSOMKSRjkc?t=';
+    const double startSecondsfour = 000000000000000000000000000785;
+    const String videoIdfive = 'https://youtu.be/CXRxrYBgUIo?t=';
+    const double startSecondsfive = 000000000000000000000000000191;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +952,10 @@ Usage: Brit, Cdn (US: honorably)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """honourably""",
-                      // alsoEnglishWord: "also: honourably",
-                      britshText: """IpaUK: /ˈɒnərəbli/""",
-                      americanText: """IpaUS: /ˈɑːnərəbli/""",
+                      word: """hopelessness""",
+                      // alsoEnglishWord: "also: hopelessness",
+                      britshText: """IpaUK: /ˈhəʊpləsnəs/""",
+                      americanText: """IpaUS: /ˈhəʊpləsnəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,40 +993,42 @@ Usage: Brit, Cdn (US: honorably)
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: بەڕێزانە، بەئابڕووانە، لە ڕووی ڕێزەوە
+کوردی: ناهومێدی، بێ‌هیوایی، دڵساردی، لێقەوماوی، قوڕبەسەری
 """),
-// With short examples define "honourably", please follow LX instructions
+// With short examples define "hopelessness", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە شایەنی ڕێز و ستایشە"""),
+                        text: """١. (ناو) ئەوەی کە هیچ هیوایەکت نەبێت"""),
                     SentencesRow(
                       englishText:
-                          """I wanted us to behave honourably, truthfully.""",
+                          """Utter hopelessness about your future is one symptom of depression.""",
                       kurdishText:
-                          """دەمویست بە بەڕێزانە ڕەفتار بکەم، ڕاستی بێت.""",
+                          """ئەوپەڕی ناهومێدی سەبارەت بە داهاتووت نیشانەیەکی خەمۆکییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی دۆخێک تەواو خراپ بێت و هیچ هیوایەک نەبێت بۆ باش بوون"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Millions served honourably in the war.""",
+                      englishText:
+                          """I find the hopelessness of the situation very depressing.""",
                       kurdishText:
-                          """ملیۆنان بە شانازییەوە خزمەتیان کرد لە جەنگەکە.""",
+                          """بێ‌هوودەیی دۆخەکە زۆر بە بێزارکەر دەبینم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵکار) بە شێوەیەک کە ڕێگا بە کەسێک دەدات ناوی باشی و ڕێزی کەسانی دیکە بپارێزێت"""),
+                            """٣. (ناو) ئەوەی کەسێک زۆر خراپ بێت یان هیچ شارەزایی نەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """He was honourably discharged from the army on medical grounds.""",
+                          """His hopelessness at remembering names meant that he had to look them up in his book.""",
                       kurdishText:
-                          """بە هۆکاری تەندرووستی بە شکۆوە لە سوپا مۆڵەت درا.""",
+                          """خراپیی لە بیرکەوینەوەی ناو واتای ئەوە بوو کە دەبوو بۆیان بگەڕێ لە کتێبەکەی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -138,7 +138,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                             englishText:
                                 "The walled city was attacked by barbarian hordes.",
                             kurdishText:
-                                "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا.",
+                                "شارە بە شوورا دەوردراوەکە لەلایەن کۆمەڵە دەشتەکییەکانەوە بەر ھێرش درا.",
                             onPressedBritish: () => speakbarbarians1("en-GB"),
                             onPressedAmerican: () => speakbarbarians1("en-US"),
                           ),

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhonourably extends StatefulWidget {
-  const EnglishEntryhonourably({super.key});
+class EnglishEntryhorn extends StatefulWidget {
+  const EnglishEntryhorn({super.key});
 
   @override
-  State<EnglishEntryhonourably> createState() => _EnglishEntryhonourablyState();
+  State<EnglishEntryhorn> createState() => _EnglishEntryhornState();
 }
 
-class _EnglishEntryhonourablyState extends State<EnglishEntryhonourably> {
+class _EnglishEntryhornState extends State<EnglishEntryhorn> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +52,37 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: honourably
-Usage: Brit, Cdn (US: honorably)
-1. In an honourable manner (- honorably [US], uprightly)
-"he acted honourably";
+- Noun: horn (Derived forms: horns)
+1. One of the bony outgrowths on the heads of certain ungulates
  
-2. With honour (- honorably [US])
-"he was honourably discharged after many years of service";
+2. A device on an automobile for making a warning noise (- automobile horn, car horn, motor horn, hooter)
+ 
+3. A noise made by the driver of an automobile to give warning
+ 
+4. A high pommel of a Western saddle (usually metal covered with leather) (- saddle horn)
+ 
+5. A brass musical instrument with a brilliant tone; has a narrow tube and a flared bell and is played by means of valves (- cornet, trumpet, trump [archaic])
+ 
+6. Any hard protuberance from the head of an organism that is similar to or suggestive of a horn
+ 
+7. The material (mostly keratin) that covers the horns of ungulates and forms hooves and claws and nails
+ 
+8. A device having the shape of a horn
+"horns at the ends of a new moon"; "the horn of an anvil"; "the cleat had two horns"
+ 
+9. An alarm device that makes a loud warning sound
+ 
+10. A brass musical instrument consisting of a conical tube that is coiled into a spiral and played by means of valves (- French horn)
+ 
+11. (game) a noisemaker (as at parties or games) that makes a loud noise when you blow through it
+
+- Verb: horn (Derived forms: horned, horning, horns)
+1. Stab or pierce with a horn or tusk (- tusk)
+"the rhino horned the explorer";
 """,
   );
 
-  final String keyword = "honourably";
+  final String keyword = "horn";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,36 +102,35 @@ Usage: Brit, Cdn (US: honorably)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""honourably""");
+    await flutterTts.speak("""horn""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I wanted us to behave honourably, truthfully.""");
+    await flutterTts.speak("""The bull lowered its horns and charged straight at him.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Millions served honourably in the war.""");
+    await flutterTts.speak("""The male deer grows large branching horns.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """He was honourably discharged from the army on medical grounds.""");
+    await flutterTts.speak("""Impatient horn blasts began to sound behind him.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""Passing motorists honked their horns.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -928,19 +947,20 @@ Usage: Brit, Cdn (US: honorably)
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/7Byk_PmVKqM?t=';
-    const double startSecondsend = 000000000000000000000000000534;
-    const String videoIdone = 'https://youtu.be/5gOH7Mb1FUo?t=';
-    const double startSecondsone = 0000000000000000000000000001310;
-    const String videoIdtwo = 'https://youtu.be/6CZ0Q6jw4Z4?t=';
-    const double startSecondstwo = 0000000000000000000000000006245;
-    const String videoIdthree = 'https://youtu.be/Xt1G_6cSnO8?t=';
-    const double startSecondsthree = 0000000000000000000000000001009;
-    const String videoIdfour = 'https://youtu.be/XcrGQ0npuCw?t=';
-    const double startSecondsfour = 000000000000000000000000000189;
-    const String videoIdfive = 'https://youtu.be/Y4HSRtlJAM8?t=';
-    const double startSecondsfive = 0000000000000000000000000001587;
+    const String videoIdend = 'https://youtu.be/TJmTHuuYx3k?t=';
+    const double startSecondsend = 00000000000000000000000000079;
+    const String videoIdone = 'https://youtu.be/hTqtGJwsJVE?t=';
+    const double startSecondsone = 00000000000000000000000000098;
+    const String videoIdtwo = 'https://youtu.be/pFEB0chiuJA?t=';
+    const double startSecondstwo = 000000000000000000000000000170;
+    const String videoIdthree = 'https://youtu.be/VvJm4pQZ04s?t=';
+    const double startSecondsthree = 00000000000000000000000000025;
+    const String videoIdfour = 'https://youtu.be/Mx8JkGHaGUI?t=';
+    const double startSecondsfour = 0000000000000000000000000002203;
+    const String videoIdfive = 'https://youtu.be/_5qZ-WVhnRo?t=';
+    const double startSecondsfive = 0000000000000000000000000008;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +973,10 @@ Usage: Brit, Cdn (US: honorably)
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """honourably""",
-                      // alsoEnglishWord: "also: honourably",
-                      britshText: """IpaUK: /ˈɒnərəbli/""",
-                      americanText: """IpaUS: /ˈɑːnərəbli/""",
+                      word: """horn""",
+                      // alsoEnglishWord: "also: horn",
+                      britshText: """IpaUK: /hɔːn/""",
+                      americanText: """IpaUS: /hɔːrn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,17 +1014,13 @@ Usage: Brit, Cdn (US: honorably)
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: بەڕێزانە، بەئابڕووانە، لە ڕووی ڕێزەوە
+کوردی: شاخ، قۆچ، کلۆچ، ئەسرۆ، ستڕۆ، ستڕە، نەفر، شاخۆچکە،	کەڕەنا، زوڕنا، نەفیر، بۆڕی،	هۆڕن، سیگناڵ،	نووک، تیژایی (هی مانگی یەک‌شەوە)،	نووک، لووت، سەر (دەزگا)،	پیاڵە، ئاوخۆری (لە شاخ)،	(بریتانیا) چووکی ڕەپ، سیرەتی هەستاو،	لقێ لە چۆم یان کەنداوێ،	لووتکە یان نووچکەی شاخێ
 """),
-// With short examples define "honourably", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە شایەنی ڕێز و ستایشە"""),
+// With short examples define "horn", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) شاخی ئاژەڵ؛ ئەو مادە سەختەی شاخی ئاژەڵی لێ درووست دەکرێت"""),
                     SentencesRow(
-                      englishText:
-                          """I wanted us to behave honourably, truthfully.""",
-                      kurdishText:
-                          """دەمویست بە بەڕێزانە ڕەفتار بکەم، ڕاستی بێت.""",
+                      englishText: """The bull lowered its horns and charged straight at him.""",
+                      kurdishText: """جوانەگاکە شاخەکانی نزمکردەوە و ڕاست هێرشی بۆی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1012,22 +1028,17 @@ Usage: Brit, Cdn (US: honorably)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Millions served honourably in the war.""",
-                      kurdishText:
-                          """ملیۆنان بە شانازییەوە خزمەتیان کرد لە جەنگەکە.""",
+                      englishText: """The male deer grows large branching horns.""",
+                      kurdishText: """بزنی نێرە شاخی لقداری گەورە دەردەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵکار) بە شێوەیەک کە ڕێگا بە کەسێک دەدات ناوی باشی و ڕێزی کەسانی دیکە بپارێزێت"""),
+                    const DefinitionKurdish(text: """٢. (ناو) هۆرنی ئۆتۆمبێل"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """He was honourably discharged from the army on medical grounds.""",
-                      kurdishText:
-                          """بە هۆکاری تەندرووستی بە شکۆوە لە سوپا مۆڵەت درا.""",
+                      englishText: """Impatient horn blasts began to sound behind him.""",
+                      kurdishText: """دەنگی هۆرنی بێ‌ئۆقرە لە پشتییەوە دەستی پێکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1035,8 +1046,8 @@ Usage: Brit, Cdn (US: honorably)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Passing motorists honked their horns.""",
+                      kurdishText: """ماتۆڕسوارە تێپەڕیوەکان هۆرنەکانیان لێدەدا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

@@ -8445,7 +8445,7 @@ Map<String, PageBuilder> getRoutesEnglishOne() {
     // "/english-hemp/cannabis": (_) => _blP(const EnglishEntrycannabis()),
     // "/english-hippo/hippopotamus": (_) => _blP(const EnglishEntryhippopotamus()),
     // "/english-hiv/aids": (_) => _blP(const EnglishEntryaids()),
-    // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+    // "/english-hose/hosiery": (_) => _blP(const EnglishEntryhosiery()),
     // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
     // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
     // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),

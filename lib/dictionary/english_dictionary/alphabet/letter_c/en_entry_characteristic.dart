@@ -199,7 +199,7 @@ class EnglishEntrycharacteristic extends StatelessWidget {
                             englishText:
                                 "With the hospitality so characteristic of these people, they opened their house to over 50 guests.",
                             kurdishText:
-                                "بە مرۆڤدۆستییان کە تایبەتییەکی ئەم خەڵکەیە، ماڵەکەیان بەڕووی ٥٠ کەسدا کردەوە.",
+                                "بە میواندۆستییان کە تایبەتییەکی ئەم خەڵکەیە، ماڵەکەیان بەڕووی ٥٠ کەسدا کردەوە.",
                             onPressedBritish: () =>
                                 speakcharacteristics6("en-GB"),
                             onPressedAmerican: () =>

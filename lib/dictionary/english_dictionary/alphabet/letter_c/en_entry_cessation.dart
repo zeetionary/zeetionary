@@ -185,7 +185,7 @@ class EnglishEntrycessation extends StatelessWidget {
                             englishText:
                                 "Mexico called for an immediate cessation of hostilities.",
                             kurdishText:
-                                "مەکسیک داوای وەستانی دەستبەجێی توندوتیژی کردووە.",
+                                "مەکسیک داوای وەستانی دەستبەجێی پێکدادانی کردووە.",
                             onPressedBritish: () => speakcessations2("en-GB"),
                             onPressedAmerican: () => speakcessations2("en-US"),
                           ),

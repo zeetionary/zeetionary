@@ -158,7 +158,7 @@ class EnglishEntryawake extends StatelessWidget {
                             englishText:
                                 "His speech is bound to awake old fears and hostilities.",
                             kurdishText:
-                                "وتارەکەی بە ئەگەری زۆر ترس و ناکۆکی کۆن ھەڵدەداتەوە.",
+                                "وتارەکەی بە ئەگەری زۆر ترس و دژبەری کۆن ھەڵدەداتەوە.",
                             onPressedBritish: () => speakawakes3("en-GB"),
                             onPressedAmerican: () => speakawakes3("en-US"),
                           ),

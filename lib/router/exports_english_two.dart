@@ -175,21 +175,21 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 // en_entry_hostile.dart' show EnglishEntryhostile
 // en_entry_hostility.dart' show EnglishEntryhostility
 // en_entry_hot.dart' show EnglishEntryhot
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_hot_blooded.dart' show EnglishEntryhotblooded //////// hot-blooded
+// en_entry_hot_desking.dart' show EnglishEntryhotdesking //////// hot-desking
+// en_entry_hot_dog.dart' show EnglishEntryhotdog //////// hot dog
+// en_entry_hotfoot.dart' show EnglishEntryhotfoot
+// en_entry_hothead.dart' show EnglishEntryhothead
+// en_entry_hot_headed.dart' show EnglishEntryhotheaded //////// hot-headed
+// en_entry_hothouse.dart' show EnglishEntryhothouse
+// en_entry_hotline.dart' show EnglishEntryhotline
+// en_entry_hotly.dart' show EnglishEntryhotly
+// en_entry_hotspot.dart' show EnglishEntryhotspot
+// en_entry_hot_tempered.dart' show EnglishEntryhottempered //////// hot-tempered
+// en_entry_hotel.dart' show EnglishEntryhotel
+// en_entry_hotelier.dart' show EnglishEntryhotelier
+// en_entry_hound.dart' show EnglishEntryhound
+// en_entry_hour.dart' show EnglishEntryhour
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

@@ -249,14 +249,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("The children demolished their chips.");
   }
 
-  Future<void> speakdemolishs20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        "The old slums are being demolished to make way for a new housing project.0");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
